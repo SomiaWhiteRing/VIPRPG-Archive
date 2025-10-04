@@ -1,0 +1,161 @@
+import type { WorkEntry } from "@/lib/types";
+import works2005Kouhaku from "./2005-kouhaku.json";
+import works2006Gw from "./2006-gw.json";
+import works2006Kouhaku from "./2006-kouhaku.json";
+import works2006Summer from "./2006-summer.json";
+import works2007DefaultBattleFestival from "./2007-default-battle-festival.json";
+import works2007Gw from "./2007-gw.json";
+import works2007Summer from "./2007-summer.json";
+import works2008ChuuniFestival from "./2008-chuuni-festival.json";
+import works2008Gw from "./2008-gw.json";
+import works2008JisakuBattleFestival from "./2008-jisaku-battle-festival.json";
+import works2008Kouhaku from "./2008-kouhaku.json";
+import works2008SeiyokuFestival from "./2008-seiyoku-festival.json";
+import works2008Summer from "./2008-summer.json";
+import works2009Gw from "./2009-gw.json";
+import works2009Kouhaku from "./2009-kouhaku.json";
+import works2009Ksgfestival from "./2009-ksgfestival.json";
+import works2009SilverWeekMirugeFestival from "./2009-silver-week-miruge-festival.json";
+import works2009Summer from "./2009-summer.json";
+import works2010Gw from "./2010-gw.json";
+import works2010Kouhaku from "./2010-kouhaku.json";
+import works2010Summer from "./2010-summer.json";
+import works2011DenpaGameFestival from "./2011-denpa-game-festival.json";
+import works2011Gw from "./2011-gw.json";
+import works2011Kouhaku from "./2011-kouhaku.json";
+import works2011Summer from "./2011-summer.json";
+import works2011ToppatsuFestival from "./2011-toppatsu-festival.json";
+import works2012Gw from "./2012-gw.json";
+import works2012Kouhaku from "./2012-kouhaku.json";
+import works2012MagicFestival from "./2012-magic-festival.json";
+import works2012Summer from "./2012-summer.json";
+import works2012ToppuuFestival from "./2012-toppuu-festival.json";
+import works2013Gw from "./2013-gw.json";
+import works2013Kouhaku from "./2013-kouhaku.json";
+import works2013Summer from "./2013-summer.json";
+import works2014Gw from "./2014-gw.json";
+import works2014Kouhaku from "./2014-kouhaku.json";
+import works2014Summer from "./2014-summer.json";
+import works2014TsukusureFestival from "./2014-tsukusure-festival.json";
+import works2015Gw from "./2015-gw.json";
+import works2015Kouhaku from "./2015-kouhaku.json";
+import works2015Summer from "./2015-summer.json";
+import works2016Gw from "./2016-gw.json";
+import works2016Kouhaku from "./2016-kouhaku.json";
+import works2016Summer from "./2016-summer.json";
+import works2016Summer2 from "./2016-summer-2.json";
+import works2017Gw from "./2017-gw.json";
+import works2017Kouhaku from "./2017-kouhaku.json";
+import works2017Kouhaku2 from "./2017-kouhaku-2.json";
+import works2017Summer from "./2017-summer.json";
+import works2018Gw from "./2018-gw.json";
+import works2018Gw2 from "./2018-gw-2.json";
+import works2018Kouhaku from "./2018-kouhaku.json";
+import works2018Summer from "./2018-summer.json";
+import works2019Gw from "./2019-gw.json";
+import works2019Kouhaku from "./2019-kouhaku.json";
+import works2019Summer from "./2019-summer.json";
+import works2020Gw from "./2020-gw.json";
+import works2020Kouhaku from "./2020-kouhaku.json";
+import works2020Summer from "./2020-summer.json";
+import works2021Gw from "./2021-gw.json";
+import works2021Kouhaku from "./2021-kouhaku.json";
+import works2021Summer from "./2021-summer.json";
+import works2022Gw from "./2022-gw.json";
+import works2022Kouhaku from "./2022-kouhaku.json";
+import works2022Summer from "./2022-summer.json";
+import works2023Gw from "./2023-gw.json";
+import works2023Kouhaku from "./2023-kouhaku.json";
+import works2023Summer from "./2023-summer.json";
+import works2023Winter from "./2023-winter.json";
+import works2024Gw from "./2024-gw.json";
+import works2024Kouhaku from "./2024-kouhaku.json";
+import works2024Kuradashifestival from "./2024-kuradashifestival.json";
+import works2024Summer from "./2024-summer.json";
+import works2025Gw from "./2025-gw.json";
+import works2025Summer from "./2025-summer.json";
+
+export const worksByFestival: Record<string, WorkEntry[]> = {
+  "2005-kouhaku": works2005Kouhaku as WorkEntry[],
+  "2006-gw": works2006Gw as WorkEntry[],
+  "2006-kouhaku": works2006Kouhaku as WorkEntry[],
+  "2006-summer": works2006Summer as WorkEntry[],
+  "2007-default-battle-festival": works2007DefaultBattleFestival as WorkEntry[],
+  "2007-gw": works2007Gw as WorkEntry[],
+  "2007-summer": works2007Summer as WorkEntry[],
+  "2008-chuuni-festival": works2008ChuuniFestival as WorkEntry[],
+  "2008-gw": works2008Gw as WorkEntry[],
+  "2008-jisaku-battle-festival": works2008JisakuBattleFestival as WorkEntry[],
+  "2008-kouhaku": works2008Kouhaku as WorkEntry[],
+  "2008-seiyoku-festival": works2008SeiyokuFestival as WorkEntry[],
+  "2008-summer": works2008Summer as WorkEntry[],
+  "2009-gw": works2009Gw as WorkEntry[],
+  "2009-kouhaku": works2009Kouhaku as WorkEntry[],
+  "2009-ksgfestival": works2009Ksgfestival as WorkEntry[],
+  "2009-silver-week-miruge-festival": works2009SilverWeekMirugeFestival as WorkEntry[],
+  "2009-summer": works2009Summer as WorkEntry[],
+  "2010-gw": works2010Gw as WorkEntry[],
+  "2010-kouhaku": works2010Kouhaku as WorkEntry[],
+  "2010-summer": works2010Summer as WorkEntry[],
+  "2011-denpa-game-festival": works2011DenpaGameFestival as WorkEntry[],
+  "2011-gw": works2011Gw as WorkEntry[],
+  "2011-kouhaku": works2011Kouhaku as WorkEntry[],
+  "2011-summer": works2011Summer as WorkEntry[],
+  "2011-toppatsu-festival": works2011ToppatsuFestival as WorkEntry[],
+  "2012-gw": works2012Gw as WorkEntry[],
+  "2012-kouhaku": works2012Kouhaku as WorkEntry[],
+  "2012-magic-festival": works2012MagicFestival as WorkEntry[],
+  "2012-summer": works2012Summer as WorkEntry[],
+  "2012-toppuu-festival": works2012ToppuuFestival as WorkEntry[],
+  "2013-gw": works2013Gw as WorkEntry[],
+  "2013-kouhaku": works2013Kouhaku as WorkEntry[],
+  "2013-summer": works2013Summer as WorkEntry[],
+  "2014-gw": works2014Gw as WorkEntry[],
+  "2014-kouhaku": works2014Kouhaku as WorkEntry[],
+  "2014-summer": works2014Summer as WorkEntry[],
+  "2014-tsukusure-festival": works2014TsukusureFestival as WorkEntry[],
+  "2015-gw": works2015Gw as WorkEntry[],
+  "2015-kouhaku": works2015Kouhaku as WorkEntry[],
+  "2015-summer": works2015Summer as WorkEntry[],
+  "2016-gw": works2016Gw as WorkEntry[],
+  "2016-kouhaku": works2016Kouhaku as WorkEntry[],
+  "2016-summer": works2016Summer as WorkEntry[],
+  "2016-summer-2": works2016Summer2 as WorkEntry[],
+  "2017-gw": works2017Gw as WorkEntry[],
+  "2017-kouhaku": works2017Kouhaku as WorkEntry[],
+  "2017-kouhaku-2": works2017Kouhaku2 as WorkEntry[],
+  "2017-summer": works2017Summer as WorkEntry[],
+  "2018-gw": works2018Gw as WorkEntry[],
+  "2018-gw-2": works2018Gw2 as WorkEntry[],
+  "2018-kouhaku": works2018Kouhaku as WorkEntry[],
+  "2018-summer": works2018Summer as WorkEntry[],
+  "2019-gw": works2019Gw as WorkEntry[],
+  "2019-kouhaku": works2019Kouhaku as WorkEntry[],
+  "2019-summer": works2019Summer as WorkEntry[],
+  "2020-gw": works2020Gw as WorkEntry[],
+  "2020-kouhaku": works2020Kouhaku as WorkEntry[],
+  "2020-summer": works2020Summer as WorkEntry[],
+  "2021-gw": works2021Gw as WorkEntry[],
+  "2021-kouhaku": works2021Kouhaku as WorkEntry[],
+  "2021-summer": works2021Summer as WorkEntry[],
+  "2022-gw": works2022Gw as WorkEntry[],
+  "2022-kouhaku": works2022Kouhaku as WorkEntry[],
+  "2022-summer": works2022Summer as WorkEntry[],
+  "2023-gw": works2023Gw as WorkEntry[],
+  "2023-kouhaku": works2023Kouhaku as WorkEntry[],
+  "2023-summer": works2023Summer as WorkEntry[],
+  "2023-winter": works2023Winter as WorkEntry[],
+  "2024-gw": works2024Gw as WorkEntry[],
+  "2024-kouhaku": works2024Kouhaku as WorkEntry[],
+  "2024-kuradashifestival": works2024Kuradashifestival as WorkEntry[],
+  "2024-summer": works2024Summer as WorkEntry[],
+  "2025-gw": works2025Gw as WorkEntry[],
+  "2025-summer": works2025Summer as WorkEntry[],
+};
+
+export const worksById: Record<string, WorkEntry> = Object.values(worksByFestival)
+  .flat()
+  .reduce<Record<string, WorkEntry>>((acc, work) => {
+    acc[work.id] = work;
+    return acc;
+  }, {});
