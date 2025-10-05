@@ -38,6 +38,11 @@ const columnClassMap: Record<FestivalColumnKey, string> = {
   forum: "col-forum",
 };
 
+const CONTENT_TOP_OFFSET = 166;
+const CONTENT_BOTTOM_OFFSET = 24;
+const OUTLINE_TOP_OFFSET = 44;
+const OUTLINE_BOTTOM_OFFSET = 18;
+
 function normalize(text?: string): string {
   return text?.toLocaleLowerCase() ?? "";
 }
@@ -85,6 +90,8 @@ export default function FestivalBoard({ groups }: FestivalBoardProps) {
   const outlineRef = useRef<HTMLDivElement | null>(null);
   const outlineLinksRef = useRef<Record<string, HTMLAnchorElement | null>>({});
   const panelRefs = useRef<Record<string, HTMLDivElement | null>>({});
+  const visibleFestivalsRef = useRef(new Set<string>());
+  const activeFestivalRef = useRef<string>("");
   const [panelHeights, setPanelHeights] = useState<Record<string, number>>({});
 
   const updatePanelHeights = useCallback(() => {
@@ -128,6 +135,10 @@ export default function FestivalBoard({ groups }: FestivalBoardProps) {
   );
 
   const [activeFestival, setActiveFestival] = useState<string>(() => festivalsFlat[0]?.slug ?? "");
+
+  useEffect(() => {
+    activeFestivalRef.current = activeFestival;
+  }, [activeFestival]);
 
   const [expanded, setExpanded] = useState<Record<string, boolean>>(() => {
     const latest = groups.at(0)?.festivals ?? [];
@@ -177,17 +188,56 @@ export default function FestivalBoard({ groups }: FestivalBoardProps) {
     if (typeof window === "undefined") {
       return;
     }
+
+    activeFestivalRef.current = activeFestivalRef.current || (festivalsFlat[0]?.slug ?? "");
+    const visibleSet = visibleFestivalsRef.current;
+    visibleSet.clear();
+
     const observer = new IntersectionObserver(
       (entries) => {
         for (const entry of entries) {
+          const id = entry.target.id;
           if (entry.isIntersecting) {
-            setActiveFestival(entry.target.id);
+            visibleSet.add(id);
+          } else {
+            visibleSet.delete(id);
           }
+        }
+
+        const firstVisible = festivalsFlat.find((item) =>
+          visibleSet.has(item.slug)
+        );
+
+        let nextActive = firstVisible?.slug;
+
+        if (!nextActive) {
+          let fallback = activeFestivalRef.current;
+          const offsetTop = CONTENT_TOP_OFFSET + window.scrollY;
+
+          for (const item of festivalsFlat) {
+            const element = document.getElementById(item.slug);
+            if (!element) {
+              continue;
+            }
+            const top = element.getBoundingClientRect().top + window.scrollY;
+            if (top <= offsetTop) {
+              fallback = item.slug;
+            } else if (fallback) {
+              break;
+            }
+          }
+
+          nextActive = fallback;
+        }
+
+        if (nextActive && nextActive !== activeFestivalRef.current) {
+          activeFestivalRef.current = nextActive;
+          setActiveFestival(nextActive);
         }
       },
       {
-        rootMargin: "-45% 0px -45% 0px",
-        threshold: 0,
+        rootMargin: `-${CONTENT_TOP_OFFSET}px 0px -${CONTENT_BOTTOM_OFFSET}px 0px`,
+        threshold: [0, 0.25, 0.5, 0.75, 1],
       }
     );
 
@@ -198,6 +248,7 @@ export default function FestivalBoard({ groups }: FestivalBoardProps) {
     elements.forEach((el) => observer.observe(el));
 
     return () => {
+      visibleSet.clear();
       elements.forEach((el) => observer.unobserve(el));
       observer.disconnect();
     };
@@ -214,8 +265,17 @@ export default function FestivalBoard({ groups }: FestivalBoardProps) {
     const containerRect = container.getBoundingClientRect();
     const linkRect = activeLink.getBoundingClientRect();
 
-    if (linkRect.top < containerRect.top || linkRect.bottom > containerRect.bottom) {
-      activeLink.scrollIntoView({ block: "nearest", behavior: "smooth" });
+    const linkTop = linkRect.top - containerRect.top + container.scrollTop;
+    const linkBottom = linkRect.bottom - containerRect.top + container.scrollTop;
+    const visibleTop = container.scrollTop + OUTLINE_TOP_OFFSET;
+    const visibleBottom = container.scrollTop + container.clientHeight - OUTLINE_BOTTOM_OFFSET;
+
+    if (linkTop < visibleTop) {
+      const target = Math.max(linkTop - OUTLINE_TOP_OFFSET, 0);
+      container.scrollTo({ top: target, behavior: "smooth" });
+    } else if (linkBottom > visibleBottom) {
+      const target = Math.max(linkBottom - container.clientHeight + OUTLINE_BOTTOM_OFFSET, 0);
+      container.scrollTo({ top: target, behavior: "smooth" });
     }
   }, [activeFestival]);
 
@@ -228,6 +288,43 @@ export default function FestivalBoard({ groups }: FestivalBoardProps) {
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, [updatePanelHeights]);
+
+  const handleOutlineClick = useCallback(
+    (event: React.MouseEvent<HTMLAnchorElement>, slug: string) => {
+      if (
+        event.defaultPrevented ||
+        event.button !== 0 ||
+        event.metaKey ||
+        event.altKey ||
+        event.ctrlKey ||
+        event.shiftKey
+      ) {
+        return;
+      }
+
+      event.preventDefault();
+
+      if (typeof window === "undefined") {
+        setActiveFestival(slug);
+        return;
+      }
+
+      const element = document.getElementById(slug);
+      if (!element) {
+        setActiveFestival(slug);
+        return;
+      }
+
+      const rect = element.getBoundingClientRect();
+      const absoluteTop = window.scrollY + rect.top;
+      const target = Math.max(absoluteTop - CONTENT_TOP_OFFSET, 0);
+
+      window.scrollTo({ top: target, behavior: "smooth" });
+      window.history.replaceState(null, "", `#${slug}`);
+      setActiveFestival(slug);
+    },
+    []
+  );
 
   const noResults = views.every((group) =>
     group.festivals.every(({ filteredWorks }) => filteredWorks.length === 0)
@@ -256,7 +353,7 @@ export default function FestivalBoard({ groups }: FestivalBoardProps) {
                       }
                       outlineLinksRef.current[festival.slug] = element;
                     }}
-                    onClick={() => setActiveFestival(festival.slug)}
+                    onClick={(event) => handleOutlineClick(event, festival.slug)}
                   >
                     {festival.name}
                   </a>
