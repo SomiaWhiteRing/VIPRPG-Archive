@@ -284,119 +284,122 @@ export default function FestivalBoard({ groups }: FestivalBoardProps) {
             {noResults && <p className="note">{dictionary.searchEmpty}</p>}
           </div>
         </div>
-        
-        {views.map((group) => (
-          <section key={group.year} className="board-year">
-            <header className="year-header">
-              <h2>{group.year}</h2>
-              {/* <span>
-                {group.festivals.length} {dictionary.festivalsCount}
-              </span> */}
-            </header>
-            {group.festivals.map(({ festival, filteredWorks }) => {
-              const isExpanded = expanded[festival.id] ?? false;
-              const displayWorks = searchTerm ? filteredWorks : festival.works;
-              const measuredHeight = panelHeights[festival.id] ?? 0;
-              const panelMaxHeightValue = measuredHeight > 0 ? `${measuredHeight}px` : isExpanded ? "1px" : "0px";
 
-              return (
-                <article key={festival.id} id={festival.slug} className="festival-card">
-                  <header className="festival-header">
-                    <div className="festival-title">
-                      <h3>{festival.name}</h3>
-                      {festival.period && <span className="period">{festival.period}</span>}
-                    </div>
-                    <div className="festival-banners">
-                      {festival.banners.map((src) => (
-                        <Image
-                          key={src}
-                          src={src}
-                          alt={`${festival.name} banner`}
-                          width={160}
-                          height={40}
-                          className="banner-image"
-                          unoptimized
-                        />
-                      ))}
-                    </div>
-                    <button
-                      type="button"
-                      className="toggle"
-                      onClick={() =>
-                        setExpanded((prev) => ({
-                          ...prev,
-                          [festival.id]: !isExpanded,
-                        }))
-                      }
-                      aria-expanded={isExpanded}
-                      aria-controls={`${festival.id}-panel`}
+        <div className="board-views">
+          {views.map((group) => (
+            <section key={group.year} className="board-year">
+              <header className="year-header">
+                <h2>{group.year}</h2>
+                {/* <span>
+                  {group.festivals.length} {dictionary.festivalsCount}
+                </span> */}
+              </header>
+              {group.festivals.map(({ festival, filteredWorks }) => {
+                const isExpanded = expanded[festival.id] ?? false;
+                const displayWorks = searchTerm ? filteredWorks : festival.works;
+                const measuredHeight = panelHeights[festival.id] ?? 0;
+                const panelMaxHeightValue = measuredHeight > 0 ? `${measuredHeight}px` : isExpanded ? "1px" : "0px";
+
+                return (
+                  <article key={festival.id} id={festival.slug} className="festival-card">
+                    <header className="festival-header">
+                      <div className="festival-title">
+                        <h3>{festival.name}</h3>
+                        {festival.period && <span className="period">{festival.period}</span>}
+                      </div>
+                      <div className="festival-banners">
+                        {festival.banners.map((src) => (
+                          <Image
+                            key={src}
+                            src={src}
+                            alt={`${festival.name} banner`}
+                            width={160}
+                            height={40}
+                            className="banner-image"
+                            unoptimized
+                          />
+                        ))}
+                      </div>
+                      <button
+                        type="button"
+                        className="toggle"
+                        onClick={() =>
+                          setExpanded((prev) => ({
+                            ...prev,
+                            [festival.id]: !isExpanded,
+                          }))
+                        }
+                        aria-expanded={isExpanded}
+                        aria-controls={`${festival.id}-panel`}
+                      >
+                        {isExpanded ? dictionary.collapse : dictionary.expand}
+                      </button>
+                    </header>
+
+                    <div
+                      id={`${festival.id}-panel`}
+                      ref={(element) => {
+                        if (!element) {
+                          delete panelRefs.current[festival.id];
+                          return;
+                        }
+                        panelRefs.current[festival.id] = element;
+                      }}
+                      className={isExpanded ? "festival-body expanded" : "festival-body collapsed"}
+                      aria-hidden={!isExpanded}
+                      style={{ "--festival-panel-max": panelMaxHeightValue } as CSSProperties}
                     >
-                      {isExpanded ? dictionary.collapse : dictionary.expand}
-                    </button>
-                  </header>
-
-                  <div
-                    id={`${festival.id}-panel`}
-                    ref={(element) => {
-                      if (!element) {
-                        delete panelRefs.current[festival.id];
-                        return;
-                      }
-                      panelRefs.current[festival.id] = element;
-                    }}
-                    className={isExpanded ? "festival-body expanded" : "festival-body collapsed"}
-                    aria-hidden={!isExpanded}
-                    style={{ "--festival-panel-max": panelMaxHeightValue } as CSSProperties}
-                  >
-                    <div className="festival-body-inner">
-                      <div className="festival-scroll">
-                        <table className="festival-table">
-                          <colgroup>
-                            {festival.columns.map((column) => (
-                              <col key={column} className={columnClassMap[column]} />
-                            ))}
-                          </colgroup>
-                          <thead>
-                            <tr>
-                              {festival.columns.map((column) => {
-                                const header = renderHeader(column, dictionary);
-                                return (
-                                  <th key={column} className={header.className}>
-                                    {header.label}
-                                  </th>
-                                );
-                              })}
-                            </tr>
-                          </thead>
-                          <tbody>
-                            {displayWorks.map((work) => (
-                              <tr key={work.id}>
+                      <div className="festival-body-inner">
+                        <div className="festival-scroll">
+                          <table className="festival-table">
+                            <colgroup>
+                              {festival.columns.map((column) => (
+                                <col key={column} className={columnClassMap[column]} />
+                              ))}
+                            </colgroup>
+                            <thead>
+                              <tr>
                                 {festival.columns.map((column) => {
-                                  const cell = renderCell({
-                                    column,
-                                    work,
-                                    term: normalize(searchTerm),
-                                    dictionary,
-                                  });
+                                  const header = renderHeader(column, dictionary);
                                   return (
-                                    <td key={`${work.id}-${column}`} className={cell.className}>
-                                      {cell.node}
-                                    </td>
+                                    <th key={column} className={header.className}>
+                                      {header.label}
+                                    </th>
                                   );
                                 })}
                               </tr>
-                            ))}
-                          </tbody>
-                        </table>
+                            </thead>
+                            <tbody>
+                              {displayWorks.map((work) => (
+                                <tr key={work.id}>
+                                  {festival.columns.map((column) => {
+                                    const cell = renderCell({
+                                      column,
+                                      work,
+                                      term: normalize(searchTerm),
+                                      dictionary,
+                                    });
+                                    return (
+                                      <td key={`${work.id}-${column}`} className={cell.className}>
+                                        {cell.node}
+                                      </td>
+                                    );
+                                  })}
+                                </tr>
+                              ))}
+                            </tbody>
+                          </table>
+                        </div>
+                        {displayWorks.length === 0 && <p className="note">{dictionary.searchEmpty}</p>}
                       </div>
-                      {displayWorks.length === 0 && <p className="note">{dictionary.searchEmpty}</p>}
                     </div>
-                  </div>
-                </article>
-              );
-            })}
-          </section>
-        ))}
+                  </article>
+                );
+              })}
+            </section>
+          ))}
+        </div>
+
       </div>
     </div>
   );

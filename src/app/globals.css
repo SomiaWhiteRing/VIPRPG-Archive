@@ -122,8 +122,12 @@ a:focus-visible {
   border-top: 1px solid var(--border);
   font-size: 13px;
   color: var(--text-subtle);
-  text-align: right;
   background: var(--bg-surface);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px 16px;
 }
 
 .board-layout {
@@ -195,16 +199,16 @@ a:focus-visible {
 .board-content {
   display: flex;
   flex-direction: column;
-  gap: 28px;
+  gap: 16px;
 }
 
 .board-search-spacer {
+  background: var(--bg-body);
   position: sticky;
   top: 0;
-  margin: -24px 0;
-  padding: 24px 0;
-  background-color: var(--bg-body);
-  z-index: 10;
+  z-index: 1;
+  margin: -24px 0 16px;
+  padding: 24px 0 16px;
 }
 
 .board-search {
@@ -212,6 +216,12 @@ a:focus-visible {
   border-radius: 16px;
   border: 1px solid var(--border);
   background: var(--bg-surface-muted);
+}
+
+.board-views {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
 }
 
 .label {
@@ -243,6 +253,7 @@ a:focus-visible {
 }
 
 .board-year {
+  width: 100%;
   border: 1px solid var(--border);
   border-radius: 18px;
   background: var(--bg-surface);
@@ -820,4 +831,8 @@ a:focus-visible {
   display: block;
   opacity: 1;
   position: static;
+}
+
+.site-footer-copy {
+  margin-left: auto;
 }

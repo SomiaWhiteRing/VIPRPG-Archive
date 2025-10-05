@@ -12,6 +12,9 @@ export default function SiteChrome({ children }: { children: React.ReactNode }) 
           <h1 className="site-title">{dictionary.siteTitle}</h1>
           <p className="site-subtitle">{dictionary.siteSubtitle}</p>
         </div>
+      </header>
+      <main className="site-main">{children}</main>
+      <footer className="site-footer">
         <nav className="site-lang-switch" aria-label="Language selector">
           {locales.map((item) => (
             <button
@@ -25,9 +28,8 @@ export default function SiteChrome({ children }: { children: React.ReactNode }) 
             </button>
           ))}
         </nav>
-      </header>
-      <main className="site-main">{children}</main>
-      <footer className="site-footer">© VIPRPG Archive Prototype</footer>
+        <p className="site-footer-copy">© VIPRPG Archive Prototype</p>
+      </footer>
     </div>
   );
 }
