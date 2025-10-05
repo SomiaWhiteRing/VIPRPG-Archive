@@ -2,10 +2,13 @@
 
 import {
   JSX,
+  useCallback,
   useEffect,
+  useLayoutEffect,
   useMemo,
   useRef,
   useState,
+  type CSSProperties,
   type ReactNode,
 } from "react";
 import Link from "next/link";
@@ -81,6 +84,35 @@ export default function FestivalBoard({ groups }: FestivalBoardProps) {
   const [searchTerm, setSearchTerm] = useState("");
   const outlineRef = useRef<HTMLDivElement | null>(null);
   const outlineLinksRef = useRef<Record<string, HTMLAnchorElement | null>>({});
+  const panelRefs = useRef<Record<string, HTMLDivElement | null>>({});
+  const [panelHeights, setPanelHeights] = useState<Record<string, number>>({});
+
+  const updatePanelHeights = useCallback(() => {
+    setPanelHeights((prev) => {
+      let changed = false;
+      let next = prev;
+
+      for (const [id, element] of Object.entries(panelRefs.current)) {
+        if (!element) {
+          continue;
+        }
+        const inner = element.firstElementChild as HTMLElement | null;
+        const measured = inner?.scrollHeight ?? element.scrollHeight;
+        const rounded = Math.ceil(measured);
+        if (!rounded || prev[id] === rounded) {
+          continue;
+        }
+        if (!changed) {
+          next = { ...prev };
+          changed = true;
+        }
+        next[id] = rounded;
+      }
+
+      return changed ? next : prev;
+    });
+  }, []);
+
 
   const festivalsFlat = useMemo(
     () =>
@@ -186,6 +218,17 @@ export default function FestivalBoard({ groups }: FestivalBoardProps) {
       activeLink.scrollIntoView({ block: "nearest", behavior: "smooth" });
     }
   }, [activeFestival]);
+
+  useLayoutEffect(() => {
+    updatePanelHeights();
+  }, [updatePanelHeights, views]);
+
+  useEffect(() => {
+    const handleResize = () => updatePanelHeights();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, [updatePanelHeights]);
+
   const noResults = views.every((group) =>
     group.festivals.every(({ filteredWorks }) => filteredWorks.length === 0)
   );
@@ -225,20 +268,23 @@ export default function FestivalBoard({ groups }: FestivalBoardProps) {
       </aside>
 
       <div className="board-content">
-        <div className="board-search">
-          <label className="label" htmlFor="festival-search">
-            {dictionary.searchLabel}
-          </label>
-          <input
-            id="festival-search"
-            className="input"
-            placeholder={dictionary.searchPlaceholder}
-            value={searchTerm}
-            onChange={(event) => setSearchTerm(event.target.value)}
-          />
-          {noResults && <p className="note">{dictionary.searchEmpty}</p>}
+        
+        <div className="board-search-spacer">
+          <div className="board-search">
+            <label className="label" htmlFor="festival-search">
+              {dictionary.searchLabel}
+            </label>
+            <input
+              id="festival-search"
+              className="input"
+              placeholder={dictionary.searchPlaceholder}
+              value={searchTerm}
+              onChange={(event) => setSearchTerm(event.target.value)}
+            />
+            {noResults && <p className="note">{dictionary.searchEmpty}</p>}
+          </div>
         </div>
-
+        
         {views.map((group) => (
           <section key={group.year} className="board-year">
             <header className="year-header">
@@ -250,6 +296,8 @@ export default function FestivalBoard({ groups }: FestivalBoardProps) {
             {group.festivals.map(({ festival, filteredWorks }) => {
               const isExpanded = expanded[festival.id] ?? false;
               const displayWorks = searchTerm ? filteredWorks : festival.works;
+              const measuredHeight = panelHeights[festival.id] ?? 0;
+              const panelMaxHeightValue = measuredHeight > 0 ? `${measuredHeight}px` : isExpanded ? "1px" : "0px";
 
               return (
                 <article key={festival.id} id={festival.slug} className="festival-card">
@@ -289,8 +337,16 @@ export default function FestivalBoard({ groups }: FestivalBoardProps) {
 
                   <div
                     id={`${festival.id}-panel`}
+                    ref={(element) => {
+                      if (!element) {
+                        delete panelRefs.current[festival.id];
+                        return;
+                      }
+                      panelRefs.current[festival.id] = element;
+                    }}
                     className={isExpanded ? "festival-body expanded" : "festival-body collapsed"}
                     aria-hidden={!isExpanded}
+                    style={{ "--festival-panel-max": panelMaxHeightValue } as CSSProperties}
                   >
                     <div className="festival-body-inner">
                       <div className="festival-scroll">
@@ -453,9 +509,3 @@ function renderCell({
       return { node: <span>-</span>, className: baseClass };
   }
 }
-
-
-
-
-
-

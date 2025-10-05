@@ -108,6 +108,7 @@ a:focus-visible {
   display: flex;
   flex-direction: column;
   gap: 24px;
+  background-color: var(--bg-body);
 }
 
 @media (max-width: 900px) {
@@ -195,6 +196,15 @@ a:focus-visible {
   display: flex;
   flex-direction: column;
   gap: 28px;
+}
+
+.board-search-spacer {
+  position: sticky;
+  top: 0;
+  margin: -24px 0;
+  padding: 24px 0;
+  background-color: var(--bg-body);
+  z-index: 10;
 }
 
 .board-search {
@@ -301,6 +311,8 @@ a:focus-visible {
   font-weight: 600;
   cursor: pointer;
   transition: border-color 0.2s ease, color 0.2s ease;
+  width: 5rem;
+  text-align: center;
 }
 
 .toggle:hover,
@@ -311,16 +323,17 @@ a:focus-visible {
 }
 
 .festival-body {
-  display: grid;
-  grid-template-rows: 0fr;
-  transition: grid-template-rows 0.35s ease, opacity 0.35s ease;
   overflow: hidden;
+  max-height: 0;
   opacity: 0;
+  transform: translateY(-6px);
+  transition: max-height 0.35s ease, opacity 0.3s ease, transform 0.35s ease;
 }
 
 .festival-body.expanded {
-  grid-template-rows: 1fr;
+  max-height: var(--festival-panel-max, 900px);
   opacity: 1;
+  transform: translateY(0);
   pointer-events: auto;
 }
 
@@ -331,6 +344,10 @@ a:focus-visible {
 .festival-body-inner {
   padding: 0 20px 20px;
   overflow: hidden;
+}
+
+.festival-body.collapsed .festival-body-inner {
+  padding-bottom: 0;
 }
 
 .festival-scroll {
@@ -804,4 +821,3 @@ a:focus-visible {
   opacity: 1;
   position: static;
 }
-
