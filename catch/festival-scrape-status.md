@@ -7,7 +7,7 @@
 - [ ] `2024-kuradashifestival` VIPRPG蔵出し祭り
 - [ ] `2024-summer` VIPRPG夏の陣2024
 - [ ] `2023-gw` VIPRPG GW祭2023
-- [ ] `2023-kouhaku` VIPRPG紅白2023
+- [x] `2023-kouhaku` VIPRPG紅白2023
 - [x] `2023-summer` VIPRPG夏の陣2023
 - [ ] `2023-winter` VIPRPG辰年記念祭2023
 - [ ] `2022-gw` VIPRPG 2022GW祭
