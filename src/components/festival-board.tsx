@@ -585,15 +585,23 @@ function renderCell({
         ),
         className: `${baseClass} cell-streaming`,
       };
-    case "download":
+    case "download": {
+      const downloadUrl = work.download?.url;
+      if (downloadUrl) {
+        return {
+          node: (
+            <a className="button" href={downloadUrl} target="_blank" rel="noopener noreferrer">
+              {work.download?.label ?? dictionary.downloadButton}
+            </a>
+          ),
+          className: `${baseClass} cell-center`,
+        };
+      }
       return {
-        node: (
-          <a className="button" href={work.download.url} target="_blank" rel="noopener noreferrer">
-            {work.download.label ?? dictionary.downloadButton}
-          </a>
-        ),
+        node: <span className="muted">-</span>,
         className: `${baseClass} cell-center`,
       };
+    }
     case "forum":
       return {
         node: work.forum ? (

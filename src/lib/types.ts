@@ -33,7 +33,7 @@ export interface WorkEntry {
   author: string;
   streaming?: string;
   streamingPolicy?: "allow" | "restricted" | "forbid";
-  download: WorkDownload;
+  download?: WorkDownload;
   forum?: string;
   authorComment?: string;
   hostComment?: string;

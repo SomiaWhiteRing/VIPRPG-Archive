@@ -52,7 +52,7 @@ const festivalSchema = {
 const workSchema = {
   type: "object",
   additionalProperties: false,
-  required: ["id", "festivalId", "title", "author", "download"],
+  required: ["id", "festivalId", "title", "author"],
   properties: {
     id: { type: "string", minLength: 1 },
     festivalId: { type: "string", minLength: 1 },
@@ -78,7 +78,6 @@ const workSchema = {
     ss: {
       type: "array",
       minItems: 1,
-      maxItems: 2,
       items: { type: "string", minLength: 1 },
     },
   },

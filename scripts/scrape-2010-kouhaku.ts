@@ -12,7 +12,6 @@ const FESTIVAL_ID = "2010-kouhaku";
 const FESTIVAL_SLUG = "2010-kouhaku";
 const BASE_HOST = "vipkohaku20102.web.fc2.com";
 const HTTPS_BASE = `https://${BASE_HOST}`;
-const DOWNLOAD_BASE = "https://files.viprpg-archive.local";
 
 const CATCH_DIR = path.join(process.cwd(), "catch");
 const ENTRY_DIR = path.join(CATCH_DIR, "entry");
@@ -56,7 +55,7 @@ interface WorkEntry {
   category?: string;
   engine?: string;
   author: string;
-  download: { url: string };
+  download?: { url: string; label?: string };
   forum?: string;
   authorComment?: string;
   hostComment?: string;
@@ -71,6 +70,7 @@ interface SnapshotRecord {
   note?: string;
   error?: string;
   skippedScreenshots?: string[];
+  downloadSource?: string;
 }
 
 interface ScreenshotSkip {
@@ -545,17 +545,12 @@ function parseEntryHtml(no: string, html: string, entryUrl: string) {
     category,
     engine,
     author,
-    download: { url: `${DOWNLOAD_BASE}/${FESTIVAL_SLUG}/${FESTIVAL_SLUG}-${no}.zip` },
     forum,
     authorComment,
     hostComment,
   };
 
-  if (externalDownload) {
-    work.download.url = externalDownload;
-  }
-
-  return { work, iconUrl, screenshotUrls };
+  return { work, iconUrl, screenshotUrls, downloadSource: externalDownload };
 }
 
 async function ensureIconAsset(no: string, iconUrl: string | undefined, entryTimestamp?: string) {
@@ -725,6 +720,7 @@ async function ensureBannerAsset(bannerUrl: string | undefined) {
 async function processEntry(entry: EntryMeta, menuSource: string): Promise<EntryProcessingResult> {
   const { html, entryUrl, entryTimestamp } = await fetchEntryHtml(entry.no, entry.href, menuSource);
   const parsed = parseEntryHtml(entry.no, html, entryUrl);
+  const downloadSource = parsed.downloadSource;
   const iconPath = await ensureIconAsset(entry.no, parsed.iconUrl, entryTimestamp);
   if (iconPath) {
     parsed.work.icon = iconPath;
@@ -767,6 +763,7 @@ async function processEntry(entry: EntryMeta, menuSource: string): Promise<Entry
     icon: parsed.work.icon,
     note: noteParts.length > 0 ? noteParts.join("; ") : undefined,
     skippedScreenshots: skippedSummary.length > 0 ? skippedSummary : undefined,
+    downloadSource,
   };
 
   const failureRecord = screenshotResult.failures.length > 0 ? { no: entry.no, sources: screenshotResult.failures } : undefined;

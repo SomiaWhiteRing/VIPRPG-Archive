@@ -1,7 +1,7 @@
 # 抓取记录
 
-- [ ] `2025-gw` VIPRPG GW祭2025
-- [ ] `2025-summer` VIPRPG2025夏の陣
+- [x] `2025-gw` VIPRPG GW祭2025（完成）
+- [x] `2025-summer` VIPRPG2025夏の陣
 - [ ] `2024-gw` VIPRPG GW祭2024
 - [ ] `2024-kouhaku` VIPRPG2024紅白
 - [ ] `2024-kuradashifestival` VIPRPG蔵出し祭り
@@ -55,7 +55,7 @@
 - [ ] `2011-summer` VIPRPG 夏の陣 2011
 - [ ] `2011-toppatsu-festival` VIPRPG 突発祭り
 - [ ] `2010-gw` VIPRPG GW祭り 2010
-- [ ] `2010-kouhaku` VIPRPG紅白 2010年
+- [x] `2010-kouhaku` VIPRPG紅白 2010年
 - [ ] `2010-summer` VIPRPG夏の陣 2010年
 - [ ] `2009-gw` VIPRPG GW祭り2009
 - [ ] `2009-kouhaku` VIPRPG紅白 2009年

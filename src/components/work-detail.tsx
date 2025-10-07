@@ -13,6 +13,9 @@ export default function WorkDetail({
   festival?: Festival;
 }) {
   const { dictionary } = useLanguage();
+  const downloadUrl = work.download?.url;
+  const downloadLabel = work.download?.label ?? "DL";
+  const forumUrl = work.forum;
 
   return (
     <article className="detail-card">
@@ -59,16 +62,20 @@ export default function WorkDetail({
         </section>
       )}
 
-      <section className="detail-section">
-        <a className="download-button" href={work.download.url} target="_blank" rel="noopener noreferrer">
-          {work.download.label ?? "DL"}
-        </a>
-        {work.forum && (
-          <a className="forum-link" href={work.forum} target="_blank" rel="noopener noreferrer">
-            Forum
-          </a>
-        )}
-      </section>
+      {(downloadUrl || forumUrl) && (
+        <section className="detail-section">
+          {downloadUrl && (
+            <a className="download-button" href={downloadUrl} target="_blank" rel="noopener noreferrer">
+              {downloadLabel}
+            </a>
+          )}
+          {forumUrl && (
+            <a className="forum-link" href={forumUrl} target="_blank" rel="noopener noreferrer">
+              Forum
+            </a>
+          )}
+        </section>
+      )}
 
       <div className="detail-nav">
         <Link href="/" className="nav-link">
@@ -85,6 +92,10 @@ export default function WorkDetail({
 }
 
 function renderScreenshots(images: string[]) {
+  if (images.length === 0) {
+    return null;
+  }
+
   if (images.length === 1) {
     return (
       <div className="ss-frame single">
@@ -93,11 +104,29 @@ function renderScreenshots(images: string[]) {
     );
   }
 
-  const [first, second] = images;
+  if (images.length === 2) {
+    const [first, second] = images;
+    return (
+      <div className="ss-frame dual">
+        <Image src={first} alt="Screenshot" width={640} height={360} className="ss-image" unoptimized />
+        <Image src={second} alt="Screenshot" width={640} height={360} className="ss-image secondary" unoptimized />
+      </div>
+    );
+  }
+
   return (
-    <div className="ss-frame dual">
-      <Image src={first} alt="Screenshot" width={640} height={360} className="ss-image" unoptimized />
-      <Image src={second} alt="Screenshot" width={640} height={360} className="ss-image secondary" unoptimized />
+    <div className="ss-frame multi">
+      {images.map((src, index) => (
+        <Image
+          key={`${src}-${index}`}
+          src={src}
+          alt="Screenshot"
+          width={640}
+          height={360}
+          className="ss-image"
+          unoptimized
+        />
+      ))}
     </div>
   );
 }
