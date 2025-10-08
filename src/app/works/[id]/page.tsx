@@ -3,8 +3,7 @@ import { notFound } from "next/navigation";
 import { worksByFestival } from "@/data/works";
 import { getFestivalBySlug, getWorkById, getWorksForFestival } from "@/lib/data";
 import { getDictionary } from "@/lib/i18n";
-import WorkDetail from "@/components/work-detail";
-import WorkOutline from "@/components/work-outline";
+import WorkDetailView from "@/components/work-detail-view";
 
 interface WorkPageProps {
   params: { id: string };
@@ -46,10 +45,5 @@ export default function WorkPage({ params }: WorkPageProps) {
   const festival = getFestivalBySlug(work.festivalId);
   const works = festival ? getWorksForFestival(festival.id) : [];
 
-  return (
-    <div className="detail-layout">
-      <WorkOutline festival={festival} works={works} activeId={work.id} />
-      <WorkDetail work={work} festival={festival} />
-    </div>
-  );
+  return <WorkDetailView festival={festival} works={works} activeId={work.id} />;
 }

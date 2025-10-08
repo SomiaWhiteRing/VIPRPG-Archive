@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useLanguage } from "@/components/language-context";
 
 export default function SiteChrome({ children }: { children: React.ReactNode }) {
@@ -9,7 +10,11 @@ export default function SiteChrome({ children }: { children: React.ReactNode }) 
     <div className="site-shell" data-locale={locale}>
       <header className="site-header">
         <div className="site-headline">
-          <h1 className="site-title">{dictionary.siteTitle}</h1>
+          <h1 className="site-title">
+            <Link href="/" className="site-title-link">
+              {dictionary.siteTitle}
+            </Link>
+          </h1>
           <p className="site-subtitle">{dictionary.siteSubtitle}</p>
         </div>
       </header>

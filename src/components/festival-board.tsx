@@ -134,27 +134,46 @@ export default function FestivalBoard({ groups }: FestivalBoardProps) {
     [groups]
   );
 
+  const festivalIdBySlug = useMemo(() => {
+    const map = new Map<string, string>();
+    for (const { slug, id } of festivalsFlat) {
+      map.set(slug, id);
+    }
+    return map;
+  }, [festivalsFlat]);
+
+  const defaultExpanded = useMemo(
+    () =>
+      festivalsFlat.reduce<Record<string, boolean>>((acc, festival) => {
+        acc[festival.id] = false;
+        return acc;
+      }, {}),
+    [festivalsFlat]
+  );
+
   const [activeFestival, setActiveFestival] = useState<string>(() => festivalsFlat[0]?.slug ?? "");
 
   useEffect(() => {
     activeFestivalRef.current = activeFestival;
   }, [activeFestival]);
 
-  const [expanded, setExpanded] = useState<Record<string, boolean>>(() => {
-    const latest = groups.at(0)?.festivals ?? [];
-    return latest.reduce<Record<string, boolean>>((acc, fest) => {
-      acc[fest.id] = true;
-      return acc;
-    }, {});
-  });
+  const [expanded, setExpanded] = useState<Record<string, boolean>>(() => ({ ...defaultExpanded }));
 
-  const defaultExpanded = useMemo(() => {
-    const latest = groups.at(0)?.festivals ?? [];
-    return latest.reduce<Record<string, boolean>>((acc, fest) => {
-      acc[fest.id] = true;
-      return acc;
-    }, {});
-  }, [groups]);
+  const expandFestivalBySlug = useCallback(
+    (slug: string) => {
+      const targetId = festivalIdBySlug.get(slug);
+      if (!targetId) {
+        return;
+      }
+      setExpanded((prev) => {
+        if (prev[targetId]) {
+          return prev;
+        }
+        return { ...prev, [targetId]: true };
+      });
+    },
+    [festivalIdBySlug]
+  );
 
   const views = useMemo(() => {
     const term = normalize(searchTerm);
@@ -172,7 +191,7 @@ export default function FestivalBoard({ groups }: FestivalBoardProps) {
 
   useEffect(() => {
     if (!searchTerm) {
-      setExpanded(defaultExpanded);
+      setExpanded({ ...defaultExpanded });
       return;
     }
     const next: Record<string, boolean> = {};
@@ -303,6 +322,7 @@ export default function FestivalBoard({ groups }: FestivalBoardProps) {
       }
 
       event.preventDefault();
+      expandFestivalBySlug(slug);
 
       if (typeof window === "undefined") {
         setActiveFestival(slug);
@@ -323,7 +343,7 @@ export default function FestivalBoard({ groups }: FestivalBoardProps) {
       window.history.replaceState(null, "", `#${slug}`);
       setActiveFestival(slug);
     },
-    []
+    [expandFestivalBySlug]
   );
 
   const noResults = views.every((group) =>
@@ -450,12 +470,14 @@ export default function FestivalBoard({ groups }: FestivalBoardProps) {
                         <div className="festival-scroll">
                           <table className="festival-table">
                             <colgroup>
+                              <col className="col-index" />
                               {festival.columns.map((column) => (
                                 <col key={column} className={columnClassMap[column]} />
                               ))}
                             </colgroup>
                             <thead>
                               <tr>
+                                <th className="col-index cell-index">{dictionary.tableIndex}</th>
                                 {festival.columns.map((column) => {
                                   const header = renderHeader(column, dictionary);
                                   return (
@@ -467,8 +489,9 @@ export default function FestivalBoard({ groups }: FestivalBoardProps) {
                               </tr>
                             </thead>
                             <tbody>
-                              {displayWorks.map((work) => (
+                              {displayWorks.map((work, workIndex) => (
                                 <tr key={work.id}>
+                                  <td className="col-index cell-index">{workIndex + 1}</td>
                                   {festival.columns.map((column) => {
                                     const cell = renderCell({
                                       column,

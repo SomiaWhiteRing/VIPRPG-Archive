@@ -1,19 +1,31 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo } from "react";
+import { useCallback, type MouseEvent } from "react";
 import type { Festival, WorkEntry } from "@/lib/types";
 
 interface WorkOutlineProps {
   festival?: Festival;
   works: WorkEntry[];
   activeId?: string;
+  onSelect?: (workId: string) => void;
 }
 
-export default function WorkOutline({ festival, works, activeId }: WorkOutlineProps) {
-  const sortedWorks = useMemo(
-    () => [...works].sort((a, b) => a.title.localeCompare(b.title)),
-    [works]
+export default function WorkOutline({ festival, works, activeId, onSelect }: WorkOutlineProps) {
+  const handleLinkClick = useCallback(
+    (workId: string) => (event: MouseEvent<HTMLAnchorElement>) => {
+      if (!onSelect) {
+        return;
+      }
+
+      if (event.button !== 0 || event.metaKey || event.ctrlKey || event.altKey || event.shiftKey) {
+        return;
+      }
+
+      event.preventDefault();
+      onSelect(workId);
+    },
+    [onSelect]
   );
 
   if (!festival) {
@@ -26,11 +38,13 @@ export default function WorkOutline({ festival, works, activeId }: WorkOutlinePr
         <h2>{festival.name}</h2>
       </div>
       <ul className="detail-outline-list">
-        {sortedWorks.map((work) => (
+        {works.map((work) => (
           <li key={work.id}>
             <Link
               href={`/works/${work.id}`}
               className={activeId === work.id ? "outline-link active" : "outline-link"}
+              aria-current={activeId === work.id ? "true" : undefined}
+              onClick={handleLinkClick(work.id)}
             >
               {work.title}
             </Link>

@@ -12,6 +12,7 @@ const dictionaries: Record<Locale, Record<string, string>> = {
     collapse: "閉じる",
     expand: "開く",
     downloadButton: "DL",
+    tableIndex: "番号",
     icon: "アイコン",
     forumLink: "掲示板",
     tableWork: "作品",
@@ -39,6 +40,7 @@ const dictionaries: Record<Locale, Record<string, string>> = {
     collapse: "收起",
     expand: "展开",
     downloadButton: "DL",
+    tableIndex: "序号",
     icon: "图标",
     forumLink: "前往讨论",
     tableWork: "作品",
@@ -67,6 +69,7 @@ const dictionaries: Record<Locale, Record<string, string>> = {
     expand: "Expand",
     icon: "Icon",
     downloadButton: "DL",
+    tableIndex: "No.",
     forumLink: "Discussion",
     tableWork: "Work",
     tableType: "Category",
@@ -91,5 +94,3 @@ export function getDictionary(locale: Locale) {
   }
   return dictionaries.ja;
 }
-
-
