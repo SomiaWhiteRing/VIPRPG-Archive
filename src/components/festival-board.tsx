@@ -84,6 +84,16 @@ function matchWork(work: WorkEntry, term: string) {
   return haystack.some((value) => value.includes(term));
 }
 
+function hasWorkDetail(work: WorkEntry) {
+  if (work.authorComment && work.authorComment.trim().length) return true;
+  if (work.hostComment && work.hostComment.trim().length) return true;
+  if (Array.isArray(work.ss) && work.ss.length > 0) return true;
+  if (work.forum && work.forum.trim().length) return true;
+  if (work.download && work.download.url) return true;
+  if (work.streaming && work.streaming.trim().length) return true;
+  return false;
+}
+
 export default function FestivalBoard({ groups }: FestivalBoardProps) {
   const { dictionary } = useLanguage();
   const [searchTerm, setSearchTerm] = useState("");
@@ -496,6 +506,7 @@ export default function FestivalBoard({ groups }: FestivalBoardProps) {
                                     const cell = renderCell({
                                       column,
                                       work,
+                                      festival,
                                       term: normalize(searchTerm),
                                       dictionary,
                                     });
@@ -549,11 +560,13 @@ function renderHeader(
 function renderCell({
   column,
   work,
+  festival,
   term,
   dictionary,
 }: {
   column: FestivalColumnKey;
   work: WorkEntry;
+  festival: Festival;
   term: string;
   dictionary: Record<string, string>;
 }): { node: ReactNode; className: string } {
@@ -581,9 +594,13 @@ function renderCell({
       return {
         node: (
           <div className="cell-stack">
-            <Link href={`/works/${work.id}`} className="link-strong">
-              {highlight(work.title, term)}
-            </Link>
+            {festival.hasDetail === false || !hasWorkDetail(work) ? (
+              <span className="text-strong">{highlight(work.title, term)}</span>
+            ) : (
+              <Link href={`/works/${work.id}`} className="link-strong">
+                {highlight(work.title, term)}
+              </Link>
+            )}
             <span className="muted small">{highlight(work.author, term)}</span>
           </div>
         ),

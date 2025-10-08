@@ -406,7 +406,7 @@ async function parseDetail(entry: IndexEntry): Promise<DetailData> {
 
   const detailIndex = index || entry.index;
 
-  let category = sanitizeWhitespace(meta.genre);
+  const category = sanitizeWhitespace(meta.genre);
   let engine: string | undefined = sanitizeWhitespace(meta.tool);
 
   if (!engine && suffix && isEngineLine(suffix)) {

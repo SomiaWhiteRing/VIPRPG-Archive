@@ -81,16 +81,14 @@
     "name": "VIPRPG蔵出し祭り",
     "slug": "2024-kuradashifestival",
     "type": "special",
+    "hasDetail": false,
     "banners": [
       "/banners/2024-kuradashifestival.png"
     ],
     "columns": [
-      "icon",
       "work",
       "type",
-      "streaming",
-      "download",
-      "forum"
+      "download"
     ],
     "worksFile": "works/2024-kuradashifestival.json"
   },

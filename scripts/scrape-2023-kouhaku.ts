@@ -2,6 +2,7 @@ import { createHash } from "node:crypto";
 import fs from "node:fs/promises";
 import path from "node:path";
 import { load, CheerioAPI, Cheerio, Element } from "cheerio";
+import type { AnyNode } from "domhandler";
 
 const FESTIVAL_ID = "2023-kouhaku";
 const FESTIVAL_SLUG = "2023-kouhaku";
@@ -314,7 +315,7 @@ const infoNode = $("h3").first();
   const hostHeader = $("h4").filter((_, el) => $(el).text().includes("管理人"));
   if (hostHeader.length) {
     const fragments: string[] = [];
-    let node: any = hostHeader.first()[0]?.nextSibling ?? null;
+    let node: AnyNode | null = hostHeader.first()[0]?.nextSibling ?? null;
     while (node) {
       if (node.type === "tag" && node.name === "h4") break;
       if (node.type === "tag" && $(node).hasClass("e_btn")) break;

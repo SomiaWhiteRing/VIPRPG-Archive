@@ -381,6 +381,7 @@ a:focus-visible {
   border-collapse: collapse;
   font-size: 14px;
   min-width: 720px;
+  table-layout: fixed;
 }
 
 .festival-table thead {
@@ -397,6 +398,7 @@ a:focus-visible {
 .col-index {
   width: 56px;
   min-width: 56px;
+  max-width: 56px;
   text-align: center;
 }
 
@@ -412,20 +414,21 @@ a:focus-visible {
 }
 
 .col-work {
-  width: 38%;
+  width: auto;
+  min-width: 280px;
 }
 
 .col-type {
-  width: 20%;
+  width: 180px;
 }
 
 .col-streaming {
-  width: 18%;
+  width: 160px;
 }
 
 .col-download,
 .col-forum {
-  width: 11%;
+  width: 100px;
   text-align: center;
 }
 
@@ -474,6 +477,11 @@ a:focus-visible {
 .link-strong:hover,
 .link-strong:focus-visible {
   text-decoration: underline;
+}
+
+.text-strong {
+  font-weight: 600;
+  color: inherit;
 }
 
 .link {
@@ -779,6 +787,18 @@ a:focus-visible {
 }
 
 .detail-outline-list .outline-link.active {
+  background: var(--accent);
+  color: #ffffff;
+}
+
+.detail-outline-list .outline-text {
+  display: block;
+  padding: 8px 10px;
+  border-radius: 8px;
+  color: var(--text-subtle);
+}
+
+.detail-outline-list .outline-text.active {
   background: var(--accent);
   color: #ffffff;
 }

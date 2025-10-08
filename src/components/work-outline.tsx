@@ -40,14 +40,18 @@ export default function WorkOutline({ festival, works, activeId, onSelect }: Wor
       <ul className="detail-outline-list">
         {works.map((work) => (
           <li key={work.id}>
-            <Link
-              href={`/works/${work.id}`}
-              className={activeId === work.id ? "outline-link active" : "outline-link"}
-              aria-current={activeId === work.id ? "true" : undefined}
-              onClick={handleLinkClick(work.id)}
-            >
-              {work.title}
-            </Link>
+            {festival.hasDetail === false ? (
+              <span className={activeId === work.id ? "outline-text active" : "outline-text"}>{work.title}</span>
+            ) : (
+              <Link
+                href={`/works/${work.id}`}
+                className={activeId === work.id ? "outline-link active" : "outline-link"}
+                aria-current={activeId === work.id ? "true" : undefined}
+                onClick={handleLinkClick(work.id)}
+              >
+                {work.title}
+              </Link>
+            )}
           </li>
         ))}
       </ul>

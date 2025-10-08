@@ -13,6 +13,7 @@ export interface Festival {
   slug: string;
   type: string;
   banners: string[];
+  hasDetail?: boolean;
   period?: string;
   worksFile: string;
   columns: FestivalColumnKey[];

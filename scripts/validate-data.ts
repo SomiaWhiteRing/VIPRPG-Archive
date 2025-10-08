@@ -37,6 +37,7 @@ const festivalSchema = {
       minItems: 1,
       items: { type: "string", minLength: 1 },
     },
+    hasDetail: { type: "boolean" },
     period: { type: "string" },
     worksFile: { type: "string", minLength: 1 },
     columns: {
@@ -60,7 +61,7 @@ const workSchema = {
     icon: { type: "string" },
     category: { type: "string" },
     engine: { type: "string" },
-    author: { type: "string", minLength: 1 },
+    author: { type: "string", minLength: 0 },
     streaming: { type: "string" },
     streamingPolicy: { enum: ["allow", "restricted", "forbid"] },
     download: {

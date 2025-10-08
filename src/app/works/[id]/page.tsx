@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { worksByFestival } from "@/data/works";
+import festivalsJson from "@/data/festivals.json";
 import { getFestivalBySlug, getWorkById, getWorksForFestival } from "@/lib/data";
 import { getDictionary } from "@/lib/i18n";
 import WorkDetailView from "@/components/work-detail-view";
@@ -10,7 +11,13 @@ interface WorkPageProps {
 }
 
 export function generateStaticParams() {
-  return Object.values(worksByFestival)
+  const festivals = festivalsJson as Array<{ id: string; hasDetail?: boolean }>;
+  const disabled = new Set(
+    festivals.filter((f) => f.hasDetail === false).map((f) => f.id)
+  );
+  return Object.entries(worksByFestival)
+    .filter(([festivalId]) => !disabled.has(festivalId))
+    .map(([, works]) => works)
     .flat()
     .map((work) => ({ id: work.id }));
 }
@@ -44,6 +51,9 @@ export default function WorkPage({ params }: WorkPageProps) {
 
   const festival = getFestivalBySlug(work.festivalId);
   const works = festival ? getWorksForFestival(festival.id) : [];
+  if (festival && festival.hasDetail === false) {
+    notFound();
+  }
 
   return <WorkDetailView festival={festival} works={works} activeId={work.id} />;
 }
