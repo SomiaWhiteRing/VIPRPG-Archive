@@ -1,6 +1,6 @@
 {
   "festivalId": "2025-gw",
-  "generatedAt": "2025-10-08T20:55:24.489Z",
+  "generatedAt": "2025-10-09T01:57:51.031Z",
   "banner": "/banners/2025-gw.png",
   "stats": {
     "captured": 30,
@@ -12,11 +12,15 @@
       "status": "ok",
       "title": "参加サンプル",
       "icon": "/icons/2025-gw/00.png",
+      "note": "screenshot failures: 1",
       "downloadSource": [
         "https://vipgw2025.itch.io/entrysample"
       ],
       "screenshotReport": {
-        "saved": 1
+        "saved": 0,
+        "failures": [
+          "https://img.itch.zone/aW1hZ2UvMzQ2OTUyMi8yMDcwMjE1OS5wbmc=/original/FHwyk7.png"
+        ]
       }
     },
     {

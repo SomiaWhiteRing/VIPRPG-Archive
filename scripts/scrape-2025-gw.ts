@@ -15,6 +15,7 @@ const SUMMARY_PATH = path.join(CATCH_DIR, `${FESTIVAL_SLUG}-scrape-summary.json`
 const JAM_HTML = path.join(CATCH_DIR, "jam.html");
 const ENTRIES_DATA_JSON = path.join(CATCH_DIR, "entries-data.json");
 const GAME_CACHE_DIR = path.join(CATCH_DIR, "game");
+const RATE_CACHE_DIR = path.join(CATCH_DIR, "rate");
 
 const PUBLIC_DIR = path.join(process.cwd(), "public");
 const BANNERS_DIR = path.join(PUBLIC_DIR, "banners");
@@ -74,6 +75,7 @@ interface WorkEntry {
   streaming?: string;
   forum?: string;
   authorComment?: string;
+  hostComment?: string;
   ss?: string[];
 }
 
@@ -112,14 +114,36 @@ function normalizeUrl(url: string | undefined, base?: string) {
 }
 
 async function runCurl(args: string[], options?: { encoding?: BufferEncoding | "buffer" }) {
-  const { stdout } = await execFileAsync("curl", args, { encoding: options?.encoding ?? "utf8" });
-  return stdout as unknown as string;
+  try {
+    const { stdout } = await execFileAsync("curl", args, { encoding: options?.encoding ?? "utf8" });
+    return stdout as unknown as string;
+  } catch (err) {
+    // Fallback to fetch if curl is unavailable or lacks certain flags (e.g., --compressed)
+    const url = args[args.length - 1];
+    if (typeof url === "string" && /^https?:\/\//i.test(url)) {
+      const res = await fetch(url, { redirect: "follow" });
+      if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
+      if (options?.encoding === "buffer") {
+        const ab = await res.arrayBuffer();
+        return Buffer.from(ab) as unknown as string;
+      }
+      return (await res.text()) as unknown as string;
+    }
+    throw err;
+  }
 }
 
 async function downloadBinary(url: string) {
-  const args = [...CURL_BASE_ARGS, "--location", "--fail", url];
-  const { stdout } = await execFileAsync("curl", args, { encoding: "buffer" }) as unknown as { stdout: Buffer };
-  return stdout;
+  try {
+    const args = [...CURL_BASE_ARGS, "--location", "--fail", url];
+    const { stdout } = await execFileAsync("curl", args, { encoding: "buffer" }) as unknown as { stdout: Buffer };
+    return stdout;
+  } catch {
+    const res = await fetch(url, { redirect: "follow" });
+    if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
+    const ab = await res.arrayBuffer();
+    return Buffer.from(ab);
+  }
 }
 
 function bufferLooksLikeHtml(buffer: Buffer) {
@@ -405,6 +429,18 @@ async function fetchGameHtml(index: string, jamEntry: JamGameEntry) {
   return html;
 }
 
+async function fetchRateHtml(index: string, rateUrl: string) {
+  await ensureDir(RATE_CACHE_DIR);
+  const slugPart = sanitizeFileName(rateUrl);
+  const filePath = path.join(RATE_CACHE_DIR, `${index}_${slugPart}.html`);
+  if (await fileExists(filePath)) {
+    return fs.readFile(filePath, "utf8");
+  }
+  const html = await runCurl([...CURL_BASE_ARGS, "--location", "--fail", rateUrl], { encoding: "utf8" });
+  await fs.writeFile(filePath, html, "utf8");
+  return html;
+}
+
 function extractDescription($: cheerio.CheerioAPI) {
   const container = $(".formatted_description").first();
   if (!container.length) return undefined;
@@ -419,6 +455,50 @@ function extractDescription($: cheerio.CheerioAPI) {
     .filter((line, idx, arr) => line || (idx > 0 && arr[idx - 1] !== ""));
   const result = lines.join("\n").trim();
   return result || undefined;
+}
+
+function htmlToPlainText(html: string) {
+  const normalized = html.replace(/<br\s*\/?\s*>/gi, "\n");
+  const text = cheerio.load(`<div>${normalized}</div>`, undefined, false)("div").text();
+  const lines = text
+    .split(/\r?\n/)
+    .map((line) => line.trim())
+    .filter((line, idx, arr) => line || (idx > 0 && arr[idx - 1] !== ""));
+  return lines.join("\n").trim();
+}
+
+function extractCommentsFromRate($: cheerio.CheerioAPI) {
+  // 作者コメント: section.field_responses > p where strong contains '作者コメント'
+  let authorComment: string | undefined;
+  $("section.field_responses p").each((_, el) => {
+    if (authorComment) return;
+    const strong = $(el).find("strong").first();
+    const label = strong.text().trim();
+    if (!label) return;
+    if (label.includes("作者コメント") || label.includes("作者\u30b3\u30e1\u30f3\u30c8")) {
+      // Remove the label itself and leading <br/>
+      const raw = $(el).html() || "";
+      const stripped = raw.replace(/<strong[\s\S]*?<\/strong>\s*(?:<br\s*\/?\s*>)?/i, "");
+      authorComment = htmlToPlainText(stripped) || undefined;
+    }
+  });
+
+  // 主催コメント: pick the community post authored by 'vipgw2025'
+  let hostComment: string | undefined;
+  $(".community_post").each((_, el) => {
+    const author = $(el).find(".post_header .post_author a").first().text().trim();
+    if (!author) return;
+    if (author.toLowerCase() === "vipgw2025") {
+      const bodyHtml = $(el).find(".post_content .post_body").first().html() || "";
+      const text = htmlToPlainText(bodyHtml);
+      if (text) {
+        // Prefer the earliest host comment: keep first found if none set yet
+        if (!hostComment) hostComment = text;
+      }
+    }
+  });
+
+  return { authorComment, hostComment } as const;
 }
 
 function collectScreenshotCandidates($: cheerio.CheerioAPI, jamEntry: JamGameEntry) {
@@ -488,12 +568,24 @@ function extractDownloadSources(table: TableEntry, $: cheerio.CheerioAPI, gameUr
 
 async function processEntry(table: TableEntry, jamEntry: JamGameEntry) {
   const index = table.index;
-  const html = await fetchGameHtml(index, jamEntry);
-  const $ = cheerio.load(html);
-  const description = extractDescription($);
-  const screenshotCandidates = collectScreenshotCandidates($, jamEntry);
+  const gameHtml = await fetchGameHtml(index, jamEntry);
+  const $game = cheerio.load(gameHtml);
+  const description = extractDescription($game);
+  const screenshotCandidates = collectScreenshotCandidates($game, jamEntry);
   const screenshotResult = await ensureScreenshots(index, screenshotCandidates);
   const iconPath = await ensureIcon(index, table.iconUrl);
+  // Rate page for comments
+  let rateAuthorComment: string | undefined;
+  let rateHostComment: string | undefined;
+  try {
+    const rateHtml = await fetchRateHtml(index, table.rateUrl);
+    const $rate = cheerio.load(rateHtml);
+    const extracted = extractCommentsFromRate($rate);
+    rateAuthorComment = extracted.authorComment;
+    rateHostComment = extracted.hostComment;
+  } catch (e) {
+    // Non-fatal
+  }
 
   const work: WorkEntry = {
     id: `${FESTIVAL_ID}-work-${index}`,
@@ -505,7 +597,8 @@ async function processEntry(table: TableEntry, jamEntry: JamGameEntry) {
     author: table.author || jamEntry.author,
     streaming: table.streaming,
     forum: table.forumLink,
-    authorComment: description ?? jamEntry.shortText ?? undefined,
+    authorComment: rateAuthorComment ?? description ?? jamEntry.shortText ?? undefined,
+    hostComment: rateHostComment ?? undefined,
   };
 
   if (iconPath) {
@@ -534,7 +627,7 @@ async function processEntry(table: TableEntry, jamEntry: JamGameEntry) {
     title: work.title,
     icon: work.icon,
     note: noteParts.length ? noteParts.join("; ") : undefined,
-    downloadSource: extractDownloadSources(table, $, jamEntry.gameUrl),
+    downloadSource: extractDownloadSources(table, $game, jamEntry.gameUrl),
     screenshotReport: {
       saved: screenshotResult.paths.length,
       skipped: screenshotResult.skipped.length ? screenshotResult.skipped : undefined,
