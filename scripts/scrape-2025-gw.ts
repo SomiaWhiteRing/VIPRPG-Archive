@@ -372,7 +372,7 @@ function parseTable(): Promise<Map<string, TableEntry>> {
       const forumLink = normalizeUrl(forumAnchor?.attr("href"));
 
       rows.set(rateUrl, {
-        index: indexText.padStart(2, "0"),
+        index: indexText,
         rateUrl,
         title,
         author,
@@ -567,18 +567,19 @@ function extractDownloadSources(table: TableEntry, $: cheerio.CheerioAPI, gameUr
 }
 
 async function processEntry(table: TableEntry, jamEntry: JamGameEntry) {
-  const index = table.index;
-  const gameHtml = await fetchGameHtml(index, jamEntry);
+  const displayNo = table.index; // as shown on the list page
+  const fileIndex = displayNo.padStart(2, "0"); // keep filenames stable
+  const gameHtml = await fetchGameHtml(fileIndex, jamEntry);
   const $game = cheerio.load(gameHtml);
   const description = extractDescription($game);
   const screenshotCandidates = collectScreenshotCandidates($game, jamEntry);
-  const screenshotResult = await ensureScreenshots(index, screenshotCandidates);
-  const iconPath = await ensureIcon(index, table.iconUrl);
+  const screenshotResult = await ensureScreenshots(fileIndex, screenshotCandidates);
+  const iconPath = await ensureIcon(fileIndex, table.iconUrl);
   // Rate page for comments
   let rateAuthorComment: string | undefined;
   let rateHostComment: string | undefined;
   try {
-    const rateHtml = await fetchRateHtml(index, table.rateUrl);
+    const rateHtml = await fetchRateHtml(fileIndex, table.rateUrl);
     const $rate = cheerio.load(rateHtml);
     const extracted = extractCommentsFromRate($rate);
     rateAuthorComment = extracted.authorComment;
@@ -588,9 +589,9 @@ async function processEntry(table: TableEntry, jamEntry: JamGameEntry) {
   }
 
   const work: WorkEntry = {
-    id: `${FESTIVAL_ID}-work-${index}`,
+    id: `${FESTIVAL_ID}-work-${fileIndex}`,
     festivalId: FESTIVAL_ID,
-    no: index,
+    no: displayNo,
     title: table.title || jamEntry.title,
     category: table.category,
     engine: table.engine,
@@ -622,7 +623,7 @@ async function processEntry(table: TableEntry, jamEntry: JamGameEntry) {
   }
 
   const snapshot: SnapshotRecord = {
-    index,
+    index: displayNo,
     status: "ok",
     title: work.title,
     icon: work.icon,

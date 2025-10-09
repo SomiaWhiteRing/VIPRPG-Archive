@@ -41,5 +41,7 @@ export interface WorkEntry {
   forum?: string;
   authorComment?: string;
   hostComment?: string;
+  // If true, force-disable detail page/link even if other fields are present
+  detailDisabled?: boolean;
   ss?: string[];
 }

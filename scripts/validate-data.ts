@@ -77,6 +77,7 @@ const workSchema = {
     forum: { type: "string", format: "uri" },
     authorComment: { type: "string" },
     hostComment: { type: "string" },
+    detailDisabled: { type: "boolean" },
     ss: {
       type: "array",
       minItems: 1,

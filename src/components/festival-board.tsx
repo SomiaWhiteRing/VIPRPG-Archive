@@ -86,6 +86,7 @@ function matchWork(work: WorkEntry, term: string) {
 }
 
 function hasWorkDetail(work: WorkEntry) {
+  if (work.detailDisabled === true) return false;
   if (work.authorComment && work.authorComment.trim().length) return true;
   if (work.hostComment && work.hostComment.trim().length) return true;
   if (Array.isArray(work.ss) && work.ss.length > 0) return true;
