@@ -45,6 +45,7 @@ interface TableRow {
 interface WorkEntry {
   id: string;
   festivalId: string;
+  no?: string;
   title: string;
   author: string;
   category?: string;
@@ -503,6 +504,7 @@ async function processLocalEntry(row: TableRow): Promise<ProcessedEntry> {
   const work: WorkEntry = {
     id: `${FESTIVAL_ID}-work-${row.index}`,
     festivalId: FESTIVAL_ID,
+    no: row.index,
     title,
     author: author ?? "",
     category,

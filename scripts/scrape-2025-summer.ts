@@ -7,8 +7,8 @@ import * as cheerio from "cheerio";
 
 const execFileAsync = promisify(execFile);
 
-const FESTIVAL_ID = "2025-gw";
-const FESTIVAL_SLUG = "2025-gw";
+const FESTIVAL_ID = "2025-summer";
+const FESTIVAL_SLUG = "2025-summer";
 const CATCH_DIR = path.join(process.cwd(), "catch", FESTIVAL_SLUG);
 const OUTPUT_WORKS = path.join(process.cwd(), "src", "data", "works", `${FESTIVAL_SLUG}.json`);
 const SUMMARY_PATH = path.join(CATCH_DIR, `${FESTIVAL_SLUG}-scrape-summary.json`);
@@ -65,6 +65,7 @@ interface ScreenshotResult {
 interface WorkEntry {
   id: string;
   festivalId: string;
+  no?: string;
   title: string;
   icon?: string;
   category?: string;
@@ -497,6 +498,7 @@ async function processEntry(table: TableEntry, jamEntry: JamGameEntry) {
   const work: WorkEntry = {
     id: `${FESTIVAL_ID}-work-${index}`,
     festivalId: FESTIVAL_ID,
+    no: index,
     title: table.title || jamEntry.title,
     category: table.category,
     engine: table.engine,

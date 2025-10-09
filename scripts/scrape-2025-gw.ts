@@ -65,6 +65,7 @@ interface ScreenshotResult {
 interface WorkEntry {
   id: string;
   festivalId: string;
+  no?: string;
   title: string;
   icon?: string;
   category?: string;
@@ -497,6 +498,7 @@ async function processEntry(table: TableEntry, jamEntry: JamGameEntry) {
   const work: WorkEntry = {
     id: `${FESTIVAL_ID}-work-${index}`,
     festivalId: FESTIVAL_ID,
+    no: index,
     title: table.title || jamEntry.title,
     category: table.category,
     engine: table.engine,

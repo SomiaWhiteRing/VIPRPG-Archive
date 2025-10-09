@@ -1,4 +1,5 @@
 export type FestivalColumnKey =
+  | "no"
   | "icon"
   | "work"
   | "type"
@@ -27,6 +28,8 @@ export interface WorkDownload {
 export interface WorkEntry {
   id: string;
   festivalId: string;
+  // Original entry number on the festival site (e.g. "00", "01", ...)
+  no?: string;
   title: string;
   icon?: string;
   category?: string;

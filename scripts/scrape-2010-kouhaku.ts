@@ -50,6 +50,7 @@ interface EntryMeta {
 interface WorkEntry {
   id: string;
   festivalId: string;
+  no?: string;
   title: string;
   icon?: string;
   category?: string;
@@ -541,6 +542,7 @@ function parseEntryHtml(no: string, html: string, entryUrl: string) {
   const work: WorkEntry = {
     id: `${FESTIVAL_ID}-work-${no}`,
     festivalId: FESTIVAL_ID,
+    no,
     title,
     category,
     engine,

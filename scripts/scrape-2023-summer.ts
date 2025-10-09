@@ -79,6 +79,7 @@ interface SnapshotRecord {
 interface WorkEntry {
   id: string;
   festivalId: string;
+  no?: string;
   title: string;
   author: string;
   category?: string;
@@ -623,6 +624,7 @@ async function main() {
       const work: WorkEntry = {
         id: `${FESTIVAL_ID}-work-${entry.index}`,
         festivalId: FESTIVAL_ID,
+        no: detail.index || entry.index,
         title: detail.title,
         author: detail.author,
         category,

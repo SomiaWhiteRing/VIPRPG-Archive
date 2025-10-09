@@ -55,6 +55,7 @@ interface ScreenshotSkip {
 interface WorkEntry {
   id: string;
   festivalId: string;
+  no?: string;
   title: string;
   author: string;
   category?: string;
@@ -449,6 +450,7 @@ async function processEntry(entry: IndexEntry) {
   const work: WorkEntry = {
     id: `${FESTIVAL_ID}-work-${entry.index}`,
     festivalId: FESTIVAL_ID,
+    no: entry.index,
     title: entry.title,
     author: "",
     category: entry.category,

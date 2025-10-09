@@ -30,6 +30,7 @@ interface FestivalBoardProps {
 }
 
 const columnClassMap: Record<FestivalColumnKey, string> = {
+  no: "col-index",
   icon: "col-icon",
   work: "col-work",
   type: "col-type",
@@ -480,14 +481,12 @@ export default function FestivalBoard({ groups }: FestivalBoardProps) {
                         <div className="festival-scroll">
                           <table className="festival-table">
                             <colgroup>
-                              <col className="col-index" />
                               {festival.columns.map((column) => (
                                 <col key={column} className={columnClassMap[column]} />
                               ))}
                             </colgroup>
                             <thead>
                               <tr>
-                                <th className="col-index cell-index">{dictionary.tableIndex}</th>
                                 {festival.columns.map((column) => {
                                   const header = renderHeader(column, dictionary);
                                   return (
@@ -499,9 +498,8 @@ export default function FestivalBoard({ groups }: FestivalBoardProps) {
                               </tr>
                             </thead>
                             <tbody>
-                              {displayWorks.map((work, workIndex) => (
+                              {displayWorks.map((work) => (
                                 <tr key={work.id}>
-                                  <td className="col-index cell-index">{workIndex + 1}</td>
                                   {festival.columns.map((column) => {
                                     const cell = renderCell({
                                       column,
@@ -542,6 +540,8 @@ function renderHeader(
 ): { label: string; className: string } {
   const className = columnClassMap[column] ?? "";
   switch (column) {
+    case "no":
+      return { label: dictionary.tableIndex, className };
     case "icon":
       return { label: dictionary.icon, className };
     case "work":
@@ -572,6 +572,11 @@ function renderCell({
 }): { node: ReactNode; className: string } {
   const baseClass = columnClassMap[column] ?? "";
   switch (column) {
+    case "no":
+      return {
+        node: <span className="mono small">{work.no ?? "-"}</span>,
+        className: `${baseClass} cell-index`,
+      };
     case "icon":
       return {
         node: work.icon ? (
