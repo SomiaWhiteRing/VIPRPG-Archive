@@ -1,0 +1,857 @@
+1	import { execFile } from "node:child_process";
+2	import { createHash } from "node:crypto";
+3	import { promisify } from "node:util";
+4	import fs from "node:fs/promises";
+5	import path from "node:path";
+6	import * as cheerio from "cheerio";
+7	
+8	const execFileAsync = promisify(execFile);
+9	
+10	// Festival constants
+11	const FESTIVAL_ID = "2023-winter";
+12	const FESTIVAL_SLUG = "2023-winter";
+13	const JAM_URL = "https://itch.io/jam/viprmwinterjam2023-anno-draconis";
+14	
+15	// Directories and files
+16	const CATCH_DIR = path.join(process.cwd(), "catch", FESTIVAL_SLUG);
+17	const OUTPUT_WORKS = path.join(process.cwd(), "src", "data", "works", `${FESTIVAL_SLUG}.json`);
+18	const SUMMARY_PATH = path.join(CATCH_DIR, `${FESTIVAL_SLUG}-scrape-summary.json`);
+19	const JAM_HTML = path.join(CATCH_DIR, "jam.html");
+20	const JAM_HTML_ORIGINAL = path.join(CATCH_DIR, "jam.original.html");
+21	const ENTRIES_HTML = path.join(CATCH_DIR, "entries.html");
+22	const SCREENSHOTS_HTML = path.join(CATCH_DIR, "screenshots.html");
+23	const ENTRIES_DATA_JSON = path.join(CATCH_DIR, "entries-data.json");
+24	const GAME_CACHE_DIR = path.join(CATCH_DIR, "game");
+25	const RATE_CACHE_DIR = path.join(CATCH_DIR, "rate");
+26	
+27	const PUBLIC_DIR = path.join(process.cwd(), "public");
+28	const BANNERS_DIR = path.join(PUBLIC_DIR, "banners");
+29	const ICONS_DIR = path.join(PUBLIC_DIR, "icons", FESTIVAL_SLUG);
+30	const SCREENSHOTS_DIR = path.join(PUBLIC_DIR, "screenshots", FESTIVAL_SLUG);
+31	
+32	const RELATIVE_BANNERS_DIR = "/banners";
+33	const RELATIVE_ICONS_DIR = `/icons/${FESTIVAL_SLUG}`;
+34	const RELATIVE_SCREENSHOTS_DIR = `/screenshots/${FESTIVAL_SLUG}`;
+35	const MAX_SCREENSHOTS = 6;
+36	
+37	const CURL_BASE_ARGS = ["--silent", "--show-error", "--retry", "3", "--retry-delay", "1", "--compressed"];
+38	
+39	// Types
+40	interface TableEntry {
+41	  index: string; // display no (e.g., 01)
+42	  gameUrl?: string;
+43	  rateUrl?: string;
+44	  variant?: string;
+45	  detailDisabled?: boolean;
+46	  title: string;
+47	  author: string;
+48	  category?: string;
+49	  engine?: string;
+50	  streaming?: string;
+51	  iconUrl?: string;
+52	  downloadLink?: string;
+53	  downloadLabel?: string;
+54	  forumLink?: string;
+55	}
+56	
+57	interface JamGameEntry {
+58	  rateUrl: string;
+59	  gameUrl: string;
+60	  title: string;
+61	  author: string;
+62	  cover?: string;
+63	  shortText?: string;
+64	}
+65	
+66	function normalizeKey(title?: string, author?: string) {
+67	  const norm = (s?: string) => (s ?? "").toLowerCase().replace(/\s+/g, "").replace(/[“”"'、，,。．\.\-—_\(\)（）\[\]【】]/g, "");
+68	  return `${norm(title)}@@${norm(author)}`;
+69	}
+70	
+71	interface ScreenshotSkip { source: string; reason: "small" | "duplicate" }
+72	interface ScreenshotResult { paths: string[]; failures: string[]; skipped: ScreenshotSkip[] }
+73	
+74	interface WorkEntry {
+75	  id: string;
+76	  festivalId: string;
+77	  no?: string;
+78	  title: string;
+79	  icon?: string;
+80	  category?: string;
+81	  engine?: string;
+82	  author: string;
+83	  streaming?: string;
+84	  forum?: string;
+85	  authorComment?: string;
+86	  hostComment?: string;
+87	  ss?: string[];
+88	  detailDisabled?: boolean;
+89	}
+90	
+91	interface SnapshotRecord {
+92	  index: string;
+93	  status: "ok" | "skipped" | "error";
+94	  title?: string;
+95	  icon?: string;
+96	  note?: string;
+97	  downloadSource?: string[];
+98	  screenshotReport?: { saved: number; skipped?: ScreenshotSkip[]; failures?: string[] };
+99	  error?: string;
+100	}
+101	
+102	// Utilities
+103	async function ensureDir(dir: string) { await fs.mkdir(dir, { recursive: true }); }
+104	
+105	function sanitizeWhitespace(value: string | undefined) {
+106	  if (!value) return undefined;
+107	  const trimmed = value.replace(/\s+/g, " ").trim();
+108	  return trimmed || undefined;
+109	}
+110	
+111	function normalizeUrl(url: string | undefined, base?: string) {
+112	  if (!url) return undefined;
+113	  try {
+114	    return new URL(url, base ?? "https://itch.io").toString();
+115	  } catch { return undefined; }
+116	}
+117	
+118	function readerize(url: string) {
+119	  // Prefix all HTML page fetches via r.jina.ai as a transparent reader proxy
+120	  if (!/^https?:\/\//i.test(url)) return url; // should already be absolute
+121	  if (/^https:\/\/r\.jina\.ai\//i.test(url)) return url; // already wrapped
+122	  return `https://r.jina.ai/${url}`;
+123	}
+124	
+125	async function runCurlText(url: string) {
+126	  const readerUrl = readerize(url);
+127	  try {
+128	    const args = [...CURL_BASE_ARGS, "--location", "--fail", readerUrl];
+129	    const { stdout } = await execFileAsync("curl", args, { encoding: "utf8" });
+130	    return stdout as unknown as string;
+131	  } catch {
+132	    const res = await fetch(readerUrl, { redirect: "follow" });
+133	    if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
+134	    return await res.text();
+135	  }
+136	}
+137	
+138	async function runCurlTextDirect(url: string) {
+139	  // Direct HTML fetch for parsing only (fallback when reader snapshot is not parseable)
+140	  try {
+141	    const args = [...CURL_BASE_ARGS, "--location", "--fail", url];
+142	    const { stdout } = await execFileAsync("curl", args, { encoding: "utf8" });
+143	    return stdout as unknown as string;
+144	  } catch {
+145	    const res = await fetch(url, { redirect: "follow" });
+146	    if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
+147	    return await res.text();
+148	  }
+149	}
+150	
+151	async function downloadBinary(url: string) {
+152	  // Binary assets must be fetched directly (not via r.jina.ai)
+153	  try {
+154	    const args = [...CURL_BASE_ARGS, "--location", "--fail", url, "-H", "Referer:"];
+155	    const { stdout } = (await execFileAsync("curl", args, { encoding: "buffer" })) as unknown as { stdout: Buffer };
+156	    return stdout;
+157	  } catch {
+158	    const res = await fetch(url, { redirect: "follow" });
+159	    if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
+160	    const ab = await res.arrayBuffer();
+161	    return Buffer.from(ab);
+162	  }
+163	}
+164	
+165	function bufferLooksLikeHtml(buffer: Buffer) {
+166	  if (buffer.length === 0) return true;
+167	  if (buffer[0] === 0x3c) {
+168	    const second = buffer[1];
+169	    if (second === 0x21 || second === 0x68 || second === 0x48 || second === 0x3f) return true;
+170	  }
+171	  try {
+172	    const sample = buffer.slice(0, 256).toString("utf8").trimStart().toLowerCase();
+173	    if (!sample) return false;
+174	    return sample.startsWith("<!doctype") || sample.startsWith("<html") || sample.startsWith("<head") || sample.startsWith("<body");
+175	  } catch { return false; }
+176	}
+177	
+178	function getImageExtension(url: string, fallback = ".png") {
+179	  const clean = url.split(/[?#]/)[0];
+180	  const ext = path.extname(clean).toLowerCase();
+181	  if (ext === ".jpeg") return ".jpg";
+182	  if (ext) return ext;
+183	  return fallback;
+184	}
+185	
+186	function getImageDimensions(buffer: Buffer) {
+187	  if (buffer.length >= 24 && buffer[0] === 0x89 && buffer[1] === 0x50 && buffer[2] === 0x4e && buffer[3] === 0x47) {
+188	    return { width: buffer.readUInt32BE(16), height: buffer.readUInt32BE(20) };
+189	  }
+190	  if (buffer.length >= 26 && buffer[0] === 0xff && buffer[1] === 0xd8) {
+191	    let offset = 2;
+192	    while (offset + 9 < buffer.length) {
+193	      while (offset < buffer.length && buffer[offset] !== 0xff) offset += 1;
+194	      if (offset + 1 >= buffer.length) break;
+195	      const marker = buffer[offset + 1];
+196	      offset += 2;
+197	      if (marker === 0xd8 || marker === 0xd9) continue;
+198	      if (marker === 0xda) break;
+199	      if (offset + 1 >= buffer.length) break;
+200	      const length = buffer.readUInt16BE(offset);
+201	      if (length < 2 || offset + length > buffer.length) break;
+202	      const isSOF = (marker >= 0xc0 && marker <= 0xc3) || (marker >= 0xc5 && marker <= 0xc7) || (marker >= 0xc9 && marker <= 0xcb) || (marker >= 0xcd && marker <= 0xcf);
+203	      if (isSOF) {
+204	        if (length >= 7) {
+205	          const height = buffer.readUInt16BE(offset + 3);
+206	          const width = buffer.readUInt16BE(offset + 5);
+207	          return { width, height };
+208	        }
+209	        break;
+210	      }
+211	      offset += length;
+212	    }
+213	  }
+214	  if (buffer.length >= 10) {
+215	    const header = buffer.toString("ascii", 0, 6);
+216	    if (header === "GIF87a" || header === "GIF89a") {
+217	      return { width: buffer.readUInt16LE(6), height: buffer.readUInt16LE(8) };
+218	    }
+219	  }
+220	  if (buffer.length >= 26 && buffer[0] === 0x42 && buffer[1] === 0x4d) {
+221	    const width = buffer.readInt32LE(18);
+222	    const height = Math.abs(buffer.readInt32LE(22));
+223	    return { width, height };
+224	  }
+225	  return undefined;
+226	}
+227	
+228	// Caching jam pages via r.jina.ai
+229	async function ensureJamCaches() {
+230	  await ensureDir(CATCH_DIR);
+231	  // Jam overview
+232	  if (!(await fileExists(JAM_HTML))) {
+233	    const html = await runCurlText(JAM_URL);
+234	    await fs.writeFile(JAM_HTML, html, "utf8");
+235	  }
+236	  // Save original HTML for parser fallback if reader snapshot is markdown
+237	  if (!(await fileExists(JAM_HTML_ORIGINAL))) {
+238	    try {
+239	      const htmlDirect = await runCurlTextDirect(JAM_URL);
+240	      await fs.writeFile(JAM_HTML_ORIGINAL, htmlDirect, "utf8");
+241	    } catch {
+242	      // best effort
+243	    }
+244	  }
+245	  // Discover entries/screenshots from jam nav
+246	  const jamHtml = await fs.readFile(JAM_HTML, "utf8");
+247	  const $ = cheerio.load(jamHtml);
+248	  const navLinks = new Set<string>();
+249	  $("a[href]").each((_, a) => {
+250	    const href = $(a).attr("href") || "";
+251	    if (/\/jam\//i.test(href) && /\/entries\b/i.test(href)) {
+252	      const abs = normalizeUrl(href, JAM_URL);
+253	      if (abs) navLinks.add(abs);
+254	    }
+255	    if (/\/jam\//i.test(href) && /\/screenshots\b/i.test(href)) {
+256	      const abs = normalizeUrl(href, JAM_URL);
+257	      if (abs) navLinks.add(abs);
+258	    }
+259	  });
+260	  let entriesUrl: string | undefined;
+261	  let screenshotsUrl: string | undefined;
+262	  for (const link of navLinks) {
+263	    if (/\/entries\b/i.test(link)) entriesUrl = link;
+264	    if (/\/screenshots\b/i.test(link)) screenshotsUrl = link;
+265	  }
+266	  if (entriesUrl && !(await fileExists(ENTRIES_HTML))) {
+267	    const html = await runCurlText(entriesUrl);
+268	    await fs.writeFile(ENTRIES_HTML, html, "utf8");
+269	  }
+270	  if (screenshotsUrl && !(await fileExists(SCREENSHOTS_HTML))) {
+271	    const html = await runCurlText(screenshotsUrl);
+272	    await fs.writeFile(SCREENSHOTS_HTML, html, "utf8");
+273	  }
+274	  // Try to detect a JSON endpoint from jam page
+275	  if (!(await fileExists(ENTRIES_DATA_JSON))) {
+276	    const scripts = $("script").map((_, el) => $(el).html() || "").get().join("\n");
+277	    const m = scripts.match(/https?:\/\/[^\"']*\bentries[^\"']*json[^\"']*/i);
+278	    if (m && m[0]) {
+279	      try {
+280	        const jsonText = await runCurlText(m[0]);
+281	        await fs.writeFile(ENTRIES_DATA_JSON, jsonText, "utf8");
+282	      } catch {
+283	        // Ignore if not resolvable
+284	      }
+285	    }
+286	  }
+287	}
+288	
+289	async function ensureBanner() {
+290	  const html = await fs.readFile(JAM_HTML, "utf8");
+291	  const $ = cheerio.load(html);
+292	  const content = $(".jam_content").first();
+293	  let bannerUrl: string | undefined;
+294	  content.find("img").each((_, el) => {
+295	    if (bannerUrl) return;
+296	    const src = normalizeUrl($(el).attr("src"));
+297	    if (!src) return;
+298	    if (!/img\.itch\.zone\/aW1n/i.test(src)) return;
+299	    bannerUrl = src;
+300	  });
+301	  if (!bannerUrl) return undefined;
+302	  await ensureDir(BANNERS_DIR);
+303	  const extension = getImageExtension(bannerUrl, ".png");
+304	  const fileName = `${FESTIVAL_SLUG}${extension}`;
+305	  const destPath = path.join(BANNERS_DIR, fileName);
+306	  if (!(await fileExists(destPath))) {
+307	    const buffer = await downloadBinary(bannerUrl);
+308	    if (bufferLooksLikeHtml(buffer) || buffer.length === 0) {
+309	      return undefined;
+310	    }
+311	    await fs.writeFile(destPath, buffer);
+312	  }
+313	  return `${RELATIVE_BANNERS_DIR}/${fileName}`;
+314	}
+315	
+316	async function ensureIcon(index: string, iconUrl: string | undefined) {
+317	  if (!iconUrl) return undefined;
+318	  await ensureDir(ICONS_DIR);
+319	  const extension = getImageExtension(iconUrl, ".png");
+320	  const fileName = `${index}${extension}`;
+321	  const destPath = path.join(ICONS_DIR, fileName);
+322	  if (await fileExists(destPath)) {
+323	    return `${RELATIVE_ICONS_DIR}/${fileName}`;
+324	  }
+325	  try {
+326	    const buffer = await downloadBinary(iconUrl);
+327	    if (bufferLooksLikeHtml(buffer)) {
+328	      return undefined;
+329	    }
+330	    await fs.writeFile(destPath, buffer);
+331	    return `${RELATIVE_ICONS_DIR}/${fileName}`;
+332	  } catch {
+333	    return undefined;
+334	  }
+335	}
+336	
+337	async function fileExists(target: string) {
+338	  try { await fs.access(target); return true; } catch { return false; }
+339	}
+340	
+341	async function purgeScreenshots(index: string) {
+342	  try {
+343	    const files = await fs.readdir(SCREENSHOTS_DIR);
+344	    await Promise.all(
+345	      files.filter((file) => file.startsWith(index)).map((file) => fs.unlink(path.join(SCREENSHOTS_DIR, file)).catch(() => undefined)),
+346	    );
+347	  } catch (error) {
+348	    const err = error as NodeJS.ErrnoException;
+349	    if (err.code !== "ENOENT") throw error;
+350	  }
+351	}
+352	
+353	type ScreenshotGroup = { order: number; urls: string[] };
+354	
+355	async function ensureScreenshots(index: string, groups: ScreenshotGroup[] | string[]) {
+356	  const candidates = Array.isArray(groups)
+357	    ? (typeof (groups as any)[0] === "string" ? (groups as string[]).map((u, i) => ({ order: i, urls: [u] })) : (groups as ScreenshotGroup[]))
+358	    : [];
+359	  if (candidates.length === 0) {
+360	    return { paths: [], failures: [], skipped: [] } as ScreenshotResult;
+361	  }
+362	  await ensureDir(SCREENSHOTS_DIR);
+363	  const seenHashes = new Set<string>();
+364	  const paths: string[] = [];
+365	  const failures: string[] = [];
+366	  const skipped: ScreenshotSkip[] = [];
+367	  await purgeScreenshots(index);
+368	
+369	  for (const group of candidates.sort((a, b) => a.order - b.order)) {
+370	    if (paths.length >= MAX_SCREENSHOTS) break;
+371	    let savedThisGroup = false;
+372	    for (const url of group.urls) {
+373	      try {
+374	        const buffer = await downloadBinary(url);
+375	        if (bufferLooksLikeHtml(buffer) || buffer.length === 0) { failures.push(url); continue; }
+376	        const dims = getImageDimensions(buffer);
+377	        if (dims && dims.width < 100 && dims.height < 100) { skipped.push({ source: url, reason: "small" }); continue; }
+378	        const hash = createHash("md5").update(buffer).digest("hex");
+379	        if (seenHashes.has(hash)) { skipped.push({ source: url, reason: "duplicate" }); continue; }
+380	        seenHashes.add(hash);
+381	        const suffix = paths.length > 0 ? `-${String(paths.length + 1).padStart(2, "0")}` : "";
+382	        const extension = getImageExtension(url, ".png");
+383	        const fileName = `${index}${suffix}${extension}`;
+384	        const destPath = path.join(SCREENSHOTS_DIR, fileName);
+385	        await fs.writeFile(destPath, buffer);
+386	        paths.push(`${RELATIVE_SCREENSHOTS_DIR}/${fileName}`);
+387	        savedThisGroup = true;
+388	        break;
+389	      } catch {
+390	        failures.push(url);
+391	        continue;
+392	      }
+393	    }
+394	    if (!savedThisGroup) continue;
+395	  }
+396	  return { paths, failures, skipped } as ScreenshotResult;
+397	}
+398	
+399	function cleanTitle(raw: string) { return raw.replace(/[★☆◎◇◆△▽※♪♭♫\s]+/g, " ").trim(); }
+400	
+401	// Parsing
+402	async function parseTable(): Promise<Map<string, TableEntry>> {
+403	  // Prefer parsing from reader snapshot's Markdown section; original is often React-driven
+404	  const jamText = await fs.readFile(JAM_HTML, "utf8");
+405	  const rows = new Map<string, TableEntry>();
+406	  if (/^\s*Title:\s*/m.test(jamText) && /\nMarkdown Content:\n/m.test(jamText)) {
+407	    const [, mdBlockRaw = ""] = jamText.split(/\nMarkdown Content:\n/);
+408	    const lines = mdBlockRaw.split(/\r?\n/);
+409	    for (const line of lines) {
+410	      const ln = line.replace(/\*\*/g, "").trim();
+411	      // Expect lines like: 1 ![img](iconURL) [Title](rateUrl) Author [■](forum)
+412	      const mIndex = ln.match(/^(\d{1,2})/);
+413	      if (!mIndex) continue;
+414	      const indexText = mIndex[1];
+415	      const imgMatch = ln.match(/!\[[^\]]*\]\(([^)]+)\)/);
+416	      const iconUrl = normalizeUrl(imgMatch?.[1]);
+417	
+418	      // Collect links
+419	      const linkRe = /\[([^\]]+)\]\(([^)]+)\)/g;
+420	      const links: { label: string; href: string }[] = [];
+421	      let lm: RegExpExecArray | null;
+422	      while ((lm = linkRe.exec(ln))) {
+423	        links.push({ label: lm[1], href: normalizeUrl(lm[2]) || lm[2] });
+424	      }
+425	      const workLinks = links.filter((l) => /\/jam\/.+\/rate\//i.test(l.href));
+426	      if (workLinks.length === 0) continue;
+427	      const forumLink = links.filter((l) => !/\/jam\/.+\/rate\//i.test(l.href)).pop()?.href;
+428	
+429	      const author = (() => {
+430	        // Text after last work link closing
+431	        const lastWork = workLinks[workLinks.length - 1];
+432	        const lastIdx = ln.lastIndexOf(`](${lastWork.href})`);
+433	        if (lastIdx >= 0) {
+434	          const tail = ln.slice(lastIdx + `](${lastWork.href})`.length);
+435	          const cut = tail.split("[")[0] || tail; // stop before next link (forum)
+436	          const cleaned = cut.replace(/[★☆◎◇◆△▽※♪♭♫\s]+/g, " ").trim();
+437	          return cleaned;
+438	        }
+439	        return "";
+440	      })();
+441	
+442	      const titleCellText = ln; // not used directly, titles come from links
+443	      const streaming = undefined;
+444	      const category = undefined;
+445	      const engine = undefined;
+446	
+447	      const linkCount = workLinks.length;
+448	      for (let i = 0; i < linkCount; i++) {
+449	        const variant = linkCount > 1 ? String.fromCharCode(97 + i) : undefined;
+450	        const title = cleanTitle(workLinks[i].label);
+451	        const rateUrl = normalizeUrl(workLinks[i].href);
+452	        const key = rateUrl ?? `${indexText}-${variant ?? i}`;
+453	        rows.set(key, {
+454	          index: indexText,
+455	          variant,
+456	          detailDisabled: true, // until mapped to gameUrl later
+457	          gameUrl: undefined,
+458	          rateUrl: rateUrl,
+459	          title,
+460	          author,
+461	          category,
+462	          engine,
+463	          streaming,
+464	          iconUrl,
+465	          forumLink,
+466	        });
+467	      }
+468	    }
+469	    return rows;
+470	  }
+471	
+472	  // Fallback: attempt DOM table parse from original HTML (rare)
+473	  const useOriginal = await fileExists(JAM_HTML_ORIGINAL);
+474	  const content = await fs.readFile(useOriginal ? JAM_HTML_ORIGINAL : JAM_HTML, "utf8");
+475	  const $ = cheerio.load(content);
+476	  $("table tbody tr").each((_, element) => {
+477	    const cells = $(element).find("td");
+478	    if (cells.length < 4) return; // winter columns are fewer
+479	    const indexText = sanitizeWhitespace(cells.eq(0).text());
+480	    if (!indexText) return;
+481	    const iconUrl = normalizeUrl(cells.eq(1).find("img").attr("src"));
+482	    const titleCell = cells.eq(2);
+483	    const titleLinks = titleCell.find("a");
+484	    let authorText = titleCell.text();
+485	    titleLinks.each((_, a) => { const t = $(a).text(); if (t) authorText = authorText.replace(t, ""); });
+486	    const author = sanitizeWhitespace(authorText) ?? "";
+487	    const forumAnchor = cells.eq(3).find("a[href]").first();
+488	    const forumLink = normalizeUrl(forumAnchor.attr("href"));
+489	
+490	    const linkCount = titleLinks.length || 1;
+491	    for (let i = 0; i < linkCount; i++) {
+492	      const variant = linkCount > 1 ? String.fromCharCode(97 + i) : undefined;
+493	      const link = titleLinks.eq(i);
+494	      const href = normalizeUrl(link.attr("href"));
+495	      const rateUrl = href && /\/jam\/.+\/rate\//i.test(href) ? href : undefined;
+496	      const title = cleanTitle(link.text() || titleCell.text());
+497	      const key = rateUrl ?? `${indexText}-${variant ?? i}`;
+498	      rows.set(key, {
+499	        index: indexText,
+500	        variant,
+501	        detailDisabled: !rateUrl,
+502	        rateUrl,
+503	        title,
+504	        author,
+505	        iconUrl,
+506	        forumLink,
+507	      });
+508	    }
+509	  });
+510	  return rows;
+511	}
+512	
+513	async function parseEntriesData(): Promise<Map<string, JamGameEntry>> {
+514	  if (!(await fileExists(ENTRIES_DATA_JSON))) return new Map();
+515	  const raw = await fs.readFile(ENTRIES_DATA_JSON, "utf8");
+516	  const parsed = JSON.parse(raw);
+517	  if (!parsed || !Array.isArray(parsed.jam_games)) return new Map();
+518	  const map = new Map<string, JamGameEntry>();
+519	  for (const item of parsed.jam_games) {
+520	    const rateUrl = normalizeUrl(item.url, "https://itch.io");
+521	    const gameUrl = normalizeUrl(item.game?.url);
+522	    if (!rateUrl || !gameUrl) continue;
+523	    const entry: JamGameEntry = {
+524	      rateUrl,
+525	      gameUrl,
+526	      title: item.game?.title ?? "",
+527	      author: item.game?.user?.name ?? item.game?.user?.url ?? "",
+528	      cover: item.game?.cover,
+529	      shortText: item.game?.short_text,
+530	    };
+531	    map.set(gameUrl, entry);
+532	  }
+533	  return map;
+534	}
+535	
+536	async function parseEntriesFromJamSubmissions(): Promise<Map<string, JamGameEntry>> {
+537	  // Prefer original HTML for DOM parsing
+538	  const html = await fs.readFile((await fileExists(JAM_HTML_ORIGINAL)) ? JAM_HTML_ORIGINAL : JAM_HTML, "utf8");
+539	  const $ = cheerio.load(html);
+540	  const map = new Map<string, JamGameEntry>();
+541	  $("#entries .game_grid_widget .game_cell").each((_, cell) => {
+542	    const gameLink = $(cell).find(".game_title a").first();
+543	    const gameUrl = normalizeUrl(gameLink.attr("href"));
+544	    if (!gameUrl) return;
+545	    const title = gameLink.text().trim();
+546	    const author = $(cell).find(".game_author a").first().text().trim();
+547	    const cover = $(cell).find(".game_thumb img").first().attr("data-lazy_src") || $(cell).find(".game_thumb img").first().attr("src") || undefined;
+548	    map.set(gameUrl, { rateUrl: "", gameUrl, title, author, cover });
+549	  });
+550	  return map;
+551	}
+552	
+553	function sanitizeFileName(input: string) {
+554	  return input.replace(/[^a-z0-9-_]+/gi, "-").replace(/-+/g, "-").replace(/^-|-$/g, "").toLowerCase();
+555	}
+556	
+557	async function fetchGameHtml(index: string, jamEntry: JamGameEntry) {
+558	  await ensureDir(GAME_CACHE_DIR);
+559	  const slugPart = sanitizeFileName(jamEntry.gameUrl);
+560	  const filePath = path.join(GAME_CACHE_DIR, `${index}_${slugPart}.html`);
+561	  if (await fileExists(filePath)) return fs.readFile(filePath, "utf8");
+562	  const html = await runCurlText(jamEntry.gameUrl);
+563	  await fs.writeFile(filePath, html, "utf8");
+564	  return html;
+565	}
+566	
+567	async function fetchRateHtml(index: string, rateUrl: string) {
+568	  await ensureDir(RATE_CACHE_DIR);
+569	  const slugPart = sanitizeFileName(rateUrl);
+570	  const filePath = path.join(RATE_CACHE_DIR, `${index}_${slugPart}.html`);
+571	  if (await fileExists(filePath)) return fs.readFile(filePath, "utf8");
+572	  const html = await runCurlText(rateUrl);
+573	  await fs.writeFile(filePath, html, "utf8");
+574	  return html;
+575	}
+576	
+577	function htmlToPlainText(html: string) {
+578	  const normalized = html.replace(/<br\s*\/?\s*>/gi, "\n");
+579	  const text = cheerio.load(`<div>${normalized}</div>`, undefined, false)("div").text();
+580	  const lines = text.split(/\r?\n/).map((line) => line.trim()).filter((line, idx, arr) => line || (idx > 0 && arr[idx - 1] !== ""));
+581	  return lines.join("\n").trim();
+582	}
+583	
+584	function extractDescription($: cheerio.CheerioAPI) {
+585	  const container = $(".formatted_description").first();
+586	  if (!container.length) return undefined;
+587	  container.find("script,style").remove();
+588	  const html = container.html();
+589	  if (!html) return undefined;
+590	  const text = htmlToPlainText(html);
+591	  return text || undefined;
+592	}
+593	
+594	function extractHostName($: cheerio.CheerioAPI) {
+595	  const hostText = $(".jam_host_header a").first().text().trim();
+596	  if (hostText) return hostText;
+597	  return undefined;
+598	}
+599	
+600	function extractCommentsFromRate($: cheerio.CheerioAPI, hostName?: string) {
+601	  let authorComment: string | undefined;
+602	  $("section.field_responses p").each((_, el) => {
+603	    if (authorComment) return;
+604	    const strong = $(el).find("strong").first();
+605	    const label = strong.text().trim();
+606	    if (!label) return;
+607	    if (label.includes("作者コメント") || label.includes("作者\u30b3\u30e1\u30f3\u30c8")) {
+608	      const raw = $(el).html() || "";
+609	      const stripped = raw.replace(/<strong[\s\S]*?<\/strong>\s*(?:<br\s*\/?\s*>)?/i, "");
+610	      authorComment = htmlToPlainText(stripped) || undefined;
+611	    }
+612	  });
+613	
+614	  let hostComment: string | undefined;
+615	  const expected = hostName?.toLowerCase();
+616	  $(".community_post").each((_, el) => {
+617	    const author = $(el).find(".post_header .post_author a").first().text().trim();
+618	    if (!author) return;
+619	    if (!expected || author.toLowerCase() === expected) {
+620	      const bodyHtml = $(el).find(".post_content .post_body").first().html() || "";
+621	      const text = htmlToPlainText(bodyHtml);
+622	      if (text && !hostComment) hostComment = text;
+623	    }
+624	  });
+625	  return { authorComment, hostComment } as const;
+626	}
+627	
+628	function collectScreenshotCandidates($: cheerio.CheerioAPI, jamEntry: JamGameEntry) {
+629	  type Group = { id: string; order: number; urls: string[] };
+630	  const groups: Group[] = [];
+631	  let orderSeq = 0;
+632	
+633	  $(".screenshot_list a").each((_, a) => {
+634	    const img = $(a).find("img").first();
+635	    const id = img.attr("data-screenshot_id") || img.attr("id") || `${orderSeq}`;
+636	    const href = $(a).attr("href") || $(a).attr("data-image_lightbox");
+637	    const urls: string[] = [];
+638	    if (href) urls.push(href);
+639	    const src = img.attr("src");
+640	    if (src) urls.push(src);
+641	    groups.push({ id, order: orderSeq++, urls });
+642	  });
+643	
+644	  if (groups.length === 0) {
+645	    $(".screenshot_list img[src]").each((_, el) => {
+646	      const id = $(el).attr("data-screenshot_id") || $(el).attr("id") || `${orderSeq}`;
+647	      const urls: string[] = [];
+648	      const srcset = $(el).attr("srcset");
+649	      if (srcset) {
+650	        const parsed = srcset.split(",").map((part) => part.trim().split(/\s+/)[0]).filter(Boolean);
+651	        if (parsed.length) urls.push(parsed[parsed.length - 1]);
+652	      }
+653	      const src = $(el).attr("src");
+654	      if (src) urls.push(src);
+655	      groups.push({ id, order: orderSeq++, urls });
+656	    });
+657	  }
+658	
+659	  if (groups.length === 0 && jamEntry.cover) {
+660	    const coverOriginal = jamEntry.cover.replace(/\/\d+x\d+(?:%23c)?\//i, "/original/");
+661	    groups.push({ id: "cover", order: orderSeq++, urls: [coverOriginal] });
+662	  }
+663	
+664	  const normalized: ScreenshotGroup[] = groups.map((g) => ({
+665	    order: g.order,
+666	    urls: Array.from(new Set(g.urls.map((u) => normalizeUrl(u)).filter((u): u is string => Boolean(u)))),
+667	  }));
+668	  return normalized;
+669	}
+670	
+671	function extractDownloadSources(table: TableEntry, $: cheerio.CheerioAPI, gameUrl: string) {
+672	  const sources = new Set<string>();
+673	  if (table.downloadLink) sources.add(table.downloadLink);
+674	  if (gameUrl) sources.add(gameUrl);
+675	  const scriptText = $("script").map((_, el) => $(el).html() ?? "").get().join("\n");
+676	  const match = scriptText.match(/\"generate_download_url\":\"([^\"]+)\"/);
+677	  if (match) { sources.add(match[1].replace(/\\\//g, "/")); }
+678	  return Array.from(sources);
+679	}
+680	
+681	async function processEntry(table: TableEntry, jamEntry: JamGameEntry) {
+682	  const displayNo = table.index;
+683	  const baseIndex = displayNo.padStart(2, "0");
+684	  const variant = (table as any).variant ? String((table as any).variant) : "";
+685	  const fileIndex = variant ? `${baseIndex}${variant}` : baseIndex;
+686	  const html = await fetchGameHtml(fileIndex, jamEntry);
+687	  const $game = cheerio.load(html);
+688	  const description = extractDescription($game);
+689	  const screenshotCandidates = collectScreenshotCandidates($game, jamEntry);
+690	  const screenshotResult = await ensureScreenshots(fileIndex, screenshotCandidates);
+691	  const iconPath = await ensureIcon(fileIndex, table.iconUrl);
+692	
+693	  const work: WorkEntry = {
+694	    id: `${FESTIVAL_ID}-work-${fileIndex}`,
+695	    festivalId: FESTIVAL_ID,
+696	    no: displayNo,
+697	    title: table.title || jamEntry.title,
+698	    category: table.category,
+699	    engine: table.engine,
+700	    author: table.author || jamEntry.author,
+701	    streaming: table.streaming,
+702	    forum: table.forumLink,
+703	    authorComment: description ?? jamEntry.shortText ?? undefined,
+704	    detailDisabled: (table as any).detailDisabled === true ? true : undefined,
+705	  };
+706	
+707	  if (iconPath) work.icon = iconPath;
+708	  if (screenshotResult.paths.length > 0) work.ss = screenshotResult.paths;
+709	
+710	  const noteParts: string[] = [];
+711	  if (screenshotResult.failures.length > 0) noteParts.push(`screenshot failures: ${screenshotResult.failures.length}`);
+712	  const skippedSmall = screenshotResult.skipped.filter((item) => item.reason === "small").length;
+713	  if (skippedSmall > 0) noteParts.push(`skipped small images: ${skippedSmall}`);
+714	  const skippedDup = screenshotResult.skipped.filter((item) => item.reason === "duplicate").length;
+715	  if (skippedDup > 0) noteParts.push(`skipped duplicates: ${skippedDup}`);
+716	
+717	  const snapshot: SnapshotRecord = {
+718	    index: displayNo,
+719	    status: "ok",
+720	    title: work.title,
+721	    icon: work.icon,
+722	    note: noteParts.length ? noteParts.join("; ") : undefined,
+723	    downloadSource: extractDownloadSources(table, $game, jamEntry.gameUrl),
+724	    screenshotReport: {
+725	      saved: screenshotResult.paths.length,
+726	      skipped: screenshotResult.skipped.length ? screenshotResult.skipped : undefined,
+727	      failures: screenshotResult.failures.length ? screenshotResult.failures : undefined,
+728	    },
+729	  };
+730	  return { work, snapshot };
+731	}
+732	
+733	async function processEntryTableOnly(table: TableEntry) {
+734	  const displayNo = table.index;
+735	  const baseIndex = displayNo.padStart(2, "0");
+736	  const variant = (table as any).variant ? String((table as any).variant) : "";
+737	  const fileIndex = variant ? `${baseIndex}${variant}` : baseIndex;
+738	  const iconPath = await ensureIcon(fileIndex, table.iconUrl);
+739	  const work: WorkEntry = {
+740	    id: `${FESTIVAL_ID}-work-${fileIndex}`,
+741	    festivalId: FESTIVAL_ID,
+742	    no: displayNo,
+743	    title: table.title,
+744	    category: table.category,
+745	    engine: table.engine,
+746	    author: table.author,
+747	    streaming: table.streaming,
+748	    forum: table.forumLink,
+749	    detailDisabled: true,
+750	  };
+751	  if (iconPath) work.icon = iconPath;
+752	  const snapshot: SnapshotRecord = {
+753	    index: displayNo,
+754	    status: "ok",
+755	    title: work.title,
+756	    icon: work.icon,
+757	    note: "detail disabled: no game url",
+758	    downloadSource: table.downloadLink ? [table.downloadLink] : undefined,
+759	    screenshotReport: { saved: 0 },
+760	  };
+761	  return { work, snapshot };
+762	}
+763	
+764	async function main() {
+765	  await ensureDir(BANNERS_DIR);
+766	  await ensureDir(ICONS_DIR);
+767	  await ensureDir(SCREENSHOTS_DIR);
+768	  await ensureDir(GAME_CACHE_DIR);
+769	  await ensureJamCaches();
+770	
+771	  const bannerLocal = await ensureBanner();
+772	
+773	  const [tableMap, jamJsonMap, jamGridMap] = await Promise.all([
+774	    parseTable(),
+775	    parseEntriesData(),
+776	    parseEntriesFromJamSubmissions(),
+777	  ]);
+778	
+779	  const jamMap = new Map<string, JamGameEntry>([...jamJsonMap, ...jamGridMap]);
+780	  const jamByRate = new Map<string, JamGameEntry>();
+781	  for (const entry of jamJsonMap.values()) { if (entry.rateUrl) jamByRate.set(entry.rateUrl, entry); }
+782	
+783	  const jamByTitle = new Map<string, JamGameEntry>();
+784	  for (const entry of jamMap.values()) {
+785	    jamByTitle.set(normalizeKey(entry.title, entry.author), entry);
+786	    jamByTitle.set(normalizeKey(entry.title, undefined), entry);
+787	  }
+788	
+789	  for (const row of tableMap.values()) {
+790	    if (!row.gameUrl) {
+791	      if (row.rateUrl) {
+792	        const byRate = jamByRate.get(row.rateUrl);
+793	        if (byRate) { (row as any).gameUrl = byRate.gameUrl; (row as any).detailDisabled = false; continue; }
+794	      }
+795	      const candidate = jamByTitle.get(normalizeKey(row.title, row.author)) || jamByTitle.get(normalizeKey(row.title, undefined));
+796	      if (candidate) { (row as any).gameUrl = candidate.gameUrl; (row as any).detailDisabled = false; }
+797	    }
+798	  }
+799	
+800	  const works: WorkEntry[] = [];
+801	  const snapshots: SnapshotRecord[] = [];
+802	  const missingTable: SnapshotRecord[] = [];
+803	
+804	  for (const tableEntry of tableMap.values()) {
+805	    const jamEntry = tableEntry.gameUrl ? jamMap.get(tableEntry.gameUrl) : undefined;
+806	    if (!jamEntry) {
+807	      try {
+808	        const { work, snapshot } = await processEntryTableOnly(tableEntry);
+809	        works.push(work); snapshots.push(snapshot);
+810	      } catch (error) {
+811	        snapshots.push({
+812	          index: tableEntry.index,
+813	          status: "error",
+814	          title: tableEntry.title,
+815	          downloadSource: tableEntry.downloadLink ? [tableEntry.downloadLink] : undefined,
+816	          error: error instanceof Error ? error.message : String(error),
+817	        });
+818	      }
+819	      continue;
+820	    }
+821	    if (jamEntry?.gameUrl) { jamMap.delete(jamEntry.gameUrl); }
+822	    try {
+823	      const { work, snapshot } = await processEntry(tableEntry, jamEntry);
+824	      works.push(work); snapshots.push(snapshot);
+825	    } catch (error) {
+826	      const sources = [tableEntry.downloadLink, jamEntry.gameUrl].filter((v): v is string => Boolean(v));
+827	      snapshots.push({
+828	        index: tableEntry.index,
+829	        status: "error",
+830	        title: tableEntry.title,
+831	        downloadSource: sources.length ? sources : undefined,
+832	        error: error instanceof Error ? error.message : String(error),
+833	      });
+834	    }
+835	  }
+836	
+837	  for (const jamEntry of jamMap.values()) {
+838	    missingTable.push({ index: "?", status: "skipped", title: jamEntry.title, note: "present in submissions but not in overview table", downloadSource: [jamEntry.gameUrl] });
+839	  }
+840	
+841	  works.sort((a, b) => a.id.localeCompare(b.id));
+842	  await fs.writeFile(OUTPUT_WORKS, `${JSON.stringify(works, null, 2)}\n`, "utf8");
+843	
+844	  const summary = {
+845	    festivalId: FESTIVAL_ID,
+846	    generatedAt: new Date().toISOString(),
+847	    banner: bannerLocal ? `${bannerLocal}` : undefined,
+848	    stats: { captured: works.length, skipped: snapshots.filter((item) => item.status !== "ok").length },
+849	    entries: snapshots,
+850	    unmatched: missingTable,
+851	  };
+852	  await fs.writeFile(SUMMARY_PATH, `${JSON.stringify(summary, null, 2)}\n`, "utf8");
+853	
+854	  console.log(`Captured ${works.length} works. Skipped: ${summary.stats.skipped}.`);
+855	}
+856	
+857	main().catch((error) => { console.error(error); process.exitCode = 1; });
