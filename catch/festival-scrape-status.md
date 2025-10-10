@@ -13,7 +13,7 @@
 - [ ] `2022-gw` VIPRPG 2022GW祭
 - [ ] `2022-kouhaku` VIPRPG 紅白2022
 - [x] `2022-summer` VIPRPG 2022夏祭り（完成）
-- [ ] `2021-gw` VIPRPG 2021GW祭
+- [x] `2021-gw` VIPRPG 2021GW祭（完成）
 - [ ] `2021-kouhaku` VIPRPG 紅白2021
 - [ ] `2021-summer` VIPRPG 2021夏の陣
 - [ ] `2020-gw` VIPRPG GW祭2020
@@ -75,5 +75,4 @@
 - [ ] `2006-kouhaku` 第二回VIPRPG紅白
 - [ ] `2006-summer` VIPRPG祭り 夏の陣06
 - [ ] `2005-kouhaku` 05紅白VIPRPGまとめページ
-
 
