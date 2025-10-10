@@ -210,9 +210,7 @@
     "name": "VIPRPG 2022GW祭",
     "slug": "2022-gw",
     "type": "gw",
-    "banners": [
-      "/banners/2022-gw.png"
-    ],
+    "banners": ["/banners/2022-gw.png", "/banners/2022-gw-2.png"],
     "columns": [
       "no",
       "icon",
@@ -230,9 +228,7 @@
     "name": "VIPRPG 紅白2022",
     "slug": "2022-kouhaku",
     "type": "kouhaku",
-    "banners": [
-      "/banners/2022-kouhaku.png"
-    ],
+    "banners": ["/banners/2022-kouhaku.png", "/banners/2022-kouhaku-2.png", "/banners/2022-kouhaku-3.png"],
     "columns": [
       "no",
       "icon",
@@ -1505,3 +1501,5 @@
     "worksFile": "works/2005-kouhaku.json"
   }
 ]
+
+
