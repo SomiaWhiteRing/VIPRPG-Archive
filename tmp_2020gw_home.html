@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Cache-Control" content="no-cache">
+	<title>VIPRPG GW祭2020</title>
+	<script>
+		window.onload = function() {
+			let num = window.location.search.match(/id\=\d+/);
+			if (num) {
+				num = Number(num[0].match(/\d+/));
+				document.getElementsByName("frame1")[0].src = "menu.html?id=" + num;
+				document.getElementsByName("frame2")[0].src = "entries.html?id=" + num;
+			} else {
+				document.getElementsByName("frame1")[0].src = "menu.html";
+				document.getElementsByName("frame2")[0].src = "top.html";
+			}
+		}
+	</script>
+</head>
+
+<frameset cols="250,*" noresize>
+
+<frame src="" name="frame1" title="左フレーム">
+<frame src="" name="frame2" title="右フレーム">
+
+<noframes>
+
+</noframes>
+
+</frameset>
+
+<script>
+
+</script>
+</html>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Cache-Control" content="no-cache">
+	<style>
+		body { 
+			margin: 0; 
+			padding: 0;
+			background-image: url(./img/bg.jpg);
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: cover;
+		}
+
+	</style>
+	<script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.min.js"></script>
+	<script src="platform.js"></script>
+	<script>
+		let local = false;
+		
+		function getDate(time) {
+			if (time.match(/[^\d]/)) {
+				return time;
+			} else {
+				let s = -1000*3600*9;
+
+				let date = new Date(Number(time) + s);
+				//return `${date.getMonth() + 1}/${date.getDate()}/${date.getHours()}:${(date.getMinutes() > 9 ? date.getMinutes() : "0" + date.getMinutes())}`;
+				return `${date.getMonth() + 1}/${date.getDate()}`;
+			}
+		}
+		function esc(str) {
+			str = str.replace(/>/g, "&gt;");
+			str = str.replace(/</g, "&lt;")
+			str = str.replace(/\r?\n/g, '<br>');
+			return str;
+		}
+
+		function forum(url, num) {
+			parent.frame1.location.href = `../menu.html?id=${num}&forum=true`;
+			parent.frame2.location.href = url;
+		}
+
+		let data_h, data_s;
+		$("#games").ready(function() {
+
+			if (platform.name == 'IE') {
+
+				$("#header").html("");
+
+				$("#games").html("このサイトはInternet Explorerには対応していません。<br>" + 
+					"Internet Explorerが長らく更新されておらず、機能に乏しく、脆弱性も高いブラウザであるためです。<br>" + 
+					"<a href='https://www.google.com/intl/ja/chrome/'>Chrome</a>、 " + 
+					"<a href='https://www.mozilla.org/ja/firefox/new/'>Firefox</a>、" + 
+					"<a href='microsoft-edge:" + location.origin + "'>Microsoft Edge</a>" +
+					"など別のブラウザをご利用ください。");
+
+			} else {
+
+				$.ajax({
+					type : 'GET',
+					url : './games.json',
+					dataType : 'json',
+					timeout : 3000,
+					async : false,
+					success: function(json) {
+						data_s = json;
+					},
+					error: function(XMLHttpRequest, textStatus, errorThrown) {
+					}
+				});
+
+				if (!data_h) {
+					local = true;
+					$.ajax({
+						type : 'GET',
+						url : './data_h_local.json',
+						dataType : 'json',
+						timeout : 2000,
+						async : false,
+						success: function(json) {
+							data_h = json;
+						},
+						error: function(XMLHttpRequest, textStatus, errorThrown) {
+						}
+					});
+				}
+
+				// sample >>>
+
+				data_h.games.unshift({
+					gameid : 0,
+					name_game :"サンプル",
+					name_author : "管理人",
+					genre : "サンプルゲーム",
+					tool : "Steam2003",
+					stream : "18歳以上は不可",
+					comment : "作品情報のサンプルです。\nアイコン・SSが未指定の場合はこのようになります。",
+					game_url : ["https://ux.getuploader.com/vipgw2020_game/download/118","","","",""],
+					modified : "6/2"
+				});
+				data_s.games.unshift({
+					icon : "default_icon.png",
+					ss : ["default_ss1.png", "default_ss2.png"],
+					forum : "https://jbbs.shitaraba.net/bbs/read.cgi/game/60946/1587008069/l1000",
+					"a_com":""
+				});
+
+				// <<<
+
+				// default_img
+
+				for (let c = 0; c < data_s.games.length; c++) {
+					if (!data_s.games[c].icon || data_s.games[c].icon === "") {
+						data_s.games[c].icon = "default_icon.png"
+					}
+				}
+
+				let c;
+				c = `<table border='3' cellpadding='2' bordercolor='#449999' style='font-size:0.8rem; background-color:rgba(255, 255, 255, 0.75); border-radius: 0.7rem 0.7rem 0rem 0rem; font-family:Meiryo'>
+					<tr> 
+						<th style='width:2rem; border-radius:0.5rem; background-color:#DDFFFF'>ID</th>
+						<th style='width:2rem; border-radius:0.5rem; background-color:#DDFFFF''>Icon</th>
+						<th style='width:20rem; border-radius:0.5rem; background-color:#DDFFFF''>タイトル/作者</th>
+						<th style='width:10rem; border-radius:0.5rem; background-color:#DDFFFF''>ジャンル</th>
+						<th style='width:6rem; border-radius:0.5rem; background-color:#DDFFFF''>ツール</th>
+						<th style='width:10rem; border-radius:0.5rem; background-color:#DDFFFF''>DL/更新日</th>
+						<th style='width:7rem; border-radius:0.5rem; background-color:#DDFFFF''>配信/動画投稿</th>
+						<th style='width:3rem; border-radius:0.5rem; background-color:#DDFFFF''>感想</th>
+					</tr>`;
+				for (let i = 0; i < data_s.games.length; i++) {
+					c = c + `<tr>
+						<td align="center">${data_h.games[i].gameid}</td>
+						<td><img style='vertical-align: middle' src='./img/${data_s.games[i].icon}'></td>
+						<td><a href='${window.location.origin}?id=${data_h.games[i].gameid}' target='_parent'><span style='font-size:1rem'>${data_h.games[i].name_game}</span><br>
+							<span style='font-size:0.75rem'>${data_h.games[i].name_author}</span></a></td>
+						<td align="center">${data_h.games[i].genre}</td>
+						<td align="center">${data_h.games[i].tool}</td><td align="center">`;
+					if (data_h.games[i].game_url[0] === "posted") {	
+						c = c + "提出済";
+					} else {
+						for (let m = 0; m < data_h.games[i].game_url.length; m++) {
+							if (data_h.games[i].game_url[m] !== "") {
+								if (m == 0) {
+									c = c + `<a href='${data_h.games[i].game_url[m]}' target='_blank'>
+									DL${(data_h.games[i].game_url[m + 1] !== "" ? "" : (m + 1))}</a>`;
+								} else { 
+									c = c + " ";
+									c = c + `<a href='${data_h.games[i].game_url[m]}' target='_blank'>DL${m + 1}</a>`;
+								}
+							} else {
+								if (m == 0) {
+									c = c + "DL (✕)"
+								}
+							}
+						}
+					}
+						
+					c = c +	`<br>
+						<b>${getDate(data_h.games[i].modified)}</b>
+						</td>
+						<td align="center">${data_h.games[i].stream}</td>
+						<td align="center" style="font-size:1.7rem"><a href="javascript:forum('${data_s.games[i].forum}', ${i})">□</a></td>
+					</tr>`
+					}
+
+				c = c + "</table>";
+				$("#games").html(c);
+				
+			}			
+		});
+		
+
+	</script>
+</head>
+<body><script type="text/javascript" charset="utf-8" src="//asumi.shinobi.jp/encount"></script><div style="text-align: center;"><div style="display: inline-block; position: relative; z-index: 9999;"><script type="text/javascript" charset="utf-8" src="//asumi.shinobi.jp/fire?f=435"></script><script type="text/javascript" charset="utf-8" src="/__sys__inactive_message.js"></script></div></div>
+	<div id="header">
+		<div style="height:4rem; background:linear-gradient(to left, rgba(200, 255, 230, 0.6), rgba(255, 255, 255, 0.6));
+			border-bottom:1px solid #007777">
+			<div style="position:absolute; top:-0.05rem; left:1rem">
+				<h3>VIPRPG GW2020 &nbsp;作品一覧</h3>
+			</div>
+		</div>
+	</div>
+	<div style="margin:0.3rem"></div>
+	<div style="margin:1rem" id="games"></div>
+
+<div style="text-align: center;"><div style="display: inline-block; position: relative; z-index: 9999;"><script type="text/javascript" charset="utf-8" src="//asumi.shinobi.jp/fire?f=434"></script></div></div></body>
+</html>

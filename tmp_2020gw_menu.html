@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Cache-Control" content="no-cache">
+	<style>
+		* {
+			margin:0px; padding:0px;
+		}
+		.nna {
+
+		}
+		.fw {
+			margin: 0.55rem; 
+			padding: 0.3rem;
+			border-radius: 0.4rem;
+			border: 2px solid #449999;
+			background: linear-gradient(to top, rgba(240, 255, 255, 0.7), rgba(190, 255, 230, 0.7));
+			width: 220px;
+		}
+		.btn {
+			display:inline-block;
+			text-align: center;
+			width:218px;
+			background-color: rgba(255, 255, 255, 0);
+			border: 1px solid rgba(255, 255, 255, 0);
+			border-radius: 0.3rem;
+			padding:2px 0px 0px 0px;
+		}
+		.btn2 {
+			display:inline-block;
+			text-align: center;
+			width:105px;
+			background-color: rgba(255, 255, 255, 0);
+			border: 1px solid rgba(0, 0, 100, 0);
+			border-radius: 0.3rem;
+			padding:2px 0px 0px 0px;
+		}
+		.btn3 {
+			display:inline-block;
+			text-align: center;
+			width:174px;
+			background-color: rgba(255, 255, 255, 0);
+			border: 1px solid rgba(0, 0, 100, 0);
+			border-radius: 0.3rem;
+			padding:2px 0px 0px 0px;
+		}
+		.btn_d {
+			display:inline-block;
+			text-align: center;
+			width:105px;
+			background-color: rgba(255, 255, 255, 0);
+			border: 1px solid rgba(0, 0, 100, 0);
+			border-radius: 0.3rem;
+			color:rgba(0, 0, 0, 0.5);
+			cursor:default;
+			padding:2px 0px 0px 0px;
+		}
+		.box1 {
+			font-family: Meiryo;
+			padding: 2px 0px 0px 0px;
+			display:inline-block;
+			width:160px;
+			background-color: rgba(255, 255, 255, 0.8);
+			border: 2px solid rgba(100, 200, 150, 0.6);
+			border-radius: 0.3rem;
+		}
+	</style>
+	<script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.min.js"></script>
+	<script type="text/javascript">
+        var adblock = true;
+        </script>
+	<script type="text/javascript" src="./adframe.js"></script>
+	<script type="text/javascript">
+
+		function hl (obj) {
+			$(`#${obj}`).css("background-color", "rgba(255, 255, 230, 0.9)");
+			$(`#${obj}`).css("border", "1px solid rgba(0, 0, 0, 0.5)");
+		}
+		function hlo (obj) {
+			$(`#${obj}`).css("background-color", "rgba(255, 255, 255, 0)");
+			$(`#${obj}`).css("border", "1px solid rgba(0, 0, 0, 0)");
+		}
+		function entry() {
+
+			if (adblock) {
+				parent.frame2.location.href = "../ab.html"
+
+			} else {
+
+				$("#game").hide(0)
+				$.ajax({
+					type : 'GET',
+					url : 'https://viprpg-gw2020.herokuapp.com/ping',
+					timeout : 5000,
+					async : false,
+					success: function() {
+						parent.frame2.location.href = "https://viprpg-gw2020.herokuapp.com/";
+					},
+					error: function(XMLHttpRequest, textStatus, errorThrown) {
+						
+						parent.frame2.location.href = "../entryFail.html"
+						
+					}
+				});
+			}
+		}
+
+		function red(p) {
+			if (typeof p === "string") {
+				parent.location.href = p;
+			} else {
+				parent.location.href = `./?page=${p}`;
+			}
+		}
+
+		function link(p) {
+			if (p > 5 || p < 0) {
+				p = 0;
+			}
+			parent.frame2.location.href = [
+				"./top.html",
+				"./about.html",
+				"https://jbbs.shitaraba.net/game/60946/",
+				"https://jbbs.shitaraba.net/bbs/read.cgi/game/60946/1587008069/l1000",
+				"./update.html",
+				"./past.html"
+			][p];
+		}
+
+		let bn = 0;
+		const bnum = 3;
+
+		function reroll() {
+			bn = (bn + Math.floor(Math.random() * (bnum - 1)) + 1) % bnum;
+			$("#banner").attr("src", `/img/gw2020_${bn + 1}.png`);	
+		}
+
+		$( document ).ready(function() {
+
+			bn = Math.floor(Math.random() * bnum);
+			$("#banner").attr("src", `/img/gw2020_${bn + 1}.png`);	
+
+			let pg = parent.location.search.match(/page\=\d/);
+			let num = location.search.match(/id\=\d+/);
+			if (pg && !num) {
+
+				link(pg = pg[0].match(/\d/)[0]);
+			} else {
+				
+				if (num) {
+					num = Number(num[0].match(/\d+/));
+
+					$.ajax({
+						type : 'GET',
+						url : './games.json',
+						dataType : 'json',
+						timeout : 2000,
+						async : false,
+						success: function(json) {
+							data_s = json;
+						},
+						error: function(XMLHttpRequest, textStatus, errorThrown) {
+						}
+					});
+
+					let f = "";
+					let siz = "80px"
+
+					if (location.search.match(/forum\=true/)) {
+						f = `<div style="margin:0.3rem"></div>
+						<a href="javascript:red('../?id=${num}')"><span class="btn3" onmouseover="hl('c10')" onmouseout="hlo('c10')" id="c10">作品詳細ページへ戻る</span></a>`;
+						siz = "114px";
+					}
+
+					$("#game").attr("class", "fw");
+					$("#game").css("height", siz)
+					$("#game").html(`
+						<div style="margin:0.6rem"></div>
+						<center><span class="box1"><b>表示中：No.${num}</b></span></center>
+						<div style="margin:0.5rem"></div>
+						${(num == 0 ? 
+							`<span class="btn_d">◀前の作品へ</span>`
+							 : 
+							`<a href="javascript:red('../?id=${num - 1}')"><span class="btn2" onmouseover="hl('c8')" onmouseout="hlo('c8')" id="c8">◀前の作品へ</span></a>`
+						)}
+						${(num == data_s.games.length ? 
+							`<span class="btn_d">次の作品へ▶</span>`
+							 : 
+							`<a href="javascript:red('../?id=${num + 1}')"><span class="btn2" onmouseover="hl('c9')" onmouseout="hlo('c9')" id="c9">次の作品へ▶</span></a>`
+						)}
+						<center>${f}</center>
+					`);
+				}
+			}
+		});
+
+	</script>
+
+</head>
+<body style="background-image: url(./img/bg_m.png);">
+	<div class="fw">
+		<div style="margin:0.5rem"></div>
+		<center><span style="font-family: Meiryo; color:#025;font-size: 1.2rem"><b>VIPRPG GW祭2020</b></span></center>
+		<div style="margin:0.2rem"></div>
+		<center><img id="banner" src="" style="border:1px solid rgba(0, 120, 250, 0.8); border-radius: 3px; cursor: pointer" onclick="reroll()"></center>
+		<center><span style="font-weight: 600; font-size: 15px; font-family: Meiryo; color: rgb(0, 50, 120)">5/1　作品公開開始！</span></center>
+		<div style="margin:0.2rem"></div>
+	</div>
+	<div style="margin:0.8rem"></div>
+	<div class="fw">
+		<a href="javascript:red(0)">
+			<span class="btn" onmouseover="hl('c1')" onmouseout="hlo('c1')" id="c1" tg="./top.html">作品一覧</span></a><br>
+		<a href="javascript:red(1)">
+			<span class="btn" onmouseover="hl('c2')" onmouseout="hlo('c2')" id="c2">企画概要</span></a><br>
+		<a href="javascript:entry()">
+			<span class="btn" onmouseover="hl('c3')" onmouseout="hlo('c3')" id="c3">エントリー/作品編集</span></a><br>
+		<a href="javascript:red(2)">
+			<span class="btn" onmouseover="hl('c4')" onmouseout="hlo('c4')" id="c4">感想掲示板</span></a><br>
+		<a href="javascript:red(3)">
+			<span class="btn" onmouseover="hl('c5')" onmouseout="hlo('c5')" id="c5">運営掲示板</span></a><br>
+		<a href="javascript:red(4)">
+			<span class="btn" onmouseover="hl('c6')" onmouseout="hlo('c6')" id="c6">更新履歴</span></a><br>
+		<a href="javascript:red(5)">
+			<span class="btn" onmouseover="hl('c7')" onmouseout="hlo('c7')" id="c7">過去の祭り</span></a><br>	
+	</div>
+	<div style="margin:0.8rem"></div>
+	<div id="game">
+	</div>
+	<div class="fw">
+		<div style="font-size:11px; font-weight:600">6/3<br>エントリーサーバー復活<br>現在時間帯を問わずアクセス可能です</div>
+	</div>
+</body>
+</html>

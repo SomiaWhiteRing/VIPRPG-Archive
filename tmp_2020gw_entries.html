@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Cache-Control" content="no-cache">
+	<style>
+		body { 
+			margin: 0; 
+			padding: 0;
+			background-image: url(./img/bg.jpg);
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: cover;
+		}
+
+		.rw {
+			margin: 0.3rem; 
+			padding: 0.15rem;
+			border-radius: 0.4rem;
+			border: 2px solid #338888;
+			background-color: rgba(255, 255, 255, 0.75);
+			width: 830px;
+		}
+		.bd {
+			margin: 0px 5px 0px 6px;
+		}
+	</style>
+	<script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.min.js"></script>
+	<script src="platform.js"></script>
+	<script>
+		
+		function getDate(ms) {
+			let date = new Date(Number(ms));
+			return (date.getMonth() + 1) + "/" + date.getDate();
+		}
+		function ssu(img) {
+			$("#ss_img").attr("src", `/img/${img}`);
+		}
+		function esc(str) {
+			str = str.replace(/>/g, "&gt;");
+			str = str.replace(/</g, "&lt;")
+			str = str.replace(/\r?\n/g, '<br>');
+			return str;
+		}
+		function forum(url, num) {
+			if (url.match(/ux\.getuploader\.com/) || url.match(/jbbs\.shitaraba\.net/)) {
+				parent.frame1.location.href = `../menu.html?id=${num}&forum=true`;
+				location.href = url;
+			} else {
+				window.open(url);
+			}
+
+		}
+
+		let data_h, data_s;
+		$( document ).ready(function() {
+			if (platform.name == 'IE') {
+
+				$("#header").html("");
+
+				$("#content").html("このサイトはInternet Explorerには対応していません。<br>" + 
+					"Internet Explorerが長らく更新されておらず、機能に乏しく、脆弱性も高いブラウザであるためです。<br>" + 
+					"<a href='https://www.google.com/intl/ja/chrome/'>Chrome</a>、 " + 
+					"<a href='https://www.mozilla.org/ja/firefox/new/'>Firefox</a>、" + 
+					"<a href='microsoft-edge:" + location.origin + "'>Microsoft Edge</a>" +
+					"など別のブラウザをご利用ください。");
+
+			} else {
+
+				$("#back").attr("href", `${window.location.origin}`)
+				
+				$.ajax({
+					type : 'GET',
+					url : 'https://viprpg-gw2020.herokuapp.com/entries',
+					dataType : 'json',
+					timeout : 5000,
+					async : false,
+					success: function(json) {
+						data_h = json;
+					},
+					error: function(XMLHttpRequest, textStatus, errorThrown) {
+					}
+				});
+
+				$.ajax({
+					type : 'GET',
+					url : './games.json',
+					dataType : 'json',
+					timeout : 2000,
+					async : false,
+					success: function(json) {
+						data_s = json;
+					},
+					error: function(XMLHttpRequest, textStatus, errorThrown) {
+					}
+				});
+				
+				if (!data_h) {
+					$.ajax({
+						type : 'GET',
+						url : './data_h_local.json',
+						dataType : 'json',
+						timeout : 2000,
+						async : false,
+						success: function(json) {
+							data_h = json;
+						},
+						error: function(XMLHttpRequest, textStatus, errorThrown) {
+						}
+					});
+				}
+				let c;
+				let num = window.location.search.match(/id\=\d+/);
+				if (num) {
+					num = Number(num[0].match(/\d+/)[0]);
+				} else {
+					num = 0;
+				}
+				if (num > data_s.games.length) {
+					parent.location.href='../?id=' + data_s.games.length;
+				}
+
+				// sample >>>
+
+				data_h.games.unshift({
+					gameid : 0,
+					name_game :"サンプル",
+					name_author : "管理人",
+					genre : "サンプルゲーム",
+					tool : "Steam2003",
+					stream : "18歳以上は不可",
+					comment : "ダーエロとメカゴが主人公の弾幕STGです。\n現在ステージ2までですが時間があればステージ3も作るかも。\n難易度は東方換算でEasy～Normal程度。\n\n一部不適切な表現を含むので注意。\nおまけの素材も同梱しています。",
+					game_url : ["https://ux.getuploader.com/vipgw2020_game/download/118","","","",""],
+					modified : "6/2"
+				});
+				data_s.games.unshift({
+					icon : "default_icon.png",
+					ss : ["default_ss1.png", "default_ss2.png"],
+					forum : "https://jbbs.shitaraba.net/bbs/read.cgi/game/60946/1587008069/l1000","a_com":"エントリー直後のコメントの他、クリアしたら追加でコメントを書いていこうと思います。"
+				});
+
+				// <<<
+
+				// default_img
+
+				if (data_s.games[num].icon === "") {
+					data_s.games[num].icon = "default_icon.png";
+				}
+				let im = 0;
+				for (let c = 0; c < 4; c++) {
+					if (!data_s.games[num].ss[c] || data_s.games[num].ss === "") {
+						im++;
+					}
+				}
+				if (im == 4) {
+					data_s.games[num].ss[0] = "default_ss1.png";
+				}
+
+				$("#icon").attr('src', `/img/${data_s.games[num].icon}`)
+				$("#name_game").html(`
+					&nbsp;<b>No.${num}&nbsp;&nbsp;
+					${esc(data_h.games[num].name_game)}</b>
+				`);
+				$("#ss_img").attr("src", `/img/${data_s.games[num].ss[0]}`);
+				let link = "";
+				for (let i = 0; i < data_s.games[num].ss.length; i++) {
+					if (data_s.games[num].ss[i] !== "") {
+						if (i != 0) { link = link + " / " }
+						link = `${link}<a href="javascript:ssu('${data_s.games[num].ss[i]}')">SS${i + 1}</a>&nbsp;`;
+					}
+				}
+				$("#ss_link").html(link);
+				$("#name_author").html(`作者名：${esc(data_h.games[num].name_author)}`);
+				$("#genre").html(`ジャンル：${esc(data_h.games[num].genre)}`);
+				$("#tool").html(`ツール：${esc(data_h.games[num].tool)}`);
+				$("#stream").html(`配信/動画投稿の許可：${esc(data_h.games[num].stream)}`);
+
+				$("#fm").html(`<a href="javascript:forum('${data_s.games[num].forum}', ${num})">感想スレ</a>`);
+				let dl = "";
+				if (data_h.games[num].game_url[0] === "posted") {
+					dl = "提出済";
+				} else {
+
+					let g = data_h.games[num];		
+					for (let i = 0; i < g.game_url.length; i++) {
+						if (g.game_url[i] !== "") {
+
+							/*
+							let newtab = "";
+							if (!g.game_url[i].match(/ux\.getuploader\.com/)) {
+								newtab = "target='_blank'";
+							}
+
+							if (i != 0) {
+								dl = dl + " / ";
+								dl = `${dl}<a href='${g.game_url[i]}' ${newtab}>ダウンロード${(i + 1)}</a>`;
+							} else {
+								dl = `${dl}<a href='${g.game_url[i]}' ${newtab}>ダウンロード${(g.game_url[i + 1] !== "" ? (i + 1) : "")}</a>`;
+							}
+							*/
+							if (i != 0) {
+								dl = dl + " / ";
+								dl = `${dl}<a href="javascript:forum('${g.game_url[i]}', ${num})">ダウンロード${(i + 1)}</a>`;
+							} else {
+								dl = `${dl}<a href="javascript:forum('${g.game_url[i]}', ${num})">ダウンロード${(g.game_url[i + 1] !== "" ? (i + 1) : "")}</a>`;
+							}
+
+							
+						} else {
+							if (i == 0) {dl = dl + "ダウンロード(✕)"}
+						}
+					}
+				}
+				$("#dl").html(dl);
+				$("#comment").html(`${esc(data_h.games[num].comment)}`);
+				$("#a_com").html(data_s.games[num].a_com);
+				$("#content").fadeIn(0);
+			}			
+		});
+		
+
+	</script>
+</head>
+<body><script type="text/javascript" charset="utf-8" src="//asumi.shinobi.jp/encount"></script><div style="text-align: center;"><div style="display: inline-block; position: relative; z-index: 9999;"><script type="text/javascript" charset="utf-8" src="//asumi.shinobi.jp/fire?f=435"></script><script type="text/javascript" charset="utf-8" src="/__sys__inactive_message.js"></script></div></div>
+	<div style="margin:0.5rem"></div>
+	<div style="margin-left:1rem" id="content" hidden>
+		<div class="rw" id="title">
+			<table style="word-break: break-word;">
+				<tr style="height: 32px">
+					<td style="min-width: 34px"><img style="vertical-align: middle" src="" id="icon"></td>
+					<td style="width: 800px; background:linear-gradient(to right, rgba(200, 255, 230, 0.9), rgba(255, 255, 255, 0));
+						border: 1px solid rgba(160, 245, 220, 1);" id="name_game"></td>
+				</tr>
+			</table>
+		</div>
+		<div class="rw">
+			<div style="margin:0.4rem"></div>
+			<center><img src="" style="max-width: 816px; max-height: 624px" id="ss_img"></center>
+			<table border="2" bordercolor="#338888" style="word-break: break-word; margin:5px; width:820px">
+				<tr>
+					<td colspan="2">
+						<div class="bd" id="ss_link"></div>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<div class="bd" id="name_author"></div>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<div class="bd" id="genre"></div>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<div class="bd" id="tool"></div>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<div class="bd" id="stream"></div>
+					</td>
+				</tr>
+				<tr>
+					<td style="width:80px">
+						<div class="bd" id="fm"></div>
+					</td>
+					<td>
+						<div class="bd" id="dl"></div>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<div style="margin:0.15rem"></div>
+						&nbsp;作者コメント：<br>
+						<div style="margin:0px 6px 6px 6px; padding:6px; border-radius: 0.4rem; border:1px solid rgba(0, 90, 90, 0.4);
+							background-color: rgba(255, 255, 255, 0.6)" id="comment"></div>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<div style="margin:0.15rem"></div>
+						&nbsp;管理人コメント：<br>
+						<div style="margin:0px 6px 6px 6px; padding:6px; border-radius: 0.4rem; border:1px solid rgba(0, 90, 90, 0.2);
+							background-color: rgba(255, 255, 255, 0.1)" id="a_com"></div></div>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div style="margin:1.4rem"></div>
+	</div>
+
+<div style="text-align: center;"><div style="display: inline-block; position: relative; z-index: 9999;"><script type="text/javascript" charset="utf-8" src="//asumi.shinobi.jp/fire?f=434"></script></div></div></body>
+</html>
