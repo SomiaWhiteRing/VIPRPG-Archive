@@ -231,6 +231,15 @@ async function copyIcon(index: string, source?: string | null): Promise<string |
 
 async function copyScreenshots(index: string, sources: string[]): Promise<{ paths: string[]; skipped: ScreenshotSkip[]; failures: string[] }> {
   await ensureDir(SCREENSHOTS_DIR);
+  // Purge old files for this index to keep directory clean
+  try {
+    const files = await fs.readdir(SCREENSHOTS_DIR);
+    await Promise.all(
+      files
+        .filter((f) => f.startsWith(index))
+        .map((f) => fs.unlink(path.join(SCREENSHOTS_DIR, f)).catch(() => undefined))
+    );
+  } catch {}
   const skipped: ScreenshotSkip[] = [];
   const failures: string[] = [];
   const saved: string[] = [];
@@ -268,16 +277,36 @@ async function parseDetail(url?: string): Promise<DetailEntry> {
     const $ = cheerio.load(html);
     const result: DetailEntry = {};
     const table = $("#entry");
-    // Screenshots from main <img> in table and any additional imgs
+    // Screenshots: collect <img> src + common alternate handlers, and image links
     const shotSet = new Set<string>();
+    const addIfImage = (u?: string | null) => {
+      if (!u) return;
+      try {
+        const abs = new URL(u, url).toString();
+        if (!/\.(png|jpe?g|gif|bmp)$/i.test(abs)) return;
+        const lower = abs.toLowerCase();
+        if (lower.includes("noicon")) return;
+        if (lower.includes("counter_img.php")) return;
+        shotSet.add(abs);
+      } catch {}
+    };
+
     table.find("img").each((_, img) => {
-      const src = $(img).attr("src");
-      if (!src) return;
-      const abs = new URL(src, url).toString();
-      if (!/\.(png|jpe?g|gif|bmp)$/i.test(abs)) return;
-      if (abs.toLowerCase().includes("noicon")) return;
-      if (abs.toLowerCase().includes("counter_img.php")) return;
-      shotSet.add(abs);
+      const el = $(img);
+      addIfImage(el.attr("src"));
+      const attrs = ["onmouseover", "onmouseout", "data-src", "data-alt-src", "data-hover-src"];
+      for (const a of attrs) {
+        const v = el.attr(a);
+        if (!v) continue;
+        const m1 = v.match(/['\"]([^'\"]+\.(?:png|jpe?g|gif|bmp))['\"]/i);
+        if (m1) addIfImage(m1[1]);
+        const m2 = v.match(/([\w\-/.]+\.(?:png|jpe?g|gif|bmp))/i);
+        if (m2) addIfImage(m2[1]);
+      }
+    });
+    // Also collect image links inside table
+    table.find('a[href$=".png"],a[href$=".jpg"],a[href$=".jpeg"],a[href$=".gif"],a[href$=".bmp"]').each((_, a) => {
+      addIfImage($(a).attr('href'));
     });
     if (shotSet.size) result.screenshots = Array.from(shotSet);
 
@@ -367,4 +396,3 @@ async function run() {
 }
 
 run().catch((err) => { console.error(err); process.exit(1); });
-
