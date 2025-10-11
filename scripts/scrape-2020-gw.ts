@@ -352,7 +352,8 @@ async function run() {
       streaming: sanitizeWhitespace(h.stream),
       forum: s.forum,
       authorComment: sanitizeMultiline(h.comment),
-      hostComment: sanitizeMultiline(s.a_com),
+      // a_com 内含 HTML，需要保留供渲染
+      hostComment: s.a_com,
       icon: iconLocal,
       ss: ssResult.paths.length > 0 ? ssResult.paths : undefined,
     };

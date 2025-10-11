@@ -689,6 +689,18 @@ a:focus-visible {
   white-space: pre-wrap;
 }
 
+/* Host comment rich HTML helpers */
+.section-text img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-radius: 4px;
+}
+
+.section-text details {
+  margin-top: 6px;
+}
+
 .download-button {
   display: inline-flex;
   padding: 10px 20px;

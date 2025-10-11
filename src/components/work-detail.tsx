@@ -137,7 +137,10 @@ export default function WorkDetail({
       {work.hostComment && (
         <section className="detail-section">
           <h2 className="section-heading">{dictionary.detailsHostComment}</h2>
-          <p className="section-text">{work.hostComment}</p>
+          <div
+            className="section-text"
+            dangerouslySetInnerHTML={{ __html: renderHostCommentHTML(work.hostComment) }}
+          />
         </section>
       )}
 
@@ -179,6 +182,13 @@ export default function WorkDetail({
       )}
     </article>
   );
+}
+
+function renderHostCommentHTML(source: string) {
+  const raw = source ?? "";
+  // If it already contains HTML tags, trust the markup; otherwise, convert newlines to <br> for readability.
+  const looksLikeHtml = /<\/?[a-z][\s\S]*>/i.test(raw);
+  return looksLikeHtml ? raw : raw.replace(/\n/g, "<br>");
 }
 
 function renderScreenshots(
