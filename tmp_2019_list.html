@@ -1,0 +1,1274 @@
+<!DOCTYPE html>
+<html lang=�gja�h>
+	<head>
+		<meta charset="Shift_JIS">
+			<title>�Q����i���X�g</title>
+		
+				
+			<style>
+
+			*{								/* web�f�t�H���g�ݒ�ύX�p */
+			margin: 0px;
+			padding: 0px;
+			}
+	
+			.tyuuou{			/* ������ */
+			width: 1800px;
+				margin-left: auto;
+				margin-right: auto;
+				
+			}
+			
+			.sankalist{				/* �Q�����X�g�摜 */
+				display: flex;
+				margin-left: 60px;
+			}
+	
+			.tyuuou2{		/* �g�g�̈͂� */
+				display: flex;
+				width: 1200px;
+				background-color: #fff4f4;     /* �w�i�F */
+				margin-left: 0px;
+				margin-bottom: 3px;
+				border-radius: 10px;        /* �p�� */
+				align-items: center;	/* ���e���㉺�����ɔz�u */
+				height : 70px;			/* ���� */
+				box-shadow: 0px 1px 1px darkmagenta;	/* �e */
+			}
+			
+			.tyuuou3{		/* ���g�̈͂� */
+				display: flex;
+				width: 1200px;
+				background-color: #faffff;     /* �w�i�F */
+				margin-left: 0px;
+				margin-bottom: 3px;
+				border-radius: 10px;        /* �p�� */
+				align-items: center;	/* ���e�𒆉��ɔz�u */
+				height : 70px;			/* ���� */
+				box-shadow: 0px 1px 1px darkmagenta;	/* �e */		
+			}			
+			
+			.yoko{		/* ������ */
+				display: flex;				/* flex�{�b�N�X�� */
+				align-items: center;	/* ���e���㉺�����ɔz�u */
+				margin-top: 2px;
+			}
+			
+			.tate{		/* �c���� */
+				flex-direction: column				/* �c���щ� */
+				align-items: center;	/* ���e���㉺�����ɔz�u */
+			}
+			
+			.number{			/* �i���o�[�̕����p */
+				background-color: rgba(0,0,0,0.8);	/* �w�i�F */
+				border-radius: 10px;        /* �p�� */
+				width: 100px;
+				height : 25px;
+				color: #fff;			/* �����F */
+				font-family: ���S�V�b�N;			/* �t�H���g */
+				text-align: center;
+				margin-left: 5px;
+			}
+			
+			.genre{							/* ��i�W������ */
+				background-color: rgba(0,0,0,0.8);	/* �w�i�F */
+				border-radius: 10px;        /* �p�� */
+				color: #fff;			/* �����F */
+				font-family: ���S�V�b�N;			/* �t�H���g */
+				margin-left: 5px;
+				text-align: center;
+				width: 150px;
+				height : 25px;
+			}
+			
+			.name{			/* ��i�̖��O */
+				position:relative;
+				background-color: rgba(255,255,255,0.9);	/* �w�i�F */
+				border-radius: 10px;        /* �p�� */
+				width: 500px;
+				color: rgba(170,170,170,1);			/* �����F */
+				font-family: ���S�V�b�N;			/* �t�H���g */
+				text-align: center;
+				margin-left: 5px;
+			}		
+			
+
+			
+			.author{			/* �Q���� */
+				position:absolute;
+				justify-content;		/* �c���� */
+				background-color: rgba(255,255,255,0.9);	/* �w�i�F */
+				border-radius: 10px;        /* �p�� */
+				color: rgba(10,10,10,0.8);			/* �����F */
+				font-family: ���S�V�b�N;			/* �t�H���g */
+				height : 19px;
+				font-size: 12px;
+				text-align: left 
+				display:inline-block;
+			}
+			
+			.author p{			/* �Q���҂̕����ʒu���� */
+				margin-left: 6px;
+				margin-right: 6px;
+			}
+			
+			.tkool{			/* �g�p�c�N�[���̕��� */
+				flex-direction: row;		/* ������ */
+				background-color: rgba(255,255,255,0.3);	/* �w�i�F */
+				border-radius: 10px;        /* �p�� */
+				width: 50px;
+				color: rgba(120,120,240,0.8);			/* �����F */
+				font-family: ���S�V�b�N;			/* �t�H���g */
+				text-align: center;
+				margin-left: 5px;
+			}		
+			
+			.downlord{			/* DOWNLOAD��BBS�̕����p */
+				font-family: ���S�V�b�N;
+				margin-left: 5px;
+				font-size: 13px;
+				width: 100px;
+				margin-top: 9px;
+				line-height: 25px;
+			}
+			
+			.time{			/* ����v���C���Ԃ̕\�L */
+				width: auto;
+				height: 45px;
+				justify-content: center;
+				margin-left: 50px;
+				margin-top: 10px;
+				border-radius: 15px;        /* �p�� */
+				background-color: rgba(0,0,0,0.02);	/* �w�i�F */
+				box-shadow: 0px 0px 8px 3px rgba(0,0,0,0.02) inset;		/* �e */
+			}
+			
+			.kumiwake{			/* �ԁZ�Ɣ��Z�̉摜 */
+				display: flex;
+				width: 40px;
+				height: 25px;	
+				justify-content: center;
+				align-items: end;
+			}			
+
+			#dekabox{							/* �w�b�_�[�o�i�[�p */
+				width: 1000px;               /* �{�b�N�X���w�� */
+		  		height: 141px;              /* �{�b�N�X�����w�� */
+			}
+	
+			h1{									/* �w�b�_�[�J���[�p */
+				background-color: #ff9898;     /* �w�i�F */
+			}	
+			
+			.midasisetumei{			/* top�ւ̃����N */
+				font-size: 14px;
+				color: rgba(20,20,20,0.7);
+				margin-left: 20px;	
+				margin-top: 10px;
+				margin-bottom: 10px;
+			}
+					
+			.kousin{
+				display: inline-block;
+				font-family: ���S�V�b�N;			/* �t�H���g */
+				border-radius: 10px;        /* �p�� */
+				color: rgba(120,120,240,0.8);			/* �����F */
+				font-size: 14px;
+				background-color: #fff;     /* �w�i�F */
+				padding: 3px;
+				margin-bottom: 5px;
+			}		
+			
+			.new{
+			position: absolute;
+			top: -12px;
+			left: 28px;
+			}
+			
+
+			
+			.icon{
+			position: relative;
+			}
+			</style>
+
+	</head>
+	<h1>
+		<div id="dekabox" >
+			<img src="../img/minibanar.png">
+		 </div>
+	 </h1>
+
+	<body	background="../img/back2.png">
+	
+		<div class="tyuuou" >
+		<div class="midasisetumei"><a href="../">TOP��</a></div>
+		<div class="sankalist" ><img src="sankalist.png"></div>
+
+
+
+<a href="no_0.html">�T���v���y�[�W1</a>�@<a href="no_0_2.html">�T���v���y�[�W2</a><br>
+		<div class="kousin" >�ŏI�X�V���F20/3/1</div>
+		
+			<div class="tyuuou2" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="akagumi.png" border="0"></div>
+					<div class="icon" ><img src="icon001.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.1</b></div>
+					<div class="genre" >����Q</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_1.htm">�������O���[���Q�@�`�N���̖�͖Z�����`</a></b>
+							<div class="author" ><p>�Z���^�[�X</p></div>
+						</div>
+					</div>
+					<div class="tkool" >2000</div>
+					<div class="downlord" ><font color="#aaaaaa"><s>DOWNLOAD(0.0kb)</s></font><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1569858149/">���z������</a>
+					</div>
+				<div class="time" ><img src="time_medium.png" border="0"></div>
+				</div>
+			</div>
+			
+			<div class="tyuuou3" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="sirogumi.png" border="0"></div>
+					<div class="icon" ><img src="2000icon.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.2</b></div>
+					<div class="genre" >����Q</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_2.htm">���ז�Y�`���EEVOLUTION(����)</a></b>
+							<div class="author" ><p>�܁[��[����4</p></div>
+						</div>
+					</div>
+					<div class="tkool" >s2003</div>
+					<div class="downlord" ><font color="#aaaaaa"><s>DOWNLOAD(��kb)</s></font><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1569858214/">���z������</a>
+					</div>
+				<div class="time" ></div>
+				</div>
+			</div>	
+			
+			<div class="tyuuou2" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="akagumi.png" border="0"></div>
+					<div class="icon" ><img src="icon003.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.3</b></div>
+					<div class="genre" >������Ȋ댯�I��...</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_3.htm">Curse Necklofar �D�F�n�т̐킢</a></b><img src="hosi.png" border="0" align="right">
+							<div class="author" ><p>�ŏI����AQUHADE</p></div>
+						</div>
+					</div>
+					<div class="tkool" >2000</div>
+					<div class="downlord" ><b><a href="https://drive.google.com/open?id=1quxz9PYBMp85ECmSmGwADjwtniONUAr-">DOWNLOAD(178.0Mb)</a></b><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1569902500/">���z������</a>
+					</div>
+				<div class="time" ><img src="time_long.png" border="0"></div>
+				</div>
+			</div>
+			
+			
+			<div class="tyuuou3" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="sirogumi.png" border="0"></div>
+					<div class="icon" ><img src="icon004.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.4</b></div>
+					<div class="genre" >����Q</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_4.htm">�V�EVAMPIRE�ٕ��^�@�z���r�S������</a></b>
+							<div class="author" ><p>�k��@���ތb</p></div>
+						</div>
+					</div>
+					<div class="tkool" >2000</div>
+					<div class="downlord" ><font color="#aaaaaa"><s>DOWNLOAD(0.0kb)</s></font><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1569924959/">���z������</a>
+					</div>
+				<div class="time" ><img src="time_medium.png" border="0"></div>
+				</div>
+			</div>	
+						
+			<div class="tyuuou2" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="akagumi.png" border="0"></div>
+					<div class="icon" ><img src="icon005.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.5</b></div>
+					<div class="genre" >����Q</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_5.htm">�A���x�h</a></b><img src="hosi.png" border="0" align="right">
+							<div class="author" ><p>������</p></div>
+						</div>
+					</div>
+					<div class="tkool" >2000</div>
+					<div class="downlord" ><b><a href="https://drive.google.com/open?id=1iOyN-Q0x_IGJUNMVRDDJ0_AW5DC-iI_O">DOWNLOAD(4.5Mb)</a></b></font><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1570027312/">���z������</a>
+					</div>
+				<div class="time" ></div>
+				</div>
+			</div>
+				
+			<div class="tyuuou3" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="sirogumi.png" border="0"></div>
+					<div class="icon" ><img src="2000icon.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.6</b></div>
+					<div class="genre" >�f�t�H��</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_6.htm">�o�J�X�N���j�b�N�@���̂��</a></b><img src="hosi.png" border="0" align="right">
+							<div class="author" ><p>��</p></div>
+						</div>
+					</div>
+					<div class="tkool" >2000</div>
+					<div class="downlord" ><b><a href="https://drive.google.com/open?id=1Km8ZoMDL0sNoOVe8tLuDUls5Sm4t0FNJ">DOWNLOAD(92.4Mb)</a></b></font><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1570085249/">���z������</a>
+					</div>
+				<div class="time" ></div>
+				</div>
+			</div>	
+						
+			<div class="tyuuou2" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="akagumi.png" border="0"></div>
+					<div class="icon" ><img src="icon007.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.7</b></div>
+					<div class="genre" >TRPG���v���C��...</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_7.htm">���@�B��CoC �`Assault of Innsmouth�`</a></b>
+							<div class="author" ><p>����</p></div>
+						</div>
+					</div>
+					<div class="tkool" >s2003</div>
+					<div class="downlord" ><font color="#aaaaaa"><s>DOWNLOAD(0.0kb)</s></font><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1570285703/">���z������</a>
+					</div>
+				<div class="time" ></div>
+				</div>
+			</div>
+							
+			<div class="tyuuou3" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="sirogumi.png" border="0"></div>
+					<div class="icon" ><img src="icon008.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.8</b></div>
+					<div class="genre" >���X�N���[���A�N...</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_8.htm">torture</a></b><img src="hosi.png" border="0" align="right">
+							<div class="author" ><p>Rossignol</p></div>
+						</div>
+					</div>
+					<div class="tkool" >s2003</div>
+					<div class="downlord" ><b><a href="https://drive.google.com/open?id=1uEoU7KWajCiKnMBbz-jsokW-mpzov7Sw">DOWNLOAD(9.0Mb)</a></b><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1570451864/">���z������</a>
+					</div>
+				<div class="time" ><img src="time_long.png" border="0"></div>
+				</div>
+			</div>	
+						
+			<div class="tyuuou2" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="akagumi.png" border="0"></div>
+					<div class="icon" ><img src="2000icon.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.9</b></div>
+					<div class="genre" ></div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_9.htm">�i�X��ƂƃR�R�C�`�ƃG�A�J���[�B</a></b>
+							<div class="author" ><p>����</p></div>
+						</div>
+					</div>
+					<div class="tkool" >2000</div>
+					<div class="downlord" ><font color="#aaaaaa"><s>DOWNLOAD(0.0kb)</s></font><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1571015680/">���z������</a>
+					</div>
+				<div class="time" ></div>
+				</div>
+			</div>
+							
+			<div class="tyuuou3" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="sirogumi.png" border="0"></div>
+					<div class="icon" ><img src="icon010.bmp" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.10</b></div>
+					<div class="genre" >����Q�[</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_10.htm">�A���b�N�X�O�`�`�O�l�̗E�҂ƕ����̉��`</a></b><img src="hosi.png" border="0" align="right">
+							<div class="author" ><p>�A���b�N�X�i�͂��܂��j</p></div>
+						</div>
+					</div>
+					<div class="tkool" >2000</div>
+					<div class="downlord" ><b><a href="https://drive.google.com/open?id=1wZYu9ax8ma9OdxSDbhdb_RY0r4ve_7My">DOWNLOAD(48.0Mb)</a></b><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1571211042/">���z������</a>
+					</div>
+				<div class="time" ><img src="time_medium.png" border="0"></div>
+				</div>
+			</div>	
+						
+			<div class="tyuuou2" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="akagumi.png" border="0"></div>
+					<div class="icon" ><img src="icon011.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.11</b></div>
+					<div class="genre" >���v���Cksg</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_11.htm">�������N�g�D���t�_�bTRPG���v���C���ėV�񂾂�</a></b><img src="hosi.png" border="0" align="right">
+							<div class="author" ><p>�W�[�m</p></div>
+						</div>
+					</div>
+					<div class="tkool" >2000</div>
+					<div class="downlord" ><b><a href="https://drive.google.com/open?id=1XaOJzSz_ZfrWkBG7mEheF3zYrTFfCxWQ">DOWNLOAD(28.9Mb)</a></b><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1571290545/">���z������</a>
+					</div>
+				<div class="time" ></div>
+				</div>
+			</div>
+							
+			<div class="tyuuou3" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="sirogumi.png" border="0"></div>
+					<div class="icon" ><img src="icon012.gif" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.12</b></div>
+					<div class="genre" >�Z�҃f�t�H��RPG</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_12.htm">���J�~���~����A�撣��B</a></b><img src="hosi.png" border="0" align="right">
+							<div class="author" ><p>���C�˕�/�荆</p></div>
+						</div>
+					</div>
+					<div class="tkool" >2000</div>
+					<div class="downlord" ><b><a href="https://drive.google.com/open?id=1P87hbS5KAnjlpQeDxLffPDbZlH66ziin">DOWNLOAD(58.7Mb)</a></b><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1571403747/">���z������</a>
+					</div>
+				<div class="time" ><img src="time_long.png" border="0"></div>
+				</div>
+			</div>	
+						
+			<div class="tyuuou2" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="akagumi.png" border="0"></div>
+					<div class="icon" ><img src="icon013.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.13</b></div>
+					<div class="genre" >��邰</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_13.htm">DRAGONASUN</a></b><img src="hosi.png" border="0" align="right">
+							<div class="author" ><p>HOT-W</p></div>
+						</div>
+					</div>
+					<div class="tkool" >s2003</div>
+					<div class="downlord" ><b><a href="https://drive.google.com/open?id=1U3tn0ht80zbsHchZ-bPvNgtg1ig73myN">DOWNLOAD(23.1Mb)</a></b><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1571568742/">���z������</a>
+					</div>
+				<div class="time" ><img src="time_medium.png" border="0"></div>
+				</div>
+			</div>
+							
+			<div class="tyuuou3" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="sirogumi.png" border="0"></div>
+					<div class="icon" ><img src="icon014.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.14</b></div>
+					<div class="genre" >���҂�����</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_14.htm">�r�[���}��</a></b>
+							<div class="author" ><p>�C�O�T</p></div>
+						</div>
+					</div>
+					<div class="tkool" >s2003</div>
+					<div class="downlord" ><font color="#aaaaaa"><s>DOWNLOAD(0.0kb)</s></font><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1572095277/">���z������</a>
+					</div>
+				<div class="time" ><img src="time_medium.png" border="0"></div>
+				</div>
+			</div>	
+						
+			<div class="tyuuou2" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="akagumi.png" border="0"></div>
+					<div class="icon" ><img src="icon015.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.15</b></div>
+					<div class="genre" >�o�[�X�g�U���{��...</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_15.htm">���ς����ƃT���f�B�̃C�`���G������</a></b><img src="hosi.png" border="0" align="right">
+							<div class="author" ><p>�������ɂ���</p></div>
+						</div>
+					</div>
+					<div class="tkool" >2000</div>
+					<div class="downlord" ><b><a href="https://drive.google.com/open?id=195IL8agwe2lGFsl-114q_lbm3xFHK7XA">DOWNLOAD(13.3Mb)</a></b><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1572523871/">���z������</a>
+					</div>
+				<div class="time" ><img src="time_medium.png" border="0"></div>
+				</div>
+			</div>
+			
+			<div class="tyuuou3" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="sirogumi.png" border="0"></div>
+					<div class="icon" ><img src="icon016.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.16</b></div>
+					<div class="genre" >�����{�H�H�H</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_16.htm">�������V�L�����}��2019�N��</a></b><img src="hosi.png" border="0" align="right">
+							<div class="author" ><p>�J����</p></div>
+						</div>
+					</div>
+					<div class="tkool" >2000</div>
+					<div class="downlord" ><b><a href="https://drive.google.com/open?id=1dfJjjvCsE_ObZgxbodlPhoQtluvCPkKh">DOWNLOAD(3.2Mb)</a></b><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1572609875/">���z������</a>
+					</div>
+				<div class="time" ><img src="time_medium.png" border="0"></div>
+				</div>
+			</div>	
+									
+			<div class="tyuuou2" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="akagumi.png" border="0"></div>
+					<div class="icon" ><img src="icon017.gif" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.17</b></div>
+					<div class="genre" >�ϐg�o���G�e�B�q...</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_17.htm">�ڂނۂ�`</a></b><img src="hosi.png" border="0" align="right">
+							<div class="author" ><p>���ǂ񉮂���</p></div>
+						</div>
+					</div>
+					<div class="tkool" >VXA</div>
+					<div class="downlord" ><b><a href="https://drive.google.com/open?id=1hJS50c8E8iq26myTZ1VWKW8jzoeBPAOp">DOWNLOAD(142.7Mb)</a></b><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1572705052/">���z������</a>
+					</div>
+				<div class="time" ><img src="time_long.png" border="0"></div>
+				</div>
+			</div>
+			
+			<div class="tyuuou3" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="sirogumi.png" border="0"></div>
+					<div class="icon" ><img src="2000icon.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.18</b></div>
+					<div class="genre" >�u��</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_18.htm">��҂���q�Ƃ���q�������鎞�ɋC�ɂ��Ă邱�Ƃ���邋����</a></b>
+							<div class="author" ><p>��</p></div>
+						</div>
+					</div>
+					<div class="tkool" >MV</div>
+					<div class="downlord" ><font color="#aaaaaa"><s>DOWNLOAD(0.0kb)</s></font><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1573035893/">���z������</a>
+					</div>
+				<div class="time" ></div>
+				</div>
+			</div>	
+							
+			<div class="tyuuou2" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="akagumi.png" border="0"></div>
+					<div class="icon" ><img src="icon019.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.19</b></div>
+					<div class="genre" >�����L���O</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_19.htm">����L�����N�^�[�����L���O2019</a></b><img src="hosi.png" border="0" align="right">
+							<div class="author" ><p>�H��</p></div>
+						</div>
+					</div>
+					<div class="tkool" >2000</div>
+					<div class="downlord" ><b><a href="https://drive.google.com/open?id=1RoARUjruOvIK7h7wNk-FdYBWM1Efa0NH">DOWNLOAD(9.1Mb)</a></b><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1573133661/">���z������</a>
+					</div>
+				<div class="time" ><img src="time_medium.png" border="0"></div>
+				</div>
+			</div>
+			
+			<div class="tyuuou3" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="sirogumi.png" border="0"></div>
+					<div class="icon" ><img src="icon020.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.20</b></div>
+					<div class="genre" >�w�\�t�F�`������...</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_20.htm">�ւ��ӂ߃Q�[5�A��</a></b>
+							<div class="author" ><p>�փS���łׂ��}��</p></div>
+						</div>
+					</div>
+					<div class="tkool" >s2003</div>
+					<div class="downlord" ><font color="#aaaaaa"><s>DOWNLOAD(0.0kb)</s></font><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1574160891/">���z������</a>
+					</div>
+				<div class="time" ></div>
+				</div>
+			</div>	
+							
+			<div class="tyuuou2" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="akagumi.png" border="0"></div>
+					<div class="icon" ><img src="icon021.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.21</b></div>
+					<div class="genre" >���pRPG</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_21.htm">���|�n���X���ő��a��Ղ�</a></b><img src="hosi.png" border="0" align="right">
+							<div class="author" ><p>��т�</p></div>
+						</div>
+					</div>
+					<div class="tkool" >2000</div>
+					<div class="downlord" ><b><a href="https://drive.google.com/open?id=10mLjV4vif-HaB0_2NEcZ-EAAEt8um-so">DOWNLOAD(119.9Mb)</a></b><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1574568251/">���z������</a>
+					</div>
+				<div class="time" ><img src="time_long.png" border="0"></div>
+				</div>
+			</div>
+			
+			<div class="tyuuou3" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="sirogumi.png" border="0"></div>
+					<div class="icon" ><img src="2000icon.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.22</b></div>
+					<div class="genre" ></div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_22.htm">����̂�������̂�����Ƃ����b</a></b><img src="hosi.png" border="0" align="right">
+							<div class="author" ><p>�V���H�ׂ���</p></div>
+						</div>
+					</div>
+					<div class="tkool" >2000</div>
+					<div class="downlord" ><b><a href="https://drive.google.com/open?id=1xXKluiDMPR-2VNoCM4h3bmxh1HVJTGY2">DOWNLOAD(431.7kb)</a></b><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1574600389/">���z������</a>
+					</div>
+				<div class="time" ><img src="time_short.png" border="0"></div>
+				</div>
+			</div>	
+							
+			<div class="tyuuou2" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="akagumi.png" border="0"></div>
+					<div class="icon" ><img src="2000icon.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.23</b></div>
+					<div class="genre" >�f�[�^�W���̌��Q...</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_23.htm">RPG�c�N�[��2000�@���ȗ��f�[�^�x�[�X�T���v��</a></b><img src="hosi.png" border="0" align="right">
+							<div class="author" ><p>�n���}�L</p></div>
+						</div>
+					</div>
+					<div class="tkool" >2000</div>
+					<div class="downlord" ><b><a href="https://drive.google.com/open?id=1Tbhh7e-OhYSWLagdV-osAxVwEKExW-xb">DOWNLOAD(107.1kb)</a></b><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1575093920/">���z������</a>
+					</div>
+				<div class="time" ><img src="time_medium.png" border="0"></div>
+				</div>
+			</div>
+																	
+			<div class="tyuuou3" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="sirogumi.png" border="0"></div>
+					<div class="icon" ><img src="icon024.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.24</b></div>
+					<div class="genre" >�m���t�B�[���hRPG</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_24.htm">����</a></b><img src="hosi.png" border="0" align="right">
+							<div class="author" ><p>�a�t</p></div>
+						</div>
+					</div>
+					<div class="tkool" >2000</div>
+					<div class="downlord" ><b><a href="https://drive.google.com/open?id=1v68WtCbeaxl3QJftpzLRWukNWoc1plvk">DOWNLOAD(7.1Mb)</a></b><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1575686207/">���z������</a>
+					</div>
+				<div class="time" ><img src="time_medium.png" border="0"></div>
+				</div>
+			</div>	
+							
+			<div class="tyuuou2" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="akagumi.png" border="0"></div>
+					<div class="icon" ><img src="icon025.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.25</b></div>
+					<div class="genre" >�ǂރQ</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_25.htm">���܂�</a></b><img src="hosi.png" border="0" align="right">
+							<div class="author" ><p>�؂�͂�</p></div>
+						</div>
+					</div>
+					<div class="tkool" >2000</div>
+					<div class="downlord" ><b><a href="https://drive.google.com/open?id=1eFQQ7g4tE8D_OxQuOdH70FN5zv_0wLIx">DOWNLOAD(5.7Mb)</a></b><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1575772781/">���z������</a>
+					</div>
+				<div class="time" ><img src="time_medium.png" border="0"></div>
+				</div>
+			</div>
+			
+			<div class="tyuuou3" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="sirogumi.png" border="0"></div>
+					<div class="icon" ><img src="2000icon.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.26</b></div>
+					<div class="genre" >ksg</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_26.htm">��������b���}�b�v�`�b�v��������</a></b><img src="hosi.png" border="0" align="right">
+							<div class="author" ><p>����v</p></div>
+						</div>
+					</div>
+					<div class="tkool" >2000</div>
+					<div class="downlord" ><b><a href="https://drive.google.com/open?id=1sYfdoT_i9_YyYH0wi1g7B8VnPSowN38Z">DOWNLOAD(103.2kb)</a></b><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1576387117/">���z������</a>
+					</div>
+				<div class="time" ><img src="time_short.png" border="0"></div>
+				</div>
+			</div>	
+
+			<div class="tyuuou2" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="akagumi.png" border="0"></div>
+					<div class="icon" ><img src="icon027.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.27</b></div>
+					<div class="genre" >ksg</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_27.htm">���݂������炵</a></b><img src="hosi.png" border="0" align="right">
+							<div class="author" ><p>�X�~�b�R�j�A��������</p></div>
+						</div>
+					</div>
+					<div class="tkool" >2000</div>
+					<div class="downlord" ><b><a href="https://drive.google.com/open?id=1BBMtaR_OlYZpryi1xji1ICTYxFvAk7wZ">DOWNLOAD(730.3kb)</a></b><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1576408980/">���z������</a>
+					</div>
+				<div class="time" ><img src="time_short.png" border="0"></div>
+				</div>
+			</div>
+			
+			<div class="tyuuou3" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="sirogumi.png" border="0"></div>
+					<div class="icon" ><img src="icon028_2.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.28</b></div>
+					<div class="genre" >�h���S�����̌Ǔ�...</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_28.htm">�ǂ�ǂ灙�������ǁE�T�K</a></b><img src="hosi.png" border="0" align="right">
+							<div class="author" ><p>�����f�B�b�N�f�X���@21��1������ѓ���2���O�i</p></div>
+						</div>
+					</div>
+					<div class="tkool" >s2003</div>
+					<div class="downlord" ><b><a href="https://drive.google.com/open?id=1zKYaajg_cwP2INfPxjfMyWWhUtBL1aZf">DOWNLOAD(22.0Mb)</a></b><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1576590580/">���z������</a>
+					</div>
+				<div class="time" ></div>
+				</div>
+			</div>	
+
+			<div class="tyuuou2" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="akagumi.png" border="0"></div>
+					<div class="icon" ><img src="icon029.bmp" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.29</b></div>
+					<div class="genre" >�m�x���Q�[��</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_29.htm">���Y���̕��</a></b><img src="hosi.png" border="0" align="right">
+							<div class="author" ><p>�݂�ς�</p></div>
+						</div>
+					</div>
+					<div class="tkool" >2000</div>
+					<div class="downlord" ><b><a href="https://drive.google.com/open?id=1pdeOa1-WFcY1gXtcU0dckFX_NCGMzG5Z">DOWNLOAD(23.5Mb)</a></b><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1576932204/">���z������</a>
+					</div>
+				<div class="time" ><img src="time_long.png" border="0"></div>
+				</div>
+			</div>
+			
+			<div class="tyuuou3" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="sirogumi.png" border="0"></div>
+					<div class="icon" ><img src="2000icon.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.30</b></div>
+					<div class="genre" >�����̖����c��</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_30.htm">�K�얂���c��</a></b><img src="hosi.png" border="0" align="right">
+							<div class="author" ><p>�K�c "Mimic" ���C</p></div>
+						</div>
+					</div>
+					<div class="tkool" >2000</div>
+					<div class="downlord" ><b><a href="https://drive.google.com/open?id=1eOchiiLqLvo91rblLSVqJ-0lHOPQDLpv">DOWNLOAD(14.1Mb)</a></b><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1577106160/">���z������</a>
+					</div>
+				<div class="time" ><img src="time_medium.png" border="0"></div>
+				</div>
+			</div>	
+
+			<div class="tyuuou2" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="akagumi.png" border="0"></div>
+					<div class="icon" ><img src="icon031.gif" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.31</b></div>
+					<div class="genre" >�����ADV</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_31.htm">�L�~���Q����������ADV</a></b><img src="hosi.png" border="0" align="right">
+							<div class="author" ><p>�����E���E�ꂶ����</p></div>
+						</div>
+					</div>
+					<div class="tkool" >2000</div>
+					<div class="downlord" ><b><a href="https://drive.google.com/open?id=1cr05dTVxW-6fTpEINTpp1Vmn5NznUXlL">DOWNLOAD(6.0Mb)</a></b><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1577207136/">���z������</a>
+					</div>
+				<div class="time" ><img src="time_medium.png" border="0"></div>
+				</div>
+			</div>
+			
+			<div class="tyuuou3" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="sirogumi.png" border="0"></div>
+					<div class="icon" ><img src="2000icon.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.32</b></div>
+					<div class="genre" >�����I�ő�̒���...</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_32.htm">2019�N����߂�����</a></b><img src="hosi.png" border="0" align="right">
+							<div class="author" ><p>Donald John Trump</p></div>
+						</div>
+					</div>
+					<div class="tkool" >2000</div>
+					<div class="downlord" ><b><a href="https://drive.google.com/open?id=14D2DhKH_4Xrtur9fmdqYGL7XhUWhXo4j">DOWNLOAD(75.2kb)</a></b><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1577267274/">���z������</a>
+					</div>
+				<div class="time" ></div>
+				</div>
+			</div>
+
+			<div class="tyuuou2" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="akagumi.png" border="0"></div>
+					<div class="icon" ><img src="icon033.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.33</b></div>
+					<div class="genre" >������</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_33.htm">�]������уc�N�[��2019</a></b><img src="hosi.png" border="0" align="right">
+							<div class="author" ><p>�G��</p></div>
+						</div>
+					</div>
+					<div class="tkool" >2000</div>
+					<div class="downlord" ><b><a href="https://drive.google.com/open?id=1tqENXc9HOY5a56eUw090vxySb2qjbnsJ">DOWNLOAD(6.6Mb)</a></b><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1577365595/">���z������</a>
+					</div>
+				<div class="time" ><img src="time_long.png" border="0"></div>
+				</div>
+			</div>
+			
+			<div class="tyuuou3" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="sirogumi.png" border="0"></div>
+					<div class="icon" ><img src="icon034_2.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.34</b></div>
+					<div class="genre" >���Q</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_34.htm">����</a></b>
+							<div class="author" ><p>�ɂ��������g�̕�</p></div>
+						</div>
+					</div>
+					<div class="tkool" >2000</div>
+					<div class="downlord" ><font color="#aaaaaa"><s>DOWNLOAD(�\kb)</s></font><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1577367596/">���z������</a>
+					</div>
+				<div class="time" ><img src="time_unknown.png" border="0"></div>
+				</div>
+			</div>
+
+			<div class="tyuuou2" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="akagumi.png" border="0"></div>
+					<div class="icon" ><img src="2000icon.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.35</b></div>
+					<div class="genre" >�}�b�v�Č��n����...</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_35.htm">�������|�e�`�������n�C������������</a></b>
+							<div class="author" ><p>�C�J�X�~</p></div>
+						</div>
+					</div>
+					<div class="tkool" >2000</div>
+					<div class="downlord" ><font color="#aaaaaa"><s>DOWNLOAD(0.0kb)</s></font><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1577434718/">���z������</a>
+					</div>
+				<div class="time" ><img src="time_unknown.png" border="0"></div>
+				</div>
+			</div>
+			
+			<div class="tyuuou3" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="sirogumi.png" border="0"></div>
+					<div class="icon" ><img src="2000icon.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.36</b></div>
+					<div class="genre" >ksg</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_36.htm">�E�o���C�`</a></b>
+							<div class="author" ><p>Konzept</p></div>
+						</div>
+					</div>
+					<div class="tkool" >2000</div>
+					<div class="downlord" ><font color="#aaaaaa"><s>DOWNLOAD(0.0kb)</s></font><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1577436068/">���z������</a>
+					</div>
+				<div class="time" ><img src="time_short.png" border="0"></div>
+				</div>
+			</div>
+
+			<div class="tyuuou2" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="akagumi.png" border="0"></div>
+					<div class="icon" ><img src="icon037.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.37</b></div>
+					<div class="genre" >��������Q</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_37.htm">�Ԃޓ���</a></b>
+							<div class="author" ><p>�����܂񂶂イ</p></div>
+						</div>
+					</div>
+					<div class="tkool" >2000</div>
+					<div class="downlord" ><font color="#aaaaaa"><s>DOWNLOAD(0.0kb)</s></font><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1577510392/">���z������</a>
+					</div>
+				<div class="time" ><img src="time_medium.png" border="0"></div>
+				</div>
+			</div>
+		
+			<div class="tyuuou3" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="sirogumi.png" border="0"></div>
+					<div class="icon" ><img src="icon038.gif" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.38</b></div>
+					<div class="genre" >�p�Y��</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_38.htm">�΂����Ƃ����[�ς�</a></b><img src="hosi.png" border="0" align="right">
+							<div class="author" ><p>���K</p></div>
+						</div>
+					</div>
+					<div class="tkool" >2000</div>
+					<div class="downlord" ><b><a href="https://drive.google.com/open?id=1tP4gd7o05KYlZXfpAMbOIYLYkNoGd36k">DOWNLOAD(515.2Kb)</a></b><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1577578542/">���z������</a>
+					</div>
+				<div class="time" ><img src="time_short.png" border="0"></div>
+				</div>
+			</div>
+
+			<div class="tyuuou2" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="akagumi.png" border="0"></div>
+					<div class="icon" ><img src="icon039.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.39</b></div>
+					<div class="genre" >�f�t�H����Q�[</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_39.htm">�T is WORLD Ver2.0</a></b><img src="hosi.png" border="0" align="right">
+							<div class="author" ><p>�iR�jDU</p></div>
+						</div>
+					</div>
+					<div class="tkool" >MV</div>
+					<div class="downlord" ><b><a href="no_39.htm">DOWNLOAD(532.9Mb)</a></b><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1577713637/">���z������</a>
+					</div>
+				<div class="time" ><img src="time_long.png" border="0"></div>
+				</div>
+			</div>
+
+			<div class="tyuuou3" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="sirogumi.png" border="0"></div>
+					<div class="icon" ><img src="icon040.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.40</b></div>
+					<div class="genre" >�Œ�V�i���I�f�t...</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_40.htm">Stay With Boss�@Q�yku:�z</a></b><img src="hosi.png" border="0" align="right">
+							<div class="author" ><p>�J�i�G�[�����i���@�M�k</p></div>
+						</div>
+					</div>
+					<div class="tkool" >2000</div>
+					<div class="downlord" ><b><a href="https://drive.google.com/open?id=1o743LMKvYriWAcPKRZyJ9Hy0kj7KZnJs">DOWNLOAD(18.3Mb)</a></b><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1577715334/">���z������</a>
+					</div>
+				<div class="time" ><img src="time_medium.png" border="0"></div>
+				</div>
+			</div>
+
+			<div class="tyuuou2" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="akagumi.png" border="0"></div>
+					<div class="icon" ><img src="icon041.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.41</b></div>
+					<div class="genre" >����Q</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_41.htm">Darkness2003</a></b><img src="hosi.png" border="0" align="right">
+							<div class="author" ><p>��KFFX515/wI</p></div>
+						</div>
+					</div>
+					<div class="tkool" >2000</div>
+					<div class="downlord" ><b><a href="https://drive.google.com/open?id=1IjX8o_X4rgHqSXbGb_xNGXzUVwWfyH8F">DOWNLOAD(5.0Mb)</a></b><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1577716298/">���z������</a>
+					</div>
+				<div class="time" ><img src="time_unknown.png" border="0"></div>
+				</div>
+			</div>
+
+			<div class="tyuuou3" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="sirogumi.png" border="0"></div>
+					<div class="icon" ><img src="2000icon.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.42</b></div>
+					<div class="genre" >����Q</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_42.htm">���̋P���u�̎O�l��</a></b><img src="hosi.png" border="0" align="right">
+							<div class="author" ><p>�O��</p></div>
+						</div>
+					</div>
+					<div class="tkool" >2000</div>
+					<div class="downlord" ><b><a href="https://drive.google.com/open?id=1mjN6wkV8OEKdRu-TkpglhyKgorGtEL2W">DOWNLOAD(345.9Kb)</a></b><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1577717288/">���z������</a>
+					</div>
+				<div class="time" ><img src="time_unknown.png" border="0"></div>
+				</div>
+			</div>
+
+			<div class="tyuuou2" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="akagumi.png" border="0"></div>
+					<div class="icon" ><img src="icon043.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.43</b></div>
+					<div class="genre" >�l�C��p���ɃQ�[</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_43.htm">s2k3mp destroyer</a></b><img src="hosi.png" border="0" align="right">
+							<div class="author" ><p>�̂낵</p></div>
+						</div>
+					</div>
+					<div class="tkool" >s2003</div>
+					<div class="downlord" ><b><a href="https://drive.google.com/open?id=1Zkle1jloZSmx39mQVGK9fTXa1dG86X0M">DOWNLOAD(2.3Mb)</a></b><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1577718099/">���z������</a>
+					</div>
+				<div class="time" ><img src="time_medium.png" border="0"></div>
+				</div>
+			</div>
+
+			<div class="tyuuou3" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="sirogumi.png" border="0"></div>
+					<div class="icon" ><img src="2000icon.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.44</b></div>
+					<div class="genre" ></div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_44.htm">�Ȃ񂩍��B</a></b>
+							<div class="author" ><p>��đ��Y</p></div>
+						</div>
+					</div>
+					<div class="tkool" >2000</div>
+					<div class="downlord" ><font color="#aaaaaa"><s>DOWNLOAD(��kb)</s></font><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1577798771/">���z������</a>
+					</div>
+				<div class="time" ></div>
+				</div>
+			</div>
+
+			<div class="tyuuou2" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="akagumi.png" border="0"></div>
+					<div class="icon" ><img src="2000icon.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.45</b></div>
+					<div class="genre" >�}�C���X�C�[�p�[</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_45.htm">�ЂƂӂŃ}�C���T�o�C�o�[</a></b><img src="hosi.png" border="0" align="right">
+							<div class="author" ><p>���̧�ڒ��c(�K�́K)��AHYA/HaiA.</p></div>
+						</div>
+					</div>
+					<div class="tkool" >MV</div>
+					<div class="downlord" ><b><a href="https://drive.google.com/open?id=1XN2AZbtz8M8vlfJNt-q7ewXqQKnUe8Ag">DOWNLOAD(162.2Mb)</a></b><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1577801372/">���z������</a>
+					</div>
+				<div class="time" ><img src="time_medium.png" border="0"></div>
+				</div>
+			</div>
+
+			<div class="tyuuou3" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="sirogumi.png" border="0"></div>
+					<div class="icon" ><img src="icon046.PNG" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.46</b></div>
+					<div class="genre" >�f�t�H��̒���</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_46.htm">�������������̑�`��</a></b><img src="hosi.png" border="0" align="right">
+							<div class="author" ><p>���N���W</p></div>
+						</div>
+					</div>
+					<div class="tkool" >2000</div>
+					<div class="downlord" ><b><a href="https://drive.google.com/open?id=1OcEbyqSQxaQ4MSAYdPSKrjoNEnMEspO2">DOWNLOAD(40.3Mb)</a></b><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1577804627/">���z������</a>
+					</div>
+				<div class="time" ><img src="time_medium.png" border="0"></div>
+				</div>
+			</div>
+
+			<div class="tyuuou2" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="akagumi.png" border="0"></div>
+					<div class="icon" ><img src="2000icon.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.47</b></div>
+					<div class="genre" >RPG</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_47.htm">�j�Z���m�����X�^�[</a></b>
+							<div class="author" ><p>�^�K�������E�m�X�P</p></div>
+						</div>
+					</div>
+					<div class="tkool" >2000</div>
+					<div class="downlord" ><font color="#aaaaaa"><s>DOWNLOAD(0.0kb)</s></font><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1577807227/">���z������</a>
+					</div>
+				<div class="time" ><img src="time_long.png" border="0"></div>
+				</div>
+			</div>
+
+			<div class="tyuuou3" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="sirogumi.png" border="0"></div>
+					<div class="icon" ><img src="icon048.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.48</b></div>
+					<div class="genre" >�A�N�V����RPG</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_48.htm">�d������Ƀ����O�\�[�h�͌�����</a></b><img src="hosi.png" border="0" align="right">
+							<div class="author" ><p>�[���`���`</p></div>
+						</div>
+					</div>
+					<div class="tkool" >2000</div>
+					<div class="downlord" ><b><a href="https://drive.google.com/open?id=1NFyzZVb0H-Zt3qEM495NAwKvq7dPZFM-">DOWNLOAD(13.7Mb)</a></b><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1577808342/">���z������</a>
+					</div>
+				<div class="time" ><img src="time_long.png" border="0"></div>
+				</div>
+			</div>
+
+			<div class="tyuuou2" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="akagumi.png" border="0"></div>
+					<div class="icon" ><img src="2000icon.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.49</b></div>
+					<div class="genre" >������ۂ�ksg</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_49.htm">�n���s�[�X</a></b>
+							<div class="author" ><p>�W���X�e�B�X</p></div>
+						</div>
+					</div>
+					<div class="tkool" >2000</div>
+					<div class="downlord" ><font color="#aaaaaa"><s>DOWNLOAD(0.0kb)</s></font><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1577809845/">���z������</a>
+					</div>
+				<div class="time" ></div>
+				</div>
+			</div>
+
+			<div class="tyuuou3" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="sirogumi.png" border="0"></div>
+					<div class="icon" ><img src="icon050.jpg" border="0"><div class="new" ><img src="new.gif" border="0"></div></div>
+					<div class="number" ><b>No.50</b></div>
+					<div class="genre" >���̂ڂ�RPG</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_50.htm">�u�����A���g�}���V����</a></b><img src="hosi.png" border="0" align="right">
+							<div class="author" ><p>������؁iCappesoft_SINCE2002�j ��do7wOyQeJk</p></div>
+						</div>
+					</div>
+					<div class="tkool" >2000</div>
+					<div class="downlord" ><b><a href="https://drive.google.com/open?id=10MrIiTYawYUQEWHqcPA1l36SeyiSFYSR">DOWNLOAD(2.7Mb)</a></b><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1577810626/">���z������</a>
+					</div>
+				<div class="time" ><img src="time_long.png" border="0"></div>
+				</div>
+			</div>
+
+			<div class="tyuuou2" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="akagumi.png" border="0"></div>
+					<div class="icon" ><img src="2000icon.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.51</b></div>
+					<div class="genre" >�f�t�H��ksg</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_51.htm">���ߐ؂�Q���O������N�\�Q�[</a></b><img src="hosi.png" border="0" align="right">
+							<div class="author" ><p>�]���Z��</p></div>
+						</div>
+					</div>
+					<div class="tkool" >2000</div>
+					<div class="downlord" ><b><a href="https://drive.google.com/open?id=1T0jIV9TbCjeJkkNGAXw_B6DK8p_5ua1V">DOWNLOAD(4.1Mb)</a></b><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1577811202/">���z������</a>
+					</div>
+				<div class="time" ><img src="time_short.png" border="0"></div>
+				</div>
+			</div>
+
+			<div class="tyuuou3" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="sirogumi.png" border="0"></div>
+					<div class="icon" ><img src="icon052.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.52</b></div>
+					<div class="genre" >�t�̋����ƌő̋�...</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_52.htm">DROP AND SINK</a></b>
+							<div class="author" ><p>Aomatu_Spaghe</p></div>
+						</div>
+					</div>
+					<div class="tkool" >2000</div>
+					<div class="downlord" ><font color="#aaaaaa"><s>DOWNLOAD(0.0kb)</s></font><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1577812588/">���z������</a>
+					</div>
+				<div class="time" ><img src="time_medium.png" border="0"></div>
+				</div>
+			</div>
+
+			<div class="tyuuou2" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="akagumi.png" border="0"></div>
+					<div class="icon" ><img src="2000icon.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.53</b></div>
+					<div class="genre" >����Q</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_53.htm">���Ɗ�]�̃��C�`�A�h�x���`���[</a></b>
+							<div class="author" ><p>Project.��Җ�</p></div>
+						</div>
+					</div>
+					<div class="tkool" >2000</div>
+					<div class="downlord" ><font color="#aaaaaa"><s>DOWNLOAD(0.0kb)</s></font><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1577813303/">���z������</a>
+					</div>
+				<div class="time" ></div>
+				</div>
+			</div>
+
+			<div class="tyuuou3" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="sirogumi.png" border="0"></div>
+					<div class="icon" ><img src="icon054.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.54</b></div>
+					<div class="genre" >�z���[</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_54.htm">���̐��ň�Ԃ�ׂ����</a></b>
+							<div class="author" ><p>���͂�</p></div>
+						</div>
+					</div>
+					<div class="tkool" >2000</div>
+					<div class="downlord" ><font color="#aaaaaa"><s>DOWNLOAD(0.0kb)</s></font><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1577814144/">���z������</a>
+					</div>
+				<div class="time" ><img src="time_short.png" border="0"></div>
+				</div>
+			</div>
+
+			<div class="tyuuou2" >
+				<div class="yoko">
+					<div class="kumiwake" ><img src="akagumi.png" border="0"></div>
+					<div class="icon" ><img src="icon055.png" border="0"><div class="new" ></div></div>
+					<div class="number" ><b>No.55</b></div>
+					<div class="genre" >������</div>
+					<div class="tate">
+						<div class="name" ><b><a href="no_55.htm">���̂������O�Ɏ��������</a></b>
+							<div class="author" ><p>��2aLlGIkY8s</p></div>
+						</div>
+					</div>
+					<div class="tkool" >2000</div>
+					<div class="downlord" ><font color="#aaaaaa"><s>DOWNLOAD(0.0kb)</s></font><br>
+						<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1577815120/">���z������</a>
+					</div>
+				<div class="time" ><img src="time_unknown.png" border="0"></div>
+				</div>
+			</div>
+
+			<div class="midasisetumei"><a href="../">TOP��</a></div>
+		</div>
+	<script><!--
+var footerparam = 'charset=' + encodeURIComponent(document.charset ? document.charset : document.characterSet) + '&url=' + encodeURIComponent(document.location) + '&service=1&r=' + Math.floor(Math.random()*99999999999);
+var footertag = "//vip-chps-api.2nt.com/apis/footer/?" + footerparam;
+var script = document.createElement('script');
+script.src = footertag;
+script.charset = "UTF-8";
+script.async = true;
+document.getElementsByTagName('head')[0].appendChild(script);
+//--></script>
+<!-- 2nt, inc.-->
+<img src="//media.fc2.com/counter_img.php?id=50" style="display:none" alt="inserted by 2nt system" width="0" height="0">
+<!-- 2nt, inc.--></body>
+</html>
+

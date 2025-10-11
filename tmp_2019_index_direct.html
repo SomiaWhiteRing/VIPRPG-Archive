@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang=�gja�h>
+  <head>
+    <meta charset="Shift_JIS">
+    <title>VIPRPG�g��2019</title>
+    
+    
+    <style>
+
+		
+		#dekabox{							/* �w�b�_�[�o�i�[�p */
+   			width: 1000px;               /* �{�b�N�X���w�� */
+  			height: 200px;              /* �{�b�N�X�����w�� */
+			margin-left: auto;			/* ���[�ʒu���� */
+			margin-right: auto;			/* �E�[�ʒu���� */
+		}
+		
+		.tyuuou{							/* �ʒu�����p */
+			width: 1000px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 20px;
+			display: block;
+		}
+
+		h1{									/* �w�b�_�[�p */
+			background-color: #ff9898;     /* �w�b�_�[�F */
+		}
+		
+		*{								/* web�f�t�H���g�ݒ�ύX�p */
+			margin: 0px;				/* ���ԂO */
+			padding: 0px;				/* �͂ݏo���O */
+		}
+		
+		.migiyori{						/* ��ʒ����ɔz�u */
+			float: none;
+			width: auto;
+			display:flex;
+			margin-bottom: 20px;			/* ���ʒu���� */
+			justify-content: space-between;
+
+		}
+		
+		.meingazou{						/* TOP�G�p */
+   			width: 1000px;               /* ���w�� */
+  			height: 400px;              /* �����w�� */
+			background-image: url(img/newtop.png);	
+			border-radius: 20px;        /* �p�ێw�� */
+		}
+		
+		.kousinrireki{						/* �X�V����p */
+			width:200px;
+			height:150px;
+			border: 2px solid rgba(0,0,0,0.3);
+			background-color: rgba(255,255,255,0.7);     /* �w�i�F�w�� */
+			overflow: auto;
+			margin-left: auto;			/* ���[�ʒu���� */
+			margin-right: auto;			/* �E�[�ʒu���� */
+			font-size: 12px;
+		}
+		
+		.about{						/* �y�[�W�������̃{�b�N�X */
+			clear: both;
+			width:750px;
+			background-image: url(img/about.png);     /* �w�i�摜�w�� */
+			background-repeat: repeat;
+			display: block;
+			float: left;
+			border-radius: 20px;        /* �p�ێw�� */
+			border: solid 4px White;
+			box-shadow: 0px 0px 40px 20px rgba(255,255,255,1) inset;
+			margin-bottom: 50px;
+		}
+		
+		.bordarline2{							/* �{�[�_�[���C���̈ʒu */		
+			width:100%;
+			height:40px;
+			position: relative;
+		}
+		
+		.bordarline{						/* �{�[�_�[���C������t���i�O���f�[�V�����j */		
+			width:100%;
+			height:15px;
+			position: absolute;
+			background: -moz-linear-gradient(top, rgba(250,180,175,0), rgba(250,180,175,1));
+ 			background: -webkit-linear-gradient(top, rgba(250,180,175,0), rgba(250,180,175,1));
+ 			background: linear-gradient(to bottom, rgba(250,180,175,0), rgba(250,180,175,1));
+ 			border-radius: 8px;        /* �p�ێw�� */
+			bottom: 0px;
+		}
+		
+		.midasi{						/* �{�[�_�[���C�������p */
+			height:30px;
+			position: absolute;
+			bottom: 5px;
+			font-family: ���S�V�b�N;
+			font-size: 20px;
+			font-weight: bolder;
+			color: rgba(250,80,75,0.7);
+		}
+		
+		.setumei{						/* �A�o�E�g���̕��� */	
+			font-size: 14px;
+			color: rgba(20,20,20,0.7);
+			margin-left: 20px;	
+			margin-top: 10px;
+		}
+
+		.rirekiabauto{			/* �����ƃA�o�E�g����ׂ� */
+			display: flex;
+			margin-top: 10px;
+						
+		}
+
+		.rirekibanner{
+			
+		}
+    </style>
+ <h1>
+ <div id="dekabox" >
+ 	<img src="img/topbanar.png">
+ </div>
+ </h1>
+  </head>
+    
+  <body background="img/back2.png">
+
+  <div class="tyuuou">
+
+		<div class="migiyori" >
+		
+			<a href="schedule/">
+				<img src="img/sxhedule.png" onmouseover="this.src='img/sxhedule_g.png'" onmouseout="this.src='img/sxhedule.png'" />
+			</a>
+			
+			<a href="list/">
+				<img src="img/list.png" onmouseover="this.src='img/list_g.png'" onmouseout="this.src='img/list.png'" />
+			</a>
+			
+			<a href="https://jbbs.shitaraba.net/game/60867/">
+				<img src="img/bbs.png" onmouseover="this.src='img/bbs_g.png'" onmouseout="this.src='img/bbs.png'" />
+			</a>
+			
+			<a href="voting/">
+				<img src="img/voting.png" onmouseover="this.src='img/voting_g.png'" onmouseout="this.src='img/voting.png'" />
+			</a>
+			
+		</div>
+
+		<div class="meingazou"></div>		
+
+
+		<div class="rirekiabauto" >	
+
+			<div class="about" >
+				<div class="bordarline2" >
+					<div class="bordarline" >
+						<div class="midasi" >
+							<img src="img/abouticon.png" border="0">�����͉��H
+						</div>
+					</div>
+				</div>
+				
+				<div class="setumei" >
+						�����͂T�����˂�j���[��VIP"RPG�c�N�[��"�X���Ŗ��N�J�Â����R���e���c����舵�������Ղ�T�C�g�ł��B<br>
+						RPG�c�N�[�����̍�i�������Ō��J���A���z��t���������蓊�[�ɂ���ĐR�����s���̂��ړI�ł��B<br>
+						�ߋ��ɊJ���ꂽ�Ղ�T�C�g���{�����鎖�����I�X�X�����܂��B<br>
+						<br>
+						���ɂ��^����������̕���<a href="https://jbbs.shitaraba.net/game/60867/">BBS</a>�֏�������ł��������B<br>
+				</div>
+					
+					
+					
+				<div class="bordarline2" >
+					<div class="bordarline" >
+						<div class="midasi" >
+							<img src="img/abouticon.png" border="0">�Q�������́H
+						</div>
+					</div>
+				</div>
+				<div class="setumei" >
+						PC�pRPG�c�N�[����i�i95,2000,2003,XP,VX,VXA,MV�j<br>
+						�������͂���ɐ[���g���c�[���������傷�鎖���Q�������ƂȂ�܂��B<br>
+						��i�͈�l���i�݂̂ƂȂ�܂��B<br>
+						�W�������s��A�G���O���i���Z���X�A�ǂ�ȍ�i�ł���舵���Ă��܂��I<br>
+						�i�������A�����J�̍�i�͎�舵���Ă��܂���B���������������B�j<br>
+						<br>
+						�܂��A��i�����債�Ȃ��Ă���i�Ɋ��z��t�����蓊�[���鎖�͉\�ł��B<br>
+						���̑��ɂ����s���ȓ_������Ή^�c�f�����ł��񍐂��������B<br>
+				
+				</div>
+				
+				
+				
+				<div class="bordarline2" >
+					<div class="bordarline" >
+						<div class="midasi" >
+							<img src="img/abouticon.png" border="0">�Q����]�̕���
+						</div>
+					</div>
+				</div>
+				<div class="setumei" >
+	
+						�ȉ��̏����L�ڂ������̂����[���ő����Ă�������<br>
+						<br>viprpgkouhaku2019(^��^)@yahoo.co.jp<br>
+						<u>(^��^)�͍폜���Ă�������</u><br>
+						<br>
+						�E��i��(�K�{)<br>
+						�E�g�p�c�N�[��(�K�{)<br>
+						�E��҃R�����g(�K�{)<br>
+						�E�T�C�Y640*480�̃Q�[����ʃX�N���[���V���b�g�A�g���q��.png.jpg.gif<br>
+						�i1���`2���K�{�A�傫��������Ȃ��ꍇ�͂����瑤�Ń��T�C�Y�����Ă��������܂��B<br>
+						gif�A�j���͓ǂݍ��݂Ɏ��Ԃ�������ꍇ�����邽�ߔ񐄏��j<br>
+						<br>
+						�ȉ��C��<br>
+						�ESS���e�̐���<br>�i����̓y�[�W�ւ̋L�ڂ͂���܂��񂪁A<br>
+						�摜�m�F�ɑ΂��ĐT�d�Ɍ��������邽�߂ł��B���������j<br>
+						�E�T�C�Y32*32�̃A�C�R���i�g���q��.png.jpg.gif�j<br>
+						�E��i�̐���v���C����<br>
+						�E��Җ�<br>
+						�E�W������<br>
+						�E�v���C����E�z�M���ꂼ��̉ہi�L���������ꍇ�͋��ۂ������̂Ƃ��܂��j<br>
+						<br>
+						<br>
+						���[���^�C�g���́u�g���Q���\���v���ł�낵�����肢���܂��B<br>
+						�����m�F�����ꍇ�A��U�ԐM�����Ă��������܂��B<br>
+						��җl�̂����͂����肢���܂��B<br>
+						<br>
+						�����A�C���������ӏ�����L�ɂ������ꍇ�A<br>
+						�C�����e��A�ύX�������摜���������肭�������B<br>
+						�����̍�i�̃i���o�[���L�q���Ă���������Ƒ�Ϗ�����܂��B<br>
+						�o���邾���_��ȑΉ���������Ȃ̂ŁA����l�����ɂǂ����B
+				
+				</div>			
+				
+	
+				<div class="bordarline2" >
+					<div class="bordarline" >
+						<div class="midasi" >
+							<img src="img/abouticon.png" border="0">��i������@�ɂ���
+						</div>
+					</div>
+				</div>
+				<div class="setumei" >
+					������ŗp�ӂ����A�b�v���[�_�[��zip�����Ȃ炸pass�t���ŃA�b�v���[�h������A<br>					
+						�ȉ��̓��e�����[���ő����Ă�������<br>
+						��x�ɃA�b�v�ł���̂�100MB�܂łł��B�e�ʂ��傫���ꍇ�͕����ăA�b�v���[�h���Ă�������<br>
+						<b><a href="https://ux.getuploader.com/viprpgkouhaku2019/">�A�b�v���[�_�[��</a></b><br>
+						<br>
+						�E�G���g���[�����߂�ꂽ�����̍�i�i���o�[<br>
+						�E��i�^�C�g��<br>
+						�E��i��zip���_�E�����[�h�ł���URL<br>
+						�E��i��zip���_�E�����[�h���邽�߂�pass<br>		
+						<br>
+						���[���^�C�g���͍g����i�A�b�v�A��o���ł�낵�����肢���܂��B	
+				</div>
+	
+	
+	
+				<div class="bordarline2" >
+					<div class="bordarline" >
+						<div class="midasi" >
+							<img src="img/abouticon.png" border="0">�����N
+						</div>
+					</div>
+				</div>
+				<div class="setumei" >
+					<a href="https://hebi.5ch.net/news4vip/" target="blank">�j���[��VIP</a><br>
+					<a href="https://w.atwiki.jp/vip_rpg/" target="blank">VIPRPG@Wiki</a><br>
+					<a href="https://viprpgmsmkohaku2018.web.fc2.com/index.html" target="blank"><img src="img/viprpg_kohaku2018.png" border="0"></a>
+					<a href="http://viprpg17kh.php.xdomain.jp/main/index.html" target="blank"><img src="img/viprpg_kohaku2017.png" border="0"></a>
+					<a href="https://viprpgkohaku2016.wixsite.com/kohaku2016" target="blank"><img src="img/viprpg_kohaku2016.png" border="0"></a><br>
+					<a href="https://vipkohaku.x.fc2.com/2015/index.html" target="blank"><img src="img/viprpg_kohaku2015.png" border="0"></a>
+					<a href="https://vipkohaku.x.fc2.com/2014/index.html" target="blank"><img src="img/viprpg_kohaku2014.png" border="0"></a>
+					<a href="http://vipkohaku2013.web.fc2.com/" target="blank"><img src="img/viprpg_kohaku2013.png" border="0"></a><br>
+					<a href="http://vipkh2012.y.ribbon.to/" target="blank"><img src="img/viprpg_kohaku2012.png" border="0"></a>
+					<a href="http://vipkohaku2011.web.fc2.com/index.html" target="blank"><img src="img/viprpg_kohaku2011.png" border="0"></a>
+					<a href="https://vipkohaku20102.web.fc2.com/" target="blank"><img src="img/viprpg_kohaku2010.png" border="0"></a><br>
+					<a href="http://vipkouhaku09.web.fc2.com/index.htm" target="blank"><img src="img/viprpg_kohaku2009.png" border="0"></a>
+					<a href="https://vipkohaku.x.fc2.com/2008/index.html" target="blank"><img src="img/viprpg_kohaku2008.png" border="0"></a>
+					<a href="https://vipkohaku.x.fc2.com/2007/index.html" target="blank"><img src="img/viprpg_kohaku2007.png" border="0"></a><br>
+					<a href="https://vipkohaku.x.fc2.com/2006/index.html" target="blank"><img src="img/viprpg_kohaku2006.png" border="0"></a>
+					<a href="http://vipkouhaku05.cs.land.to/" target="blank"><img src="img/viprpg_kohaku2005.png" border="0"></a><br>
+				</div>
+				
+				<div class="bordarline2" >
+					<div class="bordarline" >
+						<div class="midasi" >
+							<img src="img/abouticon.png" border="0">�c�C�[�g
+						</div>
+					</div>
+				</div>
+				<div class="setumei" >
+				<a class="twitter-timeline" data-lang="ja" data-width="300" data-height="500" href="https://twitter.com/vipkohaku2019?ref_src=twsrc%5Etfw">Tweets by viprpgkohaku201</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+				</div>
+				
+			</div>
+				<div class="display: block;" >
+					<div class="kousinrireki" >
+					20/3/1<br>
+					No.50�@��i��o<hr>
+					
+					20/2/22<br>
+					No.28�@�p�b�`��o<hr>
+					
+					20/2/14<br>
+					No.6�@�����ւ�<hr>
+					
+					20/2/11<br>
+					���[�@No.40<br>
+					�|�C���g�ƃR�����g���J<hr>
+
+					20/2/10<br>
+					���[�@No.33<br>
+					�|�C���g�ƃR�����g���J<hr>
+					
+					20/2/9<br>
+					���[�@No.41<br>
+					�|�C���g�ƃR�����g���J<hr>
+					
+					20/2/9<br>
+					���[�@No.32<br>
+					�|�C���g�ƃR�����g���J<hr>
+					
+					20/2/9<br>
+					���[�@No.29<br>
+					�|�C���g�ƃR�����g���J<hr>
+					
+					20/2/9<br>
+					���[�@No.16 No.28<br>
+					�|�C���g�ƃR�����g���J<hr>
+					
+					20/2/9<br>
+					No.13�@�����ւ�<br>
+					No.30�@�p�b�`��o<br>
+					���[�@No.15 No.17 No.23<br>
+					No.27 No.30 No.31 No.39<br>
+					No.42 No.43 No.45 No.46<br>
+					No.48 No.51<br>
+					�|�C���g�ƃR�����g���J<hr>
+					
+					20/2/5<br>
+					No.34�@����<br>
+					<hr>
+					
+					20/2/5<br>
+					���[�@No.28<br>
+					�R�����g���C��<br>
+					���[�@No.3 No.5<br>
+					No.6 No.8 No.11<br>
+					No.21 No.22<br>
+					�|�C���g�ƃR�����g���J<br>
+					<hr>
+					
+					20/2/3<br>
+					���[�@No.12<br>
+					�|�C���g�ƃR�����g���J<hr>
+					
+					20/2/3<br>
+					���[�@No.10 No.13 No.24<br>
+					�|�C���g�ƃR�����g���J<hr>
+					
+					20/2/2<br>
+					���[�@No.31 No.43�R�����g�ǉ�<br>
+					No.31�@��i�����ւ�<br>
+					No.44�@SS�X�V ����<hr>
+					
+					20/2/2<br>
+					no.40�@��i�����ւ�<br>
+					���[���ʁ@�ύX<br>
+					���[�@No.12�ꕔ�R�����g�ύX<hr>
+					
+					20/2/1<br>
+					No.3�@��i�����ւ��A�p�b�`��o<br>
+					No.30�@��i�����ւ�<br>
+					No.34�@�啝�ύX<hr>					
+					
+					20/2/1<br>
+					���[�@No.17�摜�Y�t�m�F<hr>
+					
+					20/2/1<br>
+					���[�@���\<hr>
+					
+					20/1/27<br>
+					No.30�@��i��o<br>
+					No.39 No.3�@�p�b�`��o<hr>
+					
+					20/1/26<br>
+					No.46�@��i��o<hr>
+
+					20/1/26<br>
+					No.28�@��i�����ւ��ASS���ύX
+					No.16�@��i�����ւ��A�R�����g���ύX<hr>
+					
+					20/1/26<br>
+					No.39�@�p�b�`��o<hr>
+					
+					20/1/25<br>
+					No.3�@��i�����ւ�<br>
+					No.11 No.39�@�p�b�`��o<br>
+					No.46�@����v���C���ԕύX<hr>
+					
+					20/1/24<br>
+					No.39�@��i��o<hr>
+					
+					20/1/24<br>
+					No.11�@�p�b�`��o<br>
+					No.17�̍�i�ꗗ�̃����N�~�X���C��<hr>
+					
+					20/1/23<br>
+					No.17�@��i�����ւ�<hr>
+					
+					20/1/21<br>
+					No.6�@��i��o�A�R�����g�ύX<br>
+					No.28�@�p�b�`��o<hr>					
+					
+					20/1/19<br>
+					No.48�@��i�����ւ��A���X�ύX<hr>
+					
+					20/1/18<br>
+					No.19�@��i��o<hr>
+					
+					20/1/14<br>
+					No.41�@��i��o<br>
+					No.28�@�p�b�`��o<hr>
+					
+					20/1/13<br>
+					No.3 No.17�@��i�����ւ�<br>
+					No.3�@�p�b�`��o<hr>
+					
+					20/1/11<br>
+					No.8�@��i�����ւ�<hr>
+					
+					20/1/10<br>
+					No.43�@��i��o<hr>
+					
+					20/1/8<br>
+					No.28�@�p�b�`��o<br>
+					No.28�@��i�����ւ�<br>
+					No.29�@SS���C��<br>
+					<hr>
+					
+					20/1/6<br>
+					No.8 No.28 No.48<br>
+					No.33 No.3<br>
+					��i�����ւ�<br>
+					No.28 No.11�@�p�b�`��o<br>
+					No.48�@�R�����g�ύX<hr>
+					
+					20/1/5<br>
+					No.15�@��i�����ւ�<br>
+					No.48�@��i��o<hr>
+					
+					20/1/4<br>
+					No.11�@�p�b�`��o<br>
+					No.29�@��i��o SS�ύX<br>
+					No.40�@��i�����ւ�<hr>
+					
+					20/1/3<br>
+					No.46�@SS�ύX<br>
+					No.11�@��i��o<hr>
+					
+					20/1/2<br>
+					No.33 No.17�@��i�����ւ�<hr>
+					
+					20/1/1<br>
+					No.28�@�p�b�`��o<br>
+					No.38�@��i�����ւ�<hr>
+					
+					19/12/31<br>
+					No.39 No.33�@SS�ύX<br>
+					No.42 No.40 No.45<br>
+					No.51<br>
+					��i��o<br>
+					No.44 No.45 No.46<br>
+					No.47 No.48 No.49<br>
+					No.50 No.51 No.52<br>
+					No.53 No.54 No.55<br>
+					�G���g���[<br>
+					No.33�@��i�����ւ�<hr>
+					
+					19/12/30<br>
+					No.15�@��i�����ւ�<br>
+					No.38 No.13 No.28�@��i��o<br>
+					No.28�@�R�����g�ύX<br>
+					No.39 No.40 No.41<br>
+					No.42 No.43<br>
+					�G���g���[<hr>
+					
+					19/12/29<br>
+					No.38�@�G���g���[<br>
+					No.23 No.3 No.12<br>
+					��i�����ւ�<br>
+					No.3�@�p�b�`�����ւ�<hr>
+					
+					19/12/28<br>
+					No.37�@�G���g���[<hr>
+					
+					19/12/28<br>
+					���[�J�n<hr>
+					
+					19/12/27<br>
+					No.36�@�G���g���[<hr>
+					
+					19/12/27<br>
+					No.35�@�G���g���[<br>
+					No.3�@�C���p�b�`��o<hr>
+					
+					19/12/26<br>
+					No.8 No.10�@��i�����ւ�<br>
+					No.33 No.34�@�G���g���[<br>
+					No.32 No.33�@��i��o<hr>
+					
+					19/12/25<br>
+					No.32�@�G���g���[<hr>
+					
+					19/12/25<br>
+					No.31�@��i���J<br>
+					No.10�@��i�����ւ��m�F<hr>
+					
+					19/12/25<br>
+					No.10�@��i���J<br>
+					No.17�@��i�����ւ��m�F<hr>
+					
+					19/12/25<br>
+					No.5�@��i�����ւ��m�F<br>
+					No.31�@�G���g���[<hr>
+					
+					19/12/25<br>
+					No.3 No.5 No.8 No.12<br>
+					No.15 No.16 No.17 No.21<br>
+					No.22 No.23No.24 No.25<br>
+					No.26 No.27<br>					
+					��i���J<br>
+					���X�X�V<hr>
+					
+					19/12/24<br>
+					No.3�@��i�����ւ��m�F<br>
+					No.17�@��i��o�m�F�A���X�ύX<hr>
+					
+					19/12/23<br>
+					No.30�@�G���g���[<hr>
+					
+					19/12/21<br>
+					No.29�@�G���g���[<br>
+					No.8�@��i��o�m�F�A���X�ύX<hr>
+					
+					19/12/19<br>
+					No.6�@SS�ύX<br>
+					No.3�@��i�����ւ��m�F<hr>
+					
+					19/12/17<br>
+					No.28�@�G���g���[<br>
+					No.3�@��i��o�m�F<hr>
+					
+					19/12/16<br>
+					No.26�@��i��o�m�F<hr>
+					
+					19/12/15<br>
+					No.27<br>
+					�G���g���[ ��i��o�m�F<hr>
+					
+					19/12/15<br>
+					No.26�@�G���g���[<hr>
+					
+					19/12/13<br>
+					No.24�@��i��o�m�F<hr>
+					
+					19/12/11<br>
+					No.12�@��i��o�m�F<hr>
+					
+					19/12/9<br>
+					No.3�@SS�A�R�����g�ύX<hr>	
+					
+					19/12/8<br>
+					No.25�@�G���g���[<hr>
+					
+					19/12/7<br>
+					No.24�@�G���g���[<hr>
+										
+					19/12/2<br>
+					No.21�@��i��o�m�F<hr>
+						
+					19/12/1<br>
+					No.22�@��i��o�m�F<hr>
+					
+					19/12/1<br>
+					No.15 No.23�@��i��o�m�F<hr>
+					
+					19/12/1<br>
+					�A�b�v���[�_�[���J<hr>
+					
+					19/11/30<br>
+					No.23�@�G���g���[<hr>
+					
+					19/11/24<br>
+					No.22�@�G���g���[<hr>
+					
+					19/11/24<br>
+					No.21�@�G���g���[<hr>
+					
+					19/11/19<br>
+					No.20�@�G���g���[<hr>
+					
+					19/11/18<br>
+					No.12<br>
+					����v���C���ԁASS���X�V<hr>
+					
+					19/11/07<br>
+					No.19�@�G���g���[<hr>																									
+							
+					19/11/06<br>
+					No.18�@�G���g���[<hr>																									
+											
+					19/11/02<br>
+					No.17�@�G���g���[<br>																				
+					No.15�@�R�����g�ύX<hr>
+										
+					19/11/01<br>
+					No.16�@�G���g���[<hr>																				
+					
+					19/10/31<br>
+					No.15�@�G���g���[<hr>															
+					
+					19/10/26<br>
+					No.14�@�G���g���[<hr>										
+
+					19/10/22<br>
+					No.4�@<br>SS,�v���C����,�R�����g�ύX<hr>										
+					
+					19/10/20<br>
+					No.11�@SS�ύX<hr>					
+					
+					19/10/20<br>
+					No.13�@�G���g���[<hr>					
+					
+					19/10/18<br>
+					No.12�@�G���g���[<hr>
+					
+					19/10/17<br>
+					No.11�@�G���g���[<br>
+					No.8�@SS�A�R�����g�ύX<hr>															
+					
+					19/10/16<br>
+					No.10�@�G���g���[<hr>										
+					
+					19/10/14<br>
+					No.9�@�G���g���[<hr>					
+					
+					19/10/13<br>
+					���[�A�T�v�y�[�W�쐬<hr>
+					
+					19/10/08<br>
+					No.3�@SS�A�R�����g�ύX<hr>
+					
+					19/10/07<br>
+					No.8�@�G���g���[<hr>
+					
+					19/10/05<br>
+					No.7�@�G���g���[<hr>				
+									
+					19/10/03<br>
+					TOP����	<hr>			
+									
+					19/10/3<br>
+					No.6�@�G���g���[<hr>
+				
+					19/10/03<br>
+					No.4 SS�X�V(2����)<hr>
+				
+					19/10/02<br>
+					No.5�@�G���g���[<hr>
+				
+					19/10/01<br>
+					No.1�@SS�C��<hr>
+				
+					19/10/01<br>
+					No.4�@�G���g���[<br>
+					�뎚�A�X�y���~�X���C��<hr>
+					
+					19/10/01<br>
+					No.3�@�G���g���[<hr>
+	
+					19/10/01<br>
+					�G���g���[��W�J�n<br>
+					No.1,2�@�G���g���[<hr>
+				
+					19/09/29<br>
+					TOP�y�[�W�ƃX�P�W���[���̈ꕔ�X�V<hr>
+					19/09/29<br>
+					��i�G���g���[������<br>
+					�i10��1���j<hr>
+						
+					19/09/27<br>
+					��i�ꗗ�̃T���v���y�[�W�쐬<hr>
+	
+					19/09/21<br>
+					�ړ]����<br>
+					�G���g���[����<br>
+					�����L�����ύX<hr>
+					
+					19/09/20<br>
+					�X�P�W���[���y�[�W�X�V<hr>
+					
+					19/09/20<br>
+					�T�C�g���J<hr>
+					
+					19/08/28<br>
+					�T�C�g�ݗ�
+					</div>
+				<p><img src="img/2019banner1.png"></p>
+				<p><img src="img/2019banner2.png"></p>
+				<font size="1">�o�i�[�͖{�X���̕���<br>����Ă��������܂����I<br>����</font>
+				</div>
+				
+		</div>
+
+  </div>
+
+  <script><!--
+var footerparam = 'charset=' + encodeURIComponent(document.charset ? document.charset : document.characterSet) + '&url=' + encodeURIComponent(document.location) + '&service=1&r=' + Math.floor(Math.random()*99999999999);
+var footertag = "//vip-chps-api.2nt.com/apis/footer/?" + footerparam;
+var script = document.createElement('script');
+script.src = footertag;
+script.charset = "UTF-8";
+script.async = true;
+document.getElementsByTagName('head')[0].appendChild(script);
+//--></script>
+<!-- 2nt, inc.-->
+<img src="//media.fc2.com/counter_img.php?id=50" style="display:none" alt="inserted by 2nt system" width="0" height="0">
+<!-- 2nt, inc.--></body>
+
+</html>
+

@@ -5,7 +5,7 @@
 - [x] `2024-gw` VIPRPG GW祭2024
 - [x] `2024-kouhaku` VIPRPG2024紅白
 - [x] `2024-kuradashifestival` VIPRPG蔵出し祭り
-- [x] `2024-summer` VIPRPG夏の陣2024（完成）
+- [x] `2024-summer` VIPRPG夏の陣2024
 - [x] `2023-gw` VIPRPG GW祭2023
 - [x] `2023-kouhaku` VIPRPG紅白2023
 - [x] `2023-summer` VIPRPG夏の陣2023
@@ -18,9 +18,9 @@
 - [x] `2021-summer` VIPRPG 2021夏の陣
 - [x] `2020-gw` VIPRPG GW祭2020
 - [x] `2020-kouhaku` VIPRPG紅白2020
-- [ ] `2020-summer` VIPRPG夏の陣2020
+- [x] `2020-summer` VIPRPG夏の陣2020
 - [ ] `2019-gw` VIPRPG2019GW
-- [ ] `2019-kouhaku` VIPRPG紅白2019
+- [x] `2019-kouhaku` VIPRPG紅白2019
 - [ ] `2019-summer` VIPRPG2019夏の陣
 - [ ] `2018-gw` VIPRPGツクール GW祭2018
 - [ ] `2018-gw-2` VIPRPG2018GW(裏)

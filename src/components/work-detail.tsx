@@ -130,7 +130,10 @@ export default function WorkDetail({
       {work.authorComment && (
         <section className="detail-section">
           <h2 className="section-heading">{dictionary.detailsAuthorComment}</h2>
-          <p className="section-text">{work.authorComment}</p>
+          <div
+            className="section-text"
+            dangerouslySetInnerHTML={{ __html: renderHostCommentHTML(work.authorComment) }}
+          />
         </section>
       )}
 
