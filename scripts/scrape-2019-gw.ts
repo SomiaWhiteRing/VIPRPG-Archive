@@ -160,6 +160,38 @@ function buildWaybackCandidates(directUrl: string) {
   ];
 }
 
+async function fetchSnapshotTimestamps(directUrl: string, limit = 25): Promise<string[]> {
+  try {
+    const encoded = encodeURIComponent(stripJina(directUrl));
+    const api = `https://web.archive.org/cdx/search/cdx?url=${encoded}&output=json&filter=statuscode:200&fl=timestamp,mimetype&limit=${limit}`;
+    const res = await fetch(api, { headers: { "User-Agent": USER_AGENT, Accept: "application/json" } as any });
+    if (!res.ok) return [];
+    const text = await res.text();
+    if (!text.trim() || text.trim() === "[]") return [];
+    const data = JSON.parse(text) as unknown[];
+    if (!Array.isArray(data) || data.length < 2) return [];
+    const out: string[] = [];
+    for (const row of data.slice(1)) {
+      if (Array.isArray(row) && typeof row[0] === "string") out.push(row[0] as string);
+    }
+    return out;
+  } catch {
+    return [];
+  }
+}
+
+function buildWaybackCandidatesWithTs(directUrl: string, timestamps: string[]) {
+  const base = buildWaybackCandidates(directUrl);
+  const u = stripJina(directUrl);
+  const out = new Set<string>(base);
+  for (const ts of timestamps) {
+    out.add(`https://web.archive.org/web/${ts}im_/${u}`);
+    out.add(`https://web.archive.org/web/${ts}fw_/${u}`);
+    out.add(`https://web.archive.org/web/${ts}id_/${u}`);
+  }
+  return Array.from(out);
+}
+
 async function fetchText(url: string) {
   let lastErr: unknown;
   for (let attempt = 1; attempt <= 3; attempt += 1) {
@@ -242,7 +274,7 @@ function sanitizeMultiline(v?: string | null) {
   return out || undefined;
 }
 
-function parseIndexGeneric(html: string, indexUrl: string): IndexEntry[] {
+function parseIndexGeneric(html: string, assetsBase: string): IndexEntry[] {
   const $ = cheerio.load(html);
   const entries: IndexEntry[] = [];
 
@@ -273,14 +305,14 @@ function parseIndexGeneric(html: string, indexUrl: string): IndexEntry[] {
       index: num,
       no: noText,
       title: title!,
-      iconUrl: iconUrl ? toAbsoluteUrl(iconUrl, indexUrl) : undefined,
+      iconUrl: iconUrl ? toAbsoluteUrl(iconUrl, assetsBase) : undefined,
       author,
       genre,
       engine,
       streamingRaw,
-      detailUrl: detailRel ? toAbsoluteUrl(detailRel, indexUrl) : undefined,
-      forumUrl: forumUrl ? toAbsoluteUrl(forumUrl, indexUrl) : undefined,
-      downloadUrl: downloadUrl ? toAbsoluteUrl(downloadUrl, indexUrl) : undefined,
+      detailUrl: detailRel ? toAbsoluteUrl(detailRel, assetsBase) : undefined,
+      forumUrl: forumUrl ? toAbsoluteUrl(forumUrl, assetsBase) : undefined,
+      downloadUrl: downloadUrl ? toAbsoluteUrl(downloadUrl, assetsBase) : undefined,
     });
   }
 
@@ -356,7 +388,8 @@ async function copyIcon(index: string, source: string | undefined): Promise<stri
   if (!source) return undefined;
   await ensureDir(ICONS_DIR);
   try {
-    const candidates = buildWaybackCandidates(source);
+    const tss = await fetchSnapshotTimestamps(source, 25);
+    const candidates = buildWaybackCandidatesWithTs(source, tss);
     for (const src of candidates) {
       try {
         const { buffer, contentType } = await fetchBinary(src);
@@ -392,7 +425,8 @@ async function copyScreenshots(index: string, sources: string[]): Promise<Downlo
     try {
       let ok = false;
       let lastErr: string | undefined;
-      for (const candidate of buildWaybackCandidates(src)) {
+      const tss = await fetchSnapshotTimestamps(src, 25);
+      for (const candidate of buildWaybackCandidatesWithTs(src, tss)) {
         try {
           const { buffer, contentType } = await fetchBinary(candidate);
           if (!looksLikeImageBuffer(buffer, contentType)) { lastErr = `not image: ${contentType || "unknown"}`; continue; }
@@ -498,9 +532,11 @@ async function run() {
 
   const { url: indexUrl, html: indexHtml, sourcesTried } = indexCandidate;
   await fs.writeFile(path.join(CATCH_DIR, path.basename(indexUrl) || "index.html"), indexHtml, "utf8");
-  await saveBannerFromIndex(indexUrl, indexHtml);
+  // Prefer CLI arg as network base when offline 'file:' is used
+  const assetsBase = indexUrl.startsWith("file:") && process.argv[2] ? process.argv[2] : indexUrl;
+  await saveBannerFromIndex(assetsBase, indexHtml);
 
-  const entries = parseIndexGeneric(indexHtml, indexUrl);
+  const entries = parseIndexGeneric(indexHtml, assetsBase);
   const out: WorkEntryOut[] = [];
   const summary: SnapshotRecord[] = [];
 

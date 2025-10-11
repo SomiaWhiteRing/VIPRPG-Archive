@@ -325,6 +325,36 @@ async function parseDetail(entry: IndexEntry) {
   $("div.ran").each((_, block) => {
     const text = sanitizeMultiline($(block).text());
     if (!text) return;
+    // Try line-by-line parsing for labeled fields
+    const lines = text.split(/\r?\n/).map((l) => l.trim()).filter(Boolean);
+    for (const line of lines) {
+      if (!streaming && /(動画\s*配信)/i.test(line)) {
+        const val = line.replace(/^.*?動画\s*配信[】\]]?[:：]?/i, "").trim();
+        if (val) streaming = stripLeadingBrackets(val);
+      }
+      if (!streaming && /(配信)\s*[\/／]\s*(動画|投稿)/.test(line)) {
+        // e.g. 【配信/投稿】 いいぜ/いいぜ
+        const after = line.replace(/^.*?[】\]]\s*/, "");
+        const pair = after.split(/[\/／]/).map((s) => s.trim()).filter(Boolean);
+        if (pair.length === 2) {
+          streaming = `配信: ${pair[0]} / 動画: ${pair[1]}`;
+        } else if (pair.length === 1) {
+          streaming = `配信: ${pair[0]}`;
+        }
+      }
+      if (!streaming) {
+        const m = line.match(/^【[^】]*配信[^】]*】\s*(.+)$/);
+        if (m && m[1]) {
+          const raw = m[1].trim();
+          const parts = raw.split(/[\/／]/).map((s) => s.trim()).filter(Boolean);
+          if (parts.length === 2) {
+            streaming = `配信: ${parts[0]} / 動画: ${parts[1]}`;
+          } else {
+            streaming = raw;
+          }
+        }
+      }
+    }
     if (!authorComment && /コメント|ｺﾒﾝﾄ/i.test(text) && !/管理人|主催/i.test(text)) {
       const replaced = text.replace(/^.*?コメント[】\]]?[:：]?/i, "").trim();
       authorComment = stripLeadingBrackets(replaced);
@@ -332,10 +362,6 @@ async function parseDetail(entry: IndexEntry) {
     if (!hostComment && /(管理人|主催)コメント/i.test(text)) {
       const replaced = text.replace(/^.*?(管理人|主催)コメント[】\]]?[:：]?/i, "").trim();
       hostComment = stripLeadingBrackets(replaced);
-    }
-    if (!streaming && /動画\s*配信/i.test(text)) {
-      const replaced = text.replace(/^.*?動画\s*配信[】\]]?[:：]?/i, "").trim();
-      streaming = stripLeadingBrackets(replaced);
     }
   });
 

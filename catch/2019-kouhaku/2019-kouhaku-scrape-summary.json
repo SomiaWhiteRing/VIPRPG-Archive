@@ -1,6 +1,6 @@
 {
   "festivalId": "2019-kouhaku",
-  "generatedAt": "2025-10-11T01:41:59.314Z",
+  "generatedAt": "2025-10-11T03:11:50.016Z",
   "banner": "/banners/2019-kouhaku.png",
   "stats": {
     "captured": 55,
@@ -98,17 +98,14 @@
       "status": "ok",
       "title": "バカスクリニック そのよん",
       "icon": "/icons/2019-kouhaku/06.png",
-      "note": "ダウンロード: 92.4Mb; skipped small: 1",
+      "note": "ダウンロード: 92.4Mb; screenshot failures: 1",
       "downloadSource": [
         "https://drive.google.com/open?id=1Km8ZoMDL0sNoOVe8tLuDUls5Sm4t0FNJ"
       ],
       "screenshotReport": {
         "saved": 2,
-        "skipped": [
-          {
-            "source": "https://kohakuviprpg2019.x.2nt.com/list/2000icon.png",
-            "reason": "small"
-          }
+        "failures": [
+          "https://kohakuviprpg2019.x.2nt.com/list/2000icon.png"
         ]
       }
     },
