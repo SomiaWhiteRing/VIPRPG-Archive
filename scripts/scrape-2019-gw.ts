@@ -18,7 +18,7 @@ const SCREENSHOTS_DIR = path.join(PUBLIC_DIR, "screenshots", FESTIVAL_SLUG);
 const RELATIVE_ICONS_DIR = `/icons/${FESTIVAL_SLUG}`;
 const RELATIVE_SCREENSHOTS_DIR = `/screenshots/${FESTIVAL_SLUG}`;
 
-const MAX_SCREENSHOTS = 6;
+// 按页面实际提供的数量保存截图，不做上限限制；仅过滤极小图标
 const SMALL_IMAGE_LIMIT = 100;
 
 const USER_AGENT =
@@ -148,16 +148,14 @@ function stripJina(url: string) {
   return m ? m[1] : url;
 }
 
+// 始终直连：禁用 Wayback 与代理
+const DIRECT_ONLY = true;
+
 function buildWaybackCandidates(directUrl: string) {
   const u = stripJina(directUrl);
   const jina = `https://r.jina.ai/${u}`;
-  return [
-    u,
-    jina,
-    `https://web.archive.org/web/2im_/${u}`,
-    `https://web.archive.org/web/2fw_/${u}`,
-    `https://web.archive.org/web/2id_/${u}`,
-  ];
+  if (DIRECT_ONLY) return [u];
+  return [u, jina, `https://web.archive.org/web/2im_/${u}`, `https://web.archive.org/web/2fw_/${u}`, `https://web.archive.org/web/2id_/${u}`];
 }
 
 async function fetchSnapshotTimestamps(directUrl: string, limit = 25): Promise<string[]> {
@@ -358,8 +356,20 @@ async function parseDetailGeneric(url: string | undefined): Promise<DetailEntry>
       screenshotSet.add(abs);
     };
     $("img").each((_, el) => {
-      const src = $(el).attr("src");
+      const img = $(el);
+      const src = img.attr("src");
       addIfImage(src ?? undefined);
+      // 特殊：处理 onmouseover/onmouseout 中的切换大图
+      const onOver = img.attr("onmouseover");
+      const onOut = img.attr("onmouseout");
+      const pick = (val?: string | null) => {
+        if (!val) return;
+        const m = val.match(/["']([^"']+\.(?:png|jpe?g|gif|bmp))["']/i);
+        if (m) addIfImage(m[1]);
+      };
+      pick(onOver);
+      pick(onOut);
+      // 其他属性值中若直接是图片路径也收集
       const attr = (el as cheerio.Element).attribs ?? {};
       for (const v of Object.values(attr)) {
         if (typeof v === "string") addIfImage(v);
@@ -369,13 +379,32 @@ async function parseDetailGeneric(url: string | undefined): Promise<DetailEntry>
     if (screenshotSet.size > 0) result.screenshots = Array.from(screenshotSet);
 
     const findRowText = (label: string) => {
-      const cell = $(`td:contains(${label})`).filter((_, el) => $(el).text().trim().startsWith(label));
-      if (!cell.length) return undefined;
-      const raw = cell.first().html() || cell.first().text();
-      return sanitizeMultiline(raw);
+      // 兼容形如：【作者コメント】/作者コメント：/作者： 等前缀
+      const cells = $(`td:contains(${label})`);
+      let pick: cheerio.Cheerio | undefined;
+      cells.each((_, el) => {
+        const t = $(el).text().replace(/[\s\u3000]+/g, " ").trim();
+        const normalized = t.replace(/[\[\(（【\]\)】]/g, "");
+        if (normalized.startsWith(label) || normalized.includes(`${label}：`) || normalized.includes(`${label}:`)) {
+          pick = $(el);
+          return false;
+        }
+        return;
+      });
+      if (!pick) return undefined;
+      const rawHtml = pick.first().html() || pick.first().text();
+      // 优先按 <br> 分割，丢弃第一段标签部分
+      const parts = rawHtml.split(/<br\s*\/?\s*>/i);
+      if (parts.length > 1) {
+        const contentHtml = parts.slice(1).join("<br>");
+        return sanitizeMultiline(contentHtml);
+      }
+      // 回退：移除标签与冒号
+      const pattern = new RegExp(`^[\\s\\S]*?(?:[【\u3010\[(]?${label}[】\u3011\])?)\s*[:：]?\s*`, "u");
+      const html2 = rawHtml.replace(pattern, "");
+      return sanitizeMultiline(html2);
     };
-    result.authorComment = findRowText("作者コメント") || findRowText("作者のコメント") || findRowText("作者")
-      || findRowText("【備考】");
+    result.authorComment = findRowText("作者コメント") || findRowText("作者のコメント") || findRowText("作者") || findRowText("備考");
     result.hostComment = findRowText("管理人コメント") || findRowText("主催コメント");
 
     return result;
@@ -388,19 +417,12 @@ async function copyIcon(index: string, source: string | undefined): Promise<stri
   if (!source) return undefined;
   await ensureDir(ICONS_DIR);
   try {
-    const tss = await fetchSnapshotTimestamps(source, 25);
-    const candidates = buildWaybackCandidatesWithTs(source, tss);
-    for (const src of candidates) {
-      try {
-        const { buffer, contentType } = await fetchBinary(src);
-        if (!looksLikeImageBuffer(buffer, contentType)) continue;
-        const ext = getImageExtension(source, ".png");
-        const file = `${index}${ext}`;
-        await fs.writeFile(path.join(ICONS_DIR, file), buffer);
-        return path.posix.join(RELATIVE_ICONS_DIR, file);
-      } catch {}
-    }
-    return undefined;
+    const { buffer, contentType } = await fetchBinary(source);
+    if (!looksLikeImageBuffer(buffer, contentType)) return undefined;
+    const ext = getImageExtension(source, ".png");
+    const file = `${index}${ext}`;
+    await fs.writeFile(path.join(ICONS_DIR, file), buffer);
+    return path.posix.join(RELATIVE_ICONS_DIR, file);
   } catch {
     return undefined;
   }
@@ -421,34 +443,19 @@ async function copyScreenshots(index: string, sources: string[]): Promise<Downlo
   const hashSet = new Set<string>();
   let order = 1;
   for (const src of sources) {
-    if (saved.length >= MAX_SCREENSHOTS) break;
     try {
-      let ok = false;
-      let lastErr: string | undefined;
-      const tss = await fetchSnapshotTimestamps(src, 25);
-      for (const candidate of buildWaybackCandidatesWithTs(src, tss)) {
-        try {
-          const { buffer, contentType } = await fetchBinary(candidate);
-          if (!looksLikeImageBuffer(buffer, contentType)) { lastErr = `not image: ${contentType || "unknown"}`; continue; }
-          const dim = getImageDimensions(buffer);
-          if (dim && dim.width < SMALL_IMAGE_LIMIT && dim.height < SMALL_IMAGE_LIMIT) { skipped.push({ source: stripJina(src), reason: "small" }); ok = true; break; }
-          const md5 = createHash("md5").update(buffer).digest("hex");
-          if (hashSet.has(md5)) { skipped.push({ source: stripJina(src), reason: "duplicate" }); ok = true; break; }
-          hashSet.add(md5);
-          const ext = getImageExtension(src, ".png");
-          const file = order === 1 ? `${index}${ext}` : `${index}-${String(order).padStart(2, "0")}${ext}`;
-          await fs.writeFile(path.join(SCREENSHOTS_DIR, file), buffer);
-          saved.push(path.posix.join(RELATIVE_SCREENSHOTS_DIR, file));
-          order += 1;
-          ok = true;
-          break;
-        } catch (e) {
-          lastErr = (e as Error).message;
-        }
-      }
-      if (!ok) {
-        failures.push(stripJina(src) + (lastErr ? ` => ${lastErr}` : ""));
-      }
+      const { buffer, contentType } = await fetchBinary(src);
+      if (!looksLikeImageBuffer(buffer, contentType)) { failures.push(src + ` (not image: ${contentType || "unknown"})`); continue; }
+      const dim = getImageDimensions(buffer);
+      if (dim && dim.width < SMALL_IMAGE_LIMIT && dim.height < SMALL_IMAGE_LIMIT) { skipped.push({ source: src, reason: "small" }); continue; }
+      const md5 = createHash("md5").update(buffer).digest("hex");
+      if (hashSet.has(md5)) { skipped.push({ source: src, reason: "duplicate" }); continue; }
+      hashSet.add(md5);
+      const ext = getImageExtension(src, ".png");
+      const file = order === 1 ? `${index}${ext}` : `${index}-${String(order).padStart(2, "0")}${ext}`;
+      await fs.writeFile(path.join(SCREENSHOTS_DIR, file), buffer);
+      saved.push(path.posix.join(RELATIVE_SCREENSHOTS_DIR, file));
+      order += 1;
     } catch (err) {
       failures.push(src + " => " + (err as Error).message);
     }

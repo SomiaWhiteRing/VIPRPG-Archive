@@ -318,13 +318,14 @@ async function parseDetail(entry: IndexEntry) {
   });
   $("a").each((_, a) => record($(a).attr("href")));
 
-  // Extract author and host comments heuristically from text blocks
+  // Extract author and host comments; keep HTML markup
   let authorComment: string | undefined;
   let hostComment: string | undefined;
   let streaming: string | undefined;
   $("div.ran").each((_, block) => {
     const text = sanitizeMultiline($(block).text());
-    if (!text) return;
+    const htmlRaw = ($(block).html() ?? "").replace(/\r?\n/g, "");
+    if (!text && !htmlRaw) return;
     // Try line-by-line parsing for labeled fields
     const lines = text.split(/\r?\n/).map((l) => l.trim()).filter(Boolean);
     for (const line of lines) {
@@ -356,12 +357,12 @@ async function parseDetail(entry: IndexEntry) {
       }
     }
     if (!authorComment && /コメント|ｺﾒﾝﾄ/i.test(text) && !/管理人|主催/i.test(text)) {
-      const replaced = text.replace(/^.*?コメント[】\]]?[:：]?/i, "").trim();
-      authorComment = stripLeadingBrackets(replaced);
+      const html = htmlRaw.replace(/^\s*【\s*コメント\s*】\s*(<br\s*\/?\s*>\s*)?/i, "").trim();
+      authorComment = stripLeadingBrackets(html) ?? html;
     }
     if (!hostComment && /(管理人|主催)コメント/i.test(text)) {
-      const replaced = text.replace(/^.*?(管理人|主催)コメント[】\]]?[:：]?/i, "").trim();
-      hostComment = stripLeadingBrackets(replaced);
+      const html = htmlRaw.replace(/^\s*【\s*(管理人|主催)コメント\s*】\s*(<br\s*\/?\s*>\s*)?/i, "").trim();
+      hostComment = stripLeadingBrackets(html) ?? html;
     }
   });
 
