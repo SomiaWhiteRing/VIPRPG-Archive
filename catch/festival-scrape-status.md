@@ -12,12 +12,12 @@
 - [x] `2023-winter` VIPRPG辰年記念祭2023
 - [x] `2022-gw` VIPRPG 2022GW祭（完成）
 - [x] `2022-kouhaku` VIPRPG 紅白2022
-- [ ] `2022-summer` VIPRPG 2022夏祭り
-- [ ] `2021-gw` VIPRPG 2021GW祭
-- [ ] `2021-kouhaku` VIPRPG 紅白2021
-- [ ] `2021-summer` VIPRPG 2021夏の陣
-- [ ] `2020-gw` VIPRPG GW祭2020
-- [ ] `2020-kouhaku` VIPRPG紅白2020
+- [x] `2022-summer` VIPRPG 2022夏祭り
+- [x] `2021-gw` VIPRPG 2021GW祭
+- [x] `2021-kouhaku` VIPRPG 紅白2021
+- [x] `2021-summer` VIPRPG 2021夏の陣
+- [x] `2020-gw` VIPRPG GW祭2020
+- [x] `2020-kouhaku` VIPRPG紅白2020
 - [ ] `2020-summer` VIPRPG夏の陣2020
 - [ ] `2019-gw` VIPRPG2019GW
 - [ ] `2019-kouhaku` VIPRPG紅白2019
