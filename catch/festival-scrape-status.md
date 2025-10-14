@@ -22,7 +22,7 @@
 - [z] `2019-gw` VIPRPG2019GW
 - [x] `2019-kouhaku` VIPRPG紅白2019
 - [x] `2019-summer` VIPRPG2019夏の陣
-- [ ] `2018-gw` VIPRPGツクール GW祭2018
+- [x] `2018-gw` VIPRPGツクール GW祭2018
 - [ ] `2018-gw-2` VIPRPG2018GW(裏)
 - [x] `2018-kouhaku` VIPRPG紅白2018
 - [ ] `2018-summer` VIPRPG 2018夏祭り
