@@ -1,1 +1,858 @@
-[]
+[
+  {
+    "id": "2019-summer-0",
+    "festivalId": "2019-summer",
+    "no": "0",
+    "title": "雑談掲示板",
+    "author": "管理人",
+    "category": "掲示板",
+    "engine": "other",
+    "streaming": "不可",
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=0",
+    "icon": "/icons/2019-summer/0.png"
+  },
+  {
+    "id": "2019-summer-1",
+    "festivalId": "2019-summer",
+    "no": "1",
+    "title": "運営掲示板",
+    "author": "管理人",
+    "category": "掲示板",
+    "engine": "Google Apps Script",
+    "streaming": "不可",
+    "authorComment": "主に管理人への要望や提案を行うときにご利用ください<br>記載時はできる限り具体的に、且つ様々な解釈が生まれないような文章を心がけて下さい<br><br>5ch発祥の文化なので略して書きたくなるのは分かりますが、運営掲示板に関しては意図が伝わらなければ無意味です<br>多少冗長な文書でも構いませんので、何に困っていて、何をして欲しいのか等を明確にして下さい<br><br>単に愚痴りたい、呟きたいだけなら雑談掲示板へ",
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=1",
+    "icon": "/icons/2019-summer/1.png"
+  },
+  {
+    "id": "2019-summer-2",
+    "festivalId": "2019-summer",
+    "no": "2",
+    "title": "サンプルページ・全掲示板情報",
+    "author": "管理人",
+    "category": "サンプル",
+    "engine": "2000",
+    "streaming": "最近厳しいので気をつけてね",
+    "authorComment": "今回は管理人コメントはやりませんよ<br><br>No.2の掲示板は全ての投稿情報が閲覧できるようにしました",
+    "ss": [
+      "/screenshots/2019-summer/02-01.png",
+      "/screenshots/2019-summer/02-02.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=2",
+    "icon": "/icons/2019-summer/2.png"
+  },
+  {
+    "id": "2019-summer-3",
+    "festivalId": "2019-summer",
+    "no": "3",
+    "title": "ホットケーキ魔物列伝(違)",
+    "author": "AQUHADE･SACRIFICE",
+    "category": "伝説となったモングラを紹介し続けるksg",
+    "engine": "2000",
+    "streaming": "自己責任",
+    "authorComment": "ツクール2000の様々な作品でよくお目にかかる<br>愛すべき「HOT TOKE」作のモングラをあの2人がひたすら紹介します。<br><br>※注意事項<br>本ksgにはいくつかの自分のお気に入りのフリゲネタが仕組まれております。<br>また、時間の都合上全て紹介出来ませんのであしからず。<br><br>A「これまた挑戦的な作品だけど本当に大丈夫だろうか…？」<br>O「知らん」",
+    "ss": [
+      "/screenshots/2019-summer/03-01.png",
+      "/screenshots/2019-summer/03-02.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=3",
+    "icon": "/icons/2019-summer/3.png"
+  },
+  {
+    "id": "2019-summer-4",
+    "festivalId": "2019-summer",
+    "no": "4",
+    "title": "夏色☆ミストラル",
+    "author": "名雲きつね",
+    "category": "具現化と海デートするエロゲ",
+    "engine": "MV",
+    "streaming": "自己責任",
+    "authorComment": "「先日ミストラルと海に行った時の事を思い出しながらｔｋりました。」<br><br>ロリのエロゲなので苦手な方と未成年はDLしない様にご注意を。<br><br>エンディングはノーマルとハッピーの２種類。<br><br>",
+    "ss": [
+      "/screenshots/2019-summer/04-01.png",
+      "/screenshots/2019-summer/04-02.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=4",
+    "icon": "/icons/2019-summer/4.png"
+  },
+  {
+    "id": "2019-summer-5",
+    "festivalId": "2019-summer",
+    "no": "5",
+    "title": "Last Infinity",
+    "author": "Pfirsich.Wurzeln",
+    "category": "こつこつレベル上げはしないRPG",
+    "engine": "2000",
+    "streaming": "可",
+    "authorComment": "シフトアッパー・畦倉カナ<br>彼女はそう呼ばれて――ほしい。<br><br>これから数日後にたぶん来る、来てほしい厄災――大魔王。<br>彼女の個性を光らせ、身を粉にしてでも、必ず世界を救ってみせる――という妄想を胸に抱き……<br><br>+++<br><br>0719.いまから作ります<br>0720.タイトル画面作成、全体的な規模を決定、仲間キャラを選出、素材の収集<br>0721.素材の収集・加工、システム部の仕様詰め<br>0722.根幹システムの1つを作成、マップを仮作成（作成途中）（リファインは後日）<br>　　 タイトル変更、SSを1枚更新・1枚追加<br>0723.マップ間移動システムを作成、設定の仕様詰め<br>　　 SSを1枚更新<br>0724.スポット入り演出の作成、マップ間移動システムの修正、キーレスポンスの調整<br>　　 アイコンを追加<br>0725.町行動画面の作成<br>　　 SSを1枚更新<br>0726.町行動「町を出る」を作成、素材の収集<br>0727.町行動「情報収集」の根幹部分を作成、素材の収集<br>0728.町行動「仲間勧誘」の根幹部分を作成、「情報収集」を作成、ショップ・仲間勧誘の解禁演出の作成<br>0729.町行動「情報収集」を作成、新規ダンジョン解禁演出の作成<br>　　 SSを1枚更新<br>0730.町行動「ショップ」のレイアウト作成・仕様詰め・根幹部分の作成<br>0731.町行動「ショップ」の作成、所持金表示の作成<br>0801.町行動「ショップ」の作成<br>0802.町行動「ショップ」の作成、町行動「仲間勧誘」のバグ修正<br>0803.町行動「ショップ」の作成<br>0804.町行動「ショップ」の作成（あとちょっと）<br>　　 SSを1枚更新<br>0805.町行動「ショップ」の購入処理を作成<br>0806.町行動「ショップ」の購入処理を作成、ピクチャ整理、素材の収集<br>0807.不足ピクチャの補完<br>0808.不足ピクチャの補完、アイテム表記の見直し<br>0809.不足ピクチャの補完、戦闘アニメの作成<br>0810.シナリオ作成、街の根幹部分がほぼ出来たのでダンジョン作成にうつります<br>0811.ダンジョン入り演出の作成、ダンジョンのレイアウト作成、行動選択肢の作成<br>0812.ダンジョン移動システムの作成、ピクチャ整理<br>0813.行動予測の作成、キー入力バグ修正、夕闇色調変更追加<br>　　 SSを1枚更新(縦長)<br>0814.ダンジョン脱出を作成、ショップのバグ修正<br>0815.エンカ文字数",
+    "ss": [
+      "/screenshots/2019-summer/05-01.png",
+      "/screenshots/2019-summer/05-02.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=5",
+    "icon": "/icons/2019-summer/5.png"
+  },
+  {
+    "id": "2019-summer-6",
+    "festivalId": "2019-summer",
+    "no": "6",
+    "title": "スパニーと5つの宝玉 ～SparkⅡ&#039;s Adventure～",
+    "author": "かすていら",
+    "category": "1vs1のサイドビュー自作戦闘RPG",
+    "engine": "2003S",
+    "streaming": "可",
+    "authorComment": "多目的ファイル内のパッチはそれ以前のバージョンの修正内容がすべて含まれております<br>8/24 ver1.10に更新（行商ラナの説明文の修正）<br>8/17 ver1.09に更新（戦闘勝利画面の表示を一部変更）<br>8/14 ver1.08に更新（メニュー画面更新、装備の性能）<br>8/13 ver1.07に更新（場外侵入修正）<br>8/12 ver1.06に更新（特技の説明文修正）<br>8/11 ver1.04に更新（モジュール違反によるセーブデータの消滅対策）<br>→ver1.05に更新（ボスラッシュモード関係）<br><br>勉強、稽古、習い事……貴族の娘として生まれ厳しいスケジュールの中、遊ぶ時間も全く無い窮屈かつ退屈な日々に飽き飽きしてたスパークⅡ<br>ある日、彼女は家の中で宝の地図を見つける<br>その宝を手に入れるための鍵となる5つのオーブを集めるためにいつものように脱走し、冒険に出る……<br><br><br><br>自作戦闘の習作として作り始めた1vs1のサイドビュー自作戦闘RPGです<br>5つのダンジョンを巡り、各地のボスからオーブを奪還し、宝を手に入れるのが目的となります<br>エリアボスの他にもFOE的なボスも各地に1体ぐらいいたりします<br>ダッシュの他、シンボルエンカウント邪魔くせーという方のためにもシンボルを吹き飛ばせる機能がついてたりします（一部敵には無効）<br><br>特殊なシステムとしては戦闘ごとに1回だけ、一定ターンだけ先制攻撃が出来たり、ダメージが属性相性に関わらず2倍になったり、敵の動きを完全に止めたり出来る、特殊スキルというものが使えたりします<br>アイテムも戦闘中に使用しても戦闘後には元の数の分だけ補給されます<br>あと1vs1の性質上、スティミュラントとかそこら辺の復活アイテムは所持しているだけで自動使用だったりします<br><br>余談ですがSteam2003の文字列ピクチャがすごい便利です<br>このゲームの製作時にも超役立ちましたのでみんなSteam2003買おう",
+    "ss": [
+      "/screenshots/2019-summer/06-01.png",
+      "/screenshots/2019-summer/06-02.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=6",
+    "icon": "/icons/2019-summer/6.png"
+  },
+  {
+    "id": "2019-summer-7",
+    "festivalId": "2019-summer",
+    "no": "7",
+    "title": "2019夏の陣ウィンディ10連発",
+    "author": "リナッ久",
+    "category": "ｋｓｇ集",
+    "engine": "2003S",
+    "streaming": "不可",
+    "authorComment": "あの10連発シリーズがパワーアップして帰ってきた！<br><br>過去の祭りで未提出だったものも収録！<br>過去最高のボリュームに！",
+    "ss": [
+      "/screenshots/2019-summer/07-01.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=7",
+    "icon": "/icons/2019-summer/7.png"
+  },
+  {
+    "id": "2019-summer-8",
+    "festivalId": "2019-summer",
+    "no": "8",
+    "title": "だんじょんあんど女の子もんすたー",
+    "author": "Xyxx_Yxyy",
+    "category": "ダンジョンRPG（R18）",
+    "engine": "VXAce",
+    "streaming": "不可",
+    "authorComment": "0.75～1時間程度で終わるダンジョンRPGです。<br>バトラーグラフィック含めて68枚くらい描きました。<br>R18要素が含まれているため未成年の方はDLしないようにお願いします。<br><br>2019/8/15<br>修正<br>・でびるあーまー撃破時に残VT1で2回襲える不具合について修正<br>・はーどれざーあーまーの防御力上昇値と説明文の不一致を修正<br>仮対応<br>・向き固定移動時にオートマッピングが行われない不具合について仮対応<br><br>",
+    "ss": [
+      "/screenshots/2019-summer/08-01.png",
+      "/screenshots/2019-summer/08-02.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=8",
+    "icon": "/icons/2019-summer/8.png"
+  },
+  {
+    "id": "2019-summer-9",
+    "festivalId": "2019-summer",
+    "no": "9",
+    "title": "リーフバリア「お耳掃除はいかがですか？」",
+    "author": "ナナメティックスレイヤー",
+    "category": "耳かき音声 / ASMR",
+    "engine": "2000",
+    "streaming": "不可",
+    "authorComment": "VIPRPG祭り初参加です どうぞよろしくお願いいたします<br><br>RPGツクール2000で 耳かき音声作品 所謂ASMRをやってみました<br>作品を楽しむ為にイヤホン、もしくはヘッドホンのご用意をお願いします<br>ノートＰＣでの寝っ転がりながらのプレイを推奨します<br><br>Y●UTUBEで耳かき音声を聞いていたら いきなり大音量の広告が流れてきて不快な思いをした<br>nic●nicoだと長時間 聞きたい場合、一度終わった後にリピートさせるのがめんどくさい<br><br>だったらRPGツクールでやれば ずっと聞いていられるんじゃね？<br>と思い、作ってみました<br><br>本作品では 気持ちいい耳かき音声と心安らぐMIDI楽曲の数々<br>そして、あなたを癒してくれる とびきりあざとい りばりちゃんをご用意いたしました<br><br>付属のreadmeをよく読んでから お楽しみください<br>お借りした素材やMMDモデルデータのクレジットも作品ZIP内のテキストファイルにて<br><br>※ＭＭＤモデルデータの配布はありません　ご了承ください。<br><br>8/11 誤字修正 　13時以後に本体をＤＬした方はそのままで大丈夫です<br>それ以前にＤＬした方は多目的ローダーからRPG_RT.ldbをダウンロードして上書きして下さい<br>",
+    "ss": [
+      "/screenshots/2019-summer/09-01.png",
+      "/screenshots/2019-summer/09-02.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=9",
+    "icon": "/icons/2019-summer/9.png"
+  },
+  {
+    "id": "2019-summer-10",
+    "festivalId": "2019-summer",
+    "no": "10",
+    "title": "ある日常 ～アーケン＆リナックス編～",
+    "author": "雨水梨",
+    "category": "短編RPG",
+    "engine": "VXA",
+    "streaming": "可",
+    "authorComment": "近衛兵として雇われたものの、平和過ぎて役職としての活躍の機会にイマイチ恵まれないアーケン。<br>同じく近衛兵として活動しているドナ子に相談を持ち掛け、その様子を見ていたメビウスからオススメの場所として「冒険者の憩いの場」を紹介される。<br>同じくそこを訪れていたリナックス曰く、そこではクエストや依頼の発注も承っているという。<br>彼女がどのようにクエストや依頼をこなすのか興味を持ったアーケンはリナックスに同行させてもらうことに……<br><br>前回(2019GW祭)で収録した『ある日常 ～リナックス編～』の続編的位置づけのお話。<br>スクリプト素材色々試したい欲が出てしまったので結局いつものサイドビューになりました。<br>アーケンとリナックスがクエスト達成を目指してダンジョンに挑みます。<br><br>更新履歴＆制作状況<br>07/20：登録<br>07/29：ツクールを2000からVXAceに変更、SS差し替え<br>08/01：1つ目のダンジョン完成、SS差し替え<br>08/07：2つ目のダンジョン完成、SS差し替え<br>08/13：ラスボス戦まで完成、残りの見るゲ部分制作中、SS差し替え<br>08/25：作品公開、SS差し替え<br>08/27：ミス修正、時系列のtxtを追加しました",
+    "ss": [
+      "/screenshots/2019-summer/10-01.png",
+      "/screenshots/2019-summer/10-02.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=10",
+    "icon": "/icons/2019-summer/10.png"
+  },
+  {
+    "id": "2019-summer-11",
+    "festivalId": "2019-summer",
+    "no": "11",
+    "title": "History Of Water Ⅳ",
+    "author": "高揚の風",
+    "category": "読むゲ＋おまけ",
+    "engine": "2000",
+    "streaming": "可",
+    "authorComment": "GW祭で登場したウォーターⅣの魔法具現化こと水代さんの過去話を題材とした作品。<br>水代さんの誕生経緯、小さい姿のままな理由など、はい設モリモリでお送りします。<br><br><br><br><br>今回もおまけ部屋がありますが、前回のようにksg集がついているわけではありません。<br><br><br>制作状況次第で、もしかしたら別作品に置き換わる可能性もございます。予めご了承ください。<br><br><br>SSについては、タイトル規格そのままのサイズで適当に描いたものなので画質が荒いです。気にしないでください<br><br><br><br>8/23 顔グラ制作に時間かけ過ぎた！！！！リアル時間が忙しいので仕方ない（言い訳屑人間）<br>制作急ぐね！間に合わなかったらスレにでも投げます！！何卒今しばらくお待ちを！！！！<br><br>8/30 完成しました。おまたせしました。本編プレイ時間は約５～１０分ほどです。クソ短いし、内容も薄っぺらですがご了承ください。",
+    "ss": [
+      "/screenshots/2019-summer/11-01.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=11",
+    "icon": "/icons/2019-summer/11.png"
+  },
+  {
+    "id": "2019-summer-12",
+    "festivalId": "2019-summer",
+    "no": "12",
+    "title": "とある玉露の性事情",
+    "author": "徳明",
+    "category": "erg",
+    "engine": "2003S",
+    "streaming": "不可",
+    "authorComment": "超短編ergです　SSの中には作る気が無いシーンがあります<br>このergには以下の物が含まれます<br><br>・当たり前のようにフタナリ<br>・おまたの毛<br>・膣内断面図<br>・ポークビッツ<br><br>illustration：ないとー様",
+    "ss": [
+      "/screenshots/2019-summer/12-01.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=12",
+    "icon": "/icons/2019-summer/12.png"
+  },
+  {
+    "id": "2019-summer-13",
+    "festivalId": "2019-summer",
+    "no": "13",
+    "title": "もしも「もしも勇者が最強だったら」がファミコンに移植されたら",
+    "author": "HOT-W",
+    "category": "ksg",
+    "engine": "2003S",
+    "streaming": "可",
+    "authorComment": "あの話題作、「もしも勇者が最強だったら」がついにファミコンに登場！<br>立ちはだかる強敵たちをぶっ飛ばし、魔王に奪われた王様のポテトを取り戻せ！<br><br><br><br>...みたいなのがあったらいいなぁーって。そんな作品。<br><br>もしかするとChromeで弾かれるかも。<br>プレイするには 海外版2003のRTPが必要です。<br>http://www.rpgmakerweb.com/download/additional/run-time-packages<br><br>8/9:提出<br>8/10:rtpがなくても遊べるようになりませんでした(気のせいでした)、readmeに魔王魂を記載<br>8/12:バージョン1.1にアップ。作者が何を血迷ったかオリジナルのもしも勇者が最強だったらをサルベージしてしまう、しかも細かい仕様が違ったのでそっちにあわせた。もしもコレクション版はそのまま残しました(起動時にランダムでどちらかになります)。それに合わせreadme更新、readmeで書き忘れたけどタイトル画面で左右キー押すと画面が変わるよ",
+    "ss": [
+      "/screenshots/2019-summer/13-01.png",
+      "/screenshots/2019-summer/13-02.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=13",
+    "icon": "/icons/2019-summer/13.png"
+  },
+  {
+    "id": "2019-summer-14",
+    "festivalId": "2019-summer",
+    "no": "14",
+    "title": "闇駆ける星",
+    "author": "雷塵",
+    "category": "なんかめっちゃ名前負けしてるノベルerg",
+    "engine": "2000",
+    "streaming": "不可",
+    "authorComment": "男の子のやみっちと女の子のライチがえっちして赤ちゃん作って産むノベル形式erg（ほぼエロシーンのみ）<br>ライチとやみっちの視点でそれぞれ楽しめます<br>言うまでもなく未成年はpiaiしちゃいけません<br><br>他のergよりは低クオリティの上、妊娠中のえっちや出産シーンがあるので万人受けするかは分かりませんが興味があったら是非どうぞ",
+    "ss": [
+      "/screenshots/2019-summer/14-01.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=14",
+    "icon": "/icons/2019-summer/14.png"
+  },
+  {
+    "id": "2019-summer-15",
+    "festivalId": "2019-summer",
+    "no": "15",
+    "title": "夏の短編集2019Edition",
+    "author": "牧場の牛肉",
+    "category": "見るゲ集",
+    "engine": "2000",
+    "streaming": "自己責任で",
+    "authorComment": "何故かキャロルが増えたり、りばり型のロボットが作られたり、<br>作者の特に好きなキャラだけで魔王把握したり、<br>久々にレオックスと魔王が手合せする事になったり、<br><br>などなど色々な短編集",
+    "ss": [
+      "/screenshots/2019-summer/15-01.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=15",
+    "icon": "/icons/2019-summer/15.png"
+  },
+  {
+    "id": "2019-summer-16",
+    "festivalId": "2019-summer",
+    "no": "16",
+    "title": "にぼしくんが可愛すぎてつらい",
+    "author": "杏仁豆腐",
+    "category": "ksg",
+    "engine": "2000",
+    "streaming": "不可",
+    "authorComment": "スターライトIIが可愛すぎてつらい<br><br>のでツクールやめたけどまたtkろうと、おもいました。これからは、スターライトIIのためだけにツクールをたまにやろうとおもいまし　た<br><br>にぼたんの為に素材自作できるようにならなきゃ、いいや、なろう。<br>と言う訳でこれ投下したら旅に出ます",
+    "ss": [
+      "/screenshots/2019-summer/16-01.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=16",
+    "icon": "/icons/2019-summer/16.png"
+  },
+  {
+    "id": "2019-summer-17",
+    "festivalId": "2019-summer",
+    "no": "17",
+    "title": "探索ライチ",
+    "author": "Konzept",
+    "category": "ksg",
+    "engine": "2000",
+    "streaming": "恥ずかしいけどOK",
+    "authorComment": "祭り初参加です。<br>ちょっと頭がゆるゆるなスターライトⅠと表情筋が死んでいるムーンライトⅠがいちゃつきながら洞窟を探索するksgです。<br><br>不穏な要素はありません。<br><br>更新履歴(詳細は同梱txt参照)<br>8/17　ver1.00公開<br>8/18　ver1.01更新<br>8/19　ver1.02更新",
+    "ss": [
+      "/screenshots/2019-summer/17-01.png",
+      "/screenshots/2019-summer/17-02.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=17",
+    "icon": "/icons/2019-summer/17.png"
+  },
+  {
+    "id": "2019-summer-18",
+    "festivalId": "2019-summer",
+    "no": "18",
+    "title": "おしり",
+    "author": "ひつじ",
+    "category": "クソゲ",
+    "engine": "2000",
+    "streaming": "可",
+    "authorComment": "おしりだよ",
+    "ss": [
+      "/screenshots/2019-summer/18-01.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=18",
+    "icon": "/icons/2019-summer/18.png"
+  },
+  {
+    "id": "2019-summer-19",
+    "festivalId": "2019-summer",
+    "no": "19",
+    "title": "やみ散歩。",
+    "author": "KK",
+    "category": "散歩するｋｓｇ",
+    "engine": "2000",
+    "streaming": "自己責任。",
+    "authorComment": "祭り初参加です。<br><br>喋らないダークネスⅠが街を散歩する、そんなｋｓｇです。<br>街のどこかにいるスターライトⅠ、ウォーターⅠ、ウィンドⅠを見つけて話しかけると、一緒に歩くこともできたり。<br>（※連れ歩けるのは１人）<br>好感度によって、話しかけたときの反応が変わるかもしれない・・・。<br>終わりはありませんヨ。<br><br>8/20　【Ver.1.1】に更新。<br>・処理落ち対策として、好感度関連と実績の判定タイミングを変更しました。<br>・武器・防具のお店、薬局でのキャラクターの反応を追加しました。<br>・イベント後も白ウィンディと黒ウィンディがたまに現れるようになりました。<br><br>8/18　【Ver.1.02】に更新。<br>・実績No.10の取得判定を修正しました。<br><br>8/16　【Ver.1.01】に更新。<br>・いろいろバージョンアップしてから再提出しました。<br><br>8/16　【Ver.1.00】公開しました。<br><br>【追記】<br>お使いのPCによっては付属のexeファイルでは起動できなかったり、<br>処理落ち等発生すると報告を頂いています。",
+    "ss": [
+      "/screenshots/2019-summer/19-01.png",
+      "/screenshots/2019-summer/19-02.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=19",
+    "icon": "/icons/2019-summer/19.png"
+  },
+  {
+    "id": "2019-summer-20",
+    "festivalId": "2019-summer",
+    "no": "20",
+    "title": "You are gone",
+    "author": "みどり",
+    "category": "読むゲ",
+    "engine": "2000",
+    "streaming": "可",
+    "authorComment": "リナックスが主役の短編読むゲです。",
+    "ss": [
+      "/screenshots/2019-summer/20-01.png",
+      "/screenshots/2019-summer/20-02.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=20",
+    "icon": "/icons/2019-summer/20.png"
+  },
+  {
+    "id": "2019-summer-21",
+    "festivalId": "2019-summer",
+    "no": "21",
+    "title": "VTuberバトルロワイアル",
+    "author": "おりおん",
+    "category": "読むゲ",
+    "engine": "2000",
+    "streaming": "可",
+    "authorComment": "紅白の続きです。<br>今回は第二回定期放送までです。<br>完成までが遠すぎる。",
+    "ss": [
+      "/screenshots/2019-summer/21-01.png",
+      "/screenshots/2019-summer/21-02.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=21",
+    "icon": "/icons/2019-summer/21.png"
+  },
+  {
+    "id": "2019-summer-22",
+    "festivalId": "2019-summer",
+    "no": "22",
+    "title": "生きるに値しない子供部屋ドラゴン問題の最終解決について",
+    "author": "カール・ビンディンク",
+    "category": "社会派クソゲーーーー－",
+    "engine": "2003S",
+    "streaming": "可",
+    "authorComment": "勇者と魔王、騎士と竜が互いの誇りをかけて戦ったのも今は昔。<br>市民革命の果てに現れた「人民の皇帝」と、彼の「帝国」さえも遂には過ぎ去り、後には「主権者たる国民」と「共和国」だけが残された。<br>絶対者なき政治の舵取りは行き詰まり、閉塞感だけが吹き溜まる。<br>そんなある日、精神病を患った中年ドラゴンによる大量殺人事件が起こり、他者への恐怖と異種族間での不信が社会に渦巻いた。<br>そして混乱とどよめきの中から、一人の人間が現れ、人々へ、あるひとつの提案をした。<br>曰く「社会混乱の原因たる生産性なき者たちを、合理的な審査基準と適切な法手続きに基づいて処分すべきではないか」と。<br><br>たぶん間に合いません",
+    "ss": [
+      "/screenshots/2019-summer/22-01.png",
+      "/screenshots/2019-summer/22-02.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=22",
+    "icon": "/icons/2019-summer/22.png"
+  },
+  {
+    "id": "2019-summer-23",
+    "festivalId": "2019-summer",
+    "no": "23",
+    "title": "疲れ切ったあなたがゲームをプレイし始めるまで",
+    "author": "桑島",
+    "category": "脱出ゲーム",
+    "engine": "2003S",
+    "streaming": "可",
+    "authorComment": "せっかく買ったゲームなのになかなか手が付けられない……心当たりはありませんか？<br>昔は買ったゲーム、もしくは落としたゲームはすぐに始めていたのに、今ではゲームを起動することすら億劫になってしまった。<br>加齢で情熱が消えてしまったのか、ゲームをプレイするよりも大事なことができてしまったのか。<br>理由は人それぞれですが――いずれにせよ、ゲームが一番大切だったあの頃の自分はいなくなってしまった。ただゲームを立ち上げて、ニューゲームを押す。たったそれだけのことが簡単にはできなくなってしまった。<br>そんな自分は、本当にゲームが好きなのだろうか？<br><br>そういった思いを形にした脱出ゲームです。",
+    "ss": [
+      "/screenshots/2019-summer/23-01.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=23",
+    "icon": "/icons/2019-summer/23.png"
+  },
+  {
+    "id": "2019-summer-24",
+    "festivalId": "2019-summer",
+    "no": "24",
+    "title": "To Be Continued…",
+    "author": "ゴメス工場",
+    "category": "To Be Continued…",
+    "engine": "2003S",
+    "streaming": "自己責任",
+    "authorComment": "To Be Continued…",
+    "ss": [
+      "/screenshots/2019-summer/24-01.png",
+      "/screenshots/2019-summer/24-02.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=24",
+    "icon": "/icons/2019-summer/24.png"
+  },
+  {
+    "id": "2019-summer-25",
+    "festivalId": "2019-summer",
+    "no": "25",
+    "title": "アナザー魔法具現化バスターズVol.1",
+    "author": "イカスミ",
+    "category": "デフォ戦付きの魔法具現化をめぐる戦いを見るゲ",
+    "engine": "2000",
+    "streaming": "自己責任でお願いします。",
+    "authorComment": "あらすじ<br>ここはポテチ王国、魔物や人間、アンデッドが平和に暮らす王国である。<br>この世界は魔法具現化と呼ばれる魔力が人や動物の姿をした生物が存在しており、人々と共生していた。<br>魔法学園の寮生である少女、アシュリーはそんな魔法具現化とたくさん友達になることを夢見ていた。<br>しかしそれを快く思わない者もいた。<br>同じく寮生である少女テヌキは魔法具現化は支配すべき道具という持論を持っていた。<br>相反する考えを持つアシュリーとの口論に敗れた彼女はその復讐心から2体の怪物を産み出した。<br>それは魔法具現化の力を歪ませた存在「アナザー魔法具現化」であった…。<br><br>内容<br>わてり編とアイスワン編の２話+プロローグ<br>&amp;オマケとして「ランダムマジックの活用法」を収録！<br><br>初めての祭り参加ですごく緊張しております…。<br>敷居の高いストーリー系みるゲーとは思いますが、もしよろしければ応援よろしくお願いします！<br><br>追記：ランマイの素材については後日ツクスレにてksgと共に公開します。",
+    "ss": [
+      "/screenshots/2019-summer/25-01.png",
+      "/screenshots/2019-summer/25-02.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=25",
+    "icon": "/icons/2019-summer/25.png"
+  },
+  {
+    "id": "2019-summer-26",
+    "festivalId": "2019-summer",
+    "no": "26",
+    "title": "Elements -FG Side Stories 2019-",
+    "author": "カナエール教永遠宗信徒",
+    "category": "見るゲ",
+    "engine": "2000",
+    "streaming": "自己責任で",
+    "authorComment": "※画面は開発中のものです。<br>何をどうトチ狂ったかデフォ戦つきの2本収録予定です。<br>全然立場の違う2人組をそれぞれ趣味全開で描きます。<br>これ書いてる時点で全体進捗約40%。<br><br>『Spell Trance』<br>魔法具現化として著しくローパフォーマンスなサンダーⅢと、<br>周囲に比して能力が貧弱なためハブられるフィオナ。<br>2人が出会うとき、奇跡が起こるのか、逆転劇が始まるのか、<br>それとも――？<br><br>『Primal Origin』<br>魔界で都市がいくつも消滅したあの惨劇からさらに昔、<br>魔王がまだギリギリ魔界にいたころのおはなし。<br>のちに全方面から恐れられるアクオスの影には、<br>その彼女ですら恐れる１人の部下の存在があった。<br>魔界最強の&quot;女帝アクオス&quot;誕生と、<br>2000魔王の魔界での壮絶な撤退戦を描く。<br>※某TCGとは関係無いからね！！<br><br>……できるんかいねカナエール様。<br>つーかSS面白そうにｔｋるのムズくね？",
+    "ss": [
+      "/screenshots/2019-summer/26-01.png",
+      "/screenshots/2019-summer/26-02.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=26",
+    "icon": "/icons/2019-summer/26.png"
+  },
+  {
+    "id": "2019-summer-27",
+    "festivalId": "2019-summer",
+    "no": "27",
+    "title": "魔法具現化と性指向について",
+    "author": "秋草",
+    "category": "見るゲ",
+    "engine": "2000",
+    "streaming": "可",
+    "authorComment": "人間と魔法具現化が性交渉を行った場合に、どのような影響が発生するのか。<br>もしもの設定を元に考えて作ったサモン×アイスⅢの見るゲです。<br>細かいあらすじは後で追加します。<br><br>※はい設注意<br>※R-15相当の表現を含みます",
+    "ss": [
+      "/screenshots/2019-summer/27-01.png",
+      "/screenshots/2019-summer/27-02.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=27",
+    "icon": "/icons/2019-summer/27.png"
+  },
+  {
+    "id": "2019-summer-28",
+    "festivalId": "2019-summer",
+    "no": "28",
+    "title": "メタ探偵アイスさん",
+    "author": "エドガーワ・アランボー",
+    "category": "ミステリー",
+    "engine": "2000",
+    "streaming": "可",
+    "authorComment": "推理して犯人を当てるミステリーゲームです",
+    "ss": [
+      "/screenshots/2019-summer/28-01.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=28",
+    "icon": "/icons/2019-summer/28.png"
+  },
+  {
+    "id": "2019-summer-29",
+    "festivalId": "2019-summer",
+    "no": "29",
+    "title": "ろーぷれつくろ～コレクション",
+    "author": "ろーぷれつくろ～",
+    "category": "自作品コレクション",
+    "engine": "2000",
+    "streaming": "自己責任でお願いします",
+    "authorComment": "作者がこれまで公開してきた作品をまとめた<br>自作品コレクションがついに登場！<br>初作品の【人外だらけのボス把握】をはじめ、全部で２４作品を収録！<br>そして新規作３作品＋αも収録！<br>さらに各既存作品にも変更点が多くあるので、<br>すでにスレ投下版などをプレイした人も楽しめるかも！？<br><br>※注意<br>１：全ての自作品が収録されているわけではありません。<br>　　収録されていない作品はごく一部を除き説明のみとなります。<br>２：作品によってはオリジナルの物よりも物語の展開などが<br>　　大きく変わっている可能性もあるのでご了承ください。<br><br>・8/24　Ver1.1に更新。",
+    "ss": [
+      "/screenshots/2019-summer/29-01.png",
+      "/screenshots/2019-summer/29-02.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=29",
+    "icon": "/icons/2019-summer/29.png"
+  },
+  {
+    "id": "2019-summer-30",
+    "festivalId": "2019-summer",
+    "no": "30",
+    "title": "魔物娘大好き丸～アレックス受難の戦い～",
+    "author": "えんりゅう",
+    "category": "RPG",
+    "engine": "2000",
+    "streaming": "自己責任",
+    "authorComment": "コンセプトは一対多<br>敵の卑怯で苛烈な攻撃を目押しで避けろ<br>エッチな女の子モンスターとどんちゃん騒ぎしよう<br>※エッチな描写はないです<br>※普通の人間と戦うことも多いです<br><br>昔作ってたゲームを久々に起動したら割と遊べたので去年ぐらいから作り出したゲーム。<br>8割くらい完成して後は終盤のお話を作るだけなので多分間に合うはず。間に合ってくれ。<br>",
+    "ss": [
+      "/screenshots/2019-summer/30-01.png",
+      "/screenshots/2019-summer/30-02.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=30",
+    "icon": "/icons/2019-summer/30.png"
+  },
+  {
+    "id": "2019-summer-31",
+    "festivalId": "2019-summer",
+    "no": "31",
+    "title": "baka30",
+    "author": "ぬ",
+    "category": "デフォ戦",
+    "engine": "2000",
+    "streaming": "同梱txt参照",
+    "authorComment": "これにて完結！<br><br>紅白2018No.35　baka korekutionをプレイしておくと、<br>より一層楽しめます。",
+    "ss": [
+      "/screenshots/2019-summer/31-01.png",
+      "/screenshots/2019-summer/31-02.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=31",
+    "icon": "/icons/2019-summer/31.png"
+  },
+  {
+    "id": "2019-summer-32",
+    "festivalId": "2019-summer",
+    "no": "32",
+    "title": "ダストワールド(仮)",
+    "author": "まぼ",
+    "category": "あどべんちゃRPG",
+    "engine": "2000",
+    "streaming": "じこせきにん",
+    "authorComment": "2019 7/31 0:00 作成かいし",
+    "ss": [
+      "/screenshots/2019-summer/32-01.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=32",
+    "icon": "/icons/2019-summer/32.png"
+  },
+  {
+    "id": "2019-summer-33",
+    "festivalId": "2019-summer",
+    "no": "33",
+    "title": "ゆりっこ☆もんすたぁ",
+    "author": "名無しについて",
+    "category": "ニッチ過ぎるエロゲ",
+    "engine": "2000",
+    "streaming": "wiki入りするかな？／出来る訳ないやん",
+    "authorComment": "あのエターなったエロゲがついに光臨！！<br><br>それにしても今回の夏の陣エロゲ多すぎね？<br><br>―――――――――――――――――――――――――――<br>少々修正＆おまけ追加しました<br>",
+    "ss": [
+      "/screenshots/2019-summer/33-01.png",
+      "/screenshots/2019-summer/33-02.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=33",
+    "icon": "/icons/2019-summer/33.png"
+  },
+  {
+    "id": "2019-summer-34",
+    "festivalId": "2019-summer",
+    "no": "34",
+    "title": "時の木漏れ日",
+    "author": "藻太郎",
+    "category": "短編集決定版",
+    "engine": "2000",
+    "streaming": "不可",
+    "authorComment": "【収録内容】<br>◆2005-2011<br>『正義の使者DOKUO』『呪いのひきこもり』『夢も希望もないRPG』『外、視線』<br><br>◆2013-2014<br>『ゾンビ』『ウィンディ栽培』『ゴメスの代理人』『地球最後の日』『世界のしみ』『ウィンディの秘孔を突け！』『やみっちの子』『おぱんつ１（レナックスとのんびりウィンディ）』『魔王の血』『三者面談』『ゴメスの災難』『おぱんつ２（レナックスと強気なウィンディ）』『おぱんつ３（リナックスとネガティブむーちゃん）』『おぱんつ４（世界の合言葉はおぱんつ）』『おぱんつ５（世紀末おぱんつ伝説）』『MIDIレビュー』『アレックスの肛門が首狩り族』『寒空に散る』『死を得ること』『時を超える精子』『スキゾフレニア・ライチ』『ノックアウトの拳』『アリシアのパンセ』『座談』『きちがい部屋』『それでもお前は』『ハンパーのtktk日記』『ﾄﾞｸｵの賭け』『ﾄﾞｸｵ、脱童貞』『男たちの晩酌』『遊びに来たよ』『お人形遊び』『孤独の血』『ウィンディア滅亡』『カオルのあやまち』『ゾーエー』『今度も必ず勝つ』『ブライアンの問い』『天地創造』『夏風夏土』『人財障害者』『使い捨てウィンディ』『ウィンディの産卵』『自作品自省録2013－2014』<br><br>◆2015-2017<br>『ゴメスからウィンディが産まれる！？』『風捨て山』『白ウィンディ』『死にくらべ』『四季折々』『きのこ狩り』『ゴメスのふくろ』『反ウィンディ』『喪界』『ウィンディの修行』『ゴメス九十六歳』『ゴメスの万物掘性器』『金のなるウィンディ』『ウィンディの生きがい』『性の嘆き』『ゴメスの括約筋が活躍する』『ウィンディ打ち上げ』『人生ブラック』『ﾄﾞｸｵ脱童貞計画』『カオル死去』『初期衝動以後１』『初期衝動以後２』『初期衝動以後３』『初期衝動以後４』『初期衝動以後５』『死体花』『自作品自省録2015－2017』<br><br>◆2018-2019<br>『ウィンディセラピー』『Ｇ』『ミンチ』『ウィンディの災難』『たくましいケツ族』『ゴメスＶＳクレアおばさん』『もしも地震だったら』『もしも鉛筆画だったら』『ところで』『だるま落とし』『もしも元号だったら』『ウィンディの肛門も閉鎖されそうです』『白まんじゅうの化身』『自作品自省録2018－2019』",
+    "ss": [
+      "/screenshots/2019-summer/34-01.png",
+      "/screenshots/2019-summer/34-02.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=34",
+    "icon": "/icons/2019-summer/34.png"
+  },
+  {
+    "id": "2019-summer-35",
+    "festivalId": "2019-summer",
+    "no": "35",
+    "title": "もしも世界一難しかったら",
+    "author": "Rossignol",
+    "category": "避けゲー",
+    "engine": "2003S",
+    "streaming": "可",
+    "authorComment": "うおおおおおお！！！！<br>今回は世界一難しいゲームパロだけど作者が下手なせいで<br>「世界一ヌルい世界一難しいゲーム」<br>になりつつある！！！仕方ないね<br>夏の陣は初めてなので初投稿です<br><br><br>新ステージも募集してます<br>ネタがないので超募集してます<br>vipag5jm@m.add.ac←こちらに送ったり掲示板に書き込んだりしよう！<br><br><br>「system C が開けません」と表示されるバグがあるそうですが対処法が分かりません<br>RTPの適切なファイルをぶち込んだりしてみたりあきらめたりしてください<br><br><br>更新情報<br>[1.1]<br>12面クリアした後に左上のスイッチを入れると12面クリアのフラグが叩き折られるバグ修正<br>V201に12を代入すればフラグが立ちます<br><br>[1.2]<br>死亡回数をカウントするようにしました<br>ステージを途中で中止してメニューに戻れるようにしました<br><br>[1.3]<br>ステージを中断したときのバグを修正しました<br>固定青玉に触れたときに死亡回数がカウントされないバグを修正しました",
+    "ss": [
+      "/screenshots/2019-summer/35-01.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=35",
+    "icon": "/icons/2019-summer/35.png"
+  },
+  {
+    "id": "2019-summer-36",
+    "festivalId": "2019-summer",
+    "no": "36",
+    "title": "LEIWA ALIVE",
+    "author": "おぼろ",
+    "category": "改元＆スライディング金玉ゴルフ",
+    "engine": "MV",
+    "streaming": "不可",
+    "authorComment": "GWにやりたかったネタなんですが夏になってしまいました<br><br>■更新情報■<br>v1.2<br>動作の高速化＆安定化（たぶん）<br>色々微修正<br><br>v1.1<br>画面の拡大縮小をなんちゃって2k風に変更",
+    "ss": [
+      "/screenshots/2019-summer/36-01.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=36",
+    "icon": "/icons/2019-summer/36.png"
+  },
+  {
+    "id": "2019-summer-37",
+    "festivalId": "2019-summer",
+    "no": "37",
+    "title": "傘にさせてくれ",
+    "author": "melibe",
+    "category": "中~長編ノベルゲ",
+    "engine": "2000",
+    "streaming": "自己責任",
+    "authorComment": "あらすじ：死者を成仏させる仕事を持つ死神五世。ある日五世の前に、成仏できない魂が現れる。魔王の司令で、魂が生きていた日までの五日間、五世と魂は現世にタイムスリップすることになるが……。<br><br>もっと簡単なあらすじ：ポイズンがミストラルと絡んだりウォーターⅡにどやされたりウィンドⅠと距離感をはかったりするゲームです。<br><br>GW以来の2作目で、2000では初めて作ります。いつまで経っても作業が進まないのでエントリーして自分のケツを叩く事にしました。<br><br>進捗状況<br>08/03 シナリオ30%程度<br>08/05 背景画像選定<br>08/06 シナリオ40~50%(24000字)<br>08/07 シナリオ50% 背景画像選定2<br>08/08 シナリオ60% ツクールへの落とし込み SS二枚更新<br>08/10 シナリオ70% 落とし込み<br>08/11 シナリオ完成 落とし込みほぼ終わり<br>08/12 落とし込み終了 細部調整 BGM選定<br>08/13 細部調整 BGM選定2 SE選定<br>08/14 細部調整 BGM選定3 仕上げ<br>08/15 細部調整 仕上げ2 恐らく明日提出<br>08/16 細部調整 通し 0時過ぎ提出<br>08/17 SS修正 コメント修正",
+    "ss": [
+      "/screenshots/2019-summer/37-01.png",
+      "/screenshots/2019-summer/37-02.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=37",
+    "icon": "/icons/2019-summer/37.png"
+  },
+  {
+    "id": "2019-summer-38",
+    "festivalId": "2019-summer",
+    "no": "38",
+    "title": "自作戦闘作ってみた！",
+    "author": "アップル",
+    "category": "やるゲ",
+    "engine": "2000",
+    "streaming": "可",
+    "authorComment": "自作戦闘を作ってみました。<br>なんか割と独特になっちゃった気がしますが<br>是非やってみてくだちい！<br><br>間に合うよう頑張ります！！！！！！！<br><br>8.11追記<br>現在まだ製作中です。申し訳ありませんがあと数日でできる見通しです。<br>SSのファルコンとエンリュウの位置間違えてた･･････<br><br>8.14追記<br>遅れましたが、完成しました。シナリオはやけくそになりました。<br>ゲームを作るのもアップするのも初めてなので、ご迷惑おかけするかもですが、<br>よろしければPIAIしてくだしい！！<br><br>8.16追記<br>バグ修正パッチを作成、攻略メモ（excel）を作成しました。",
+    "ss": [
+      "/screenshots/2019-summer/38-01.png",
+      "/screenshots/2019-summer/38-02.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=38",
+    "icon": "/icons/2019-summer/38.png"
+  },
+  {
+    "id": "2019-summer-39",
+    "festivalId": "2019-summer",
+    "no": "39",
+    "title": "ザック養鶏場",
+    "author": "のろし",
+    "category": "死にゲー",
+    "engine": "2003S",
+    "streaming": "可",
+    "authorComment": "ザックがニワトリを育てないゲーム<br><br>08/31　たぶん動くと思うから公開",
+    "ss": [
+      "/screenshots/2019-summer/39-01.png",
+      "/screenshots/2019-summer/39-02.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=39",
+    "icon": "/icons/2019-summer/39.png"
+  },
+  {
+    "id": "2019-summer-40",
+    "festivalId": "2019-summer",
+    "no": "40",
+    "title": "常闇を翔る一筋の閃光",
+    "author": "◆DFEG.5k3XY",
+    "category": "閃光シューティング擬",
+    "engine": "2003S",
+    "streaming": "可",
+    "authorComment": "閃光の魔(法少)女ソフィアさんが<br>友人を助けるために常闇の神殿に殴り込む<br>マウス操作のお手軽シューティング擬ゲー<br><br>[アドバイス]<br>困ったら照準光(右クリック)を活用しよう<br>そして自分の立ち位置に気を配ろう<br><br>[追記]<br>08/10<br>accord.dllは古いままだったので更新しました",
+    "ss": [
+      "/screenshots/2019-summer/40-01.png",
+      "/screenshots/2019-summer/40-02.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=40",
+    "icon": "/icons/2019-summer/40.png"
+  },
+  {
+    "id": "2019-summer-41",
+    "festivalId": "2019-summer",
+    "no": "41",
+    "title": "わー!!ＴＥＲＩ",
+    "author": "kanetare",
+    "category": "クソゲー",
+    "engine": "2000",
+    "streaming": "不可",
+    "authorComment": "マルチバッドエンド方式の短～中編読むゲです。<br>内容は、情緒不安定ですぐキレる社内ニートのわてり（２９歳独身）が、<br>クソイキリ新入社員のウィンディに煽られながら、究極の魔法を作るべく奔走する話です。<br><br>昔遊んだ、某有名グルメ漫画を題材とした某バカゲーを題材にtkりました。<br>内容的には色々と違っている・・・と思います。<br>基本的にキャラの暴言が多かったり、軽いノリでキャラが死んだりするので、苦手な方はＰＩＡＩ非推奨です。<br><br>クリア後にもボリュームはささやかですが、<br>毛色の変わった追加シナリオを設けています。",
+    "ss": [
+      "/screenshots/2019-summer/41-01.png",
+      "/screenshots/2019-summer/41-02.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=41",
+    "icon": "/icons/2019-summer/41.png"
+  },
+  {
+    "id": "2019-summer-42",
+    "festivalId": "2019-summer",
+    "no": "42",
+    "title": "乳首ファンタジー2 悪霊の神々",
+    "author": "太宰府飛行物体",
+    "category": "世界名作乳首劇場シリーズ",
+    "engine": "2000",
+    "streaming": "可",
+    "authorComment": "全世界待望の続編です<br><br><br>───────────────────────────────────<br>評論家コメント:<br>待望でした<br><br>",
+    "ss": [
+      "/screenshots/2019-summer/42-01.png",
+      "/screenshots/2019-summer/42-02.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=42",
+    "icon": "/icons/2019-summer/42.png"
+  },
+  {
+    "id": "2019-summer-43",
+    "festivalId": "2019-summer",
+    "no": "43",
+    "title": "あなたの知らない世界りたーんず",
+    "author": "みのマンタイン",
+    "category": "ホラー",
+    "engine": "2000",
+    "streaming": "可",
+    "authorComment": "あの伝説のホラー番組が帰ってきたのだ！<br><br>平成キッズは知らないだろうけどかつて夏休みには<br>みの〇んた司会の番組のお昼のワイドショー特別企画で放映された伝説のホラー番組があったのだ。<br>毎日見ようとは思うんだけど遊びに出かけたりしてて見逃してみんな後悔したものなのだ。<br>それを今回はおなじみの魔法具現体で見やすく「身近に潜む恐るべき恐怖」をお伝えするのだ。<br>※本格的なホラーなので怖いもの苦手な人はPIAI非推奨なのだ<br>恐怖と向き合うだけが生き方じゃないのだ。<br>恐怖から目をそらして生きていくのもまた生き方なのだ。<br><br>構想45秒くらいなんでまだツクール開いてすらいないのだ<br>今ようつべ見てるのだ＾ｐ＾",
+    "ss": [
+      "/screenshots/2019-summer/43-01.png",
+      "/screenshots/2019-summer/43-02.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=43",
+    "icon": "/icons/2019-summer/43.png"
+  },
+  {
+    "id": "2019-summer-44",
+    "festivalId": "2019-summer",
+    "no": "44",
+    "title": "ラヴィニアと美月のラブラブデート",
+    "author": "",
+    "engine": "2000",
+    "streaming": "不可",
+    "authorComment": " ",
+    "ss": [
+      "/screenshots/2019-summer/44-01.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=44",
+    "icon": "/icons/2019-summer/44.png"
+  },
+  {
+    "id": "2019-summer-45",
+    "festivalId": "2019-summer",
+    "no": "45",
+    "title": "ドナ子と知恵の試練",
+    "author": "やべえ",
+    "category": "論理パズル",
+    "engine": "2000",
+    "streaming": "自己責任で",
+    "authorComment": "論理パズルです。問題数は少なめ。<br>セーブデータから再開すると、知恵の神からヒントが聞けるようになります。<br><br>更新履歴<br>8/22 [v1.04] リトライ機能追加<br>8/22 [v1.04] 知恵の神や樽との会話中、タイマーが止まるように変更<br>8/20 [v1.03] 第一の試練のヒントを少しだけ増量<br>8/18 [v1.02] 増量したヒントが作者部屋から見た時に表示されていなかったのを修正<br>8/16 [v1.01] 第一の試練のヒントを増量<br>8/16 [v1.01] 第三の試練のヒントを増量<br>8/16 [v1.00] 作品公開",
+    "ss": [
+      "/screenshots/2019-summer/45-01.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=45",
+    "icon": "/icons/2019-summer/45.png"
+  },
+  {
+    "id": "2019-summer-46",
+    "festivalId": "2019-summer",
+    "no": "46",
+    "title": "The snippet",
+    "author": "chest",
+    "category": "音MAD",
+    "engine": "2003S",
+    "streaming": "自己責任",
+    "authorComment": "ニコ動にあった動画で「RPGツクールを使った音MAD」というものを見て衝撃を受けたので作ってみました．<br>音程は全て再生速度で調節しています．音はRTP縛り．",
+    "ss": [
+      "/screenshots/2019-summer/46-01.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=46",
+    "icon": "/icons/2019-summer/46.png"
+  },
+  {
+    "id": "2019-summer-47",
+    "festivalId": "2019-summer",
+    "no": "47",
+    "title": "天空の谷の神隠し VXAce Edition",
+    "author": "宮永ウインディオ",
+    "category": "RPG",
+    "engine": "VXA",
+    "streaming": "いいよ",
+    "authorComment": "RPGツクールDS発売から、もう来年3月で10周年。<br>DS+でマシになったかと思いきや別の意味でひどくなり、<br>フェスで汚名返上を果たしたと思いきや操作性などのDSの長所が一部潰れていたり、<br>挙げ句の果てにはあの天魔猿○庁がポー○○○○ィンに吸収合併され、MV Trinityのデバッグを担当してDSより悲惨な事になったり…<br><br>そんなツクールDSはサンプルゲーが公式エターな事で有名だ。<br>今でこそ全く話題にされないし、検索しても情報が出てこないが、配信版のサンプルゲーはある程度しっかり作られていたらしい。<br>今回はそんな配信版サンプルゲーの一つを勝手にリメイク。<br>DSのもうひとりの勇者『ホレイショ』の旅の軌跡を、ぜひ皆様にもPIAIしていただけたら幸いです。<br><br>公式エターの方のリメイクはこちら→https://vipkohaku.x.fc2.com/2015/entry52.html",
+    "ss": [
+      "/screenshots/2019-summer/47-01.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=47",
+    "icon": "/icons/2019-summer/47.png"
+  },
+  {
+    "id": "2019-summer-48",
+    "festivalId": "2019-summer",
+    "no": "48",
+    "title": "三つくらいは同じ日の出来ごと",
+    "author": "三石",
+    "category": "見るゲ",
+    "engine": "2000",
+    "streaming": "可",
+    "authorComment": "特に作者名で呼ばれたことが一度もないので適当に改名します、元お姉さん大好きマンです<br><br>それはさておき去年から引き続きメインパソコン壊れたままなのでスマホからエントリーです<br>窓10買うの怖いですね、7のままでいたい<br><br>今回も短編集です<br>五つ程度ですのでお気軽に見ることができるかと<br>物語選択mapとキャラクターは安価で決めました",
+    "ss": [
+      "/screenshots/2019-summer/48-01.png",
+      "/screenshots/2019-summer/48-02.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=48",
+    "icon": "/icons/2019-summer/48.png"
+  },
+  {
+    "id": "2019-summer-49",
+    "festivalId": "2019-summer",
+    "no": "49",
+    "title": "世界一短い私への手紙",
+    "author": "ぎんがせんぷー ぎんがせんぷー",
+    "category": "見るゲ",
+    "engine": "2000",
+    "streaming": "不可",
+    "authorComment": "二年前の紅白に提出できなかったやつです<br>ダーキャロさんとスワンとダーたんがなんやかんやします<br>PIAI時間２０分前後です<br><br>※一部性的な表現があります。",
+    "ss": [
+      "/screenshots/2019-summer/49-01.png",
+      "/screenshots/2019-summer/49-02.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=49",
+    "icon": "/icons/2019-summer/49.png"
+  },
+  {
+    "id": "2019-summer-50",
+    "festivalId": "2019-summer",
+    "no": "50",
+    "title": "好きなＣＰで夏の短編",
+    "author": "（Ｒ）ＤＵ",
+    "category": "夏っぽい見るゲ",
+    "engine": "2000",
+    "streaming": "可",
+    "authorComment": "暑い夏の日が続く今日この頃ですが<br>短編見るゲを３本作りました。<br><br>さっと気軽にみられると思うので<br>是非プレイしてみてください。<br><br>",
+    "ss": [
+      "/screenshots/2019-summer/50-01.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=50",
+    "icon": "/icons/2019-summer/50.png"
+  },
+  {
+    "id": "2019-summer-51",
+    "festivalId": "2019-summer",
+    "no": "51",
+    "title": "呪文詠唱120連発、エモ魔法傑作選!!",
+    "author": "◆2aLlGIkY8s",
+    "category": "ｋｓｇ",
+    "engine": "2000",
+    "streaming": "エモ",
+    "authorComment": "いつもお世話になっております<br>提出を予定しておりましたｋｓｇ「ものすごい前に取った安価」（安価）ですが<br>作者窮状の為、代わりとして「ちょっと前に取った安価ｋｓｇ」を提出させていただきます<br>今後ともどうぞよろしくお願いいたします",
+    "ss": [
+      "/screenshots/2019-summer/51-01.png"
+    ],
+    "forum": "https://script.google.com/macros/s/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK/exec?game=51",
+    "icon": "/icons/2019-summer/51.png"
+  }
+]

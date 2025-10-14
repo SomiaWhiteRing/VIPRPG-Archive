@@ -139,25 +139,50 @@ function decodeHexEscapes(s: string) {
 function extractUserHtml(outerHtml: string): string | undefined {
   const m = outerHtml.match(/goog\.script\.init\(("|')([\s\S]*?)\1\)/);
   if (!m) return undefined;
-  const argHex = decodeHexEscapes(m[2]);
-  try {
-    // First, turn the Apps Script string literal into a single string
-    const dequoted = JSON.parse('"' + argHex.replace(/\\/g, "\\\\").replace(/"/g, '\\"') + '"');
-    // Then parse JSON and read userHtml
-    const obj = JSON.parse(dequoted);
-    const html = typeof obj?.userHtml === "string" ? (obj.userHtml as string) : undefined;
-    return html;
-  } catch {
-    return undefined;
+  const arg = decodeHexEscapes(m[2]!);
+  const key = '"userHtml":"';
+  const start = arg.indexOf(key);
+  if (start < 0) return undefined;
+  // Extract the JSON-encoded string value for userHtml without trying to parse entire object
+  let i = start + key.length;
+  let buf = "";
+  for (; i < arg.length; i++) {
+    const ch = arg[i]!;
+    if (ch === '"') {
+      let k = i - 1, bs = 0;
+      while (k >= 0 && arg[k] === '\\') { bs += 1; k -= 1; }
+      if (bs === 0) break; // end of JSON string literal
+    }
+    buf += ch;
   }
+  // Manually unescape common JSON string escapes to get raw HTML
+  let html = buf;
+  html = html.replace(/\\\"/g, '"');
+  html = html.replace(/\\\//g, '/');
+  html = html.replace(/\\n/g, '\n');
+  html = html.replace(/\\r/g, '');
+  html = html.replace(/\\t/g, '\t');
+  html = html.replace(/\\\\/g, '\\');
+  return html;
 }
 
 async function saveBanner() {
+  // Try via r.jina.ai; if it fails, fall back to previously saved index_rjina.html
   try {
     const site = "https://r.jina.ai/https://sites.google.com/view/viprpg2019summer/";
-    const html = await fetchUrl(site);
-    await ensureDir(CATCH_DIR);
-    await fs.writeFile(path.join(CATCH_DIR, "index_rjina.html"), html, "utf8");
+    let html: string | undefined;
+    try {
+      html = await fetchUrl(site);
+      await ensureDir(CATCH_DIR);
+      await fs.writeFile(path.join(CATCH_DIR, "index_rjina.html"), html, "utf8");
+    } catch (e) {
+      try {
+        html = await fs.readFile(path.join(CATCH_DIR, "index_rjina.html"), "utf8");
+      } catch {
+        throw e;
+      }
+    }
+    if (!html) return;
     const $ = cheerio.load(html);
     const src = $("img").first().attr("src");
     if (src && /^https?:\/\//.test(src)) {
@@ -220,49 +245,68 @@ async function copyScreenshots(index: string, sources: string[]): Promise<{ path
 }
 
 function parseDetailFromHtml(html: string, pageUrl: string) {
-  const $ = cheerio.load(html);
   const result: { no?: string; title?: string; author?: string; category?: string; engine?: string; streaming?: string; forumUrl?: string; downloadUrl?: string; authorComment?: string; hostComment?: string; icon?: string; screenshots: string[] } = { screenshots: [] };
-  // Title and no
-  let full = sanitizeWhitespace($("h2:contains('No.'), h3:contains('No.'), h1:contains('No.')").first().text()) || "";
-  if (!full) full = sanitizeWhitespace($("thead th").first().text()) || "";
-  const mNo = full.match(/No\.(\d+)/i);
-  if (mNo) result.no = mNo[1];
-  result.title = (full || "").replace(/No\.\d+\s*/i, "").trim();
-  // icon
-  const iconSrc = $("img.icon").attr("src");
-  if (iconSrc) result.icon = new URL(iconSrc, pageUrl).toString();
-  // fields by labels in text
-  const raw = $("body").text().replace(/\s+/g, " ").trim();
-  const pick = (re: RegExp) => { const m = raw.match(re); return m ? sanitizeWhitespace(m[1]) : undefined; };
-  result.author = pick(/作者[:：]([^\s].*?)(?: ジャンル| ツール| 配信|$)/);
-  result.category = pick(/ジャンル[:：]([^\s].*?)(?: ツール| 配信|$)/);
-  result.engine = pick(/ツール[:：]([^\s].*?)(?: 配信|$)/) || pick(/使用ツール[:：]([^\s].*?)(?: 配信|$)/);
-  result.streaming = pick(/配信[\/／]投稿[:：]([^\s].*?)(?: 作者コメント|$)/) || pick(/配信[:：]([^\s].*?)(?: 作者コメント|$)/);
-  // comments (keep HTML, strip label)
-  const strip = (htmlIn: string, label: string) => htmlIn.replace(new RegExp(`^[\\s\\S]*?${label}[：:]?\\s*(?:<br\\s*\\/?>\\s*)?`, "i"), "").trim();
-  const authorCell = $("*:contains('作者コメント')").filter((_, el) => $(el).children().length === 0 || /作者コメント/.test($(el).text())).first().parent();
-  if (authorCell && authorCell.html()) result.authorComment = strip(authorCell.html()!, "作者コメント");
-  const hostCell = $("*:contains('管理人コメント')").filter((_, el) => $(el).children().length === 0 || /管理人コメント/.test($(el).text())).first().parent();
-  if (hostCell && hostCell.html()) result.hostComment = strip(hostCell.html()!, "管理人コメント");
-  // links
-  $("a").each((_, a) => {
-    const t = ($(a).text() || "").trim();
-    const href = $(a).attr("href");
-    if (!href) return;
-    const abs = new URL(href, pageUrl).toString();
-    if (/【?感想】?/.test(t) || /掲示板/.test(t)) result.forumUrl = abs;
-    if (/DL|ダウンロード/.test(t)) result.downloadUrl = abs;
-  });
-  // screenshots: include embedded images; exclude small icons and UI/brand images
-  $("img").each((_, img) => {
-    const src = $(img).attr("src");
-    if (!src) return;
-    const abs = new URL(src, pageUrl).toString();
-    if (/material\/product|gstatic|googleusercontent\.com\/a\//i.test(abs)) return; // skip logos/avatars
-    if (iconSrc && abs === new URL(iconSrc, pageUrl).toString()) return; // skip same as icon
-    result.screenshots.push(abs);
-  });
+  // Try to parse the embedded JSON in userHtml (globalDataes)
+  const mm = html.match(/globalDataes\s*=\s*JSON\.parse\((['"])([\s\S]*?)\1\)/);
+  const params = new URL(pageUrl).searchParams;
+  const gameParam = params.get("game") || undefined;
+  if (mm) {
+    try {
+      const quoted = mm[1] + mm[2] + mm[1];
+      const jsonText = JSON.parse(quoted) as string; // decode string literal to JSON text
+      const arr = JSON.parse(jsonText) as Array<Record<string, string>>;
+      const pickNo = (gameParam ? parseInt(gameParam, 10) : NaN);
+      const el = arr.find(e => String(e.gameNo) === String(pickNo)) || arr[0];
+      if (el) {
+        result.no = (el.gameNo || el.entryNo || '').toString().padStart(2, '0');
+        result.title = sanitizeWhitespace(el.title) || result.title;
+        result.author = sanitizeWhitespace(el.author) || result.author;
+        result.category = sanitizeWhitespace(el.genre) || result.category;
+        result.engine = sanitizeWhitespace(el.tkool_other || el.tkool) || result.engine;
+        result.streaming = sanitizeWhitespace(el.video_other || el.video) || result.streaming;
+        result.authorComment = el.comment_author ? el.comment_author : undefined;
+        const toDrive = (s?: string) => {
+          if (!s) return undefined;
+          if (/^https?:\/\//i.test(s)) return s;
+          return `https://drive.google.com/uc?id=${s}`;
+        };
+        const icon = toDrive(el.icon);
+        if (icon) result.icon = icon;
+        const ss1 = toDrive(el.ss1);
+        const ss2 = toDrive(el.ss2);
+        [ss1, ss2].forEach(u => { if (u) result.screenshots.push(u); });
+        const gameUrl = toDrive(el.game);
+        if (gameUrl) result.downloadUrl = gameUrl;
+      }
+    } catch {}
+  }
   return result;
+}
+
+function parseGlobalDataes(html: string): Array<Record<string, string>> | undefined {
+  const mm = html.match(/globalDataes\s*=\s*JSON\.parse\((['"])([\s\S]*?)\1\)/);
+  if (!mm) return undefined;
+  try {
+    // Evaluate the original JS string literal by reconstructing `'...content...'`
+    const quote = mm[1];
+    const jsString = (new Function(`return ${quote}${mm[2]}${quote};`))() as string;
+    const arr = JSON.parse(jsString) as Array<Record<string, string>>;
+    return arr;
+  } catch {
+    // try a more forgiving unescape then parse
+    let src = mm[2]!
+      .replace(/\\\"/g, '"')
+      .replace(/\\\//g, '/')
+      .replace(/\\n/g, '\n')
+      .replace(/\\r/g, '')
+      .replace(/\\t/g, '\t')
+      .replace(/\\\\/g, '\\');
+    try {
+      return JSON.parse(src) as Array<Record<string, string>>;
+    } catch {
+      return undefined;
+    }
+  }
 }
 
 async function main() {
@@ -272,42 +316,104 @@ async function main() {
   await saveBanner();
   const out: WorkEntryOut[] = [];
   const snaps: SnapshotRecord[] = [];
-  for (let n = 1; n <= 80; n += 1) {
-    const idx = String(n).padStart(2, "0");
-    const url = `${APPS_EXEC_BASE}?game=${n}`;
+
+  // Try to get a single outer page to decode full dataset once
+  let dataset: Array<Record<string, string>> | undefined;
+  const seedIdx = 39; // any valid page contains the dataset
+  const seedUrl = `${APPS_EXEC_BASE}?game=${seedIdx}`;
+  let seedInner: string | undefined;
+  try {
+    const outer = await fetchUrl(seedUrl);
+    await fs.writeFile(path.join(CATCH_DIR, `game-${String(seedIdx).padStart(2, '0')}-outer.html`), outer, "utf8");
+    seedInner = extractUserHtml(outer);
+  } catch {}
+  if (!seedInner) {
     try {
-      const outer = await fetchUrl(url);
-      await fs.writeFile(path.join(CATCH_DIR, `game-${idx}-outer.html`), outer, "utf8");
-      const inner = extractUserHtml(outer);
-      if (!inner) { snaps.push({ index: idx, status: "missing" }); continue; }
-      await fs.writeFile(path.join(CATCH_DIR, `game-${idx}.html`), inner, "utf8");
-      const detail = parseDetailFromHtml(inner, url);
-      if (!detail.no) detail.no = idx;
-      const iconLocal = await copyIcon(detail.no!, detail.icon ?? undefined);
-      const { paths: ss, skipped, failures } = await copyScreenshots(detail.no!, detail.screenshots);
-      const rec: SnapshotRecord = { index: detail.no!, status: "ok", title: detail.title, icon: iconLocal };
-      if (skipped.length || failures.length) rec.screenshotReport = { saved: ss.length, skipped, failures };
+      seedInner = await fs.readFile(path.join(CATCH_DIR, `game-${String(seedIdx).padStart(2, '0')}.html`), "utf8");
+    } catch {}
+  }
+  if (seedInner) dataset = parseGlobalDataes(seedInner);
+
+  // If dataset is available, use it to build all works; otherwise fall back to per-page fetch
+  if (dataset && dataset.length) {
+    // Only keep real entries numbered 01..80
+    const entries = dataset.filter(e => {
+      const no = (e.entryNo || e.no || '').toString();
+      return /^\d+$/.test(no) && parseInt(no, 10) >= 1 && parseInt(no, 10) <= 80;
+    });
+    // Sort by numeric entry number
+    entries.sort((a, b) => parseInt((a.entryNo || '0').toString(), 10) - parseInt((b.entryNo || '0').toString(), 10));
+    for (const el of entries) {
+      const noRaw = (el.entryNo || el.no || '').toString();
+      const no = noRaw.padStart(2, '0');
+      const toDrive = (s?: string) => {
+        if (!s) return undefined;
+        if (/^https?:\/\//i.test(s)) return s;
+        return `https://drive.google.com/uc?id=${s}`;
+      };
+      const iconUrl = toDrive(el.icon);
+      const ss1 = toDrive(el.ss1);
+      const ss2 = toDrive(el.ss2);
+      const iconLocal = await copyIcon(no, iconUrl);
+      const ssSources = [ss1, ss2].filter((u): u is string => !!u);
+      const { paths: ss, skipped, failures } = await copyScreenshots(no, ssSources);
       const work: WorkEntryOut = {
-        id: `${FESTIVAL_SLUG}-${detail.no!}`,
+        id: `${FESTIVAL_SLUG}-${no}`,
         festivalId: FESTIVAL_ID,
-        no: detail.no!,
-        title: detail.title || `Work ${detail.no!}`,
-        author: detail.author || "",
-        category: detail.category,
-        engine: detail.engine,
-        streaming: detail.streaming,
-        forum: detail.forumUrl,
-        authorComment: detail.authorComment,
-        hostComment: detail.hostComment,
+        no,
+        title: sanitizeWhitespace(el.title) || `Work ${no}`,
+        author: sanitizeWhitespace(el.author) || "",
+        category: sanitizeWhitespace(el.genre),
+        engine: sanitizeWhitespace(el.tkool_other || el.tkool),
+        streaming: sanitizeWhitespace(el.video_other || el.video),
+        authorComment: el.comment_author ? el.comment_author : undefined,
         icon: iconLocal,
       };
       if (ss.length > 0) work.ss = ss;
       out.push(work);
+      const rec: SnapshotRecord = { index: no, status: "ok", title: work.title, icon: iconLocal };
+      if (skipped.length || failures.length) rec.screenshotReport = { saved: ss.length, skipped, failures };
       snaps.push(rec);
-    } catch (e) {
-      snaps.push({ index: idx, status: "error", error: (e as Error).message });
+    }
+  } else {
+    for (let n = 1; n <= 80; n += 1) {
+      const idx = String(n).padStart(2, "0");
+      const url = `${APPS_EXEC_BASE}?game=${n}`;
+      try {
+        const outer = await fetchUrl(url);
+        await fs.writeFile(path.join(CATCH_DIR, `game-${idx}-outer.html`), outer, "utf8");
+        const inner = extractUserHtml(outer);
+        if (!inner) { snaps.push({ index: idx, status: "missing" }); continue; }
+        await fs.writeFile(path.join(CATCH_DIR, `game-${idx}.html`), inner, "utf8");
+        const detail = parseDetailFromHtml(inner, url);
+        if (!detail.no) detail.no = idx;
+        const iconLocal = await copyIcon(detail.no!, detail.icon ?? undefined);
+        const { paths: ss, skipped, failures } = await copyScreenshots(detail.no!, detail.screenshots);
+        const rec: SnapshotRecord = { index: detail.no!, status: "ok", title: detail.title, icon: iconLocal };
+        if (skipped.length || failures.length) rec.screenshotReport = { saved: ss.length, skipped, failures };
+        const work: WorkEntryOut = {
+          id: `${FESTIVAL_SLUG}-${detail.no!}`,
+          festivalId: FESTIVAL_ID,
+          no: detail.no!,
+          title: detail.title || `Work ${detail.no!}`,
+          author: detail.author || "",
+          category: detail.category,
+          engine: detail.engine,
+          streaming: detail.streaming,
+          forum: detail.forumUrl,
+          authorComment: detail.authorComment,
+          hostComment: detail.hostComment,
+          icon: iconLocal,
+        };
+        if (ss.length > 0) work.ss = ss;
+        out.push(work);
+        snaps.push(rec);
+      } catch (e) {
+        snaps.push({ index: idx, status: "error", error: (e as Error).message });
+      }
     }
   }
+
   await fs.writeFile(OUTPUT_WORKS, JSON.stringify(out, null, 2), "utf8");
   await fs.writeFile(SUMMARY_PATH, JSON.stringify(snaps, null, 2), "utf8");
   console.log(`Saved ${out.length} works to ${OUTPUT_WORKS}`);
