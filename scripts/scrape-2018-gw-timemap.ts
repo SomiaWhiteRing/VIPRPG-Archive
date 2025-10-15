@@ -5,7 +5,16 @@ import * as cheerio from "cheerio";
 
 const FESTIVAL_ID = "2018-gw";
 const FESTIVAL_SLUG = "2018-gw";
-const BASE_ORIGIN = "https://vipkohaku.x.fc2.com/2018GW/";
+// Merge FC2 + Geocities; argv[2] can override primary
+const DEFAULT_ORIGINS = [
+  "https://vipkohaku.x.fc2.com/2018GW/",
+  "http://www.geocities.jp/viprpg_gw2018/",
+  "https://www.geocities.jp/viprpg_gw2018/",
+];
+const BASE_ORIGINS: string[] =
+  (process.argv[2] && /^https?:\/\//i.test(process.argv[2]))
+    ? [process.argv[2]!, ...DEFAULT_ORIGINS.filter((u) => u !== process.argv[2])]
+    : DEFAULT_ORIGINS;
 
 const OUTPUT_WORKS = path.join(process.cwd(), "src", "data", "works", `${FESTIVAL_SLUG}.json`);
 const CATCH_DIR = path.join(process.cwd(), "catch", FESTIVAL_SLUG);
@@ -42,8 +51,8 @@ interface IndexEntry {
 }
 
 interface DetailEntry {
-  authorComment?: string;
-  hostComment?: string;
+  authorComment?: string; // keep HTML
+  hostComment?: string;   // keep HTML
   screenshots?: string[]; // absolute URLs
 }
 
@@ -64,6 +73,7 @@ interface WorkEntryOut {
   hostComment?: string;
   icon?: string;
   ss?: string[];
+  detailDisabled?: boolean;
 }
 
 interface SnapshotRecord {
@@ -152,7 +162,8 @@ function looksLikeImageBuffer(buffer: Buffer, contentType: string) {
 }
 
 function buildWaybackUrl(ts: string, original: string, kind: "im_" | "id_" | "fw_" = "id_") {
-  const u = original.startsWith("http") ? original : new URL(original, BASE_ORIGIN).toString();
+  const base = BASE_ORIGINS[0] || "https://vipkohaku.x.fc2.com/2018GW/";
+  const u = original.startsWith("http") ? original : new URL(original, base).toString();
   return `https://web.archive.org/web/${ts}${kind}/${u}`;
 }
 
@@ -234,6 +245,12 @@ function sanitizeMultiline(v?: string | null) {
     .filter(Boolean)
     .join("\n");
   return out || undefined;
+}
+
+function trimHtml(v?: string | null) {
+  if (!v) return undefined;
+  const t = v.replace(/^\s+/, "").replace(/\s+$/, "");
+  return t || undefined;
 }
 
 function parseIndex2018(html: string, assetsBase: string): IndexEntry[] {
@@ -321,7 +338,7 @@ async function parseDetailGeneric(url: string | undefined): Promise<DetailEntry>
     });
     $("a").each((_, el) => addIfImage($(el).attr("href")));
     if (screenshotSet.size > 0) result.screenshots = Array.from(screenshotSet);
-    const findRowText = (label: string) => {
+    const findRowHtml = (label: string) => {
       const cells = $(`td:contains(${label})`);
       let pick: cheerio.Cheerio | undefined;
       cells.each((_, el) => {
@@ -338,14 +355,14 @@ async function parseDetailGeneric(url: string | undefined): Promise<DetailEntry>
       const parts = rawHtml.split(/<br\s*\/?\s*>/i);
       if (parts.length > 1) {
         const contentHtml = parts.slice(1).join("<br>");
-        return sanitizeMultiline(contentHtml);
+        return trimHtml(contentHtml);
       }
       const pattern = new RegExp(`^[\\s\\S]*?(?:[【\u3010\[(]?${label}[】\u3011\])?)\s*[:：]?\s*`, "u");
       const html2 = rawHtml.replace(pattern, "");
-      return sanitizeMultiline(html2);
+      return trimHtml(html2);
     };
-    result.authorComment = findRowText("作者コメント") || findRowText("作者のコメント") || findRowText("作者") || findRowText("備考");
-    result.hostComment = findRowText("管理人コメント") || findRowText("主催コメント");
+    result.authorComment = findRowHtml("作者コメント") || findRowHtml("作者のコメント") || findRowHtml("作者") || findRowHtml("備考");
+    result.hostComment = findRowHtml("管理人コメント") || findRowHtml("主催コメント");
     return result;
   } catch {
     return {};
@@ -437,11 +454,8 @@ function buildAssetMaps(rows: TimemapRow[]) {
   const ssByIndex = new Map<string, TimemapRow[]>();
   for (const r of rows) {
     const u = r.original;
-    if (!u.includes("/2018GW/")) continue;
-    // detail e.g. /2018GW/entry01.html
-    const md = u.match(/\/2018GW\/(?:index|top|menu_(?:entry|top)\.html|index\.html)$/i);
-    // not used here
-    const mDetail = u.match(/\/2018GW\/entry(\d{2,3})\.html$/i);
+    // detail e.g. /(2018GW|viprpg_gw2018)/entry01.html
+    const mDetail = u.match(/\/(?:2018GW|viprpg_gw2018)\/entry(\d{2,3})\.html$/i);
     if (mDetail) {
       const idx = mDetail[1].padStart(2, "0");
       // prefer later snapshot
@@ -449,16 +463,16 @@ function buildAssetMaps(rows: TimemapRow[]) {
       if (!prev || r.endtimestamp > prev.endtimestamp) detailByIndex.set(idx, r);
       continue;
     }
-    // icon: /2018GW/entry/icon01.png or icon001.png
-    const mIcon = u.match(/\/2018GW\/entry\/icon0*(\d{1,3})\.(png|jpe?g|gif|bmp)$/i);
+    // icon: /(2018GW|viprpg_gw2018)/entry/icon01.png or icon001.png
+    const mIcon = u.match(/\/(?:2018GW|viprpg_gw2018)\/entry\/icon0*(\d{1,3})\.(png|jpe?g|gif|bmp)$/i);
     if (mIcon) {
       const idx = mIcon[1].padStart(2, "0");
       const prev = iconByIndex.get(idx);
       if (!prev || r.endtimestamp > prev.endtimestamp) iconByIndex.set(idx, r);
       continue;
     }
-    // screenshots: under /2018GW/entry/, image but not icon
-    if (/\/2018GW\/entry\//i.test(u) && /\.(png|jpe?g|gif|bmp)$/i.test(u) && !/\/entry\/icon/i.test(u) && !/counter/i.test(u)) {
+    // screenshots: under /(2018GW|viprpg_gw2018)/entry/, image but not icon
+    if (/\/(?:2018GW|viprpg_gw2018)\/entry\//i.test(u) && /\.(png|jpe?g|gif|bmp)$/i.test(u) && !/\/entry\/icon/i.test(u) && !/counter/i.test(u)) {
       // best-effort infer index from filename or parent path
       let idx: string | undefined;
       const mNum = u.match(/(?:^|[^\d])(\d{2})(?:[^\d]|\.|$)/); // pick 2-digit group
@@ -480,35 +494,39 @@ async function run() {
   await ensureDir(ICONS_DIR);
   await ensureDir(SCREENSHOTS_DIR);
 
-  // 1) Fetch index page (Wayback latest) to parse table metadata
-  const indexRows = await fetchTimemap(BASE_ORIGIN);
-  const indexHtmlRow = indexRows.find((r) => /\/(top|index|menu_entry|menu_top)\.html$/i.test(r.original))
-    || indexRows.find((r) => /\/(top|index)\.htm$/i.test(r.original));
-  if (!indexHtmlRow) {
+  // 1) Fetch index page from combined timemaps (FC2 + Geocities)
+  const allRows: TimemapRow[] = [];
+  for (const base of BASE_ORIGINS) {
+    try { const rows = await fetchTimemap(base); allRows.push(...rows); } catch {}
+  }
+  const indexCandidates = allRows
+    .filter((r) => /\/(?:2018GW|viprpg_gw2018)\/(?:top|index|menu_entry|menu_top)\.(?:html|htm)$/i.test(r.original))
+    .sort((a, b) => (b.endtimestamp || b.timestamp).localeCompare(a.endtimestamp || a.timestamp));
+  let indexHtml: string | undefined;
+  let indexUrl = "";
+  let indexHtmlRow: TimemapRow | undefined = indexCandidates[0];
+  if (indexHtmlRow) {
+    const tryUrls = [
+      buildWaybackUrl(indexHtmlRow.endtimestamp || indexHtmlRow.timestamp, indexHtmlRow.original, "fw_"),
+      buildWaybackUrl(indexHtmlRow.timestamp || indexHtmlRow.endtimestamp, indexHtmlRow.original, "fw_"),
+      `https://web.archive.org/web/2/${indexHtmlRow.original}`,
+    ];
+    for (const u of tryUrls) { try { indexHtml = await fetchText(u); indexUrl = u; break; } catch {} }
+  }
+  if (!indexHtml) {
     await fs.writeFile(OUTPUT_WORKS, JSON.stringify([], null, 2), "utf8");
-    await fs.writeFile(SUMMARY_PATH, JSON.stringify([{ index: "--", status: "error", error: "missing index in timemap" }], null, 2), "utf8");
-    console.error("No index html found in timemap");
+    await fs.writeFile(SUMMARY_PATH, JSON.stringify([{ index: "--", status: "error", error: "missing index in timemaps" }], null, 2), "utf8");
+    console.error("No index html found in combined timemaps");
     return;
   }
-  const indexUrlCandidates = [
-    buildWaybackUrl(indexHtmlRow.endtimestamp || indexHtmlRow.timestamp, indexHtmlRow.original, "fw_"),
-    buildWaybackUrl(indexHtmlRow.timestamp || indexHtmlRow.endtimestamp, indexHtmlRow.original, "fw_"),
-    `https://web.archive.org/web/2/${indexHtmlRow.original}`,
-  ];
-  let indexUrl = indexUrlCandidates[0];
-  let indexHtml: string | undefined;
-  for (const cand of indexUrlCandidates) {
-    try { indexHtml = await fetchText(cand); indexUrl = cand; break; } catch {}
-  }
-  if (!indexHtml) throw new Error("Failed to fetch index html from wayback candidates");
-  await fs.writeFile(path.join(CATCH_DIR, path.basename(new URL(indexHtmlRow.original).pathname) || "index.html"), indexHtml, "utf8");
+  await fs.writeFile(path.join(CATCH_DIR, (indexHtmlRow && path.basename(new URL(indexHtmlRow.original).pathname)) || "index.html"), indexHtml, "utf8");
   await saveBannerFromIndex(indexUrl, indexHtml);
 
   // 2) Parse entries from index
   const entries = parseIndex2018(indexHtml, indexUrl);
 
-  // 3) Build asset maps from full timemap
-  const { iconByIndex, detailByIndex, ssByIndex } = buildAssetMaps(indexRows);
+  // 3) Build asset maps from combined timemaps
+  const { iconByIndex, detailByIndex, ssByIndex } = buildAssetMaps(allRows);
 
   const out: WorkEntryOut[] = [];
   const summary: SnapshotRecord[] = [];
@@ -557,6 +575,9 @@ async function run() {
       icon: iconLocal,
       ss: screenshotResult.paths.length > 0 ? screenshotResult.paths : undefined,
     };
+    if (!work.authorComment && !work.hostComment && (!work.ss || work.ss.length === 0)) {
+      work.detailDisabled = true;
+    }
     out.push(work);
 
     summary.push({
@@ -574,6 +595,28 @@ async function run() {
     });
   }
 
+  // Merge with existing file to avoid regressions: prefer newly scraped fields,
+  // but keep existing icon/ss/comments when new scrape lacks them
+  try {
+    const prevRaw = await fs.readFile(OUTPUT_WORKS, "utf8").catch(() => "");
+    if (prevRaw) {
+      const prev = JSON.parse(prevRaw) as WorkEntryOut[];
+      const prevById = new Map(prev.map((w) => [w.id, w] as const));
+      for (const w of out) {
+        const old = prevById.get(w.id);
+        if (!old) continue;
+        if (!w.icon && old.icon) w.icon = old.icon;
+        if ((!w.ss || w.ss.length === 0) && old.ss && old.ss.length > 0) w.ss = old.ss;
+        if (!w.authorComment && old.authorComment) w.authorComment = old.authorComment;
+        if (!w.hostComment && old.hostComment) w.hostComment = old.hostComment;
+        if (!w.forum && old.forum) w.forum = old.forum;
+        if (!w.streaming && old.streaming) w.streaming = old.streaming;
+        if (!w.category && old.category) w.category = old.category;
+        if (!w.engine && old.engine) w.engine = old.engine;
+        if ((w.detailDisabled === undefined || w.detailDisabled === false) && old.detailDisabled) w.detailDisabled = true;
+      }
+    }
+  } catch {}
   await fs.writeFile(OUTPUT_WORKS, JSON.stringify(out, null, 2), "utf8");
   await fs.writeFile(SUMMARY_PATH, JSON.stringify(summary, null, 2), "utf8");
   console.log(`Saved works to ${OUTPUT_WORKS}`);

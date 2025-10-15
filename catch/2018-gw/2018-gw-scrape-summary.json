@@ -11,7 +11,12 @@
       "https://web.archive.org/web/20190518093119fw_/https://vipkohaku.x.fc2.com/2018GW/top.html"
     ],
     "screenshotReport": {
-      "saved": 0
+      "saved": 0,
+      "failures": [
+        "https://web.archive.org/web/20190331133648im_/http://www.geocities.jp/viprpg_gw2018/entry/icon01.png => fetch failed",
+        "https://web.archive.org/web/20190331133648im_/http://www.geocities.jp/viprpg_gw2018/entry/SS01_1.png => fetch failed",
+        "https://web.archive.org/web/20190129192533im_/http://www.geocities.jp/viprpg_gw2018/entry/SS01_1.png => fetch failed"
+      ]
     }
   },
   {
@@ -22,14 +27,16 @@
       "https://web.archive.org/web/20190518093119fw_/https://vipkohaku.x.fc2.com/2018GW/top.html"
     ],
     "screenshotReport": {
-      "saved": 0
+      "saved": 0,
+      "failures": [
+        "https://web.archive.org/web/20190129192530im_/http://www.geocities.jp/viprpg_gw2018/entry/ss02_1.png => fetch failed"
+      ]
     }
   },
   {
     "index": "03",
     "status": "ok",
     "title": "代理ksgGW2018",
-    "icon": "/icons/2018-gw/03.png",
     "downloadSource": [
       "https://web.archive.org/web/20190518093119/https://ux.getuploader.com/viprpg_gw2018_3/download/45"
     ],
@@ -37,7 +44,10 @@
       "https://web.archive.org/web/20190518093119fw_/https://vipkohaku.x.fc2.com/2018GW/top.html"
     ],
     "screenshotReport": {
-      "saved": 0
+      "saved": 0,
+      "failures": [
+        "https://web.archive.org/web/20190129192532im_/http://www.geocities.jp/viprpg_gw2018/entry/ss03_1_2.png => fetch failed"
+      ]
     }
   },
   {
@@ -52,14 +62,13 @@
       "https://web.archive.org/web/20190518093119fw_/https://vipkohaku.x.fc2.com/2018GW/top.html"
     ],
     "screenshotReport": {
-      "saved": 0
+      "saved": 2
     }
   },
   {
     "index": "05",
     "status": "ok",
     "title": "銀河海賊伝説",
-    "icon": "/icons/2018-gw/05.png",
     "downloadSource": [
       "https://web.archive.org/web/20190518093119/https://ux.getuploader.com/viprpg_gw2018_3/download/1"
     ],
@@ -67,14 +76,16 @@
       "https://web.archive.org/web/20190518093119fw_/https://vipkohaku.x.fc2.com/2018GW/top.html"
     ],
     "screenshotReport": {
-      "saved": 0
+      "saved": 0,
+      "failures": [
+        "https://web.archive.org/web/20190129192534im_/http://www.geocities.jp/viprpg_gw2018/entry/ss05_1.png => fetch failed"
+      ]
     }
   },
   {
     "index": "06",
     "status": "ok",
     "title": "知り合いのノルウェー人がファミレスで斧投げたら女子高生に当たって拍手喝采だった話",
-    "icon": "/icons/2018-gw/06.png",
     "downloadSource": [
       "https://web.archive.org/web/20190518093119/https://ux.getuploader.com/viprpg_gw2018_3/download/26"
     ],
@@ -82,7 +93,11 @@
       "https://web.archive.org/web/20190518093119fw_/https://vipkohaku.x.fc2.com/2018GW/top.html"
     ],
     "screenshotReport": {
-      "saved": 0
+      "saved": 0,
+      "failures": [
+        "https://web.archive.org/web/20190129192530im_/http://www.geocities.jp/viprpg_gw2018/entry/ss06_1.jpeg => fetch failed",
+        "https://web.archive.org/web/20190129192530im_/http://www.geocities.jp/viprpg_gw2018/entry/ss06_2.png => fetch failed"
+      ]
     }
   },
   {
@@ -96,13 +111,18 @@
       "https://web.archive.org/web/20190518093119fw_/https://vipkohaku.x.fc2.com/2018GW/top.html"
     ],
     "screenshotReport": {
-      "saved": 0
+      "saved": 0,
+      "failures": [
+        "https://web.archive.org/web/20190129192532im_/http://www.geocities.jp/viprpg_gw2018/entry/ss07_1.bmp => fetch failed",
+        "https://web.archive.org/web/20190129192532im_/http://www.geocities.jp/viprpg_gw2018/entry/ss07_2.png => fetch failed"
+      ]
     }
   },
   {
     "index": "08",
     "status": "ok",
     "title": "もしもリリアが志半ばで斃れたら",
+    "icon": "/icons/2018-gw/08.png",
     "downloadSource": [
       "https://web.archive.org/web/20190518093119/https://ux.getuploader.com/viprpg_gw2018_3/download/30"
     ],
@@ -110,7 +130,7 @@
       "https://web.archive.org/web/20190518093119fw_/https://vipkohaku.x.fc2.com/2018GW/top.html"
     ],
     "screenshotReport": {
-      "saved": 0
+      "saved": 2
     }
   },
   {
@@ -125,7 +145,14 @@
       "https://web.archive.org/web/20190518093119fw_/https://vipkohaku.x.fc2.com/2018GW/top.html"
     ],
     "screenshotReport": {
-      "saved": 0
+      "saved": 1,
+      "failures": [
+        "https://web.archive.org/web/20190330193002im_/http://www.geocities.jp/viprpg_gw2018/entry/icon09.PNG => fetch failed",
+        "https://web.archive.org/web/20190330193002im_/http://www.geocities.jp/viprpg_gw2018/entry/ss09_1.PNG => fetch failed",
+        "https://web.archive.org/web/20190330193002fw_/http://www.geocities.jp:80/viprpg_gw2018/entry/ss09_2.PNG => fetch failed",
+        "https://web.archive.org/web/20190330193002fw_/http://www.geocities.jp:80/viprpg_gw2018/entry/ss09_1.PNG => fetch failed",
+        "https://web.archive.org/web/20190129192530im_/http://www.geocities.jp/viprpg_gw2018/entry/ss09_1.PNG => fetch failed"
+      ]
     }
   },
   {
@@ -139,7 +166,13 @@
       "https://web.archive.org/web/20190518093119fw_/https://vipkohaku.x.fc2.com/2018GW/top.html"
     ],
     "screenshotReport": {
-      "saved": 0
+      "saved": 1,
+      "skipped": [
+        {
+          "source": "https://web.archive.org/web/20190129192525im_/http://www.geocities.jp/viprpg_gw2018/entry/ss10_1_1.png",
+          "reason": "duplicate"
+        }
+      ]
     }
   },
   {
@@ -154,7 +187,17 @@
       "https://web.archive.org/web/20190518093119fw_/https://vipkohaku.x.fc2.com/2018GW/top.html"
     ],
     "screenshotReport": {
-      "saved": 0
+      "saved": 1,
+      "skipped": [
+        {
+          "source": "https://web.archive.org/web/20190331143809im_/http://www.geocities.jp/viprpg_gw2018/entry/icon11.png",
+          "reason": "small"
+        },
+        {
+          "source": "https://web.archive.org/web/20190129192530im_/http://www.geocities.jp/viprpg_gw2018/entry/ss11_1.png",
+          "reason": "duplicate"
+        }
+      ]
     }
   },
   {
@@ -169,7 +212,17 @@
       "https://web.archive.org/web/20190518093119fw_/https://vipkohaku.x.fc2.com/2018GW/top.html"
     ],
     "screenshotReport": {
-      "saved": 0
+      "saved": 1,
+      "skipped": [
+        {
+          "source": "https://web.archive.org/web/20190330163933im_/http://www.geocities.jp/viprpg_gw2018/entry/icon12.png",
+          "reason": "small"
+        },
+        {
+          "source": "https://web.archive.org/web/20190129192526im_/http://www.geocities.jp/viprpg_gw2018/entry/ss12_1.png",
+          "reason": "duplicate"
+        }
+      ]
     }
   },
   {
@@ -181,14 +234,25 @@
       "https://web.archive.org/web/20190518093119fw_/https://vipkohaku.x.fc2.com/2018GW/top.html"
     ],
     "screenshotReport": {
-      "saved": 0
+      "saved": 1,
+      "skipped": [
+        {
+          "source": "https://web.archive.org/web/20190330193003im_/http://www.geocities.jp/viprpg_gw2018/entry/icon13.png",
+          "reason": "small"
+        }
+      ],
+      "failures": [
+        "https://web.archive.org/web/20190330193003fw_/http://www.geocities.jp:80/viprpg_gw2018/entry/ss13_2.png => fetch failed",
+        "https://web.archive.org/web/20190330193003fw_/http://www.geocities.jp:80/viprpg_gw2018/entry/ss13_1.png => fetch failed",
+        "https://web.archive.org/web/20190129192534im_/http://www.geocities.jp/viprpg_gw2018/entry/ss13_1.png => fetch failed",
+        "https://web.archive.org/web/20190129192534im_/http://www.geocities.jp/viprpg_gw2018/entry/ss13_2.png => fetch failed"
+      ]
     }
   },
   {
     "index": "14",
     "status": "ok",
     "title": "臓器移植物語 ～命の絆～",
-    "icon": "/icons/2018-gw/14.png",
     "downloadSource": [
       "https://web.archive.org/web/20190518093119/https://ux.getuploader.com/viprpg_gw2018_3/download/7"
     ],
@@ -196,7 +260,7 @@
       "https://web.archive.org/web/20190518093119fw_/https://vipkohaku.x.fc2.com/2018GW/top.html"
     ],
     "screenshotReport": {
-      "saved": 0
+      "saved": 1
     }
   },
   {
@@ -212,11 +276,18 @@
     ],
     "screenshotReport": {
       "saved": 0,
+      "skipped": [
+        {
+          "source": "https://web.archive.org/web/20201101143829im_/https://vipkohaku.x.fc2.com/2018GW/entry/icon15.png",
+          "reason": "small"
+        }
+      ],
       "failures": [
-        "https://web.archive.org/web/20201101143829im_/https://vipkohaku.x.fc2.com/2018GW/entry/icon15.png => fetch failed",
-        "https://web.archive.org/web/20201101143829im_/https://vipkohaku.x.fc2.com/2018GW/entry/ss15_1.png => HTTP 404 for https://web.archive.org/web/20201101143829im_/https://vipkohaku.x.fc2.com/2018GW/entry/ss15_1.png",
-        "https://web.archive.org/web/20201101143829fw_/https://vipkohaku.x.fc2.com/2018GW/entry/ss15_2.png => HTTP 404 for https://web.archive.org/web/20201101143829fw_/https://vipkohaku.x.fc2.com/2018GW/entry/ss15_2.png",
-        "https://web.archive.org/web/20201101143829fw_/https://vipkohaku.x.fc2.com/2018GW/entry/ss15_1.png => fetch failed"
+        "https://web.archive.org/web/20201101143829im_/https://vipkohaku.x.fc2.com/2018GW/entry/ss15_1.png => fetch failed",
+        "https://web.archive.org/web/20201101143829fw_/https://vipkohaku.x.fc2.com/2018GW/entry/ss15_2.png => fetch failed",
+        "https://web.archive.org/web/20201101143829fw_/https://vipkohaku.x.fc2.com/2018GW/entry/ss15_1.png => fetch failed",
+        "https://web.archive.org/web/20190129192532im_/http://www.geocities.jp/viprpg_gw2018/entry/ss15_1.png => fetch failed",
+        "https://web.archive.org/web/20190129192531im_/http://www.geocities.jp/viprpg_gw2018/entry/ss15_2.png => fetch failed"
       ]
     }
   },
@@ -228,7 +299,7 @@
       "https://web.archive.org/web/20190518093119fw_/https://vipkohaku.x.fc2.com/2018GW/top.html"
     ],
     "screenshotReport": {
-      "saved": 0
+      "saved": 1
     }
   },
   {
@@ -242,7 +313,10 @@
       "https://web.archive.org/web/20190518093119fw_/https://vipkohaku.x.fc2.com/2018GW/top.html"
     ],
     "screenshotReport": {
-      "saved": 0
+      "saved": 1,
+      "failures": [
+        "https://web.archive.org/web/20190129192531im_/http://www.geocities.jp/viprpg_gw2018/entry/ss17_1.png => fetch failed"
+      ]
     }
   },
   {
@@ -256,7 +330,13 @@
       "https://web.archive.org/web/20190518093119fw_/https://vipkohaku.x.fc2.com/2018GW/top.html"
     ],
     "screenshotReport": {
-      "saved": 0
+      "saved": 1,
+      "skipped": [
+        {
+          "source": "https://web.archive.org/web/20190129192535im_/http://www.geocities.jp/viprpg_gw2018/entry/ss18_1.png",
+          "reason": "duplicate"
+        }
+      ]
     }
   },
   {
@@ -268,7 +348,17 @@
       "https://web.archive.org/web/20190518093119fw_/https://vipkohaku.x.fc2.com/2018GW/top.html"
     ],
     "screenshotReport": {
-      "saved": 0
+      "saved": 1,
+      "skipped": [
+        {
+          "source": "https://web.archive.org/web/20190330193003im_/http://www.geocities.jp/viprpg_gw2018/entry/icon19.png",
+          "reason": "small"
+        },
+        {
+          "source": "https://web.archive.org/web/20190129192529im_/http://www.geocities.jp/viprpg_gw2018/entry/ss19_1.png",
+          "reason": "duplicate"
+        }
+      ]
     }
   },
   {
@@ -283,7 +373,16 @@
       "https://web.archive.org/web/20190518093119fw_/https://vipkohaku.x.fc2.com/2018GW/top.html"
     ],
     "screenshotReport": {
-      "saved": 0
+      "saved": 1,
+      "skipped": [
+        {
+          "source": "https://web.archive.org/web/20190330193003im_/http://www.geocities.jp/viprpg_gw2018/entry/icon20.png",
+          "reason": "small"
+        }
+      ],
+      "failures": [
+        "https://web.archive.org/web/20190330193003im_/http://www.geocities.jp/viprpg_gw2018/entry/ss20_1.png => fetch failed"
+      ]
     }
   },
   {
@@ -297,7 +396,10 @@
       "https://web.archive.org/web/20190518093119fw_/https://vipkohaku.x.fc2.com/2018GW/top.html"
     ],
     "screenshotReport": {
-      "saved": 0
+      "saved": 1,
+      "failures": [
+        "https://web.archive.org/web/20190129192534im_/http://www.geocities.jp/viprpg_gw2018/entry/ss21_1.jpg => fetch failed"
+      ]
     }
   },
   {
@@ -311,7 +413,10 @@
       "https://web.archive.org/web/20190518093119fw_/https://vipkohaku.x.fc2.com/2018GW/top.html"
     ],
     "screenshotReport": {
-      "saved": 0
+      "saved": 0,
+      "failures": [
+        "https://web.archive.org/web/20190129192529im_/http://www.geocities.jp/viprpg_gw2018/entry/ss22_1.png => fetch failed"
+      ]
     }
   },
   {
@@ -326,7 +431,7 @@
       "https://web.archive.org/web/20190518093119fw_/https://vipkohaku.x.fc2.com/2018GW/top.html"
     ],
     "screenshotReport": {
-      "saved": 0
+      "saved": 2
     }
   },
   {
@@ -341,7 +446,20 @@
       "https://web.archive.org/web/20190518093119fw_/https://vipkohaku.x.fc2.com/2018GW/top.html"
     ],
     "screenshotReport": {
-      "saved": 0
+      "saved": 0,
+      "skipped": [
+        {
+          "source": "https://web.archive.org/web/20190331143108im_/http://www.geocities.jp/viprpg_gw2018/entry/icon24.png",
+          "reason": "small"
+        }
+      ],
+      "failures": [
+        "https://web.archive.org/web/20190331143108im_/http://www.geocities.jp/viprpg_gw2018/entry/ss24_1.png => fetch failed",
+        "https://web.archive.org/web/20190331143108fw_/http://www.geocities.jp/viprpg_gw2018/entry/ss24_2.png => fetch failed",
+        "https://web.archive.org/web/20190331143108fw_/http://www.geocities.jp/viprpg_gw2018/entry/ss24_1.png => fetch failed",
+        "https://web.archive.org/web/20190129192528im_/http://www.geocities.jp/viprpg_gw2018/entry/ss24_1.png => fetch failed",
+        "https://web.archive.org/web/20190129192528im_/http://www.geocities.jp/viprpg_gw2018/entry/ss24_2.png => fetch failed"
+      ]
     }
   },
   {
@@ -356,7 +474,7 @@
       "https://web.archive.org/web/20190518093119fw_/https://vipkohaku.x.fc2.com/2018GW/top.html"
     ],
     "screenshotReport": {
-      "saved": 0
+      "saved": 2
     }
   },
   {
@@ -370,7 +488,10 @@
       "https://web.archive.org/web/20190518093119fw_/https://vipkohaku.x.fc2.com/2018GW/top.html"
     ],
     "screenshotReport": {
-      "saved": 0
+      "saved": 0,
+      "failures": [
+        "https://web.archive.org/web/20190129192529im_/http://www.geocities.jp/viprpg_gw2018/entry/ss26_1.png => fetch failed"
+      ]
     }
   },
   {
@@ -384,7 +505,11 @@
       "https://web.archive.org/web/20190518093119fw_/https://vipkohaku.x.fc2.com/2018GW/top.html"
     ],
     "screenshotReport": {
-      "saved": 0
+      "saved": 0,
+      "failures": [
+        "https://web.archive.org/web/20190129192528im_/http://www.geocities.jp/viprpg_gw2018/entry/ss27_1.png => fetch failed",
+        "https://web.archive.org/web/20190129192529im_/http://www.geocities.jp/viprpg_gw2018/entry/ss27_2.png => fetch failed"
+      ]
     }
   },
   {
@@ -399,7 +524,25 @@
       "https://web.archive.org/web/20190518093119fw_/https://vipkohaku.x.fc2.com/2018GW/top.html"
     ],
     "screenshotReport": {
-      "saved": 0
+      "saved": 2,
+      "skipped": [
+        {
+          "source": "https://web.archive.org/web/20190331145642im_/http://www.geocities.jp/viprpg_gw2018/entry/icon28.png",
+          "reason": "small"
+        },
+        {
+          "source": "https://web.archive.org/web/20190331145642fw_/http://www.geocities.jp/viprpg_gw2018/entry/ss28_1.png",
+          "reason": "duplicate"
+        },
+        {
+          "source": "https://web.archive.org/web/20190129192534im_/http://www.geocities.jp/viprpg_gw2018/entry/ss28_1.png",
+          "reason": "duplicate"
+        },
+        {
+          "source": "https://web.archive.org/web/20190129192534im_/http://www.geocities.jp/viprpg_gw2018/entry/ss28_2.png",
+          "reason": "duplicate"
+        }
+      ]
     }
   },
   {
@@ -414,15 +557,10 @@
       "https://web.archive.org/web/20190518093119fw_/https://vipkohaku.x.fc2.com/2018GW/top.html"
     ],
     "screenshotReport": {
-      "saved": 0,
-      "skipped": [
-        {
-          "source": "https://web.archive.org/web/20230306202845im_/https://vipkohaku.x.fc2.com/2018GW/entry/icon29.png",
-          "reason": "small"
-        }
-      ],
+      "saved": 1,
       "failures": [
-        "https://web.archive.org/web/20230306202845im_/https://vipkohaku.x.fc2.com/2018GW/entry/ss29_1.png => HTTP 404 for https://web.archive.org/web/20230306202845im_/https://vipkohaku.x.fc2.com/2018GW/entry/ss29_1.png"
+        "https://web.archive.org/web/20230306202845im_/https://vipkohaku.x.fc2.com/2018GW/entry/icon29.png => fetch failed",
+        "https://web.archive.org/web/20230306202845im_/https://vipkohaku.x.fc2.com/2018GW/entry/ss29_1.png => fetch failed"
       ]
     }
   },
@@ -430,12 +568,11 @@
     "index": "30",
     "status": "ok",
     "title": "二日酔いにならない魔法",
-    "icon": "/icons/2018-gw/30.jpg",
     "sourcesTried": [
       "https://web.archive.org/web/20190518093119fw_/https://vipkohaku.x.fc2.com/2018GW/top.html"
     ],
     "screenshotReport": {
-      "saved": 0
+      "saved": 1
     }
   },
   {
@@ -447,7 +584,16 @@
       "https://web.archive.org/web/20190518093119fw_/https://vipkohaku.x.fc2.com/2018GW/top.html"
     ],
     "screenshotReport": {
-      "saved": 0
+      "saved": 1,
+      "skipped": [
+        {
+          "source": "https://web.archive.org/web/20190129192530im_/http://www.geocities.jp/viprpg_gw2018/entry/ss31_1.png",
+          "reason": "duplicate"
+        }
+      ],
+      "failures": [
+        "https://web.archive.org/web/20190330193010im_/http://www.geocities.jp/viprpg_gw2018/entry/icon31.JPG => fetch failed"
+      ]
     }
   },
   {
@@ -462,7 +608,11 @@
       "https://web.archive.org/web/20190518093119fw_/https://vipkohaku.x.fc2.com/2018GW/top.html"
     ],
     "screenshotReport": {
-      "saved": 0
+      "saved": 1,
+      "failures": [
+        "https://web.archive.org/web/20190331143034im_/http://www.geocities.jp/viprpg_gw2018/entry/icon32.png => fetch failed",
+        "https://web.archive.org/web/20190331143034im_/http://www.geocities.jp/viprpg_gw2018/entry/ss32_1.png => fetch failed"
+      ]
     }
   },
   {
@@ -476,14 +626,16 @@
       "https://web.archive.org/web/20190518093119fw_/https://vipkohaku.x.fc2.com/2018GW/top.html"
     ],
     "screenshotReport": {
-      "saved": 0
+      "saved": 0,
+      "failures": [
+        "https://web.archive.org/web/20190129192531im_/http://www.geocities.jp/viprpg_gw2018/entry/ss33_1.png => fetch failed"
+      ]
     }
   },
   {
     "index": "34",
     "status": "ok",
     "title": "追憶の鏡",
-    "icon": "/icons/2018-gw/34.png",
     "downloadSource": [
       "https://web.archive.org/web/20190518093119/https://ux.getuploader.com/viprpg_gw2018_3/download/44"
     ],
@@ -491,7 +643,7 @@
       "https://web.archive.org/web/20190518093119fw_/https://vipkohaku.x.fc2.com/2018GW/top.html"
     ],
     "screenshotReport": {
-      "saved": 0
+      "saved": 2
     }
   },
   {
@@ -502,7 +654,10 @@
       "https://web.archive.org/web/20190518093119fw_/https://vipkohaku.x.fc2.com/2018GW/top.html"
     ],
     "screenshotReport": {
-      "saved": 0
+      "saved": 0,
+      "failures": [
+        "https://web.archive.org/web/20190129192529im_/http://www.geocities.jp/viprpg_gw2018/entry/ss35_1.jpg => fetch failed"
+      ]
     }
   }
 ]
