@@ -123,7 +123,6 @@ export const worksByFestival: Record<string, WorkEntry[]> = {
   "2016-summer-2": works2016Summer2 as WorkEntry[],
   "2017-gw": works2017Gw as WorkEntry[],
   "2017-kouhaku": works2017Kouhaku as WorkEntry[],
-  "2017-kouhaku-2": works2017Kouhaku2 as WorkEntry[],
   "2017-summer": works2017Summer as WorkEntry[],
   "2018-gw": works2018Gw as WorkEntry[],
   "2018-gw-2": works2018Gw2 as WorkEntry[],

@@ -25,8 +25,8 @@
 - [x] `2018-gw` VIPRPGツクール GW祭2018（Geocities Wayback 補完：icon/ss/コメント反映）
 - [x] `2018-gw-2` VIPRPG2018GW(裏)
 - [x] `2018-kouhaku` VIPRPG紅白2018
-- [ ] `2018-summer` VIPRPG 2018夏祭り
-- [ ] `2017-gw` VIPRPG GW祭 2017
+- [x] `2018-summer` VIPRPG 2018夏祭り
+- [x] `2017-gw` VIPRPG GW祭 2017
 - [ ] `2017-kouhaku` VIPRPG 紅白2017
 - [ ] `2017-kouhaku-2` VIPRPG 紅白2017ミラーサイト
 - [ ] `2017-summer` VIPRPG 夏の陣 2017
