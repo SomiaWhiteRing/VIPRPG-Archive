@@ -7,6 +7,7 @@ import iconv from "iconv-lite";
 const FESTIVAL_ID = "2018-gw-2";
 const FESTIVAL_SLUG = "2018-gw-2";
 const BASE_ORIGIN = "https://vipkohaku.x.fc2.com/2018GW2/";
+const GEO_BASE = "http://3rd.geocities.jp/viprpg2018/";
 
 const OUTPUT_WORKS = path.join(process.cwd(), "src", "data", "works", `${FESTIVAL_SLUG}.json`);
 const CATCH_DIR = path.join(process.cwd(), "catch", FESTIVAL_SLUG);
@@ -155,6 +156,48 @@ function looksLikeImageBuffer(buffer: Buffer, contentType: string) {
 function buildWaybackUrl(ts: string, original: string, mode: "id_" | "im_" | "fw_" = "id_") {
   const cleanTs = ts && /\d+/.test(ts) ? ts : "2"; // '2' => closest
   return `https://web.archive.org/web/${cleanTs}${mode}/${original}`;
+}
+
+function unwrapWayback(url?: string | null): string | undefined {
+  if (!url) return undefined;
+  try {
+    const u = new URL(url);
+    if (u.hostname !== "web.archive.org") return url;
+    const m = u.pathname.match(/^\/web\/[0-9]+(?:[a-z]_)?\/(https?:\/\/.*)$/i);
+    if (m && m[1]) return m[1];
+    return url;
+  } catch { return url; }
+}
+
+async function checkLive(url?: string): Promise<boolean> {
+  if (!url) return false;
+  try {
+    const res = await fetch(url, {
+      headers: {
+        "User-Agent": USER_AGENT,
+        Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        Connection: "close",
+      },
+      redirect: "follow",
+      referrerPolicy: "no-referrer",
+      cache: "no-store",
+    } as RequestInit);
+    return res.ok;
+  } catch { return false; }
+}
+
+async function preferLiveExternal(input?: string | null): Promise<string | undefined> {
+  const unwrapped = unwrapWayback(input);
+  if (!unwrapped) return undefined;
+  try {
+    const u = new URL(unwrapped);
+    const isInternal = /vipkohaku\.x\.fc2\.com$/i.test(u.hostname) || /3rd\.geocities\.jp$/i.test(u.hostname);
+    if (!isInternal) {
+      const ok = await checkLive(unwrapped);
+      if (ok) return unwrapped;
+    }
+  } catch {}
+  return input || unwrapped;
 }
 
 function detectEncoding(buffer: Buffer, contentType: string | null | undefined): string {
@@ -433,11 +476,11 @@ async function copyScreenshots(index: string, sources: string[]): Promise<Downlo
   return { paths: saved, skipped, failures };
 }
 
-async function fetchTimemap(base: string): Promise<TimemapRow[]> {
+async function fetchTimemap(base: string, saveName = "timemap.json"): Promise<TimemapRow[]> {
   const tmUrl = `https://web.archive.org/web/timemap/json?url=${encodeURIComponent(base)}&matchType=prefix&collapse=urlkey&output=json&fl=original%2Cmimetype%2Ctimestamp%2Cendtimestamp%2Cgroupcount%2Cuniqcount&filter=!statuscode%3A%5B45%5D..&limit=10000`;
   const text = await fetchText(tmUrl);
   await ensureDir(CATCH_DIR);
-  await fs.writeFile(path.join(CATCH_DIR, "timemap.json"), text, "utf8");
+  await fs.writeFile(path.join(CATCH_DIR, saveName), text, "utf8");
   const raw = JSON.parse(text) as unknown;
   if (!Array.isArray(raw) || raw.length < 2) return [];
   const header = raw[0] as unknown[];
@@ -468,6 +511,7 @@ async function fetchTimemap(base: string): Promise<TimemapRow[]> {
 function buildAssetMaps(rows: TimemapRow[]) {
   const iconByIndex = new Map<string, TimemapRow>();
   const detailByIndex = new Map<string, TimemapRow>();
+  const detailRowsByIndex = new Map<string, TimemapRow[]>();
   const ssByIndex = new Map<string, TimemapRow[]>();
   for (const r of rows) {
     const u = r.original;
@@ -480,6 +524,9 @@ function buildAssetMaps(rows: TimemapRow[]) {
       const idx = mDetail[1].padStart(2, "0");
       const prev = detailByIndex.get(idx);
       if (!prev || r.endtimestamp > prev.endtimestamp) detailByIndex.set(idx, r);
+      const list = detailRowsByIndex.get(idx) ?? [];
+      list.push(r);
+      detailRowsByIndex.set(idx, list);
       continue;
     }
     // icon: common patterns under /entry/iconNN or /works/img/NNi.png
@@ -506,7 +553,46 @@ function buildAssetMaps(rows: TimemapRow[]) {
       continue;
     }
   }
-  return { iconByIndex, detailByIndex, ssByIndex };
+  return { iconByIndex, detailByIndex, detailRowsByIndex, ssByIndex };
+}
+
+function buildAssetMapsGeocities(rows: TimemapRow[]) {
+  const iconByIndex = new Map<string, TimemapRow>();
+  const detailByIndex = new Map<string, TimemapRow>();
+  const detailRowsByIndex = new Map<string, TimemapRow[]>();
+  const ssByIndex = new Map<string, TimemapRow[]>();
+  for (const r of rows) {
+    const u = r.original;
+    if (!/\/viprpg2018\//i.test(u)) continue;
+    const mDetail = u.match(/\/viprpg2018\/(?:entry(\d{2,3})|works\/(\d{1,3}))\.html$/i);
+    if (mDetail) {
+      const idx = (mDetail[1] || mDetail[2])!.padStart(2, "0");
+      const prev = detailByIndex.get(idx);
+      if (!prev || r.endtimestamp > prev.endtimestamp) detailByIndex.set(idx, r);
+      const list = detailRowsByIndex.get(idx) ?? [];
+      list.push(r);
+      detailRowsByIndex.set(idx, list);
+      continue;
+    }
+    // icons typically under works/img/NNi.png or variants like 01-i.png, 04-i.png
+    const mIcon = u.match(/\/viprpg2018\/works\/img\/(?:0*(\d{1,3})i|0*(\d{1,3})-i)\.(png|jpe?g|gif|bmp)$/i);
+    if (mIcon) {
+      const idx = (mIcon[1] || mIcon[2])!.padStart(2, "0");
+      const prev = iconByIndex.get(idx);
+      if (!prev || r.endtimestamp > prev.endtimestamp) iconByIndex.set(idx, r);
+      continue;
+    }
+    // screenshots like works/img/05-ss1.jpg
+    const mSs = u.match(/\/viprpg2018\/works\/img\/(\d{2,3})-ss\d+\.(png|jpe?g|gif|bmp)$/i);
+    if (mSs) {
+      const idx = mSs[1].padStart(2, "0");
+      const list = ssByIndex.get(idx) ?? [];
+      list.push(r);
+      ssByIndex.set(idx, list);
+      continue;
+    }
+  }
+  return { iconByIndex, detailByIndex, detailRowsByIndex, ssByIndex };
 }
 
 async function run() {
@@ -516,7 +602,8 @@ async function run() {
   await ensureDir(SCREENSHOTS_DIR);
 
   // 1) Fetch index page (Wayback latest) to parse table metadata
-  const indexRows = await fetchTimemap(BASE_ORIGIN);
+  const indexRows = await fetchTimemap(BASE_ORIGIN, "timemap.json");
+  const geoRows = await fetchTimemap(GEO_BASE, "timemap-geocities.json");
   const indexHtmlRow = indexRows.find((r) => /(\/top\.html|\/index\.html|\/menu_entry\.html|\/menu_top\.html)$/i.test(r.original))
     || indexRows.find((r) => /(\/top\.htm|\/index\.htm)$/i.test(r.original));
   if (!indexHtmlRow) {
@@ -576,39 +663,62 @@ async function run() {
   }
 
   // 3) Build asset maps from full timemap
-  const { iconByIndex, detailByIndex, ssByIndex } = buildAssetMaps(indexRows);
+  const { iconByIndex, detailByIndex, detailRowsByIndex, ssByIndex } = buildAssetMaps(indexRows);
+  const { iconByIndex: geoIconByIndex, detailByIndex: geoDetailByIndex, detailRowsByIndex: geoDetailRowsByIndex, ssByIndex: geoSsByIndex } = buildAssetMapsGeocities(geoRows);
 
   const out: WorkEntryOut[] = [];
   const summary: SnapshotRecord[] = [];
 
   for (const e of entries) {
-    // prefer detail page from timemap when available
-    const detailRow = detailByIndex.get(e.index);
-    let detailSnapshot = detailRow ? buildWaybackUrl(detailRow.endtimestamp || detailRow.timestamp, detailRow.original, "fw_") : e.detailUrl;
+    // Exhaustive detail candidates (fc2 then geocities), try oldest->newest until success
+    const detailCandidates: string[] = [];
+    const fc2List = (detailRowsByIndex.get(e.index) || []).slice().sort((a,b)=> a.timestamp.localeCompare(b.timestamp));
+    const geoList = (geoDetailRowsByIndex.get(e.index) || []).slice().sort((a,b)=> a.timestamp.localeCompare(b.timestamp));
+    for (const r of fc2List) detailCandidates.push(buildWaybackUrl(r.endtimestamp || r.timestamp, r.original, "fw_"));
+    for (const r of geoList) detailCandidates.push(buildWaybackUrl(r.endtimestamp || r.timestamp, r.original, "fw_"));
+    // final fallback to web/2 best-match for preferred latest
+    const pref = detailByIndex.get(e.index) || geoDetailByIndex.get(e.index);
+    if (pref) detailCandidates.push(`https://web.archive.org/web/2/${pref.original}`);
     let detail: DetailEntry = {};
-    if (detailSnapshot) {
-      try { detail = await parseDetailGeneric(detailSnapshot); }
-      catch {
-        try { detail = await parseDetailGeneric(`https://web.archive.org/web/2/${detailRow?.original}`); }
-        catch { detail = {}; }
-      }
+    for (const cand of detailCandidates) {
+      try { detail = await parseDetailGeneric(cand); break; } catch {}
     }
 
     // icon from timemap if available, else from list
-    const iconRow = iconByIndex.get(e.index);
-    const iconSnapshot = iconRow ? buildWaybackUrl(iconRow.endtimestamp || iconRow.timestamp, iconRow.original, "im_") : (e.iconUrl ?? undefined);
-    const iconLocal = await copyIcon(e.index, iconSnapshot);
+    // icon: try fc2 & geo; im_ then id_ for each
+    const iconCandidates: string[] = [];
+    const iconRowFc2 = iconByIndex.get(e.index);
+    const iconRowGeo = geoIconByIndex.get(e.index);
+    const pushIcon = (row?: TimemapRow) => {
+      if (!row) return;
+      const ts = row.endtimestamp || row.timestamp;
+      iconCandidates.push(buildWaybackUrl(ts, row.original, "im_"));
+      iconCandidates.push(buildWaybackUrl(ts, row.original, "id_"));
+    };
+    pushIcon(iconRowFc2);
+    pushIcon(iconRowGeo);
+    if (e.iconUrl) iconCandidates.push(e.iconUrl);
+    let iconLocal: string | undefined;
+    for (const cand of iconCandidates) { iconLocal = await copyIcon(e.index, cand); if (iconLocal) break; }
 
     // screenshot sources: union of detail parsed images + timemap best-guess
     const screenshotSources = new Set<string>();
     if (detail.screenshots) detail.screenshots.forEach((u) => screenshotSources.add(u));
     const tmScreens = ssByIndex.get(e.index) || [];
     for (const r of tmScreens) {
-      const s = buildWaybackUrl(r.endtimestamp || r.timestamp, r.original, "im_");
-      screenshotSources.add(s);
+      const ts = r.endtimestamp || r.timestamp;
+      screenshotSources.add(buildWaybackUrl(ts, r.original, "im_"));
+      screenshotSources.add(buildWaybackUrl(ts, r.original, "id_"));
+    }
+    const geoScreens = geoSsByIndex.get(e.index) || [];
+    for (const r of geoScreens) {
+      const ts = r.endtimestamp || r.timestamp;
+      screenshotSources.add(buildWaybackUrl(ts, r.original, "im_"));
+      screenshotSources.add(buildWaybackUrl(ts, r.original, "id_"));
     }
     const screenshotResult = await copyScreenshots(e.index, Array.from(screenshotSources));
 
+    const forumPreferred = await preferLiveExternal(e.forumUrl);
     const work: WorkEntryOut = {
       id: `${FESTIVAL_ID}-work-${e.index}`,
       festivalId: FESTIVAL_ID,
@@ -618,12 +728,15 @@ async function run() {
       category: e.genre,
       engine: e.engine,
       streaming: e.streamingRaw,
-      forum: e.forumUrl,
+      forum: forumPreferred,
       authorComment: detail.authorComment,
       hostComment: detail.hostComment,
       icon: iconLocal,
       ss: screenshotResult.paths.length > 0 ? screenshotResult.paths : undefined,
     };
+    if (!work.authorComment && !work.hostComment && (!work.ss || work.ss.length === 0)) {
+      (work as any).detailDisabled = true;
+    }
     out.push(work);
 
     summary.push({
