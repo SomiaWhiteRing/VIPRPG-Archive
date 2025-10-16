@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/common.css?1223_1">
+	<link rel="icon" type="image/png" href="../img/icon.png">
+	<title>紅白2017作品一覧</title>
+</head>
+<body><script type="text/javascript" charset="utf-8" src="//asumi.shinobi.jp/encount"></script><div style="text-align: center;"><div style="display: inline-block; position: relative; z-index: 9999;"><script type="text/javascript" charset="utf-8" src="//asumi.shinobi.jp/fire?f=44"></script><script type="text/javascript" charset="utf-8" src="/__sys__inactive_message.js"></script></div></div>
+<div class="bodylike">
+
+	<div class="head">
+		<div class="top">
+			<h1>紅白2017作品一覧</h1>
+		</div>
+	</div>
+	<br>
+
+	<div class="nonline">
+		<a href="index.html" class="button1">トップページへ戻る</a>
+		<a href="http://jbbs.shitaraba.net/game/60350/" class="button1">掲示板</a>	
+		<a href="http://jbbs.shitaraba.net/bbs/read.cgi/game/60350/1509880850/" class="button1">運営スレ</a>
+		<a class="button1 resetmarker">マーカーリセット</a><br>
+		<br>
+
+		<div class="mobile2">
+			現在携帯モードで表示しているため、作品DL等は各作品ページから行ってください。
+			PCでこの表示が出る場合は、ブラウザの横幅を540px以上に広げてください<br>
+		</div>
+		<!--ゲームリスト、データは'../games/data.json'を読み込んでjQueryで生成-->
+		<table class="gamelist" id="gamelist">
+		</table>
+		<br>
+
+		<!--ssポップアップ用のimg 座標はjQueryで調整-->
+		<img class="pop" id="pop" src="" alt="">
+	</div>
+
+	<div style="height:600px;"></div>
+
+	<div class="foot">
+		<div class="bottom">
+			<a>VIPRPG 2017紅白</a>
+		</div>
+	</div>
+</div>
+<script src="../js/jquery.js"></script>
+<script src="../js/jquery.cookie.js"></script>
+<script src="../js/common.js"></script>
+<script type="text/JavaScript"><!--
+
+	//#####リスト作成##################################################
+	//JSON読み込み
+	$.when(
+		$.getJSON('../games/data.json'),
+		$.getJSON('../games/data.json')
+	)
+	.done(function(data, dammy){
+
+		data = data[0];
+		var count = 0;//count[0];
+
+		//alert(count);
+		var num = data['num'];							//作品数
+		var no, evenodd, icon, dm, vote, board, board2;	//各種変数
+
+		//マーカー設定
+		var mark = [];
+		if($.cookie('check')){
+			//クッキーが存在時のみ行う
+			var cvalue = $.cookie('check');
+
+			//クッキーから必要な値を読み取りリストにセット
+			for(var i = 0; i <= num; i++){
+				mark[i] = cvalue.substr(i, 1);
+			}
+		}
+
+		//各作品処理
+		for(var i = 0; i <= num; i++){
+			//10作品に一つ見出しをつける
+			if(i % 10 == 0){
+				$('#gamelist').append(
+					'<tr style="color:white; background-color:#696969;">' +
+						'<td class="no">No.</td>' +
+						'<td class="check">ﾏｰｶｰ</td>' +
+						'<td class="tkool">ﾂｸｰﾙ</td>' +
+						'<td class="title">作品名<br class="mobile2">' +
+							'<a class="mobile2">作者名/ジャンル</a></td>' +
+						'<td class="ag">作者名<br>ジャンル</td>' +
+						'<td class="tdm" title="配信/動画">配/動<br>投票</td>' +
+						'<td class="board">感想</td>' +
+						'<td class="subdate">提出日<br>更新日</td>' +
+						'<td class="dl">DL</td>' +
+						'<td class="count">DL数<br>Web</td>' +
+						'<td class="count"><!--票数--></td>' +
+					'</tr>'
+				);				
+			}
+
+			//通し番号
+			if(i <= 9){
+				no = '0' + i;
+			}else{
+				no = i;
+			}
+
+			//偶数奇数によって背景色を変える
+			if(i % 2 == 0){
+				evenodd = 'class="even"';
+			}else{
+				evenodd = 'class="odd"';
+			}
+
+			//iconの拡張子が指定されていなければicon.pngを入れる
+			if(data[i]['iconext'] == ''){
+				icon = '../img/games/icon.png';
+			}else{
+				icon = '../img/games/' + i + '-icon.' + data[i]['iconext'];
+			}
+
+			//配信/動画を〇×で表現、これ以外だったらタイトルに挿入
+			switch(data[i]['dandm']){
+				case '可/可':
+					dm = '〇/〇';
+					break;
+				case '不可/可':
+					dm = '✕/〇';
+					break;
+				case '可/不可':
+					dm = '〇/✕';
+					break;
+				case '不可/不可':
+					dm = '✕/✕';
+					break;
+				default:
+					dm = '※';
+			}
+
+			//投票
+			if(data[i]['vote'] == 1){
+				vote = "〇";
+			}else{
+				vote = "✕";
+			}		
+
+			//掲示板
+			if(data[i]['board']){
+				board = '<a class="button2" href="04_game.html?id=' + i + '&#impression">〇</a>';
+				board2 = '<a class="mobile2" href="04_game.html?id=' + i + '&#impression">感想</a>';
+			}else{
+				board = board2 = '';
+			}
+
+			//マーカー初期値（クッキーから）
+			var markVal = [];
+			markVal[mark[i]] = 'selected';
+
+			//PIAI
+			if(data[i]['link1'] != '' && data[i]['link2'] != ''){
+				var piaiButton = 
+					'<button id="gameDl' + i + '" class="button6" data-link="' + data[i]['link1'] + '">' + 
+					data[i]['capa'] + '</button><br>' +
+					'<button  id="gameWeb' + i + '" class="button8"  data-link="' + data[i]['link2'] + '">web版</button>';
+			}else if(data[i]['link1'] != '' && data[i]['link2'] == ''){
+				var piaiButton =
+					'<button id="gameDl' + i + '" class="button6" data-link="' + data[i]['link1'] + '"><div style="height:8px"></div>' + data[i]['capa'] + '<div style="height:8px"></div></button>';
+			}else if(data[i]['link1'] == '' && data[i]['link2'] != ''){
+				var piaiButton =
+					'<button id="gameWeb' + i + '" class="button8" data-link="' + data[i]['link2'] + '"><div style="height:8px"></div>web版<div style="height:8px"></div></button>';
+			}else{
+				var piaiButton = '';
+			}
+			
+			//カウンター
+			if(count[i] == undefined){
+				var writeCount = '';
+			}else{
+				if(count[i]['dl'] != undefined && count[i]['web'] != undefined){
+					var writeCount = count[i]['dl'] + '<br>' + count[i]['web'];
+				}else if(count[i]['dl'] != undefined && count[i]['web'] == undefined){
+					var writeCount = count[i]['dl'];
+				}else{
+					var writeCount = count[i]['web'];
+				}
+			}
+
+			//各要素を代入
+			$('#gamelist').append(
+				'<tr ' + evenodd + '>' +
+					//アイコンマウスオーバー時にssを表示、必要なデータはdata-*に入れる
+					'<td class="no">' + no + '<img src="' + icon + '" alt="" class="icon" data-i="' + i + '" data-ss1ext="' + data[i]['ss1ext'] + '" data-ss2ext="' + data[i]['ss2ext'] + '"></td>' +
+					'<td class="check">' +
+						//マーカーセット
+						'<select id="list' + i + '" class="mark">' +
+							'<option value="0"></option>' +
+							'<option value="1" ' + markVal[1] + '>済</option>' +
+							'<option value="2" ' + markVal[2] + '>未</option>' +
+							'<option value="3" ' + markVal[3] + '>〇</option>' +
+							'<option value="4" ' + markVal[4] + '>❤</option>' +
+							'<option value="5" ' + markVal[5] + '>！</option>' +
+							'<option value="6" ' + markVal[6] + '>？</option>' +
+						'</select>' +
+					'</td>' +
+					'<td class="tkool">' + data[i]['tkool'] + '</td>' +
+					'<td class="title"><a title="' + data[i]['title'] + '" href="04_game.html?id=' + i + '">' + data[i]['title'] + '</a><br class="mobile2">' +
+						'<a class="mobile2">' + data[i]['author'] + '/' + data[i]['genre'] + '</a>' + board2 +
+					'</td>' +
+					'<td class="ag"><a title="' + data[i]['author'] + '">' + data[i]['author'] + '</a><br>' +
+					'	<a title="' + data[i]['genre'] + '">' + data[i]['genre'] + '</a></td>' +
+					'<td class="tdm"><a title=\"' + data[i]['dandm'] + '">' + dm + '</a><br>' +
+						vote + '</td>' +
+					'<td class="board">' + board + '</td>' +
+					'<td class="subdate">' + data[i]['date1'] + '<br>' + data[i]['date2'] + '</td>' +	
+					'<td class="dl">' + piaiButton + '</td>' +
+					'<td class="count">' + writeCount + '</td>' +
+					'<td class="count"></td>' +
+				'</tr>'
+			);
+			
+		}
+	});
+	
+	//#####各種動作##################################################
+
+	//マーカーの値変更時、クッキーに保存
+	$(document).on('change', '.mark', function(){
+		if(!$.cookie('check')){
+			//クッキーが存在しない場合、まずは値をセット
+			var cvalue = '';		
+			//255文字0を続ける
+			for (var i = 0; i < 255; i++){
+				cvalue += '0';
+			}
+		}else{
+			//クッキー存在する場合は値をそのまま変数にセット
+			var cvalue = $.cookie('check');
+		}
+
+		//変更した作品番号と、値を取得
+		var num = Number($(this).attr('id').slice(4));
+		var value = $(this).val();
+
+		//値を書き換え
+		cvalue = cvalue.slice(0, num) + value + cvalue.slice(num + 1);
+		//alert(cvalue);
+
+		//クッキー書き込み		
+		$.cookie('check', cvalue, { expires: 365 });
+	});
+
+	//マーカーリセット
+	$('.resetmarker').on('click', function(){
+		if(confirm('マーカーの値を全てリセットしますか？')){
+			//OK
+			$('.mark').val('');
+
+			//クッキー破棄
+			$.removeCookie('check');
+
+		}else{
+			//キャンセル時
+		}
+	});
+
+	//ss表示
+	$(document).on({
+		//マウスオン
+		'mouseenter': function(){
+			var i = $(this).data('i');								//マウスオンしたアイコン番号
+			var ss1ext = $(this).data('ss1ext');					//ss1の拡張子
+			var ss2ext = $(this).data('ss2ext');					//ss2の拡張子：ss2が無ければ空
+			var ss1 = '../img/games/' + i + '-1.' + ss1ext;			//ss1のパス
+
+			$('#pop').css('top', $(window).scrollTop() + 100);		//スクロールに合わせて画像位置を調整
+			$('#pop').attr('src', ss1);								//ss1を表示
+
+			if(ss2ext != ''){
+				$(this).attr('title', 'クリックでss切替');			  //ss2があるときお知らせ
+			}
+		},
+		
+		//マウスオフ
+		'mouseleave': function(){
+			$('#pop').attr('src', '');								//画像を空に
+		},
+
+		//クリック
+		'click': function(){
+			var i = $(this).data('i');								//マウスオンしたアイコン番号
+			var ss1ext = $(this).data('ss1ext');					//ss1の拡張子
+			var ss2ext = $(this).data('ss2ext');					//ss2の拡張子：ss2が無ければ空
+			var ss1 = '../img/games/' + i + '-1.' + ss1ext;			//ss1のパス
+			var ss2 = '../img/games/' + i + '-2.' + ss2ext;			//ss2のパス
+			
+			//ss2があるときだけ切替
+			if(ss2ext != ''){
+				//現在表示していないほうのssに切替
+				if($('#pop').attr('src') == ss1){
+					$('#pop').attr('src', ss2);
+
+				}else{
+					$('#pop').attr('src', ss1);
+				}
+			//ss2が無いときはそのまま
+			}else{
+				$('#pop').attr('src', ss1);
+			}
+
+		}
+	}, '.icon');
+
+	//#########################DL####################################
+	$('body').on('click', '[id^="gameDl"]', function(){
+		//作品番号取得し、クッキーとカウンターの確認
+		var num = Number($(this).attr('id').slice(6));
+		var type = 'dl';
+		setCount(num, type);
+		//DLページに飛ばす
+		window.location.href = $(this).data('link');
+	});
+	//Web
+	$('body').on('click', '[id^="gameWeb"]', function(){
+		//作品番号取得し、クッキーとカウンターの確認
+		var num = Number($(this).attr('id').slice(7));
+		var type = 'web';
+		setCount(num, type);
+		//Webページに飛ばす
+		window.location.href = $(this).data('link');
+	});
+
+	function setCount(num, datatype){
+		if(!$.cookie(datatype)){
+			//クッキーが存在しない場合、まずは値をセット
+			var cvalue = '';		
+			//255文字0を続ける
+			for (var i = 0; i < 255; i++){
+				cvalue += '0';
+			}
+		}else{
+			//クッキー存在する場合は値をそのまま変数にセット
+			var cvalue = $.cookie(datatype);
+		}
+
+		//初DLの場合≒クッキーの値が0の場合、カウントする
+		var val = cvalue.substr(num, 1);
+		if(val !== '1'){
+			//受け渡し用データ
+			var postData = { no: num, type: datatype };
+			//カウント用のphpにデータ受け渡し
+			/*.ajax({
+				type: "POST",
+				url: "05_dl.php",
+				data: postData
+			});*/
+		}
+		//クッキー書き込み		
+		var value = 1;
+		cvalue = cvalue.slice(0, num) + value + cvalue.slice(num + 1);
+		$.cookie(datatype, cvalue, { expires: 365 });
+	}
+
+	//#########################DL数カウント###############################
+
+
+--></script>
+</body>
+</html>

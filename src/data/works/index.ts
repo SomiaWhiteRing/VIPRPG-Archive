@@ -46,7 +46,6 @@ import works2016Summer from "./2016-summer.json";
 import works2016Summer2 from "./2016-summer-2.json";
 import works2017Gw from "./2017-gw.json";
 import works2017Kouhaku from "./2017-kouhaku.json";
-import works2017Kouhaku2 from "./2017-kouhaku-2.json";
 import works2017Summer from "./2017-summer.json";
 import works2018Gw from "./2018-gw.json";
 import works2018Gw2 from "./2018-gw-2.json";

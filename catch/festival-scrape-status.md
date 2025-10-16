@@ -27,8 +27,7 @@
 - [x] `2018-kouhaku` VIPRPG紅白2018
 - [x] `2018-summer` VIPRPG 2018夏祭り
 - [x] `2017-gw` VIPRPG GW祭 2017
-- [ ] `2017-kouhaku` VIPRPG 紅白2017
-- [ ] `2017-kouhaku-2` VIPRPG 紅白2017ミラーサイト
+- [x] `2017-kouhaku` VIPRPG 紅白2017
 - [ ] `2017-summer` VIPRPG 夏の陣 2017
 - [ ] `2016-gw` VIPRPGツクール　GW祭2016
 - [ ] `2016-kouhaku` VIPRPG紅白2016
