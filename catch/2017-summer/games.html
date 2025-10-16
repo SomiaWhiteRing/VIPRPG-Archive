@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <title>夏の陣2017</title>
+    <style>
+      td{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .modal-card{
+        width: 90%;
+        height: 90%;
+      }
+      img.unselected{
+        cursor: pointer;
+        cursor: hand;
+        opacity: 20%;
+      }
+      img.unselected:hover{
+        opacity: 40%;
+      }
+    </style>
+  </head>
+  <body class="has-background-white-ter"><script type="text/javascript" charset="utf-8" src="//asumi.shinobi.jp/encount"></script><div style="text-align: center;"><div style="display: inline-block; position: relative; z-index: 9999;"><script type="text/javascript" charset="utf-8" src="//asumi.shinobi.jp/fire?f=44"></script><script type="text/javascript" charset="utf-8" src="/__sys__inactive_message.js"></script></div></div>
+
+    <div id="app" class="container">
+      <br>
+      <img src="images/banner.png" width="200px" height="40px">
+
+      <h1 class="title">VIPRPG夏の陣2017(復元版)</h1>
+      <a href="http://jbbs.shitaraba.net/game/60231/" class="button is-info" target="_blank" rel="noopener noreferrer" style="margin-left:10px">運営掲示板</a>
+      <a href="http://jbbs.shitaraba.net/game/60233/" class="button is-info" target="_blank" rel="noopener noreferrer" style="margin-left:10px">感想掲示板</a>
+      <a href="awarding.html" class="button is-warning" style="margin-left:10px">投票結果</a>
+
+      <hr>
+
+      <table class="table is-narrow is-striped">
+        <thead>
+          <th>No</th>
+          <th>icon</th>
+          <th>作品名</th>
+          <th>ジャンル</th>
+          <th>作者</th>
+          <th>動画/配信</th>
+          <th>DL</th>
+          <th>感想</th>
+        </thead>
+
+        <tbody>
+          <tr v-for="(values, index) in gameDataes">
+            <th>{{index}}</th>
+            <td><img v-if="values.icon" :src=`images/icon/${index}.${values.icon}`></td>
+            <td style="max-width: 500px"><a class="has-text-primary-dark" @click="openModal(index)">{{values.title}}</a></td>
+            <td style="max-width: 150px">{{values.genre}}</td>
+            <td style="max-width: 150px">{{values.author}}</td>
+            <td style="max-width: 50px">{{values.dandm}}</td>
+            <td><a :href="values.link" target="_blank" rel="noopener noreferrer">{{values.volume}}</a></td>
+            <td><a target="_blank" rel="noopener noreferrer"
+              :href=`http://jbbs.shitaraba.net/bbs/read.cgi/game/60233/${values.board}`
+              v-show="values.board"
+            >掲示板へ</a></td>
+          </tr>
+        </tbody>
+
+      </table>
+      
+      <div class="modal" :class="{'is-active': isOpenModal}">
+        <div class="modal-background" @click="closeModal()"></div>
+        <div class="modal-card">
+          <header class="modal-card-head">
+              <img v-if="activeData.icon" :src=`images/icon/${activeNumber}.${activeData.icon}`>
+            <p class="modal-card-title">No.{{activeNumber}} {{activeData.title}}</p>
+            <button class="delete" @click="closeModal()"></button>
+          </header>
+          <section class="modal-card-body">
+            <div class="columns">
+
+              <div class="column is-6">
+                
+                <img :src="selectedImageUrl" class="4by3">
+
+                <div class="columns is-mobile is-gapless">
+                    <div class="column is-3">
+                      <img :src="imageUrl1" class="4by3" :class="{'unselected': selectedImage !== 1}" @click="selectedImage = 1">
+                    </div>
+                    <div class="column is-3">
+                      <img :src="imageUrl2" class="4by3" :class="{'unselected': selectedImage !== 2}" @click="selectedImage = 2">
+                    </div>
+                </div>
+
+              </div>
+
+              <div class="column is-6">
+
+                <table class="table is-narrow">
+                  <tr>
+                    <td>作者：</td>
+                    <td>{{activeData.author}}</td>
+                  </tr>
+                  <tr>
+                    <td>ジャンル：</td>
+                    <td>{{activeData.genre}}</td>
+                  </tr>
+                  <tr>
+                    <td>ツール：</td>
+                    <td>{{activeData.tkool}}</td>
+                  </tr>
+                  <tr>
+                    <td>DL：</td>
+                    <td>{{activeData.dandm}}</td>
+                  </tr>
+                  <tr>
+                    <td>最終更新：</td>
+                    <td>{{activeData.game}}</td>
+                  </tr>
+                  <tr>
+                    <td>DL：</td>
+                    <td><a target="_blank" rel="noopener noreferrer" :href="activeData.link" v-show="activeData.link">DL {{activeData.volume}}</a></td>
+                  </tr>
+                  <tr>
+                    <td>感想：</td>
+                    <td><a target="_blank" rel="noopener noreferrer"
+                      :href=`http://jbbs.shitaraba.net/bbs/read.cgi/game/60233/${activeData.board}`
+                      v-show="activeData.board"
+                    >掲示板へ
+                    </a></td>
+                  </tr>
+                </table>
+                <hr>
+
+                作者コメント：<br>
+                <span v-html="activeData.comment"></span>
+                <hr>
+                管理人コメント：<br>
+                <span v-html="activeData.comment2"></span>
+
+              </div>
+            </div>
+            
+            
+          </section>
+          <footer class="modal-card-foot">
+            <button class="button is-warning" :class="{'is-static': activeNumber === 0}" @click="moveActiveNumber(-1)">前へ</button>
+            <button class="button is-warning" :class="{'is-static': activeNumber >= 44}" @click="moveActiveNumber(1)">次へ</button>
+            <button class="button is-info" @click="closeModal">閉じる</button>
+          </footer>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="games.js"></script>
+
+  </body>
+</html>
