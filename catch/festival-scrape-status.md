@@ -29,7 +29,7 @@
 - [x] `2017-gw` VIPRPG GW祭 2017
 - [x] `2017-kouhaku` VIPRPG 紅白2017
 - [x] `2017-summer` VIPRPG 夏の陣 2017
-- [ ] `2016-gw` VIPRPGツクール　GW祭2016
+- [x] `2016-gw` VIPRPGツクール　GW祭2016
 - [ ] `2016-kouhaku` VIPRPG紅白2016
 - [ ] `2016-summer` VIPRPG夏の陣 2016
 - [ ] `2016-summer-2` VIPRPG裏夏の陣 2016
