@@ -33,7 +33,7 @@
 - [x] `2016-kouhaku` VIPRPG紅白2016
 - [x] `2016-summer` VIPRPG夏の陣 2016
 - [x] `2016-summer-2` VIPRPG裏夏の陣 2016
-- [ ] `2015-gw` VIPRPGツクール　GW祭2015
+- [x] `2015-gw` VIPRPGツクール　GW祭2015
 - [ ] `2015-kouhaku` VIPRPG紅白2015
 - [ ] `2015-summer` VIPRPG夏の陣 2015
 - [ ] `2014-gw` VIPRPG GW祭り 2014
