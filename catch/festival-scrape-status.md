@@ -40,7 +40,7 @@
 - [x] `2014-kouhaku` VIPRPG紅白2014
 - [x] `2014-summer` VIPRPG 夏の陣 2014
 - [x] `2014-tsukusure-festival` ツクスレ秋の素材祭り
-- [ ] `2013-gw` VIPRPG GW祭り 2013
+- [x] `2013-gw` VIPRPG GW祭り 2013
 - [ ] `2013-kouhaku` VIPRPG紅白2013
 - [ ] `2013-summer` VIPRPG 夏の陣 2013
 - [ ] `2012-gw` VIPRPG GW祭り 2012
