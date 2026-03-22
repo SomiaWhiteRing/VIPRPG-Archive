@@ -53,7 +53,7 @@
 - [x] `2011-kouhaku` VIPRPG紅白 2011
 - [x] `2011-summer` VIPRPG 夏の陣 2011
 - [x] `2011-toppatsu-festival` VIPRPG 突発祭り
-- [ ] `2010-gw` VIPRPG GW祭り 2010
+- [x] `2010-gw` VIPRPG GW祭り 2010
 - [x] `2010-kouhaku` VIPRPG紅白 2010年
 - [ ] `2010-summer` VIPRPG夏の陣 2010年
 - [ ] `2009-gw` VIPRPG GW祭り2009
