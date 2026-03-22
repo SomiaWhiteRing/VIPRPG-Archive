@@ -59,7 +59,7 @@
 - [x] `2009-gw` VIPRPG GW祭り2009
 - [x] `2009-kouhaku` VIPRPG紅白 2009年
 - [x] `2009-ksgfestival` VIPRPG ksg祭り
-- [ ] `2009-silver-week-miruge-festival` VIPRPG 2009シルバーウィーク 見るゲ祭り
+- [x] `2009-silver-week-miruge-festival` VIPRPG 2009シルバーウィーク 見るゲ祭り
 - [ ] `2009-summer` VIPRPG夏の陣 2009年
 - [ ] `2008-chuuni-festival` VIPRPG厨二病祭り
 - [ ] `2008-gw` VIPRPG 2008GW
