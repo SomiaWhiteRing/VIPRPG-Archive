@@ -43,7 +43,7 @@
 - [x] `2013-gw` VIPRPG GW祭り 2013
 - [x] `2013-kouhaku` VIPRPG紅白2013
 - [x] `2013-summer` VIPRPG 夏の陣 2013
-- [ ] `2012-gw` VIPRPG GW祭り 2012
+- [x] `2012-gw` VIPRPG GW祭り 2012
 - [ ] `2012-kouhaku` VIPRPG紅白2012
 - [ ] `2012-magic-festival` VIPRPG 魔法祭り 2012
 - [ ] `2012-summer` VIPRPG 夏の陣 2012
