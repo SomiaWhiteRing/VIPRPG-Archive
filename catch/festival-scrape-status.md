@@ -63,7 +63,7 @@
 - [x] `2009-summer` VIPRPG夏の陣 2009年
 - [x] `2008-chuuni-festival` VIPRPG厨二病祭り
 - [x] `2008-gw` VIPRPG 2008GW
-- [ ] `2008-jisaku-battle-festival` VIPRPG　自作戦闘祭り
+- [x] `2008-jisaku-battle-festival` VIPRPG　自作戦闘祭り
 - [ ] `2008-kouhaku` VIPRPG紅白2008
 - [ ] `2008-seiyoku-festival` VIPRPG性欲祭り2008
 - [ ] `2008-summer` VIPRPG 夏の陣08
