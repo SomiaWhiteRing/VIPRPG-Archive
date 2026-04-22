@@ -64,13 +64,13 @@
 - [x] `2008-chuuni-festival` VIPRPG厨二病祭り
 - [x] `2008-gw` VIPRPG 2008GW
 - [x] `2008-jisaku-battle-festival` VIPRPG　自作戦闘祭り
-- [ ] `2008-kouhaku` VIPRPG紅白2008
-- [ ] `2008-seiyoku-festival` VIPRPG性欲祭り2008
-- [ ] `2008-summer` VIPRPG 夏の陣08
-- [ ] `2007-default-battle-festival` VIPRPGデフォ戦祭り
-- [ ] `2007-gw` VIPRPG GW2007
-- [ ] `2007-summer` VIPRPG夏祭り2007
-- [ ] `2006-gw` VIPRPGツクール-GW祭り2006
-- [ ] `2006-kouhaku` 第二回VIPRPG紅白
-- [ ] `2006-summer` VIPRPG祭り 夏の陣06
-- [ ] `2005-kouhaku` 05紅白VIPRPGまとめページ
+- [x] `2008-kouhaku` VIPRPG紅白2008
+- [x] `2008-seiyoku-festival` VIPRPG性欲祭り2008
+- [x] `2008-summer` VIPRPG 夏の陣08
+- [x] `2007-default-battle-festival` VIPRPGデフォ戦祭り
+- [x] `2007-gw` VIPRPG GW2007
+- [x] `2007-summer` VIPRPG夏祭り2007
+- [x] `2006-gw` VIPRPGツクール-GW祭り2006
+- [x] `2006-kouhaku` 第二回VIPRPG紅白
+- [x] `2006-summer` VIPRPG祭り 夏の陣06
+- [x] `2005-kouhaku` 05紅白VIPRPGまとめページ
