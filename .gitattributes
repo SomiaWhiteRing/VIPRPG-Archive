@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Recovery evidence and original-page bundles must retain their exact bytes.
+/catch/** -text
+/public/original-pages/** -text
