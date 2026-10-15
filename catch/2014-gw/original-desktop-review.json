@@ -1,0 +1,36 @@
+{
+  "reviewedAt": "2026-10-15T12:11:38.966Z",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "width": 1280,
+      "height": 900
+    }
+  ],
+  "imageDecode": {
+    "total": 143,
+    "decoded": 143,
+    "failures": []
+  },
+  "checks": {
+    "entries": 69,
+    "detail003": {
+      "screenshot": "entry/ss003.png",
+      "width": 640,
+      "height": 480
+    },
+    "navigation": true
+  },
+  "horizontalOverflow": false,
+  "console": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "screenshots": [
+    "test-results/review-2014-gw-original-list.png",
+    "test-results/review-2014-gw-original-detail003.png"
+  ]
+}
