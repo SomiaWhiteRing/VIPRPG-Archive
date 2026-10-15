@@ -6,7 +6,14 @@ import { imageExtension, writeJson } from "./recover-entry-table";
 import { getDictionary } from "../src/lib/i18n";
 import type { WorkEntry } from "../src/lib/types";
 
-const configurations: Record<string, { base: string; manifests: string[]; seeds: Record<string, string>; encoding?: string; liveSource?: boolean; disabledLocalLinks?: string[]; externalResources?: Record<string, string>; frames?: { menuPage: string; menuName: string; mainName: string } }> = {
+const configurations: Record<string, { base: string; entry?: string; manifests: string[]; seeds: Record<string, string>; encoding?: string; liveSource?: boolean; disabledLocalLinks?: string[]; externalResources?: Record<string, string>; frames?: { menuPage: string; menuName: string; mainName: string } }> = {
+  "2012-gw": {
+    base: "http://viprpg2012gw.web.fc2.com/",
+    entry: "top.html",
+    manifests: ["source/recovery/manifest.json"],
+    seeds: { "top.html": "investigation/original-live.bin" },
+    liveSource: true,
+  },
   "2013-summer": {
     base: "http://www.geocities.jp/viprpgsummer2013/",
     manifests: ["source/recovery/manifest.json"],
@@ -80,7 +87,10 @@ async function main() {
   await fs.mkdir(cache, { recursive: true });
   const base = new URL(config.base);
   const encoding = config.encoding ?? "shift_jis";
-  const inventory: string[][] = JSON.parse(await fs.readFile(`${root}/investigation/original-timemap.bin`, "utf8"));
+  const inventory: string[][] = JSON.parse(await fs.readFile(`${root}/investigation/original-timemap.bin`, "utf8").catch((error: NodeJS.ErrnoException) => {
+    if (config.liveSource && error.code === "ENOENT") return "[]";
+    throw error;
+  }));
   const cached = new Map<string, string>();
   const queue = new Set<string>(), files = new Map<string, Buffer>(), failures: Array<{ url: string; requestedUrl?: string; error: string }> = [];
   const compatibilityFixes: Array<{ page: string; change: string }> = [];
@@ -195,7 +205,18 @@ async function main() {
           const work = catalogue.find((work) => work.no === restriction.no)!;
           const escape = (text: string) => text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
           if (local === restriction.sourcePath) {
-            if (id === "2013-kouhaku") {
+            if (id === "2012-gw") {
+              const image = path.posix.relative(path.posix.dirname(local), `restricted/${restriction.no}-screenshot.svg`);
+              $("h2").first().text(work.title);
+              $("table").first().html(`<tr><td><img src="${image}" width="640" height="480" alt="${restrictedText.restrictedContent}"></td></tr>
+                <tr><td>${restrictedText.restrictedContentText}</td></tr>
+                <tr><td><p><strong>タイトル：</strong>${escape(work.title)}</p></td></tr>
+                <tr><td><p><strong>作者名：</strong>${escape(work.author)}</p></td></tr>
+                <tr><td><p><strong>ツクール名：</strong>${escape(work.engine || "")}</p></td></tr>
+                <tr><td><p><strong>コメント：</strong>${restrictedText.restrictedContentText}</p></td></tr>
+                <tr><td><p><strong>動画配信：</strong>${restrictedText.restrictedContent}</p></td></tr>
+                <tr><td><p><strong>管理人より：</strong>${restrictedText.restrictedContentText}</p></td></tr>`);
+            } else if (id === "2013-kouhaku") {
               const navigation = $("table").first().html();
               const image = path.posix.relative(path.posix.dirname(local), `restricted/${restriction.no}-screenshot.svg`);
               const icon = path.posix.relative(path.posix.dirname(local), `restricted/${restriction.no}-icon.svg`);
@@ -223,6 +244,7 @@ async function main() {
             row.find("img").attr("src", path.posix.relative(path.posix.dirname(local), `restricted/${restriction.no}-icon.svg`)).removeAttr("onmouseover onmouseout");
             row.find("a").each((_, link) => { if (new URL($(link).attr("href")!, original).pathname !== new URL(restriction.sourcePath, base).pathname) $(link).replaceWith("非表示"); });
             if (local === "index.html") row.children("td").eq(6).text("非表示");
+            if (id === "2012-gw" && local === "top.html") row.children("td").eq(5).text(restrictedText.restrictedContent);
           });
           if (restriction.relatedUrls?.length) $("a[href]").filter((_, a) => restriction.relatedUrls!.includes(new URL($(a).attr("href")!, original).href)).replaceWith(restrictedText.restrictedContent);
         }
@@ -326,14 +348,14 @@ async function main() {
     await fs.mkdir(path.dirname(target), { recursive: true });
     await fs.writeFile(target, bytes);
   }
-  if (!files.has("index.html")) throw new Error("Original index was not recovered");
+  if (!files.has(config.entry ?? "index.html")) throw new Error("Original entry page was not recovered");
   const viewsPath = "src/data/original-views.json", views = JSON.parse(await fs.readFile(viewsPath, "utf8"));
   const preloadResources = {
     unavailableUnused: invalidPreloads.length,
     cachedUnused: (recovery.entries ?? []).reduce((total: number, entry: { additionalPreloadsRecovered?: number }) => total + (entry.additionalPreloadsRecovered ?? 0), 0),
     evidence: `${root}/recovery.json`,
   };
-  views[id] = { entry: `/original-pages/${id}/index.html`, status: failures.length ? "available-with-documented-omissions" : "available" };
+  views[id] = { entry: `/original-pages/${id}/${config.entry ?? "index.html"}`, status: failures.length ? "available-with-documented-omissions" : "available" };
   await writeJson(viewsPath, views);
   await writeJson(`${root}/original-view.json`, { festivalId: id, sourceEncoding: encoding, entry: views[id].entry, sourceManifests: config.manifests, sourcePages: config.seeds, files: [...files.keys()], generatedPlaceholders, preloadResources, missingResources: failures, omittedBackgrounds, omittedHovers, compatibilityFixes, changes: [`Original HTML and CSS normalized from ${encoding} to UTF-8.`, "Same-site links, CSS resources and absolute script/hover URLs use local paths.", "External hosting trackers removed; unavailable unused preloads replaced with an empty image.", "Original pages are displayed inside a sandboxed frame.", ...(omittedBackgrounds.length ? ["Unavailable background references are omitted; the original background colors are retained and missing resources remain documented."] : []), ...(restrictions.length ? ["Restricted entries retain their catalogue row and full detail structure with fixed neutral text and generated placeholders; original restricted descriptions, media and related links are not published."] : []), ...(config.frames ? ["A scoped local message forwards menu clicks to the sibling frame while preserving the original frameset and sandbox isolation."] : [])], desktopReview: "pending" });
   console.log(`${id}: ${files.size} files; ${failures.length} missing resources.`);

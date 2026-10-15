@@ -1,0 +1,102 @@
+{
+  "reviewedAt": "2026-10-16",
+  "scope": "Desktop only",
+  "dataSha256": "902dad3a5a50430b6df9191ff9af66e2887aebf2509860bb4acd0dd1a8a2086e",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "width": 1280,
+      "height": 900
+    }
+  ],
+  "catalogue": {
+    "rows": 60,
+    "sampleAdded": "00",
+    "sourceDetails": 59,
+    "restrictedTemplates": 1,
+    "icons": 59,
+    "screenshots": 59,
+    "banners": 2,
+    "historicalDownloadWorks": 49,
+    "historicalDownloadLinks": 54,
+    "patchWorks": 5,
+    "forums": 58
+  },
+  "source": {
+    "liveOriginal": true,
+    "url": "http://viprpg2012gw.web.fc2.com/top.html",
+    "metadataChecked": 240,
+    "streamingChecked": 59,
+    "commentsChecked": 118,
+    "title22": "ＨＹＰＥＲ RAMBO",
+    "title22OfficialForumConfirmed": true,
+    "sourcePatch03WhitespacePreserved": true
+  },
+  "images": {
+    "formatted": 112,
+    "original": 114,
+    "originalNeutralSvg": 2,
+    "allDecoded": true
+  },
+  "routes": {
+    "total": 60,
+    "status200": 60
+  },
+  "original": {
+    "entry": "top.html",
+    "files": 175,
+    "workLinks": 60,
+    "charset": "UTF-8",
+    "localSampleAndTopNavigation": true,
+    "sampleNatural": [
+      640,
+      480
+    ],
+    "restricted45": {
+      "placeholderLoaded": true,
+      "originalDescriptionsOmitted": true,
+      "sourceRelatedLinksOmitted": true,
+      "metadataAndCommentRowsPresent": true
+    }
+  },
+  "formatted": {
+    "restricted45": {
+      "catalogueRow": true,
+      "fixedNeutralText": true,
+      "fullAuthorHostUpdateSections": true,
+      "noOriginalDownloadForumSourceLinks": true
+    },
+    "patch03": {
+      "mainAndPatchBothShown": true
+    },
+    "sample00": {
+      "noInventedDownloadOrForum": true,
+      "viewerOpensAndEscapeCloses": true
+    }
+  },
+  "returnNavigation": {
+    "hash": "#2012-gw",
+    "sectionTop": 166,
+    "activeOutline": "VIPRPG GW祭り 2012"
+  },
+  "pageHorizontalOverflow": false,
+  "checks": {
+    "data": true,
+    "lint": true,
+    "productionBuild": true,
+    "replayByteStable": true
+  },
+  "classificationPreviewRemoved": true,
+  "screenshots": [
+    "test-results/review-2012-gw-original-list.png",
+    "test-results/review-2012-gw-original-restricted45.png",
+    "test-results/review-2012-gw-restricted45.png",
+    "test-results/review-2012-gw-patch03.png",
+    "test-results/review-2012-gw-sample00.png",
+    "test-results/review-2012-gw-list.png",
+    "test-results/review-2012-gw-list-1440.png"
+  ]
+}

@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2012-gw",
+  "activeFestival": "2012-kouhaku",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -305,6 +305,28 @@
         "catch/2013-summer/replay-review.json"
       ],
       "notes": "72 个详情（补回 No.00）、72 条图标引用、95 张展示／悬停截图、1 张横幅及 58 个历史下载入口逐项核对。发现并优先使用管理人公告中的可用迁移站；其缺少的 No.48 悬停图由原站存档补齐。72 份双方留言、更新记录和配信／视频原文均保留；No.45 题名经官方讨论页确认。两种视图桌面验收通过，原貌版 243 个文件无缺口。"
+    },
+    {
+      "festivalId": "2012-gw",
+      "reviewedAt": "2026-10-16",
+      "dataSha256": "902dad3a5a50430b6df9191ff9af66e2887aebf2509860bb4acd0dd1a8a2086e",
+      "works": 60,
+      "screenshotFiles": 59,
+      "status": "reviewed",
+      "sourceEvidence": [
+        "catch/2012-gw/recovery.json",
+        "catch/2012-gw/source-comparison.json",
+        "catch/2012-gw/content-review.json",
+        "catch/2012-gw/title-review.json"
+      ],
+      "desktopEvidence": [
+        "catch/2012-gw/desktop-review.json",
+        "catch/2012-gw/route-review.json",
+        "catch/2012-gw/image-browser-review.json",
+        "catch/2012-gw/restriction-review.json",
+        "catch/2012-gw/replay-review.json"
+      ],
+      "notes": "源站仍可用，60 条目录（补回 No.00）、59 个来源详情及 1 个完整受限模板已核对。59 条图标引用、59 张截图、2 张横幅及 49 个作品的 54 个本体／修正链接保留；双方留言及配信说明逐项对照。No.45 两种视图均有完整固定模板，不发布原说明、媒体或相关链接。原貌版从实际 top.html 进入，175 个文件无资源缺口；双视图桌面验收通过。"
     }
   ],
   "originalViewsReviewed": [
@@ -377,6 +399,13 @@
       "evidence": [
         "catch/2013-summer/original-view.json",
         "catch/2013-summer/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2012-gw",
+      "evidence": [
+        "catch/2012-gw/original-view.json",
+        "catch/2012-gw/desktop-review.json"
       ]
     }
   ]
