@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2014-tsukusure-festival",
+  "activeFestival": "2013-gw",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -218,6 +218,28 @@
         "catch/title-replay-review.json"
       ],
       "notes": "73 个详情、73 条来源图标（12 个由原列表补回）、101 张实际展示／悬停截图及 2 张横幅已核对。原站 EUC-JP 正确解码；3 张可用但未显示的预加载图另存，42 个无效预加载路径单列。两种视图桌面验收通过，原貌资源无可见缺口。"
+    },
+    {
+      "festivalId": "2014-tsukusure-festival",
+      "reviewedAt": "2026-10-16",
+      "dataSha256": "71441996cf957b1917af1baceafd49d114cfc36797a8b8045bee63b3ddf7f473",
+      "works": 91,
+      "screenshotFiles": 124,
+      "status": "reviewed",
+      "sourceEvidence": [
+        "catch/2014-tsukusure-festival/recovery.json",
+        "catch/2014-tsukusure-festival/source-comparison.json",
+        "catch/2014-tsukusure-festival/legacy-reconciliation.json",
+        "catch/2014-tsukusure-festival/original-view.json"
+      ],
+      "desktopEvidence": [
+        "catch/2014-tsukusure-festival/desktop-review.json",
+        "catch/2014-tsukusure-festival/original-desktop-review.json",
+        "catch/2014-tsukusure-festival/route-review.json",
+        "catch/2014-tsukusure-festival/audio-browser-review.json",
+        "catch/2014-tsukusure-festival/replay-review.json"
+      ],
+      "notes": "原站 13 类、83 个素材条目与 8 个游戏条目逐项核对；124 个预览图引用、197 个本地文件、8 个历史游戏下载链接及素材许可保留。67 个声音均可试听，26 个 MS ADPCM 文件另有兼容预览且原下载不变。旧目录 54 条未确认记录保留待查，原站无作品编号。双视图桌面验收通过，原貌资源无缺口。"
     }
   ],
   "originalViewsReviewed": [
@@ -262,6 +284,13 @@
       "evidence": [
         "catch/2014-summer/original-view.json",
         "catch/2014-summer/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2014-tsukusure-festival",
+      "evidence": [
+        "catch/2014-tsukusure-festival/original-view.json",
+        "catch/2014-tsukusure-festival/original-desktop-review.json"
       ]
     }
   ]

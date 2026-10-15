@@ -1,0 +1,84 @@
+{
+  "reviewedAt": "2026-10-16",
+  "scope": "Desktop only",
+  "dataSha256": "71441996cf957b1917af1baceafd49d114cfc36797a8b8045bee63b3ddf7f473",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "width": 1280,
+      "height": 900
+    }
+  ],
+  "list": {
+    "sourceRows": 91,
+    "headers": [
+      "作品",
+      "类型",
+      "下载",
+      "讨论"
+    ],
+    "inventedNumbers": false,
+    "authorOmissionLabel": true,
+    "horizontalOverflow": false
+  },
+  "details": {
+    "characterSheetNatural": [
+      288,
+      256
+    ],
+    "characterSheetDisplayed": [
+      336,
+      299
+    ],
+    "aspectRatioPreserved": true,
+    "galleryNextAndEscape": true,
+    "midiNotice": true,
+    "originalFilenameDownloads": true,
+    "materialPermissionsAndGeneralTerms": true
+  },
+  "audio": {
+    "total": 67,
+    "metadataPassed": 67,
+    "compatiblePreviews": 26,
+    "mutedPreviewPlay": {
+      "currentTime": 0.40958,
+      "paused": false,
+      "error": null
+    },
+    "originalDownloadsPreserved": true,
+    "notes": "One browser ERR_CACHE_OPERATION_NOT_SUPPORTED was emitted when the temporary metadata probe removed its sound 03 source; all 67 metadata probes passed. A separate invalid numeric CSS selector in the temporary browser check was corrected. Neither is counted as a product failure."
+  },
+  "navigation": {
+    "originalMenuCategories": 13,
+    "numericSiblingFrames": true,
+    "formattedReturnHash": "#2014-tsukusure-festival",
+    "settledSectionTop": 166,
+    "settledOutline": "ツクスレ秋の素材祭り"
+  },
+  "validation": {
+    "data": true,
+    "lint": true,
+    "productionBuild": true
+  },
+  "screenshots": [
+    "test-results/review-2014-material-final-list.png",
+    "test-results/review-2014-material-final-sheet.png",
+    "test-results/review-2014-material-voice-preview.png",
+    "test-results/review-2014-material-midi.png",
+    "test-results/review-2014-material-original-top.png",
+    "test-results/review-2014-material-original-faceset.png",
+    "test-results/review-2014-material-original-1280.png"
+  ],
+  "evidence": [
+    "source-comparison.json",
+    "audio-browser-review.json",
+    "image-browser-review.json",
+    "route-review.json",
+    "original-desktop-review.json",
+    "replay-review.json",
+    "zip-review.json"
+  ]
+}
