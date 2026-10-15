@@ -34,11 +34,11 @@ const festivalSchema = {
     type: { type: "string", minLength: 1 },
     banners: {
       type: "array",
-      minItems: 1,
       items: { type: "string", minLength: 1 },
     },
     hasDetail: { type: "boolean" },
     period: { type: "string" },
+    materialTerms: { type: "string" },
     worksFile: { type: "string", minLength: 1 },
     columns: {
       type: "array",
@@ -70,13 +70,41 @@ const workSchema = {
       additionalProperties: false,
       required: ["url"],
       properties: {
-        url: { type: "string", format: "uri" },
+        url: { type: "string", format: "uri-reference" },
         label: { type: "string" },
+        detail: { type: "string" },
+        filename: { type: "string" },
+        previewUrl: { type: "string", format: "uri-reference" },
       },
+    },
+    downloads: {
+      type: "array", minItems: 1,
+      items: {
+        type: "object", additionalProperties: false, required: ["url"],
+        properties: { url: { type: "string", format: "uri-reference" }, label: { type: "string" }, detail: { type: "string" }, filename: { type: "string" }, previewUrl: { type: "string", format: "uri-reference" } },
+      },
+    },
+    materialInfo: {
+      type: "object", additionalProperties: false,
+      properties: { archivePermission: { type: "string" }, externalUsePermission: { type: "string" }, notes: { type: "string" } },
     },
     forum: { type: "string", format: "uri" },
     authorComment: { type: "string" },
     hostComment: { type: "string" },
+    updates: { type: "string" },
+    originalTitle: { type: "string", minLength: 1 },
+    contentRestricted: { type: "boolean" },
+    source: {
+      type: "object",
+      additionalProperties: false,
+      required: ["url"],
+      properties: {
+        url: { type: "string", format: "uri" },
+        snapshotUrl: { type: "string", format: "uri" },
+        titleUrl: { type: "string", format: "uri" },
+        authorOmitted: { type: "boolean" },
+      },
+    },
     detailDisabled: { type: "boolean" },
     ss: {
       type: "array",
@@ -96,6 +124,25 @@ async function ensureReadable(filePath: string) {
 async function main() {
   const dataDir = path.join(process.cwd(), "src", "data");
   const errors: ValidationError[] = [];
+  const festivalIds = new Set<string>();
+  const slugs = new Set<string>();
+  const workIds = new Set<string>();
+  const checkedAssets = new Set<string>();
+
+  async function checkAsset(url: string, file: string) {
+    if (!url.startsWith("/") || url.startsWith("//") || checkedAssets.has(url)) return;
+    checkedAssets.add(url);
+    try {
+      const buffer = await readFile(path.join(process.cwd(), "public", url));
+      if (/<(?:!doctype|html|head|body)\b/i.test(buffer.subarray(0, 256).toString("utf8"))) {
+        errors.push({ file, message: `Image is an HTML page: ${url}` });
+      } else if (/\.png$/i.test(url) && buffer.subarray(0, 8).toString("hex") !== "89504e470d0a1a0a") {
+        errors.push({ file, message: `Image does not match PNG extension: ${url}` });
+      }
+    } catch {
+      errors.push({ file, message: `Missing local asset: ${url}` });
+    }
+  }
 
   const festivalsPath = path.join(dataDir, "festivals.json");
   await ensureReadable(festivalsPath);
@@ -116,6 +163,13 @@ async function main() {
       });
       continue;
     }
+
+    if (festivalIds.has(festival.id) || slugs.has(festival.slug)) {
+      errors.push({ file: "festivals.json", message: `Duplicate festival id or slug: ${festival.id}` });
+    }
+    festivalIds.add(festival.id);
+    slugs.add(festival.slug);
+    for (const banner of festival.banners) await checkAsset(banner, "festivals.json");
 
     const worksFilePath = path.join(dataDir, festival.worksFile);
     await ensureReadable(worksFilePath);
@@ -148,6 +202,24 @@ async function main() {
           message: `Work ${work.id} festivalId mismatch`,
           details: `Expected ${festival.id}`,
         });
+      }
+      if (workIds.has(work.id)) {
+        errors.push({ file: festival.worksFile, message: `Duplicate work id: ${work.id}` });
+      }
+      workIds.add(work.id);
+      for (const file of [...(work.downloads ?? []), ...(work.download ? [work.download] : [])]) {
+        if (file.url.startsWith("/")) {
+          await ensureReadable(path.join("public", file.url));
+        }
+        if (file.previewUrl?.startsWith("/")) await ensureReadable(path.join("public", file.previewUrl));
+      }
+      for (const url of [work.icon, ...(work.ss ?? [])]) {
+        if (url) await checkAsset(url, festival.worksFile);
+      }
+      for (const comment of [work.authorComment, work.hostComment]) {
+        for (const match of comment?.matchAll(/<img\b[^>]*\bsrc=["']([^"']+)["']/gi) ?? []) {
+          await checkAsset(match[1], festival.worksFile);
+        }
       }
     }
   }

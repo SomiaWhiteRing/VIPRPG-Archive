@@ -16,6 +16,7 @@ export interface Festival {
   banners: string[];
   hasDetail?: boolean;
   period?: string;
+  materialTerms?: string;
   worksFile: string;
   columns: FestivalColumnKey[];
 }
@@ -23,6 +24,9 @@ export interface Festival {
 export interface WorkDownload {
   url: string;
   label?: string;
+  detail?: string;
+  filename?: string;
+  previewUrl?: string;
 }
 
 export interface WorkEntry {
@@ -31,6 +35,7 @@ export interface WorkEntry {
   // Original entry number on the festival site (e.g. "00", "01", ...)
   no?: string;
   title: string;
+  originalTitle?: string;
   icon?: string;
   category?: string;
   engine?: string;
@@ -38,9 +43,23 @@ export interface WorkEntry {
   streaming?: string;
   streamingPolicy?: "allow" | "restricted" | "forbid";
   download?: WorkDownload;
+  downloads?: WorkDownload[];
+  materialInfo?: {
+    archivePermission?: string;
+    externalUsePermission?: string;
+    notes?: string;
+  };
   forum?: string;
   authorComment?: string;
   hostComment?: string;
+  updates?: string;
+  contentRestricted?: boolean;
+  source?: {
+    url: string;
+    snapshotUrl?: string;
+    titleUrl?: string;
+    authorOmitted?: boolean;
+  };
   // If true, force-disable detail page/link even if other fields are present
   detailDisabled?: boolean;
   ss?: string[];

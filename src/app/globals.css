@@ -136,7 +136,7 @@ a:focus-visible {
 
 .board-layout {
   display: grid;
-  grid-template-columns: 240px 1fr;
+  grid-template-columns: 240px minmax(0, 1fr);
   gap: 28px;
 }
 
@@ -201,6 +201,7 @@ a:focus-visible {
 }
 
 .board-content {
+  min-width: 0;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -291,7 +292,7 @@ a:focus-visible {
 
 .festival-header {
   display: grid;
-  grid-template-columns: 1fr auto auto;
+  grid-template-columns: minmax(0, 1fr) auto auto;
   gap: 16px;
   align-items: center;
   padding: 16px 20px;
@@ -299,9 +300,43 @@ a:focus-visible {
 }
 
 .festival-title h3 {
+  overflow-wrap: anywhere;
   margin: 0;
   font-size: 18px;
   font-weight: 600;
+}
+
+.festival-view-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  margin-top: 8px;
+  font-size: 12px;
+}
+
+.festival-view-links [aria-current="page"] {
+  font-weight: 700;
+}
+
+.original-view-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.original-view-header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.original-festival-frame {
+  display: block;
+  width: 100%;
+  height: 75vh;
+  min-height: 640px;
+  border: 1px solid var(--border);
+  background: white;
 }
 
 .period {
@@ -314,11 +349,16 @@ a:focus-visible {
   display: flex;
   gap: 10px;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  max-width: 360px;
 }
 
 .banner-image {
   height: 40px;
   width: auto;
+  max-width: 100%;
+  object-fit: contain;
   border-radius: 10px;
   border: 1px solid var(--border);
 }
@@ -343,17 +383,18 @@ a:focus-visible {
 }
 
 .festival-body {
+  display: grid;
+  grid-template-rows: 0fr;
   overflow: hidden;
-  max-height: 0;
   opacity: 0;
-  transform: translateY(-6px);
-  transition: max-height 0.35s ease, opacity 0.3s ease, transform 0.35s ease;
+  visibility: hidden;
+  transition: grid-template-rows 0.35s ease, opacity 0.3s ease, visibility 0.35s;
 }
 
 .festival-body.expanded {
-  max-height: var(--festival-panel-max, 900px);
+  grid-template-rows: 1fr;
   opacity: 1;
-  transform: translateY(0);
+  visibility: visible;
   pointer-events: auto;
 }
 
@@ -362,18 +403,14 @@ a:focus-visible {
 }
 
 .festival-body-inner {
-  padding: 0 20px 20px;
+  min-height: 0;
   overflow: hidden;
 }
 
-.festival-body.collapsed .festival-body-inner {
-  padding-bottom: 0;
-}
-
 .festival-scroll {
-  width: 100%;
+  margin: 0 20px;
   overflow-x: auto;
-  padding-bottom: 6px;
+  padding-bottom: 20px;
 }
 
 .festival-table {
@@ -390,6 +427,7 @@ a:focus-visible {
 
 .festival-table th,
 .festival-table td {
+  overflow-wrap: anywhere;
   padding: 12px 14px;
   border-bottom: 1px solid var(--border-strong);
   vertical-align: top;
@@ -528,6 +566,7 @@ a:focus-visible {
 }
 
 .detail-card {
+  min-width: 0;
   background: var(--bg-surface);
   border-radius: 18px;
   border: 1px solid var(--border);
@@ -548,6 +587,7 @@ a:focus-visible {
 }
 
 .detail-title {
+  overflow-wrap: anywhere;
   margin: 0;
   font-size: clamp(24px, 4vw, 32px);
   font-weight: 650;
@@ -561,6 +601,48 @@ a:focus-visible {
 .detail-ss {
   margin-top: 18px;
 }
+
+.restricted-icon {
+  display: inline-grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--bg-surface-muted);
+  color: var(--text-subtle);
+  font-size: 24px;
+}
+
+.restricted-media {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  min-height: 240px;
+  margin-top: 18px;
+  padding: 24px;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: var(--bg-surface-muted);
+  color: var(--text-subtle);
+  text-align: center;
+}
+
+.restricted-media p { margin: 0; }
+
+.detail-files { display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 12px; }
+.detail-file { display: flex; flex-direction: column; gap: 8px; max-width: 100%; }
+.detail-file audio { width: 300px; max-width: 100%; }
+.material-terms { margin: 12px 0 20px; font-size: 13px; }
+.material-terms summary { cursor: pointer; color: var(--text-subtle); }
+.material-terms .section-text { margin-top: 10px; }
+.festival-table--materials { min-width: 0; }
+.festival-table--materials .col-work { width: 40%; }
+.festival-table--materials .col-type { width: 22%; }
+.festival-table--materials .col-download { width: 23%; }
+.festival-table--materials .col-forum { width: 15%; }
 
 .ss-frame {
   position: relative;
@@ -684,6 +766,7 @@ a:focus-visible {
 }
 
 .section-text {
+  overflow-wrap: anywhere;
   margin: 0;
   line-height: 1.6;
   white-space: pre-wrap;
@@ -696,6 +779,23 @@ a:focus-visible {
   vertical-align: middle;
   border-radius: 4px;
 }
+
+.section-text .AA {
+  font-family: "ＭＳ Ｐゴシック", "MS PGothic", monospace;
+  line-height: 1.1;
+  letter-spacing: 0;
+  white-space: pre;
+}
+
+.section-text img.comment-face {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  margin: 0 6px 0 0;
+  vertical-align: middle;
+}
+
+.section-text .source-comment { white-space: normal; }
 
 .section-text details {
   margin-top: 6px;
@@ -821,7 +921,7 @@ a:focus-visible {
 
 .ss-frame.multi {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
   gap: 16px;
   padding: 16px;
   background: transparent;

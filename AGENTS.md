@@ -1,49 +1,33 @@
-# Repository Guidelines
+# VIPRPG Archive 工作约定
 
-## 项目结构与模块组织
+本仓库整理 VIPRPG 祭典及作品资料。重启现状、已知缺口和下一批工作见 [docs/restart.md](docs/restart.md)。
 
-- 仓库根目录即 Next.js 应用根目录，保留资料文档（如 `保存库设计刚要.md`、`修改建议*.md`）与配置文件（`package.json`、`tsconfig.json` 等）。
-- `src/app/[locale]/` 负责多语言路由、根布局与页面骨架，`src/app/globals.css` 定义全局样式。
-- `src/components/` 收录共享组件（例如 `festival-board.tsx`、语言切换工具栏等）。
-- `src/data/` 存储业务数据：`festival-list.json`（源列表）、`festivals.json`（生成配置）、`works/`（按 `<slug>.json` 记录作品）。
-- `src/lib/` 提供类型定义、数据工具与上下文逻辑。
-- 静态资源位于 `public/`，横幅、图标、截图等请放入 `public/banners`、`public/icons`、`public/screenshots` 并保持与数据路径一致。
-- 实用脚本集中在 `scripts/`，如 `validate-data.ts` 用于校验祭典与作品 JSON 的模式。
+持续目标及已校对记录见 [docs/restart-progress.md](docs/restart-progress.md)；每完成一个祭典，立即更新 `catch/restart-progress.json` 并生成清单，不把字段齐全自动视为完成。
 
-## 构建、测试与开发命令
+每个祭典完成验收后单独提交一次，连同该祭典的数据、资源和来源记录一起提交，避免未提交文件持续积压。共用基础修改单独提交；尚未验收的祭典不混入已完成祭典的提交。
 
-- `npm run dev` —— 在仓库根目录启动 TurboPack 开发服务器。
-- `npm run build` —— 生成生产构建，执行前先确保数据与 lint 通过。
-- `npm run lint` —— 运行 ESLint（TypeScript + JSX）。
-- `npm run validate:data` —— 调用 Ajv 校验全部祭典/作品 JSON。
+## 授权边界
 
-## 编码风格与命名规范
+- 新增测试代码、人工 UI 测试或浏览器交互、本地模型翻译、子代理委托，需要用户明确授权；同一任务已授权时不重复询问。
+- 文件读取、既有非 UI 检查、仅在当前任务执行且不永久保存的检查不需额外授权。
+- 保留与当前任务无关的改动；不自行推送、部署或操作生产数据。
 
-- 统一使用 TypeScript，缩进 2 个空格；编辑器可启用 Prettier 默认格式。
-- 采用 React 函数组件与 Hooks；涉及状态的组件需加 `"use client"`。
-- 使用 `@/` 别名引用 `src`；JSON slug 遵循 `YYYY-keyword`，如 `2024-summer` 对应 `works/<slug>.json`。
-- 全局样式存放于 `src/app/globals.css`；保持 BEM 风格命名并兼顾可访问性属性。
+## 实际结构与命令
 
-## 测试指南
+- `src/app/`：首页、`/works/[id]` 和 `/original/[slug]`；没有 `[locale]` 路由，界面语言由上下文和 `src/lib/i18n.ts` 管理。
+- `src/data/festivals.json`：祭典目录；`src/data/works/<slug>.json`：作品；`src/data/works/index.ts`：应用实际加载的登记表。
+- `public/`：展示资源；`catch/`：来源缓存、抓取旧记录、当前清点。根目录 `tmp*` 仍有恢复证据，不当垃圾批量删除。
+- `npm ci` 同步锁文件依赖；`npm run dev` 启动开发；`npm run build` 构建。
+- 数据修改后运行 `npm run validate:data`；TS/CSS 修改后运行 `npm run lint`。
+- `npm run audit:data -- --write` 更新全库字段／资源清点。它不是内容完整性证明。
+- `npm run lint:legacy` 单独检查历史抓取脚本，仍有既有错误；旧脚本默认视作参考，先检查写入范围再运行。
 
-- 目前尚无自动化测试；修改 JSON 后务必运行 `npm run validate:data`，修改 TypeScript/CSS 后运行 `npm run lint`。
-- 手动验证：执行 `npm run dev`，检查祭典大纲、手风琴动画与多语言在桌面/移动端的表现。
-- 若新增测试，建议与组件同级建立 `__tests__` 目录，文件命名为 `*.test.ts(x)`，可按需配置 Vitest/Jest。
+## 恢复原则
 
-## 提交与合并请求规范
-
-- 提交信息保持祈使句、简洁明确（如 `fix: 对齐图标列宽`），数据更新与代码调整尽量拆分。
-- 合并请求需说明用户可见的改动、列出已运行的验证命令，并在涉及 UI 时附截图或动图。
-- 关联相关的修改建议文档（`修改建议*.md`）或追踪条目，并邀请熟悉对应语言/数据的维护者评审。
-
-## 数据与本地化提示
-
-- 尽量通过脚本更新 `src/data/festivals.json`，每个祭典都须指向现有的 `works/<slug>.json`。
-- UI 文案源自语言字典；数据内容保持单语，界面翻译通过语言上下文提供。
-
-## 抓取任务经验补充
-
-- 2NT 主站（例：VIPRPG2024紅白）抓取时禁止猜路径与改写协议，直接按页面 href 构建 URL，并去掉 Referer；小于 100px 的图片视为图标，写入 `/icons/`。
-- Atwiki 镜像（例：VIPRPG夏の陣2023）离线资源全部落在 `[html]` 目录，列表 `<br>` 的第一段是标题、第二段是作者；`div.attach` 会同时提供缩略图与原图，脚本需使用尺寸阈值去重。
-- FC2 entry 站（例：VIPRPG2023紅白）所有条目按 `entry/<no>.html` 命名；下载按钮集中在 `.e_btn a.btn_dlvote`，需保留标签文本；`streaming` 字段使用详情页原文，不再重新拼装。
-- 抓取脚本生成静态资源后，统一将图标、截图、banner 写入 `public/` 对应目录，并更新 `catch/<slug>-scrape-summary.json` 记录下载/截图状态，最后执行 `npm run validate:data` 复核。
+- 源站能用时优先直接读取源站；获取不到的内容再查迁移站点、镜像和 Wayback。按页面实际链接及原始编码恢复，区分入口、列表、详情和图片；网络超时或单个快照失败不能证明没有存档。
+- 新恢复内容记录原站地址、快照地址及原始缓存。来源文字保持原文，缺失项保留为待查，不用猜测或生成图片补成已完成。
+- 题名差异不能直接当作错抓；若现有的非占位名称得到官方讨论页确认，保留为 `title`，网页题名另存 `originalTitle`，以 `source.titleUrl` 记录依据。
+- 图片按实际格式保存。`banners: []` 表示尚无可展示横幅；缺失文件不能继续作为有效引用。
+- `catch/festival-scrape-status.md` 是生成的本地清点，不再用全选勾号表示抓取完成。旧 summary 的 `ok` 也不作为完整性依据。
+- 每批按明确祭典／作品范围恢复，报告具体增加了什么、证据在哪里、尚缺什么。桌面显示是当前 UI 验收范围。
+- 每个祭典逐步提供整理版与原貌版，分别记录验收进度。受限条目保留编号、列表行及完整详情骨架，采用固定受限文案和中性占位，不留空或跳号；不收录受限原文、媒体和相关链接。

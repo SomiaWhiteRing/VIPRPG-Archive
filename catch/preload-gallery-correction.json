@@ -1,0 +1,76 @@
+{
+  "reviewedAt": "2026-10-15T13:11:51.420Z",
+  "reason": "Only source-visible and hover-linked screenshots belong in the work gallery. Preload-only images remain separately preserved.",
+  "reports": [
+    {
+      "festivalId": "2015-gw",
+      "changes": [
+        {
+          "no": "02",
+          "field": "ss",
+          "before": [
+            "/screenshots/2015-gw/02-1.png",
+            "/screenshots/2015-gw/02-2.png"
+          ],
+          "after": [
+            "/screenshots/2015-gw/02-1.png"
+          ]
+        }
+      ]
+    },
+    {
+      "festivalId": "2015-kouhaku",
+      "changes": [
+        {
+          "no": "15",
+          "field": "ss",
+          "before": [
+            "/screenshots/2015-kouhaku/15-1.png",
+            "/screenshots/2015-kouhaku/15-2.png"
+          ],
+          "after": [
+            "/screenshots/2015-kouhaku/15-1.png"
+          ]
+        }
+      ]
+    },
+    {
+      "festivalId": "2014-summer",
+      "changes": [
+        {
+          "no": "01",
+          "field": "ss",
+          "before": [
+            "/screenshots/2014-summer/01-1.png",
+            "/screenshots/2014-summer/01-2.png"
+          ],
+          "after": [
+            "/screenshots/2014-summer/01-1.png"
+          ]
+        },
+        {
+          "no": "06",
+          "field": "ss",
+          "before": [
+            "/screenshots/2014-summer/06-1.png",
+            "/screenshots/2014-summer/06-2.png"
+          ],
+          "after": [
+            "/screenshots/2014-summer/06-1.png"
+          ]
+        },
+        {
+          "no": "30",
+          "field": "ss",
+          "before": [
+            "/screenshots/2014-summer/30-1.png",
+            "/screenshots/2014-summer/30-2.png"
+          ],
+          "after": [
+            "/screenshots/2014-summer/30-1.png"
+          ]
+        }
+      ]
+    }
+  ]
+}

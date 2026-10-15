@@ -4,17 +4,18 @@ import {
   JSX,
   useCallback,
   useEffect,
-  useLayoutEffect,
   useMemo,
   useRef,
   useState,
-  type CSSProperties,
   type ReactNode,
 } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import type { Festival, FestivalColumnKey, WorkEntry } from "@/lib/types";
 import { useLanguage } from "@/components/language-context";
+import { hasWorkDetail } from "@/lib/work-detail";
+import FestivalViewLinks from "@/components/festival-view-links";
+import { getWorkDownloads } from "@/lib/work-downloads";
 
 export interface FestivalWithWorks extends Festival {
   works: WorkEntry[];
@@ -45,7 +46,7 @@ const OUTLINE_TOP_OFFSET = 44;
 const OUTLINE_BOTTOM_OFFSET = 18;
 
 function normalize(text?: string): string {
-  return text?.toLocaleLowerCase() ?? "";
+  return text?.trim().toLocaleLowerCase() ?? "";
 }
 
 function highlight(text: string, term: string): ReactNode {
@@ -79,21 +80,10 @@ function highlight(text: string, term: string): ReactNode {
 
 function matchWork(work: WorkEntry, term: string) {
   if (!term) return true;
-  const haystack = [work.title, work.author, work.category, work.engine]
+  const haystack = [work.title, work.originalTitle, work.author, work.category, work.engine]
     .filter(Boolean)
     .map((value) => normalize(String(value)));
   return haystack.some((value) => value.includes(term));
-}
-
-function hasWorkDetail(work: WorkEntry) {
-  if (work.detailDisabled === true) return false;
-  if (work.authorComment && work.authorComment.trim().length) return true;
-  if (work.hostComment && work.hostComment.trim().length) return true;
-  if (Array.isArray(work.ss) && work.ss.length > 0) return true;
-  if (work.forum && work.forum.trim().length) return true;
-  if (work.download && work.download.url) return true;
-  if (work.streaming && work.streaming.trim().length) return true;
-  return false;
 }
 
 export default function FestivalBoard({ groups }: FestivalBoardProps) {
@@ -101,37 +91,9 @@ export default function FestivalBoard({ groups }: FestivalBoardProps) {
   const [searchTerm, setSearchTerm] = useState("");
   const outlineRef = useRef<HTMLDivElement | null>(null);
   const outlineLinksRef = useRef<Record<string, HTMLAnchorElement | null>>({});
-  const panelRefs = useRef<Record<string, HTMLDivElement | null>>({});
   const visibleFestivalsRef = useRef(new Set<string>());
   const activeFestivalRef = useRef<string>("");
-  const [panelHeights, setPanelHeights] = useState<Record<string, number>>({});
-
-  const updatePanelHeights = useCallback(() => {
-    setPanelHeights((prev) => {
-      let changed = false;
-      let next = prev;
-
-      for (const [id, element] of Object.entries(panelRefs.current)) {
-        if (!element) {
-          continue;
-        }
-        const inner = element.firstElementChild as HTMLElement | null;
-        const measured = inner?.scrollHeight ?? element.scrollHeight;
-        const rounded = Math.ceil(measured);
-        if (!rounded || prev[id] === rounded) {
-          continue;
-        }
-        if (!changed) {
-          next = { ...prev };
-          changed = true;
-        }
-        next[id] = rounded;
-      }
-
-      return changed ? next : prev;
-    });
-  }, []);
-
+  const pendingScrollRef = useRef<string>("");
 
   const festivalsFlat = useMemo(
     () =>
@@ -197,13 +159,14 @@ export default function FestivalBoard({ groups }: FestivalBoardProps) {
           festival,
           filteredWorks,
         };
-      }),
-    }));
+      }).filter(({ filteredWorks }) => !term || filteredWorks.length > 0),
+    })).filter((group) => group.festivals.length > 0);
   }, [groups, searchTerm]);
 
   useEffect(() => {
-    if (!searchTerm) {
-      setExpanded({ ...defaultExpanded });
+    if (!normalize(searchTerm)) {
+      const hashId = festivalIdBySlug.get(window.location.hash.slice(1));
+      setExpanded({ ...defaultExpanded, ...(hashId ? { [hashId]: true } : {}) });
       return;
     }
     const next: Record<string, boolean> = {};
@@ -213,7 +176,22 @@ export default function FestivalBoard({ groups }: FestivalBoardProps) {
       }
     }
     setExpanded(next);
-  }, [defaultExpanded, searchTerm, views]);
+  }, [defaultExpanded, festivalIdBySlug, searchTerm, views]);
+
+  useEffect(() => {
+    const openHash = () => {
+      const slug = window.location.hash.slice(1);
+      if (!festivalIdBySlug.has(slug)) return;
+      setSearchTerm("");
+      pendingScrollRef.current = slug;
+      expandFestivalBySlug(slug);
+      setActiveFestival(slug);
+      requestAnimationFrame(() => document.getElementById(slug)?.scrollIntoView());
+    };
+    openHash();
+    window.addEventListener("hashchange", openHash);
+    return () => window.removeEventListener("hashchange", openHash);
+  }, [expandFestivalBySlug, festivalIdBySlug]);
 
   useEffect(() => {
     if (typeof window === "undefined") {
@@ -235,9 +213,11 @@ export default function FestivalBoard({ groups }: FestivalBoardProps) {
           }
         }
 
-        const firstVisible = festivalsFlat.find((item) =>
-          visibleSet.has(item.slug)
-        );
+        const firstVisible = festivalsFlat.find((item) => {
+          if (!visibleSet.has(item.slug)) return false;
+          const element = document.getElementById(item.slug);
+          return element && element.getBoundingClientRect().bottom > CONTENT_TOP_OFFSET + 1;
+        });
 
         let nextActive = firstVisible?.slug;
 
@@ -283,7 +263,7 @@ export default function FestivalBoard({ groups }: FestivalBoardProps) {
       elements.forEach((el) => observer.unobserve(el));
       observer.disconnect();
     };
-  }, [festivalsFlat]);
+  }, [festivalsFlat, views]);
 
   useEffect(() => {
     const container = outlineRef.current;
@@ -310,16 +290,6 @@ export default function FestivalBoard({ groups }: FestivalBoardProps) {
     }
   }, [activeFestival]);
 
-  useLayoutEffect(() => {
-    updatePanelHeights();
-  }, [updatePanelHeights, views]);
-
-  useEffect(() => {
-    const handleResize = () => updatePanelHeights();
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, [updatePanelHeights]);
-
   const handleOutlineClick = useCallback(
     (event: React.MouseEvent<HTMLAnchorElement>, slug: string) => {
       if (
@@ -334,6 +304,8 @@ export default function FestivalBoard({ groups }: FestivalBoardProps) {
       }
 
       event.preventDefault();
+      setSearchTerm("");
+      pendingScrollRef.current = slug;
       expandFestivalBySlug(slug);
 
       if (typeof window === "undefined") {
@@ -397,7 +369,6 @@ export default function FestivalBoard({ groups }: FestivalBoardProps) {
       </aside>
 
       <div className="board-content">
-        
         <div className="board-search-spacer">
           <div className="board-search">
             <label className="label" htmlFor="festival-search">
@@ -419,21 +390,17 @@ export default function FestivalBoard({ groups }: FestivalBoardProps) {
             <section key={group.year} className="board-year">
               <header className="year-header">
                 <h2>{group.year}</h2>
-                {/* <span>
-                  {group.festivals.length} {dictionary.festivalsCount}
-                </span> */}
               </header>
               {group.festivals.map(({ festival, filteredWorks }) => {
                 const isExpanded = expanded[festival.id] ?? false;
                 const displayWorks = searchTerm ? filteredWorks : festival.works;
-                const measuredHeight = panelHeights[festival.id] ?? 0;
-                const panelMaxHeightValue = measuredHeight > 0 ? `${measuredHeight}px` : isExpanded ? "1px" : "0px";
 
                 return (
                   <article key={festival.id} id={festival.slug} className="festival-card">
                     <header className="festival-header">
                       <div className="festival-title">
                         <h3>{festival.name}</h3>
+                        <FestivalViewLinks slug={festival.slug} />
                         {festival.period && <span className="period">{festival.period}</span>}
                       </div>
                       <div className="festival-banners">
@@ -467,20 +434,21 @@ export default function FestivalBoard({ groups }: FestivalBoardProps) {
 
                     <div
                       id={`${festival.id}-panel`}
-                      ref={(element) => {
-                        if (!element) {
-                          delete panelRefs.current[festival.id];
-                          return;
-                        }
-                        panelRefs.current[festival.id] = element;
-                      }}
                       className={isExpanded ? "festival-body expanded" : "festival-body collapsed"}
                       aria-hidden={!isExpanded}
-                      style={{ "--festival-panel-max": panelMaxHeightValue } as CSSProperties}
+                      inert={!isExpanded}
+                      onTransitionEnd={(event) => {
+                        if (event.target !== event.currentTarget || event.propertyName !== "grid-template-rows") return;
+                        if (isExpanded && pendingScrollRef.current === festival.slug) {
+                          pendingScrollRef.current = "";
+                          document.getElementById(festival.slug)?.scrollIntoView({ block: "start" });
+                        }
+                      }}
                     >
                       <div className="festival-body-inner">
+                        {festival.materialTerms && <details className="material-terms"><summary>{dictionary.materialGeneralTerms}</summary><p className="section-text">{festival.materialTerms}</p></details>}
                         <div className="festival-scroll">
-                          <table className="festival-table">
+                          <table className={festival.works.some((work) => work.materialInfo) ? "festival-table festival-table--materials" : "festival-table"}>
                             <colgroup>
                               {festival.columns.map((column) => (
                                 <col key={column} className={columnClassMap[column]} />
@@ -580,7 +548,9 @@ function renderCell({
       };
     case "icon":
       return {
-        node: work.icon ? (
+        node: work.contentRestricted ? (
+          <span className="restricted-icon" role="img" aria-label={dictionary.restrictedContent}>◇</span>
+        ) : work.icon ? (
           <div className="icon-cell">
             <Image
               src={work.icon}
@@ -600,14 +570,16 @@ function renderCell({
       return {
         node: (
           <div className="cell-stack">
-            {festival.hasDetail === false || !hasWorkDetail(work) ? (
+            {!hasWorkDetail(work, festival) ? (
               <span className="text-strong">{highlight(work.title, term)}</span>
             ) : (
               <Link href={`/works/${work.id}`} className="link-strong">
                 {highlight(work.title, term)}
               </Link>
             )}
-            <span className="muted small">{highlight(work.author, term)}</span>
+            <span className="muted small">{work.source?.authorOmitted ? dictionary.authorOmitted : highlight(work.author, term)}</span>
+            {work.originalTitle && <span className="muted small">{dictionary.detailsOriginalTitle}: {highlight(work.originalTitle, term)}</span>}
+            {work.contentRestricted && <span className="muted small">{dictionary.restrictedContent}</span>}
           </div>
         ),
         className: `${baseClass} cell-work`,
@@ -626,18 +598,28 @@ function renderCell({
       return {
         node: (
           <div className="cell-stack">
-            <span>{work.streaming ?? "-"}</span>
+            <span>{work.contentRestricted ? dictionary.restrictedContent : work.streaming ?? "-"}</span>
           </div>
         ),
         className: `${baseClass} cell-streaming`,
       };
     case "download": {
-      const downloadUrl = work.download?.url;
+      const downloads = work.contentRestricted ? [] : getWorkDownloads(work);
+      if (downloads.length > 1) return { node: <Link className="button" href={`/works/${work.id}`}>{dictionary.filesLabel} ({downloads.length})</Link>, className: `${baseClass} cell-center` };
+      const downloadUrl = downloads[0]?.url;
       if (downloadUrl) {
         return {
           node: (
-            <a className="button" href={downloadUrl} target="_blank" rel="noopener noreferrer">
-              {work.download?.label ?? dictionary.downloadButton}
+            <a
+              className="button"
+              href={downloadUrl}
+              download={downloadUrl.startsWith("/") ? downloads[0]?.filename || true : undefined}
+              title={downloads[0]?.label}
+              aria-label={`${work.title}: ${downloads[0]?.label ?? dictionary.downloadButton}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {dictionary.downloadButton}
             </a>
           ),
           className: `${baseClass} cell-center`,
@@ -650,7 +632,7 @@ function renderCell({
     }
     case "forum":
       return {
-        node: work.forum ? (
+        node: !work.contentRestricted && work.forum ? (
           <a className="link" href={work.forum} target="_blank" rel="noopener noreferrer">
             {dictionary.forumLink}
           </a>

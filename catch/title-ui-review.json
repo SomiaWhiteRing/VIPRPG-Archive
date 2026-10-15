@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-10-15T14:07:38.962Z",
+  "sourceEvidence": "catch/title-source-comparison.json",
+  "replayEvidence": "catch/title-replay-review.json",
+  "verifiedOfficialNames": 6,
+  "detail": {
+    "festivalId": "2014-kouhaku",
+    "no": "003",
+    "title": "The Queen of Soldier",
+    "originalTitle": "バーストⅡと一緒（未完成版）",
+    "noticeVisible": true,
+    "pageHorizontalOverflow": false
+  },
+  "search": {
+    "festivalId": "2014-summer",
+    "no": "08",
+    "primaryQuery": "掌編の花束",
+    "originalQuery": "エターナル体操第一",
+    "bothFindSameWork": true
+  },
+  "screenshots": [
+    "test-results/title-variant-2014-kouhaku-003.png",
+    "test-results/title-variant-search-original.png"
+  ],
+  "console": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "additionalDetail": {
+    "festivalId": "2015-gw",
+    "no": "49",
+    "title": "なつかしのRPGコレクション",
+    "originalTitle": "ラウンジコレクション",
+    "noticeVisible": true,
+    "pageHorizontalOverflow": false
+  },
+  "additionalSummerDetail": {
+    "festivalId": "2015-summer",
+    "no": "55",
+    "title": "みんな丸太は持ったか！！",
+    "originalTitle": "彼岸島にもしもキャラ達が漂着してしまった件について",
+    "noticeVisible": true,
+    "pageHorizontalOverflow": false
+  }
+}

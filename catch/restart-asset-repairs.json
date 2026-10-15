@@ -1,0 +1,484 @@
+{
+  "generatedAt": "2026-10-15T09:44:26.531Z",
+  "scope": "Correct file extensions without changing image bytes; remove references to absent files and synthetic banners. Original synthetic files are retained.",
+  "baseline": {
+    "festivals": 74,
+    "works": 4090,
+    "detailPages": 1733,
+    "disabledDetails": 2356,
+    "withComments": 1718,
+    "withScreenshots": 1445,
+    "withDownload": 547,
+    "withSource": 0,
+    "referencedAssets": 3931,
+    "assetIssues": 79
+  },
+  "removedReferences": [
+    {
+      "url": "/screenshots/2020-summer/00.png",
+      "owners": [
+        "2020-summer-00"
+      ],
+      "issue": "missing"
+    },
+    {
+      "url": "/banners/2016-summer.png",
+      "owners": [
+        "2016-summer"
+      ],
+      "issue": "missing"
+    },
+    {
+      "url": "/banners/2015-kouhaku.png",
+      "owners": [
+        "2015-kouhaku"
+      ],
+      "issue": "missing"
+    },
+    {
+      "url": "/banners/2015-summer.png",
+      "owners": [
+        "2015-summer"
+      ],
+      "issue": "missing"
+    },
+    {
+      "url": "/banners/2014-gw.png",
+      "owners": [
+        "2014-gw"
+      ],
+      "issue": "missing"
+    },
+    {
+      "url": "/banners/2014-kouhaku.png",
+      "owners": [
+        "2014-kouhaku"
+      ],
+      "issue": "missing"
+    },
+    {
+      "url": "/banners/2014-summer.png",
+      "owners": [
+        "2014-summer"
+      ],
+      "issue": "missing"
+    },
+    {
+      "url": "/banners/2014-tsukusure-festival.png",
+      "owners": [
+        "2014-tsukusure-festival"
+      ],
+      "issue": "missing"
+    },
+    {
+      "url": "/banners/2013-gw.png",
+      "owners": [
+        "2013-gw"
+      ],
+      "issue": "missing"
+    },
+    {
+      "url": "/banners/2013-kouhaku.png",
+      "owners": [
+        "2013-kouhaku"
+      ],
+      "issue": "missing"
+    },
+    {
+      "url": "/banners/2013-summer.png",
+      "owners": [
+        "2013-summer"
+      ],
+      "issue": "missing"
+    },
+    {
+      "url": "/banners/2012-gw.png",
+      "owners": [
+        "2012-gw"
+      ],
+      "issue": "missing"
+    },
+    {
+      "url": "/banners/2012-kouhaku.png",
+      "owners": [
+        "2012-kouhaku"
+      ],
+      "issue": "missing"
+    },
+    {
+      "url": "/banners/2012-magic-festival.png",
+      "owners": [
+        "2012-magic-festival"
+      ],
+      "issue": "missing"
+    },
+    {
+      "url": "/banners/2012-summer.png",
+      "owners": [
+        "2012-summer"
+      ],
+      "issue": "missing"
+    },
+    {
+      "url": "/banners/2012-toppuu-festival.png",
+      "owners": [
+        "2012-toppuu-festival"
+      ],
+      "issue": "missing"
+    },
+    {
+      "url": "/banners/2011-denpa-game-festival.png",
+      "owners": [
+        "2011-denpa-game-festival"
+      ],
+      "issue": "missing"
+    },
+    {
+      "url": "/banners/2011-gw.png",
+      "owners": [
+        "2011-gw"
+      ],
+      "issue": "missing"
+    },
+    {
+      "url": "/banners/2011-kouhaku.png",
+      "owners": [
+        "2011-kouhaku"
+      ],
+      "issue": "missing"
+    },
+    {
+      "url": "/banners/2011-summer.png",
+      "owners": [
+        "2011-summer"
+      ],
+      "issue": "missing"
+    },
+    {
+      "url": "/banners/2011-toppatsu-festival.png",
+      "owners": [
+        "2011-toppatsu-festival"
+      ],
+      "issue": "missing"
+    },
+    {
+      "url": "/banners/2010-gw.png",
+      "owners": [
+        "2010-gw"
+      ],
+      "issue": "missing"
+    },
+    {
+      "url": "/banners/2010-summer.png",
+      "owners": [
+        "2010-summer"
+      ],
+      "issue": "missing"
+    },
+    {
+      "url": "/banners/2009-gw.png",
+      "owners": [
+        "2009-gw"
+      ],
+      "issue": "missing"
+    },
+    {
+      "url": "/banners/2009-kouhaku.png",
+      "owners": [
+        "2009-kouhaku"
+      ],
+      "issue": "missing"
+    },
+    {
+      "url": "/banners/2009-ksgfestival.png",
+      "owners": [
+        "2009-ksgfestival"
+      ],
+      "issue": "missing"
+    },
+    {
+      "url": "/banners/2009-silver-week-miruge-festival.png",
+      "owners": [
+        "2009-silver-week-miruge-festival"
+      ],
+      "issue": "missing"
+    },
+    {
+      "url": "/banners/2009-summer.png",
+      "owners": [
+        "2009-summer"
+      ],
+      "issue": "missing"
+    },
+    {
+      "url": "/banners/2008-chuuni-festival.png",
+      "owners": [
+        "2008-chuuni-festival"
+      ],
+      "issue": "missing"
+    },
+    {
+      "url": "/banners/2008-gw.png",
+      "owners": [
+        "2008-gw"
+      ],
+      "issue": "missing"
+    },
+    {
+      "url": "/banners/2008-jisaku-battle-festival.png",
+      "owners": [
+        "2008-jisaku-battle-festival"
+      ],
+      "issue": "missing"
+    }
+  ],
+  "renamedAssets": [
+    {
+      "from": "/screenshots/2024-kouhaku/38.png",
+      "to": "/screenshots/2024-kouhaku/38.bmp"
+    },
+    {
+      "from": "/screenshots/2023-gw/21.png",
+      "to": "/screenshots/2023-gw/21.jpg"
+    },
+    {
+      "from": "/screenshots/2023-gw/26.png",
+      "to": "/screenshots/2023-gw/26.jpg"
+    },
+    {
+      "from": "/icons/2023-gw/36.png",
+      "to": "/icons/2023-gw/36.gif"
+    },
+    {
+      "from": "/icons/2022-gw/6.png",
+      "to": "/icons/2022-gw/6.gif"
+    },
+    {
+      "from": "/screenshots/2022-gw/15.png",
+      "to": "/screenshots/2022-gw/15.jpg"
+    },
+    {
+      "from": "/screenshots/2022-gw/20.png",
+      "to": "/screenshots/2022-gw/20.jpg"
+    },
+    {
+      "from": "/icons/2022-gw/21.png",
+      "to": "/icons/2022-gw/21.jpg"
+    },
+    {
+      "from": "/screenshots/2022-gw/21.png",
+      "to": "/screenshots/2022-gw/21.jpg"
+    },
+    {
+      "from": "/icons/2022-gw/25.png",
+      "to": "/icons/2022-gw/25.gif"
+    },
+    {
+      "from": "/screenshots/2022-gw/26.png",
+      "to": "/screenshots/2022-gw/26.jpg"
+    },
+    {
+      "from": "/screenshots/2022-gw/26-02.png",
+      "to": "/screenshots/2022-gw/26-02.jpg"
+    },
+    {
+      "from": "/screenshots/2022-kouhaku/7.png",
+      "to": "/screenshots/2022-kouhaku/7.webp"
+    },
+    {
+      "from": "/screenshots/2022-kouhaku/64.png",
+      "to": "/screenshots/2022-kouhaku/64.bmp"
+    },
+    {
+      "from": "/screenshots/2022-kouhaku/64-02.png",
+      "to": "/screenshots/2022-kouhaku/64-02.bmp"
+    },
+    {
+      "from": "/screenshots/2022-summer/14.png",
+      "to": "/screenshots/2022-summer/14.bmp"
+    },
+    {
+      "from": "/screenshots/2022-summer/14-02.png",
+      "to": "/screenshots/2022-summer/14-02.bmp"
+    },
+    {
+      "from": "/screenshots/2020-gw/07.png",
+      "to": "/screenshots/2020-gw/07.jpg"
+    },
+    {
+      "from": "/screenshots/2020-gw/07-02.png",
+      "to": "/screenshots/2020-gw/07-02.jpg"
+    },
+    {
+      "from": "/screenshots/2020-gw/12.png",
+      "to": "/screenshots/2020-gw/12.jpg"
+    },
+    {
+      "from": "/icons/2020-gw/13.png",
+      "to": "/icons/2020-gw/13.gif"
+    },
+    {
+      "from": "/screenshots/2020-gw/13.png",
+      "to": "/screenshots/2020-gw/13.gif"
+    },
+    {
+      "from": "/screenshots/2020-gw/26.png",
+      "to": "/screenshots/2020-gw/26.jpg"
+    },
+    {
+      "from": "/screenshots/2020-gw/26-02.png",
+      "to": "/screenshots/2020-gw/26-02.jpg"
+    },
+    {
+      "from": "/screenshots/2020-gw/34.png",
+      "to": "/screenshots/2020-gw/34.jpg"
+    },
+    {
+      "from": "/icons/2019-gw/09.png",
+      "to": "/icons/2019-gw/09.ico"
+    },
+    {
+      "from": "/screenshots/2019-gw/19.png",
+      "to": "/screenshots/2019-gw/19.jpg"
+    },
+    {
+      "from": "/icons/2019-gw/29.png",
+      "to": "/icons/2019-gw/29.bmp"
+    },
+    {
+      "from": "/screenshots/2019-gw/29.png",
+      "to": "/screenshots/2019-gw/29.bmp"
+    },
+    {
+      "from": "/screenshots/2019-gw/29-02.png",
+      "to": "/screenshots/2019-gw/29-02.bmp"
+    },
+    {
+      "from": "/screenshots/2019-summer/11-01.png",
+      "to": "/screenshots/2019-summer/11-01.jpg"
+    },
+    {
+      "from": "/screenshots/2019-summer/23-01.png",
+      "to": "/screenshots/2019-summer/23-01.jpg"
+    },
+    {
+      "from": "/icons/2019-summer/27.png",
+      "to": "/icons/2019-summer/27.jpg"
+    },
+    {
+      "from": "/screenshots/2019-summer/27-01.png",
+      "to": "/screenshots/2019-summer/27-01.jpg"
+    },
+    {
+      "from": "/screenshots/2019-summer/27-02.png",
+      "to": "/screenshots/2019-summer/27-02.jpg"
+    },
+    {
+      "from": "/icons/2019-summer/33.png",
+      "to": "/icons/2019-summer/33.bmp"
+    },
+    {
+      "from": "/screenshots/2019-summer/33-01.png",
+      "to": "/screenshots/2019-summer/33-01.bmp"
+    },
+    {
+      "from": "/screenshots/2019-summer/33-02.png",
+      "to": "/screenshots/2019-summer/33-02.bmp"
+    },
+    {
+      "from": "/icons/2019-summer/37.png",
+      "to": "/icons/2019-summer/37.gif"
+    },
+    {
+      "from": "/screenshots/2019-summer/39-02.png",
+      "to": "/screenshots/2019-summer/39-02.gif"
+    },
+    {
+      "from": "/icons/2019-summer/45.png",
+      "to": "/icons/2019-summer/45.gif"
+    },
+    {
+      "from": "/screenshots/2019-summer/48-02.png",
+      "to": "/screenshots/2019-summer/48-02.jpg"
+    },
+    {
+      "from": "/screenshots/2018-gw/28.png",
+      "to": "/screenshots/2018-gw/28.bmp"
+    },
+    {
+      "from": "/screenshots/2018-gw/28-02.png",
+      "to": "/screenshots/2018-gw/28-02.bmp"
+    },
+    {
+      "from": "/screenshots/2016-gw/50.png",
+      "to": "/screenshots/2016-gw/50.jpg"
+    },
+    {
+      "from": "/screenshots/2010-kouhaku/045-01.png",
+      "to": "/screenshots/2010-kouhaku/045-01.jpg"
+    },
+    {
+      "from": "/screenshots/2010-kouhaku/099.png",
+      "to": "/screenshots/2010-kouhaku/099.jpg"
+    }
+  ],
+  "syntheticBanners": [
+    {
+      "festivalId": "2008-kouhaku",
+      "url": "/banners/2008-kouhaku.png",
+      "reason": "Generated ARCHIVE RECOVERY placeholder, not the original festival banner"
+    },
+    {
+      "festivalId": "2008-seiyoku-festival",
+      "url": "/banners/2008-seiyoku-festival.png",
+      "reason": "Generated ARCHIVE RECOVERY placeholder, not the original festival banner"
+    },
+    {
+      "festivalId": "2008-summer",
+      "url": "/banners/2008-summer.png",
+      "reason": "Generated ARCHIVE RECOVERY placeholder, not the original festival banner"
+    },
+    {
+      "festivalId": "2007-default-battle-festival",
+      "url": "/banners/2007-default-battle-festival.png",
+      "reason": "Generated ARCHIVE RECOVERY placeholder, not the original festival banner"
+    },
+    {
+      "festivalId": "2007-gw",
+      "url": "/banners/2007-gw.png",
+      "reason": "Generated ARCHIVE RECOVERY placeholder, not the original festival banner"
+    },
+    {
+      "festivalId": "2007-summer",
+      "url": "/banners/2007-summer.png",
+      "reason": "Generated ARCHIVE RECOVERY placeholder, not the original festival banner"
+    },
+    {
+      "festivalId": "2006-gw",
+      "url": "/banners/2006-gw.png",
+      "reason": "Generated ARCHIVE RECOVERY placeholder, not the original festival banner"
+    },
+    {
+      "festivalId": "2006-kouhaku",
+      "url": "/banners/2006-kouhaku.png",
+      "reason": "Generated ARCHIVE RECOVERY placeholder, not the original festival banner"
+    },
+    {
+      "festivalId": "2006-summer",
+      "url": "/banners/2006-summer.png",
+      "reason": "Generated ARCHIVE RECOVERY placeholder, not the original festival banner"
+    },
+    {
+      "festivalId": "2005-kouhaku",
+      "url": "/banners/2005-kouhaku.png",
+      "reason": "Generated ARCHIVE RECOVERY placeholder, not the original festival banner"
+    }
+  ],
+  "restoredAssets": [
+    {
+      "url": "/banners/2016-gw.png",
+      "from": "public/banners/2016-gw.png.crdownload",
+      "method": "Verified full image decode, copied original PNG bytes"
+    }
+  ]
+}

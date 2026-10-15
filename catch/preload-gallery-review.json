@@ -1,0 +1,50 @@
+{
+  "reviewedAt": "2026-10-15T13:36:07.194Z",
+  "evidence": "catch/preload-gallery-correction.json",
+  "scope": "This record verifies the preload-gallery correction; subsequent official-title/source-title changes are recorded separately in title-ui-review.json.",
+  "festivals": [
+    {
+      "festivalId": "2015-gw",
+      "no": "02",
+      "galleryImages": 1,
+      "asset": "/screenshots/2015-gw/02-1.png",
+      "width": 640,
+      "height": 480,
+      "dataSha256": "0de87408aec574a5cd3dcd049cbe8a82d0aae1f5bd40a0b45118445db7ad5038",
+      "imageDecode": {
+        "total": 182,
+        "decoded": 182,
+        "failures": []
+      },
+      "screenshot": "test-results/preload-correction-2015-gw-02.png",
+      "titleVersionEvidence": "catch/title-ui-review.json"
+    },
+    {
+      "festivalId": "2015-kouhaku",
+      "no": "15",
+      "galleryImages": 1,
+      "asset": "/screenshots/2015-kouhaku/15-1.png",
+      "width": 320,
+      "height": 240,
+      "dataSha256": "82c9d652f6670e3e01c50dd5713e4a531e186137562ebda3447ea84dc1cb0ced",
+      "imageDecode": {
+        "total": 241,
+        "decoded": 241,
+        "failures": []
+      },
+      "screenshot": "test-results/preload-correction-2015-kouhaku-15.png"
+    }
+  ],
+  "routes": {
+    "2015-gw": {
+      "checked": 72,
+      "failures": []
+    },
+    "2015-kouhaku": {
+      "checked": 92,
+      "failures": []
+    }
+  },
+  "horizontalOverflow": false,
+  "titleVersionEvidence": "catch/title-ui-review.json"
+}

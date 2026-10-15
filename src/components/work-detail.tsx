@@ -6,6 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Festival, WorkEntry } from "@/lib/types";
 import { useLanguage } from "@/components/language-context";
+import { getWorkDownloads } from "@/lib/work-downloads";
 
 export default function WorkDetail({
   work,
@@ -15,10 +16,10 @@ export default function WorkDetail({
   festival?: Festival;
 }) {
   const { dictionary } = useLanguage();
-  const downloadUrl = work.download?.url;
-  const downloadLabel = work.download?.label ?? "DL";
-  const forumUrl = work.forum;
-  const screenshots = useMemo(() => work.ss ?? [], [work.ss]);
+  const restricted = work.contentRestricted === true;
+  const downloads = restricted ? [] : getWorkDownloads(work);
+  const forumUrl = restricted ? undefined : work.forum;
+  const screenshots = useMemo(() => restricted ? [] : work.ss ?? [], [restricted, work.ss]);
   const [viewerOpen, setViewerOpen] = useState(false);
   const [viewerIndex, setViewerIndex] = useState(0);
 
@@ -99,8 +100,16 @@ export default function WorkDetail({
   return (
     <article className="detail-card">
       <header className="detail-header">
+        {restricted && <p className="note">{work.no ? `No.${work.no} · ` : ""}{dictionary.restrictedContent}</p>}
         <h1 className="detail-title">{work.title}</h1>
-        <p className="detail-author-line">{work.author}</p>
+        <p className="detail-author-line">{work.source?.authorOmitted ? dictionary.authorOmitted : work.author}</p>
+        {work.originalTitle && <p className="note">{dictionary.detailsOriginalTitle}: {work.originalTitle}<br />{dictionary.detailsTitleVersionNotice}</p>}
+        {restricted && (
+          <div className="restricted-media">
+            <strong>{dictionary.restrictedContent}</strong>
+            <p>{dictionary.restrictedContentText}</p>
+          </div>
+        )}
         {screenshots.length > 0 && (
           <div className="detail-ss">{renderScreenshots(screenshots, dictionary, handleOpenViewer)}</div>
         )}
@@ -110,50 +119,69 @@ export default function WorkDetail({
         <table className="info-table">
           <tbody>
             <tr>
-              <th>{dictionary.detailsEngine}</th>
+              <th>{work.materialInfo ? dictionary.materialCompatibility : dictionary.detailsEngine}</th>
               <td>{work.engine ?? "-"}</td>
             </tr>
             <tr>
               <th>{dictionary.tableType}</th>
               <td>{work.category ?? "-"}</td>
             </tr>
-            <tr>
+            {!work.materialInfo && <tr>
               <th>{dictionary.detailsStreaming}</th>
               <td>
-                {work.streaming ?? "-"}
+                {restricted ? dictionary.restrictedContent : work.streaming ?? "-"}
               </td>
-            </tr>
+            </tr>}
           </tbody>
         </table>
       </section>
 
-      {work.authorComment && (
+      {work.materialInfo && <section className="detail-section">
+        <table className="info-table"><tbody>
+          <tr><th>{dictionary.materialArchivePermission}</th><td>{work.materialInfo.archivePermission || "-"}</td></tr>
+          <tr><th>{dictionary.materialExternalPermission}</th><td>{work.materialInfo.externalUsePermission || "-"}</td></tr>
+        </tbody></table>
+        {work.materialInfo.notes && <p className="section-text">{work.materialInfo.notes}</p>}
+        {festival?.materialTerms && <details className="material-terms"><summary>{dictionary.materialGeneralTerms}</summary><p className="section-text">{festival.materialTerms}</p></details>}
+      </section>}
+
+      {(restricted || work.authorComment) && (
         <section className="detail-section">
           <h2 className="section-heading">{dictionary.detailsAuthorComment}</h2>
-          <div
+          {restricted ? <p className="section-text">{dictionary.restrictedContentText}</p> : <div
             className="section-text"
-            dangerouslySetInnerHTML={{ __html: renderHostCommentHTML(work.authorComment) }}
-          />
+            dangerouslySetInnerHTML={{ __html: renderHostCommentHTML(work.authorComment ?? "") }}
+          />}
         </section>
       )}
 
-      {work.hostComment && (
+      {(restricted || work.hostComment) && (
         <section className="detail-section">
           <h2 className="section-heading">{dictionary.detailsHostComment}</h2>
-          <div
+          {restricted ? <p className="section-text">{dictionary.restrictedContentText}</p> : <div
             className="section-text"
-            dangerouslySetInnerHTML={{ __html: renderHostCommentHTML(work.hostComment) }}
-          />
+            dangerouslySetInnerHTML={{ __html: renderHostCommentHTML(work.hostComment ?? "") }}
+          />}
         </section>
       )}
 
-      {(downloadUrl || forumUrl) && (
+      {(restricted || work.updates) && (
         <section className="detail-section">
-          {downloadUrl && (
-            <a className="download-button" href={downloadUrl} target="_blank" rel="noopener noreferrer">
-              {downloadLabel}
-            </a>
-          )}
+          <h2 className="section-heading">{dictionary.detailsUpdates}</h2>
+          <p className="section-text">{restricted ? dictionary.restrictedContentText : work.updates}</p>
+        </section>
+      )}
+
+      {(restricted || downloads.length > 0 || forumUrl) && (
+        <section className="detail-section">
+          {restricted && <p className="note">{dictionary.restrictedContentText}</p>}
+          {downloads.some((file) => file.previewUrl) && <p className="note">{dictionary.audioPreviewNotice}</p>}
+          {downloads.length > 0 && (!work.materialInfo && downloads.length === 1 ? <a className="download-button" href={downloads[0].url} target="_blank" rel="noopener noreferrer">{downloads[0].label ?? "DL"}</a> : <div className="detail-files">{downloads.map((file) => <div className="detail-file" key={file.url}>
+            <a className="download-button" href={file.url} target="_blank" rel="noopener noreferrer" download={file.url.startsWith("/") ? file.filename || true : undefined}>{file.label ?? "DL"}</a>
+            {file.detail && <p className="note">{file.detail}</p>}
+            {/\.(mp3|wav|ogg)$/i.test(file.previewUrl ?? file.url) && <audio controls preload="metadata" src={file.previewUrl ?? file.url} aria-label={file.label ?? dictionary.filesLabel} />}
+            {/\.mid$/i.test(file.url) && <p className="note">{dictionary.midiDownloadNotice}</p>}
+          </div>)}</div>)}
           {forumUrl && (
             <a className="forum-link" href={forumUrl} target="_blank" rel="noopener noreferrer">
               Forum
@@ -163,6 +191,18 @@ export default function WorkDetail({
       )}
 
       <div className="detail-nav">
+        {!restricted && work.source && (
+          <>
+            <a className="nav-link" href={work.source.url} target="_blank" rel="noopener noreferrer">
+              {dictionary.sourcePage}
+            </a>
+            {work.source.snapshotUrl && (
+              <a className="nav-link" href={work.source.snapshotUrl} target="_blank" rel="noopener noreferrer">
+                {dictionary.archivedPage}
+              </a>
+            )}
+          </>
+        )}
         <Link href="/" className="nav-link">
           ← {dictionary.detailsBackToList}
         </Link>

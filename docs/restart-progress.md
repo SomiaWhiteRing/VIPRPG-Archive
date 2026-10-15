@@ -1,0 +1,22 @@
+# 重启后的逐祭典校对清单
+
+已校对 6/74 个祭典；当前顺序中的下一个：`2014-tsukusure-festival`。
+
+原貌视图已验收 6/74 个；整理版与原貌版共同纳入后续逐祭典工作。
+
+只有完成来源逐项核对、资源检查和桌面验收的祭典才加入下表。数据字段清点见 [festival-scrape-status.md](../catch/festival-scrape-status.md)，不作为校对完成证明。
+
+进度依据：[restart-progress.json](../catch/restart-progress.json)。顺序沿用已完成的 2014 GW、2015 GW，接续 2015 红白／夏、2014–2005 年其余祭典，最后复核 2016–2025 年祭典。数据文件改变后，原完成记录会标为需要复核。
+
+| 顺序 | 祭典 | 日期 | 校对结果 | 来源证据 |
+| ---: | --- | --- | --- | --- |
+| 1 | 2014-gw | 2026-10-15 | 69 个详情与 69 张截图已核对；49 张缺图直接从可用源站补回。 | [catch/2014-gw/recovery.json](../catch/2014-gw/recovery.json)、[catch/2014-gw/screenshot-recovery.json](../catch/2014-gw/screenshot-recovery.json) |
+| 2 | 2015-gw | 2026-10-15 | 71 个正式作品及 No.00 示例；108 张原页可见／悬停截图全部恢复；1 张可用但未显示的预加载图仅保留为来源资源，33 个无效预加载路径单列。 | [catch/2015-gw/recovery.json](../catch/2015-gw/recovery.json)、[catch/preload-gallery-correction.json](../catch/preload-gallery-correction.json)、[catch/title-source-comparison.json](../catch/title-source-comparison.json) |
+| 3 | 2015-kouhaku | 2026-10-15 | 91 个正式作品及 No.00 示例；92 个详情、148 张相册截图、1 张主办留言图片、90 个图标和 2 张横幅已核对。No.15 的 1 张未显示预加载图已移出画廊并保留为来源资源；当前 241 个图片引用解码通过。 | [catch/2015-kouhaku/recovery.json](../catch/2015-kouhaku/recovery.json)、[catch/2015-kouhaku/source/recovery/manifest.json](../catch/2015-kouhaku/source/recovery/manifest.json)、[catch/preload-gallery-correction.json](../catch/preload-gallery-correction.json) |
+| 4 | 2015-summer | 2026-10-15 | 77 条目录及详情入口（76 个来源详情、1 个受限模板）、76 个原始图标、110 张原始截图和 2 张横幅已核对；87 个缺图由管理人整站备份恢复；受限条目保留完整骨架，介绍和媒体采用固定中性模板。 | [catch/2015-summer/recovery.json](../catch/2015-summer/recovery.json)、[catch/2015-summer/image-recovery.json](../catch/2015-summer/image-recovery.json)、[catch/title-source-comparison.json](../catch/title-source-comparison.json)、[catch/2015-summer/external-image-recovery.json](../catch/2015-summer/external-image-recovery.json) |
+| 5 | 2014-kouhaku | 2026-10-15 | 113 条目录与详情入口（112 个来源详情、1 个受限模板）；补回 No.000，No.003 官方讨论页名称与原页题名分别保留，恢复 157 张可见／悬停截图、227 处留言图片引用和 1 张横幅。两种视图桌面验收通过；原站标题背景图在原站及镜像存档均 404，保留原底色并单列缺失。 | [catch/2014-kouhaku/recovery.json](../catch/2014-kouhaku/recovery.json)、[catch/2014-kouhaku/source-comparison.json](../catch/2014-kouhaku/source-comparison.json)、[catch/2014-kouhaku/original-view.json](../catch/2014-kouhaku/original-view.json)、[catch/title-source-comparison.json](../catch/title-source-comparison.json) |
+| 6 | 2014-summer | 2026-10-15 | 73 个详情、73 条来源图标（12 个由原列表补回）、101 张实际展示／悬停截图及 2 张横幅已核对。原站 EUC-JP 正确解码；3 张可用但未显示的预加载图另存，42 个无效预加载路径单列。两种视图桌面验收通过，原貌资源无可见缺口。 | [catch/2014-summer/recovery.json](../catch/2014-summer/recovery.json)、[catch/2014-summer/source-comparison.json](../catch/2014-summer/source-comparison.json)、[catch/2014-summer/original-view.json](../catch/2014-summer/original-view.json)、[catch/title-source-comparison.json](../catch/title-source-comparison.json) |
+
+尚未完成：`2014-tsukusure-festival`、`2013-gw`、`2013-kouhaku`、`2013-summer`、`2012-gw`、`2012-kouhaku`、`2012-magic-festival`、`2012-summer`、`2012-toppuu-festival`、`2011-denpa-game-festival`、`2011-gw`、`2011-kouhaku`、`2011-summer`、`2011-toppatsu-festival`、`2010-gw`、`2010-kouhaku`、`2010-summer`、`2009-gw`、`2009-kouhaku`、`2009-ksgfestival`、`2009-silver-week-miruge-festival`、`2009-summer`、`2008-chuuni-festival`、`2008-gw`、`2008-jisaku-battle-festival`、`2008-kouhaku`、`2008-seiyoku-festival`、`2008-summer`、`2007-default-battle-festival`、`2007-gw`、`2007-summer`、`2006-gw`、`2006-kouhaku`、`2006-summer`、`2005-kouhaku`、`2025-gw`、`2025-summer`、`2024-gw`、`2024-kouhaku`、`2024-kuradashifestival`、`2024-summer`、`2023-gw`、`2023-kouhaku`、`2023-summer`、`2023-winter`、`2022-gw`、`2022-kouhaku`、`2022-summer`、`2021-gw`、`2021-kouhaku`、`2021-summer`、`2020-gw`、`2020-kouhaku`、`2020-summer`、`2019-gw`、`2019-kouhaku`、`2019-summer`、`2018-gw`、`2018-gw-2`、`2018-kouhaku`、`2018-summer`、`2017-gw`、`2017-kouhaku`、`2017-summer`、`2016-gw`、`2016-kouhaku`、`2016-summer`、`2016-summer-2`。
+
+已校对但尚待原貌视图验收：无。
