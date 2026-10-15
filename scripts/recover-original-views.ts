@@ -6,7 +6,13 @@ import { imageExtension, writeJson } from "./recover-entry-table";
 import { getDictionary } from "../src/lib/i18n";
 import type { WorkEntry } from "../src/lib/types";
 
-const configurations: Record<string, { base: string; manifests: string[]; seeds: Record<string, string>; encoding?: string; frames?: { menuPage: string; menuName: string; mainName: string } }> = {
+const configurations: Record<string, { base: string; manifests: string[]; seeds: Record<string, string>; encoding?: string; liveSource?: boolean; frames?: { menuPage: string; menuName: string; mainName: string } }> = {
+  "2013-gw": {
+    base: "http://viprpg2013gw.web.fc2.com/",
+    manifests: ["source/recovery/manifest.json"],
+    seeds: { "index.html": "investigation/original-live.bin" },
+    liveSource: true,
+  },
   "2014-tsukusure-festival": {
     base: "http://www.geocities.jp/viprpg2014material/",
     manifests: ["source/recovery/manifest.json"],
@@ -29,6 +35,7 @@ const configurations: Record<string, { base: string; manifests: string[]; seeds:
     base: "http://viprpg2014gw.web.fc2.com/",
     manifests: ["source/manifest.json", "source/live-screenshots/manifest.json"],
     seeds: { "index.html": "investigation/original-live.bin" },
+    liveSource: true,
   },
   "2015-gw": {
     base: "http://www.geocities.jp/viprpg2015gw/",
@@ -131,16 +138,26 @@ async function main() {
         const fallback = inventory.slice(1).find((row) => relative(row[0]) === "index.html");
         const capture = row ?? fallback;
         const archiveUrl = capture && `https://web.archive.org/web/${capture[2] || capture[1]}id_/${row?.[0] ?? original}`;
-        const url = id === "2014-gw" ? new URL(local, base).href : archiveUrl;
-        if (!url) throw new Error("No original capture listed");
-        requestedUrl = url;
-        const response = await fetch(url, { signal: AbortSignal.timeout(30000) });
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
-        bytes = Buffer.from(await response.arrayBuffer());
-        const filename = `${Object.keys(manifest).length + 1}.bin`;
-        await fs.writeFile(`${cache}/${filename}`, bytes);
-        manifest[filename] = { originalUrl: original, requestedUrl: url, actualUrl: response.url, contentType: response.headers.get("content-type"), retrievedAt: new Date().toISOString() };
-        await writeJson(manifestPath, manifest);
+        const urls = config.liveSource ? [new URL(local, base).href, archiveUrl] : [archiveUrl];
+        let recovered: Buffer | undefined;
+        const errors = [];
+        for (const url of [...new Set(urls.filter((url): url is string => Boolean(url)))]) {
+          requestedUrl = url;
+          try {
+            const response = await fetch(url, { signal: AbortSignal.timeout(30000) });
+            if (!response.ok) throw new Error(`HTTP ${response.status}`);
+            const candidate = Buffer.from(await response.arrayBuffer());
+            if (/\.(?:png|jpe?g|gif|bmp|webp|ico)$/i.test(local)) imageExtension(candidate);
+            recovered = candidate;
+            const filename = `${Object.keys(manifest).length + 1}.bin`;
+            await fs.writeFile(`${cache}/${filename}`, recovered);
+            manifest[filename] = { originalUrl: original, requestedUrl: url, actualUrl: response.url, contentType: response.headers.get("content-type"), retrievedAt: new Date().toISOString(), ...(errors.length ? { previousErrors: errors } : {}) };
+            await writeJson(manifestPath, manifest);
+            break;
+          } catch (error) { errors.push({ url, error: String(error) }); }
+        }
+        if (!recovered) throw new Error(errors.length ? JSON.stringify(errors) : "No original capture listed");
+        bytes = recovered;
       }
       if (!/\.html?$/i.test(local) && /^\s*<(?:!doctype|html)\b/i.test(bytes.subarray(0, 256).toString("utf8"))) throw new Error("HTML returned instead of a source resource");
       if (/\.(?:png|jpe?g|gif|bmp|webp|ico)$/i.test(local)) imageExtension(bytes);
@@ -163,6 +180,7 @@ async function main() {
           });
         }
         $("base").remove();
+        $('img[src*="media.fc2.com/counter_img.php"]').remove();
         $("meta[charset]").attr("charset", "UTF-8");
         $("meta[http-equiv]").each((_, element) => {
           if ($(element).attr("http-equiv")?.toLowerCase() === "content-type") $(element).attr("content", "text/html; charset=UTF-8");

@@ -1,0 +1,12 @@
+{
+  "reviewedAt": "2026-10-16",
+  "pageAudit": "catch/2013-gw/page-audit.json",
+  "sourcePages": 66,
+  "candidates": [
+    { "no": "19", "assessment": "The matched word occurs in a character nickname in a non-explicit romance game description; the description does not require a restricted template." },
+    { "no": "23", "assessment": "The title contains a childlike-character term. Source comments are non-sexual; both actual source screenshots were inspected: a world-map scene and a clothed character/face-sheet collage, with no explicit sexual imagery." },
+    { "no": "62", "assessment": "The matched term is part of a gothic-lolita character name; source comments describe a custom battle-system demo and controls, without explicit sexual content." }
+  ],
+  "contentRestrictions": [],
+  "probeCorrection": "An initial request for an unlinked g23.png returned HTML 404 and is retained only as unused-g23-path-404.bin; it is not used as source, screenshot, or evidence of a missing asset. Actual g23-1.png and g23-2.png were read from the source DOM/hover handler."
+}

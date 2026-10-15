@@ -1,0 +1,74 @@
+{
+  "reviewedAt": "2026-10-16",
+  "scope": "Desktop only",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "width": 1280,
+      "height": 900
+    }
+  ],
+  "dataSha256": "0397bb8ee9a843da558f16a86772b4a718b1ffb1427fef2266f455fd235f8551",
+  "listRows": 66,
+  "sourceNumberFormat": "00 through 65",
+  "sample": {
+    "number": "00",
+    "width": 640,
+    "height": 480,
+    "actualFormat": "BMP",
+    "noInventedDownload": true,
+    "noInventedForum": true
+  },
+  "gallery": {
+    "number": "03",
+    "next": true,
+    "escapeCloses": true
+  },
+  "title62": "ゴスロリ子伝説",
+  "comment62LineBreaks": 10,
+  "images": {
+    "formatted": 138,
+    "original": 139,
+    "allDecoded": true
+  },
+  "routes": {
+    "total": 66,
+    "status200": 66
+  },
+  "original": {
+    "files": 207,
+    "workLinks": 66,
+    "hover03": {
+      "before": "../ss/g03.png",
+      "after": "../ss/g03-1.png"
+    },
+    "localTopReturn": true,
+    "externalTrackingImageRemoved": true,
+    "outerOverflow": false,
+    "frameOverflow": false
+  },
+  "returnToFormatted": {
+    "hash": "#2013-gw",
+    "sectionTop": 166,
+    "activeOutline": "VIPRPG GW祭り 2013"
+  },
+  "checks": {
+    "data": true,
+    "lint": true,
+    "productionBuild": true,
+    "replayByteStable": true
+  },
+  "screenshots": [
+    "test-results/review-2013-gw-list.png",
+    "test-results/review-2013-gw-list-1280.png",
+    "test-results/review-2013-gw-sample00.png",
+    "test-results/review-2013-gw-detail03.png",
+    "test-results/review-2013-gw-title62.png",
+    "test-results/review-2013-gw-original-list.png",
+    "test-results/review-2013-gw-original-detail03-hover.png",
+    "test-results/review-2013-gw-original-1280.png"
+  ]
+}

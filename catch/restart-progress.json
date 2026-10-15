@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2013-gw",
+  "activeFestival": "2013-kouhaku",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -240,6 +240,27 @@
         "catch/2014-tsukusure-festival/replay-review.json"
       ],
       "notes": "原站 13 类、83 个素材条目与 8 个游戏条目逐项核对；124 个预览图引用、197 个本地文件、8 个历史游戏下载链接及素材许可保留。67 个声音均可试听，26 个 MS ADPCM 文件另有兼容预览且原下载不变。旧目录 54 条未确认记录保留待查，原站无作品编号。双视图桌面验收通过，原貌资源无缺口。"
+    },
+    {
+      "festivalId": "2013-gw",
+      "reviewedAt": "2026-10-16",
+      "dataSha256": "0397bb8ee9a843da558f16a86772b4a718b1ffb1427fef2266f455fd235f8551",
+      "works": 66,
+      "screenshotFiles": 79,
+      "status": "reviewed",
+      "sourceEvidence": [
+        "catch/2013-gw/recovery.json",
+        "catch/2013-gw/source-comparison.json",
+        "catch/2013-gw/title-review.json",
+        "catch/2013-gw/content-review.json"
+      ],
+      "desktopEvidence": [
+        "catch/2013-gw/desktop-review.json",
+        "catch/2013-gw/route-review.json",
+        "catch/2013-gw/image-browser-review.json",
+        "catch/2013-gw/replay-review.json"
+      ],
+      "notes": "源站仍可用，直接恢复 66 个详情（补回 No.00）、66 条图标引用（57 个不同文件）、79 张实际展示／悬停截图、2 张横幅及 55 个历史下载入口；No.13 图标首次源站超时后由已知存档补回。66 份作者及主办留言逐项核对。No.62 按原页和官方讨论页采用同一题名。两种视图桌面验收通过，原貌版 207 个文件无缺口。"
     }
   ],
   "originalViewsReviewed": [
@@ -291,6 +312,13 @@
       "evidence": [
         "catch/2014-tsukusure-festival/original-view.json",
         "catch/2014-tsukusure-festival/original-desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2013-gw",
+      "evidence": [
+        "catch/2013-gw/original-view.json",
+        "catch/2013-gw/desktop-review.json"
       ]
     }
   ]
