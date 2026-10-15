@@ -1,0 +1,623 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" dir="ltr">
+<head>
+<title>VIPRPG紅白2013</title>
+<meta http-equiv="X-UA-Compatible" content="IE=emulateIE8" />
+<meta http-equiv="content-type" content="text/html; charset=Shift_JIS" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(function(){
+	var $setFilter = $('#filter'),
+	$setList = $('#filterlist'),
+	$setFilterAll = $('.allitem');
+
+	var showFade = 300,
+	showShut = 300,
+	hideFade = 200,
+	hideShut = 200;
+
+	var $setFilterBtn = $setFilter.children('a'),
+	$setFilterList = $setList.children('ul').children('li'),
+	$filterAllItem = $setFilterAll.attr('class');
+
+	$setFilterBtn.click(function(){
+		if(!($(this).hasClass('active'))){
+			var filterClass = $(this).attr('class');
+			$setFilterList.each(function(){
+				if($(this).hasClass(filterClass)){
+					$(this).css({display:'block'});
+					$(this).find('*').stop().animate({opacity:'1'},showFade);
+					$(this).stop().animate({width:'900px'},showShut);
+				} else {
+					$(this).find('*').stop().animate({opacity:'0'},hideFade);
+					$(this).stop().animate({width:'0'},hideShut,function(){
+						$(this).css({display:'none'});
+					});
+				}
+			});
+			$setFilterBtn.removeClass('active');
+			$(this).addClass('active');
+		}
+	});
+
+	$setFilterAll.click(function(){
+		$setFilterList.each(function(){
+			$(this).css({display:'block'});
+			$(this).find('*').stop().animate({opacity:'1'},showFade);
+			$(this).stop().animate({width:'900px'},showShut);
+		});
+	});
+	$setFilterAll.click();
+});
+</script>
+<!-- タブ  -->
+<script type="text/javascript">
+$(function(){
+	$("a.btn_act").click(function(){
+		var connectCont = $("a.btn_act").index(this);
+		var showCont = connectCont+1;
+		$('.motion').css({display:'none'});
+		$('#motion_area'+(showCont)).fadeIn('fast');
+
+		$('a.btn_act').removeClass('active');
+		$(this).addClass('active');
+	});
+});
+</script>
+
+<style type="text/css">
+a:link { text-decoration:underline; color: #000;}
+a:visited { text-decoration:underline; color: #000;}
+a:active { text-decoration:underline; color: #000;}
+a:hover { text-decoration:none; color: #000;}
+div {padding: 0px 0px 0px 10px;}
+body {margin: 0;}
+
+h1 {margin: 0; background: #F77;	color: #fff;}
+h4 {margin: 0; background: #F77;	color: #fff;}
+
+.motion {width: 800px; display: none;}
+#motion_area1 {display: block;}
+a.active {font-weight: bold; background: #ddd;}
+
+#filterlist table, th, td {border: 1px #000000 solid; border-collapse: collapse;}
+</style>
+
+</head>
+
+<body>
+
+<!-- [FC2 Analyzer] http://analyzer.fc2.com/  -->
+<script language="javascript" src="http://analyzer51.fc2.com/ana/processor.php?uid=2344770" type="text/javascript"></script>
+<noscript><div align="right"><img src="http://analyzer51.fc2.com/ana/icon.php?uid=2344770&ref=&href=&wid=0&hei=0&col=0" /></div></noscript>
+<!-- [FC2 Analyzer]  -->
+
+
+<h1>VIPRPG紅白2013</h1>
+
+<div id="container">
+
+<noscript>
+  このWebサイトの全ての機能を利用するためにはJavaScriptを有効にする必要があります。
+<a href="http://www.enable-javascript.com/ja/" target="_blank">
+あなたのWebブラウザーでJavaScriptを有効にする方法</a>
+を参照してください。
+</noscript>
+
+<div id="menu">
+≫<a href="javascript:void(0);" class="btn_act active">last</a>　　
+≫<a href="javascript:void(0);" class="btn_act">about</a>　　
+≫<a href="javascript:void(0);" class="btn_act">entry</a>　　
+≫<a href="javascript:void(0);" class="btn_act">bbs/link</a>　　　　
+<a href="http://www.netriver.jp/product/" target='_blank'><img src="http://www.netriver.jp/countriver/cntriv.cgi?user=vipkohaku2013&id=001&ptn=15&dig=0"></a>
+<br />
+
+<div id="motion_area1" class="motion">
+<p>
+　　≫<a href="history.txt" target=_blank>history</a><br>
+　　≫<a href="http://yahoo.jp/box/eKCDS7" target=_blank>作品公開所</a><br>
+</p>
+</div><!--/tab_area1-->
+
+<div id="motion_area2" class="motion">
+<p>
+<strong>初めての方へ</strong><br>
+　このサイトは2ちゃんねる　ニュース速報VIP板　RPGツクールスレッド(VIPツクスレ)に関するコンテンツを取り扱ったサイトです。 同所の性質上、当サイト内においても内輪・アングラ・不健全要素を含んでいます。<br>
+　VIPツクスレに初めて訪れる方、書いてあることが良く分からない方は、 閲覧を差し控えるか、半年ほどROMしていただくことを推奨致します。
+</p>
+
+<p>
+<strong>企画概要</strong><br>
+　「VIPRPG紅白2013」は、VIPツクスレで毎年開催されている ツクール作品を公開しあい、感想を付け合うことを目的とした企画です。<br>
+　詳しくはリンクから過去の祭りをご覧ください。
+</p>
+
+<p>
+<strong>投票審査</strong><br>
+　作品公開後、人気投票を行います。<br>
+　各作品ごとに投票ページを設置し、集計結果に基づいて総合順位を決めます。<br>
+　　≫<a href="vote.txt" target="_blank">投票要綱</a><br>
+　　≫<a href="http://enq-maker.com/iSDWbFL" target="_blank">投票サンプルページ</a><br>
+</p>
+
+<p>
+<strong>スケジュール</strong><br>
+<table border="1">
+		<tr><th>エントリー受付</th><td><s>10月12日　～　12月23日 23:59</s></td></tr>
+		<tr><th>作品提出</th><td><s>12月1日　～　12月23日 23:59</s><br>以降の提出は遅刻扱い 遅刻提出は最終更新まで</td></tr>
+		<tr><th>作品公開</th><td><s>12月25日予定</s></td></tr>
+		<tr><th>最終更新日</th><td>2014年1月31日予定</td></tr>
+		<tr><th>投票期間</th><td><s>2013年12月25日　～　2014年1月21日 23:59</s></td></tr>
+		<tr><th>開票</th><td><s>2014年1月22日予定</s></td></tr></table>
+</p>
+</div><!--/tab_area2-->
+
+<div id="motion_area3" class="motion">
+<p>
+<strong>参加</strong><br>
+　参加要綱と参加条件をよく読み、内容に了承した上で、必要事項を記入してメールでエントリーしてください。<br>
+　　≫<a href="entry.txt" target=_blank">参加要綱</a>
+</p>
+
+<p>
+<strong>参加条件</strong><br>
+<ul>
+<li>RPGツクールで作られた自分の作品であること<br>プログラムやWOLF RPGエディターなどで製作されたゲームは参加禁止<br>ただし、RPGツクールに関係したツール作品のエントリーは自己責任で可</li><br>
+<li>エントリーは1人1枠　かつ　提出する作品も1人1つまで<br>1つのzipファイルの中に複数のゲームファイルを封入するのは自己責任で可</li><br>
+<li>未公開作品のみ<br>すでに公開済みである自作品のリメイク品　または<br>未公開の追加要素・変更要素を含む自作品での参加も自己責任で可<br>ただしエントリー後、作品公開日までに未公開部分を公開するのは禁止</li>
+</ul>
+</p>
+
+<p>
+<strong>提出</strong><br>
+　提出受付開始後、作品をzip形式で圧縮し、以下の方法で提出してください。<br>
+　　≫<a href="pres.txt" target=_blank">提出方法</a>
+</p>
+
+<p>
+<strong>修正</strong><br>
+　作品提出後、作品を修正する場合は、以下の方法で修正ファイルをアップしてください。<br>
+　　≫<a href="revise.txt" target=_blank">修正方法</a><br>
+　　≫修正アップローダ　　
+<a href="http://yui.oopsup.com/vipkohaku2013no1/" target=_blank">①</a> / 
+<a href="http://yui.oopsup.com/vipkohaku2013no2/" target=_blank">②</a> / 
+<a href="http://yui.oopsup.com/vipkohaku2013no3/" target=_blank">③</a> /
+<a href="http://yui.oopsup.com/vipkohaku2013no4/" target=_blank">④</a> /
+<a href="http://yui.oopsup.com/vipkohaku2013no5/" target=_blank">⑤</a>
+</p>
+</div><!--/tab_area3-->
+
+<div id="motion_area4" class="motion">
+
+<p>
+<strong>BBS</strong><br>
+　　≫<A href="http://jbbs.livedoor.jp/otaku/16384/" target=_blank>掲示板</a><br>
+　　　運営スレ　サイトの管理運営のための掲示板です。管理人からのお知らせなどを書き込みます。質問や報告などもこちらへどうぞ。<br>
+　　　感想スレ　各作品の専用スレッドがあります。作品の感想を書き込む、攻略・ゲームデータ修正の報告などにご利用ください。<br>
+</p>
+
+<hr>
+
+<p>
+<!--<strong>Link</strong><br>
+<A href="http://www10.atwiki.jp/vip_rpg/" target=_blank><img src="img/wiki.png" width="200" height="40" border="0"></a><br>-->
+</p>
+
+<hr>
+
+<p>
+<strong>BackNumbers</strong><br>
+<A href="http://vipkouhaku05.cs.land.to/" target=_blank><img src="http://vipkouhaku05.cs.land.to/viprpgkouhaku2009-top.png" width="200" height="40" border="0"></a>
+<A href="http://www.geocities.jp/vipkouhaku/" target=_blank><img src="img/vipkohaku_second02.png" width="200" height="40" border="0"></a>
+<A href="http://music.geocities.jp/kouhaku03_01/" target=_blank><img src="img/kouhaku2007.png" width="200" height="40" border="0"></a><br>
+<A href="http://www.geocities.jp/viprpg_kouhaku_2008/" target=_blank><img src="http://vipkouhaku05.cs.land.to/vip2008.png" width="200" height="40" border="0"></a>
+<A href="http://vipkouhaku09.web.fc2.com/" target=_blank><img src="img/2009banner_meza.png" width="200" height="40" border="0"></a>
+<A href="http://www.geocities.jp/vipkohaku2010_1/" target=_blank><img src="img/bnkohaku2010_3.png" width="200" height="40" border="0"></a><br>
+<A href="http://vipkohaku2011.web.fc2.com/" target=_blank><img src="img/bnkohaku2011_2.png" width="200" height="40" border="0"></a>
+<A href="http://vipkh2012.y.ribbon.to/" target=_blank><img src="http://vipkh2012.y.ribbon.to/img/bnkohaku2012_2.png" width="200" height="40" border="0"></a>
+</p>
+
+<hr>
+
+<p>
+<strong>当サイトへのリンク</strong><br>
+　当サイトはリンクフリーです。作品ページだけ抜き出してリンクしていただいても構いません。以下のバナーをご自由にご利用ください。バナーは直リンクも可能です。<br>
+　<br>
+200x40　頂きもの<br />
+<a href="img/bnkohaku2013_2.png" target="_blank"><img src="img/bnkohaku2013_2.png" alt="" width="200" height="40" /></a><br>
+200x40<br />
+<a href="img/bnkohaku2013_1.png" target="_blank"><img src="img/bnkohaku2013_1.png" alt="" width="200" height="40" /></a><br>
+</p>
+
+</div><!--/tab_area4-->
+
+
+</div><!--/menu-->
+
+<hr>
+
+<div>
+作品一覧<br>
+≫<a href="index.html">アイコン</a>　　
+≫<a href="index_t.html">サムネイル</a>　　
+≫<a href="vote_index.html">投票結果</a>　　
+</div>
+
+<div id="motion2_area1" class="motion2">
+<div id="filter">
+<a href="javascript:void(0);" class="allitem"></a>
+<!--/ 
+ -->
+</div>
+
+
+<div id="filterlist">
+
+<div>
+<p>
+総合<br>
+<a href="vote0.html">総合順位</a> | 
+<a href="vote9.html">グループ勝敗</a> | 
+表彰会場
+</p>
+<p>
+部門別<br>
+単純評価 ： 
+<a href="vote1.html">熱中</a> | 
+<a href="vote2.html">技術</a> | 
+<a href="vote3.html">物語</a> | 
+<a href="vote4.html">演出</a> | 
+<a href="vote5.html">斬新さ</a> | 
+<a href="vote6.html">遊びやすさ</a> | 
+<a href="vote7.html">ワロさ</a> | 
+<a href="vote8.html">ひどさ</a><br>
+相関評価 ： 
+<a href="voteto1.html">熱中</a> | 
+<a href="voteto2.html">技術</a> | 
+<a href="voteto3.html">物語</a> | 
+<a href="voteto4.html">演出</a> | 
+<a href="voteto5.html">斬新さ</a> | 
+<a href="voteto6.html">遊びやすさ</a> | 
+<a href="voteto7.html">ワロさ</a> | 
+<a href="voteto8.html">ひどさ</a><br>
+</p>
+<h2>表彰会場</h2>
+<p>
+　ここでは、投票において優秀な成績を収めた作品をピックアップして紹介しています。<br>
+　また、投票後に各作品作者様からお寄せいただいたコメントも併せて掲載しています。<br>
+　(※現段階でコメントをいただけた作者様のみ)
+</p>
+<p>
+総合賞<br>
+　<a href="#to_1v1_1v2_1v4_2v5_1vall">総合1位</a> | <a href="#to2v1_2v3_1v6_1">総合2位</a> | <a href="#to3v4_1">総合3位</a><br>
+</p><p>
+部門賞<br>
+　<a href="#to_1v1_1v2_1v4_2v5_1vall">熱中1位</a> | <a href="#to_1v1_1v2_1v4_2v5_1vall">技術1位</a> | <a href="#to2v1_2v3_1v6_1">物語1位</a> | <a href="#to3v4_1">演出1位</a> | <a href="#to_1v1_1v2_1v4_2v5_1vall">斬新さ1位</a> | <a href="#to2v1_2v3_1v6_1">遊びやすさ1位</a> | <a href="#v4_3v7_1v8_2">ワロさ1位</a> | <a href="#v8_1">ひどさ1位</a><br>
+　<a href="#to2v1_2v3_1v6_1">熱中2位</a> | <a href="#v2_2v5_2">技術2位</a> | <a href="#v1_3v3_2">物語2位</a> | <a href="#to_1v1_1v2_1v4_2v5_1vall">演出2位</a> | <a href="#v2_2v5_2">斬新さ2位</a> | <a href="#v6_2">遊びやすさ2位</a> | <a href="#v7_2">ワロさ2位</a> | <a href="#v4_3v7_1v8_2">ひどさ2位</a><br>
+　<a href="#v1_3v3_2">熱中3位</a> | <a href="#v2_3">技術3位</a> | <a href="#v3_3">物語3位</a> | <a href="#v4_3v7_1v8_2">演出3位</a> | <a href="#v5_3">斬新さ3位</a> | <a href="#v6_3">遊びやすさ3位</a> | <a href="#v7_3">ワロさ3位</a> | <a href="#v8_3">ひどさ3位</a>
+</p>
+<hr>
+</div>
+
+<div id="container" align=center>
+<p id="to_1v1_1v2_1v4_2v5_1vall"><font size="6"><b>【総合1位】<br>【全部門１位（単純評価）】<br>【熱中度部門1位（相関評価）】<br>【技術部門1位（相関評価）】<br>【演出部門2位（相関評価）】<br>【斬新さ部門1位（相関評価）】</b></font></p>
+<table width="640" border="1" bgcolor="#ffffff">
+		<tr><th width="32"><img src="ent/i/i072.png" width="32" height="32"></th><td bgcolor="#ffffff">No.72 - ★クッキーのクッキー☆</td></tr>
+</table>
+<img src="ent/s/s072a.png" onmouseover="this.src='ent/s/s072a.png';" onmouseout="this.src='ent/s/s072a.png';" border="0">
+<table width="640" border="1" bgcolor="#ffffff">
+		<tr><td colspan="2"	height="32" bgcolor="#ff7777"><b><a href="ent/72.html" target=_blank>作品ページ</a> / <a href="http://yahoo.jp/box/Tqlwri" target=_blank>本体ダウンロード(18.8MB)</a> / <a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387863944/" target=_blank>BBS</a> / <a href="http://enq-maker.com/biJ3HT6" target=_blank>投票結果</a></td></tr>
+		<tr><td bgcolor="#dcdcdc">作者：ＫＳＤ</td><td bgcolor="#dcdcdc">使用ツール：2000</td></tr>
+		<tr><td bgcolor="#dcdcdc">ジャンル：クッキー☆</td><td bgcolor="#dcdcdc">配信/投稿：いいぜ/いいぜ</td></tr>
+		<tr><td colspan="2" style="padding: 20px;"><font size="4"><b>作品総評：[熱2技2語0演2遊2笑2酷2]</b></font><br>　本紅白最大のダークホースにして年末の魔物。エントリー時点で受けた衝撃と、その内容を見てからの衝撃はいずれも今でも忘れることができません。ネタに関しては例のアレにつき多言は避けますが、それでも「クッキー☆」を「ヨッシーのクッキー」をベースとしたゲームへと昇華させたという発想それ自体、そして何よりここまで完成度の高いゲームに仕上げた技術力については高く評価されて然るべきでありましょう。内容も一見ネタゲーと見えてその実は作り込まれており、パッチを重ねるごとにやり込み要素も充実しているため、やるゲとしてのボリュームも十分すぎるほど十分です。ネタが通じる人向けであるという感はどうしても否めませんが、分かった上で遊ぶには恐らくはこの上ない作品でありましょう。<br>(Hiro/男性/26歳 ～ 30歳)</td></tr>
+<tr><td colspan="2" style="padding: 20px;"><font size="4"><b>作者コメント：</b></font><br>
+こんなゲームに投票しなくていいから…（良心）
+</td></tr> 
+		<tr><td colspan="2"	height="32" bgcolor="#ff7777"></td></tr>
+</table></div>
+<hr>
+
+<div id="container" align=center>
+<p id="to2v1_2v3_1v6_1"><font size="6"><b>【総合2位】<br>【熱中度部門2位（相関評価）】<br>【物語部門1位（相関評価）】<br>【遊びやすさ部門1位（相関評価）】</b></font></p>
+<table width="640" border="1" bgcolor="#ffffff">
+		<tr><th width="32"><img src="ent/i/i006.png" width="32" height="32"></th><td bgcolor="#ffffff">No.6 - ★アリスの標本箱</td></tr>
+</table>
+<img src="ent/s/s006a2.png" onmouseover="this.src='ent/s/s006b2.png';" onmouseout="this.src='ent/s/s006a2.png';" border="0">
+<table width="640" border="1" bgcolor="#ffffff">
+		<tr><td colspan="2"	height="32" bgcolor="#ff7777"><b><a href="ent/6.html" target=_blank>作品ページ</a> / <a href="http://yahoo.jp/box/IMAEzJ" target=_blank>本体ダウンロード(15.3MB)</a> / <a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1381603483/" target=_blank>BBS</a> / <a href="http://enq-maker.com/11hY0jB" target=_blank>投票結果</a></td></tr>
+		<tr><td bgcolor="#dcdcdc">作者：藻太郎</td><td bgcolor="#dcdcdc">使用ツール：2000</td></tr>
+		<tr><td bgcolor="#dcdcdc">ジャンル：荒唐無稽なデフォ戦ＲＰＧ２</td><td bgcolor="#dcdcdc">配信/投稿：可・可/可・可</td></tr>
+		<tr><td colspan="2" style="padding: 20px;"><font size="4"><b>作品総評：[熱2技1語2演2遊2笑2酷1]</b></font><br>　 前作のときにも思ったのですが、VIPRPGには珍しく、かなりはっきりとした自分の世界を持っているツクラーさんだなと感じました。それでいて、独りよがりで終わることは決してなく、魅せ方も心得ています。 プレイヤーになにをしてほしいか、なにを感じてほしいか。作者さんは直接手を下すのではなく、そっと行き場を示すだけ。どっぷりと頭までハマることができました。<br>(-/男性/26歳 ～ 30歳)</td></tr>
+		<tr><td colspan="2" style="padding: 20px;"><font size="4"><b>作者コメント：</b></font><br>
+真の臆病者は幸福さえも恐れる、といいますが、そのような心持ちです。<br>
+この順位は身に余るのではないか、過去作から切り離し作品単体で見ればさてどうか、等々、<br>
+脳裏をよぎる自省は絶えません。が、いったん保留し、プレイヤーの方々にしめやかに感謝。<br>
+<br>
+得た糧をもとに、自己のよどみにふたたび沈潜しようと思います。<br>
+今日より明日なんじゃ。というわけで、次の作品からの呼び声にそなえます。
+</td></tr> 
+		<tr><td colspan="2"	height="32" bgcolor="#ff7777"></td></tr>
+</table></div>
+<hr>
+
+<div id="container" align=center>
+<p id="to3v4_1"><font size="6"><b>【総合3位】<br>【演出部門1位（相関評価）】</b></font></p>
+<table width="640" border="1" bgcolor="#ffffff">
+		<tr><th width="32"><img src="ent/i/i028.png" width="32" height="32"></th><td bgcolor="#ffffff">No.28 - ★逆転ザック</td></tr>
+</table>
+<img src="ent/s/s028a.png" onmouseover="this.src='ent/s/s028b.png';" onmouseout="this.src='ent/s/s028a.png';" border="0">
+<table width="640" border="1" bgcolor="#ffffff">
+		<tr><td colspan="2"	height="32" bgcolor="#ff7777"><b><a href="ent/28.html" target=_blank>作品ページ</a> / <a href="http://yahoo.jp/box/6qvraX" target=_blank>本体ダウンロード(4.24MB)</a> / <a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1385019877/" target=_blank>BBS</a> / <a href="http://enq-maker.com/dfPAjzr" target=_blank>投票結果</a></td></tr>
+		<tr><td bgcolor="#dcdcdc">作者：女体化ダークメカアレックス</td><td bgcolor="#dcdcdc">使用ツール：2000</td></tr>
+		<tr><td bgcolor="#dcdcdc">ジャンル：法廷バトルADV</td><td bgcolor="#dcdcdc">配信/投稿：モチのロン/メチャロン</td></tr>
+		<tr><td colspan="2" style="padding: 20px;"><font size="4"><b>作品総評：[熱2技2語2演2遊1笑2酷1]</b></font><br>　悪く言えば元の素材ありきなゲームではありますが、それでもその良さを壊さず、なおかつVIPRPGらしいオリジナリティをふんだんに盛り込んだ素晴らしい作品でした!動作の軽さやキー操作のし易さはある意味本家以上で、よく工夫されているなあと感心しました。上下キーでいいですよね、たしかに。本家をリスペクトしつつ、文章はすべてオリジナルで打ったのだと思いますが、これがしっかり書かれていたのが良かった! 目立った誤字脱字もなく、かといって適当に考えたとは思えない内容が、私のハートに確かに響きました。筋書きを知ってるはずなのにクライマックスで涙ぐみそうになったのは、きっとそれが理由でしょう。とにかく、プレイして良かったと思える良作でした。かなりの労力がかかっていると思われますが、できる事ならいつか事件もオリジナルの続編をプレイしてみたいです。楽しいゲームをありがとうございました!<br>(G-tea/男性/31歳 ～ 40歳)</td></tr>
+		<tr><td colspan="2" align="center"><img src="img/v028.png" width="253" height="184"></td></tr> 
+		<tr><td colspan="2"	height="32" bgcolor="#ff7777"></td></tr>
+</table></div>
+<hr>
+
+<div id="container" align=center>
+<p id="v1_3v3_2"><font size="6"><b>【熱中度部門3位（相関評価）】<br>【物語部門2位（相関評価）】</b></font></p>
+<table width="640" border="1" bgcolor="#ffffff">
+		<tr><th width="32"><img src="ent/i/i005.png" width="32" height="32"></th><td bgcolor="#ff7777">No.5 - ★ヴァンパイアⅡ  -DOMINION-</td></tr>
+</table>
+<img src="ent/s/s005a.png" onmouseover="this.src='ent/s/s005b.png';" onmouseout="this.src='ent/s/s005a.png';" border="0">
+<table width="640" border="1" bgcolor="#ffffff">
+		<tr><td colspan="2"	height="32" bgcolor="#ff7777"><b><a href="ent/5.html" target=_blank>作品ページ</a> / <a href="http://yahoo.jp/box/II5vC1" target=_blank>本体ダウンロード(38.0MB)</a> / <a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1381547562/" target=_blank>BBS</a> / <a href="http://enq-maker.com/3VALtxK" target=_blank>投票結果</a></td></tr>
+		<tr><td bgcolor="#dcdcdc">作者：池田さん</td><td bgcolor="#dcdcdc">使用ツール：2000</td></tr>
+		<tr><td bgcolor="#dcdcdc">ジャンル：ダークアクション見るゲー </td><td bgcolor="#dcdcdc">配信/投稿：佐川/急便</td></tr>
+		<tr><td colspan="2" style="padding: 20px;"><font size="4"><b>作品総評：[熱2技1語1演0遊0笑0酷1]</b></font><br>　バイオハザードのゾンビのような性質を持ったヴァンパイア組織、「ユダの血族」とその血族に因縁を持つヴァンパイアハンター、「おぜう」との戦いを描いた見るゲ。種々の少年漫画的ワクワク感をかき集めてMIXしてある。ツッコミどころは多く荒削りな作風。受け付けない人にとっては見る価値のないものとなるかもしれない。細かいことを気にしなければ、突き上げてくる高揚と期待に身を任せ、登場人物のギャップ描写にときめいているうちに全話観終えることになると思う。<br>(こと/男性/21歳 ～ 25歳)</td></tr>
+		<tr><td colspan="2" align="center"><img src="img/v005.png" width="320" height="240"></td></tr> 
+		<tr><td colspan="2"	height="32" bgcolor="#ff7777"></td></tr>
+</table></div>
+<hr>
+
+<div id="container" align=center>
+<p id="v2_2v5_2"><font size="6"><b>【技術部門2位（相関評価）】<br>【斬新さ部門2位（相関評価）】</b></font></p>
+<table width="640" border="1" bgcolor="#ffffff">
+		<tr><th width="32"><img src="ent/i/i004.png" width="32" height="32"></th><td bgcolor="#ffffff">No.4 - ★カスタムバトエン -mosimo-</td></tr>
+</table>
+<img src="ent/s/s004a2.png" onmouseover="this.src='ent/s/s004b2.png';" onmouseout="this.src='ent/s/s004a2.png';" border="0">
+<table width="640" border="1" bgcolor="#ffffff">
+		<tr><td colspan="2"	height="32" bgcolor="#ff7777"><b><a href="ent/4.html" target=_blank>作品ページ</a> / <a href="http://yahoo.jp/box/IN2fPz" target=_blank>本体ダウンロード(7.43MB)</a> / <a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1381547530/" target=_blank>BBS</a> / <a href="http://enq-maker.com/fdNAuK0" target=_blank>投票結果</a></td></tr>
+		<tr><td bgcolor="#dcdcdc">作者：天下り次郎</td><td bgcolor="#dcdcdc">使用ツール：2000</td></tr>
+		<tr><td bgcolor="#dcdcdc">ジャンル：バトルえんぴつ風カードゲーム</td><td bgcolor="#dcdcdc">配信/投稿：可/可</td></tr>
+		<tr><td colspan="2" style="padding: 20px;"><font size="4"><b>作品総評：[熱2技2語1演1遊2笑1酷0]</b></font><br>　使える技はサイコロの数次第の運ゲーに多人数戦、疲労の概念を導入して戦略的に戦えるように工夫した傑作。敵の使用デッキも多彩で自然に「こういう戦術もあるのか」とプレイヤーが気付き色々と工夫したくなるような誘導も見事。カードゲームは物量勝負、手間をかける程に良くなるジャンルなので完全版や改良版の続編が出たら嬉しいなぁ。とても面白かったです。<br>(孔雀23号/男性/26歳 ～ 30歳)</td></tr>
+<tr><td colspan="2" style="padding: 20px;"><font size="4"><b>作者コメント：</b></font><br>
+PIAI＆たくさんの投票ありがとうございます！<br>
+感想を見る限り、人によって組んだデッキが千差万別だったのが一番嬉しいですね。<br>
+続編やアプデ版の構想も一応ありますが投下するとしたらスレになる気がします。
+</td></tr> 
+		<tr><td colspan="2"	height="32" bgcolor="#ff7777"></td></tr>
+</table></div>
+<hr>
+
+<div id="container" align=center>
+<p id="v2_3"><font size="6"><b>【技術部門3位（相関評価）】</b></font></p>
+<table width="640" border="1" bgcolor="#ffffff">
+		<tr><th width="32"><img src="ent/i/i055.png" width="32" height="32"></th><td bgcolor="#ff7777">No.55 - ★娘様のジャンプアクション</td></tr>
+</table>
+<img src="ent/s/s055a.png" onmouseover="this.src='ent/s/s055a.png';" onmouseout="this.src='ent/s/s055a.png';" border="0">
+<table width="640" border="1" bgcolor="#ffffff">
+		<tr><td colspan="2"	height="32" bgcolor="#ff7777"><b><a href="ent/55.html" target=_blank>作品ページ</a> / <a href="http://yahoo.jp/box/rKFyNg" target=_blank>本体ダウンロード(1.53MB)</a> / <a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387479127/" target=_blank>BBS</a> / <a href="http://enq-maker.com/7mgx54j" target=_blank>投票結果</a></td></tr>
+		<tr><td bgcolor="#dcdcdc">作者：アサリ</td><td bgcolor="#dcdcdc">使用ツール：2000</td></tr>
+		<tr><td bgcolor="#dcdcdc">ジャンル：ステージクリア型のアクション</td><td bgcolor="#dcdcdc">配信/投稿：可/可</td></tr>
+		<tr><td colspan="2" style="padding: 20px;"><font size="4"><b>作品総評：[熱2技2語0演2遊0笑2酷0]</b></font><br>　全体的に丁寧な作りであった。ステージ数は少ないものの、一つ一つが丁寧に作られ、ステージの特色が十分に出ていたと思う。ステージから出ると選択画面が昼から夜になったり、それに伴いBGMが変化したり、一番見るステージ選択画面であるからこそ飽きさせない工夫がされていると思った。<br>(紫蘭/男性/21歳 ～ 25歳)</td></tr>
+<tr><td colspan="2" style="padding: 20px;"><font size="4"><b>作者コメント：</b></font><br>
+投票、及び、コメントありがとうございます。 <br>
+技術賞 、マジで嬉しいです。 
+</td></tr> 
+		<tr><td colspan="2"	height="32" bgcolor="#ff7777"></td></tr>
+</table></div>
+<hr>
+
+<div id="container" align=center>
+<p id="v3_3"><font size="6"><b>【物語部門3位（相関評価）】</b></font></p>
+<table width="640" border="1" bgcolor="#ffffff">
+		<tr><th width="32"><img src="ent/i/i013.png" width="32" height="32"></th><td bgcolor="#ff7777">No.13 - ★ドラ子かわいい</td></tr>
+</table>
+<img src="ent/s/s013a.png" onmouseover="this.src='ent/s/s013b.png';" onmouseout="this.src='ent/s/s013a.png';" border="0">
+<table width="640" border="1" bgcolor="#ffffff">
+		<tr><td colspan="2"	height="32" bgcolor="#ff7777"><b><a href="ent/13.html" target=_blank>作品ページ</a> / <a href="http://yahoo.jp/box/G0oN73" target=_blank>本体ダウンロード(12.3MB)</a> / <a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1382264393/" target=_blank>BBS</a> / <a href="http://enq-maker.com/1bPC0LK" target=_blank>投票結果</a></td></tr>
+		<tr><td bgcolor="#dcdcdc">作者：Ｓテル</td><td bgcolor="#dcdcdc">使用ツール：2000</td></tr>
+		<tr><td bgcolor="#dcdcdc">ジャンル：ゴリ押しRPG</td><td bgcolor="#dcdcdc">配信/投稿：114/514</td></tr>
+		<tr><td colspan="2" style="padding: 20px;"><font size="4"><b>作品総評：[熱2技2語2演2遊0笑1酷2]</b></font><br>　エスリンサーガバーストや迫真幻月RPGを知っているならニヤリとしたり、衝撃の展開に驚かされたりととにかくすごいとしか言えなかった。<br>(-/男性/21歳 ～ 25歳)</td></tr>
+<!---		<tr><td colspan="2" style="padding: 20px;">作者コメント：<br></td></tr> --->
+		<tr><td colspan="2"	height="32" bgcolor="#ff7777"></td></tr>
+</table></div>
+<hr>
+
+<div id="container" align=center>
+<p id="v4_3v7_1v8_2"><font size="6"><b>【演出部門3位（相関評価）】<br>【ワロさ部門1位（相関評価）】<br>【ひどさ部門2位（相関評価）】</b></font></p>
+<table width="640" border="1" bgcolor="#ffffff">
+		<tr><th width="32"><img src="ent/i/i051.png" width="32" height="32"></th><td bgcolor="#ff7777">No.51 - ★イクゾーダス</td></tr>
+</table>
+<img src="ent/s/s051a.png" onmouseover="this.src='ent/s/s051a.png';" onmouseout="this.src='ent/s/s051a.png';" border="0">
+<table width="640" border="1" bgcolor="#ffffff">
+		<tr><td colspan="2"	height="32" bgcolor="#ff7777"><b><a href="ent/51.html" target=_blank>作品ページ</a> / <a href="http://yahoo.jp/box/oiVc5e" target=_blank>本体ダウンロード(1.01MB)</a> / <a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387190251/" target=_blank>BBS</a> / <a href="http://enq-maker.com/98mTuqV" target=_blank>投票結果</a></td></tr>
+		<tr><td bgcolor="#dcdcdc">作者：内藤春人</td><td bgcolor="#dcdcdc">使用ツール：2000</td></tr>
+		<tr><td bgcolor="#dcdcdc">ジャンル：<font size=1>本当の勇気を知る刹那のRPG</font></td><td bgcolor="#dcdcdc">配信/投稿：可/可</td></tr>
+		<tr><td colspan="2" style="padding: 20px;"><font size="4"><b>作品総評：[熱2技2語0演2遊0笑1酷2]</b></font><br>　どこか懐かしさを覚える雰囲気、凝った作りのドット絵、そして衝撃的なラスト。これは今紅白屈指の超大作である!<br>(-/男性/21歳 ～ 25歳)</td></tr>
+<tr><td colspan="2" style="padding: 20px;"><font size="4"><b>作者コメント：</b></font><br>
+みなさまありがとうございました。<br>
+この作品は、柑橘類の木の枝を踏み、トゲが靴を貫通し足に刺さるという、私のすっぱい体験から生まれました。<br>
+それゆえミカンっぽい終わり方になってしまっていますがこれにてカンキツです！<br>
+ウマイ！！<br>
+ありがとうございました。<br>
+（内藤春人/女性/11歳 ～ 15歳）
+</td></tr>
+ 		<tr><td colspan="2"	height="32" bgcolor="#ff7777"></td></tr>
+</table></div>
+<hr>
+
+<div id="container" align=center>
+<p id="v5_3"><font size="6"><b>【斬新さ部門3位（相関評価）】</b></font></p>
+<table width="640" border="1" bgcolor="#ffffff">
+		<tr><th width="32"><img src="ent/i/i008.png" width="32" height="32"></th><td bgcolor="#ffffff">No.8 - ★無双庫番</td></tr>
+</table>
+<img src="ent/s/s008a2.png" onmouseover="this.src='ent/s/s008b2.png';" onmouseout="this.src='ent/s/s008a2.png';" border="0">
+<table width="640" border="1" bgcolor="#ffffff">
+		<tr><td colspan="2"	height="32" bgcolor="#ff7777"><b><a href="ent/8.html" target=_blank>作品ページ</a> / <a href="http://yahoo.jp/box/HssqK9" target=_blank>本体ダウンロード(2.00MB)</a> / <a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1381603607/" target=_blank>BBS</a> / <a href="http://enq-maker.com/cgQz5b1" target=_blank>投票結果</a></td></tr>
+		<tr><td bgcolor="#dcdcdc">作者：海老１０</td><td bgcolor="#dcdcdc">使用ツール：2000</td></tr>
+		<tr><td bgcolor="#dcdcdc">ジャンル：思考停止パズル</td><td bgcolor="#dcdcdc">配信/投稿：自己責任</td></tr>
+		<tr><td colspan="2" style="padding: 20px;"><font size="4"><b>作品総評：[熱2技2語0演2遊2笑1酷0]</b></font><br>　 すでに完成されたパズルの印象を持つ倉庫番をこのように活かしてくるとは思いませんでした。 技を無制限に使えることで、一つの面がクリアできないがために、以降の面に進めないパズルゲームにつきものの理不尽さがなくなっています。それでいてクリアしたらクリアしたで「次はまっとうにクリアできるようにしよう」とやる気が向上します。 ルールはシンプルながら、チュートリアル的な最初のワールドも挟んであるので、非常にとっつきやすい。とても面白かったです。<br>(-/男性/26歳 ～ 30歳)</td></tr>
+<tr><td colspan="2" style="padding: 20px;"><font size="4"><b>作者コメント：</b></font><br><br>
+<div style="font-family:'ＭＳ Ｐゴシック','ＭＳＰゴシック','MSPゴシック','MS Pゴシック';font-size:16px;line-height:18px;" >
+　　(　ﾟдﾟ)　 「斬新さ部門３位」<br>
+＿(__つ/￣￣￣/＿　<br>
+　　＼/　　　　/<br>
+　　　　￣￣￣<br>
+　<br>
+　　( ﾟдﾟ )　<br>
+＿(__つ/￣￣￣/＿　<br>
+　　＼/　　　　/<br>
+　　　　￣￣￣<br></div>
+</td></tr>
+		<tr><td colspan="2"	height="32" bgcolor="#ff7777"></td></tr>
+</table></div>
+<hr>
+
+<div id="container" align=center>
+<p id="v6_2"><font size="6"><b>【遊びやすさ部門2位（相関評価）】</b></font></p>
+<table width="640" border="1" bgcolor="#ffffff">
+		<tr><th width="32"><img src="ent/i/i047.png" width="32" height="32"></th><td bgcolor="#ff7777">No.47 - ★ルインシーカー -寂しがりやのカタコンベ-</td></tr>
+</table>
+<img src="ent/s/s047a.png" onmouseover="this.src='ent/s/s047b.png';" onmouseout="this.src='ent/s/s047a.png';" border="0">
+<table width="640" border="1" bgcolor="#ffffff">
+		<tr><td colspan="2"	height="32" bgcolor="#ff7777"><b><a href="ent/47.html" target=_blank>作品ページ</a> / <a href="http://yahoo.jp/box/bDXVGi" target=_blank>本体ダウンロード(5.73MB)</a> / <a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1386574623/" target=_blank>BBS</a> / <a href="http://enq-maker.com/3wmqKVJ" target=_blank>投票結果</a></td></tr>
+		<tr><td bgcolor="#dcdcdc">作者：ツノザメ怪人</td><td bgcolor="#dcdcdc">使用ツール：2000</td></tr>
+		<tr><td bgcolor="#dcdcdc">ジャンル：<font size=1>見るゲとやるゲが両方そなわり最強に見える</font></td><td bgcolor="#dcdcdc">配信/投稿：<font size=1>私は一向に構わんッ！/同じく</font></td></tr>
+		<tr><td colspan="2" style="padding: 20px;"><font size="4"><b>作品総評：[熱2技0語2演1遊1笑2酷1]</b></font><br>　手頃な謎解きと気になる続き、とんとん拍子に進むテンポのよさでPIAIしてて楽しい作品だったラナさんかわいい、でも好きなのはファルコンの糞野郎っぷり<br>(-/男性/21歳 ～ 25歳)</td></tr>
+		<tr><td colspan="2" style="padding: 20px;"><font size="4"><b>作者コメント：</b></font><br>
+遊びやすさ２位という身に余る賞を頂き、驚きと喜びを隠せません。 <br>
+プレイヤーと投票をしてくれた皆様にただひたすら感謝です。ありがとうございます！ <br>
+頂いた感想などを糧に、もっと皆さんに喜ばれるゲームを作って行きたいと思います
+</td></tr> 
+		<tr><td colspan="2"	height="32" bgcolor="#ff7777"></td></tr>
+</table></div>
+<hr>
+
+<div id="container" align=center>
+<p id="v6_3"><font size="6"><b>【遊びやすさ部門3位（相関評価）】</b></font></p>
+<table width="640" border="1" bgcolor="#ffffff">
+		<tr><th width="32"><img src="ent/i/i003.png" width="32" height="32"></th><td bgcolor="#ff7777">No.3 - ★RPGツクール the run </td></tr>
+</table>
+<img src="ent/s/s003a.png" onmouseover="this.src='ent/s/s003a.png';" onmouseout="this.src='ent/s/s003a.png';" border="0">
+<table width="640" border="1" bgcolor="#ffffff">
+		<tr><td colspan="2"	height="32" bgcolor="#ff7777"><b><a href="ent/3.html" target=_blank>作品ページ</a> / <a href="http://yahoo.jp/box/nJuVlj" target=_blank>本体ダウンロード(0.58MB)</a> / <a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1381547497/" target=_blank>BBS</a> / <a href="http://enq-maker.com/a4GnH5O" target=_blank>投票結果</a></td></tr>
+		<tr><td bgcolor="#dcdcdc">作者：ユニ</td><td bgcolor="#dcdcdc">使用ツール：2000</td></tr>
+		<tr><td bgcolor="#dcdcdc">ジャンル：レースゲーム </td><td bgcolor="#dcdcdc">配信/投稿：<font size=1>君は動画を配信してもいいししなくてもいい。/また、動画投稿をしてもいい。</font> </td></tr>
+		<tr><td colspan="2" style="padding: 20px;"><font size="4"><b>作品総評：[熱1技1語0演1遊1笑1酷0]</b></font><br>　タイトル画面から伝わるレトロな雰囲気とシンプルなゲーム内容がマッチしていて作品に統一感がある。ツクール2000製にしては珍しいレースアクションというジャンルなのだけどスピード感も十分だ。レースゲーム故にシンプルでプレイヤーの出来ることが少ない。プレイヤーの入力がキャラクターの方向転換にしか使われなく、より入力で出来ることを増やすか、より入力しないで出来ることを増やすかでゲーム性の発展方向が見えてきそう。単純な繰り返し遊ぶゲームなので、リトライがお手軽でストレスなく再挑戦できるのはありがたい。<br>(サルトルおっかけた/男性/26歳 ～ 30歳)</td></tr>
+		<tr><td colspan="2" style="padding: 20px;"><font size="4"><b>作者コメント：</b></font><br>
+相関評価の遊びやすさ部門で表彰台に登れたことを嬉しく思う。まさかの受賞に驚いたよ。<br> 
+エターならずに完成にこぎつけられたのは、 <br>
+アドバイスをくれたVIPRPGツクールスレッドの皆さんや後輩Aのお陰だよ。 <br>
+投票してくださった方だけでなく、プレイしてくださった皆さん、 <br>
+スレの皆さん、後輩Aに感謝する。 
+</td></tr> 
+		<tr><td colspan="2"	height="32" bgcolor="#ff7777"></td></tr>
+</table></div>
+<hr>
+
+<div id="container" align=center>
+<p id="v7_2"><font size="6"><b>【ワロさ部門2位（相関評価）】</b></font></p>
+<table width="640" border="1" bgcolor="#ffffff">
+		<tr><th width="32"><img src="ent/i/i056.png" width="32" height="32"></th><td bgcolor="#ffffff">No.56 - ★超日本列島とらべる絵草紙</td></tr>
+</table>
+<img src="ent/s/s056a.png" onmouseover="this.src='ent/s/s056b.png';" onmouseout="this.src='ent/s/s056a.png';" border="0">
+<table width="640" border="1" bgcolor="#ffffff">
+		<tr><td colspan="2"	height="32" bgcolor="#ff7777"><b><a href="ent/56.html" target=_blank>作品ページ</a> / <a href="http://yahoo.jp/box/hcKwqJ" target=_blank>本体ダウンロード(14.7MB)</a> / <a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387479162/" target=_blank>BBS</a> / <a href="http://enq-maker.com/5HIH6QT" target=_blank>投票結果</a></td></tr>
+		<tr><td bgcolor="#dcdcdc">作者：黄泉つ</td><td bgcolor="#dcdcdc">使用ツール：2000</td></tr>
+		<tr><td bgcolor="#dcdcdc">ジャンル：ジェットコースター☆みるげ</td><td bgcolor="#dcdcdc">配信/投稿：をかし/めでたし</td></tr>
+		<tr><td colspan="2" style="padding: 20px;"><font size="4"><b>作品総評：[熱1技1語1演1遊1笑1酷1]</b></font><br>　  遅刻提出でも信じて待ってよかったです。即ぴあいしました。以下感想。 「ジェットコースター」に偽りなし。ハナからプレイヤーについていかせる気のないシナリオ進行は過去作と変わらず、ここまで突き抜けていれば潔い。 贅沢な素材使用の方はどんどん進化していて、ケーキもラーメンもステーキも纏めて煮込んで鍋にしましたって感じ。 不満点を言うなら「なんじゃとー」のSEがもっとしつこく使ってよかったし、おばけカルテットとしての出番がもっとほしかったかな。あとほんとなんでもいいのでぴあい後のおまけ要素って大好きなので入れてほしかった。<br>(桜田ぴよこ/女性/21歳 ～ 25歳)</td></tr>
+		<tr><td colspan="2" style="padding: 20px;"><font size="4"><b>作者コメント：</b></font><br>
+なんじゃとー！<br>
+笑いの打ち上げ花火。どっーん！<br>
+祭の締めにほっこりした気持ちになってくれれば皆幸せ、と。<br>
+今年度No.1並みに遅刻したなか刹那の投票期間にこんなにも支持して下さって<br>
+誠に、そんなことよりサメの話しようぜェ。
+</td></tr> 
+		<tr><td colspan="2"	height="32" bgcolor="#ff7777"></td></tr>
+</table></div>
+<hr>
+
+<div id="container" align=center>
+<p id="v7_3"><font size="6"><b>【ワロさ部門3位（相関評価）】</b></font></p>
+<table width="640" border="1" bgcolor="#ffffff">
+		<tr><th width="32"><img src="ent/i/i068.png" width="32" height="32"></th><td bgcolor="#ffffff">No.68 - ★AleBr</td></tr>
+</table>
+<img src="ent/s/s068a.png" onmouseover="this.src='ent/s/s068a.png';" onmouseout="this.src='ent/s/s068a.png';" border="0">
+<table width="640" border="1" bgcolor="#ffffff">
+		<tr><td colspan="2"	height="32" bgcolor="#ff7777"><b><a href="ent/68.html" target=_blank>作品ページ</a> / <a href="http://yahoo.jp/box/3KjksG" target=_blank>本体ダウンロード(2.45MB)</a> / <a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387863772/" target=_blank>BBS</a> / <a href="http://enq-maker.com/BiJ2HV" target=_blank>投票結果</a></td></tr>
+		<tr><td bgcolor="#dcdcdc">作者：せくては</td><td bgcolor="#dcdcdc">使用ツール：2000</td></tr>
+		<tr><td bgcolor="#dcdcdc">ジャンル：ksg</td><td bgcolor="#dcdcdc">配信/投稿：可/可</td></tr>
+		<tr><td colspan="2" style="padding: 20px;"><font size="4"><b>作品総評：[熱2技1語1演2遊1笑2酷2]</b></font><br>　とにかく一つ一つのネタが面白く会話のテンポも良いのでサクサク読み進めて大いに笑える ラストはちょっとしんみり?(-/男性/21歳 ～ 25歳)<br></td></tr>
+		<tr><td colspan="2" style="padding: 20px;"><font size="4"><b>作者コメント：</b></font><br>
+やったぁぁあぁああああああああああああ！！！！！！！！！ <br>
+あっりがとぉぉぉおおおおぉおぉおおおおお！！！！！！！！！ 
+</td></tr>
+		<tr><td colspan="2"	height="32" bgcolor="#ff7777"></td></tr>
+</table></div>
+<hr>
+
+<div id="container" align=center>
+<p id="v8_1"><font size="6"><b>【ひどさ部門1位（相関評価）】</b></font></p>
+<table width="640" border="1" bgcolor="#ffffff">
+		<tr><th width="32"><img src="ent/i/miru.png" width="32" height="32"></th><td bgcolor="#ffffff">No.42 - ★もしもアイスⅢが母親だったら</td></tr>
+</table>
+<img src="ent/s/s042a.png" onmouseover="this.src='ent/s/s042a.png';" onmouseout="this.src='ent/s/s042a.png';" border="0">
+<table width="640" border="1" bgcolor="#ffffff">
+		<tr><td colspan="2"	height="32" bgcolor="#ff7777"><b><a href="ent/42.html" target=_blank>作品ページ</a> / <a href="http://yahoo.jp/box/5XebM9" target=_blank>本体ダウンロード(3.48MB)</a> / <a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1386574308/" target=_blank>BBS</a> / <a href="http://enq-maker.com/hwyCqxq" target=_blank>投票結果</a></td></tr>
+		<tr><td bgcolor="#dcdcdc">作者：生活保護君</td><td bgcolor="#dcdcdc">使用ツール：2000</td></tr>
+		<tr><td bgcolor="#dcdcdc">ジャンル：見るゲ</td><td bgcolor="#dcdcdc">配信/投稿：不可/不可</td></tr>
+		<tr><td colspan="2" style="padding: 20px;"><font size="4"><b>作品総評：[熱2技2語2演2遊2笑2酷2]</b></font><br>　2013ねん最大の酷さ。<br>(山本山/男性/31歳 ～ 40歳)</td></tr>
+		<tr><td colspan="2" style="padding: 20px;"><font size="4"><b>作者コメント：</b></font><br>
+自分でも部門賞を取れると思っていませんでした。 <br>
+これからも映倫ギリギリ？の、これはヒドイ！と思われるｋｓｇをｔｋっていきたいです。 
+</td></tr> 
+		<tr><td colspan="2"	height="32" bgcolor="#ff7777"></td></tr>
+</table></div>
+<hr>
+
+<div id="container" align=center>
+<p id="v8_3"><font size="6"><b>【ひどさ部門3位（相関評価）】</b></font></p>
+<table width="640" border="1" bgcolor="#ffffff">
+		<tr><th width="32"><img src="ent/i/i036.png" width="32" height="32"></th><td bgcolor="#ffffff">No.36 - ★ゴメスのあなから</td></tr>
+</table>
+<img src="ent/s/s036a.png" onmouseover="this.src='ent/s/s036b.png';" onmouseout="this.src='ent/s/s036a.png';" border="0">
+<table width="640" border="1" bgcolor="#ffffff">
+		<tr><td colspan="2"	height="32" bgcolor="#ff7777"><b><a href="ent/36.html" target=_blank>作品ページ</a> / <a href="http://yahoo.jp/box/ejQcLy" target=_blank>本体ダウンロード(38.5MB)</a> / <a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1385990218/" target=_blank>BBS</a> / <a href="http://enq-maker.com/1yUOAd7" target=_blank>投票結果</a></td></tr>
+		<tr><td bgcolor="#dcdcdc">作者：一般1-3</td><td bgcolor="#dcdcdc">使用ツール：2000</td></tr>
+		<tr><td bgcolor="#dcdcdc">ジャンル：糞味噌ADV</td><td bgcolor="#dcdcdc">配信/投稿：可/可</td></tr>
+		<tr><td colspan="2" style="padding: 20px;"><font size="4"><b>作品総評：[熱2技2語2演2遊2笑2酷2]</b></font><br>　 もう「いつも通り最低」の一言で十分ですね。 最低過ぎて素晴らしいですよ、ほんと。<br>(-/男性/26歳 ～ 30歳)</td></tr>
+		<tr><td colspan="2" style="padding: 20px;"><font size="4"><b>作者コメント：</b></font><br>
+「遊んでくれてありがとうございましたあああ！！<br>
+今後もよりひどい作品をtkるため精進します。」
+</td></tr>
+		<tr><td colspan="2"	height="32" bgcolor="#ff7777"></td></tr>
+</table></div>
+<hr>
+
+</div><!--/filterlist-->
+</div><!--/motion2_area1-->
+
+</div><!--/#container-->
+<!--<h2>COPYPASTE &copy; <a href="http://www10.atwiki.jp/vip_rpg/">2013 VIPRPG</a>.</h2>-->
+<script><!--
+var fc2footerparam = 'ver=1'
+    + '&url=' + encodeURIComponent(document.location)
+    + '&service=0'
+    + '&r=' + Math.floor(Math.random() * 99999999999);
+var fc2footertag = "//vip.chps-api.fc2.com/apis/footer/?" + fc2footerparam;
+var script = document.createElement('script');
+script.src = fc2footertag;
+script.charset = "UTF-8";
+script.async = true;
+document.getElementsByTagName('head')[0].appendChild(script);
+//--></script>
+<!-- FC2, inc.-->
+<img src="//media.fc2.com/counter_img.php?id=50" style="display:none" alt="inserted by FC2 system" width="0" height="0">
+<!-- FC2, inc.--></body>
+</html>

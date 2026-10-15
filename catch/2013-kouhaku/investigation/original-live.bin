@@ -1,0 +1,1471 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" dir="ltr">
+<head>
+<title>VIPRPG紅白2013</title>
+<meta http-equiv="X-UA-Compatible" content="IE=emulateIE8" />
+<meta http-equiv="content-type" content="text/html; charset=Shift_JIS" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(function(){
+	var $setFilter = $('#filter'),
+	$setList = $('#filterlist'),
+	$setFilterAll = $('.allitem');
+
+	var showFade = 300,
+	showShut = 300,
+	hideFade = 200,
+	hideShut = 200;
+
+	var $setFilterBtn = $setFilter.children('a'),
+	$setFilterList = $setList.children('ul').children('li'),
+	$filterAllItem = $setFilterAll.attr('class');
+
+	$setFilterBtn.click(function(){
+		if(!($(this).hasClass('active'))){
+			var filterClass = $(this).attr('class');
+			$setFilterList.each(function(){
+				if($(this).hasClass(filterClass)){
+					$(this).css({display:'block'});
+					$(this).find('*').stop().animate({opacity:'1'},showFade);
+					$(this).stop().animate({width:'900px'},showShut);
+				} else {
+					$(this).find('*').stop().animate({opacity:'0'},hideFade);
+					$(this).stop().animate({width:'0'},hideShut,function(){
+						$(this).css({display:'none'});
+					});
+				}
+			});
+			$setFilterBtn.removeClass('active');
+			$(this).addClass('active');
+		}
+	});
+
+	$setFilterAll.click(function(){
+		$setFilterList.each(function(){
+			$(this).css({display:'block'});
+			$(this).find('*').stop().animate({opacity:'1'},showFade);
+			$(this).stop().animate({width:'900px'},showShut);
+		});
+	});
+	$setFilterAll.click();
+});
+</script>
+<!-- タブ  -->
+<script type="text/javascript">
+$(function(){
+	$("a.btn_act").click(function(){
+		var connectCont = $("a.btn_act").index(this);
+		var showCont = connectCont+1;
+		$('.motion').css({display:'none'});
+		$('#motion_area'+(showCont)).fadeIn('fast');
+
+		$('a.btn_act').removeClass('active');
+		$(this).addClass('active');
+	});
+});
+</script>
+
+<script type="text/javascript" src="js/jquery.superbox-min.js"></script>  
+<script type="text/javascript">  
+    $(function(){  
+        $.superbox.settings = {  
+            closeTxt: "Close",  
+            loadTxt: "Loading...",  
+            nextTxt: "Next",  
+            prevTxt: "Previous"  
+        };  
+        $.superbox();  
+    });  
+</script>
+
+<style type="text/css">
+a:link { text-decoration:underline; color: #000;}
+a:visited { text-decoration:underline; color: #000;}
+a:active { text-decoration:underline; color: #000;}
+a:hover { text-decoration:none; color: #000;}
+div {padding: 0px 0px 0px 10px;}
+body {margin: 0;}
+
+h1 {margin: 0; background: #F77;	color: #fff;}
+
+.motion {width: 800px; display: none;}
+#motion_area1 {display: block;}
+a.active {font-weight: bold; background: #ddd;}
+
+#filterlist table, th, td {border: 1px #000000 solid; border-collapse: collapse;}
+</style>
+
+</head>
+
+<body>
+
+<!-- [FC2 Analyzer] http://analyzer.fc2.com/  -->
+<script language="javascript" src="http://analyzer51.fc2.com/ana/processor.php?uid=2344770" type="text/javascript"></script>
+<noscript><div align="right"><img src="http://analyzer51.fc2.com/ana/icon.php?uid=2344770&ref=&href=&wid=0&hei=0&col=0" /></div></noscript>
+<!-- [FC2 Analyzer]  -->
+
+
+<h1>VIPRPG紅白2013</h1>
+
+<div id="container">
+
+<noscript>
+  このWebサイトの全ての機能を利用するためにはJavaScriptを有効にする必要があります。
+<a href="http://www.enable-javascript.com/ja/" target="_blank">
+あなたのWebブラウザーでJavaScriptを有効にする方法</a>
+を参照してください。
+</noscript>
+
+<div id="menu">
+≫<a href="javascript:void(0);" class="btn_act active">last</a>　　
+≫<a href="javascript:void(0);" class="btn_act">about</a>　　
+≫<a href="javascript:void(0);" class="btn_act">entry</a>　　
+≫<a href="javascript:void(0);" class="btn_act">bbs/link</a>　　　　
+<a href="http://www.netriver.jp/product/" target='_blank'><img src="http://www.netriver.jp/countriver/cntriv.cgi?user=vipkohaku2013&id=001&ptn=15&dig=0"></a>
+<br />
+
+<div id="motion_area1" class="motion">
+<p>
+　<a href="vote10.html">表彰会場</a>に掲載されている作品の作者様へ。<br>
+　メールを送らせていただきました、よろしければお返事をいただければ幸いです。
+</p>
+
+<p>
+　　≫<a href="history.txt" target=_blank>history</a><br>
+　　≫<a href="http://yahoo.jp/box/eKCDS7" target=_blank>作品公開所</a><br>
+2014/1/31　遅刻提出 No2,9　本体修正 No56　変更 No9<br>
+2014/1/31　遅刻提出 No71　本体修正 No73　パッチ No6,12<br>
+2014/1/25　<a href="vote_index.html">投票結果</a>発表<br>
+</p>
+</div><!--/tab_area1-->
+
+<div id="motion_area2" class="motion">
+<p>
+<strong>初めての方へ</strong><br>
+　このサイトは2ちゃんねる　ニュース速報VIP板　RPGツクールスレッド(VIPツクスレ)に関するコンテンツを取り扱ったサイトです。 同所の性質上、当サイト内においても内輪・アングラ・不健全要素を含んでいます。<br>
+　VIPツクスレに初めて訪れる方、書いてあることが良く分からない方は、 閲覧を差し控えるか、半年ほどROMしていただくことを推奨致します。
+</p>
+
+<p>
+<strong>企画概要</strong><br>
+　「VIPRPG紅白2013」は、VIPツクスレで毎年開催されている ツクール作品を公開しあい、感想を付け合うことを目的とした企画です。<br>
+　詳しくはリンクから過去の祭りをご覧ください。
+</p>
+
+<p>
+<strong>投票審査</strong><br>
+　作品公開後、人気投票を行います。<br>
+　各作品ごとに投票ページを設置し、集計結果に基づいて総合順位を決めます。<br>
+　　≫<a href="vote.txt" target="_blank">投票要綱</a><br>
+　　≫<a href="http://enq-maker.com/iSDWbFL" target="_blank">投票サンプルページ</a><br>
+</p>
+
+<p>
+<strong>スケジュール</strong><br>
+<table border="1">
+		<tr><th>エントリー受付</th><td><s>10月12日　～　12月23日 23:59</s></td></tr>
+		<tr><th>作品提出</th><td><s>12月1日　～　12月23日 23:59</s><br>以降の提出は遅刻扱い 遅刻提出は最終更新まで</td></tr>
+		<tr><th>作品公開</th><td><s>12月25日予定</s></td></tr>
+		<tr><th>最終更新日</th><td>2014年1月31日予定</td></tr>
+		<tr><th>投票期間</th><td><s>2013年12月25日　～　2014年1月21日 23:59</s></td></tr>
+		<tr><th>開票</th><td><s>2014年1月22日予定</s></td></tr></table>
+</p>
+</div><!--/tab_area2-->
+
+<div id="motion_area3" class="motion">
+<p>
+<strong>参加</strong><br>
+　参加要綱と参加条件をよく読み、内容に了承した上で、必要事項を記入してメールでエントリーしてください。<br>
+　　≫<a href="entry.txt" target=_blank">参加要綱</a>
+</p>
+
+<p>
+<strong>参加条件</strong><br>
+<ul>
+<li>RPGツクールで作られた自分の作品であること<br>プログラムやWOLF RPGエディターなどで製作されたゲームは参加禁止<br>ただし、RPGツクールに関係したツール作品のエントリーは自己責任で可</li><br>
+<li>エントリーは1人1枠　かつ　提出する作品も1人1つまで<br>1つのzipファイルの中に複数のゲームファイルを封入するのは自己責任で可</li><br>
+<li>未公開作品のみ<br>すでに公開済みである自作品のリメイク品　または<br>未公開の追加要素・変更要素を含む自作品での参加も自己責任で可<br>ただしエントリー後、作品公開日までに未公開部分を公開するのは禁止</li>
+</ul>
+</p>
+
+<p>
+<strong>提出</strong><br>
+　提出受付開始後、作品をzip形式で圧縮し、以下の方法で提出してください。<br>
+　　≫<a href="pres.txt" target=_blank">提出方法</a>
+</p>
+
+<p>
+<strong>修正</strong><br>
+　作品提出後、作品を修正する場合は、以下の方法で修正ファイルをアップしてください。<br>
+　　≫<a href="revise.txt" target=_blank">修正方法</a><br>
+　　≫修正アップローダ　　
+<a href="http://yui.oopsup.com/vipkohaku2013no1/" target=_blank">①</a> / 
+<a href="http://yui.oopsup.com/vipkohaku2013no2/" target=_blank">②</a> / 
+<a href="http://yui.oopsup.com/vipkohaku2013no3/" target=_blank">③</a> /
+<a href="http://yui.oopsup.com/vipkohaku2013no4/" target=_blank">④</a> /
+<a href="http://yui.oopsup.com/vipkohaku2013no5/" target=_blank">⑤</a>
+</p>
+</div><!--/tab_area3-->
+
+<div id="motion_area4" class="motion">
+
+<p>
+<strong>BBS</strong><br>
+　　≫<A href="http://jbbs.livedoor.jp/otaku/16384/" target=_blank>掲示板</a><br>
+　　　運営スレ　サイトの管理運営のための掲示板です。管理人からのお知らせなどを書き込みます。質問や報告などもこちらへどうぞ。<br>
+　　　感想スレ　各作品の専用スレッドがあります。作品の感想を書き込む、攻略・ゲームデータ修正の報告などにご利用ください。<br>
+</p>
+
+<hr>
+
+<p>
+<!--<strong>Link</strong><br>
+<A href="http://www10.atwiki.jp/vip_rpg/" target=_blank><img src="img/wiki.png" width="200" height="40" border="0"></a><br>-->
+</p>
+
+<hr>
+
+<p>
+<strong>BackNumbers</strong><br>
+<A href="http://vipkouhaku05.cs.land.to/" target=_blank><img src="http://vipkouhaku05.cs.land.to/viprpgkouhaku2009-top.png" width="200" height="40" border="0"></a>
+<A href="http://www.geocities.jp/vipkouhaku/" target=_blank><img src="img/vipkohaku_second02.png" width="200" height="40" border="0"></a>
+<A href="http://music.geocities.jp/kouhaku03_01/" target=_blank><img src="img/kouhaku2007.png" width="200" height="40" border="0"></a><br>
+<A href="http://www.geocities.jp/viprpg_kouhaku_2008/" target=_blank><img src="http://vipkouhaku05.cs.land.to/vip2008.png" width="200" height="40" border="0"></a>
+<A href="http://vipkouhaku09.web.fc2.com/" target=_blank><img src="img/2009banner_meza.png" width="200" height="40" border="0"></a>
+<A href="http://www.geocities.jp/vipkohaku2010_1/" target=_blank><img src="img/bnkohaku2010_3.png" width="200" height="40" border="0"></a><br>
+<A href="http://vipkohaku2011.web.fc2.com/" target=_blank><img src="img/bnkohaku2011_2.png" width="200" height="40" border="0"></a>
+<A href="http://www45.atpages.jp/vipkohaku2012/" target=_blank><img src="http://www45.atpages.jp/vipkohaku2012/img/bnkohaku2012_2.png" width="200" height="40" border="0"></a>
+</p>
+
+<hr>
+
+<p>
+<strong>当サイトへのリンク</strong><br>
+　当サイトはリンクフリーです。作品ページだけ抜き出してリンクしていただいても構いません。以下のバナーをご自由にご利用ください。バナーは直リンクも可能です。<br>
+　<br>
+200x40　頂きもの<br />
+<a href="img/bnkohaku2013_2.png" target="_blank"><img src="img/bnkohaku2013_2.png" alt="" width="200" height="40" /></a><br>
+200x40<br />
+<a href="img/bnkohaku2013_1.png" target="_blank"><img src="img/bnkohaku2013_1.png" alt="" width="200" height="40" /></a><br>
+</p>
+
+</div><!--/tab_area4-->
+
+
+</div><!--/menu-->
+
+<hr>
+
+<div id="menu">
+作品一覧<br>
+≫アイコン　　
+≫<a href="index_t.html">サムネイル</a>　　
+≫<a href="vote_index.html">投票結果</a>
+</div><!--/menu2-->
+
+<div id="motion2_area1" class="motion2">
+<div id="filter">
+<p>
+<a href="javascript:void(0);" class="allitem">ALL</a> | 
+<a href="javascript:void(0);" class="red">紅組</a> | 
+<a href="javascript:void(0);" class="white">白組</a> | 
+<a href="javascript:void(0);" class="zumi">★提出済</a> | 
+<a href="javascript:void(0);" class="mitei">未提出</a> | 
+<a href="javascript:void(0);" class="1to10">1-10</a> | 
+<a href="javascript:void(0);" class="11to20">11-20</a> | 
+<a href="javascript:void(0);" class="21to30">21-30</a> | 
+<a href="javascript:void(0);" class="31to40">31-40</a> | 
+<a href="javascript:void(0);" class="41to50">41-50</a> | 
+<a href="javascript:void(0);" class="51to60">51-60</a> | 
+<a href="javascript:void(0);" class="61to70">61-70</a> | 
+<a href="javascript:void(0);" class="71to80">71-80</a> | <br>
+<a href="javascript:void(0);" class="2000">2000</a> | 
+<a href="javascript:void(0);" class="2003">2003</a> | 
+<a href="javascript:void(0);" class="XP">XP</a> | 
+<a href="javascript:void(0);" class="VX">VX</a> | 
+<a href="javascript:void(0);" class="VXAce">VXAce</a> | <br>
+<a href="javascript:void(0);" class="rpg">RPG</a> | 
+<a href="javascript:void(0);" class="yaruge">やるゲ</a> | 
+<a href="javascript:void(0);" class="defo">デフォ戦</a> | 
+<a href="javascript:void(0);" class="jisaku">自作戦闘</a> | 
+<a href="javascript:void(0);" class="act">アクション</a> | 
+<a href="javascript:void(0);" class="pzl">パズル</a> | 
+<a href="javascript:void(0);" class="adv">ADV</a> | 
+<a href="javascript:void(0);" class="miruge">見るゲ</a> |
+<a href="javascript:void(0);" class="yomuge">読むゲ</a> | 
+<a href="javascript:void(0);" class="eroge">エロゲ</a> | 
+<a href="javascript:void(0);" class="ksg">ksg</a> | 
+<a href="javascript:void(0);" class="etc">その他</a> | 
+</p>
+<!--/ 
+ -->
+</div>
+
+<div id="filterlist">
+<ul>
+
+ 
+<li class="gray    ">
+<table border="1" width="900" bgcolor="#dddddd" class="gray"><tr>
+<td width="16" bgcolor="#000000"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i000.png" alt="" width="32" height="32" /></td>
+<td width="50">No.0<br></td>
+<td><a href="ent/0.html" target=_blank>（作品タイトル）</a></td>
+<td width="100">（作品ジャンル）</td>
+<td width="100">（作者名）</td>
+<td width="100">配信/投稿</td>
+<td width="100">サイズ</a><br>最終更新日</td>
+<td width="30">BBS</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="red 2000 jisaku 1to10 mitei">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i001.png" alt="" width="32" height="32" /></td>
+<td width="50">No.1<br>2000</td>
+<td><a href="ent/1.html" target=_blank>MAGIC BATTLE</a></td>
+<td width="100"><font size=1>アクティブタイムジャンケンダンスバトルゲーム</font></td>
+<td width="100">葡萄</td>
+<td width="100">可</td>
+<td width="100">0.00MB</a><br>2013/10/12</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1381547302/" target=_blank>BBS</a><br>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="white 2000 ksg 1to10 zumi">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/ksg.png" alt="" width="32" height="32" /></td>
+<td width="50">No.2<br>2000</td>
+<td><a href="ent/2.html" target=_blank>★主よのっくあうとちゃんの喜びよ </a></td>
+<td width="100">ksg</td>
+<td width="100">ざるそば</td>
+<td width="100"><font size=1>ええんやないかな/ええんやないかな</font></td>
+<td width="100"><a href="http://yahoo.jp/box/oW0H0D" target=_blank>9.35MB</a><br>2014/1/31</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1381547467/" target=_blank>BBS</a><br>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="red 2000 yaruge 1to10 zumi">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i003.png" alt="" width="32" height="32" /></td>
+<td width="50">No.3<br>2000</td>
+<td><a href="ent/3.html" target=_blank>★RPGツクール the run </a></td>
+<td width="100">レースゲーム </td>
+<td width="100">ユニ</td>
+<td width="100"><font size=1>君は動画を配信してもいいししなくてもいい。/また、動画投稿をしてもいい。</font> </td>
+<td width="100"><a href="http://yahoo.jp/box/nJuVlj" target=_blank>0.58MB</a><br>2013/12/27</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1381547497/" target=_blank>BBS</a><br><a href="http://enq-maker.com/a4GnH5O" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="white 2000 jisaku rpg yaruge 1to10 zumi">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i004.png" alt="" width="32" height="32" /></td>
+<td width="50">No.4<br>2000</td>
+<td><a href="ent/4.html" target=_blank>★カスタムバトエン -mosimo-</a></td>
+<td width="100">バトルえんぴつ風カードゲーム</td>
+<td width="100">天下り次郎</td>
+<td width="100">可/可</td>
+<td width="100"><a href="http://yahoo.jp/box/IN2fPz" target=_blank>7.43MB</a><br>2014/1/21</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1381547530/" target=_blank>BBS</a><br><a href="http://enq-maker.com/fdNAuK0" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="red 2000 miruge 1to10 zumi">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i005.png" alt="" width="32" height="32" /></td>
+<td width="50">No.5<br>2000</td>
+<td><a href="ent/5.html" target=_blank>★ヴァンパイアⅡ  -DOMINION-</a></td>
+<td width="100">ダークアクション見るゲー </td>
+<td width="100">池田さん</td>
+<td width="100">佐川/急便</td>
+<td width="100"><a href="http://yahoo.jp/box/II5vC1" target=_blank>38.0MB</a><br>2014/1/26</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1381547562/" target=_blank>BBS</a><br><a href="http://enq-maker.com/3VALtxK" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="white 2000 rpg defo 1to10 zumi">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i006.png" alt="" width="32" height="32" /></td>
+<td width="50">No.6<br>2000</td>
+<td><a href="ent/6.html" target=_blank>★アリスの標本箱</a></td>
+<td width="100">荒唐無稽なデフォ戦ＲＰＧ２</td>
+<td width="100">藻太郎</td>
+<td width="100">可・可/可・可</td>
+<td width="100"><a href="http://yahoo.jp/box/IMAEzJ" target=_blank>15.3MB</a><br>2014/1/31</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1381603483/" target=_blank>BBS</a><br><a href="http://enq-maker.com/11hY0jB" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="red 2000 etc 1to10 mitei">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i007.png" alt="" width="32" height="32" /></td>
+<td width="50">No.7<br>2000</td>
+<td><a href="ent/7.html" target=_blank>マリス</a></td>
+<td width="100">推理とかそういう事するアレ</td>
+<td width="100">ジャスティス</td>
+<td width="100"><font size=1>こっちからお願いしたいくらいだ！/こんなのでいいなら頼む！！</font></td>
+<td width="100">0.00MB</a><br>2013/10/13</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1381603572/" target=_blank>BBS</a><br>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="white 2000 pzl 1to10 zumi">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i008.png" alt="" width="32" height="32" /></td>
+<td width="50">No.8<br>2000</td>
+<td><a href="ent/8.html" target=_blank>★無双庫番</a></td>
+<td width="100">思考停止パズル</td>
+<td width="100">海老１０</td>
+<td width="100">自己責任</td>
+<td width="100"><a href="http://yahoo.jp/box/HssqK9" target=_blank>2.00MB</a><br>2014/1/14</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1381603607/" target=_blank>BBS</a><br><a href="http://enq-maker.com/cgQz5b1" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="red XP yomuge 1to10 zumi">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/XP.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/yomu.png" alt="" width="32" height="32" /></td>
+<td width="50">No.9<br>XP</td>
+<td><a href="ent/9.html" target=_blank>★賽を振る女</a></td>
+<td width="100">2バイト文字を眺めるだけの簡単なお仕事 </td>
+<td width="100">以下、２０１３年にかわりまして２０１４年がお送りします </td>
+<td width="100">不可</td>
+<td width="100"><a href="http://yahoo.jp/box/hbsJvw" target=_blank>1.87MB</a><br>2014/1/31</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1381669174/" target=_blank>BBS</a><br>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="white 2000 ksg 1to10 mitei">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i010.png" alt="" width="32" height="32" /></td>
+<td width="50">No.10<br>2000</td>
+<td><a href="ent/10.html" target=_blank>作品名</a></td>
+<td width="100"><font size=1>君とは響きあわないけどたぶん尻と竿が響きあうksg</font></td>
+<td width="100">りすひームーヨンイチニ</td>
+<td width="100">よかです/よいです</td>
+<td width="100">0.00MB</a><br>2013/10/13</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1381669230/" target=_blank>BBS</a><br>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="red 2000 miruge 11to20 mitei">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i011.png" alt="" width="32" height="32" /></td>
+<td width="50">No.11<br>2000</td>
+<td><a href="ent/11.html" target=_blank>キャロル・ザ・ラストケース</a></td>
+<td width="100">デジタル紙芝居</td>
+<td width="100">大妙行烈</td>
+<td width="100">らめぇ/いやぁ</td>
+<td width="100">0.00MB</a><br>2013/10/15</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1381774061/" target=_blank>BBS</a><br>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="white 2003 rpg yaruge jisaku 11to20 zumi">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2003.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i012.png" alt="" width="32" height="32" /></td>
+<td width="50">No.12<br>2003</td>
+<td><a href="ent/12.html" target=_blank>★Re:Birthible</a></td>
+<td width="100">召喚型世界やり直しRPG</td>
+<td width="100">めふぃすと</td>
+<td width="100">HP：114/514</td>
+<td width="100"><a href="http://yahoo.jp/box/22cpF9" target=_blank>57.3MB</a><br>2014/1/31</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1382155198/" target=_blank>BBS</a><br><a href="http://enq-maker.com/enPSwhG" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="red 2000 yaruge jisaku 11to20 zumi">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i013.png" alt="" width="32" height="32" /></td>
+<td width="50">No.13<br>2000</td>
+<td><a href="ent/13.html" target=_blank>★ドラ子かわいい</a></td>
+<td width="100">ゴリ押しRPG</td>
+<td width="100">Ｓテル</td>
+<td width="100">114/514</td>
+<td width="100"><a href="http://yahoo.jp/box/G0oN73" target=_blank>12.3MB</a><br>2014/1/15</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1382264393/" target=_blank>BBS</a><br><a href="http://enq-maker.com/1bPC0LK" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="white 2000 defo 11to20 zumi">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i014.png" alt="" width="32" height="32" /></td>
+<td width="50">No.14<br>2000</td>
+<td><a href="ent/14.html" target=_blank>★もしもサバイバーズ</a></td>
+<td width="100">デフォ戦ドッグファイト</td>
+<td width="100">_</td>
+<td width="100">自己責任/自己責任</td>
+<td width="100"><a href="http://yahoo.jp/box/GP6zHT" target=_blank>12.2MB</a><br>2013/12/27</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1382745687/" target=_blank>BBS</a><br><a href="http://enq-maker.com/d9QUBsO" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="red 2000 rpg 11to20 zumi">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i015.png" alt="" width="32" height="32" /></td>
+<td width="50">No.15<br>2000</td>
+<td><a href="ent/15.html" target=_blank>★闇勇者の過去</a></td>
+<td width="100">RPG</td>
+<td width="100">フェニル</td>
+<td width="100">されない</td>
+<td width="100"><a href="http://yahoo.jp/box/EKXi-t" target=_blank>23.4MB</a><br>2013/12/25</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1382798532/" target=_blank>BBS</a><br><a href="http://enq-maker.com/cy8Ltum" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="white VXAce etc 11to20 zumi">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/VXAce.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i016.gif" alt="" width="32" height="32" /></td>
+<td width="50">No.16<br>VXAce</td>
+<td><a href="ent/16.html" target=_blank>★霊波乃科学</a></td>
+<td width="100"><font size=1>公的秩序崩壊レボリューションプレイングゲーム</font></td>
+<td width="100">佐藤ミセス</td>
+<td width="100">どちらもOK</td>
+<td width="100"><a href="http://yahoo.jp/box/6zksnG" target=_blank>37.8MB</a><br>2014/1/26</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1383054784/" target=_blank>BBS</a><br><a href="http://enq-maker.com/hsVXxrG" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="red 2000 yomuge 11to20 mitei">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i017.png" alt="" width="32" height="32" /></td>
+<td width="50">No.17<br>2000</td>
+<td><a href="ent/17.html" target=_blank>ガーデン</a></td>
+<td width="100">キャロルかわいい</td>
+<td width="100">ベルファーレ短田</td>
+<td width="100">いいよ/いいよ</td>
+<td width="100">0.00MB</a><br>2013/10/29</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1383055032/" target=_blank>BBS</a><br>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="white 2000 rpg defo 11to20 zumi">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i018.png" alt="" width="32" height="32" /></td>
+<td width="50">No.18<br>2000</td>
+<td><a href="ent/18.html" target=_blank>★Memory of Moshimo</a></td>
+<td width="100">デフォ戦</td>
+<td width="100">牧場の牛肉</td>
+<td width="100">お好きなように</td>
+<td width="100"><a href="http://yahoo.jp/box/CWbe8k" target=_blank>14.1MB</a><br>2014/1/26</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1383474982/" target=_blank>BBS</a><br><a href="http://enq-maker.com/a6B6vrx" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="red 2000 rpg yaruge jisaku 11to20 mitei">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i019.png" alt="" width="32" height="32" /></td>
+<td width="50">No.19<br>2000</td>
+<td><a href="ent/19.html" target=_blank>蘇生世界 - God slayer</a></td>
+<td width="100"><font size=1>世界再生系サイドビュー自作戦闘RPG</font></td>
+<td width="100">さたなえる</td>
+<td width="100">だいじょーぶ/だいじょーび</td>
+<td width="100">0.00MB</a><br>2013/11/3</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1383475025/" target=_blank>BBS</a><br>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="white 2003 etc 11to20 mitei">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2003.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/hatena.png" alt="" width="32" height="32" /></td>
+<td width="50">No.20<br>2003</td>
+<td><a href="ent/20.html" target=_blank>ゴメスのホリホリ物語</a></td>
+<td width="100">我らウルトラ穴兄弟</td>
+<td width="100">すみませんすぐ右にインド人が</td>
+<td width="100">いいぞ。/いいぞ。</td>
+<td width="100">0.00MB</a><br>2013/11/3</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1383475099/" target=_blank>BBS</a><br>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="red 2000 ksg 21to30 mitei">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i021.png" alt="" width="32" height="32" /></td>
+<td width="50">No.21<br>2000</td>
+<td><a href="ent/21.html" target=_blank>無謀なキャラ付け会議(妹姫編)</a></td>
+<td width="100">ksg</td>
+<td width="100">クルマユ大好き丸</td>
+<td width="100">どうでもいい/どうでもいい</td>
+<td width="100">0.00MB</a><br>2013/11/3</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1383475142/" target=_blank>BBS</a><br>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="white 2000 rpg defo 21to30 zumi">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i022.png" alt="" width="32" height="32" /></td>
+<td width="50">No.22<br>2000</td>
+<td><a href="ent/22.html" target=_blank>★R-Ⅱ The batter </a></td>
+<td width="100">デフォルト戦闘</td>
+<td width="100">ケイト</td>
+<td width="100">可/可</td>
+<td width="100"><a href="http://yahoo.jp/box/T7xeL2" target=_blank>1.41MB</a><br>2013/12/27</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1383481367/" target=_blank>BBS</a><br><a href="http://enq-maker.com/bzqgAjH" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="red 2000 ksg miruge defo 21to30 zumi">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i023.png" alt="" width="32" height="32" /></td>
+<td width="50">No.23<br>2000</td>
+<td><a href="ent/23.html" target=_blank>★もしも新キャララッシュだったら</a></td>
+<td width="100"><font size=1>ｋｓｇだったり見るゲーだったりデフォ戦だったり・・・</font></td>
+<td width="100">撃GUN-V</td>
+<td width="100">おｋ/おｋ</td>
+<td width="100"><a href="http://yahoo.jp/box/3X9oFn" target=_blank>49.7MB</a><br>2014/1/5</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1383475243/" target=_blank>BBS</a><br><a href="http://enq-maker.com/4cltHsP" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="white 2000 miruge 21to30 zumi">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i024.png" alt="" width="32" height="32" /></td>
+<td width="50">No.24<br>2000</td>
+<td><a href="ent/24.html" target=_blank>★わてり☆初体験 </a></td>
+<td width="100">わりと正統派わてり系見るゲー </td>
+<td width="100">比較的悪いスライム </td>
+<td width="100">可/可</td>
+<td width="100"><a href="http://yahoo.jp/box/7SudQa" target=_blank>3.69MB</a><br>2013/12/16</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1384410707/" target=_blank>BBS</a><br><a href="http://enq-maker.com/dsyKuWh" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="red 2000 yaruge defo jisaku 21to30 zumi">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i025.png" alt="" width="32" height="32" /></td>
+<td width="50">No.25<br>2000</td>
+<td><a href="ent/25.html" target=_blank>★もしもの宇宙戦争</a></td>
+<td width="100"><font size=1>みんな大好きS・W（スペース・ウォーズ）</font></td>
+<td width="100">ジャポニカ学習帳ブラザーズ</td>
+<td width="100">自己/責任</td>
+<td width="100"><a href="http://yahoo.jp/box/qnaUyN" target=_blank>16.1MB</a><br>2014/1/21</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1384537012/" target=_blank>BBS</a><br><a href="http://enq-maker.com/5WHBNId" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="white 2000 miruge 21to30 zumi">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i026.png" alt="" width="32" height="32" /></td>
+<td width="50">No.26<br>2000</td>
+<td><a href="ent/26.html" target=_blank>★VIPRPG OP</a></td>
+<td width="100">見るｋｓｇ </td>
+<td width="100">マーミア</td>
+<td width="100">おｋ/おｋ</td>
+<td width="100"><a href="http://yahoo.jp/box/retKVs" target=_blank>15.7MB</a><br>2013/12/24</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1384694952/" target=_blank>BBS</a><br><a href="http://enq-maker.com/3MWBc4l" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="red 2000 yaruge 21to30 zumi">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i027.png" alt="" width="32" height="32" /></td>
+<td width="50">No.27<br>2000</td>
+<td><a href="ent/27.html" target=_blank>★紅白踏み台合戦</a></td>
+<td width="100"><font size=1>踏み台を題材としたミニゲーム集＋おまけ</font></td>
+<td width="100">もろざき</td>
+<td width="100">事故責任？/自己責任！</td>
+<td width="100"><a href="http://yahoo.jp/box/qX2kAa" target=_blank>0.97MB</a><br>2013/12/23</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1384868354/" target=_blank>BBS</a><br><a href="http://enq-maker.com/2B5XITq" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="white 2000 adv 21to30 zumi">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i028.png" alt="" width="32" height="32" /></td>
+<td width="50">No.28<br>2000</td>
+<td><a href="ent/28.html" target=_blank>★逆転ザック</a></td>
+<td width="100">法廷バトルADV</td>
+<td width="100">女体化ダークメカアレックス</td>
+<td width="100">モチのロン/メチャロン</td>
+<td width="100"><a href="http://yahoo.jp/box/6qvraX" target=_blank>4.24MB</a><br>2013/12/20</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1385019877/" target=_blank>BBS</a><br><a href="http://enq-maker.com/dfPAjzr" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="red 2000 ksg miruge defo 21to30 zumi">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i029.png" alt="" width="32" height="32" /></td>
+<td width="50">No.29<br>2000</td>
+<td><a href="ent/29.html" target=_blank>★ミリィのドタバタな日常</a></td>
+<td width="100"><font size=1>ksgだったり見るゲだったりデフォ戦だったり</font></td>
+<td width="100">五つ葉</td>
+<td width="100">可/可</td>
+<td width="100"><a href="http://yahoo.jp/box/dnL2AA" target=_blank>4.21MB</a><br>2014/1/5</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1385125188/" target=_blank>BBS</a><br><a href="http://enq-maker.com/1IzrqW6" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="white 2000 rpg 21to30 mitei">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i030.png" alt="" width="32" height="32" /></td>
+<td width="50">No.30<br>2000</td>
+<td><a href="ent/30.html" target=_blank>BIOHAZARD in VIPRPG OUTBREAK</a></td>
+<td width="100"><font size=1>クリーチャーを倒すRPG×   クリーチャーを倒しつつ逃げるRPG   ○</font></td>
+<td width="100">daす</td>
+<td width="100">YE/S</td>
+<td width="100">0.00MB</a><br>2014/1/10</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1385475145/" target=_blank>BBS</a><br>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="red 2000 ksg yaruge act 31to40 mitei">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i031.png" alt="" width="32" height="32" /></td>
+<td width="50">No.31<br>2000</td>
+<td><a href="ent/31.html" target=_blank>高硬度降下低高度皆散</a></td>
+<td width="100">SYMPHONIC KSG</td>
+<td width="100">電光石飛丸</td>
+<td width="100"><font size=1>実にトレンディー！/実にトレンディー！（どちらもおｋ）</font></td>
+<td width="100">0.00MB</a><br>2013/11/26</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1385475182/" target=_blank>BBS</a><br>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="white 2000 yaruge 31to40 zumi">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/yaru.png" alt="" width="32" height="32" /></td>
+<td width="50">No.32<br>2000</td>
+<td><a href="ent/32.html" target=_blank>★なすーんが脱出するみたいなもの</a></td>
+<td width="100">脱出ゲームみたいな</td>
+<td width="100">なかな</td>
+<td width="100"><font size=1>してもいいけどする人がいるのかどうか</font></td>
+<td width="100"><a href="http://yahoo.jp/box/8OfzM0" target=_blank>2.37MB</a><br>2014/1/9</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1385532776/" target=_blank>BBS</a><br><a href="http://enq-maker.com/h0Xc5x1" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="red 2000 yomuge eroge 31to40 zumi">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i033.png" alt="" width="32" height="32" /></td>
+<td width="50">No.33<br>2000</td>
+<td><a href="ent/33.html" target=_blank>★デス蜜柑</a></td>
+<td width="100">読むerg</td>
+<td width="100">徳明</td>
+<td width="100">やれるなら/やってみせよ</td>
+<td width="100"><a href="http://yahoo.jp/box/3yjXph" target=_blank>1.06MB</a><br>2014/1/11</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1385990037/" target=_blank>BBS</a><br><a href="http://enq-maker.com/biPXu5i" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="white 2000 miruge 31to40 zumi">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i034.png" alt="" width="32" height="32" /></td>
+<td width="50">No.34<br>2000</td>
+<td><a href="ent/34.html" target=_blank>★包丁とデュラハン</a></td>
+<td width="100">(作者の)過去を振り返る短編集</td>
+<td width="100">名無しについて</td>
+<td width="100"><font size=1>その為に作られた/してくれなきゃすねるぞ！！</font></td>
+<td width="100"><a href="http://yahoo.jp/box/Iu25_X" target=_blank>26.9MB</a><br>2014/1/14</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1385990126/" target=_blank>BBS</a><br><a href="http://enq-maker.com/2t4jEwd" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="red XP yaruge 31to40 zumi">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/XP.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/yaru.png" alt="" width="32" height="32" /></td>
+<td width="50">No.35<br>XP</td>
+<td><a href="ent/35.html" target=_blank>★北の宿から。</a></td>
+<td width="100">アドベンチャー風食育RPG</td>
+<td width="100">OPUWA</td>
+<td width="100">要事前相談/要事前相談</td>
+<td width="100"><a href="http://yahoo.jp/box/mAz2Do" target=_blank>74.2MB</a><br>2014/1/5</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1385990182/" target=_blank>BBS</a><br><a href="http://enq-maker.com/agHAwzC" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="white 2000 adv 31to40 zumi">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i036.png" alt="" width="32" height="32" /></td>
+<td width="50">No.36<br>2000</td>
+<td><a href="ent/36.html" target=_blank>★ゴメスのあなから</a></td>
+<td width="100">糞味噌ADV</td>
+<td width="100">一般1-3</td>
+<td width="100">可/可</td>
+<td width="100"><a href="http://yahoo.jp/box/ejQcLy" target=_blank>38.5MB</a><br>2014/1/9</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1385990218/" target=_blank>BBS</a><br><a href="http://enq-maker.com/1yUOAd7" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="red 2000 etc 31to40 zumi">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i037.png" alt="" width="32" height="32" /></td>
+<td width="50">No.37<br>2000</td>
+<td><a href="ent/37.html" target=_blank>★ブームズショウユキャンプ </a></td>
+<td width="100">腹筋崩壊装置（物理） </td>
+<td width="100">いれあ </td>
+<td width="100"><font size=1>やってもいいけど /体力持つんすか </font></td>
+<td width="100"><a href="http://yahoo.jp/box/83Aq7R" target=_blank>1.39MB</a><br>2013/12/16</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1385990264/" target=_blank>BBS</a><br><a href="http://enq-maker.com/a4HDPpO" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="white 2000 rpg defo 31to40 zumi">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/rpg.png" alt="" width="32" height="32" /></td>
+<td width="50">No.38<br>2000</td>
+<td><a href="ent/38.html" target=_blank>★オクデッド</a></td>
+<td width="100">必死デフォ戦</td>
+<td width="100">きぎぬ</td>
+<td width="100">ご自由に/どうぞ</td>
+<td width="100"><a href="http://yahoo.jp/box/YlEMtK" target=_blank>0.22MB</a><br>2014/1/3</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1386280501/" target=_blank>BBS</a><br><a href="http://enq-maker.com/7X1qIBh" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="red 2000 rpg yaruge defo 31to40 mitei">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i039.png" alt="" width="32" height="32" /></td>
+<td width="50">No.39<br>2000</td>
+<td><a href="ent/39.html" target=_blank>ダークナイトサーガ</a></td>
+<td width="100">デフォ戦ＲＰＧ</td>
+<td width="100">黒糖まんじゅう</td>
+<td width="100"><font size=1>自己責任でお願いします/同上</font></td>
+<td width="100">00.0MB</a><br>2013/12/6</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1386280550/" target=_blank>BBS</a><br>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="white 2000  31to40 zumi">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i040.jpg" alt="" width="32" height="32" /></td>
+<td width="50">No.40<br>2000</td>
+<td><a href="ent/40.html" target=_blank>★キュア・プラムス</a></td>
+<td width="100">何かを知るためのRPG</td>
+<td width="100">ABS</td>
+<td width="100">うん/はい</td>
+<td width="100"><a href="http://yahoo.jp/box/H4aX60" target=_blank>10.3MB</a><br>2013/12/24</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1386280594/" target=_blank>BBS</a><br><a href="http://enq-maker.com/9sVCsOJ" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="red 2000 ksg 41to50 zumi">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i041.png" alt="" width="32" height="32" /></td>
+<td width="50">No.41<br>2000</td>
+<td><a href="ent/41.html" target=_blank>★偽エルと水産のラブラブデート</a></td>
+<td width="100">ksg</td>
+<td width="100">ダレヤネン</td>
+<td width="100"><font size=1>ご自由にどうぞ/ぜひお願いします</font></td>
+<td width="100"><a href="http://yahoo.jp/box/nTChQW" target=_blank>0.27MB</a><br>2014/1/14</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1386280635/" target=_blank>BBS</a><br><a href="http://enq-maker.com/8v2SASw" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="white 2000 miruge 41to50 zumi">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/miru.png" alt="" width="32" height="32" /></td>
+<td width="50">No.42<br>2000</td>
+<td><a href="ent/42.html" target=_blank>★もしもアイスⅢが母親だったら</a></td>
+<td width="100">見るゲ</td>
+<td width="100">生活保護君</td>
+<td width="100">不可/不可</td>
+<td width="100"><a href="http://yahoo.jp/box/5XebM9" target=_blank>3.48MB</a><br>2013/12/29</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1386574308/" target=_blank>BBS</a><br><a href="http://enq-maker.com/hwyCqxq" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="red 2000 miruge 41to50 zumi">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i043.png" alt="" width="32" height="32" /></td>
+<td width="50">No.43<br>2000</td>
+<td><a href="ent/43.html" target=_blank>★もしも死神五世と・・・</a></td>
+<td width="100">見るゲ短編集 </td>
+<td width="100">風見ケイ</td>
+<td width="100">おｋ/おｋ</td>
+<td width="100"><a href="http://yahoo.jp/box/s28UrR" target=_blank>4.83MB</a><br>2014/1/21</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1386574378/" target=_blank>BBS</a><br><a href="http://enq-maker.com/f2ijozS" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="white 2000 yaruge 41to50 zumi">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i044.png" alt="" width="32" height="32" /></td>
+<td width="50">No.44<br>2000</td>
+<td><a href="ent/44.html" target=_blank>★玉露日記</a></td>
+<td width="100">やるゲ</td>
+<td width="100">ミスと</td>
+<td width="100">いいよ/いいよ</td>
+<td width="100"><a href="http://yahoo.jp/box/D1TVnc" target=_blank>0.66MB</a><br>2013/12/20</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1386574423/" target=_blank>BBS</a><br><a href="http://enq-maker.com/7OBawuH" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="red 2000 yaruge 41to50 zumi">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i045.png" alt="" width="32" height="32" /></td>
+<td width="50">No.45<br>2000</td>
+<td><a href="ent/45.html" target=_blank>★西脳</a></td>
+<td width="100">悪ノリやるゲ</td>
+<td width="100">さとう　おさむ</td>
+<td width="100">可/可</td>
+<td width="100"><a href="http://yahoo.jp/box/TURe9N" target=_blank>5.50MB</a><br>2013/12/16</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1386574465/" target=_blank>BBS</a><br><a href="http://enq-maker.com/cExNzSe" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="white 2000 jisaku 41to50 zumi">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/yaru.png" alt="" width="32" height="32" /></td>
+<td width="50">No.46<br>2000</td>
+<td><a href="ent/46.html" target=_blank>★もしも時を越えて（disk2</a></td>
+<td width="100">やるげー</td>
+<td width="100">若葉勢</td>
+<td width="100">可/可</td>
+<td width="100"><a href="http://yahoo.jp/box/rDWNq6" target=_blank>35.5MB</a><br>2013/12/25</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1386574520/" target=_blank>BBS</a><br><a href="http://enq-maker.com/1rBxSIz" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="red 2000 miruge pzl 41to50 zumi">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i047.png" alt="" width="32" height="32" /></td>
+<td width="50">No.47<br>2000</td>
+<td><a href="ent/47.html" target=_blank>★ルインシーカー -寂しがりやのカタコンベ-</a></td>
+<td width="100"><font size=1>見るゲとやるゲが両方そなわり最強に見える</font></td>
+<td width="100">ツノザメ怪人</td>
+<td width="100"><font size=1>私は一向に構わんッ！/同じく</font></td>
+<td width="100"><a href="http://yahoo.jp/box/bDXVGi" target=_blank>5.73MB</a><br>2014/1/10</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1386574623/" target=_blank>BBS</a><br><a href="http://enq-maker.com/3wmqKVJ" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="white 2000 rpg 41to50 zumi">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i048.png" alt="" width="32" height="32" /></td>
+<td width="50">No.48<br>2000</td>
+<td><a href="ent/48.html" target=_blank>★年末謝罪大戦</a></td>
+<td width="100">ノンフィールドRPG</td>
+<td width="100">コの字</td>
+<td width="100">可/可</td>
+<td width="100"><a href="http://yahoo.jp/box/nMTvT5" target=_blank>5.82MB</a><br>2013/12/27</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1386574662/" target=_blank>BBS</a><br><a href="http://enq-maker.com/7OOIwW8" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="red 2000 ksg 41to50 zumi">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i049.png" alt="" width="32" height="32" /></td>
+<td width="50">No.49<br>2000</td>
+<td><a href="ent/49.html" target=_blank>★又吉議員物語</a></td>
+<td width="100">クソゲー</td>
+<td width="100">kemono</td>
+<td width="100">可/不可</td>
+<td width="100"><a href="http://yahoo.jp/box/jKCXdK" target=_blank>1.26MB</a><br>2013/12/22</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1386653625/" target=_blank>BBS</a><br><a href="http://enq-maker.com/31WjwB3" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="white 2000 ksg 41to50 mitei">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/ksg.png" alt="" width="32" height="32" /></td>
+<td width="50">No.50<br>2000</td>
+<td><a href="ent/50.html" target=_blank>このタイトルは仮題であり、今後変更される可能性があります。</a></td>
+<td width="100">ｋｓｇ</td>
+<td width="100">未定</td>
+<td width="100">可の予定/可の予定</td>
+<td width="100">0.00MB</a><br>2013/12/10</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1386653730/" target=_blank>BBS</a><br>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="red 2000 rpg 51to60 zumi">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i051.png" alt="" width="32" height="32" /></td>
+<td width="50">No.51<br>2000</td>
+<td><a href="ent/51.html" target=_blank>★イクゾーダス</a></td>
+<td width="100"><font size=1>本当の勇気を知る刹那のRPG</font></td>
+<td width="100">内藤春人</td>
+<td width="100">可/可</td>
+<td width="100"><a href="http://yahoo.jp/box/oiVc5e" target=_blank>1.01MB</a><br>2013/12/16</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387190251/" target=_blank>BBS</a><br><a href="http://enq-maker.com/98mTuqV" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="white 2000 pzl ksg 51to60 zumi">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i052.png" alt="" width="32" height="32" /></td>
+<td width="50">No.52<br>2000</td>
+<td><a href="ent/52.html" target=_blank>★同じ色の物体が４つほどくっつくと消えるバグを搭載したゲーム</a></td>
+<td width="100">落ち物のたぐい</td>
+<td width="100">UMA</td>
+<td width="100">撮っても面白くないよ</td>
+<td width="100"><a href="http://yahoo.jp/box/uRgQLa" target=_blank>1.50MB</a><br>2013/12/22</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387479018/" target=_blank>BBS</a><br><a href="http://enq-maker.com/1ItciEb" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="red 2000 miruge ksg 51to60 zumi">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/miru.png" alt="" width="32" height="32" /></td>
+<td width="50">No.53<br>2000</td>
+<td><a href="ent/53.html" target=_blank>★2013年新キャラ総決算</a></td>
+<td width="100">見るゲというksg</td>
+<td width="100">2013年新キャラ総決算の作者</td>
+<td width="100">お好きに/お好きに</td>
+<td width="100"><a href="http://yahoo.jp/box/tzG1k0" target=_blank>0.94MB</a><br>2013/12/22</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387479067/" target=_blank>BBS</a><br><a href="http://enq-maker.com/gOc0FhR" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="white VX rpg 51to60 zumi">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/VX.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i054.png" alt="" width="32" height="32" /></td>
+<td width="50">No.54<br>VX</td>
+<td><a href="ent/54.html" target=_blank>★セイブ・ザ・ロード</a></td>
+<td width="100">RPG</td>
+<td width="100">暁美レイヴン</td>
+<td width="100">自己責任/自己責任</td>
+<td width="100"><a href="http://yahoo.jp/box/3VlJch" target=_blank>14.9MB</a><br>2013/12/30</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387479097/" target=_blank>BBS</a><br><a href="http://enq-maker.com/dfZAfV5" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="red 2000 act 51to60 zumi">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i055.png" alt="" width="32" height="32" /></td>
+<td width="50">No.55<br>2000</td>
+<td><a href="ent/55.html" target=_blank>★娘様のジャンプアクション</a></td>
+<td width="100">ステージクリア型のアクション</td>
+<td width="100">アサリ</td>
+<td width="100">可/可</td>
+<td width="100"><a href="http://yahoo.jp/box/rKFyNg" target=_blank>1.53MB</a><br>2014/1/10</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387479127/" target=_blank>BBS</a><br><a href="http://enq-maker.com/7mgx54j" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="white 2000 miruge ksg 51to60 zumi">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i056.png" alt="" width="32" height="32" /></td>
+<td width="50">No.56<br>2000</td>
+<td><a href="ent/56.html" target=_blank>★超日本列島とらべる絵草紙</a></td>
+<td width="100">ジェットコースター☆みるげ</td>
+<td width="100">黄泉つ</td>
+<td width="100">をかし/めでたし</td>
+<td width="100"><a href="http://yahoo.jp/box/zIPlEs" target=_blank>14.7MB</a><br>2014/1/31</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387479162/" target=_blank>BBS</a><br><a href="http://enq-maker.com/5HIH6QT" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="red 2000 ksg 51to60 zumi">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i057.png" alt="" width="32" height="32" /></td>
+<td width="50">No.57<br>2000</td>
+<td><a href="ent/57.html" target=_blank>★もしも全自作音楽でダークアーディス掌編だったら</a></td>
+<td width="100">全自作音楽掌編</td>
+<td width="100">パシャ・アスポルフ</td>
+<td width="100">可/可</td>
+<td width="100"><a href="http://yahoo.jp/box/agDllQ" target=_blank>10.7MB</a><br>2013/12/22</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387479194/" target=_blank>BBS</a><br><a href="http://enq-maker.com/RM4A0S" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="white 2000 ksg 51to60 zumi">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i058.png" alt="" width="32" height="32" /></td>
+<td width="50">No.58<br>2000</td>
+<td><a href="ent/58.html" target=_blank>★ksg流しそうめん</a></td>
+<td width="100">ksg</td>
+<td width="100">さらば愛しの流しそうめん</td>
+<td width="100">どうぞ/どうぞ</td>
+<td width="100"><a href="http://yahoo.jp/box/6wvVHc" target=_blank>5.93MB</a><br>2013/12/22</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387642110/" target=_blank>BBS</a><br><a href="http://enq-maker.com/h9PhYdD" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="red 2000 yaruge 51to60 zumi">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i059.png" alt="" width="32" height="32" /></td>
+<td width="50">No.59<br>2000</td>
+<td><a href="ent/59.html" target=_blank>★闇Ⅰハロウィン</a></td>
+<td width="100">ゆ○みちオマージュ</td>
+<td width="100">根</td>
+<td width="100">非推奨/非推奨</td>
+<td width="100"><a href="http://yahoo.jp/box/C0FhbS" target=_blank>2.35MB</a><br>2014/1/6</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387644175/" target=_blank>BBS</a><br><a href="http://enq-maker.com/3xnQFS6" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="white 2000 ksg 51to60 mitei">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i060.png" alt="" width="32" height="32" /></td>
+<td width="50">No.60<br>2000</td>
+<td><a href="ent/60.html" target=_blank>井部さん（仮）</a></td>
+<td width="100">糞ゲー</td>
+<td width="100">名無しよりも愛をこめて</td>
+<td width="100">（未記入）</td>
+<td width="100">0.00MB</a><br>2013/12/22</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387718144/" target=_blank>BBS</a><br>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="red 2000 ksg miruge yomuge 61to70 zumi">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i061.png" alt="" width="32" height="32" /></td>
+<td width="50">No.61<br>2000</td>
+<td><a href="ent/61.html" target=_blank>★魔王の娘でも分かる心理学</a></td>
+<td width="100">心理学が学べる見るゲです。</td>
+<td width="100">かきぴー</td>
+<td width="100">可です/可です</td>
+<td width="100"><a href="http://yahoo.jp/box/EbI4JC" target=_blank>1.07MB</a><br>2013/12/24</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387718212/" target=_blank>BBS</a><br><a href="http://enq-maker.com/g1sxgMi" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="white 2000 defo miruge 61to70 zumi">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i062.png" alt="" width="32" height="32" /></td>
+<td width="50">No.62<br>2000</td>
+<td><a href="ent/62.html" target=_blank>★あんこくのみらいで</a></td>
+<td width="100">デフォ戦・見るゲ</td>
+<td width="100">中の外の人◆nakaOgUcqs</td>
+<td width="100">可/可</td>
+<td width="100"><a href="http://yahoo.jp/box/8a15fU" target=_blank>13.0MB</a><br>2013/12/23</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387779507/" target=_blank>BBS</a><br><a href="http://enq-maker.com/be15B6h" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="red 2000 etc 61to70 mitei">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i063.png" alt="" width="32" height="32" /></td>
+<td width="50">No.63<br>2000</td>
+<td><a href="ent/63.html" target=_blank>地獄携帯おぼなす</a></td>
+<td width="100">ホラー</td>
+<td width="100">脂はむ</td>
+<td width="100">可/可</td>
+<td width="100">0.00MB</a><br>2013/12/23</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387779548/" target=_blank>BBS</a><br>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="white 2000 yaruge 61to70 zumi">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i064.png" alt="" width="32" height="32" /></td>
+<td width="50">No.64<br>2000</td>
+<td><a href="ent/64.html" target=_blank>★Angel゜Hal0</a></td>
+<td width="100">体験版</td>
+<td width="100">トカゲのしっぽな</td>
+<td width="100">ゴメス/ゴメス</td>
+<td width="100"><a href="http://yahoo.jp/box/84dybv" target=_blank>2.84MB</a><br>2013/12/23</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387779596/" target=_blank>BBS</a><br><a href="http://enq-maker.com/2yGa1EA" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="red 2000 yaruge act 61to70 zumi">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i065.gif" alt="" width="32" height="32" /></td>
+<td width="50">No.65<br>2000</td>
+<td><a href="ent/65.html" target=_blank>★釣りックス</a></td>
+<td width="100">ＲＴＰ系</td>
+<td width="100">うじみ</td>
+<td width="100">可/可</td>
+<td width="100"><a href="http://yahoo.jp/box/0OtSGo" target=_blank>4.46MB</a><br>2014/1/7</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387863497/" target=_blank>BBS</a><br><a href="http://enq-maker.com/5gcy70W" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="white 2000 ksg yuri 61to70 zumi">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i066.png" alt="" width="32" height="32" /></td>
+<td width="50">No.66<br>2000</td>
+<td><a href="ent/66.html" target=_blank>★フレイミングリターンズ（旧題：炎の他宅警備員）</a></td>
+<td width="100">君に別れを告げて君でない他の誰かに逢いに行くｋｓｇ</td>
+<td width="100">バーティカル外藤</td>
+<td width="100"><font size=1>とりあえず可/とりあえず可</font></td>
+<td width="100"><a href="http://yahoo.jp/box/KgCKpL" target=_blank>1.52MB</a><br>2014/1/3</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387863531/" target=_blank>BBS</a><br><a href="http://enq-maker.com/a9xluKU" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="red 2000 yomuge 61to70 mitei">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i067.gif" alt="" width="32" height="32" /></td>
+<td width="50">No.67<br>2000</td>
+<td><a href="ent/67.html" target=_blank>未定(未定というタイトルではありません)</a></td>
+<td width="100">読むゲ</td>
+<td width="100">みんぱる</td>
+<td width="100">是非/是非</td>
+<td width="100">0.00MB</a><br>2013/12/24</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387863726/" target=_blank>BBS</a><br>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="white 2000 ksg 61to70 zumi">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i068.png" alt="" width="32" height="32" /></td>
+<td width="50">No.68<br>2000</td>
+<td><a href="ent/68.html" target=_blank>★AleBr</a></td>
+<td width="100">ksg</td>
+<td width="100">せくては</td>
+<td width="100">可/可</td>
+<td width="100"><a href="http://yahoo.jp/box/3KjksG" target=_blank>2.45MB</a><br>2013/12/24</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387863772/" target=_blank>BBS</a><br><a href="http://enq-maker.com/BiJ2HV" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="red 2000 adv 61to70 zumi">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i069.png" alt="" width="32" height="32" /></td>
+<td width="50">No.69<br>2000</td>
+<td><a href="ent/69.html" target=_blank>★図書館探索ゲェム</a></td>
+<td width="100">ADV</td>
+<td width="100">とうふ</td>
+<td width="100">いいよ/いいよ</td>
+<td width="100"><a href="http://yahoo.jp/box/wgYrXS" target=_blank>3.46MB</a><br>2013/12/29</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387863816/" target=_blank>BBS</a><br><a href="http://enq-maker.com/6JTDfZ2" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="white 2000 yaruge 61to70 zumi">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i070.png" alt="" width="32" height="32" /></td>
+<td width="50">No.70<br>2000</td>
+<td><a href="ent/70.html" target=_blank>★核にゃんの魔法牧場</a></td>
+<td width="100">シミュレーション</td>
+<td width="100">名無し猫はこたつで永眠したい</td>
+<td width="100">可能/可能</td>
+<td width="100"><a href="http://yahoo.jp/box/TOnC2c" target=_blank>19.4MB</a><br>2013/12/25</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387863854/" target=_blank>BBS</a><br><a href="http://enq-maker.com/ePwqqa3" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="red 2000 rpg jisaku 71to80 zumi">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i071.png" alt="" width="32" height="32" /></td>
+<td width="50">No.71<br>2000</td>
+<td><a href="ent/71.html" target=_blank>★ウィンディクリエイター</a></td>
+<td width="100">育成RPG</td>
+<td width="100">生糸</td>
+<td width="100">可/可</td>
+<td width="100"><a href="http://yahoo.jp/box/kW46Hr" target=_blank>13.4MB</a><br>2014/1/31</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387863895/" target=_blank>BBS</a><br>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="white 2000 yaruge 71to80 zumi">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i072.png" alt="" width="32" height="32" /></td>
+<td width="50">No.72<br>2000</td>
+<td><a href="ent/72.html" target=_blank>★クッキーのクッキー☆</a></td>
+<td width="100">クッキー☆</td>
+<td width="100">ＫＳＤ</td>
+<td width="100">いいぜ/いいぜ</td>
+<td width="100"><a href="http://yahoo.jp/box/Tqlwri" target=_blank>18.8MB</a><br>2014/1/26</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387863944/" target=_blank>BBS</a><br><a href="http://enq-maker.com/biJ3HT6" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="red 2000 ksg 71to80 zumi">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i073.gif" alt="" width="32" height="32" /></td>
+<td width="50">No.73<br>2000</td>
+<td><a href="ent/73.html" target=_blank>★俺がtkったアクションホコグラ素材集2013～年末年始やらないか大バーゲン～</a></td>
+<td width="100">素材見るゲーksg（不定期で追加・更新）</td>
+<td width="100">Trebble_Max</td>
+<td width="100">不可/不可</td>
+<td width="100"><a href="http://yahoo.jp/box/ItkImK" target=_blank>13.3MB</a><br>2014/1/31</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387864045/" target=_blank>BBS</a><br><a href="http://enq-maker.com/d5oFubP" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="white 2000 yaruge 71to80 mitei">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i074.gif" alt="" width="32" height="32" /></td>
+<td width="50">No.74<br>2000</td>
+<td><a href="ent/74.html" target=_blank>Magical Exploers(仮)</a></td>
+<td width="100">収集</td>
+<td width="100">ルズ</td>
+<td width="100">○/○</td>
+<td width="100">0.00MB</a><br>2013/12/24</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387864089/" target=_blank>BBS</a><br>投票</a></td>
+</tr></table>
+</li>
+
+ 
+<li class="red 2000 ksg 71to80 zumi">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i075.png" alt="" width="32" height="32" /></td>
+<td width="50">No.75<br>2000</td>
+<td><a href="ent/75.html" target=_blank>★カニ爆</a></td>
+<td width="100">ksg</td>
+<td width="100">◆2aLlGIkY8s</td>
+<td width="100"><font size=1>壊れるほど愛しても1/3も伝わらない</font></td>
+<td width="100"><a href="http://yahoo.jp/box/K8kZkd" target=_blank>13.5MB</a><br>2014/1/20</td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387864127/" target=_blank>BBS</a><br><a href="http://enq-maker.com/fum2ZOG" target=_blank>投票</a></td>
+</tr></table>
+</li>
+
+
+</ul>
+</div><!--/filterlist-->
+</div><!--/motion2_area1-->
+
+</div><!--/#container-->
+<!--<h2>COPYPASTE &copy; <a href="http://www10.atwiki.jp/vip_rpg/">2013 VIPRPG</a>.</h2>-->
+<script><!--
+var fc2footerparam = 'ver=1'
+    + '&url=' + encodeURIComponent(document.location)
+    + '&service=0'
+    + '&r=' + Math.floor(Math.random() * 99999999999);
+var fc2footertag = "//vip.chps-api.fc2.com/apis/footer/?" + fc2footerparam;
+var script = document.createElement('script');
+script.src = fc2footertag;
+script.charset = "UTF-8";
+script.async = true;
+document.getElementsByTagName('head')[0].appendChild(script);
+//--></script>
+<!-- FC2, inc.-->
+<img src="//media.fc2.com/counter_img.php?id=50" style="display:none" alt="inserted by FC2 system" width="0" height="0">
+<!-- FC2, inc.--></body>
+</html>

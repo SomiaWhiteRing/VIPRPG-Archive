@@ -1,0 +1,27 @@
+{
+  "reviewedAt": "2026-10-16",
+  "scope": "Two source-declared hover images; no replacement image is invented.",
+  "entries": [
+    {
+      "no": "62",
+      "sourceUrl": "http://vipkohaku2013.web.fc2.com/ent/s/s062b.png",
+      "sourceStatus": 404,
+      "exactArchiveInventory": "investigation/hover-62-timemap.bin",
+      "exactArchiveInventoryRows": 0,
+      "directCaptureChecks": ["investigation/hover-62-archive-0.json", "investigation/hover-62-archive-1.json"],
+      "directCaptureStatuses": [404, 404]
+    },
+    {
+      "no": "69",
+      "sourceUrl": "http://vipkohaku2013.web.fc2.com/ent/s/s069b.png",
+      "sourceStatus": 404,
+      "exactArchiveInventory": "investigation/hover-69-timemap.bin",
+      "exactArchiveInventoryRows": 0,
+      "directCaptureChecks": ["investigation/hover-69-archive-0.json", "investigation/hover-69-archive-1.json"],
+      "directCaptureStatuses": [404, 404]
+    }
+  ],
+  "mirrorInventory": "investigation/mirror-timemap.bin",
+  "mirrorInventoryMatches": 0,
+  "decision": "Neither image was recovered from the live source or the checked captures. Keep both gaps documented. The formatted gallery uses available source images; the original view retains each first image and omits only its broken hover handler. This does not establish that no other backup exists."
+}

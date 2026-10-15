@@ -1,0 +1,332 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" dir="ltr">
+<head>
+<title>VIPRPG紅白2013</title>
+<meta http-equiv="X-UA-Compatible" content="IE=emulateIE8" />
+<meta http-equiv="content-type" content="text/html; charset=Shift_JIS" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(function(){
+	var $setFilter = $('#filter'),
+	$setList = $('#filterlist'),
+	$setFilterAll = $('.allitem');
+
+	var showFade = 300,
+	showShut = 300,
+	hideFade = 200,
+	hideShut = 200;
+
+	var $setFilterBtn = $setFilter.children('a'),
+	$setFilterList = $setList.children('ul').children('li'),
+	$filterAllItem = $setFilterAll.attr('class');
+
+	$setFilterBtn.click(function(){
+		if(!($(this).hasClass('active'))){
+			var filterClass = $(this).attr('class');
+			$setFilterList.each(function(){
+				if($(this).hasClass(filterClass)){
+					$(this).css({display:'block'});
+					$(this).find('*').stop().animate({opacity:'1'},showFade);
+					$(this).stop().animate({width:'900px'},showShut);
+				} else {
+					$(this).find('*').stop().animate({opacity:'0'},hideFade);
+					$(this).stop().animate({width:'0'},hideShut,function(){
+						$(this).css({display:'none'});
+					});
+				}
+			});
+			$setFilterBtn.removeClass('active');
+			$(this).addClass('active');
+		}
+	});
+
+	$setFilterAll.click(function(){
+		$setFilterList.each(function(){
+			$(this).css({display:'block'});
+			$(this).find('*').stop().animate({opacity:'1'},showFade);
+			$(this).stop().animate({width:'900px'},showShut);
+		});
+	});
+	$setFilterAll.click();
+});
+</script>
+<!-- タブ  -->
+<script type="text/javascript">
+$(function(){
+	$("a.btn_act").click(function(){
+		var connectCont = $("a.btn_act").index(this);
+		var showCont = connectCont+1;
+		$('.motion').css({display:'none'});
+		$('#motion_area'+(showCont)).fadeIn('fast');
+
+		$('a.btn_act').removeClass('active');
+		$(this).addClass('active');
+	});
+});
+</script>
+
+<style type="text/css">
+a:link { text-decoration:underline; color: #000;}
+a:visited { text-decoration:underline; color: #000;}
+a:active { text-decoration:underline; color: #000;}
+a:hover { text-decoration:none; color: #000;}
+div {padding: 0px 0px 0px 10px;}
+body {margin: 0;}
+
+h1 {margin: 0; background: #F77;	color: #fff;}
+h4 {margin: 0; background: #F77;	color: #fff;}
+
+.motion {width: 800px; display: none;}
+#motion_area1 {display: block;}
+a.active {font-weight: bold; background: #ddd;}
+
+#filterlist table, th, td {border: 1px #000000 solid; border-collapse: collapse;}
+</style>
+
+</head>
+
+<body>
+
+<!-- [FC2 Analyzer] http://analyzer.fc2.com/  -->
+<script language="javascript" src="http://analyzer51.fc2.com/ana/processor.php?uid=2344770" type="text/javascript"></script>
+<noscript><div align="right"><img src="http://analyzer51.fc2.com/ana/icon.php?uid=2344770&ref=&href=&wid=0&hei=0&col=0" /></div></noscript>
+<!-- [FC2 Analyzer]  -->
+
+
+<h1>VIPRPG紅白2013</h1>
+
+<div id="container">
+
+<noscript>
+  このWebサイトの全ての機能を利用するためにはJavaScriptを有効にする必要があります。
+<a href="http://www.enable-javascript.com/ja/" target="_blank">
+あなたのWebブラウザーでJavaScriptを有効にする方法</a>
+を参照してください。
+</noscript>
+
+<div id="menu">
+≫<a href="javascript:void(0);" class="btn_act active">last</a>　　
+≫<a href="javascript:void(0);" class="btn_act">about</a>　　
+≫<a href="javascript:void(0);" class="btn_act">entry</a>　　
+≫<a href="javascript:void(0);" class="btn_act">bbs/link</a>　　　　
+<a href="http://www.netriver.jp/product/" target='_blank'><img src="http://www.netriver.jp/countriver/cntriv.cgi?user=vipkohaku2013&id=001&ptn=15&dig=0"></a>
+<br />
+
+<div id="motion_area1" class="motion">
+<p>
+　　≫<a href="history.txt" target=_blank>history</a><br>
+　　≫<a href="http://yahoo.jp/box/eKCDS7" target=_blank>作品公開所</a><br>
+</p>
+</div><!--/tab_area1-->
+
+<div id="motion_area2" class="motion">
+<p>
+<strong>初めての方へ</strong><br>
+　このサイトは2ちゃんねる　ニュース速報VIP板　RPGツクールスレッド(VIPツクスレ)に関するコンテンツを取り扱ったサイトです。 同所の性質上、当サイト内においても内輪・アングラ・不健全要素を含んでいます。<br>
+　VIPツクスレに初めて訪れる方、書いてあることが良く分からない方は、 閲覧を差し控えるか、半年ほどROMしていただくことを推奨致します。
+</p>
+
+<p>
+<strong>企画概要</strong><br>
+　「VIPRPG紅白2013」は、VIPツクスレで毎年開催されている ツクール作品を公開しあい、感想を付け合うことを目的とした企画です。<br>
+　詳しくはリンクから過去の祭りをご覧ください。
+</p>
+
+<p>
+<strong>投票審査</strong><br>
+　作品公開後、人気投票を行います。<br>
+　各作品ごとに投票ページを設置し、集計結果に基づいて総合順位を決めます。<br>
+　　≫<a href="vote.txt" target="_blank">投票要綱</a><br>
+　　≫<a href="http://enq-maker.com/iSDWbFL" target="_blank">投票サンプルページ</a><br>
+</p>
+
+<p>
+<strong>スケジュール</strong><br>
+<table border="1">
+		<tr><th>エントリー受付</th><td><s>10月12日　～　12月23日 23:59</s></td></tr>
+		<tr><th>作品提出</th><td><s>12月1日　～　12月23日 23:59</s><br>以降の提出は遅刻扱い 遅刻提出は最終更新まで</td></tr>
+		<tr><th>作品公開</th><td><s>12月25日予定</s></td></tr>
+		<tr><th>最終更新日</th><td>2014年1月31日予定</td></tr>
+		<tr><th>投票期間</th><td><s>2013年12月25日　～　2014年1月21日 23:59</s></td></tr>
+		<tr><th>開票</th><td><s>2014年1月22日予定</s></td></tr></table>
+</p>
+</div><!--/tab_area2-->
+
+<div id="motion_area3" class="motion">
+<p>
+<strong>参加</strong><br>
+　参加要綱と参加条件をよく読み、内容に了承した上で、必要事項を記入してメールでエントリーしてください。<br>
+　　≫<a href="entry.txt" target=_blank">参加要綱</a>
+</p>
+
+<p>
+<strong>参加条件</strong><br>
+<ul>
+<li>RPGツクールで作られた自分の作品であること<br>プログラムやWOLF RPGエディターなどで製作されたゲームは参加禁止<br>ただし、RPGツクールに関係したツール作品のエントリーは自己責任で可</li><br>
+<li>エントリーは1人1枠　かつ　提出する作品も1人1つまで<br>1つのzipファイルの中に複数のゲームファイルを封入するのは自己責任で可</li><br>
+<li>未公開作品のみ<br>すでに公開済みである自作品のリメイク品　または<br>未公開の追加要素・変更要素を含む自作品での参加も自己責任で可<br>ただしエントリー後、作品公開日までに未公開部分を公開するのは禁止</li>
+</ul>
+</p>
+
+<p>
+<strong>提出</strong><br>
+　提出受付開始後、作品をzip形式で圧縮し、以下の方法で提出してください。<br>
+　　≫<a href="pres.txt" target=_blank">提出方法</a>
+</p>
+
+<p>
+<strong>修正</strong><br>
+　作品提出後、作品を修正する場合は、以下の方法で修正ファイルをアップしてください。<br>
+　　≫<a href="revise.txt" target=_blank">修正方法</a><br>
+　　≫修正アップローダ　　
+<a href="http://yui.oopsup.com/vipkohaku2013no1/" target=_blank">①</a> / 
+<a href="http://yui.oopsup.com/vipkohaku2013no2/" target=_blank">②</a> / 
+<a href="http://yui.oopsup.com/vipkohaku2013no3/" target=_blank">③</a> /
+<a href="http://yui.oopsup.com/vipkohaku2013no4/" target=_blank">④</a> /
+<a href="http://yui.oopsup.com/vipkohaku2013no5/" target=_blank">⑤</a>
+</p>
+</div><!--/tab_area3-->
+
+<div id="motion_area4" class="motion">
+
+<p>
+<strong>BBS</strong><br>
+　　≫<A href="http://jbbs.livedoor.jp/otaku/16384/" target=_blank>掲示板</a><br>
+　　　運営スレ　サイトの管理運営のための掲示板です。管理人からのお知らせなどを書き込みます。質問や報告などもこちらへどうぞ。<br>
+　　　感想スレ　各作品の専用スレッドがあります。作品の感想を書き込む、攻略・ゲームデータ修正の報告などにご利用ください。<br>
+</p>
+
+<hr>
+
+<p>
+<!--<strong>Link</strong><br>
+<A href="http://www10.atwiki.jp/vip_rpg/" target=_blank><img src="img/wiki.png" width="200" height="40" border="0"></a><br>-->
+</p>
+
+<hr>
+
+<p>
+<strong>BackNumbers</strong><br>
+<A href="http://vipkouhaku05.cs.land.to/" target=_blank><img src="http://vipkouhaku05.cs.land.to/viprpgkouhaku2009-top.png" width="200" height="40" border="0"></a>
+<A href="http://www.geocities.jp/vipkouhaku/" target=_blank><img src="img/vipkohaku_second02.png" width="200" height="40" border="0"></a>
+<A href="http://music.geocities.jp/kouhaku03_01/" target=_blank><img src="img/kouhaku2007.png" width="200" height="40" border="0"></a><br>
+<A href="http://www.geocities.jp/viprpg_kouhaku_2008/" target=_blank><img src="http://vipkouhaku05.cs.land.to/vip2008.png" width="200" height="40" border="0"></a>
+<A href="http://vipkouhaku09.web.fc2.com/" target=_blank><img src="img/2009banner_meza.png" width="200" height="40" border="0"></a>
+<A href="http://www.geocities.jp/vipkohaku2010_1/" target=_blank><img src="img/bnkohaku2010_3.png" width="200" height="40" border="0"></a><br>
+<A href="http://vipkohaku2011.web.fc2.com/" target=_blank><img src="img/bnkohaku2011_2.png" width="200" height="40" border="0"></a>
+<A href="http://vipkh2012.y.ribbon.to/" target=_blank><img src="http://vipkh2012.y.ribbon.to/img/bnkohaku2012_2.png" width="200" height="40" border="0"></a>
+</p>
+
+<hr>
+
+<p>
+<strong>当サイトへのリンク</strong><br>
+　当サイトはリンクフリーです。作品ページだけ抜き出してリンクしていただいても構いません。以下のバナーをご自由にご利用ください。バナーは直リンクも可能です。<br>
+　<br>
+200x40　頂きもの<br />
+<a href="img/bnkohaku2013_2.png" target="_blank"><img src="img/bnkohaku2013_2.png" alt="" width="200" height="40" /></a><br>
+200x40<br />
+<a href="img/bnkohaku2013_1.png" target="_blank"><img src="img/bnkohaku2013_1.png" alt="" width="200" height="40" /></a><br>
+</p>
+
+</div><!--/tab_area4-->
+
+
+</div><!--/menu-->
+
+<hr>
+
+<div>
+作品一覧<br>
+≫<a href="index.html">アイコン</a>　　
+≫<a href="index_t.html">サムネイル</a>　　
+≫<a href="vote_index.html">投票結果</a>　　
+</div>
+
+<div id="motion2_area1" class="motion2">
+<div id="filter">
+<a href="javascript:void(0);" class="allitem"></a>
+<!--/ 
+ -->
+</div>
+
+
+<div id="filterlist">
+
+<div>
+<p>
+総合<br>
+<a href="vote0.html">総合順位</a> | 
+グループ勝敗 | 
+<a href="vote10.html">表彰会場</a>
+</p>
+<p>
+部門別<br>
+単純評価 ： 
+<a href="vote1.html">熱中</a> | 
+<a href="vote2.html">技術</a> | 
+<a href="vote3.html">物語</a> | 
+<a href="vote4.html">演出</a> | 
+<a href="vote5.html">斬新さ</a> | 
+<a href="vote6.html">遊びやすさ</a> | 
+<a href="vote7.html">ワロさ</a> | 
+<a href="vote8.html">ひどさ</a><br>
+相関評価 ： 
+<a href="voteto1.html">熱中</a> | 
+<a href="voteto2.html">技術</a> | 
+<a href="voteto3.html">物語</a> | 
+<a href="voteto4.html">演出</a> | 
+<a href="voteto5.html">斬新さ</a> | 
+<a href="voteto6.html">遊びやすさ</a> | 
+<a href="voteto7.html">ワロさ</a> | 
+<a href="voteto8.html">ひどさ</a><br>
+</p>
+<h2>グループ勝敗</h2>
+</div>
+
+
+
+
+
+
+<div style="font-family:'ＭＳ Ｐゴシック','ＭＳＰゴシック','MSPゴシック','MS Pゴシック';font-size:16px;line-height:18px;" >
+　 　 　 　 　 　 /.::.::.::.::.::.::/.::.,'.:: ／.::.::／.::.::.::.::.::.::.／.::.::.::.::.::.::.::.::.:＼<br>
+　　　　　　　　/.::.::.::.::.::.::.:|.::.:{／:-=≠.::.::.::／.::.:／ /.::.::.::.::.:/|.::.::.::.::.::＼<br>
+　　　　　　　 ,'.::.::.::.::.::.::.::.|／イ.::.::/.::.::.:／´j:／＿/.::.::.::.::.;ｲ:ﾅ.::.::.::l.::＼.:ヽ　　　提出数　　　：<font color="red">紅組 <b>26/38</b></font>　　×　.○　白組 <b>30/37</b><br>
+　　　　　　　.::.::.::.::.::.::.::.::.|:.::.::ヽ.:/.::.::,:ｲ￣,.ｨ行气'ﾚ1.::.:／_j∧.::.::.::.l.::. l ＼}　　 総得点　　　：<font color="red">紅組 <b>3349</b></font>　　　×　○　白組 <b>6468.1</b><br>
+　　　　　　 '.::.::.::.::.::.::.:: /　ﾍ.::./7.::／.::| /孑ﾄｲ　　/／ 7てヾl.::|.::.::|∧|　　　　 .相関総得点：<font color="red">紅組 <b>3654.42</b></font>　×　.○　白組 <b>4895.28</b><br>
+　　　　　　i.::.::.::.::.::.::.::/　 　 Y　ﾚ l.::.::.:l ヾV:::ﾘ　　　　　ﾄ::ﾘ ｲ:∧.:::|<br>
+　　　　　　|.::.::.::.::.::.::/　　　　ヽ （｜.::.::| 　 ¨｀　　 　 　 ゞ'　,'.:|　}.: !<br>
+　　　　　　|.::.::.::.::.::/　　　　　/ヽ=ﾊ.::.::.|　ヽヽ　　　　 ,　 　 {.::|　∨<br>
+　　　　　　| :.::.::.: /　　　　　/.::. /　Vl.::|、　　　　(フ　　. イ.:::l　　　　　　　　　　今年は <b>白組</b> の勝ちだよ！おめでとう！<br>
+　　　　　　|.::.::.: /　　　　／.::xベ、　 ヾ:| 丶､　　 　 ＜l.::. |.::/<br>
+　　　　　　|.::.::.:/ 　　　／::ｌ.::./　　 ｀ ー‐- 、/ ￣　　　 V!::l:/<br>
+　　　　　　|.::.::,ｌ　　 /.:: |:l.::.トー=≠　´￣ ¨￣＼　　　　∨<br>
+　　　　　　|.::.:ｌ 　　/::.:: |:l.:/ 　　　　　　　　　　ヽ＼<br>
+　　　　　　| :.:ｌ　　 |:.::.:: |:l.::| 　　　　 　 /　　　　　',＼<br>
+</div>
+<hr>
+
+</div><!--/filterlist-->
+</div><!--/motion2_area1-->
+
+</div><!--/#container-->
+<!--<h2>COPYPASTE &copy; <a href="http://www10.atwiki.jp/vip_rpg/">2013 VIPRPG</a>.</h2>-->
+<script><!--
+var fc2footerparam = 'ver=1'
+    + '&url=' + encodeURIComponent(document.location)
+    + '&service=0'
+    + '&r=' + Math.floor(Math.random() * 99999999999);
+var fc2footertag = "//vip.chps-api.fc2.com/apis/footer/?" + fc2footerparam;
+var script = document.createElement('script');
+script.src = fc2footertag;
+script.charset = "UTF-8";
+script.async = true;
+document.getElementsByTagName('head')[0].appendChild(script);
+//--></script>
+<!-- FC2, inc.-->
+<img src="//media.fc2.com/counter_img.php?id=50" style="display:none" alt="inserted by FC2 system" width="0" height="0">
+<!-- FC2, inc.--></body>
+</html>

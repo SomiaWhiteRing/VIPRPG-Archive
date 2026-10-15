@@ -1,0 +1,1188 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" dir="ltr"><head>
+<title>VIPRPG紅白2013</title>
+<meta http-equiv="X-UA-Compatible" content="IE=emulateIE8">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta http-equiv="content-style-type" content="text/css">
+<meta http-equiv="content-script-type" content="text/javascript">
+<script type="text/javascript" src="linked/jquery-1.7.1.min.js"></script>
+<script type="text/javascript">
+$(function(){
+	var $setFilter = $('#filter'),
+	$setList = $('#filterlist'),
+	$setFilterAll = $('.allitem');
+
+	var showFade = 300,
+	showShut = 300,
+	hideFade = 200,
+	hideShut = 200;
+
+	var $setFilterBtn = $setFilter.find('a'),
+	$setFilterList = $setList.children('ul').children('li'),
+	$filterAllItem = $setFilterAll.attr('class');
+
+	$setFilterBtn.click(function(){
+		if(!($(this).hasClass('active'))){
+			var filterClass = $(this).attr('class');
+			$setFilterList.each(function(){
+				if($(this).hasClass(filterClass)){
+					$(this).css({display:'block'});
+					$(this).find('*').stop().animate({opacity:'1'},showFade);
+					$(this).stop().animate({width:'900px'},showShut);
+				} else {
+					$(this).find('*').stop().animate({opacity:'0'},hideFade);
+					$(this).stop().animate({width:'0'},hideShut,function(){
+						$(this).css({display:'none'});
+					});
+				}
+			});
+			$setFilterBtn.removeClass('active');
+			$(this).addClass('active');
+		}
+	});
+
+	$setFilterAll.click(function(){
+		$setFilterList.each(function(){
+			$(this).css({display:'block'});
+			$(this).find('*').stop().animate({opacity:'1'},showFade);
+			$(this).stop().animate({width:'900px'},showShut);
+		});
+	});
+	$setFilterAll.click();
+});
+</script>
+<!-- タブ  -->
+<script type="text/javascript">
+$(function(){
+	$("a.btn_act").click(function(){
+		var connectCont = $("a.btn_act").index(this);
+		var showCont = connectCont+1;
+		$('.motion').css({display:'none'});
+		$('#motion_area'+(showCont)).fadeIn('fast');
+
+		$('a.btn_act').removeClass('active');
+		$(this).addClass('active');
+	});
+});
+</script>
+
+
+<script type="text/javascript" src="js/jquery.superbox-min.js"></script>  
+<script type="text/javascript">  
+$.fn.eachsort = function(cb) {
+    return this.each(function(){
+        return $(this).html(
+            $(this).children().sort(cb)
+        );
+    });
+}
+ 
+$(function() {
+ 
+    $('#btn1').click(function() {
+        $("ul").eachsort(function(a, b) {
+            return parseInt($(a).attr('id'), 10) - parseInt($(b).attr('id'), 10);
+        });
+    });
+    $('#btn2').click (function() {
+        $("ul").eachsort(function(a, b) {
+            return parseInt($(a).attr('class'), 10) - parseInt($(b).attr('class'), 10);
+        });
+    });
+});
+</script>
+
+
+
+<style type="text/css">
+a:link { text-decoration:underline; color: #000;}
+a:visited { text-decoration:underline; color: #000;}
+a:active { text-decoration:underline; color: #000;}
+a:hover { text-decoration:none; color: #000;}
+div {padding: 0px 0px 0px 10px;}
+body {margin: 0;}
+
+h1 {margin: 0; background: #F77;	color: #fff;}
+
+.motion {width: 800px; display: none;}
+#motion_area1 {display: block;}
+a.active {font-weight: bold; background: #ddd;}
+
+#filterlist table, th, td {border: 1px #000000 solid; border-collapse: collapse;}
+</style>
+
+</head>
+
+<body>
+
+<!-- [FC2 Analyzer] http://analyzer.fc2.com/  -->
+
+<noscript><div align="right"><img src="http://analyzer51.fc2.com/ana/icon.php?uid=2344770&ref=&href=&wid=0&hei=0&col=0" /></div></noscript>
+<!-- [FC2 Analyzer]  -->
+
+
+<h1>VIPRPG紅白2013</h1>
+
+<div id="container">
+
+<noscript>
+  このWebサイトの全ての機能を利用するためにはJavaScriptを有効にする必要があります。
+<a href="http://www.enable-javascript.com/ja/" target="_blank">
+あなたのWebブラウザーでJavaScriptを有効にする方法</a>
+を参照してください。
+</noscript>
+
+<div id="menu">
+≫<a href="javascript:void(0);" class="btn_act active">last</a>　　
+≫<a href="javascript:void(0);" class="btn_act">about</a>　　
+≫<a href="javascript:void(0);" class="btn_act">entry</a>　　
+≫<a href="javascript:void(0);" class="btn_act">bbs/link</a>　　　　
+<a href="http://www.netriver.jp/product/" target="_blank"></a>
+<br>
+
+<div id="motion_area1" class="motion">
+<p>
+　　≫<a href="history.txt" target="_blank">history</a><br>
+　　≫<a href="http://yahoo.jp/box/eKCDS7" target="_blank">作品公開所</a><br>
+</p>
+</div><!--/tab_area1-->
+
+<div id="motion_area2" class="motion">
+<p>
+<strong>初めての方へ</strong><br>
+　このサイトは2ちゃんねる　ニュース速報VIP板　RPGツクールスレッド(VIPツクスレ)に関するコンテンツを取り扱ったサイトです。 同所の性質上、当サイト内においても内輪・アングラ・不健全要素を含んでいます。<br>
+　VIPツクスレに初めて訪れる方、書いてあることが良く分からない方は、 閲覧を差し控えるか、半年ほどROMしていただくことを推奨致します。
+</p>
+
+<p>
+<strong>企画概要</strong><br>
+　「VIPRPG紅白2013」は、VIPツクスレで毎年開催されている ツクール作品を公開しあい、感想を付け合うことを目的とした企画です。<br>
+　詳しくはリンクから過去の祭りをご覧ください。
+</p>
+
+<p>
+<strong>投票審査</strong><br>
+　作品公開後、人気投票を行います。<br>
+　各作品ごとに投票ページを設置し、集計結果に基づいて総合順位を決めます。<br>
+　　≫<a href="vote.txt" target="_blank">投票要綱</a><br>
+　　≫<a href="http://enq-maker.com/iSDWbFL" target="_blank">投票サンプルページ</a><br>
+</p>
+
+<p>
+<strong>スケジュール</strong><br>
+</p><table border="1">
+		<tbody><tr><th>エントリー受付</th><td><s>10月12日　～　12月23日 23:59</s></td></tr>
+		<tr><th>作品提出</th><td><s>12月1日　～　12月23日 23:59</s><br>以降の提出は遅刻扱い 遅刻提出は最終更新まで</td></tr>
+		<tr><th>作品公開</th><td><s>12月25日予定</s></td></tr>
+		<tr><th>最終更新日</th><td>2014年1月31日予定</td></tr>
+		<tr><th>投票期間</th><td><s>2013年12月25日　～　2014年1月21日 23:59</s></td></tr>
+		<tr><th>開票</th><td><s>2014年1月22日予定</s></td></tr></tbody></table>
+<p></p>
+</div><!--/tab_area2-->
+
+<div id="motion_area3" class="motion">
+<p>
+<strong>参加</strong><br>
+　参加要綱と参加条件をよく読み、内容に了承した上で、必要事項を記入してメールでエントリーしてください。<br>
+　　≫<a href="entry.txt" target="_blank&quot;">参加要綱</a>
+</p>
+
+<p>
+<strong>参加条件</strong><br>
+</p><ul>
+<li>RPGツクールで作られた自分の作品であること<br>プログラムやWOLF RPGエディターなどで製作されたゲームは参加禁止<br>ただし、RPGツクールに関係したツール作品のエントリーは自己責任で可</li><br>
+<li>エントリーは1人1枠　かつ　提出する作品も1人1つまで<br>1つのzipファイルの中に複数のゲームファイルを封入するのは自己責任で可</li><br>
+<li>未公開作品のみ<br>すでに公開済みである自作品のリメイク品　または<br>未公開の追加要素・変更要素を含む自作品での参加も自己責任で可<br>ただしエントリー後、作品公開日までに未公開部分を公開するのは禁止</li>
+</ul>
+<p></p>
+
+<p>
+<strong>提出</strong><br>
+　提出受付開始後、作品をzip形式で圧縮し、以下の方法で提出してください。<br>
+　　≫<a href="pres.txt" target="_blank&quot;">提出方法</a>
+</p>
+
+<p>
+<strong>修正</strong><br>
+　作品提出後、作品を修正する場合は、以下の方法で修正ファイルをアップしてください。<br>
+　　≫<a href="revise.txt" target="_blank&quot;">修正方法</a><br>
+　　≫修正アップローダ　　
+<a href="http://yui.oopsup.com/vipkohaku2013no1/" target="_blank&quot;">①</a> / 
+<a href="http://yui.oopsup.com/vipkohaku2013no2/" target="_blank&quot;">②</a> / 
+<a href="http://yui.oopsup.com/vipkohaku2013no3/" target="_blank&quot;">③</a> /
+<a href="http://yui.oopsup.com/vipkohaku2013no4/" target="_blank&quot;">④</a> /
+<a href="http://yui.oopsup.com/vipkohaku2013no5/" target="_blank&quot;">⑤</a>
+</p>
+</div><!--/tab_area3-->
+
+<div id="motion_area4" class="motion">
+
+<p>
+<strong>BBS</strong><br>
+　　≫<a href="http://jbbs.livedoor.jp/otaku/16384/" target="_blank">掲示板</a><br>
+　　　運営スレ　サイトの管理運営のための掲示板です。管理人からのお知らせなどを書き込みます。質問や報告などもこちらへどうぞ。<br>
+　　　感想スレ　各作品の専用スレッドがあります。作品の感想を書き込む、攻略・ゲームデータ修正の報告などにご利用ください。<br>
+</p>
+
+<hr>
+
+<p>
+<!--<strong>Link</strong><br>
+<A href="http://www10.atwiki.jp/vip_rpg/" target=_blank><img src="img/wiki.png" width="200" height="40" border="0"></a><br>-->
+</p>
+
+<hr>
+
+<p>
+<strong>BackNumbers</strong><br>
+<a href="http://vipkouhaku05.cs.land.to/" target="_blank"><img src="linked/kouhaku2005.png" width="200" height="40" border="0"></a>
+<a href="http://www.geocities.jp/vipkouhaku/" target="_blank"><img src="img/vipkohaku_second02.png" width="200" height="40" border="0"></a>
+<a href="http://music.geocities.jp/kouhaku03_01/" target="_blank"><img src="img/kouhaku2007.png" width="200" height="40" border="0"></a><br>
+<a href="http://www.geocities.jp/viprpg_kouhaku_2008/" target="_blank"><img src="linked/kouhaku2008.png" width="200" height="40" border="0"></a>
+<a href="http://vipkouhaku09.web.fc2.com/" target="_blank"><img src="img/2009banner_meza.png" width="200" height="40" border="0"></a>
+<a href="http://www.geocities.jp/vipkohaku2010_1/" target="_blank"><img src="img/bnkohaku2010_3.png" width="200" height="40" border="0"></a><br>
+<a href="http://vipkohaku2011.web.fc2.com/" target="_blank"><img src="img/bnkohaku2011_2.png" width="200" height="40" border="0"></a>
+<a href="http://vipkh2012.y.ribbon.to/" target="_blank"><img src="http://vipkh2012.y.ribbon.to/img/bnkohaku2012_2.png" width="200" height="40" border="0"></a>
+</p>
+
+<hr>
+
+<p>
+<strong>当サイトへのリンク</strong><br>
+　当サイトはリンクフリーです。作品ページだけ抜き出してリンクしていただいても構いません。以下のバナーをご自由にご利用ください。バナーは直リンクも可能です。<br>
+　<br>
+200x40　頂きもの<br>
+<a href="img/bnkohaku2013_2.png" target="_blank"><img src="img/bnkohaku2013_2.png" alt="" width="200" height="40"></a><br>
+200x40<br>
+<a href="img/bnkohaku2013_1.png" target="_blank"><img src="img/bnkohaku2013_1.png" alt="" width="200" height="40"></a><br>
+</p>
+
+</div><!--/tab_area4-->
+
+
+</div><!--/menu-->
+
+<hr>
+
+<div>
+作品一覧<br>
+≫<a href="index.html">アイコン</a>　　
+≫<a href="index_t.html">サムネイル</a>　　
+≫<a href="vote_index.html">投票結果</a>　　
+</div>
+
+<div id="motion2_area1" class="motion2">
+<div id="filter">
+<a href="javascript:void(0);" class="allitem"></a>
+<!--/ 
+ -->
+</div>
+
+
+<div id="filterlist">
+
+<div>
+<p>
+総合<br>
+<a href="vote0.html">総合順位</a> | 
+<a href="vote9.html">グループ勝敗</a> | 
+<a href="vote10.html">表彰会場</a>
+</p>
+<p>
+部門別<br>
+単純評価 ： 
+<a href="vote1.html">熱中</a> | 
+<a href="vote2.html">技術</a> | 
+<a href="vote3.html">物語</a> | 
+<a href="vote4.html">演出</a> | 
+<a href="vote5.html">斬新さ</a> | 
+<a href="vote6.html">遊びやすさ</a> | 
+<a href="vote7.html">ワロさ</a> | 
+<a href="vote8.html">ひどさ</a><br>
+相関評価 ： 
+<a href="voteto1.html">熱中</a> | 
+<a href="voteto2.html">技術</a> | 
+<a href="voteto3.html">物語</a> | 
+<a href="voteto4.html">演出</a> | 
+<a href="voteto5.html">斬新さ</a> | 
+遊びやすさ | 
+<a href="voteto7.html">ワロさ</a> | 
+<a href="voteto8.html">ひどさ</a><br>
+</p>
+<p>
+<button id="btn2" class="">上位順</button>
+<button id="btn1" class="">No昇順</button>
+</p>
+<h2>遊びやすさ部門（相関評価）</h2>
+</div>
+
+<ul>
+
+
+<li>
+<table border="1" width="900" bgcolor="#dddddd" class="gray"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc">順位</td>
+<td width="16" bgcolor="#000000"></td>
+<td width="32" bgcolor="#000000"></td>
+<td width="50">No.<br></td>
+<td>作品タイトル</td>
+<td width="30"></td>
+<td width="100" bgcolor="#dcdcdc">（小計/投票数）<br>順位点</td>
+<td width="100" bgcolor="#dcdcdc">（平均値）<br>順位点</td>
+<td width="70" bgcolor="#dcdcdc">合計点</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="6" class="1">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>1</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i006.png" alt="" width="32" height="32"></td>
+<td width="50">No.6<br>2000</td>
+<td><a href="ent/6.html" target="_self">★アリスの標本箱</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1381603483/" target="_blank">BBS</a><br><a href="http://enq-maker.com/11hY0jB" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（96/56）<br><b>2</b>位：<b>20</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（1.71）<br><b>1</b>位：<b>40</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>61.71</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="47" class="2">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>2</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i047.png" alt="" width="32" height="32"></td>
+<td width="50">No.47<br>2000</td>
+<td><a href="ent/47.html" target="_self">★ルインシーカー -寂しがりやのカタコンベ-</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1386574623/" target="_blank">BBS</a><br><a href="http://enq-maker.com/3wmqKVJ" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（49/30）<br><b>8</b>位：<b>17</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（1.63）<br><b>2</b>位：<b>40</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>58.63</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="3" class="3">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>3</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i003.png" alt="" width="32" height="32"></td>
+<td width="50">No.3<br>2000</td>
+<td><a href="ent/3.html" target="_self">★RPGツクール the run </a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1381547497/" target="_blank">BBS</a><br><a href="http://enq-maker.com/a4GnH5O" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（36/23）<br><b>11</b>位：<b>15</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（1.57）<br><b>4</b>位：<b>38</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>54.57</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="48" class="4">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>4</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i048.png" alt="" width="32" height="32"></td>
+<td width="50">No.48<br>2000</td>
+<td><a href="ent/48.html" target="_self">★年末謝罪大戦</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1386574662/" target="_blank">BBS</a><br><a href="http://enq-maker.com/7OOIwW8" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（70/47）<br><b>4</b>位：<b>19</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（1.49）<br><b>7</b>位：<b>34</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>54.49</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="18" class="5">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>5</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i018.png" alt="" width="32" height="32"></td>
+<td width="50">No.18<br>2000</td>
+<td><a href="ent/18.html" target="_self">★Memory of Moshimo</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1383474982/" target="_blank">BBS</a><br><a href="http://enq-maker.com/a6B6vrx" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（54/38）<br><b>6</b>位：<b>18</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（1.42）<br><b>8</b>位：<b>34</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>53.42</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="72" class="6">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>6</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i072.png" alt="" width="32" height="32"></td>
+<td width="50">No.72<br>2000</td>
+<td><a href="ent/72.html" target="_self">★クッキーのクッキー☆</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387863944/" target="_blank">BBS</a><br><a href="http://enq-maker.com/biJ3HT6" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（198/140）<br><b>1</b>位：<b>20</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（1.41）<br><b>9</b>位：<b>32</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>53.41</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="65" class="7">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>7</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i065.gif" alt="" width="32" height="32"></td>
+<td width="50">No.65<br>2000</td>
+<td><a href="ent/65.html" target="_self">★釣りックス</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387863497/" target="_blank">BBS</a><br><a href="http://enq-maker.com/5gcy70W" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（33/22）<br><b>13</b>位：<b>13</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（1.5）<br><b>5</b>位：<b>36</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>50.5</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="4" class="8">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>8</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i004.png" alt="" width="32" height="32"></td>
+<td width="50">No.4<br>2000</td>
+<td><a href="ent/4.html" target="_self">★カスタムバトエン -mosimo-</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1381547530/" target="_blank">BBS</a><br><a href="http://enq-maker.com/fdNAuK0" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（73/54）<br><b>3</b>位：<b>19</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（1.35）<br><b>12</b>位：<b>28</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>48.35</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="61" class="9">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>9</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i061.png" alt="" width="32" height="32"></td>
+<td width="50">No.61<br>2000</td>
+<td><a href="ent/61.html" target="_self">★魔王の娘でも分かる心理学</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387718212/" target="_blank">BBS</a><br><a href="http://enq-maker.com/g1sxgMi" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（39/28）<br><b>10</b>位：<b>15</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（1.39）<br><b>10</b>位：<b>30</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>46.39</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="42" class="10">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>10</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/miru.png" alt="" width="32" height="32"></td>
+<td width="50">No.42<br>2000</td>
+<td><a href="ent/42.html" target="_self">★もしもアイスⅢが母親だったら</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1386574308/" target="_blank">BBS</a><br><a href="http://enq-maker.com/hwyCqxq" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（29/21）<br><b>15</b>位：<b>12</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（1.38）<br><b>11</b>位：<b>30</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>43.38</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="28" class="11">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>11</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i028.png" alt="" width="32" height="32"></td>
+<td width="50">No.28<br>2000</td>
+<td><a href="ent/28.html" target="_self">★逆転ザック</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1385019877/" target="_blank">BBS</a><br><a href="http://enq-maker.com/dfPAjzr" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（65/49）<br><b>5</b>位：<b>18</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（1.33）<br><b>15</b>位：<b>24</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>43.33</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="68" class="12">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>12</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i068.png" alt="" width="32" height="32"></td>
+<td width="50">No.68<br>2000</td>
+<td><a href="ent/68.html" target="_self">★AleBr</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387863772/" target="_blank">BBS</a><br><a href="http://enq-maker.com/BiJ2HV" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（50/38）<br><b>7</b>位：<b>17</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（1.32）<br><b>16</b>位：<b>22</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>40.32</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="64" class="13">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>13</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i064.png" alt="" width="32" height="32"></td>
+<td width="50">No.64<br>2000</td>
+<td><a href="ent/64.html" target="_self">★Angel゜Hal0</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387779596/" target="_blank">BBS</a><br><a href="http://enq-maker.com/2yGa1EA" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（8/5）<br><b>35</b>位：<b>0</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（1.6）<br><b>3</b>位：<b>38</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>39.6</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="38" class="14">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>14</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/rpg.png" alt="" width="32" height="32"></td>
+<td width="50">No.38<br>2000</td>
+<td><a href="ent/38.html" target="_self">★オクデッド</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1386280501/" target="_blank">BBS</a><br><a href="http://enq-maker.com/7X1qIBh" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（6/4）<br><b>40</b>位：<b>0</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（1.5）<br><b>5</b>位：<b>36</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>37.5</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="8" class="15">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>15</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i008.png" alt="" width="32" height="32"></td>
+<td width="50">No.8<br>2000</td>
+<td><a href="ent/8.html" target="_self">★無双庫番</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1381603607/" target="_blank">BBS</a><br><a href="http://enq-maker.com/cgQz5b1" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（24/18）<br><b>20</b>位：<b>8</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（1.33）<br><b>13</b>位：<b>26</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>35.33</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="43" class="16">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>16</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i043.png" alt="" width="32" height="32"></td>
+<td width="50">No.43<br>2000</td>
+<td><a href="ent/43.html" target="_self">★もしも死神五世と・・・</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1386574378/" target="_blank">BBS</a><br><a href="http://enq-maker.com/f2ijozS" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（33/26）<br><b>13</b>位：<b>13</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（1.27）<br><b>17</b>位：<b>20</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>34.27</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="5" class="17">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>17</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i005.png" alt="" width="32" height="32"></td>
+<td width="50">No.5<br>2000</td>
+<td><a href="ent/5.html" target="_self">★ヴァンパイアⅡ  -DOMINION-</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1381547562/" target="_blank">BBS</a><br><a href="http://enq-maker.com/3VALtxK" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（34/28）<br><b>12</b>位：<b>14</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（1.21）<br><b>20</b>位：<b>16</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>31.21</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="75" class="18">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>18</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i075.png" alt="" width="32" height="32"></td>
+<td width="50">No.75<br>2000</td>
+<td><a href="ent/75.html" target="_self">★カニ爆</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387864127/" target="_blank">BBS</a><br><a href="http://enq-maker.com/fum2ZOG" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（12/9）<br><b>29</b>位：<b>2</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（1.33）<br><b>13</b>位：<b>26</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>29.33</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="55" class="19">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>19</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i055.png" alt="" width="32" height="32"></td>
+<td width="50">No.55<br>2000</td>
+<td><a href="ent/55.html" target="_self">★娘様のジャンプアクション</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387479127/" target="_blank">BBS</a><br><a href="http://enq-maker.com/7mgx54j" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（27/22）<br><b>17</b>位：<b>10</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（1.23）<br><b>19</b>位：<b>18</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>29.23</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="69" class="20">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>20</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i069.png" alt="" width="32" height="32"></td>
+<td width="50">No.69<br>2000</td>
+<td><a href="ent/69.html" target="_self">★図書館探索ゲェム</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387863816/" target="_blank">BBS</a><br><a href="http://enq-maker.com/6JTDfZ2" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（46/39）<br><b>9</b>位：<b>16</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（1.18）<br><b>23</b>位：<b>12</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>29.18</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="66" class="21">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>21</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i066.png" alt="" width="32" height="32"></td>
+<td width="50">No.66<br>2000</td>
+<td><a href="ent/66.html" target="_self">★フレイミングリターンズ（旧題：炎の他宅警備員）</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387863531/" target="_blank">BBS</a><br><a href="http://enq-maker.com/a9xluKU" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（26/22）<br><b>19</b>位：<b>9</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（1.18）<br><b>21</b>位：<b>14</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>24.18</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="51" class="22">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>22</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i051.png" alt="" width="32" height="32"></td>
+<td width="50">No.51<br>2000</td>
+<td><a href="ent/51.html" target="_self">★イクゾーダス</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387190251/" target="_blank">BBS</a><br><a href="http://enq-maker.com/98mTuqV" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（29/26）<br><b>15</b>位：<b>12</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（1.12）<br><b>26</b>位：<b>8</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>21.12</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="62" class="23">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>23</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i062.png" alt="" width="32" height="32"></td>
+<td width="50">No.62<br>2000</td>
+<td><a href="ent/62.html" target="_self">★あんこくのみらいで</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387779507/" target="_blank">BBS</a><br><a href="http://enq-maker.com/be15B6h" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（5/4）<br><b>42</b>位：<b>0</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（1.25）<br><b>18</b>位：<b>18</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>19.25</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="13" class="24">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>24</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i013.png" alt="" width="32" height="32"></td>
+<td width="50">No.13<br>2000</td>
+<td><a href="ent/13.html" target="_self">★ドラ子かわいい</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1382264393/" target="_blank">BBS</a><br><a href="http://enq-maker.com/1bPC0LK" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（27/24）<br><b>17</b>位：<b>10</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（1.13）<br><b>25</b>位：<b>8</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>19.13</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="12" class="25">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>25</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2003.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i012.png" alt="" width="32" height="32"></td>
+<td width="50">No.12<br>2003</td>
+<td><a href="ent/12.html" target="_self">★Re:Birthible</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1382155198/" target="_blank">BBS</a><br><a href="http://enq-maker.com/enPSwhG" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（21/18）<br><b>21</b>位：<b>7</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（1.17）<br><b>24</b>位：<b>10</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>18.17</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="52" class="26">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>26</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i052.png" alt="" width="32" height="32"></td>
+<td width="50">No.52<br>2000</td>
+<td><a href="ent/52.html" target="_self">★同じ色の物体が４つほどくっつくと消えるバグを搭載したゲーム</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387479018/" target="_blank">BBS</a><br><a href="http://enq-maker.com/1ItciEb" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（13/11）<br><b>28</b>位：<b>2</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（1.18）<br><b>21</b>位：<b>14</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>17.18</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="49" class="27">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>27</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i049.png" alt="" width="32" height="32"></td>
+<td width="50">No.49<br>2000</td>
+<td><a href="ent/49.html" target="_self">★又吉議員物語</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1386653625/" target="_blank">BBS</a><br><a href="http://enq-maker.com/31WjwB3" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（20/18）<br><b>22</b>位：<b>6</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（1.11）<br><b>27</b>位：<b>6</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>13.11</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="33" class="28">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>28</b>位</td>
+<td width="16" bgcolor="#000000"><img src="restricted/33-icon.svg" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="restricted/33-icon.svg" alt="" width="32" height="32"></td>
+<td width="50">No.33<br>2000</td>
+<td><a href="ent/33.html" target="_self">★デス蜜柑</a></td>
+<td width="30">非表示<br>非表示</td>
+<td width="100" bgcolor="#dcdcdc">（15/15）<br><b>26</b>位：<b>4</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（1）<br><b>29</b>位：<b>4</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>9</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="44" class="29">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>29</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i044.png" alt="" width="32" height="32"></td>
+<td width="50">No.44<br>2000</td>
+<td><a href="ent/44.html" target="_self">★玉露日記</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1386574423/" target="_blank">BBS</a><br><a href="http://enq-maker.com/7OBawuH" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（12/12）<br><b>29</b>位：<b>2</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（1）<br><b>29</b>位：<b>4</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>7</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="24" class="30">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>30</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i024.png" alt="" width="32" height="32"></td>
+<td width="50">No.24<br>2000</td>
+<td><a href="ent/24.html" target="_self">★わてり☆初体験 </a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1384410707/" target="_blank">BBS</a><br><a href="http://enq-maker.com/dsyKuWh" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（20/27）<br><b>22</b>位：<b>6</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（0.74）<br><b>40</b>位：<b>0</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>6.74</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="32" class="31">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>31</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/yaru.png" alt="" width="32" height="32"></td>
+<td width="50">No.32<br>2000</td>
+<td><a href="ent/32.html" target="_self">★なすーんが脱出するみたいなもの</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1385532776/" target="_blank">BBS</a><br><a href="http://enq-maker.com/h0Xc5x1" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（17/18）<br><b>24</b>位：<b>5</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（0.94）<br><b>35</b>位：<b>0</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>5.94</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="27" class="32">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>32</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i027.png" alt="" width="32" height="32"></td>
+<td width="50">No.27<br>2000</td>
+<td><a href="ent/27.html" target="_self">★紅白踏み台合戦</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1384868354/" target="_blank">BBS</a><br><a href="http://enq-maker.com/2B5XITq" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（11/10）<br><b>32</b>位：<b>0</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（1.1）<br><b>28</b>位：<b>4</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>5.1</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="25" class="33">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>33</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i025.png" alt="" width="32" height="32"></td>
+<td width="50">No.25<br>2000</td>
+<td><a href="ent/25.html" target="_self">★もしもの宇宙戦争</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1384537012/" target="_blank">BBS</a><br><a href="http://enq-maker.com/5WHBNId" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（10/10）<br><b>33</b>位：<b>0</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（1）<br><b>29</b>位：<b>4</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>5</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="29" class="33">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>33</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i029.png" alt="" width="32" height="32"></td>
+<td width="50">No.29<br>2000</td>
+<td><a href="ent/29.html" target="_self">★ミリィのドタバタな日常</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1385125188/" target="_blank">BBS</a><br><a href="http://enq-maker.com/1IzrqW6" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（7/7）<br><b>38</b>位：<b>0</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（1）<br><b>29</b>位：<b>4</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>5</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="22" class="33">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>33</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i022.png" alt="" width="32" height="32"></td>
+<td width="50">No.22<br>2000</td>
+<td><a href="ent/22.html" target="_self">★R-Ⅱ The batter </a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1383481367/" target="_blank">BBS</a><br><a href="http://enq-maker.com/bzqgAjH" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（8/8）<br><b>35</b>位：<b>0</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（1）<br><b>29</b>位：<b>4</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>5</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="46" class="33">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>33</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/yaru.png" alt="" width="32" height="32"></td>
+<td width="50">No.46<br>2000</td>
+<td><a href="ent/46.html" target="_self">★もしも時を越えて（disk2</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1386574520/" target="_blank">BBS</a><br><a href="http://enq-maker.com/1rBxSIz" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（3/3）<br><b>47</b>位：<b>0</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（1）<br><b>29</b>位：<b>4</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>5</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="37" class="37">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>37</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i037.png" alt="" width="32" height="32"></td>
+<td width="50">No.37<br>2000</td>
+<td><a href="ent/37.html" target="_self">★ブームズショウユキャンプ </a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1385990264/" target="_blank">BBS</a><br><a href="http://enq-maker.com/a4HDPpO" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（15/16）<br><b>26</b>位：<b>4</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（0.94）<br><b>36</b>位：<b>0</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>4.94</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="56" class="38">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>38</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i056.png" alt="" width="32" height="32"></td>
+<td width="50">No.56<br>2000</td>
+<td><a href="ent/56.html" target="_self">★超日本列島とらべる絵草紙</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387479162/" target="_blank">BBS</a><br><a href="http://enq-maker.com/5HIH6QT" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（16/19）<br><b>25</b>位：<b>4</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（0.84）<br><b>37</b>位：<b>0</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>4.84</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="26" class="39">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>39</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i026.png" alt="" width="32" height="32"></td>
+<td width="50">No.26<br>2000</td>
+<td><a href="ent/26.html" target="_self">★VIPRPG OP</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1384694952/" target="_blank">BBS</a><br><a href="http://enq-maker.com/3MWBc4l" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（12/19）<br><b>29</b>位：<b>2</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（0.63）<br><b>43</b>位：<b>0</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>2.63</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="36" class="40">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>40</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i036.png" alt="" width="32" height="32"></td>
+<td width="50">No.36<br>2000</td>
+<td><a href="ent/36.html" target="_self">★ゴメスのあなから</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1385990218/" target="_blank">BBS</a><br><a href="http://enq-maker.com/1yUOAd7" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（9/11）<br><b>34</b>位：<b>0</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（0.82）<br><b>38</b>位：<b>0</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>0.82</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="53" class="41">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>41</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/miru.png" alt="" width="32" height="32"></td>
+<td width="50">No.53<br>2000</td>
+<td><a href="ent/53.html" target="_self">★2013年新キャラ総決算</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387479067/" target="_blank">BBS</a><br><a href="http://enq-maker.com/gOc0FhR" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（8/10）<br><b>35</b>位：<b>0</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（0.8）<br><b>39</b>位：<b>0</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>0.8</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="34" class="42">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>42</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i034.png" alt="" width="32" height="32"></td>
+<td width="50">No.34<br>2000</td>
+<td><a href="ent/34.html" target="_self">★包丁とデュラハン</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1385990126/" target="_blank">BBS</a><br><a href="http://enq-maker.com/2t4jEwd" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（7/10）<br><b>38</b>位：<b>0</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（0.7）<br><b>41</b>位：<b>0</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>0.7</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="57" class="43">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>43</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i057.png" alt="" width="32" height="32"></td>
+<td width="50">No.57<br>2000</td>
+<td><a href="ent/57.html" target="_self">★もしも全自作音楽でダークアーディス掌編だったら</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387479194/" target="_blank">BBS</a><br><a href="http://enq-maker.com/RM4A0S" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（4/6）<br><b>44</b>位：<b>0</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（0.67）<br><b>42</b>位：<b>0</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>0.67</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="23" class="44">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>44</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i023.png" alt="" width="32" height="32"></td>
+<td width="50">No.23<br>2000</td>
+<td><a href="ent/23.html" target="_self">★もしも新キャララッシュだったら</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1383475243/" target="_blank">BBS</a><br><a href="http://enq-maker.com/4cltHsP" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（3/5）<br><b>47</b>位：<b>0</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（0.6）<br><b>44</b>位：<b>0</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>0.6</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="59" class="44">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>44</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i059.png" alt="" width="32" height="32"></td>
+<td width="50">No.59<br>2000</td>
+<td><a href="ent/59.html" target="_self">★闇Ⅰハロウィン</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387644175/" target="_blank">BBS</a><br><a href="http://enq-maker.com/3xnQFS6" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（3/5）<br><b>47</b>位：<b>0</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（0.6）<br><b>44</b>位：<b>0</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>0.6</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="41" class="46">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>46</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i041.png" alt="" width="32" height="32"></td>
+<td width="50">No.41<br>2000</td>
+<td><a href="ent/41.html" target="_self">★偽エルと水産のラブラブデート</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1386280635/" target="_blank">BBS</a><br><a href="http://enq-maker.com/8v2SASw" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（5/9）<br><b>42</b>位：<b>0</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（0.56）<br><b>46</b>位：<b>0</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>0.56</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="15" class="47">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>47</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i015.png" alt="" width="32" height="32"></td>
+<td width="50">No.15<br>2000</td>
+<td><a href="ent/15.html" target="_self">★闇勇者の過去</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1382798532/" target="_blank">BBS</a><br><a href="http://enq-maker.com/cy8Ltum" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（1/2）<br><b>52</b>位：<b>0</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（0.5）<br><b>47</b>位：<b>0</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>0.5</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="40" class="47">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>47</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i040.jpg" alt="" width="32" height="32"></td>
+<td width="50">No.40<br>2000</td>
+<td><a href="ent/40.html" target="_self">★キュア・プラムス</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1386280594/" target="_blank">BBS</a><br><a href="http://enq-maker.com/9sVCsOJ" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（4/8）<br><b>44</b>位：<b>0</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（0.5）<br><b>47</b>位：<b>0</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>0.5</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="54" class="47">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>47</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/VX.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i054.png" alt="" width="32" height="32"></td>
+<td width="50">No.54<br>VX</td>
+<td><a href="ent/54.html" target="_self">★セイブ・ザ・ロード</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387479097/" target="_blank">BBS</a><br><a href="http://enq-maker.com/dfZAfV5" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（2/4）<br><b>50</b>位：<b>0</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（0.5）<br><b>47</b>位：<b>0</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>0.5</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="58" class="50">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>50</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i058.png" alt="" width="32" height="32"></td>
+<td width="50">No.58<br>2000</td>
+<td><a href="ent/58.html" target="_self">★ksg流しそうめん</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387642110/" target="_blank">BBS</a><br><a href="http://enq-maker.com/h9PhYdD" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（6/13）<br><b>40</b>位：<b>0</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（0.46）<br><b>50</b>位：<b>0</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>0.46</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="70" class="51">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>51</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i070.png" alt="" width="32" height="32"></td>
+<td width="50">No.70<br>2000</td>
+<td><a href="ent/70.html" target="_self">★核にゃんの魔法牧場</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387863854/" target="_blank">BBS</a><br><a href="http://enq-maker.com/ePwqqa3" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（4/9）<br><b>44</b>位：<b>0</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（0.44）<br><b>51</b>位：<b>0</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>0.44</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="45" class="52">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>52</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i045.png" alt="" width="32" height="32"></td>
+<td width="50">No.45<br>2000</td>
+<td><a href="ent/45.html" target="_self">★西脳</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1386574465/" target="_blank">BBS</a><br><a href="http://enq-maker.com/cExNzSe" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（2/7）<br><b>50</b>位：<b>0</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（0.29）<br><b>52</b>位：<b>0</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>0.29</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="16" class="53">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>53</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/VXAce.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i016.gif" alt="" width="32" height="32"></td>
+<td width="50">No.16<br>VXAce</td>
+<td><a href="ent/16.html" target="_self">★霊波乃科学</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1383054784/" target="_blank">BBS</a><br><a href="http://enq-maker.com/hsVXxrG" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（0/3）<br><b>53</b>位：<b>0</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（0）<br><b>53</b>位：<b>0</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>0</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="73" class="53">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>53</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i073.gif" alt="" width="32" height="32"></td>
+<td width="50">No.73<br>2000</td>
+<td><a href="ent/73.html" target="_self">★俺がtkったアクションホコグラ素材集2013～年末年始やらないか大バーゲン～</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1387864045/" target="_blank">BBS</a><br><a href="http://enq-maker.com/d5oFubP" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（0/4）<br><b>53</b>位：<b>0</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（0）<br><b>53</b>位：<b>0</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>0</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="35" class="53">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>53</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/XP.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/yaru.png" alt="" width="32" height="32"></td>
+<td width="50">No.35<br>XP</td>
+<td><a href="ent/35.html" target="_self">★北の宿から。</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1385990182/" target="_blank">BBS</a><br><a href="http://enq-maker.com/agHAwzC" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（0/2）<br><b>53</b>位：<b>0</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（0）<br><b>53</b>位：<b>0</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>0</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+<li id="14" class="53">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tbody><tr>
+<td width="50" bgcolor="#dcdcdc"><b>53</b>位</td>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32"></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i014.png" alt="" width="32" height="32"></td>
+<td width="50">No.14<br>2000</td>
+<td><a href="ent/14.html" target="_self">★もしもサバイバーズ</a></td>
+<td width="30"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1382745687/" target="_blank">BBS</a><br><a href="http://enq-maker.com/d9QUBsO" target="_blank">結果</a></td>
+<td width="100" bgcolor="#dcdcdc">（0/2）<br><b>53</b>位：<b>0</b>pt</td>
+<td width="100" bgcolor="#dcdcdc">（0）<br><b>53</b>位：<b>0</b>pt</td>
+<td width="70" bgcolor="#dcdcdc"><b>0</b>pt</td>
+</tr></tbody></table>
+</li>
+
+ 
+
+</ul>
+</div><!--/filterlist-->
+</div><!--/motion2_area1-->
+
+</div><!--/#container-->
+<!--<h2>COPYPASTE &copy; <a href="http://www10.atwiki.jp/vip_rpg/">2013 VIPRPG</a>.</h2>-->
+
+<!-- FC2, inc.-->
+
+<!-- FC2, inc.-->
+
+</body></html>

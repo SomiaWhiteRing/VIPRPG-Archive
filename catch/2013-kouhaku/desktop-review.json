@@ -1,0 +1,116 @@
+{
+  "reviewedAt": "2026-10-16",
+  "scope": "Desktop only",
+  "dataSha256": "45cf501e7039f89672be561808c276eabbc18241c58625978651ac1078f5357e",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "width": 1280,
+      "height": 900
+    }
+  ],
+  "catalogue": {
+    "rows": 76,
+    "sourceDetails": 75,
+    "restrictedTemplates": 1,
+    "sampleAdded": "0",
+    "sourceStatusStarNotPartOfTitle": true
+  },
+  "source": {
+    "metadataValues": 303,
+    "authorComments": 75,
+    "hostComments": 75,
+    "iconReferences": 75,
+    "screenshotsRecovered": 115,
+    "declaredScreenshotReferences": 117,
+    "unrecoveredHoverNumbers": [
+      "62",
+      "69"
+    ],
+    "downloadLinks": 78,
+    "patchWorkCount": 20,
+    "forumLinks": 74,
+    "inlineCommentImage": {
+      "number": "21",
+      "natural": [
+        32,
+        32
+      ]
+    }
+  },
+  "images": {
+    "formatted": 189,
+    "original": 250,
+    "allDecoded": true,
+    "originalNeutralSvgCount": 2
+  },
+  "routes": {
+    "total": 76,
+    "status200": 76
+  },
+  "original": {
+    "files": 355,
+    "htmlPages": 98,
+    "jqueryVersion": "1.7.1",
+    "jqueryCachedLocally": true,
+    "externalBannersRecovered": 3,
+    "tabs": true,
+    "redFilterVisible": 38,
+    "allFilterRestored": 76,
+    "filterCompatibilityFix": "The original filter links are wrapped in a paragraph; bind descendant links instead of immediate children.",
+    "localEntryLinksNavigateInFrame": true,
+    "sourceTargetBlankAdaptedForSandbox": true,
+    "missingHoverRetainsFirstImage": {
+      "numbers": [
+        "62",
+        "69"
+      ],
+      "firstImage": [
+        640,
+        480
+      ],
+      "brokenHandlersRemoved": true
+    }
+  },
+  "restricted33": {
+    "catalogueRow": true,
+    "formattedDetail": true,
+    "originalDetailTables": 3,
+    "fixedNeutralDescriptions": true,
+    "neutralIconAndScreenshot": true,
+    "downloadPatchForumAndSourceLinksOmitted": true,
+    "rawMediaNotPublished": true
+  },
+  "gallery": {
+    "sample": "0",
+    "next": true,
+    "escape": true,
+    "noInventedSampleDownloadOrForum": true
+  },
+  "returnNavigation": {
+    "hash": "#2013-kouhaku",
+    "settledTop": 166,
+    "activeOutline": "VIPRPG紅白2013"
+  },
+  "horizontalOverflow": false,
+  "checks": {
+    "data": true,
+    "lint": true,
+    "productionBuild": true,
+    "replayByteStable": true
+  },
+  "screenshots": [
+    "test-results/review-2013-kouhaku-original-top.png",
+    "test-results/review-2013-kouhaku-original-entry.png",
+    "test-results/review-2013-kouhaku-original-banners.png",
+    "test-results/review-2013-kouhaku-original-restricted33.png",
+    "test-results/review-2013-kouhaku-original-69.png",
+    "test-results/review-2013-kouhaku-list.png",
+    "test-results/review-2013-kouhaku-files03.png",
+    "test-results/review-2013-kouhaku-restricted33.png",
+    "test-results/review-2013-kouhaku-sample0.png"
+  ]
+}

@@ -1,0 +1,2418 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" dir="ltr">
+<head>
+<title>VIPRPG紅白2013</title>
+<meta http-equiv="X-UA-Compatible" content="IE=emulateIE8" />
+<meta http-equiv="content-type" content="text/html; charset=Shift_JIS" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(function(){
+	var $setFilter = $('#filter'),
+	$setList = $('#filterlist'),
+	$setFilterAll = $('.allitem');
+
+	var showFade = 300,
+	showShut = 300,
+	hideFade = 200,
+	hideShut = 200;
+
+	var $setFilterBtn = $setFilter.children('a'),
+	$setFilterList = $setList.children('ul').children('li'),
+	$filterAllItem = $setFilterAll.attr('class');
+
+	$setFilterBtn.click(function(){
+		if(!($(this).hasClass('active'))){
+			var filterClass = $(this).attr('class');
+			$setFilterList.each(function(){
+				if($(this).hasClass(filterClass)){
+					$(this).css({display:'block'});
+					$(this).find('*').stop().animate({opacity:'1'},showFade);
+					$(this).stop().animate({width:'900px'},showShut);
+				} else {
+					$(this).find('*').stop().animate({opacity:'0'},hideFade);
+					$(this).stop().animate({width:'0'},hideShut,function(){
+						$(this).css({display:'none'});
+					});
+				}
+			});
+			$setFilterBtn.removeClass('active');
+			$(this).addClass('active');
+		}
+	});
+
+	$setFilterAll.click(function(){
+		$setFilterList.each(function(){
+			$(this).css({display:'block'});
+			$(this).find('*').stop().animate({opacity:'1'},showFade);
+			$(this).stop().animate({width:'900px'},showShut);
+		});
+	});
+	$setFilterAll.click();
+});
+</script>
+<!-- タブ  -->
+<script type="text/javascript">
+$(function(){
+	$("a.btn_act").click(function(){
+		var connectCont = $("a.btn_act").index(this);
+		var showCont = connectCont+1;
+		$('.motion').css({display:'none'});
+		$('#motion_area'+(showCont)).fadeIn('fast');
+
+		$('a.btn_act').removeClass('active');
+		$(this).addClass('active');
+	});
+});
+</script>
+
+
+<script type="text/javascript" src="js/jquery.superbox-min.js"></script>  
+<script type="text/javascript">  
+$.fn.eachsort = function(cb) {
+    return this.each(function(){
+        return $(this).html(
+            $(this).children().sort(cb)
+        );
+    });
+}
+ 
+$(function() {
+ 
+    $('#btn1').click(function() {
+        $("ul").eachsort(function(a, b) {
+            return parseInt($(a).attr('id'), 10) - parseInt($(b).attr('id'), 10);
+        });
+    });
+    $('#btn2').click (function() {
+        $("ul").eachsort(function(a, b) {
+            return parseInt($(a).attr('class'), 10) - parseInt($(b).attr('class'), 10);
+        });
+    });
+});
+</script>
+
+
+
+<style type="text/css">
+a:link { text-decoration:underline; color: #000;}
+a:visited { text-decoration:underline; color: #000;}
+a:active { text-decoration:underline; color: #000;}
+a:hover { text-decoration:none; color: #000;}
+div {padding: 0px 0px 0px 10px;}
+body {margin: 0;}
+
+h1 {margin: 0; background: #F77;	color: #fff;}
+h4 {margin: 0; background: #F77;	color: #fff;}
+
+.motion {width: 800px; display: none;}
+#motion_area1 {display: block;}
+a.active {font-weight: bold; background: #ddd;}
+
+#filterlist table, th, td {border: 1px #000000 solid; border-collapse: collapse;}
+</style>
+
+</head>
+
+<body>
+
+<!-- [FC2 Analyzer] http://analyzer.fc2.com/  -->
+<script language="javascript" src="http://analyzer51.fc2.com/ana/processor.php?uid=2344770" type="text/javascript"></script>
+<noscript><div align="right"><img src="http://analyzer51.fc2.com/ana/icon.php?uid=2344770&ref=&href=&wid=0&hei=0&col=0" /></div></noscript>
+<!-- [FC2 Analyzer]  -->
+
+
+<h1>VIPRPG紅白2013</h1>
+
+<div id="container">
+
+<noscript>
+  このWebサイトの全ての機能を利用するためにはJavaScriptを有効にする必要があります。
+<a href="http://www.enable-javascript.com/ja/" target="_blank">
+あなたのWebブラウザーでJavaScriptを有効にする方法</a>
+を参照してください。
+</noscript>
+
+<div id="menu">
+≫<a href="javascript:void(0);" class="btn_act active">last</a>　　
+≫<a href="javascript:void(0);" class="btn_act">about</a>　　
+≫<a href="javascript:void(0);" class="btn_act">entry</a>　　
+≫<a href="javascript:void(0);" class="btn_act">bbs/link</a>　　　　
+<a href="http://www.netriver.jp/product/" target='_blank'><img src="http://www.netriver.jp/countriver/cntriv.cgi?user=vipkohaku2013&id=001&ptn=15&dig=0"></a>
+<br />
+
+<div id="motion_area1" class="motion">
+<p>
+　　≫<a href="history.txt" target=_blank>history</a><br>
+　　≫<a href="http://yahoo.jp/box/eKCDS7" target=_blank>作品公開所</a><br>
+</p>
+</div><!--/tab_area1-->
+
+<div id="motion_area2" class="motion">
+<p>
+<strong>初めての方へ</strong><br>
+　このサイトは2ちゃんねる　ニュース速報VIP板　RPGツクールスレッド(VIPツクスレ)に関するコンテンツを取り扱ったサイトです。 同所の性質上、当サイト内においても内輪・アングラ・不健全要素を含んでいます。<br>
+　VIPツクスレに初めて訪れる方、書いてあることが良く分からない方は、 閲覧を差し控えるか、半年ほどROMしていただくことを推奨致します。
+</p>
+
+<p>
+<strong>企画概要</strong><br>
+　「VIPRPG紅白2013」は、VIPツクスレで毎年開催されている ツクール作品を公開しあい、感想を付け合うことを目的とした企画です。<br>
+　詳しくはリンクから過去の祭りをご覧ください。
+</p>
+
+<p>
+<strong>投票審査</strong><br>
+　作品公開後、人気投票を行います。<br>
+　各作品ごとに投票ページを設置し、集計結果に基づいて総合順位を決めます。<br>
+　　≫<a href="vote.txt" target="_blank">投票要綱</a><br>
+　　≫<a href="http://enq-maker.com/iSDWbFL" target="_blank">投票サンプルページ</a><br>
+</p>
+
+<p>
+<strong>スケジュール</strong><br>
+<table border="1">
+		<tr><th>エントリー受付</th><td><s>10月12日　～　12月23日 23:59</s></td></tr>
+		<tr><th>作品提出</th><td><s>12月1日　～　12月23日 23:59</s><br>以降の提出は遅刻扱い 遅刻提出は最終更新まで</td></tr>
+		<tr><th>作品公開</th><td><s>12月25日予定</s></td></tr>
+		<tr><th>最終更新日</th><td>2014年1月31日予定</td></tr>
+		<tr><th>投票期間</th><td><s>2013年12月25日　～　2014年1月21日 23:59</s></td></tr>
+		<tr><th>開票</th><td><s>2014年1月22日予定</s></td></tr></table>
+</p>
+</div><!--/tab_area2-->
+
+<div id="motion_area3" class="motion">
+<p>
+<strong>参加</strong><br>
+　参加要綱と参加条件をよく読み、内容に了承した上で、必要事項を記入してメールでエントリーしてください。<br>
+　　≫<a href="entry.txt" target=_blank">参加要綱</a>
+</p>
+
+<p>
+<strong>参加条件</strong><br>
+<ul>
+<li>RPGツクールで作られた自分の作品であること<br>プログラムやWOLF RPGエディターなどで製作されたゲームは参加禁止<br>ただし、RPGツクールに関係したツール作品のエントリーは自己責任で可</li><br>
+<li>エントリーは1人1枠　かつ　提出する作品も1人1つまで<br>1つのzipファイルの中に複数のゲームファイルを封入するのは自己責任で可</li><br>
+<li>未公開作品のみ<br>すでに公開済みである自作品のリメイク品　または<br>未公開の追加要素・変更要素を含む自作品での参加も自己責任で可<br>ただしエントリー後、作品公開日までに未公開部分を公開するのは禁止</li>
+</ul>
+</p>
+
+<p>
+<strong>提出</strong><br>
+　提出受付開始後、作品をzip形式で圧縮し、以下の方法で提出してください。<br>
+　　≫<a href="pres.txt" target=_blank">提出方法</a>
+</p>
+
+<p>
+<strong>修正</strong><br>
+　作品提出後、作品を修正する場合は、以下の方法で修正ファイルをアップしてください。<br>
+　　≫<a href="revise.txt" target=_blank">修正方法</a><br>
+　　≫修正アップローダ　　
+<a href="http://yui.oopsup.com/vipkohaku2013no1/" target=_blank">①</a> / 
+<a href="http://yui.oopsup.com/vipkohaku2013no2/" target=_blank">②</a> / 
+<a href="http://yui.oopsup.com/vipkohaku2013no3/" target=_blank">③</a> /
+<a href="http://yui.oopsup.com/vipkohaku2013no4/" target=_blank">④</a> /
+<a href="http://yui.oopsup.com/vipkohaku2013no5/" target=_blank">⑤</a>
+</p>
+</div><!--/tab_area3-->
+
+<div id="motion_area4" class="motion">
+
+<p>
+<strong>BBS</strong><br>
+　　≫<A href="http://jbbs.livedoor.jp/otaku/16384/" target=_blank>掲示板</a><br>
+　　　運営スレ　サイトの管理運営のための掲示板です。管理人からのお知らせなどを書き込みます。質問や報告などもこちらへどうぞ。<br>
+　　　感想スレ　各作品の専用スレッドがあります。作品の感想を書き込む、攻略・ゲームデータ修正の報告などにご利用ください。<br>
+</p>
+
+<hr>
+
+<p>
+<!--<strong>Link</strong><br>
+<A href="http://www10.atwiki.jp/vip_rpg/" target=_blank><img src="img/wiki.png" width="200" height="40" border="0"></a><br>-->
+</p>
+
+<hr>
+
+<p>
+<strong>BackNumbers</strong><br>
+<A href="http://vipkouhaku05.cs.land.to/" target=_blank><img src="http://vipkouhaku05.cs.land.to/viprpgkouhaku2009-top.png" width="200" height="40" border="0"></a>
+<A href="http://www.geocities.jp/vipkouhaku/" target=_blank><img src="img/vipkohaku_second02.png" width="200" height="40" border="0"></a>
+<A href="http://music.geocities.jp/kouhaku03_01/" target=_blank><img src="img/kouhaku2007.png" width="200" height="40" border="0"></a><br>
+<A href="http://www.geocities.jp/viprpg_kouhaku_2008/" target=_blank><img src="http://vipkouhaku05.cs.land.to/vip2008.png" width="200" height="40" border="0"></a>
+<A href="http://vipkouhaku09.web.fc2.com/" target=_blank><img src="img/2009banner_meza.png" width="200" height="40" border="0"></a>
+<A href="http://www.geocities.jp/vipkohaku2010_1/" target=_blank><img src="img/bnkohaku2010_3.png" width="200" height="40" border="0"></a><br>
+<A href="http://vipkohaku2011.web.fc2.com/" target=_blank><img src="img/bnkohaku2011_2.png" width="200" height="40" border="0"></a>
+<A href="http://vipkh2012.y.ribbon.to/" target=_blank><img src="http://vipkh2012.y.ribbon.to/img/bnkohaku2012_2.png" width="200" height="40" border="0"></a>
+</p>
+
+<hr>
+
+<p>
+<strong>当サイトへのリンク</strong><br>
+　当サイトはリンクフリーです。作品ページだけ抜き出してリンクしていただいても構いません。以下のバナーをご自由にご利用ください。バナーは直リンクも可能です。<br>
+　<br>
+200x40　頂きもの<br />
+<a href="img/bnkohaku2013_2.png" target="_blank"><img src="img/bnkohaku2013_2.png" alt="" width="200" height="40" /></a><br>
+200x40<br />
+<a href="img/bnkohaku2013_1.png" target="_blank"><img src="img/bnkohaku2013_1.png" alt="" width="200" height="40" /></a><br>
+</p>
+
+</div><!--/tab_area4-->
+
+
+</div><!--/menu-->
+
+<hr>
+
+<div>
+作品一覧<br>
+≫<a href="index.html">アイコン</a>　　
+≫<a href="index_t.html">サムネイル</a>　　
+≫<a href="vote_index.html">投票結果</a>　　
+</div>
+
+<div id="motion2_area1" class="motion2">
+<div id="filter">
+<a href="javascript:void(0);" class="allitem"></a>
+<!--/ 
+ -->
+</div>
+
+
+<div id="filterlist">
+
+<div>
+<p>
+総合<br>
+総合順位 | 
+<a href="vote9.html">グループ勝敗</a> | 
+<a href="vote10.html">表彰会場</a>
+</p>
+<p>
+部門別<br>
+単純評価 ： 
+<a href="vote1.html">熱中</a> | 
+<a href="vote2.html">技術</a> | 
+<a href="vote3.html">物語</a> | 
+<a href="vote4.html">演出</a> | 
+<a href="vote5.html">斬新さ</a> | 
+<a href="vote6.html">遊びやすさ</a> | 
+<a href="vote7.html">ワロさ</a> | 
+<a href="vote8.html">ひどさ</a><br>
+相関評価 ： 
+<a href="voteto1.html">熱中</a> | 
+<a href="voteto2.html">技術</a> | 
+<a href="voteto3.html">物語</a> | 
+<a href="voteto4.html">演出</a> | 
+<a href="voteto5.html">斬新さ</a> | 
+<a href="voteto6.html">遊びやすさ</a> | 
+<a href="voteto7.html">ワロさ</a> | 
+<a href="voteto8.html">ひどさ</a><br>
+</p>
+<p>
+<button id="btn2" class="">上位順</button>
+<button id="btn1" class="">No昇順</button>
+</p>
+<h2>総合順位</h2>
+</div>
+
+<ul>
+ 
+ <li id="72" class="1">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i072.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【1位】</b></font>
+<font size="4">No.72 ★クッキーのクッキー☆</font> 
+<font size="2">(合計点：<b>1717</b>pt / <b>140</b>票 / <b><b>提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>249</b> + 技<b>252</b> + 語<b>179</b> + 演<b>246</b> + 斬<b>223</b> + 遊<b>198</b> + 笑<b>222</b> + 酷<b>148</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s072a.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/72.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/biJ3HT6" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>ＫＳＤ</b><br>
+　ジャンル：<b>クッキー☆</b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<h4>[熱2技2語0演2遊2笑2酷2]</h4>　本紅白最大のダークホースにして年末の魔物。エントリー時点で受けた衝撃と、その内容を見てからの衝撃はいずれも今でも忘れることができません。ネタに関しては例のアレにつき多言は避けますが、それでも「クッキー☆」を「ヨッシーのクッキー」をベースとしたゲームへと昇華させたという発想それ自体、そして何よりここまで完成度の高いゲームに仕上げた技術力については高く評価されて然るべきでありましょう。内容も一見ネタゲーと見えてその実は作り込まれており、パッチを重ねるごとにやり込み要素も充実しているため、やるゲとしてのボリュームも十分すぎるほど十分です。ネタが通じる人向けであるという感はどうしても否めませんが、分かった上で遊ぶには恐らくはこの上ない作品でありましょう。(Hiro/男性/26歳 ～ 30歳)<br><br><h4>[熱1技1語1演2遊2笑2酷2]</h4>　パズルゲームです。連鎖はなく、お互いにHPとMPがあり様々なスキルを用いて相手を倒すというシステムになっています。説明より実際にやってみたほうがわかりやすいです。元ネタを知らないとストーリーや会話は意味不明だと思います。東方を知っている人なら少しはわかるかも・・・。クリアしての感想は想像以上に面白かったです。細かいところを調整していけば神ゲーになると思います。(クッキー厨/男性/-)<br><br><h4>[熱2技2語2演2遊2笑1酷2]</h4>　パズルゲームはあまりプレイしたことがなかったけどこの作品はクッソ楽しめたイベントスキップもあってサクサクプレイできるので止め時が分からない中毒性のある作品だと思った(小並感)(野獣洗米/男性/16歳 ～ 20歳)<br><br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<h4>[熱2]</h4>　スキルの組み合わせ以上に、操作技術の向上に熱中した。(こと/男性/21歳 ～ 25歳)<br><br><h4>[熱2]</h4>　まるで市販のゲームをプレイしているかのような完成度(-/男性/21歳 ～ 25歳)<br><br><h4>[技2]</h4>　敵破時にBGMに合わせて消滅速度が可変式な処はもうアホとしか(-/男性/21歳 ～ 25歳)<br><br><h4>[演2]</h4>　雑にみせて、視覚的にも音楽的に外さない丁寧な演出があった(m/男性/-)<br><br><h4>[斬2]</h4>　既存のシステムに、新たなゲーム性が加えられていたから。(-/男性/26歳 ～ 30歳)<br><br><h4>[遊2]</h4>　パッチ後の対応がよく、修正されたインターフェイスは良かった。(マーシャル/男性/21歳 ～ 25歳)<br><br><h4>[笑2]</h4>　セットアップの剛竜馬が予想外すぎて草が生えた。(ほら、全然壊れてないよ。まりなの気持ち/男性/21歳 ～ 25歳)<br><br><h4>[酷2]</h4>　元ネタがクッキー☆なのだから、それはひどいに決まってる。(TTTT/-/-)<br><br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="6" class="2">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i006.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【2位】</b></font>
+<font size="4">No.6 ★アリスの標本箱</font> 
+<font size="2">(合計点：<b>592</b>pt / <b>56</b>票 / <b><b>提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>96</b> + 技<b>46</b> + 語<b>98</b> + 演<b>93</b> + 斬<b>69</b> + 遊<b>96</b> + 笑<b>48</b> + 酷<b>46</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s006a2.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/6.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/11hY0jB" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>藻太郎</b><br>
+　ジャンル：<b>荒唐無稽なデフォ戦ＲＰＧ２</b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<h4>[熱2技1語2演2遊1笑2酷1]</h4>　この作品は、「ドグマの箱庭」と「引き裂かれたバダール」、そして「ポイズンとウィンディシリーズ」という作品の系譜の、一つの集大成であるように思われました。この「アリスの標本箱」は、生まれた者は死に、出会った者は別れるという必然の後者の部分、一つの世界との別れの物語であるように感じられます。それと同時に、この作品は過去の作品の人物たちとの再会の物語でもあります。人が長年を経て変化するように、この作品では過去の人物たちの変化に衝撃を受けることもあるでしょう。しかしそれは、彼ら彼女らの生きた歴史の一部分に過ぎません。一作品の中の登場人物に過ぎないと言えばそれまでですが、彼ら彼女らの終わりの部分だけではなく、それまでの歩みを見届けてこその本作であると、そう断言して良いように思われます。従って、これから遊ばれる方は、是非とも「関連作品」を全て遊んでから、最後にこの作品に着手されることを強く推奨します。(Hiro/男性/26歳 ～ 30歳)<br><br><h4>[熱2技1語2演2遊2笑2酷1]</h4>　 前作のときにも思ったのですが、VIPRPGには珍しく、かなりはっきりとした自分の世界を持っているツクラーさんだなと感じました。それでいて、独りよがりで終わることは決してなく、魅せ方も心得ています。 プレイヤーになにをしてほしいか、なにを感じてほしいか。作者さんは直接手を下すのではなく、そっと行き場を示すだけ。どっぷりと頭までハマることができました。(-/男性/26歳 ～ 30歳)<br><br><h4>[熱2技1語2演2遊1笑2酷1]</h4>　退廃的な世界観、時にこちらの心を抉ってくるようなキャラたちの台詞この作風は好き嫌いがハッキリ分かれるだろうが、是非一度プレイしてみて欲しい作品だ(-/男性/21歳 ～ 25歳)<br><br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<h4>[語1]</h4>　敵も含め、登場人物に「こころ」が感じられるのがよかった(-/男性/26歳 ～ 30歳)<br><br><h4>[語2]</h4>　テキストの緻密さとセンスが極上。(-/男性/26歳 ～ 30歳)<br><br><h4>[斬2]</h4>　作者の脳を見せられる感じがたまらない(-/男性/26歳 ～ 30歳)<br><br><h4>[遊2]</h4>　マップも広すぎず敵の強さも程よく非常に遊びやすかった。(Hiro/男性/26歳 ～ 30歳)<br><br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="28" class="3">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i028.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【3位】</b></font>
+<font size="4">No.28 ★逆転ザック</font> 
+<font size="2">(合計点：<b>499</b>pt / <b>49</b>票 / <b><b>提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>82</b> + 技<b>87</b> + 語<b>63</b> + 演<b>90</b> + 斬<b>46</b> + 遊<b>65</b> + 笑<b>59</b> + 酷<b>7</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s028a.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/28.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/dfPAjzr" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>女体化ダークメカアレックス</b><br>
+　ジャンル：<b>法廷バトルADV</b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<h4>[熱2技2語2演2遊1笑2酷1]</h4>　悪く言えば元の素材ありきなゲームではありますが、それでもその良さを壊さず、なおかつVIPRPGらしいオリジナリティをふんだんに盛り込んだ素晴らしい作品でした!動作の軽さやキー操作のし易さはある意味本家以上で、よく工夫されているなあと感心しました。上下キーでいいですよね、たしかに。本家をリスペクトしつつ、文章はすべてオリジナルで打ったのだと思いますが、これがしっかり書かれていたのが良かった! 目立った誤字脱字もなく、かといって適当に考えたとは思えない内容が、私のハートに確かに響きました。筋書きを知ってるはずなのにクライマックスで涙ぐみそうになったのは、きっとそれが理由でしょう。とにかく、プレイして良かったと思える良作でした。かなりの労力がかかっていると思われますが、できる事ならいつか事件もオリジナルの続編をプレイしてみたいです。楽しいゲームをありがとうございました!(G-tea/男性/31歳 ～ 40歳)<br><br><h4>[熱2技2語2演2遊2笑1酷2]</h4>　逆転裁判シリーズをモチーフにした作品はこれまでのツクスレでも多々ありましたが、本作がそれらと一線を画しているのはやはりキャラの動きをピクチャで演出しているその手法でしょう。口パクアニメーションの管理は並々ならぬ労力を費やすものだと思われますが、逐一それを仕込んだ作者氏の力の入れ具合にはただただ敬服するほかありません。また、シナリオも本家のテイストに準拠しながらVIPRPG向けにアレンジメントを加えられており、完成度の非常に高い逆裁パロディであると評することができます。(Hiro/男性/26歳 ～ 30歳)<br><br><h4>[熱2技2語1演2遊1笑1酷2]</h4>　他の解答欄でも書きましたが、非常にテンポの良い会話と良質なアニメーションに圧巻。ストーリーの盛り上がり方も非常に良い。しかし惜しむべきはその短さ。2話をいつまでもお待ちしております。この会話の面白さで探偵パートが凄くやりたい。(-/男性/21歳 ～ 25歳)<br><br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<h4>[熱2]</h4>　久しぶりに…ドキドキしちまったよ…(あいぴー/男性/16歳 ～ 20歳)<br><br><h4>[技2]</h4>　文章に口パクと効果音入れるのどうやるんだ……(-/男性/21歳 ～ 25歳)<br><br><h4>[演2]</h4>　ここまでキャラグラが動くツクールゲーははじめてかも・・。(だむ/男性/26歳 ～ 30歳)<br><br><h4>[笑2]</h4>　非常に本家のノリとパロで面白い。テンポも非常にいい。(-/男性/21歳 ～ 25歳)<br><br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="4" class="4">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i004.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【4位】</b></font>
+<font size="4">No.4 ★カスタムバトエン -mosimo-</font> 
+<font size="2">(合計点：<b>490</b>pt / <b>54</b>票 / <b><b>提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>89</b> + 技<b>96</b> + 語<b>45</b> + 演<b>64</b> + 斬<b>83</b> + 遊<b>73</b> + 笑<b>34</b> + 酷<b>6</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s004a2.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/4.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/fdNAuK0" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>天下り次郎</b><br>
+　ジャンル：<b>バトルえんぴつ風カードゲーム</b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<h4>[熱2技2語1演1遊2笑1酷0]</h4>　使える技はサイコロの数次第の運ゲーに多人数戦、疲労の概念を導入して戦略的に戦えるように工夫した傑作。敵の使用デッキも多彩で自然に「こういう戦術もあるのか」とプレイヤーが気付き色々と工夫したくなるような誘導も見事。カードゲームは物量勝負、手間をかける程に良くなるジャンルなので完全版や改良版の続編が出たら嬉しいなぁ。とても面白かったです。(孔雀23号/男性/26歳 ～ 30歳)<br><br><h4>[熱2技2語1演2遊2笑1酷1]</h4>　強いデッキを作り、勝てなそうな相手には弱点をついたデッキを組むという流れでサクサク進めるバランスが良かったです。BGMやカードの絵柄が豊富なのも楽しかった(-/-/-)<br><br><h4>[熱2技2語1演2遊2笑2酷0]</h4>　全く新しいバトルエンピツゲーム。もしくはカードゲーム。いろんな戦術が成立するのが非常に楽しい!(だむ/男性/26歳 ～ 30歳)<br><br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<h4>[技2]</h4>　オリジナルのゲームルールをきちんと昇華していた。遅延もない。(孔雀23号/男性/26歳 ～ 30歳)<br><br><h4>[語1]</h4>　理想の世界はなかなかカオス。特にファミチキ城(-/-/-)<br><br><h4>[斬2]</h4>　まさかバトルエンピツがこうなるとは・・。(だむ/男性/26歳 ～ 30歳)<br><br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="48" class="5">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i048.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【5位】</b></font>
+<font size="4">No.48 ★年末謝罪大戦</font> 
+<font size="2">(合計点：<b>434</b>pt / <b>47</b>票 / <b><b>提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>62</b> + 技<b>46</b> + 語<b>64</b> + 演<b>80</b> + 斬<b>48</b> + 遊<b>70</b> + 笑<b>45</b> + 酷<b>19</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s048a.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/48.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/7OOIwW8" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>コの字</b><br>
+　ジャンル：<b>ノンフィールドRPG</b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<h4>[熱1技0語1演2遊0笑2酷1]</h4>　ストーリー面では「死」がつきまとうにも拘わらず主人公やその周りが妙に朗らで生き生きとして、悲観的なものが無い。哲学ぶった一説を振りかざす小難しい物では無かったのでやや気を楽にしてプレイができた。また、戦闘や収集におけるストレスの無さが、このゲームのテンポを良い物にしており非常にさくさくと進める。(-/-/-)<br><br><h4>[熱2技1語1演2遊1笑2酷1]</h4>　本作はいわゆる「雪道ゲー」に分類されると思いますが、通常の雪道系とは異なり進むだけのゲームなのでシステム自体は非常にシンプルです。それでも随所に仕込まれた寸劇や世界観そしてキャラ等々、好奇心をくすぐるゲーム設計には思わず熱中して遊んでしまわせるだけの粋があるように感じられました。軽めのシナリオでこそあるものの考えさせられるシーンもあり、手軽に遊べるということもあるので、まだの方は是非とも遊んでみて欲しいゲームの一つです。(Hiro/男性/26歳 ～ 30歳)<br><br><h4>[熱1技1語1演2遊0笑1酷1]</h4>　↑キー押して進んでいく系のデフォ戦。後退はできない。22枚のタロットカード(もとい装備品)を集めてラスボスを倒すことが目的。難易度は低め。何も考えなくても最良エンディングが観られる。オリジナルキャラながら、とっつきやすい絵柄と簡潔な導入で違和感はなかった。(こと/男性/21歳 ～ 25歳)<br><br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<h4>[語2]</h4>　大きな感動でなくとも純粋に素敵なお話だと思った わりとマジで(も/性別不明/年齢不明)<br><br><h4>[演2]</h4>　善哉であるぞ、ヤクスタトル君。(-/男性/21歳 ～ 25歳)<br><br><h4>[遊2]</h4>　必要な操作が少なく直感で操作しやすかった(献血太郎/男性/21歳 ～ 25歳)<br><br><h4>[笑2]</h4>　スイと構えたBNTRN型銃でヤクトドーガ君に襲いかかる所(年末なのに仕事があってしにたいおじさん/男性/31歳 ～ 40歳)<br><br><h4>[笑2]</h4>　金髪の主人公の呼び方 ヤフー君かわいいよヤフー君(献血太郎/男性/21歳 ～ 25歳)<br><br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="69" class="6">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i069.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【6位】</b></font>
+<font size="4">No.69 ★図書館探索ゲェム</font> 
+<font size="2">(合計点：<b>398</b>pt / <b>39</b>票 / <b><b>提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>65</b> + 技<b>53</b> + 語<b>33</b> + 演<b>60</b> + 斬<b>53</b> + 遊<b>46</b> + 笑<b>53</b> + 酷<b>35</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s069a.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/69.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/6JTDfZ2" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>とうふ</b><br>
+　ジャンル：<b>ADV</b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<h4>[熱2技1語0演2遊2笑1酷2]</h4>　捻くれまくった謎解きゲーここに参上!とんちとやり直しを駆使してお宝コンプを目指そう!(ccbr/男性/21歳 ～ 25歳)<br><br><h4>[熱2技2語1演2遊2笑2酷2]</h4>　全コンプへはほぼ1本道だが、ミスリードがとにかく多い。しかし、ハメられても「くっそ、これどう使うのが正しいんだよ」と再プレイできるのが、このゲームの不思議な魅力。そして正解は斜め上と言うよりは別次元なものもあり、笑うこともあった。そんな発想の迷宮を存分に楽しませてもらいました。(-/男性/21歳 ～ 25歳)<br><br><h4>[熱2技1語0演1遊1笑1酷1]</h4>　過去の作品を含めてこの作者の作品を遊んでみると面白いかも知れないこんな視点こんな解き方があるのかと眼から鱗ですイジワルだけど(-/男性/-)<br><br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<h4>[熱2]</h4>　300満点を目指して何周もプレイした。(-/-/-)<br><br><h4>[技2]</h4>　プレイヤーの思考の遥か先を見通したフラグ構築に天晴れです(-/-/-)<br><br><h4>[演2]</h4>　とにかく良く動く良く鳴るそして全くうっとおしさを感じさせない(ccbr/男性/21歳 ～ 25歳)<br><br><h4>[斬2]</h4>　謎解きの発想が超おかしい(-/-/-)<br><br><h4>[遊1]</h4>　パッチによるヒントの追加で遊びやすくなった。(-/男性/21歳 ～ 25歳)<br><br><h4>[笑2]</h4>　至る所だよ!ネタ仕込みすぎだwwwwwwwwww(ccbr/男性/21歳 ～ 25歳)<br><br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="68" class="7">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i068.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【7位】</b></font>
+<font size="4">No.68 ★AleBr</font> 
+<font size="2">(合計点：<b>376</b>pt / <b>38</b>票 / <b><b>提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>43</b> + 技<b>33</b> + 語<b>53</b> + 演<b>57</b> + 斬<b>35</b> + 遊<b>50</b> + 笑<b>61</b> + 酷<b>44</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s068a.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/68.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/BiJ2HV" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>せくては</b><br>
+　ジャンル：<b>ksg</b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<h4>[熱0技1語0演1遊0笑2酷1]</h4>　長い間失踪していたブライアン。アレックスはあまりに長い間行方不明になっていたブライアンを死んだものと思い、すでに葬式をあげてしまっていた。そこへある日突然ブライアンが現れて……!? アレブラ主体の見るゲ。(こと/男性/21歳 ～ 25歳)<br><br><h4>[熱2技1語2演2遊2笑2酷2]</h4>　アレックスとブライアンが酒の席で交わす会話と、それを基調としたksgが交互に織りなす展開は、しんみりとした雰囲気とギャグとを絶妙に組み合わせた独特の構成です。ksgのひどさについては今更多くを語るまでもなく、アレブラの会話もなかなかに大概なのでギャグゲーに分類して良いとは思いますが、最後のオチは必見。(Hiro/男性/26歳 ～ 30歳)<br><br><h4>[熱2技1語1演2遊1笑2酷2]</h4>　とにかく一つ一つのネタが面白く会話のテンポも良いのでサクサク読み進めて大いに笑えるラストはちょっとしんみり?(-/男性/21歳 ～ 25歳)<br><br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<h4>[語1]</h4>　合わない話もあったけど、最後がすごく切なくなりました(-/男性/21歳 ～ 25歳)<br><br><h4>[演2]</h4>　衝撃が走っていった(-/性別不明/61歳 ～ それ以上)<br><br><h4>[笑2]</h4>　友人の約束をすっぽかして風俗に行くブライアン。(だむ/男性/26歳 ～ 30歳)<br><br><h4>[酷1]</h4>　こいつらあほだな(-/男性/21歳 ～ 25歳)<br><br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="18" class="8">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i018.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【8位】</b></font>
+<font size="4">No.18 ★Memory of Moshimo</font> 
+<font size="2">(合計点：<b>314</b>pt / <b>38</b>票 / <b><b>提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>55</b> + 技<b>54</b> + 語<b>25</b> + 演<b>50</b> + 斬<b>37</b> + 遊<b>54</b> + 笑<b>29</b> + 酷<b>10</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s018a.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/18.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/a6B6vrx" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>牧場の牛肉</b><br>
+　ジャンル：<b>デフォ戦</b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<h4>[熱2技1語0演1遊1笑2酷1]</h4>　約四年がかりの制作ということで、非常にボリューム豊富なデフォ戦ゲーでありました。数の豊富なプレイヤーキャラから好きにメンバーを汲んで戦うタイプのデフォ戦ですが、敵ごとに特徴が明確に分かれており対処法も個別に違ってくるため、力で押し切るタイプの戦闘というよりかはむしろ相手によってこちらも手を変えるという、ある意味ではカードゲームでデッキを組むような感じの戦闘であったように思われます。反面、敵の数が膨大なだけに、一戦一戦がそれなりに時間がかかることで消耗も激しいゲームであることは否めなかったように思います。それでも、強いキャラで押し切るもよし、無理ゲーめいたメンバーで果敢に挑むもよしと、プレイスタイルが自由なゲームであることもまた事実です。本作に育成要素がないという点は賛否分かれるところでしょうが、少なくとも遊びやすさの面から言えばこちらの方に利があるというのが個人的感想です。(Hiro/男性/26歳 ～ 30歳)<br><br><h4>[熱2技2語0演2遊1笑1酷1]</h4>　 どのボス戦にも特徴があって楽しかった。戦う前のワクワク感や、初見で倒せるか倒せないかの緊迫感。敵の特性だけでなく、『ナイトメア』『ブラッドウォーター』戦などの演出面にも目を見張らされた。 この手のゲームにありがちな「絶対にこういう役割のキャラを入れないと勝てない」という作りにはなっておらず、適度なバランスだと感じた。 全体回復を入れても入れなくても勝てるとか、状態異状や属性の活躍する場が多めに与えられていて、余分なところを切りつめ、少ない要素を大きく活用したなァって感じ。 真摯に作られたデフォ戦を堪能させてもらいました。(-/男性/26歳 ～ 30歳)<br><br><h4>[熱2技2語0演1遊0笑2酷1]</h4>　お祭りゲー。デフォ戦飽きた人もキャラ選択画面だけでも見て損はない(-/-/-)<br><br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<h4>[熱2]</h4>　全戦ボス戦っていう感じで、くせのあるギリギリの攻防が楽しめた(-/男性/26歳 ～ 30歳)<br><br><h4>[技2]</h4>　156人の仲間の良バランス調整は、まぎれもなく作者の技術の証(-/男性/21歳 ～ 25歳)<br><br><h4>[演1]</h4>　エフェクトの数がとにかく多い。未だに全部見れてない(-/-/-)<br><br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="5" class="9">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i005.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【9位】</b></font>
+<font size="4">No.5 ★ヴァンパイアⅡ  -DOMINION-</font> 
+<font size="2">(合計点：<b>301</b>pt / <b>28</b>票 / <b><b>提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>48</b> + 技<b>37</b> + 語<b>47</b> + 演<b>51</b> + 斬<b>27</b> + 遊<b>34</b> + 笑<b>34</b> + 酷<b>23</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s005a.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/5.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/3VALtxK" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>池田さん</b><br>
+　ジャンル：<b>ダークアクション見るゲー </b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<h4>[熱2技2語2演2遊2笑2酷2]</h4>　この作品はダークな一方で笑いあり涙あり、パロディ、オマージュありな作品でした。特におぜうさまとローレンはお気に入りです。一方で意外なバチカンの風景があったところも面白かったです。(-/男性/16歳 ～ 20歳)<br><br><h4>[熱2技1語1演0遊0笑0酷1]</h4>　バイオハザードのゾンビのような性質を持ったヴァンパイア組織、「ユダの血族」とその血族に因縁を持つヴァンパイアハンター、「おぜう」との戦いを描いた見るゲ。種々の少年漫画的ワクワク感をかき集めてMIXしてある。ツッコミどころは多く荒削りな作風。受け付けない人にとっては見る価値のないものとなるかもしれない。細かいことを気にしなければ、突き上げてくる高揚と期待に身を任せ、登場人物のギャップ描写にときめいているうちに全話観終えることになると思う。(こと/男性/21歳 ～ 25歳)<br><br><h4>[熱2技2語2演2遊1笑2酷1]</h4>　1と番外編から時を隔てて久々の新作、時間をかけられただけあって内容は非常に充実したものでした。存在が示されていた血族最高幹部のマリアとおぜうの頂上決戦自体も見ものではありますが、この作品はそれ以外のハンターや衛兵、市民たちの戦いも大きな見どころです。それまでの何気ない日常を描いた上で、戦いの中で生き抜き、あるいは散ってゆくことを、単なる名無しのモブたちの生き死に以上のものへと高めており、おぜうの戦いに焦点を当てたこれまでの作品から教会対血族、そして第三勢力という大きな潮流へと作品が動いてゆくのが今作からは感じ取れました。次回作、そして最終作まで構想は既に固まっているということで、今後のおぜう達の戦いに目が離せません。(Hiro/男性/26歳 ～ 30歳)<br><br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<h4>[熱2]</h4>　熱く、且つ悲しくもあり、何より力強いシナリオにひきこまれた。(-/男性/-)<br><br><h4>[語2]</h4>　でも人死にすぎィ!(だむ/男性/26歳 ～ 30歳)<br><br><h4>[演2]</h4>　それぞれの素材を使いこなした演出は見張るものがあります。(-/男性/16歳 ～ 20歳)<br><br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="51" class="10">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i051.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【10位】</b></font>
+<font size="4">No.51 ★イクゾーダス</font> 
+<font size="2">(合計点：<b>278</b>pt / <b>26</b>票 / <b><b>提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>26</b> + 技<b>33</b> + 語<b>20</b> + 演<b>48</b> + 斬<b>33</b> + 遊<b>29</b> + 笑<b>42</b> + 酷<b>47</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s051a.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/51.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/98mTuqV" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>内藤春人</b><br>
+　ジャンル：<b><font size=1>本当の勇気を知る刹那のRPG</font></b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<h4>[熱2技2語0演2遊2笑1酷2]</h4>　多くを語ることはこの作品には恐らく相応しくはなく、恐らくは自らの眼でこのひどさを体感されることこそが最善であるように私には思えてならない。(Hiro/男性/26歳 ～ 30歳)<br><br><h4>[熱0技2語0演2遊0笑2酷2]</h4>　自由に移動できることに感動を覚えるRPG。(だむ/男性/26歳 ～ 30歳)<br><br><h4>[熱2技2語0演2遊0笑1酷2]</h4>　どこか懐かしさを覚える雰囲気、凝った作りのドット絵、そして衝撃的なラスト。これは今紅白屈指の超大作である!(-/男性/21歳 ～ 25歳)<br><br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<h4>[語1]</h4>　ストーリー”だけ”はAクラスだった。(-/-/-)<br><br><h4>[演2]</h4>　超ドット これにつきる(も/性別不明/年齢不明)<br><br><h4>[酷2]</h4>　ち、ちくしょう(-/男性/21歳 ～ 25歳)<br><br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="47" class="11">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i047.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【11位】</b></font>
+<font size="4">No.47 ★ルインシーカー -寂しがりやのカタコンベ-</font> 
+<font size="2">(合計点：<b>265.5</b>pt / <b>30</b>票 / <b><b>遅刻提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>48</b> + 技<b>36</b> + 語<b>42</b> + 演<b>49</b> + 斬<b>27</b> + 遊<b>49</b> + 笑<b>31</b> + 酷<b>13</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s047a.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/47.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/3wmqKVJ" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>ツノザメ怪人</b><br>
+　ジャンル：<b><font size=1>見るゲとやるゲが両方そなわり最強に見える</font></b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<h4>[熱2技0語2演1遊1笑2酷1]</h4>　手頃な謎解きと気になる続き、とんとん拍子に進むテンポのよさでPIAIしてて楽しい作品だったラナさんかわいい、でも好きなのはファルコンの糞野郎っぷり(-/男性/21歳 ～ 25歳)<br><br><h4>[熱2技1語1演2遊1笑1酷1]</h4>　カーくんかわいいよカーくん。そしてあざといと評判のラナさんもまたかわいいと思うんですよ!(だむ/男性/26歳 ～ 30歳)<br><br><h4>[熱2技0語1演1遊1笑2酷0]</h4>　短くも長くもない　難易度はパズルに向いてなくてもおk　パズル解けながら普通にいい見るげ　(-/男性/-)<br><br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<h4>[語2]</h4>　ダーブラ△ ファルコンはただの猿だった(-/-/-)<br><br><h4>[語2]</h4>　探索を進めるたびに明かされていく謎! ワクワクするよね(-/男性/21歳 ～ 25歳)<br><br><h4>[演2]</h4>　カーバンクルの声がムダに似合っていた。(だむ/男性/26歳 ～ 30歳)<br><br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="13" class="12">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i013.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【12位】</b></font>
+<font size="4">No.13 ★ドラ子かわいい</font> 
+<font size="2">(合計点：<b>230</b>pt / <b>24</b>票 / <b><b>提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>36</b> + 技<b>34</b> + 語<b>36</b> + 演<b>32</b> + 斬<b>25</b> + 遊<b>27</b> + 笑<b>24</b> + 酷<b>16</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s013a.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/13.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/1bPC0LK" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>Ｓテル</b><br>
+　ジャンル：<b>ゴリ押しRPG</b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<h4>[熱2技2語2演2遊0笑1酷2]</h4>　エスリンサーガバーストや迫真幻月RPGを知っているならニヤリとしたり、衝撃の展開に驚かされたりととにかくすごいとしか言えなかった。(-/男性/21歳 ～ 25歳)<br><br><h4>[熱2技2語2演2遊1笑1酷1]</h4>　ドラ子かわいいまだ未完成なので完成版に大いに期待が出来る作品。ドラ子かわいい(紅蓮/性別不明/16歳 ～ 20歳)<br><br><h4>[熱1技1語1演1遊0笑1酷1]</h4>　ひどい目にあう子はみなかわいいとおもいます(錯乱)(だむ/男性/26歳 ～ 30歳)<br><br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<h4>[技1]</h4>　面倒な部分もあったがよい戦闘システムだと思った(小並感)(-/-/-)<br><br><h4>[演2]</h4>　コンボ最後まで決まった時の爽快感!(ゾルガ/性別不明/16歳 ～ 20歳)<br><br><h4>[遊2]</h4>　目押しがムズいけどそういうゲームだ(-/男性/21歳 ～ 25歳)<br><br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="42" class="12">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/miru.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【12位】</b></font>
+<font size="4">No.42 ★もしもアイスⅢが母親だったら</font> 
+<font size="2">(合計点：<b>230</b>pt / <b>21</b>票 / <b><b>提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>22</b> + 技<b>18</b> + 語<b>25</b> + 演<b>32</b> + 斬<b>30</b> + 遊<b>29</b> + 笑<b>32</b> + 酷<b>42</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s042a.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/42.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/hwyCqxq" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>生活保護君</b><br>
+　ジャンル：<b>見るゲ</b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<h4>[熱0技0語0演0遊0笑0酷1]</h4>　本編:もういろいろひどい エロ微グロ注意おまけ1:ひどおまけ2:これはワロタおまけ3:うーんこの・・・おまけ4:nnkrおまけ5:わろた・・・わろた・・・(´Д⊂ヽ(-/-/-)<br><br><h4>[熱2技1語2演2遊2笑2酷2]</h4>　マジで狂っとる(こて/男性/21歳 ～ 25歳)<br><br><h4>[熱2技2語2演2遊2笑2酷2]</h4>　2013ねん最大の酷さ。(山本山/男性/31歳 ～ 40歳)<br><br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<h4>[語2]</h4>　ある意味衝撃的(ブライアン/男性/21歳 ～ 25歳)<br><br><h4>[斬2]</h4>　作者が体を張ってたから(-/-/16歳 ～ 20歳)<br><br><h4>[笑2]</h4>　リナ全裸放置、包丁ED、乳首いじり(-/男性/26歳 ～ 30歳)<br><br><h4>[酷2]</h4>　すべてひどい。マジキチ。(山本山/男性/31歳 ～ 40歳)<br><h4>[酷2]</h4>　全部(-/男性/16歳 ～ 20歳)<br><br><h4>[酷2]</h4>　全部(ちんこ/男性/26歳 ～ 30歳)<br><br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="61" class="14">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i061.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【14位】</b></font>
+<font size="4">No.61 ★魔王の娘でも分かる心理学</font> 
+<font size="2">(合計点：<b>217</b>pt / <b>28</b>票 / <b><b>提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>33</b> + 技<b>13</b> + 語<b>33</b> + 演<b>23</b> + 斬<b>41</b> + 遊<b>39</b> + 笑<b>22</b> + 酷<b>13</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s061a.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/61.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/g1sxgMi" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>かきぴー</b><br>
+　ジャンル：<b>心理学が学べる見るゲです。</b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<h4>[熱1技0語1演1遊1笑1酷1]</h4>　タイトル画面だけ見て「一発ゲーかな?」と思ったのですが、心理学について詳しく書かれていて勉強になります(-/男性/21歳 ～ 25歳)<br><br><h4>[熱0技0語1演0遊1笑1酷0]</h4>　見るゲ。様々に分類された「影響力」について、実例を見ながら学べる。心理学を学ぶ、というよりは、言われてみれば確かに……という「あるある」ネタとその分類の確認といった趣だった。(こと/男性/21歳 ～ 25歳)<br><br><h4>[熱1技0語1演1遊2笑1酷1]</h4>　学習した心理学が身近なところで起こってるんだなあと最後の「ツクラーの心理学」で気付かせる構成が秀逸だと思った。話はテンポ良く進むが一部ボリューム不足なのが惜しい所。作者がとってもかわいい(-/男性/16歳 ～ 20歳)<br><br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<h4>[遊2]</h4>　速い読みやすい分かりやすい(SGYSNJ/男性/16歳 ～ 20歳)<br><br><h4>[遊2]</h4>　1つ1つの物語が短く例もシンプルなので分かりやすかったです。(-/-/-)<br><br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="65" class="15">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i065.gif" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【15位】</b></font>
+<font size="4">No.65 ★釣りックス</font> 
+<font size="2">(合計点：<b>209.7</b>pt / <b>22</b>票 / <b><b>遅刻提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>36</b> + 技<b>38</b> + 語<b>5</b> + 演<b>29</b> + 斬<b>27</b> + 遊<b>33</b> + 笑<b>31</b> + 酷<b>34</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s065a.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/65.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/5gcy70W" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>うじみ</b><br>
+　ジャンル：<b>ＲＴＰ系</b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<h4>[熱2技2語0演1遊2笑2酷2]</h4>　アクションゲームとしては破格の構成、とにかく難しいのだけれどもリトライがしやすすぎるほどしやすいというゲームデザインは商用ゲームでもフリーゲームでもなかなか類を見ないものだと思います。操作性も抜群に良いため、アクションゲームとしての完成度は最高峰だと言って過言ではないでしょう。同時に、極めて難しい(と個人的には思う)ステージ構成には思わず心が折れそうになりますが、それもリトライの容易性のためについつい何度も再挑戦してしまうという、かなり中毒性の高いゲームであるとの側面もあるように感じました。自分は遂に諦めてしまいましたが、修正前の版でノーミスクリアを達成した方がいるという事実には戦慄せざるを得ません。(Hiro/男性/26歳 ～ 30歳)<br><br><h4>[熱2技1語0演2遊1笑1酷2]</h4>　ストーリーは王道?なのかな・・・アクションとしては隠しブロックなどの初見殺しが多かったものの、全体的に簡単すぎず難しすぎずな難易度で遊べた。これらの隠しブロックや初見殺しはゲームの雰囲気のお陰で、あまり苛立たなかった。しかし、終盤の城ステージでは即死トゲが張り詰められており、ちょっとしたミスで死んでしまったりするので、あまりやっていて楽しくなかった。(紫蘭/男性/21歳 ～ 25歳)<br><br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<h4>[熱2]</h4>　熱中しなければクリアできない。(だむ/男性/26歳 ～ 30歳)<br><br><h4>[技2]</h4>　マリオだこれwwww(-/性別不明/61歳 ～ それ以上)<br><br><h4>[遊2]</h4>　とにかくミスしてから復帰までの容易さが尋常ではない。(Hiro/男性/26歳 ～ 30歳)<br><br><h4>[酷2]</h4>　苦労して逆走した結果があれかよwww(ゆこゆこ/男性/26歳 ～ 30歳)<br><br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="24" class="16">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i024.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【16位】</b></font>
+<font size="4">No.24 ★わてり☆初体験 </font> 
+<font size="2">(合計点：<b>198</b>pt / <b>27</b>票 / <b><b>提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>23</b> + 技<b>10</b> + 語<b>26</b> + 演<b>24</b> + 斬<b>23</b> + 遊<b>20</b> + 笑<b>38</b> + 酷<b>34</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s024a.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/24.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/dsyKuWh" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>比較的悪いスライム </b><br>
+　ジャンル：<b>わりと正統派わてり系見るゲー </b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<h4>[熱1技0語2演1遊0笑1酷2]</h4>　全体的に拙いがほっこりした感じが、わてりと組み合わさることで不思議な良さを生み出している。(-/男性/21歳 ～ 25歳)<br><br><h4>[熱2技0語1演1遊2笑0酷2]</h4>　独特の雰囲気が心地よかったです。リナもわてりもウィンドも可愛いナリィ・・・。またやりたい(-/-/-)<br><br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<h4>[演1]</h4>　ウィンディの話の最後がすごかったです(-/男性/21歳 ～ 25歳)<br><br><h4>[遊0]</h4>　適当に進むと一部の会話イベントを見逃すことがあった(-/男性/21歳 ～ 25歳)<br><br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="43" class="17">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i043.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【17位】</b></font>
+<font size="4">No.43 ★もしも死神五世と・・・</font> 
+<font size="2">(合計点：<b>195</b>pt / <b>26</b>票 / <b><b>提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>33</b> + 技<b>15</b> + 語<b>36</b> + 演<b>30</b> + 斬<b>11</b> + 遊<b>33</b> + 笑<b>31</b> + 酷<b>6</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s043a.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/43.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/f2ijozS" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>風見ケイ</b><br>
+　ジャンル：<b>見るゲ短編集 </b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<h4>[語2]</h4>　キャラクターの掘り下げ方がすごくよかった(-/男性/26歳 ～ 30歳)<br><br><h4>[語2]</h4>　ほっこり(-/-/-)<br><br><h4>[斬1]</h4>　死神五世とその他大勢の組み合わせは珍しいと思った(-/-/-)<br><br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="66" class="18">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i066.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【18位】</b></font>
+<font size="4">No.66 ★フレイミングリターンズ（旧題：炎の他宅警備員）</font> 
+<font size="2">(合計点：<b>181.8</b>pt / <b>22</b>票 / <b><b>遅刻提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>28</b> + 技<b>12</b> + 語<b>28</b> + 演<b>27</b> + 斬<b>17</b> + 遊<b>26</b> + 笑<b>34</b> + 酷<b>30</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s066a2.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/66.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/a9xluKU" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>バーティカル外藤</b><br>
+　ジャンル：<b>君に別れを告げて君でない他の誰かに逢いに行くｋｓｇ</b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<h4>[熱2技0語2演2遊0笑1酷2]</h4>　百合ゲーでありながらサクサクと遊べる短編ゲーとしても高評価。確かに人を選ぶジャンルではあるけどもそれさえ満たせるならぜひ遊んでみてほしい。難点を挙げるとするならやっぱり条件の難しさだな・・・脱出の要となるコンボのヒントをもう少し出しても良かった気がする。(ファレイムさん/男性/21歳 ～ 25歳)<br><br><h4>[熱1技1語1演2遊1笑2酷2]</h4>　色々組み合わせ考えて試せるのがいい。フレイムさんかわいいしわてりもかわいいそして僕はEND4派(-/男性/21歳 ～ 25歳)<br><br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<h4>[熱1]</h4>　セット装備を探すのが面白い(-/男性/21歳 ～ 25歳)<br><br><h4>[語2]</h4>　ギャグ、シリアス、鬱、キマシ。全てを網羅したのが高評価。(ファレイムさん/男性/21歳 ～ 25歳)<br><br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="56" class="19">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i056.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【19位】</b></font>
+<font size="4">No.56 ★超日本列島とらべる絵草紙</font> 
+<font size="2">(合計点：<b>180</b>pt / <b>19</b>票 / <b><b>遅刻提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>27</b> + 技<b>16</b> + 語<b>21</b> + 演<b>32</b> + 斬<b>27</b> + 遊<b>16</b> + 笑<b>32</b> + 酷<b>29</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s056a.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/56.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/5HIH6QT" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>黄泉つ</b><br>
+　ジャンル：<b>ジェットコースター☆みるげ</b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<h4>[熱1技1語1演1遊1笑1酷1]</h4>　  遅刻提出でも信じて待ってよかったです。即ぴあいしました。以下感想。 「ジェットコースター」に偽りなし。ハナからプレイヤーについていかせる気のないシナリオ進行は過去作と変わらず、ここまで突き抜けていれば潔い。 贅沢な素材使用の方はどんどん進化していて、ケーキもラーメンもステーキも纏めて煮込んで鍋にしましたって感じ。 不満点を言うなら「なんじゃとー」のSEがもっとしつこく使ってよかったし、おばけカルテットとしての出番がもっとほしかったかな。あとほんとなんでもいいのでぴあい後のおまけ要素って大好きなので入れてほしかった。(桜田ぴよこ/女性/21歳 ～ 25歳)<br><br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="49" class="20">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i049.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【20位】</b></font>
+<font size="4">No.49 ★又吉議員物語</font> 
+<font size="2">(合計点：<b>171</b>pt / <b>18</b>票 / <b><b>提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>23</b> + 技<b>20</b> + 語<b>21</b> + 演<b>16</b> + 斬<b>21</b> + 遊<b>20</b> + 笑<b>29</b> + 酷<b>21</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s049a.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/49.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/31WjwB3" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>kemono</b><br>
+　ジャンル：<b>クソゲー</b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<h4>[熱2技1語1演1遊2笑0酷2]</h4>　風刺ネタの利いたセンスの良い台詞回しが素晴らしい。シンプルに潰し合う戦闘はksgに見えてわりと爽快。これからの唯一神様の活躍に期待してます。(-/男性/16歳 ～ 20歳)<br><br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<h4>[熱2]</h4>　時事ネタの政治風刺が絡んでいて面白かったので(-/男性/31歳 ～ 40歳)<br><br><h4>[語2]</h4>　ここまで唯一神を使い回しただけですごい(-/男性/21歳 ～ 25歳)<br><br><h4>[笑2]</h4>　アベ聖剣(-/男性/16歳 ～ 20歳)<br><br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="55" class="21">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i055.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【21位】</b></font>
+<font size="4">No.55 ★娘様のジャンプアクション</font> 
+<font size="2">(合計点：<b>169</b>pt / <b>22</b>票 / <b><b>提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>33</b> + 技<b>40</b> + 語<b>7</b> + 演<b>28</b> + 斬<b>22</b> + 遊<b>27</b> + 笑<b>7</b> + 酷<b>5</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s055a.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/55.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/7mgx54j" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>アサリ</b><br>
+　ジャンル：<b>ステージクリア型のアクション</b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<h4>[熱2技2語0演2遊0笑2酷0]</h4>　全体的に丁寧な作りであった。ステージ数は少ないものの、一つ一つが丁寧に作られ、ステージの特色が十分に出ていたと思う。ステージから出ると選択画面が昼から夜になったり、それに伴いBGMが変化したり、一番見るステージ選択画面であるからこそ飽きさせない工夫がされていると思った。(紫蘭/男性/21歳 ～ 25歳)<br><br><h4>[熱2技1語0演1遊1笑2酷0]</h4>　シンプルで分かりやすく、遊びごたえも充分にあるクリア出来ないように見えてもやり直せば出来る絶妙なバランス感覚が素晴らしい(-/男性/21歳 ～ 25歳)<br><br><h4>[熱1技2語1演2遊2笑1酷1]</h4>　とても丁寧で緻密な作りこみが窺えます。RPGツクールでこんなアクションが作れてしまうことに驚愕。(-/性別不明/31歳 ～ 40歳)<br><br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<h4>[技2]</h4>　敵の動作が細かく丁寧。(紫蘭/男性/21歳 ～ 25歳)<br><br><h4>[遊2]</h4>　難易度調節が効いていること(紫蘭/男性/21歳 ～ 25歳)<br><br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="12" class="22">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2003.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i012.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【22位】</b></font>
+<font size="4">No.12 ★Re:Birthible</font> 
+<font size="2">(合計点：<b>159.3</b>pt / <b>18</b>票 / <b><b>遅刻提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>30</b> + 技<b>33</b> + 語<b>21</b> + 演<b>27</b> + 斬<b>26</b> + 遊<b>21</b> + 笑<b>11</b> + 酷<b>8</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s012a.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/12.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/enPSwhG" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2003</b><br>
+　作者：<b>めふぃすと</b><br>
+　ジャンル：<b>召喚型世界やり直しRPG</b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<h4>[熱2技2語1演2遊1笑2酷0]</h4>　戦闘システムが非常によく出来ていると思います一部技が強すぎるかなと思わせつつメリットデメリットのバランスや同様の技を相手が使うこともあるためいい意味で辛い戦闘も出来上がるので非常に私の好みです。コストがゆるすぎるせいであまりPT作るときにコスト面で困った記憶が皆無なのでこのシステムなくても良かったのではとは思いました でもキャラパワーの指標としてちょうどいいのかな・・・?レベリングも必要だったらすればいいし、しなくてもいいという体なのも良。ストーリーは戦闘面に比べるとすばらしい出来だとは思いませんが悪くはないと思います。よくあるループものという感じ。まず30分くらいやって戦闘システムに慣れた時に戦闘だけで面白いと思えればその人はそのままエンディングまでプレイできそうな気がします。(-/男性/21歳 ～ 25歳)<br><br><h4>[熱2技2語1演1遊2笑1酷0]</h4>　非常に作りこまれた自作戦闘やメニューが非常に印象的な作品でした。序盤は少し単調ですが仲間が増えてくると戦略性がでてきて考えさせられました。特にラスボス戦では今まで使っていなかった意外なユニットが活躍するなど、驚かされる点がありました。不満点を上げるとすれば上位互換がある味方ユニットが多数存在しており、組めるパーティの選択肢が思ったよりも少なかったことと、属性の優劣が直感的に理解できなかったことでしょうか。ストーリーは過去作や専門用語などが説明不足に感じましたがループものとして面白かったです。(-/男性/26歳 ～ 30歳)<br><br><h4>[熱2技2語2演2遊2笑2酷2]</h4>　フリゲ2013で前作に投票したくらい好きなシリーズなので、今回もPIAI。いろいろ編成を考えて楽しめました。ゲーム以外の部分では、素材がフォルダで階層化されているのに気づいて2009Uすごいなーとか思ったりもしました。(-/-/21歳 ～ 25歳)<br><br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<h4>[熱1]</h4>　手持ち少ない序盤のハードル高すぎィ!それを超えればハマる(-/男性/21歳 ～ 25歳)<br><br><h4>[遊1]</h4>　スキルや状態の数が多い割に、敵の行動の説明が少ない。(-/男性/26歳 ～ 30歳)<br><br><h4>[笑1]</h4>　姉さん真顔で下ネタ捻じ込んでくるのやめてください。(-/男性/26歳 ～ 30歳)<br><br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="26" class="23">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i026.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【23位】</b></font>
+<font size="4">No.26 ★VIPRPG OP</font> 
+<font size="2">(合計点：<b>154</b>pt / <b>19</b>票 / <b><b>提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>20</b> + 技<b>24</b> + 語<b>6</b> + 演<b>34</b> + 斬<b>23</b> + 遊<b>12</b> + 笑<b>20</b> + 酷<b>15</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s026a.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/26.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/3MWBc4l" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>マーミア</b><br>
+　ジャンル：<b>見るｋｓｇ </b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<h4>[技2]</h4>　これだけ良くかいたなぁと感心しました。(だむ/男性/26歳 ～ 30歳)<br><br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="3" class="24">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i003.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【24位】</b></font>
+<font size="4">No.3 ★RPGツクール the run </font> 
+<font size="2">(合計点：<b>137</b>pt / <b>23</b>票 / <b><b>提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>26</b> + 技<b>20</b> + 語<b>1</b> + 演<b>18</b> + 斬<b>25</b> + 遊<b>36</b> + 笑<b>8</b> + 酷<b>3</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s003a.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/3.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/a4GnH5O" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>ユニ</b><br>
+　ジャンル：<b>レースゲーム </b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<h4>[熱1技1語0演1遊1笑1酷0]</h4>　タイトル画面から伝わるレトロな雰囲気とシンプルなゲーム内容がマッチしていて作品に統一感がある。ツクール2000製にしては珍しいレースアクションというジャンルなのだけどスピード感も十分だ。レースゲーム故にシンプルでプレイヤーの出来ることが少ない。プレイヤーの入力がキャラクターの方向転換にしか使われなく、より入力で出来ることを増やすか、より入力しないで出来ることを増やすかでゲーム性の発展方向が見えてきそう。単純な繰り返し遊ぶゲームなので、リトライがお手軽でストレスなく再挑戦できるのはありがたい。(サルトルおっかけた/男性/26歳 ～ 30歳)<br><br><h4>[熱1技1語0演1遊1笑2酷0]</h4>　思わず何度もプレイしてしまう面白さ。手頃にクリアできる短さとシンプルなゲームルールなので、やりやすくハマりやすい。高得点取ろうとつい躍起になってしまう!(-/男性/21歳 ～ 25歳)<br><br><h4>[熱2技2語0演2遊2笑2酷1]</h4>　シンプルながら、奥が深い見下ろし型レースゲーム。反射神経を使ってアウトインアウト。連続クリッピングポイントボーナスでのスコア上昇は快感。(marukaz/男性/16歳 ～ 20歳)<br><br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<h4>[熱2]</h4>　シンプルなルールであるため、遊びやすくなにより爽快感がある(-/-/-)<br><br><h4>[技1]</h4>　2kのアクションでは難しいスピード感がよく出ていたと思う。(サルトルおっかけた/男性/26歳 ～ 30歳)<br><br><h4>[斬2]</h4>　かけっこをここまで軽くスピーディにできるのは多分この人だけ!(生麦生米生卵/男性/21歳 ～ 25歳)<br><br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="8" class="25">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i008.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【25位】</b></font>
+<font size="4">No.8 ★無双庫番</font> 
+<font size="2">(合計点：<b>133</b>pt / <b>18</b>票 / <b><b>提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>27</b> + 技<b>26</b> + 語<b>4</b> + 演<b>19</b> + 斬<b>28</b> + 遊<b>24</b> + 笑<b>1</b> + 酷<b>4</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s008a2.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/8.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/cgQz5b1" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>海老１０</b><br>
+　ジャンル：<b>思考停止パズル</b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<h4>[熱2技2語0演2遊2笑1酷0]</h4>　 すでに完成されたパズルの印象を持つ倉庫番をこのように活かしてくるとは思いませんでした。 技を無制限に使えることで、一つの面がクリアできないがために、以降の面に進めないパズルゲームにつきものの理不尽さがなくなっています。それでいてクリアしたらクリアしたで「次はまっとうにクリアできるようにしよう」とやる気が向上します。 ルールはシンプルながら、チュートリアル的な最初のワールドも挟んであるので、非常にとっつきやすい。とても面白かったです。(-/男性/26歳 ～ 30歳)<br><br><h4>[熱2技2語1演1遊2笑1酷0]</h4>　どこでどのチートを使えばいいかなど考えるのが楽しい。ありそうでなかったシステムで面白かった。(-/-/-)<br><br><h4>[熱2技1語0演1遊2笑1酷0]</h4>　パズルにイライラし始めたらグラビティ&ブレイクでウサ晴らししてからまたスタートや(-/男性/21歳 ～ 25歳)<br><br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<h4>[熱1]</h4>　スキル使用の試行錯誤が良かった(-/-/-)<br><br><h4>[斬1]</h4>　無制限で能力を使える倉庫番は初めてプレイした。(-/男性/26歳 ～ 30歳)<br><br><h4>[遊1]</h4>　技選びがちょっとだけ面倒くさかったです(-/男性/26歳 ～ 30歳)<br><br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="37" class="26">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i037.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【26位】</b></font>
+<font size="4">No.37 ★ブームズショウユキャンプ </font> 
+<font size="2">(合計点：<b>111</b>pt / <b>16</b>票 / <b><b>提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>9</b> + 技<b>8</b> + 語<b>1</b> + 演<b>18</b> + 斬<b>24</b> + 遊<b>15</b> + 笑<b>18</b> + 酷<b>18</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s037a.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/37.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/a4HDPpO" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>いれあ </b><br>
+　ジャンル：<b>腹筋崩壊装置（物理） </b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<h4>[熱1技1語0演1遊2笑1酷1]</h4>　ネタ枠かと思いきやどこぞのブートキャンプを思わせる本格的な運動ゲームだった。この手の内容は初だったが、非常に楽しい運動が出来る。この作品にはツクールの新しい可能性を見ることができた!運動の種類と曲を追加したバージョンを俺はいつまでも待ってるぞ!!(-/男性/26歳 ～ 30歳)<br><br><h4>[熱0技1語0演1遊1笑2酷0]</h4>　 ビリーズブートキャンプをツクールでやった作品だけど、実際にモニターの前で身体を動かして見て思ったのは、意外に相性いいなと。 ブーム君の画像がアップで出てきて、そのドットに任せて動くだけなんだけど、ドットがあまりにも抽象的すぎるので、身体に無理させない範囲で長期間の運動をさせることができる。普段運動しない身には中腰だけでもきつく、長時間中腰にさせるだけでも効果があるなァと。(-/男性/26歳 ～ 30歳)<br><br><h4>[熱2技0語0演1遊2笑2酷2]</h4>　このゲームで腹筋が鍛えられました!(30歳 会社員♂)(-/男性/26歳 ～ 30歳)<br><br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<h4>[演2]</h4>　ブームくんのアクションがかわいい。(だむ/男性/26歳 ～ 30歳)<br><br><h4>[斬2]</h4>　何故この発想が出来たのか作者の頭の中が見たい(-/男性/26歳 ～ 30歳)<br><br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="58" class="27">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i058.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【27位】</b></font>
+<font size="4">No.58 ★ksg流しそうめん</font> 
+<font size="2">(合計点：<b>103</b>pt / <b>13</b>票 / <b><b>提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>14</b> + 技<b>14</b> + 語<b>6</b> + 演<b>13</b> + 斬<b>9</b> + 遊<b>6</b> + 笑<b>21</b> + 酷<b>20</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s058a.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/58.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/h9PhYdD" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>さらば愛しの流しそうめん</b><br>
+　ジャンル：<b>ksg</b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<h4>[熱1技1語0演1遊0笑1酷2]</h4>　2013年に恐らくは最も数多くの作品をスレに投下された方の、そのごく一部をまとめられたのが本作です。スレ投下作品を逐一PIAIされている方には見たことのあるものばかりでしょうが、普段スレの作品にはあまり触れる機会のない方には恐らく珠玉のこれはひどい作品ばかりが目白押しだと思います。(Hiro/男性/26歳 ～ 30歳)<br><br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<h4>[熱1]</h4>　例のシューティングのせい。間違いない。(だむ/男性/26歳 ～ 30歳)<br><br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="36" class="28">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i036.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【28位】</b></font>
+<font size="4">No.36 ★ゴメスのあなから</font> 
+<font size="2">(合計点：<b>99</b>pt / <b>11</b>票 / <b><b>遅刻提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>11</b> + 技<b>14</b> + 語<b>8</b> + 演<b>12</b> + 斬<b>15</b> + 遊<b>9</b> + 笑<b>19</b> + 酷<b>22</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s036a.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/36.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/1yUOAd7" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>一般1-3</b><br>
+　ジャンル：<b>糞味噌ADV</b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<h4>[熱2技2語2演2遊2笑2酷2]</h4>　 もう「いつも通り最低」の一言で十分ですね。 最低過ぎて素晴らしいですよ、ほんと。(-/男性/26歳 ～ 30歳)<br><br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<h4>[演2]</h4>　画面が汚すぎる!!(褒め言葉)(だむ/男性/26歳 ～ 30歳)<br><br><h4>[酷2]</h4>　想像を絶するひどさ(-/-/-)<br><br><h4>[酷2]</h4>　すべてがひどいが、音ゲーが最もひどかった(汚かった)(-/男性/26歳 ～ 30歳)<br><br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="75" class="29">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i075.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【29位】</b></font>
+<font size="4">No.75 ★カニ爆</font> 
+<font size="2">(合計点：<b>96.3</b>pt / <b>9</b>票 / <b><b>遅刻提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>14</b> + 技<b>10</b> + 語<b>12</b> + 演<b>14</b> + 斬<b>14</b> + 遊<b>12</b> + 笑<b>15</b> + 酷<b>16</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s075a2.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/75.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/fum2ZOG" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>◆2aLlGIkY8s</b><br>
+　ジャンル：<b>ksg</b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<h4>[熱2技0語2演2遊2笑2酷2]</h4>　笑って遊んで熱中しての三本立てですよ奥さんやっぱすぐ死ぬデフォ戦はおもれーわ(-/男性/21歳 ～ 25歳)<br><br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<h4>[演2]</h4>　個人的にBGMがドンピシャだった(-/男性/21歳 ～ 25歳)<br><br><h4>[酷2]</h4>　例の腕の本体ってこんなだったのか!!w(だむ/男性/26歳 ～ 30歳)<br><br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="33" class="30">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i033.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【30位】</b></font>
+<font size="4">No.33 ★デス蜜柑</font> 
+<font size="2">(合計点：<b>89</b>pt / <b>15</b>票 / <b><b>提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>10</b> + 技<b>2</b> + 語<b>12</b> + 演<b>12</b> + 斬<b>10</b> + 遊<b>15</b> + 笑<b>8</b> + 酷<b>20</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s033a.jpg" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/33.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/biPXu5i" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>徳明</b><br>
+　ジャンル：<b>読むerg</b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<h4>[熱0技0語1演1遊0笑1酷0]</h4>　 会話がちゃんと活きていて、脚本は丁寧だなと感じました。言葉選びにも雰囲気が感じられてグー。 ただ、反面全体的な雰囲気は無難過ぎます。エロとしても凌辱としても中途半端な感は否めません(特にオチは飽きたのかと思いました)。 エロ好きの人を凌辱過ぎて逃し、凌辱好きな人を無難なところにまとめて逃し、どっちつかずな作品だと思います。文章ははっきりしていて読みやすかったので、変にセーブをかけず、もっと徹底的にやってもよかったのでは?(-/男性/26歳 ～ 30歳)<br><br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<h4>[斬2]</h4>　カリスマのある死の支配者ははじめてみました。(だむ/男性/26歳 ～ 30歳)<br><br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="27" class="31">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i027.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【31位】</b></font>
+<font size="4">No.27 ★紅白踏み台合戦</font> 
+<font size="2">(合計点：<b>80</b>pt / <b>10</b>票 / <b><b>提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>5</b> + 技<b>7</b> + 語<b>6</b> + 演<b>11</b> + 斬<b>11</b> + 遊<b>11</b> + 笑<b>16</b> + 酷<b>13</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s027a.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/27.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/2B5XITq" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>もろざき</b><br>
+　ジャンル：<b><font size=1>踏み台を題材としたミニゲーム集＋おまけ</font></b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<h4>[熱1技0語2演2遊0笑2酷2]</h4>　 嫌いじゃないぜ。(-/男性/26歳 ～ 30歳)<br><br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<h4>[笑1]</h4>　第 一 話 (ドン(-/男性/21歳 ～ 25歳)<br><br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="25" class="32">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i025.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【32位】</b></font>
+<font size="4">No.25 ★もしもの宇宙戦争</font> 
+<font size="2">(合計点：<b>77</b>pt / <b>10</b>票 / <b><b>提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>12</b> + 技<b>8</b> + 語<b>6</b> + 演<b>10</b> + 斬<b>11</b> + 遊<b>10</b> + 笑<b>9</b> + 酷<b>11</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s025a2.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/25.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/5WHBNId" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>ジャポニカ学習帳ブラザーズ</b><br>
+　ジャンル：<b><font size=1>みんな大好きS・W（スペース・ウォーズ）</font></b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<h4>[熱2技1語1演1遊1笑2酷1]</h4>　あまりにひどすぎるデフォ戦三昧RPG。シロレオンまでカバーしていることに驚きを禁じ得ない!(だむ/男性/26歳 ～ 30歳)<br><br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<h4>[熱2]</h4>　ネタのセレクトがマニアックすぎる!w(だむ/男性/26歳 ～ 30歳)<br><br><h4>[遊2]</h4>　お助け機能の充実。時間さえかければ移動でMP回復できるのいい(ルイギリ/男性/16歳 ～ 20歳)<br><br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="32" class="32">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/yaru.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【32位】</b></font>
+<font size="4">No.32 ★なすーんが脱出するみたいなもの</font> 
+<font size="2">(合計点：<b>77</b>pt / <b>18</b>票 / <b><b>提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>18</b> + 技<b>7</b> + 語<b>8</b> + 演<b>5</b> + 斬<b>7</b> + 遊<b>17</b> + 笑<b>7</b> + 酷<b>8</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s032a.jpg" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/32.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/h0Xc5x1" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>なかな</b><br>
+　ジャンル：<b>脱出ゲームみたいな</b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<h4>[熱1技1語1演0遊1笑0酷1]</h4>　脱出ゲームとして短くまとまっていて、大人と子供の姿の状態でイベントが変わった点が面白かったです。欲を言えばチェーンソーの所などでキャラチップを使った演出が欲しかったです。しかし演出にウェイトが多く、移動速度にも難があり、リスタートができずにゲームオーバーになってしまったのが残念でした。次回作も期待しております。(-/男性/21歳 ～ 25歳)<br><br><h4>[熱1技0語0演0遊0笑1酷0]</h4>　 バグが多かったり、謎も微妙だったりと、脱出ゲー本来の面白さはあまり受け取れませんでしたが、しっかりとした作りではありました。 個人的には長さはこのぐらいでちょうどよいですし、前に進む感じがするのは楽しかったです。 ただ、電話など一部にランダム要素があるのはもったいなく感じました。脱出ゲーでは面倒くさくなるだけです。(-/男性/26歳 ～ 30歳)<br><br><h4>[熱1技1語0演0遊0笑2酷1]</h4>　バッドエンドを迎えるなすーんはかわいいと思いました(錯乱)(だむ/男性/26歳 ～ 30歳)<br><br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<h4>[演0]</h4>　脱出ゲームなので、どっきりや意外性のある仕掛けが欲しかった(-/男性/26歳 ～ 30歳)<br><br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="52" class="34">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i052.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【34位】</b></font>
+<font size="4">No.52 ★同じ色の物体が４つほどくっつくと消えるバグを搭載したゲーム</font> 
+<font size="2">(合計点：<b>76</b>pt / <b>11</b>票 / <b><b>提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>10</b> + 技<b>21</b> + 語<b>1</b> + 演<b>10</b> + 斬<b>12</b> + 遊<b>13</b> + 笑<b>5</b> + 酷<b>4</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s052a.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/52.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/1ItciEb" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>UMA</b><br>
+　ジャンル：<b>落ち物のたぐい</b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<h4>[熱1技2語0演1遊1笑2酷0]</h4>　階段五連鎖が限界の俺は19連鎖の課題を見て・・泣いた・・。(だむ/男性/26歳 ～ 30歳)<br><br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<h4>[技2]</h4>　エディター搭載とかあたまおかしい(-/男性/26歳 ～ 30歳)<br><br><h4>[技2]</h4>　ツクールでぷよを再現しているため(ユニ/男性/26歳 ～ 30歳)<br><br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="40" class="35">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i040.jpg" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【35位】</b></font>
+<font size="4">No.40 ★キュア・プラムス</font> 
+<font size="2">(合計点：<b>68</b>pt / <b>8</b>票 / <b><b>提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>9</b> + 技<b>14</b> + 語<b>2</b> + 演<b>13</b> + 斬<b>10</b> + 遊<b>4</b> + 笑<b>9</b> + 酷<b>7</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s040a.jpg" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/40.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/9sVCsOJ" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>ABS</b><br>
+　ジャンル：<b>何かを知るためのRPG</b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<h4>[熱1技2語0演2遊1笑0酷0]</h4>　 小学生のころに、ゲーセンでひたすら格ゲーのデモ画面を睨んでいたときのことを思い出した。(-/男性/26歳 ～ 30歳)<br><br><h4>[熱0技2語0演1遊1笑0酷0]</h4>　時空覇者の今後の活躍に期待しましょう。(だむ/男性/26歳 ～ 30歳)<br><br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<h4>[技2]</h4>　これが限界TOPPAEXEのチカラか・・。(だむ/男性/26歳 ～ 30歳)<br><br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="70" class="36">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i070.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【36位】</b></font>
+<font size="4">No.70 ★核にゃんの魔法牧場</font> 
+<font size="2">(合計点：<b>65</b>pt / <b>9</b>票 / <b><b>提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>10</b> + 技<b>11</b> + 語<b>5</b> + 演<b>6</b> + 斬<b>13</b> + 遊<b>4</b> + 笑<b>7</b> + 酷<b>9</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s070a.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/70.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/ePwqqa3" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>名無し猫はこたつで永眠したい</b><br>
+　ジャンル：<b>シミュレーション</b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<h4>[熱1技2語0演1遊2笑0酷0]</h4>　霊にゃん前隠すな(例にゃん/男性/31歳 ～ 40歳)<br><br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<h4>[語2]</h4>　真っ黒な世界観がとても好みでした。(-/-/-)<br><br><h4>[遊0]</h4>　弾の説明がある場所が分かりづらく、終盤まで気付きませんでした(-/-/-)<br><br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="44" class="37">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i044.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【37位】</b></font>
+<font size="4">No.44 ★玉露日記</font> 
+<font size="2">(合計点：<b>62</b>pt / <b>12</b>票 / <b><b>提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>10</b> + 技<b>5</b> + 語<b>14</b> + 演<b>11</b> + 斬<b>3</b> + 遊<b>12</b> + 笑<b>4</b> + 酷<b>3</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s044a.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/44.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/7OBawuH" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>ミスと</b><br>
+　ジャンル：<b>やるゲ</b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<h4>[熱1技0語1演1遊0笑0酷0]</h4>　つんつんの主人公はいい!三将軍を映せ、三将軍の戦いぶりを!(p音/-/-)<br><br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="34" class="38">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i034.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【38位】</b></font>
+<font size="4">No.34 ★包丁とデュラハン</font> 
+<font size="2">(合計点：<b>59</b>pt / <b>10</b>票 / <b><b>提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>9</b> + 技<b>6</b> + 語<b>9</b> + 演<b>11</b> + 斬<b>5</b> + 遊<b>7</b> + 笑<b>7</b> + 酷<b>5</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s034a.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/34.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/2t4jEwd" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>名無しについて</b><br>
+　ジャンル：<b>(作者の)過去を振り返る短編集</b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<h4>[熱1技2語2演2遊2笑2酷1]</h4>　素晴らしいオープニングでした。(全/男性/21歳 ～ 25歳)<br><br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="45" class="38">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i045.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【38位】</b></font>
+<font size="4">No.45 ★西脳</font> 
+<font size="2">(合計点：<b>59</b>pt / <b>7</b>票 / <b><b>提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>6</b> + 技<b>3</b> + 語<b>5</b> + 演<b>9</b> + 斬<b>12</b> + 遊<b>2</b> + 笑<b>8</b> + 酷<b>14</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s045a.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/45.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/cExNzSe" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>さとう　おさむ</b><br>
+　ジャンル：<b>悪ノリやるゲ</b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<h4>[熱1技0語0演1遊1笑0酷1]</h4>　このゲームのお陰で麻原のものまねが出来るようになりました(佐藤ミセス/男性/31歳 ～ 40歳)<br><br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="29" class="40">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i029.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【40位】</b></font>
+<font size="4">No.29 ★ミリィのドタバタな日常</font> 
+<font size="2">(合計点：<b>57</b>pt / <b>7</b>票 / <b><b>提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>8</b> + 技<b>5</b> + 語<b>8</b> + 演<b>8</b> + 斬<b>7</b> + 遊<b>7</b> + 笑<b>8</b> + 酷<b>6</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s029a.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/29.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/1IzrqW6" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>五つ葉</b><br>
+　ジャンル：<b><font size=1>ksgだったり見るゲだったりデフォ戦だったり</font></b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<h4>[熱1技0語1演1遊1笑1酷1]</h4>　 人によってVIPRPGの中にいたりいなかったりするミリィにしっかりとしたポジションを与えている感じがよかったです。 作品全体を通して、作者さんの見せたいミリィを堪能させていただきました。(-/男性/26歳 ～ 30歳)<br><br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<h4>[酷2]</h4>　ゴメスが金砕されなかった事とゴメスの金砕を否定されたところ(全/男性/21歳 ～ 25歳)<br><br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="53" class="41">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/miru.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【41位】</b></font>
+<font size="4">No.53 ★2013年新キャラ総決算</font> 
+<font size="2">(合計点：<b>54</b>pt / <b>10</b>票 / <b><b>提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>6</b> + 技<b>3</b> + 語<b>8</b> + 演<b>4</b> + 斬<b>7</b> + 遊<b>8</b> + 笑<b>8</b> + 酷<b>10</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s053a.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/53.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/gOc0FhR" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>2013年新キャラ総決算の作者</b><br>
+　ジャンル：<b>見るゲというksg</b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="64" class="42">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i064.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【42位】</b></font>
+<font size="4">No.64 ★Angel゜Hal0</font> 
+<font size="2">(合計点：<b>46</b>pt / <b>5</b>票 / <b><b>提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>8</b> + 技<b>9</b> + 語<b>2</b> + 演<b>6</b> + 斬<b>8</b> + 遊<b>8</b> + 笑<b>2</b> + 酷<b>3</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s064a.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/64.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/2yGa1EA" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>トカゲのしっぽな</b><br>
+　ジャンル：<b>体験版</b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="38" class="43">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/rpg.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【43位】</b></font>
+<font size="4">No.38 ★オクデッド</font> 
+<font size="2">(合計点：<b>35</b>pt / <b>4</b>票 / <b><b>提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>6</b> + 技<b>2</b> + 語<b>8</b> + 演<b>7</b> + 斬<b>6</b> + 遊<b>6</b> + 笑<b>0</b> + 酷<b>0</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s038a.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/38.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/7X1qIBh" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>きぎぬ</b><br>
+　ジャンル：<b>必死デフォ戦</b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<h4>[熱1技1語2演2遊2笑2酷0]</h4>　 なにこれ枠かと思いきや、意外にもちゃんとしたRPG。 一人ボスを殺るたびに、味方も一人死ぬ設定が実にいい。実際、人類をせん滅させようとしている魔王軍と真っ向で戦おうとしたらこのぐらいの犠牲は起きて当然で、RTP顔のシンプルな表情に、いろんな意味をプレイヤー側で加えることができる。 個人的にこのゲームで評価したいのは、容量の少なさだ。RTPを駆使して、異常なほど容量を少なくすることに成功している。 使わなかった画像すらも入れたままで、容量が重くなっても気にしないツクラーが増えている中、この作品のシンプルさは見習うべきだと思った。なんのために実行ファイルを抜いてうpしているのか。その意味をもう一度取りかえしたい。(-/男性/26歳 ～ 30歳)<br><br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<h4>[熱2]</h4>　取捨選択がアツかった。(だむ/男性/26歳 ～ 30歳)<br><br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="41" class="44">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i041.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【44位】</b></font>
+<font size="4">No.41 ★偽エルと水産のラブラブデート</font> 
+<font size="2">(合計点：<b>34</b>pt / <b>9</b>票 / <b><b>提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>2</b> + 技<b>2</b> + 語<b>2</b> + 演<b>5</b> + 斬<b>2</b> + 遊<b>5</b> + 笑<b>7</b> + 酷<b>9</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s041a.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/41.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/8v2SASw" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>ダレヤネン</b><br>
+　ジャンル：<b>ksg</b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<h4>[酷1]</h4>　ウォーターさんの必死さですかね・・。(だむ/男性/26歳 ～ 30歳)<br><br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="59" class="45">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i059.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【45位】</b></font>
+<font size="4">No.59 ★闇Ⅰハロウィン</font> 
+<font size="2">(合計点：<b>32.4</b>pt / <b>5</b>票 / <b><b>遅刻提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>5</b> + 技<b>6</b> + 語<b>5</b> + 演<b>7</b> + 斬<b>4</b> + 遊<b>3</b> + 笑<b>4</b> + 酷<b>2</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s059a.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/59.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/3xnQFS6" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>根</b><br>
+　ジャンル：<b>ゆ○みちオマージュ</b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<h4>[熱1技1語1演1遊1笑1酷1]</h4>　先制攻撃かお菓子を貰うか、追加行動時に攻撃するかどのスキルを使うかの選択で正解の選択肢がはっきりしないのが気になったもっと敵ごとにメリハリがある対応方を用意し、それを敵の登場時台詞なりで情報提示してくれればもっとよくなったと思う(-/-/-)<br><br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="22" class="46">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i022.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【46位】</b></font>
+<font size="4">No.22 ★R-Ⅱ The batter </font> 
+<font size="2">(合計点：<b>31.5</b>pt / <b>8</b>票 / <b><b>遅刻提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>9</b> + 技<b>6</b> + 語<b>3</b> + 演<b>3</b> + 斬<b>4</b> + 遊<b>8</b> + 笑<b>1</b> + 酷<b>1</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s022a2.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/22.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/bzqgAjH" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>ケイト</b><br>
+　ジャンル：<b>デフォルト戦闘</b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="62" class="47">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i062.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【47位】</b></font>
+<font size="4">No.62 ★あんこくのみらいで</font> 
+<font size="2">(合計点：<b>30</b>pt / <b>4</b>票 / <b><b>提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>4</b> + 技<b>4</b> + 語<b>6</b> + 演<b>7</b> + 斬<b>4</b> + 遊<b>5</b> + 笑<b>0</b> + 酷<b>0</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s062a.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/62.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/be15B6h" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>中の外の人◆nakaOgUcqs</b><br>
+　ジャンル：<b>デフォ戦・見るゲ</b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="23" class="48">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i023.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【48位】</b></font>
+<font size="4">No.23 ★もしも新キャララッシュだったら</font> 
+<font size="2">(合計点：<b>29</b>pt / <b>5</b>票 / <b><b>提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>3</b> + 技<b>3</b> + 語<b>4</b> + 演<b>4</b> + 斬<b>5</b> + 遊<b>3</b> + 笑<b>3</b> + 酷<b>4</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s023a.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/23.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/4cltHsP" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>撃GUN-V</b><br>
+　ジャンル：<b><font size=1>ｋｓｇだったり見るゲーだったりデフォ戦だったり・・・</font></b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<h4>[熱1技1語2演2遊2笑1酷1]</h4>　新キャラがいっぱい出てツクール時の参考になりました(全/男性/21歳 ～ 25歳)<br><br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="54" class="48">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/VX.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i054.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【48位】</b></font>
+<font size="4">No.54 ★セイブ・ザ・ロード</font> 
+<font size="2">(合計点：<b>29</b>pt / <b>4</b>票 / <b><b>提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>3</b> + 技<b>5</b> + 語<b>4</b> + 演<b>3</b> + 斬<b>2</b> + 遊<b>2</b> + 笑<b>5</b> + 酷<b>5</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s054a.jpg" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/54.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/dfZAfV5" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>VX</b><br>
+　作者：<b>暁美レイヴン</b><br>
+　ジャンル：<b>RPG</b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="57" class="50">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i057.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【50位】</b></font>
+<font size="4">No.57 ★もしも全自作音楽でダークアーディス掌編だったら</font> 
+<font size="2">(合計点：<b>28</b>pt / <b>6</b>票 / <b><b>提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>2</b> + 技<b>1</b> + 語<b>3</b> + 演<b>6</b> + 斬<b>5</b> + 遊<b>4</b> + 笑<b>1</b> + 酷<b>6</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s057a.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/57.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/RM4A0S" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>パシャ・アスポルフ</b><br>
+　ジャンル：<b>全自作音楽掌編</b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<h4>[演2]</h4>　音楽が全自作っていうのはすごく大変だと思うので(-/男性/21歳 ～ 25歳)<br><br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="15" class="51">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i015.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【51位】</b></font>
+<font size="4">No.15 ★闇勇者の過去</font> 
+<font size="2">(合計点：<b>17.1</b>pt / <b>2</b>票 / <b><b>遅刻提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>3</b> + 技<b>2</b> + 語<b>3</b> + 演<b>1</b> + 斬<b>4</b> + 遊<b>1</b> + 笑<b>2</b> + 酷<b>3</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s015a.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/15.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/cy8Ltum" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>フェニル</b><br>
+　ジャンル：<b>RPG</b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="16" class="52">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/VXAce.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i016.gif" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【52位】</b></font>
+<font size="4">No.16 ★霊波乃科学</font> 
+<font size="2">(合計点：<b>15</b>pt / <b>3</b>票 / <b><b>提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>0</b> + 技<b>0</b> + 語<b>1</b> + 演<b>2</b> + 斬<b>5</b> + 遊<b>0</b> + 笑<b>1</b> + 酷<b>6</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s016a.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/16.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/hsVXxrG" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>VXAce</b><br>
+　作者：<b>佐藤ミセス</b><br>
+　ジャンル：<b><font size=1>公的秩序崩壊レボリューションプレイングゲーム</font></b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="46" class="53">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/yaru.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【53位】</b></font>
+<font size="4">No.46 ★もしも時を越えて（disk2</font> 
+<font size="2">(合計点：<b>13.5</b>pt / <b>3</b>票 / <b><b>遅刻提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>2</b> + 技<b>3</b> + 語<b>2</b> + 演<b>4</b> + 斬<b>1</b> + 遊<b>3</b> + 笑<b>0</b> + 酷<b>0</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s046a.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/46.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/1rBxSIz" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>若葉勢</b><br>
+　ジャンル：<b>やるげー</b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="73" class="54">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i073.gif" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【54位】</b></font>
+<font size="4">No.73 ★俺がtkったアクションホコグラ素材集2013～年末年始やらないか大バーゲン～</font> 
+<font size="2">(合計点：<b>8</b>pt / <b>4</b>票 / <b><b>提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>0</b> + 技<b>3</b> + 語<b>0</b> + 演<b>3</b> + 斬<b>2</b> + 遊<b>0</b> + 笑<b>0</b> + 酷<b>0</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s073a.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/73.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/d5oFubP" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>Trebble_Max</b><br>
+　ジャンル：<b>素材見るゲーksg（不定期で追加・更新）</b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="35" class="55">
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/XP.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/yaru.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【55位】</b></font>
+<font size="4">No.35 ★北の宿から。</font> 
+<font size="2">(合計点：<b>6</b>pt / <b>2</b>票 / <b><b>提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>1</b> + 技<b>2</b> + 語<b>1</b> + 演<b>0</b> + 斬<b>1</b> + 遊<b>0</b> + 笑<b>1</b> + 酷<b>0</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ff7777" class="red"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s035a2.png" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/35.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/agHAwzC" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>XP</b><br>
+　作者：<b>OPUWA</b><br>
+　ジャンル：<b>アドベンチャー風食育RPG</b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ <li id="14" class="56">
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td width="16" bgcolor="#000000"><img src="ent/i/2000.png" alt="" width="16" height="32" /></td>
+<td width="32" bgcolor="#000000"><img src="ent/i/i014.png" alt="" width="32" height="32" /></td>
+<td>
+<font size="4"><b>【56位】</b></font>
+<font size="4">No.14 ★もしもサバイバーズ</font> 
+<font size="2">(合計点：<b>1</b>pt / <b>2</b>票 / <b><b>提出済</b></b>)</font> 
+<br>
+　　<font size="2">熱<b>0</b> + 技<b>0</b> + 語<b>0</b> + 演<b>0</b> + 斬<b>0</b> + 遊<b>0</b> + 笑<b>0</b> + 酷<b>1</b>
+</tr></table>
+<table border="1" width="900" bgcolor="#ffffff" class="white"><tr>
+<td bgcolor="#dcdcdc" width="320"><img src="ent/s/s014a.jpg" width="320" height="240" border="0"></td>
+<td bgcolor="#dcdcdc">
+<div style="height: 240px; overflow: auto;">
+<p>
+<font size="4"><a href="ent/14.html" target=_blank>作品紹介</a> / <a href="http://enq-maker.com/d9QUBsO" target=_blank>投票結果</a></font>
+</p>
+<p>
+　使用ツール：<b>2000</b><br>
+　作者：<b>_</b><br>
+　ジャンル：<b>デフォ戦ドッグファイト</b><br>
+</p>
+<p>
+<font size="4"><b>【総評/レビュー】</b></font>
+<br>
+</p>
+<p>
+<font size="4"><b>【各部門への評価】</b></font>
+<br>
+</p>
+
+</div>
+
+</td></tr></table>
+</li>
+
+ 
+
+</ul>
+</div><!--/filterlist-->
+</div><!--/motion2_area1-->
+
+</div><!--/#container-->
+<!--<h2>COPYPASTE &copy; <a href="http://www10.atwiki.jp/vip_rpg/">2013 VIPRPG</a>.</h2>-->
+<script><!--
+var fc2footerparam = 'ver=1'
+    + '&url=' + encodeURIComponent(document.location)
+    + '&service=0'
+    + '&r=' + Math.floor(Math.random() * 99999999999);
+var fc2footertag = "//vip.chps-api.fc2.com/apis/footer/?" + fc2footerparam;
+var script = document.createElement('script');
+script.src = fc2footertag;
+script.charset = "UTF-8";
+script.async = true;
+document.getElementsByTagName('head')[0].appendChild(script);
+//--></script>
+<!-- FC2, inc.-->
+<img src="//media.fc2.com/counter_img.php?id=50" style="display:none" alt="inserted by FC2 system" width="0" height="0">
+<!-- FC2, inc.--></body>
+</html>

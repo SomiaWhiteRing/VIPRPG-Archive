@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2013-kouhaku",
+  "activeFestival": "2013-summer",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -261,6 +261,28 @@
         "catch/2013-gw/replay-review.json"
       ],
       "notes": "源站仍可用，直接恢复 66 个详情（补回 No.00）、66 条图标引用（57 个不同文件）、79 张实际展示／悬停截图、2 张横幅及 55 个历史下载入口；No.13 图标首次源站超时后由已知存档补回。66 份作者及主办留言逐项核对。No.62 按原页和官方讨论页采用同一题名。两种视图桌面验收通过，原貌版 207 个文件无缺口。"
+    },
+    {
+      "festivalId": "2013-kouhaku",
+      "reviewedAt": "2026-10-16",
+      "dataSha256": "45cf501e7039f89672be561808c276eabbc18241c58625978651ac1078f5357e",
+      "works": 76,
+      "screenshotFiles": 115,
+      "status": "reviewed",
+      "sourceEvidence": [
+        "catch/2013-kouhaku/recovery.json",
+        "catch/2013-kouhaku/source-comparison.json",
+        "catch/2013-kouhaku/missing-resource-review.json",
+        "catch/2013-kouhaku/content-review.json"
+      ],
+      "desktopEvidence": [
+        "catch/2013-kouhaku/desktop-review.json",
+        "catch/2013-kouhaku/route-review.json",
+        "catch/2013-kouhaku/image-browser-review.json",
+        "catch/2013-kouhaku/restriction-review.json",
+        "catch/2013-kouhaku/replay-review.json"
+      ],
+      "notes": "直接从可用源站恢复 76 条目录（补回 No.0）；75 个来源详情及 1 个完整受限模板。75 条图标引用、115 张展示／悬停截图、1 张留言图、2 张横幅及 78 个本体／补丁入口逐项核对。No.62、69 的两张悬停图在源站和已查存档未取回，保留缺口并停用失效换图。原貌版含本地脚本依赖和三张跨站横幅，筛选与本地导航已修复并通过双视图桌面验收。"
     }
   ],
   "originalViewsReviewed": [
@@ -319,6 +341,13 @@
       "evidence": [
         "catch/2013-gw/original-view.json",
         "catch/2013-gw/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2013-kouhaku",
+      "evidence": [
+        "catch/2013-kouhaku/original-view.json",
+        "catch/2013-kouhaku/desktop-review.json"
       ]
     }
   ]

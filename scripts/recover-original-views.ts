@@ -6,7 +6,19 @@ import { imageExtension, writeJson } from "./recover-entry-table";
 import { getDictionary } from "../src/lib/i18n";
 import type { WorkEntry } from "../src/lib/types";
 
-const configurations: Record<string, { base: string; manifests: string[]; seeds: Record<string, string>; encoding?: string; liveSource?: boolean; frames?: { menuPage: string; menuName: string; mainName: string } }> = {
+const configurations: Record<string, { base: string; manifests: string[]; seeds: Record<string, string>; encoding?: string; liveSource?: boolean; externalResources?: Record<string, string>; frames?: { menuPage: string; menuName: string; mainName: string } }> = {
+  "2013-kouhaku": {
+    base: "http://vipkohaku2013.web.fc2.com/",
+    manifests: ["source/recovery/manifest.json", "source/external/manifest.json"],
+    seeds: { "index.html": "investigation/original-live.bin" },
+    liveSource: true,
+    externalResources: {
+      "http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js": "linked/jquery-1.7.1.min.js",
+      "http://vipkouhaku05.cs.land.to/viprpgkouhaku2009-top.png": "linked/kouhaku2005.png",
+      "http://vipkouhaku05.cs.land.to/vip2008.png": "linked/kouhaku2008.png",
+      "http://www45.atpages.jp/vipkohaku2012/img/bnkohaku2012_2.png": "linked/kouhaku2012.png",
+    },
+  },
   "2013-gw": {
     base: "http://viprpg2013gw.web.fc2.com/",
     manifests: ["source/recovery/manifest.json"],
@@ -64,8 +76,10 @@ async function main() {
   const inventory: string[][] = JSON.parse(await fs.readFile(`${root}/investigation/original-timemap.bin`, "utf8"));
   const cached = new Map<string, string>();
   const queue = new Set<string>(), files = new Map<string, Buffer>(), failures: Array<{ url: string; requestedUrl?: string; error: string }> = [];
+  const compatibilityFixes: Array<{ page: string; change: string }> = [];
   const recovery = JSON.parse(await fs.readFile(`${root}/recovery.json`, "utf8"));
-  const restrictions: Array<{ no: string; sourcePath: string; resources: Array<{ path: string; kind: string }> }> = recovery.contentRestrictions ?? [];
+  const previousMissing: Array<{ url: string; requestedUrl?: string; error: string }> = JSON.parse(await fs.readFile(`${root}/original-view.json`, "utf8").catch(() => "{}")).missingResources ?? [];
+  const restrictions: Array<{ no: string; sourcePath: string; resources: Array<{ path: string; kind: string }>; relatedUrls?: string[] }> = recovery.contentRestrictions ?? [];
   const catalogue: WorkEntry[] = JSON.parse(await fs.readFile(`src/data/works/${id}.json`, "utf8"));
   const blocked = new Map<string, string>();
   const generatedPlaceholders: string[] = [];
@@ -82,6 +96,7 @@ async function main() {
   const manifest = JSON.parse(await fs.readFile(manifestPath, "utf8").catch(() => "{}"));
   function relative(url: string) {
     const original = new URL(unarchive(url), base);
+    if (config.externalResources?.[original.href]) return config.externalResources[original.href];
     if (original.hostname !== base.hostname || !original.pathname.startsWith(base.pathname)) return undefined;
     const value = decodeURIComponent(original.pathname.slice(base.pathname.length)) || "index.html";
     if (value.split("/").some((part) => part === "..") || value.includes("\\")) throw new Error("Unsafe original resource path");
@@ -133,12 +148,18 @@ async function main() {
       let bytes: Buffer;
       if (cached.has(local)) bytes = await fs.readFile(cached.get(local)!);
       else {
-        if (!process.argv.includes("--fetch")) throw new Error("Missing cached resource; use --fetch");
+        if (!process.argv.includes("--fetch")) {
+          const known = previousMissing.find((failure) => failure.url === original);
+          requestedUrl = known?.requestedUrl;
+          const sourceFailure = (recovery.failures ?? []).find((failure: { sourceUrl?: string }) => failure.sourceUrl === original);
+          const error = known?.error.includes("Missing cached resource") ? sourceFailure?.error : known?.error;
+          throw new Error(error?.replace(/^Error:\s*/, "") ?? "Missing cached resource; use --fetch");
+        }
         const row = inventory.slice(1).find((row) => relative(row[0]) === local);
         const fallback = inventory.slice(1).find((row) => relative(row[0]) === "index.html");
         const capture = row ?? fallback;
         const archiveUrl = capture && `https://web.archive.org/web/${capture[2] || capture[1]}id_/${row?.[0] ?? original}`;
-        const urls = config.liveSource ? [new URL(local, base).href, archiveUrl] : [archiveUrl];
+        const urls = config.liveSource ? [original, archiveUrl] : [archiveUrl];
         let recovered: Buffer | undefined;
         const errors = [];
         for (const url of [...new Set(urls.filter((url): url is string => Boolean(url)))]) {
@@ -167,10 +188,28 @@ async function main() {
           const work = catalogue.find((work) => work.no === restriction.no)!;
           const escape = (text: string) => text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
           if (local === restriction.sourcePath) {
+            if (id === "2013-kouhaku") {
+              const navigation = $("table").first().html();
+              const image = path.posix.relative(path.posix.dirname(local), `restricted/${restriction.no}-screenshot.svg`);
+              const icon = path.posix.relative(path.posix.dirname(local), `restricted/${restriction.no}-icon.svg`);
+              $("body").html(`<div id="container" align="center">
+                <table width="640" border="1" bgcolor="#ffffff">${navigation}</table>
+                <table width="640" border="1" bgcolor="#ffffff"><tr><th width="32"><img src="${icon}" width="32" height="32"></th><td bgcolor="#dddddd">No.${restriction.no} - ${escape(work.title)}</td></tr></table>
+                <img src="${image}" width="640" height="480" alt="${restrictedText.restrictedContent}">
+                <table width="640" border="1" bgcolor="#ffffff">
+                  <tr><td colspan="2" bgcolor="#ff7777">${restrictedText.restrictedContentText}</td></tr>
+                  <tr><td>作者：${escape(work.author)}</td><td>使用ツール：${escape(work.engine || "")}</td></tr>
+                  <tr><td>ジャンル：${escape(work.category || "")}</td><td>配信/投稿：${restrictedText.restrictedContent}</td></tr>
+                  <tr><td colspan="2">作者コメント：<br>${restrictedText.restrictedContentText}</td></tr>
+                  <tr><td colspan="2" bgcolor="#dddddd">管理人コメント：<br>${restrictedText.restrictedContentText}</td></tr>
+                  <tr><td colspan="2">更新履歴：<br>${restrictedText.restrictedContent}</td></tr>
+                </table></div>`);
+            } else {
             const rows = $("table").first().find("tr");
             rows.eq(0).find("a").replaceWith("非表示");
             rows.eq(1).children("td").html(`<p align="center"><img src="${path.posix.relative(path.posix.dirname(local), `restricted/${restriction.no}-screenshot.svg`)}" width="640" height="480" alt="${restrictedText.restrictedContent}"></p>`);
             rows.eq(2).children("td").html(`<p style="font-size:14px;line-height:25px">作者名：${escape(work.author)}<br>製作ツール：${escape(work.engine ?? "")}<br>ジャンル：${escape(work.category ?? "")}<br>作者コメント：${restrictedText.restrictedContentText}<br>━━━━━━━━━━━━━━━━━━━━━━━━━<br>管理人からのコメント<br>${restrictedText.restrictedContentText}</p>`);
+            }
           }
           if (local !== restriction.sourcePath) $("a[href]").filter((_, a) => new URL($(a).attr("href")!, original).pathname === new URL(restriction.sourcePath, base).pathname).each((_, a) => {
             const row = $(a).closest("tr");
@@ -178,9 +217,11 @@ async function main() {
             row.find("a").each((_, link) => { if (new URL($(link).attr("href")!, original).pathname !== new URL(restriction.sourcePath, base).pathname) $(link).replaceWith("非表示"); });
             if (local === "index.html") row.children("td").eq(6).text("非表示");
           });
+          if (restriction.relatedUrls?.length) $("a[href]").filter((_, a) => restriction.relatedUrls!.includes(new URL($(a).attr("href")!, original).href)).replaceWith(restrictedText.restrictedContent);
         }
         $("base").remove();
         $('img[src*="media.fc2.com/counter_img.php"]').remove();
+        $('img[src*="netriver.jp/countriver/"]').remove();
         $("meta[charset]").attr("charset", "UTF-8");
         $("meta[http-equiv]").each((_, element) => {
           if ($(element).attr("http-equiv")?.toLowerCase() === "content-type") $(element).attr("content", "text/html; charset=UTF-8");
@@ -188,11 +229,18 @@ async function main() {
         $("script").each((_, element) => {
           const script = $(element), src = script.attr("src");
           if ((src && !relative(new URL(src, original).href)) || /fc2footerparam|geovisit\(|var\s+jps\s*=|archive_analytics|__wm\./.test(script.html() ?? "")) script.remove();
-          else if (!src) script.html(rewriteAbsoluteStrings((script.html() ?? "").replace(/(["'])([^"'\r\n]+)\1/g, (literal, quote, value) => {
+          else if (!src) {
+            let code = script.html() ?? "";
+            if (id === "2013-kouhaku" && code.includes("$setFilter.children('a')")) {
+              code = code.replace("$setFilter.children('a')", "$setFilter.find('a')");
+              compatibilityFixes.push({ page: local, change: "Bind the source filter links inside their existing paragraph wrapper." });
+            }
+            script.html(rewriteAbsoluteStrings(code.replace(/(["'])([^"'\r\n]+)\1/g, (literal, quote, value) => {
             let url;
             try { url = new URL(value, original).href; } catch { return literal; }
             return invalidPreloads.includes(url) ? `${quote}data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=${quote}` : literal;
           }), original, local));
+          }
         });
         $("[src],[href],[background]").each((_, element) => {
           const node = $(element);
@@ -200,10 +248,15 @@ async function main() {
             const value = node.attr(attr);
             if (!value || value.startsWith("#") || /^(?:data:|javascript:|mailto:)/i.test(value)) continue;
             node.attr(attr, localReference(value, original, local));
+            if (attr === "href" && node.attr("target") === "_blank" && /\.html?$/i.test(relative(new URL(value, original).href) || "")) node.attr("target", "_self");
           }
         });
         $("*").each((_, element) => {
-          for (const attr of Object.keys(element.attribs)) if (attr.startsWith("on")) $(element).attr(attr, rewriteAbsoluteStrings($(element).attr(attr)!, original, local));
+          for (const attr of Object.keys(element.attribs)) if (attr.startsWith("on")) {
+            const text = $(element).attr(attr)!;
+            for (const match of text.matchAll(/this\.src\s*=\s*['"]([^'"]+)['"]/g)) enqueue(match[1], original);
+            $(element).attr(attr, rewriteAbsoluteStrings(text, original, local));
+          }
         });
         $("[style],style").each((_, element) => {
           const text = $(element).attr("style") ?? $(element).html() ?? "";
@@ -236,6 +289,7 @@ async function main() {
     } catch (error) { failures.push({ url: original, requestedUrl, error: String(error) }); }
   }
   const omittedBackgrounds: Array<{ page: string; resource: string }> = [];
+  const omittedHovers: Array<{ page: string; resource: string }> = [];
   const unavailable = new Set(failures.map((failure) => relative(failure.url)));
   for (const [local, bytes] of files) if (/\.html?$/i.test(local)) {
     const $ = cheerio.load(bytes.toString("utf8"));
@@ -246,7 +300,13 @@ async function main() {
         omittedBackgrounds.push({ page: local, resource });
       }
     });
-    if (omittedBackgrounds.some((omission) => omission.page === local)) files.set(local, Buffer.from($.html()));
+    $("[onmouseover],[onmouseout]").each((_, element) => {
+      for (const attr of ["onmouseover", "onmouseout"]) for (const match of ($(element).attr(attr) || "").matchAll(/this\.src\s*=\s*['"]([^'"]+)['"]/g)) {
+        const resource = relative(new URL(match[1], new URL(local, base)).href);
+        if (resource && unavailable.has(resource)) { $(element).removeAttr(attr); omittedHovers.push({ page: local, resource }); }
+      }
+    });
+    if ([...omittedBackgrounds, ...omittedHovers].some((omission) => omission.page === local)) files.set(local, Buffer.from($.html()));
   }
   for (const [local, bytes] of files) {
     const target = `${output}/${local}`;
@@ -262,7 +322,7 @@ async function main() {
   };
   views[id] = { entry: `/original-pages/${id}/index.html`, status: failures.length ? "available-with-documented-omissions" : "available" };
   await writeJson(viewsPath, views);
-  await writeJson(`${root}/original-view.json`, { festivalId: id, sourceEncoding: encoding, entry: views[id].entry, sourceManifests: config.manifests, sourcePages: config.seeds, files: [...files.keys()], generatedPlaceholders, preloadResources, missingResources: failures, omittedBackgrounds, changes: [`Original HTML and CSS normalized from ${encoding} to UTF-8.`, "Same-site links, CSS resources and absolute script/hover URLs use local paths.", "External hosting trackers removed; unavailable unused preloads replaced with an empty image.", "Original pages are displayed inside a sandboxed frame.", ...(omittedBackgrounds.length ? ["Unavailable background references are omitted; the original background colors are retained and missing resources remain documented."] : []), ...(restrictions.length ? ["Restricted entries retain their catalogue row and full detail structure with fixed neutral text and generated placeholders; original restricted descriptions, media and related links are not published."] : []), ...(config.frames ? ["A scoped local message forwards menu clicks to the sibling frame while preserving the original frameset and sandbox isolation."] : [])], desktopReview: "pending" });
+  await writeJson(`${root}/original-view.json`, { festivalId: id, sourceEncoding: encoding, entry: views[id].entry, sourceManifests: config.manifests, sourcePages: config.seeds, files: [...files.keys()], generatedPlaceholders, preloadResources, missingResources: failures, omittedBackgrounds, omittedHovers, compatibilityFixes, changes: [`Original HTML and CSS normalized from ${encoding} to UTF-8.`, "Same-site links, CSS resources and absolute script/hover URLs use local paths.", "External hosting trackers removed; unavailable unused preloads replaced with an empty image.", "Original pages are displayed inside a sandboxed frame.", ...(omittedBackgrounds.length ? ["Unavailable background references are omitted; the original background colors are retained and missing resources remain documented."] : []), ...(restrictions.length ? ["Restricted entries retain their catalogue row and full detail structure with fixed neutral text and generated placeholders; original restricted descriptions, media and related links are not published."] : []), ...(config.frames ? ["A scoped local message forwards menu clicks to the sibling frame while preserving the original frameset and sandbox isolation."] : [])], desktopReview: "pending" });
   console.log(`${id}: ${files.size} files; ${failures.length} missing resources.`);
 }
 
