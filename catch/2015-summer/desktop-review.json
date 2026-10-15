@@ -1,0 +1,86 @@
+{
+  "reviewedAt": "2026-10-15T12:11:38.966Z",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "width": 1280,
+      "height": 900
+    }
+  ],
+  "list": {
+    "rows": 77,
+    "detailLinks": 77,
+    "banners": 2
+  },
+  "imageDecode": {
+    "total": 188,
+    "decoded": 188,
+    "failures": []
+  },
+  "detail01": {
+    "screenshots": 2,
+    "naturalWidth": 640,
+    "naturalHeight": 480,
+    "updatesVisible": true,
+    "AAFont": "MS PGothic",
+    "AAWhiteSpace": "pre"
+  },
+  "restrictedDetailStatus": 200,
+  "originalView": {
+    "listLinks": 77,
+    "newSortLinks": 76,
+    "firstNewSortEntry": 25,
+    "hoverScreenshot": [
+      "ss/1t.png",
+      "ss/1_s.png",
+      "ss/1t.png"
+    ],
+    "imageDecode": {
+      "total": 200,
+      "decoded": 200,
+      "failures": [],
+      "sourceImages": 198,
+      "generatedPlaceholders": 2
+    },
+    "restrictedDetail": "Full original structure, fixed neutral text and SVG placeholders; no original restricted media or links",
+    "sandbox": "allow-scripts",
+    "formattedReturnExpanded": true,
+    "localTopNavigation": true,
+    "externalFooterImagesRestored": 2
+  },
+  "horizontalOverflow": false,
+  "console": {
+    "errors": 0,
+    "warnings": 2,
+    "note": "Next.js reported an unused stylesheet preload during client navigation; no source image decode failures."
+  },
+  "checks": [
+    "npm run validate:data",
+    "npm run lint",
+    "npm run audit:data -- --write",
+    "npm run build"
+  ],
+  "screenshots": [
+    "test-results/review-2015-summer-list.png",
+    "test-results/review-2015-summer-detail01.png",
+    "test-results/review-2015-summer-original-list.png",
+    "test-results/review-2015-summer-original-detail01.png",
+    "test-results/review-2015-summer-restricted-detail.png",
+    "test-results/review-2015-summer-original-restricted-detail.png"
+  ],
+  "restrictedDetail": {
+    "number": "04",
+    "fullMetadataAndCommentSections": true,
+    "fixedTemplate": true,
+    "placeholder": true,
+    "externalLinks": 0,
+    "mediaImages": 0
+  },
+  "outlineHashHighlight": true,
+  "dataSha256": "5aac749970afe23aaaa0f6bda856fd03c549f14a2c6631fc893aca338e103d77",
+  "footerReviewEvidence": "catch/2015-summer/footer-desktop-review.json",
+  "titleVersionEvidence": "catch/title-ui-review.json"
+}

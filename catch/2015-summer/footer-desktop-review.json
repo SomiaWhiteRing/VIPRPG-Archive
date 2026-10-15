@@ -1,0 +1,29 @@
+{
+  "reviewedAt": "2026-10-15T14:35:24.863Z",
+  "imageEvidence": "catch/2015-summer/external-image-recovery.json",
+  "originalImageDecode": {
+    "total": 200,
+    "decoded": 200,
+    "failures": [],
+    "sourceImages": 198,
+    "generatedPlaceholders": 2
+  },
+  "restoredFooterBanners": [
+    {
+      "src": "linked/summer2014a.png",
+      "width": 200,
+      "height": 40
+    },
+    {
+      "src": "linked/smj2013.png",
+      "width": 200,
+      "height": 40
+    }
+  ],
+  "console": {
+    "errors": 0,
+    "warnings": 2,
+    "note": "Next.js reported an unused stylesheet preload during client navigation; no source image decode failures."
+  },
+  "screenshot": "test-results/review-2015-summer-original-restored-footer.png"
+}

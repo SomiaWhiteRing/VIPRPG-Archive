@@ -1,0 +1,83 @@
+var mode = location.search;
+//var zure = 0;
+mode = mode.split("?");
+document.write(
+'<table width="800px" class="Torikaesi st13p">',
+'<tr>',
+'<td width="45" Align="center"><font class="wf" size="-1"><b>No<div style="height:4px"></div>ツール</font></td>',
+'<td width="35" Align="center"></td>',
+'<td width="280" Align="left"><font class="wf" size="-1"><b>作品名<div style="height:4px"></div>作者名</font></td>',
+'<td width="2"></td>',
+'<td width="160" Align="left"><font class="wf"><b>ジャンル</td>',
+'<td width="2"></td>',
+'<td width="124" Align="center"><font class="wf" size=-1><b>配信/投稿</td>',
+'<td width="2"></td>',
+'<td width="55" Align="center"><font class="wf"><b>DL</font></td>',
+'<td width="2"></td>',
+'<td width="35" Align="center"><font class="wf"><b>感想</td></tr></table>');
+
+if(mode[1] != "new" && mode[1] != "pic" && mode[1] != "gen"){
+for(i = 0; i < game.length/14; i++) {tmain(i);}
+
+}else if(mode[1] == "new"){
+for(i = 0; i < order.length; i++){
+if(order[i] >= 0){tmain(order[i]);
+}else{document.write('<div style="height:2px"></div><table width="95%" class="hasen"><td Align="left"><font class="wf"><b>▽'+order[i]+"</b></td></table>");}
+}
+
+}else if(mode[1] == "gen"){
+for(i = 0; i < genre.length; i++){
+if(genre[i] >= 0){tmain(genre[i]);
+}else{document.write('<div style="height:2px"></div><table width="95%" class="hasen"><td Align="left"><font class="wf"><b>▽'+genre[i]+"</b></td></table>");}
+}
+
+}else if(mode[1] == "pic"){
+var pic = mode[2].split(",");
+for(i = 0; i < pic.length; i++){
+if(pic[i] >= 0){tmain(pic[i]);
+}else{pictmp = decodeURI(""+pic[i]);document.write('<div style="height:2px"></div><table width="95%" class="hasen"><td Align="left"><font class="wf"><b>▽'+pictmp+"</b></td></table>");}
+}
+document.write('<table width="95%"><td Align="right"><font class="wf">ピックアップ表示中です！　<a href="',document.location.href,'">','現在のURL</a></font></td></table>');
+}
+
+document.write("</table><br>");
+
+function tmain(i){
+	var long0 = game[i*14].length;if(long0 > 20){long0='<font class="nagait">';}else{long0='';}
+	var long2 = game[i*14+2].length;if(long2 > 8){if(long2 > 25){long2='<font class="nagasugi">';}else{long2='<font class="nagai">';}}else{long2='';}
+	var long1 = game[i*14+1].length;if(long1 > 25){if(long1 > 30){long1='<font class="nagasugi">';}else{long1='<font class="nagai">';}}else{long1='<font class="sakusyatujo">';}
+	var long5 = game[i*14+5].length;if(long5 > 5){if(long5 > 15){long5='<font class="nagasugi">';}else{long5='<font class="nagai">';}}else{long5='';}
+	if(game[i*14+7] != ''){dltag=['<a href=',game[i*14+7],'>','</a>'];backimg='#e5eef7';}else{dltag=['<font color="#848484">',"","","</font>"];backimg='#e5eef7'}
+	if ( game[i*14+13].indexOf('遅刻') != -1) {tikoku='<span class="kabuse">遅刻</span>';}else{tikoku='';}
+	var tool = game[i*14+3].replace(/95/g, "");
+	//zure++;if(zure%2==0){document.write('<div style="margin:0px 0px 0px 8px;">');}else{document.write('<div style="margin:0px 8px 0px 0px;">');}
+	document.write(
+	'<table width="800px" bgcolor="',backimg,'" class="st14 Torikaesi">',
+	'<td width="45" Align="center" class="nogyokan"><font size=-1>No.',i,'<br><font color="#848484">',tool,'</font></th>',
+	'<td width="35" Align="center"><div class="kabu">',tikoku,'<img src="','icon/'+i+game[i*14+10],'" width="32" height="32"class="waku"></div></th>',
+	'<td width="280 Align="left">',
+	'<a href=sakuhin.html?',i,'><span class="titleun"><b>',long0,game[i*14],'</b></a></font></span><br>',
+	'<div width="1" height="1"></div>',long1,game[i*14+1],'</font></th>',
+	'<td width="2"></th>',
+	'<td width="160" Align="left">',long2,game[i*14+2],'</font></th>',
+	'<td width="2"></th>',
+	'<td width="124" Align="center">',long5,game[i*14+5],'</font></th>',
+	'<td width="2"></th>',
+	'<td width="55" Align="center" class="nogyokan">',dltag[0],dltag[1],dltag[2],'<b>',game[i*14+4],'</b>',dltag[3],'</th>',
+	'<td width="2"></th>',
+	'<td width="35" Align="center" class="nogyokan"><a href="',game[i*14+6],'"><b>感想</b></a></th>',
+	'</tr></table>'
+	);
+	//document.write('</div>');
+}
+
+function top_narabikae(or){
+	var normalurl = document.location.href;
+	var n = normalurl.indexOf("?");
+	if (n > 0) {normalurl = normalurl.substr(0,n);}
+		var n = normalurl.indexOf("#");
+	if (n > 0) {normalurl = normalurl.substr(0,n);}
+	var newurl = normalurl + "?new";
+	var genreurl = normalurl + "?gen";
+	if(or=="no"){document.location = normalurl;}else if(or=="new"){document.location = newurl;}else{document.location = genreurl;}
+}

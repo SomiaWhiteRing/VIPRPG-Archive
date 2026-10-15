@@ -1,0 +1,184 @@
+* {margin: 0px;}
+#background {
+	background-image: url('back7.png');
+	background-repeat: repeat-y;
+	background-position: center;
+	margin: 0px auto;
+	width : 896px;
+}
+#site-box {
+	width : 860px;
+	text-align: left;
+	padding-top: 0px;
+	margin: 0px auto;
+}
+#background2 {
+	background-image: url('back9.png');
+	background-repeat: repeat-y;
+	background-position: center;
+	margin: 0px auto;
+	width : 746px;
+}
+#site-box2 {
+	width : 710px;
+	text-align: left;
+	padding-top: 0px;
+	margin: 0px auto;
+}
+
+
+a:link {color:#0066cc;}
+a:hover{text-decoration:none;}
+body,td,th {line-height: 130%; font-size:14px; font-weight: normal;font-family:'Arial','ＭＳ Ｐゴシック';}
+.back{background-position:right bottom;background-repeat: no-repeat;background-attachment: fixed;background-image:url(back1.png);background-color:#f9f9f9;}
+.AA {font-family:'ＭＳ Ｐゴシック';line-height: 110%;letter-spacing:0em;}
+.nagait {/* long_title */      font-size: 85%;line-height: 110%;}
+.nagai {/* long_ect */         font-size: 85%; line-height: 110%;}
+.nagasugi {/* more_long_ect */ font-size: 75%; line-height: 110%;}
+
+.imgp{position: relative;top: 4px;}
+.nogyokan{letter-spacing:0em;}
+table.Torikaesi{word-break: break-all;table-layout: fixed;}
+/*----------------------ITIRAN*/
+.st1 {/*ITIRAN_div*/
+	display: block;
+	width: 840px;
+	position: relative;
+}
+.st1 td,th {font-size:15px;padding:0em;}
+.st1 a{text-decoration:none;}
+.waku{/*border-width: 1px;border-color: #d6ddea;border-style: solid;*/}
+.st14{/*ITIGYO*/
+	word-break: break-all;
+}
+font.wf{color:#4c667f;line-height: 100%;font-size: 90%;text-shadow: 1px 1px 1px rgba(108,182,167,0.6);}
+font.wf2{color:#4c667f;}
+font.sakusyatujo{font-size: 90%;line-height: 100%;}
+table.hasen{background-position:bottom;background-image: url(back3.png);}
+.kabuse{/*TIKOKU_MOJI*/
+	font-size: 70%;
+	position: absolute;
+	top: 18px;
+	left: 7px;
+	color: #ffffff;
+	opacity: 0.6;
+	text-shadow: black 1px 1px 0px, black -1px 1px 0px,
+	black 1px -1px 0px, black -1px -1px 0px;
+}
+div.kabu{position: relative;}
+
+/*--------------------TOP*/
+.mmm {/*MIDASI*/
+	top: -0.6em;
+	left: 1em;
+	margin: 0;
+	padding: 0 0.5em;
+	color: #ffffff;
+	font-weight: bold;
+	background-image:url(back5.png);
+	position: absolute;
+	line-height: 170%;
+}
+.st3 {/*WHITE_DIV*/
+	font-size:13px;
+	box-shadow:0px 0px 3px 0px #111111;
+	background-color:#ffffff;
+	padding:10px 30px;
+	margin: 10px;
+	position: relative;
+	width: 520px;
+}
+#nittei td,th {line-height: 130%; font-size:13px;}
+/*--------------------SAKUHIN_PAGE*/
+.st13 {/*SAKUHIN_PAGE_DIV*/
+	position: relative;
+	box-shadow:0px 0px 3px 0px #111111;
+	background-color:#ffffff;
+	margin:4px 0px;
+	width:650px;
+}
+div.ss{width:636px;padding:3px;background-color:#ffffff;}
+.st13p {padding-bottom:4px;}
+div.st13a{margin:20px 0px;}
+div.tuwid{width:652px;}
+div.maetugi a{text-decoration:none;color:#ffffff;}
+div.maetugi a:hover{opacity: 0.6;}
+div.comme13{width:624px;padding:13px;}
+
+a.GOtop{text-decoration: none;}
+
+/*--------------------INFO_MENU*/
+.toplogo {
+width:860px;height:80px;text-align:left; position:relative;border-bottom:solid 1px #c8c8c8;
+}
+.toplogo2{position: absolute;bottom: 30px;left:50px;font-size:180%;color:#ffffff;}
+.under {
+height:25px;padding-top:10px;
+}
+
+.lef {float:left;}
+.cl {display: inline-block;width:835px;}
+.cl:after {content: "";display: block;clear: both;}  
+
+div.topnews{background-color :#ffffff;width:425px;padding:2;}
+textarea.news{resize: vertical;overflow: auto;height: 102px;width: 385px;}
+form.fm0{margin: 0;}
+
+div.menu1{width:450;text-align:left;}
+div.menu2{width:385;float:right;}
+
+#menu ul{ 
+	margin: 0; 
+	padding: 0; 
+	list-style: none; 
+}
+#menu li{ 
+	display: inline; 
+	padding: 0; 
+	margin: 0; 
+	float: left;
+}
+#menu li a{
+	display: block; 
+	border-left: 2px solid #777777;
+	background-color: #474655;
+	padding: 0px 5px;
+	text-decoration: none;
+	color: #E1E2CF;
+	width: 37px; 
+	margin: 1px 0px;
+	text-align: left;
+	font-size: 10px;
+}
+#menu li a:hover{
+	background-color: #777777;
+}
+#menu li a.big{width: 70px;}
+
+div.husen2{width:840;height:20px;}
+#menu2 ul{ 
+	margin: 0; 
+	padding: 0; 
+	list-style: none; 
+}
+#menu2 li{ 
+	display: inline; 
+	padding: 0; 
+	margin: 0;
+	letter-spacing:0em;
+	float: right;
+}
+#menu2 li a{
+	display: block;
+	padding: 5px 8px 0px 2px;
+	text-decoration: none;
+	color: #000000;
+	text-align: right;
+	font-size: 13px;
+	opacity: 0.6;
+}
+#menu2 li a:hover{background-color: #ffffff;color: #d12323;}
+
+
+
+.grad{background-image:url(back8.png);}

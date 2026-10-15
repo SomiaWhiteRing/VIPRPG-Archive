@@ -1,0 +1,47 @@
+{
+  "checkedAt": "2026-10-15T14:16:54.898Z",
+  "entries": [
+    {
+      "sourceUrl": "http://www.geocities.jp/viprpg2014summer/mate/summer2014a.png",
+      "status": "recovered",
+      "attempts": [
+        {
+          "requestedUrl": "http://www.geocities.jp/viprpg2014summer/mate/summer2014a.png",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "requestedUrl": "https://web.archive.org/web/20190129165715id_/http://www.geocities.jp/viprpg2014summer/mate/summer2014a.png",
+          "status": 200
+        }
+      ],
+      "inventory": {
+        "requestedUrl": "https://web.archive.org/web/timemap/json?url=http%3A%2F%2Fwww.geocities.jp%2Fviprpg2014summer%2Fmate%2Fsummer2014a.png&collapse=urlkey&output=json&fl=original,timestamp,endtimestamp,mimetype,statuscode&filter=statuscode%3A200&limit=20",
+        "status": 200,
+        "rows": 1
+      },
+      "actualUrl": "https://web.archive.org/web/20190129165715id_/http://www.geocities.jp/viprpg2014summer/mate/summer2014a.png",
+      "cacheFile": "catch/2015-summer/source/external-images/summer2014a.png.bin"
+    },
+    {
+      "sourceUrl": "http://www.geocities.jp/viprpgsummer2013/picture/smj2013.png",
+      "status": "recovered",
+      "attempts": [
+        {
+          "requestedUrl": "http://www.geocities.jp/viprpgsummer2013/picture/smj2013.png",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "requestedUrl": "https://web.archive.org/web/20190129192341id_/http://www.geocities.jp/viprpgsummer2013/picture/smj2013.png",
+          "status": 200
+        }
+      ],
+      "inventory": {
+        "requestedUrl": "https://web.archive.org/web/timemap/json?url=http%3A%2F%2Fwww.geocities.jp%2Fviprpgsummer2013%2Fpicture%2Fsmj2013.png&collapse=urlkey&output=json&fl=original,timestamp,endtimestamp,mimetype,statuscode&filter=statuscode%3A200&limit=20",
+        "status": 200,
+        "rows": 1
+      },
+      "actualUrl": "https://web.archive.org/web/20190129192341id_/http://www.geocities.jp/viprpgsummer2013/picture/smj2013.png",
+      "cacheFile": "catch/2015-summer/source/external-images/smj2013.png.bin"
+    }
+  ]
+}

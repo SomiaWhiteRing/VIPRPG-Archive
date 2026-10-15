@@ -1,0 +1,64 @@
+var tmp1 = location.search;
+tmp1 = tmp1.split("?");
+var i = tmp1[1].split("&");
+var ss2h="";
+var ss2=0;
+var icoimg;
+
+var long0 = game[i*14].length;if(long0 > 40){long0='<font class="nagai">';}else{long0='';}
+var long1 = game[i*14+1].length;if(long1 > 40){if(long1 > 65){long1='<font class="nagasugi">';}else{long1='<font class="nagai">';}}else{long1='';}
+var long2 = game[i*14+2].length;if(long2 > 50){if(long2 > 65){long2='<font class="nagasugi">';}else{long2='<font class="nagai">';}}else{long2='';}
+var long5 = game[i*14+5].length;if(long5 > 25){if(long5 > 37){long5='<font class="nagasugi">';}else{long5='<font class="nagai">';}}else{long5='';}
+
+
+var title = game[i*14].replace(/<br>/g, "");
+var author = game[i*14+1].replace(/<br>/g, "");
+var genre = game[i*14+2].replace(/<br>/g, "");
+var haisin = game[i*14+5].replace(/<br>/g, "");	
+if(game[i*14+12] != "no"){var ss2h="_";ss2++;}
+var mae=i-1;if(mae < 0){mae = 0;}
+var tugi=i-1+2;if(tugi > game.length/14-1){tugi = i;}
+if(game[i*14+7] != ''){dltag=['<a href=',game[i*14+7],'>','</a>'];}else{dltag=['<font color="#848484">',"","","</font>"];}
+document.title = 'No.'+i+' '+title;
+document.write(
+'<div class="tuwid maetugi grad"><table width="100%"><tr><td align="left"><a href=sakuhin.html?',mae,'>&lt&ltBACK</a></td>',
+'<td align="right"><a href=sakuhin.html?',tugi,'>NEXT&gt&gt</a></td></tr></table></div>',
+'<div class="st13" Align="left"><center>',
+'<table width="644px"cellpadding="0"><tr>',
+'<td width="32"><img src="','icon/',i,game[i*14+10],'" width="32" height="32"></td>',
+'<td width="50" align="right" valign="bottom">No.',i,'　</td>',
+'<td valign="bottom"><font class="wf2"><b>',long0,title,'</b></font></td>',
+'<td align="right" width="67" valign="bottom" class="nogyokan">[ ',dltag[0],dltag[1],dltag[2],'<b>',game[i*14+4],'</b>',dltag[3],' ]</td>',
+'</tr></table></div>',
+'<div class="ss"><image  src=',
+'"','ss/',i,game[i*14+11],'"',
+'onmouseover="this.src=',
+"'",'ss/',i,ss2h,game[i*14+11+ss2],"'",'"',
+'onmouseout="this.src=',
+"'",'ss/',i,game[i*14+11],"'",'"  width="640" height="480"></div>',
+'<div class="st13 st13p" Align="left"><center>',
+'<table width="640px" border="0" rules="rows" rulescolor="3" cellpadding="0" class="Torikaesi">',
+'<tr>',
+'<td valign="top" width="77"><font color="#30425e">ツール </font></td><td width="75" valign="top" class="nogyokan">',game[i*14+3],'</td>',
+'<td valign="top" width="95"><font color="#30425e">配信/投稿</font></td><td valign="bottom">',long5,haisin,'</font></td>',
+'<td valign="top" align="right" width="50"class="nogyokan">[ <a href="',game[i*14+6],'">BBS</a>',' ]</td>',
+'</tr>',
+'<tr>',
+'<td valign="top" width="77"><font color="#30425e">ジャンル</font></td><td valign="bottom" colspan="4">',long2,genre,'</td>',
+'</tr>',
+'<tr>',
+'<td valign="top" width="77"><font color="#30425e">制作</font></td><td valign="bottom" colspan="4">',long1,author,'</td>',
+'</tr>',
+'<tr>',
+'<td valign="top" width="77" colspan="5"><font color="#30425e">コメント<br></font><div class="comme13">',game[i*14+8],'</div></td>',
+'</tr>',
+'<tr>',
+'<td valign="top" width="77" bgcolor="#d6ddea"><font color="#30425e">管理人</font></td><td colspan="4" bgcolor="#d6ddea">',game[i*14+9],'</td>',
+'</tr>',
+'<tr>',
+'<td valign="top" width="77"  bgcolor="#d6ddea"><font color="#30425e">更新履歴</font></td><td valign="top" colspan="4" bgcolor="#d6ddea">',game[i*14+13],'</td>',
+'</tr>',
+'</table></div>',
+'<table width="650"><tr><td align="center"><a href="index.html"class="GOtop">TOP</a></td></tr></table>'
+);
+if(Number(location.search.slice(1).split('&')[0])===4){document.querySelectorAll('a[href=""]').forEach(function(a){a.replaceWith(document.createTextNode("非表示"));});}
