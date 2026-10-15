@@ -1,0 +1,87 @@
+{
+  "reviewedAt": "2026-10-15T13:36:07.194Z",
+  "dataSha256": "fa5e9143633802b7d2119032586a02a21dfebd2da2211d34badc2b368a61a4c7",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "width": 1280,
+      "height": 900
+    }
+  ],
+  "list": {
+    "rows": 73,
+    "details": 73,
+    "icons": 73,
+    "banners": 2
+  },
+  "imageDecode": {
+    "canonical": {
+      "total": 176,
+      "decoded": 176,
+      "failures": []
+    },
+    "original": {
+      "total": 177,
+      "decoded": 177,
+      "failures": []
+    }
+  },
+  "sourceComparison": {
+    "details": 73,
+    "commentTextGaps": 0,
+    "sourceEmptyHostComment": [
+      "11"
+    ],
+    "replacementCharacters": 0
+  },
+  "detail00": {
+    "screenshots": 2,
+    "naturalWidth": 640,
+    "naturalHeight": 480,
+    "viewerNext": true,
+    "escapeClose": true,
+    "downloadAbsentAsInSource": true,
+    "forumPreserved": true
+  },
+  "originalView": {
+    "sourceEncoding": "euc-jp",
+    "localEncoding": "UTF-8",
+    "files": 251,
+    "entries": 73,
+    "hover": [
+      "mate/ss000a.png",
+      "mate/ss000b.png",
+      "mate/ss000a.png"
+    ],
+    "missingDisplayedResources": 0,
+    "formattedReturnExpanded": true,
+    "outlineHighlight": true
+  },
+  "preloads": {
+    "cachedUnused": 3,
+    "unavailableUnused": 42,
+    "gallery": 101
+  },
+  "horizontalOverflow": false,
+  "console": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "offlineReplayStable": true,
+  "checks": [
+    "npm run validate:data",
+    "npm run lint",
+    "npm run build",
+    "git diff --check"
+  ],
+  "screenshots": [
+    "test-results/review-2014-summer-list.png",
+    "test-results/review-2014-summer-detail00.png",
+    "test-results/review-2014-summer-original-list.png",
+    "test-results/review-2014-summer-original-detail00.png"
+  ],
+  "titleVersionEvidence": "catch/title-ui-review.json"
+}
