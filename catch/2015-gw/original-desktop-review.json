@@ -1,0 +1,37 @@
+{
+  "reviewedAt": "2026-10-15T12:11:38.966Z",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "width": 1280,
+      "height": 900
+    }
+  ],
+  "imageDecode": {
+    "total": 175,
+    "decoded": 175,
+    "failures": []
+  },
+  "checks": {
+    "entries": 72,
+    "detail00": {
+      "hover": [
+        "mate/ss00a.png",
+        "mate/ss00b.png",
+        "mate/ss00a.png"
+      ]
+    }
+  },
+  "horizontalOverflow": false,
+  "console": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "screenshots": [
+    "test-results/review-2015-gw-original-list.png",
+    "test-results/review-2015-gw-original-detail00.png"
+  ]
+}

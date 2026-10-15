@@ -1,570 +1,1779 @@
 [
   {
+    "id": "2015-gw-work-00",
+    "festivalId": "2015-gw",
+    "no": "00",
+    "author": "かんりにん",
+    "title": "Sample",
+    "engine": "2000",
+    "category": "サンプルゲーム",
+    "authorComment": "もう先走るような真似はしないよ",
+    "hostComment": "ゴールド・ゴメスペリエンス・レクイエム！",
+    "streaming": "○/×",
+    "forum": "http://jbbs.shitaraba.net/game/58971/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry00.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193016/http://www.geocities.jp:80/viprpg2015gw/entry00.html"
+    },
+    "icon": "/icons/2015-gw/00.png",
+    "ss": [
+      "/screenshots/2015-gw/00-1.png",
+      "/screenshots/2015-gw/00-2.png"
+    ]
+  },
+  {
     "id": "2015-gw-work-01",
     "festivalId": "2015-gw",
     "no": "01",
     "title": "ヴァンパイア -修道士イヴの信仰-",
-    "author": "",
-    "detailDisabled": true
+    "author": "池田さん",
+    "engine": "2000",
+    "category": "凄く地味な人形劇",
+    "authorComment": "何とか間に合ったみたいだな、ジョー！\n\n矢鱈に地味な超凡作、１時間くらいの短編だ！\n\nおまけとして、メイキング（ゴミ）と設定資料集（ゴミ）も同時収録だぜッ！！\n\nあばよ、ジョー！！",
+    "hostComment": "短編の基準がちょっと変じゃない！？",
+    "streaming": "いいよ/\nいいよ",
+    "download": {
+      "url": "http://yahoo.jp/box/MbcbTk",
+      "label": "ダウンロード(29.3MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1428219759/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry01.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193019/http://www.geocities.jp:80/viprpg2015gw/entry01.html"
+    },
+    "icon": "/icons/2015-gw/01.png",
+    "ss": [
+      "/screenshots/2015-gw/01-1.png",
+      "/screenshots/2015-gw/01-2.png"
+    ]
   },
   {
     "id": "2015-gw-work-02",
     "festivalId": "2015-gw",
     "no": "02",
     "title": "おじさん爆殺",
-    "author": "",
-    "detailDisabled": true
+    "author": "イグサ",
+    "engine": "2000",
+    "category": "ふりーむで100万回見た",
+    "authorComment": "GW祭2015は初参加です！\n\nシンボルを調べると即死したり、フラグが立ったりするオーソドックスな脱出ゲームです\n\nとりあえず、「即死→がめおば→タイトル画面」という糞みたいな仕様ではないのでご安心下さい\n\n＜提出に伴う作者からのお知らせ＞\n\n脱出ゲーとは呼べなくなりました",
+    "hostComment": "※みんな初参加です",
+    "streaming": "可/可",
+    "download": {
+      "url": "http://yahoo.jp/box/zfp1xU",
+      "label": "ダウンロード(20.4MB_05/03更新)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1428219831/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry02.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331142737/http://www.geocities.jp:80/viprpg2015gw/entry02.html"
+    },
+    "icon": "/icons/2015-gw/02.png",
+    "ss": [
+      "/screenshots/2015-gw/02-1.png"
+    ]
   },
   {
     "id": "2015-gw-work-03",
     "festivalId": "2015-gw",
     "no": "03",
     "title": "負けるな水煮さん",
-    "author": "",
-    "detailDisabled": true
+    "author": "ミルクちゃん",
+    "engine": "2000",
+    "category": "読むゲー",
+    "authorComment": "ウォーターⅡが尿意と戦う話です。",
+    "hostComment": "が……がんばるぞい！",
+    "streaming": "○/○",
+    "download": {
+      "url": "http://yahoo.jp/box/q2_myy",
+      "label": "ダウンロード(8.22MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1428219896/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry03.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193019/http://www.geocities.jp:80/viprpg2015gw/entry03.html"
+    },
+    "icon": "/icons/2015-gw/03.png",
+    "ss": [
+      "/screenshots/2015-gw/03-1.png"
+    ]
   },
   {
     "id": "2015-gw-work-04",
     "festivalId": "2015-gw",
     "no": "04",
     "title": "Eat More！",
-    "author": "",
-    "detailDisabled": true
+    "author": "F-man",
+    "category": "ハンティングRPG",
+    "engine": "2000",
+    "authorComment": "イーターランドに生息する生き物は全て獰猛で生存競争が激しく、\n\n島の生き物を食べるだけで強くなると言われる。\n\n故に強さを求める求道者達は島に訪れ、ある者は一騎当千の強さを身に付け、\n\nある者は哀れにも自ら餌となって島の養分と化した。\n\nパンいちはある思いを胸に強くなる為イーターランドに訪れた。\n\n本作は1VS1の自作戦闘で非常にシンプルで、\n\n弱肉強食の世界でインフレする強さを楽しむだけです。\n\n喰えば喰うほど溢れるパワー！",
+    "hostComment": "肉を食べても変身はしないみたいですね。",
+    "streaming": "両方OK",
+    "download": {
+      "url": "http://yahoo.jp/box/ulAKBD",
+      "label": "ダウンロード(4.39MB)　/"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1428219961/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry04.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193019/http://www.geocities.jp:80/viprpg2015gw/entry04.html"
+    },
+    "icon": "/icons/2015-gw/04.png",
+    "ss": [
+      "/screenshots/2015-gw/04-1.png",
+      "/screenshots/2015-gw/04-2.png"
+    ]
   },
   {
     "id": "2015-gw-work-05",
     "festivalId": "2015-gw",
     "no": "05",
     "title": "よくある普通のRPG",
-    "author": "",
-    "detailDisabled": true
+    "author": "よくある普通のRPG製作委員会",
+    "category": "よくある普通のRPG",
+    "engine": "VXAce",
+    "authorComment": "よくある普通のRPGです。\n\nクリア後のおまけ制作がちっとも進まずに長いこと放置してたやつですが、\nもったいない根性で公開することにします。\n\n今後完全版出せ・・・たらいいなあ。\n\n～あらすじ～\n\n夫(予定)をさらった魔王を倒しに行く王道ストーリーだよ！王道だよ！ホントダヨ！",
+    "hostComment": "勇者にあるまじき発言が見えるんですけど本当によくある普通のRPGなんですかね…？",
+    "streaming": "両方可",
+    "download": {
+      "url": "http://yahoo.jp/box/doCahk",
+      "label": "ダウンロード(47.9MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1428220127/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry05.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193018/http://www.geocities.jp:80/viprpg2015gw/entry05.html"
+    },
+    "icon": "/icons/2015-gw/05.png",
+    "ss": [
+      "/screenshots/2015-gw/05-1.png",
+      "/screenshots/2015-gw/05-2.png"
+    ]
   },
   {
     "id": "2015-gw-work-06",
     "festivalId": "2015-gw",
     "no": "06",
     "title": "ボムっと攻略！とれじゃーはんたぁ",
-    "author": "",
-    "detailDisabled": true
+    "author": "焼きそば男",
+    "engine": "2000",
+    "authorComment": "「見るゲ」から「やるゲ」になって帰ってきた、ボムっとシリーズ第２段！\n\n４人のトレジャーハンター達を操作し、それぞれの特性を活かして遺跡を攻略！\n\n謎が解けないときは、ボムっとやっちゃえ★",
+    "hostComment": "もう全部あいつ一人でいいんじゃないかな",
+    "streaming": "可・可",
+    "download": {
+      "url": "http://yahoo.jp/box/G3eQeD",
+      "label": "ダウンロード(9.28MB_05/24更新)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1428220180/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry06.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193018/http://www.geocities.jp:80/viprpg2015gw/entry06.html"
+    },
+    "icon": "/icons/2015-gw/06.png",
+    "ss": [
+      "/screenshots/2015-gw/06-1.png",
+      "/screenshots/2015-gw/06-2.png"
+    ]
   },
   {
     "id": "2015-gw-work-07",
     "festivalId": "2015-gw",
     "no": "07",
     "title": "七色",
-    "author": "",
-    "detailDisabled": true
+    "author": "おたつ",
+    "category": "短編RPG",
+    "engine": "RPGツクール2003",
+    "authorComment": "レイシャワが可愛いのでtkった。これ以上の理由は必要あるまい。",
+    "hostComment": "エントリーメールも7番目。なるべくしてなったNo.07。",
+    "streaming": "可・可",
+    "download": {
+      "url": "http://yahoo.jp/box/9fRyaM",
+      "label": "ダウンロード(21.8MB_05/15更新)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1428220329/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry07.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193019/http://www.geocities.jp:80/viprpg2015gw/entry07.html"
+    },
+    "icon": "/icons/2015-gw/07.png",
+    "ss": [
+      "/screenshots/2015-gw/07-1.jpg"
+    ]
   },
   {
     "id": "2015-gw-work-08",
     "festivalId": "2015-gw",
     "no": "08",
     "title": "わてゆり～七股編",
-    "author": "",
-    "detailDisabled": true
+    "author": "かに",
+    "category": "百合見るゲ",
+    "engine": "2000",
+    "authorComment": "名作わてゆりに銀魂成分を混ぜて\n\n自分なりにリスペクトしてみようと思います。",
+    "hostComment": "なんか布団の中身がロクなもんじゃなさそうな気がする。",
+    "streaming": "どっちも可",
+    "download": {
+      "url": "http://yahoo.jp/box/vpe17b",
+      "label": "ダウンロード(4.57MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1428220379/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry08.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193019/http://www.geocities.jp:80/viprpg2015gw/entry08.html"
+    },
+    "icon": "/icons/2015-gw/08.png",
+    "ss": [
+      "/screenshots/2015-gw/08-1.png"
+    ]
   },
   {
     "id": "2015-gw-work-09",
     "festivalId": "2015-gw",
     "no": "09",
     "title": "死がふたりを分かつまで",
-    "author": "",
-    "detailDisabled": true
+    "author": "ぬ",
+    "category": "デフォ戦",
+    "engine": "2000",
+    "authorComment": "旅の道連れは三つ。\n\n慕い連れ立つ、ちょっと生意気な少年少女。\n\n死して尚捨て去れなかった、なけなしの矜持。\n\nそして、\n\n大切に握り締めた、いつかの思い出。",
+    "hostComment": "へるこわい",
+    "streaming": "共に可",
+    "download": {
+      "url": "http://yahoo.jp/box/ns7MEX",
+      "label": "ダウンロード(6.74MB_05/18更新)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1428220501/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry09.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193021/http://www.geocities.jp:80/viprpg2015gw/entry09.html"
+    },
+    "icon": "/icons/2015-gw/09.png",
+    "ss": [
+      "/screenshots/2015-gw/09-1.png",
+      "/screenshots/2015-gw/09-2.png"
+    ]
   },
   {
     "id": "2015-gw-work-10",
     "festivalId": "2015-gw",
     "no": "10",
     "title": "MAJIKUSO FANTASY",
-    "author": "",
-    "detailDisabled": true
+    "author": "チーム・ミスティオレモンスパークリング",
+    "category": "Full Reactive Eyes Entertainment",
+    "engine": "RPGツクール2000",
+    "authorComment": "2003デフォ戦弄るの楽しすぎワロタ。ちょっと。やーみゃじょもっちょぽ。\n\nhttps://www.youtube.com/watch?v=aFZQvv_h3Ek (https://www.youtube.com/watch?v=aFZQvv_h3Ek)\n\nゲームと全然関係無いんですけどね、最近カマキリ見たんですよカマキリ。\n\n私20年以上生きてきて初めて知ったんですけどね。\n\nhttps://www.youtube.com/watch?v=IEAdcq81go8 (https://www.youtube.com/watch?v=IEAdcq81go8)\n\nヘリコプターみたいにブーンって飛ぶんですよ。\n\nhttps://www.youtube.com/watch?v=MSJHrZ1hyDI (https://www.youtube.com/watch?v=MSJHrZ1hyDI)\n\nそんな姿に私ね、感動したんですよ。どんなに失敗してもね、恥ずかしがっちゃいけない。\n\nあの姿で飛ぶんですよ。鎌とか構えちゃったままですよ。\n\nhttps://www.youtube.com/watch?v=T_NwdTXbja8 (https://www.youtube.com/watch?v=T_NwdTXbja8)\n\nあの姿で飛ぶんですよ。鎌とか構えちゃったままですよ。\n\nあの姿で飛ぶんですよ。ブーンって。ていうのが最近ですね\n\nhttps://www.youtube.com/watch?v=qyXTgqJtoGM (https://www.youtube.com/watch?v=qyXTgqJtoGM)\n\n公園を散歩してたら目の前をそのカマキリが横切ったんですよ。飛びながら。鎌構えながら。\n\n横切ったんですね。横切ったんですね。\n\nそりゃあもう驚きましたよ。\nでも進行方向と直角に顔をこちらに向けてるもんだから前が見えてないじゃないですか。\n\nそのまま公園の柵に激突して落っこちてましたよ。\nでもね、彼は落っこちたあとも堂々としてましたよ。\n\n自信を持って、目標に向かって生きていかなくちゃいけない。そんな風に思ったんですね。あ\n\nhttps://www.youtube.com/watch?v=OZBaGGN655Y (https://www.youtube.com/watch?v=OZBaGGN655Y)\n\nやべぇ腹いてぇチン毛とか生えてる所なんていうんだろな。\n\n16 人中 10 人 (63%) がこのレビューが参考になったと投票しました\n\nおすすめしません\n\n記録時間: 5.1 時間\n\n輪ゴムで遊んでいた方が楽しい\n\nふぇーーまずＹａｈｏｏいってぇーログインしてぇ。\n\nめちょとめちょとめちょとめちょとめちょとめちょとめちょとめちょとめちょとめちょと\n\nhttps://www.youtube.com/watch?v=HPPj6viIBmU (https://www.youtube.com/watch?v=HPPj6viIBmU)\n\nめちょとめちょとめちょとめちょとめちょとめちょとめちょとめちょとめちょとめちょと\n\nめちょとめちょとめちょとめちょとめちょとめちょとめちょとめちょとめちょとめちょと\n\n↑このままコメントにしてください\n\n↑この部分もそのままお願いします。\n\n=============ここまでコメント============←ここもコメントで\n\n　　　　　　　　　　　　　　　　　　　　　　↑これもコメント",
+    "hostComment": "コメントってなんだ(哲学)",
+    "streaming": "VX/Ace",
+    "download": {
+      "url": "http://yahoo.jp/box/wdO5s6",
+      "label": "ダウンロード(15.7MB_06/01更新)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1428220566/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry10.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193019/http://www.geocities.jp:80/viprpg2015gw/entry10.html"
+    },
+    "icon": "/icons/2015-gw/10.gif",
+    "ss": [
+      "/screenshots/2015-gw/10-1.png",
+      "/screenshots/2015-gw/10-2.png"
+    ]
   },
   {
     "id": "2015-gw-work-11",
     "festivalId": "2015-gw",
     "no": "11",
     "title": "托卵魔王",
-    "author": "",
-    "detailDisabled": true
+    "author": "名雲きつね",
+    "category": "エロｋｓｇ",
+    "engine": "2000",
+    "authorComment": "魔王様が托卵されて壊れるｋｓｇ\n\nロリ要素の強いR-18エロゲーです。\n\nそれらの苦手な方はご注意ください。\n\nGW用にｔｋってたゲームが間に合いそうにないので\n\n短めのゲームでエントリーしました。\n\nいないと思いますがエロなので配信等は自己責任でお願いします。",
+    "hostComment": "冷静に考えたら肌の色からして違いますし……。",
+    "streaming": "△/△",
+    "download": {
+      "url": "http://yahoo.jp/box/oqPMpq",
+      "label": "ダウンロード(1.49MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1428220607/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry11.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331150004/http://www.geocities.jp:80/viprpg2015gw/entry11.html"
+    },
+    "icon": "/icons/2015-gw/11.jpg",
+    "ss": [
+      "/screenshots/2015-gw/11-1.jpg",
+      "/screenshots/2015-gw/11-2.jpg"
+    ]
   },
   {
     "id": "2015-gw-work-12",
     "festivalId": "2015-gw",
     "no": "12",
-    "title": "笑点50周年記念 歌丸ジェノサイド総集編",
-    "author": "",
-    "detailDisabled": true
+    "title": "笑点50周年記念　歌丸ジェノサイド総集編",
+    "author": "◆CSDB./omM.",
+    "category": "見るゲ",
+    "engine": "2000",
+    "authorComment": "笑点50年を記念して\n\n\t\t座布団全員全没収シーン等を再現",
+    "hostComment": "山田君、皆の全部持っていきなさい！",
+    "streaming": "可",
+    "download": {
+      "url": "http://yahoo.jp/box/f04Ou1",
+      "label": "ダウンロード(915kB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1428227516/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry12.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193021/http://www.geocities.jp:80/viprpg2015gw/entry12.html"
+    },
+    "icon": "/icons/2015-gw/12.png",
+    "ss": [
+      "/screenshots/2015-gw/12-1.png",
+      "/screenshots/2015-gw/12-2.png"
+    ]
   },
   {
     "id": "2015-gw-work-13",
     "festivalId": "2015-gw",
     "no": "13",
     "title": "わくわくさんと聖龍剣",
-    "author": "",
-    "detailDisabled": true
+    "author": "ディア(仮称)",
+    "category": "何のひねりも無いデフォ戦ksg",
+    "engine": "2000",
+    "authorComment": "クロノ・クロス未プレイだよ…どうすんだよこれ…\n\n\t\t仲間を作って戦わせる\"予定\"。\n\n\t\tまだシナリオや登場キャラすら出来ていない現状\n\n【追記】仲間を作ると言ったな？あれは嘘だ\n\nゲームバランスは投げ捨てる物って俺のムスコが言ってた。",
+    "hostComment": "NKMツクーラナイ",
+    "streaming": "まる/まろ",
+    "download": {
+      "url": "http://yahoo.jp/box/bAyhWB",
+      "label": "ダウンロード(3.73MB_05/02更新)　/"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1428402876/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry13.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193019/http://www.geocities.jp:80/viprpg2015gw/entry13.html"
+    },
+    "icon": "/icons/2015-gw/13.png",
+    "ss": [
+      "/screenshots/2015-gw/13-1.png",
+      "/screenshots/2015-gw/13-2.png"
+    ]
   },
   {
     "id": "2015-gw-work-14",
     "festivalId": "2015-gw",
     "no": "14",
     "title": "水子",
-    "author": "",
-    "detailDisabled": true
+    "author": "Gam123",
+    "category": "見るゲ",
+    "engine": "2000",
+    "authorComment": "「悪夢」",
+    "hostComment": "タイトルの不穏さとSSのネタ感。",
+    "streaming": "可/可",
+    "download": {
+      "url": "http://yahoo.jp/box/XfizBP",
+      "label": "ダウンロード(444kB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1428402929/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry14.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193021/http://www.geocities.jp:80/viprpg2015gw/entry14.html"
+    },
+    "icon": "/icons/2015-gw/14.png",
+    "ss": [
+      "/screenshots/2015-gw/14-1.png"
+    ]
   },
   {
     "id": "2015-gw-work-15",
     "festivalId": "2015-gw",
     "no": "15",
     "title": "Eternal Lights",
-    "author": "",
-    "detailDisabled": true
+    "author": "ねぶそく",
+    "category": "見るゲ",
+    "engine": "2000",
+    "authorComment": "谷底へと突き落とされたウィンドⅠは\n\nうすれゆく意識のなかで　心から願いました\n\n「チーズ蒸しパンになりたい」\n\nでも　願いをかなえる　流れ星は\n\n昼間にはみえません\n\nだからウィンドⅠは　夜まで待ちます\n\n痛いのも　がまんします\n\nおなかがすくのも　がまんします\n\nそうして気づくのです\n\nこれまでずっと　がまんばかり　してきたことに\n\nウィンドⅠは悲しくなりました\n\nそれでも泣きませんでした\n\n泣かずに　じっと　待つのでした\n\nやがて夜になって　一筋の流れ星が現れました\n\nでも　もう　ウィンドⅠには　何も見えません\n\n願い事をする元気もありません\n\n流れ星から　きらきらとした光が　降り注ぎます\n\nすっかり冷たくなったウィンドⅠは\n\nあたたかい光につつまれ　お星さまになりました",
+    "hostComment": ">本作品がGWまでに完成する可能性は谷底に突き落とされたウィンドⅠが\n\n>自力で這い上がってくる可能性と同じくらいなのでご安心ください。",
+    "streaming": "○/○",
+    "download": {
+      "url": "http://yahoo.jp/box/cCNvAv",
+      "label": "ダウンロード(5.34MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1428402983/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry15.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331134942/http://www.geocities.jp:80/viprpg2015gw/entry15.html"
+    },
+    "icon": "/icons/2015-gw/15.png",
+    "ss": [
+      "/screenshots/2015-gw/15-1.png"
+    ]
   },
   {
     "id": "2015-gw-work-16",
     "festivalId": "2015-gw",
     "no": "16",
     "title": "はみんぐのっきゅんまーべらす",
-    "author": "",
-    "detailDisabled": true
+    "author": "ざるそば",
+    "category": "PVちっく見るゲ",
+    "engine": "2000",
+    "authorComment": "Side Story:\n\n四方を海に囲まれた大地　ポテチ王国\n\nここは内戦と魔王軍の襲来により、混迷を極めていた。\n\nそこで国を救う真の勇者を見極めるため、ロングソードという名の剣を抜く試練が与えられた。\n\n剣に選ばれし者こそ真の勇者、アレックス。\n\nだが、選ばれたアレックスは、100万人にも及んだ。\n\nそれはアレックス同士を競わせ、不要な人材を淘汰し、\n\n本当の意味で魔王を倒せるアレックスを選ぶ計画だったのだ……！\n\n※本編とはまったく関係ありません。\n\nほんぺん:\n\n,,×△×）　＜　あの のっくあうとが　うたう！　おどる！　はねる！\n\n,,×△×）　＜　こんかいこそ　まにあわせます（つよきなはつげん）\n\n===========================================\n\n5/1　近況追記\n\n意外と忍殺がおもしｒグワーッ！！もうGWアバーッ？！\n\n知らないひとがけっこういるみたいなので、「実在性ミリオンアーサー」！\n\nたのしくておすすめ！（ダイレクトマーケティング）",
+    "hostComment": "視聴者がノックアウトされるほどの可愛さを地上波に乗せて！",
+    "streaming": "可/可",
+    "download": {
+      "url": "http://yahoo.jp/box/k_TrlW",
+      "label": "ダウンロード(550kB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1428403034/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry16.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193022/http://www.geocities.jp:80/viprpg2015gw/entry16.html"
+    },
+    "icon": "/icons/2015-gw/16.png",
+    "ss": [
+      "/screenshots/2015-gw/16-1.gif",
+      "/screenshots/2015-gw/16-2.png"
+    ]
   },
   {
     "id": "2015-gw-work-17",
     "festivalId": "2015-gw",
     "no": "17",
     "title": "四角い頭を叩き割る",
-    "author": "",
-    "detailDisabled": true
+    "author": "箱の中に隠れるのよ！",
+    "category": "スライドパズル",
+    "engine": "2000",
+    "authorComment": "箱入り娘と言われるタイプの、\n\nパネルを動かして一番大きなパネルを出口へ運ぶだけのシンプルなスライドパズルです。\n\n名作エストポリス伝記Ⅱ曰く世界で一番難しいトリックとも\n\n単純さとは裏腹に非常に難易度が高いです。パズルが得意でない方は精神を病まない程度に。\n\n最初から全問題出現、クリアしてもご褒美等は特に無いので気楽にどうぞ。\n\n余程暇な方は全問クリアや最短手数理論値でも目指してみてください。",
+    "hostComment": "(2*2パネルが)閉じ込められた！！",
+    "streaming": "gdgdになる覚悟が有るなら自己責任で",
+    "download": {
+      "url": "http://yahoo.jp/box/HRkViM",
+      "label": "ダウンロード(66.3MB_06/01更新)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1428403089/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry17.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193022/http://www.geocities.jp:80/viprpg2015gw/entry17.html"
+    },
+    "icon": "/icons/2015-gw/17.png",
+    "ss": [
+      "/screenshots/2015-gw/17-1.jpg",
+      "/screenshots/2015-gw/17-2.jpg"
+    ]
   },
   {
     "id": "2015-gw-work-18",
     "festivalId": "2015-gw",
     "no": "18",
     "title": "トラキア異伝～もしもシリーズ～",
-    "author": "",
-    "detailDisabled": true
+    "author": "天野 響",
+    "category": "シュミレーションRPG",
+    "engine": "ツクールVX ace",
+    "authorComment": "このゲームは過去作ファイアーエンブレム、もしもの神に\n\n感激した作者がシュミレーションで作りたいと思った作品です。\n\nFE.BSの類似品、模造品ですので、ご注意ください。\n\nゲームのシナリオはトラキア776に似ております…\n\nその他、他作品からも無理やりもってきています。\n\nオリジナル要素や改変したところもあります。\n\n初めてツクールをしたので、完成度は低いですが、よろしくお願いします！",
+    "hostComment": "とても初々しいです。でも初ツクールでいきなりSRPGに手を出すその気概たるや！",
+    "streaming": "どちらも可能",
+    "download": {
+      "url": "http://yahoo.jp/box/ttsoDs",
+      "label": "ダウンロード(115MB_06/01更新)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1428580224/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry18.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135110/http://www.geocities.jp:80/viprpg2015gw/entry18.html"
+    },
+    "icon": "/icons/2015-gw/18.png",
+    "ss": [
+      "/screenshots/2015-gw/18-1.png",
+      "/screenshots/2015-gw/18-2.png"
+    ]
   },
   {
     "id": "2015-gw-work-19",
     "festivalId": "2015-gw",
     "no": "19",
     "title": "パンメロン",
-    "author": "",
-    "detailDisabled": true
+    "author": "かりんとう饅頭",
+    "category": "販促見るゲ",
+    "engine": "2000",
+    "authorComment": "パンネロとは関係ありません",
+    "hostComment": "あんパンとメロンパンのどちらを取るかと言われたら私はちくわパン派ですね。",
+    "streaming": "どちらも\n自己責任で\nお願いします",
+    "download": {
+      "url": "http://yahoo.jp/box/7nAqyx",
+      "label": "ダウンロード(3.69MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1428580299/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry19.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331144540/http://www.geocities.jp:80/viprpg2015gw/entry19.html"
+    },
+    "icon": "/icons/2015-gw/19.png",
+    "ss": [
+      "/screenshots/2015-gw/19-1.png",
+      "/screenshots/2015-gw/19-2.png"
+    ]
   },
   {
     "id": "2015-gw-work-20",
     "festivalId": "2015-gw",
     "no": "20",
     "title": "脳を鍛える大人のDPトレーニング",
-    "author": "",
-    "detailDisabled": true
+    "author": "きぎぬ",
+    "category": "RPG",
+    "engine": "VXAce",
+    "authorComment": "世界樹の迷宮をオマージュしたダンジョン探索と、\n\nTRPGのダイスロールをオマージュした超簡易自作戦闘が特徴です。\n\n製作期間は一週間。量も質も相応です。\n\nVXAceならではの要素は、\n\nOgg形式の曲がふんだんに使われてることくらいでしょうか。\n\nだいたいそんな感じです。楽しめるといいですね。\n\n※動作がクソ重いマップがあります。",
+    "hostComment": "曲へのこだわりは大切ですよね！",
+    "streaming": "好きにしたら/\nいいじゃない",
+    "download": {
+      "url": "http://yahoo.jp/box/D9Xn29",
+      "label": "ダウンロード(30.3MB_05/03更新)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1428580345/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry20.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331145833/http://www.geocities.jp:80/viprpg2015gw/entry20.html"
+    },
+    "icon": "/icons/2015-gw/20.png",
+    "ss": [
+      "/screenshots/2015-gw/20-1.jpg"
+    ]
   },
   {
     "id": "2015-gw-work-21",
     "festivalId": "2015-gw",
     "no": "21",
     "title": "GWは短編集2015",
-    "author": "",
-    "detailDisabled": true
+    "author": "牧場の牛肉",
+    "category": "ほぼ見るゲ",
+    "engine": "2000",
+    "authorComment": "超短い話や短編が収録されたｋｓｇ集です、\n\n長い話が少ないので時間が足りない人にもあんしん。\n\n4/7現在、完成した話の数は少なめなのでボリュームは少なめになるかも",
+    "hostComment": "何かにつけてライオンを死なせるのはやめるんだ！",
+    "streaming": "○/○",
+    "download": {
+      "url": "http://yahoo.jp/box/8uQk7m",
+      "label": "ダウンロード(5.31MB)　/"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1428580394/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry21.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193021/http://www.geocities.jp:80/viprpg2015gw/entry21.html"
+    },
+    "icon": "/icons/2015-gw/21.png",
+    "ss": [
+      "/screenshots/2015-gw/21-1.png"
+    ]
   },
   {
     "id": "2015-gw-work-22",
     "festivalId": "2015-gw",
     "no": "22",
     "title": "愛しの先生へ…",
-    "author": "",
-    "detailDisabled": true
+    "author": "徳明",
+    "category": "俺得百合erg",
+    "engine": "エロゲツクール2000",
+    "authorComment": "いつも通りのガバガバストーリーでサッと遊びたい人にオススメなあっさり百合ergです。\n\n病弱で殆ど病院の外へ出た事が無い単体風魔法の具現化・ウィンドⅠ。\n\n主治医である単体回復魔法の具現化・ヒールⅢ。\n\n無愛想な一面もあるが、優しく、自分の為に尽くしてくれるヒールⅢに対し\n\nウィンドⅠは並々ならぬ感情を抱いていた。\n\nそんなヒールⅢが突如自分より弱い存在になってしまった時、ウィンドⅠが取った行動とは……。\n\nこのergには以下の表現が含まれました。\n\n・たまにはロリもいいよね！\n\n・女の子同士\n\n・ロリ化",
+    "hostComment": "いくらロリ化したとしてもウィンドⅠより弱い存在にはそうそうならないのでは！？",
+    "streaming": "どっちも\nOK",
+    "download": {
+      "url": "http://yahoo.jp/box/A10kxP",
+      "label": "ダウンロード(4.68MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1428580440/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry22.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193021/http://www.geocities.jp:80/viprpg2015gw/entry22.html"
+    },
+    "icon": "/icons/2015-gw/22.png",
+    "ss": [
+      "/screenshots/2015-gw/22-1.png"
+    ]
   },
   {
     "id": "2015-gw-work-23",
     "festivalId": "2015-gw",
     "no": "23",
     "title": "白イ青春",
-    "author": "",
-    "detailDisabled": true
+    "author": "きらきー",
+    "category": "素材をもてあました探索ゲ",
+    "engine": "2003",
+    "authorComment": "当ゲームはフルカラーでお送りします\n\n※流ケツ表現グロ中尉",
+    "hostComment": "白黒原稿なのにカラーコピー押して40円損する、あるあるですよね。え、ない？　そう……。",
+    "streaming": "まるまる",
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1428580480/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry23.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193022/http://www.geocities.jp:80/viprpg2015gw/entry23.html"
+    },
+    "icon": "/icons/2015-gw/23.png",
+    "ss": [
+      "/screenshots/2015-gw/23-1.png",
+      "/screenshots/2015-gw/23-2.png"
+    ]
   },
   {
     "id": "2015-gw-work-24",
     "festivalId": "2015-gw",
     "no": "24",
     "title": "●☆★ＧＷ祭2015★☆●",
-    "author": "",
-    "detailDisabled": true
+    "author": "屋根裏ビーム",
+    "category": "お祭り",
+    "engine": "2000",
+    "authorComment": "ヒャッハー！ＧＷ祭だあ！",
+    "hostComment": "大海原並に清々しいSS。さあ、ここから何が作られるのか！",
+    "streaming": "どっちも可",
+    "download": {
+      "url": "http://yahoo.jp/box/KIjCuA",
+      "label": "ダウンロード(1.00MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1428580531/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry24.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193021/http://www.geocities.jp:80/viprpg2015gw/entry24.html"
+    },
+    "icon": "/icons/2015-gw/24.png",
+    "ss": [
+      "/screenshots/2015-gw/24-1.png"
+    ]
   },
   {
     "id": "2015-gw-work-25",
     "festivalId": "2015-gw",
     "no": "25",
     "title": "四人対戦ゲーム",
-    "author": "",
-    "detailDisabled": true
+    "author": "あひょふりぐ",
+    "category": "ｋｓｇ（見るゲ）",
+    "engine": "1種類",
+    "authorComment": "魔法具現化たちが四人対戦ゲームをPIAIするのを見るだけです。\n四人で対戦することはできません。\n\n四人で見ることはできますが、そのようなプレイをする人達は実際アブナイであり、過去になんらかのUNIXばくはつインシデントに巻き込まれニューロンにダメージを負ったかのうせいがなんか高い。このゲームにはそのようなネオサイタマめいたきけんせいとかはなく、ニンジャも登場しない。作っている人もアバシリ研修におくられるのでごあんしんください。",
+    "hostComment": "◆海老◆優勝者にはスシと賞状が授与されます◆海老◆",
+    "streaming": "おおむねだい\nじょうぶです/\n実際問題ない",
+    "download": {
+      "url": "http://yahoo.jp/box/VGw-On",
+      "label": "ダウンロード(397kB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1428749388/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry25.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193021/http://www.geocities.jp:80/viprpg2015gw/entry25.html"
+    },
+    "icon": "/icons/2015-gw/25.png",
+    "ss": [
+      "/screenshots/2015-gw/25-1.png",
+      "/screenshots/2015-gw/25-2.png"
+    ]
   },
   {
     "id": "2015-gw-work-26",
     "festivalId": "2015-gw",
     "no": "26",
     "title": "たまにはラスボスやってみる？",
-    "author": "",
-    "detailDisabled": true
+    "author": "uuir",
+    "category": "みるゲ",
+    "engine": "2000",
+    "authorComment": "なぜか唐突に嫁様がラスボスをやることになってしまう\n\nぶちきれる魔王だが・・・",
+    "hostComment": "うーん、あらあらうふふなイメージが強くてラスボスしてる姿が想像できない。",
+    "streaming": "○/○",
+    "download": {
+      "url": "http://yahoo.jp/box/Dzt-U6",
+      "label": "ダウンロード(3.15MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1428749428/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry26.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331142412/http://www.geocities.jp:80/viprpg2015gw/entry26.html"
+    },
+    "icon": "/icons/2015-gw/26.png",
+    "ss": [
+      "/screenshots/2015-gw/26-1.png"
+    ]
   },
   {
     "id": "2015-gw-work-27",
     "festivalId": "2015-gw",
     "no": "27",
     "title": "機動恐怖の呪いはゴメスの穴",
-    "author": "",
-    "detailDisabled": true
+    "author": "魔禁胆",
+    "category": "詰め合わせ",
+    "engine": "2000",
+    "authorComment": "４つのゲームが入っています。\n\n「機動勇者ＡＬＥＸ」：自作戦闘ＲＰＧ\n\n「恐怖の股間ドリル」：アレックスを掘れ！！\n\n「ファラオの呪いは鈍い」：パッ〇マン系のドットイート\n\n「続ゴメスの穴」：GW2014祭りの続編\n\n全部にゴメスが登場します。\n\n主人公はゴメスです。本当です。",
+    "hostComment": "その点機動恐怖の呪いはゴメスの穴は凄いよな、最後までゴメスたっぷりだもん。",
+    "streaming": "用法要領を守って正しくお使いください",
+    "download": {
+      "url": "http://yahoo.jp/box/AlYRJI",
+      "label": "ダウンロード(1.65MB_05/11更新)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1428749470/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry27.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193022/http://www.geocities.jp:80/viprpg2015gw/entry27.html"
+    },
+    "icon": "/icons/2015-gw/27.png",
+    "ss": [
+      "/screenshots/2015-gw/27-1.png",
+      "/screenshots/2015-gw/27-2.png"
+    ]
   },
   {
     "id": "2015-gw-work-28",
     "festivalId": "2015-gw",
     "no": "28",
     "title": "お徳用ksg詰め合わせ",
-    "author": "",
-    "detailDisabled": true
+    "author": "しらゆき",
+    "category": "たぶんだいたい見るゲ",
+    "engine": "2000",
+    "authorComment": "現状：スクショ分しか出来てない\n\n・ksgを詰め合わせる予定です、目標１個！\n\n・これから作るのでスクショの内容から変わっていく可能性があります。\n\n・過去作の続きとかそういうのをやるかもしれません。",
+    "hostComment": "詰め合わせというからにはせめて2個を目標に！",
+    "streaming": "へいき/\nへっちゃらッ！",
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1428927077/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry28.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193022/http://www.geocities.jp:80/viprpg2015gw/entry28.html"
+    },
+    "icon": "/icons/2015-gw/28.png",
+    "ss": [
+      "/screenshots/2015-gw/28-1.png"
+    ]
   },
   {
     "id": "2015-gw-work-29",
     "festivalId": "2015-gw",
     "no": "29",
     "title": "The Niwatori",
-    "author": "",
-    "detailDisabled": true
+    "author": "ぽっこん",
+    "category": "謎解きアクション",
+    "engine": "2003",
+    "authorComment": "謎を解き、鶏達と戦うアクションゲーです\n\n3段階の難易度を用意\n\n全7ステージ＋おまけ",
+    "hostComment": "ニワトリって気性が荒くてキックが強烈らしいですよ(動物のお医者さん知識)",
+    "streaming": "○/○",
+    "download": {
+      "url": "http://yahoo.jp/box/Y50YZV",
+      "label": "ダウンロード(8.02MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1428927130/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry29.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193022/http://www.geocities.jp:80/viprpg2015gw/entry29.html"
+    },
+    "icon": "/icons/2015-gw/29.png",
+    "ss": [
+      "/screenshots/2015-gw/29-1.png"
+    ]
   },
   {
     "id": "2015-gw-work-30",
     "festivalId": "2015-gw",
     "no": "30",
     "title": "もしもクトゥルフ神話TRPGを遊んだら",
-    "author": "",
-    "detailDisabled": true
+    "author": "ジーノ",
+    "category": "見るksg",
+    "engine": "RPG2000",
+    "authorComment": "『背が高く、痩せていて、古代エジプトのファラオような若々しい顔をしており、\n\n華やかな虹色のローブをまとって顔にはそれ独自の光で輝く黄金の冠を載せている・・・・・・\n\n暗黒の神あるいは堕落した大天使のような魅力があり、\n\n目の当たりには気まぐれな感じがなんとなく漂っている』\n\n――――H.P.ラヴクラフト『未知なるカダスを夢に求めて』\n\nニャルラトホテプ紹介の一文を抜粋。\n\n貴方に授ける面白いクトゥルフ神話TRPGの知識と遊び方。\n\n今回もクトゥルフ神話TRPGをやみっちちゃん達に遊んでもらいました。\n\nおまけでは探索者の作り方、物語の導入、猫の探索者に関して記載。\n\n今回使用したルールブック・サプリはCoC、2010、カルトナウ、フラグメント。\n\nどうでもいいんだけど戦え!!イクサー1の原作はいつスパロボに参戦するんですか。",
+    "hostComment": "題材が持つはずのおどろおどろしさが全くないSSです。",
+    "streaming": "どちらも可。",
+    "download": {
+      "url": "http://yahoo.jp/box/lqyst9",
+      "label": "ダウンロード(24.3MB_05/26更新)　/"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1429096546/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry30.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193022/http://www.geocities.jp:80/viprpg2015gw/entry30.html"
+    },
+    "icon": "/icons/2015-gw/30.png",
+    "ss": [
+      "/screenshots/2015-gw/30-1.png",
+      "/screenshots/2015-gw/30-2.png"
+    ]
   },
   {
     "id": "2015-gw-work-31",
     "festivalId": "2015-gw",
     "no": "31",
-    "title": "混沌ノイケニエ２ 混沌城ケイオス～赤月の奇想曲～",
-    "author": "",
-    "detailDisabled": true
+    "title": "混沌ノイケニエ２　混沌城ケイオス～赤月の奇想曲～",
+    "author": "大富豪の大貧民役",
+    "category": "見下ろしアクション",
+    "engine": "2000",
+    "authorComment": "近頃、ポテチ大陸で相次ぐ失踪事件。老若男女問わずに突如街や村から消えるという。\n\nその謎の事件の真相は、混沌の神の狂信者による「イケニエ」と称する誘拐、殺人であった。\n\nこの事を知らぬ王国は総力を尽くすも、未だに真相を掴めずにいた…\n\n誰にも知られていない森の奥。「混沌城」と呼ばれる屋敷に二人の人影。\n\n普段は闇商人と名乗る、「エビルハンター」ダークネスとその親友スターライト。\n\n彼女らは裏世界の情報網で事の真相をいち早く知り、\n\nそして混沌神討伐の為立ち上がったのだ。\n\n混沌の神が狂信者の操り人形となって地上に降臨する時は近い。\n\n銀の鎖鞭と聖なる道具を持ち二人は暗黒の城へ身を投じるのであった。\n\n紅白2014の「混沌ノイケニエ」やってなくても全然大丈夫です。\n\nでも間に合うかどうかすごい怪しいです。\n\nたぶんFC悪魔城ドラキュラをノーミスノーダメージで完全クリアできるくらいの確率で\n\n提出できます。\n\n＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝\n\nただ今制作進行度を悪魔城ドラキュラに例えたらサブウェポン無しで死神戦してる所です。\n\nもうちょっと待ってて下さいお願いします",
+    "hostComment": "ﾍﾟﾎﾟｩ",
+    "streaming": "共に可",
+    "download": {
+      "url": "http://yahoo.jp/box/mw3CmB",
+      "label": "ダウンロード(8.94MB_06/01更新)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1429266230/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry31.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331133827/http://www.geocities.jp:80/viprpg2015gw/entry31.html"
+    },
+    "icon": "/icons/2015-gw/31.png",
+    "ss": [
+      "/screenshots/2015-gw/31-1.png",
+      "/screenshots/2015-gw/31-2.png"
+    ]
   },
   {
     "id": "2015-gw-work-32",
     "festivalId": "2015-gw",
     "no": "32",
     "title": "もしも導かれし者たち",
-    "author": "",
-    "detailDisabled": true
+    "author": "スクエアエニックス",
+    "category": "見るゲ",
+    "engine": "にせん",
+    "authorComment": "完成させれる気がしないから前編って書いとく",
+    "hostComment": "この雑コラっぷりは正直かなり好きです。",
+    "streaming": "配信いいよ\n動画だめ",
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1429266274/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry32.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331141726/http://www.geocities.jp:80/viprpg2015gw/entry32.html"
+    },
+    "icon": "/icons/2015-gw/32.png",
+    "ss": [
+      "/screenshots/2015-gw/32-1.png",
+      "/screenshots/2015-gw/32-2.png"
+    ]
   },
   {
     "id": "2015-gw-work-33",
     "festivalId": "2015-gw",
     "no": "33",
     "title": "SB",
-    "author": "",
-    "detailDisabled": true
+    "author": "pen",
+    "category": "上等な料理にカレーをブチまけるがごときksg",
+    "engine": "2000",
+    "authorComment": "ヱスビー食品株式会社は　エスビーと読んで商標にS&Bと表記します\n\nちなみに\"S\"UN  \"&\" \"B\"IRDの略です　\"S\"PICE \"&\" HER\"B\"の略でもあります\n\n以上　トリビアでした(ソースはwikipediaです　詳しくは知りません",
+    "hostComment": "大丈夫かなこれ",
+    "streaming": "×/×",
+    "download": {
+      "url": "http://yahoo.jp/box/VkMOwO",
+      "label": "ダウンロード(32.6MB_06/01更新)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1429529195/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry33.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193023/http://www.geocities.jp:80/viprpg2015gw/entry33.html"
+    },
+    "icon": "/icons/2015-gw/33.png",
+    "ss": [
+      "/screenshots/2015-gw/33-1.png"
+    ]
   },
   {
     "id": "2015-gw-work-34",
     "festivalId": "2015-gw",
     "no": "34",
     "title": "バーストⅡが冒険する",
-    "author": "",
-    "detailDisabled": true
+    "author": "ユーピット村長",
+    "category": "ＲＰＧ",
+    "engine": "2000",
+    "authorComment": "バーストⅡちゃん可愛い\n\n多分間に合いません",
+    "hostComment": "いま「バーストⅡの谷間の中を冒険したい」って言った人、正直に手を上げなさい。",
+    "streaming": "遠慮せずに/\nどうぞどうぞ",
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1429529245/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry34.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331145243/http://www.geocities.jp:80/viprpg2015gw/entry34.html"
+    },
+    "icon": "/icons/2015-gw/34.gif",
+    "ss": [
+      "/screenshots/2015-gw/34-1.png"
+    ]
   },
   {
     "id": "2015-gw-work-35",
     "festivalId": "2015-gw",
     "no": "35",
-    "title": "ウジャイアン -制作の闇伝説-",
-    "author": "",
-    "detailDisabled": true
+    "title": "ウジャイアン　-制作の闇伝説-",
+    "author": "kemono",
+    "category": "クソゲー",
+    "engine": "2000",
+    "authorComment": "創作の暗黒面に堕ちる時、人はウジャイアンとなる…\n\n中身はこれから作ります。\n\n現状は、提出期日に間に合えばいいな…程度の進捗です。",
+    "hostComment": "ツクールは楽しいんだ　ツクールは楽しいんだ　ツクールは楽楽楽楽楽楽楽楽",
+    "streaming": "いずれも可",
+    "download": {
+      "url": "http://yahoo.jp/box/lOk_BJ",
+      "label": "ダウンロード(3.62MB_05/10更新)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1429529301/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry35.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193023/http://www.geocities.jp:80/viprpg2015gw/entry35.html"
+    },
+    "icon": "/icons/2015-gw/35.png",
+    "ss": [
+      "/screenshots/2015-gw/35-1.png"
+    ]
   },
   {
     "id": "2015-gw-work-36",
     "festivalId": "2015-gw",
     "no": "36",
     "title": "月影の太刀",
-    "author": "",
-    "detailDisabled": true
+    "author": "六徳",
+    "category": "見るゲ",
+    "engine": "RPGツクール2000",
+    "authorComment": "師匠とその好敵手、偶然出会った同郷の男、そして家族。\n\n様々な人との関わりの中、やがて彼は意外な真実を知ることとなる。\n\nその日も、美しい満月の夜だった。\n\nシリアスそうでシリアスじゃないちょっとだけシリアスなゆるい見るゲの予定です。\n\n色々いますが主人公は弟子五郎のはずです。たぶん。",
+    "hostComment": "しっとりとした見るゲはよいものです。",
+    "streaming": "良識の範囲で",
+    "download": {
+      "url": "http://yahoo.jp/box/VBW-pw",
+      "label": "ダウンロード(1.08MB_0505更新)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1429529341/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry36.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193023/http://www.geocities.jp:80/viprpg2015gw/entry36.html"
+    },
+    "icon": "/icons/2015-gw/36.png",
+    "ss": [
+      "/screenshots/2015-gw/36-1.png",
+      "/screenshots/2015-gw/36-2.png"
+    ]
   },
   {
     "id": "2015-gw-work-37",
     "festivalId": "2015-gw",
     "no": "37",
     "title": "トルネード拳説",
-    "author": "",
-    "detailDisabled": true
+    "author": "ムサシ",
+    "category": "スーパーヒーロー見るゲ",
+    "engine": "RPGツクール2000",
+    "authorComment": "-ストーリー-\n\n２００００年前、この星を破滅寸前に追いやった邪神カオス\n\nカオスに対抗できる唯一の力「もしもの力」を受け継いだのは\n\n自称魔法具現化界のヒーロー、トルネードⅢだった！？\n\nお調子者のコミカルヒーローが颯爽と活躍？するハイテンション見るゲ！",
+    "hostComment": "気高……うん？",
+    "streaming": "両方とも○",
+    "download": {
+      "url": "http://yahoo.jp/box/bcr1_p",
+      "label": "ダウンロード(7.24MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1429875486/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry37.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193023/http://www.geocities.jp:80/viprpg2015gw/entry37.html"
+    },
+    "icon": "/icons/2015-gw/37.gif",
+    "ss": [
+      "/screenshots/2015-gw/37-1.png",
+      "/screenshots/2015-gw/37-2.png"
+    ]
   },
   {
     "id": "2015-gw-work-38",
     "festivalId": "2015-gw",
     "no": "38",
     "title": "野球拳（仮）",
-    "author": "",
-    "detailDisabled": true
+    "author": "一般エターナラー1-3",
+    "category": "じゃんけん",
+    "engine": "2000",
+    "authorComment": "野球拳、ただ野球拳だ、そう野球拳だ。\n\n服脱ぎ絵とかtkれないからセリフで適当に\n\n裸になる描写あるからＲ１８かもしれない\n\nエターなりました",
+    "hostComment": "野球拳の歌詞って6番まであるんですって。",
+    "streaming": "可/可",
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1429875532/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry38.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331140322/http://www.geocities.jp:80/viprpg2015gw/entry38.html"
+    },
+    "icon": "/icons/2015-gw/38.png",
+    "ss": [
+      "/screenshots/2015-gw/38-1.png"
+    ]
   },
   {
     "id": "2015-gw-work-39",
     "festivalId": "2015-gw",
     "no": "39",
     "title": "もしもブラインドがキュアー把握",
-    "author": "",
-    "detailDisabled": true
+    "author": "いちのさん",
+    "category": "ksg",
+    "engine": "2000",
+    "authorComment": "890 ：以下、転載禁止でVIPがお送りします：2015/04/23(木) 16:24:45.384 ID:7Dwfqcue0\n\nＧＷに出すksg↓↓\n\n892 ：以下、転載禁止でVIPがお送りします：2015/04/23(木) 16:38:30.348 ID:+nKpCrso0\n\nもしもブラインドがキュアー把握",
+    "hostComment": "Ⅰにしか勝てないじゃん……。",
+    "streaming": "どっちも可",
+    "download": {
+      "url": "http://yahoo.jp/box/0NiKia",
+      "label": "ダウンロード(3.32MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1429875572/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry39.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193023/http://www.geocities.jp:80/viprpg2015gw/entry39.html"
+    },
+    "icon": "/icons/2015-gw/39.png",
+    "ss": [
+      "/screenshots/2015-gw/39-1.png"
+    ]
   },
   {
     "id": "2015-gw-work-40",
     "festivalId": "2015-gw",
     "no": "40",
     "title": "やや百合見るゲ",
-    "author": "",
-    "detailDisabled": true
+    "author": "甘藍",
+    "category": "やや百合見るゲ",
+    "engine": "RPGツクール2000",
+    "authorComment": "短編3本、掌編1本、過去作3本です。\n\n以下主な登場人物\n\nわてり、フレイムさん、スターライトⅢ、スパークⅢ、ライチ、闇市。",
+    "hostComment": "これは百合ゲー……つまりスターライトⅢも！！？",
+    "streaming": "可",
+    "download": {
+      "url": "http://yahoo.jp/box/s5F7e0",
+      "label": "ダウンロード(4.83MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1429875640/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry40.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193025/http://www.geocities.jp:80/viprpg2015gw/entry40.html"
+    },
+    "icon": "/icons/2015-gw/40.png",
+    "ss": [
+      "/screenshots/2015-gw/40-1.jpg"
+    ]
   },
   {
     "id": "2015-gw-work-41",
     "festivalId": "2015-gw",
     "no": "41",
     "title": "ダー惚くダークジャンヌのブライアンパンマン",
-    "author": "",
-    "detailDisabled": true
+    "author": "スルメフル",
+    "category": "やるｋｓゲ",
+    "engine": "2000",
+    "authorComment": "昔に作った改造ksゲを更に改造したものなので\n\n音合わせの時よりかはクオリティが下がっているかも。\n\nダクジャヌがなると好きなのは某餡軍ｋｓゲのリスペクト。\n\n当初、作者名を　ゆダークサモンゃ　にしようと思ったけどやはり無理があった。",
+    "hostComment": "なるとちゃんかわいいですよね。",
+    "streaming": "自己責任で",
+    "download": {
+      "url": "http://yahoo.jp/box/VstgZJ",
+      "label": "ダウンロード(11.1MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1430046923/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry41.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193023/http://www.geocities.jp:80/viprpg2015gw/entry41.html"
+    },
+    "icon": "/icons/2015-gw/41.png",
+    "ss": [
+      "/screenshots/2015-gw/41-1.png",
+      "/screenshots/2015-gw/41-2.png"
+    ]
   },
   {
     "id": "2015-gw-work-42",
     "festivalId": "2015-gw",
     "no": "42",
     "title": "はい説ｋｓｇ魔法スクール",
-    "author": "",
-    "detailDisabled": true
+    "author": "クルマユ大好き丸",
+    "category": "ｋｓｇ",
+    "engine": "2000",
+    "authorComment": "～はい説魔法具現化学園～\n\nそれは魔法具現化と呼ばれる生物達をムリヤリ徴集して\n\nまるで人間の様な学校生活を強要する施設(はい説)\n\nある者は意気揚々と、ある者は無関心に、またある者は不満を口にしながら嫌々と\n\nノリノリで学校生活を満喫するのであった。\n\n全五話構成(予定)\n\n・ランクⅠ学級の話\n\n先生の卑しい思いつきで男女ペア(極力)を作りダンスの練習をする事になったⅠ組\n\nクラス内の嫌われ者Ｎｏ１を決める無慈悲な選出作業が始まるのであった。\n\n・ランクⅡ学級の話\n\nクラス委員長のクェイクⅡがⅠ組の担任となった事で新たに立候補者を募るⅡ組\n\nスパークⅡから一方的な敵対心と自称ランクⅡ魔法Ｎｏ１の座と委員長の立候補を\n\n押し付けられたウォーターⅡは面倒なので当日、腹痛を理由に学校を欠席する。\n\n他に立候補者も居ない事からそのままスパークⅡがクラス委員長になるだろうと\n\n思われていたのだが・・・\n\n・ランクⅢ学級の話\n\nクラス委員長のダークネスⅢ、生徒会長のニュークリアⅢの意向によって\n\n彼女らの気に食わない生徒(主に不人気)の席が全て撤廃されてしまったⅢ組\n\n境遇に耐えかねたⅢ組の(不人気)具現化達は(嫌われてる)ウォーターⅢを筆頭に\n\n生徒会長達に楯突こうとするが・・・\n\n・特殊学級の話\n\nある事件をきっかけにクラスメート達からいじめを受けるようになり\n\n学校を不登校するようになったエスケープ君。\n\n果たして先生のクイックムーブは無事にエスケープを登校させる事が出来るのか？\n\n・その他学級の話\n\nツクール外、オリジナル等の癖の強い荒くれ魔法具現化を寄せ集めた底辺組\n\n臨時講師の冷たいパスタを闇討ちで病院送りにしたシェイクネス新先生が\n\nクラスメンバー達全員の事を大雑把に紹介してくれるぞ。\n\n※遅刻します\n\n出来るのは一話だけになるかもしれないし\n\nダイジェスト四コマ的に全て適当にｔｋるかもしれません。\n\nどうなるのか目処は全く立ってません。\n\nksgなので内容については深く考えないで下さい",
+    "hostComment": "サツバツ！",
+    "streaming": "可",
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1430047002/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry42.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331144020/http://www.geocities.jp:80/viprpg2015gw/entry42.html"
+    },
+    "icon": "/icons/2015-gw/42.png",
+    "ss": [
+      "/screenshots/2015-gw/42-1.png",
+      "/screenshots/2015-gw/42-2.png"
+    ]
   },
   {
     "id": "2015-gw-work-43",
     "festivalId": "2015-gw",
     "no": "43",
     "title": "やみっちとらいちのラブラブポッキーゲーム",
-    "author": "",
-    "detailDisabled": true
+    "author": "焼肉",
+    "category": "ミニゲーム",
+    "engine": "RPGツクールVXA　Lite",
+    "authorComment": "初制作です、GWエントリー作品にやみっちとらいちの\n\nイチャラブ作品が少なかったのでつい作ってしまいました。\n\nエンターブレインさん僕のツクール２０００効果音がならないバグはよどうにかしてください",
+    "hostComment": "VX・VXAのデフォ解像度って中途半端ですよね。",
+    "streaming": "可/可",
+    "download": {
+      "url": "http://yahoo.jp/box/F6DXMX",
+      "label": "ダウンロード(31.3MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1430047053/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry43.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331132137/http://www.geocities.jp:80/viprpg2015gw/entry43.html"
+    },
+    "icon": "/icons/2015-gw/43.png",
+    "ss": [
+      "/screenshots/2015-gw/43-1.jpg",
+      "/screenshots/2015-gw/43-2.jpg"
+    ]
   },
   {
     "id": "2015-gw-work-44",
     "festivalId": "2015-gw",
     "no": "44",
     "title": "ゴメス人形が追いかける",
-    "author": "",
-    "detailDisabled": true
+    "author": "mikopan",
+    "category": "そこから先はキミの目で確かめるんだ！",
+    "engine": "2000",
+    "authorComment": "ピポポポポ・・・ヒゥンヒゥンヒゥン・・・ゼッ・・・トォォォン・・・\n\nヒゥンヒゥン・・・ゼットォォォン・・・ピポポポポ・・・\n\n以下、大してありがたくない日本語訳\n\n本格的にｔｋり始めたのは一昨日からだから間に合う気が微塵もしない。\n\n実はssもついさっき(エントリー申し込みちょっと前)にやっつけでやった。\n\nさてここで問題です。\n\nモチベはあるのにネタがないッ・・・\n\nこんなときはどんなｋｓｇをｔｋるべきでしょうか？\n\nヒント：去年のGWで俺が何を言われていたか",
+    "hostComment": "「ちゃんとしたssを作った」って言いませんでした？ｗｗｗ",
+    "streaming": "止めはしませんが責任は一切負いません",
+    "download": {
+      "url": "http://yahoo.jp/box/FfyegV",
+      "label": "ダウンロード(4.87MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1430219381/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry44.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331132724/http://www.geocities.jp:80/viprpg2015gw/entry44.html"
+    },
+    "icon": "/icons/2015-gw/44.jpg",
+    "ss": [
+      "/screenshots/2015-gw/44-1.png"
+    ]
   },
   {
     "id": "2015-gw-work-45",
     "festivalId": "2015-gw",
     "no": "45",
     "title": "もしも石ころの世界だったら",
-    "author": "",
-    "detailDisabled": true
+    "author": "かわせみさん",
+    "category": "ミニゲーム付き見るゲ",
+    "engine": "2000",
+    "authorComment": "魔王把握です",
+    "hostComment": "石ころ帽子が脱げない！",
+    "streaming": "○/○",
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1430219607/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry45.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193026/http://www.geocities.jp:80/viprpg2015gw/entry45.html"
+    },
+    "icon": "/icons/2015-gw/45.png",
+    "ss": [
+      "/screenshots/2015-gw/45-1.png"
+    ]
   },
   {
     "id": "2015-gw-work-46",
     "festivalId": "2015-gw",
     "no": "46",
     "title": "ヴォイニッチ冒険譚",
-    "author": "",
-    "detailDisabled": true
+    "author": "もざんびいく",
+    "category": "オカルト",
+    "engine": "2000",
+    "authorComment": "オカルトファンタジー的な",
+    "hostComment": "ヴォイニッチ手稿の解読？　簡単でしょ(Elona的思考)",
+    "streaming": "可・可",
+    "download": {
+      "url": "http://yahoo.jp/box/Hw4RNm",
+      "label": "ダウンロード(6.90MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1430391005/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry46.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331133812/http://www.geocities.jp:80/viprpg2015gw/entry46.html"
+    },
+    "icon": "/icons/2015-gw/46.png",
+    "ss": [
+      "/screenshots/2015-gw/46-1.png"
+    ]
   },
   {
     "id": "2015-gw-work-47",
     "festivalId": "2015-gw",
     "no": "47",
     "title": "クソマップエターナル",
-    "author": "",
-    "detailDisabled": true
+    "author": "フッ化海老廻廊",
+    "category": "よく分からない",
+    "engine": "2003",
+    "authorComment": "本来バグるはずの無いクソなのに原因不明で停滞中　でも間に合うだろう多分\n\n（エターなった）過去作品を引っ張ってくるのはすごく精神が抉られました　これが答えです\n\nブライアン君が作ったクソマップをアレックス君が自由に歩き回るって、ゲームの体裁のギリギリ\n\n収録MAP数だけはそこそこあります　無論、全部どうしようもない",
+    "hostComment": "解説があるならマップを歩いてるだけでも楽しくなりそう。",
+    "streaming": "再生一桁でいいならどうぞ",
+    "download": {
+      "url": "http://yahoo.jp/box/QRpdOh",
+      "label": "ダウンロード(1.21MB_05/27更新)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1430391411/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry47.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193025/http://www.geocities.jp:80/viprpg2015gw/entry47.html"
+    },
+    "icon": "/icons/2015-gw/47.png",
+    "ss": [
+      "/screenshots/2015-gw/47-1.png",
+      "/screenshots/2015-gw/47-2.png"
+    ]
   },
   {
     "id": "2015-gw-work-48",
     "festivalId": "2015-gw",
     "no": "48",
     "title": "華になり散れ",
-    "author": "",
-    "detailDisabled": true
+    "author": "鷹",
+    "category": "一世一代の死ぬしかないデフォ戦RPG",
+    "engine": "2000",
+    "authorComment": "せめて、ただ一度ぐらい、美しく『散る』ことはできないのか？\n\n今から作ります。　間に合ったら出します。",
+    "hostComment": "わかりきった負けイベントでもなあ、輝かせることはできるんだよ……！",
+    "streaming": "共に可",
+    "download": {
+      "url": "http://yahoo.jp/box/Sh6Liq",
+      "label": "ダウンロード(2.40MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1430391559/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry48.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193027/http://www.geocities.jp:80/viprpg2015gw/entry48.html"
+    },
+    "icon": "/icons/2015-gw/48.jpg",
+    "ss": [
+      "/screenshots/2015-gw/48-1.jpg"
+    ]
   },
   {
     "id": "2015-gw-work-49",
     "festivalId": "2015-gw",
     "no": "49",
     "title": "なつかしのRPGコレクション",
-    "author": "",
-    "detailDisabled": true
+    "author": "パトラミック",
+    "category": "ｋｓｇコレクション",
+    "engine": "RPGツクール２０００",
+    "authorComment": "おもにラウンジツクスレ全盛期の\n\nネタをテーマにしたｋｓｇコレクションです。",
+    "hostComment": "どれみって15年前のアニメなんですってｗｗｗｗｗはっはっは……。",
+    "streaming": "可",
+    "download": {
+      "url": "http://yahoo.jp/box/zWaZ7S",
+      "label": "ダウンロード(6.37MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1430391714/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry49.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331143655/http://www.geocities.jp:80/viprpg2015gw/entry49.html",
+      "titleUrl": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1430391714/"
+    },
+    "icon": "/icons/2015-gw/49.png",
+    "ss": [
+      "/screenshots/2015-gw/49-1.png",
+      "/screenshots/2015-gw/49-2.png"
+    ],
+    "originalTitle": "ラウンジコレクション"
   },
   {
     "id": "2015-gw-work-50",
     "festivalId": "2015-gw",
     "no": "50",
     "title": "ウィンディとの思い出",
-    "author": "",
-    "detailDisabled": true
+    "author": "ウィンディに襲われたい",
+    "category": "見るゲ",
+    "engine": "2000",
+    "authorComment": "8分程度で終わる見るゲ。\n\n少年とウィンディの、ひとときの出会い。\n\n恋愛未満の、淡い恋心を描いたストーリーです。\n\nこのささやかなksgを通して、ウィンディの可愛さを再認識して頂ければ幸いです。",
+    "hostComment": "再？　いいや、わかっています、わかっていますとも！",
+    "streaming": "○/○",
+    "download": {
+      "url": "http://yahoo.jp/box/DewtYU",
+      "label": "ダウンロード(2.85MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1430391820/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry50.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193026/http://www.geocities.jp:80/viprpg2015gw/entry50.html"
+    },
+    "icon": "/icons/2015-gw/50.png",
+    "ss": [
+      "/screenshots/2015-gw/50-1.jpg",
+      "/screenshots/2015-gw/50-2.jpg"
+    ]
   },
   {
     "id": "2015-gw-work-51",
     "festivalId": "2015-gw",
     "no": "51",
     "title": "らっすんごれらい",
-    "author": "",
-    "detailDisabled": true
+    "author": "楽しんごう",
+    "category": "スタイリッシュデフォ戦",
+    "engine": "RPGツクール2000",
+    "authorComment": "チョトマテ　チョトマテ　オニーサムニダ\n\nところでラッスンゴレライってなんです？",
+    "hostComment": "すっかり最近の芸人には疎くなってしまってね……。",
+    "streaming": "ともに不可",
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1430531033/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry51.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193027/http://www.geocities.jp:80/viprpg2015gw/entry51.html"
+    },
+    "icon": "/icons/2015-gw/51.png",
+    "ss": [
+      "/screenshots/2015-gw/51-1.jpg"
+    ]
   },
   {
     "id": "2015-gw-work-52",
     "festivalId": "2015-gw",
     "no": "52",
     "title": "こんなksgに二週間もかかったからGWに出す",
-    "author": "",
-    "detailDisabled": true
+    "author": "∞チュルチュル",
+    "category": "ｋｓｇ",
+    "engine": "2000",
+    "authorComment": "ポケモンフュージョン楽しいよね",
+    "hostComment": "ベロチュウって言いたいだけだろ！　このすけべ！",
+    "streaming": "いいのよ/\nいいのよ",
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1430531197/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry52.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193027/http://www.geocities.jp:80/viprpg2015gw/entry52.html"
+    },
+    "icon": "/icons/2015-gw/52.png",
+    "ss": [
+      "/screenshots/2015-gw/52-1.png",
+      "/screenshots/2015-gw/52-2.png"
+    ]
   },
   {
     "id": "2015-gw-work-53",
     "festivalId": "2015-gw",
     "no": "53",
     "title": "エンドレス魔王決戦",
-    "author": "",
-    "detailDisabled": true
+    "author": "えんがわ",
+    "category": "超短編RPG",
+    "engine": "2000",
+    "authorComment": "VIPRPG10周年記念のようなそうでもないようなRPGです。\n\n周回要素もありますが基本的に無印セラフィックブルーの\n\nOPより短いので箸休めにどうぞ。あと遅刻する。",
+    "hostComment": "つまり一周2分か……みじかっ！",
+    "streaming": "無記入",
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1430531318/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry53.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193027/http://www.geocities.jp:80/viprpg2015gw/entry53.html"
+    },
+    "icon": "/icons/2015-gw/53.png",
+    "ss": [
+      "/screenshots/2015-gw/53-1.png",
+      "/screenshots/2015-gw/53-2.png"
+    ]
   },
   {
     "id": "2015-gw-work-54",
     "festivalId": "2015-gw",
     "no": "54",
     "title": "もしもしょうゆがおいしかったら",
-    "author": "",
-    "detailDisabled": true
+    "author": "ソイソー党",
+    "category": "たぶん魔王把握",
+    "engine": "２０００",
+    "authorComment": "しょうゆ　おいしい　です",
+    "hostComment": "出たぞ今回のしょうゆ枠！",
+    "streaming": "大丈夫だ/\n問題ない",
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1430531613/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry54.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193028/http://www.geocities.jp:80/viprpg2015gw/entry54.html"
+    },
+    "icon": "/icons/2015-gw/54.png",
+    "ss": [
+      "/screenshots/2015-gw/54-1.png"
+    ]
   },
   {
     "id": "2015-gw-work-55",
     "festivalId": "2015-gw",
     "no": "55",
     "title": "ｋｓｇ詰め合わせ",
-    "author": "",
-    "detailDisabled": true
+    "author": "フャイル",
+    "category": "ｋｓｇセット",
+    "engine": "2000",
+    "authorComment": "妹リナックスをとても大事に想っている、心優しき兄アレックス。\n\n昼下がりの午後に妹と一緒に魔王を把握する時間は毎日の日課になっており、\n\nそんな二人の仲睦まじい様子に周囲の人は自然と心が癒されてしまう。\n\nそう、あの日までは…。\n\nあの日、突如として襲いかかってきたゴメスによって、俺達の尻は戦場と化した。\n\n突然の事態に俺達は慌てふためき、仮初めの防衛体制を整えるのが精一杯だった。\n\n初めはそうだった、圧倒的な海賊に対して俺達は、とにかく自分を守るのだけで精一杯だった。\n\nだが、抵抗組織もない俺達は為す術もなく一人、また一人と仲間を掘られていった。\n\nそんな絶望的な戦いの中で俺達は学んだ。生き延びるには勝つしか無いのだと。\n\n絶対に勝つという鉄の意志を持つ者だけが、この地獄を生き抜いていけるのだと！\n\n※ｋｓｇの内容には反映されないコピペとなっております\n\n初参加です。\n\n安価を取った結果詰め合わせとのお達しが出たので安価ｋｓｇ４本詰め込みました。\n\n長編ゲームの合間にでもやって頂ければ幸いです。それでは皆様、よろしくお願いします。",
+    "hostComment": "鉄の意志でksgを4本ｔｋったと言うのか……ッ！",
+    "streaming": "配信、動画投稿共に自己責任でどうぞ",
+    "download": {
+      "url": "http://yahoo.jp/box/zHrhVQ",
+      "label": "ダウンロード(1.43MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1430531876/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry55.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193028/http://www.geocities.jp:80/viprpg2015gw/entry55.html"
+    },
+    "icon": "/icons/2015-gw/55.png",
+    "ss": [
+      "/screenshots/2015-gw/55-1.bmp"
+    ]
   },
   {
     "id": "2015-gw-work-56",
     "festivalId": "2015-gw",
     "no": "56",
     "title": "CR喪男自身がパチンコ機",
-    "author": "",
-    "detailDisabled": true
+    "author": "わんちゃん",
+    "category": "喪えパチ",
+    "engine": "RPGツクール2000",
+    "authorComment": "昔某所で公開したやつの完成版です。\n\n遊んでやってください。",
+    "hostComment": "当たれば当たるほど気分が沈んでいきそう……。",
+    "streaming": "自己責任でお願いします。",
+    "download": {
+      "url": "http://yahoo.jp/box/N3aMHQ",
+      "label": "ダウンロード(5.72MB_06/01更新)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1430532219/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry56.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193027/http://www.geocities.jp:80/viprpg2015gw/entry56.html"
+    },
+    "icon": "/icons/2015-gw/56.png",
+    "ss": [
+      "/screenshots/2015-gw/56-1.png",
+      "/screenshots/2015-gw/56-2.png"
+    ]
   },
   {
     "id": "2015-gw-work-57",
     "festivalId": "2015-gw",
     "no": "57",
     "title": "レイジングレイジ",
-    "author": "",
-    "detailDisabled": true
+    "author": "あああああ",
+    "category": "アドベンチャー",
+    "engine": "2000",
+    "authorComment": "遅刻します。間に合えば出します",
+    "hostComment": "ADVの主人公っぽい外見だものね。",
+    "streaming": "×/×",
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1430532730/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry57.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193028/http://www.geocities.jp:80/viprpg2015gw/entry57.html"
+    },
+    "icon": "/icons/2015-gw/57.png",
+    "ss": [
+      "/screenshots/2015-gw/57-1.png"
+    ]
   },
   {
     "id": "2015-gw-work-58",
     "festivalId": "2015-gw",
     "no": "58",
     "title": "ダークネスⅠ絶対服従",
-    "author": "",
-    "detailDisabled": true
+    "author": "やみっち大好き丸",
+    "category": "コマンド入力型エロゲー",
+    "engine": "RPGツクール２０００",
+    "authorComment": "あらすじ：\n\nダークネスⅠは自分の闇市で販売する商品を手に入れるためにとあるダンジョンに潜る、\n\nそこで彼女は「飲ませた相手の命令には絶対逆らえなくなる薬」を入手する。\n\n薬が本当に効果があるのか試してみたい・・・\n\n試す相手に悩んでいたダークネスⅠだったが身近に\n\n自分にセクハラ行為を繰り返すスターライトⅠという存在がいたことに思い当たり\n\n彼女に薬を飲ませ懲らしめてやろうと計画する\n\nやみっち「よし、私の計算は完璧だ この作戦行ける！！」（やめろ！！そのセリフはフラグだ）\n\nしかし計画がスターライトⅠに筒抜けだったために\n\n逆に「飲ませた相手の命令に絶対逆らえなくなる薬」を\n\n逆にスターライトⅠの手によって飲まされてしまい\n\nダークネスⅠは彼女の命令に逆らえない体にされてしまう\n\n果たしてダークネスⅠの運命やいかに！！\n\nゲーム内容\n\nやみっちにエロい命令や、やらせたいことなどをプレイヤーが命令して\n\nやみっちにアレやコレやするセクハラするゲームです。\n\n命令するごとに好感度パラメーターが上がったり下がったりしてそれによって\n\nエンディングが何種類か変化します\n\nほのぼのとしたかわいい命令をすれば好感度が上がるし、\n\nエ ロい命令をすれば基本的に好感度が下がります\n\nほのぼのとした百合話として終わるのか、友情をぶち壊して絶交されて終わるのかは\n\nプレイヤーのあなた次第、使える命令は５０種類+α\n\n好きなようにやみっちに命令をして楽しもう（ゲス顔）\n\n※遅刻確実です、運営さん本当に申し訳ない。エンディングまで一応遊べるまでは制作完了\n\n製作状況は５０％くらいです。\n\nこんなエロゲーを作ってるところを家族に見られてしまった俺は今後どうすればいいんだろう？",
+    "hostComment": "モニタが見られる位置にあったのが悪い。",
+    "streaming": "配信も動画投稿もどちらも歓迎",
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1430533236/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry58.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331141338/http://www.geocities.jp:80/viprpg2015gw/entry58.html"
+    },
+    "icon": "/icons/2015-gw/58.png",
+    "ss": [
+      "/screenshots/2015-gw/58-1.png"
+    ]
   },
   {
     "id": "2015-gw-work-59",
     "festivalId": "2015-gw",
     "no": "59",
     "title": "ダイスDEもしも♪",
-    "author": "",
-    "detailDisabled": true
+    "author": "平方根",
+    "category": "君とダイスを転がすRPG",
+    "engine": "RPGツクール2000",
+    "authorComment": "某M@S四月馬鹿ゲーのパロディだかクローンだかのような何か。\n\n「禁断症状が出てきてあまりにも辛いので気がついたら作っていた」などと供述している模様。\n\nなお、偉い人に怒られたら公開停止しますので悪しからず。\n\n＃締切間に合うかな……。",
+    "hostComment": "語感的にチョコボの方かなと思ったけどSS見たら全然違いました。",
+    "streaming": "不可/不可",
+    "download": {
+      "url": "http://yahoo.jp/box/HAIPL4",
+      "label": "ダウンロード(803kB_05/10更新)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1430533495/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry59.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193028/http://www.geocities.jp:80/viprpg2015gw/entry59.html"
+    },
+    "icon": "/icons/2015-gw/59.png",
+    "ss": [
+      "/screenshots/2015-gw/59-1.png"
+    ]
   },
   {
     "id": "2015-gw-work-60",
     "festivalId": "2015-gw",
     "no": "60",
     "title": "俺より弱い奴に会いに行け",
-    "author": "",
-    "detailDisabled": true
+    "author": "トカゲのしっぽな",
+    "category": "対戦型ジャンケンksg",
+    "engine": "2000",
+    "authorComment": "格闘ゲーム風の対戦ジャンケンです。\n\nなんとか遊べる形にはなったと思います。\n\nどうでもいいですが、タイトルは「よわい」ではなく「じゃくい」と読みます。",
+    "hostComment": "ついにVer1.00ですって！",
+    "streaming": "どちらも\n自己責任で",
+    "download": {
+      "url": "http://yahoo.jp/box/EKH0p1",
+      "label": "ダウンロード(29.2MB_05/29更新)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1430533603/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry60.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193028/http://www.geocities.jp:80/viprpg2015gw/entry60.html"
+    },
+    "icon": "/icons/2015-gw/60.png",
+    "ss": [
+      "/screenshots/2015-gw/60-1.png",
+      "/screenshots/2015-gw/60-2.png"
+    ]
   },
   {
     "id": "2015-gw-work-61",
     "festivalId": "2015-gw",
     "no": "61",
     "title": "よけるゲーム",
-    "author": "",
-    "detailDisabled": true
+    "author": "よけるゲーム",
+    "category": "よけるゲーム",
+    "engine": "よけるゲームツクール2000",
+    "authorComment": "よけるゲーム",
+    "hostComment": "よけるゲーム",
+    "streaming": "◎/△(配信の録画なら可)",
+    "download": {
+      "url": "http://yahoo.jp/box/8P7tWO",
+      "label": "ダウンロード(128kB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1430533975/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry61.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193028/http://www.geocities.jp:80/viprpg2015gw/entry61.html"
+    },
+    "icon": "/icons/2015-gw/61.png",
+    "ss": [
+      "/screenshots/2015-gw/61-1.png"
+    ]
   },
   {
     "id": "2015-gw-work-62",
     "festivalId": "2015-gw",
     "no": "62",
     "title": "ふたりはなかよし",
-    "author": "",
-    "detailDisabled": true
+    "author": "○",
+    "category": "時間を無駄にする見るゲ",
+    "engine": "2000",
+    "authorComment": "ボンボン派",
+    "hostComment": "ちゃちゃちゃちゃちゃちゃーおっ♪",
+    "streaming": "可/可",
+    "download": {
+      "url": "http://yahoo.jp/box/0gxXH3",
+      "label": "ダウンロード(9.90MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1430534127/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry62.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193029/http://www.geocities.jp:80/viprpg2015gw/entry62.html"
+    },
+    "icon": "/icons/2015-gw/62.png",
+    "ss": [
+      "/screenshots/2015-gw/62-1.jpg"
+    ]
   },
   {
     "id": "2015-gw-work-63",
     "festivalId": "2015-gw",
     "no": "63",
     "title": "ポテチ城で木端微塵に腹パンしたはずの闇市がおれの目の前にいる！",
-    "author": "",
-    "detailDisabled": true
+    "author": "せくては",
+    "category": "ksg",
+    "engine": "2000",
+    "authorComment": "さっき作った",
+    "hostComment": "広告がじわじわくるｗｗｗ",
+    "streaming": "可・可",
+    "download": {
+      "url": "http://yahoo.jp/box/t9XV_T",
+      "label": "ダウンロード(2.08MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1430534418/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry63.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330064156/http://www.geocities.jp:80/viprpg2015gw/entry63.html"
+    },
+    "icon": "/icons/2015-gw/63.png",
+    "ss": [
+      "/screenshots/2015-gw/63-1.png"
+    ]
   },
   {
     "id": "2015-gw-work-64",
     "festivalId": "2015-gw",
     "no": "64",
     "title": "あなたと合体したい…！！",
-    "author": "",
-    "detailDisabled": true
+    "author": "st0079",
+    "category": "全年齢向けスタイリッシュアクションksg",
+    "engine": "2000",
+    "authorComment": "ぼくにはこんなゲームしか作れません。",
+    "hostComment": "最高にCOOLなタイトル画面だな！(渋谷凜だけに)",
+    "streaming": "全て可",
+    "download": {
+      "url": "http://yahoo.jp/box/OfhULh",
+      "label": "ダウンロード(3.17MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1430534659/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry64.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193029/http://www.geocities.jp:80/viprpg2015gw/entry64.html"
+    },
+    "icon": "/icons/2015-gw/64.png",
+    "ss": [
+      "/screenshots/2015-gw/64-1.png"
+    ]
   },
   {
     "id": "2015-gw-work-65",
     "festivalId": "2015-gw",
     "no": "65",
     "title": "マホパルレ(仮) ルの実験室",
-    "author": "",
-    "detailDisabled": true
+    "author": "ル'z",
+    "category": "コミュニケーション",
+    "engine": "2000",
+    "authorComment": "とりあえず、ミニゲーム以外の基本的な部分は大体出来ました。\n\n魔法具現化達に触ったり美味しいケーキを与えたり\n\n一緒にミニゲームで遊べるゲームをやりたいと思いながら現在進行形でｔｋｔｋ中！\n\n※3DSのポケモンはやっていないのでどれだけ再現出来るか分からない\n\n* 配信・動画投稿について *\n\n配信については推奨も拒否もしません。自己責任でお願いします。\n\n動画投稿については開発中のバージョンの為NGとさせて頂きます。",
+    "hostComment": "フォントサイズやカラーはメールの文面に忠実にしてみました。",
+    "streaming": "△／×",
+    "download": {
+      "url": "http://yahoo.jp/box/fiR5Z9",
+      "label": "ダウンロード(2.63MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1430535059/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry65.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193030/http://www.geocities.jp:80/viprpg2015gw/entry65.html"
+    },
+    "icon": "/icons/2015-gw/65.png",
+    "ss": [
+      "/screenshots/2015-gw/65-1.png",
+      "/screenshots/2015-gw/65-2.png"
+    ]
   },
   {
     "id": "2015-gw-work-66",
     "festivalId": "2015-gw",
     "no": "66",
     "title": "地球は勇者の星",
-    "author": "",
-    "detailDisabled": true
+    "author": "女体化ダークメカアレックス",
+    "category": "ksg",
+    "engine": "2000",
+    "authorComment": "ギリギリまで頑張ってー（カモンカモンガイアー）\n\nギリギリまで踏ん張ってー（ゴーゴーガイア）\n\nピンチのピンチのピンチの連続そんな時ー\n\nウルトラマンがー欲しいー\n\n※ウルトラマンは出ません。",
+    "hostComment": "かわいいから許した！",
+    "streaming": "ええで/\nかまへんで",
+    "download": {
+      "url": "http://yahoo.jp/box/Rq-SZW",
+      "label": "ダウンロード(1.29MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1430535396/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry66.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331133050/http://www.geocities.jp:80/viprpg2015gw/entry66.html"
+    },
+    "icon": "/icons/2015-gw/66.png",
+    "ss": [
+      "/screenshots/2015-gw/66-1.png",
+      "/screenshots/2015-gw/66-2.png"
+    ]
   },
   {
     "id": "2015-gw-work-67",
     "festivalId": "2015-gw",
     "no": "67",
     "title": "ふぁああ",
-    "author": "",
-    "detailDisabled": true
+    "author": "んだるーんぐ",
+    "category": "ｋｓｇ",
+    "engine": "2000",
+    "authorComment": "ｋｓｇ",
+    "hostComment": "ま、まったく何も伝わらない……ksgである以外の情報がない……。",
+    "streaming": "おｋおｋ",
+    "download": {
+      "url": "http://yahoo.jp/box/PN9tU6",
+      "label": "ダウンロード(215kB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1430535626/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry67.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193030/http://www.geocities.jp:80/viprpg2015gw/entry67.html"
+    },
+    "icon": "/icons/2015-gw/67.png",
+    "ss": [
+      "/screenshots/2015-gw/67-1.png"
+    ]
   },
   {
     "id": "2015-gw-work-68",
     "festivalId": "2015-gw",
     "no": "68",
     "title": "Crypt of the Alexander",
-    "author": "",
-    "detailDisabled": true
+    "author": "ブリックロード三世",
+    "category": "ハードコアローグライクリズムゲーム",
+    "engine": "2000",
+    "authorComment": "巷で話題の「Crypt of the Necro○ancer」をパク…リスペクトした、新感覚アクション！\n\n…………無理かも…………",
+    "hostComment": "頑張れ頑張れできるできる絶対できる頑張れもっとやれるってやれる気持ちの問題だ頑張れ頑",
+    "streaming": "○/○",
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1430535894/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry68.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193030/http://www.geocities.jp:80/viprpg2015gw/entry68.html"
+    },
+    "icon": "/icons/2015-gw/68.gif",
+    "ss": [
+      "/screenshots/2015-gw/68-1.png",
+      "/screenshots/2015-gw/68-2.png"
+    ]
   },
   {
     "id": "2015-gw-work-69",
     "festivalId": "2015-gw",
     "no": "69",
     "title": "ペペロンチーノ",
-    "author": "",
-    "detailDisabled": true
+    "author": "鳳天舞の陣－１",
+    "category": "ヨムゲ",
+    "engine": "2000",
+    "authorComment": "他にナイデュラゲーで参加してた方が居たので、\n\n前々から温めていたナイデュラゲーをカブセていこうと思ったものの、\n\n作ってみても自分の納得の行くクオリティにはまるで達せず、\n\n加えてPCの不具合発生によりモチベもお亡くなりになりました。\n\nそこでそっちはまた今度にして、今回はだいぶ以前にとった安価の、\n\n作っていたり放ったらかしていたりしていたもので参加することにしました。\n\nどっちみち遅刻はするんだけど。\n\n僕はカルボナーラが好きです。",
+    "hostComment": "私はやっぱりナポリタン。",
+    "streaming": "アーリオ・\nオーリオ",
+    "download": {
+      "url": "http://yahoo.jp/box/buYaCs",
+      "label": "ダウンロード(4.82MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1430536173/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry69.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193030/http://www.geocities.jp:80/viprpg2015gw/entry69.html"
+    },
+    "icon": "/icons/2015-gw/69.png",
+    "ss": [
+      "/screenshots/2015-gw/69-1.png"
+    ]
   },
   {
     "id": "2015-gw-work-70",
     "festivalId": "2015-gw",
     "no": "70",
     "title": "高硬度降下低高度皆散",
-    "author": "",
-    "detailDisabled": true
+    "author": "電光石飛丸",
+    "category": "君の腕の骨が折れるRPG",
+    "engine": "2000",
+    "authorComment": "やったー2013紅白用のksgが出来そうだ！\n\n今2015年？うそだろ……",
+    "hostComment": "その靴で時間まで飛び越えてきてしまったのね……。",
+    "streaming": "実にトレンディー！（どちらもおｋ）",
+    "download": {
+      "url": "http://yahoo.jp/box/_07ut7",
+      "label": "ダウンロード(2.32MB_06/01更新)　/"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1430536397/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry70.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193031/http://www.geocities.jp:80/viprpg2015gw/entry70.html"
+    },
+    "icon": "/icons/2015-gw/70.png",
+    "ss": [
+      "/screenshots/2015-gw/70-1.png",
+      "/screenshots/2015-gw/70-2.png"
+    ]
   },
   {
     "id": "2015-gw-work-71",
     "festivalId": "2015-gw",
     "no": "71",
     "title": "やりたいようにやるとこうなる",
-    "author": "",
-    "detailDisabled": true
+    "author": "ハバネロ",
+    "category": "ksgとデフォ戦",
+    "engine": "2000",
+    "authorComment": "残りもののksgをデフォ戦とくっつけてしっとりさっくり焼き上げました。スピカ可愛い。",
+    "hostComment": "残りものには福がある、ということで今回最後尾のエントリーです。お後がよろしいようで？",
+    "streaming": "いいよ",
+    "download": {
+      "url": "http://yahoo.jp/box/5BD_IF",
+      "label": "ダウンロード(1.83MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/58971/1430536695/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2015gw/entry71.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330193033/http://www.geocities.jp:80/viprpg2015gw/entry71.html"
+    },
+    "icon": "/icons/2015-gw/71.png",
+    "ss": [
+      "/screenshots/2015-gw/71-1.jpg"
+    ]
   }
 ]
