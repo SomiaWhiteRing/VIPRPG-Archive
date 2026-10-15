@@ -1,0 +1,28 @@
+{
+  "festivalId": "2014-kouhaku",
+  "status": "reviewed-with-content-restriction",
+  "originalBase": "http://www.geocities.jp/vipkohaku2014/",
+  "originalLinkEvidence": "public/original-pages/2015-kouhaku/khmain.html",
+  "liveChecks": [
+    "original-live.json",
+    "mirror-live.json"
+  ],
+  "inventory": "original-timemap.bin",
+  "inventoryUrls": 401,
+  "index": "index.bin",
+  "originalEntries": 113,
+  "currentCatalogueEntries": 113,
+  "cachedDetails": [
+    "detail000.bin",
+    "detail001.bin"
+  ],
+  "findings": [
+    "No.000 test entry is missing from the old catalogue.",
+    "Entry metadata and comments share one cell; the 2015 per-cell parser cannot be applied unchanged.",
+    "Screenshot hover URLs are absolute; original-view recovery must localize event-handler URLs as well as src/href."
+  ],
+  "next": "Global progress continues with 2014-summer.",
+  "initialCatalogueEntries": 112,
+  "sourcePagesRecovered": 113,
+  "desktopEvidence": "catch/2014-kouhaku/desktop-review.json"
+}

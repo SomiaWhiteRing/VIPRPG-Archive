@@ -1,0 +1,103 @@
+{
+  "reviewedAt": "2026-10-15T12:55:24.439Z",
+  "dataSha256": "378a58bff6b102b68441578528582384927931e900af597e5bd65f4b90942944",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "width": 1280,
+      "height": 900
+    }
+  ],
+  "list": {
+    "rows": 113,
+    "detailLinks": 113,
+    "banners": 1,
+    "title003": "The Queen of Soldier",
+    "originalTitle003": "バーストⅡと一緒（未完成版）"
+  },
+  "imageDecode": {
+    "canonical": {
+      "total": 253,
+      "decoded": 253,
+      "failures": []
+    },
+    "original": {
+      "total": 276,
+      "decoded": 276,
+      "failures": [],
+      "sourceImages": 274,
+      "generatedPlaceholders": 2
+    }
+  },
+  "sourceComments": {
+    "detailsCompared": 112,
+    "textGaps": 0,
+    "imageReferencesExpected": 227,
+    "imageReferencesRecovered": 227
+  },
+  "detail001": {
+    "viewerOpen": true,
+    "nextScreenshot": true,
+    "escapeClose": true,
+    "faceWidth": 48,
+    "faceHeight": 48,
+    "faceDisplay": "inline-block",
+    "commentWhiteSpace": "normal",
+    "downloadLabelSeparatorsPreserved": true
+  },
+  "sample000": {
+    "screenshots": 2,
+    "downloadLinks": 0,
+    "forumLinks": 0
+  },
+  "restricted039": {
+    "fullDetailSkeleton": true,
+    "fixedText": true,
+    "canonicalImages": 0,
+    "externalLinks": 0,
+    "originalPlaceholder": "restricted/039-screenshot.svg",
+    "originalTableRows": 3,
+    "removedMediaHttpStatus": 404
+  },
+  "originalView": {
+    "files": 398,
+    "listLinks": 113,
+    "hover": [
+      "001ss.png",
+      "001ss2.png",
+      "001ss.png"
+    ],
+    "backgroundMissing": "bg_title.jpg",
+    "backgroundEvidence": [
+      "catch/2014-kouhaku/original-view.json",
+      "catch/2014-kouhaku/investigation/mirror-bg-title.json"
+    ],
+    "formattedReturnExpanded": true,
+    "outlineHighlight": true
+  },
+  "horizontalOverflow": false,
+  "console": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "offlineReplayStable": true,
+  "checks": [
+    "npm run validate:data",
+    "npm run lint",
+    "npm run build",
+    "git diff --check"
+  ],
+  "screenshots": [
+    "test-results/review-2014-kouhaku-list.png",
+    "test-results/review-2014-kouhaku-detail001.png",
+    "test-results/review-2014-kouhaku-sample000.png",
+    "test-results/review-2014-kouhaku-restricted039.png",
+    "test-results/review-2014-kouhaku-original-list.png",
+    "test-results/review-2014-kouhaku-original-detail001.png",
+    "test-results/review-2014-kouhaku-original-restricted039.png"
+  ],
+  "titleVersionEvidence": "catch/title-ui-review.json"
+}
