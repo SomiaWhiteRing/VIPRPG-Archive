@@ -1,0 +1,51 @@
+{
+  "reviewedAt": "2026-10-15T11:05:05.043Z",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000,
+      "documentWidth": 1425
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "documentWidth": 1265
+    }
+  ],
+  "list": {
+    "rows": 92,
+    "detailLinks": 92,
+    "banners": 2,
+    "title34": "勇者の烙印(体験版)"
+  },
+  "imageDecode": {
+    "total": 241,
+    "decoded": 241,
+    "failures": []
+  },
+  "detail44": {
+    "embeddedImage": "/screenshots/2015-kouhaku/44-hostComment-1.jpg",
+    "naturalWidth": 407,
+    "naturalHeight": 296,
+    "viewerOpenClose": true,
+    "historyBack": true
+  },
+  "sampleEmptyForumRemoved": true,
+  "console": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "checks": [
+    "npm run validate:data",
+    "npm run lint",
+    "npm run audit:data -- --write",
+    "npm run build",
+    "git diff --check"
+  ],
+  "screenshots": [
+    "test-results/review-2015-kouhaku-list.png",
+    "test-results/review-2015-kouhaku-detail44.png"
+  ],
+  "dataSha256": "82c9d652f6670e3e01c50dd5713e4a531e186137562ebda3447ea84dc1cb0ced",
+  "preloadCorrectionEvidence": "catch/preload-gallery-review.json"
+}

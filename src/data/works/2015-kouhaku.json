@@ -1,11 +1,50 @@
 [
   {
+    "id": "2015-kouhaku-work-00",
+    "festivalId": "2015-kouhaku",
+    "no": "00",
+    "author": "かんりにん",
+    "title": "サンプルゲーム",
+    "streaming": "○/×",
+    "engine": "2000",
+    "category": "サンプル",
+    "authorComment": "普通のゲームっぽいSSにしてみました。",
+    "hostComment": "上のSSはいつもの640*480サイズですが、\n\n今回はMVの基準である816*624サイズまで掲載を受け付けます。",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry00.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182116/http://www.geocities.jp:80/vipkohaku2015/entry00.html"
+    },
+    "icon": "/icons/2015-kouhaku/00.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/00-1.png",
+      "/screenshots/2015-kouhaku/00-2.png"
+    ]
+  },
+  {
     "id": "2015-kouhaku-work-01",
     "festivalId": "2015-kouhaku",
     "no": "01",
     "title": "金リカ２",
     "author": "イグサ",
-    "detailDisabled": true
+    "streaming": "配信は一部以外不可　/　動画投稿は絶対ダメ",
+    "engine": "2000",
+    "category": "だって、原作者も「似たようなゲームが何本も出たらいいなー」って言ってるし……",
+    "authorComment": "かつての過去作を大幅にボリュームを増やし、作り直しました。\n\n続編というよりはリメイク作品なので、前作を遊ばなくても一切支障はありません。\n\nRuinaではなくなりました\n\n枯草章吉氏に怒られたら消えます\n\n※v3.0は以前の仕様からの互換を切っています。\n\nセーブデータを流用した場合、進行度によっては不具合が発生します。\n\nご了承ください。",
+    "hostComment": "とはいえ、せっかくですので前作のご案内も。 (http://www.geocities.jp/viprpg2014summer/entry19.html)",
+    "download": {
+      "url": "http://yahoo.jp/box/ncK-4v",
+      "label": "ダウンロード(33.5MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1446553016/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry01.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330064149/http://www.geocities.jp:80/vipkohaku2015/entry01.html"
+    },
+    "icon": "/icons/2015-kouhaku/01.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/01-1.png",
+      "/screenshots/2015-kouhaku/01-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-02",
@@ -13,7 +52,25 @@
     "no": "02",
     "title": "アイマス",
     "author": "ぬ",
-    "detailDisabled": true
+    "streaming": "可/同梱txt参照",
+    "engine": "2000",
+    "category": "デフォ戦",
+    "authorComment": "おまたせ。",
+    "hostComment": "エントリー芸人さん、どうもありがとうございました！",
+    "download": {
+      "url": "http://yahoo.jp/box/R4BwvC",
+      "label": "ダウンロード(36.7MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1446553104/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry02.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129160946/http://www.geocities.jp:80/vipkohaku2015/entry02.html"
+    },
+    "icon": "/icons/2015-kouhaku/02.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/02-1.png",
+      "/screenshots/2015-kouhaku/02-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-03",
@@ -21,7 +78,25 @@
     "no": "03",
     "title": "Cold_of_Pasta",
     "author": "ケイト",
-    "detailDisabled": true
+    "streaming": "あなたはパスタを信じますか？あなたに愛するパスタがいますか？",
+    "engine": "2000",
+    "category": "冷やし中華",
+    "authorComment": "エターなったので代理\n\n本当にすいませんでした。\n\n戦闘バランスが悪い？〆切が悪いんや…\n\nちなみに配信/投稿：〇/〇",
+    "hostComment": "〆切「なにゆえ もがき 生きるのか？ 」",
+    "download": {
+      "url": "http://yahoo.jp/box/OrYbQu",
+      "label": "ダウンロード(3.9MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1446553136/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry03.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181542/http://www.geocities.jp:80/vipkohaku2015/entry03.html"
+    },
+    "icon": "/icons/2015-kouhaku/03.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/03-1.png",
+      "/screenshots/2015-kouhaku/03-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-04",
@@ -29,31 +104,95 @@
     "no": "04",
     "title": "ちんすこうクエスト-暗殺者やみっち-",
     "author": "焼肉",
-    "detailDisabled": true
+    "streaming": "可能/可能",
+    "engine": "2000",
+    "category": "スロットバトルRPG",
+    "authorComment": "あらすじ：きのこの山国と、たけのこの里国は１００年にも渡る不毛な言い争いを続けていた\n\nきのこの山国はついにブチ切れ、たけのこの里国を滅ぼそうと大量殺人兵器「CHINSUKOU-ちんすこう-」を開発して\n\nたけのこの里国を滅亡させようと画策する、これが発射されてしまえば　たけのこの里国の終わりであると危惧した\n\nたけのこの里国王は大金さえ積めばどんな殺しも確実に成功してきたと言う伝説を持つ暗殺者やみっちに　\n\nきのこの山国の国王を暗殺し殺人兵器ちんすこうを止めるよう依頼する・・・果たして暗殺者やみっちの運命やいかに\n\nあっ、ちなみに自分は　きのこの里派です\n\n戦闘システム：パチスロッター必見のボタン一つで操作できるスロットバトルシステム\n\nスロットバトルRPGを体感できる　体験版できました　良かったらやってみてね\n\n管理人さんの感想を参考に目押しが狙えるようなゲームシステムの改良をしてみました\n\nhttp://www1.axfc.net/u/3570334.zip (http://www1.axfc.net/u/3570334.zip) 「PASS：やみっち」",
+    "hostComment": "あ、感想っていうのは手動保管庫のコメントのことです。",
+    "download": {
+      "url": "http://yahoo.jp/box/d3do0Z",
+      "label": "ダウンロード(45.7MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1446553170/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry04.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182117/http://www.geocities.jp:80/vipkohaku2015/entry04.html"
+    },
+    "icon": "/icons/2015-kouhaku/04.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/04-1.jpg",
+      "/screenshots/2015-kouhaku/04-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-05",
     "festivalId": "2015-kouhaku",
     "no": "05",
     "title": "ドカベン",
-    "author": "",
-    "detailDisabled": true
+    "author": "山田太郎",
+    "streaming": "山田/太郎",
+    "engine": "ドカベン",
+    "category": "ドカベン",
+    "authorComment": "山田太郎",
+    "hostComment": "ドカベン",
+    "download": {
+      "url": "http://yahoo.jp/box/g1d9Y3",
+      "label": "ダウンロード(240KB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1446553232/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry05.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182101/http://www.geocities.jp:80/vipkohaku2015/entry05.html"
+    },
+    "ss": [
+      "/screenshots/2015-kouhaku/05-1.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-06",
     "festivalId": "2015-kouhaku",
     "no": "06",
-    "title": "魔法達のCoC〜魚人間達の街からの脱出〜",
-    "author": "徳明",
-    "detailDisabled": true
+    "title": "魔法達のCoC～魚人間達の街からの脱出～",
+    "author": "徳明＠バーニィ大好き丸",
+    "streaming": "おｋ/おｋ",
+    "engine": "2000",
+    "category": "TRPGリプレイ",
+    "authorComment": "魔法達がクトゥルフ神話TRPGで遊ぶだけの見るゲです。",
+    "hostComment": "TRPGで脱ぼっち、みたいな。",
+    "download": {
+      "url": "http://yahoo.jp/box/6vfVsJ",
+      "label": "ダウンロード(9.6MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1446553270/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry06.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182109/http://www.geocities.jp:80/vipkohaku2015/entry06.html"
+    },
+    "icon": "/icons/2015-kouhaku/06.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/06-1.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-07",
     "festivalId": "2015-kouhaku",
     "no": "07",
     "title": "借り物狂躁",
-    "author": "",
-    "detailDisabled": true
+    "author": "鳳天舞の陣－１",
+    "streaming": "よきように",
+    "engine": "2000",
+    "category": "やるゲ",
+    "authorComment": "基本コンセプト以外はこれから考えます。",
+    "hostComment": "いくらでも持てる人たちの方がおかしいんですよ！",
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1446553315/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry07.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182120/http://www.geocities.jp:80/vipkohaku2015/entry07.html"
+    },
+    "icon": "/icons/2015-kouhaku/07.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/07-1.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-08",
@@ -61,39 +200,123 @@
     "no": "08",
     "title": "エンディングノート",
     "author": "池田さん",
-    "detailDisabled": true
+    "streaming": "可/可",
+    "engine": "2000",
+    "category": "短編集風群像劇見るゲー",
+    "authorComment": "コレがー！ア”ア”ア”ー！最後の翼だー！！\n\nテストプレイした所、ピッタシ５時間でした。",
+    "hostComment": "目の健康のため適度に休憩をとりましょう。短編集ですしね。",
+    "download": {
+      "url": "http://yahoo.jp/box/Q-Iyd5",
+      "label": "ダウンロード(59.2MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1446553359/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry08.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182113/http://www.geocities.jp:80/vipkohaku2015/entry08.html"
+    },
+    "icon": "/icons/2015-kouhaku/08.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/08-1.png",
+      "/screenshots/2015-kouhaku/08-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-09",
     "festivalId": "2015-kouhaku",
     "no": "09",
     "title": "絶対パコれる漢字トレーニング",
-    "author": "",
-    "detailDisabled": true
+    "author": "パコリストしばき隊",
+    "streaming": "自己責任",
+    "engine": "ＲＰＧツクールＶＸ",
+    "category": "教育用ソフトウェア",
+    "authorComment": "●概要\n\n製品の紹介ページを開いて頂き誠にありがとうございます。\n\n当製品は漢字学習用ソフトウェアです。\n\n貴方は性欲溢れる童貞少年「原 箱瑠」(はら ぱこる)を操作し\n\n漢字検定とバトル要素を混ぜた架空のプロスポーツ\n\n「カキコロシアム」に挑みます。\n\nその中で、試合で勝ったり多額のギャラを貰ったり\n\nファンの女の子とパコったりと人生の勝ち組を追体験しながら\n\n無理なく楽しんで漢字を学ぶ事ができるでしょう。\n\nエッチな画像とか出ませんのでお子様も女性の方も\n\n安心して楽しめます。\n\n※上記は製作中の作者の願望であり、製品の効能を\n\n　確約するものではありません。\n\n●泣き言\n\nふぇぇ・・・ボリューム少ないよぅ\n\n期日までにどれだけ作れるの？\n\nまとまりそうに無かったら打ち切りエンドだよぉ・・・",
+    "hostComment": "右下はどうみても罠ですよね。",
+    "download": {
+      "url": "http://yahoo.jp/box/xDcIVF",
+      "label": "ダウンロード(20.4MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1446553401/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry09.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182102/http://www.geocities.jp:80/vipkohaku2015/entry09.html"
+    },
+    "icon": "/icons/2015-kouhaku/09.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/09-1.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-10",
     "festivalId": "2015-kouhaku",
     "no": "10",
     "title": "もしもで学ぶ2038年問題",
-    "author": "",
-    "detailDisabled": true
+    "author": "ユニ",
+    "streaming": "君は動画を配信してもいいししなくてもいい。/また、動画投稿をしてもいい。",
+    "engine": "RPGツクール2000",
+    "category": "教育",
+    "authorComment": "なんとなく思いつきで解説ゲーみたいなものが出来上がってきました。\n\nコンピュータがどうやって数を数えているかなどを\n\nもしもらしくなく真面目に説明しております。\n\n2進法がわからなくても、いろんなゲームをある程度やったことある人なら\n\n分かるかもしれません。そうではないかもしれません。",
+    "hostComment": "2000年問題も随分昔の話になりましたね。",
+    "download": {
+      "url": "http://yahoo.jp/box/mlthUd",
+      "label": "ダウンロード(1.3MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1446553461/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry10.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331080311/http://www.geocities.jp:80/vipkohaku2015/entry10.html"
+    },
+    "icon": "/icons/2015-kouhaku/10.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/10-1.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-11",
     "festivalId": "2015-kouhaku",
     "no": "11",
     "title": "IF SQUARE ENIX＆人造彼女の道中記",
-    "author": "",
-    "detailDisabled": true
+    "author": "不明",
+    "streaming": "○/○",
+    "engine": "2000",
+    "category": "ロースピードツクーリングポエムゲーム",
+    "authorComment": "※※SS2つ目はgifアニメなので重いです※※\n\n2015年　どういうわけかスクウェア版のもしもが開発される事になった\n\nA　「えーと。いまさら説明するまでもないと思いますが、もしもの簡単なストーリーをお話します。えー……平和なポテチ王国が魔王軍に侵略され……」\n\n野村　「うーん。Aちゃんさあ。ポテチ王国じゃ余りに平凡じゃない？」\n\nA　「はい？」\n\n野村　「サンクチュリアス・オヴ・ポテトチプスでどう？」\n\n鳥山　「ですね」\n\n野村　「それと魔王軍だけど、僕の解釈だとあれは軍じゃないんだよね」\n\nA　「は？」\n\n野村　「あれは『一』なんだよね。沢山いるように見えて実は一つ。」\n\n鳥山　「 『全にして一なる者』ね」\n\n野村　「それと僕の解釈では、あれは侵略じゃないくて『ディストピア』って呼びたいな。それとね……」\n\nそんなこんなで開発されてしまったスクウェア版のような『もしも』\n\nポテトチプスに迫るディストピアの危機・・・襲いくる数々の強大な敵・・・\n\n邪悪な者を廃絶すべく、地底深くのネオパルスより遣わされし『ルシ』\n\nセントラルセカンドの『ガンタイ』が死地へ往く！\n\n～～～\n\n人造彼女の道中記\n\n一方そのころ、アレックスはヤンデル少女の『リスカ』に監禁されていた。\n\nだがしかし、ゴメスの危機に普段から晒されていたアレックスは\n\nあまり気にせずリスカと仲を深めていってしまう\n\nそんな中ちょうどアレックスとの『夜のTAIMAN-BATTLE』目論んでいた\n\n『クレアス』がただ一人それを察知しアレックスの捜索を開始する・・・\n\n～～～\n\n遅刻すみませんでした許してくださいなんでもしますから！",
+    "hostComment": "ん？",
+    "download": {
+      "url": "http://yahoo.jp/box/lLkqcM",
+      "label": "ダウンロード(23.1MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1446553503/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry11.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330041207/http://www.geocities.jp:80/vipkohaku2015/entry11.html"
+    },
+    "icon": "/icons/2015-kouhaku/11.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/11-1.png",
+      "/screenshots/2015-kouhaku/11-2.gif"
+    ]
   },
   {
     "id": "2015-kouhaku-work-12",
     "festivalId": "2015-kouhaku",
     "no": "12",
     "title": "オレスタリテ",
-    "author": "",
-    "detailDisabled": true
+    "author": "オレックス",
+    "streaming": "俺/僕",
+    "engine": "にせん",
+    "category": "俺の呪文詠唱GAME",
+    "authorComment": "伝説が今はじまる",
+    "hostComment": "オレだよ、オレオレ！",
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1446553540/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry12.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331080311/http://www.geocities.jp:80/vipkohaku2015/entry12.html"
+    },
+    "icon": "/icons/2015-kouhaku/12.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/12-1.png",
+      "/screenshots/2015-kouhaku/12-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-13",
@@ -101,7 +324,25 @@
     "no": "13",
     "title": "MAGIC BATTLE",
     "author": "葡萄",
-    "detailDisabled": true
+    "streaming": "応相談/可能",
+    "engine": "RPGツクール2000",
+    "category": "アクション／2人対戦型ジャンケン",
+    "authorComment": "大変遅くなってしまいましたが、\n\nストーリーの前編が完成したので一旦作品を提出します。\n\n引き続き後編と対戦機能の制作を進めたいと思います",
+    "hostComment": "すっごい凝ったジャンケン",
+    "download": {
+      "url": "http://yahoo.jp/box/Gc_dir",
+      "label": "ダウンロード(118MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1446553571/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry13.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182121/http://www.geocities.jp:80/vipkohaku2015/entry13.html"
+    },
+    "icon": "/icons/2015-kouhaku/13.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/13-1.png",
+      "/screenshots/2015-kouhaku/13-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-14",
@@ -109,23 +350,76 @@
     "no": "14",
     "title": "水子2",
     "author": "Gam123",
-    "detailDisabled": true
+    "streaming": "どちらも可です。",
+    "engine": "2000",
+    "category": "見るゲ",
+    "authorComment": "2015GWに提出した「水子」よりはましな感じだと思います。",
+    "hostComment": "音が遮られているかのような閉塞感。",
+    "download": {
+      "url": "http://yahoo.jp/box/j1SgKU",
+      "label": "ダウンロード(2.2MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1446553604/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry14.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182104/http://www.geocities.jp:80/vipkohaku2015/entry14.html"
+    },
+    "icon": "/icons/2015-kouhaku/14.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/14-1.png",
+      "/screenshots/2015-kouhaku/14-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-15",
     "festivalId": "2015-kouhaku",
     "no": "15",
     "title": "My name is...",
-    "author": "はぐれ者",
-    "detailDisabled": true
+    "author": "◆VnQ9F3pa6A",
+    "streaming": "×/×",
+    "engine": "2000",
+    "category": "見るゲ",
+    "authorComment": "間に合いませんでしたので代替見るゲ投下します。\n\n10分弱の見るゲなので、手が空いた時にどうぞ。",
+    "hostComment": "あやしいやつ　名を名乗れっ！",
+    "download": {
+      "url": "http://yahoo.jp/box/VQbUHe",
+      "label": "ダウンロード(784KB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1446553649/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry15.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182114/http://www.geocities.jp:80/vipkohaku2015/entry15.html"
+    },
+    "icon": "/icons/2015-kouhaku/15.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/15-1.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-16",
     "festivalId": "2015-kouhaku",
     "no": "16",
-    "title": "包丁とデュラハン・PVっぽいもの",
+    "title": "包丁とデュラハン・ＰＶっぽいもの",
     "author": "名無しについて",
-    "detailDisabled": true
+    "streaming": "双方許可",
+    "engine": "2000",
+    "category": "無記入",
+    "authorComment": "これは予告編と呼べるのだろうか・・・\n\nしばらくしたら素材集も追加します",
+    "hostComment": "視聴者参加型SSという斬新な試みでした。",
+    "download": {
+      "url": "http://yahoo.jp/box/w0OI2t",
+      "label": "ダウンロード(8.2MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1446553684/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry16.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182109/http://www.geocities.jp:80/vipkohaku2015/entry16.html"
+    },
+    "icon": "/icons/2015-kouhaku/16.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/16-1.png",
+      "/screenshots/2015-kouhaku/16-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-17",
@@ -133,15 +427,50 @@
     "no": "17",
     "title": "ClearHearts -アドベリア王国の大冒険-",
     "author": "ツノザメ怪人",
-    "detailDisabled": true
+    "streaming": "どっちもおｋ",
+    "engine": "ツクール2000",
+    "category": "デフォ戦RPG",
+    "authorComment": "明日から楽しい夏休み！\n……だと言うのに、小学生の少女スミ（ウォーターⅠ）は、\n\nはしゃいだ様子もなく、放課後の教室で何かをずっと考えている様だった。\n\n友達の少年ヒカル（スターライトⅢ）が声をかけると、彼女は胸の内を明かす。\n\n「先生が言ってたんです。みなさん、夏休みも五回目なんだから、\n\n何か特別な事をしてみたらどうでしょう、って……」\n\nスミはその特別な事をやってみたいと思ったのだが、\n\n何をすれば良いか分からず悩んでいたのだ。\n\n二人は帰り道、特別な事について考えるが、中々良い案が浮かばない。\n\nその時、ふと電気屋のＴＶに映ったものにスミの視線が止まる。\n\nそれは古代テクノロジー発掘で有名なアドベリア王国が企画した、\n\n遺跡探索ツアーのＣＭであった。\n\n「これですっ！　わたし、このツアーに参加します！\n\n色んな遺跡で冒険をして、別人のようにりっぱになって帰って来ます！」\n\nヒカルに向かって、スミはそう高らかに宣言した。\n\nしかし、それが予想をはるかに超える大冒険の始まりになろうとは、\n\nこの時の彼女はまだ、知る由もなかった――\n\nオリジナル設定でお送りする、中編～長編デフォ戦RPGです。\n\n お待たせしてすみません。当初の予定より短い、１時間程度の\n\n体験版となりました。現状SSの要素はほとんどありません。\n\n流石にＳＳ詐欺過ぎるので、今後の更新か個人の配布などで\n\n補完をしようと考えています。",
+    "hostComment": "夏に完成させるとちょうど良くなりますね！　あれ違うか。",
+    "download": {
+      "url": "http://yahoo.jp/box/ubLjly",
+      "label": "ダウンロード(50.3MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1446553722/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry17.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181538/http://www.geocities.jp:80/vipkohaku2015/entry17.html"
+    },
+    "icon": "/icons/2015-kouhaku/17.gif",
+    "ss": [
+      "/screenshots/2015-kouhaku/17-1.png",
+      "/screenshots/2015-kouhaku/17-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-18",
     "festivalId": "2015-kouhaku",
     "no": "18",
-    "title": "スパークIIの不幸な一日",
+    "title": "スパークⅡの不幸な一日",
     "author": "ミルクちゃん",
-    "detailDisabled": true
+    "streaming": "×/×",
+    "engine": "ツクール2000",
+    "category": "尿意我慢コメディ系見るゲ",
+    "authorComment": "スパークⅡが尿意を我慢するお話です。\n\n※とある方に後半戦のイラストを描いていただきました。\n\n　高画質版のイラストも一緒に入っています。\n\n※配信/投稿欄を×に変更しました。ご了承ください。\n\n追記：\n\n2月中にエピローグ/おまけの話/修正等の追加を行った追加版を投下するかもしれません。",
+    "hostComment": "後半戦の完成まで実に1ヶ月以上、我慢してたみたいです。",
+    "download": {
+      "url": "http://yahoo.jp/box/viklYg",
+      "label": "ダウンロード(18.4MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1446553785/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry18.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330212059/http://www.geocities.jp:80/vipkohaku2015/entry18.html"
+    },
+    "icon": "/icons/2015-kouhaku/18.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/18-1.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-19",
@@ -149,7 +478,24 @@
     "no": "19",
     "title": "記憶も力も指先ひとつで",
     "author": "牧場の牛肉",
-    "detailDisabled": true
+    "streaming": "可能",
+    "engine": "2000",
+    "category": "やるゲ",
+    "authorComment": "突如現れた白銀の世界と、おかしくなってしまった人々\n\n一部の記憶を失ったクトネと道中で会う仲間達が\n\n白銀の世界の謎を解く為色々な所へ行って活躍します\n\n過去作の「やさしい雨はいつ降る」に似たシステムのデフォ戦ゲーです、\n\n話の繋がりは一切ないのでプレイしてなくても大丈夫",
+    "hostComment": "会話が想像できないメンバーです。",
+    "download": {
+      "url": "http://yahoo.jp/box/rjCp3l",
+      "label": "ダウンロード(12.7MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1446553818/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry19.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330063126/http://www.geocities.jp:80/vipkohaku2015/entry19.html"
+    },
+    "icon": "/icons/2015-kouhaku/19.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/19-1.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-20",
@@ -157,7 +503,25 @@
     "no": "20",
     "title": "もしもクトゥルフ神話TRPGして遊んだら",
     "author": "ジーノ",
-    "detailDisabled": true
+    "streaming": "両者ともに可",
+    "engine": "2000",
+    "category": "見るksg",
+    "authorComment": "「この世ならぬ光景だった・・・前景は深い湖だった。これがハリ湖だろうか。\n\n5分ほどすると湖面にさざ波が立ち始め、そこから何者かが現れ出てきた。\n\n顔を内側に向けている。巨大な水生の生き物で、触肢がついている。\n\nタコに似たところもあるが、西海岸にいる巨大タコよりもずっと大きい\n\n―――多分10倍、いや20倍はある怪物だった。」\n\n――――オーガスト・ダーレス『破風の窓』\n\nハスター紹介の一文を抜粋。\n\nもう4度目になったけど貴方に授けるクトゥルフ神話TRPGのロールプレイング例。\n\nいつも通りやみっちちゃん達に遊んでもらいました。\n\n今回使用するシナリオは2010より「奇妙な共闘」。\n\nオマケは「クトゥルフ2015の解説」。\n\n皆もクトゥルフ神話TRPG、やってみよう！",
+    "hostComment": "CoC、本当に流行ってますね。",
+    "download": {
+      "url": "http://yahoo.jp/box/gci917",
+      "label": "ダウンロード(18.7MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1446553852/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry20.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330212100/http://www.geocities.jp:80/vipkohaku2015/entry20.html"
+    },
+    "icon": "/icons/2015-kouhaku/20.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/20-1.png",
+      "/screenshots/2015-kouhaku/20-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-21",
@@ -165,7 +529,24 @@
     "no": "21",
     "title": "Sophia Fragments",
     "author": "鷹",
-    "detailDisabled": true
+    "streaming": "どうぞ",
+    "engine": "2000",
+    "category": "完全に至る道",
+    "authorComment": "時が来れば、\n\nあっけなく、終わる、\n\n小さな黒の物語。",
+    "hostComment": "ナニ、主旨がよくわからない？　いいからPIAIだ！",
+    "download": {
+      "url": "http://yahoo.jp/box/B61jMr",
+      "label": "ダウンロード(3.7MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1446553908/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry21.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182120/http://www.geocities.jp:80/vipkohaku2015/entry21.html"
+    },
+    "icon": "/icons/2015-kouhaku/21.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/21-1.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-22",
@@ -173,7 +554,24 @@
     "no": "22",
     "title": "決定！もしもキャラ最新人気ランキング！！",
     "author": "メタナイト",
-    "detailDisabled": true
+    "streaming": "やりまくって下さい！！",
+    "engine": "2000",
+    "category": "もしもキャラ丸分かり",
+    "authorComment": "・最新もしもキャラの人気が今ここでわかる！\n\n・「もしもキャラは多すぎてよくわからん…。」「結局誰が人気なの？」「僕の○○○○ちゃんはもしも界で何位なの？」\n\n・そこのあなた！このゲームで悩みがすっぱり解消されること間違いありませんよ！\n\n・人気キャラとか知りたい人は是非やりましょう！！\n\n・本人気ランキングは厳選な調査の元で行われています",
+    "hostComment": "厳正……。",
+    "download": {
+      "url": "http://yahoo.jp/box/U4p8rD",
+      "label": "ダウンロード(1.3MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1446553943/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry22.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182122/http://www.geocities.jp:80/vipkohaku2015/entry22.html"
+    },
+    "icon": "/icons/2015-kouhaku/22.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/22-1.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-23",
@@ -181,63 +579,194 @@
     "no": "23",
     "title": "大乱闘ウインディブラザーズＸ(R-15)",
     "author": "弓香",
-    "detailDisabled": true
+    "streaming": "◎",
+    "engine": "２０００ｋ",
+    "category": "格闘ゲーム",
+    "authorComment": "お前らどうせ遊んでくれるだろうし、先にお礼を言っておくわｗｗｗ\n\nこの冬、一つの野獣が目を覚ます\n\n「大乱闘ウインディブラザーズＸ」\n\nVIPRPGの格闘ゲーム決定版。\n\n元気になったウインディが所狭しと暴れまわるｗｗｗ\n\nＩＫＥＭＥＮダー恍も所狭しと暴れまわるｗｗｗ\n\nその他人気キャラもクソマイナーキャラもヘルとか色々所狭しと暴れまわる！！\n\nサンタクロースが待望のオールスター格闘ゲームを持って、クリスマスに殴り込みにやってきた！\n\nセールスポイントその１＝簡単で爽快感抜群\n\nこんな格闘ゲームを待っていた！\n\nセールスポイントその２＝クリアだけなら簡単だがやり込み要素もあるぞ！\n\n今作は廃人も楽しめる、廃人増加システムだ！\n\nセールスポイントその３＝自作システム、隠し要素を多数搭載！\n\n君は全部見つけられるか？\n\nセールスポイントその４＝圧倒的素材の量！容量が自慢です\n\n最終戦争でも始まってしまうのか！？\n\nセールスポイントその５＝参戦キャラは５０人以上！！\n\nウインディやみっちライチわてりといったVIPRPGの基本を抑えつつ、ダー恍・ダモン・ブラインド等女性に大人気のキャラ、古参向けに魔王軍・四天王・ヘレンなども参戦だ！\n\nおっと、しかしただのオールスターではありませんよ！！\n\n人気キャラは「優遇」しています。これなら安心だ！\n\n注意：Ｒ－１５\n\n１４歳未満は絶対に遊ばないでください！！\n\n注意：うんこの部分は隠しキャラを隠してます\n\nうんこが参戦するわけではない",
+    "hostComment": "隠しキャラを含めないSSを作るんじゃダメだったんでしょうか……。\n\nそれとサイズが1280*960だったので勝手に縮小しました。",
+    "download": {
+      "url": "http://yahoo.jp/box/12F79M",
+      "label": "ダウンロード(37.0MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1446553985/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry23.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331060139/http://www.geocities.jp:80/vipkohaku2015/entry23.html"
+    },
+    "icon": "/icons/2015-kouhaku/23.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/23-1.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-24",
     "festivalId": "2015-kouhaku",
     "no": "24",
     "title": "無限の高さを持つ壁の前で",
-    "author": "",
-    "detailDisabled": true
+    "author": "幻草",
+    "streaming": "可能/可能",
+    "engine": "2000",
+    "category": "一工夫したデフォ戦＆nnkrな読むゲ等（短編集）",
+    "authorComment": "本作は短編集となっております。\n\n「ニートスライムの魔王軍入隊試験」\n\n一工夫したデフォ戦RPG　プレイ時間：2～3時間\n\nカードゲーム風のシステムを搭載したデフォ戦。\n\nストーリーは短めで、戦闘重視のゲーム。\n\nニートのスライムとゴブリンは、職に就く為\n\n魔王軍入隊試験へと向かう！\n\n※主人公のスライムとゴブリンはニートなので\n\n若干鬱屈した内容になってます。\n\n「聴け、嵐の歌を」\n\nnnkrな読むゲ　プレイ時間：20～30分\n\n「僕」は大学を辞めた日から小説を書き始めた。\n\nその小説は稚拙なものだったが、「僕」にとっては\n\n深層的に重要な意味を秘めていた。\n\nそして実際の身長より小さく見える女は\n\n十二月に夏のイメージを問う。「僕」の諦観と憧れ。\n\nそして来る一つの時期の＜ピリオド＞。\n\n「もしもTRPGだったら　～ゴメスの館～」\n\nTRPG風ksg　プレイ時間：15分程度\n\n＜こんや１２じ　だれかが　ほられる＞\n\n「カラーゲーム」（エターなった）\n\nエターなったksg（自作戦闘）　プレイ時間：30分程度\n\n厨二な異能デスゲームを作りたかったけどエターなった\n\n＜追記　12/23＞\n\n「もしもTRPGだったら　～ゴメスの館～」\n\n「カラーゲーム」\n\nは間に合わなかったので本作には含まれていません。\n\n予告しておいて申し訳ございません。\n\nまあ大した内容でもなかったし…ね。",
+    "hostComment": "片方はエターなった宣言してましたしね。",
+    "download": {
+      "url": "http://yahoo.jp/box/7Rth5Q",
+      "label": "ダウンロード(1.7MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1446724343/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry24.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331141839/http://www.geocities.jp:80/vipkohaku2015/entry24.html"
+    },
+    "icon": "/icons/2015-kouhaku/24.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/24-1.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-25",
     "festivalId": "2015-kouhaku",
     "no": "25",
-    "title": "PAROCIOUS〜真似るべきモノ〜",
-    "author": "",
-    "detailDisabled": true
+    "title": "PAROCIOUS～真似るべきモノ～",
+    "author": "ショウ・タッカー",
+    "streaming": "別に/いいよ",
+    "engine": "2000",
+    "category": "護るべきモノを呼び覚ます情熱が世界の想いを繋ぐksg",
+    "authorComment": "一人の青年が見知らぬ森で、おっぱい丸出しの美少女と出会った時、運命が動き出す。\n\n一方その頃、打倒魔王を目指す骨男は金欠で破産していた。\n\n一方その頃、破壊神と恐れられた男は強すぎる力により自壊していた。\n\nボーイ・ミーツ・ニートを描く感動のラヴロマンス。\n\nタイトル及び物語及び使用ツクールなどは変更になる場合があります。ていうか制作自体されない場合があります。ご了承しろや。しないの？しろよ。しろっつってんだろ！無理やりさせてやる！うりゃー！",
+    "hostComment": "きみ、なんで保管庫の掲示板で安価取ったの……？",
+    "download": {
+      "url": "http://yahoo.jp/box/RpXzQk",
+      "label": "ダウンロード(830KB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1446724389/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry25.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331060139/http://www.geocities.jp:80/vipkohaku2015/entry25.html"
+    },
+    "icon": "/icons/2015-kouhaku/25.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/25-1.png",
+      "/screenshots/2015-kouhaku/25-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-26",
     "festivalId": "2015-kouhaku",
     "no": "26",
     "title": "WOOD GEAR ELECTRO：Reef＆Desert",
-    "author": "",
-    "detailDisabled": true
+    "author": "大富豪の大貧民役",
+    "streaming": "無記入",
+    "engine": "2000",
+    "category": "ステルスデフォ戦RPG",
+    "authorComment": "＝ライスパークの日記＝\n\nある日、私は砂漠化委員会会長のダークアーディスから依頼を受けた。\n\n緑化委員会の施設に侵入し、緑化委員会会長アーディスの弱みを手に入れるのがその内容だった。\n\n玉露軍は暇だったし、何よりしょうもない割には良い金額の給料ももらえるし、その日の晩御飯まで\n\nご馳走してくれると聞き、私は喜んでその仕事を受けた。\n\nそうして、私は緑化委員会の施設に単独潜入を行った。晩御飯までには終わる仕事のはずだった。\n\nそこで私が見たものは、弱み以上の、世界を揺るがすような物だった。\n\n久々にデフォ戦作ります。\n\nデフォ戦よりも、ストーリーよりも、MGSでよく見るネタ無線会話に一番時間取ると思います。",
+    "hostComment": "ライスパ、今すぐF12を押すんだ！",
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1446726068/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry26.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182102/http://www.geocities.jp:80/vipkohaku2015/entry26.html"
+    },
+    "icon": "/icons/2015-kouhaku/26.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/26-1.png",
+      "/screenshots/2015-kouhaku/26-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-27",
     "festivalId": "2015-kouhaku",
     "no": "27",
     "title": "あさめしけ",
-    "author": "",
-    "detailDisabled": true
+    "author": "おたつ",
+    "streaming": "可能・可能",
+    "engine": "2003",
+    "category": "中編デフォ戦",
+    "authorComment": "昔tkった2003初作ゲー。ほとんどデフォ素材で構成。VIPやもしもと関連性無し。",
+    "hostComment": "名のある剣が一所に集う光景は圧巻。",
+    "download": {
+      "url": "http://yahoo.jp/box/WJGGZY",
+      "label": "ダウンロード(1.2MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1446897464/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry27.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182106/http://www.geocities.jp:80/vipkohaku2015/entry27.html"
+    },
+    "icon": "/icons/2015-kouhaku/27.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/27-1.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-28",
     "festivalId": "2015-kouhaku",
     "no": "28",
     "title": "ユカイハン",
-    "author": "",
-    "detailDisabled": true
+    "author": "Kitaguni",
+    "streaming": "可能/可能",
+    "engine": "RPGツクール2000",
+    "category": "見るゲ",
+    "authorComment": "お酒は人生を変える。",
+    "hostComment": "良くも悪くも。",
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1446897518/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry28.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182111/http://www.geocities.jp:80/vipkohaku2015/entry28.html"
+    },
+    "icon": "/icons/2015-kouhaku/28.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/28-1.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-29",
     "festivalId": "2015-kouhaku",
     "no": "29",
     "title": "もしもライチが妊娠しちゃったら",
-    "author": "",
-    "detailDisabled": true
+    "author": "かに",
+    "streaming": "無記入",
+    "engine": "RPGツクール2000",
+    "category": "やるゲ",
+    "authorComment": "今回は\n\nダンジョンに潜って敵と戦うやるゲです。\n\nあ、無理だと思ったら適当なksgでも投下します。",
+    "hostComment": "でかいSS貼っていいよって言われたからとりあえずでかいSSにしたみたいな。良いと思います。",
+    "download": {
+      "url": "http://yahoo.jp/box/UVv9oW",
+      "label": "ダウンロード(1.1MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1446897572/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry29.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181539/http://www.geocities.jp:80/vipkohaku2015/entry29.html"
+    },
+    "icon": "/icons/2015-kouhaku/29.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/29-1.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-30",
     "festivalId": "2015-kouhaku",
     "no": "30",
     "title": "もしも闇のゲームだったら",
-    "author": "",
-    "detailDisabled": true
+    "author": "_",
+    "streaming": "自☆己☆責☆任",
+    "engine": "2000",
+    "category": "ksg",
+    "authorComment": "3話セットだと言ったな？あれは嘘だ\n\nジャンル:やっぱりもしも遊戯王ARC-5D'sだったら\n\n闇のゲームとはいったい……\n\n遊戯王IF様のコピゲです\n\n世界観は元ネタ様に準じております\n\nですがいよいよ深都突入なのでどうイッてもパラレルです\n\n2話デュエルパート大杉\n\nペンデュラムモンスター出てきますが、ペンデュラム召喚しない矛盾\n\nライディングデュエルは未収録ですあしからず",
+    "hostComment": "劇場版、楽しみですね。",
+    "download": {
+      "url": "http://yahoo.jp/box/Ss7PEa",
+      "label": "ダウンロード(17.3MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1447069659/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry30.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330205514/http://www.geocities.jp:80/vipkohaku2015/entry30.html"
+    },
+    "icon": "/icons/2015-kouhaku/30.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/30-1.png",
+      "/screenshots/2015-kouhaku/30-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-31",
@@ -245,39 +774,121 @@
     "no": "31",
     "title": "メイジの転生録",
     "author": "unbreaktell",
-    "detailDisabled": true
+    "streaming": "共に可",
+    "engine": "2000",
+    "category": "２４億年を越えた、転生のRPG",
+    "authorComment": "※前作のご案内\n\n1作目、メイジの悲劇嘆\n\nhttp://www.vector.co.jp/soft/win95/game/se374971.html (http://www.vector.co.jp/soft/win95/game/se374971.html)\n\n2作目、メイジの因果録\n\nhttp://www.geocities.jp/viptkool11_26/11th_1996.zip (http://www.geocities.jp/viptkool11_26/11th_1996.zip)\n\n―　†　前　世　覚　醒　せ　よ　†　―\n\n―　†　前　世　覚　醒　せ　よ　†　―\n\n―　†　前　世　覚　醒　せ　よ　†　―\n\nＭｙｓｔｉｃ\n\nＡｕｒａｐｏｗｅｒ\n\nＧｅｎｅｒａｔｉｎｇ\n\nＥｖｏｌｓｅｅｄ\n\n前世の運命を以って　超常の異能を操る者達は\n\n“メイジ”と呼ばれた…\n\n禍つ摩天楼　宿命ヶ原\n\n因果運命を持つメイジ達が徘徊す　魔都\n\n狂奏の織り成す旋律と　呻り響く戦慄の警鐘の狭間で\n\n彼らは何を想う？　何を願う？\n\n―悲劇はまた、繰り返して。\n\n　因果歪曲の果てに、輪廻転生す―\n\n“ＲＥＭＥＮＢＥＲ　ＹＯＵＲ　ＰＲＥＶＩＯＵＳ　ＬＩＦＥ\n\n　ＡＮＤ　ＡＷＡＫＥＮＩＮＧ　ＧＯＤ　ＯＦ　ＦＡＩＴ”\n\nあなたよ、新たなる運命録の、宿命的目撃者となれ・・・！！！\n\n―　†　前　世　覚　醒　せ　よ　†　―\n\n―　†　前　世　覚　醒　せ　よ　†　―\n\n―　†　前　世　覚　醒　せ　よ　†　―\n\n音楽修正パッチ\n\n・OPムービーの音が鳴らない\n\n・OPムービーで強制終了してしまう\n\n・一部の音楽が鳴らない\n\nこのような症状が出る方は適用してください\n\n→音楽修正パッチダウンロード(約740MB / Pass:luck) (http://www1.axfc.net/u/3587527)",
+    "hostComment": "音楽パッチはひとまず斧URLを直張りさせていただきました。後日改めてストレージに乗せます。",
+    "download": {
+      "url": "http://www1.axfc.net/u/3587527",
+      "label": "音楽修正パッチダウンロード(約740MB / Pass:luck)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1447242867/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry31.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330063019/http://www.geocities.jp:80/vipkohaku2015/entry31.html"
+    },
+    "icon": "/icons/2015-kouhaku/31.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/31-1.png",
+      "/screenshots/2015-kouhaku/31-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-32",
     "festivalId": "2015-kouhaku",
     "no": "32",
     "title": "(暫定タイトル)魔王把握の奪われた館(仮)",
-    "author": "",
-    "detailDisabled": true
+    "author": "ρ",
+    "streaming": "配信・可　動画・推奨しないが可",
+    "engine": "2000",
+    "category": "RPGといえばそうなんだろうな",
+    "authorComment": "エントリー決めた時点で完成度25%\n\n祭参加もしばらくでツクスレに関わるのも3年以上振りだ\n\nエターナラーやめるために完成させられるかな…",
+    "hostComment": "タイトルなんて最後に決めりゃイイんですよ！",
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1447414340/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry32.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331140500/http://www.geocities.jp:80/vipkohaku2015/entry32.html"
+    },
+    "icon": "/icons/2015-kouhaku/32.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/32-1.png",
+      "/screenshots/2015-kouhaku/32-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-33",
     "festivalId": "2015-kouhaku",
     "no": "33",
-    "title": "呪いのエクスカリバーIII ～呪われたエクスカリバー～",
-    "author": "14",
-    "detailDisabled": true
+    "title": "呪いのエクスカリバーⅢ　～呪われたエクスカリバー～",
+    "author": "交差華聖剣",
+    "streaming": "OK!/ＯＫ！",
+    "engine": "2OOO",
+    "category": "イージーＲＰＧ",
+    "authorComment": "呪われた剣エクスカリバーで繰り広げられてるシナリオを作って見ました。\n\n間に合わないかもしれないけど頑張ります （´・ω・｀）",
+    "hostComment": "この何から何まで雑な感じ、わりと好きですよ。",
+    "download": {
+      "url": "http://yahoo.jp/box/FVuBhk",
+      "label": "ダウンロード(2.5MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1447418304/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry33.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182122/http://www.geocities.jp:80/vipkohaku2015/entry33.html"
+    },
+    "icon": "/icons/2015-kouhaku/33.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/33-1.png",
+      "/screenshots/2015-kouhaku/33-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-34",
     "festivalId": "2015-kouhaku",
     "no": "34",
-    "title": "勇者の烙印",
+    "title": "勇者の烙印(体験版)",
     "author": "きぎぬ",
-    "detailDisabled": true
+    "streaming": "一切自由",
+    "engine": "RPGツクールMV",
+    "category": "RPG",
+    "authorComment": "作者による効率プレイで1時間程度のボリュームの、オーソドックスなRPG(体験版)です。\n\n完成版へセーブデータを引き継げるかどうかは分かりません。\n\nまあせっかくのツクールMV製ゲームなので、試しに触ってみてくれると嬉しいです。\n\nバグは…(多分)ありまぁす！\n\n従来のF12がF5へと変わってる点はご注意ください。\n\nあとツクールMV自体の不具合で、PCに積んでるメモリが少ないとクラッシュしやすいそうです。\n\nこまめなセーブを心がけるといいと思います。",
+    "hostComment": "さあ、新たな時代の幕開けだ！",
+    "download": {
+      "url": "http://yahoo.jp/box/bLH2rY",
+      "label": "ダウンロード(129MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1447418752/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry34.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182114/http://www.geocities.jp:80/vipkohaku2015/entry34.html"
+    },
+    "icon": "/icons/2015-kouhaku/34.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/34-1.png",
+      "/screenshots/2015-kouhaku/34-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-35",
     "festivalId": "2015-kouhaku",
     "no": "35",
     "title": "UGOⅡ",
-    "author": "",
-    "detailDisabled": true
+    "author": "チャッキー",
+    "streaming": "どちらも可能",
+    "engine": "RPGツクール2000",
+    "category": "カジュアルノベルゲーム",
+    "authorComment": "最近ホモの後輩ができたんですけど、家に来たがったり「カルピス牛乳で割ったらおいしいよ」などと意味深なことを言ってきます。\n\nでもめげずに作品を作り上げました、傑作です。",
+    "hostComment": "わりとメジャーな飲み方みたいですけどねえ、カルピス牛乳。",
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1447592711/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry35.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182106/http://www.geocities.jp:80/vipkohaku2015/entry35.html"
+    },
+    "icon": "/icons/2015-kouhaku/35.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/35-1.png",
+      "/screenshots/2015-kouhaku/35-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-36",
@@ -285,15 +896,51 @@
     "no": "36",
     "title": "もしもツクスレーストライクだったら",
     "author": "パトラミック",
-    "detailDisabled": true
+    "streaming": "両方とも可能",
+    "engine": "2000",
+    "category": "パロディかな",
+    "authorComment": "今人気（？）のスマホアプリのゲームをネタにしたツクールゲー\n\n引っ張りシューティングゲームって感じのゲームです。",
+    "hostComment": "3DS版の発売も控えているとか。それはともかくシューティング要素 is 何処。",
+    "download": {
+      "url": "http://yahoo.jp/box/-iLcrS",
+      "label": "ダウンロード(3.6MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1447592779/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry36.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182120/http://www.geocities.jp:80/vipkohaku2015/entry36.html"
+    },
+    "icon": "/icons/2015-kouhaku/36.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/36-1.png",
+      "/screenshots/2015-kouhaku/36-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-37",
     "festivalId": "2015-kouhaku",
     "no": "37",
     "title": "もしもンクエストモンスターズ2 ～ポテチのふしぎな鍵～",
-    "author": "",
-    "detailDisabled": true
+    "author": "ぽっこん",
+    "streaming": "自己/責任",
+    "engine": "2003",
+    "category": "RPG",
+    "authorComment": "体験版で失礼するゾ～（謝罪）\n\nイルルカ3D面白スギィ！！！！！\n\n自分、クローンゲーいいっすか？\n\nVIPRPGだからもしもキャラぶち込んでやるぜー\n\n未完成ですみません！許してください！なんでもしますから！(なんでもするとは言ってない\n\n仲間モンスター264種類(予定)\n\n※ゲームの起動には付属の実行ファイルをお使い下さい",
+    "hostComment": "264種……！　参考までに、本家本元はモンスター全312種だったそうです。",
+    "download": {
+      "url": "http://yahoo.jp/box/bxEnGX",
+      "label": "ダウンロード(27.5MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1447592862/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry37.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182116/http://www.geocities.jp:80/vipkohaku2015/entry37.html"
+    },
+    "icon": "/icons/2015-kouhaku/37.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/37-1.png",
+      "/screenshots/2015-kouhaku/37-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-38",
@@ -301,7 +948,25 @@
     "no": "38",
     "title": "わてり☆クエスト７",
     "author": "比較的悪いスライム",
-    "detailDisabled": true
+    "streaming": "わ/わ",
+    "engine": "2000",
+    "category": "わてり見るゲＲＰＧ",
+    "authorComment": "●プロローグ\n\n勇者の戦いは終わらない。\n\n今日も２分半ほどの厳しい修行をこなし、おやつをもぐもぐ１時間ほどかけてゆっくり食べ、あとは全部遊んで過ごしていた勇者わてり。\n\n一方その頃、勇者リナックスは今日も激しい修行を６時間ほどみっちりする夢を見たあと、起き抜けにコロッケを食べながらブラックコーヒーに砂糖とミルクをたっぷり入れて飲み、あとは全部寝て過ごしていた。\n\n７人の仲間と遊ぶのです――世界が囁いている。\n\n主に怠け、駄弁り、イチャコラし、そしてたまに思い出したように戦ったり、そのついでにちょっと切なくなったりするような物語がいま、始まる・・・。\n\n●ゲーム内容\n\nおよそ勢いというものとは無縁のわてわてな見るゲＲＰＧです。\n\n今回は少しシリアスな内容を含みます。\n\nドラクエ要素とかないよ！\n\n●プレイ時間\n\n３時間～６時間くらい（標準的なスライムを基準とする）",
+    "hostComment": "もう7作目だっけと首を傾げたのはきっと私だけではないはず。関係なかった。",
+    "download": {
+      "url": "http://yahoo.jp/box/THAPBK",
+      "label": "ダウンロード(31.2MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1447761118/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry38.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182100/http://www.geocities.jp:80/vipkohaku2015/entry38.html"
+    },
+    "icon": "/icons/2015-kouhaku/38.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/38-1.png",
+      "/screenshots/2015-kouhaku/38-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-39",
@@ -309,7 +974,25 @@
     "no": "39",
     "title": "アレックスが死んだ。",
     "author": "さいてん",
-    "detailDisabled": true
+    "streaming": "自己責任",
+    "engine": "2000",
+    "category": "滑ってる系やるゲ",
+    "authorComment": "はじめまして。３０分程度の短編を予定してます。\n\nデフォ素材でマップ作ってて「やっぱデフォだとつまんない景色になっちゃうな」\n\nとか思ってたんですけど皆さんがデフォ素材で作った作品やってみると単に私のセンスが無かっただけと\n\nわかり絶望してモチベなくしてエターの危機に陥りました。\n\nでっかく裏シナリオとかのせてますけどまず表からし て完成しそうにないです。\n\nミニゲームだけばっちり完成してるので間に合いそうになかったらたぶんミニゲームだけ提出します。\n\n・・・・・・・・・・・・・・・・・・・・・・\n\nＳＳ「わてりが死んだ。」追加。\n\n【おまけＳＳ】のセーブデータをロードしてください。\n・・・・・・・・・・・・・・・・・・・・・・",
+    "hostComment": "仮面ックスの出オチっぷりがひどいｗｗｗｗｗ",
+    "download": {
+      "url": "http://yahoo.jp/box/gK0TGn",
+      "label": "ダウンロード(7.9MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1447932927/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry39.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182117/http://www.geocities.jp:80/vipkohaku2015/entry39.html"
+    },
+    "icon": "/icons/2015-kouhaku/39.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/39-1.png",
+      "/screenshots/2015-kouhaku/39-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-40",
@@ -317,23 +1000,76 @@
     "no": "40",
     "title": "Ｄの肖像～ハート・オブ・わてゆり～",
     "author": "ジョイ",
-    "detailDisabled": true
+    "streaming": "不可／可",
+    "engine": "2000",
+    "category": "読むゲー",
+    "authorComment": "どうせお前ら遊んでくれるだろうし、先にお礼を言っておくぜ！！！！\n\nさんきゅー・フォー・プレイング！！！！！！！！\n\nある日、車に轢かれて死んだ子猫を見つけたニートのＤ。\n\nなきがらを道端によけてその場を後にするが、話はそれで終わらなかった！！\n\n墓を作れと押しかけてくる猫の霊、略して霊ニャン！！！\n\nもめてるところにＤの悪友たちもやってくる！！！\n\nそして始まる宴会！！！\n\n余興はもちろん「わてゆり」だ！！！！\n\n売れない女優チョモランマ！！\n\n霊ニャンを回収しに来た天使！！\n\nどっかの間抜けなジジイ！！\n\n通りすがりの勇者！！\n\nハードラックとダンスっちまった連中を巻き込んで、\n\n今、人生を賭けた【わてゆり】がはじまる！！！！\n\n「信じる力」\n\n「生きるという意志」\n\n「感謝の気持ち」\n\n「明日への希望」\n\nそして「前へと進む勇気」・・・\n\n五つのエンディングを見て、五つの心の宝玉を集めろ！！！\n\n感動の社会復帰はすぐそこだっ！！！！\n\nお前の人生、まだまだこれからなんだぜっ！！！！？\n\n制作・脚本にジョイ\n\n脚本補佐に超結晶デブニウム（Ｄｂ）\n\nスペシャルアドバイザーにファンタスティック・メガネ\n\n原作・原案にＧＯＤくんを迎えておくる\n\nハートフル・わてゆりライク・コミュニケーションＲＰＧ！！！！",
+    "hostComment": "わてゆりの定義とは。",
+    "download": {
+      "url": "http://yahoo.jp/box/Gl1V0f",
+      "label": "ダウンロード(1.9MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1448279831/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry40.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182122/http://www.geocities.jp:80/vipkohaku2015/entry40.html"
+    },
+    "icon": "/icons/2015-kouhaku/40.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/40-1.png",
+      "/screenshots/2015-kouhaku/40-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-41",
     "festivalId": "2015-kouhaku",
     "no": "41",
     "title": "アレックスと学ぶe-Sportsの闇",
-    "author": "",
-    "detailDisabled": true
+    "author": "あく",
+    "streaming": "○/○",
+    "engine": "RPGツクール2000",
+    "category": "教育系見るゲ",
+    "authorComment": "近年、日本でも流行り始めた「e-Sports」ってなんだろう？\n\nという疑問にお答えする為の見るゲ。\n\n　そもそもe-Sportsってなんだよ……という表立った疑問から\n\nその裏で行われている「闇」について深く掘り下げていきます。\n\nエターなったらごめんなさい",
+    "hostComment": "ウメハラがぁ！！！　捕まえてぇぇ！！！",
+    "download": {
+      "url": "http://yahoo.jp/box/iDC38Y",
+      "label": "ダウンロード(3.2MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1448279897/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry41.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182113/http://www.geocities.jp:80/vipkohaku2015/entry41.html"
+    },
+    "icon": "/icons/2015-kouhaku/41.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/41-1.png",
+      "/screenshots/2015-kouhaku/41-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-42",
     "festivalId": "2015-kouhaku",
     "no": "42",
     "title": "水煮ちゃんがウンコを食べるゲーム",
-    "author": "若草のびる",
-    "detailDisabled": true
+    "author": "てりやき",
+    "streaming": "不可・不可",
+    "engine": "2000",
+    "category": "ksg",
+    "authorComment": "はい",
+    "hostComment": "はいじゃないが",
+    "download": {
+      "url": "http://yahoo.jp/box/2r3WHI",
+      "label": "ダウンロード(4.6MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1448804205/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry42.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331144851/http://www.geocities.jp:80/vipkohaku2015/entry42.html"
+    },
+    "icon": "/icons/2015-kouhaku/42.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/42-1.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-43",
@@ -341,15 +1077,50 @@
     "no": "43",
     "title": "Doragenigh†",
     "author": "トカゲのしっぽな",
-    "detailDisabled": true
+    "streaming": "やめなされ/やめなされ",
+    "engine": "2000",
+    "category": "カジュアルゲェム",
+    "authorComment": "セーブしながら気が向いたときにマッタリ遊ぶ感じの\n\nカジュアルなゲェムです。",
+    "hostComment": "セカオワはネタ抜きにしてもわりと好きです。",
+    "download": {
+      "url": "http://yahoo.jp/box/Mxim1M",
+      "label": "ダウンロード(5.3MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1448804251/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry43.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182109/http://www.geocities.jp:80/vipkohaku2015/entry43.html"
+    },
+    "icon": "/icons/2015-kouhaku/43.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/43-1.png",
+      "/screenshots/2015-kouhaku/43-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-44",
     "festivalId": "2015-kouhaku",
     "no": "44",
     "title": "闇ゾーマシミュレーター",
-    "author": "",
-    "detailDisabled": true
+    "author": "アラン・スミシー",
+    "streaming": "非推奨",
+    "engine": "2000",
+    "category": "中途半端な再現ゲー",
+    "authorComment": "闇ゾーマと戦えるだけのゲームです\n\n色々データベースをいじって楽しんでいただくことを想定しているため(というボリューム不足の言い逃れ)\n\n2ｋ体験版(か製品版)を用意してお楽しみください",
+    "hostComment": "<img src=\"/screenshots/2015-kouhaku/44-hostComment-1.jpg\" alt=\"\">",
+    "download": {
+      "url": "http://yahoo.jp/box/lTbEhV",
+      "label": "ダウンロード(231KB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1448804291/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry44.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182118/http://www.geocities.jp:80/vipkohaku2015/entry44.html"
+    },
+    "icon": "/icons/2015-kouhaku/44.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/44-1.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-45",
@@ -357,119 +1128,370 @@
     "no": "45",
     "title": "箱街 -INSANE BADEND WIND I-",
     "author": "黄泉つ",
-    "detailDisabled": true
+    "streaming": "大好き/大好き",
+    "engine": "2000",
+    "category": "自由探索ミニチュア",
+    "authorComment": "こどもは風邪のコ　元気なＫ.Ｏ.\n\n病弱ステータスを【×能力封印】されてしまった風Ⅰが元気いっぱいに\n\n横スクロールマップをお散歩する箱庭型ゲームです。",
+    "hostComment": "宿屋に泊まるとバステが治ってバッドエンドになりそう。",
+    "download": {
+      "url": "http://yahoo.jp/box/jyHdjP",
+      "label": "ダウンロード(16.6MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1448804346/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry45.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182102/http://www.geocities.jp:80/vipkohaku2015/entry45.html"
+    },
+    "icon": "/icons/2015-kouhaku/45.gif",
+    "ss": [
+      "/screenshots/2015-kouhaku/45-1.png",
+      "/screenshots/2015-kouhaku/45-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-46",
     "festivalId": "2015-kouhaku",
     "no": "46",
     "title": "やみっちサッカー",
-    "author": "",
-    "detailDisabled": true
+    "author": "ファックス部",
+    "streaming": "自己責任/自己責任",
+    "engine": "2000",
+    "category": "スポーツするのを見るゲーム",
+    "authorComment": "やみっちとライチがサッカーをする為に一緒にやってくれる人を探すお話です。",
+    "hostComment": "お前ボールな！",
+    "download": {
+      "url": "http://yahoo.jp/box/Qds1j6",
+      "label": "ダウンロード(14.9MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1449144850/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry46.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182116/http://www.geocities.jp:80/vipkohaku2015/entry46.html"
+    },
+    "icon": "/icons/2015-kouhaku/46.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/46-1.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-47",
     "festivalId": "2015-kouhaku",
     "no": "47",
     "title": "ばりばり",
-    "author": "",
-    "detailDisabled": true
+    "author": "C",
+    "streaming": "どちらも自己責任",
+    "engine": "RPGツクール2003",
+    "category": "短編やるゲ",
+    "authorComment": "バリヤーズがばりばりする短編やるゲです",
+    "hostComment": "バーリバッリッ　夕張っ♪(ローカル)",
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1449144905/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry47.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330213315/http://www.geocities.jp:80/vipkohaku2015/entry47.html"
+    },
+    "icon": "/icons/2015-kouhaku/47.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/47-1.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-48",
     "festivalId": "2015-kouhaku",
     "no": "48",
     "title": "恐怖！メガナチスVSグレート・ニンジャ",
-    "author": "",
-    "detailDisabled": true
+    "author": "マジかよ忍者最低だな",
+    "streaming": "どうなっても拙者は知らんでござるよｗ（自己責任）",
+    "engine": "RPGツクール2000",
+    "category": "Z級ｋｓｇ",
+    "authorComment": "やっぱり忍者は最強でござるなｗ",
+    "hostComment": "汚いなさすが忍者きたない",
+    "download": {
+      "url": "http://yahoo.jp/box/e5wq1v",
+      "label": "ダウンロード(17.9MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1449144955/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry48.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331134355/http://www.geocities.jp:80/vipkohaku2015/entry48.html"
+    },
+    "icon": "/icons/2015-kouhaku/48.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/48-1.png",
+      "/screenshots/2015-kouhaku/48-2.bmp"
+    ]
   },
   {
     "id": "2015-kouhaku-work-49",
     "festivalId": "2015-kouhaku",
     "no": "49",
     "title": "帰ってきたゲキムズＲＰＧ",
-    "author": "",
-    "detailDisabled": true
+    "author": "ろーぷれつくろ～",
+    "streaming": "クリア出来る自信があるなら可",
+    "engine": "2000",
+    "category": "死にまくりＲＰＧ",
+    "authorComment": "作者がかつてＲＰＧツクールＤＳの第２回コンテストに提出した「超ゲキムズＲＰＧ」が\n\nＶＩＰＲＰＧ版としてリメイクされて帰ってきた！！\n\nクソゲーの世界に飛ばされてしまった高校３年生のカズヤ。\n\n彼に理不尽な即死トラップが次々と襲い掛かる！\n\n最初の町から死にまくり必須の鬼畜ＲＰＧを君は攻略することが出来るか！？\n\nＤＳ版をプレイしたことがある人も、そうでない人も、(そうでない人がほとんどかもしれないけど)\n\nＶＩＰＲＰＧ版になってより難易度とクオリティの上がった新生「超ゲキムズＲＰＧ」に\n\n自信がある人はぜひ挑戦してみてください！",
+    "hostComment": "公式コンテストへの参加経験がある人ってかなり希少なのでは！？",
+    "download": {
+      "url": "http://yahoo.jp/box/LfadUB",
+      "label": "ダウンロード(5.0MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1449145024/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry49.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331140246/http://www.geocities.jp:80/vipkohaku2015/entry49.html"
+    },
+    "icon": "/icons/2015-kouhaku/49.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/49-1.png",
+      "/screenshots/2015-kouhaku/49-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-50",
     "festivalId": "2015-kouhaku",
     "no": "50",
     "title": "悪魔城の隣はトロロくんの家",
-    "author": "",
-    "detailDisabled": true
+    "author": "きらきー",
+    "streaming": "どうなってもしらない",
+    "engine": "2003",
+    "category": "ステルス",
+    "authorComment": "よくあるQ&A\n\nQ・マスタァー！どうして？\n\nQ2・マスターがどうして？\n\nA・マスター何を言ってる？\n\n本当の真実・明日から作る",
+    "hostComment": "タイトル画面で操作方法を確認できるのは普通に助かりますね。",
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1449145081/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry50.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182102/http://www.geocities.jp:80/vipkohaku2015/entry50.html"
+    },
+    "icon": "/icons/2015-kouhaku/50.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/50-1.png",
+      "/screenshots/2015-kouhaku/50-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-51",
     "festivalId": "2015-kouhaku",
     "no": "51",
     "title": "あばりの万物創世紀",
-    "author": "",
-    "detailDisabled": true
+    "author": "沢渡ぶろん",
+    "streaming": "×/×",
+    "engine": "2000",
+    "category": "サバイバル",
+    "authorComment": "きしししーーーーーーーー\n化ｔぽｔかｋたｋｙｐぁ＠ｐ５ｙぁ５＠あｄｆｇｇ＠",
+    "hostComment": "SSはどっちが1枚目でどっちが2枚目なのやら、なファイル名だったのでテキトーに。",
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1449145146/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry51.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182102/http://www.geocities.jp:80/vipkohaku2015/entry51.html"
+    },
+    "icon": "/icons/2015-kouhaku/51.gif",
+    "ss": [
+      "/screenshots/2015-kouhaku/51-1.png",
+      "/screenshots/2015-kouhaku/51-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-52",
     "festivalId": "2015-kouhaku",
     "no": "52",
     "title": "サンプルクエスト -あなたが作る物語-(2kリメイク)",
-    "author": "",
-    "detailDisabled": true
+    "author": "宮凪ウィンディオ",
+    "streaming": "おｋ、放送場所を教えてくれたら見にくるよ/むしろやって下さいお願いします",
+    "engine": "2000",
+    "category": "DSのサンプルゲーム再現(デフォ戦)",
+    "authorComment": "「ウィンディオの魔王把握」と「上凪巧斗の憂鬱」の製作者です。\n\nいつものように表用の新作フリゲを作っていたら、「上凪巧斗の憂鬱」に収録してる物も一部ループ処理が上手くいっていなかった事に気づき、\n\n修正版midiの収録のついでに、RPGツクールDS、DS+出身のツクラーとしてDSのサンプルゲームの再現作をｔｋらせていただきました。\n\n元が元なので、すぐにクリアできる遊び所要素がないヌルゲーで最後の投げやり感がムカつく一作ですが、\n\nスレ投下でもいいのでこれを元にした続きを誰かｔｋってやってください。ボクが喜びます。\n\n「「上凪巧斗の憂鬱」の掛け合いがつまらない、midiの使用サンプルｔｋれ」という声がありましたが、\n\nサンプルに関してはツクール2000はまだｔｋり慣れていないので考えておきます。\n\n掛け合いがつまらないのは全て僕のDS、DS+愛のせいです、ご不快な思いをさせて申し訳ございませんでした。\n\nあっ、そうだ(唐突) midiは使っていただけましたか…？(小声)",
+    "hostComment": "素材面の難はあれど、DS+はCS版ツクールの中では良作寄りだと思います。\n\n本当に安いので手に取ってみてはいかがでしょうか。wi-fi使えませんけどね。",
+    "download": {
+      "url": "http://yahoo.jp/box/h5ed_u",
+      "label": "ダウンロード(1.4MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1449145198/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry52.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331145706/http://www.geocities.jp:80/vipkohaku2015/entry52.html"
+    },
+    "icon": "/icons/2015-kouhaku/52.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/52-1.png",
+      "/screenshots/2015-kouhaku/52-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-53",
     "festivalId": "2015-kouhaku",
     "no": "53",
     "title": "百合っぽい恋",
-    "author": "れーえ＆甘藍",
-    "detailDisabled": true
+    "author": "れーえ 甘藍",
+    "streaming": "○/○",
+    "engine": "2000",
+    "category": "百合コメ",
+    "authorComment": "百合っぽい短編4つ+おまけです\n\nゲスト様のお話も収録",
+    "hostComment": "シーベッド・バー。オシャレですね。",
+    "download": {
+      "url": "http://yahoo.jp/box/Z0VUbt",
+      "label": "ダウンロード(19.6MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1449145251/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry53.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182120/http://www.geocities.jp:80/vipkohaku2015/entry53.html"
+    },
+    "icon": "/icons/2015-kouhaku/53.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/53-1.png",
+      "/screenshots/2015-kouhaku/53-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-54",
     "festivalId": "2015-kouhaku",
     "no": "54",
     "title": "えっ 今日は全員カレーライス食っていいのか!!",
-    "author": "",
-    "detailDisabled": true
+    "author": "テイクス",
+    "streaming": "可能",
+    "engine": "RPGツクール2000",
+    "category": "アミィが料理人とカレーの材料を集めるRPG",
+    "authorComment": "初紅白です。\n\n追伸 カレーはドロドロしたほうのが好きです",
+    "hostComment": "遠慮するな　今までの分　食え……",
+    "download": {
+      "url": "http://yahoo.jp/box/bZe4oK",
+      "label": "ダウンロード(5.2MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1449317856/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry54.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182108/http://www.geocities.jp:80/vipkohaku2015/entry54.html"
+    },
+    "icon": "/icons/2015-kouhaku/54.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/54-1.png",
+      "/screenshots/2015-kouhaku/54-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-55",
     "festivalId": "2015-kouhaku",
     "no": "55",
     "title": "フレイム冒険記",
-    "author": "",
-    "detailDisabled": true
+    "author": "夢のキービィ",
+    "streaming": "いずれも自己責任でお願いします",
+    "engine": "RPGツクール２０００",
+    "category": "フレイムが主役のRPG",
+    "authorComment": "フレイムとゆかいな仲間達の長編RPGの体験版です（中盤に差し掛かる所までプレイ可能）。\n\n一応ストーリーらしきものは有りますが、どちらかというとのんびりと旅しながら色々な場所を\n\n探索したりミニイベントをクリアしていくのがメインになるかなあと思います。\n\nこのような祭りに参加するのは初めての初心者ですが、\n\nダンジョンを巡って宝物を見つけたり、お金をためて強い装備を買うといったＲＰＧの楽しさが\n\n少しでも感じる事が出来るゲームになるよう頑張っていきたいです。\n\nこのゲームは外字を変更したexeファイルを使用していますので、ゲームファイルに\n\n入っているexeファイルを使ってください。",
+    "hostComment": "大所帯パーティはワクワクしますよね！",
+    "download": {
+      "url": "http://yahoo.jp/box/f2PLsc",
+      "label": "ダウンロード(30.3MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1449489165/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry55.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182122/http://www.geocities.jp:80/vipkohaku2015/entry55.html"
+    },
+    "icon": "/icons/2015-kouhaku/55.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/55-1.png",
+      "/screenshots/2015-kouhaku/55-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-56",
     "festivalId": "2015-kouhaku",
     "no": "56",
     "title": "本当は怖いもしも",
-    "author": "",
-    "detailDisabled": true
+    "author": "左様",
+    "streaming": "可能/可能",
+    "engine": "2000",
+    "category": "3分見るゲ",
+    "authorComment": "インスパイヤ系すぐ終わる見るゲ",
+    "hostComment": "鈴奈庵面白い漫画ですよね。",
+    "download": {
+      "url": "http://yahoo.jp/box/AAxh-M",
+      "label": "ダウンロード(92KB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1449489219/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry56.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182112/http://www.geocities.jp:80/vipkohaku2015/entry56.html"
+    },
+    "icon": "/icons/2015-kouhaku/56.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/56-1.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-57",
     "festivalId": "2015-kouhaku",
     "no": "57",
     "title": "Mother Cry",
-    "author": "",
-    "detailDisabled": true
+    "author": "黒糖まんじゅう",
+    "streaming": "完成してから考える",
+    "engine": "RPGツクール2000",
+    "category": "見るゲ",
+    "authorComment": "まだまだ完成には遠いけどエントリーしてよかですか？\n\n内容は2014GW「ダークナイトサーガ」の後日談で\n\nアンパン軍やアンデッドナイ軍の面々がわちゃわちゃする見るゲになる予定です\n\n　γ ￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣ヽ\n\n　｜ ぼくはまだ「マイナス」なんだッ！「ゼロ」に向かって行きたいッ！ 　          |\n\n　｜ 　作品を完成させて、スタートラインに立って、　　　　　　　　　　　         |　　\n\n　｜ 　　自分の「マイナス」を「ゼロ」に戻したいだけだッ！　　　　　　　　        |\n\n　 乂＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿ノ　　　　\n\n　　　　　　 　 　 　 　 　 ｘ─‐ ｧヮ-､_\n\n　.　　　　　 　 　 　 , イ　☆ ノ::::ｲ☆: ＼\n\n　　　　　 　 　 /|／　 　 匚} ｌ::::（ 匚}: : : Ｖ|\n\n　.　　　　　 　 |/／,　　__| I|_l＿_|_| I|:_: :.∧!\n\n　.　　　　　　 / ／ ☆ ／Vﾊ_＿_/ /＼＼: |\n\n　　　　　　　〈_/ ☆.／-‐=ミｰ‐一 '=‐-＼:ﾏ\n\n　　　　　　　 │/,ｲ　 rｆﾃｧ㍉　　,ｨｆﾃｧﾗ }ﾄ.|\n\n　　　　　　　　| /|ｌ| i　^冖´　　　|｀冖^'　ｊNｊ\n\n　　　　　　　　l {川　',　　 　 ﾚﾄ-{ノ　　　|ﾊl|\n\n　.　　 　 　 　 V/∧　　　　　｀ｰ　　　　/!||ﾘ\n\n　.　　 　 　 　 〈{ | ｌ|!　　 　 r === ﾗ　 ,' ｊ川　、\n\n　　　　　　　　 ﾊl| ｌ|ﾊ　　 　 ー一'　　 /ｌ| ﾄし'\n\n　.　　　　　 　 {/l| 川 ｀ヽ 　 ＿＿_ ／| ﾘ小.｣__\n\n　　　　　　　　/八ﾊ∧　　｀ー‐一 ´　 !/八}ト､\n\n　　　　　　 ／__／| |ｌ∧　 　 ヽ./　 　 //ヽﾐヲ\n\n　　　　　　￣　| l/| |l__∧　　　ｉ　　　 |/　／　/\n\n　　　　　　　／|ｌ{ ／／ ∧　　 l　　 　 ／　／\n\n　　　　 ｘ＜ 　 ／ （__l　|　|　 　 　 _／　／＿_\n\n.　　 ／　　　　 ＼＿　＼＿_,∠二　 ／￣ /::/\n\n　／＿＿＿＿　　ヽ ｀ー─'´　　 ／|　　 /::/\n\n. | 〈/　　　|:::|　｀ヽ　 ＼＿　　 ／ |:::l 　 /::/\n\n　У　 |,　 |:::|　 　 ＼＿＿__／ 　 |:::|　/::/",
+    "hostComment": "「飢えなきゃ」ｔｋれない\n\nただし　あんなエターナラーなんかより　ずっとずっともっと気高く飢えなくては！",
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1449836293/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry57.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182059/http://www.geocities.jp:80/vipkohaku2015/entry57.html"
+    },
+    "icon": "/icons/2015-kouhaku/57.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/57-1.png",
+      "/screenshots/2015-kouhaku/57-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-58",
     "festivalId": "2015-kouhaku",
     "no": "58",
     "title": "もしもおねショタだったら～サンディの逆襲～",
-    "author": "",
-    "detailDisabled": true
+    "author": "春菊。",
+    "streaming": "可ですがSS参照",
+    "engine": "RPGツクール2000",
+    "category": "少しエッチなＲＰＧ",
+    "authorComment": "ゆるいエロＲＰＧです。\n\nギリギリＲ－１８ではないと思います。\n\n【あらすじ】\n\nある日何者かに連れ去られ魔王になったサンダーⅠ(サンディ)\n\n彼女は大人化して部下を次々と従え、スパイチ(スパークⅠ)一味を襲う！！\n\nスパイチ達はサンディを救う為に旅に出ることに…。\n\n冒険ではおねえさん達との体格差にピンチの連続…！？",
+    "hostComment": "エロの皮をかぶった、ストイックなバランスのRPG……なのか！？",
+    "download": {
+      "url": "http://yahoo.jp/box/b2C5bF",
+      "label": "ダウンロード(18.6MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1450014466/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry58.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182103/http://www.geocities.jp:80/vipkohaku2015/entry58.html"
+    },
+    "icon": "/icons/2015-kouhaku/58.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/58-1.png",
+      "/screenshots/2015-kouhaku/58-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-59",
     "festivalId": "2015-kouhaku",
     "no": "59",
     "title": "SOUL WING(s)",
-    "author": "",
-    "detailDisabled": true
+    "author": "起楽　侑",
+    "streaming": "可能淵先輩/ダメなわけないだろう",
+    "engine": "RPGツクール2000",
+    "category": "散歩パズル",
+    "authorComment": "わてりちゃんと、ふれいむさんが「苦悩を通して歓喜に至る」お話です！応援してくれると嬉しいです。",
+    "hostComment": "アツくクールな思考で挑め！",
+    "download": {
+      "url": "http://yahoo.jp/box/sDAhjF",
+      "label": "ダウンロード(13.3MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1450014520/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry59.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182100/http://www.geocities.jp:80/vipkohaku2015/entry59.html"
+    },
+    "icon": "/icons/2015-kouhaku/59.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/59-1.png",
+      "/screenshots/2015-kouhaku/59-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-60",
@@ -477,7 +1499,24 @@
     "no": "60",
     "title": "Evil Omen",
     "author": "内藤春人",
-    "detailDisabled": true
+    "streaming": "可能/可能",
+    "engine": "RPGツクール2000",
+    "category": "スーパーオーガニックRPG",
+    "authorComment": "おまけ！　タイトルがめんのときに\n\nつぎの　そうさを　やってみよう！\n\nゲームを　しゅうりょうできるよ！\n\nした　うえ　うえ　Ｚ",
+    "hostComment": "すっげー！　裏ワザじゃん！！",
+    "download": {
+      "url": "http://yahoo.jp/box/hh_nYO",
+      "label": "ダウンロード(31.0MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1450014572/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry60.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182107/http://www.geocities.jp:80/vipkohaku2015/entry60.html"
+    },
+    "icon": "/icons/2015-kouhaku/60.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/60-1.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-61",
@@ -485,79 +1524,244 @@
     "no": "61",
     "title": "Black Chronicle",
     "author": "kemono",
-    "detailDisabled": true
+    "streaming": "可／不可",
+    "engine": "2000",
+    "category": "年代記的な何か",
+    "authorComment": "４０年にわたる年代記。\n\n預言書と、世界を守るという想いを受け継いで戦い続ける…。",
+    "hostComment": "何が予言だ！　未来は俺達が作り上げていくんだ！",
+    "download": {
+      "url": "http://yahoo.jp/box/ynXNFB",
+      "label": "ダウンロード(5.1MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1450014627/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry61.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182103/http://www.geocities.jp:80/vipkohaku2015/entry61.html"
+    },
+    "icon": "/icons/2015-kouhaku/61.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/61-1.png",
+      "/screenshots/2015-kouhaku/61-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-62",
     "festivalId": "2015-kouhaku",
     "no": "62",
-    "title": "万華郷 ～Mangekyou～",
-    "author": "",
-    "detailDisabled": true
+    "title": "万華郷　～Mangekyou～",
+    "author": "FAH-Q",
+    "streaming": "可/連絡下さい見に行きます！",
+    "engine": "RPGツクール2000",
+    "category": "和風RPG",
+    "authorComment": "異世界を冒険し楽しい夏休みを過ごす和風RPGです。一昔前の\n\nゲームみたいなそこそこ歯応えのある難易度と、散策を楽しみながら\n\nダンジョンを攻略していくゲームです。仲間と共に力を合わせ、\n\n不思議な術で妖（あやかし）に立ち向かい、万華郷を冒険しましょう！\n\nプレイ時間は大体5～6時間程度の短編ゲームです。\n\n一応、隠し要素も少しだけあります。\n\n季節外れですが楽しんでいただければ幸いです。",
+    "hostComment": "寒い冬にストーブをガン炊きしながら夏が舞台のゲームをPIAIする贅沢、これだ。",
+    "download": {
+      "url": "http://yahoo.jp/box/r8clPP",
+      "label": "ダウンロード(11.5MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1450182038/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry62.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182114/http://www.geocities.jp:80/vipkohaku2015/entry62.html"
+    },
+    "icon": "/icons/2015-kouhaku/62.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/62-1.png",
+      "/screenshots/2015-kouhaku/62-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-63",
     "festivalId": "2015-kouhaku",
     "no": "63",
     "title": "インテリ",
-    "author": "",
-    "detailDisabled": true
+    "author": "クルマユ大好き丸",
+    "streaming": "可能・可能",
+    "engine": "2000",
+    "category": "ｋｓｇ",
+    "authorComment": "あらすじ\n\n将来は立派な学者先生になる事が夢のメガネ妖精(蔑称：チャバネゴキブリ)は\n\n田舎の村で子供の家庭教師をするなどして小銭を稼ぎ参考書などを買っていたが\n\n一部の子供達から誹謗中傷を受けて家庭教師を続けられなくなってしまう\n\nまた、仲間達から本を隠されたり破かれるなどしてひどい無力感に苛まれていた\n\nそんな中、妖精狩りに来たコボルトの群れに不運にも捕まってしまったチャバネ\n\n巧みな話術で辛くも命拾いをする事が出来たが引き篭もりの子供の話し相手にさせられてしまう\n\n子供の事を上手くだまくらかして自分の言いなりにし集落からの脱出を目論むチャバネだったが\n\n魔法を教えるという嘘をついて(人間から奪った)蔵の本を読み聞かせる内に確かな充実感を得る\n\n(ここから抜け出して自分の価値を認めようとしない仲間達の元に帰って何になるだろうか？)\n\n勉学に勤しむのに快適な環境と自分の事を慕ってくれる弟子(子コボルト)が出来た事で\n\n気分を良くしたチャバネはしばらくこのコボルトの集落に滞在する事に決めた\n\nそれからしばらくして、ある都会の街に種族・年齢を問わず入学する事が出来る学校が在ると\n\n聞いたチャバネは子コボルトを唆してその街に二人で学習しに向かう事を計画する\n\nしかしその道中、行き違いから二人の間に亀裂が入ってしまい・・・\n\n※しんみりした後味の悪い話になる予定ですが\n\nあまり洒落のない話はこっぱずかしく感じるので\n\n途中で適当なギャグやほのぼのに投げ出す可能性が高いです\n\n※完全に遅刻します\n\n紅白の更新終了日までに納得出来る辺りまで完成しなかったら代理として\n\n姫とディナックスのｋｓｇを遅刻提出しようと思います",
+    "hostComment": "1-3フェイスのフェアリークイーンで撃沈しました。",
+    "download": {
+      "url": "http://yahoo.jp/box/LWsd_n",
+      "label": "ダウンロード(2.3MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1450532812/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry63.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182059/http://www.geocities.jp:80/vipkohaku2015/entry63.html"
+    },
+    "icon": "/icons/2015-kouhaku/63.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/63-1.png",
+      "/screenshots/2015-kouhaku/63-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-64",
     "festivalId": "2015-kouhaku",
     "no": "64",
     "title": "標準大戦",
-    "author": "きゃっぺ",
-    "detailDisabled": true
+    "author": "キャプテンペガサス（きゃっぺ） ◆do7wOyQeJk",
+    "streaming": "某国政府に目をつけられて平気ならどうぞ＾＾どうぞ＾＾",
+    "engine": "rpgmaker2000",
+    "category": "常時AIデフォ戦",
+    "authorComment": "巷で「若者のデフォ戦離れ」が社会問題化しています。\n\n私はこれを重く受け止め、なんかこう、私がこの手で何かを変えられたら変えたい。\n\n私は最近、このように思いました。\n\n悪いのは政治家でも不景気でも、邪悪なお金持ちの考え、ましてや貴方達若者ではありません。\n\n悪い社会を作った原因、それは悪い人たちです。\n\n悪い人たちが社会を悪くしているんだから、犯罪がおきます。\n\n悪い人たちがいなければ、犯罪はありません。\n\n悪い人た ちがいるから、空港で手荷物検査チョヌン、これがあります。\n\n悪いことを行う道具を持っているかどうか調べるためです。\n\n貴方は悪いことを行う道具を持っていますか？\n\nもし持っているなら私のカントリーに来ないでください。\n\nただしもし、技術だけがあるなら私たちの国家企業にください、出来ればお金。\n\nさあ、急いで帰りましょう。\n\n貴方のふるさとへ。\n\n悪い人たちのふるさとへ。\n\n出来れば生きているよりもう少し遠くへ。\n\nどうぞありがとうございました。\n\n（事務総長の演説より引用）",
+    "hostComment": "果たして(色んな意味で)大丈夫なゲームなのか？　その答えはDL先に！",
+    "download": {
+      "url": "http://yahoo.jp/box/WRPrTW",
+      "label": "ダウンロード(48.2MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1450532889/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry64.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182107/http://www.geocities.jp:80/vipkohaku2015/entry64.html"
+    },
+    "icon": "/icons/2015-kouhaku/64.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/64-1.png",
+      "/screenshots/2015-kouhaku/64-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-65",
     "festivalId": "2015-kouhaku",
     "no": "65",
     "title": "Barbara Allen",
-    "author": "",
-    "detailDisabled": true
+    "author": "UDON.com",
+    "streaming": "どうぞ/どうぞ",
+    "engine": "2000",
+    "category": "見るゲ",
+    "authorComment": "久々の参加になります\n\n年末でお忙しいとは思いますが\n\n少しだけお時間を下さい",
+    "hostComment": "ダークなロマンスが楽しめそうです。",
+    "download": {
+      "url": "http://yahoo.jp/box/BmOtC0",
+      "label": "ダウンロード(2.7MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1450532944/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry65.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182120/http://www.geocities.jp:80/vipkohaku2015/entry65.html"
+    },
+    "icon": "/icons/2015-kouhaku/65.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/65-1.png",
+      "/screenshots/2015-kouhaku/65-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-66",
     "festivalId": "2015-kouhaku",
     "no": "66",
     "title": "ゼルダの伝説３Ｄを再現してみたかった",
-    "author": "",
-    "detailDisabled": true
+    "author": "名無しの一般エターナラー1-3",
+    "streaming": "おｋ/おｋ",
+    "engine": "2000",
+    "category": "ksg",
+    "authorComment": "元ネタ：（別作者のksg 断りもなく）\n\nhttp://archive.viprpg.org/download/19265/tkool4vip14853.zip (http://archive.viprpg.org/download/19265/tkool4vip14853.zip)\n\n最強についてすこしだけ考えた後、地獄の底に投げ捨てる系ksgです",
+    "hostComment": "これ、2015年最後のスレ投下ksgでした。どう拾っていくのやら？",
+    "download": {
+      "url": "http://yahoo.jp/box/P3Li4l",
+      "label": "ダウンロード(1.1MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1450698344/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry66.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182106/http://www.geocities.jp:80/vipkohaku2015/entry66.html"
+    },
+    "icon": "/icons/2015-kouhaku/66.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/66-1.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-67",
     "festivalId": "2015-kouhaku",
     "no": "67",
-    "title": "ケツイイ 〜イキ地獄たち〜",
-    "author": "",
-    "detailDisabled": true
+    "title": "ケツイイ　～イキ地獄たち～",
+    "author": "（豆）",
+    "streaming": "両方可",
+    "engine": "2003",
+    "category": "イキまくりシューティングアクションボードゲームTRPG",
+    "authorComment": "今から作ります",
+    "hostComment": "元々登場人物にホモが混じってるゲームだし、まあ多少はね？",
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1450698425/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry67.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182113/http://www.geocities.jp:80/vipkohaku2015/entry67.html"
+    },
+    "icon": "/icons/2015-kouhaku/67.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/67-1.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-68",
     "festivalId": "2015-kouhaku",
     "no": "68",
     "title": "マーガレット・ブレイド",
-    "author": "",
-    "detailDisabled": true
+    "author": "やべえ",
+    "streaming": "○／○",
+    "engine": "MV",
+    "category": "詰めバトル",
+    "authorComment": "ステッパーズ・ストップ様の対戦型非電源ゲーム「マーガレット」を、\n\nルール調整して一人用ゲームにしました。\n\n戦闘はパズル要素高めです。\n\niOS版は審査に時間がかかるので、ブラウザ版とexe版が先にプレイ可能になります。\n\nタップ操作はマウスのクリックで代用できます。\n\nAndroidは持ってないので、いったん見送らせてください。\n\n進捗３割くらい。\n\n来年中には提出できる見込みです。",
+    "hostComment": "現行のiPhoneってこんなに長いんですか(4Sしか知らない)",
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1450698469/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry68.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182108/http://www.geocities.jp:80/vipkohaku2015/entry68.html"
+    },
+    "icon": "/icons/2015-kouhaku/68.gif",
+    "ss": [
+      "/screenshots/2015-kouhaku/68-1.png",
+      "/screenshots/2015-kouhaku/68-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-69",
     "festivalId": "2015-kouhaku",
     "no": "69",
-    "title": "てけりり☆ばすた〜ず",
-    "author": "",
-    "detailDisabled": true
+    "title": "てけりり☆ばすた～ず",
+    "author": "めざ",
+    "streaming": "可/可",
+    "engine": "2000",
+    "category": "CoC風ハクスラ",
+    "authorComment": "神話生物と殴りあうゲームです。\n\n戦闘システムやステータスなどを出来るだけ再現しています。\n\n逃走しても敵のHPはリセットされませんが、味方のHPも回復しません。\n\n先に全滅するのは果たしてどちらか……",
+    "hostComment": "こういうの(右下)相手に組み付きを試みるとか正気の沙汰じゃないですよね。\nあっ正気じゃないのか。",
+    "download": {
+      "url": "http://yahoo.jp/box/wlF2Mw",
+      "label": "ダウンロード(7.9MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1450698512/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry69.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182114/http://www.geocities.jp:80/vipkohaku2015/entry69.html"
+    },
+    "icon": "/icons/2015-kouhaku/69.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/69-1.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-70",
     "festivalId": "2015-kouhaku",
     "no": "70",
     "title": "Barsty's Birthday",
-    "author": "",
-    "detailDisabled": true
+    "author": "(R)DU",
+    "streaming": "ＯＫ！/OK！",
+    "engine": "ＲＰＧツクール２０００",
+    "category": "ほのぼのやるゲー（？）",
+    "authorComment": "ギリギリ滑り込み参加かつ初投稿です！\n\n人を選びそうな内容ですがよろしくお願いします！",
+    "hostComment": "ツクラーの数だけ、誕生日がある。",
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1450868712/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry70.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182105/http://www.geocities.jp:80/vipkohaku2015/entry70.html"
+    },
+    "icon": "/icons/2015-kouhaku/70.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/70-1.png",
+      "/screenshots/2015-kouhaku/70-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-71",
@@ -565,23 +1769,77 @@
     "no": "71",
     "title": "ザ・エレパンカー",
     "author": "F-man",
-    "detailDisabled": true
+    "streaming": "おｋ/おｋ",
+    "engine": "2000",
+    "category": "ローグライクっぽいなにか",
+    "authorComment": "ポストアポカリプスの皮を被った様な\n\nローグライクライク(Rogue-like-like)未満なRPGで御座います。\n\n一風変わった地味な遊びがしたい人向けです。\n\nバグがありましたら報告お願いします",
+    "hostComment": "視界の狭さが緊張感を生む……！",
+    "download": {
+      "url": "http://yahoo.jp/box/7I3hIX",
+      "label": "ダウンロード(3.8MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1450868770/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry71.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182112/http://www.geocities.jp:80/vipkohaku2015/entry71.html"
+    },
+    "icon": "/icons/2015-kouhaku/71.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/71-1.png",
+      "/screenshots/2015-kouhaku/71-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-72",
     "festivalId": "2015-kouhaku",
     "no": "72",
     "title": "禁断のドキンダムX VIPRPGエディション",
-    "author": "38",
-    "detailDisabled": true
+    "author": "赤城山 伐折羅",
+    "streaming": "配信：可能/自己責任",
+    "engine": "RPGツクール2000",
+    "category": "パック開封シミュレーターっぽいの",
+    "authorComment": "今こそ見せてやるよ、 \"封印\"されたこの圧倒的な力の強さをよ…\n\n行くぜ… 禁・断・解・放！！\n\nこれがデュエマ史上最凶の力、ドキンダムXだァ！\n\nDM史上最高に激ヤバな\"禁断\"に、VIPRPGでお馴染みのキャラを多数収録！\n\nキミの手で最高峰のデッキを作り上げるのだ！\n\n1パック 150円（税抜）\n\n1パック5枚入り\n\n全100種\n\n※実際のパックとは中身が大幅に異なります。",
+    "hostComment": "The world will come to end when the ksg seal becomes unlocked.",
+    "download": {
+      "url": "http://yahoo.jp/box/A8YBgy",
+      "label": "ダウンロード(6.9MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1450868813/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry72.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182119/http://www.geocities.jp:80/vipkohaku2015/entry72.html"
+    },
+    "icon": "/icons/2015-kouhaku/72.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/72-1.png",
+      "/screenshots/2015-kouhaku/72-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-73",
     "festivalId": "2015-kouhaku",
     "no": "73",
     "title": "誰がために搭は在る",
-    "author": "女闇機",
-    "detailDisabled": true
+    "author": "女体化ダークメカアレックス",
+    "streaming": "おｋ/おｋ",
+    "engine": "2000",
+    "category": "RPG",
+    "authorComment": "＿＿＿＿\n\n　 ヽ===＠=/\n\n　　 ／￣＼\n\n　　|　＾o＾　|　＜ とまれ　とまらんと　うつぞ\n\n　　 ＼＿／\n\n　　 ＿|　|＿ 　 ┏━\n\n　　|　　　　　二○\n\n　　|　|　　 |\n\n　　U |　　 |\n\n　　　 |　|　| 　　　　　　　　　 ＿／締切＼_\n\n　　　 ○○ 　　　　　　　　　└-○--○-┘=3\n\n￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣\n\n　　 ＿＿＿＿\n\n　　 ヽ===＠=/\n\n　　　 ／￣＼\n\n　　　|　＾o＾　|　＜ いたーい\n\n　　　 ＼＿／\n\n　　　 ＿|　|＿ 　 ┏━\n\n　　　|　　　　　二○\n\n　　　|　|　　 |\n\n　　　U |　　 |\n\n　　　　 |　|＿／締切＼_\n\n　　　　 ○└-○--○-┘=3\n\n￣￣￣￣￣￣￣￣￣￣￣　 ミ\n\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　 糸冬\n\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　---------------\n\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　 制作・著作 ＮＨＫ\n\n◆アンデッドナイ一味の皆々様＋αを基準にごま塩程度のストーリーを兼ね備えた脳筋RPG\n\n◆出鱈目に多いスキルと無闇に充実したオプションと適当に多いボス敵を相手に大人気ないゴリ押しを楽しんだり止め処ない縛りプレイを楽しんだりしてみよう\n\n◆偽幕田はかわいい\n\n◆それにつけてもおやつはカール",
+    "hostComment": "ATLUSの香りがしますね。良いと思います。",
+    "download": {
+      "url": "http://yahoo.jp/box/S06XHF",
+      "label": "ダウンロード(12.6MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1450868858/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry73.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182121/http://www.geocities.jp:80/vipkohaku2015/entry73.html"
+    },
+    "icon": "/icons/2015-kouhaku/73.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/73-1.png",
+      "/screenshots/2015-kouhaku/73-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-74",
@@ -589,7 +1847,23 @@
     "no": "74",
     "title": "大正義物語",
     "author": "ジャスティス",
-    "detailDisabled": true
+    "streaming": "(*^_^*)可／(ToT) 可",
+    "engine": "RPGツクール2000",
+    "category": "KSG",
+    "authorComment": "今年の集大成です！！\n来年がんばりま～～～～す！！",
+    "hostComment": "泣き顔だから投稿はダメなのかと思ったら可だった。",
+    "download": {
+      "url": "http://yahoo.jp/box/7VBwyn",
+      "label": "ダウンロード(26.9MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1450870042/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry74.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182120/http://www.geocities.jp:80/vipkohaku2015/entry74.html"
+    },
+    "ss": [
+      "/screenshots/2015-kouhaku/74-1.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-75",
@@ -597,7 +1871,24 @@
     "no": "75",
     "title": "(〃ゝ∇・)ゞ",
     "author": "かきぴー",
-    "detailDisabled": true
+    "streaming": "可です/可です",
+    "engine": "ＲＰＧツクール２０００",
+    "category": "少し変わったｋｓｇ",
+    "authorComment": "わーい久しぶりのｔｋｔｋたのしい！がんばるぞー！\n\nちょっと変わったｋｓｇが入ってます！\n\nプレイ時間２～２５分ぐらい？？(人による)\n\nみなさんを元気にするｋｓｇを目指します！！",
+    "hostComment": "やけに広いプレイ時間の幅が気になるところ。",
+    "download": {
+      "url": "http://yahoo.jp/box/bRBuQp",
+      "label": "ダウンロード(4.2MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1450924467/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry75.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182109/http://www.geocities.jp:80/vipkohaku2015/entry75.html"
+    },
+    "icon": "/icons/2015-kouhaku/75.jpg",
+    "ss": [
+      "/screenshots/2015-kouhaku/75-1.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-76",
@@ -605,15 +1896,50 @@
     "no": "76",
     "title": "KB2",
     "author": "ALPHA",
-    "detailDisabled": true
+    "streaming": "不可/不可",
+    "engine": "RPGツクール2000",
+    "category": "アクションパズル",
+    "authorComment": "アクションパズル。カギを取って扉に入ればクリア。全５０ステージ。",
+    "hostComment": "SSに姿がないだけで絶対カメーンいるだろ！！",
+    "download": {
+      "url": "http://yahoo.jp/box/BRXzx1",
+      "label": "ダウンロード(466KB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1450924517/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry76.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331144128/http://www.geocities.jp:80/vipkohaku2015/entry76.html"
+    },
+    "icon": "/icons/2015-kouhaku/76.gif",
+    "ss": [
+      "/screenshots/2015-kouhaku/76-1.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-77",
     "festivalId": "2015-kouhaku",
     "no": "77",
     "title": "MAGIC EROS",
-    "author": "アヒャイン",
-    "detailDisabled": true
+    "author": "老害クソ眼鏡",
+    "streaming": "やれるなら",
+    "engine": "２０００",
+    "category": "エロゲ",
+    "authorComment": "基本２００枚ほど\n\n俺が抜く為に作りました＾＾",
+    "hostComment": "クリスマスが終わってからの提出です。",
+    "download": {
+      "url": "http://yahoo.jp/box/w5JJda",
+      "label": "ダウンロード(56.8MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1450924557/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry77.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182112/http://www.geocities.jp:80/vipkohaku2015/entry77.html"
+    },
+    "icon": "/icons/2015-kouhaku/77.gif",
+    "ss": [
+      "/screenshots/2015-kouhaku/77-1.png",
+      "/screenshots/2015-kouhaku/77-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-78",
@@ -621,110 +1947,341 @@
     "no": "78",
     "title": "てきとうカード",
     "author": "カチコチ",
-    "detailDisabled": true
+    "streaming": "○/○",
+    "engine": "RPGツクール2000",
+    "category": "カードゲーム",
+    "authorComment": "三すくみを発展させたカードゲームです。\n\nクリアまでのプレイ時間は30分～3時間くらいです。",
+    "hostComment": "もうてきとうなんて言わせない！？",
+    "download": {
+      "url": "http://yahoo.jp/box/WH9Yoh",
+      "label": "ダウンロード(37.5MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1450924623/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry78.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182110/http://www.geocities.jp:80/vipkohaku2015/entry78.html"
+    },
+    "icon": "/icons/2015-kouhaku/78.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/78-1.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-79",
     "festivalId": "2015-kouhaku",
     "no": "79",
     "title": "ライチ・イン・ナイトメア",
-    "author": "",
-    "detailDisabled": true
+    "author": "かりかり",
+    "streaming": "可/可",
+    "engine": "RPGツクール2000",
+    "category": "脱出ゲーム",
+    "authorComment": "「この指輪にはそういう言い伝えがあるのよ」\n\n「へー、そうなんだ」\n\n「私達何時までも友達でいられると良いね」\n\nライチ視点の脱出ゲームです。脱出ゲームのはずでした。\n\n出来上がったのは脱出ゲームっぽい何かです。\n\nつまりただのksg。\n\nソルティライチ42本を生贄に捧げてなんとか完成させました\n\nちなみにアリスインナイトメアとは何の関係もないよ！\n\nナイトメア要素も多分ないよ！",
+    "hostComment": "登録日から数えて一日一本のペースですね。",
+    "download": {
+      "url": "http://yahoo.jp/box/X6AsBc",
+      "label": "ダウンロード(5.2MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1451045005/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry79.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182101/http://www.geocities.jp:80/vipkohaku2015/entry79.html"
+    },
+    "icon": "/icons/2015-kouhaku/79.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/79-1.png",
+      "/screenshots/2015-kouhaku/79-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-80",
     "festivalId": "2015-kouhaku",
     "no": "80",
     "title": "断る",
-    "author": "",
-    "detailDisabled": true
+    "author": "断る",
+    "streaming": "不可/可能",
+    "engine": "ツクール 2000value",
+    "category": "断る",
+    "authorComment": "断る",
+    "hostComment": "もちろんエントリーは断りません。",
+    "download": {
+      "url": "http://yahoo.jp/box/OvS5Hv",
+      "label": "ダウンロード(7.8MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1451224019/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry80.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182117/http://www.geocities.jp:80/vipkohaku2015/entry80.html"
+    },
+    "icon": "/icons/2015-kouhaku/80.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/80-1.png",
+      "/screenshots/2015-kouhaku/80-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-81",
     "festivalId": "2015-kouhaku",
     "no": "81",
     "title": "ダンジョンキーパー",
-    "author": "",
-    "detailDisabled": true
+    "author": "Mr.G",
+    "streaming": "可能 / 可能",
+    "engine": "VX Ace",
+    "category": "ダンジョン探索型RPG",
+    "authorComment": "やる夫スレの「やる夫が冒険者になるようです」シリーズを読みながら\n\nこういうゲームがあればやってみたいと思ってツクってしまいました。",
+    "hostComment": "スレに投下されたものと同一内容みたいですね。",
+    "download": {
+      "url": "http://yahoo.jp/box/aQlmNf",
+      "label": "ダウンロード(17.2MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1451475200/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry81.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182102/http://www.geocities.jp:80/vipkohaku2015/entry81.html"
+    },
+    "icon": "/icons/2015-kouhaku/81.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/81-1.png",
+      "/screenshots/2015-kouhaku/81-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-82",
     "festivalId": "2015-kouhaku",
     "no": "82",
     "title": "ウィンディが頑張るゲーム",
-    "author": "",
-    "detailDisabled": true
+    "author": "ナカヨシ",
+    "streaming": "自己責任",
+    "engine": "ＲＰＧツクール2000",
+    "category": "運ゲ",
+    "authorComment": "着せ替えが出来そうで出来ないゲームです。\n\n既に遅刻ですが正月明け辺りまでには完成させたいです。",
+    "hostComment": "頑張れ頑張れできるできる絶対できる頑張れもっとやれるってやれる気持ちの問題だ頑張れ頑張れそこだ！",
+    "download": {
+      "url": "http://yahoo.jp/box/HJ8NcR",
+      "label": "ダウンロード(804KB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1451475315/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry82.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182102/http://www.geocities.jp:80/vipkohaku2015/entry82.html"
+    },
+    "icon": "/icons/2015-kouhaku/82.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/82-1.png",
+      "/screenshots/2015-kouhaku/82-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-83",
     "festivalId": "2015-kouhaku",
     "no": "83",
     "title": "偽五のクリスマス大作戦",
-    "author": "",
-    "detailDisabled": true
+    "author": "私は誰だっけ",
+    "streaming": "可・可",
+    "engine": "ＲＰＧツクール２０００",
+    "category": "３つの運命が歴史になる見るゲ",
+    "authorComment": "五世のためにクリスマスケーキを作ってあげようと頑張る偽五。\n\nしかしその一方、かつて悪行を尽くし封印された混沌の神カオスが復活しそうになり・・\n\n(プレイ時間20分程度)",
+    "hostComment": "そこで諦めるな絶対に頑張れ積極的にポジティブに頑張る頑張る北京だって頑張ってるんだから！",
+    "download": {
+      "url": "http://yahoo.jp/box/lfsrye",
+      "label": "ダウンロード(1.7MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1451475364/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry83.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182114/http://www.geocities.jp:80/vipkohaku2015/entry83.html"
+    },
+    "icon": "/icons/2015-kouhaku/83.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/83-1.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-84",
     "festivalId": "2015-kouhaku",
     "no": "84",
     "title": "冬わてり",
-    "author": "",
-    "detailDisabled": true
+    "author": "かわせみさん",
+    "streaming": "できれば/やめて",
+    "engine": "MM",
+    "category": "ksg",
+    "authorComment": "怒涛のはい説魔法具現化ゲーです\n\nこれから追加要素が増えていくかも",
+    "hostComment": "MMって何だったんだろう……？",
+    "download": {
+      "url": "http://yahoo.jp/box/JYs8lz",
+      "label": "ダウンロード(21.6MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1451579330/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry84.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182116/http://www.geocities.jp:80/vipkohaku2015/entry84.html"
+    },
+    "icon": "/icons/2015-kouhaku/84.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/84-1.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-85",
     "festivalId": "2015-kouhaku",
     "no": "85",
     "title": "ふっかつのじゅもんをおしえて。",
-    "author": "",
-    "detailDisabled": true
+    "author": "くさったしたい",
+    "streaming": "非推奨",
+    "engine": "2000",
+    "category": "日常系勇者",
+    "authorComment": "へんじがない。\n\nただのしかばねのようだ。",
+    "hostComment": "もしこのビジュアルでダークな話だったらと思うとすごくドキドキしません？",
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1451579373/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry85.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182104/http://www.geocities.jp:80/vipkohaku2015/entry85.html"
+    },
+    "icon": "/icons/2015-kouhaku/85.gif",
+    "ss": [
+      "/screenshots/2015-kouhaku/85-1.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-86",
     "festivalId": "2015-kouhaku",
     "no": "86",
     "title": "TMG",
-    "author": "けそ＆ただの松本",
-    "detailDisabled": true
+    "author": "K+M",
+    "streaming": "いずれも可。ただし非推奨。",
+    "engine": "RPGツクール2000",
+    "category": "HRPG",
+    "authorComment": "魔法使いのたまごなアナタと、\n\n魔法のたまごな三人娘が旅する、ちょっぴりレトロ風味なHRPG。\n\nやさしく育ててあげてください。",
+    "hostComment": "にじみ出るガチっぽさ。これはコメントの内容に困る。",
+    "download": {
+      "url": "http://yahoo.jp/box/17L-Nr",
+      "label": "ダウンロード(83.3MB)　/"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1451579419/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry86.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182120/http://www.geocities.jp:80/vipkohaku2015/entry86.html"
+    },
+    "icon": "/icons/2015-kouhaku/86.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/86-1.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-87",
     "festivalId": "2015-kouhaku",
     "no": "87",
     "title": "イズモの国の物語",
-    "author": "",
-    "detailDisabled": true
+    "author": "Luz.",
+    "streaming": "無言乙入",
+    "engine": "2000",
+    "category": "探索収集",
+    "authorComment": "※この作品の内容は実在の人物・団体・企業等とは一切関係ありません。\n\n※SSの内容は開発中のものです。内容は予告なく変更されている場合があります。\n\n――\tこれは、\"列島ジパング\"に存在する村の1つ、繁栄都市イズモに起こった\n\n\t一連の事象をめぐる物語。\n\n白虎歴XXXX+0年、冬。\n\nイズモの住民 サンライト達は突如イズモ中に散らばったという電波石を探す事に。\n\n果たして、彼女らは全ての電波石を集めきれるのか。\n\n白虎歴XXXX+0年、春。\n\n新米冒険者の\"残酷なる闇\"ザンエールと\"貴族令嬢\"スパークⅡは\n\n\"死の支配者\"ティアーらギルドの先輩達と共に、イズモへ依頼遂行を兼ねた観光旅行に来る事に。\n\n白虎歴XXXX+0年、夏。\n\nイズモの子ども達が肝試しという名目で、夜の墓地奥から聞こえてくるという\n\nうめき声の正体を確かめに向かう。そこにいた、そのうめき声の正体とは……一体。\n\nそして物語は秋以降も続く……。",
+    "hostComment": "四季が移り変わるゲームとはなんとも明媚。",
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1451579462/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry87.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182103/http://www.geocities.jp:80/vipkohaku2015/entry87.html"
+    },
+    "icon": "/icons/2015-kouhaku/87.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/87-1.png",
+      "/screenshots/2015-kouhaku/87-2.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-88",
     "festivalId": "2015-kouhaku",
     "no": "88",
     "title": "今から考える",
-    "author": "",
-    "detailDisabled": true
+    "author": "やらわか",
+    "streaming": "可/可",
+    "engine": "2000",
+    "category": "ksg",
+    "authorComment": "間に合ったら季節モノになる予定。",
+    "hostComment": "反映されるのは元旦なんだよなぁ……。",
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1451579517/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry88.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182120/http://www.geocities.jp:80/vipkohaku2015/entry88.html"
+    },
+    "icon": "/icons/2015-kouhaku/88.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/88-1.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-89",
     "festivalId": "2015-kouhaku",
     "no": "89",
     "title": "RPGツクールMV試論",
-    "author": "",
-    "detailDisabled": true
+    "author": "くらむぼん",
+    "streaming": "可・可",
+    "engine": "MV",
+    "category": "評論",
+    "authorComment": "『RPGツクールMVって、ぶっちゃけどうなの？』\n\nおそらくツクラーの皆さんが気にされているだろうこの疑問に、\n\n早くもRPGツクールMVを購入した私くらむぼんがお答えします！\n\n典型的な「2000派」ツクラーが語る新作RPGツクールの実態とは…？\n\n「新機能」は本当に強みなのか？そしてMVは「買い」なのか！？\n\n新作の長所や短所、そして私が感じたこと、考えたこと…包み隠さずすべてお話しします！\n\n以下の様な方におすすめです\n\n・「RPGツクールMVで出来ること」に興味がある方\n\n・買おうかどうか迷っていて判断材料が欲しい方\n\n・体験版はやってみたけど使い道がピンと来ない方\n\nRPGツクールMV試論、滑り込みギリギリでここに爆誕！\n\n※おまけで「2000->MV移行者にありがちなハマりを解決！RPGツクールMVよくありそうな質問集」もついてます！\n\n　もうMVを買っちゃった人もぜひ見てね！",
+    "hostComment": "これは是非とも読まねば！(買って積んでる)",
+    "download": {
+      "url": "http://yahoo.jp/box/JAyRto",
+      "label": "ダウンロード(65.2MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1451579565/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry89.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182110/http://www.geocities.jp:80/vipkohaku2015/entry89.html"
+    },
+    "icon": "/icons/2015-kouhaku/89.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/89-1.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-90",
     "festivalId": "2015-kouhaku",
     "no": "90",
     "title": "KSGツクールKH",
-    "author": "",
-    "detailDisabled": true
+    "author": "◆2aLlGIkY8s",
+    "streaming": "ｋｓｇ/ｋｓｇ",
+    "engine": "2000",
+    "category": "ｋｓｇ",
+    "authorComment": "出力したｋｓｇのプレイ時間より\n\nパスワードを入力する時間の方が長いような気がしてきましたが\n\n私は元気です",
+    "hostComment": "豊富と書いてワンパと読む。",
+    "download": {
+      "url": "http://yahoo.jp/box/of93ze",
+      "label": "ダウンロード(9.8MB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1451579634/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry90.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182105/http://www.geocities.jp:80/vipkohaku2015/entry90.html"
+    },
+    "icon": "/icons/2015-kouhaku/90.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/90-1.png"
+    ]
   },
   {
     "id": "2015-kouhaku-work-91",
     "festivalId": "2015-kouhaku",
     "no": "91",
     "title": "地獄病棟おぼなす",
-    "author": "",
-    "detailDisabled": true
+    "author": "脂はむ",
+    "streaming": "可能/可能",
+    "engine": "RPGツクール2000",
+    "category": "ホラー",
+    "authorComment": "祭り参加11回目です。今から作ります\n\nプレイ時間5分程度　ホラーアドベンチャーです",
+    "hostComment": "い　　つ　　も　　の",
+    "download": {
+      "url": "http://yahoo.jp/box/5cNBGD",
+      "label": "ダウンロード(54KB)"
+    },
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/game/59393/1451579677/",
+    "source": {
+      "url": "http://www.geocities.jp/vipkohaku2015/entry91.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129182112/http://www.geocities.jp:80/vipkohaku2015/entry91.html"
+    },
+    "icon": "/icons/2015-kouhaku/91.png",
+    "ss": [
+      "/screenshots/2015-kouhaku/91-1.png"
+    ]
   }
 ]

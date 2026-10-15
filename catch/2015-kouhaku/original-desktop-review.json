@@ -1,0 +1,44 @@
+{
+  "reviewedAt": "2026-10-15T12:11:38.966Z",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "width": 1280,
+      "height": 900
+    }
+  ],
+  "imageDecode": {
+    "total": 241,
+    "decoded": 241,
+    "failures": []
+  },
+  "checks": {
+    "entries": 92,
+    "frames": [
+      "menu",
+      "main"
+    ],
+    "menuNavigation": [
+      "khmain.html",
+      "faq.html",
+      "khmain.html"
+    ],
+    "detail44": {
+      "embeddedImage": "mate/ss44z.jpg",
+      "width": 407,
+      "height": 296
+    }
+  },
+  "horizontalOverflow": false,
+  "console": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "screenshots": [
+    "test-results/review-2015-kouhaku-original-list.png",
+    "test-results/review-2015-kouhaku-original-detail44.png"
+  ]
+}
