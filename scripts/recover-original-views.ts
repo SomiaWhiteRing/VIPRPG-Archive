@@ -6,7 +6,14 @@ import { imageExtension, writeJson } from "./recover-entry-table";
 import { getDictionary } from "../src/lib/i18n";
 import type { WorkEntry } from "../src/lib/types";
 
-const configurations: Record<string, { base: string; manifests: string[]; seeds: Record<string, string>; encoding?: string; liveSource?: boolean; externalResources?: Record<string, string>; frames?: { menuPage: string; menuName: string; mainName: string } }> = {
+const configurations: Record<string, { base: string; manifests: string[]; seeds: Record<string, string>; encoding?: string; liveSource?: boolean; disabledLocalLinks?: string[]; externalResources?: Record<string, string>; frames?: { menuPage: string; menuName: string; mainName: string } }> = {
+  "2013-summer": {
+    base: "http://www.geocities.jp/viprpgsummer2013/",
+    manifests: ["source/recovery/manifest.json"],
+    seeds: { "index.html": "investigation/index.bin", "main.html": "investigation/main.bin", "menu.html": "investigation/menu.bin" },
+    frames: { menuPage: "menu.html", menuName: "menu", mainName: "main" },
+    disabledLocalLinks: ["ss/-1.html"],
+  },
   "2013-kouhaku": {
     base: "http://vipkohaku2013.web.fc2.com/",
     manifests: ["source/recovery/manifest.json", "source/external/manifest.json"],
@@ -226,6 +233,7 @@ async function main() {
         $("meta[http-equiv]").each((_, element) => {
           if ($(element).attr("http-equiv")?.toLowerCase() === "content-type") $(element).attr("content", "text/html; charset=UTF-8");
         });
+        if (!$("meta[charset]").length && !$("meta[http-equiv]").toArray().some((element) => $(element).attr("http-equiv")?.toLowerCase() === "content-type")) $("head").prepend('<meta charset="UTF-8">');
         $("script").each((_, element) => {
           const script = $(element), src = script.attr("src");
           if ((src && !relative(new URL(src, original).href)) || /fc2footerparam|geovisit\(|var\s+jps\s*=|archive_analytics|__wm\./.test(script.html() ?? "")) script.remove();
@@ -247,6 +255,11 @@ async function main() {
           for (const attr of ["src", "href", "background"]) {
             const value = node.attr(attr);
             if (!value || value.startsWith("#") || /^(?:data:|javascript:|mailto:)/i.test(value)) continue;
+            if (attr === "href" && config.disabledLocalLinks?.includes(relative(new URL(value, original).href) || "")) {
+              node.removeAttr("href target");
+              if (!compatibilityFixes.some((fix) => fix.page === local && fix.change === "Disable nonexistent boundary navigation.")) compatibilityFixes.push({ page: local, change: "Disable nonexistent boundary navigation." });
+              continue;
+            }
             node.attr(attr, localReference(value, original, local));
             if (attr === "href" && node.attr("target") === "_blank" && /\.html?$/i.test(relative(new URL(value, original).href) || "")) node.attr("target", "_self");
           }

@@ -1,0 +1,85 @@
+{
+  "reviewedAt": "2026-10-16",
+  "scope": "Desktop only",
+  "dataSha256": "bc5177c0491dd99f8e80d0068e23e6d9bf373e9cb503461154e058655622fa6f",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "width": 1280,
+      "height": 900
+    }
+  ],
+  "catalogue": {
+    "rows": 72,
+    "sampleAdded": "00",
+    "sourceTitle45": "2 HIT COMBO!!",
+    "icons": 72,
+    "screenshots": 95,
+    "banners": 1,
+    "historicalDownloads": 58,
+    "forumLinks": 72
+  },
+  "source": {
+    "preferred": "http://viprpgsummer2013.at-ninja.jp/",
+    "liveDetails": 72,
+    "liveImages": 167,
+    "liveAndArchivedTableTextMatches": 72,
+    "archiveScreenshotFallback": "ss/ss/48b.png",
+    "backgroundVersionDifference": "Two live background files differ in bytes; the original view retains original-site archive backgrounds."
+  },
+  "images": {
+    "formatted": 166,
+    "original": 168,
+    "allDecoded": true
+  },
+  "routes": {
+    "total": 72,
+    "status200": 72
+  },
+  "original": {
+    "files": 243,
+    "missingResources": 0,
+    "menuFrame": "menu",
+    "mainFrame": "main",
+    "menuAnchor11": true,
+    "menuAnchor61": true,
+    "localDetailNavigation": true,
+    "utf8JapaneseText": true,
+    "sampleBeforeFirstLinkDisabled": true,
+    "hover48": {
+      "before": "ss/48a.png",
+      "after": "ss/48b.png",
+      "natural": [
+        640,
+        480
+      ]
+    }
+  },
+  "gallery48": {
+    "next": true,
+    "escapeCloses": true
+  },
+  "formattedReturn": {
+    "hash": "#2013-summer",
+    "settledTop": 166,
+    "activeOutline": "VIPRPG 夏の陣 2013"
+  },
+  "pageHorizontalOverflow": false,
+  "tableUsesExistingHorizontalScrollAt1280": true,
+  "checks": {
+    "data": true,
+    "lint": true,
+    "productionBuild": true,
+    "replayByteStable": true
+  },
+  "screenshots": [
+    "test-results/review-2013-summer-original-top.png",
+    "test-results/review-2013-summer-original-hover48.png",
+    "test-results/review-2013-summer-detail48.png",
+    "test-results/review-2013-summer-list.png",
+    "test-results/review-2013-summer-list-1440.png"
+  ]
+}
