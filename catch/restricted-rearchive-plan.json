@@ -30,7 +30,13 @@
       "numbers": [
         "45"
       ],
-      "count": 1
+      "count": 1,
+      "status": "retained-restriction",
+      "restoredEntries": 0,
+      "retainedEntries": 1,
+      "evidence": [
+        "catch/2012-gw/rearchive-review.json"
+      ]
     },
     {
       "festivalId": "2012-kouhaku",
@@ -73,7 +79,9 @@
     }
   ],
   "totalEntries": 21,
-  "activeFestival": "2012-gw",
+  "activeFestival": "2012-kouhaku",
   "completedEntries": 11,
-  "remainingEntries": 10
+  "remainingEntries": 10,
+  "processedEntries": 12,
+  "retainedEntries": 1
 }
