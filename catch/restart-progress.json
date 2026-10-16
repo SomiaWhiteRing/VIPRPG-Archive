@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2015-summer",
+  "activeFestival": "2011-denpa-game-festival",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -577,10 +577,12 @@
   ],
   "insertedTask": {
     "type": "restricted-rearchive",
-    "status": "active",
+    "status": "reviewed-with-exceptions",
     "afterFestival": "2012-toppuu-festival",
     "resumeFestival": "2011-denpa-game-festival",
     "plan": "catch/restricted-rearchive-plan.json",
-    "scope": "Existing restricted entries, starting with 2012 Summer; direct source preservation without proactive content review."
+    "scope": "Existing restricted entries, starting with 2012 Summer; direct source preservation without proactive content review.",
+    "restoredEntries": 14,
+    "retainedEntries": 7
   }
 }

@@ -1,5 +1,5 @@
 {
-  "status": "active",
+  "status": "reviewed-with-exceptions",
   "scope": "Existing restricted entries; direct source preservation and structural verification; no proactive content review.",
   "batches": [
     {
@@ -115,14 +115,22 @@
       "numbers": [
         "04"
       ],
-      "count": 1
+      "count": 1,
+      "status": "retained-restriction",
+      "restoredEntries": 0,
+      "retainedEntries": 1,
+      "evidence": [
+        "catch/2015-summer/rearchive-review.json"
+      ]
     }
   ],
   "totalEntries": 21,
-  "activeFestival": "2015-summer",
+  "activeFestival": "2011-denpa-game-festival",
   "completedEntries": 14,
   "remainingEntries": 7,
-  "processedEntries": 20,
-  "retainedEntries": 6,
-  "pendingEntries": 1
+  "processedEntries": 21,
+  "retainedEntries": 7,
+  "pendingEntries": 0,
+  "restoredEntries": 14,
+  "unrestoredEntries": 7
 }
