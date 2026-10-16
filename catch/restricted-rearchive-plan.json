@@ -102,7 +102,13 @@
       "numbers": [
         "039"
       ],
-      "count": 1
+      "count": 1,
+      "status": "retained-restriction",
+      "restoredEntries": 0,
+      "retainedEntries": 1,
+      "evidence": [
+        "catch/2014-kouhaku/rearchive-review.json"
+      ]
     },
     {
       "festivalId": "2015-summer",
@@ -113,10 +119,10 @@
     }
   ],
   "totalEntries": 21,
-  "activeFestival": "2014-kouhaku",
+  "activeFestival": "2015-summer",
   "completedEntries": 14,
   "remainingEntries": 7,
-  "processedEntries": 19,
-  "retainedEntries": 5,
-  "pendingEntries": 2
+  "processedEntries": 20,
+  "retainedEntries": 6,
+  "pendingEntries": 1
 }
