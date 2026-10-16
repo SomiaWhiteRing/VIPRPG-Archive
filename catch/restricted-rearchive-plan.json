@@ -89,7 +89,13 @@
       "numbers": [
         "33"
       ],
-      "count": 1
+      "count": 1,
+      "status": "retained-restriction",
+      "restoredEntries": 0,
+      "retainedEntries": 1,
+      "evidence": [
+        "catch/2013-kouhaku/rearchive-review.json"
+      ]
     },
     {
       "festivalId": "2014-kouhaku",
@@ -107,10 +113,10 @@
     }
   ],
   "totalEntries": 21,
-  "activeFestival": "2013-kouhaku",
+  "activeFestival": "2014-kouhaku",
   "completedEntries": 14,
   "remainingEntries": 7,
-  "processedEntries": 18,
-  "retainedEntries": 4,
-  "pendingEntries": 3
+  "processedEntries": 19,
+  "retainedEntries": 5,
+  "pendingEntries": 2
 }
