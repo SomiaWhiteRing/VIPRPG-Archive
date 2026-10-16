@@ -213,7 +213,8 @@ async function main() {
         const fallback = inventory.slice(1).find((row) => relative(row[0]) === "index.html");
         const capture = row ?? fallback;
         const archiveUrl = capture && `https://web.archive.org/web/${capture[2] || capture[1]}id_/${row?.[0] ?? original}`;
-        const urls = config.liveSource ? [original, archiveUrl] : [archiveUrl];
+        // Keep Japan source requests and Hong Kong archive requests in separate batches.
+        const urls = process.argv.includes("--archive-only") ? [archiveUrl] : config.liveSource ? [original] : [archiveUrl];
         let recovered: Buffer | undefined;
         const errors = [];
         for (const url of [...new Set(urls.filter((url): url is string => Boolean(url)))]) {
