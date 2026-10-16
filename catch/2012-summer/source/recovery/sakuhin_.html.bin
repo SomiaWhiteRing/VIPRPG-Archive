@@ -1,0 +1,77 @@
+<html lang="ja">
+<head>
+<script src="data.js"></script>
+<meta http-equiv="Content-Type" content="text/html" charset="Shift_JIS">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<title>作品リスト</title>
+<link rel="stylesheet" type="text/css" href="summer2.css">
+</head>
+<body>
+	<center>
+	<script type="text/javascript" charset="Shift_JIS">
+	<!--
+	var aMsg = "";
+	var aURL = location.search;
+	var aSplit1 = aURL.split("?");
+	if( aSplit1.length > 1 ){
+		//URL を &で分割
+		var aSplit2 = aSplit1[1].split("&");
+		var i;
+		var no;
+		var mode;
+		var iMax = aSplit2.length;
+		
+		// &で分割した物を = で分割
+		for( i = 0; i< iMax; i++ ){
+			aSplit3 = aSplit2[i].split("=");
+			if (aSplit3[0]=="no"){
+				no=aSplit3[1];
+			} else if (aSplit3[0]=="mode"){
+				mode=aSplit3[1];
+			}
+		}
+	}
+		var noa=no*1+1;
+		var nob=no*1-1;
+		var ca=0;
+		i=no*10;
+		document.write("<table border=1>");
+		document.write("<tr><td><font color=\"white\">No：",no,"　",DATA[i],"</font></td></tr>");
+		document.write("<tr><td><img src=\"ss/no",no,".png\"></td></tr>");
+		document.write("<tr><td><font color=\"white\">",DATA[i+1],"</font></td></tr>");
+		document.write("<tr><td><font color=\"white\">",DATA[i+3],"　",DATA[i+5],"</font></td></tr>");
+		document.write("<tr><td><font color=\"white\">",DATA[i+2],"</font></td></tr>");
+		document.write("<tr><td><font color=\"white\"><br>",DATA[i+7],"</font></td></tr>");
+		document.write("<tr><td><font color=\"white\">",DATA[i+8],"</font></td></tr>");
+				if(DATA[i+4]!="---"){
+				document.write("<tr><td><font color=\"white\"><a href=\"https://onedrive.live.com/?cid=487dc4e52d4a7554&id=487DC4E52D4A7554!",DATA[i+9],"\">"+DATA[i+4]+"</a>");
+
+				} else {
+				document.write("<tr><td><font color=\"white\">",DATA[i+4],"");
+
+				}
+		document.write("　　　<a href=\"http://jbbs.livedoor.jp/bbs/read.cgi/game/54712/",DATA[i+6],"\" style=\"color:white;\">感想</a></font></td></tr>");
+		document.write("</table>");
+		document.write("<a href=sakuhin.html?no=",nob,"&mode=",mode," style=\"color:white;\">前へ</a>　");
+		document.write("<a href=index.html style=\"color:white;\">トップへ</a>　");
+		document.write("<a href=sakuhin.html?no=",noa,"&mode=",mode," style=\"color:white;\">次へ</a>");
+		document.close();
+	// -->
+	</script>
+<script><!--
+var fc2footerparam = 'ver=1'
+    + '&url=' + encodeURIComponent(document.location)
+    + '&service=0'
+    + '&r=' + Math.floor(Math.random() * 99999999999);
+var fc2footertag = "//vip.chps-api.fc2.com/apis/footer/?" + fc2footerparam;
+var script = document.createElement('script');
+script.src = fc2footertag;
+script.charset = "UTF-8";
+script.async = true;
+document.getElementsByTagName('head')[0].appendChild(script);
+//--></script>
+<!-- FC2, inc.-->
+<img src="//media.fc2.com/counter_img.php?id=50" style="display:none" alt="inserted by FC2 system" width="0" height="0">
+<!-- FC2, inc.--></body>
+</html>
+

@@ -1,0 +1,89 @@
+{
+  "reviewedAt": "2026-10-17",
+  "scope": "Desktop only",
+  "dataSha256": "44943fb636f3da2482a461300ec19e4451e89901b1e701644cae145fc86236cf",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "width": 1280,
+      "height": 900
+    }
+  ],
+  "catalogue": {
+    "rows": 90,
+    "ordinary": 79,
+    "restrictedTemplates": 11,
+    "iconReferences": 74,
+    "screenshots": 78,
+    "banners": 1,
+    "downloads": 45,
+    "commentsCompared": 158
+  },
+  "source": {
+    "liveBase": "http://viprpgtkool.web.fc2.com/2012summer/",
+    "liveRequestsRegion": "Japan",
+    "archiveRequestsRegion": "Hong Kong",
+    "staticArrayLiterals": 990,
+    "fieldsPerEntry": 11,
+    "archiveImagesRecovered": 17,
+    "sourceEmptyBodyResponses": true,
+    "remainingMissingScreenshot": 5
+  },
+  "original": {
+    "files": 184,
+    "listRows": 90,
+    "thumbnailCards": 90,
+    "dynamicDetailsChecked": 90,
+    "badDynamicDetails": [],
+    "runtimeErrors": [],
+    "correctedStreamingColumn": true,
+    "correctedSpecialTemplateStride": 11,
+    "nonzeroRestrictedForumSentinel": true,
+    "noInvalidSampleForum": true,
+    "noInvalidBoundaryLinks": true,
+    "restrictedExternalLinks": 0,
+    "no5MissingImageNotice": true,
+    "sourceAndOuterDesktopOverflow": false
+  },
+  "formatted": {
+    "all90DetailRoutes200": true,
+    "all11RestrictedTemplatesChecked": true,
+    "restrictedMetadataRows": 3,
+    "restrictedPanels": 3,
+    "restrictedOriginalImages": 0,
+    "restrictedExternalLinks": 0,
+    "no14": {
+      "title": "No.14（原題記載なし）",
+      "authorOmitted": true,
+      "originalTitleAuthorGenreBlank": true,
+      "naturalImage": [
+        640,
+        480
+      ]
+    },
+    "viewerOpenAndEscapeClose": true,
+    "jumpToFestivalRows": 90,
+    "pageOverflow": false,
+    "tableCanScrollWithinContainerAt1280": true
+  },
+  "images": {
+    "decodedPaths": 329,
+    "bad": [],
+    "ordinaryVisualReview": true,
+    "restrictedImagesIconsAndCompositeFilesRemoved": 22
+  },
+  "checks": {
+    "schema": "passed",
+    "lint": "passed",
+    "sourceViewModuleLint": "passed",
+    "build": "passed",
+    "offlineReplay": "byte-stable",
+    "previousMagicFestival": "134 files byte-identical"
+  },
+  "limitations": [
+    "No.5 screenshot returns HTTP 200 with a zero-byte body, including a same-source Referer retry. Checked source directory and host inventories and a known archive replay; no valid image was recovered. No substitute screenshot is generated."
+  ]
+}

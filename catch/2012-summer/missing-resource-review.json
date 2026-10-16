@@ -1,0 +1,18 @@
+{
+  "sourceFailures": [
+    {
+      "sourceUrl": "http://viprpgtkool.web.fc2.com/2012summer/ss/no5.png",
+      "error": "Error: Empty image body (HTTP 200); owner-referer retry also returned zero bytes"
+    }
+  ],
+  "archiveRecovery": "archive-asset-recovery.json",
+  "no5Evidence": [
+    "investigation/source-asset-response-review.json",
+    "investigation/no5-owner-referer.json",
+    "investigation/original-timemap-cdx.bin",
+    "investigation/host-timemap-cdx.bin",
+    "investigation/no5-known-site-capture.json"
+  ],
+  "remainingGap": 5,
+  "permanentAbsenceClaimed": false
+}

@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2012-summer",
+  "activeFestival": "2012-toppuu-festival",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -375,6 +375,29 @@
         "catch/2012-magic-festival/replay-review.json"
       ],
       "notes": "直接从日本节点下可用的源站核对 43 条目录：39 个普通详情、3 个完整受限模板，以及没有详情链接的 No.0 目录示例。40 条图标引用、39 张截图、1 张横幅、78 份双方留言及原列表 2014 年更新的 28 个 OneDrive 下载入口已保留；No.16 的作者要求公开停止及无下载状态保持原样。原貌版保留单栏框架、木纹与纸张背景，134 个文件无资源缺口；两种桌面宽度、AA 留言、原貌 TOP 导航、图片查看器及受限模板验收通过。"
+    },
+    {
+      "festivalId": "2012-summer",
+      "reviewedAt": "2026-10-17",
+      "dataSha256": "44943fb636f3da2482a461300ec19e4451e89901b1e701644cae145fc86236cf",
+      "works": 90,
+      "screenshotFiles": 78,
+      "status": "reviewed",
+      "sourceEvidence": [
+        "catch/2012-summer/recovery.json",
+        "catch/2012-summer/source-comparison.json",
+        "catch/2012-summer/archive-asset-recovery.json",
+        "catch/2012-summer/content-review.json",
+        "catch/2012-summer/title-review.json",
+        "catch/2012-summer/missing-resource-review.json"
+      ],
+      "desktopEvidence": [
+        "catch/2012-summer/desktop-review.json",
+        "catch/2012-summer/image-decode-check.json",
+        "catch/2012-summer/route-check.json",
+        "catch/2012-summer/replay-review.json"
+      ],
+      "notes": "核对原站静态数组的 90 条目录（含 No.0 示例），恢复 79 个普通详情及 11 个完整受限模板。74 条图标引用、78 张截图、1 张横幅及 45 个来源下载入口已保留；其中 17 个源站零字节图片从存档补回。No.14 原题／作者／类型留空，明确使用编号说明；特殊模板 10／11 字段错位、配信列重复论坛链接和前后页边界已修复。原貌保留动态列表／缩略图及详情，184 个文件；No.5 截图尚未取得，保留单项缺口并显示说明。两种桌面宽度验收通过。"
     }
   ],
   "originalViewsReviewed": [
@@ -468,6 +491,13 @@
       "evidence": [
         "catch/2012-magic-festival/original-view.json",
         "catch/2012-magic-festival/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2012-summer",
+      "evidence": [
+        "catch/2012-summer/original-view.json",
+        "catch/2012-summer/desktop-review.json"
       ]
     }
   ]

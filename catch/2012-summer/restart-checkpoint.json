@@ -1,0 +1,77 @@
+{
+  "festivalId": "2012-summer",
+  "checkedAt": "2026-10-16T18:59:04.786Z",
+  "status": "desktop-reviewed-with-one-documented-image-gap",
+  "countedAsReviewed": true,
+  "completedFestivals": 13,
+  "source": {
+    "live": "http://viprpgtkool.web.fc2.com/2012summer/",
+    "array": "source/recovery/data.js.bin",
+    "records": 90,
+    "stride": 11,
+    "parser": "Static TypeScript AST only; source scripts are not executed in Node.",
+    "sourceRegion": "Japan",
+    "archiveRegion": "Hong Kong"
+  },
+  "recovery": {
+    "restrictedNumbers": [
+      8,
+      9,
+      29,
+      35,
+      37,
+      47,
+      48,
+      49,
+      51,
+      54,
+      89
+    ],
+    "ordinaryRecords": 79,
+    "ordinaryScreenshotFiles": 78,
+    "iconReferences": 74,
+    "archivedAssetsRecovered": 17,
+    "missingScreenshot": 5,
+    "originalFiles": 184,
+    "missingOriginalResources": 1
+  },
+  "verified": {
+    "schema": "passed",
+    "lint": "passed",
+    "build": "passed",
+    "originalListRows": 90,
+    "originalThumbnailCards": 90,
+    "originalRestrictedLinksRemoved": true,
+    "originalSampleForumRemoved": true,
+    "originalBoundaryLinksDisabled": true,
+    "no5MissingImageNote": true,
+    "no14StaleStrideFixed": true,
+    "no14OriginalTitleAuthorGenreBlank": true,
+    "no14ImageNatural": [
+      640,
+      480
+    ],
+    "originalSpecialPage1280NoOverflow": true
+  },
+  "sourceRepairs": [
+    "Correct the source list streaming column, which duplicated a forum link.",
+    "Correct sakuhin_.html stride 10 to the actual DATA stride 11.",
+    "Retain a nonzero forum placeholder internally because the legacy list loosely compares array values to zero delimiters; remove its generated link in the DOM."
+  ],
+  "cleanup": {
+    "restrictedImageAndIconFilesAndCompositesRemoved": 22,
+    "remainingRestrictedOriginalMediaFiles": 0
+  },
+  "pending": [],
+  "runningPreview": {
+    "port": 3100,
+    "execSession": 52349
+  },
+  "proxy": "Hong Kong selected after completed archive recovery; do not send live Japanese requests through it.",
+  "commitsThisFestivalFoundation": [
+    "b1b1373",
+    "57d90d5"
+  ],
+  "desktopEvidence": "catch/2012-summer/desktop-review.json",
+  "nextAction": "Commit the accepted 2012 summer festival, then continue with 2012-toppuu-festival."
+}

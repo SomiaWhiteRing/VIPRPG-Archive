@@ -1,0 +1,18 @@
+a:link { color: #1F3D3D; }
+a:visited { color: #1F3D3D; }
+a:hover { color: #ff0000; }
+a:active { color: #ff8000; }
+
+body {
+	background: url("img/back.jpg") repeat-y right top fixed;
+	background-attachment: fixed;
+	font-color:white;
+}
+table {
+	background-color : #5C8E92;
+	border: 1px #000000 solid; 
+}
+img {
+    border-style:none;
+}
+p.titles {color: white; font-weight: bold}

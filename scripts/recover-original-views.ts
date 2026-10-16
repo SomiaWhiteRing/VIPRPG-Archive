@@ -5,8 +5,15 @@ import iconv from "iconv-lite";
 import { imageExtension, writeJson } from "./recover-entry-table";
 import { getDictionary } from "../src/lib/i18n";
 import type { WorkEntry } from "../src/lib/types";
+import { rewriteSummer2012Source } from "./source-2012-summer-view";
 
 const configurations: Record<string, { base: string; entry?: string; manifests: string[]; seeds: Record<string, string>; seedUrls?: Record<string, string>; cgiProfile?: boolean; encoding?: string; liveSource?: boolean; disabledLocalLinks?: string[]; externalResources?: Record<string, string>; frames?: { menuPage: string; menuName: string; mainName: string } }> = {
+  "2012-summer": {
+    base: "http://viprpgtkool.web.fc2.com/2012summer/",
+    manifests: ["source/recovery/manifest.json"],
+    seeds: { "index.html": "investigation/original-live.bin" },
+    liveSource: true,
+  },
   "2012-magic-festival": {
     base: "http://magicalviprpg2012.web.fc2.com/",
     manifests: ["source/recovery/manifest.json"],
@@ -193,6 +200,7 @@ async function main() {
     const local = relative(metadata.originalUrl);
     if (local && !cached.has(local)) cached.set(local, `${cache}/${file}`);
   }
+  if (id === "2012-summer") for (const failure of recovery.failures ?? []) queue.add(failure.sourceUrl);
   const invalidPreloads: string[] = (recovery.unavailablePreloads ?? []).map((entry: { requestedUrl: string }) => new URL(unarchive(entry.requestedUrl)).href);
   for (const original of queue) {
     const local = relative(original)!;
@@ -362,6 +370,10 @@ async function main() {
           if ((src && !relative(new URL(src, original).href)) || /fc2footerparam|geovisit\(|var\s+jps\s*=|archive_analytics|__wm\./.test(script.html() ?? "") || (id === "2012-magic-festival" && /fhp_c_pc/.test(script.html() ?? "")) || (id === "2012-kouhaku" && /_gaq|googletag|geniee_|var ID=|twitter-wjs/.test(script.html() ?? ""))) script.remove();
           else if (!src) {
             let code = script.html() ?? "";
+            if (id === "2012-summer" && /^sakuhin_?\.html$/.test(local)) {
+              code = rewriteSummer2012Source(code, local, restrictions.map((r) => Number(r.no)), (value) => localReference(value, original, local), (recovery.failures ?? []).map((f: { sourceUrl: string }) => f.sourceUrl.match(/\/ss\/no(\d+)\./)?.[1]).filter(Boolean).map(Number));
+              compatibilityFixes.push({ page: local, change: "Preserve dynamic detail navigation while using neutral restricted media, omitting sample forum placeholders and disabling nonexistent boundary entries." });
+            }
             if (id === "2012-kouhaku" && ["db/index.html", "db/thumbnails.html"].includes(local) && /function jump\(/.test(code)) {
               script.html(`function jump(){
                 var form=document.forms.namedItem('form'), rows=Array.from(document.querySelectorAll('[data-entry]'));
@@ -441,7 +453,11 @@ async function main() {
       } else if (/\.css$/i.test(local)) {
         const css = decodeSource(bytes, encoding).replace(/@charset\s+["'][^"']+["'];/i, '@charset "UTF-8";');
         bytes = Buffer.from(rewriteCSS(css, original, local));
-      } else if (/\.js$/i.test(local)) bytes = Buffer.from(rewriteAbsoluteStrings(decodeSource(bytes, encoding), original, local));
+      } else if (/\.js$/i.test(local)) {
+        let code = decodeSource(bytes, encoding);
+        if (id === "2012-summer") code = rewriteSummer2012Source(code, local, restrictions.map((r) => Number(r.no)), (value) => localReference(value, original, local), (recovery.failures ?? []).map((f: { sourceUrl: string }) => f.sourceUrl.match(/\/ss\/no(\d+)\./)?.[1]).filter(Boolean).map(Number));
+        bytes = Buffer.from(rewriteAbsoluteStrings(code, original, local));
+      }
       files.set(local, bytes);
     } catch (error) { failures.push({ url: original, requestedUrl, error: String(error) }); }
   }

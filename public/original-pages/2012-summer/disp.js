@@ -1,0 +1,166 @@
+var aMsg = "";
+var aURL = location.search;
+var aSplit1 = aURL.split("?");
+	if( aSplit1.length > 1 ){
+		//URL を &で分割
+		var aSplit2 = aSplit1[1].split("&");
+		var i;
+		var view=0;
+		var iMax = aSplit2.length;
+		// &で分割した物を = で分割
+		for( i = 0; i< iMax; i++ ){
+			aSplit3 = aSplit2[i].split("=");
+			if (aSplit3[0]=="view"){
+				view=aSplit3[1];
+			}
+		}
+	}
+
+var mode="default";
+var no=0;
+var ca=0;
+if (view==1){//サムネイル
+	document.write('<table width=\"80%\">');
+	document.write('<tr>');
+	for (var i = 0; i < DATA.length; i++) {
+		document.write('<td><table width=\"20%\">');
+		document.write("<tr bgcolor=#EEF2FB><td colspan=3>No.",no,"　",DATA[i],"</td></tr>");
+		document.write("<tr><td colspan=3><a href=sakuhin.html?no=",no,"&mode=",mode,"><img src=\"",archiveSS2012(no),"\" style=\"height:150px;width:200px;\"></a></td></tr>");
+				if(DATA[i+4]!="---"){
+				document.write("<tr bgcolor=#EEF2FB><td><a href=\"https://onedrive.live.com/?cid=487dc4e52d4a7554&id=487DC4E52D4A7554!",DATA[i+9],"\">"+DATA[i+4]+"</a></td>");
+				} else {
+				document.write("<tr bgcolor=#EEF2FB><td>",DATA[i+4],"</td>");
+
+				}
+		document.write("<td colspan=2>",DATA[i+1],"</font></td><tr>");
+		document.write("<tr bgcolor=#EEF2FB><td><a href=\"http://jbbs.livedoor.jp/bbs/read.cgi/game/54712/",DATA[i+6],"\">感想</a></td><td>",DATA[i+3],"</td><td>",DATA[i+5],"</td></tr>");
+		i+=10;
+		document.write('</table></td>');
+		no++;
+		if (no%4==0){
+		document.write('</tr><tr>');
+		}
+	}
+	document.write('</tr>');
+	document.write('</table>');
+} else {//リスト
+	document.write(
+	'<table id="ksglist" width="80%">',
+	'<thead>',
+	'<tr>',
+	'<th><font color=white>No</font></th>',
+	'<th></th>',
+	'<th><font color=white>作品名</font><br><font size=-1 color=white>作者名</font></th>',
+	'<th><font color=white>ジャンル</font></th>',
+	'<th><font color=white>使用</font></th>',
+	'<th><font color=white>DL</font></th>',
+	'<th><font color=white>配信/投稿</font></th>',
+	'<th><font color=white>感想</font></th>',
+	'</tr>'
+	);
+	/*
+	document.write(
+	'<tr>',
+	'<th><button onclick="SortTable(\'ksglist\', 0, \'n\')">ソート</button></th>',
+	'<th></th>',
+	'<th><button onclick="SortTable(\'ksglist\', 2, \'s\')">ソート</button></th>',
+	'<th><button onclick="SortTable(\'ksglist\', 3, \'s\')">ソート</button></th>',
+	'<th><button onclick="SortTable(\'ksglist\', 4, \'s\')">ソート</button></th>',
+	'<th><button onclick="SortTable(\'ksglist\', 5, \'s\')">ソート</button></th>',
+	'<th><button onclick="SortTable(\'ksglist\', 6, \'s\')">ソート</button></th>',
+	'<th></th>',
+	'</tr>'
+	);*/
+	document.write("</thead>");
+	document.write("<tbody>");
+	for (var i = 0; i < DATA.length; i++) {
+		while (DATA[i] != 0) {
+			if (ca==0){
+				if(DATA[i+4]!="---"){
+					if(no%2){
+						var colorcode="#DEFEFE";
+					} else {
+						var colorcode="#DEF2FB";
+					}
+				} else {
+					if(no%2){
+						var colorcode="#BEBEBE";
+					} else {
+						var colorcode="#AEB2BB";
+					}
+				}
+				document.write("<tr bgcolor=",colorcode,">");
+				document.write("<td>No.",no,"</td>");
+				if (no==14){
+				document.write("<td><center><img src=\"",archiveIcon2012(no),"\" style=\"height:32px;width:32px;\"></center></td>");
+				document.write("<td><a href=sakuhin_.html?no=",no,"&mode=",mode,">",DATA[i],"</a>");
+				} else if(no==15){
+				document.write("<td><center><img src=\"",archiveIcon2012(no),"\" style=\"height:32px;width:32px;\"></center></td>");
+				document.write("<td><a href=sakuhin.html?no=",no,"&mode=",mode,">",DATA[i],"</a>");
+				} else if(no==32){
+				document.write("<td></td>");
+				document.write("<td><a href=sakuhin.html?no=",no,"&mode=",mode,">",DATA[i],"</a>");
+				} else if(no==55){
+				document.write("<td></td>");
+				document.write("<td><a href=sakuhin.html?no=",no,"&mode=",mode,">",DATA[i],"</a>");
+				} else if(no==64){
+				document.write("<td></td>");
+				document.write("<td><a href=sakuhin.html?no=",no,"&mode=",mode,">",DATA[i],"</a>");
+				} else if(no==78){
+				document.write("<td><center><img src=\"",archiveIcon2012(no),"\" style=\"height:32px;width:32px;\"></center></td>");
+				document.write("<td><a href=sakuhin.html?no=",no,"&mode=",mode,">",DATA[i],"</a>");
+				} else if(no==81){
+				document.write("<td></td>");
+				document.write("<td><a href=sakuhin.html?no=",no,"&mode=",mode,">",DATA[i],"</a>");
+				} else if(no==86){
+				document.write("<td></td>");
+				document.write("<td><a href=sakuhin.html?no=",no,"&mode=",mode,">",DATA[i],"</a>");
+				} else if(no==89){
+				document.write("<td></td>");
+				document.write("<td><a href=sakuhin.html?no=",no,"&mode=",mode,">",DATA[i],"</a>");
+				} else {
+				document.write("<td><center><img src=\"",archiveIcon2012(no),"\" style=\"height:32px;width:32px;\"></center></td>");
+				document.write("<td><a href=sakuhin.html?no=",no,"&mode=",mode,">",DATA[i],"</a>");
+				}
+				document.write("<br><font size=-1>",DATA[i+1],"</font></td>");
+
+
+			} else if(ca==1){
+				document.write("<td>",DATA[i+2],"</td>");
+			
+			} else if(ca==2){
+				document.write("<td>",DATA[i+3],"</td>");
+			
+			} else if(ca==3){
+				if(DATA[i+4]!="---"){
+				document.write("</td>");
+				if(no==67|no==51){
+				document.write("<td><a href=\"https://onedrive.live.com/?cid=487dc4e52d4a7554&id=487DC4E52D4A7554!",DATA[i+9],"\">"+DATA[i+4]+"</a>");
+				document.write("<br><a href=\"https://onedrive.live.com/?cid=487dc4e52d4a7554&id=487DC4E52D4A7554!",DATA[i+9],"\">分割</a></td>");
+				} else {
+				document.write("<td><a href=\"https://onedrive.live.com/?cid=487dc4e52d4a7554&id=487DC4E52D4A7554!",DATA[i+9],"\">"+DATA[i+4]+"</a></td>");
+				}
+				} else {
+				document.write("<td>",DATA[i+4],"</td>");
+
+				}
+			} else if(ca==4){document.write("<td>",DATA[i+5],"</td>");} else if(ca==5){
+				document.write("<td><a href=\"http://jbbs.livedoor.jp/bbs/read.cgi/game/54712/",DATA[i+6],"\">感想</a></td>");
+			} else if(ca>=6){
+				i++;
+			} else {
+				document.write("<td>",DATA[i],"</td>");
+			}
+			ca++;
+		}
+		ca=0;
+		document.write("</tr>");
+		no++;
+	}
+	document.write("</tbody>");
+	document.write("</table>");
+}
+
+
+document.close();
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',archiveFix2012,{once:true});else archiveFix2012();
