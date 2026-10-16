@@ -6,7 +6,20 @@ import { imageExtension, writeJson } from "./recover-entry-table";
 import { getDictionary } from "../src/lib/i18n";
 import type { WorkEntry } from "../src/lib/types";
 
-const configurations: Record<string, { base: string; entry?: string; manifests: string[]; seeds: Record<string, string>; encoding?: string; liveSource?: boolean; disabledLocalLinks?: string[]; externalResources?: Record<string, string>; frames?: { menuPage: string; menuName: string; mainName: string } }> = {
+const configurations: Record<string, { base: string; entry?: string; manifests: string[]; seeds: Record<string, string>; seedUrls?: Record<string, string>; cgiProfile?: boolean; encoding?: string; liveSource?: boolean; disabledLocalLinks?: string[]; externalResources?: Record<string, string>; frames?: { menuPage: string; menuName: string; mainName: string } }> = {
+  "2012-kouhaku": {
+    base: "http://www45.atpages.jp/vipkohaku2012/",
+    manifests: ["source/recovery/manifest.json"],
+    seeds: { "index.html": "investigation/root-hk.bin", "db/index.html": "investigation/cgi-hk.bin" },
+    seedUrls: { "db/index.html": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?tpl=view" },
+    cgiProfile: true,
+    externalResources: {
+      "http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js": "linked/jquery-1.7.1.min.js",
+      "http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js": "linked/jquery-1.5.2.min.js",
+      "http://vipkouhaku05.cs.land.to/viprpgkouhaku2009-top.png": "linked/kouhaku2005.png",
+      "http://vipkouhaku05.cs.land.to/vip2008.png": "linked/kouhaku2008.png",
+    },
+  },
   "2012-gw": {
     base: "http://viprpg2012gw.web.fc2.com/",
     entry: "top.html",
@@ -80,6 +93,11 @@ function unarchive(url: string) {
   return url.replace(/^https?:\/\/web\.archive\.org\/web\/\d+[a-z_]*\/(https?:\/\/)/, "$1");
 }
 
+function decodeSource(bytes: Buffer, fallback: string) {
+  const hasUtf8Bom = bytes.subarray(0, 3).equals(Buffer.from([0xef, 0xbb, 0xbf]));
+  return iconv.decode(bytes, hasUtf8Bom ? "utf-8" : fallback);
+}
+
 async function main() {
   const id = process.argv[2], config = configurations[id];
   if (!config) throw new Error(`Choose one festival: ${Object.keys(configurations).join(", ")}`);
@@ -115,6 +133,19 @@ async function main() {
     const original = new URL(unarchive(url), base);
     if (config.externalResources?.[original.href]) return config.externalResources[original.href];
     if (original.hostname !== base.hostname || !original.pathname.startsWith(base.pathname)) return undefined;
+    const profile = original.pathname.slice(base.pathname.length).match(/^(db|db2|sc\d{2})\/profile\.cgi$/);
+    if (config.cgiProfile && profile) {
+      if (profile[1] !== "db") {
+        if (original.searchParams.has("_v")) return undefined;
+        return `${profile[1]}/${profile[1] === "db2" && original.searchParams.get("tpl") === "view2" ? "summary" : "index"}.html`;
+      }
+      const number = original.searchParams.get("_v"), template = original.searchParams.get("tpl");
+      if (number && /^\d{3}$/.test(number) && template === "view2") return `db/entry${number}.html`;
+      if (template === "view3") return "db/thumbnails.html";
+      if (template === "view4") return "db/interim.html";
+      if (!template || template === "view") return "db/index.html";
+      return undefined;
+    }
     const value = decodeURIComponent(original.pathname.slice(base.pathname.length)) || "index.html";
     if (value.split("/").some((part) => part === "..") || value.includes("\\")) throw new Error("Unsafe original resource path");
     return value;
@@ -131,7 +162,7 @@ async function main() {
   function localReference(value: string, owner: string, local: string) {
     if (/^(?:data:|javascript:|mailto:)/i.test(value) || value.startsWith("#")) return value;
     const target = enqueue(value, owner), url = new URL(value, owner);
-    return target ? (path.posix.relative(path.posix.dirname(local), target) || path.posix.basename(target)) + url.search + url.hash : url.href;
+    return target ? (path.posix.relative(path.posix.dirname(local), target) || path.posix.basename(target)) + (config.cgiProfile && url.pathname.endsWith("/profile.cgi") ? "" : url.search) + url.hash : url.href;
   }
   function rewriteCSS(text: string, owner: string, local: string) {
     return text.replace(/url\(\s*["']?([^"')]+)["']?\s*\)/g, (_, value) => `url("${localReference(value, owner, local)}")`);
@@ -141,16 +172,16 @@ async function main() {
   }
   for (const source of config.manifests) {
     const entries = JSON.parse(await fs.readFile(`${root}/${source}`, "utf8"));
-    for (const [file, metadata] of Object.entries(entries) as Array<[string, { requestedUrl: string; originalUrl?: string }]>) {
+    for (const [file, metadata] of Object.entries(entries) as Array<[string, { requestedUrl: string; originalUrl?: string; file?: string }]>) {
       const original = metadata.originalUrl ?? unarchive(metadata.requestedUrl), local = relative(original);
       if (!local || blocked.has(local)) continue;
-      cached.set(local, `${root}/${path.posix.dirname(source)}/${file}`);
+      cached.set(local, `${root}/${path.posix.dirname(source)}/${metadata.file ?? file}`);
       queue.add(original);
     }
   }
   for (const [name, file] of Object.entries(config.seeds)) {
     cached.set(name, `${root}/${file}`);
-    queue.add(new URL(name, base).href);
+    queue.add(config.seedUrls?.[name] ?? new URL(name, base).href);
   }
   for (const [file, metadata] of Object.entries(manifest) as Array<[string, { originalUrl: string }]>) {
     const local = relative(metadata.originalUrl);
@@ -197,15 +228,46 @@ async function main() {
         if (!recovered) throw new Error(errors.length ? JSON.stringify(errors) : "No original capture listed");
         bytes = recovered;
       }
+      if (encoding !== "utf-8" && bytes.subarray(0, 3).equals(Buffer.from([0xef, 0xbb, 0xbf]))) compatibilityFixes.push({ page: local, change: "Decode this resource using its UTF-8 BOM instead of the festival default encoding." });
       if (!/\.html?$/i.test(local) && /^\s*<(?:!doctype|html)\b/i.test(bytes.subarray(0, 256).toString("utf8"))) throw new Error("HTML returned instead of a source resource");
       if (/\.(?:png|jpe?g|gif|bmp|webp|ico)$/i.test(local)) imageExtension(bytes);
       if (/\.html?$/i.test(local)) {
-        const $ = cheerio.load(iconv.decode(bytes, encoding));
+        const $ = cheerio.load(decodeSource(bytes, encoding));
         for (const restriction of restrictions) {
           const work = catalogue.find((work) => work.no === restriction.no)!;
           const escape = (text: string) => text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+          if (id === "2012-kouhaku" && (local === "enq4.html" || local.startsWith("db2/"))) {
+            $("a[href]").filter((_, a) => relative(new URL($(a).attr("href")!, original).href) === restriction.sourcePath).closest("table").each((_, table) => {
+              if (local === "db2/index.html") {
+                $(table).find("tr").slice(1).find("td").html(`【コメント】<br>${restrictedText.restrictedContentText}`);
+                $(table).find("img").attr("src", path.posix.relative(path.posix.dirname(local), `restricted/${restriction.no}-icon.svg`));
+                return;
+              }
+              const image = path.posix.relative(path.posix.dirname(local), `restricted/${restriction.no}-screenshot.svg`);
+              const workLink = path.posix.relative(path.posix.dirname(local), restriction.sourcePath);
+              const metadataRows = local.startsWith("db2/") ? `<tr><td class="white">ツール：${escape(work.engine || "")}<br>ジャンル：${escape(work.category || "")}</td></tr>` : "";
+              $(table).html(`<tr><td class="red"><a href="${workLink}">No.${restriction.no} - ${escape(work.title)}</a></td></tr>
+                <tr><td class="gray">作者：${escape(work.author)}</td></tr>
+                ${metadataRows}
+                <tr><td class="white">作品総評：<br>${restrictedText.restrictedContentText}</td></tr>
+                <tr><td class="white"><img src="${image}" width="640" height="480" alt="${restrictedText.restrictedContent}"></td></tr>`);
+            });
+          }
           if (local === restriction.sourcePath) {
-            if (id === "2012-gw") {
+            if (id === "2012-kouhaku") {
+              const box = $("#box2"), navigation = box.find("table#entrylist").first().html();
+              const image = path.posix.relative(path.posix.dirname(local), `restricted/${restriction.no}-screenshot.svg`);
+              const icon = path.posix.relative(path.posix.dirname(local), `restricted/${restriction.no}-icon.svg`);
+              box.html(`<table id="entrylist" width="640">${navigation}</table>
+                <table id="entrylist" width="640"><tr><th class="black"><img src="${icon}" width="32" height="32"></th><td class="red">No.${restriction.no} - ${escape(work.title)}</td></tr></table>
+                <img src="${image}" width="640" height="480" alt="${restrictedText.restrictedContent}">
+                <table id="entrylist" width="640"><tr><td class="red">${restrictedText.restrictedContentText}</td></tr>
+                <tr><td>ジャンル：${escape(work.category || "")}</td></tr><tr><td>ツール：${escape(work.engine || "")}</td></tr>
+                <tr><td>配信/投稿：${restrictedText.restrictedContent}</td></tr><tr><td>作者：${escape(work.author)}</td></tr>
+                <tr><td>作者コメント：<br>${restrictedText.restrictedContentText}</td></tr>
+                <tr><td class="gray">管理人コメント：<br>${restrictedText.restrictedContentText}</td></tr>
+                <tr><td>更新履歴：<br>${restrictedText.restrictedContent}</td></tr></table>`);
+            } else if (id === "2012-gw") {
               const image = path.posix.relative(path.posix.dirname(local), `restricted/${restriction.no}-screenshot.svg`);
               $("h2").first().text(work.title);
               $("table").first().html(`<tr><td><img src="${image}" width="640" height="480" alt="${restrictedText.restrictedContent}"></td></tr>
@@ -239,16 +301,35 @@ async function main() {
             rows.eq(2).children("td").html(`<p style="font-size:14px;line-height:25px">作者名：${escape(work.author)}<br>製作ツール：${escape(work.engine ?? "")}<br>ジャンル：${escape(work.category ?? "")}<br>作者コメント：${restrictedText.restrictedContentText}<br>━━━━━━━━━━━━━━━━━━━━━━━━━<br>管理人からのコメント<br>${restrictedText.restrictedContentText}</p>`);
             }
           }
-          if (local !== restriction.sourcePath) $("a[href]").filter((_, a) => new URL($(a).attr("href")!, original).pathname === new URL(restriction.sourcePath, base).pathname).each((_, a) => {
-            const row = $(a).closest("tr");
-            row.find("img").attr("src", path.posix.relative(path.posix.dirname(local), `restricted/${restriction.no}-icon.svg`)).removeAttr("onmouseover onmouseout");
-            row.find("a").each((_, link) => { if (new URL($(link).attr("href")!, original).pathname !== new URL(restriction.sourcePath, base).pathname) $(link).replaceWith("非表示"); });
+          if (local !== restriction.sourcePath) $("a[href]").filter((_, a) => relative(new URL($(a).attr("href")!, original).href) === restriction.sourcePath).each((_, a) => {
+            const row = id === "2012-kouhaku" && local === "db/thumbnails.html" ? $(a).closest("p") : $(a).closest("tr");
+            const kind = id === "2012-kouhaku" && local === "db/thumbnails.html" ? "screenshot" : "icon";
+            row.find("img").attr("src", path.posix.relative(path.posix.dirname(local), `restricted/${restriction.no}-${kind}.svg`)).removeAttr("onmouseover onmouseout");
+            if (id === "2012-kouhaku" && local === "db/thumbnails.html") row.find("table").last().find("td").eq(3).text(restrictedText.restrictedContent);
+            row.find("a").each((_, link) => { if (relative(new URL($(link).attr("href")!, original).href) !== restriction.sourcePath) $(link).replaceWith("非表示"); });
+            if (id === "2012-kouhaku" && local === "db/index.html") row.children("td").eq(3).text(restrictedText.restrictedContent);
             if (local === "index.html") row.children("td").eq(6).text("非表示");
             if (id === "2012-gw" && local === "top.html") row.children("td").eq(5).text(restrictedText.restrictedContent);
           });
           if (restriction.relatedUrls?.length) $("a[href]").filter((_, a) => restriction.relatedUrls!.includes(new URL($(a).attr("href")!, original).href)).replaceWith(restrictedText.restrictedContent);
         }
+        if (id === "2012-kouhaku" && ["db/index.html", "db/thumbnails.html"].includes(local)) {
+          for (const entry of recovery.entries) {
+            const anchor = $("a[href]").filter((_, a) => new URL($(a).attr("href")!, original).searchParams.get("_v") === entry.no).first();
+            const table = local === "db/thumbnails.html" ? anchor.closest("p") : anchor.closest("table");
+            table.attr({ "data-entry": entry.no, "data-team": entry.team || "", "data-tool": entry.engineKey || "", "data-submission": entry.submissionStatus || "" });
+          }
+          $("#box2 td").filter((_, td) => /^\[全件\]/.test($(td).text().trim())).first().attr("id", "archive-entry-summary");
+          $('select[name="genre"]').prop("disabled", true).attr("title", "原サイトのジャンル検索用データが保存されていないため利用できません。");
+          compatibilityFixes.push({ page: local, change: "Restore team/tool/submission filters and ordering from source metadata. Genre filtering is disabled because its server-only keyword categories are not present in captured HTML." });
+        }
+        if (id === "2012-kouhaku" && /^(db2|sc\d{2})\//.test(local)) {
+          $("form select,form input[type='button'],form input[type='submit']").prop("disabled", true).attr("title", "保存された集計結果を表示しています。サーバー側の絞り込み・並べ替えは利用できません。");
+          $("form [onclick]").removeAttr("onclick");
+          compatibilityFixes.push({ page: local, change: "Preserve the captured ranking table and its ordering; unavailable server-side filter/sort controls are disabled." });
+        }
         $("base").remove();
+        if (id === "2012-kouhaku") $("noscript,#geniee_overray_base,#geniee_overray_tag,link[rel='alternate'],img[src*='geniee.jp']").remove();
         $('img[src*="media.fc2.com/counter_img.php"]').remove();
         $('img[src*="netriver.jp/countriver/"]').remove();
         $("meta[charset]").attr("charset", "UTF-8");
@@ -258,9 +339,30 @@ async function main() {
         if (!$("meta[charset]").length && !$("meta[http-equiv]").toArray().some((element) => $(element).attr("http-equiv")?.toLowerCase() === "content-type")) $("head").prepend('<meta charset="UTF-8">');
         $("script").each((_, element) => {
           const script = $(element), src = script.attr("src");
-          if ((src && !relative(new URL(src, original).href)) || /fc2footerparam|geovisit\(|var\s+jps\s*=|archive_analytics|__wm\./.test(script.html() ?? "")) script.remove();
+          if ((src && !relative(new URL(src, original).href)) || /fc2footerparam|geovisit\(|var\s+jps\s*=|archive_analytics|__wm\./.test(script.html() ?? "") || (id === "2012-kouhaku" && /_gaq|googletag|geniee_|var ID=|twitter-wjs/.test(script.html() ?? ""))) script.remove();
           else if (!src) {
             let code = script.html() ?? "";
+            if (id === "2012-kouhaku" && ["db/index.html", "db/thumbnails.html"].includes(local) && /function jump\(/.test(code)) {
+              script.html(`function jump(){
+                var form=document.forms.namedItem('form'), rows=Array.from(document.querySelectorAll('[data-entry]'));
+                var value=function(name){return decodeURIComponent(form.elements.namedItem(name).value).trim();};
+                var team=value('team'),tool=value('tool'),status=value('pres');
+                if(!window.archiveFilterEnd){
+                  window.archiveFilterEnd=document.createElement('div');window.archiveFilterEnd.style.clear='both';
+                  rows[0].parentNode.insertBefore(window.archiveFilterEnd,rows[0]);
+                  document.querySelectorAll('#box2 p[style*="clear"]').forEach(function(p){p.remove();});
+                }
+                rows.sort(function(a,b){return Number(a.dataset.entry)-Number(b.dataset.entry);});
+                if(value('rvs'))rows.reverse();
+                rows.forEach(function(row){
+                  row.hidden=Boolean((team&&row.dataset.team!==team)||(tool&&!row.dataset.tool.includes(tool))||(status&&row.dataset.submission!==status));
+                  window.archiveFilterEnd.parentNode.insertBefore(row,window.archiveFilterEnd);
+                });
+                var summary=document.getElementById('archive-entry-summary');
+                if(summary)summary.textContent=(team||tool||status?'[検索結果]':'[全件]')+'（'+rows.filter(function(r){return !r.hidden;}).length+'件） '+(value('rvs')?'降順':'昇順');
+              }`);
+              return;
+            }
             if (id === "2013-kouhaku" && code.includes("$setFilter.children('a')")) {
               code = code.replace("$setFilter.children('a')", "$setFilter.find('a')");
               compatibilityFixes.push({ page: local, change: "Bind the source filter links inside their existing paragraph wrapper." });
@@ -317,9 +419,9 @@ async function main() {
         </script>`);
         bytes = Buffer.from($.html());
       } else if (/\.css$/i.test(local)) {
-        const css = iconv.decode(bytes, encoding).replace(/@charset\s+["'][^"']+["'];/i, '@charset "UTF-8";');
+        const css = decodeSource(bytes, encoding).replace(/@charset\s+["'][^"']+["'];/i, '@charset "UTF-8";');
         bytes = Buffer.from(rewriteCSS(css, original, local));
-      } else if (/\.js$/i.test(local)) bytes = Buffer.from(rewriteAbsoluteStrings(iconv.decode(bytes, encoding), original, local));
+      } else if (/\.js$/i.test(local)) bytes = Buffer.from(rewriteAbsoluteStrings(decodeSource(bytes, encoding), original, local));
       files.set(local, bytes);
     } catch (error) { failures.push({ url: original, requestedUrl, error: String(error) }); }
   }
@@ -335,13 +437,33 @@ async function main() {
         omittedBackgrounds.push({ page: local, resource });
       }
     });
+    if (id === "2012-kouhaku") {
+      $("[style],style").each((_, element) => {
+        const node = $(element), inline = node.attr("style"), text = inline ?? node.html() ?? "";
+        const cleaned = text.replace(/url\(\s*["']?([^"')]+)["']?\s*\)/g, (literal, value) => {
+          const resource = relative(new URL(value, new URL(local, base)).href);
+          if (!resource || !unavailable.has(resource)) return literal;
+          omittedBackgrounds.push({ page: local, resource });
+          return "none";
+        });
+        if (inline !== undefined) node.attr("style", cleaned); else node.html(cleaned);
+      });
+      $("img[src],link[rel*=icon]").each((_, element) => {
+        const node = $(element), value = node.attr("src") || node.attr("href");
+        if (!value) return;
+        const resource = relative(new URL(value, new URL(local, base)).href);
+        if (!resource || !unavailable.has(resource)) return;
+        if (resource.endsWith("rss.gif")) { node.replaceWith("RSS"); compatibilityFixes.push({ page: local, change: "Use the source RSS label as text where its folder-specific badge is not archived." }); }
+        else if (element.tagName === "link") node.remove();
+      });
+    }
     $("[onmouseover],[onmouseout]").each((_, element) => {
       for (const attr of ["onmouseover", "onmouseout"]) for (const match of ($(element).attr(attr) || "").matchAll(/this\.src\s*=\s*['"]([^'"]+)['"]/g)) {
         const resource = relative(new URL(match[1], new URL(local, base)).href);
         if (resource && unavailable.has(resource)) { $(element).removeAttr(attr); omittedHovers.push({ page: local, resource }); }
       }
     });
-    if ([...omittedBackgrounds, ...omittedHovers].some((omission) => omission.page === local)) files.set(local, Buffer.from($.html()));
+    if (id === "2012-kouhaku" || [...omittedBackgrounds, ...omittedHovers].some((omission) => omission.page === local)) files.set(local, Buffer.from($.html()));
   }
   for (const [local, bytes] of files) {
     const target = `${output}/${local}`;
