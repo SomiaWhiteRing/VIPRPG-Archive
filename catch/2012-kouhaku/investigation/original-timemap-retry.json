@@ -1,0 +1,7 @@
+{
+  "requestedUrl": "https://web.archive.org/web/timemap/json?url=www45.atpages.jp%2Fvipkohaku2012%2F&matchType=prefix&collapse=urlkey&output=json&fl=original,timestamp,endtimestamp,mimetype,statuscode&filter=statuscode%3A200&limit=1500",
+  "retrievedAt": "2026-10-15T17:24:20.730Z",
+  "reason": "Retry an observed endpoint",
+  "error": "TypeError: fetch failed",
+  "cause": "Error: Client network socket disconnected before secure TLS connection was established"
+}

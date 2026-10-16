@@ -1,0 +1,380 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+<title>VIPRPG紅白2012</title>
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<link rel="stylesheet" type="text/css" href="screen.css" media="all" />
+<link rel="shortcut icon" href="favicon.ico">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script type="text/javascript">
+
+$(function(){
+	var setImg = '#viewer';
+	var fadeSpeed = 1500;
+	var switchDelay = 5000;
+
+	$(setImg).children('img').css({opacity:'0'});
+	$(setImg + ' img:first').stop().animate({opacity:'1',zIndex:'20'},fadeSpeed);
+
+	setInterval(function(){
+		$(setImg + ' :first-child').animate({opacity:'0'},fadeSpeed).next('img').animate({opacity:'1'},fadeSpeed).end().appendTo(setImg);
+	},switchDelay);
+});
+
+
+
+$(document).ready(function(){
+	$("#nav-one li").hover(
+		function(){ $("ul", this).fadeIn("fast"); }, 
+		function() { } 
+	);
+	if (document.all) {
+		$("#nav-one li").hoverClass ("sfHover");
+	}
+});
+
+$.fn.hoverClass = function(c) {
+	return this.each(function(){
+		$(this).hover( 
+			function() { $(this).addClass(c);  },
+			function() { $(this).removeClass(c); }
+		);
+	});
+};
+</script>
+<link rel="canonical" href="http://www45.atpages.jp/vipkohaku2012/enq.html" />
+<link rel="alternate" media="handheld" href="http://www45.atpages.jp/_/mgw/gw?_ucb_u=http%3A%2F%2Fwww45.atpages.jp%2Fvipkohaku2012%2Fenq.html" type="text/html" /></head>
+
+<body><script type="text/javascript">
+                   <!--
+                      var _gaq = _gaq || [];
+                      _gaq.push(['_setAccount', 'UA-239611-66']);
+                      _gaq.push(['_setDomainName', '.atpages.jp']);
+                     _gaq.push(['_trackPageview']);
+    
+                   (function() {
+                      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                      })();
+                    //-->
+                   </script><script type="text/javascript">
+(function() {
+  addOnEvent("scroll",getPosition); 
+  addOnEvent("load",function() { 
+      var body = document.getElementsByTagName('body')[0];
+      var tag1 = document.getElementById("geniee_overray_tag");
+      var tag2 = document.getElementById("geniee_overray_base");
+      tag1.style.bottom = 0 + "px";
+      tag2.style.bottom = 0 + "px";
+      tag1.style.zIndex = 9999;
+      tag2.style.zIndex = 9999;
+      body.style.zIndex = 2;
+      document.getElementById("geniee_overray_closed").onclick = function(){
+          tag1.style.display = "none";
+          tag2.style.display = "none";
+      };
+  });
+
+  function addOnEvent(event,func) {
+            try {
+                window.addEventListener(event, func, false);
+            } catch (e) {
+                // IE
+                window.attachEvent("on" + event , func);
+            }
+   }  
+
+  function getPosition() {
+      var tags = document.getElementById('geniee_overray_tag');
+      tags.style.top = "";
+      tags.style.bottom = 0 + "px";
+      tags.style.position = "fixed";
+      var tags1 = document.getElementById('geniee_overray_base');
+      tags1.style.top = "";
+      tags1.style.bottom = 0 + "px";
+      tags1.style.position = "fixed";
+  }
+})();
+</script>
+
+<script type='text/javascript'>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+googletag.defineSlot('/9160377/atpages_728_own', [728, 90], 'div-gpt-ad-1368774777218-0').addService(googletag.pubads());
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+});
+</script>
+
+
+<script type="text/javascript"><!--
+var ID="100869904";
+var AD=0;
+var FRAME=0;
+// --></script>
+<script src="http://j1.ax.xrea.com/l.j?id=100869904" type="text/javascript"></script>
+<noscript>
+<a href="http://w1.ax.xrea.com/c.f?id=100869904" target="_blank"><img src="http://w1.ax.xrea.com/l.f?id=100869904&url=X" alt="AX" border="0"></a>
+</noscript>
+
+<div id="balloonbox" style="background-image: url(img/balloon1.png);">
+<div id="ballooninner">
+
+<div id="navigate"><center>
+<table>
+	<tbody>
+		<tr>
+			<td>
+		<ul id="nav-one" class="nav">
+			<li>
+				<a href="index.html">Home</a>
+			</li>
+			<li>
+				<a href="about.html">About</a>
+				<ul>
+					<li><a href="about.html#schedule">スケジュール</a></li>
+					<li><a href="about.html#entry">参加方法</a></li>
+					<li><a href="about.html#present">提出方法</a></li>
+					<li><a href="about.html#patch">作品の修正</a></li>
+					<li><a href="about.html#Q&A">Q&A</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="enq.html">投票</a>
+				<ul>
+					<li><a href="enq.html#about">投票審査とは</a></li>
+					<li><a href="enq.html#howto">投票方法</a></li>
+					<li><a href="enq.html#section">審査部門</a></li>
+					<li><a href="enq.html#total">集計</a></li>
+					<li><a href="db/profile.cgi?tpl=view4&?type=or&key=%92%F1%8Fo%8D%CF%20%20%92x%8D%8F%92%F1%8Fo%20">中間発表</a></li>
+					<li><a href="enq2.html">結果発表</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="entry.html">作品一覧</a>
+				<ul>
+					<li><a href="db/profile.cgi?tpl=view">リスト</a></li>
+					<li><a href="db/profile.cgi?tpl=view3&hor=4">サムネイル</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="bbs.html">BBS</a>
+				<ul>
+					<li><a href="http://jbbs.livedoor.jp/otaku/15695/" target="_blank">運営掲示板</a></li>
+					<li><a href="http://jbbs.livedoor.jp/otaku/15696/" target="_blank">感想掲示板</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="link.html">リンク</a>
+				<ul>
+					<li><a href="http://www53.atwiki.jp/vipkohaku2012_1/" target="_blank">攻略Wiki</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="https://twitter.com/vipkohaku2012_1">Twitter</a>
+			</li>
+			<li>
+<a href="http://www.netriver.jp/product/" target='_blank'>
+<img src="http://www.netriver.jp/countriver/cntriv.cgi?user=vipkohaku2012_1&id=00000000&ptn=15&dig=0" onmouseover='CountRiverMouseOver()' onmouseout='CountRiverMouseOut()' style="border:0; margin: 8px 0 8px 0;" /></a>
+<div id=CountRiverObjDiv style='position:absolute; top:0px; left:0px; display:none; z-index:1000;'></div>
+			</li>
+		</ul>
+			</td>
+		</tr>
+	</tbody>
+</table></center>
+</div>
+
+</div><!--/#ballooninner-->
+</div><!--/#balloonbox-->
+
+<div id="container" style="height:100%;">
+
+<div class="back">
+<div class="body">
+
+<div id="illust1" style="background-image: url(img/illust001.png);"></div>
+
+<div id="box1">
+
+
+
+<h3 id="about">投票審査とは</h3>
+<p>
+
+　VIPRPG紅白2012では、公開された各作品を一般プレイヤーの投票によって評価し、その点数で順位を決定します。<br>
+　9つの部門ごとに投票が行われ部門別順位を決定し、各部門の合計点数により総合順位が決定されます。
+　さらに紅組・白組ごとに点数を集計し、点数のより多かった組が優勝チームとなります。<br>
+　投票によって上位に選ばれた作品は専用ページに掲載されます。<br>
+　<br>
+　投票も祭りの楽しみのひとつです。参加者やプレイヤーの皆様の「このゲームはすごかった！」という思いを形にする試みです。<br>
+　難しく構えず、楽しんでいただければ幸いです。<br>
+　<br>
+<ul>
+<li>投票は誰でも自由に行えます。プレイヤー、作品投稿者の区別はありません。</li>
+<li>今年は投票数だけで競うのではなく、<font style="font-weight:bold;">点数評価による審査</font>を行います。</li>
+<li>投票者1人につき、すべての作品を審査できます。<font style="color:#F00; font-weight:bold;">(1人1作品ではありません)</font></li>
+<li>投票者は、ひとつの作品ごとに1度しか審査できません。<font style="font-weight:bold;">投票のやり直しはできません。</font></li>
+<li>遅刻提出された作品も審査対象になりますが、総合順位を決定する際に減点されます。</li>
+<li>投票の際に寄せられた「コメント」および「総評」は、結果発表時に一部抜粋またはすべて掲載する場合があります。</li>
+<li>結果発表で上位に選ばれた場合、後日管理側より作者様へメールを送信いたします。その際、差し支えなければ掲載用にコメントを頂ければ幸いです。（コメントは任意です）</li>
+<li>不正票・組織票は禁止です。</li>
+</ul><br>
+
+</p>
+<p>
+<h3 id="schedule">スケジュール</h3>
+<table border="1">
+	<tbody>
+		<tr>
+			<th>投票開始</th>
+			<td>2013年01月01日</td>
+		</tr>
+		<tr>
+			<th>投票受付期間</th>
+			<td>01月01日 某時刻 ～ 01月31日 23:59</td>
+		</tr>
+		<tr>
+			<th>審査終了</th>
+			<td>01月31日 23:59</td>
+		</tr>
+	</tbody>
+</table>
+<br>
+</p>
+
+<hr>
+<div class="pagetop"><a href="#navigate">ページTOPに戻る</a></div>
+
+<h3 id="howto">投票方法</h3>
+<p>
+<h4>投票所</h4>
+　各作品ごとに専用の投票所が設置されています。投票所へは、各作品ページまたは作品一覧からリンクされています。<br>
+　　→　<a href="http://enq-maker.com/iDDFH8M" target="_blank">投票所一例</a><br>
+　<br>
+</p>
+
+<hr>
+<div class="pagetop"><a href="#navigate">ページTOPに戻る</a></div>
+
+<h3 id="section">審査部門</h3>
+<p>
+　審査は9つ＋αの部門に分かれています。<br>
+　各10点満点で、最大90点＋その他加点で評価します。<br>
+　<br>
+<h4>熱中度</h4>
+　その作品への熱中度を評価します。
+<h4>技術</h4>
+　技術面(テクニック)を評価します。
+<h4>物語</h4>
+　物語面(シナリオ)を評価します。
+<h4>演出</h4>
+　演出面(画像/音声/それらの使い方)を評価します。
+<h4>斬新さ</h4>
+　斬新さを評価します。
+<h4>遊びやすさ</h4>
+　遊びやすさ(インタフェース/プレイヤーへの配慮等)を評価します。
+<h4>テラワロさ</h4>
+　とにかく笑ったら点数オナシャス！
+<h4>いやらしさ</h4>
+　えっちだと思ったら点数をいれてください<font style="color:#F00; font-weight:bold;">///</font>
+<h4>ひどさ</h4>
+　特有の言葉にできない有り余るひどさを感じたら点数を投じましょう。
+<h4>その他加点</h4>
+　その作品の特によかったところを、複数選択方式で選んでください。<br>
+　総合順位を決定する際に加点されます。（部門別順位には加点されません）<br>
+　<br>
+</p>
+<p>
+<h3>アンケート</h3>
+　審査結果発表時に、作品の紹介文として一緒に掲載します。<br>
+　お手隙であれば回答していただければ幸いです。（任意です）<br>
+<h4>コメント</h4>
+作品に対する感想があれば一言お願いします。<br>
+<h4>総評</h4>
+作品の紹介・レビューを一筆お願いします。<br>
+<h4>ハンドルネーム</h4>
+<h4>性別</h4>
+<h4>年齢</h4>
+投票者の名前欄に表示します。<br>
+<br>
+<h5>表示例</h5>
+<ul>
+<li>硬派なRPG好きにお勧めだぜ！あとようせいさんがかわいかった！（ツクル・男性・11歳 ～ 15歳）</li>
+<li>私みたいにカワイイようせいが大活躍します！（電脳天使チップセットちゃん・性別不明・年齢不明）</li>
+<li>登場人物は女の子だけですけど、みんなかわいかったです。（里美・女性・11歳 ～ 15歳）</li>
+<li>資金チートしたらタラコ唇が出てきた。（コピル・女性・11歳 ～ 15歳）</li>
+</ul><br>
+
+</p>
+
+<hr>
+<div class="pagetop"><a href="#navigate">ページTOPに戻る</a></div>
+
+<h3 id="total">集計</h3>
+<p>
+　
+　投票された点数の合計点だけではなく、平均点や中央値などを加味して得点を算出します。<br>
+　
+<h4>部門別順位</h4>
+　① … ( 小計順位点 + 平均順位点 ) × 重視補正(※)<br>
+　② … 中央値 × 2<br>
+<br>
+　① + ② = 合計点<br>
+<br>
+　(※ その作品の各部門ごとの小計のうち、<br>
+　 最も得点が高かった部門には 110% 乗算する。<br>
+　 補正している場合は合計点欄に ★ が記されている。)<br>
+<br>
+<h4>総合順位</h4>
+　９部門小計点 + ( その他加点 × 遅刻補正 )<br>
+<br>
+　遅刻補正：　遅刻提出の場合、[ その他加点 ]を 2 で割る）<br>
+<h4>チーム勝敗</h4>
+　総投票数、平均投票数、総得点、平均得点を、それぞれより多く獲得したほうを勝利チームとします。
+</p>
+
+<hr>
+<div class="pagetop"><a href="#navigate">ページTOPに戻る</a></div>
+
+</div><!--/#box1-->
+
+<h2>COPYPASTE &copy; <a href="http://www10.atwiki.jp/vip_rpg/">2012 VIPRPG</a>.</h2>
+
+</div><!--/#back.body-->
+</div><!--/#back-->
+</div><!--/#container-->
+
+
+<div style="text-align:center; font-size:10px;display:block !important; visibility:visible !important;"><a style="text-decoration:none;font-color:" href="http://atpages.jp/keyword">Powered by キーワード@Pages</a></div><div id="geniee_overray_base" style="z-index:9999;filter:alpha(opacity=60);-ms-filter:alpha(opacity=60);-moz-opacity:0.6; -khtml-opacity:0.6;opacity:0.6;position:fixed;width:100%;height:120px;background-color:black">
+  <img id="geniee_overray_closed" style="left:100%;color:red;"
+src="/_/img/close.png">
+</div>
+<div id="geniee_overray_tag" style="z-index:9999;left:25%;position: fixed;center:100%;">
+<!-- atpages_728_own -->
+<div id='div-gpt-ad-1368774777218-0' style='width:728px; height:90px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+googletag.display('div-gpt-ad-1368774777218-0'); });
+</script>
+</div>
+</div>
+</body>
+</html>

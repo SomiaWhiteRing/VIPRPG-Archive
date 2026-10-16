@@ -1,0 +1,323 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+<title>VIPRPG紅白2012</title>
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<link rel="stylesheet" type="text/css" href="screen.css" media="all" />
+<link rel="shortcut icon" href="favicon.ico">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script type="text/javascript">
+
+$(function(){
+	var setImg = '#viewer';
+	var fadeSpeed = 1500;
+	var switchDelay = 5000;
+
+	$(setImg).children('img').css({opacity:'0'});
+	$(setImg + ' img:first').stop().animate({opacity:'1',zIndex:'20'},fadeSpeed);
+
+	setInterval(function(){
+		$(setImg + ' :first-child').animate({opacity:'0'},fadeSpeed).next('img').animate({opacity:'1'},fadeSpeed).end().appendTo(setImg);
+	},switchDelay);
+});
+
+
+
+$(document).ready(function(){
+	$("#nav-one li").hover(
+		function(){ $("ul", this).fadeIn("fast"); }, 
+		function() { } 
+	);
+	if (document.all) {
+		$("#nav-one li").hoverClass ("sfHover");
+	}
+});
+
+$.fn.hoverClass = function(c) {
+	return this.each(function(){
+		$(this).hover( 
+			function() { $(this).addClass(c);  },
+			function() { $(this).removeClass(c); }
+		);
+	});
+};
+</script>
+<link rel="canonical" href="http://www45.atpages.jp/vipkohaku2012/1225.html" />
+<link rel="alternate" media="handheld" href="http://www45.atpages.jp/_/mgw/gw?_ucb_u=http%3A%2F%2Fwww45.atpages.jp%2Fvipkohaku2012%2F1225.html" type="text/html" />
+</head>
+
+<body><script type="text/javascript">
+                   <!--
+                      var _gaq = _gaq || [];
+                      _gaq.push(['_setAccount', 'UA-239611-66']);
+                      _gaq.push(['_setDomainName', '.atpages.jp']);
+                     _gaq.push(['_trackPageview']);
+    
+                   (function() {
+                      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                      })();
+                    //-->
+                   </script><script type="text/javascript">
+(function() {
+  addOnEvent("scroll",getPosition); 
+  addOnEvent("load",function() { 
+      var body = document.getElementsByTagName('body')[0];
+      var tag1 = document.getElementById("geniee_overray_tag");
+      var tag2 = document.getElementById("geniee_overray_base");
+      tag1.style.bottom = 0 + "px";
+      tag2.style.bottom = 0 + "px";
+      tag1.style.zIndex = 9999;
+      tag2.style.zIndex = 9999;
+      body.style.zIndex = 2;
+      document.getElementById("geniee_overray_closed").onclick = function(){
+          tag1.style.display = "none";
+          tag2.style.display = "none";
+      };
+  });
+
+  function addOnEvent(event,func) {
+            try {
+                window.addEventListener(event, func, false);
+            } catch (e) {
+                // IE
+                window.attachEvent("on" + event , func);
+            }
+   }  
+
+  function getPosition() {
+      var tags = document.getElementById('geniee_overray_tag');
+      tags.style.top = "";
+      tags.style.bottom = 0 + "px";
+      tags.style.position = "fixed";
+      var tags1 = document.getElementById('geniee_overray_base');
+      tags1.style.top = "";
+      tags1.style.bottom = 0 + "px";
+      tags1.style.position = "fixed";
+  }
+})();
+</script>
+
+
+<script type="text/javascript"><!--
+var ID="100869904";
+var AD=0;
+var FRAME=0;
+// --></script>
+<script src="http://j1.ax.xrea.com/l.j?id=100869904" type="text/javascript"></script>
+<noscript>
+<a href="http://w1.ax.xrea.com/c.f?id=100869904" target="_blank"><img src="http://w1.ax.xrea.com/l.f?id=100869904&url=X" alt="AX" border="0"></a>
+</noscript>
+
+<div id="balloonbox" style="background-image: url(img/balloon1.png);">
+<div id="ballooninner">
+
+<div id="navigate"><center>
+<table>
+	<tbody>
+		<tr>
+			<td>
+		<ul id="nav-one" class="nav">
+			<li>
+				<a href="index.html">Home</a>
+			</li>
+			<li>
+				<a href="about.html">About</a>
+				<ul>
+					<li><a href="about.html#schedule">スケジュール</a></li>
+					<li><a href="about.html#entry">参加方法</a></li>
+					<li><a href="about.html#present">提出方法</a></li>
+					<li><a href="about.html#patch">作品の修正</a></li>
+					<li><a href="about.html#Q&A">Q&A</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="enq.html">投票</a>
+				<ul>
+					<li><a href="enq.html#about">投票審査とは</a></li>
+					<li><a href="enq.html#howto">投票方法</a></li>
+					<li><a href="enq.html#section">審査部門</a></li>
+					<li><a href="enq.html#total">集計</a></li>
+					<li><a href="db/profile.cgi?tpl=view4&?type=or&key=%92%F1%8Fo%8D%CF%20%20%92x%8D%8F%92%F1%8Fo%20">中間発表</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="entry.html">作品一覧</a>
+				<ul>
+					<li><a href="db/profile.cgi?tpl=view">リスト</a></li>
+					<li><a href="db/profile.cgi?tpl=view3&hor=4">サムネイル</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="bbs.html">BBS</a>
+				<ul>
+					<li><a href="http://jbbs.livedoor.jp/otaku/15695/" target="_blank">運営掲示板</a></li>
+					<li><a href="http://jbbs.livedoor.jp/otaku/15696/" target="_blank">感想掲示板</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="link.html">リンク</a>
+				<ul>
+					<li><a href="http://www53.atwiki.jp/vipkohaku2012_1/" target="_blank">攻略Wiki</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="https://twitter.com/vipkohaku2012_1">Twitter</a>
+			</li>
+			<li>
+<a href="http://www.netriver.jp/product/" target='_blank'>
+<img src="http://www.netriver.jp/countriver/cntriv.cgi?user=vipkohaku2012_1&id=00000000&ptn=15&dig=0" onmouseover='CountRiverMouseOver()' onmouseout='CountRiverMouseOut()' style="border:0; margin: 8px 0 8px 0;" /></a>
+<div id=CountRiverObjDiv style='position:absolute; top:0px; left:0px; display:none; z-index:1000;'></div>
+			</li>
+		</ul>
+			</td>
+		</tr>
+	</tbody>
+</table></center>
+</div>
+
+</div><!--/#ballooninner-->
+</div><!--/#balloonbox-->
+
+<div id="container" style="height:100%;">
+
+<div class="back">
+<div class="body">
+
+<div id="illust1" style="background-image: url(img/illust002.png);"></div>
+
+<div id="box1">
+
+<p>
+<pre>
+
+
+
+
+アル、いいかい？
+
+よく聞いてくれ。
+
+
+
+
+このzipの中には、俺の努力を収めたゲームや言い訳のテキストが入っている。
+
+俺の作品が遅刻の犠牲になった訳を知る限り喋った。
+
+もし・・・俺が締め切りを守れなかったらこれを管理人に届けてくれ。
+
+管理人が本当だと信じてくれたら、
+
+この提出は守られると思う。
+
+俺が直接、管理人に自白しようかとも思ったんだが・・・
+
+なんていうか・・・
+
+そうするのは戦うみたいに思えて・・・
+
+ここで逃げるのを止めると・・・
+
+自分が自分では無くなるような・・・
+
+
+
+クリスマスが憎いとか・・・
+
+エターなった過去作の仇を討ちたいとか・・・言うんじゃないんだ・・・
+
+うまく言えないけど・・・
+
+アイツと・・・エターナルと戦ってみたくなったんだ・・・
+
+俺がエターナラーだからなのか、理由は自分でもよく分かんない。
+
+
+
+アル、
+
+俺はたぶん遅刻するだろうが・・・
+
+そのことで・・・期日提出した他の作者や
+
+次の祭りへの参加を決めたツクラーを恨んだりしないでくれ。
+
+彼らだって俺と同じで、自分がやるべきだと思ったことをやってるだけなんだ・・・
+
+無理かもしれないけど、
+
+他人を恨んだり、俺の事を責めたりしないでくれ・・・
+
+これは俺の
+
+最後の頼みだ。
+
+
+
+もし、運良く生き延びて紅白が終わったらさ、
+
+必ずこのツクスレに帰ってくるよ。
+
+会いに来る、
+
+約束だ。
+
+
+
+・・・これでお別れだ！
+
+じゃあな、アル。
+
+元気で暮らせよ
+
+ゴメスによろしくな。
+
+
+
+
+ザー・・・ザー・・・
+
+
+
+</pre>
+</p>
+
+<hr>
+
+</div><!--/#box1-->
+
+<h2>COPYPASTE &copy; <a href="http://www10.atwiki.jp/vip_rpg/">2012 VIPRPG</a>.</h2>
+
+</div><!--/#back.body-->
+</div><!--/#back-->
+</div><!--/#container-->
+
+
+<div style="text-align:center; font-size:10px;display:block !important; visibility:visible !important;"><a style="text-decoration:none;font-color:" href="http://atpages.jp/keyword">Powered by キーワード@Pages</a></div><div id="geniee_overray_base" style="z-index:9999;filter:alpha(opacity=60);-ms-filter:alpha(opacity=60);-moz-opacity:0.6; -khtml-opacity:0.6;opacity:0.6;position:fixed;width:100%;height:120px;background-color:black">
+  <img id="geniee_overray_closed" style="left:100%;color:red;" src="http://a.geniee.jp/nw/images/4ab007d5e5e507438b77f746862ff49d.png">
+</div>
+<div id="geniee_overray_tag" style="z-index:9999;left:25%;position: fixed;center:100%;">
+
+<script type='text/javascript'><!--//<![CDATA[
+   var m3_u = (location.protocol=='https:'?'https://d.href.asia/nw/d/ajs.php':'http://d.href.asia/nw/d/ajs.php');
+   var m3_r = Math.floor(Math.random()*99999999999);
+   if (!document.MAX_used) document.MAX_used = ',';
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("?zoneid=4324");
+   document.write ('&amp;cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+   document.write ("&amp;loc=" + escape(window.location));
+   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+   if (document.context) document.write ("&context=" + escape(document.context));
+   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+   document.write ("'><\/scr"+"ipt>");
+//]]>--></script><noscript><a href='http://d.href.asia/nw/d/ck.php?n=ae4d0c0d&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://d.href.asia/nw/d/avw.php?zoneid=4324&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=ae4d0c0d' border='0' alt='' /></a></noscript>
+
+</div>
+</body>
+</html>

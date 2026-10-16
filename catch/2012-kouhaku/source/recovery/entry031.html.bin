@@ -1,0 +1,645 @@
+<html>
+<head>
+<title>VIPRPG紅白2012</title>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<link rel="shortcut icon" href="favicon.ico">
+
+
+<style type="text/css">
+<!--
+.social { margin:30px 0 0 0; }
+.facebookbtn { text-align:right; margin: 0 0 0 5px; }
+.tweetbtn { text-align:right; margin: 3px 0 4px 5px; }
+
+/* base */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	font-family: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+/*	outline: 0;*/
+}
+
+html {
+	font-size: 75%;
+	filter: expression(document.execCommand("BackgroundImageCache", false, true));
+}
+
+img {
+	vertical-align: text-bottom;
+	-ms-interpolation-mode: bicubic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+li ol, ul {
+	list-style: inside;
+}
+
+table {
+	border-collapse: collapse;
+/*	border-collapse: separate;*/
+	border-spacing: 0;
+}
+
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	vertical-align: top;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+
+blockquote, q {
+	quotes: "" "";
+}
+
+a:focus {
+/*\*/
+	overflow: hidden;
+/**/
+}
+
+option {
+	padding-right: 10px;
+}
+
+/* common */
+
+body {
+	font-size: 100%;
+	line-height: 140%;
+	font-family: Arial,Helvetica,sans-serif;
+	color: #000;
+	text-align: center;
+	background: #fff;
+}
+
+a:link { text-decoration:underline; color: #000;}
+a:visited { text-decoration:underline; color: #000;}
+a:active { text-decoration:underline; color: #000;}
+a:hover { text-decoration:none; color: #000;}
+
+html , body {height:100%;}
+body > #container {height:auto;}
+
+h2 {
+	padding: 30px 0;
+	width: 100%;
+	font-size: 12px;
+	text-align: center;
+}
+
+
+#container {
+	width: 840px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+#balloonbox {
+	margin: 0 auto;
+	margin-bottom: 0px;
+	width:  840px;
+	height: 88px;
+	left:     0px;
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: left center;"
+}
+
+#ballooninner {
+	margin: 0 auto;
+	padding: 8px;
+	width:  800px;
+	height: 48px;
+	left:     0px;
+	text-align: left;
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: left center;"
+}
+
+.back {
+	padding:40px 0px 0px 0px;
+	background:url(img/back1_top.png) no-repeat left top;
+}
+
+.back .body {
+	background:url(img/back1_body.png) repeat-y left top;
+}
+
+
+#box2 {
+	width: 720px;
+	padding: 0px 0px 0px 0px;
+	left:    60px;
+	position: relative;
+	text-align: left;
+	color: #000;
+}
+
+
+#entrylist table {
+	border: 3px solid #cccccc;	/*外枠の線*/
+	width: 100%;
+}
+
+#entrylist td, #entrylist th {
+	border: 1px solid #000000;	/*内枠の線。ここでは点線(IE6前だと破線で表示される)に設定*/
+	padding: 5px 5px;			/*余白*/
+	line-height: 1.0;
+}
+
+#entrylist td.s, #entrylist th.s {
+	background-color: #000000;
+	border: 1px solid #000000;	/*内枠の線。ここでは点線(IE6前だと破線で表示される)に設定*/
+	padding: 0px 0px;			/*余白*/
+	line-height: 1.0;
+	height: 8px;
+}
+
+#entrylist th.red, #entrylist td.red {
+	background-color: #ff7777;
+	vertical-align: middle;
+}
+
+#entrylist th.white, #entrylist td.white {
+	background-color: #FFFFFF;
+	vertical-align: middle;
+}
+
+#entrylist td.gray, #entrylist th.gray {
+	background-color: #EEEEEE;
+	vertical-align: middle;
+}
+
+#entrylist td.dgray, #entrylist th.dgray {
+	background-color: #AAAAAA;
+	vertical-align: middle;
+}
+
+#entrylist td.black, #entrylist th.black {
+	background-color: #000000;
+	vertical-align: middle;
+}
+
+#entrylist th {
+	background-color: #fafafa;	/*左側（table midashi部分）の背景色*/
+	padding: 0px 0px;			/*余白*/
+	height: 32px;
+	width:  32px;
+	text-align: center;
+}
+
+.pagetop {
+	text-align: center;
+}
+
+.new dl {
+	width: 100%;			/*ボックスの幅*/
+	height: 100px;			/*ボックスの高さ*/
+	overflow: auto;
+	padding-left: 0px;
+}
+
+.new dt {
+	font-weight: bold;	/*日付の色を太字にする*/
+	color: #A63737;		/*日付の文字色*/
+}
+
+.new dd {
+	border-bottom: 1px solid #FFD0D0;	/*日付ごとの下線*/
+	color: #000000;		/*文字色*/
+}
+
+/* Navigation */
+.nav, .nav ul { 
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav {
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: 100;
+  position: relative;
+}
+.nav li {
+  border-left: 1px solid #fff;
+  float: left;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.nav li a, .nav li a:link, .nav li a:active, .nav li a:visited {
+  font: bold 1.22em/25px Arial, Helvetica, sans-serif;
+  background: #fff;
+  color: #000;
+  display: block;
+  padding: 0 9px;
+  text-transform: none;  /* lowercase; */
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  background: #ff7777;
+  color: #fff;	
+
+}
+#nav-one li:hover a, 
+#nav-one li.sfHover a {
+  background: #ff7777;
+  color: #fff;
+}
+#nav-one li:hover ul a, 
+#nav-one li.sfHover ul a {
+  background: #fff;
+  color: #000;	
+}
+#nav-one li:hover ul a:hover, 
+#nav-one li.sfHover ul a:hover {
+  background: #ff7777;
+  color: #fff;	
+}
+
+.nav ul {
+  background: #565656;
+  border-bottom: 1px solid #000;
+  list-style: none;
+  margin: 0;
+  width: 110px;
+  position: absolute;
+  top: -999em;
+  left: -1px;
+}
+.nav li:hover ul,
+.nav li.sfHover ul {
+  top: 25px;
+}
+.nav ul li {
+  border: 0;
+  float: none;
+}
+.nav ul a {
+  border: 1px solid #000;
+  border-bottom: 0;
+  padding-right: 20px;
+  width: 90px;
+  white-space: nowrap;
+}
+.nav ul a:hover {
+  background: #ff7777;
+  color: #fff;
+}
+
+#navigate {
+	height:25px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	padding: 0px 0;
+	background: #fff;
+	color: #000;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+}
+
+-->
+</style>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+	$("#nav-one li").hover(
+		function(){ $("ul", this).fadeIn("fast"); }, 
+		function() { } 
+	);
+	if (document.all) {
+		$("#nav-one li").hoverClass ("sfHover");
+	}
+});
+
+$.fn.hoverClass = function(c) {
+	return this.each(function(){
+		$(this).hover( 
+			function() { $(this).addClass(c);  },
+			function() { $(this).removeClass(c); }
+		);
+	});
+};
+</script>
+
+<link rel="canonical" href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi" />
+<link rel="alternate" media="handheld" href="http://www45.atpages.jp/_/mgw/gw?_ucb_u=http%3A%2F%2Fwww45.atpages.jp%2Fvipkohaku2012%2Fdb%2Fprofile.cgi%3F_v%3D031%26tpl%3Dview2" type="text/html" /></head>
+
+<body><script type="text/javascript">
+                   <!--
+                      var _gaq = _gaq || [];
+                      _gaq.push(['_setAccount', 'UA-239611-66']);
+                      _gaq.push(['_setDomainName', '.atpages.jp']);
+                     _gaq.push(['_trackPageview']);
+    
+                   (function() {
+                      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                      })();
+                    //-->
+                   </script><script type="text/javascript">
+(function() {
+  addOnEvent("scroll",getPosition); 
+  addOnEvent("load",function() { 
+      var body = document.getElementsByTagName('body')[0];
+      var tag1 = document.getElementById("geniee_overray_tag");
+      var tag2 = document.getElementById("geniee_overray_base");
+      tag1.style.bottom = 0 + "px";
+      tag2.style.bottom = 0 + "px";
+      tag1.style.zIndex = 9999;
+      tag2.style.zIndex = 9999;
+      body.style.zIndex = 2;
+      document.getElementById("geniee_overray_closed").onclick = function(){
+          tag1.style.display = "none";
+          tag2.style.display = "none";
+      };
+  });
+
+  function addOnEvent(event,func) {
+            try {
+                window.addEventListener(event, func, false);
+            } catch (e) {
+                // IE
+                window.attachEvent("on" + event , func);
+            }
+   }  
+
+  function getPosition() {
+      var tags = document.getElementById('geniee_overray_tag');
+      tags.style.top = "";
+      tags.style.bottom = 0 + "px";
+      tags.style.position = "fixed";
+      var tags1 = document.getElementById('geniee_overray_base');
+      tags1.style.top = "";
+      tags1.style.bottom = 0 + "px";
+      tags1.style.position = "fixed";
+  }
+})();
+</script>
+
+<script type='text/javascript'>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+googletag.defineSlot('/9160377/atpages_728_own', [728, 90], 'div-gpt-ad-1368774777218-0').addService(googletag.pubads());
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+});
+</script>
+
+
+<script type="text/javascript"><!--
+var ID="100869904";
+var AD=0;
+var FRAME=0;
+// --></script>
+<script src="http://j1.ax.xrea.com/l.j?id=100869904" type="text/javascript"></script>
+<noscript>
+<a href="http://w1.ax.xrea.com/c.f?id=100869904" target="_blank"><img src="http://w1.ax.xrea.com/l.f?id=100869904&url=X" alt="AX" border="0"></a>
+</noscript>
+
+<div id="balloonbox" style="background-image: url(img/balloon1.png);">
+<div id="ballooninner">
+
+<div id="navigate"><center>
+<table style="font-size:100%;">
+	<tbody>
+		<tr>
+			<td>
+		<ul id="nav-one" class="nav">
+			<li>
+				<a href="http://www45.atpages.jp/vipkohaku2012/index.html">Home</a>
+			</li>
+			<li>
+				<a href="http://www45.atpages.jp/vipkohaku2012/about.html">About</a>
+				<ul>
+					<li><a href="http://www45.atpages.jp/vipkohaku2012/about.html#schedule">スケジュール</a></li>
+					<li><a href="http://www45.atpages.jp/vipkohaku2012/about.html#entry">参加方法</a></li>
+					<li><a href="http://www45.atpages.jp/vipkohaku2012/about.html#present">提出方法</a></li>
+					<li><a href="http://www45.atpages.jp/vipkohaku2012/about.html#patch">作品の修正</a></li>
+					<li><a href="http://www45.atpages.jp/vipkohaku2012/about.html#Q&A">Q&A</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="http://www45.atpages.jp/vipkohaku2012/enq.html">投票</a>
+				<ul>
+					<li><a href="http://www45.atpages.jp/vipkohaku2012/enq.html#about">投票審査とは</a></li>
+					<li><a href="http://www45.atpages.jp/vipkohaku2012/enq.html#howto">投票方法</a></li>
+					<li><a href="http://www45.atpages.jp/vipkohaku2012/enq.html#section">審査部門</a></li>
+					<li><a href="http://www45.atpages.jp/vipkohaku2012/enq.html#total">集計</a></li>
+					<li><a href="profile.cgi?tpl=view4&?type=or&key=%92%F1%8Fo%8D%CF%20%20%92x%8D%8F%92%F1%8Fo%20">中間発表</a></li>
+					<li><a href="http://www45.atpages.jp/vipkohaku2012/enq2.html">結果発表</a></li>
+				</ul>
+			<li>
+			<li>
+				<a href="http://www45.atpages.jp/vipkohaku2012/entry.html">作品一覧</a>
+				<ul>
+					<li><a href="profile.cgi?tpl=view">リスト</a></li>
+					<li><a href="profile.cgi?tpl=view3&hor=4">サムネイル</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="http://www45.atpages.jp/vipkohaku2012/bbs.html">BBS</a>
+				<ul>
+					<li><a href="http://jbbs.livedoor.jp/otaku/15695/" target="_blank">運営掲示板</a></li>
+					<li><a href="http://jbbs.livedoor.jp/otaku/15696/" target="_blank">感想掲示板</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="http://www45.atpages.jp/vipkohaku2012/link.html">リンク</a>
+				<ul>
+					<li><a href="http://www53.atwiki.jp/vipkohaku2012_1/" target="_blank">攻略Wiki</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="https://twitter.com/vipkohaku2012_1">Twitter</a>
+			</li>
+			<li>
+<a href="http://www.netriver.jp/product/" target='_blank'>
+<img src="http://www.netriver.jp/countriver/cntriv.cgi?user=vipkohaku2012_1&id=00000000&ptn=15&dig=0" onmouseover='CountRiverMouseOver()' onmouseout='CountRiverMouseOut()' style="border:0; margin: 8px 0 8px 0;" /></a>
+<div id=CountRiverObjDiv style='position:absolute; top:0px; left:0px; display:none; z-index:1000;'></div>
+			</li>
+		</ul>
+			</td>
+		</tr>
+	</tbody>
+</table></center>
+</div>
+
+</div><!--/#ballooninner-->
+</div><!--/#balloonbox-->
+
+<div id="container">
+
+<div class="back">
+<div class="body">
+
+<div id="box2">
+
+<div align="right"><a href="rss.cgi"><img src="rss.gif" width="42" height="14" border="0"></a></div>
+<p>
+[ <a href="http://www45.atpages.jp/vipkohaku2012/">HOME</a> ] 
+[ <a href="profile.cgi?tpl=view">リスト</a> ] 
+[ <a href="profile.cgi?tpl=view3&hor=4">サムネイル</a> ] 
+[ <a href="profile.cgi?tpl=view4&?type=or&key=%92%F1%8Fo%8D%CF%20%20%92x%8D%8F%92%F1%8Fo%20">中間発表</a> ] 
+[ <a href="http://yahoo.jp/c5vIhY" target="_blank">作品保管所①</a> ] 
+[ <a href="http://yahoo.jp/lDCCEz" target="_blank">作品保管所②</a> ]
+</p>
+<table width="100%">
+	<tr valign="bottom">
+		<td style="background:#F77; color:#fff; text-align:center;">登録番号 031 を表示 </td>
+	</tr>
+</table>
+
+<p align=center></p>
+
+<br>
+
+
+<p align=center>
+<table id="entrylist" style="width: 640px; font-size:100%;"><tr>
+<td class="black" style="text-align:right;" ><a href="profile.cgi?_v=030&tpl=view2" target="_self" style="color:#fff;"><< BACK </a></td>
+<td class="black" style="text-align:center;"><a href="profile.cgi?type=all&tpl=view" target="_self" style="color:#fff;">作品一覧</a></td>
+<td class="black" style="text-align:left;"  ><a href="profile.cgi?_v=032&tpl=view2" target="_self" style="color:#fff;">NEXT >></a></td>
+</tr></table>
+
+<table id="entrylist" style="width: 640px; font-size:100%;">
+		<tr>
+			<th class="black"><img src="_img/i/i031.png" width=32 height=32></th>
+			<td class="red" style="color:#000;">No.031 - 独白◆幻肢痛と薔薇に心捧ぐ</td>
+		</tr>
+</table>
+
+<img src="_img/s/s031a1.png" onmouseover="this.src='_img/s/s031a1.png';" onmouseout="this.src='_img/s/s031a1.png';" border="0">
+
+<table id="entrylist" style="width: 640px; font-size:100%;">
+<tr>
+<td class="red" style="padding: 10px 20px; vertical-align: middle;">
+<b><a href="http://yahoo.jp/1rJInf" target="_blank">本体ダウンロード(0.73MB)</a> / <a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1350830720/" target="_blank">BBS</a> / <a href="http://enq-maker.com/iNWJd72" target="_blank">投票</a></b>
+</td>
+</tr>
+<tr>
+<td class="white" style="padding: 4px 20px;">ジャンル：代理ksg</td>
+</tr>
+<tr>
+<td class="white" style="padding: 4px 20px;">ツール：2000</td>
+</tr>
+<tr>
+<td class="white" style="padding: 4px 20px;">配信/投稿：自己責任/自己責任</td>
+</tr>
+<tr>
+<td class="white" style="padding: 4px 20px;">作者：ざるそば</td>
+</tr>
+<tr>
+<td class="white" style="padding: 4px 20px;">作者コメント：<br><br>zip容量で察しろください。<br><br></td>
+</tr>
+<tr>
+<td class="gray" style="padding:  4px 20px;">管理人コメント：<br>(,, x △ x)　＜さっすることのできるこです</td>
+</tr>
+
+		<tr>
+			<td  class="red" style="padding: 10px 20px;">更新履歴 (提出状況：提出済)</td>
+		</tr>
+		<tr>
+			<td  class="white" style="padding: 10px 20px; height:50px;">
+			<div class="new">
+<dl>
+<dt>2012/12/23</dt><dd>ジャンル SS コメント 変更　期日内提出</dd><dt>2012/10/21</dt><dd>エントリー</dd>
+</dl>
+			</div>
+			</td>
+		</tr>
+
+<tr>
+<td class="gray" style="padding:  3px 20px;">
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=031&tpl=view2" data-text="【No.031】独白◆幻肢痛と薔薇に心捧ぐ" data-lang="ja" data-hashtags="vipkohaku2012_031">ツイート</a>
+</td>
+</tr>
+</table>
+
+<table id="entrylist" style="width: 640px; font-size:100%;"><tr>
+<td class="black" style="text-align:right;" ><a href="profile.cgi?_v=030&tpl=view2" target="_self" style="color:#fff;"><< BACK </a></td>
+<td class="black" style="text-align:center;"><a href="profile.cgi?type=all&tpl=view" target="_self" style="color:#fff;">作品一覧</a></td>
+<td class="black" style="text-align:left;"  ><a href="profile.cgi?_v=032&tpl=view2" target="_self" style="color:#fff;">NEXT >></a></td>
+</tr></table>
+
+
+</p>
+
+
+<br>
+
+</table>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+<hr>
+<p align=center>(1/1)</p>
+<div class="pagetop"><a href="#navigate">ページTOPに戻る</a></div>
+
+</div><!--/#box2-->
+
+<!-- このスクリプトをご利用頂くには著作権の表記が条件となっております。 -->
+<h2>COPYPASTE &copy; <a href="http://www10.atwiki.jp/vip_rpg/">2012 VIPRPG</a>.</h2>
+<h2><a href="http://www.coolandcool.net" target="_blank" style="font-size:11pt">Database Factory</a></h2>
+
+</div><!--/#back.body-->
+</div><!--/#back-->
+</div><!--/#container-->
+
+
+<div style="text-align:center; font-size:10px;display:block !important; visibility:visible !important;"><a style="text-decoration:none;font-color:" href="http://atpages.jp/keyword">Powered by キーワード@Pages</a></div><div id="geniee_overray_base" style="z-index:9999;filter:alpha(opacity=60);-ms-filter:alpha(opacity=60);-moz-opacity:0.6; -khtml-opacity:0.6;opacity:0.6;position:fixed;width:100%;height:120px;background-color:black">
+  <img id="geniee_overray_closed" style="left:100%;color:red;"
+src="/_/img/close.png">
+</div>
+<div id="geniee_overray_tag" style="z-index:9999;left:25%;position: fixed;center:100%;">
+<!-- atpages_728_own -->
+<div id='div-gpt-ad-1368774777218-0' style='width:728px; height:90px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+googletag.display('div-gpt-ad-1368774777218-0'); });
+</script>
+</div>
+</div>
+</body>
+</html>

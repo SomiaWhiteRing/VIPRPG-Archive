@@ -1,11 +1,57 @@
 [
   {
+    "id": "2012-kouhaku-work-000",
+    "festivalId": "2012-kouhaku",
+    "no": "000",
+    "title": "サンプル",
+    "author": "管理人",
+    "engine": "RPGツクール2000",
+    "category": "サンプル",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=000&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130206085709id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=000&tpl=view2"
+    },
+    "streaming": "×/×",
+    "authorComment": "<div class=\"source-comment\">ここにコメントがはいりませよ？<br>ここにコメントがはいりましか？<br>ここにコメントがはいれますん<br>ここにコメントがはいらずば<br></div>",
+    "hostComment": "<div class=\"source-comment\">管理人が一言いうかもしれません</div>",
+    "updates": "2012/**/**\nパッチ追加\n2012/**/**\n提出\n2012/**/**\nSS変更\n2012/**/**\nエントリー",
+    "icon": "/icons/2012-kouhaku/i000.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s000a.png"
+    ]
+  },
+  {
     "id": "2012-kouhaku-work-001",
     "festivalId": "2012-kouhaku",
     "no": "001",
     "title": "MAGIC BATTLE",
     "author": "葡萄",
-    "detailDisabled": true
+    "engine": "RPGツクール2000",
+    "category": "遊戯王5D'sウィリー・ブレイカーズ",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=001&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130628093008id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=001&tpl=view2"
+    },
+    "streaming": "可/可",
+    "authorComment": "<div class=\"source-comment\">今年も完成することができなかったのでチュートリアルあり戦闘5回のみの未完成版の提出になります。<br><br>基本操作<br><br>・十字キーでアイコンを選び、<br> ジャンケンに勝利すると攻撃できる。<br><br>・同アイコン二度押しで必殺技が選べる。<br><br>・相手のHPを先に0にすれば勝ち。</div>",
+    "hostComment": "<div class=\"source-comment\"><a href=\"http://vipkohaku2011.web.fc2.com/entry/001.html\">昨年の様子はこちら</a></div>",
+    "updates": "2012/12/21\nSS コメント 変更 期日内提出\n2012/10/03\nエントリー",
+    "icon": "/icons/2012-kouhaku/i001.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s001a1.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1349191563/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/XntxLH",
+        "label": "本体ダウンロード(25.00MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1t-xZSzXHbOOlGyKeURlewvECUyOJOhSV/view?usp=sharing",
+        "label": "保管庫（25.00MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-002",
@@ -13,7 +59,21 @@
     "no": "002",
     "title": "もしも熱血物語だったら",
     "author": "F-man",
-    "detailDisabled": true
+    "engine": "ツクールVXAce",
+    "category": "RPG",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=002&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130117132331id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=002&tpl=view2"
+    },
+    "streaming": "可/可",
+    "authorComment": "<div class=\"source-comment\">すまない、今年中に完成する兆しが見られないので<br>代理のやるゲを出す事になった。<br><br>３DSでFCのダウンタウン熱血物語をやって面白かったので<br>それの雰囲気をイメージした<br>\"オリジナル\"やるゲをtkりたいという感情が高まってな。（原作レ、ゲフンゲフン！！）<br>デフォ戦ゲーになる予定だが、遅刻は目に見えて（ry<br><br>一応Ｄ＆Ｃ２は来年に何とか完成させたいと思っている。<br>マジですまなかった……。</div>",
+    "hostComment": "<div class=\"source-comment\">熱血ッ！</div>",
+    "updates": "2012/12/16\nタイトル SS アイコン コメント 使用ツール 変更\n2012/10/03\nエントリー",
+    "icon": "/icons/2012-kouhaku/i002_1.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s002a1.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1349191596/"
   },
   {
     "id": "2012-kouhaku-work-003",
@@ -21,7 +81,33 @@
     "no": "003",
     "title": "闇市ダンジョン",
     "author": "生糸",
-    "detailDisabled": true
+    "engine": "RPGツクール2000",
+    "category": "ダンジョンRPG",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=003&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130603164232id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=003&tpl=view2"
+    },
+    "streaming": "可/可",
+    "authorComment": "<div class=\"source-comment\">気軽に遊べるダンジョンRPGです。ぼっちの闇商人が、不思議な感じのダンジョンで冒険します。強い武器を作ったり、怖い罠を作ったり、頼れる仲間を作ったりすると探索が捗ると思います。</div>",
+    "hostComment": "<div class=\"source-comment\">「おーし、このパンチ力増強シューズで主人公の腹を・・・」</div>",
+    "updates": "2013/2/7\n作品本体修正　kohaku2012_003_3.zipパッチ追加　kohaku2012_003p11.zip\n2013/2/5\nパッチ追加　kohaku2012_003p10.zip\n2013/2/1\nパッチ追加　kohaku2012_003p9.zip\n2013/1/30\nパッチ追加　kohaku2012_003p8.zip\n2013/1/29\n作品本体修正　kohaku2012_003_2.zipパッチ追加　kohaku2012_003p6.zip　kohaku2012_003p7.zip\n2013/1/23\nパッチ追加　kohaku2012_003p5.zip\n2013/1/23\nパッチ追加　kohaku2012_003p4.zip\n2013/1/22\nパッチ追加　kohaku2012_003p2.zip　kohaku2012_003p3.zip\n2013/1/21\nパッチ追加　kohaku2012_003p1.zip\n2013/1/21\n遅刻提出\n2012/12/20\nSS アイコン サムネイル 変更\n2012/10/03\nエントリー",
+    "icon": "/icons/2012-kouhaku/i003.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s003a1.png",
+      "/screenshots/2012-kouhaku/s003b1.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1349191653/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/sbM1Xz",
+        "label": "本体ダウンロード(11.97MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1tN4uy6_sAkPTcVOJCEmGqH1mhQodAJce/view?usp=sharing",
+        "label": "保管庫（11.97MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-004",
@@ -29,7 +115,32 @@
     "no": "004",
     "title": "プロフェシーへの回帰",
     "author": "めざ",
-    "detailDisabled": true
+    "engine": "RPGツクールVX",
+    "category": "リプレイ",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=004&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130608011603id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=004&tpl=view2"
+    },
+    "streaming": "可/可",
+    "authorComment": "<div class=\"source-comment\">[解説]─━─━─━─━━─━─━─━─━─━─━─━─━─━─━<br><br>【テーブルトークRPG】<br>　プレイヤーがゲームキーパー（進行役）と対話しながら<br>　ゲームの舞台を探索するゲームの事です。　<br><br>【リプレイ】<br>　上記テーブルトークRPGのログ。　見るゲー。<br><br>【ゲームキーパー】<br>　GM    ：Einh    [TRPG歴０ヶ月]<br><br>【探索者】<br>　Hazu  ：Hazu    [TRPG歴０ヶ月]<br>　Tea    ：Tea      [TRPG歴０ヶ月]<br>　Nanashi：Satsu    [TRPG歴０ヶ月]<br>　Meza  ：Meza    [TRPG歴０ヶ月]<br>　Taro  ：Kakusuke [TRPG歴０ヶ月]<br>　Kity  ：Kity    [TRPG歴０ヶ月]<br><br><br>【補足】<br>　耐久値： １になると意識不明に、０になると死亡します。<br>　MP　  ： ０になると意識不明になります。<br>　SAN　 ： 一度に５減ると一時的狂気、1/5減ると不定の狂気、<br>　　　　　　０になると永久的に狂気に陥ります。<br>　　　　　　狂気になると、まともに行動できなくなります。<br><br>　この３つのパラメータが生命線です。<br>━─━─━─━─━─━━─━─━─━─━─━─━─━─━─━─━<br><br>シナリオは「クトゥルフの呼び声」の『悪霊の家』です。<br><br>TRPGをプレイした事が無い方にも、TPRGの雰囲気が伝わると幸いです。<br>とはいえ、キーパー含む全員が未経験者なので、<br>本来の雰囲気とは異なるかもしれません……。</div>",
+    "hostComment": "<div class=\"source-comment\">このMezaって子が酷い目に合うんですね？<br>忍殺語ハワカルカ？</div>",
+    "updates": "2012/12/4\n期日内提出 SS変更\n2012/10/06\nSS変更\n2012/10/03\nエントリー",
+    "icon": "/icons/2012-kouhaku/i004.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s004a2.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1349191683/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/VXnNTA",
+        "label": "本体ダウンロード(5.53MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1T7Bq-BchcM5wWQhNpwxfkBdGNpiNqZ8T/view?usp=sharing",
+        "label": "保管庫（5.53MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-005",
@@ -37,7 +148,36 @@
     "no": "005",
     "title": "Re:0",
     "author": "favossy feat. 月乃マキ",
-    "detailDisabled": true
+    "engine": "2000",
+    "category": "こつこつレベル上げRPG",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=005&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130608011609id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=005&tpl=view2"
+    },
+    "streaming": "可/不可",
+    "authorComment": "<div class=\"source-comment\">デフォ戦です。<br>プレイ時間はおおよそ２ヶ月～３ヶ月、もとい６時間程度だと思います。<br>難易度ぬるめでお送り…し……</div>",
+    "hostComment": "<div class=\"source-comment\">自作リザルト画面ってｗｋｗｋするよね。</div>",
+    "updates": "2013/1/19\nパッチ追加　kohaku2012_005p1.zip\n2013/1/18\n遅刻提出 コメント変更\n2012/10/03\nエントリー",
+    "icon": "/icons/2012-kouhaku/i005.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s005a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1349191724/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/2SZhBG",
+        "label": "本体ダウンロード(37.44MB)"
+      },
+      {
+        "url": "http://yahoo.jp/box/JL3DxU",
+        "label": "パッチ追加"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1GAJpT76L9roBb0Yvz8cMuJOBoC1FBAW8/view?usp=sharing",
+        "label": "保管庫（37.44MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-006",
@@ -45,15 +185,66 @@
     "no": "006",
     "title": "わてり/EXTRA",
     "author": "子狐ヘレンは俺の妹",
-    "detailDisabled": true
+    "engine": "2000",
+    "category": "デフォ戦",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=006&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130605090304id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=006&tpl=view2"
+    },
+    "streaming": "いいんじゃないかな/大丈夫だ、問題ない",
+    "authorComment": "<div class=\"source-comment\">3名くらいで集まって出来たゲームです☆<br>神様、仏様、ヨン様、ちくわ大明神様ありがとー☆<br>わてりがアイツをぶっ飛ばしに行く物語です☆ <br><br>※重要※<br>Fate要素は少なめです☆<br>Fateを知らなくても大丈夫です☆</div>",
+    "hostComment": "<div class=\"source-comment\">何も死ぬこたぁねぇだろう！</div>",
+    "updates": "2012/12/27\n作品本体修正　kohaku2012_006_3.zip\n2012/12/27\n作品本体修正\n2012/12/25\n作品本体修正\n2012/12/21\nコメント変更\n2012/12/11\n期日内提出\n2012/11/18\nSS変更\n2012/11/05\nコメント変更\n2012/10/03\nエントリー",
+    "icon": "/icons/2012-kouhaku/i006.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s006a.png",
+      "/screenshots/2012-kouhaku/s006b1.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1349192103/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/tcwRma",
+        "label": "本体ダウンロード(33.35MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1E0v3D4y42UgAzgRNOuMG-QyApF2PjVWV/view?usp=sharing",
+        "label": "保管庫（33.35MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-007",
     "festivalId": "2012-kouhaku",
     "no": "007",
-    "title": "ある日のナイ軍 ～冬こそ南の島で暖まろうぜSP～",
+    "title": "ある日のナイ軍　～冬こそ南の島で暖まろうぜSP～",
     "author": "四倍速で横走り",
-    "detailDisabled": true
+    "engine": "2000",
+    "category": "オチを全力で投げ捨てる見るゲ",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=007&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130608011615id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=007&tpl=view2"
+    },
+    "streaming": "いいんだよ/ぐりーんだよ",
+    "authorComment": "<div class=\"source-comment\">ちょっと間を空けて自分の作品を見返すとあら不思議！なｔｋｔｋあるある</div>",
+    "hostComment": "<div class=\"source-comment\">まったくもっていつも通りだがどこもおかしくはないな。</div>",
+    "updates": "2013/1/30\nパッチ追加　kohaku2012_007p1.zip\n2012/12/21\nタイトル ジャンル SS サムネイル コメント 配信/投稿 変更 期日内提出\n2012/10/06\nジャンル SS コメント 配信/投稿 変更アイコン追加\n2012/10/04\nエントリー",
+    "icon": "/icons/2012-kouhaku/i007.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s007a2.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1349278028/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/oIyDtx",
+        "label": "本体ダウンロード(4.93MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1KnFnGnQbmMUHnnlZffLaypVy-dYpDwTl/view?usp=sharing",
+        "label": "保管庫（4.93MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-008",
@@ -61,7 +252,32 @@
     "no": "008",
     "title": "もしもアンデッドナイがRPGツクール2003varue+がナイことに怒ったら",
     "author": "りすひームーヨンニイチ",
-    "detailDisabled": true
+    "engine": "焼肉と定食の2000",
+    "category": "君とは響きあわないけどたぶんアンデッドナイがエンターブレインと響きあわないゲーム",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=008&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130608011620id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=008&tpl=view2"
+    },
+    "streaming": "すごくよい/かなりよい",
+    "authorComment": "<div class=\"source-comment\">どうやら、間に合ったようだな。<br>・ksgあり、エターあり、花嫁の冠あり、運ゲーあり、デフォ戦ありの無法ゲーム！７人＋αの対戦相手遊びまくろう！<br>・ゆとりサポートも万全です。デフォ戦モチベエターなってもきっとサラミが助けてくれる！<br>・スクショ詐欺です。あんなかっこいいゲームじゃありません。むしろスベリギャグゲーです。<br>・va「r」ueに関してはあまり触れないでくれ　くださいおねがいします</div>",
+    "hostComment": "<div class=\"source-comment\"><a href=\"https://sites.google.com/site/happybusy/\"><img src=\"/screenshots/2012-kouhaku/busy_banner.png\"></a></div>",
+    "updates": "2013/1/11\n作品本体修正 kohaku2012_008_1.zip\n2013/1/6\n遅刻提出 コメント変更\n2012/10/4\nエントリー",
+    "icon": "/icons/2012-kouhaku/i008.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s008a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1349278073/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/jPfJFy",
+        "label": "本体ダウンロード(1.89MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/12kwSlMMQJ9oMuN7uokRsu4SrTVgMK7W6/view?usp=sharing",
+        "label": "保管庫（1.89MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-009",
@@ -69,7 +285,33 @@
     "no": "009",
     "title": "DARK★HELL",
     "author": "主人公1-2",
-    "detailDisabled": true
+    "engine": "2000",
+    "category": "短編デフォ戦ＲＰＧ",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=009&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130604040055id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=009&tpl=view2"
+    },
+    "streaming": "おｋｋ/ジコセキニン",
+    "authorComment": "<div class=\"source-comment\">エターならないといったな。<br>あれは嘘だ。<br><br><br>流石に二連続でエターなると色々アレなんで<br>投下予定でｔｋっていたデフォ戦ＲＰＧを代理提出したよ。<br><br>たぶんバグあると思う。短い。手抜き。糞バランス。<br>でも結構頑張ったから是非遊んでね。<br><br>ごめん。</div>",
+    "hostComment": "<div class=\"source-comment\">｢うあああああああ！！｣</div>",
+    "updates": "2013/1/8\n作品本体修正　kohaku2012_009_2.zip\n2013/1/5\nパッチ追加　kohaku2012_009p3.zip\n2012/12/27\nパッチ追加\n2012/12/27\n作品本体修正\n2012/12/25\nパッチ追加\n2012/12/23\nタイトル SS コメント 配信/投稿 変更　期日内提出\n2012/10/10\nSS 投稿/配信 変更サムネイル追加\n2012/10/04\nエントリー",
+    "icon": "/icons/2012-kouhaku/i009.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s009a2.png",
+      "/screenshots/2012-kouhaku/s009b2.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1349278141/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/bELP2b",
+        "label": "本体ダウンロード(2.53MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/13wldDVKSaPnrPCvVZAoqyWjsEAz_JkEq/view?usp=sharing",
+        "label": "保管庫（2.53MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-010",
@@ -77,7 +319,32 @@
     "no": "010",
     "title": "MOSIMO QUEST II",
     "author": "こやま",
-    "detailDisabled": true
+    "engine": "RPGツクール2000",
+    "category": "RPG",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=010&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130608011302id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=010&tpl=view2"
+    },
+    "streaming": "可/可",
+    "authorComment": "<div class=\"source-comment\">紅白は2年振りの参加です。よろしくお願いします。</div>",
+    "hostComment": "<div class=\"source-comment\">その名前はあんまりだァ</div>",
+    "updates": "2012/12/30\n作品本体修正 kohaku2012_010_3.zip\n2012/12/29\n作品本体修正 kohaku2012_010_2.zip\n2012/12/27\n作品本体修正\n2012/12/23\n期日内提出\n2012/10/04\nエントリー",
+    "icon": "/icons/2012-kouhaku/rpg.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s010a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1349360442/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/w6V6EZ",
+        "label": "本体ダウンロード(3.75MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1WGX7YrtNIilGUCyqnN5MXj7T6jk8_Uug/view?usp=sharing",
+        "label": "保管庫（3.75MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-011",
@@ -85,7 +352,21 @@
     "no": "011",
     "title": "ポテチ王国狩猟祭",
     "author": "お茶漬け",
-    "detailDisabled": true
+    "engine": "2000",
+    "category": "デフォ戦ＲＰＧ",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=011&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130117132304id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=011&tpl=view2"
+    },
+    "streaming": "可/可",
+    "authorComment": "<div class=\"source-comment\">人狩り行こうぜ！！<br><div class=\"AA\"><br>　　　　　　　　　　／￣￣￣￣￣￣￣￣ヽ <br>　　　　　　　　／　　　　　　　　　　　　　　 ＼ <br>　　　　　　／　　　　　　　　　　　　　　　　　　 ＼ <br>　　　　／　　　 ／⌒⌒⌒⌒⌒へヘヘ⌒⌒＼　　＼ <br>　　　/　　　　　ミ　 ヘ　　　　　　 | | | ミ　　　 ＼　 丿 <br>　　　|　　　　　ミ　　　 ＼.　 　　　| | | ミ　　　　　＼ <br>　　 ノ　　　　　ミ　　　　 　＼　 　 | | | ミ　　　／⌒ | <br>＿ノ──ヽ　　 |　──ヽ　　＼ 丿　ヽ＿／　　　　|　＿ <br>　　 ＿　　 |　　|　 |　　／:::ヽ、 　　　|　_ノ　￣　）／　ノ <br>　　　　 ヽ　|　. |　 ヽ　/:::::::ヽ )　　　 |（ (::::）　　/　 ／ <br>─、　　　　|　　|　　 ￣￣￣　　　　　　　──-　／ <br>　　|＼ 　　 |　　|　　　　　　　　　　　＼　　　　　　| <br>　　|　　●○　　|　　　　　　　　　　　　》　　　　　 | <br>　　|　　　￣ |　.|＼　　　　　「ヽ＿＿＿_　　　　 ／ <br>　　|　　　　　|　|　 ＼　　　　ヽ　　　　／　　 ／　　　&lt;誰かを助けるのに理由がいるかい？<br> 　 ノ　　　　　.|　|　　　＼　　　￣￣￣　　 ／　ヽ <br>　 |　　　　へ|　 |　　　　 ＼＿　　　　　 ／　　　| <br>　|　　　　|　|　　 |─、＿_　　￣ヽ＿ ／|　　　　| <br>丿　　　／　|　　 |　　　　───　　　　|　　　　| <br>　　　ノ　　　|　　 |　　　　　　　　　　　　 |　　　　| </div></div>",
+    "hostComment": "<div class=\"source-comment\">これはきっとリナックスがんばり物語。</div>",
+    "updates": "2012/10/04\nエントリー",
+    "icon": "/icons/2012-kouhaku/i011.jpg",
+    "ss": [
+      "/screenshots/2012-kouhaku/s011a.jpg"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1349360574/"
   },
   {
     "id": "2012-kouhaku-work-012",
@@ -93,7 +374,22 @@
     "no": "012",
     "title": "頭なんて悪くたって勇者の仲間になれるんだ",
     "author": "ひまじんツクール2000",
-    "detailDisabled": true
+    "engine": "2000",
+    "category": "デフォ戦ゲー",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=012&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130117132557id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=012&tpl=view2"
+    },
+    "streaming": "こんなのでよければどうぞ/どうぞどうぞ",
+    "authorComment": "<div class=\"source-comment\">三馬鹿が主人公のデフォ戦ゲーだぜ！<br>まだツクール暦も短くて技術も足りないかもだけど頑張るぜ！<br>ひたすらエターならないように頑張るぜ！</div>",
+    "hostComment": "<div class=\"source-comment\">このパーティだとアイテムが生命線。</div>",
+    "updates": "2012/10/04\nエントリー",
+    "icon": "/icons/2012-kouhaku/i012.gif",
+    "ss": [
+      "/screenshots/2012-kouhaku/s012a.jpg",
+      "/screenshots/2012-kouhaku/s012b.jpg"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1349360609/"
   },
   {
     "id": "2012-kouhaku-work-013",
@@ -101,7 +397,36 @@
     "no": "013",
     "title": "埋もれた素材の夢",
     "author": "牧場の牛肉",
-    "detailDisabled": true
+    "engine": "RPGツクール2000",
+    "category": "やるゲ",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=013&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130605094425id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=013&tpl=view2"
+    },
+    "streaming": "可/可",
+    "authorComment": "<div class=\"source-comment\">神父とダッツが主人公の素材供養やるゲ。<br>と言っても大体が使いたいと思った素材ばかりです。<br><br>ちょっと変わった事に挑戦してみるのもアリだなー<br>と後で思える作品にしたいと思います。</div>",
+    "hostComment": "<div class=\"source-comment\">神父とダッツとはいいところに目をつけましたね。</div>",
+    "updates": "2013/1/4\nパッチ追加 kohaku2012_013p4.zip\n2013/1/3\nパッチ追加 kohaku2012_013p3.zip\n2012/12/29\nパッチ追加 kohaku2012_013p2.zip\n2012/12/27\nパッチ追加\n2012/12/23\n期日内提出\n2012/10/06\nエントリー",
+    "icon": "/icons/2012-kouhaku/i013.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s013a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1349498927/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/-6fAKV",
+        "label": "本体ダウンロード(11.66MB)"
+      },
+      {
+        "url": "http://yahoo.jp/WtRtO1",
+        "label": "パッチ追加"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1ZvHar6rUyKN9X6fZvhQY29E7Nru4F18r/view?usp=sharing",
+        "label": "保管庫（11.66MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-014",
@@ -109,7 +434,33 @@
     "no": "014",
     "title": "AsteDream -もしもエルシャダイがRPGだったら-",
     "author": "くらむぼん",
-    "detailDisabled": true
+    "engine": "RPGツクール2000",
+    "category": "ゲーム",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=014&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130608011307id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=014&tpl=view2"
+    },
+    "streaming": "大丈夫だ/問題ない",
+    "authorComment": "<div class=\"source-comment\">「昔は、この空は一面の青色だった。白い塊も点々と浮かんでいたけどね。<br>本当さ。その証拠に海は空の色を記憶していて、青く光っているだろう？」<br>…曾祖父は言う。どうせいつものホラ話だろう、と僕は思った。</div>",
+    "hostComment": "<div class=\"source-comment\">そのことを話すと妹は青ざめてこう言った。<br>「ひいおじいちゃんはもういないよ…」<br><br>＼ホラー話／</div>",
+    "updates": "2012/12/28\nSS変更\n2012/12/25\nSS アイコン サムネイル 変更\n2012/12/23\n期日内提出\n2012/10/06\nエントリー",
+    "icon": "/icons/2012-kouhaku/i014_1.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s014a1.png",
+      "/screenshots/2012-kouhaku/s014b2.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1349525792/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/fJBeGQ",
+        "label": "本体ダウンロード(10.62MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1ySbdep4oDsTUSTepckPBhN0OXoLx85o9/view?usp=sharing",
+        "label": "保管庫（10.62MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-015",
@@ -117,15 +468,70 @@
     "no": "015",
     "title": "英霊旅日記",
     "author": "鷹",
-    "detailDisabled": true
+    "engine": "2000",
+    "category": "仲間の力を思い知る正統派デフォ戦RPG",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=015&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130608011625id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=015&tpl=view2"
+    },
+    "streaming": "可/可",
+    "authorComment": "<div class=\"source-comment\">【シナリオ】<br>拓かれた大地に永い時が過ぎ、新たなる時代が廻るようになった世界。<br><br>その「日記」はやがて「旅」に至り、その「旅」はやがて新たなる「日記」となる。<br>「運命」と「数奇」の向こう側で紡がれる、「戦い」と「ひと」と、少女の「旅と日記」の物語。<br><br>その全ては、はたして「運命」だったのか、「数奇」だったのか。<br><br>【システム】<br>地球に優しいリユース、リサイクルの多人数型デフォ戦RPG。　<br><br>【その他】<br>プロローグしかできなくてごめんね。</div>",
+    "hostComment": "<div class=\"source-comment\">ドラホコは画面が賑やかになっていいよね！</div>",
+    "updates": "2012/12/28\nパッチ追加　kohaku2012_015p1.zip\n2012/12/22\nコメント変更　期日内提出\n2012/12/11\nSS コメント 変更\n2012/10/06\nエントリー",
+    "icon": "/icons/2012-kouhaku/rpg.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s015a1.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1349525825/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/gDdpcw",
+        "label": "本体ダウンロード(18.75MB)"
+      },
+      {
+        "url": "http://yahoo.jp/eGsjUe",
+        "label": "パッチ追加"
+      },
+      {
+        "url": "https://drive.google.com/file/d/16ffCenmB0f1goKMwrlEbEiM-2ujEfu6-/view?usp=sharing",
+        "label": "保管庫（18.75MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-016",
     "festivalId": "2012-kouhaku",
     "no": "016",
-    "title": "ケツアクメ120連発 ケツアヘ傑作選",
-    "author": "ケツアクメ120連発 ケツアヘ傑作選",
-    "detailDisabled": true
+    "title": "ケツアクメ120連発　ケツアヘ傑作選",
+    "author": "ケツアクメ120連発　ケツアヘ傑作選",
+    "engine": "2000",
+    "category": "ksg集",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=016&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130608011630id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=016&tpl=view2"
+    },
+    "streaming": "不可/不可",
+    "authorComment": "<div class=\"source-comment\">今までスレに投下した安価ksg247個(2012年10月6日現在)の中から<br>適当に120個を選んで詰め込んだ<br>いわゆるひとつのオレクション</div>",
+    "hostComment": "<div class=\"source-comment\">作りすぎィ！</div>",
+    "updates": "2012/12/22\n期日内提出\n2012/10/06\nエントリー",
+    "icon": "/icons/2012-kouhaku/i016.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s016a.png",
+      "/screenshots/2012-kouhaku/s016b.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1349525874/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/yKDz5j",
+        "label": "本体ダウンロード(5.38MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1g3YUv5cHecbHFv1hA_GfnzQ1TbjwJElv/view?usp=sharing",
+        "label": "保管庫（5.38MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-017",
@@ -133,7 +539,9 @@
     "no": "017",
     "title": "やみいっちゃんとエッチなことをするゲーム",
     "author": "ちんちんのびる",
-    "detailDisabled": true
+    "engine": "2000",
+    "category": "ｋｓｇ",
+    "contentRestricted": true
   },
   {
     "id": "2012-kouhaku-work-018",
@@ -141,7 +549,21 @@
     "no": "018",
     "title": "トラッシュ",
     "author": "ひらやまんこ",
-    "detailDisabled": true
+    "engine": "2000",
+    "category": "ゴメスの奇妙な冒険",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=018&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130117132854id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=018&tpl=view2"
+    },
+    "streaming": "不可/不可",
+    "authorComment": "<div class=\"source-comment\">人を愛した記憶はゴミのようには捨てられない。<br>勇者アレックスを愛したゴメス。<br>愛が真実だったとしたら、なぜ二人は傷つき別れなければならなかったのか……。</div>",
+    "hostComment": "<div class=\"source-comment\">愛ゆえに人は苦しまねばならぬ！！<br>愛ゆえに人は悲しまねばならぬ！！<br>愛ゆえに・・・</div>",
+    "updates": "2012/10/07\nエントリー",
+    "icon": "/icons/2012-kouhaku/i018.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s018a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1349610342/"
   },
   {
     "id": "2012-kouhaku-work-019",
@@ -149,7 +571,21 @@
     "no": "019",
     "title": "P",
     "author": "G",
-    "detailDisabled": true
+    "engine": "2000",
+    "category": "R",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=019&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130117132804id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=019&tpl=view2"
+    },
+    "streaming": "可/可",
+    "authorComment": "<div class=\"source-comment\">お前たちは既に知っている筈だ、我が何であるのか。<br>お前たちはかつて目の当たりにしたであろう、彼の伝説を。<br>我は彼にあらず、ただ彼の信奉者の一人に過ぎぬ。<br>お前たちは彼の信奉者たちをもまた、知っている筈だ。<br>彼を敬え。彼を讃えよ。彼を崇めよ。</div>",
+    "hostComment": "<div class=\"source-comment\"><div>なんだこのオニイサン！？（驚愕）</div></div>",
+    "updates": "2012/10/07\nエントリー",
+    "icon": "/icons/2012-kouhaku/i019.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s019a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1349610372/"
   },
   {
     "id": "2012-kouhaku-work-020",
@@ -157,15 +593,54 @@
     "no": "020",
     "title": "Iｆ-Live code is flower-",
     "author": "B.B",
-    "detailDisabled": true
+    "engine": "RPGツクール2003",
+    "category": "やるゲ",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=020&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130117132811id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=020&tpl=view2"
+    },
+    "streaming": "可/可",
+    "authorComment": "<div class=\"source-comment\">魔王と勇者軍との戦いから2年、遺された者達の物語。<br><br>2003の仕様に色々泣かされましたが、なんとか完成しました。</div>",
+    "hostComment": "<div class=\"source-comment\">待っていたぞ。<br>具体的にいうとリングメニューの動作確認のためにテスト投下されたときから。</div>",
+    "updates": "2012/10/10\nエントリー",
+    "icon": "/icons/2012-kouhaku/i020.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s020a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1349878459/"
   },
   {
     "id": "2012-kouhaku-work-021",
     "festivalId": "2012-kouhaku",
     "no": "021",
-    "title": "THE 運ゲー ～地底に沈んだ魔王城～",
+    "title": "THE　運ゲー　～地底に沈んだ魔王城～",
     "author": "エターナラー2世",
-    "detailDisabled": true
+    "engine": "2k",
+    "category": "超過激スカトロ系AV",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=021&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130628075649id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=021&tpl=view2"
+    },
+    "streaming": "可/可",
+    "authorComment": "<div class=\"source-comment\">この作品の進捗状況は俺のセンター試験の点とトレードオフの関係にある…<br>つまり、この作品が提出された時俺の志望校落ちは確定しているのだ。</div>",
+    "hostComment": "<div class=\"source-comment\">『作品は完成させる』『テスト勉強もする』<br>「両方」やらなくっちゃあならないってのが「学生ツクラー」のつらいところだな<br>覚悟はいいか？</div>",
+    "updates": "2012/12/23\n期日内提出\n2012/10/10\nエントリー",
+    "icon": "/icons/2012-kouhaku/hatena.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s021a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1349878505/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/BGeZqz",
+        "label": "本体ダウンロード(0.05MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1EELxCCMT65ZaFKSg14NIZD8Y345t26db/view?usp=sharing",
+        "label": "保管庫（0.05MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-022",
@@ -173,15 +648,54 @@
     "no": "022",
     "title": "太陽と竜巻",
     "author": "かなしみホッチキズ",
-    "detailDisabled": true
+    "engine": "RPGツクール2000",
+    "category": "やるksg",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=022&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130117132527id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=022&tpl=view2"
+    },
+    "streaming": "○/○",
+    "authorComment": "<div class=\"source-comment\">ユーゴくんとトルネードⅠくんがコンビを組んで大活躍したい<br>タッグバトルがテーマのデフォ戦RPGモドキにしたいです。</div>",
+    "hostComment": "<div class=\"source-comment\">タッグバトルで相方が戦闘不能や非操作状態になったときの孤立感は異常。</div>",
+    "updates": "2012/10/10\nエントリー",
+    "icon": "/icons/2012-kouhaku/i022.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s022a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1349878537/"
   },
   {
     "id": "2012-kouhaku-work-023",
     "festivalId": "2012-kouhaku",
     "no": "023",
-    "title": "ドキ☆ gomezだらけの危ない学園生活 ～あなたはゴメスを信じますか？～",
+    "title": "ドキ☆　gomezだらけの危ない学園生活　～あなたはゴメスを信じますか？～",
     "author": "エル",
-    "detailDisabled": true
+    "engine": "2000人のゴメス",
+    "category": "ゴメスゲー",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=023&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130628085258id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=023&tpl=view2"
+    },
+    "streaming": "逆に聞くけど、そんなにゴメスが好きなんだ？",
+    "authorComment": "<div class=\"source-comment\"><font>あなたはゴメスが好きですか？</font><br><br>製品概要：<br>　内容 ―― ゴメスとキャッキャウフフ出来るかもしれない<br>　分類 ―― 至って平凡なノベル形式<br>　時間 ―― √１時間半<br>　保存 ―― 可<br>　戦闘 ―― 無<br>　分岐 ―― 有<br>　進行 ―― 鈍意作成中<br>　一言 ―― 何が起きても怒らないであげて下さい</div>",
+    "hostComment": "<div class=\"source-comment\">ゴメスかぁ～～～～！</div>",
+    "updates": "2012/12/23\n期日内提出\n2012/10/15\nエントリー",
+    "icon": "/icons/2012-kouhaku/i023.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s023a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1350253813/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/KvRQDf",
+        "label": "本体ダウンロード(2.03MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1FO7wYhUZbMWJb7vIViR1OPmMGXzAZqEp/view?usp=sharing",
+        "label": "保管庫（2.03MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-024",
@@ -189,7 +703,32 @@
     "no": "024",
     "title": "VIPツクスレ 勝手に新人賞授賞式’12",
     "author": "トカゲのしっぽな",
-    "detailDisabled": true
+    "engine": "2000",
+    "category": "みるksg",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=024&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130608011318id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=024&tpl=view2"
+    },
+    "streaming": "こんなksgでよければ/自己責任でどうぞ",
+    "authorComment": "<div class=\"source-comment\">アレックスのアナルがエターなったようです。<br>代理としてスレに投下しようと思ってたksgを提出させていただきます。</div>",
+    "hostComment": "<div class=\"source-comment\">新しい朝なんだぜ。</div>",
+    "updates": "2012/12/23\nタイトル ジャンル SS サムネイル アイコン コメント 配信/投稿 変更 期日内提出\n2012/10/15\nエントリー",
+    "icon": "/icons/2012-kouhaku/i024_1.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s024a1.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1350302346/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/JNly17",
+        "label": "本体ダウンロード(18.08MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1X56JUPSMwNPTvko1P1YBH4b461hfFv11/view?usp=sharing",
+        "label": "保管庫（18.08MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-025",
@@ -197,7 +736,36 @@
     "no": "025",
     "title": "SEPPUKU",
     "author": "Ｋ・Ｒ・シュタインベルク",
-    "detailDisabled": true
+    "engine": "2000",
+    "category": "切腹ＳＬＧ",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=025&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130605020257id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=025&tpl=view2"
+    },
+    "streaming": "可/不可",
+    "authorComment": "<div class=\"source-comment\">時は200X年。<br>ジミン党出身である首相・麻生をクーデターで追い出した民主友愛党は、鳩山ぽっぽによる政権を打ち立てた。しかし、鳩山の「この国は日本人だけのものではない」発言により、この国に激震が起こった。<br>時空を超え、国境を越え、フィクションノンフィクションの壁さえ超えて、１５名の指導者が民主友愛党政権を打ち崩し、己が新たな指導者にならんと立ち上がったのであった…。<br><br>勝てば相手が、負けたら自分が切腹。<br>己の恥が極限まで高まっても切腹。そんなゲームです。</div>",
+    "hostComment": "<div class=\"source-comment\">全自動処断システムってことか便利な世の中になったもんだ。</div>",
+    "updates": "2013/1/26\nパッチ追加　kohaku2012_025p7.zip\n2013/1/2\nパッチ追加　kohaku2012_025p6.zip\n2013/1/1\nパッチ追加　kohaku2012_025p5.zip\n2012/12/30\nパッチ追加　kohaku2012_025p4.zip\n2012/12/28\nパッチ追加 kohaku2012_025p3.zip\n2012/12/27\nパッチ追加\n2012/12/23\n期日内提出\n2012/10/16\nエントリー",
+    "icon": "/icons/2012-kouhaku/i025.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s025a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1350395639/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/m0spUB",
+        "label": "本体ダウンロード(2.41MB)"
+      },
+      {
+        "url": "http://yahoo.jp/box/cVKcLd",
+        "label": "パッチ追加"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1dKBENKxZ_fnqtW71PLIRpispSA0wpKmZ/view?usp=sharing",
+        "label": "保管庫（2.41MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-026",
@@ -205,7 +773,32 @@
     "no": "026",
     "title": "いつか見た夢の続きを",
     "author": "あひょふりぐ",
-    "detailDisabled": true
+    "engine": "2000",
+    "category": "プチ探索ゲー",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=026&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130608011323id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=026&tpl=view2"
+    },
+    "streaming": "許可のチャンドラ/許可の炎",
+    "authorComment": "<div class=\"source-comment\">モチベエターなった＼(^o^)／<br><br>■俺<br>初参加。<br><br>■フレイバーテキスト<br>危険！　ウィンディをイベントに近づけないこと。上層マップにも近づけないこと。<br>下層マップにも近づけないこと。主人公にも近づけないこと。メニュー画面にも近づけないこと。</div>",
+    "hostComment": "<div class=\"source-comment\">虚弱体質じゃねえか！果物包んで見舞い行こうぜ。</div>",
+    "updates": "2013/2/7\n作品本体修正 kohaku2012_026_1.zip\n2012/12/27\nパッチ追加\n2012/12/23\nジャンル SS コメント 変更　期日内提出\n2012/10/17\nエントリー",
+    "icon": "/icons/2012-kouhaku/i026.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s026a1.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1350483713/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/GiThYo",
+        "label": "本体ダウンロード(1.26MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1MXwkovkCVePVtyvl5P8leRfNqvVaKw0d/view?usp=sharing",
+        "label": "保管庫（1.26MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-027",
@@ -213,15 +806,69 @@
     "no": "027",
     "title": "アブソーバーヒストリー",
     "author": "女体化ダークメカアレックス",
-    "detailDisabled": true
+    "engine": "RPGツクール2000",
+    "category": "動くＲＰＧ",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=027&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130608011635id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=027&tpl=view2"
+    },
+    "streaming": "お好きに/どうぞ",
+    "authorComment": "<div class=\"source-comment\">君とアニメーションするＲＰＧ<br>自作戦闘ｔｋるのすこぶる楽しいぜひゃっほう</div>",
+    "hostComment": "<div class=\"source-comment\">「これから物凄く動きますよ」感溢れてるな！</div>",
+    "updates": "2012/12/25\nパッチ追加\n2012/12/11\n期日内提出 SS変更\n2012/10/18\nエントリー",
+    "icon": "/icons/2012-kouhaku/i027.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s027a1.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1350560616/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/8N7qDn",
+        "label": "本体ダウンロード(1.39MB)"
+      },
+      {
+        "url": "http://yahoo.jp/8nclkd",
+        "label": "パッチ追加"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1lRm8ACf8zX0W3CsbNWgDqyR_ZxMnwq4z/view?usp=sharing",
+        "label": "保管庫（1.39MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-028",
     "festivalId": "2012-kouhaku",
     "no": "028",
-    "title": "飢えるハーナス 勝手に続き",
+    "title": "飢えるハーナス　勝手に続き",
     "author": "ハー芋",
-    "detailDisabled": true
+    "engine": "VX Ace",
+    "category": "真の愛を探し求めるRPG(見るゲ)",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=028&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130608011640id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=028&tpl=view2"
+    },
+    "streaming": "自己責任でイイヨ!",
+    "authorComment": "<div class=\"source-comment\">スレに投下された別作者様の「飢えるハーナス」の後日談のようなものを勝手に作らせていただいたものです。<br>元作品の作者様に全力で「申し訳ございません」</div>",
+    "hostComment": "<div class=\"source-comment\">8931(白菜)</div>",
+    "updates": "2013/1/29\n作品本体修正　kohaku2012_028_1.zip\n2012/12/15\n期日内提出\n2012/12/7\n作者名 ジャンル SS 配信/投稿 変更\n2012/12/1\nSS変更\n2012/10/18\nエントリー",
+    "icon": "/icons/2012-kouhaku/i028.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s028b1.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1350560651/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/aPRpWj",
+        "label": "本体ダウンロード(9.03MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1EqMLAue5FyI0E2qPO6Ee79VCk7VHaM9b/view?usp=sharing",
+        "label": "保管庫（9.03MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-029",
@@ -229,7 +876,21 @@
     "no": "029",
     "title": "ブーム君の屍を超えてゆけ",
     "author": "うにうじ",
-    "detailDisabled": true
+    "engine": "2000",
+    "category": "ブーム君",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=029&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130117132108id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=029&tpl=view2"
+    },
+    "streaming": "屍/屍",
+    "authorComment": "<div class=\"source-comment\">死にそう</div>",
+    "hostComment": "<div class=\"source-comment\">あなたに、力を・・・</div>",
+    "updates": "2012/10/20\nエントリー",
+    "icon": "/icons/2012-kouhaku/i029.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s029a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1350683042/"
   },
   {
     "id": "2012-kouhaku-work-030",
@@ -237,7 +898,36 @@
     "no": "030",
     "title": "もしもセイブザクイーン2/3",
     "author": "障子にメアリー",
-    "detailDisabled": true
+    "engine": "RPGツクール2000",
+    "category": "デフォ戦RPG",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=030&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130608011328id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=030&tpl=view2"
+    },
+    "streaming": "可/可",
+    "authorComment": "<div class=\"source-comment\">1/3増えたよ！やったねゴメちゃん！<br><br>紅白2011の前作から+3時間ぐらい遊べます！最初からやったら7時間ぐらい！<br>やるゲ７：みるゲ３　程度の割合でお送りします。眠くなったらゴメス！デフォ戦RPGです！<br>またこんなことになって申し訳無いけど出すぞ！俺の1年間をくらえ！！！</div>",
+    "hostComment": "<div class=\"source-comment\">賑やか感溢れる！</div>",
+    "updates": "2012/12/31\n作品本体修正 kohaku2012_030_1.zipパッチ追加 kohaku2012_030p1.zip\n2012/12/23\nタイトル コメント 変更　期日内提出\n2012/10/20\nエントリー",
+    "icon": "/icons/2012-kouhaku/rpg.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s030a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1350744673/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/lnStHY",
+        "label": "本体ダウンロード(9.98MB)"
+      },
+      {
+        "url": "http://yahoo.jp/qtm7S8",
+        "label": "パッチ追加"
+      },
+      {
+        "url": "https://drive.google.com/file/d/14yzSwqKVEaiqhiJrVXj0Le-rhTOlowG8/view?usp=sharing",
+        "label": "保管庫（9.98MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-031",
@@ -245,7 +935,32 @@
     "no": "031",
     "title": "独白◆幻肢痛と薔薇に心捧ぐ",
     "author": "ざるそば",
-    "detailDisabled": true
+    "engine": "2000",
+    "category": "代理ksg",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=031&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130608011333id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=031&tpl=view2"
+    },
+    "streaming": "自己責任/自己責任",
+    "authorComment": "<div class=\"source-comment\"><br>zip容量で察しろください。<br><br></div>",
+    "hostComment": "<div class=\"source-comment\">(,, x △ x)　＜さっすることのできるこです</div>",
+    "updates": "2012/12/23\nジャンル SS コメント 変更　期日内提出\n2012/10/21\nエントリー",
+    "icon": "/icons/2012-kouhaku/i031.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s031a1.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1350830720/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/1rJInf",
+        "label": "本体ダウンロード(0.73MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1a5aHJPM1_M64YrB0YkiGRWYXhR4BJmtw/view?usp=sharing",
+        "label": "保管庫（0.73MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-032",
@@ -253,7 +968,32 @@
     "no": "032",
     "title": "タイトルが未定みていな俺コレクション",
     "author": "N-NASI-SAN",
-    "detailDisabled": true
+    "engine": "2000",
+    "category": "Ksgコレクション",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=032&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130608011338id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=032&tpl=view2"
+    },
+    "streaming": "可",
+    "authorComment": "<div class=\"source-comment\">自作品レビューとかしたので、せっかくだから<br>今までのスレ投下ksg達(パー速含む)をコレクション形式で出してみようと思った。<br>注意点<br>＊読むゲが結構多いよ。<br>＊ergがあるよ。</div>",
+    "hostComment": "<div class=\"source-comment\"><img src=\"/screenshots/2012-kouhaku/fujisan.png\"><br>どっちがいい？</div>",
+    "updates": "2012/12/1\n期日内提出\n2012/10/22\nエントリー",
+    "icon": "/icons/2012-kouhaku/i032.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s032a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1350917813/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/lgOMrb",
+        "label": "本体ダウンロード(7.54MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1qGxVnzwNr1M7aV3GlTdqYLhYzt9Pl4nJ/view?usp=sharing",
+        "label": "保管庫（7.54MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-033",
@@ -261,7 +1001,37 @@
     "no": "033",
     "title": "さよなら、モナーＲＰＧ。",
     "author": "ローゼンクロイツ ◆ Mvhdw.2dlc",
-    "detailDisabled": true
+    "engine": "RPGツクール2000",
+    "category": "はぁとメタメタＲＰＧ",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=033&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130628073344id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=033&tpl=view2"
+    },
+    "streaming": "可/可",
+    "authorComment": "<div class=\"source-comment\">一年ぶりでございます、ローゼンクロイツです。<br>今年も皆様に遊んで頂きたくゲヱムをこさえて参りました。<br><br>ところで、皆様は今日の自分の言動が<br>誰も傷付けていないと胸を張って言えますか？<br><br>私は言えません。<br><br>何故なら、人はとても傷付きやすいにも関わらず<br>そんな事などいちいち気にせず行動し<br>言葉を吐き散らすものだからです。<br><br>今日の何気ない言葉の全てが、<br>今日の何気ない仕草の全てが、<br>貴方ではない大切な誰かを切り刻む<br>剃刀だったかもしれないのです。<br><br>しかし、そんな事をいちいち気にしていられる程<br>みんな暇ではないですよね。<br>だからある意味仕方のない事なのだと思います。<br><br>仕方のない事なのだと思います。<br>仕方のない事なのだと思います。<br>仕方のない事なのだと思います。<br>仕方のない事なのだと思います。<br><br><br>だから、いちいち恐れてなどいられないのです。</div>",
+    "hostComment": "<div class=\"source-comment\">「心を亡くすと書いて忙しい。なんだか哀しいわね」<br>「でも、人は心だけでは生きてはいけませんから」<br>「心を亡くしながら人は生きているのね」<br>「心を養うことも、どこかでしていますよ。自覚はともあれね」</div>",
+    "updates": "2012/12/30\nパッチ追加　kohaku2012_033p1.zip\n2012/12/1\n期日内提出\n2012/10/22\nエントリー",
+    "icon": "/icons/2012-kouhaku/i033.gif",
+    "ss": [
+      "/screenshots/2012-kouhaku/s033a.jpg",
+      "/screenshots/2012-kouhaku/s033b.jpg"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1350917844/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/z7T8D4",
+        "label": "本体ダウンロード(37.39MB)"
+      },
+      {
+        "url": "http://yahoo.jp/vyXcoM",
+        "label": "パッチ追加"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1fGgrt6sgd2NLG1f9CbfHPuJllIgp9Y6R/view?usp=sharing",
+        "label": "保管庫（37.39MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-034",
@@ -269,7 +1039,32 @@
     "no": "034",
     "title": "ナイ軍の借金返済作戦",
     "author": "knt",
-    "detailDisabled": true
+    "engine": "RPGツクール２０００　Undead Nigh Edition",
+    "category": "見るゲ",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=034&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130608011645id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=034&tpl=view2"
+    },
+    "streaming": "OK!/OK!",
+    "authorComment": "<div class=\"source-comment\">ナイ軍は根本的な問題を解決していなかった、借金という問題を<br><br>ナイ城再建物語、ナイ軍のクリスマスに引き続きまた個性的な集団がやらかします<br>借金が返せない、このままでは城も取り立てられてしまう<br>そんな訳で依頼を一杯こなしてお金を稼ごう、という物語です<br><br>誰かがエロい目に遭ったり脱いだりもしませんし<br>首をはねられたり肉塊にされたり死ぬ事もありません、多分。</div>",
+    "hostComment": "<div class=\"source-comment\">連中の借金問題はそろそろちゃんとした窓口に相談しに行ってもいいレベル</div>",
+    "updates": "2013/1/30\n作品本体修正 kohaku2012_034_1.zip\n2012/12/23\n期日内提出\n2012/10/23\nエントリー",
+    "icon": "/icons/2012-kouhaku/i034.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s034a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1351003855/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/tDn_K3",
+        "label": "本体ダウンロード(14.42MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1jMdueOVEy7bi-WOA4VzPXdCixW3Apmem/view?usp=sharing",
+        "label": "保管庫（14.42MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-035",
@@ -277,7 +1072,32 @@
     "no": "035",
     "title": "Mega Moshimo",
     "author": "うっぺれ",
-    "detailDisabled": true
+    "engine": "RPGツクール2000",
+    "category": "アクション",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=035&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130605100814id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=035&tpl=view2"
+    },
+    "streaming": "可/可",
+    "authorComment": "<div class=\"source-comment\">ロックマン×もしも　なアクションゲームです。<br>基盤は無印ロックマンシリーズですが、随所にXシリーズや他のアクションゲームのオマージュ、独自要素なども含まれます。<br>ロックマン既プレイヤー向けのNormalモードと、さくさくやりたい人向けのEasyモードを用意するつもりですが、個人制作のアクションゲームの宿命上、難易度は高めになるかもです。</div>",
+    "hostComment": "<div class=\"source-comment\"><div class=\"AA\">ﾟ O　+　,_'ﾆニ.._`ヽ､　 ＼、 . 　o ﾟ　　 ○ * 　 /　!|:::／　　　　／ ./:::::::::::::::::::::::::::::::<br>o .　／::::::::::,::､:::::ヽ､ &gt;===ﾐiヽ 　 .　Ｏ　　｡　　/　l:,r'＿_..　　/ 　 /:::::::::::::::::::::::::::::::::<br>　,r'::::::::,r ´　　 ＼::`く:. .:::::::l!:::＼ 　 .　ﾟ 　 　/　 l/...--‐‐　,' 　 /::::::::::::::::::::::::,::--､::<br>./::::::／　　　、　　 ＼ヽ:::::::::l::,'　ヽ 　　　O　/　 ｆ:‐.‐,.= ‐:7i　,r':::::::::::::,ｨ1:::::/　　,..､ヽ<br>i::;:::/　　／／,'`丶、　ヽﾞー'::/　,､ | ｡o　　. ﾟ/　　!f´: : : ::/ |／:::::::::,／ l::|::::i　　 i‐&lt;ヽ<br>\"::`､　 f　' 　 l.　　ｎ｀'ｉ､ヽ:::/／〉_〉!　 　 　 /　　 |!: : : :/.／:::::::,r '´　　!:l:::::l 　　!:::〔´<br>ヽ::::::',. ｌ i　 ＿',_　∪ l 　`ﾞｲj |.//´　　　 ｡/　　　 !'; :/／:_:- ´__,,.=　 /:/::::::l　　',:::ﾉ`<br>:い,::::::l ｉ l　　ｰ　｀ _¨　　 /｀ ´iｨ} 　 *　ﾟ　/ 　 　　',／ｨ')´　´￣ 〃/::/::::::::::',　　ゝﾝ<br>ゞ､ｿi::::い ',　 　　├ ￣ﾆ￢　 l'　　　o　./ 　 　 　　ﾉ:,&lt;_　　　　　〈::〈:::i:::i:::::::ヽ､__,.r',<br>_ `ｰﾄｪ'　ヽヽ　　　l￣ ヾ､/　 / 　 ﾟ　　 / 　 　 　　ヽヽ:＼ ヽﾆ‐'´　',:::',::i:::i::::::::_:-ィﾍ<br>::｀:ヽ､_|｀`ｰ=ヾ_ 　丶＿ﾝ　／　○ 　ﾟ ./　 　　　__... -ヽヽ:ヽ　ｰ　　 _';_:,_:-‐''´::::_::,ﾞ-<br>: : : : : :ヽ、＿___`_- ...__.／　　 ＿　　 /　　　iヽr､‐'''￣ ﾞｰ'\"｀‐-‐1´:::::_::::::--f:´:/　r<br>────────────────────────────────<br><br>　　　　　　　　　オ マ エ の た め に　 は や お き し て<br>　　　　　　　　お べ ん と う つ く っ て き た ん だ<br>　　　　　　　　　　　　　　　　　　　　　　 ▼</div></div>",
+    "updates": "2013/2/7\n作品本体修正 kohaku2012_035_3.zip\n2013/1/10\n作品本体修正 kohaku2012_035_2.zip\n2013/1/5\nパッチ追加　kohaku2012_035p1.zip\n2012/12/29\n作品本体修正 kohaku2012_035_1.zip\n2012/12/23\n期日内提出\n2012/10/26\nエントリー",
+    "icon": "/icons/2012-kouhaku/i035.gif",
+    "ss": [
+      "/screenshots/2012-kouhaku/s035a.jpg"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1351202460/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/t-YK1G",
+        "label": "本体ダウンロード(5.17MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/11g2HpyirHZ7ZAc0XhskfY_i1S-jGlkGt/view?usp=sharing",
+        "label": "保管庫（5.17MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-036",
@@ -285,7 +1105,21 @@
     "no": "036",
     "title": "アンリミテッドFATE",
     "author": "えんがわ",
-    "detailDisabled": true
+    "engine": "RPGツクール2000",
+    "category": "ksg",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=036&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130117132118id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=036&tpl=view2"
+    },
+    "streaming": "おｋ/おｋ",
+    "authorComment": "<div class=\"source-comment\">名作fateをうろおぼえでリメイクしてみました。一月中旬ぐらいにはうｐりたいと思います。</div>",
+    "hostComment": "<div class=\"source-comment\">トゥース編（月姫）</div>",
+    "updates": "2013/1/10\nタイトル SS ジャンル コメント 使用ツール 投稿/配信 変更\n2012/10/28\nエントリー",
+    "icon": "/icons/2012-kouhaku/rpg.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s036a1.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1351427994/"
   },
   {
     "id": "2012-kouhaku-work-037",
@@ -293,7 +1127,36 @@
     "no": "037",
     "title": "もしもこねくしょん",
     "author": "名無しについて",
-    "detailDisabled": true
+    "engine": "2000",
+    "category": "コレクション",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=037&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130628085304id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=037&tpl=view2"
+    },
+    "streaming": "超越にＯＫ/大丈夫過ぎる、問題ない",
+    "authorComment": "<div class=\"source-comment\">――――――――<br><br>この作品は<br>オリジナル設定やマイナー設定<br>東方キャラが混じってる<br>『ルズ』氏の世界観が混ざってる<br><br><br>これらを嫌う方は<br>温かい目でスルーしてください<br><br><br>――――――――</div>",
+    "hostComment": "<div class=\"source-comment\">アルベルト「ひっ」</div>",
+    "updates": "2013/1/12\nパッチ追加　kohaku2012_037p1.zip\n2012/12/21\n期日内提出\n2012/10/28\nエントリー",
+    "icon": "/icons/2012-kouhaku/i037.bmp",
+    "ss": [
+      "/screenshots/2012-kouhaku/s037a.bmp"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1351428096/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/OvTB5e",
+        "label": "本体ダウンロード(32.76MB)"
+      },
+      {
+        "url": "http://yahoo.jp/OxxM-6",
+        "label": "パッチ追加"
+      },
+      {
+        "url": "https://drive.google.com/file/d/10_sRM9kMxhvBrrvmIm20yQlybbTzk7pc/view?usp=sharing",
+        "label": "保管庫（32.76MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-038",
@@ -301,7 +1164,36 @@
     "no": "038",
     "title": "Temple of Shadows",
     "author": "めふぃすと",
-    "detailDisabled": true
+    "engine": "RPGツクール2003",
+    "category": "ぽんこつ魔法RPG",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=038&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130603170440id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=038&tpl=view2"
+    },
+    "streaming": "自己責任で可/自己責任で可",
+    "authorComment": "<div class=\"source-comment\">たくわん軍と鰹節軍の和平から30年、<br>第三の勢力、ピクルス軍が両軍に宣戦布告をした。<br>「てめーらの穴という穴にピクルスをぶち込んでやるぜ、HAHAHA!!」<br>というお話。<br><div class=\"AA\">　 　 　　　　　　＿＿＿_<br>　 　　　　　　／ノ 　 ヽ、_＼<br>　　　　　　／（ ○）}liil{（○）＼　　　　　んなわけねーだろ！<br>　 　　　／　　　 （__人__）　　　＼　　　　<br>　　　　 |　　　ヽ　|!!il|!|!l|　/　　　|　　<br>　　　　 ＼　　　　|ェェェェ| 　 　.／l!| !　　　<br>　　　 　／　　　　　`ー'　 　　.＼ |i　　　　<br>　　　／　　　　　　　　　　ヽ !l　ヽi　　　　<br>　　 （　　 丶- 、　　　　　　 しＥ　|そ　<br>　　　　`ー、＿ノ 　 　 　 　　l、Ｅ ノ　&lt;<br>　　　　　　　　　　　　　　　レY^Ｖ^ヽｌ</div></div>",
+    "hostComment": "<div class=\"source-comment\">たくわんとピクルスのスライスを並べて鰹節かけて食ってやるぜ！</div>",
+    "updates": "2013/2/2\nパッチ追加　kohaku2012_038p5.zip\n2013/1/15\nパッチ追加　kohaku2012_038p4.zip\n2013/1/10\n作品本体修正　kohaku2012_038_3.zipパッチ追加　kohaku2012_038p3.zip\n2013/1/7\n作品本体修正　kohaku2012_038_2.zipパッチ追加　kohaku2012_038p2.zip\n2012/12/30\n作品本体修正　kohaku2012_038_1.zipパッチ追加　kohaku2012_038p1.zip\n2012/12/23\n期日内提出\n2012/10/31\nエントリー",
+    "icon": "/icons/2012-kouhaku/i038.gif",
+    "ss": [
+      "/screenshots/2012-kouhaku/s038a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1351689471/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/bH33Qt",
+        "label": "本体ダウンロード(32.23MB)"
+      },
+      {
+        "url": "http://yahoo.jp/box/J1DaVS",
+        "label": "パッチ追加"
+      },
+      {
+        "url": "https://drive.google.com/file/d/13aZJPksi54ay94iKmxsm7-xg0O4IvNxD/view?usp=sharing",
+        "label": "保管庫（32.23MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-039",
@@ -309,7 +1201,32 @@
     "no": "039",
     "title": "リハビリその４",
     "author": "山本ブライアン",
-    "detailDisabled": true
+    "engine": "RPGツクール2000",
+    "category": "デフォ戦RPG",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=039&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130628093013id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=039&tpl=view2"
+    },
+    "streaming": "可/可",
+    "authorComment": "<div class=\"source-comment\">ただのデフォ戦RPGです<br>３、４分くらいで終わる超短編です<br>結局安価は名前だけでした<br>すいません許してください何でもしますから！</div>",
+    "hostComment": "<div class=\"source-comment\">何でもするっていった？……シャワー浴びてこいよ。</div>",
+    "updates": "2012/12/23\n期日内提出\n2012/12/13\nSS変更\n2012/10/31\nエントリー",
+    "icon": "/icons/2012-kouhaku/rpg.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s039a1.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1351689513/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/fELt4z",
+        "label": "本体ダウンロード(2.31MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/13tfjes5wScGmaUwz8mXMkOKUsMMqBmjI/view?usp=sharing",
+        "label": "保管庫（2.31MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-040",
@@ -317,7 +1234,32 @@
     "no": "040",
     "title": "懺悔室",
     "author": "考える名無しさん",
-    "detailDisabled": true
+    "engine": "RPGツクール2000 VALUE！＋",
+    "category": "総集編",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=040&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130628073740id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=040&tpl=view2"
+    },
+    "streaming": "やるの？/やるの？",
+    "authorComment": "<div class=\"source-comment\">もやしと卵と袋インスタントラーメンをじっくり鍋で煮込んだモノ</div>",
+    "hostComment": "<div class=\"source-comment\">ちょっと間違えたな、うん。</div>",
+    "updates": "2012/12/1\n期日内提出\n2012/11/3\nエントリー",
+    "icon": "/icons/2012-kouhaku/i040.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s040a.jpg"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1351947371/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/CLnfUS",
+        "label": "本体ダウンロード(1.42MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/11M4zzngdjk3t3NIT6vm_h3d6yFu5rsXb/view?usp=sharing",
+        "label": "保管庫（1.42MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-041",
@@ -325,7 +1267,32 @@
     "no": "041",
     "title": "Cancel or die",
     "author": "ユニバーサル絶叫兄弟",
-    "detailDisabled": true
+    "engine": "RPGツクール2000",
+    "category": "エキセントリック代理ksg",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=041&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130608011651id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=041&tpl=view2"
+    },
+    "streaming": "はちみつ/くまさん",
+    "authorComment": "<div class=\"source-comment\">前まで作ってた紅白提出予定作品がキャンセルさんに滅ぼされたので<br>改めてキャンセルさんをこのksgにぶつけるとしよう。<br><br>全てのツクラー、PIAI専、そして安価を出してくれた皆様に<br><br>　　　　　　　　　　　　　　　　　　　　　　　　　　　...sorry<br><br><br>あーなめこ栽培キットやりてぇ。</div>",
+    "hostComment": "<div class=\"source-comment\"><div class=\"AA\">::::::::　　　　　　　　┌─────────────── ┐<br>::::::::　　　　　　　　｜提出予定作品がやられたようだな… │<br> :::::　　　┌───└───────────ｖ───┬┘ <br>:::::　　　｜ フフフ…奴はproject1の中でも最弱…　　　　 | <br>┌──└────────ｖ──┬───────┘ <br>｜　キャンセルごときに負けるとは. | <br>｜　大作(予定)の面汚しよ…　　　 │ <br>└────ｖ─────────┘ <br>　 |ﾐ,　 ／　 ｀ヽ　/!　　　　,.──､　　　　　　 <br>　 |彡/二Oニニ|ノ　　　 /三三三!,　　　　　　 |! <br>　　`,' ＼､､＿,|/-ｬ　　　 ト `=j r=ﾚ　　　　 /ミ !彡 　　　　 ●　　 <br>T 爪| /　/￣|/´＿_,ｬ　　|`三三‐/　　　　 |`=､|,='| 　　　＿(＿ <br>/人 ヽ ミ='／|`:::::::/ｲ＿_ ト｀ー く＿＿,-,　 ､　_!_ / 　　(　ﾟωﾟ )<br> /　　`ー─'\" |_,.イ､ | |/､　　 Y　 /| | | j　/　ﾐ`┴'彡＼ '　　　　`　 <br>並行作成中だった　　斬新な　　　数多のキャラが　　破損した <br>オリジナル現代物　　自作戦闘　 登場する見るゲ　マップツリー <br>(プロットがない)　　　(AIがない)　 (収拾がつかない)　(開けない)<div></div></div></div>",
+    "updates": "2012/12/13\n期日内提出 コメント変更\n2012/11/4\nエントリー",
+    "icon": "/icons/2012-kouhaku/i041.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s041a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1352037730/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/BqJps3",
+        "label": "本体ダウンロード(6.63MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1zGwjh3FIAcR5xDq5PVeb1cSzKczrrurZ/view?usp=sharing",
+        "label": "保管庫（6.63MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-042",
@@ -333,7 +1300,32 @@
     "no": "042",
     "title": "魔王の挑戦状",
     "author": "プラチナ◆PTWuwkfBxE",
-    "detailDisabled": true
+    "engine": "2000 VALUE!",
+    "category": "短編シンプルＲＰＧ",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=042&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130608011343id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=042&tpl=view2"
+    },
+    "streaming": "可/可",
+    "authorComment": "<div class=\"source-comment\">ちょっと暗めでシンプルなＲＰＧです。<br>割りと本気出して作りました。</div>",
+    "hostComment": "<div class=\"source-comment\">毒男が主人公って時点で仄暗さが伝わってくるんだ。</div>",
+    "updates": "2012/12/30\n作品本体修正 kohaku2012_042_1.zip\n2012/12/13\n期日内提出\n2012/11/4\nエントリー",
+    "icon": "/icons/2012-kouhaku/i042.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s042a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1352037781/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/gJ8lIh",
+        "label": "本体ダウンロード(3.27MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1P5EYH9jo50ykOXDvtax2ZTeH2GNLZXmB/view?usp=sharing",
+        "label": "保管庫（3.27MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-043",
@@ -341,7 +1333,21 @@
     "no": "043",
     "title": "EruruAdventure - 2012 EDITION -",
     "author": "WL(オリジナル版制作)+XX(2012版制作)",
-    "detailDisabled": true
+    "engine": "RPGツクール2000",
+    "category": "ロールプレイングゲーム",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=043&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130117132437id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=043&tpl=view2"
+    },
+    "streaming": "可/可",
+    "authorComment": "<div class=\"source-comment\">この世では全く出回ってないあの幻の（激レア）ゲームが2012 EDITIONとなって黄泉ガエル！<br>絶版の再録ってこんなふうです。</div>",
+    "hostComment": "<div class=\"source-comment\">&nbsp;</div>",
+    "updates": "2012/12/30\n公開停止　→停止理由告知\n2012/12/20\n期日内提出\n2012/11/5\nエントリー",
+    "icon": "/icons/2012-kouhaku/i043.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s043a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1352126671/"
   },
   {
     "id": "2012-kouhaku-work-044",
@@ -349,7 +1355,21 @@
     "no": "044",
     "title": "Mosimo Tower Defense Dattara 2012",
     "author": "ssz",
-    "detailDisabled": true
+    "engine": "2000",
+    "category": "TD",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=044&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130117132910id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=044&tpl=view2"
+    },
+    "streaming": "○/○",
+    "authorComment": "<div class=\"source-comment\">おかげさまで初公開より10倍のボリュームとなりました。<br>for TD Maniacsの作者様にはこの場を借りてお礼申し上げます。</div>",
+    "hostComment": "<div class=\"source-comment\">10倍！？<br><br><a href=\"http://www10.atwiki.jp/vip_rpg/pages/431.html\">前作の紹介はこちら</a></div>",
+    "updates": "2012/11/10\nエントリー",
+    "icon": "/icons/2012-kouhaku/i044.gif",
+    "ss": [
+      "/screenshots/2012-kouhaku/s044a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1352551145/"
   },
   {
     "id": "2012-kouhaku-work-045",
@@ -357,7 +1377,32 @@
     "no": "045",
     "title": "偽装のサーカス",
     "author": "池田さん",
-    "detailDisabled": true
+    "engine": "2000",
+    "category": "シリアスミステリー",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=045&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130608011348id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=045&tpl=view2"
+    },
+    "streaming": "神/神",
+    "authorComment": "<div class=\"source-comment\">2007年に身内でｔｋっててエターなったやつに手を加えて完成させました。<br>（終盤だけ新しくｔｋりました）<br>お蔭様でいつも以上に粗いですが、ご愛嬌です。<br>スパイグループ「ナイン・サーカス」が二重スパイを探るシリアスミステリー！<br>ＰＩＡＩしながら貴方も二重スパイが誰か考えてみて下さい！（迫真</div>",
+    "hostComment": "<div class=\"source-comment\">なんてこった。</div>",
+    "updates": "2013/1/30\n作品本体修正　kohaku2012_045_1.zipタイトル ジャンル サムネイル変更\n2013/1/29\n遅刻提出　SS アイコン変更\n2012/12/22\nタイトル SS コメント 変更\n2012/11/22\nSS変更\n2012/11/10\nエントリー",
+    "icon": "/icons/2012-kouhaku/i045_1.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s045a3.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1352556981/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/hKt01j",
+        "label": "本体ダウンロード(10.43MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1vEEeWEh0FWtNAFP8rh7ns4vUm81KF148/view?usp=sharing",
+        "label": "保管庫（10.43MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-046",
@@ -365,7 +1410,32 @@
     "no": "046",
     "title": "ソーレソレソレ",
     "author": "ンニー(株)",
-    "detailDisabled": true
+    "engine": "2000VALUE",
+    "category": "私がたった1人で1時間かけて作り上げた壮大なるエンターテインメント",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=046&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130628073746id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=046&tpl=view2"
+    },
+    "streaming": "どうぞ…/いいよっ　その他利用も許可",
+    "authorComment": "<div class=\"source-comment\"><br><br>現時点で手元に完成品があると言われれば、君でもどんな作品なのか予想が付くのではないかね？<br><br><br></div>",
+    "hostComment": "<div class=\"source-comment\">メンソレソレソレーソレ</div>",
+    "updates": "2012/12/4\n期日内提出\n2012/11/18\n配信/投稿変更\n2012/11/12\nエントリー",
+    "icon": "/icons/2012-kouhaku/i046.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s046a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1352724132/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/arjLNb",
+        "label": "本体ダウンロード(2.57MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1WZBGJPxGPkuwxqI7WpddtOvDVr0qcVnZ/view?usp=sharing",
+        "label": "保管庫（2.57MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-047",
@@ -373,7 +1443,36 @@
     "no": "047",
     "title": "もエロゲ",
     "author": "ABS",
-    "detailDisabled": true
+    "engine": "2000",
+    "category": "異世界飛ばされ系デフォ戦RPG",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=047&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130604035838id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=047&tpl=view2"
+    },
+    "streaming": "可/可",
+    "authorComment": "<div class=\"source-comment\">藤峰大地は普通の大学生。<br>バイトをしつつ、少ない友人と遊びつつ気ままに過ごしていた。<br>だが、あるパソコンゲームを起動した時、<br>パソコンの画面に飲み込まれてしまう。<br><br>藤峰大地が尻もち着いた先は、地平線が綺麗な一面の草原。<br>そして、大量の兵士と大量の魔物が大地を睨んでいた。<br>なんじゃこりゃ！！<br>許容が人間の限界を超え、頭がヒートアップしかけた時、<br>頭上から優しくもない手を差し伸べられる。<br><br>『ラッキー！異世界の住人じゃん。あたしもらっちゃおっかなー』<br>『はぁ？あんたなんかにやるわけないでしょ。雑魚は雑魚らしくしてなさい。』<br><br>超常現象、のち、修羅場。<br>藤峰大地の人生はこの瞬間、<br>普通という言葉より大きく道を逸らしていくのだった。</div>",
+    "hostComment": "<div class=\"source-comment\">ガチでそういう妄想にふけることがありました。<br>いや、進行形かな。</div>",
+    "updates": "2013/1/18\nパッチ追加　kohaku2012_047p6.zip\n2013/1/12\nパッチ追加　kohaku2012_047p5.zip\n2013/1/11\n作品本体修正 kohaku2012_047_2.zip\n2013/1/10\nパッチ追加　kohaku2012_047p4.zip\n2013/1/4\n作品本体修正 kohaku2012_047_1.zipパッチ追加　kohaku2012_047p3.zip\n2013/1/1\nパッチ追加　kohaku2012_047p2.zip\n2012/12/31\nパッチ追加 kohaku2012_047p1.zip\n2012/12/15\n期日内提出\n2012/11/12\nエントリー",
+    "icon": "/icons/2012-kouhaku/i047.jpg",
+    "ss": [
+      "/screenshots/2012-kouhaku/s047a.jpg"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1352724164/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/EjUFTj",
+        "label": "本体ダウンロード(223.93MB)"
+      },
+      {
+        "url": "http://yahoo.jp/box/e2nIc0",
+        "label": "パッチ追加"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1Ls9opmz6qEtNdwlo23xm7Ktr6HrzhRCX/view?usp=sharing",
+        "label": "保管庫（223.93MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-048",
@@ -381,7 +1480,32 @@
     "no": "048",
     "title": "射撃",
     "author": "sinkai",
-    "detailDisabled": true
+    "engine": "RPGツクール2000",
+    "category": "STGミニゲーム",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=048&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130628073348id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=048&tpl=view2"
+    },
+    "streaming": "いいよ/いいよ",
+    "authorComment": "<div class=\"source-comment\">＊右から現れるターゲットを撃ちまくるゲームです<br>＊スコアアタックとタイムアタック、2つのモードで遊べます<br>＊それだけです。短いです<br>＊アイスⅡがはしゃぎまわります<br>＊アイスⅢは観てるだけです<br>＊提出予定だったぽっとすとーりーはエターナルの海に沈みかけてます</div>",
+    "hostComment": "<div class=\"source-comment\">冬には些か寒そうな！</div>",
+    "updates": "2012/12/23\nタイトル ジャンル SS サムネイル アイコン コメント 変更 期日内提出\n2012/11/18\nエントリー",
+    "icon": "/icons/2012-kouhaku/i048_1.gif",
+    "ss": [
+      "/screenshots/2012-kouhaku/s048a1.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1353250332/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/tBeijr",
+        "label": "本体ダウンロード(0.57MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1hbmvOxetr9qRHawbyFeuZ6N6KrbgUE8W/view?usp=sharing",
+        "label": "保管庫（0.57MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-049",
@@ -389,7 +1513,32 @@
     "no": "049",
     "title": "ロミくんとジュリちゃん",
     "author": "時計歩兵",
-    "detailDisabled": true
+    "engine": "RPGツクール2000",
+    "category": "一本道ＲＰＧ",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=049&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130628075654id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=049&tpl=view2"
+    },
+    "streaming": "なんでこんなものでしたいのか分からないけど別にいいよ",
+    "authorComment": "<div class=\"source-comment\">まさかの初参加で過去作品の使い回し。<br>元々内輪向けに製作した作品ですが、せっかくなので不特定多数に公開する事にしました。<br><br> Ｑ．ver1.3って何？<br>Ａ．要するに、ver1.2までは友人に公開していました。<br>ver1.3はここで初公開となります。かなり大規模な修正が入っています。テストプレイは自分しかやっていません。<br><br> Ｑ．自作戦闘っぽいのだが？<br>Ａ．その気になればデフォ戦でも出来るような戦闘システムです。<br>下手糞な組み方のせいで今や完全にブラックボックス。<br><br>Ｑ．この意味深なドット絵は<br>Ａ．動きませんよ？<br><br>Ｑ．一本道ですね<br>Ａ．ええ<br><br>Ｑ．戦闘アニメ下手糞すぎないか<br>Ａ．ごめんなさい技量不足です<br><br>Ｑ．内部メモ帳やスタッフロールで「作者　黒ニロ」ってあるんだけど誰こいつ？<br>Ａ．私が使用している別のハンドルネームです。<br>現在は「時計歩兵」を主に使用しています。<br><br>Ｑ．オリキャラばっかなんだけど<br>Ａ．元々内輪向けのゲームなので・・・<br>オリジナルキャラ、及び友人のキャラを（半ば勝手に）使用しています。<br>ＲＴＰキャラや「もしも」の世界観は全く登場しませんのでご了承を。<br><br>Ｑ．他の作品に比べて見劣りしまくるんだが<br>Ａ．薄っぺらい割に結構プレイ時間食うので<br>紅白作品をとりあえず全部遊びたいとかそういう人はプレイしない方がいいかも・・・<br><br> Ｑ．デザインが「黒ニロ」になってるけど、このキャラどう見ても○○だよね<br>Ａ．ごめんなさい確信犯です<br>元々ネタで作ったキャラクターです。描き替えるのサボりました。<br><br>Ｑ．ここで出すべきものなの？<br>Ａ．こんなｋｓｇ出す場所って他にアテがあるのか？<br>Ｑ．簡単すぎる<br>Ａ．その台詞は隠しボスを倒してからにしてもらおうか。<br>Ｑ．全体的に難しくない？<br>Ａ．頑張れ<br>Ｑ．痛い<br>Ａ．ごめん<br>Ｑ．重い<br>Ａ．ごめん<br>Ｑ．しょぼい<br>Ａ．ごめん<br>Ｑ．お茶の間帝国って何？<br>Ａ．忘れて</div>",
+    "hostComment": "<div class=\"source-comment\">人は何故……内輪ゲーを作るのだろうか。（経験者）</div>",
+    "updates": "2012/12/1\n期日内提出\n2012/11/22\nエントリー",
+    "icon": "/icons/2012-kouhaku/i049.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s049a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1353584926/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/fRqbMa",
+        "label": "本体ダウンロード(17.54MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1jzQ6I0ZFWja7D4F6-lKJM3ff-gTbz4y0/view?usp=sharing",
+        "label": "保管庫（17.54MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-050",
@@ -397,7 +1546,32 @@
     "no": "050",
     "title": "BRAVELY WORKING FLYING妖精さん",
     "author": "一般1-3",
-    "detailDisabled": true
+    "engine": "2000",
+    "category": "RPG",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=050&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130608011656id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=050&tpl=view2"
+    },
+    "streaming": "だ/め",
+    "authorComment": "<div class=\"source-comment\">もしも間に合わなかったら↓(管理人コメント)で代用ksg</div>",
+    "hostComment": "<div class=\"source-comment\"><div>BRAVELY WORKING FLYING妖精さんスーパーディレクターズカットスペシャルダイジェスト版（ゴールドプレミアム限定バージョン）</div></div>",
+    "updates": "2012/12/20\n期日内提出\n2012/11/25\nエントリー",
+    "icon": "/icons/2012-kouhaku/i050.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s050a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1353849397/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/vZopFS",
+        "label": "本体ダウンロード(7.54MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1aihOuiLE9jVNzT6oZ6HKRhC_ipwh4Bkf/view?usp=sharing",
+        "label": "保管庫（7.54MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-051",
@@ -405,15 +1579,77 @@
     "no": "051",
     "title": "海賊リメイクオーバーリローテッドセカンド",
     "author": "えんりゅう",
-    "detailDisabled": true
+    "engine": "2000",
+    "category": "RPG",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=051&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130603154409id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=051&tpl=view2"
+    },
+    "streaming": "可/可",
+    "authorComment": "<div class=\"source-comment\">あのサンプルの名作RPG【海賊】が新しくなって帰って来た。<br>500×500のマップを冒険する楽しみはリメイクで消滅したよ。<br>全英が涙する感動ストーリーに仕上がる予定だよ。<br>もしもキャラはほとんどでないよ。通行人程度だよ。<br>パクリでしばかれて海に捨てられてもおかしくないゲームだよ。<br>でも、（好きなキャラを出したいから）しょうがないですよね。<br><br>サイドビューだけどほとんど動かないよ！！<br>SS詐欺にならない程度に提出して追い込むよ！！<br>SSの内容通りには多分出来ないよ！！<br>いい加減画面のレイアウトとか他のツクーラーから見習いたいよ！！</div>",
+    "hostComment": "<div class=\"source-comment\">機能美って素晴らしい言葉だと思うぞ。</div>",
+    "updates": "2013/1/29\nパッチ追加　kohaku2012_051p3.zip\n2013/1/26\n作品本体修正　kohaku2012_051_8.zip\n2013/1/19\n作品本体修正　kohaku2012_051_7.zip\n2013/1/16\n作品本体修正　kohaku2012_051_6.zip\n2013/1/11\nパッチ追加　kohaku2012_051p2.zip\n2013/1/8\nパッチ追加　kohaku2012_051p1.zip\n2013/1/6\n作品本体修正　kohaku2012_051_5.zip\n2013/1/1\n作品本体修正　kohaku2012_051_4.zip\n2012/12/30\n作品本体修正　kohaku2012_051_3.zip\n2012/12/28\n作品本体修正　kohaku2012_051_2.zip\n2012/12/27\nパッチ追加 作品本体修正でした\n2012/12/24\n遅刻提出\n2012/11/25\nエントリー",
+    "icon": "/icons/2012-kouhaku/rpg.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s051a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1353849455/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/u-iCKj",
+        "label": "本体ダウンロード(14.18MB)"
+      },
+      {
+        "url": "http://yahoo.jp/box/_0KgbS",
+        "label": "パッチ追加"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1DnI5qKu_Bps1eTiXTntQ7G6x_rD6khiM/view?usp=sharing",
+        "label": "保管庫（14.18MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-052",
     "festivalId": "2012-kouhaku",
     "no": "052",
-    "title": "勇者わてりの大冒険 と ふれいむさんの気だるい日常",
-    "author": "起楽 侑",
-    "detailDisabled": true
+    "title": "勇者わてりの大冒険　と　ふれいむさんの気だるい日常",
+    "author": "起楽　侑",
+    "engine": "2k",
+    "category": "マップ散歩",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=052&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130605094430id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=052&tpl=view2"
+    },
+    "streaming": "どーぞ/どーぞ",
+    "authorComment": "<div class=\"source-comment\">勇者わてりは　おうさまの依頼で北の遺跡に囚われた姫の救出へ向かいます。<br>その頃、ふれいむさんは　キャロルの依頼で北の遺跡へキノコ狩りへ向かいます。<br>同じ時間に同じ場所へ行くのなら同時に操作できたら早いじゃない？<br><br>そんなかんじのゲームです。要するにバイナリィランドです。若干謎解き風パズルです。<br>雰囲気ゲーですので、基本、敵はいません。イベントステージのみ謎 解きバトル風です。<br><br>あ、ふれいむさんは俺の嫁です。</div>",
+    "hostComment": "<div class=\"source-comment\">戦うだけが、ゲームじゃない。</div>",
+    "updates": "2013/1/1\nパッチ追加　kohaku2012_052p2.zip\n2012/12/27\n作品本体修正　パッチ追加\n2012/12/22\nコメント変更　期日内提出\n2012/11/25\nエントリー",
+    "icon": "/icons/2012-kouhaku/i052.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s052a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1353849487/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/6vTwao",
+        "label": "本体ダウンロード(3.99MB)"
+      },
+      {
+        "url": "http://yahoo.jp/-hChql",
+        "label": "パッチ追加"
+      },
+      {
+        "url": "http://yahoo.jp/yW9RU2",
+        "label": "パッチ追加"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1T-OYaZv4PV4Ho6euZohTEpWvjcymC9XR/view?usp=sharing",
+        "label": "保管庫（3.99MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-053",
@@ -421,7 +1657,32 @@
     "no": "053",
     "title": "百合っぽいお話とか",
     "author": "L&E",
-    "detailDisabled": true
+    "engine": "2000",
+    "category": "百合コメ",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=053&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130628085312id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=053&tpl=view2"
+    },
+    "streaming": "可/可",
+    "authorComment": "<div class=\"source-comment\">５分以上の見るゲー５本　とおまけです</div>",
+    "hostComment": "<div class=\"source-comment\">百合……好きだぜそういうの。</div>",
+    "updates": "2012/12/16\nSS コメント 変更 期日内提出\n2012/12/1\nエントリー",
+    "icon": "/icons/2012-kouhaku/i053.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s053a.jpg"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1354374229/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/Xlcl-M",
+        "label": "本体ダウンロード(3.90MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1wRaiUsSxtIt3EAllIRlPlYHLHqqZ0GjA/view?usp=sharing",
+        "label": "保管庫（3.90MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-054",
@@ -429,7 +1690,32 @@
     "no": "054",
     "title": "八大地獄と極楽ぬくぬくヘルス温泉",
     "author": "黄泉つ",
-    "detailDisabled": true
+    "engine": "ＲＰＧツクール2000",
+    "category": "紅白お祭りksg",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=054&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130608011353id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=054&tpl=view2"
+    },
+    "streaming": "億京/兆億京",
+    "authorComment": "<div class=\"source-comment\">そうだ。京都へ、行こう。<br>ああそうだ。桃源の園へ、逝こう。</div>",
+    "hostComment": "<div class=\"source-comment\">姿かたちは様々だけど、死後の世界という概念が色々な場所にあるのは面白いですね。</div>",
+    "updates": "2013/2/7\n作品本体修正　kohaku2012_054_3.zip\n2013/1/20\nパッチ追加　kohaku2012_054p1.zip\n2013/1/9\n作品本体修正　kohaku2012_054_2.zip\n2012/12/23\n期日内提出\n2012/12/1\nエントリー",
+    "icon": "/icons/2012-kouhaku/i054.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s054a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1354374278/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/06nkgy",
+        "label": "本体ダウンロード(21.78MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1SsHlyh8EzDBcsVRgsmwMrFe2nhSWFrbz/view?usp=sharing",
+        "label": "保管庫（21.78MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-055",
@@ -437,7 +1723,37 @@
     "no": "055",
     "title": "ABCD冒険記",
     "author": "COMタロウさんの世界",
-    "detailDisabled": true
+    "engine": "RPGツクール2000",
+    "category": "中編RPG",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=055&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130603164237id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=055&tpl=view2"
+    },
+    "streaming": "可/可",
+    "authorComment": "<div class=\"source-comment\">ABCDの4人がだらだら冒険する物語です。<br>戦闘は某フリーゲームを参考にした・・・じゃなくて丸パクりの擬似サイドビューのデフォ戦です。<br>ボスに応じて装備を変えていく必要があったりなかったりしますので、そういうのが好きな方はどうぞ。<br>粗しか無いゲームだと思いますが、よろしくお願いいたします。</div>",
+    "hostComment": "<div class=\"source-comment\">KJMD…おっと違った。<br>擬似サイドビューデフォ戦たぁ懐かしいじゃないの。</div>",
+    "updates": "2013/1/23\n作品本体修正　kohaku2012_055_1.zip\n2013/1/18\nパッチ追加　kohaku2012_055p14.zip\n2013/1/11\nパッチ追加　kohaku2012_055p13.zip\n2013/1/9\nパッチ追加　kohaku2012_055p12.zip\n2013/1/5\nパッチ追加　kohaku2012_055p11.zip\n2013/1/4\nパッチ追加　kohaku2012_055p10.zip\n2013/1/3\nパッチ追加　kohaku2012_055p9.zip\n2013/1/1\nパッチ追加　kohaku2012_055p8.zip\n2013/1/1\nパッチ追加　kohaku2012_055p7.zip\n2012/12/31\nパッチ追加　kohaku2012_055p6.zip\n2012/12/30\nパッチ追加　kohaku2012_055p5.zip\n2012/12/29\nパッチ追加　kohaku2012_055p3.zip\n2012/12/27\nパッチ追加\n2012/12/27\nパッチ追加\n2012/12/22\n期日内提出\n2012/12/7\nエントリー",
+    "icon": "/icons/2012-kouhaku/i055.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s055a.png",
+      "/screenshots/2012-kouhaku/s055b.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1354874741/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/1Wvuxp",
+        "label": "本体ダウンロード(18.67MB)"
+      },
+      {
+        "url": "http://yahoo.jp/box/fI1bAn",
+        "label": "パッチ追加"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1u3VGRiX__6BtHvmz0NHoiN-g-rq_JFRt/view?usp=sharing",
+        "label": "保管庫（18.67MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-056",
@@ -445,7 +1761,32 @@
     "no": "056",
     "title": "マーミア式Ｋｓｇコレクション",
     "author": "マーミア副部長",
-    "detailDisabled": true
+    "engine": "RPGツクール２０００",
+    "category": "Ｋｓｇコレクション",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=056&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130608011701id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=056&tpl=view2"
+    },
+    "streaming": "おk/おk",
+    "authorComment": "<div class=\"source-comment\">初めてコレクションtkってみました！なのでバグがあるかもしれません。<br>えっ？ちゃんとテストプレイしろって？　マーミア受験生だから時間無いの(´；ω；｀)<br>普通のコレクションじゃつまらないのでゲームセレクト画面の背景を変えられる機能<br>が付いています！<br>背景に合わせてBGMが変わるものもあるので楽しんでいただければ光栄です。<br>シークレットもあるので頑張ってね。<br>実写ゲーもあります。「あっ！この建物は！」「このゲームの作者って！」<br>なんて事があるかもしれません。<br><br>関係無いけどこの前学校の帰りに雨が降ってきて近くのバス停に雨宿りしたら<br>変な応募用紙が落ちてて拾って見てみたら・・・<br><br>「株式会社クエイク」<br><br>これって運命だよね。</div>",
+    "hostComment": "<div class=\"source-comment\">勉強もツクールも両立させるには…本当に計画的にやらないとな。(体験談)</div>",
+    "updates": "2012/12/7\nエントリー　期日内提出",
+    "icon": "/icons/2012-kouhaku/i056.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s056a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1354874873/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/mNo0E8",
+        "label": "本体ダウンロード(35.55MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1PvmtgUV7ACZdHVcDFZyBq708PbzktqpJ/view?usp=sharing",
+        "label": "保管庫（35.55MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-057",
@@ -453,7 +1794,32 @@
     "no": "057",
     "title": "迷宮組曲",
     "author": "ST",
-    "detailDisabled": true
+    "engine": "ツクール2000",
+    "category": "迷宮探索系デフォ戦RPG",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=057&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130608011358id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=057&tpl=view2"
+    },
+    "streaming": "可/不可",
+    "authorComment": "<div class=\"source-comment\">世界樹の迷宮シリーズと2009年夏の陣の『冒険者の晩餐』を<br>パクっ・・・多大な影響を受けて作った迷宮探索型RPG。<br>以下のようなゲームです。<br><br><br>・戦闘はデフォ戦だが、バトルイベントで様々な要素を追加。<br>・マップはランダム生成。内部にはFOEもうろついてる<br>・「探索→ボス倒す→イベント」の繰り返しで進行<br>・主人公が固定キャラで、喋るタイプ<br>・もしも要素なしのオリ設定、基本的にギャグなしの真面目展開(ギップル注意)<br>・クッソ長い。表ボス撃破で戦闘回数500～600回。裏ダン、裏ボスもあり<br>・難易度は高め。後半は油断するとザコにさえ瞬殺くらうかも<br>・2周目要素あり<br><br><br>※作者より<br>・主人公の名前は5文字以内にして下さい<br>　6文字だと会話文が見切れます(デフォ名4文字)<br>・クラスによっては4桁ダメージが出るバランスなので<br>　同梱のアプリケーションをお使いください<br>・大方のバグ等は取ったつもりですが、まだ少し残っているかもしれません<br>　見つけた方、掲示板で罵りつつ教えてくれると飛び上がって喜びます</div>",
+    "hostComment": "<div class=\"source-comment\">す、すごく長いぞー！</div>",
+    "updates": "2013/1/1\n作品本体修正 kohaku2012_057_1.zip\n2012/12/25\nコメント変更\n2012/12/24\nコメント変更 期日内提出\n2012/12/11\nエントリー",
+    "icon": "/icons/2012-kouhaku/rpg.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s057a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1355233165/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/XGF4fn",
+        "label": "本体ダウンロード(12.90MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1XWo8f62fcHNDeo5IgZHMCLqstT4SvQN-/view?usp=sharing",
+        "label": "保管庫（12.90MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-058",
@@ -461,7 +1827,9 @@
     "no": "058",
     "title": "桃色通信6月号",
     "author": "徳明",
-    "detailDisabled": true
+    "engine": "RPGツクール２０００",
+    "category": "読む俺得百合erg",
+    "contentRestricted": true
   },
   {
     "id": "2012-kouhaku-work-059",
@@ -469,7 +1837,21 @@
     "no": "059",
     "title": "あんこくのみらいで",
     "author": "中の外の人",
-    "detailDisabled": true
+    "engine": "ツクール2000",
+    "category": "最初からクライマックスなデフォ戦ゲー",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=059&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130117132433id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=059&tpl=view2"
+    },
+    "streaming": "可/可",
+    "authorComment": "<div class=\"source-comment\">昨年もしも物語を紅白に提出してから早１年、長い時を経て帰ってまいりました。<br>今作は初めて「デフォ戦」をメインにしたやるゲーです。<br>ポケモン不思議のダンジョンのシステムをいかにしてデフォ戦に組み込むか、を課題に取り組んでみました。<br>スイッチ技を駆使したＰＰシステム、デフォ戦の限界を超えた能力変化、そしてそれらをサポートするアイテムを、たった一度きりの戦闘を何度もPIAIして骨の髄までお楽しみ下さい。<br><br>また、ストーリーは文字通り最初からクライマックスなため、もっと深くストーリーを知りたい方は原作「ポケモン不思議のダンジョン　空の探検隊」をPIAIするか、動画サイトでプレイ動画を探してください。</div>",
+    "hostComment": "<div class=\"source-comment\">デフォ戦という名の可能性、好きですよ。</div>",
+    "updates": "2012/12/11\nエントリー",
+    "icon": "/icons/2012-kouhaku/i059.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s059a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1355233228/"
   },
   {
     "id": "2012-kouhaku-work-060",
@@ -477,7 +1859,36 @@
     "no": "060",
     "title": "もしもアレックスだけだったら",
     "author": "グヤビーン",
-    "detailDisabled": true
+    "engine": "ツクール2000",
+    "category": "もしも(やるゲ)",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=060&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130628073751id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=060&tpl=view2"
+    },
+    "streaming": "おｋすぐる",
+    "authorComment": "<div class=\"source-comment\">ムシャムシャしてやった。<br>今も反省はしていない。</div>",
+    "hostComment": "<div class=\"source-comment\">ゲーム内容がハッキリとわかるタイトルとSSですね。</div>",
+    "updates": "2012/12/25\nパッチ追加\n2012/12/13\nエントリー　期日内提出",
+    "icon": "/icons/2012-kouhaku/i060.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s060a.jpg"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1355409778/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/vPxzJ1",
+        "label": "本体ダウンロード(0.05MB)"
+      },
+      {
+        "url": "http://yahoo.jp/JiMagy",
+        "label": "パッチ追加"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1mG8zTksev3YO36rEwIuOg_GufcgTJ7TI/view?usp=sharing",
+        "label": "保管庫（0.05MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-061",
@@ -485,7 +1896,33 @@
     "no": "061",
     "title": "JASIN",
     "author": "いと",
-    "detailDisabled": true
+    "engine": "ツクールXP",
+    "category": "RPG",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=061&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130603154414id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=061&tpl=view2"
+    },
+    "streaming": "△/×",
+    "authorComment": "<div class=\"source-comment\">業種：冒険者<br>雇用形態：派遣<br>年齢：不問<br>雇用期間：迷宮の最深部到達もしくは命を落とすまで<br>職務内容：冒険者として迷宮の謎を探る事<br>　　　　　また、王国に協力を求められた場合は助力する事<br>　　　　　迷宮内で手に入れた物は冒険者の好きにして良い<br>　　　　　しかし、迷宮が王国の管理下にある事を忘れてはならない</div>",
+    "hostComment": "<div class=\"source-comment\">その求人はあまりにも冒険的であった。</div>",
+    "updates": "2013/2/7\n作品本体修正　kohaku2012_061_11.zip\n2013/2/3\n作品本体修正　kohaku2012_061_10.zip\n2013/1/29\n作品本体修正　kohaku2012_061_9.zip\n2013/1/6\n作品本体修正　kohaku2012_061_8.zip\n2013/1/5\n作品本体修正　kohaku2012_061_7.zip\n2013/1/1\n作品本体修正　kohaku2012_061_6.zip\n2013/1/1\n作品本体修正　kohaku2012_061_5.zip\n2012/12/28\n作品本体修正　kohaku2012_061_4.zip\n2012/12/27\n作品本体修正　kohaku2012_061_3.zip\n2012/12/27\n作品本体修正\n2012/12/25\n作品本体修正\n2012/12/23\n期日内提出\n2012/12/16\nエントリー",
+    "icon": "/icons/2012-kouhaku/rpg.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s061a.png",
+      "/screenshots/2012-kouhaku/s061b.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1355669578/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/_QowD3",
+        "label": "本体ダウンロード(134.57MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1UAqaHKkv3w9Xs82tVfijNvXtCZDD1yLD/view?usp=sharing",
+        "label": "保管庫（134.57MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-062",
@@ -493,7 +1930,32 @@
     "no": "062",
     "title": "宝石洞窟",
     "author": "しじみ",
-    "detailDisabled": true
+    "engine": "2000",
+    "category": "ジュエル倉庫番",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=062&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130608011706id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=062&tpl=view2"
+    },
+    "streaming": "哥/哥",
+    "authorComment": "<div class=\"source-comment\">友達のウィンドのために紅茶を入れていたところ、塩がなかったことに気づいた<br>ウォーターが<br>鉱山に赴いて採掘された宝石を対消滅させながら岩塩をさがすゲームです。</div>",
+    "hostComment": "<div class=\"source-comment\">本場の紅茶は硬水で淹れますが、日本の水は軟水ですので、ほんの僅かに塩を加えることでミネラル分を足すという話があるとかないとか。（半信半疑）バター茶という塩っ気のある紅茶もあるそうですね。<br>　わた～し～対消滅～♪</div>",
+    "updates": "2012/12/23\n期日内提出\n2012/12/16\nエントリー",
+    "icon": "/icons/2012-kouhaku/i062.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s062a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1355669608/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/WpFN4C",
+        "label": "本体ダウンロード(1.39MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1e53RYGU1bXei7h_oNW1hKrzrsDbLcmoy/view?usp=sharing",
+        "label": "保管庫（1.39MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-063",
@@ -501,7 +1963,32 @@
     "no": "063",
     "title": "SLASH -THE DEMON HUNTER-",
     "author": "内藤春人",
-    "detailDisabled": true
+    "engine": "RPGツクール2000",
+    "category": "悪魔狩り体験恋愛アドベンチャー",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=063&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130608011711id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=063&tpl=view2"
+    },
+    "streaming": "可/可",
+    "authorComment": "<div class=\"source-comment\">やい、悪魔！俺から逃げられると思ってるのかい？</div>",
+    "hostComment": "<div class=\"source-comment\">これはまさしく悪魔狩り……れ、恋愛！？</div>",
+    "updates": "2012/12/16\nエントリー　期日内提出",
+    "icon": "/icons/2012-kouhaku/i063.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s063a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1355669653/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/VuYmZz",
+        "label": "本体ダウンロード(1.10MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1X7t7cLfq_LUv0WG61ZUKxaUi23RV1C8f/view?usp=sharing",
+        "label": "保管庫（1.10MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-064",
@@ -509,15 +1996,73 @@
     "no": "064",
     "title": "いちめんのksgコレクション",
     "author": "いつまでも名無し",
-    "detailDisabled": true
+    "engine": "2000",
+    "category": "いちめんのksgコレクション",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=064&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130605100821id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=064&tpl=view2"
+    },
+    "streaming": "どうぞ/どうぞ",
+    "authorComment": "<div class=\"source-comment\">100以上の自作ksgを収録！<br>どれもこれもksgだから意外とボリュームが少ないぞ！<br>まあまあ遊べるデフォ戦RPGやコレクション作成講座もあるかもね！</div>",
+    "hostComment": "<div class=\"source-comment\">すっげぇぇえ多いな！！何個かやったことあるぞ！！</div>",
+    "updates": "2013/1/23\n作品本体修正\n2012/12/31\nパッチ追加　kohaku2012_064p2.zip\n2012/12/27\n作品本体修正　パッチ追加\n2012/12/23\n期日内提出\n2012/12/16\nエントリー",
+    "icon": "/icons/2012-kouhaku/i064.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s064a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1355669738/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/4htmz6",
+        "label": "本体ダウンロード(24.01MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1aG9yg37kKKVctDWwsJtSErLfmEuALMEz/view?usp=sharing",
+        "label": "保管庫（24.01MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-065",
     "festivalId": "2012-kouhaku",
     "no": "065",
-    "title": "ファイアーエンブレム もしもの神 未完成版",
+    "title": "ファイアーエンブレム　もしもの神　未完成版",
     "author": "nagatuki",
-    "detailDisabled": true
+    "engine": "RPGツクールXP",
+    "category": "SRPG",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=065&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130605094435id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=065&tpl=view2"
+    },
+    "streaming": "可/不可",
+    "authorComment": "<div class=\"source-comment\">この作品はファイアーエムブレムではありません。<br>類似品、模倣品にはお気をつけ下さい。<br>この作品のストーリーはファイアーエムブレム暁の女神に<br>似ているようですが気のせいということにしてください。<br>あれから2.5年、ついに「失った味方は（ほぼ）戻らないモード」を実装したよ！<br>他にもいろいろ増えたよ！<br>そのために2010夏のセーブデータが使えない（もしくは損をする）ことになってしまい大変申し訳ございません。<br>※タイトル通り未完成なので途中までしかできません。3部5章まで。<br>プレイ時間：おおよそ7時間</div>",
+    "hostComment": "<div class=\"source-comment\">ツクール……ASCII……FE……エムブレム……サーガ……</div>",
+    "updates": "2012/1/15\n作品本体修正　kohaku2012_065_2.zipパッチ追加　kohaku2012_065p2.zip\n2012/1/6\n作品本体修正　kohaku2012_065_1.zipパッチ追加　kohaku2012_065p1.zip\n2012/12/17\nエントリー　期日内提出",
+    "icon": "/icons/2012-kouhaku/i065.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s065a.jpg"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1355754907/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/HXI2dL",
+        "label": "本体ダウンロード(6.02MB)"
+      },
+      {
+        "url": "http://yahoo.jp/VabdXO",
+        "label": "パッチ追加"
+      },
+      {
+        "url": "http://yahoo.jp/-Y7d_4",
+        "label": "パッチ追加"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1_6ZvhiNZK3xT0o2J9IW8P0PacEGMX4VU/view?usp=sharing",
+        "label": "保管庫（6.02MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-066",
@@ -525,15 +2070,54 @@
     "no": "066",
     "title": "リンファンタジー",
     "author": "横蜷",
-    "detailDisabled": true
+    "engine": "2000",
+    "category": "RPG",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=066&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130117132734id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=066&tpl=view2"
+    },
+    "streaming": "付属テキスト参照/同左",
+    "authorComment": "<div class=\"source-comment\">至って普通のデフォ戦RPGです</div>",
+    "hostComment": "<div class=\"source-comment\">ほ、本当にそうなのか？？</div>",
+    "updates": "2012/12/18\nエントリー",
+    "icon": "/icons/2012-kouhaku/rpg.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s066a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1355829005/"
   },
   {
     "id": "2012-kouhaku-work-067",
     "festivalId": "2012-kouhaku",
     "no": "067",
-    "title": "もしも in Real World ～アベ・レクイエム～",
+    "title": "もしも in Real World　 ～アベ・レクイエム～",
     "author": "ゾマホン",
-    "detailDisabled": true
+    "engine": "RPGツクール2000",
+    "category": "反社会ウルトラポリティカル選挙ＲＰＧ",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=067&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130608011408id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=067&tpl=view2"
+    },
+    "streaming": "大丈夫？/不謹慎ゲーだよ？",
+    "authorComment": "<div class=\"source-comment\">薄口コメンテーター稼業にも飽きてきた元小泉チルドレンの杉村太蔵は<br>その類稀な身体能力をマッドサイエンティストのドクター中松に見込まれ、<br>最新型パワードスーツのテスターとして人助けに励むことになった。<br>選挙を目前にした年の暮れ、彼らの目は何を見るのか…<br>※このゲームはフィクションです(ry<br><br>サンタさんからプレゼントを貰えないような悪い子のためのゲームです。<br>家族の人に見つからないようにこっそりとプレイしてね！ゾマホンとの約束だよ！</div>",
+    "hostComment": "<div class=\"source-comment\">選挙行ってきたよ。</div>",
+    "updates": "2012/12/23\nサムネイル変更　期日内提出\n2012/12/18\nエントリー",
+    "icon": "/icons/2012-kouhaku/i067.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s067a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1355829050/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/fRIfT2",
+        "label": "本体ダウンロード(6.71MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1wlLFFKlCaHbjOmu8UjiU-5M76C6UISDL/view?usp=sharing",
+        "label": "保管庫（6.71MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-068",
@@ -541,7 +2125,32 @@
     "no": "068",
     "title": "QuizMaogunAcademy",
     "author": "たわし",
-    "detailDisabled": true
+    "engine": "2000000000",
+    "category": "自宅オフライン対戦クイズゲーム",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=068&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130608011716id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=068&tpl=view2"
+    },
+    "streaming": "やったら/やりかえす",
+    "authorComment": "<div class=\"source-comment\">ごめんね</div>",
+    "hostComment": "<div class=\"source-comment\">きたな・・ クイズゲーだ。いまは 信じてまつ以外 われらにすべはない</div>",
+    "updates": "2012/12/24\nコメント 配信/投稿 変更　遅刻提出\n2012/12/23\nコメント変更\n2012/12/18\nエントリー",
+    "icon": "/icons/2012-kouhaku/i068_1.gif",
+    "ss": [
+      "/screenshots/2012-kouhaku/s068a1.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1355829140/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/zJMvF4",
+        "label": "本体ダウンロード(3.34MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1ccEvoB60oNHLu4imyvlMr6ayE644elS5/view?usp=sharing",
+        "label": "保管庫（3.34MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-069",
@@ -549,7 +2158,32 @@
     "no": "069",
     "title": "三行でわかるキャッペソフト",
     "author": "マーベルキャプテンペガサス・アルティメットクリムゾン零式・ハイパーアンリミテッドエディションType：G ◆do7wOyQeJk",
-    "detailDisabled": true
+    "engine": "RPGツクール2000",
+    "category": "過去作品紹介",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=069&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130608011413id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=069&tpl=view2"
+    },
+    "streaming": "可/可",
+    "authorComment": "<div class=\"source-comment\">私がゲーム製作を引退する前に皆に伝えておきたいことがある。<br><br><br><br>　　　ゲームを参考にしてゲームを作るな。<br><br><br><br>ゲームとはバーチャルリアリティであり、バーチャルリアリティとは「偽物の現実」である。<br>ご存知の通り、バーチャルリアリティは現実を参考にして作られたものだ。<br>それを参考にして作られたものは、もはや「偽物の現実・・・の偽物」になってしまう。<br><br><br><br>　お前たちはいつまで偽物を作り続ければ気がすむのか。</div>",
+    "hostComment": "<div class=\"source-comment\">いえ、私はここで、釘が錆びていく様子などを眺めて過ごします。</div>",
+    "updates": "2012/12/21\nエントリー　期日内提出",
+    "icon": "/icons/2012-kouhaku/i069.jpg",
+    "ss": [
+      "/screenshots/2012-kouhaku/s069a.jpg"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1356090303/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/tSQQ7a",
+        "label": "本体ダウンロード(0.34MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1BGEnCpEt4uMgtYSJ2V8WS7wtf28QfoW-/view?usp=sharing",
+        "label": "保管庫（0.34MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-070",
@@ -557,7 +2191,37 @@
     "no": "070",
     "title": "Revenge of a \"AMEN GORILLA\" -1997-",
     "author": "14-",
-    "detailDisabled": true
+    "engine": "2000",
+    "category": "amenbreak",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=070&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130605020413id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=070&tpl=view2"
+    },
+    "streaming": "ダメ/ムリ",
+    "authorComment": "<div class=\"source-comment\">祭り初参加です！<br>途中でいきなり終わります！続きは作りたくありません！</div>",
+    "hostComment": "<div class=\"source-comment\"><div class=\"AA\">＿人人人人人人人＿<br>＞　突然の終幕　＜<br>￣^Y^Y^Y^Y^Y^￣</div></div>",
+    "updates": "2013/2/5\nパッチ追加　kohaku2012_070p5.zip\n2013/1/15\nパッチ追加　kohaku2012_070p4.zip\n2013/1/9\nパッチ追加　kohaku2012_070p3.zip\n2012/12/27\nパッチ追加\n2012/12/25\nパッチ追加\n2012/12/23\n期日内提出\n2012/12/21\nエントリー",
+    "icon": "/icons/2012-kouhaku/i070.jpg",
+    "ss": [
+      "/screenshots/2012-kouhaku/s070a.jpg",
+      "/screenshots/2012-kouhaku/s070b.jpg"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1356090388/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/pt6R86",
+        "label": "本体ダウンロード(13.73MB)"
+      },
+      {
+        "url": "http://yahoo.jp/box/P8pQJU",
+        "label": "パッチ追加"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1pkPuEcgo_AQT7VX7PYAntPEhOzX2YSXN/view?usp=sharing",
+        "label": "保管庫（13.73MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-071",
@@ -565,7 +2229,32 @@
     "no": "071",
     "title": "三将軍の毎日ダンジョン",
     "author": "魔法幼女リリカルneet",
-    "detailDisabled": true
+    "engine": "2000",
+    "category": "デフォ戦",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=071&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130628093020id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=071&tpl=view2"
+    },
+    "streaming": "いいよ/いいよ",
+    "authorComment": "<div class=\"source-comment\">まだこのSSしか出来て無いけどDQ10アプデまで暇だしがんばる</div>",
+    "hostComment": "<div class=\"source-comment\">この、やる気のないようであるようなぬるさが好きです。</div>",
+    "updates": "2012/12/23\n期日内提出\n2012/12/21\nエントリー",
+    "icon": "/icons/2012-kouhaku/rpg.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s071a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1356090432/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/_Tggtz",
+        "label": "本体ダウンロード(0.26MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1wVnR0Ue7LU3KH7qD7Fq4EEESG_fTMEGI/view?usp=sharing",
+        "label": "保管庫（0.26MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-072",
@@ -573,7 +2262,36 @@
     "no": "072",
     "title": "ウィンドⅠのおつかい外伝～カナエール様は心配性～",
     "author": "大富豪の大貧民役",
-    "detailDisabled": true
+    "engine": "RPGツクール2000",
+    "category": "迷子になりながら事の成り行きを見るゲ",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=072&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130608011721id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=072&tpl=view2"
+    },
+    "streaming": "おｋ/おｋ",
+    "authorComment": "<div class=\"source-comment\">大きな街でウィンドちゃんが迷子になった！無事にお母さんとお父さんの元に帰れるかな？<br>9月の突発風祭りの作品「ウィンドⅠのおつかい」を先に見るともっと楽しめるかもしれません<br><br>①紅白の存在忘れてたｗｗｗ<br>②締切5日前ワロエナイ<br>③去年みたいな未完成は出したくない、でも参加したい<br>④ｋｓｇｔｋるしかないじゃない！！<br><br>つまりウィンドⅠちゃんきゃわわ</div>",
+    "hostComment": "<div class=\"source-comment\">きゃわわ！</div>",
+    "updates": "2012/12/25\nパッチ追加\n2012/12/22\nエントリー　期日内提出",
+    "icon": "/icons/2012-kouhaku/miru.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s072a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1356176049/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/ANyMWo",
+        "label": "本体ダウンロード(1.30MB)"
+      },
+      {
+        "url": "http://yahoo.jp/Na3D8a",
+        "label": "パッチ追加"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1wUWHCYMA2MdGbPbtrPu7oJXFKIMFbKUJ/view?usp=sharing",
+        "label": "保管庫（1.30MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-073",
@@ -581,7 +2299,32 @@
     "no": "073",
     "title": "完全3D迷路",
     "author": "ALPHA",
-    "detailDisabled": true
+    "engine": "RPGツクール2000",
+    "category": "3D迷路",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=073&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130628075659id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=073&tpl=view2"
+    },
+    "streaming": "可/可",
+    "authorComment": "<div class=\"source-comment\">360°どの方角も描画できる、完全な3D迷路を作りました。<br>しかしゲーム性は貧弱で、ただ単にゴールを目指すだけです。<br>あと超重いっていう(＾o＾)<br><br>ピクチャーが256枚使える改造exeを使っているので、<br>プレイは自己責任でお願いします。</div>",
+    "hostComment": "<div class=\"source-comment\">以前のも凄かったが、まさかここまで立体的になるとは！</div>",
+    "updates": "2012/12/23\nエントリー　期日内提出",
+    "icon": "/icons/2012-kouhaku/i073.gif",
+    "ss": [
+      "/screenshots/2012-kouhaku/s073a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1356254740/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/8q2_mX",
+        "label": "本体ダウンロード(0.76MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1IrGZkaB9VPFQj3BECMNe1WS5SCcGgdwd/view?usp=sharing",
+        "label": "保管庫（0.76MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-074",
@@ -589,7 +2332,32 @@
     "no": "074",
     "title": "ライチのぼうけん",
     "author": "たけ",
-    "detailDisabled": true
+    "engine": "2003",
+    "category": "ｋｓｇ",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=074&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130608011418id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=074&tpl=view2"
+    },
+    "streaming": "可/不可",
+    "authorComment": "<div class=\"source-comment\">2003デフォ戦いじるの楽しすぎワロタ</div>",
+    "hostComment": "<div class=\"source-comment\">「ああ……お前の言うとおりだ……。<br>　いや……なんでもない。」</div>",
+    "updates": "2012/12/23\nエントリー　期日内提出",
+    "icon": "/icons/2012-kouhaku/i074.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s074a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1356254830/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/Lp0lt8",
+        "label": "本体ダウンロード(0.46MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1kZ4vB5-vDI93d9vojRg2-dwfpp2haubJ/view?usp=sharing",
+        "label": "保管庫（0.46MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-075",
@@ -597,7 +2365,32 @@
     "no": "075",
     "title": "安心安全マインスイーパ",
     "author": "カッチンコッチンコ",
-    "detailDisabled": true
+    "engine": "2000",
+    "category": "パズル",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=075&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130608011727id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=075&tpl=view2"
+    },
+    "streaming": "可/可",
+    "authorComment": "<div class=\"source-comment\">緑化委員会ゲーです。<br>ツクールで中身開いて手軽に自作のマインスイーパ問題も作れます。</div>",
+    "hostComment": "<div class=\"source-comment\">マインスイーパは可能性を秘めている。</div>",
+    "updates": "2013/1/30\n作品本体修正　kohaku2012_075_2.zip\n2013/1/26\n作品本体修正　kohaku2012_075_1.zip\n2013/1/19\n遅刻提出\n2012/12/23\nエントリー",
+    "icon": "/icons/2012-kouhaku/pzl.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s075a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1356254864/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/ViPNbY",
+        "label": "本体ダウンロード(1.42MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1LXa3WmcELnmTBc4QvQjFU9Z1WfR_KK8y/view?usp=sharing",
+        "label": "保管庫（1.42MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-076",
@@ -605,7 +2398,32 @@
     "no": "076",
     "title": "ほのぼのねこねこ～核にゃんと霊にゃんのにゃんにゃん物語だにゃん♪～",
     "author": "あいうえお",
-    "detailDisabled": true
+    "engine": "RPGツクール2000",
+    "category": "見るゲ",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=076&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130628085317id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=076&tpl=view2"
+    },
+    "streaming": "不可/不可",
+    "authorComment": "<div class=\"source-comment\">猫キャラがふらふらする見るゲ<br>主に霊ニャンがふらふらする</div>",
+    "hostComment": "<div class=\"source-comment\">猫耳を最初に考えた人は天才だと思う。</div>",
+    "updates": "2012/12/23\nエントリー　期日内提出",
+    "icon": "/icons/2012-kouhaku/i076.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s076a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1356254913/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/HXIbiT",
+        "label": "本体ダウンロード(9.38MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1EnXg7O4wwWjN7eUuh_MqwRcqVK8avVnE/view?usp=sharing",
+        "label": "保管庫（9.38MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-077",
@@ -613,7 +2431,32 @@
     "no": "077",
     "title": "俺っクション",
     "author": "ブラウン",
-    "detailDisabled": true
+    "engine": "2k",
+    "category": "見る＋デフォだと思うよ",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=077&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130605094850id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=077&tpl=view2"
+    },
+    "streaming": "可能",
+    "authorComment": "<div class=\"source-comment\">夏の陣に続いて参戦。<br><br>今回はksg3つセット<br>追加ksgは間に合いませんでした<br>・魔王把握に俺設定アレンジの見る＋デフォ<br>・よく分からん見るゲ<br>・音質うｐの講座っぽいksg<br>・夏の陣作品リテイク(8/110%)　←データーベースの根本的見直しで無理だった<br><br>今回も高難易度のデフォ戦があるよ。<br>前回の「シビアなバランス」の昇華版「ジリ貧バランス」に難易度増し増し。<br>1/28追記<br>データーベースを少し弄ったので、多少難易度変わってます。</div>",
+    "hostComment": "<div class=\"source-comment\">音質が良くなるですって？</div>",
+    "updates": "2013/2/2\nコメント変更 作品本体修正 kohaku2012_077_2.zip\n2013/1/5\nパッチ追加　kohaku2012_077p1.zip\n2013/1/1\nコメント変更 作品本体修正 kohaku2012_077_1.zip\n2012/12/23\nコメント変更　期日内提出\n2012/12/23\nエントリー",
+    "icon": "/icons/2012-kouhaku/miyaru.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s077a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1356254948/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/MUu0DG",
+        "label": "本体ダウンロード(7.84MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/137h28Pp_c59dqGUcnA9zQU5GR900g7Vp/view?usp=sharing",
+        "label": "保管庫（7.84MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-078",
@@ -621,7 +2464,32 @@
     "no": "078",
     "title": "わてりとたのしいセクロス",
     "author": "ＫＳＤ",
-    "detailDisabled": true
+    "engine": "2000",
+    "category": "セクロス",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=078&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130608011526id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=078&tpl=view2"
+    },
+    "streaming": "１１４/５１４",
+    "authorComment": "<div class=\"source-comment\">わてりとセクロスするゲームです<br><br><br><br><br>ちなみに僕はセクロスしたことはありません（半ギレ）</div>",
+    "hostComment": "<div class=\"source-comment\">既にオチてる</div>",
+    "updates": "2012/12/23\nエントリー　期日内提出",
+    "icon": "/icons/2012-kouhaku/i078.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s078a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1356254980/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/cqcUDC",
+        "label": "本体ダウンロード(2.64MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1mX8kdKkvJj8oHurQ3mpoMzeQ53HLvPi2/view?usp=sharing",
+        "label": "保管庫（2.64MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-079",
@@ -629,7 +2497,36 @@
     "no": "079",
     "title": "101人のブライアン",
     "author": "ksg40本目ぐらい",
-    "detailDisabled": true
+    "engine": "2000",
+    "category": "探して集めるゲーム",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=079&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130608011732id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=079&tpl=view2"
+    },
+    "streaming": "好きにしてくださいっておじいちゃんの遺言に（ｒｙ/好きにしてくださいっておじ（ｒｙ",
+    "authorComment": "<div class=\"source-comment\">遅刻前提のエントリーでもいいっておじいちゃんの遺言に書いてあったのでエントリーすることにしました！<br>ゲーム内容はSSで察したらいいっておじいちゃんの遺言に書いてあったので察してください！</div>",
+    "hostComment": "<div class=\"source-comment\">先見性のあるおじいちゃんですね！！</div>",
+    "updates": "2013/1/29\nパッチ追加　kohaku2012_079p1.zip\n2013/1/16\n作品本体修正　kohaku2012_079_2.zip\n2013/1/10\n作品本体修正　kohaku2012_079_1.zip\n2013/1/7\n遅刻提出\n2012/12/23\nエントリー",
+    "icon": "/icons/2012-kouhaku/i079.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s079a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1356255074/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/bEVxiS",
+        "label": "本体ダウンロード(3.04MB)"
+      },
+      {
+        "url": "http://yahoo.jp/box/YhOywD",
+        "label": "パッチ追加"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1yJIENHQqdHxMGWwCzIm8Fa43WPRwI5R6/view?usp=sharing",
+        "label": "保管庫（3.04MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-080",
@@ -637,7 +2534,21 @@
     "no": "080",
     "title": "なんかだすよ",
     "author": "MTEN&UKON",
-    "detailDisabled": true
+    "engine": "2000",
+    "category": "未定",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=080&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130117132504id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=080&tpl=view2"
+    },
+    "streaming": "可/可",
+    "authorComment": "<div class=\"source-comment\">中卒で転職活動中のMTENと、<br>新卒で就職活動中のUKONが作るゲーム。<br>何ができるかも、完成するかも、未定<br>因みにUKONは初参加です。</div>",
+    "hostComment": "<div class=\"source-comment\">まったく内容が予測できないスクショであった。</div>",
+    "updates": "2012/12/23\nエントリー",
+    "icon": "/icons/2012-kouhaku/i080.jpg",
+    "ss": [
+      "/screenshots/2012-kouhaku/s080a.jpg"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1356255195/"
   },
   {
     "id": "2012-kouhaku-work-081",
@@ -645,7 +2556,32 @@
     "no": "081",
     "title": "奔走するナイ様の死闘",
     "author": "デスダークネスΩ",
-    "detailDisabled": true
+    "engine": "2000",
+    "category": "見るゲ",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=081&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130628074543id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=081&tpl=view2"
+    },
+    "streaming": "不可/不可",
+    "authorComment": "<div class=\"source-comment\">ついに魔王軍が恐ろしいゲームをしかけてきた。<br>ナイ軍の運命はいったい・・・！？<br><br>あんまり死闘ではないかもしれないけどそんなかんじの見るゲです！！</div>",
+    "hostComment": "<div class=\"source-comment\">悪vs悪という構図、好きだぜ。</div>",
+    "updates": "2012/12/25\n遅刻提出\n2012/12/23\n作者名変更\n2012/12/23\nエントリー",
+    "icon": "/icons/2012-kouhaku/miru.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s081a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1356265088/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/xKYKL9",
+        "label": "本体ダウンロード(1.18MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1WNcsEIPsR3UmrJLNg3z1562o9qxnc2MZ/view?usp=sharing",
+        "label": "保管庫（1.18MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-082",
@@ -653,7 +2589,32 @@
     "no": "082",
     "title": "絶壁天国＋リリア・キングフォーム",
     "author": "リリアさん大好き丸",
-    "detailDisabled": true
+    "engine": "2000",
+    "category": "ｋｓｇ",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=082&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130608011737id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=082&tpl=view2"
+    },
+    "streaming": "リリアかわいい/リリアさん超かわいい",
+    "authorComment": "<div class=\"source-comment\">このあいだ取った安価『絶壁天国』と、<br>結構昔にエターなった安価『リリア・キングフォーム』の<br>２つを同時に消化したお得なｋｓｇです。５分で終わります。<br>息抜きにどうぞ。</div>",
+    "hostComment": "<div class=\"source-comment\">ツクール2000触りだした当初から主人公1-2は好きでした。</div>",
+    "updates": "2012/12/23\nエントリー　期日内提出",
+    "icon": "/icons/2012-kouhaku/i082.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s082a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1356301591/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/_Zz88T",
+        "label": "本体ダウンロード(0.78MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1JHCs5SgwbMmd0RLwmF7wkatmBWUYDXZL/view?usp=sharing",
+        "label": "保管庫（0.78MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-083",
@@ -661,7 +2622,21 @@
     "no": "083",
     "title": "2013年からよろしく",
     "author": "ナナシヨリアイヲコメテ",
-    "detailDisabled": true
+    "engine": "2000",
+    "category": "そんなものない",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=083&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130117134623id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=083&tpl=view2"
+    },
+    "streaming": "か/か",
+    "authorComment": "<div class=\"source-comment\">俺は来年から本気出す</div>",
+    "hostComment": "<div class=\"source-comment\">「サガライクゲームにハズレなし」と勝手に思ってます。本当に勝手に。</div>",
+    "updates": "2012/12/23\nエントリー",
+    "icon": "/icons/2012-kouhaku/hatena.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s083a.jpg"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1356301664/"
   },
   {
     "id": "2012-kouhaku-work-084",
@@ -669,7 +2644,32 @@
     "no": "084",
     "title": "windy posession",
     "author": "蝶番",
-    "detailDisabled": true
+    "engine": "RPGツクール2000",
+    "category": "アクションパズル",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=084&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130608011742id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=084&tpl=view2"
+    },
+    "streaming": "可/可",
+    "authorComment": "<div class=\"source-comment\">今からステージ作るよ！！<br>大丈夫、すぐに終わるさ…<br>これが終わったら故郷に帰って必ず君を守って川と田んぼと裏山の様子を見にいくんだ…</div>",
+    "hostComment": "<div class=\"source-comment\">パズルゲーム作成の壁は、システム構築よりも問題集作成じゃないかと思う。</div>",
+    "updates": "2013/2/7\n作品本体修正　kohaku2012_084_2.zip\n2013/1/29\n作品本体修正　kohaku2012_084_1.zip\n2012/12/30\n遅刻提出　SS アイコン 変更\n2012/12/23\nエントリー",
+    "icon": "/icons/2012-kouhaku/i084.gif",
+    "ss": [
+      "/screenshots/2012-kouhaku/s084a1.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1356301704/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/r9ea-h",
+        "label": "本体ダウンロード(0.98MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1Nij0aOoN_ck7GqHYRxUyN7gYrnQviQK-/view?usp=sharing",
+        "label": "保管庫（0.98MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-085",
@@ -677,7 +2677,32 @@
     "no": "085",
     "title": "エターナルデフォルト フライングエタリー",
     "author": "流久利亜",
-    "detailDisabled": true
+    "engine": "VX",
+    "category": "エターなることを放棄するRPG",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=085&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130628085322id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=085&tpl=view2"
+    },
+    "streaming": "たまってる、ってやつなのかな？/しょうがないにゃあ…いいよ",
+    "authorComment": "<div class=\"source-comment\"><br>大地に大きな穴が開いた<br>僕の心にも消えない穴が開いた<br>闇は世界を呑み込んだけど<br>君という光までは呑み込めなかった<br>君の歩んだ道が皆の希望になる<br>僕はそう確信しているんだ<br><br>ウィンディ！　君は僕の希望なんだ！<br>こんなところでエターならせてたまるか！！<br><br></div>",
+    "hostComment": "<div class=\"source-comment\">このSSを見た時に感じたような、希望を見せてくれ！</div>",
+    "updates": "2012/12/23\nエントリー　期日内提出",
+    "icon": "/icons/2012-kouhaku/i085.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s085a.jpg"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1356301740/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/e2A44E",
+        "label": "本体ダウンロード(16.02MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/17S-pcsrrZzWR4GvVPdqKeyE2EYrRHtmR/view?usp=sharing",
+        "label": "保管庫（16.02MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-086",
@@ -685,7 +2710,32 @@
     "no": "086",
     "title": "たてもの脱出ゲーム",
     "author": "とうふ",
-    "detailDisabled": true
+    "engine": "2000",
+    "category": "ADV",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=086&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130628085327id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=086&tpl=view2"
+    },
+    "streaming": "お好きに/お好きに",
+    "authorComment": "<div class=\"source-comment\">メメタァ</div>",
+    "hostComment": "<div class=\"source-comment\">脱出ゲーって、なんだか自然と脱出したくなりますよね。</div>",
+    "updates": "2012/12/28\n作品本体修正 kohaku2012_086_1.zip\n2012/12/23\nエントリー　期日内提出",
+    "icon": "/icons/2012-kouhaku/i086.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s086a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1356301780/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/S_82e6",
+        "label": "本体ダウンロード(1.98MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1p-0tQnBtbK1K3qP0QhZy_QXtcQO03YFa/view?usp=sharing",
+        "label": "保管庫（1.98MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-087",
@@ -693,7 +2743,36 @@
     "no": "087",
     "title": "具現体達と散歩道 虹色のコインと謎に包まれし秘宝",
     "author": "ルズ",
-    "detailDisabled": true
+    "engine": "2000",
+    "category": "アドベンチャー",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=087&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130604035345id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=087&tpl=view2"
+    },
+    "streaming": "可/可",
+    "authorComment": "<div class=\"source-comment\">今回の冒険の舞台であり具現体達が平和に暮らす地「グゲン島」中を探し回り、<br>全10人の操作可能キャラを「並べ替え」で入れ替えていきながら<br>秘宝の手がかりとなる「レインボーコイン」（全60枚）を集めるゲームです。<br><br>操作可能キャラの着せ替え要素もありますよ。</div>",
+    "hostComment": "<div class=\"source-comment\">宝探し……それは男のロマン。<br>着せ替え……それも男のロマン。</div>",
+    "updates": "2013/2/7\nパッチ追加　kohaku2012_087p6.zip\n2013/1/29\nパッチ追加　kohaku2012_087p5.zip\n2013/1/10\nパッチ追加　kohaku2012_087p4.zip\n2012/12/28\n作品本体修正　kohaku2012_087_1.zipパッチ追加　kohaku2012_087p3.zip\n2012/12/27\nパッチ追加\n2012/12/25\nパッチ追加\n2012/12/23\nエントリー　期日内提出",
+    "icon": "/icons/2012-kouhaku/i087.gif",
+    "ss": [
+      "/screenshots/2012-kouhaku/s087a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1356301812/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/NLADb3",
+        "label": "本体ダウンロード(4.78MB)"
+      },
+      {
+        "url": "http://yahoo.jp/box/3v04j7",
+        "label": "パッチ追加"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1oErI8-43KyYbJn8mHeTUk0nSgBHeCLoB/view?usp=sharing",
+        "label": "保管庫（4.78MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-088",
@@ -701,7 +2780,32 @@
     "no": "088",
     "title": "鬼バリア",
     "author": "◆WLpLeO3gVY",
-    "detailDisabled": true
+    "engine": "2000",
+    "category": "守る力を鍛えるRPG",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=088&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130628085332id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=088&tpl=view2"
+    },
+    "streaming": "可",
+    "authorComment": "<div class=\"source-comment\">攻略法<br>ワーキングメモリーを鍛えて物理で殴ればよい</div>",
+    "hostComment": "<div class=\"source-comment\">人呼んで物理バリ・アタック！！バリアーだぜ</div>",
+    "updates": "2012/12/23\nエントリー　期日内提出",
+    "icon": "/icons/2012-kouhaku/i088.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s088a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1356301842/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/FAq0tT",
+        "label": "本体ダウンロード(4.37MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/12DdYvC1JCI0QPI-OPigFrPYOeAnOBW1a/view?usp=sharing",
+        "label": "保管庫（4.37MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-089",
@@ -709,15 +2813,54 @@
     "no": "089",
     "title": "三馬鹿でもわかる変数講座",
     "author": "シバルバー",
-    "detailDisabled": true
+    "engine": "2000",
+    "category": "講座ゲー",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=089&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130117132622id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=089&tpl=view2"
+    },
+    "streaming": "可/可",
+    "authorComment": "<div class=\"source-comment\">誰でも自作メニューや自作戦闘やドット単位移動アクションが作れるように、<br>いろいろ説明する変数講座です。<br>遅刻で申し訳ありませんが、出来しだい提出します。</div>",
+    "hostComment": "<div class=\"source-comment\">俺でも……ドット単位移動ができるように……！？</div>",
+    "updates": "2012/12/23\nエントリー",
+    "icon": "/icons/2012-kouhaku/i089.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s089a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1356301883/"
   },
   {
     "id": "2012-kouhaku-work-090",
     "festivalId": "2012-kouhaku",
     "no": "090",
-    "title": "R＆W2012 ksg -Ⅹ-",
+    "title": "R＆W2012　ksg -Ⅹ-",
     "author": "グんだるーん",
-    "detailDisabled": true
+    "engine": "2000",
+    "category": "ksg(ほぼ見るゲ)",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=090&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130608011747id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=090&tpl=view2"
+    },
+    "streaming": "自己責任/自己責任",
+    "authorComment": "<div class=\"source-comment\">一週間前にくらいに出した安価ｋｓｇ×10<br>12/23にほとんどｔｋったので完成度は低いと思うよ！！<br>まあ暇な時にやってくれたら嬉しいな！！<br>内容は薄いからすぐ終わるし！！<br>総PIAI時間は多分20分未満だし！！</div>",
+    "hostComment": "<div class=\"source-comment\">タイトル一覧が見えるとか既にｗｋｗｋしてくるじゃねーか！</div>",
+    "updates": "2012/12/23\nエントリー　期日内提出",
+    "icon": "/icons/2012-kouhaku/i090.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s090a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1356301915/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/vuY5Tc",
+        "label": "本体ダウンロード(0.50MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1QocV3B03NjOVbkm3RM1Sc43ec9tc1WV1/view?usp=sharing",
+        "label": "保管庫（0.50MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-091",
@@ -725,7 +2868,37 @@
     "no": "091",
     "title": "具現化規制法案（仮）（笑）",
     "author": "若葉勢",
-    "detailDisabled": true
+    "engine": "ＲＰＧツクール２０００",
+    "category": "デフォ戦オナニｋｓｇゲー",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=091&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130628073756id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=091&tpl=view2"
+    },
+    "streaming": "やってみるか？/忠告はしたぞ？",
+    "authorComment": "<div class=\"source-comment\">初投稿です。<br>初心者にありがちな事多いと思います。<br>物故しすぎて重たくてすいません。<br>ＭＡＰをｐｋｐｋしてすいません。<br>ｋｓｇですいません。<br>えたーになってすいません。</div>",
+    "hostComment": "<div class=\"source-comment\">誰にだって「初めて」はあるもの…<br>「記念すべき初投稿」になるか「乗り越えたい初投稿」になるかは貴方次第だ！</div>",
+    "updates": "2012/12/27\nパッチ追加\n2012/12/25\n遅刻提出\n2012/12/23\nエントリー",
+    "icon": "/icons/2012-kouhaku/ksg.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s091a.gif",
+      "/screenshots/2012-kouhaku/s091b.gif"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1356301949/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/Pl5v-x",
+        "label": "本体ダウンロード(83.35MB)"
+      },
+      {
+        "url": "http://yahoo.jp/nfsmXR",
+        "label": "パッチ追加"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1BJTZTmdESAeP_F_v42BXK3u5rXeW0dA6/view?usp=sharing",
+        "label": "保管庫（83.35MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-092",
@@ -733,7 +2906,32 @@
     "no": "092",
     "title": "マニラの西48km",
     "author": "◆2aLlGIkY8s",
-    "detailDisabled": true
+    "engine": "2000",
+    "category": "ググれ",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=092&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130608011531id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=092&tpl=view2"
+    },
+    "streaming": "(・ω<)/(>ω・)",
+    "authorComment": "<div class=\"source-comment\">5分が目標でしたがだめでした</div>",
+    "hostComment": "<div class=\"source-comment\">アイコンじゃなくてウンコだよそれは！サムネイルじゃなくてSomeネイルだよそれは！</div>",
+    "updates": "2012/12/23\nエントリー　期日内提出",
+    "icon": "/icons/2012-kouhaku/i092.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s092a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1356302020/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/CySVNC",
+        "label": "本体ダウンロード(1.02MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1Ek8rc6kpXrub6xx2Xk3DyRSIwaeE1iit/view?usp=sharing",
+        "label": "保管庫（1.02MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-093",
@@ -741,7 +2939,9 @@
     "no": "093",
     "title": "Into the Lilizm",
     "author": "崇拝しすぎた刃",
-    "detailDisabled": true
+    "engine": "2000",
+    "category": "読むゲ（R-18L)",
+    "contentRestricted": true
   },
   {
     "id": "2012-kouhaku-work-094",
@@ -749,7 +2949,32 @@
     "no": "094",
     "title": "モテるツクール女子力を磨く為の4つの心得",
     "author": "かきぴー",
-    "detailDisabled": true
+    "engine": "2000",
+    "category": "女子力ゲー",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=094&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130608011752id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=094&tpl=view2"
+    },
+    "streaming": "○/○",
+    "authorComment": "<div class=\"source-comment\">飛び入り参加さーせんｗｗ<br>つけまつける</div>",
+    "hostComment": "<div class=\"source-comment\">お前の作っているゲームの、「魔力」という単語を「女子力」に替えておいた。礼はいらねぇぜ。</div>",
+    "updates": "2012/12/23\nエントリー　期日内提出",
+    "icon": "/icons/2012-kouhaku/ksg.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s094a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1356302087/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/1cjPxp",
+        "label": "本体ダウンロード(0.25MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1eRnRzvjEZ3DR28k4xduGUYteeYimJHGE/view?usp=sharing",
+        "label": "保管庫（0.25MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   },
   {
     "id": "2012-kouhaku-work-095",
@@ -757,6 +2982,31 @@
     "no": "095",
     "title": "地獄探偵おぼなす",
     "author": "脂はむ",
-    "detailDisabled": true
+    "engine": "ツクール2000",
+    "category": "ホラー",
+    "source": {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=095&tpl=view2",
+      "snapshotUrl": "https://web.archive.org/web/20130628093025id_/http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=095&tpl=view2"
+    },
+    "streaming": "可/可",
+    "authorComment": "<div class=\"source-comment\">祭り参加8回目くらいですかね、今から作ります</div>",
+    "hostComment": "<div class=\"source-comment\">最後の最後で来てくれて本当に安心した。こなかったらどうしようかと。</div>",
+    "updates": "2012/12/24\n遅刻提出\n2012/12/23\nエントリー",
+    "icon": "/icons/2012-kouhaku/i095.png",
+    "ss": [
+      "/screenshots/2012-kouhaku/s095a.png"
+    ],
+    "forum": "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1356302204/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/kjR3-Q",
+        "label": "本体ダウンロード(0.12MB)"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1pp75HtIjxrHwKiCdF8gBQf7lpFTIbwc_/view?usp=sharing",
+        "label": "保管庫（0.12MB）",
+        "detail": "祭典ミラーの作品一覧に掲載された Google Drive 保管リンク"
+      }
+    ]
   }
 ]

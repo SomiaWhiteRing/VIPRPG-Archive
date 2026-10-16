@@ -1,0 +1,4094 @@
+<html><head>
+<title>VIPRPG紅白2012</title>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<link rel="shortcut icon" href="favicon.ico">
+
+
+<style type="text/css">
+<!--
+.social { margin:30px 0 0 0; }
+.facebookbtn { text-align:right; margin: 0 0 0 5px; }
+.tweetbtn { text-align:right; margin: 3px 0 4px 5px; }
+
+/* base */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	font-family: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+/*	outline: 0;*/
+}
+
+html {
+	font-size: 75%;
+	filter: expression(document.execCommand("BackgroundImageCache", false, true));
+}
+
+img {
+	vertical-align: text-bottom;
+	-ms-interpolation-mode: bicubic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+li ol, ul {
+	list-style: inside;
+}
+
+table {
+	border-collapse: collapse;
+/*	border-collapse: separate;*/
+	border-spacing: 0;
+}
+
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	vertical-align: top;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+
+blockquote, q {
+	quotes: "" "";
+}
+
+a:focus {
+/*\*/
+	overflow: hidden;
+/**/
+}
+
+option {
+	padding-right: 10px;
+}
+
+/* common */
+
+body {
+	font-size: 100%;
+	line-height: 140%;
+	font-family: Arial,Helvetica,sans-serif;
+	color: #000;
+	text-align: center;
+	background: #fff;
+}
+
+a:link { text-decoration:underline; color: #000;}
+a:visited { text-decoration:underline; color: #000;}
+a:active { text-decoration:underline; color: #000;}
+a:hover { text-decoration:none; color: #000;}
+
+html , body {height:100%;}
+body > #container {height:auto;}
+
+h2 {
+	padding: 30px 0;
+	width: 100%;
+	font-size: 12px;
+	text-align: center;
+}
+
+h3 {
+	padding: 10px 0;
+	width: 100%;
+	color: #A63737;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+h4 {
+	padding: 5px 0px 3px;
+	width: 100%;
+	color: #000;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+
+#container {
+	width: 840px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+#balloonbox {
+	margin: 0 auto;
+	margin-bottom: 0px;
+	width:  840px;
+	height: 88px;
+	left:     0px;
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: left center;"
+}
+
+#ballooninner {
+	margin: 0 auto;
+	padding: 8px;
+	width:  800px;
+	height: 48px;
+	left:     0px;
+	text-align: left;
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: left center;"
+}
+
+.back {
+	padding:40px 0px 0px 0px;
+	background:url(img/back1_top.png) no-repeat left top;
+}
+
+.back .body {
+	background:url(img/back1_body.png) repeat-y left top;
+}
+
+
+#box2 {
+	width: 720px;
+	padding: 0px 0px 0px 0px;
+	left:    60px;
+	position: relative;
+	text-align: left;
+	color: #000;
+}
+
+
+#entrylist table {
+	border: 3px solid #cccccc;	/*外枠の線*/
+	width: 100%;
+}
+
+#entrylist td, #entrylist th {
+	border: 1px solid #000000;	/*内枠の線。ここでは点線(IE6前だと破線で表示される)に設定*/
+	padding: 5px 5px;			/*余白*/
+	line-height: 1.0;
+}
+
+#entrylist td.s, #entrylist th.s {
+	background-color: #000000;
+	border: 1px solid #000000;	/*内枠の線。ここでは点線(IE6前だと破線で表示される)に設定*/
+	padding: 0px 0px;			/*余白*/
+	line-height: 1.0;
+	height: 8px;
+}
+
+#entrylist th.red, #entrylist td.red {
+	background-color: #ff7777;
+	vertical-align: middle;
+}
+
+#entrylist th.white, #entrylist td.white {
+	background-color: #FFFFFF;
+	vertical-align: middle;
+}
+
+#entrylist td.gray, #entrylist th.gray {
+	background-color: #EEEEEE;
+	vertical-align: middle;
+}
+
+#entrylist td.dgray, #entrylist th.dgray {
+	background-color: #AAAAAA;
+	vertical-align: middle;
+}
+
+#entrylist td.black, #entrylist th.black {
+	background-color: #000000;
+	vertical-align: middle;
+}
+
+#entrylist th {
+	background-color: #fafafa;	/*左側（table midashi部分）の背景色*/
+	padding: 0px 0px;			/*余白*/
+	height: 32px;
+	width:  32px;
+	text-align: center;
+}
+
+.pagetop {
+	text-align: center;
+}
+
+.new dl {
+	width: 100%;			/*ボックスの幅*/
+	height: 220px;			/*ボックスの高さ*/
+	overflow: auto;
+	padding-left: 0px;
+}
+
+.new dt {
+	font-weight: bold;	/*日付の色を太字にする*/
+	color: #A63737;		/*日付の文字色*/
+}
+
+.new dd {
+	border-bottom: 1px solid #FFD0D0;	/*日付ごとの下線*/
+	color: #000000;		/*文字色*/
+}
+
+/* Navigation */
+.nav, .nav ul { 
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav {
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: 100;
+  position: relative;
+}
+.nav li {
+  border-left: 1px solid #fff;
+  float: left;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.nav li a, .nav li a:link, .nav li a:active, .nav li a:visited {
+  font: bold 1.22em/25px Arial, Helvetica, sans-serif;
+  background: #fff;
+  color: #000;
+  display: block;
+  padding: 0 9px;
+  text-transform: none;  /* lowercase; */
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  background: #ff7777;
+  color: #fff;	
+
+}
+#nav-one li:hover a, 
+#nav-one li.sfHover a {
+  background: #ff7777;
+  color: #fff;
+}
+#nav-one li:hover ul a, 
+#nav-one li.sfHover ul a {
+  background: #fff;
+  color: #000;	
+}
+#nav-one li:hover ul a:hover, 
+#nav-one li.sfHover ul a:hover {
+  background: #ff7777;
+  color: #fff;	
+}
+
+.nav ul {
+  background: #565656;
+  border-bottom: 1px solid #000;
+  list-style: none;
+  margin: 0;
+  width: 110px;
+  position: absolute;
+  top: -999em;
+  left: -1px;
+}
+.nav li:hover ul,
+.nav li.sfHover ul {
+  top: 25px;
+}
+.nav ul li {
+  border: 0;
+  float: none;
+}
+.nav ul a {
+  border: 1px solid #000;
+  border-bottom: 0;
+  padding-right: 20px;
+  width: 90px;
+  white-space: nowrap;
+}
+.nav ul a:hover {
+  background: #ff7777;
+  color: #fff;
+}
+
+#navigate {
+	height:25px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	padding: 0px 0;
+	background: #fff;
+	color: #000;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+}
+
+-->
+</style>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+	$("#nav-one li").hover(
+		function(){ $("ul", this).fadeIn("fast"); }, 
+		function() { } 
+	);
+	if (document.all) {
+		$("#nav-one li").hoverClass ("sfHover");
+	}
+});
+
+$.fn.hoverClass = function(c) {
+	return this.each(function(){
+		$(this).hover( 
+			function() { $(this).addClass(c);  },
+			function() { $(this).removeClass(c); }
+		);
+	});
+};
+</script>
+
+<script>
+<!--
+function jump(){
+location.href = 'http://www45.atpages.jp/vipkohaku2012/db2/profile.cgi?type=and&tpl=view2&key=' + form.team.value + form.genre.value + form.tool.value + form.pres.value + form.rvs.value ;
+}
+-->
+</script>
+
+<link rel="canonical" href="http://www45.atpages.jp/vipkohaku2012/db2/profile.cgi">
+<link rel="alternate" media="handheld" href="http://www45.atpages.jp/_/mgw/gw?_ucb_u=http%3A%2F%2Fwww45.atpages.jp%2Fvipkohaku2012%2Fdb2%2Fprofile.cgi%3Ftype%3Dand%26tpl%3Dview2%26key%3D%26sort_item%3D19%26sort_mode%3D4" type="text/html">
+</head>
+
+<body><script type="text/javascript">
+                   <!--
+                      var _gaq = _gaq || [];
+                      _gaq.push(['_setAccount', 'UA-239611-66']);
+                      _gaq.push(['_setDomainName', '.atpages.jp']);
+                     _gaq.push(['_trackPageview']);
+    
+                   (function() {
+                      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                      })();
+                    //-->
+                   </script><script type="text/javascript">
+(function() {
+  addOnEvent("scroll",getPosition); 
+  addOnEvent("load",function() { 
+      var body = document.getElementsByTagName('body')[0];
+      var tag1 = document.getElementById("geniee_overray_tag");
+      var tag2 = document.getElementById("geniee_overray_base");
+      tag1.style.bottom = 0 + "px";
+      tag2.style.bottom = 0 + "px";
+      tag1.style.zIndex = 9999;
+      tag2.style.zIndex = 9999;
+      body.style.zIndex = 2;
+      document.getElementById("geniee_overray_closed").onclick = function(){
+          tag1.style.display = "none";
+          tag2.style.display = "none";
+      };
+  });
+
+  function addOnEvent(event,func) {
+            try {
+                window.addEventListener(event, func, false);
+            } catch (e) {
+                // IE
+                window.attachEvent("on" + event , func);
+            }
+   }  
+
+  function getPosition() {
+      var tags = document.getElementById('geniee_overray_tag');
+      tags.style.top = "";
+      tags.style.bottom = 0 + "px";
+      tags.style.position = "fixed";
+      var tags1 = document.getElementById('geniee_overray_base');
+      tags1.style.top = "";
+      tags1.style.bottom = 0 + "px";
+      tags1.style.position = "fixed";
+  }
+})();
+</script>
+
+
+<script type="text/javascript"><!--
+var ID="100869904";
+var AD=0;
+var FRAME=0;
+// --></script>
+<script src="http://j1.ax.xrea.com/l.j?id=100869904" type="text/javascript"></script>
+<noscript>
+<a href="http://w1.ax.xrea.com/c.f?id=100869904" target="_blank"><img src="http://w1.ax.xrea.com/l.f?id=100869904&url=X" alt="AX" border="0"></a>
+</noscript>
+
+<div id="balloonbox" style="background-image: url(img/balloon1.png);">
+<div id="ballooninner">
+
+<div id="navigate"><center>
+<table style="font-size:100%;">
+	<tbody>
+		<tr>
+			<td>
+		<ul id="nav-one" class="nav">
+			<li>
+				<a href="http://www45.atpages.jp/vipkohaku2012/index.html">Home</a>
+			</li>
+			<li>
+				<a href="http://www45.atpages.jp/vipkohaku2012/about.html">About</a>
+				<ul>
+					<li><a href="http://www45.atpages.jp/vipkohaku2012/about.html#schedule">スケジュール</a></li>
+					<li><a href="http://www45.atpages.jp/vipkohaku2012/about.html#entry">参加方法</a></li>
+					<li><a href="http://www45.atpages.jp/vipkohaku2012/about.html#present">提出方法</a></li>
+					<li><a href="http://www45.atpages.jp/vipkohaku2012/about.html#patch">作品の修正</a></li>
+					<li><a href="http://www45.atpages.jp/vipkohaku2012/about.html#Q&amp;A">Q&amp;A</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="http://www45.atpages.jp/vipkohaku2012/enq.html">投票</a>
+				<ul>
+					<li><a href="http://www45.atpages.jp/vipkohaku2012/enq.html#about">投票審査とは</a></li>
+					<li><a href="http://www45.atpages.jp/vipkohaku2012/enq.html#howto">投票方法</a></li>
+					<li><a href="http://www45.atpages.jp/vipkohaku2012/enq.html#section">審査部門</a></li>
+					<li><a href="http://www45.atpages.jp/vipkohaku2012/enq.html#total">集計</a></li>
+					<li><a href="../db/profile.cgi?tpl=view4&amp;?type=or&amp;key=%92%F1%8Fo%8D%CF%20%20%92x%8D%8F%92%F1%8Fo%20">中間発表</a></li>
+					<li><a href="http://www45.atpages.jp/vipkohaku2012/enq2.html">結果発表</a></li>
+				</ul>
+			</li><li>
+			</li><li>
+				<a href="http://www45.atpages.jp/vipkohaku2012/entry.html">作品一覧</a>
+				<ul>
+					<li><a href="../db/profile.cgi?tpl=view">リスト</a></li>
+					<li><a href="../db/profile.cgi?tpl=view3&amp;hor=4">サムネイル</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="http://www45.atpages.jp/vipkohaku2012/bbs.html">BBS</a>
+				<ul>
+					<li><a href="http://jbbs.livedoor.jp/otaku/15695/" target="_blank">運営掲示板</a></li>
+					<li><a href="http://jbbs.livedoor.jp/otaku/15696/" target="_blank">感想掲示板</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="http://www45.atpages.jp/vipkohaku2012/link.html">リンク</a>
+				<ul>
+					<li><a href="http://www53.atwiki.jp/vipkohaku2012_1/" target="_blank">攻略Wiki</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="https://twitter.com/vipkohaku2012_1">Twitter</a>
+			</li>
+			<li>
+<a href="http://www.netriver.jp/product/" target="_blank">
+<img src="http://www.netriver.jp/countriver/cntriv.cgi?user=vipkohaku2012_1&amp;id=00000000&amp;ptn=15&amp;dig=0" onmouseover="CountRiverMouseOver()" onmouseout="CountRiverMouseOut()" style="border:0; margin: 8px 0 8px 0;"></a>
+<div id="CountRiverObjDiv" style="position:absolute; top:0px; left:0px; display:none; z-index:1000;"></div>
+			</li>
+		</ul>
+			</td>
+		</tr>
+	</tbody>
+</table></center>
+</div>
+
+</div><!--/#ballooninner-->
+</div><!--/#balloonbox-->
+
+<div id="container">
+
+<div class="back">
+<div class="body">
+
+<div id="box2">
+
+<div align="right"><a href="rss.cgi"><img src="rss.gif" width="42" height="14" border="0"></a></div>
+<p>
+[ <a href="http://www45.atpages.jp/vipkohaku2012/">HOME</a> ] 
+[ <a href="../enq4.html">表彰会場</a> ]
+[ <a href="../enq3.html">チーム勝敗</a> ]
+[ <a href="../db2/profile.cgi?type=and&amp;tpl=view2&amp;key=&amp;sort_item=19&amp;sort_mode=4">総合順位</a> ] 
+[ <a href="../db2/profile.cgi?type=and&amp;tpl=view&amp;key=&amp;sort_item=19&amp;sort_mode=4">総合順位(簡易版)</a> ] <br>
+[ <a href="../sc01/profile.cgi?type=and&amp;key=&amp;sort_item=19&amp;sort_mode=4">熱中度</a> ] 
+[ <a href="../sc02/profile.cgi?type=and&amp;key=&amp;sort_item=19&amp;sort_mode=4">技術</a> ] 
+[ <a href="../sc03/profile.cgi?type=and&amp;key=&amp;sort_item=19&amp;sort_mode=4">物語</a> ] 
+[ <a href="../sc04/profile.cgi?type=and&amp;key=&amp;sort_item=19&amp;sort_mode=4">演出</a> ] 
+[ <a href="../sc05/profile.cgi?type=and&amp;key=&amp;sort_item=19&amp;sort_mode=4">斬新さ</a> ]
+[ <a href="../sc06/profile.cgi?type=and&amp;key=&amp;sort_item=19&amp;sort_mode=4">遊びやすさ</a> ] 
+[ <a href="../sc07/profile.cgi?type=and&amp;key=&amp;sort_item=19&amp;sort_mode=4">テラワロさ</a> ] 
+[ <a href="../sc08/profile.cgi?type=and&amp;key=&amp;sort_item=19&amp;sort_mode=4">いやらしさ</a> ] 
+[ <a href="../sc09/profile.cgi?type=and&amp;key=&amp;sort_item=19&amp;sort_mode=4">ひどさ</a> ] 
+[ <a href="../sc10/profile.cgi?type=and&amp;key=&amp;sort_item=19&amp;sort_mode=4">その他</a> ] 
+</p>
+<table width="100%">
+	<tbody><tr valign="bottom">
+		<td style="background:#F77; color:#fff; text-align:center;"><b>[全件]</b>（79件） を降順に表示</td>
+	</tr>
+</tbody></table>
+
+<p align="center"></p>
+
+<p><br>
+</p><h3>総合順位</h3>
+　すべての部門から総合的に評価します。
+<p></p>
+
+<hr>
+
+<p><br>
+<font style="font-size:140%;">
+</font>
+
+</p><h4>得点計算式</h4>
+　９部門小計点 + ( その他加点 × 遅刻補正 )<br>
+<br>
+　遅刻補正：　遅刻提出の場合、[ その他加点 ]を 2 で割る）<br>
+<br>
+<p></p>
+
+<form name="form">
+<select name="team">
+<option value="">(組)</option>
+<option value="red%20">紅組</option>
+<option value="white%20">白組</option>
+</select>
+<select name="genre">
+<option value="">(ジャンル)</option>
+<option value="[RPG]%20">RPG</option>
+<option value="[ACT]%20">ACT</option>
+<option value="[SLG]%20">SLG</option>
+<option value="[STG]%20">STG</option>
+<option value="[パズル]%20">パズル</option>
+<option value="[やるゲ]%20">やるゲ</option>
+<option value="[見るゲ]%20">見るゲ</option>
+<option value="[読むゲ]%20">読むゲ</option>
+<option value="[クソゲ]%20">ksg</option>
+<option value="[その他]%20">その他</option>
+<option value="[ゴメス]%20">ゴメス</option>
+</select>
+<select name="tool">
+<option value="">(ツール)</option>
+<option value="2000%20">2000</option>
+<option value="2003%20">2003</option>
+<option value="VX.%20">VX</option>
+<option value="Ace%20">VXAce</option>
+</select>
+<select name="pres">
+<option value="">(提出状況)</option>
+<option value="提出済%20">提出済</option>
+<option value="遅刻提出%20">遅刻提出</option>
+</select>
+<select name="rvs">
+<option value="&amp;sort_item=19&amp;sort_mode=4">上位順</option>
+<option value="&amp;sort_item=19&amp;sort_mode=3">下位順</option>
+<option value="&amp;sort_item=21&amp;sort_mode=4">投票数 多</option>
+<option value="&amp;sort_item=21&amp;sort_mode=3">投票数 少</option>
+<option value="">No昇順</option>
+<option value="&amp;view=rvs">No降順</option>
+</select>
+<input type="button" value="検索" onclick="jump();">
+</form>
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i033.gif" width="32" height="32"></th>
+		<td class="red" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【1位】</font>
+		<font style="font-size:140%;">No.033 さよなら、モナーＲＰＧ。</font>
+		( 合計点 <b>572.8 </b> pt / <b>117</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>80</b> pt + 
+		技 <b>60</b> pt +
+		語 <b>80</b> pt +
+		演 <b>80</b> pt +
+		斬 <b>74</b> pt +
+		遊 <b>78</b> pt +
+		笑 <b>30</b> pt +
+		猥 <b>42</b> pt +
+		酷 <b>29</b> pt +
+		他 <b>19.8 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s033a.jpg" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=033&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/fxODmhR" target="_blank">投票結果</a></h3>
+　ツール ： <b>RPGツクール2000</b><br>
+　作者 ：<b>ローゼンクロイツ ◆ Mvhdw.2dlc　</b><br>
+　ジャンル ：<b>はぁとメタメタＲＰＧ</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱10技8語10演10斬5遊10笑7猥4酷9他6]</h4>　かつてモナー板のツクスレで活動していた人(あるいは好きだったコミュニティの崩壊を経験したことのある人)ならストーリーに色々と感じるものがあるはず。そのような人には是非ともプレイしてほしい一作。また純粋に一つのRPGとしても、戦闘バランス・飽きさせないダンジョンと仕掛け・探索を繰り返してアイテムを集めていく楽しみ・プレイヤーの行動による町の変化・細かい部分のユーザビリティを考慮した設計など隙が無い作りと言える。(CTKY/男性/21歳 ～ 25歳)<br><br><h4>[熱8技8語9演10斬9遊9笑7猥6酷9他7]</h4>　ダークで毒々しく、それでいてどこか切ない世界観。多少変な進め方をしても詰むことなく、それでいて歯ごたえのあるゲームバランス。あらゆる要素が「絶妙」の一言。(ハンペン/男性/16歳 ～ 20歳)<br><br><h4>[熱10技5語10演10斬8遊10笑2猥5酷6他6]</h4>　ゲームバランスが非常に良かった。雑魚敵やダンジョンも基本的な機能しか使っていないのに飽きさせないような工夫が感じられてとても好印象。でも前作のような強烈なストーリーを期待していた人にはちょっと物足りないかもしれない。(ナナシィ/男性/21歳 ～ 25歳)<br><br><h4>[熱10技6語8演8斬6遊10笑6猥1酷1他5]</h4>　扱っている題材が良い。浪費されていくコンテンツと、次代のコンテンツへの期待というテーマが感じられた。あちらこちらにあるネットユーザーの声というものも現実感があって、物語の世界に引き込まれる。さらに特筆すべきはその作り込み。徹底してバランスが良好、それでいてかつプレイヤーに攻略の自由度を与えている点が素晴らしい。敵グラフィックやマップチップが独特の雰囲気を持っていて、没入感を阻害しない。ダンジョンの数も豊富で、ギミックも雰囲気もそれぞれ異なっている。とにかくストレスを感じさせない作りだった。他のシステムや演出などについて、斬新さというものはさほど感じられなかったが、それを補って余りある完成度の高さが魅力的。長さやテンポも丁度良かった。(-/女性/0歳 ～ 10歳)<br><br><h4>[熱10技8語8演10斬7遊9笑0猥0酷3他8]</h4>　かつて存在していたモナーRPGのコンテンツ。しかしそのモナーRPGも新たなキャラクターの出現により皆から忘れ去られつつあった。これはそんなAA達が自分たちの運命に抗い、再びモナーRPGの栄華を願うための感動のRPGである。ストーリーはフリーとなっており、必要な物をそろえれば先に進めるシステムである。初めにさまざまな特徴を持ったキャラクターを選択し、その後仲間も選ぶ。どの仲間を選ぶかによって難易度も大きく変わるのも醍醐味である。必要な物を手に入れるには他の何かを犠牲にしなくてはならない、そんな駆け引きも存在する。作者の前作の「私たちはすでに地獄の真っただ中でした」をプレイしていると、思わずニヤッとする個所も存在しており、ストーリー自体はカオス・もしくは電波な雰囲気を醸し出しているが、大ボスの傾向と対策、ダンジョンの特徴、システムが事細かに記されており、初めてでも易しめに仕上がってる。(潜水夫見習い/男性/21歳 ～ 25歳)<br><br><h4>[熱9技10語9演7斬8遊8笑4猥4酷7他3]</h4>　ゲームバランスがよく、各ダンジョンの仕掛けが一筋縄ではいかず面白い。ストーリーはモナーRPGというジャンルが忘れ去られようとしている中、ネットユーザーの関心を取り戻すという斬新なもの。プレイヤーの行動しだいでいくらでも後味の悪いストーリーになっていくのが印象的であった。ネットーユーザーの関心を取り戻すというテーマだからかはわからないが、プレイヤーを楽しませたり喜ばせたりする気配りがあり、それがさらにこのゲームの面白さを引き立たせているように感じられた。(-/女性/21歳 ～ 25歳)<br><br><h4>[熱10技8語10演9斬9遊9笑8猥0酷0他2]</h4>　世界観やゲームバランスなど問題になりそうなところは比較的に無かったと思います。ただ、VIPRPGでやっていいジャンルなのかな?ぐらいには感じました。(私自身は、いいぞ!もっとやれ!だったんですが・・・)(名無しのギコ猫/男性/26歳 ～ 30歳)<br><br><h4>[熱10技7語10演10斬7遊6笑0猥0酷0他5]</h4>　シナリオ、演出、レベルデザイン、ほとんどの要素が高いレベルでまとまっている特に、気持ちの良い演出やセリフ回しは特筆に価する欠点は一部の戦闘バランスくらいしか見当たらない有用な魔法の習得アイテムのほとんどが制限なく入手可能なため、せっかく好きなキャラでパーティを組めるシステムなのにゲーム後半は個性が死んでしまう(-/男性/26歳 ～ 30歳)<br><br><h4>[熱10技6語7演10斬7遊7笑2猥3酷0他2]</h4>　中編のデフォ戦ゲーです。「すでに私たちは地獄のまっただ中でした。」同様、バランスが練られていて、自作戦闘にも引けをとりません。装備品は拾う、お金は(ほぼ)有限、など、「地獄」を継承した造りになっています。加えて、パーティーを6タイプいるキャラクターの中から自由に組み合わせて編成できたり、シナリオの進行上すべての地域を訪れなくともクリア可能になっていたりと、ややゲーム性が向上しています。かなり過激な表現を含みますが、「地獄」のグロテスクさが心地良い人には問題ないかと思われます。(-/-/-)<br><br><h4>[熱10技10語10演10斬9遊10笑8猥8酷10他5]</h4>　血と狂気とハートフルな中篇RPG。古き良きネット世界観のカオスを、子供の玩具箱にぎゅっと詰めたようなごった煮スープ。嘘と絶望と自殺願望、甘い愛がお皿一杯にデコレーションされている。ハートマークを刃物でずたずたにする女子高生っぽいホラーが好きなら是非体験すべきだと思う。デフォ戦については特に尖ったものはなく万人向けなのだが、このゲームの最大の魅力はダンジョンだと思う。2Dアトラクションを彷彿させる段差的な組み方なので遊びが多く、とにかく攻略が面白く、様々な仕掛けや背景演出が施されていることに驚かされる。お話もフリーシナリオ系で分岐も多く、自分なりの主人公像をロールプレイできるような配慮がされている。最初から最後までまとまりがあり「流石だなぁー」と唸らせる作品でした。心に残る良質のゲームです。(よみよみ/性別不明/年齢不明)<br><br><h4>[熱8技7語8演9斬6遊10笑5猥7酷4他0]</h4>　自由度が高いが、難易度はそんな高くなく、キャッチ―でやりやすいと思った。探索が好きな人にオススメ。(-/女性/-)<br><br><h4>[熱10技8語7演8斬8遊10笑0猥6酷7他7]</h4>　2chツクール界隈にある程度通じている者であれば分かりつつも一瞬ギョっとするタイトルを冠した本作は、メタとベタの境界を意識的に侵犯しつつ強いメッセージを遊び手に訴えかけるものであるというのが第一の印象でした。いわゆる「フリーシナリオ」に準ずるような構成や、RPGとしてのゲームバランスの良さも勿論本作の魅力ではありますが、それ以上に終始一貫して自らの存在を命懸けで証だてるような作品のテーマ性そのものが何よりも私の心に強く突き刺さりました。また中盤までの「動力集め」も多かれ少なかれ犠牲を伴わざるを得ないという展開も、「救世」の「お約束」に対するアンチテーゼとして機能していたように感じられました。感じるところは他にも数多くありましたが、いずれにしましても、本作は少なからず思い出深い作品として私の記憶に刻まれたことは確かであります。(Hiro/男性/26歳 ～ 30歳)<br><br><h4>[熱9技5語10演6斬7遊5笑4猥7酷7他7]</h4>　モナーRPGの系譜を継ぐ作品。非常に丁寧に作りこまれた良作。オマージュであり、ネット社会の寓話であり、表現者の覚悟表明でもある。偏見持たずにぜひPIAIしてみて欲しい。マジで。(愛の使者/男性/31歳 ～ 40歳)<br><br><h4>[熱9技6語7演9斬7遊8笑6猥5酷3他4]</h4>　このゲームのおはなしはほとんどがフィクション、「うそ」です。ですがつぎつぎ、コンテンツがうみおとされているのは「ほんとう」です。ですがつぎつぎ、コンテンツがオワコンかしているのは「ほんとう」です。コンテンツがまたしょうひされ、はいきされているのは「ほんとう」です。すきだったものがきえていってしまうまえに、あなたは「さよなら」をいえるでしょうか。(おちヒル/男性/0歳 ～ 10歳)<br><br><br>
+<b>【寄せられたコメント】</b>　前作に続き、相変わらずのぶっ壊れた世界観。だがそれがいい　<b>/</b>　ドット絵からマップの仕掛けに至るまでとてもきめ細やかに作られていると思いました混沌としたマップの中をいつまでもふらふらと彷徨っていたいと思わせてくれるのがこの作品の真の魅力の部分でしょう　<b>/</b>　あの場面でこの表現・BGMは反則!!というくらいスゴイ場面展開が良かったです便乗さんの王道を見事に継いでおり、ストーリーにも大いに惹かれました　<b>/</b>　時代の流れの残酷さを考えさせられましたが、久しく活躍した2chのキャラクター達を見て、とても嬉しく思えました。この作品を作っていただきまして本当にありがとうございます。　<b>/</b>　AA長編板上がりの私はこのゲームをとても懐かしく思うのです。究極の選択の連続が悩ましいゲームだとおもいます。エンディングを見て昔作った作りかけのモナーRPGに再び手を加えて見たくなりましたね・・。
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i016.png" width="32" height="32"></th>
+		<td class="white" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【2位】</font>
+		<font style="font-size:140%;">No.016 ケツアクメ120連発　ケツアヘ傑作選</font>
+		( 合計点 <b>540.8 </b> pt / <b>51</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>36</b> pt + 
+		技 <b>50</b> pt +
+		語 <b>32</b> pt +
+		演 <b>65</b> pt +
+		斬 <b>58</b> pt +
+		遊 <b>76</b> pt +
+		笑 <b>80</b> pt +
+		猥 <b>55</b> pt +
+		酷 <b>78</b> pt +
+		他 <b>10.8 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s016a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=016&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/hFaYm7A" target="_blank">投票結果</a></h3>
+　ツール ： <b>2000</b><br>
+　作者 ：<b>ケツアクメ120連発　ケツアヘ傑作選</b><br>
+　ジャンル ：<b>ksg集</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱5技9語7演10斬10遊10笑10猥1酷7他4]</h4>　ケツアヘ氏のスレ投下zipまとめ作品です。全部やったことあるぞ!!って人でも一度起動して欲しいです。どういうことかというと、メニューすげーwwwwwwwwwwwww(-/-/-)<br><br><h4>[熱8技7語0演9斬0遊10笑7猥0酷10他2]</h4>　ついにHNが活きました。120連発を是非体験してください(FPD/男性/21歳 ～ 25歳)<br><br><h4>[熱10技0語6演9斬7遊10笑10猥0酷10他5]</h4>　いつもの(どっかの台湾人/男性/16歳 ～ 20歳)<br><br><h4>[熱5技4語5演7斬7遊6笑10猥3酷10他1]</h4>　垢抜けたオープニングから始まり、滑らかな動作のもと見ていて飽きないタイトル一覧で好きな作品を選択できるどのksgもテンポが良くて、何度でも繰り返し見てしまう名前の通りの120連発を、腹の皮が捩れるほど笑って楽しめる傑作集だった(名無し/-/-)<br><br><h4>[熱9技8語7演8斬5遊8笑10猥9酷10他1]</h4>　同氏の制作された200以上のksgの中から厳選された120個のコレクションということで、既に遊んだことのある作品も少なからずありましたが、改めて見ることでもう一度大笑いするものが数多くありましたし、また何よりもこの一連の作品の比類なきテンポの良さが今のツクスレのksgの傾向に少なからず影響を与えているであろうことを、コレクションという形で一気に見直したことで改めてその認識を確かにした次第であります。(Hiro/男性/26歳 ～ 30歳)<br><br><h4>[熱3技7語4演9斬3遊6笑6猥5酷3他2]</h4>　圧巻の過去作品コレクション継続は力数は力(とある参加者/女性/26歳 ～ 30歳)<br><br><h4>[熱9技9語8演10斬7遊10笑10猥0酷10他5]</h4>　クッソワロエル(-/男性/21歳 ～ 25歳)<br><br><h4>[熱4技7語3演7斬8遊7笑8猥6酷9他2]</h4>　スレうp作品をまとめた俺コレ系見るゲ集。(愛の使者/男性/31歳 ～ 40歳)<br><br><br>
+<b>【寄せられたコメント】</b>　相変わらずのゴメスネタに安心しただからこそゴメス以外のネタをもっと見たいと思ってしまう贅沢　<b>/</b>　静まりたまええええ!!　<b>/</b>　文句無しのksg努力賞作者とは脳の作りの時点で勝てる気がしない　<b>/</b>　安価消費の強引さが素晴しい　<b>/</b>　面白いksgにひたすら笑わせてもらいました!メニュー画面がかっこいい!　<b>/</b>　今回ほんとに120連発。ガチで。
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i017.png" width="32" height="32"></th>
+		<td class="red" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【3位】</font>
+		<font style="font-size:140%;">No.017 やみいっちゃんとエッチなことをするゲーム</font>
+		( 合計点 <b>533.3 </b> pt / <b>51</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>30</b> pt + 
+		技 <b>46</b> pt +
+		語 <b>40</b> pt +
+		演 <b>72</b> pt +
+		斬 <b>55</b> pt +
+		遊 <b>44</b> pt +
+		笑 <b>73</b> pt +
+		猥 <b>80</b> pt +
+		酷 <b>79</b> pt +
+		他 <b>14.3 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s017a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new"><dl><h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=017&amp;tpl=view2">作品紹介</a></h3><p>制限された内容</p></dl></div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i063.png" width="32" height="32"></th>
+		<td class="red" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【4位】</font>
+		<font style="font-size:140%;">No.063 SLASH -THE DEMON HUNTER-</font>
+		( 合計点 <b>520.3 </b> pt / <b>43</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>28</b> pt + 
+		技 <b>73</b> pt +
+		語 <b>39</b> pt +
+		演 <b>76</b> pt +
+		斬 <b>76</b> pt +
+		遊 <b>52</b> pt +
+		笑 <b>76</b> pt +
+		猥 <b>11</b> pt +
+		酷 <b>76</b> pt +
+		他 <b>13.3 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s063a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=063&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/aHAfPDP" target="_blank">投票結果</a></h3>
+　ツール ： <b>RPGツクール2000</b><br>
+　作者 ：<b>内藤春人</b><br>
+　ジャンル ：<b>悪魔狩り体験恋愛アドベンチャー</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱9技9語9演9斬9遊9笑10猥1酷10他2]</h4>　すごい上手いFCのようなドット絵で酷いネタのオンパレード。とにかく笑える作品です。(-/-/-)<br><br><h4>[熱6技8語4演10斬7遊5笑6猥0酷7他2]</h4>　ものすごく短い見るゲです。すべて自作とは思えないFC風のドット絵・音楽・演出が圧巻。readmeも熟読推奨。(-/-/-)<br><br><h4>[熱5技6語8演8斬7遊5笑10猥0酷9他7]</h4>　まさに高密度にネタが配置されたksgの極み。(-/-/-)<br><br><h4>[熱10技10語10演10斬10遊10笑10猥3酷10他7]</h4>　今世紀最大のバカゲー(-/男性/26歳 ～ 30歳)<br><br><h4>[熱0技10語0演10斬0遊0笑10猥0酷10他2]</h4>　一瞬の輝きにすべてを賭けるクオリティ悪魔。見事にオチました(-/-/-)<br><br><h4>[熱7技10語6演10斬8遊7笑8猥0酷10他1]</h4>　FC時代を彷彿とさせる綿密なドットグラフィック、そして自作のFC風音声、これらのハイレベルな技術を駆使してここまでひどいものを作られた作者の発想には感服せざるを得ない。(Hiro/男性/26歳 ～ 30歳)<br><br><h4>[熱4技6語4演8斬9遊4笑8猥3酷8他3]</h4>　レトロゲーム風ダークアクション・・・?うわなにをするやめr(愛の使者/男性/31歳 ～ 40歳)<br><br><br>
+<b>【寄せられたコメント】</b>　何が始まるんです!?と爆笑してしまったwwww　<b>/</b>　このドット絵クオリティでこの一発ネタ・・・へへ、これだぜ、これ。　<b>/</b>　よくここまでレトロゲームを再現した!感動した!それにしてもなにこの無駄に有り余るハイテクノロジー　<b>/</b>　一瞬ゴルフゲームかと思った　<b>/</b>　ドットゲーnnkr　<b>/</b>　何回もプレイした紅白の中で一番笑ったwwww次回作も是非!　<b>/</b>　恋愛要素はどこに行ったんですかねえ…　<b>/</b>　蠱惑的な悪魔狩りとゴルフの融合感が素晴らしかったです　<b>/</b>　発想がすごい戦闘シーンのとこは単体で仕上げてほしいくらいあのクオリティで出来上がってたら間違いなく投票トップだった　<b>/</b>　技術の粋を尽くしてひどさを追求したksg。　<b>/</b>　何が起こったか。真実はあなた自身の目で確かめて欲しい。
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i053.png" width="32" height="32"></th>
+		<td class="red" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【5位】</font>
+		<font style="font-size:140%;">No.053 百合っぽいお話とか</font>
+		( 合計点 <b>515.2 </b> pt / <b>49</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>76</b> pt + 
+		技 <b>38</b> pt +
+		語 <b>78</b> pt +
+		演 <b>71</b> pt +
+		斬 <b>28</b> pt +
+		遊 <b>73</b> pt +
+		笑 <b>43</b> pt +
+		猥 <b>73</b> pt +
+		酷 <b>19</b> pt +
+		他 <b>16.2 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s053a.jpg" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=053&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/59NroqE" target="_blank">投票結果</a></h3>
+　ツール ： <b>2000</b><br>
+　作者 ：<b>L&amp;E</b><br>
+　ジャンル ：<b>百合コメ</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱10技6語10演9斬7遊10笑8猥9酷6他4]</h4>　正統派・エロ分多め・ホラー分多めといったようにタイプの異なる百合話が収められている、とは言うものの基本的には百合百合&amp;あまあまな話が多いので、そういうタイプの百合話が好きな人は必見。あなたも夜のバーで波音を聞きながらカップル達を観察してみませんか?(CTKY/男性/21歳 ～ 25歳)<br><br><h4>[熱10技10語10演10斬10遊10笑10猥10酷10他10]</h4>　ウィンドと妖精さんのアホ毛舐めたい(-/性別不明/61歳 ～ それ以上)<br><br><h4>[熱10技5語10演10斬4遊7笑6猥10酷2他5]</h4>　きゃわわわわわわわわわわわわわわわな物語。(-/男性/26歳 ～ 30歳)<br><br><h4>[熱8技8語10演8斬8遊8笑8猥10酷8他2]</h4>　みんな大好き、ゆる百合ぺろぺろ系ニヤニヤ動画(きめぇ全体的にコミカルな動作で楽しい。短編五作はいわゆるプロローグ的な役目を担っていたりして、その後のフリートークで物語の「結」に向かっていくような演出。一つ一つの短編が丁寧に作られているため好感。どれもかわいらしく、女の子の小さな機微までしっかりと描かれていて、大人のハートをぎゅっと掴んでくれる(きめぇタイトルからウィンドウ枠、BGMや深夜のバーの色彩に統一感があり綺麗で夜空のEDもしっとり心地よかったです。後味ほろ酔い。(-/-/-)<br><br><h4>[熱8技8語10演10斬7遊9笑8猥8酷6他5]</h4>　「百合っぽいお話」とのタイトルですが、百合というよりも女の子たちの友情以上のふれあいのような領域で展開していく話でしたので、いわゆる百合属性を気にされる方でも楽しんで見られる作りになっているように思われました。画面演出も極めて素晴らしく、リリアの戦闘シーンの躍動感は戦闘系見るゲとして高いレベルのそれに匹敵するものがありましたし、個々の物語における女の子たちのやりとりのかわいさは本紅白随一のものであると言っても過言ではないように思われます。また、個人的には五部構成の本編の丁度中間にあたるリリアエロリア編を折り返しとして他の二組の物語がクロスオーバーしていき、そしてそれを含めてロビールームまでもが一連の話に組み込まれていくという構成力の高さに感動致しました。(Hiro/男性/26歳 ～ 30歳)<br><br><br>
+<b>【寄せられたコメント】</b>　感想板で「百合」の文字を見つけて、これはプレイせざるを得ないというわけでプレイ。何通りかの異なる毛色の話が収録されているものの、メイン5編もおまけ(と言うにはボリュームが多いのが嬉しい)のフリートークも基本的には百合百合&amp;あまあまな話。メインマップのキャラ達でさえ無言ながらも百合な雰囲気を醸し出していて、その手の百合話が好きな人間としては大満足。個人的にはわてり×だくねすさんの話がいかにも王道の百合っぽくて好みだった。同作者様の前作も百合ゲーらしいので、いずれはそちらもプレイしたいところ。　<b>/</b>　百合だけど、ほんわかする　<b>/</b>　いやあ百合ってホントいいものですねえ　<b>/</b>　わたし一押しの見るゲーです。ソフト百合最高・・わが糧・・。　<b>/</b>　暫定ベスト見るゲ。純粋にほのぼの話としても一級品。　<b>/</b>　これからも応援してるぜ!　<b>/</b>　微笑んだら負けかなと思っている。ニヤけたら死亡ルール　<b>/</b>　おんなのこたちがひじょうにかわいいとおもいます!!!!
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i003.png" width="32" height="32"></th>
+		<td class="red" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【6位】</font>
+		<font style="font-size:140%;">No.003 闇市ダンジョン</font>
+		( 合計点 <b>511.4 </b> pt / <b>51</b> 票 / <b>遅刻提出</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>73</b> pt + 
+		技 <b>76</b> pt +
+		語 <b>63</b> pt +
+		演 <b>60</b> pt +
+		斬 <b>59</b> pt +
+		遊 <b>29</b> pt +
+		笑 <b>64</b> pt +
+		猥 <b>59</b> pt +
+		酷 <b>20</b> pt +
+		他 <b>8.4 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s003a1.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=003&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/1fWGnDq" target="_blank">投票結果</a></h3>
+　ツール ： <b>RPGツクール2000</b><br>
+　作者 ：<b>生糸</b><br>
+　ジャンル ：<b>ダンジョンRPG</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱7技7語8演8斬5遊4笑9猥9酷4他5]</h4>　正直戦闘のシステムは面白いが戦闘中ウェイトが中弛みを感じさせる、全体的に説明が一回の割に長いところが多い……などがあるが、それを補う魅力的なキャラ達、どっかで聞いた事のあるようなニヤリとする名前のアイテム群。重金属酸性雨を浴びてきたかのようなセリフの端々。今後がとても楽しみな一品です。Wasshoi!(-/男性/26歳 ～ 30歳)<br><br><h4>[熱7技7語3演5斬5遊4笑2猥2酷1他1]</h4>　ローグライク風。とにかくこれから面白くなるというところで終わるので、今後に期待。(-/男性/26歳 ～ 30歳)<br><br><h4>[熱7技8語5演7斬9遊9笑9猥6酷7他2]</h4>　吹っ飛ばないのときもそうだったけど戦闘が素晴らしかったです(小並感)(-/男性/21歳 ～ 25歳)<br><br><br>
+<b>【寄せられたコメント】</b>　ウィンドちゃん、やみいち×わてりを認めて下さい。　<b>/</b>　ダークネスってあんまりツクールでもゲスい面が際立ちすぎてあんまり好きなキャラじゃなかったんだけど、今作と前作のおかげで何か最近では好きになってきました。というか、相対的にウインドがゲス……(あまり知らなかったユーゴも、キャラが解るほど活躍してて良いなー、と思いました。　<b>/</b>　とにかくキャラの掛け合いがかわいい。合成システムは本格的だし盾がらみの耐性変動とローテーションを駆使した防御システムも好みでした。ただ操作性だけはちょっと微妙さを感じた。
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i054.png" width="32" height="32"></th>
+		<td class="white" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【7位】</font>
+		<font style="font-size:140%;">No.054 八大地獄と極楽ぬくぬくヘルス温泉</font>
+		( 合計点 <b>507.9 </b> pt / <b>39</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>55</b> pt + 
+		技 <b>35</b> pt +
+		語 <b>58</b> pt +
+		演 <b>64</b> pt +
+		斬 <b>61</b> pt +
+		遊 <b>35</b> pt +
+		笑 <b>68</b> pt +
+		猥 <b>59</b> pt +
+		酷 <b>57</b> pt +
+		他 <b>15.9 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s054a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=054&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/6VdfyVQ" target="_blank">投票結果</a></h3>
+　ツール ： <b>ＲＰＧツクール2000</b><br>
+　作者 ：<b>黄泉つ</b><br>
+　ジャンル ：<b>紅白お祭りksg</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱10技10語10演10斬10遊10笑10猥7酷7他8]</h4>　温泉街の雰囲気がよく伝わってくる作品。いわゆる「もしも」の方式が採られており、実質は「見るゲ」に等しい。文章と単語、キャラクタグラフィック、サウンドエフェクトなど、あらゆるゲーム要素のレイアウトからは、プレイヤを楽しませるための数々の工夫を読み取ることができた。また、作中の台詞のところどころには、実社会の風刺が散りばめられている。そのため、ゲームの内容を緻密に読み解こうとすると、しばしば世相に関する知識が要求される。(-/男性/21歳 ～ 25歳)<br><br><h4>[熱5技4語6演6斬8遊4笑8猥5酷6他4]</h4>　やや独自設定でもしもキャラ総出演系の長編見るゲ。カオス。スレうpの見るゲも収録されている。(愛の使者/男性/31歳 ～ 40歳)<br><br><h4>[熱6技4語4演8斬7遊7笑6猥4酷6他4]</h4>　賑やかで中々ボリュームあるお祭りゲーです。(-/女性/-)<br><br><br>
+<b>【寄せられたコメント】</b>　セーブポイントが少ないのが気がかりだけど、全体としてはいい素材供養ゲーだった　<b>/</b>　ギミック尽くしのゲームで楽しめました。キャラクタの総数は数えていませんが、台詞のあるものだけでも300を超えるんじゃないでしょうか。特に、台詞を設定する上で個々のキャラクタの特性を把握し考量し切る作業は、生半可の作業量ではなかったはずです。　<b>/</b>　テンポ、ネタ、クオリティ。三拍子揃った素晴らしいキャラゲー。　<b>/</b>　まさしくオールスターのお祭り騒ぎ。セリフのセンスがイカス　<b>/</b>　最初から最後まで走り抜けていく感じが、すごくよかったです　<b>/</b>　女の子達がたいへんかわいいゲームでした(小並感)マップの凝り具合やキャラの配置、演出、とにかくやっていて楽しいゲームでした　<b>/</b>　カオスかつどこか難解な表現がされた地獄が魅力的。玉露軍可愛い・かっこいいよ玉露軍。
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i078.png" width="32" height="32"></th>
+		<td class="white" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【8位】</font>
+		<font style="font-size:140%;">No.078 わてりとたのしいセクロス</font>
+		( 合計点 <b>476.9 </b> pt / <b>43</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>68</b> pt + 
+		技 <b>77</b> pt +
+		語 <b>6</b> pt +
+		演 <b>60</b> pt +
+		斬 <b>65</b> pt +
+		遊 <b>73</b> pt +
+		笑 <b>39</b> pt +
+		猥 <b>51</b> pt +
+		酷 <b>25</b> pt +
+		他 <b>12.9 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s078a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=078&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/1rfr6Um" target="_blank">投票結果</a></h3>
+　ツール ： <b>2000</b><br>
+　作者 ：<b>ＫＳＤ</b><br>
+　ジャンル ：<b>セクロス</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱10技9語0演10斬9遊9笑8猥0酷7他6]</h4>　シンプルに見えてスコアのレート変動やライフのキープ等が熱い凝ってるスコアランキング画面は好きなキャラで埋めたくなる「行くぞっ!」(L&amp;E/-/-)<br><br><h4>[熱10技10語1演10斬10遊10笑10猥1酷1他7]</h4>　楽しすぎる。これ以上の言葉はないくらい…毎日セクロス完成度がめちゃくちゃ高いレトローゲ復古バグもなくて快適です(-/-/-)<br><br><h4>[熱8技10語0演9斬8遊10笑5猥0酷7他3]</h4>　よくここまで作ったなぁ…むしろ「なぜツクール(しかも2000)でやったwww」というレベル。これだけのものを作ってバグがほとんど無い(少なくとも俺は遭遇しなかった)というのも凄い。難易度設定もちょうど良い感じで1～2面あたりは楽だけど、6～7面あたりになるとなかなかの難しさ。終盤難しいと言っても割とよくエクステンドするし、何回かやれば完全クリアできたので、全体で考えるとバランスが取れてるんだと思う。(-/男性/-)<br><br><h4>[熱8技9語0演7斬8遊7笑5猥6酷8他2]</h4>　FC時代のレースゲーム、セクロスのクローンゲーム。再現度高く操作性も良好。(愛の使者/男性/31歳 ～ 40歳)<br><br><br>
+<b>【寄せられたコメント】</b>　セクロスっていいよね　<b>/</b>　これは間違いなくセクロス　<b>/</b>　本当にセクロスだった思わず繰り返し遊んでしまうようなリピート性があると思うランキング画面など全体的に技術面の高さも光っていた　<b>/</b>　面白かった。何度も挑戦したくなる出来。ナイスセクロス!　<b>/</b>　RPGツクールでセクロスする時代　<b>/</b>　スターのおかげで全面クリア!ふう…いいセクロスだった初セクロスは友達の家で幼稚園の時だったけど、一面もクリアできなかった思い出が　<b>/</b>　完全にセクロス　<b>/</b>　僕はセクロスしたことあります(FC)　<b>/</b>　タイトルにホイホイされてセクロス童貞を奪われてしまった。本編もさることながら、たまにアケシューやる身からするとネームエントリー画面の出来も嬉しい。名前だけじゃなくてアイコンも選べるようになってるし。あと某ワニの断末魔やめろwww　<b>/</b>　セクロス!!1
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i055.png" width="32" height="32"></th>
+		<td class="red" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【9位】</font>
+		<font style="font-size:140%;">No.055 ABCD冒険記</font>
+		( 合計点 <b>463.2 </b> pt / <b>39</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>75</b> pt + 
+		技 <b>58</b> pt +
+		語 <b>50</b> pt +
+		演 <b>47</b> pt +
+		斬 <b>36</b> pt +
+		遊 <b>67</b> pt +
+		笑 <b>57</b> pt +
+		猥 <b>31</b> pt +
+		酷 <b>28</b> pt +
+		他 <b>14.2 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s055a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=055&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/atIyxPE" target="_blank">投票結果</a></h3>
+　ツール ： <b>RPGツクール2000</b><br>
+　作者 ：<b>COMタロウさんの世界</b><br>
+　ジャンル ：<b>中編RPG</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱8技9語5演8斬6遊6笑7猥2酷5他5]</h4>　RTPではなくwkwkフェイスでksgのような独特な会話のノリが出来ていたのが興味深かった(俺/男性/年齢不明)<br><br><h4>[熱10技9語8演9斬9遊10笑10猥5酷10他2]</h4>　ツクラーネタに特化したVIPRPG。物語は良くも悪くもスレ文化のお約束に準じている。戦闘アニメ最高。ゲームバランス良好。各イベントの台詞回しの歯切れがよく垢抜けていてたのしい。王道的な展開もの(中の四人は皮肉たっぷり)で面白い一方で、笑いのツボは製作トークの比重が大きいためか、プレイヤー層への懐は狭くもかんじられました。キャラ語りも終始ゲー製作の自嘲をこめた「なにこれ」が多いので、実際にRPGツクールに触れた経験のあるプレイヤーならともかく、分からない人には全然分からないんじゃないかなー?とも。とある名作ゲーム。可愛いヒロインの声が棒読みだった…あの気持ち味わえます。最初の洞窟ェ。。。(よみよみ/性別不明/年齢不明)<br><br><h4>[熱9技6語6演9斬7遊6笑8猥0酷0他4]</h4>　昔懐かしの擬似サイドビューデフォルト戦闘。ぐりぐり動く戦闘アニメや、入場演出はまさに某シリーズを思い起こさせる出来。作品全体の掛け合いや雰囲気も、良い意味でVIPらしい適当さとユーモアを持ち合わせている。差し挟まれる小ネタや、CTRLキーの話も笑いに一役買っている。ただ、悪い部分がないわけではなく、適当なスイッチ管理や、数多あるバグ、極めて広大なマップなどは(ある意味で)笑いを誘う。しかし個人的に応援したい作品であることは変わりない。ボリュームも充分で長く楽しめた作品だった。ぜひ次回作も遊んでみたい。(-/女性/0歳 ～ 10歳)<br><br><h4>[熱10技9語6演6斬5遊3笑9猥6酷10他3]</h4>　本作の魅力は、兎にも角にもデフォ戦が一番に来るものだと思います。ユーザーインターフェイス面ではマップ上での移動速度の低下や広大なダンジョンなど不便さも確かに目立ちましたが、画面内を所狭しとキャラが動き回る武器や技ごとに設定された戦闘アニメ、そして難しめの戦闘バランスに楽しみを見出してからの没入度は他のあらゆる作品の追随を許さないものがありました。ストーリーも勇者とは思えぬ容赦のなさを見せつける展開でしたが、ABCDの妙に息の合った会話やワクワク表情ほぼ一種類で進行するイベントのRTPに匹敵するようなシュールさなどがいい塩梅にギャグとして作用していたように思います。また、さりげなく各地に設置されたゲームオーバーもとい結婚エンドなどの隠しイベントを発見する楽しさもありました。繰り返しにはなりますが、デフォ戦そのものが好きという方にお勧めしたい作品です。最後に、のっきゅんめっちゃかわいかった。(Hiro/男性/26歳 ～ 30歳)<br><br><br>
+<b>【寄せられたコメント】</b>　戦闘アニメが良かった。　<b>/</b>　デフォ戦ぽくないデフォ戦が面白かった!個人的に今回の祭りで1番ハマりました!　<b>/</b>　戦略性の高い戦闘と感動のストーリーが好印象地図や移動速度変更、ボスに負けた際のヒント等遊びやすさにも配慮されていてよかった　<b>/</b>　個人的に今回の祭りで1番楽しかったです!　<b>/</b>　オーソドックスなrpgでありながら、主人公勢の唯我独尊っぷりが際立っています。某漫画で言うところの「邪道な王道」というやつでしょう。難易度も理不尽なものではなく、隠し要素ややりこみ要素もありもしも版ff5といってもいいような出来になっていると思います。　<b>/</b>　勇者パーティーのクソさに苦笑しながら厳しい戦いを乗り越えるはちくまライクデフォ戦ゲー。この紅白でも熱中度では一押しです。　<b>/</b>　デフォ戦が好きという方には、是非オヌヌメ。　<b>/</b>　バランス調整不足か。
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i085.png" width="32" height="32"></th>
+		<td class="red" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【10位】</font>
+		<font style="font-size:140%;">No.085 エターナルデフォルト フライングエタリー</font>
+		( 合計点 <b>451.7 </b> pt / <b>39</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>63</b> pt + 
+		技 <b>47</b> pt +
+		語 <b>53</b> pt +
+		演 <b>77</b> pt +
+		斬 <b>39</b> pt +
+		遊 <b>48</b> pt +
+		笑 <b>36</b> pt +
+		猥 <b>59</b> pt +
+		酷 <b>13</b> pt +
+		他 <b>16.7 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s085a.jpg" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=085&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/cxpnztN" target="_blank">投票結果</a></h3>
+　ツール ： <b>VX</b><br>
+　作者 ：<b>流久利亜</b><br>
+　ジャンル ：<b>エターなることを放棄するRPG</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱7技7語2演6斬4遊4笑3猥6酷3他3]</h4>　3DSのあのRPGです。デフォ戦ながら、「ブレイブ」と「デフォルト」が再現されていて、元ネタに近い感覚で戦闘ができます。今のところ序章まで遊べます。(-/-/-)<br><br><h4>[熱8技8語6演9斬7遊8笑7猥2酷0他4]</h4>　思わず完成版に期待してしまう程クォリティの高い作品だと思う(-/男性/26歳 ～ 30歳)<br><br><br>
+<b>【寄せられたコメント】</b>　完成までエターなることを放棄し続けて欲しいです。　<b>/</b>　リングエロスは黙れよ　<b>/</b>　絵が本当に上手くて世界観にピッタリ!素直に感動しました。　<b>/</b>　どうしてベストを尽くしてしまったんだ!wwwww　<b>/</b>　グラすげえ　<b>/</b>　素材のクォリティにただただ圧倒された 体験版的な内容だが、思った以上にボリュームもあり楽しめた ただ、戦闘が基本的にデフォ戦ママなので好き嫌いは別れると思う でもデフォ戦嫌いな自分でも思わず最後(序章終了)まで一気にプレイできたので、良い出来なんだと思う もう一つ、ウェイトや場所によって暗すぎて画面が見え難いという欠点もあるかと　<b>/</b>　エロ同人みたいに乱暴したかった(小並感)　<b>/</b>　いきなりRTPに吹いたw街のジャンプとかまさしくVIPRPGすごい綺麗な立ち絵だし完成に期待します
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i034.png" width="32" height="32"></th>
+		<td class="white" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【11位】</font>
+		<font style="font-size:140%;">No.034 ナイ軍の借金返済作戦</font>
+		( 合計点 <b>447.6 </b> pt / <b>42</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>55</b> pt + 
+		技 <b>26</b> pt +
+		語 <b>72</b> pt +
+		演 <b>53</b> pt +
+		斬 <b>22</b> pt +
+		遊 <b>66</b> pt +
+		笑 <b>67</b> pt +
+		猥 <b>50</b> pt +
+		酷 <b>25</b> pt +
+		他 <b>11.6 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s034a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=034&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/iGhmSfY" target="_blank">投票結果</a></h3>
+　ツール ： <b>RPGツクール２０００　Undead Nigh Edition</b><br>
+　作者 ：<b>knt</b><br>
+　ジャンル ：<b>見るゲ</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱10技10語10演10斬10遊10笑10猥10酷10他2]</h4>　ギルド依頼という設定を上手くいかし、ナイ軍面々のキャラ個性をバランスよく演出できている秀作の見るゲ。各話それぞれ雰囲気も違うため「ギャグ+シリアス+ピンチあり」と色々はいったお話の福袋。一人ひとりが余すことなく活躍してくれるので万人みんなが楽しそうなのがいい。丁寧に一話一話つくっているなぁ～と満足の出来。大団円っ!(-/-/-)<br><br><h4>[熱2技3語2演4斬2遊2笑4猥2酷3他0]</h4>　やや独自設定が入ったナイ軍メインの見るゲ集。オムニバス形式だがストーリーは繋がっている。(愛の使者/男性/31歳 ～ 40歳)<br><br><br>
+<b>【寄せられたコメント】</b>　短編の連続という形で、サクサクと楽しくプレイができました。ナイ軍の面々がそれぞれ一生懸命仕事をこなしていく様が素敵。ただちょっと、メアリ・スー的なキャラ設定になっている人物のキャラが居たのが個人的に気になりました。　<b>/</b>　毎度の事ながらテンポよく読みやすくキャラもいきいきしていて見てて楽しい　<b>/</b>　雰囲気が大好きでした。みんなの信頼を得るっていいですね。　<b>/</b>　構成がしっかりしていて、お話も丁寧に作られていますね最後の急展開には笑いましたw　<b>/</b>　女装クレアスと偽エロハァハァ　<b>/</b>　毎度毎度knt氏の作る作品は安定感があって素晴らしい。祭りのたびに多くの作品をプレイするが、名前を見るだけで安心できる。ナイ軍は個人的に好きで、今作も大いに楽しめた。なすーんはVIPRPGの中でも好きなキャラクターだけど、氏のなすーんは魅力的で好きだ。氏の短編はどうしてこんなにレパートリーが広いのかと感心してしまう。短編集も好きだが、また長編大作を手がけて欲しいと切に思う。
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i046.png" width="32" height="32"></th>
+		<td class="white" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【12位】</font>
+		<font style="font-size:140%;">No.046 ソーレソレソレ</font>
+		( 合計点 <b>435.0 </b> pt / <b>54</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>65</b> pt + 
+		技 <b>17</b> pt +
+		語 <b>5</b> pt +
+		演 <b>37</b> pt +
+		斬 <b>77</b> pt +
+		遊 <b>74</b> pt +
+		笑 <b>76</b> pt +
+		猥 <b>2</b> pt +
+		酷 <b>74</b> pt +
+		他 <b>8.0 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s046a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=046&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/ix9MJgk" target="_blank">投票結果</a></h3>
+　ツール ： <b>2000VALUE</b><br>
+　作者 ：<b>ンニー(株)</b><br>
+　ジャンル ：<b>私がたった1人で1時間かけて作り上げた壮大なるエンターテインメント</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱10技5語1演3斬10遊10笑10猥1酷10他1]</h4>　この作品は起動することに意味があります。そしてあなたは間違いなく何度も起動したくなるでしょう。おお、乱数の神よ、われに微笑み給えと、言いたくなるでしょう。(-/-/-)<br><br><h4>[熱6技6語0演9斬8遊10笑10猥0酷10他3]</h4>　シンプル・イズ・ベスト祭り作品らしい祭り作品だと素直に感服した(-/男性/26歳 ～ 30歳)<br><br><h4>[熱7技6語0演4斬3遊3笑6猥0酷7他0]</h4>　ソーレソレソレが揃うまでやりたくなります。メンソではないです。(-/-/-)<br><br><h4>[熱10技0語0演10斬10遊10笑10猥0酷10他2]</h4>　ソーレソレソレお祭りだー(-/-/-)<br><br><h4>[熱1技0語0演3斬1遊1笑1猥10酷1他1]</h4>　ソーレソレソレが完成するまで何度もF12だ!(うんこ/女性/26歳 ～ 30歳)<br><br><h4>[熱10技10語10演10斬10遊10笑10猥0酷10他4]</h4>　謎の中毒性に脅威のリプレイ性、おすすめです。(noname/男性/21歳 ～ 25歳)<br><br><h4>[熱10技2語0演10斬10遊10笑10猥0酷10他4]</h4>　ソーーソレソソオマツリダーwwwwwwww(-/男性/21歳 ～ 25歳)<br><br><h4>[熱10技5語0演10斬10遊10笑5猥10酷10他7]</h4>　それとなくリピート率がとても高いです、他の作品の例となるようなキャラクターがいなくてよかったって思うくらい全体の統一感が半端くよいが、シナリオがいまいち評価しにくいそして、こちらの開始タイミングがわかるように列なる物語のスイッチになるようなものがあっても良かったと思いました(-/女性/21歳 ～ 25歳)<br><br><h4>[熱0技0語0演0斬0遊0笑0猥0酷5他0]</h4>　このくだらなさを楽しめるか楽しめないかで あなたの生活の余裕度を量れます(-/-/-)<br><br><h4>[熱9技0語0演9斬8遊7笑10猥0酷10他1]</h4>　思いのほか揃いやすかったです。(Hiro/男性/26歳 ～ 30歳)<br><br><h4>[熱2技4語0演4斬10遊3笑6猥1酷8他1]</h4>　一発ネタゲー。(愛の使者/男性/31歳 ～ 40歳)<br><br><br>
+<b>【寄せられたコメント】</b>　ソーレソレソレ　<b>/</b>　レーレソソレソオマツリダー　<b>/</b>　ソーレソレソレwwwwwwww　<b>/</b>　ソーレソレソレお祭りだー　<b>/</b>　ソレーレソソソwwwww　<b>/</b>　ソーレソレソレ　<b>/</b>　レソソレレソレオマツリダーwwwwww　<b>/</b>　ソーレソレソレ　<b>/</b>　ソソソソソソソwwwww　<b>/</b>　ソーソソソソソwwwwwww
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i088.png" width="32" height="32"></th>
+		<td class="white" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【13位】</font>
+		<font style="font-size:140%;">No.088 鬼バリア</font>
+		( 合計点 <b>433.5 </b> pt / <b>30</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>63</b> pt + 
+		技 <b>63</b> pt +
+		語 <b>27</b> pt +
+		演 <b>44</b> pt +
+		斬 <b>47</b> pt +
+		遊 <b>64</b> pt +
+		笑 <b>45</b> pt +
+		猥 <b>23</b> pt +
+		酷 <b>46</b> pt +
+		他 <b>11.5 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s088a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=088&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/7t55Riz" target="_blank">投票結果</a></h3>
+　ツール ： <b>2000</b><br>
+　作者 ：<b>◆WLpLeO3gVY</b><br>
+　ジャンル ：<b>守る力を鍛えるRPG</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱10技10語9演9斬8遊10笑8猥5酷7他2]</h4>　記憶力で戦う戦略バトルゲーム?本編は純粋にあたまを鍛えるかんじのプレイ感覚。番外編からが本当のゲーム。アイテムを駆使して脳をフル回転して高ランクを狙う快感にかわっていく。最初は過剰演出にも感じられた長ぁ～いお仕置きタイムもじわじわと気持ちよくなっていきます。ただストーリーの最後の二体は、なんというかアレな感じなんで…、話の統一感を曲げてもネタに落とす必要性はあったのかなぁーと。ちょっとだけ残念な気持ち。計画どおりの直截的な「これひどwww」なのである種の予定調和を感じちゃいました。おもしろかったですけどね(-/-/-)<br><br><h4>[熱9技9語4演8斬8遊3笑6猥2酷5他1]</h4>　高クオリティの脳トレ系パズルゲー。技術の高さが窺える。(-/-/-)<br><br><br>
+<b>【寄せられたコメント】</b>　ワーキングメモリを鍛えなくてもゴリ押しでいける、そんな鬼トレ　<b>/</b>　せっかくだから青バリアは貰っていきます。容赦せんっ
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i052.png" width="32" height="32"></th>
+		<td class="white" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【14位】</font>
+		<font style="font-size:140%;">No.052 勇者わてりの大冒険　と　ふれいむさんの気だるい日常</font>
+		( 合計点 <b>395.3 </b> pt / <b>30</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>37</b> pt + 
+		技 <b>57</b> pt +
+		語 <b>40</b> pt +
+		演 <b>69</b> pt +
+		斬 <b>54</b> pt +
+		遊 <b>52</b> pt +
+		笑 <b>21</b> pt +
+		猥 <b>45</b> pt +
+		酷 <b>8</b> pt +
+		他 <b>12.3 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s052a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=052&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/iugI74z" target="_blank">投票結果</a></h3>
+　ツール ： <b>2k</b><br>
+　作者 ：<b>起楽　侑</b><br>
+　ジャンル ：<b>マップ散歩</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱10技10語8演10斬10遊6笑7猥10酷4他9]</h4>　この作品は未完成ですが、それでも非常に楽しめるパズルゲームです。ステージの環境音と演出が非常に美麗です。二人のキャラを同時に操作してゴールを目指すのですが、片方が左右反転して移動します。上手いことゴールを目指すコツとしては、ゴール付近でなんとかする、です。と書くと簡単そうに見えるのですが、わてりは火に弱く、ふれいむさんは水に入るとオシマイです。つまり、ステージによっては、ゴール付近じゃどうにもならないのもあります。ボス戦は頭を柔らかくしてパズルちっくに倒すものから、ガチでアクションまであります。(-/-/-)<br><br><h4>[熱10技10語10演10斬6遊10笑10猥10酷0他4]</h4>　カラダガカッテニー(エターナラー二世/男性/-)<br><br><h4>[熱5技5語5演5斬5遊5笑5猥5酷5他6]</h4>　FF名曲で贈る、雰囲気パルズゲーム。ステージ毎のピクチャー演出が凝りまくっていて、かつカオス感もあって独特の変態っぽさが。会話はすごい凸凹。作者氏のセンスが満ち溢れていてたのしい。完成版を期待age(-/-/-)<br><br><h4>[熱9技9語7演10斬8遊9笑8猥6酷0他6]</h4>　謎解きパズルゲーとして完成度が高く、またイベントやステージの演出も際立って良く、雰囲気も楽しみながら遊ぶことができました。「体が勝手に～」の無限ループはバグになりそうな部分を逆にギャグに昇華されていて、そうした細かい部分での演出も最後まで楽しんで遊べる一員でありました。とにかく最後まで遊びたいので是が非でも完成させてくださいお願いします。(Hiro/男性/26歳 ～ 30歳)<br><br><h4>[熱6技6語4演7斬6遊3笑3猥2酷3他0]</h4>　バイナリィランドインスパイアのパズルゲー。(愛の使者/男性/31歳 ～ 40歳)<br><br><br>
+<b>【寄せられたコメント】</b>　完成に期待してまっす!!　<b>/</b>　完成wktk　<b>/</b>　とにかく雰囲気がすばらしい　<b>/</b>　この作品のお陰でライトウイングの漫画買いました　<b>/</b>　完成を楽しみにしてます!作者絵のゴス子かわいい　<b>/</b>　エフェクトやマップのギミックがすごい。難易度も適度にストレスフルで難しすぎないのがグッド。　<b>/</b>　先生……完成版が欲しいです……　<b>/</b>　レトロゲー時代のような理不尽な謎解きあり。
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i082.png" width="32" height="32"></th>
+		<td class="white" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【15位】</font>
+		<font style="font-size:140%;">No.082 絶壁天国＋リリア・キングフォーム</font>
+		( 合計点 <b>364.4 </b> pt / <b>28</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>16</b> pt + 
+		技 <b>16</b> pt +
+		語 <b>21</b> pt +
+		演 <b>49</b> pt +
+		斬 <b>37</b> pt +
+		遊 <b>10</b> pt +
+		笑 <b>68</b> pt +
+		猥 <b>66</b> pt +
+		酷 <b>77</b> pt +
+		他 <b>4.4 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s082a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=082&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/aOrB9lY" target="_blank">投票結果</a></h3>
+　ツール ： <b>2000</b><br>
+　作者 ：<b>リリアさん大好き丸</b><br>
+　ジャンル ：<b>ｋｓｇ</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱10技3語1演10斬10遊10笑10猥2酷10他1]</h4>　前半はとにかく酷いでも、後半はもっと酷いよ(-/-/-)<br><br><h4>[熱3技5語2演7斬5遊5笑5猥3酷7他0]</h4>　ksgの方はよく分からなかった(-/女性/21歳 ～ 25歳)<br><br><h4>[熱10技9語10演10斬10遊5笑10猥9酷10他6]</h4>　リリア様の凄さを知るゲームこれで君も見直そう!(-/男性/26歳 ～ 30歳)<br><br><h4>[熱6技8語7演8斬7遊7笑9猥9酷10他1]</h4>　前半のドットから満ち溢れる愛と後半のこの上なくひどすぎる扱いが、まるでリリアに対する飴と鞭かのようにすら感じられる。(Hiro/男性/26歳 ～ 30歳)<br><br><h4>[熱4技6語4演7斬7遊4笑8猥8酷10他1]</h4>　短篇見るゲ。ひどい。(-/-/-)<br><br><br>
+<b>【寄せられたコメント】</b>　扱いが酷すぎるwwwwwwwwww　<b>/</b>　キングフォームに腹がよじれた　<b>/</b>　やだ…狂ってる…///　<b>/</b>　絶壁が面白かった。ひどかった。　<b>/</b>　うーんひどいっ　<b>/</b>　リリア様は裏表のない素敵な人です!!!!1111　<b>/</b>　もうリリアさん最強すぎてコメントができねェ……　<b>/</b>　絶壁の表現に感心。感動物語っぽくなってるけどやっぱり酷いwww立ち絵のリリアさん超かわいい。　<b>/</b>　リリアさんかわいい　<b>/</b>　絶壁のリリアに一笑。通常のリリアに萌え。憤怒のリリアに……。うわあああぁぁぁくぁwせdrftgyふじこlp　<b>/</b>　HIDOI
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i013.png" width="32" height="32"></th>
+		<td class="red" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【16位】</font>
+		<font style="font-size:140%;">No.013 埋もれた素材の夢</font>
+		( 合計点 <b>321.8 </b> pt / <b>35</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>45</b> pt + 
+		技 <b>22</b> pt +
+		語 <b>68</b> pt +
+		演 <b>48</b> pt +
+		斬 <b>26</b> pt +
+		遊 <b>55</b> pt +
+		笑 <b>21</b> pt +
+		猥 <b>17</b> pt +
+		酷 <b>7</b> pt +
+		他 <b>12.8 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s013a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=013&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/9oQeBJc" target="_blank">投票結果</a></h3>
+　ツール ： <b>RPGツクール2000</b><br>
+　作者 ：<b>牧場の牛肉</b><br>
+　ジャンル ：<b>やるゲ</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱8技9語9演9斬8遊5笑5猥3酷1他4]</h4>　あまり使われてないであろう素材を使った素材供養デフォ戦ゲーです。レベルアップアイテムをとることで全体のレベルを”調整”することができます。(最高にすればそこそこぬるく遊べます。)雰囲気が非常によく、悪夢の内部は本当に怖かったです。ただ、FOEが容赦なく襲ってくるゲームなので、そこはちょっと面倒だと思ってしまいました。あの3連続FOEは許さない(-/-/-)<br><br><h4>[熱8技8語8演7斬8遊9笑5猥4酷2他4]</h4>　全体的に良く出来ていた。マップの使い方が本当に上手い。広いマップ、狭いマップ、入り組んだマップ、演出としてのマップ、そのバランスが凄くいい。広さと避けられる障害物としての敵の配置もしっかりしている。難易度も舐めてると負けるぐらいでちょうどいい。シナリオも王道といえるタイプのものですんなり入っていける。とにかく良質なRPGだった。(-/男性/26歳 ～ 30歳)<br><br><h4>[熱10技8語9演10斬9遊9笑9猥0酷0他8]</h4>　ゆるい感じながらもシリアスあり、不思議な雰囲気もあり街の人や会話が賑やかで楽しい素材がいっぱいで見ていて楽しいまたこういう雰囲気を旅したい(L&amp;E/-/-)<br><br><h4>[熱10技10語10演10斬10遊10笑10猥8酷8他5]</h4>　マイナー素材を救済するというのをテーマにおいたRPG。顔から歩行、マップ素材にいたるまで様々なグラフィックを拝むことができます。装備品スキルを打開策を見つけるのがたのしい。バランスもいい感じ。すごろく最高～この作者さんはMAPクリエイターの側面が強いのか、オブジェクトの配置バランスや、ショートカットの配慮など気配りがあり、またダンジョンの空間感もすばらしい。とくに精神世界の狂気さはいいホラー演出だと思えました。とはいえ「見た目の良さ」を重視すると、逆に失われるのが「ゲームとしての自由度」。基本的に固定されているマップ配置なので構成はスタンダード。他の作者さんと比べて、ダンジョン内部の変化や遊びの仕掛けがすこし弱くもかんじられました。トレジャー探しもRPGの冒険の一つ。もっと、はっちゃけ感や秘密の隠しがあってもよかったかもしれませんね。美麗さ+α、楽しいマップ作りも心がけてほしいぜー(よみよみ/性別不明/年齢不明)<br><br><h4>[熱7技8語9演7斬7遊9笑6猥4酷3他5]</h4>　俺の黒歴史が供養されててワロタ。(だむ/男性/21歳 ～ 25歳)<br><br><h4>[熱8技7語6演9斬5遊10笑7猥4酷3他4]</h4>　牧場の牛肉氏はマップの丁寧さとユーザーフレンドリーなゲーム構成に定評がありますが、その手腕は本作でも遺憾なく発揮されていたところでありました。ゲームバランスも難しすぎず、しかしながら気を抜くと全滅も十分あり得るという絶妙なもので、MP管理に気を配りながら先を進むという進行はぬるすぎず難しすぎずと表現するにふさわしいものでありました。シナリオは題名にも表れているようにとりわけ中盤からシリアスさを増しており、「夢」ダンジョンの恐怖は思わず背筋に冷や汗を走らせるものがありましたし、またラストバトル前後の神父とラスボスのやりとりは理想と現実という難しくまたツクスレにとって避けがたい問題を提起するものでありました。(Hiro/男性/26歳 ～ 30歳)<br><br><h4>[熱7技8語7演8斬7遊8笑8猥6酷4他4]</h4>　ちょっと簡単だけど決してユルすぎない短編RPG。素材紹介としても短編RPGとしても優秀。やって損なし。(-/女性/-)<br><br><br>
+<b>【寄せられたコメント】</b>　使われないだろうと思ってた自素材がまさかあんな形で・・・という嬉しさ　<b>/</b>　溢れる素材に視点を向けたのが面白い　<b>/</b>　大好きな作品です好きなイベントが多すぎてあげきれないぬくりあ妖精さんのとか 神父様とダッツの漫才とか夢のなかとか いいBGMや絵がいっぱいだったとか　<b>/</b>　おもしろい上にこんな素材あったのかーと気付かせてくれる良いゲームでした　<b>/</b>　素材は供養しないとおばけになっちゃうよ　<b>/</b>　素材供養という、カオスになりがちなものを上手く練り上げていた。ストーリー全体的に統一感がって、個人的にかなり好み。　<b>/</b>　素材の使い方が上手で戦闘のバランスも良く、プレイヤーに優しい工夫もされていて一気にクリアしてしまいました。神父はこんなにかっこよかったのか……。　<b>/</b>　The素材供養・・だけどデフォ戦部分もいつもの様にハイクオリティ。　<b>/</b>　素材というものについて最後まで考えさせられる作品でした。
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i004.png" width="32" height="32"></th>
+		<td class="white" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【17位】</font>
+		<font style="font-size:140%;">No.004 プロフェシーへの回帰</font>
+		( 合計点 <b>318.4 </b> pt / <b>22</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>57</b> pt + 
+		技 <b>10</b> pt +
+		語 <b>61</b> pt +
+		演 <b>25</b> pt +
+		斬 <b>52</b> pt +
+		遊 <b>34</b> pt +
+		笑 <b>52</b> pt +
+		猥 <b>7</b> pt +
+		酷 <b>10</b> pt +
+		他 <b>10.4 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s004a2.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=004&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/23qwQSJ" target="_blank">投票結果</a></h3>
+　ツール ： <b>RPGツクールVX</b><br>
+　作者 ：<b>めざ</b><br>
+　ジャンル ：<b>リプレイ</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱9技1語10演9斬7遊8笑8猥5酷5他2]</h4>　この作品はTRPGのログを元に立ち絵を交えた読むゲーとなっています。キャラクターの魅力や、カオスな言動をロールプレイしているのが、非常に面白い作品です。見てるこっちがダイスの目を神頼みしたくなるような、すごい展開が待っています。(-/-/-)<br><br><h4>[熱8技4語6演6斬8遊6笑9猥0酷6他5]</h4>　TRPGやろうぜ!(-/男性/21歳 ～ 25歳)<br><br><h4>[熱7技3語6演5斬9遊5笑6猥3酷3他2]</h4>　TRPGやってみたくなる内容だった友達いねーけど(インスマス顔/女性/0歳 ～ 10歳)<br><br><h4>[熱8技5語8演8斬10遊8笑8猥7酷9他1]</h4>　メザさんはかわいいと思います。(だむ/男性/21歳 ～ 25歳)<br><br><h4>[熱8技5語10演9斬0遊4笑8猥5酷6他4]</h4>　クトゥルフTRPGは存在こそ知っていたものの実プレイはもとよりリプレイ類にも一切手を出したことがありませんでしたが、本作はフリーダムなプレイであったとは自称されながらも作品の雰囲気がよく伝わり、TRPGそのものの魅力を強く感じるところでありました。また何より、読んでいて面白いと思わせられるようなプレイをされたプレイヤーの皆様のプレイスキルの高さに感心させられることしきりでした。と同時に、ログを整理され演出を付け加えられためざ氏の編集も作品を視聴覚的に把握する助けとして大きく貢献されておりました。他にもシナリオを数多くプレイされているとのことで、他のリプレイもまたこのようにツクールで作品化されることを楽しみにしております。(Hiro/男性/26歳 ～ 30歳)<br><br><br>
+<b>【寄せられたコメント】</b>　ダイスの気まぐれが最高でしたww　<b>/</b>　またこんなリプレイを見たいです。　<b>/</b>　忍者とはなんだったのか　<b>/</b>　やった面子のうちの一人だがそれでも改めて見てみると楽しかったなーw普通の文章よりポンポン読めるのもよかった　<b>/</b>　次回以降で他のプレイや新規プレイのゲーム化も期待したいです　<b>/</b>　一人一人が楽しみ楽しませようと努力しあっているからこんなに面白いリプレイになったんだと思う。　<b>/</b>　クトゥルフTRPGの導入としても、シナリオリプレイとしても、また一つの読み物としても、とても読みやすくまた読んでいて楽しかったです。
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i095.png" width="32" height="32"></th>
+		<td class="red" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【18位】</font>
+		<font style="font-size:140%;">No.095 地獄探偵おぼなす</font>
+		( 合計点 <b>307.1 </b> pt / <b>32</b> 票 / <b>遅刻提出</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>11</b> pt + 
+		技 <b>10</b> pt +
+		語 <b>35</b> pt +
+		演 <b>17</b> pt +
+		斬 <b>23</b> pt +
+		遊 <b>36</b> pt +
+		笑 <b>61</b> pt +
+		猥 <b>36</b> pt +
+		酷 <b>74</b> pt +
+		他 <b>4.1 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s095a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=095&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/h9pmdUB" target="_blank">投票結果</a></h3>
+　ツール ： <b>ツクール2000</b><br>
+　作者 ：<b>脂はむ</b><br>
+　ジャンル ：<b>ホラー</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱2技2語3演5斬2遊5笑2猥2酷7他0]</h4>　一応毎年出すのは凄いと思う(-/女性/21歳 ～ 25歳)<br><br><h4>[熱4技2語5演6斬7遊7笑6猥3酷9他0]</h4>　とても短い見るゲです。ハーナスちゃんの運命やいかに。(-/-/-)<br><br><h4>[熱5技10語10演10斬10遊10笑10猥3酷10他3]</h4>　完全なる密室トリック!読者をも惑わす叙述描写の罠!恐るべき真犯人の真実!全ては……備えよう(-/男性/26歳 ～ 30歳)<br><br><h4>[熱0技5語6演6斬7遊0笑7猥0酷10他0]</h4>　アイエエエエ!ニンジャ!?ニンジャナンデ!?(Hiro/男性/26歳 ～ 30歳)<br><br><h4>[熱5技3語5演5斬4遊5笑7猥3酷9他1]</h4>　掌篇読むゲ。倒叙物のミステリー。(-/-/-)<br><br><br>
+<b>【寄せられたコメント】</b>　NINJAこわい　<b>/</b>　これはひどい　<b>/</b>　ドコなんだよ・・・ココは・・・　<b>/</b>　ニンニンクソワロタwwwwww　<b>/</b>　オチ怖いwww　<b>/</b>　ニンジャこえーよwwwww　<b>/</b>　ニンジャ!　<b>/</b>　また頼む　<b>/</b>　ノックスの十戒にニンジャ禁止を書き加えねば　<b>/</b>　不意打ち過ぎるホラーなんて、こんなのテストに出ないよぉ……　<b>/</b>　ニンジャ怖いよニンジャ。後ハーナス立ち絵かわいいよ。　<b>/</b>　終わりはいつも突然に
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i026.png" width="32" height="32"></th>
+		<td class="white" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【19位】</font>
+		<font style="font-size:140%;">No.026 いつか見た夢の続きを</font>
+		( 合計点 <b>289.4 </b> pt / <b>48</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>35</b> pt + 
+		技 <b>22</b> pt +
+		語 <b>53</b> pt +
+		演 <b>26</b> pt +
+		斬 <b>29</b> pt +
+		遊 <b>25</b> pt +
+		笑 <b>27</b> pt +
+		猥 <b>46</b> pt +
+		酷 <b>18</b> pt +
+		他 <b>8.4 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s026a1.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=026&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/7VZ0JN8" target="_blank">投票結果</a></h3>
+　ツール ： <b>2000</b><br>
+　作者 ：<b>あひょふりぐ</b><br>
+　ジャンル ：<b>プチ探索ゲー</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱8技8語6演6斬8遊5笑1猥9酷1他3]</h4>　一言で言うとウィンディちゃんを楽しく虐tウィンディちゃんのHPを上手いこと鍛えるゲームです。ダメージに耐えられればHPが増えるシステムで、先に行くために罠をかいくぐることがしばらくの目標となります。死んで理解するゲームなので好奇心旺盛にあちこち調べましょう。(-/-/-)<br><br><h4>[熱7技6語9演8斬6遊7笑6猥0酷7他3]</h4>　スタンダードな死にゲー、ダメージを受けると最大HPが増える…の筈だが実は順番がほぼ決まっていて間違えると即死する死にゲー(どっかの台湾人/男性/16歳 ～ 20歳)<br><br><h4>[熱10技9語10演10斬10遊10笑0猥0酷0他7]</h4>　ストーリーに感動しました。普段脱出ゲーをやらない人にもオススメです。(-/男性/21歳 ～ 25歳)<br><br><h4>[熱3技3語7演4斬4遊0笑7猥0酷5他0]</h4>　かわいい魔法具現化の何だかよくわからないゲー。個人的にはきつめの印象。プレイヤーへの誘導設計を意識してないため、情報の囲い込みが非常に不親切で悪い。とくに後半部になるほど各パーツの繋がりが無いに等しく、探索ゲーとしては致命的。収集品アイテムの存在がますますミスリードを助長。後ろの行動範囲の切り捨てや伏線ヒントも弱いため、一つフラグを立てたら最初の部屋に戻り、密室マップ内の「全背景オブジェクトを潰して回るをくり返す」だけの最悪のストレス作業ゲーに嵌まった。シンプルな探索を提供するなら、シンプルな心地よさを型作る努力が欲しかったです。指針の見えない航海はすぐに真っ暗闇の暗礁に乗り上げやすい。(-/-/-)<br><br><h4>[熱8技4語7演5斬1遊9笑5猥4酷3他1]</h4>　ジャンルとしては脱出ゲーが近しいだろうか。即死ゲーを開拓してきたウインディがその能力を遺憾なく発揮する。HPを上げ次の段階へ進むという王道RPG的な要素もあり、手軽に楽しめる。(-/男性/26歳 ～ 30歳)<br><br><br>
+<b>【寄せられたコメント】</b>　何気にスレに投下した見るゲの続きをするのは結構凄い事かもしれん多くの作品の中で印象を残す必要があるから　<b>/</b>　ウィンディがとにかく可愛いゲーム。　<b>/</b>　難易度も丁度よくキャラもGoodな探索ゲーでした。ただゲームのヒントが欲しかったです。(あえてダメージ受けてHP増やす必要がある・・・とか)　<b>/</b>　全てのエンディングを見るために何周もしました。　<b>/</b>　ウィンディがサイヤ人体質だったなんて　<b>/</b>　最後にウィンドちゃんが救われてるので、それだけで十分良かった。道中何遍も死んだけどな!
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i073.gif" width="32" height="32"></th>
+		<td class="red" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【20位】</font>
+		<font style="font-size:140%;">No.073 完全3D迷路</font>
+		( 合計点 <b>274.5 </b> pt / <b>31</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>16</b> pt + 
+		技 <b>77</b> pt +
+		語 <b>8</b> pt +
+		演 <b>29</b> pt +
+		斬 <b>75</b> pt +
+		遊 <b>57</b> pt +
+		笑 <b>3</b> pt +
+		猥 <b>4</b> pt +
+		酷 <b>4</b> pt +
+		他 <b>1.5 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s073a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=073&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/bEHSn2v" target="_blank">投票結果</a></h3>
+　ツール ： <b>RPGツクール2000</b><br>
+　作者 ：<b>ALPHA</b><br>
+　ジャンル ：<b>3D迷路</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱10技10語0演0斬10遊10笑0猥0酷0他0]</h4>　このゲームは、つまり描写を全て『縦線』でやってしまおうというすごい発想から来ています。つまり遠景に対して壁となる『縦線』をその視界を計算して表示させるというすごいものです。ぐりぐり動かすだけでも楽しいと思います。(-/-/-)<br><br><h4>[熱8技10語0演5斬10遊9笑0猥0酷0他2]</h4>　ツクールとは思えない凄さ(-/男性/21歳 ～ 25歳)<br><br><h4>[熱5技10語0演8斬7遊7笑1猥0酷0他2]</h4>　こういう作品を見るとツクールの可能性は無限大だなと改めて思う(-/男性/26歳 ～ 30歳)<br><br><h4>[熱4技10語0演10斬10遊10笑0猥0酷0他1]</h4>　ツクールの匠。これがRPGツクール2012の実力かっ!3Dの迷路RPGをいつかやりたいですね。(-/-/-)<br><br><h4>[熱7技9語0演0斬7遊6笑0猥0酷0他1]</h4>　256枚のピクチャを駆使して作られた擬似3D迷路です。スピード、角度の変更域を変えられるなどのユーザビリティも良好。何よりぬるぬる滑るように動くことが癖になります。しかし、飽くまでサンプル的な作品であって、物語や遊びが提供されているわけではありません。ただ階段を通ってゴールへ進むだけのシンプルなゲームなので、こういったエンジンを改良して、新しく探索ゲームなり、ダンジョンRPGなどが登場することを切に願います。ツクールの次のステップを感じさせてくれる作品でした。(-/女性/0歳 ～ 10歳)<br><br><h4>[熱6技10語0演0斬10遊7笑0猥0酷0他0]</h4>　技術面で抜群にすごいことが行われているというようなことしか分からないレベルですごい。(Hiro/男性/26歳 ～ 30歳)<br><br><br>
+<b>【寄せられたコメント】</b>　ツクールの新たな可能性を見た　<b>/</b>　「なにこれすげええええええええええええええええええええええええええええええええええ!!!!!??」としか言えない。　<b>/</b>　すごすぎる・・・　<b>/</b>　発想も技術もハイレベル　<b>/</b>　驚きの技術力!　<b>/</b>　なんかもう凄すぎます　<b>/</b>　改造exe前提とはいえ、ツクール2000でここまでぬるぬる動く3D描画ができる事に驚愕したこの作者さんは毎回「プログラムを実際に組んでからあえてツクールで表現する」という拘りがあるようで、ツクラー魂を感じますただ、サンプルとしては複雑な作りのように感じるし、説明もツクール上級者以外は理解出来ないように思う古いツクールでも「まだこんな可能性があるんだよ」というメッセージなのかなと感じました　<b>/</b>　どんどん3Dが進化してるw処理落ちはなかったです　<b>/</b>　すっげーぬるぬるしてる。
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i035.gif" width="32" height="32"></th>
+		<td class="red" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【21位】</font>
+		<font style="font-size:140%;">No.035 Mega Moshimo</font>
+		( 合計点 <b>271.8 </b> pt / <b>29</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>45</b> pt + 
+		技 <b>75</b> pt +
+		語 <b>10</b> pt +
+		演 <b>36</b> pt +
+		斬 <b>48</b> pt +
+		遊 <b>32</b> pt +
+		笑 <b>9</b> pt +
+		猥 <b>4</b> pt +
+		酷 <b>6</b> pt +
+		他 <b>6.8 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s035a.jpg" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=035&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/iXdqAco" target="_blank">投票結果</a></h3>
+　ツール ： <b>RPGツクール2000</b><br>
+　作者 ：<b>うっぺれ</b><br>
+　ジャンル ：<b>アクション</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱8技10語4演5斬1遊1笑1猥1酷1他1]</h4>　昔のロックマンです。難易度まで。そのためアクション苦手な人には大変なゲームだと思います。(-/-/-)<br><br><h4>[熱9技9語5演8斬7遊6笑3猥0酷0他4]</h4>　挙動が某アクションゲームとほぼ一致しており、高い再現度を誇っていた。またステージ構成も、敵キャラ配置、地形共に、「何度も死んで覚えればクリアできる」という難易度に設定されており、高い水準で製作されていた。今日、他言語での某アクションゲームのクローンは珍しいものではなくなったが、ここまでの再現をRPGツクール2000ベースで実現したゲームは他になく脱帽である。一つのゲームとしてはまだ完成していないようだが、いずれ出来上がるであろう完成品の面白さを保証するだけの説得力を持っている。(tofu/男性/26歳 ～ 30歳)<br><br><h4>[熱10技10語10演10斬10遊10笑10猥10酷10他10]</h4>　アクションゲームツクールで作られたゲームかと思ったら違った(-/男性/51歳 ～ 60歳)<br><br><h4>[熱6技9語6演9斬6遊9笑3猥0酷0他5]</h4>　よく出来たロックマンクローンツクール2000でここまで出来るんだ!(とある参加者/女性/26歳 ～ 30歳)<br><br><br>
+<b>【寄せられたコメント】</b>　む、むずいぞ!!　<b>/</b>　ツクール製だということを、プレイ開始5分で忘れていました。もはや何がどうなっているのか分からない、凄まじい技術。　<b>/</b>　とにかくMEGAMANを再現したその技術が凄すぎワロタ　<b>/</b>　HPアップ、MPアップなどのアイテム集めをしているときが最も夢中になった時間だった。特殊武器を使えば、難易度もそう高すぎない。クリアまで一気にやった。面白いです、はい。　<b>/</b>　キーボードではやりにくいけど、よく出来てると思います!
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i005.png" width="32" height="32"></th>
+		<td class="red" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【22位】</font>
+		<font style="font-size:140%;">No.005 Re:0</font>
+		( 合計点 <b>270.3 </b> pt / <b>25</b> 票 / <b>遅刻提出</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>59</b> pt + 
+		技 <b>32</b> pt +
+		語 <b>58</b> pt +
+		演 <b>46</b> pt +
+		斬 <b>13</b> pt +
+		遊 <b>28</b> pt +
+		笑 <b>10</b> pt +
+		猥 <b>12</b> pt +
+		酷 <b>6</b> pt +
+		他 <b>6.3 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s005a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=005&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/dLewByl" target="_blank">投票結果</a></h3>
+　ツール ： <b>2000</b><br>
+　作者 ：<b>favossy feat. 月乃マキ</b><br>
+　ジャンル ：<b>こつこつレベル上げRPG</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱9技9語10演10斬8遊9笑5猥5酷8他5]</h4>　小さな村の周辺を冒険する女の子RPG。お話の舞台をはじめ、ボスの自作ドットやグラフィック演出がとても綺麗。前半と後半の雰囲気の違いも差があって驚かされる。ゲームは日常アドベンチャー。一人の少女の主観でストーリーが進むので非常にとっつきやすい。選べる味方キャラも豊富で、かわいいor変なお兄さん、どれを選んでも一定の攻略方法が導きだせる仕様になっていると思われるので、自分なりのゲームバランスを見出すと楽しめる。演出も丁寧で、音楽と合わせてゆったり浸れます。(よみよみ/性別不明/年齢不明)<br><br><h4>[熱7技5語6演7斬5遊6笑0猥0酷0他3]</h4>　良質なノンフィールドRPG。演出に気を配っている一方、やや作品全体のテンポが悪くなってしまっている部分も感じられる。クエストや、コイン集めなど提示されたやりこみ要素も、リザルトによって意欲を刺激されるレベル上げも、なかなか楽しめた。ユーザビリティはおおむね良好なのだが、もう少し多くの情報をプレイヤーに提供したり、細かな部分を修正すればさらにゲーム性に磨きがかかると思う。ジャンルの“こつこつレベル上げRPG”という名に違わず、没頭して楽しむことが出来た。ただ没頭しすぎて発生するメモリストリームエラーには注意。(-/女性/0歳 ～ 10歳)<br><br><h4>[熱2技6語3演6斬3遊1笑1猥2酷2他0]</h4>　キャラゲ要素ありの雪道系RPG。(-/男性/31歳 ～ 40歳)<br><br><br>
+<b>【寄せられたコメント】</b>　BGMと作品が凄く合ってました!　<b>/</b>　さくさくレベルが上げれて気持ちよかったです音ゲーネタ多数で笑わせてもらいました　<b>/</b>　今回の祭りで一番遊びやすいデフォ戦ゲームだった。　<b>/</b>　透明な空気感が好きです。マナちゃん熱血ヒロインですね　<b>/</b>　マテリアさんってアルテマを逆さに読んだんだよね　<b>/</b>　レベルをあげるのがたのしかった☆　<b>/</b>　とにかくキャラクターがかわいいなのだ。雰囲気の良さもナイスなのだ。　<b>/</b>　演出に凝り過ぎてゲーム性が損なわれてる感がある。
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i070.jpg" width="32" height="32"></th>
+		<td class="white" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【23位】</font>
+		<font style="font-size:140%;">No.070 Revenge of a "AMEN GORILLA" -1997-</font>
+		( 合計点 <b>261.9 </b> pt / <b>21</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>24</b> pt + 
+		技 <b>30</b> pt +
+		語 <b>10</b> pt +
+		演 <b>58</b> pt +
+		斬 <b>60</b> pt +
+		遊 <b>12</b> pt +
+		笑 <b>19</b> pt +
+		猥 <b>6</b> pt +
+		酷 <b>36</b> pt +
+		他 <b>6.9 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s070a.jpg" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=070&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/g6l6aDg" target="_blank">投票結果</a></h3>
+　ツール ： <b>2000</b><br>
+　作者 ：<b>14-</b><br>
+　ジャンル ：<b>amenbreak</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱9技8語8演10斬10遊7笑7猥1酷7他6]</h4>　このゲーム、ジャンル何?と聞かれたら、最終的にはデフォ戦と答えるしかない、そんなゲームです。雰囲気のあるマップや、ミニゲーム、そして成長しないA.Jを補佐するデコイシステム、そしてカオスな店員。とにかくお金をためてスキルと装備を買えばほとんど苦戦しないのですが、死神がラスボスでいいと思うくらい強いです(-/-/-)<br><br><h4>[熱7技6語6演9斬8遊6笑5猥0酷6他1]</h4>　電波ゲー。後半は経験値という概念がないデフォ戦でゴリラを探す旅に。カオスなようでいて、細かく作られていて新鮮味があります。(-/-/-)<br><br><h4>[熱5技6語5演7斬6遊4笑4猥0酷10他1]</h4>　A.Jはドラムをこよなく愛するスーパーボーイ。ある日突然現れたゴリラにドラムを盗まれたことをきっかけに、彼の人生は大きく狂っていく……。カオスな導入から、真っ白な世界を歩きまわりコインを集める散歩ゲー、デフォ戦ゲーへと移っていく。デフォ戦パートでは、それまでのカオスと一転して秩序を取り戻すが、時折見え隠れする混沌が深層意識をくすぐる。また、随所に仕込まれた細かいギミックが光る。戦闘には経験値の概念がなく、お金を稼いで武器・防具・装飾品を買い揃え、要所に立ち塞がるボスを倒すことでストーリーが進行する。ゲームは途中で終わってしまい、結末はわからないが、電波ゲーが好みな人には薦められる内容。(-/-/-)<br><br><h4>[熱10技10語3演9斬10遊8笑4猥0酷5他3]</h4>　ゴリラにドラムセットを奪われた少年がドラムを取り返すために電波な世界を転々と… と思ったらRPGが始まった。唐突に始まったにもかかわらず作り込みが素晴らしいRPGパートが展開されたのだ… すぐ終わっちゃうけど(-/男性/16歳 ～ 20歳)<br><br><h4>[熱9技9語9演10斬10遊9笑7猥0酷0他7]</h4>　丁寧な出来のいいRPGと電波な空間を彷徨う不思議な世界に魅了されました(-/-/-)<br><br><h4>[熱6技5語5演8斬8遊6笑6猥0酷6他4]</h4>　極めて実験的な作風を感じました。一つのゲームの中にアドベンチャー的な要素や、探索ゲーム的な要素、はたまたオーソドックスなRPGの要素などを散りばめて、かつ破綻せずに独特の雰囲気を保っている点が好印象。RPG部分では“デコイ”というシステムが上手く戦闘の面白さを引き出していた一方、一部の敵が強すぎたり、金がなかなか溜まらなかったりという多少のバランスの悪さを感じました。難点を挙げるのであれば、唐突に終わってしまう物語。雰囲気や世界観には惹かれるものがあったので、ぜひ続編(あるいは新作)の完成を待ち望んでおります。(-/女性/0歳 ～ 10歳)<br><br><h4>[熱9技9語8演10斬10遊8笑8猥8酷10他4]</h4>　アトラクション風に進行するゲーム。前半はドラマ、後半はRPG。必要最低限の語りの部分がごっそり抜け落ちているので、画面全体からサイレント映画のような雰囲気が感じられる。演出がおもしろい。この連続した場面展開は「計画どおり」なのか「未完の継ぎ接ぎ編集」なのか作者のみぞ知るところだけど、この脈絡のなさは洋ゲーっぽくてゲテモノ好き。狂気の色つかいが非常に良くて、ラストダンジョンの血だまり具合はホラー好きにはぐっとくるものがある。電子音楽(インダストリアル)な世界観が上手過ぎる。この狂気と電波のセンスでじっくり浸れるゲームを見てみたいと思いました。うへへ(よみよみ/-/-)<br><br><br>
+<b>【寄せられたコメント】</b>　死神ぃ!!貴様だけは許さんぞぉ!!　<b>/</b>　Uhnn, Chaos.　<b>/</b>　こいつは電波の塊だぜえ　<b>/</b>　WAZAAAHHHH!!!サヨナラー　<b>/</b>　ミニゲーム部分も楽しかったですし戦闘のバランスやデコイシステムも中々面白いと思ったのでこういうのもっとやりたいなぁ　<b>/</b>　その改変素材作成のセンスをわけてください!　<b>/</b>　とっても不思議な作品でした☆　<b>/</b>　カオスなのか。サイコなのか。ホラーなのか。アウトサイダーなのか。
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/rpg.png" width="32" height="32"></th>
+		<td class="red" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【24位】</font>
+		<font style="font-size:140%;">No.051 海賊リメイクオーバーリローテッドセカンド</font>
+		( 合計点 <b>258.8 </b> pt / <b>25</b> 票 / <b>遅刻提出</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>52</b> pt + 
+		技 <b>57</b> pt +
+		語 <b>14</b> pt +
+		演 <b>12</b> pt +
+		斬 <b>51</b> pt +
+		遊 <b>16</b> pt +
+		笑 <b>27</b> pt +
+		猥 <b>7</b> pt +
+		酷 <b>19</b> pt +
+		他 <b>3.8 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s051a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=051&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/7UUTB1L" target="_blank">投票結果</a></h3>
+　ツール ： <b>2000</b><br>
+　作者 ：<b>えんりゅう</b><br>
+　ジャンル ：<b>RPG</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱9技8語6演5斬7遊5笑4猥3酷3他3]</h4>　感覚的にはアクティブタイムバトルでファイアーエムブレムをやっている感じだろうか。どっちも好きならやるべき。キャラはいろんなとこから引っ張ってきているのでそれも許せる人で。(-/男性/26歳 ～ 30歳)<br><br><h4>[熱8技9語7演8斬8遊9笑7猥3酷9他3]</h4>　海賊最高・・海賊こそ我が糧・・。(だむ/男性/21歳 ～ 25歳)<br><br><h4>[熱6技8語4演3斬6遊3笑6猥2酷7他0]</h4>　自作戦闘のサイドビューRPG。カオス。(愛の使者/男性/31歳 ～ 40歳)<br><br><br>
+<b>【寄せられたコメント】</b>　本気でおもしろかったUIが若干使いにくいことと最後まで完成していないことだけが残念　<b>/</b>　非常に楽しいバトルゲー。完成に期待せざるを得ない!
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i079.png" width="32" height="32"></th>
+		<td class="red" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【25位】</font>
+		<font style="font-size:140%;">No.079 101人のブライアン</font>
+		( 合計点 <b>248.1 </b> pt / <b>26</b> 票 / <b>遅刻提出</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>40</b> pt + 
+		技 <b>10</b> pt +
+		語 <b>13</b> pt +
+		演 <b>12</b> pt +
+		斬 <b>40</b> pt +
+		遊 <b>31</b> pt +
+		笑 <b>52</b> pt +
+		猥 <b>6</b> pt +
+		酷 <b>42</b> pt +
+		他 <b>2.1 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s079a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=079&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/6Mamuuk" target="_blank">投票結果</a></h3>
+　ツール ： <b>2000</b><br>
+　作者 ：<b>ksg40本目ぐらい</b><br>
+　ジャンル ：<b>探して集めるゲーム</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱9技5語6演7斬6遊7笑8猥0酷2他2]</h4>　コレクションゲー&amp;ブライアン好きな人にはたまらない作品だと思う(-/男性/26歳 ～ 30歳)<br><br><h4>[熱6技5語3演4斬5遊6笑9猥2酷9他1]</h4>　短いが簡単。サクッと探索&amp;コレクションゲームをやりたい時にオススメ。(-/女性/-)<br><br><h4>[熱7技5語5演5斬5遊4笑8猥0酷8他0]</h4>　ブライアン一つでよくネタが持ったなぁーと感動。誰得の収集部屋で101匹すべてに図鑑メッセージがあるなんて。ある種の様式美を感じました。(-/-/-)<br><br><h4>[熱10技7語6演10斬10遊10笑10猥10酷10他10]</h4>　この作品にはストーリーは疎か、目に見張る技術もクソもありません。いえ、そんな物はこの作品には必要無いのでしょう。ブライアンを捕まえる、言ってしまえばそれだけですがそのブライアン一匹一匹の姿形、性格や捕まえるまでの道のり、さらに捕まえた後のブライアン観察などそのブライアンに特化した世界観はもはや芸術と言っても過言ではありません。この作品をプレイしたらブライアニストになる事間違い無し。貴方もこの作品で、くだらなくも素晴らしいひとときを過ごしてみてはいかがでしょうか。(ブライアンパンマン/男性/26歳 ～ 30歳)<br><br><h4>[熱6技4語3演6斬7遊4笑6猥2酷8他0]</h4>　逃げ出したブライアン達を探すアドベンチャー系。ミニゲームもあるよ。(-/-/-)<br><br><br>
+<b>【寄せられたコメント】</b>　しれっといるブライアンクソワロタwwwwwww細かな配慮があって良かったと思いましたまるそれにしても101人全員(一部を除く)に説明文があって凄い　<b>/</b>　マジで101人いるんすか…　<b>/</b>　バリエーション豊富(すぎる)なブライアンを突捕まえる収集ゲームそのパターンの多さとテンポの良さで一気に最後まで遊べた小ネタが多いところも「次を見たい」とプレイヤーを魅きつける要素になってると思うバグが多かったけど、作者がすぐ対応してくれたのも好印象でした　<b>/</b>　単純にエターならずにひらめきを要求するミニゲームにくすりときました。　<b>/</b>　ブライアンを探せ!(ただしうざい 火山エリアは謎の最難関。決定キーの攻撃方法に気づかず、危うく…。　<b>/</b>　非の打ち所の無い素晴らしい作品でした。強いて言えばブライアンがウザイksgでした。　<b>/</b>　ブライアン好きに送るブライアン収集ゲー。色んなブライアンが楽しい。
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i086.png" width="32" height="32"></th>
+		<td class="white" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【26位】</font>
+		<font style="font-size:140%;">No.086 たてもの脱出ゲーム</font>
+		( 合計点 <b>245.7 </b> pt / <b>20</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>29</b> pt + 
+		技 <b>18</b> pt +
+		語 <b>12</b> pt +
+		演 <b>22</b> pt +
+		斬 <b>59</b> pt +
+		遊 <b>9</b> pt +
+		笑 <b>31</b> pt +
+		猥 <b>28</b> pt +
+		酷 <b>34</b> pt +
+		他 <b>3.7 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s086a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=086&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/3D0PsKo" target="_blank">投票結果</a></h3>
+　ツール ： <b>2000</b><br>
+　作者 ：<b>とうふ</b><br>
+　ジャンル ：<b>ADV</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱7技6語2演8斬4遊2笑6猥1酷5他2]</h4>　作りが丁寧(-/男性/21歳 ～ 25歳)<br><br><h4>[熱10技10語10演10斬10遊7笑10猥8酷10他2]</h4>　推理をして悶える嗜好の人のためのアドベンチャー。ただし知でなく武力で突破する。謎解きは基本的に一方通行の会話なので、アホな狐ちゃんを上手に誘導しなければならず、壁の絵などの仕掛けはわかっていても、こちらから直感的にアクションを仕掛けることはできない。一つの謎に「ワンヒントの情報のみ」が徹底されているため、その答えを導き出す仮定の幅がほぼ無いに等しく、テキストの解釈を読み間違うと簡単に袋小路にはまり、ゲームは詰んでしまう不自由さもある。仕掛けの鍵は、ゲーム画面の情報全てに発想を広げないとならず、出来ることすべてがアクションボタン。これはゲームでしかできない謎解きの表現方法だと思います。とんち暗号大好き丸にはオススメか!?(-/-/-)<br><br><h4>[熱4技3語2演3斬4遊4笑4猥2酷8他0]</h4>　高難度のアドベンチャー。ヒント機能あり。(-/-/-)<br><br><br>
+<b>【寄せられたコメント】</b>　ネタの視点が想定の遥か外過ぎるwwwwwwwwwwww　<b>/</b>　オブジェクトの調べ判定がシビアだったように思えるけどファイアⅡちゃんが可愛いからどうでもよかった。　<b>/</b>　作りが丁寧　<b>/</b>　これを自力で解ける人がいたら、それはエスパーです　<b>/</b>　まるで意味がわからんぞ　<b>/</b>　ウヒョー!Hの穴じゃ!　<b>/</b>　言葉回しが流暢なので楽しいです。ちびキャラもかわいい　<b>/</b>　理不尽
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i007.png" width="32" height="32"></th>
+		<td class="red" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【27位】</font>
+		<font style="font-size:140%;">No.007 ある日のナイ軍　～冬こそ南の島で暖まろうぜSP～</font>
+		( 合計点 <b>243.3 </b> pt / <b>36</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>25</b> pt + 
+		技 <b>14</b> pt +
+		語 <b>65</b> pt +
+		演 <b>36</b> pt +
+		斬 <b>14</b> pt +
+		遊 <b>19</b> pt +
+		笑 <b>42</b> pt +
+		猥 <b>11</b> pt +
+		酷 <b>8</b> pt +
+		他 <b>9.3 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s007a2.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=007&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/39zuZxY" target="_blank">投票結果</a></h3>
+　ツール ： <b>2000</b><br>
+　作者 ：<b>四倍速で横走り</b><br>
+　ジャンル ：<b>オチを全力で投げ捨てる見るゲ</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱8技2語8演8斬7遊8笑8猥1酷4他2]</h4>　ナイ軍のメンバーを主軸に、旅行へいった所から物語は始まります。テンポよく、面白い展開、かっこいい守銭dナイさまとかそんな感じ。最後がまじめでてぇなのでめでてぇしたい人にオヌヌヌ(-/-/-)<br><br><h4>[熱5技8語10演8斬5遊7笑5猥5酷7他1]</h4>　バカンスという名のインディージョーンズ仲間の力を合わせてダンジョンを乗り越えろ!的な展開が熱いギャグ漫画のオチがない逆に新鮮な結末で後味すっきり。にやにや珍しく男性陣が大活躍な作品でした(-/-/-)<br><br><h4>[熱3技4語3演5斬2遊2笑2猥2酷5他0]</h4>　ナイ軍総出演の中篇見るゲ。可もなく不可もなく。(愛の使者/男性/31歳 ～ 40歳)<br><br><br>
+<b>【寄せられたコメント】</b>　ナイ軍の面々が、それぞれみんな活躍しているのがよかった。ある意味で予想外な終わり方にもびっくり。　<b>/</b>　このネタでそのまま「貧乏」のイメージを払拭して幸せなエンディングというのは意外だし、何より見ていてとても幸せになれたのでよかったです。みんな幸せになって欲しいよね。あまりに面白かったので、こっそりこのネタを踏まえたksg作らせていただきました。でもはやり「実は貧乏に戻る」オチはやってはいけないと思い、ナイ軍は今超お金持ち! ひゃっほい!　<b>/</b>　色々なキャラが万遍なく活躍していてよかった。　<b>/</b>　今回の祭りでのベストナイ軍作品　<b>/</b>　清々しいまでのほのぼのナイ軍。楽しく見れて良かったです!　<b>/</b>　ハッピーエンドはいいものですね。ナイ様はしゃぎすぎ　<b>/</b>　捨てキャラがないのが好印象だった。
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i009.png" width="32" height="32"></th>
+		<td class="red" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【28位】</font>
+		<font style="font-size:140%;">No.009 DARK★HELL</font>
+		( 合計点 <b>234.7 </b> pt / <b>30</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>50</b> pt + 
+		技 <b>39</b> pt +
+		語 <b>10</b> pt +
+		演 <b>25</b> pt +
+		斬 <b>18</b> pt +
+		遊 <b>58</b> pt +
+		笑 <b>12</b> pt +
+		猥 <b>10</b> pt +
+		酷 <b>6</b> pt +
+		他 <b>6.7 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s009a2.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=009&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/brYhFHd" target="_blank">投票結果</a></h3>
+　ツール ： <b>2000</b><br>
+　作者 ：<b>主人公1-2</b><br>
+　ジャンル ：<b>短編デフォ戦ＲＰＧ</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱9技10語3演8斬10遊9笑1猥1酷1他2]</h4>　このゲームはデフォ戦RPGではありますが、難易度はそこまで高く無いです(仲間の数を絞ればそこは縛れる)パーティ編成画面や、時間システム、ダンジョンの仕掛け、どれも魅力的な作品です。特に時間変化による画面の雰囲気やシンボルの変化はこのゲームの最大の注目点とも言えます。(-/-/-)<br><br><h4>[熱10技10語5演10斬10遊10笑10猥5酷8他4]</h4>　名作の原石きらり。コミカルな空気感でコンパクトにまとまっている。キャラクターの個性(役割分担)も考えられており、だれを選んでも第一線を連れていける楽しさがある。ダンジョンの構成にも遊びがある。時間経過のシステムが面白い。これ一つでアドベンチャーの要素がぐっと広がる。ワールド系のRPGだと歩行範囲が広大なため、昼夜逆転はめんどうになりがちだけど「マップの狭さと自由度の少なさ」が逆にストレスを緩和して、快適にしているようにも感じられました。(よみよみ/性別不明/年齢不明)<br><br><h4>[熱8技7語7演7斬6遊8笑6猥4酷3他5]</h4>　代理作品ではありながらも、一つのデフォ戦ゲーとして完成度の高い作品でありました。戦闘面ではいかに速やかに勝負を決するかという大技バランスであったためにテンポよく展開し、また何よりもマップ上のギミックや隠し通路、そして時間帯によって変化するイベントなどの多種多様な仕掛けが最後まで飽きの来ない冒険を演出していました。(Hiro/男性/26歳 ～ 30歳)<br><br><h4>[熱2技5語0演5斬2遊4笑2猥2酷3他0]</h4>　代理ゲー。自作レベルアップを採用したデフォ戦RPG。時間の概念あり。(愛の使者/男性/31歳 ～ 40歳)<br><br><br>
+<b>【寄せられたコメント】</b>　非常に面白いデフォ戦でした。時間システムがすごい!　<b>/</b>　ヘルにデュラハンに俺得なパーティーでした　<b>/</b>　外を歩いていればやがて夜になるぞ　<b>/</b>　仲間のバリエーションも豊かで、短編なのが本当に惜しくなる完成度でした!　<b>/</b>　代理とは思えないほど非常に良く出来ていて、とても楽しめる作品でした。クリア後にシナリオ中の取りこぼしが確認できるのも、非常に好印象でした。　<b>/</b>　さくっと遊べて楽しいデフォ戦ゲーでした!　<b>/</b>　おばけかわいいです。ゴス子無双でした　<b>/</b>　コンパクトにまとまりながらも充実感のあるデフォ戦を楽しむことができました。
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/ksg.png" width="32" height="32"></th>
+		<td class="white" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【29位】</font>
+		<font style="font-size:140%;">No.094 モテるツクール女子力を磨く為の4つの心得</font>
+		( 合計点 <b>229.4 </b> pt / <b>21</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>12</b> pt + 
+		技 <b>10</b> pt +
+		語 <b>12</b> pt +
+		演 <b>12</b> pt +
+		斬 <b>12</b> pt +
+		遊 <b>18</b> pt +
+		笑 <b>44</b> pt +
+		猥 <b>53</b> pt +
+		酷 <b>54</b> pt +
+		他 <b>2.4 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s094a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=094&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/7MMOG3n" target="_blank">投票結果</a></h3>
+　ツール ： <b>2000</b><br>
+　作者 ：<b>かきぴー</b><br>
+　ジャンル ：<b>女子力ゲー</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱7技0語5演6斬5遊0笑10猥7酷10他1]</h4>　まず飲み会にツクールを持ち込むという状況に対して突っ込みたかったけれどもそれが追いつかないレベルでブッ飛んでいたと共に、女子力を全力で演出している間のりばりと最後の素に戻るりばりのギャップがおかしかった。(Hiro/男性/26歳 ～ 30歳)<br><br><h4>[熱6技6語7演6斬7遊7笑9猥5酷8他3]</h4>　ためになるかは分からないけどとにかく笑えたキャラの使い方も上手い(-/男性/26歳 ～ 30歳)<br><br><br>
+<b>【寄せられたコメント】</b>　女子力とは一体…　<b>/</b>　リバリ舐めたい　<b>/</b>　女子力を感じられた　<b>/</b>　こいつ…小賢しいと思うだがそれがいい!　<b>/</b>　あざとすぎて可愛いww　<b>/</b>　ツクール女子力という謎ステータスを真面目に解説するのが面白い。　<b>/</b>　ぷんぷくり～ん。かわいい殴りたい　<b>/</b>　ある意味的を射ていると思ってしまう自分がいたことが何よりくやしかった。　<b>/</b>　スイッチのくだりで吹かざるを得なかった あの音楽が耳から離れなくなるのがまた面白い キャラは強烈な一つの作品があれば化けるというのを思い知らされた
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i064.png" width="32" height="32"></th>
+		<td class="white" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【30位】</font>
+		<font style="font-size:140%;">No.064 いちめんのksgコレクション</font>
+		( 合計点 <b>227.9 </b> pt / <b>18</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>20</b> pt + 
+		技 <b>12</b> pt +
+		語 <b>44</b> pt +
+		演 <b>13</b> pt +
+		斬 <b>16</b> pt +
+		遊 <b>28</b> pt +
+		笑 <b>42</b> pt +
+		猥 <b>28</b> pt +
+		酷 <b>22</b> pt +
+		他 <b>2.9 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s064a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=064&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/3nKJUJs" target="_blank">投票結果</a></h3>
+　ツール ： <b>2000</b><br>
+　作者 ：<b>いつまでも名無し</b><br>
+　ジャンル ：<b>いちめんのksgコレクション</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱10技10語10演10斬10遊10笑10猥7酷10他2]</h4>　本スレで見たあのksgが大量に集合!笑える物から考えさせられる物まで様々なksgが揃っています、オススメです(-/-/-)<br><br><h4>[熱5技3語5演4斬6遊4笑5猥5酷4他1]</h4>　俺コレ系見るゲ集。ボリューム多め。色々な作風があり作者の工夫が感じられる。(愛の使者/男性/31歳 ～ 40歳)<br><br><br>
+<b>【寄せられたコメント】</b>　面白いksgコレクションでした　<b>/</b>　色々なksgに笑わせてもらいました。おまけのオールスターゲーみたいなのも好みです。　<b>/</b>　常識の場外駐車場までブッ飛んだお話はないけど小さくまとまった良質(ksg)の見るゲがいっぱいで記憶に残ってますキャラプッシュの歴史を感じるのは、気のせいだろうか…w　<b>/</b>　地味にこの作者さんとはお互いに影響受けてる気がする(妄想)
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/rpg.png" width="32" height="32"></th>
+		<td class="red" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【31位】</font>
+		<font style="font-size:140%;">No.061 JASIN</font>
+		( 合計点 <b>227.5 </b> pt / <b>23</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>50</b> pt + 
+		技 <b>42</b> pt +
+		語 <b>56</b> pt +
+		演 <b>34</b> pt +
+		斬 <b>12</b> pt +
+		遊 <b>12</b> pt +
+		笑 <b>4</b> pt +
+		猥 <b>4</b> pt +
+		酷 <b>4</b> pt +
+		他 <b>9.5 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s061a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=061&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/hxXzNYI" target="_blank">投票結果</a></h3>
+　ツール ： <b>ツクールXP</b><br>
+　作者 ：<b>いと</b><br>
+　ジャンル ：<b>RPG</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱10技7語9演10斬9遊6笑8猥0酷0他8]</h4>　暗い迷宮の雰囲気がよく出ているシリアスな雰囲気に飲まれる事間違いなし主人公は喋らない、語りのテキストがとても良い。仲間の心情、死んでゆくNPC…もしもキャラのオリジナルシリアス絵は必見(-/-/-)<br><br><h4>[熱10技10語10演10斬10遊1笑0猥0酷0他4]</h4>　よくもわるくもとっつきやすいWIZライクゲーだと思う。方眼紙マッピングツールを用意すれば遊べる。MAPが広いので歩数の数え間違いによるマッピングミスをしちゃう悔しいビクンビクン。敵とのエンゲージのSEがけっこう大きいのでそれで思わずビックリして忘れてしまう。フリーのWIZライクゲームとしてはかなり良い出来なのでプレイする価値はアリ。(-/男性/26歳 ～ 30歳)<br><br><br>
+<b>【寄せられたコメント】</b>　デイジーちゃんの薄い本はよ　<b>/</b>　文章が無いので簡潔に感想を言いますと、全体的な雰囲気に惹かれてシステム面も中々楽しめました　<b>/</b>　恍惚の「人は何故……」は一見の価値ありだと思う酒場のイベントも大好き一緒に潜った仲間が好きになった　<b>/</b>　　<b>/</b>　フリーのWIZライクゲームとしてはかなり良い出来。方眼紙片手にMAPウメが楽しい。音楽とテクスチャが良い。MAP広すぎワロタ。オートマッピングが無いせいか、作業ゲーとならずに眠くならないのがいい。甘えたい時に帰還アイテムは助かる。フリーシナリオマルチエンディングWIZみたいなの作ってくだしぃ。楽しかったです。
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/rpg.png" width="32" height="32"></th>
+		<td class="red" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【32位】</font>
+		<font style="font-size:140%;">No.039 リハビリその４</font>
+		( 合計点 <b>223.3 </b> pt / <b>23</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>9</b> pt + 
+		技 <b>62</b> pt +
+		語 <b>7</b> pt +
+		演 <b>60</b> pt +
+		斬 <b>52</b> pt +
+		遊 <b>10</b> pt +
+		笑 <b>10</b> pt +
+		猥 <b>4</b> pt +
+		酷 <b>8</b> pt +
+		他 <b>1.3 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s039a1.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=039&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/9EoGK5i" target="_blank">投票結果</a></h3>
+　ツール ： <b>RPGツクール2000</b><br>
+　作者 ：<b>山本ブライアン</b><br>
+　ジャンル ：<b>デフォ戦RPG</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱9技10語5演8斬10遊10笑1猥1酷1他1]</h4>　このゲームはデフォ戦です。もう一度いいます。このゲームはデフォ戦です。(-/-/-)<br><br><h4>[熱10技10語5演10斬8遊10笑6猥3酷6他2]</h4>　デフォ戦の本気を垣間見れた作品かっこいい戦闘アニメが好きなら是非(noname/男性/21歳 ～ 25歳)<br><br><h4>[熱10技10語5演10斬10遊0笑5猥0酷5他1]</h4>　一芸に特化した演出ってすばらしいです。このデフォ戦がいつか燦々たる結晶になることを期待。そうだ。これでergを作ろうerg(-/-/-)<br><br><h4>[熱5技9語5演10斬10遊7笑7猥0酷3他1]</h4>　戦闘アニメと背景でここまでできるということに驚かざるを得ない。(Hiro/男性/26歳 ～ 30歳)<br><br><br>
+<b>【寄せられたコメント】</b>　これぜんぶデフォ戦らしいぜ・・・　<b>/</b>　兎に角演出が凄くかっこいいデフォ戦の皮を被った自作戦闘でした　<b>/</b>　まさか移動パートから最後まで全部デフォ戦で表現しているとはこの海のリハクの目を持ってしても見抜けなかったわ・・。　<b>/</b>　申し訳ないが淫夢ネタの乱用はNG　<b>/</b>　とてつもないアニメーションの連続。ぬるぬるやヴぁい手間もかかってるし細かいですね。すっごい　<b>/</b>　ストーリーパート含め全部デフォ戦という技術力に惹かれる。戦闘演出もかっこいい!　<b>/</b>　ある意味でのデフォ戦の限界を突き詰めた作品。
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i050.png" width="32" height="32"></th>
+		<td class="white" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【33位】</font>
+		<font style="font-size:140%;">No.050 BRAVELY WORKING FLYING妖精さん</font>
+		( 合計点 <b>207.9 </b> pt / <b>14</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>8</b> pt + 
+		技 <b>10</b> pt +
+		語 <b>5</b> pt +
+		演 <b>10</b> pt +
+		斬 <b>12</b> pt +
+		遊 <b>10</b> pt +
+		笑 <b>34</b> pt +
+		猥 <b>56</b> pt +
+		酷 <b>62</b> pt +
+		他 <b>0.9 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s050a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=050&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/fL5X8iI" target="_blank">投票結果</a></h3>
+　ツール ： <b>2000</b><br>
+　作者 ：<b>一般1-3</b><br>
+　ジャンル ：<b>RPG</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱5技5語2演2斬8遊5笑8猥5酷10他0]</h4>　これはひどい以外に言葉が見つかりませんでした(-/-/-)<br><br><h4>[熱3技5語3演5斬6遊2笑5猥3酷10他0]</h4>　なんとも言えない見るゲ→音ゲー(?)。これひど。(-/-/-)<br><br><br>
+<b>【寄せられたコメント】</b>　なんだこれはぁ・・・　<b>/</b>　肛門様　<b>/</b>　これはひどい　<b>/</b>　ひ、ひどすぎるよー!　<b>/</b>　作者は脳味噌を洗った方がいい　<b>/</b>　なんだこのksgはァ!?　<b>/</b>　ひどくないところがない。
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i038.gif" width="32" height="32"></th>
+		<td class="white" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【34位】</font>
+		<font style="font-size:140%;">No.038 Temple of Shadows</font>
+		( 合計点 <b>207.7 </b> pt / <b>19</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>16</b> pt + 
+		技 <b>49</b> pt +
+		語 <b>29</b> pt +
+		演 <b>20</b> pt +
+		斬 <b>18</b> pt +
+		遊 <b>46</b> pt +
+		笑 <b>12</b> pt +
+		猥 <b>4</b> pt +
+		酷 <b>6</b> pt +
+		他 <b>7.7 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s038a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=038&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/fjdMsc4" target="_blank">投票結果</a></h3>
+　ツール ： <b>RPGツクール2003</b><br>
+　作者 ：<b>めふぃすと</b><br>
+　ジャンル ：<b>ぽんこつ魔法RPG</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱10技9語8演8斬7遊8笑6猥4酷0他6]</h4>　今回のじっくりやるゲームの中では間違いなく最優秀でしょう。マゾゲーマーさんにお勧め(鳥籠うさぎ/性別不明/21歳 ～ 25歳)<br><br><h4>[熱7技10語7演10斬9遊9笑8猥5酷7他4]</h4>　お話の雰囲気良し、キャラの造形良し、自作戦闘の軽快さ楽しい、と三拍子揃ったRPG。…なのだが、実際に手をとって遊んでみると作者からの質問の要求レベルが高難易度で、殆どのプレイヤーが開始数十分の【最初の森】でゲーム終了となると思われるほどの一面ラストダンジョンっぷり。戦闘を楽しんでいる感覚を直流とすれば、パズル部分は電気抵抗のような感じ。だが、その抵抗力の壁が高く、先を遊びたいけど遊びきれないという何とも不愉快なジレンマに囚われてしまう。電球を点けるために回路を組もうとするが最初から正しい設計図を読み解かなければけっして信号(シグナル)には結びつくことがなく、中間の試行錯誤のトライ部分の道順にはまったく作り手からの反応がない。思考を積みかさねて正答に辿りつくプレイヤーの過程をごっそり切り捨て、質問⇒×⇒結果だけを求めているダンジョン構成が難易度を高くしているようにも思われました。(-/-/-)<br><br><br>
+<b>【寄せられたコメント】</b>　サグラダちゃんぺろぺろ　<b>/</b>　RPGというより謎解きメインに感じたもうちょっと謎解きにはヒント欲しいッス　<b>/</b>　スキルツリーがよかったです　<b>/</b>　ざんねん。へっぽこの冒険は時計の間で終わってしまった!おもしろいのに。おもしろいのに。ビクンビクン...　<b>/</b>　キャラクターが人を選ぶかも知れない。
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i092.png" width="32" height="32"></th>
+		<td class="white" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【35位】</font>
+		<font style="font-size:140%;">No.092 マニラの西48km</font>
+		( 合計点 <b>206.5 </b> pt / <b>25</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>12</b> pt + 
+		技 <b>8</b> pt +
+		語 <b>13</b> pt +
+		演 <b>13</b> pt +
+		斬 <b>20</b> pt +
+		遊 <b>10</b> pt +
+		笑 <b>59</b> pt +
+		猥 <b>15</b> pt +
+		酷 <b>55</b> pt +
+		他 <b>1.5 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s092a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=092&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/4hwfDgh" target="_blank">投票結果</a></h3>
+　ツール ： <b>2000</b><br>
+　作者 ：<b>◆2aLlGIkY8s</b><br>
+　ジャンル ：<b>ググれ</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱4技2語4演6斬4遊5笑8猥0酷5他0]</h4>　主軸となるストーリーに小ネタが挟まる見るゲです。不意打ちネタが多いです。ぜひ口に飲み物を含んでどうぞ。それまでのネタの強さに対してオチが弱かったように思います。タイトルには意味があるようです。(-/-/-)<br><br><h4>[熱4技2語3演4斬4遊4笑7猥2酷7他0]</h4>　THE ksg(-/-/-)<br><br><br>
+<b>【寄せられたコメント】</b>　コオオオオオオオ!!!!　<b>/</b>　笑ってるうちに終わってたwwwww　<b>/</b>　ドラ子ぉー!　<b>/</b>　ドラ子とまる子の子コンビに撃沈。唐突に来る上たまちゃんは酷いwww　<b>/</b>　大人のキスよ・・・wwwうwwwるwwwせwwwぇwww　<b>/</b>　ドラ子ォーー!
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i084.gif" width="32" height="32"></th>
+		<td class="white" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【36位】</font>
+		<font style="font-size:140%;">No.084 windy posession</font>
+		( 合計点 <b>185.1 </b> pt / <b>13</b> 票 / <b>遅刻提出</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>24</b> pt + 
+		技 <b>50</b> pt +
+		語 <b>10</b> pt +
+		演 <b>12</b> pt +
+		斬 <b>30</b> pt +
+		遊 <b>10</b> pt +
+		笑 <b>11</b> pt +
+		猥 <b>30</b> pt +
+		酷 <b>6</b> pt +
+		他 <b>2.1 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s084a1.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=084&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/i6eqQYk" target="_blank">投票結果</a></h3>
+　ツール ： <b>RPGツクール2000</b><br>
+　作者 ：<b>蝶番</b><br>
+　ジャンル ：<b>アクションパズル</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱4技9語1演6斬4遊4笑1猥0酷3他0]</h4>　アクションパズルという通り、サイドビューアクションのパズルゲームです。パズルの方は非常に楽しいのですが、アクションの操作性に難があり、ジャンプ憑依ジャンプの3マス超えのシビアや、ほんのちょっと近寄っただけで鍵が開いたり、違うマスの鍵穴がひらいたりします。デュアルコア以上の人はステージセレクトで対策用数値を上げないと、憑依解除したと思ったら憑依してた状態になります。(-/-/-)<br><br><h4>[熱9技9語4演7斬9遊4笑5猥5酷8他1]</h4>　ウィンドⅠで頑張るパズルゲーム。操作性がアクションなのでけっこうプレイヤーの技術がいる。ステージ構成はきちんとパズルしているので楽しい。ただ一部過剰すぎるアクション錬度を求め、がんばれと開き直られている感もあった。すこしヌルゲーくらいが気持ちいいんですが、元ネタもハードなゲームらしいので少しだけ納得。EDにリプレイ回数がでるのはよかったです。(-/-/-)<br><br><br>
+<b>【寄せられたコメント】</b>　ウインドちゃんがしんでるのがおもしろかったですでもちょっとむずかしーかも・・・!? &gt;&lt;　<b>/</b>　私たちを踏み台にした…!?
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i042.png" width="32" height="32"></th>
+		<td class="white" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【37位】</font>
+		<font style="font-size:140%;">No.042 魔王の挑戦状</font>
+		( 合計点 <b>182.7 </b> pt / <b>22</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>41</b> pt + 
+		技 <b>16</b> pt +
+		語 <b>39</b> pt +
+		演 <b>10</b> pt +
+		斬 <b>26</b> pt +
+		遊 <b>32</b> pt +
+		笑 <b>4</b> pt +
+		猥 <b>4</b> pt +
+		酷 <b>4</b> pt +
+		他 <b>6.7 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s042a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=042&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/b9qKbu6" target="_blank">投票結果</a></h3>
+　ツール ： <b>2000 VALUE!</b><br>
+　作者 ：<b>プラチナ◆PTWuwkfBxE</b><br>
+　ジャンル ：<b>短編シンプルＲＰＧ</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱10技8語10演8斬10遊8笑1猥1酷1他8]</h4>　このゲームは毒男が魔王を倒しにいく、自作戦闘サイドビュー雪道ゲーです。このゲームの面白いのはその戦闘システムにあります。4つの装備スロットに各装備を装備するのですが、一つの装備には4つの技が存在します。そして、毎ターン1つの装備から1つの技がランダムに選ばれて、合計4つの技から一つを選んで攻撃を行います。ダメージは1とか2とか3なので、使えば理解できます。ソレ以外にも先手を取れるスキルだとか、防御を貫通するスキルだとかそういった要素もあるおかげで駆け引きが楽しくなります。難易度もそこそこで遊べます(クリア後にエゲツないのが待ってますが。)(-/-/-)<br><br><h4>[熱6技6語7演4斬8遊6笑6猥3酷1他6]</h4>　油断が死に繋がる半運ゲー装備を厳選して戦略を練り、戦術を磨くべし!ボス前の位置で手が滑って前進してしまうのに注意すべし!強すぎるがゆえの孤独とアンニュイさを全身全霊でかみ締めるべし!(モナ板出身の参加者/-/-)<br><br><h4>[熱8技8語6演3斬8遊10笑2猥2酷2他3]</h4>　ゲームバランスもなかなかいいし、シンプルながら考えさせられるシステムで面白かった(ナナシィ/男性/21歳 ～ 25歳)<br><br><h4>[熱7技5語6演5斬6遊6笑0猥0酷0他2]</h4>　「大作ゲー」と呼ばれるものとは失礼ながら言い難いでも、この作品の持つ独特な世界観・システムに惹かれる者は多いと思う良い作品でした(-/男性/26歳 ～ 30歳)<br><br><h4>[熱9技6語4演6斬6遊6笑5猥7酷5他2]</h4>　テクニック、シナリオ、演出、斬新さはどれも並～中上だけど熱中度と地味な面白さがあった(-/女性/21歳 ～ 25歳)<br><br><h4>[熱8技9語10演8斬8遊10笑8猥1酷9他2]</h4>　さっぱり。あっさり。無駄な装飾もなくシンプルに遊べます。説明文もないのに手に取った瞬間、すぐに戦闘システムも理解できるほどの秀逸さ。装備アイテムのランダム性を駆使して、敵のHPを綱引きするプレイ感覚でさくっと遊び尽くせます。喪のモノクロなストーリー世界に包まれ、しっとり寂しい魔王退治の余韻に浸れました。なにもないし、いみなんてない。(-/-/-)<br><br><br>
+<b>【寄せられたコメント】</b>　本当に面白い自作戦闘ゲーでした。　<b>/</b>　世界観、ストーリーともによく練られていますし優れたフォーマットだと思います戦闘バランスはいいとも悪いともいえませんがそれもまた仕様なのでしょう素材のショボさで軽く見られるかもしれないのは狙ってるんだかどーなんだか過去の作品もいくつかやらせていただいていますが今回はいい意味で肩の力が抜けた佳作だと思います　<b>/</b>　システムがいいね　<b>/</b>　いわゆる雪道ゲーと呼ばれるジャンルだと思うでも、道中(短いが)で入手するアイテムを装備することで戦闘コマンドが変化するというのは面白いシステムだと感じた選曲もこの作品の世界観と合っているのでプレイ後にも余韻が残るシンプルながら良いゲームという印象　<b>/</b>　ゲームとして良く出来てて面白かった　<b>/</b>　運が欲しくなる　<b>/</b>　シンプルながらも色々な戦法を試したくなるスルメゲー。装備との組み合わせと選択できる行動がランダムでいい緊張感を生み出してて面白い。　<b>/</b>　ランダム性があるのにやりやすく面白い作品って素晴らしいと思う　<b>/</b>　退廃的な雰囲気がとてもいい。メランコリック
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/miru.png" width="32" height="32"></th>
+		<td class="white" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【38位】</font>
+		<font style="font-size:140%;">No.072 ウィンドⅠのおつかい外伝～カナエール様は心配性～</font>
+		( 合計点 <b>182.1 </b> pt / <b>25</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>32</b> pt + 
+		技 <b>10</b> pt +
+		語 <b>42</b> pt +
+		演 <b>14</b> pt +
+		斬 <b>10</b> pt +
+		遊 <b>13</b> pt +
+		笑 <b>13</b> pt +
+		猥 <b>37</b> pt +
+		酷 <b>7</b> pt +
+		他 <b>4.1 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s072a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=072&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/6RjzcE5" target="_blank">投票結果</a></h3>
+　ツール ： <b>RPGツクール2000</b><br>
+　作者 ：<b>大富豪の大貧民役</b><br>
+　ジャンル ：<b>迷子になりながら事の成り行きを見るゲ</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱7技7語8演8斬5遊3笑6猥0酷0他2]</h4>　めでたしめでたし(ちんこっこ/男性/21歳 ～ 25歳)<br><br><h4>[熱8技5語9演7斬5遊8笑6猥3酷6他3]</h4>　きゃわわわわ(-/男性/21歳 ～ 25歳)<br><br><h4>[熱4技2語9演5斬5遊4笑8猥5酷2他4]</h4>　ウィンディかわいい!続編にも期待(-/男性/21歳 ～ 25歳)<br><br><h4>[熱4技3語3演4斬2遊2笑2猥4酷3他0]</h4>　寄り道要素ありの短篇探索ゲー。(愛の使者/男性/31歳 ～ 40歳)<br><br><br>
+<b>【寄せられたコメント】</b>　ウィンディちゃんきゃわわ　<b>/</b>　きゃわわ　<b>/</b>　風の子負けない子　<b>/</b>　良い話を見るとホッとする　<b>/</b>　きゃわわわ　<b>/</b>　セーブを!!!!!つけろ!!!!!　<b>/</b>　ウィンディが幸せになりますように。ぺろぺろ
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i032.png" width="32" height="32"></th>
+		<td class="white" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【39位】</font>
+		<font style="font-size:140%;">No.032 タイトルが未定みていな俺コレクション</font>
+		( 合計点 <b>178.5 </b> pt / <b>17</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>10</b> pt + 
+		技 <b>10</b> pt +
+		語 <b>34</b> pt +
+		演 <b>12</b> pt +
+		斬 <b>12</b> pt +
+		遊 <b>10</b> pt +
+		笑 <b>10</b> pt +
+		猥 <b>67</b> pt +
+		酷 <b>10</b> pt +
+		他 <b>3.5 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s032a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=032&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/ajRLEqb" target="_blank">投票結果</a></h3>
+　ツール ： <b>2000</b><br>
+　作者 ：<b>N-NASI-SAN</b><br>
+　ジャンル ：<b>Ksgコレクション</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱5技5語9演8斬7遊6笑1猥9酷9他2]</h4>　スレ投下zipまとめ作品です。18禁もあるヨ!!(-/-/-)<br><br><h4>[熱10技6語8演8斬5遊6笑5猥10酷5他4]</h4>　えっちな作品が好きな人は是非(noname/男性/21歳 ～ 25歳)<br><br><h4>[熱6技6語7演7斬5遊5笑5猥7酷5他3]</h4>　血わてりぺろぺろ(ぺろぺろまいすたー/男性/31歳 ～ 40歳)<br><br><br>
+<b>【寄せられたコメント】</b>　あれらは全てオマエの作品ダタノカ　<b>/</b>　ちわてりかわいい　<b>/</b>　ちょっとえっちな作品が多いコレクションで、どれもよくできていると思いました　<b>/</b>　逆強姦が多かった幼いは正義　<b>/</b>　病んでいるキャラ等の表現が魅力的でした。
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i058.png" width="32" height="32"></th>
+		<td class="white" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【40位】</font>
+		<font style="font-size:140%;">No.058 桃色通信6月号</font>
+		( 合計点 <b>164.0 </b> pt / <b>18</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>12</b> pt + 
+		技 <b>8</b> pt +
+		語 <b>14</b> pt +
+		演 <b>14</b> pt +
+		斬 <b>12</b> pt +
+		遊 <b>10</b> pt +
+		笑 <b>7</b> pt +
+		猥 <b>75</b> pt +
+		酷 <b>9</b> pt +
+		他 <b>3.0 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s058a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new"><dl><h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=058&amp;tpl=view2">作品紹介</a></h3><p>制限された内容</p></dl></div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i001.png" width="32" height="32"></th>
+		<td class="red" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【41位】</font>
+		<font style="font-size:140%;">No.001 MAGIC BATTLE</font>
+		( 合計点 <b>161.9 </b> pt / <b>17</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>12</b> pt + 
+		技 <b>46</b> pt +
+		語 <b>7</b> pt +
+		演 <b>46</b> pt +
+		斬 <b>24</b> pt +
+		遊 <b>14</b> pt +
+		笑 <b>2</b> pt +
+		猥 <b>2</b> pt +
+		酷 <b>6</b> pt +
+		他 <b>2.9 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s001a1.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=001&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/cL8SMAa" target="_blank">投票結果</a></h3>
+　ツール ： <b>RPGツクール2000</b><br>
+　作者 ：<b>葡萄</b><br>
+　ジャンル ：<b>遊戯王5D'sウィリー・ブレイカーズ</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱7技8語1演5斬9遊7笑1猥1酷1他1]</h4>　本作品は未完成であり、そのシステムを体験することができます。ゲームは3すくみのジャンケン形式で優勢側のみの行動が基本的に認められていますが、ガードやカウンターによる駆け引きもあって、非常に戦略的になっています。完成に非常に期待できる作品だと思います(-/-/-)<br><br><h4>[熱6技7語0演6斬7遊7笑0猥0酷3他3]</h4>　基本はジャンケン。しかし独特の読み合い要素があり運ゲーではない。操作できるのが偏った性能のパラライズだけだったせいか、このゲームシステムの魅力の全てが把握できないのが惜しい所。(-/-/-)<br><br><h4>[熱5技7語0演7斬7遊5笑0猥0酷0他1]</h4>　初プレイ。適当に十字キーでがちゃがちゃ。特殊フォントなので最後までコマンドの形の意味(じゃんけん優劣)がわからなかったかも。慣れ?手札決定後のバトル駆け引きはおもしろかったけど、入力フェイズのプロセスが作業ゲーっぽく感じてしまった。操作性の直感に訴えるわけでもなく、敵行動への戦略に備えるわけでもなく、放置していると勝手に進んでいくような傍観ターン。コマンド入力のところに娯楽(アクティビティ)が足りないような気がしましたが。むむむ…。デザインはカッコいいです。チュートリアルの説明文も平易でわかりやすかったです。何となく格闘ゲーっぽいですね。(-/-/-)<br><br><h4>[熱6技8語0演8斬6遊7笑0猥0酷1他2]</h4>　体験版ということであったが、作品のシステム面では一つの完成を見ているように思われました。複数キャラによるシナリオプレイが実装されればより魅力的な作品に仕上がると思いますので、完成を楽しみにしたいと思います。(Hiro/男性/26歳 ～ 30歳)<br><br><h4>[熱4技8語0演7斬8遊5笑1猥1酷1他0]</h4>　自作戦闘ゲーの体験版。ジャンケンっぽい。(-/男性/31歳 ～ 40歳)<br><br><br>
+<b>【寄せられたコメント】</b>　非常に斬新なシステムでした。完成版が期待されます。　<b>/</b>　演出などで魅せてくる、面白い自作戦闘ゲーの体験版!完成、楽しみにしています　<b>/</b>　ハメ技が悪いんじゃない。ハメられる方が悪いのだ…
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/rpg.png" width="32" height="32"></th>
+		<td class="white" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【42位】</font>
+		<font style="font-size:140%;">No.010 MOSIMO QUEST II</font>
+		( 合計点 <b>157.4 </b> pt / <b>17</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>34</b> pt + 
+		技 <b>12</b> pt +
+		語 <b>53</b> pt +
+		演 <b>10</b> pt +
+		斬 <b>10</b> pt +
+		遊 <b>6</b> pt +
+		笑 <b>12</b> pt +
+		猥 <b>6</b> pt +
+		酷 <b>10</b> pt +
+		他 <b>4.4 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s010a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=010&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/V9T6Sr" target="_blank">投票結果</a></h3>
+　ツール ： <b>RPGツクール2000</b><br>
+　作者 ：<b>こやま</b><br>
+　ジャンル ：<b>RPG</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱8技3語8演6斬5遊1笑8猥3酷8他3]</h4>　国民的RPG2のパロ作品良い点・キャラの掛け合いが丁寧で楽しい・緊張感のある戦闘、特に初見の敵と対峙する時のドキドキ感は他のRPGでは味わえない悪い点・高難度がウリとのことだが、高い戦略性を求めるがゆえの高難度ではなく運ゲー的な意味での高難度になっている・運が悪いと延々ハメ殺されてゲームが進まない・少しずつリソースを蓄積して戦力を拡充しながら進めるゲーム性と運ゲー要素が合わさってゲームのテンポを損ねている(-/男性/26歳 ～ 30歳)<br><br><h4>[熱10技10語10演8斬10遊8笑10猥5酷10他3]</h4>　高難易度RPG。生半可なヌルゲーマーは撃沈されるマゾい仕様のDQⅡ一ターンキルの雑魚戦はザラで、とにかく敵が瞬殺ぶっぱでプレイヤーを殺しにかかってくる。理不尽に感じる反面、移動や戦闘のテンポはすこぶるよく、死にゲーとしてのやり応えは抜群にある。要所要所の難易度上昇の壁は、じつは「別の攻略法を探せ」という暗黙の誘導でもあり、打開策のパズルのピースを見つけ出すことで×無理ゲー ○攻略可能ダンジョンと、戦闘バランスは劇的に改善されるという絶妙の調整が光る。しかもなんとエンディングも三種類用意してあり、やりこみ要素も十二分にあるのだー。努力したぶんだけご褒美の答えを用意してあるのは作者なりの優しさか?時間+努力は必要ですが…弱者に厳しく強者に優しい。そんな極道の漢ゲームです。悟れ。(よみよみ/性別不明/年齢不明)<br><br><br>
+<b>【寄せられたコメント】</b>　非常に楽しめる作品でした。　<b>/</b>　素人なので優しくしてください。また死んだー
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i023.png" width="32" height="32"></th>
+		<td class="red" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【43位】</font>
+		<font style="font-size:140%;">No.023 ドキ☆　gomezだらけの危ない学園生活　～あなたはゴメスを信じますか？～ </font>
+		( 合計点 <b>153.8 </b> pt / <b>12</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>7</b> pt + 
+		技 <b>6</b> pt +
+		語 <b>10</b> pt +
+		演 <b>10</b> pt +
+		斬 <b>32</b> pt +
+		遊 <b>10</b> pt +
+		笑 <b>18</b> pt +
+		猥 <b>6</b> pt +
+		酷 <b>53</b> pt +
+		他 <b>1.8 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s023a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=023&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/9yj0ftC" target="_blank">投票結果</a></h3>
+　ツール ： <b>2000人のゴメス</b><br>
+　作者 ：<b>エル</b><br>
+　ジャンル ：<b>ゴメスゲー</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱5技4語10演5斬7遊5笑10猥3酷6他2]</h4>　ゴメスが好きになるかもね。って感じ。(モルゲンレーテ/性別不明/26歳 ～ 30歳)<br><br><h4>[熱5技5語6演6斬9遊5笑7猥0酷10他2]</h4>　タイトルに違わずゴメス尽くしの恋愛アドベンチャー。内容は極めて典型的なギャルゲー。RPGツクール製のアドベンチャーの限界ではあるが、バックログがないことは辛い。こういったゲームにおいて、キャラクターのグラフィックがどれだけプレイ中の熱中度に寄与しているのかを思い知らされた。しかし、典型的なギャルゲーの筋をゴメスたちによってなぞることで、乾いた笑いを提供していることは確か。本作品は未完成品であり、かなり唐突な部分で終わりが来ることに注意。(-/女性/0歳 ～ 10歳)<br><br><br>
+<b>【寄せられたコメント】</b>　全部piaiするために精神力が上昇する装備をください　<b>/</b>　ますますゴメスが好きになった。　<b>/</b>　どうしてこんなに頑張っちゃったの(褒め言葉)　<b>/</b>　まさにゴメス好きに送るゴメスゲーでした。物語に引き込まれると、感覚がマヒして自然に見えて恐ろしいです　<b>/</b>　おじちゃんばっかりだった☆
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i027.png" width="32" height="32"></th>
+		<td class="red" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【44位】</font>
+		<font style="font-size:140%;">No.027 アブソーバーヒストリー</font>
+		( 合計点 <b>150.2 </b> pt / <b>20</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>13</b> pt + 
+		技 <b>22</b> pt +
+		語 <b>9</b> pt +
+		演 <b>31</b> pt +
+		斬 <b>12</b> pt +
+		遊 <b>42</b> pt +
+		笑 <b>7</b> pt +
+		猥 <b>4</b> pt +
+		酷 <b>7</b> pt +
+		他 <b>3.2 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s027a1.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=027&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/dLhCVvs" target="_blank">投票結果</a></h3>
+　ツール ： <b>RPGツクール2000</b><br>
+　作者 ：<b>女体化ダークメカアレックス</b><br>
+　ジャンル ：<b>動くＲＰＧ</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱7技7語7演9斬7遊7笑1猥1酷1他2]</h4>　チャックが主人公の自作戦闘ゲームです。敵もチャックもすっごく動くので面白いです。ただ、チャックといえばアブソーブであるのですが、そのアブソーブによる吸い取りがほぼMP回復手段でしかないのが残念です。というのもどんなに吸い取っても敵はMP枯渇しないので、そこら辺をもうちょっと練られてたら面白かったかもと思いました。(-/-/-)<br><br><h4>[熱7技7語6演10斬5遊8笑8猥2酷2他4]</h4>　ドット絵がよく動く自作戦闘は素晴らしい サクッと遊べる楽しい短編なのでおすすめです(noname/男性/21歳 ～ 25歳)<br><br><h4>[熱7技8語8演10斬8遊8笑8猥5酷5他2]</h4>　HP吸収の魔法具現化アブソリュート(チャックくん)が、バラエティ豊かな他の魔法キャラクターから吸収した技能力を駆使して、何人ものボスを倒していく自作戦闘ゲーム。最大限の売りはやっぱり自作アニメで、グラフィックの部分に手間暇かけているのがわかる。敵も主人公のドットピクチャーが滑らかに動いて楽しいし、対戦できるキャラクターの数も多く、お手ごろなバランスで短時間がっつり遊びつくせます。彼らのさらなる活躍を期待します。(-/-/-)<br><br><br>
+<b>【寄せられたコメント】</b>　すっごい動くYO!　<b>/</b>　ヌルヌル動く魅力的なドット絵に自作戦闘、楽しい作品でした　<b>/</b>　マイナーキャラへの愛を感じる　<b>/</b>　自分の好き×好きでゲーム作る姿勢は好感度をもてます。チャックくんぬいぐるみっぽいですよね。アニメーションかっこいい。　<b>/</b>　シンプルだけど楽しい自作戦闘でした。個性豊かな敵キャラが面白い!
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i076.png" width="32" height="32"></th>
+		<td class="white" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【45位】</font>
+		<font style="font-size:140%;">No.076 ほのぼのねこねこ～核にゃんと霊にゃんのにゃんにゃん物語だにゃん♪～</font>
+		( 合計点 <b>148.6 </b> pt / <b>16</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>12</b> pt + 
+		技 <b>8</b> pt +
+		語 <b>11</b> pt +
+		演 <b>11</b> pt +
+		斬 <b>11</b> pt +
+		遊 <b>11</b> pt +
+		笑 <b>14</b> pt +
+		猥 <b>52</b> pt +
+		酷 <b>15</b> pt +
+		他 <b>3.6 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s076a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=076&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/ji4A8Ym" target="_blank">投票結果</a></h3>
+　ツール ： <b>RPGツクール2000</b><br>
+　作者 ：<b>あいうえお</b><br>
+　ジャンル ：<b>見るゲ</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱6技6語8演10斬6遊6笑6猥7酷7他3]</h4>　猫キャラ達のほのぼの生活見るゲ。おまけ短編にボリュームがあり。レイズⅡ(霊ニャン)のお絵かき絵が面白い。クレヨン色っぽく淡いせいか、作者自身も楽しそうに作っている感じが伝わってきました。子供の紙芝居みたいな進行演出がお手製感が溢れてオリジナリティがあると思います。バリア三姉妹の絡みもほのぼの～。(-/-/-)<br><br><br>
+<b>【寄せられたコメント】</b>　猫キャラは正義なのです。　<b>/</b>　作風が可愛い 絵も可愛い 紙芝居のとこが好き　<b>/</b>　霊ニャンかわいいですにゃん
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i074.png" width="32" height="32"></th>
+		<td class="white" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【46位】</font>
+		<font style="font-size:140%;">No.074 ライチのぼうけん</font>
+		( 合計点 <b>145.5 </b> pt / <b>16</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>9</b> pt + 
+		技 <b>6</b> pt +
+		語 <b>8</b> pt +
+		演 <b>9</b> pt +
+		斬 <b>11</b> pt +
+		遊 <b>8</b> pt +
+		笑 <b>33</b> pt +
+		猥 <b>6</b> pt +
+		酷 <b>54</b> pt +
+		他 <b>1.5 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s074a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=074&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/a2Qzf06" target="_blank">投票結果</a></h3>
+　ツール ： <b>2003</b><br>
+　作者 ：<b>たけ</b><br>
+　ジャンル ：<b>ｋｓｇ</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱4技4語4演9斬4遊4笑7猥1酷9他0]</h4>　立ち絵がない結果がアレなんだよ・・・コレは・・・(-/-/-)<br><br><h4>[熱3技2語3演3斬5遊3笑5猥2酷7他0]</h4>　2003製短篇デフォ戦。スターライトⅠのバトルアニメは必見!!(-/-/-)<br><br><br>
+<b>【寄せられたコメント】</b>　Lv2でおわるゲームは多分これだけ!!　<b>/</b>　2003デフォ戦でも楽しく遊べました!　<b>/</b>　2003のデフォ戦がすばらしかった。これは万人にオススメできるぞ超展開に感動した。船のふいんきが最高でやる気のなさに泣けた。エンディングでなにか大切なものを失った気持ちにさせられたたた
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i031.png" width="32" height="32"></th>
+		<td class="red" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【47位】</font>
+		<font style="font-size:140%;">No.031 独白◆幻肢痛と薔薇に心捧ぐ</font>
+		( 合計点 <b>143.7 </b> pt / <b>15</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>10</b> pt + 
+		技 <b>10</b> pt +
+		語 <b>10</b> pt +
+		演 <b>12</b> pt +
+		斬 <b>10</b> pt +
+		遊 <b>10</b> pt +
+		笑 <b>39</b> pt +
+		猥 <b>16</b> pt +
+		酷 <b>26</b> pt +
+		他 <b>0.7 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s031a1.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=031&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/iNWJd72" target="_blank">投票結果</a></h3>
+　ツール ： <b>2000</b><br>
+　作者 ：<b>ざるそば</b><br>
+　ジャンル ：<b>代理ksg</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱9技5語5演9斬9遊10笑10猥1酷10他1]</h4>　代理投下であるため、ksgが3セット入ってます。特に一番下は本当にどういう発想したらそうなるんだって思いましたwwwwwwww(-/-/-)<br><br><h4>[熱3技6語3演5斬6遊3笑6猥2酷6他0]</h4>　のっきゅんがいっぱい出ます。(-/-/-)<br><br><h4>[熱5技6語7演7斬6遊5笑7猥7酷9他0]</h4>　ダー惚が閉鎖的な屋敷の中で数多くの兄弟と共同生活を送りながら死屍累々の歪んだ幼少青年期を送る見るゲはよ。はよ。(Hiro/男性/26歳 ～ 30歳)<br><br><h4>[熱3技2語4演4斬2遊3笑2猥4酷5他0]</h4>　エターなった作品の代理ゲー。短い。(愛の使者/男性/31歳 ～ 40歳)<br><br><br>
+<b>【寄せられたコメント】</b>　一番下のアレックスは反則wwwwwwwwwwww　<b>/</b>　ひどさ爆誕　<b>/</b>　演出がだんだんうまくなってるなぁ。　<b>/</b>　最後のアレックスに笑ったwwwwwwwww　<b>/</b>　ダー惚誕生秘話はどうなったんですかァーーーッ!!??
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i069.jpg" width="32" height="32"></th>
+		<td class="red" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【48位】</font>
+		<font style="font-size:140%;">No.069 三行でわかるキャッペソフト</font>
+		( 合計点 <b>138.2 </b> pt / <b>9</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>2</b> pt + 
+		技 <b>4</b> pt +
+		語 <b>60</b> pt +
+		演 <b>7</b> pt +
+		斬 <b>10</b> pt +
+		遊 <b>6</b> pt +
+		笑 <b>10</b> pt +
+		猥 <b>7</b> pt +
+		酷 <b>32</b> pt +
+		他 <b>0.2 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s069a.jpg" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=069&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/cVKNF0s" target="_blank">投票結果</a></h3>
+　ツール ： <b>RPGツクール2000</b><br>
+　作者 ：<b>マーベルキャプテンペガサス・アルティメットクリムゾン零式・ハイパーアンリミテッドエディションType：G ◆do7wOyQeJk</b><br>
+　ジャンル ：<b>過去作品紹介</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱0技2語0演2斬2遊0笑2猥2酷3他0]</h4>　作者の過去ゲー紹介ksg。(愛の使者/男性/31歳 ～ 40歳)<br><br><br>
+<b>【寄せられたコメント】</b>　本当に3行で紹介するだけ。なのでコメント不能。
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i067.png" width="32" height="32"></th>
+		<td class="red" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【49位】</font>
+		<font style="font-size:140%;">No.067 もしも in Real World　 ～アベ・レクイエム～</font>
+		( 合計点 <b>136.2 </b> pt / <b>10</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>10</b> pt + 
+		技 <b>12</b> pt +
+		語 <b>14</b> pt +
+		演 <b>14</b> pt +
+		斬 <b>12</b> pt +
+		遊 <b>15</b> pt +
+		笑 <b>24</b> pt +
+		猥 <b>6</b> pt +
+		酷 <b>26</b> pt +
+		他 <b>3.2 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s067a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=067&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/2V96y6F" target="_blank">投票結果</a></h3>
+　ツール ： <b>RPGツクール2000</b><br>
+　作者 ：<b>ゾマホン</b><br>
+　ジャンル ：<b>反社会ウルトラポリティカル選挙ＲＰＧ</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱6技6語8演8斬7遊4笑9猥4酷9他5]</h4>　時事ネタ、ちょちょい不謹慎系の自作戦闘ゲー。しかし未完成。(愛の使者/男性/31歳 ～ 40歳)<br><br><br>
+<b>【寄せられたコメント】</b>　アベックス何しにきたんだwwwwwwwww　<b>/</b>　完成版に期待安倍。　<b>/</b>　これはひどい。
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i025.png" width="32" height="32"></th>
+		<td class="red" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【50位】</font>
+		<font style="font-size:140%;">No.025 SEPPUKU</font>
+		( 合計点 <b>134.8 </b> pt / <b>16</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>24</b> pt + 
+		技 <b>24</b> pt +
+		語 <b>12</b> pt +
+		演 <b>11</b> pt +
+		斬 <b>20</b> pt +
+		遊 <b>8</b> pt +
+		笑 <b>14</b> pt +
+		猥 <b>4</b> pt +
+		酷 <b>14</b> pt +
+		他 <b>3.8 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s025a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=025&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/iTBgNMe" target="_blank">投票結果</a></h3>
+　ツール ： <b>2000</b><br>
+　作者 ：<b>Ｋ・Ｒ・シュタインベルク</b><br>
+　ジャンル ：<b>切腹ＳＬＧ</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱8技8語5演5斬8遊3笑5猥1酷5他2]</h4>　某SLGをインスパイアした作品です。ちょっと言葉で説明するのが難しいのでとにかくSLGが好きな人にはオススメです。(-/-/-)<br><br><h4>[熱8技8語8演8斬6遊7笑7猥1酷0他5]</h4>　(作者にとって)シンプルな選択肢インターフェイスで進む信○の野望もどき。できれば選択肢じゃなくアイコン方式のインターフェイスにして欲しかったがそれは贅沢かもしれない。このゲームの面白いところは「恥」の概念であり、有能な味方の恥をそそぐチャンスを戦場ではこしらえてやり、敵には計略で恥をかかせて自滅を誘い、使い捨てたい人材は部隊壊滅前提のかませ犬(攻略時)や張子の虎(防衛時)等あえて損な役回りを戦場で与えたりして一方的にハラキリに導く。この手のゲームに良くある「数でのゴリ押し」ではなく人物のメンタル面に気を配った戦略や戦術をプレイヤーに工夫させる試みは斬新であり、またリアルでもある。(この祭りに参加した一個人/女性/26歳 ～ 30歳)<br><br><h4>[熱9技6語5演3斬6遊4笑7猥3酷7他3]</h4>　カルト的迷作HARAKIRIインスパイアの歴史系SLG。もしもキャラも出るよ!(愛の使者/男性/31歳 ～ 40歳)<br><br><br>
+<b>【寄せられたコメント】</b>　おもすれー^q^　<b>/</b>　切腹丸　<b>/</b>　RPGツクール2000でノブヤボ系戦略SLGという夢を叶えて下さった作者様に感謝です!
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i060.png" width="32" height="32"></th>
+		<td class="white" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【51位】</font>
+		<font style="font-size:140%;">No.060 もしもアレックスだけだったら</font>
+		( 合計点 <b>123.7 </b> pt / <b>15</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>10</b> pt + 
+		技 <b>6</b> pt +
+		語 <b>6</b> pt +
+		演 <b>6</b> pt +
+		斬 <b>8</b> pt +
+		遊 <b>8</b> pt +
+		笑 <b>10</b> pt +
+		猥 <b>6</b> pt +
+		酷 <b>63</b> pt +
+		他 <b>0.7 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s060a.jpg" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=060&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/j0ok58i" target="_blank">投票結果</a></h3>
+　ツール ： <b>ツクール2000</b><br>
+　作者 ：<b>グヤビーン</b><br>
+　ジャンル ：<b>もしも(やるゲ)</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱5技0語0演3斬7遊3笑3猥0酷10他1]</h4>　敢えて言わせてもらおう…なにこれ(アレックス/男性/0歳 ～ 10歳)<br><br><h4>[熱3技2語2演3斬3遊1笑3猥1酷7他0]</h4>　いわゆる典型的なksg。(愛の使者/男性/31歳 ～ 40歳)<br><br><br>
+<b>【寄せられたコメント】</b>　　<b>/</b>　典型的ksg。最後にしれっとタイトル詐欺したのに笑った。
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i041.png" width="32" height="32"></th>
+		<td class="red" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【52位】</font>
+		<font style="font-size:140%;">No.041 Cancel or die</font>
+		( 合計点 <b>119.8 </b> pt / <b>16</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>8</b> pt + 
+		技 <b>8</b> pt +
+		語 <b>8</b> pt +
+		演 <b>8</b> pt +
+		斬 <b>10</b> pt +
+		遊 <b>9</b> pt +
+		笑 <b>11</b> pt +
+		猥 <b>6</b> pt +
+		酷 <b>51</b> pt +
+		他 <b>0.8 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s041a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=041&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/gowB9mx" target="_blank">投票結果</a></h3>
+　ツール ： <b>RPGツクール2000</b><br>
+　作者 ：<b>ユニバーサル絶叫兄弟</b><br>
+　ジャンル ：<b>エキセントリック代理ksg</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱10技5語0演5斬5遊0笑10猥10酷10他1]</h4>　ランク付けしちゃだめだ(ちんこっこ/男性/21歳 ～ 25歳)<br><br><h4>[熱8技8語7演10斬8遊5笑8猥5酷10他1]</h4>　*このレビューはキャンセルされました*VIPRPG界のファッキン嬢が司会となり、自己中、一方通行、やりたい放題の進行で、プレイヤーの時間を視姦する昼ドラマ。とはいえマイナーからメジャーまで幅広くキャラクターが生け贄になってくれる独特の楽しさがありました。でも彼女の喋ってる内容は理解できませんでしたのだ。(-/-/-)<br><br><h4>[熱5技4語4演5斬3遊4笑7猥2酷5他2]</h4>　テンポよく楽しめたけどちょっと惜しい出来人を選ぶと思うが自分は楽しめた(-/男性/26歳 ～ 30歳)<br><br><br>
+<b>【寄せられたコメント】</b>　これひど　<b>/</b>　言葉にできない　<b>/</b>　相変わらずのキャンセルさん　<b>/</b>　やっぱりキャンセルさんはこうでなくっちゃ!悪逆非道メシウマ。鬼畜ファッキン楽しそうでなによりですw　<b>/</b>　キャンセルさん大暴走。まさにksgといったイメージでした。　<b>/</b>　ムービー多すぎ&amp;ネタのチョイスにワロタ本スレのネタが使われてたりと演出が上手く、テンポも良かったただ、キャンセルがウザいだけのキャラだったのでもうちょっと極悪でもよかったかもしれない　<b>/</b>　これひど
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/yomu.png" width="32" height="32"></th>
+		<td class="red" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【53位】</font>
+		<font style="font-size:140%;">No.093 Into the Lilizm</font>
+		( 合計点 <b>114.2 </b> pt / <b>10</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>6</b> pt + 
+		技 <b>6</b> pt +
+		語 <b>10</b> pt +
+		演 <b>7</b> pt +
+		斬 <b>8</b> pt +
+		遊 <b>8</b> pt +
+		笑 <b>5</b> pt +
+		猥 <b>56</b> pt +
+		酷 <b>7</b> pt +
+		他 <b>1.2 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s093a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new"><dl><h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=093&amp;tpl=view2">作品紹介</a></h3><p>制限された内容</p></dl></div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/pzl.png" width="32" height="32"></th>
+		<td class="red" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【54位】</font>
+		<font style="font-size:140%;">No.075 安心安全マインスイーパ</font>
+		( 合計点 <b>114.1 </b> pt / <b>12</b> 票 / <b>遅刻提出</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>13</b> pt + 
+		技 <b>39</b> pt +
+		語 <b>6</b> pt +
+		演 <b>10</b> pt +
+		斬 <b>12</b> pt +
+		遊 <b>16</b> pt +
+		笑 <b>8</b> pt +
+		猥 <b>4</b> pt +
+		酷 <b>5</b> pt +
+		他 <b>1.1 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s075a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=075&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/5aYaU9v" target="_blank">投票結果</a></h3>
+　ツール ： <b>2000</b><br>
+　作者 ：<b>カッチンコッチンコ</b><br>
+　ジャンル ：<b>パズル</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱10技10語5演5斬9遊10笑5猥5酷5他2]</h4>　初心者にも優しいマインスイーパー(緑キャラゲーパズル色の高い問題モードもあるので頭の体操にもってこい。暇に気がつくと、ぷちぷちプレイしてしまう中毒性は完全再現されていますね。仲間サポートは点数デメリット含みでしたが、持てる駒をすべて使用して挑戦できる高難易度モードもあってほしかったかも?いろいろ各種システムを自由に使いまわして遊び尽くしたかったです。(-/-/-)<br><br><h4>[熱7技6語2演3斬3遊5笑2猥3酷2他1]</h4>　ウィンドウズ付属のパズルゲーム、マインスイーパのクローン。お助けキャラありで親切設計。(愛の使者/男性/31歳 ～ 40歳)<br><br><br>
+<b>【寄せられたコメント】</b>　ぷちぷち楽しい。セフィーナちゃん乙　<b>/</b>　痒いところに手が届くマインスイーパ
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i056.png" width="32" height="32"></th>
+		<td class="white" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【55位】</font>
+		<font style="font-size:140%;">No.056 マーミア式Ｋｓｇコレクション</font>
+		( 合計点 <b>113.8 </b> pt / <b>10</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>7</b> pt + 
+		技 <b>5</b> pt +
+		語 <b>8</b> pt +
+		演 <b>7</b> pt +
+		斬 <b>14</b> pt +
+		遊 <b>8</b> pt +
+		笑 <b>10</b> pt +
+		猥 <b>6</b> pt +
+		酷 <b>48</b> pt +
+		他 <b>0.8 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s056a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=056&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/2F59dAV" target="_blank">投票結果</a></h3>
+　ツール ： <b>RPGツクール２０００</b><br>
+　作者 ：<b>マーミア副部長</b><br>
+　ジャンル ：<b>Ｋｓｇコレクション</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱5技5語5演10斬10遊5笑10猥5酷10他1]</h4>　コイツァできるぜ。(気になる名無しさん/-/年齢不明)<br><br><h4>[熱2技2語2演2斬4遊2笑3猥2酷5他0]</h4>　作者が前面に出た俺コレ系ksg集。(愛の使者/男性/31歳 ～ 40歳)<br><br><br>
+<b>【寄せられたコメント】</b>　作者ワロスwww　<b>/</b>　作者が体を張っている　<b>/</b>　超もしものハイテンション&amp;ハイスピードの展開が面白かったぜ。ブライアンの文字にはちょっとだけ感動。イェイ　<b>/</b>　青春の甘酸っぱい香りがする。
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i024_1.png" width="32" height="32"></th>
+		<td class="white" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【56位】</font>
+		<font style="font-size:140%;">No.024 VIPツクスレ 勝手に新人賞授賞式’12</font>
+		( 合計点 <b>111.1 </b> pt / <b>27</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>10</b> pt + 
+		技 <b>10</b> pt +
+		語 <b>13</b> pt +
+		演 <b>35</b> pt +
+		斬 <b>10</b> pt +
+		遊 <b>11</b> pt +
+		笑 <b>10</b> pt +
+		猥 <b>4</b> pt +
+		酷 <b>6</b> pt +
+		他 <b>2.1 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s024a1.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=024&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/adZygA7" target="_blank">投票結果</a></h3>
+　ツール ： <b>2000</b><br>
+　作者 ：<b>トカゲのしっぽな</b><br>
+　ジャンル ：<b>みるksg</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱2技2語5演5斬2遊2笑1猥1酷2他0]</h4>　もしも系のキャラクターで2012年にホコグラ顔グラが、みんなが使える状態(=スレにうp)になっているキャラクターの紹介となっています。スレのもしも系の一年とニュース的な一年を振り返るのにオヌヌヌ(-/-/-)<br><br><h4>[熱8技8語5演10斬8遊0笑0猥0酷0他1]</h4>　2012年のキャラクターを振り返るTV企画。月ごとの時事と一緒に、あなたの一年間を総決算します。めでてぇ(-/-/-)<br><br><h4>[熱7技9語7演10斬7遊8笑7猥2酷0他1]</h4>　ツクスレ新人賞も紅白の常連に感じられてきた2012年でありましたが、今年の演出はとにかくその細かさと充実感に圧倒されるものがありました。そのため、ツクスレの一年を振り返る作品であるという以上に見るゲとして高い完成度を誇るものであったように思います。新人賞の人選についても、極めて納得のゆくものでありました。(Hiro/男性/26歳 ～ 30歳)<br><br><br>
+<b>【寄せられたコメント】</b>　2012年こんなにいたのか　<b>/</b>　今年も色々あったなあ　<b>/</b>　これは毎年やってほしいレベル　<b>/</b>　こういう劇場型の見るゲは楽しいですよね　<b>/</b>　テレビ番組のようにツクスレや世間の一年を振り返るゲーム。演出等から溢れ出るテレビ番組感が好きです。　<b>/</b>　本当にテレビ番組であるかのような演出の充実度が素晴らしかったです。
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/hatena.png" width="32" height="32"></th>
+		<td class="red" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【57位】</font>
+		<font style="font-size:140%;">No.021 THE　運ゲー　～地底に沈んだ魔王城～</font>
+		( 合計点 <b>108.8 </b> pt / <b>10</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>4</b> pt + 
+		技 <b>6</b> pt +
+		語 <b>48</b> pt +
+		演 <b>2</b> pt +
+		斬 <b>7</b> pt +
+		遊 <b>9</b> pt +
+		笑 <b>5</b> pt +
+		猥 <b>7</b> pt +
+		酷 <b>20</b> pt +
+		他 <b>0.8 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s021a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=021&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/2eKa2wf" target="_blank">投票結果</a></h3>
+　ツール ： <b>2k</b><br>
+　作者 ：<b>エターナラー2世</b><br>
+　ジャンル ：<b>超過激スカトロ系AV</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱0技0語0演0斬0遊0笑1猥0酷3他1]</h4>　ひどい(-/-/21歳 ～ 25歳)<br><br><h4>[熱10技5語10演10斬6遊8笑8猥6酷8他3]</h4>　えっちでカオスなゲームが遊びたい方は是非(noname/男性/21歳 ～ 25歳)<br><br><br>
+<b>【寄せられたコメント】</b>　オメデトー　<b>/</b>　釣られたわざわざツクールで中身確認したのにひどい　<b>/</b>　適度なホラーにエロさ、見ていて楽しいです　<b>/</b>　ほっかいどうはでっかいどう!　<b>/</b>　このシステムは必見!未PIAIの人は絶対やるべし!!やらなきゃ死ぬ!!111
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i048_1.gif" width="32" height="32"></th>
+		<td class="white" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【58位】</font>
+		<font style="font-size:140%;">No.048 射撃</font>
+		( 合計点 <b>108.8 </b> pt / <b>18</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>10</b> pt + 
+		技 <b>18</b> pt +
+		語 <b>8</b> pt +
+		演 <b>12</b> pt +
+		斬 <b>10</b> pt +
+		遊 <b>18</b> pt +
+		笑 <b>10</b> pt +
+		猥 <b>13</b> pt +
+		酷 <b>7</b> pt +
+		他 <b>2.8 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s048a1.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=048&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/eb5RwGH" target="_blank">投票結果</a></h3>
+　ツール ： <b>RPGツクール2000</b><br>
+　作者 ：<b>sinkai</b><br>
+　ジャンル ：<b>STGミニゲーム</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱9技7語1演9斬5遊7笑1猥1酷1他1]</h4>　せまりくる水晶を射撃をしてハイスコアを狙うゲームなのですが・・・複数ステージや、ハイスコアを目指した先が欲しかったですね。(-/-/-)<br><br><h4>[熱4技6語0演5斬6遊6笑0猥0酷0他1]</h4>　キャラ動作によるシューティングゲームであったので、操作のとっつきやすさは高かったです。他方でステージ構成にランダム性がほとんどなかったように感じられましたので、バリエーション面での充実が欲しかったとも思います。(Hiro/男性/26歳 ～ 30歳)<br><br><h4>[熱3技5語0演6斬4遊4笑1猥2酷3他0]</h4>　キャラ単位移動の横スクロールSTG。タイム・スコアアタックモードのみ。(愛の使者/男性/31歳 ～ 40歳)<br><br><br>
+<b>【寄せられたコメント】</b>　パリンパリン割るのが楽しい　<b>/</b>　アイスさん舐めたい　<b>/</b>　シンプルで楽しい射撃ゲーでした。　<b>/</b>　じつは密かに一番楽しみにしていた、ぽっと(ryこの射撃はシンプルな作りなぶん、けっこう参考になるかも　<b>/</b>　シンプルで遊びやすいシューティングゲームでした。
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i068_1.gif" width="32" height="32"></th>
+		<td class="white" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【59位】</font>
+		<font style="font-size:140%;">No.068 QuizMaogunAcademy</font>
+		( 合計点 <b>108.5 </b> pt / <b>17</b> 票 / <b>遅刻提出</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>11</b> pt + 
+		技 <b>12</b> pt +
+		語 <b>10</b> pt +
+		演 <b>12</b> pt +
+		斬 <b>12</b> pt +
+		遊 <b>37</b> pt +
+		笑 <b>6</b> pt +
+		猥 <b>2</b> pt +
+		酷 <b>6</b> pt +
+		他 <b>0.5 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s068a1.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=068&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/6NApe0R" target="_blank">投票結果</a></h3>
+　ツール ： <b>2000000000</b><br>
+　作者 ：<b>たわし</b><br>
+　ジャンル ：<b>自宅オフライン対戦クイズゲーム</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱6技8語0演5斬7遊5笑2猥0酷0他0]</h4>　某クイズゲーそのまま。未完成のようですが、インターフェース・基本システムは出来上がっていて、一見の価値はあると思います。もしもの祖と言える作品に関する問題が出題されます。(-/-/-)<br><br><h4>[熱10技8語5演9斬8遊10笑1猥1酷1他0]</h4>　RPGツクール&amp;もしもシリーズ特化のクイズゲーム。演出や操作性も快適で、お手軽にVIPRPGの検定が試せる。けっこう引っ掛け問題もあり油断しているとやられる。とはいえ意地悪な問題は少なく、二択なので何回か数をこなせばAランクは狙える。問題数は意外と多いらしく、ときどき不意打ちのように見慣れない難問が飛び出してくるのでけっこう一筋縄ではいかない。選択キャラもランダム性でくり返しにも対応していてプレイ感度良好でした。(-/-/-)<br><br><br>
+<b>【寄せられたコメント】</b>　形式・ジャンルが少なすぎてなんとも言えない　<b>/</b>　全問いけそうでいけないもどかしさ。頑張ろう　<b>/</b>　演出とかがそれっぽいいいクイズゲーうちのパソコンが低スペックすぎて遊びきれなかったのが残念。
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i028.png" width="32" height="32"></th>
+		<td class="white" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【60位】</font>
+		<font style="font-size:140%;">No.028 飢えるハーナス　勝手に続き</font>
+		( 合計点 <b>106.3 </b> pt / <b>6</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>6</b> pt + 
+		技 <b>6</b> pt +
+		語 <b>12</b> pt +
+		演 <b>9</b> pt +
+		斬 <b>11</b> pt +
+		遊 <b>8</b> pt +
+		笑 <b>10</b> pt +
+		猥 <b>8</b> pt +
+		酷 <b>36</b> pt +
+		他 <b>0.3 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s028b1.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=028&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/cBs0fbR" target="_blank">投票結果</a></h3>
+　ツール ： <b>VX Ace</b><br>
+　作者 ：<b>ハー芋</b><br>
+　ジャンル ：<b>真の愛を探し求めるRPG(見るゲ)</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱1技1語8演4斬7遊4笑1猥1酷10他0]</h4>　スレに投下された衝撃的な作品である、「飢えるハーナス」の別作者によるゲームです。より衝撃的でより酷いものになってるとおもいます。本当にどうしてこうなった。(-/-/-)<br><br><br>
+<b>【寄せられたコメント】</b>(コメントなし)
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i065.png" width="32" height="32"></th>
+		<td class="red" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【61位】</font>
+		<font style="font-size:140%;">No.065 ファイアーエンブレム　もしもの神　未完成版</font>
+		( 合計点 <b>105.6 </b> pt / <b>5</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>14</b> pt + 
+		技 <b>36</b> pt +
+		語 <b>11</b> pt +
+		演 <b>8</b> pt +
+		斬 <b>12</b> pt +
+		遊 <b>11</b> pt +
+		笑 <b>6</b> pt +
+		猥 <b>2</b> pt +
+		酷 <b>4</b> pt +
+		他 <b>1.6 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s065a.jpg" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=065&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/eDP7lI3" target="_blank">投票結果</a></h3>
+　ツール ： <b>RPGツクールXP</b><br>
+　作者 ：<b>nagatuki</b><br>
+　ジャンル ：<b>SRPG</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱7技9語6演5斬1遊7笑3猥1酷2他1]</h4>　未完成ではありますが、SRPG好きにはオススメの作品です。SRPGが得意じゃない人用の難易度もあるので、思う存分楽しめるとおもいます。(-/-/-)<br><br><h4>[熱9技9語8演9斬8遊10笑7猥1酷1他2]</h4>　ファイアーエムブレムをとても気軽に遊べるようにした作品です。VIPRPGの雰囲気が好きでファイアーエムブレムをやったことがある人なら楽しめます。最高難易度以外はキャラクターが死んでも次のマップで生き返るのでSRPGが苦手な人も詰んでしまうこともないと思います。(nobu/男性/31歳 ～ 40歳)<br><br><h4>[熱7技7語5演3斬6遊4笑2猥1酷3他1]</h4>　FE形式のSRPG。XP製。(愛の使者/男性/31歳 ～ 40歳)<br><br><br>
+<b>【寄せられたコメント】</b>　完成に期待しています　<b>/</b>　ツクールとFEとVIPRPGの雰囲気が一度に楽しめました。
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i090.png" width="32" height="32"></th>
+		<td class="white" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【62位】</font>
+		<font style="font-size:140%;">No.090 R＆W2012　ksg -Ⅹ-</font>
+		( 合計点 <b>103.8 </b> pt / <b>16</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>10</b> pt + 
+		技 <b>10</b> pt +
+		語 <b>10</b> pt +
+		演 <b>10</b> pt +
+		斬 <b>11</b> pt +
+		遊 <b>10</b> pt +
+		笑 <b>20</b> pt +
+		猥 <b>8</b> pt +
+		酷 <b>14</b> pt +
+		他 <b>0.8 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s090a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=090&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/6g06O3n" target="_blank">投票結果</a></h3>
+　ツール ： <b>2000</b><br>
+　作者 ：<b>グんだるーん</b><br>
+　ジャンル ：<b>ksg(ほぼ見るゲ)</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱5技5語5演5斬5遊5笑7猥5酷8他1]</h4>　バラエティ豊かなksg10個入り。ムカデ娘がかわいい。ムカデ娘がかわいい。ディオナとリリアのお話。バリア仲間のお話。ヘル様とウィンドのお話。などなど。(-/-/-)<br><br><h4>[熱4技4語5演4斬3遊6笑6猥2酷6他2]</h4>　良いksg短編集(-/男性/26歳 ～ 30歳)<br><br><br>
+<b>【寄せられたコメント】</b>　一年いろいろありました。ギギギg　<b>/</b>　ディオナの動きの変態っぷりと食用ゴメスのシンプルさで笑いました。　<b>/</b>　自分が取った安価があって笑った　<b>/</b>　ksgらしいksg短編集だったテンポもいいし、キャラも意外な使われ方をしていたりして楽しめたおまけとかあると良かったかな
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/miru.png" width="32" height="32"></th>
+		<td class="red" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【63位】</font>
+		<font style="font-size:140%;">No.081 奔走するナイ様の死闘</font>
+		( 合計点 <b>99.4 </b> pt / <b>16</b> 票 / <b>遅刻提出</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>10</b> pt + 
+		技 <b>8</b> pt +
+		語 <b>13</b> pt +
+		演 <b>10</b> pt +
+		斬 <b>9</b> pt +
+		遊 <b>10</b> pt +
+		笑 <b>12</b> pt +
+		猥 <b>16</b> pt +
+		酷 <b>10</b> pt +
+		他 <b>1.4 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s081a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=081&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/i3EPbsv" target="_blank">投票結果</a></h3>
+　ツール ： <b>2000</b><br>
+　作者 ：<b>デスダークネスΩ</b><br>
+　ジャンル ：<b>見るゲ</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱3技2語4演2斬3遊3笑3猥2酷3他0]</h4>　ナイ軍メインの短篇見るゲ。(-/-/-)<br><br><br>
+<b>【寄せられたコメント】</b>　カーバンクルをもふもふしたい　<b>/</b>　ほのぼのとした中、行動動機以外は殺伐とした娘様が良い意味で酷い。いいほのぼのもしも見るゲ―でした。　<b>/</b>　ナイ様の頼れるリーダーっぷり。冥界とも親交深いのね核爆お花エンドかと思ったぜ　<b>/</b>　ガチのバトル展開かと思いきや意外とほのぼの。
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i008.png" width="32" height="32"></th>
+		<td class="white" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【64位】</font>
+		<font style="font-size:140%;">No.008 もしもアンデッドナイがRPGツクール2003varue+がナイことに怒ったら</font>
+		( 合計点 <b>97.5 </b> pt / <b>14</b> 票 / <b>遅刻提出</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>10</b> pt + 
+		技 <b>8</b> pt +
+		語 <b>10</b> pt +
+		演 <b>9</b> pt +
+		斬 <b>8</b> pt +
+		遊 <b>10</b> pt +
+		笑 <b>12</b> pt +
+		猥 <b>8</b> pt +
+		酷 <b>22</b> pt +
+		他 <b>0.5 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s008a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=008&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/9EveEE4" target="_blank">投票結果</a></h3>
+　ツール ： <b>焼肉と定食の2000</b><br>
+　作者 ：<b>りすひームーヨンニイチ</b><br>
+　ジャンル ：<b>君とは響きあわないけどたぶんアンデッドナイがエンターブレインと響きあわないゲーム</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱3技4語2演3斬3遊3笑4猥1酷4他0]</h4>　ミニゲームありのデフォ戦。ちなみに2003のexeで起動するとエラー落ちする。(愛の使者/男性/31歳 ～ 40歳)<br><br><br>
+<b>【寄せられたコメント】</b>　日輪剣!　<b>/</b>　割とこれひど系のノリなのにしっかりしているデフォ戦が面白かったです　<b>/</b>　技の解説が独特すぎて吹いたwwwミニゲームもパックマンとかあって面白い。キャラの会話はすさまじく宇宙語だったけど。2003勢に祝福あれ　<b>/</b>　日輪剣!!
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i047.jpg" width="32" height="32"></th>
+		<td class="red" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【65位】</font>
+		<font style="font-size:140%;">No.047 もエロゲ</font>
+		( 合計点 <b>94.9 </b> pt / <b>14</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>16</b> pt + 
+		技 <b>8</b> pt +
+		語 <b>8</b> pt +
+		演 <b>10</b> pt +
+		斬 <b>8</b> pt +
+		遊 <b>7</b> pt +
+		笑 <b>7</b> pt +
+		猥 <b>9</b> pt +
+		酷 <b>20</b> pt +
+		他 <b>1.9 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s047a.jpg" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=047&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/j2eqCFt" target="_blank">投票結果</a></h3>
+　ツール ： <b>2000</b><br>
+　作者 ：<b>ABS</b><br>
+　ジャンル ：<b>異世界飛ばされ系デフォ戦RPG</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱2技2語1演1斬3遊2笑1猥0酷5他0]</h4>　プレイヤーを選ぶデフォ戦ゲーです。導入のあらすじは作者コメントのとおり。(-/-/-)<br><br><h4>[熱3技3語1演1斬1遊1笑1猥0酷10他0]</h4>　壮大なクソゲクソはどれだけ大きくしてもクソであることを体現している最低なシナリオ壊れたゲームバランススカスカなゲーム性ストレスを与えるために作られたとしか思えないダンジョン構成叩くのが目的でこんなことを書いてるんだろうって?そう思うならこのゲームで遊んでみたまえ(-/男性/26歳 ～ 30歳)<br><br><h4>[熱10技8語6演10斬9遊4笑5猥5酷8他3]</h4>　カルト的な面白さを秘めたフリーシナリオRPG。VIPRPGの殆どの女性キャラを仲間としてつかえる男一匹ハーレム。ロサマガの比でない理不尽な戦闘バランスを越え、プレイヤーの一人がLv40越えを果たしたとき、このゲームのRPG的楽しさが始まる。プレイヤーの与ダメージ「100桁」敵最大HP「10000桁」の雑魚敵がわんさかのぶっ壊れた調整なので鎌装備のキャラで即死狙いをするのが吉。このように「ゲームを遊べる舞台」に立つまでの敷居が尋常じゃないくらい高いので、本体容量よろしく多くの人を篩落とす結果になっていると思われる。表の世界(もしも界)と裏の世界(異世界)が入り混じる複雑怪奇なワールド設定で、街や洞窟のあちこちに不可視の入り口があるのだがそれを見つけるのも一苦労。中央の塔でサーチスキルを買い、あちこちを探索しよう。はじめの一歩の扉を見つけたとき、あなたは万華鏡の世界に誘われることとなる。(よみよみ/性別不明/年齢不明)<br><br><br>
+<b>【寄せられたコメント】</b>　感想掲示板で言われているようなわかりにくさ等は特に感じなかった。というか、おもしろいじゃないの。要望にあるストーリーの道標的な誘導は必要ないんじゃないかな。自力で探すことが楽しいし、それが苦になる程でもない。　<b>/</b>　二章はすごく楽しめた　<b>/</b>　キャラが多くて良かった　<b>/</b>　空しく虚である世界。人と人の会話も広漠としているぶん、快適さ重視のツクール製作者では敬遠するようなゲーム構成が、逆に発展途上の頃のRPGを思い出させます。粗も多いですが、それ以上に長所も目立つ作品でした。　<b>/</b>　俺は・・このゲームが好きなんだよ!　<b>/</b>　話的にはFFTのインスパイアのようだけど、序盤の伏線が投げっぱなしなところはそれっぽいと思った。
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i049.png" width="32" height="32"></th>
+		<td class="red" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【66位】</font>
+		<font style="font-size:140%;">No.049 ロミくんとジュリちゃん</font>
+		( 合計点 <b>93.7 </b> pt / <b>6</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>7</b> pt + 
+		技 <b>11</b> pt +
+		語 <b>20</b> pt +
+		演 <b>8</b> pt +
+		斬 <b>11</b> pt +
+		遊 <b>6</b> pt +
+		笑 <b>14</b> pt +
+		猥 <b>6</b> pt +
+		酷 <b>8</b> pt +
+		他 <b>2.7 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s049a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=049&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/cWd3EsM" target="_blank">投票結果</a></h3>
+　ツール ： <b>RPGツクール2000</b><br>
+　作者 ：<b>時計歩兵</b><br>
+　ジャンル ：<b>一本道ＲＰＧ</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱10技9語10演6斬6遊6笑8猥6酷6他7]</h4>　オリジナルキャラクター、オリジナル世界観、自作戦闘この3つが揃った作品です。とにかくどういう世界観してるんだと思いたくなるようなくらい登場人物が濃いです。なのですぐに世界観に入り込めると思います。このゲームの自作戦闘には選択肢は3つしかありません。そして二人のステータスは同じなのですが、属性が違います。攻撃にMPが入ります。回復にもMPが入ります。防御すればMPは回復します。弱点をつければ大ダメージを与えられ、そうでなければダメージが半減します。たったこれだけなのですが、戦闘の難易度はなかなかに高いです。二体以上いる場合は上手いことダメージが分散してくれることを祈るしかないです。が、成長要素なんてものはないし、雑魚戦もほぼありません。つまり最初からシナリオを追っていき、その合間合間のボス戦を楽しむといったものになっています。あぁもう文字数がないよとにかくやればいいんd(-/-/-)<br><br><br>
+<b>【寄せられたコメント】</b>　ジュリちゃんまじきtかわいい
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i045_1.png" width="32" height="32"></th>
+		<td class="red" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【67位】</font>
+		<font style="font-size:140%;">No.045 偽装のサーカス</font>
+		( 合計点 <b>90.0 </b> pt / <b>8</b> 票 / <b>遅刻提出</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>8</b> pt + 
+		技 <b>6</b> pt +
+		語 <b>10</b> pt +
+		演 <b>10</b> pt +
+		斬 <b>8</b> pt +
+		遊 <b>6</b> pt +
+		笑 <b>11</b> pt +
+		猥 <b>8</b> pt +
+		酷 <b>22</b> pt +
+		他 <b>1.0 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s045a3.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=045&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/9AnrupL" target="_blank">投票結果</a></h3>
+　ツール ： <b>2000</b><br>
+　作者 ：<b>池田さん</b><br>
+　ジャンル ：<b>シリアスミステリー</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱2技2語3演2斬1遊2笑3猥4酷6他0]</h4>　見るゲ。カオス。(愛の使者/男性/31歳 ～ 40歳)<br><br><br>
+<b>【寄せられたコメント】</b>　クソワロタwww人の黒歴史シナリオの秘密を知ってしまったかのような小っ恥ずかしさ。英字の組織名だしとけばスタイリッシュっぽくね?海外の地名だしとけばワールドワイドっぽくね?みたいな、かっこいい処女作=若気の至り全開のあるあるwっ感がすごい。不思議と精神的ダメージをうけたorz
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i040.png" width="32" height="32"></th>
+		<td class="white" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【68位】</font>
+		<font style="font-size:140%;">No.040 懺悔室</font>
+		( 合計点 <b>89.6 </b> pt / <b>11</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>8</b> pt + 
+		技 <b>9</b> pt +
+		語 <b>12</b> pt +
+		演 <b>12</b> pt +
+		斬 <b>12</b> pt +
+		遊 <b>10</b> pt +
+		笑 <b>10</b> pt +
+		猥 <b>4</b> pt +
+		酷 <b>11</b> pt +
+		他 <b>1.6 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s040a.jpg" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=040&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/bdKUnlk" target="_blank">投票結果</a></h3>
+　ツール ： <b>RPGツクール2000 VALUE！＋</b><br>
+　作者 ：<b>考える名無しさん</b><br>
+　ジャンル ：<b>総集編</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱6技6語9演9斬6遊5笑5猥1酷5他1]</h4>　スレ投下まとめ作品なのですが、やればわかると思いますが、作品ごとのテンション差がすさまじいです。そしてすさまじいです、このキャラクター達への愛が。(-/-/-)<br><br><h4>[熱5技5語7演5斬7遊5笑7猥0酷8他1]</h4>　命や人生、存在理由。そしてお尻の穴について考える短編見るゲ。そこはかとなく博識な香り。この作者さんにしか書けないキャラ語りで進行します。全体的に硬質なかんじで哲学の独特な言い回しでプレイヤーも混乱させるところがいい。問いかけに次ぐ問いかけ。石は自●するかの表現とか上手いとおもいました。詩的なメタファーはSFものでよくありますけど、文の密度が濃すぎると衒学っぽくなるので洒落や崩し、言葉遊びをいれるとゲームらしくなると思いますよ。平易なksg(-/-/-)<br><br><h4>[熱4技7語6演6斬7遊5笑4猥6酷8他0]</h4>　哲学的であるような気がしますが、その手前で何だかよく分からないものにとどまっているようにも思います。(-/男性/26歳 ～ 30歳)<br><br><br>
+<b>【寄せられたコメント】</b>　雰囲気が非常によろしいと思ったらギャップが酷い　<b>/</b>　雰囲気が好きです。　<b>/</b>　メモリストリームさんが幸せになるといいなと思いました　<b>/</b>　灰色の住人がいっぱいだー　<b>/</b>　哲学的な話に考えさせられ、ギャグ話の酷さに笑わされました。　<b>/</b>　何か斜め上方向に突き抜けるようなひどさを覚えた。
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i062.png" width="32" height="32"></th>
+		<td class="white" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【69位】</font>
+		<font style="font-size:140%;">No.062 宝石洞窟</font>
+		( 合計点 <b>82.6 </b> pt / <b>16</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>12</b> pt + 
+		技 <b>12</b> pt +
+		語 <b>6</b> pt +
+		演 <b>9</b> pt +
+		斬 <b>10</b> pt +
+		遊 <b>10</b> pt +
+		笑 <b>8</b> pt +
+		猥 <b>4</b> pt +
+		酷 <b>10</b> pt +
+		他 <b>1.6 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s062a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=062&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/7Psj1zj" target="_blank">投票結果</a></h3>
+　ツール ： <b>2000</b><br>
+　作者 ：<b>しじみ</b><br>
+　ジャンル ：<b>ジュエル倉庫番</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱7技8語1演1斬9遊3笑3猥1酷8他0]</h4>　各ステージの黒以外の宝石を全て消すことでステージクリアとなり、先へ進める倉庫番ゲーです。が、触れたら動くので非常にミスしやすいですし、入る前にセーブを自分でしておかないと詰みます。基本的に下の階層にいくほど色が増えるのですが、上の階層の方が難しいこともあります。ただ、全クリする必要がないので、全クリ特典何かほしいなと思ったりしました。(-/-/-)<br><br><h4>[熱5技4語2演4斬2遊1笑3猥1酷5他0]</h4>　ジャンルの通りです。難易度は易しめ。リトライが付いてないのでハマり注意。(-/男性/26歳 ～ 30歳)<br><br><h4>[熱10技10語5演8斬8遊10笑5猥5酷5他4]</h4>　シンプルさが心地よい。プレイヤーにも優しい作りひんやりとしたカキ氷みたいな雰囲気の音楽世界できんきん色あわせ殆どのステージがゆるやかな難易度の構成なので直感的にパズルを楽しめます(-/-/-)<br><br><br>
+<b>【寄せられたコメント】</b>　何故岩塩を使ったのだ・・・　<b>/</b>　解かなくてもエンディングに直行できるのが潔い　<b>/</b>　岩塩おいしいよね。ピンクソルト　<b>/</b>　宝石を押して同じ色のをくっつけ消すパズルゲーム全体的に可愛らしく、落ち着いた良い雰囲気パズルの難易度は易しいものから難しいものまであり、難しいものが解けると非常に気持ちがいいパズル好きにおすすめパズル部分とksg的ストーリーが完全に分離されているという仕様は少しもったいない感じもした
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i014_1.png" width="32" height="32"></th>
+		<td class="white" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【70位】</font>
+		<font style="font-size:140%;">No.014 AsteDream -もしもエルシャダイがRPGだったら-</font>
+		( 合計点 <b>80.7 </b> pt / <b>9</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>6</b> pt + 
+		技 <b>7</b> pt +
+		語 <b>4</b> pt +
+		演 <b>11</b> pt +
+		斬 <b>10</b> pt +
+		遊 <b>10</b> pt +
+		笑 <b>10</b> pt +
+		猥 <b>10</b> pt +
+		酷 <b>12</b> pt +
+		他 <b>0.7 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s014a1.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=014&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/anVK5RI" target="_blank">投票結果</a></h3>
+　ツール ： <b>RPGツクール2000</b><br>
+　作者 ：<b>くらむぼん</b><br>
+　ジャンル ：<b>ゲーム</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱3技3語3演7斬9遊5笑2猥1酷6他0]</h4>　このゲームはデフォ戦ゲーのような気がしました。そうです。気がしたんです。ですが現実は、見ればわかります。(-/-/-)<br><br><br>
+<b>【寄せられたコメント】</b>　そこで終わりかよwwwwwww　<b>/</b>　背景が中々良かったです。完成期待しています!　<b>/</b>　大丈夫だ。問題ない。
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i087.gif" width="32" height="32"></th>
+		<td class="red" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【71位】</font>
+		<font style="font-size:140%;">No.087 具現体達と散歩道 虹色のコインと謎に包まれし秘宝</font>
+		( 合計点 <b>78.5 </b> pt / <b>11</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>10</b> pt + 
+		技 <b>10</b> pt +
+		語 <b>8</b> pt +
+		演 <b>10</b> pt +
+		斬 <b>10</b> pt +
+		遊 <b>8</b> pt +
+		笑 <b>6</b> pt +
+		猥 <b>8</b> pt +
+		酷 <b>6</b> pt +
+		他 <b>2.5 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s087a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=087&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/hZ815H5" target="_blank">投票結果</a></h3>
+　ツール ： <b>2000</b><br>
+　作者 ：<b>ルズ</b><br>
+　ジャンル ：<b>アドベンチャー</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱8技9語8演10斬9遊7笑5猥7酷5他3]</h4>　ぐる～りと一周できる島を舞台に、全60枚のコインを集めるマップ探索型のやるゲ。自作ドットの「衣服の着せ替え」「釣りの魚収集」などの楽しみがあり、種類も豊富でオリジナルの世界観を歩けます。てくてく一つのイベントを攻略すると、遠隔地の別のイベントがアンロックされる仕組みらしく、歩きながらそれらを探索するのもよし。攻略に迷う地点もままあるので、その場合は「大きな街のギルドorメイドさんの店の占い師」を尋ねると道標がわかり、順を追ってこなせばゲームクリアまでいけると思われる。前半はマップ探索、後半は謎解きダンジョンの色あいが強くなり、ゲーム性は徐々に強まっていく。コミカルな雰囲気が好きで、もしもシリーズの設定にこだわらない方ならオススメ。(-/-/-)<br><br><br>
+<b>【寄せられたコメント】</b>　スク水、メイド服でお散歩しましょう
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/rpg.png" width="32" height="32"></th>
+		<td class="white" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【72位】</font>
+		<font style="font-size:140%;">No.030 もしもセイブザクイーン2/3</font>
+		( 合計点 <b>76.8 </b> pt / <b>8</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>10</b> pt + 
+		技 <b>7</b> pt +
+		語 <b>11</b> pt +
+		演 <b>10</b> pt +
+		斬 <b>8</b> pt +
+		遊 <b>10</b> pt +
+		笑 <b>6</b> pt +
+		猥 <b>6</b> pt +
+		酷 <b>4</b> pt +
+		他 <b>4.8 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s030a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=030&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/eQpN5ed" target="_blank">投票結果</a></h3>
+　ツール ： <b>RPGツクール2000</b><br>
+　作者 ：<b>障子にメアリー</b><br>
+　ジャンル ：<b>デフォ戦RPG</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱2技3語2演3斬2遊2笑2猥2酷2他0]</h4>　お使い系デフォ戦RPG。見るだけイベント多し。(愛の使者/男性/31歳 ～ 40歳)<br><br><br>
+<b>【寄せられたコメント】</b>　女兵士ちゃんぺろぺろシナリオが感動した。偽勇者とか。　<b>/</b>　ほのぼのgdgd
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/rpg.png" width="32" height="32"></th>
+		<td class="red" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【73位】</font>
+		<font style="font-size:140%;">No.071 三将軍の毎日ダンジョン</font>
+		( 合計点 <b>73.0 </b> pt / <b>16</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>12</b> pt + 
+		技 <b>6</b> pt +
+		語 <b>6</b> pt +
+		演 <b>6</b> pt +
+		斬 <b>8</b> pt +
+		遊 <b>10</b> pt +
+		笑 <b>10</b> pt +
+		猥 <b>4</b> pt +
+		酷 <b>10</b> pt +
+		他 <b>1.0 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s071a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=071&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/8kzhFwW" target="_blank">投票結果</a></h3>
+　ツール ： <b>2000</b><br>
+　作者 ：<b>魔法幼女リリカルneet</b><br>
+　ジャンル ：<b>デフォ戦</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱3技2語4演3斬2遊5笑5猥2酷8他2]</h4>　玉露三将軍が主役のサクッと短いデフォ戦ゲーです。フィールド探索はほぼありませんが、三将軍同士の会話はあります。(-/女性/-)<br><br><h4>[熱6技2語3演4斬2遊3笑2猥2酷5他1]</h4>　システムはハマる作品なのに色々と惜しい演出強化とボリューム不足を解消すればもうちょっと楽しめるようになると思う(-/-/21歳 ～ 25歳)<br><br><h4>[熱6技2語0演3斬4遊7笑4猥2酷5他1]</h4>　雪道(AM)系の短篇デフォ戦。敵キャラのチョイスが謎。(愛の使者/男性/31歳 ～ 40歳)<br><br><br>
+<b>【寄せられたコメント】</b>　玉露軍はやっぱいいですねー。雑魚敵とラストの展開に笑った。　<b>/</b>　敵の配置などでクスリと来る。軽く遊べるデフォ戦ゲー買い物が並べられ過ぎてちょっと不便だった気もするけれどもいいゲームでした。玉露可愛いよ玉露。　<b>/</b>　敵の配置が意味不明でおもしろかった。脱力効果　<b>/</b>　これも雪道系になるのかな?普通のデフォ戦ゲーだった店が一纏めにされていたので利用し辛いのが気になった三将軍の会話が階層によって違うのは良いでも、やっぱりボリューム不足かな途中で作者も飽きたんだろうなというのが伝わった(ssの次点でそうだけど)最後までプレイできたので一応投票はしておきます　<b>/</b>　魔王の敵グループが壮観だった。
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i037.png" width="32" height="32"></th>
+		<td class="red" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【74位】</font>
+		<font style="font-size:140%;">No.037 もしもこねくしょん</font>
+		( 合計点 <b>70.0 </b> pt / <b>8</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>4</b> pt + 
+		技 <b>6</b> pt +
+		語 <b>7</b> pt +
+		演 <b>8</b> pt +
+		斬 <b>12</b> pt +
+		遊 <b>8</b> pt +
+		笑 <b>10</b> pt +
+		猥 <b>4</b> pt +
+		酷 <b>10</b> pt +
+		他 <b>1.0 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s037a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=037&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/63wQjWG" target="_blank">投票結果</a></h3>
+　ツール ： <b>2000</b><br>
+　作者 ：<b>名無しについて</b><br>
+　ジャンル ：<b>コレクション</b><br>
+<br>
+<h3>【作品の総評】</h3>&nbsp;<br><br>
+<b>【寄せられたコメント】</b>　クーとむーちゃんの出生話が凝ってましたね。優しい感じお悩み相談はテンポあってよかった　<b>/</b>　設定をもっと消化してからゲームにした方がいいと思う。
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/i006.png" width="32" height="32"></th>
+		<td class="white" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【75位】</font>
+		<font style="font-size:140%;">No.006 わてり/EXTRA</font>
+		( 合計点 <b>63.6 </b> pt / <b>13</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>8</b> pt + 
+		技 <b>8</b> pt +
+		語 <b>4</b> pt +
+		演 <b>6</b> pt +
+		斬 <b>8</b> pt +
+		遊 <b>6</b> pt +
+		笑 <b>6</b> pt +
+		猥 <b>5</b> pt +
+		酷 <b>12</b> pt +
+		他 <b>0.6 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s006a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=006&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/12QNFmc" target="_blank">投票結果</a></h3>
+　ツール ： <b>2000</b><br>
+　作者 ：<b>子狐ヘレンは俺の妹</b><br>
+　ジャンル ：<b>デフォ戦</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱4技4語1演2斬2遊2笑3猥1酷7他0]</h4>　この作品は3人の仲間から一人を選んで二人旅をする短～中編デフォ戦ゲーです。敵は特に凝った技など使ってこないし、自分側が圧倒的に強くなれるので、(逆に弱体化して縛ることも可能)サクサクと進むことができます。隠し要素を見つけることで、スキルポイントを貰えますが、一度進んだら戻れないマップもあるので、隅々まで探索をすることをオススメします。(-/-/-)<br><br><h4>[熱3技1語1演1斬4遊4笑1猥3酷10他0]</h4>　独自の能力と成長ルールを持った仲間と戦いながらシナリオを読み進める割と一般的なRPG、のはずなのだが……作品の規模に製作者の技術が追いついていないように感じた。文章が全編を通して酷く稚拙で、プレイヤーに伝えなければならない情報が欠落しストーリーが理解できない。読点の使い方や文法が滅茶苦茶で、人物の会話と製作者のメタ発言が同一ラインの会話に混在しているため、解読に多大な労力を必要とする。文章以外も演出からダンジョンの作りに至るまで水準に達している要素がほとんど存在しない。読めないオープニングから始まる一連のイベント、触れないと壁かマップの継ぎ目なのか分からないダンジョンなどが、プレイヤーを狂気へ誘ってくれるだろう。良かったところはタイトル画面等のアートワークとゲームバランス的な遊びやすさ。高難度こそ至高という風潮に陥りやすいツクール界隈では、貴重な感覚かもしれない。(-/男性/26歳 ～ 30歳)<br><br><h4>[熱3技4語2演2斬3遊1笑2猥2酷4他0]</h4>　謎解き要素ありのデフォ戦RPG。(愛の使者/男性/31歳 ～ 40歳)<br><br><br>
+<b>【寄せられたコメント】</b>　正直淫夢ネタしか印象に残ってない　<b>/</b>　いっぱいtkれば、もっと良いゲームが作れるようになると思うよ!　<b>/</b>　ひどかった。なんJが淫夢を知らなかったらnnkrだろうなぁ…。　<b>/</b>　マップの見にくさとかは気になったけど軽く楽しめるデフォ戦でした　<b>/</b>　やや理不尽。　<b>/</b>　がらんどうでksg感溢れるゲームだったけど、スキルポイント制や各階のヘンテコ仕掛けが面白かった。バランスも楽勝なので暇つぶしに進めるにはちょうどいい具合です。ドアがいちいち喋るw
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/ksg.png" width="32" height="32"></th>
+		<td class="red" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【76位】</font>
+		<font style="font-size:140%;">No.091 具現化規制法案（仮）（笑）</font>
+		( 合計点 <b>63.0 </b> pt / <b>5</b> 票 / <b>遅刻提出</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>3</b> pt + 
+		技 <b>2</b> pt +
+		語 <b>8</b> pt +
+		演 <b>3</b> pt +
+		斬 <b>3</b> pt +
+		遊 <b>2</b> pt +
+		笑 <b>4</b> pt +
+		猥 <b>2</b> pt +
+		酷 <b>36</b> pt +
+		他 <b>0.0 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s091a.gif" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=091&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/jm0OqeE" target="_blank">投票結果</a></h3>
+　ツール ： <b>ＲＰＧツクール２０００</b><br>
+　作者 ：<b>若葉勢</b><br>
+　ジャンル ：<b>デフォ戦オナニｋｓｇゲー</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱0技0語5演0斬0遊0笑0猥0酷0他0]</h4>　プレイしてみたけど、作者さんの自己紹介文に書いてあるとおり「どこから個性でどこから他人の引用なのか」の境界線がわからなかった。マップ組みはすごい綺麗だったけど本物の創作なのかは判断保留ということで。他人のおもしろい点を模写しつつも、自分なりの引き出しを増やしていけばいいと思うよ。(-/-/-)<br><br><h4>[熱2技1語1演2斬1遊1笑2猥1酷10他0]</h4>　デフォ戦。過去作品からのぶっこ抜き多数。(-/-/-)<br><br><br>
+<b>【寄せられたコメント】</b>　戦闘はなかなか面白かったので丁寧に作ればもっと良くなると思います。　<b>/</b>　ライトきゅん。マジ殉星の男よ
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/rpg.png" width="32" height="32"></th>
+		<td class="red" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【77位】</font>
+		<font style="font-size:140%;">No.057 迷宮組曲</font>
+		( 合計点 <b>56.6 </b> pt / <b>9</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>6</b> pt + 
+		技 <b>8</b> pt +
+		語 <b>6</b> pt +
+		演 <b>6</b> pt +
+		斬 <b>6</b> pt +
+		遊 <b>5</b> pt +
+		笑 <b>6</b> pt +
+		猥 <b>6</b> pt +
+		酷 <b>6</b> pt +
+		他 <b>1.6 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s057a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=057&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/7XiJhjf" target="_blank">投票結果</a></h3>
+　ツール ： <b>ツクール2000</b><br>
+　作者 ：<b>ST</b><br>
+　ジャンル ：<b>迷宮探索系デフォ戦RPG</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱2技4語2演3斬2遊1笑2猥2酷2他0]</h4>　デフォ戦ダンジョン探索ゲー。(愛の使者/男性/31歳 ～ 40歳)<br><br><br>
+<b>【寄せられたコメント】</b>　ユーザーフレンドリーさに欠けるか。
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/rpg.png" width="32" height="32"></th>
+		<td class="red" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【78位】</font>
+		<font style="font-size:140%;">No.015 英霊旅日記</font>
+		( 合計点 <b>47.4 </b> pt / <b>7</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>4</b> pt + 
+		技 <b>8</b> pt +
+		語 <b>9</b> pt +
+		演 <b>6</b> pt +
+		斬 <b>5</b> pt +
+		遊 <b>4</b> pt +
+		笑 <b>3</b> pt +
+		猥 <b>4</b> pt +
+		酷 <b>3</b> pt +
+		他 <b>1.4 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s015a1.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=015&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/f8RJDks" target="_blank">投票結果</a></h3>
+　ツール ： <b>2000</b><br>
+　作者 ：<b>鷹</b><br>
+　ジャンル ：<b>仲間の力を思い知る正統派デフォ戦RPG</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱3技3語2演3斬2遊2笑1猥2酷2他0]</h4>　独自設定のデフォ戦RPG。(愛の使者/男性/31歳 ～ 40歳)<br><br><br>
+<b>【寄せられたコメント】</b>　前作を拡張した様なギミックデフォ戦。味方の手数が多い分敵の攻撃も激しくて楽しい。　<b>/</b>　やや空回ってる感。作者の今後に期待。
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="_img/i/miyaru.png" width="32" height="32"></th>
+		<td class="red" style="vertical-align: middle;">
+		<font style="font-size:160%; font-weight: bold;">【79位】</font>
+		<font style="font-size:140%;">No.077 俺っクション</font>
+		( 合計点 <b>43.7 </b> pt / <b>6</b> 票 / <b>提出済</b>)<br>
+		　　<font style="font-size:100%;">
+		熱 <b>3</b> pt + 
+		技 <b>7</b> pt +
+		語 <b>2</b> pt +
+		演 <b>5</b> pt +
+		斬 <b>5</b> pt +
+		遊 <b>6</b> pt +
+		笑 <b>2</b> pt +
+		猥 <b>2</b> pt +
+		酷 <b>10</b> pt +
+		他 <b>1.7 </b> pt</font><br>
+		</td>
+	</tr>
+</tbody></table>
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tbody><tr>
+		<td class="gray" style="vertical-align: top; padding:0px;" colspan="0">
+		<img src="../db/_img/s/s077a.png" border="0" width="320" height="240">
+		</td>
+		<td class="gray" style="vertical-align: middle; width:100%;" colspan="2">
+					<div class="new">
+<dl>
+<h3><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=077&amp;tpl=view2">作品紹介</a> / <a href="http://enq-maker.com/eMGxHJF" target="_blank">投票結果</a></h3>
+　ツール ： <b>2k</b><br>
+　作者 ：<b>ブラウン</b><br>
+　ジャンル ：<b>見る＋デフォだと思うよ</b><br>
+<br>
+<h3>【作品の総評】</h3><h4>[熱6技5語6演5斬5遊4笑5猥5酷5他2]</h4>　双子っぽいオッドアイ少女(オリジナル?)が、魔王と冥王ヘルを倒す二本立て。勇者/魔王/神界/冥界の四つ巴の基本設定らしく、ナイ玉露などのサイド勢力はない模様。エリーかわいいお話は終始一貫して生真面目で、キャラクター間の馴れ合いや日常コメディはなく、純粋にどちらの力が強いかの腕比べの少年漫画的なシナリオ構成になっている。会話もぎこちない固さが残っているためか、作者本人のはっちゃけ感は出しきれていないのかも??デフォ戦のバランスはきつめで単純な力押しの難易度。付属の攻略メモを見れば何とか突破することは可能。神界勢や冥界勢などマイナー設定が好きな方は楽しめるかもしれない。いろいろ拙くバグの多さも気になるけれど、前回の夏の陣からは徐々に改善されてきている感じはしました。ユーモアやユーザビリティを学び、遊ぶを側の気持ちの視点の開拓などを向上していってほしいね。(よみよみ/性別不明/年齢不明)<br><br><br>
+<b>【寄せられたコメント】</b>　こんなに強い魔王軍を見たのは久しぶりだったかも…?ヘル様ちょっとカリスマですね。銀髪っ子いっぱい夢いっぱい
+</dl>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+
+<hr>
+<p align="center">(1/1)</p>
+<div class="pagetop"><a href="#navigate">ページTOPに戻る</a></div>
+
+</div><!--/#box2-->
+
+<!-- このスクリプトをご利用頂くには著作権の表記が条件となっております。 -->
+<h2>COPYPASTE ? <a href="http://www10.atwiki.jp/vip_rpg/">2012 VIPRPG</a>.</h2>
+<h2><a href="http://www.coolandcool.net" target="_blank" style="font-size:11pt">Database Factory</a></h2>
+
+</div><!--/#back.body-->
+</div><!--/#back-->
+</div><!--/#container-->
+
+
+<div style="text-align:center; font-size:10px;display:block !important; visibility:visible !important;"><a style="text-decoration:none;font-color:" href="http://atpages.jp/keyword">Powered by キーワード@Pages</a></div><div id="geniee_overray_base" style="z-index:9999;filter:alpha(opacity=60);-ms-filter:alpha(opacity=60);-moz-opacity:0.6; -khtml-opacity:0.6;opacity:0.6;position:fixed;width:100%;height:120px;background-color:black">
+  <img id="geniee_overray_closed" style="left:100%;color:red;" src="http://a.geniee.jp/nw/images/4ab007d5e5e507438b77f746862ff49d.png">
+</div>
+<div id="geniee_overray_tag" style="z-index:9999;left:25%;position: fixed;center:100%;">
+
+<script type="text/javascript"><!--//<![CDATA[
+   var m3_u = (location.protocol=='https:'?'https://d.href.asia/nw/d/ajs.php':'http://d.href.asia/nw/d/ajs.php');
+   var m3_r = Math.floor(Math.random()*99999999999);
+   if (!document.MAX_used) document.MAX_used = ',';
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("?zoneid=4324");
+   document.write ('&amp;cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+   document.write ("&amp;loc=" + escape(window.location));
+   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+   if (document.context) document.write ("&context=" + escape(document.context));
+   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+   document.write ("'><\/scr"+"ipt>");
+//]]>--></script><noscript><a href='http://d.href.asia/nw/d/ck.php?n=ae4d0c0d&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://d.href.asia/nw/d/avw.php?zoneid=4324&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=ae4d0c0d' border='0' alt='' /></a></noscript>
+
+</div>
+
+
+</body></html>

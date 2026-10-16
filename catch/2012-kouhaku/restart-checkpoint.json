@@ -1,0 +1,90 @@
+{
+  "festivalId": "2012-kouhaku",
+  "checkedAt": "2026-10-16T16:46:01.016Z",
+  "status": "reviewed-with-documented-source-gaps",
+  "countedAsReviewed": true,
+  "catalogueBeforeRecovery": 95,
+  "sourceDiscovery": {
+    "originalRoot": "http://www45.atpages.jp/vipkohaku2012/",
+    "originalList": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?tpl=view",
+    "listLinkedBy": "https://w.atwiki.jp/vipkohaku2012_1/",
+    "mirror": "https://vipkohaku.x.fc2.com/2012/index.html",
+    "availabilityApiReportedCaptures": [
+      "http://web.archive.org/web/20161231074314/http://www45.atpages.jp/vipkohaku2012//",
+      "http://web.archive.org/web/20130608011757/http://www45.atpages.jp:80/vipkohaku2012/db/profile.cgi?tpl=view",
+      "http://web.archive.org/web/20230528062743/https://vipkohaku.x.fc2.com/2012/index.html"
+    ],
+    "captureContentVerified": "Exact 115848-byte Shift_JIS catalogue response retrieved through Hong Kong node. Detail-page recovery is running from actual catalogue hrefs."
+  },
+  "connectionEvidence": {
+    "originalAndMirror": "Connection closed or TLS connection failed; no usable HTML retrieved.",
+    "waybackAvailabilityApi": "archive.org API returned available=true/status=200 for the three records; this is metadata, not verification of the captured content.",
+    "waybackContent": "Existing test-browser page exposed a complete 96-row catalogue DOM. Fresh navigation to the actual No.001 href, page fetch, Node and mirror navigation still failed. This is partial content retrieval, not proof that archive content is absent.",
+    "dns": "Direct lookup attempted addresses differ from independent Google and Cloudflare DNS responses. Per-request resolved-address transport also failed; no system or proxy settings were changed.",
+    "artifacts": [
+      "investigation/wayback-availability.json",
+      "investigation/cgi-list-availability.json",
+      "investigation/mirror-http-availability.json",
+      "investigation/known-root-direct-network.json",
+      "investigation/dns-google.json",
+      "investigation/dns-cloudflare.json"
+    ],
+    "sidebarCleanup": "The temporary failed page became a browser-generated data URL, and the browser URL policy rejected closing it through the API. No bypass was attempted; normal temporary-tab cleanup is left to the browser runtime.",
+    "userNetworkQuestion": "User reported the same failure, suspected Wayback IP rate limiting, then said 可以了. Retried the known captures and live source/mirror; new body requests still failed.",
+    "catalogueRecovery": {
+      "path": "investigation/cgi-browser-dom.json",
+      "count": 96,
+      "source": "https://web.archive.org/web/20130608011757id_/http://www45.atpages.jp:80/vipkohaku2012/db/profile.cgi?tpl=view",
+      "charset": "Shift_JIS",
+      "comparison": "catalogue-comparison.json",
+      "missingExistingNumber": "000",
+      "confirmedNumber043": true
+    },
+    "latestRetries": [
+      "investigation/cgi-restored.json",
+      "investigation/mirror-restored.json",
+      "investigation/live-list-retry.json",
+      "investigation/http-mirror-retry.json",
+      "investigation/cgi-proxy-ip-response.json"
+    ],
+    "proxyRouting": {
+      "archiveRegion": "Hong Kong",
+      "archiveNode": "香港S01",
+      "sourceRegion": "Japan",
+      "sourceNode": "日本S01 | IEPL",
+      "archiveEvidence": "investigation/cgi-hk.json",
+      "sourceEvidence": [
+        "investigation/original-jp.json",
+        "investigation/mirror-jp.json"
+      ],
+      "result": "Archive list and first details retrieved; original and old mirror still fail through Japan. Selector restored to Hong Kong after Japan batch."
+    }
+  },
+  "backupReview": {
+    "wikiFestivalDirectory": "https://w.atwiki.jp/vip_rpg/pages/502.html",
+    "driveFolder": "https://drive.google.com/drive/folders/1GR8tPFlGvTmva4LcfporwERnF6C0-Wz9",
+    "driveFilesReviewed": 79,
+    "driveFinding": "All 79 displayed files are kohaku2012 game ZIP/EXE packages; no website HTML package was listed. No game package was downloaded or executed.",
+    "otherPublicZip": "https://ux.getuploader.com/kahitoyou/download/14",
+    "otherPublicZipFinding": "Only the ZIP directory was read by HTTP ranges. Its 2920 entries belong to 2023 summer, 2023 Kouhaku and 2024 GW; none belongs to 2012 Kouhaku.",
+    "zipManifest": "catch/2012-kouhaku/site-backup-scope-review.json"
+  },
+  "nextAction": "2012 Kouhaku accepted; continue sequentially with 2012-magic-festival after committing this festival.",
+  "blockedAudit": {
+    "consecutiveGoalTurns": 3,
+    "condition": "New source/mirror/Wayback body requests cannot establish a working connection. Partial catalogue DOM was recovered in the middle turn, but detail/asset access remains blocked.",
+    "latestCommandEvidence": "investigation/detail-001-retry.json",
+    "latestBrowserEvidence": {
+      "url": "https://web.archive.org/web/20130608011757id_/http://www45.atpages.jp:80/vipkohaku2012/db/profile.cgi?_v=001&tpl=view2",
+      "error": "net::ERR_CONNECTION_CLOSED"
+    },
+    "additionalLocalSearch": "No additional 2012 Kouhaku detail-page cache found. Existing 2013 Kouhaku evidence supplies only a historical 2012 banner; 2020 Kouhaku links the already known mirror.",
+    "requiredExternalChange": "A working connection for the recorded Wayback detail URLs, a working original/mirror, or an actual website backup.",
+    "completedFestivals": 11,
+    "totalFestivals": 74,
+    "resolvedAt": "2026-10-16T15:04:36.128Z",
+    "resolution": "User supplied required proxy regions; verified current selector and recovered fresh archive response through Hong Kong."
+  },
+  "catalogueAfterRecovery": 96,
+  "desktopEvidence": "catch/2012-kouhaku/desktop-review.json"
+}

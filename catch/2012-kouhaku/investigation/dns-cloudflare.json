@@ -1,0 +1,12 @@
+{
+  "requestedUrl": "https://cloudflare-dns.com/dns-query?name=web.archive.org&type=A",
+  "status": 200,
+  "answer": [
+    {
+      "name": "web.archive.org",
+      "type": 1,
+      "TTL": 82,
+      "data": "207.241.237.3"
+    }
+  ]
+}

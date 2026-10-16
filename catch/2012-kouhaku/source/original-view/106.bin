@@ -1,0 +1,80 @@
+﻿@charset "utf-8";
+
+/* =======================================
+
+	 CSS BrowserReset BaseElements
+	 CorporateCAST(R) beta3.0
+	 
+	 In Conformity to WebsiteGuideline Ver2.0
+	
+	 (C) 2010 E2, Inc. All Rights Reserved.
+	 http://www.e-2.co.jp
+
+ ======================================= */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	font-family: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+/*	outline: 0;*/
+}
+
+html {
+	font-size: 75%;
+	filter: expression(document.execCommand("BackgroundImageCache", false, true));
+}
+
+img {
+	vertical-align: text-bottom;
+	-ms-interpolation-mode: bicubic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+li ol, ul {
+	list-style: inside;
+}
+
+table {
+	border-collapse: collapse;
+/*	border-collapse: separate;*/
+	border-spacing: 0;
+}
+
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	vertical-align: top;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+
+blockquote, q {
+	quotes: "" "";
+}
+
+a:focus {
+/*\*/
+	overflow: hidden;
+/**/
+}
+
+option {
+	padding-right: 10px;
+}

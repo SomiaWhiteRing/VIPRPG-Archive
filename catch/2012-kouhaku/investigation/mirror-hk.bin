@@ -1,0 +1,1064 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+<title>VIPRPG紅白2012</title>
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<link rel="stylesheet" type="text/css" href="screen.css" media="all" />
+<link rel="shortcut icon" href="favicon.ico">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript">
+
+$(function(){
+	var setImg='#viewer';
+	var fadeSpeed=1500;
+	var switchDelay=5000;
+
+	$(setImg).children('img').css({opacity:'0'});
+	$(setImg + ' img:first').stop().animate({opacity:'1',zIndex:'20'},fadeSpeed);
+
+	setInterval(function(){
+		$(setImg + ' :first-child').animate({opacity:'0'},fadeSpeed).next('img').animate({opacity:'1'},fadeSpeed).end().appendTo(setImg);
+	},switchDelay);
+});
+
+
+
+$(document).ready(function(){
+	$("#nav-one li").hover(
+		function(){ $("ul", this).fadeIn("fast"); }, 
+		function() { } 
+	);
+	if (document.all) {
+		$("#nav-one li").hoverClass ("sfHover");
+	}
+});
+
+$.fn.hoverClass=function(c) {
+	return this.each(function(){
+		$(this).hover( 
+			function() { $(this).addClass(c);  },
+			function() { $(this).removeClass(c); }
+		);
+	});
+};
+</script>
+<script type="text/javascript" src="jquery.countdown.min.js"></script>
+<script type="text/javascript" src="jquery.countdown-ja.js"></script>
+<script type="text/javascript">
+	$(function() {
+		$('#countdown').countdown({ 
+		until: new Date(2013, 2-1, 1, 0, 0, 0, 0),
+		compact: true,
+		description: ''
+		}); 
+	});
+</script>
+</head>
+
+<body>
+
+<script type="text/javascript"><!--
+var ID="100869904";
+var AD=0;
+var FRAME=0;
+// --></script>
+<script src="index.files\l.j?id=100869904" type="text/javascript"></script>
+<noscript>
+<a href="index.files\c.f?id<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+<title>VIPRPG紅白2012</title>
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<link rel="stylesheet" type="text/css" href="screen.css" media="all" />
+<link rel="shortcut icon" href="favicon.ico">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript">
+
+$(function(){
+	var setImg='#viewer';
+	var fadeSpeed=1500;
+	var switchDelay=5000;
+
+	$(setImg).children('img').css({opacity:'0'});
+	$(setImg + ' img:first').stop().animate({opacity:'1',zIndex:'20'},fadeSpeed);
+
+	setInterval(function(){
+		$(setImg + ' :first-child').animate({opacity:'0'},fadeSpeed).next('img').animate({opacity:'1'},fadeSpeed).end().appendTo(setImg);
+	},switchDelay);
+});
+
+
+
+$(document).ready(function(){
+	$("#nav-one li").hover(
+		function(){ $("ul", this).fadeIn("fast"); }, 
+		function() { } 
+	);
+	if (document.all) {
+		$("#nav-one li").hoverClass ("sfHover");
+	}
+});
+
+$.fn.hoverClass=function(c) {
+	return this.each(function(){
+		$(this).hover( 
+			function() { $(this).addClass(c);  },
+			function() { $(this).removeClass(c); }
+		);
+	});
+};
+</script>
+<script type="text/javascript" src="jquery.countdown.min.js"></script>
+<script type="text/javascript" src="jquery.countdown-ja.js"></script>
+<script type="text/javascript">
+	$(function() {
+		$('#countdown').countdown({ 
+		until: new Date(2013, 2-1, 1, 0, 0, 0, 0),
+		compact: true,
+		description: ''
+		}); 
+	});
+</script>
+</head>
+
+<body>
+
+<script type="text/javascript"><!--
+var ID="100869904";
+var AD=0;
+var FRAME=0;
+// --></script>
+<script src="index.files\l.j?id=100869904" type="text/javascript"></script>
+<noscript>
+<a href="index.files\c.f?id=100869904" target="_blank"><img src="index.files\l.f?id=100869904&url=X" alt="AX" border="0"></a>
+</noscript>
+
+<div id="balloonbox" style="background-image: url(img/balloon1.png);">
+<div id="ballooninner">
+
+<div id="navigate"><center>
+<table>
+	<tbody>
+		<tr>
+			<td>
+		<ul id="nav-one" class="nav">
+			<li>
+				<a href="index.html">Home</a>
+			</li>
+			<li>
+				<a href="about.html">About</a>
+				<ul>
+					<li><a href="about.html#schedule">スケジュール</a></li>
+					<li><a href="about.html#entry">参加方法</a></li>
+					<li><a href="about.html#present">提出方法</a></li>
+					<li><a href="about.html#patch">作品の修正</a></li>
+					<li><a href="about.html#Q&A">Q&A</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="enq.html">投票</a>
+				<ul>
+					<li><a href="enq.html#about">投票審査とは</a></li>
+					<li><a href="enq.html#howto">投票方法</a></li>
+					<li><a href="enq.html#section">審査部門</a></li>
+					<li><a href="enq.html#total">集計</a></li>
+					<!-- <li><a href="db/profile.cgi?tpl=view4&?type=or&key=%92%F1%8Fo%8D%CF%20%20%92x%8D%8F%92%F1%8Fo%20">中間発表</a></li> -->
+					<li><a href="enq2.html">結果発表</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="entry.html">作品一覧</a>
+				<ul>
+					<li><a href="https://vipkohaku.x.fc2.com/2012/db/index.html">リスト</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="bbs.html">BBS</a>
+				<ul>
+					<li><a href="http://jbbs.livedoor.jp/otaku/15695/" target="_blank">運営掲示板</a></li>
+					<li><a href="http://jbbs.livedoor.jp/otaku/15696/" target="_blank">感想掲示板</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="link.html">リンク</a>
+			</li>
+			<li>
+				<a href="https://twitter.com/vipkohaku2012_1">Twitter</a>
+			</li>
+			<li>
+<a href="http://www.netriver.jp/product/" target='_blank'>
+<img src="http://www.netriver.jp/countriver/cntriv.cgi?user=vipkohaku2012_1&id=00000000&ptn=15&dig=0" onmouseover='CountRiverMouseOver()' onmouseout='CountRiverMouseOut()' style="border:0; margin: 8px 0 8px 0;" /></a>
+<div id=CountRiverObjDiv style='position:absolute; top:0px; left:0px; display:none; z-index:1000;'></div>
+			</li>
+		</ul>
+			</td>
+		</tr>
+	</tbody>
+</table></center>
+</div>
+
+</div><!--/#ballooninner-->
+</div><!--/#balloonbox-->
+
+<div id="container">
+<div class="back">
+<div class="body">
+
+<div id="viewer">
+
+<img src="img/main1.png" width="730" height="296" alt="" />
+<img src="img/main2.png" width="730" height="296" alt="" />
+<img src="img/main3.png" width="730" height="296" alt="" />
+<img src="img/main4.png" width="730" height="296" alt="" />
+<img src="img/main5.png" width="730" height="296" alt="" />
+<img src="img/main6.png" width="730" height="296" alt="" />
+<img src="img/main7.png" width="730" height="296" alt="" />
+
+</div><!--/#viewer-->
+
+<div style="clear:both;"><br>
+
+<div id="box"><center> <!--/#style="background-color: #85b9e9;" -->
+<table>
+		<tr>
+			<td background="img/bg_box_top.png" id="boxtd"></td>
+		</tr>
+		<tr>
+			<td  bgcolor="#ff7777" style="padding: 10px 20px; height:250px;">
+			<center><span class="h" style="text-align: center;">ジャンル不問</span></center>
+			<span class="ht">
+スタイルは自由、
+ツクールが秘める無限の可能性は毎年ツクスレの年末に控える祭りを越えられるかぁ！
+しかしながらぁ！
+その可能性がぁ！
+ツクラーの可能性がつかまらなければならない確率は
+エターナルを乗り越える
+という…
+限りなく…難しい…
+そこを、やはり見せて欲しい
+自信作を見せて欲しいツクラー！
+今年の君ならやれるぅ！</span>
+			</td>
+		</tr>
+		<tr>
+			<td background="img/bg_box_bottom.png" id="boxtd"></td>
+		</tr>
+</table>
+</center></div>
+
+<div id="box"><center> <!--/#style="background-color: #ffd78c;" -->
+<table id="boxtb">
+		<tr>
+			<td background="img/bg_box_top.png" id="boxtd"></td>
+		</tr>
+		<tr>
+			<td  bgcolor="#ff7777" style="padding: 10px 20px; height:250px;">
+			<center><span class="h" style="text-align: center;">
+更新終了
+			</span></center>
+			<span class="ht"><!--/
+<div id="countdown" style="text-align:center; color: #fff; font-weight: bold; font-size: 125%;"></div>
+ -->
+<font style="font-size:250%;">おつかれめでてぇｗｗｗｗｗｗｗｗｗ</font><br>
+<a href="enq2.html">投票結果発表はこちら</a><br>
+<br>
+<font style="font-size:70%"><a href="1225.html">バーニィのビデオレター</a></font>
+			</span>
+			</td>
+		</tr>
+		<tr>
+			<td background="img/bg_box_bottom.png" id="boxtd"></td>
+		</tr>
+</table>
+</center></div>
+
+<div id="box"><center> <!--/#style="background-color: #bde9ba;" -->
+<table id="boxtb">
+		<tr>
+			<td background="img/bg_box_top.png" id="boxtd"></td>
+		</tr>
+		<tr>
+			<td  bgcolor="#ff7777" style="padding: 10px 20px; height:250px;">
+			<center><span class="h" style="text-align: center;">更新履歴</span></center>
+			<div class="new">
+<dl>
+
+<dt>2013/2/7</dt>
+<dd>
+更新終了<br>
+最後までお付き合いくださいましてありがとうございました。</dd>
+
+<dt>2013/2/7</dt>
+<dd>
+<a href="enq4.html">表彰会場</a> 更新<br>
+本体修正<br>
+<a href="db/profile.cgi?_v=084&tpl=view2">084</a><br>
+パッチ追加<br>
+<a href="db/profile.cgi?_v=087&tpl=view2">087</a></dd>
+
+<dt>2013/2/7</dt>
+<dd>
+<a href="enq4.html">表彰会場</a> 更新<br>
+本体修正<br>
+<a href="db/profile.cgi?_v=003&tpl=view2">003</a>
+<a href="db/profile.cgi?_v=026&tpl=view2">026</a>
+<a href="db/profile.cgi?_v=061&tpl=view2">061</a><br>
+パッチ追加<br>
+<a href="db/profile.cgi?_v=003&tpl=view2">003</a></dd>
+
+
+<dt>2013/2/7</dt>
+<dd>
+<a href="enq4.html">表彰会場 公開</a></dd>
+
+<dt>2013/2/7</dt>
+<dd>
+本体修正<br>
+<a href="db/profile.cgi?_v=035&tpl=view2">035</a>
+<a href="db/profile.cgi?_v=054&tpl=view2">054</a></dd>
+
+<dt>2013/2/5</dt>
+<dd>
+<a href="enq3.html">チーム勝敗発表</a><br>
+投票結果ページ諸々修正<br>
+<br>
+パッチ追加<br>
+<a href="db/profile.cgi?_v=003&tpl=view2">003</a>
+<a href="db/profile.cgi?_v=070&tpl=view2">070</a></dd>
+
+<dt>2013/2/4</dt>
+<dd>
+<a href="enq2.html">投票結果発表</a></dd>
+
+<dt>2013/2/3</dt>
+<dd>
+本体修正<br>
+<a href="db/profile.cgi?_v=061&tpl=view2">061</a></dd>
+
+<dt>2013/2/2</dt>
+<dd>
+本体修正<br>
+<a href="db/profile.cgi?_v=077&tpl=view2">077</a><br>
+パッチ追加<br>
+<a href="db/profile.cgi?_v=038&tpl=view2">038</a></dd>
+
+<dt>2013/2/1</dt>
+<dd>
+投票締切<br>
+投票集計中<br>
+<br>
+パッチ追加<br>
+<a href="db/profile.cgi?_v=003&tpl=view2">003</a></dd>
+
+<dt>2013/1/31</dt>
+<dd>
+本体修正<br>
+<a href="db/profile.cgi?_v=075&tpl=view2">075</a><br>
+パッチ追加<br>
+<a href="db/profile.cgi?_v=003&tpl=view2">003</a>
+<a href="db/profile.cgi?_v=007&tpl=view2">007</a></dd>
+
+<dt>2013/1/30</dt>
+<dd>
+中間発表　更新</dd>
+
+<dt>2013/1/30</dt>
+<dd>
+本体修正<br>
+<a href="db/profile.cgi?_v=034&tpl=view2">034</a>
+<a href="db/profile.cgi?_v=045&tpl=view2">045</a></dd>
+
+<dt>2013/1/29</dt>
+<dd>
+遅刻提出<br>
+<a href="db/profile.cgi?_v=045&tpl=view2">045</a><br>
+本体修正<br>
+<a href="db/profile.cgi?_v=003&tpl=view2">003</a>
+<a href="db/profile.cgi?_v=028&tpl=view2">028</a>
+<a href="db/profile.cgi?_v=061&tpl=view2">061</a>
+<a href="db/profile.cgi?_v=084&tpl=view2">084</a><br>
+パッチ追加<br>
+<a href="db/profile.cgi?_v=003&tpl=view2">003</a>
+<a href="db/profile.cgi?_v=051&tpl=view2">051</a>
+<a href="db/profile.cgi?_v=079&tpl=view2">079</a>
+<a href="db/profile.cgi?_v=087&tpl=view2">087</a></dd>
+
+<dt>2013/1/26</dt>
+<dd>
+本体修正<br>
+<a href="db/profile.cgi?_v=051&tpl=view2">051</a>
+<a href="db/profile.cgi?_v=075&tpl=view2">075</a><br>
+パッチ追加<br>
+<a href="db/profile.cgi?_v=025&tpl=view2">025</a></dd>
+
+<dt>2013/1/23</dt>
+<dd>
+<a href="about.html#schedule">最終更新予定日変更</a><br>
+中間発表　更新<br>
+<br>
+本体修正<br>
+<a href="db/profile.cgi?_v=064&tpl=view2">064</a><br>
+パッチ追加<br>
+<a href="db/profile.cgi?_v=003&tpl=view2">003</a></dd>
+
+<dt>2013/1/23</dt>
+<dd>
+本体修正<br>
+<a href="db/profile.cgi?_v=055&tpl=view2">055</a><br>
+パッチ追加<br>
+<a href="db/profile.cgi?_v=003&tpl=view2">003</a></dd>
+
+<dt>2013/1/22</dt>
+<dd>
+パッチ追加<br>
+<a href="db/profile.cgi?_v=003&tpl=view2">003</a></dd>
+
+<dt>2013/1/21</dt>
+<dd>
+遅刻提出<br>
+<a href="db/profile.cgi?_v=003&tpl=view2">003</a><br>
+パッチ追加<br>
+<a href="db/profile.cgi?_v=003&tpl=view2">003</a></dd>
+
+<dt>2013/1/20</dt>
+<dd>
+パッチ追加<br>
+<a href="db/profile.cgi?_v=054&tpl=view2">054</a></dd>
+
+<dt>2013/1/20</dt>
+<dd>
+中間発表　更新</dd>
+
+<dt>2013/1/19</dt>
+<dd>
+遅刻提出<br>
+<a href="db/profile.cgi?_v=075&tpl=view2">075</a><br>
+本体修正<br>
+<a href="db/profile.cgi?_v=051&tpl=view2">051</a><br>
+パッチ追加<br>
+<a href="db/profile.cgi?_v=005&tpl=view2">005</a></dd>
+
+<dt>2013/1/18</dt>
+<dd>
+遅刻提出<br>
+<a href="db/profile.cgi?_v=005&tpl=view2">005</a><br>
+パッチ追加<br>
+<a href="db/profile.cgi?_v=047&tpl=view2">047</a>
+<a href="db/profile.cgi?_v=055&tpl=view2">055</a></dd>
+
+<dt>2013/1/17</dt>
+<dd>
+中間発表</dd>
+
+<dt>2013/1/16</dt>
+<dd>
+本体修正<br>
+<a href="db/profile.cgi?_v=051&tpl=view2">051</a>
+<a href="db/profile.cgi?_v=079&tpl=view2">079</a></dd>
+
+<dt>2013/1/15</dt>
+<dd>
+本体修正<br>
+<a href="db/profile.cgi?_v=065&tpl=view2">065</a><br>
+パッチ追加<br>
+<a href="db/profile.cgi?_v=038&tpl=view2">038</a>
+<a href="db/profile.cgi?_v=065&tpl=view2">065</a>
+<a href="db/profile.cgi?_v=070&tpl=view2">070</a></dd>
+
+<dt>2013/1/12</dt>
+<dd>
+パッチ追加<br>
+<a href="db/profile.cgi?_v=037&tpl=view2">037</a>
+<a href="db/profile.cgi?_v=047&tpl=view2">047</a></dd>
+
+<dt>2013/1/11</dt>
+<dd>
+本体修正<br>
+<a href="db/profile.cgi?_v=008&tpl=view2">008</a>
+<a href="db/profile.cgi?_v=047&tpl=view2">047</a><br>
+パッチ追加<br>
+<a href="db/profile.cgi?_v=051&tpl=view2">051</a>
+<a href="db/profile.cgi?_v=055&tpl=view2">055</a></dd>
+
+<dt>2013/1/10</dt>
+<dd>
+本体修正<br>
+<a href="db/profile.cgi?_v=035&tpl=view2">035</a>
+<a href="db/profile.cgi?_v=038&tpl=view2">038</a>
+<a href="db/profile.cgi?_v=079&tpl=view2">079</a><br>
+パッチ追加<br>
+<a href="db/profile.cgi?_v=038&tpl=view2">038</a>
+<a href="db/profile.cgi?_v=047&tpl=view2">047</a>
+<a href="db/profile.cgi?_v=087&tpl=view2">087</a><br>
+変更・修正<br>
+<a href="db/profile.cgi?_v=036&tpl=view2">036</a></dd>
+
+<dt>2013/1/9</dt>
+<dd>
+本体修正<br>
+<a href="db/profile.cgi?_v=054&tpl=view2">054</a><br>
+パッチ追加<br>
+<a href="db/profile.cgi?_v=055&tpl=view2">055</a>
+<a href="db/profile.cgi?_v=070&tpl=view2">070</a></dd>
+
+<dt>2013/1/8</dt>
+<dd>
+本体修正<br>
+<a href="db/profile.cgi?_v=009&tpl=view2">009</a><br>
+パッチ追加<br>
+<a href="db/profile.cgi?_v=051&tpl=view2">051</a></dd>
+
+<dt>2013/1/7</dt>
+<dd>
+遅刻提出<br>
+<a href="db/profile.cgi?_v=079&tpl=view2">079</a><br>
+本体修正<br>
+<a href="db/profile.cgi?_v=038&tpl=view2">038</a><br>
+パッチ追加<br>
+<a href="db/profile.cgi?_v=038&tpl=view2">038</a></dd>
+
+<dt>2013/1/6</dt>
+<dd>
+wiki設置<br>
+<br>
+遅刻提出<br>
+<a href="db/profile.cgi?_v=008&tpl=view2">008</a><br>
+本体修正<br>
+<a href="db/profile.cgi?_v=065&tpl=view2">065</a><br>
+パッチ追加<br>
+<a href="db/profile.cgi?_v=065&tpl=view2">065</a></dd>
+
+<dt>2013/1/6</dt>
+<dd>
+本体修正<br>
+<a href="db/profile.cgi?_v=051&tpl=view2">051</a>
+<a href="db/profile.cgi?_v=061&tpl=view2">061</a></dd>
+
+<dt>2013/1/5</dt>
+<dd>
+本体修正<br>
+<a href="db/profile.cgi?_v=061&tpl=view2">061</a><br>
+パッチ追加<br>
+<a href="db/profile.cgi?_v=009&tpl=view2">009</a>
+<a href="db/profile.cgi?_v=035&tpl=view2">035</a>
+<a href="db/profile.cgi?_v=055&tpl=view2">055</a>
+<a href="db/profile.cgi?_v=077&tpl=view2">077</a></dd>
+
+<dt>2013/1/4</dt>
+<dd>
+本体修正<br>
+<a href="db/profile.cgi?_v=047&tpl=view2">047</a><br>
+パッチ追加<br>
+<a href="db/profile.cgi?_v=013&tpl=view2">013</a>
+<a href="db/profile.cgi?_v=055&tpl=view2">055</a></dd>
+
+<dt>2013/1/3</dt>
+<dd>
+パッチ追加<br>
+<a href="db/profile.cgi?_v=013&tpl=view2">013</a>
+<a href="db/profile.cgi?_v=055&tpl=view2">055</a></dd>
+
+<dt>2013/1/2</dt>
+<dd>
+パッチ追加<br>
+<a href="db/profile.cgi?_v=025&tpl=view2">025</a></dd>
+
+<dt>2013/1/1</dt>
+<dd>
+<a href="enq.html">投票について</a><br>
+投票開始<br>
+<br>
+本体修正<br>
+<a href="db/profile.cgi?_v=061&tpl=view2">061</a><br>
+パッチ追加<br>
+<a href="db/profile.cgi?_v=055&tpl=view2">055</a></dd>
+
+<dt>2013/1/1</dt>
+<dd>
+本体修正<br>
+<a href="db/profile.cgi?_v=051&tpl=view2">051</a>
+<a href="db/profile.cgi?_v=057&tpl=view2">057</a>
+<a href="db/profile.cgi?_v=061&tpl=view2">061</a>
+<a href="db/profile.cgi?_v=077&tpl=view2">077</a><br>
+パッチ追加<br>
+<a href="db/profile.cgi?_v=025&tpl=view2">025</a>
+<a href="db/profile.cgi?_v=047&tpl=view2">047</a>
+<a href="db/profile.cgi?_v=052&tpl=view2">052</a>
+<a href="db/profile.cgi?_v=055&tpl=view2">055</a><br>
+変更・修正<br>
+<a href="db/profile.cgi?_v=077&tpl=view2">077</a></dd>
+
+<dt>2012/12/31</dt>
+<dd>
+本体修正<br>
+<a href="db/profile.cgi?_v=030&tpl=view2">030</a><br>
+パッチ追加<br>
+<a href="db/profile.cgi?_v=030&tpl=view2">030</a>
+<a href="db/profile.cgi?_v=047&tpl=view2">047</a>
+<a href="db/profile.cgi?_v=055&tpl=view2">055</a>
+<a href="db/profile.cgi?_v=064&tpl=view2">064</a></dd>
+
+<dt>2012/12/30</dt>
+<dd>
+遅刻提出<br>
+<a href="db/profile.cgi?_v=084&tpl=view2">084</a><br>
+本体修正<br>
+<a href="db/profile.cgi?_v=038&tpl=view2">038</a>
+<a href="db/profile.cgi?_v=042&tpl=view2">042</a>
+<a href="db/profile.cgi?_v=051&tpl=view2">051</a><br>
+パッチ追加<br>
+<a href="db/profile.cgi?_v=033&tpl=view2">033</a>
+<a href="db/profile.cgi?_v=038&tpl=view2">038</a>
+<a href="db/profile.cgi?_v=055&tpl=view2">055</a><br>
+変更・修正<br>
+<a href="db/profile.cgi?_v=084&tpl=view2">084</a></dd>
+
+<dt>2012/12/30</dt>
+<dd>
+パッチ追加<br>
+<a href="db/profile.cgi?_v=025&tpl=view2">025</a></dd>
+
+<dt>2012/12/30</dt>
+<dd>
+本体修正<br>
+<a href="db/profile.cgi?_v=010&tpl=view2">010</a><br>
+公開停止<br>
+<a href="db/profile.cgi?_v=043&tpl=view2">043</a></dd>
+
+<dt>2012/12/29</dt>
+<dd>
+本体修正<br>
+<a href="db/profile.cgi?_v=010&tpl=view2">010</a>
+<a href="db/profile.cgi?_v=035&tpl=view2">035</a><br>
+パッチ追加<br>
+<a href="db/profile.cgi?_v=013&tpl=view2">013</a>
+<a href="db/profile.cgi?_v=055&tpl=view2">055</a></dd>
+
+<dt>2012/12/28</dt>
+<dd>
+本体修正<br>
+<a href="db/profile.cgi?_v=051&tpl=view2">051</a>
+<a href="db/profile.cgi?_v=061&tpl=view2">061</a>
+<a href="db/profile.cgi?_v=086&tpl=view2">086</a>
+<a href="db/profile.cgi?_v=087&tpl=view2">087</a><br>
+パッチ追加<br>
+<a href="db/profile.cgi?_v=015&tpl=view2">015</a>
+<a href="db/profile.cgi?_v=025&tpl=view2">025</a>
+<a href="db/profile.cgi?_v=087&tpl=view2">087</a><br>
+変更・修正<br>
+<a href="db/profile.cgi?_v=014&tpl=view2">014</a></dd>
+
+<dt>2012/12/27</dt>
+<dd>
+本体修正<br>
+<a href="db/profile.cgi?_v=006&tpl=view2">006</a>
+<a href="db/profile.cgi?_v=051&tpl=view2">051</a>
+<a href="db/profile.cgi?_v=061&tpl=view2">061</a><br>
+パッチ追加<br>
+<a href="db/profile.cgi?_v=009&tpl=view2">009</a>
+<a href="db/profile.cgi?_v=055&tpl=view2">055</a></dd>
+
+<dt>2012/12/27</dt>
+<dd>
+本体修正<br>
+<a href="db/profile.cgi?_v=006&tpl=view2">006</a>
+<a href="db/profile.cgi?_v=009&tpl=view2">009</a>
+<a href="db/profile.cgi?_v=010&tpl=view2">010</a>
+<a href="db/profile.cgi?_v=052&tpl=view2">052</a>
+<a href="db/profile.cgi?_v=061&tpl=view2">061</a>
+<a href="db/profile.cgi?_v=064&tpl=view2">064</a><br>
+パッチ追加<br>
+<a href="db/profile.cgi?_v=013&tpl=view2">013</a>
+<a href="db/profile.cgi?_v=025&tpl=view2">025</a>
+<a href="db/profile.cgi?_v=026&tpl=view2">026</a>
+<a href="db/profile.cgi?_v=052&tpl=view2">052</a>
+<a href="db/profile.cgi?_v=055&tpl=view2">055</a>
+<a href="db/profile.cgi?_v=064&tpl=view2">064</a>
+<a href="db/profile.cgi?_v=070&tpl=view2">070</a>
+<a href="db/profile.cgi?_v=087&tpl=view2">087</a>
+<a href="db/profile.cgi?_v=091&tpl=view2">091</a></dd>
+
+<dt>2012/12/25</dt>
+<dd>
+遅刻提出<br>
+<a href="db/profile.cgi?_v=081&tpl=view2">081</a>
+<a href="db/profile.cgi?_v=091&tpl=view2">091</a><br>
+本体修正<br>
+<a href="db/profile.cgi?_v=006&tpl=view2">006</a>
+<a href="db/profile.cgi?_v=061&tpl=view2">061</a><br>
+パッチ追加<br>
+<a href="db/profile.cgi?_v=009&tpl=view2">009</a>
+<a href="db/profile.cgi?_v=027&tpl=view2">027</a>
+<a href="db/profile.cgi?_v=060&tpl=view2">060</a>
+<a href="db/profile.cgi?_v=070&tpl=view2">070</a>
+<a href="db/profile.cgi?_v=072&tpl=view2">072</a>
+<a href="db/profile.cgi?_v=087&tpl=view2">087</a></dd>
+
+<dt>2012/12/25</dt>
+<dd>
+作品公開<br>
+<a href="about.html#patch">作品の修正について</a><br>
+<br>
+遅刻提出<br>
+<a href="db/profile.cgi?_v=051&tpl=view2">051</a><br>
+
+変更・修正<br>
+<a href="db/profile.cgi?_v=014&tpl=view2">014</a>
+<a href="db/profile.cgi?_v=057&tpl=view2">057</a></dd>
+
+<dt>2012/12/24</dt>
+<dd>
+作品公開準備中<br>
+エントリー締切<br>
+提出締切(以後遅刻扱い)<br>
+<br>
+作品追加<br>
+<a href="db/profile.cgi?_v=082&tpl=view2">082</a>
+<a href="db/profile.cgi?_v=083&tpl=view2">083</a>
+<a href="db/profile.cgi?_v=084&tpl=view2">084</a>
+<a href="db/profile.cgi?_v=085&tpl=view2">085</a>
+<a href="db/profile.cgi?_v=086&tpl=view2">086</a>
+<a href="db/profile.cgi?_v=087&tpl=view2">087</a>
+<a href="db/profile.cgi?_v=088&tpl=view2">088</a>
+<a href="db/profile.cgi?_v=089&tpl=view2">089</a>
+<a href="db/profile.cgi?_v=090&tpl=view2">090</a>
+<a href="db/profile.cgi?_v=091&tpl=view2">091</a>
+<a href="db/profile.cgi?_v=092&tpl=view2">092</a>
+<a href="db/profile.cgi?_v=093&tpl=view2">093</a>
+<a href="db/profile.cgi?_v=094&tpl=view2">094</a>
+<a href="db/profile.cgi?_v=095&tpl=view2">095</a><br>
+提出<br>
+<a href="db/profile.cgi?_v=009&tpl=view2">009</a>
+<a href="db/profile.cgi?_v=010&tpl=view2">010</a>
+<a href="db/profile.cgi?_v=014&tpl=view2">014</a>
+<a href="db/profile.cgi?_v=023&tpl=view2">023</a>
+<a href="db/profile.cgi?_v=026&tpl=view2">026</a>
+<a href="db/profile.cgi?_v=030&tpl=view2">030</a>
+<a href="db/profile.cgi?_v=031&tpl=view2">031</a>
+<a href="db/profile.cgi?_v=034&tpl=view2">034</a>
+<a href="db/profile.cgi?_v=035&tpl=view2">035</a>
+<a href="db/profile.cgi?_v=038&tpl=view2">038</a>
+<a href="db/profile.cgi?_v=054&tpl=view2">054</a>
+<a href="db/profile.cgi?_v=057&tpl=view2">057</a>
+<a href="db/profile.cgi?_v=061&tpl=view2">061</a>
+<a href="db/profile.cgi?_v=062&tpl=view2">062</a>
+<a href="db/profile.cgi?_v=070&tpl=view2">070</a>
+<a href="db/profile.cgi?_v=077&tpl=view2">077</a>
+<a href="db/profile.cgi?_v=082&tpl=view2">082</a>
+<a href="db/profile.cgi?_v=085&tpl=view2">085</a>
+<a href="db/profile.cgi?_v=086&tpl=view2">086</a>
+<a href="db/profile.cgi?_v=087&tpl=view2">087</a>
+<a href="db/profile.cgi?_v=088&tpl=view2">088</a>
+<a href="db/profile.cgi?_v=090&tpl=view2">090</a>
+<a href="db/profile.cgi?_v=092&tpl=view2">092</a>
+<a href="db/profile.cgi?_v=093&tpl=view2">093</a>
+<a href="db/profile.cgi?_v=094&tpl=view2">094</a><br>
+遅刻提出<br>
+<a href="db/profile.cgi?_v=068&tpl=view2">068</a>
+<a href="db/profile.cgi?_v=095&tpl=view2">095</a><br>
+変更・修正<br>
+<a href="db/profile.cgi?_v=009&tpl=view2">009</a>
+<a href="db/profile.cgi?_v=026&tpl=view2">026</a>
+<a href="db/profile.cgi?_v=030&tpl=view2">030</a>
+<a href="db/profile.cgi?_v=031&tpl=view2">031</a>
+<a href="db/profile.cgi?_v=057&tpl=view2">057</a>
+<a href="db/profile.cgi?_v=068&tpl=view2">068</a>
+<a href="db/profile.cgi?_v=067&tpl=view2">077</a></dd>
+
+<dt>2012/12/23</dt>
+<dd>
+作品追加<br>
+<a href="db/profile.cgi?_v=081&tpl=view2">081</a><br>
+提出<br>
+<a href="db/profile.cgi?_v=064&tpl=view2">064</a>
+<a href="db/profile.cgi?_v=067&tpl=view2">067</a><br>
+変更・修正<br>
+<a href="db/profile.cgi?_v=067&tpl=view2">067</a></dd>
+
+<dt>2012/12/23</dt>
+<dd>
+作品追加<br>
+<a href="db/profile.cgi?_v=073&tpl=view2">073</a>
+<a href="db/profile.cgi?_v=074&tpl=view2">074</a>
+<a href="db/profile.cgi?_v=075&tpl=view2">075</a>
+<a href="db/profile.cgi?_v=076&tpl=view2">076</a>
+<a href="db/profile.cgi?_v=077&tpl=view2">077</a>
+<a href="db/profile.cgi?_v=078&tpl=view2">078</a>
+<a href="db/profile.cgi?_v=079&tpl=view2">079</a>
+<a href="db/profile.cgi?_v=080&tpl=view2">080</a><br>
+提出<br>
+<a href="db/profile.cgi?_v=013&tpl=view2">013</a>
+<a href="db/profile.cgi?_v=021&tpl=view2">021</a>
+<a href="db/profile.cgi?_v=024&tpl=view2">024</a>
+<a href="db/profile.cgi?_v=025&tpl=view2">025</a>
+<a href="db/profile.cgi?_v=039&tpl=view2">039</a>
+<a href="db/profile.cgi?_v=048&tpl=view2">048</a>
+<a href="db/profile.cgi?_v=071&tpl=view2">071</a>
+<a href="db/profile.cgi?_v=073&tpl=view2">073</a>
+<a href="db/profile.cgi?_v=074&tpl=view2">074</a>
+<a href="db/profile.cgi?_v=076&tpl=view2">076</a>
+<a href="db/profile.cgi?_v=078&tpl=view2">078</a><br>
+変更・修正<br>
+<a href="db/profile.cgi?_v=024&tpl=view2">024</a>
+<a href="db/profile.cgi?_v=048&tpl=view2">048</a></dd>
+
+<dt>2012/12/22</dt>
+<dd>
+作品追加<br>
+<a href="db/profile.cgi?_v=072&tpl=view2">072</a><br>
+提出<br>
+<a href="db/profile.cgi?_v=015&tpl=view2">015</a>
+<a href="db/profile.cgi?_v=016&tpl=view2">016</a>
+<a href="db/profile.cgi?_v=052&tpl=view2">052</a>
+<a href="db/profile.cgi?_v=055&tpl=view2">055</a>
+<a href="db/profile.cgi?_v=058&tpl=view2">058</a>
+<a href="db/profile.cgi?_v=072&tpl=view2">072</a><br>
+変更・修正<br>
+<a href="db/profile.cgi?_v=015&tpl=view2">015</a>
+<a href="db/profile.cgi?_v=045&tpl=view2">045</a>
+<a href="db/profile.cgi?_v=052&tpl=view2">052</a>
+<a href="db/profile.cgi?_v=058&tpl=view2">058</a></dd>
+
+<dt>2012/12/21</dt>
+<dd>
+作品追加<br>
+<a href="db/profile.cgi?_v=069&tpl=view2">069</a>
+<a href="db/profile.cgi?_v=070&tpl=view2">070</a>
+<a href="db/profile.cgi?_v=071&tpl=view2">071</a><br>
+提出<br>
+<a href="db/profile.cgi?_v=001&tpl=view2">001</a>
+<a href="db/profile.cgi?_v=007&tpl=view2">007</a>
+<a href="db/profile.cgi?_v=037&tpl=view2">037</a>
+<a href="db/profile.cgi?_v=069&tpl=view2">069</a><br>
+変更・修正<br>
+<a href="db/profile.cgi?_v=001&tpl=view2">001</a>
+<a href="db/profile.cgi?_v=006&tpl=view2">006</a>
+<a href="db/profile.cgi?_v=007&tpl=view2">007</a></dd>
+
+<dt>2012/12/20</dt>
+<dd>
+提出<br>
+<a href="db/profile.cgi?_v=043&tpl=view2">043</a>
+<a href="db/profile.cgi?_v=050&tpl=view2">050</a><br>
+変更・修正<br>
+<a href="db/profile.cgi?_v=003&tpl=view2">003</a></dd>
+
+<dt>2012/12/18</dt>
+<dd>
+作品追加<br>
+<a href="db/profile.cgi?_v=066&tpl=view2">066</a>
+<a href="db/profile.cgi?_v=067&tpl=view2">067</a>
+<a href="db/profile.cgi?_v=068&tpl=view2">068</a></dd>
+
+<dt>2012/12/17</dt>
+<dd>
+作品追加<br>
+<a href="db/profile.cgi?_v=065&tpl=view2">065</a><br>
+提出<br>
+<a href="db/profile.cgi?_v=017&tpl=view2">017</a>
+<a href="db/profile.cgi?_v=065&tpl=view2">065</a><br>
+変更・修正<br>
+<a href="db/profile.cgi?_v=017&tpl=view2">017</a></dd>
+
+<dt>2012/12/16</dt>
+<dd>
+作品追加<br>
+<a href="db/profile.cgi?_v=061&tpl=view2">061</a>
+<a href="db/profile.cgi?_v=062&tpl=view2">062</a>
+<a href="db/profile.cgi?_v=063&tpl=view2">063</a>
+<a href="db/profile.cgi?_v=064&tpl=view2">064</a><br>
+提出<br>
+<a href="db/profile.cgi?_v=053&tpl=view2">053</a>
+<a href="db/profile.cgi?_v=063&tpl=view2">063</a><br>
+変更・修正<br>
+<a href="db/profile.cgi?_v=002&tpl=view2">002</a>
+<a href="db/profile.cgi?_v=053&tpl=view2">053</a></dd>
+
+<dt>2012/12/15</dt>
+<dd>
+提出<br>
+<a href="db/profile.cgi?_v=028&tpl=view2">028</a>
+<a href="db/profile.cgi?_v=047&tpl=view2">047</a></dd>
+<dt>2012/12/13</dt>
+<dd>
+作品追加<br>
+<a href="db/profile.cgi?_v=060&tpl=view2">060</a><br>
+提出<br>
+<a href="db/profile.cgi?_v=041&tpl=view2">041</a>
+<a href="db/profile.cgi?_v=042&tpl=view2">042</a>
+<a href="db/profile.cgi?_v=060&tpl=view2">060</a><br>
+変更・修正<br>
+<a href="db/profile.cgi?_v=039&tpl=view2">039</a>
+<a href="db/profile.cgi?_v=041&tpl=view2">041</a></dd>
+<dt>2012/12/11</dt>
+<dd>
+作品追加<br>
+<a href="db/profile.cgi?_v=057&tpl=view2">057</a>
+<a href="db/profile.cgi?_v=058&tpl=view2">058</a>
+<a href="db/profile.cgi?_v=059&tpl=view2">059</a><br>
+提出<br>
+<a href="db/profile.cgi?_v=006&tpl=view2">006</a>
+<a href="db/profile.cgi?_v=027&tpl=view2">027</a><br>
+変更・修正<br>
+<a href="db/profile.cgi?_v=015&tpl=view2">015</a>
+<a href="db/profile.cgi?_v=027&tpl=view2">027</a></dd>
+<dt>2012/12/7</dt>
+<dd>
+作品追加<br>
+<a href="db/profile.cgi?_v=055&tpl=view2">055</a>
+<a href="db/profile.cgi?_v=056&tpl=view2">056</a><br>
+提出<br>
+<a href="db/profile.cgi?_v=056&tpl=view2">056</a><br>
+変更・修正<br>
+<a href="db/profile.cgi?_v=028&tpl=view2">028</a></dd>
+<dt>2012/12/4</dt>
+<dd>提出<br>
+<a href="db/profile.cgi?_v=004&tpl=view2">004</a>
+<a href="db/profile.cgi?_v=046&tpl=view2">046</a><br>
+変更・修正<br>
+<a href="db/profile.cgi?_v=004&tpl=view2">004</a></dd>
+<dt>2012/12/1</dt>
+<dd>作品提出開始<br>
+<br>
+作品追加<br>
+<a href="db/profile.cgi?_v=053&tpl=view2">053</a>
+<a href="db/profile.cgi?_v=054&tpl=view2">054</a><br>
+提出<br>
+<a href="db/profile.cgi?_v=032&tpl=view2">032</a>
+<a href="db/profile.cgi?_v=033&tpl=view2">033</a>
+<a href="db/profile.cgi?_v=040&tpl=view2">040</a>
+<a href="db/profile.cgi?_v=049&tpl=view2">049</a><br>
+変更・修正<br>
+<a href="db/profile.cgi?_v=028&tpl=view2">028</a></dd>
+<dt>2012/11/25</dt>
+<dd>作品追加<br>
+<a href="db/profile.cgi?_v=050&tpl=view2">050</a>
+<a href="db/profile.cgi?_v=051&tpl=view2">051</a>
+<a href="db/profile.cgi?_v=052&tpl=view2">052</a></dd>
+<dt>2012/11/22</dt>
+<dd>作品追加<br>
+<a href="db/profile.cgi?_v=049&tpl=view2">049</a><br>
+変更・修正<br>
+<a href="db/profile.cgi?_v=045&tpl=view2">045</a></dd>
+<dt>2012/11/18</dt>
+<dd>作品追加<br>
+<a href="db/profile.cgi?_v=048&tpl=view2">048</a><br>
+変更・修正<br>
+<a href="db/profile.cgi?_v=006&tpl=view2">006</a>
+<a href="db/profile.cgi?_v=046&tpl=view2">046</a></dd>
+<dt>2012/11/12</dt>
+<dd>作品追加<br>
+<a href="db/profile.cgi?_v=046&tpl=view2">046</a>
+<a href="db/profile.cgi?_v=047&tpl=view2">047</a></dd>
+<dt>2012/11/10</dt>
+<dd>作品追加<br>
+<a href="db/profile.cgi?_v=045&tpl=view2">045</a></dd>
+<dt>2012/11/10</dt>
+<dd>作品追加<br>
+<a href="db/profile.cgi?_v=044&tpl=view2">044</a></dd>
+<dt>2012/11/5</dt>
+<dd>作品追加<br>
+<a href="db/profile.cgi?_v=043&tpl=view2">043</a><br>
+変更・修正<br>
+<a href="db/profile.cgi?_v=006&tpl=view2">006</a></dd>
+<dt>2012/11/4</dt>
+<dd>作品追加<br>
+<a href="db/profile.cgi?_v=041&tpl=view2">041</a>
+<a href="db/profile.cgi?_v=042&tpl=view2">042</a></dd>
+<dt>2012/11/3</dt>
+<dd>作品追加<br>
+<a href="db/profile.cgi?_v=040&tpl=view2">040</a></dd>
+<dt>2012/10/31</dt>
+<dd>作品追加<br>
+<a href="db/profile.cgi?_v=038&tpl=view2">038</a>
+<a href="db/profile.cgi?_v=039&tpl=view2">039</a></dd>
+<dt>2012/10/28</dt>
+<dd>作品追加<br>
+<a href="db/profile.cgi?_v=036&tpl=view2">036</a>
+<a href="db/profile.cgi?_v=037&tpl=view2">037</a></dd>
+<dt>2012/10/26</dt>
+<dd>作品追加<br>
+<a href="db/profile.cgi?_v=035&tpl=view2">035</a></dd>
+<dt>2012/10/23</dt>
+<dd>作品追加<br>
+<a href="db/profile.cgi?_v=034&tpl=view2">034</a></dd>
+<dt>2012/10/22</dt>
+<dd>作品追加<br>
+<a href="db/profile.cgi?_v=032&tpl=view2">032</a>
+<a href="db/profile.cgi?_v=033&tpl=view2">033</a></dd>
+<dt>2012/10/21</dt>
+<dd>作品追加<br>
+<a href="db/profile.cgi?_v=031&tpl=view2">031</a></dd>
+<dt>2012/10/20</dt>
+<dd>作品追加<br>
+<a href="db/profile.cgi?_v=030&tpl=view2">030</a></dd>
+<dt>2012/10/20</dt>
+<dd>作品追加<br>
+<a href="db/profile.cgi?_v=029&tpl=view2">029</a></dd>
+<dt>2012/10/18</dt>
+<dd>作品追加<br>
+<a href="db/profile.cgi?_v=027&tpl=view2">027</a>
+<a href="db/profile.cgi?_v=028&tpl=view2">028</a></dd>
+<dt>2012/10/17</dt>
+<dd>作品追加<br>
+<a href="db/profile.cgi?_v=026&tpl=view2">026</a></dd>
+<dt>2012/10/16</dt>
+<dd>作品追加<br>
+<a href="db/profile.cgi?_v=025&tpl=view2">025</a></dd>
+<dt>2012/10/15</dt>
+<dd>作品追加<br>
+<a href="db/profile.cgi?_v=024&tpl=view2">024</a></dd>
+<dt>2012/10/15</dt>
+<dd>作品追加<br>
+<a href="db/profile.cgi?_v=023&tpl=view2">023</a></dd>
+<dt>2012/10/10</dt>
+<dd>作品追加<br>
+<a href="db/profile.cgi?_v=020&tpl=view2">020</a>
+<a href="db/profile.cgi?_v=021&tpl=view2">021</a>
+<a href="db/profile.cgi?_v=022&tpl=view2">022</a><br>
+変更・修正<br>
+<a href="db/profile.cgi?_v=009&tpl=view2">009</a></dd>
+<dt>2012/10/07</dt>
+<dd>作品追加<br>
+<a href="db/profile.cgi?_v=018&tpl=view2">018</a>
+<a href="db/profile.cgi?_v=019&tpl=view2">019</a></dd>
+<dt>2012/10/06</dt>
+<dd>作品追加<br>
+<a href="db/profile.cgi?_v=014&tpl=view2">014</a>
+<a href="db/profile.cgi?_v=015&tpl=view2">015</a>
+<a href="db/profile.cgi?_v=016&tpl=view2">016</a>
+<a href="db/profile.cgi?_v=017&tpl=view2">017</a></dd>
+<dt>2012/10/06</dt>
+<dd>作品追加<br>
+<a href="db/profile.cgi?_v=013&tpl=view2">013</a><br>
+変更・修正<br>
+<a href="db/profile.cgi?_v=004&tpl=view2">004</a>
+<a href="db/profile.cgi?_v=007&tpl=view2">007</a></dd>
+<dt>2012/10/04</dt>
+<dd>作品追加<br>
+<a href="db/profile.cgi?_v=010&tpl=view2">010</a>
+<a href="db/profile.cgi?_v=011&tpl=view2">011</a>
+<a href="db/profile.cgi?_v=012&tpl=view2">012</a></dd>
+<dt>2012/10/04</dt>
+<dd>作品追加<br>
+<a href="db/profile.cgi?_v=007&tpl=view2">007</a>
+<a href="db/profile.cgi?_v=008&tpl=view2">008</a>
+<a href="db/profile.cgi?_v=009&tpl=view2">009</a><br>
+<a href="link.html">リンク</a>に<a href="img/bnkohaku2012_2.png">バナー</a>追加</dd>
+<dt>2012/10/03</dt>
+<dd>作品追加<br>
+<a href="db/profile.cgi?_v=001&tpl=view2">001</a>
+<a href="db/profile.cgi?_v=002&tpl=view2">002</a>
+<a href="db/profile.cgi?_v=003&tpl=view2">003</a>
+<a href="db/profile.cgi?_v=004&tpl=<script type="text/javascript"><!--
+var fc2footerparam = 'charset=' + encodeURIComponent(document.charset ? document.charset : document.characterSet) + '&url=' + encodeURIComponent(document.location) + '&service=1&r=' + Math.floor(Math.random()*99999999999);
+var fc2footertag = '<' + 'script src="//adult.vip.chps-api.fc2.com/apis/footer/?' + fc2footerparam + '" charset="UTF-8"><' + '/script>';
+document.write(fc2footertag);
+//--></script>
+<!-- FC2, inc.-->
+<img src="//media.fc2.com/counter_img.php?id=50" style="visibility:hidden" alt="inserted by FC2 system" width="0" height="0">
+<!-- FC2, inc.-->

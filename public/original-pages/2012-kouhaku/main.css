@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+#viewer {
+	margin: 0 auto;
+	width:  730px;
+	height: 296px;
+	left:     0px;
+	text-align: left;
+	overflow: hidden;
+	position: relative;
+}
+
+#viewer img {
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+
+#box {
+	float: left;
+	width: 250px;
+	left:   45px;
+	position: relative;
+	text-align: center;
+}
+
+#box table {
+	WIDTH:234px;
+}
+#boxtd {
+	WIDTH:234px;
+	HEIGHT:10px;
+	background-repeat: no-repeat;
+	background-position: left center;"
+}
+
+.h {
+	color: #FFFFFF;
+	font-size: 170%;
+	line-height: 200%;
+	font-weight: bold;
+}
+
+.ht {
+	color: #FFFFFF;
+	font-size: 120%;
+	line-height: normal;
+}
+
+.new dl {
+	width: 190px;			/*ボックスの幅*/
+	height: 200px;			/*ボックスの高さ*/
+	overflow: auto;
+	padding-left: 0px;
+}
+
+.new dt {
+	font-weight: bold;	/*日付の色を太字にする*/
+	color: #A63737;		/*日付の文字色*/
+}
+
+.new dd {
+	border-bottom: 1px solid #FFD0D0;	/*日付ごとの下線*/
+	color: #FFFFFF;		/*文字色*/
+}

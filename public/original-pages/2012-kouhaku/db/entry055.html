@@ -1,0 +1,558 @@
+<html><head>
+<title>VIPRPG紅白2012</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="shortcut icon" href="favicon.ico">
+
+
+<style type="text/css">
+<!--
+.social { margin:30px 0 0 0; }
+.facebookbtn { text-align:right; margin: 0 0 0 5px; }
+.tweetbtn { text-align:right; margin: 3px 0 4px 5px; }
+
+/* base */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	font-family: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+/*	outline: 0;*/
+}
+
+html {
+	font-size: 75%;
+	filter: expression(document.execCommand("BackgroundImageCache", false, true));
+}
+
+img {
+	vertical-align: text-bottom;
+	-ms-interpolation-mode: bicubic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+li ol, ul {
+	list-style: inside;
+}
+
+table {
+	border-collapse: collapse;
+/*	border-collapse: separate;*/
+	border-spacing: 0;
+}
+
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	vertical-align: top;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+
+blockquote, q {
+	quotes: "" "";
+}
+
+a:focus {
+/*\*/
+	overflow: hidden;
+/**/
+}
+
+option {
+	padding-right: 10px;
+}
+
+/* common */
+
+body {
+	font-size: 100%;
+	line-height: 140%;
+	font-family: Arial,Helvetica,sans-serif;
+	color: #000;
+	text-align: center;
+	background: #fff;
+}
+
+a:link { text-decoration:underline; color: #000;}
+a:visited { text-decoration:underline; color: #000;}
+a:active { text-decoration:underline; color: #000;}
+a:hover { text-decoration:none; color: #000;}
+
+html , body {height:100%;}
+body > #container {height:auto;}
+
+h2 {
+	padding: 30px 0;
+	width: 100%;
+	font-size: 12px;
+	text-align: center;
+}
+
+
+#container {
+	width: 840px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+#balloonbox {
+	margin: 0 auto;
+	margin-bottom: 0px;
+	width:  840px;
+	height: 88px;
+	left:     0px;
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: left center;"
+}
+
+#ballooninner {
+	margin: 0 auto;
+	padding: 8px;
+	width:  800px;
+	height: 48px;
+	left:     0px;
+	text-align: left;
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: left center;"
+}
+
+.back {
+	padding:40px 0px 0px 0px;
+	background:url("img/back1_top.png") no-repeat left top;
+}
+
+.back .body {
+	background:url("img/back1_body.png") repeat-y left top;
+}
+
+
+#box2 {
+	width: 720px;
+	padding: 0px 0px 0px 0px;
+	left:    60px;
+	position: relative;
+	text-align: left;
+	color: #000;
+}
+
+
+#entrylist table {
+	border: 3px solid #cccccc;	/*外枠の線*/
+	width: 100%;
+}
+
+#entrylist td, #entrylist th {
+	border: 1px solid #000000;	/*内枠の線。ここでは点線(IE6前だと破線で表示される)に設定*/
+	padding: 5px 5px;			/*余白*/
+	line-height: 1.0;
+}
+
+#entrylist td.s, #entrylist th.s {
+	background-color: #000000;
+	border: 1px solid #000000;	/*内枠の線。ここでは点線(IE6前だと破線で表示される)に設定*/
+	padding: 0px 0px;			/*余白*/
+	line-height: 1.0;
+	height: 8px;
+}
+
+#entrylist th.red, #entrylist td.red {
+	background-color: #ff7777;
+	vertical-align: middle;
+}
+
+#entrylist th.white, #entrylist td.white {
+	background-color: #FFFFFF;
+	vertical-align: middle;
+}
+
+#entrylist td.gray, #entrylist th.gray {
+	background-color: #EEEEEE;
+	vertical-align: middle;
+}
+
+#entrylist td.dgray, #entrylist th.dgray {
+	background-color: #AAAAAA;
+	vertical-align: middle;
+}
+
+#entrylist td.black, #entrylist th.black {
+	background-color: #000000;
+	vertical-align: middle;
+}
+
+#entrylist th {
+	background-color: #fafafa;	/*左側（table midashi部分）の背景色*/
+	padding: 0px 0px;			/*余白*/
+	height: 32px;
+	width:  32px;
+	text-align: center;
+}
+
+.pagetop {
+	text-align: center;
+}
+
+.new dl {
+	width: 100%;			/*ボックスの幅*/
+	height: 100px;			/*ボックスの高さ*/
+	overflow: auto;
+	padding-left: 0px;
+}
+
+.new dt {
+	font-weight: bold;	/*日付の色を太字にする*/
+	color: #A63737;		/*日付の文字色*/
+}
+
+.new dd {
+	border-bottom: 1px solid #FFD0D0;	/*日付ごとの下線*/
+	color: #000000;		/*文字色*/
+}
+
+/* Navigation */
+.nav, .nav ul { 
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav {
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: 100;
+  position: relative;
+}
+.nav li {
+  border-left: 1px solid #fff;
+  float: left;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.nav li a, .nav li a:link, .nav li a:active, .nav li a:visited {
+  font: bold 1.22em/25px Arial, Helvetica, sans-serif;
+  background: #fff;
+  color: #000;
+  display: block;
+  padding: 0 9px;
+  text-transform: none;  /* lowercase; */
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  background: #ff7777;
+  color: #fff;	
+
+}
+#nav-one li:hover a, 
+#nav-one li.sfHover a {
+  background: #ff7777;
+  color: #fff;
+}
+#nav-one li:hover ul a, 
+#nav-one li.sfHover ul a {
+  background: #fff;
+  color: #000;	
+}
+#nav-one li:hover ul a:hover, 
+#nav-one li.sfHover ul a:hover {
+  background: #ff7777;
+  color: #fff;	
+}
+
+.nav ul {
+  background: #565656;
+  border-bottom: 1px solid #000;
+  list-style: none;
+  margin: 0;
+  width: 110px;
+  position: absolute;
+  top: -999em;
+  left: -1px;
+}
+.nav li:hover ul,
+.nav li.sfHover ul {
+  top: 25px;
+}
+.nav ul li {
+  border: 0;
+  float: none;
+}
+.nav ul a {
+  border: 1px solid #000;
+  border-bottom: 0;
+  padding-right: 20px;
+  width: 90px;
+  white-space: nowrap;
+}
+.nav ul a:hover {
+  background: #ff7777;
+  color: #fff;
+}
+
+#navigate {
+	height:25px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	padding: 0px 0;
+	background: #fff;
+	color: #000;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+}
+
+-->
+</style>
+
+<script type="text/javascript" src="../linked/jquery-1.5.2.min.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+	$("#nav-one li").hover(
+		function(){ $("ul", this).fadeIn("fast"); }, 
+		function() { } 
+	);
+	if (document.all) {
+		$("#nav-one li").hoverClass ("sfHover");
+	}
+});
+
+$.fn.hoverClass = function(c) {
+	return this.each(function(){
+		$(this).hover( 
+			function() { $(this).addClass(c);  },
+			function() { $(this).removeClass(c); }
+		);
+	});
+};
+</script>
+
+<link rel="canonical" href="index.html">
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+
+
+<div id="balloonbox" style="background-image: url(&quot;img/balloon1.png&quot;);">
+<div id="ballooninner">
+
+<div id="navigate"><center>
+<table style="font-size:100%;">
+	<tbody>
+		<tr>
+			<td>
+		<ul id="nav-one" class="nav">
+			<li>
+				<a href="../index.html">Home</a>
+			</li>
+			<li>
+				<a href="../about.html">About</a>
+				<ul>
+					<li><a href="../about.html#schedule">スケジュール</a></li>
+					<li><a href="../about.html#entry">参加方法</a></li>
+					<li><a href="../about.html#present">提出方法</a></li>
+					<li><a href="../about.html#patch">作品の修正</a></li>
+					<li><a href="../about.html#Q&amp;A">Q&amp;A</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="../enq.html">投票</a>
+				<ul>
+					<li><a href="../enq.html#about">投票審査とは</a></li>
+					<li><a href="../enq.html#howto">投票方法</a></li>
+					<li><a href="../enq.html#section">審査部門</a></li>
+					<li><a href="../enq.html#total">集計</a></li>
+					<li><a href="interim.html">中間発表</a></li>
+					<li><a href="../enq2.html">結果発表</a></li>
+				</ul>
+			</li><li>
+			</li><li>
+				<a href="../entry.html">作品一覧</a>
+				<ul>
+					<li><a href="index.html">リスト</a></li>
+					<li><a href="thumbnails.html">サムネイル</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="../bbs.html">BBS</a>
+				<ul>
+					<li><a href="http://jbbs.livedoor.jp/otaku/15695/" target="_blank">運営掲示板</a></li>
+					<li><a href="http://jbbs.livedoor.jp/otaku/15696/" target="_blank">感想掲示板</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="../link.html">リンク</a>
+				<ul>
+					<li><a href="http://www53.atwiki.jp/vipkohaku2012_1/" target="_blank">攻略Wiki</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="https://twitter.com/vipkohaku2012_1">Twitter</a>
+			</li>
+			<li>
+<a href="http://www.netriver.jp/product/" target="_blank">
+</a>
+<div id="CountRiverObjDiv" style="position:absolute; top:0px; left:0px; display:none; z-index:1000;"></div>
+			</li>
+		</ul>
+			</td>
+		</tr>
+	</tbody>
+</table></center>
+</div>
+
+</div><!--/#ballooninner-->
+</div><!--/#balloonbox-->
+
+<div id="container">
+
+<div class="back">
+<div class="body">
+
+<div id="box2">
+
+<div align="right"><a href="http://www45.atpages.jp/vipkohaku2012/db/rss.cgi"><img src="rss.gif" width="42" height="14" border="0"></a></div>
+<p>
+[ <a href="../index.html">HOME</a> ] 
+[ <a href="index.html">リスト</a> ] 
+[ <a href="thumbnails.html">サムネイル</a> ] 
+[ <a href="interim.html">中間発表</a> ] 
+[ <a href="http://yahoo.jp/c5vIhY" target="_blank">作品保管所①</a> ] 
+[ <a href="http://yahoo.jp/lDCCEz" target="_blank">作品保管所②</a> ]
+</p>
+<table width="100%">
+	<tbody><tr valign="bottom">
+		<td style="background:#F77; color:#fff; text-align:center;">登録番号 055 を表示 </td>
+	</tr>
+</tbody></table>
+
+<p align="center"></p>
+
+<br>
+
+
+<p align="center">
+<table id="entrylist" style="width: 640px; font-size:100%;"><tbody><tr>
+<td class="black" style="text-align:right;"><a href="entry054.html" target="_self" style="color:#fff;">&lt;&lt; BACK </a></td>
+<td class="black" style="text-align:center;"><a href="index.html" target="_self" style="color:#fff;">作品一覧</a></td>
+<td class="black" style="text-align:left;"><a href="entry056.html" target="_self" style="color:#fff;">NEXT &gt;&gt;</a></td>
+</tr></tbody></table>
+
+<table id="entrylist" style="width: 640px; font-size:100%;">
+		<tbody><tr>
+			<th class="black"><img src="_img/i/i055.png" width="32" height="32"></th>
+			<td class="red" style="color:#000;">No.055 - ABCD冒険記</td>
+		</tr>
+</tbody></table>
+
+<img src="_img/s/s055a.png" onmouseover="this.src='_img/s/s055b.png';" onmouseout="this.src='_img/s/s055a.png';" border="0">
+
+<table id="entrylist" style="width: 640px; font-size:100%;">
+<tbody><tr>
+<td class="red" style="padding: 10px 20px; vertical-align: middle;">
+<b><a href="http://yahoo.jp/1Wvuxp" target="_blank">本体ダウンロード(18.67MB)</a> / <a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1354874741/" target="_blank">BBS</a> / <a href="http://enq-maker.com/atIyxPE" target="_blank">投票</a></b>
+</td>
+</tr>
+<tr>
+<td class="white" style="padding: 4px 20px;">ジャンル：中編RPG</td>
+</tr>
+<tr>
+<td class="white" style="padding: 4px 20px;">ツール：RPGツクール2000</td>
+</tr>
+<tr>
+<td class="white" style="padding: 4px 20px;">配信/投稿：可/可</td>
+</tr>
+<tr>
+<td class="white" style="padding: 4px 20px;">作者：COMタロウさんの世界</td>
+</tr>
+<tr>
+<td class="white" style="padding: 4px 20px;">作者コメント：<br>ABCDの4人がだらだら冒険する物語です。<br>戦闘は某フリーゲームを参考にした・・・じゃなくて丸パクりの擬似サイドビューのデフォ戦です。<br>ボスに応じて装備を変えていく必要があったりなかったりしますので、そういうのが好きな方はどうぞ。<br>粗しか無いゲームだと思いますが、よろしくお願いいたします。</td>
+</tr>
+<tr>
+<td class="gray" style="padding:  4px 20px;">管理人コメント：<br>KJMD…おっと違った。<br>擬似サイドビューデフォ戦たぁ懐かしいじゃないの。</td>
+</tr>
+
+		<tr>
+			<td class="red" style="padding: 10px 20px;">更新履歴 (提出状況：提出済)</td>
+		</tr>
+		<tr>
+			<td class="white" style="padding: 10px 20px; height:50px;">
+			<div class="new">
+<dl>
+<dt>2013/1/23</dt><dd>作品本体修正　kohaku2012_055_1.zip</dd><dt>2013/1/18</dt><dd><a href="http://yahoo.jp/box/fI1bAn" target="_blank">パッチ追加</a>　kohaku2012_055p14.zip</dd><dt>2013/1/11</dt><dd>パッチ追加　kohaku2012_055p13.zip</dd><dt>2013/1/9</dt><dd>パッチ追加　kohaku2012_055p12.zip</dd><dt>2013/1/5</dt><dd>パッチ追加　kohaku2012_055p11.zip</dd><dt>2013/1/4</dt><dd>パッチ追加　kohaku2012_055p10.zip</dd><dt>2013/1/3</dt><dd>パッチ追加　kohaku2012_055p9.zip</dd><dt>2013/1/1</dt><dd>パッチ追加　kohaku2012_055p8.zip</dd><dt>2013/1/1</dt><dd>パッチ追加　kohaku2012_055p7.zip</dd><dt>2012/12/31</dt><dd>パッチ追加　kohaku2012_055p6.zip</dd><dt>2012/12/30</dt><dd>パッチ追加　kohaku2012_055p5.zip</dd><dt>2012/12/29</dt><dd>パッチ追加　kohaku2012_055p3.zip</dd><dt>2012/12/27</dt><dd>パッチ追加</dd><dt>2012/12/27</dt><dd>パッチ追加</dd><dt>2012/12/22</dt><dd>期日内提出</dd><dt>2012/12/7</dt><dd>エントリー</dd>
+</dl>
+			</div>
+			</td>
+		</tr>
+
+<tr>
+<td class="gray" style="padding:  3px 20px;">
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=055&amp;tpl=view2" data-text="【No.055】ABCD冒険記" data-lang="ja" data-hashtags="vipkohaku2012_055">ツイート</a>
+</td>
+</tr>
+</tbody></table>
+
+<table id="entrylist" style="width: 640px; font-size:100%;"><tbody><tr>
+<td class="black" style="text-align:right;"><a href="entry054.html" target="_self" style="color:#fff;">&lt;&lt; BACK </a></td>
+<td class="black" style="text-align:center;"><a href="index.html" target="_self" style="color:#fff;">作品一覧</a></td>
+<td class="black" style="text-align:left;"><a href="entry056.html" target="_self" style="color:#fff;">NEXT &gt;&gt;</a></td>
+</tr></tbody></table>
+
+
+</p>
+
+
+<br>
+
+
+
+
+
+<hr>
+<p align="center">(1/1)</p>
+<div class="pagetop"><a href="#navigate">ページTOPに戻る</a></div>
+
+</div><!--/#box2-->
+
+<!-- このスクリプトをご利用頂くには著作権の表記が条件となっております。 -->
+<h2>COPYPASTE © <a href="http://www10.atwiki.jp/vip_rpg/">2012 VIPRPG</a>.</h2>
+<h2><a href="http://www.coolandcool.net/" target="_blank" style="font-size:11pt">Database Factory</a></h2>
+
+</div><!--/#back.body-->
+</div><!--/#back-->
+</div><!--/#container-->
+
+
+<div style="text-align:center; font-size:10px;display:block !important; visibility:visible !important;"><a style="text-decoration:none;font-color:" href="http://atpages.jp/keyword">Powered by キーワード@Pages</a></div>
+
+
+
+</body></html>

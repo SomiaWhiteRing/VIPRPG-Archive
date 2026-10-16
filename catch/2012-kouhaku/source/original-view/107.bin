@@ -1,0 +1,290 @@
+﻿@charset "utf-8";
+
+/* =======================================
+
+	CommonElements
+
+======================================= */
+body {
+	font-size: 100%;
+	line-height: 140%;
+	font-family: Arial,Helvetica,sans-serif;
+	color: #000;
+	text-align: center;
+	background: #fff;
+}
+
+a:link { text-decoration:underline; color: #000;}
+a:visited { text-decoration:underline; color: #000;}
+a:active { text-decoration:underline; color: #000;}
+a:hover { text-decoration:none; color: #000;}
+
+h1 {
+	margin-bottom: 20px;
+	padding: 10px 0;
+	background: #000;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+}
+h2 {
+	padding: 30px 0;
+	width: 100%;
+	font-size: 12px;
+	text-align: center;
+}
+
+h3 {
+	padding: 10px 0;
+	width: 100%;
+	color: #A63737;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+h4 {
+	padding: 5px 0px 3px;
+	width: 100%;
+	color: #000;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+p {
+	padding: 0px 0px 5px 0px;
+}
+
+html , body {height:100%;}
+body > #container {height:auto;}
+
+#container {
+	width: 840px;
+	margin-right: auto;
+	margin-left: auto;
+	height:100%;/* for IE6 */
+	min-height:100%;
+	text-align: center;
+}
+
+#balloonbox {
+	margin: 0 auto;
+	margin-bottom: 0px;
+	width:  840px;
+	height: 88px;
+	left:     0px;
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: left center;"
+}
+
+#ballooninner {
+	margin: 0 auto;
+	padding: 8px;
+	width:  800px;
+	height: 48px;
+	left:     0px;
+	text-align: left;
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: left center;"
+}
+
+.back {
+	padding:40px 0px 0px 0px;
+	background:url(img/back1_top.png) no-repeat left top;
+}
+
+.back .body {
+	background:url(img/back1_body.png) repeat-y left top;
+}
+
+#box1 {
+	width: 400px;
+	left:   60px;
+	position: relative;
+	text-align: left;
+	color: #000;
+}
+#box1 table {
+	border: 3px solid #cccccc;	/*外枠の線*/
+}
+
+#box1 caption, #box1 th, #box1 td {
+	border: 1px dotted #999999;	/*内枠の線。ここでは点線(IE6前だと破線で表示される)に設定*/
+	padding: 3px 5px;			/*余白*/
+	line-height: 1.8;
+}
+#box1 th {
+	background-color: #EEEEEE;	/*左側（table midashi部分）の背景色*/
+	text-align: center;
+	vertical-align: middle;
+}
+
+#box2 {
+	width: 720px;
+	padding: 0px 0px 0px 0px;
+	left:    60px;
+	position: relative;
+	text-align: left;
+	color: #000;
+}
+
+
+#illust1 {
+	width: 246px;
+	height: 500px;
+	right:   55px;
+	float: right;
+	position: relative;
+	text-align: right;
+	color: #000;
+	background-repeat: no-repeat;
+}
+
+#entrylist table {
+	border: 3px solid #cccccc;	/*外枠の線*/
+	width: 100%;
+}
+
+#entrylist td, #entrylist th {
+	border: 1px solid #000000;	/*内枠の線。ここでは点線(IE6前だと破線で表示される)に設定*/
+	padding: 0px 5px;			/*余白*/
+	line-height: 1.0;
+}
+
+#entrylist td.s, #entrylist th.s {
+	background-color: #000000;
+	border: 1px solid #000000;	/*内枠の線。ここでは点線(IE6前だと破線で表示される)に設定*/
+	padding: 0px 0px;			/*余白*/
+	line-height: 1.0;
+	height: 8px;
+}
+
+#entrylist td.red {
+	background-color: #ff7777;
+	vertical-align: middle;
+}
+
+#entrylist td.white {
+	background-color: #FFFFFF;
+	vertical-align: middle;
+}
+
+#entrylist td.gray, #entrylist th.gray {
+	background-color: #EEEEEE;
+	vertical-align: middle;
+}
+
+#entrylist td.dgray, #entrylist th.dgray {
+	background-color: #AAAAAA;
+	vertical-align: middle;
+}
+
+#entrylist td.black, #entrylist th.black {
+	background-color: #000000;
+}
+
+#entrylist th {
+	background-color: #fafafa;	/*左側（table midashi部分）の背景色*/
+	padding: 0px 0px;			/*余白*/
+	height: 32px;
+	width:  32px;
+	text-align: center;
+}
+
+.pagetop {
+	text-align: right;
+}
+
+/* Navigation */
+.nav, .nav ul { 
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav {
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: 100;
+  position: relative;
+}
+.nav li {
+  border-left: 1px solid #fff;
+  float: left;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.nav li a, .nav li a:link, .nav li a:active, .nav li a:visited {
+  font: bold 1.22em/25px Arial, Helvetica, sans-serif;
+  background: #fff;
+  color: #000;
+  display: block;
+  padding: 0 9px;
+  text-transform: none;  /* lowercase; */
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  background: #ff7777;
+  color: #fff;	
+
+}
+#nav-one li:hover a, 
+#nav-one li.sfHover a {
+  background: #ff7777;
+  color: #fff;
+}
+#nav-one li:hover ul a, 
+#nav-one li.sfHover ul a {
+  background: #fff;
+  color: #000;	
+}
+#nav-one li:hover ul a:hover, 
+#nav-one li.sfHover ul a:hover {
+  background: #ff7777;
+  color: #fff;	
+}
+
+.nav ul {
+  background: #565656;
+  border-bottom: 1px solid #000;
+  list-style: none;
+  margin: 0;
+  width: 110px;
+  position: absolute;
+  top: -999em;
+  left: -1px;
+}
+.nav li:hover ul,
+.nav li.sfHover ul {
+  top: 25px;
+}
+.nav ul li {
+  border: 0;
+  float: none;
+}
+.nav ul a {
+  border: 1px solid #000;
+  border-bottom: 0;
+  padding-right: 20px;
+  width: 90px;
+  white-space: nowrap;
+}
+.nav ul a:hover {
+  background: #ff7777;
+  color: #fff;
+}
+
+#navigate {
+	height:25px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	padding: 0px 0;
+	background: #fff;
+	color: #000;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+}

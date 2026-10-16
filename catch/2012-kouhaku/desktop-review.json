@@ -1,0 +1,173 @@
+{
+  "reviewedAt": "2026-10-17",
+  "scope": "Desktop only",
+  "dataSha256": "6a7c8996e2aac1e7c443877b831d77fb3a4338c1fe4565d6db446ae0f7391558",
+  "status": "passed-with-documented-source-gaps",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "width": 1280,
+      "height": 900
+    }
+  ],
+  "catalogue": {
+    "rows": 96,
+    "sourceDetails": 93,
+    "restrictedTemplates": 3,
+    "icons": 93,
+    "galleryScreenshots": 104,
+    "commentImages": 2,
+    "banners": 3,
+    "originalDownloadLinks": 98,
+    "backupDownloadLinks": 76
+  },
+  "source": {
+    "regions": {
+      "archive": "Hong Kong",
+      "originalAndMigration": "Japan"
+    },
+    "liveSource": "Original, official migration and old mirror did not return content through checked Japan nodes.",
+    "comparedFields": {
+      "catalogue": 96,
+      "title": 93,
+      "metadata": 279,
+      "streaming": 93,
+      "comments": 186,
+      "updates": 93,
+      "icons": 93,
+      "galleryReferences": 104,
+      "originalDownloads": 98,
+      "backupDownloads": 76,
+      "ignoredPlaceholderDownloads": 1,
+      "restrictedTemplates": 3
+    },
+    "originalBodyOmissionEvidence": "restricted-source-cache-review.json"
+  },
+  "images": {
+    "localPathsDecoded": 573,
+    "broken": 0,
+    "mediaVisualReview": "All canonical gallery/comment images were reviewed in desktop contact sheets; the three migration images and all seven original homepage slides were inspected separately."
+  },
+  "original": {
+    "files": 513,
+    "htmlPages": 121,
+    "rankingPages": 12,
+    "entriesPerRanking": 79,
+    "localNavigation": true,
+    "mainCatalogueRows": 96,
+    "thumbnailCards": 96,
+    "redTeamFilter": 48,
+    "notSubmittedFilter": 16,
+    "descendingOrder": [
+      "095",
+      "094",
+      "093"
+    ],
+    "jqueryVersions": {
+      "home": "1.7.1",
+      "cgi": "1.5.2"
+    },
+    "perResourceUtf8BomHonored": true,
+    "hover14": {
+      "over": "_img/s/s014b2.png",
+      "out": "_img/s/s014a1.png"
+    },
+    "runtimeErrors": [],
+    "pageAndFrameOverflow": false,
+    "restrictedDetailTemplates": [
+      "017",
+      "058",
+      "093"
+    ],
+    "restrictedAwardsAndRankingDescriptionsReplaced": true,
+    "rankingScoreMetadataRetained": true
+  },
+  "formatted": {
+    "all96DetailRoutes200": true,
+    "restrictedTemplates": [
+      {
+        "no": "017",
+        "metadataRows": 3,
+        "sections": [
+          "authorComment",
+          "hostComment",
+          "updates"
+        ],
+        "neutralMedia": true,
+        "externalLinks": 0,
+        "originalImages": 0
+      },
+      {
+        "no": "058",
+        "metadataRows": 3,
+        "sections": [
+          "authorComment",
+          "hostComment",
+          "updates"
+        ],
+        "neutralMedia": true,
+        "externalLinks": 0,
+        "originalImages": 0
+      },
+      {
+        "no": "093",
+        "metadataRows": 3,
+        "sections": [
+          "authorComment",
+          "hostComment",
+          "updates"
+        ],
+        "neutralMedia": true,
+        "externalLinks": 0,
+        "originalImages": 0
+      }
+    ],
+    "sample000": {
+      "sourceImage": [
+        640,
+        480
+      ],
+      "downloadButtons": 0,
+      "forumLinks": 0
+    },
+    "mainPatchAndBackup005": true,
+    "imageViewer001": {
+      "natural": [
+        640,
+        480
+      ],
+      "escapeCloses": true
+    },
+    "jumpToFestival": {
+      "expandedAfterSettling": true,
+      "top": 165.85714721679688
+    },
+    "pageOverflow": false,
+    "tableMayScrollInsideContainerAt1280": true
+  },
+  "limitations": {
+    "unretrievedHoverImages": 27,
+    "unretrievedRankingTemplateResources": 25,
+    "templateResourceKinds": {
+      "backgrounds": 15,
+      "rssBadges": 5,
+      "favicons": 5
+    },
+    "unavailableBackgroundsOmittedWithSourceColorsRetained": true,
+    "rssBadgesUseTextWhenMissing": true,
+    "originalCatalogueGenreFilter": "Server keyword categories were not captured; control disabled.",
+    "rankingFiltersAndSorting": "Captured tables and their order retained; server controls disabled.",
+    "rssFeeds": "Historical server endpoints retained; feeds are not mirrored."
+  },
+  "checks": {
+    "dataValidation": "passed",
+    "lint": "passed",
+    "productionBuild": "passed",
+    "typecheck": "passed",
+    "offlineReplay": "byte-stable",
+    "previous2012GwBundle": "175 files byte-identical"
+  }
+}

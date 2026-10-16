@@ -1,0 +1,372 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" dir="ltr"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>VIPRPG紅白2012</title>
+<meta http-equiv="content-style-type" content="text/css">
+<meta http-equiv="content-script-type" content="text/javascript">
+<link rel="stylesheet" type="text/css" href="screen.css" media="all">
+<link rel="shortcut icon" href="favicon.ico">
+<script type="text/javascript" src="linked/jquery-1.5.2.min.js"></script>
+<script type="text/javascript">
+
+$(function(){
+	var setImg = '#viewer';
+	var fadeSpeed = 1500;
+	var switchDelay = 5000;
+
+	$(setImg).children('img').css({opacity:'0'});
+	$(setImg + ' img:first').stop().animate({opacity:'1',zIndex:'20'},fadeSpeed);
+
+	setInterval(function(){
+		$(setImg + ' :first-child').animate({opacity:'0'},fadeSpeed).next('img').animate({opacity:'1'},fadeSpeed).end().appendTo(setImg);
+	},switchDelay);
+});
+
+
+
+$(document).ready(function(){
+	$("#nav-one li").hover(
+		function(){ $("ul", this).fadeIn("fast"); }, 
+		function() { } 
+	);
+	if (document.all) {
+		$("#nav-one li").hoverClass ("sfHover");
+	}
+});
+
+$.fn.hoverClass = function(c) {
+	return this.each(function(){
+		$(this).hover( 
+			function() { $(this).addClass(c);  },
+			function() { $(this).removeClass(c); }
+		);
+	});
+};
+</script>
+<link rel="canonical" href="about.html">
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+
+
+<div id="balloonbox" style="background-image: url(&quot;img/balloon1.png&quot;);">
+<div id="ballooninner">
+
+<div id="navigate"><center>
+<table>
+	<tbody>
+		<tr>
+			<td>
+		<ul id="nav-one" class="nav">
+			<li>
+				<a href="index.html">Home</a>
+			</li>
+			<li>
+				<a href="about.html">About</a>
+				<ul>
+					<li><a href="about.html#schedule">スケジュール</a></li>
+					<li><a href="about.html#entry">参加方法</a></li>
+					<li><a href="about.html#present">提出方法</a></li>
+					<li><a href="about.html#patch">作品の修正</a></li>
+					<li><a href="about.html#Q&amp;A">Q&amp;A</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="enq.html">投票</a>
+				<ul>
+					<li><a href="enq.html#about">投票審査とは</a></li>
+					<li><a href="enq.html#howto">投票方法</a></li>
+					<li><a href="enq.html#section">審査部門</a></li>
+					<li><a href="enq.html#total">集計</a></li>
+					<li><a href="db/interim.html">中間発表</a></li>
+					<li><a href="enq2.html">結果発表</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="entry.html">作品一覧</a>
+				<ul>
+					<li><a href="db/index.html">リスト</a></li>
+					<li><a href="db/thumbnails.html">サムネイル</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="bbs.html">BBS</a>
+				<ul>
+					<li><a href="http://jbbs.livedoor.jp/otaku/15695/" target="_blank">運営掲示板</a></li>
+					<li><a href="http://jbbs.livedoor.jp/otaku/15696/" target="_blank">感想掲示板</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="link.html">リンク</a>
+				<ul>
+					<li><a href="http://www53.atwiki.jp/vipkohaku2012_1/" target="_blank">攻略Wiki</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="https://twitter.com/vipkohaku2012_1">Twitter</a>
+			</li>
+			<li>
+<a href="http://www.netriver.jp/product/" target="_blank">
+</a>
+<div id="CountRiverObjDiv" style="position:absolute; top:0px; left:0px; display:none; z-index:1000;"></div>
+			</li>
+		</ul>
+			</td>
+		</tr>
+	</tbody>
+</table></center>
+</div>
+
+
+
+</div><!--/#ballooninner-->
+</div><!--/#balloonbox-->
+
+<div id="container" style="height:100%;">
+
+<div class="back">
+<div class="body">
+
+<div id="illust1" style="background-image: url(&quot;img/illust002.png&quot;);"></div>
+
+<div id="box1">
+
+<p>
+</p><h3 id="first">初めての方へ</h3>
+　このサイトは2ちゃんねる　ニュース速報VIP板　RPGツクールスレッド(VIPツクスレ)に関するコンテンツを取り扱ったサイトです。
+同所の性質上、当サイト内においても内輪・アングラ・不健全要素を含んでいます。<br>
+　VIPツクスレに初めて訪れる方、書いてあることが良く分からない方は、
+閲覧を差し控えるか、半年ほどROMしていただくことを推奨致します。
+<p></p>
+
+<hr>
+<div class="pagetop"><a href="#navigate">ページTOPに戻る</a></div>
+
+<p>
+</p><h3 id="about">企画概要</h3>
+　「VIPRPG紅白」は、VIPツクスレで毎年開催されている
+ツクール作品を公開しあい、感想を付け合うことを目的とした企画です。<br>
+　詳しくはリンクから過去の祭りをご覧ください。
+<p></p>
+
+<hr>
+<div class="pagetop"><a href="#navigate">ページTOPに戻る</a></div>
+
+<p>
+</p><h3 id="schedule">スケジュール</h3>
+<table border="1">
+	<tbody>
+		<tr>
+			<th>エントリー受付</th>
+			<td>09月30日　～　12月23日 23:59</td>
+		</tr>
+		<tr>
+			<th>作品提出</th>
+			<td>12月1日　～　12月23日 23:59<br>以降の提出は遅刻扱い 遅刻提出は最終更新まで</td>
+		</tr>
+		<tr>
+			<th>作品公開</th>
+			<td>12月25日</td>
+		</tr>
+		<tr>
+			<th>最終更新日</th>
+			<td>2013年02月07日 予定</td>
+		</tr>
+		<tr>
+			<th>投票開始</th>
+			<td>2013年01月01日</td>
+		</tr>
+		<tr>
+			<th>審査期間</th>
+			<td>01月01日 某時刻 ～ 01月31日 23:59</td>
+		</tr>
+		<tr>
+			<th>審査終了</th>
+			<td>01月31日 23:59</td>
+		</tr>
+	</tbody>
+</table>
+<p></p>
+
+<hr>
+<div class="pagetop"><a href="#navigate">ページTOPに戻る</a></div>
+
+<p>
+</p><h3 id="entry">参加について</h3>
+
+<h4>参加条件</h4>
+<ul>
+<li>RPGツクールで作られた作品であること<br>
+　プログラムやWOLF RPGエディターなどで製作されたゲームは参加禁止<br>
+　ただし、RPGツクールに関係したツール作品のエントリーは自己責任で可</li><br>
+<li>エントリーは1人1枠　かつ　提出する作品も1人1つまで<br>
+　1つのzipファイルの中に複数のゲームファイルを封入するのは自己責任で可</li><br>
+<li>未公開作品のみ<br>
+　すでに公開済みの作品のリメイク作品　または<br>
+　未公開の追加要素・変更要素を含む作品での参加も自己責任で可<br>
+　ただしエントリー後、作品公開日までに未公開部分を公開するのは禁止</li>
+</ul>
+<br>
+<h4>参加方法</h4>
+
+　以下のテンプレートを参考に、必要事項を記入したメールを送ってください。管理人より返信がありますので、それをもってエントリー完了となります。<br>
+　これらの項目はすべて後から変更可能です。(※付は任意事項)
+<textarea name="example2" cols="50" rows="21">■送信先
+vipkohaku2012_1┌┤´д`├┐yahoo.co.jp
+┌┤´д`├┐ → @
+
+------------------------------
+■記入事項
+[作品名]
+[作者名]
+[作品のジャンル]
+[作品に対するコメント]
+[使用したツクールの種類]
+[配信の可・不可]
+[動画投稿の可・不可]
+
+------------------------------
+■添付ファイル
+[作品のスクリーンショット]
+[オンマウス時のスクリーンショット]※
+[アイコン]※
+[サムネイル]※
+</textarea><br>
+<h4>作品のスクリーンショット</h4>
+　サイズ　　640x480～2400 pixel<br>
+　形式　　　png,gif,jpgのいずれか<br>
+　添付必須です。<br>	
+　各作品ページに使用します。<br>
+
+<h4>オンマウス時のスクリーンショット</h4>
+　スクリーンショット画像にマウスカーソルを乗せたときに1枚目⇔2枚目を切り替えます。どちらがカーソルを重ねた時の画像か分かるようにメールに記述してください。<br>
+　通常時のスクリーンショットと同じサイズか、それより大きいサイズであることが望ましいです。
+
+<h4>アイコン</h4>
+　サイズ　　32x32 pixel<br>
+　形式　　　png,gif,jpgのいずれか<br>
+　各作品ページ　及び　作品リストに使用します。<br>
+　添付しなかった場合、ジャンルごとのアイコンをこちらで設定します。<br>
+
+<h4>サムネイル</h4>
+　サイズ　　160x120 pixel<br>
+　形式　　　png,gif,jpgのいずれか<br>
+　作品リストのサムネイル表示に使用します。<br>
+　添付しなかった場合、スクリーンショットの上部640x480を切り取り、縮小して表示します。<br>
+<br>
+<h4>参加資格の取り消し</h4>
+　管理人が不適切と判断した場合はその参加資格を取り消します。<br>
+<p></p>
+
+<hr>
+<div class="pagetop"><a href="#navigate">ページTOPに戻る</a></div>
+
+<p>
+</p><h3 id="present">提出方法</h3>
+　作品をzip形式で圧縮し、以下の2通りの方法で提出してください。<br>
+<br>
+<h4>アップローダーを使って提出する場合</h4>
+　任意のアップローダーにアップロードし、以下の内容のメールを送ってください。その際、必ずダウンロードパスワードをかけてアップロードしてください。<br>
+　エントリーと提出を同時に行っていただいて構いません。
+<textarea name="example2" cols="50" rows="5">■記入事項
+[作品ナンバー]
+[アップロード先のURL]
+[作品のダウンロードパスワード]
+</textarea><br><br>
+<h4>メールで提出する場合</h4>
+　以下の内容のメールを送ってください。
+<textarea name="example2" cols="50" rows="6">■記入事項
+[作品ナンバー]
+------------------------------
+■添付ファイル
+[作品ファイル]
+</textarea><br>
+<p></p>
+
+<hr>
+<div class="pagetop"><a href="#navigate">ページTOPに戻る</a></div>
+
+<p>
+</p><h3 id="patch">作品の修正について</h3>
+　作品提出後にゲーム内容のミスやバグを発見し、修正したくなった場合は、以下の対応が可能です。<br>
+<br>
+　<font style="font-size:150%; font-weight:bold;">■対応出来ること</font><br>
+　・作品本体ファイルの差し替え<br>
+　　作品ページから落とせるファイルを差し替えます。<br>
+　・修正パッチファイルのリスト化<br>
+　　本体ファイルに上書きする修正ファイルをまとめます。<br>
+　等<br>
+<br>
+　<font style="font-size:150%; font-weight:bold;">■対応出来ないこと</font><br>
+　・管理人が直接作品の内容を修正すること(一切応じません)<br>
+　　修正はパッチ提出で行ってください<br>
+　・複数のパッチをひとまとめにすること<br>
+　　パッチは各自でまとめてください<br>
+　等<br>
+<br>
+<h4>本体修正/パッチの手順</h4>
+　・作品を修正し、圧縮する。<br>
+　　パッチの場合、修正したファイルから必要な部分だけを抜き出し、圧縮してまとめる。<br>
+　・メールまたはアップローダーを使って提出する。（下記参照）<br>
+　・管理人が修正ファイルを受信/ダウンロードし、サイト側に反映する。<br>
+<br>
+
+<h4>アップローダーを使って提出する場合</h4>
+　修正した作品本体 / パッチファイル を任意のアップローダーにアップロードします。その後以下の内容のメールを管理人宛に送るか、自分の作品の感想掲示板に貼り付けてください。（ダウンロードパスワードは不要です）<br>
+　その際、こちらのアップローダーをご利用いただけます。<br>
+　　→　修正アップローダー　<a href="http://ux.getuploader.com/vipkohaku2012_1_1/" target="_blank">①</a>　/　<a href="http://ux.getuploader.com/vipkohaku2012_1_2/" target="_blank">②</a>　/　<a href="http://ux.getuploader.com/vipkohaku2012_1_3/" target="_blank">③</a>　/　<a href="http://ux.getuploader.com/vipkohaku2012_1_4/" target="_blank">④</a>　/　<a href="http://ux.getuploader.com/vipkohaku2012_1_5/" target="_blank">⑤</a><br>
+<br>
+<textarea name="example2" cols="50" rows="6">■記入事項
+[作品ナンバー]
+[作品タイトル]
+[アップロード先のURL]
+[修正済本体ファイル/パッチファイルの種別]
+</textarea><br><br>
+<h4>メールで提出する場合</h4>
+　以下の内容のメールを送ってください。
+<textarea name="example2" cols="50" rows="8">■記入事項
+[作品ナンバー]
+[作品タイトル]
+[修正済本体ファイル/パッチファイルの種別]
+------------------------------
+■添付ファイル
+[作品ファイル]
+</textarea><br>
+<br>
+　感想掲示板に貼られた修正ファイルもチェックしますが、修正した旨をメールで報告して下さると助かります。<br>
+
+<p></p>
+
+<hr>
+<div class="pagetop"><a href="#navigate">ページTOPに戻る</a></div>
+
+<p>
+</p><h3 id="Q&amp;A">Q&amp;A</h3>
+　質問・疑問・ご不明な点があれば運営掲示板やメールにて受け付けます。
+
+<p></p>
+
+<hr>
+<div class="pagetop"><a href="#navigate">ページTOPに戻る</a></div>
+
+</div><!--/#box1-->
+
+<h2>COPYPASTE © <a href="http://www10.atwiki.jp/vip_rpg/">2012 VIPRPG</a>.</h2>
+
+</div><!--/#back.body-->
+</div><!--/#back-->
+</div><!--/#container-->
+
+
+<div style="text-align:center; font-size:10px;display:block !important; visibility:visible !important;"><a style="text-decoration:none;font-color:" href="http://atpages.jp/keyword">Powered by キーワード@Pages</a></div>
+
+
+
+</body></html>

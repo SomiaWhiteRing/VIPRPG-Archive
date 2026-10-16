@@ -1,0 +1,1704 @@
+<html>
+<head>
+<title>VIPRPG紅白2012</title>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<link rel="shortcut icon" href="favicon.ico">
+
+
+<style type="text/css">
+<!--
+.social { margin:30px 0 0 0; }
+.facebookbtn { text-align:right; margin: 0 0 0 5px; }
+.tweetbtn { text-align:right; margin: 3px 0 4px 5px; }
+
+/* base */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	font-family: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+/*	outline: 0;*/
+}
+
+html {
+	font-size: 75%;
+	filter: expression(document.execCommand("BackgroundImageCache", false, true));
+}
+
+img {
+	vertical-align: text-bottom;
+	-ms-interpolation-mode: bicubic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+li ol, ul {
+	list-style: inside;
+}
+
+table {
+	border-collapse: collapse;
+/*	border-collapse: separate;*/
+	border-spacing: 0;
+}
+
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	vertical-align: top;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+
+blockquote, q {
+	quotes: "" "";
+}
+
+a:focus {
+/*\*/
+	overflow: hidden;
+/**/
+}
+
+option {
+	padding-right: 10px;
+}
+
+/* common */
+
+body {
+	font-size: 100%;
+	line-height: 140%;
+	font-family: Arial,Helvetica,sans-serif;
+	color: #000;
+	text-align: center;
+	background: #fff;
+}
+
+a:link { text-decoration:underline; color: #000;}
+a:visited { text-decoration:underline; color: #000;}
+a:active { text-decoration:underline; color: #000;}
+a:hover { text-decoration:none; color: #000;}
+
+html , body {height:100%;}
+body > #container {height:auto;}
+
+h2 {
+	padding: 30px 0;
+	width: 100%;
+	font-size: 12px;
+	text-align: center;
+}
+
+h3 {
+	padding: 10px 0;
+	width: 100%;
+	color: #A63737;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+h4 {
+	padding: 5px 0px 3px;
+	width: 100%;
+	color: #000;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+
+#container {
+	width: 840px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+#balloonbox {
+	margin: 0 auto;
+	margin-bottom: 0px;
+	width:  840px;
+	height: 88px;
+	left:     0px;
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: left center;"
+}
+
+#ballooninner {
+	margin: 0 auto;
+	padding: 8px;
+	width:  800px;
+	height: 48px;
+	left:     0px;
+	text-align: left;
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: left center;"
+}
+
+.back {
+	padding:40px 0px 0px 0px;
+	background:url(img/back1_top.png) no-repeat left top;
+}
+
+.back .body {
+	background:url(img/back1_body.png) repeat-y left top;
+}
+
+
+#box2 {
+	width: 720px;
+	padding: 0px 0px 0px 0px;
+	left:    60px;
+	position: relative;
+	text-align: left;
+	color: #000;
+}
+
+
+#entrylist table {
+	border: 3px solid #cccccc;	/*外枠の線*/
+	width: 100%;
+}
+
+#entrylist td, #entrylist th {
+	border: 1px solid #000000;	/*内枠の線。ここでは点線(IE6前だと破線で表示される)に設定*/
+	padding: 5px 5px;			/*余白*/
+	line-height: 1.0;
+}
+
+#entrylist td.s, #entrylist th.s {
+	background-color: #000000;
+	border: 1px solid #000000;	/*内枠の線。ここでは点線(IE6前だと破線で表示される)に設定*/
+	padding: 0px 0px;			/*余白*/
+	line-height: 1.0;
+	height: 8px;
+}
+
+#entrylist th.red, #entrylist td.red {
+	background-color: #ff7777;
+	vertical-align: middle;
+}
+
+#entrylist th.white, #entrylist td.white {
+	background-color: #FFFFFF;
+	vertical-align: middle;
+}
+
+#entrylist td.gray, #entrylist th.gray {
+	background-color: #EEEEEE;
+	vertical-align: middle;
+}
+
+#entrylist td.dgray, #entrylist th.dgray {
+	background-color: #AAAAAA;
+	vertical-align: middle;
+}
+
+#entrylist td.black, #entrylist th.black {
+	background-color: #000000;
+	vertical-align: middle;
+}
+
+#entrylist th {
+	background-color: #fafafa;	/*左側（table midashi部分）の背景色*/
+	padding: 0px 0px;			/*余白*/
+	height: 32px;
+	width:  32px;
+	text-align: center;
+}
+
+.pagetop {
+	text-align: center;
+}
+
+.new dl {
+	width: 100%;			/*ボックスの幅*/
+	height: 100px;			/*ボックスの高さ*/
+	overflow: auto;
+	padding-left: 0px;
+}
+
+.new dt {
+	font-weight: bold;	/*日付の色を太字にする*/
+	color: #A63737;		/*日付の文字色*/
+}
+
+.new dd {
+	border-bottom: 1px solid #FFD0D0;	/*日付ごとの下線*/
+	color: #000000;		/*文字色*/
+}
+
+/* Navigation */
+.nav, .nav ul { 
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav {
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: 100;
+  position: relative;
+}
+.nav li {
+  border-left: 1px solid #fff;
+  float: left;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.nav li a, .nav li a:link, .nav li a:active, .nav li a:visited {
+  font: bold 1.22em/25px Arial, Helvetica, sans-serif;
+  background: #fff;
+  color: #000;
+  display: block;
+  padding: 0 9px;
+  text-transform: none;  /* lowercase; */
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  background: #ff7777;
+  color: #fff;	
+
+}
+#nav-one li:hover a, 
+#nav-one li.sfHover a {
+  background: #ff7777;
+  color: #fff;
+}
+#nav-one li:hover ul a, 
+#nav-one li.sfHover ul a {
+  background: #fff;
+  color: #000;	
+}
+#nav-one li:hover ul a:hover, 
+#nav-one li.sfHover ul a:hover {
+  background: #ff7777;
+  color: #fff;	
+}
+
+.nav ul {
+  background: #565656;
+  border-bottom: 1px solid #000;
+  list-style: none;
+  margin: 0;
+  width: 110px;
+  position: absolute;
+  top: -999em;
+  left: -1px;
+}
+.nav li:hover ul,
+.nav li.sfHover ul {
+  top: 25px;
+}
+.nav ul li {
+  border: 0;
+  float: none;
+}
+.nav ul a {
+  border: 1px solid #000;
+  border-bottom: 0;
+  padding-right: 20px;
+  width: 90px;
+  white-space: nowrap;
+}
+.nav ul a:hover {
+  background: #ff7777;
+  color: #fff;
+}
+
+#navigate {
+	height:25px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	padding: 0px 0;
+	background: #fff;
+	color: #000;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+}
+
+-->
+</style>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+	$("#nav-one li").hover(
+		function(){ $("ul", this).fadeIn("fast"); }, 
+		function() { } 
+	);
+	if (document.all) {
+		$("#nav-one li").hoverClass ("sfHover");
+	}
+});
+
+$.fn.hoverClass = function(c) {
+	return this.each(function(){
+		$(this).hover( 
+			function() { $(this).addClass(c);  },
+			function() { $(this).removeClass(c); }
+		);
+	});
+};
+</script>
+
+<script>
+<!--
+function jump(){
+location.href = 'http://www45.atpages.jp/vipkohaku2012/sc10/profile.cgi?type=and&key=' + form.team.value + form.genre.value + form.tool.value + form.pres.value + form.rvs.value ;
+}
+-->
+</script>
+
+<link rel="canonical" href="http://www45.atpages.jp/vipkohaku2012/sc10/profile.cgi" />
+<link rel="alternate" media="handheld" href="http://www45.atpages.jp/_/mgw/gw?_ucb_u=http%3A%2F%2Fwww45.atpages.jp%2Fvipkohaku2012%2Fsc10%2Fprofile.cgi%3Ftype%3Dand%26key%3D%26sort_item%3D19%26sort_mode%3D4" type="text/html" />
+</head>
+
+<body><script type="text/javascript">
+                   <!--
+                      var _gaq = _gaq || [];
+                      _gaq.push(['_setAccount', 'UA-239611-66']);
+                      _gaq.push(['_setDomainName', '.atpages.jp']);
+                     _gaq.push(['_trackPageview']);
+    
+                   (function() {
+                      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                      })();
+                    //-->
+                   </script><script type="text/javascript">
+(function() {
+  addOnEvent("scroll",getPosition); 
+  addOnEvent("load",function() { 
+      var body = document.getElementsByTagName('body')[0];
+      var tag1 = document.getElementById("geniee_overray_tag");
+      var tag2 = document.getElementById("geniee_overray_base");
+      tag1.style.bottom = 0 + "px";
+      tag2.style.bottom = 0 + "px";
+      tag1.style.zIndex = 9999;
+      tag2.style.zIndex = 9999;
+      body.style.zIndex = 2;
+      document.getElementById("geniee_overray_closed").onclick = function(){
+          tag1.style.display = "none";
+          tag2.style.display = "none";
+      };
+  });
+
+  function addOnEvent(event,func) {
+            try {
+                window.addEventListener(event, func, false);
+            } catch (e) {
+                // IE
+                window.attachEvent("on" + event , func);
+            }
+   }  
+
+  function getPosition() {
+      var tags = document.getElementById('geniee_overray_tag');
+      tags.style.top = "";
+      tags.style.bottom = 0 + "px";
+      tags.style.position = "fixed";
+      var tags1 = document.getElementById('geniee_overray_base');
+      tags1.style.top = "";
+      tags1.style.bottom = 0 + "px";
+      tags1.style.position = "fixed";
+  }
+})();
+</script>
+
+
+<script type="text/javascript"><!--
+var ID="100869904";
+var AD=0;
+var FRAME=0;
+// --></script>
+<script src="http://j1.ax.xrea.com/l.j?id=100869904" type="text/javascript"></script>
+<noscript>
+<a href="http://w1.ax.xrea.com/c.f?id=100869904" target="_blank"><img src="http://w1.ax.xrea.com/l.f?id=100869904&url=X" alt="AX" border="0"></a>
+</noscript>
+
+<div id="balloonbox" style="background-image: url(img/balloon1.png);">
+<div id="ballooninner">
+
+<div id="navigate"><center>
+<table style="font-size:100%;">
+	<tbody>
+		<tr>
+			<td>
+		<ul id="nav-one" class="nav">
+			<li>
+				<a href="http://www45.atpages.jp/vipkohaku2012/index.html">Home</a>
+			</li>
+			<li>
+				<a href="http://www45.atpages.jp/vipkohaku2012/about.html">About</a>
+				<ul>
+					<li><a href="http://www45.atpages.jp/vipkohaku2012/about.html#schedule">スケジュール</a></li>
+					<li><a href="http://www45.atpages.jp/vipkohaku2012/about.html#entry">参加方法</a></li>
+					<li><a href="http://www45.atpages.jp/vipkohaku2012/about.html#present">提出方法</a></li>
+					<li><a href="http://www45.atpages.jp/vipkohaku2012/about.html#patch">作品の修正</a></li>
+					<li><a href="http://www45.atpages.jp/vipkohaku2012/about.html#Q&A">Q&A</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="http://www45.atpages.jp/vipkohaku2012/enq.html">投票</a>
+				<ul>
+					<li><a href="http://www45.atpages.jp/vipkohaku2012/enq.html#about">投票審査とは</a></li>
+					<li><a href="http://www45.atpages.jp/vipkohaku2012/enq.html#howto">投票方法</a></li>
+					<li><a href="http://www45.atpages.jp/vipkohaku2012/enq.html#section">審査部門</a></li>
+					<li><a href="http://www45.atpages.jp/vipkohaku2012/enq.html#total">集計</a></li>
+					<li><a href="../db/profile.cgi?tpl=view4&?type=or&key=%92%F1%8Fo%8D%CF%20%20%92x%8D%8F%92%F1%8Fo%20">中間発表</a></li>
+					<li><a href="http://www45.atpages.jp/vipkohaku2012/enq2.html">結果発表</a></li>
+				</ul>
+			<li>
+			<li>
+				<a href="http://www45.atpages.jp/vipkohaku2012/entry.html">作品一覧</a>
+				<ul>
+					<li><a href="../db/profile.cgi?tpl=view">リスト</a></li>
+					<li><a href="../db/profile.cgi?tpl=view3&hor=4">サムネイル</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="http://www45.atpages.jp/vipkohaku2012/bbs.html">BBS</a>
+				<ul>
+					<li><a href="http://jbbs.livedoor.jp/otaku/15695/" target="_blank">運営掲示板</a></li>
+					<li><a href="http://jbbs.livedoor.jp/otaku/15696/" target="_blank">感想掲示板</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="http://www45.atpages.jp/vipkohaku2012/link.html">リンク</a>
+				<ul>
+					<li><a href="http://www53.atwiki.jp/vipkohaku2012_1/" target="_blank">攻略Wiki</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="https://twitter.com/vipkohaku2012_1">Twitter</a>
+			</li>
+			<li>
+<a href="http://www.netriver.jp/product/" target='_blank'>
+<img src="http://www.netriver.jp/countriver/cntriv.cgi?user=vipkohaku2012_1&id=00000000&ptn=15&dig=0" onmouseover='CountRiverMouseOver()' onmouseout='CountRiverMouseOut()' style="border:0; margin: 8px 0 8px 0;" /></a>
+<div id=CountRiverObjDiv style='position:absolute; top:0px; left:0px; display:none; z-index:1000;'></div>
+			</li>
+		</ul>
+			</td>
+		</tr>
+	</tbody>
+</table></center>
+</div>
+
+</div><!--/#ballooninner-->
+</div><!--/#balloonbox-->
+
+<div id="container">
+
+<div class="back">
+<div class="body">
+
+<div id="box2">
+
+<div align="right"><a href="rss.cgi"><img src="rss.gif" width="42" height="14" border="0"></a></div>
+<p>
+[ <a href="http://www45.atpages.jp/vipkohaku2012/">HOME</a> ] 
+[ <a href="../enq4.html">表彰会場</a> ]
+[ <a href="../enq3.html">チーム勝敗</a> ]
+[ <a href="../db2/profile.cgi?type=and&tpl=view2&key=&sort_item=19&sort_mode=4">総合順位</a> ] 
+[ <a href="../db2/profile.cgi?type=and&tpl=view&key=&sort_item=19&sort_mode=4">総合順位(簡易版)</a> ] <br>
+[ <a href="../sc01/profile.cgi?type=and&key=&sort_item=19&sort_mode=4">熱中度</a> ] 
+[ <a href="../sc02/profile.cgi?type=and&key=&sort_item=19&sort_mode=4">技術</a> ] 
+[ <a href="../sc03/profile.cgi?type=and&key=&sort_item=19&sort_mode=4">物語</a> ] 
+[ <a href="../sc04/profile.cgi?type=and&key=&sort_item=19&sort_mode=4">演出</a> ] 
+[ <a href="../sc05/profile.cgi?type=and&key=&sort_item=19&sort_mode=4">斬新さ</a> ]
+[ <a href="../sc06/profile.cgi?type=and&key=&sort_item=19&sort_mode=4">遊びやすさ</a> ] 
+[ <a href="../sc07/profile.cgi?type=and&key=&sort_item=19&sort_mode=4">テラワロさ</a> ] 
+[ <a href="../sc08/profile.cgi?type=and&key=&sort_item=19&sort_mode=4">いやらしさ</a> ] 
+[ <a href="../sc09/profile.cgi?type=and&key=&sort_item=19&sort_mode=4">ひどさ</a> ] 
+[ <a href="../sc10/profile.cgi?type=and&key=&sort_item=19&sort_mode=4">その他</a> ] 
+</p>
+<table width="100%">
+	<tr valign="bottom">
+		<td style="background:#F77; color:#fff; text-align:center;"><b>[全件]</b>（79件） を降順に表示</td>
+	</tr>
+</table>
+
+<p align=center></p>
+
+<p><br>
+<h3>その他加点</h3>
+　その作品の特によかったところを、複数選択方式で評価します。<br>
+　総合順位を決定する際に加点されます。<br>
+<ul>
+　<li>全作品の中で一番好印象だった。
+　<li>ゲームバランスの調整がよかった。
+　<li>作品全体に統一感があった。
+　<li>作品の雰囲気に惹かれた。
+　<li>作品の世界観に惹かれた。
+　<li>魅力的なキャラクターがいた。
+　<li>オリジナルの素材が優れていた。
+　<li>死ぬほど笑った。
+　<li>おかずになった。
+　<li>何だっていい！この作品を応援するチャンスだ！
+</ul>
+</p>
+
+<hr>
+
+<p><br>
+<font style="font-size:140%;">
+</font>
+
+<h4>得点計算式</h4>
+　小計順位点  + 加点率(※) × 2<br>
+<br>
+　小計順位点：　一項目あたりを1点とし、小計の高い順に順位点をつけます。<br>
+　加点率：　小計 ÷ 投票数<br>
+<br>
+</p>
+
+<form name="form">
+<select name="team">
+<option value="">(組)</option>
+<option value="red%20">紅組</option>
+<option value="white%20">白組</option>
+</select>
+<select name="genre">
+<option value="">(ジャンル)</option>
+<option value="[RPG]%20">RPG</option>
+<option value="[ACT]%20">ACT</option>
+<option value="[SLG]%20">SLG</option>
+<option value="[STG]%20">STG</option>
+<option value="[パズル]%20">パズル</option>
+<option value="[やるゲ]%20">やるゲ</option>
+<option value="[見るゲ]%20">見るゲ</option>
+<option value="[読むゲ]%20">読むゲ</option>
+<option value="[クソゲ]%20">ksg</option>
+<option value="[その他]%20">その他</option>
+<option value="[ゴメス]%20">ゴメス</option>
+</select>
+<select name="tool">
+<option value="">(ツール)</option>
+<option value="2000%20">2000</option>
+<option value="2003%20">2003</option>
+<option value="VX.%20">VX</option>
+<option value="Ace%20">VXAce</option>
+</select>
+<select name="pres">
+<option value="">(提出状況)</option>
+<option value="提出済%20">提出済</option>
+<option value="遅刻提出%20">遅刻提出</option>
+</select>
+<select name="rvs">
+<option value="&sort_item=19&sort_mode=4">上位順</option>
+<option value="&sort_item=19&sort_mode=3">下位順</option>
+<option value="&sort_item=10&sort_mode=4">小計 多</option>
+<option value="&sort_item=10&sort_mode=3">小計 少</option>
+<option value="&sort_item=13&sort_mode=4">加点率 多</option>
+<option value="&sort_item=13&sort_mode=3">加点率 少</option>
+<option value="&sort_item=9&sort_mode=4">投票数 多</option>
+<option value="&sort_item=9&sort_mode=3">投票数 少</option>
+<option value="">No昇順</option>
+<option value="&view=rvs">No降順</option>
+</select>
+<input type="button" value="検索" onclick="jump();" />
+</form>
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="dgray" style="width:  30px;">合計順位</td>
+		<th class="black" style="width: 32px;"><img src="../db/_img/i/-.png" width=32 height=32></th>
+		<td class="dgray" style="width: 380px;">No./ツール<br>タイトル</td>
+		<td class="dgray" style="width:  70px;">小計/投票数<br>(順位点)</td>
+		<td class="dgray" style="width:  50px;">加点率</td>
+		<td class="dgray" style="width:  50px;  text-align: right; ">合計点</td>
+	</tr>
+</table>
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>1</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i033.gif" width=32 height=32></th>
+		<td class="red" style="width: 380px; vertical-align: middle;">033/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=033&tpl=view2">さよなら、モナーＲＰＧ。</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>573 / 117</b><br>(<b>1</b>位 : <b>10</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>4.9 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>19.8 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>2</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i003.png" width=32 height=32></th>
+		<td class="red" style="width: 380px; vertical-align: middle;">003/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=003&tpl=view2">闇市ダンジョン</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>172 / 51</b><br>(<b>2</b>位 : <b>10</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>3.4 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>16.7 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>3</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i085.png" width=32 height=32></th>
+		<td class="red" style="width: 380px; vertical-align: middle;">085/VX.<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=085&tpl=view2">エターナルデフォルト フライングエタリー</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>151 / 39</b><br>(<b>4</b>位 : <b>9</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>3.9 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>16.7 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>4</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i053.png" width=32 height=32></th>
+		<td class="red" style="width: 380px; vertical-align: middle;">053/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=053&tpl=view2">百合っぽいお話とか</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>153 / 49</b><br>(<b>3</b>位 : <b>10</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>3.1 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>16.2 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>5</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i054.png" width=32 height=32></th>
+		<td class="white" style="width: 380px; vertical-align: middle;">054/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=054&tpl=view2">八大地獄と極楽ぬくぬくヘルス温泉</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>135 / 39</b><br>(<b>6</b>位 : <b>9</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>3.5 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>15.9 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>6</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i017.png" width=32 height=32></th>
+		<td class="red" style="width: 380px; vertical-align: middle;">017/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=017&tpl=view2">やみいっちゃんとエッチなことをするゲーム</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>136 / 51</b><br>(<b>5</b>位 : <b>9</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>2.7 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>14.3 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>7</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i055.png" width=32 height=32></th>
+		<td class="red" style="width: 380px; vertical-align: middle;">055/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=055&tpl=view2">ABCD冒険記</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>120 / 39</b><br>(<b>7</b>位 : <b>8</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>3.1 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>14.2 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>8</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i063.png" width=32 height=32></th>
+		<td class="red" style="width: 380px; vertical-align: middle;">063/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=063&tpl=view2">SLASH -THE DEMON HUNTER-</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>114 / 43</b><br>(<b>8</b>位 : <b>8</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>2.7 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>13.3 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>9</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i078.png" width=32 height=32></th>
+		<td class="white" style="width: 380px; vertical-align: middle;">078/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=078&tpl=view2">わてりとたのしいセクロス</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>106 / 43</b><br>(<b>9</b>位 : <b>8</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>2.5 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>12.9 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>10</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i013.png" width=32 height=32></th>
+		<td class="red" style="width: 380px; vertical-align: middle;">013/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=013&tpl=view2">埋もれた素材の夢</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>101 / 35</b><br>(<b>10</b>位 : <b>7</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>2.9 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>12.8 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>11</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i005.png" width=32 height=32></th>
+		<td class="red" style="width: 380px; vertical-align: middle;">005/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=005&tpl=view2">Re:0</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>82 / 25</b><br>(<b>15</b>位 : <b>6</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>3.3 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>12.6 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>12</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i052.png" width=32 height=32></th>
+		<td class="white" style="width: 380px; vertical-align: middle;">052/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=052&tpl=view2">勇者わてりの大冒険　と　ふれいむさんの気だるい日常</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>95 / 30</b><br>(<b>13</b>位 : <b>6</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>3.2 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>12.3 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>13</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i034.png" width=32 height=32></th>
+		<td class="white" style="width: 380px; vertical-align: middle;">034/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=034&tpl=view2">ナイ軍の借金返済作戦</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>97 / 42</b><br>(<b>12</b>位 : <b>7</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>2.3 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>11.6 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>14</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i088.png" width=32 height=32></th>
+		<td class="white" style="width: 380px; vertical-align: middle;">088/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=088&tpl=view2">鬼バリア</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>83 / 30</b><br>(<b>14</b>位 : <b>6</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>2.8 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>11.5 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>15</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i016.png" width=32 height=32></th>
+		<td class="white" style="width: 380px; vertical-align: middle;">016/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=016&tpl=view2">ケツアクメ120連発　ケツアヘ傑作選</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>98 / 51</b><br>(<b>11</b>位 : <b>7</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>1.9 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>10.8 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>16</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i004.png" width=32 height=32></th>
+		<td class="white" style="width: 380px; vertical-align: middle;">004/VX.<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=004&tpl=view2">プロフェシーへの回帰</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>70 / 22</b><br>(<b>19</b>位 : <b>4</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>3.2 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>10.4 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>17</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/rpg.png" width=32 height=32></th>
+		<td class="red" style="width: 380px; vertical-align: middle;">061/XP<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=061&tpl=view2">JASIN</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>63 / 23</b><br>(<b>21</b>位 : <b>4</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>2.7 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>9.5 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>18</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i007.png" width=32 height=32></th>
+		<td class="red" style="width: 380px; vertical-align: middle;">007/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=007&tpl=view2">ある日のナイ軍　～冬こそ南の島で暖まろうぜSP～</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>78 / 36</b><br>(<b>18</b>位 : <b>5</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>2.2 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>9.3 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>19</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i026.png" width=32 height=32></th>
+		<td class="white" style="width: 380px; vertical-align: middle;">026/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=026&tpl=view2">いつか見た夢の続きを</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>82 / 48</b><br>(<b>15</b>位 : <b>5</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>1.7 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>8.4 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>20</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i095.png" width=32 height=32></th>
+		<td class="red" style="width: 380px; vertical-align: middle;">095/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=095&tpl=view2">地獄探偵おぼなす</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>68 / 32</b><br>(<b>20</b>位 : <b>4</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>2.1 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>8.3 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>21</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i046.png" width=32 height=32></th>
+		<td class="white" style="width: 380px; vertical-align: middle;">046/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=046&tpl=view2">ソーレソレソレ</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>82 / 54</b><br>(<b>15</b>位 : <b>5</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>1.5 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>8.0 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>22</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i038.gif" width=32 height=32></th>
+		<td class="white" style="width: 380px; vertical-align: middle;">038/2003<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=038&tpl=view2">Temple of Shadows</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>54 / 19</b><br>(<b>25</b>位 : <b>2</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>2.8 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>7.7 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>23</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/rpg.png" width=32 height=32></th>
+		<td class="red" style="width: 380px; vertical-align: middle;">051/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=051&tpl=view2">海賊リメイクオーバーリローテッドセカンド</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>58 / 25</b><br>(<b>22</b>位 : <b>3</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>2.3 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>7.6 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>24</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i070.jpg" width=32 height=32></th>
+		<td class="white" style="width: 380px; vertical-align: middle;">070/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=070&tpl=view2">Revenge of a "AMEN GORILLA" -1997-</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>51 / 21</b><br>(<b>27</b>位 : <b>2</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>2.4 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>6.9 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>25</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i035.gif" width=32 height=32></th>
+		<td class="red" style="width: 380px; vertical-align: middle;">035/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=035&tpl=view2">Mega Moshimo</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>55 / 29</b><br>(<b>23</b>位 : <b>3</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>1.9 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>6.8 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>27</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i009.png" width=32 height=32></th>
+		<td class="red" style="width: 380px; vertical-align: middle;">009/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=009&tpl=view2">DARK★HELL</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>55 / 30</b><br>(<b>23</b>位 : <b>3</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>1.8 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>6.7 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>26</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i042.png" width=32 height=32></th>
+		<td class="white" style="width: 380px; vertical-align: middle;">042/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=042&tpl=view2">魔王の挑戦状</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>52 / 22</b><br>(<b>26</b>位 : <b>2</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>2.4 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>6.7 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>28</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/rpg.png" width=32 height=32></th>
+		<td class="white" style="width: 380px; vertical-align: middle;">030/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=030&tpl=view2">もしもセイブザクイーン2/3</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>19 / 8</b><br>(<b>46</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>2.4 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>4.8 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>30</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/rpg.png" width=32 height=32></th>
+		<td class="white" style="width: 380px; vertical-align: middle;">010/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=010&tpl=view2">MOSIMO QUEST II</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>37 / 17</b><br>(<b>31</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>2.2 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>4.4 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>29</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i082.png" width=32 height=32></th>
+		<td class="white" style="width: 380px; vertical-align: middle;">082/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=082&tpl=view2">絶壁天国＋リリア・キングフォーム</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>48 / 28</b><br>(<b>28</b>位 : <b>1</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>1.7 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>4.4 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>31</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i079.png" width=32 height=32></th>
+		<td class="red" style="width: 380px; vertical-align: middle;">079/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=079&tpl=view2">101人のブライアン</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>42 / 26</b><br>(<b>29</b>位 : <b>1</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>1.6 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>4.2 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>32</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i084.gif" width=32 height=32></th>
+		<td class="white" style="width: 380px; vertical-align: middle;">084/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=084&tpl=view2">windy posession</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>27 / 13</b><br>(<b>38</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>2.1 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>4.2 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>33</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/miru.png" width=32 height=32></th>
+		<td class="white" style="width: 380px; vertical-align: middle;">072/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=072&tpl=view2">ウィンドⅠのおつかい外伝～カナエール様は心配性～</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>39 / 25</b><br>(<b>30</b>位 : <b>1</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>1.6 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>4.1 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>34</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i025.png" width=32 height=32></th>
+		<td class="red" style="width: 380px; vertical-align: middle;">025/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=025&tpl=view2">SEPPUKU</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>30 / 16</b><br>(<b>34</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>1.9 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>3.8 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>35</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i086.png" width=32 height=32></th>
+		<td class="white" style="width: 380px; vertical-align: middle;">086/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=086&tpl=view2">たてもの脱出ゲーム</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>37 / 20</b><br>(<b>31</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>1.9 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>3.7 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>36</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i076.png" width=32 height=32></th>
+		<td class="white" style="width: 380px; vertical-align: middle;">076/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=076&tpl=view2">ほのぼのねこねこ～核にゃんと霊にゃんのにゃんにゃん物語だにゃん♪～</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>29 / 16</b><br>(<b>36</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>1.8 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>3.6 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>37</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i032.png" width=32 height=32></th>
+		<td class="white" style="width: 380px; vertical-align: middle;">032/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=032&tpl=view2">タイトルが未定みていな俺コレクション</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>30 / 17</b><br>(<b>34</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>1.8 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>3.5 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>38</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i027.png" width=32 height=32></th>
+		<td class="red" style="width: 380px; vertical-align: middle;">027/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=027&tpl=view2">アブソーバーヒストリー</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>32 / 20</b><br>(<b>33</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>1.6 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>3.2 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>38</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i067.png" width=32 height=32></th>
+		<td class="red" style="width: 380px; vertical-align: middle;">067/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=067&tpl=view2">もしも in Real World　 ～アベ・レクイエム～</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>16 / 10</b><br>(<b>48</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>1.6 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>3.2 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>40</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i058.png" width=32 height=32></th>
+		<td class="white" style="width: 380px; vertical-align: middle;">058/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=058&tpl=view2">桃色通信6月号</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>27 / 18</b><br>(<b>38</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>1.5 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>3.0 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>41</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i001.png" width=32 height=32></th>
+		<td class="red" style="width: 380px; vertical-align: middle;">001/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=001&tpl=view2">MAGIC BATTLE</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>25 / 17</b><br>(<b>41</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>1.5 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>2.9 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>42</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i064.png" width=32 height=32></th>
+		<td class="white" style="width: 380px; vertical-align: middle;">064/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=064&tpl=view2">いちめんのksgコレクション</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>26 / 18</b><br>(<b>40</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>1.4 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>2.9 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>43</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i048_1.gif" width=32 height=32></th>
+		<td class="white" style="width: 380px; vertical-align: middle;">048/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=048&tpl=view2">射撃</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>25 / 18</b><br>(<b>41</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>1.4 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>2.8 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>44</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/miru.png" width=32 height=32></th>
+		<td class="red" style="width: 380px; vertical-align: middle;">081/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=081&tpl=view2">奔走するナイ様の死闘</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>22 / 16</b><br>(<b>45</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>1.4 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>2.8 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>45</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i049.png" width=32 height=32></th>
+		<td class="red" style="width: 380px; vertical-align: middle;">049/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=049&tpl=view2">ロミくんとジュリちゃん</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>8 / 6</b><br>(<b>57</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>1.3 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>2.7 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>46</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i087.gif" width=32 height=32></th>
+		<td class="red" style="width: 380px; vertical-align: middle;">087/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=087&tpl=view2">具現体達と散歩道 虹色のコインと謎に包まれし秘宝</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>14 / 11</b><br>(<b>50</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>1.3 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>2.5 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>47</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/ksg.png" width=32 height=32></th>
+		<td class="white" style="width: 380px; vertical-align: middle;">094/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=094&tpl=view2">モテるツクール女子力を磨く為の4つの心得</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>25 / 21</b><br>(<b>41</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>1.2 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>2.4 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>48</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/pzl.png" width=32 height=32></th>
+		<td class="red" style="width: 380px; vertical-align: middle;">075/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=075&tpl=view2">安心安全マインスイーパ</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>13 / 12</b><br>(<b>51</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>1.1 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>2.2 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>49</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i024_1.png" width=32 height=32></th>
+		<td class="white" style="width: 380px; vertical-align: middle;">024/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=024&tpl=view2">VIPツクスレ 勝手に新人賞授賞式’12</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>29 / 27</b><br>(<b>36</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>1.1 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>2.1 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>50</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i045_1.png" width=32 height=32></th>
+		<td class="red" style="width: 380px; vertical-align: middle;">045/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=045&tpl=view2">偽装のサーカス</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>8 / 8</b><br>(<b>57</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>1.0 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>2.0 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>51</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i047.jpg" width=32 height=32></th>
+		<td class="red" style="width: 380px; vertical-align: middle;">047/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=047&tpl=view2">もエロゲ</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>13 / 14</b><br>(<b>51</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>0.9 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>1.9 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>52</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i023.png" width=32 height=32></th>
+		<td class="red" style="width: 380px; vertical-align: middle;">023/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=023&tpl=view2">ドキ☆　gomezだらけの危ない学園生活　～あなたはゴメスを信じますか？～ </a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>11 / 12</b><br>(<b>55</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>0.9 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>1.8 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>53</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/miyaru.png" width=32 height=32></th>
+		<td class="red" style="width: 380px; vertical-align: middle;">077/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=077&tpl=view2">俺っクション</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>5 / 6</b><br>(<b>67</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>0.8 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>1.7 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>54</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i040.png" width=32 height=32></th>
+		<td class="white" style="width: 380px; vertical-align: middle;">040/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=040&tpl=view2">懺悔室</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>9 / 11</b><br>(<b>56</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>0.8 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>1.6 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>57</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/rpg.png" width=32 height=32></th>
+		<td class="red" style="width: 380px; vertical-align: middle;">057/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=057&tpl=view2">迷宮組曲</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>7 / 9</b><br>(<b>61</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>0.8 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>1.6 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>55</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i062.png" width=32 height=32></th>
+		<td class="white" style="width: 380px; vertical-align: middle;">062/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=062&tpl=view2">宝石洞窟</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>13 / 16</b><br>(<b>51</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>0.8 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>1.6 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>56</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i065.png" width=32 height=32></th>
+		<td class="red" style="width: 380px; vertical-align: middle;">065/XP<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=065&tpl=view2">ファイアーエンブレム　もしもの神　未完成版</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>4 / 5</b><br>(<b>71</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>0.8 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>1.6 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>58</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i073.gif" width=32 height=32></th>
+		<td class="red" style="width: 380px; vertical-align: middle;">073/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=073&tpl=view2">完全3D迷路</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>24 / 31</b><br>(<b>44</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>0.8 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>1.5 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>60</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i074.png" width=32 height=32></th>
+		<td class="white" style="width: 380px; vertical-align: middle;">074/2003<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=074&tpl=view2">ライチのぼうけん</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>12 / 16</b><br>(<b>54</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>0.8 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>1.5 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>59</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i092.png" width=32 height=32></th>
+		<td class="white" style="width: 380px; vertical-align: middle;">092/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=092&tpl=view2">マニラの西48km</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>19 / 25</b><br>(<b>46</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>0.8 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>1.5 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>61</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/rpg.png" width=32 height=32></th>
+		<td class="red" style="width: 380px; vertical-align: middle;">015/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=015&tpl=view2">英霊旅日記</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>5 / 7</b><br>(<b>67</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>0.7 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>1.4 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>62</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/rpg.png" width=32 height=32></th>
+		<td class="red" style="width: 380px; vertical-align: middle;">039/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=039&tpl=view2">リハビリその４</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>15 / 23</b><br>(<b>49</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>0.7 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>1.3 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>63</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/yomu.png" width=32 height=32></th>
+		<td class="red" style="width: 380px; vertical-align: middle;">093/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=093&tpl=view2">Into the Lilizm</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>6 / 10</b><br>(<b>63</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>0.6 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>1.2 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>64</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i008.png" width=32 height=32></th>
+		<td class="white" style="width: 380px; vertical-align: middle;">008/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=008&tpl=view2">もしもアンデッドナイがRPGツクール2003varue+がナイことに怒ったら</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>7 / 14</b><br>(<b>61</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>0.5 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>1.0 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>64</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i037.png" width=32 height=32></th>
+		<td class="red" style="width: 380px; vertical-align: middle;">037/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=037&tpl=view2">もしもこねくしょん</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>4 / 8</b><br>(<b>71</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>0.5 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>1.0 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>64</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/rpg.png" width=32 height=32></th>
+		<td class="red" style="width: 380px; vertical-align: middle;">071/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=071&tpl=view2">三将軍の毎日ダンジョン</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>8 / 16</b><br>(<b>57</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>0.5 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>1.0 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>68</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i050.png" width=32 height=32></th>
+		<td class="white" style="width: 380px; vertical-align: middle;">050/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=050&tpl=view2">BRAVELY WORKING FLYING妖精さん</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>6 / 14</b><br>(<b>63</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>0.4 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>0.9 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>67</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i068_1.gif" width=32 height=32></th>
+		<td class="white" style="width: 380px; vertical-align: middle;">068/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=068&tpl=view2">QuizMaogunAcademy</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>8 / 17</b><br>(<b>57</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>0.5 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>0.9 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>69</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/hatena.png" width=32 height=32></th>
+		<td class="red" style="width: 380px; vertical-align: middle;">021/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=021&tpl=view2">THE　運ゲー　～地底に沈んだ魔王城～</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>4 / 10</b><br>(<b>71</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>0.4 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>0.8 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>71</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i041.png" width=32 height=32></th>
+		<td class="red" style="width: 380px; vertical-align: middle;">041/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=041&tpl=view2">Cancel or die</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>6 / 16</b><br>(<b>63</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>0.4 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>0.8 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>69</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i056.png" width=32 height=32></th>
+		<td class="white" style="width: 380px; vertical-align: middle;">056/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=056&tpl=view2">マーミア式Ｋｓｇコレクション</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>4 / 10</b><br>(<b>71</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>0.4 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>0.8 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>71</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i090.png" width=32 height=32></th>
+		<td class="white" style="width: 380px; vertical-align: middle;">090/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=090&tpl=view2">R＆W2012　ksg -Ⅹ-</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>6 / 16</b><br>(<b>63</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>0.4 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>0.8 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>73</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i014_1.png" width=32 height=32></th>
+		<td class="white" style="width: 380px; vertical-align: middle;">014/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=014&tpl=view2">AsteDream -もしもエルシャダイがRPGだったら-</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>3 / 9</b><br>(<b>76</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>0.3 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>0.7 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>73</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i031.png" width=32 height=32></th>
+		<td class="red" style="width: 380px; vertical-align: middle;">031/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=031&tpl=view2">独白◆幻肢痛と薔薇に心捧ぐ</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>5 / 15</b><br>(<b>67</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>0.3 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>0.7 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>73</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i060.png" width=32 height=32></th>
+		<td class="white" style="width: 380px; vertical-align: middle;">060/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=060&tpl=view2">もしもアレックスだけだったら</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>5 / 15</b><br>(<b>67</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>0.3 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>0.7 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>76</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i006.png" width=32 height=32></th>
+		<td class="white" style="width: 380px; vertical-align: middle;">006/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=006&tpl=view2">わてり/EXTRA</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>4 / 13</b><br>(<b>71</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>0.3 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>0.6 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>77</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i028.png" width=32 height=32></th>
+		<td class="white" style="width: 380px; vertical-align: middle;">028/VXAce<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=028&tpl=view2">飢えるハーナス　勝手に続き</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>1 / 6</b><br>(<b>77</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>0.2 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>0.3 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>78</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/i069.jpg" width=32 height=32></th>
+		<td class="red" style="width: 380px; vertical-align: middle;">069/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=069&tpl=view2">三行でわかるキャッペソフト</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>1 / 9</b><br>(<b>77</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>0.1 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>0.2 </b> pt</td>
+	</tr>
+</table>
+
+
+
+<table id="entrylist" style="width: 100%; font-size:100%;">
+  	<tr>
+		<td class="gray" style="width:  30px;"><b>79</b>位</td>
+		<th class="black" style="width: 32px; vertical-align: middle;"><img src="../db/_img/i/ksg.png" width=32 height=32></th>
+		<td class="red" style="width: 380px; vertical-align: middle;">091/2000<br><a href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=091&tpl=view2">具現化規制法案（仮）（笑）</a></td>
+		<td class="gray"      style="width:  70px; vertical-align: middle; word-break:break-all;"><b>0 / 5</b><br>(<b>79</b>位 : <b>0</b> pt)</td>
+		<td class="gray"      style="width:  50px; vertical-align: middle; word-break:break-all;"><b>0.0 </b></td>
+		<td class="gray"      style="width:  50px; text-align: right; vertical-align: middle; word-break:break-all;">&nbsp;<b>0.0 </b> pt</td>
+	</tr>
+</table>
+
+
+</table>
+
+<hr>
+<p align=center>(1/1)</p>
+<div class="pagetop"><a href="#navigate">ページTOPに戻る</a></div>
+
+</div><!--/#box2-->
+
+<!-- このスクリプトをご利用頂くには著作権の表記が条件となっております。 -->
+<h2>COPYPASTE &copy; <a href="http://www10.atwiki.jp/vip_rpg/">2012 VIPRPG</a>.</h2>
+<h2><a href="http://www.coolandcool.net" target="_blank" style="font-size:11pt">Database Factory</a></h2>
+
+</div><!--/#back.body-->
+</div><!--/#back-->
+</div><!--/#container-->
+
+
+<div style="text-align:center; font-size:10px;display:block !important; visibility:visible !important;"><a style="text-decoration:none;font-color:" href="http://atpages.jp/keyword">Powered by キーワード@Pages</a></div><div id="geniee_overray_base" style="z-index:9999;filter:alpha(opacity=60);-ms-filter:alpha(opacity=60);-moz-opacity:0.6; -khtml-opacity:0.6;opacity:0.6;position:fixed;width:100%;height:120px;background-color:black">
+  <img id="geniee_overray_closed" style="left:100%;color:red;" src="http://a.geniee.jp/nw/images/4ab007d5e5e507438b77f746862ff49d.png">
+</div>
+<div id="geniee_overray_tag" style="z-index:9999;left:25%;position: fixed;center:100%;">
+
+<script type='text/javascript'><!--//<![CDATA[
+   var m3_u = (location.protocol=='https:'?'https://d.href.asia/nw/d/ajs.php':'http://d.href.asia/nw/d/ajs.php');
+   var m3_r = Math.floor(Math.random()*99999999999);
+   if (!document.MAX_used) document.MAX_used = ',';
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("?zoneid=4324");
+   document.write ('&amp;cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+   document.write ("&amp;loc=" + escape(window.location));
+   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+   if (document.context) document.write ("&context=" + escape(document.context));
+   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+   document.write ("'><\/scr"+"ipt>");
+//]]>--></script><noscript><a href='http://d.href.asia/nw/d/ck.php?n=ae4d0c0d&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://d.href.asia/nw/d/avw.php?zoneid=4324&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=ae4d0c0d' border='0' alt='' /></a></noscript>
+
+</div>
+</body>
+</html>

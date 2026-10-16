@@ -1,0 +1,745 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" dir="ltr"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>VIPRPG紅白2012</title>
+<meta http-equiv="content-style-type" content="text/css">
+<meta http-equiv="content-script-type" content="text/javascript">
+<link rel="stylesheet" type="text/css" href="screen.css" media="all">
+<link rel="shortcut icon" href="favicon.ico">
+<script type="text/javascript" src="linked/jquery-1.5.2.min.js"></script>
+<script type="text/javascript">
+
+$(function(){
+	var setImg = '#viewer';
+	var fadeSpeed = 1500;
+	var switchDelay = 5000;
+
+	$(setImg).children('img').css({opacity:'0'});
+	$(setImg + ' img:first').stop().animate({opacity:'1',zIndex:'20'},fadeSpeed);
+
+	setInterval(function(){
+		$(setImg + ' :first-child').animate({opacity:'0'},fadeSpeed).next('img').animate({opacity:'1'},fadeSpeed).end().appendTo(setImg);
+	},switchDelay);
+});
+
+
+
+$(document).ready(function(){
+	$("#nav-one li").hover(
+		function(){ $("ul", this).fadeIn("fast"); }, 
+		function() { } 
+	);
+	if (document.all) {
+		$("#nav-one li").hoverClass ("sfHover");
+	}
+});
+
+$.fn.hoverClass = function(c) {
+	return this.each(function(){
+		$(this).hover( 
+			function() { $(this).addClass(c);  },
+			function() { $(this).removeClass(c); }
+		);
+	});
+};
+</script>
+<link rel="canonical" href="enq4.html">
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+
+
+<div id="balloonbox" style="background-image: url(&quot;img/balloon1.png&quot;);">
+<div id="ballooninner">
+
+<div id="navigate"><center>
+<table>
+	<tbody>
+		<tr>
+			<td>
+		<ul id="nav-one" class="nav">
+			<li>
+				<a href="index.html">Home</a>
+			</li>
+			<li>
+				<a href="about.html">About</a>
+				<ul>
+					<li><a href="about.html#schedule">スケジュール</a></li>
+					<li><a href="about.html#entry">参加方法</a></li>
+					<li><a href="about.html#present">提出方法</a></li>
+					<li><a href="about.html#patch">作品の修正</a></li>
+					<li><a href="about.html#Q&amp;A">Q&amp;A</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="enq.html">投票</a>
+				<ul>
+					<li><a href="enq.html#about">投票審査とは</a></li>
+					<li><a href="enq.html#howto">投票方法</a></li>
+					<li><a href="enq.html#section">審査部門</a></li>
+					<li><a href="enq.html#total">集計</a></li>
+					<li><a href="db/interim.html">中間発表</a></li>
+					<li><a href="enq2.html">結果発表</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="entry.html">作品一覧</a>
+				<ul>
+					<li><a href="db/index.html">リスト</a></li>
+					<li><a href="db/thumbnails.html">サムネイル</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="bbs.html">BBS</a>
+				<ul>
+					<li><a href="http://jbbs.livedoor.jp/otaku/15695/" target="_blank">運営掲示板</a></li>
+					<li><a href="http://jbbs.livedoor.jp/otaku/15696/" target="_blank">感想掲示板</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="link.html">リンク</a>
+				<ul>
+					<li><a href="http://www53.atwiki.jp/vipkohaku2012_1/" target="_blank">攻略Wiki</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="https://twitter.com/vipkohaku2012_1">Twitter</a>
+			</li>
+			<li>
+<a href="http://www.netriver.jp/product/" target="_blank">
+</a>
+<div id="CountRiverObjDiv" style="position:absolute; top:0px; left:0px; display:none; z-index:1000;"></div>
+			</li>
+		</ul>
+			</td>
+		</tr>
+	</tbody>
+</table></center>
+</div>
+
+</div><!--/#ballooninner-->
+</div><!--/#balloonbox-->
+
+<div id="container" style="height:100%;">
+
+<div class="back">
+<div class="body">
+
+<div id="box2" style="text-align:Center;">
+<center>
+<p style="text-align:left;">
+<br>
+[ <a href="index.html">HOME</a> ] 
+[ <a href="enq4.html">表彰会場</a> ]
+[ <a href="enq3.html">チーム勝敗</a> ]
+[ <a href="db2/summary.html">総合順位</a> ] 
+[ <a href="db2/index.html">総合順位(簡易版)</a> ] <br>
+[ <a href="sc01/index.html">熱中度</a> ] 
+[ <a href="sc02/index.html">技術</a> ] 
+[ <a href="sc03/index.html">物語</a> ] 
+[ <a href="sc04/index.html">演出</a> ] 
+[ <a href="sc05/index.html">斬新さ</a> ]
+[ <a href="sc06/index.html">遊びやすさ</a> ] 
+[ <a href="sc07/index.html">テラワロさ</a> ] 
+[ <a href="sc08/index.html">いやらしさ</a> ] 
+[ <a href="sc09/index.html">ひどさ</a> ] 
+[ <a href="sc10/index.html">その他</a> ] 
+</p>
+<table width="100%">
+	<tbody><tr valign="bottom">
+		<td style="background:#F77; color:#fff; text-align:center; padding: 8px;"></td>
+	</tr>
+</tbody></table>
+
+<div style="font-size:100%; line-height: 100%; text-align:left;">
+<br>
+<h3>表彰会場</h3>
+　ここでは、投票において優秀な成績を収めた作品をピックアップして紹介しています。<br>
+　また、投票後に各作品作者様からお寄せいただいたコメントも併せて掲載しています。<br>
+　(※現段階でコメントをいただけた作者様のみ)<br>
+<br>
+
+<h4>総合賞</h4>
+　・<a href="#lank01sc04sc06">総合1位</a>　/　<a href="#lank02sc07">総合2位</a>　/　<a href="#lank03sc08">総合3位</a><br>
+<br>
+<h4>部門賞</h4>
+　・<a href="#sc01">熱中度</a>　/　<a href="#sc021">技術①</a>　/　<a href="#sc022">技術②</a>　/　<a href="#sc03">物語</a><br>
+　・<a href="#lank01sc04sc06">演出</a>　/　<a href="#sc05">斬新さ</a>　/　<a href="#lank01sc04sc06">遊びやすさ</a><br>
+　・<a href="#lank02sc07">テラワロさ</a>　/　<a href="#lank03sc08">いやらしさ</a>　/　<a href="#sc09">ひどさ</a><br><br>
+<hr>
+<br>
+</div>
+
+<p>
+
+</p><table id="lank01sc04sc06" style="width: 640px; font-size:300%; line-height: 150%;">
+		<tbody><tr>
+			<td style="color:#000;">
+			【 総合順位 1位 】<br>
+			【 演出部門 1位 】<br>
+			【 遊びやすさ部門 1位 】
+			</td>
+		</tr>
+</tbody></table>
+<table id="entrylist" style="width: 640px; font-size:100%;">
+		<tbody><tr>
+			<th class="black"><img src="db/_img/i/i033.gif" width="32" height="32"></th>
+			<td class="red" style="color:#000;">No.033 - さよなら、モナーＲＰＧ。</td>
+		</tr>
+</tbody></table>
+
+<img src="db/_img/s/s033a.jpg" onmouseover="this.src='db/_img/s/s033b.jpg';" onmouseout="this.src='db/_img/s/s033a.jpg';" border="0">
+
+<table id="entrylist" style="width: 640px; font-size:100%;">
+<tbody><tr>
+<td class="red" style="padding: 10px 20px; vertical-align: middle;">
+<b>
+<a href="db/entry033.html">作品ページ</a> / 
+<a href="http://yahoo.jp/z7T8D4" target="_blank">本体ダウンロード(37.39MB)</a>
+</b></td>
+</tr>
+<tr>
+<td class="gray" style="padding: 4px 20px;">作者：ローゼンクロイツ ◆ Mvhdw.2dlc　</td>
+</tr>
+<tr>
+<td class="white" style="padding: 8px 20px;">
+<h4>作品総評： [熱10技10語10演10斬9遊10笑8猥8酷10他5]</h4>
+　血と狂気とハートフルな中篇RPG。<br><br>
+　古き良きネット世界観のカオスを、子供の玩具箱にぎゅっと詰めたようなごった煮スープ。嘘と絶望と自殺願望、甘い愛がお皿一杯にデコレーションされている。ハートマークを刃物でずたずたにする女子高生っぽいホラーが好きなら是非体験すべきだと思う。<br><br>
+　デフォ戦については特に尖ったものはなく万人向けなのだが、このゲームの最大の魅力はダンジョンだと思う。2Dアトラクションを彷彿させる段差的な組み方なので遊びが多く、とにかく攻略が面白く、様々な仕掛けや背景演出が施されていることに驚かされる。<br><br>
+　お話もフリーシナリオ系で分岐も多く、自分なりの主人公像をロールプレイできるような配慮がされている。最初から最後までまとまりがあり「流石だなぁー」と唸らせる作品でした。心に残る良質のゲームです。<br><br>
+　(よみよみ/性別不明/年齢不明)
+<br></td>
+</tr>
+<tr>
+<td class="white" style="padding: 4px 20px;">作者コメント：<br><br>
+この度はローゼンクロイツのゲヱムを遊んで頂き、<br>
+誠にありがとうございます。<br>
+<br>
+今回も多くの方々に楽しんで頂けたようで<br>
+ホッとしております。<br>
+<br>
+また機会がありましたら是非ともよろしくお願いします。<br><br>
+</td>
+</tr>
+<tr>
+<td class="gray" style="padding:  8px 20px;"> </td>
+</tr>
+</tbody></table>
+
+<p></p>
+
+
+<p>
+<br>
+</p><hr>
+<div class="pagetop"><a href="#navigate">ページTOPに戻る</a></div>
+<br>
+<p></p>
+
+
+
+<p>
+
+</p><table id="lank02sc07" style="width: 640px; font-size:300%; line-height: 150%;">
+		<tbody><tr>
+			<td style="color:#000;">
+			【 総合順位 2位 】<br>
+			【 テラワロさ部門 1位 】
+			</td>
+		</tr>
+</tbody></table>
+<table id="entrylist" style="width: 640px; font-size:100%;">
+		<tbody><tr>
+			<th class="black"><img src="db/_img/i/i016.png" width="32" height="32"></th>
+			<td class="white" style="color:#000;">No.016 - ケツアクメ120連発　ケツアヘ傑作選</td>
+		</tr>
+</tbody></table>
+<img src="db/_img/s/s016a.png" onmouseover="this.src='db/_img/s/s016b.png';" onmouseout="this.src='db/_img/s/s016a.png';" border="0">
+
+<table id="entrylist" style="width: 640px; font-size:100%;">
+<tbody><tr>
+<td class="red" style="padding: 10px 20px; vertical-align: middle;">
+<b>
+<a href="db/entry016.html">作品ページ</a> / 
+<a href="http://yahoo.jp/yKDz5j" target="_blank">本体ダウンロード(5.38MB)</a>
+</b></td>
+</tr>
+<tr>
+<td class="gray" style="padding: 4px 20px;">作者：ケツアクメ120連発　ケツアヘ傑作選　</td>
+</tr>
+<tr>
+<td class="white" style="padding: 8px 20px;">
+<h4>作品総評： [熱5技4語5演7斬7遊6笑10猥3酷10他1]</h4>
+　垢抜けたオープニングから始まり、滑らかな動作のもと見ていて飽きないタイトル一覧で好きな作品を選択できる<br>
+　どのksgもテンポが良くて、何度でも繰り返し見てしまう<br>
+　名前の通りの120連発を、腹の皮が捩れるほど笑って楽しめる傑作集だった<br>
+　(名無し)
+<br></td>
+</tr>
+<tr>
+<td class="white" style="padding: 4px 20px;">作者コメント：<br><br>
+やったぁぁあぁああああああああああああ！！！！！！！！！<br>
+あっりがとぉぉぉおおおおぉおぉおおおおお！！！！！！！！！<br>
+<br></td>
+</tr>
+<tr>
+<td class="gray" style="padding:  8px 20px;"> </td>
+</tr>
+</tbody></table>
+<p></p>
+
+<p>
+<br>
+</p><hr>
+<div class="pagetop"><a href="#navigate">ページTOPに戻る</a></div>
+<br>
+<p></p>
+
+
+<p>
+
+</p><table id="lank03sc08" style="width: 640px; font-size:300%; line-height: 150%;">
+		<tbody><tr>
+			<td style="color:#000;">
+			【 総合順位 3位 】<br>
+			【 いやらしさ部門 1位 】
+			</td>
+		</tr>
+</tbody></table>
+<table id="entrylist" style="width: 640px; font-size:100%;">
+		<tbody><tr>
+			<th class="black"><img src="restricted/017-icon.svg" width="32" height="32"></th>
+			<td class="red" style="color:#000;">No.017 - やみいっちゃんとエッチなことをするゲーム</td>
+		</tr>
+</tbody></table>
+<img src="restricted/017-screenshot.svg" onmouseover="this.src='db/_img/s/s017a.png';" onmouseout="this.src='db/_img/s/s017a.png';" border="0">
+
+<table id="entrylist" style="width: 640px; font-size:100%;"><tbody><tr><td class="red"><a href="db/entry017.html">No.017 - やみいっちゃんとエッチなことをするゲーム</a></td></tr>
+                <tr><td class="gray">作者：ちんちんのびる</td></tr>
+                
+                <tr><td class="white">作品総評：<br>この項目は編纂情報のみを掲載しています。紹介文・画像・関連リンクは表示していません。</td></tr>
+                <tr><td class="white"><img src="restricted/017-screenshot.svg" width="640" height="480" alt="制限された内容"></td></tr></tbody></table>
+
+<p></p>
+
+
+<p>
+<br>
+</p><hr>
+<div class="pagetop"><a href="#navigate">ページTOPに戻る</a></div>
+<br>
+<p></p>
+
+<p>
+
+</p><table id="sc01" style="width: 640px; font-size:300%; line-height: 150%;">
+		<tbody><tr>
+			<td style="color:#000;">
+			【 熱中度部門 1位 】
+			</td>
+		</tr>
+</tbody></table>
+<table id="entrylist" style="width: 640px; font-size:100%;">
+		<tbody><tr>
+			<th class="black"><img src="db/_img/i/i055.png" width="32" height="32"></th>
+			<td class="red" style="color:#000;">No.055 - ABCD冒険記</td>
+		</tr>
+</tbody></table>
+<img src="db/_img/s/s055a.png" onmouseover="this.src='db/_img/s/s055b.png';" onmouseout="this.src='db/_img/s/s055a.png';" border="0">
+
+<table id="entrylist" style="width: 640px; font-size:100%;">
+<tbody><tr>
+<td class="red" style="padding: 10px 20px; vertical-align: middle;">
+<b>
+<a href="db/entry055.html">作品ページ</a> / 
+<a href="http://yahoo.jp/1Wvuxp" target="_blank">本体ダウンロード(18.67MB)</a>
+</b></td>
+</tr>
+<tr>
+<td class="gray" style="padding: 4px 20px;">作者：COMタロウさんの世界　</td>
+</tr>
+<tr>
+<td class="white" style="padding: 8px 20px;">
+<h4>作品総評： [熱10技9語6演6斬5遊3笑9猥6酷10他3]</h4>
+　本作の魅力は、兎にも角にもデフォ戦が一番に来るものだと思います。ユーザーインターフェイス面ではマップ上での移動速度の低下や広大なダンジョンなど不便さも確かに目立ちましたが、画面内を所狭しとキャラが動き回る武器や技ごとに設定された戦闘アニメ、そして難しめの戦闘バランスに楽しみを見出してからの没入度は他のあらゆる作品の追随を許さないものがありました。<br><br>
+　ストーリーも勇者とは思えぬ容赦のなさを見せつける展開でしたが、ABCDの妙に息の合った会話やワクワク表情ほぼ一種類で進行するイベントのRTPに匹敵するようなシュールさなどがいい塩梅にギャグとして作用していたように思います。<br><br>
+　また、さりげなく各地に設置されたゲームオーバーもとい結婚エンドなどの隠しイベントを発見する楽しさもありました。繰り返しにはなりますが、デフォ戦そのものが好きという方にお勧めしたい作品です。<br><br>
+　最後に、のっきゅんめっちゃかわいかった。<br><br>
+　(Hiro/男性/26歳 ～ 30歳)
+</td>
+</tr>
+<tr>
+<td class="white" style="padding: 4px 20px;">作者コメント：<br><br>
+プレイしてくれてありがとうございました。<br>
+投票してくれてありがとうございました。<br>
+「恋せよ!!妹番長」がLatte様より4月26日発売予定です。<br>
+本当にありがとうございました。<br>
+<br></td>
+</tr>
+<tr>
+<td class="gray" style="padding:  8px 20px;"> </td>
+</tr>
+</tbody></table>
+
+<p></p>
+
+
+<p>
+<br>
+</p><hr>
+<div class="pagetop"><a href="#navigate">ページTOPに戻る</a></div>
+<br>
+<p></p>
+
+<p>
+
+</p><table id="sc021" style="width: 640px; font-size:300%; line-height: 150%;">
+		<tbody><tr>
+			<td style="color:#000;">
+			【 技術部門 1位 同率 】
+			</td>
+		</tr>
+</tbody></table>
+<table id="entrylist" style="width: 640px; font-size:100%;">
+		<tbody><tr>
+			<th class="black"><img src="db/_img/i/i073.gif" width="32" height="32"></th>
+			<td class="red" style="color:#000;">No.073 - 完全3D迷路</td>
+		</tr>
+</tbody></table>
+<img src="db/_img/s/s073a.png" onmouseover="this.src='db/_img/s/s073a.png';" onmouseout="this.src='db/_img/s/s073a.png';" border="0">
+
+<table id="entrylist" style="width: 640px; font-size:100%;">
+<tbody><tr>
+<td class="red" style="padding: 10px 20px; vertical-align: middle;">
+<b>
+<a href="db/entry073.html">作品ページ</a> / 
+<a href="http://yahoo.jp/8q2_mX" target="_blank">本体ダウンロード(0.76MB) </a>
+</b></td>
+</tr>
+<tr>
+<td class="gray" style="padding: 4px 20px;">作者：ALPHA　</td>
+</tr>
+<tr>
+<td class="white" style="padding: 8px 20px;">
+<h4>作品総評： [熱7技9語0演0斬7遊6笑0猥0酷0他1]</h4>
+　256枚のピクチャを駆使して作られた擬似3D迷路です。スピード、角度の変更域を変えられるなどのユーザビリティも良好。何よりぬるぬる滑るように動くことが癖になります。<br><br>
+　しかし、飽くまでサンプル的な作品であって、物語や遊びが提供されているわけではありません。ただ階段を通ってゴールへ進むだけのシンプルなゲームなので、こういったエンジンを改良して、新しく探索ゲームなり、ダンジョンRPGなどが登場することを切に願います。<br><br>
+　ツクールの次のステップを感じさせてくれる作品でした。<br><br>
+　(女性/0歳 ～ 10歳)</td>
+</tr>
+<tr>
+<td class="white" style="padding: 4px 20px;">作者コメント：<br><br>
+<div style="font-family:'ＭＳ Ｐゴシック','ＭＳＰゴシック','MSPゴシック','MS Pゴシック';font-size:16px;line-height:18px; text-align:left;">
+　　(　゜д゜)　 ひぇぇ、技術部門1位か……<br>
+＿(__つ/￣￣￣/＿<br>
+　　＼/　　　　 /<br>
+　　　　￣￣￣<br>
+<br>
+　　( ゜д゜ )<br>
+＿(__つ/￣￣￣/＿<br>
+　　＼/　　　　 /<br>
+　　　　￣￣￣<br>
+<br>
+　　( ゜∀゜ )　 みんな、ありがとう！！！！！！！！！<br>
+＿(__つ/￣￣￣/＿<br>
+　　＼/　　　　 /<br>
+　　　　￣￣￣<br></div>
+<br></td>
+</tr>
+<tr>
+<td class="gray" style="padding:  8px 20px;"> </td>
+</tr>
+</tbody></table>
+
+<p></p>
+
+
+<p>
+<br>
+</p><hr>
+<div class="pagetop"><a href="#navigate">ページTOPに戻る</a></div>
+<br>
+<p></p>
+
+<p>
+
+</p><table id="sc022" style="width: 640px; font-size:300%; line-height: 150%;">
+		<tbody><tr>
+			<td style="color:#000;">
+			【 技術部門 1位 同率 】
+			</td>
+		</tr>
+</tbody></table>
+
+<table id="entrylist" style="width: 640px; font-size:100%;">
+		<tbody><tr>
+			<th class="black"><img src="db/_img/i/i078.png" width="32" height="32"></th>
+			<td class="red" style="color:#000;">No.078 - わてりとたのしいセクロス</td>
+		</tr>
+</tbody></table>
+<img src="db/_img/s/s078a.png" onmouseover="this.src='db/_img/s/s078a.png';" onmouseout="this.src='db/_img/s/s078a.png';" border="0">
+
+<table id="entrylist" style="width: 640px; font-size:100%;">
+<tbody><tr>
+<td class="red" style="padding: 10px 20px; vertical-align: middle;">
+<b>
+<a href="db/entry078.html">作品ページ</a> / 
+<a href="http://yahoo.jp/cqcUDC" target="_blank">本体ダウンロード(2.64MB) </a>
+</b></td>
+</tr>
+<tr>
+<td class="gray" style="padding: 4px 20px;">作者：ＫＳＤ　</td>
+</tr>
+<tr>
+<td class="white" style="padding: 8px 20px;">
+<h4>作品総評： [熱8技10語0演9斬8遊10笑5猥0酷7他3]</h4>
+　よくここまで作ったなぁ…むしろ「なぜツクール(しかも2000)でやったwww」というレベル。これだけのものを作ってバグがほとんど無い(少なくとも俺は遭遇しなかった)というのも凄い。<br><br>
+　難易度設定もちょうど良い感じで1～2面あたりは楽だけど、6～7面あたりになるとなかなかの難しさ。終盤難しいと言っても割とよくエクステンドするし、何回かやれば完全クリアできたので、全体で考えるとバランスが取れてるんだと思う。<br><br>
+　(-/男性/-)
+</td>
+</tr>
+<tr>
+<td class="gray" style="padding:  8px 20px;"> </td>
+</tr>
+</tbody></table>
+
+<p></p>
+
+
+<p>
+<br>
+</p><hr>
+<div class="pagetop"><a href="#navigate">ページTOPに戻る</a></div>
+<br>
+<p></p>
+
+<p>
+
+</p><table id="sc03" style="width: 640px; font-size:300%; line-height: 150%;">
+		<tbody><tr>
+			<td style="color:#000;">
+			【 物語部門 1位 】
+			</td>
+		</tr>
+</tbody></table>
+<table id="entrylist" style="width: 640px; font-size:100%;">
+		<tbody><tr>
+			<th class="black"><img src="db/_img/i/i053.png" width="32" height="32"></th>
+			<td class="red" style="color:#000;">No.053 - 百合っぽいお話とか</td>
+		</tr>
+</tbody></table>
+<img src="db/_img/s/s053a.jpg" onmouseout="this.src='db/_img/s/s053a.jpg';" border="0">
+
+<table id="entrylist" style="width: 640px; font-size:100%;">
+<tbody><tr>
+<td class="red" style="padding: 10px 20px; vertical-align: middle;">
+<b>
+<a href="db/entry053.html">作品ページ</a> / 
+<a href="http://yahoo.jp/Xlcl-M" target="_blank">本体ダウンロード(3.90MB) </a>
+</b></td>
+</tr>
+<tr>
+<td class="gray" style="padding: 4px 20px;">作者：L&amp;E　</td>
+</tr>
+<tr>
+<td class="white" style="padding: 8px 20px;">
+<h4>作品総評： [熱8技8語10演8斬8遊8笑8猥10酷8他2]</h4>
+　みんな大好き、ゆる百合ぺろぺろ系ニヤニヤ動画(きめぇ<br><br>
+　全体的にコミカルな動作で楽しい。短編五作はいわゆるプロローグ的な役目を担っていたりして、その後のフリートークで物語の「結」に向かっていくような演出。一つ一つの短編が丁寧に作られているため好感。どれもかわいらしく、女の子の小さな機微までしっかりと描かれていて、大人のハートをぎゅっと掴んでくれる(きめぇ<br><br>
+　タイトルからウィンドウ枠、BGMや深夜のバーの色彩に統一感があり綺麗で夜空のEDもしっとり心地よかったです。後味ほろ酔い。<br><br>
+</td>
+</tr>
+<tr>
+<td class="white" style="padding: 4px 20px;">作者コメント：<br><br>
+こんなところに書かせて頂いて恐縮です・・・<br>
+応援をしてくださった方々　本当にありがとう！<br>
+<br>
+皆さんがこのゲームをプレイをしてくれた事や　このお祭りで色々な作品が遊べた事　本当に楽しかったです！<br>
+何もかもが良い思い出になりそうです<br>
+<br>
+次は何かのお祭りか、それとも別のところか<br>
+またどこかでお会いできれば嬉しいです<br>
+<br>
+それでは<br>
+<br></td>
+</tr>
+<tr>
+<td class="gray" style="padding:  8px 20px;"> </td>
+</tr>
+</tbody></table>
+
+<p></p>
+
+
+<p>
+<br>
+</p><hr>
+<div class="pagetop"><a href="#navigate">ページTOPに戻る</a></div>
+<br>
+<p></p>
+
+
+<p>
+
+</p><table id="sc05" style="width: 640px; font-size:300%; line-height: 150%;">
+		<tbody><tr>
+			<td style="color:#000;">
+			【 斬新さ部門 1位 】
+			</td>
+		</tr>
+</tbody></table>
+<table id="entrylist" style="width: 640px; font-size:100%;">
+		<tbody><tr>
+			<th class="black"><img src="db/_img/i/i046.png" width="32" height="32"></th>
+			<td class="red" style="color:#000;">No.046 - ソーレソレソレ</td>
+		</tr>
+</tbody></table>
+
+<img src="db/_img/s/s046a.png" onmouseover="this.src='db/_img/s/s046a.png';" onmouseout="this.src='db/_img/s/s046a.png';" border="0">
+
+<table id="entrylist" style="width: 640px; font-size:100%;">
+<tbody><tr>
+<td class="red" style="padding: 10px 20px; vertical-align: middle;">
+<b>
+<a href="db/entry046.html">作品ページ</a> / 
+<a href="http://yahoo.jp/arjLNb" target="_blank">本体ダウンロード(2.57MB) </a>
+</b></td>
+</tr>
+<tr>
+<td class="gray" style="padding: 4px 20px;">作者：ンニー(株)　</td>
+</tr>
+<tr>
+<td class="white" style="padding: 8px 20px;">
+<h4>作品総評： [熱10技5語1演3斬10遊10笑10猥1酷10他1]</h4>
+　この作品は起動することに意味があります。<br>
+　そしてあなたは間違いなく何度も起動したくなるでしょう。<br>
+　おお、乱数の神よ、われに微笑み給えと、言いたくなるでしょう。
+</td>
+</tr>
+<tr>
+<td class="white" style="padding: 4px 20px;">作者コメント：<br><br>
+この度は沢山の投票ありがとうございました。<br>
+紅白クソゲーオブザイヤーだけを一心に狙ってきたところ、なぜか斬新さ部門での受賞と相成りました。<br>
+皆さんお優しいですレソーレレレレ　<br>
+<br>
+みんなもPSVita買おうぜ！<br>
+<br></td>
+</tr>
+<tr>
+<td class="gray" style="padding:  8px 20px;"> </td>
+</tr>
+</tbody></table>
+
+<p></p>
+
+
+<p>
+<br>
+</p><hr>
+<div class="pagetop"><a href="#navigate">ページTOPに戻る</a></div>
+<br>
+<p></p>
+
+<p>
+
+</p><table id="sc09" style="width: 640px; font-size:300%; line-height: 150%;">
+		<tbody><tr>
+			<td style="color:#000;">
+			【 ひどさ部門 1位 】
+			</td>
+		</tr>
+</tbody></table>
+<table id="entrylist" style="width: 640px; font-size:100%;">
+		<tbody><tr>
+			<th class="black"><img src="db/_img/i/i082.png" width="32" height="32"></th>
+			<td class="red" style="color:#000;">No.082 - 絶壁天国＋リリア・キングフォーム</td>
+		</tr>
+</tbody></table>
+
+<img src="db/_img/s/s082a.png" onmouseout="this.src='db/_img/s/s082a.png';" border="0">
+
+<table id="entrylist" style="width: 640px; font-size:100%;">
+<tbody><tr>
+<td class="red" style="padding: 10px 20px; vertical-align: middle;">
+<b>
+<a href="db/entry082.html">作品ページ</a> / 
+<a href="http://yahoo.jp/_Zz88T" target="_blank">本体ダウンロード(0.78MB) </a>
+</b></td>
+</tr>
+<tr>
+<td class="gray" style="padding: 4px 20px;">作者：リリアさん大好き丸　</td>
+</tr>
+<tr>
+<td class="white" style="padding: 8px 20px;">
+<h4>作品総評： [熱10技3語1演10斬10遊10笑10猥2酷10他1]</h4>
+　前半はとにかく酷い<br>
+　でも、後半はもっと酷いよ
+</td>
+</tr>
+<tr>
+<td class="white" style="padding: 4px 20px;">作者コメント：<br><br>
+何時の日か、リリアさんがヒロインで大活躍するゲームを作りたいと夢見ています。<br>
+しかし現在の私はこの様なｋｓｇを作り、図々しくも紅白に提出し、<br>
+『ひどさ部門』なる奇怪部門で何故か一位に輝き、管理人さんから、<br>
+「てめぇのｋｓｇが一番酷かったぞ！　晒し上げするからコメントよこせ！」<br>
+という脅迫メールを貰い、泣きながらこの文を書いています。<br>
+これは悪い夢だ。<br>
+<br></td>
+</tr>
+<tr>
+<td class="gray" style="padding:  8px 20px;"> 
+<div style="font-family:'ＭＳ Ｐゴシック','ＭＳＰゴシック','MSPゴシック','MS Pゴシック';font-size:16px;line-height:16px; text-align:left;">
+　　　　　　　　　 　 　 ,　-‐;ｚ..__　　　　　＿丿<br>
+　　　　　　　 ／￣ﾞヽ′　ﾆ‐- 、＼　　＼　　　ところがどっこい<br>
+　　　　　　　Ｚ´// ,ﾍ.∧ ヽ　＼ヽ　ゝ　　 ヽ　　　‥‥‥‥<br>
+　　　　　　　/, / ,ﾘ 　 vﾍ ｌヽ＼ヽヽ.|　 　 ノ　　夢じゃありません<br>
+　　　　　　　/ｲﾙ_-､ij~　 ﾊにヽ,,＼`|　＜　　　　　　‥‥‥‥！<br>
+.　　　　　　　 N⌒ヽヽ　/／￣ﾘ:| l l |　　 ｀)<br>
+　 　 　 　 　 　 ﾄ､_e.〉u ' ｅ_ ノﾉ |.l l |　 ∠.　　　現実です<br>
+　　　　　　　 　 |､＜ ､ ij　_,¨､イ||ト､| 　 　 ヽ　　　　　　‥‥‥！<br>
+.　　　　 　 　 　 |ドｴｴエ「-┴''´|.|L八　　　ﾉ -､　　　これが現実‥！<br>
+　　　 　 　 　 　 l.ﾋ_ー-r-ー'スｿ | l トゝ､.__　　 | ,. - ､<br>
+　　　　_,,.　-‐ ''"ﾄヽｴｴｴエ!ゝ'´.ｲ i l;;;;:::::::::::`::ｰ/<br>
+　　　ﾊ:::::::::::::::::::::| l＼ｰ一_v~'´ j　,1;;;;;;:::::::::::::::::::<br>
+.　　/:::;l::::::::::::::::::::;W1;;;下、　／lﾙ' !;;;;;;;;;::::::::::::::::<br>
+　 /:::::;;;ｌ:::::::::::::::::;;;;;;;;;;;;;;;|: :Ｘ: : : : : |;;;;;;;;;;;;;;::::::::::::<br>
+　/:::::;;;;;;|:::::::::::::::;;;;;;;;;;;;;;;;|/: : &gt;､: : :|;;;;;;;;;;;;;;;:::::::::::<br>
+<div>
+<br>
+※脅迫　そのような事実はございません。</div></div></td>
+</tr>
+</tbody></table>
+
+<p></p>
+
+
+<p>
+<br>
+</p><hr>
+<div class="pagetop"><a href="#navigate">ページTOPに戻る</a></div>
+<br>
+<p></p>
+
+</center>
+</div><!--/#box1-->
+
+<h2>COPYPASTE ? <a href="http://www10.atwiki.jp/vip_rpg/">2012 VIPRPG</a>.</h2>
+
+</div><!--/#back.body-->
+</div><!--/#back-->
+</div><!--/#container-->
+
+
+<div style="text-align:center; font-size:10px;display:block !important; visibility:visible !important;"><a style="text-decoration:none;font-color:" href="http://atpages.jp/keyword">Powered by キーワード@Pages</a></div>
+
+
+
+</body></html>
