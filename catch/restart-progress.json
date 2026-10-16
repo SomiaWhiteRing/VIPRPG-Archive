@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2012-kouhaku",
+  "activeFestival": "2012-magic-festival",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -331,28 +331,45 @@
     {
       "festivalId": "2012-kouhaku",
       "reviewedAt": "2026-10-17",
-      "dataSha256": "6a7c8996e2aac1e7c443877b831d77fb3a4338c1fe4565d6db446ae0f7391558",
+      "dataSha256": "cd1bda8e23bcf2978b5c16161ed68783c16b4208e377a1f41222e5aff768cd46",
       "works": 96,
       "screenshotFiles": 106,
       "status": "reviewed",
       "sourceEvidence": [
         "catch/2012-kouhaku/recovery.json",
-        "catch/2012-kouhaku/source-comparison.json",
-        "catch/2012-kouhaku/migration-image-recovery.json",
-        "catch/2012-kouhaku/content-review.json",
-        "catch/2012-kouhaku/title-review.json",
-        "catch/2012-kouhaku/restricted-source-cache-review.json",
-        "catch/2012-kouhaku/missing-resource-review.json"
+        "catch/2012-kouhaku/rearchive-fetch.json",
+        "catch/2012-kouhaku/rearchive-resource-fetch.json",
+        "catch/2012-kouhaku/rearchive-source-comparison.json"
       ],
       "desktopEvidence": [
-        "catch/2012-kouhaku/desktop-review.json",
-        "catch/2012-kouhaku/image-decode-check.json",
-        "catch/2012-kouhaku/route-check.json",
-        "catch/2012-kouhaku/original-link-check.json",
-        "catch/2012-kouhaku/restricted-output-check.json",
-        "catch/2012-kouhaku/replay-review.json"
+        "catch/2012-kouhaku/rearchive-desktop-review.json",
+        "catch/2012-kouhaku/rearchive-replay-review.json"
       ],
-      "notes": "96 条目录（补回 No.000）、93 个来源详情与 3 个完整受限模板；93 条图标引用、104 张展示／悬停截图、2 张留言图、3 张横幅和 98 个历史本体／补丁链接已核对，另保留镜像所列 76 个非受限作品保管入口。原貌版恢复 CGI 本地导航及 12 个排名页，共 513 个文件；修复 HTML 与外部资源混合编码。27 张悬停图和 25 个排名页装饰资源未取回，保留缺口并停用失效引用；服务器类型筛选及排名筛选／排序有限制。两种视图桌面验收通过。"
+      "notes": "补档修订恢复 No.058、093 的来源资料、图标／截图、下载与讨论入口，作品 JSON 仅这两条改变；No.017 因已有明确的未成年角色相关记录继续保留完整模板。共 96 条目录、95 个普通详情、95 条图标引用与 106 张截图；两份原始详情及两份排名页哈希均与首次记录相同。原貌 515 个文件；原有 52 项资源缺口及新增 No.093 悬停图缺口继续记录。双桌面宽度、571 个图片路径解码、192 个双视图地址及 518 路径离线重放通过。",
+      "previousReviews": [
+        {
+          "reviewedAt": "2026-10-17",
+          "dataSha256": "6a7c8996e2aac1e7c443877b831d77fb3a4338c1fe4565d6db446ae0f7391558",
+          "notes": "96 条目录（补回 No.000）、93 个来源详情与 3 个完整受限模板；93 条图标引用、104 张展示／悬停截图、2 张留言图、3 张横幅和 98 个历史本体／补丁链接已核对，另保留镜像所列 76 个非受限作品保管入口。原貌版恢复 CGI 本地导航及 12 个排名页，共 513 个文件；修复 HTML 与外部资源混合编码。27 张悬停图和 25 个排名页装饰资源未取回，保留缺口并停用失效引用；服务器类型筛选及排名筛选／排序有限制。两种视图桌面验收通过。",
+          "sourceEvidence": [
+            "catch/2012-kouhaku/recovery.json",
+            "catch/2012-kouhaku/source-comparison.json",
+            "catch/2012-kouhaku/migration-image-recovery.json",
+            "catch/2012-kouhaku/content-review.json",
+            "catch/2012-kouhaku/title-review.json",
+            "catch/2012-kouhaku/restricted-source-cache-review.json",
+            "catch/2012-kouhaku/missing-resource-review.json"
+          ],
+          "desktopEvidence": [
+            "catch/2012-kouhaku/desktop-review.json",
+            "catch/2012-kouhaku/image-decode-check.json",
+            "catch/2012-kouhaku/route-check.json",
+            "catch/2012-kouhaku/original-link-check.json",
+            "catch/2012-kouhaku/restricted-output-check.json",
+            "catch/2012-kouhaku/replay-review.json"
+          ]
+        }
+      ]
     },
     {
       "festivalId": "2012-magic-festival",
@@ -517,7 +534,7 @@
       "festivalId": "2012-kouhaku",
       "evidence": [
         "catch/2012-kouhaku/original-view.json",
-        "catch/2012-kouhaku/desktop-review.json"
+        "catch/2012-kouhaku/rearchive-desktop-review.json"
       ]
     },
     {

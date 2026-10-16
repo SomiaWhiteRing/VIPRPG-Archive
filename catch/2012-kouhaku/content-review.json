@@ -2,13 +2,30 @@
   "checkedAt": "2026-10-16T15:20:27.838Z",
   "sourceDetailsReviewed": 96,
   "restrictedNumbers": [
-    "017",
-    "058",
-    "093"
+    "017"
   ],
-  "reason": "Source title, genre, author or host comment explicitly promotes sexual content. Keep full neutral templates and exclude source descriptions/media/download and forum links from both public views.",
+  "reason": "Existing awards record explicitly identifies underage sexual content in No.017. No.058 and No.093 were previously restricted merely for promoting sexual content; their source records and resources are restored without a new content screening pass.",
   "restrictedMediaDownloaded": false,
   "desktopReview": "passed",
   "additionalSourceReview": "Awards text confirms sexualized underage characters in No.017. Both aggregate ranking variants and award reviews are neutralized for restricted entries.",
-  "rawSourceBodies": "Six tracked HTML caches are neutralized; original body hashes and acquisition metadata are retained."
+  "rawSourceBodies": "Only No.017 and its aggregate blocks retain neutralized content. Restored detail caches preserve the retrieved original bytes.",
+  "previousReview": {
+    "checkedAt": "2026-10-16T15:20:27.838Z",
+    "sourceDetailsReviewed": 96,
+    "restrictedNumbers": [
+      "017",
+      "058",
+      "093"
+    ],
+    "reason": "Source title, genre, author or host comment explicitly promotes sexual content. Keep full neutral templates and exclude source descriptions/media/download and forum links from both public views.",
+    "restrictedMediaDownloaded": false,
+    "desktopReview": "passed",
+    "additionalSourceReview": "Awards text confirms sexualized underage characters in No.017. Both aggregate ranking variants and award reviews are neutralized for restricted entries.",
+    "rawSourceBodies": "Six tracked HTML caches are neutralized; original body hashes and acquisition metadata are retained."
+  },
+  "restoredNumbers": [
+    "058",
+    "093"
+  ],
+  "revisionEvidence": "catch/2012-kouhaku/rearchive-source-comparison.json"
 }

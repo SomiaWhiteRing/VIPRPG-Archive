@@ -45,7 +45,21 @@
         "058",
         "093"
       ],
-      "count": 3
+      "count": 3,
+      "status": "reviewed-with-retained-restriction",
+      "restoredNumbers": [
+        "058",
+        "093"
+      ],
+      "retainedNumbers": [
+        "017"
+      ],
+      "restoredEntries": 2,
+      "retainedEntries": 1,
+      "evidence": [
+        "catch/2012-kouhaku/rearchive-source-comparison.json",
+        "catch/2012-kouhaku/rearchive-desktop-review.json"
+      ]
     },
     {
       "festivalId": "2012-magic-festival",
@@ -79,9 +93,10 @@
     }
   ],
   "totalEntries": 21,
-  "activeFestival": "2012-kouhaku",
-  "completedEntries": 11,
-  "remainingEntries": 10,
-  "processedEntries": 12,
-  "retainedEntries": 1
+  "activeFestival": "2012-magic-festival",
+  "completedEntries": 13,
+  "remainingEntries": 8,
+  "processedEntries": 15,
+  "retainedEntries": 2,
+  "pendingEntries": 6
 }

@@ -788,8 +788,10 @@
       "team": "white",
       "engineKey": "2000",
       "submissionStatus": "提出済",
-      "galleryUrls": [],
-      "status": "restricted-template"
+      "galleryUrls": [
+        "http://www45.atpages.jp/vipkohaku2012/db/_img/s/s058a.png"
+      ],
+      "status": "detail-recovered"
     },
     {
       "no": "059",
@@ -1255,8 +1257,11 @@
       "team": "red",
       "engineKey": "2000",
       "submissionStatus": "提出済",
-      "galleryUrls": [],
-      "status": "restricted-template"
+      "galleryUrls": [
+        "http://www45.atpages.jp/vipkohaku2012/db/_img/s/s093a.png",
+        "http://www45.atpages.jp/vipkohaku2012/db/_img/s/s093b.png"
+      ],
+      "status": "detail-recovered"
     },
     {
       "no": "094",
@@ -1320,63 +1325,7 @@
         "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1349525906/",
         "http://enq-maker.com/6s1btnA"
       ],
-      "reason": "Source explicitly promotes sexual content; retain a full neutral template without source descriptions, media or related links. Generic shared catalogue icons remain available to other entries."
-    },
-    {
-      "no": "058",
-      "sourcePath": "db/entry058.html",
-      "resources": [
-        {
-          "path": "db/_img/i/i058.png",
-          "kind": "icon"
-        },
-        {
-          "path": "db/_img/s/s058a.png",
-          "kind": "screenshot"
-        },
-        {
-          "path": "db2/_img/i/i058.png",
-          "kind": "icon"
-        },
-        {
-          "path": "db2/_img/i/i058.png",
-          "kind": "icon"
-        }
-      ],
-      "relatedUrls": [
-        "http://yahoo.jp/laMgw2",
-        "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1355233196/",
-        "http://enq-maker.com/fKIBZhF"
-      ],
-      "reason": "Source explicitly promotes sexual content; retain a full neutral template without source descriptions, media or related links. Generic shared catalogue icons remain available to other entries."
-    },
-    {
-      "no": "093",
-      "sourcePath": "db/entry093.html",
-      "resources": [
-        {
-          "path": "db/_img/s/s093a.png",
-          "kind": "screenshot"
-        },
-        {
-          "path": "db/_img/s/s093b.png",
-          "kind": "screenshot"
-        },
-        {
-          "path": "db2/_img/i/yomu.png",
-          "kind": "icon"
-        },
-        {
-          "path": "db2/_img/i/yomu.png",
-          "kind": "icon"
-        }
-      ],
-      "relatedUrls": [
-        "http://yahoo.jp/5juWXa",
-        "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1356302056/",
-        "http://enq-maker.com/dHTuFBL"
-      ],
-      "reason": "Source explicitly promotes sexual content; retain a full neutral template without source descriptions, media or related links. Generic shared catalogue icons remain available to other entries."
+      "reason": "Existing awards record explicitly identifies sexualized underage characters in No.017; retain its neutral template without original descriptions, media or related links. Generic shared catalogue icons remain available to other entries."
     }
   ],
   "failures": [
@@ -1514,9 +1463,14 @@
       "owner": "2012-kouhaku-work-088",
       "sourceUrl": "http://www45.atpages.jp/vipkohaku2012/db/_img/s/s088b.png",
       "error": "Error: HTTP 404"
+    },
+    {
+      "owner": "2012-kouhaku-work-093",
+      "sourceUrl": "http://www45.atpages.jp/vipkohaku2012/db/_img/s/s093b.png",
+      "error": "Error: HTTP 404 at the checked known snapshot; see rearchive-resource-fetch.json"
     }
   ],
   "desktopReview": "passed",
   "note": "Original CGI query links are retained as source URLs and mapped to local static detail pages only for offline replay. Archive requests use Hong Kong; live original/migration/mirror checks use Japan.",
-  "desktopEvidence": "catch/2012-kouhaku/desktop-review.json"
+  "desktopEvidence": "catch/2012-kouhaku/rearchive-desktop-review.json"
 }

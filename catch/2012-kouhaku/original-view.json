@@ -12,10 +12,6 @@
   "files": [
     "restricted/017-icon.svg",
     "restricted/017-screenshot.svg",
-    "restricted/058-icon.svg",
-    "restricted/058-screenshot.svg",
-    "restricted/093-icon.svg",
-    "restricted/093-screenshot.svg",
     "db/entry001.html",
     "db/entry000.html",
     "db/entry003.html",
@@ -302,6 +298,10 @@
     "db/_img/s/s000a.png",
     "db/_img/s/s014b2.png",
     "db/_img/s/s070b.jpg",
+    "db/_img/i/i058.png",
+    "db/_img/s/s058a.png",
+    "db/_img/i/yomu.png",
+    "db/_img/s/s093a.png",
     "index.html",
     "db/index.html",
     "db/favicon.ico",
@@ -487,6 +487,7 @@
     "db2/_img/i/i042.png",
     "db2/_img/i/miru.png",
     "db2/_img/i/i032.png",
+    "db2/_img/i/i058.png",
     "db2/_img/i/i001.png",
     "db2/_img/i/i023.png",
     "db2/_img/i/i027.png",
@@ -498,6 +499,7 @@
     "db2/_img/i/i025.png",
     "db2/_img/i/i060.png",
     "db2/_img/i/i041.png",
+    "db2/_img/i/yomu.png",
     "db2/_img/i/pzl.png",
     "db2/_img/i/i056.png",
     "db2/_img/i/i024_1.png",
@@ -526,11 +528,7 @@
   ],
   "generatedPlaceholders": [
     "restricted/017-icon.svg",
-    "restricted/017-screenshot.svg",
-    "restricted/058-icon.svg",
-    "restricted/058-screenshot.svg",
-    "restricted/093-icon.svg",
-    "restricted/093-screenshot.svg"
+    "restricted/017-screenshot.svg"
   ],
   "preloadResources": {
     "unavailableUnused": 0,
@@ -672,6 +670,10 @@
       "url": "http://www45.atpages.jp/vipkohaku2012/db/_img/s/s083b.jpg",
       "requestedUrl": "https://web.archive.org/web/20121229182140id_/http://www45.atpages.jp/vipkohaku2012/db/_img/s/s083b.jpg",
       "error": "Error: [{\"url\":\"https://web.archive.org/web/20121229182140id_/http://www45.atpages.jp/vipkohaku2012/db/_img/s/s083b.jpg\",\"error\":\"Error: HTTP 404\"}]"
+    },
+    {
+      "url": "http://www45.atpages.jp/vipkohaku2012/db/_img/s/s093b.png",
+      "error": "Error: HTTP 404 at the checked known snapshot; see rearchive-resource-fetch.json"
     },
     {
       "url": "http://www45.atpages.jp/vipkohaku2012/sc02/favicon.ico",
@@ -971,6 +973,10 @@
       "resource": "db/_img/s/s083b.jpg"
     },
     {
+      "page": "db/entry093.html",
+      "resource": "db/_img/s/s093b.png"
+    },
+    {
       "page": "enq4.html",
       "resource": "db/_img/s/s053b.jpg"
     },
@@ -1086,5 +1092,5 @@
     "Restricted entries retain their catalogue row and full detail structure with fixed neutral text and generated placeholders; original restricted descriptions, media and related links are not published."
   ],
   "desktopReview": "passed",
-  "desktopEvidence": "catch/2012-kouhaku/desktop-review.json"
+  "desktopEvidence": "catch/2012-kouhaku/rearchive-desktop-review.json"
 }

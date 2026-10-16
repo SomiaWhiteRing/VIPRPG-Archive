@@ -1,4 +1,5 @@
-<html><head>
+<html>
+<head>
 <title>VIPRPG紅白2012</title>
 <meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
 <link rel="shortcut icon" href="favicon.ico">
@@ -347,8 +348,8 @@ $.fn.hoverClass = function(c) {
 };
 </script>
 
-<link rel="canonical" href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi">
-<link rel="alternate" media="handheld" href="http://www45.atpages.jp/_/mgw/gw?_ucb_u=http%3A%2F%2Fwww45.atpages.jp%2Fvipkohaku2012%2Fdb%2Fprofile.cgi%3F_v%3D093%26tpl%3Dview2" type="text/html"></head>
+<link rel="canonical" href="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi" />
+<link rel="alternate" media="handheld" href="http://www45.atpages.jp/_/mgw/gw?_ucb_u=http%3A%2F%2Fwww45.atpages.jp%2Fvipkohaku2012%2Fdb%2Fprofile.cgi%3F_v%3D093%26tpl%3Dview2" type="text/html" /></head>
 
 <body><script type="text/javascript">
                    <!--
@@ -403,7 +404,7 @@ $.fn.hoverClass = function(c) {
 })();
 </script>
 
-<script type="text/javascript">
+<script type='text/javascript'>
 var googletag = googletag || {};
 googletag.cmd = googletag.cmd || [];
 (function() {
@@ -418,7 +419,7 @@ node.parentNode.insertBefore(gads, node);
 })();
 </script>
 
-<script type="text/javascript">
+<script type='text/javascript'>
 googletag.cmd.push(function() {
 googletag.defineSlot('/9160377/atpages_728_own', [728, 90], 'div-gpt-ad-1368774777218-0').addService(googletag.pubads());
 googletag.pubads().enableSingleRequest();
@@ -456,7 +457,7 @@ var FRAME=0;
 					<li><a href="http://www45.atpages.jp/vipkohaku2012/about.html#entry">参加方法</a></li>
 					<li><a href="http://www45.atpages.jp/vipkohaku2012/about.html#present">提出方法</a></li>
 					<li><a href="http://www45.atpages.jp/vipkohaku2012/about.html#patch">作品の修正</a></li>
-					<li><a href="http://www45.atpages.jp/vipkohaku2012/about.html#Q&amp;A">Q&amp;A</a></li>
+					<li><a href="http://www45.atpages.jp/vipkohaku2012/about.html#Q&A">Q&A</a></li>
 				</ul>
 			</li>
 			<li>
@@ -466,15 +467,15 @@ var FRAME=0;
 					<li><a href="http://www45.atpages.jp/vipkohaku2012/enq.html#howto">投票方法</a></li>
 					<li><a href="http://www45.atpages.jp/vipkohaku2012/enq.html#section">審査部門</a></li>
 					<li><a href="http://www45.atpages.jp/vipkohaku2012/enq.html#total">集計</a></li>
-					<li><a href="profile.cgi?tpl=view4&amp;?type=or&amp;key=%92%F1%8Fo%8D%CF%20%20%92x%8D%8F%92%F1%8Fo%20">中間発表</a></li>
+					<li><a href="profile.cgi?tpl=view4&?type=or&key=%92%F1%8Fo%8D%CF%20%20%92x%8D%8F%92%F1%8Fo%20">中間発表</a></li>
 					<li><a href="http://www45.atpages.jp/vipkohaku2012/enq2.html">結果発表</a></li>
 				</ul>
-			</li><li>
-			</li><li>
+			<li>
+			<li>
 				<a href="http://www45.atpages.jp/vipkohaku2012/entry.html">作品一覧</a>
 				<ul>
 					<li><a href="profile.cgi?tpl=view">リスト</a></li>
-					<li><a href="profile.cgi?tpl=view3&amp;hor=4">サムネイル</a></li>
+					<li><a href="profile.cgi?tpl=view3&hor=4">サムネイル</a></li>
 				</ul>
 			</li>
 			<li>
@@ -494,9 +495,9 @@ var FRAME=0;
 				<a href="https://twitter.com/vipkohaku2012_1">Twitter</a>
 			</li>
 			<li>
-<a href="http://www.netriver.jp/product/" target="_blank">
-<img src="http://www.netriver.jp/countriver/cntriv.cgi?user=vipkohaku2012_1&amp;id=00000000&amp;ptn=15&amp;dig=0" onmouseover="CountRiverMouseOver()" onmouseout="CountRiverMouseOut()" style="border:0; margin: 8px 0 8px 0;"></a>
-<div id="CountRiverObjDiv" style="position:absolute; top:0px; left:0px; display:none; z-index:1000;"></div>
+<a href="http://www.netriver.jp/product/" target='_blank'>
+<img src="http://www.netriver.jp/countriver/cntriv.cgi?user=vipkohaku2012_1&id=00000000&ptn=15&dig=0" onmouseover='CountRiverMouseOver()' onmouseout='CountRiverMouseOut()' style="border:0; margin: 8px 0 8px 0;" /></a>
+<div id=CountRiverObjDiv style='position:absolute; top:0px; left:0px; display:none; z-index:1000;'></div>
 			</li>
 		</ul>
 			</td>
@@ -519,40 +520,40 @@ var FRAME=0;
 <p>
 [ <a href="http://www45.atpages.jp/vipkohaku2012/">HOME</a> ] 
 [ <a href="profile.cgi?tpl=view">リスト</a> ] 
-[ <a href="profile.cgi?tpl=view3&amp;hor=4">サムネイル</a> ] 
-[ <a href="profile.cgi?tpl=view4&amp;?type=or&amp;key=%92%F1%8Fo%8D%CF%20%20%92x%8D%8F%92%F1%8Fo%20">中間発表</a> ] 
+[ <a href="profile.cgi?tpl=view3&hor=4">サムネイル</a> ] 
+[ <a href="profile.cgi?tpl=view4&?type=or&key=%92%F1%8Fo%8D%CF%20%20%92x%8D%8F%92%F1%8Fo%20">中間発表</a> ] 
 [ <a href="http://yahoo.jp/c5vIhY" target="_blank">作品保管所①</a> ] 
 [ <a href="http://yahoo.jp/lDCCEz" target="_blank">作品保管所②</a> ]
 </p>
 <table width="100%">
-	<tbody><tr valign="bottom">
+	<tr valign="bottom">
 		<td style="background:#F77; color:#fff; text-align:center;">登録番号 093 を表示 </td>
 	</tr>
-</tbody></table>
+</table>
 
-<p align="center"></p>
+<p align=center></p>
 
 <br>
 
 
-<p align="center">
-<table id="entrylist" style="width: 640px; font-size:100%;"><tbody><tr>
-<td class="black" style="text-align:right;"><a href="profile.cgi?_v=092&amp;tpl=view2" target="_self" style="color:#fff;">&lt;&lt; BACK </a></td>
-<td class="black" style="text-align:center;"><a href="profile.cgi?type=all&amp;tpl=view" target="_self" style="color:#fff;">作品一覧</a></td>
-<td class="black" style="text-align:left;"><a href="profile.cgi?_v=094&amp;tpl=view2" target="_self" style="color:#fff;">NEXT &gt;&gt;</a></td>
-</tr></tbody></table>
+<p align=center>
+<table id="entrylist" style="width: 640px; font-size:100%;"><tr>
+<td class="black" style="text-align:right;" ><a href="profile.cgi?_v=092&tpl=view2" target="_self" style="color:#fff;"><< BACK </a></td>
+<td class="black" style="text-align:center;"><a href="profile.cgi?type=all&tpl=view" target="_self" style="color:#fff;">作品一覧</a></td>
+<td class="black" style="text-align:left;"  ><a href="profile.cgi?_v=094&tpl=view2" target="_self" style="color:#fff;">NEXT >></a></td>
+</tr></table>
 
 <table id="entrylist" style="width: 640px; font-size:100%;">
-		<tbody><tr>
-			<th class="black"><img src="_img/i/yomu.png" width="32" height="32"></th>
+		<tr>
+			<th class="black"><img src="_img/i/yomu.png" width=32 height=32></th>
 			<td class="red" style="color:#000;">No.093 - Into the Lilizm</td>
 		</tr>
-</tbody></table>
+</table>
 
 <img src="_img/s/s093a.png" onmouseover="this.src='_img/s/s093b.png';" onmouseout="this.src='_img/s/s093a.png';" border="0">
 
 <table id="entrylist" style="width: 640px; font-size:100%;">
-<tbody><tr>
+<tr>
 <td class="red" style="padding: 10px 20px; vertical-align: middle;">
 <b><a href="http://yahoo.jp/5juWXa" target="_blank">本体ダウンロード(1.02MB)</a> / <a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1356302056/" target="_blank">BBS</a> / <a href="http://enq-maker.com/dHTuFBL" target="_blank">投票</a></b>
 </td>
@@ -570,17 +571,17 @@ var FRAME=0;
 <td class="white" style="padding: 4px 20px;">作者：崇拝しすぎた刃</td>
 </tr>
 <tr>
-<td class="white" style="padding: 4px 20px;">作者コメント：<br>制限された内容</td>
+<td class="white" style="padding: 4px 20px;">作者コメント：<br>　今年一年、色々な目に遭ったリリアさんに最後くらいは花持たせようと思った。<br>※R-18です。非常にエロい部分を含みます<br>※アルパカは出てきません<br>※アマゾネスも出てきません（本編）<br>※でもそれを下回るドン引き要素があります<br>※総合的に見てリリアが好きな人にはおすすめできません</td>
 </tr>
 <tr>
-<td class="gray" style="padding:  4px 20px;">管理人コメント：<br>制限された内容</td>
+<td class="gray" style="padding:  4px 20px;">管理人コメント：<br>おう……ドン引きだと……？へっへっへ、面白ぇ、やってやろうじゃねぇか！</td>
 </tr>
 
 		<tr>
-			<td class="red" style="padding: 10px 20px;">更新履歴 (提出状況：提出済)</td>
+			<td  class="red" style="padding: 10px 20px;">更新履歴 (提出状況：提出済)</td>
 		</tr>
 		<tr>
-			<td class="white" style="padding: 10px 20px; height:50px;">
+			<td  class="white" style="padding: 10px 20px; height:50px;">
 			<div class="new">
 <dl>
 <dt>2012/12/23</dt><dd>エントリー　期日内提出</dd>
@@ -591,16 +592,16 @@ var FRAME=0;
 
 <tr>
 <td class="gray" style="padding:  3px 20px;">
-<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=093&amp;tpl=view2" data-text="【No.093】Into the Lilizm" data-lang="ja" data-hashtags="vipkohaku2012_093">ツイート</a>
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=093&tpl=view2" data-text="【No.093】Into the Lilizm" data-lang="ja" data-hashtags="vipkohaku2012_093">ツイート</a>
 </td>
 </tr>
-</tbody></table>
+</table>
 
-<table id="entrylist" style="width: 640px; font-size:100%;"><tbody><tr>
-<td class="black" style="text-align:right;"><a href="profile.cgi?_v=092&amp;tpl=view2" target="_self" style="color:#fff;">&lt;&lt; BACK </a></td>
-<td class="black" style="text-align:center;"><a href="profile.cgi?type=all&amp;tpl=view" target="_self" style="color:#fff;">作品一覧</a></td>
-<td class="black" style="text-align:left;"><a href="profile.cgi?_v=094&amp;tpl=view2" target="_self" style="color:#fff;">NEXT &gt;&gt;</a></td>
-</tr></tbody></table>
+<table id="entrylist" style="width: 640px; font-size:100%;"><tr>
+<td class="black" style="text-align:right;" ><a href="profile.cgi?_v=092&tpl=view2" target="_self" style="color:#fff;"><< BACK </a></td>
+<td class="black" style="text-align:center;"><a href="profile.cgi?type=all&tpl=view" target="_self" style="color:#fff;">作品一覧</a></td>
+<td class="black" style="text-align:left;"  ><a href="profile.cgi?_v=094&tpl=view2" target="_self" style="color:#fff;">NEXT >></a></td>
+</tr></table>
 
 
 </p>
@@ -608,18 +609,18 @@ var FRAME=0;
 
 <br>
 
-
+</table>
 
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
 <hr>
-<p align="center">(1/1)</p>
+<p align=center>(1/1)</p>
 <div class="pagetop"><a href="#navigate">ページTOPに戻る</a></div>
 
 </div><!--/#box2-->
 
 <!-- このスクリプトをご利用頂くには著作権の表記が条件となっております。 -->
-<h2>COPYPASTE ? <a href="http://www10.atwiki.jp/vip_rpg/">2012 VIPRPG</a>.</h2>
+<h2>COPYPASTE &copy; <a href="http://www10.atwiki.jp/vip_rpg/">2012 VIPRPG</a>.</h2>
 <h2><a href="http://www.coolandcool.net" target="_blank" style="font-size:11pt">Database Factory</a></h2>
 
 </div><!--/#back.body-->
@@ -628,17 +629,17 @@ var FRAME=0;
 
 
 <div style="text-align:center; font-size:10px;display:block !important; visibility:visible !important;"><a style="text-decoration:none;font-color:" href="http://atpages.jp/keyword">Powered by キーワード@Pages</a></div><div id="geniee_overray_base" style="z-index:9999;filter:alpha(opacity=60);-ms-filter:alpha(opacity=60);-moz-opacity:0.6; -khtml-opacity:0.6;opacity:0.6;position:fixed;width:100%;height:120px;background-color:black">
-  <img id="geniee_overray_closed" style="left:100%;color:red;" src="/_/img/close.png">
+  <img id="geniee_overray_closed" style="left:100%;color:red;"
+src="/_/img/close.png">
 </div>
 <div id="geniee_overray_tag" style="z-index:9999;left:25%;position: fixed;center:100%;">
 <!-- atpages_728_own -->
-<div id="div-gpt-ad-1368774777218-0" style="width:728px; height:90px;">
-<script type="text/javascript">
+<div id='div-gpt-ad-1368774777218-0' style='width:728px; height:90px;'>
+<script type='text/javascript'>
 googletag.cmd.push(function() {
 googletag.display('div-gpt-ad-1368774777218-0'); });
 </script>
 </div>
 </div>
-
-
-</body></html>
+</body>
+</html>

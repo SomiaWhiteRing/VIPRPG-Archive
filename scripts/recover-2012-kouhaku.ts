@@ -27,13 +27,13 @@ async function main() {
   if (!thumbnailPage) throw new Error("Missing source thumbnail catalogue");
   const thumbnail = cheerio.load(iconv.decode(await fs.readFile(`${root}/source/original-view/${thumbnailPage[0]}`), "shift_jis"));
   const awardsPage = Object.entries(originalManifest).find(([, m]) => m.originalUrl.endsWith("/enq4.html"));
-  if (!awardsPage) throw new Error("Missing source awards page for content review");
+  if (!awardsPage) throw new Error("Missing source awards page");
   const awards = cheerio.load(iconv.decode(await fs.readFile(`${root}/source/original-view/${awardsPage[0]}`), "shift_jis"));
   const rankings = [];
   for (const [file, metadata] of Object.entries(originalManifest)) if (metadata.originalUrl.includes("/db2/profile.cgi")) rankings.push(cheerio.load(iconv.decode(await fs.readFile(`${root}/source/original-view/${file}`), "shift_jis")));
   const failures: Array<{ owner: string; sourceUrl: string; error: string }> = [];
   const works: WorkEntry[] = [], entries = [], contentRestrictions = [];
-  const restricted = new Set(["017", "058", "093"]);
+  const restricted = new Set(["017"]);
   const plain = (html: string) => {
     const $ = cheerio.load(html, {}, false);
     $("script,style").remove();
@@ -79,6 +79,7 @@ async function main() {
     const url = new URL(source(link).attr("href")!, base).href, no = new URL(url).searchParams.get("_v")!;
     const capture = manifest[`db/entry${no}.html`];
     if (!capture) throw new Error(`Missing original detail ${no}`);
+    if (!restricted.has(no) && capture.sanitizedForRestrictedContent) throw new Error(`Refresh altered source cache before restoring ${no}`);
     const $ = cheerio.load(iconv.decode(await fs.readFile(`${cache}/${capture.file}`), "shift_jis"));
     const cells = $("#box2 table#entrylist td").toArray();
     const heading = cells.map((td) => $(td).text().trim()).find((t) => t.startsWith(`No.${no} - `));
@@ -110,7 +111,7 @@ async function main() {
       }
       for (const img of thumbnail("a[href]").filter((_, a) => new URL(thumbnail(a).attr("href")!, url).searchParams.get("_v") === no).find("img[src]").toArray()) gallery.add(new URL(thumbnail(img).attr("src")!, url).href);
       for (const img of awards("a[href]").filter((_, a) => new URL(awards(a).attr("href")!, base).searchParams.get("_v") === no).closest("table").find("img[src]").toArray()) gallery.add(new URL(awards(img).attr("src")!, base).href);
-      contentRestrictions.push({ no, sourcePath: `db/entry${no}.html`, resources: [...(uniqueIcon ? [{ path: new URL(icon, url).pathname.slice(new URL(base).pathname.length), kind: "icon" }] : []), ...[...gallery].map((s) => ({ path: new URL(s).pathname.slice(new URL(base).pathname.length), kind: "screenshot" })), ...rankingResources], relatedUrls: $("#box2 table#entrylist a[href]").toArray().map((a) => new URL($(a).attr("href")!, url).href).filter((s) => /yahoo\.jp|jbbs\.|enq-maker/.test(s)), reason: "Source explicitly promotes sexual content; retain a full neutral template without source descriptions, media or related links. Generic shared catalogue icons remain available to other entries." });
+      contentRestrictions.push({ no, sourcePath: `db/entry${no}.html`, resources: [...(uniqueIcon ? [{ path: new URL(icon, url).pathname.slice(new URL(base).pathname.length), kind: "icon" }] : []), ...[...gallery].map((s) => ({ path: new URL(s).pathname.slice(new URL(base).pathname.length), kind: "screenshot" })), ...rankingResources], relatedUrls: $("#box2 table#entrylist a[href]").toArray().map((a) => new URL($(a).attr("href")!, url).href).filter((s) => /yahoo\.jp|jbbs\.|enq-maker/.test(s)), reason: "Existing awards record explicitly identifies sexualized underage characters in No.017; retain its neutral template without original descriptions, media or related links. Generic shared catalogue icons remain available to other entries." });
     } else {
       work.source = { url, snapshotUrl: capture.actualUrl, ...(old?.source?.titleUrl ? { titleUrl: old.source.titleUrl } : {}) };
       work.streaming = plain(fields["配信/投稿"] || "");
@@ -160,7 +161,11 @@ async function main() {
       });
       affected.add(number);
     } else for (const no of restricted) {
-      const tables = doc("a[href]").filter((_, a) => new URL(doc(a).attr("href")!, original).searchParams.get("_v") === no).closest("table");
+      let tables = doc("a[href]").filter((_, a) => new URL(doc(a).attr("href")!, original).searchParams.get("_v") === no).closest("table");
+      if (!tables.length && original.pathname.includes("/db2/")) {
+        tables = doc("table#entrylist").filter((_, t) => doc(t).find("tr").first().text().slice(0, 200).includes(`No.${no}`));
+        tables.find("tr").first().find("td").last().append(`<a href="${base}db/profile.cgi?_v=${no}&amp;tpl=view2">作品紹介</a>`);
+      }
       tables.each((_, table) => {
         if (original.pathname.endsWith("/enq4.html")) doc(table).find("td").filter((_, td) => doc(td).text().trim().startsWith("作品総評")).html("作品総評：<br>制限された内容");
         else if (doc(table).find(".new").length) doc(table).find(".new").html(`<dl><h3><a href="${base}db/profile.cgi?_v=${no}&amp;tpl=view2">作品紹介</a></h3><p>制限された内容</p></dl>`);

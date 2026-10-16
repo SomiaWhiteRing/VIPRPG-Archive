@@ -11,26 +11,6 @@
       "sanitizedSha256": "eb015c27a28161946b74cd5975b43b3f6f63e1f682707729a6f21e2e1d42b9bf"
     },
     {
-      "file": "catch/2012-kouhaku/source/recovery/entry058.html.bin",
-      "sourceUrl": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=058&tpl=view2",
-      "affectedNumbers": [
-        "058"
-      ],
-      "originalBodySha256": "0da9b5e74c3ba42d96f225a57f062bbac55bb1e64850401a7d3d6dd737b75f14",
-      "originalBodyBytes": 18124,
-      "sanitizedSha256": "1a4d7a81a1e285ae3a25b427bf91180ac3c6058f78ef3cedff847bc50669e57f"
-    },
-    {
-      "file": "catch/2012-kouhaku/source/recovery/entry093.html.bin",
-      "sourceUrl": "http://www45.atpages.jp/vipkohaku2012/db/profile.cgi?_v=093&tpl=view2",
-      "affectedNumbers": [
-        "093"
-      ],
-      "originalBodySha256": "909ea7a4d3a3480fbe67c95fada1171ebe76c955ebb82bf65625c31f7d4865d1",
-      "originalBodyBytes": 18071,
-      "sanitizedSha256": "8e6e995fafb3ea3a6b6e3d3858d61dceedb3114bf268c3b78d37763283b5e7f1"
-    },
-    {
       "file": "catch/2012-kouhaku/source/original-view/page-11.bin",
       "sourceUrl": "http://www45.atpages.jp/vipkohaku2012/enq4.html",
       "affectedNumbers": [
@@ -44,25 +24,21 @@
       "file": "catch/2012-kouhaku/source/original-view/ranking-122.bin",
       "sourceUrl": "http://www45.atpages.jp/vipkohaku2012/db2/profile.cgi?type=and&tpl=view2&key=&sort_item=19&sort_mode=4",
       "affectedNumbers": [
-        "017",
-        "058",
-        "093"
+        "017"
       ],
       "originalBodySha256": "659f2ac80deab90bc511218fae2fdeb716ba9b61c3a51b298e78439a1349cecb",
       "originalBodyBytes": 227387,
-      "sanitizedSha256": "251769f141b6847fe7583043d8944d8d74680cf19260e05c0c91d43808ad30bc"
+      "sanitizedSha256": "1df42aa915f72a9294a9f861f2b453ffe58a28a7aa094a78a43436addead93e1"
     },
     {
       "file": "catch/2012-kouhaku/source/original-view/ranking-123.bin",
       "sourceUrl": "http://www45.atpages.jp/vipkohaku2012/db2/profile.cgi?type=and&tpl=view&key=&sort_item=19&sort_mode=4",
       "affectedNumbers": [
-        "017",
-        "058",
-        "093"
+        "017"
       ],
       "originalBodySha256": "9457a50ccd92131da2da42bbd3ad8d94016240aed9789bec2f3e6b9db483765f",
       "originalBodyBytes": 98116,
-      "sanitizedSha256": "2d3750e7df2119acc1ef77f037fd283c43cc8b90cb98fa69f7eb817a0975fdc0"
+      "sanitizedSha256": "4c44e1328687c4f06950ea0d440a1ac88af10f3eaac9f90e18be22bbd188e98d"
     }
   ],
   "note": "Restricted descriptions and reviews are replaced with neutral text in tracked source caches as well as public pages. The omitted original bodies retain only hashes and acquisition metadata; other source bytes remain unchanged."
