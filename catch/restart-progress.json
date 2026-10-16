@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2012-toppuu-festival",
+  "activeFestival": "2012-summer",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -398,6 +398,24 @@
         "catch/2012-summer/replay-review.json"
       ],
       "notes": "核对原站静态数组的 90 条目录（含 No.0 示例），恢复 79 个普通详情及 11 个完整受限模板。74 条图标引用、78 张截图、1 张横幅及 45 个来源下载入口已保留；其中 17 个源站零字节图片从存档补回。No.14 原题／作者／类型留空，明确使用编号说明；特殊模板 10／11 字段错位、配信列重复论坛链接和前后页边界已修复。原貌保留动态列表／缩略图及详情，184 个文件；No.5 截图尚未取得，保留单项缺口并显示说明。两种桌面宽度验收通过。"
+    },
+    {
+      "festivalId": "2012-toppuu-festival",
+      "reviewedAt": "2026-10-17",
+      "dataSha256": "138c5c84653a9637a7cdc7790e7e52111b6e698a0d7f7331677f4ba66b917805",
+      "works": 19,
+      "screenshotFiles": 38,
+      "status": "reviewed",
+      "sourceEvidence": [
+        "catch/2012-toppuu-festival/recovery.json",
+        "catch/2012-toppuu-festival/source-comparison.json",
+        "catch/2012-toppuu-festival/local-resource-review.json"
+      ],
+      "desktopEvidence": [
+        "catch/2012-toppuu-festival/desktop-review.json",
+        "catch/2012-toppuu-festival/replay-review.json"
+      ],
+      "notes": "从仍可用的 Wiki 保存 19 个详情、38 张截图和 1 张横幅；投稿留言、截图说明、已有读者留言及历史下载／讨论链接保留。原页未署作者，不把论坛匿名 ID 当署名。原貌版 72 个文件无资源缺口；两种桌面宽度、侧栏与 TOP 导航、相册切换／Esc 和离线重放验收通过。"
     }
   ],
   "originalViewsReviewed": [
@@ -499,6 +517,21 @@
         "catch/2012-summer/original-view.json",
         "catch/2012-summer/desktop-review.json"
       ]
+    },
+    {
+      "festivalId": "2012-toppuu-festival",
+      "evidence": [
+        "catch/2012-toppuu-festival/original-view.json",
+        "catch/2012-toppuu-festival/desktop-review.json"
+      ]
     }
-  ]
+  ],
+  "insertedTask": {
+    "type": "restricted-rearchive",
+    "status": "active",
+    "afterFestival": "2012-toppuu-festival",
+    "resumeFestival": "2011-denpa-game-festival",
+    "plan": "catch/restricted-rearchive-plan.json",
+    "scope": "Existing restricted entries, starting with 2012 Summer; direct source preservation without proactive content review."
+  }
 }

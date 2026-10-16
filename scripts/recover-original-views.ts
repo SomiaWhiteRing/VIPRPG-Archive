@@ -8,6 +8,11 @@ import type { WorkEntry } from "../src/lib/types";
 import { rewriteSummer2012Source } from "./source-2012-summer-view";
 
 const configurations: Record<string, { base: string; entry?: string; manifests: string[]; seeds: Record<string, string>; seedUrls?: Record<string, string>; cgiProfile?: boolean; encoding?: string; liveSource?: boolean; disabledLocalLinks?: string[]; externalResources?: Record<string, string>; frames?: { menuPage: string; menuName: string; mainName: string } }> = {
+  "2012-toppuu-festival": {
+    base: "https://w.atwiki.jp/viprpgwind2012/",
+    manifests: ["source/live/manifest.json", "source/assets/manifest.json"],
+    seeds: {}, encoding: "utf-8", liveSource: true,
+  },
   "2012-summer": {
     base: "http://viprpgtkool.web.fc2.com/2012summer/",
     manifests: ["source/recovery/manifest.json"],
@@ -126,6 +131,7 @@ async function main() {
   const queue = new Set<string>(), files = new Map<string, Buffer>(), failures: Array<{ url: string; requestedUrl?: string; error: string }> = [];
   const compatibilityFixes: Array<{ page: string; change: string }> = [];
   const recovery = JSON.parse(await fs.readFile(`${root}/recovery.json`, "utf8"));
+  if (id === "2012-toppuu-festival") config.externalResources = recovery.originalResources;
   const previousMissing: Array<{ url: string; requestedUrl?: string; error: string }> = JSON.parse(await fs.readFile(`${root}/original-view.json`, "utf8").catch(() => "{}")).missingResources ?? [];
   const restrictions: Array<{ no: string; sourcePath: string; resources: Array<{ path: string; kind: string }>; relatedUrls?: string[] }> = recovery.contentRestrictions ?? [];
   const catalogue: WorkEntry[] = JSON.parse(await fs.readFile(`src/data/works/${id}.json`, "utf8"));
@@ -166,7 +172,7 @@ async function main() {
   function enqueue(url: string, owner: string) {
     const absolute = new URL(unarchive(url), owner).href, local = relative(absolute);
     if (local && blocked.has(local)) return blocked.get(local);
-    if (local && /\.(?:html?|css|js|png|jpe?g|gif|bmp|webp|ico|mp3|wav|ogg|mid|avi|ogv|txt|zip)$/i.test(local)) {
+    if (local && /\.(?:html?|css|js|png|jpe?g|gif|bmp|webp|ico|svg|mp3|wav|ogg|mid|avi|ogv|txt|zip)$/i.test(local)) {
       queue.add(absolute);
       return local;
     }
@@ -248,6 +254,19 @@ async function main() {
       if (/\.(?:png|jpe?g|gif|bmp|webp|ico)$/i.test(local)) imageExtension(bytes);
       if (/\.html?$/i.test(local)) {
         const $ = cheerio.load(decodeSource(bytes, encoding));
+        if (id === "2012-toppuu-festival") {
+          $("script,noscript,iframe,form,body>header,body>footer,#atwiki-fixed-nav,#atwiki-modal-search-form,#editmenu,#ads,#left-ads,#right-ads,#atwiki-ads-overlay,#body_footer,#at_social_links2,[id^='div-gpt-ad-']").remove();
+          $("link").filter((_, e) => !($(e).attr("rel") || "").includes("stylesheet") || /atwiki_headbar|font-awesome/.test($(e).attr("href") || "")).remove();
+          $("source,[srcset]").each((_, e) => { if (e.tagName === "source") $(e).remove(); else $(e).removeAttr("srcset"); });
+          $("*").each((_, e) => { for (const attr of Object.keys(e.attribs)) if (attr.startsWith("on")) $(e).removeAttr(attr); });
+          $("a[href]").each((_, e) => {
+            const value = $(e).attr("href")!;
+            if (value.startsWith("#")) return;
+            const url = new URL(value, original), mapped = config.externalResources?.[url.href];
+            if ((url.hostname === base.hostname || url.hostname === "www48.atwiki.jp") && !mapped && !cached.has(relative(url.href) || "")) $(e).removeAttr("href target");
+          });
+          compatibilityFixes.push({ page: local, change: "Preserve Wiki content, existing comments, theme and catalogue navigation; remove hosting ads, scripts, editing/posting controls and unavailable Wiki administration links. Use full source images instead of responsive thumbnail requests." });
+        }
         for (const restriction of restrictions) {
           const work = catalogue.find((work) => work.no === restriction.no)!;
           const escape = (text: string) => text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");

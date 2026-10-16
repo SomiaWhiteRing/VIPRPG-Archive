@@ -1,0 +1,367 @@
+@charset "utf-8";
+
+/* Dot1 Tpl */
+
+/* 全体 */
+/* All */
+body {
+	margin: 0; padding: 0px;
+	background: url(/common/_img/skin/dot1/bodybg.gif) bottom left fixed repeat;
+	background-color: #FFF;
+	font-family:arial,helvetica,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"メイリオ",Meiryo,"MS Pゴシック",clean,sans-serif;
+	text-align: center;
+}
+
+div, span, form, h1, h2, h3, h4, ul, ol { margin: 0; padding: 0}
+
+a:link { color:#603C22; text-decoration:underline;}
+a:visited { color:#603C22; text-decoration:underline;}
+a:active { color:#9E6216; text-decoration:underline;}
+a:hover { color:#9E6216; text-decoration:underline;}
+
+/* レイアウト */
+/*layout*/
+#wrapper{
+	margin: 0 auto 0px auto;
+	padding-top:10px;
+	border: 1px solid #AAA;
+	border-bottom: none;
+}
+#atwiki-jp-bg1{
+	height:150px;
+}
+#atwiki-jp-bg2{
+    padding-top: 1px;
+}
+
+#container {
+    width: 1100px;
+}
+
+/*ヘッダ*/
+/*header*/
+#header {
+	text-align: left;
+	width: 100%;
+	height: 150px;
+	background-color:#9E6216;
+}
+
+#header h1 {
+	text-align: center;
+	font-size: 170%;
+	font-weight: normal;
+	color: #FFF;
+	margin: 0; padding: 60px 0 0 0;
+}
+
+#header h2 {
+	text-align: center;
+	font-size: 100%;
+	font-weight: normal;
+	color: #FFF;
+}
+
+#header a,
+#header a:link,
+#header a:visited,
+#header a:active,
+#header a:hover {
+	color:#FFF;
+	text-decoration:none;
+}
+
+#container {
+    width: 1100px;
+    margin: 10px auto;
+	background-color: #FFF;
+}
+
+/*左ページ*/
+/*leftside*/
+
+#contents {
+	background-color: #FFF;
+	text-align: left;
+	padding: 20px 10px;
+	width: 810px;
+	overflow: hidden;
+	float: left;
+	border-top: 1px solid #E5DDD8;
+	border-right: 1px solid #B8B1AD;
+	border-bottom: 1px solid #B8B1AD;
+	border-left: 1px solid #E5DDD8;
+	background-color: #FFF;
+	color:#603C22;
+	text-align: left;
+	font-size: 75%;
+	line-height: 170%;
+	margin: 20px 20px 10px 20px;
+	_margin: 10px;
+	
+}
+
+#wikibody{
+}
+
+#wikibody h2{
+	font-size: 90%;
+	font-weight: bold;
+	color: #603C22;
+	margin: 15px 20px 0 20px;
+	text-align: center;
+	padding-bottom: 3px;
+}
+
+.pageinfo {
+	font-family: Verdana, sans-serif;
+	font-size: 65%;
+	color: #603C22;
+	margin: 3px 20px 10px 20px;
+	text-align: center;
+}
+#wikibody{
+}
+
+#wikibody table,
+#wikibody td,
+#wikibody th,
+#menubar table,
+#menubar th,
+#menubar td{
+	border-collapse:collapse;
+	border:1px solid #9e6216;
+}
+#wikibody td,
+#wikibody th,
+#menubar th,
+#menubar td{
+	padding:3px;
+	}
+
+
+#wikibody table,
+#menubar table{
+	margin-left:1px;
+}
+
+#attach{
+	text-align: left;
+	background: #FFF;
+	color:#603C22;
+	font-size: 70%;
+	padding-top:10px;
+}
+
+/*編集メニュー*/
+/*edit menu*/
+
+#editmenu{
+	text-align: left;
+	background: #FFF;
+	color:#603C22;
+	font-size: 70%;
+	padding-top:10px;
+	border: 1px solid #AAA;
+	border-top: none;
+	margin-top: 0;
+	padding: 10px 10px 20px 20px;
+}
+
+#editmenu a:link{
+	color:#603C22;
+	text-decoration: underline;
+}
+#editmenu a:visitid{
+	color:#603C22;
+	text-decoration: underline;
+}
+#editmenu a:hover{
+	color:#9E6216;
+	text-decoration: underline;
+}
+#editmenu a:active{
+	color:#9E6216;
+	text-decoration: underline;
+}
+#editmenu .usernamelogin{
+	color:#9E6216;
+}
+
+
+/*右ページ*/
+/*right side*/
+
+#menubar {
+	color: #603C22;
+	background-color: #FFF;
+	text-align: left;
+	border: 0;
+	font-size: 75%;
+	line-height: 170%;
+	padding:15px;
+	padding-left:5px;
+	width:200px;
+	overflow:hidden;
+	float: left;
+}
+
+
+#linktext  {
+	font-size: 65%;
+	line-height: 170%;
+	margin: 20px 10px 20px 10px;
+}
+
+/*その他*/
+/*other settings */
+
+blockquote {
+	margin: 20px 10px 0 10px;
+	padding: 8px;
+	border-top: 1px solid #C2A178;
+	border-bottom: 1px solid #C2A178;
+	background-color: #9BC1F4;
+}
+
+ul li {
+	list-style-type: square;
+	margin: 0 10px 0 25px; padding: 0;
+	line-height: 1.5;
+}
+ol li {
+	margin: 0 10px 0 35px; padding: 0;
+	line-height: 1.5;
+}
+
+hr{
+	width:90%;
+	margin:1em;
+}
+
+h2,h3, h4, h5, h6
+{
+	padding: .3em;
+}
+
+dt {
+	font-weight: bold;
+	margin-top: 1em;
+	margin-left: 1em;
+}
+
+pre {
+	border-top: #666 1px solid;
+	border-bottom: #666 1px solid;
+	padding: .5em;
+	margin-left: 1em;
+	margin-right: 1em;
+	white-space: pre;
+	background-color: #FFF;
+	color: #603C22;
+}
+
+img {
+	border: none;
+	vertical-align: middle;
+}
+
+em {
+	font-style:italic;
+}
+
+strong {
+	font-weight:bold;
+}
+
+address {
+	font-style:normal;
+	font-size:8px;
+}
+
+a.noexistpage{
+	background-color: #FFFFFF;
+}
+
+div.p_left{
+	text-align:left;
+}
+div.p_center{
+	text-align:center;
+}
+div.p_right{
+	text-align:right;
+}
+
+
+/*意味段落*/
+div.subsection{
+	margin: 1.4em 0px;
+}
+
+/*その他の警告*/
+p.warning,
+span.warning{
+	color: #FFCCCC;
+}
+
+/*css有効時に隠したいテキスト*/
+.hidden{
+	display: none;
+}
+
+/*広告*/
+#ad {
+	text-align: center;
+/*	background-color:#9E6216;
+	width:750px;
+*/}/*広告*/
+#ads {
+	text-align: center;
+}
+
+/*
+ * 差分表示
+ */
+span.diff_add{
+	color: red;
+}
+
+span.diff_del{
+	color: blue;
+}
+
+/*検索結果*/
+span.word1{ color: black; background-color: #ffff66; }
+span.word2{ color: black; background-color: #a0ffff; }
+span.word3{ color: black; background-color: #99ff99; }
+span.word4{ color: black; background-color: #ff9999; }
+span.word5{ color: black; background-color: #ff66ff; }
+span.word6{ color: white; background-color: #880000; }
+span.word7{ color: white; background-color: #00aa00; }
+span.word8{ color: white; background-color: #886800; }
+span.word9{ color: white; background-color: #004699; }
+span.word10{ color: white; background-color: #990099; }
+
+
+#tarea_wiki{
+	width:98%;
+}
+
+/*ads*/
+
+/*ads*/
+
+.gafc_on{
+	background-color:#ECECEC;
+}
+a.gafc_domain{
+	color:green;
+}
+
+
+
+/* Hides from IE-mac \*/
+ * html #source___Frame{ width:97% !important;}
+ /* End hide from IE-mac */
+
