@@ -27,6 +27,16 @@ npm run build
 
 `validate:data` 检查 JSON 结构、所属祭典、重复标识和本地资源引用；`audit:data` 统计字段、缓存和资源缺口。两者都不能证明内容已与原站逐项对齐，也不检查外链可用性。
 
+开发服务运行期间需要构建并预览生产版本时，在另一个 PowerShell 终端使用独立的输出目录，避免两个服务覆盖同一份路由清单：
+
+```powershell
+$env:VIPRPG_DIST_DIR = '.next-preview'
+npm run build
+npm run start -- --port 3100
+```
+
+构建和启动预览应使用相同的 `VIPRPG_DIST_DIR`；普通开发终端不设置该变量，继续使用 `.next`。
+
 `npm run lint` 覆盖应用及本轮启用的维护脚本。历史抓取／补丁脚本保留供参考，使用 `npm run lint:legacy` 单独检查；其既有错误尚未逐个修复，不能直接当成当前批量抓取入口。
 
 2006 夏之阵首批四个详情的本地恢复可重复执行：
