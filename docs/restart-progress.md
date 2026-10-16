@@ -4,7 +4,7 @@
 
 原貌视图已验收 15/74 个；整理版与原貌版共同纳入后续逐祭典工作。
 
-当前先执行[插入的补充归档任务](../catch/restricted-rearchive-plan.json)，从 `2013-kouhaku` 开始；完成后回到 `2011-denpa-game-festival`。
+[补充归档复核记录](../catch/restricted-rearchive-plan.json)保留了本轮恢复结果及未恢复的限制条目；常规校对已回到 `2011-denpa-game-festival`。
 
 只有完成来源逐项核对、资源检查和桌面验收的祭典才加入下表。数据字段清点见 [festival-scrape-status.md](../catch/festival-scrape-status.md)，不作为校对完成证明。
 
