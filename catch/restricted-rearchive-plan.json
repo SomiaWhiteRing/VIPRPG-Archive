@@ -1,5 +1,5 @@
 {
-  "status": "queued-after-2012-toppuu-festival",
+  "status": "active",
   "scope": "Existing restricted entries; direct source preservation and structural verification; no proactive content review.",
   "batches": [
     {
@@ -17,7 +17,13 @@
         "54",
         "89"
       ],
-      "count": 11
+      "count": 11,
+      "status": "completed",
+      "reviewedAt": "2026-10-17",
+      "evidence": [
+        "catch/2012-summer/rearchive-source-comparison.json",
+        "catch/2012-summer/rearchive-desktop-review.json"
+      ]
     },
     {
       "festivalId": "2012-gw",
@@ -66,5 +72,8 @@
       "count": 1
     }
   ],
-  "totalEntries": 21
+  "totalEntries": 21,
+  "activeFestival": "2012-gw",
+  "completedEntries": 11,
+  "remainingEntries": 10
 }

@@ -9,28 +9,6 @@
     "index.html": "investigation/original-live.bin"
   },
   "files": [
-    "restricted/8-icon.svg",
-    "restricted/8-screenshot.svg",
-    "restricted/9-icon.svg",
-    "restricted/9-screenshot.svg",
-    "restricted/29-icon.svg",
-    "restricted/29-screenshot.svg",
-    "restricted/35-icon.svg",
-    "restricted/35-screenshot.svg",
-    "restricted/37-icon.svg",
-    "restricted/37-screenshot.svg",
-    "restricted/47-icon.svg",
-    "restricted/47-screenshot.svg",
-    "restricted/48-icon.svg",
-    "restricted/48-screenshot.svg",
-    "restricted/49-icon.svg",
-    "restricted/49-screenshot.svg",
-    "restricted/51-icon.svg",
-    "restricted/51-screenshot.svg",
-    "restricted/54-icon.svg",
-    "restricted/54-screenshot.svg",
-    "restricted/89-icon.svg",
-    "restricted/89-screenshot.svg",
     "data.js",
     "sort.js",
     "disp.js",
@@ -191,33 +169,31 @@
     "icon/no78.gif",
     "ss/no79.png",
     "icon/no84.png",
+    "icon/no8.png",
+    "ss/no8.png",
+    "icon/no29.png",
+    "ss/no9.png",
+    "icon/no35.png",
+    "icon/no9.png",
+    "ss/no29.png",
+    "icon/no37.png",
+    "icon/no47.png",
+    "ss/no37.png",
+    "ss/no35.png",
+    "icon/no48.png",
+    "ss/no48.png",
+    "icon/no49.png",
+    "ss/no47.png",
+    "icon/no51.png",
+    "ss/no49.png",
+    "icon/no54.png",
+    "ss/no51.png",
+    "ss/no89.png",
+    "ss/no54.png",
     "index.html",
     "img/back.jpg"
   ],
-  "generatedPlaceholders": [
-    "restricted/8-icon.svg",
-    "restricted/8-screenshot.svg",
-    "restricted/9-icon.svg",
-    "restricted/9-screenshot.svg",
-    "restricted/29-icon.svg",
-    "restricted/29-screenshot.svg",
-    "restricted/35-icon.svg",
-    "restricted/35-screenshot.svg",
-    "restricted/37-icon.svg",
-    "restricted/37-screenshot.svg",
-    "restricted/47-icon.svg",
-    "restricted/47-screenshot.svg",
-    "restricted/48-icon.svg",
-    "restricted/48-screenshot.svg",
-    "restricted/49-icon.svg",
-    "restricted/49-screenshot.svg",
-    "restricted/51-icon.svg",
-    "restricted/51-screenshot.svg",
-    "restricted/54-icon.svg",
-    "restricted/54-screenshot.svg",
-    "restricted/89-icon.svg",
-    "restricted/89-screenshot.svg"
-  ],
+  "generatedPlaceholders": [],
   "preloadResources": {
     "unavailableUnused": 0,
     "cachedUnused": 0,
@@ -234,20 +210,19 @@
   "compatibilityFixes": [
     {
       "page": "sakuhin.html",
-      "change": "Preserve dynamic detail navigation while using neutral restricted media, omitting sample forum placeholders and disabling nonexistent boundary entries."
+      "change": "Preserve dynamic detail navigation while omitting sample forum placeholders and disabling nonexistent boundary entries."
     },
     {
       "page": "sakuhin_.html",
-      "change": "Preserve dynamic detail navigation while using neutral restricted media, omitting sample forum placeholders and disabling nonexistent boundary entries."
+      "change": "Preserve dynamic detail navigation while omitting sample forum placeholders and disabling nonexistent boundary entries."
     }
   ],
   "changes": [
     "Original HTML and CSS normalized from shift_jis to UTF-8.",
     "Same-site links, CSS resources and absolute script/hover URLs use local paths.",
     "External hosting trackers removed; unavailable unused preloads replaced with an empty image.",
-    "Original pages are displayed inside a sandboxed frame.",
-    "Restricted entries retain their catalogue row and full detail structure with fixed neutral text and generated placeholders; original restricted descriptions, media and related links are not published."
+    "Original pages are displayed inside a sandboxed frame."
   ],
   "desktopReview": "passed",
-  "desktopEvidence": "catch/2012-summer/desktop-review.json"
+  "desktopEvidence": "catch/2012-summer/rearchive-desktop-review.json"
 }

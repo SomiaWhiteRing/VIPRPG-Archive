@@ -390,8 +390,8 @@ async function main() {
           else if (!src) {
             let code = script.html() ?? "";
             if (id === "2012-summer" && /^sakuhin_?\.html$/.test(local)) {
-              code = rewriteSummer2012Source(code, local, restrictions.map((r) => Number(r.no)), (value) => localReference(value, original, local), (recovery.failures ?? []).map((f: { sourceUrl: string }) => f.sourceUrl.match(/\/ss\/no(\d+)\./)?.[1]).filter(Boolean).map(Number));
-              compatibilityFixes.push({ page: local, change: "Preserve dynamic detail navigation while using neutral restricted media, omitting sample forum placeholders and disabling nonexistent boundary entries." });
+              code = rewriteSummer2012Source(code, local, (value) => localReference(value, original, local), (recovery.failures ?? []).map((f: { sourceUrl: string }) => f.sourceUrl.match(/\/ss\/no(\d+)\./)?.[1]).filter(Boolean).map(Number));
+              compatibilityFixes.push({ page: local, change: "Preserve dynamic detail navigation while omitting sample forum placeholders and disabling nonexistent boundary entries." });
             }
             if (id === "2012-kouhaku" && ["db/index.html", "db/thumbnails.html"].includes(local) && /function jump\(/.test(code)) {
               script.html(`function jump(){
@@ -474,7 +474,7 @@ async function main() {
         bytes = Buffer.from(rewriteCSS(css, original, local));
       } else if (/\.js$/i.test(local)) {
         let code = decodeSource(bytes, encoding);
-        if (id === "2012-summer") code = rewriteSummer2012Source(code, local, restrictions.map((r) => Number(r.no)), (value) => localReference(value, original, local), (recovery.failures ?? []).map((f: { sourceUrl: string }) => f.sourceUrl.match(/\/ss\/no(\d+)\./)?.[1]).filter(Boolean).map(Number));
+        if (id === "2012-summer") code = rewriteSummer2012Source(code, local, (value) => localReference(value, original, local), (recovery.failures ?? []).map((f: { sourceUrl: string }) => f.sourceUrl.match(/\/ss\/no(\d+)\./)?.[1]).filter(Boolean).map(Number));
         bytes = Buffer.from(rewriteAbsoluteStrings(code, original, local));
       }
       files.set(local, bytes);
