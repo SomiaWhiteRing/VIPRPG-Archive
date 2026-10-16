@@ -1,0 +1,116 @@
+{
+  "reviewedAt": "2026-10-17",
+  "scope": "Desktop only",
+  "dataSha256": "9fc744ce84716e97cc1afb484850f28a780c2e92f37db047ba877d50f3d6309f",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "width": 1280,
+      "height": 900
+    }
+  ],
+  "catalogue": {
+    "rows": 43,
+    "realDetails": 42,
+    "ordinaryDetails": 39,
+    "restrictedTemplates": 3,
+    "sampleOnly": 1,
+    "iconReferences": 40,
+    "screenshots": 39,
+    "banners": 1,
+    "updatedIndexDownloadLinks": 28
+  },
+  "source": {
+    "live": true,
+    "base": "http://magicalviprpg2012.web.fc2.com/",
+    "proxyRegion": "Japan",
+    "proxyRestoredAfterBatch": "Hong Kong",
+    "sourceComparison": {
+      "metadata": 128,
+      "comments": 78,
+      "streaming": 40,
+      "updatedIndexDownloads": 28
+    }
+  },
+  "original": {
+    "files": 134,
+    "htmlPages": 44,
+    "missingResources": 0,
+    "singleFramePreserved": true,
+    "woodAndPaperTexturesPreserved": true,
+    "localListDetailTopNavigation": true,
+    "sampleHasNoDetailLink": true,
+    "restrictedRowsAndDetails": [
+      3,
+      10,
+      14
+    ],
+    "restrictedDetailRows": 9,
+    "restrictedExternalLinks": 0,
+    "hostingScriptsRemoved": true,
+    "overflow": false
+  },
+  "formatted": {
+    "sampleDetailLinks": 0,
+    "sampleDirectRouteStatus": 404,
+    "withdrawn16": {
+      "downloadButtons": 0,
+      "withdrawalNotice": true,
+      "sourceIntroductionAndScreenshotRetained": true
+    },
+    "restrictedTemplates": {
+      "numbers": [
+        3,
+        10,
+        14
+      ],
+      "metadataRows": 3,
+      "sections": [
+        "authorComment",
+        "hostComment",
+        "updates"
+      ],
+      "neutralMedia": true,
+      "downloadButtons": 0
+    },
+    "aa19": {
+      "whiteSpace": "pre",
+      "clientWidth": 840,
+      "scrollWidth": 840,
+      "pageOverflow": false
+    },
+    "viewer1": {
+      "open": true,
+      "escapeCloses": true,
+      "natural": [
+        640,
+        480
+      ]
+    },
+    "jumpToFestival": {
+      "rows": 43,
+      "top": 165.85714721679688
+    },
+    "pageOverflow": false,
+    "tableMayScrollInsideContainerAt1280": true
+  },
+  "images": {
+    "decodedPaths": 170,
+    "broken": 0,
+    "ordinaryGalleryVisuallyReviewed": true
+  },
+  "routes": {
+    "details200": 42,
+    "originalHtml200": 44
+  },
+  "validation": {
+    "data": "passed",
+    "lint": "passed",
+    "build": "passed",
+    "offlineReplay": "stable",
+    "previous2012KouhakuBundle": "513 files byte-identical"
+  }
+}

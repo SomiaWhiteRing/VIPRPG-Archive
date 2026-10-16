@@ -7,6 +7,12 @@ import { getDictionary } from "../src/lib/i18n";
 import type { WorkEntry } from "../src/lib/types";
 
 const configurations: Record<string, { base: string; entry?: string; manifests: string[]; seeds: Record<string, string>; seedUrls?: Record<string, string>; cgiProfile?: boolean; encoding?: string; liveSource?: boolean; disabledLocalLinks?: string[]; externalResources?: Record<string, string>; frames?: { menuPage: string; menuName: string; mainName: string } }> = {
+  "2012-magic-festival": {
+    base: "http://magicalviprpg2012.web.fc2.com/",
+    manifests: ["source/recovery/manifest.json"],
+    seeds: { "index.html": "investigation/original-live.bin", "top.html": "investigation/top-live.bin" },
+    liveSource: true,
+  },
   "2012-kouhaku": {
     base: "http://www45.atpages.jp/vipkohaku2012/",
     manifests: ["source/recovery/manifest.json"],
@@ -267,6 +273,18 @@ async function main() {
                 <tr><td>作者コメント：<br>${restrictedText.restrictedContentText}</td></tr>
                 <tr><td class="gray">管理人コメント：<br>${restrictedText.restrictedContentText}</td></tr>
                 <tr><td>更新履歴：<br>${restrictedText.restrictedContent}</td></tr></table>`);
+            } else if (id === "2012-magic-festival") {
+              const image = path.posix.relative(path.posix.dirname(local), `restricted/${restriction.no}-screenshot.svg`);
+              const icon = path.posix.relative(path.posix.dirname(local), `restricted/${restriction.no}-icon.svg`);
+              $("table").first().html(`<tr><td><img src="${icon}" width="32" height="32"><b>${escape(work.title)}</b></td></tr>
+                <tr><td><img src="${image}" width="640" height="480" alt="${restrictedText.restrictedContent}"></td></tr>
+                <tr><td>${restrictedText.restrictedContentText}</td></tr>
+                <tr><td><b>術者名◇</b> ${escape(work.author)}</td></tr>
+                <tr><td><b>魔具◇</b> ${escape(work.engine || "")}</td></tr>
+                <tr><td><b>ジャンル◇</b> ${escape(work.category || "")}</td></tr>
+                <tr><td><b>配信／投稿◇</b> ${restrictedText.restrictedContent}</td></tr>
+                <tr><td><b>コメント◇</b><br>${restrictedText.restrictedContentText}</td></tr>
+                <tr><td><b>マスターから◇</b><br>${restrictedText.restrictedContentText}</td></tr>`);
             } else if (id === "2012-gw") {
               const image = path.posix.relative(path.posix.dirname(local), `restricted/${restriction.no}-screenshot.svg`);
               $("h2").first().text(work.title);
@@ -310,6 +328,7 @@ async function main() {
             if (id === "2012-kouhaku" && local === "db/index.html") row.children("td").eq(3).text(restrictedText.restrictedContent);
             if (local === "index.html") row.children("td").eq(6).text("非表示");
             if (id === "2012-gw" && local === "top.html") row.children("td").eq(5).text(restrictedText.restrictedContent);
+            if (id === "2012-magic-festival" && local === "top.html") row.children("td").eq(5).text(restrictedText.restrictedContent);
           });
           if (restriction.relatedUrls?.length) $("a[href]").filter((_, a) => restriction.relatedUrls!.includes(new URL($(a).attr("href")!, original).href)).replaceWith(restrictedText.restrictedContent);
         }
@@ -339,7 +358,7 @@ async function main() {
         if (!$("meta[charset]").length && !$("meta[http-equiv]").toArray().some((element) => $(element).attr("http-equiv")?.toLowerCase() === "content-type")) $("head").prepend('<meta charset="UTF-8">');
         $("script").each((_, element) => {
           const script = $(element), src = script.attr("src");
-          if ((src && !relative(new URL(src, original).href)) || /fc2footerparam|geovisit\(|var\s+jps\s*=|archive_analytics|__wm\./.test(script.html() ?? "") || (id === "2012-kouhaku" && /_gaq|googletag|geniee_|var ID=|twitter-wjs/.test(script.html() ?? ""))) script.remove();
+          if ((src && !relative(new URL(src, original).href)) || /fc2footerparam|geovisit\(|var\s+jps\s*=|archive_analytics|__wm\./.test(script.html() ?? "") || (id === "2012-magic-festival" && /fhp_c_pc/.test(script.html() ?? "")) || (id === "2012-kouhaku" && /_gaq|googletag|geniee_|var ID=|twitter-wjs/.test(script.html() ?? ""))) script.remove();
           else if (!src) {
             let code = script.html() ?? "";
             if (id === "2012-kouhaku" && ["db/index.html", "db/thumbnails.html"].includes(local) && /function jump\(/.test(code)) {

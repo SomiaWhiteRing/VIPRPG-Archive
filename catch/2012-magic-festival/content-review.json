@@ -1,0 +1,37 @@
+{
+  "sourceDetailsReviewed": 42,
+  "restrictedNumbers": [
+    "3",
+    "10",
+    "14"
+  ],
+  "reason": {
+    "3": "Source promotes sexualized young characters.",
+    "10": "Source explicitly promotes erotic CG.",
+    "14": "Host comment sexualizes a young character."
+  },
+  "ordinaryMediaVisuallyReviewed": 39,
+  "originalRestrictedMediaDownloaded": false,
+  "sourceBodiesNeutralized": [
+    {
+      "no": "3",
+      "file": "catch/2012-magic-festival/source/recovery/page_page3.html.bin",
+      "originalBodySha256": "c63ed6e7d9d47aff7ad3b2a935fff632c4fc5e019ed95770fd6fe1babb5b37d0",
+      "sanitizedSha256": "089163b830c84fb95cf4e7541f8f8f140d560ac3e145313312492ef9d4110016"
+    },
+    {
+      "no": "10",
+      "file": "catch/2012-magic-festival/source/recovery/page_page10.html.bin",
+      "originalBodySha256": "9fe8e8c84cb5379a73b2e0418a7aa7af8f220627421de5a811ba95295a7074fd",
+      "sanitizedSha256": "6e0159928fbed47d7f99e4e258b09ab5d6e399f91effa72378c7f4d990934569"
+    },
+    {
+      "no": "14",
+      "file": "catch/2012-magic-festival/source/recovery/page_page14.html.bin",
+      "originalBodySha256": "5dfce56634b43ff982e16020df7213f4e1f64060ad596d20a8191de6f8d5efe7",
+      "sanitizedSha256": "bac3bc70d54f9ff2e58bcf70c711ef30e0ce1c72eb838ccc1feea144fedaf4e3"
+    }
+  ],
+  "sample0": "Catalogue only in original; do not invent a detail page.",
+  "withdrawn16": "Game publication stopped at author request; no download restored. Existing live introduction and screenshot retained."
+}

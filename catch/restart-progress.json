@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2012-magic-festival",
+  "activeFestival": "2012-summer",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -353,6 +353,28 @@
         "catch/2012-kouhaku/replay-review.json"
       ],
       "notes": "96 条目录（补回 No.000）、93 个来源详情与 3 个完整受限模板；93 条图标引用、104 张展示／悬停截图、2 张留言图、3 张横幅和 98 个历史本体／补丁链接已核对，另保留镜像所列 76 个非受限作品保管入口。原貌版恢复 CGI 本地导航及 12 个排名页，共 513 个文件；修复 HTML 与外部资源混合编码。27 张悬停图和 25 个排名页装饰资源未取回，保留缺口并停用失效引用；服务器类型筛选及排名筛选／排序有限制。两种视图桌面验收通过。"
+    },
+    {
+      "festivalId": "2012-magic-festival",
+      "reviewedAt": "2026-10-17",
+      "dataSha256": "9fc744ce84716e97cc1afb484850f28a780c2e92f37db047ba877d50f3d6309f",
+      "works": 43,
+      "screenshotFiles": 39,
+      "status": "reviewed",
+      "sourceEvidence": [
+        "catch/2012-magic-festival/recovery.json",
+        "catch/2012-magic-festival/source-comparison.json",
+        "catch/2012-magic-festival/content-review.json",
+        "catch/2012-magic-festival/title-review.json"
+      ],
+      "desktopEvidence": [
+        "catch/2012-magic-festival/desktop-review.json",
+        "catch/2012-magic-festival/route-check.json",
+        "catch/2012-magic-festival/image-decode-check.json",
+        "catch/2012-magic-festival/original-link-check.json",
+        "catch/2012-magic-festival/replay-review.json"
+      ],
+      "notes": "直接从日本节点下可用的源站核对 43 条目录：39 个普通详情、3 个完整受限模板，以及没有详情链接的 No.0 目录示例。40 条图标引用、39 张截图、1 张横幅、78 份双方留言及原列表 2014 年更新的 28 个 OneDrive 下载入口已保留；No.16 的作者要求公开停止及无下载状态保持原样。原貌版保留单栏框架、木纹与纸张背景，134 个文件无资源缺口；两种桌面宽度、AA 留言、原貌 TOP 导航、图片查看器及受限模板验收通过。"
     }
   ],
   "originalViewsReviewed": [
@@ -439,6 +461,13 @@
       "evidence": [
         "catch/2012-kouhaku/original-view.json",
         "catch/2012-kouhaku/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2012-magic-festival",
+      "evidence": [
+        "catch/2012-magic-festival/original-view.json",
+        "catch/2012-magic-festival/desktop-review.json"
       ]
     }
   ]
