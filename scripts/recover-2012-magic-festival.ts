@@ -18,7 +18,7 @@ async function main() {
   const workPath = `src/data/works/${id}.json`, legacyPath = `${root}/legacy-works.json`;
   await fs.copyFile(workPath, legacyPath, fs.constants.COPYFILE_EXCL).catch((e: NodeJS.ErrnoException) => { if (e.code !== "EEXIST") throw e; });
   const old: WorkEntry[] = JSON.parse(await fs.readFile(legacyPath, "utf8"));
-  const restricted = new Set(["3", "10", "14"]), works: WorkEntry[] = [], entries = [], contentRestrictions = [], failures: Array<{ sourceUrl: string; error: string }> = [], historicalDownloads = [], omittedBodies = [];
+  const restricted = new Set(["3", "14"]), works: WorkEntry[] = [], entries = [], contentRestrictions = [], failures: Array<{ sourceUrl: string; error: string }> = [], historicalDownloads = [], omittedBodies = [];
   const previous = JSON.parse(await fs.readFile(`${root}/recovery.json`, "utf8").catch(() => "{}"));
   function plain(html: string) { const $ = cheerio.load(html, {}, false); $("br").replaceWith("\n"); return $.root().text().trim(); }
   async function image(url: string, kind: "icons" | "screenshots" | "banners") {
@@ -63,6 +63,7 @@ async function main() {
     }
     const url = new URL(href, base).href, capture = manifest[href];
     if (!capture) throw new Error(`Missing source detail: ${href}`);
+    if (!restricted.has(no) && capture.sanitizedForRestrictedContent) throw new Error(`Refresh altered source cache before restoring ${no}`);
     const bytes = await fs.readFile(`${cache}/${capture.file}`), $ = cheerio.load(iconv.decode(bytes, "shift_jis")), table = $("table").first();
     const title = $("title").text().trim(), fields: Record<string, string> = {};
     for (const td of table.find("td").toArray()) {
@@ -79,7 +80,7 @@ async function main() {
     if (restricted.has(no)) {
       work.contentRestricted = true;
       const links = [...table.find("a[href]").toArray().map((a) => new URL($(a).attr("href")!, url).href), ...cells.find("a[href]").toArray().map((a) => new URL(index(a).attr("href")!, base).href)].filter((s) => s !== url);
-      contentRestrictions.push({ no, sourcePath: href, resources: [{ path: new URL(icon).pathname.slice(1), kind: "icon" }, ...gallery.map((s) => ({ path: new URL(s).pathname.slice(1), kind: "screenshot" }))], relatedUrls: [...new Set(links)], reason: no === "10" ? "Source explicitly promotes erotic CG content." : "Source description or host comment sexualizes young characters." });
+      contentRestrictions.push({ no, sourcePath: href, resources: [{ path: new URL(icon).pathname.slice(1), kind: "icon" }, ...gallery.map((s) => ({ path: new URL(s).pathname.slice(1), kind: "screenshot" }))], relatedUrls: [...new Set(links)], reason: "Existing source description or host comment records sexualized young characters; retain the neutral template." });
       for (const td of table.find("td").toArray()) if (["コメント◇", "マスターから◇"].includes($(td).children("b").first().text().trim())) $(td).html(`<b>${$(td).children("b").first().text()}</b><br>制限された内容`);
       capture.originalBodySha256 ??= createHash("sha256").update(bytes).digest("hex"); capture.sanitizedForRestrictedContent = true;
       const sanitized = iconv.encode($.html(), "shift_jis"); if (!bytes.equals(sanitized)) await fs.writeFile(`${cache}/${capture.file}`, sanitized);

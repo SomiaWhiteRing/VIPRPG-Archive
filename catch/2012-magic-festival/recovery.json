@@ -142,8 +142,10 @@
       "listTitle": "四大精霊と契約するゲーム",
       "submissionMarker": "★",
       "submissionStatus": "submitted",
-      "status": "restricted-template",
-      "galleryUrls": []
+      "status": "detail-recovered",
+      "galleryUrls": [
+        "http://magicalviprpg2012.web.fc2.com/ss/ss10.png"
+      ]
     },
     {
       "no": "11",
@@ -611,27 +613,7 @@
         "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15326/1329560190/",
         "https://onedrive.live.com/redir?resid=BBC371A59515BDEF%21129"
       ],
-      "reason": "Source description or host comment sexualizes young characters."
-    },
-    {
-      "no": "10",
-      "sourcePath": "page/page10.html",
-      "resources": [
-        {
-          "path": "icon/ic10.png",
-          "kind": "icon"
-        },
-        {
-          "path": "ss/ss10.png",
-          "kind": "screenshot"
-        }
-      ],
-      "relatedUrls": [
-        "http://cid-b06244ffe1919ce7.office.live.com/self.aspx/magical/zip/no10.zip",
-        "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15326/1329741902/",
-        "https://onedrive.live.com/redir?resid=BBC371A59515BDEF%21122"
-      ],
-      "reason": "Source explicitly promotes erotic CG content."
+      "reason": "Existing source description or host comment records sexualized young characters; retain the neutral template."
     },
     {
       "no": "14",
@@ -649,7 +631,7 @@
       "relatedUrls": [
         "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15326/1329829551/"
       ],
-      "reason": "Source description or host comment sexualizes young characters."
+      "reason": "Existing source description or host comment records sexualized young characters; retain the neutral template."
     }
   ],
   "failures": [],
@@ -749,6 +731,19 @@
         {
           "label": "◇DL(1.99MB)◇",
           "url": "http://cid-b06244ffe1919ce7.office.live.com/self.aspx/magical/zip/no09.zip"
+        }
+      ]
+    },
+    {
+      "no": "10",
+      "indexDownload": {
+        "url": "https://onedrive.live.com/redir?resid=BBC371A59515BDEF%21122",
+        "label": "0.17MB"
+      },
+      "originalDetailLinks": [
+        {
+          "label": "◇DL(0.17MB)◇",
+          "url": "http://cid-b06244ffe1919ce7.office.live.com/self.aspx/magical/zip/no10.zip"
         }
       ]
     },
@@ -1069,12 +1064,6 @@
       "sanitizedSha256": "089163b830c84fb95cf4e7541f8f8f140d560ac3e145313312492ef9d4110016"
     },
     {
-      "no": "10",
-      "file": "catch/2012-magic-festival/source/recovery/page_page10.html.bin",
-      "originalBodySha256": "9fe8e8c84cb5379a73b2e0418a7aa7af8f220627421de5a811ba95295a7074fd",
-      "sanitizedSha256": "6e0159928fbed47d7f99e4e258b09ab5d6e399f91effa72378c7f4d990934569"
-    },
-    {
       "no": "14",
       "file": "catch/2012-magic-festival/source/recovery/page_page14.html.bin",
       "originalBodySha256": "5dfce56634b43ff982e16020df7213f4e1f64060ad596d20a8191de6f8d5efe7",
@@ -1083,5 +1072,5 @@
   ],
   "note": "Use updated 2014 OneDrive links from the live catalogue; retired detail-page SkyDrive targets remain source evidence. Sample No.0 is catalogue-only and receives no invented detail. ★ submitted; ■ late. Restricted original media are not fetched.",
   "desktopReview": "passed",
-  "desktopEvidence": "catch/2012-magic-festival/desktop-review.json"
+  "desktopEvidence": "catch/2012-magic-festival/rearchive-desktop-review.json"
 }

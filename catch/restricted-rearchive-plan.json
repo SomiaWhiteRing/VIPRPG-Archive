@@ -68,7 +68,21 @@
         "10",
         "14"
       ],
-      "count": 3
+      "count": 3,
+      "status": "reviewed-with-retained-restriction",
+      "restoredNumbers": [
+        "10"
+      ],
+      "retainedNumbers": [
+        "3",
+        "14"
+      ],
+      "restoredEntries": 1,
+      "retainedEntries": 2,
+      "evidence": [
+        "catch/2012-magic-festival/rearchive-source-comparison.json",
+        "catch/2012-magic-festival/rearchive-desktop-review.json"
+      ]
     },
     {
       "festivalId": "2013-kouhaku",
@@ -93,10 +107,10 @@
     }
   ],
   "totalEntries": 21,
-  "activeFestival": "2012-magic-festival",
-  "completedEntries": 13,
-  "remainingEntries": 8,
-  "processedEntries": 15,
-  "retainedEntries": 2,
-  "pendingEntries": 6
+  "activeFestival": "2013-kouhaku",
+  "completedEntries": 14,
+  "remainingEntries": 7,
+  "processedEntries": 18,
+  "retainedEntries": 4,
+  "pendingEntries": 3
 }
