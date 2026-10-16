@@ -523,7 +523,11 @@ async function main() {
   for (const [local, bytes] of files) {
     const target = `${output}/${local}`;
     await fs.mkdir(path.dirname(target), { recursive: true });
-    await fs.writeFile(target, bytes);
+    const existing = await fs.readFile(target).catch((error: NodeJS.ErrnoException) => {
+      if (error.code !== "ENOENT") throw error;
+      return undefined;
+    });
+    if (!existing?.equals(bytes)) await fs.writeFile(target, bytes);
   }
   if (!files.has(config.entry ?? "index.html")) throw new Error("Original entry page was not recovered");
   const viewsPath = "src/data/original-views.json", views = JSON.parse(await fs.readFile(viewsPath, "utf8"));
