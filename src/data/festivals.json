@@ -1004,13 +1004,14 @@
     "name": "VIPRPG GW祭り 2011",
     "slug": "2011-gw",
     "type": "gw",
-    "banners": [],
+    "banners": [
+      "/banners/2011-gw/banner.png"
+    ],
     "columns": [
       "no",
       "icon",
       "work",
       "type",
-      "streaming",
       "download",
       "forum"
     ],

@@ -8,6 +8,12 @@ import type { WorkEntry } from "../src/lib/types";
 import { rewriteSummer2012Source } from "./source-2012-summer-view";
 
 const configurations: Record<string, { base: string; entry?: string; manifests: string[]; seeds: Record<string, string>; seedUrls?: Record<string, string>; cgiProfile?: boolean; encoding?: string; liveSource?: boolean; disabledLocalLinks?: string[]; externalResources?: Record<string, string>; frames?: { menuPage: string; menuName: string; mainName: string } }> = {
+  "2011-gw": {
+    base: "https://vipgw2011.web.fc2.com/",
+    manifests: ["source/recovery/manifest.json"],
+    seeds: { "index.html": "investigation/original-live.bin" },
+    encoding: "euc-jp", liveSource: true,
+  },
   "2011-denpa-game-festival": {
     base: "http://cryptic2011.web.fc2.com/",
     manifests: ["source/recovery/manifest.json"],
@@ -157,6 +163,7 @@ async function main() {
   const manifest = JSON.parse(await fs.readFile(manifestPath, "utf8").catch(() => "{}"));
   function relative(url: string) {
     const original = new URL(unarchive(url), base);
+    if (id === "2011-gw" && original.pathname.startsWith("/vip_2009gw/")) return undefined;
     if (config.externalResources?.[original.href]) return config.externalResources[original.href];
     if (original.hostname !== base.hostname || !original.pathname.startsWith(base.pathname)) return undefined;
     const profile = original.pathname.slice(base.pathname.length).match(/^(db|db2|sc\d{2})\/profile\.cgi$/);
@@ -525,7 +532,30 @@ async function main() {
         if (resource && unavailable.has(resource)) { $(element).removeAttr(attr); omittedHovers.push({ page: local, resource }); }
       }
     });
-    if (id === "2012-kouhaku" || [...omittedBackgrounds, ...omittedHovers].some((omission) => omission.page === local)) files.set(local, Buffer.from($.html()));
+    if (id === "2011-gw") $("link[rel*=icon][href],link[rel*=stylesheet][href]").each((_, element) => {
+      const resource = relative(new URL($(element).attr("href")!, new URL(local, base)).href);
+      if (resource && unavailable.has(resource)) {
+        $(element).remove();
+        compatibilityFixes.push({ page: local, change: "Omit an unavailable stylesheet or favicon reference; the source inline styling remains in place and the missing resource stays documented." });
+      }
+    });
+    if (id === "2012-kouhaku" || id === "2011-gw" || [...omittedBackgrounds, ...omittedHovers].some((omission) => omission.page === local)) files.set(local, Buffer.from($.html()));
+  }
+  const generatedUnavailablePages: string[] = [];
+  if (id === "2011-gw") for (const gap of recovery.sourceDetailGaps ?? []) {
+    const work = catalogue.find((work) => work.no === gap.no);
+    if (!work || files.has(gap.sourcePath)) continue;
+    const escape = (value: string) => value.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+    const downloads = work.downloads ?? (work.download ? [work.download] : []);
+    files.set(gap.sourcePath, Buffer.from(`<!doctype html><html lang="ja"><meta charset="UTF-8"><title>No.${escape(work.no)} ${escape(work.title)} — 原紹介ページ未取得</title>
+      <style>body{max-width:800px;margin:2em auto;padding:0 1em;font-family:sans-serif;line-height:1.6}.note{padding:1em;border:1px solid #aab;background:#f0f3f7}dt{font-weight:bold}dd{margin-bottom:1em}</style>
+      <body data-archive-source-unavailable="${escape(work.no)}"><p class="note">編纂補頁：原紹介ページは取得できていません。この画面は祭典の作品一覧に基づく案内で、原紹介ページの復元ではありません。</p>
+      <h1>No.${escape(work.no)} ${escape(work.title)}</h1>${work.icon ? `<img src="${escape(work.icon)}" width="32" height="32" alt="">` : ""}
+      <dl><dt>作者</dt><dd>${escape(work.author)}</dd><dt>ツール</dt><dd>${escape(work.engine || "")}</dd><dt>作者コメント</dt><dd>原紹介ページ未取得</dd><dt>管理人コメント</dt><dd>原紹介ページ未取得</dd><dt>スクリーンショット</dt><dd>未取得</dd></dl>
+      ${downloads.map((d) => `<p><a href="${escape(d.url)}">${escape(d.label || "Download")}</a>（作品一覧掲載の過去の入口）</p>`).join("")}
+      ${work.source?.titleUrl ? `<p><a href="${escape(work.source.titleUrl)}">題名を確認した公式感想スレッド</a></p>` : ""}<p><a href="../index.html#works">作品一覧へ戻る</a></p></body></html>`));
+    generatedUnavailablePages.push(gap.sourcePath);
+    compatibilityFixes.push({ page: gap.sourcePath, change: "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented." });
   }
   for (const [local, bytes] of files) {
     const target = `${output}/${local}`;
@@ -545,7 +575,7 @@ async function main() {
   };
   views[id] = { entry: `/original-pages/${id}/${config.entry ?? "index.html"}`, status: failures.length ? "available-with-documented-omissions" : "available" };
   await writeJson(viewsPath, views);
-  await writeJson(`${root}/original-view.json`, { festivalId: id, sourceEncoding: encoding, entry: views[id].entry, sourceManifests: config.manifests, sourcePages: config.seeds, files: [...files.keys()], generatedPlaceholders, preloadResources, missingResources: failures, omittedBackgrounds, omittedHovers, compatibilityFixes, changes: [`Original HTML and CSS normalized from ${encoding} to UTF-8.`, "Same-site links, CSS resources and absolute script/hover URLs use local paths.", "External hosting trackers removed; unavailable unused preloads replaced with an empty image.", "Original pages are displayed inside a sandboxed frame.", ...(omittedBackgrounds.length ? ["Unavailable background references are omitted; the original background colors are retained and missing resources remain documented."] : []), ...(restrictions.length ? ["Restricted entries retain their catalogue row and full detail structure with fixed neutral text and generated placeholders; original restricted descriptions, media and related links are not published."] : []), ...(config.frames ? ["A scoped local message forwards menu clicks to the sibling frame while preserving the original frameset and sandbox isolation."] : [])], desktopReview: "pending" });
+  await writeJson(`${root}/original-view.json`, { festivalId: id, sourceEncoding: encoding, entry: views[id].entry, sourceManifests: config.manifests, sourcePages: config.seeds, files: [...files.keys()], generatedPlaceholders, ...(generatedUnavailablePages.length ? { generatedUnavailablePages } : {}), preloadResources, missingResources: failures, omittedBackgrounds, omittedHovers, compatibilityFixes, changes: [`Original HTML and CSS normalized from ${encoding} to UTF-8.`, "Same-site links, CSS resources and absolute script/hover URLs use local paths.", "External hosting trackers removed; unavailable unused preloads replaced with an empty image.", "Original pages are displayed inside a sandboxed frame.", ...(omittedBackgrounds.length ? ["Unavailable background references are omitted; the original background colors are retained and missing resources remain documented."] : []), ...(restrictions.length ? ["Restricted entries retain their catalogue row and full detail structure with fixed neutral text and generated placeholders; original restricted descriptions, media and related links are not published."] : []), ...(config.frames ? ["A scoped local message forwards menu clicks to the sibling frame while preserving the original frameset and sandbox isolation."] : [])], desktopReview: "pending" });
   console.log(`${id}: ${files.size} files; ${failures.length} missing resources.`);
 }
 

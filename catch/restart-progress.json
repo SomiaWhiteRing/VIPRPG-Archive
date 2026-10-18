@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2011-gw",
+  "activeFestival": "2011-kouhaku",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -484,6 +484,29 @@
         "catch/2011-denpa-game-festival/replay-review.json"
       ],
       "notes": "直接从已确认可用的原站恢复 43 个详情，补回旧库遗漏的 page0.html「Reb_l6-5」，按来源文件编号 0 收录，不视为示例。43 位作者、43 份留言、43 条图标引用、43 张截图、1 张横幅、36 个历史下载入口及 42 个感想帖逐项保留。No.39 短题名获官方菜单确认，长网页题名另存 originalTitle。原貌 144 个文件无缺失，保留二维图标图谱、悬停标题和双框架；双桌面宽度、184 个图片路径、90 个双视图地址与 192 路径重放通过。"
+    },
+    {
+      "festivalId": "2011-gw",
+      "reviewedAt": "2026-10-18",
+      "dataSha256": "585b0f2dd43a97cfb31892bd79299fa62f9379e5d802279f90b5c63a4ee1ead9",
+      "works": 89,
+      "screenshotFiles": 88,
+      "status": "reviewed-with-documented-source-gaps",
+      "outstandingSourceDetails": [
+        "63"
+      ],
+      "sourceEvidence": [
+        "catch/2011-gw/recovery.json",
+        "catch/2011-gw/source-comparison.json",
+        "catch/2011-gw/title-evidence.json",
+        "catch/2011-gw/investigation/detail-fetch.json",
+        "catch/2011-gw/investigation/entry063-availability.bin"
+      ],
+      "desktopEvidence": [
+        "catch/2011-gw/desktop-review.json",
+        "catch/2011-gw/replay-review.json"
+      ],
+      "notes": "源站恢复 88/89 个原介绍页，补回 No.00 样例；No.63 按实际目录保留作者、工具、图标、下载与讨论信息，两种视图明确说明原介绍和截图未取得，原貌页另记为编纂补页。89 条图标引用、88 张展示截图、1 张作者留言附图、1 张横幅、77 个本体／修正入口及 89 个感想帖已对照。EUC-JP 原文保留，No.78 题名缺括号由官方讨论页确认修正。原貌 256 个文件，保留介绍页和旧样式表两项来源缺口；325 个图片路径、179 个双视图地址、双桌面布局与 348 路径重放通过。"
     }
   ],
   "originalViewsReviewed": [
@@ -598,6 +621,13 @@
       "evidence": [
         "catch/2011-denpa-game-festival/original-view.json",
         "catch/2011-denpa-game-festival/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2011-gw",
+      "evidence": [
+        "catch/2011-gw/original-view.json",
+        "catch/2011-gw/desktop-review.json"
       ]
     }
   ],
