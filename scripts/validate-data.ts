@@ -106,6 +106,7 @@ const workSchema = {
         authorOmitted: { type: "boolean" },
       },
     },
+    sourceDetailUnavailable: { type: "boolean" },
     detailDisabled: { type: "boolean" },
     ss: {
       type: "array",

@@ -105,6 +105,7 @@ export default function WorkDetail({
         {(work.author.trim() || work.source?.authorOmitted) && (
           <p className="detail-author-line">{work.source?.authorOmitted ? dictionary.authorOmitted : work.author}</p>
         )}
+        {!restricted && work.sourceDetailUnavailable && <p className="note">{dictionary.sourceDetailUnavailable}</p>}
         {work.originalTitle && <p className="note">{dictionary.detailsOriginalTitle}: {work.originalTitle}<br />{dictionary.detailsTitleVersionNotice}</p>}
         {restricted && (
           <div className="restricted-media">

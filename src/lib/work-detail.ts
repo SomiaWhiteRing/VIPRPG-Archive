@@ -11,6 +11,7 @@ export function hasWorkDetail(work: WorkEntry, festival?: Festival): boolean {
     work.forum?.trim() ||
     work.download?.url ||
     work.downloads?.length ||
-    work.streaming?.trim()
+    work.streaming?.trim() ||
+    work.sourceDetailUnavailable
   );
 }

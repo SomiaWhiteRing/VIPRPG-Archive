@@ -61,6 +61,7 @@ export interface WorkEntry {
     titleUrl?: string;
     authorOmitted?: boolean;
   };
+  sourceDetailUnavailable?: boolean;
   // If true, force-disable detail page/link even if other fields are present
   detailDisabled?: boolean;
   ss?: string[];
