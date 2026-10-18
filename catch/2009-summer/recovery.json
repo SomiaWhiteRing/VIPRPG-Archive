@@ -1,0 +1,58 @@
+{
+  "festivalId": "2009-summer",
+  "status": "recovered-with-documented-source-gaps",
+  "archiveOnly": true,
+  "sourceContentReviewed": false,
+  "sourceImagesViewed": false,
+  "sourceUrl": "https://vipkohaku.x.fc2.com/2009s/index.html",
+  "sourceEncoding": "Shift_JIS",
+  "primarySource": {
+    "originalUrl": "https://vipkohaku.x.fc2.com/2009s/index.html",
+    "snapshotUrl": "https://web.archive.org/web/20211203045641/https://vipkohaku.x.fc2.com/2009s/index.html",
+    "timestamp": "20211203045641",
+    "sha256": "cebbc367048fb6f1c6d65719b937738e972ccd7a3c3bc1a7518f5a8f584f2f3a",
+    "cdxDigestVerified": true,
+    "proxyRegion": "Hong Kong",
+    "exitCountry": "HK"
+  },
+  "directSourceAttempts": {
+    "pageRequests": 2,
+    "assetRequests": 6,
+    "successfulAssets": 0,
+    "proxyNode": "🇯🇵 日本S01 | IEPL",
+    "exitCountry": "JP"
+  },
+  "catalogue": {
+    "sourceBlocks": 100,
+    "registeredWorks": 99,
+    "sampleNo000RetainedInOriginalPage": true,
+    "sampleNo000AddedToStructuredWorks": false,
+    "detailPagesCaptured": 99,
+    "sourceUrls": 99
+  },
+  "screenshots": {
+    "thumbnailFiles": 99,
+    "capturedFullSizeFiles": 5,
+    "fullSizeReferencesMissingForWorks": 94,
+    "sampleFullSizeScreenshotMissing": true,
+    "files": 104,
+    "references": 104
+  },
+  "originalView": {
+    "files": 223,
+    "cachedResources": 221,
+    "archiveSeedResources": 2,
+    "missingResources": 97,
+    "missingGroups": {
+      "stylesheets": 1,
+      "fullSizeScreenshots": 95,
+      "otherImages": 1
+    }
+  },
+  "sourceDetailGaps": [],
+  "contentRestrictions": [],
+  "notes": "Preserved the source list and all captured detail pages without reviewing entry text or images. Five of 100 full-size detail images have archived captures; 94 registered works and the No.000 sample have no usable full-size image capture. The uncaptured stylesheet, background image, and visitor counter are documented; no source-side content or new restriction flags were added.",
+  "desktopReview": "passed-with-documented-source-gaps",
+  "desktopEvidence": "catch/2009-summer/desktop-review.json",
+  "browserEntryTextExposure": "incidental-accessibility-tree-output; no content-based data decisions"
+}

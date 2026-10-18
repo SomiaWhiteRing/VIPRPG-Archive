@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2009-summer",
+  "activeFestival": "2008-chuuni-festival",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -800,6 +800,44 @@
         "catch/2009-silver-week-miruge-festival/original-view.json"
       ],
       "notes": "日本节点源站首页及 31 个同站图像／样式资源请求均未返回 HTTP 响应；香港节点 Wayback 保存目录页、样式表及 14 个图像文件。原页 32 行映射到 32 条记录；14 个归档图像对应 15 个作品引用，16 个图像 URL 在未去重前缀 CDX 中无成功捕获，另有一行源站本无图像。保留现有 31 个下载 URL，不审看条目内容、不新增受限标记。"
+    },
+    {
+      "festivalId": "2009-summer",
+      "reviewedAt": "2026-10-18",
+      "dataSha256": "47cd6462c50e729835e0d993b1919bb92adbd5906c4205591079f58e8d2b1ce6",
+      "works": 99,
+      "screenshotFiles": 104,
+      "screenshotReferences": 104,
+      "status": "reviewed-with-documented-source-gaps",
+      "outstandingSourceDetails": [],
+      "outstandingImageSourceUrls": 96,
+      "outstandingScreenshotRows": 0,
+      "outstandingOtherResources": 2,
+      "outstandingFullSizeScreenshotRows": 94,
+      "outstandingSampleFullSizeImages": 1,
+      "outstandingExternalCounters": 1,
+      "sourceEvidence": [
+        "catch/2009-summer/recovery.json",
+        "catch/2009-summer/source-comparison.json",
+        "catch/2009-summer/source/archive/manifest.json",
+        "catch/2009-summer/source/archive/capture-metadata.json",
+        "catch/2009-summer/investigation/direct-attempts.json",
+        "catch/2009-summer/investigation/direct-source-assets.json",
+        "catch/2009-summer/investigation/prefix-https-cdx.json",
+        "catch/2009-summer/investigation/prefix-http-cdx.json",
+        "catch/2009-summer/investigation/index-https-cdx.json",
+        "catch/2009-summer/investigation/index-http-cdx.json",
+        "catch/2009-summer/investigation/original-timemap.bin",
+        "catch/2009-summer/investigation/resource-coverage.json",
+        "catch/2009-summer/investigation/asset-gap-cdx.json",
+        "catch/2009-summer/investigation/backcolor-redirect.json",
+        "catch/2009-summer/original-view.json"
+      ],
+      "desktopEvidence": [
+        "catch/2009-summer/desktop-review.json",
+        "catch/2009-summer/original-view.json"
+      ],
+      "notes": "日本节点下目录页及代表性 CSS／图片请求不可用；香港节点归档提供目录、100 个详情页、100 张列表预览及 5 张详情大图。另 95 张详情大图（含 No.000 样例）、背景图片和目录样式无可用内容归档，计数器请求也无捕获；原貌页用固定占位并移除无效自动加载。保留99条现有标题、作者、评论、论坛与82个下载字段，全部99条补来源及列表预览，不审看或筛选条目内容，不新增受限标记。"
     }
   ],
   "originalViewsReviewed": [
@@ -994,6 +1032,13 @@
       "evidence": [
         "catch/2009-silver-week-miruge-festival/original-view.json",
         "catch/2009-silver-week-miruge-festival/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2009-summer",
+      "evidence": [
+        "catch/2009-summer/original-view.json",
+        "catch/2009-summer/desktop-review.json"
       ]
     }
   ],

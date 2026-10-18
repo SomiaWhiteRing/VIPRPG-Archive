@@ -97,6 +97,16 @@ const configurations: Record<string, { base: string; entry?: string; manifests: 
     encoding: "shift_jis", liveSource: true,
     preserveExternalExtensions: [".zip"],
   },
+  "2009-summer": {
+    base: "https://vipkohaku.x.fc2.com/2009s/",
+    entry: "index.html",
+    manifests: ["source/archive/manifest.json"],
+    seeds: { "index.html": "source/archive/index-20211203045641.bin" },
+    encoding: "shift_jis",
+    externalResources: {
+      "http://yy701.60.kg/test/read.cgi/viprpg2009summer/1243982686/": "forum/embedded-thread.html",
+    },
+  },
   "2009-gw": {
     base: "https://vipgw2011.web.fc2.com/vip_2009gw/",
     entry: "index.html",
@@ -545,8 +555,25 @@ async function main() {
         }
         $("base").remove();
         if (id === "2012-kouhaku") $("noscript,#geniee_overray_base,#geniee_overray_tag,link[rel='alternate'],img[src*='geniee.jp']").remove();
+        if (id === "2009-summer" && $('img[src*="media.fc2.com/counter_img.php"]').length) {
+          compatibilityFixes.push({ page: local, change: "Remove the uncaptured external visitor counter to keep the replay offline and avoid a live third-party request." });
+        }
         $('img[src*="media.fc2.com/counter_img.php"]').remove();
         $('img[src*="netriver.jp/countriver/"]').remove();
+        if (id === "2009-summer") {
+          const activeElements = $("script,noscript,form,object,embed").length;
+          $("script,noscript,form,object,embed").remove();
+          const unarchivedLoads = $("img[src],iframe[src],link[rel~='stylesheet'][href],video[src],audio[src],source[src]").toArray().filter((element) => {
+            const attribute = element.tagName === "link" ? "href" : "src";
+            const value = $(element).attr(attribute);
+            return !value || !relative(new URL(value, original).href);
+          });
+          for (const element of unarchivedLoads) $(element).remove();
+          $("*").each((_, element) => {
+            for (const attribute of Object.keys(element.attribs)) if (attribute.startsWith("on")) $(element).removeAttr(attribute);
+          });
+          if (activeElements || unarchivedLoads.length) compatibilityFixes.push({ page: local, change: `Remove ${activeElements} script or active-control elements and ${unarchivedLoads.length} uncaptured external auto-load resources from the static replay.` });
+        }
         $("meta[charset]").attr("charset", "UTF-8");
         $("meta[http-equiv]").each((_, element) => {
           if ($(element).attr("http-equiv")?.toLowerCase() === "content-type") $(element).attr("content", "text/html; charset=UTF-8");
@@ -668,6 +695,19 @@ async function main() {
   const omittedBackgrounds: Array<{ page: string; resource: string }> = [];
   const omittedHovers: Array<{ page: string; resource: string }> = [];
   const unavailable = new Set(failures.map((failure) => relative(failure.url)));
+  if (id === "2009-summer") for (const [local, bytes] of files) if (/\.css$/i.test(local)) {
+    let omitted = 0;
+    const css = bytes.toString("utf8").replace(/url\(\s*["']?([^"')]+)["']?\s*\)/g, (literal, value) => {
+      const resource = relative(new URL(value, new URL(local, base)).href);
+      if (!resource || !unavailable.has(resource)) return literal;
+      omittedBackgrounds.push({ page: local, resource }); omitted += 1;
+      return "none";
+    });
+    if (omitted) {
+      files.set(local, Buffer.from(css));
+      compatibilityFixes.push({ page: local, change: `Remove ${omitted} unavailable background resource reference(s) from the offline stylesheet.` });
+    }
+  }
   for (const [local, bytes] of files) if (/\.html?$/i.test(local)) {
     const $ = cheerio.load(bytes.toString("utf8"));
     $("[background]").each((_, element) => {
@@ -732,6 +772,30 @@ async function main() {
         compatibilityFixes.push({ page: local, change: `Replace the broken image ${resource} with a fixed missing-source notice, without invented artwork.` });
       }
     });
+    if (id === "2009-summer") {
+      $("link[rel*=stylesheet][href]").each((_, element) => {
+        const node = $(element), resource = relative(new URL(node.attr("href")!, new URL(local, base)).href);
+        if (!resource || !unavailable.has(resource)) return;
+        node.remove();
+        compatibilityFixes.push({ page: local, change: `Omit unavailable source stylesheet ${resource}; direct requests and both scheme-specific CDX lookups found no usable capture.` });
+      });
+      $("[style],style").each((_, element) => {
+        const node = $(element), inline = node.attr("style"), text = inline ?? node.html() ?? "";
+        const cleaned = text.replace(/url\(\s*["']?([^"')]+)["']?\s*\)/g, (literal, value) => {
+          const resource = relative(new URL(value, new URL(local, base)).href);
+          if (!resource || !unavailable.has(resource)) return literal;
+          omittedBackgrounds.push({ page: local, resource });
+          return "none";
+        });
+        if (inline !== undefined) node.attr("style", cleaned); else node.html(cleaned);
+      });
+      $("img[src]").each((_, element) => {
+        const node = $(element), resource = relative(new URL(node.attr("src")!, new URL(local, base)).href);
+        if (!resource || !unavailable.has(resource)) return;
+        node.replaceWith(`<span class="archive-missing-image" data-missing-resource="${resource}" style="display:inline-block;box-sizing:border-box;padding:.75rem;border:1px dashed #7a8795;background:#f2f4f6;color:#394452;vertical-align:middle">［原資料の画像は未取得です］</span>`);
+        compatibilityFixes.push({ page: local, change: `Replace unavailable source image ${resource} with a compact, labelled placeholder.` });
+      });
+    }
     if (id === "2010-summer" || id === "2009-silver-week-miruge-festival") $("img[src]").each((_, element) => {
       const node = $(element), resource = relative(new URL(node.attr("src")!, new URL(local, base)).href);
       if (!resource || !unavailable.has(resource)) return;
@@ -764,7 +828,7 @@ async function main() {
         compatibilityFixes.push({ page: local, change: "Omit an unavailable stylesheet or favicon reference; the source inline styling remains in place and the missing resource stays documented." });
       }
     });
-    if (["2010-gw", "2012-kouhaku", "2011-gw", "2011-kouhaku", "2010-summer", "2009-kouhaku", "2009-ksgfestival", "2009-silver-week-miruge-festival", "2009-gw"].includes(id) || [...omittedBackgrounds, ...omittedHovers].some((omission) => omission.page === local)) files.set(local, Buffer.from($.html()));
+    if (["2010-gw", "2012-kouhaku", "2011-gw", "2011-kouhaku", "2010-summer", "2009-kouhaku", "2009-ksgfestival", "2009-silver-week-miruge-festival", "2009-summer", "2009-gw"].includes(id) || [...omittedBackgrounds, ...omittedHovers].some((omission) => omission.page === local)) files.set(local, Buffer.from($.html()));
   }
   const generatedUnavailablePages: string[] = [];
   if (["2011-gw", "2010-gw", "2009-ksgfestival"].includes(id)) for (const gap of recovery.sourceDetailGaps ?? []) {

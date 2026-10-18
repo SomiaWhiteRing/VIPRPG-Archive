@@ -1,0 +1,45 @@
+{
+  "festivalId": "2009-summer",
+  "reviewedAt": "2026-10-18",
+  "desktopOnly": true,
+  "viewport": {
+    "width": 1339,
+    "height": 715
+  },
+  "formatted": {
+    "route": "/#2009-summer",
+    "documentHorizontalOverflow": 0,
+    "bodyHorizontalOverflow": 0,
+    "festivalTableRows": 100,
+    "workLinks": 99,
+    "images": 0,
+    "status": "passed"
+  },
+  "original": {
+    "route": "/original/2009-summer",
+    "documentHorizontalOverflow": 0,
+    "bodyHorizontalOverflow": 0,
+    "embeddedPage": "/original-pages/2009-summer/index.html",
+    "embeddedFrame": {
+      "widthCssPixels": 1244.57,
+      "heightCssPixels": 640
+    },
+    "sourceCatalogueBlocks": 100,
+    "sourceLinks": 306,
+    "rootImages": 108,
+    "loadedRootImages": 108,
+    "failedLoadedImages": 0,
+    "nestedIframes": 1,
+    "scripts": 0,
+    "forms": 0,
+    "stylesheets": 0,
+    "offlineHtmlPages": 103,
+    "brokenLocalResourcesAcrossOfflinePages": 0,
+    "externalAutomaticLoads": 0,
+    "fullSizeScreenshotPlaceholders": 95,
+    "status": "passed-with-documented-source-gaps"
+  },
+  "contentUsedForAssessment": false,
+  "sourceImagesViewed": false,
+  "incidentalEntryTextExposure": "The tab-selection call returned an accessibility tree containing entry text; no text-based sorting or data changes followed, and later desktop checks used structural counts only."
+}

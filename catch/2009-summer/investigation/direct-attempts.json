@@ -1,0 +1,25 @@
+[
+  {
+    "method": "GET",
+    "requestedUrl": "https://vipkohaku.x.fc2.com/2009s/index.html",
+    "attemptedAt": "2026-10-18T09:53:25.508Z",
+    "proxyRegion": "Japan",
+    "proxyNode": "🇯🇵 日本S01 | IEPL",
+    "exitCountry": "JP",
+    "errorName": "TypeError",
+    "causeCode": "ECONNRESET",
+    "causeMessage": "Client network socket disconnected before secure TLS connection was established"
+  },
+  {
+    "method": "GET",
+    "requestedUrl": "http://vipkohaku.x.fc2.com/2009s/index.html",
+    "attemptedAt": "2026-10-18",
+    "proxyRegion": "Japan",
+    "proxyNode": "🇯🇵 日本S01 | IEPL",
+    "exitCountry": "JP",
+    "status": 502,
+    "bytes": 0,
+    "contentType": null,
+    "responseBodyPreserved": false
+  }
+]

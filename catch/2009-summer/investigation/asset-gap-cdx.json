@@ -1,0 +1,37 @@
+{
+  "proxyRegion": "Hong Kong",
+  "proxyPort": "127.0.0.1:7897",
+  "exitCountry": "HK",
+  "checkedAt": "2026-10-18T10:10:19.130Z",
+  "queries": [
+    {
+      "id": "ss001-https",
+      "matchType": "exact",
+      "status": 200,
+      "bytes": 3,
+      "rowCount": 0,
+      "captures": []
+    },
+    {
+      "id": "ss001-http",
+      "matchType": "exact",
+      "status": 200,
+      "bytes": 3,
+      "rowCount": 0,
+      "captures": []
+    },
+    {
+      "id": "style-https",
+      "matchType": "exact",
+      "status": 200,
+      "bytes": 3,
+      "rowCount": 0,
+      "captures": []
+    },
+    {
+      "id": "ss-prefix",
+      "error": "TimeoutError",
+      "causeCode": null
+    }
+  ]
+}
