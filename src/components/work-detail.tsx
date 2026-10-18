@@ -102,7 +102,9 @@ export default function WorkDetail({
       <header className="detail-header">
         {restricted && <p className="note">{work.no ? `No.${work.no} · ` : ""}{dictionary.restrictedContent}</p>}
         <h1 className="detail-title">{work.title}</h1>
-        <p className="detail-author-line">{work.source?.authorOmitted ? dictionary.authorOmitted : work.author}</p>
+        {(work.author.trim() || work.source?.authorOmitted) && (
+          <p className="detail-author-line">{work.source?.authorOmitted ? dictionary.authorOmitted : work.author}</p>
+        )}
         {work.originalTitle && <p className="note">{dictionary.detailsOriginalTitle}: {work.originalTitle}<br />{dictionary.detailsTitleVersionNotice}</p>}
         {restricted && (
           <div className="restricted-media">
