@@ -250,7 +250,7 @@ async function main() {
           throw new Error(error?.replace(/^Error:\s*/, "") ?? "Missing cached resource; use --fetch");
         }
         const row = inventory.slice(1).find((row) => relative(row[0]) === local);
-        const fallback = inventory.slice(1).find((row) => relative(row[0]) === "index.html");
+        const fallback = inventory.slice(1).find((row) => relative(row[0]) === (config.entry ?? "index.html"));
         const capture = row ?? fallback;
         const archiveUrl = capture && `https://web.archive.org/web/${capture[2] || capture[1]}id_/${row?.[0] ?? original}`;
         // Keep Japan source requests and Hong Kong archive requests in separate batches.
