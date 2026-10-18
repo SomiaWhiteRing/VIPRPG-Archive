@@ -1,0 +1,73 @@
+{
+  "recordedAt": "2026-10-18T02:23:42.649Z",
+  "festivalId": "2011-summer",
+  "status": "accepted",
+  "records": 108,
+  "sourceIntroductionPages": 103,
+  "sharedIntroductionMembers": 6,
+  "unknownTitleNumbers": [],
+  "missingImageUrls": 0,
+  "acceptedFestivalCount": 19,
+  "nextFestival": "2011-toppatsu-festival",
+  "datasetSha256": "e4f756254f1373bab8193876894ab24bc2c31398b98161203ce545d90981b301",
+  "resolutionEvidence": [
+    "shared-introduction-map.json",
+    "image-retry.json",
+    "established-title-review.json"
+  ],
+  "initialAssessment": {
+    "recordedAt": "2026-10-18T01:57:38.319Z",
+    "festivalId": "2011-summer",
+    "status": "source-recovery-in-progress-not-accepted",
+    "acceptedFestivalCount": 18,
+    "primarySource": "http://www.geocities.jp/viprpg_summer11/",
+    "sourceDiscovery": "investigation/historical-festival-wiki.bin",
+    "sourceEncoding": "euc-jp",
+    "records": 108,
+    "originalIntroductions": 103,
+    "authorComments": 103,
+    "hostComments": 103,
+    "icons": 102,
+    "screenshotReferences": 62,
+    "unavailableIntroductionNumbers": [
+      "62",
+      "67",
+      "76",
+      "80",
+      "81"
+    ],
+    "unknownTitleNumbers": [
+      "81"
+    ],
+    "missingImageUrls": 49,
+    "originalImageBatch": {
+      "requested": 172,
+      "recovered": 123
+    },
+    "mirrorImageBatch": {
+      "requested": 25,
+      "recovered": 0
+    },
+    "titleCorrections": [
+      "14",
+      "78",
+      "101"
+    ],
+    "titleEvidence": "investigation/established-title-review.json",
+    "datasetSha256": "7078113036327bc37d6f922a49cb7da658f750cb5e4453e36fd0083c0deeaf1e",
+    "nextActions": [
+      "Trace original missing images through earlier detail-page captures and indexed alternate resources; do not infer permanent absence from single failures.",
+      "Verify catalogue-only records, especially unnamed No.81 and its shared No.80 topic link; do not assign No.60 comparison columns to other works.",
+      "Register the original view with index.htm/EUC-JP, preserve No.60 comparison table and create explicitly labelled catalogue fallback pages for unavailable introductions.",
+      "Compare all source fields and resource bytes, build in .next-preview, and perform desktop-only interaction checks before advancing the ledger.",
+      "Update generated inventories and make a separate festival commit after acceptance."
+    ],
+    "sharedFoundationCommit": "15e648f",
+    "checks": {
+      "validateData": "passed",
+      "lint": "passed",
+      "build": "not run for this festival",
+      "desktop": "pending"
+    }
+  }
+}

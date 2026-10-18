@@ -1,0 +1,19 @@
+{
+  "reviewedAt": "2026-10-18",
+  "widths": [
+    1440,
+    1280
+  ],
+  "evidence": [
+    "catch/2011-summer/formatted-desktop-review.json",
+    "catch/2011-summer/original-desktop-review.json",
+    "catch/2011-summer/hover-desktop-review.json",
+    "catch/2011-summer/gallery-desktop-review.json",
+    "catch/2011-summer/catalogue-desktop-review.json",
+    "catch/2011-summer/final-download-desktop-review.json",
+    "catch/2011-summer/replay-review.json"
+  ],
+  "imageEvidence": "catch/2011-summer/image-decode-review.json",
+  "httpEvidence": "catch/2011-summer/http-review.json",
+  "scope": "Browser layout and interaction checks; source fields and resource bytes checked separately. The source six-column table retains native horizontal scrolling inside the original-view frame; no outer-page overflow. No mobile or game-runtime tests."
+}

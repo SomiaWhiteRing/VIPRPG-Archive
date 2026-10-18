@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html><!-- jbbs -->
+<head>
+<meta http-equiv="content-type" content="text/html; charset=euc-jp">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta property="og:title" content="viprpg夏の陣2011掲示板 - したらば掲示板">
+<meta property="og:description" content="vipツクスレ夏の陣の掲示板です">
+<meta property="og:url" content="https://jbbs.shitaraba.net/game/52968/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="したらば掲示板">
+<meta property="og:image" content="https://parts.jbbs.shitaraba.net/img/ogp.png">
+
+<meta name="description" content="viprpg夏の陣2011掲示板 : vipツクスレ夏の陣の掲示板です">
+<link rel="canonical" href="https://jbbs.shitaraba.net/game/52968/">
+<link rel="alternate" media="handheld" type="text/html" href="http://jbbs.m.shitaraba.net/b/i.cgi/game/52968/" />
+<link rel="alternate" type="application/rss+xml" title="RSS" href="//jbbs.shitaraba.net/bbs/subject.cgi/game/52968/rss" />
+<link rel="apple-touch-icon" href="https://parts.jbbs.shitaraba.net/img/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/x-icon" href="https://parts.jbbs.shitaraba.net/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="https://parts.jbbs.shitaraba.net/favicon.ico">
+<title>viprpg夏の陣2011掲示板</title>
+<script type="text/javascript">
+<!--
+Name = getCookie("NAME");
+Mail = getCookie("MAIL");
+function getCookie(key,  tmp1, tmp2, xx1, xx2, xx3) {
+ tmp1 = " " + document.cookie + ";";
+ xx1 = xx2 = 0;
+ len = tmp1.length;
+ while (xx1 < len) {
+  xx2 = tmp1.indexOf(";", xx1);
+  tmp2 = tmp1.substring(xx1 + 1, xx2);
+  xx3 = tmp2.indexOf("=");
+  if (tmp2.substring(0, xx3) == key) {
+   return(unescape(tmp2.substring(xx3 + 1, xx2 - xx1 - 1)));
+  }
+  xx1 = xx2 + 1;
+ }
+ return("");
+}
+
+window.onload = fillinCookies;
+function fillinCookies() {
+  for(var i = 0; i < document.forms.length; i++) {
+  if(document.forms[i].name != 'fcs') continue;
+  document.forms[i].NAME.value = Name;
+  document.forms[i].MAIL.value = Mail;
+ }
+}
+// -->
+</script>
+<!-- i-mobile for SmartPhone client script -->
+<script type="text/javascript">
+    imobile_tag_ver = "0.2";
+    imobile_pid = "426";
+    imobile_asid = "242390";
+    imobile_type = "overlay";
+</script>
+
+
+</head>
+<body text="#000000" bgcolor="#FFFFFF" link="#0000FF" alink="#FF0000" vlink="#660099" background=""><script type="text/javascript" src="//parts.jbbs.shitaraba.net/js/smartphone.js"></script>
+<a name="top"></a>
+<style type="text/css">
+body{margin:50px 0 0 0;}
+table#jbbsheader {
+  border:0;
+  width:100%;
+  height:26px;
+  font-size:12px;
+  margin-bottom:18px;
+  color:#666;
+  background:#fff;
+  border-bottom:1px solid #ccc;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:100;
+}
+table#jbbsheader tr, table#jbbsheader td, table#jbbsheader th, table#jbbsheader div { border:0; }
+table#jbbsheader a:link, table#jbbsheader a:visited { color:#666; }
+table#jbbsheader .logo{ width:180px; text-align:center; }
+table#jbbsheader a img{ border:none; }
+table#jbbsheader img{ vertical-align:middle; }
+#jbbsheader, #jbbsheader *{margin:0;padding:0;}
+</style>
+<table cellspacing="0" id="jbbsheader">
+<tr>
+<th class="logo" nowrap><div><a href="https://rentalbbs.shitaraba.com/"><img src="//parts.jbbs.shitaraba.net/img/cmn/logo_shitaraba.gif" alt="したらば掲示板" width="104" height="31"></a></div></th>
+<td nowrap><div>[&nbsp;<a href="//jbbs.shitaraba.net/bbs/board_info.cgi/game/52968/" title="掲示板詳細情報">板情報</a>&nbsp;|&nbsp;<a href="https://rentalbbs.shitaraba.com/jbbs/search/ranking?category=game">ゲーム/囲碁/将棋</a>&nbsp;]</div></td>
+<td nowrap id="staff_info" style="text-align: right; padding-right: 10px;"><!-- announcement here --></td>
+</tr>
+</table>
+<script src="//jbbs.shitaraba.net/js/staff_info.js?t=1624007708"></script>
+<div align="center"><font color="#000000"><h1>viprpg夏の陣2011掲示板</h1></font></div><table align="center"
+       bgcolor="#CCFFCC"
+       border="1"
+       cellspacing="11"
+       cellpadding="2"
+       width="90%">
+  <tr>
+    <td>
+      <b>スレッド作成：</b>
+      <form method="POST" action="//jbbs.shitaraba.net/bbs/write.cgi/game/52968/new/" name="fcs">
+        <table border="0" width="100%">
+          <tr>
+            <td nowrap align="right">タイトル：</td>
+            <td>
+              <input type="text" name="SUBJECT" size="40">
+              <input type="submit" value="新規書き込み">
+            </td>
+          </tr>
+          <tr>
+            <td nowrap align="right">名前：</td>
+            <td>
+              <input type="text" name="NAME" size="23">E-mail<font size="1">(省略可)</font>
+              ：<input type="text" name="MAIL" size="23">
+            </td>
+          </tr>
+          <tr>
+            <td nowrap align="right" valign="top">内容：</td>
+            <td>
+              <textarea rows="5" cols="60" wrap="OFF" name="MESSAGE"></textarea>
+              <input type="hidden" name="DIR" value="game">
+              <input type="hidden" name="BBS" value="52968">
+              <input type="hidden" name="TIME" value="1687273400">
+            </td>
+          </tr>
+        </table>
+      </form>
+    </td>
+  </tr>
+</table>
+<br>
+<a name="menu"></a>
+<table border="1" cellspacing="11" cellpadding="2" width="90%" bgcolor="#CCFFCC" align="center">
+ <tr>
+  <td>
+<a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1312984100/l50">1</a> : <a rel="nofollow" href="#1">No.83　ようこそ▼▲開発室へ(26)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1310640992/l50">2</a> : <a rel="nofollow" href="#2">No.49　摩汪ノ蟷(77)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1308221274/l50">3</a> : <a rel="nofollow" href="#3">No.3　時には豆が如く(301)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1313423110/l50">4</a> : <a rel="nofollow" href="#4">No.105　Demon Scarier(20)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1311192673/l50">5</a> : <a rel="nofollow" href="#5">No.53　続・三馬鹿道中記(115)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1308228370/l50">6</a> : <a rel="nofollow" href="#6">No.6　魔ーミンｖｓおぜうさま(45)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1313325522/l50">7</a> : <a rel="nofollow" href="#7">No.89　そして少年は大人になる(43)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1313422399/l50">8</a> : <a rel="nofollow" href="#8">No.99　隙を見つけながら作った戦闘アニメ(32)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1312627917/l50">9</a> : <a rel="nofollow" href="#9">No.75　ちょこれーとあうと　〜GameOfYear〜(35)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1312197534/l50">10</a> : <a rel="nofollow" href="#10">No.64　チーターエンリュウ(28)</a>
+<hr>
+<font size="-1"><a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1310506112/l50">11 : No.46　アイスさんのガンアクション(8)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1312542247/l50">12 : No.72　チェストブレイカーリリア(47)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1313371336/l50">13 : No.94　Ksg溜(26)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1313371221/l50">14 : No.92　タイガーバニー(20)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1313371163/l50">15 : No.91　タイトル未定(19)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1313319812/l50">16 : No.85　幼女に急接近して悪戯するゲーム(42)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1313320033/l50">17 : No.88　太陽に向かって(41)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1313230774/l50">18 : No.84　ふつうのもしも(29)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1312807399/l50">19 : No.79　肥溜め置き場(21)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1312807315/l50">20 : No.77　太陽の剣士、月の銃士(23)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1312409084/l50">21 : No.71　けっきょくモチベギンギン大冒険(38)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1312197473/l50">22 : No.63　ブライアンとフレイムのラブラブデート(59)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1312197743/l50">23 : No.68　しょうゆの樹(54)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1311590265/l50">24 : No.54　醤油幻想奇譚(38)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1310986693/l50">25 : No.52　もしも３０秒で世界を救う超速ＲＰＧだったら(36)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1310640907/l50">26 : No.47　賢剣リリアんテール1 無印(34)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1310336728/l50">27 : No.44　Successor of Death(30)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1310419614/l50">28 : No.45　Four-短編集(26)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1310334717/l50">29 : No.42　山(64)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1309172790/l50">30 : No.28　導き妖精(73)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1308355360/l50">31 : No.15　もしもダーク恍惚なる闇がラスボスだったら(18)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1308482926/l50">32 : No.19　やさしい雨はいつ降る(38)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1308255787/l50">33 : No.9　光の子と闇の子(30)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1313371276/l50">34 : No.93　ＷＩＺＡＲＤＵＲＹＹＹ(133)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1313423028/l50">35 : No.104　トイレ（数パターン）(13)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1308221223/l50">36 : No.2　ポニーテールクエスト(11)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1308221407/l50">37 : No.4　もしも仮想　〜瑠璃色満ちる時〜(29)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1311680549/l50">38 : No.58　まぁるい世界(76)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1310177421/l50">39 : No.38　戦国アレックス(15)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1308220599/l50">40 : No.1　世紀末救世主伝説　喪霜の拳(74)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1308828278/l50">41 : No.26　トぷょトぷょ(49)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1312807356/l50">42 : No.78　beatmosimo&#8545;LX(ビートもしもツーリナックス)(84)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1308213208/l50">43 : 隣で妹がオナニーを始めた(13)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1313422216/l50">44 : No.98　氷点下の黒歴史(17)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1313423239/l50">45 : No.107　凶器と狂気の白昼夢(35)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1313402855/l50">46 : No.96　2000&amp2003パッケキャラ供養mrg(15)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1313319969/l50">47 : No.87　オオカミしょうねん(20)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1308268030/l50">48 : No.13　ハー妹とエッチなことをするゲーム(82)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1313422462/l50">49 : No.100　みんなのリズム天国買った(30)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1313422582/l50">50 : No.101　擬人化バニッシュ&#8546;(16)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1312197613/l50">51 : No.66　ぐらびてぃめいず(35)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1308183184/l50">52 : 運営掲示板(381)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1311590334/l50">53 : No.55　ファルコンがしょうゆムースかけられる(36)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1311680609/l50">54 : No.59　SweetSmell(22)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1308255737/l50">55 : No.8　わっしょい武道伝(37)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1310247945/l50">56 : No.41　名も無き勇者の冒険記(26)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1313374828/l50">57 : No.95　英雄英雄物語ver0.9(21)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1309640495/l50">58 : No.34　再襲！電波ウイルス(23)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1308255978/l50">59 : No.12　MAZE(41)</a> <font color="#FF0000">/</font> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1310210253/l50">60 : No.39　ウンコイズノットイナフ(18)</a>&nbsp;&nbsp;(全部で109のスレッドがあります)<br><br></font>
+<a href="https://rentalbbs.shitaraba.com/rule/help/index.html">掲示板の使い方</a> / <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/notice_mail.cgi/game/52968/">新着をメールで受信</a> / <a href="//jbbs.shitaraba.net/bbs/storage.cgi/game/52968/">過去ログ倉庫</a> / <a href="//jbbs.shitaraba.net/bbs/subject.cgi/game/52968/">スレッド一覧</a> / <a rel="nofollow" href="./">リロード</a>
+  </td>
+ </tr>
+</table>
+<br><br>
+<a name="1"></a><table border="1" cellspacing="11" cellpadding="2" width="90%" bgcolor="#EFEFEF" align=center><tr><td><table border="0" width="100%"><tr><td><font size="-1"><a rel="nofollow" href="#10">▲</a>1<a rel="nofollow" href="#2">▼</a></font> <b><font size="+1" color="#FF0000">No.83　ようこそ▼▲開発室へ</font></b> <font size="-1">(Res:26)</font></td><td nowrap align="right"><font size="-1"><a rel="nofollow" hr="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1312984100/">All</a> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1312984100/-100">First100</a> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1312984100/l50">Last50</a> <a rel="nofollow" href="#menu">SubjectList</a> <a rel="nofollow" href="./">ReLoad</a> <a rel="nofollow" href="#10">▲</a>1<a rel="nofollow" href="#2">▼</a></font></td></tr></table><dl>
+<dt><a href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1312984100/1" rel="nofollow">1</a> ：<font color="#008800"><b><font color=#FF0000>管理人</font> </b></font>：2011/08/10(水) 22:48:20 ID:???<dd> やってしまった…もうダメだ… <br><br>
+<dt><a href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1312984100/20" rel="nofollow">20</a> ：<font color="#008800"><b>2 </b></font>：2011/10/08(土) 09:02:24 ID:ugy84Ags<dd> 魔王四天王編は<br>子供たちの成長と親子愛を描きながら<br>８月３１日に家へ帰るという話<br><br>主人公はテレサを中心とした<br>子供たち<br><br>まぁ、この辺は娘様の日記帳みたいに<br>父親の家に遊びに行って帰ってくるって感じで…<br><br>▼▲開発室編は<br>苦しみ悲しみを乗り越えながら<br>生きていく（？）という話<br><br>主人公はラジ子だったはずだけど<br><font color="#008800">（省略されました・・全てを読むには<a href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1312984100/20" target="_blank">ここ</a>を押してください）</font><br> <br><br>
+<dt><a href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1312984100/21" rel="nofollow">21</a> ：<font color="#008800"><b>2 </b></font>：2011/10/08(土) 12:21:20 ID:ugy84Ags<dd> 特別　遺書はただのオマケだからあまり気にしないでっ！<br><br>…CLANNADの別ロットとフルボイス版をくれてありがとう…<br>って言いたかっただけだったのに…<br>なんか変な方向にいってしまっただけで…ううっ…<br> <br><br>
+<dt><a href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1312984100/22" rel="nofollow">22</a> ：<font color="#008800"><b>名無しさん </b></font>：2011/11/02(水) 12:21:26 ID:1EAF9rTo<dd> 今更だけど<br>とりあえず、実に開発室っぽくはあった<br>意味不明でプレイヤー置いてきぼりだけどね<br>そういう主旨としてのゲームならまあそれはそれでおｋじゃないかな<br> <br><br>
+<dt><a href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1312984100/23" rel="nofollow">23</a> ：<font color="#008800"><b>名無しさん </b></font>：2011/11/09(水) 02:20:11 ID:NYazgStw<dd> 友達同士で見せ合ったら楽しそうだと思うけど<br>友達じゃないので、余り楽しめなかった感じ<br> <br><br>
+<dt><a href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1312984100/24" rel="nofollow">24</a> ：<font color="#008800"><b>2 </b></font>：2011/11/17(木) 01:36:20 ID:6thisJRE<dd> <a href="/bbs/read.cgi/game/52968/1312984100/22" rel="nofollow" target="_blank">&gt;&gt;22</a><br>そうかな…こっちもよく分からなくなってしまってて<br>あの絵板を見てしまって急に付いてしまったから…<br><br>タイトルもそのままコレになってしまったし…<br><br>ただのなつあんりテレサの日常と親子愛から<br>そのゲームを作る方になっていってしまって…<br><br>自分でも説明出来てないし分からなくなってしまったのに<br>他の人が分かるわけ無いよね…<br><br>練り直してくるよ…<br><br>今度はパパは魔王四天王抜きの<br><font color="#008800">（省略されました・・全てを読むには<a href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1312984100/24" target="_blank">ここ</a>を押してください）</font><br> <br><br>
+<dt><a href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1312984100/25" rel="nofollow">25</a> ：<font color="#008800"><b>2 </b></font>：2012/04/30(月) 19:29:59 ID:dqaTxQ06<dd> 私、説明ヘタと同じコト書いてる（ソッチ系の病気？）ようなんで<br>まだ見てる人で、誰か分かる人エスパーしてっ！<br><br>あとコレ見た人で、分からないってところ書いていって…おねがい…<br><br>それ入れる事にするから…<br><br>書き直すのちょっとムリだけど<br>付け足すから…<br><br>はぁ…ＶＡの２階でなまはむさんにバカにされたコトと<br>エロゲ規制のニュースのコトのせいで見る<br>悪夢がまだ終わらない…<br><br>あの悪夢が、いたずら妖精さんのアレ（連れてかれる所）に似てて<br><font color="#008800">（省略されました・・全てを読むには<a href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1312984100/25" target="_blank">ここ</a>を押してください）</font><br> <br><br>
+<dt><a href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1312984100/26" rel="nofollow">26</a> ：<font color="#008800"><b>名無しさん </b></font>：2023/06/21(水) 00:03:20 ID:nP9Mihak<dd> タイトルを『ようこそツクール荘へ』に変えてリスタートしました<br>キャラ設定はたぶん同じだと思う（うろおぼえ）<br>メインはラジ子が主人公だけど、スピンオフのドラ子編が２０２２年&#65374;メインとなっています<br>それではスタートです<br> <br><br>
+</dl>
+<form method="POST" action="//jbbs.shitaraba.net/bbs/write.cgi/game/52968/1312984100/" name="fcs">
+<table border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+  <tr valign="top">
+    <td>
+      <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td><input type=submit value="書き込む" name="submit"></td>
+          <td>
+            名前： <input type="text" name="NAME" size="19">
+            E-mail<font size="-1">（省略可）</font>： <input type="text" name="MAIL" size="19">
+          </td>
+        </tr>
+      </table>
+      <textarea rows="5" cols="70" wrap="OFF" name="MESSAGE"></textarea>
+      <input type="hidden" name="DIR" value="game">
+      <input type="hidden" name="BBS" value="52968">
+      <input type="hidden" name="KEY" value="1312984100">
+      <input type="hidden" name="TIME" value="1687273400">
+    </td>
+  </tr>
+</table>
+</form>
+<b><font size="3">
+  <a href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1312984100/">全部読む</a>
+  <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1312984100/l50">最新50</a>
+  <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1312984100/-100">1-100</a>
+  <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/notice_mail.cgi/game/52968/1312984100/">メール受信</a>
+  <a rel="nofollow" href="#top">掲示板トップ</a>
+  <a rel="nofollow" href="./">リロード</a>
+</font></b>
+</tr></table><br><br>
+<a name="2"></a><table border="1" cellspacing="11" cellpadding="2" width="90%" bgcolor="#EFEFEF" align=center><tr><td><table border="0" width="100%"><tr><td><font size="-1"><a rel="nofollow" href="#1">▲</a>2<a rel="nofollow" href="#3">▼</a></font> <b><font size="+1" color="#FF0000">No.49　摩汪ノ蟷</font></b> <font size="-1">(Res:77)</font></td><td nowrap align="right"><font size="-1"><a rel="nofollow" hr="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1310640992/">All</a> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1310640992/-100">First100</a> <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1310640992/l50">Last50</a> <a rel="nofollow" href="#menu">SubjectList</a> <a rel="nofollow" href="./">ReLoad</a> <a rel="nofollow" href="#1">▲</a>2<a rel="nofollow" href="#3">▼</a></font></td></tr></table><dl>
+<dt><a href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1310640992/1" rel="nofollow">1</a> ：<font color="#008800"><b></b> ◆y249jMmqxU<b> </b></font>：2011/07/14(木) 19:56:32 ID:z3rizjjc<dd> あの名作をツクールでアレンジ再現してみました。<br>子狐を操作して魔法の塔を探索し、捕らわれた仲間を救出するのが目的。<br>難易度高め。<br>基本的にリセットゲーだと思います。 <br><br>
+<dt><a href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1310640992/71" rel="nofollow">71</a> ：<font color="#008800"><b>名無しさん </b></font>：2011/09/01(木) 18:09:53 ID:7Hl5Z9Dw<dd> うーん難しい<br>ヴァンパイアまでに消耗しすぎみたいでつまってる<br>でも何度も最初からやり直してだんだんHP残して進めるようになるのが楽しいです<br> <br><br>
+<dt><a href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1310640992/72" rel="nofollow">72</a> ：<a href="mailto:sage"><b>名無しさん </b></a>：2011/09/22(木) 05:30:16 ID:pZTNIAcg<dd> ４階層の中盤からテキストに頼りきりだったけど面白かった<br>最初は苦戦していた敵を一蹴できるようになるのが気持ちいい<br> <br><br>
+<dt><a href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1310640992/73" rel="nofollow">73</a> ：<a href="mailto:sage"><b>作者です </b></a>：2011/09/30(金) 15:15:41 ID:yDDMcvO6<dd> 消し忘れてたイベントだけ修正した本体(ver1.03)をうｐしました。<br>たぶんこれで最終更新となります。<br>ttp://ux.getuploader.com/viprpg_summer2011_3/download/54/%E6%91%A9%E6%B1%AA%E3%83%8E%E8%9F%B7v1.03.zip<br> <br><br>
+<dt><a href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1310640992/74" rel="nofollow">74</a> ：<font color="#008800"><b>名無しさん </b></font>：2011/11/03(木) 09:55:36 ID:OH4DDHVM<dd> リスタートしたらその場で詰んでて爆笑してしまったｗ<br>自分なりに頑張ったが、どうも取り損ねたアイテムが大量にあるみたいだ<br>40以降マジ基地すぎｗ楽しかったが最適行はまだまだ遙か彼方か…<br>とりあえずニューゲームいくぜ！<br> <br><br>
+<dt><a href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1310640992/75" rel="nofollow">75</a> ：<a href="mailto:sage"><b>名無しさん </b></a>：2012/09/02(日) 09:36:28 ID:g5AODL8o<dd> 初クリアで49Fと25Fボススルーしたw<br>倒してないから会話がおかしいけど元ネタあるみたいだから仕様かな<br> <br><br>
+<dt><a href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1310640992/76" rel="nofollow">76</a> ：<font color="#008800"><b>名無しさん </b></font>：2012/12/31(月) 22:46:05 ID:mHWvDECQ<dd> 結構頭を使ってプレイしました、効率のいい行動を探していくのが面白いよね<br>少し戦闘のテンポが悪いかなという感はありました<br> <br><br>
+<dt><a href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1310640992/77" rel="nofollow">77</a> ：<font color="#008800"><b>名無しさん </b></font>：2018/07/20(金) 00:51:49 ID:WvhFaqnQ<dd> 文句なしの神ゲー<br> <br><br>
+</dl>
+<form method="POST" action="//jbbs.shitaraba.net/bbs/write.cgi/game/52968/1310640992/" name="fcs">
+<table border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+  <tr valign="top">
+    <td>
+      <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td><input type=submit value="書き込む" name="submit"></td>
+          <td>
+            名前： <input type="text" name="NAME" size="19">
+            E-mail<font size="-1">（省略可）</font>： <input type="text" name="MAIL" size="19">
+          </td>
+        </tr>
+      </table>
+      <textarea rows="5" cols="70" wrap="OFF" name="MESSAGE"></textarea>
+      <input type="hidden" name="DIR" value="game">
+      <input type="hidden" name="BBS" value="52968">
+      <input type="hidden" name="KEY" value="1310640992">
+      <input type="hidden" name="TIME" value="1532015509">
+    </td>
+  </tr>
+</table>
+</form>
+<b><font size="3">
+  <a href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1310640992/">全部読む</a>
+  <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1310640992/l50">最新50</a>
+  <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/read.cgi/game/52968/1310640992/-100">1-100</a>
+  <a rel="nofollow" href="//jbbs.shitaraba.net/bbs/notice_mail.cgi/game/52968/1310640992/">メール受信</a>
+  <a rel="nofollow" href="#top">掲示板トップ</a>
+  <a rel="nofollow" href="./">リロード</a>
+</font></b>
+</tr></table><br><br>
+<a name="3"></a><table border="1" cellspacing="11" cellpadding="2" width="90%" bgcolor="#EFEFEF" align=center><tr><td><table border="0" width="100%"><tr><td><font size="-1"><a rel="nofollow" href="#2">▲</a>3<a rel="nofollow" href="#4">▼</a></font> <b><font size="+1" color="#FF0000">No.3　時には豆が如く</font></b> <font size="-1">(Res:301)</font></td><td nowrap align="right"><font size="-1"><a rel="nofollow" href="/bbs/read.cgi/game/52968/1308221274/">All</a> <a rel="nofollow" href="/bbs/read.cgi/game/52968/1308221274/-100">First100</a> <a rel="nofollow" href="/bbs/read.cgi/game/52968/1308221274/l50">Last50</a> <a rel="nofollow" href="#menu">SubjectList</a> <a rel="nofollow" href="./">ReLoad</a> <a rel="nofollow" href="#2">▲</a>3<a rel="nofollow" href="#4">▼</a></font></td></tr></table><dl>
+<dt><a href="/bbs/read.cgi/game/52968/1308221274/1" rel="nofollow">1</a> ：<font color="#008800"><b></b> ◆y249jMmqxU<b> </b></font>：2011/06/16(木) 19:47:54 ID:UxwZ9Um6<dd> 物件を買収して自分の会社を大きくしていく<br>シミュレーションゲームです。<br><br>グループ技を閃いたり、かけひきを行いながら<br>億単位の数値が飛び交う戦いをみごと勝利し<br>サイキョウになってください。<br><br>加速するインフレバトルの覇者となれ！ <br><br>
+<dt><a href="/bbs/read.cgi/game/52968/1308221274/295" rel="nofollow">295</a> ：<font color="#008800"><b>名無しさん </b></font>：2016/03/10(木) 00:25:48 ID:YxYYVoIs<dd> やっとクリアした<br>グループ技で独立しても独立しないんだな（意味不明）<br>知ってたらF12押す回数が100回は減ったのに<br>いやー楽しかった<br>造船と紅魔の効果すごい便利だった<br> <br><br>
+<dt><a href="/bbs/read.cgi/game/52968/1308221274/296" rel="nofollow">296</a> ：<font color="#008800"><b>名無しさん </b></font>：2016/04/20(水) 05:31:42 ID:hrGABPbA<dd> システムは元がいいから楽しいけどストーリーがつまらん<br> <br><br>
+<dt><a href="/bbs/read.cgi/game/52968/1308221274/297" rel="nofollow">297</a> ：<font color="#008800"><b>名無しさん </b></font>：2016/06/20(月) 21:13:55 ID:eDvxm2Ps<dd> この作者さんはもうゲーム作ってないの？<br> <br><br>
+<dt><a href="/bbs/read.cgi/game/52968/1308221274/298" rel="nofollow">298</a> ：<font color="#008800"><b>名無しさん </b></font>：2017/02/22(水) 00:24:31 ID:5RfpzV9g<dd> リセットありきのリセットゲー<br>クソゲー<br> <br><br>
+<dt><a href="/bbs/read.cgi/game/52968/1308221274/299" rel="nofollow">299</a> ：<font color="#008800"><b>名無しさん </b></font>：2017/04/25(火) 00:01:29 ID:sNHkTLrQ<dd> ゲーム起動できても、操作がきかない<br> <br><br>
+<dt><a href="/bbs/read.cgi/game/52968/1308221274/300" rel="nofollow">300</a> ：<a href="mailto:sage"><b>名無しさん </b></a>：2017/06/01(木) 09:11:10 ID:PzyqWU66<dd> 俺も操作効かなくて色んなキー押しまくったら治った<br>どっかに切り替えキーあるんじゃないか<br> <br><br>
+<dt><a href="/bbs/read.cgi/game/52968/1308221274/301" rel="nofollow">301</a> ：<font color="#008800"><b>名無しさん </b></font>：2018/01/10(水) 20:42:35 ID:CCkTL/P2<dd> ウロボロス戦で、最初に風が来るってなったあと、実装されてませんと出て、先に進めないのですがどうしたらいいでしょうか？<br> <br><br>
+</dl>
+<form method="POST" action="/bbs/write.cgi/game/52968/1308221274/" name="fcs">
+<table border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+  <tr valign="top">
+    <td>
+      <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td><input type=submit value="書き込む" name="submit"></td>
+          <td>
+            名前： <input type="text" name="NAME" size="19">
+            E-mail<font size="-1">（省略可）</font>： <input type="text" name="MAIL" size="19">
+          </td>
+        </tr>
+      </table>
+      <textarea rows="5" cols="70" wrap="OFF" name="MESSAGE"></textarea>
+      <input type="hidden" name="DIR" value="game">
+      <input type="hidden" name="BBS" value="52968">
+      <input type="hidden" name="KEY" value="1308221274">
+      <input type="hidden" name="TIME" value="1515584555">
+    </td>
+  </tr>
+</table>
+</form>
+<b><font size="3">
+  <a href="/bbs/read.cgi/game/52968/1308221274/">全部読む</a>
+  <a rel="nofollow" href="/bbs/read.cgi/game/52968/1308221274/l50">最新50</a>
+  <a rel="nofollow" href="/bbs/read.cgi/game/52968/1308221274/-100">1-100</a>
+  <a rel="nofollow" href="/bbs/notice_mail.cgi/game/52968/1308221274/">メール受信</a>
+  <a rel="nofollow" href="#top">掲示板トップ</a>
+  <a rel="nofollow" href="./">リロード</a>
+</font></b>
+</tr></table><br><br>
+<a name="4"></a><table border="1" cellspacing="11" cellpadding="2" width="90%" bgcolor="#EFEFEF" align=center><tr><td><table border="0" width="100%"><tr><td><font size="-1"><a rel="nofollow" href="#3">▲</a>4<a rel="nofollow" href="#5">▼</a></font> <b><font size="+1" color="#FF0000">No.105　Demon Scarier</font></b> <font size="-1">(Res:12)</font></td><td nowrap align="right"><font size="-1"><a rel="nofollow" href="/bbs/read.cgi/game/52968/1313423110/">All</a> <a rel="nofollow" href="/bbs/read.cgi/game/52968/1313423110/-100">First100</a> <a rel="nofollow" href="/bbs/read.cgi/game/52968/1313423110/l50">Last50</a> <a rel="nofollow" href="#menu">SubjectList</a> <a rel="nofollow" href="./">ReLoad</a> <a rel="nofollow" href="#3">▲</a>4<a rel="nofollow" href="#5">▼</a></font></td></tr></table><dl>
+<dt><a href="/bbs/read.cgi/game/52968/1313423110/1" rel="nofollow">1</a> ：<font color="#008800"><b><font color=#FF0000>管理人</font> </b></font>：2011/08/16(火) 00:45:10 ID:???<dd> はいはい設定設定が濃いです　俺設定でも許容のある人だけPIAIしてくだしあ <br><br>
+<dt><a href="/bbs/read.cgi/game/52968/1313423110/14" rel="nofollow">14</a> ：<font color="#008800"><b>名無しさん </b></font>：2011/09/26(月) 00:10:28 ID:SF7eLwoU<dd> これはなかなか面白いゲーム<br>続きを期待しています。<br><br>あとちょっと気になったところ、<br>迷いの森の抜け方に関するイベントorNPCいないと詰まるかも。<br>金集めがシビアです・・・。金稼ぎでモンスター倒してたらLvがえらいことに。<br> <br><br>
+<dt><a href="/bbs/read.cgi/game/52968/1313423110/15" rel="nofollow">15</a> ：<font color="#008800"><b>名無しさん </b></font>：2011/09/27(火) 21:17:42 ID:3ltNEVa2<dd> <a href="/bbs/read.cgi/game/52968/1313423110/14" rel="nofollow" target="_blank">&gt;&gt;14</a><br>あまった鉱石を売ればおｋ<br> <br><br>
+<dt><a href="/bbs/read.cgi/game/52968/1313423110/16" rel="nofollow">16</a> ：<a href="mailto:sage"><b>名無しさん </b></a>：2011/10/02(日) 11:48:31 ID:Xnke2Qtg<dd> 戦闘バランスが酷い。戦うのがだるかった<br>それで狭い通路にシンボルが詰まってて避け辛いし<br>宿のマップが広いから何かあると思ったら何もないし無駄が多い<br>あと森のノーヒントはあまりにも不親切極まりない<br><br>装備システム作って満足しちゃったように見える<br>もっと頑張れるところがあったんじゃないかな<br>そんな感想<br> <br><br>
+<dt><a href="/bbs/read.cgi/game/52968/1313423110/17" rel="nofollow">17</a> ：<a href="mailto:sage"><b>名無しさん </b></a>：2011/10/05(水) 12:58:23 ID:eSHOenss<dd> 森はヒントあるんだが<br> <br><br>
+<dt><a href="/bbs/read.cgi/game/52968/1313423110/18" rel="nofollow">18</a> ：<font color="#008800"><b>名無しさん </b></font>：2013/01/23(水) 02:24:47 ID:nwKSyZ1.<dd> 武器強化システムがよかった！ボスは結構簡単に勝ててしまった<br><br>迷いの森は行きは音が大きくなるほうに行けばいいのかな多分<br>帰りが少し困った、抜けられないからどうしようかと思って一つ前に引き返したら新しい道ができてた<br> <br><br>
+<dt><a href="/bbs/read.cgi/game/52968/1313423110/19" rel="nofollow">19</a> ：<font color="#008800"><b>名無しさん </b></font>：2016/04/16(土) 17:45:47 ID:5N7qlA.w<dd> 装備強化システムいいですね<br>鉱石ガンガン拾えるからすぐ強化できる<br><br>戦闘バランスは強化するまでがつらいが<br>強化したりレベル上げればフルボッコできるぐらいのバランスですかね<br>雑魚の攻撃がもう少し易しかったらなぁと思いました<br>あと気になった点は道具屋が2階にあるのがだるい、Zキーで走れる事の<br>説明が無い(やればすぐ分かりそうですが一言あったほうが親切かと)<br><br>キャラクターの掛け合いやストーリーは楽しめました<br>このコンビ好き<br> <br><br>
+<dt><a href="/bbs/read.cgi/game/52968/1313423110/20" rel="nofollow">20</a> ：<font color="#008800"><b>名無しさん </b></font>：2016/04/17(日) 18:45:17 ID:Pb9rkvn.<dd> 今すぐヤレる出会い系ランキング<br>ttp://bit.ly/1OgYRt7<br> <br><br>
+</dl>
+<form method="POST" action="/bbs/write.cgi/game/52968/1313423110/" name="fcs">
+<table border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+  <tr valign="top">
+    <td>
+      <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td><input type=submit value="書き込む" name="submit"></td>
+          <td>
+            名前： <input type="text" name="NAME" size="19">
+            E-mail<font size="-1">（省略可）</font>： <input type="text" name="MAIL" size="19">
+          </td>
+        </tr>
+      </table>
+      <textarea rows="5" cols="70" wrap="OFF" name="MESSAGE"></textarea>
+      <input type="hidden" name="DIR" value="game">
+      <input type="hidden" name="BBS" value="52968">
+      <input type="hidden" name="KEY" value="1313423110">
+      <input type="hidden" name="TIME" value="1460886317">
+    </td>
+  </tr>
+</table>
+</form>
+<b><font size="3">
+  <a href="/bbs/read.cgi/game/52968/1313423110/">全部読む</a>
+  <a rel="nofollow" href="/bbs/read.cgi/game/52968/1313423110/l50">最新50</a>
+  <a rel="nofollow" href="/bbs/read.cgi/game/52968/1313423110/-100">1-100</a>
+  <a rel="nofollow" href="/bbs/notice_mail.cgi/game/52968/1313423110/">メール受信</a>
+  <a rel="nofollow" href="#top">掲示板トップ</a>
+  <a rel="nofollow" href="./">リロード</a>
+</font></b>
+</tr></table><br><br>
+<a name="5"></a><table border="1" cellspacing="11" cellpadding="2" width="90%" bgcolor="#EFEFEF" align=center><tr><td><table border="0" width="100%"><tr><td><font size="-1"><a rel="nofollow" href="#4">▲</a>5<a rel="nofollow" href="#6">▼</a></font> <b><font size="+1" color="#FF0000">No.53　続・三馬鹿道中記</font></b> <font size="-1">(Res:107)</font></td><td nowrap align="right"><font size="-1"><a rel="nofollow" href="/bbs/read.cgi/game/52968/1311192673/">All</a> <a rel="nofollow" href="/bbs/read.cgi/game/52968/1311192673/-100">First100</a> <a rel="nofollow" href="/bbs/read.cgi/game/52968/1311192673/l50">Last50</a> <a rel="nofollow" href="#menu">SubjectList</a> <a rel="nofollow" href="./">ReLoad</a> <a rel="nofollow" href="#4">▲</a>5<a rel="nofollow" href="#6">▼</a></font></td></tr></table><dl>
+<dt><a href="/bbs/read.cgi/game/52968/1311192673/1" rel="nofollow">1</a> ：<font color="#008800"><b></b> ◆y249jMmqxU<b> </b></font>：2011/07/21(木) 05:11:13 ID:sWKwbczc<dd> 約２時間くらいで終わる短編です。<br>事件の推理よりも、物語の展開を楽しんで頂けたら幸いです。<br>今回は、新規に３つの事件ファイルを収録しました。<br>最初はとっつきやすいように、すぐに終わる簡単な話から。<br>次の事件に進むごとに、徐々に話を盛り上げていきます。<br>暇つぶしになるのかな。なればいいなぁ。<br>【お願い事】<br>動画サイトへの動画投稿に関しては、ご遠慮ください。<br>ご理解とご協力をお願いします。<br>みんなで仲良く楽しく遊んでね。 <br><br>
+<dt><a href="/bbs/read.cgi/game/52968/1311192673/109" rel="nofollow">109</a> ：<font color="#008800"><b>名無しさん </b></font>：2011/09/09(金) 10:44:41 ID:dX0g6Rs6<dd> あと前作に比べて推理要素が薄まっちゃったのが個人的には残念だった。<br>特に劇団の刑事コロンボみたいな倒叙ものの展開＆真犯人は別にいるという<br>フーダニットな謎解き展開にはｗｋｔｋさせられたけど、案外あっさり<br>真相にたどり着いてしまったのが拍子抜けだった。<br>特にどうやって犯人が他人に成りすましたかってのがポイントだったのに<br>「魔法で姿を変えていました（ｷﾘｯ」というのも推理物としてはアンフェアな<br>感じ…。<br> <br><br>
+<dt><a href="/bbs/read.cgi/game/52968/1311192673/110" rel="nofollow">110</a> ：<a href="mailto:sage"><b>名無しさん </b></a>：2011/09/14(水) 20:01:40 ID:7tu4zH56<dd> 公開開始から約ひと月が経ち、祭りも落ち着いてきたといったところでしょうか<br>色々と突っ込みどころが多い作品でしたが、楽しんで頂けたようで何よりです<br>プレイして頂きありがとうございました<br>現在制作している作品は道中記ではありませんが、<br>もしもこの先どこかで見かけたら手にとって下さると嬉しいです<br>皆さんお疲れ様でした<br> <br><br>
+<dt><a href="/bbs/read.cgi/game/52968/1311192673/111" rel="nofollow">111</a> ：<a href="mailto:sage"><b>名無しさん </b></a>：2011/09/15(木) 11:22:44 ID:hCRG1U.6<dd> 次回作も絶対プレイするよ！期待してるよ！よ！<br> <br><br>
+<dt><a href="/bbs/read.cgi/game/52968/1311192673/112" rel="nofollow">112</a> ：<a href="mailto:sage"><b>名無しさん </b></a>：2011/12/13(火) 17:41:18 ID:l2tcqNVc<dd> 今更だけどプレイしました<br>ウォーターが３人も出てきて混乱したという人が何人かいるけど、彼女たちが魔法具現体であると考えると、<br>別に複数出てきてもおかしくないような・・・<br>赤い靴の被害者の子も、赤水とグラが似ているから演出的にいいと思うし<br>苦労したとありました戦闘アニメやドットがsugeeeeeeeeeeeeeeeee！！！！！<br>前作のアレックス編？の化け物のグラにびっくりしたので、今回そういうのがなくて安心しましたｗ<br> <br><br>
+<dt><a href="/bbs/read.cgi/game/52968/1311192673/113" rel="nofollow">113</a> ：<a href="mailto:sage"><b>名無しさん </b></a>：2012/01/07(土) 17:04:01 ID:tPYfNTI.<dd> 最高の作品だった<br>今回夏の陣の中で一番良かった<br><br>シナリオをしっかり作ってある作品はいいねー<br>たった二話で終わってしまうのが本当に残念だった<br>続きが気になるなんて思った作品、最近のやった中じゃほとんど思いつかないぜ<br><br>タイトルの三馬鹿道中記からは「普通のRPGで主役が三馬鹿なのかな？」と想像したが、全く違っていた<br>サモン探偵の事件簿でいいだろ、これｗｗｗｗｗ<br><br>他の人も書いてるけど、水三姉妹とか、同じキャラが違う役回りで出てくるのは違和感があった<br>サモンが召還したヤツと、他の人が召還したヤツと、とまぁそれぞれが違う存在なのは設定からしてわかるんだが、ややこしいよなさすがに<br>特に推理物、というか頭使ってシナリオを読むタイプの作品だから、こういう混乱はマイナスだと思った<br><br>あと、これは作者さんとオレの倫理観の違いだと思うが、人を殺した人間も罪を償えば許される、という流れで話が進むのはいまいち納得がいかない……<br><font color="#008800">（省略されました・・全てを読むには<a href="/bbs/read.cgi/game/52968/1311192673/113" target="_blank">ここ</a>を押してください）</font><br> <br><br>
+<dt><a href="/bbs/read.cgi/game/52968/1311192673/114" rel="nofollow">114</a> ：<font color="#008800"><b>名無しさん </b></font>：2013/05/04(土) 22:23:27 ID:wv7nZKes<dd> 戦闘もストーリーも安定して楽しかった<br><br>ただ最後、正当防衛チックなスターライトくんはともかくフレイムさんを<br>ＳＡＴＵＧＡＩした子たちが何のフォローもなくいっしょにいたのにはさすがに違和感を感じた<br> <br><br>
+<dt><a href="/bbs/read.cgi/game/52968/1311192673/115" rel="nofollow">115</a> ：<font color="#008800"><b>名無しさん </b></font>：2014/11/01(土) 12:09:37 ID:WMD2xbI2<dd> 久しぶりに祭りエントリーしたっぽいね<br>ttp://www.geocities.jp/vipkohaku2014/entry/008.html<br> <br><br>
+</dl>
+<form method="POST" action="/bbs/write.cgi/game/52968/1311192673/" name="fcs">
+<table border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+  <tr valign="top">
+    <td>
+      <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td><input type=submit value="書き込む" name="submit"></td>
+          <td>
+            名前： <input type="text" name="NAME" size="19">
+            E-mail<font size="-1">（省略可）</font>： <input type="text" name="MAIL" size="19">
+          </td>
+        </tr>
+      </table>
+      <textarea rows="5" cols="70" wrap="OFF" name="MESSAGE"></textarea>
+      <input type="hidden" name="DIR" value="game">
+      <input type="hidden" name="BBS" value="52968">
+      <input type="hidden" name="KEY" value="1311192673">
+      <input type="hidden" name="TIME" value="1414811378">
+    </td>
+  </tr>
+</table>
+</form>
+<b><font size="3">
+  <a href="/bbs/read.cgi/game/52968/1311192673/">全部読む</a>
+  <a rel="nofollow" href="/bbs/read.cgi/game/52968/1311192673/l50">最新50</a>
+  <a rel="nofollow" href="/bbs/read.cgi/game/52968/1311192673/-100">1-100</a>
+  <a rel="nofollow" href="/bbs/notice_mail.cgi/game/52968/1311192673/">メール受信</a>
+  <a rel="nofollow" href="#top">掲示板トップ</a>
+  <a rel="nofollow" href="./">リロード</a>
+</font></b>
+</tr></table><br><br>
+<a name="6"></a><table border="1" cellspacing="11" cellpadding="2" width="90%" bgcolor="#EFEFEF" align=center><tr><td><dl><table border="0" width="100%"><tr><td> <font size="-1"><a href="#5">▲</a>6<a href="#7">▼</a></font> <b><font size="+1" color="#FF0000">No.6　魔ーミンｖｓおぜうさま</font></b> <font size="-1">(Res:45)</font></td><td nowrap align="right"><font size="-1"><a href="/bbs/read.cgi/game/52968/1308228370/">All</a> <a href="/bbs/read.cgi/game/52968/1308228370/-100">First100</a> <a href="/bbs/read.cgi/game/52968/1308228370/l50">Last50</a> <a href="#menu">SubjectList</a> <a href="./">ReLoad</a> <a href="#5">▲</a>6<a href="#7">▼</a></font></td></tr></table>
+<dt><a href="/bbs/read.cgi/game/52968/1308228370/1">1</a> 名前：<font color="#008800"><b></b> ◆y249jMmqxU<b> </b></font> 投稿日： 2011/06/16(木) 21:46:10 ID:UxwZ9Um6<dd> 　ツクスレだけに限らず現実生活でも様々な形で[うんこ]は登場してきた。<br>　実に多くの人々が[うんこ]を見て、知っている。<br>　それぞれの好みにあった[うんこ]が在る程、[うんこ]は観客の要求に応えて来たと言える。<br>　[うんこ]はどの時代でも、どの世界でも普遍の存在で在り、不変の存在だと思う。<br>　寧ろ、新しい価値観を求めている今こそ、求められている存在なのではないだろうか。<br>　時には汚物のように扱われ、時には肥料と成り、ギャグや嗜好にまでその姿を見せ、<br>　挙句には社会を驚かせ、混乱を呼ぶ[うんこ]の大胆不敵さ。<br>　このような存在は我々が生きる社会にも時折登場する。<br>　人間達はこう呼ぶ。<br>　[トリックスター」<br>　神がやってきた、と。<br>　神話の時代から、神はトリックスターとして現れ、常とされている価値観に疑問を投げ掛け、<br>　混乱を起こし、意識の改革を迫った。<br>　産業革命以来、物質的な豊かさを追求しそれを手に入れれば幸せに成ると信じ込んできたが、<br>　人類がつくり出したそれ其のものが地球を傷めている事に気付き、<br>　未来への不安と共に物質への信仰も揺らぎ始めた。<br>　新しい形、新しい秩序の模索が急速に進んでいる今、<br>　新しいトリックスターの出現が望まれ、求められている。<br>　[うんこ]を背骨として、今世紀にも起動する骨太で根の確りした作品で在る事を証明したい。<br>　斬新な発想、奇抜なアイデアに満ちていた、[うんこ]初期の地点まで立ち返り、<br>　今一度、新たな[うんこ]を呼び起こしたい。<br>　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　製作・脚本/ちんちん <br><br>
+<dt><a href="/bbs/read.cgi/game/52968/1308228370/39">39</a> 名前：<font color="#008800"><b>名無しさん </b></font> 投稿日： 2011/08/30(火) 17:43:05 ID:LxUQ8JqY<dd> カーチェイスの場面がとても熱かった。<br>シリアスな場面をぶち壊す魔ーミン達が愉快で良かったぜ。<br> <br>
+<dt><a href="/bbs/read.cgi/game/52968/1308228370/40">40</a> 名前：<font color="#008800"><b>名無しさん </b></font> 投稿日： 2011/09/01(木) 23:49:18 ID:87ULjFO2<dd> 魔ーミンもおぜうも終わりかー寂しくなるなー<br>氏の独特の発想が遺憾なく発揮されてて締めの作品にふさわしい出来だと思う<br>序盤はところどころ挟まるボイスやバトルにドキワクしてたんだけど<br>終盤になると最初のノリからは考えられないほどシリアスになって飽きなかった<br> <br>
+<dt><a href="/bbs/read.cgi/game/52968/1308228370/41">41</a> 名前：<a href="mailto:sage"><b>名無しさん </b></a> 投稿日： 2011/09/02(金) 09:02:26 ID:ZTKybcow<dd> ギャグとシリアスの融合…<br><br>素晴らしい<br> <br>
+<dt><a href="/bbs/read.cgi/game/52968/1308228370/42">42</a> 名前：<font color="#008800"><b>名無しさん </b></font> 投稿日： 2011/09/03(土) 20:08:19 ID:JvqDIRc.<dd> 見事なちんちんワールドを見せてもらった<br>幹部もまだいるみたいだし続編に期待<br>あとロックマンXのBGM好きだね おれもだけど<br> <br>
+<dt><a href="/bbs/read.cgi/game/52968/1308228370/43">43</a> 名前：<font color="#008800"><b>名無しさん </b></font> 投稿日： 2011/09/07(水) 11:46:03 ID:NB7xS.h2<dd> ツッコミどころは多かったけど、楽しめた<br>氏の作品は決して一流じゃあないんだけど、それがいいところだと思う<br> <br>
+<dt><a href="/bbs/read.cgi/game/52968/1308228370/44">44</a> 名前：<font color="#008800"><b>名無しさん </b></font> 投稿日： 2011/09/16(金) 22:02:15 ID:8IaebH2k<dd> 序盤はなんだこれカオスだったけど途中から引きこまれた<br>気がつけば過去作も殆どやってたので色々感慨深いものがあった…<br>ベタだけどやっぱ共闘展開は好きだなぁ、なんというかすごく映画してた<br>おまけのメイキングも色々参考になって面白かったです<br> <br>
+<dt><a href="/bbs/read.cgi/game/52968/1308228370/45">45</a> 名前：<font color="#008800"><b>このB.O.W.は命名されていますん </b></font> 投稿日： 2014/03/30(日) 05:24:16 ID:DYOXKhnQ<dd> な、なあ　これ3作目で合ってるよな・・・！！！？<br> <br>
+<table border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+ <tr valign="top">
+  <td>
+   <form method="POST" action="/bbs/write.cgi/game/52968/1308228370/" name="fcs">
+    <table border="0" cellspacing="0" cellpadding="0">
+     <tr>
+      <td><input type=submit value="書き込む" name="submit"></td>
+      <td>
+ 名前： <input type="text" name="NAME" size"=19">
+ E-mail<font size="1">（省略可）</font>： <input type="text" name="MAIL" size="19">
+      </td>
+     </tr>
+    </table>
+    <textarea rows="5" cols="70" wrap="OFF" name="MESSAGE"></textarea>
+    <input type="hidden" name="DIR" value="game">
+    <input type="hidden" name="BBS" value="52968">
+    <input type="hidden" name="KEY" value="1308228370">
+    <input type="hidden" name="TIME" value="1396124656">
+   </form>
+   <b><font size="3"><a href="/bbs/read.cgi/game/52968/1308228370/">全部読む</a> 
+   <a href="/bbs/read.cgi/game/52968/1308228370/l50">最新50</a> 
+   <a href="/bbs/read.cgi/game/52968/1308228370/-100">1-100</a> 
+   <a href="/bbs/notice_mail.cgi/game/52968/1308228370/">メール受信</a> 
+   <a href="#top">掲示板トップ</a> <a href="./">リロード</a></font></b> 
+  </td>
+ </tr>
+</table>
+</td></tr></dl></table><br><br>
+<a name="7"></a><table border="1" cellspacing="11" cellpadding="2" width="90%" bgcolor="#EFEFEF" align=center><tr><td><dl><table border="0" width="100%"><tr><td> <font size="-1"><a href="#6">▲</a>7<a href="#8">▼</a></font> <b><font size="+1" color="#FF0000">No.89　そして少年は大人になる</font></b> <font size="-1">(Res:43)</font></td><td nowrap align="right"><font size="-1"><a href="/bbs/read.cgi/game/52968/1313325522/">All</a> <a href="/bbs/read.cgi/game/52968/1313325522/-100">First100</a> <a href="/bbs/read.cgi/game/52968/1313325522/l50">Last50</a> <a href="#menu">SubjectList</a> <a href="./">ReLoad</a> <a href="#6">▲</a>7<a href="#8">▼</a></font></td></tr></table>
+<dt><a href="/bbs/read.cgi/game/52968/1313325522/1">1</a> 名前：<font color="#008800"><b><font color=#FF0000>管理人</font> </b></font> 投稿日： 2011/08/14(日) 21:38:42 ID:???<dd> 遅刻確定だけどもうちょっとがんばってみる<br>最終締め切りに間に合わなかったらＳＳのみの参加です<br> <br>完成したら玉露の二軍メンバー＋αが大活躍する、シンボルエンカウントデフォ戦ＲＰＧになる予定です<br> <br>いろんな作品のインスパイア受けまくりな内容です<br> <br>オリキャラとかも出たりします<br> <br>それなりの長さです<br> <br>時間が欲しいです <br><br>
+<dt><a href="/bbs/read.cgi/game/52968/1313325522/37">37</a> 名前：<font color="#008800"><b>名無しさん </b></font> 投稿日： 2011/10/16(日) 01:55:49 ID:SKQ.3gH.<dd> 聖女の聖水ってどこで手に入るんだ？<br>わてりの×××はなんとか見つけられたんだが…<br> <br>
+<dt><a href="/bbs/read.cgi/game/52968/1313325522/38">38</a> 名前：<font color="#008800"><b>名無しさん </b></font> 投稿日： 2011/10/16(日) 08:12:00 ID:MXC7z/NQ<dd> ラスダンとか隠しダンジョンにあったはず<br> <br>
+<dt><a href="/bbs/read.cgi/game/52968/1313325522/39">39</a> 名前：<font color="#008800"><b>名無しさん </b></font> 投稿日： 2011/10/16(日) 15:52:31 ID:SKQ.3gH.<dd> <a href="/bbs/read.cgi/game/52968/1313325522/38" target="_blank">&gt;&gt;38</a><br>ありがとう！<br>テンペラーソードとかも隠しダンジョンとラスダンで手に入るのかな。<br>できればラスダン突入前に隠し合成全部終わらせたいんだけど…<br>とりあえずサブイベ全部終わらせたら隠しダンジョンのほうに突入してみるわ<br> <br>
+<dt><a href="/bbs/read.cgi/game/52968/1313325522/40">40</a> 名前：<a href="mailto:sage"><b>作者さん </b></a> 投稿日： 2011/10/26(水) 23:03:18 ID:oz.6IH1U<dd> 遅くなりましたがみなさん本作のＰＩＡＩ、乙＆ありがとうございました。<br><br><a href="/bbs/read.cgi/game/52968/1313325522/32" target="_blank">&gt;&gt;32</a><br>前にｔｋった作品の反省からいろいろ改善してみましたが<br>いかがだったでしょうか。クリアおめでとうございます！<br><br><a href="/bbs/read.cgi/game/52968/1313325522/33" target="_blank">&gt;&gt;33</a><br>よかった、気づいてもらえたｗ<br>アイテム合成に関してはまだ改善の余地がありそうなので<br>次の課題にします。<br><br><a href="/bbs/read.cgi/game/52968/1313325522/34" target="_blank">&gt;&gt;34</a><br>早く完成させたかったもので。ただ、提出後のパッチ乱発を考えると<br>確かに紅白にまわしたほうがよかったかもしれません。<br><br><font color="#008800">（省略されました・・全てを読むには<a href="/bbs/read.cgi/game/52968/1313325522/40" target="_blank">ここ</a>を押してください）</font><br> <br>
+<dt><a href="/bbs/read.cgi/game/52968/1313325522/41">41</a> 名前：<font color="#008800"><b>名無しさん </b></font> 投稿日： 2012/07/20(金) 21:00:08 ID:H6QKhw9.<dd> 面白かったです！<br>シリアスな玉露や変身少年物が好きなんでドストライクでした。<br>戦闘狂なライスパークや男言葉が混じるブリザルド好きです<br> <br>
+<dt><a href="/bbs/read.cgi/game/52968/1313325522/42">42</a> 名前：<font color="#008800"><b>名無しさん </b></font> 投稿日： 2013/01/12(土) 21:56:19 ID:AiwDXOws<dd> 超長編でわろたｗｗｗｗｗストーリーも最高やった<br>しかし気づいたら半分くらい大和魂物語をプレイしていたでござる……もげろ<br><br>メンバーはほぼ玉露ズでやってたけど終盤の戦闘は難易度やさしめに感じた<br>後半に状態異常防止アイテムを売ってるところってない……よね？<br>仕様かな、リボンがつくれずじまいだった　別になくても問題なかったけども<br> <br>
+<dt><a href="/bbs/read.cgi/game/52968/1313325522/43">43</a> 名前：<font color="#008800"><b>seo thing </b></font> 投稿日： 2013/12/19(木) 21:54:02 ID:W2yQ3RAo<dd> XmARzc Fantastic blog. Keep writing.<br> <br>
+<table border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+ <tr valign="top">
+  <td>
+   <form method="POST" action="/bbs/write.cgi/game/52968/1313325522/" name="fcs">
+    <table border="0" cellspacing="0" cellpadding="0">
+     <tr>
+      <td><input type=submit value="書き込む" name="submit"></td>
+      <td>
+ 名前： <input type="text" name="NAME" size"=19">
+ E-mail<font size="1">（省略可）</font>： <input type="text" name="MAIL" size="19">
+      </td>
+     </tr>
+    </table>
+    <textarea rows="5" cols="70" wrap="OFF" name="MESSAGE"></textarea>
+    <input type="hidden" name="DIR" value="game">
+    <input type="hidden" name="BBS" value="52968">
+    <input type="hidden" name="KEY" value="1313325522">
+    <input type="hidden" name="TIME" value="1387457642">
+   </form>
+   <b><font size="3"><a href="/bbs/read.cgi/game/52968/1313325522/">全部読む</a> 
+   <a href="/bbs/read.cgi/game/52968/1313325522/l50">最新50</a> 
+   <a href="/bbs/read.cgi/game/52968/1313325522/-100">1-100</a> 
+   <a href="/bbs/notice_mail.cgi/game/52968/1313325522/">メール受信</a> 
+   <a href="#top">掲示板トップ</a> <a href="./">リロード</a></font></b> 
+  </td>
+ </tr>
+</table>
+</td></tr></dl></table><br><br>
+<a name="8"></a><table border="1" cellspacing="11" cellpadding="2" width="90%" bgcolor="#EFEFEF" align=center><tr><td><dl><table border="0" width="100%"><tr><td> <font size="-1"><a href="#7">▲</a>8<a href="#9">▼</a></font> <b><font size="+1" color="#FF0000">No.99　隙を見つけながら作った戦闘アニメ</font></b> <font size="-1">(Res:32)</font></td><td nowrap align="right"><font size="-1"><a href="/bbs/read.cgi/game/52968/1313422399/">All</a> <a href="/bbs/read.cgi/game/52968/1313422399/-100">First100</a> <a href="/bbs/read.cgi/game/52968/1313422399/l50">Last50</a> <a href="#menu">SubjectList</a> <a href="./">ReLoad</a> <a href="#7">▲</a>8<a href="#9">▼</a></font></td></tr></table>
+<dt><a href="/bbs/read.cgi/game/52968/1313422399/1">1</a> 名前：<font color="#008800"><b><font color=#FF0000>管理人</font> </b></font> 投稿日： 2011/08/16(火) 00:33:19 ID:???<dd> 隙を見つけながら作った戦闘アニメストッカー使用解説ｋｓｇ＋α<br><br>これはｋｓｇツクラーにとっての新たな光だ！！<br>・クリップボードにコピー＆ペースト・カテゴリー別に戦闘アニメを取っておける・プレビュー機能付き・オプションで、画像ファイルやサウンドファイルも一緒にコピペ出来る！！！こんな感じの機能のあるツールについて解説するｋｓｇとかです。戦闘アニメストッカー付き！ <br><br>
+<dt><a href="/bbs/read.cgi/game/52968/1313422399/26">26</a> 名前：<font color="#008800"><b>へっぽこ作者 </b></font> 投稿日： 2011/09/11(日) 23:09:30 ID:f6X2K2SI<dd> 2003ツクラーの皆様へ<br>戦闘アニメの内、「大きいサイズのグラフィック」を使用したものを、<br>ストッカーにコピペしようとすると、不具合が生じます。<br>近日中に修正したいと思いますので、申し訳ありませんが、<br>御注意のほどをお願いいます。<br><br>「大きいサイズのグラフィック」を使用した戦闘アニメをコピペしない事で回避できます。<br><br><a href="/bbs/read.cgi/game/52968/1313422399/25" target="_blank">&gt;&gt;25</a><br>私の分身スキルが急速に開花したのかとヒヤヒヤ物でしたぜ……<br>むしろ、書き込み大歓迎ですよ！<br> <br>
+<dt><a href="/bbs/read.cgi/game/52968/1313422399/27">27</a> 名前：<font color="#008800"><b>へっぽこ作者 </b></font> 投稿日： 2011/09/13(火) 23:33:54 ID:wHOWyBa2<dd> ttp://ux.getuploader.com/viprpg_summer2011_3/download/29/%E3%82%B9%E3%83%88%E3%83%83%E3%82%AB%E3%83%BC%E4%BF%AE%E6%AD%A31_1_1.zip<br><br>某DSツールも真っ青な解決策を示した後だけれども、修正3回目<br>・RPGツクール2003戦闘アニメのうち、「大きいサイズのグラフィック」、「シェイク」が使用されているものをコピペしようとすると起こる不具合を修正 <br>・Is2003=1の時、「大きいサイズのグラフィック」（Battle2）もコピペ出来るように修正 <br>・プレビュー用標的や、アニメ画像選択時、RTP素材を選択できるように修正<br>・しれっと説明書記載の更新履歴の日付間違いを修正<br><br>exeをすげ替えて使ってやって下さい。<br> <br>
+<dt><a href="/bbs/read.cgi/game/52968/1313422399/28">28</a> 名前：<a href="mailto:sage"><b>名無しさん </b></a> 投稿日： 2011/09/25(日) 16:46:47 ID:ocCLeaB2<dd> これはすごい<br>素材までコピペしてくれるのには感動した<br>ただアニメのプレビュー時に色調変更してるセルの色がおかしくなることがあった（ツクール側に貼りつけてみると正常）のが少し気になった<br> <br>
+<dt><a href="/bbs/read.cgi/game/52968/1313422399/29">29</a> 名前：<font color="#008800"><b>へっぽこ作者 </b></font> 投稿日： 2011/09/29(木) 22:41:01 ID:MjxJ9RGg<dd> <a href="/bbs/read.cgi/game/52968/1313422399/28" target="_blank">&gt;&gt;28</a><br>そこは、私がへっぽこたる所以で、ツクールにおける色調変更の計算式を知らない事が原因です。<br>知らないので、ツクールをいじりながら、推測で計算式を作って、本ツールのプレビュー画面に表示しています。<br>特に、「彩度」がいじられている場合、セルの色が、本ツールでの表示上でおかしくなる事があるかもしれません。<br>よって、現時点ではどうすれば良いか見当がついておりません。申し訳ありません。<br><br>なお、戦闘アニメのデータそのものには影響は無い為、ツクール側では、正常に表示されます。<br> <br>
+<dt><a href="/bbs/read.cgi/game/52968/1313422399/30">30</a> 名前：<font color="#008800"><b>名無しさん </b></font> 投稿日： 2011/11/13(日) 17:48:05 ID:oMDCsdmQ<dd> これはすげぇ<br>さっそく戦闘アニメ集を探して物故抜いてくるぜ<br> <br>
+<dt><a href="/bbs/read.cgi/game/52968/1313422399/31">31</a> 名前：<a href="mailto:sage"><b>名無しさん </b></a> 投稿日： 2013/05/11(土) 16:26:10 ID:An1bEhf.<dd> sugoi<br> <br>
+<dt><a href="/bbs/read.cgi/game/52968/1313422399/32">32</a> 名前：<font color="#008800"><b>名無しさん </b></font> 投稿日： 2013/11/28(木) 11:20:13 ID:0lc.EIng<dd> ツールいつも便利に使わせて頂いてます<br>まだ作者さんここ見てるかわかんないけど、戦闘アニメのプレビューがリスト上でWクリックとか<br>ショートカットキーで出来たら便利だなあと思います<br>いっぱい登録したはいいけど、後からどんなアニメだったか見直す時とかにリストから選択して<br>毎回プレビューボタン押しに行くのが地味にしんどいので、例えば矢印+Pキーで連続して見れたら楽かなと<br>（というかツクール本体にも欲しい機能…）<br>もし簡単そうなら暇な時にでも実装して欲しい…なんて希望アリデス<br>今のままでも十分便利ですけども。ほんとありがたやです<br> <br>
+<table border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+ <tr valign="top">
+  <td>
+   <form method="POST" action="/bbs/write.cgi/game/52968/1313422399/" name="fcs">
+    <table border="0" cellspacing="0" cellpadding="0">
+     <tr>
+      <td><input type=submit value="書き込む" name="submit"></td>
+      <td>
+ 名前： <input type="text" name="NAME" size"=19">
+ E-mail<font size="1">（省略可）</font>： <input type="text" name="MAIL" size="19">
+      </td>
+     </tr>
+    </table>
+    <textarea rows="5" cols="70" wrap="OFF" name="MESSAGE"></textarea>
+    <input type="hidden" name="DIR" value="game">
+    <input type="hidden" name="BBS" value="52968">
+    <input type="hidden" name="KEY" value="1313422399">
+    <input type="hidden" name="TIME" value="1385605213">
+   </form>
+   <b><font size="3"><a href="/bbs/read.cgi/game/52968/1313422399/">全部読む</a> 
+   <a href="/bbs/read.cgi/game/52968/1313422399/l50">最新50</a> 
+   <a href="/bbs/read.cgi/game/52968/1313422399/-100">1-100</a> 
+   <a href="/bbs/notice_mail.cgi/game/52968/1313422399/">メール受信</a> 
+   <a href="#top">掲示板トップ</a> <a href="./">リロード</a></font></b> 
+  </td>
+ </tr>
+</table>
+</td></tr></dl></table><br><br>
+<a name="9"></a><table border="1" cellspacing="11" cellpadding="2" width="90%" bgcolor="#EFEFEF" align=center><tr><td><dl><table border="0" width="100%"><tr><td> <font size="-1"><a href="#8">▲</a>9<a href="#10">▼</a></font> <b><font size="+1" color="#FF0000">No.75　ちょこれーとあうと　〜GameOfYear〜</font></b> <font size="-1">(Res:35)</font></td><td nowrap align="right"><font size="-1"><a href="/bbs/read.cgi/game/52968/1312627917/">All</a> <a href="/bbs/read.cgi/game/52968/1312627917/-100">First100</a> <a href="/bbs/read.cgi/game/52968/1312627917/l50">Last50</a> <a href="#menu">SubjectList</a> <a href="./">ReLoad</a> <a href="#8">▲</a>9<a href="#10">▼</a></font></td></tr></table>
+<dt><a href="/bbs/read.cgi/game/52968/1312627917/1">1</a> 名前：<font color="#008800"><b></b> ◆y249jMmqxU<b> </b></font> 投稿日： 2011/08/06(土) 19:51:57 ID:aPmRdweU<dd> 今回は　ＧＷで間に合わなかった　アレックスルートの追加と一部キャラを追加し<br>一部のミニゲームを実装した早い話　追加コンテンツ版という形になります。<br>さらに一部キャラも追加で学生の生活感が一層充実しているんじゃないかと思います。<br>↑のＳＳ追加要素の紹介です。<br><br><br>※本体の互換性はありませんので　１から落とし直しでお願いします　本当にごめんなさい。<br>一応ブライアンルートは完成して　ブログやGWの感想版にてその辺までの更新は完了済みです。 <br><br>
+<dt><a href="/bbs/read.cgi/game/52968/1312627917/29">29</a> 名前：<font color="#008800"><b>名無しさん </b></font> 投稿日： 2011/10/04(火) 20:42:05 ID:p9ZlkBk6<dd> 五世に話しかけて偽五世と仲良くなるのと<br>アリサに話しかけてザックと仲良くなるのって何か意味あるの？<br>偽五世もザックも仲間にはならないし敵でも出ないやん。<br>あと、サモン強すぎ。ＨＰめちゃめちゃあるやん。魔王よりつええ<br> <br>
+<dt><a href="/bbs/read.cgi/game/52968/1312627917/30">30</a> 名前：<font color="#008800"><b>名無しさん </b></font> 投稿日： 2011/10/10(月) 15:28:43 ID:K7lkD0iU<dd> 前作から待ってようやくアレックスを攻略<br>彼女候補を半分殺した後にめんどくさくなって親衛隊撃破に方針変更<br><br>普通にチョコ作りとSATSUJINに明け暮れてたらクリアできました<br> <br>
+<dt><a href="/bbs/read.cgi/game/52968/1312627917/31">31</a> 名前：<a href="mailto:sage"><b>名無しさん </b></a> 投稿日： 2011/10/19(水) 03:24:09 ID:s9kfp37E<dd> <a href="/bbs/read.cgi/game/52968/1312627917/29" target="_blank">&gt;&gt;29</a><br>普通に話し続けてたら偽五は仲間になったぞ<br> <br>
+<dt><a href="/bbs/read.cgi/game/52968/1312627917/32">32</a> 名前：<font color="#008800"><b>名無しさん </b></font> 投稿日： 2011/11/03(木) 22:58:15 ID:OH4DDHVM<dd> 八方美人の事なかれプレイでアレックスクリア<br>それっぽい選択股選んでたら初見でクリアできたよ<br>面白かったけどちょい薄味ね<br>フリーシナリオ系は周回プレイ前提だからあっさり行くときはあっさりで終わるのはちょっと残念<br> <br>
+<dt><a href="/bbs/read.cgi/game/52968/1312627917/33">33</a> 名前：<a href="mailto:sage"><b>名無しさん </b></a> 投稿日： 2011/11/17(木) 19:26:48 ID:ka/cas7M<dd> <a href="/bbs/read.cgi/game/52968/1312627917/27" target="_blank">&gt;&gt;27</a><br><br>&gt;おかしな点は魔王様仲間にして娘様倒せるし、五世仲間にしてダーエロ倒せるし、<br>ダーエロ倒したあともバレンタイン当日になぜかダーエロ生きてるし。<br>パーティになれば殺戮に喜々として参加してしまう仲間はおかしい。<br><br><br>とあるキャラをSATSUGAIしてみればその謎は解けるさ<br> <br>
+<dt><a href="/bbs/read.cgi/game/52968/1312627917/34">34</a> 名前：<font color="#008800"><b>名無しさん </b></font> 投稿日： 2012/12/28(金) 22:11:19 ID:JJi0xe1M<dd> おもしろかったよー、キャラスケジュールにちょっと偏りがあるかなと思った<br>ぶっちゃけちょこれーとはあんまり関係なかったでござる……<br> <br>
+<dt><a href="/bbs/read.cgi/game/52968/1312627917/35">35</a> 名前：<a href="mailto:alcocailm@gmail.com"><b>tottplask </b></a> 投稿日： 2013/08/16(金) 11:30:26 ID:d895UkBQ<dd> あなた自身がより頻繁にしないよりも靴を履いて見つけることができアシックス靴の中毒です。 アシックスの異なるモデルはそれについて明確なユニークなものを持っている。 これらの靴の色異なるUggのスタイル<br><br>あなたは、第一次世界大戦のパイロットやサーファーが同意することができ、多くのことを見つけることができない - そのUggのブーツは、あなたの足の上に置くことができ暖かいものの一つであることを除いて無数の攻撃がトップにヒットされていますが全長種族ミッドソールを持っています。 神戸の名前は舌の上でマークされており&lt;a href=&quot;6688paimiao.com&quot; title=&quot;www.6688paimiao.com&quot;&gt;www.6688paimiao.com&lt;/a&gt;と云う説があるが、それはほんとうらしい嘘だ。作の力、生命などと云うものは素人にもわかる。だからトルストイやドストエフスキイの翻訳が売れるのだ。ほんとうの批評家にしか分らなければ、どこの新劇団でもストリンドベルクやイブセンをやりはしない。作の力、生命を掴むばかりでなく、技巧と内容との微妙な関係に一隻眼を有するものが、始めてほんとうの批評家になれるのだ。江口の批評家としての強味は、この微妙な関係を直覚出来る点に存していると思う。これは何でもない事のようだが、存外今の批評家に欠乏している強味なのだ。<br>　最後に創作家としての江口は、大体として人間的興味を中心とした、心理よりも寧ろ事件を描く傾向があるようだ。「馬丁 このシーズンは、あなたの方法来るとジミーチュウの署名スタイリングと共同でUGGオーストラリアが立ち上げた一番ホットなデザイナーのコレクションですyouhuiw88.com 女性のバーバリーのハンドバッグをフィーチャーレディースバーバリーは、世界中の多国籍およびマルチジェンダーのコミュニティの間で共振し、強力な国際的な尊敬を維持区別英国の感性を持つ高級ブランドです&lt;a href=&quot;5885w.com&quot; title=&quot;www.5885w.com&quot;&gt;www.5885w.com&lt;/a&gt;種を蒔（ま）かず、其が第一為でござるよ。<br>老いたる法師　それには何か仔細（しさい）でもござるかな？<br>五位しかし迫害が烈しいだけに、「万事にかない給うおん主（あるじ）」も、その頃は一層この国の宗徒（しゅうと）に、あらたかな御加護（おんかご）を加えられたらしい&lt;a href=&quot;7949pt.com&quot; title=&quot;www.7949pt.com&quot;&gt;www.7949pt.com&lt;/a&gt; したがって、靴、オーストラリアUggのブーツの魅力と生活のための任意の維持費は、それだけの価値がありますacquaintance-yukata.com 読書、勉強や練習ではナレッジベースの試験を通過できるようにする3つの方法があります各種の方法で環境に順応させることができます。 agitativeとアクティブな赤&lt;a href=&quot;uo173.com&quot; title=&quot;www.uo173.com&quot;&gt;www.uo173.com&lt;/a&gt;男性のようにヨルダンニュー*スクールはと落し、私足下（あしもと）に手をつき候うて、何や&lt;a href=&quot;1513pg.com&quot; title=&quot;www.1513pg.com&quot;&gt;www.1513pg.com&lt;/a&gt;huanxop.com<br> <br>
+<table border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+ <tr valign="top">
+  <td>
+   <form method="POST" action="/bbs/write.cgi/game/52968/1312627917/" name="fcs">
+    <table border="0" cellspacing="0" cellpadding="0">
+     <tr>
+      <td><input type=submit value="書き込む" name="submit"></td>
+      <td>
+ 名前： <input type="text" name="NAME" size"=19">
+ E-mail<font size="1">（省略可）</font>： <input type="text" name="MAIL" size="19">
+      </td>
+     </tr>
+    </table>
+    <textarea rows="5" cols="70" wrap="OFF" name="MESSAGE"></textarea>
+    <input type="hidden" name="DIR" value="game">
+    <input type="hidden" name="BBS" value="52968">
+    <input type="hidden" name="KEY" value="1312627917">
+    <input type="hidden" name="TIME" value="1376620230">
+   </form>
+   <b><font size="3"><a href="/bbs/read.cgi/game/52968/1312627917/">全部読む</a> 
+   <a href="/bbs/read.cgi/game/52968/1312627917/l50">最新50</a> 
+   <a href="/bbs/read.cgi/game/52968/1312627917/-100">1-100</a> 
+   <a href="/bbs/notice_mail.cgi/game/52968/1312627917/">メール受信</a> 
+   <a href="#top">掲示板トップ</a> <a href="./">リロード</a></font></b> 
+  </td>
+ </tr>
+</table>
+</td></tr></dl></table><br><br>
+<a name="10"></a><table border="1" cellspacing="11" cellpadding="2" width="90%" bgcolor="#EFEFEF" align=center><tr><td><dl><table border="0" width="100%"><tr><td> <font size="-1"><a href="#9">▲</a>10<a href="#1">▼</a></font> <b><font size="+1" color="#FF0000">No.64　チーターエンリュウ</font></b> <font size="-1">(Res:28)</font></td><td nowrap align="right"><font size="-1"><a href="/bbs/read.cgi/game/52968/1312197534/">All</a> <a href="/bbs/read.cgi/game/52968/1312197534/-100">First100</a> <a href="/bbs/read.cgi/game/52968/1312197534/l50">Last50</a> <a href="#menu">SubjectList</a> <a href="./">ReLoad</a> <a href="#9">▲</a>10<a href="#1">▼</a></font></td></tr></table>
+<dt><a href="/bbs/read.cgi/game/52968/1312197534/1">1</a> 名前：<font color="#008800"><b></b> ◆y249jMmqxU<b> </b></font> 投稿日： 2011/08/01(月) 20:18:54 ID:VTVTlDt6<dd> わかると思いますが、初参です。<br>このゲーム…、他のRPG制作中にミニケ゛ームを作ろうと考えて、<br>適当にイベントを打ち込んだ結果がこれだよ！<br>せっかくだから、ここで活用させてもらうことに。<br>でも…、この動き…。確かあの伝説のksgに似てなくね？似てないかｗ<br>ということで、このタイトルに至った。<br>難易度設定が可能で、<br>×ヌルゲー○ksgから、作者でも攻略不能の難易度まで用意しています。<br>是非ksg再現のksgをお楽しみください。 <br><br>
+<dt><a href="/bbs/read.cgi/game/52968/1312197534/22">22</a> 名前：<a href="mailto:sage"><b>名無しさん </b></a> 投稿日： 2011/08/27(土) 22:51:56 ID:AI.SuIxY<dd> イージーでようやくクリアしました<br>操作に慣れるのが大変だったです<br>ブライアンうざすぎｗ<br> <br>
+<dt><a href="/bbs/read.cgi/game/52968/1312197534/23">23</a> 名前：<font color="#008800"><b>作者 </b></font> 投稿日： 2011/08/28(日) 00:49:55 ID:xz4hofbw<dd> <a href="/bbs/read.cgi/game/52968/1312197534/22" target="_blank">&gt;&gt;22</a><br>プレイありがとうございます＆クリアおめでとうございます。<br>ちゃんと100回グリグリして、葬ってやってくれたみたいですねｗ<br><br>作者『(ｽﾄｰﾘｰ思いうかばねぇ→適当にうざく喋らせよう→完成ww)』<br><br>機会がございましたら、更なる難易度にも挑んでください！<br> <br>
+<dt><a href="/bbs/read.cgi/game/52968/1312197534/24">24</a> 名前：<font color="#008800"><b>作者 </b></font> 投稿日： 2011/09/05(月) 17:01:29 ID:zsy5v1PU<dd> いろいろと酷評につき、大幅修正。<br>とりあえず、<br>ﾀﾋんだらステージの最初から継続可能。(EX、FINAL除く)<br>自爆廃止。<br>４面リフト挙動修正。(再稼働させるイベントを設置)<br>説明時の時間停止。<br>以上４点大きく仕様変更しました。<br>ただし、定期処理するコモンイベントをいくつか追加したため、<br>ゲーム動作が若干重くなったかもしれません。<br>修正版でバグが発見された場合は、速やかに掲示板へご報告ください。<br>１日１回は、目を通す様にします。<br> <br>
+<dt><a href="/bbs/read.cgi/game/52968/1312197534/25">25</a> 名前：<font color="#008800"><b>名無しさん </b></font> 投稿日： 2011/11/04(金) 09:34:45 ID:hAOeKfoY<dd> とりあえずハードまでクリアー<br>ステージリトライが追加されたからかプレイしやすかったねー<br>ｳｻﾞｲｱﾝ固すぎﾜﾛｽｗ<br> <br>
+<dt><a href="/bbs/read.cgi/game/52968/1312197534/26">26</a> 名前：<font color="#008800"><b>作者 </b></font> 投稿日： 2011/11/22(火) 01:12:03 ID:td2GB4HA<dd> <a href="/bbs/read.cgi/game/52968/1312197534/25" target="_blank">&gt;&gt;25</a><br>プレイありがとうございます＆クリアおめでとうございます。<br>嬉しいばかりのコメントです。次回作へのバネになります！<br>ありがとうございました。<br><br><br>…次の課題はｳｻﾞｲｱﾝか。←な訳あるかｗ<br> <br>
+<dt><a href="/bbs/read.cgi/game/52968/1312197534/27">27</a> 名前：<font color="#008800"><b>名無しさん </b></font> 投稿日： 2012/12/14(金) 18:55:49 ID:xuNjLX9I<dd> 下キーの効きがよすぎる気がした<br> <br>
+<dt><a href="/bbs/read.cgi/game/52968/1312197534/28">28</a> 名前：<font color="#008800"><b>作者 </b></font> 投稿日： 2013/07/31(水) 02:10:11 ID:0CmKk8YE<dd> <a href="/bbs/read.cgi/game/52968/1312197534/27" target="_blank">&gt;&gt;27</a><br>プレイありがとうございます。<br>参考にさせていただきます。<br>次回、このシステムを使った物をtkる機会があれば<br>ウェイトを長めにしておきます。<br> <br>
+<table border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+ <tr valign="top">
+  <td>
+   <form method="POST" action="/bbs/write.cgi/game/52968/1312197534/" name="fcs">
+    <table border="0" cellspacing="0" cellpadding="0">
+     <tr>
+      <td><input type=submit value="書き込む" name="submit"></td>
+      <td>
+ 名前： <input type="text" name="NAME" size"=19">
+ E-mail<font size="1">（省略可）</font>： <input type="text" name="MAIL" size="19">
+      </td>
+     </tr>
+    </table>
+    <textarea rows="5" cols="70" wrap="OFF" name="MESSAGE"></textarea>
+    <input type="hidden" name="DIR" value="game">
+    <input type="hidden" name="BBS" value="52968">
+    <input type="hidden" name="KEY" value="1312197534">
+    <input type="hidden" name="TIME" value="1375204212">
+   </form>
+   <b><font size="3"><a href="/bbs/read.cgi/game/52968/1312197534/">全部読む</a> 
+   <a href="/bbs/read.cgi/game/52968/1312197534/l50">最新50</a> 
+   <a href="/bbs/read.cgi/game/52968/1312197534/-100">1-100</a> 
+   <a href="/bbs/notice_mail.cgi/game/52968/1312197534/">メール受信</a> 
+   <a href="#top">掲示板トップ</a> <a href="./">リロード</a></font></b> 
+  </td>
+ </tr>
+</table>
+</td></tr></dl></table><br><br>
+<center>
+  <div id="jbbs_footerWrapper">
+    <div id="jbbs_footerOuter">
+      <div id="jbbs_footerInner">
+        <div id="jbbs_footer">
+          <table width="90%">
+            <tr>
+              <td valign="middle" width="130" nowrap>
+                <small>
+                  <a rel="nofollow" target="_blank"
+                     href="https://rentalbbs.shitaraba.com/jbbs/user_inquiry/?dir=game&amp;bbs=52968">
+                    掲示板管理者へ連絡
+                  </a>
+                </small>
+                <br>
+                [00058931]
+              </td>
+              <td width="118">
+              </td>
+              <td align="right">
+                <form method="GET" action="https://cms.jbbs.shitaraba.net/game/52968/config/">
+                  <input type="submit" value="管理者メニュー">
+                </form>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</center>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154728857-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-154728857-2');
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EZ8JYXNLDB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EZ8JYXNLDB');
+</script>
+
+
+    	<script>
+    		function convertShitarabaImgLinks() {
+    			var alllinks = document.querySelectorAll('a');
+    			for(var i = 0;i < alllinks.length; i++) {
+    				var linkurl = alllinks[i].getAttribute("href");
+            if(linkurl !== null) {
+      				if(linkurl.indexOf("https://img.shitaraba.net/") != -1) {
+      					var source = '<img class="lazyload pc_res_image_lazy" data-src="' +  linkurl +'" />';
+      					alllinks[i].innerHTML = source;
+      				} else if(linkurl.indexOf("https://i.postimg.cc/") != -1) {
+                console.log(linkurl);
+                var source = '<img class="lazyload pc_res_image_lazy" data-src="' +  linkurl +'" /><br>' + linkurl;
+                alllinks[i].innerHTML = source;
+              }
+            }
+    			}
+    		}
+    		convertShitarabaImgLinks();
+
+    	</script>
+      <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.min.js"></script>
+      <script>
+          lazyload();
+      </script>
+      <style>
+      .pc_res_image_lazy {
+        width: 400px;
+        max-width: 400px;
+      }
+      </style>
+      	<script>
+      		function convertShitarabaYoutubeLinks() {
+      			var alllinks = document.querySelectorAll('a');
+      			for(var i=0 ; i < alllinks.length; i++) {
+      				var linkurl = alllinks[i].getAttribute("href");
+              if(linkurl !== null) {
+        				if(linkurl.indexOf("/bbs/link.cgi?url=") != -1) {
+                  var queries  = linkurl.slice(linkurl.indexOf('?') + 1).split("=");
+                  var link = "";
+                  if(queries[0] == "url") {
+                    link = decodeURIComponent(queries[1]);
+                  }
+                  if(link.indexOf("https://www.youtube.com") != -1 || link.indexOf("http://www.youtube.com") != -1 || link.indexOf("https://youtu.be") != -1) {
+                    var youtubeIframe = link.replace(/(?:https:\/\/|http:\/\/)?(?:www\.)?(?:youtube\.com|youtu\.be)\/(?:watch\?v=)?(.+)/g, '<div class="strb_youtube"><div class="strb_youtube_iframe"><iframe width="560" height="315" src="https://www.youtube.com/embed/$1" frameborder="0" allowfullscreen></iframe></div></div>');
+                    alllinks[i].outerHTML = youtubeIframe;
+                  }
+                } else {
+                  if(linkurl.indexOf("https://www.youtube.com") != -1 || linkurl.indexOf("http://www.youtube.com") != -1 || linkurl.indexOf("https://youtu.be") != -1) {
+                    var youtubeIframe = linkurl.replace(/(?:https:\/\/|http:\/\/)?(?:www\.)?(?:youtube\.com|youtu\.be)\/(?:watch\?v=)?(.+)/g, '<div class="strb_youtube"><div class="strb_youtube_iframe"><iframe width="560" height="315" src="https://www.youtube.com/embed/$1" frameborder="0" allowfullscreen></iframe></div></div>');
+                    alllinks[i].outerHTML = youtubeIframe;
+                  }
+                }
+              }
+      			}
+      		}
+      		convertShitarabaYoutubeLinks();
+
+      	</script>
+        <style>
+        .strb_youtube {
+          width:100%;
+          max-width:560px;
+        }
+
+        .strb_youtube_iframe {
+          position: relative;
+          width: 100%;
+          padding-top: 56.25%;
+          margin-bottom:50px;
+        }
+        .strb_youtube_iframe iframe {
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 100%;
+          height: 100%;
+        }
+        </style>
+</body></html>

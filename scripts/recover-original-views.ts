@@ -8,6 +8,13 @@ import type { WorkEntry } from "../src/lib/types";
 import { rewriteSummer2012Source } from "./source-2012-summer-view";
 
 const configurations: Record<string, { base: string; entry?: string; manifests: string[]; seeds: Record<string, string>; seedUrls?: Record<string, string>; cgiProfile?: boolean; encoding?: string; liveSource?: boolean; disabledLocalLinks?: string[]; externalResources?: Record<string, string>; frames?: { menuPage: string; menuName: string; mainName: string } }> = {
+  "2011-summer": {
+    base: "http://www.geocities.jp/viprpg_summer11/",
+    entry: "index.htm",
+    manifests: ["source/original/manifest.json"],
+    seeds: { "index.htm": "investigation/original-index.bin" },
+    encoding: "euc-jp",
+  },
   "2011-kouhaku": {
     base: "http://vipkohaku2011.web.fc2.com/",
     manifests: ["source/recovery/manifest.json", "source/linked/manifest.json"],
@@ -280,6 +287,35 @@ async function main() {
       if (/\.(?:png|jpe?g|gif|bmp|webp|ico)$/i.test(local)) imageExtension(bytes);
       if (/\.html?$/i.test(local)) {
         const $ = cheerio.load(decodeSource(bytes, encoding));
+        if (id === "2011-summer" && local.startsWith("sub/")) {
+          $('link[rel*=ICON][href="picture/favicon.ico"],link[rel*=icon][href="picture/favicon.ico"]').attr("href", "../picture/favicon.ico");
+          compatibilityFixes.push({ page: local, change: "Resolve the subsidiary page's template favicon against the original main catalogue's shared picture directory." });
+        }
+        if (id === "2011-summer" && local === "index.htm") {
+          for (const gap of recovery.catalogueSlotRepairs ?? []) {
+            const work = catalogue.find((w) => w.no === gap.no), a = $('a[href]').filter((_, e) => $(e).attr("href") === gap.sourcePath).first();
+            if (!work || !a.length) continue;
+            const row = a.closest("tr").attr("data-archive-catalogue-recovered", work.no!), cells = row.children();
+            a.text(gap.sourceCatalogueTitle || work.title).attr({ href: `${gap.sharedSourcePath}#archive-entry-${work.no}`, title: "原一覧の空欄を60の陣の原一覧に基づいて補記し、実際の共用紹介ページへ接続。" }).after('<small>［編纂補記］</small>');
+            cells.eq(3).text(work.source?.authorOmitted ? "未記載" : work.author);
+            cells.eq(4).text(work.category || "未記載"); cells.eq(5).text(work.engine || "未記載");
+            if (work.forum) cells.eq(8).find("a").attr("href", work.forum).text("掲示板（60の陣のリンク）");
+            compatibilityFixes.push({ page: local, change: `Restore catalogue slot No.${work.no} from the original 60-no-jin catalogue and link its actual shared introduction column; label the repair explicitly.` });
+          }
+        }
+        if (id === "2011-summer" && local === recovery.sharedIntroduction?.sourceDetail) {
+          const headings = $("table").first().children("tbody").children("tr").first().children();
+          for (const member of recovery.sharedIntroduction.members) headings.eq(member.column).attr("id", `archive-entry-${member.no}`);
+          compatibilityFixes.push({ page: local, change: "Retain the complete six-column source introduction; add scoped fragment anchors for the numbered works assigned by the original subsidiary catalogue." });
+        }
+        if (id === "2011-summer" && local === "sub/60nojin.htm") {
+          $('a[href="entry/entry0.htm"]').attr("href", "../entry/entry0.htm");
+          $("table").first().children("tbody").children("tr").each((_, tr) => {
+            const no = $(tr).children().eq(1).text().trim();
+            if (recovery.sharedIntroduction.members.some((m: { no: string }) => m.no === no)) $(tr).find('a[href="../entry/entry60.htm"]').attr("href", `../entry/entry60.htm#archive-entry-${no}`);
+          });
+          compatibilityFixes.push({ page: local, change: "Repair the template's sample link against the main source catalogue and focus each entry's actual shared introduction column." });
+        }
         if (id === "2011-kouhaku") {
           $("noscript").remove();
           $("script").filter((_, e) => /TWTR\.Widget|twttr/.test($(e).html() || "")).remove();

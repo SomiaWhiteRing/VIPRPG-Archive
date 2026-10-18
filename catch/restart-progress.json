@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2011-summer",
+  "activeFestival": "2011-toppatsu-festival",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -533,6 +533,33 @@
         "catch/2011-kouhaku/replay-review.json"
       ],
       "notes": "恢复 98 个原介绍页，补回 No.000 示例；98 个题名、392 个作者／工具／类型／配信字段、196 份留言、93 条图标引用、49 张截图、3 张横幅、122 个历史本体／修正入口及 97 个讨论帖已逐项核对。公开保管库的 85 个 ZIP 文件名对应 76 部作品，另保留 No.087 补充文件的实际配布地址；未下载或检查游戏包。原貌 264 个文件，保留底部菜单、目录和悬停图片切换。90 个作品图片地址与 16 个辅助资源／链接仍列为待查缺口，原貌明确显示未取得提示；未新增内容筛选或受限标记。278 个图片路径解码、207 个页面地址、两种桌面宽度及 654 路径离线重放通过。"
+    },
+    {
+      "festivalId": "2011-summer",
+      "reviewedAt": "2026-10-18",
+      "dataSha256": "e4f756254f1373bab8193876894ab24bc2c31398b98161203ce545d90981b301",
+      "works": 108,
+      "screenshotFiles": 120,
+      "status": "reviewed",
+      "sourceEvidence": [
+        "catch/2011-summer/recovery.json",
+        "catch/2011-summer/source-comparison.json",
+        "catch/2011-summer/investigation/shared-introduction-map.json",
+        "catch/2011-summer/investigation/established-title-review.json",
+        "catch/2011-summer/image-decode-review.json",
+        "catch/2011-summer/local-resource-review.json"
+      ],
+      "desktopEvidence": [
+        "catch/2011-summer/formatted-desktop-review.json",
+        "catch/2011-summer/original-desktop-review.json",
+        "catch/2011-summer/hover-desktop-review.json",
+        "catch/2011-summer/gallery-desktop-review.json",
+        "catch/2011-summer/catalogue-desktop-review.json",
+        "catch/2011-summer/final-download-desktop-review.json",
+        "catch/2011-summer/replay-review.json"
+      ],
+      "notes": "恢复 No.0 示例及 107 个正式编号的介绍记录，共 108 条；103 个原介绍页中的共用六列表按「60の陣」原始编号、作者、类型与工具唯一对应，补回主目录的 5 个空行及 No.81 题名。432 个字段、216 份留言、107 条图标引用、121 条展示／悬停截图引用（120 个文件）和 1 张横幅已核对。49 个因连接失败未取到的有效存档图片全部重试补齐；3 处题名乱码获原站与官方讨论标题确认修正，No.62 等题名差异保留两种来源。183 个历史下载入口及公开保管库中对应 82 部作品的 83 个文件名已核对；No.78 原页 ZIP 保存原字节，未解包或运行。原貌 291 个文件无资源缺口，保留共用宽表与可定位列锚点、迟到目录及切图；363 个图片路径、215 个页面地址、双桌面宽度与 836 路径离线重放通过。",
+      "screenshotReferences": 121
     }
   ],
   "originalViewsReviewed": [
@@ -662,6 +689,14 @@
         "catch/2011-kouhaku/original-view.json",
         "catch/2011-kouhaku/original-desktop-review.json",
         "catch/2011-kouhaku/hover-desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2011-summer",
+      "evidence": [
+        "catch/2011-summer/original-view.json",
+        "catch/2011-summer/original-desktop-review.json",
+        "catch/2011-summer/hover-desktop-review.json"
       ]
     }
   ],
