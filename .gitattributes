@@ -7,4 +7,5 @@
 
 # Raw capture payloads are data, not reviewable source diffs.
 /catch/**/*.bin -diff
+/catch/**/source/** -diff
 /public/original-pages/** -diff
