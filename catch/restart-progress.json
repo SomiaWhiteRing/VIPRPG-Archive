@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2010-summer",
+  "activeFestival": "2009-gw",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -631,6 +631,34 @@
         "catch/2010-kouhaku/original-view.json"
       ],
       "notes": "103 detail pages were captured directly; all 103 source screenshots match by SHA-256, and 37 icons were updated from direct captures. The original view contains 476 local files with no missing references. Five cross-site banner resources have exact archived captures. No item content was manually reviewed and no restriction marker was added."
+    },
+    {
+      "festivalId": "2010-summer",
+      "reviewedAt": "2026-10-18",
+      "dataSha256": "37b4d143c0c50b84f18d601c529b5df71304ed7639de8e4f23b5ec70a08c5642",
+      "works": 90,
+      "screenshotFiles": 6,
+      "screenshotReferences": 6,
+      "status": "reviewed-with-documented-source-gaps",
+      "outstandingSourceDetails": 4,
+      "outstandingImageSourceUrls": 91,
+      "sourceOnlyArchiveDetails": 6,
+      "sourceEvidence": [
+        "catch/2010-summer/recovery.json",
+        "catch/2010-summer/source-comparison.json",
+        "catch/2010-summer/source/archive/manifest.json",
+        "catch/2010-summer/investigation/site-cdx.json",
+        "catch/2010-summer/investigation/archive-capture-plan.json",
+        "catch/2010-summer/investigation/archive-capture-log.json",
+        "catch/2010-summer/investigation/resource-inventory.json",
+        "catch/2010-summer/investigation/index-structure.json",
+        "catch/2010-summer/original-view.json"
+      ],
+      "desktopEvidence": [
+        "catch/2010-summer/desktop-review.json",
+        "catch/2010-summer/original-view.json"
+      ],
+      "notes": "The Japan-node direct source attempts failed at the host connection; 92 detail pages from the Hong Kong Wayback prefix were captured. 86 map to existing WorkEntries and were restored; 4 existing catalogue IDs have no captured detail snapshot, while 6 archived detail IDs have no existing WorkEntry and remain accessible only in original view. The 91 uncaptured image references use neutral placeholders. No item content was manually reviewed and no restriction marker was added."
     }
   ],
   "originalViewsReviewed": [
@@ -790,6 +818,13 @@
       "evidence": [
         "catch/2010-kouhaku/original-view.json",
         "catch/2010-kouhaku/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2010-summer",
+      "evidence": [
+        "catch/2010-summer/original-view.json",
+        "catch/2010-summer/desktop-review.json"
       ]
     }
   ],

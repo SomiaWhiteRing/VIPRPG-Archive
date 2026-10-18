@@ -66,6 +66,13 @@ const configurations: Record<string, { base: string; entry?: string; manifests: 
     encoding: "shift_jis", liveSource: true,
     frames: { menuPage: "menu_top.html", menuName: "menu", mainName: "main" },
   },
+  "2010-summer": {
+    base: "https://vipkohaku.x.fc2.com/2010s/",
+    entry: "index.html",
+    manifests: ["source/archive/manifest.json"],
+    seeds: { "index.html": "source/archive/index.html.bin" },
+    encoding: "shift_jis",
+  },
   "2012-summer": {
     base: "http://viprpgtkool.web.fc2.com/2012summer/",
     manifests: ["source/recovery/manifest.json"],
@@ -185,7 +192,7 @@ async function main() {
   const compatibilityFixes: Array<{ page: string; change: string }> = [];
   const omittedCssResources: Array<{ originalUrl: string; status: number }> = [];
   const recovery = JSON.parse(await fs.readFile(`${root}/recovery.json`, "utf8"));
-  if (id === "2012-toppuu-festival" || id === "2011-toppatsu-festival" || id === "2010-gw" || id === "2010-kouhaku") config.externalResources = recovery.originalResources;
+  if (id === "2012-toppuu-festival" || id === "2011-toppatsu-festival" || id === "2010-gw" || id === "2010-kouhaku" || id === "2010-summer") config.externalResources = recovery.originalResources;
   const sourceDetailGapPaths = new Set<string>((recovery.sourceDetailGaps ?? []).map((gap: { sourcePath: string }) => gap.sourcePath));
   const previousMissing: Array<{ url: string; requestedUrl?: string; error: string }> = JSON.parse(await fs.readFile(`${root}/original-view.json`, "utf8").catch(() => "{}")).missingResources ?? [];
   const restrictions: Array<{ no: string; sourcePath: string; resources: Array<{ path: string; kind: string }>; relatedUrls?: string[] }> = recovery.contentRestrictions ?? [];
@@ -669,6 +676,12 @@ async function main() {
         compatibilityFixes.push({ page: local, change: `Replace the broken image ${resource} with a fixed missing-source notice, without invented artwork.` });
       }
     });
+    if (id === "2010-summer") $("img[src]").each((_, element) => {
+      const node = $(element), resource = relative(new URL(node.attr("src")!, new URL(local, base)).href);
+      if (!resource || !unavailable.has(resource)) return;
+      node.replaceWith('<span class="archive-missing-image">［原資料の画像は未取得です］</span>');
+      compatibilityFixes.push({ page: local, change: `Replace the uncaptured source image ${resource} with a neutral missing-source notice.` });
+    });
     if (id === "2010-gw") $("img[src]").each((_, element) => {
       const node = $(element), resource = relative(new URL(node.attr("src")!, new URL(local, base)).href);
       if (!resource || !unavailable.has(resource)) return;
@@ -695,7 +708,7 @@ async function main() {
         compatibilityFixes.push({ page: local, change: "Omit an unavailable stylesheet or favicon reference; the source inline styling remains in place and the missing resource stays documented." });
       }
     });
-    if (["2010-gw", "2012-kouhaku", "2011-gw", "2011-kouhaku"].includes(id) || [...omittedBackgrounds, ...omittedHovers].some((omission) => omission.page === local)) files.set(local, Buffer.from($.html()));
+    if (["2010-gw", "2012-kouhaku", "2011-gw", "2011-kouhaku", "2010-summer"].includes(id) || [...omittedBackgrounds, ...omittedHovers].some((omission) => omission.page === local)) files.set(local, Buffer.from($.html()));
   }
   const generatedUnavailablePages: string[] = [];
   if (id === "2011-gw" || id === "2010-gw") for (const gap of recovery.sourceDetailGaps ?? []) {
