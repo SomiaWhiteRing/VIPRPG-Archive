@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2009-silver-week-miruge-festival",
+  "activeFestival": "2009-summer",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -772,6 +772,34 @@
         "catch/2009-ksgfestival/original-view.json"
       ],
       "notes": "日本节点下的源站首页与 30 个详情页请求均失败；香港节点 Wayback 保存了 2019 与 2023 两份目录页，但详情前缀 CDX 无记录。目录 30 行按编号映射到 30 条现有记录，保存为来源片段并启用详情骨架；原貌版为缺失详情生成中性说明页。保留现有 27 个下载 URL；目录无截图链接、无横幅。未审看条目内容，也未新增受限标记。"
+    },
+    {
+      "festivalId": "2009-silver-week-miruge-festival",
+      "reviewedAt": "2026-10-18",
+      "dataSha256": "85b3a9d5f56424daa909fc7a127c5e6508f7d3a956ae126e39b847036443d559",
+      "works": 32,
+      "screenshotFiles": 14,
+      "screenshotReferences": 15,
+      "status": "reviewed-with-documented-source-gaps",
+      "outstandingSourceDetails": [],
+      "outstandingImageSourceUrls": 16,
+      "outstandingScreenshotRows": 17,
+      "outstandingOtherResources": 0,
+      "sourceEvidence": [
+        "catch/2009-silver-week-miruge-festival/recovery.json",
+        "catch/2009-silver-week-miruge-festival/source-comparison.json",
+        "catch/2009-silver-week-miruge-festival/source/archive/manifest.json",
+        "catch/2009-silver-week-miruge-festival/investigation/direct-attempts.json",
+        "catch/2009-silver-week-miruge-festival/investigation/direct-source-assets.json",
+        "catch/2009-silver-week-miruge-festival/investigation/prefix-full-cdx.json",
+        "catch/2009-silver-week-miruge-festival/investigation/wayback-captures.json",
+        "catch/2009-silver-week-miruge-festival/original-view.json"
+      ],
+      "desktopEvidence": [
+        "catch/2009-silver-week-miruge-festival/desktop-review.json",
+        "catch/2009-silver-week-miruge-festival/original-view.json"
+      ],
+      "notes": "日本节点源站首页及 31 个同站图像／样式资源请求均未返回 HTTP 响应；香港节点 Wayback 保存目录页、样式表及 14 个图像文件。原页 32 行映射到 32 条记录；14 个归档图像对应 15 个作品引用，16 个图像 URL 在未去重前缀 CDX 中无成功捕获，另有一行源站本无图像。保留现有 31 个下载 URL，不审看条目内容、不新增受限标记。"
     }
   ],
   "originalViewsReviewed": [
@@ -959,6 +987,13 @@
       "evidence": [
         "catch/2009-ksgfestival/original-view.json",
         "catch/2009-ksgfestival/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2009-silver-week-miruge-festival",
+      "evidence": [
+        "catch/2009-silver-week-miruge-festival/original-view.json",
+        "catch/2009-silver-week-miruge-festival/desktop-review.json"
       ]
     }
   ],

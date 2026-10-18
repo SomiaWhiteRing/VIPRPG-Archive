@@ -89,6 +89,14 @@ const configurations: Record<string, { base: string; entry?: string; manifests: 
     encoding: "euc-jp", liveSource: true,
     preserveExternalExtensions: [".zip"],
   },
+  "2009-silver-week-miruge-festival": {
+    base: "https://vipkohaku.x.fc2.com/2009miru/",
+    entry: "index.html",
+    manifests: ["source/archive/manifest.json"],
+    seeds: { "index.html": "source/archive/index.html.bin" },
+    encoding: "shift_jis", liveSource: true,
+    preserveExternalExtensions: [".zip"],
+  },
   "2009-gw": {
     base: "https://vipgw2011.web.fc2.com/vip_2009gw/",
     entry: "index.html",
@@ -544,6 +552,11 @@ async function main() {
           if ($(element).attr("http-equiv")?.toLowerCase() === "content-type") $(element).attr("content", "text/html; charset=UTF-8");
         });
         if (!$("meta[charset]").length && !$("meta[http-equiv]").toArray().some((element) => $(element).attr("http-equiv")?.toLowerCase() === "content-type")) $("head").prepend('<meta charset="UTF-8">');
+        if (id === "2009-silver-week-miruge-festival") {
+          const scriptCount = $("script,noscript").length;
+          $("script,noscript").remove();
+          if (scriptCount) compatibilityFixes.push({ page: local, change: "Remove source scripts and noscript tracking from the static replay; preserve the captured markup, styles and links." });
+        }
         $("script").each((_, element) => {
           const script = $(element), src = script.attr("src");
           if ((src && !relative(new URL(src, original).href)) || /fc2footerparam|geovisit\(|var\s+jps\s*=|archive_analytics|__wm\./.test(script.html() ?? "") || (id === "2012-magic-festival" && /fhp_c_pc/.test(script.html() ?? "")) || (id === "2012-kouhaku" && /_gaq|googletag|geniee_|var ID=|twitter-wjs/.test(script.html() ?? ""))) script.remove();
@@ -719,7 +732,7 @@ async function main() {
         compatibilityFixes.push({ page: local, change: `Replace the broken image ${resource} with a fixed missing-source notice, without invented artwork.` });
       }
     });
-    if (id === "2010-summer") $("img[src]").each((_, element) => {
+    if (id === "2010-summer" || id === "2009-silver-week-miruge-festival") $("img[src]").each((_, element) => {
       const node = $(element), resource = relative(new URL(node.attr("src")!, new URL(local, base)).href);
       if (!resource || !unavailable.has(resource)) return;
       node.replaceWith('<span class="archive-missing-image">［原資料の画像は未取得です］</span>');
@@ -751,7 +764,7 @@ async function main() {
         compatibilityFixes.push({ page: local, change: "Omit an unavailable stylesheet or favicon reference; the source inline styling remains in place and the missing resource stays documented." });
       }
     });
-    if (["2010-gw", "2012-kouhaku", "2011-gw", "2011-kouhaku", "2010-summer", "2009-kouhaku", "2009-ksgfestival", "2009-gw"].includes(id) || [...omittedBackgrounds, ...omittedHovers].some((omission) => omission.page === local)) files.set(local, Buffer.from($.html()));
+    if (["2010-gw", "2012-kouhaku", "2011-gw", "2011-kouhaku", "2010-summer", "2009-kouhaku", "2009-ksgfestival", "2009-silver-week-miruge-festival", "2009-gw"].includes(id) || [...omittedBackgrounds, ...omittedHovers].some((omission) => omission.page === local)) files.set(local, Buffer.from($.html()));
   }
   const generatedUnavailablePages: string[] = [];
   if (["2011-gw", "2010-gw", "2009-ksgfestival"].includes(id)) for (const gap of recovery.sourceDetailGaps ?? []) {
@@ -774,7 +787,7 @@ async function main() {
     generatedUnavailablePages.push("handin.htm");
     compatibilityFixes.push({ page: "handin.htm", change: "Create a labelled neutral page for a source 404 with no successful Hong Kong-node Wayback capture; do not present the remote error page as source content." });
   }
-  if ((id === "2009-kouhaku" || id === "2009-ksgfestival") && config.preserveExternalExtensions?.includes(".zip")) {
+  if (["2009-kouhaku", "2009-ksgfestival", "2009-silver-week-miruge-festival"].includes(id) && config.preserveExternalExtensions?.includes(".zip")) {
     compatibilityFixes.push({ page: id === "2009-kouhaku" ? "sakuhin_list2.htm" : "index.html", change: "Keep source-listed game-package links at their direct external source URLs; do not copy the packages into the archive." });
   }
   for (const [local, bytes] of files) {
