@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2011-kouhaku",
+  "activeFestival": "2011-summer",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -507,6 +507,32 @@
         "catch/2011-gw/replay-review.json"
       ],
       "notes": "源站恢复 88/89 个原介绍页，补回 No.00 样例；No.63 按实际目录保留作者、工具、图标、下载与讨论信息，两种视图明确说明原介绍和截图未取得，原貌页另记为编纂补页。89 条图标引用、88 张展示截图、1 张作者留言附图、1 张横幅、77 个本体／修正入口及 89 个感想帖已对照。EUC-JP 原文保留，No.78 题名缺括号由官方讨论页确认修正。原貌 256 个文件，保留介绍页和旧样式表两项来源缺口；325 个图片路径、179 个双视图地址、双桌面布局与 348 路径重放通过。"
+    },
+    {
+      "festivalId": "2011-kouhaku",
+      "reviewedAt": "2026-10-18",
+      "dataSha256": "ede83485eb5c22833f2f7d922c4ea287eec18445c505af1311a6a4514de77d13",
+      "works": 98,
+      "screenshotFiles": 49,
+      "status": "reviewed-with-documented-source-gaps",
+      "outstandingImageSourceUrls": 90,
+      "outstandingAuxiliarySources": 16,
+      "sourceEvidence": [
+        "catch/2011-kouhaku/recovery.json",
+        "catch/2011-kouhaku/source-comparison.json",
+        "catch/2011-kouhaku/investigation/missing-asset-index-review.json",
+        "catch/2011-kouhaku/investigation/public-backup-listing.json",
+        "catch/2011-kouhaku/image-decode-review.json"
+      ],
+      "desktopEvidence": [
+        "catch/2011-kouhaku/formatted-desktop-review.json",
+        "catch/2011-kouhaku/original-desktop-review.json",
+        "catch/2011-kouhaku/hover-desktop-review.json",
+        "catch/2011-kouhaku/gallery-desktop-review.json",
+        "catch/2011-kouhaku/catalogue-desktop-review.json",
+        "catch/2011-kouhaku/replay-review.json"
+      ],
+      "notes": "恢复 98 个原介绍页，补回 No.000 示例；98 个题名、392 个作者／工具／类型／配信字段、196 份留言、93 条图标引用、49 张截图、3 张横幅、122 个历史本体／修正入口及 97 个讨论帖已逐项核对。公开保管库的 85 个 ZIP 文件名对应 76 部作品，另保留 No.087 补充文件的实际配布地址；未下载或检查游戏包。原貌 264 个文件，保留底部菜单、目录和悬停图片切换。90 个作品图片地址与 16 个辅助资源／链接仍列为待查缺口，原貌明确显示未取得提示；未新增内容筛选或受限标记。278 个图片路径解码、207 个页面地址、两种桌面宽度及 654 路径离线重放通过。"
     }
   ],
   "originalViewsReviewed": [
@@ -628,6 +654,14 @@
       "evidence": [
         "catch/2011-gw/original-view.json",
         "catch/2011-gw/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2011-kouhaku",
+      "evidence": [
+        "catch/2011-kouhaku/original-view.json",
+        "catch/2011-kouhaku/original-desktop-review.json",
+        "catch/2011-kouhaku/hover-desktop-review.json"
       ]
     }
   ],

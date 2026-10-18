@@ -8,6 +8,18 @@ import type { WorkEntry } from "../src/lib/types";
 import { rewriteSummer2012Source } from "./source-2012-summer-view";
 
 const configurations: Record<string, { base: string; entry?: string; manifests: string[]; seeds: Record<string, string>; seedUrls?: Record<string, string>; cgiProfile?: boolean; encoding?: string; liveSource?: boolean; disabledLocalLinks?: string[]; externalResources?: Record<string, string>; frames?: { menuPage: string; menuName: string; mainName: string } }> = {
+  "2011-kouhaku": {
+    base: "http://vipkohaku2011.web.fc2.com/",
+    manifests: ["source/recovery/manifest.json", "source/linked/manifest.json"],
+    seeds: { "index.html": "investigation/index.bin" },
+    frames: { menuPage: "menu_top.html", menuName: "menu", mainName: "main" },
+    externalResources: {
+      "http://vipkouhaku05.cs.land.to/viprpgkouhaku2009-top.png": "linked/kouhaku2005.png",
+      "http://www.geocities.jp/vipkouhaku/vipkohaku_second02.png": "linked/kouhaku2006.png",
+      "http://music.geocities.jp/kouhaku03_01/kouhaku2007.png": "linked/kouhaku2007.png",
+      "http://vipkouhaku05.cs.land.to/vip2008.png": "linked/kouhaku2008.png",
+    },
+  },
   "2011-gw": {
     base: "https://vipgw2011.web.fc2.com/",
     manifests: ["source/recovery/manifest.json"],
@@ -268,6 +280,21 @@ async function main() {
       if (/\.(?:png|jpe?g|gif|bmp|webp|ico)$/i.test(local)) imageExtension(bytes);
       if (/\.html?$/i.test(local)) {
         const $ = cheerio.load(decodeSource(bytes, encoding));
+        if (id === "2011-kouhaku") {
+          $("noscript").remove();
+          $("script").filter((_, e) => /TWTR\.Widget|twttr/.test($(e).html() || "")).remove();
+          $("a[href]").each((_, e) => {
+            const a = $(e), href = a.attr("href")!;
+            if (local === "entry/000.html" && href === "#") { a.removeAttr("href target"); return; }
+            const target = new URL(href, original);
+            if (target.hostname === base.hostname && [base.pathname, `${base.pathname}index.html`].includes(target.pathname)) a.attr({ href: new URL("index_top.html", base).href, target: local === "menu_top.html" ? "main" : "_self" });
+          });
+          if (local === "entry.html") {
+            $("frameset").replaceWith('<body><a href="entry/entry_menu.html">作品一覧</a></body>');
+            $("head").append('<meta http-equiv="refresh" content="0;url=entry/entry_menu.html">');
+            compatibilityFixes.push({ page: local, change: "Flatten the invisible single-child frameset into its actual catalogue page to preserve same-frame navigation inside the sandbox." });
+          }
+        }
         if (id === "2012-toppuu-festival") {
           $("script,noscript,iframe,form,body>header,body>footer,#atwiki-fixed-nav,#atwiki-modal-search-form,#editmenu,#ads,#left-ads,#right-ads,#atwiki-ads-overlay,#body_footer,#at_social_links2,[id^='div-gpt-ad-']").remove();
           $("link").filter((_, e) => !($(e).attr("rel") || "").includes("stylesheet") || /atwiki_headbar|font-awesome/.test($(e).attr("href") || "")).remove();
@@ -532,14 +559,36 @@ async function main() {
         if (resource && unavailable.has(resource)) { $(element).removeAttr(attr); omittedHovers.push({ page: local, resource }); }
       }
     });
-    if (id === "2011-gw") $("link[rel*=icon][href],link[rel*=stylesheet][href]").each((_, element) => {
+    if (id === "2011-kouhaku") $("img[src]").each((_, element) => {
+      const node = $(element), resource = relative(new URL(node.attr("src")!, new URL(local, base)).href);
+      if (!resource || !unavailable.has(resource)) return;
+      const entry = (recovery.entries ?? []).find((e: { sourcePath: string }) => e.sourcePath === local);
+      const replacement: string | undefined = entry?.gallerySources?.map((u: string) => relative(u)).find((p: string) => files.has(p));
+      if (resource.startsWith("entry/ss/") && replacement) {
+        node.attr("src", path.posix.relative(path.posix.dirname(local), replacement)).removeAttr("onmouseover onmouseout");
+        node.after('<small class="archive-source-note">［原表示画像は未取得のため、同じ紹介ページの保存済み切替画像を表示］</small>');
+        compatibilityFixes.push({ page: local, change: `Use the same source page's available hover image ${replacement} where ${resource} is unavailable, with an explicit archive note.` });
+      } else {
+        const screenshot = resource.startsWith("entry/ss/");
+        node.replaceWith(`<span class="archive-missing-image" data-missing-resource="${resource}" style="display:inline-block;${screenshot ? "padding:2em;border:1px dashed #888;max-width:90%" : "font-size:10px"}">［${screenshot ? "原資料の画像は未取得です" : "画像未取得"}］</span>`);
+        compatibilityFixes.push({ page: local, change: `Replace the broken image ${resource} with a fixed missing-source notice, without invented artwork.` });
+      }
+    });
+    if (id === "2011-kouhaku") $("a[href]").each((_, element) => {
+      const node = $(element), resource = relative(new URL(node.attr("href")!, new URL(local, base)).href);
+      if (resource && unavailable.has(resource)) {
+        node.removeAttr("href target").attr({ "data-missing-resource": resource, title: "リンク先の原資料は未取得です" }).append("［未取得］");
+        compatibilityFixes.push({ page: local, change: `Label the unavailable linked source ${resource} instead of navigating to a broken local URL.` });
+      }
+    });
+    if (id === "2011-gw" || id === "2011-kouhaku") $("link[rel*=icon][href],link[rel*=stylesheet][href]").each((_, element) => {
       const resource = relative(new URL($(element).attr("href")!, new URL(local, base)).href);
       if (resource && unavailable.has(resource)) {
         $(element).remove();
         compatibilityFixes.push({ page: local, change: "Omit an unavailable stylesheet or favicon reference; the source inline styling remains in place and the missing resource stays documented." });
       }
     });
-    if (id === "2012-kouhaku" || id === "2011-gw" || [...omittedBackgrounds, ...omittedHovers].some((omission) => omission.page === local)) files.set(local, Buffer.from($.html()));
+    if (["2012-kouhaku", "2011-gw", "2011-kouhaku"].includes(id) || [...omittedBackgrounds, ...omittedHovers].some((omission) => omission.page === local)) files.set(local, Buffer.from($.html()));
   }
   const generatedUnavailablePages: string[] = [];
   if (id === "2011-gw") for (const gap of recovery.sourceDetailGaps ?? []) {

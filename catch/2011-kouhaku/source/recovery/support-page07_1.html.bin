@@ -1,0 +1,976 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta name="copyright" content="Nikukyu-Punch" />
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Year');
+data.addColumn('number', '022：ふしぎの城のヘレン');
+data.addColumn('number', '003：もしもンクエストモンスターズ ～リナックスのワンダーランド～');
+data.addColumn('number', '065：すでに私たちは地獄のまっただ中でした。');
+data.addColumn('number', '006：シャドウバスターズ');
+data.addColumn('number', '008：もしもほぼみんな敵だったら２');
+data.addColumn('number', '043：まぁるい世界');
+data.addRows([
+['A', 30,25,10,9,11,6],
+['B', 67,62,27,19,20,11],
+['C', 87,81,36,24,25,18],
+['D', 121,92,46,32,31,31],
+        ]);
+
+        var options = {
+          width: 800, height: 320,
+          title: '上位5作品の票数変遷'
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('chart_div1'));
+        chart.draw(data, options);
+      }
+    </script>
+
+
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Year');
+data.addColumn('number', '010：beatmosimoⅡLX 冒険盤');
+data.addColumn('number', '022：ふしぎの城のヘレン');
+data.addColumn('number', '003：もしもンクエストモンスターズ ～リナックスのワンダーランド～');
+data.addColumn('number', '012：Waterization -ワテライゼーション-');
+data.addColumn('number', '005：ニルダ戦記');
+data.addRows([
+['A', 27,17,13,5,4],
+['B', 46,38,31,13,8],
+['C', 57,52,40,20,12],
+['D', 80,69,49,26,19],
+        ]);
+
+        var options = {
+          width: 800, height: 320,
+          title: '上位5作品の票数変遷'
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('chart_div2'));
+        chart.draw(data, options);
+      }
+    </script>
+
+
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Year');
+data.addColumn('number', '022：ふしぎの城のヘレン');
+data.addColumn('number', '008：もしもほぼみんな敵だったら２');
+data.addColumn('number', '065：すでに私たちは地獄のまっただ中でした。');
+data.addColumn('number', '003：もしもンクエストモンスターズ ～リナックスのワンダーランド～');
+data.addColumn('number', '005：ニルダ戦記');
+data.addRows([
+['A', 12,13,5,7,2],
+['B', 33,23,11,14,8],
+['C', 44,35,17,17,11],
+['D', 64,48,21,20,18],
+        ]);
+
+        var options = {
+          width: 800, height: 320,
+          title: '上位5作品の票数変遷'
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('chart_div3'));
+        chart.draw(data, options);
+      }
+    </script>
+
+
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Year');
+data.addColumn('number', '022：ふしぎの城のヘレン');
+data.addColumn('number', '003：もしもンクエストモンスターズ ～リナックスのワンダーランド～');
+data.addColumn('number', '005：ニルダ戦記');
+data.addColumn('number', '010：beatmosimoⅡLX 冒険盤');
+data.addColumn('number', '012：Waterization -ワテライゼーション-');
+data.addRows([
+['A', 16,4,5,5,4],
+['B', 37,13,11,11,9],
+['C', 43,20,15,16,14],
+['D', 54,31,25,24,20],
+        ]);
+
+        var options = {
+          width: 800, height: 320,
+          title: '上位5作品の票数変遷'
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('chart_div4'));
+        chart.draw(data, options);
+      }
+    </script>
+
+
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Year');
+data.addColumn('number', '011：Hand in Hand ～夜+昼～');
+data.addColumn('number', '022：ふしぎの城のヘレン');
+data.addColumn('number', '086：M.M.');
+data.addColumn('number', '065：すでに私たちは地獄のまっただ中でした。');
+data.addColumn('number', '004：もしも色々な仮想世界の魔法が使えたら・終章　～The Spirit of Eternity Sword HOMMAGE～');
+data.addColumn('number', '006：シャドウバスターズ');
+data.addRows([
+['A', 19,10,9,7,3,2],
+['B', 42,20,16,18,10,6],
+['C', 51,31,24,23,14,11],
+['D', 70,43,33,32,17,17],
+        ]);
+
+        var options = {
+          width: 800, height: 320,
+          title: '上位5作品の票数変遷'
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('chart_div5'));
+        chart.draw(data, options);
+      }
+    </script>
+
+
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Year');
+data.addColumn('number', '022：ふしぎの城のヘレン');
+data.addColumn('number', '065：すでに私たちは地獄のまっただ中でした。');
+data.addColumn('number', '005：ニルダ戦記');
+data.addColumn('number', '056：水晶集め');
+data.addColumn('number', '003：もしもンクエストモンスターズ ～リナックスのワンダーランド～');
+data.addRows([
+['A', 17,15,5,4,3],
+['B', 41,34,6,6,6],
+['C', 57,45,9,6,8],
+['D', 75,59,15,11,9],
+        ]);
+
+        var options = {
+          width: 800, height: 320,
+          title: '上位5作品の票数変遷'
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('chart_div6'));
+        chart.draw(data, options);
+      }
+    </script>
+
+
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Year');
+data.addColumn('number', '022：ふしぎの城のヘレン');
+data.addColumn('number', '086：M.M.');
+data.addColumn('number', '019：わてり「紅白の感想ゲーです！」');
+data.addColumn('number', '039：まんじゅう');
+data.addColumn('number', '065：すでに私たちは地獄のまっただ中でした。');
+data.addRows([
+['A', 8,12,7,7,4],
+['B', 24,24,15,13,12],
+['C', 34,34,17,18,15],
+['D', 53,47,21,21,21],
+        ]);
+
+        var options = {
+          width: 800, height: 320,
+          title: '上位5作品の票数変遷'
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('chart_div7'));
+        chart.draw(data, options);
+      }
+    </script>
+
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Year');
+data.addColumn('number', '090：刹那の白刃取り');
+data.addColumn('number', '019：わてり「紅白の感想ゲーです！」');
+data.addColumn('number', '053：海子産巣水神');
+data.addColumn('number', '085：White Trick');
+data.addColumn('number', '006：シャドウバスターズ');
+data.addRows([
+['A', 11,9,5,6,4],
+['B', 22,16,12,12,7],
+['C', 31,22,17,17,11],
+['D', 41,29,25,20,14],
+        ]);
+
+        var options = {
+          width: 800, height: 320,
+          title: '上位5作品の票数変遷'
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('chart_div8'));
+        chart.draw(data, options);
+      }
+    </script>
+
+
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Year');
+data.addColumn('number', '039：まんじゅう');
+data.addColumn('number', '019：わてり「紅白の感想ゲーです！」');
+data.addColumn('number', '092：グワヌグ');
+data.addColumn('number', '053：海子産巣水神');
+data.addColumn('number', '075：貞子っちゃんのウキウキ年越し大作戦');
+data.addRows([
+['A', 27,13,10,3,5],
+['B', 45,27,19,11,10],
+['C', 55,34,25,16,15],
+['D', 68,44,33,19,18],
+        ]);
+
+        var options = {
+          width: 800, height: 320,
+          title: '上位5作品の票数変遷'
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('chart_div9'));
+        chart.draw(data, options);
+      }
+    </script>
+
+
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Year');
+data.addColumn('number', '019：わてり「紅白の感想ゲーです！」');
+data.addColumn('number', '084：真冬の昼の珍夢');
+data.addColumn('number', '066：ライオンハートヒートソード');
+data.addColumn('number', '053：海子産巣水神');
+data.addColumn('number', '092：グワヌグ');
+data.addRows([
+['A', 10,5,5,4,5],
+['B', 22,10,13,10,10],
+['C', 26,15,17,14,17],
+['D', 32,25,22,20,18],
+        ]);
+
+        var options = {
+          width: 800, height: 320,
+          title: '上位5作品の票数変遷'
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('chart_div0'));
+        chart.draw(data, options);
+      }
+    </script>
+<title>VIPRPG紅白2011</title>
+<link href="entry/entry.css" rel="stylesheet" type="text/css" />
+<LINK REL="SHORTCUT ICON" HREF="favicon.ico"> 
+</head>
+
+
+<body id="toppage">
+
+
+<div id="container">
+
+<div id="header">
+
+<h1>2011年 第七回 ニュース速報VIP RPGツクールスレッド 紅白ツクール合戦</h1>
+<a href="http://vipkohaku2011.web.fc2.com/index.html" target="_top"><img src="img/logo.gif" alt="" name="logo" width="379" height="70" id="logo" /></a>
+<a href="http://www.dff.jp/" target="_blank"><img src="img/md148.png" alt="" name="top" width="327" height="70" id="tel" /></a>
+<h5><b>緑被率： 154 %</b></h5>
+
+</div>
+<!--/header-->
+<div id="contents">
+<div id="main"><br>
+<a href="http://vipkohaku2011.web.fc2.com/index.html" target="_top">トップページ</a> / <a href="page05.html" target="_self">投票所</a><br><br>
+<h2 class="mb1em">各部門別投票結果</h2>
+<table border="0" cellpadding="2">
+	<tbody>
+		<tr>
+			<td>　■<a href="#01" target="_self">マイベスト部門</a>　</td>
+			<td>…　最も好きな作品を選ぶ部門でござる</td>
+		</tr>
+		<tr>
+			<td>　■<a href="#02" target="_self">テクニック部門</a>　</td>
+			<td>…　作品の技術がすごい作品を選ぶ部門でござる</td>
+		</tr>
+		<tr>
+			<td>　■<a href="#03" target="_self">グッドバランス部門</a>　</td>
+			<td>…　ゲームバランスの優れた作品を選ぶ部門でござる</td>
+		</tr>
+		<tr>
+			<td>　■<a href="#04" target="_self">ユーザビリティ部門</a>　</td>
+			<td>…　インターフェースやシステム面で遊びやすさが工夫されている作品を選ぶ部門でござる</td>
+		</tr>
+		<tr>
+			<td>　■<a href="#05" target="_self">シナリオ部門</a>　</td>
+			<td>…　お話が素敵な作品を選ぶ部門でござる</td>
+		</tr>
+		<tr>
+			<td>　■<a href="#06" target="_self">ふんいき部門</a>　</td>
+			<td>…　作品全体から漂う雰囲気に惹かれた作品を選ぶ部門でござる</td>
+		</tr>
+		<tr>
+			<td>　■<a href="#07" target="_self">演出部門</a>　</td>
+			<td>…　視聴覚に訴えかける演出面において優れている作品を選ぶ部門でござる</td>
+		</tr>
+		<tr>
+			<td>　■<a href="#08" target="_self">いやらしさ部門</a>　</td>
+			<td>…　えっちな作品を選ぶ部門でござる<font color="#ff7777"><b>///</b></font></td>
+		</tr>
+		<tr>
+			<td>　■<a href="#09" target="_self">テラワロス部門</a>　</td>
+			<td>…　クソワロタ作品を選ぶ部門ｗｗでござるよｗｗｗｗデュフフｗｗｗｗｗ</td>
+		</tr>
+		<tr>
+			<td>　■<a href="#10" target="_self">これひど部門</a>　</td>
+			<td>…　なにこれ</td>
+		</tr>
+	</tbody>
+</table>
+<br>
+
+<h2 class="mb1em" id="01">マイベスト部門</h2>
+<center><span class="color3">
+<table class="ta3 mb1em">
+	<tr>
+		<td class="dgray" width="25">順位</td>
+		<th class="ta3 dgray" width="32"></th>
+		<td class="dgray" width="100">No./ツール<br>ゲームジャンル</td>
+		<td class="dgray">タイトル</td>
+		<td class="dgray" width="100">作者</td>
+		<td class="dgray" width="20">BBS</td>
+	</tr>
+	<tr>
+		<td class="white"><span class="color3">1位</span></td>
+		<th class="ta3 black"  ><img id="022" src="entry/icon/022.png" width="32" height="32" border="0"></th>
+		<td class="white"><span class="color3">022/00<br>RPG</span></td>
+		<td class="white"><span class="color3"><a href="entry/022.html#toppage" target="_self" class="r">ふしぎの城のヘレン</a></span></td>
+		<td class="white"><span class="color3">さつ</span></td>
+		<td class="white"><span class="color3"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1320090807/" target="_self"  class="r">BBS</a></span></td>
+	</tr>
+	<tr>
+		<td class="red"  ><span class="color3">2位</span></td>
+		<th class="ta3 black"  ><img id="003" src="entry/icon/003.png" width="32" height="32" border="0"></th>
+		<td class="red"  ><span class="color2">003/00<br>RPG</span></td>
+		<td class="red"  ><span class="color2"><a href="entry/003.html#toppage" target="_self" class="w"  >もしもンクエストモンスターズ ～リナックスのワンダーランド～</a></span></td>
+		<td class="red"  ><span class="color2">ぽっこん</span></td>
+		<td class="red"  ><span class="color2"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1319936653/" target="_self"  class="w">BBS</a></span></td>
+	</tr>
+	<tr>
+		<td class="red"  ><span class="color3">3位</span></td>
+		<th class="ta3 black"  ><img id="065" src="entry/icon/065.gif" width="32" height="32" border="0"></th>
+		<td class="red"  ><span class="color2">065/00<br>クソとゲロと愛に満ちた魂のRPG</span></td>
+		<td class="red"  ><span class="color2"><a href="entry/065.html#toppage" target="_self" class="w"  >すでに私たちは地獄のまっただ中でした。</a></span></td>
+		<td class="red"  ><span class="color2">ローゼンクロイツ◆Mvhdw.2dlc</span></td>
+		<td class="red"  ><span class="color2"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1323622564/" target="_self"  class="w">BBS</a></span></td>
+	</tr>
+	<tr>
+		<td class="white"><span class="color3">4位</span></td>
+		<th class="ta3 black"  ><img id="006" src="entry/icon/006.png" width="32" height="32" border="0"></th>
+		<td class="white"><span class="color3">006/00<br>RPG</span></td>
+		<td class="white"><span class="color3"><a href="entry/006.html#toppage" target="_self" class="r">シャドウバスターズ</a></span></td>
+		<td class="white"><span class="color3">knt</span></td>
+		<td class="white"><span class="color3"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1319936922/" target="_self"  class="r">BBS</a></span></td>
+	</tr>
+	<tr>
+		<td class="white"><span class="color3">同率<br>5位</span></td>
+		<th class="ta3 black"  ><img id="008" src="entry/icon/008.png" width="32" height="32" border="0"></th>
+		<td class="white"><span class="color3">008/00<br>中編やるゲ</span></td>
+		<td class="white"><span class="color3"><a href="entry/008.html#toppage" target="_self" class="r">もしもほぼみんな敵だったら２</a></span></td>
+		<td class="white"><span class="color3">牧場の牛肉</span></td>
+		<td class="white"><span class="color3"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1319937069/" target="_self"  class="r">BBS</a></span></td>
+	</tr>
+	<tr>
+		<td class="red"  ><span class="color3">同率<br>5位</span></td>
+		<th class="ta3 black"  ><img id="043" src="entry/icon/rpg.png" width="32" height="32" border="0"></th>
+		<td class="red"  ><span class="color2">043/00<br>パクりRPG</span></td>
+		<td class="red"  ><span class="color2"><a href="entry/043.html#toppage" target="_self" class="w"  >まぁるい世界</a></span></td>
+		<td class="red"  ><span class="color2">えんりゅう</span></td>
+		<td class="red"  ><span class="color2"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1321754007/" target="_self"  class="w">BBS</a></span></td>
+	</tr>
+</table></span>
+    <div id="chart_div1"></div>
+</center>
+
+<br>
+<h2 class="mb1em" id="02">テクニック部門</h2>
+<center><span class="color3">
+<table class="ta3 mb1em">
+	<tr>
+		<td class="dgray" width="25">順位</td>
+		<th class="ta3 dgray" width="32"></th>
+		<td class="dgray" width="100">No./ツール<br>ゲームジャンル</td>
+		<td class="dgray">タイトル</td>
+		<td class="dgray" width="100">作者</td>
+		<td class="dgray" width="20">BBS</td>
+	</tr>
+	<tr>
+		<td class="white"><span class="color3">1位</span></td>
+		<th class="ta3 black"  ><img id="010" src="entry/icon/010.gif" width="32" height="32" border="0"></th>
+		<td class="white"><span class="color3">010/00<br>音ゲー</span></td>
+		<td class="white"><span class="color3"><a href="entry/010.html#toppage" target="_self" class="r">beatmosimoⅡLX 冒険盤</a></span></td>
+		<td class="white"><span class="color3">やべえ</span></td>
+		<td class="white"><span class="color3"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1319937233/" target="_self"  class="r">BBS</a></span></td>
+	</tr>
+	<tr>
+		<td class="white"><span class="color3">2位</span></td>
+		<th class="ta3 black"  ><img id="022" src="entry/icon/022.png" width="32" height="32" border="0"></th>
+		<td class="white"><span class="color3">022/00<br>RPG</span></td>
+		<td class="white"><span class="color3"><a href="entry/022.html#toppage" target="_self" class="r">ふしぎの城のヘレン</a></span></td>
+		<td class="white"><span class="color3">さつ</span></td>
+		<td class="white"><span class="color3"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1320090807/" target="_self"  class="r">BBS</a></span></td>
+	</tr>
+	<tr>
+		<td class="red"  ><span class="color3">3位</span></td>
+		<th class="ta3 black"  ><img id="003" src="entry/icon/003.png" width="32" height="32" border="0"></th>
+		<td class="red"  ><span class="color2">003/00<br>RPG</span></td>
+		<td class="red"  ><span class="color2"><a href="entry/003.html#toppage" target="_self" class="w"  >もしもンクエストモンスターズ ～リナックスのワンダーランド～</a></span></td>
+		<td class="red"  ><span class="color2">ぽっこん</span></td>
+		<td class="red"  ><span class="color2"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1319936653/" target="_self"  class="w">BBS</a></span></td>
+	</tr>
+	<tr>
+		<td class="white"><span class="color3">4位</span></td>
+		<th class="ta3 black"  ><img id="012" src="entry/icon/012.png" width="32" height="32" border="0"></th>
+		<td class="white"><span class="color3">012/<font color="#BBBB00"><b>03</b></font><br>シミュレーションっぽいの</span></td>
+		<td class="white"><span class="color3"><a href="entry/012.html#toppage" target="_self" class="r">Waterization -ワテライゼーション-</a></span></td>
+		<td class="white"><span class="color3">kemono</span></td>
+		<td class="white"><span class="color3"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1319937334/" target="_self"  class="r">BBS</a></span></td>
+	</tr>
+	<tr>
+		<td class="red"  ><span class="color3">5位</span></td>
+		<th class="ta3 black"  ><img id="005" src="entry/icon/rpg.png" width="32" height="32" border="0"></th>
+		<td class="red"  ><span class="color2">005/00<br>RPG</span></td>
+		<td class="red"  ><span class="color2"><a href="entry/005.html#toppage" target="_self" class="w"  >ニルダ戦記</a></span></td>
+		<td class="red"  ><span class="color2">たぬき</span></td>
+		<td class="red"  ><span class="color2"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1319936891/" target="_self"  class="w">BBS</a></span></td>
+	</tr>
+</table></span>
+    <div id="chart_div2"></div>
+</center>
+
+<br>
+<h2 class="mb1em" id="03">グッドバランス部門</h2>
+<center><span class="color3">
+<table class="ta3 mb1em">
+	<tr>
+		<td class="dgray" width="25">順位</td>
+		<th class="ta3 dgray" width="32"></th>
+		<td class="dgray" width="100">No./ツール<br>ゲームジャンル</td>
+		<td class="dgray">タイトル</td>
+		<td class="dgray" width="100">作者</td>
+		<td class="dgray" width="20">BBS</td>
+	</tr>
+	<tr>
+		<td class="white"><span class="color3">1位</span></td>
+		<th class="ta3 black"  ><img id="022" src="entry/icon/022.png" width="32" height="32" border="0"></th>
+		<td class="white"><span class="color3">022/00<br>RPG</span></td>
+		<td class="white"><span class="color3"><a href="entry/022.html#toppage" target="_self" class="r">ふしぎの城のヘレン</a></span></td>
+		<td class="white"><span class="color3">さつ</span></td>
+		<td class="white"><span class="color3"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1320090807/" target="_self"  class="r">BBS</a></span></td>
+	</tr>
+	<tr>
+		<td class="white"><span class="color3">2位</span></td>
+		<th class="ta3 black"  ><img id="008" src="entry/icon/008.png" width="32" height="32" border="0"></th>
+		<td class="white"><span class="color3">008/00<br>中編やるゲ</span></td>
+		<td class="white"><span class="color3"><a href="entry/008.html#toppage" target="_self" class="r">もしもほぼみんな敵だったら２</a></span></td>
+		<td class="white"><span class="color3">牧場の牛肉</span></td>
+		<td class="white"><span class="color3"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1319937069/" target="_self"  class="r">BBS</a></span></td>
+	</tr>
+	<tr>
+		<td class="red"  ><span class="color3">3位</span></td>
+		<th class="ta3 black"  ><img id="065" src="entry/icon/065.gif" width="32" height="32" border="0"></th>
+		<td class="red"  ><span class="color2">065/00<br>クソとゲロと愛に満ちた魂のRPG</span></td>
+		<td class="red"  ><span class="color2"><a href="entry/065.html#toppage" target="_self" class="w"  >すでに私たちは地獄のまっただ中でした。</a></span></td>
+		<td class="red"  ><span class="color2">ローゼンクロイツ◆Mvhdw.2dlc</span></td>
+		<td class="red"  ><span class="color2"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1323622564/" target="_self"  class="w">BBS</a></span></td>
+	</tr>
+	<tr>
+		<td class="red"  ><span class="color3">4位</span></td>
+		<th class="ta3 black"  ><img id="003" src="entry/icon/003.png" width="32" height="32" border="0"></th>
+		<td class="red"  ><span class="color2">003/00<br>RPG</span></td>
+		<td class="red"  ><span class="color2"><a href="entry/003.html#toppage" target="_self" class="w"  >もしもンクエストモンスターズ ～リナックスのワンダーランド～</a></span></td>
+		<td class="red"  ><span class="color2">ぽっこん</span></td>
+		<td class="red"  ><span class="color2"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1319936653/" target="_self"  class="w">BBS</a></span></td>
+	</tr>
+	<tr>
+		<td class="red"  ><span class="color3">5位</span></td>
+		<th class="ta3 black"  ><img id="005" src="entry/icon/rpg.png" width="32" height="32" border="0"></th>
+		<td class="red"  ><span class="color2">005/00<br>RPG</span></td>
+		<td class="red"  ><span class="color2"><a href="entry/005.html#toppage" target="_self" class="w"  >ニルダ戦記</a></span></td>
+		<td class="red"  ><span class="color2">たぬき</span></td>
+		<td class="red"  ><span class="color2"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1319936891/" target="_self"  class="w">BBS</a></span></td>
+	</tr>
+</table></span>
+    <div id="chart_div3"></div>
+</center>
+
+<br>
+<h2 class="mb1em" id="04">ユーザビリティ部門</h2>
+<center><span class="color3">
+<table class="ta3 mb1em">
+	<tr>
+		<td class="dgray" width="25">順位</td>
+		<th class="ta3 dgray" width="32"></th>
+		<td class="dgray" width="100">No./ツール<br>ゲームジャンル</td>
+		<td class="dgray">タイトル</td>
+		<td class="dgray" width="100">作者</td>
+		<td class="dgray" width="20">BBS</td>
+	</tr>
+	<tr>
+		<td class="white"><span class="color3">1位</span></td>
+		<th class="ta3 black"  ><img id="022" src="entry/icon/022.png" width="32" height="32" border="0"></th>
+		<td class="white"><span class="color3">022/00<br>RPG</span></td>
+		<td class="white"><span class="color3"><a href="entry/022.html#toppage" target="_self" class="r">ふしぎの城のヘレン</a></span></td>
+		<td class="white"><span class="color3">さつ</span></td>
+		<td class="white"><span class="color3"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1320090807/" target="_self"  class="r">BBS</a></span></td>
+	</tr>
+	<tr>
+		<td class="red"  ><span class="color3">2位</span></td>
+		<th class="ta3 black"  ><img id="003" src="entry/icon/003.png" width="32" height="32" border="0"></th>
+		<td class="red"  ><span class="color2">003/00<br>RPG</span></td>
+		<td class="red"  ><span class="color2"><a href="entry/003.html#toppage" target="_self" class="w"  >もしもンクエストモンスターズ ～リナックスのワンダーランド～</a></span></td>
+		<td class="red"  ><span class="color2">ぽっこん</span></td>
+		<td class="red"  ><span class="color2"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1319936653/" target="_self"  class="w">BBS</a></span></td>
+	</tr>
+	<tr>
+		<td class="red"  ><span class="color3">3位</span></td>
+		<th class="ta3 black"  ><img id="005" src="entry/icon/rpg.png" width="32" height="32" border="0"></th>
+		<td class="red"  ><span class="color2">005/00<br>RPG</span></td>
+		<td class="red"  ><span class="color2"><a href="entry/005.html#toppage" target="_self" class="w"  >ニルダ戦記</a></span></td>
+		<td class="red"  ><span class="color2">たぬき</span></td>
+		<td class="red"  ><span class="color2"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1319936891/" target="_self"  class="w">BBS</a></span></td>
+	</tr>
+	<tr>
+		<td class="white"><span class="color3">4位</span></td>
+		<th class="ta3 black"  ><img id="010" src="entry/icon/010.gif" width="32" height="32" border="0"></th>
+		<td class="white"><span class="color3">010/00<br>音ゲー</span></td>
+		<td class="white"><span class="color3"><a href="entry/010.html#toppage" target="_self" class="r">beatmosimoⅡLX 冒険盤</a></span></td>
+		<td class="white"><span class="color3">やべえ</span></td>
+		<td class="white"><span class="color3"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1319937233/" target="_self"  class="r">BBS</a></span></td>
+	</tr>
+	<tr>
+		<td class="white"><span class="color3">5位</span></td>
+		<th class="ta3 black"  ><img id="012" src="entry/icon/012.png" width="32" height="32" border="0"></th>
+		<td class="white"><span class="color3">012/<font color="#BBBB00"><b>03</b></font><br>シミュレーションっぽいの</span></td>
+		<td class="white"><span class="color3"><a href="entry/012.html#toppage" target="_self" class="r">Waterization -ワテライゼーション-</a></span></td>
+		<td class="white"><span class="color3">kemono</span></td>
+		<td class="white"><span class="color3"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1319937334/" target="_self"  class="r">BBS</a></span></td>
+	</tr>
+</table></span>
+    <div id="chart_div4"></div>
+</center>
+
+<br>
+<h2 class="mb1em" id="05">シナリオ部門</h2>
+<center><span class="color3">
+<table class="ta3 mb1em">
+	<tr>
+		<td class="dgray" width="25">順位</td>
+		<th class="ta3 dgray" width="32"></th>
+		<td class="dgray" width="100">No./ツール<br>ゲームジャンル</td>
+		<td class="dgray">タイトル</td>
+		<td class="dgray" width="100">作者</td>
+		<td class="dgray" width="20">BBS</td>
+	</tr>
+	<tr>
+		<td class="red"  ><span class="color3">1位</span></td>
+		<th class="ta3 black"  ><img id="011" src="entry/icon/011.png" width="32" height="32" border="0"></th>
+		<td class="red"  ><span class="color2">011/00<br>AVG（読むゲー）</span></td>
+		<td class="red"  ><span class="color2"><a href="entry/011.html#toppage" target="_self" class="w"  >Hand in Hand ～夜+昼～</a></span></td>
+		<td class="red"  ><span class="color2">hazu</span></td>
+		<td class="red"  ><span class="color2"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1319937281/" target="_self"  class="w">BBS</a></span></td>
+	</tr>
+	<tr>
+		<td class="white"><span class="color3">2位</span></td>
+		<th class="ta3 black"  ><img id="022" src="entry/icon/022.png" width="32" height="32" border="0"></th>
+		<td class="white"><span class="color3">022/00<br>RPG</span></td>
+		<td class="white"><span class="color3"><a href="entry/022.html#toppage" target="_self" class="r">ふしぎの城のヘレン</a></span></td>
+		<td class="white"><span class="color3">さつ</span></td>
+		<td class="white"><span class="color3"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1320090807/" target="_self"  class="r">BBS</a></span></td>
+	</tr>
+	<tr>
+		<td class="white"><span class="color3">3位</span></td>
+		<th class="ta3 black"  ><img id="086" src="entry/icon/086.png" width="32" height="32" border="0"></th>
+		<td class="white"><span class="color3">086/00<br>ほぼ見るゲ</span></td>
+		<td class="white"><span class="color3"><a href="entry/086.html#toppage" target="_self" class="r">M.M.</a></span></td>
+		<td class="white"><span class="color3">◆Rvn.ABBAXE</span></td>
+		<td class="white"><span class="color3"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1324645590/" target="_self"  class="r">BBS</a></span></td>
+	</tr>
+	<tr>
+		<td class="red"  ><span class="color3">4位</span></td>
+		<th class="ta3 black"  ><img id="065" src="entry/icon/065.gif" width="32" height="32" border="0"></th>
+		<td class="red"  ><span class="color2">065/00<br>クソとゲロと愛に満ちた魂のRPG</span></td>
+		<td class="red"  ><span class="color2"><a href="entry/065.html#toppage" target="_self" class="w"  >すでに私たちは地獄のまっただ中でした。</a></span></td>
+		<td class="red"  ><span class="color2">ローゼンクロイツ◆Mvhdw.2dlc</span></td>
+		<td class="red"  ><span class="color2"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1323622564/" target="_self"  class="w">BBS</a></span></td>
+	</tr>
+	<tr>
+		<td class="white"><span class="color3">同率<br>5位</span></td>
+		<th class="ta3 black"  ><img id="004" src="entry/icon/004.png" width="32" height="32" border="0"></th>
+		<td class="white"><span class="color3">004/00<br>異世界系見るゲ</span></td>
+		<td class="white"><span class="color3"><a href="entry/004.html#toppage" target="_self" class="r">もしも色々な仮想世界の魔法が使えたら・終章　～The Spirit of Eternity Sword HOMMAGE～</a></span></td>
+		<td class="white"><span class="color3">エル</span></td>
+		<td class="white"><span class="color3"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1319936844/" target="_self"  class="r">BBS</a></span></td>
+	</tr>
+	<tr>
+		<td class="white"><span class="color3">同率<br>5位</span></td>
+		<th class="ta3 black"  ><img id="006" src="entry/icon/006.png" width="32" height="32" border="0"></th>
+		<td class="white"><span class="color3">006/00<br>RPG</span></td>
+		<td class="white"><span class="color3"><a href="entry/006.html#toppage" target="_self" class="r">シャドウバスターズ</a></span></td>
+		<td class="white"><span class="color3">knt</span></td>
+		<td class="white"><span class="color3"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1319936922/" target="_self"  class="r">BBS</a></span></td>
+	</tr>
+</table></span>
+    <div id="chart_div5"></div>
+</center>
+
+<h2 class="mb1em" id="06">ふんいき部門</h2>
+<center><span class="color3">
+<table class="ta3 mb1em">
+	<tr>
+		<td class="dgray" width="25">順位</td>
+		<th class="ta3 dgray" width="32"></th>
+		<td class="dgray" width="100">No./ツール<br>ゲームジャンル</td>
+		<td class="dgray">タイトル</td>
+		<td class="dgray" width="100">作者</td>
+		<td class="dgray" width="20">BBS</td>
+	</tr>
+	<tr>
+		<td class="white"><span class="color3">1位</span></td>
+		<th class="ta3 black"  ><img id="022" src="entry/icon/022.png" width="32" height="32" border="0"></th>
+		<td class="white"><span class="color3">022/00<br>RPG</span></td>
+		<td class="white"><span class="color3"><a href="entry/022.html#toppage" target="_self" class="r">ふしぎの城のヘレン</a></span></td>
+		<td class="white"><span class="color3">さつ</span></td>
+		<td class="white"><span class="color3"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1320090807/" target="_self"  class="r">BBS</a></span></td>
+	</tr>
+	<tr>
+		<td class="red"  ><span class="color3">2位</span></td>
+		<th class="ta3 black"  ><img id="065" src="entry/icon/065.gif" width="32" height="32" border="0"></th>
+		<td class="red"  ><span class="color2">065/00<br>クソとゲロと愛に満ちた魂のRPG</span></td>
+		<td class="red"  ><span class="color2"><a href="entry/065.html#toppage" target="_self" class="w"  >すでに私たちは地獄のまっただ中でした。</a></span></td>
+		<td class="red"  ><span class="color2">ローゼンクロイツ◆Mvhdw.2dlc</span></td>
+		<td class="red"  ><span class="color2"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1323622564/" target="_self"  class="w">BBS</a></span></td>
+	</tr>
+	<tr>
+		<td class="red"  ><span class="color3">3位</span></td>
+		<th class="ta3 black"  ><img id="005" src="entry/icon/rpg.png" width="32" height="32" border="0"></th>
+		<td class="red"  ><span class="color2">005/00<br>RPG</span></td>
+		<td class="red"  ><span class="color2"><a href="entry/005.html#toppage" target="_self" class="w"  >ニルダ戦記</a></span></td>
+		<td class="red"  ><span class="color2">たぬき</span></td>
+		<td class="red"  ><span class="color2"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1319936891/" target="_self"  class="w">BBS</a></span></td>
+	</tr>
+	<tr>
+		<td class="white"><span class="color3">4位</span></td>
+		<th class="ta3 black"  ><img id="056" src="entry/icon/056.png" width="32" height="32" border="0"></th>
+		<td class="white"><span class="color3">056/00<br>物拾いつつアクション</span></td>
+		<td class="white"><span class="color3"><a href="entry/056.html#toppage" target="_self" class="r">水晶集め</a></span></td>
+		<td class="white"><span class="color3">sinkai</span></td>
+		<td class="white"><span class="color3"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1322595089/" target="_self"  class="r">BBS</a></span></td>
+	</tr>
+	<tr>
+		<td class="red"  ><span class="color3">5位</span></td>
+		<th class="ta3 black"  ><img id="003" src="entry/icon/003.png" width="32" height="32" border="0"></th>
+		<td class="red"  ><span class="color2">003/00<br>RPG</span></td>
+		<td class="red"  ><span class="color2"><a href="entry/003.html#toppage" target="_self" class="w"  >もしもンクエストモンスターズ ～リナックスのワンダーランド～</a></span></td>
+		<td class="red"  ><span class="color2">ぽっこん</span></td>
+		<td class="red"  ><span class="color2"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1319936653/" target="_self"  class="w">BBS</a></span></td>
+	</tr>
+</table></span>
+    <div id="chart_div6"></div>
+</center>
+
+<br>
+<h2 class="mb1em" id="07">演出部門</h2>
+<center><span class="color3">
+<table class="ta3 mb1em">
+	<tr>
+		<td class="dgray" width="25">順位</td>
+		<th class="ta3 dgray" width="32"></th>
+		<td class="dgray" width="100">No./ツール<br>ゲームジャンル</td>
+		<td class="dgray">タイトル</td>
+		<td class="dgray" width="100">作者</td>
+		<td class="dgray" width="20">BBS</td>
+	</tr>
+	<tr>
+		<td class="white"><span class="color3">1位</span></td>
+		<th class="ta3 black"  ><img id="022" src="entry/icon/022.png" width="32" height="32" border="0"></th>
+		<td class="white"><span class="color3">022/00<br>RPG</span></td>
+		<td class="white"><span class="color3"><a href="entry/022.html#toppage" target="_self" class="r">ふしぎの城のヘレン</a></span></td>
+		<td class="white"><span class="color3">さつ</span></td>
+		<td class="white"><span class="color3"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1320090807/" target="_self"  class="r">BBS</a></span></td>
+	</tr>
+	<tr>
+		<td class="white"><span class="color3">2位</span></td>
+		<th class="ta3 black"  ><img id="086" src="entry/icon/086.png" width="32" height="32" border="0"></th>
+		<td class="white"><span class="color3">086/00<br>ほぼ見るゲ</span></td>
+		<td class="white"><span class="color3"><a href="entry/086.html#toppage" target="_self" class="r">M.M.</a></span></td>
+		<td class="white"><span class="color3">◆Rvn.ABBAXE</span></td>
+		<td class="white"><span class="color3"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1324645590/" target="_self"  class="r">BBS</a></span></td>
+	</tr>
+	<tr>
+		<td class="red"  ><span class="color3">同率3位</span></td>
+		<th class="ta3 black"  ><img id="019" src="entry/icon/019_2.png" width="32" height="32" border="0"></th>
+		<td class="red"  ><span class="color2">019/00<br>ｋｓｇ</span></td>
+		<td class="red"  ><span class="color2"><a href="entry/019.html#toppage" target="_self" class="w"  >わてり「紅白の感想ゲーです！」</a></span></td>
+		<td class="red"  ><span class="color2">わ照り焼き</span></td>
+		<td class="red"  ><span class="color2"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1320088975/" target="_self"  class="w">BBS</a></span></td>
+	</tr>
+	<tr>
+		<td class="red"  ><span class="color3">同率3位</span></td>
+		<th class="ta3 black"  ><img id="039" src="entry/icon/039.png" width="32" height="32" border="0"></th>
+		<td class="red"  ><span class="color2">039/00<br>ksg</span></td>
+		<td class="red"  ><span class="color2"><a href="entry/039.html#toppage" target="_self" class="w"  >まんじゅう</a></span></td>
+		<td class="red"  ><span class="color2">ケツアクメ120連発　ケツアヘ傑作選</span></td>
+		<td class="red"  ><span class="color2"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1320416831/" target="_self"  class="w">BBS</a></span></td>
+	</tr>
+	<tr>
+		<td class="red"  ><span class="color3">同率3位</span></td>
+		<th class="ta3 black"  ><img id="065" src="entry/icon/065.gif" width="32" height="32" border="0"></th>
+		<td class="red"  ><span class="color2">065/00<br>クソとゲロと愛に満ちた魂のRPG</span></td>
+		<td class="red"  ><span class="color2"><a href="entry/065.html#toppage" target="_self" class="w"  >すでに私たちは地獄のまっただ中でした。</a></span></td>
+		<td class="red"  ><span class="color2">ローゼンクロイツ◆Mvhdw.2dlc</span></td>
+		<td class="red"  ><span class="color2"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1323622564/" target="_self"  class="w">BBS</a></span></td>
+	</tr>
+</table></span>
+    <div id="chart_div7"></div>
+</center>
+
+<br>
+<h2 class="mb1em" id="08">いやらしさ部門</h2>
+<center><span class="color3">
+<table class="ta3 mb1em">
+	<tr>
+		<td class="dgray" width="25">順位</td>
+		<th class="ta3 dgray" width="32"></th>
+		<td class="dgray" width="100">No./ツール<br>ゲームジャンル</td>
+		<td class="dgray">タイトル</td>
+		<td class="dgray" width="100">作者</td>
+		<td class="dgray" width="20">BBS</td>
+	</tr>
+	<tr>
+		<td class="white"><span class="color3">1位</span></td>
+		<th class="ta3 black"  ><img id="090" src="entry/icon/yaru.png" width="32" height="32" border="0"></th>
+		<td class="white"><span class="color3">090/00<br>ミニゲーム</span></td>
+		<td class="white"><span class="color3"><a href="entry/i090.html#toppage" target="_self" class="r">刹那の白刃取り</a></span></td>
+		<td class="white"><span class="color3">ひめしゃが</span></td>	
+		<td class="white"><span class="color3"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1324647934/" target="_self"  class="r">BBS</a></span></td>
+	</tr>
+	<tr>
+		<td class="red"  ><span class="color3">2位</span></td>
+		<th class="ta3 black"  ><img id="019" src="entry/icon/019_2.png" width="32" height="32" border="0"></th>
+		<td class="red"  ><span class="color2">019/00<br>ｋｓｇ</span></td>
+		<td class="red"  ><span class="color2"><a href="entry/019.html#toppage" target="_self" class="w"  >わてり「紅白の感想ゲーです！」</a></span></td>
+		<td class="red"  ><span class="color2">わ照り焼き</span></td>
+		<td class="red"  ><span class="color2"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1320088975/" target="_self"  class="w">BBS</a></span></td>
+	</tr>
+	<tr>
+		<td class="red"  ><span class="color3">3位</span></td>
+		<th class="ta3 black"  ><img id="053" src="entry/icon/053.gif" width="32" height="32" border="0"></th>
+		<td class="red"  ><span class="color2">053/00<br>祭りげー</span></td>
+		<td class="red"  ><span class="color2"><a href="entry/i053.html#toppage" target="_self" class="w"  >海子産巣水神</a></span></td>
+		<td class="red"  ><span class="color2">ssz</span></td>
+		<td class="red"  ><span class="color2"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1322406046/" target="_self"  class="w">BBS</a></span></td>
+	</tr>
+	<tr>
+		<td class="red"  ><span class="color3">4位</span></td>
+		<th class="ta3 black"  ><img id="085" src="entry/icon/085.png" width="32" height="32" border="0"></th>
+		<td class="red"  ><span class="color2">085/00<br>短編RPG</span></td>
+		<td class="red"  ><span class="color2"><a href="entry/085.html#toppage" target="_self" class="w"  >White Trick</a></span></td>
+		<td class="red"  ><span class="color2">首無ハドウ</span></td>
+		<td class="red"  ><span class="color2"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1324645163/" target="_self"  class="w">BBS</a></span></td>
+	</tr>
+	<tr>
+		<td class="white"><span class="color3">5位</span></td>
+		<th class="ta3 black"  ><img id="006" src="entry/icon/006.png" width="32" height="32" border="0"></th>
+		<td class="white"><span class="color3">006/00<br>RPG</span></td>
+		<td class="white"><span class="color3"><a href="entry/006.html#toppage" target="_self" class="r">シャドウバスターズ</a></span></td>
+		<td class="white"><span class="color3">knt</span></td>
+		<td class="white"><span class="color3"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1319936922/" target="_self"  class="r">BBS</a></span></td>
+	</tr>
+</table></span>
+    <div id="chart_div8"></div>
+</center>
+
+<br>
+<h2 class="mb1em" id="09">テラワロス部門</h2>
+<center><span class="color3">
+<table class="ta3 mb1em">
+	<tr>
+		<td class="dgray" width="25">順位</td>
+		<th class="ta3 dgray" width="32"></th>
+		<td class="dgray" width="100">No./ツール<br>ゲームジャンル</td>
+		<td class="dgray">タイトル</td>
+		<td class="dgray" width="100">作者</td>
+		<td class="dgray" width="20">BBS</td>
+	</tr>
+	<tr>
+		<td class="red"  ><span class="color3">1位</span></td>
+		<th class="ta3 black"  ><img id="039" src="entry/icon/039.png" width="32" height="32" border="0"></th>
+		<td class="red"  ><span class="color2">039/00<br>ksg</span></td>
+		<td class="red"  ><span class="color2"><a href="entry/039.html#toppage" target="_self" class="w"  >まんじゅう</a></span></td>
+		<td class="red"  ><span class="color2">ケツアクメ120連発　ケツアヘ傑作選</span></td>
+		<td class="red"  ><span class="color2"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1320416831/" target="_self"  class="w">BBS</a></span></td>
+	</tr>
+	<tr>
+		<td class="red"  ><span class="color3">2位</span></td>
+		<th class="ta3 black"  ><img id="019" src="entry/icon/019_2.png" width="32" height="32" border="0"></th>
+		<td class="red"  ><span class="color2">019/00<br>ｋｓｇ</span></td>
+		<td class="red"  ><span class="color2"><a href="entry/019.html#toppage" target="_self" class="w"  >わてり「紅白の感想ゲーです！」</a></span></td>
+		<td class="red"  ><span class="color2">わ照り焼き</span></td>
+		<td class="red"  ><span class="color2"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1320088975/" target="_self"  class="w">BBS</a></span></td>
+	</tr>
+	<tr>
+		<td class="white"><span class="color3">3位</span></td>
+		<th class="ta3 black"  ><img id="092" src="entry/icon/092.png" width="32" height="32" border="0"></th>
+		<td class="white"><span class="color3">092/00<br>ｋｓｇ</span></td>
+		<td class="white"><span class="color3"><a href="entry/092.html#toppage" target="_self" class="r">グワヌグ</a></span></td>
+		<td class="white"><span class="color3">◆2aLlGIkY8s</span></td>	
+		<td class="white"><span class="color3"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1324656899/" target="_self"  class="r">BBS</a></span></td>
+	</tr>
+	<tr>
+		<td class="red"  ><span class="color3">4位</span></td>
+		<th class="ta3 black"  ><img id="053" src="entry/icon/053.gif" width="32" height="32" border="0"></th>
+		<td class="red"  ><span class="color2">053/00<br>祭りげー</span></td>
+		<td class="red"  ><span class="color2"><a href="entry/i053.html#toppage" target="_self" class="w"  >海子産巣水神</a></span></td>
+		<td class="red"  ><span class="color2">ssz</span></td>
+		<td class="red"  ><span class="color2"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1322406046/" target="_self"  class="w">BBS</a></span></td>
+	</tr>
+	<tr>
+		<td class="red"  ><span class="color3">5位</span></td>
+		<th class="ta3 black"  ><img id="075" src="entry/icon/075.png" width="32" height="32" border="0"></th>
+		<td class="red"  ><span class="color2">075/00<br>見るゲー</span></td>
+		<td class="red"  ><span class="color2"><a href="entry/075.html#toppage" target="_self" class="w"  >貞子っちゃんのウキウキ年越し大作戦</a></span></td>
+		<td class="red"  ><span class="color2">ひつじぐも</span></td>
+		<td class="red"  ><span class="color2"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1324392258/" target="_self"  class="w">BBS</a></span></td>
+	</tr>
+</table></span>
+    <div id="chart_div9"></div>
+</center>
+
+<br>
+<h2 class="mb1em" id="10">これひど部門</h2>
+<center><span class="color3">
+<table class="ta3 mb1em">
+	<tr>
+		<td class="dgray" width="25">順位</td>
+		<th class="ta3 dgray" width="32"></th>
+		<td class="dgray" width="100">No./ツール<br>ゲームジャンル</td>
+		<td class="dgray">タイトル</td>
+		<td class="dgray" width="100">作者</td>
+		<td class="dgray" width="20">BBS</td>
+	</tr>
+	<tr>
+		<td class="red"  ><span class="color3">1位</span></td>
+		<th class="ta3 black"  ><img id="019" src="entry/icon/019_2.png" width="32" height="32" border="0"></th>
+		<td class="red"  ><span class="color2">019/00<br>ｋｓｇ</span></td>
+		<td class="red"  ><span class="color2"><a href="entry/019.html#toppage" target="_self" class="w"  >わてり「紅白の感想ゲーです！」</a></span></td>
+		<td class="red"  ><span class="color2">わ照り焼き</span></td>
+		<td class="red"  ><span class="color2"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1320088975/" target="_self"  class="w">BBS</a></span></td>
+	</tr>
+	<tr>
+		<td class="white"><span class="color3">2位</span></td>
+		<th class="ta3 black"  ><img id="084" src="entry/icon/084.gif" width="32" height="32" border="0"></th>
+		<td class="white"><span class="color3">084/00<br>ksg集</span></td>
+		<td class="white"><span class="color3"><a href="entry/084.html#toppage" target="_self" class="r">真冬の昼の珍夢</a></span></td>
+		<td class="white"><span class="color3">ＫＭＲ</span></td>
+		<td class="white"><span class="color3"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1324582686/" target="_self"  class="r">BBS</a></span></td>
+	</tr>
+	<tr>
+		<td class="white"><span class="color3">3位</span></td>
+		<th class="ta3 black"  ><img id="066" src="entry/icon/yaru.png" width="32" height="32" border="0"></th>
+		<td class="white"><span class="color3">066/00<br>ノンストップ・ドラマチックミニゲーム</span></td>
+		<td class="white"><span class="color3"><a href="entry/066.html#toppage" target="_self" class="r">ライオンハートヒートソード</a></span></td>
+		<td class="white"><span class="color3">アバンの使徒</span></td>
+		<td class="white"><span class="color3"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1324047526/" target="_self"  class="r">BBS</a></span></td>
+	</tr>
+	<tr>
+		<td class="red"  ><span class="color3">4位</span></td>
+		<th class="ta3 black"  ><img id="053" src="entry/icon/053.gif" width="32" height="32" border="0"></th>
+		<td class="red"  ><span class="color2">053/00<br>祭りげー</span></td>
+		<td class="red"  ><span class="color2"><a href="entry/i053.html#toppage" target="_self" class="w"  >海子産巣水神</a></span></td>
+		<td class="red"  ><span class="color2">ssz</span></td>
+		<td class="red"  ><span class="color2"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1322406046/" target="_self"  class="w">BBS</a></span></td>
+	</tr>
+	<tr>
+		<td class="white"><span class="color3">5位</span></td>
+		<th class="ta3 black"  ><img id="092" src="entry/icon/092.png" width="32" height="32" border="0"></th>
+		<td class="white"><span class="color3">092/00<br>ｋｓｇ</span></td>
+		<td class="white"><span class="color3"><a href="entry/092.html#toppage" target="_self" class="r">グワヌグ</a></span></td>
+		<td class="white"><span class="color3">◆2aLlGIkY8s</span></td>	
+		<td class="white"><span class="color3"><a href="http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15033/1324656899/" target="_self"  class="r">BBS</a></span></td>
+	</tr>
+</table></span>
+    <div id="chart_div0"></div>
+</center>
+
+</div>
+<!--/main-->
+
+
+<div id="footer">
+Copyright&copy; 2011 VIPRPG All Rights Reserved. <center><strong>vipkohaku2011_1<span class="color1"> |/ﾟUﾟ| yahoo.co.jp</center><br />
+<a href="http://nikukyu-punch.com/" target="_blank">Template design by Nikukyu-Punch</a>
+</div>
+<!--/footer-->
+
+
+</div>
+<!--/contents-->
+</div>
+<!--/container-->
+
+<script type="text/javascript"><!--
+var fc2footerparam = 'charset=' + (document.charset ? document.charset : document.characterSet) + '&url=' + document.location + '&service=0&r=' + Math.floor(Math.random()*99999999999);
+var fc2footertag = '<' + 'script src="//vip.chps-api.fc2.com/apis/footer/?' + fc2footerparam + '" charset="UTF-8"><' + '/script>';
+document.write(fc2footertag);
+//--></script>
+<!-- FC2, inc.-->
+<img src="//media.fc2.com/counter_img.php?id=50" style="visibility:hidden" alt="inserted by FC2 system" width="0" height="0">
+<!-- FC2, inc.-->
+</BODY>
+</HTML>

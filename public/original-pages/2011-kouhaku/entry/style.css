@@ -1,0 +1,282 @@
+@charset "UTF-8";
+
+
+
+body {
+	font-family: "メイリオ", Meiryo, "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro";
+	font-size: 75%;
+	line-height: 2;
+	color: #000000;
+	background-image: url("img/bg1.png");
+	background-repeat: repeat-x;
+	background-position: top;
+	margin: 0px;
+	padding: 30px;
+	text-align: center;
+	background-color: #EEEEEE;
+}
+
+body.tikoku {
+	background-image: url("img/bgt.png");
+	background-repeat: repeat;
+	background-position: top;
+}
+
+h1,h2,h3,h4,h5,p,ul,ol,li,dl,dt,dd,form{
+	margin: 0px;
+	padding: 0px;
+}
+
+ul{
+	list-style-type: none;
+}
+
+img {
+	border: none;
+}
+
+input,textarea,select {
+	font-size: 1em;
+}
+
+form {
+	margin: 0px;
+}
+
+table {
+	border-collapse:collapse;
+	font-size: 100%;
+	border-spacing: 0;
+}
+
+
+
+/*リンク設定（全般）
+---------------------------------------------------------------------------*/
+a {
+	color: #333333;
+}
+
+a.b {
+	color: #000000;
+}
+
+a.w {
+	color: #ffffff;
+}
+
+a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+
+a.w:hover {
+	color: #FF7777;
+	text-decoration: none;
+}
+
+a.r:hover {
+	color: #FF7777;
+	text-decoration: none;
+}
+
+
+/*コンテナー（HPを囲むブロック）
+---------------------------------------------------------------------------*/
+#container {
+	text-align: left;
+	width: 644px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*コンテンツ（左右ブロックを囲むブロック）
+---------------------------------------------------------------------------*/
+#contents {
+	background-color: #FFFFFF;
+}
+
+
+/*メインコンテンツ（右側ブロック）
+---------------------------------------------------------------------------*/
+#main {
+	float: right;
+	width: 640px;
+	padding-top: 0px;
+	padding-right: 0px
+	padding-left: 0px
+	padding-bottom: 0px;
+	display: inline;
+	margin-right: 0px;
+}
+
+/*トップページだけメインコンテンツ上の余白をゼロにする設定*/
+#toppage #main {
+	padding-top: 0;
+}
+
+/*段落タグの余白設定*/
+#main p {
+	padding: 0.5em 10px 1em;
+}
+
+/*h2タグ設定（基本カラー）*/
+#main h2 {
+	font-size: 100%;
+	line-height: 30px;
+	padding-left: 30px;
+	color: #FFFFFF;							/*文字色*/
+	background-color: #ff7777;				/*背景色*/
+	background-image: url("img/h2bg1.gif");/*ハートの背景画像*/
+	background-repeat: no-repeat;			/*背景画像をリピートしない*/
+	background-position: left center;		/*背景画像を左側、上下中央に配置*/
+}
+
+/*h2タグ設定（アクセントカラー）*/
+#main h2.h2bg2 {
+	background-color: #000000;				/*背景色*/
+	background-image: url("img/h2bg2.gif");/*ハートの背景画像*/
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+/*メインコンテンツ内の「更新情報・お知らせ」部分
+---------------------------------------------------------------------------*/
+#main .new dl {
+	width: 640px;			/*ボックスの幅*/
+	height: 70px;			/*ボックスの高さ*/
+	overflow: auto;
+	padding-left: 10px;
+	background-color: #EEEEEE;
+}
+
+#main .new dt {
+	font-weight: bold;	/*日付の色を太字にする*/
+	color: #ff7777;		/*日付の文字色*/
+}
+
+#main .new dd {
+	border-bottom: 1px solid #cccccc;	/*日付ごとの下線*/
+}
+
+/*テーブル（page1.htmlに置いてあるサンプルテーブル）
+---------------------------------------------------------------------------*/
+.ta {
+	border: 0px solid #000000;	/*外枠の線*/
+	width: 640px;
+}
+
+.ta td, .ta th {
+	border: 0px solid #000000;	/*内枠の線。ここでは点線(IE6前だと破線で表示される)に設定*/
+	padding: 0px 2px;			/*余白*/
+	line-height: 1.4;
+}
+
+.ta th {
+	background-color: #fafafa;	/*左側（table midashi部分）の背景色*/
+	padding: 0px 0px;			/*余白*/
+	height: 32px;
+	width:  32px;
+	text-align: center;
+}
+
+.ta td.black {
+	background-color: #000000;
+}
+
+.ta td.gray {
+	border: 1px solid #000000;	/*外枠の線*/
+	background-color: #aaaaaa;
+}
+
+.ta td.white {
+	border: 1px solid #000000;	/*外枠の線*/
+	background-color: #EEEEEE;
+}
+
+.ta td.red {
+	border: 1px solid #000000;	/*外枠の線*/
+	background-color: #ff7777;
+}
+
+
+.ta3 {
+	border: 3px solid #cccccc;	/*外枠の線*/
+	width: 640px;
+}
+
+.ta3 td, .ta3 th {
+	border: 1px solid #000000;	/*内枠の線。ここでは点線(IE6前だと破線で表示される)に設定*/
+	padding: 0px 5px;			/*余白*/
+	line-height: 1.0;
+}
+
+.ta3 td.s, .ta3 th.s {
+	background-color: #000000;
+	border: 1px solid #000000;	/*内枠の線。ここでは点線(IE6前だと破線で表示される)に設定*/
+	padding: 0px 0px;			/*余白*/
+	line-height: 1.0;
+	height: 8px;
+}
+
+.ta3 td.red {
+	background-color: #ff7777;
+}
+
+.ta3 td.white1 {
+	background-color: #FFFFFF;
+}
+
+.ta3 td.gray, .ta3 th.gray {
+	background-color: #EEEEEE;
+}
+
+.ta3 td.dgray, .ta3 th.dgray {
+	background-color: #AAAAAA;
+}
+
+.ta3 td.black, .ta3 th.black {
+	background-color: #000000;
+}
+
+.ta3 th {
+	background-color: #fafafa;	/*左側（table midashi部分）の背景色*/
+	padding: 0px 0px;			/*余白*/
+	height: 32px;
+	width:  32px;
+	text-align: center;
+}
+
+/*その他
+---------------------------------------------------------------------------*/
+.color1 {
+	color: #ff7777;
+}
+
+.color2 {
+	color: #FFFFFF;
+}
+
+.color3 {
+	color: #000000;
+}
+
+.top {
+	line-height: normal; /*AA用*/
+	font-family:'ＭＳ Ｐゴシック','ＭＳＰゴシック','MSPゴシック','MS Pゴシック';
+	font-size:16px;
+	line-height:18px;
+}
+
+.look {
+	background-color: #E9E9E9;
+}
+
+.mb1em {
+	margin-bottom: 1em;
+}
+
+.clear {
+	clear: both;
+}
+

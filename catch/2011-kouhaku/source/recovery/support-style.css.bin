@@ -1,0 +1,399 @@
+@charset "shift_jis";
+
+
+
+body {
+	font-family: "メイリオ", Meiryo, "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro";
+	font-size: 75%;
+	line-height: 2;
+	color: #333333;
+	background-image: url(img/bg.png);
+	background-repeat: repeat-x;
+	background-position: top;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	background-color: #EEEEEE;
+}
+
+h1,h2,h3,h4,h5,p,ul,ol,li,dl,dt,dd,form{
+	margin: 0px;
+	padding: 0px;
+}
+
+ul{
+	list-style-type: none;
+}
+
+img {
+	border: none;
+}
+
+input,textarea,select {
+	font-size: 1em;
+}
+
+form {
+	margin: 0px;
+}
+
+table {
+	border-collapse:collapse;
+	font-size: 100%;
+	border-spacing: 0;
+}
+
+
+
+/*リンク設定（全般）
+---------------------------------------------------------------------------*/
+a {
+	color: #333333;
+}
+
+a.red {
+	color: #ffffff;
+}
+
+a.white {
+	color: #333333;
+}
+
+a.b {
+	color: #000000;
+}
+
+a:hover {
+	color: #ff7777;
+	text-decoration: none;
+}
+
+a.red:hover {
+	color: #aaaaaa;
+	text-decoration: none;
+}
+
+a.white:hover {
+	color: #ff7777;
+	text-decoration: none;
+}
+
+/*コンテナー（HPを囲むブロック）
+---------------------------------------------------------------------------*/
+#container {
+	text-align: left;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+
+/*コンテンツ（左右ブロックを囲むブロック）
+---------------------------------------------------------------------------*/
+#contents {
+	background-color: #FFFFFF;
+}
+
+
+
+/*ヘッダー（サイトロゴなどが入っているHP最上部のブロック）
+---------------------------------------------------------------------------*/
+#header {
+	height: 84px;
+	width: 100%;
+	position: relative;
+}
+
+/*h1タグ設定*/
+#header h1 {
+	font-size: 10px;	/*文字サイズ*/
+	line-height: 20px;
+	font-weight: normal;
+	color: #ff7777;		/*文字色*/
+	position: absolute;
+	left: 8px;			/*ヘッダーに対して左から8pxの位置に配置*/
+	top: 0px;			/*ヘッダーに対して上から0pxの位置に配置*/
+	z-index:1;			/*ロゴに重なった時にこちらが上に表示されるように*/
+}
+
+/*サイト名ロゴ画像*/
+#header #logo {
+	position: absolute;
+	top: 10px;			/*ヘッダーに対して上から10pxの位置に配置*/
+	left: 0px;			/*ヘッダーに対して左から0pxの位置に配置*/
+}
+
+/*右上画像*/
+#header #tel {
+	position: absolute;
+	top: 10px;			/*ヘッダーに対して上から10pxの位置に配置*/
+	right: 0px;			/*ヘッダーに対して左から0pxの位置に配置*/
+}
+
+/*h5タグ設定（基本カラー）*/
+#header h5 {
+	font-size: 16px;	/*文字サイズ*/
+	line-height: 20px;
+	font-weight: normal;
+	color: #ffffff;		/*文字色*/
+	text-shadow:3px 3px 2px #000000;
+	position: absolute;
+	right: 8px;			/*ヘッダーに対して左から8pxの位置に配置 8 220*/
+	top: 15px;			/*ヘッダーに対して上から0pxの位置に配置 42 */
+	z-index:1;			/*ロゴに重なった時にこちらが上に表示されるように*/
+}
+
+/*メインコンテンツ（右側ブロック）
+---------------------------------------------------------------------------*/
+#main {
+	float: right;
+	width: 680px;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	display: inline;
+	margin-right: 5px;
+}
+
+/*トップページだけメインコンテンツ上の余白をゼロにする設定*/
+#toppage #main {
+	padding-top: 0;
+}
+
+/*段落タグの余白設定*/
+#main p {
+	padding: 0.5em 10px 1em;
+}
+
+/*h2タグ設定（基本カラー）*/
+#main h2 {
+	font-size: 100%;
+	line-height: 30px;
+	padding-left: 30px;
+	color: #FFFFFF;							/*文字色*/
+	background-color: #ff7777;				/*背景色*/
+	background-image: url(img/h2bg1.gif);/*ハートの背景画像*/
+	background-repeat: no-repeat;			/*背景画像をリピートしない*/
+	background-position: left center;		/*背景画像を左側、上下中央に配置*/
+}
+
+/*h2タグ設定（アクセントカラー）*/
+#main h2.h2bg2 {
+	background-color: #000000;				/*背景色*/
+	background-image: url(img/h2bg2.gif);/*ハートの背景画像*/
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+/*サイドコンテンツ（左側ブロック）
+---------------------------------------------------------------------------*/
+#side {
+	float: left;
+	width: 200px;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	display: inline;
+	margin-left: 10px;
+}
+
+/*h4見出しタグ設定*/
+#side h4 {
+	font-size: 100%;
+	color: #ff7777;		/*文字色*/
+	border-bottom: 1px dotted #ff7777;	/*下線の設定*/
+}
+
+/*段落タグの余白設定*/
+#side p {
+	padding-top: 0.5em;
+	padding-bottom: 1em;
+}
+
+
+
+/*サイドメニュー
+---------------------------------------------------------------------------*/
+ul.sidemenu {
+	margin-top: 1px;
+	margin-bottom: 1em;
+}
+
+ul.sidemenu li {
+	margin-bottom: 1px;
+}
+
+ul.sidemenu a {
+	color: #FFFFFF;				/*文字色*/
+	text-decoration: none;		/*リンクの下線を消す*/
+	background-color: #ff7777;	/*背景色*/
+	display: block;
+	width: 198px;
+	text-align: center;			/*センタリング*/
+	border: 1px solid #ff7777;	/*背景色と同じにしてあるので分かりませんがこの色を変えると枠線が出ます*/
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+ul.sidemenu a:hover {
+	color: #ff7777;				/*カーソルオーバー時の文字色*/
+	background-color: #FFFFFF;	/*背景色*/
+	border: 1px solid #ff7777;	/*枠線設定*/
+}
+
+
+
+
+
+/*フッター（コピーライトなど入っているHP最下部ブロック）
+---------------------------------------------------------------------------*/
+#footer {
+	font-size: 11px;		/*文字サイズ*/
+	line-height: 1.4;		/*行間*/
+	text-align: center;		/*センタリング*/
+	clear: both;
+	width: 100%;
+	border-top: 1px solid #EEEEEE;	/*上に入れているライン*/
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+
+/*メインコンテンツ内の「更新情報・お知らせ」部分
+---------------------------------------------------------------------------*/
+#main .new dl {
+	width: 660px;			/*ボックスの幅*/
+	height: 140px;			/*ボックスの高さ*/
+	overflow: auto;
+	padding-left: 10px;
+}
+
+#main .new dt {
+	font-weight: bold;	/*日付の色を太字にする*/
+	color: #ff7777;		/*日付の文字色*/
+}
+
+#main .new dd {
+	border-bottom: 1px solid #cccccc;	/*日付ごとの下線*/
+}
+
+#main .new1 dl {
+	width: 640px;			/*ボックスの幅*/
+	height: 240px;			/*ボックスの高さ*/
+	overflow: auto;
+	padding-left: 0px;
+}
+
+#main .new1 dt {
+	font-weight: bold;	/*日付の色を太字にする*/
+	color: #ff7777;		/*日付の文字色*/
+}
+
+#main .new1 dd {
+	border-bottom: 1px solid #cccccc;	/*日付ごとの下線*/
+}
+
+#main .new2 dl {
+	width: 640px;			/*ボックスの幅*/
+	height: 600px;			/*ボックスの高さ*/
+	overflow: auto;
+	padding-left: 0px;
+}
+
+#main .new2 dt {
+	font-weight: bold;	/*日付の色を太字にする*/
+	color: #ff7777;		/*日付の文字色*/
+}
+
+#main .new2 dd {
+	border-bottom: 1px solid #cccccc;	/*日付ごとの下線*/
+}
+
+
+
+/*テーブル（page1.htmlに置いてあるサンプルテーブル）
+---------------------------------------------------------------------------*/
+.ta1 {
+	border: 3px solid #cccccc;	/*外枠の線*/
+	width: 650px;
+}
+
+.ta1 td, .ta1 th{
+	border: 1px dotted #999999;	/*内枠の線。ここでは点線(IE6前だと破線で表示される)に設定*/
+	padding: 3px 5px;			/*余白*/
+	line-height: 1.8;
+}
+
+.ta1 th.tamidashi{
+	width: auto;
+	background-color: #FFFFFF;	/*上部（table title部分）の背景色*/
+}
+
+.ta1 th{
+	background-color: #EEEEEE;	/*左側（table midashi部分）の背景色*/
+	width: 150px;
+	text-align: center;
+}
+
+
+
+.ta2 { 
+	border: 0px solid #FFFFFF;	/*外枠の線*/
+	width: 650px;
+}
+
+.ta2 td, .ta2 th {
+	border: 0px dotted #FFFFFF;	/*内枠の線。ここでは点線(IE6前だと破線で表示される)に設定*/
+	padding: 10px 5px;			/*余白*/
+	line-height: 1.8;
+}
+
+/*その他
+---------------------------------------------------------------------------*/
+.color1 {
+	color: #ff7777;
+}
+
+.color2 {
+	color: #FFFFFF;
+}
+
+.color3 {
+	color: #000000;
+}
+
+.size125 {
+	font-size: 125%;
+}
+.size150 {
+	font-size: 150%;
+}
+.size400 {
+	font-size: 250%;
+}
+
+.top {
+	color: #FFFFFF;		/*AA用*/
+	line-height: normal;
+	font-family:'ＭＳ Ｐゴシック','ＭＳＰゴシック','MSPゴシック','MS Pゴシック';
+	font-size:12px;
+	line-height:14px;
+}
+
+.look {
+	background-color: #E9E9E9;
+}
+
+.mb1em {
+	margin-bottom: 1em;
+}
+
+.clear {
+	clear: both;
+}
+
+ul.disc {
+	padding: 0.5em 20px 0em 30px;
+	list-style: disc;
+}
+

@@ -1,0 +1,24 @@
+{
+  "reviewedAt": "2026-10-18",
+  "widths": [
+    1440,
+    1280
+  ],
+  "evidence": [
+    "catch/2011-kouhaku/formatted-desktop-review.json",
+    "catch/2011-kouhaku/original-desktop-review.json",
+    "catch/2011-kouhaku/hover-desktop-review.json",
+    "catch/2011-kouhaku/gallery-desktop-review.json",
+    "catch/2011-kouhaku/catalogue-desktop-review.json"
+  ],
+  "imageEvidence": "catch/2011-kouhaku/image-decode-review.json",
+  "httpEvidence": "catch/2011-kouhaku/http-review.json",
+  "checks": [
+    "All 98 formatted detail routes at both widths; no horizontal document overflow",
+    "Catalogue sample and 98 unique detail links; link to original view",
+    "Original bottom menu, catalogue, next and TOP inside the retained frameset",
+    "Original screenshot hover in/out transitions",
+    "Formatted gallery opens, changes with arrow keys and closes with Escape; scrolling restored"
+  ],
+  "sourceGaps": 106
+}

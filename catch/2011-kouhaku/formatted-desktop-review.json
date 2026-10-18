@@ -1,0 +1,9 @@
+{
+  "reviewedAt": "2026-10-18",
+  "widths": [1440, 1280],
+  "recordsPerWidth": 98,
+  "recordNumbers": "000 through 097, inclusive",
+  "browserNavigations": 196,
+  "failures": [],
+  "method": "Render each detail route in the browser, wait for .detail-card and measure document scrollWidth against the viewport. All responses were HTTP 200 and no page exceeded the viewport. Full per-page geometry was not exported; this records the observed checker summary."
+}
