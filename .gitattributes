@@ -4,3 +4,7 @@
 # Recovery evidence and original-page bundles must retain their exact bytes.
 /catch/** -text
 /public/original-pages/** -text
+
+# Raw capture payloads are data, not reviewable source diffs.
+/catch/**/*.bin -diff
+/public/original-pages/** -diff
