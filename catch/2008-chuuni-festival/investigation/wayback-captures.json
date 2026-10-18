@@ -1,0 +1,60 @@
+{
+  "proxyRegion": "Hong Kong",
+  "proxyPort": "127.0.0.1:7897",
+  "exitCountry": "HK",
+  "checkedAt": "2026-10-18T10:32:09.739Z",
+  "queries": [
+    {
+      "file": "index-https-cdx.json",
+      "requestedUrl": "https://vipkohaku.x.fc2.com/2008chu/index.html",
+      "matchType": "exact",
+      "status": 200,
+      "bytes": 326,
+      "sha256": "77e3852d50a82f7f6d25e16690ec5124beac4dc4011072a7a2f1200352dbf816",
+      "rowCount": 2,
+      "statusCounts": {
+        "200": 1,
+        "302": 1
+      }
+    },
+    {
+      "file": "index-http-cdx.json",
+      "requestedUrl": "http://vipkohaku.x.fc2.com/2008chu/index.html",
+      "matchType": "exact",
+      "status": 200,
+      "bytes": 326,
+      "sha256": "77e3852d50a82f7f6d25e16690ec5124beac4dc4011072a7a2f1200352dbf816",
+      "rowCount": 2,
+      "statusCounts": {
+        "200": 1,
+        "302": 1
+      }
+    },
+    {
+      "file": "prefix-https-cdx.json",
+      "requestedUrl": "https://vipkohaku.x.fc2.com/2008chu/",
+      "matchType": "prefix",
+      "status": 200,
+      "bytes": 445,
+      "sha256": "1bc21066cb6539917942b1089efbe6be0126cacfd0ba2d1b988082dd873a2fbb",
+      "rowCount": 3,
+      "statusCounts": {
+        "200": 2,
+        "302": 1
+      }
+    },
+    {
+      "file": "prefix-http-cdx.json",
+      "requestedUrl": "http://vipkohaku.x.fc2.com/2008chu/",
+      "matchType": "prefix",
+      "status": 200,
+      "bytes": 445,
+      "sha256": "1bc21066cb6539917942b1089efbe6be0126cacfd0ba2d1b988082dd873a2fbb",
+      "rowCount": 3,
+      "statusCounts": {
+        "200": 2,
+        "302": 1
+      }
+    }
+  ]
+}

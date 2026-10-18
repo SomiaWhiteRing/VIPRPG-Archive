@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2008-chuuni-festival",
+  "activeFestival": "2008-gw",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -838,6 +838,44 @@
         "catch/2009-summer/original-view.json"
       ],
       "notes": "日本节点下目录页及代表性 CSS／图片请求不可用；香港节点归档提供目录、100 个详情页、100 张列表预览及 5 张详情大图。另 95 张详情大图（含 No.000 样例）、背景图片和目录样式无可用内容归档，计数器请求也无捕获；原貌页用固定占位并移除无效自动加载。保留99条现有标题、作者、评论、论坛与82个下载字段，全部99条补来源及列表预览，不审看或筛选条目内容，不新增受限标记。"
+    },
+    {
+      "festivalId": "2008-chuuni-festival",
+      "reviewedAt": "2026-10-18",
+      "dataSha256": "14dcaeb8cf51f0f90364df70ad8d54b815c1f708c142106e7e1a1e175a2af75c",
+      "works": 24,
+      "screenshotFiles": 0,
+      "screenshotReferences": 0,
+      "status": "reviewed-with-documented-source-gaps",
+      "outstandingSourceDetails": 24,
+      "outstandingImageSourceUrls": 6,
+      "outstandingScreenshotRows": 24,
+      "outstandingOtherResources": 2,
+      "outstandingAuxiliaryPages": 2,
+      "sourceEvidence": [
+        "catch/2008-chuuni-festival/recovery.json",
+        "catch/2008-chuuni-festival/source-comparison.json",
+        "catch/2008-chuuni-festival/source/archive/manifest.json",
+        "catch/2008-chuuni-festival/source/archive/capture-metadata.json",
+        "catch/2008-chuuni-festival/investigation/direct-attempts.json",
+        "catch/2008-chuuni-festival/investigation/direct-entry-attempts.json",
+        "catch/2008-chuuni-festival/investigation/direct-source-assets.json",
+        "catch/2008-chuuni-festival/investigation/index-https-cdx.json",
+        "catch/2008-chuuni-festival/investigation/index-http-cdx.json",
+        "catch/2008-chuuni-festival/investigation/prefix-https-cdx.json",
+        "catch/2008-chuuni-festival/investigation/prefix-http-cdx.json",
+        "catch/2008-chuuni-festival/investigation/entry-cdx.json",
+        "catch/2008-chuuni-festival/investigation/asset-cdx.json",
+        "catch/2008-chuuni-festival/investigation/additional-page-cdx.json",
+        "catch/2008-chuuni-festival/investigation/original-timemap.bin",
+        "catch/2008-chuuni-festival/investigation/structural-inventory.json",
+        "catch/2008-chuuni-festival/original-view.json"
+      ],
+      "desktopEvidence": [
+        "catch/2008-chuuni-festival/desktop-review.json",
+        "catch/2008-chuuni-festival/original-view.json"
+      ],
+      "notes": "日本节点源站目录、代表详情页和代表图片请求不可用；香港节点保存了2019主目录与2023替代目录，结构均为24条登记行。详情页及No.000样例、辅助页无成功捕获，原貌视图用26个中性本地骨架保留路径。2019目录中的11个下载地址与现有字段精确匹配，2023的11个Drive迁移地址作为替代记录保留。六个目录图像无可用存档。保留24条现有详情禁用状态，未新增受限标记，也未改变标题、作者、下载字段或筛选内容。"
     }
   ],
   "originalViewsReviewed": [
@@ -1039,6 +1077,13 @@
       "evidence": [
         "catch/2009-summer/original-view.json",
         "catch/2009-summer/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2008-chuuni-festival",
+      "evidence": [
+        "catch/2008-chuuni-festival/original-view.json",
+        "catch/2008-chuuni-festival/desktop-review.json"
       ]
     }
   ],

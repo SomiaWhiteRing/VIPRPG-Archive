@@ -1,0 +1,78 @@
+{
+  "proxyRegion": "Hong Kong",
+  "proxyPort": "127.0.0.1:7897",
+  "exitCountry": "HK",
+  "encodingTest": "Shift_JIS",
+  "captures": [
+    {
+      "file": "index-20190518093109.bin",
+      "timestamp": "20190518093109",
+      "status": "200",
+      "cdxLength": 5091,
+      "responseBytes": 22776,
+      "captureDigestMatches": true,
+      "metaCharset": "text/html; charset=x-sjis",
+      "structure": {
+        "tables": 7,
+        "rows": 30,
+        "divs": 0,
+        "lists": 0,
+        "listItems": 0,
+        "links": 50,
+        "images": 7,
+        "iframes": 0,
+        "forms": 0,
+        "scripts": 1,
+        "stylesheets": 0,
+        "detailLinks": 26,
+        "archivePackageLinks": 0
+      },
+      "hosts": [
+        "vipkohaku.x.fc2.com",
+        "yy59.60.kg",
+        "yy61.60.kg",
+        "sky.geocities.jp",
+        "box.yahoo.co.jp",
+        "media.fc2.com"
+      ],
+      "linkExtensions": {
+        "html": 26
+      }
+    },
+    {
+      "file": "directory-20230206095914.bin",
+      "timestamp": "20230206095914",
+      "status": "200",
+      "cdxLength": 5544,
+      "responseBytes": 22441,
+      "captureDigestMatches": true,
+      "metaCharset": "text/html; charset=x-sjis",
+      "structure": {
+        "tables": 7,
+        "rows": 30,
+        "divs": 0,
+        "lists": 0,
+        "listItems": 0,
+        "links": 50,
+        "images": 7,
+        "iframes": 0,
+        "forms": 0,
+        "scripts": 1,
+        "stylesheets": 0,
+        "detailLinks": 26,
+        "archivePackageLinks": 0
+      },
+      "hosts": [
+        "vipkohaku.x.fc2.com",
+        "yy59.60.kg",
+        "yy61.60.kg",
+        "sky.geocities.jp",
+        "drive.google.com",
+        "media.fc2.com"
+      ],
+      "linkExtensions": {
+        "html": 26
+      }
+    }
+  ]
+}

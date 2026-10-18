@@ -97,6 +97,13 @@ const configurations: Record<string, { base: string; entry?: string; manifests: 
     encoding: "shift_jis", liveSource: true,
     preserveExternalExtensions: [".zip"],
   },
+  "2008-chuuni-festival": {
+    base: "https://vipkohaku.x.fc2.com/2008chu/",
+    entry: "index.html",
+    manifests: ["source/archive/manifest.json"],
+    seeds: { "index.html": "source/archive/index-20190518093109.bin" },
+    encoding: "shift_jis",
+  },
   "2009-summer": {
     base: "https://vipkohaku.x.fc2.com/2009s/",
     entry: "index.html",
@@ -555,12 +562,12 @@ async function main() {
         }
         $("base").remove();
         if (id === "2012-kouhaku") $("noscript,#geniee_overray_base,#geniee_overray_tag,link[rel='alternate'],img[src*='geniee.jp']").remove();
-        if (id === "2009-summer" && $('img[src*="media.fc2.com/counter_img.php"]').length) {
+        if ((id === "2008-chuuni-festival" || id === "2009-summer") && $('img[src*="media.fc2.com/counter_img.php"]').length) {
           compatibilityFixes.push({ page: local, change: "Remove the uncaptured external visitor counter to keep the replay offline and avoid a live third-party request." });
         }
         $('img[src*="media.fc2.com/counter_img.php"]').remove();
         $('img[src*="netriver.jp/countriver/"]').remove();
-        if (id === "2009-summer") {
+        if (id === "2008-chuuni-festival" || id === "2009-summer") {
           const activeElements = $("script,noscript,form,object,embed").length;
           $("script,noscript,form,object,embed").remove();
           const unarchivedLoads = $("img[src],iframe[src],link[rel~='stylesheet'][href],video[src],audio[src],source[src]").toArray().filter((element) => {
@@ -772,7 +779,7 @@ async function main() {
         compatibilityFixes.push({ page: local, change: `Replace the broken image ${resource} with a fixed missing-source notice, without invented artwork.` });
       }
     });
-    if (id === "2009-summer") {
+    if (id === "2008-chuuni-festival" || id === "2009-summer") {
       $("link[rel*=stylesheet][href]").each((_, element) => {
         const node = $(element), resource = relative(new URL(node.attr("href")!, new URL(local, base)).href);
         if (!resource || !unavailable.has(resource)) return;
@@ -828,10 +835,10 @@ async function main() {
         compatibilityFixes.push({ page: local, change: "Omit an unavailable stylesheet or favicon reference; the source inline styling remains in place and the missing resource stays documented." });
       }
     });
-    if (["2010-gw", "2012-kouhaku", "2011-gw", "2011-kouhaku", "2010-summer", "2009-kouhaku", "2009-ksgfestival", "2009-silver-week-miruge-festival", "2009-summer", "2009-gw"].includes(id) || [...omittedBackgrounds, ...omittedHovers].some((omission) => omission.page === local)) files.set(local, Buffer.from($.html()));
+    if (["2010-gw", "2012-kouhaku", "2011-gw", "2011-kouhaku", "2010-summer", "2009-kouhaku", "2009-ksgfestival", "2009-silver-week-miruge-festival", "2009-summer", "2008-chuuni-festival", "2009-gw"].includes(id) || [...omittedBackgrounds, ...omittedHovers].some((omission) => omission.page === local)) files.set(local, Buffer.from($.html()));
   }
   const generatedUnavailablePages: string[] = [];
-  if (["2011-gw", "2010-gw", "2009-ksgfestival"].includes(id)) for (const gap of recovery.sourceDetailGaps ?? []) {
+  if (["2011-gw", "2010-gw", "2009-ksgfestival", "2008-chuuni-festival"].includes(id)) for (const gap of recovery.sourceDetailGaps ?? []) {
     const work = catalogue.find((work) => work.no === gap.no);
     if (!work || files.has(gap.sourcePath)) continue;
     const escape = (value: string) => value.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
@@ -845,6 +852,16 @@ async function main() {
       ${work.source?.titleUrl ? `<p><a href="${escape(work.source.titleUrl)}">題名を確認した公式感想スレッド</a></p>` : ""}<p><a href="../index.html#works">作品一覧へ戻る</a></p></body></html>`));
     generatedUnavailablePages.push(gap.sourcePath);
     compatibilityFixes.push({ page: gap.sourcePath, change: "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented." });
+  }
+  if (id === "2008-chuuni-festival") for (const gap of recovery.unavailableSourcePages ?? []) {
+    if (files.has(gap.sourcePath)) continue;
+    const sample = gap.no === "000";
+    const heading = sample ? "No.000 — 原ページ未取得" : "原ページ未取得";
+    files.set(gap.sourcePath, Buffer.from(`<!doctype html><html lang="ja"><meta charset="UTF-8"><title>${heading}</title>
+      <style>body{max-width:800px;margin:2em auto;padding:0 1em;font-family:sans-serif;line-height:1.6}.note{padding:1em;border:1px solid #aab;background:#f0f3f7}</style>
+      <body data-archive-source-unavailable="${sample ? "sample" : "page"}"><main><h1>${heading}</h1><p class="note">このページの保存済み本文は見つかっていません。原資料の内容は補わず、一覧にあった番号とページ構造だけを残しています。</p><p><a href="../index.html">一覧へ戻る</a></p></main></body></html>`));
+    generatedUnavailablePages.push(gap.sourcePath);
+    compatibilityFixes.push({ page: gap.sourcePath, change: sample ? "Create a neutral local shell for the linked No.000 sample page; do not add it to the 24 registered works." : "Create a neutral local shell for an uncaptured auxiliary source page; preserve its local route without fabricating contents." });
   }
   if (id === "2009-kouhaku" && failures.some((failure) => new URL(failure.url).pathname === "/handin.htm")) {
     files.set("handin.htm", Buffer.from(`<!doctype html><html lang="zh-Hans"><meta charset="UTF-8"><title>原页面未取得</title><main><h1>原页面未取得</h1><p>日本节点下的源站请求返回 404；香港节点下的 Wayback 精确 URL 查询没有成功快照。</p><p><a href="index.htm">返回原站入口</a></p></main></html>`));

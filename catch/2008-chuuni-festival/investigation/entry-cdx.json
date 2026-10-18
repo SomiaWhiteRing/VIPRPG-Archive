@@ -1,0 +1,36 @@
+{
+  "proxyRegion": "Hong Kong",
+  "proxyPort": "127.0.0.1:7897",
+  "exitCountry": "HK",
+  "checkedAt": "2026-10-18T10:33:20.978Z",
+  "queries": [
+    {
+      "name": "entry-001",
+      "matchType": "exact",
+      "status": 200,
+      "bytes": 3,
+      "captures": []
+    },
+    {
+      "name": "entry-000",
+      "matchType": "exact",
+      "status": 200,
+      "bytes": 3,
+      "captures": []
+    },
+    {
+      "name": "entry-024",
+      "matchType": "exact",
+      "status": 200,
+      "bytes": 3,
+      "captures": []
+    },
+    {
+      "name": "entry-prefix",
+      "matchType": "prefix",
+      "status": 200,
+      "bytes": 3,
+      "captures": []
+    }
+  ]
+}
