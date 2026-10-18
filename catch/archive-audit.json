@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T03:30:46.792Z",
+  "generatedAt": "2026-10-18T04:21:11.086Z",
   "scope": "Local inventory; field presence is not source verification or completeness.",
   "totals": {
     "festivals": 74,
@@ -10,9 +10,9 @@
     "restrictedDetails": 7,
     "withComments": 3160,
     "withScreenshots": 2833,
-    "withDownload": 1722,
-    "withSource": 1538,
-    "referencedAssets": 7012,
+    "withDownload": 1723,
+    "withSource": 1641,
+    "referencedAssets": 7014,
     "assetIssues": 0
   },
   "festivals": [
@@ -1005,19 +1005,19 @@
     },
     {
       "id": "2010-kouhaku",
-      "dataSha256": "110ff2458947468a9ba3641df6d8d8fe4609a29adae09a5ef852b86fb0668060",
+      "dataSha256": "a16da4c6cba372b831df8e0f28255ab7b6f28afaa1a15948096dfc691a53dd95",
       "listedSourceUrl": "https://vipkohaku20102.web.fc2.com/",
       "works": 103,
-      "banners": 1,
+      "banners": 3,
       "detailPages": 103,
       "disabledDetails": 0,
       "restrictedDetails": 0,
       "withAuthor": 103,
       "withComments": 103,
       "withScreenshots": 103,
-      "withDownload": 0,
-      "withSource": 0,
-      "cachedHtmlFiles": 0,
+      "withDownload": 1,
+      "withSource": 103,
+      "cachedHtmlFiles": 130,
       "summaries": [
         "catch/2010-kouhaku-scrape-summary.json"
       ]

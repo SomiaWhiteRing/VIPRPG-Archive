@@ -1,0 +1,7 @@
+投票をとりあえずNo順にするブックマークレット
+
+1. 投票ページを開く
+2. ブラウザのURL欄に↓をコピペしてエンター
+javascript: (function(){var ul=$('form > div.choices > ul'),t=[];ul.find('li').each(function(i,e){s=$(e);t.push([s.text().replace(/^\s*/,''),s]);s.remove();});t=t.sort(function(a,b){return(a[0]>b[0])?1:(a[0]<b[0])?-1:0});for(i in t){ul.append(t[i][1]);}})()
+
+※ブックマークレットというだけあって↑をブックマークのURL欄にいれておくと簡単につかえる！

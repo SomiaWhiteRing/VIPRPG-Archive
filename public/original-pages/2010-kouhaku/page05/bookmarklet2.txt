@@ -1,0 +1,79 @@
+やったー！　紅白2010の中間発表をソートするブックマークレットできたよー！
+
+javascript: (function(){function bm(){var tb=$("table table tbody"),tr=tb.find("tr"),r=[];tr.each(function(){var v=parseInt($(this).find("td:last").text());if(!isNaN(v)){r.push([v,this]);$(this).remove()}});r.sort(function(a,b){return b[0]-a[0]});for(i in r)tb.append(r[i][1])}if(typeof jQuery=="undefined"){var q=document.createElement("script");q.type="text/javascript";q.onload=bm;q.src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js";document.body.appendChild(q)}else bm()})();
+
+
+圧縮前：
+javascript:
+(function() {
+  function bm() {
+    var tb = $('table table tbody'), tr = tb.find('tr'), r = [];
+    tr.each(function(){
+      var v = parseInt($(this).find('td:last').text());
+      if (!isNaN(v)) {
+        r.push([
+          v,
+          this
+        ]);
+        $(this).remove();
+      }
+    });
+    r.sort(function(a,b){ return b[0] - a[0] });
+    
+    for(i in r){
+      tb.append(r[i][1]);
+    }
+  }
+
+  if (typeof jQuery === 'undefined') {
+    var q = document.createElement('script');
+    q.type   = 'text/javascript';
+    q.onload = bm;
+    q.src    = 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js';
+    document.body.appendChild(q);
+  } else {
+    bm();
+  }
+})();
+
+
+ついでに紅白も分かるようにするようにしたよー！ [17:33頃追加]
+
+javascript:(function(){function bm(){var tb=$("table table tbody"),tr=tb.find("tr"),r=[];tr.each(function(){var d=$(this),v=parseInt(d.find("td:last").text(),10),e=parseInt(d.find("td:first").text(),10);if(!isNaN(v)){r.push([v,this]);d.find("td").css("background-color",e%2===0?"#fff":"#f44");d.remove()}});r.sort(function(a,b){return b[0]-a[0]});for(i in r)tb.append(r[i][1])}if(typeof jQuery==="undefined"){var q=document.createElement("script");q.type="text/javascript";q.onload=bm;q.src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"; document.body.appendChild(q)}else bm()})();
+
+
+圧縮前：
+javascript:
+(function() {
+  function bm() {
+    var tb = $('table table tbody'), tr = tb.find('tr'), r = [];
+    tr.each(function(){
+      var d = $(this),
+          v = parseInt(d.find('td:last').text(), 10),
+          e = parseInt(d.find('td:first').text(), 10);
+      if (!isNaN(v)) {
+        r.push([
+          v,
+          this
+        ]);
+        d.find('td').css('background-color', ((e % 2) === 0) ? '#fff' : '#f44');
+        d.remove();
+      }
+    });
+    r.sort(function(a,b){ return b[0] - a[0] });
+    
+    for(i in r){
+      tb.append(r[i][1]);
+    }
+  }
+
+  if (typeof jQuery === 'undefined') {
+    var q = document.createElement('script');
+    q.type   = 'text/javascript';
+    q.onload = bm;
+    q.src    = 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js';
+    document.body.appendChild(q);
+  } else {
+    bm();
+  }
+})();

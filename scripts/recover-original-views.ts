@@ -58,6 +58,14 @@ const configurations: Record<string, { base: string; entry?: string; manifests: 
     seeds: { "index.html": "source/archive/index.html.bin" },
     encoding: "shift_jis", liveSource: true,
   },
+  "2010-kouhaku": {
+    base: "https://vipkohaku20102.web.fc2.com/",
+    entry: "index.html",
+    manifests: ["source/original/manifest.json"],
+    seeds: { "index.html": "source/original/index.html.bin", "index_entry.html": "source/original/index_entry.html", "index_green.html": "source/original/index_green.html" },
+    encoding: "shift_jis", liveSource: true,
+    frames: { menuPage: "menu_top.html", menuName: "menu", mainName: "main" },
+  },
   "2012-summer": {
     base: "http://viprpgtkool.web.fc2.com/2012summer/",
     manifests: ["source/recovery/manifest.json"],
@@ -177,7 +185,7 @@ async function main() {
   const compatibilityFixes: Array<{ page: string; change: string }> = [];
   const omittedCssResources: Array<{ originalUrl: string; status: number }> = [];
   const recovery = JSON.parse(await fs.readFile(`${root}/recovery.json`, "utf8"));
-  if (id === "2012-toppuu-festival" || id === "2011-toppatsu-festival" || id === "2010-gw") config.externalResources = recovery.originalResources;
+  if (id === "2012-toppuu-festival" || id === "2011-toppatsu-festival" || id === "2010-gw" || id === "2010-kouhaku") config.externalResources = recovery.originalResources;
   const sourceDetailGapPaths = new Set<string>((recovery.sourceDetailGaps ?? []).map((gap: { sourcePath: string }) => gap.sourcePath));
   const previousMissing: Array<{ url: string; requestedUrl?: string; error: string }> = JSON.parse(await fs.readFile(`${root}/original-view.json`, "utf8").catch(() => "{}")).missingResources ?? [];
   const restrictions: Array<{ no: string; sourcePath: string; resources: Array<{ path: string; kind: string }>; relatedUrls?: string[] }> = recovery.contentRestrictions ?? [];

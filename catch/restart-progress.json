@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2010-kouhaku",
+  "activeFestival": "2010-summer",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -608,6 +608,29 @@
       ],
       "notes": "68 个目录链接均与作品编号对应；原貌保存首页、8 张站点图片、样式和 No.014 详情，另保留 2 张横幅。其余 67 页在日本源站连接失败且 Wayback CDX 无对应快照，原貌视图用明确的未取得详情页维持全部编号；No.014 截图也未找到快照。未新增受限标记或下载游戏文件。",
       "screenshotReferences": 0
+    },
+    {
+      "festivalId": "2010-kouhaku",
+      "reviewedAt": "2026-10-18",
+      "dataSha256": "a16da4c6cba372b831df8e0f28255ab7b6f28afaa1a15948096dfc691a53dd95",
+      "works": 103,
+      "screenshotFiles": 133,
+      "screenshotReferences": 133,
+      "status": "reviewed",
+      "sourceEvidence": [
+        "catch/2010-kouhaku/recovery.json",
+        "catch/2010-kouhaku/source-comparison.json",
+        "catch/2010-kouhaku/source/original/manifest.json",
+        "catch/2010-kouhaku/investigation/resource-inventory.json",
+        "catch/2010-kouhaku/investigation/direct-resource-capture-log.json",
+        "catch/2010-kouhaku/original-resources.json",
+        "catch/2010-kouhaku/original-view.json"
+      ],
+      "desktopEvidence": [
+        "catch/2010-kouhaku/desktop-review.json",
+        "catch/2010-kouhaku/original-view.json"
+      ],
+      "notes": "103 detail pages were captured directly; all 103 source screenshots match by SHA-256, and 37 icons were updated from direct captures. The original view contains 476 local files with no missing references. Five cross-site banner resources have exact archived captures. No item content was manually reviewed and no restriction marker was added."
     }
   ],
   "originalViewsReviewed": [
@@ -760,6 +783,13 @@
       "evidence": [
         "catch/2010-gw/original-view.json",
         "catch/2010-gw/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2010-kouhaku",
+      "evidence": [
+        "catch/2010-kouhaku/original-view.json",
+        "catch/2010-kouhaku/desktop-review.json"
       ]
     }
   ],
