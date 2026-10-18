@@ -51,6 +51,13 @@ const configurations: Record<string, { base: string; entry?: string; manifests: 
     seeds: { "index.html": "source/original/index.html" },
     encoding: "utf-8", liveSource: true,
   },
+  "2010-gw": {
+    base: "https://vipkohaku.x.fc2.com/2010GW/",
+    entry: "index.html",
+    manifests: ["source/archive/manifest.json"],
+    seeds: { "index.html": "source/archive/index.html.bin" },
+    encoding: "shift_jis", liveSource: true,
+  },
   "2012-summer": {
     base: "http://viprpgtkool.web.fc2.com/2012summer/",
     manifests: ["source/recovery/manifest.json"],
@@ -170,7 +177,8 @@ async function main() {
   const compatibilityFixes: Array<{ page: string; change: string }> = [];
   const omittedCssResources: Array<{ originalUrl: string; status: number }> = [];
   const recovery = JSON.parse(await fs.readFile(`${root}/recovery.json`, "utf8"));
-  if (id === "2012-toppuu-festival" || id === "2011-toppatsu-festival") config.externalResources = recovery.originalResources;
+  if (id === "2012-toppuu-festival" || id === "2011-toppatsu-festival" || id === "2010-gw") config.externalResources = recovery.originalResources;
+  const sourceDetailGapPaths = new Set<string>((recovery.sourceDetailGaps ?? []).map((gap: { sourcePath: string }) => gap.sourcePath));
   const previousMissing: Array<{ url: string; requestedUrl?: string; error: string }> = JSON.parse(await fs.readFile(`${root}/original-view.json`, "utf8").catch(() => "{}")).missingResources ?? [];
   const restrictions: Array<{ no: string; sourcePath: string; resources: Array<{ path: string; kind: string }>; relatedUrls?: string[] }> = recovery.contentRestrictions ?? [];
   const catalogue: WorkEntry[] = JSON.parse(await fs.readFile(`src/data/works/${id}.json`, "utf8"));
@@ -212,6 +220,7 @@ async function main() {
   function enqueue(url: string, owner: string) {
     const absolute = new URL(unarchive(url), owner).href, local = relative(absolute);
     if (local && blocked.has(local)) return blocked.get(local);
+    if (id === "2010-gw" && local && sourceDetailGapPaths.has(local)) return local;
     if (local && /\.(?:html?|css|js|png|jpe?g|gif|bmp|webp|ico|svg|mp3|wav|ogg|mid|avi|ogv|txt|zip)$/i.test(local)) {
       queue.add(absolute);
       return local;
@@ -363,6 +372,16 @@ async function main() {
             if (url.hostname === base.hostname && !mapped && !cached.has(relative(url.href) || "")) $(e).removeAttr("href target");
           });
           compatibilityFixes.push({ page: local, change: "Preserve the captured AtWiki content and source theme; remove hosting navigation, advertising, scripts and posting controls, and use local captured images and same-site page links." });
+        }
+        if (id === "2010-gw") {
+          $("script,noscript,iframe,form,object,embed,canvas").remove();
+          $("img[src]").each((_, e) => {
+            const url = new URL($(e).attr("src")!, original);
+            if (url.hostname === "media.fc2.com" && url.pathname === "/counter_img.php") $(e).remove();
+          });
+          $("[srcset]").removeAttr("srcset");
+          $("*").each((_, e) => { for (const attr of Object.keys(e.attribs)) if (attr.startsWith("on")) $(e).removeAttr(attr); });
+          compatibilityFixes.push({ page: local, change: "Preserve the captured catalogue, one archived work page and original layout assets; remove the posting form and remote visitor counter." });
         }
         for (const restriction of restrictions) {
           const work = catalogue.find((work) => work.no === restriction.no)!;
@@ -642,6 +661,18 @@ async function main() {
         compatibilityFixes.push({ page: local, change: `Replace the broken image ${resource} with a fixed missing-source notice, without invented artwork.` });
       }
     });
+    if (id === "2010-gw") $("img[src]").each((_, element) => {
+      const node = $(element), resource = relative(new URL(node.attr("src")!, new URL(local, base)).href);
+      if (!resource || !unavailable.has(resource)) return;
+      node.replaceWith('<span class="archive-missing-image">［原資料のスクリーンショット未取得］</span>');
+      compatibilityFixes.push({ page: local, change: `Replace the unavailable archived screenshot ${resource} with a clearly labelled source-gap notice; add no replacement image.` });
+    });
+    if (id === "2010-gw") $("a[href]").each((_, element) => {
+      const node = $(element), resource = relative(new URL(node.attr("href")!, new URL(local, base)).href);
+      if (!resource || !unavailable.has(resource)) return;
+      node.removeAttr("href target").attr({ "data-missing-resource": resource, title: "リンク先の原資料は取得できませんでした" }).append("［未取得］");
+      compatibilityFixes.push({ page: local, change: `Label the unavailable source link ${resource} instead of leaving a broken local URL.` });
+    });
     if (id === "2011-kouhaku") $("a[href]").each((_, element) => {
       const node = $(element), resource = relative(new URL(node.attr("href")!, new URL(local, base)).href);
       if (resource && unavailable.has(resource)) {
@@ -656,10 +687,10 @@ async function main() {
         compatibilityFixes.push({ page: local, change: "Omit an unavailable stylesheet or favicon reference; the source inline styling remains in place and the missing resource stays documented." });
       }
     });
-    if (["2012-kouhaku", "2011-gw", "2011-kouhaku"].includes(id) || [...omittedBackgrounds, ...omittedHovers].some((omission) => omission.page === local)) files.set(local, Buffer.from($.html()));
+    if (["2010-gw", "2012-kouhaku", "2011-gw", "2011-kouhaku"].includes(id) || [...omittedBackgrounds, ...omittedHovers].some((omission) => omission.page === local)) files.set(local, Buffer.from($.html()));
   }
   const generatedUnavailablePages: string[] = [];
-  if (id === "2011-gw") for (const gap of recovery.sourceDetailGaps ?? []) {
+  if (id === "2011-gw" || id === "2010-gw") for (const gap of recovery.sourceDetailGaps ?? []) {
     const work = catalogue.find((work) => work.no === gap.no);
     if (!work || files.has(gap.sourcePath)) continue;
     const escape = (value: string) => value.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");

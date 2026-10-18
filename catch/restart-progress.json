@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2010-gw",
+  "activeFestival": "2010-kouhaku",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -583,6 +583,31 @@
       ],
       "notes": "26 个条目、60 张原始截图和 27 个下载入口已归档。源站题名、详情页与列表对应一致；受限标记未变。桌面两种视图与本地导航通过；4 个 AtWiki 样式图片 403 已记录并省略，原始 CSS 缓存保留。",
       "screenshotReferences": 60
+    },
+    {
+      "festivalId": "2010-gw",
+      "reviewedAt": "2026-10-18",
+      "dataSha256": "83318541ad27060b27f953da08c751bfd7d2e896aa6b9a0a806fcdd7eb1ecd60",
+      "works": 68,
+      "screenshotFiles": 0,
+      "status": "reviewed-with-documented-source-gaps",
+      "outstandingSourceDetails": 67,
+      "outstandingImageSourceUrls": 2,
+      "sourceEvidence": [
+        "catch/2010-gw/recovery.json",
+        "catch/2010-gw/source-comparison.json",
+        "catch/2010-gw/source/archive/manifest.json",
+        "catch/2010-gw/investigation/site-cdx-all.json",
+        "test-results/2010gw-proxy-session.json",
+        "catch/2010-gw/original-view.json",
+        "catch/2010-gw/desktop-review.json"
+      ],
+      "desktopEvidence": [
+        "catch/2010-gw/desktop-review.json",
+        "catch/2010-gw/original-view.json"
+      ],
+      "notes": "68 个目录链接均与作品编号对应；原貌保存首页、8 张站点图片、样式和 No.014 详情，另保留 2 张横幅。其余 67 页在日本源站连接失败且 Wayback CDX 无对应快照，原貌视图用明确的未取得详情页维持全部编号；No.014 截图也未找到快照。未新增受限标记或下载游戏文件。",
+      "screenshotReferences": 0
     }
   ],
   "originalViewsReviewed": [
@@ -728,6 +753,13 @@
       "evidence": [
         "catch/2011-toppatsu-festival/original-view.json",
         "catch/2011-toppatsu-festival/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2010-gw",
+      "evidence": [
+        "catch/2010-gw/original-view.json",
+        "catch/2010-gw/desktop-review.json"
       ]
     }
   ],

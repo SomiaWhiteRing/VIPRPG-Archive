@@ -1,0 +1,472 @@
+{
+  "festivalId": "2010-gw",
+  "sourceEncoding": "shift_jis",
+  "entry": "/original-pages/2010-gw/index.html",
+  "sourceManifests": [
+    "source/archive/manifest.json"
+  ],
+  "sourcePages": {
+    "index.html": "source/archive/index.html.bin"
+  },
+  "files": [
+    "index.html",
+    "014.html",
+    "assets/back_town.jpg",
+    "assets/barabara.gif",
+    "assets/gw2010banner01.png",
+    "assets/gw2010banner02.png",
+    "assets/gw_style.css",
+    "assets/heroes.gif",
+    "assets/king.gif",
+    "assets/mekago.gif",
+    "assets/okotowari.gif",
+    "001.html",
+    "002.html",
+    "003.html",
+    "004.html",
+    "005.html",
+    "006.html",
+    "007.html",
+    "008.html",
+    "009.html",
+    "010.html",
+    "011.html",
+    "012.html",
+    "013.html",
+    "015.html",
+    "016.html",
+    "017.html",
+    "018.html",
+    "019.html",
+    "020.html",
+    "021.html",
+    "022.html",
+    "023.html",
+    "024.html",
+    "025.html",
+    "026.html",
+    "027.html",
+    "028.html",
+    "029.html",
+    "030.html",
+    "031.html",
+    "032.html",
+    "033.html",
+    "034.html",
+    "035.html",
+    "036.html",
+    "037.html",
+    "038.html",
+    "039.html",
+    "040.html",
+    "041.html",
+    "042.html",
+    "043.html",
+    "044.html",
+    "045.html",
+    "046.html",
+    "047.html",
+    "048.html",
+    "049.html",
+    "050.html",
+    "051.html",
+    "052.html",
+    "053.html",
+    "054.html",
+    "055.html",
+    "056.html",
+    "057.html",
+    "058.html",
+    "059.html",
+    "060.html",
+    "061.html",
+    "062.html",
+    "063.html",
+    "064.html",
+    "065.html",
+    "066.html",
+    "067.html",
+    "068.html"
+  ],
+  "generatedPlaceholders": [],
+  "generatedUnavailablePages": [
+    "001.html",
+    "002.html",
+    "003.html",
+    "004.html",
+    "005.html",
+    "006.html",
+    "007.html",
+    "008.html",
+    "009.html",
+    "010.html",
+    "011.html",
+    "012.html",
+    "013.html",
+    "015.html",
+    "016.html",
+    "017.html",
+    "018.html",
+    "019.html",
+    "020.html",
+    "021.html",
+    "022.html",
+    "023.html",
+    "024.html",
+    "025.html",
+    "026.html",
+    "027.html",
+    "028.html",
+    "029.html",
+    "030.html",
+    "031.html",
+    "032.html",
+    "033.html",
+    "034.html",
+    "035.html",
+    "036.html",
+    "037.html",
+    "038.html",
+    "039.html",
+    "040.html",
+    "041.html",
+    "042.html",
+    "043.html",
+    "044.html",
+    "045.html",
+    "046.html",
+    "047.html",
+    "048.html",
+    "049.html",
+    "050.html",
+    "051.html",
+    "052.html",
+    "053.html",
+    "054.html",
+    "055.html",
+    "056.html",
+    "057.html",
+    "058.html",
+    "059.html",
+    "060.html",
+    "061.html",
+    "062.html",
+    "063.html",
+    "064.html",
+    "065.html",
+    "066.html",
+    "067.html",
+    "068.html"
+  ],
+  "preloadResources": {
+    "unavailableUnused": 0,
+    "cachedUnused": 0,
+    "evidence": "catch/2010-gw/recovery.json"
+  },
+  "missingResources": [
+    {
+      "url": "https://vipkohaku.x.fc2.com/2010GW/ss000.gif",
+      "error": "Error: Missing cached resource; use --fetch"
+    },
+    {
+      "url": "https://vipkohaku.x.fc2.com/2010GW/ss014.png",
+      "error": "Error: Missing cached resource; use --fetch"
+    }
+  ],
+  "omittedCssResources": [],
+  "omittedBackgrounds": [],
+  "omittedHovers": [],
+  "compatibilityFixes": [
+    {
+      "page": "index.html",
+      "change": "Preserve the captured catalogue, one archived work page and original layout assets; remove the posting form and remote visitor counter."
+    },
+    {
+      "page": "014.html",
+      "change": "Preserve the captured catalogue, one archived work page and original layout assets; remove the posting form and remote visitor counter."
+    },
+    {
+      "page": "index.html",
+      "change": "Label the unavailable source link ss000.gif instead of leaving a broken local URL."
+    },
+    {
+      "page": "014.html",
+      "change": "Replace the unavailable archived screenshot ss014.png with a clearly labelled source-gap notice; add no replacement image."
+    },
+    {
+      "page": "001.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "002.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "003.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "004.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "005.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "006.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "007.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "008.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "009.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "010.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "011.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "012.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "013.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "015.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "016.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "017.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "018.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "019.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "020.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "021.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "022.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "023.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "024.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "025.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "026.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "027.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "028.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "029.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "030.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "031.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "032.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "033.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "034.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "035.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "036.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "037.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "038.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "039.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "040.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "041.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "042.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "043.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "044.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "045.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "046.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "047.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "048.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "049.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "050.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "051.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "052.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "053.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "054.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "055.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "056.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "057.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "058.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "059.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "060.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "061.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "062.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "063.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "064.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "065.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "066.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "067.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "068.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    }
+  ],
+  "changes": [
+    "Original HTML and CSS normalized from shift_jis to UTF-8.",
+    "Same-site links, CSS resources and absolute script/hover URLs use local paths.",
+    "External hosting trackers removed; unavailable unused preloads replaced with an empty image.",
+    "Original pages are displayed inside a sandboxed frame."
+  ],
+  "desktopReview": "passed"
+}
