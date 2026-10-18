@@ -8,6 +8,13 @@ import type { WorkEntry } from "../src/lib/types";
 import { rewriteSummer2012Source } from "./source-2012-summer-view";
 
 const configurations: Record<string, { base: string; entry?: string; manifests: string[]; seeds: Record<string, string>; seedUrls?: Record<string, string>; cgiProfile?: boolean; encoding?: string; liveSource?: boolean; disabledLocalLinks?: string[]; externalResources?: Record<string, string>; frames?: { menuPage: string; menuName: string; mainName: string } }> = {
+  "2011-denpa-game-festival": {
+    base: "http://cryptic2011.web.fc2.com/",
+    manifests: ["source/recovery/manifest.json"],
+    seeds: { "index.html": "investigation/original-live.bin" },
+    liveSource: true,
+    frames: { menuPage: "menu.html", menuName: "menu", mainName: "main" },
+  },
   "2012-toppuu-festival": {
     base: "https://w.atwiki.jp/viprpgwind2012/",
     manifests: ["source/live/manifest.json", "source/assets/manifest.json"],

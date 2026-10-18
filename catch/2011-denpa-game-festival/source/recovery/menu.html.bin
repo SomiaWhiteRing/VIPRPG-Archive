@@ -1,0 +1,283 @@
+<html>
+    <head>
+        <title>MENU</title>
+<script Language="JavaScript">
+<!--
+function hidScrollBar()
+{
+document.body.style.overflow = "hidden";
+}
+// -->
+</script>
+    </head>
+    <body background="ptn/bg_pic2.png" alink="#ccffff" link="#ffffff" vlink="#cccccc" onLoad="hidScrollBar()">
+<a name="page_top">
+        <p><left></left></p>
+        <!--
+<p><table border="0" width="255" bgcolor="#222222"><tr><td><font color="#ffffff"><b>MENU</b></font></td></tr></table></p>
+-->
+        <table border="0" cellspacing="0">
+            <tbody>
+                <tr>
+                    <td><a target="main" href="top.html"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()" onmouseover="ZipTitle('-10')"src="ptn/top.png" /></a></td>
+                    <td><a target="main" href="howto.html"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()" onmouseover="ZipTitle('-20')" src="ptn/howto.png" /></a></td>
+                </tr>
+                <tr>
+                    <td><a target="main" href="http://yy73.60.kg/crysakuhin/"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()" onmouseover="ZipTitle('-30')"src="ptn/feelbbs.png" /></a></td>
+                    <td><a target="main" href="http://yy73.60.kg/crymainbbs/"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()" onmouseover="ZipTitle('-40')"src="ptn/managebbs.png" /></a></td>
+                </tr>
+            </tbody>
+        </table>
+        <script>
+function ZipTitle(data) {
+if ( data > '0' ) {var objid=document.getElementById('no');objid.innerHTML="No."+data;}
+if ( data == '-10' ) {var objid=document.getElementById('titleword');objid.innerHTML="トップページ";}
+if ( data == '-20' ) {var objid=document.getElementById('titleword');objid.innerHTML="祭りについて/参加方法";}
+if ( data == '-30' ) {var objid=document.getElementById('titleword');objid.innerHTML="感想掲示板";}
+if ( data == '-40' ) {var objid=document.getElementById('titleword');objid.innerHTML="運営掲示板";}
+if ( data == '1' ) {var objid=document.getElementById('titleword');objid.innerHTML="HAPPY BIRTHDAY";
+var objid=document.getElementById('submit');objid.innerHTML="[S]";
+}
+if ( data == '2' ) {var objid=document.getElementById('titleword');objid.innerHTML="txt_aaaa_txt";}
+if ( data == '3' ) {var objid=document.getElementById('titleword');objid.innerHTML="fuck you";}
+if ( data == '4' ) {var objid=document.getElementById('titleword');objid.innerHTML="Nightmare";
+var objid=document.getElementById('submit');objid.innerHTML="[S]";
+}
+if ( data == '5' ) {var objid=document.getElementById('titleword');objid.innerHTML="ハカモリサン妄想癖";
+var objid=document.getElementById('submit');objid.innerHTML="[S]";
+}
+if ( data == '6' ) {var objid=document.getElementById('titleword');objid.innerHTML="電波ゲーム祭り作品レビュー";
+var objid=document.getElementById('submit');objid.innerHTML="[S]";
+}
+if ( data == '7' ) {var objid=document.getElementById('titleword');objid.innerHTML="Serial experiments lain";}
+if ( data == '8' ) {var objid=document.getElementById('titleword');objid.innerHTML="やきいもは食べる前におならをする";}
+if ( data == '9' ) {var objid=document.getElementById('titleword');objid.innerHTML="スジャータまつり";}
+if ( data == '10' ) {var objid=document.getElementById('titleword');objid.innerHTML="トドワレノトウ";
+var objid=document.getElementById('submit');objid.innerHTML="[S]";
+}
+if ( data == '11' ) {var objid=document.getElementById('titleword');objid.innerHTML="In The Twilight...";
+var objid=document.getElementById('submit');objid.innerHTML="[S]";
+}
+if ( data == '12' ) {var objid=document.getElementById('titleword');objid.innerHTML="芸夢苦遺図誤柔連発";
+var objid=document.getElementById('submit');objid.innerHTML="[S]";
+}
+if ( data == '13' ) {var objid=document.getElementById('titleword');objid.innerHTML="sein";
+var objid=document.getElementById('submit');objid.innerHTML="[S]";
+}
+if ( data == '14' ) {var objid=document.getElementById('titleword');objid.innerHTML="HELL 鬼帝";
+var objid=document.getElementById('submit');objid.innerHTML="[S]";
+}
+if ( data == '15' ) {var objid=document.getElementById('titleword');objid.innerHTML="選択";
+var objid=document.getElementById('submit');objid.innerHTML="[S]";
+}
+if ( data == '16' ) {var objid=document.getElementById('titleword');objid.innerHTML="LIVED -Original Long Version-";
+var objid=document.getElementById('submit');objid.innerHTML="[S]";
+}
+if ( data == '17' ) {var objid=document.getElementById('titleword');objid.innerHTML="愛しのぜっくん";
+var objid=document.getElementById('submit');objid.innerHTML="[S]";
+}
+if ( data == '18' ) {var objid=document.getElementById('titleword');objid.innerHTML="すべての悪夢の原因";
+var objid=document.getElementById('submit');objid.innerHTML="[S]";
+}
+if ( data == '19' ) {var objid=document.getElementById('titleword');objid.innerHTML="いただきます";
+var objid=document.getElementById('submit');objid.innerHTML="[S]";
+}
+if ( data == '20' ) {var objid=document.getElementById('titleword');objid.innerHTML="もしも魔王が本気出したら";
+var objid=document.getElementById('submit');objid.innerHTML="[S]";
+}
+if ( data == '21' ) {var objid=document.getElementById('titleword');objid.innerHTML="Eternal Heaven - Project2929";
+var objid=document.getElementById('submit');objid.innerHTML="[S]";
+}
+if ( data == '22' ) {var objid=document.getElementById('titleword');objid.innerHTML="おっぱいいっぱい";}
+if ( data == '23' ) {var objid=document.getElementById('titleword');objid.innerHTML="46031kHz";
+var objid=document.getElementById('submit');objid.innerHTML="[S]";
+}
+if ( data == '24' ) {var objid=document.getElementById('titleword');objid.innerHTML="あたしって、ほんとバカ";
+var objid=document.getElementById('submit');objid.innerHTML="[S]";
+}
+if ( data == '25' ) {var objid=document.getElementById('titleword');objid.innerHTML="電波石集め";
+var objid=document.getElementById('submit');objid.innerHTML="[S]";
+}
+if ( data == '26' ) {var objid=document.getElementById('titleword');objid.innerHTML="三馬鹿道中記";
+var objid=document.getElementById('submit');objid.innerHTML="[S]";
+}
+if ( data == '27' ) {var objid=document.getElementById('titleword');objid.innerHTML="電波コントローラー";
+var objid=document.getElementById('submit');objid.innerHTML="[S]";
+}
+if ( data == '28' ) {var objid=document.getElementById('titleword');objid.innerHTML="怪盗は虚構に絶望を捧げた";
+var objid=document.getElementById('submit');objid.innerHTML="[S]";
+}
+if ( data == '29' ) {var objid=document.getElementById('titleword');objid.innerHTML="感情の交差点";
+var objid=document.getElementById('submit');objid.innerHTML="[S]";
+}
+if ( data == '30' ) {var objid=document.getElementById('titleword');objid.innerHTML="地デジカ「裸で何が悪い」";
+var objid=document.getElementById('submit');objid.innerHTML="[S]";
+}
+if ( data == '31' ) {var objid=document.getElementById('titleword');objid.innerHTML="Moshimo FM Controller";
+var objid=document.getElementById('submit');objid.innerHTML="[S]";
+}
+if ( data == '32' ) {var objid=document.getElementById('titleword');objid.innerHTML="YOSHIE IN THE HOUSE";
+var objid=document.getElementById('submit');objid.innerHTML="[S]";
+}
+if ( data == '33' ) {var objid=document.getElementById('titleword');objid.innerHTML="ゆんゆゆんゆんゆゆんゆっゆーん";
+var objid=document.getElementById('submit');objid.innerHTML="[S]";
+}
+if ( data == '34' ) {var objid=document.getElementById('titleword');objid.innerHTML="Now tuning...";
+var objid=document.getElementById('submit');objid.innerHTML="[S]";
+}
+if ( data == '35' ) {var objid=document.getElementById('titleword');objid.innerHTML="a";
+var objid=document.getElementById('submit');objid.innerHTML="[S]";
+}
+if ( data == '36' ) {var objid=document.getElementById('titleword');objid.innerHTML="この棚から見てる";
+var objid=document.getElementById('submit');objid.innerHTML="[S]";
+}
+if ( data == '37' ) {var objid=document.getElementById('titleword');objid.innerHTML="secret.exe";
+var objid=document.getElementById('submit');objid.innerHTML="[S]";
+}
+if ( data == '38' ) {var objid=document.getElementById('titleword');objid.innerHTML="襲来！電波ウイルス";
+var objid=document.getElementById('submit');objid.innerHTML="[S]";
+}
+if ( data == '39' ) {var objid=document.getElementById('titleword');objid.innerHTML="ワールドサッカーストーリー";
+var objid=document.getElementById('submit');objid.innerHTML="[S]";
+}
+if ( data == '40' ) {var objid=document.getElementById('titleword');objid.innerHTML="ブライアンの荒唐無稽で曖昧模糊な話";
+}
+if ( data == '41' ) {var objid=document.getElementById('titleword');objid.innerHTML="ＲＰＧツクール用電波系音楽素材集";
+var objid=document.getElementById('submit');objid.innerHTML="[S]";
+}
+if ( data == '42' ) {var objid=document.getElementById('titleword');objid.innerHTML="Knight-rance";
+var objid=document.getElementById('submit');objid.innerHTML="[S]";
+}
+if ( data == '0' ) {var objid=document.getElementById('titleword');objid.innerHTML="Reb_l6-5";}
+}
+function TitleOut() {
+var objid=document.getElementById('titleword');
+objid.innerHTML= "　";
+var objid=document.getElementById('no');
+objid.innerHTML= "　";
+var objid=document.getElementById('submit');
+objid.innerHTML= "　";
+}
+</script>
+
+
+        <table border="0" width="255" bgcolor="#000000">
+            <tbody>
+                <tr>
+		<td><font color="#ffffff" size="-1">
+                    <div id="no" align="center">　</div>
+                    </font></td>
+                    <td><font color="#ffffff" size="-1">
+                    <div id="titleword" align="center">　</div>
+                    </font></td>
+		<td><font color="#ffffff" size="-1">
+                    <div id="submit" align="center">　</div>
+                    </font></td>
+                </tr>
+            </tbody>
+        </table>
+        <table border="0" cellspacing="0">
+            <tbody>
+                <tr>
+                    <td><img alt="" src="icon/default0.png" /></td>
+                    <td colspan="7"><img alt="" src="icon/default2.png" /></td>
+                </tr>
+                <tr>
+                    <td rowspan="7"><img alt="" src="icon/default3.png" /></td>
+                   <td><a target="main" href="page/page38.html"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()" onmouseover="ZipTitle('38')" src="icon/ic38.gif" /></a></td>
+                    <td><a target="main" href="page/page13.html"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()" onmouseover="ZipTitle('13')" src="icon/ic13.png" /></a></td>
+                   <td><a target="main" href="page/page31.html"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()" onmouseover="ZipTitle('31')" src="icon/ic31.png" /></a></td>
+                    <td><a target="main" href="page/page9.html"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()" onmouseover="ZipTitle('9')" src="icon/ic9.png" /></a></td>
+                    <td><a target="main" href="page/page4.html"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()" onmouseover="ZipTitle('4')" src="icon/ic4.png" /></a></td>
+                    <td><a target="main" href="page/page14.html"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()" onmouseover="ZipTitle('14')" src="icon/ic14.png" /></a></td>
+                    <td><a target="main" href="page/page37.html"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()" onmouseover="ZipTitle('37')" src="icon/ic37.png" /></a></td>
+                </tr>
+
+
+                <tr>
+                   <td><a target="main" href="page/page33.html"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()" onmouseover="ZipTitle('33')" src="icon/ic33.png" /></a></td>
+                    <td><a target="main" href="page/page34.html"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()" onmouseover="ZipTitle('34')" src="icon/ic34.png" /></a></td>
+                    <td><a target="main" href="page/page18.html"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()" onmouseover="ZipTitle('18')" src="icon/ic18.png" /></a></td>
+                   <td><a target="main" href="page/page30.html"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()" onmouseover="ZipTitle('30')" src="icon/ic30.png" /></a></td>
+
+                    <td><a target="main" href="page/page11.html"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()" onmouseover="ZipTitle('11')" src="icon/ic11.png" /></a></td>
+                   <td><a target="main" href="page/page7.html"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()" onmouseover="ZipTitle('7')" src="icon/ic7.jpg" /></a></td>
+                    <td><a target="main" href="page/page39.html"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()" onmouseover="ZipTitle('39')" src="icon/ic39.png" /></a></td>
+                </tr>
+
+
+                <tr>
+                   <td><a target="main" href="page/page32.html"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()" onmouseover="ZipTitle('32')" src="icon/ic32.png" /></a></td>
+                  <td><a target="main" href="page/page17.html"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()" onmouseover="ZipTitle('17')" src="icon/ic17.png" /></a></td>
+                  <td><a target="main" href="page/page15.html"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()" onmouseover="ZipTitle('15')" src="icon/ic15.png" /></a></td>
+                   <td><a target="main" href="page/page12.html"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()" onmouseover="ZipTitle('12')" src="icon/ic12.png" /></a></td>
+                   <td><a target="main" href="page/page36.html"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()" onmouseover="ZipTitle('36')" src="icon/ic36.png" /></a></td>
+                    <td><img alt="" src="icon/default.png" /></td>
+                    <td><img alt="" src="icon/default.png" /></td>
+                </tr>
+
+
+
+                <tr>
+                   <td><a target="main" href="page/page10.html"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()" onmouseover="ZipTitle('10')" src="icon/ic10.png" /></a></td>
+                    <td><a target="main" href="page/page22.html"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()" onmouseover="ZipTitle('22')" src="icon/ic22.png" /></a></td>
+                    <td><a target="main" href="page/page20.html"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()" onmouseover="ZipTitle('20')" src="icon/ic20.png" /></a></td>
+                    <td><a target="main" href="page/page26.html"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()" onmouseover="ZipTitle('26')" src="icon/ic26.png" /></a></td>
+                    <td><img alt="" src="icon/default.png" /></td>
+                    <td><img alt="" src="icon/default.png" /></td>
+                    <td><a target="main" href="page/page28.html"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()" onmouseover="ZipTitle('28')" src="icon/ic28.png" /></a></td>
+                </tr>
+                <tr>
+                    <td><a target="main" href="page/page25.html"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()" onmouseover="ZipTitle('25')" src="icon/ic25.gif" /></a></td>
+                    <td><a target="main" href="page/page27.html"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()" onmouseover="ZipTitle('27')" src="icon/ic27.png" /></a></td>
+                    <td><a target="main" href="page/page8.html"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()" onmouseover="ZipTitle('8')" src="icon/ic8.png" /></a></td>
+
+                    <td><a target="main" href="page/page19.html"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()" onmouseover="ZipTitle('19')" src="icon/ic19.png" /></a></td>
+                    <td><img alt="" src="icon/default.png" /></td>
+                    <td><a target="main" href="page/page29.html"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()" onmouseover="ZipTitle('29')" src="icon/ic29.png" /></a></td>
+                    <td><img alt="" src="icon/default.png" /></td>
+                </tr>
+
+
+                <tr>
+                    <td><img alt="" src="icon/default.png" /></td>
+                    <td><a target="main" href="page/page21.html"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()" onmouseover="ZipTitle('21')" src="icon/ic21.png" /></a></td>
+                    <td><a target="main" href="page/page42.html"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()" onmouseover="ZipTitle('42')" src="icon/ic42.png" /></a></td>
+                    <td><a target="main" href="page/page2.html"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()" onmouseover="ZipTitle('2')" src="icon/ic2.png" /></a></td>
+                    <td><a target="main" href="page/page35.html"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()" onmouseover="ZipTitle('35')" src="icon/ic35.png" /></a></td>
+                    <td><a target="main" href="page/page5.html"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()" onmouseover="ZipTitle('5')" src="icon/ic5.png" /></a></td>
+                    <td><a target="main" href="page/page24.html"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()" onmouseover="ZipTitle('24')" src="icon/ic24.png" /></a></td>
+                </tr>
+
+
+                <tr>
+                    <td><a target="main" href="page/page6.html"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()" onmouseover="ZipTitle('6')" src="icon/ic6.png" /></a></td>
+                    <td><a target="main" href="page/page3.html"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()" onmouseover="ZipTitle('3')" src="icon/ic3.png" /></a></td>
+                    <td><a target="main" href="page/page41.html"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()" onmouseover="ZipTitle('41')" src="icon/ic41.png" /></a></td>
+                    <td><a target="main" href="page/page40.html"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()" onmouseover="ZipTitle('40')" src="icon/ic40.png" /></a></td>
+                    <td><a target="main" href="page/page1.html"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()" onmouseover="ZipTitle('1')" src="icon/ic1.png" /></a></td>
+                    <td><a target="main" href="page/page23.html"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()" onmouseover="ZipTitle('23')" src="icon/ic23.png" /></a></td>
+                    <td><a target="main" href="page/page16.html"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()" onmouseover="ZipTitle('16')" src="icon/ic16.png" /></a></td>
+                </tr>
+            </tbody>
+        </table>
+↓
+        <p>&nbsp;</p>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<a target="main" href="page/page0.html"><img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" alt="" onmouseout="TitleOut()"src="icon/default.png" /></a><a href="#page_top">↑</a>
+    <script><!--
+var fc2footerparam = 'ver=1'
+    + '&url=' + encodeURIComponent(document.location)
+    + '&service=0'
+    + '&r=' + Math.floor(Math.random() * 99999999999);
+var fc2footertag = "//vip.chps-api.fc2.com/apis/footer/?" + fc2footerparam;
+var script = document.createElement('script');
+script.src = fc2footertag;
+script.charset = "UTF-8";
+script.async = true;
+document.getElementsByTagName('head')[0].appendChild(script);
+//--></script>
+<!-- FC2, inc.-->
+<img src="//media.fc2.com/counter_img.php?id=50" style="display:none" alt="inserted by FC2 system" width="0" height="0">
+<!-- FC2, inc.--></body>
+</html>
