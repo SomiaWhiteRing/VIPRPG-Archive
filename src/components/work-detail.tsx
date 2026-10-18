@@ -113,7 +113,7 @@ export default function WorkDetail({
           </div>
         )}
         {screenshots.length > 0 && (
-          <div className="detail-ss">{renderScreenshots(screenshots, dictionary, handleOpenViewer)}</div>
+          <div id="detail-screenshots" className="detail-ss">{renderScreenshots(screenshots, dictionary, handleOpenViewer)}</div>
         )}
       </header>
 
