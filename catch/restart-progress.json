@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2011-toppatsu-festival",
+  "activeFestival": "2012-gw",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -560,6 +560,27 @@
       ],
       "notes": "恢复 No.0 示例及 107 个正式编号的介绍记录，共 108 条；103 个原介绍页中的共用六列表按「60の陣」原始编号、作者、类型与工具唯一对应，补回主目录的 5 个空行及 No.81 题名。432 个字段、216 份留言、107 条图标引用、121 条展示／悬停截图引用（120 个文件）和 1 张横幅已核对。49 个因连接失败未取到的有效存档图片全部重试补齐；3 处题名乱码获原站与官方讨论标题确认修正，No.62 等题名差异保留两种来源。183 个历史下载入口及公开保管库中对应 82 部作品的 83 个文件名已核对；No.78 原页 ZIP 保存原字节，未解包或运行。原貌 291 个文件无资源缺口，保留共用宽表与可定位列锚点、迟到目录及切图；363 个图片路径、215 个页面地址、双桌面宽度与 836 路径离线重放通过。",
       "screenshotReferences": 121
+    },
+    {
+      "festivalId": "2011-toppatsu-festival",
+      "reviewedAt": "2026-10-18",
+      "dataSha256": "fb9f80efd432445de00d2fffe887a8a42b5423d2bda088c09ae05df95082cca5",
+      "works": 26,
+      "screenshotFiles": 60,
+      "status": "reviewed-with-documented-css-omissions",
+      "sourceEvidence": [
+        "catch/2011-toppatsu-festival/recovery.json",
+        "catch/2011-toppatsu-festival/source-comparison.json",
+        "catch/2011-toppatsu-festival/source/original/manifest.json",
+        "catch/2011-toppatsu-festival/original-view.json",
+        "catch/2011-toppatsu-festival/desktop-review.json"
+      ],
+      "desktopEvidence": [
+        "catch/2011-toppatsu-festival/desktop-review.json",
+        "catch/2011-toppatsu-festival/original-view.json"
+      ],
+      "notes": "26 个条目、60 张原始截图和 27 个下载入口已归档。源站题名、详情页与列表对应一致；受限标记未变。桌面两种视图与本地导航通过；4 个 AtWiki 样式图片 403 已记录并省略，原始 CSS 缓存保留。",
+      "screenshotReferences": 60
     }
   ],
   "originalViewsReviewed": [
@@ -698,16 +719,35 @@
         "catch/2011-summer/original-desktop-review.json",
         "catch/2011-summer/hover-desktop-review.json"
       ]
+    },
+    {
+      "festivalId": "2011-toppatsu-festival",
+      "evidence": [
+        "catch/2011-toppatsu-festival/original-view.json",
+        "catch/2011-toppatsu-festival/desktop-review.json"
+      ]
     }
   ],
   "insertedTask": {
     "type": "restricted-rearchive",
-    "status": "reviewed-with-exceptions",
-    "afterFestival": "2012-toppuu-festival",
-    "resumeFestival": "2011-denpa-game-festival",
+    "status": "active",
+    "afterFestival": "2011-toppatsu-festival",
+    "resumeFestival": "2010-gw",
+    "targetFestival": "2012-gw",
+    "targetNo": "45",
     "plan": "catch/restricted-rearchive-plan.json",
-    "scope": "Existing restricted entries, starting with 2012 Summer; direct source preservation without proactive content review.",
-    "restoredEntries": 14,
-    "retainedEntries": 7
-  }
+    "scope": "Apply the fixed neutral detail skeleton and direct-source provenance to one existing retained restricted entry; keep its restriction marker and preserve the captured source without screening content."
+  },
+  "insertedTaskHistory": [
+    {
+      "type": "restricted-rearchive",
+      "status": "reviewed-with-exceptions",
+      "afterFestival": "2012-toppuu-festival",
+      "resumeFestival": "2011-denpa-game-festival",
+      "plan": "catch/restricted-rearchive-plan.json",
+      "scope": "Existing restricted entries, starting with 2012 Summer; direct source preservation without proactive content review.",
+      "restoredEntries": 14,
+      "retainedEntries": 7
+    }
+  ]
 }

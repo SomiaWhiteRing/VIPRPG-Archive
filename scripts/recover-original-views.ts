@@ -45,6 +45,12 @@ const configurations: Record<string, { base: string; entry?: string; manifests: 
     manifests: ["source/live/manifest.json", "source/assets/manifest.json"],
     seeds: {}, encoding: "utf-8", liveSource: true,
   },
+  "2011-toppatsu-festival": {
+    base: "https://w.atwiki.jp/toppatuviprpg/",
+    manifests: ["source/original/manifest.json"],
+    seeds: { "index.html": "source/original/index.html" },
+    encoding: "utf-8", liveSource: true,
+  },
   "2012-summer": {
     base: "http://viprpgtkool.web.fc2.com/2012summer/",
     manifests: ["source/recovery/manifest.json"],
@@ -162,8 +168,9 @@ async function main() {
   const cached = new Map<string, string>();
   const queue = new Set<string>(), files = new Map<string, Buffer>(), failures: Array<{ url: string; requestedUrl?: string; error: string }> = [];
   const compatibilityFixes: Array<{ page: string; change: string }> = [];
+  const omittedCssResources: Array<{ originalUrl: string; status: number }> = [];
   const recovery = JSON.parse(await fs.readFile(`${root}/recovery.json`, "utf8"));
-  if (id === "2012-toppuu-festival") config.externalResources = recovery.originalResources;
+  if (id === "2012-toppuu-festival" || id === "2011-toppatsu-festival") config.externalResources = recovery.originalResources;
   const previousMissing: Array<{ url: string; requestedUrl?: string; error: string }> = JSON.parse(await fs.readFile(`${root}/original-view.json`, "utf8").catch(() => "{}")).missingResources ?? [];
   const restrictions: Array<{ no: string; sourcePath: string; resources: Array<{ path: string; kind: string }>; relatedUrls?: string[] }> = recovery.contentRestrictions ?? [];
   const catalogue: WorkEntry[] = JSON.parse(await fs.readFile(`src/data/works/${id}.json`, "utf8"));
@@ -343,6 +350,19 @@ async function main() {
             if ((url.hostname === base.hostname || url.hostname === "www48.atwiki.jp") && !mapped && !cached.has(relative(url.href) || "")) $(e).removeAttr("href target");
           });
           compatibilityFixes.push({ page: local, change: "Preserve Wiki content, existing comments, theme and catalogue navigation; remove hosting ads, scripts, editing/posting controls and unavailable Wiki administration links. Use full source images instead of responsive thumbnail requests." });
+        }
+        if (id === "2011-toppatsu-festival") {
+          $("script,noscript,iframe,form,body>header,body>footer,.atwiki-headbar,#atwiki-fixed-nav,#atwiki-modal-search-form,#pageTabs,#editmenu,#toolBox,#toolBoxTour,#ads,#left-ads,#right-ads,#atwiki-ads-overlay,#body_footer,#at_social_links2,[id^='div-gpt-ad-'],.atwiki-modal-bg,.atwiki-modal-wrap,.atwiki-modal,#atwiki_menubar a[href*='/pedit/']").remove();
+          $("link").filter((_, e) => !($(e).attr("rel") || "").includes("stylesheet") || !/base_101default\.css|pc_common\.css|atwiki_common\.css/.test($(e).attr("href") || "")).remove();
+          $("source,[srcset]").each((_, e) => { if (e.tagName === "source") $(e).remove(); else $(e).removeAttr("srcset"); });
+          $("*").each((_, e) => { for (const attr of Object.keys(e.attribs)) if (attr.startsWith("on")) $(e).removeAttr(attr); });
+          $("a[href]").each((_, e) => {
+            const value = $(e).attr("href")!;
+            if (value.startsWith("#")) return;
+            const url = new URL(value, original), mapped = config.externalResources?.[url.href];
+            if (url.hostname === base.hostname && !mapped && !cached.has(relative(url.href) || "")) $(e).removeAttr("href target");
+          });
+          compatibilityFixes.push({ page: local, change: "Preserve the captured AtWiki content and source theme; remove hosting navigation, advertising, scripts and posting controls, and use local captured images and same-site page links." });
         }
         for (const restriction of restrictions) {
           const work = catalogue.find((work) => work.no === restriction.no)!;
@@ -547,7 +567,19 @@ async function main() {
         </script>`);
         bytes = Buffer.from($.html());
       } else if (/\.css$/i.test(local)) {
-        const css = decodeSource(bytes, encoding).replace(/@charset\s+["'][^"']+["'];/i, '@charset "UTF-8";');
+        let css = decodeSource(bytes, encoding).replace(/@charset\s+["'][^"']+["'];/i, '@charset "UTF-8";');
+        if (id === "2011-toppatsu-festival") {
+          const unavailableCss = new Set((recovery.cssResourceFailures ?? []).map((failure: { originalUrl: string }) => failure.originalUrl));
+          css = css.replace(/url\(\s*["']?([^"')]+)["']?\s*\)/g, (literal, value) => {
+            let url: string;
+            try { url = new URL(value, original).href; } catch { return literal; }
+            if (!unavailableCss.has(url)) return literal;
+            compatibilityFixes.push({ page: local, change: `Omit unavailable AtWiki CSS image ${url}; the 403 response is documented without a replacement image.` });
+            const failure = (recovery.cssResourceFailures ?? []).find((item: { originalUrl: string }) => item.originalUrl === url);
+            if (failure && !omittedCssResources.some((item) => item.originalUrl === url)) omittedCssResources.push({ originalUrl: url, status: failure.status });
+            return "none";
+          });
+        }
         bytes = Buffer.from(rewriteCSS(css, original, local));
       } else if (/\.js$/i.test(local)) {
         let code = decodeSource(bytes, encoding);
@@ -658,9 +690,10 @@ async function main() {
     cachedUnused: (recovery.entries ?? []).reduce((total: number, entry: { additionalPreloadsRecovered?: number }) => total + (entry.additionalPreloadsRecovered ?? 0), 0),
     evidence: `${root}/recovery.json`,
   };
-  views[id] = { entry: `/original-pages/${id}/${config.entry ?? "index.html"}`, status: failures.length ? "available-with-documented-omissions" : "available" };
+  const hasDocumentedOmissions = failures.length > 0 || omittedCssResources.length > 0;
+  views[id] = { entry: `/original-pages/${id}/${config.entry ?? "index.html"}`, status: hasDocumentedOmissions ? "available-with-documented-omissions" : "available" };
   await writeJson(viewsPath, views);
-  await writeJson(`${root}/original-view.json`, { festivalId: id, sourceEncoding: encoding, entry: views[id].entry, sourceManifests: config.manifests, sourcePages: config.seeds, files: [...files.keys()], generatedPlaceholders, ...(generatedUnavailablePages.length ? { generatedUnavailablePages } : {}), preloadResources, missingResources: failures, omittedBackgrounds, omittedHovers, compatibilityFixes, changes: [`Original HTML and CSS normalized from ${encoding} to UTF-8.`, "Same-site links, CSS resources and absolute script/hover URLs use local paths.", "External hosting trackers removed; unavailable unused preloads replaced with an empty image.", "Original pages are displayed inside a sandboxed frame.", ...(omittedBackgrounds.length ? ["Unavailable background references are omitted; the original background colors are retained and missing resources remain documented."] : []), ...(restrictions.length ? ["Restricted entries retain their catalogue row and full detail structure with fixed neutral text and generated placeholders; original restricted descriptions, media and related links are not published."] : []), ...(config.frames ? ["A scoped local message forwards menu clicks to the sibling frame while preserving the original frameset and sandbox isolation."] : [])], desktopReview: "pending" });
+  await writeJson(`${root}/original-view.json`, { festivalId: id, sourceEncoding: encoding, entry: views[id].entry, sourceManifests: config.manifests, sourcePages: config.seeds, files: [...files.keys()], generatedPlaceholders, ...(generatedUnavailablePages.length ? { generatedUnavailablePages } : {}), preloadResources, missingResources: failures, omittedCssResources, omittedBackgrounds, omittedHovers, compatibilityFixes, changes: [`Original HTML and CSS normalized from ${encoding} to UTF-8.`, "Same-site links, CSS resources and absolute script/hover URLs use local paths.", "External hosting trackers removed; unavailable unused preloads replaced with an empty image.", "Original pages are displayed inside a sandboxed frame.", ...(omittedCssResources.length ? ["Unavailable AtWiki CSS images are omitted without replacements and documented from their recorded 403 responses."] : []), ...(omittedBackgrounds.length ? ["Unavailable background references are omitted; the original background colors are retained and missing resources remain documented."] : []), ...(restrictions.length ? ["Restricted entries retain their catalogue row and full detail structure with fixed neutral text and generated placeholders; original restricted descriptions, media and related links are not published."] : []), ...(config.frames ? ["A scoped local message forwards menu clicks to the sibling frame while preserving the original frameset and sandbox isolation."] : [])], desktopReview: "pending" });
   console.log(`${id}: ${files.size} files; ${failures.length} missing resources.`);
 }
 
