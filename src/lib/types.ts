@@ -52,6 +52,7 @@ export interface WorkEntry {
   forum?: string;
   authorComment?: string;
   hostComment?: string;
+  sourceContent?: string;
   updates?: string;
   contentRestricted?: boolean;
   source?: {

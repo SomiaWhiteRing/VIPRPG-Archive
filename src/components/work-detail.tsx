@@ -165,6 +165,13 @@ export default function WorkDetail({
         </section>
       )}
 
+      {!restricted && work.sourceContent && (
+        <section className="detail-section">
+          <h2 className="section-heading">{dictionary.detailsSourceContent}</h2>
+          <div className="section-text" dangerouslySetInnerHTML={{ __html: renderHostCommentHTML(work.sourceContent) }} />
+        </section>
+      )}
+
       {(restricted || work.updates) && (
         <section className="detail-section">
           <h2 className="section-heading">{dictionary.detailsUpdates}</h2>

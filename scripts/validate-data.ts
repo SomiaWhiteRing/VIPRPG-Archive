@@ -91,6 +91,7 @@ const workSchema = {
     forum: { type: "string", format: "uri" },
     authorComment: { type: "string" },
     hostComment: { type: "string" },
+    sourceContent: { type: "string" },
     updates: { type: "string" },
     originalTitle: { type: "string", minLength: 1 },
     contentRestricted: { type: "boolean" },
@@ -216,7 +217,7 @@ async function main() {
       for (const url of [work.icon, ...(work.ss ?? [])]) {
         if (url) await checkAsset(url, festival.worksFile);
       }
-      for (const comment of [work.authorComment, work.hostComment]) {
+      for (const comment of [work.authorComment, work.hostComment, work.sourceContent]) {
         for (const match of comment?.matchAll(/<img\b[^>]*\bsrc=["']([^"']+)["']/gi) ?? []) {
           await checkAsset(match[1], festival.worksFile);
         }
