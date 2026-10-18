@@ -1,0 +1,78 @@
+{
+  "festivalId": "2012-gw",
+  "no": "45",
+  "reviewedAt": "2026-10-18",
+  "scope": "One existing restricted entry; source provenance and fixed skeleton only. No item-content screening.",
+  "restrictionPreserved": true,
+  "source": {
+    "url": "http://viprpg2012gw.web.fc2.com/en_045.html",
+    "captureFile": "catch/2012-gw/source/recovery/en_045.html.bin",
+    "manifestFile": "catch/2012-gw/source/recovery/manifest.json",
+    "capturedAt": "2026-10-15T17:09:30.199Z",
+    "captureSha256": "6f3f18aed0abeb7b447154cb08b954108e44a01e9a72e0818b0bd783d7d5abab",
+    "captureBytes": 2383,
+    "directCapture": true,
+    "snapshotUrl": null
+  },
+  "formattedView": {
+    "workId": "2012-gw-work-045",
+    "detailRoute": "/works/2012-gw-work-045",
+    "fixedAuthorLine": 1,
+    "neutralMediaBlock": 1,
+    "infoRows": 3,
+    "detailSections": 5,
+    "sourceContentSections": 0,
+    "sourceNavigationVisible": false,
+    "downloadLinksVisible": 0
+  },
+  "originalView": {
+    "page": "en_045.html",
+    "detailRoute": "/original-pages/2012-gw/en_045.html",
+    "listingPage": "top.html",
+    "listingRowPresent": true,
+    "detailTableRows": 8,
+    "neutralScreenshotPlaceholder": "public/original-pages/2012-gw/restricted/45-screenshot.svg",
+    "placeholderExists": true,
+    "placeholderDimensions": {
+      "width": 640,
+      "height": 480
+    },
+    "postingForms": 0
+  },
+  "desktop": {
+    "viewport": {
+      "width": 1463,
+      "height": 780
+    },
+    "horizontalOverflow": false
+  },
+  "manualContentReview": false,
+  "restrictionClassificationChanged": false,
+  "finalBuildVerification": {
+    "reviewedAt": "2026-10-18",
+    "environment": "Next.js production build served locally",
+    "desktopViewport": {
+      "width": 1463,
+      "height": 780
+    },
+    "formattedView": {
+      "horizontalOverflow": false,
+      "authorLines": 1,
+      "restrictedMediaBlocks": 1,
+      "infoRows": 3,
+      "detailSections": 5,
+      "sourceNavigationVisible": 0,
+      "downloadLinks": 0
+    },
+    "originalView": {
+      "horizontalOverflow": false,
+      "detailTableRows": 8,
+      "placeholderLoaded": true,
+      "placeholderDimensions": {
+        "width": 640,
+        "height": 480
+      },
+      "postingForms": 0
+    }
+  }
+}

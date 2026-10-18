@@ -132,5 +132,16 @@
   "retainedEntries": 7,
   "pendingEntries": 0,
   "restoredEntries": 14,
-  "unrestoredEntries": 7
+  "unrestoredEntries": 7,
+  "supplementalTasks": [
+    {
+      "festivalId": "2012-gw",
+      "no": "45",
+      "reviewedAt": "2026-10-18",
+      "status": "source-provenance-and-fixed-skeleton-verified",
+      "restrictionPreserved": true,
+      "sourceUrl": "http://viprpg2012gw.web.fc2.com/en_045.html",
+      "evidence": "catch/2012-gw/restricted-structure-review.json"
+    }
+  ]
 }

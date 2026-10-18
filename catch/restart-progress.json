@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2012-gw",
+  "activeFestival": "2010-gw",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -309,15 +309,17 @@
     {
       "festivalId": "2012-gw",
       "reviewedAt": "2026-10-16",
-      "dataSha256": "902dad3a5a50430b6df9191ff9af66e2887aebf2509860bb4acd0dd1a8a2086e",
+      "dataSha256": "0d5792df95ca9b6a5709a96cbf61b57a2d391b0051d724ffeb9ed6c97dc1129d",
       "works": 60,
       "screenshotFiles": 59,
-      "status": "reviewed",
+      "status": "reviewed-with-supplemental-restricted-entry",
       "sourceEvidence": [
         "catch/2012-gw/recovery.json",
         "catch/2012-gw/source-comparison.json",
         "catch/2012-gw/content-review.json",
-        "catch/2012-gw/title-review.json"
+        "catch/2012-gw/title-review.json",
+        "catch/2012-gw/restricted-structure-review.json",
+        "catch/2012-gw/source/recovery/manifest.json"
       ],
       "desktopEvidence": [
         "catch/2012-gw/desktop-review.json",
@@ -326,7 +328,7 @@
         "catch/2012-gw/restriction-review.json",
         "catch/2012-gw/replay-review.json"
       ],
-      "notes": "源站仍可用，60 条目录（补回 No.00）、59 个来源详情及 1 个完整受限模板已核对。59 条图标引用、59 张截图、2 张横幅及 49 个作品的 54 个本体／修正链接保留；双方留言及配信说明逐项对照。No.45 两种视图均有完整固定模板，不发布原说明、媒体或相关链接。原貌版从实际 top.html 进入，175 个文件无资源缺口；双视图桌面验收通过。"
+      "notes": "源站仍可用，60 条目录（补回 No.00）、59 个来源详情及 1 个完整受限模板已核对。59 条图标引用、59 张截图、2 张横幅及 49 个作品的 54 个本体／修正链接保留；双方留言及配信说明逐项对照。No.45 两种视图均有完整固定模板，不发布原说明、媒体或相关链接。原貌版从实际 top.html 进入，175 个文件无资源缺口；双视图桌面验收通过。 另补录受限 No.45 的直接来源和固定详情骨架；保留原受限标记及中性占位。"
     },
     {
       "festivalId": "2012-kouhaku",
@@ -659,7 +661,8 @@
       "festivalId": "2012-gw",
       "evidence": [
         "catch/2012-gw/original-view.json",
-        "catch/2012-gw/desktop-review.json"
+        "catch/2012-gw/desktop-review.json",
+        "catch/2012-gw/restricted-structure-review.json"
       ]
     },
     {
@@ -730,13 +733,17 @@
   ],
   "insertedTask": {
     "type": "restricted-rearchive",
-    "status": "active",
+    "status": "reviewed-with-exceptions",
     "afterFestival": "2011-toppatsu-festival",
     "resumeFestival": "2010-gw",
     "targetFestival": "2012-gw",
     "targetNo": "45",
     "plan": "catch/restricted-rearchive-plan.json",
-    "scope": "Apply the fixed neutral detail skeleton and direct-source provenance to one existing retained restricted entry; keep its restriction marker and preserve the captured source without screening content."
+    "scope": "Apply the fixed neutral detail skeleton and direct-source provenance to one existing retained restricted entry; keep its restriction marker and preserve the captured source without screening content.",
+    "reviewedAt": "2026-10-18",
+    "restrictionPreserved": true,
+    "sourceUrl": "http://viprpg2012gw.web.fc2.com/en_045.html",
+    "evidence": "catch/2012-gw/restricted-structure-review.json"
   },
   "insertedTaskHistory": [
     {
@@ -748,6 +755,20 @@
       "scope": "Existing restricted entries, starting with 2012 Summer; direct source preservation without proactive content review.",
       "restoredEntries": 14,
       "retainedEntries": 7
+    },
+    {
+      "type": "restricted-rearchive",
+      "status": "reviewed-with-exceptions",
+      "afterFestival": "2011-toppatsu-festival",
+      "resumeFestival": "2010-gw",
+      "targetFestival": "2012-gw",
+      "targetNo": "45",
+      "plan": "catch/restricted-rearchive-plan.json",
+      "scope": "Apply the fixed neutral detail skeleton and direct-source provenance to one existing retained restricted entry; keep its restriction marker and preserve the captured source without screening content.",
+      "reviewedAt": "2026-10-18",
+      "restrictionPreserved": true,
+      "sourceUrl": "http://viprpg2012gw.web.fc2.com/en_045.html",
+      "evidence": "catch/2012-gw/restricted-structure-review.json"
     }
   ]
 }
