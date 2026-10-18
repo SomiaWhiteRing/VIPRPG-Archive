@@ -7,7 +7,7 @@ import { getDictionary } from "../src/lib/i18n";
 import type { WorkEntry } from "../src/lib/types";
 import { rewriteSummer2012Source } from "./source-2012-summer-view";
 
-const configurations: Record<string, { base: string; entry?: string; manifests: string[]; seeds: Record<string, string>; seedUrls?: Record<string, string>; cgiProfile?: boolean; encoding?: string; liveSource?: boolean; disabledLocalLinks?: string[]; externalResources?: Record<string, string>; frames?: { menuPage: string; menuName: string; mainName: string } }> = {
+const configurations: Record<string, { base: string; entry?: string; manifests: string[]; seeds: Record<string, string>; seedUrls?: Record<string, string>; cgiProfile?: boolean; encoding?: string; liveSource?: boolean; disabledLocalLinks?: string[]; externalResources?: Record<string, string>; preserveExternalExtensions?: string[]; frames?: { menuPage: string; menuName: string; mainName: string } }> = {
   "2011-summer": {
     base: "http://www.geocities.jp/viprpg_summer11/",
     entry: "index.htm",
@@ -72,6 +72,14 @@ const configurations: Record<string, { base: string; entry?: string; manifests: 
     manifests: ["source/archive/manifest.json"],
     seeds: { "index.html": "source/archive/index.html.bin" },
     encoding: "shift_jis",
+  },
+  "2009-kouhaku": {
+    base: "http://vipkouhaku09.web.fc2.com/",
+    entry: "index.htm",
+    manifests: ["source/original/manifest.json"],
+    seeds: { "index.htm": "source/original/index.htm.bin" },
+    encoding: "shift_jis", liveSource: true,
+    preserveExternalExtensions: [".zip"],
   },
   "2009-gw": {
     base: "https://vipgw2011.web.fc2.com/vip_2009gw/",
@@ -251,7 +259,9 @@ async function main() {
   }
   function localReference(value: string, owner: string, local: string) {
     if (/^(?:data:|javascript:|mailto:)/i.test(value) || value.startsWith("#")) return value;
-    const target = enqueue(value, owner), url = new URL(value, owner);
+    const url = new URL(value, owner);
+    if (config.preserveExternalExtensions?.some((extension) => url.pathname.toLowerCase().endsWith(extension.toLowerCase()))) return url.href;
+    const target = enqueue(value, owner);
     return target ? (path.posix.relative(path.posix.dirname(local), target) || path.posix.basename(target)) + (config.cgiProfile && url.pathname.endsWith("/profile.cgi") ? "" : url.search) + url.hash : url.href;
   }
   function rewriteCSS(text: string, owner: string, local: string) {
@@ -733,7 +743,7 @@ async function main() {
         compatibilityFixes.push({ page: local, change: "Omit an unavailable stylesheet or favicon reference; the source inline styling remains in place and the missing resource stays documented." });
       }
     });
-    if (["2010-gw", "2012-kouhaku", "2011-gw", "2011-kouhaku", "2010-summer", "2009-gw"].includes(id) || [...omittedBackgrounds, ...omittedHovers].some((omission) => omission.page === local)) files.set(local, Buffer.from($.html()));
+    if (["2010-gw", "2012-kouhaku", "2011-gw", "2011-kouhaku", "2010-summer", "2009-kouhaku", "2009-gw"].includes(id) || [...omittedBackgrounds, ...omittedHovers].some((omission) => omission.page === local)) files.set(local, Buffer.from($.html()));
   }
   const generatedUnavailablePages: string[] = [];
   if (id === "2011-gw" || id === "2010-gw") for (const gap of recovery.sourceDetailGaps ?? []) {
@@ -750,6 +760,14 @@ async function main() {
       ${work.source?.titleUrl ? `<p><a href="${escape(work.source.titleUrl)}">題名を確認した公式感想スレッド</a></p>` : ""}<p><a href="../index.html#works">作品一覧へ戻る</a></p></body></html>`));
     generatedUnavailablePages.push(gap.sourcePath);
     compatibilityFixes.push({ page: gap.sourcePath, change: "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented." });
+  }
+  if (id === "2009-kouhaku" && failures.some((failure) => new URL(failure.url).pathname === "/handin.htm")) {
+    files.set("handin.htm", Buffer.from(`<!doctype html><html lang="zh-Hans"><meta charset="UTF-8"><title>原页面未取得</title><main><h1>原页面未取得</h1><p>日本节点下的源站请求返回 404；香港节点下的 Wayback 精确 URL 查询没有成功快照。</p><p><a href="index.htm">返回原站入口</a></p></main></html>`));
+    generatedUnavailablePages.push("handin.htm");
+    compatibilityFixes.push({ page: "handin.htm", change: "Create a labelled neutral page for a source 404 with no successful Hong Kong-node Wayback capture; do not present the remote error page as source content." });
+  }
+  if (id === "2009-kouhaku" && config.preserveExternalExtensions?.includes(".zip")) {
+    compatibilityFixes.push({ page: "sakuhin_list2.htm", change: "Keep source-listed game-package links at their direct external source URLs; do not copy the packages into the archive." });
   }
   for (const [local, bytes] of files) {
     const target = `${output}/${local}`;

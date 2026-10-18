@@ -1,0 +1,1002 @@
+{
+  "festivalId": "2009-kouhaku",
+  "reviewedAt": "2026-10-18",
+  "originalBase": "http://vipkouhaku09.web.fc2.com/",
+  "sourceEncoding": "Shift_JIS",
+  "liveSourceAvailable": true,
+  "sourcePages": [
+    "index.htm",
+    "menu.htm",
+    "index_top.htm",
+    "gaiyou.htm",
+    "hosoku.htm",
+    "sakuhin.htm",
+    "sakuhin_red.htm",
+    "sakuhin_top.htm",
+    "sakuhin_list2.htm",
+    "handin2.htm"
+  ],
+  "sourceDetailGaps": [
+    {
+      "no": "031",
+      "sourcePath": "sakuhin_031.htm",
+      "reason": "The source list has this row but does not link to an individual detail page; the work remains in the catalogue and original list."
+    }
+  ],
+  "contentRestrictions": [],
+  "failures": [
+    {
+      "sourceUrl": "http://vipkouhaku09.web.fc2.com/handin.htm",
+      "error": "Direct Japan-node request returned HTTP 404; exact-URL Wayback CDX query through the Hong Kong node returned no successful captures."
+    }
+  ],
+  "unavailableResources": [
+    {
+      "originalUrl": "http://vipkouhaku09.web.fc2.com/handin.htm",
+      "kind": "linked-html-page",
+      "status": "direct-404-and-no-cdx-snapshot",
+      "reason": "Direct Japan-node request returned HTTP 404; exact-URL Wayback CDX query through the Hong Kong node returned no successful captures."
+    }
+  ],
+  "ignoredTrackingResources": [
+    {
+      "originalUrl": "https://media.fc2.com/counter_img.php?id=50",
+      "reason": "Remote visitor counter omitted from local replay."
+    }
+  ],
+  "banners": [
+    "http://vipkouhaku09.web.fc2.com/2009banner.png",
+    "http://vipkouhaku09.web.fc2.com/2009banner_meza.png"
+  ],
+  "sourceAvailability": {
+    "directSourceProxyRegion": "Japan",
+    "directSourceExitCountry": "JP",
+    "waybackProxyRegion": "Hong Kong",
+    "waybackExitCountry": "HK",
+    "capturedAt": "2026-10-18T05:52:24.6295344Z",
+    "successfulHtmlPages": 98,
+    "successfulImageResources": 102,
+    "failedDirectPages": 1,
+    "directAssetFailures": [
+      {
+        "url": "http://vipkouhaku09.web.fc2.com/handin.htm",
+        "proxyRegion": "Japan",
+        "status": 404,
+        "waybackCdxRows": 0,
+        "waybackProxyRegion": "Hong Kong"
+      }
+    ]
+  },
+  "dataCapture": {
+    "works": 89,
+    "sourceRows": 89,
+    "rowOrderMappings": 89,
+    "sourceDetailPages": 88,
+    "sourceRowsWithoutDetailPage": 1,
+    "sourceScreenshotLinks": 87,
+    "archivedScreenshotAssets": 91,
+    "downloadLinks": 71,
+    "existingDownloadPathsMatched": 71,
+    "sourceFieldsAdded": 89,
+    "manuallyAppliedRestrictions": 0,
+    "manualEntryContentReview": false
+  },
+  "originalResources": {
+    "http://vipkouhaku09.web.fc2.com/index.htm": "index.htm",
+    "http://vipkouhaku09.web.fc2.com/menu.htm": "menu.htm",
+    "http://vipkouhaku09.web.fc2.com/index_top.htm": "index_top.htm",
+    "http://vipkouhaku09.web.fc2.com/gaiyou.htm": "gaiyou.htm",
+    "http://vipkouhaku09.web.fc2.com/hosoku.htm": "hosoku.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin.htm": "sakuhin.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_red.htm": "sakuhin_red.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_top.htm": "sakuhin_top.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_list2.htm": "sakuhin_list2.htm",
+    "http://vipkouhaku09.web.fc2.com/handin2.htm": "handin2.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_001.htm": "sakuhin_001.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_002.htm": "sakuhin_002.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_003.htm": "sakuhin_003.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_004.htm": "sakuhin_004.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_005.htm": "sakuhin_005.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_006.htm": "sakuhin_006.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_007.htm": "sakuhin_007.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_008.htm": "sakuhin_008.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_009.htm": "sakuhin_009.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_010.htm": "sakuhin_010.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_011.htm": "sakuhin_011.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_012.htm": "sakuhin_012.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_013.htm": "sakuhin_013.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_014.htm": "sakuhin_014.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_015.htm": "sakuhin_015.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_016.htm": "sakuhin_016.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_017.htm": "sakuhin_017.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_018.htm": "sakuhin_018.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_019.htm": "sakuhin_019.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_020.htm": "sakuhin_020.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_021.htm": "sakuhin_021.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_022.htm": "sakuhin_022.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_023.htm": "sakuhin_023.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_024.htm": "sakuhin_024.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_025.htm": "sakuhin_025.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_026.htm": "sakuhin_026.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_027.htm": "sakuhin_027.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_028.htm": "sakuhin_028.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_029.htm": "sakuhin_029.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_030.htm": "sakuhin_030.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_032.htm": "sakuhin_032.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_033.htm": "sakuhin_033.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_034.htm": "sakuhin_034.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_035.htm": "sakuhin_035.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_036.htm": "sakuhin_036.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_037.htm": "sakuhin_037.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_038.htm": "sakuhin_038.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_039.htm": "sakuhin_039.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_040.htm": "sakuhin_040.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_041.htm": "sakuhin_041.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_042.htm": "sakuhin_042.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_043.htm": "sakuhin_043.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_044.htm": "sakuhin_044.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_045.htm": "sakuhin_045.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_046.htm": "sakuhin_046.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_047.htm": "sakuhin_047.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_048.htm": "sakuhin_048.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_049.htm": "sakuhin_049.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_050.htm": "sakuhin_050.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_051.htm": "sakuhin_051.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_052.htm": "sakuhin_052.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_053.htm": "sakuhin_053.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_054.htm": "sakuhin_054.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_055.htm": "sakuhin_055.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_056.htm": "sakuhin_056.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_057.htm": "sakuhin_057.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_058.htm": "sakuhin_058.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_059.htm": "sakuhin_059.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_060.htm": "sakuhin_060.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_061.htm": "sakuhin_061.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_062.htm": "sakuhin_062.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_063.htm": "sakuhin_063.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_064.htm": "sakuhin_064.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_065.htm": "sakuhin_065.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_066.htm": "sakuhin_066.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_067.htm": "sakuhin_067.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_068.htm": "sakuhin_068.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_069.htm": "sakuhin_069.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_070.htm": "sakuhin_070.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_071.htm": "sakuhin_071.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_072.htm": "sakuhin_072.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_073.htm": "sakuhin_073.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_074.htm": "sakuhin_074.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_075.htm": "sakuhin_075.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_076.htm": "sakuhin_076.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_077.htm": "sakuhin_077.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_078.htm": "sakuhin_078.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_079.htm": "sakuhin_079.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_080.htm": "sakuhin_080.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_081.htm": "sakuhin_081.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_082.htm": "sakuhin_082.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_083.htm": "sakuhin_083.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_084.htm": "sakuhin_084.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_085.htm": "sakuhin_085.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_086.htm": "sakuhin_086.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_087.htm": "sakuhin_087.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_088.htm": "sakuhin_088.htm",
+    "http://vipkouhaku09.web.fc2.com/sakuhin_089.htm": "sakuhin_089.htm",
+    "http://vipkouhaku09.web.fc2.com/pp8.jpg": "pp8.jpg",
+    "http://vipkouhaku09.web.fc2.com/m_bickuri_Scj_ir.gif": "m_bickuri_Scj_ir.gif",
+    "http://vipkouhaku09.web.fc2.com/favicon.ico": "favicon.ico",
+    "http://vipkouhaku09.web.fc2.com/2009logo.png": "2009logo.png",
+    "http://vipkouhaku09.web.fc2.com/2009banner.png": "2009banner.png",
+    "http://vipkouhaku09.web.fc2.com/2009banner_meza.png": "2009banner_meza.png",
+    "http://vipkouhaku09.web.fc2.com/SS_001-2.png": "SS_001-2.png",
+    "http://vipkouhaku09.web.fc2.com/SS_002-1.png": "SS_002-1.png",
+    "http://vipkouhaku09.web.fc2.com/SS_003-5.png": "SS_003-5.png",
+    "http://vipkouhaku09.web.fc2.com/SS_004-2.png": "SS_004-2.png",
+    "http://vipkouhaku09.web.fc2.com/SS_005.png": "SS_005.png",
+    "http://vipkouhaku09.web.fc2.com/SS_006-4.png": "SS_006-4.png",
+    "http://vipkouhaku09.web.fc2.com/SS_007.png": "SS_007.png",
+    "http://vipkouhaku09.web.fc2.com/SS_008-1.png": "SS_008-1.png",
+    "http://vipkouhaku09.web.fc2.com/SS_009-1.png": "SS_009-1.png",
+    "http://vipkouhaku09.web.fc2.com/SS_010-3.png": "SS_010-3.png",
+    "http://vipkouhaku09.web.fc2.com/SS_011.png": "SS_011.png",
+    "http://vipkouhaku09.web.fc2.com/SS_012.png": "SS_012.png",
+    "http://vipkouhaku09.web.fc2.com/SS_013-3.jpg": "SS_013-3.jpg",
+    "http://vipkouhaku09.web.fc2.com/SS_014-1.png": "SS_014-1.png",
+    "http://vipkouhaku09.web.fc2.com/SS_015-2.jpg": "SS_015-2.jpg",
+    "http://vipkouhaku09.web.fc2.com/SS_016-1.png": "SS_016-1.png",
+    "http://vipkouhaku09.web.fc2.com/SS_017.png": "SS_017.png",
+    "http://vipkouhaku09.web.fc2.com/SS_018-1.png": "SS_018-1.png",
+    "http://vipkouhaku09.web.fc2.com/SS_019-4.png": "SS_019-4.png",
+    "http://vipkouhaku09.web.fc2.com/SS_020.jpg": "SS_020.jpg",
+    "http://vipkouhaku09.web.fc2.com/SS_021-1.png": "SS_021-1.png",
+    "http://vipkouhaku09.web.fc2.com/SS_022-0.png": "SS_022-0.png",
+    "http://vipkouhaku09.web.fc2.com/SS_023-2.gif": "SS_023-2.gif",
+    "http://vipkouhaku09.web.fc2.com/SS_024-1.png": "SS_024-1.png",
+    "http://vipkouhaku09.web.fc2.com/SS_025-1.png": "SS_025-1.png",
+    "http://vipkouhaku09.web.fc2.com/SS_026-3.png": "SS_026-3.png",
+    "http://vipkouhaku09.web.fc2.com/SS_027-3.png": "SS_027-3.png",
+    "http://vipkouhaku09.web.fc2.com/SS_028.jpg": "SS_028.jpg",
+    "http://vipkouhaku09.web.fc2.com/icon_2003.gif": "icon_2003.gif",
+    "http://vipkouhaku09.web.fc2.com/SS_029-8.png": "SS_029-8.png",
+    "http://vipkouhaku09.web.fc2.com/SS_030-2.jpg": "SS_030-2.jpg",
+    "http://vipkouhaku09.web.fc2.com/SS_032.png": "SS_032.png",
+    "http://vipkouhaku09.web.fc2.com/SS_033-2.png": "SS_033-2.png",
+    "http://vipkouhaku09.web.fc2.com/SS_034-1.jpg": "SS_034-1.jpg",
+    "http://vipkouhaku09.web.fc2.com/SS_035.png": "SS_035.png",
+    "http://vipkouhaku09.web.fc2.com/SS_036-1.png": "SS_036-1.png",
+    "http://vipkouhaku09.web.fc2.com/SS_037-2.gif": "SS_037-2.gif",
+    "http://vipkouhaku09.web.fc2.com/SS_038-6.png": "SS_038-6.png",
+    "http://vipkouhaku09.web.fc2.com/SS_039.png": "SS_039.png",
+    "http://vipkouhaku09.web.fc2.com/SS_040-1.jpg": "SS_040-1.jpg",
+    "http://vipkouhaku09.web.fc2.com/SS_041-2.png": "SS_041-2.png",
+    "http://vipkouhaku09.web.fc2.com/SS_042-1.png": "SS_042-1.png",
+    "http://vipkouhaku09.web.fc2.com/SS_043.png": "SS_043.png",
+    "http://vipkouhaku09.web.fc2.com/SS_044.png": "SS_044.png",
+    "http://vipkouhaku09.web.fc2.com/SS_045.png": "SS_045.png",
+    "http://vipkouhaku09.web.fc2.com/SS_046.png": "SS_046.png",
+    "http://vipkouhaku09.web.fc2.com/SS_047-2.png": "SS_047-2.png",
+    "http://vipkouhaku09.web.fc2.com/SS_048.png": "SS_048.png",
+    "http://vipkouhaku09.web.fc2.com/SS_049.png": "SS_049.png",
+    "http://vipkouhaku09.web.fc2.com/SS_050-1.png": "SS_050-1.png",
+    "http://vipkouhaku09.web.fc2.com/SS_051.png": "SS_051.png",
+    "http://vipkouhaku09.web.fc2.com/SS_052.png": "SS_052.png",
+    "http://vipkouhaku09.web.fc2.com/SS_053-2.png": "SS_053-2.png",
+    "http://vipkouhaku09.web.fc2.com/SS_054.png": "SS_054.png",
+    "http://vipkouhaku09.web.fc2.com/SS_055.png": "SS_055.png",
+    "http://vipkouhaku09.web.fc2.com/SS_056-1.png": "SS_056-1.png",
+    "http://vipkouhaku09.web.fc2.com/SS_057.png": "SS_057.png",
+    "http://vipkouhaku09.web.fc2.com/SS_058-1.png": "SS_058-1.png",
+    "http://vipkouhaku09.web.fc2.com/SS_059.png": "SS_059.png",
+    "http://vipkouhaku09.web.fc2.com/SS_060.png": "SS_060.png",
+    "http://vipkouhaku09.web.fc2.com/SS_061.gif": "SS_061.gif",
+    "http://vipkouhaku09.web.fc2.com/SS_062.png": "SS_062.png",
+    "http://vipkouhaku09.web.fc2.com/SS_063-1.png": "SS_063-1.png",
+    "http://vipkouhaku09.web.fc2.com/SS_064-1.png": "SS_064-1.png",
+    "http://vipkouhaku09.web.fc2.com/SS_065.png": "SS_065.png",
+    "http://vipkouhaku09.web.fc2.com/SS_066.png": "SS_066.png",
+    "http://vipkouhaku09.web.fc2.com/SS_067.png": "SS_067.png",
+    "http://vipkouhaku09.web.fc2.com/icon_XP.gif": "icon_XP.gif",
+    "http://vipkouhaku09.web.fc2.com/SS_068.png": "SS_068.png",
+    "http://vipkouhaku09.web.fc2.com/SS_069-1.png": "SS_069-1.png",
+    "http://vipkouhaku09.web.fc2.com/SS_070-1.jpg": "SS_070-1.jpg",
+    "http://vipkouhaku09.web.fc2.com/SS_071.png": "SS_071.png",
+    "http://vipkouhaku09.web.fc2.com/icon_VX.gif": "icon_VX.gif",
+    "http://vipkouhaku09.web.fc2.com/SS_072.png": "SS_072.png",
+    "http://vipkouhaku09.web.fc2.com/SS_073.jpg": "SS_073.jpg",
+    "http://vipkouhaku09.web.fc2.com/SS_074.png": "SS_074.png",
+    "http://vipkouhaku09.web.fc2.com/SS_075.png": "SS_075.png",
+    "http://vipkouhaku09.web.fc2.com/SS_076.png": "SS_076.png",
+    "http://vipkouhaku09.web.fc2.com/SS_077.png": "SS_077.png",
+    "http://vipkouhaku09.web.fc2.com/SS_078.jpg": "SS_078.jpg",
+    "http://vipkouhaku09.web.fc2.com/SS_079.gif": "SS_079.gif",
+    "http://vipkouhaku09.web.fc2.com/SS_080.png": "SS_080.png",
+    "http://vipkouhaku09.web.fc2.com/SS_081.jpg": "SS_081.jpg",
+    "http://vipkouhaku09.web.fc2.com/SS_082.png": "SS_082.png",
+    "http://vipkouhaku09.web.fc2.com/SS_083.gif": "SS_083.gif",
+    "http://vipkouhaku09.web.fc2.com/SS_084.png": "SS_084.png",
+    "http://vipkouhaku09.web.fc2.com/SS_085.jpg": "SS_085.jpg",
+    "http://vipkouhaku09.web.fc2.com/SS_086.jpg": "SS_086.jpg",
+    "http://vipkouhaku09.web.fc2.com/SS_087.png": "SS_087.png",
+    "http://vipkouhaku09.web.fc2.com/SS_088.png": "SS_088.png",
+    "http://vipkouhaku09.web.fc2.com/SS_089.jpg": "SS_089.jpg",
+    "http://vipkouhaku09.web.fc2.com/OK.gif": "OK.gif",
+    "http://vipkouhaku09.web.fc2.com/SS_009.png": "SS_009.png",
+    "http://vipkouhaku09.web.fc2.com/DL_late.gif": "DL_late.gif",
+    "http://vipkouhaku09.web.fc2.com/SS_022-9.png": "SS_022-9.png",
+    "http://vipkouhaku09.web.fc2.com/SS_000-1.png": "SS_000-1.png"
+  },
+  "desktopReview": "passed-with-documented-omissions",
+  "entries": [
+    {
+      "no": "001",
+      "sourceRow": 1,
+      "sourcePage": "sakuhin_001.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "002",
+      "sourceRow": 2,
+      "sourcePage": "sakuhin_002.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "003",
+      "sourceRow": 3,
+      "sourcePage": "sakuhin_003.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "004",
+      "sourceRow": 4,
+      "sourcePage": "sakuhin_004.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "005",
+      "sourceRow": 5,
+      "sourcePage": "sakuhin_005.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "006",
+      "sourceRow": 6,
+      "sourcePage": "sakuhin_006.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "007",
+      "sourceRow": 7,
+      "sourcePage": "sakuhin_007.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "008",
+      "sourceRow": 8,
+      "sourcePage": "sakuhin_008.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 0
+    },
+    {
+      "no": "009",
+      "sourceRow": 9,
+      "sourcePage": "sakuhin_009.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "010",
+      "sourceRow": 10,
+      "sourcePage": "sakuhin_010.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "011",
+      "sourceRow": 11,
+      "sourcePage": "sakuhin_011.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "012",
+      "sourceRow": 12,
+      "sourcePage": "sakuhin_012.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "013",
+      "sourceRow": 13,
+      "sourcePage": "sakuhin_013.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "014",
+      "sourceRow": 14,
+      "sourcePage": "sakuhin_014.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 0
+    },
+    {
+      "no": "015",
+      "sourceRow": 15,
+      "sourcePage": "sakuhin_015.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "016",
+      "sourceRow": 16,
+      "sourcePage": "sakuhin_016.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "017",
+      "sourceRow": 17,
+      "sourcePage": "sakuhin_017.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 0
+    },
+    {
+      "no": "018",
+      "sourceRow": 18,
+      "sourcePage": "sakuhin_018.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "019",
+      "sourceRow": 19,
+      "sourcePage": "sakuhin_019.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 0
+    },
+    {
+      "no": "020",
+      "sourceRow": 20,
+      "sourcePage": "sakuhin_020.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "021",
+      "sourceRow": 21,
+      "sourcePage": "sakuhin_021.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "022",
+      "sourceRow": 22,
+      "sourcePage": "sakuhin_022.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "023",
+      "sourceRow": 23,
+      "sourcePage": "sakuhin_023.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "024",
+      "sourceRow": 24,
+      "sourcePage": "sakuhin_024.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "025",
+      "sourceRow": 25,
+      "sourcePage": "sakuhin_025.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "026",
+      "sourceRow": 26,
+      "sourcePage": "sakuhin_026.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "027",
+      "sourceRow": 27,
+      "sourcePage": "sakuhin_027.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "028",
+      "sourceRow": 28,
+      "sourcePage": "sakuhin_028.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 0
+    },
+    {
+      "no": "029",
+      "sourceRow": 29,
+      "sourcePage": "sakuhin_029.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "030",
+      "sourceRow": 30,
+      "sourcePage": "sakuhin_030.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "031",
+      "sourceRow": 31,
+      "sourcePage": "sakuhin_list2.htm",
+      "detailCaptured": false,
+      "sourceScreenshotLinks": 0,
+      "sourceDownloadLinks": 0
+    },
+    {
+      "no": "032",
+      "sourceRow": 32,
+      "sourcePage": "sakuhin_032.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "033",
+      "sourceRow": 33,
+      "sourcePage": "sakuhin_033.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "034",
+      "sourceRow": 34,
+      "sourcePage": "sakuhin_034.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "035",
+      "sourceRow": 35,
+      "sourcePage": "sakuhin_035.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 0
+    },
+    {
+      "no": "036",
+      "sourceRow": 36,
+      "sourcePage": "sakuhin_036.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "037",
+      "sourceRow": 37,
+      "sourcePage": "sakuhin_037.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "038",
+      "sourceRow": 38,
+      "sourcePage": "sakuhin_038.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "039",
+      "sourceRow": 39,
+      "sourcePage": "sakuhin_039.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "040",
+      "sourceRow": 40,
+      "sourcePage": "sakuhin_040.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "041",
+      "sourceRow": 41,
+      "sourcePage": "sakuhin_041.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 0
+    },
+    {
+      "no": "042",
+      "sourceRow": 42,
+      "sourcePage": "sakuhin_042.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "043",
+      "sourceRow": 43,
+      "sourcePage": "sakuhin_043.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "044",
+      "sourceRow": 44,
+      "sourcePage": "sakuhin_044.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 0
+    },
+    {
+      "no": "045",
+      "sourceRow": 45,
+      "sourcePage": "sakuhin_045.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "046",
+      "sourceRow": 46,
+      "sourcePage": "sakuhin_046.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 0
+    },
+    {
+      "no": "047",
+      "sourceRow": 47,
+      "sourcePage": "sakuhin_047.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 0,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "048",
+      "sourceRow": 48,
+      "sourcePage": "sakuhin_048.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 0
+    },
+    {
+      "no": "049",
+      "sourceRow": 49,
+      "sourcePage": "sakuhin_049.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "050",
+      "sourceRow": 50,
+      "sourcePage": "sakuhin_050.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "051",
+      "sourceRow": 51,
+      "sourcePage": "sakuhin_051.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 0
+    },
+    {
+      "no": "052",
+      "sourceRow": 52,
+      "sourcePage": "sakuhin_052.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 0
+    },
+    {
+      "no": "053",
+      "sourceRow": 53,
+      "sourcePage": "sakuhin_053.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 0
+    },
+    {
+      "no": "054",
+      "sourceRow": 54,
+      "sourcePage": "sakuhin_054.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 0
+    },
+    {
+      "no": "055",
+      "sourceRow": 55,
+      "sourcePage": "sakuhin_055.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "056",
+      "sourceRow": 56,
+      "sourcePage": "sakuhin_056.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 0
+    },
+    {
+      "no": "057",
+      "sourceRow": 57,
+      "sourcePage": "sakuhin_057.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "058",
+      "sourceRow": 58,
+      "sourcePage": "sakuhin_058.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "059",
+      "sourceRow": 59,
+      "sourcePage": "sakuhin_059.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 0
+    },
+    {
+      "no": "060",
+      "sourceRow": 60,
+      "sourcePage": "sakuhin_060.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "061",
+      "sourceRow": 61,
+      "sourcePage": "sakuhin_061.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "062",
+      "sourceRow": 62,
+      "sourcePage": "sakuhin_062.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 0
+    },
+    {
+      "no": "063",
+      "sourceRow": 63,
+      "sourcePage": "sakuhin_063.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "064",
+      "sourceRow": 64,
+      "sourcePage": "sakuhin_064.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "065",
+      "sourceRow": 65,
+      "sourcePage": "sakuhin_065.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "066",
+      "sourceRow": 66,
+      "sourcePage": "sakuhin_066.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "067",
+      "sourceRow": 67,
+      "sourcePage": "sakuhin_067.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "068",
+      "sourceRow": 68,
+      "sourcePage": "sakuhin_068.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "069",
+      "sourceRow": 69,
+      "sourcePage": "sakuhin_069.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "070",
+      "sourceRow": 70,
+      "sourcePage": "sakuhin_070.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "071",
+      "sourceRow": 71,
+      "sourcePage": "sakuhin_071.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "072",
+      "sourceRow": 72,
+      "sourcePage": "sakuhin_072.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "073",
+      "sourceRow": 73,
+      "sourcePage": "sakuhin_073.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "074",
+      "sourceRow": 74,
+      "sourcePage": "sakuhin_074.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "075",
+      "sourceRow": 75,
+      "sourcePage": "sakuhin_075.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "076",
+      "sourceRow": 76,
+      "sourcePage": "sakuhin_076.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "077",
+      "sourceRow": 77,
+      "sourcePage": "sakuhin_077.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "078",
+      "sourceRow": 78,
+      "sourcePage": "sakuhin_078.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "079",
+      "sourceRow": 79,
+      "sourcePage": "sakuhin_079.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "080",
+      "sourceRow": 80,
+      "sourcePage": "sakuhin_080.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "081",
+      "sourceRow": 81,
+      "sourcePage": "sakuhin_081.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "082",
+      "sourceRow": 82,
+      "sourcePage": "sakuhin_082.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "083",
+      "sourceRow": 83,
+      "sourcePage": "sakuhin_083.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "084",
+      "sourceRow": 84,
+      "sourcePage": "sakuhin_084.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "085",
+      "sourceRow": 85,
+      "sourcePage": "sakuhin_085.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "086",
+      "sourceRow": 86,
+      "sourcePage": "sakuhin_086.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "087",
+      "sourceRow": 87,
+      "sourcePage": "sakuhin_087.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "088",
+      "sourceRow": 88,
+      "sourcePage": "sakuhin_088.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    },
+    {
+      "no": "089",
+      "sourceRow": 89,
+      "sourcePage": "sakuhin_089.htm",
+      "detailCaptured": true,
+      "sourceScreenshotLinks": 1,
+      "sourceDownloadLinks": 1
+    }
+  ],
+  "desktopEvidence": "catch/2009-kouhaku/desktop-review.json"
+}

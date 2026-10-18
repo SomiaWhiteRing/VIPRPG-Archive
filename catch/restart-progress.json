@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2009-kouhaku",
+  "activeFestival": "2009-ksgfestival",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -684,6 +684,36 @@
         "catch/2009-gw/original-view.json"
       ],
       "notes": "直接源站恢复了主页与共用按钮图；48 个原始列表行映射到 48 条现有记录并保存为详情片段，48 个 OneDrive 与 2 个 Box 下载入口只保存为 URL。源站样式表和 favicon 返回 404，精确 URL 的 Wayback CDX 无成功快照，原貌版移除两条失效引用。未下载游戏文件、未审看条目内容、未新增受限标记。"
+    },
+    {
+      "festivalId": "2009-kouhaku",
+      "reviewedAt": "2026-10-18",
+      "dataSha256": "7f9ccf55472df70ed9ac2ad88fd9bda564321c18897357ae13494e27a1bcdd2a",
+      "works": 89,
+      "screenshotFiles": 91,
+      "screenshotReferences": 87,
+      "status": "reviewed-with-documented-source-gaps",
+      "outstandingSourceDetails": [
+        "031"
+      ],
+      "outstandingImageSourceUrls": 0,
+      "outstandingScreenshotRows": 2,
+      "outstandingOtherResources": 1,
+      "sourceEvidence": [
+        "catch/2009-kouhaku/recovery.json",
+        "catch/2009-kouhaku/source-comparison.json",
+        "catch/2009-kouhaku/source/original/manifest.json",
+        "catch/2009-kouhaku/investigation/direct-detail-crawl.json",
+        "catch/2009-kouhaku/investigation/direct-asset-crawl.json",
+        "catch/2009-kouhaku/investigation/direct-failures.json",
+        "catch/2009-kouhaku/investigation/proxy-routes.json",
+        "catch/2009-kouhaku/original-view.json"
+      ],
+      "desktopEvidence": [
+        "catch/2009-kouhaku/desktop-review.json",
+        "catch/2009-kouhaku/original-view.json"
+      ],
+      "notes": "日本节点直源抓取首页、菜单、列表、88 个详情及 102 个图像资源；原列表 89 行按编号映射到现有作品，保存 87 张截图关联、71 个源站下载入口和两张源站横幅。编号 031 无个别详情页链接，两个列表行无截图链接；handin.htm 源站返回 404，香港节点 Wayback 精确 CDX 无成功快照，原貌版提供了明确未取得说明页。未审看条目内容，也未新增受限标记。"
     }
   ],
   "originalViewsReviewed": [
@@ -857,6 +887,13 @@
       "evidence": [
         "catch/2009-gw/original-view.json",
         "catch/2009-gw/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2009-kouhaku",
+      "evidence": [
+        "catch/2009-kouhaku/original-view.json",
+        "catch/2009-kouhaku/desktop-review.json"
       ]
     }
   ],

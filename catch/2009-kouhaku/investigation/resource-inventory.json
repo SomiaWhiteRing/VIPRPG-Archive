@@ -1,0 +1,29 @@
+{
+  "festivalId": "2009-kouhaku",
+  "capturedAt": "2026-10-18T05:52:24.6295344Z",
+  "proxyRegion": "Japan",
+  "manifest": "source/original/manifest.json",
+  "files": 200,
+  "bytes": 15526642,
+  "contentTypes": {
+    "text/html": 98,
+    "image/jpeg": 15,
+    "image/gif": 11,
+    "image/vnd.microsoft.icon": 1,
+    "image/png": 75
+  },
+  "screenshotAssets": 91,
+  "structuredScreenshotLinks": 87,
+  "banners": [
+    "2009banner.png",
+    "2009banner_meza.png"
+  ],
+  "unavailable": [
+    {
+      "path": "handin.htm",
+      "status": "HTTP 404",
+      "waybackCdxRows": 0,
+      "archiveProxyRegion": "Hong Kong"
+    }
+  ]
+}
