@@ -1,0 +1,25 @@
+HTTP/1.1 200 Connection established
+
+HTTP/1.1 302 Found
+Server: openresty
+Date: Sun, 18 Oct 2026 05:18:53 GMT
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 218
+Connection: keep-alive
+Location: https://error.fc2.com/web/404.html
+
+HTTP/1.1 200 Connection established
+
+HTTP/1.1 404 Not Found
+Date: Sun, 18 Oct 2026 05:18:53 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: cloudflare
+Vary: Accept-Encoding
+Content-Language: en
+Age: 51938
+Cache-Control: max-age=300
+cf-cache-status: HIT
+CF-RAY: a4c515c2adf7a5d6-NRT
+

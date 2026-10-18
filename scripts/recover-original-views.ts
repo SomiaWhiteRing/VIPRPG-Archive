@@ -73,6 +73,13 @@ const configurations: Record<string, { base: string; entry?: string; manifests: 
     seeds: { "index.html": "source/archive/index.html.bin" },
     encoding: "shift_jis",
   },
+  "2009-gw": {
+    base: "https://vipgw2011.web.fc2.com/vip_2009gw/",
+    entry: "index.html",
+    manifests: ["source/original/manifest.json"],
+    seeds: { "index.html": "source/original/index.html.bin" },
+    encoding: "euc-jp", liveSource: true,
+  },
   "2012-summer": {
     base: "http://viprpgtkool.web.fc2.com/2012summer/",
     manifests: ["source/recovery/manifest.json"],
@@ -388,6 +395,10 @@ async function main() {
           });
           compatibilityFixes.push({ page: local, change: "Preserve the captured AtWiki content and source theme; remove hosting navigation, advertising, scripts and posting controls, and use local captured images and same-site page links." });
         }
+        if (id === "2009-gw" && $("form").length) {
+          $("form").remove();
+          compatibilityFixes.push({ page: local, change: "Remove the source submission form from the offline static replay." });
+        }
         if (id === "2010-gw") {
           $("script,noscript,iframe,form,object,embed,canvas").remove();
           $("img[src]").each((_, e) => {
@@ -655,6 +666,20 @@ async function main() {
         else if (element.tagName === "link") node.remove();
       });
     }
+    if (id === "2009-gw") $("link[rel*=stylesheet][href]").each((_, element) => {
+      const node = $(element), resource = relative(new URL(node.attr("href")!, new URL(local, base)).href);
+      if (!resource || !unavailable.has(resource)) return;
+      node.remove();
+      compatibilityFixes.push({ page: local, change: `Omit unavailable source stylesheet ${resource}; the direct 404 and empty CDX result are documented.` });
+    });
+    if (id === "2009-gw") $("link[rel]").each((_, element) => {
+      const node = $(element);
+      if (!(node.attr("rel") ?? "").toLowerCase().includes("icon")) return;
+      const resource = relative(new URL(node.attr("href")!, new URL(local, base)).href);
+      if (!resource || !unavailable.has(resource)) return;
+      node.remove();
+      compatibilityFixes.push({ page: local, change: `Omit unavailable source icon ${resource}; the direct 404 and empty CDX result are documented.` });
+    });
     $("[onmouseover],[onmouseout]").each((_, element) => {
       for (const attr of ["onmouseover", "onmouseout"]) for (const match of ($(element).attr(attr) || "").matchAll(/this\.src\s*=\s*['"]([^'"]+)['"]/g)) {
         const resource = relative(new URL(match[1], new URL(local, base)).href);
@@ -708,7 +733,7 @@ async function main() {
         compatibilityFixes.push({ page: local, change: "Omit an unavailable stylesheet or favicon reference; the source inline styling remains in place and the missing resource stays documented." });
       }
     });
-    if (["2010-gw", "2012-kouhaku", "2011-gw", "2011-kouhaku", "2010-summer"].includes(id) || [...omittedBackgrounds, ...omittedHovers].some((omission) => omission.page === local)) files.set(local, Buffer.from($.html()));
+    if (["2010-gw", "2012-kouhaku", "2011-gw", "2011-kouhaku", "2010-summer", "2009-gw"].includes(id) || [...omittedBackgrounds, ...omittedHovers].some((omission) => omission.page === local)) files.set(local, Buffer.from($.html()));
   }
   const generatedUnavailablePages: string[] = [];
   if (id === "2011-gw" || id === "2010-gw") for (const gap of recovery.sourceDetailGaps ?? []) {

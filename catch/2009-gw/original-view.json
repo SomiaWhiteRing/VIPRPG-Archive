@@ -1,0 +1,56 @@
+{
+  "festivalId": "2009-gw",
+  "sourceEncoding": "euc-jp",
+  "entry": "/original-pages/2009-gw/index.html",
+  "sourceManifests": [
+    "source/original/manifest.json"
+  ],
+  "sourcePages": {
+    "index.html": "source/original/index.html.bin"
+  },
+  "files": [
+    "index.html",
+    "f.png"
+  ],
+  "generatedPlaceholders": [],
+  "preloadResources": {
+    "unavailableUnused": 0,
+    "cachedUnused": 0,
+    "evidence": "catch/2009-gw/recovery.json"
+  },
+  "missingResources": [
+    {
+      "url": "https://vipgw2011.web.fc2.com/vip_2009gw/stylesheet.css",
+      "error": "Error: Direct Japan-node request returned HTTP 404; exact-URL Wayback CDX query contained no successful snapshot."
+    },
+    {
+      "url": "https://vipgw2011.web.fc2.com/vip_2009gw/image/favicon.ico",
+      "error": "Error: Direct Japan-node request returned HTTP 404; exact-URL Wayback CDX query contained no successful snapshot."
+    }
+  ],
+  "omittedCssResources": [],
+  "omittedBackgrounds": [],
+  "omittedHovers": [],
+  "compatibilityFixes": [
+    {
+      "page": "index.html",
+      "change": "Remove the source submission form from the offline static replay."
+    },
+    {
+      "page": "index.html",
+      "change": "Omit unavailable source stylesheet stylesheet.css; the direct 404 and empty CDX result are documented."
+    },
+    {
+      "page": "index.html",
+      "change": "Omit unavailable source icon image/favicon.ico; the direct 404 and empty CDX result are documented."
+    }
+  ],
+  "changes": [
+    "Original HTML and CSS normalized from euc-jp to UTF-8.",
+    "Same-site links, CSS resources and absolute script/hover URLs use local paths.",
+    "External hosting trackers removed; unavailable unused preloads replaced with an empty image.",
+    "Original pages are displayed inside a sandboxed frame."
+  ],
+  "desktopReview": "passed-with-documented-omissions",
+  "desktopEvidence": "catch/2009-gw/desktop-review.json"
+}

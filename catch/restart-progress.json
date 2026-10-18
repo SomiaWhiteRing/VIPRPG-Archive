@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2009-gw",
+  "activeFestival": "2009-kouhaku",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -659,6 +659,31 @@
         "catch/2010-summer/original-view.json"
       ],
       "notes": "The Japan-node direct source attempts failed at the host connection; 92 detail pages from the Hong Kong Wayback prefix were captured. 86 map to existing WorkEntries and were restored; 4 existing catalogue IDs have no captured detail snapshot, while 6 archived detail IDs have no existing WorkEntry and remain accessible only in original view. The 91 uncaptured image references use neutral placeholders. No item content was manually reviewed and no restriction marker was added."
+    },
+    {
+      "festivalId": "2009-gw",
+      "reviewedAt": "2026-10-18",
+      "dataSha256": "d4174de7dd7aea07c5226c5590738769fffe7135de436b6d41990c77dc34e94b",
+      "works": 48,
+      "screenshotFiles": 0,
+      "screenshotReferences": 0,
+      "status": "reviewed-with-documented-source-gaps",
+      "outstandingImageSourceUrls": 0,
+      "outstandingOtherResources": 2,
+      "sourceEvidence": [
+        "catch/2009-gw/recovery.json",
+        "catch/2009-gw/source-comparison.json",
+        "catch/2009-gw/source/original/manifest.json",
+        "catch/2009-gw/investigation/resource-inventory.json",
+        "catch/2009-gw/investigation/stylesheet-cdx.json",
+        "catch/2009-gw/investigation/favicon-cdx.json",
+        "catch/2009-gw/original-view.json"
+      ],
+      "desktopEvidence": [
+        "catch/2009-gw/desktop-review.json",
+        "catch/2009-gw/original-view.json"
+      ],
+      "notes": "直接源站恢复了主页与共用按钮图；48 个原始列表行映射到 48 条现有记录并保存为详情片段，48 个 OneDrive 与 2 个 Box 下载入口只保存为 URL。源站样式表和 favicon 返回 404，精确 URL 的 Wayback CDX 无成功快照，原貌版移除两条失效引用。未下载游戏文件、未审看条目内容、未新增受限标记。"
     }
   ],
   "originalViewsReviewed": [
@@ -825,6 +850,13 @@
       "evidence": [
         "catch/2010-summer/original-view.json",
         "catch/2010-summer/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2009-gw",
+      "evidence": [
+        "catch/2009-gw/original-view.json",
+        "catch/2009-gw/desktop-review.json"
       ]
     }
   ],
