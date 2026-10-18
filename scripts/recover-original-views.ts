@@ -81,6 +81,14 @@ const configurations: Record<string, { base: string; entry?: string; manifests: 
     encoding: "shift_jis", liveSource: true,
     preserveExternalExtensions: [".zip"],
   },
+  "2009-ksgfestival": {
+    base: "https://vipkohaku.x.fc2.com/2009ksg/",
+    entry: "index.html",
+    manifests: ["source/archive/manifest.json"],
+    seeds: { "index.html": "source/archive/index.html.bin" },
+    encoding: "euc-jp", liveSource: true,
+    preserveExternalExtensions: [".zip"],
+  },
   "2009-gw": {
     base: "https://vipgw2011.web.fc2.com/vip_2009gw/",
     entry: "index.html",
@@ -743,10 +751,10 @@ async function main() {
         compatibilityFixes.push({ page: local, change: "Omit an unavailable stylesheet or favicon reference; the source inline styling remains in place and the missing resource stays documented." });
       }
     });
-    if (["2010-gw", "2012-kouhaku", "2011-gw", "2011-kouhaku", "2010-summer", "2009-kouhaku", "2009-gw"].includes(id) || [...omittedBackgrounds, ...omittedHovers].some((omission) => omission.page === local)) files.set(local, Buffer.from($.html()));
+    if (["2010-gw", "2012-kouhaku", "2011-gw", "2011-kouhaku", "2010-summer", "2009-kouhaku", "2009-ksgfestival", "2009-gw"].includes(id) || [...omittedBackgrounds, ...omittedHovers].some((omission) => omission.page === local)) files.set(local, Buffer.from($.html()));
   }
   const generatedUnavailablePages: string[] = [];
-  if (id === "2011-gw" || id === "2010-gw") for (const gap of recovery.sourceDetailGaps ?? []) {
+  if (["2011-gw", "2010-gw", "2009-ksgfestival"].includes(id)) for (const gap of recovery.sourceDetailGaps ?? []) {
     const work = catalogue.find((work) => work.no === gap.no);
     if (!work || files.has(gap.sourcePath)) continue;
     const escape = (value: string) => value.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
@@ -766,8 +774,8 @@ async function main() {
     generatedUnavailablePages.push("handin.htm");
     compatibilityFixes.push({ page: "handin.htm", change: "Create a labelled neutral page for a source 404 with no successful Hong Kong-node Wayback capture; do not present the remote error page as source content." });
   }
-  if (id === "2009-kouhaku" && config.preserveExternalExtensions?.includes(".zip")) {
-    compatibilityFixes.push({ page: "sakuhin_list2.htm", change: "Keep source-listed game-package links at their direct external source URLs; do not copy the packages into the archive." });
+  if ((id === "2009-kouhaku" || id === "2009-ksgfestival") && config.preserveExternalExtensions?.includes(".zip")) {
+    compatibilityFixes.push({ page: id === "2009-kouhaku" ? "sakuhin_list2.htm" : "index.html", change: "Keep source-listed game-package links at their direct external source URLs; do not copy the packages into the archive." });
   }
   for (const [local, bytes] of files) {
     const target = `${output}/${local}`;

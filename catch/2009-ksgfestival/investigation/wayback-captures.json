@@ -1,0 +1,50 @@
+{
+  "proxyRegion": "Hong Kong",
+  "exitCountry": "HK",
+  "rootSnapshots": [
+    {
+      "timestamp": "20230206095914",
+      "original": "https://vipkohaku.x.fc2.com/2009ksg/",
+      "requestedUrl": "https://web.archive.org/web/20230206095914id_/https://vipkohaku.x.fc2.com/2009ksg/",
+      "status": 200,
+      "bytes": 8179,
+      "usedAsPrimary": true
+    },
+    {
+      "timestamp": "20190518093110",
+      "original": "https://vipkohaku.x.fc2.com/2009ksg/index.html",
+      "requestedUrl": "https://web.archive.org/web/20190518093110id_/https://vipkohaku.x.fc2.com/2009ksg/index.html",
+      "status": 200,
+      "bytes": 9507,
+      "usedAsPrimary": false
+    }
+  ],
+  "detailCdx": [
+    {
+      "file": "exact-cdx.json",
+      "rows": 1,
+      "proxyRegion": "Hong Kong"
+    },
+    {
+      "file": "prefix-cdx.json",
+      "rows": 2,
+      "proxyRegion": "Hong Kong"
+    },
+    {
+      "file": "detail-https-cdx.json",
+      "rows": 0,
+      "proxyRegion": "Hong Kong"
+    },
+    {
+      "file": "detail-http-cdx.json",
+      "rows": 0,
+      "proxyRegion": "Hong Kong"
+    },
+    {
+      "file": "details-prefix-cdx.json",
+      "rows": 0,
+      "proxyRegion": "Hong Kong"
+    }
+  ],
+  "detailPageCaptures": 0
+}

@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2009-ksgfestival",
+  "activeFestival": "2009-silver-week-miruge-festival",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -714,6 +714,64 @@
         "catch/2009-kouhaku/original-view.json"
       ],
       "notes": "日本节点直源抓取首页、菜单、列表、88 个详情及 102 个图像资源；原列表 89 行按编号映射到现有作品，保存 87 张截图关联、71 个源站下载入口和两张源站横幅。编号 031 无个别详情页链接，两个列表行无截图链接；handin.htm 源站返回 404，香港节点 Wayback 精确 CDX 无成功快照，原貌版提供了明确未取得说明页。未审看条目内容，也未新增受限标记。"
+    },
+    {
+      "festivalId": "2009-ksgfestival",
+      "reviewedAt": "2026-10-18",
+      "dataSha256": "334d69ae73f27294708b0afff6451380bb0419c2986bfc1844b8085567b988af",
+      "works": 30,
+      "screenshotFiles": 0,
+      "screenshotReferences": 0,
+      "status": "reviewed-with-documented-source-gaps",
+      "outstandingSourceDetails": [
+        "001",
+        "002",
+        "003",
+        "004",
+        "005",
+        "006",
+        "007",
+        "008",
+        "009",
+        "010",
+        "011",
+        "012",
+        "013",
+        "014",
+        "015",
+        "016",
+        "017",
+        "018",
+        "019",
+        "020",
+        "021",
+        "022",
+        "023",
+        "024",
+        "025",
+        "026",
+        "027",
+        "028",
+        "029",
+        "030"
+      ],
+      "outstandingImageSourceUrls": 0,
+      "outstandingOtherResources": 0,
+      "sourceEvidence": [
+        "catch/2009-ksgfestival/recovery.json",
+        "catch/2009-ksgfestival/source-comparison.json",
+        "catch/2009-ksgfestival/source/archive/manifest.json",
+        "catch/2009-ksgfestival/investigation/direct-attempts.json",
+        "catch/2009-ksgfestival/investigation/direct-detail-attempts.json",
+        "catch/2009-ksgfestival/investigation/wayback-captures.json",
+        "catch/2009-ksgfestival/investigation/alternate-captures.json",
+        "catch/2009-ksgfestival/original-view.json"
+      ],
+      "desktopEvidence": [
+        "catch/2009-ksgfestival/desktop-review.json",
+        "catch/2009-ksgfestival/original-view.json"
+      ],
+      "notes": "日本节点下的源站首页与 30 个详情页请求均失败；香港节点 Wayback 保存了 2019 与 2023 两份目录页，但详情前缀 CDX 无记录。目录 30 行按编号映射到 30 条现有记录，保存为来源片段并启用详情骨架；原貌版为缺失详情生成中性说明页。保留现有 27 个下载 URL；目录无截图链接、无横幅。未审看条目内容，也未新增受限标记。"
     }
   ],
   "originalViewsReviewed": [
@@ -894,6 +952,13 @@
       "evidence": [
         "catch/2009-kouhaku/original-view.json",
         "catch/2009-kouhaku/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2009-ksgfestival",
+      "evidence": [
+        "catch/2009-ksgfestival/original-view.json",
+        "catch/2009-ksgfestival/desktop-review.json"
       ]
     }
   ],
