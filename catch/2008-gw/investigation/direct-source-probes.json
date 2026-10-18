@@ -1,0 +1,28 @@
+{
+  "proxyNode": "🇯🇵 日本S01 | IEPL",
+  "proxyRegion": "Japan",
+  "exitCountry": "JP",
+  "root": {
+    "https": "ECONNRESET",
+    "http": 502
+  },
+  "representativeEntries": {
+    "numbers": [
+      "001",
+      "024"
+    ],
+    "https": "ECONNRESET",
+    "http": 502
+  },
+  "representativeAssets": [
+    {
+      "resourcePath": "/2008GW/screenshot/ss001.png",
+      "result": "ECONNRESET"
+    },
+    {
+      "resourcePath": "/2008GW/image/gw.png",
+      "result": "ECONNRESET"
+    }
+  ],
+  "successfulRequests": 0
+}

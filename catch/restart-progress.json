@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2008-gw",
+  "activeFestival": "2008-jisaku-battle-festival",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -876,6 +876,44 @@
         "catch/2008-chuuni-festival/original-view.json"
       ],
       "notes": "日本节点源站目录、代表详情页和代表图片请求不可用；香港节点保存了2019主目录与2023替代目录，结构均为24条登记行。详情页及No.000样例、辅助页无成功捕获，原貌视图用26个中性本地骨架保留路径。2019目录中的11个下载地址与现有字段精确匹配，2023的11个Drive迁移地址作为替代记录保留。六个目录图像无可用存档。保留24条现有详情禁用状态，未新增受限标记，也未改变标题、作者、下载字段或筛选内容。"
+    },
+    {
+      "festivalId": "2008-gw",
+      "reviewedAt": "2026-10-18",
+      "dataSha256": "6db00a42eaf0765f1808555570927cbde8675b14dc9b1302ba15f5bee41607c4",
+      "works": 63,
+      "screenshotFiles": 63,
+      "screenshotReferences": 63,
+      "status": "reviewed",
+      "outstandingSourceDetails": 0,
+      "outstandingImageSourceUrls": 0,
+      "outstandingScreenshotRows": 0,
+      "outstandingOtherResources": 0,
+      "outstandingAuxiliaryPages": 0,
+      "sourceEvidence": [
+        "catch/2008-gw/recovery.json",
+        "catch/2008-gw/source-comparison.json",
+        "catch/2008-gw/investigation/direct-source-probes.json",
+        "catch/2008-gw/investigation/direct-asset-attempts.json",
+        "catch/2008-gw/investigation/index-https-cdx.json",
+        "catch/2008-gw/investigation/index-http-cdx.json",
+        "catch/2008-gw/investigation/prefix-https-cdx.json",
+        "catch/2008-gw/investigation/prefix-http-cdx.json",
+        "catch/2008-gw/investigation/wayback-captures.json",
+        "catch/2008-gw/investigation/archive-resource-fetch.json",
+        "catch/2008-gw/investigation/original-timemap.bin",
+        "catch/2008-gw/investigation/structural-inventory.json",
+        "catch/2008-gw/source/archive/manifest.json",
+        "catch/2008-gw/source/archive/capture-metadata.json",
+        "catch/2008-gw/source/original-view/manifest.json",
+        "catch/2008-gw/source/archive/index-20220428072419.bin",
+        "catch/2008-gw/original-view.json"
+      ],
+      "desktopEvidence": [
+        "catch/2008-gw/desktop-review.json",
+        "catch/2008-gw/original-view.json"
+      ],
+      "notes": "日本源站连接失败；香港 Wayback 的四份目录快照均含 64 个编号截图，其中 63 张匹配登记作品。2019 快照的 50 个 Box 链接与现有数据逐项匹配；后续快照迁移到 Drive，原登记链接保持不变。已按结构归档，未审看作品文案或进行内容筛选。"
     }
   ],
   "originalViewsReviewed": [
@@ -1084,6 +1122,13 @@
       "evidence": [
         "catch/2008-chuuni-festival/original-view.json",
         "catch/2008-chuuni-festival/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2008-gw",
+      "evidence": [
+        "catch/2008-gw/desktop-review.json",
+        "catch/2008-gw/original-view.json"
       ]
     }
   ],

@@ -1,0 +1,92 @@
+{
+  "festivalId": "2008-gw",
+  "source": {
+    "url": "https://vipkohaku.x.fc2.com/2008GW/index.html",
+    "snapshotUrl": "https://web.archive.org/web/20220428072419/https://vipkohaku.x.fc2.com/2008GW/index.html",
+    "timestamp": "20220428072419",
+    "encoding": "Shift_JIS",
+    "rawFile": "catch/2008-gw/source/archive/index-20220428072419.bin",
+    "sha256": "eb12d80397db6e22a3a780a605968eff35c8e7e8c3cb63130ce68cf2d3a9496f",
+    "cdxDigest": "DZNOVCIT5KY3K2DJIMQ7R66CSRLIK3NA",
+    "cdxDigestVerified": true
+  },
+  "directSourceAttempts": {
+    "rootRequests": 2,
+    "representativeEntryRequests": 2,
+    "representativeAssetRequests": 2,
+    "successfulRequests": 0,
+    "proxyNode": "🇯🇵 日本S01 | IEPL",
+    "exitCountry": "JP"
+  },
+  "archiveRetrieval": {
+    "resourceRequests": 70,
+    "proxyRegion": "Hong Kong",
+    "proxyPort": "127.0.0.1:7897",
+    "exitCountry": "HK",
+    "cdxDigestVerified": true,
+    "rootSnapshotTimestamp": "20220428072419"
+  },
+  "catalogue": {
+    "registeredWorks": 63,
+    "enabledDetailPages": 63,
+    "detailDisabledRemoved": 63,
+    "sourceScreenshotReferences": 64,
+    "workScreenshotFiles": 63,
+    "workScreenshotReferences": 63,
+    "no000SamplePreservedOnlyInOriginalView": true,
+    "missingNo042NotInCatalogue": true
+  },
+  "downloads": {
+    "latestRootLinks": 50,
+    "existingDownloadFields": 50,
+    "exactUrlMatchesInLatestRoot": 0,
+    "exactUrlMatchesByCapture": [
+      {
+        "file": "index-20190518093108.bin",
+        "timestamp": "20190518093108",
+        "sourceDownloadLinks": 50,
+        "exactExistingDownloadMatches": 50
+      },
+      {
+        "file": "index-20210420112427.bin",
+        "timestamp": "20210420112427",
+        "sourceDownloadLinks": 50,
+        "exactExistingDownloadMatches": 0
+      },
+      {
+        "file": "index-20211203041505.bin",
+        "timestamp": "20211203041505",
+        "sourceDownloadLinks": 50,
+        "exactExistingDownloadMatches": 0
+      },
+      {
+        "file": "index-20220428072419.bin",
+        "timestamp": "20220428072419",
+        "sourceDownloadLinks": 50,
+        "exactExistingDownloadMatches": 0
+      }
+    ],
+    "changedFields": 0
+  },
+  "sourceDetails": {
+    "individualDetailLinks": 0,
+    "perWorkSourceUrl": "https://vipkohaku.x.fc2.com/2008GW/index.html",
+    "rootContainsCatalogue": true
+  },
+  "contentReview": {
+    "inspected": false,
+    "keywordScreening": false,
+    "restrictionOrTextScreening": false
+  },
+  "originalView": {
+    "entry": "/original-pages/2008-gw/index.html",
+    "files": 71,
+    "workScreenshotReferences": 63,
+    "sourceScreenshotImages": 64,
+    "missingResources": 0,
+    "omittedCssResources": 0,
+    "generatedPlaceholders": 0,
+    "externalAutomaticLoads": 0,
+    "desktopReview": "passed"
+  }
+}

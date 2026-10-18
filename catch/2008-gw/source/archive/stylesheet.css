@@ -1,0 +1,103 @@
+body {
+	background: #ffffff url(image/bg1.png) repeat-y;
+	text-align: left;
+	font-size: 12px;
+	color: #000000;
+	padding: 0;
+	margin: 0 0 0 40;
+	}
+
+h2 {
+	background: #cccccc;
+	font-size: 12px;
+	color: #ffffff;
+	padding: 0 0 0 5;
+	margin: 0;
+	}
+
+h2.title {
+	background: #cccccc;
+	color: #000000;
+	}
+
+hr {
+	color: #000000;
+	width: 640px;
+	}
+
+textarea {
+	background: #ffffff;
+	border: 1px solid #000000;
+	font-size: 12px;
+	color: #000000;
+	width: 300;
+	height: 60;
+	padding: 0 0 0 1;
+	margin: 0 0 0 10;
+	}
+
+p {
+	border-bottom: 1px dotted #999999;
+	padding: 1 0 0 0;
+	margin: 0;
+	}
+
+p.main {
+	border-bottom: 0px;
+	padding: 0;
+	}
+
+p.menu {
+	border-bottom: 1px dotted #000000;
+	padding: 1 0 0 1;
+	}
+
+p.top {
+	border-bottom: 0px;
+	padding: 0 0 0 500;
+	}
+
+p.ok {
+	background: url(image/bg2.png) repeat-y;
+	}
+
+a {
+	text-decoration: none;
+	color: #999999;
+	}
+
+a:visited {
+	color: #000000;
+	}
+
+a:hover {
+	background: #cccccc;
+	color: #ffffff;
+	}
+
+
+table {
+	border: 0px solid #000000;
+	text-align: left;
+	font-size: 12px;
+	color: #000000;
+	padding: 0;
+	margin: 0 0 0 10;
+	}
+
+table.main {
+	padding: 0;
+	margin: 0 0 0 30;
+	}
+
+tr {
+	border: 0px solid #000000;
+	padding: 0;
+	margin: 0;
+	}
+
+td {
+	border: 0px solid #000000;
+	padding: 0;
+	margin: 0;
+	}

@@ -1,0 +1,50 @@
+{
+  "proxyRegion": "Hong Kong",
+  "proxyPort": "127.0.0.1:7897",
+  "exitCountry": "HK",
+  "checkedAt": "2026-10-18T10:51:14.395Z",
+  "queries": [
+    {
+      "file": "index-https-cdx.json",
+      "status": 200,
+      "bytes": 1089,
+      "rowCount": 8,
+      "statusCounts": {
+        "200": 4,
+        "302": 4
+      }
+    },
+    {
+      "file": "index-http-cdx.json",
+      "status": 200,
+      "bytes": 1089,
+      "rowCount": 8,
+      "statusCounts": {
+        "200": 4,
+        "302": 4
+      }
+    },
+    {
+      "file": "prefix-https-cdx.json",
+      "status": 200,
+      "bytes": 30720,
+      "rowCount": 223,
+      "statusCounts": {
+        "200": 131,
+        "302": 4,
+        "-": 88
+      }
+    },
+    {
+      "file": "prefix-http-cdx.json",
+      "status": 200,
+      "bytes": 30720,
+      "rowCount": 223,
+      "statusCounts": {
+        "200": 131,
+        "302": 4,
+        "-": 88
+      }
+    }
+  ]
+}

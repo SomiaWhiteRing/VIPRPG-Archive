@@ -97,6 +97,13 @@ const configurations: Record<string, { base: string; entry?: string; manifests: 
     encoding: "shift_jis", liveSource: true,
     preserveExternalExtensions: [".zip"],
   },
+  "2008-gw": {
+    base: "https://vipkohaku.x.fc2.com/2008GW/",
+    entry: "index.html",
+    manifests: ["source/archive/manifest.json"],
+    seeds: { "index.html": "source/archive/index-20220428072419.bin" },
+    encoding: "shift_jis",
+  },
   "2008-chuuni-festival": {
     base: "https://vipkohaku.x.fc2.com/2008chu/",
     entry: "index.html",
@@ -562,12 +569,12 @@ async function main() {
         }
         $("base").remove();
         if (id === "2012-kouhaku") $("noscript,#geniee_overray_base,#geniee_overray_tag,link[rel='alternate'],img[src*='geniee.jp']").remove();
-        if ((id === "2008-chuuni-festival" || id === "2009-summer") && $('img[src*="media.fc2.com/counter_img.php"]').length) {
+        if ((id === "2008-gw" || id === "2008-chuuni-festival" || id === "2009-summer") && $('img[src*="media.fc2.com/counter_img.php"]').length) {
           compatibilityFixes.push({ page: local, change: "Remove the uncaptured external visitor counter to keep the replay offline and avoid a live third-party request." });
         }
         $('img[src*="media.fc2.com/counter_img.php"]').remove();
         $('img[src*="netriver.jp/countriver/"]').remove();
-        if (id === "2008-chuuni-festival" || id === "2009-summer") {
+        if (id === "2008-gw" || id === "2008-chuuni-festival" || id === "2009-summer") {
           const activeElements = $("script,noscript,form,object,embed").length;
           $("script,noscript,form,object,embed").remove();
           const unarchivedLoads = $("img[src],iframe[src],link[rel~='stylesheet'][href],video[src],audio[src],source[src]").toArray().filter((element) => {
@@ -835,7 +842,7 @@ async function main() {
         compatibilityFixes.push({ page: local, change: "Omit an unavailable stylesheet or favicon reference; the source inline styling remains in place and the missing resource stays documented." });
       }
     });
-    if (["2010-gw", "2012-kouhaku", "2011-gw", "2011-kouhaku", "2010-summer", "2009-kouhaku", "2009-ksgfestival", "2009-silver-week-miruge-festival", "2009-summer", "2008-chuuni-festival", "2009-gw"].includes(id) || [...omittedBackgrounds, ...omittedHovers].some((omission) => omission.page === local)) files.set(local, Buffer.from($.html()));
+    if (["2010-gw", "2012-kouhaku", "2011-gw", "2011-kouhaku", "2010-summer", "2009-kouhaku", "2009-ksgfestival", "2009-silver-week-miruge-festival", "2009-summer", "2008-gw", "2008-chuuni-festival", "2009-gw"].includes(id) || [...omittedBackgrounds, ...omittedHovers].some((omission) => omission.page === local)) files.set(local, Buffer.from($.html()));
   }
   const generatedUnavailablePages: string[] = [];
   if (["2011-gw", "2010-gw", "2009-ksgfestival", "2008-chuuni-festival"].includes(id)) for (const gap of recovery.sourceDetailGaps ?? []) {
