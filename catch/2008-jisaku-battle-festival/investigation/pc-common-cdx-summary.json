@@ -1,0 +1,28 @@
+{
+  "proxyRegion": "Hong Kong",
+  "exitCountry": "HK",
+  "results": [
+    {
+      "scheme": "https",
+      "captures": [
+        {
+          "timestamp": "20251110065022",
+          "status": "404",
+          "mime": "text/html",
+          "length": 2720
+        }
+      ]
+    },
+    {
+      "scheme": "http",
+      "captures": [
+        {
+          "timestamp": "20251110065022",
+          "status": "404",
+          "mime": "text/html",
+          "length": 2720
+        }
+      ]
+    }
+  ]
+}

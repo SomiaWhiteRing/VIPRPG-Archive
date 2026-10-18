@@ -1,0 +1,33 @@
+{
+  "proxyNode": "🇯🇵 日本S01 | IEPL",
+  "exitCountry": "JP",
+  "results": [
+    {
+      "host": "img.atwikiimg.com",
+      "path": "/common/_skin/base_101default.css",
+      "status": 200,
+      "bytes": 43581,
+      "contentType": "text/css",
+      "finalHost": "img.atwikiimg.com",
+      "saved": true
+    },
+    {
+      "host": "img.atwikiimg.com",
+      "path": "/common/_skin/pc_common.css",
+      "status": 404,
+      "bytes": 9296,
+      "contentType": "text/html",
+      "finalHost": "img.atwikiimg.com",
+      "saved": false
+    },
+    {
+      "host": "img.atwikiimg.com",
+      "path": "/common/dist/css/atwiki_common.css",
+      "status": 200,
+      "bytes": 30125,
+      "contentType": "text/css",
+      "finalHost": "img.atwikiimg.com",
+      "saved": true
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "attemptedAt": "2026-10-18",
+  "requestHost": "web.archive.org",
+  "requestCount": 6,
+  "proxyExitCountry": "not verified",
+  "successfulResources": 0,
+  "missingResourcesReported": 6,
+  "localGapPagesGenerated": 6,
+  "bodySaved": false,
+  "mitigation": "Known detail and auxiliary gap paths are now returned as local routes before queueing; the subsequent archive-only generation completed with zero missing resources."
+}

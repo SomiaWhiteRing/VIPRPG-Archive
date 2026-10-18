@@ -1,0 +1,99 @@
+{
+  "sourceUrl": "https://w.atwiki.jp/viprpg_battle/",
+  "proxyNode": "🇯🇵 日本S01 | IEPL",
+  "proxyRegion": "Japan",
+  "exitCountry": "JP",
+  "attempts": [
+    {
+      "userAgent": "Node fetch default",
+      "status": 403,
+      "bytes": 5497,
+      "bodySaved": false
+    },
+    {
+      "userAgent": "Chrome desktop",
+      "status": 403,
+      "bytes": 5774,
+      "bodySaved": false
+    }
+  ],
+  "successfulRequests": 0,
+  "checkedAt": "2026-10-18T11:12:29.591Z",
+  "representativeAsset": {
+    "url": "https://img.atwikiimg.com/viprpg_battle/attach/1/1/vo01_0228.png",
+    "proxyNode": "🇯🇵 日本S01 | IEPL",
+    "exitCountry": "JP",
+    "status": 404,
+    "bodySaved": false
+  },
+  "stylesheets": {
+    "exitCountry": "JP",
+    "proxyNode": "🇯🇵 日本S01 | IEPL",
+    "attempts": [
+      {
+        "host": "w.atwiki.jp",
+        "path": "/common/_skin/base_101default.css",
+        "status": 200,
+        "bytes": 43581,
+        "contentType": "text/css",
+        "saved": true
+      },
+      {
+        "host": "w.atwiki.jp",
+        "path": "/common/dist/css/pc_common.css",
+        "status": 200,
+        "bytes": 4776,
+        "contentType": "text/css",
+        "saved": true
+      },
+      {
+        "host": "cdnjs.cloudflare.com",
+        "path": "/ajax/libs/font-awesome/6.5.1/css/all.min.css",
+        "status": 200,
+        "bytes": 102641,
+        "contentType": "text/css; charset=utf-8",
+        "saved": true
+      },
+      {
+        "host": "w.atwiki.jp",
+        "path": "/common/dist/css/atwiki_headbar.css",
+        "status": 200,
+        "bytes": 31255,
+        "contentType": "text/css",
+        "saved": true
+      },
+      {
+        "host": "w.atwiki.jp",
+        "path": "/common/dist/css/atwiki_footer.css",
+        "status": 200,
+        "bytes": 620,
+        "contentType": "text/css",
+        "saved": true
+      },
+      {
+        "host": "w.atwiki.jp",
+        "path": "/common/dist/css/atwiki_common.css",
+        "status": 200,
+        "bytes": 30125,
+        "contentType": "text/css",
+        "saved": true
+      }
+    ]
+  },
+  "cssAssets": {
+    "total": 69,
+    "saved": 65,
+    "failed": 4,
+    "exitCountry": "JP"
+  },
+  "representativeEntryPages": [
+    {
+      "page": "pages/1.html",
+      "status": 403
+    },
+    {
+      "page": "pages/14.html",
+      "status": 403
+    }
+  ]
+}

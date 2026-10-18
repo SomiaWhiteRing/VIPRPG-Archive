@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2008-jisaku-battle-festival",
+  "activeFestival": "2008-kouhaku",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -914,6 +914,51 @@
         "catch/2008-gw/original-view.json"
       ],
       "notes": "日本源站连接失败；香港 Wayback 的四份目录快照均含 64 个编号截图，其中 63 张匹配登记作品。2019 快照的 50 个 Box 链接与现有数据逐项匹配；后续快照迁移到 Drive，原登记链接保持不变。已按结构归档，未审看作品文案或进行内容筛选。"
+    },
+    {
+      "festivalId": "2008-jisaku-battle-festival",
+      "reviewedAt": "2026-10-18",
+      "dataSha256": "6d1f8605eabc54b2ca8f268e2c8c6de5e53da97907c7fc9938197c198ffab9a1",
+      "works": 4,
+      "screenshotFiles": 0,
+      "screenshotReferences": 0,
+      "status": "reviewed-with-documented-source-gaps",
+      "outstandingSourceDetails": 4,
+      "outstandingImageSourceUrls": 0,
+      "outstandingScreenshotRows": 0,
+      "outstandingOtherResources": 5,
+      "outstandingAuxiliaryPages": 2,
+      "sourceEvidence": [
+        "catch/2008-jisaku-battle-festival/recovery.json",
+        "catch/2008-jisaku-battle-festival/source-comparison.json",
+        "catch/2008-jisaku-battle-festival/investigation/pre-recovery-inventory.json",
+        "catch/2008-jisaku-battle-festival/investigation/direct-source-attempts.json",
+        "catch/2008-jisaku-battle-festival/investigation/direct-css-2019.json",
+        "catch/2008-jisaku-battle-festival/investigation/css-assets-direct.json",
+        "catch/2008-jisaku-battle-festival/investigation/asset-gap-cdx-summary.json",
+        "catch/2008-jisaku-battle-festival/investigation/asset-gap-fetch.json",
+        "catch/2008-jisaku-battle-festival/investigation/oldhost-asset-cdx-summary.json",
+        "catch/2008-jisaku-battle-festival/investigation/atwiki-index-https-cdx.json",
+        "catch/2008-jisaku-battle-festival/investigation/atwiki-index-http-cdx.json",
+        "catch/2008-jisaku-battle-festival/investigation/atwiki-prefix-https-cdx.json",
+        "catch/2008-jisaku-battle-festival/investigation/atwiki-entry-page-cdx-summary.json",
+        "catch/2008-jisaku-battle-festival/investigation/pc-common-cdx-summary.json",
+        "catch/2008-jisaku-battle-festival/investigation/root-ui-images-direct.json",
+        "catch/2008-jisaku-battle-festival/investigation/unverified-archive-fallback-attempt.json",
+        "catch/2008-jisaku-battle-festival/source/archive/manifest.json",
+        "catch/2008-jisaku-battle-festival/source/archive/capture-metadata.json",
+        "catch/2008-jisaku-battle-festival/source/archive/index-20191216100856.bin",
+        "catch/2008-jisaku-battle-festival/source/live/original-view-manifest.json",
+        "catch/2008-jisaku-battle-festival/source/live/css-2019/manifest.json",
+        "catch/2008-jisaku-battle-festival/source/live/root-ui-images/manifest.json",
+        "catch/2008-jisaku-battle-festival/original-view.json",
+        "catch/2008-jisaku-battle-festival/desktop-review.json"
+      ],
+      "desktopEvidence": [
+        "catch/2008-jisaku-battle-festival/desktop-review.json",
+        "catch/2008-jisaku-battle-festival/original-view.json"
+      ],
+      "notes": "香港 Wayback 根页快照列出 No.001–004；按编号补齐 2 条目录记录并保留原有 2 条。4 个作品详情页与 2 个辅助页无成功快照，已生成中性本地骨架；缺少的 5 项样式背景资源已从原貌页移除。日本源站根页返回 403；未审看作品文案或进行受限筛选。一次未显式绑定香港代理的失败探测已记录并修正后续队列。"
     }
   ],
   "originalViewsReviewed": [
@@ -1129,6 +1174,13 @@
       "evidence": [
         "catch/2008-gw/desktop-review.json",
         "catch/2008-gw/original-view.json"
+      ]
+    },
+    {
+      "festivalId": "2008-jisaku-battle-festival",
+      "evidence": [
+        "catch/2008-jisaku-battle-festival/desktop-review.json",
+        "catch/2008-jisaku-battle-festival/original-view.json"
       ]
     }
   ],

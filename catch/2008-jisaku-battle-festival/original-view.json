@@ -1,0 +1,147 @@
+{
+  "festivalId": "2008-jisaku-battle-festival",
+  "sourceEncoding": "utf-8",
+  "entry": "/original-pages/2008-jisaku-battle-festival/index.html",
+  "sourceManifests": [
+    "source/archive/manifest.json",
+    "source/live/original-view-manifest.json"
+  ],
+  "sourcePages": {
+    "index.html": "source/archive/index-20191216100856.bin"
+  },
+  "files": [
+    "index.html",
+    "styles/base_101default.css",
+    "styles/pc_common.css",
+    "styles/atwiki_common.css",
+    "assets/retry-001.png",
+    "assets/retry-004.jpg",
+    "assets/retry-005.png",
+    "assets/retry-006.png",
+    "assets/retry-007.png",
+    "assets/retry-008.png",
+    "assets/asset-009.png",
+    "assets/asset-010.png",
+    "assets/asset-012.png",
+    "assets/asset-013.png",
+    "assets/asset-014.png",
+    "assets/asset-015.png",
+    "assets/asset-016.png",
+    "assets/asset-017.png",
+    "assets/asset-018.png",
+    "assets/asset-019.png",
+    "assets/asset-020.png",
+    "assets/asset-021.png",
+    "assets/asset-022.png",
+    "assets/asset-023.png",
+    "assets/asset-024.png",
+    "assets/asset-025.png",
+    "assets/asset-026.png",
+    "assets/asset-027.png",
+    "assets/asset-028.png",
+    "assets/asset-029.gif",
+    "assets/asset-030.png",
+    "assets/asset-031.png",
+    "assets/asset-033.jpg",
+    "assets/asset-034.png",
+    "assets/asset-035.png",
+    "assets/asset-036.png",
+    "assets/asset-037.png",
+    "assets/asset-038.png",
+    "assets/asset-055.svg",
+    "assets/asset-049.svg",
+    "assets/asset-068.svg",
+    "assets/asset-069.gif",
+    "assets/asset-039.svg",
+    "root-ui-images/down2.gif",
+    "root-ui-images/feed.png",
+    "root-ui-images/spacer.gif",
+    "pages/14.html",
+    "pages/15.html",
+    "pages/16.html",
+    "pages/17.html",
+    "pages/13.html",
+    "pages/1.html"
+  ],
+  "generatedPlaceholders": [],
+  "generatedUnavailablePages": [
+    "pages/14.html",
+    "pages/15.html",
+    "pages/16.html",
+    "pages/17.html",
+    "pages/13.html",
+    "pages/1.html"
+  ],
+  "preloadResources": {
+    "unavailableUnused": 0,
+    "cachedUnused": 0,
+    "evidence": "catch/2008-jisaku-battle-festival/recovery.json"
+  },
+  "missingResources": [],
+  "omittedCssResources": [],
+  "omittedBackgrounds": [
+    {
+      "page": "styles/base_101default.css",
+      "resource": "/common/_img/skin/101default/bg_buttonCancel.png"
+    },
+    {
+      "page": "styles/base_101default.css",
+      "resource": "/common/_img/skin/101defaultloader_blu.gif"
+    },
+    {
+      "page": "styles/base_101default.css",
+      "resource": "/common/_img/skin/101defaultloader_blu.gif"
+    },
+    {
+      "page": "styles/base_101default.css",
+      "resource": "/common/_img/skin/101default/ref.png"
+    },
+    {
+      "page": "styles/base_101default.css",
+      "resource": "/common/_img/skin/101default/bg_dialogGradient.png"
+    },
+    {
+      "page": "styles/pc_common.css",
+      "resource": "/common/_img/ic-close.svg"
+    }
+  ],
+  "omittedHovers": [],
+  "compatibilityFixes": [
+    {
+      "page": "index.html",
+      "change": "Preserve the captured AtWiki content and source theme; remove hosting navigation, advertising, scripts and posting controls, and use local captured images and same-site page links."
+    },
+    {
+      "page": "pages/14.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "pages/15.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "pages/16.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "pages/17.html",
+      "change": "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented."
+    },
+    {
+      "page": "pages/13.html",
+      "change": "Create a neutral local shell for an uncaptured auxiliary source page; preserve its local route without fabricating contents."
+    },
+    {
+      "page": "pages/1.html",
+      "change": "Create a neutral local shell for an uncaptured auxiliary source page; preserve its local route without fabricating contents."
+    }
+  ],
+  "changes": [
+    "Original HTML and CSS normalized from utf-8 to UTF-8.",
+    "Same-site links, CSS resources and absolute script/hover URLs use local paths.",
+    "External hosting trackers removed; unavailable unused preloads replaced with an empty image.",
+    "Original pages are displayed inside a sandboxed frame.",
+    "Unavailable background references are omitted; the original background colors are retained and missing resources remain documented."
+  ],
+  "desktopReview": "passed-with-documented-source-gaps"
+}

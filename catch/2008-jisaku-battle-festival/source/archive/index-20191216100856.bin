@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# fb: http://www.facebook.com/2008/fbml gr: http://gree.jp/ns"
+      lang="ja"
+      dir="ltr">
+<head>
+    <!-- template_ver:2 column_num:2 side_ads:on -->
+    <title>VIPRPG　自作戦闘祭り - アットウィキ</title>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="start" href="/viprpg_battle/" />
+    <link rel="stylesheet" type="text/css" href="https://img.atwikiimg.com/common/_skin/base_101default.css?t=2ce49ff07a197c6e84d7cd54e25504bd" media="all" />    
+    <style type="text/css" media="screen">
+<!--
+body,html {  margin  : 0 !important;  padding : 0 !important; }  .box {  zoom  : 100%; } .box:after {  clear : both;  content : ".";  display : block;  height  : 0;  visibility  : hidden; } .hidden {  display : none; } .disableLink {  color : #777 !important;  cursor  : default !important;  display : block !important;  line-height : 1.2 !important;  margin              : 0 !important;  padding : 3px 1em !important;  white-space : nowrap !important; }  div.headBar {  background-color  : #e8e8e8 !important;  border  : 2px solid !important;  border-color  : #f0f0f0 #c8c8c8 #c8c8c8 #f0f0f0 !important;  color : #000000 !important;  font-family : "MS Sans Serif", Arial, sans-serif !important;  font-size : 13px !important;  font-style  : normal !important;  font-weight : normal !important;  line-height : 1.2 !important;  margin  : 0 !important;  padding : 4px 2px 4px 2px !important;  text-align  : left !important;  text-decoration : none !important; } div.headBar a {  background  : transparent none repeat scroll 0% !important;  font-weight : normal !important;  line-height : 1.2 !important;  text-align  : left !important;  text-decoration : none !important; } div.headBar a.headmenuButton {  border  : 1px solid #e8e8e8 !important;  color : #000000 !important;  color : #000000 !important;  cursor  : default !important;  font-family : "MS Sans Serif", Arial, sans-serif !important;  font-size : 13px !important;  font-style  : normal !important;  font-weight : normal !important;  left  : 0px;  line-height : 1.2 !important;  margin  : 1px !important;  padding : 2px 6px 2px 6px !important;  position  : relative !important;  text-align  : left !important;  text-decoration : none !important;  top : 0px;  z-index : 30; } div.headBar a.headmenuButton:hover, div.headBar ul li a.haeder_ul:hover {  background-color  : transparent !important;  border-color  : #f0f0f0 #909090 #909090 #f0f0f0 !important;  color : #000000 !important; } div.headBar a.headmenuButtonActive, div.headBar a.headmenuButtonActive:hover {  background-color  : #2c8bec !important;  border-color  : #a6a6a6 #f0f0f0 #f0f0f0 #a6a6a6 !important;  color : #ffffff !important;  left  : 1px;  top : 1px; } div.headmenu {  background-color  : #e8e8e8 !important;  border  : 2px solid !important;  border-color  : #f0f0f0 #c8c8c8 #c8c8c8 #f0f0f0 !important;  color : #000000 !important;  font-family : "MS Sans Serif", Arial, sans-serif !important;  font-size : 13px !important;  font-style  : normal !important;  font-weight : normal !important;  left  : 0px;  line-height : 1.2 !important;  margin              : 0 !important;  padding : 0px 1px 1px 0px !important;  position  : absolute;  text-align  : left !important;  text-decoration : none !important;  top : 0px;  visibility  : hidden;  z-index : 31; } div.headmenu a.headmenuItem {  color : #000000 !important;  color : #000000 !important;  cursor  : default !important;  display : block;  font-family : "MS Sans Serif", Arial, sans-serif !important;  font-size : 13px !important;  font-style  : normal !important;  font-weight : normal !important;  line-height : 1.2 !important;  margin              : 0 !important;  padding : 3px 1em !important;  text-decoration : none !important;  white-space : nowrap !important; } div.headmenu a.headmenuItem img{  display : inline !important;  vertical-align  : middle !important;  border  : 0 !important;  padding : 0 !important;  margin  : 0 .5em 0 0 !important; } div.headmenu a.headmenuItem span.headmenuItemArrow{  margin-right  : -.75em !important; } div.headmenu a.headmenuItem span.headmenuItemText {  margin-right  : -.75em !important;  margin-left         : 0 !important;  padding-left         : 0 !important; } div.headmenu a.headmenuItem:hover, div.headmenu a.headmenuItemHighlight {  background-color  : #2c8bec !important;  color : #ffffff !important; } div.headmenu div.headmenuItemSep {  border-bottom : 1px solid #f0f0f0 !important;  border-top  : 1px solid #909090 !important;  margin  : 4px 2px !important;  padding             : 0 !important; }   div.headBar ul {  line-height : 26px !important;  list-style-image  : none !important;  list-style-position : outside !important;  list-style-type : none !important;  margin  : 0 !important;  padding : 0pt !important;  position  : absolute !important;  right : 0pt !important;  top : 0px !important; } * html div.headBar ul li a.haeder_ul { top : 6px !important; } div.headBar ul li {  background-image  : none !important;  background-position : 0 !important;  background-repeat : no-repeat !important;  float : left !important;  line-height : 26px !important;  list-style-image  : none !important;  list-style-type : none !important;  margin  : 0pt !important;  padding : 0pt !important;  position  : relative !important; } div.headBar ul li a.haeder_ul {  border  : 1px solid #e8e8e8 !important;  color : #000000 !important;  color : #000000 !important;  cursor  : default !important;  font-size : 13px !important;  font-style  : normal !important;  font-weight : normal !important;  left  : 0px;  margin  : 1px !important;  padding : 2px 6px 2px 6px !important;  position  : relative !important;  top : 0px;  z-index : 30; } div.headBar ul li a.haeder_ul:active {  background-color  : #2c8bec !important;  color : #ffffff !important; } div.headBar ul li a.mooter_link { margin-right  : .2em !important; } div.headBar ul li a.mooter_link img{ vertical-align : middle !important; } div.headBar ul li form {  display : inline !important;  line-height : 25px !important;  margin  : 0pt !important;  padding : 0pt !important; } div.headBar ul li input {  display : inline !important;  font-size : 13px !important;  margin  : 0 !important;  padding : 0 !important;  margin-right  : .2em !important; } div.headBar ul li input.submit {  background  : ButtonFace !important;  border  : 2px outset ButtonFace !important;  color : ButtonTex !importantt;  cursor  : default !important;  font-weight : normal !important;  line-height : normal !important;  padding : 0px 3px !important;  text-align  : center !important;  white-space : pre !important; }  div#headBarWrapper{  display : block !important;  margin : 0 !important;  padding : 0 !important; }  hr {    border: 1px solid transparent;    border-bottom: 1px solid #999;    padding: 0px;    height: 0px; } .pl-l-level-1{margin-left:16px;padding-left:16px;}.pl-l-level-2{margin-left:32px;padding-left:32px;}.pl-l-level-3{margin-left:48px;padding-left:48px;}
+-->
+</style>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript">
+        var atwiki_j$ = jQuery;
+        var j$ = jQuery;
+        </script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/intersection-observer@0.7.0/intersection-observer.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script><meta name="counter-hash" data-hash="91f969be450ad3b79d58337b5edfdf7b" data-pageid="1" data-wikiid="viprpg_battle">
+<link rel="search" type="application/opensearchdescription+xml" title="VIPRPG　自作戦闘祭り検索" href="http://w.atwiki.jp/viprpg_battle/opensearch.xml" />
+<link rel="canonical" href="https://w.atwiki.jp/viprpg_battle/">
+<link rel="amphtml" href="https://w.atwiki.jp/viprpg_battle/index.amp">
+<link rel="alternate" media="only screen and (max-width: 640px)" href="https://w.atwiki.jp/viprpg_battle/sp/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="VIPRPG　自作戦闘祭り" />
+<meta property="og:description" content="バナー頂きました    自作戦闘祭り 概要 自作戦闘を用いた作品による祭り 力作でも実験作でもksｇでも何でもおｋ 作品紹介ページを作者自身が編集し、自由に製作状況を紹介することができる 掲示板での意..." />
+<meta property="og:image" content="https://img.atwikiimg.com/www26.atwiki.jp/viprpg_battle/attach/1/1/vo01_0228.png" />
+<meta property="og:image:width" content="400" />
+<meta property="og:image:height" content="80" />
+<meta property="og:site_name" content="VIPRPG　自作戦闘祭り" />
+<meta property="og:locale" content="ja_JP" />
+<meta property="og:url" content="https://w.atwiki.jp/viprpg_battle/" />
+<meta property="fb:app_id" content="107996179302361" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@atwikijp" />
+<!-- My4yMzMuMjM5LjIw -->
+<style type="text/css/" media="print"><!-- @media print{div#headBarWrapper,div.headBar,div#hb_fileMenu,div#hb_editMenu,div#hb_viewMenu,div#hb_toolsMenu,div#hb_helpMenu,div#hb_socialMenu,div#hb_rssMenu,div#hb_toolsMenu2,div#hb_toolsMenu3,div#ads,div.ads,div#ad,div#body_footer,div#footer,div#menuarea,div#editmenu{display:none}} --></style>
+<script async='async' type="text/javascript" src="https://static.criteo.net/js/ld/publishertag.js"></script>
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"BlogPosting","headline":"VIPRPG　自作戦闘祭り","image":{"@type":"ImageObject","url":"https://img.atwikiimg.com/www26.atwiki.jp/viprpg_battle/attach/1/1/vo01_0228.png","width":200,"height":40},"mainEntityOfPage":{"@type":"WebPage","@id":"https://w.atwiki.jp/viprpg_battle/"},"dateModified":"2008-10-10T23:56:11+09:00","datePublished":"2008-10-10T23:56:11+09:00","author":{"@type":"Person","name":"viprpg_battle"},"publisher":{"@type":"Organization","name":"アットウィキ","logo":{"@type":"ImageObject","url":"https://img.atwiki.jp/image/atwiki_logo.png","width":"163","height":"60"}}}</script>
+<link rel="stylesheet" type="text/css" href="https://img.atwikiimg.com/common/_skin/pc_common.css?t=92e9280d46d199ec6787e4d5354c953c" media="screen" />
+<link rel="stylesheet" type="text/css" href="https://img.atwikiimg.com/common/dist/css/atwiki_common.css?t=a73cc0a3945b638e023765c824cfa518" media="screen" />
+<script type="text/javascript" src="//img.atwikiimg.com/common/dist/js/images_plugin.js?t=858676f4a5accbdcde745930660e7474" defer></script>
+<script type="text/javascript" src="//img.atwikiimg.com/common/_js/pc_common.min.js?t=c2720d0ccd465a49160dac080cd8a609" defer></script>
+<script type="text/javascript" src="//img.atwikiimg.com/common/dist/js/counter.js?t=136337a17d8d2b9279ce7483558a7a6e" defer></script>
+<script type="text/javascript" src="//img.atwikiimg.com/common/_js/social_button.min.js?t=e6bfe1c0dba4c712795673a467937a5e" async></script>
+<script type="text/javascript" src="//img.atwikiimg.com/common/_js/preconnect.min.js?t=e41a5a473fa1f3a17b0b086aab340cb1" async></script>
+<script type="text/javascript" src="//img.atwikiimg.com/common/_js/moveads.min.js?t=a447f59cf08ca933cf6dfeb8d1a5519b" async></script>
+<style type="text/css" media="screen">
+<!--
+#right-ads,#left-ads,#ads,.ads{visibility:visible !important; display:block !important;}#ad{visibility:visible !important; display:block !important;}
+-->
+</style>
+
+<link rel="alternate" href="http://w.atwiki.jp/viprpg_battle/rss10_new.xml" type="application/rss+xml" title="VIPRPG　自作戦闘祭り 新規作成ページRSS" />
+<link rel="alternate" href="http://w.atwiki.jp/viprpg_battle/rss10.xml" type="application/rss+xml" title="VIPRPG　自作戦闘祭り 更新ページRSS" />
+<link rel="alternate" href="http://w.atwiki.jp/viprpg_battle/feed.atom" type="application/atom+xml" title="VIPRPG　自作戦闘祭り Atom Feed" />
+<script type="text/javascript">
+$(function() {
+    var atwiki_escape_j$ = '';
+    if($.fn.socialbutton == undefined){
+        atwiki_escape_j$ = $;
+        $ = atwiki_j$;
+    }
+    if($.fn.socialbutton!= undefined){
+
+    }
+    if(atwiki_escape_j$ != ''){
+        $ = atwiki_escape_j$;
+    }
+
+});
+</script>
+
+<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+                    <script>
+                    var googletag = googletag || {};
+                    googletag.cmd = googletag.cmd || [];
+                    </script><script>
+                            var PREBID_TIMEOUT = 1500;
+                            var adUnits = [{"code":"div-gpt-ad-atwiki_300_250_left_top_ad","mediaTypes":{"banner":{"sizes":[[300,250]]}},"bids":[{"bidder":"rubicon","params":{"accountId":"17228","siteId":"164308","zoneId":"787178"}},{"bidder":"adg","params":{"id":"67310"}},{"bidder":"yieldone","params":{"placementId":"51243"}},{"bidder":"aol","params":{"placement":"5129218","network":"15121.1","region":"as"}}]},{"code":"div-gpt-ad-atwiki_300_250_right_top_ad","mediaTypes":{"banner":{"sizes":[[300,250]]}},"bids":[{"bidder":"rubicon","params":{"accountId":"17228","siteId":"164308","zoneId":"787176"}},{"bidder":"adg","params":{"id":"67314"}},{"bidder":"yieldone","params":{"placementId":"51241"}},{"bidder":"aol","params":{"placement":"5129225","network":"15121.1","region":"as"}}]},{"code":"div-gpt-ad-atwiki_160_600_side_bottom_ad","mediaTypes":{"banner":{"sizes":[[160,600]]}},"bids":[{"bidder":"rubicon","params":{"accountId":"17228","siteId":"164308","zoneId":"787170"}},{"bidder":"adg","params":{"id":"67306"}},{"bidder":"yieldone","params":{"placementId":"51240"}},{"bidder":"aol","params":{"placement":"5129223","network":"15121.1","region":"as"}}]}];                          
+                            var pbjs = pbjs || {};
+                            pbjs.que = pbjs.que || [];
+                            googletag.cmd.push(function() {
+                                googletag.pubads().disableInitialLoad();
+                            });
+                            </script>
+                            <script type="text/javascript" src="//img.atwikiimg.com/common/_js/prebid2.32.0.js?t=b615d9ea82689ab4899f124de02c677c" async></script>
+<script>var apstagSlots = [{"slotID":"div-gpt-ad-atwiki_300_250_left_top_ad","slotName":"\/9160377\/atwiki_300_250_left_top_ad","sizes":[[300,250]]},{"slotID":"div-gpt-ad-atwiki_300_250_right_top_ad","slotName":"\/9160377\/atwiki_300_250_right_top_ad","sizes":[[300,250]]},{"slotID":"div-gpt-ad-atwiki_160_600_side_bottom_ad","slotName":"\/9160377\/atwiki_160_600_side_bottom_ad","sizes":[[160,600]]}]</script>
+                                 <script async src='//img.atwikiimg.com/common/_js/amazon_prebid_bidding.min.js?t=a90dd6954efbefdc57bc273371b13398'></script>
+<script>
+                    var OX_dfp_ads = [
+["/9160377/atwiki_300_250_left_top_ad", ["300x250"], "div-gpt-ad-atwiki_300_250_left_top_ad"],
+["/9160377/atwiki_300_250_right_top_ad", ["300x250"], "div-gpt-ad-atwiki_300_250_right_top_ad"],
+["/9160377/atwiki_160_600_side_bottom_ad", ["160x600"], "div-gpt-ad-atwiki_160_600_side_bottom_ad"]];
+                    </script>
+                    <script async='async' src="//atfreaks-d.openx.net/w/1.0/jstag?nc=9160377-atwiki"></script><script type='text/javascript'>
+            googletag.cmd.push(function() {
+googletag.defineSlot('/9160377/atwiki_300_250_left_top_ad', [300, 250], 'div-gpt-ad-atwiki_300_250_left_top_ad').addService(googletag.pubads());
+googletag.defineSlot('/9160377/atwiki_300_250_right_top_ad', [300, 250], 'div-gpt-ad-atwiki_300_250_right_top_ad').addService(googletag.pubads());
+googletag.defineSlot('/9160377/atwiki_160_600_side_bottom_ad', [160, 600], 'div-gpt-ad-atwiki_160_600_side_bottom_ad').addService(googletag.pubads());
+
+googletag.pubads().setTargeting("wikiid","viprpg_battle");
+googletag.pubads().setTargeting("wikihost","www26.atwiki.jp");
+googletag.pubads().setTargeting("displayads","1");
+googletag.pubads().setTargeting("tpl-style","tpl-2014");
+googletag.pubads().enableSingleRequest();
+                    googletag.pubads().collapseEmptyDivs();
+googletag.enableServices();
+            });
+            </script>
+</head>
+<body id="atwiki-jp" data-navId="left-ads" data-adsMenuBarId="menubar" data-templateId="101">
+<div id="fb-root"></div>
+
+<a id="atwiki-jp-top" style="display:inline;line-height:0;border:none;margin:0;padding:0;"></a>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NGXCVB"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NGXCVB');</script>
+<!-- End Google Tag Manager -->
+<!-- Head Bar -->
+<script src="//img.atwikiimg.com/common/_js/atheadbar.js?v=20110818" type="text/javascript"></script>
+<style type="text/css">
+/* <![CDATA[ */
+
+html,body{
+min-width:870px;
+position:relative;
+}
+
+.ddsmoothmenu{
+background: #414141; /*background of menu bar (default state)*/
+width: 100%;
+
+}
+
+#globalNav{
+position: relative;
+height:26px;
+border-bottom:1px solid #999;
+z-index:30;
+}
+
+#globalNav *,
+#globalNavRight *{
+text-align:left;
+font:13px/1.231 arial,helvetica,clean,sans-serif;
+*font-size:small;
+*font:x-small;
+}
+
+
+#globalNavRight{
+position: absolute;
+top:0;
+right:0;
+z-index:50;
+width:auto;
+}
+
+.ddsmoothmenu ul{
+z-index:100;
+margin: 0;
+padding: 0;
+list-style-type: none;
+list-style-image:none;
+background:none;
+}
+
+/*Top level list items*/
+.ddsmoothmenu ul li{
+position: relative;
+display: inline;
+float: left;
+margin: 0;
+padding: 0;
+background:none;
+list-style: none outside none;
+}
+
+/*Top level menu link items style*/
+.ddsmoothmenu ul li a{
+display: block;
+background: #414141; /*background of menu items (default state)*/
+background-image:none;
+padding: 5px 10px 4px 10px;
+color: #2d2b2b;
+text-decoration: none;
+}
+
+.ddsmoothmenu span.disabled{
+display: block;
+background: #2d2d2d;
+color: #888;
+padding: 5px;
+text-decoration: none;
+}
+
+* html .ddsmoothmenu ul li a{ /*IE6 hack to get sub menu links to behave correctly*/
+display: inline-block;
+}
+
+.ddsmoothmenu ul li a:link, .ddsmoothmenu ul li a:visited{
+color: white;
+}
+
+.ddsmoothmenu ul li a.selected{ /*CSS class that's dynamically added to the currently active menu items' LI A element*/
+background: black;
+color: white;
+}
+
+.ddsmoothmenu ul li a:hover{
+background: black; /*background of menu items during onmouseover (hover state)*/
+color: white;
+}
+
+/*1st sub level menu*/
+.ddsmoothmenu ul li ul{
+position: absolute;
+left: 0;
+display: none; /*collapse all sub menus to begin with*/
+visibility: hidden;
+}
+
+/*Sub level menu list items (undo style from Top level List Items)*/
+.ddsmoothmenu ul li ul li{
+display: list-item;
+float: none;
+list-style: none outside none;
+}
+.ddsmoothmenu ul li ul li.sep{
+border-bottom:1px solid #666;
+}
+
+/*All subsequent sub menu levels vertical offset after 1st level sub menu */
+.ddsmoothmenu ul li ul li ul{
+top: 0;
+}
+
+/* Sub level menu links style */
+.ddsmoothmenu ul li ul li a{
+font: normal 13px Verdana;
+width: 230px; /*width of sub menus*/
+padding: 5px;
+margin: 0;
+border-top-width: 0;
+display: inline-block;
+}
+
+/* Holly Hack for IE \*/
+* html .ddsmoothmenu{height: 1%;} /*Holly Hack for IE7 and below*/
+
+#globalNav.ddsmoothmenu .at_header_search_box{
+    padding-left: 5px;padding-top: 1px;
+}
+#globalNav.ddsmoothmenu .at_header_search_box *{
+    display:inline-block;
+}
+
+#globalNav.ddsmoothmenu .at_header_search_box input[type=text]{
+    color:black;
+    padding:2px 4px;
+    border: 1px solid #CCCCCC;
+    margin:0;
+}
+
+#globalNav.ddsmoothmenu .at_header_search_box input[type=submit]{
+    color:black;
+    padding:2px 4px;
+    border: 1px solid #CCCCCC;
+    margin:0;
+}
+
+#globalNav.ddsmoothmenu .downarrowclass{
+position: absolute;
+top: 10px;
+right: 7px;
+}
+
+#globalNav.ddsmoothmenu .rightarrowclass{
+position: absolute;
+top: 8px;
+right: 5px;
+}
+
+#globalNav.ddsmoothmenu ul li a.disabled,
+#globalNav.ddsmoothmenu ul li a.disabled:link,
+#globalNav.ddsmoothmenu ul li a.disabled:visited,
+#globalNav.ddsmoothmenu ul li a.disabled:hover,
+#globalNav.ddsmoothmenu ul li a.disabled:active{
+    color:#888;
+    background:#2d2d2d;
+    cursor:default;
+}
+
+/* ######### CSS for shadow added to sub menus  ######### */
+
+.ddshadow{ /*shadow for NON CSS3 capable browsers*/
+position: absolute;
+left: 0;
+top: 0;
+width: 0;
+height: 0;
+background: silver;
+}
+
+.toplevelshadow{ /*shadow opacity for NON CSS3 capable browsers. Doesn't work in IE*/
+opacity: 0.8;
+}
+
+
+#at_social_links{
+    position:absolute;
+    top:31px;
+    right:0;
+    z-index:20;
+}
+
+#at_social_links div{
+    float:right;
+    padding-left:5px;
+}
+
+#at_social_links2{
+    padding:5px 0 .8em 5px;
+}
+
+#at_social_links2 > div{
+    display:inline-block;
+    padding-right:7px;
+    padding-bottom:5px;
+    vertical-align:top;
+}
+
+#atwiki-jp-top{
+    width:0;
+    height:0;
+}
+
+.at_h_clearfix {
+  zoom: 1;
+}
+.at_h_clearfix:before, .at_h_clearfix:after {
+  display: table;
+  content: "";
+}
+.at_h_clearfix:after {
+  clear: both;
+}
+
+.contents_ads {
+display: inline-block;
+}
+.bottom_space {
+margin-bottom: 15px;
+}
+.top_space {
+margin-top: 15px;
+}
+/* ]]> */
+</style>
+
+
+<div id="globalNav" class="ddsmoothmenu at_h_clearfix">
+    <ul id="globalNav_outer">
+        <li class="globalNav_first">
+            <a href="#" style="padding-right:23px;">@メニュー <img style="border: 0pt none;" class="downarrowclass" src="//img.atwikiimg.com/common/_img/down2.gif" width="11" /></a>
+            <ul>
+                <li class="normal">
+                    <a href="//w.atwiki.jp/viprpg_battle/new">新規ページ作成</a>
+                                    </li>
+                <li class="sep">
+                    <a href="#">新規ページ作成(その他)</a>
+                    <ul>
+                        <li class="sep">
+                                                            <a href="//w.atwiki.jp/viprpg_battle/copy2/1.html">このページをコピーして新規ページ作成</a>
+                                                                                    </li>
+                        <li class="sep">
+                            <a href="//w.atwiki.jp/viprpg_battle/copy/">このウィキ内の別ページをコピーして新規ページ作成</a>
+                                                    </li>
+                        <li class="sep">
+                            <a href="//w.atwiki.jp/viprpg_battle/upmake/">アップロードファイルから新規ページ作成</a>
+                                                    </li>
+                        <li class="sep">
+                            <a href="//w.atwiki.jp/viprpg_battle/webquote/">他のホームページから引用して新規ページ作成</a>
+                                                    </li>
+                        <li class="sep">
+                            <a href="//w.atwiki.jp/viprpg_battle/bbsquote/">スレッド式掲示板から引用して新規ページ作成</a>
+                                                    </li>
+                        <li class="sep">
+                            <a href="//w.atwiki.jp/viprpg_battle/child/1.html">
+                            このページの子ページを作成</a>
+                        </li>
+                    </ul>
+                </li>
+                                <li class="sep"><a href="//atwiki.jp/">アットウィキで新規ウィキ作成</a></li>
+            </ul>
+        </li>
+        <li class="globalNav_first">
+            <a href="#" style="padding-right:23px;">編集 <img style="border: 0pt none;" class="downarrowclass" src="//img.atwikiimg.com/common/_img/down2.gif" width="11" /></a>
+            <ul>
+                                    <li class="normal"><a href="//w.atwiki.jp/viprpg_battle/pedit/1.html">ページ編集</a></li>                    <li class="normal"><a href="//w.atwiki.jp/viprpg_battle/editx/1.html">ページ編集(簡易版)</a></li>
+                    <li class="sep"><a href="//w.atwiki.jp/viprpg_battle/editxx/1.html">メニュー非表示でページ編集</a></li>
+                                <li class="normal">
+                    <a href="//w.atwiki.jp/viprpg_battle/renamex/1.html">ページ名変更</a>
+                                    </li>
+                <li class="normal">
+                    <a href="//w.atwiki.jp/viprpg_battle/chmod/1.html">ページの閲覧/編集権限変更</a>
+                                    </li>
+                <li class="sep">
+                                            <a href="//w.atwiki.jp/viprpg_battle/chkind/1.html">ページの編集モード変更</a>
+                                                            </li>
+                <li class="normal">
+                    <a href="//w.atwiki.jp/viprpg_battle/upload/1.html">このページにファイルをアップロード</a>
+                                    </li>
+                <li class="normal"><a href="/viprpg_battle/pedit/2.html">メニューを編集</a></li>
+                                            </ul>
+        </li>
+        <li class="globalNav_first">
+            <a href="#" style="padding-right:23px;">表示 <img style="border: 0pt none;" class="downarrowclass" src="//img.atwikiimg.com/common/_img/down2.gif" width="11" /></a>
+            <ul>
+                <li class="normal">
+                                            <a href="//w.atwiki.jp/viprpg_battle/diffx/1.html">最新版変更点 (差分)</a>
+                                                            </li>
+                <li class="sep">
+                                            <a href="//w.atwiki.jp/viprpg_battle/backupx/1/list.html">編集履歴 (バックアップ)</a>
+                                                            </li>
+
+                <li class="normal"><a href="//w.atwiki.jp/viprpg_battle/list">このウィキの全ページ一覧</a></li>
+                <li class="normal"><a href="//w.atwiki.jp/viprpg_battle/?cmd=backup&amp;action=list">編集履歴のあるページ一覧</a></li>
+                <li class="normal"><a href="//w.atwiki.jp/viprpg_battle/tag">このウィキのタグ一覧</a></li>
+                <li class="sep"><a href="//w.atwiki.jp/viprpg_battle/taglist">このウィキのタグ一覧(更新順)</a></li>
+                <li class="normal"><a href="/viprpg_battle/rss10.xml"><img src="//img.atwikiimg.com/common/_skin/h/feed.png" alt="このwikiの更新情報RSS" />このwikiの更新情報RSS</a></li>
+                <li class="normal"><a class="headmenuItem" href="/viprpg_battle/rss10_new.xml"><img src="//img.atwikiimg.com/common/_skin/h/feed.png" alt="このwikiの新着ページRSS" />このwikiの新着ページRSS</a></li>
+
+            </ul>
+        </li>
+        <li class="globalNav_first">
+            <a href="#" style="padding-right:23px;">ツール <img style="border: 0pt none;" class="downarrowclass" src="//img.atwikiimg.com/common/_img/down2.gif" width="11" /></a>
+            <ul>
+                <li class="sep"><a href="/viprpg_battle/search">このウィキ内を検索</a></li>
+                <li class="sep"><a href="/viprpg_battle/contact">このウィキの管理者に連絡</a></li>
+                <li class="normal"><a href="https://atwiki.zendesk.com/hc/ja/requests/new" target="_blank">このページを通報・違反報告する</a></li>
+            </ul>
+        </li>
+        <li class="globalNav_first">
+            <a href="#" style="padding-right:23px;">ヘルプ <img style="border: 0pt none;" class="downarrowclass" src="//img.atwikiimg.com/common/_img/down2.gif" width="11" /></a>
+            <ul>
+                <li class="sep"><a href="//www1.atwiki.jp/guide/">ご利用ガイド</a></li>
+                <li class="sep"><a href="//www33.atwiki.jp/atwikibeginner">はじめての方へ</a></li>
+                <li class="normal"><a href="//www1.atwiki.jp/guide/pages/21.html">良くある質問集</a></li>
+                <li class="normal"><a href="//www1.atwiki.jp/guide/pages/264.html">プラグイン一覧</a></li>
+                <li class="normal"><a href="//www1.atwiki.jp/guide/pages/137.html">編集モードの違いについて</a></li>
+                <li class="normal"><a href="//www1.atwiki.jp/guide/pages/18.html">不具合や障害を見つけたら</a></li>
+                <li class="normal"><a href="//www1.atwiki.jp/guide/pages/36.html">管理・設定マニュアル</a></li>
+            </ul>
+        </li>
+        <li class="at_header_search_box"><form style="" method="get" action="//w.atwiki.jp/viprpg_battle/">
+<input type="hidden" name="cmd" value="wikisearch" />
+<input type="text" id="s" value="" style="width:7em;" name="keyword" placeholder="wiki内検索"/>
+<input type="submit" value="検索" style="" />
+</form></li>
+            </ul>
+</div>
+<div id="globalNavRight" class="ddsmoothmenu at_h_clearfix">
+    <ul>
+        
+                            <li class="normal"><a href="//w.atwiki.jp/viprpg_battle/contributor" title="このウィキに参加" style="visibility:visible !important;" rel="nofollow">このウィキに参加</a></li>
+                        <li class="normal"><a href="//login.atwiki.jp/w.atwiki.jp/viprpg_battle/pages/1.html" title="ログイン" style="visibility:visible !important;" rel="nofollow">ログイン</a></li>
+            </ul>
+</div>
+
+<script type="text/javascript">
+
+ddsmoothmenu.init({
+mainmenuid: "globalNav",
+orientation: 'h',
+classname: 'ddsmoothmenu',
+customtheme: ["#2d2d2d", "#4c4c4c"],
+contentsource: "markup",
+diffx: 0
+});
+
+ddsmoothmenu.init({
+mainmenuid: "globalNavRight",
+orientation: 'h',
+classname: 'ddsmoothmenu',
+customtheme: ["#2d2d2d", "#4c4c4c"],
+contentsource: "markup",
+diffx: 17
+});
+
+function onw(tUrl){
+	//Open New Window
+	window.open(tUrl, '_blank','width=700,height=700,resizable=1,scrollbars=1,location=1');
+	return false;
+}
+
+
+function formClear(targetElement){
+	if(targetElement.value == targetElement.defaultValue){
+		targetElement.value = "";
+	}
+}
+
+</script>
+<!-- /Head Bar -->
+<div id="atwiki-jp-bg2">
+<div id="container">
+    <div id="header">
+        <div id="atwiki-jp-bg1">
+            <h1 id="title"><a href="/viprpg_battle/" title="VIPRPG　自作戦闘祭り">VIPRPG　自作戦闘祭り</a></h1>
+       </div>
+    </div>
+    <div id="wrapper" class="box">
+        <div id="contents">
+            <div id="pageTabs">
+                            </div>
+            <div id="wikibody" class="box">
+                                
+<div class="atwiki_ads"><div class="contents_ads bottom_space top_space">
+                <!-- __dfp_div-gpt-ad-atwiki_300_250_left_top_ad-300-250 -->
+                <div id='div-gpt-ad-atwiki_300_250_left_top_ad'>
+                 <script type='text/javascript'>
+                    googletag.cmd.push(function() { googletag.display('div-gpt-ad-atwiki_300_250_left_top_ad'); });
+                </script>
+                </div>
+                </div>
+                <div class="contents_ads">
+                <!-- __dfp_div-gpt-ad-atwiki_300_250_right_top_ad-300-250 -->
+                <div id='div-gpt-ad-atwiki_300_250_right_top_ad'>
+                 <script type='text/javascript'>
+                    googletag.cmd.push(function() { googletag.display('div-gpt-ad-atwiki_300_250_right_top_ad'); });
+                </script>
+                </div>
+                </div>
+<div class="noupdate_text">※上記の広告は60日以上更新のないWIKIに表示されています。更新することで広告が下部へ移動します。</div><hr></div>
+<!--@@@@@-->
+<div style="text-align: left;"><picture><source class="lazy" media="(max-width: 320px)" srcset="https://img.atwikiimg.com/common/_img/spacer.gif?t=221d8352905f2c38b3cb2bd191d630b0" data-srcset="https://img.atwikiimg.com/www26.atwiki.jp/viprpg_battle/attach/1/1/t/vo01_0228.png"><source class="lazy" media="(max-width: 480px)" srcset="https://img.atwikiimg.com/common/_img/spacer.gif?t=221d8352905f2c38b3cb2bd191d630b0" data-srcset="https://img.atwikiimg.com/www26.atwiki.jp/viprpg_battle/attach/1/1/m/vo01_0228.png"><img class="lazy atwiki_plugin_image" width="400" height="80" style="width: 400px; height: 80px;" src="//img.atwikiimg.com/common/_img/spacer.gif?t=221d8352905f2c38b3cb2bd191d630b0" data-original="https://img.atwikiimg.com/www26.atwiki.jp/viprpg_battle/attach/1/1/vo01_0228.png"/></picture></div>
+
+<div>
+バナー頂きました
+
+</div>
+<br />
+<h2 id="id_3392dfaf">自作戦闘祭り 概要</h2>
+<ul><li>自作戦闘を用いた作品による祭り</li>
+<li>力作でも実験作でもksｇでも何でもおｋ</li>
+<li>作品紹介ページを作者自身が編集し、自由に製作状況を紹介することができる</li>
+<li>掲示板での意見交換により、プレイヤー側からのフィードバックを得られる</li>
+<li>祭り参加者・参加予定者の方は、<a href="//w.atwiki.jp/viprpg_battle/pages/13.html"  title="参加概要 (4099d)">こちらのページ</a>もお読みください</li></ul>
+<br />
+<h2 id="id_4eb7d224">SSエントリー期間</h2>
+<ul><li><strike><!--@@@@@-->9/2から10/10 24:00まで</strike></li></ul>
+<div>
+　<span style="color:#ff0000;"><!--@@@@@-->随時受け付け中！</span>
+
+</div>
+<br />
+<h2 id="id_164b143a">作品公開期間</h2>
+<ul><li>10/11以降（作者により個人差あり）</li></ul>
+<br />
+<br />
+<div>
+ついでに、相互リンク募集中
+<br />
+運営スレで報告していただければ、協賛サイトとして左側のサイドメニューにリンクを貼ります
+</div>
+
+                <div class="panel" id="toolBox">
+                    <div class="panelHeader"> <a href="javascript:void(0)" onclick="dd('atwiki_toolbar')" ><span class="panelControl close" title="このパネルを開閉します" ></span></a> ツールボックス </div>
+                    <div class="panelContent" id="atwiki_toolbar">
+                        <p><strong>下から選んでください:</strong></p>
+                        <a class="btn_addPage" id="action_addpage" title="新しいページを作成する" href="/viprpg_battle/new"> 新しいページを作成する </a> <!-- google_ad_section_start(weight=ignore) -->    <select onchange="location.href=this.options[this.selectedIndex].value">        <option>以下から選択してください</option>        <option value="">-------------------------</option>        <option value="http://w.atwiki.jp/viprpg_battle/editx/1.html" rel="nofollow" >このページを編集</option>        <option value="http://w.atwiki.jp/viprpg_battle/renamex/1.html" rel="nofollow" >ページ名変更</option>        <option value="http://w.atwiki.jp/viprpg_battle/diffx/1.html" rel="nofollow" >差分</option>        <option value="http://w.atwiki.jp/viprpg_battle/backupx/1/list.html">編集履歴</option>        <option value="http://w.atwiki.jp/viprpg_battle/upload/1.html" rel="nofollow" >アップロード</option>        <option value="">-------------------------</option>        <option value="http://w.atwiki.jp/viprpg_battle/new"> 新しいページ </option>        <option value="http://w.atwiki.jp/viprpg_battle/list"> ページ一覧 </option>        <option value="http://w.atwiki.jp/viprpg_battle/jsparts"> @wikiパーツ </option>        <option value="https://w.atwiki.jp/viprpg_battle/search"> 検索 </option>        <option value="">-------------------------</option>    </select><!-- google_ad_section_end -->
+                        <div id="toolBoxTour"> <a title="ユーザーズマニュアル@wiki" href="http://doc.atwiki.jp/" target="_blank"> ヘルプ </a> / <a title="FAQ@wiki" href="http://faq.atwiki.jp/" target="_blank"> FAQ </a> もご覧ください。 </div>
+                    </div>
+                </div>
+            </div>
+            <div id="ads">
+                <!--ads_reason=626-->
+            </div>
+            <div id="body_footer">
+                
+<div id="at_social_links2">
+
+<div class='twitter'><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://w.atwiki.jp/viprpg_battle/pages/1.html" data-text="VIPRPG　自作戦闘祭り - VIPRPG　自作戦闘祭り #atwiki " data-lang="ja">ツイート</a></div>
+<div class='hatena'><a href="http://b.hatena.ne.jp/entry/http://w.atwiki.jp/viprpg_battle/pages/1.html" class="hatena-bookmark-button" data-hatena-bookmark-title="VIPRPG　自作戦闘祭り - VIPRPG　自作戦闘祭り" data-hatena-bookmark-layout="simple-balloon" title="このエントリーをはてなブックマークに追加"><img src="//b.st-hatena.com/images/entry-button/button-only.gif" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a></div>
+<div class='facebook_like'><div class="fb-like" data-href="http://w.atwiki.jp/viprpg_battle/pages/1.html" data-send="false" data-layout="button_count" data-width="90" data-show-faces="true"></div></div>
+
+</div>
+<div id="google_relate_ads" class="ads" style="margin: 5px;">
+
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <ins class="adsbygoogle"
+                style="display:inline-block;width:100%;height:300px"
+                data-ad-client="ca-pub-0885625580289468"
+                data-ad-slot="3736716962">
+            </ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+
+            </div>
+            <div id="pageAttributes">
+                <div id="attach"> <div id="attach">添付ファイル<ul><li><a href="//img.atwikiimg.com/www26.atwiki.jp/viprpg_battle/attach/1/1/vo01_0228.png">vo01_0228.png</a></li></ul></div> </div>
+                <div id="footnote">  </div>
+            </div>
+        </div>
+        <div id="menubar" class="menu">
+            <div id="siteSearch">
+                <form action="/viprpg_battle/search" method="get">
+                    <input type="hidden" name="andor" value="and" />
+                    <input class="text" onfocus="if(this.value=='  サイト内を検索する') this.value = '';" maxlength="99" value="  サイト内を検索する" name="keyword" />
+                    <input class="submit" type="submit" value=" " name="submit" />
+                </form>
+            </div>
+            <div class="panel" id="panelHeader">
+                <div class="panelHeader"  > <a href="javascript:void(0)" onclick="dd('atwiki_menubar')" > <span class="panelControl close" title="このパネルを開閉します" > </span> </a> メニュー </div>
+                <div  class="panelContent" id="atwiki_menubar">
+                    <!--@@@@@--><h3 id="id_b7a6c500">メニュー</h3>
+<ul><li><a href="//w.atwiki.jp/viprpg_battle/pages/1.html"  title="VIPRPG　自作戦闘祭り (4081d)">トップページ</a></li>
+<li><a href="//w.atwiki.jp/viprpg_battle/pages/13.html"  title="参加概要 (4097d)">参加概要</a></li></ul>
+<br />
+<hr />
+<h3 id="id_789d9f94">作品一覧</h3>
+<div>
+■No.1
+<br />
+　<a href="//w.atwiki.jp/viprpg_battle/pages/14.html"  title="仏 ～ＳＨＡＫＡ～ (4097d)">仏 ～ＳＨＡＫＡ～</a>
+<br />
+■No.2
+<br />
+　<a href="//w.atwiki.jp/viprpg_battle/pages/15.html"  title="だ～くさも～ん (4081d)">だ～くさも～ん</a>
+<br />
+■No.3
+<br />
+　<a href="//w.atwiki.jp/viprpg_battle/pages/16.html"  title="ぽんたの大冒険 (4080d)">ぽんたの大冒険</a>
+<br />
+■No.4
+<br />
+　<a href="//w.atwiki.jp/viprpg_battle/pages/17.html"  title="ＴＨＥ・サイコロ戦闘 (4081d)">ＴＨＥ・サイコロ戦闘</a>
+
+</div>
+<br />
+<hr />
+<h3 id="id_46f52ce6">掲示板</h3>
+<ul><li><a href="http://yy67.60.kg/viprpg08battle/"  target="_blank"  rel="nofollow">感想掲示板</a></li>
+<li><a href="http://yy67.60.kg/test/read.cgi/viprpg08battle/1219337395/"  target="_blank"  rel="nofollow">運営スレ</a></li></ul>
+<br />
+<hr />
+<h3 id="id_97209f10">協賛サイト</h3>
+<ul><li><a href="http://www.geocities.jp/i_kawauso/"  target="_blank"  rel="nofollow">泉獺の植民地</a></li></ul>
+<br />
+<hr />
+<h3 id="id_be20f28d">更新履歴</h3>
+
+<div class="atwiki_plugin_recent atwiki_plugin_recent_25a1b13fb87d062d43bd6fe2d4a85a7d" data-wikiid="viprpg_battle" data-identify_class="atwiki_plugin_recent_25a1b13fb87d062d43bd6fe2d4a85a7d" data-num="20" data-modify="none" data-ignore="[]" data-ignore_head="[]">取得中です。</div>
+
+<br />
+<div>
+<a href="//w.atwiki.jp/viprpg_battle/pedit/2.html">ここを編集</a>
+</div>
+
+<div id="left-ads" style="text-align:center; margin-top:15px;" ><!-- __dfp_div-gpt-ad-atwiki_160_600_side_bottom_ad-160-600 -->
+                <div id='div-gpt-ad-atwiki_160_600_side_bottom_ad'>
+                 <script type='text/javascript'>
+                    googletag.cmd.push(function() { googletag.display('div-gpt-ad-atwiki_160_600_side_bottom_ad'); });
+                </script>
+                </div></div>
+                </div>
+            </div>
+            <div id="siteActivePages" class="panel">
+                <div class="panelHeader"> <a href="javascript:void(0)" onclick="dd('atwiki_rssbar')" > <span class="panelControl close" title="このパネルを開閉します" > </span> </a> rss ＆ コンタクト & タグ</div>
+                <div class="panelContent" id="atwiki_rssbar" style="display:none;">
+                    <ul>
+                      <li><a href="/viprpg_battle/rss10.xml">更新履歴<br />
+                        RSS Feed</a></li>
+                      <li><a href="/viprpg_battle/contact">管理者に連絡</a></li>
+                      <li><a href="/viprpg_battle/tag" >タグ一覧</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer" class="atwiki_footer" >
+        <hr /><div id="recommend"><!-- google_ad_section_start(weight=ignore) --><!-- google_ad_section_end --> </div>
+         <!-- google_ad_section_start(weight=ignore) --> <a  id="atwiki-jp-bottom" href="//atwiki.jp/" title="@wiki - 無料レンタルウィキサービス">@wiki - 無料レンタルウィキサービス</a> | <a href="//atwiki.jp/policy" title="@wikiのプライバシーポリシー">プライバシーポリシー</a> <!-- google_ad_section_end -->
+    </div>
+</div>
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+function dd(id){
+  if(document.all)
+    OBJ = document.all(id).style;
+  else if(document.getElementById)
+    OBJ = document.getElementById(id).style;
+  if(OBJ) OBJ.display=='none'?OBJ.display='block':OBJ.display='none';
+} 
+//]]>
+</script>
+
+<div id="extraDiv1"><span></span></div><div id="extraDiv2"><span></span></div><div id="extraDiv3"><span></span></div>
+<div id="extraDiv4"><span></span></div><div id="extraDiv5"><span></span></div><div id="extraDiv6"><span></span></div>
+<script>/* plugin = recent, hash=atwiki_plugin_recent */ atwiki_j$(function($) {
+
+    var wikiid = "";
+    var params = { recent: {} };
+
+    $(".atwiki_plugin_recent").each(function() {
+
+        // wikiid取得
+        wikiid = $(this).data("wikiid");
+        // 識別用クラス名の取得
+        var identify_class = $(this).data("identify_class");
+
+        if ( typeof( params.recent[identify_class] ) === "undefined" ) {
+            params.recent[identify_class] = {
+                "num": $(this).data("num"),
+                "modify": $(this).data("modify"),
+                "ignore": $(this).data("ignore"),
+                "ignore_head": $(this).data("ignore_head")
+            }
+        }
+    });
+
+    // ajax
+    $.ajax({
+        url: "/_ajax/setplugin/" + wikiid,
+        dataType: "json",
+        data: params,
+        type: "POST"
+    }).then(function(data, textStatus, jqXHR) {
+        if ( typeof data.errormsg !== "undefined" ) return $.Deferred().reject( data.errormsg );
+        if ( typeof data.recent   === "undefined" ) return $.Deferred().reject("取得に失敗しました。リロードして下さい。");
+        $.each(data.recent, function(identify_class, dates) {
+            // 個別エラーチェック
+            if ( typeof dates.errormsg !== "undefined" ) {
+                $("." + identify_class).html( dates.errormsg );
+                return true;  // continue
+            }
+
+            // 正常に結果を取得できている場合、受け取った結果でhtmlを生成して挿入する
+            var html = "";
+            $.each(dates, function(date, pageinfo) {
+                html += '<p class="plugin_recent_day">' + date + '</p>';
+                html += '<div class="plugin_recent_day_div">';
+                html += '<ul class="plugin_recent_ul">';
+                $.each(pageinfo, function(key, value) {
+                    var modify_str = "";
+                    if (value.modify != "") {
+                        modify_str = " (" + value.modify + ")"
+                    }
+                    html += '<li><a href="/' + wikiid + '/pages/' + value.pageid + '.html" title="' + value.pagename + ' (' + value.old + ')">' + value.pagename + '</a>' + modify_str + '</li>';
+                });
+                html += "</div>";
+                html += "</ul>";
+            });
+
+            // それぞれ生成したhtmlに置き換え
+            $("." + identify_class).html( html );
+        });
+    }).fail(function(message) {
+        // 全体失敗時、全てのrecentプラグインを受け取ったメッセージに置き換え
+        $('.atwiki_plugin_recent').html( message );
+    });
+
+});
+</script>
+</body>
+</html>

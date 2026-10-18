@@ -104,6 +104,14 @@ const configurations: Record<string, { base: string; entry?: string; manifests: 
     seeds: { "index.html": "source/archive/index-20220428072419.bin" },
     encoding: "shift_jis",
   },
+  "2008-jisaku-battle-festival": {
+    base: "https://w.atwiki.jp/viprpg_battle/",
+    entry: "index.html",
+    manifests: ["source/archive/manifest.json", "source/live/original-view-manifest.json"],
+    seeds: { "index.html": "source/archive/index-20191216100856.bin" },
+    seedUrls: { "index.html": "https://w.atwiki.jp/viprpg_battle/" },
+    encoding: "utf-8",
+  },
   "2008-chuuni-festival": {
     base: "https://vipkohaku.x.fc2.com/2008chu/",
     entry: "index.html",
@@ -246,9 +254,12 @@ async function main() {
   const queue = new Set<string>(), files = new Map<string, Buffer>(), failures: Array<{ url: string; requestedUrl?: string; error: string }> = [];
   const compatibilityFixes: Array<{ page: string; change: string }> = [];
   const omittedCssResources: Array<{ originalUrl: string; status: number }> = [];
+  const omittedBackgrounds: Array<{ page: string; resource: string }> = [];
+  const omittedHovers: Array<{ page: string; resource: string }> = [];
   const recovery = JSON.parse(await fs.readFile(`${root}/recovery.json`, "utf8"));
-  if (id === "2012-toppuu-festival" || id === "2011-toppatsu-festival" || id === "2010-gw" || id === "2010-kouhaku" || id === "2010-summer") config.externalResources = recovery.originalResources;
+  if (id === "2012-toppuu-festival" || id === "2011-toppatsu-festival" || id === "2008-jisaku-battle-festival" || id === "2010-gw" || id === "2010-kouhaku" || id === "2010-summer") config.externalResources = recovery.originalResources;
   const sourceDetailGapPaths = new Set<string>((recovery.sourceDetailGaps ?? []).map((gap: { sourcePath: string }) => gap.sourcePath));
+  const unavailableSourcePagePaths = new Set<string>((recovery.unavailableSourcePages ?? []).map((gap: { sourcePath: string }) => gap.sourcePath));
   const previousMissing: Array<{ url: string; requestedUrl?: string; error: string }> = JSON.parse(await fs.readFile(`${root}/original-view.json`, "utf8").catch(() => "{}")).missingResources ?? [];
   const restrictions: Array<{ no: string; sourcePath: string; resources: Array<{ path: string; kind: string }>; relatedUrls?: string[] }> = recovery.contentRestrictions ?? [];
   const catalogue: WorkEntry[] = JSON.parse(await fs.readFile(`src/data/works/${id}.json`, "utf8"));
@@ -290,7 +301,7 @@ async function main() {
   function enqueue(url: string, owner: string) {
     const absolute = new URL(unarchive(url), owner).href, local = relative(absolute);
     if (local && blocked.has(local)) return blocked.get(local);
-    if (id === "2010-gw" && local && sourceDetailGapPaths.has(local)) return local;
+    if (local && ((id === "2010-gw" && sourceDetailGapPaths.has(local)) || (id === "2008-jisaku-battle-festival" && (sourceDetailGapPaths.has(local) || unavailableSourcePagePaths.has(local))))) return local;
     if (local && /\.(?:html?|css|js|png|jpe?g|gif|bmp|webp|ico|svg|mp3|wav|ogg|mid|avi|ogv|txt|zip)$/i.test(local)) {
       queue.add(absolute);
       return local;
@@ -305,7 +316,15 @@ async function main() {
     return target ? (path.posix.relative(path.posix.dirname(local), target) || path.posix.basename(target)) + (config.cgiProfile && url.pathname.endsWith("/profile.cgi") ? "" : url.search) + url.hash : url.href;
   }
   function rewriteCSS(text: string, owner: string, local: string) {
-    return text.replace(/url\(\s*["']?([^"')]+)["']?\s*\)/g, (_, value) => `url("${localReference(value, owner, local)}")`);
+    return text.replace(/url\(\s*["']?([^"')]+)["']?\s*\)/g, (_, value) => {
+      const reference = localReference(value, owner, local);
+      if ((!reference || /^https?:/i.test(reference)) && id === "2008-jisaku-battle-festival") {
+        const resource = new URL(value, owner);
+        omittedBackgrounds.push({ page: local, resource: resource.pathname });
+        return "none";
+      }
+      return `url("${reference}")`;
+    });
   }
   function rewriteAbsoluteStrings(text: string, owner: string, local: string) {
     return text.replace(/(["'])(https?:\/\/[^"']+)\1/g, (_, quote, value) => `${quote}${localReference(value, owner, local)}${quote}`);
@@ -432,15 +451,28 @@ async function main() {
           });
           compatibilityFixes.push({ page: local, change: "Preserve Wiki content, existing comments, theme and catalogue navigation; remove hosting ads, scripts, editing/posting controls and unavailable Wiki administration links. Use full source images instead of responsive thumbnail requests." });
         }
-        if (id === "2011-toppatsu-festival") {
+        if (id === "2011-toppatsu-festival" || id === "2008-jisaku-battle-festival") {
           $("script,noscript,iframe,form,body>header,body>footer,.atwiki-headbar,#atwiki-fixed-nav,#atwiki-modal-search-form,#pageTabs,#editmenu,#toolBox,#toolBoxTour,#ads,#left-ads,#right-ads,#atwiki-ads-overlay,#body_footer,#at_social_links2,[id^='div-gpt-ad-'],.atwiki-modal-bg,.atwiki-modal-wrap,.atwiki-modal,#atwiki_menubar a[href*='/pedit/']").remove();
           $("link").filter((_, e) => !($(e).attr("rel") || "").includes("stylesheet") || !/base_101default\.css|pc_common\.css|atwiki_common\.css/.test($(e).attr("href") || "")).remove();
           $("source,[srcset]").each((_, e) => { if (e.tagName === "source") $(e).remove(); else $(e).removeAttr("srcset"); });
           $("*").each((_, e) => { for (const attr of Object.keys(e.attribs)) if (attr.startsWith("on")) $(e).removeAttr(attr); });
+          if (id === "2008-jisaku-battle-festival") {
+            $('img[src*="b.st-hatena.com"]').remove();
+            $('img[src*="/attach/"]').each((_, element) => {
+              $(element).replaceWith('<span class="archive-missing-image" data-missing-resource="festival-banner" style="display:inline-block;box-sizing:border-box;padding:.75rem;border:1px dashed #7a8795;background:#f2f4f6;color:#394452;vertical-align:middle">［原资料图片未取得］</span>');
+            });
+          }
           $("a[href]").each((_, e) => {
             const value = $(e).attr("href")!;
             if (value.startsWith("#")) return;
             const url = new URL(value, original), mapped = config.externalResources?.[url.href];
+            if (id === "2008-jisaku-battle-festival" && (url.hostname === base.hostname || url.hostname === "login.atwiki.jp")) {
+              const target = url.hostname === base.hostname ? relative(url.href) : url.pathname.match(/\/viprpg_battle\/(pages\/\d+\.html)$/)?.[1];
+              if (target && (cached.has(target) || files.has(target) || sourceDetailGapPaths.has(target) || unavailableSourcePagePaths.has(target))) {
+                $(e).attr("href", path.posix.relative(path.posix.dirname(local), target) || path.posix.basename(target)).removeAttr("target");
+              } else $(e).removeAttr("href target");
+              return;
+            }
             if (url.hostname === base.hostname && !mapped && !cached.has(relative(url.href) || "")) $(e).removeAttr("href target");
           });
           compatibilityFixes.push({ page: local, change: "Preserve the captured AtWiki content and source theme; remove hosting navigation, advertising, scripts and posting controls, and use local captured images and same-site page links." });
@@ -706,8 +738,6 @@ async function main() {
       files.set(local, bytes);
     } catch (error) { failures.push({ url: original, requestedUrl, error: String(error) }); }
   }
-  const omittedBackgrounds: Array<{ page: string; resource: string }> = [];
-  const omittedHovers: Array<{ page: string; resource: string }> = [];
   const unavailable = new Set(failures.map((failure) => relative(failure.url)));
   if (id === "2009-summer") for (const [local, bytes] of files) if (/\.css$/i.test(local)) {
     let omitted = 0;
@@ -842,10 +872,10 @@ async function main() {
         compatibilityFixes.push({ page: local, change: "Omit an unavailable stylesheet or favicon reference; the source inline styling remains in place and the missing resource stays documented." });
       }
     });
-    if (["2010-gw", "2012-kouhaku", "2011-gw", "2011-kouhaku", "2010-summer", "2009-kouhaku", "2009-ksgfestival", "2009-silver-week-miruge-festival", "2009-summer", "2008-gw", "2008-chuuni-festival", "2009-gw"].includes(id) || [...omittedBackgrounds, ...omittedHovers].some((omission) => omission.page === local)) files.set(local, Buffer.from($.html()));
+    if (["2010-gw", "2012-kouhaku", "2011-gw", "2011-kouhaku", "2010-summer", "2009-kouhaku", "2009-ksgfestival", "2009-silver-week-miruge-festival", "2009-summer", "2008-gw", "2008-jisaku-battle-festival", "2008-chuuni-festival", "2009-gw"].includes(id) || [...omittedBackgrounds, ...omittedHovers].some((omission) => omission.page === local)) files.set(local, Buffer.from($.html()));
   }
   const generatedUnavailablePages: string[] = [];
-  if (["2011-gw", "2010-gw", "2009-ksgfestival", "2008-chuuni-festival"].includes(id)) for (const gap of recovery.sourceDetailGaps ?? []) {
+  if (["2011-gw", "2010-gw", "2009-ksgfestival", "2008-chuuni-festival", "2008-jisaku-battle-festival"].includes(id)) for (const gap of recovery.sourceDetailGaps ?? []) {
     const work = catalogue.find((work) => work.no === gap.no);
     if (!work || files.has(gap.sourcePath)) continue;
     const escape = (value: string) => value.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
@@ -860,7 +890,7 @@ async function main() {
     generatedUnavailablePages.push(gap.sourcePath);
     compatibilityFixes.push({ page: gap.sourcePath, change: "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented." });
   }
-  if (id === "2008-chuuni-festival") for (const gap of recovery.unavailableSourcePages ?? []) {
+  if (id === "2008-chuuni-festival" || id === "2008-jisaku-battle-festival") for (const gap of recovery.unavailableSourcePages ?? []) {
     if (files.has(gap.sourcePath)) continue;
     const sample = gap.no === "000";
     const heading = sample ? "No.000 — 原ページ未取得" : "原ページ未取得";

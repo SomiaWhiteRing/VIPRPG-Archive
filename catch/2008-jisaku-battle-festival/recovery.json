@@ -1,0 +1,340 @@
+{
+  "festivalId": "2008-jisaku-battle-festival",
+  "source": {
+    "url": "https://w.atwiki.jp/viprpg_battle/",
+    "snapshotUrl": "https://web.archive.org/web/20191216100856/https://w.atwiki.jp/viprpg_battle/",
+    "timestamp": "20191216100856",
+    "encoding": "UTF-8",
+    "rawFile": "catch/2008-jisaku-battle-festival/source/archive/index-20191216100856.bin",
+    "sha256": "6d6fd9c8e5b29de766d51899bc2cc08a7543684d6039a43a936469ee4c4417e2",
+    "cdxDigest": "5L4EKPCKW5CKJPM34WKGSEIHAD2HA56P",
+    "cdxDigestVerified": true
+  },
+  "directSourceAttempts": {
+    "sourceUrl": "https://w.atwiki.jp/viprpg_battle/",
+    "proxyNode": "🇯🇵 日本S01 | IEPL",
+    "proxyRegion": "Japan",
+    "exitCountry": "JP",
+    "rootResponses": [
+      403,
+      403
+    ],
+    "representativePageResponses": [
+      {
+        "page": "pages/1.html",
+        "status": 403
+      },
+      {
+        "page": "pages/14.html",
+        "status": 403
+      }
+    ],
+    "successfulRootOrDetailRequests": 0,
+    "evidence": [
+      "catch/2008-jisaku-battle-festival/investigation/direct-source-attempts.json",
+      "catch/2008-jisaku-battle-festival/investigation/direct-css-2019.json"
+    ]
+  },
+  "archiveRetrieval": {
+    "proxyRegion": "Hong Kong",
+    "proxyPort": "127.0.0.1:7897",
+    "exitCountry": "HK",
+    "rootCaptures": 3,
+    "rootCdxDigestVerified": true,
+    "exactDetailPagesWithCapture": 0,
+    "originalTimemap": "catch/2008-jisaku-battle-festival/investigation/original-timemap.bin"
+  },
+  "catalogue": {
+    "sourceMenuEntries": 4,
+    "registeredWorksBeforeRecovery": 2,
+    "registeredWorks": 4,
+    "newRecords": [
+      "003",
+      "004"
+    ],
+    "existingTitleMatches": 2,
+    "existingTitleMismatches": 0,
+    "sourceAuthorFieldsOnNewRecords": 0,
+    "newAuthorsMarkedNotRecorded": 2,
+    "existingCommentsPreserved": 2,
+    "downloadsBeforeRecovery": 0,
+    "downloadsChanged": 0,
+    "sourceDetailUnavailableRecords": 4
+  },
+  "sourceDetails": {
+    "sourceRootPage": "https://w.atwiki.jp/viprpg_battle/",
+    "selectedSnapshotUrl": "https://web.archive.org/web/20191216100856/https://w.atwiki.jp/viprpg_battle/",
+    "rootSnapshots": [
+      {
+        "file": "index-20191216100856.bin",
+        "bytes": 45912,
+        "sha256": "6d6fd9c8e5b29de766d51899bc2cc08a7543684d6039a43a936469ee4c4417e2",
+        "cdxDigestVerified": true,
+        "wikiBodyCharacters": 1338,
+        "wikiBodySha256": "328887ee7f729bc2d3b6436f3a24e4bee566dbdfe77eabe371d1b97a9d86fbb0",
+        "headings": {
+          "h1": 0,
+          "h2": 3,
+          "h3": 0
+        },
+        "lists": {
+          "unordered": 3,
+          "ordered": 0,
+          "listItems": 7
+        },
+        "wikiBodyLinks": 5,
+        "wikiBodyImages": 1,
+        "menuNumbers": [
+          "001",
+          "002",
+          "003",
+          "004"
+        ]
+      },
+      {
+        "file": "index-20240623044738.bin",
+        "bytes": 38540,
+        "sha256": "f1ccbc95798aa290dfb10e03b7100045d487328047ef5bdf074df31154bb57d3",
+        "cdxDigestVerified": true,
+        "wikiBodyCharacters": 820,
+        "wikiBodySha256": "a12f2020000dd37c6fdc70e49e3009409bee6fe3c83e276ee5b714feca525670",
+        "headings": {
+          "h1": 0,
+          "h2": 3,
+          "h3": 0
+        },
+        "lists": {
+          "unordered": 3,
+          "ordered": 0,
+          "listItems": 7
+        },
+        "wikiBodyLinks": 5,
+        "wikiBodyImages": 1,
+        "menuNumbers": [
+          "001",
+          "002",
+          "003",
+          "004"
+        ]
+      },
+      {
+        "file": "index-20250912033727.bin",
+        "bytes": 40071,
+        "sha256": "49f41db27f707e54dbdc66153ea0b3d9501efd902a33dc00f4ac3c4d2e0d8ecd",
+        "cdxDigestVerified": true,
+        "wikiBodyCharacters": 820,
+        "wikiBodySha256": "a12f2020000dd37c6fdc70e49e3009409bee6fe3c83e276ee5b714feca525670",
+        "headings": {
+          "h1": 0,
+          "h2": 3,
+          "h3": 0
+        },
+        "lists": {
+          "unordered": 3,
+          "ordered": 0,
+          "listItems": 7
+        },
+        "wikiBodyLinks": 5,
+        "wikiBodyImages": 1,
+        "menuNumbers": [
+          "001",
+          "002",
+          "003",
+          "004"
+        ]
+      }
+    ],
+    "sourceMenuNumbers": [
+      "001",
+      "002",
+      "003",
+      "004"
+    ],
+    "individualDetailPagesWithCapture": 0,
+    "sourceDetailGaps": [
+      {
+        "no": "001",
+        "sourcePath": "pages/14.html",
+        "sourceUrl": "https://w.atwiki.jp/viprpg_battle/pages/14.html",
+        "archiveEvidence": "Exact HTTP and HTTPS Wayback CDX queries found no successful page capture; representative direct source pages returned HTTP 403 on the Japan route."
+      },
+      {
+        "no": "002",
+        "sourcePath": "pages/15.html",
+        "sourceUrl": "https://w.atwiki.jp/viprpg_battle/pages/15.html",
+        "archiveEvidence": "Exact HTTP and HTTPS Wayback CDX queries found no successful page capture; representative direct source pages returned HTTP 403 on the Japan route."
+      },
+      {
+        "no": "003",
+        "sourcePath": "pages/16.html",
+        "sourceUrl": "https://w.atwiki.jp/viprpg_battle/pages/16.html",
+        "archiveEvidence": "Exact HTTP and HTTPS Wayback CDX queries found no successful page capture; representative direct source pages returned HTTP 403 on the Japan route."
+      },
+      {
+        "no": "004",
+        "sourcePath": "pages/17.html",
+        "sourceUrl": "https://w.atwiki.jp/viprpg_battle/pages/17.html",
+        "archiveEvidence": "Exact HTTP and HTTPS Wayback CDX queries found no successful page capture; representative direct source pages returned HTTP 403 on the Japan route."
+      }
+    ],
+    "unavailableAuxiliaryPages": [
+      {
+        "sourcePath": "pages/13.html",
+        "role": "auxiliary",
+        "archiveEvidence": "Exact HTTP and HTTPS Wayback CDX queries returned no successful page capture; direct access to the source host was blocked on representative pages."
+      },
+      {
+        "sourcePath": "pages/1.html",
+        "role": "auxiliary",
+        "archiveEvidence": "Exact HTTP and HTTPS Wayback CDX queries returned no successful page capture; direct access to the source host was blocked on representative pages."
+      }
+    ],
+    "noPerWorkScreenshotReferences": true
+  },
+  "sourceDetailGaps": [
+    {
+      "no": "001",
+      "sourcePath": "pages/14.html",
+      "sourceUrl": "https://w.atwiki.jp/viprpg_battle/pages/14.html",
+      "archiveEvidence": "Exact HTTP and HTTPS Wayback CDX queries found no successful page capture; representative direct source pages returned HTTP 403 on the Japan route."
+    },
+    {
+      "no": "002",
+      "sourcePath": "pages/15.html",
+      "sourceUrl": "https://w.atwiki.jp/viprpg_battle/pages/15.html",
+      "archiveEvidence": "Exact HTTP and HTTPS Wayback CDX queries found no successful page capture; representative direct source pages returned HTTP 403 on the Japan route."
+    },
+    {
+      "no": "003",
+      "sourcePath": "pages/16.html",
+      "sourceUrl": "https://w.atwiki.jp/viprpg_battle/pages/16.html",
+      "archiveEvidence": "Exact HTTP and HTTPS Wayback CDX queries found no successful page capture; representative direct source pages returned HTTP 403 on the Japan route."
+    },
+    {
+      "no": "004",
+      "sourcePath": "pages/17.html",
+      "sourceUrl": "https://w.atwiki.jp/viprpg_battle/pages/17.html",
+      "archiveEvidence": "Exact HTTP and HTTPS Wayback CDX queries found no successful page capture; representative direct source pages returned HTTP 403 on the Japan route."
+    }
+  ],
+  "unavailableSourcePages": [
+    {
+      "sourcePath": "pages/13.html",
+      "role": "auxiliary",
+      "archiveEvidence": "Exact HTTP and HTTPS Wayback CDX queries returned no successful page capture; direct access to the source host was blocked on representative pages."
+    },
+    {
+      "sourcePath": "pages/1.html",
+      "role": "auxiliary",
+      "archiveEvidence": "Exact HTTP and HTTPS Wayback CDX queries returned no successful page capture; direct access to the source host was blocked on representative pages."
+    }
+  ],
+  "originalResources": {
+    "https://img.atwikiimg.com/common/_skin/base_101default.css?t=2ce49ff07a197c6e84d7cd54e25504bd": "styles/base_101default.css",
+    "https://img.atwikiimg.com/common/_skin/pc_common.css?t=92e9280d46d199ec6787e4d5354c953c": "styles/pc_common.css",
+    "https://img.atwikiimg.com/common/dist/css/atwiki_common.css?t=a73cc0a3945b638e023765c824cfa518": "styles/atwiki_common.css",
+    "https://img.atwikiimg.com/common/_img/skin/101default/bg_buttonSubmit.png": "assets/retry-001.png",
+    "https://img.atwikiimg.com/common/_img/skin/101default/search.jpg": "assets/retry-004.jpg",
+    "https://img.atwikiimg.com/common/_img/skin/101default/btn_panelOpen.png": "assets/retry-005.png",
+    "https://img.atwikiimg.com/common/_img/skin/101default/btn_panelClose.png": "assets/retry-006.png",
+    "https://img.atwikiimg.com/common/_img/skin/101default/bg_headerPanelCenter.png": "assets/retry-007.png",
+    "https://img.atwikiimg.com/common/_img/skin/101default/btn_panelCenterOpen.png": "assets/retry-008.png",
+    "https://img.atwikiimg.com/common/_img/skin/101default/btn_panelCenterClose.png": "assets/asset-009.png",
+    "https://img.atwikiimg.com/common/_img/skin/101default/edit.png": "assets/asset-010.png",
+    "https://img.atwikiimg.com/common/_img/skin/101default/new.png": "assets/asset-012.png",
+    "https://img.atwikiimg.com/common/_img/skin/101default/icon_editlocked.png": "assets/asset-013.png",
+    "https://img.atwikiimg.com/common/_img/skin/101default/icon_watch.png": "assets/asset-014.png",
+    "https://img.atwikiimg.com/common/_img/skin/101default/icon_sendemail.png": "assets/asset-015.png",
+    "https://img.atwikiimg.com/common/_img/skin/101default/icon_invite.png": "assets/asset-016.png",
+    "https://img.atwikiimg.com/common/_img/skin/101default/icon_addcomment.png": "assets/asset-017.png",
+    "https://img.atwikiimg.com/common/_img/skin/101default/icon_replycomment.png": "assets/asset-018.png",
+    "https://img.atwikiimg.com/common/_img/skin/101default/icon_quotecomment.png": "assets/asset-019.png",
+    "https://img.atwikiimg.com/common/_img/skin/101default/icon_deletecomment.png": "assets/asset-020.png",
+    "https://img.atwikiimg.com/common/_img/skin/101default/bg_pageTab.png": "assets/asset-021.png",
+    "https://img.atwikiimg.com/common/_img/skin/101default/bg_pageAction.png": "assets/asset-022.png",
+    "https://img.atwikiimg.com/common/_img/skin/101default/btn_edit2.png": "assets/asset-023.png",
+    "https://img.atwikiimg.com/common/_img/skin/101default/btn_editLock.png": "assets/asset-024.png",
+    "https://img.atwikiimg.com/common/_img/skin/101default/bg_gradient2000.png": "assets/asset-025.png",
+    "https://img.atwikiimg.com/common/_img/skin/101default/bg_textInput.png": "assets/asset-026.png",
+    "https://img.atwikiimg.com/common/_img/skin/101default/bg_headerTable.png": "assets/asset-027.png",
+    "https://img.atwikiimg.com/common/_img/skin/101default/vote_yesNo.png": "assets/asset-028.png",
+    "https://img.atwikiimg.com/common/_img/skin/101default/loader_blu.gif": "assets/asset-029.gif",
+    "https://img.atwikiimg.com/common/_img/skin/101default/bg_dialogGrippy.png": "assets/asset-030.png",
+    "https://img.atwikiimg.com/common/_img/skin/101default/btn_close.png": "assets/asset-031.png",
+    "https://img.atwikiimg.com/common/_img/skin/101default/bg_headerSite.jpg": "assets/asset-033.jpg",
+    "https://img.atwikiimg.com/common/_img/skin/101default/itm_headerSite.png": "assets/asset-034.png",
+    "https://img.atwikiimg.com/common/_img/skin/101default/icon_background.png": "assets/asset-035.png",
+    "https://img.atwikiimg.com/common/_img/skin/101default/icon_background_wide.png": "assets/asset-036.png",
+    "https://img.atwikiimg.com/common/_img/skin/101default/icon_profile.png": "assets/asset-037.png",
+    "https://img.atwikiimg.com/common/_img/skin/101default/bullet-check.png": "assets/asset-038.png",
+    "https://img.atwikiimg.com/common/_img/ic-edit-alt.svg": "assets/asset-055.svg",
+    "https://img.atwikiimg.com/common/_img/ic-search-gray.svg": "assets/asset-049.svg",
+    "https://img.atwikiimg.com/common/_img/atwiki_logo_small.svg": "assets/asset-068.svg",
+    "https://img.atwikiimg.com/common/_img/loading.gif": "assets/asset-069.gif",
+    "https://w.atwiki.jp/common/_img/ic-close.svg": "assets/asset-039.svg",
+    "https://img.atwikiimg.com/common/_img/down2.gif": "root-ui-images/down2.gif",
+    "https://img.atwikiimg.com/common/_skin/h/feed.png": "root-ui-images/feed.png",
+    "https://img.atwikiimg.com/common/_img/spacer.gif?t=221d8352905f2c38b3cb2bd191d630b0": "root-ui-images/spacer.gif"
+  },
+  "cssResources": {
+    "rootStylesheets": 3,
+    "directlySaved2019Stylesheets": 2,
+    "currentAtWikiPcStylesheetUsedForOld404Path": true,
+    "selectedStylesheetResources": 39,
+    "missingSelectedStylesheetResources": [
+      {
+        "originalUrl": "https://img.atwikiimg.com/common/_img/skin/101default/bg_buttonCancel.png",
+        "sourcePath": "/common/_img/skin/101default/bg_buttonCancel.png",
+        "directResult": "ECONNRESET"
+      },
+      {
+        "originalUrl": "https://img.atwikiimg.com/common/_img/skin/101defaultloader_blu.gif",
+        "sourcePath": "/common/_img/skin/101defaultloader_blu.gif",
+        "directResult": "ECONNRESET"
+      },
+      {
+        "originalUrl": "https://img.atwikiimg.com/common/_img/skin/101defaultloader_blu.gif",
+        "sourcePath": "/common/_img/skin/101defaultloader_blu.gif",
+        "directResult": "ECONNRESET"
+      },
+      {
+        "originalUrl": "https://img.atwikiimg.com/common/_img/skin/101default/ref.png",
+        "sourcePath": "/common/_img/skin/101default/ref.png",
+        "directResult": 403
+      },
+      {
+        "originalUrl": "https://img.atwikiimg.com/common/_img/skin/101default/bg_dialogGradient.png",
+        "sourcePath": "/common/_img/skin/101default/bg_dialogGradient.png",
+        "directResult": 403
+      }
+    ],
+    "directImageResources": 3,
+    "rootUiImageReferences": 8,
+    "unavailablePageImages": [],
+    "unavailablePageAttachments": 0,
+    "unattachedImageProbe": {
+      "path": "/viprpg_battle/attach/1/1/vo01_0228.png",
+      "sourceStatus": 404,
+      "waybackCaptures": 0
+    },
+    "thirdPartyShareBadgesRemoved": 1,
+    "selectedSnapshotImageCount": 9
+  },
+  "contentReview": {
+    "inspected": false,
+    "keywordScreening": false,
+    "restrictionOrTextScreening": false,
+    "newRestrictionMarkers": 0
+  },
+  "originalView": {
+    "entry": "/original-pages/2008-jisaku-battle-festival/index.html",
+    "files": 52,
+    "missingResources": 0,
+    "omittedBackgrounds": 6,
+    "generatedUnavailablePages": 6,
+    "embeddedImageCount": 8,
+    "embeddedImagesLoaded": 8,
+    "externalAutomaticLoads": 0,
+    "desktopReview": "passed-with-documented-source-gaps"
+  }
+}
