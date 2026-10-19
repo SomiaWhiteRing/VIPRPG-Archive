@@ -1,0 +1,13 @@
+{
+  "observedStatus": 429,
+  "affectedQueries": 31,
+  "originalConcurrency": 2,
+  "conclusion": "Rate limited, not evidence of absent captures",
+  "action": "Pause further requests, then resume failed paths only at one request per three seconds; stop immediately if 429 repeats.",
+  "retryAfterHeader": "not recorded by the original batch",
+  "conservativeNextAttemptAfter": "2026-10-19T13:25:39.955Z",
+  "resumeCompleted": 31,
+  "resumeStopped": false,
+  "remainingQueryFailures": 0,
+  "latestUpdate": "2026-10-19T13:33:48.038Z"
+}

@@ -1,0 +1,106 @@
+{
+  "festivalId": "2007-gw",
+  "reviewedAt": "2026-10-19",
+  "scope": "desktop only; structure, geometry and actual navigation; no entry-content screening",
+  "status": "passed",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "original": {
+    "wrapperWidth": 1185,
+    "documentWidth": 1168,
+    "scrollWidth": 1168,
+    "catalogueLinks": 62,
+    "tableEntryCounts": [
+      61,
+      1
+    ],
+    "imagesLoaded": 3,
+    "headerNatural": [
+      450,
+      83
+    ],
+    "headerRendered": [
+      450,
+      83
+    ],
+    "bannerNatural": [
+      [
+        197,
+        48
+      ],
+      [
+        196,
+        48
+      ]
+    ],
+    "bannerRendered": [
+      [
+        197,
+        48
+      ],
+      [
+        196,
+        48
+      ]
+    ],
+    "stylesheetAppliedViaComputedBackground": true,
+    "backgroundUrl": "/original-pages/2007-gw/image/bg.png",
+    "detail018OpenedByClick": true,
+    "screenshotNatural": [
+      640,
+      480
+    ],
+    "screenshotRendered": [
+      640,
+      480
+    ],
+    "detail001SkeletonOpenedByClick": true,
+    "gap001Headings": 1,
+    "gap001Paragraphs": 4,
+    "gap001ReturnPath": "../index.html",
+    "detail000SkeletonOpenedByClick": true,
+    "gap000Headings": 1,
+    "gap000Paragraphs": 3,
+    "zeroEntryRetained": true,
+    "scripts": 0,
+    "noHorizontalOverflow": true
+  },
+  "formatted": {
+    "originalToFormattedNavigationClicked": true,
+    "catalogueLinks": 62,
+    "zeroEntryLinkPresent": true,
+    "bannersLoaded": 2,
+    "bannerNatural": [
+      [
+        197,
+        48
+      ],
+      [
+        196,
+        48
+      ]
+    ],
+    "bannerObjectFit": "contain",
+    "work18OpenedByClickAfterScrollingIntoView": true,
+    "work00RouteChecked": true,
+    "sourceBodyWidth": 839,
+    "sourceBodyScrollWidth": 839,
+    "sourceTextColor": "rgb(31, 41, 55)",
+    "screenshotNatural": [
+      640,
+      480
+    ],
+    "screenshotObjectFit": "contain",
+    "sourceDownloadAnchors": 2,
+    "noHorizontalOverflow": true
+  },
+  "validation": [
+    "npm run validate:data",
+    "npm run lint",
+    "npm run build",
+    "catch/2007-gw/investigation/local-structure-review.json"
+  ],
+  "contentBasedScreening": false
+}

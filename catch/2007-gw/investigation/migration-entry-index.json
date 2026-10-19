@@ -1,0 +1,7 @@
+{
+  "name": "migration-entry-index",
+  "prefix": "https://vipkohaku.x.2nt.com/2007GW/entry/",
+  "filter": "statuscode:(200|-)",
+  "queryUrl": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fvipkohaku.x.2nt.com%2F2007GW%2Fentry%2F&matchType=prefix&output=json&fl=original,timestamp,statuscode,mimetype,digest&filter=statuscode%3A(200%7C-)&collapse=urlkey&limit=1000",
+  "rows": []
+}

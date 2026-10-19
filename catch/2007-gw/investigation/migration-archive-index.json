@@ -1,0 +1,12 @@
+[
+  {
+    "originalPrefix": "https://vipkohaku.x.2nt.com/2007def/",
+    "queryUrl": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fvipkohaku.x.2nt.com%2F2007def%2F&matchType=prefix&output=json&fl=original,timestamp,statuscode,mimetype,digest&filter=statuscode:(200|-)&collapse=urlkey&limit=1000",
+    "rows": []
+  },
+  {
+    "originalPrefix": "https://vipkohaku.x.2nt.com/2007GW/",
+    "queryUrl": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fvipkohaku.x.2nt.com%2F2007GW%2F&matchType=prefix&output=json&fl=original,timestamp,statuscode,mimetype,digest&filter=statuscode:(200|-)&collapse=urlkey&limit=1000",
+    "error": "TimeoutError: The operation was aborted due to timeout"
+  }
+]

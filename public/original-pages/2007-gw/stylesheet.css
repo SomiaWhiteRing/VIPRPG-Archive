@@ -1,0 +1,65 @@
+body {background: url("image/bg.png") repeat-y;
+font-size: 12px;
+color: #000000;
+padding: 0;
+margin: 0 0 0 40;}
+
+h2 {background: #000000;
+font-size: 12px;
+color: #ffffff;
+padding: 0 0 0 10;
+margin: 0;}
+
+h2.title {font-size: 16px;}
+
+hr {color: #000000;
+width: 640;}
+
+p {padding: 0 0 0 10;
+margin: 0;}
+
+p.top {padding: 0 0 0 590;}
+
+a { color: #990033;}
+a:visited { color: #000000; }
+
+pre {padding: 0 0 0 20;
+margin: 0;}
+
+table {border: 2px solid #000000;
+text-align: left;
+font-size: 12px;
+color: #000000;
+width: 630;
+padding: 0;
+margin: 0 0 0 10;}
+
+tr {width: 640;
+height: 30;
+padding: 0;
+margin: 0;}
+
+tr.bgcolor1 {background: #ccff99;}
+
+tr.bgcolor2 {background: #ffffcc;}
+
+tr.bgcolor3 {background: #cccccc;}
+
+td {border: 0px solid #000000;
+padding: 2 0 2 0;
+margin: 0;}
+
+td.presentation {width: 20;
+color: #ff0000;
+text-align: center;}
+
+td.no {font-weight: bold;
+width: 30;
+text-align: center;}
+
+td.titlename {width: ;
+padding: 0 0 0 10;}
+
+td.dl {width: 80;
+font-weight: bold;
+text-align: center;}

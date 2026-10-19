@@ -1,0 +1,7 @@
+{
+  "name": "original-entry-revisits",
+  "prefix": "https://vipkohaku.x.fc2.com/2007GW/entry/",
+  "filter": "statuscode:-",
+  "queryUrl": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fvipkohaku.x.fc2.com%2F2007GW%2Fentry%2F&matchType=prefix&output=json&fl=original,timestamp,statuscode,mimetype,digest&filter=statuscode%3A-&collapse=urlkey&limit=1000",
+  "error": "TimeoutError: The operation was aborted due to timeout"
+}

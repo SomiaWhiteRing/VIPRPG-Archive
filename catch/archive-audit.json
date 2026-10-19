@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-10-19T13:01:27.745Z",
+  "generatedAt": "2026-10-19T14:19:04.792Z",
   "scope": "Local inventory; field presence is not source verification or completeness.",
   "totals": {
     "festivals": 74,
-    "festivalsWithBanners": 58,
+    "festivalsWithBanners": 59,
     "works": 4145,
-    "detailPages": 3684,
-    "disabledDetails": 460,
+    "detailPages": 3746,
+    "disabledDetails": 398,
     "restrictedDetails": 7,
     "withComments": 3160,
-    "withScreenshots": 3125,
+    "withScreenshots": 3126,
     "withDownload": 1784,
-    "withSource": 2365,
-    "referencedAssets": 7495,
+    "withSource": 2427,
+    "referencedAssets": 7498,
     "assetIssues": 0
   },
   "festivals": [
@@ -1253,19 +1253,19 @@
     },
     {
       "id": "2007-gw",
-      "dataSha256": "20d3754fdad16ecbdc6f1edaf850456f963bced658dca345e922ad17c889b50e",
+      "dataSha256": "fa4c3f8ff801ebc4a7a14d43c0af2cdb48a854162344fadf06416c09369ef473",
       "listedSourceUrl": "https://vipkohaku.x.fc2.com/2007GW/index.html",
       "works": 62,
-      "banners": 0,
-      "detailPages": 0,
-      "disabledDetails": 62,
+      "banners": 2,
+      "detailPages": 62,
+      "disabledDetails": 0,
       "restrictedDetails": 0,
       "withAuthor": 0,
       "withComments": 0,
-      "withScreenshots": 0,
+      "withScreenshots": 1,
       "withDownload": 52,
-      "withSource": 0,
-      "cachedHtmlFiles": 1,
+      "withSource": 62,
+      "cachedHtmlFiles": 3,
       "summaries": [
         "catch/2007-gw/2007-gw-scrape-summary.json"
       ]

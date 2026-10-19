@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2007-gw",
+  "activeFestival": "2007-summer",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -1082,6 +1082,33 @@
         "catch/2007-default-battle-festival/desktop-review.json"
       ],
       "notes": "核对现存镜像26项，恢复No.14详情、作者、截图与历史下载入口，替换并登记真实祭典横幅。25项详情保留骨架，逐地址CDX查询未见成功快照；日本源站及迁移站连接检查未取回正文。5份展示来源均匹配CDX摘要，双视图桌面验收通过。"
+    },
+    {
+      "festivalId": "2007-gw",
+      "reviewedAt": "2026-10-19",
+      "dataSha256": "fa4c3f8ff801ebc4a7a14d43c0af2cdb48a854162344fadf06416c09369ef473",
+      "works": 62,
+      "screenshotFiles": 1,
+      "screenshotReferences": 1,
+      "status": "reviewed-with-documented-source-gaps",
+      "originalCatalogueCompleteness": "unverified",
+      "outstandingSourceDetails": 61,
+      "outstandingImageSourceUrls": 0,
+      "outstandingScreenshotRows": 0,
+      "outstandingOtherResources": 0,
+      "outstandingAuxiliaryPages": 0,
+      "sourceEvidence": [
+        "catch/2007-gw/recovery.json",
+        "catch/2007-gw/investigation/catalogue-section-review.json",
+        "catch/2007-gw/investigation/detail-capture-index.json",
+        "catch/2007-gw/investigation/rate-limit-checkpoint.json",
+        "catch/2007-gw/investigation/source-dns-check.json",
+        "catch/2007-gw/investigation/local-structure-review.json"
+      ],
+      "desktopEvidence": [
+        "catch/2007-gw/desktop-review.json"
+      ],
+      "notes": "核对作品介绍区两张表共62项，包含000，按来源全部保留。恢复No.018正文、截图、样式背景及两张原始横幅；61项详情保留骨架。31个限流查询已降频补查完成，8份展示来源均匹配CDX摘要，双视图桌面验收通过。"
     }
   ],
   "originalViewsReviewed": [
@@ -1332,6 +1359,13 @@
       "evidence": [
         "catch/2007-default-battle-festival/original-view.json",
         "catch/2007-default-battle-festival/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2007-gw",
+      "evidence": [
+        "catch/2007-gw/original-view.json",
+        "catch/2007-gw/desktop-review.json"
       ]
     }
   ],
