@@ -3,6 +3,7 @@ export type FestivalColumnKey =
   | "icon"
   | "work"
   | "type"
+  | "group"
   | "streaming"
   | "download"
   | "forum";
@@ -38,6 +39,7 @@ export interface WorkEntry {
   originalTitle?: string;
   icon?: string;
   category?: string;
+  group?: string;
   engine?: string;
   author: string;
   streaming?: string;

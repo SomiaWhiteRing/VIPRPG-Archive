@@ -44,7 +44,7 @@ const festivalSchema = {
       type: "array",
       minItems: 1,
       items: {
-        enum: ["no", "icon", "work", "type", "streaming", "download", "forum"],
+        enum: ["no", "icon", "work", "type", "group", "streaming", "download", "forum"],
       },
     },
   },
@@ -61,6 +61,7 @@ const workSchema = {
     title: { type: "string", minLength: 1 },
     icon: { type: "string" },
     category: { type: "string" },
+    group: { type: "string" },
     engine: { type: "string" },
     author: { type: "string", minLength: 0 },
     streaming: { type: "string" },

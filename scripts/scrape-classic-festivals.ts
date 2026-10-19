@@ -15,6 +15,7 @@ type WorkEntry = {
   title: string;
   author: string;
   category?: string;
+  group?: string;
   streaming?: string;
   download?: WorkDownload;
   forum?: string;
@@ -27,6 +28,7 @@ type SummaryEntry = {
   title: string;
   author?: string;
   category?: string;
+  group?: string;
   downloadSource?: string[];
   notes?: string[];
 };
@@ -254,6 +256,7 @@ function summaryFromWorks(works: WorkEntry[], notesByNo?: Map<string, string[]>)
     };
     if (work.author) entry.author = work.author;
     if (work.category) entry.category = work.category;
+    if (work.group) entry.group = work.group;
     if (work.download?.url) {
       entry.downloadSource = [work.download.url];
     }
@@ -284,7 +287,7 @@ async function parse2008Kouhaku(): Promise<FestivalResult> {
 
   const works: WorkEntry[] = [];
   const formatter = makeNoFormatter(125);
-  const collect = (page: typeof red, category: string) => {
+  const collect = (page: typeof red, group: string) => {
     page.$("a[href^='sakuhin_']").each((_, element) => {
       const href = page.$(element).attr("href") ?? "";
       const no = numericNo(href);
@@ -295,7 +298,7 @@ async function parse2008Kouhaku(): Promise<FestivalResult> {
         no: formatter(no),
         title: cleanText(page.$(element).text()),
         author: "",
-        category,
+        group,
         detailDisabled: true,
       });
     });
@@ -780,10 +783,10 @@ async function parse2005Kouhaku(): Promise<FestivalResult> {
   const section = cleaned
     .split("＊リンクをクリックするとDL開始します。")[1]
     .split("石川県金沢市住宅建築会社")[0];
-  const noAndCategory = [...section.matchAll(/No\.(\d+)(紅組|白組)\s+(.+?)(?=No\.\d+(?:紅組|白組)|$)/g)].map(
+  const noAndGroup = [...section.matchAll(/No\.(\d+)(紅組|白組)\s+(.+?)(?=No\.\d+(?:紅組|白組)|$)/g)].map(
     (match) => ({
       no: String(Number.parseInt(match[1], 10)).padStart(2, "0"),
-      category: match[2],
+      group: match[2],
     })
   );
 
@@ -794,7 +797,7 @@ async function parse2005Kouhaku(): Promise<FestivalResult> {
       const href = page.$(anchor).attr("href") ?? "";
       return /\.zip$/i.test(href);
     })
-    .slice(0, noAndCategory.length);
+    .slice(0, noAndGroup.length);
 
   const works: WorkEntry[] = workAnchors.map((anchor, index) => {
     const href = page.$(anchor).attr("href") ?? "";
@@ -807,12 +810,12 @@ async function parse2005Kouhaku(): Promise<FestivalResult> {
       ? `https://web.archive.org/web/${timestamp}/${resolvedOriginal}`
       : absoluteWaybackUrl(page.url, href);
     return {
-      id: buildWorkId(festivalId, noAndCategory[index].no),
+      id: buildWorkId(festivalId, noAndGroup[index].no),
       festivalId,
-      no: noAndCategory[index].no,
+      no: noAndGroup[index].no,
       title,
       author: "",
-      category: noAndCategory[index].category,
+      group: noAndGroup[index].group,
       download: downloadUrl
         ? {
             url: downloadUrl,

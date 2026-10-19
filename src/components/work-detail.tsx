@@ -129,6 +129,10 @@ export default function WorkDetail({
               <th>{dictionary.tableType}</th>
               <td>{work.category ?? "-"}</td>
             </tr>
+            {work.group && <tr>
+              <th>{dictionary.tableGroup}</th>
+              <td>{work.group}</td>
+            </tr>}
             {!work.materialInfo && <tr>
               <th>{dictionary.detailsStreaming}</th>
               <td>

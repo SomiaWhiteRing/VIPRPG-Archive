@@ -35,6 +35,7 @@ const columnClassMap: Record<FestivalColumnKey, string> = {
   icon: "col-icon",
   work: "col-work",
   type: "col-type",
+  group: "col-type",
   streaming: "col-streaming",
   download: "col-download",
   forum: "col-forum",
@@ -80,7 +81,7 @@ function highlight(text: string, term: string): ReactNode {
 
 function matchWork(work: WorkEntry, term: string) {
   if (!term) return true;
-  const haystack = [work.title, work.originalTitle, work.author, work.category, work.engine]
+  const haystack = [work.title, work.originalTitle, work.author, work.category, work.group, work.engine]
     .filter(Boolean)
     .map((value) => normalize(String(value)));
   return haystack.some((value) => value.includes(term));
@@ -517,6 +518,8 @@ function renderHeader(
       return { label: dictionary.tableWork, className };
     case "type":
       return { label: dictionary.tableType, className };
+    case "group":
+      return { label: dictionary.tableGroup, className };
     case "streaming":
       return { label: dictionary.tableStreaming, className };
     case "download":
@@ -594,6 +597,8 @@ function renderCell({
         ),
         className: `${baseClass} cell-type`,
       };
+    case "group":
+      return { node: <span>{work.group ? highlight(work.group, term) : "-"}</span>, className: baseClass };
     case "streaming":
       return {
         node: (
