@@ -1,0 +1,24 @@
+{
+  "sourceRoot": "http://vipkouhaku05.cs.land.to/",
+  "sourceStatus": 200,
+  "liveSiteTitle": "land.to サービス終了のお知らせ",
+  "liveZipLinks": 0,
+  "expectedArchivedZipLinks": 26,
+  "sampleResources": [
+    {
+      "url": "http://vipkouhaku05.cs.land.to/kouhaku_03.JPG",
+      "status": 200,
+      "contentType": "text/html",
+      "imageSignature": false,
+      "noticeHashMatchesRoot": true
+    },
+    {
+      "url": "http://vipkouhaku05.cs.land.to/viprpgkouhaku2009-top.png",
+      "status": 200,
+      "contentType": "text/html",
+      "imageSignature": false,
+      "noticeHashMatchesRoot": true
+    }
+  ],
+  "conclusion": "The current root and tested image routes return the same service-termination notice, not festival content. Use the verified archive captures; HTTP 200 alone does not establish source availability."
+}

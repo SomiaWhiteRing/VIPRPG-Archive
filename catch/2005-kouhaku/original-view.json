@@ -1,0 +1,71 @@
+{
+  "festivalId": "2005-kouhaku",
+  "sourceEncoding": "shift_jis",
+  "entry": "/original-pages/2005-kouhaku/index.html",
+  "sourceManifests": [
+    "source/archive/manifest.json"
+  ],
+  "sourcePages": {},
+  "files": [
+    "index.html",
+    "favicon.ico",
+    "kouhaku2007.png",
+    "kouhaku_01.JPG",
+    "kouhaku_02.JPG",
+    "kouhaku_03.JPG",
+    "kouhaku_05.JPG",
+    "kouhaku_06.JPG",
+    "kouhaku_07.JPG",
+    "kouhaku_08.JPG",
+    "kouhaku_09.JPG",
+    "kouhaku_10.JPG",
+    "kouhaku_11.JPG",
+    "kouhaku_12.JPG",
+    "kouhaku_13.JPG",
+    "kouhaku_15.JPG",
+    "kouhaku_16.JPG",
+    "kouhaku_18.JPG",
+    "kouhaku_19.JPG",
+    "kouhaku_20.JPG",
+    "kouhaku_21.JPG",
+    "kouhaku_22.JPG",
+    "kouhaku_23.JPG",
+    "kouhaku_25.JPG",
+    "kouhaku_26.JPG",
+    "kouhaku_27.JPG",
+    "kouhaku_28.JPG",
+    "kouhaku_29.JPG",
+    "kouhaku_30.JPG",
+    "vip2008.png",
+    "vipkohaku_second.png",
+    "viprpgkouhaku2009-bana.png",
+    "viprpgkouhaku2009-top.png",
+    "w1b.gif"
+  ],
+  "generatedPlaceholders": [],
+  "preloadResources": {
+    "unavailableUnused": 0,
+    "cachedUnused": 0,
+    "evidence": "catch/2005-kouhaku/recovery.json"
+  },
+  "missingResources": [],
+  "omittedCssResources": [],
+  "omittedBackgrounds": [],
+  "omittedHovers": [],
+  "compatibilityFixes": [
+    {
+      "page": "index.html",
+      "change": "Remove 6 script or active-control elements and 2 uncaptured external auto-load resources from the static replay."
+    }
+  ],
+  "changes": [
+    "Original HTML and CSS normalized from shift_jis to UTF-8.",
+    "Same-site links, CSS resources and absolute script/hover URLs use local paths.",
+    "External hosting trackers removed; unavailable unused preloads replaced with an empty image.",
+    "Original pages are displayed inside a sandboxed frame."
+  ],
+  "desktopReview": "passed",
+  "desktopEvidence": [
+    "catch/2005-kouhaku/desktop-review.json"
+  ]
+}

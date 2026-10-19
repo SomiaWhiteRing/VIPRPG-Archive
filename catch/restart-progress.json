@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2005-kouhaku",
+  "activeFestival": "2025-gw",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -1231,6 +1231,36 @@
         "catch/2006-summer/desktop-review.json"
       ],
       "notes": "确认GeoCities原站并恢复103份页面／图片，覆盖No.01–33；整理版33条编号记录含32条具名资料及No.20短说明待查项，35张展示图、30条作者资料、16个历史讨论入口。纠正旧No.03／04名称对调，恢复No.30完整题名；原貌菜单56px段落遮挡No.17／18，调整至原20px行距后22个菜单链接实际点击全部通过。640×120顶部图作横幅，中部插图保留原貌。No.20题名及No.04、13、20作者未确认；No.06补丁附页所查存档404，保留说明骨架。双视图桌面验收通过，ZIP仅保留入口／索引未验包。"
+    },
+    {
+      "festivalId": "2005-kouhaku",
+      "reviewedAt": "2026-10-20",
+      "dataSha256": "c27d39be63572004597cf0f6d7d45b021c724c71524de31b3c26c56385bc4333",
+      "works": 26,
+      "screenshotFiles": 26,
+      "screenshotReferences": 26,
+      "status": "reviewed",
+      "originalCatalogueCompleteness": "verified-for-captured-single-page-catalogue",
+      "sourceLayout": "single-page catalogue; no distinct introduction links",
+      "outstandingSourceDetails": 0,
+      "outstandingImageSourceUrls": 0,
+      "outstandingScreenshotRows": 0,
+      "outstandingOtherResources": 0,
+      "outstandingAuxiliaryPages": 0,
+      "packageArchiveIndexReferences": 26,
+      "packageBytesValidated": false,
+      "sourceEvidence": [
+        "catch/2005-kouhaku/recovery.json",
+        "catch/2005-kouhaku/source-comparison.json",
+        "catch/2005-kouhaku/investigation/source-state-review.json",
+        "catch/2005-kouhaku/investigation/scoped-cdx.json",
+        "catch/2005-kouhaku/investigation/source-row-structure.json",
+        "catch/2005-kouhaku/investigation/header-provenance.json"
+      ],
+      "desktopEvidence": [
+        "catch/2005-kouhaku/desktop-review.json"
+      ],
+      "notes": "原站已改为land.to退服公告，图片地址亦返回同一公告；从存档恢复单页目录26条、26张内嵌截图和实际页头。原页并无独立介绍链接，整理版以原始行资料生成26个详情，保留红组14／白组12及原编号。34份页面／图片均通过CDX摘要核对，原貌34文件无资源缺口；全部26个整理详情和双视图桌面导航通过。作者等未在现存目录独立提供的字段保留未确认，不补写介绍；26个ZIP仅保留入口／索引，未验包。"
     }
   ],
   "originalViewsReviewed": [
@@ -1516,6 +1546,13 @@
       "evidence": [
         "catch/2006-summer/original-view.json",
         "catch/2006-summer/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2005-kouhaku",
+      "evidence": [
+        "catch/2005-kouhaku/original-view.json",
+        "catch/2005-kouhaku/desktop-review.json"
       ]
     }
   ],

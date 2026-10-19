@@ -7,6 +7,13 @@ import type { WorkEntry } from "../src/lib/types";
 import { rewriteSummer2012Source } from "./source-2012-summer-view";
 
 const configurations: Record<string, { base: string; entry?: string; manifests: string[]; seeds: Record<string, string>; seedUrls?: Record<string, string>; cgiProfile?: boolean; encoding?: string; encodingOverrides?: Record<string, string>; liveSource?: boolean; disabledLocalLinks?: string[]; externalResources?: Record<string, string>; preserveExternalExtensions?: string[]; frames?: { menuPage: string; menuName: string; mainName: string } }> = {
+  "2005-kouhaku": {
+    base: "http://vipkouhaku05.cs.land.to/",
+    manifests: ["source/archive/manifest.json"],
+    seeds: {},
+    encoding: "shift_jis",
+    preserveExternalExtensions: [".zip"],
+  },
   "2006-summer": {
     base: "http://www.geocities.jp/gavumu/",
     entry: "top.htm",
@@ -668,7 +675,7 @@ async function main() {
         }
         $('img[src*="media.fc2.com/counter_img.php"]').remove();
         $('img[src*="netriver.jp/countriver/"]').remove();
-        if (id === "2008-gw" || id === "2008-chuuni-festival" || id === "2009-summer" || id === "2008-kouhaku" || id === "2008-seiyoku-festival" || id === "2008-summer" || id === "2007-default-battle-festival" || id === "2007-gw" || id === "2007-summer" || id === "2006-gw" || id === "2006-kouhaku" || id === "2006-summer") {
+        if (id === "2008-gw" || id === "2008-chuuni-festival" || id === "2009-summer" || id === "2008-kouhaku" || id === "2008-seiyoku-festival" || id === "2008-summer" || id === "2007-default-battle-festival" || id === "2007-gw" || id === "2007-summer" || id === "2006-gw" || id === "2006-kouhaku" || id === "2006-summer" || id === "2005-kouhaku") {
           const activeElements = $("script,noscript,form,object,embed").length;
           $("script,noscript,form,object,embed").remove();
           const unarchivedLoads = $("img[src],iframe[src],link[rel~='stylesheet'][href],video[src],audio[src],source[src]").toArray().filter((element) => {
@@ -940,7 +947,7 @@ async function main() {
         compatibilityFixes.push({ page: local, change: "Omit an unavailable stylesheet or favicon reference; the source inline styling remains in place and the missing resource stays documented." });
       }
     });
-    if (["2010-gw", "2012-kouhaku", "2011-gw", "2011-kouhaku", "2010-summer", "2009-kouhaku", "2009-ksgfestival", "2009-silver-week-miruge-festival", "2009-summer", "2008-gw", "2008-jisaku-battle-festival", "2008-chuuni-festival", "2009-gw", "2008-kouhaku", "2008-seiyoku-festival", "2008-summer", "2007-default-battle-festival", "2007-gw", "2007-summer", "2006-gw", "2006-kouhaku", "2006-summer"].includes(id) || [...omittedBackgrounds, ...omittedHovers].some((omission) => omission.page === local)) files.set(local, Buffer.from($.html()));
+    if (["2010-gw", "2012-kouhaku", "2011-gw", "2011-kouhaku", "2010-summer", "2009-kouhaku", "2009-ksgfestival", "2009-silver-week-miruge-festival", "2009-summer", "2008-gw", "2008-jisaku-battle-festival", "2008-chuuni-festival", "2009-gw", "2008-kouhaku", "2008-seiyoku-festival", "2008-summer", "2007-default-battle-festival", "2007-gw", "2007-summer", "2006-gw", "2006-kouhaku", "2006-summer", "2005-kouhaku"].includes(id) || [...omittedBackgrounds, ...omittedHovers].some((omission) => omission.page === local)) files.set(local, Buffer.from($.html()));
   }
   const generatedUnavailablePages: string[] = [];
   if (["2011-gw", "2010-gw", "2009-ksgfestival", "2008-chuuni-festival", "2008-jisaku-battle-festival", "2008-kouhaku", "2008-summer", "2007-default-battle-festival", "2007-gw", "2007-summer", "2006-kouhaku", "2006-summer"].includes(id)) for (const gap of recovery.sourceDetailGaps ?? []) {

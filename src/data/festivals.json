@@ -1469,15 +1469,14 @@
     "name": "05紅白VIPRPGまとめページ",
     "slug": "2005-kouhaku",
     "type": "kouhaku",
-    "banners": [],
+    "banners": [
+      "/banners/2005-kouhaku-source.png"
+    ],
     "columns": [
       "no",
-      "icon",
       "work",
       "group",
-      "streaming",
-      "download",
-      "forum"
+      "download"
     ],
     "worksFile": "works/2005-kouhaku.json"
   }
