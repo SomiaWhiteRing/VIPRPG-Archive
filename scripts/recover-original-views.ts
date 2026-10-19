@@ -9,6 +9,12 @@ import type { WorkEntry } from "../src/lib/types";
 import { rewriteSummer2012Source } from "./source-2012-summer-view";
 
 const configurations: Record<string, { base: string; entry?: string; manifests: string[]; seeds: Record<string, string>; seedUrls?: Record<string, string>; cgiProfile?: boolean; encoding?: string; liveSource?: boolean; disabledLocalLinks?: string[]; externalResources?: Record<string, string>; preserveExternalExtensions?: string[]; frames?: { menuPage: string; menuName: string; mainName: string } }> = {
+  "2008-kouhaku": {
+    base: "https://vipkohaku.x.fc2.com/2008/",
+    manifests: ["source/archive/manifest.json"],
+    seeds: { "index.html": "source/archive/index.html" },
+    encoding: "shift_jis",
+  },
   "2011-summer": {
     base: "http://www.geocities.jp/viprpg_summer11/",
     entry: "index.htm",
@@ -304,7 +310,7 @@ async function main() {
   function enqueue(url: string, owner: string) {
     const absolute = new URL(unarchive(url), owner).href, local = relative(absolute);
     if (local && blocked.has(local)) return blocked.get(local);
-    if (local && ((id === "2010-gw" && sourceDetailGapPaths.has(local)) || (id === "2008-jisaku-battle-festival" && (sourceDetailGapPaths.has(local) || unavailableSourcePagePaths.has(local))))) return local;
+    if (local && ((id === "2010-gw" && sourceDetailGapPaths.has(local)) || (["2008-jisaku-battle-festival", "2008-kouhaku"].includes(id) && (sourceDetailGapPaths.has(local) || unavailableSourcePagePaths.has(local))))) return local;
     if (local && /\.(?:html?|css|js|png|jpe?g|gif|bmp|webp|ico|svg|mp3|wav|ogg|mid|avi|ogv|txt|zip)$/i.test(local)) {
       queue.add(absolute);
       return local;
@@ -609,7 +615,7 @@ async function main() {
         }
         $('img[src*="media.fc2.com/counter_img.php"]').remove();
         $('img[src*="netriver.jp/countriver/"]').remove();
-        if (id === "2008-gw" || id === "2008-chuuni-festival" || id === "2009-summer") {
+        if (id === "2008-gw" || id === "2008-chuuni-festival" || id === "2009-summer" || id === "2008-kouhaku") {
           const activeElements = $("script,noscript,form,object,embed").length;
           $("script,noscript,form,object,embed").remove();
           const unarchivedLoads = $("img[src],iframe[src],link[rel~='stylesheet'][href],video[src],audio[src],source[src]").toArray().filter((element) => {
@@ -742,7 +748,7 @@ async function main() {
     } catch (error) { failures.push({ url: original, requestedUrl, error: String(error) }); }
   }
   const unavailable = new Set(failures.map((failure) => relative(failure.url)));
-  if (id === "2009-summer") for (const [local, bytes] of files) if (/\.css$/i.test(local)) {
+  if (id === "2009-summer" || id === "2008-kouhaku") for (const [local, bytes] of files) if (/\.css$/i.test(local)) {
     let omitted = 0;
     const css = bytes.toString("utf8").replace(/url\(\s*["']?([^"')]+)["']?\s*\)/g, (literal, value) => {
       const resource = relative(new URL(value, new URL(local, base)).href);
@@ -819,7 +825,7 @@ async function main() {
         compatibilityFixes.push({ page: local, change: `Replace the broken image ${resource} with a fixed missing-source notice, without invented artwork.` });
       }
     });
-    if (id === "2008-chuuni-festival" || id === "2009-summer") {
+    if (id === "2008-chuuni-festival" || id === "2009-summer" || id === "2008-kouhaku") {
       $("link[rel*=stylesheet][href]").each((_, element) => {
         const node = $(element), resource = relative(new URL(node.attr("href")!, new URL(local, base)).href);
         if (!resource || !unavailable.has(resource)) return;
@@ -875,10 +881,10 @@ async function main() {
         compatibilityFixes.push({ page: local, change: "Omit an unavailable stylesheet or favicon reference; the source inline styling remains in place and the missing resource stays documented." });
       }
     });
-    if (["2010-gw", "2012-kouhaku", "2011-gw", "2011-kouhaku", "2010-summer", "2009-kouhaku", "2009-ksgfestival", "2009-silver-week-miruge-festival", "2009-summer", "2008-gw", "2008-jisaku-battle-festival", "2008-chuuni-festival", "2009-gw"].includes(id) || [...omittedBackgrounds, ...omittedHovers].some((omission) => omission.page === local)) files.set(local, Buffer.from($.html()));
+    if (["2010-gw", "2012-kouhaku", "2011-gw", "2011-kouhaku", "2010-summer", "2009-kouhaku", "2009-ksgfestival", "2009-silver-week-miruge-festival", "2009-summer", "2008-gw", "2008-jisaku-battle-festival", "2008-chuuni-festival", "2009-gw", "2008-kouhaku"].includes(id) || [...omittedBackgrounds, ...omittedHovers].some((omission) => omission.page === local)) files.set(local, Buffer.from($.html()));
   }
   const generatedUnavailablePages: string[] = [];
-  if (["2011-gw", "2010-gw", "2009-ksgfestival", "2008-chuuni-festival", "2008-jisaku-battle-festival"].includes(id)) for (const gap of recovery.sourceDetailGaps ?? []) {
+  if (["2011-gw", "2010-gw", "2009-ksgfestival", "2008-chuuni-festival", "2008-jisaku-battle-festival", "2008-kouhaku"].includes(id)) for (const gap of recovery.sourceDetailGaps ?? []) {
     const work = catalogue.find((work) => work.no === gap.no);
     if (!work || files.has(gap.sourcePath)) continue;
     const escape = (value: string) => value.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
@@ -894,7 +900,7 @@ async function main() {
     generatedUnavailablePages.push(gap.sourcePath);
     compatibilityFixes.push({ page: gap.sourcePath, change: "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented." });
   }
-  if (id === "2008-chuuni-festival" || id === "2008-jisaku-battle-festival") for (const gap of recovery.unavailableSourcePages ?? []) {
+  if (id === "2008-chuuni-festival" || id === "2008-jisaku-battle-festival" || id === "2008-kouhaku") for (const gap of recovery.unavailableSourcePages ?? []) {
     if (files.has(gap.sourcePath)) continue;
     const sample = gap.no === "000";
     const heading = sample ? "No.000 — 原ページ未取得" : "原ページ未取得";
@@ -912,6 +918,21 @@ async function main() {
   if (["2009-kouhaku", "2009-ksgfestival", "2009-silver-week-miruge-festival"].includes(id) && config.preserveExternalExtensions?.includes(".zip")) {
     compatibilityFixes.push({ page: id === "2009-kouhaku" ? "sakuhin_list2.htm" : "index.html", change: "Keep source-listed game-package links at their direct external source URLs; do not copy the packages into the archive." });
   }
+  if (id === "2008-kouhaku") for (const [local, bytes] of files) if (/\.html?$/i.test(local)) {
+    const $ = cheerio.load(bytes.toString("utf8"));
+    $("head").append('<style data-archive-desktop-fit>img{max-width:100%;height:auto}</style>');
+    $('body[data-archive-source-unavailable] a[href="index.html"],body[data-archive-source-unavailable] a[href="../index.html"]').attr({ href: "sakuhin_frame.html", target: "frame2" });
+    $("head").append(`<script data-archive-local-navigation>
+      (function(){
+        function valid(data){if(!data||data.type!=='archive-frame-navigation'||!/^frame[1-4]$/.test(data.target))return false;try{var u=new URL(data.url);return u.origin===location.origin&&u.pathname.startsWith('/original-pages/2008-kouhaku/')}catch(e){return false}}
+        function route(data){var f=document.querySelector('frame[name="'+data.target+'"]');if(f)f.src=data.url;else if(parent!==window)parent.postMessage(data,'*')}
+        addEventListener('message',function(e){var child=false;for(var i=0;i<frames.length;i++)if(frames[i]===e.source)child=true;if(child&&valid(e.data))route(e.data)});
+        addEventListener('click',function(e){var a=e.target.closest('a[target]');if(!a)return;var d={type:'archive-frame-navigation',target:a.target,url:a.href};if(valid(d)){e.preventDefault();route(d)}});
+      })();
+    </script>`);
+    files.set(local, Buffer.from($.html()));
+  }
+  if (id === "2008-kouhaku") compatibilityFixes.push({ page: "*.html", change: "Forward local named-frame navigation through the sandbox's nested frames, and constrain images to their existing frame width while preserving aspect ratio and natural size on wider desktop panes." });
   for (const [local, bytes] of files) {
     const target = `${output}/${local}`;
     await fs.mkdir(path.dirname(target), { recursive: true });

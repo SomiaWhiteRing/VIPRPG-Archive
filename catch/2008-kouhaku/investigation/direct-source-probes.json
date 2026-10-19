@@ -1,0 +1,57 @@
+{
+  "sourceBase": "https://vipkohaku.x.fc2.com/2008/",
+  "proxyNode": "🇯🇵 日本S01 | IEPL",
+  "exitCountry": "JP",
+  "regionProbe": "ip-api.com",
+  "httpsAndHttpAttempts": [
+    {
+      "scheme": "https",
+      "file": "index.html",
+      "status": 0,
+      "saved": false,
+      "error": "ECONNRESET"
+    },
+    {
+      "scheme": "https",
+      "file": "sakuhin_aka.html",
+      "status": 0,
+      "saved": false,
+      "error": "ECONNRESET"
+    },
+    {
+      "scheme": "https",
+      "file": "haikei_top1.gif",
+      "status": 0,
+      "saved": false,
+      "error": "ECONNRESET"
+    },
+    {
+      "scheme": "http",
+      "file": "index.html",
+      "status": 0,
+      "saved": false,
+      "error": "UND_ERR_SOCKET"
+    },
+    {
+      "scheme": "http",
+      "file": "sakuhin_aka.html",
+      "status": 0,
+      "saved": false,
+      "error": "UND_ERR_SOCKET"
+    },
+    {
+      "scheme": "http",
+      "file": "haikei_top1.gif",
+      "status": 0,
+      "saved": false,
+      "error": "UND_ERR_SOCKET"
+    }
+  ],
+  "screenshotProbe": {
+    "path": "/2008/SS_106.png",
+    "proxyNode": "🇯🇵 日本S01 | IEPL",
+    "exitCountry": "JP",
+    "error": "ECONNRESET",
+    "saved": false
+  }
+}

@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2008-kouhaku",
+  "activeFestival": "2008-seiyoku-festival",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -959,6 +959,38 @@
         "catch/2008-jisaku-battle-festival/original-view.json"
       ],
       "notes": "香港 Wayback 根页快照列出 No.001–004；按编号补齐 2 条目录记录并保留原有 2 条。4 个作品详情页与 2 个辅助页无成功快照，已生成中性本地骨架；缺少的 5 项样式背景资源已从原貌页移除。日本源站根页返回 403；未审看作品文案或进行受限筛选。一次未显式绑定香港代理的失败探测已记录并修正后续队列。"
+    },
+    {
+      "festivalId": "2008-kouhaku",
+      "reviewedAt": "2026-10-19",
+      "dataSha256": "879bcf93b532cf1a7e10190a45b02765fb48ce2b46725411e89e791add3c3e80",
+      "works": 125,
+      "screenshotFiles": 6,
+      "screenshotReferences": 6,
+      "status": "reviewed-with-documented-source-gaps",
+      "outstandingSourceDetails": 118,
+      "outstandingImageSourceUrls": 2,
+      "outstandingScreenshotRows": 1,
+      "outstandingOtherResources": 0,
+      "outstandingAuxiliaryPages": 2,
+      "sourceEvidence": [
+        "catch/2008-kouhaku/recovery.json",
+        "catch/2008-kouhaku/source/archive/manifest.json",
+        "catch/2008-kouhaku/investigation/direct-source-probes.json",
+        "catch/2008-kouhaku/investigation/wayback-captures.json",
+        "catch/2008-kouhaku/investigation/archive-resource-fetch.json",
+        "catch/2008-kouhaku/investigation/encoding-check.json",
+        "catch/2008-kouhaku/investigation/catalogue-title-comparison.json",
+        "catch/2008-kouhaku/investigation/structural-check.json",
+        "catch/2008-kouhaku/investigation/asset-integrity-check.json",
+        "catch/2008-kouhaku/original-view.json",
+        "catch/2008-kouhaku/desktop-review.json"
+      ],
+      "desktopEvidence": [
+        "catch/2008-kouhaku/desktop-review.json",
+        "catch/2008-kouhaku/original-view.json"
+      ],
+      "notes": "125 个编号及题名机械对照一致；归档 7 个介绍正文、6 张截图。118 个详情和 2 个辅助页保留明确的缺页骨架，2 个未取得图像有缺图提示。分组独立于作品类型；原貌跨框架导航及整理版桌面显示验收通过。"
     }
   ],
   "originalViewsReviewed": [
@@ -1181,6 +1213,13 @@
       "evidence": [
         "catch/2008-jisaku-battle-festival/desktop-review.json",
         "catch/2008-jisaku-battle-festival/original-view.json"
+      ]
+    },
+    {
+      "festivalId": "2008-kouhaku",
+      "evidence": [
+        "catch/2008-kouhaku/original-view.json",
+        "catch/2008-kouhaku/desktop-review.json"
       ]
     }
   ],

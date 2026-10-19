@@ -1,0 +1,66 @@
+{
+  "festivalId": "2008-kouhaku",
+  "reviewedAt": "2026-10-19",
+  "scope": "desktop only",
+  "entryContentScreening": false,
+  "status": "passed",
+  "viewports": [
+    {
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "width": 1035,
+      "height": 884
+    }
+  ],
+  "checks": {
+    "originalRootNoHorizontalOverflow": true,
+    "redListLinks": 63,
+    "whiteListLinks": 62,
+    "menuToCatalogueClick": true,
+    "catalogueToCaptured003Click": true,
+    "catalogueToMissing001Click": true,
+    "missingPageReturnClick": true,
+    "captured024Screenshot": {
+      "complete": true,
+      "naturalWidth": 640,
+      "renderedWidth": 616,
+      "frameWidth": 638,
+      "scrollWidth": 638
+    },
+    "original073Skeleton": {
+      "fieldRows": 6,
+      "group": "紅組",
+      "screenshotComplete": true,
+      "naturalWidth": 640,
+      "noHorizontalOverflow": true
+    },
+    "formattedCatalogue": {
+      "workLinks": 125,
+      "groupColumn": true,
+      "noHorizontalOverflow": true
+    },
+    "formatted001Fields": {
+      "type": "-",
+      "group": "紅組",
+      "missingSourceNoteCount": 1,
+      "noHorizontalOverflow": true
+    },
+    "formatted024": {
+      "sourceSections": 1,
+      "screenshotComplete": true,
+      "noHorizontalOverflow": true,
+      "replacementCharacters": 0
+    },
+    "externalAutomaticLoads": 0,
+    "staticBrokenResourceReferences": 0
+  },
+  "navigationMethod": "Native pointer input directed to the attached sandbox iframe target after high-level locators could not address nested legacy frames; verified resulting frame source and rendered DOM. No website functions invoked.",
+  "validation": [
+    "npm run validate:data",
+    "npm run lint",
+    "npm run audit:data -- --write",
+    "npm run build"
+  ]
+}

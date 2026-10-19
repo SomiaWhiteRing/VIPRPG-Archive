@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-10-18T11:57:27.075Z",
+  "generatedAt": "2026-10-19T10:58:51.211Z",
   "scope": "Local inventory; field presence is not source verification or completeness.",
   "totals": {
     "festivals": 74,
     "festivalsWithBanners": 56,
     "works": 4145,
-    "detailPages": 3439,
-    "disabledDetails": 705,
+    "detailPages": 3564,
+    "disabledDetails": 580,
     "restrictedDetails": 7,
     "withComments": 3160,
-    "withScreenshots": 3103,
+    "withScreenshots": 3109,
     "withDownload": 1723,
-    "withSource": 2120,
-    "referencedAssets": 7381,
+    "withSource": 2245,
+    "referencedAssets": 7387,
     "assetIssues": 0
   },
   "festivals": [
@@ -1177,19 +1177,19 @@
     },
     {
       "id": "2008-kouhaku",
-      "dataSha256": "03c0c06452b3a5d733cd8bdfe796df675cc40db577367175f186e549fb19b646",
+      "dataSha256": "879bcf93b532cf1a7e10190a45b02765fb48ce2b46725411e89e791add3c3e80",
       "listedSourceUrl": "https://vipkohaku.x.fc2.com/2008/index.html",
       "works": 125,
       "banners": 0,
-      "detailPages": 0,
-      "disabledDetails": 125,
+      "detailPages": 125,
+      "disabledDetails": 0,
       "restrictedDetails": 0,
       "withAuthor": 0,
       "withComments": 0,
-      "withScreenshots": 0,
+      "withScreenshots": 6,
       "withDownload": 0,
-      "withSource": 0,
-      "cachedHtmlFiles": 3,
+      "withSource": 125,
+      "cachedHtmlFiles": 19,
       "summaries": [
         "catch/2008-kouhaku/2008-kouhaku-scrape-summary.json"
       ]
@@ -1348,7 +1348,7 @@
     },
     {
       "id": "2005-kouhaku",
-      "dataSha256": "6c6a6f94a7a5c18c8dd9f687bf0f64696d187186ab9830b710ffa767ccba906a",
+      "dataSha256": "236533abacf28650220bf16abeb85c97c1849d477d58f44f4ee680d694423002",
       "listedSourceUrl": "http://vipkouhaku05.cs.land.to/",
       "works": 26,
       "banners": 0,

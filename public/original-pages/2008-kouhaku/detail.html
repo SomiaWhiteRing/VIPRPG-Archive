@@ -1,0 +1,10 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="UTF-8"><title>原ページ未取得</title>
+      <style>body{max-width:800px;margin:2em auto;padding:0 1em;font-family:sans-serif;line-height:1.6}.note{padding:1em;border:1px solid #aab;background:#f0f3f7}</style>
+      <style data-archive-desktop-fit="">img{max-width:100%;height:auto}</style><script data-archive-local-navigation="">
+      (function(){
+        function valid(data){if(!data||data.type!=='archive-frame-navigation'||!/^frame[1-4]$/.test(data.target))return false;try{var u=new URL(data.url);return u.origin===location.origin&&u.pathname.startsWith('/original-pages/2008-kouhaku/')}catch(e){return false}}
+        function route(data){var f=document.querySelector('frame[name="'+data.target+'"]');if(f)f.src=data.url;else if(parent!==window)parent.postMessage(data,'*')}
+        addEventListener('message',function(e){var child=false;for(var i=0;i<frames.length;i++)if(frames[i]===e.source)child=true;if(child&&valid(e.data))route(e.data)});
+        addEventListener('click',function(e){var a=e.target.closest('a[target]');if(!a)return;var d={type:'archive-frame-navigation',target:a.target,url:a.href};if(valid(d)){e.preventDefault();route(d)}});
+      })();
+    </script></head><body data-archive-source-unavailable="page"><main><h1>原ページ未取得</h1><p class="note">このページの保存済み本文は見つかっていません。原資料の内容は補わず、一覧にあった番号とページ構造だけを残しています。</p><p><a href="sakuhin_frame.html" target="frame2">一覧へ戻る</a></p></main></body></html>

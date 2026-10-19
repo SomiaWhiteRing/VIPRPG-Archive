@@ -1,0 +1,12 @@
+
+body{background-image:url(haikei_top4.gif); font-size:12pt; text-align:center;}
+
+td{border:1pt black solid; text-align:center}
+td.number{background-image:url(haikei_top1.gif); font-size:16pt; color:white; text-align:left; font-weight:bold;}
+td.title{background-image:url(haikei_top3.gif); font-size:16pt; text-align:left; font-weight:bold;}
+td.red{background-image:url(haikei_top1.gif); color:white; text-align:left;}
+td.white{background-image:url(haikei_top3.gif); text-align:left;}
+
+table{background-color:white;border-collapse:0; border-spacing:0; border:1pt black solid;}
+
+span.xp{color:brue;}
