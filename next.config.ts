@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
   distDir: process.env.VIPRPG_DIST_DIR || ".next",
   async headers() {
     return [{
-      source: "/original-pages/:festival/fonts/:path*",
+      source: "/original-pages/:festival/:path*",
       headers: [{ key: "Access-Control-Allow-Origin", value: "*" }],
     }];
   },
