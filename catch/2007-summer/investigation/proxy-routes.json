@@ -1,0 +1,14 @@
+{
+  "routes": [
+    {
+      "role": "source",
+      "port": 37997,
+      "verifiedExit": "JP"
+    },
+    {
+      "role": "archive",
+      "port": 7897,
+      "verifiedExit": "HK"
+    }
+  ]
+}

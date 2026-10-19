@@ -1,0 +1,18 @@
+{
+  "declaredEncoding": "euc-jp",
+  "replacementCharacters": 0,
+  "originalBytes": 36229,
+  "encodedBytes": 36254,
+  "changedBytePositions": 33401,
+  "firstDifferenceOffset": 1465,
+  "rawHexAtDifference": "c0e2a1c1ecdebae1",
+  "encodedHexAtDifference": "c0e28fa2b7ecdeba",
+  "unicodeRoundtripStable": true,
+  "aliasCodePoints": [
+    "U+FF5E"
+  ],
+  "sourceAliasHex": "a1c1",
+  "canonicalEncodedAliasHex": "8fa2b7",
+  "sourceAliasOccurrences": 25,
+  "handling": "Retain original bytes unchanged. Unicode decoding is stable and has no replacement characters; nonidentical re-encoding comes from EUC-JP duplicate byte mappings."
+}

@@ -7,6 +7,14 @@ import type { WorkEntry } from "../src/lib/types";
 import { rewriteSummer2012Source } from "./source-2012-summer-view";
 
 const configurations: Record<string, { base: string; entry?: string; manifests: string[]; seeds: Record<string, string>; seedUrls?: Record<string, string>; cgiProfile?: boolean; encoding?: string; liveSource?: boolean; disabledLocalLinks?: string[]; externalResources?: Record<string, string>; preserveExternalExtensions?: string[]; frames?: { menuPage: string; menuName: string; mainName: string } }> = {
+  "2007-summer": {
+    base: "https://vipkohaku.x.fc2.com/2007s/",
+    manifests: ["source/archive/manifest.json"],
+    seeds: {},
+    encoding: "shift_jis",
+    frames: { menuPage: "menu.html", menuName: "", mainName: "sita" },
+    preserveExternalExtensions: [".zip"],
+  },
   "2007-gw": {
     base: "https://vipkohaku.x.fc2.com/2007GW/",
     manifests: ["source/archive/manifest.json"],
@@ -328,7 +336,7 @@ async function main() {
   function enqueue(url: string, owner: string) {
     const absolute = new URL(unarchive(url), owner).href, local = relative(absolute);
     if (local && blocked.has(local)) return blocked.get(local);
-    if (local && ((id === "2010-gw" && sourceDetailGapPaths.has(local)) || (["2008-jisaku-battle-festival", "2008-kouhaku", "2008-summer", "2007-default-battle-festival", "2007-gw"].includes(id) && (sourceDetailGapPaths.has(local) || unavailableSourcePagePaths.has(local))))) return local;
+    if (local && ((id === "2010-gw" && sourceDetailGapPaths.has(local)) || (["2008-jisaku-battle-festival", "2008-kouhaku", "2008-summer", "2007-default-battle-festival", "2007-gw", "2007-summer"].includes(id) && (sourceDetailGapPaths.has(local) || unavailableSourcePagePaths.has(local))))) return local;
     if (local && /\.(?:html?|css|js|png|jpe?g|gif|bmp|webp|ico|svg|mp3|wav|ogg|mid|avi|ogv|txt|zip)$/i.test(local)) {
       queue.add(absolute);
       return local;
@@ -633,7 +641,7 @@ async function main() {
         }
         $('img[src*="media.fc2.com/counter_img.php"]').remove();
         $('img[src*="netriver.jp/countriver/"]').remove();
-        if (id === "2008-gw" || id === "2008-chuuni-festival" || id === "2009-summer" || id === "2008-kouhaku" || id === "2008-seiyoku-festival" || id === "2008-summer" || id === "2007-default-battle-festival" || id === "2007-gw") {
+        if (id === "2008-gw" || id === "2008-chuuni-festival" || id === "2009-summer" || id === "2008-kouhaku" || id === "2008-seiyoku-festival" || id === "2008-summer" || id === "2007-default-battle-festival" || id === "2007-gw" || id === "2007-summer") {
           const activeElements = $("script,noscript,form,object,embed").length;
           $("script,noscript,form,object,embed").remove();
           const unarchivedLoads = $("img[src],iframe[src],link[rel~='stylesheet'][href],video[src],audio[src],source[src]").toArray().filter((element) => {
@@ -843,7 +851,7 @@ async function main() {
         compatibilityFixes.push({ page: local, change: `Replace the broken image ${resource} with a fixed missing-source notice, without invented artwork.` });
       }
     });
-    if (id === "2008-chuuni-festival" || id === "2009-summer" || id === "2008-kouhaku" || id === "2008-summer") {
+    if (id === "2008-chuuni-festival" || id === "2009-summer" || id === "2008-kouhaku" || id === "2008-summer" || id === "2007-summer") {
       $("link[rel*=stylesheet][href]").each((_, element) => {
         const node = $(element), resource = relative(new URL(node.attr("href")!, new URL(local, base)).href);
         if (!resource || !unavailable.has(resource)) return;
@@ -899,10 +907,10 @@ async function main() {
         compatibilityFixes.push({ page: local, change: "Omit an unavailable stylesheet or favicon reference; the source inline styling remains in place and the missing resource stays documented." });
       }
     });
-    if (["2010-gw", "2012-kouhaku", "2011-gw", "2011-kouhaku", "2010-summer", "2009-kouhaku", "2009-ksgfestival", "2009-silver-week-miruge-festival", "2009-summer", "2008-gw", "2008-jisaku-battle-festival", "2008-chuuni-festival", "2009-gw", "2008-kouhaku", "2008-seiyoku-festival", "2008-summer", "2007-default-battle-festival", "2007-gw"].includes(id) || [...omittedBackgrounds, ...omittedHovers].some((omission) => omission.page === local)) files.set(local, Buffer.from($.html()));
+    if (["2010-gw", "2012-kouhaku", "2011-gw", "2011-kouhaku", "2010-summer", "2009-kouhaku", "2009-ksgfestival", "2009-silver-week-miruge-festival", "2009-summer", "2008-gw", "2008-jisaku-battle-festival", "2008-chuuni-festival", "2009-gw", "2008-kouhaku", "2008-seiyoku-festival", "2008-summer", "2007-default-battle-festival", "2007-gw", "2007-summer"].includes(id) || [...omittedBackgrounds, ...omittedHovers].some((omission) => omission.page === local)) files.set(local, Buffer.from($.html()));
   }
   const generatedUnavailablePages: string[] = [];
-  if (["2011-gw", "2010-gw", "2009-ksgfestival", "2008-chuuni-festival", "2008-jisaku-battle-festival", "2008-kouhaku", "2008-summer", "2007-default-battle-festival", "2007-gw"].includes(id)) for (const gap of recovery.sourceDetailGaps ?? []) {
+  if (["2011-gw", "2010-gw", "2009-ksgfestival", "2008-chuuni-festival", "2008-jisaku-battle-festival", "2008-kouhaku", "2008-summer", "2007-default-battle-festival", "2007-gw", "2007-summer"].includes(id)) for (const gap of recovery.sourceDetailGaps ?? []) {
     const work = catalogue.find((work) => work.no === gap.no);
     if (!work || files.has(gap.sourcePath)) continue;
     const escape = (value: string) => value.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
@@ -920,7 +928,7 @@ async function main() {
     generatedUnavailablePages.push(gap.sourcePath);
     compatibilityFixes.push({ page: gap.sourcePath, change: "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented." });
   }
-  if (id === "2008-chuuni-festival" || id === "2008-jisaku-battle-festival" || id === "2008-kouhaku" || id === "2008-summer") for (const gap of recovery.unavailableSourcePages ?? []) {
+  if (id === "2008-chuuni-festival" || id === "2008-jisaku-battle-festival" || id === "2008-kouhaku" || id === "2008-summer" || id === "2007-summer") for (const gap of recovery.unavailableSourcePages ?? []) {
     if (files.has(gap.sourcePath)) continue;
     const sample = gap.no === "000";
     const heading = sample ? "No.000 — 原ページ未取得" : "原ページ未取得";

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "ss",
+    "expectedEncoding": "euc-jp",
+    "matchesExplicitDecoder": true,
+    "replacementCharacters": 0
+  },
+  {
+    "name": "top",
+    "expectedEncoding": "shift_jis",
+    "matchesExplicitDecoder": true,
+    "replacementCharacters": 0
+  },
+  {
+    "name": "2007p-index",
+    "expectedEncoding": "shift_jis",
+    "matchesExplicitDecoder": true,
+    "replacementCharacters": 0
+  }
+]

@@ -1,0 +1,35 @@
+body 
+{margin:20px; padding:0px; background:#ffffff;
+ font-family:Verdana,Chicago,Arial,Osaka,sans-serif;
+ font-size:80%; color:#000000; line-height:150%;
+ scrollbar-face-color:#000000;
+ scrollbar-highlight-color:#ffffff;
+ scrollbar-shadow-color:#000000;
+ scrollbar-3dlight-color:#000000;
+ scrollbar-darkshadow-color:#000000;
+ scrollbar-arrow-color:#ffffff;
+ scrollbar-track-color:#ffffff;}
+
+td{font-size:80%; line-height:180%; margin: 0px; padding:0px;}
+
+a{color:#000000; font-weight:bold; text-decoration:none;}
+
+a:hover{color:#009999; font-weight:bold; text-decoration:none; position:relative; top:2px; left:2px;}
+
+input,select,textarea{border-style:solid; border-width:1px; border-color:#000000; background:#ffffff;}
+
+.list{list-style:square; margin-left:20px;}
+
+.text
+{width:480px; margin:0px; padding:10px 0px 10px 10px;
+ border-style:solid; border-color:#000000; border-width:1px 0px 0px 0px;}
+
+.box
+{width:100px; margin:0px; padding:75px 6px 1px 1px; background:#000000;
+ border-style:solid; border-color:#000000; border-width:1px;
+ color:#ffffff; text-align:right; font-weight:bold;}
+
+.midasi
+{width:470px; margin:8px 0px 4px 0px; padding:0px; background:#ffffff;
+ color:#009999; text-align:left;
+ border-style:solid; border-color:#000000; border-width:1px;}

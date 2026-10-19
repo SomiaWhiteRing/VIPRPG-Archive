@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-10-19T14:19:04.792Z",
+  "generatedAt": "2026-10-19T15:30:59.997Z",
   "scope": "Local inventory; field presence is not source verification or completeness.",
   "totals": {
     "festivals": 74,
-    "festivalsWithBanners": 59,
+    "festivalsWithBanners": 60,
     "works": 4145,
-    "detailPages": 3746,
-    "disabledDetails": 398,
+    "detailPages": 3843,
+    "disabledDetails": 301,
     "restrictedDetails": 7,
     "withComments": 3160,
-    "withScreenshots": 3126,
+    "withScreenshots": 3129,
     "withDownload": 1784,
-    "withSource": 2427,
-    "referencedAssets": 7498,
+    "withSource": 2524,
+    "referencedAssets": 7502,
     "assetIssues": 0
   },
   "festivals": [
@@ -1272,19 +1272,19 @@
     },
     {
       "id": "2007-summer",
-      "dataSha256": "97ceef74970268025f8071a2f3e11571d761584f83f4294f2499fa3a54e33c9c",
+      "dataSha256": "03bace41385f9ca8ada09d7e71f0b0ee8fd8bee29e0052fdf12e413f317d61ff",
       "listedSourceUrl": "https://vipkohaku.x.fc2.com/2007s/index.html",
       "works": 97,
-      "banners": 0,
-      "detailPages": 0,
-      "disabledDetails": 97,
+      "banners": 1,
+      "detailPages": 97,
+      "disabledDetails": 0,
       "restrictedDetails": 0,
       "withAuthor": 0,
       "withComments": 0,
-      "withScreenshots": 0,
+      "withScreenshots": 3,
       "withDownload": 75,
-      "withSource": 0,
-      "cachedHtmlFiles": 3,
+      "withSource": 97,
+      "cachedHtmlFiles": 26,
       "summaries": [
         "catch/2007-summer/2007-summer-scrape-summary.json"
       ]

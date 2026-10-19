@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@FC2_web">
+<meta property="og:title" content="FC2ホームページアダルト - 無料ホームページスペース" >
+<meta property="og:type" content="article" >
+<meta property="og:url" content="https://x.fc2.com/c/DirectLinkProxy" >
+<meta property="og:image" content="https://x.fc2.com/fc2img/twcard_web-SC.png" >
+<meta property="og:description" content="FC2ホームページでは、ホームページに掲載されている画像へ直接リンクする行為を禁止しています。" >
+<title>FC2ホームページアダルト - 無料ホームページスペース</title>
+<link rel="shortcut icon" type="image/ico" href="https://static.fc2.com/share/image/favicon.ico" >
+<link rel="stylesheet" href="https://static.fc2.com/share/fc2parts/css/share.css?202308161210">
+<script src="//static.fc2.com/fc2web/js/jquery-3.7.0.min.js?202308161210"></script>
+
+<script>
+
+/**
+ * クエリパラメタの取得
+ * @returns {Array}
+ */
+function getUrlVars() {
+    var vars = [], hash;
+    var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+    for(var i = 0; i < hashes.length; i++) {
+        hash = hashes[i].split('=');
+        vars.push(hash[0]);
+        vars[hash[0]] = hash[1];
+    }
+    return vars;
+}
+
+/**
+ * トップページURLを取得する
+ * @param url
+ * @returns
+ */
+function getTopUrl(url) {
+	var elm = $('<a>', { href:url } )[0];
+	if (elm.hostname) {
+		return 'https://' + elm.hostname + '/';
+	}
+	return null;
+}
+
+$(function(){
+	var params = getUrlVars();
+	var url = params['url'];
+	// キャッシュ回避
+    url += "?" + Math.floor(Math.random() * 100000000);
+	var topPage = getTopUrl(url);
+
+	// http:// またはスキーム省略 // 形式を受け入れ
+	if (url && url.match(/^http:\/\/|^\/\//i) && topPage) {
+		$('#img').attr("src", url);
+		$('#top_page_link,#top_page_link2').attr('href', topPage);
+
+		// 画像の存在チェック
+		var imgObj = $('<img>');
+		imgObj.attr('src', url);
+
+		imgObj.on('error', function() {
+			// NOT FOUND
+			$('#img').hide();
+			$('#top_page_link').hide();
+			$('#alt_text').show();
+			$('#portal_top_link').show();
+		});
+
+	} else {
+		// 未指定
+		window.location.href = 'https://error.fc2.com/web/404.html';
+	}
+
+
+});
+
+</script>
+<style>
+
+body{
+	margin: 0;
+	text-align:center;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+li{
+	list-style: none;
+}
+
+div.header {
+	width: 900px;
+	margin: 0 auto;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+p{
+	margin: 40px 0;
+}
+
+.header h1 { margin:0; padding:20px 0 0; }
+.header h1 a { color: #000; font-size: 27px; font-weight: bold; text-decoration: none; }
+.header h1 span.site-name { background:url("/fc2img/web-title-rogo.png") no-repeat right bottom; padding: 3px 50px 0 6px; }
+
+.alert{
+	color: #4f4f4f;
+	font-size: 116%;
+	font-weight: bold;
+}
+
+img#img{
+	max-width: 100%;
+}
+
+#alt_text{
+	background-color: #aab2bd;
+	color: #fff;
+	height: 180px;
+	margin: 0 auto;
+	padding-top: 110px;
+	width: 300px;
+}
+
+p span{
+	font-size: 36px;
+}
+
+.btn-link{
+	box-shadow: 0 5px 0 #c33f80;
+	background-color: #ec87c0;
+	display: inline-block;
+	height: 50px;
+	width: 480px;
+	margin: 0 12px 12px 12px;
+	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	line-height: 50px;
+	border: 1px solid transparent;
+	font-size: 21px;
+	border-radius: 8px;
+}
+
+.btn-link:hover {
+	background-color: #e64997;
+	-webkit-box-shadow: 0 5px 0 #c33f80;
+	box-shadow: 0 5px 0 #c33f80;
+}
+
+</style>
+</head>
+<body>
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-W3N4HH" 
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W3N4HH');</script>
+<!-- End Google Tag Manager -->
+	<div class="header">
+		<h1>
+			<a href="/" title="FC2ホームページアダルト">
+				<img width="90" height="30" src="https://static.fc2.com/share/fc2parts/image/fc2logo.png" alt="FC2" ><span class="site-name">ホームページアダルト</span>
+			</a>
+		</h1>
+	</div>
+	<p class="alert">FC2ホームページでは、ホームページに掲載されている画像へ直接リンクする行為を禁止しています。</p>
+	<a href="" id="top_page_link2"><img id="img"></img></a>
+	<p id="alt_text" style="display: none;"><span>No image</span><br>お探しの画像が存在しません。</p>
+	<p><a href="" class="btn-link" id="top_page_link">画像が掲載されているホームページを見る</a></p>
+	<p><a href="/" class="btn-link" style="display: none;">FC2ホームページアダルトへ</a></p>
+	<p><a href="/" id="portal_top_link" class="btn-link" style="display: none;">FC2ホームページアダルトへ</a></p>
+	<!-- ja版共通フッタここから -->
+<div id="sh_fc2footer_fix">
+	<div id="sh_fc2footer_menu">
+		<div id="sh_fc2tooter_tab">
+			<div><span class="sh_footer_rnd5"></span><span class="sh_footer_rnd4"></span><span class="sh_footer_rnd3"></span><span class="sh_footer_rnd2"></span><span class="sh_footer_rnd1"></span></div>
+			<ul>
+				<li class="sh_request"><a href="https://request.fc2.com/search_wish.php?ct1=7" title="FC2リクエストへ">リクエスト</a></li>
+				<li class="sh_kiyaku"><a href="https://help.fc2.com/web/tos/ja#service_web" title="サービス利用規約へ">利用規約</a></li>
+				<li class="sh_shogai"><a href="https://fc2support.blog.fc2.com/">障害情報</a></li>
+				<li class="sh_pagetop"><a href="javascript:scroller(0);" title="このページの先頭へ">ページトップへ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="sh_fc2footer">
+		<div id="sh_fc2footermenu">
+			<ul>
+				<li><a href="https://fc2.com/" title="FC2ホームへ"><img src="https://static.fc2.com/share/fc2parts/image/fc2logo.png" alt="FC2ホームへ" class="fc2top" ></a></li>
+				<li>
+					<form action="https://help.fc2.com/search/qa" method="get" target="_blank">
+						<img src="https://static.fc2.com/share/fc2parts/image/sh_help_icon.gif" width="20" height="20" alt="" ><a href="https://help.fc2.com/web/" target="_blank">FC2ヘルプ</a>
+						<input type="text" name="q" class="help_form_tetarea" ><input type="hidden" name="service_id" value="4" ><button type="submit">ヘルプ検索</button>
+					</form>
+				</li>
+				<li><a href="https://help.fc2.com/inquiry">お問い合わせ</a></li>
+				<li class="information"><a href="https://fc2.com/company.html" rel="nofollow">会社概要</a></li>
+				<li><a href="https://fc2.com/privacy.html" rel="nofollow">プライバシーポリシー</a></li>
+				<li><a href="https://help.fc2.com/copyrights/tos/ja" rel="nofollow">著作権ガイドライン</a></li>
+				<li><a href="https://fc2.com/ja/sales.html" rel="nofollow">広告掲載</a></li>
+			</ul>
+			<p class="copyright">Copyright(c)1999 FC2, Inc. All Rights Reserved.</p>
+		</div><!-- /sh_fc2footermenu -->
+	</div><!-- /sh_fc2footer -->
+</div><!-- /sh_fc2footer_fix -->
+<!-- /ja版共通フッタ -->
+<script src="https://static.fc2.com/share/js/gdpr/pp_agreement.pc.ja.20180518.js"></script><script src="//static.fc2.com/share/fc2parts/js/common_design.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+{
+  "queryUrl": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fvipkohaku.x.fc2.com%2F2007s%2Ftop.html&output=json&fl=original,timestamp,statuscode,mimetype,digest",
+  "status": 200,
+  "retryAfter": null,
+  "rows": [
+    [
+      "original",
+      "timestamp",
+      "statuscode",
+      "mimetype",
+      "digest"
+    ],
+    [
+      "https://vipkohaku.x.fc2.com/2007s/top.html",
+      "20200406142401",
+      "200",
+      "text/html",
+      "PBWCFWLUTIYDGPUJHGW7M3EJZI5265IT"
+    ],
+    [
+      "https://vipkohaku.x.fc2.com/2007s/top.html",
+      "20200701132219",
+      "-",
+      "warc/revisit",
+      "PBWCFWLUTIYDGPUJHGW7M3EJZI5265IT"
+    ],
+    [
+      "https://vipkohaku.x.fc2.com/2007s/top.html",
+      "20211007135827",
+      "200",
+      "text/html",
+      "BG6B256UAG7PIZIJHL3JPFG4EDXGDXET"
+    ],
+    [
+      "https://vipkohaku.x.fc2.com/2007s/top.html",
+      "20221115151950",
+      "200",
+      "text/html",
+      "BG6B256UAG7PIZIJHL3JPFG4EDXGDXET"
+    ],
+    [
+      "https://vipkohaku.x.fc2.com/2007s/top.html",
+      "20221115151959",
+      "200",
+      "text/html",
+      "BG6B256UAG7PIZIJHL3JPFG4EDXGDXET"
+    ],
+    [
+      "https://vipkohaku.x.fc2.com/2007s/top.html",
+      "20230528073016",
+      "200",
+      "text/html",
+      "BG6B256UAG7PIZIJHL3JPFG4EDXGDXET"
+    ]
+  ]
+}

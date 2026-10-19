@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2007-summer",
+  "activeFestival": "2006-gw",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -1109,6 +1109,35 @@
         "catch/2007-gw/desktop-review.json"
       ],
       "notes": "核对作品介绍区两张表共62项，包含000，按来源全部保留。恢复No.018正文、截图、样式背景及两张原始横幅；61项详情保留骨架。31个限流查询已降频补查完成，8份展示来源均匹配CDX摘要，双视图桌面验收通过。"
+    },
+    {
+      "festivalId": "2007-summer",
+      "reviewedAt": "2026-10-19",
+      "dataSha256": "03bace41385f9ca8ada09d7e71f0b0ee8fd8bee29e0052fdf12e413f317d61ff",
+      "works": 97,
+      "screenshotFiles": 3,
+      "screenshotReferences": 3,
+      "status": "reviewed-with-documented-source-gaps",
+      "originalCatalogueCompleteness": "unverified",
+      "outstandingSourceDetails": 94,
+      "outstandingImageSourceUrls": 7,
+      "outstandingScreenshotRows": 0,
+      "outstandingOtherResources": 7,
+      "outstandingAuxiliaryPages": 3,
+      "patchEntriesRecovered": 34,
+      "sourceEvidence": [
+        "catch/2007-summer/recovery.json",
+        "catch/2007-summer/investigation/catalogue-encoding-review.json",
+        "catch/2007-summer/investigation/detail-capture-index.json",
+        "catch/2007-summer/investigation/patch-row-map.json",
+        "catch/2007-summer/investigation/additional-image-captures.json",
+        "catch/2007-summer/investigation/linked-image-replays.json",
+        "catch/2007-summer/investigation/local-structure-review.json"
+      ],
+      "desktopEvidence": [
+        "catch/2007-summer/desktop-review.json"
+      ],
+      "notes": "核对现存目录97项，按实际字节及声明处理EUC-JP与Shift_JIS混合编码。恢复3页详情与截图、34条单独标记的补丁入口，保留原目录题名。94项详情、3页辅助内容及7张辅助图仍有明确缺口；21份来源均匹配CDX摘要，框架菜单与双视图桌面验收通过。"
     }
   ],
   "originalViewsReviewed": [
@@ -1366,6 +1395,13 @@
       "evidence": [
         "catch/2007-gw/original-view.json",
         "catch/2007-gw/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2007-summer",
+      "evidence": [
+        "catch/2007-summer/original-view.json",
+        "catch/2007-summer/desktop-review.json"
       ]
     }
   ],
