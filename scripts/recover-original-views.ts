@@ -375,9 +375,9 @@ async function main() {
       else {
         if (!process.argv.includes("--fetch")) {
           const known = previousMissing.find((failure) => failure.url === original);
-          requestedUrl = known?.requestedUrl;
           const sourceFailure = (recovery.failures ?? []).find((failure: { sourceUrl?: string }) => failure.sourceUrl === original);
-          const error = known?.error.includes("Missing cached resource") ? sourceFailure?.error : known?.error;
+          requestedUrl = known?.requestedUrl ?? sourceFailure?.requestedUrl;
+          const error = !known || known.error.includes("Missing cached resource") ? sourceFailure?.error : known.error;
           throw new Error(error?.replace(/^Error:\s*/, "") ?? "Missing cached resource; use --fetch");
         }
         const row = inventory.slice(1).find((row) => relative(row[0]) === local);
