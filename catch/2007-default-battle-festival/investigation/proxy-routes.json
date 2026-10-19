@@ -1,0 +1,19 @@
+{
+  "routes": [
+    {
+      "role": "source",
+      "port": 37997,
+      "expected": "JP",
+      "verifiedExit": "JP"
+    },
+    {
+      "role": "archive",
+      "port": 7897,
+      "expected": "HK",
+      "verifiedExit": "HK"
+    }
+  ],
+  "sourceNode": "日本S01 | IEPL",
+  "independentLocalHelper": true,
+  "existingClientSettingsChanged": false
+}

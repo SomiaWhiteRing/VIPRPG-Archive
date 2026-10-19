@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2007-default-battle-festival",
+  "activeFestival": "2007-gw",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -1055,6 +1055,33 @@
         "catch/2008-summer/desktop-review.json"
       ],
       "notes": "按官方存档目录核对92项，恢复75页详情、90条作品横幅和15张截图；17项详情保留本地骨架。191份来源缓存中188份匹配CDX摘要，3份回放差异保留限定说明。另59处截图引用、1处横幅背景及1页辅助说明待查；补查79个链接未取得可用新资源，其中网络失败不视作无存档证明。双视图桌面结构和导航验收通过。"
+    },
+    {
+      "festivalId": "2007-default-battle-festival",
+      "reviewedAt": "2026-10-19",
+      "dataSha256": "bc1bd0a7ddf01869d9f4e3d8fb659c70d893afc3e8f8b489572a15cba14862b6",
+      "works": 26,
+      "screenshotFiles": 1,
+      "screenshotReferences": 1,
+      "status": "reviewed-with-documented-source-gaps",
+      "originalCatalogueCompleteness": "unverified",
+      "outstandingSourceDetails": 25,
+      "outstandingImageSourceUrls": 0,
+      "outstandingScreenshotRows": 0,
+      "outstandingOtherResources": 0,
+      "outstandingAuxiliaryPages": 0,
+      "sourceEvidence": [
+        "catch/2007-default-battle-festival/recovery.json",
+        "catch/2007-default-battle-festival/investigation/detail-capture-index.json",
+        "catch/2007-default-battle-festival/investigation/capture-digest-checks.json",
+        "catch/2007-default-battle-festival/investigation/source-probes.json",
+        "catch/2007-default-battle-festival/investigation/migration-http-source-probe.json",
+        "catch/2007-default-battle-festival/investigation/local-structure-review.json"
+      ],
+      "desktopEvidence": [
+        "catch/2007-default-battle-festival/desktop-review.json"
+      ],
+      "notes": "核对现存镜像26项，恢复No.14详情、作者、截图与历史下载入口，替换并登记真实祭典横幅。25项详情保留骨架，逐地址CDX查询未见成功快照；日本源站及迁移站连接检查未取回正文。5份展示来源均匹配CDX摘要，双视图桌面验收通过。"
     }
   ],
   "originalViewsReviewed": [
@@ -1298,6 +1325,13 @@
       "evidence": [
         "catch/2008-summer/original-view.json",
         "catch/2008-summer/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2007-default-battle-festival",
+      "evidence": [
+        "catch/2007-default-battle-festival/original-view.json",
+        "catch/2007-default-battle-festival/desktop-review.json"
       ]
     }
   ],

@@ -1,0 +1,12 @@
+{
+  "proxyPort": 37997,
+  "verifiedExit": "JP",
+  "client": "Windows curl.exe",
+  "url": "https://vipkohaku.x.fc2.com/2007def/index.html",
+  "proxyConnectStatus": 200,
+  "originHttpStatus": null,
+  "curlExitCode": 35,
+  "error": "schannel: failed to receive handshake, SSL/TLS connection failed",
+  "comparison": "Undici HTTP and HTTPS source probes also failed; no origin body received.",
+  "conclusion": "Source connection failed through the verified Japan exit; not a permanent source-absence conclusion."
+}

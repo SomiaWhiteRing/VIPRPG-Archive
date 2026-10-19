@@ -1,0 +1,81 @@
+{
+  "festivalId": "2007-default-battle-festival",
+  "reviewedAt": "2026-10-19",
+  "scope": "desktop only; structural rendering and actual navigation; no entry-content screening",
+  "status": "passed",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "original": {
+    "wrapperWidth": 1185,
+    "rootDocumentWidth": 1168,
+    "rootScrollWidth": 1168,
+    "catalogueLinks": 26,
+    "imagesLoaded": 2,
+    "headerNatural": [
+      900,
+      100
+    ],
+    "sourceDeclaredHeaderBox": [
+      840,
+      100
+    ],
+    "bannerNatural": [
+      200,
+      40
+    ],
+    "bannerRendered": [
+      200,
+      40
+    ],
+    "detail14OpenedByClick": true,
+    "screenshotNatural": [
+      640,
+      480
+    ],
+    "screenshotRendered": [
+      640,
+      480
+    ],
+    "sourceDownloadAnchors": 1,
+    "detail01SkeletonOpenedByClick": true,
+    "gapHeadings": 1,
+    "gapParagraphs": 3,
+    "gapHomeLinkPresent": true,
+    "scripts": 0,
+    "noHorizontalOverflow": true
+  },
+  "formatted": {
+    "originalToFormattedNavigationClicked": true,
+    "catalogueLinks": 26,
+    "work14OpenedByClick": true,
+    "work01RouteChecked": true,
+    "sourceSections": 1,
+    "sourceBodyWidth": 839,
+    "sourceBodyScrollWidth": 839,
+    "sourceTextColor": "rgb(31, 41, 55)",
+    "sourceDownloadAnchors": 2,
+    "screenshotObjectFit": "contain",
+    "bannerRegistered": true,
+    "bannerLoaded": true,
+    "bannerNatural": [
+      200,
+      40
+    ],
+    "bannerRenderedBox": [
+      192,
+      40
+    ],
+    "bannerObjectFit": "contain",
+    "bannerCheckedAfterFinalRebuild": true,
+    "noHorizontalOverflow": true
+  },
+  "validation": [
+    "npm run validate:data",
+    "npm run lint",
+    "npm run build",
+    "catch/2007-default-battle-festival/investigation/local-structure-review.json"
+  ],
+  "contentBasedScreening": false
+}

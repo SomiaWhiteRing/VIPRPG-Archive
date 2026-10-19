@@ -1,0 +1,266 @@
+{
+  "festivalId": "2007-default-battle-festival",
+  "originalBase": "https://vipkohaku.x.fc2.com/2007def/",
+  "sourceEncoding": "shift_jis",
+  "catalogueEntries": 26,
+  "catalogueCapture": {
+    "originalUrl": "https://vipkohaku.x.fc2.com/2007def/index.html",
+    "requestedUrl": "https://web.archive.org/web/20190518093108id_/https://vipkohaku.x.fc2.com/2007def/index.html",
+    "actualUrl": "https://web.archive.org/web/20190518093108id_/https://vipkohaku.x.fc2.com/2007def/index.html",
+    "timestamp": "20190518093108",
+    "status": 200,
+    "file": "index-probe.bin",
+    "bytes": 13931,
+    "sha256": "1edadfb21eaa8c609e81cbbb15720ad54a21947ea59abac5010a6cbfdf2f8654",
+    "proxyRegion": "Hong Kong",
+    "exitCountry": "HK",
+    "captureVerification": "Response body matches the exact capture's CDX SHA-1 digest.",
+    "cdxDigestVerified": true,
+    "expectedDigest": "JFMFPFZOXTBYEYLVDM5H4H2KPYZEJW47",
+    "actualDigest": "JFMFPFZOXTBYEYLVDM5H4H2KPYZEJW47"
+  },
+  "entries": [
+    {
+      "no": "14",
+      "sourcePath": "14.html",
+      "snapshotUrl": "https://web.archive.org/web/20221220063340id_/https://vipkohaku.x.fc2.com/2007def/14.html",
+      "sourceSha256": "ffa3bb086ff6d89ae17a64a1137047c6280d4891410861db9b0ef9b7c2f02bed",
+      "screenshotSource": {
+        "originalUrl": "https://vipkohaku.x.fc2.com/2007def/14.png",
+        "requestedUrl": "https://web.archive.org/web/20221220063340id_/https://vipkohaku.x.fc2.com/2007def/14.png",
+        "actualUrl": "https://web.archive.org/web/20221220063457id_/https://vipkohaku.x.fc2.com/2007def/14.png",
+        "file": "14-image-capture.bin",
+        "bytes": 281489,
+        "sha256": "c643b3680fb4118e507bf19e83096dc663fe376d1e73ebb4bae4f3cce305dead",
+        "timestamp": "20221220063457",
+        "cdxDigestVerified": true,
+        "expectedDigest": "VAYFNZCNJ4AYCZB6DDOKT4JMP6K6BEWA",
+        "actualDigest": "VAYFNZCNJ4AYCZB6DDOKT4JMP6K6BEWA",
+        "captureVerification": "Response body matches the exact capture's CDX SHA-1 digest."
+      },
+      "screenshotDimensions": {
+        "width": 640,
+        "height": 480
+      },
+      "downloadSources": [
+        "https://drive.google.com/open?id=1m7u4vB3E-7szqMA1yFQELkXRueSVJzly"
+      ]
+    }
+  ],
+  "sourceDetailGaps": [
+    {
+      "no": "01",
+      "sourcePath": "01.html",
+      "sourceUrl": "https://vipkohaku.x.fc2.com/2007def/01.html",
+      "cdxQueryUrl": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fvipkohaku.x.fc2.com%2F2007def%2F01.html&output=json&fl=original,timestamp,statuscode,mimetype,digest",
+      "successfulCdxCaptures": 0
+    },
+    {
+      "no": "02",
+      "sourcePath": "02.html",
+      "sourceUrl": "https://vipkohaku.x.fc2.com/2007def/02.html",
+      "cdxQueryUrl": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fvipkohaku.x.fc2.com%2F2007def%2F02.html&output=json&fl=original,timestamp,statuscode,mimetype,digest&filter=statuscode:200&collapse=digest",
+      "successfulCdxCaptures": 0
+    },
+    {
+      "no": "03",
+      "sourcePath": "03.html",
+      "sourceUrl": "https://vipkohaku.x.fc2.com/2007def/03.html",
+      "cdxQueryUrl": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fvipkohaku.x.fc2.com%2F2007def%2F03.html&output=json&fl=original,timestamp,statuscode,mimetype,digest&filter=statuscode:200&collapse=digest",
+      "successfulCdxCaptures": 0
+    },
+    {
+      "no": "04",
+      "sourcePath": "04.html",
+      "sourceUrl": "https://vipkohaku.x.fc2.com/2007def/04.html",
+      "cdxQueryUrl": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fvipkohaku.x.fc2.com%2F2007def%2F04.html&output=json&fl=original,timestamp,statuscode,mimetype,digest&filter=statuscode:200&collapse=digest",
+      "successfulCdxCaptures": 0
+    },
+    {
+      "no": "05",
+      "sourcePath": "05.html",
+      "sourceUrl": "https://vipkohaku.x.fc2.com/2007def/05.html",
+      "cdxQueryUrl": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fvipkohaku.x.fc2.com%2F2007def%2F05.html&output=json&fl=original,timestamp,statuscode,mimetype,digest&filter=statuscode:200&collapse=digest",
+      "successfulCdxCaptures": 0
+    },
+    {
+      "no": "06",
+      "sourcePath": "06.html",
+      "sourceUrl": "https://vipkohaku.x.fc2.com/2007def/06.html",
+      "cdxQueryUrl": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fvipkohaku.x.fc2.com%2F2007def%2F06.html&output=json&fl=original,timestamp,statuscode,mimetype,digest&filter=statuscode:200&collapse=digest",
+      "successfulCdxCaptures": 0
+    },
+    {
+      "no": "07",
+      "sourcePath": "07.html",
+      "sourceUrl": "https://vipkohaku.x.fc2.com/2007def/07.html",
+      "cdxQueryUrl": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fvipkohaku.x.fc2.com%2F2007def%2F07.html&output=json&fl=original,timestamp,statuscode,mimetype,digest&filter=statuscode:200&collapse=digest",
+      "successfulCdxCaptures": 0
+    },
+    {
+      "no": "08",
+      "sourcePath": "08.html",
+      "sourceUrl": "https://vipkohaku.x.fc2.com/2007def/08.html",
+      "cdxQueryUrl": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fvipkohaku.x.fc2.com%2F2007def%2F08.html&output=json&fl=original,timestamp,statuscode,mimetype,digest&filter=statuscode:200&collapse=digest",
+      "successfulCdxCaptures": 0
+    },
+    {
+      "no": "09",
+      "sourcePath": "09.html",
+      "sourceUrl": "https://vipkohaku.x.fc2.com/2007def/09.html",
+      "cdxQueryUrl": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fvipkohaku.x.fc2.com%2F2007def%2F09.html&output=json&fl=original,timestamp,statuscode,mimetype,digest&filter=statuscode:200&collapse=digest",
+      "successfulCdxCaptures": 0
+    },
+    {
+      "no": "10",
+      "sourcePath": "10.html",
+      "sourceUrl": "https://vipkohaku.x.fc2.com/2007def/10.html",
+      "cdxQueryUrl": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fvipkohaku.x.fc2.com%2F2007def%2F10.html&output=json&fl=original,timestamp,statuscode,mimetype,digest&filter=statuscode:200&collapse=digest",
+      "successfulCdxCaptures": 0
+    },
+    {
+      "no": "11",
+      "sourcePath": "11.html",
+      "sourceUrl": "https://vipkohaku.x.fc2.com/2007def/11.html",
+      "cdxQueryUrl": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fvipkohaku.x.fc2.com%2F2007def%2F11.html&output=json&fl=original,timestamp,statuscode,mimetype,digest&filter=statuscode:200&collapse=digest",
+      "successfulCdxCaptures": 0
+    },
+    {
+      "no": "12",
+      "sourcePath": "12.html",
+      "sourceUrl": "https://vipkohaku.x.fc2.com/2007def/12.html",
+      "cdxQueryUrl": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fvipkohaku.x.fc2.com%2F2007def%2F12.html&output=json&fl=original,timestamp,statuscode,mimetype,digest&filter=statuscode:200&collapse=digest",
+      "successfulCdxCaptures": 0
+    },
+    {
+      "no": "13",
+      "sourcePath": "13.html",
+      "sourceUrl": "https://vipkohaku.x.fc2.com/2007def/13.html",
+      "cdxQueryUrl": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fvipkohaku.x.fc2.com%2F2007def%2F13.html&output=json&fl=original,timestamp,statuscode,mimetype,digest&filter=statuscode:200&collapse=digest",
+      "successfulCdxCaptures": 0
+    },
+    {
+      "no": "15",
+      "sourcePath": "15.html",
+      "sourceUrl": "https://vipkohaku.x.fc2.com/2007def/15.html",
+      "cdxQueryUrl": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fvipkohaku.x.fc2.com%2F2007def%2F15.html&output=json&fl=original,timestamp,statuscode,mimetype,digest&filter=statuscode:200&collapse=digest",
+      "successfulCdxCaptures": 0
+    },
+    {
+      "no": "16",
+      "sourcePath": "16.html",
+      "sourceUrl": "https://vipkohaku.x.fc2.com/2007def/16.html",
+      "cdxQueryUrl": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fvipkohaku.x.fc2.com%2F2007def%2F16.html&output=json&fl=original,timestamp,statuscode,mimetype,digest&filter=statuscode:200&collapse=digest",
+      "successfulCdxCaptures": 0
+    },
+    {
+      "no": "17",
+      "sourcePath": "17.html",
+      "sourceUrl": "https://vipkohaku.x.fc2.com/2007def/17.html",
+      "cdxQueryUrl": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fvipkohaku.x.fc2.com%2F2007def%2F17.html&output=json&fl=original,timestamp,statuscode,mimetype,digest&filter=statuscode:200&collapse=digest",
+      "successfulCdxCaptures": 0
+    },
+    {
+      "no": "18",
+      "sourcePath": "18.html",
+      "sourceUrl": "https://vipkohaku.x.fc2.com/2007def/18.html",
+      "cdxQueryUrl": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fvipkohaku.x.fc2.com%2F2007def%2F18.html&output=json&fl=original,timestamp,statuscode,mimetype,digest&filter=statuscode:200&collapse=digest",
+      "successfulCdxCaptures": 0
+    },
+    {
+      "no": "19",
+      "sourcePath": "19.html",
+      "sourceUrl": "https://vipkohaku.x.fc2.com/2007def/19.html",
+      "cdxQueryUrl": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fvipkohaku.x.fc2.com%2F2007def%2F19.html&output=json&fl=original,timestamp,statuscode,mimetype,digest&filter=statuscode:200&collapse=digest",
+      "successfulCdxCaptures": 0
+    },
+    {
+      "no": "20",
+      "sourcePath": "20.html",
+      "sourceUrl": "https://vipkohaku.x.fc2.com/2007def/20.html",
+      "cdxQueryUrl": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fvipkohaku.x.fc2.com%2F2007def%2F20.html&output=json&fl=original,timestamp,statuscode,mimetype,digest&filter=statuscode:200&collapse=digest",
+      "successfulCdxCaptures": 0
+    },
+    {
+      "no": "21",
+      "sourcePath": "21.html",
+      "sourceUrl": "https://vipkohaku.x.fc2.com/2007def/21.html",
+      "cdxQueryUrl": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fvipkohaku.x.fc2.com%2F2007def%2F21.html&output=json&fl=original,timestamp,statuscode,mimetype,digest&filter=statuscode:200&collapse=digest",
+      "successfulCdxCaptures": 0
+    },
+    {
+      "no": "22",
+      "sourcePath": "22.html",
+      "sourceUrl": "https://vipkohaku.x.fc2.com/2007def/22.html",
+      "cdxQueryUrl": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fvipkohaku.x.fc2.com%2F2007def%2F22.html&output=json&fl=original,timestamp,statuscode,mimetype,digest&filter=statuscode:200&collapse=digest",
+      "successfulCdxCaptures": 0
+    },
+    {
+      "no": "23",
+      "sourcePath": "23.html",
+      "sourceUrl": "https://vipkohaku.x.fc2.com/2007def/23.html",
+      "cdxQueryUrl": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fvipkohaku.x.fc2.com%2F2007def%2F23.html&output=json&fl=original,timestamp,statuscode,mimetype,digest&filter=statuscode:200&collapse=digest",
+      "successfulCdxCaptures": 0
+    },
+    {
+      "no": "24",
+      "sourcePath": "24.html",
+      "sourceUrl": "https://vipkohaku.x.fc2.com/2007def/24.html",
+      "cdxQueryUrl": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fvipkohaku.x.fc2.com%2F2007def%2F24.html&output=json&fl=original,timestamp,statuscode,mimetype,digest&filter=statuscode:200&collapse=digest",
+      "successfulCdxCaptures": 0
+    },
+    {
+      "no": "25",
+      "sourcePath": "25.html",
+      "sourceUrl": "https://vipkohaku.x.fc2.com/2007def/25.html",
+      "cdxQueryUrl": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fvipkohaku.x.fc2.com%2F2007def%2F25.html&output=json&fl=original,timestamp,statuscode,mimetype,digest&filter=statuscode:200&collapse=digest",
+      "successfulCdxCaptures": 0
+    },
+    {
+      "no": "26",
+      "sourcePath": "26.html",
+      "sourceUrl": "https://vipkohaku.x.fc2.com/2007def/26.html",
+      "cdxQueryUrl": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fvipkohaku.x.fc2.com%2F2007def%2F26.html&output=json&fl=original,timestamp,statuscode,mimetype,digest&filter=statuscode:200&collapse=digest",
+      "successfulCdxCaptures": 0
+    }
+  ],
+  "sourceEvidence": [
+    "catch/2007-default-battle-festival/investigation/source-probes.json",
+    "catch/2007-default-battle-festival/investigation/migration-source-probe.json",
+    "catch/2007-default-battle-festival/investigation/migration-http-source-probe.json",
+    "catch/2007-default-battle-festival/investigation/detail-capture-index.json",
+    "catch/2007-default-battle-festival/investigation/capture-digest-checks.json",
+    "catch/2007-default-battle-festival/investigation/infoseek-index-replay.json",
+    "catch/2007-default-battle-festival/investigation/forum-replay-probe.json"
+  ],
+  "festivalBanner": {
+    "originalUrl": "https://vipkohaku.x.fc2.com/2007def/defo.png",
+    "requestedUrl": "https://web.archive.org/web/20200714070642id_/https://vipkohaku.x.fc2.com/2007def/defo.png",
+    "actualUrl": "https://web.archive.org/web/20200714070642id_/https://vipkohaku.x.fc2.com/2007def/defo.png",
+    "timestamp": "20200714070642",
+    "status": 200,
+    "file": "defo.png-capture.bin",
+    "bytes": 9938,
+    "sha256": "9ad67e3827bd7420e843a7f794783c80d71c061e13e1deb1ad185cd032e69467",
+    "proxyRegion": "Hong Kong",
+    "exitCountry": "HK",
+    "captureVerification": "Response body matches the exact capture's CDX SHA-1 digest.",
+    "cdxDigestVerified": true,
+    "expectedDigest": "CX2VNP46QW57ESOAZZK4GIHXIPCFMQIK",
+    "actualDigest": "CX2VNP46QW57ESOAZZK4GIHXIPCFMQIK",
+    "sourcePath": "defo.png",
+    "width": 200,
+    "height": 40,
+    "local": "/banners/2007-default-battle-festival.png"
+  },
+  "originalHeader": {
+    "sourcePath": "top.png",
+    "width": 900,
+    "height": 100
+  },
+  "handling": "Official mirrored catalogue titles compared mechanically. Preserve source body and explicitly labelled metadata directly without content screening. The linked Infoseek snapshot does not match this catalogue; the forum replay exposes no first-post source links. Historical download links are retained without claiming availability. Each remaining detail has an exact successful-capture query with zero results; this does not prove permanent archive absence.",
+  "desktopReview": "passed-with-documented-source-gaps",
+  "desktopEvidence": [
+    "catch/2007-default-battle-festival/desktop-review.json"
+  ]
+}

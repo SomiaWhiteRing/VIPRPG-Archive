@@ -1,0 +1,23 @@
+{
+  "festivalId": "2007-default-battle-festival",
+  "status": "reviewed-with-documented-source-gaps",
+  "catalogueEntries": 26,
+  "mechanicalTitleMatches": 26,
+  "cachedSuccessfulMementoResources": 5,
+  "detail01": {
+    "requestedReplayStatus": 404,
+    "exactCdxRows": 0,
+    "conclusion": "No successful response observed for the mirror path; no conclusion about other captures or original sites"
+  },
+  "otherDetails": "Exact successful-capture queries returned zero rows for each of the remaining 25 mirrored detail paths.",
+  "prefixCdxAttempts": 2,
+  "prefixCdxTimeouts": 2,
+  "sourceAvailability": "Origin and known migration host failed to return a body through the verified Japan exit; no permanent-absence conclusion.",
+  "appDataChanged": true,
+  "desktopReview": "passed",
+  "contentBasedScreening": false,
+  "sourceHashesVerified": 5,
+  "cdxDigestsVerified": 5,
+  "recoveredDetails": 1,
+  "detailGaps": 25
+}
