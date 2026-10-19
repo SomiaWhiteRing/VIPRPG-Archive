@@ -1,0 +1,33 @@
+{
+  "festivalId": "2006-gw",
+  "status": "reviewed",
+  "confirmedBase": "http://www.geocities.jp/viprpg_gw/",
+  "identityEvidence": "investigation/original-origin-identity-review.json",
+  "catalogueEntries": 31,
+  "legacyEntries": 30,
+  "legacyParserError": "Source rows 11 and 12 were merged because an author name contains the old delimiter. Preserve the 31 source rows in order, record legacy-to-corrected identifier mapping.",
+  "catalogueFile": "main.html",
+  "introductionListFile": "sakuhinsyoukai.html",
+  "introductionLinkMap": "investigation/introduction-link-map.json",
+  "introductionTitleVariantOrdinals": [
+    12
+  ],
+  "rawResourcesVerified": 88,
+  "packageIndexRecords": 31,
+  "packageBytesDownloaded": false,
+  "frameRootFile": "top.html",
+  "frameMenuFile": "leftmenu.html",
+  "frameMenuName": "leftmenu.",
+  "frameMainName": "main",
+  "encodingFallback": "euc-jp",
+  "landingEncoding": "shift_jis",
+  "nextAcceptance": [
+    "Prepare 31 entries from the line-based source catalogue without content screening",
+    "Associate actual detail links and captured images",
+    "Preserve primary source names and store introduction title variation with provenance",
+    "Use real frame structure for local navigation",
+    "Validate data, lint, build, desktop-check, append progress, commit this festival separately"
+  ],
+  "reviewedAt": "2026-10-20",
+  "desktopEvidence": "catch/2006-gw/desktop-review.json"
+}

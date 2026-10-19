@@ -1,0 +1,82 @@
+{
+  "festivalId": "2006-gw",
+  "reviewedAt": "2026-10-20",
+  "status": "passed",
+  "scope": "desktop only; metadata, geometry and actual navigation; no work-content screening",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "original": {
+    "landingImageLoaded": true,
+    "landingImageNatural": [
+      300,
+      300
+    ],
+    "landingImageRendered": [
+      300,
+      300
+    ],
+    "landingWidth": 1183,
+    "landingScrollWidth": 1183,
+    "entryTopOpenedByClick": true,
+    "frameCols": "125,*",
+    "frameNames": [
+      "leftmenu.",
+      "title",
+      "main"
+    ],
+    "mainFrameWidth": 1037,
+    "mainFrameScrollWidth": 1037,
+    "menuIntroductionOpenedByClick": true,
+    "introductionLinks": 31,
+    "firstDetailOpenedByClick": true,
+    "firstScreenshotNatural": [
+      640,
+      480
+    ],
+    "firstScreenshotRendered": [
+      640,
+      480
+    ],
+    "menuReturnToCatalogueClicked": true,
+    "titleBannerNatural": [
+      850,
+      50
+    ],
+    "titleBannerRendered": [
+      850,
+      50
+    ],
+    "noHorizontalOverflow": true
+  },
+  "formatted": {
+    "originalToFormattedNavigationClicked": true,
+    "uniqueCatalogueRoutes": 31,
+    "bannerLoaded": true,
+    "bannerNatural": [
+      850,
+      50
+    ],
+    "bannerObjectFit": "contain",
+    "correctedEntry11OpenedByClick": true,
+    "correctedEntry12RouteChecked": true,
+    "all31DetailRoutesChecked": true,
+    "all31ImagesLoaded": true,
+    "all31ImagesObjectFit": "contain",
+    "all31PageWidthsWithinViewport": true,
+    "all31SourceBodiesWithinContainer": true,
+    "sourceBodyWidth": 839,
+    "sourceBodyScrollWidth": 839,
+    "archivedPackageEntryPresent": true,
+    "noHorizontalOverflow": true
+  },
+  "validation": [
+    "npm run validate:data",
+    "npm run lint",
+    "npm run build",
+    "catch/2006-gw/investigation/local-structure-review.json"
+  ],
+  "packageBytesDownloaded": false,
+  "contentBasedScreening": false
+}

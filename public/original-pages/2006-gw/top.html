@@ -1,0 +1,22 @@
+<html><head><meta charset="UTF-8">
+  <title>VIPRPGツクール-GW祭り2006</title>
+ <script>
+          addEventListener('message',function(event){
+            var menu=document.querySelector("frame[name=\"leftmenu.\"]"),main=document.querySelector("frame[name=\"main\"]");
+            if(!menu||!main||event.source!==menu.contentWindow||event.data?.type!=='archive-main-navigation')return;
+            var url=new URL(event.data.url,location.href);
+            if(url.origin===location.origin&&url.pathname.startsWith(location.pathname.slice(0,location.pathname.lastIndexOf('/')+1)))main.src=url.href;
+          });
+        </script></head>
+  <frameset cols="125,*">
+   <frame src="leftmenu.html" name="leftmenu.">
+   <frameset rows="70,*">
+    <frame src="title.html" name="title">
+    <frame src="main.html" name="main">
+   </frameset>
+   <noframes>
+   <body>
+   </body>
+   </noframes>
+ </frameset>
+</html>

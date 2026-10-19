@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2006-gw",
+  "activeFestival": "2006-kouhaku",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -1138,6 +1138,35 @@
         "catch/2007-summer/desktop-review.json"
       ],
       "notes": "核对现存目录97项，按实际字节及声明处理EUC-JP与Shift_JIS混合编码。恢复3页详情与截图、34条单独标记的补丁入口，保留原目录题名。94项详情、3页辅助内容及7张辅助图仍有明确缺口；21份来源均匹配CDX摘要，框架菜单与双视图桌面验收通过。"
+    },
+    {
+      "festivalId": "2006-gw",
+      "reviewedAt": "2026-10-20",
+      "dataSha256": "fc9e631241d782503597d95d32a6a09a47d3b15475e1a9126147c5397c03add6",
+      "works": 31,
+      "screenshotFiles": 31,
+      "screenshotReferences": 31,
+      "status": "reviewed",
+      "originalCatalogueCompleteness": "verified-for-captured-original-catalogue",
+      "outstandingSourceDetails": 0,
+      "outstandingImageSourceUrls": 0,
+      "outstandingScreenshotRows": 0,
+      "outstandingOtherResources": 0,
+      "outstandingAuxiliaryPages": 0,
+      "packageArchiveIndexReferences": 31,
+      "packageBytesValidated": false,
+      "sourceEvidence": [
+        "catch/2006-gw/recovery.json",
+        "catch/2006-gw/investigation/original-origin-identity-review.json",
+        "catch/2006-gw/investigation/legacy-parser-diagnosis.json",
+        "catch/2006-gw/investigation/legacy-id-map.json",
+        "catch/2006-gw/investigation/original-normalized-inventory.json",
+        "catch/2006-gw/investigation/local-structure-review.json"
+      ],
+      "desktopEvidence": [
+        "catch/2006-gw/desktop-review.json"
+      ],
+      "notes": "确认GeoCities原站31项，修复旧正则因作者名中点跨行吞并第11、12项造成的30项错录；保存编号映射与题名差异。恢复全部31详情和31截图，88份页面／图片均匹配CDX摘要。保留31个ZIP存档入口但未验包；原站菜单与全部31个整理详情桌面检查通过。"
     }
   ],
   "originalViewsReviewed": [
@@ -1402,6 +1431,13 @@
       "evidence": [
         "catch/2007-summer/original-view.json",
         "catch/2007-summer/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2006-gw",
+      "evidence": [
+        "catch/2006-gw/original-view.json",
+        "catch/2006-gw/desktop-review.json"
       ]
     }
   ],

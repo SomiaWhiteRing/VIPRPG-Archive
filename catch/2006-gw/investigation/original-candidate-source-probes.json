@@ -1,0 +1,15 @@
+{
+  "basis": "Geocities counter identifier in the source landing page; candidate, not yet confirmed origin",
+  "probes": [
+    {
+      "url": "https://www.geocities.jp/viprpg_gw/",
+      "status": 404,
+      "location": null
+    },
+    {
+      "url": "http://www.geocities.jp/viprpg_gw/",
+      "status": 301,
+      "location": "https://info-geocities.yahoo.co.jp:443/viprpg_gw/"
+    }
+  ]
+}

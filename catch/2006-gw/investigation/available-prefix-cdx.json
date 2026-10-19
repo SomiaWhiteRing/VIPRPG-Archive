@@ -1,0 +1,70 @@
+{
+  "queryUrl": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fvipkohaku.x.fc2.com%2F2006GW%2F&matchType=prefix&output=json&fl=original,timestamp,statuscode,mimetype,digest&filter=statuscode%3A(200%7C-)&collapse=urlkey&limit=1000",
+  "status": 200,
+  "retryAfter": null,
+  "rows": [
+    [
+      "original",
+      "timestamp",
+      "statuscode",
+      "mimetype",
+      "digest"
+    ],
+    [
+      "https://vipkohaku.x.fc2.com/2006GW/",
+      "20211006051812",
+      "200",
+      "text/html",
+      "IXKJA5TM6ZHCQUWRN4GJHUR5QZIO54RI"
+    ],
+    [
+      "https://vipkohaku.x.fc2.com/2006GW/festa.png",
+      "20230201130830",
+      "200",
+      "image/png",
+      "OL3NF2UG36XZEB7Q4JGIZI2NYG5YTS7N"
+    ],
+    [
+      "https://vipkohaku.x.fc2.com/2006GW/index.html",
+      "20190518093106",
+      "200",
+      "text/html",
+      "NVDS2XCIF3TY7ZDJJKFEBQJD4JIEX7BM"
+    ],
+    [
+      "https://vipkohaku.x.fc2.com/2006GW/leftmenu.html",
+      "20230201130823",
+      "200",
+      "text/html",
+      "3MRLYOOIVPEDGFFDUQ6MNUDFWFBZURRS"
+    ],
+    [
+      "https://vipkohaku.x.fc2.com/2006GW/main.html",
+      "20230201130823",
+      "200",
+      "text/html",
+      "DCJT6KYBNI4ZYJR2IAWYSKPS6FLW5GRN"
+    ],
+    [
+      "https://vipkohaku.x.fc2.com/2006GW/title.html",
+      "20230201130821",
+      "200",
+      "text/html",
+      "J3B2YA246SWSR6L5HCU5JZRIPELYKWNM"
+    ],
+    [
+      "https://vipkohaku.x.fc2.com/2006GW/top.html",
+      "20190518093106",
+      "200",
+      "text/html",
+      "HFBKU72V2UCNRXXELMWRJH3W3FMOM44G"
+    ],
+    [
+      "https://vipkohaku.x.fc2.com/2006GW/top.png",
+      "20190714071815",
+      "200",
+      "image/png",
+      "XTC3OL7OBYYCE4SQBDAPEEQ7FCAEVYL7"
+    ]
+  ]
+}

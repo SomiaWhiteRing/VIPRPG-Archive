@@ -1,0 +1,1204 @@
+{
+  "festivalId": "2006-gw",
+  "originalBase": "http://www.geocities.jp/viprpg_gw/",
+  "catalogueCapture": {
+    "originalUrl": "http://www.geocities.jp/viprpg_gw/main.html",
+    "requestedUrl": "https://web.archive.org/web/20140708172225id_/http://www.geocities.jp/viprpg_gw/main.html",
+    "actualUrl": "https://web.archive.org/web/20140708172225id_/http://www.geocities.jp/viprpg_gw/main.html",
+    "status": 200,
+    "mementoDatetime": "Tue, 08 Jul 2014 17:22:25 GMT",
+    "timestamp": "20140708172225",
+    "file": "main.html.bin",
+    "bytes": 3260,
+    "sha256": "4c524fb2ef6a6d70d8f2367921fb4f3e2ffaf5c831711feb5ed90494a4845cd9",
+    "expectedDigest": "7HTSYJZ3XTB2ECNJOHAXWEFIDQENLTYL",
+    "actualDigest": "7HTSYJZ3XTB2ECNJOHAXWEFIDQENLTYL",
+    "cdxDigestVerified": true,
+    "proxyRegion": "Hong Kong"
+  },
+  "introductionListCapture": {
+    "originalUrl": "http://www.geocities.jp:80/viprpg_gw/sakuhinsyoukai.html",
+    "requestedUrl": "https://web.archive.org/web/20160725164316id_/http://www.geocities.jp:80/viprpg_gw/sakuhinsyoukai.html",
+    "actualUrl": "https://web.archive.org/web/20160725164316id_/http://www.geocities.jp:80/viprpg_gw/sakuhinsyoukai.html",
+    "status": 200,
+    "mementoDatetime": "Mon, 25 Jul 2016 16:43:16 GMT",
+    "timestamp": "20160725164316",
+    "file": "sakuhinsyoukai.html.bin",
+    "bytes": 4343,
+    "sha256": "7b9b2c20e3172e034d6baf6950fe77bf1bc96f8ff2ee1f4edaaeb4c9ffa2e800",
+    "expectedDigest": "PLIP7UX4ZWMQVG5UAEWJ7HEIEH3OLU72",
+    "actualDigest": "PLIP7UX4ZWMQVG5UAEWJ7HEIEH3OLU72",
+    "cdxDigestVerified": true,
+    "proxyRegion": "Hong Kong"
+  },
+  "catalogueEntries": 31,
+  "sourceEncodingFallback": "euc-jp",
+  "encodingOverrides": {
+    "index.html": "shift_jis",
+    "tenpure.html": "shift_jis"
+  },
+  "entries": [
+    {
+      "no": "01",
+      "sourcePath": "iiii.html",
+      "snapshotUrl": "https://web.archive.org/web/20160727151938id_/http://www.geocities.jp:80/viprpg_gw/iiii.html",
+      "sourceSha256": "bf3f8b9c667cc3f5a23d1e584cb7b2d7e67b5879a7e1c516b36403e60dfa0f25",
+      "screenshotSources": [
+        {
+          "sourcePath": "up5403.png",
+          "local": "/screenshots/2006-gw/01-1.png",
+          "width": 640,
+          "height": 480,
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/up5403.png",
+          "requestedUrl": "https://web.archive.org/web/20181008161049id_/http://www.geocities.jp/viprpg_gw/up5403.png",
+          "actualUrl": "https://web.archive.org/web/20181008161049id_/http://www.geocities.jp/viprpg_gw/up5403.png",
+          "status": 200,
+          "location": null,
+          "mementoDatetime": "Mon, 08 Oct 2018 16:10:49 GMT",
+          "timestamp": "20181008161049",
+          "file": "capture-56cddc152181ef2886bf.bin",
+          "bytes": 114748,
+          "sha256": "b1b449fd4205b3db4a642b91deee2632f3651aa92a612a586b5ee3246a1c1efb",
+          "expectedDigest": "MDCENUCBE72LTWD2GOTLGZIEUHIOIXY2",
+          "actualDigest": "MDCENUCBE72LTWD2GOTLGZIEUHIOIXY2",
+          "cdxDigestVerified": true,
+          "proxyRegion": "Hong Kong"
+        }
+      ],
+      "packageSources": [
+        {
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/iiiisara.zip",
+          "cdxTimestamp": "20181008161049",
+          "cdxDigest": "DTKQ7KLPIS4GG3IPXU2SFTZ4MKNWCIT5",
+          "bytesDownloaded": false
+        }
+      ]
+    },
+    {
+      "no": "02",
+      "sourcePath": "douagaitemo.html",
+      "snapshotUrl": "https://web.archive.org/web/20160727151325id_/http://www.geocities.jp:80/viprpg_gw/douagaitemo.html",
+      "sourceSha256": "5e3143b36cfcbc9cec89c9403c82309397e1944fa5619db79f3662326b2f2085",
+      "screenshotSources": [
+        {
+          "sourcePath": "SS.png",
+          "local": "/screenshots/2006-gw/02-1.png",
+          "width": 643,
+          "height": 483,
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/SS.png",
+          "requestedUrl": "https://web.archive.org/web/20181008161047id_/http://www.geocities.jp/viprpg_gw/SS.png",
+          "actualUrl": "https://web.archive.org/web/20181008161047id_/http://www.geocities.jp/viprpg_gw/SS.png",
+          "status": 200,
+          "location": null,
+          "mementoDatetime": "Mon, 08 Oct 2018 16:10:47 GMT",
+          "timestamp": "20181008161047",
+          "file": "capture-65386b14f595c1e4ad2c.bin",
+          "bytes": 96053,
+          "sha256": "a7545d6b1760e27a2a485737aaad25176fefbe91c50893eb95490da97f5ccb52",
+          "expectedDigest": "QSGBY5E4SQJSYKY4OV6ZSV34UWRSMP5P",
+          "actualDigest": "QSGBY5E4SQJSYKY4OV6ZSV34UWRSMP5P",
+          "cdxDigestVerified": true,
+          "proxyRegion": "Hong Kong"
+        }
+      ],
+      "packageSources": [
+        {
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/douagaitemo.zip",
+          "cdxTimestamp": "20181008161047",
+          "cdxDigest": "PTSZAWJYCT7YKGTKCY2ZBNGP6EX64BGE",
+          "bytesDownloaded": false
+        }
+      ]
+    },
+    {
+      "no": "03",
+      "sourcePath": "ninxnin.html",
+      "snapshotUrl": "https://web.archive.org/web/20160727152008id_/http://www.geocities.jp:80/viprpg_gw/ninxnin.html",
+      "sourceSha256": "c5fc91d64d944545c256a4ce870c41bb15612041a4c518903923b284ff5592a7",
+      "screenshotSources": [
+        {
+          "sourcePath": "ninxnin.png",
+          "local": "/screenshots/2006-gw/03-1.png",
+          "width": 640,
+          "height": 480,
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/ninxnin.png",
+          "requestedUrl": "https://web.archive.org/web/20181008161044id_/http://www.geocities.jp/viprpg_gw/ninxnin.png",
+          "actualUrl": "https://web.archive.org/web/20181008161044id_/http://www.geocities.jp/viprpg_gw/ninxnin.png",
+          "status": 200,
+          "location": null,
+          "mementoDatetime": "Mon, 08 Oct 2018 16:10:44 GMT",
+          "timestamp": "20181008161044",
+          "file": "capture-a7f710b49169d27cb551.bin",
+          "bytes": 53261,
+          "sha256": "b650ac7c9992e1bd6634d8e6bfe32945260a72f09efdb97e9e8fdcd82acbd3e5",
+          "expectedDigest": "ZDCMPK3AKMCXSUHZQTZIIMERTFYPSMGO",
+          "actualDigest": "ZDCMPK3AKMCXSUHZQTZIIMERTFYPSMGO",
+          "cdxDigestVerified": true,
+          "proxyRegion": "Hong Kong"
+        }
+      ],
+      "packageSources": [
+        {
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/NINxNIN.zip",
+          "cdxTimestamp": "20181008161045",
+          "cdxDigest": "4LO2IJI745OJ47G4EE33CAH7HUZQ6JE3",
+          "bytesDownloaded": false
+        }
+      ]
+    },
+    {
+      "no": "04",
+      "sourcePath": "aitonikushimi.html",
+      "snapshotUrl": "https://web.archive.org/web/20160727145149id_/http://www.geocities.jp:80/viprpg_gw/aitonikushimi.html",
+      "sourceSha256": "55296ff951cd21417f398551e1326526641a6abc60438a1afe2d71f4b77bb886",
+      "screenshotSources": [
+        {
+          "sourcePath": "5time_ss.png",
+          "local": "/screenshots/2006-gw/04-1.png",
+          "width": 640,
+          "height": 480,
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/5time_ss.png",
+          "requestedUrl": "https://web.archive.org/web/20181008161046id_/http://www.geocities.jp/viprpg_gw/5time_ss.png",
+          "actualUrl": "https://web.archive.org/web/20181008161046id_/http://www.geocities.jp/viprpg_gw/5time_ss.png",
+          "status": 200,
+          "location": null,
+          "mementoDatetime": "Mon, 08 Oct 2018 16:10:46 GMT",
+          "timestamp": "20181008161046",
+          "file": "capture-f345e17e1be5684db19b.bin",
+          "bytes": 56119,
+          "sha256": "ac101bae23108ac5d71b2daad63243a1fe12f7e60e4b39a9bff89b0dd986c76b",
+          "expectedDigest": "3B3MON5PDUMM5QO35UNSZ7DSWYNTWZRN",
+          "actualDigest": "3B3MON5PDUMM5QO35UNSZ7DSWYNTWZRN",
+          "cdxDigestVerified": true,
+          "proxyRegion": "Hong Kong"
+        }
+      ],
+      "packageSources": [
+        {
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/double.zip",
+          "cdxTimestamp": "20181008161046",
+          "cdxDigest": "NY53ORDTJRUUERAD5C4ONCOYDMZA77RT",
+          "bytesDownloaded": false
+        }
+      ]
+    },
+    {
+      "no": "05",
+      "sourcePath": "mosimoinisekai.html",
+      "snapshotUrl": "https://web.archive.org/web/20160727151958id_/http://www.geocities.jp:80/viprpg_gw/mosimoinisekai.html",
+      "sourceSha256": "546142d9ce48d1ca71163e313056adb1bd0d478a506afc96f9654e3e09662977",
+      "screenshotSources": [
+        {
+          "sourcePath": "mosimoinss.png",
+          "local": "/screenshots/2006-gw/05-1.png",
+          "width": 640,
+          "height": 480,
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/mosimoinss.png",
+          "requestedUrl": "https://web.archive.org/web/20181008161051id_/http://www.geocities.jp/viprpg_gw/mosimoinss.png",
+          "actualUrl": "https://web.archive.org/web/20181008161051id_/http://www.geocities.jp/viprpg_gw/mosimoinss.png",
+          "status": 200,
+          "location": null,
+          "mementoDatetime": "Mon, 08 Oct 2018 16:10:51 GMT",
+          "timestamp": "20181008161051",
+          "file": "capture-20c549740e7ddafefa27.bin",
+          "bytes": 155489,
+          "sha256": "28e542d89f7263b557e09c08ae41b078cbf3a03256361b9b46fc5b33e1a4b15e",
+          "expectedDigest": "VG3UHJZPHA37B42ZZ64UMLJITPXCMBNN",
+          "actualDigest": "VG3UHJZPHA37B42ZZ64UMLJITPXCMBNN",
+          "cdxDigestVerified": true,
+          "proxyRegion": "Hong Kong"
+        }
+      ],
+      "packageSources": [
+        {
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/mosimoinisekai.zip",
+          "cdxTimestamp": "20181008161051",
+          "cdxDigest": "MQYSQHTTLJF7JVL5ZSVLECO5ZVIJ6KGR",
+          "bytesDownloaded": false
+        }
+      ]
+    },
+    {
+      "no": "06",
+      "sourcePath": "mosimomaou.html",
+      "snapshotUrl": "https://web.archive.org/web/20160727145742id_/http://www.geocities.jp:80/viprpg_gw/mosimomaou.html",
+      "sourceSha256": "16179a83bcb1b901fbf9e47cee0736bd97d00687d3d425693f145929b626182a",
+      "screenshotSources": [
+        {
+          "sourcePath": "mosimao.png",
+          "local": "/screenshots/2006-gw/06-1.png",
+          "width": 640,
+          "height": 480,
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/mosimao.png",
+          "requestedUrl": "https://web.archive.org/web/20181008161053id_/http://www.geocities.jp/viprpg_gw/mosimao.png",
+          "actualUrl": "https://web.archive.org/web/20181008161053id_/http://www.geocities.jp/viprpg_gw/mosimao.png",
+          "status": 200,
+          "location": null,
+          "mementoDatetime": "Mon, 08 Oct 2018 16:10:53 GMT",
+          "timestamp": "20181008161053",
+          "file": "capture-de93f905d30a22f885ef.bin",
+          "bytes": 29353,
+          "sha256": "03808c54e4792acea59689075d2b254c835521c4f26d9a8a267c2371d8d8f875",
+          "expectedDigest": "X2IFZ2ITZBSEVV5YUMC3TDARNNCMTM2C",
+          "actualDigest": "X2IFZ2ITZBSEVV5YUMC3TDARNNCMTM2C",
+          "cdxDigestVerified": true,
+          "proxyRegion": "Hong Kong"
+        }
+      ],
+      "packageSources": [
+        {
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/mosimoteki.zip",
+          "cdxTimestamp": "20181008161054",
+          "cdxDigest": "2WWIFSDVXBIO53ZOYIJKKSYYKPHW24VP",
+          "bytesDownloaded": false
+        }
+      ]
+    },
+    {
+      "no": "07",
+      "sourcePath": "gwshiten.html",
+      "snapshotUrl": "https://web.archive.org/web/20160727145737id_/http://www.geocities.jp:80/viprpg_gw/gwshiten.html",
+      "sourceSha256": "9dc745e889ab472669dc36ccd14430a22ef03dbd2601b92a318748b83796e572",
+      "screenshotSources": [
+        {
+          "sourcePath": "not.png",
+          "local": "/screenshots/2006-gw/07-1.png",
+          "width": 640,
+          "height": 480,
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/not.png",
+          "requestedUrl": "https://web.archive.org/web/20181008161051id_/http://www.geocities.jp/viprpg_gw/not.png",
+          "actualUrl": "https://web.archive.org/web/20181008161051id_/http://www.geocities.jp/viprpg_gw/not.png",
+          "status": 200,
+          "location": null,
+          "mementoDatetime": "Mon, 08 Oct 2018 16:10:51 GMT",
+          "timestamp": "20181008161051",
+          "file": "capture-04c559891536853f77b9.bin",
+          "bytes": 44505,
+          "sha256": "05ab940c55fde3ee3df168137911de3b96a77bdfaeff637a45f01cadabcca067",
+          "expectedDigest": "2GUVCHQZ62ZAOMOUM2K3IVOQCUDDGTSO",
+          "actualDigest": "2GUVCHQZ62ZAOMOUM2K3IVOQCUDDGTSO",
+          "cdxDigestVerified": true,
+          "proxyRegion": "Hong Kong"
+        }
+      ],
+      "packageSources": [
+        {
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/gwshiten.zip",
+          "cdxTimestamp": "20181008161051",
+          "cdxDigest": "L3EXZCO563MN5IYL2FCTBC3LMZPXTGL4",
+          "bytesDownloaded": false
+        }
+      ]
+    },
+    {
+      "no": "08",
+      "sourcePath": "maikeru.html",
+      "snapshotUrl": "https://web.archive.org/web/20160727151953id_/http://www.geocities.jp:80/viprpg_gw/maikeru.html",
+      "sourceSha256": "c1e231b7195f1ff47301ed224aebc2d40dbca150a0061c5e4e54f323656b04fc",
+      "screenshotSources": [
+        {
+          "sourcePath": "maikeruSS.png",
+          "local": "/screenshots/2006-gw/08-1.png",
+          "width": 640,
+          "height": 480,
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/maikeruSS.png",
+          "requestedUrl": "https://web.archive.org/web/20181008161048id_/http://www.geocities.jp/viprpg_gw/maikeruSS.png",
+          "actualUrl": "https://web.archive.org/web/20181008161048id_/http://www.geocities.jp/viprpg_gw/maikeruSS.png",
+          "status": 200,
+          "location": null,
+          "mementoDatetime": "Mon, 08 Oct 2018 16:10:48 GMT",
+          "timestamp": "20181008161048",
+          "file": "capture-f59cc754c5c7f915c4d3.bin",
+          "bytes": 75414,
+          "sha256": "578e720a70ebe5cfb9c7b7831f44ae2247b59e4161730d763149bc32a3f88b74",
+          "expectedDigest": "HEW5UA3HGR6G4EE7APIHKOQKGEMT4OLC",
+          "actualDigest": "HEW5UA3HGR6G4EE7APIHKOQKGEMT4OLC",
+          "cdxDigestVerified": true,
+          "proxyRegion": "Hong Kong"
+        }
+      ],
+      "packageSources": [
+        {
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/maikeru.zip",
+          "cdxTimestamp": "20181008161048",
+          "cdxDigest": "JXV7DHCPNBTDAHQKXE4OEPUKHCSCMZHI",
+          "bytesDownloaded": false
+        }
+      ]
+    },
+    {
+      "no": "09",
+      "sourcePath": "demons.html",
+      "snapshotUrl": "https://web.archive.org/web/20160727151320id_/http://www.geocities.jp:80/viprpg_gw/demons.html",
+      "sourceSha256": "b545604240703b58cbccf8d05794e3e97a8d7d1f4e340c1d57269b6aa961cec1",
+      "screenshotSources": [
+        {
+          "sourcePath": "demon.png",
+          "local": "/screenshots/2006-gw/09-1.png",
+          "width": 640,
+          "height": 480,
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/demon.png",
+          "requestedUrl": "https://web.archive.org/web/20181008161044id_/http://www.geocities.jp/viprpg_gw/demon.png",
+          "actualUrl": "https://web.archive.org/web/20181008161044id_/http://www.geocities.jp/viprpg_gw/demon.png",
+          "status": 200,
+          "location": null,
+          "mementoDatetime": "Mon, 08 Oct 2018 16:10:44 GMT",
+          "timestamp": "20181008161044",
+          "file": "capture-de1eddbce1ca075d0817.bin",
+          "bytes": 126228,
+          "sha256": "f4d56407b6f3177b89a810b2455750c766b91b6475ef6820287159d62f5e5efd",
+          "expectedDigest": "LTKLP4L56MLSVGDAX67QJZFPGMOCMUY5",
+          "actualDigest": "LTKLP4L56MLSVGDAX67QJZFPGMOCMUY5",
+          "cdxDigestVerified": true,
+          "proxyRegion": "Hong Kong"
+        }
+      ],
+      "packageSources": [
+        {
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/demonsgate.zip",
+          "cdxTimestamp": "20181008161044",
+          "cdxDigest": "NLC3S62JH3VRZOGK2WGIED3KDLEUGDJB",
+          "bytesDownloaded": false
+        }
+      ]
+    },
+    {
+      "no": "10",
+      "sourcePath": "eternalvsenryuu.html",
+      "snapshotUrl": "https://web.archive.org/web/20160727154532id_/http://www.geocities.jp:80/viprpg_gw/eternalvsenryuu.html",
+      "sourceSha256": "ec9f65a09455c8dcb481706df2a6d08580daf0faaa4e921c6f6e6b8bae27ee0b",
+      "screenshotSources": [
+        {
+          "sourcePath": "ENRYU-SS.png",
+          "local": "/screenshots/2006-gw/10-1.png",
+          "width": 640,
+          "height": 480,
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/ENRYU-SS.png",
+          "requestedUrl": "https://web.archive.org/web/20181008161054id_/http://www.geocities.jp/viprpg_gw/ENRYU-SS.png",
+          "actualUrl": "https://web.archive.org/web/20181008161054id_/http://www.geocities.jp/viprpg_gw/ENRYU-SS.png",
+          "status": 200,
+          "location": null,
+          "mementoDatetime": "Mon, 08 Oct 2018 16:10:54 GMT",
+          "timestamp": "20181008161054",
+          "file": "capture-c4cbd23b4107388f461f.bin",
+          "bytes": 429795,
+          "sha256": "98f4f5a7924c2abe50035dae4ad9b520a60ac5c32ae2c0ede83e0d89d241bf2a",
+          "expectedDigest": "CU6Y2YEO5UJSOUCIY7U65BF6APCMYOWD",
+          "actualDigest": "CU6Y2YEO5UJSOUCIY7U65BF6APCMYOWD",
+          "cdxDigestVerified": true,
+          "proxyRegion": "Hong Kong"
+        }
+      ],
+      "packageSources": [
+        {
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/etavsen.zip",
+          "cdxTimestamp": "20181008161054",
+          "cdxDigest": "6B5R4ZTRG3YMAAPUUPHUOGGIXFL4OEES",
+          "bytesDownloaded": false
+        }
+      ]
+    },
+    {
+      "no": "11",
+      "sourcePath": "sieruuta.html",
+      "snapshotUrl": "https://web.archive.org/web/20160727150549id_/http://www.geocities.jp:80/viprpg_gw/sieruuta.html",
+      "sourceSha256": "bd425a4a9e08b1706946803cfc3bb2ef75b4633f2b974426e93c54e5b7b00288",
+      "screenshotSources": [
+        {
+          "sourcePath": "shess.png",
+          "local": "/screenshots/2006-gw/11-1.png",
+          "width": 636,
+          "height": 474,
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/shess.png",
+          "requestedUrl": "https://web.archive.org/web/20181008161052id_/http://www.geocities.jp/viprpg_gw/shess.png",
+          "actualUrl": "https://web.archive.org/web/20181008161052id_/http://www.geocities.jp/viprpg_gw/shess.png",
+          "status": 200,
+          "location": null,
+          "mementoDatetime": "Mon, 08 Oct 2018 16:10:52 GMT",
+          "timestamp": "20181008161052",
+          "file": "capture-4652101950c1dd6775b1.bin",
+          "bytes": 166036,
+          "sha256": "ccf31030dc1d41cf22a2929f5453b72f4c047dff3472656159237f366b255e4b",
+          "expectedDigest": "QYI6UY2IEOGFZD7QBRLIB6ARAFOVWB4D",
+          "actualDigest": "QYI6UY2IEOGFZD7QBRLIB6ARAFOVWB4D",
+          "cdxDigestVerified": true,
+          "proxyRegion": "Hong Kong"
+        }
+      ],
+      "packageSources": [
+        {
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/shelter01.zip",
+          "cdxTimestamp": "20181008161052",
+          "cdxDigest": "FGSIF52Q4AYUBTQHPQ4UHXRXFZLBRHFG",
+          "bytesDownloaded": false
+        }
+      ]
+    },
+    {
+      "no": "12",
+      "sourcePath": "burou.html",
+      "snapshotUrl": "https://web.archive.org/web/20160727145155id_/http://www.geocities.jp:80/viprpg_gw/burou.html",
+      "sourceSha256": "09f910e5162f181b89d1ecb98edad83c181924323dbbbe6691e0213754a482f4",
+      "screenshotSources": [
+        {
+          "sourcePath": "burouSS.png",
+          "local": "/screenshots/2006-gw/12-1.png",
+          "width": 640,
+          "height": 480,
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/burouSS.png",
+          "requestedUrl": "https://web.archive.org/web/20181008161044id_/http://www.geocities.jp/viprpg_gw/burouSS.png",
+          "actualUrl": "https://web.archive.org/web/20181008161044id_/http://www.geocities.jp/viprpg_gw/burouSS.png",
+          "status": 200,
+          "location": null,
+          "mementoDatetime": "Mon, 08 Oct 2018 16:10:44 GMT",
+          "timestamp": "20181008161044",
+          "file": "capture-e8278284b94b47683086.bin",
+          "bytes": 78332,
+          "sha256": "b5b460b2dfd15da0315252614c785323759565e276ea19552571112d58c3934b",
+          "expectedDigest": "AEOORWET5A5DMZ5FA67TWVFMF2RXE2V6",
+          "actualDigest": "AEOORWET5A5DMZ5FA67TWVFMF2RXE2V6",
+          "cdxDigestVerified": true,
+          "proxyRegion": "Hong Kong"
+        }
+      ],
+      "packageSources": [
+        {
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/burou.zip",
+          "cdxTimestamp": "20181008161044",
+          "cdxDigest": "QDMLXIPCFOWAH43GUIU7VIJKZMPB7THU",
+          "bytesDownloaded": false
+        }
+      ]
+    },
+    {
+      "no": "13",
+      "sourcePath": "mosimonise.html",
+      "snapshotUrl": "https://web.archive.org/web/20160727150539id_/http://www.geocities.jp:80/viprpg_gw/mosimonise.html",
+      "sourceSha256": "5bc1ce0631e803f46da5a8b2bd4e88191a4c8ded403e7285f430bc69caf69f5f",
+      "screenshotSources": [
+        {
+          "sourcePath": "vip_tkool2056.png",
+          "local": "/screenshots/2006-gw/13-1.png",
+          "width": 640,
+          "height": 480,
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/vip_tkool2056.png",
+          "requestedUrl": "https://web.archive.org/web/20181008161048id_/http://www.geocities.jp/viprpg_gw/vip_tkool2056.png",
+          "actualUrl": "https://web.archive.org/web/20181008161048id_/http://www.geocities.jp/viprpg_gw/vip_tkool2056.png",
+          "status": 200,
+          "location": null,
+          "mementoDatetime": "Mon, 08 Oct 2018 16:10:48 GMT",
+          "timestamp": "20181008161048",
+          "file": "capture-e2d12a4d9b8be2d9623d.bin",
+          "bytes": 118351,
+          "sha256": "5d41dcc57380aca1189b0cd392defca5dbe80bc21aa9606e18d3f4fa778660a8",
+          "expectedDigest": "4H2BWUCWYEARBXZYDGKTAN3ODNEMS3BC",
+          "actualDigest": "4H2BWUCWYEARBXZYDGKTAN3ODNEMS3BC",
+          "cdxDigestVerified": true,
+          "proxyRegion": "Hong Kong"
+        }
+      ],
+      "packageSources": [
+        {
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/mosimonise.zip",
+          "cdxTimestamp": "20181008161048",
+          "cdxDigest": "NJ46BZKRHC77KVI2MD57X3GJMP6BZUPC",
+          "bytesDownloaded": false
+        }
+      ]
+    },
+    {
+      "no": "14",
+      "sourcePath": "burafro.html",
+      "snapshotUrl": "https://web.archive.org/web/20160727154527id_/http://www.geocities.jp:80/viprpg_gw/burafro.html",
+      "sourceSha256": "cd7f6498e78ca2cc39df85f4bd7a97768e895a2e1ceb8402392f54020831516d",
+      "screenshotSources": [
+        {
+          "sourcePath": "buraSS.png",
+          "local": "/screenshots/2006-gw/14-1.png",
+          "width": 640,
+          "height": 480,
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/buraSS.png",
+          "requestedUrl": "https://web.archive.org/web/20181008161053id_/http://www.geocities.jp/viprpg_gw/buraSS.png",
+          "actualUrl": "https://web.archive.org/web/20181008161053id_/http://www.geocities.jp/viprpg_gw/buraSS.png",
+          "status": 200,
+          "location": null,
+          "mementoDatetime": "Mon, 08 Oct 2018 16:10:53 GMT",
+          "timestamp": "20181008161053",
+          "file": "capture-32a4617047d9152ee45a.bin",
+          "bytes": 280365,
+          "sha256": "4b071f14b987a6524357c541bc2150b96142db77b2cd09f1ecb2f83a8c07e900",
+          "expectedDigest": "GO7X4UR3WR734ZMIT2UG3Z5UGZZKKLNY",
+          "actualDigest": "GO7X4UR3WR734ZMIT2UG3Z5UGZZKKLNY",
+          "cdxDigestVerified": true,
+          "proxyRegion": "Hong Kong"
+        }
+      ],
+      "packageSources": [
+        {
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/burafro.zip",
+          "cdxTimestamp": "20181008161053",
+          "cdxDigest": "VVOYJMXPGWEYTEQRIMNVVERJZGBRUJBU",
+          "bytesDownloaded": false
+        }
+      ]
+    },
+    {
+      "no": "15",
+      "sourcePath": "bokura.html",
+      "snapshotUrl": "https://web.archive.org/web/20160727142152id_/http://www.geocities.jp:80/viprpg_gw/bokura.html",
+      "sourceSha256": "b5bf4240067358cf650d6a2f739331fb5578bfd02897fbba80574ef11933b03e",
+      "screenshotSources": [
+        {
+          "sourcePath": "EDGE3.png",
+          "local": "/screenshots/2006-gw/15-1.png",
+          "width": 640,
+          "height": 480,
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/EDGE3.png",
+          "requestedUrl": "https://web.archive.org/web/20181008161053id_/http://www.geocities.jp/viprpg_gw/EDGE3.png",
+          "actualUrl": "https://web.archive.org/web/20181008161053id_/http://www.geocities.jp/viprpg_gw/EDGE3.png",
+          "status": 200,
+          "location": null,
+          "mementoDatetime": "Mon, 08 Oct 2018 16:10:53 GMT",
+          "timestamp": "20181008161053",
+          "file": "capture-a268d5a5c8dfccc69890.bin",
+          "bytes": 9729,
+          "sha256": "bc9469cfb898ffb9ff23881d4a5cde5a0f5db61dee9f41ef4166da2dca935a6c",
+          "expectedDigest": "CPQPVXWL2WHW6LPIH35HBTORU62NUIDW",
+          "actualDigest": "CPQPVXWL2WHW6LPIH35HBTORU62NUIDW",
+          "cdxDigestVerified": true,
+          "proxyRegion": "Hong Kong"
+        }
+      ],
+      "packageSources": [
+        {
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/bokurano.zip",
+          "cdxTimestamp": "20181008161053",
+          "cdxDigest": "E2R2QKHYMJCHGCS3JSBRHTFTE6RDCR52",
+          "bytesDownloaded": false
+        }
+      ]
+    },
+    {
+      "no": "16",
+      "sourcePath": "saraI.html",
+      "snapshotUrl": "https://web.archive.org/web/20160727142202id_/http://www.geocities.jp:80/viprpg_gw/saraI.html",
+      "sourceSha256": "6da60e814c8b492cf0dffe851e830d308f5f4a719150cac83cb4d1989428bcb1",
+      "screenshotSources": [
+        {
+          "sourcePath": "hidoiSS.png",
+          "local": "/screenshots/2006-gw/16-1.png",
+          "width": 640,
+          "height": 480,
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/hidoiSS.png",
+          "requestedUrl": "https://web.archive.org/web/20181008161052id_/http://www.geocities.jp/viprpg_gw/hidoiSS.png",
+          "actualUrl": "https://web.archive.org/web/20181008161052id_/http://www.geocities.jp/viprpg_gw/hidoiSS.png",
+          "status": 200,
+          "location": null,
+          "mementoDatetime": "Mon, 08 Oct 2018 16:10:52 GMT",
+          "timestamp": "20181008161052",
+          "file": "capture-e0a20a2013b526bbaf7f.bin",
+          "bytes": 7956,
+          "sha256": "3a231093ae8317502086b1452ab2ae55e20296ae538e84585442ab9641d4f7f5",
+          "expectedDigest": "S4YFKIT5XIGJUXTZD4E7QPCW2TCUNRRY",
+          "actualDigest": "S4YFKIT5XIGJUXTZD4E7QPCW2TCUNRRY",
+          "cdxDigestVerified": true,
+          "proxyRegion": "Hong Kong"
+        }
+      ],
+      "packageSources": [
+        {
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/iiiii.zip",
+          "cdxTimestamp": "20181008161051",
+          "cdxDigest": "T2T3BTNLCCWAINOTCQU63B3VC6G4UUBM",
+          "bytesDownloaded": false
+        }
+      ]
+    },
+    {
+      "no": "17",
+      "sourcePath": "pantu.html",
+      "snapshotUrl": "https://web.archive.org/web/20160727150544id_/http://www.geocities.jp:80/viprpg_gw/pantu.html",
+      "sourceSha256": "8dceb141126f062fb22ae1b485f694e3da555bd42aa2ea8dffd654e4ebb74c42",
+      "screenshotSources": [
+        {
+          "sourcePath": "pantuSS.png",
+          "local": "/screenshots/2006-gw/17-1.png",
+          "width": 640,
+          "height": 480,
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/pantuSS.png",
+          "requestedUrl": "https://web.archive.org/web/20181008161051id_/http://www.geocities.jp/viprpg_gw/pantuSS.png",
+          "actualUrl": "https://web.archive.org/web/20181008161051id_/http://www.geocities.jp/viprpg_gw/pantuSS.png",
+          "status": 200,
+          "location": null,
+          "mementoDatetime": "Mon, 08 Oct 2018 16:10:51 GMT",
+          "timestamp": "20181008161051",
+          "file": "capture-38690f82a26c7c09a057.bin",
+          "bytes": 103656,
+          "sha256": "54b630b8d2cef059abba896db56ec252db213fbabb832cf3271a550f4ff9469c",
+          "expectedDigest": "LAAZLLXG4AAPJJLU2KDPRRLUSYNGP6TW",
+          "actualDigest": "LAAZLLXG4AAPJJLU2KDPRRLUSYNGP6TW",
+          "cdxDigestVerified": true,
+          "proxyRegion": "Hong Kong"
+        }
+      ],
+      "packageSources": [
+        {
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/Panty_eater.zip",
+          "cdxTimestamp": "20181008161051",
+          "cdxDigest": "GUONELJTMXMUHM4S7WYRFDFAJVRVCDCH",
+          "bytesDownloaded": false
+        }
+      ]
+    },
+    {
+      "no": "18",
+      "sourcePath": "tya-han.html",
+      "snapshotUrl": "https://web.archive.org/web/20160727152013id_/http://www.geocities.jp:80/viprpg_gw/tya-han.html",
+      "sourceSha256": "8883817bfd3d1d6dfa21d37b28f6b0fcc09ea52df38193bca8f4f15b455bde17",
+      "screenshotSources": [
+        {
+          "sourcePath": "fss.png",
+          "local": "/screenshots/2006-gw/18-1.png",
+          "width": 640,
+          "height": 480,
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/fss.png",
+          "requestedUrl": "https://web.archive.org/web/20181008161049id_/http://www.geocities.jp/viprpg_gw/fss.png",
+          "actualUrl": "https://web.archive.org/web/20181008161049id_/http://www.geocities.jp/viprpg_gw/fss.png",
+          "status": 200,
+          "location": null,
+          "mementoDatetime": "Mon, 08 Oct 2018 16:10:49 GMT",
+          "timestamp": "20181008161049",
+          "file": "capture-101f00d55f3ccb7609e2.bin",
+          "bytes": 38350,
+          "sha256": "ff21ff0207b83405ebe82a519254703be719c7551138455375f9b92d5c9cad6f",
+          "expectedDigest": "EPCHXJND3XU5ZNFEZXSDZM76BPVMFMZ3",
+          "actualDigest": "EPCHXJND3XU5ZNFEZXSDZM76BPVMFMZ3",
+          "cdxDigestVerified": true,
+          "proxyRegion": "Hong Kong"
+        }
+      ],
+      "packageSources": [
+        {
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/FriedRice.zip",
+          "cdxTimestamp": "20181008161049",
+          "cdxDigest": "ZG3ACPE57RRP5PKE3VGEAEK537MCVVMH",
+          "bytesDownloaded": false
+        }
+      ]
+    },
+    {
+      "no": "19",
+      "sourcePath": "mosimomaoumusume.html",
+      "snapshotUrl": "https://web.archive.org/web/20160727152003id_/http://www.geocities.jp:80/viprpg_gw/mosimomaoumusume.html",
+      "sourceSha256": "9b12b6c02f798a3698aab6468489340974eb7d578ecd43a8fa156a815d10c052",
+      "screenshotSources": [
+        {
+          "sourcePath": "sks.png",
+          "local": "/screenshots/2006-gw/19-1.png",
+          "width": 640,
+          "height": 480,
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/sks.png",
+          "requestedUrl": "https://web.archive.org/web/20181008161052id_/http://www.geocities.jp/viprpg_gw/sks.png",
+          "actualUrl": "https://web.archive.org/web/20181008161052id_/http://www.geocities.jp/viprpg_gw/sks.png",
+          "status": 200,
+          "location": null,
+          "mementoDatetime": "Mon, 08 Oct 2018 16:10:52 GMT",
+          "timestamp": "20181008161052",
+          "file": "capture-0ea986695046acb539ae.bin",
+          "bytes": 38545,
+          "sha256": "07faf0ebe0dae136cec02a28a416c249ce0543bb2171c3c939525be1d870fa48",
+          "expectedDigest": "UEN7LCOEHRPAMS334R5KIWMGNI2TDH7Y",
+          "actualDigest": "UEN7LCOEHRPAMS334R5KIWMGNI2TDH7Y",
+          "cdxDigestVerified": true,
+          "proxyRegion": "Hong Kong"
+        }
+      ],
+      "packageSources": [
+        {
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/mosimomusume.zip",
+          "cdxTimestamp": "20131216220937",
+          "cdxDigest": "ZS7GWLXSF7AJOC3NTXD77FLLRXSRNZA6",
+          "bytesDownloaded": false
+        }
+      ]
+    },
+    {
+      "no": "20",
+      "sourcePath": "aruberuto.html",
+      "snapshotUrl": "https://web.archive.org/web/20160727151315id_/http://www.geocities.jp:80/viprpg_gw/aruberuto.html",
+      "sourceSha256": "ad338f2774bb627b3c58d6472c97e1446b32d1dcf68d23d0d4795bdfd3239762",
+      "screenshotSources": [
+        {
+          "sourcePath": "49_1.png",
+          "local": "/screenshots/2006-gw/20-1.png",
+          "width": 640,
+          "height": 480,
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/49_1.png",
+          "requestedUrl": "https://web.archive.org/web/20181008161048id_/http://www.geocities.jp/viprpg_gw/49_1.png",
+          "actualUrl": "https://web.archive.org/web/20181008161048id_/http://www.geocities.jp/viprpg_gw/49_1.png",
+          "status": 200,
+          "location": null,
+          "mementoDatetime": "Mon, 08 Oct 2018 16:10:48 GMT",
+          "timestamp": "20181008161048",
+          "file": "capture-6cbf79e2f1d81ae400d3.bin",
+          "bytes": 49624,
+          "sha256": "33405479fc8c263c02227c2895724b9f7cb713285d971191f75dcdb2a8704339",
+          "expectedDigest": "5SRQH4JME2NJFNWNXYBV37UMGCPZMEHS",
+          "actualDigest": "5SRQH4JME2NJFNWNXYBV37UMGCPZMEHS",
+          "cdxDigestVerified": true,
+          "proxyRegion": "Hong Kong"
+        }
+      ],
+      "packageSources": [
+        {
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/aruberutopantu.zip",
+          "cdxTimestamp": "20181008161048",
+          "cdxDigest": "53YXYKEWROSWNGX47QQALXKZLNNQUMVP",
+          "bytesDownloaded": false
+        }
+      ]
+    },
+    {
+      "no": "21",
+      "sourcePath": "junk.html",
+      "snapshotUrl": "https://web.archive.org/web/20160727151943id_/http://www.geocities.jp:80/viprpg_gw/junk.html",
+      "sourceSha256": "6473591fa1300bc0b5cccb23e515d25857b5fdf284174d5a1ad27cf422447972",
+      "screenshotSources": [
+        {
+          "sourcePath": "JS.png",
+          "local": "/screenshots/2006-gw/21-1.png",
+          "width": 640,
+          "height": 480,
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/JS.png",
+          "requestedUrl": "https://web.archive.org/web/20181008161050id_/http://www.geocities.jp/viprpg_gw/JS.png",
+          "actualUrl": "https://web.archive.org/web/20181008161050id_/http://www.geocities.jp/viprpg_gw/JS.png",
+          "status": 200,
+          "location": null,
+          "mementoDatetime": "Mon, 08 Oct 2018 16:10:50 GMT",
+          "timestamp": "20181008161050",
+          "file": "capture-d01f4048aeff0b73335a.bin",
+          "bytes": 7520,
+          "sha256": "d8d31f8606dbb2e14bd2cad8dd36036a71a00597eadd4af304b3bc0a43aa99a6",
+          "expectedDigest": "4QLSY5B5MPGNGHSY3ZFH2XDBWMXXWUFO",
+          "actualDigest": "4QLSY5B5MPGNGHSY3ZFH2XDBWMXXWUFO",
+          "cdxDigestVerified": true,
+          "proxyRegion": "Hong Kong"
+        }
+      ],
+      "packageSources": [
+        {
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/JunkSoul.zip",
+          "cdxTimestamp": "20181008161050",
+          "cdxDigest": "TWGTYNNH5ZHT36NS7AWPZVE25Q7LX4EJ",
+          "bytesDownloaded": false
+        }
+      ]
+    },
+    {
+      "no": "22",
+      "sourcePath": "uhyo.html",
+      "snapshotUrl": "https://web.archive.org/web/20160727151335id_/http://www.geocities.jp:80/viprpg_gw/uhyo.html",
+      "sourceSha256": "85056a587bb188a5a5e2b4a01bba03891ec56b2bb08bf7950fd1b0b5116f22db",
+      "screenshotSources": [
+        {
+          "sourcePath": "image001.png",
+          "local": "/screenshots/2006-gw/22-1.png",
+          "width": 640,
+          "height": 479,
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/image001.png",
+          "requestedUrl": "https://web.archive.org/web/20181008161045id_/http://www.geocities.jp/viprpg_gw/image001.png",
+          "actualUrl": "https://web.archive.org/web/20181008161045id_/http://www.geocities.jp/viprpg_gw/image001.png",
+          "status": 200,
+          "location": null,
+          "mementoDatetime": "Mon, 08 Oct 2018 16:10:45 GMT",
+          "timestamp": "20181008161045",
+          "file": "capture-6198c6c2408202e1fe50.bin",
+          "bytes": 59231,
+          "sha256": "981ca0061c15a9c7c685e96b472439d5a5ed2644f7c3f2eb7bc1a8cf4a230bf1",
+          "expectedDigest": "AWIIPGWYEJ44AHC5MBYBQ73Y42ZMC2DN",
+          "actualDigest": "AWIIPGWYEJ44AHC5MBYBQ73Y42ZMC2DN",
+          "cdxDigestVerified": true,
+          "proxyRegion": "Hong Kong"
+        }
+      ],
+      "packageSources": [
+        {
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/uhyo.zip",
+          "cdxTimestamp": "20181008161046",
+          "cdxDigest": "RMOAPPTOAO2KZFPPYZQZ66NWPT4IRPNA",
+          "bytesDownloaded": false
+        }
+      ]
+    },
+    {
+      "no": "23",
+      "sourcePath": "burasugi.html",
+      "snapshotUrl": "https://web.archive.org/web/20160727142157id_/http://www.geocities.jp:80/viprpg_gw/burasugi.html",
+      "sourceSha256": "79b25033a5321d13c93013d0057229b41519b8662d47f93ab05dc49a41de7772",
+      "screenshotSources": [
+        {
+          "sourcePath": "burasugi.png",
+          "local": "/screenshots/2006-gw/23-1.png",
+          "width": 600,
+          "height": 450,
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/burasugi.png",
+          "requestedUrl": "https://web.archive.org/web/20181008161047id_/http://www.geocities.jp/viprpg_gw/burasugi.png",
+          "actualUrl": "https://web.archive.org/web/20181008161047id_/http://www.geocities.jp/viprpg_gw/burasugi.png",
+          "status": 200,
+          "location": null,
+          "mementoDatetime": "Mon, 08 Oct 2018 16:10:47 GMT",
+          "timestamp": "20181008161047",
+          "file": "capture-4ca1a7fa3751ed860ece.bin",
+          "bytes": 121133,
+          "sha256": "8ce75f913ce33269f57a0a5c8733eb32b4af760db2b4285b64c28834d6ef60bb",
+          "expectedDigest": "QBHI6H36K2NKD4ZSL7JZLHA57FD4I2H4",
+          "actualDigest": "QBHI6H36K2NKD4ZSL7JZLHA57FD4I2H4",
+          "cdxDigestVerified": true,
+          "proxyRegion": "Hong Kong"
+        }
+      ],
+      "packageSources": [
+        {
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/buraian.zip",
+          "cdxTimestamp": "20181008161047",
+          "cdxDigest": "BUFN6KVOG2L5H566K66F4QERSGOHGSQ6",
+          "bytesDownloaded": false
+        }
+      ]
+    },
+    {
+      "no": "24",
+      "sourcePath": "ds.html",
+      "snapshotUrl": "https://web.archive.org/web/20160727145159id_/http://www.geocities.jp:80/viprpg_gw/ds.html",
+      "sourceSha256": "0be905a26ebe9dc3ad4542324bb63b022bf965cc5ef9d363c9bba30f43ca0553",
+      "screenshotSources": [
+        {
+          "sourcePath": "DSSS.png",
+          "local": "/screenshots/2006-gw/24-1.png",
+          "width": 640,
+          "height": 480,
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/DSSS.png",
+          "requestedUrl": "https://web.archive.org/web/20181008161050id_/http://www.geocities.jp/viprpg_gw/DSSS.png",
+          "actualUrl": "https://web.archive.org/web/20181008161050id_/http://www.geocities.jp/viprpg_gw/DSSS.png",
+          "status": 200,
+          "location": null,
+          "mementoDatetime": "Mon, 08 Oct 2018 16:10:50 GMT",
+          "timestamp": "20181008161050",
+          "file": "capture-cdedce94e3102e86ba8f.bin",
+          "bytes": 39415,
+          "sha256": "75d1870d92ef5616ba127e3884b7cf79441927cbf9543abc56452b89a127971b",
+          "expectedDigest": "FAURPSEL4ZVMN62SMI35QX75BGIGTL5Q",
+          "actualDigest": "FAURPSEL4ZVMN62SMI35QX75BGIGTL5Q",
+          "cdxDigestVerified": true,
+          "proxyRegion": "Hong Kong"
+        }
+      ],
+      "packageSources": [
+        {
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/DS.zip",
+          "cdxTimestamp": "20181008161050",
+          "cdxDigest": "GMJXXE22XH3A5OYQOCY2ZQ4L4MXBIUAG",
+          "bytesDownloaded": false
+        }
+      ]
+    },
+    {
+      "no": "25",
+      "sourcePath": "kore.html",
+      "snapshotUrl": "https://web.archive.org/web/20160727151948id_/http://www.geocities.jp:80/viprpg_gw/kore.html",
+      "sourceSha256": "182fe6ba3f4cbb43f0a4173e3bab5a6820a607ad7992f36c420bf4bc36fa24ce",
+      "screenshotSources": [
+        {
+          "sourcePath": "image04.png",
+          "local": "/screenshots/2006-gw/25-1.png",
+          "width": 640,
+          "height": 480,
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/image04.png",
+          "requestedUrl": "https://web.archive.org/web/20181008161052id_/http://www.geocities.jp/viprpg_gw/image04.png",
+          "actualUrl": "https://web.archive.org/web/20181008161052id_/http://www.geocities.jp/viprpg_gw/image04.png",
+          "status": 200,
+          "location": null,
+          "mementoDatetime": "Mon, 08 Oct 2018 16:10:52 GMT",
+          "timestamp": "20181008161052",
+          "file": "capture-70812694c609630a9413.bin",
+          "bytes": 28635,
+          "sha256": "9aec2c7438d1f2b1ff70830d926598aa0d94dd3f351975f5bbb28ced8119446c",
+          "expectedDigest": "YPVWTMAN6YK52WHFN6ZEUFYR5X3VI5RP",
+          "actualDigest": "YPVWTMAN6YK52WHFN6ZEUFYR5X3VI5RP",
+          "cdxDigestVerified": true,
+          "proxyRegion": "Hong Kong"
+        }
+      ],
+      "packageSources": [
+        {
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/monogatari.zip",
+          "cdxTimestamp": "20181008161052",
+          "cdxDigest": "EBRMJE4OVWSQWMC34OARYCCISMC4JAVD",
+          "bytesDownloaded": false
+        }
+      ]
+    },
+    {
+      "no": "26",
+      "sourcePath": "yutori.html",
+      "snapshotUrl": "https://web.archive.org/web/20160727152018id_/http://www.geocities.jp:80/viprpg_gw/yutori.html",
+      "sourceSha256": "414c8b7396dc252e19dda3e9b617ead3c1e7bffe46de49510a4b0f069373131b",
+      "screenshotSources": [
+        {
+          "sourcePath": "yutoriss.png",
+          "local": "/screenshots/2006-gw/26-1.png",
+          "width": 640,
+          "height": 480,
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/yutoriss.png",
+          "requestedUrl": "https://web.archive.org/web/20181008161049id_/http://www.geocities.jp/viprpg_gw/yutoriss.png",
+          "actualUrl": "https://web.archive.org/web/20181008161049id_/http://www.geocities.jp/viprpg_gw/yutoriss.png",
+          "status": 200,
+          "location": null,
+          "mementoDatetime": "Mon, 08 Oct 2018 16:10:49 GMT",
+          "timestamp": "20181008161049",
+          "file": "capture-145fea01e334c2698c14.bin",
+          "bytes": 38870,
+          "sha256": "f0d3e310936aa7b7f86369400ad554681eb6f894333e7d5ba5a8e8734da0852f",
+          "expectedDigest": "6CEF2U6OT5TCH42CTSB53TTXJXDNRBOW",
+          "actualDigest": "6CEF2U6OT5TCH42CTSB53TTXJXDNRBOW",
+          "cdxDigestVerified": true,
+          "proxyRegion": "Hong Kong"
+        }
+      ],
+      "packageSources": [
+        {
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/yutori.zip",
+          "cdxTimestamp": "20181008161049",
+          "cdxDigest": "EDAFFRHGQNKHY7NVA355D2THAIVXZCPI",
+          "bytesDownloaded": false
+        }
+      ]
+    },
+    {
+      "no": "27",
+      "sourcePath": "ninninkioku.html",
+      "snapshotUrl": "https://web.archive.org/web/20160727153755id_/http://www.geocities.jp:80/viprpg_gw/ninninkioku.html",
+      "sourceSha256": "76f024a87036e2a6ae1671b009d9d71434843f5558a4d7d893dec6bebc9171f4",
+      "screenshotSources": [
+        {
+          "sourcePath": "ninninss.png",
+          "local": "/screenshots/2006-gw/27-1.png",
+          "width": 640,
+          "height": 480,
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/ninninss.png",
+          "requestedUrl": "https://web.archive.org/web/20181008161045id_/http://www.geocities.jp/viprpg_gw/ninninss.png",
+          "actualUrl": "https://web.archive.org/web/20181008161045id_/http://www.geocities.jp/viprpg_gw/ninninss.png",
+          "status": 200,
+          "location": null,
+          "mementoDatetime": "Mon, 08 Oct 2018 16:10:45 GMT",
+          "timestamp": "20181008161045",
+          "file": "capture-7ff2aba9101fc47ce103.bin",
+          "bytes": 83786,
+          "sha256": "3e389a8439146fc3b0c3a20cf53a9563c5ff930a0e4eb2d770f422f6f79f827e",
+          "expectedDigest": "TVKFGK7XL33T56RYXGV6EMQVD4QTUUXL",
+          "actualDigest": "TVKFGK7XL33T56RYXGV6EMQVD4QTUUXL",
+          "cdxDigestVerified": true,
+          "proxyRegion": "Hong Kong"
+        }
+      ],
+      "packageSources": [
+        {
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/kioku.zip",
+          "cdxTimestamp": "20131216221625",
+          "cdxDigest": "QISPDK4NNNQ43N7PGVBMJ24XPCS6WSJN",
+          "bytesDownloaded": false
+        }
+      ]
+    },
+    {
+      "no": "28",
+      "sourcePath": "let.html",
+      "snapshotUrl": "https://web.archive.org/web/20160727150534id_/http://www.geocities.jp:80/viprpg_gw/let.html",
+      "sourceSha256": "eba3b243a5b6969923a9bc3316058be682746b7352bd122a758d54513a5e5634",
+      "screenshotSources": [
+        {
+          "sourcePath": "letss.png",
+          "local": "/screenshots/2006-gw/28-1.png",
+          "width": 640,
+          "height": 480,
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/letss.png",
+          "requestedUrl": "https://web.archive.org/web/20181008161048id_/http://www.geocities.jp/viprpg_gw/letss.png",
+          "actualUrl": "https://web.archive.org/web/20181008161048id_/http://www.geocities.jp/viprpg_gw/letss.png",
+          "status": 200,
+          "location": null,
+          "mementoDatetime": "Mon, 08 Oct 2018 16:10:48 GMT",
+          "timestamp": "20181008161048",
+          "file": "capture-e198b80f2f90544b20b4.bin",
+          "bytes": 62178,
+          "sha256": "2634570dfadfebf9440b4eb4c6efe1e6a7636ab6efc6406ae396d62b28d1a1d6",
+          "expectedDigest": "DVM2S4OISVVXC5MKAC4GEOLVOPEPM6ZT",
+          "actualDigest": "DVM2S4OISVVXC5MKAC4GEOLVOPEPM6ZT",
+          "cdxDigestVerified": true,
+          "proxyRegion": "Hong Kong"
+        }
+      ],
+      "packageSources": [
+        {
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/ver010.zip",
+          "cdxTimestamp": "20181008161049",
+          "cdxDigest": "WF6OHXT77JNTK3PZCGR3IBRWETMZ3MFJ",
+          "bytesDownloaded": false
+        }
+      ]
+    },
+    {
+      "no": "29",
+      "sourcePath": "loop.html",
+      "snapshotUrl": "https://web.archive.org/web/20160727151330id_/http://www.geocities.jp:80/viprpg_gw/loop.html",
+      "sourceSha256": "26db123b0510c577239113c67d005ec57f07e0e027a57aae058e586f8c9a1403",
+      "screenshotSources": [
+        {
+          "sourcePath": "ssss.png",
+          "local": "/screenshots/2006-gw/29-1.png",
+          "width": 640,
+          "height": 480,
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/ssss.png",
+          "requestedUrl": "https://web.archive.org/web/20181008161050id_/http://www.geocities.jp/viprpg_gw/ssss.png",
+          "actualUrl": "https://web.archive.org/web/20181008161050id_/http://www.geocities.jp/viprpg_gw/ssss.png",
+          "status": 200,
+          "location": null,
+          "mementoDatetime": "Mon, 08 Oct 2018 16:10:50 GMT",
+          "timestamp": "20181008161050",
+          "file": "capture-1b03aa11d9136bf3263d.bin",
+          "bytes": 13967,
+          "sha256": "b6caef302ecf310013837992818c66cc2bb1f18b500161b3062db2b0e3e30445",
+          "expectedDigest": "TKBVZJUSBCLEBWRGWGNPVTKXV6MLIROD",
+          "actualDigest": "TKBVZJUSBCLEBWRGWGNPVTKXV6MLIROD",
+          "cdxDigestVerified": true,
+          "proxyRegion": "Hong Kong"
+        }
+      ],
+      "packageSources": [
+        {
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/loop.zip",
+          "cdxTimestamp": "20181008161050",
+          "cdxDigest": "OSAIAICWSLK6TBD4UWNL2MSZNPP5LB35",
+          "bytesDownloaded": false
+        }
+      ]
+    },
+    {
+      "no": "30",
+      "sourcePath": "genki.html",
+      "snapshotUrl": "https://web.archive.org/web/20160727154537id_/http://www.geocities.jp:80/viprpg_gw/genki.html",
+      "sourceSha256": "e52b346cb5df45e27051cb5cc7a88d42d74ed59f532e19a2aa0756d424912fee",
+      "screenshotSources": [
+        {
+          "sourcePath": "genkiss.png",
+          "local": "/screenshots/2006-gw/30-1.png",
+          "width": 640,
+          "height": 480,
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/genkiss.png",
+          "requestedUrl": "https://web.archive.org/web/20181008161045id_/http://www.geocities.jp/viprpg_gw/genkiss.png",
+          "actualUrl": "https://web.archive.org/web/20181008161045id_/http://www.geocities.jp/viprpg_gw/genkiss.png",
+          "status": 200,
+          "location": null,
+          "mementoDatetime": "Mon, 08 Oct 2018 16:10:45 GMT",
+          "timestamp": "20181008161045",
+          "file": "capture-16248912911cdb477fc4.bin",
+          "bytes": 29360,
+          "sha256": "498e161b3514aa40b615cfc34b3ffad4f35b07d08ca32d24efa9acd54f1fe06d",
+          "expectedDigest": "2RDS7TKXIZH3HS7WQP2TSM7BAY2AS7WZ",
+          "actualDigest": "2RDS7TKXIZH3HS7WQP2TSM7BAY2AS7WZ",
+          "cdxDigestVerified": true,
+          "proxyRegion": "Hong Kong"
+        }
+      ],
+      "packageSources": [
+        {
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/Genkido.zip",
+          "cdxTimestamp": "20181008161045",
+          "cdxDigest": "NBRFJHP64KQTFWEG7EDOSWOGFIHG6OEL",
+          "bytesDownloaded": false
+        }
+      ]
+    },
+    {
+      "no": "31",
+      "sourcePath": "gomes.html",
+      "snapshotUrl": "https://web.archive.org/web/20160727145732id_/http://www.geocities.jp:80/viprpg_gw/gomes.html",
+      "sourceSha256": "f815047918ca26c8628b35159d219178602063f3cbf9138f060ba5055756e18f",
+      "screenshotSources": [
+        {
+          "sourcePath": "title.png",
+          "local": "/screenshots/2006-gw/31-1.png",
+          "width": 640,
+          "height": 480,
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/title.png",
+          "requestedUrl": "https://web.archive.org/web/20181008161046id_/http://www.geocities.jp/viprpg_gw/title.png",
+          "actualUrl": "https://web.archive.org/web/20181008161046id_/http://www.geocities.jp/viprpg_gw/title.png",
+          "status": 200,
+          "location": null,
+          "mementoDatetime": "Mon, 08 Oct 2018 16:10:46 GMT",
+          "timestamp": "20181008161046",
+          "file": "capture-94beac439de5ca439779.bin",
+          "bytes": 5785,
+          "sha256": "0d6e6582e99ea5c45488550ef3e4ff05980aee62b9ba328abcd514b359def940",
+          "expectedDigest": "TE2OIIRADIRLCZIWAUWSFHV5LEOO5ZWZ",
+          "actualDigest": "TE2OIIRADIRLCZIWAUWSFHV5LEOO5ZWZ",
+          "cdxDigestVerified": true,
+          "proxyRegion": "Hong Kong"
+        }
+      ],
+      "packageSources": [
+        {
+          "originalUrl": "http://www.geocities.jp/viprpg_gw/gomes.zip",
+          "cdxTimestamp": "20181008161046",
+          "cdxDigest": "WI3SWMXRTRMGPZOBUGHA7R247XYKXXRA",
+          "bytesDownloaded": false
+        }
+      ]
+    }
+  ],
+  "imageGaps": [],
+  "sourceDetailGaps": [],
+  "legacyCatalogueCorrection": {
+    "before": 30,
+    "after": 31,
+    "diagnosis": "catch/2006-gw/investigation/legacy-parser-diagnosis.json",
+    "identifierMap": "catch/2006-gw/investigation/legacy-id-map.json"
+  },
+  "titleVariants": [
+    {
+      "no": "12",
+      "catalogueTitleUrl": "https://web.archive.org/web/20140708172225id_/http://www.geocities.jp/viprpg_gw/main.html",
+      "introductionUrl": "https://web.archive.org/web/20160725164316id_/http://www.geocities.jp:80/viprpg_gw/sakuhinsyoukai.html"
+    }
+  ],
+  "banner": {
+    "sourcePath": "festa.png",
+    "local": "/banners/2006-gw.png",
+    "width": 850,
+    "height": 50,
+    "originalUrl": "http://www.geocities.jp/viprpg_gw/festa.png",
+    "requestedUrl": "https://web.archive.org/web/20140708172226id_/http://www.geocities.jp/viprpg_gw/festa.png",
+    "actualUrl": "https://web.archive.org/web/20140708172226id_/http://www.geocities.jp/viprpg_gw/festa.png",
+    "status": 200,
+    "location": null,
+    "mementoDatetime": "Tue, 08 Jul 2014 17:22:26 GMT",
+    "timestamp": "20140708172226",
+    "file": "capture-b8134758c632c8213c24.bin",
+    "bytes": 6440,
+    "sha256": "9252f6b6bdc2c89c2fc7243c8342e793bc2b1bce430b48d9b3312bb705dd2dc5",
+    "expectedDigest": "OL3NF2UG36XZEB7Q4JGIZI2NYG5YTS7N",
+    "actualDigest": "OL3NF2UG36XZEB7Q4JGIZI2NYG5YTS7N",
+    "cdxDigestVerified": true,
+    "proxyRegion": "Hong Kong"
+  },
+  "sourceEvidence": [
+    "catch/2006-gw/investigation/original-origin-identity-review.json",
+    "catch/2006-gw/investigation/original-normalized-inventory.json",
+    "catch/2006-gw/investigation/original-archive-retrieval.json",
+    "catch/2006-gw/investigation/catalogue-rows.json"
+  ],
+  "handling": "Rebuild the source's 31 separate catalogue lines; the legacy cross-line regex merged two entries at an author-name delimiter. Preserve catalogue names and the introduction-list title variation. Store original bytes and source content without content screening. Package links use observed archive index records, but package bytes were not downloaded or validated.",
+  "desktopReview": "passed",
+  "desktopEvidence": [
+    "catch/2006-gw/desktop-review.json"
+  ]
+}

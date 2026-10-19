@@ -1,0 +1,20 @@
+<html><head><meta charset="UTF-8">
+  <title>title</title>
+ </head><body background="sougen.png"><br>
+ 
+<a href="main.html" target="main"><img src="gwmaturi.png" border="0"></a><br><br><br>
+<a href="tenpure.html" target="main"><img src="tenpure.png" border="0"></a><br><br><br>
+<a href="sankashikaku_houhou.html" target="main"><img src="sankashikaku_houhou.png" border="0"></a><br><br><br>
+<a href="sakuhinsyoukai.html" target="main"><img src="sakuhinsyoukai.png" border="0"></a><br><br><br>
+<a href="sakuhinkomento.html" target="main"><img src="sakuhinkomento.png" border="0"></a><br><br><br>
+<a href="sonota.html" target="main"><img src="sonota.png" border="0"></a><br><br><br>
+<img src="mosimo.png" border="0">
+ 
+<script>
+          addEventListener('click',function(event){
+            var a=event.target.closest("a[target=\"main\"]");if(!a)return;
+            var url=new URL(a.href);
+            if(url.origin!==location.origin)return;
+            event.preventDefault();parent.postMessage({type:'archive-main-navigation',url:url.href},'*');
+          });
+        </script></body></html>
