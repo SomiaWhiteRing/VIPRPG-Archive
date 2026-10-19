@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2025-gw",
+  "activeFestival": "2025-summer",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -1261,6 +1261,34 @@
         "catch/2005-kouhaku/desktop-review.json"
       ],
       "notes": "原站已改为land.to退服公告，图片地址亦返回同一公告；从存档恢复单页目录26条、26张内嵌截图和实际页头。原页并无独立介绍链接，整理版以原始行资料生成26个详情，保留红组14／白组12及原编号。34份页面／图片均通过CDX摘要核对，原貌34文件无资源缺口；全部26个整理详情和双视图桌面导航通过。作者等未在现存目录独立提供的字段保留未确认，不补写介绍；26个ZIP仅保留入口／索引，未验包。"
+    },
+    {
+      "festivalId": "2025-gw",
+      "reviewedAt": "2026-10-20",
+      "dataSha256": "10c89133804ca5a1253d797449337d9938879653f93e089d34cf5ee6cffde784",
+      "works": 30,
+      "screenshotFiles": 60,
+      "screenshotReferences": 60,
+      "status": "reviewed",
+      "originalCatalogueCompleteness": "verified-against-live-organizer-table-and-submissions",
+      "outstandingSourceDetails": 0,
+      "outstandingImageSourceUrls": 0,
+      "outstandingScreenshotRows": 0,
+      "outstandingOtherResources": 0,
+      "outstandingAuxiliaryPages": 0,
+      "downloadEntries": 30,
+      "packageBytesValidated": false,
+      "sourceEvidence": [
+        "catch/2025-gw/recovery.json",
+        "catch/2025-gw/source-comparison.json",
+        "catch/2025-gw/investigation/live-page-verification.json",
+        "catch/2025-gw/investigation/gallery-resource-verification.json",
+        "catch/2025-gw/investigation/title-provenance-review.json"
+      ],
+      "desktopEvidence": [
+        "catch/2025-gw/desktop-review.json"
+      ],
+      "notes": "日本出口直取仍可用源站，官方目录与投稿列表均30条（含00示例）；恢复30图标、60画廊图片，补回旧脚本每条6张上限漏掉的7张，28作者留言、29主办留言及30个公开下载入口。63页HTML、3份CSS、429项资源组成495文件原貌版，1363本地引用无缺失；原站截图总览40+4共44格另行保留。No10保留官方目录及评分页支持的既有名称，项目页异名另记。整理版30详情、原貌30评分页和30项目页桌面检查通过，代表链路与9/10图查看器点击通过。两次429分别冷却后补齐；不审看内容、不新增受限；游戏包未下载。"
     }
   ],
   "originalViewsReviewed": [
@@ -1553,6 +1581,13 @@
       "evidence": [
         "catch/2005-kouhaku/original-view.json",
         "catch/2005-kouhaku/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2025-gw",
+      "evidence": [
+        "catch/2025-gw/original-view.json",
+        "catch/2025-gw/desktop-review.json"
       ]
     }
   ],

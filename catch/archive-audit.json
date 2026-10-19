@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T19:22:14.578Z",
+  "generatedAt": "2026-10-19T20:41:48.832Z",
   "scope": "Local inventory; field presence is not source verification or completeness.",
   "totals": {
     "festivals": 74,
@@ -10,15 +10,15 @@
     "restrictedDetails": 7,
     "withComments": 3156,
     "withScreenshots": 3309,
-    "withDownload": 1907,
-    "withSource": 2702,
-    "referencedAssets": 7689,
+    "withDownload": 1937,
+    "withSource": 2732,
+    "referencedAssets": 7697,
     "assetIssues": 0
   },
   "festivals": [
     {
       "id": "2025-gw",
-      "dataSha256": "6a3c28f91c21a73deb5c5fad1fd3c5c7b77371c2627123837ac0fef8a09e4128",
+      "dataSha256": "10c89133804ca5a1253d797449337d9938879653f93e089d34cf5ee6cffde784",
       "listedSourceUrl": "https://itch.io/jam/vip-gw2025",
       "works": 30,
       "banners": 1,
@@ -28,9 +28,9 @@
       "withAuthor": 30,
       "withComments": 30,
       "withScreenshots": 30,
-      "withDownload": 0,
-      "withSource": 0,
-      "cachedHtmlFiles": 65,
+      "withDownload": 30,
+      "withSource": 30,
+      "cachedHtmlFiles": 129,
       "summaries": [
         "catch/2025-gw/2025-gw-scrape-summary.json"
       ]

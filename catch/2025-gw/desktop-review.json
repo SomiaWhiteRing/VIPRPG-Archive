@@ -1,0 +1,118 @@
+{
+  "festivalId": "2025-gw",
+  "reviewedAt": "2026-10-20",
+  "status": "passed",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "formatted": {
+    "checkedRoutes": 30,
+    "titleAndAuthorMetadataMatches": true,
+    "galleryReferences": 60,
+    "loadedGalleryImages": 60,
+    "issues": [],
+    "viewer05": {
+      "openedByClick": true,
+      "counter": "9 / 9",
+      "image": "/screenshots/2025-gw/05-source-9.png",
+      "loaded": true,
+      "nextCounter": "1 / 9"
+    },
+    "viewer10": {
+      "openedByClick": true,
+      "counter": "10 / 10",
+      "image": "/screenshots/2025-gw/10-source-10.png",
+      "loaded": true
+    }
+  },
+  "catalogue": {
+    "rows": 30,
+    "detailLinks": 30,
+    "width": 915,
+    "scrollWidth": 915,
+    "banner": {
+      "natural": [
+        200,
+        40
+      ],
+      "loaded": true
+    },
+    "returnedFromDetailByClick": true,
+    "originalViewOpenedByClick": true
+  },
+  "original": {
+    "overview": {
+      "width": 1168,
+      "scrollWidth": 1168,
+      "rows": 31,
+      "rateLinks": 30,
+      "scripts": 0,
+      "stylesheets": 1,
+      "background": "rgb(145, 218, 109)",
+      "fontFamily": "Lato, sans-serif"
+    },
+    "screenshotOverview": {
+      "openedByClick": true,
+      "cells": 44,
+      "allBackgroundsLocal": true,
+      "positiveBackgroundBoxes": 44,
+      "paginationControls": 0,
+      "width": 1168,
+      "scrollWidth": 1168
+    },
+    "rate10": {
+      "openedByClick": true,
+      "fieldResponses": 1,
+      "communityPosts": 2,
+      "brokenImages": 0,
+      "width": 1168,
+      "scrollWidth": 1168
+    },
+    "game10": {
+      "openedByClick": true,
+      "galleryLinks": 10,
+      "loadedGalleryImages": 10,
+      "descriptionElements": 1,
+      "width": 1168,
+      "scrollWidth": 1168
+    },
+    "navigationConfirmedNumbers": [
+      "0",
+      "1",
+      "10"
+    ],
+    "allDetailLayouts": {
+      "method": "ordinary browser navigation of all captured documents at the exact desktop source-pane dimensions; representative iframe click chains recorded separately",
+      "viewport": {
+        "width": 1183,
+        "height": 638
+      },
+      "ratePages": 30,
+      "gamePages": 30,
+      "rateFieldSections": 30,
+      "galleryLinks": 60,
+      "horizontalOverflowPages": 0,
+      "brokenLoadedImages": 0
+    },
+    "entries": {
+      "openedByClick": true,
+      "gameCells": 30,
+      "localGameLinks": 60,
+      "width": 1168,
+      "scrollWidth": 1168,
+      "brokenImages": 0
+    }
+  },
+  "observationLimits": [
+    "A longer original-navigation batch timed out and reset browser control; unfinished per-page results were not counted.",
+    "Multiline anchors were clicked in a real text quad; their bounding-box center can fall between lines.",
+    "Screenshot overview has 44 captured platform cells; individual public project galleries contain 60 images. These are distinct source surfaces and were retained separately. Game package bytes were not downloaded."
+  ],
+  "contentHandling": "Archive directly without manual content screening. UI checks inspect identifiers, metadata, geometry and actual navigation.",
+  "viewportRestored": {
+    "width": 1280,
+    "height": 720
+  },
+  "temporaryTabClosed": true
+}
