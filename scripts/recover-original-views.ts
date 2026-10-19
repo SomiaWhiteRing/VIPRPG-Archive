@@ -901,7 +901,7 @@ async function main() {
     files.set(gap.sourcePath, Buffer.from(`<!doctype html><html lang="ja"><meta charset="UTF-8"><title>No.${escape(work.no)} ${escape(work.title)} — 原紹介ページ未取得</title>
       <style>body{max-width:800px;margin:2em auto;padding:0 1em;font-family:sans-serif;line-height:1.6}.note{padding:1em;border:1px solid #aab;background:#f0f3f7}dt{font-weight:bold}dd{margin-bottom:1em}</style>
       <body data-archive-source-unavailable="${escape(work.no)}"><p class="note">編纂補頁：原紹介ページは取得できていません。この画面は祭典の作品一覧に基づく案内で、原紹介ページの復元ではありません。</p>
-      <h1>No.${escape(work.no)} ${escape(work.title)}</h1>${work.icon ? `<img src="${escape(work.icon)}" width="32" height="32" alt="">` : ""}
+      <h1>No.${escape(work.no)} ${escape(work.title)}</h1>${work.banner && !work.contentRestricted ? `<img src="${escape(work.banner.src)}" width="${work.banner.width}" height="${work.banner.height}" style="max-width:100%;height:auto" alt="">` : ""}${work.icon ? `<img src="${escape(work.icon)}" width="32" height="32" alt="">` : ""}
       <dl><dt>作者</dt><dd>${escape(work.author)}</dd>${work.group ? `<dt>組</dt><dd>${escape(work.group)}</dd>` : ""}<dt>ツール</dt><dd>${escape(work.engine || "")}</dd><dt>作者コメント</dt><dd>原紹介ページ未取得</dd><dt>管理人コメント</dt><dd>原紹介ページ未取得</dd><dt>スクリーンショット</dt><dd>${work.ss?.length ? work.ss.map((src) => `<img src="${escape(src)}" style="max-width:100%;height:auto" alt="保存済み画像">`).join("") : "未取得"}</dd></dl>
       ${downloads.map((d) => `<p><a href="${escape(d.url)}">${escape(d.label || "Download")}</a>（作品一覧掲載の過去の入口）</p>`).join("")}
       ${work.source?.titleUrl ? `<p><a href="${escape(work.source.titleUrl)}">公式の一覧資料</a></p>` : ""}<p><a href="${escape(backHref)}">作品一覧へ戻る</a></p></body></html>`));
@@ -912,9 +912,10 @@ async function main() {
     if (files.has(gap.sourcePath)) continue;
     const sample = gap.no === "000";
     const heading = sample ? "No.000 — 原ページ未取得" : "原ページ未取得";
+    const backHref = path.posix.relative(path.posix.dirname(gap.sourcePath), config.entry ?? "index.html");
     files.set(gap.sourcePath, Buffer.from(`<!doctype html><html lang="ja"><meta charset="UTF-8"><title>${heading}</title>
       <style>body{max-width:800px;margin:2em auto;padding:0 1em;font-family:sans-serif;line-height:1.6}.note{padding:1em;border:1px solid #aab;background:#f0f3f7}</style>
-      <body data-archive-source-unavailable="${sample ? "sample" : "page"}"><main><h1>${heading}</h1><p class="note">このページの保存済み本文は見つかっていません。原資料の内容は補わず、一覧にあった番号とページ構造だけを残しています。</p><p><a href="../index.html">一覧へ戻る</a></p></main></body></html>`));
+      <body data-archive-source-unavailable="${sample ? "sample" : "page"}"><main><h1>${heading}</h1><p class="note">このページの保存済み本文は見つかっていません。原資料の内容は補わず、一覧にあった番号とページ構造だけを残しています。</p><p><a href="${backHref}">一覧へ戻る</a></p></main></body></html>`));
     generatedUnavailablePages.push(gap.sourcePath);
     compatibilityFixes.push({ page: gap.sourcePath, change: sample ? "Create a neutral local shell for the linked No.000 sample page; do not add it to the 24 registered works." : "Create a neutral local shell for an uncaptured auxiliary source page; preserve its local route without fabricating contents." });
   }
