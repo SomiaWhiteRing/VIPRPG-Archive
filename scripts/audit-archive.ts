@@ -41,6 +41,7 @@ async function main() {
     for (const banner of festival.banners) addAsset(banner, festival.id);
     for (const work of works) {
       addAsset(work.icon, work.id);
+      addAsset(work.banner?.src, work.id);
       for (const screenshot of work.ss ?? []) addAsset(screenshot, work.id);
       for (const file of getWorkDownloads(work)) { addAsset(file.url, work.id); addAsset(file.previewUrl, work.id); }
       for (const text of [work.authorComment, work.hostComment]) {

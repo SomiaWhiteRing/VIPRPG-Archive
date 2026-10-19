@@ -38,6 +38,7 @@ export interface WorkEntry {
   title: string;
   originalTitle?: string;
   icon?: string;
+  banner?: { src: string; width: number; height: number };
   category?: string;
   group?: string;
   engine?: string;

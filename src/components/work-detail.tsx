@@ -100,6 +100,7 @@ export default function WorkDetail({
   return (
     <article className="detail-card">
       <header className="detail-header">
+        {!restricted && work.banner && <Image src={work.banner.src} width={work.banner.width} height={work.banner.height} alt="" unoptimized style={{ width: "100%", maxWidth: work.banner.width, height: "auto" }} />}
         {restricted && <p className="note">{work.no ? `No.${work.no} · ` : ""}{dictionary.restrictedContent}</p>}
         <h1 className="detail-title">{work.title}</h1>
         {(work.author.trim() || work.source?.authorOmitted) && (

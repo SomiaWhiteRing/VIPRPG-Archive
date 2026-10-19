@@ -7,6 +7,7 @@ export function hasWorkDetail(work: WorkEntry, festival?: Festival): boolean {
     work.authorComment?.trim() ||
     work.hostComment?.trim() ||
     work.sourceContent?.trim() ||
+    work.banner?.src ||
     work.ss?.length ||
     work.forum?.trim() ||
     work.download?.url ||

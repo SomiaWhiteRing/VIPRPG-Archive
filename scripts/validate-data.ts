@@ -60,6 +60,10 @@ const workSchema = {
     no: { type: "string", minLength: 1 },
     title: { type: "string", minLength: 1 },
     icon: { type: "string" },
+    banner: {
+      type: "object", additionalProperties: false, required: ["src", "width", "height"],
+      properties: { src: { type: "string", minLength: 1 }, width: { type: "integer", minimum: 1 }, height: { type: "integer", minimum: 1 } },
+    },
     category: { type: "string" },
     group: { type: "string" },
     engine: { type: "string" },
