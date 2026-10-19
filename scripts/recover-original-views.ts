@@ -236,7 +236,8 @@ function unarchive(url: string) {
 
 function decodeSource(bytes: Buffer, fallback: string) {
   const hasUtf8Bom = bytes.subarray(0, 3).equals(Buffer.from([0xef, 0xbb, 0xbf]));
-  return iconv.decode(bytes, hasUtf8Bom ? "utf-8" : fallback);
+  const declared = bytes.subarray(0, 4096).toString("latin1").match(/charset\s*=\s*["']?\s*([\w-]+)/i)?.[1];
+  return iconv.decode(bytes, hasUtf8Bom ? "utf-8" : declared && iconv.encodingExists(declared) ? declared : fallback);
 }
 
 async function main() {
@@ -880,13 +881,14 @@ async function main() {
     if (!work || files.has(gap.sourcePath)) continue;
     const escape = (value: string) => value.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
     const downloads = work.downloads ?? (work.download ? [work.download] : []);
+    const backHref = path.posix.relative(path.posix.dirname(gap.sourcePath), config.entry ?? "index.html");
     files.set(gap.sourcePath, Buffer.from(`<!doctype html><html lang="ja"><meta charset="UTF-8"><title>No.${escape(work.no)} ${escape(work.title)} — 原紹介ページ未取得</title>
       <style>body{max-width:800px;margin:2em auto;padding:0 1em;font-family:sans-serif;line-height:1.6}.note{padding:1em;border:1px solid #aab;background:#f0f3f7}dt{font-weight:bold}dd{margin-bottom:1em}</style>
       <body data-archive-source-unavailable="${escape(work.no)}"><p class="note">編纂補頁：原紹介ページは取得できていません。この画面は祭典の作品一覧に基づく案内で、原紹介ページの復元ではありません。</p>
       <h1>No.${escape(work.no)} ${escape(work.title)}</h1>${work.icon ? `<img src="${escape(work.icon)}" width="32" height="32" alt="">` : ""}
-      <dl><dt>作者</dt><dd>${escape(work.author)}</dd><dt>ツール</dt><dd>${escape(work.engine || "")}</dd><dt>作者コメント</dt><dd>原紹介ページ未取得</dd><dt>管理人コメント</dt><dd>原紹介ページ未取得</dd><dt>スクリーンショット</dt><dd>未取得</dd></dl>
+      <dl><dt>作者</dt><dd>${escape(work.author)}</dd><dt>ツール</dt><dd>${escape(work.engine || "")}</dd><dt>作者コメント</dt><dd>原紹介ページ未取得</dd><dt>管理人コメント</dt><dd>原紹介ページ未取得</dd><dt>スクリーンショット</dt><dd>${work.ss?.length ? work.ss.map((src) => `<img src="${escape(src)}" style="max-width:100%;height:auto" alt="保存済み画像">`).join("") : "未取得"}</dd></dl>
       ${downloads.map((d) => `<p><a href="${escape(d.url)}">${escape(d.label || "Download")}</a>（作品一覧掲載の過去の入口）</p>`).join("")}
-      ${work.source?.titleUrl ? `<p><a href="${escape(work.source.titleUrl)}">題名を確認した公式感想スレッド</a></p>` : ""}<p><a href="../index.html#works">作品一覧へ戻る</a></p></body></html>`));
+      ${work.source?.titleUrl ? `<p><a href="${escape(work.source.titleUrl)}">公式の一覧資料</a></p>` : ""}<p><a href="${escape(backHref)}">作品一覧へ戻る</a></p></body></html>`));
     generatedUnavailablePages.push(gap.sourcePath);
     compatibilityFixes.push({ page: gap.sourcePath, change: "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented." });
   }
