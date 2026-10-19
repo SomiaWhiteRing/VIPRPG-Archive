@@ -1,0 +1,29 @@
+[
+  {
+    "no": "33",
+    "sourceTitleMatched": true,
+    "captureTimeMatched": true,
+    "cdxDigestMatched": false,
+    "originalTransferEncoding": "chunked",
+    "decision": "Retain the official replay response and publish with explicit unresolved CDX byte-digest qualification; do not misreport an existing source page as unavailable.",
+    "cause": "Unresolved. Original chunked transfer encoding correlates with these three cases, but tested framing reconstructions did not establish the cause."
+  },
+  {
+    "no": "74",
+    "sourceTitleMatched": true,
+    "captureTimeMatched": true,
+    "cdxDigestMatched": false,
+    "originalTransferEncoding": "chunked",
+    "decision": "Retain the official replay response and publish with explicit unresolved CDX byte-digest qualification; do not misreport an existing source page as unavailable.",
+    "cause": "Unresolved. Original chunked transfer encoding correlates with these three cases, but tested framing reconstructions did not establish the cause."
+  },
+  {
+    "no": "75",
+    "sourceTitleMatched": true,
+    "captureTimeMatched": true,
+    "cdxDigestMatched": false,
+    "originalTransferEncoding": "chunked",
+    "decision": "Retain the official replay response and publish with explicit unresolved CDX byte-digest qualification; do not misreport an existing source page as unavailable.",
+    "cause": "Unresolved. Original chunked transfer encoding correlates with these three cases, but tested framing reconstructions did not establish the cause."
+  }
+]

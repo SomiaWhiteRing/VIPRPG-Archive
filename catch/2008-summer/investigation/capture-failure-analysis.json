@@ -1,0 +1,35 @@
+[
+  {
+    "originalUrl": "http://www.geocities.jp/viprpg_natunozin08/SS_33.htm",
+    "error": "Error: Archived bytes differ from the selected CDX digest; returned bytes retained",
+    "selectedTimestamp": "20130420050046",
+    "expectedDigest": "JPDECSOOZY74OA7KPDLGUWBA7I25GODT",
+    "returned": {
+      "file": "capture-7a0882672f7768e94fc4.bin",
+      "bytes": 2508,
+      "digest": "M2NCP2I6FASORYTH26EY7T5UR6BYW6LJ"
+    }
+  },
+  {
+    "originalUrl": "http://www.geocities.jp/viprpg_natunozin08/SS_74.htm",
+    "error": "Error: Archived bytes differ from the selected CDX digest; returned bytes retained",
+    "selectedTimestamp": "20121122081059",
+    "expectedDigest": "L52KA4ISW6ECXZQ3HEQA4FLKWL5DDSTS",
+    "returned": {
+      "file": "capture-b2ab34c7ec0b00eabab1.bin",
+      "bytes": 2540,
+      "digest": "EDSUAARPHRJJCCLGJLFN5CSPBPS5M2K3"
+    }
+  },
+  {
+    "originalUrl": "http://www.geocities.jp/viprpg_natunozin08/SS_75.htm",
+    "error": "Error: Archived bytes differ from the selected CDX digest; returned bytes retained",
+    "selectedTimestamp": "20121122081051",
+    "expectedDigest": "ZFLPMW24IQQAZO5UWRAFQ3WUHDUO4AS6",
+    "returned": {
+      "file": "capture-1915d7fe8b6723fef2ea.bin",
+      "bytes": 2368,
+      "digest": "QL4M7QM4TXW2K4FDEOTFCGWBNORL6H56"
+    }
+  }
+]

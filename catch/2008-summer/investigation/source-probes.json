@@ -1,0 +1,31 @@
+{
+  "region": "Japan",
+  "exitCountry": "JP",
+  "proxyPort": 7897,
+  "results": [
+    {
+      "url": "https://www.geocities.jp/viprpg_natunozin08/",
+      "status": 404,
+      "location": null,
+      "bytes": 6885
+    },
+    {
+      "url": "http://www.geocities.jp/viprpg_natunozin08/",
+      "status": 301,
+      "location": "https://info-geocities.yahoo.co.jp:443/viprpg_natunozin08/",
+      "bytes": 1
+    },
+    {
+      "url": "https://www.geocities.jp/viprpg_natunozin08/Work_list.htm",
+      "status": 404,
+      "location": null,
+      "bytes": 6885
+    },
+    {
+      "url": "http://www.geocities.jp/viprpg_natunozin08/Work_list.htm",
+      "status": 301,
+      "location": "https://info-geocities.yahoo.co.jp:443/viprpg_natunozin08/Work_list.htm",
+      "bytes": 1
+    }
+  ]
+}

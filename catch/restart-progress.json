@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2008-summer",
+  "activeFestival": "2007-default-battle-festival",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -1027,6 +1027,34 @@
         "catch/2008-seiyoku-festival/original-view.json"
       ],
       "notes": "现存合并目录的 05/10 两项题名机械匹配，按 2023 有效快照更新来源和 Google Drive 历史下载入口，补齐本地详情及原貌版。原祭典完整目录及两项介绍仍待查；不将两个现存条目当作原祭典总数。两处装饰背景未取得，已去除断裂引用；桌面验收通过。"
+    },
+    {
+      "festivalId": "2008-summer",
+      "reviewedAt": "2026-10-19",
+      "dataSha256": "575e76456a42fed1f88ab63b13b9d026f76e796440c172e34cdd8d70db81f19b",
+      "works": 92,
+      "screenshotFiles": 15,
+      "screenshotReferences": 15,
+      "workBanners": 90,
+      "status": "reviewed-with-documented-source-gaps",
+      "outstandingSourceDetails": 17,
+      "outstandingImageSourceUrls": 60,
+      "outstandingScreenshotRows": 59,
+      "outstandingOtherResources": 1,
+      "outstandingAuxiliaryPages": 1,
+      "qualifiedReplayDigestDifferences": 3,
+      "sourceEvidence": [
+        "catch/2008-summer/recovery.json",
+        "catch/2008-summer/investigation/successful-prefix-cdx.json",
+        "catch/2008-summer/investigation/archive-retrieval.json",
+        "catch/2008-summer/investigation/linked-capture-results.json",
+        "catch/2008-summer/investigation/replay-digest-decisions.json",
+        "catch/2008-summer/investigation/local-structure-review.json"
+      ],
+      "desktopEvidence": [
+        "catch/2008-summer/desktop-review.json"
+      ],
+      "notes": "按官方存档目录核对92项，恢复75页详情、90条作品横幅和15张截图；17项详情保留本地骨架。191份来源缓存中188份匹配CDX摘要，3份回放差异保留限定说明。另59处截图引用、1处横幅背景及1页辅助说明待查；补查79个链接未取得可用新资源，其中网络失败不视作无存档证明。双视图桌面结构和导航验收通过。"
     }
   ],
   "originalViewsReviewed": [
@@ -1263,6 +1291,13 @@
       "evidence": [
         "catch/2008-seiyoku-festival/original-view.json",
         "catch/2008-seiyoku-festival/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2008-summer",
+      "evidence": [
+        "catch/2008-summer/original-view.json",
+        "catch/2008-summer/desktop-review.json"
       ]
     }
   ],

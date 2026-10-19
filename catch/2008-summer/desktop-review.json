@@ -1,0 +1,70 @@
+{
+  "festivalId": "2008-summer",
+  "reviewedAt": "2026-10-19",
+  "scope": "desktop only; structure, geometry and actual navigation; no entry-content screening",
+  "status": "passed",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "original": {
+    "wrapperWidth": 1185,
+    "documentWidth": 1168,
+    "scrollWidth": 1168,
+    "rootToCatalogueClicked": true,
+    "catalogueDetailLinks": 92,
+    "brokenCatalogueImages": 0,
+    "detail19OpenedByClick": true,
+    "detail33OpenedByClick": true,
+    "screenshotNatural": [
+      640,
+      480
+    ],
+    "screenshotRendered": [
+      640,
+      480
+    ],
+    "detail23SkeletonOpenedByClick": true,
+    "skeletonBannerNatural": [
+      640,
+      30
+    ],
+    "skeletonBannerRendered": [
+      640,
+      30
+    ],
+    "skeletonHeading": 1,
+    "skeletonParagraphs": 3,
+    "auxiliaryGapHomeClicked": true,
+    "auxiliaryGapHomeResolved": true,
+    "noHorizontalOverflow": true
+  },
+  "formatted": {
+    "originalToFormattedNavigationClicked": true,
+    "catalogueLinks": 92,
+    "work19OpenedByClick": true,
+    "work23RouteChecked": true,
+    "bannerNatural": [
+      640,
+      30
+    ],
+    "bannerRendered": [
+      640,
+      30
+    ],
+    "screenshotObjectFit": "contain",
+    "sourceSections": 1,
+    "sourceTextColor": "rgb(31, 41, 55)",
+    "bodyBackground": "rgb(243, 244, 246)",
+    "sourceBodyWidth": 839,
+    "sourceBodyScrollWidth": 839,
+    "noHorizontalOverflow": true
+  },
+  "validation": [
+    "npm run validate:data",
+    "npm run lint",
+    "npm run build",
+    "catch/2008-summer/investigation/local-structure-review.json"
+  ],
+  "contentBasedScreening": false
+}

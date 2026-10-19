@@ -1,0 +1,38 @@
+{
+  "exitCountry": "HK",
+  "results": [
+    {
+      "name": "SS_33.htm",
+      "rows": 2,
+      "statuses": [
+        "200",
+        "301"
+      ]
+    },
+    {
+      "name": "SS_74.htm",
+      "rows": 1,
+      "statuses": [
+        "200"
+      ]
+    },
+    {
+      "name": "SS_75.htm",
+      "rows": 1,
+      "statuses": [
+        "200"
+      ]
+    },
+    {
+      "name": "revisit-prefix",
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "name": "meyasu.htm",
+      "rows": 1,
+      "statuses": [
+        "403"
+      ]
+    }
+  ]
+}

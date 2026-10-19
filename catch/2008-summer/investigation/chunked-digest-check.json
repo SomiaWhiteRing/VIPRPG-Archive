@@ -1,0 +1,53 @@
+[
+  {
+    "originalUrl": "http://www.geocities.jp/viprpg_natunozin08/SS_33.htm",
+    "bodyBytes": 2508,
+    "expectedDigest": "JPDECSOOZY74OA7KPDLGUWBA7I25GODT",
+    "variants": [
+      {
+        "chunkSizeCase": "lower",
+        "digest": "XISJCWWVM6K3KK4N4FYNYGL7DYOPMMPO",
+        "matches": false
+      },
+      {
+        "chunkSizeCase": "upper",
+        "digest": "CFOVUBIZR2ZMV6AYXLKTIMHDLT264JR3",
+        "matches": false
+      }
+    ]
+  },
+  {
+    "originalUrl": "http://www.geocities.jp/viprpg_natunozin08/SS_74.htm",
+    "bodyBytes": 2540,
+    "expectedDigest": "L52KA4ISW6ECXZQ3HEQA4FLKWL5DDSTS",
+    "variants": [
+      {
+        "chunkSizeCase": "lower",
+        "digest": "NSUEMHE7I4I6R6UTURNLYVYUZFBJ4JXB",
+        "matches": false
+      },
+      {
+        "chunkSizeCase": "upper",
+        "digest": "F3ZESZ67O4JS6USKTCPEPU3F6T7JJLU6",
+        "matches": false
+      }
+    ]
+  },
+  {
+    "originalUrl": "http://www.geocities.jp/viprpg_natunozin08/SS_75.htm",
+    "bodyBytes": 2368,
+    "expectedDigest": "ZFLPMW24IQQAZO5UWRAFQ3WUHDUO4AS6",
+    "variants": [
+      {
+        "chunkSizeCase": "lower",
+        "digest": "6KA6A3NGJ4JGJRKTXOYXCQDOPEDV2CWG",
+        "matches": false
+      },
+      {
+        "chunkSizeCase": "upper",
+        "digest": "6KA6A3NGJ4JGJRKTXOYXCQDOPEDV2CWG",
+        "matches": false
+      }
+    ]
+  }
+]
