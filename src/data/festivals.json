@@ -1434,15 +1434,15 @@
     "name": "第二回VIPRPG紅白",
     "slug": "2006-kouhaku",
     "type": "kouhaku",
-    "banners": [],
+    "banners": [
+      "/banners/2006-kouhaku-1.png",
+      "/banners/2006-kouhaku-2.png"
+    ],
     "columns": [
       "no",
-      "icon",
       "work",
-      "type",
-      "streaming",
-      "download",
-      "forum"
+      "group",
+      "download"
     ],
     "worksFile": "works/2006-kouhaku.json"
   },

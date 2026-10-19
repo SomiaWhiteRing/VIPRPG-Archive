@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2006-kouhaku",
+  "activeFestival": "2006-summer",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -1167,6 +1167,35 @@
         "catch/2006-gw/desktop-review.json"
       ],
       "notes": "确认GeoCities原站31项，修复旧正则因作者名中点跨行吞并第11、12项造成的30项错录；保存编号映射与题名差异。恢复全部31详情和31截图，88份页面／图片均匹配CDX摘要。保留31个ZIP存档入口但未验包；原站菜单与全部31个整理详情桌面检查通过。"
+    },
+    {
+      "festivalId": "2006-kouhaku",
+      "reviewedAt": "2026-10-20",
+      "dataSha256": "a5ed3e242def4917376789e82843d8e04cdeff6e09491cd708674be01717b089",
+      "works": 92,
+      "screenshotFiles": 92,
+      "screenshotReferences": 92,
+      "status": "reviewed-with-source-gaps",
+      "originalCatalogueCompleteness": "verified-for-captured-main-and-auxiliary-catalogues",
+      "outstandingSourceDetails": 0,
+      "outstandingImageSourceUrls": 0,
+      "outstandingScreenshotRows": 0,
+      "outstandingOtherResources": 1,
+      "outstandingAuxiliaryPages": 4,
+      "packageArchiveIndexReferences": 88,
+      "packageBytesValidated": false,
+      "sourceEvidence": [
+        "catch/2006-kouhaku/recovery.json",
+        "catch/2006-kouhaku/source-comparison.json",
+        "catch/2006-kouhaku/investigation/legacy-parser-diagnosis.json",
+        "catch/2006-kouhaku/investigation/original-detail-index-coverage.json",
+        "catch/2006-kouhaku/investigation/final-original-resource-verification.json",
+        "catch/2006-kouhaku/investigation/auxiliary-nearest-replays.json"
+      ],
+      "desktopEvidence": [
+        "catch/2006-kouhaku/desktop-review.json"
+      ],
+      "notes": "原站分散于6个作品账号；合并主目录90项与附属目录新增No.91、92，修复旧正则只取得23个无链接名称的漏抓。恢复92个详情、92张截图、2张横幅，219份原站资源摘要校验通过；红白各45条，末2项未注明分组。原貌223文件、4个评论附页骨架和1张背景缺口明确记录；3个迁移菜单入口改为本地已存原页。92个整理详情及双视图桌面导航检查通过；ZIP仅保存历史入口及索引，未验包。"
     }
   ],
   "originalViewsReviewed": [
@@ -1438,6 +1467,13 @@
       "evidence": [
         "catch/2006-gw/original-view.json",
         "catch/2006-gw/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2006-kouhaku",
+      "evidence": [
+        "catch/2006-kouhaku/original-view.json",
+        "catch/2006-kouhaku/desktop-review.json"
       ]
     }
   ],

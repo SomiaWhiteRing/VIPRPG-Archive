@@ -1,0 +1,31 @@
+{
+  "legacyParser": "scripts/scrape-classic-festivals.ts:2006-kouhaku",
+  "pattern": "\\[No\\.(\\d+)\\]\\s*([^\\r\\n<]+)",
+  "rawSourceCapture": {
+    "originalUrl": "https://vipkohaku.x.fc2.com/2006/index_game.htm",
+    "requestedUrl": "https://web.archive.org/web/20230201130540id_/https://vipkohaku.x.fc2.com/2006/index_game.htm",
+    "actualUrl": "https://web.archive.org/web/20230201130540id_/https://vipkohaku.x.fc2.com/2006/index_game.htm",
+    "status": 200,
+    "mementoDatetime": "Wed, 01 Feb 2023 13:05:40 GMT",
+    "timestamp": "20230201130540",
+    "file": "capture-193b451505a490b35f3e.bin",
+    "bytes": 16026,
+    "sha256": "0b855366baf4778a1d32d720e415327859ec21cb3f8ddcbdc09ed734951d4155",
+    "expectedDigest": "OAUXC4OZXO5NHIFYRQ5GXIQA6N6VHYOA",
+    "actualDigest": "OAUXC4OZXO5NHIFYRQ5GXIQA6N6VHYOA",
+    "cdxDigestVerified": true,
+    "proxyRegion": "Hong Kong"
+  },
+  "sourceMainNumberMarkers": 90,
+  "mainLinkedDetails": 67,
+  "legacyRegexRows": 23,
+  "legacyRows": 23,
+  "matchedLegacyRows": 23,
+  "auxiliaryExplicitLinkedEntries": 25,
+  "auxiliaryAdditionalNumbers": [
+    91,
+    92
+  ],
+  "recoveredCatalogueEntries": 92,
+  "diagnosis": "The legacy regex requires plain text immediately after the number and omits names wrapped in anchors. The auxiliary catalogue was never merged. Preserve both catalogues by explicit numbers and actual hyperlinks."
+}
