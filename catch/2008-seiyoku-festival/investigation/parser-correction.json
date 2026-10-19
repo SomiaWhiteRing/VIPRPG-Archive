@@ -1,0 +1,6 @@
+{
+  "error": "Initial gate incorrectly expected numbers 01 and 02 and mandatory whitespace after the number.",
+  "evidence": "Existing data and both legacy source caches contain numbered links 05 and 10.",
+  "correction": "Accept source numbers 05 and 10 and optional whitespace after NO.; save returned bytes before structural validation.",
+  "meaning": "Initial rejected HTML responses were parser failures, not evidence of missing archive pages."
+}

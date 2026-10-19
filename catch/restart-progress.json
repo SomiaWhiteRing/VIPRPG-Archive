@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2008-seiyoku-festival",
+  "activeFestival": "2008-summer",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -991,6 +991,42 @@
         "catch/2008-kouhaku/original-view.json"
       ],
       "notes": "125 个编号及题名机械对照一致；归档 7 个介绍正文、6 张截图。118 个详情和 2 个辅助页保留明确的缺页骨架，2 个未取得图像有缺图提示。分组独立于作品类型；原貌跨框架导航及整理版桌面显示验收通过。"
+    },
+    {
+      "festivalId": "2008-seiyoku-festival",
+      "reviewedAt": "2026-10-19",
+      "dataSha256": "1901db68ffaea04e7a2429dc5985adc27c1c41fe0dd1eb59d50afd2b1a0e2bb3",
+      "works": 2,
+      "screenshotFiles": 0,
+      "screenshotReferences": 0,
+      "status": "reviewed-with-documented-source-gaps",
+      "originalCatalogueCompleteness": "unverified",
+      "outstandingSourceDetails": 2,
+      "outstandingImageSourceUrls": 2,
+      "outstandingScreenshotRows": 0,
+      "outstandingOtherResources": 2,
+      "outstandingAuxiliaryPages": 0,
+      "sourceEvidence": [
+        "catch/2008-seiyoku-festival/recovery.json",
+        "catch/2008-seiyoku-festival/source-comparison.json",
+        "catch/2008-seiyoku-festival/source/archive/manifest.json",
+        "catch/2008-seiyoku-festival/investigation/source-retrieval.json",
+        "catch/2008-seiyoku-festival/investigation/archive-retrieval.json",
+        "catch/2008-seiyoku-festival/investigation/archive-seiyoku-htm-retrieval.json",
+        "catch/2008-seiyoku-festival/investigation/parser-correction.json",
+        "catch/2008-seiyoku-festival/investigation/proxy-routes.json",
+        "catch/2008-seiyoku-festival/investigation/structural-check.json",
+        "catch/2008-seiyoku-festival/investigation/festival-directory-probes.json",
+        "catch/2008-seiyoku-festival/investigation/related-source-probes.json",
+        "catch/2008-seiyoku-festival/investigation/mirror-home-probe.json",
+        "catch/2008-seiyoku-festival/original-view.json",
+        "catch/2008-seiyoku-festival/desktop-review.json"
+      ],
+      "desktopEvidence": [
+        "catch/2008-seiyoku-festival/desktop-review.json",
+        "catch/2008-seiyoku-festival/original-view.json"
+      ],
+      "notes": "现存合并目录的 05/10 两项题名机械匹配，按 2023 有效快照更新来源和 Google Drive 历史下载入口，补齐本地详情及原貌版。原祭典完整目录及两项介绍仍待查；不将两个现存条目当作原祭典总数。两处装饰背景未取得，已去除断裂引用；桌面验收通过。"
     }
   ],
   "originalViewsReviewed": [
@@ -1220,6 +1256,13 @@
       "evidence": [
         "catch/2008-kouhaku/original-view.json",
         "catch/2008-kouhaku/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2008-seiyoku-festival",
+      "evidence": [
+        "catch/2008-seiyoku-festival/original-view.json",
+        "catch/2008-seiyoku-festival/desktop-review.json"
       ]
     }
   ],

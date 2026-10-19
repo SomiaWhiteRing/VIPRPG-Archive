@@ -1,0 +1,18 @@
+{
+  "source": {
+    "node": "日本S01 | IEPL",
+    "port": 37997,
+    "verifiedExit": "JP"
+  },
+  "archive": {
+    "node": "香港S01 | IEPL",
+    "port": 37998,
+    "verifiedExit": "HK"
+  },
+  "publicRoute": {
+    "port": 7897,
+    "observedExit": "JP",
+    "archiveRequestsBlocked": true
+  },
+  "globalSettingsChanged": false
+}

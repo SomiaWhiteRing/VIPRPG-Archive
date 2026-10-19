@@ -1,0 +1,39 @@
+{
+  "exitCountry": "HK",
+  "proxyPort": 37998,
+  "resources": [
+    "seiyoku.htm"
+  ],
+  "attempts": [
+    {
+      "resource": "seiyoku.htm",
+      "url": "https://web.archive.org/web/20190330131509id_/https://vipkohaku.x.fc2.com/seiyoku.htm",
+      "status": 200,
+      "bytes": 3398,
+      "structure": {
+        "numbers": [
+          5,
+          10
+        ],
+        "anchors": 4,
+        "images": 2,
+        "scripts": 7
+      }
+    },
+    {
+      "resource": "japanes_001.gif",
+      "url": "https://web.archive.org/web/20190330131509id_/https://vipkohaku.x.fc2.com/japanes_001.gif",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "resource": "japanes_001.gif",
+      "url": "https://web.archive.org/web/20190903083216id_/https://vipkohaku.x.fc2.com/japanes_001.gif",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "resource": "bg_title.jpg",
+      "url": "https://web.archive.org/web/20190330131509id_/https://vipkohaku.x.fc2.com/bg_title.jpg",
+      "error": "Error: HTTP 404"
+    }
+  ]
+}

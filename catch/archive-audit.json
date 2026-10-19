@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-10-19T10:58:51.211Z",
+  "generatedAt": "2026-10-19T11:21:43.814Z",
   "scope": "Local inventory; field presence is not source verification or completeness.",
   "totals": {
     "festivals": 74,
     "festivalsWithBanners": 56,
     "works": 4145,
-    "detailPages": 3564,
-    "disabledDetails": 580,
+    "detailPages": 3566,
+    "disabledDetails": 578,
     "restrictedDetails": 7,
     "withComments": 3160,
     "withScreenshots": 3109,
     "withDownload": 1723,
-    "withSource": 2245,
+    "withSource": 2247,
     "referencedAssets": 7387,
     "assetIssues": 0
   },
@@ -1196,19 +1196,19 @@
     },
     {
       "id": "2008-seiyoku-festival",
-      "dataSha256": "926b49e759fe60b5c0b629cf4b77590e8fa2bd7098bbac1690eb1944d52a3df1",
+      "dataSha256": "1901db68ffaea04e7a2429dc5985adc27c1c41fe0dd1eb59d50afd2b1a0e2bb3",
       "listedSourceUrl": "https://vipkohaku.x.fc2.com/seiyoku.htm",
       "works": 2,
       "banners": 0,
-      "detailPages": 0,
-      "disabledDetails": 2,
+      "detailPages": 2,
+      "disabledDetails": 0,
       "restrictedDetails": 0,
       "withAuthor": 0,
       "withComments": 0,
       "withScreenshots": 0,
       "withDownload": 2,
-      "withSource": 0,
-      "cachedHtmlFiles": 1,
+      "withSource": 2,
+      "cachedHtmlFiles": 9,
       "summaries": [
         "catch/2008-seiyoku-festival/2008-seiyoku-festival-scrape-summary.json"
       ]

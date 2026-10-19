@@ -1,0 +1,64 @@
+{
+  "festivalId": "2008-seiyoku-festival",
+  "sourceEncoding": "shift_jis",
+  "byteRoundtrip": true,
+  "entries": [
+    {
+      "no": "05",
+      "sourcePath": "seiyoku.htm",
+      "downloadSourceUrl": "https://drive.google.com/open?id=1kDqTl_07_K68UqvdAAMjAxMTRqmEHK20",
+      "catalogueOnly": true
+    },
+    {
+      "no": "10",
+      "sourcePath": "seiyoku.htm",
+      "downloadSourceUrl": "https://drive.google.com/open?id=1bKB8Flop8aeOWUoNvj-zjEeESA8Pj7IY",
+      "catalogueOnly": true
+    }
+  ],
+  "titleComparisons": {
+    "compared": 2,
+    "matching": 2,
+    "manualContentReview": false
+  },
+  "sourceDesign": "One shared catalogue page containing two numbered download anchors (05 and 10), with no individual introduction links or screenshot references. Do not invent intervening catalogue numbers or individual source pages.",
+  "selectedCapture": {
+    "originalUrl": "https://vipkohaku.x.fc2.com/seiyoku.htm",
+    "requestedUrl": "https://web.archive.org/web/20230206095914id_/https://vipkohaku.x.fc2.com/seiyoku.htm",
+    "actualUrl": "https://web.archive.org/web/20230206095914id_/https://vipkohaku.x.fc2.com/seiyoku.htm",
+    "timestamp": "20230206095914",
+    "file": "seiyoku.htm",
+    "bytes": 1948,
+    "sha256": "fbc1371df41dbfd0293fd3edac0b5b8b5459fe3847edde004ea0f066a17697d1",
+    "cdxDigestVerified": true,
+    "proxyRegion": "Hong Kong",
+    "exitCountry": "HK"
+  },
+  "sourceEvidence": [
+    "catch/2008-seiyoku-festival/investigation/source-retrieval.json",
+    "catch/2008-seiyoku-festival/investigation/archive-retrieval.json",
+    "catch/2008-seiyoku-festival/investigation/archive-seiyoku-htm-retrieval.json",
+    "catch/2008-seiyoku-festival/source/archive/manifest.json"
+  ],
+  "failures": [
+    {
+      "sourceUrl": "https://vipkohaku.x.fc2.com/japanes_001.gif",
+      "error": "Japan source requests failed. Known Hong Kong Wayback snapshot requests returned 404; CDX records are redirects/revisits, not successful image captures."
+    },
+    {
+      "sourceUrl": "https://vipkohaku.x.fc2.com/bg_title.jpg",
+      "error": "Japan source requests failed. Known Hong Kong Wayback snapshot requests returned 404; CDX records are redirects/revisits, not successful image captures."
+    }
+  ],
+  "handling": "Preserve catalogue text and historic download addresses directly. No content-based screening or restriction decisions. Missing ornamental backgrounds remain documented without invented replacements.",
+  "desktopReview": "passed",
+  "originalCatalogueCompleteness": "unverified",
+  "originalTotal": "unknown; source numbers 05 and 10 do not establish the complete original festival total",
+  "additionalSourceResearch": {
+    "directoryProbes": "catch/2008-seiyoku-festival/investigation/festival-directory-probes.json",
+    "relatedProbes": "catch/2008-seiyoku-festival/investigation/related-source-probes.json",
+    "mirrorHome": "catch/2008-seiyoku-festival/investigation/mirror-home-probe.json",
+    "result": "Japan route returned 403 for relevant AtWiki directory pages. The accessible backup site lists other archived events and has no matching link on its homepage. No more complete original catalogue identified."
+  },
+  "desktopEvidence": "catch/2008-seiyoku-festival/desktop-review.json"
+}

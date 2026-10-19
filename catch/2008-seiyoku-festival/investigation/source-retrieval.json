@@ -1,0 +1,37 @@
+{
+  "exitCountry": "JP",
+  "proxyPort": 37997,
+  "resources": [],
+  "attempts": [
+    {
+      "resource": "seiyoku.htm",
+      "url": "https://vipkohaku.x.fc2.com/seiyoku.htm",
+      "error": "TypeError: fetch failed"
+    },
+    {
+      "resource": "seiyoku.htm",
+      "url": "http://vipkohaku.x.fc2.com/seiyoku.htm",
+      "error": "TypeError: fetch failed"
+    },
+    {
+      "resource": "japanes_001.gif",
+      "url": "https://vipkohaku.x.fc2.com/japanes_001.gif",
+      "error": "TypeError: fetch failed"
+    },
+    {
+      "resource": "japanes_001.gif",
+      "url": "http://vipkohaku.x.fc2.com/japanes_001.gif",
+      "error": "TypeError: fetch failed"
+    },
+    {
+      "resource": "bg_title.jpg",
+      "url": "https://vipkohaku.x.fc2.com/bg_title.jpg",
+      "error": "TypeError: fetch failed"
+    },
+    {
+      "resource": "bg_title.jpg",
+      "url": "http://vipkohaku.x.fc2.com/bg_title.jpg",
+      "error": "TypeError: fetch failed"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "festivalId": "2008-seiyoku-festival",
+  "sourceEncoding": "shift_jis",
+  "entry": "/original-pages/2008-seiyoku-festival/seiyoku.htm",
+  "sourceManifests": [
+    "source/archive/manifest.json"
+  ],
+  "sourcePages": {
+    "seiyoku.htm": "source/archive/seiyoku.htm"
+  },
+  "files": [
+    "seiyoku.htm"
+  ],
+  "generatedPlaceholders": [],
+  "preloadResources": {
+    "unavailableUnused": 0,
+    "cachedUnused": 0,
+    "evidence": "catch/2008-seiyoku-festival/recovery.json"
+  },
+  "missingResources": [
+    {
+      "url": "https://vipkohaku.x.fc2.com/japanes_001.gif",
+      "error": "Error: Missing cached resource; use --fetch"
+    },
+    {
+      "url": "https://vipkohaku.x.fc2.com/bg_title.jpg",
+      "error": "Error: Missing cached resource; use --fetch"
+    }
+  ],
+  "omittedCssResources": [],
+  "omittedBackgrounds": [
+    {
+      "page": "seiyoku.htm",
+      "resource": "japanes_001.gif"
+    },
+    {
+      "page": "seiyoku.htm",
+      "resource": "bg_title.jpg"
+    }
+  ],
+  "omittedHovers": [],
+  "compatibilityFixes": [
+    {
+      "page": "seiyoku.htm",
+      "change": "Remove 1 script or active-control elements and 0 uncaptured external auto-load resources from the static replay."
+    },
+    {
+      "page": "seiyoku.htm",
+      "change": "Disable nonexistent boundary navigation."
+    }
+  ],
+  "changes": [
+    "Original HTML and CSS normalized from shift_jis to UTF-8.",
+    "Same-site links, CSS resources and absolute script/hover URLs use local paths.",
+    "External hosting trackers removed; unavailable unused preloads replaced with an empty image.",
+    "Original pages are displayed inside a sandboxed frame.",
+    "Unavailable background references are omitted; the original background colors are retained and missing resources remain documented."
+  ],
+  "desktopReview": "passed",
+  "desktopEvidence": "catch/2008-seiyoku-festival/desktop-review.json"
+}

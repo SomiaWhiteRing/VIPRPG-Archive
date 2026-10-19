@@ -1,0 +1,27 @@
+{
+  "exitCountry": "HK",
+  "proxyPort": 37998,
+  "resources": [],
+  "attempts": [
+    {
+      "resource": "seiyoku.htm",
+      "url": "https://web.archive.org/web/20190330131509id_/https://vipkohaku.x.fc2.com/seiyoku.htm",
+      "error": "Error: Response does not contain the two numbered festival entries"
+    },
+    {
+      "resource": "seiyoku.htm",
+      "url": "https://web.archive.org/web/20190518093113id_/https://vipkohaku.x.fc2.com/seiyoku.htm",
+      "error": "Error: Response does not contain the two numbered festival entries"
+    },
+    {
+      "resource": "seiyoku.htm",
+      "url": "https://web.archive.org/web/20230206095914id_/https://vipkohaku.x.fc2.com/seiyoku.htm",
+      "error": "Error: Response does not contain the two numbered festival entries"
+    },
+    {
+      "resource": "japanes_001.gif",
+      "url": "https://web.archive.org/web/20190903083216id_/https://vipkohaku.x.fc2.com/japanes_001.gif",
+      "error": "Error: HTTP 404"
+    }
+  ]
+}

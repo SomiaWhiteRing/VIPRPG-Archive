@@ -1,0 +1,37 @@
+{
+  "festivalId": "2008-seiyoku-festival",
+  "reviewedAt": "2026-10-19",
+  "scope": "desktop only; structural and interaction checks",
+  "status": "passed",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "original": {
+    "entry": "seiyoku.htm",
+    "documentWidth": 1183,
+    "scrollWidth": 1183,
+    "downloadAnchors": 2,
+    "scripts": 0,
+    "forms": 0,
+    "images": 0,
+    "externalAutomaticLoads": 0,
+    "replacementCharacters": 0
+  },
+  "formatted": {
+    "catalogueLinks": 2,
+    "originalToFormattedNavigationClicked": true,
+    "work05OpenedByClick": true,
+    "work10RouteChecked": true,
+    "detailTitleElements": 1,
+    "catalogueNotesPerDetail": 1,
+    "sourceDownloadLinkPerDetail": 1,
+    "noHorizontalOverflow": true
+  },
+  "validation": [
+    "npm run validate:data",
+    "npm run lint",
+    "npm run build"
+  ],
+  "contentBasedScreening": false
+}

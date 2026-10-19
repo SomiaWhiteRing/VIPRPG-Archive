@@ -1,0 +1,24 @@
+{
+  "exitCountry": "HK",
+  "proxyPort": 37998,
+  "resources": [
+    "seiyoku.htm"
+  ],
+  "attempts": [
+    {
+      "resource": "seiyoku.htm",
+      "url": "https://web.archive.org/web/20230206095914id_/https://vipkohaku.x.fc2.com/seiyoku.htm",
+      "status": 200,
+      "bytes": 1948,
+      "structure": {
+        "numbers": [
+          5,
+          10
+        ],
+        "anchors": 4,
+        "images": 2,
+        "scripts": 1
+      }
+    }
+  ]
+}
