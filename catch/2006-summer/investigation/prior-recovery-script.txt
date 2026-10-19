@@ -1,0 +1,95 @@
+import fs from "node:fs/promises";
+import * as cheerio from "cheerio";
+import iconv from "iconv-lite";
+import type { WorkEntry } from "../src/lib/types";
+
+// These four downloaded snapshots already existed in the abandoned workspace.
+// Re-read the preserved bytes so the recovery can be repeated without Wayback.
+async function main() {
+  const worksPath = "src/data/works/2006-summer.json";
+  const works: WorkEntry[] = JSON.parse(await fs.readFile(worksPath, "utf8"));
+  const entries = [];
+  const sources = [];
+  for (const no of ["01", "17", "18", "19"]) {
+    const filename = `ss${Number(no)}.bin`;
+    const cacheFile = `catch/2006-summer/source/${filename}`;
+    const bytes = await fs.readFile(cacheFile).catch(() => fs.readFile(`tmp_2006s_ss${Number(no)}.bin`));
+    const html = iconv.decode(bytes, "shift_jis");
+    const snapshot = html.match(/__wm\.wombat\("([^"\n]+)","(\d{14})"/);
+    if (!snapshot) throw new Error(`Missing capture identity: ${filename}`);
+    const [, originalUrl, timestamp] = snapshot;
+    const snapshotUrl = `https://web.archive.org/web/${timestamp}/${originalUrl}`;
+    const $ = cheerio.load(html);
+    $("br").replaceWith("\n");
+    const text = (selector: string) => $(selector).text().trim().replace(/\n{3,}/g, "\n\n");
+    const work = works.find((entry) => entry.no === no);
+    if (!work || !$("body").text().includes(work.title)) {
+      throw new Error(`Title does not match snapshot for No.${no}`);
+    }
+
+    if (no === "01") {
+      const description = text("#Layer2").split(/説明\s*\n/)[1];
+      const [author, host] = description?.split(/俺から一言\s*\n/) ?? [];
+      work.authorComment = author?.trim();
+      work.hostComment = host?.trim();
+    } else {
+      const selector = no === "17" ? "#Layer1 pre" : no === "18" ? "#message pre" : "#Layer1 tt";
+      work.authorComment = text(selector).split(/ゲームの簡単な説明[：\s]*/)[1]?.trim();
+      if (no === "18") work.authorComment += `\n\n${text("#Layer3")}`;
+      work.hostComment = text("#Layer5");
+    }
+    if (!work.authorComment || !work.hostComment) {
+      throw new Error(`Incomplete comment extraction for No.${no}`);
+    }
+
+    const href = $('a:has(img[alt="作品のダウンロード"])').attr("href");
+    if (!href) throw new Error(`Missing download anchor for No.${no}`);
+    const unwrapped = href.replace(/^https:\/\/web\.archive\.org\/web\/\d+\//, "");
+    work.download = {
+      url: /^https?:\/\//.test(unwrapped)
+        ? unwrapped
+        : `https://web.archive.org/web/${timestamp}/${new URL(href, originalUrl).href}`,
+      label: "DL",
+    };
+    work.source = { url: originalUrl, snapshotUrl };
+    delete work.detailDisabled;
+    const onlineHtmlCache = `catch/2006-summer/source/ss${Number(no)}-live.bin`;
+    const onlineHtml = await fs.readFile(onlineHtmlCache).catch(() => undefined);
+    if (onlineHtml && !iconv.decode(onlineHtml, "shift_jis").includes(work.title)) {
+      throw new Error(`Online capture does not match No.${no}`);
+    }
+    const localScreenshot = `/screenshots/2006-summer/${no}.png`;
+    const hasScreenshot = await fs.access(`public${localScreenshot}`).then(() => true, () => false);
+    if (hasScreenshot) work.ss = [localScreenshot];
+    const screenshotSources = $("img").toArray()
+      .filter((img) => Number($(img).attr("width")) > 200 && Number($(img).attr("height")) > 200)
+      .map((img) => new URL($(img).attr("src")!, "https://web.archive.org").href);
+    entries.push({
+      id: work.id,
+      source: work.source,
+      cacheFile,
+      status: hasScreenshot ? "text-and-screenshot-recovered" : "text-recovered-media-pending",
+      htmlVerifiedOnline: Boolean(onlineHtml),
+      ...(onlineHtml ? { onlineHtmlCache } : {}),
+      screenshotSources,
+      downloadVerified: false,
+    });
+    sources.push({ cacheFile, bytes });
+  }
+
+  await fs.mkdir("catch/2006-summer/source", { recursive: true });
+  for (const source of sources) await fs.writeFile(source.cacheFile, source.bytes);
+  await fs.writeFile(worksPath, JSON.stringify(works, null, 2) + "\n");
+  await fs.writeFile("catch/2006-summer/recovery.json", JSON.stringify({
+    festivalId: "2006-summer",
+    method: "Recovered from preserved Wayback HTML; htmlVerifiedOnline records fresh, matching HTML captures when available.",
+    remaining: "Other entries and missing screenshots still need source discovery; linked downloads are not availability checks.",
+    entries,
+  }, null, 2) + "\n");
+  console.log(`Recovered comments, source links and observed download links for ${entries.length} works.`);
+}
+
+main().catch((error) => {
+  console.error(error);
+  process.exitCode = 1;
+});

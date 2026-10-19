@@ -1,0 +1,71 @@
+{
+  "festivalId": "2006-summer",
+  "phase": "accepted with documented source and metadata gaps",
+  "progressLedger": {
+    "completedFestivals": 40,
+    "activeFestival": "2005-kouhaku",
+    "thisFestivalAccepted": true
+  },
+  "originalBase": "http://www.geocities.jp/gavumu/",
+  "originalNonPackageResources": 103,
+  "originalResourceHashesVerified": true,
+  "mirrorResources": 19,
+  "archivedNumberedSourcePages": 33,
+  "namedCandidateEntries": 32,
+  "unresolvedMetadata": [
+    {
+      "no": "04",
+      "fields": [
+        "author"
+      ],
+      "sourceUrl": "http://www.geocities.jp/gavumu/ss4.htm",
+      "note": "A structured author value was not confirmed. Preserve the full original source text without guessing an attribution."
+    },
+    {
+      "no": "13",
+      "fields": [
+        "author"
+      ],
+      "sourceUrl": "http://www.geocities.jp/gavumu/ss13.htm",
+      "note": "A structured author value was not confirmed. Preserve the full original source text without guessing an attribution."
+    },
+    {
+      "no": "20",
+      "fields": [
+        "title",
+        "author"
+      ],
+      "sourceUrl": "http://www.geocities.jp/gavumu/ss20.htm",
+      "note": "The numbered source contains a short note, no title field and no image reference. Its title and author remain unconfirmed."
+    }
+  ],
+  "previousMissingScreenshotsRecovered": [
+    "17",
+    "18",
+    "19"
+  ],
+  "preservedExistingWorktreeBaseline": "catch/2006-summer/investigation/pre-recovery-baseline.json",
+  "preservedExistingRecoveryScript": "catch/2006-summer/investigation/prior-recovery-script.txt",
+  "currentAppDatasetEntries": 33,
+  "sourceFrames": {
+    "entry": "framepage2.htm",
+    "menuPage": "fure-m.htm",
+    "menuName": "left",
+    "mainName": "right",
+    "defaultMainPage": "ss1.htm"
+  },
+  "evidence": [
+    "catch/2006-summer/investigation/original-origin-evidence.json",
+    "catch/2006-summer/investigation/original-mirror-identity-review.json",
+    "catch/2006-summer/investigation/final-original-resource-verification.json",
+    "catch/2006-summer/investigation/catalogue-candidate-rows.json",
+    "catch/2006-summer/investigation/catalogue-reconciliation.json",
+    "catch/2006-summer/investigation/prior-missing-screenshot-recovery.json"
+  ],
+  "remainingWork": [],
+  "contentHandling": "No manual review of work titles, body or image pixels. Only programmatic field extraction, source identifiers, metadata, DOM structure, encodings and checksums were inspected.",
+  "acceptanceEvidence": [
+    "catch/2006-summer/desktop-review.json",
+    "catch/2006-summer/source-comparison.json"
+  ]
+}

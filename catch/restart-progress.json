@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2006-summer",
+  "activeFestival": "2005-kouhaku",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -1196,6 +1196,41 @@
         "catch/2006-kouhaku/desktop-review.json"
       ],
       "notes": "原站分散于6个作品账号；合并主目录90项与附属目录新增No.91、92，修复旧正则只取得23个无链接名称的漏抓。恢复92个详情、92张截图、2张横幅，219份原站资源摘要校验通过；红白各45条，末2项未注明分组。原貌223文件、4个评论附页骨架和1张背景缺口明确记录；3个迁移菜单入口改为本地已存原页。92个整理详情及双视图桌面导航检查通过；ZIP仅保存历史入口及索引，未验包。"
+    },
+    {
+      "festivalId": "2006-summer",
+      "reviewedAt": "2026-10-20",
+      "dataSha256": "e40d14028b3100055938a08f0c81cb581bce7598bbb7ac72a861ec1cf90131ee",
+      "works": 33,
+      "namedEntries": 32,
+      "sourceNoteEntries": 1,
+      "authors": 30,
+      "screenshotFiles": 35,
+      "screenshotReferences": 35,
+      "status": "reviewed-with-source-gaps",
+      "originalCatalogueCompleteness": "verified-for-captured-numbered-pages-and-numbered-menu",
+      "outstandingSourceDetails": 0,
+      "outstandingImageSourceUrls": 0,
+      "outstandingScreenshotRows": 0,
+      "outstandingAuxiliaryPages": 1,
+      "outstandingMetadataEntries": 3,
+      "packageArchiveIndexReferences": 16,
+      "packageBytesValidated": false,
+      "sourceEvidence": [
+        "catch/2006-summer/recovery.json",
+        "catch/2006-summer/source-comparison.json",
+        "catch/2006-summer/investigation/original-origin-evidence.json",
+        "catch/2006-summer/investigation/final-original-resource-verification.json",
+        "catch/2006-summer/investigation/forum-title-provenance.json",
+        "catch/2006-summer/investigation/legacy-id-map.json",
+        "catch/2006-summer/investigation/no30-title-reconstruction.json",
+        "catch/2006-summer/investigation/header-image-position-evidence.json",
+        "catch/2006-summer/investigation/patch-page-source-evidence.json"
+      ],
+      "desktopEvidence": [
+        "catch/2006-summer/desktop-review.json"
+      ],
+      "notes": "确认GeoCities原站并恢复103份页面／图片，覆盖No.01–33；整理版33条编号记录含32条具名资料及No.20短说明待查项，35张展示图、30条作者资料、16个历史讨论入口。纠正旧No.03／04名称对调，恢复No.30完整题名；原貌菜单56px段落遮挡No.17／18，调整至原20px行距后22个菜单链接实际点击全部通过。640×120顶部图作横幅，中部插图保留原貌。No.20题名及No.04、13、20作者未确认；No.06补丁附页所查存档404，保留说明骨架。双视图桌面验收通过，ZIP仅保留入口／索引未验包。"
     }
   ],
   "originalViewsReviewed": [
@@ -1474,6 +1509,13 @@
       "evidence": [
         "catch/2006-kouhaku/original-view.json",
         "catch/2006-kouhaku/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2006-summer",
+      "evidence": [
+        "catch/2006-summer/original-view.json",
+        "catch/2006-summer/desktop-review.json"
       ]
     }
   ],

@@ -7,6 +7,15 @@ import type { WorkEntry } from "../src/lib/types";
 import { rewriteSummer2012Source } from "./source-2012-summer-view";
 
 const configurations: Record<string, { base: string; entry?: string; manifests: string[]; seeds: Record<string, string>; seedUrls?: Record<string, string>; cgiProfile?: boolean; encoding?: string; encodingOverrides?: Record<string, string>; liveSource?: boolean; disabledLocalLinks?: string[]; externalResources?: Record<string, string>; preserveExternalExtensions?: string[]; frames?: { menuPage: string; menuName: string; mainName: string } }> = {
+  "2006-summer": {
+    base: "http://www.geocities.jp/gavumu/",
+    entry: "top.htm",
+    manifests: ["source/original-archive/manifest.json"],
+    seeds: {},
+    encoding: "shift_jis",
+    frames: { menuPage: "fure-m.htm", menuName: "left", mainName: "right" },
+    preserveExternalExtensions: [".zip"],
+  },
   "2006-kouhaku": {
     base: "http://www.geocities.jp/vipkouhaku/",
     manifests: ["source/archive/manifest.json", "source/original-archive/manifest.json"],
@@ -353,7 +362,7 @@ async function main() {
   function enqueue(url: string, owner: string) {
     const absolute = new URL(unarchive(url), owner).href, local = relative(absolute);
     if (local && blocked.has(local)) return blocked.get(local);
-    if (local && ((id === "2010-gw" && sourceDetailGapPaths.has(local)) || (["2008-jisaku-battle-festival", "2008-kouhaku", "2008-summer", "2007-default-battle-festival", "2007-gw", "2007-summer", "2006-kouhaku"].includes(id) && (sourceDetailGapPaths.has(local) || unavailableSourcePagePaths.has(local))))) return local;
+    if (local && ((id === "2010-gw" && sourceDetailGapPaths.has(local)) || (["2008-jisaku-battle-festival", "2008-kouhaku", "2008-summer", "2007-default-battle-festival", "2007-gw", "2007-summer", "2006-kouhaku", "2006-summer"].includes(id) && (sourceDetailGapPaths.has(local) || unavailableSourcePagePaths.has(local))))) return local;
     if (local && /\.(?:html?|css|js|png|jpe?g|gif|bmp|webp|ico|svg|mp3|wav|ogg|mid|avi|ogv|txt|zip)$/i.test(local)) {
       queue.add(absolute);
       return local;
@@ -659,7 +668,7 @@ async function main() {
         }
         $('img[src*="media.fc2.com/counter_img.php"]').remove();
         $('img[src*="netriver.jp/countriver/"]').remove();
-        if (id === "2008-gw" || id === "2008-chuuni-festival" || id === "2009-summer" || id === "2008-kouhaku" || id === "2008-seiyoku-festival" || id === "2008-summer" || id === "2007-default-battle-festival" || id === "2007-gw" || id === "2007-summer" || id === "2006-gw" || id === "2006-kouhaku") {
+        if (id === "2008-gw" || id === "2008-chuuni-festival" || id === "2009-summer" || id === "2008-kouhaku" || id === "2008-seiyoku-festival" || id === "2008-summer" || id === "2007-default-battle-festival" || id === "2007-gw" || id === "2007-summer" || id === "2006-gw" || id === "2006-kouhaku" || id === "2006-summer") {
           const activeElements = $("script,noscript,form,object,embed").length;
           $("script,noscript,form,object,embed").remove();
           const unarchivedLoads = $("img[src],iframe[src],link[rel~='stylesheet'][href],video[src],audio[src],source[src]").toArray().filter((element) => {
@@ -750,6 +759,10 @@ async function main() {
           if ($(element).attr("style") !== undefined) $(element).attr("style", rewriteCSS(text, original, local));
           else $(element).html(rewriteCSS(text, original, local));
         });
+        if (id === "2006-summer" && local === "fure-m.htm") {
+          $("head").append('<style data-archive-menu-spacing>body>div[style*="absolute"]>p{margin:0;line-height:20px}</style>');
+          compatibilityFixes.push({ page: local, change: "Remove default paragraph margins in the menu absolute-positioned rows. A 56px high layer at z-index 28 overlapped the No.17 and No.18 links at z-index 13; a 20px line box follows the source row spacing and restores pointer access." });
+        }
         // Opaque sandbox origins prevent the legacy menu from navigating its sibling frame.
         const menuFrameSelector = config.frames && (config.frames.menuName ? `frame[name="${config.frames.menuName}"]` : 'frame:not([name]),frame[name=""]');
         const mainFrameSelector = config.frames && `frame[name="${config.frames.mainName}"]`;
@@ -927,10 +940,10 @@ async function main() {
         compatibilityFixes.push({ page: local, change: "Omit an unavailable stylesheet or favicon reference; the source inline styling remains in place and the missing resource stays documented." });
       }
     });
-    if (["2010-gw", "2012-kouhaku", "2011-gw", "2011-kouhaku", "2010-summer", "2009-kouhaku", "2009-ksgfestival", "2009-silver-week-miruge-festival", "2009-summer", "2008-gw", "2008-jisaku-battle-festival", "2008-chuuni-festival", "2009-gw", "2008-kouhaku", "2008-seiyoku-festival", "2008-summer", "2007-default-battle-festival", "2007-gw", "2007-summer", "2006-gw", "2006-kouhaku"].includes(id) || [...omittedBackgrounds, ...omittedHovers].some((omission) => omission.page === local)) files.set(local, Buffer.from($.html()));
+    if (["2010-gw", "2012-kouhaku", "2011-gw", "2011-kouhaku", "2010-summer", "2009-kouhaku", "2009-ksgfestival", "2009-silver-week-miruge-festival", "2009-summer", "2008-gw", "2008-jisaku-battle-festival", "2008-chuuni-festival", "2009-gw", "2008-kouhaku", "2008-seiyoku-festival", "2008-summer", "2007-default-battle-festival", "2007-gw", "2007-summer", "2006-gw", "2006-kouhaku", "2006-summer"].includes(id) || [...omittedBackgrounds, ...omittedHovers].some((omission) => omission.page === local)) files.set(local, Buffer.from($.html()));
   }
   const generatedUnavailablePages: string[] = [];
-  if (["2011-gw", "2010-gw", "2009-ksgfestival", "2008-chuuni-festival", "2008-jisaku-battle-festival", "2008-kouhaku", "2008-summer", "2007-default-battle-festival", "2007-gw", "2007-summer", "2006-kouhaku"].includes(id)) for (const gap of recovery.sourceDetailGaps ?? []) {
+  if (["2011-gw", "2010-gw", "2009-ksgfestival", "2008-chuuni-festival", "2008-jisaku-battle-festival", "2008-kouhaku", "2008-summer", "2007-default-battle-festival", "2007-gw", "2007-summer", "2006-kouhaku", "2006-summer"].includes(id)) for (const gap of recovery.sourceDetailGaps ?? []) {
     const work = catalogue.find((work) => work.no === gap.no);
     if (!work || files.has(gap.sourcePath)) continue;
     const escape = (value: string) => value.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
@@ -948,14 +961,15 @@ async function main() {
     generatedUnavailablePages.push(gap.sourcePath);
     compatibilityFixes.push({ page: gap.sourcePath, change: "Generated labelled catalogue-only fallback for an unavailable original introduction. Original comments and screenshot are not invented; the source gap remains documented." });
   }
-  if (id === "2008-chuuni-festival" || id === "2008-jisaku-battle-festival" || id === "2008-kouhaku" || id === "2008-summer" || id === "2007-summer" || id === "2006-kouhaku") for (const gap of recovery.unavailableSourcePages ?? []) {
+  if (id === "2008-chuuni-festival" || id === "2008-jisaku-battle-festival" || id === "2008-kouhaku" || id === "2008-summer" || id === "2007-summer" || id === "2006-kouhaku" || id === "2006-summer") for (const gap of recovery.unavailableSourcePages ?? []) {
     if (files.has(gap.sourcePath)) continue;
     const sample = gap.no === "000";
     const heading = sample ? "No.000 — 原ページ未取得" : "原ページ未取得";
-    const backHref = path.posix.relative(path.posix.dirname(gap.sourcePath), id === "2006-kouhaku" ? "top.htm" : config.entry ?? "index.html");
+    const returnToPatchOwner = id === "2006-summer" && gap.sourcePath === "no6patti.htm";
+    const backHref = path.posix.relative(path.posix.dirname(gap.sourcePath), returnToPatchOwner ? "ss6.htm" : (id === "2006-kouhaku" || id === "2006-summer") ? "top.htm" : config.entry ?? "index.html");
     files.set(gap.sourcePath, Buffer.from(`<!doctype html><html lang="ja"><meta charset="UTF-8"><title>${heading}</title>
       <style>body{max-width:800px;margin:2em auto;padding:0 1em;font-family:sans-serif;line-height:1.6}.note{padding:1em;border:1px solid #aab;background:#f0f3f7}</style>
-      <body data-archive-source-unavailable="${sample ? "sample" : "page"}"><main><h1>${heading}</h1><p class="note">このページの保存済み本文は見つかっていません。原資料の内容は補わず、一覧にあった番号とページ構造だけを残しています。</p><p><a href="${backHref}">一覧へ戻る</a></p></main></body></html>`));
+      <body data-archive-source-unavailable="${sample ? "sample" : "page"}"><main><h1>${heading}</h1><p class="note">このページの保存済み本文は見つかっていません。原資料の内容は補わず、一覧にあった番号とページ構造だけを残しています。</p><p><a href="${backHref}">${returnToPatchOwner ? "作品ページへ戻る" : "一覧へ戻る"}</a></p></main></body></html>`));
     generatedUnavailablePages.push(gap.sourcePath);
     compatibilityFixes.push({ page: gap.sourcePath, change: sample ? "Create a neutral local shell for the linked No.000 sample page; do not add it to the 24 registered works." : "Create a neutral local shell for an uncaptured auxiliary source page; preserve its local route without fabricating contents." });
   }

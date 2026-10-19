@@ -1,0 +1,35 @@
+{
+  "capture": {
+    "originalUrl": "http://www.geocities.jp/gavumu/top.htm",
+    "requestedUrl": "https://web.archive.org/web/20190331141034id_/http://www.geocities.jp/gavumu/top.htm",
+    "actualUrl": "https://web.archive.org/web/20190331141034id_/http://www.geocities.jp/gavumu/top.htm",
+    "timestamp": "20190331141034",
+    "file": "top-20190331141034.bin",
+    "status": 200,
+    "mementoDatetime": "Sun, 31 Mar 2019 14:10:34 GMT",
+    "bytes": 4264,
+    "sha256": "7a27fe5211ca41726148fa17109b3ed28363058a81358d77c032c0c44d6f9f18",
+    "expectedDigest": "2G255M2E2GJALIRVPKJZTBSLSOJ7CVEZ",
+    "actualDigest": "2G255M2E2GJALIRVPKJZTBSLSOJ7CVEZ",
+    "cdxDigestVerified": true,
+    "proxyRegion": "Hong Kong"
+  },
+  "images": [
+    {
+      "src": "tope-sama-.PNG",
+      "width": 320,
+      "height": 240,
+      "positionedParentId": "Layer7",
+      "positionedParentStyle": "top : 250px;left : 20px;\n  position : absolute;\n  z-index : 7;\n"
+    },
+    {
+      "src": "uenohou.jpg",
+      "width": 640,
+      "height": 120,
+      "positionedParentId": "Layer1",
+      "positionedParentStyle": "top : 0px;left : 0px;\n  position : absolute;\n  z-index : 1;\n"
+    }
+  ],
+  "selectedHeader": "uenohou.jpg",
+  "basis": "Source HTML explicitly places the 640x120 image at top:0,left:0. The previously used 320x240 illustration is positioned at top:250,left:20. Classification uses DOM positioning and dimensions; image pixels were not reviewed."
+}

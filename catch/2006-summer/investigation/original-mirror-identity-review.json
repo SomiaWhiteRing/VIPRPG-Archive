@@ -1,0 +1,66 @@
+{
+  "originalCapture": {
+    "originalUrl": "http://www.geocities.jp/gavumu/top.htm",
+    "requestedUrl": "https://web.archive.org/web/20190331141034id_/http://www.geocities.jp/gavumu/top.htm",
+    "actualUrl": "https://web.archive.org/web/20190331141034id_/http://www.geocities.jp/gavumu/top.htm",
+    "timestamp": "20190331141034",
+    "file": "top-20190331141034.bin",
+    "status": 200,
+    "mementoDatetime": "Sun, 31 Mar 2019 14:10:34 GMT",
+    "bytes": 4264,
+    "sha256": "7a27fe5211ca41726148fa17109b3ed28363058a81358d77c032c0c44d6f9f18",
+    "expectedDigest": "2G255M2E2GJALIRVPKJZTBSLSOJ7CVEZ",
+    "actualDigest": "2G255M2E2GJALIRVPKJZTBSLSOJ7CVEZ",
+    "cdxDigestVerified": true,
+    "proxyRegion": "Hong Kong"
+  },
+  "mirrorCapture": {
+    "originalUrl": "https://vipkohaku.x.fc2.com/2006s/top.htm",
+    "requestedUrl": "https://web.archive.org/web/20190518093106id_/https://vipkohaku.x.fc2.com/2006s/top.htm",
+    "actualUrl": "https://web.archive.org/web/20190518093106id_/https://vipkohaku.x.fc2.com/2006s/top.htm",
+    "timestamp": "20190518093106",
+    "status": 200,
+    "mementoDatetime": "Sat, 18 May 2019 09:31:06 GMT",
+    "file": "capture-6d5e280434192741c9a1-303c10dd.bin",
+    "bytes": 4013,
+    "sha256": "303c10dd0099357175582e00d495fabc13c1d59b58bfd0d2f0c80870bedb8864",
+    "expectedDigest": "BNIFUAZNWVEWYLERXQCK3HDPR336BVBG",
+    "actualDigest": "BNIFUAZNWVEWYLERXQCK3HDPR336BVBG",
+    "cdxDigestVerified": true,
+    "proxyRegion": "Hong Kong"
+  },
+  "originalImages": [
+    "kannsou.gif",
+    "badss.gif",
+    "godaa.gif",
+    "tipix.PNG",
+    "keiziban.gif",
+    "tourokutezyun.gif",
+    "tope-sama-.PNG",
+    "uenohou.jpg"
+  ],
+  "mirrorImages": [
+    "kannsou.gif",
+    "badss.gif",
+    "godaa.gif",
+    "tipix.PNG",
+    "keiziban.gif",
+    "tourokutezyun.gif",
+    "tope-sama-.PNG",
+    "uenohou.jpg",
+    "//media.fc2.com/counter_img.php?id=50"
+  ],
+  "identicalOrderedImageBasenames": false,
+  "originalInternalLinks": [
+    "http://www.geocities.jp/gavumu/bss.htm",
+    "http://www.geocities.jp/gavumu/framepage2.htm"
+  ],
+  "mirrorInternalLinks": [
+    "bss.htm",
+    "framepage2.htm",
+    "../gavumumu/purezento.zip"
+  ],
+  "handling": "Compare source page structure and resource names only; no work content reviewed.",
+  "excludedTrackingResources": true,
+  "identicalOrderedNonTrackingImageBasenames": true
+}

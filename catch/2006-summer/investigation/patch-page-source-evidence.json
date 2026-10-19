@@ -1,0 +1,49 @@
+{
+  "originalUrl": "http://www.geocities.jp/gavumu/no6patti.htm",
+  "queryUrl": "https://web.archive.org/cdx/search/cdx?url=http%3A%2F%2Fwww.geocities.jp%2Fgavumu%2Fno6patti.htm&output=json&collapse=digest&fl=original,timestamp,statuscode,mimetype,digest",
+  "proxyRegion": "Hong Kong",
+  "cdxStatus": 200,
+  "retryAfter": null,
+  "rows": [
+    [
+      "original",
+      "timestamp",
+      "statuscode",
+      "mimetype",
+      "digest"
+    ],
+    [
+      "http://www.geocities.jp/gavumu/no6patti.htm",
+      "20181008113721",
+      "404",
+      "text/html",
+      "42CNR7W7K7EKL5J3HVPQPJOJYJCHRHHE"
+    ],
+    [
+      "http://www.geocities.jp/gavumu/no6patti.htm",
+      "20181108004342",
+      "404",
+      "text/html",
+      "IHMESCPMYDDZRDCVOAKIJGDC4DRX2V4A"
+    ]
+  ],
+  "replay": {
+    "requestedUrl": "https://web.archive.org/web/20190129192152id_/http://www.geocities.jp/gavumu/no6patti.htm",
+    "actualUrl": "https://web.archive.org/web/20190129192152id_/http://www.geocities.jp/gavumu/no6patti.htm",
+    "status": 302,
+    "location": "https://web.archive.org/web/20190129205309id_/http://www.geocities.jp/gavumu/no6patti.htm",
+    "mementoDatetime": null,
+    "file": "no6patti-replay.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "followedReplay": {
+    "requestedUrl": "https://web.archive.org/web/20190129205309id_/http://www.geocities.jp/gavumu/no6patti.htm",
+    "actualUrl": "https://web.archive.org/web/20190129205309id_/http://www.geocities.jp/gavumu/no6patti.htm",
+    "status": 404,
+    "mementoDatetime": "Tue, 29 Jan 2019 20:53:09 GMT",
+    "file": "no6patti-final-replay.bin",
+    "bytes": 3682,
+    "sha256": "c65c1879ef9296bb7fce78a061ba2009bdcc7def20bb5eef6eb4dfdb8cdce449"
+  }
+}

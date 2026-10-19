@@ -1,0 +1,464 @@
+{
+  "festivalId": "2006-summer",
+  "numberedEntries": 33,
+  "namedEntries": 32,
+  "sourceDetailFiles": 33,
+  "screenshotReferences": 35,
+  "screenshotRows": 32,
+  "sourceDocuments": 48,
+  "sourceResources": 103,
+  "originalReplayFiles": 104,
+  "htmlDocuments": 49,
+  "localReferences": 125,
+  "missingLocalReferences": [],
+  "generatedAuxiliarySkeletons": [
+    "no6patti.htm"
+  ],
+  "unresolvedMetadata": [
+    {
+      "no": "04",
+      "fields": [
+        "author"
+      ],
+      "sourceUrl": "http://www.geocities.jp/gavumu/ss4.htm",
+      "note": "A structured author value was not confirmed. Preserve the full original source text without guessing an attribution."
+    },
+    {
+      "no": "13",
+      "fields": [
+        "author"
+      ],
+      "sourceUrl": "http://www.geocities.jp/gavumu/ss13.htm",
+      "note": "A structured author value was not confirmed. Preserve the full original source text without guessing an attribution."
+    },
+    {
+      "no": "20",
+      "fields": [
+        "title",
+        "author"
+      ],
+      "sourceUrl": "http://www.geocities.jp/gavumu/ss20.htm",
+      "note": "The numbered source contains a short note, no title field and no image reference. Its title and author remain unconfirmed."
+    }
+  ],
+  "images": [
+    {
+      "no": "01",
+      "local": "/screenshots/2006-summer/01-1.png",
+      "format": "png",
+      "width": 637,
+      "height": 473
+    },
+    {
+      "no": "02",
+      "local": "/screenshots/2006-summer/02-1.png",
+      "format": "png",
+      "width": 650,
+      "height": 572
+    },
+    {
+      "no": "03",
+      "local": "/screenshots/2006-summer/03-1.jpg",
+      "format": "jpeg",
+      "width": 600,
+      "height": 452
+    },
+    {
+      "no": "04",
+      "local": "/screenshots/2006-summer/04-1.png",
+      "format": "png",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "no": "05",
+      "local": "/screenshots/2006-summer/05-1.png",
+      "format": "png",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "no": "06",
+      "local": "/screenshots/2006-summer/06-1.png",
+      "format": "png",
+      "width": 655,
+      "height": 488
+    },
+    {
+      "no": "07",
+      "local": "/screenshots/2006-summer/07-1.png",
+      "format": "png",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "no": "08",
+      "local": "/screenshots/2006-summer/08-1.png",
+      "format": "png",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "no": "09",
+      "local": "/screenshots/2006-summer/09-1.png",
+      "format": "png",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "no": "10",
+      "local": "/screenshots/2006-summer/10-1.jpg",
+      "format": "jpeg",
+      "width": 600,
+      "height": 450
+    },
+    {
+      "no": "11",
+      "local": "/screenshots/2006-summer/11-1.png",
+      "format": "png",
+      "width": 320,
+      "height": 240
+    },
+    {
+      "no": "12",
+      "local": "/screenshots/2006-summer/12-1.png",
+      "format": "png",
+      "width": 317,
+      "height": 236
+    },
+    {
+      "no": "13",
+      "local": "/screenshots/2006-summer/13-1.png",
+      "format": "png",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "no": "14",
+      "local": "/screenshots/2006-summer/14-1.png",
+      "format": "png",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "no": "15",
+      "local": "/screenshots/2006-summer/15-1.png",
+      "format": "png",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "no": "16",
+      "local": "/screenshots/2006-summer/16-1.png",
+      "format": "png",
+      "width": 320,
+      "height": 240
+    },
+    {
+      "no": "17",
+      "local": "/screenshots/2006-summer/17-1.jpg",
+      "format": "jpeg",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "no": "18",
+      "local": "/screenshots/2006-summer/18-1.png",
+      "format": "png",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "no": "19",
+      "local": "/screenshots/2006-summer/19-1.png",
+      "format": "png",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "no": "21",
+      "local": "/screenshots/2006-summer/21-1.png",
+      "format": "png",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "no": "22",
+      "local": "/screenshots/2006-summer/22-1.png",
+      "format": "png",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "no": "23",
+      "local": "/screenshots/2006-summer/23-1.jpg",
+      "format": "jpeg",
+      "width": 638,
+      "height": 442
+    },
+    {
+      "no": "23",
+      "local": "/screenshots/2006-summer/23-2.jpg",
+      "format": "jpeg",
+      "width": 638,
+      "height": 439
+    },
+    {
+      "no": "23",
+      "local": "/screenshots/2006-summer/23-3.jpg",
+      "format": "jpeg",
+      "width": 638,
+      "height": 442
+    },
+    {
+      "no": "23",
+      "local": "/screenshots/2006-summer/23-4.jpg",
+      "format": "jpeg",
+      "width": 638,
+      "height": 448
+    },
+    {
+      "no": "24",
+      "local": "/screenshots/2006-summer/24-1.png",
+      "format": "png",
+      "width": 660,
+      "height": 552
+    },
+    {
+      "no": "25",
+      "local": "/screenshots/2006-summer/25-1.png",
+      "format": "png",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "no": "26",
+      "local": "/screenshots/2006-summer/26-1.png",
+      "format": "png",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "no": "27",
+      "local": "/screenshots/2006-summer/27-1.jpg",
+      "format": "jpeg",
+      "width": 600,
+      "height": 450
+    },
+    {
+      "no": "28",
+      "local": "/screenshots/2006-summer/28-1.png",
+      "format": "png",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "no": "29",
+      "local": "/screenshots/2006-summer/29-1.png",
+      "format": "png",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "no": "30",
+      "local": "/screenshots/2006-summer/30-1.png",
+      "format": "png",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "no": "31",
+      "local": "/screenshots/2006-summer/31-1.png",
+      "format": "png",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "no": "32",
+      "local": "/screenshots/2006-summer/32-1.png",
+      "format": "png",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "no": "33",
+      "local": "/screenshots/2006-summer/33-1.gif",
+      "format": "gif",
+      "width": 320,
+      "height": 240
+    }
+  ],
+  "worksSha256": "e40d14028b3100055938a08f0c81cb581bce7598bbb7ac72a861ec1cf90131ee",
+  "banner": {
+    "local": "/banners/2006-summer-original.jpg",
+    "sourcePath": "uenohou.jpg",
+    "sourcePosition": {
+      "top": 0,
+      "left": 0
+    },
+    "width": 640,
+    "height": 120,
+    "capture": {
+      "originalUrl": "http://www.geocities.jp/gavumu/uenohou.jpg",
+      "requestedUrl": "https://web.archive.org/web/20120124163334id_/http://www.geocities.jp/gavumu/uenohou.jpg",
+      "actualUrl": "https://web.archive.org/web/20120124163334id_/http://www.geocities.jp/gavumu/uenohou.jpg",
+      "timestamp": "20120124163334",
+      "status": 200,
+      "mementoDatetime": "Tue, 24 Jan 2012 16:33:34 GMT",
+      "file": "capture-bc9e1cf572ab6408816d-5b142478.bin",
+      "bytes": 14624,
+      "sha256": "5b1424780d18921068023dc5275b162773c71703a799577d2068bd67978b0a46",
+      "expectedDigest": "PXRL65LIMJUR4NESCX2PIPZE4YDCC6F5",
+      "actualDigest": "PXRL65LIMJUR4NESCX2PIPZE4YDCC6F5",
+      "cdxDigestVerified": true,
+      "proxyRegion": "Hong Kong"
+    }
+  },
+  "titleEvidence": "catch/2006-summer/investigation/forum-title-provenance.json",
+  "menuCompatibility": "Default paragraph margins overlapped numbered links; source-authored 20px absolute rows are now clickable.",
+  "forumReferences": 16,
+  "legacyNumberingCorrection": "catch/2006-summer/investigation/legacy-id-map.json",
+  "multilineTitleCorrection": "catch/2006-summer/investigation/no30-title-reconstruction.json",
+  "formattedLocalReferences": [
+    {
+      "no": "06",
+      "href": "/original-pages/2006-summer/no6patti.htm",
+      "exists": true
+    }
+  ],
+  "authors": 30,
+  "titleLengths": [
+    {
+      "no": "01",
+      "characters": 15
+    },
+    {
+      "no": "02",
+      "characters": 20
+    },
+    {
+      "no": "03",
+      "characters": 5
+    },
+    {
+      "no": "04",
+      "characters": 12
+    },
+    {
+      "no": "05",
+      "characters": 4
+    },
+    {
+      "no": "06",
+      "characters": 15
+    },
+    {
+      "no": "07",
+      "characters": 22
+    },
+    {
+      "no": "08",
+      "characters": 10
+    },
+    {
+      "no": "09",
+      "characters": 10
+    },
+    {
+      "no": "10",
+      "characters": 21
+    },
+    {
+      "no": "11",
+      "characters": 20
+    },
+    {
+      "no": "12",
+      "characters": 17
+    },
+    {
+      "no": "13",
+      "characters": 12
+    },
+    {
+      "no": "14",
+      "characters": 16
+    },
+    {
+      "no": "15",
+      "characters": 19
+    },
+    {
+      "no": "16",
+      "characters": 15
+    },
+    {
+      "no": "17",
+      "characters": 19
+    },
+    {
+      "no": "18",
+      "characters": 19
+    },
+    {
+      "no": "19",
+      "characters": 6
+    },
+    {
+      "no": "20",
+      "characters": 12
+    },
+    {
+      "no": "21",
+      "characters": 5
+    },
+    {
+      "no": "22",
+      "characters": 4
+    },
+    {
+      "no": "23",
+      "characters": 16
+    },
+    {
+      "no": "24",
+      "characters": 9
+    },
+    {
+      "no": "25",
+      "characters": 15
+    },
+    {
+      "no": "26",
+      "characters": 7
+    },
+    {
+      "no": "27",
+      "characters": 8
+    },
+    {
+      "no": "28",
+      "characters": 13
+    },
+    {
+      "no": "29",
+      "characters": 25
+    },
+    {
+      "no": "30",
+      "characters": 41
+    },
+    {
+      "no": "31",
+      "characters": 8
+    },
+    {
+      "no": "32",
+      "characters": 13
+    },
+    {
+      "no": "33",
+      "characters": 30
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "queryUrl": "https://web.archive.org/cdx/search/cdx?url=www.geocities.jp%2Fgavumu%2F&matchType=prefix&output=json&filter=statuscode%3A200&collapse=urlkey&fl=original,timestamp,statuscode,mimetype,digest",
+  "proxyRegion": "Hong Kong",
+  "error": "TimeoutError after 45000ms; no response body obtained",
+  "conclusion": "No conclusion on archive presence. Follow up with the explicit linked top.htm URL and narrow observed resource prefixes."
+}

@@ -1,0 +1,63 @@
+{
+  "queryUrl": "https://web.archive.org/cdx/search/cdx?url=http%3A%2F%2Fyy41.60.kg%2Fnatu%2F&output=json&filter=statuscode%3A200&collapse=digest&fl=original,timestamp,statuscode,mimetype,digest",
+  "status": 200,
+  "retryAfter": null,
+  "rows": [
+    [
+      "original",
+      "timestamp",
+      "statuscode",
+      "mimetype",
+      "digest"
+    ],
+    [
+      "http://yy41.60.kg:80/natu/",
+      "20070402022134",
+      "200",
+      "text/html",
+      "BZYSFM4J4QWWQ7TZG3FHZMDCJUIRZT5U"
+    ],
+    [
+      "http://yy41.60.kg:80/natu/",
+      "20071011105842",
+      "200",
+      "text/html",
+      "ZRDND3ZDEJMAHFT7ZKM4IXFSC37XKMMT"
+    ],
+    [
+      "http://yy41.60.kg:80/natu/",
+      "20080229003651",
+      "200",
+      "text/html",
+      "V4TLDGAAIJNRHHNODUZODFLDF7EQ6AN3"
+    ],
+    [
+      "http://yy41.60.kg:80/natu/",
+      "20080430153415",
+      "200",
+      "text/html",
+      "D4HHMBVPDXQFINAHO3KZLZFOHKYMN27K"
+    ],
+    [
+      "http://yy41.60.kg:80/natu/",
+      "20090119172515",
+      "200",
+      "text/html",
+      "DXRBJFG66WQZ2SOU7MXNDFVDC6IOBCP7"
+    ],
+    [
+      "http://yy41.60.kg:80/natu/",
+      "20090327001459",
+      "200",
+      "text/html",
+      "ERRZBD4Y7JFNWRKQSPO4WQ7WS5CE6W32"
+    ],
+    [
+      "http://yy41.60.kg/natu/",
+      "20221224040045",
+      "200",
+      "text/html",
+      "LT42SYBE6SDINLR3LJRMRFKLDOQUGWAK"
+    ]
+  ]
+}

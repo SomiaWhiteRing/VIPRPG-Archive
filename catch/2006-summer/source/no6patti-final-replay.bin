@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<title>エラー - Yahoo!ジオシティーズ</title>
+<meta name="description" content="400万人以上が利用しているホームページ作成サービス。無料で簡単にホームページを作成できます。独自ドメインや商用利用も可能です。">
+<meta name="keywords" content="無料,ホームページ作成,簡単,独自ドメイン,レンタルスペース,商用利用,アフィリエイト,ウェブサイト,ウェブページ,Webページ,Webサイト">
+<meta property="og:title" content="簡単ホームページ作成サービス（無料） - Yahoo!ジオシティーズ">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://geocities.yahoo.co.jp/">
+<meta property="og:image" content="https://s.yimg.jp/images/geo/common/share_btn/bnr_sns_468x468_140609.png">
+<meta property="og:site_name" content="簡単ホームページ作成サービス（無料） - Yahoo!ジオシティーズ">
+<meta property="og:description" content="400万人以上が利用しているホームページ作成サービス。無料で簡単にホームページを作成できます。独自ドメインや商用利用も可能です。">
+<meta property="og:locale" content="ja_JP">
+<link href="https://s.yimg.jp/yui/jp/mh/pc/1.0.0/css/std.css" rel="stylesheet" type="text/css" media="all">
+<link rel="stylesheet" href="https://s.yimg.jp/images/geo/common/css/defaultSettings_01.css" type="text/css" media="all">
+<link rel="stylesheet" href="https://s.yimg.jp/images/geo/contents/v1/css/style_common_01.css" type="text/css" media="all">
+<link rel="stylesheet" href="https://s.yimg.jp/images/geo/contents/v1/css/style_mainContents_02.css" type="text/css" media="all">
+
+<script src="https://s.yimg.jp/images/geo/js/common/jquery-1.10.2.min.js"></script>
+
+</head>
+<body>
+
+<div id="wrapper">
+
+<div id="header">
+
+<!--uhd-->
+
+<!--msthd-->
+<div id="msthd"><div class="logo"><a href="http://geocities.yahoo.co.jp/"><img src="https://s.yimg.jp/images/mh/pc/jp/rd/1.0.0/geocities.png" alt="Yahoo!ジオシティーズ" width="261" height="36"></a></div></div>
+<!--/msthd-->
+
+</div><!--/#header-->
+
+<div id="contents">
+<div id="navigationWrapper" class="clearfix">
+<div id="navigationBody">
+<h1>エラー</h1>
+</div>
+<!--/#navigationBody-->
+</div>
+<!--/#navigationWrapper-->
+
+<div id="mainContentsWrapper" class="userError">
+<div id="mainContentsBody">
+<div id="errorWrapper">
+<h2 class="errorTtlTxt">ページが存在しません</h2>
+<p class="errorInfoTxt">アクセスされたページは、Yahoo!ジオシティーズ内に存在しないか、URLが間違っているため表示できません。指定したURLが正しいかご確認ください。ご不明な点があれば<a href="http://www.yahoo-help.jp/app/home/p/549/">ヘルプ</a>をご確認のうえ、解決しない場合はヘルプページ内よりお問い合わせください。</p>
+
+<div id="backTopTopLink"><a href="http://geocities.yahoo.co.jp/">無料ホームページ作成サービス　Yahoo!ジオシティーズ</a></div>
+
+</div>
+<!--/#errorWrapper-->
+</div>
+<!--/#mainContentsBody-->
+
+</div>
+<!--/#mainContentsWrapper-->
+</div>
+<!--/#contents-->
+
+</div><!--/#wrapper-->
+
+<script src="https://s.yimg.jp/images/geo/contents/v1/js/common_01.js"></script>
+<script src="https://s.yimg.jp/images/geo/contents/v1/js/error_01.js"></script>
+</body>
+</html>

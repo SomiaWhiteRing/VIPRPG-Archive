@@ -1,0 +1,237 @@
+{
+  "festivalId": "2006-summer",
+  "reviewedAt": "2026-10-20",
+  "status": "passed-with-documented-source-gaps",
+  "scope": "desktop only; source identifiers, metadata, structure, geometry and actual navigation; no manual content screening",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "catalogue": {
+    "rows": 33,
+    "uniqueDetailLinks": 33,
+    "columns": 4,
+    "width": 915,
+    "scrollWidth": 915,
+    "banner": {
+      "src": "/banners/2006-summer-original.jpg",
+      "natural": [
+        640,
+        120
+      ],
+      "loaded": true
+    },
+    "note20OpenedByClick": true,
+    "note20TitleUnconfirmed": true,
+    "returnedToFestivalByClick": true,
+    "originalViewOpenedByClick": true
+  },
+  "formatted": {
+    "checkedRoutes": 33,
+    "uniqueRoutes": 33,
+    "checkedNumbers": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06",
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33"
+    ],
+    "sourceSectionsPresent": 33,
+    "displayedAuthors": 30,
+    "loadedScreenshots": 35,
+    "allTitleAndAuthorLengthsMatchFinalData": true,
+    "issues": [],
+    "no20": {
+      "detailCards": 1,
+      "sourceSections": 1,
+      "images": 0,
+      "width": 1265,
+      "scrollWidth": 1265
+    },
+    "image02": {
+      "initialComplete": false,
+      "initialNatural": [
+        0,
+        0
+      ],
+      "settledComplete": true,
+      "settledNatural": [
+        650,
+        572
+      ],
+      "bytes": 265548,
+      "format": "png",
+      "note": "The initial read observed an incomplete lazy image. Acceptance used the settled complete state and decoded dimensions; no product or data change was attributed to this observation."
+    },
+    "patchLink": {
+      "href": "/original-pages/2006-summer/no6patti.htm",
+      "openedByClick": true,
+      "marker": "page",
+      "returnHref": "ss6.htm"
+    }
+  },
+  "original": {
+    "landing": {
+      "width": 1168,
+      "scrollWidth": 1168,
+      "imagesLoaded": 8,
+      "workEntry": "framepage2.htm",
+      "openedByClick": true
+    },
+    "numberedPages": {
+      "checked": 33,
+      "viewportWidth": 1280,
+      "screenshotImages": 35,
+      "issues": []
+    },
+    "menuFrame": {
+      "checkedLinks": 22,
+      "allOpenedByPointer": true,
+      "widths": [
+        968,
+        983
+      ],
+      "issues": []
+    },
+    "missingImageEntries": [
+      {
+        "no": 17,
+        "openedByPointer": true,
+        "width": 968,
+        "scrollWidth": 968,
+        "screenshotLoaded": true,
+        "natural": [
+          640,
+          480
+        ],
+        "rendered": [
+          640,
+          480
+        ]
+      },
+      {
+        "no": 18,
+        "openedByPointer": true,
+        "width": 968,
+        "scrollWidth": 968,
+        "screenshotLoaded": true,
+        "natural": [
+          640,
+          480
+        ],
+        "rendered": [
+          640,
+          480
+        ]
+      },
+      {
+        "no": 19,
+        "openedByPointer": true,
+        "width": 968,
+        "scrollWidth": 968,
+        "screenshotLoaded": true,
+        "natural": [
+          640,
+          480
+        ],
+        "rendered": [
+          640,
+          480
+        ]
+      }
+    ],
+    "menuOverlap": {
+      "before": {
+        "layer": "Layer15",
+        "height": 56,
+        "width": 90,
+        "zIndex": 28,
+        "paragraphMargins": [
+          16,
+          16
+        ],
+        "blockedLinkParent": "Layer18",
+        "blockedLinkZIndex": 13
+      },
+      "after": {
+        "height": 20,
+        "paragraphMargins": [
+          0,
+          0
+        ],
+        "lineHeight": 20
+      },
+      "samePointerChecksSucceededAfterFix": true
+    },
+    "patchSkeleton": {
+      "marker": "page",
+      "backHref": "ss6.htm",
+      "returnedByClick": true,
+      "nestedFrames": 0,
+      "width": 1280,
+      "scrollWidth": 1280
+    },
+    "extraGallery": {
+      "links": 11,
+      "indexOpenedByClick": true,
+      "firstPageOpenedByClick": true,
+      "firstPageImagesLoaded": 1,
+      "width": 1183,
+      "scrollWidth": 1183
+    }
+  },
+  "corrections": {
+    "sourceNumbering": "Legacy names assigned to No.03 and No.04 were cross-matched to their actual numbered source pages; legacy ID mapping retained.",
+    "multilineTitle": "No.30 title reconstructed from the whole field instead of its first character.",
+    "header": "Use the 640x120 image positioned at source top:0,left:0; preserve the 320x240 illustration in original pages and raw caches."
+  },
+  "checks": [
+    "npm run validate:data",
+    "npm run lint",
+    "npm run build",
+    "source-comparison.json"
+  ],
+  "knownGaps": {
+    "titleUnconfirmed": [
+      "20"
+    ],
+    "authorUnconfirmed": [
+      "04",
+      "13",
+      "20"
+    ],
+    "unrecoveredAuxiliaryPages": [
+      "no6patti.htm"
+    ],
+    "workScreenshotSourceGaps": 0,
+    "packageBytesValidated": false
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "checkedAt": "2026-10-15T09:53:39.085Z",
+  "html": "Four raw HTML captures returned HTTP 200 and match the original work titles.",
+  "images": [
+    {
+      "url": "https://web.archive.org/web/20230802185316im_/https://vipkohaku.x.fc2.com/2006s/ss1.png",
+      "cacheFile": "ss1-image.bin",
+      "result": "HTTP 200; full image decoded"
+    },
+    {
+      "url": "https://web.archive.org/web/20211008072048im_/https://vipkohaku.x.fc2.com/2006s/tope-sama-.PNG",
+      "cacheFile": "banner-live.bin",
+      "result": "HTTP 200; full image decoded"
+    }
+  ],
+  "pendingImages": [
+    {
+      "name": "ss17.jpg",
+      "result": "HTTP 404 at the timestamp linked by the preserved HTML; other hosts and captures remain unchecked"
+    },
+    {
+      "name": "ss188.png",
+      "result": "HTTP 404 at the timestamp linked by the preserved HTML; other hosts and captures remain unchecked"
+    },
+    {
+      "name": "ss19.png",
+      "result": "HTTP 404 at the timestamp linked by the preserved HTML; other hosts and captures remain unchecked"
+    }
+  ]
+}

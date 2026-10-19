@@ -1,0 +1,16 @@
+{
+  "reason": "The old hand-written 2006 Summer list swapped the names assigned to source No.03 and No.04. Original numbered detail pages corroborate the cross-match; the official subject containing the old No.04 name explicitly identifies work No.3. Both old entries had disabled details.",
+  "mappings": [
+    {
+      "legacyId": "2006-summer-work-03",
+      "correctedId": "2006-summer-work-04",
+      "evidence": "legacy-03-04-title-lines.json"
+    },
+    {
+      "legacyId": "2006-summer-work-04",
+      "correctedId": "2006-summer-work-03",
+      "evidence": "forum-title-provenance.json"
+    }
+  ],
+  "otherLegacyIdsPreserved": true
+}
