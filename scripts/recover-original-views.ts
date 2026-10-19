@@ -6,7 +6,7 @@ import { getDictionary } from "../src/lib/i18n";
 import type { WorkEntry } from "../src/lib/types";
 import { rewriteSummer2012Source } from "./source-2012-summer-view";
 
-const configurations: Record<string, { base: string; entry?: string; manifests: string[]; seeds: Record<string, string>; seedUrls?: Record<string, string>; cgiProfile?: boolean; encoding?: string; liveSource?: boolean; disabledLocalLinks?: string[]; externalResources?: Record<string, string>; preserveExternalExtensions?: string[]; frames?: { menuPage: string; menuName: string; mainName: string } }> = {
+const configurations: Record<string, { base: string; entry?: string; manifests: string[]; seeds: Record<string, string>; seedUrls?: Record<string, string>; cgiProfile?: boolean; encoding?: string; encodingOverrides?: Record<string, string>; liveSource?: boolean; disabledLocalLinks?: string[]; externalResources?: Record<string, string>; preserveExternalExtensions?: string[]; frames?: { menuPage: string; menuName: string; mainName: string } }> = {
   "2007-summer": {
     base: "https://vipkohaku.x.fc2.com/2007s/",
     manifests: ["source/archive/manifest.json"],
@@ -385,6 +385,7 @@ async function main() {
   const invalidPreloads: string[] = (recovery.unavailablePreloads ?? []).map((entry: { requestedUrl: string }) => new URL(unarchive(entry.requestedUrl)).href);
   for (const original of queue) {
     const local = relative(original)!;
+    const resourceEncoding = config.encodingOverrides?.[local] ?? encoding;
     if (files.has(local)) continue;
     let requestedUrl: string | undefined;
     try {
@@ -428,7 +429,7 @@ async function main() {
       if (!/\.html?$/i.test(local) && /^\s*<(?:!doctype|html)\b/i.test(bytes.subarray(0, 256).toString("utf8"))) throw new Error("HTML returned instead of a source resource");
       if (/\.(?:png|jpe?g|gif|bmp|webp|ico)$/i.test(local)) imageExtension(bytes);
       if (/\.html?$/i.test(local)) {
-        const $ = cheerio.load(decodeSource(bytes, encoding));
+        const $ = cheerio.load(decodeSource(bytes, resourceEncoding));
         if (id === "2011-summer" && local.startsWith("sub/")) {
           $('link[rel*=ICON][href="picture/favicon.ico"],link[rel*=icon][href="picture/favicon.ico"]').attr("href", "../picture/favicon.ico");
           compatibilityFixes.push({ page: local, change: "Resolve the subsidiary page's template favicon against the original main catalogue's shared picture directory." });
@@ -733,9 +734,11 @@ async function main() {
           else $(element).html(rewriteCSS(text, original, local));
         });
         // Opaque sandbox origins prevent the legacy menu from navigating its sibling frame.
-        if (config.frames && local === "index.html") $("head").append(`<script>
+        const menuFrameSelector = config.frames && (config.frames.menuName ? `frame[name="${config.frames.menuName}"]` : 'frame:not([name]),frame[name=""]');
+        const mainFrameSelector = config.frames && `frame[name="${config.frames.mainName}"]`;
+        if (menuFrameSelector && mainFrameSelector && $(menuFrameSelector).length && $(mainFrameSelector).length) $("head").append(`<script>
           addEventListener('message',function(event){
-            var menu=document.querySelector(${JSON.stringify(config.frames.menuName ? `frame[name="${config.frames.menuName}"]` : 'frame:not([name]),frame[name=""]')}),main=document.querySelector(${JSON.stringify(`frame[name="${config.frames.mainName}"]`)});
+            var menu=document.querySelector(${JSON.stringify(menuFrameSelector)}),main=document.querySelector(${JSON.stringify(mainFrameSelector)});
             if(!menu||!main||event.source!==menu.contentWindow||event.data?.type!=='archive-main-navigation')return;
             var url=new URL(event.data.url,location.href);
             if(url.origin===location.origin&&url.pathname.startsWith(location.pathname.slice(0,location.pathname.lastIndexOf('/')+1)))main.src=url.href;
@@ -751,7 +754,7 @@ async function main() {
         </script>`);
         bytes = Buffer.from($.html());
       } else if (/\.css$/i.test(local)) {
-        let css = decodeSource(bytes, encoding).replace(/@charset\s+["'][^"']+["'];/i, '@charset "UTF-8";');
+        let css = decodeSource(bytes, resourceEncoding).replace(/@charset\s+["'][^"']+["'];/i, '@charset "UTF-8";');
         if (id === "2011-toppatsu-festival") {
           const unavailableCss = new Set((recovery.cssResourceFailures ?? []).map((failure: { originalUrl: string }) => failure.originalUrl));
           css = css.replace(/url\(\s*["']?([^"')]+)["']?\s*\)/g, (literal, value) => {
@@ -766,7 +769,7 @@ async function main() {
         }
         bytes = Buffer.from(rewriteCSS(css, original, local));
       } else if (/\.js$/i.test(local)) {
-        let code = decodeSource(bytes, encoding);
+        let code = decodeSource(bytes, resourceEncoding);
         if (id === "2012-summer") code = rewriteSummer2012Source(code, local, (value) => localReference(value, original, local), (recovery.failures ?? []).map((f: { sourceUrl: string }) => f.sourceUrl.match(/\/ss\/no(\d+)\./)?.[1]).filter(Boolean).map(Number));
         bytes = Buffer.from(rewriteAbsoluteStrings(code, original, local));
       }
