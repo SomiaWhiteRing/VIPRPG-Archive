@@ -1,10 +1,17 @@
 import fs from "node:fs/promises";
+import { isUtf8 } from "node:buffer";
 import path from "node:path";
 import * as cheerio from "cheerio";
 import iconv from "iconv-lite";
 import type { Festival, WorkEntry } from "../src/lib/types";
 
 const fetchEnabled = process.argv.includes("--fetch");
+export function decodeSource(bytes: Buffer, fallback: string) {
+  const hasUtf8Bom = bytes.subarray(0, 3).equals(Buffer.from([0xef, 0xbb, 0xbf]));
+  const declared = bytes.subarray(0, 4096).toString("latin1").match(/charset\s*=\s*["']?\s*([\w-]+)/i)?.[1];
+  const declaredIsValid = declared && iconv.encodingExists(declared) && (!/^utf-?8$/i.test(declared) || isUtf8(bytes));
+  return iconv.decode(bytes, hasUtf8Bom ? "utf-8" : declaredIsValid ? declared : fallback);
+}
 type Capture = { requestedUrl: string; actualUrl: string; contentType: string; retrievedAt: string };
 
 export async function writeJson(file: string, value: unknown) {

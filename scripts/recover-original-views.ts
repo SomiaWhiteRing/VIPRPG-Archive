@@ -1,9 +1,7 @@
 import fs from "node:fs/promises";
-import { isUtf8 } from "node:buffer";
 import path from "node:path";
 import * as cheerio from "cheerio";
-import iconv from "iconv-lite";
-import { imageExtension, writeJson } from "./recover-entry-table";
+import { decodeSource, imageExtension, writeJson } from "./recover-entry-table";
 import { getDictionary } from "../src/lib/i18n";
 import type { WorkEntry } from "../src/lib/types";
 import { rewriteSummer2012Source } from "./source-2012-summer-view";
@@ -267,13 +265,6 @@ function unarchive(url: string) {
   return url.replace(/^https?:\/\/web\.archive\.org\/web\/\d+[a-z_]*\/(https?:\/\/)/, "$1");
 }
 
-function decodeSource(bytes: Buffer, fallback: string) {
-  const hasUtf8Bom = bytes.subarray(0, 3).equals(Buffer.from([0xef, 0xbb, 0xbf]));
-  const declared = bytes.subarray(0, 4096).toString("latin1").match(/charset\s*=\s*["']?\s*([\w-]+)/i)?.[1];
-  const declaredIsValid = declared && iconv.encodingExists(declared) && (!/^utf-?8$/i.test(declared) || isUtf8(bytes));
-  return iconv.decode(bytes, hasUtf8Bom ? "utf-8" : declaredIsValid ? declared : fallback);
-}
-
 async function main() {
   const id = process.argv[2], config = configurations[id];
   if (!config) throw new Error(`Choose one festival: ${Object.keys(configurations).join(", ")}`);
@@ -332,7 +323,7 @@ async function main() {
     const value = decodeURIComponent(original.pathname.slice(base.pathname.length)) || "index.html";
     if (id === "2008-summer" && value === "index.htm") return "index.html";
     if (value.split("/").some((part) => part === "..") || value.includes("\\")) throw new Error("Unsafe original resource path");
-    return value;
+    return value.endsWith("/") ? `${value}index.html` : value;
   }
   function enqueue(url: string, owner: string) {
     const absolute = new URL(unarchive(url), owner).href, local = relative(absolute);
@@ -736,7 +727,7 @@ async function main() {
         // Opaque sandbox origins prevent the legacy menu from navigating its sibling frame.
         if (config.frames && local === "index.html") $("head").append(`<script>
           addEventListener('message',function(event){
-            var menu=document.querySelector(${JSON.stringify(`frame[name="${config.frames.menuName}"]`)}),main=document.querySelector(${JSON.stringify(`frame[name="${config.frames.mainName}"]`)});
+            var menu=document.querySelector(${JSON.stringify(config.frames.menuName ? `frame[name="${config.frames.menuName}"]` : 'frame:not([name]),frame[name=""]')}),main=document.querySelector(${JSON.stringify(`frame[name="${config.frames.mainName}"]`)});
             if(!menu||!main||event.source!==menu.contentWindow||event.data?.type!=='archive-main-navigation')return;
             var url=new URL(event.data.url,location.href);
             if(url.origin===location.origin&&url.pathname.startsWith(location.pathname.slice(0,location.pathname.lastIndexOf('/')+1)))main.src=url.href;
@@ -916,7 +907,9 @@ async function main() {
     if (!work || files.has(gap.sourcePath)) continue;
     const escape = (value: string) => value.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
     const downloads = work.downloads ?? (work.download ? [work.download] : []);
-    const backHref = path.posix.relative(path.posix.dirname(gap.sourcePath), config.entry ?? "index.html");
+    const cataloguePath = work.source?.titleUrl ? relative(work.source.titleUrl) : undefined;
+    const returnPath = cataloguePath && files.has(cataloguePath) ? cataloguePath : config.entry ?? "index.html";
+    const backHref = path.posix.relative(path.posix.dirname(gap.sourcePath), returnPath);
     files.set(gap.sourcePath, Buffer.from(`<!doctype html><html lang="ja"><meta charset="UTF-8"><title>No.${escape(work.no)} ${escape(work.title)} — 原紹介ページ未取得</title>
       <style>body{max-width:800px;margin:2em auto;padding:0 1em;font-family:sans-serif;line-height:1.6}.note{padding:1em;border:1px solid #aab;background:#f0f3f7}dt{font-weight:bold}dd{margin-bottom:1em}</style>
       <body data-archive-source-unavailable="${escape(work.no)}"><p class="note">編纂補頁：原紹介ページは取得できていません。この画面は祭典の作品一覧に基づく案内で、原紹介ページの復元ではありません。</p>
