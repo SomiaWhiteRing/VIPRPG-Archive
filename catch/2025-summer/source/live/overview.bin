@@ -1,0 +1,414 @@
+<!DOCTYPE HTML><html lang="en"><head><meta charset="UTF-8"/><META name="GENERATOR" content="IBM HomePage Builder 2001 V5.0.0 for Windows"><meta name="msvalidate.01" content="3BB4D18369B9C21326AF7A99FCCC5A09" /><meta property="fb:app_id" content="537395183072744" /><title>VIPRPG 夏の陣2025 - itch.io</title><meta name="csrf_token" value="WyJveDYyIiwxNzkyNDQyNzA5LCJWcUJZZkRicHRqck9Nc3oiXQ==./6KSoTpOvjfAN3zkrg2J1JnGpLM=" /><meta property="og:title" content="VIPRPG 夏の陣2025"/><meta property="og:site_name" content="itch.io"/><meta property="twitter:account_id" content="4503599627724030"/><link rel="manifest" href="/static/manifest.json"/><script type="application/ld+json">{"itemListElement":[{"position":1,"@type":"ListItem","item":{"@id":"https:\/\/itch.io\/jams","name":"Jams"}}],"@type":"BreadcrumbList","@context":"http:\/\/schema.org"}</script><meta content="summary_large_image" name="twitter:card"/><meta property="twitter:image" content="https://img.itch.zone/aW1nLzIyOTc5OTc3LnBuZw==/508x254%23mb/xfxXDn.png"/><meta content="@itchio" name="twitter:site"/><meta content="VIPRPG 夏の陣2025" name="twitter:title"/><meta content="A game jam from 2025-08-22 to 2025-09-28 hosted by あまてん海老. 連絡用メールメールアドレス vipnatunozin2025@hotmail.com 更新履歴 更新履歴 9/28 No31 内容変更 9/27 No33 内容変更 No..." name="twitter:description"/><meta property="og:description" content="A game jam from 2025-08-22 to 2025-09-28 hosted by あまてん海老. 連絡用メールメールアドレス vipnatunozin2025@hotmail.com 更新履歴 更新履歴 9/28 No31 内容変更 9/27 No33 内容変更 No..."/><meta content="A game jam from 2025-08-22 to 2025-09-28 hosted by あまてん海老. 連絡用メールメールアドレス vipnatunozin2025@hotmail.com 更新履歴 更新履歴 9/28 No31 内容変更 9/27 No33 内容変更 No..." name="description"/><meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="#FA5C5C" name="theme-color"/><meta property="og:image" content="https://img.itch.zone/aW1nLzIyOTc5OTc3LnBuZw==/original/porG3M.png"/><link rel="stylesheet" href="https://static.itch.io/jam.css?1792442460"/><script type="text/javascript">window.itchio_translations_url = 'https://static.itch.io/translations';</script><script src="https://static.itch.io/lib.min.js?1792442460" type="text/javascript"></script><script src="https://static.itch.io/bundle.min.js?1792442460" type="text/javascript"></script><script data-src="https://static.itch.io/react.min.js?1792442460" id="lib_react_src"></script><script src="https://static.itch.io/jam.min.js?1792442460" type="text/javascript"></script><script type="text/javascript">I.current_user = null;</script><script type="text/javascript">if (!window.location.hostname.match(/localhost/)) {      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', "G-36R7NPBMLS", {});
+      (function(d, t, s, m) {
+        s = d.createElement(t);
+        s.src = "https:\/\/www.googletagmanager.com\/gtag\/js?id=G-36R7NPBMLS";
+        s.async = 1;
+        m = d.getElementsByTagName(t)[0];
+        m.parentNode.insertBefore(s, m);
+      })(document, "script");
+      }</script><style type="text/css" id="jam_theme">:root{--itchio_ui_bg: #555555;}body{background-color: #E1E1E1;}.jam_page_wrap{color: #222222;background-color: #E1E1E1;font-family: Lato,Lato,LatoExtended,sans-serif;font-size: 100%;--itchio_border_radius: initial;--itchio_link_color: #dd4a4a;--itchio_border_color: #e5e5e5;--itchio_button_color: #FA5C5C;--itchio_button_fg_color: #ffffff;--itchio_button_shadow_color: #e54747;--itchio_button_border_color: #e54747;--itchio_button_hover_color: #f35555;--itchio_button_active_color: #ff6161;}.jam_body{border-radius: var(--itchio_border_radius,0);}.view_jam_page h1,.view_jam_page h2,.view_jam_page h3,.view_jam_page h4,.view_jam_page h5,.view_jam_page h6{}.view_jam_page .jam_body,.view_jam_page .grid_outer{background-color: rgba(255, 255, 255, 1);}.view_jam_page .jam_body{box-shadow: 0 0 0 2px transparent;}.view_jam_page .grid_outer .itch_footer{border-top: 1px solid #d9d9d9 !important;background-color: #e5e5e5;}.view_jam_page .game_grid_widget .game_cell .game_text,.view_jam_page .grid_outer .game_count,.view_jam_page .grid_outer .footer_submissions{color: #666666 !important;}.view_jam_page .game_grid_widget .game_cell .game_platform,.view_jam_page .game_grid_widget .game_cell .game_genre,.view_jam_page .game_grid_widget .game_cell .game_author a,.view_jam_page .grid_outer .powerd_by{color: #8c8c8c !important;}.view_jam_page .header_tabs .community_activity{background-color: #e5e5e5;color: #222222;}.view_jam_page .jam_filter_picker .filter_item{color: #8c8c8c !important;}.view_jam_page .jam_filter_picker .filter_item:hover,.view_jam_page .jam_filter_picker .filter_item.active{color: #666666 !important;border-color: #dd4a4a !important;}.view_jam_page .jam_filter_picker .divider{color: #666666;} </style></head><body class="locale_en jam_layout_widget layout_widget no_theme_toggle responsive" data-page_name="view_jam" data-host="itch.io"><div class="jam_layout_header_widget header_widget base_widget small_logo gray" id="jam_layout_header_7634828"><a class="skip_to_main" href="#maincontent">Skip to main content</a><div class="primary_header"><h1 class="title" title="itch.io - indie game hosting marketplace"><a class="header_logo" title="itch.io - indie game hosting marketplace" href="/"><span class="visually_hidden">itch.io</span><img class="full_logo" height="199" src="https://static.itch.io/images/logo-black-new.svg" alt="itch.io logo &amp; title" width="775"/><img class="minimal_logo" height="235" src="https://static.itch.io/images/itchio-textless-black.svg" alt="itch.io logo" width="262"/></a></h1><div class="header_buttons"><a class="header_button browse_btn" data-label="browse" href="/games">Browse Games</a><a class="header_button jams_btn" data-label="jams" href="/jams">Game Jams</a><a class="header_button developers_btn" data-label="developers" href="/developers"><span aria-hidden="true" class="icon icon-upload"></span>Upload Game</a><a class="header_button devlogs_btn" data-label="devlogs" href="/devlogs">Developer Logs</a><a class="header_button community.home_btn" data-label="community.home" href="/community">Community</a></div><form class="game_search" action="/search"><input class="search_input" name="q" placeholder="Search for games, jams, tags or creators" type="text" required="required"/><button class="submit_btn" aria-label="Search"><svg role="img" height="18" aria-hidden class="svgicon icon_search" fill="none" width="18" viewBox="0 0 24 24" version="1.1" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg></button></form><div class="user_panel_widget base_widget" id="user_panel_5000536"><a class="panel_button" data-label="log_in" data-register_action="header" href="/login">Log in</a><a class="panel_button register_button" data-label="register" data-register_action="header" href="/register">Register</a></div></div><div class="header_dropdown" data-target="browse"><a href="/games/store">Indie game store</a><a href="/games/free">Free games</a><a href="/games/fun">Fun games</a><a href="/games/tag-horror">Horror games</a><div class="divider"></div><a href="/tools">Game development</a><a href="/game-assets">Assets</a><a href="/comics">Comics</a><div class="divider"></div><a href="/sales">Sales</a><a href="/bundles">Bundles</a><div class="divider"></div><a href="/jobs">Jobs</a><div class="divider"></div><a href="/tags">Tags</a><a href="/game-development/engines">Game Engines</a></div></div><div class="jam_page_wrap" id="wrapper"><div class="view_jam_page view_jam_base_page page_widget base_widget view_jam_default after_voting is_over" id="view_jam_5021215"><div class="jam_banner_outer"><img class="jam_banner "/></div><div class="jam_body"><div class="jam_header_widget base_widget" id="jam_header_1472293"><div class="header_inner"><div class="header_columns"><div class="title_colum"><h1 class="jam_title_header"><a href="/jam/viprpgnatunozin2025">VIPRPG 夏の陣2025</a></h1><div class="jam_host_header">Hosted by <a href="https://amatenebi.itch.io">あまてん海老</a></div></div><div class="stats_container"><div class="stat_box"><a href="/jam/viprpgnatunozin2025/entries"><div class="stat_value">34</div><div class="stat_label">Entries</div></a></div></div></div><div class="header_tabs"><a class="header_tab active" href="/jam/viprpgnatunozin2025" data-label="tab_view_jam">Overview</a><a class="header_tab" href="/jam/viprpgnatunozin2025/entries" data-label="tab_view_jam_entries">Submissions</a><div class="tab_group"><a class="header_tab" href="/jam/viprpgnatunozin2025/community">Community</a></div><a class="header_tab" href="/jam/viprpgnatunozin2025/feed" data-label="tab_view_jam_feed">Submission feed</a></div></div></div><div class="submitter_outer"><div class="jam_submitter_widget base_widget after_voting is_over" id="jam_submitter_9657375"><p>This jam is now over. It ran from <span class="date_format" data-format="MMMM Do YYYY [at] h:mm A">2025-08-22 16:40:44</span> to <span class="date_format" data-format="MMMM Do YYYY [at] h:mm A">2025-09-28 14:59:03</span>. <a href="/jam/viprpgnatunozin2025/entries">View 34 entries</a></p></div></div><div class="jam_content user_formatted"><div>
+<p>連絡用メールメールアドレス　vipnatunozin2025@hotmail.com</p><h2>更新履歴</h2>
+<p>更新履歴</p>
+<p>9/28  No31 内容変更 </p>
+<p>9/27  No33 内容変更 No40,41 参加＆提出</p>
+<p>9/25  No22 提出 No39, 参加＆提出</p>
+<p>9/20  No37,No38 参加＆提出</p>
+<p>9/18  No36 参加＆提出</p>
+<p>9/14  No24 提出  No34 参加＆提出</p>
+<p>9/6  No3  ファイル変更</p>
+<p>8/31 No30 提出&nbsp;No34　追加＆提出</p>
+<p>8/30 No29,No30,No32 提出　No31 修正　No11 パッチ追加</p>
+<p>08/24 itchに移転につき、何個か作品の紹介ページをitchで参加してくれた人の個別ページ変更</p>
+<p>08/22 作品公開no1,2,3,4,5,5,6,7,8,9,10,11,15,16,17,19,20,21,23,25,26,28</p>
+<p>08/21&nbsp; 凍結したため移転 参加作品28~29追加一部修正</p>
+<p>08/17&nbsp; 参加作品24~27のページの追加一部修正</p>
+<p>08/14&nbsp; 参加作品22~23のページの追加一部修正</p>
+<p>08/10&nbsp; 参加作品18~21のページの追加一部修正</p>
+<p>08/06&nbsp; 参加作品16~17のページの追加一部修正</p>
+<p>08/03&nbsp; 参加作品12~15のページの追加一部修正</p>
+<p>07/31&nbsp; 参加作品7~11のページの追加</p>
+<p>07/27&nbsp; エントリー開始参加作品1~6のページの追加</p>
+<p>07/26 サイト設立</p><p><br></p>
+<h2>概要</h2>
+<p>VIPRPG2025夏の陣は、ニュース速報VIP板(現 News for VIP)のRPGツクールスレッドで毎年開催されている、ツクール作品を持ち寄り、感想を付け合う事を目的とした企画です。<br>作品の形式は、もしも、オリジナル、2次創作でも可能ですが著作権関係での作品単体のトラブルは、作品を制作・参加した人が責任をとるようにお願いします</p><h2>参加方法<span></span></h2>
+<p>itchか　作品を独自のアップローダーに入れて　　　　　　　　　　vipnatunozin2025@hotmail.comに連絡ください</p><p>itchでやってるのでなるべくitchで出してくれると助かります</p><p>作品紹介文章で以下の記載をお願いします　<span></span></p><p>【作品名】</p>
+<p>【作者名】</p>
+<p>【ジャンル】</p>
+<p>【使用ツール】</p>
+<p>【配信と動画投稿】</p>
+<p>【作品のコメント】
+</p><p><br></p><p><span></span><a href="https://jbbs.shitaraba.net/game/61487/" rel="nofollow noopener" referrerpolicy="origin">運営掲示板</a></p>
+<div>
+<div>
+<h1>VIPRPG2025夏の陣&nbsp;<img src="https://img.itch.zone/aW1nLzIyODY1NTc1LnBuZw==/original/%2F%2B5VZF.png" loading="lazy"></h1>
+</div>
+<div>
+<table>
+<tbody>
+<tr><th width="15">No.</th><th width="32">Icon</th><th width="350">作品名/作者</th><th width="150">ジャンル/ツール</th><th width="65">DL/更新日</th><th width="100">配信/投稿</th><th width="35">感想</th></tr>
+<tr>
+<td>00</td>
+<td><img loading="lazy"></td>
+<td><a target="a" rel="nofollow noopener" referrerpolicy="origin">サンプル</a><br>アレックス</td>
+<td>魔王把握<br>2000</td>
+<td><span style="color: #3366ff"><a target="a" rel="nofollow noopener" referrerpolicy="origin"><span style="color: #3366ff">DL</span></a></span></td>
+<td>可/不可</td>
+<td><a target="a" rel="nofollow noopener" referrerpolicy="origin">■</a></td>
+</tr>
+<tr>
+<td>01</td>
+<td><img loading="lazy"></td>
+<td><a href="https://ajitamar2k.itch.io/destinyaxeman" target="_blank">運命頼りの斧戦士</a><br>あじたま</td>
+<td>RPG<br>RPGMakerSteam2003 ManiacsPatch適用</td>
+<td><span style="font-size: medium; color: #3366ff"><a href="https://itch.io/jam/viprpgnatunozin2025/rate/3831810" target="_blank"></a><a href="https://ajitamar2k.itch.io/destinyaxeman">DL(26.8MB)</a>8/24</span></td>
+<td>可/可</td>
+<td><a target="_blank" href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61487/1753625704/l50" rel="nofollow noopener" referrerpolicy="origin">■</a></td>
+</tr>
+<tr>
+<td>02</td>
+<td><img loading="lazy"></td>
+<td><a href="https://den6kan.itch.io/unknownsong" target="_blank">わからない歌詞（完成版）</a><br>伝六館館主</td>
+<td>短編RPG<br>RPGツクール2000</td>
+<td><span style="font-size: medium; color: #3366ff"><a href="https://itch.io/jam/viprpgnatunozin2025/rate/3486311" target="_blank"></a><a href="https://den6kan.itch.io/unknownsong" target="_blank">DL(103MB)</a>&nbsp;8/22</span></td>
+<td>可/可</td>
+<td><a target="_blank" href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61487/1753625903/l50" rel="nofollow noopener" referrerpolicy="origin">■</a></td>
+</tr>
+<tr>
+<td>03</td>
+<td><img loading="lazy"></td>
+<td><a target="a" rel="nofollow noopener" referrerpolicy="origin">ゴメスの地獄大逃亡</a><br>pi</td>
+<td>逃げゲー＆死にゲー＆デフォ戦＆マルチエンディング<br>RPGツクールMV</td>
+<td><span style="font-size: medium; color: #3366ff"><a href="https://drive.google.com/drive/folders/1JYvA2Mh3LLURzFCs06ScUPTwoqe_6KoA?usp=drive_link" target="_blank" rel="nofollow noopener" referrerpolicy="origin"><span style="color: #3366ff">DL(447MB)</span></a>&nbsp;8/22</span></td>
+<td>おｋ！！！！！</td>
+<td><a target="_blank" href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61487/1753626081/" rel="nofollow noopener" referrerpolicy="origin">■</a></td>
+</tr>
+<tr>
+<td>04</td>
+<td><img loading="lazy"></td>
+<td><a target="a" rel="nofollow noopener" referrerpolicy="origin">人斬りと信仰の噺</a><br>徳明</td>
+<td>荒唐無稽ダークファンタジー読むゲ<br>Steam版2003MP</td>
+<td><span style="font-size: medium; color: #3366ff">DL</span></td>
+<td>配信：いいよ　動画：おｋまる</td>
+<td><a target="a" href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61487/1753625903/l50" rel="nofollow noopener" referrerpolicy="origin">■</a></td>
+</tr>
+<tr>
+<td>05</td>
+<td><img loading="lazy"></td>
+<td><a href="https://itutuba.itch.io/kop">狂詩性ブラックサンダーKOP</a><br>五つ葉</td>
+<td>音合わせ見るゲ<br>Steam版2003MP</td>
+<td><span style="font-size: medium; color: #3366ff"><a href="https://drive.google.com/drive/folders/1ZeZzNBz6QhwekmU-nf20y9e0b3j12Vfn?usp=drive_link" target="_blank" rel="nofollow noopener" referrerpolicy="origin"><span style="color: #3366ff"></span></a><a target="_blank" href="https://itutuba.itch.io/kop">DL(20.2MB)</a>8/22</span></td>
+<td>自己責任で</td>
+<td><a target="a" href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61487/1753625704/l50" rel="nofollow noopener" referrerpolicy="origin">■</a></td>
+</tr>
+<tr>
+<td>06</td>
+<td><img loading="lazy"></td>
+<td><a href="https://orugaituka004.itch.io/orugakuesuto" target="_blank">オルガクエスト</a><br>オルガイツカ</td>
+<td>デフォ戦<br>ツクールMZ</td>
+<td><span style="font-size: medium; color: #3366ff"><a href="https://orugaituka004.itch.io/orugakuesuto" target="_blank">DL(188MB)</a>&nbsp;8/22</span></td>
+<td>可/不可</td>
+<td><a target="a" href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61487/1753626325/" rel="nofollow noopener" referrerpolicy="origin">■</a></td>
+</tr>
+<tr>
+<td>07</td>
+<td><img loading="lazy"></td>
+<td><a href="https://tkooler.itch.io/s2025">もしもアメリカザリガニだったら</a><br><br></td>
+<td>魔王把握<br>2000</td>
+<td><span style="font-size: medium; color: #3366ff"><a href="https://itch.io/jam/viprpgnatunozin2025/rate/3755669" target="_blank"></a><a href="https://tkooler.itch.io/s2025" target="_blank">DL(3.7MB)</a>&nbsp;8/22</span></td>
+<td>任意</td>
+<td><a target="a" href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61487/1753889076/l50" rel="nofollow noopener" referrerpolicy="origin">■</a></td>
+</tr>
+<tr>
+<td>08</td>
+<td><img loading="lazy"></td>
+<td><a target="a" rel="nofollow noopener" referrerpolicy="origin">魔術師協会の卒業試験</a><br>ジェイン</td>
+<td>デフォ戦RPG<br>RPGツクール2003（旧版）</td>
+<td><span style="font-size: medium; color: #3366ff"><a href="https://drive.google.com/drive/folders/1PklI3kVeuo4rQjlsjrfgIXlUuriH--ai?usp=drive_link" target="_blank" rel="nofollow noopener" referrerpolicy="origin"><span style="color: #3366ff">DL(4.8MB)</span></a>&nbsp;8/22</span></td>
+<td>おｋです。</td>
+<td><a target="_blank" href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61487/1753889199/l50" rel="nofollow noopener" referrerpolicy="origin">■</a></td>
+</tr>
+<tr>
+<td>09</td>
+<td><img loading="lazy"></td>
+<td><a href="https://akiko2023kouhaku.itch.io/flower-hand-water" target="_blank">フラワーハンドわてー</a><br>あきこ</td>
+<td>納涼かもしれないKsg<br>RPGツクール2000</td>
+<td><span style="color: #3366ff"><span style="font-size: medium"><a href="https://drive.google.com/drive/folders/1pX11vDAd1jNe_0HoAM0ScfdV1CopON-n?usp=drive_link" target="_blank" rel="nofollow noopener" referrerpolicy="origin"><span style="color: #3366ff"></span></a></span><a href="https://akiko2023kouhaku.itch.io/flower-hand-water" target="_blank">DL(8.0MB)</a>&nbsp;<span style="font-size: medium"></span></span><span style="font-size: medium; color: #3366ff">8/24</span></td>
+<td>だいじょぶ/だいじょぶ</td>
+<td><a target="_blank" href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61487/1753889249/l50" rel="nofollow noopener" referrerpolicy="origin">■</a></td>
+</tr>
+<tr>
+<td>10</td>
+<td><img loading="lazy"></td>
+<td><a href="https://raichiri.itch.io/erg" target="_blank">アシュリー（に・が）中出しして赤ちゃんを作るerg</a><br>雷塵</td>
+<td>女の子アシュリーのergと男の娘アシュリーのerg<br>2000</td>
+<td><span style="font-size: medium; color: #3366ff"><a href="https://itch.io/jam/viprpgnatunozin2025/rate/3831789" target="_blank"></a><a href="https://raichiri.itch.io/erg" target="_blank">DL(4.1MB)</a>&nbsp;8/22</span></td>
+<td>:ム/リ</td>
+<td><a target="_blank" href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61487/1753889297/l50" rel="nofollow noopener" referrerpolicy="origin">■</a></td>
+</tr>
+<tr>
+<td>11</td>
+<td><img loading="lazy"></td>
+<td><a target="a" rel="nofollow noopener" referrerpolicy="origin">アンドロイドヒーローズ</a><br>イロイロ</td>
+<td>RPG<br>ツクール2000</td>
+<td><span style="font-size: medium; color: #3366ff"><a href="https://drive.google.com/drive/folders/1InyuyNoXqpkp3cpuGTz5ByAfL9IGfkpG?usp=drive_link" target="_blank" rel="nofollow noopener" referrerpolicy="origin"><span style="color: #3366ff">DL(51.4MB)</span></a>&nbsp;8/22</span></td>
+<td>○</td>
+<td><a target="_blank" href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61487/1753889334/l50" rel="nofollow noopener" referrerpolicy="origin">■</a></td>
+</tr>
+<tr>
+<td>12</td>
+<td><img loading="lazy"></td>
+<td><a href="https://sssnext2gmailcom.itch.io/kemololirouge">けもろりルージュ　おおかみパパとのしんせいかつ</a><br>SSS</td>
+<td>エロゲ(R18)<br>VXACE Steam(前に無料で配ってた奴)</td>
+<td><span style="font-size: medium; color: #3366ff"><a target="_blank" href="https://sssnext2gmailcom.itch.io/kemololirouge">DL(183MB)</a>8/23</span></td>
+<td>俺は構わん</td>
+<td><a target="_blank" href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61487/1754230125/" rel="nofollow noopener" referrerpolicy="origin">■</a></td>
+</tr>
+<tr>
+<td>13</td>
+<td><img loading="lazy"></td>
+<td><a target="a" rel="nofollow noopener" referrerpolicy="origin">お尻の穴に関すること</a><br>ぬ</td>
+<td>地獄<br>2000</td>
+<td><span style="font-size: medium; color: #3366ff">DL</span></td>
+<td>配信のみ可</td>
+<td><a target="_blank" href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61487/1754230165/l50" rel="nofollow noopener" referrerpolicy="origin">■</a></td>
+</tr>
+<tr>
+<td>14</td>
+<td><img loading="lazy"></td>
+<td><a href="https://iranucut.itch.io/doraren" target="a">どら★れん！【完全版商法</a><br>いらぬかっと</td>
+<td>よくわかんないゲーム<br>2000</td>
+<td><span style="font-size: medium; color: #3366ff"><a href="https://iranucut.itch.io/doraren" target="_blank">DL(54MB)</a> 8/24</span></td>
+<td>自己責任で</td>
+<td><a target="_blank" href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61487/1754230487/l50" rel="nofollow noopener" referrerpolicy="origin">■</a></td>
+</tr>
+<tr>
+<td>15</td>
+<td><img loading="lazy"></td>
+<td><a href="https://game-unimushi8.itch.io/victoryxvralf" target="_blank">勇者遊討記ＶictoryＸ～ラルフと仲間の物語～</a><br>個人趣味ゲーム制作うにむしや</td>
+<td>RPG<br>RPGツクールVX VALUE!</td>
+<td><span style="font-size: medium; color: #3366ff"><a href="https://game-unimushi8.itch.io/victoryxvralf" target="_blank">DL(0.8MB)</a></span><span style="font-size: medium">&nbsp;</span><span style="font-size: medium; color: #3366ff">8/22</span></td>
+<td>OK / OK</td>
+<td><a target="_blank" href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61487/1754230542/l50" rel="nofollow noopener" referrerpolicy="origin">■</a></td>
+</tr>
+<tr>
+<td>16</td>
+<td><img loading="lazy"></td>
+<td><a href="https://neconeco708.itch.io/b" target="_blank">スーパーサイヤ大戦B</a><br>ネコニャーン</td>
+<td>スパロボ風バトル<br>RPGツクールMV(SRPGコンバータMV)</td>
+<td><span style="font-size: medium; color: #3366ff"><a href="https://drive.google.com/drive/folders/154m7L6yYtd1WqDmUjjNaybQvSbkRU0Xz?usp=drive_link" target="_blank" rel="nofollow noopener" referrerpolicy="origin"><span style="color: #3366ff"></span></a><a href="https://neconeco708.itch.io/b" target="_blank">DL(390MB)</a><a href="https://drive.google.com/drive/folders/154m7L6yYtd1WqDmUjjNaybQvSbkRU0Xz?usp=drive_link" target="_blank" rel="nofollow noopener" referrerpolicy="origin"></a>8/24</span></td>
+<td>自己責任で</td>
+<td><a target="_blank" href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61487/1754488260/1" rel="nofollow noopener" referrerpolicy="origin">■</a></td>
+</tr>
+<tr>
+<td>17</td>
+<td><img loading="lazy"></td>
+<td><a href="https://aquhademania.itch.io/teskaescape" target="_blank">テスカの大逃走</a><br>Blood天上りつづきでちゅ</td>
+<td>逃げまくり＆死に覚えゲー<br>RPGツクール2000</td>
+<td><span style="font-size: medium; color: #3366ff"><a href="https://aquhademania.itch.io/teskaescape" target="_blank">DL(44.2MB)</a>&nbsp;8/22</span></td>
+<td>両方可</td>
+<td><a target="_blank" href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61487/1754488318/l50" rel="nofollow noopener" referrerpolicy="origin">■</a></td>
+</tr>
+<tr>
+<td>18</td>
+<td><img loading="lazy"></td>
+<td><a href="https://kiyuuri.itch.io/entry-18">たった一人の妹x2</a><br>きゆう利</td>
+<td>小ネタ、短編<br>RPGツクール2000</td>
+<td><span style="font-size: medium; color: #3366ff"><a href="https://kiyuuri.itch.io/entry-18" target="_blank">DL(1MB)</a>&nbsp;8/30</span></td>
+<td>○/○</td>
+<td><a target="a" href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61487/1754836685/l50" rel="nofollow noopener" referrerpolicy="origin">■</a></td>
+</tr>
+<tr>
+<td>19</td>
+<td><img loading="lazy"></td>
+<td><a target="a" rel="nofollow noopener" referrerpolicy="origin">まだ見ぬ仕掛けやお宝を求めて</a><br>牧場の牛肉</td>
+<td>短編やるゲ<br>2000</td>
+<td><span style="font-size: medium; color: #3366ff"><a href="https://drive.google.com/drive/folders/1nslHwtJxwNhp6uGEynoDD4EtXwZzlp2B?usp=drive_link" target="_blank" rel="nofollow noopener" referrerpolicy="origin"><span style="color: #3366ff">DL(1.9MB)</span></a>&nbsp;8/22</span></td>
+<td>可/可</td>
+<td><a target="a" href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61487/1754836735/l50" rel="nofollow noopener" referrerpolicy="origin">■</a></td>
+</tr>
+<tr>
+<td>20</td>
+<td><img loading="lazy"></td>
+<td><a href="https://rp-tkloo.itch.io/viprpg-crouton10th-collection" target="_blank">クルトンコレクション</a><br>ろーぷれつくろ～</td>
+<td>10周年記念コレクション<br>2000</td>
+<td><span style="font-size: medium; color: #3366ff"><a href="https://itch.io/jam/viprpgnatunozin2025/rate/3831993" target="_blank"></a><a href="https://rp-tkloo.itch.io/viprpg-crouton10th-collection" target="_blank">DL(93.8MB)</a>&nbsp;8/22</span></td>
+<td>ご自由に/どうぞ</td>
+<td><a target="_blank" href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61487/1754836768/l50" rel="nofollow noopener" referrerpolicy="origin">■</a></td>
+</tr>
+<tr>
+<td>21</td>
+<td><img loading="lazy"></td>
+<td><a href="https://udoncom.itch.io/natunojin21mancala">もしもマンカラ</a><br>◆UDONOOrgUI</td>
+<td>やるゲー<br>STEAM2003Maniacs製</td>
+<td><span style="font-size: medium; color: #3366ff"><a href="https://udoncom.itch.io/natunojin21mancala" target="_blank">DL(9.8MB)</a>8/22</span></td>
+<td>可/可</td>
+<td><a target="_blank" href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61487/1754836935/l50" rel="nofollow noopener" referrerpolicy="origin">■</a></td>
+</tr>
+<tr>
+<td>22</td>
+<td><img loading="lazy"></td>
+<td><a href="https://rondo2.itch.io/2025">キュアーⅠのデトックスラジオ2025</a><br>黒糖まんじゅう</td>
+<td>見るゲ<br>2000?</td>
+<td><span style="font-size: medium; color: #3366ff"><a href="https://rondo2.itch.io/2025" target="_blank">DL(7MB)</a>9/22</span></td>
+<td>自己責任で</td>
+<td><a target="_blank" href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61487/1755089797/" rel="nofollow noopener" referrerpolicy="origin">■</a></td>
+</tr>
+<tr>
+<td>23</td>
+<td><img loading="lazy"></td>
+<td><a target="_blank" href="https://tenikuru7.itch.io/aruberutodasyutu">アルベルトの脱出大作戦</a><br>てにくる</td>
+<td>脱出ゲーム<br>2000</td>
+<td><span style="font-size: medium; color: #3366ff"><a href="https://drive.google.com/drive/folders/1X5YLMDA7GSuZ2m1KPJ9RP7TMwj4kdJH4?usp=sharing" target="_blank" rel="nofollow noopener" referrerpolicy="origin"><span style="color: #3366ff"></span></a><a target="_blank" href="https://tenikuru7.itch.io/aruberutodasyutu">DL(0.07MB)</a>8/22</span></td>
+<td>自己責任で</td>
+<td><a target="_blank" href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61487/1755089832/" rel="nofollow noopener" referrerpolicy="origin">■</a></td>
+</tr>
+<tr>
+<td>24</td>
+<td><img loading="lazy"></td>
+<td><a target="a" rel="nofollow noopener" referrerpolicy="origin">もしも勇者が最強だったら2025</a><br>SnowⅡ</td>
+<td>魔王把握<br>RPGツクール2003 Maniacs Patch</td>
+<td><span style="font-size: medium; color: #3366ff"><a target="_blank" href="https://itch.io/jam/viprpgnatunozin2025/rate/3873309">DL(2.4MB)</a>9/14</span></td>
+<td>可/可</td>
+<td><a target="_blank" href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61487/1755442191/" rel="nofollow noopener" referrerpolicy="origin">■</a></td>
+</tr>
+<tr>
+<td>25</td>
+<td><img loading="lazy"></td>
+<td><a href="https://ondisk.itch.io/r-182nd" target="_blank">続ウォーター三姉妹のえろげ</a><br>大熊重信</td>
+<td>エロゲー（R-18）<br>VXace</td>
+<td><span style="color: #3366ff"><span style="font-size: medium"><a href="https://drive.google.com/drive/folders/1Ar5kcWuHKc_uyW-JzvKwXN1CTQbyfamY?usp=drive_link" target="_blank" rel="nofollow noopener" referrerpolicy="origin"><span style="color: #3366ff"></span></a></span><a href="https://itch.io/jam/viprpgnatunozin2025/rate/3830309" target="_blank"></a><a href="https://ondisk.itch.io/r-182nd">DL(367MB)</a><span style="font-size: medium"></span><span style="font-size: medium">8/24</span></span></td>
+<td>いずれも不可</td>
+<td><a target="_blank" href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61487/1755442236/" rel="nofollow noopener" referrerpolicy="origin">■</a></td>
+</tr>
+<tr>
+<td>26</td>
+<td><img loading="lazy"></td>
+<td><a href="https://bowgenun.itch.io/vipnatunozin2025-moshimokireidattara" target="_blank">もしも綺麗だったら</a><br>防幻雲</td>
+<td>2分で終わるksg<br>RPGMakerSteam2003 ManiacsPatch</td>
+<td><span style="font-size: medium; color: #3366ff"><a href="https://drive.google.com/drive/folders/1bN7D6Ep_77bbBGYoNGXFtYBqCLu4eP_y?usp=drive_link" target="_blank" rel="nofollow noopener" referrerpolicy="origin"><span style="color: #3366ff"></span></a><a href="https://bowgenun.itch.io/vipnatunozin2025-moshimokireidattara" target="_blank">DL(45.4MB)</a>8/22</span></td>
+<td>好きにしてよ</td>
+<td><a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61487/1755442266/l50" rel="nofollow noopener" referrerpolicy="origin">■</a></td>
+</tr>
+<tr>
+<td>27</td>
+<td><img loading="lazy"></td>
+<td><a target="a" rel="nofollow noopener" referrerpolicy="origin">致中国VIPRPG粉丝的制作人公告</a><br>敲响警钟</td>
+<td>敲响警钟<br>RPG制作大师2000</td>
+<td><span style="font-size: medium; color: #3366ff">DL</span></td>
+<td>推薦</td>
+<td><a target="_blank" href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61487/1755442298/" rel="nofollow noopener" referrerpolicy="origin">■</a></td>
+</tr>
+<tr>
+<td>28</td>
+<td><img loading="lazy"></td>
+<td><a href="https://motarou.itch.io/dawn" target="_blank">曙光の島</a><br><span>藻太郎</span></td>
+<td><span>掌編読むゲ</span><br>2000</td>
+<td><span style="color: #3366ff"><span style="font-size: medium"><a href="https://itch.io/jam/viprpgnatunozin2025/rate/3833346" target="_blank"></a></span><a href="https://motarou.itch.io/dawn" target="_blank">DL(2.2MB)</a><span style="font-size: medium"></span></span><span style="font-size: medium; color: #3366ff">8/22</span></td>
+<td>可</td>
+<td><a target="_blank" href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61487/1755701101/" rel="nofollow noopener" referrerpolicy="origin">■</a></td>
+</tr>
+<tr>
+<td>29</td>
+<td><img loading="lazy"></td>
+<td><a href="https://hadukiri.itch.io/29-kimagureboss" target="_blank">きまぐれボスバトル-夏の陣2025-</a><br><span>雨水葉月</span></td>
+<td><span>サイドビューデフォ戦ゲー</span><br><span>VXAce</span></td>
+<td><span style="font-size: medium; color: #3366ff"><a href="https://hadukiri.itch.io/29-kimagureboss" target="_blank">DL(109MB)</a> 8/30</span></td>
+<td>可/可</td>
+<td><a target="_blank" href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61487/1755701597/" rel="nofollow noopener" referrerpolicy="origin">■</a></td>
+</tr>
+<tr>
+<td>30</td>
+<td><img loading="lazy"></td>
+<td><a href="https://hakuakikyouryuuteikoku.itch.io/barrierskakurenbo" target="_blank">バリアーズのかくれんぼ</a><br>迫亜木今日流定刻<br></td>
+<td>逃げゲー＋謎解き<br>RPGツクールMZ<br></td>
+<td><a target="_blank" href="https://hakuakikyouryuuteikoku.itch.io/barrierskakurenbo">DL</a> 8/31</td>
+<td>いずれも可能<br></td>
+<td><a target="_blank" href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61487/1755920991//" rel="nofollow noopener" referrerpolicy="origin">■</a></td>
+</tr>
+<tr>
+<td>31</td>
+<td><img loading="lazy"></td>
+<td><a href="https://monochromaru.itch.io/henluna">へんしん？ルナックス</a><br>ものくろまる<br></td>
+<td>軽めの状態変化モノ？<br>RPGツクール2000<br></td>
+<td><a target="_blank" href="https://monochromaru.itch.io/henluna">DL(11.2MB)</a>&nbsp;9/28</td>
+<td>可/可<br></td>
+<td><a target="_blank" href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61487/1755921110/" rel="nofollow noopener" referrerpolicy="origin">■</a></td>
+</tr>
+<tr><td>32</td>
+<td><img loading="lazy"></td>
+<td><a href="https://narane-yo.itch.io/escapetikuwa" target="_blank">お前でもできる脱出ゲーム（+闇のちくわ物語ver.0.8）</a><br>ナラネーヨ<br></td>
+<td>？<br>RPGMakerSteam2003 ManiacsPatch<br></td>
+<td><a target="_blank" href="https://narane-yo.itch.io/escapetikuwa">DL(29.5MB)</a> 8/30</td>
+<td>?<br></td>
+<td><a target="_blank" href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61487/1756544010/" rel="nofollow noopener" referrerpolicy="origin">■</a></td>
+</tr>
+<tr><td>33</td>
+<td><img loading="lazy"></td>
+<td><a href="https://vipgw2025.itch.io/alarm-bell" target="_blank">祭りサイトの建て方講座+14代目保管庫勝手にレビュー</a><br>viprpg25gw</td>
+<td><span>講座</span>+発掘<br>Steam版2003<br></td>
+<td><a target="_blank" href="https://itch.io/jam/viprpgnatunozin2025/rate/3846156">DL(1.1MB)</a>&nbsp;9/27</td>
+<td>不可/原則不可(要連絡)<br></td>
+<td><a target="_blank" href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61487/1756544922/" rel="nofollow noopener" referrerpolicy="origin">■</a></td></tr></tbody><tbody><tr><td>34</td>
+<td><img loading="lazy"></td>
+<td><a href="https://amatenebi.itch.io/dairidoradorarpg" target="_blank">代理ドラドラショートRPG</a><br>あまてん海老<br></td>
+<td>短編RPG<br>RPGツクールMV<br></td>
+<td><a target="_blank" href="https://itch.io/jam/viprpgnatunozin2025/rate/3846156"></a><a target="_blank" href="https://itch.io/jam/viprpgnatunozin2025/rate/3852322">DL（353MB）</a>&nbsp;8/30</td>
+<td>可/可</td>
+<td><a target="_blank" href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61487/1756644638/" rel="nofollow noopener" referrerpolicy="origin">■</a></td></tr></tbody><tbody><tr><td>35</td>
+<td><img loading="lazy"></td>
+<td><a href="https://itch.io/jam/viprpgnatunozin2025/rate/3879869" target="_blank">ギャンブルに負けた勢いでksg集</a><br>ジャスティス<br></td>
+<td>ksg集<br>ツクール2000<br></td>
+<td><a target="_blank" href="https://itch.io/jam/viprpgnatunozin2025/rate/3846156"></a><a target="_blank" href="https://itch.io/jam/viprpgnatunozin2025/rate/3879869">DL（79MB）</a>&nbsp;9/14</td>
+<td>〇/〇</td>
+<td><a target="_blank" href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61487/1757849806/" rel="nofollow noopener" referrerpolicy="origin">■</a></td></tr><tr><td>36</td>
+<td><img loading="lazy"></td>
+<td><a href="https://kasutera-tera.itch.io/fiftyfifty-goblin" target="_blank">五分五分ゴブリン</a><br>かすていら</td>
+<td>イライラ棒っぽいマウスゲー<br>Steam2003<br></td>
+<td><a target="_blank" href="https://kasutera-tera.itch.io/fiftyfifty-goblin">DL(10MB)</a>&nbsp;9/18</td>
+<td>可/可<br></td>
+<td><a target="_blank" href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61487/1758126530/" rel="nofollow noopener" referrerpolicy="origin">■</a></td></tr></tbody><tbody><tr><td>35</td>
+<td><img loading="lazy"></td>
+<td><a href="https://itch.io/jam/viprpgnatunozin2025/rate/3879869" target="_blank">ギャンブルに負けた勢いでksg集</a><br>ジャスティス<br></td>
+<td>ksg集<br>ツクール2000<br></td>
+<td><a target="_blank" href="https://itch.io/jam/viprpgnatunozin2025/rate/3846156"></a><a target="_blank" href="https://itch.io/jam/viprpgnatunozin2025/rate/3879869">DL（79MB）</a>&nbsp;9/14</td>
+<td>〇/〇</td>
+<td><a target="_blank" href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61487/1757849806/" rel="nofollow noopener" referrerpolicy="origin">■</a></td></tr><tr><td>36</td>
+<td><img loading="lazy"></td>
+<td><a href="https://kasutera-tera.itch.io/fiftyfifty-goblin" target="_blank">五分五分ゴブリン</a><br>かすていら</td>
+<td>イライラ棒っぽいマウスゲー<br>Steam2003<br></td>
+<td><a target="_blank" href="https://kasutera-tera.itch.io/fiftyfifty-goblin">DL(10MB)</a>&nbsp;9/18</td>
+<td>可/可<br></td>
+<td><a target="_blank" href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61487/1758126530/" rel="nofollow noopener" referrerpolicy="origin">■</a></td></tr></tbody><tbody><tr><td>37</td>
+<td><img loading="lazy"></td>
+<td><a href="https://itch.io/jam/viprpgnatunozin2025/rate/3890845" target="_blank">ブラサンらへん 2025夏の陣</a><br>たんち<br></td><td>見るゲ<br>Steam2003<br></td>
+<td><a target="_blank" href="https://itch.io/jam/viprpgnatunozin2025/rate/3846156"></a><a target="_blank" href="https://itch.io/jam/viprpgnatunozin2025/rate/3890845">DL（28MB）</a>&nbsp;9/20</td>
+<td>？</td>
+<td><a target="_blank" href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61487/1758373880/" rel="nofollow noopener" referrerpolicy="origin">■</a></td></tr><tr><td>38</td>
+<td><img loading="lazy"></td>
+<td><a href="https://itch.io/jam/viprpgnatunozin2025/rate/3895313" target="_blank">大人ドラ子でデフォ戦RPGを作りたかっただけ</a><br>永田ナーガ<br></td><td>デフォ戦<br>2000<br></td>
+<td><a target="_blank" href="https://itch.io/jam/viprpgnatunozin2025/rate/3895313">DL(0.7MB)</a>&nbsp;9/20</td>
+<td>可/可<br></td>
+<td><a target="_blank" href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61487/1758373914/" rel="nofollow noopener" referrerpolicy="origin">■</a></td></tr><tr><td>39</td>
+<td><img loading="lazy"></td>
+<td><a href="https://itch.io/jam/viprpgnatunozin2025/rate/3905836" target="_blank"> Elevator</a><br>脳内住民<br></td><td>ADV<br>2000<br></td>
+<td><a target="_blank" href="https://itch.io/jam/viprpgnatunozin2025/rate/3905836">DL(4.8MB)</a>&nbsp;9/20</td>
+<td>OK<br></td>
+<td><a target="_blank" href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61487/1758727701/" rel="nofollow noopener" referrerpolicy="origin">■</a></td></tr><tr><td>40</td>
+<td><img loading="lazy"></td>
+<td><a href="https://opantsu.itch.io/kf2" target="_blank"> 海賊のフィールド2を探索するだけのゲーム</a><br>アレサのパンツ<br></td><td>苦行<br>2000<br></td>
+<td><a target="_blank" href="https://opantsu.itch.io/kf2">DL(11MB)</a>&nbsp;9/27</td>
+<td>可<br></td>
+<td><a target="_blank" href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61487/1758975073/1" rel="nofollow noopener" referrerpolicy="origin">■</a></td></tr><tr><td>41</td>
+<td><img loading="lazy"></td>
+<td><a href="https://tandhi.itch.io/burasanfire" target="_blank">球技性ブラックサンダーS ファイア</a><br><a href="https://danchi552.itch.io/burasanblizzard" target="_blank">球技性ブラックサンダーS ブリザード</a><br>たんぢ / だんち<br></td><td>大人たちの夜更かしのためのサッカーゲー<br>2000<br></td>
+<td><a target="_blank" href="https://tandhi.itch.io/burasanfire">DL(5.2MB)</a><br><a target="_blank" href="https://danchi552.itch.io/burasanblizzard">DL(33MB)</a>&nbsp;9/27</td>
+<td>可/可<br></td>
+<td><a target="_blank" href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61487/1758975183/" rel="nofollow noopener" referrerpolicy="origin">■</a></td></tr><tr></tr></tbody></table>
+</div>
+</div></div></div></div><div class="grid_outer" id="entries"><div class="header_row"><h2>Submissions<span class="game_count">(34)</span></h2></div><div class="jam_filter_picker"><div class="filter_item active">All submissions</div><span class="divider"> · </span><div class="filter_item" data-filter="filter_windows">Windows (11)</div></div><div class="jam_filter_empty"><p>No submissions match your filter</p></div><div class="game_grid_widget base_widget browse_game_grid"><div class="game_cell has_cover lazy_images" dir="auto" data-game_id="3830309"><div class="game_thumb"><a class="thumb_link game_link" data-label="game:3830309:thumb" href="https://ondisk.itch.io/r-182nd" tabindex="-1" data-action="game_grid"><img class="lazy_loaded" height="250" data-lazy_src="https://img.itch.zone/aW1nLzIyODUzODQ5LnBuZw==/315x250%23c/4Ifx5r.png" width="315"/></a><div class="game_cell_tools"><a class="action_btn add_to_collection_btn" data-register_action="add_to_collection" data-game_id="3830309" href="/g/ondisk/r-182nd/add-to-collection"><span class="icon icon-playlist_add"></span>Add to collection</a></div></div><div class="game_cell_data"><div class="game_title"><a class="title game_link" href="https://ondisk.itch.io/r-182nd" data-action="game_grid" data-label="game:3830309:title">続ウォーター三姉妹のえろげ</a></div><div class="game_text" title="三姉妹や他のキャラのエロゲです">三姉妹や他のキャラのエロゲです</div><div class="game_author"><a data-action="game_grid" data-label="user:13475948" href="https://ondisk.itch.io">大熊重信</a></div><div class="game_genre">Visual Novel</div></div></div><div class="game_cell has_cover lazy_images" dir="auto" data-game_id="3755669"><div class="game_thumb"><a class="thumb_link game_link" data-label="game:3755669:thumb" href="https://tkooler.itch.io/s2025" tabindex="-1" data-action="game_grid"><img class="lazy_loaded" height="250" data-lazy_src="https://img.itch.zone/aW1nLzIyMzU0NDUyLnBuZw==/315x250%23c/xQbLbX.png" width="315"/></a><div class="game_cell_tools"><a class="action_btn add_to_collection_btn" data-register_action="add_to_collection" data-game_id="3755669" href="/g/tkooler/s2025/add-to-collection"><span class="icon icon-playlist_add"></span>Add to collection</a></div></div><div class="game_cell_data"><div class="game_title"><a class="title game_link" href="https://tkooler.itch.io/s2025" data-action="game_grid" data-label="game:3755669:title">もしもアメリカザリガニだったら</a></div><div class="game_text" title="ksg">ksg</div><div class="game_author"><a data-action="game_grid" data-label="user:13372085" href="https://tkooler.itch.io">tkooler</a></div></div></div><div class="game_cell has_cover lazy_images" dir="auto" data-game_id="3831789"><div class="game_thumb"><a class="thumb_link game_link" data-label="game:3831789:thumb" href="https://raichiri.itch.io/erg" tabindex="-1" data-action="game_grid"><img class="lazy_loaded" height="250" data-lazy_src="https://img.itch.zone/aW1nLzIyODUxODIxLnBuZw==/315x250%23c/bMGdeV.png" width="315"/></a><div class="game_cell_tools"><a class="action_btn add_to_collection_btn" data-register_action="add_to_collection" data-game_id="3831789" href="/g/raichiri/erg/add-to-collection"><span class="icon icon-playlist_add"></span>Add to collection</a></div></div><div class="game_cell_data"><div class="game_title"><a class="title game_link" href="https://raichiri.itch.io/erg" data-action="game_grid" data-label="game:3831789:title">アシュリー（に・が）中出しして赤ちゃんを作るerg</a></div><div class="game_text" title="女の子アシュリーのergと男の娘アシュリーのerg">女の子アシュリーのergと男の娘アシュリーのerg</div><div class="game_author"><a data-action="game_grid" data-label="user:13343740" href="https://raichiri.itch.io">raichiri</a></div></div></div><div class="game_cell has_cover lazy_images" dir="auto" data-game_id="3836271"><div class="game_thumb"><a class="thumb_link game_link" data-label="game:3836271:thumb" href="https://sssnext2gmailcom.itch.io/kemololirouge" tabindex="-1" data-action="game_grid"><img class="lazy_loaded" height="250" data-lazy_src="https://img.itch.zone/aW1nLzIyODc4NTg0LnBuZw==/315x250%23c/wR6MTl.png" width="315"/></a><div class="game_cell_tools"><a class="action_btn add_to_collection_btn" data-register_action="add_to_collection" data-game_id="3836271" href="/g/sssnext2gmailcom/kemololirouge/add-to-collection"><span class="icon icon-playlist_add"></span>Add to collection</a></div></div><div class="game_cell_data"><div class="game_title"><a class="title game_link" href="https://sssnext2gmailcom.itch.io/kemololirouge" data-action="game_grid" data-label="game:3836271:title">けもろりルージュ　おおかみパパとのしんせいかつ</a></div><div class="game_author"><a data-action="game_grid" data-label="user:13924535" href="https://sssnext2gmailcom.itch.io">sssnext2@gmail.com</a></div><div class="game_genre">Visual Novel</div></div></div><div class="game_cell has_cover lazy_images" dir="auto" data-game_id="3839479"><div class="game_thumb"><a class="thumb_link game_link" data-label="game:3839479:thumb" href="https://hadukiri.itch.io/29-kimagureboss" tabindex="-1" data-action="game_grid"><img class="lazy_loaded" height="250" data-lazy_src="https://img.itch.zone/aW1nLzIyODk4MDI3LnBuZw==/315x250%23c/BMawM9.png" width="315"/></a><div class="game_cell_tools"><a class="action_btn add_to_collection_btn" data-register_action="add_to_collection" data-game_id="3839479" href="/g/hadukiri/29-kimagureboss/add-to-collection"><span class="icon icon-playlist_add"></span>Add to collection</a></div></div><div class="game_cell_data"><div class="game_title"><a class="title game_link" href="https://hadukiri.itch.io/29-kimagureboss" data-action="game_grid" data-label="game:3839479:title">きまぐれボスバトル-夏の陣2025-</a></div><div class="game_text" title="サイドビューデフォ戦ゲーム">サイドビューデフォ戦ゲーム</div><div class="game_author"><a data-action="game_grid" data-label="user:10597568" href="https://hadukiri.itch.io">雨水葉月</a></div><div class="game_genre">Role Playing</div></div></div><div class="game_cell filter_windows has_cover lazy_images" dir="auto" data-game_id="3831736"><div class="game_thumb"><a class="thumb_link game_link" data-label="game:3831736:thumb" href="https://neconeco708.itch.io/b" tabindex="-1" data-action="game_grid"><img class="lazy_loaded" height="250" data-lazy_src="https://img.itch.zone/aW1nLzIyODUxNDQ0LnBuZw==/315x250%23c/kMPwxU.png" width="315"/></a><div class="game_cell_tools"><a class="action_btn add_to_collection_btn" data-register_action="add_to_collection" data-game_id="3831736" href="/g/neconeco708/b/add-to-collection"><span class="icon icon-playlist_add"></span>Add to collection</a></div></div><div class="game_cell_data"><div class="game_title"><a class="title game_link" href="https://neconeco708.itch.io/b" data-action="game_grid" data-label="game:3831736:title">スーパーサイヤ大戦B</a></div><div class="game_author"><a data-action="game_grid" data-label="user:14697471" href="https://neconeco708.itch.io">neconeco708</a></div><div class="game_genre">Strategy</div><div class="game_platform"><span class="icon icon-windows8" aria-hidden="true" title="Download for Windows"></span> </div></div></div><div class="game_cell filter_windows has_cover lazy_images" dir="auto" data-game_id="3833127"><div class="game_thumb"><a class="thumb_link game_link" data-label="game:3833127:thumb" href="https://iranucut.itch.io/doraren" tabindex="-1" data-action="game_grid"><img class="lazy_loaded" height="250" data-lazy_src="https://img.itch.zone/aW1nLzIyODYwMjIwLnBuZw==/315x250%23c/%2B0Mjwh.png" width="315"/></a><div class="game_cell_tools"><a class="action_btn add_to_collection_btn" data-register_action="add_to_collection" data-game_id="3833127" href="/g/iranucut/doraren/add-to-collection"><span class="icon icon-playlist_add"></span>Add to collection</a></div></div><div class="game_cell_data"><div class="game_title"><a class="title game_link" href="https://iranucut.itch.io/doraren" data-action="game_grid" data-label="game:3833127:title">どら★れん！【完全版商法】</a></div><div class="game_text" title="世界は救わないけど誰かは救われるかも知れないVIPRPG">世界は救わないけど誰かは救われるかも知れないVIPRPG</div><div class="game_author"><a data-action="game_grid" data-label="user:14699419" href="https://iranucut.itch.io">iranucut</a></div><div class="game_platform"><span class="icon icon-windows8" aria-hidden="true" title="Download for Windows"></span> </div></div></div><div class="game_cell filter_windows has_cover lazy_images" dir="auto" data-game_id="3831810"><div class="game_thumb"><a class="thumb_link game_link" data-label="game:3831810:thumb" href="https://ajitamar2k.itch.io/destinyaxeman" tabindex="-1" data-action="game_grid"><img class="lazy_loaded" height="250" data-lazy_src="https://img.itch.zone/aW1nLzIyODUxOTgxLnBuZw==/315x250%23c/mM2ect.png" width="315"/></a><div class="game_cell_tools"><a class="action_btn add_to_collection_btn" data-register_action="add_to_collection" data-game_id="3831810" href="/g/ajitamar2k/destinyaxeman/add-to-collection"><span class="icon icon-playlist_add"></span>Add to collection</a></div></div><div class="game_cell_data"><div class="game_title"><a class="title game_link" href="https://ajitamar2k.itch.io/destinyaxeman" data-action="game_grid" data-label="game:3831810:title">運命頼りの斧戦士</a></div><div class="game_text" title="運に頼らず、運命に頼る斧RPG">運に頼らず、運命に頼る斧RPG</div><div class="game_author"><a data-action="game_grid" data-label="user:14697852" href="https://ajitamar2k.itch.io">あじたま</a></div><div class="game_genre">Role Playing</div><div class="game_platform"><span class="icon icon-windows8" aria-hidden="true" title="Download for Windows"></span> </div></div></div><div class="game_cell has_cover lazy_images" dir="auto" data-game_id="3834759"><div class="game_thumb"><a class="thumb_link game_link" data-label="game:3834759:thumb" href="https://itutuba.itch.io/kop" tabindex="-1" data-action="game_grid"><img class="lazy_loaded" height="250" data-lazy_src="https://img.itch.zone/aW1nLzIyODY5NjIyLnBuZw==/315x250%23c/R8lnjL.png" width="315"/></a><div class="game_cell_tools"><a class="action_btn add_to_collection_btn" data-register_action="add_to_collection" data-game_id="3834759" href="/g/itutuba/kop/add-to-collection"><span class="icon icon-playlist_add"></span>Add to collection</a></div></div><div class="game_cell_data"><div class="game_title"><a class="title game_link" href="https://itutuba.itch.io/kop" data-action="game_grid" data-label="game:3834759:title">狂詩性ブラックサンダーKOP</a></div><div class="game_author"><a data-action="game_grid" data-label="user:9419881" href="https://itutuba.itch.io">itutuba</a></div></div></div><div class="game_cell has_cover lazy_images" dir="auto" data-game_id="3845665"><div class="game_thumb"><a class="thumb_link game_link" data-label="game:3845665:thumb" href="https://narane-yo.itch.io/escapetikuwa" tabindex="-1" data-action="game_grid"><img class="lazy_loaded" height="250" data-lazy_src="https://img.itch.zone/aW1nLzIyOTM2MDcwLnBuZw==/315x250%23c/2DFmz4.png" width="315"/></a><div class="game_cell_tools"><a class="action_btn add_to_collection_btn" data-register_action="add_to_collection" data-game_id="3845665" href="/g/narane-yo/escapetikuwa/add-to-collection"><span class="icon icon-playlist_add"></span>Add to collection</a></div></div><div class="game_cell_data"><div class="game_title"><a class="title game_link" href="https://narane-yo.itch.io/escapetikuwa" data-action="game_grid" data-label="game:3845665:title">お前でもできる脱出ゲーム（+闇のちくわ物語）</a></div><div class="game_text" title="ギャグ脱出ゲームの再掲とよくわからん付属品">ギャグ脱出ゲームの再掲とよくわからん付属品</div><div class="game_author"><a data-action="game_grid" data-label="user:9402406" href="https://narane-yo.itch.io">ナラネーヨ</a></div></div></div><div class="game_cell has_cover lazy_images" dir="auto" data-game_id="3852322"><div class="game_thumb"><a class="thumb_link game_link" data-label="game:3852322:thumb" href="https://amatenebi.itch.io/dairidoradorarpg" tabindex="-1" data-action="game_grid"><img class="lazy_loaded" height="250" data-lazy_src="https://img.itch.zone/aW1nLzIyOTc3NTg4LnBuZw==/315x250%23c/8wWXAn.png" width="315"/></a><div class="game_cell_tools"><a class="action_btn add_to_collection_btn" data-register_action="add_to_collection" data-game_id="3852322" href="/g/amatenebi/dairidoradorarpg/add-to-collection"><span class="icon icon-playlist_add"></span>Add to collection</a></div></div><div class="game_cell_data"><div class="game_title"><a class="title game_link" href="https://amatenebi.itch.io/dairidoradorarpg" data-action="game_grid" data-label="game:3852322:title">代理ドラドラショートRPG</a></div><div class="game_author"><a data-action="game_grid" data-label="user:9337147" href="https://amatenebi.itch.io">あまてん海老</a></div></div></div><div class="game_cell has_cover lazy_images" dir="auto" data-game_id="3890845"><div class="game_thumb"><a class="thumb_link game_link" data-label="game:3890845:thumb" href="https://tanchi551.itch.io/blackthunder2025" tabindex="-1" data-action="game_grid"><img class="lazy_loaded" height="250" data-lazy_src="https://img.itch.zone/aW1nLzIzMjEzODc3LnBuZw==/315x250%23c/U4hqaY.png" width="315"/></a><div class="game_cell_tools"><a class="action_btn add_to_collection_btn" data-register_action="add_to_collection" data-game_id="3890845" href="/g/tanchi551/blackthunder2025/add-to-collection"><span class="icon icon-playlist_add"></span>Add to collection</a></div></div><div class="game_cell_data"><div class="game_title"><a class="title game_link" href="https://tanchi551.itch.io/blackthunder2025" data-action="game_grid" data-label="game:3890845:title">ブラサンらへん 2025夏の陣</a></div><div class="game_text" title="冷やし中華はじめました。">冷やし中華はじめました。</div><div class="game_author"><a data-action="game_grid" data-label="user:13409579" href="https://tanchi551.itch.io">たんち</a></div><div class="game_genre">Visual Novel</div></div></div><div class="game_cell has_cover lazy_images" dir="auto" data-game_id="3486311"><div class="game_thumb"><a class="thumb_link game_link" data-label="game:3486311:thumb" href="https://den6kan.itch.io/unknownsong" tabindex="-1" data-action="game_grid"><img class="lazy_loaded" height="250" data-lazy_src="https://img.itch.zone/aW1nLzIwNzk3NjkzLnBuZw==/315x250%23c/wMYGdE.png" width="315"/></a><div class="game_cell_tools"><a class="action_btn add_to_collection_btn" data-register_action="add_to_collection" data-game_id="3486311" href="/g/den6kan/unknownsong/add-to-collection"><span class="icon icon-playlist_add"></span>Add to collection</a></div></div><div class="game_cell_data"><div class="game_title"><a class="title game_link" href="https://den6kan.itch.io/unknownsong" data-action="game_grid" data-label="game:3486311:title">【完成版公開】わからない歌詞</a></div><div class="game_text" title="わからない歌詞を探す旅から始まる短編RPG">わからない歌詞を探す旅から始まる短編RPG</div><div class="game_author"><a data-action="game_grid" data-label="user:9329206" href="https://den6kan.itch.io">伝六館館主</a></div><div class="game_genre">Role Playing</div></div></div><div class="game_cell has_cover lazy_images" dir="auto" data-game_id="3837419"><div class="game_thumb"><a class="thumb_link game_link" data-label="game:3837419:thumb" href="https://orugaituka004.itch.io/orugakuesuto" tabindex="-1" data-action="game_grid"><img class="lazy_loaded" height="250" data-lazy_src="https://img.itch.zone/aW1nLzIyODg0ODY1LnBuZw==/315x250%23c/d5vvXe.png" width="315"/></a><div class="game_cell_tools"><a class="action_btn add_to_collection_btn" data-register_action="add_to_collection" data-game_id="3837419" href="/g/orugaituka004/orugakuesuto/add-to-collection"><span class="icon icon-playlist_add"></span>Add to collection</a></div></div><div class="game_cell_data"><div class="game_title"><a class="title game_link" href="https://orugaituka004.itch.io/orugakuesuto" data-action="game_grid" data-label="game:3837419:title">オルガクエストver0.6</a></div><div class="game_author"><a data-action="game_grid" data-label="user:14717374" href="https://orugaituka004.itch.io">orugaituka004</a></div></div></div><div class="game_cell filter_windows has_cover lazy_images" dir="auto" data-game_id="3865401"><div class="game_thumb" style="background-color:#72c3f4;"><a class="thumb_link game_link" data-label="game:3865401:thumb" href="https://kasutera-tera.itch.io/fiftyfifty-goblin" tabindex="-1" data-action="game_grid"><img class="lazy_loaded" height="250" data-lazy_src="https://img.itch.zone/aW1nLzIzMDYyOTg5LnBuZw==/315x250%23c/pWOkr5.png" width="315"/></a><div class="game_cell_tools"><a class="action_btn add_to_collection_btn" data-register_action="add_to_collection" data-game_id="3865401" href="/g/kasutera-tera/fiftyfifty-goblin/add-to-collection"><span class="icon icon-playlist_add"></span>Add to collection</a></div></div><div class="game_cell_data"><div class="game_title"><a class="title game_link" href="https://kasutera-tera.itch.io/fiftyfifty-goblin" data-action="game_grid" data-label="game:3865401:title">五分五分ゴブリン</a></div><div class="game_text" title="スレイ時間：五分">スレイ時間：五分</div><div class="game_author"><a data-action="game_grid" data-label="user:2163415" href="https://kasutera-tera.itch.io">かすていら</a></div><div class="game_platform"><span class="icon icon-windows8" aria-hidden="true" title="Download for Windows"></span> </div></div></div><div class="game_cell filter_windows has_cover lazy_images" dir="auto" data-game_id="3850817"><div class="game_thumb"><a class="thumb_link game_link" data-label="game:3850817:thumb" href="https://hakuakikyouryuuteikoku.itch.io/barrierskakurenbo" tabindex="-1" data-action="game_grid"><img class="lazy_loaded" height="250" data-lazy_src="https://img.itch.zone/aW1nLzIyOTcxNzM3LnBuZw==/315x250%23c/S0KPxs.png" width="315"/></a><div class="game_cell_tools"><a class="action_btn add_to_collection_btn" data-register_action="add_to_collection" data-game_id="3850817" href="/g/hakuakikyouryuuteikoku/barrierskakurenbo/add-to-collection"><span class="icon icon-playlist_add"></span>Add to collection</a></div></div><div class="game_cell_data"><div class="game_title"><a class="title game_link" href="https://hakuakikyouryuuteikoku.itch.io/barrierskakurenbo" data-action="game_grid" data-label="game:3850817:title">バリアーズのかくれんぼ</a></div><div class="game_author"><a data-action="game_grid" data-label="user:13743061" href="https://hakuakikyouryuuteikoku.itch.io">迫亜木今日流定刻</a></div><div class="game_platform"><span class="icon icon-windows8" aria-hidden="true" title="Download for Windows"></span> </div></div></div><div class="game_cell filter_windows has_cover lazy_images" dir="auto" data-game_id="3846156"><div class="game_thumb" style="background-color:#000000;"><a class="thumb_link game_link" data-label="game:3846156:thumb" href="https://vipgw2025.itch.io/alarm-bell" tabindex="-1" data-action="game_grid"><img class="lazy_loaded" height="250" data-lazy_src="https://img.itch.zone/aW1nLzIzMDc2NzEzLnBuZw==/315x250%23c/gmCV5L.png" width="315"/></a><div class="game_cell_tools"><a class="action_btn add_to_collection_btn" data-register_action="add_to_collection" data-game_id="3846156" href="/g/vipgw2025/alarm-bell/add-to-collection"><span class="icon icon-playlist_add"></span>Add to collection</a></div></div><div class="game_cell_data"><div class="game_title"><a class="title game_link" href="https://vipgw2025.itch.io/alarm-bell" data-action="game_grid" data-label="game:3846156:title">祭りサイトの建て方講座+14代目保管庫勝手にレビュー</a></div><div class="game_author"><a data-action="game_grid" data-label="user:13316430" href="https://vipgw2025.itch.io">vipgw2025</a></div><div class="game_platform"><span class="icon icon-windows8" aria-hidden="true" title="Download for Windows"></span> </div></div></div><div class="game_cell has_cover lazy_images" dir="auto" data-game_id="3832016"><div class="game_thumb"><a class="thumb_link game_link" data-label="game:3832016:thumb" href="https://rondo2.itch.io/2025" tabindex="-1" data-action="game_grid"><img class="lazy_loaded" height="250" data-lazy_src="https://img.itch.zone/aW1nLzIyODUzNTQyLnBuZw==/315x250%23c/OTi4Pg.png" width="315"/></a><div class="game_cell_tools"><a class="action_btn add_to_collection_btn" data-register_action="add_to_collection" data-game_id="3832016" href="/g/rondo2/2025/add-to-collection"><span class="icon icon-playlist_add"></span>Add to collection</a></div></div><div class="game_cell_data"><div class="game_title"><a class="title game_link" href="https://rondo2.itch.io/2025" data-action="game_grid" data-label="game:3832016:title">キュアーⅠのデトックスラジオ2025</a></div><div class="game_author"><a data-action="game_grid" data-label="user:10571773" href="https://rondo2.itch.io">黒糖まんじゅう</a></div></div></div><div class="game_cell filter_windows has_cover lazy_images" dir="auto" data-game_id="3815331"><div class="game_thumb" style="background-color:#0202ff;"><a class="thumb_link game_link" data-label="game:3815331:thumb" href="https://bowgenun.itch.io/vipnatunozin2025-moshimokireidattara" tabindex="-1" data-action="game_grid"><img class="lazy_loaded" height="250" data-lazy_src="https://img.itch.zone/aW1nLzIyNzQ3OTU2LnBuZw==/315x250%23c/acjlM%2F.png" width="315"/></a><div class="game_cell_tools"><a class="action_btn add_to_collection_btn" data-register_action="add_to_collection" data-game_id="3815331" href="/g/bowgenun/vipnatunozin2025-moshimokireidattara/add-to-collection"><span class="icon icon-playlist_add"></span>Add to collection</a></div></div><div class="game_cell_data"><div class="game_title"><a class="title game_link" href="https://bowgenun.itch.io/vipnatunozin2025-moshimokireidattara" data-action="game_grid" data-label="game:3815331:title">もしも綺麗だったら</a></div><div class="game_text" title="2分で終わるksg">2分で終わるksg</div><div class="game_author"><a data-action="game_grid" data-label="user:7949648" href="https://bowgenun.itch.io">防幻雲</a></div><div class="game_genre">Adventure</div><div class="game_platform"><span class="icon icon-windows8" aria-hidden="true" title="Download for Windows"></span> </div></div></div><div class="game_cell has_cover lazy_images" dir="auto" data-game_id="3905836"><div class="game_thumb"><a class="thumb_link game_link" data-label="game:3905836:thumb" href="https://ls-99.itch.io/elevator" tabindex="-1" data-action="game_grid"><img class="lazy_loaded" height="250" data-lazy_src="https://img.itch.zone/aW1nLzIzMzAxODY4LmpwZw==/315x250%23c/1XbJPy.jpg" width="315"/></a><div class="game_cell_tools"><a class="action_btn add_to_collection_btn" data-register_action="add_to_collection" data-game_id="3905836" href="/g/ls-99/elevator/add-to-collection"><span class="icon icon-playlist_add"></span>Add to collection</a></div></div><div class="game_cell_data"><div class="game_title"><a class="title game_link" href="https://ls-99.itch.io/elevator" data-action="game_grid" data-label="game:3905836:title">Elevator</a></div><div class="game_text" title="RPGツクール2000">RPGツクール2000</div><div class="game_author"><a data-action="game_grid" data-label="user:10813145" href="https://ls-99.itch.io">脳内住民</a></div><div class="game_genre">Adventure</div></div></div><div class="game_cell has_cover lazy_images" dir="auto" data-game_id="3834737"><div class="game_thumb"><a class="thumb_link game_link" data-label="game:3834737:thumb" href="https://gyuuniku.itch.io/madaminu" tabindex="-1" data-action="game_grid"><img class="lazy_loaded" height="250" data-lazy_src="https://img.itch.zone/aW1nLzIyODY5MzY1LnBuZw==/315x250%23c/OBdXzW.png" width="315"/></a><div class="game_cell_tools"><a class="action_btn add_to_collection_btn" data-register_action="add_to_collection" data-game_id="3834737" href="/g/gyuuniku/madaminu/add-to-collection"><span class="icon icon-playlist_add"></span>Add to collection</a></div></div><div class="game_cell_data"><div class="game_title"><a class="title game_link" href="https://gyuuniku.itch.io/madaminu" data-action="game_grid" data-label="game:3834737:title">まだ見ぬ仕掛けやお宝を求めて</a></div><div class="game_text" title="ゆるく探索する短編デフォ戦ゲー">ゆるく探索する短編デフォ戦ゲー</div><div class="game_author"><a data-action="game_grid" data-label="user:13416131" href="https://gyuuniku.itch.io">牧場の牛肉</a></div></div></div><div class="game_cell filter_windows has_cover lazy_images" dir="auto" data-game_id="3833562"><div class="game_thumb"><a class="thumb_link game_link" data-label="game:3833562:thumb" href="https://kiyuuri.itch.io/entry-18" tabindex="-1" data-action="game_grid"><img class="lazy_loaded" height="250" data-lazy_src="https://img.itch.zone/aW1nLzIyODYzMjg1LnBuZw==/315x250%23c/dBhqoV.png" width="315"/></a><div class="game_cell_tools"><a class="action_btn add_to_collection_btn" data-register_action="add_to_collection" data-game_id="3833562" href="/g/kiyuuri/entry-18/add-to-collection"><span class="icon icon-playlist_add"></span>Add to collection</a></div></div><div class="game_cell_data"><div class="game_title"><a class="title game_link" href="https://kiyuuri.itch.io/entry-18" data-action="game_grid" data-label="game:3833562:title">世界でたった一人の妹x2</a></div><div class="game_author"><a data-action="game_grid" data-label="user:13432427" href="https://kiyuuri.itch.io">きゆう利</a></div><div class="game_platform"><span class="icon icon-windows8" aria-hidden="true" title="Download for Windows"></span> </div></div></div><div class="game_cell has_cover lazy_images" dir="auto" data-game_id="3846086"><div class="game_thumb" style="background-color:#eeeeee;"><a class="thumb_link game_link" data-label="game:3846086:thumb" href="https://udoncom.itch.io/natunojin21mancala" tabindex="-1" data-action="game_grid"><img class="lazy_loaded" height="250" data-lazy_src="https://img.itch.zone/aW1nLzIyOTM4NjcyLnBuZw==/315x250%23c/xbrQQ0.png" width="315"/></a><div class="game_cell_tools"><a class="action_btn add_to_collection_btn" data-register_action="add_to_collection" data-game_id="3846086" href="/g/udoncom/natunojin21mancala/add-to-collection"><span class="icon icon-playlist_add"></span>Add to collection</a></div></div><div class="game_cell_data"><div class="game_title"><a class="title game_link" href="https://udoncom.itch.io/natunojin21mancala" data-action="game_grid" data-label="game:3846086:title">もしもマンカラ</a></div><div class="game_author"><a data-action="game_grid" data-label="user:14749450" href="https://udoncom.itch.io">UDON.com</a></div><div class="game_genre">Puzzle</div></div></div><div class="game_cell has_cover lazy_images" dir="auto" data-game_id="3831723"><div class="game_thumb"><a class="thumb_link game_link" data-label="game:3831723:thumb" href="https://aquhademania.itch.io/teskaescape" tabindex="-1" data-action="game_grid"><img class="lazy_loaded" height="250" data-lazy_src="https://img.itch.zone/aW1nLzIyODUxNDAxLnBuZw==/315x250%23c/vJzMUZ.png" width="315"/></a><div class="game_cell_tools"><a class="action_btn add_to_collection_btn" data-register_action="add_to_collection" data-game_id="3831723" href="/g/aquhademania/teskaescape/add-to-collection"><span class="icon icon-playlist_add"></span>Add to collection</a></div></div><div class="game_cell_data"><div class="game_title"><a class="title game_link" href="https://aquhademania.itch.io/teskaescape" data-action="game_grid" data-label="game:3831723:title">テスカの大逃走</a></div><div class="game_text" title="逃げまくり＆死に覚えゲー">逃げまくり＆死に覚えゲー</div><div class="game_author"><a data-action="game_grid" data-label="user:9362475" href="https://aquhademania.itch.io">AQUHADEMANIA</a></div><div class="game_genre">Action</div></div></div><div class="game_cell has_cover lazy_images" dir="auto" data-game_id="3831752"><div class="game_thumb"><a class="thumb_link game_link" data-label="game:3831752:thumb" href="https://akiko2023kouhaku.itch.io/flower-hand-water" tabindex="-1" data-action="game_grid"><img class="lazy_loaded" height="250" data-lazy_src="https://img.itch.zone/aW1nLzIyODUxNTg3LnBuZw==/315x250%23c/jwgnKT.png" width="315"/></a><div class="game_cell_tools"><a class="action_btn add_to_collection_btn" data-register_action="add_to_collection" data-game_id="3831752" href="/g/akiko2023kouhaku/flower-hand-water/add-to-collection"><span class="icon icon-playlist_add"></span>Add to collection</a></div></div><div class="game_cell_data"><div class="game_title"><a class="title game_link" href="https://akiko2023kouhaku.itch.io/flower-hand-water" data-action="game_grid" data-label="game:3831752:title">フラワーハンドわてー</a></div><div class="game_text" title="納涼かもしれないksg">納涼かもしれないksg</div><div class="game_author"><a data-action="game_grid" data-label="user:9345974" href="https://akiko2023kouhaku.itch.io">akiko2023kouhaku</a></div><div class="game_genre">Adventure</div></div></div><div class="game_cell has_cover lazy_images" dir="auto" data-game_id="3879869"><div class="game_thumb"><a class="thumb_link game_link" data-label="game:3879869:thumb" href="https://viprpgjustice.itch.io/ksg" tabindex="-1" data-action="game_grid"><img class="lazy_loaded" height="250" data-lazy_src="https://img.itch.zone/aW1nLzIzMTQ4OTYxLnBuZw==/315x250%23c/T0A%2BKL.png" width="315"/></a><div class="game_cell_tools"><a class="action_btn add_to_collection_btn" data-register_action="add_to_collection" data-game_id="3879869" href="/g/viprpgjustice/ksg/add-to-collection"><span class="icon icon-playlist_add"></span>Add to collection</a></div></div><div class="game_cell_data"><div class="game_title"><a class="title game_link" href="https://viprpgjustice.itch.io/ksg" data-action="game_grid" data-label="game:3879869:title">ギャンブルに負けた勢いでksg集</a></div><div class="game_text" title="VIPRPG夏の陣2025">VIPRPG夏の陣2025</div><div class="game_author"><a data-action="game_grid" data-label="user:14699770" href="https://viprpgjustice.itch.io">ジャスティス</a></div></div></div><div class="game_cell has_cover lazy_images" dir="auto" data-game_id="3831993"><div class="game_thumb"><a class="thumb_link game_link" data-label="game:3831993:thumb" href="https://rp-tkloo.itch.io/viprpg-crouton10th-collection" tabindex="-1" data-action="game_grid"><img class="lazy_loaded" height="250" data-lazy_src="https://img.itch.zone/aW1nLzIyODUzNDA1LnBuZw==/315x250%23c/xzVr8S.png" width="315"/></a><div class="game_cell_tools"><a class="action_btn add_to_collection_btn" data-register_action="add_to_collection" data-game_id="3831993" href="/g/rp-tkloo/viprpg-crouton10th-collection/add-to-collection"><span class="icon icon-playlist_add"></span>Add to collection</a></div></div><div class="game_cell_data"><div class="game_title"><a class="title game_link" href="https://rp-tkloo.itch.io/viprpg-crouton10th-collection" data-action="game_grid" data-label="game:3831993:title">クルトンコレクション</a></div><div class="game_text" title="クルトン登場10周年を記念した自作品コレクション作品です。">クルトン登場10周年を記念した自作品コレクション作品です。</div><div class="game_author"><a data-action="game_grid" data-label="user:9427234" href="https://rp-tkloo.itch.io">RP_Tkloo</a></div></div></div><div class="game_cell filter_windows has_cover lazy_images" dir="auto" data-game_id="3832244"><div class="game_thumb"><a class="thumb_link game_link" data-label="game:3832244:thumb" href="https://game-unimushi8.itch.io/victoryxvralf" tabindex="-1" data-action="game_grid"><img class="lazy_loaded" height="250" data-lazy_src="https://img.itch.zone/aW1nLzIyODU1MjQ2LnBuZw==/315x250%23c/U91Kr4.png" width="315"/></a><div class="game_cell_tools"><a class="action_btn add_to_collection_btn" data-register_action="add_to_collection" data-game_id="3832244" href="/g/game-unimushi8/victoryxvralf/add-to-collection"><span class="icon icon-playlist_add"></span>Add to collection</a></div></div><div class="game_cell_data"><div class="game_title"><a class="title game_link" href="https://game-unimushi8.itch.io/victoryxvralf" data-action="game_grid" data-label="game:3832244:title">勇者遊討記ＶictoryＸ～ラルフと仲間の物語～</a></div><div class="game_text" title="勇者ラルフと仲間たちの短編？RPG　RPGツクールVX作(要RTP)">勇者ラルフと仲間たちの短編？RPG　RPGツクールVX作(要RTP)</div><div class="game_author"><a data-action="game_grid" data-label="user:10387700" href="https://game-unimushi8.itch.io">個人趣味ゲーム制作うにむしや</a></div><div class="game_genre">Role Playing</div><div class="game_platform"><span class="icon icon-windows8" aria-hidden="true" title="Download for Windows"></span> </div></div></div><div class="game_cell has_cover lazy_images" dir="auto" data-game_id="3895313"><div class="game_thumb"><a class="thumb_link game_link" data-label="game:3895313:thumb" href="https://nagatanaga.itch.io/otodorarpg" tabindex="-1" data-action="game_grid"><img class="lazy_loaded" height="250" data-lazy_src="https://img.itch.zone/aW1nLzIzMjQwOTkxLnBuZw==/315x250%23c/HjRe7O.png" width="315"/></a><div class="game_cell_tools"><a class="action_btn add_to_collection_btn" data-register_action="add_to_collection" data-game_id="3895313" href="/g/nagatanaga/otodorarpg/add-to-collection"><span class="icon icon-playlist_add"></span>Add to collection</a></div></div><div class="game_cell_data"><div class="game_title"><a class="title game_link" href="https://nagatanaga.itch.io/otodorarpg" data-action="game_grid" data-label="game:3895313:title">大人ドラ子でデフォ戦RPGを作りたかっただけ</a></div><div class="game_author"><a data-action="game_grid" data-label="user:13450724" href="https://nagatanaga.itch.io">nagatanaga</a></div></div></div><div class="game_cell has_cover lazy_images" dir="auto" data-game_id="3911871"><div class="game_thumb"><a class="thumb_link game_link" data-label="game:3911871:thumb" href="https://tandhi.itch.io/burasanfire" tabindex="-1" data-action="game_grid"><img class="lazy_loaded" height="250" data-lazy_src="https://img.itch.zone/aW1nLzIzMzM2NzMyLnBuZw==/315x250%23c/On0ZgV.png" width="315"/></a><div class="game_cell_tools"><a class="action_btn add_to_collection_btn" data-register_action="add_to_collection" data-game_id="3911871" href="/g/tandhi/burasanfire/add-to-collection"><span class="icon icon-playlist_add"></span>Add to collection</a></div></div><div class="game_cell_data"><div class="game_title"><a class="title game_link" href="https://tandhi.itch.io/burasanfire" data-action="game_grid" data-label="game:3911871:title">球技性ブラックサンダーS ファイア</a></div><div class="game_author"><a data-action="game_grid" data-label="user:14975609" href="https://tandhi.itch.io">tandhi</a></div></div></div><div class="game_cell filter_windows has_cover lazy_images" dir="auto" data-game_id="3911766"><div class="game_thumb"><a class="thumb_link game_link" data-label="game:3911766:thumb" href="https://opantsu.itch.io/kf2" tabindex="-1" data-action="game_grid"><img class="lazy_loaded" height="250" data-lazy_src="https://img.itch.zone/aW1nLzIzMzM2MDgyLnBuZw==/315x250%23c/uMVR4t.png" width="315"/></a><div class="game_cell_tools"><a class="action_btn add_to_collection_btn" data-register_action="add_to_collection" data-game_id="3911766" href="/g/opantsu/kf2/add-to-collection"><span class="icon icon-playlist_add"></span>Add to collection</a></div></div><div class="game_cell_data"><div class="game_title"><a class="title game_link" href="https://opantsu.itch.io/kf2" data-action="game_grid" data-label="game:3911766:title">海賊のフィールド2を探索するだけのゲーム</a></div><div class="game_author"><a data-action="game_grid" data-label="user:14975295" href="https://opantsu.itch.io">opantsu</a></div><div class="game_platform"><span class="icon icon-windows8" aria-hidden="true" title="Download for Windows"></span> </div></div></div><div class="game_cell has_cover lazy_images" dir="auto" data-game_id="3841511"><div class="game_thumb"><a class="thumb_link game_link" data-label="game:3841511:thumb" href="https://tenikuru7.itch.io/aruberutodasyutu" tabindex="-1" data-action="game_grid"><img class="lazy_loaded" height="250" data-lazy_src="https://img.itch.zone/aW1nLzIyOTEwNDUxLnBuZw==/315x250%23c/N7m96A.png" width="315"/></a><div class="game_cell_tools"><a class="action_btn add_to_collection_btn" data-register_action="add_to_collection" data-game_id="3841511" href="/g/tenikuru7/aruberutodasyutu/add-to-collection"><span class="icon icon-playlist_add"></span>Add to collection</a></div></div><div class="game_cell_data"><div class="game_title"><a class="title game_link" href="https://tenikuru7.itch.io/aruberutodasyutu" data-action="game_grid" data-label="game:3841511:title">アルベルトの脱出大作戦</a></div><div class="game_author"><a data-action="game_grid" data-label="user:14733467" href="https://tenikuru7.itch.io">tenikuru7</a></div></div></div><div class="game_cell filter_windows has_cover lazy_images" dir="auto" data-game_id="3873309"><div class="game_thumb" style="background-color:#eeeeee;"><a class="thumb_link game_link" data-label="game:3873309:thumb" href="https://spellofsnow.itch.io/viprpg2025sum" tabindex="-1" data-action="game_grid"><img class="lazy_loaded" height="250" data-lazy_src="https://img.itch.zone/aW1nLzIzMTA5NDA2LnBuZw==/315x250%23c/CRMokN.png" width="315"/></a><div class="game_cell_tools"><a class="action_btn add_to_collection_btn" data-register_action="add_to_collection" data-game_id="3873309" href="/g/spellofsnow/viprpg2025sum/add-to-collection"><span class="icon icon-playlist_add"></span>Add to collection</a></div></div><div class="game_cell_data"><div class="game_title"><a class="title game_link" href="https://spellofsnow.itch.io/viprpg2025sum" data-action="game_grid" data-label="game:3873309:title">もしも勇者が最強だったら2025</a></div><div class="game_author"><a data-action="game_grid" data-label="user:13335926" href="https://spellofsnow.itch.io">SnowII</a></div><div class="game_platform"><span class="icon icon-windows8" aria-hidden="true" title="Download for Windows"></span> </div></div></div><div class="game_cell has_cover lazy_images" dir="auto" data-game_id="3911877"><div class="game_thumb"><a class="thumb_link game_link" data-label="game:3911877:thumb" href="https://danchi552.itch.io/burasanblizzard" tabindex="-1" data-action="game_grid"><img class="lazy_loaded" height="250" data-lazy_src="https://img.itch.zone/aW1nLzIzMzM2NzkyLnBuZw==/315x250%23c/MuEOLh.png" width="315"/></a><div class="game_cell_tools"><a class="action_btn add_to_collection_btn" data-register_action="add_to_collection" data-game_id="3911877" href="/g/danchi552/burasanblizzard/add-to-collection"><span class="icon icon-playlist_add"></span>Add to collection</a></div></div><div class="game_cell_data"><div class="game_title"><a class="title game_link" href="https://danchi552.itch.io/burasanblizzard" data-action="game_grid" data-label="game:3911877:title">球技性ブラックサンダーS ブリザード</a></div><div class="game_author"><a data-action="game_grid" data-label="user:14975645" href="https://danchi552.itch.io">danchi552</a></div></div></div></div><div class="itch_footer"><span class="powerd_by">powered by</span><a title="itch.io" href="/"><img src="https://static.itch.io/images/logo-black-new.svg" alt="" height="30" class="header_logo"/></a></div></div><script id="add_game_to_jam_lightbox_tpl" type="text/template"><div class="add_game_to_jam_lightbox_widget lightbox_widget base_widget  force_login lightbox" id="add_game_to_jam_lightbox_2264353" tabIndex="-1" role="dialog"><button class="close_button"><svg role="img" height="18" aria-hidden class="svgicon icon_cross2" fill="none" width="18" viewBox="0 0 24 24" version="1.1" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></button><h2>Log in to continue</h2><p>This jam is using <a target="_blank" href="http://itch.io">itch.io</a> to host entries. You&#039;ll need to register or log in on
+      itch.io in order to <span class="on_submit">submit your game</span><span class="on_join">join this jam</span>.</p><p class="on_submit">After signing in you can create a new game on itch.io then
+      return here and click the <em>submit game</em> button again to enter your game.</p><p><a class="button" data-register_action="jam_submit" href="/login?intent=jam_submit&amp;return_to=https%3A%2F%2Fitch.io%2Fjam%2Fviprpgnatunozin2025">Log in</a><span class="or_split"> or </span><a class="button" data-register_action="jam_submit" href="/register?intent=jam_submit&amp;return_to=https%3A%2F%2Fitch.io%2Fjam%2Fviprpgnatunozin2025">Register</a></p></div></script></div></div><script id="loading_lightbox_tpl" type="text/template"><div aria-live="polite" class="lightbox loading_lightbox"><div class="loader_outer"><div class="loader_label">Loading</div><div class="loader_bar"><div class="loader_bar_slider"></div></div></div></div></script><script type="text/javascript">new I.ViewJam('#view_jam_5021215', {"id":409288,"start_date":"2025-08-22 16:40:44","end_date":"2025-09-28 14:59:03"});init_JamLayoutHeader('#jam_layout_header_7634828', {"autocomplete_props":{"ca_source":25,"ca_types":{"bundle":6,"featured_tag":7,"browse_facet":8,"game":1,"jam":4},"autocomplete_url":"\/autocomplete","search_url":"\/search","i18n":{"search_placeholder":"Search for games, jams, tags or creators","search":"Search"}}});
+I.setup_page();</script></body></html>

@@ -7,6 +7,14 @@ import type { WorkEntry } from "../src/lib/types";
 import { rewriteSummer2012Source } from "./source-2012-summer-view";
 
 const configurations: Record<string, { base: string; entry?: string; manifests: string[]; seeds: Record<string, string>; seedUrls?: Record<string, string>; cgiProfile?: boolean; encoding?: string; encodingOverrides?: Record<string, string>; liveSource?: boolean; disabledLocalLinks?: string[]; externalResources?: Record<string, string>; preserveExternalExtensions?: string[]; frames?: { menuPage: string; menuName: string; mainName: string } }> = {
+  "2025-summer": {
+    base: "https://itch.io/jam/viprpgnatunozin2025/",
+    manifests: ["source/live/manifest.json", "source/archive/manifest.json", "source/styles/manifest.json", "source/assets/manifest.json"],
+    seeds: {},
+    encoding: "utf-8",
+    liveSource: true,
+    preserveExternalExtensions: [".zip", ".rar", ".7z", ".exe"],
+  },
   "2025-gw": {
     base: "https://itch.io/jam/vip-gw2025/",
     manifests: ["source/live/manifest.json", "source/styles/manifest.json", "source/assets/manifest.json"],
@@ -332,7 +340,7 @@ async function main() {
   const omittedBackgrounds: Array<{ page: string; resource: string }> = [];
   const omittedHovers: Array<{ page: string; resource: string }> = [];
   const recovery = JSON.parse(await fs.readFile(`${root}/recovery.json`, "utf8"));
-  if (id === "2025-gw" || id === "2006-kouhaku" || id === "2012-toppuu-festival" || id === "2011-toppatsu-festival" || id === "2008-jisaku-battle-festival" || id === "2010-gw" || id === "2010-kouhaku" || id === "2010-summer") config.externalResources = recovery.originalResources;
+  if (["2025-gw", "2025-summer"].includes(id) || id === "2006-kouhaku" || id === "2012-toppuu-festival" || id === "2011-toppatsu-festival" || id === "2008-jisaku-battle-festival" || id === "2010-gw" || id === "2010-kouhaku" || id === "2010-summer") config.externalResources = recovery.originalResources;
   const sourceDetailGapPaths = new Set<string>((recovery.sourceDetailGaps ?? []).map((gap: { sourcePath: string }) => gap.sourcePath));
   const unavailableSourcePagePaths = new Set<string>((recovery.unavailableSourcePages ?? []).map((gap: { sourcePath: string }) => gap.sourcePath));
   const previousMissing: Array<{ url: string; requestedUrl?: string; error: string }> = JSON.parse(await fs.readFile(`${root}/original-view.json`, "utf8").catch(() => "{}")).missingResources ?? [];
@@ -683,7 +691,7 @@ async function main() {
         }
         $('img[src*="media.fc2.com/counter_img.php"]').remove();
         $('img[src*="netriver.jp/countriver/"]').remove();
-        if (id === "2008-gw" || id === "2008-chuuni-festival" || id === "2009-summer" || id === "2008-kouhaku" || id === "2008-seiyoku-festival" || id === "2008-summer" || id === "2007-default-battle-festival" || id === "2007-gw" || id === "2007-summer" || id === "2006-gw" || id === "2006-kouhaku" || id === "2006-summer" || id === "2005-kouhaku" || id === "2025-gw") {
+        if (id === "2008-gw" || id === "2008-chuuni-festival" || id === "2009-summer" || id === "2008-kouhaku" || id === "2008-seiyoku-festival" || id === "2008-summer" || id === "2007-default-battle-festival" || id === "2007-gw" || id === "2007-summer" || id === "2006-gw" || id === "2006-kouhaku" || id === "2006-summer" || id === "2005-kouhaku" || ["2025-gw", "2025-summer"].includes(id)) {
           const activeElements = $("script,noscript,form,object,embed").length;
           $("script,noscript,form,object,embed").remove();
           const unarchivedLoads = $("img[src],iframe[src],link[rel~='stylesheet'][href],video[src],audio[src],source[src]").toArray().filter((element) => {
@@ -748,12 +756,23 @@ async function main() {
           }), original, local));
           }
         });
-        if (id === "2025-gw") {
+        if (["2025-gw", "2025-summer"].includes(id)) {
+          if (id === "2025-summer") $('link[rel="manifest"]').remove();
+          if (id === "2025-summer" && local === "index.html") {
+            let labelled = 0;
+            $('a[href]').each((_, element) => {
+              const node = $(element), target = relative(new URL(node.attr('href')!, original).href);
+              if (!target?.startsWith('rate/') || !target.endsWith('.html') || !cached.has(target) || node.text().trim() || node.children().length) return;
+              node.text('［投稿］').attr({ 'data-archive-note': 'empty-source-link', title: '原リンクに表示文字がないため補記した投稿ページへの案内。' });
+              labelled++;
+            });
+            if (labelled) compatibilityFixes.push({ page: local, change: `Add an explicitly annotated short label to ${labelled} empty source anchors targeting captured submission pages; preserve the original raw HTML separately.` });
+          }
           if (local === "screenshots.html" && recovery.screenshotOverview?.appendSourceFile) {
             const page = JSON.parse(await fs.readFile(`${root}/${recovery.screenshotOverview.appendSourceFile}`, "utf8"));
             $(".screenshot_grid_widget").append(page.content);
             $(".grid_loader,.next_page").remove();
-            compatibilityFixes.push({ page: local, change: "Append the captured final screenshot batch to the original grid. The public pagination returns 40 + 4 items and then zero; preserve that 44-item view independently of the 60 project gallery images." });
+            compatibilityFixes.push({ page: local, change: `Append the captured final screenshot batch to the original grid. Preserve its ${recovery.screenshotOverview.totalItems} source cells independently of the project gallery images.` });
           }
           $("[data-background_image]").each((_, element) => {
             const node = $(element), source = node.attr("data-background_image");
@@ -977,7 +996,7 @@ async function main() {
         compatibilityFixes.push({ page: local, change: "Omit an unavailable stylesheet or favicon reference; the source inline styling remains in place and the missing resource stays documented." });
       }
     });
-    if (["2010-gw", "2012-kouhaku", "2011-gw", "2011-kouhaku", "2010-summer", "2009-kouhaku", "2009-ksgfestival", "2009-silver-week-miruge-festival", "2009-summer", "2008-gw", "2008-jisaku-battle-festival", "2008-chuuni-festival", "2009-gw", "2008-kouhaku", "2008-seiyoku-festival", "2008-summer", "2007-default-battle-festival", "2007-gw", "2007-summer", "2006-gw", "2006-kouhaku", "2006-summer", "2005-kouhaku", "2025-gw"].includes(id) || [...omittedBackgrounds, ...omittedHovers].some((omission) => omission.page === local)) files.set(local, Buffer.from($.html()));
+    if (["2010-gw", "2012-kouhaku", "2011-gw", "2011-kouhaku", "2010-summer", "2009-kouhaku", "2009-ksgfestival", "2009-silver-week-miruge-festival", "2009-summer", "2008-gw", "2008-jisaku-battle-festival", "2008-chuuni-festival", "2009-gw", "2008-kouhaku", "2008-seiyoku-festival", "2008-summer", "2007-default-battle-festival", "2007-gw", "2007-summer", "2006-gw", "2006-kouhaku", "2006-summer", "2005-kouhaku", "2025-gw", "2025-summer"].includes(id) || [...omittedBackgrounds, ...omittedHovers].some((omission) => omission.page === local)) files.set(local, Buffer.from($.html()));
   }
   const generatedUnavailablePages: string[] = [];
   if (["2011-gw", "2010-gw", "2009-ksgfestival", "2008-chuuni-festival", "2008-jisaku-battle-festival", "2008-kouhaku", "2008-summer", "2007-default-battle-festival", "2007-gw", "2007-summer", "2006-kouhaku", "2006-summer"].includes(id)) for (const gap of recovery.sourceDetailGaps ?? []) {

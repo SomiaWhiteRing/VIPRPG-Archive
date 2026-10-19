@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-10-19T21:06:21.428Z",
+  "routes": [
+    {
+      "service": "Japanese festival source",
+      "proxy": "http://127.0.0.1:37997",
+      "expectedCountryCode": "JP",
+      "observedCountryCode": "JP",
+      "status": 200,
+      "matched": true
+    },
+    {
+      "service": "Wayback and archive.org",
+      "proxy": "http://127.0.0.1:7897",
+      "expectedCountryCode": "HK",
+      "observedCountryCode": "HK",
+      "status": 200,
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,387 @@
+{
+  "startedAt": "2026-10-19T21:10:14.778Z",
+  "status": "completed",
+  "requestIntervalSeconds": 12,
+  "resumeDelayMinimumSeconds": 180,
+  "preservedAnonymousSession": true,
+  "noBrowserOrAccountCookies": true,
+  "beforeSessionCookieWasNotSent": true,
+  "userAgentChanged": false,
+  "observedCookieNames": [
+    "itchio_token"
+  ],
+  "attempts": [
+    {
+      "kind": "game",
+      "no": "15",
+      "status": 200,
+      "bytes": 29269,
+      "retrievedAt": "2026-10-19T21:11:43.563Z"
+    },
+    {
+      "kind": "rate",
+      "no": "16",
+      "status": 200,
+      "bytes": 18070,
+      "retrievedAt": "2026-10-19T21:11:55.942Z"
+    },
+    {
+      "kind": "game",
+      "no": "16",
+      "status": 200,
+      "bytes": 23617,
+      "retrievedAt": "2026-10-19T21:12:08.346Z"
+    },
+    {
+      "kind": "rate",
+      "no": "17",
+      "status": 200,
+      "bytes": 15317,
+      "retrievedAt": "2026-10-19T21:12:20.720Z"
+    },
+    {
+      "kind": "game",
+      "no": "17",
+      "status": 200,
+      "bytes": 22423,
+      "retrievedAt": "2026-10-19T21:12:33.320Z"
+    },
+    {
+      "kind": "rate",
+      "no": "18",
+      "status": 200,
+      "bytes": 12613,
+      "retrievedAt": "2026-10-19T21:12:45.731Z"
+    },
+    {
+      "kind": "game",
+      "no": "18",
+      "status": 200,
+      "bytes": 19310,
+      "retrievedAt": "2026-10-19T21:12:58.107Z"
+    },
+    {
+      "kind": "rate",
+      "no": "19",
+      "status": 200,
+      "bytes": 12816,
+      "retrievedAt": "2026-10-19T21:13:10.504Z"
+    },
+    {
+      "kind": "game",
+      "no": "19",
+      "status": 200,
+      "bytes": 21989,
+      "retrievedAt": "2026-10-19T21:13:22.937Z"
+    },
+    {
+      "kind": "rate",
+      "no": "20",
+      "status": 200,
+      "bytes": 13601,
+      "retrievedAt": "2026-10-19T21:13:35.323Z"
+    },
+    {
+      "kind": "game",
+      "no": "20",
+      "status": 200,
+      "bytes": 24125,
+      "retrievedAt": "2026-10-19T21:13:47.801Z"
+    },
+    {
+      "kind": "rate",
+      "no": "21",
+      "status": 200,
+      "bytes": 13048,
+      "retrievedAt": "2026-10-19T21:14:00.153Z"
+    },
+    {
+      "kind": "game",
+      "no": "21",
+      "status": 200,
+      "bytes": 19880,
+      "retrievedAt": "2026-10-19T21:14:12.562Z"
+    },
+    {
+      "kind": "rate",
+      "no": "22",
+      "status": 200,
+      "bytes": 12854,
+      "retrievedAt": "2026-10-19T21:14:24.953Z"
+    },
+    {
+      "kind": "game",
+      "no": "22",
+      "status": 200,
+      "bytes": 22408,
+      "retrievedAt": "2026-10-19T21:14:37.342Z"
+    },
+    {
+      "kind": "rate",
+      "no": "23",
+      "status": 200,
+      "bytes": 15026,
+      "retrievedAt": "2026-10-19T21:14:49.777Z"
+    },
+    {
+      "kind": "game",
+      "no": "23",
+      "status": 200,
+      "bytes": 20762,
+      "retrievedAt": "2026-10-19T21:15:02.161Z"
+    },
+    {
+      "kind": "rate",
+      "no": "24",
+      "status": 200,
+      "bytes": 12554,
+      "retrievedAt": "2026-10-19T21:15:14.578Z"
+    },
+    {
+      "kind": "game",
+      "no": "24",
+      "status": 200,
+      "bytes": 21867,
+      "retrievedAt": "2026-10-19T21:15:26.969Z"
+    },
+    {
+      "kind": "rate",
+      "no": "25",
+      "status": 200,
+      "bytes": 13372,
+      "retrievedAt": "2026-10-19T21:15:39.346Z"
+    },
+    {
+      "kind": "game",
+      "no": "25",
+      "status": 200,
+      "bytes": 22815,
+      "retrievedAt": "2026-10-19T21:15:51.740Z"
+    },
+    {
+      "kind": "rate",
+      "no": "26",
+      "status": 200,
+      "bytes": 17956,
+      "retrievedAt": "2026-10-19T21:16:04.149Z"
+    },
+    {
+      "kind": "game",
+      "no": "26",
+      "status": 200,
+      "bytes": 22010,
+      "retrievedAt": "2026-10-19T21:16:16.556Z"
+    },
+    {
+      "kind": "game",
+      "no": "28",
+      "status": 404,
+      "bytes": 7248,
+      "retrievedAt": "2026-10-19T21:16:28.914Z"
+    },
+    {
+      "kind": "rate",
+      "no": "29",
+      "status": 200,
+      "bytes": 13420,
+      "retrievedAt": "2026-10-19T21:16:41.272Z"
+    },
+    {
+      "kind": "game",
+      "no": "29",
+      "status": 200,
+      "bytes": 23149,
+      "retrievedAt": "2026-10-19T21:16:53.892Z"
+    },
+    {
+      "kind": "rate",
+      "no": "30",
+      "status": 200,
+      "bytes": 14992,
+      "retrievedAt": "2026-10-19T21:17:06.364Z"
+    },
+    {
+      "kind": "game",
+      "no": "30",
+      "status": 200,
+      "bytes": 22687,
+      "retrievedAt": "2026-10-19T21:17:18.915Z"
+    },
+    {
+      "kind": "game",
+      "no": "31",
+      "status": 200,
+      "bytes": 21888,
+      "retrievedAt": "2026-10-19T21:17:31.316Z"
+    },
+    {
+      "kind": "rate",
+      "no": "32",
+      "status": 200,
+      "bytes": 17488,
+      "retrievedAt": "2026-10-19T21:17:43.770Z"
+    },
+    {
+      "kind": "game",
+      "no": "32",
+      "status": 200,
+      "bytes": 26564,
+      "retrievedAt": "2026-10-19T21:17:56.201Z"
+    },
+    {
+      "kind": "rate",
+      "no": "33",
+      "status": 200,
+      "bytes": 16230,
+      "retrievedAt": "2026-10-19T21:18:08.579Z"
+    },
+    {
+      "kind": "game",
+      "no": "33",
+      "status": 200,
+      "bytes": 22652,
+      "retrievedAt": "2026-10-19T21:18:20.971Z"
+    },
+    {
+      "kind": "rate",
+      "no": "34",
+      "status": 200,
+      "bytes": 12552,
+      "retrievedAt": "2026-10-19T21:18:33.340Z"
+    },
+    {
+      "kind": "game",
+      "no": "34",
+      "status": 200,
+      "bytes": 22126,
+      "retrievedAt": "2026-10-19T21:18:45.770Z"
+    },
+    {
+      "kind": "rate",
+      "no": "35",
+      "status": 200,
+      "bytes": 20258,
+      "retrievedAt": "2026-10-19T21:18:58.161Z"
+    },
+    {
+      "kind": "game",
+      "no": "35",
+      "status": 200,
+      "bytes": 21955,
+      "retrievedAt": "2026-10-19T21:19:10.595Z"
+    },
+    {
+      "kind": "rate",
+      "no": "36",
+      "status": 200,
+      "bytes": 16113,
+      "retrievedAt": "2026-10-19T21:19:23.167Z"
+    },
+    {
+      "kind": "game",
+      "no": "36",
+      "status": 200,
+      "bytes": 24588,
+      "retrievedAt": "2026-10-19T21:19:35.568Z"
+    },
+    {
+      "kind": "rate",
+      "no": "37",
+      "status": 200,
+      "bytes": 13205,
+      "retrievedAt": "2026-10-19T21:19:47.995Z"
+    },
+    {
+      "kind": "game",
+      "no": "37",
+      "status": 200,
+      "bytes": 22382,
+      "retrievedAt": "2026-10-19T21:20:00.442Z"
+    },
+    {
+      "kind": "rate",
+      "no": "38",
+      "status": 200,
+      "bytes": 12623,
+      "retrievedAt": "2026-10-19T21:20:12.978Z"
+    },
+    {
+      "kind": "game",
+      "no": "38",
+      "status": 200,
+      "bytes": 21432,
+      "retrievedAt": "2026-10-19T21:20:25.369Z"
+    },
+    {
+      "kind": "rate",
+      "no": "39",
+      "status": 200,
+      "bytes": 12516,
+      "retrievedAt": "2026-10-19T21:20:37.714Z"
+    },
+    {
+      "kind": "game",
+      "no": "39",
+      "status": 200,
+      "bytes": 22521,
+      "retrievedAt": "2026-10-19T21:20:50.108Z"
+    },
+    {
+      "kind": "rate",
+      "no": "40",
+      "status": 200,
+      "bytes": 16293,
+      "retrievedAt": "2026-10-19T21:21:02.478Z"
+    },
+    {
+      "kind": "game",
+      "no": "40",
+      "status": 200,
+      "bytes": 19611,
+      "retrievedAt": "2026-10-19T21:21:14.839Z"
+    },
+    {
+      "kind": "rate",
+      "no": "41",
+      "variant": "a",
+      "status": 200,
+      "bytes": 12836,
+      "retrievedAt": "2026-10-19T21:21:27.193Z"
+    },
+    {
+      "kind": "game",
+      "no": "41",
+      "variant": "a",
+      "status": 200,
+      "bytes": 18344,
+      "retrievedAt": "2026-10-19T21:21:39.664Z"
+    },
+    {
+      "kind": "rate",
+      "no": "41",
+      "variant": "b",
+      "status": 200,
+      "bytes": 12911,
+      "retrievedAt": "2026-10-19T21:21:52.027Z"
+    },
+    {
+      "kind": "game",
+      "no": "41",
+      "variant": "b",
+      "status": 200,
+      "bytes": 18458,
+      "retrievedAt": "2026-10-19T21:22:04.386Z"
+    }
+  ],
+  "endedAt": "2026-10-19T21:22:16.391Z",
+  "proxyConfigurationChanged": false,
+  "outcome": {
+    "requests": 51,
+    "statuses": {
+      "200": 50,
+      "404": 1
+    },
+    "rateLimited": 0
+  },
+  "interpretation": "Reusing the isolated anonymous source session coincided with 51 requests without 429 at 12-second spacing, after earlier batches stopped even at 65-second spacing. This does not establish the sole server-side cause. No browser/account cookies were used and no cookie values are stored in these reports."
+}

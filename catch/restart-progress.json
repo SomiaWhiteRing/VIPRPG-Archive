@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2025-summer",
+  "activeFestival": "2024-gw",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -1289,6 +1289,42 @@
         "catch/2025-gw/desktop-review.json"
       ],
       "notes": "日本出口直取仍可用源站，官方目录与投稿列表均30条（含00示例）；恢复30图标、60画廊图片，补回旧脚本每条6张上限漏掉的7张，28作者留言、29主办留言及30个公开下载入口。63页HTML、3份CSS、429项资源组成495文件原貌版，1363本地引用无缺失；原站截图总览40+4共44格另行保留。No10保留官方目录及评分页支持的既有名称，项目页异名另记。整理版30详情、原貌30评分页和30项目页桌面检查通过，代表链路与9/10图查看器点击通过。两次429分别冷却后补齐；不审看内容、不新增受限；游戏包未下载。"
+    },
+    {
+      "festivalId": "2025-summer",
+      "reviewedAt": "2026-10-20",
+      "dataSha256": "6868138e5024f9cbc70f449265da7e83d7fd3f59c5c2be6cd0c6b245ee814e6f",
+      "works": 43,
+      "screenshotFiles": 77,
+      "screenshotReferences": 77,
+      "status": "reviewed",
+      "originalCatalogueCompleteness": "verified-against-current-organizer-table-and-submissions-with-one-CDX-verified-archive-recovery",
+      "catalogueRows": 44,
+      "uniqueCatalogueRows": 42,
+      "catalogueOnlyEntries": 7,
+      "sourceEmptyIconNodes": 44,
+      "iconFiles": 0,
+      "outstandingSourceDetails": 0,
+      "outstandingImageSourceUrls": 0,
+      "outstandingScreenshotRows": 0,
+      "outstandingOtherResources": 0,
+      "outstandingAuxiliaryPages": 0,
+      "downloadEntries": 39,
+      "packageBytesValidated": false,
+      "sourceEvidence": [
+        "catch/2025-summer/recovery.json",
+        "catch/2025-summer/source-comparison.json",
+        "catch/2025-summer/investigation/metadata-source-verification.json",
+        "catch/2025-summer/investigation/live-page-verification.json",
+        "catch/2025-summer/investigation/gallery-resource-verification.json",
+        "catch/2025-summer/investigation/archived-payload-verification.json",
+        "catch/2025-summer/investigation/source-empty-icons.json",
+        "catch/2025-summer/investigation/catalogue-identity-review.json"
+      ],
+      "desktopEvidence": [
+        "catch/2025-summer/desktop-review.json"
+      ],
+      "notes": "日本出口取得72个现行页面；28号源站404，以香港Wayback的2025-09-28页面及同期CSS恢复，两份gzip原始载荷均与CDX摘要一致。原目录44行中35、36各重复一次，整理为42目录行、43部作品，41号双作分别保留。恢复77截图，比旧数据增加8张上限漏图和31号新1张；7条仅目录资料保留完整详情骨架，07作者由官方投稿数据确认。原目录44个图标节点均无图片地址，未以封面替代。14题名按官方目录及讨论页更新，5个项目页异名另存；3处跨作品DL链接保留于原貌和来源记录。原貌492文件、1516本地引用无缺失，61格总览与77张项目画廊分别保留；10个无文字投稿链接补编纂标签。43整理详情、73原貌文档的桌面布局与代表导航通过；游戏包未下载。"
     }
   ],
   "originalViewsReviewed": [
@@ -1588,6 +1624,13 @@
       "evidence": [
         "catch/2025-gw/original-view.json",
         "catch/2025-gw/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2025-summer",
+      "evidence": [
+        "catch/2025-summer/original-view.json",
+        "catch/2025-summer/desktop-review.json"
       ]
     }
   ],
