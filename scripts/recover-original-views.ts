@@ -1,4 +1,5 @@
 import fs from "node:fs/promises";
+import { isUtf8 } from "node:buffer";
 import path from "node:path";
 import * as cheerio from "cheerio";
 import iconv from "iconv-lite";
@@ -237,7 +238,8 @@ function unarchive(url: string) {
 function decodeSource(bytes: Buffer, fallback: string) {
   const hasUtf8Bom = bytes.subarray(0, 3).equals(Buffer.from([0xef, 0xbb, 0xbf]));
   const declared = bytes.subarray(0, 4096).toString("latin1").match(/charset\s*=\s*["']?\s*([\w-]+)/i)?.[1];
-  return iconv.decode(bytes, hasUtf8Bom ? "utf-8" : declared && iconv.encodingExists(declared) ? declared : fallback);
+  const declaredIsValid = declared && iconv.encodingExists(declared) && (!/^utf-?8$/i.test(declared) || isUtf8(bytes));
+  return iconv.decode(bytes, hasUtf8Bom ? "utf-8" : declaredIsValid ? declared : fallback);
 }
 
 async function main() {
