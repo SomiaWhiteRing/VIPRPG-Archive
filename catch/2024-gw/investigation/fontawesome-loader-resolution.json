@@ -1,0 +1,21 @@
+{
+  "scriptUrl": "https://use.fontawesome.com/926fe18a63.js",
+  "scriptSha256": "40e58c61d511d975e0c16a446a393a814538809556a56784b99647087ff2baa3",
+  "configuration": {
+    "useUrl": "use.fontawesome.com",
+    "code": "926fe18a63"
+  },
+  "stylesheetUrl": "https://use.fontawesome.com/926fe18a63.css",
+  "stylesheetAssignedByFunction": "createElement(link); href=https://+useUrl+/+code+.css",
+  "resources": [
+    "https://use.fontawesome.com/926fe18a63.css",
+    "https://use.fontawesome.com/releases/v4.6.3/css/font-awesome-css.min.css",
+    "https://use.fontawesome.com/releases/v4.6.3/fonts/fontawesome-webfont.eot",
+    "https://use.fontawesome.com/releases/v4.6.3/fonts/fontawesome-webfont.woff2",
+    "https://use.fontawesome.com/releases/v4.6.3/fonts/fontawesome-webfont.woff",
+    "https://use.fontawesome.com/releases/v4.6.3/fonts/fontawesome-webfont.ttf",
+    "https://use.fontawesome.com/releases/v4.6.3/fonts/fontawesome-webfont.svg"
+  ],
+  "allRetrieved": true,
+  "readingCopyPlan": "Use the captured stylesheet directly instead of the dynamic loader; retain the original loader bytes and configuration as source evidence."
+}

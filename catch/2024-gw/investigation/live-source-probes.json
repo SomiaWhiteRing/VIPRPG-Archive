@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-10-19T22:12:06.716Z",
+  "failures": [
+    {
+      "originalUrl": "https://viprpg24gw.x.2nt.com/index.html",
+      "error": "fetch failed",
+      "causeCode": "ECONNRESET",
+      "causeMessage": "Client network socket disconnected before secure TLS connection was established",
+      "attemptedAt": "2026-10-19T22:11:17.428Z",
+      "proxyRegion": "Japan"
+    },
+    {
+      "originalUrl": "http://viprpg24gw.x.2nt.com/index.html",
+      "error": "fetch failed",
+      "causeCode": "UND_ERR_SOCKET",
+      "causeMessage": "other side closed",
+      "attemptedAt": "2026-10-19T22:11:29.785Z",
+      "proxyRegion": "Japan"
+    }
+  ]
+}

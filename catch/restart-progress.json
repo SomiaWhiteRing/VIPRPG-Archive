@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2024-gw",
+  "activeFestival": "2024-kouhaku",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -1325,6 +1325,41 @@
         "catch/2025-summer/desktop-review.json"
       ],
       "notes": "日本出口取得72个现行页面；28号源站404，以香港Wayback的2025-09-28页面及同期CSS恢复，两份gzip原始载荷均与CDX摘要一致。原目录44行中35、36各重复一次，整理为42目录行、43部作品，41号双作分别保留。恢复77截图，比旧数据增加8张上限漏图和31号新1张；7条仅目录资料保留完整详情骨架，07作者由官方投稿数据确认。原目录44个图标节点均无图片地址，未以封面替代。14题名按官方目录及讨论页更新，5个项目页异名另存；3处跨作品DL链接保留于原貌和来源记录。原貌492文件、1516本地引用无缺失，61格总览与77张项目画廊分别保留；10个无文字投稿链接补编纂标签。43整理详情、73原貌文档的桌面布局与代表导航通过；游戏包未下载。"
+    },
+    {
+      "festivalId": "2024-gw",
+      "reviewedAt": "2026-10-20",
+      "dataSha256": "132105b00925356d7ae6feabb319b1de9d86135c338d53fb9722c9f5dc4d40c7",
+      "works": 31,
+      "screenshotFiles": 68,
+      "screenshotReferences": 68,
+      "status": "reviewed-with-documented-source-omissions",
+      "originalCatalogueCompleteness": "verified-union-of-recovered-primary-and-itch-venue-catalogues",
+      "primaryCatalogueEntries": 30,
+      "savedItchVenueEntries": 13,
+      "overlap": 12,
+      "additionalUnnumberedSample": 1,
+      "iconFiles": 30,
+      "outstandingSourceDetails": 0,
+      "outstandingImageSourceUrls": 0,
+      "outstandingScreenshotRows": 0,
+      "outstandingOtherResources": 1,
+      "outstandingAuxiliaryPages": 1,
+      "downloadEntries": 28,
+      "packageBytesValidated": false,
+      "sourceEvidence": [
+        "catch/2024-gw/recovery.json",
+        "catch/2024-gw/source-comparison.json",
+        "catch/2024-gw/investigation/metadata-source-verification.json",
+        "catch/2024-gw/investigation/media-verification.json",
+        "catch/2024-gw/investigation/title-source-resolution.json",
+        "catch/2024-gw/investigation/additional-venue-entry.json",
+        "catch/2024-gw/investigation/recovered-publisher-image-urls.json"
+      ],
+      "desktopEvidence": [
+        "catch/2024-gw/desktop-review.json"
+      ],
+      "notes": "主站30条与保存的itch会场13项重合12项，合并31条，新增主办方未编号样例，不编造00；保留既有30个ID和题名。公开网站备份150文件、27份itch页面及相关资源均核对CRC/SHA；13个现行项目页作品ID与有备份的对应项一致，27号网页改名另存。恢复68截图、30图标与31份原文介绍；旧封面CDN403由同节点保存PNG找回，字节与2024年CDX摘要一致。原貌399文件：48份原页面与1份明确标记的投稿列表缺口说明，1231处本地引用无缺失。jQuery SRI保留，共用CORS修复独立提交；轮播、筛选可用，13页固定宽广告占位已清理。31整理详情及49原貌／说明页面桌面通过。仍缺原/js/header.js及独立投稿列表原页，保留页头、说明缺口并链接已保存13项列表；讨论板现已关闭；游戏包未下载。"
     }
   ],
   "originalViewsReviewed": [
@@ -1631,6 +1666,13 @@
       "evidence": [
         "catch/2025-summer/original-view.json",
         "catch/2025-summer/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2024-gw",
+      "evidence": [
+        "catch/2024-gw/original-view.json",
+        "catch/2024-gw/desktop-review.json"
       ]
     }
   ],

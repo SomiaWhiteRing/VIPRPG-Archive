@@ -1,0 +1,57 @@
+{
+  "results": [
+    {
+      "name": "forum-03",
+      "url": "https://jbbs.shitaraba.net/bbs/read.cgi/game/61385/1712133618/",
+      "matchType": "prefix",
+      "no": "03",
+      "requestedUrl": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fjbbs.shitaraba.net%2Fbbs%2Fread.cgi%2Fgame%2F61385%2F1712133618%2F&matchType=prefix&output=json&filter=statuscode%3A200&collapse=digest&fl=original,timestamp,mimetype,digest,length&limit=100",
+      "file": "forum-03-cdx.bin",
+      "proxyRegion": "Hong Kong",
+      "status": 200,
+      "reusedSavedResponse": true,
+      "responseFileMtime": "2026-10-19T22:33:17.620Z",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "captures": []
+    },
+    {
+      "name": "forum-07",
+      "url": "https://jbbs.shitaraba.net/bbs/read.cgi/game/61385/1712186209/",
+      "matchType": "prefix",
+      "no": "07",
+      "requestedUrl": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fjbbs.shitaraba.net%2Fbbs%2Fread.cgi%2Fgame%2F61385%2F1712186209%2F&matchType=prefix&output=json&filter=statuscode%3A200&collapse=digest&fl=original,timestamp,mimetype,digest,length&limit=100",
+      "file": "forum-07-cdx.bin",
+      "proxyRegion": "Hong Kong",
+      "status": 200,
+      "reusedSavedResponse": true,
+      "responseFileMtime": "2026-10-19T22:34:00.098Z",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "captures": []
+    },
+    {
+      "name": "forum-11",
+      "url": "https://jbbs.shitaraba.net/bbs/read.cgi/game/61385/1712580288/",
+      "matchType": "prefix",
+      "no": "11",
+      "requestedUrl": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fjbbs.shitaraba.net%2Fbbs%2Fread.cgi%2Fgame%2F61385%2F1712580288%2F&matchType=prefix&output=json&filter=statuscode%3A200&collapse=digest&fl=original,timestamp,mimetype,digest,length&limit=100",
+      "file": "forum-11-cdx.bin",
+      "proxyRegion": "Hong Kong",
+      "status": 503,
+      "retrievedAt": "2026-10-19T22:43:04.551Z",
+      "error": "Unexpected token '<', \"<html><hea\"... is not valid JSON",
+      "attemptedAt": "2026-10-19T22:43:04.551Z"
+    },
+    {
+      "name": "header-script",
+      "url": "https://viprpg24gw.x.2nt.com/js/header.js",
+      "matchType": "exact",
+      "requestedUrl": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fviprpg24gw.x.2nt.com%2Fjs%2Fheader.js&matchType=exact&output=json&filter=statuscode%3A200&collapse=digest&fl=original,timestamp,mimetype,digest,length&limit=100",
+      "file": "header-script-cdx.bin",
+      "proxyRegion": "Hong Kong",
+      "status": 200,
+      "retrievedAt": "2026-10-19T22:43:06.043Z",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "captures": []
+    }
+  ]
+}
