@@ -9,6 +9,14 @@ import { rewrite2020Script, snapshot2020Script, root2020Script } from './source-
 import { rewriteSummer2012Source } from "./source-2012-summer-view";
 
 const configurations: Record<string, { base: string; entry?: string; manifests: string[]; seeds: Record<string, string>; seedUrls?: Record<string, string>; cgiProfile?: boolean; encoding?: string; encodingOverrides?: Record<string, string>; liveSource?: boolean; disabledLocalLinks?: string[]; externalResources?: Record<string, string>; preserveExternalExtensions?: string[]; frames?: { menuPage: string; menuName: string; mainName: string } }> = {
+  "2019-gw": {
+    base: "https://viprpg2019gw.xxxxxxxx.jp/",
+    manifests: ["source/replay/manifest.json"],
+    seeds: {},
+    encoding: "utf-8",
+    liveSource: true,
+    preserveExternalExtensions: [".zip", ".rar", ".7z", ".exe"],
+  },
   "2020-summer": {
     base: "https://vipfesarc.neocities.org/s2020/",
     entry: "landing.html",
@@ -490,7 +498,7 @@ async function main() {
       sharedHeaderTargets.push(local ? `/original-pages/${id}/${local}${url.search}${url.hash}` : url.href);
     });
   }
-  if (["2020-summer", "2020-kouhaku", "2020-gw", "2021-summer", "2021-kouhaku", "2021-gw", "2022-summer", "2022-kouhaku", "2022-gw", "2023-winter", "2023-summer", "2023-kouhaku", "2023-gw", "2024-summer", "2024-kuradashifestival", "2024-kouhaku", "2024-gw", "2025-gw", "2025-summer"].includes(id) || id === "2006-kouhaku" || id === "2012-toppuu-festival" || id === "2011-toppatsu-festival" || id === "2008-jisaku-battle-festival" || id === "2010-gw" || id === "2010-kouhaku" || id === "2010-summer") config.externalResources = recovery.originalResources;
+  if (["2019-gw", "2020-summer", "2020-kouhaku", "2020-gw", "2021-summer", "2021-kouhaku", "2021-gw", "2022-summer", "2022-kouhaku", "2022-gw", "2023-winter", "2023-summer", "2023-kouhaku", "2023-gw", "2024-summer", "2024-kuradashifestival", "2024-kouhaku", "2024-gw", "2025-gw", "2025-summer"].includes(id) || id === "2006-kouhaku" || id === "2012-toppuu-festival" || id === "2011-toppatsu-festival" || id === "2008-jisaku-battle-festival" || id === "2010-gw" || id === "2010-kouhaku" || id === "2010-summer") config.externalResources = recovery.originalResources;
   const sourceDetailGapPaths = new Set<string>((recovery.sourceDetailGaps ?? []).map((gap: { sourcePath: string }) => gap.sourcePath));
   const unavailableSourcePagePaths = new Set<string>((recovery.unavailableSourcePages ?? []).map((gap: { sourcePath: string }) => gap.sourcePath));
   const previousMissing: Array<{ url: string; requestedUrl?: string; error: string }> = JSON.parse(await fs.readFile(`${root}/original-view.json`, "utf8").catch(() => "{}")).missingResources ?? [];
@@ -635,6 +643,17 @@ async function main() {
       if (/\.(?:png|jpe?g|gif|bmp|webp|avif|ico)$/i.test(local)) imageExtension(bytes);
       if (/\.html?$/i.test(local)) {
         const $ = cheerio.load(decodeSource(bytes, resourceEncoding));
+        if (id === "2019-gw") {
+          if (local === '37.html') {
+            $('a[href]').filter((_, a) => $(a).text().trim()==='前の作品' && new URL($(a).attr('href')!, original).pathname==='/35.html').attr('href','https://viprpg2019gw.xxxxxxxx.jp/36.html');
+            compatibilityFixes.push({page:local,change:'Repair the source previous-work typo from35 to36: the official catalogue includes36 and36 links forward to37. Preserve raw source bytes; see investigation/navigation-source-review.json.'});
+          }
+          const scripts = new Set(Object.entries(recovery.originalResources).filter(([, value]) => /(?:bootstrap|jquery|popper).*\.js$/.test(String(value))).map(([url]) => url));
+          $('script').each((_, element) => { const src=$(element).attr('src'); if(!src||!scripts.has(new URL(src,original).href)) $(element).remove(); else $(element).removeAttr('integrity crossorigin'); });
+          $('noscript,iframe,form,object,embed').remove();
+          $('img[onmouseover],img[onmouseout]').each((_, element) => { for (const attr of ['onmouseover', 'onmouseout']) { const value=$(element).attr(attr); if(value) $(element).attr(attr,value.replace(/(this\.src\s*=\s*)(['"])([^'"]+)\2/g,(_,prefix,quote,url)=>prefix+quote+new URL(url,original).href+quote)); } });
+          compatibilityFixes.push({page:local,change:'Keep the captured Bootstrap theme, jQuery/Popper/Bootstrap scripts and native hover navigation; remove hosting scripts and redundant remote integrity/CORS attributes from the byte-preserved local script copies.'});
+        }
         if (id === "2020-summer") {
           $('script,noscript,iframe,form,object,embed').remove();
           if (/^entry\d+\.html$/.test(local)) $('head').append('<style data-archive-desktop-fit>#entry img{max-width:calc(100vw - 32px);height:auto}</style>');

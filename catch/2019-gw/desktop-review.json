@@ -1,0 +1,65 @@
+{
+  "festivalId": "2019-gw",
+  "reviewedAt": "2026-10-20",
+  "scope": "desktop-only",
+  "method": "Read-only DOM geometry and image state, actual locator/native AX clicks, native CDP mouse input. No content-topic or pixel review.",
+  "organized": {
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    },
+    "details": 38,
+    "brokenImages": [],
+    "overflow": [],
+    "initialPendingPages": 3,
+    "pendingResolved": true,
+    "viewer": {
+      "page": "29",
+      "format": "BMP",
+      "open": true,
+      "next": true,
+      "close": true
+    },
+    "home": {
+      "uniqueWorks": 38,
+      "workLinks": 39,
+      "additionalDownloadChooser": "06",
+      "icons": 38,
+      "banners": 2,
+      "allLoaded": true,
+      "returnExpanded": true
+    }
+  },
+  "original": {
+    "viewport": {
+      "width": 1183,
+      "height": 638
+    },
+    "uniqueHtmlPages": 39,
+    "brokenImages": [],
+    "overflow": [],
+    "sandboxWidth": 1185,
+    "sandbox": "allow-scripts",
+    "bootstrapAlertDismissed": true,
+    "localFrameworkScripts": 3,
+    "navigation": [
+      "catalogue to sample",
+      "sample to01",
+      "page-header return to38-entry catalogue",
+      "catalogue to37",
+      "repaired37 previous36 and actual36 next37"
+    ],
+    "sourceNavigationRepair": "investigation/navigation-source-review.json",
+    "hover": {
+      "page": "29.html",
+      "before": "ss/29_1.bmp",
+      "over": "ss/29_2.bmp",
+      "out": "ss/29_1.bmp",
+      "loaded": true
+    },
+    "consoleErrors": [],
+    "consoleWarnings": []
+  },
+  "packageBytesValidated": false,
+  "notes": "旧脚本列出的FC2候选源站失败后，从已保存的2021 GW官方历届链接确认仍可直接访问的viprpg2019gw.xxxxxxxx.jp，日本节点取得目录、sakuhin样例和37个正式介绍，共40份原HTML捕获（根入口与index重复）、1份CSS、3份jQuery／Popper／Bootstrap脚本及104份图片，全部原始载荷核对SHA。38个既有ID、编号和题名保持，恢复38处图标、60截图、32项共33条配布地址和2条本祭横幅。旧60画廊载荷及2横幅全部逐字节对应；29号两张png命名的源图片实为BMP，按真实格式保存并验证显示。38项作者／管理人留言全文结构比对无遗漏，4项目录／详情元数据差异并列保留。06号目录与详情配布URL不同，两者明确标注保留。原貌147文件、39份唯一HTML、629本地引用含悬停目标，无缺失或外部自动加载；247展示文件HTTP载荷与本地SHA一致。保留Bootstrap主题及本地3脚本，移除托管脚本和对本地字节副本多余的SRI/CORS属性，真实提示关闭操作验证框架可用。38整理详情与39原貌文档、首页38项及38图标／2横幅通过桌面检查；3项首读延迟图复核正常。实际沙箱目录进入样例、下一项01、页头返回目录及末项37通过。逐项核对全组相邻导航，发现原37上一项误指35，按目录及36下一项37的证据在回放中改指36，实际37到36再回37验证，原缓存不改。BMP原生悬停往返与查看器切换关闭均通过，最终沙箱控制台无错误／警告。无题材或像素筛选，无新增受限，未下载或运行游戏包。"
+}

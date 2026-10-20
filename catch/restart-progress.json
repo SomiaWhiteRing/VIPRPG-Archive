@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2019-gw",
+  "activeFestival": "2019-kouhaku",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -1874,6 +1874,38 @@
         "catch/2020-summer/investigation/local-http-payloads.json"
       ],
       "notes": "日本出口先读取仍可用的旧源站，其正式公告明确迁移到Neocities；迁移公告、现行目录及47个介绍页共49份HTML、1份CSS和116份图片原始载荷均保存并核对SHA。47个既有ID、编号和题名保持，00样例的空白详情元数据与目录资料分别保留。68张显示／悬停截图及本祭横幅与旧文件全部逐字节对应，47处图标完整恢复。作者留言及管理人评论／感想分别按标签恢复，47项全文结构比对无遗漏；6项目录／详情的元数据差异并列保留。恢复35项实际配布入口，12、16号原DL栏URL为空，明确注明并停用空链接；00两种来源试玩链接分别保留，浏览器游戏数据未抓取或执行。原貌166文件、49份HTML、583本地引用含悬停目标，无缺失或外部自动加载。07、18号1280px原图按桌面可用宽度缩放，原始缓存不变。47整理详情和49原貌文档通过桌面图片及宽度检查；4项首读延迟图复核正常，07两张图已实际打开查看器。迁移公告到47项目录、00与46环形相邻导航、目录返回、12／16空链接说明、原生悬停往返和截图查看器切换／关闭均验证。首页47项目录、47图标与1横幅全部加载，末项跳转及返回保持展开通过。282展示文件HTTP载荷与本地SHA一致。无题材或像素筛选，无新增受限，未下载或运行游戏包。"
+    },
+    {
+      "festivalId": "2019-gw",
+      "reviewedAt": "2026-10-20",
+      "dataSha256": "ed50a8e74666d5744f8e9d668cf8da2891f47461eaefe3a3150a577bf6e65d0b",
+      "status": "reviewed-with-exceptions",
+      "works": 38,
+      "screenshotReferences": 60,
+      "iconFiles": 38,
+      "downloadEntries": 32,
+      "downloadReferences": 33,
+      "originalCatalogueCompleteness": "38-official-source-entries-including-sakuhin-sample",
+      "outstandingSourceDetails": 0,
+      "outstandingImageSourceUrls": 0,
+      "outstandingScreenshotRows": 0,
+      "outstandingOtherResources": 0,
+      "packageBytesValidated": false,
+      "sourceEvidence": [
+        "catch/2019-gw/recovery.json",
+        "catch/2019-gw/source-comparison.json",
+        "catch/2019-gw/source/live/manifest.json",
+        "catch/2019-gw/source/resources/manifest.json",
+        "catch/2019-gw/investigation/source-address-confirmation.json",
+        "catch/2019-gw/investigation/text-structure-comparison.json",
+        "catch/2019-gw/investigation/navigation-source-review.json",
+        "catch/2019-gw/investigation/replay-closure.json"
+      ],
+      "desktopEvidence": [
+        "catch/2019-gw/desktop-review.json",
+        "catch/2019-gw/investigation/local-http-payloads.json"
+      ],
+      "notes": "旧脚本列出的FC2候选源站失败后，从已保存的2021 GW官方历届链接确认仍可直接访问的viprpg2019gw.xxxxxxxx.jp，日本节点取得目录、sakuhin样例和37个正式介绍，共40份原HTML捕获（根入口与index重复）、1份CSS、3份jQuery／Popper／Bootstrap脚本及104份图片，全部原始载荷核对SHA。38个既有ID、编号和题名保持，恢复38处图标、60截图、32项共33条配布地址和2条本祭横幅。旧60画廊载荷及2横幅全部逐字节对应；29号两张png命名的源图片实为BMP，按真实格式保存并验证显示。38项作者／管理人留言全文结构比对无遗漏，4项目录／详情元数据差异并列保留。06号目录与详情配布URL不同，两者明确标注保留。原貌147文件、39份唯一HTML、629本地引用含悬停目标，无缺失或外部自动加载；247展示文件HTTP载荷与本地SHA一致。保留Bootstrap主题及本地3脚本，移除托管脚本和对本地字节副本多余的SRI/CORS属性，真实提示关闭操作验证框架可用。38整理详情与39原貌文档、首页38项及38图标／2横幅通过桌面检查；3项首读延迟图复核正常。实际沙箱目录进入样例、下一项01、页头返回目录及末项37通过。逐项核对全组相邻导航，发现原37上一项误指35，按目录及36下一项37的证据在回放中改指36，实际37到36再回37验证，原缓存不改。BMP原生悬停往返与查看器切换关闭均通过，最终沙箱控制台无错误／警告。无题材或像素筛选，无新增受限，未下载或运行游戏包。"
     }
   ],
   "originalViewsReviewed": [
@@ -2299,6 +2331,13 @@
       "evidence": [
         "catch/2020-summer/original-view.json",
         "catch/2020-summer/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2019-gw",
+      "evidence": [
+        "catch/2019-gw/original-view.json",
+        "catch/2019-gw/desktop-review.json"
       ]
     }
   ],

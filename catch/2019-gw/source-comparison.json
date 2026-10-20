@@ -1,0 +1,64 @@
+{
+  "festivalId": "2019-gw",
+  "sourceHtmlCaptures": 40,
+  "uniqueHtmlPages": 39,
+  "cssFiles": 1,
+  "scriptFiles": 3,
+  "resources": 104,
+  "sourceCatalogueEntries": 38,
+  "oldScreenshotReferences": 60,
+  "screenshotReferences": 60,
+  "downloads": 32,
+  "banners": 2,
+  "sourceHashFailures": [],
+  "oldBytesAbsentFromCurrentGallery": [],
+  "sourceTextComparison": "investigation/text-structure-comparison.json",
+  "contentOrPixelScreeningPerformed": false,
+  "packagesDownloaded": false,
+  "metadataDifferenceEntries": [
+    "00",
+    "07",
+    "24",
+    "25"
+  ],
+  "downloadReferences": 33,
+  "catalogueDetailDownloadVariant": {
+    "no": "06",
+    "savedSeparately": [
+      {
+        "url": "https://ux.getuploader.com/viprpg2019gw_2/download/39",
+        "label": "45.2MB05/13修正"
+      },
+      {
+        "url": "https://ux.getuploader.com/viprpg2019gw_2/download/35",
+        "label": "原紹介ページ：ダウンロード(45.0MB)"
+      }
+    ]
+  },
+  "oldBannerPayloadsMatched": [
+    true,
+    true
+  ],
+  "formatCorrections": [
+    {
+      "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/icon/09.png",
+      "local": "icon/09.ico"
+    },
+    {
+      "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/icon/29.png",
+      "local": "icon/29.bmp"
+    },
+    {
+      "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/19.png",
+      "local": "ss/19.jpg"
+    },
+    {
+      "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/29_1.png",
+      "local": "ss/29_1.bmp"
+    },
+    {
+      "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/29_2.png",
+      "local": "ss/29_2.bmp"
+    }
+  ]
+}

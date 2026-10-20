@@ -1,0 +1,1652 @@
+{
+  "festivalId": "2019-gw",
+  "originalBase": "https://viprpg2019gw.xxxxxxxx.jp/",
+  "liveSource": true,
+  "proxyRegion": "Japan",
+  "originalResources": {
+    "https://viprpg2019gw.xxxxxxxx.jp/index.html": "index.html",
+    "https://viprpg2019gw.xxxxxxxx.jp/": "index.html",
+    "https://viprpg2019gw.xxxxxxxx.jp/02.html": "02.html",
+    "https://viprpg2019gw.xxxxxxxx.jp/01.html": "01.html",
+    "https://viprpg2019gw.xxxxxxxx.jp/03.html": "03.html",
+    "https://viprpg2019gw.xxxxxxxx.jp/05.html": "05.html",
+    "https://viprpg2019gw.xxxxxxxx.jp/07.html": "07.html",
+    "https://viprpg2019gw.xxxxxxxx.jp/sakuhin.html": "sakuhin.html",
+    "https://viprpg2019gw.xxxxxxxx.jp/08.html": "08.html",
+    "https://viprpg2019gw.xxxxxxxx.jp/09.html": "09.html",
+    "https://viprpg2019gw.xxxxxxxx.jp/11.html": "11.html",
+    "https://viprpg2019gw.xxxxxxxx.jp/06.html": "06.html",
+    "https://viprpg2019gw.xxxxxxxx.jp/13.html": "13.html",
+    "https://viprpg2019gw.xxxxxxxx.jp/10.html": "10.html",
+    "https://viprpg2019gw.xxxxxxxx.jp/15.html": "15.html",
+    "https://viprpg2019gw.xxxxxxxx.jp/14.html": "14.html",
+    "https://viprpg2019gw.xxxxxxxx.jp/17.html": "17.html",
+    "https://viprpg2019gw.xxxxxxxx.jp/12.html": "12.html",
+    "https://viprpg2019gw.xxxxxxxx.jp/16.html": "16.html",
+    "https://viprpg2019gw.xxxxxxxx.jp/19.html": "19.html",
+    "https://viprpg2019gw.xxxxxxxx.jp/21.html": "21.html",
+    "https://viprpg2019gw.xxxxxxxx.jp/22.html": "22.html",
+    "https://viprpg2019gw.xxxxxxxx.jp/18.html": "18.html",
+    "https://viprpg2019gw.xxxxxxxx.jp/23.html": "23.html",
+    "https://viprpg2019gw.xxxxxxxx.jp/20.html": "20.html",
+    "https://viprpg2019gw.xxxxxxxx.jp/24.html": "24.html",
+    "https://viprpg2019gw.xxxxxxxx.jp/26.html": "26.html",
+    "https://viprpg2019gw.xxxxxxxx.jp/27.html": "27.html",
+    "https://viprpg2019gw.xxxxxxxx.jp/28.html": "28.html",
+    "https://viprpg2019gw.xxxxxxxx.jp/29.html": "29.html",
+    "https://viprpg2019gw.xxxxxxxx.jp/31.html": "31.html",
+    "https://viprpg2019gw.xxxxxxxx.jp/30.html": "30.html",
+    "https://viprpg2019gw.xxxxxxxx.jp/32.html": "32.html",
+    "https://viprpg2019gw.xxxxxxxx.jp/33.html": "33.html",
+    "https://viprpg2019gw.xxxxxxxx.jp/34.html": "34.html",
+    "https://viprpg2019gw.xxxxxxxx.jp/35.html": "35.html",
+    "https://viprpg2019gw.xxxxxxxx.jp/25.html": "25.html",
+    "https://viprpg2019gw.xxxxxxxx.jp/css/bootstrap.css": "css/bootstrap.css",
+    "https://viprpg2019gw.xxxxxxxx.jp/36.html": "36.html",
+    "https://code.jquery.com/jquery-3.2.1.slim.min.js": "vendor/jquery-3.2.1.slim.min.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js": "vendor/popper.min.js",
+    "https://viprpg2019gw.xxxxxxxx.jp/37.html": "37.html",
+    "https://viprpg2019gw.xxxxxxxx.jp/04.html": "04.html",
+    "https://viprpg2019gw.xxxxxxxx.jp/js/bootstrap.min.js": "js/bootstrap.min.js",
+    "https://viprpg2019gw.xxxxxxxx.jp/banner/GW19_2.png": "banner/GW19_2.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/icon/02.png": "icon/02.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/icon/04.png": "icon/04.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/banner/GW19.png": "banner/GW19.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/icon/01.png": "icon/01.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/icon/sample.png": "icon/sample.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/icon/09.png": "icon/09.ico",
+    "https://viprpg2019gw.xxxxxxxx.jp/icon/12.png": "icon/12.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/icon/10.png": "icon/10.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/icon/14.png": "icon/14.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/icon/16.gif": "icon/16.gif",
+    "https://viprpg2019gw.xxxxxxxx.jp/icon/18.gif": "icon/18.gif",
+    "https://viprpg2019gw.xxxxxxxx.jp/icon/19.png": "icon/19.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/icon/06.png": "icon/06.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/icon/17.png": "icon/17.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/icon/21.gif": "icon/21.gif",
+    "https://viprpg2019gw.xxxxxxxx.jp/icon/22.png": "icon/22.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/icon/23.png": "icon/23.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/icon/25.png": "icon/25.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/icon/26.png": "icon/26.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/icon/24.png": "icon/24.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/icon/20.jpg": "icon/20.jpg",
+    "https://viprpg2019gw.xxxxxxxx.jp/icon/30.png": "icon/30.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/icon/15.png": "icon/15.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/icon/33.png": "icon/33.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/icon/32.gif": "icon/32.gif",
+    "https://viprpg2019gw.xxxxxxxx.jp/icon/34.png": "icon/34.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/icon/29.png": "icon/29.bmp",
+    "https://viprpg2019gw.xxxxxxxx.jp/icon/35.png": "icon/35.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/banner/GW17.png": "banner/GW17.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/banner/GW16.png": "banner/GW16.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/icon/36.png": "icon/36.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/banner/GW15.png": "banner/GW15.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/banner/GW14.png": "banner/GW14.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/icon/31.png": "icon/31.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/banner/GW13.png": "banner/GW13.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/banner/GW18.png": "banner/GW18.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/banner/GW10.png": "banner/GW10.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/banner/GW12.png": "banner/GW12.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/banner/GW07.png": "banner/GW07.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/banner/GW08.png": "banner/GW08.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/banner/GW06.png": "banner/GW06.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/01_1.png": "ss/01_1.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/02.png": "ss/02.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/03_1.png": "ss/03_1.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/01_2.png": "ss/01_2.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/03_2.png": "ss/03_2.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/07_1.png": "ss/07_1.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/05.png": "ss/05.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/sample.png": "ss/sample.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/sample2.png": "ss/sample2.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/07_2.png": "ss/07_2.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/09_1.png": "ss/09_1.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/09_2.png": "ss/09_2.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/08.png": "ss/08.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/06_1.png": "ss/06_1.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/11.png": "ss/11.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/13_1.png": "ss/13_1.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/06_2.png": "ss/06_2.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/13_2.png": "ss/13_2.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/15_1.png": "ss/15_1.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/10.png": "ss/10.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/15_2.png": "ss/15_2.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/14_1.jpg": "ss/14_1.jpg",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/14_2.png": "ss/14_2.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/12_1.png": "ss/12_1.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/12_2.png": "ss/12_2.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/16.png": "ss/16.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/17.png": "ss/17.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/19.png": "ss/19.jpg",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/21_1.png": "ss/21_1.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/22.png": "ss/22.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/21_2.png": "ss/21_2.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/18.png": "ss/18.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/23_1.png": "ss/23_1.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/23_2.png": "ss/23_2.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/18_2.png": "ss/18_2.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/24_1.png": "ss/24_1.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/20.jpg": "ss/20.jpg",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/26_1.png": "ss/26_1.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/banner/GW09.png": "banner/GW09.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/banner/GW11.png": "banner/GW11.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/26_2.png": "ss/26_2.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/24_2.png": "ss/24_2.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/27.jpg": "ss/27.jpg",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/29_1.png": "ss/29_1.bmp",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/31_1.png": "ss/31_1.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/31_2.png": "ss/31_2.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/30_2.png": "ss/30_2.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/29_2.png": "ss/29_2.bmp",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/28.png": "ss/28.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/30_1.png": "ss/30_1.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/32_2.png": "ss/32_2.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/32_1.png": "ss/32_1.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/35_1.png": "ss/35_1.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/33_1.png": "ss/33_1.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/33_2.png": "ss/33_2.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/34.png": "ss/34.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/35_2.png": "ss/35_2.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/37.png": "ss/37.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/36.png": "ss/36.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/04_1.png": "ss/04_1.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/04_2.png": "ss/04_2.png",
+    "https://viprpg2019gw.xxxxxxxx.jp/ss/25.png": "ss/25.png"
+  },
+  "sourceManifests": [
+    "source/replay/manifest.json"
+  ],
+  "entries": [
+    {
+      "id": "2019-gw-work-00",
+      "no": "00",
+      "detailUrl": "https://viprpg2019gw.xxxxxxxx.jp/sakuhin.html",
+      "catalogue": {
+        "author": "管理人",
+        "category": "見るゲ",
+        "engine": "2000",
+        "streaming": "可/不可"
+      },
+      "detailTitle": "サンプルゲーム",
+      "sourceMetadata": {
+        "作者名": "管理人",
+        "使用ツール": "2000",
+        "ジャンル": "見るゲ",
+        "配信/投稿": "〇/✕",
+        "作者コメント": "ここにダウンロード欲を掻き立てられる作者コメント",
+        "管理人コメント": "ここにいなせでクールな管理人コメント"
+      },
+      "metadataDifferences": [
+        {
+          "label": "配信/投稿",
+          "catalogue": "可/不可",
+          "detail": "〇/✕"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/icon/sample.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/sample.png",
+          "local": "/screenshots/2019-gw/00-source-1.png",
+          "sha256": "53538bc8331c268325a1230ec08734be0958e34540756319c5604bfd4f095a4a"
+        },
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/sample2.png",
+          "local": "/screenshots/2019-gw/00-source-2.png",
+          "sha256": "b6502fedd8bf91b5be464d482db2273887c666aef9c6dfc3bd94982246cded34"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-gw-work-01",
+      "no": "01",
+      "detailUrl": "https://viprpg2019gw.xxxxxxxx.jp/01.html",
+      "catalogue": {
+        "author": "雨水梨",
+        "category": "見るゲとksgと時々デフォ戦",
+        "engine": "2000",
+        "streaming": "両方可"
+      },
+      "detailTitle": "短編詰め合わせGW2019",
+      "sourceMetadata": {
+        "作者名": "雨水梨",
+        "使用ツール": "2000",
+        "ジャンル": "見るゲとksgと時々デフォ戦",
+        "配信/投稿": "両方可",
+        "作者コメント": "GW祭2017に続き、2回目の短編集。\n新作＋スレ投下作品の再収録となっています。\n条件を満たすとおまけ部屋に行けます。\n\n【新規作品】(3作品)\n「彷徨う聖剣」\n「XP以降のキャラだらけの魔王把握」※リクエスト作品\n「もしも最後の表情しか使えなかったら」(Ver2で追加)\n\n【スレ投下作品】(15作品)\n「ドラゴナスのハロウィン大作戦！」\n「もしもカラスの鳴き声が」\n「出したことないキャラで魔王把握」\n「ヒツルギと七夕」\n「この夏絶対に売れるかき氷」\n「いにしえに刻まれたその名は」\n「フォンダンショクソコラ」\n「ダークエンジェル訪問」\n「ほしゅシーン2」\n「アシュリーの里帰り」\n「ニナの日ksg」\n「サウンドバリア活用法」\n「桃の節句(複数形)」\n「ある日常 ～リナックス編～」\n「フィールド4だけで魔王把握」(Ver2で追加)\n\n【おまけ】(Ver2で追加)\n・「出したことないキャラで魔王把握」のおまけ部屋\n・NGシーン集\n・サウンドルーム\n・一部キャラクターや世界観のはい設\n・エンディング＋？？？",
+        "管理人コメント": "パ↑ークの危↑機なのだー！"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/icon/01.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/01_1.png",
+          "local": "/screenshots/2019-gw/01-source-1.png",
+          "sha256": "cac4135a48c16d632bf862b48877911b58c92157522735908789a7543e65a035"
+        },
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/01_2.png",
+          "local": "/screenshots/2019-gw/01-source-2.png",
+          "sha256": "28ef4e50cd99c522b0aba476d1fffc4a32ae42693bd0516f289aeec21e5377c1"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2019gw_2/download/52",
+          "label": "23.1MB05/31修正"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-gw-work-02",
+      "no": "02",
+      "detailUrl": "https://viprpg2019gw.xxxxxxxx.jp/02.html",
+      "catalogue": {
+        "author": "徳明",
+        "category": "読むゲ",
+        "engine": "Steam版2003",
+        "streaming": "配信：おけまる　投降：おけまる"
+      },
+      "detailTitle": "人斬りの噺",
+      "sourceMetadata": {
+        "作者名": "徳明",
+        "使用ツール": "Steam版2003",
+        "ジャンル": "読むゲ",
+        "配信/投稿": "配信：おけまる　投降：おけまる",
+        "作者コメント": "人斬りの姉とそれを盲従する妹の話です\nちょっとだけ百合表現とグロテスクな描写があります",
+        "管理人コメント": "往年の名作を思い出しました。"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/icon/02.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/02.png",
+          "local": "/screenshots/2019-gw/02-source-1.png",
+          "sha256": "1f5d84434e7aeac9a65e1490e714a90462f03c9007dab3116af661313af74407"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2019gw_2/download/1",
+          "label": "7.3MB05/02提出"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-gw-work-03",
+      "no": "03",
+      "detailUrl": "https://viprpg2019gw.xxxxxxxx.jp/03.html",
+      "catalogue": {
+        "author": "かすていら",
+        "category": "ｋｓｇ",
+        "engine": "2000",
+        "streaming": "可/可"
+      },
+      "detailTitle": "銃使いバトル",
+      "sourceMetadata": {
+        "作者名": "かすていら",
+        "使用ツール": "2000",
+        "ジャンル": "ｋｓｇ",
+        "配信/投稿": "可/可",
+        "作者コメント": "ｋｓｇ6個詰め合わせセットです。\n銃はあまり出ません。",
+        "管理人コメント": "右下が不憫すぎる。"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/icon/sample.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/03_1.png",
+          "local": "/screenshots/2019-gw/03-source-1.png",
+          "sha256": "0eef5d15de506a0d409bc8908028955c35b3e2e730361c03b7b34abd464d9de8"
+        },
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/03_2.png",
+          "local": "/screenshots/2019-gw/03-source-2.png",
+          "sha256": "848717dab08a0274a732b6795c1eb1e8204801262f3ee7b703074c08ee347ad4"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2019gw_2/download/2",
+          "label": "17.2MB05/02提出"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-gw-work-04",
+      "no": "04",
+      "detailUrl": "https://viprpg2019gw.xxxxxxxx.jp/04.html",
+      "catalogue": {
+        "author": "池田さん",
+        "category": "ナンセンスファンタジー見るゲー",
+        "engine": "steam2003",
+        "streaming": "可・可"
+      },
+      "detailTitle": "新・不思議の国のアリス",
+      "sourceMetadata": {
+        "作者名": "池田さん",
+        "使用ツール": "steam2003",
+        "ジャンル": "ナンセンスファンタジー見るゲー",
+        "配信/投稿": "可・可",
+        "作者コメント": "遺作です。",
+        "管理人コメント": "どんな冒険が待ち受けているのでしょうか。"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/icon/04.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/04_1.png",
+          "local": "/screenshots/2019-gw/04-source-1.png",
+          "sha256": "0f2e6e475ab77325fd4bd1a2523259a16c397b8e72523d90933e8f5307ace406"
+        },
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/04_2.png",
+          "local": "/screenshots/2019-gw/04-source-2.png",
+          "sha256": "0ac2bb734f698bb4bbfb11e3bfb164ef2212a65fc61e0ac79d730b8a77e5928a"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2019gw_2/download/36",
+          "label": "68.6MB05/09登録"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-gw-work-05",
+      "no": "05",
+      "detailUrl": "https://viprpg2019gw.xxxxxxxx.jp/05.html",
+      "catalogue": {
+        "author": "かに",
+        "category": "カードゲーム",
+        "engine": "2000",
+        "streaming": "どっちもＯＫ"
+      },
+      "detailTitle": "ライチ軍団ｖｓムライチ軍団",
+      "sourceMetadata": {
+        "作者名": "かに",
+        "使用ツール": "2000",
+        "ジャンル": "カードゲーム",
+        "配信/投稿": "どっちもＯＫ",
+        "作者コメント": "紅白に間に合わなかったもののリベンジです。\n新しく繰り広げられるふたりの戦いの行方は？紅白からお待ちの皆様お待たせして申し訳がありませんでした。\n今回作りの腰の部分を作るだけだから楽勝だと思ってダラダラしていたら\nこんな締め切りギリギリの瀬戸際に投稿する羽目になってしまいました。（何時もの事です。）\nテストプレイの至らぬ部分がございますが\nもし不具合を見つけたら報告してくれたら幸いです。",
+        "管理人コメント": "恐怖VS恐怖の金網デスマッチやいかに。"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/icon/sample.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/05.png",
+          "local": "/screenshots/2019-gw/05-source-1.png",
+          "sha256": "d9e0cbb70e28507306a7beab9df466012e3dec4d4b667ab1e3ed3c7965765c81"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2019gw_2/download/53",
+          "label": "6.3MB05/30修正"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-gw-work-06",
+      "no": "06",
+      "detailUrl": "https://viprpg2019gw.xxxxxxxx.jp/06.html",
+      "catalogue": {
+        "author": "AQUHADEMANIA",
+        "category": "与助佐助ごっこ",
+        "engine": "RPGツクール2000",
+        "streaming": "両方可能（ただし自己責任）"
+      },
+      "detailTitle": "耐えるしかない",
+      "sourceMetadata": {
+        "作者名": "AQUHADEMANIA",
+        "使用ツール": "RPGツクール2000",
+        "ジャンル": "与助佐助ごっこ",
+        "配信/投稿": "両方可能（ただし自己責任）",
+        "作者コメント": "史上初！？「最初から最後まで敵を倒さずひたすら耐えまくるRPG」です。\nとにかく様々な手段を使って敵の猛攻から規定ターン生き延びれ！\n\nあらすじ\n調子乗りまくりという理由だけで見知らぬ「神」によって\n「相手を倒せなくなる呪い」をかけられた水の精霊と冥府神\n敵を倒す手段を奪われた2人は呪いを解いてもらうため「ゲーム」に参加することに…\n\n※注意※\nこのゲームには「えぐみ成分」が色々含まれています。\n苦手な方はくれぐれも無理しないように。",
+        "管理人コメント": "耐えるの大好き丸だぁ…。"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/icon/06.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/06_1.png",
+          "local": "/screenshots/2019-gw/06-source-1.png",
+          "sha256": "e86010301d549bdebaba482e55fc2199c3a576606f4239f4054ec79188ef185e"
+        },
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/06_2.png",
+          "local": "/screenshots/2019-gw/06-source-2.png",
+          "sha256": "117bf04581fdf027c7a64dd80dc6e8bd52d663408bcbead0315cebf53e498efd"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2019gw_2/download/39",
+          "label": "45.2MB05/13修正"
+        },
+        {
+          "url": "https://ux.getuploader.com/viprpg2019gw_2/download/35",
+          "label": "原紹介ページ：ダウンロード(45.0MB)"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-gw-work-07",
+      "no": "07",
+      "detailUrl": "https://viprpg2019gw.xxxxxxxx.jp/07.html",
+      "catalogue": {
+        "author": "ジャスティス",
+        "category": "日常系ksg",
+        "engine": "steam2003",
+        "streaming": "可・可"
+      },
+      "detailTitle": "Tschool Days! ‐春編-",
+      "sourceMetadata": {
+        "作者名": "ジャスティス",
+        "使用ツール": "steam2003",
+        "ジャンル": "日常系ksg",
+        "配信/投稿": "両方可能（ただし自己責任）",
+        "作者コメント": "人間に唯一つ不可欠なのは、想いを紡ぐための針である。（信田信伸『どっこい！たまきんくん』金満兼也 訳、珍宝書店［珍宝文庫］、2009年、P.152［第８玉 双子ライバル出現！？クリクリちゃんとリスリスちゃん］）\n\n皆さんは、初めてRPGツクールに触れた時、初めてRPGツクールでゲームを完成させた時のことを覚えていますか？\nストーリーの、キャラクターの、その目に見えぬものを見ようと夢中になったストーリー。立ちふさがる強敵を倒そうと躍起になってボタンを叩いた戦闘。\nそれらを初めて自分の手で組み立てる感動はいかがでしたか？\n自分の世界を知って欲しかったあの衝動は今でも思い出せますか？\n令和の今だからこそ、そんな感情を忘れて欲しくなくて、また、誰かがそんなツクールの世界に飛び込むきっかけになればと思って、このゲームを制作するに至りました。\n\nっていうテーマでｔｋってたんですけど、結局ほぼ関係ないksgになってますね。（たまきんくんから引用してるあたりお察しの事かと）\nありていな言いわけとして、「だってツクール題材ってムズくないですか？」っていうのがあります。\nツクールネタだけで構成する技量なんてないし、もっと言うと、十数年選手ではあるけどツクールネタ詳しくないしね！っていう。\nそんなわけで、日常系学園モノ読むゲの今作をお楽しみくださいどうぞ！",
+        "管理人コメント": "ギリギリセーフ……？"
+      },
+      "metadataDifferences": [
+        {
+          "label": "配信/投稿",
+          "catalogue": "可・可",
+          "detail": "両方可能（ただし自己責任）"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/icon/sample.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/07_1.png",
+          "local": "/screenshots/2019-gw/07-source-1.png",
+          "sha256": "6396c004a53e9b8a17108b640ac31b8e12c07aba17d1b7791ff52627cc43a72b"
+        },
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/07_2.png",
+          "local": "/screenshots/2019-gw/07-source-2.png",
+          "sha256": "e5fede63abaebb469ea54df024ed70d0aa80f389c40707c4e880e2e4571909ae"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-gw-work-08",
+      "no": "08",
+      "detailUrl": "https://viprpg2019gw.xxxxxxxx.jp/08.html",
+      "catalogue": {
+        "author": "モダン焼き",
+        "category": "ノベル",
+        "engine": "2000",
+        "streaming": "配信のみ可"
+      },
+      "detailTitle": "徒花",
+      "sourceMetadata": {
+        "作者名": "モダン焼き",
+        "使用ツール": "2000",
+        "ジャンル": "ノベル",
+        "配信/投稿": "配信のみ可",
+        "作者コメント": "あとのまつり。",
+        "管理人コメント": "冷凍都市。"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/icon/sample.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/08.png",
+          "local": "/screenshots/2019-gw/08-source-1.png",
+          "sha256": "0de2ffaa85d0dd3043bcb692b088f6dc5fc032cd4196c60e17ce9db8bd318a1d"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2019gw_2/download/4",
+          "label": "6.1MB05/02提出"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-gw-work-09",
+      "no": "09",
+      "detailUrl": "https://viprpg2019gw.xxxxxxxx.jp/09.html",
+      "catalogue": {
+        "author": "なんか。",
+        "category": "デフォ戦ダンジョンRPGksg風味",
+        "engine": "2000",
+        "streaming": "してして"
+      },
+      "detailTitle": "もしも願いが叶うタワー",
+      "sourceMetadata": {
+        "作者名": "なんか。",
+        "使用ツール": "2000",
+        "ジャンル": "デフォ戦ダンジョンRPGksg風味",
+        "配信/投稿": "してして",
+        "作者コメント": "・あらすじ。\n『突如現れたという「願いが叶う塔」…。かの勇者、アレックスも挑戦し失敗したという。\n一体何の目的で、誰が建てたのか…。今日も、また、挑戦者が…。』\nカナエ「魔界塔士？」\nキャロル「シッ…！」\n\n\n・キャロル、魔王、アンデッドナイ、カナエールというちょっと変わった面子で塔を踏破するRPGです。塔だけに踏破。笑えよ。\n\n・基本なんの変哲もないデフォ戦ですが、ボス戦だけブレイクシステムあり。ゲージを削り切れ！ゲェジじゃねえわ。\n\n・『20円を集めてカードダスを集めよう！』『微妙に自作の戦闘アニメ！』道中には会話イベント多数！』『階層が変わると…？！』\n\nなどなど。\n\n・スレ投下体験版の完成品です。\n\n※ボス戦は強めになっておりますが、ご意見ご感想ください。どんどん弱体化させる予定です。",
+        "管理人コメント": "スレでよく見てたやつだ！"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/icon/09.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/09_1.png",
+          "local": "/screenshots/2019-gw/09-source-1.png",
+          "sha256": "0efa083e6ff35304c9e2f6c5d17030bc257a4771d594aad47e24955c86c37d6e"
+        },
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/09_2.png",
+          "local": "/screenshots/2019-gw/09-source-2.png",
+          "sha256": "87508f9cd0c4e7e5b37a128915a49a216b45e307903209fbb2dde7902f1c63f5"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2019gw_2/download/42",
+          "label": "35.6MB05/16修正"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-gw-work-10",
+      "no": "10",
+      "detailUrl": "https://viprpg2019gw.xxxxxxxx.jp/10.html",
+      "catalogue": {
+        "author": "Rossignol",
+        "category": "避けゲー",
+        "engine": "2000",
+        "streaming": "可／可"
+      },
+      "detailTitle": "魔王軍とたのしい避けゲー",
+      "sourceMetadata": {
+        "作者名": "Rossignol",
+        "使用ツール": "2000",
+        "ジャンル": "避けゲー",
+        "配信/投稿": "可／可",
+        "作者コメント": "初参加\n敵をナイフで攻撃したり敵からの猛攻をかいくぐったりするゲーム\n［ACT］とか［MERCY］とかそんな甘いものは存在しない\n\nでも娘様が魔王頃したりすることはないのでお子様にも安心！！！（予定\nやったあ！！",
+        "管理人コメント": "＊ラー　ララー…"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/icon/10.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/10.png",
+          "local": "/screenshots/2019-gw/10-source-1.png",
+          "sha256": "40e9e5906a708d267c9b2ba3ff83002525ba52d7d37d68aac6b8470bbcb41e03"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2019gw_2/download/45",
+          "label": "457KB05/19修正"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-gw-work-11",
+      "no": "11",
+      "detailUrl": "https://viprpg2019gw.xxxxxxxx.jp/11.html",
+      "catalogue": {
+        "author": "みどり",
+        "category": "見るゲ",
+        "engine": "2000",
+        "streaming": "自己責任で"
+      },
+      "detailTitle": "もしもVELVETの空の下だったら",
+      "sourceMetadata": {
+        "作者名": "みどり",
+        "使用ツール": "2000",
+        "ジャンル": "見るゲ",
+        "配信/投稿": "自己責任で",
+        "作者コメント": "申し訳ありません、カラーギャングは間に合わなかったので代理ksgです。",
+        "管理人コメント": "チーマーってやつでしょうか。"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/icon/sample.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/11.png",
+          "local": "/screenshots/2019-gw/11-source-1.png",
+          "sha256": "145e7c354d4c9569988630b4e153c450fb640e67633cf6ecc051db5533496cc9"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2019gw_2/download/15",
+          "label": "1.4MB05/03提出"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-gw-work-12",
+      "no": "12",
+      "detailUrl": "https://viprpg2019gw.xxxxxxxx.jp/12.html",
+      "catalogue": {
+        "author": "HOT-W",
+        "category": "本格SFロールプレイングゲーム",
+        "engine": "RPGツクール2000",
+        "streaming": "〇／〇"
+      },
+      "detailTitle": "MAGIC　STAR",
+      "sourceMetadata": {
+        "作者名": "HOT-W",
+        "使用ツール": "RPGツクール2000",
+        "ジャンル": "本格SFロールプレイングゲーム",
+        "配信/投稿": "〇／〇",
+        "作者コメント": "いま、人間は\n目覚めはじめる。\n「きっとあそこに僕達の安住の地がある」\n星を見ながら、もっと力がほしいと思った。",
+        "管理人コメント": "ボク チカラ 欲しかった"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/icon/12.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/12_1.png",
+          "local": "/screenshots/2019-gw/12-source-1.png",
+          "sha256": "ede40fb0e7949bc3ab3743ff8f188729654ada9e8606ecf2b3bbcf4bb87d8f9c"
+        },
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/12_2.png",
+          "local": "/screenshots/2019-gw/12-source-2.png",
+          "sha256": "94d49c8d078c8893010377673f64a3006c30a94f5363629665fbdac90aa15c3f"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2019gw_2/download/25",
+          "label": "1.6MB05/05修正"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-gw-work-13",
+      "no": "13",
+      "detailUrl": "https://viprpg2019gw.xxxxxxxx.jp/13.html",
+      "catalogue": {
+        "author": "前杏",
+        "category": "平和的ksg",
+        "engine": "2億(2000)",
+        "streaming": "可"
+      },
+      "detailTitle": "デスサイズチェーンソー",
+      "sourceMetadata": {
+        "作者名": "前杏",
+        "使用ツール": "2億(2000)",
+        "ジャンル": "平和的ksg",
+        "配信/投稿": "可",
+        "作者コメント": "怒首領蜂",
+        "管理人コメント": "いざ尋常に。"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/icon/sample.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/13_1.png",
+          "local": "/screenshots/2019-gw/13-source-1.png",
+          "sha256": "58957b37ef47e37dc3c9c1ab47dceb02bc9728ffc9a9b24afbc0fa601bedbf10"
+        },
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/13_2.png",
+          "local": "/screenshots/2019-gw/13-source-2.png",
+          "sha256": "87fad5394bfdc11cbb9663fbaa9159d1c500de0cbad94f46c1c7045561f33cac"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2019gw_2/download/16",
+          "label": "29.4MB05/03提出"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-gw-work-14",
+      "no": "14",
+      "detailUrl": "https://viprpg2019gw.xxxxxxxx.jp/14.html",
+      "catalogue": {
+        "author": "高揚の風",
+        "category": "魔王把握ゲー＋おまけｋｓｇ",
+        "engine": "2000",
+        "streaming": "両可"
+      },
+      "detailTitle": "もしもウォーターⅣ具現化が魔王把握",
+      "sourceMetadata": {
+        "作者名": "高揚の風",
+        "使用ツール": "2000",
+        "ジャンル": "魔王把握ゲー＋おまけｋｓｇ",
+        "配信/投稿": "両可",
+        "作者コメント": "祭り初参加。\n\n色々なRTP外魔法具現化、派生キャラが誕生している中\nなかなか見ないⅣ魔法具現化思い切ってを実行してみた作品です\n（といってもわてりを改変しただけの簡単なものですが…）\n\nⅣ魔法具現化…増えろー…増えろー… \n\n\n※おまけｋｓｇとありますが、こちらはウォーターⅣのお話とは関係のないものになっています。ご了承ください。",
+        "管理人コメント": "新しい風となるか。"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/icon/14.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/14_1.jpg",
+          "local": "/screenshots/2019-gw/14-source-1.jpg",
+          "sha256": "96c3e03ee8257714e78baf50e05259d483e7970cf351dab7db4466731192b441"
+        },
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/14_2.png",
+          "local": "/screenshots/2019-gw/14-source-2.png",
+          "sha256": "15a005596b5e3251a9894925f040a5f519702695ec604348aef3128940f465ef"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2019gw_2/download/13",
+          "label": "13.5MB05/02修正"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-gw-work-15",
+      "no": "15",
+      "detailUrl": "https://viprpg2019gw.xxxxxxxx.jp/15.html",
+      "catalogue": {
+        "author": "魔禁胆",
+        "category": "いちおうデフォ戦ＲＰＧ（とおまけ数点）＆一部１８禁",
+        "engine": "２０００",
+        "streaming": "一部１８禁があるので自己責任で"
+      },
+      "detailTitle": "誰知らぬ勇者の寓話",
+      "sourceMetadata": {
+        "作者名": "魔禁胆",
+        "使用ツール": "２０００",
+        "ジャンル": "いちおうデフォ戦ＲＰＧ（とおまけ数点）＆一部１８禁",
+        "配信/投稿": "一部１８禁があるので自己責任で",
+        "作者コメント": "本編「誰知らぬ勇者の寓話」：通常デフォ戦闘ＲＰＧ。\n･･･ツクール2Kを購入して初期に作ったオーソドクスな話。\n　手を加えたとはいえネタが古いし、戦闘バランスも大雑把。\n隠し「誰知らぬ魔王の寓話」：同上。\n･･･上の話の裏話。復活したばかりの（まだ弱い）魔王が主人公。\n　村娘や女冒険者を脱がすなど多少のエロ有。\n隠し「爆弾勇者」：制限時間系。\n･･･邪悪な王に時限爆弾を体内にセットされてしまった勇者。\n　制限時間以内に魔王を倒さないと爆破されてしまう！！\n隠し「続々ゴメスの穴」：GW2015祭りの続編の改良。\n･･･重すぎるという指摘があったので、改良。\n　ＭＡＰやイベントなども増量。でも内容は手抜きで単純･･･\n\n「あること」をすると隠しゲームを選べます。\n･･･ヒントは村人の会話の中？\nつか、１５年以上前に作った奴をいまさら出そうとする私は･･･",
+        "管理人コメント": "15年も何かを続けた事がありません。"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/icon/15.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/15_1.png",
+          "local": "/screenshots/2019-gw/15-source-1.png",
+          "sha256": "5cad2c4c62000134f6a2ba4388efac4f2d011902fc715f47f3f8018909e6fc7d"
+        },
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/15_2.png",
+          "local": "/screenshots/2019-gw/15-source-2.png",
+          "sha256": "0a27cb7a8664a50c5c90e7dca6bc3cc370e83af9e1297d250febdbb4435b1c65"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2019gw_2/download/48",
+          "label": "4.8MB05/23修正"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-gw-work-16",
+      "no": "16",
+      "detailUrl": "https://viprpg2019gw.xxxxxxxx.jp/16.html",
+      "catalogue": {
+        "author": "ブラッドウッド",
+        "category": "見るゲ",
+        "engine": "2000",
+        "streaming": "可"
+      },
+      "detailTitle": "勇者を模す者 目指す者",
+      "sourceMetadata": {
+        "作者名": "ブラッドウッド",
+        "使用ツール": "2000",
+        "ジャンル": "見るゲ",
+        "配信/投稿": "可",
+        "作者コメント": "去年あたりに歩行グラが作られた黒髪妖精ちゃん推しゲです\nPIAI時間は15分～20分程度になります",
+        "管理人コメント": "ぷいきゅあがんばえー。"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/icon/16.gif",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/16.png",
+          "local": "/screenshots/2019-gw/16-source-1.png",
+          "sha256": "b8afa8605bb18170c337c61bbd32b18a21bc3450a618f3352219dc5caf4c946b"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2019gw_2/download/18",
+          "label": "713KB05/04提出"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-gw-work-17",
+      "no": "17",
+      "detailUrl": "https://viprpg2019gw.xxxxxxxx.jp/17.html",
+      "catalogue": {
+        "author": "空のウィンドⅠ",
+        "category": "全員参戦ksg",
+        "engine": "2000",
+        "streaming": "〇/〇"
+      },
+      "detailTitle": "VIPRPG全キャラ最新人気ランキング",
+      "sourceMetadata": {
+        "作者名": "空のウィンドⅠ",
+        "使用ツール": "2000",
+        "ジャンル": "全員参戦ksg",
+        "配信/投稿": "〇/〇",
+        "作者コメント": "キーワードは「全　員　参　戦」\n\n\n2018年全ての祭りを集計!!\n\n・最強は誰だ！？\n分かってしまう!?上位150キャラをランキング形式に発表!!\n今の人気キャラや昔のキャラの人気の変化が分かる!!\n\n―　四天王vsアーケン　ガチの真剣勝負！\n―　人気の少女キャラは一体誰なのか？\n―　ナイ軍の最強は誰か？\n―　玉露将軍って誰が一番今人気なの？\n―　ミストラル、アゼクラ、ネクロさんetc…注目キャラの実力はどれほどか？\n―　ＡＢＣＤ以外のＲＴＰキャラは今も使われているの？\n―　人気の男キャラは？ショタは？ケモキャラは？\n―　今密かに注目されているキャラクターとは一体誰なのか？\n\n\n・VIPRPGの醍醐味は人気キャラだけじゃない！！\n勢力ごとの資料やマイナーキャラのデータも収録!\nランキング系ksg初の試みで収録キャラ数は歴代最多!!\n\n・時間がない人も安心！いきなりデータを見たり順位を飛ばせる仕様！\n・ピクチャーベースだからサクサク見やすい！\n・VIPRPGおなじみの人気キャラの掛け合い形式だから読みやすい！\n・上位キャラは150ですが、収録キャラは400以上!\n\n個性豊かな400以上のファイター達が一同に集結\n…もはやこれは事件です\n\n永久保存版のVIPRPGキャラ人気ランキングを目指し、スタッフが無理を通して製作しました。",
+        "管理人コメント": "ksgへの感謝を忘れずに。"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/icon/17.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/17.png",
+          "local": "/screenshots/2019-gw/17-source-1.png",
+          "sha256": "0dcc6c452bc4dc645952709ecfd17463f09ed069f7e7ad4c97bd17d993ed81e2"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2019gw_2/download/14",
+          "label": "83.6MB04/29提出"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-gw-work-18",
+      "no": "18",
+      "detailUrl": "https://viprpg2019gw.xxxxxxxx.jp/18.html",
+      "catalogue": {
+        "author": "一四〇",
+        "category": "醤油シリーズ",
+        "engine": "2000",
+        "streaming": "可/可"
+      },
+      "detailTitle": "GYOKUSYO",
+      "sourceMetadata": {
+        "作者名": "一四〇",
+        "使用ツール": "2000",
+        "ジャンル": "醤油シリーズ",
+        "配信/投稿": "可/可",
+        "作者コメント": "2019/05/16：本体更新＋ネタばらし\n\n5月に入り女子会を開催した玉露将軍達だったが、皆揃ってSYOYUの世界に誘われる。\n彼女達の行く先に待っている物とは……？\n\n――という訳で、祭開催期間も半分を過ぎたのでネタばらししました（SS2枚目参照）。\nオーソドックスな醤油シリーズ＋αとなっております。\n\n予想プレイ時間：15～30分程度",
+        "管理人コメント": "玉露は色鮮やか。"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/icon/18.gif",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/18.png",
+          "local": "/screenshots/2019-gw/18-source-1.png",
+          "sha256": "656050528123606d35590d16a8214933fcbeea7e6587b053f1c020fdce4b75b6"
+        },
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/18_2.png",
+          "local": "/screenshots/2019-gw/18-source-2.png",
+          "sha256": "f1022181487ac7453c1f3620f24224a449c14be76586414989919c45762ab496"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2019gw_2/download/44",
+          "label": "8.5MB05/17修正"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-gw-work-19",
+      "no": "19",
+      "detailUrl": "https://viprpg2019gw.xxxxxxxx.jp/19.html",
+      "catalogue": {
+        "author": "melibe",
+        "category": "夢の中のksg",
+        "engine": "MV",
+        "streaming": "〇"
+      },
+      "detailTitle": "Glow",
+      "sourceMetadata": {
+        "作者名": "melibe",
+        "使用ツール": "MV",
+        "ジャンル": "夢の中のksg",
+        "配信/投稿": "〇",
+        "作者コメント": "ヒッキー(名前変更可)が夢の中でやみっちに会う話。\n15分程度で終わります。とても短い。\n\n初めてtkりました。容量は出来る限り減らすつもりですが、どうなる事か……。",
+        "管理人コメント": "MVは容量との闘いですね。"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/icon/19.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/19.png",
+          "local": "/screenshots/2019-gw/19-source-1.jpg",
+          "sha256": "9a3370682335c4b0ae1beff5fe5f4b706b8044bd433e2b8f55789897de5e08fe"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2019gw_2/download/34",
+          "label": "88.1MB05/09修正"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-gw-work-20",
+      "no": "20",
+      "detailUrl": "https://viprpg2019gw.xxxxxxxx.jp/20.html",
+      "catalogue": {
+        "author": "ゾマホン",
+        "category": "クソゲ",
+        "engine": "2000",
+        "streaming": "どうぞ/どうぞ"
+      },
+      "detailTitle": "腐敗列島にっぽん",
+      "sourceMetadata": {
+        "作者名": "ゾマホン",
+        "使用ツール": "2000",
+        "ジャンル": "クソゲ",
+        "配信/投稿": "どうぞ/どうぞ",
+        "作者コメント": "日本を救う時が来ました\nどうかみんなの3分を僕にください",
+        "管理人コメント": "救済の時が来る。"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/icon/20.jpg",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/20.jpg",
+          "local": "/screenshots/2019-gw/20-source-1.jpg",
+          "sha256": "fb82fec4a9939718caf3d33af77937f5a5bc9430fa049fe49afd8624870ba851"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2019gw_2/download/21",
+          "label": "5.3MB05/04提出"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-gw-work-21",
+      "no": "21",
+      "detailUrl": "https://viprpg2019gw.xxxxxxxx.jp/21.html",
+      "catalogue": {
+        "author": "宮凪ウインディオ",
+        "category": "見るゲ+α?",
+        "engine": "Steam版2003",
+        "streaming": "配信：可 動画投稿：可"
+      },
+      "detailTitle": "95･2000･2003･XP･VX･VXA･MV 能力値混合ランキングEX",
+      "sourceMetadata": {
+        "作者名": "宮凪ウインディオ",
+        "使用ツール": "Steam版2003",
+        "ジャンル": "見るゲ+α?",
+        "配信/投稿": "配信：可 動画投稿：可",
+        "作者コメント": "GW2018にあったデフォ能力混合ランキングの変換方法をパクr…参考に\nPCツクールほぼ全ての能力値を比較してみたところ、面白い結果が出ました。\nこのksgではそれぞれの能力値を総比較し、ランキング形式で更に紹介したり各ツクールの仕様を解説したりします。\n\n【収録予定】\n・若干はい設込みの茶番\n・標準得点紹介(2000、2003(※1)、2003職業、XP(※2)、VX&VXAce&MV(※3)、95(※4)、追加パッチでDS,DS+,フェス職業など(※5))\n・ランキング(総合・個別)\n・任意キャラ同士のグラフ比較\n・XP以降の資料の一部\n\n※1 2003のデフォステータス及び仕様は日本語版のものとなります。 \n※2 XPはステータスが特殊で比較しずらいため、暫定的に腕力を攻撃力、魔力を精神力、防御力を器用さとして扱っています。\n※3 VXAとMVは魔法力と魔法防御を足した数値を精神力として扱っています。\n※4 95は精神力の項目が無いため、知力の数値を精神力として扱っています。\n※5 こちらはCS版ツクールになるのでランキングには含めません。(5/31追記:後で単品で上げる事にします)\n\n計算に使用したスプレッドシートはこちらになります。DS周りはまだ暫定的な記録となりますが、重大なネタバレ要素が含まれますのでご注意ください。\nhttps://drive.google.com/open?id=1Xao_fPEJcXoR6kNmkZDkBUEWviqa_gf2T12iaLmyI0Q\nhttps://drive.google.com/open?id=1DKavWbFptJ0ZkO005f77cusMKiqXnStf9RL6d4dtr60\n\n\n《2019/5/31追記》\nほんっとにギリギリすぎるタイミングで提出にこぎつけました。\n去年の紅白で間に合わなかったので再エントリーしたのですが、\nまたしてもお待たせしてしまい申し訳ありませんでした。\nもし不具合や誤植・計算ミスなどがありましたら教えていただければ幸いです",
+        "管理人コメント": "ツクールシリーズも長い。"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/icon/21.gif",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/21_1.png",
+          "local": "/screenshots/2019-gw/21-source-1.png",
+          "sha256": "479a13faa8c9b465c2a3c2ab15ef256312020eaad17239bad4f4ee2f830ab347"
+        },
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/21_2.png",
+          "local": "/screenshots/2019-gw/21-source-2.png",
+          "sha256": "e9d2c40a7628a7af7b1cd44c479affab288dac5ceff3fd3cd4927c25c85e9488"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2019gw_2/download/58",
+          "label": "11.9MB06/01修正"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-gw-work-22",
+      "no": "22",
+      "detailUrl": "https://viprpg2019gw.xxxxxxxx.jp/22.html",
+      "catalogue": {
+        "author": "うどん屋さん",
+        "category": "バニラでバリアがバイトするバカゲー",
+        "engine": "2000",
+        "streaming": "バニラ！・バニラ！"
+      },
+      "detailTitle": "バニラでバイトするバリア",
+      "sourceMetadata": {
+        "作者名": "うどん屋さん",
+        "使用ツール": "2000",
+        "ジャンル": "バニラでバリアがバイトするバカゲー",
+        "配信/投稿": "バニラ！・バニラ！",
+        "作者コメント": "バニラの求人見た～い～（バニラ！）\n見た～い～（バニラ？）\n見た～い～（バニラ♪）\nバニラの求人見た～い～\nニャニャニャーニャーニャニャーニャー（バニラ！）",
+        "管理人コメント": "よくティッシュとか配ってましたね。"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/icon/22.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/22.png",
+          "local": "/screenshots/2019-gw/22-source-1.png",
+          "sha256": "b8d5b0a78e162488d5f4c55a01aa2c663de223b43d668a71446c7f633cdcad3a"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2019gw_2/download/11",
+          "label": "3.6MB05/03修正"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-gw-work-23",
+      "no": "23",
+      "detailUrl": "https://viprpg2019gw.xxxxxxxx.jp/23.html",
+      "catalogue": {
+        "author": "ろーぷれつくろ～",
+        "category": "リメイク前と後の比較を楽しめるＲＰＧ",
+        "engine": "2000",
+        "streaming": "ご自由に/どうぞ"
+      },
+      "detailTitle": "もしもリメイク前とリメイク後だったら",
+      "sourceMetadata": {
+        "作者名": "ろーぷれつくろ～",
+        "使用ツール": "2000",
+        "ジャンル": "リメイク前と後の比較を楽しめるＲＰＧ",
+        "配信/投稿": "ご自由に/どうぞ",
+        "作者コメント": "ＧＷ祭り初参加！\n作者がツクールシリーズを触り始めて\n一番最初に完成させたＲＰＧを全力でリメイク！\nアレックスが魔王を倒すため一人で冒険する王道ＲＰＧ！\nそしてリメイク前のバージョンもまるごと収録！\nどちらか一方だけでも楽しめますが、\nリメイク前とリメイク後をそれぞれ比較しながらプレイすれば\nより楽しめるかも！？\n\n※注意\nこの作品はゲームフォルダが２つ存在します。（リメイク前とリメイク後で１つ ずつ）\nまたどちらのバージョンから始めても楽しめますが\nリメイク前→後の順番でプレイするとさらに楽しめると思います。",
+        "管理人コメント": "サルベージの鬼。"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/icon/23.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/23_1.png",
+          "local": "/screenshots/2019-gw/23-source-1.png",
+          "sha256": "c2aa16be9c81eee9445bda3df770187e8afd1cd402816a479688bc5cb779baab"
+        },
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/23_2.png",
+          "local": "/screenshots/2019-gw/23-source-2.png",
+          "sha256": "af77952223f97b03d51017fa7c40f53c7a09991b6ca2126117d3a94da5458442"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2019gw_2/download/54",
+          "label": "811KB05/30修正"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-gw-work-24",
+      "no": "24",
+      "detailUrl": "https://viprpg2019gw.xxxxxxxx.jp/24.html",
+      "catalogue": {
+        "author": "Aomatu_Spaghe",
+        "category": "ksg",
+        "engine": "2000",
+        "streaming": "すべて可"
+      },
+      "detailTitle": "VIPRPG時代が幕開けする裏で無数のウィンディが人柱となっていた（仮題）",
+      "sourceMetadata": {
+        "作者名": "Aomatu_Spaghe",
+        "使用ツール": "2000",
+        "ジャンル": "アクションかｋｓｇのいずれか",
+        "配信/投稿": "すべて可",
+        "作者コメント": "間に合えばちょっとしたアクションゲーを、\n間に合わなければウィンディが石にされるｋｓｇを出します\nなお、タイトルは仮題であり、変更される可能性があります。\nあしからずご了承ください。\n\nなおSSは、間に合った場合に提出するゲームのものです。",
+        "管理人コメント": "俺の屍を越えてゆけ。"
+      },
+      "metadataDifferences": [
+        {
+          "label": "ジャンル",
+          "catalogue": "ksg",
+          "detail": "アクションかｋｓｇのいずれか"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/icon/24.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/24_1.png",
+          "local": "/screenshots/2019-gw/24-source-1.png",
+          "sha256": "5faea7b01961f1fa1a370cb209e2b65795cfdbf26eeec1350fc61ab57fceb51d"
+        },
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/24_2.png",
+          "local": "/screenshots/2019-gw/24-source-2.png",
+          "sha256": "2b47de7da409bd8e280bd00e231a9582679a4c0b9f13ecff7338c3912fb820fc"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-gw-work-25",
+      "no": "25",
+      "detailUrl": "https://viprpg2019gw.xxxxxxxx.jp/25.html",
+      "catalogue": {
+        "author": "尼崎カオル",
+        "category": "アクションかｋｓｇのいずれか",
+        "engine": "2000",
+        "streaming": "可/可"
+      },
+      "detailTitle": "もしも花粉症だったら",
+      "sourceMetadata": {
+        "作者名": "尼崎カオル",
+        "使用ツール": "2000",
+        "ジャンル": "ksg",
+        "配信/投稿": "可/可",
+        "作者コメント": "これは・・・・\nこの悪夢の鼻水は\n間違いない",
+        "管理人コメント": "花粉症って本当辛いんです。"
+      },
+      "metadataDifferences": [
+        {
+          "label": "ジャンル",
+          "catalogue": "アクションかｋｓｇのいずれか",
+          "detail": "ksg"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/icon/25.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/25.png",
+          "local": "/screenshots/2019-gw/25-source-1.png",
+          "sha256": "795e5b9b55d0c3fc1fe52b645cc4a37d2ae69f1ae880ed828075ad5a4d07eedb"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2019gw_2/download/22",
+          "label": "2.0MB05/04提出"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-gw-work-26",
+      "no": "26",
+      "detailUrl": "https://viprpg2019gw.xxxxxxxx.jp/26.html",
+      "catalogue": {
+        "author": "（R）DU",
+        "category": "学校探索ADV",
+        "engine": "RPGツクール２０００",
+        "streaming": "両方OK"
+      },
+      "detailTitle": "SPYCHI ～虚ろなる貴女の綻糸を辿って～",
+      "sourceMetadata": {
+        "作者名": "（R）DU",
+        "使用ツール": "RPGツクール２０００",
+        "ジャンル": "学校探索ADV",
+        "配信/投稿": "両方OK",
+        "作者コメント": "ホワイトデー当日、\n   スパイチが名前の書いてないメッセージカードが付いた謎のチョコをくれた\n   女の子を探し出す謎解きADVゲーム…っぽいノリの\n   いつもの具現化同士のゆるーい見るゲです。\n　\n  \n　以前スレで上げた「SPANEY ～親愛なる貴方へ～」という見るゲの続編なのですが、 \n  こちらは内容が内容だけにがっつり今作のファイナルアンサーになってますので、\n   誰なのか探りながらプレイしたい人はこのゲームの後にプレイする事を推奨です。\n　既にプレイ済みの方は頭の堅いスパイチを本当の答えに導いてあげましょう。\n\n※最後に\n　ドマイナーなCP要素と、若干おねショタ要素があります。\n　苦手な人は注意してください。",
+        "管理人コメント": "ADVって文字を見るだけでwktkします。"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/icon/26.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/26_1.png",
+          "local": "/screenshots/2019-gw/26-source-1.png",
+          "sha256": "214ad7e735986b82e92dc31769816b7c924f9e7b5542e89b176404f257073ea4"
+        },
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/26_2.png",
+          "local": "/screenshots/2019-gw/26-source-2.png",
+          "sha256": "5b18451a88e4fdfe0058ddbe8937281484c90efb9d476e1d57035933926e099e"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2019gw_2/download/55",
+          "label": "14.6MB05/31修正"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-gw-work-27",
+      "no": "27",
+      "detailUrl": "https://viprpg2019gw.xxxxxxxx.jp/27.html",
+      "catalogue": {
+        "author": "ＵＮＫＯ",
+        "category": "読むゲ",
+        "engine": "2000",
+        "streaming": "-----"
+      },
+      "detailTitle": "ウンコヴィック最後の闘い　後書き",
+      "sourceMetadata": {
+        "作者名": "ＵＮＫＯ",
+        "使用ツール": "2000",
+        "ジャンル": "読むゲ",
+        "配信/投稿": "-----",
+        "作者コメント": "紅白2018作品の疑問について解説",
+        "管理人コメント": "ウォシュレットを使ったことがありません。"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/icon/sample.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/27.jpg",
+          "local": "/screenshots/2019-gw/27-source-1.jpg",
+          "sha256": "b63d5c6d36d16e3d214bf63c7defb324a6a66aa064004a50cbaa7189e9108a9c"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-gw-work-28",
+      "no": "28",
+      "detailUrl": "https://viprpg2019gw.xxxxxxxx.jp/28.html",
+      "catalogue": {
+        "author": "いぶりが",
+        "category": "ksg",
+        "engine": "steam版2003",
+        "streaming": "自己責任で"
+      },
+      "detailTitle": "クレアス「ksg4つまとめた」",
+      "sourceMetadata": {
+        "作者名": "いぶりが",
+        "使用ツール": "steam版2003",
+        "ジャンル": "ksg",
+        "配信/投稿": "自己責任で",
+        "作者コメント": "クレアスの一言から始まる闇勇者4人＋αの日常系ksg×4\n画面は上記スクショからほぼ変わらない仕様\n祭り初参加です",
+        "管理人コメント": "犬飼いたい。"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/icon/sample.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/28.png",
+          "local": "/screenshots/2019-gw/28-source-1.png",
+          "sha256": "caa09ac56541b24a0c8c45b43c8d1be4f5c0841eaae9e5f0a3c7aa63f1c92826"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2019gw_2/download/27",
+          "label": "1.1MB05/05提出"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-gw-work-29",
+      "no": "29",
+      "detailUrl": "https://viprpg2019gw.xxxxxxxx.jp/29.html",
+      "catalogue": {
+        "author": "アレックスと言ったらアレックス",
+        "category": "ハーピィ系、デフォ戦、ｋｓｇ、ＲＰＧ",
+        "engine": "2000varue!",
+        "streaming": "可能、しかし配信映えするのか・・・"
+      },
+      "detailTitle": "ハーピィスラッシュ",
+      "sourceMetadata": {
+        "作者名": "アレックスと言ったらアレックス",
+        "使用ツール": "2000varue!",
+        "ジャンル": "ハーピィ系、デフォ戦、ｋｓｇ、ＲＰＧ",
+        "配信/投稿": "可能、しかし配信映えするのか・・・",
+        "作者コメント": "祭り初参戦\nハーピィキャラしか登場せず、\n１ステージ１０分の制限時間内で中身ランダムの宝を漁りながら\nひたすら経験値とお金を稼いで\nそれを８ステージ繰り返して\n魔王ハーピィを倒すだけ\n\n特に目新しいシステムもなく\nゲームバランスもＶＩＰの設定も知ったこっちゃねえレベルのガバガバの問題作\n\nなんで作ったかなんて言わないで",
+        "管理人コメント": "自分の心に正直なところが良いですね。"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/icon/29.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/29_1.png",
+          "local": "/screenshots/2019-gw/29-source-1.bmp",
+          "sha256": "3a69027cce3bf94e11c36e5d947d41d0892b46617542efa9aeefdf877ed4de09"
+        },
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/29_2.png",
+          "local": "/screenshots/2019-gw/29-source-2.bmp",
+          "sha256": "005a03768f9f23b189be6800696fe91ac9863fe57d8923344a4e7e1f2771bbbb"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2019gw_2/download/28",
+          "label": "11.5MB05/06提出"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-gw-work-30",
+      "no": "30",
+      "detailUrl": "https://viprpg2019gw.xxxxxxxx.jp/30.html",
+      "catalogue": {
+        "author": "真面目なゲームしか作れない症候群",
+        "category": "ひたすら会話するだけのksg",
+        "engine": "2000",
+        "streaming": "可可"
+      },
+      "detailTitle": "こうもりさんと楽しい人狼",
+      "sourceMetadata": {
+        "作者名": "真面目なゲームしか作れない症候群",
+        "使用ツール": "2000",
+        "ジャンル": "ひたすら会話するだけのksg",
+        "配信/投稿": "可可",
+        "作者コメント": "あるとき、私は思ったのです。\n「今まで気になってたけど使う機会のなかったキャラにひたすら駄弁らせたい！」と。\nそんな熱い想いから出来上がったのがこのksgです。\n\nひたすら会話。\nひたすら会話。\nひたすら会話。\n\n会話オンリー。\n\nし　あ　わ　せ。",
+        "管理人コメント": "安定の犠牲者。"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/icon/30.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/30_1.png",
+          "local": "/screenshots/2019-gw/30-source-1.png",
+          "sha256": "5ef63539daf0a09b743e20dd9900897022b7a04a673e54df2e1274bda834c542"
+        },
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/30_2.png",
+          "local": "/screenshots/2019-gw/30-source-2.png",
+          "sha256": "e0154c9af1f52af97eed0af19fc864e6469ba0b4ffcb47bee37207783f0d73cf"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2019gw_2/download/46",
+          "label": "912KB05/20修正"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-gw-work-31",
+      "no": "31",
+      "detailUrl": "https://viprpg2019gw.xxxxxxxx.jp/31.html",
+      "catalogue": {
+        "author": "放射能の恐怖",
+        "category": "社会派ほのぼの見るゲ",
+        "engine": "Steam2003",
+        "streaming": "好きにしろ"
+      },
+      "detailTitle": "ドラゴンはあなたのごはんじゃない",
+      "sourceMetadata": {
+        "作者名": "放射能の恐怖",
+        "使用ツール": "Steam2003",
+        "ジャンル": "社会派ほのぼの見るゲ",
+        "配信/投稿": "好きにしろ",
+        "作者コメント": "ドラゴンには、感覚があり、意識があり、そのドラゴンらしい生き方があります。\nドラゴンたちは人の”所有物”ではありません。\nドラゴンを食べ物としてみるのをやめると、社会の裏側が見えてきます。\n虐げられるドラゴンたちの苦しみに、気がついてほしい。\nこんなにも愛らしく頭のよいドラゴンたちが、残酷に殺されていく現実に目を向けてほしい。\nそんな気持ちを込めて今から作ります。",
+        "管理人コメント": "ドラゴンって食べるんでしょうか。"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/icon/31.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/31_1.png",
+          "local": "/screenshots/2019-gw/31-source-1.png",
+          "sha256": "5454298ec7043d492f8fddf448da7d12b185b4bab4a279e92d9eefce5c3b9a11"
+        },
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/31_2.png",
+          "local": "/screenshots/2019-gw/31-source-2.png",
+          "sha256": "6c5dd75221f0cfb95667efe72d98bfd91e4378fc2842c42cb435b1da4aff30fd"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-gw-work-32",
+      "no": "32",
+      "detailUrl": "https://viprpg2019gw.xxxxxxxx.jp/32.html",
+      "catalogue": {
+        "author": "甘藍　制作協力：れーえ",
+        "category": "エロゲ",
+        "engine": "RPGツクール2000",
+        "streaming": "自己責任でどうぞ/だめ"
+      },
+      "detailTitle": "少女は自ら堕ちていく",
+      "sourceMetadata": {
+        "作者名": "甘藍　制作協力：れーえ",
+        "使用ツール": "RPGツクール2000",
+        "ジャンル": "エロゲ",
+        "配信/投稿": "自己責任でどうぞ/だめ",
+        "作者コメント": "甘藍：リナックスがかわいいのでもっとかわいくなることをしました。\nれーえ：ミナトンシナリオ担当です。今回は世界線が完全に違うという事で思い切りやってみました。",
+        "管理人コメント": "紳士の嗜み。"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/icon/32.gif",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/32_1.png",
+          "local": "/screenshots/2019-gw/32-source-1.png",
+          "sha256": "0384bebf6d4f240060e71aeb83bb46f74a3b0c5099be7019376b8ebba7a027d0"
+        },
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/32_2.png",
+          "local": "/screenshots/2019-gw/32-source-2.png",
+          "sha256": "5880e61028096b45d348bca29985ef075a1357f8d73bd7d7f92dcb0a5339bf66"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2019gw_2/download/40",
+          "label": "8.5MB05/15提出"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-gw-work-33",
+      "no": "33",
+      "detailUrl": "https://viprpg2019gw.xxxxxxxx.jp/33.html",
+      "catalogue": {
+        "author": "名雲きつね",
+        "category": "かわいそうななすーんでヌくエロゲ",
+        "engine": "Steam2003",
+        "streaming": "自己責任"
+      },
+      "detailTitle": "なす虐め",
+      "sourceMetadata": {
+        "作者名": "名雲きつね",
+        "使用ツール": "Steam2003",
+        "ジャンル": "かわいそうななすーんでヌくエロゲ",
+        "配信/投稿": "自己責任",
+        "作者コメント": "定期的に胸糞ゲーを出さないと死んでしまう作者のなすーんエロゲです。\n胸糞展開やロリや自作絵等の苦手な方はプレイ非推奨、未成年はDL禁止です。\n\n過去に出したなすーん関連のゲームと世界観自体は同じで少し過去の時間軸ですが、\nそれらのゲームに直接繋がらないエンディングを予定しています。",
+        "管理人コメント": "優しい学友に囲まれるんでしょうね。"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/icon/33.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/33_1.png",
+          "local": "/screenshots/2019-gw/33-source-1.png",
+          "sha256": "caa1b3d02d6be481a9541f0b00fb87fcaf8d537de5d2d64e994f64b48c13d1e9"
+        },
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/33_2.png",
+          "local": "/screenshots/2019-gw/33-source-2.png",
+          "sha256": "8459769cdd23f8e01b134fdf670dc89e1203fd6655ff62094ce7a00dda418445"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2019gw_2/download/50",
+          "label": "81.4MB05/28提出"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-gw-work-34",
+      "no": "34",
+      "detailUrl": "https://viprpg2019gw.xxxxxxxx.jp/34.html",
+      "catalogue": {
+        "author": "C#大好き丸",
+        "category": "ツール",
+        "engine": "C#他",
+        "streaming": "o/o"
+      },
+      "detailTitle": "もしも俺々仕様のRPGツクールローダーがあったら v2",
+      "sourceMetadata": {
+        "作者名": "C#大好き丸",
+        "使用ツール": "C#他",
+        "ジャンル": "ツール",
+        "配信/投稿": "o/o",
+        "作者コメント": "# MoshimoLoader ～もしも俺々仕様のRPGツクールローダーがあったら～ v2\n更新内容が溜まってきたので提出します。\nシンプルにするため、バージョンがv0.1.2からv2へ飛びました。\n注意点は前バージョンと同様です。\n\n前バージョンから更新する場合は\nData\\TreeCache.xml を削除した後に、今回のexeやDLL等で上書きして起動すると\n正しく追加内容などが反映されるはずです。\n\n## 追加機能\n* 2k/2k3作品について、Steam版かどうかも判定されるようになりました。\n  Steam版作品の場合、「種類」の表示が「2kS」「2k3S」と末尾にSのついた表示になります。\n  なおSteam版作品はRPG_RT.exeを同梱していると思われるため、\n  EXE抜きSteam版作品用のRPG_RT.exeを置くフォルダーは用意していません。\n* 実行ファイル同梱かどうかを表示するようになりました。\n  同梱時は「ゲーム起動」ボタンの左側に「E」と表示します。\n  どのRPGツクール種類の場合に表示するかは、設定画面にて変更できます。\n* RPGツクールMVの場合でも、起動オプション「テストプレイ」が反映されるようになりました。\n  これで全てのRPGツクール種類で「テストプレイ」が反映されるようになりました。\n* ビューアーで.txtファイルの文字コードを自動判別する機能を追加しました。\n  ビューアーの「文字コード」箇所にて選択できます。\n  なお誤判定する場合もあります。\n* ビューアーでインタネットショートカットファイルを選択している場合に\n  ハイパーリンク箇所で右クリックメニューを表示するようになりました。\n  リンク先のURLをクリップボードにコピー出来ます。\n* ファイルやフォルダーのコピーや移動、削除等の処理中に\n  処理対象のファイル名等を表示するかを制御するオプションが追加されました。\n  設定画面から変更できます。\n* EXE抜きゲームの起動時に、ゲームフォルダーの更新日時を維持するかを制御するオプションが追加されました。\n  設定画面から変更できます。\n* 起動オプション「メモスト対策」が、対策内容が増えて「メモスト対策等」になりました。\n  詳細はreadmeの「ゲーム起動の技術的説明」をご参照ください。\n* 「ファイル」メニューに「アプリケーションの場所をエクスプローラーで開く」が追加されました。\n  トップフォルダーのパスを離れた場所に設定している場合に便利です。\n* RPGツクールMV作品にGame.exeではなくnw.exeが同梱されている場合でも起動できるようになりました。\n\n注意点や他の変更内容、修正点等はreadme.txtをご参照ください。",
+        "管理人コメント": "しゅごい。"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/icon/34.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/34.png",
+          "local": "/screenshots/2019-gw/34-source-1.png",
+          "sha256": "42305708dc271cf4607cba91c947570e6a1d593888e6c088c7cac52f674cdce1"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2019gw_2/download/41",
+          "label": "2.3MB05/15提出"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-gw-work-35",
+      "no": "35",
+      "detailUrl": "https://viprpg2019gw.xxxxxxxx.jp/35.html",
+      "catalogue": {
+        "author": "黒糖まんじゅう",
+        "category": "見るゲ",
+        "engine": "ＲＰＧツクール2000ＶＡＬＵＥ！＋",
+        "streaming": "自己責任でお願いします"
+      },
+      "detailTitle": "デトックスラジオ　コレクション",
+      "sourceMetadata": {
+        "作者名": "黒糖まんじゅう",
+        "使用ツール": "ＲＰＧツクール2000ＶＡＬＵＥ！＋",
+        "ジャンル": "見るゲ",
+        "配信/投稿": "自己責任でお願いします",
+        "作者コメント": "ジオシティーズのサービス終了の件を受け、今後の為に必要になるかと思いまして\nこれまで地味～に続けてきたデトックスラジオシリーズを一作品にまとめました。まとめています（現在進行形）\n更新終了に間に合うようであれば新規のエピソード等も盛り込みたいと思います",
+        "管理人コメント": "声は電波にのって。"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/icon/35.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/35_1.png",
+          "local": "/screenshots/2019-gw/35-source-1.png",
+          "sha256": "f11a210d71e9ed591d506d3908ce8efa3fc43605959d9bd78d8042ed1ded3120"
+        },
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/35_2.png",
+          "local": "/screenshots/2019-gw/35-source-2.png",
+          "sha256": "5c31cfb11ae5e554eb5c2cb2274064a11cb6b6e1605fd4f4db89303dbe186fe5"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2019gw_2/download/57",
+          "label": "36.2MB06/01提出"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-gw-work-36",
+      "no": "36",
+      "detailUrl": "https://viprpg2019gw.xxxxxxxx.jp/36.html",
+      "catalogue": {
+        "author": "鷹",
+        "category": "多分明日は来ない",
+        "engine": "2000",
+        "streaming": "お好きなように"
+      },
+      "detailTitle": "終天",
+      "sourceMetadata": {
+        "作者名": "鷹",
+        "使用ツール": "2000",
+        "ジャンル": "多分明日は来ない",
+        "配信/投稿": "お好きなように",
+        "作者コメント": "その世界に、もう明日が訪れることはない。\nいつかどこかの、ありふれた世界の終末。\n \n \n \n \n \nこんなこと言ってますが、今から作るので3日ぐらい時間を下さい。",
+        "管理人コメント": "世界が終わる夜に。"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/icon/36.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/36.png",
+          "local": "/screenshots/2019-gw/36-source-1.png",
+          "sha256": "0452ee61b86145fe2be1cdfe548976d4f52472bd21dbce39d56202d1fa733a04"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2019gw_2/download/47",
+          "label": "6.0MB05/20提出"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-gw-work-37",
+      "no": "37",
+      "detailUrl": "https://viprpg2019gw.xxxxxxxx.jp/37.html",
+      "catalogue": {
+        "author": "ウニトマ",
+        "category": "ミステリー風探索ゲー",
+        "engine": "RPGツクール2000",
+        "streaming": "可/可"
+      },
+      "detailTitle": "愛をおしえて／廃洋館連続殺人事件",
+      "sourceMetadata": {
+        "作者名": "ウニトマ",
+        "使用ツール": "RPGツクール2000",
+        "ジャンル": "ミステリー風探索ゲー",
+        "配信/投稿": "可/可",
+        "作者コメント": "殺人事件の起きた洋館から脱出するゲーム（予定）残虐なシーンはないのでお子様でもプレイできます（予定）まあ今月中には完成するやろ（予定）",
+        "管理人コメント": "クラシカルな題材ですね。"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/icon/sample.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/ss/37.png",
+          "local": "/screenshots/2019-gw/37-source-1.png",
+          "sha256": "51e81f0397e1a546b3c0ba98dcb36977d1c7061a6a9f07b8f946e4e9ecbac082"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    }
+  ],
+  "bannerSources": [
+    {
+      "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/banner/GW19.png",
+      "local": "/banners/2019-gw/source-1.png",
+      "sha256": "a7ae4179dcc876d6aae70dce44005c0d2cc1f0557f1a771cc8a461810d2d2a40"
+    },
+    {
+      "sourceUrl": "https://viprpg2019gw.xxxxxxxx.jp/banner/GW19_2.png",
+      "local": "/banners/2019-gw/source-2.png",
+      "sha256": "d58be35fa33b53a55bf06ad19a31684e3f9afa84d4b6548b88427f925d7d914e"
+    }
+  ],
+  "handling": "Official source address confirmed from captured 2021 GW historical link. Preserve all 38 source records including sakuhin sample, original screenshot roles and both comments. No topic or pixel screening; no game packages downloaded or executed.",
+  "desktopReview": "passed-desktop-only",
+  "desktopEvidence": "desktop-review.json"
+}
