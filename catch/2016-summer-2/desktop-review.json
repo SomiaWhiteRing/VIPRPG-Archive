@@ -1,0 +1,88 @@
+{
+  "festivalId": "2016-summer-2",
+  "reviewedAt": "2026-10-20T23:48:33.394Z",
+  "scope": "Desktop only; metadata, identifiers, geometry, loading and controls. No topic or pixel review.",
+  "viewport": [
+    1280,
+    720
+  ],
+  "original": {
+    "roster": 58,
+    "cssAuthorsRendered": 58,
+    "indexImages": 122,
+    "badImages": 0,
+    "clientWidth": 1168,
+    "scrollWidth": 1168,
+    "entriesMouseClickedFromRoster": 58,
+    "entriesReturnedToRoster": 58,
+    "detailBadImages": 0,
+    "detailPendingImages": 0,
+    "detailHorizontalOverflow": 0,
+    "popup": {
+      "naturalWidth": 640,
+      "x": 131.875,
+      "y": 47.796875,
+      "localImage": true,
+      "clearedOnMouseOut": true,
+      "sandboxUnchanged": true
+    },
+    "sample000": {
+      "sourcePageLoaded": true,
+      "images": 2,
+      "pending": 0,
+      "registeredAsWork": false
+    },
+    "forum": {
+      "entry": "001",
+      "charset": "UTF-8",
+      "posts": 4,
+      "forms": 0,
+      "enabledInputs": 0,
+      "badImages": 0
+    }
+  },
+  "formatted": {
+    "entries": 58,
+    "images": 74,
+    "badImages": 0,
+    "pendingImages": 0,
+    "horizontalOverflow": 0,
+    "clientWidth": 1265,
+    "viewer": {
+      "entry": "007",
+      "secondScreenshot": "007-source-2.png",
+      "next": true,
+      "close": true,
+      "escape": true
+    },
+    "patchLinkVisible": {
+      "entry": "002",
+      "label": "原一覧：修正パッチ"
+    }
+  },
+  "home": {
+    "uniqueWorks": 58,
+    "images": 59,
+    "loadedImages": 59,
+    "rootWidth": 1265,
+    "rootScroll": 1265,
+    "lastEntry": "058",
+    "lastEntryAndBack": true
+  },
+  "checks": {
+    "validateData": true,
+    "lint": true,
+    "buildPages": 4218,
+    "rawCaptureReferences": 288,
+    "originalFiles": 287,
+    "staticLocalReferences": 953,
+    "eventImageReferences": 144,
+    "httpPayloads": 420,
+    "httpSha256Matched": 420,
+    "missingResources": 0
+  },
+  "limitations": [
+    "No mobile acceptance or game-package execution.",
+    "Genre labels retained from the existing taxonomy because the publisher genre-image URLs are unchanged; no pixel interpretation."
+  ]
+}

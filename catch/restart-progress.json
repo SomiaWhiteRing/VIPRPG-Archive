@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2016-summer-2",
+  "activeFestival": null,
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -2205,6 +2205,25 @@
         "catch/2016-summer/investigation/local-http-payloads.json"
       ],
       "notes": "日本原站301关闭、atwiki当前403，香港Wayback前缀939记录恢复6HTML／96图像，102载荷CDX摘要核验。50编号／题名不变，Ⅺ仅编号映射11，99留言字段全文一致。旧0图现94个来源预览／截图引用；来源无独立图标，下载预览复作目录缩略图，2横幅、31配布来源保留。原貌50表／71图和全部19图库入口锚点／返回、三个图库44图及参加说明通过；整理版50详情／94图无坏图，39预格式文本局部滚动使页面1365→1265且原文未改。原貌主表保留1284px排版，框1168px内横滚。九图查看器／关闭／Esc、首页50唯一作品／52图／末项往返通过。102原貌文件／174引用闭合，198发布文件HTTP／SHA一致；4217页构建、lint、数据校验通过。不审看题材／像素，不新增受限，不下载或执行游戏包。"
+    },
+    {
+      "festivalId": "2016-summer-2",
+      "reviewedAt": "2026-10-20T23:48:33.411Z",
+      "dataSha256": "be2fdf63dce815d32b16171b987ce72953202f68a6902836e76f8f9dc4842cbe",
+      "works": 58,
+      "screenshotFiles": 148,
+      "status": "reviewed",
+      "sourceEvidence": [
+        "catch/2016-summer-2/recovery.json",
+        "catch/2016-summer-2/source/live/manifest.json",
+        "catch/2016-summer-2/source/resources/manifest.json",
+        "catch/2016-summer-2/investigation/data-reconciliation.json"
+      ],
+      "desktopEvidence": [
+        "catch/2016-summer-2/desktop-review.json",
+        "catch/2016-summer-2/investigation/local-http-payloads.json"
+      ],
+      "notes": "日本可访问源站归档60站内HTML（含未登记000样例）／58实际论坛／169资源，288载荷摘要核验。58编号题名不变，115留言字段全文匹配；CSS作者／引擎58项解析，类型图URL逐项不变，保留类别，隔行黄色不推断迟到分组。58图标／74截图，旧74全部字节对应，补回9补丁入口。旧popupCenter接口改用本地图片和有效固定坐标，去除托管跟踪，原字节保留，HTML／CSS转UTF-8。原貌58目录点击／返回、640px悬停复位、000样例与论坛只读实测；整理58详情74图、查看器、补丁按钮、首页58项59图末项往返通过，无坏图／溢出。287原貌文件／953静态及144事件引用闭合，420发布路径HTTP／SHA相同，4218页构建／lint／数据校验通过。不审看题材／像素，不新增受限，不下载或执行游戏包。"
     }
   ],
   "originalViewsReviewed": [
@@ -2721,6 +2740,13 @@
       "evidence": [
         "catch/2016-summer/original-view.json",
         "catch/2016-summer/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2016-summer-2",
+      "evidence": [
+        "catch/2016-summer-2/original-view.json",
+        "catch/2016-summer-2/desktop-review.json"
       ]
     }
   ],

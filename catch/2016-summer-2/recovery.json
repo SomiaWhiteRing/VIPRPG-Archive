@@ -1,0 +1,2079 @@
+{
+  "festivalId": "2016-summer-2",
+  "originalBase": "http://viprpgsummer2016.web.fc2.com/",
+  "entryPage": "index.html",
+  "liveSource": true,
+  "originalResources": {
+    "http://viprpgsummer2016.web.fc2.com/gomes.png": "assets/asset-3.png",
+    "http://viprpgsummer2016.web.fc2.com/summer.png": "assets/asset-1.png",
+    "http://viprpgsummer2016.web.fc2.com/gw_style.css": "assets/asset-0.css",
+    "http://viprpgsummer2016.web.fc2.com/URAsummer2016.png": "assets/asset-2.png",
+    "http://viprpgsummer2016.web.fc2.com/i_2.png": "assets/asset-6.png",
+    "http://viprpgsummer2016.web.fc2.com/genreSHOWYOU.png": "assets/asset-7.png",
+    "http://viprpgsummer2016.web.fc2.com/genreNAZO.png": "assets/asset-5.png",
+    "http://viprpgsummer2016.web.fc2.com/i_nazo.png": "assets/asset-4.png",
+    "http://viprpgsummer2016.web.fc2.com/i_3.png": "assets/asset-8.png",
+    "http://viprpgsummer2016.web.fc2.com/genreIROIRO.png": "assets/asset-9.png",
+    "http://viprpgsummer2016.web.fc2.com/i_4.png": "assets/asset-10.png",
+    "http://viprpgsummer2016.web.fc2.com/genreMIRUGE.png": "assets/asset-11.png",
+    "http://viprpgsummer2016.web.fc2.com/i_5.png": "assets/asset-12.png",
+    "http://viprpgsummer2016.web.fc2.com/genreERG.png": "assets/asset-13.png",
+    "http://viprpgsummer2016.web.fc2.com/i_yaruge.png": "assets/asset-14.png",
+    "http://viprpgsummer2016.web.fc2.com/genreRPG.png": "assets/asset-15.png",
+    "http://viprpgsummer2016.web.fc2.com/i_7.png": "assets/asset-16.png",
+    "http://viprpgsummer2016.web.fc2.com/i_yaruksg.png": "assets/asset-17.png",
+    "http://viprpgsummer2016.web.fc2.com/genreKSG.png": "assets/asset-18.png",
+    "http://viprpgsummer2016.web.fc2.com/i_9.png": "assets/asset-19.png",
+    "http://viprpgsummer2016.web.fc2.com/i_10.png": "assets/asset-20.png",
+    "http://viprpgsummer2016.web.fc2.com/i_11.png": "assets/asset-21.png",
+    "http://viprpgsummer2016.web.fc2.com/i_12.png": "assets/asset-22.png",
+    "http://viprpgsummer2016.web.fc2.com/i_13.gif": "assets/asset-23.gif",
+    "http://viprpgsummer2016.web.fc2.com/genreACT.png": "assets/asset-24.png",
+    "http://viprpgsummer2016.web.fc2.com/i_miruge.png": "assets/asset-25.png",
+    "http://viprpgsummer2016.web.fc2.com/i_15.png": "assets/asset-26.png",
+    "http://viprpgsummer2016.web.fc2.com/genrePUZZLE.png": "assets/asset-27.png",
+    "http://viprpgsummer2016.web.fc2.com/i_17.png": "assets/asset-29.png",
+    "http://viprpgsummer2016.web.fc2.com/i_16.jpg": "assets/asset-28.jpg",
+    "http://viprpgsummer2016.web.fc2.com/i_18.png": "assets/asset-30.png",
+    "http://viprpgsummer2016.web.fc2.com/i_19.png": "assets/asset-31.png",
+    "http://viprpgsummer2016.web.fc2.com/i_ksg.png": "assets/asset-32.png",
+    "http://viprpgsummer2016.web.fc2.com/i_21.png": "assets/asset-33.png",
+    "http://viprpgsummer2016.web.fc2.com/genreMOS.png": "assets/asset-34.png",
+    "http://viprpgsummer2016.web.fc2.com/i_22.gif": "assets/asset-35.gif",
+    "http://viprpgsummer2016.web.fc2.com/genredRPG.png": "assets/asset-36.png",
+    "http://viprpgsummer2016.web.fc2.com/i_23.png": "assets/asset-37.png",
+    "http://viprpgsummer2016.web.fc2.com/genrekACT.png": "assets/asset-38.png",
+    "http://viprpgsummer2016.web.fc2.com/i_27.png": "assets/asset-39.png",
+    "http://viprpgsummer2016.web.fc2.com/genresACT.png": "assets/asset-40.png",
+    "http://viprpgsummer2016.web.fc2.com/genreTOOL.png": "assets/asset-42.png",
+    "http://viprpgsummer2016.web.fc2.com/i_30.png": "assets/asset-43.png",
+    "http://viprpgsummer2016.web.fc2.com/genreGAMU.png": "assets/asset-44.png",
+    "http://viprpgsummer2016.web.fc2.com/genreKSG2.png": "assets/asset-45.png",
+    "http://viprpgsummer2016.web.fc2.com/i_32.png": "assets/asset-46.png",
+    "http://viprpgsummer2016.web.fc2.com/i_28.png": "assets/asset-41.png",
+    "http://viprpgsummer2016.web.fc2.com/i_33.png": "assets/asset-47.png",
+    "http://viprpgsummer2016.web.fc2.com/i_34.png": "assets/asset-48.png",
+    "http://viprpgsummer2016.web.fc2.com/genreKSG3.png": "assets/asset-49.png",
+    "http://viprpgsummer2016.web.fc2.com/i_35.png": "assets/asset-50.png",
+    "http://viprpgsummer2016.web.fc2.com/genreUNKO.png": "assets/asset-51.png",
+    "http://viprpgsummer2016.web.fc2.com/i_36.png": "assets/asset-52.png",
+    "http://viprpgsummer2016.web.fc2.com/genreTANSAKU.png": "assets/asset-53.png",
+    "http://viprpgsummer2016.web.fc2.com/i_37.png": "assets/asset-54.png",
+    "http://viprpgsummer2016.web.fc2.com/genreSENRYAKU.png": "assets/asset-55.png",
+    "http://viprpgsummer2016.web.fc2.com/i_38.gif": "assets/asset-56.gif",
+    "http://viprpgsummer2016.web.fc2.com/genreDEFOKSG.png": "assets/asset-57.png",
+    "http://viprpgsummer2016.web.fc2.com/i_39.png": "assets/asset-58.png",
+    "http://viprpgsummer2016.web.fc2.com/genreMIRUGEr15g.png": "assets/asset-59.png",
+    "http://viprpgsummer2016.web.fc2.com/i_40.png": "assets/asset-60.png",
+    "http://viprpgsummer2016.web.fc2.com/i_42.png": "assets/asset-61.png",
+    "http://viprpgsummer2016.web.fc2.com/genreMIRUKSG.png": "assets/asset-62.png",
+    "http://viprpgsummer2016.web.fc2.com/i_43.png": "assets/asset-63.png",
+    "http://viprpgsummer2016.web.fc2.com/i_44.png": "assets/asset-64.png",
+    "http://viprpgsummer2016.web.fc2.com/genreYARUGE.png": "assets/asset-65.png",
+    "http://viprpgsummer2016.web.fc2.com/i_46.png": "assets/asset-66.png",
+    "http://viprpgsummer2016.web.fc2.com/genreHUSIGI.png": "assets/asset-67.png",
+    "http://viprpgsummer2016.web.fc2.com/genreARPG.png": "assets/asset-68.png",
+    "http://viprpgsummer2016.web.fc2.com/i_53.gif": "assets/asset-69.gif",
+    "http://viprpgsummer2016.web.fc2.com/genreTANSAKURPG.png": "assets/asset-70.png",
+    "http://viprpgsummer2016.web.fc2.com/i_55.png": "assets/asset-71.png",
+    "http://viprpgsummer2016.web.fc2.com/i_56.png": "assets/asset-72.png",
+    "http://viprpgsummer2016.web.fc2.com/genreHOROR.png": "assets/asset-73.png",
+    "http://viprpgsummer2016.web.fc2.com/genreOKSG.png": "assets/asset-74.png",
+    "http://viprpgsummer2016.web.fc2.com/i_58.png": "assets/asset-75.png",
+    "http://viprpgsummer2016.web.fc2.com/king.gif": "assets/asset-76.gif",
+    "http://viprpgsummer2016.web.fc2.com/barabara.gif": "assets/asset-77.gif",
+    "http://viprpgsummer2016.web.fc2.com/okotowari.gif": "assets/asset-78.gif",
+    "http://media.fc2.com/counter_img.php?id=50": "assets/asset-79.gif",
+    "http://viprpgsummer2016.web.fc2.com/ss002.png": "assets/asset-81.png",
+    "http://viprpgsummer2016.web.fc2.com/ss004.png": "assets/asset-83.png",
+    "http://viprpgsummer2016.web.fc2.com/ss001.png": "assets/asset-80.png",
+    "http://viprpgsummer2016.web.fc2.com/ss003.png": "assets/asset-82.png",
+    "http://viprpgsummer2016.web.fc2.com/ss006.png": "assets/asset-85.png",
+    "http://viprpgsummer2016.web.fc2.com/ss007-2.png": "assets/asset-87.png",
+    "http://viprpgsummer2016.web.fc2.com/ss008.png": "assets/asset-88.png",
+    "http://viprpgsummer2016.web.fc2.com/ss007.png": "assets/asset-86.png",
+    "http://viprpgsummer2016.web.fc2.com/ss005.png": "assets/asset-84.png",
+    "http://viprpgsummer2016.web.fc2.com/ss009.png": "assets/asset-89.png",
+    "http://viprpgsummer2016.web.fc2.com/ss010.gif": "assets/asset-90.gif",
+    "http://viprpgsummer2016.web.fc2.com/ss011.png": "assets/asset-91.png",
+    "http://viprpgsummer2016.web.fc2.com/ss011-2.png": "assets/asset-92.png",
+    "http://viprpgsummer2016.web.fc2.com/ss013.png": "assets/asset-94.png",
+    "http://viprpgsummer2016.web.fc2.com/ss014.png": "assets/asset-95.png",
+    "http://viprpgsummer2016.web.fc2.com/ss015.png": "assets/asset-96.png",
+    "http://viprpgsummer2016.web.fc2.com/ss016.jpg": "assets/asset-97.jpg",
+    "http://viprpgsummer2016.web.fc2.com/ss012.png": "assets/asset-93.png",
+    "http://viprpgsummer2016.web.fc2.com/ss016-2.jpg": "assets/asset-98.jpg",
+    "http://viprpgsummer2016.web.fc2.com/ss017.png": "assets/asset-99.png",
+    "http://viprpgsummer2016.web.fc2.com/ss017-2.png": "assets/asset-100.png",
+    "http://viprpgsummer2016.web.fc2.com/ss018.png": "assets/asset-101.png",
+    "http://viprpgsummer2016.web.fc2.com/ss020.png": "assets/asset-103.png",
+    "http://viprpgsummer2016.web.fc2.com/ss019.png": "assets/asset-102.png",
+    "http://viprpgsummer2016.web.fc2.com/ss022.png": "assets/asset-105.png",
+    "http://viprpgsummer2016.web.fc2.com/ss022-2.png": "assets/asset-106.png",
+    "http://viprpgsummer2016.web.fc2.com/ss021.png": "assets/asset-104.png",
+    "http://viprpgsummer2016.web.fc2.com/ss023.png": "assets/asset-107.png",
+    "http://viprpgsummer2016.web.fc2.com/ss024.png": "assets/asset-108.png",
+    "http://viprpgsummer2016.web.fc2.com/ss024-2.png": "assets/asset-109.png",
+    "http://viprpgsummer2016.web.fc2.com/ss025.png": "assets/asset-110.png",
+    "http://viprpgsummer2016.web.fc2.com/ss026.png": "assets/asset-111.png",
+    "http://viprpgsummer2016.web.fc2.com/ss027.png": "assets/asset-112.png",
+    "http://viprpgsummer2016.web.fc2.com/ss027-2.png": "assets/asset-113.png",
+    "http://viprpgsummer2016.web.fc2.com/ss028.png": "assets/asset-114.png",
+    "http://viprpgsummer2016.web.fc2.com/ss029.png": "assets/asset-115.png",
+    "http://viprpgsummer2016.web.fc2.com/ss029-2.png": "assets/asset-116.png",
+    "http://viprpgsummer2016.web.fc2.com/ss030.png": "assets/asset-117.png",
+    "http://viprpgsummer2016.web.fc2.com/ss030-2.png": "assets/asset-118.png",
+    "http://viprpgsummer2016.web.fc2.com/ss031.png": "assets/asset-119.png",
+    "http://viprpgsummer2016.web.fc2.com/ss032.png": "assets/asset-120.png",
+    "http://viprpgsummer2016.web.fc2.com/ss033.png": "assets/asset-121.png",
+    "http://viprpgsummer2016.web.fc2.com/ss033-2.png": "assets/asset-122.png",
+    "http://viprpgsummer2016.web.fc2.com/ss034.png": "assets/asset-123.png",
+    "http://viprpgsummer2016.web.fc2.com/ss035.png": "assets/asset-124.png",
+    "http://viprpgsummer2016.web.fc2.com/ss036.png": "assets/asset-125.png",
+    "http://viprpgsummer2016.web.fc2.com/ss036-2.png": "assets/asset-126.png",
+    "http://viprpgsummer2016.web.fc2.com/ss038.png": "assets/asset-128.png",
+    "http://viprpgsummer2016.web.fc2.com/ss038-2.png": "assets/asset-129.png",
+    "http://viprpgsummer2016.web.fc2.com/ss039.png": "assets/asset-130.png",
+    "http://viprpgsummer2016.web.fc2.com/ss037.png": "assets/asset-127.png",
+    "http://viprpgsummer2016.web.fc2.com/ss039-2.png": "assets/asset-131.png",
+    "http://viprpgsummer2016.web.fc2.com/ss040.png": "assets/asset-132.png",
+    "http://viprpgsummer2016.web.fc2.com/ss041.png": "assets/asset-133.png",
+    "http://viprpgsummer2016.web.fc2.com/ss042.png": "assets/asset-134.png",
+    "http://viprpgsummer2016.web.fc2.com/ss043.png": "assets/asset-135.png",
+    "http://viprpgsummer2016.web.fc2.com/ss044.png": "assets/asset-136.png",
+    "http://viprpgsummer2016.web.fc2.com/ss045.png": "assets/asset-137.png",
+    "http://viprpgsummer2016.web.fc2.com/ss046.png": "assets/asset-138.png",
+    "http://viprpgsummer2016.web.fc2.com/ss048.jpg": "assets/asset-141.jpg",
+    "http://viprpgsummer2016.web.fc2.com/ss047.png": "assets/asset-139.png",
+    "http://viprpgsummer2016.web.fc2.com/ss047-2.png": "assets/asset-140.png",
+    "http://viprpgsummer2016.web.fc2.com/ss048-2.jpg": "assets/asset-142.jpg",
+    "http://viprpgsummer2016.web.fc2.com/ss049.png": "assets/asset-143.png",
+    "http://viprpgsummer2016.web.fc2.com/ss050.png": "assets/asset-144.png",
+    "http://viprpgsummer2016.web.fc2.com/ss050-2.png": "assets/asset-145.png",
+    "http://viprpgsummer2016.web.fc2.com/ss052.jpg": "assets/asset-147.jpg",
+    "http://viprpgsummer2016.web.fc2.com/ss051.png": "assets/asset-146.png",
+    "http://viprpgsummer2016.web.fc2.com/ss053.png": "assets/asset-148.png",
+    "http://viprpgsummer2016.web.fc2.com/ss054.png": "assets/asset-149.png",
+    "http://viprpgsummer2016.web.fc2.com/ss055.png": "assets/asset-150.png",
+    "http://viprpgsummer2016.web.fc2.com/ss056.png": "assets/asset-151.png",
+    "http://viprpgsummer2016.web.fc2.com/ss057.png": "assets/asset-152.png",
+    "http://viprpgsummer2016.web.fc2.com/ss058.png": "assets/asset-153.png",
+    "http://viprpgsummer2016.web.fc2.com/gw_styleeta.css": "assets/asset-154.css",
+    "http://viprpgsummer2016.web.fc2.com/ss022-3.png": "assets/asset-155.png",
+    "https://parts.jbbs.shitaraba.net/favicon.ico": "assets/asset-157.ico",
+    "https://parts.jbbs.shitaraba.net/img/favicons/apple-touch-icon.png": "assets/asset-156.png",
+    "http://parts.jbbs.shitaraba.net/css/site_header.css": "assets/asset-159.css",
+    "http://parts.jbbs.shitaraba.net/css/global_header.css": "assets/asset-158.css",
+    "http://parts.jbbs.shitaraba.net/img/cmn/logo_shitaraba.gif": "assets/asset-160.gif",
+    "http://parts.jbbs.shitaraba.net/img/logo/icon_bg_white.png": "assets/asset-163.png",
+    "http://parts.jbbs.shitaraba.net/img/logo/icon_bg_black.png": "assets/asset-164.png",
+    "http://image.livedoor.com/img/search/header_cmn.png": "assets/asset-165.png",
+    "http://viprpgsummer2016.web.fc2.com/back_knigh.gif": "assets/asset-162.gif",
+    "http://viprpgsummer2016.web.fc2.com/bg2-2.jpg": "assets/asset-161.jpg",
+    "http://viprpgsummer2016.web.fc2.com/URAsummer2016.ico": "assets/asset-166.ico",
+    "http://viprpgsummer2016.web.fc2.com/ss000.gif": "assets/asset-167.gif",
+    "http://viprpgsummer2016.web.fc2.com/com_sumple.png": "assets/asset-168.png",
+    "http://viprpgsummer2016.web.fc2.com/index.html": "index.html",
+    "http://viprpgsummer2016.web.fc2.com/001.html": "001.html",
+    "http://viprpgsummer2016.web.fc2.com/003.html": "003.html",
+    "http://viprpgsummer2016.web.fc2.com/002.html": "002.html",
+    "http://viprpgsummer2016.web.fc2.com/005.html": "005.html",
+    "http://viprpgsummer2016.web.fc2.com/004.html": "004.html",
+    "http://viprpgsummer2016.web.fc2.com/006.html": "006.html",
+    "http://viprpgsummer2016.web.fc2.com/007.html": "007.html",
+    "http://viprpgsummer2016.web.fc2.com/009.html": "009.html",
+    "http://viprpgsummer2016.web.fc2.com/008.html": "008.html",
+    "http://viprpgsummer2016.web.fc2.com/010.html": "010.html",
+    "http://viprpgsummer2016.web.fc2.com/012.html": "012.html",
+    "http://viprpgsummer2016.web.fc2.com/011.html": "011.html",
+    "http://viprpgsummer2016.web.fc2.com/013.html": "013.html",
+    "http://viprpgsummer2016.web.fc2.com/014.html": "014.html",
+    "http://viprpgsummer2016.web.fc2.com/015.html": "015.html",
+    "http://viprpgsummer2016.web.fc2.com/016.html": "016.html",
+    "http://viprpgsummer2016.web.fc2.com/018.html": "018.html",
+    "http://viprpgsummer2016.web.fc2.com/017.html": "017.html",
+    "http://viprpgsummer2016.web.fc2.com/019.html": "019.html",
+    "http://viprpgsummer2016.web.fc2.com/021.html": "021.html",
+    "http://viprpgsummer2016.web.fc2.com/020.html": "020.html",
+    "http://viprpgsummer2016.web.fc2.com/022.html": "022.html",
+    "http://viprpgsummer2016.web.fc2.com/023.html": "023.html",
+    "http://viprpgsummer2016.web.fc2.com/024.html": "024.html",
+    "http://viprpgsummer2016.web.fc2.com/025.html": "025.html",
+    "http://viprpgsummer2016.web.fc2.com/026.html": "026.html",
+    "http://viprpgsummer2016.web.fc2.com/027.html": "027.html",
+    "http://viprpgsummer2016.web.fc2.com/028.html": "028.html",
+    "http://viprpgsummer2016.web.fc2.com/030.html": "030.html",
+    "http://viprpgsummer2016.web.fc2.com/029.html": "029.html",
+    "http://viprpgsummer2016.web.fc2.com/031.html": "031.html",
+    "http://viprpgsummer2016.web.fc2.com/032.html": "032.html",
+    "http://viprpgsummer2016.web.fc2.com/033.html": "033.html",
+    "http://viprpgsummer2016.web.fc2.com/034.html": "034.html",
+    "http://viprpgsummer2016.web.fc2.com/035.html": "035.html",
+    "http://viprpgsummer2016.web.fc2.com/036.html": "036.html",
+    "http://viprpgsummer2016.web.fc2.com/037.html": "037.html",
+    "http://viprpgsummer2016.web.fc2.com/039.html": "039.html",
+    "http://viprpgsummer2016.web.fc2.com/038.html": "038.html",
+    "http://viprpgsummer2016.web.fc2.com/040.html": "040.html",
+    "http://viprpgsummer2016.web.fc2.com/041.html": "041.html",
+    "http://viprpgsummer2016.web.fc2.com/042.html": "042.html",
+    "http://viprpgsummer2016.web.fc2.com/043.html": "043.html",
+    "http://viprpgsummer2016.web.fc2.com/044.html": "044.html",
+    "http://viprpgsummer2016.web.fc2.com/045.html": "045.html",
+    "http://viprpgsummer2016.web.fc2.com/046.html": "046.html",
+    "http://viprpgsummer2016.web.fc2.com/048.html": "048.html",
+    "http://viprpgsummer2016.web.fc2.com/047.html": "047.html",
+    "http://viprpgsummer2016.web.fc2.com/049.html": "049.html",
+    "http://viprpgsummer2016.web.fc2.com/050.html": "050.html",
+    "http://viprpgsummer2016.web.fc2.com/051.html": "051.html",
+    "http://viprpgsummer2016.web.fc2.com/052.html": "052.html",
+    "http://viprpgsummer2016.web.fc2.com/053.html": "053.html",
+    "http://viprpgsummer2016.web.fc2.com/054.html": "054.html",
+    "http://viprpgsummer2016.web.fc2.com/055.html": "055.html",
+    "http://viprpgsummer2016.web.fc2.com/057.html": "057.html",
+    "http://viprpgsummer2016.web.fc2.com/056.html": "056.html",
+    "http://viprpgsummer2016.web.fc2.com/058.html": "058.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1468589663/": "forums/forum-b6694a45e13b97d1ee.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1468589719/": "forums/forum-2d479ea3dd3c33323f.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1468589769/": "forums/forum-411fc67d4b1a1c690c.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1468594064/": "forums/forum-e5068338edc9d7a79d.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1468592265/": "forums/forum-ee75048b757e591e0f.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1468590940/": "forums/forum-b9470421a110550a95.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1468594104/": "forums/forum-c758d043af4e7d81d3.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1468594135/": "forums/forum-8db72e9d628a0464bf.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1468594168/": "forums/forum-cc5dab14e9e6cacd03.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1468602969/": "forums/forum-7c36a923728352a2a1.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1468595326/": "forums/forum-c30e10bb3167e04e53.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1468596834/": "forums/forum-93c91d2fbdd58a39db.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1468605430/": "forums/forum-71a46d652108fe6449.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1468599744/": "forums/forum-7f77d51cf577d735fd.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1468628744/": "forums/forum-8d07ed71c2706abcb8.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1468629233/": "forums/forum-1bc2a95d1c6f77daf3.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1468660288/": "forums/forum-02fed571f573d061d9.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1468660144/": "forums/forum-03caeaa7e04cb9a376.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1468681476/": "forums/forum-9ad050021c34c8797f.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1468663460/": "forums/forum-471618b64751a24425.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1468678682/": "forums/forum-278c7b91e4a2596ab6.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1468839226/": "forums/forum-8aa667e56f8f8f99e1.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1468839038/": "forums/forum-93228de8d77079a089.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1468851641/": "forums/forum-dffb19afab5b776526.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1468930684/": "forums/forum-82aeb97255b8033571.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1468858514/": "forums/forum-86b33967184ef963e9.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1469020399/": "forums/forum-ed92af70e01ca608ab.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1469020741/": "forums/forum-17e54bae7e440d111d.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1469375744/": "forums/forum-18034661cbabc6dac8.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1469108610/": "forums/forum-973f06b7c750a64886.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1469645383/": "forums/forum-fe0c78f30dc01c7c21.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1469457651/": "forums/forum-1ea80d6462347a7930.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1469708481/": "forums/forum-46c3f63a42ca20e2af.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1470219166/": "forums/forum-52596722293e46be22.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1469977145/": "forums/forum-f2d356367549df6ff8.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1470576627/": "forums/forum-f3bd740dcc0db975b5.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1470836357/": "forums/forum-f34cecfdc2ea9dac88.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1470895993/": "forums/forum-5340a3df5b8cc3972b.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1470865440/": "forums/forum-2b8c4fd614891642b8.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1470896528/": "forums/forum-dd2a7c6619b1658539.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1470896251/": "forums/forum-c1604d90d4045a7ab0.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1470917551/": "forums/forum-f576697523e054502f.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1470952241/": "forums/forum-2191a3842d245a7e7d.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1470918913/": "forums/forum-a710fbf178eab7588b.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1470980323/": "forums/forum-1facef7b87c8c40137.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1471002231/": "forums/forum-4a14492477709ff62c.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1471009070/": "forums/forum-9c072a19ac83b22aca.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1471006141/": "forums/forum-6388b8f097e5965a43.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1471010107/": "forums/forum-bfa013e30f9d64c093.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1471012018/": "forums/forum-3e23037b5eefb364e3.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1471014647/": "forums/forum-310d52e0c655bcbce8.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1471014901/": "forums/forum-167790e7e04037d065.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1471015275/": "forums/forum-b22ef04ea64ad76880.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1471015594/": "forums/forum-1258601ef6ed91b5ea.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1471015747/": "forums/forum-60f3bfc0c4516f3d89.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1471016204/": "forums/forum-880fa57201cd83d042.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1471015984/": "forums/forum-404b68cf2fd764948d.html",
+    "http://jbbs.shitaraba.net/bbs/read.cgi/game/59794/1471016354/": "forums/forum-fb7f61d5e449bbb78c.html",
+    "http://viprpgsummer2016.web.fc2.com/000.html": "000.html"
+  },
+  "entries": [
+    {
+      "id": "2016-summer-2-work-001",
+      "no": "001",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/001.html",
+      "sourceAuthor": "Gam123",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreNAZO.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_nazo.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/001-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss001.png",
+          "sha256": "781e8d231da81597ce2f1ba5ed5e640583680f26e3d556737ae68308911cc5ac"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/1/URAsummer2016-no1.zip",
+          "label": "原一覧：作品DL"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-002",
+      "no": "002",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/002.html",
+      "sourceAuthor": "臙脂色園児",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreSHOWYOU.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClass": "yellow",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_2.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/002-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss002.png",
+          "sha256": "64b4252526b282dabc05e69d305f79325adddaf5ac133d7cca76ecc190def0ea"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/2/URAsummer2016-no2.zip",
+          "label": "原一覧：作品DL"
+        },
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/63/URAsummer2016-no2-patch1.01.zip",
+          "label": "原一覧：修正パッチ"
+        }
+      ],
+      "patchSource": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/63/URAsummer2016-no2-patch1.01.zip",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-003",
+      "no": "003",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/003.html",
+      "sourceAuthor": "焼肉",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreIROIRO.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_3.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/003-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss003.png",
+          "sha256": "9e6826371a75e239dca295de140625ed36b960ae4001e1bd241c5a237c171023"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror2/download/15/URAsummer2016-no3.zip",
+          "label": "原一覧：作品DL"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-004",
+      "no": "004",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/004.html",
+      "sourceAuthor": "鷹",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreMIRUGE.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClass": "yellow",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_4.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/004-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss004.png",
+          "sha256": "b8a1a9a9fc8499033cc906f7c669574bc48f92cf97fe0d295a62427bef639f4d"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/4/URAsummer2016-no4.zip",
+          "label": "原一覧：作品DL"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-005",
+      "no": "005",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/005.html",
+      "sourceAuthor": "徳明",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreERG.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_5.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/005-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss005.png",
+          "sha256": "30fae2deb71761ebcccfe2a71305ad862c9f030006f235111192ef2dcce3def2"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/36/URAsummer2016-no5.zip",
+          "label": "原一覧：作品DL"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-006",
+      "no": "006",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/006.html",
+      "sourceAuthor": "ぬ",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreRPG.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClass": "yellow",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_yaruge.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/006-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss006.png",
+          "sha256": "4457c8c89c658fa2ee0a1ceb37baa439814e295da82887be69c60b7488383e14"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-007",
+      "no": "007",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/007.html",
+      "sourceAuthor": "尾前勇丁夜田太郎",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreMIRUGE.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_7.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/007-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss007.png",
+          "sha256": "b06c261809922bfe989be826653c827a8818495e8e68b526541e0699c7cdf266"
+        },
+        {
+          "local": "/screenshots/2016-summer-2/007-source-2.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss007-2.png",
+          "sha256": "a3a43f52f0187d3f26d530888fe8e38345ae6bfe0c43b4972916a846fc72e06f"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/44/URAsummer2016-no7.zip",
+          "label": "原一覧：作品DL"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-008",
+      "no": "008",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/008.html",
+      "sourceAuthor": "著作拳法・流の型",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreKSG.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClass": "yellow",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_yaruksg.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/008-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss008.png",
+          "sha256": "24cab7490c2a6af29b576bbdcef62f319fcd4d2e64f6f5695fff6e9221e5fa52"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/5/URAsummer2016-no8.zip",
+          "label": "原一覧：作品DL"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-009",
+      "no": "009",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/009.html",
+      "sourceAuthor": "炭酸電池",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreRPG.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_9.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/009-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss009.png",
+          "sha256": "ba63e34119ecb7d37f64e5537991bbda7b4c30cd2448f679096ea9dee56f4b0b"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror2/download/12/URAsummer2016-no9.zip",
+          "label": "原一覧：作品DL"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-010",
+      "no": "010",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/010.html",
+      "sourceAuthor": "名乗る程の者ではございません",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreMIRUGE.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClass": "yellow",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_10.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/010-source-1.gif",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss010.gif",
+          "sha256": "61c8b4ea04d71e368d045dba654928bb3823f61cdda72b0d4c8731043d762da2"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/49/URAsummer2016-no10.zip",
+          "label": "原一覧：作品DL"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-011",
+      "no": "011",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/011.html",
+      "sourceAuthor": "suica",
+      "sourceEngine": "VXace",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreMIRUGE.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_11.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/011-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss011.png",
+          "sha256": "a361991ed13f05b002721cd7fd0076c420b3460639d249a32eaa7d1460a62323"
+        },
+        {
+          "local": "/screenshots/2016-summer-2/011-source-2.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss011-2.png",
+          "sha256": "99df18b7af1bc413f744fa903dbfbf793ca09aad1676e7267fcb6d3ed34fc6c5"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/56/URAsummer2016-no11.zip",
+          "label": "原一覧：作品DL"
+        },
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/57/URAsummer2016-no11-patch1.01.zip",
+          "label": "原一覧：修正パッチ"
+        }
+      ],
+      "patchSource": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/57/URAsummer2016-no11-patch1.01.zip",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-012",
+      "no": "012",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/012.html",
+      "sourceAuthor": "畳の上の水蓮",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreRPG.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClass": "yellow",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_12.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/012-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss012.png",
+          "sha256": "67c553dc29220145a8a03a30dd97b8a8f9e7d2eb2d41105e58959e633bb08ee5"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-013",
+      "no": "013",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/013.html",
+      "sourceAuthor": "うっぺれ",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreACT.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_13.gif",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/013-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss013.png",
+          "sha256": "f8c481b57b56992ec25242c87e127f382e83cf0b22445bfd9015b9fef3089a29"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/9/URAsummer2016-no13.zip",
+          "label": "原一覧：作品DL"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-014",
+      "no": "014",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/014.html",
+      "sourceAuthor": "遅刻します",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreMIRUGE.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClass": "yellow",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_miruge.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/014-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss014.png",
+          "sha256": "fdf4f57382ab09f92bcd90b1f17e711bc1660934774bad63f2932c0cb2b53a7e"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-015",
+      "no": "015",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/015.html",
+      "sourceAuthor": "いくぜ",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genrePUZZLE.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_15.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/015-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss015.png",
+          "sha256": "33fbe41d27959a74350fbe0f10fd15bf5c4d06b3d6bc6f7e5f0526fb5ee12ecd"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/10/URAsummer2016-no15.zip",
+          "label": "原一覧：作品DL"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-016",
+      "no": "016",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/016.html",
+      "sourceAuthor": "名雲きつね",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreERG.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClass": "yellow",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_16.jpg",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/016-source-1.jpg",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss016.jpg",
+          "sha256": "791abfe1fc3fab77c30633ec7a1bc2c8927a7992c65bf0364c542d8e84feab63"
+        },
+        {
+          "local": "/screenshots/2016-summer-2/016-source-2.jpg",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss016-2.jpg",
+          "sha256": "b0cb84db01a5eced7ee28f36e5aeec180ad114b730a632b106bde80fcb377350"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/11/URAsummer2016-no16.zip",
+          "label": "原一覧：作品DL"
+        },
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/42/URAsummer2016-no16-patch1.02.zip",
+          "label": "原一覧：修正パッチ"
+        }
+      ],
+      "patchSource": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/42/URAsummer2016-no16-patch1.02.zip",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-017",
+      "no": "017",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/017.html",
+      "sourceAuthor": "秋草",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreMIRUGE.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_17.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/017-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss017.png",
+          "sha256": "7223d4a90ecfb9bcc70e2d553c1abd96159e1b20aa7976a5da7c30f43ab78d3d"
+        },
+        {
+          "local": "/screenshots/2016-summer-2/017-source-2.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss017-2.png",
+          "sha256": "e5e5fe7bfc82e667f7e1636d8b00b6678472669f68a31612747300e9c279d0f0"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/76/URAsummer2016-no17.zip",
+          "label": "原一覧：作品DL"
+        },
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror2/download/14/URAsummer2016-no17-patch1.01.zip",
+          "label": "原一覧：修正パッチ"
+        }
+      ],
+      "patchSource": "http://ux.getuploader.com/VIPRPGsummer2016_mirror2/download/14/URAsummer2016-no17-patch1.01.zip",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-018",
+      "no": "018",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/018.html",
+      "sourceAuthor": "おととい",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genrePUZZLE.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClass": "yellow",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_18.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/018-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss018.png",
+          "sha256": "7994e89991f1ce8654b8d91033720f2e1fbaf6228b4a246c32b543369be23749"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/13/URAsummer2016-no18.zip",
+          "label": "原一覧：作品DL"
+        },
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/55/URAsummer2016-no18-patch1.01.zip",
+          "label": "原一覧：修正パッチ"
+        }
+      ],
+      "patchSource": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/55/URAsummer2016-no18-patch1.01.zip",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-019",
+      "no": "019",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/019.html",
+      "sourceAuthor": "牧場の牛肉",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreMIRUGE.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_19.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/019-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss019.png",
+          "sha256": "3da4cf0f7e3ea426788c04c2bcc64a7bb88053f9521b2508c8f28ebb4a351190"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/14/URAsummer2016-no19.zip",
+          "label": "原一覧：作品DL"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-020",
+      "no": "020",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/020.html",
+      "sourceAuthor": "ジャスティス",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreKSG.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClass": "yellow",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_ksg.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/020-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss020.png",
+          "sha256": "14a31409fa26d9d306d289af8f148bcb2016bf93f282f928c0329b14e0c5e450"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-021",
+      "no": "021",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/021.html",
+      "sourceAuthor": "二階堂モス",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreMOS.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_21.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/021-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss021.png",
+          "sha256": "768d81172976f56c7faedd8d3c1b89d95f69a24e508e2bf01f79337a0f2166ca"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-022",
+      "no": "022",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/022.html",
+      "sourceAuthor": "完成させたことないマン",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genredRPG.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClass": "yellow",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_22.gif",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/022-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss022-2.png",
+          "sha256": "be7199fa841b9b3b02bbb52c06bc98aaf7a32f9e647e4c3b9d5044910ea18576"
+        },
+        {
+          "local": "/screenshots/2016-summer-2/022-source-2.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss022-3.png",
+          "sha256": "f0ef651429344b1f7262c8fff0384b984bda06c178de03e353847dbdae859088"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror2/download/9/URAsummer2016-no22.zip",
+          "label": "原一覧：作品DL"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-023",
+      "no": "023",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/023.html",
+      "sourceAuthor": "ケイト",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreRPG.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_23.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/023-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss023.png",
+          "sha256": "fd8990d650665726cef60f0a115dabff1e156c070346c3d9654c6573e63732b5"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-024",
+      "no": "024",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/024.html",
+      "sourceAuthor": "かすていら",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreMIRUGE.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClass": "yellow",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_miruge.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/024-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss024.png",
+          "sha256": "91f72a9a0593d06f75956413231fed3a71770a33e7a196175ca73cdfe6b643e8"
+        },
+        {
+          "local": "/screenshots/2016-summer-2/024-source-2.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss024-2.png",
+          "sha256": "2bdc050a524dfe6850bd06bf3baee7a57752d87281d3bd9976b76e16696c82ba"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/15/URAsummer2016-no24.zip",
+          "label": "原一覧：作品DL"
+        },
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/54/URAsummer2016-no24-patch1.01.zip",
+          "label": "原一覧：修正パッチ"
+        }
+      ],
+      "patchSource": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/54/URAsummer2016-no24-patch1.01.zip",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-025",
+      "no": "025",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/025.html",
+      "sourceAuthor": "へんたい",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genrekACT.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_yaruge.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/025-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss025.png",
+          "sha256": "6e2da2788c7d6e9bf2b758eccc0836a1b4caaf112a1bc4ff20524ca7cc281658"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror2/download/11/URAsummer2016-no25.zip",
+          "label": "原一覧：作品DL"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-026",
+      "no": "026",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/026.html",
+      "sourceAuthor": "ぶるあああああああああああああああああああああああああああ",
+      "sourceEngine": "VX",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreKSG.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClass": "yellow",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_ksg.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/026-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss026.png",
+          "sha256": "71cf09dc9aae1cc78bfb2eab9c6c2f9b218e0cbdf133e73b30ce35c9b7c0cd17"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/47/URAsummer2016-no26.zip",
+          "label": "原一覧：作品DL"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-027",
+      "no": "027",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/027.html",
+      "sourceAuthor": "RED PYRAMID THING",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genresACT.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_27.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/027-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss027.png",
+          "sha256": "a724ae28ca6cc6f9b647347672213801c857f9e95c0dd57d851020503dfd582f"
+        },
+        {
+          "local": "/screenshots/2016-summer-2/027-source-2.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss027-2.png",
+          "sha256": "548a42640d4a286a0d9f473a4cc78713c4f7192324e8af5416f6a66b63ac9b19"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror2/download/13/URAsummer2016-no27.zip",
+          "label": "原一覧：作品DL"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-028",
+      "no": "028",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/028.html",
+      "sourceAuthor": "FAH-Q",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreRPG.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClass": "yellow",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_28.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/028-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss028.png",
+          "sha256": "f484623044b2096ced0dce7c35c5262a37d1efcb81b02df9c9f0c09093d390a3"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/43/URAsummer2016-no28.zip",
+          "label": "原一覧：作品DL"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-029",
+      "no": "029",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/029.html",
+      "sourceAuthor": "lpre",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreTOOL.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_miruge.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/029-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss029.png",
+          "sha256": "ff455cfbaf8041ccd9d0a1aa1272c012ff0cb0db95454b43c440161267feb579"
+        },
+        {
+          "local": "/screenshots/2016-summer-2/029-source-2.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss029-2.png",
+          "sha256": "7820dd66e4ea85f3fb383d52bafb259cf52e903f4491ffed045659afdfb449a0"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/16/URAsummer2016-no29.zip",
+          "label": "原一覧：作品DL"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-030",
+      "no": "030",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/030.html",
+      "sourceAuthor": "夏の陣に出すゲームの作者",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreGAMU.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClass": "yellow",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_30.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/030-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss030.png",
+          "sha256": "4c3080d8dde13171445341d6296c5565016722139d6023ac3dc2366712ec4028"
+        },
+        {
+          "local": "/screenshots/2016-summer-2/030-source-2.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss030-2.png",
+          "sha256": "cf7227980e5c6a2b69fa721caf3c3227f672ebe5c4913d4ed487809c49196e9e"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/37/URAsummer2016-no30.zip",
+          "label": "原一覧：作品DL"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-031",
+      "no": "031",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/031.html",
+      "sourceAuthor": "黒蟻大使",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreKSG2.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_ksg.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/031-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss031.png",
+          "sha256": "31b167318744bacdeee2534e84c373aa7c6a398e2fa893c083d267b738878891"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/18/URAsummer2016-no31.zip",
+          "label": "原一覧：作品DL"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-032",
+      "no": "032",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/032.html",
+      "sourceAuthor": "トカゲのしっぽな",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreKSG.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClass": "yellow",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_32.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/032-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss032.png",
+          "sha256": "43ed38eaa069ec0968ee496c4c93cb7489a69367510defbf73016a3d8f88c43b"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/52/URAsummer2016-no32.zip",
+          "label": "原一覧：作品DL"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-033",
+      "no": "033",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/033.html",
+      "sourceAuthor": "クルマユ大好き丸",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreKSG.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_33.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/033-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss033.png",
+          "sha256": "57a886a4883d3f039bcf6dba7088714c4c697a1f1361f63c1b8d344531f114c7"
+        },
+        {
+          "local": "/screenshots/2016-summer-2/033-source-2.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss033-2.png",
+          "sha256": "54487e8ed202726fb5c4df7d8fc67e7ef0b91fac9616a282a0cee89b8735b64f"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/79/URAsummer2016-no33.zip",
+          "label": "原一覧：作品DL"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-034",
+      "no": "034",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/034.html",
+      "sourceAuthor": "ざるそば",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreKSG3.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClass": "yellow",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_34.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/034-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss034.png",
+          "sha256": "c59a2033a4018dc164ace40cc9bd55bc94b56d7ab3377f991dc3d9b70e08849a"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/19/URAsummer2016-no34.zip",
+          "label": "原一覧：作品DL"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-035",
+      "no": "035",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/035.html",
+      "sourceAuthor": "うんこ",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreUNKO.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_35.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/035-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss035.png",
+          "sha256": "9b160bcb44141d34b0e5e64a3061d8b492baef67fa4ec3ad9028bf9c5bd948da"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/20/URAsummer2016-no35.zip",
+          "label": "原一覧：作品DL"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-036",
+      "no": "036",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/036.html",
+      "sourceAuthor": "さみだれてないおでん",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreTANSAKU.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClass": "yellow",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_36.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/036-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss036.png",
+          "sha256": "bf8cf14032f996da744521f843333e82c654e790aa07637e837e500f6a632890"
+        },
+        {
+          "local": "/screenshots/2016-summer-2/036-source-2.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss036-2.png",
+          "sha256": "38b380df725d313c5fc506ca34dad13cb3f2cc5aced4a362e71de428c47ed11d"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/32/URAsummer2016-no36.zip",
+          "label": "原一覧：作品DL"
+        },
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/60/URAsummer2016-no36-patch1.02.zip",
+          "label": "原一覧：修正パッチ"
+        }
+      ],
+      "patchSource": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/60/URAsummer2016-no36-patch1.02.zip",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-037",
+      "no": "037",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/037.html",
+      "sourceAuthor": "Munaha-R",
+      "sourceEngine": "VXAce",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreSENRYAKU.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_37.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/037-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss037.png",
+          "sha256": "5e2f75bb7b92b79d2e3691c3aef2c06af5baba09f0973c521a7a80148f3bc849"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-038",
+      "no": "038",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/038.html",
+      "sourceAuthor": "UDON.com",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreDEFOKSG.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClass": "yellow",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_38.gif",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/038-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss038.png",
+          "sha256": "697f210a13e87f6d06d528fbf504dbeb986d3cba40fa78428a8fb1e42725c6ad"
+        },
+        {
+          "local": "/screenshots/2016-summer-2/038-source-2.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss038-2.png",
+          "sha256": "3b7cae6a75e21822303a15df4735b5f2053e0180123c235c4f4a9c4458461372"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror2/download/4/URAsummer2016-no38.zip",
+          "label": "原一覧：作品DL"
+        },
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror2/download/10/URAsummer2016-no38-hint1.01.zip",
+          "label": "原一覧：修正パッチ"
+        }
+      ],
+      "patchSource": "http://ux.getuploader.com/VIPRPGsummer2016_mirror2/download/10/URAsummer2016-no38-hint1.01.zip",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-039",
+      "no": "039",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/039.html",
+      "sourceAuthor": "シア=ナードクス",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreMIRUGEr15g.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_39.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/039-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss039.png",
+          "sha256": "b67f7099619d91a6f1c31fccd0c499ef1b08cca1a009f7d30fd49446af2f233e"
+        },
+        {
+          "local": "/screenshots/2016-summer-2/039-source-2.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss039-2.png",
+          "sha256": "d26e1fc540cde44a588d72d02bfce72529fa6bf372ef833031e41c570af002c4"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-040",
+      "no": "040",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/040.html",
+      "sourceAuthor": "裏ハイチュウ",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreKSG.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClass": "yellow",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_40.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/040-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss040.png",
+          "sha256": "6de614066f10164fecbc9af833bd0f55b330e99024c82c2950d2e8fa3e013bfa"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/22/URAsummer2016-no40.zip",
+          "label": "原一覧：作品DL"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-041",
+      "no": "041",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/041.html",
+      "sourceAuthor": "屁☆以下",
+      "sourceEngine": "VXAce",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreERG.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_ksg.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/041-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss041.png",
+          "sha256": "226b0fa76c42e6386850a036743577bd8dd9ab351af77a3b480247049359ed34"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/23/URAsummer2016-no41.zip",
+          "label": "原一覧：作品DL"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-042",
+      "no": "042",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/042.html",
+      "sourceAuthor": "あひょふりぐ",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreMIRUKSG.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClass": "yellow",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_42.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/042-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss042.png",
+          "sha256": "196c8c19da01127c78f22332c357f5acaa68f764dda69b752e7c4ee7370d24db"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/24/URAsummer2016-no42.zip",
+          "label": "原一覧：作品DL"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-043",
+      "no": "043",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/043.html",
+      "sourceAuthor": "kemono",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreKSG.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_43.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/043-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss043.png",
+          "sha256": "9fa5da1898cea13a1c31e2ae76c6a615c8f1edc91c89d8bb12ed6dc6d02ce2c7"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/30/URAsummer2016-no43.zip",
+          "label": "原一覧：作品DL"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-044",
+      "no": "044",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/044.html",
+      "sourceAuthor": "ミルクちゃん",
+      "sourceEngine": "???",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreNAZO.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClass": "yellow",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_44.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/044-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss044.png",
+          "sha256": "6c8b9ebcf53afc1b1412dc5cbfc43461061e5d876c7f26cb89daeeb649fe6d15"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-045",
+      "no": "045",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/045.html",
+      "sourceAuthor": "あく",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreYARUGE.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_yaruge.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/045-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss045.png",
+          "sha256": "ee16c53dd6dff24592b7d80e30799ade45aa14bf4518fb12105f9b40c2494624"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-046",
+      "no": "046",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/046.html",
+      "sourceAuthor": "幻草",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreHUSIGI.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClass": "yellow",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_46.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/046-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss046.png",
+          "sha256": "d55a8b26d8a334bb77cf8a877d348ad28f1d21edfe5e1bc22410efbc6460dd47"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror2/download/7/URAsummer2016-no46.zip",
+          "label": "原一覧：作品DL"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-047",
+      "no": "047",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/047.html",
+      "sourceAuthor": "千年ポテチ",
+      "sourceEngine": "MV",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreKSG.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_ksg.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/047-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss047.png",
+          "sha256": "4337d3d6a2f06d1bd9b8caaf13f4277523b5e1f19939e467a4f726cca3b0784e"
+        },
+        {
+          "local": "/screenshots/2016-summer-2/047-source-2.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss047-2.png",
+          "sha256": "99304e8e27bba5e7a6b9f13295492bd61979f679d6004d6554462e70ffa1137c"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/71/URAsummer2016-no47-1.zip",
+          "label": "原一覧：作品DL"
+        },
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror2/download/6/URAsummer2016-no47-patch1.01.zip",
+          "label": "原一覧：修正パッチ"
+        },
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/72/URAsummer2016-no47-2.zip",
+          "label": "原紹介ページの配布先"
+        },
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/73/URAsummer2016-no47-3.zip",
+          "label": "原紹介ページの配布先"
+        },
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror2/download/1/URAsummer2016-no47-4.zip",
+          "label": "原紹介ページの配布先"
+        },
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror2/download/3/URAsummer2016-no47-5.zip",
+          "label": "原紹介ページの配布先"
+        },
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/78/URAsummer2016-no47-patch1.02.zip",
+          "label": "原紹介ページの配布先"
+        }
+      ],
+      "patchSource": "http://ux.getuploader.com/VIPRPGsummer2016_mirror2/download/6/URAsummer2016-no47-patch1.01.zip",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-048",
+      "no": "048",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/048.html",
+      "sourceAuthor": "近藤大輔",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreMIRUGE.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClass": "yellow",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_miruge.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/048-source-1.jpg",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss048.jpg",
+          "sha256": "edcb28b126c9aa8f02ef1409edb9c084296aa918c05cb2d358c37f93be0b01b1"
+        },
+        {
+          "local": "/screenshots/2016-summer-2/048-source-2.jpg",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss048-2.jpg",
+          "sha256": "5a18a63d175e93ecc3e63405131d0e64dd85bbeb0e765f71462860d0a322d59c"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/25/URAsummer2016-no48.zip",
+          "label": "原一覧：作品DL"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-049",
+      "no": "049",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/049.html",
+      "sourceAuthor": "ただの屍",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreKSG.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_ksg.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/049-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss049.png",
+          "sha256": "cf15dcec09c591570452293e6c7e737a012eb249e0ac6d0b5ae5cbd62beb8ba0"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror2/download/16/URAsummer2016-no49.zip",
+          "label": "原一覧：作品DL"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-050",
+      "no": "050",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/050.html",
+      "sourceAuthor": "てんじょういん餡蜜",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreARPG.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClass": "yellow",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_yaruge.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/050-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss050.png",
+          "sha256": "ec1ea0e2d12c51bbdefed3830bd4d1fa82679de3bdfc198f7805ced534937f3f"
+        },
+        {
+          "local": "/screenshots/2016-summer-2/050-source-2.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss050-2.png",
+          "sha256": "4311e82dc1ee46b24fb35cb21dd5a1e19de09c280efb4b016e08a62e626bc75a"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-051",
+      "no": "051",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/051.html",
+      "sourceAuthor": "_",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreMIRUGE.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_miruge.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/051-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss051.png",
+          "sha256": "6a4c46456b121929cb48d4edd56d54154422b3dd4ed32b1087bd93149ebec4ac"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/75/URAsummer2016-no51.zip",
+          "label": "原一覧：作品DL"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-052",
+      "no": "052",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/052.html",
+      "sourceAuthor": "刺身のつまようじ",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreKSG.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClass": "yellow",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_ksg.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/052-source-1.jpg",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss052.jpg",
+          "sha256": "a59d6fd0de1968782ba3cd46bac0c38a18f8897db9be1d68bc6770d156d84bc0"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-053",
+      "no": "053",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/053.html",
+      "sourceAuthor": "ルズ",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreTANSAKURPG.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_53.gif",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/053-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss053.png",
+          "sha256": "d65ab2ee8f63f85008c8a2ed8b74449d4014b6bd6267dc111cb0c96669a31292"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-054",
+      "no": "054",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/054.html",
+      "sourceAuthor": "鳳天舞の陣－１",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreKSG.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClass": "yellow",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_ksg.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/054-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss054.png",
+          "sha256": "5ffaca22904214e53ccd1a44dc2fa24e5c2abee08b1dbf0811d7bc5f32ca3c6d"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-055",
+      "no": "055",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/055.html",
+      "sourceAuthor": "占い師：女",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreNAZO.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_55.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/055-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss055.png",
+          "sha256": "6dbef7faf38343bb28fc77095e693b6e06423e7db997be7d70ae1e16539a1557"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-056",
+      "no": "056",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/056.html",
+      "sourceAuthor": "脂はむ",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreHOROR.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClass": "yellow",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_56.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/056-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss056.png",
+          "sha256": "aa7dcb24e6744c5a81bbd3838148110b3f20e917beb7f76fcdb8461fcb436d7f"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-057",
+      "no": "057",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/057.html",
+      "sourceAuthor": "神咲ハジメ",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreOKSG.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_ksg.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/057-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss057.png",
+          "sha256": "76580427a190151f14156da897697f52f66d111ca3cca045d871653382aa5679"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-2-work-058",
+      "no": "058",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/058.html",
+      "sourceAuthor": "◆2aLlGIkY8s",
+      "sourceEngine": "2000",
+      "sourceGenreImage": "http://viprpgsummer2016.web.fc2.com/genreKSG.png",
+      "taxonomyHandling": "Retain the existing category: the publisher genre-image URL is unchanged from the legacy source cache.",
+      "rowClass": "yellow",
+      "rowClassHandling": "Alternating row colours are presentation, not a late-entry group.",
+      "commentFields": [
+        "最高にCOOLな作者コメント",
+        "管理人コメント"
+      ],
+      "iconSource": "http://viprpgsummer2016.web.fc2.com/i_58.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer-2/058-source-1.png",
+          "sourceUrl": "http://viprpgsummer2016.web.fc2.com/ss058.png",
+          "sha256": "c7c238df7f8fde5b38bac1ee909acd1935200e6e5a8ff463b9416686c89c920a"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/VIPRPGsummer2016_mirror/download/77/URAsummer2016-no58.zip",
+          "label": "原一覧：作品DL"
+        }
+      ],
+      "packagesDownloaded": false
+    }
+  ],
+  "bannerSources": [
+    {
+      "local": "/banners/2016-summer-2/source.png",
+      "sourceUrl": "http://viprpgsummer2016.web.fc2.com/URAsummer2016.png",
+      "sha256": "7f8b074344fba884b958d377274e98ebfcc1f8bb6cf4a4018b513c366177f878"
+    }
+  ],
+  "sourceManifests": [
+    "source/replay/manifest.json"
+  ],
+  "handling": "Direct source archival without topic or pixel review. Preserve58 source identities, CSS-generated author/engine metadata, existing categories confirmed by unchanged genre images, original screenshot hover roles and all patch links. Alternating yellow row style is not treated as a group. Replace obsolete popup document.write/positioning with the same popupCenter interface and captured images; strip hosting/tracking scripts and freeze forum forms. Raw Shift_JIS/EUC-JP remains unchanged; derived HTML/CSS declare UTF-8.",
+  "desktopReview": "desktop-review.json"
+}

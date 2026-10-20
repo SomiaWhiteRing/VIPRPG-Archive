@@ -1,10 +1,10 @@
 # 重启后的逐祭典校对清单
 
-已校对 73/74 个祭典；当前顺序中的下一个：`2016-summer-2`。
+已校对 74/74 个祭典；当前顺序中的下一个：`全部已校对`。
 
-原貌视图已验收 73/74 个；整理版与原貌版共同纳入后续逐祭典工作。
+原貌视图已验收 74/74 个；整理版与原貌版共同纳入后续逐祭典工作。
 
-[补充归档复核记录](../catch/restricted-rearchive-plan.json)保留了本轮恢复结果及未恢复的限制条目；常规校对已按顺序推进至 `2016-summer-2`。
+[补充归档复核记录](../catch/restricted-rearchive-plan.json)保留了本轮恢复结果及未恢复的限制条目；常规校对已按顺序推进至 `全部已校对`。
 
 只有完成来源逐项核对、资源检查和桌面验收的祭典才加入下表。数据字段清点见 [festival-scrape-status.md](../catch/festival-scrape-status.md)，不作为校对完成证明。
 
@@ -85,7 +85,8 @@
 | 71 | 2016-gw | 2026-10-20T22:00:13.616Z | 原Geocities双框架69页／150资源从香港Wayback归档，219载荷CDX摘要全部匹配；日本原站关闭证据保留。64编号，59来源图标、92截图、2横幅、52配布入口；旧102截图引用全部字节对应，来源本身5项无图标。11／50题名仅以官方讨论页文档标题核实修正，18修正HTML实体；4详情异名另存originalTitle。22管理人标签为サイト管理者，已恢复；128留言字段全文比较一致。UTF-8展示副本同步字符集声明，原Shift_JIS载荷不改。两版各64详情实测，无坏图／桌面溢出；菜单3页、截图悬停复位、查看器切换／关闭／Esc、首页64入口和61图全滚动及末项往返通过。219原貌文件，522静态和128图像事件引用闭合，372发布文件HTTP/SHA一致；4215页构建、lint、数据校验通过。未主动审看题材或像素、未新增受限、未下载或执行游戏包。 | [catch/2016-gw/recovery.json](../catch/2016-gw/recovery.json)、[catch/2016-gw/source/archive/manifest.json](../catch/2016-gw/source/archive/manifest.json)、[catch/2016-gw/source/resources/manifest.json](../catch/2016-gw/source/resources/manifest.json)、[catch/2016-gw/investigation/official-title-evidence.json](../catch/2016-gw/investigation/official-title-evidence.json)、[catch/2016-gw/investigation/data-reconciliation.json](../catch/2016-gw/investigation/data-reconciliation.json) |
 | 72 | 2016-kouhaku | 2026-10-20T22:55:10.795Z | 日本源站直接归档：247HTML（93Wix、83嵌入介绍、71实际论坛页）、92组件JSON、340资源；679载荷摘要核验，论坛EUC-JP保留并转UTF-8只读，70个讨论框由外链补成实页。Livedoor装饰图不可直取，香港存档补充且CDX摘要匹配。71编号／题名不变，3字形异名另存；142留言字段全文相同。71图标、180截图、1横幅、53配布项，旧155图全部对应，补回旧6图上限遗漏25张。原貌587文件、10116静态和184幻灯片引用闭合；839发布文件HTTP／SHA相同。两版各71详情渲染无坏图，整理版无溢出；原貌保留源站1310px固有排版。沙箱仅00–09实际目录鼠标验收，最终01三层讨论框／只读／返回复验；其余以独立原貌页验收，不冒称全部沙箱鼠标测试。原幻灯片10张／圆点、整理查看器和首页71唯一入口／72图／末项往返通过；4216页构建、lint、数据校验通过。额外allpictures特征端点404记录，非登记作品缺页。不审看题材／像素，不新增受限，不下载或执行游戏包。 | [catch/2016-kouhaku/recovery.json](../catch/2016-kouhaku/recovery.json)、[catch/2016-kouhaku/source/live/manifest.json](../catch/2016-kouhaku/source/live/manifest.json)、[catch/2016-kouhaku/source/features/manifest.json](../catch/2016-kouhaku/source/features/manifest.json)、[catch/2016-kouhaku/source/resources/manifest.json](../catch/2016-kouhaku/source/resources/manifest.json)、[catch/2016-kouhaku/investigation/data-reconciliation.json](../catch/2016-kouhaku/investigation/data-reconciliation.json)、[catch/2016-kouhaku/investigation/archive-supplement.json](../catch/2016-kouhaku/investigation/archive-supplement.json) |
 | 73 | 2016-summer | 2026-10-20T23:25:16.684Z | 日本原站301关闭、atwiki当前403，香港Wayback前缀939记录恢复6HTML／96图像，102载荷CDX摘要核验。50编号／题名不变，Ⅺ仅编号映射11，99留言字段全文一致。旧0图现94个来源预览／截图引用；来源无独立图标，下载预览复作目录缩略图，2横幅、31配布来源保留。原貌50表／71图和全部19图库入口锚点／返回、三个图库44图及参加说明通过；整理版50详情／94图无坏图，39预格式文本局部滚动使页面1365→1265且原文未改。原貌主表保留1284px排版，框1168px内横滚。九图查看器／关闭／Esc、首页50唯一作品／52图／末项往返通过。102原貌文件／174引用闭合，198发布文件HTTP／SHA一致；4217页构建、lint、数据校验通过。不审看题材／像素，不新增受限，不下载或执行游戏包。 | [catch/2016-summer/recovery.json](../catch/2016-summer/recovery.json)、[catch/2016-summer/source/archive/manifest.json](../catch/2016-summer/source/archive/manifest.json)、[catch/2016-summer/source/resources/manifest.json](../catch/2016-summer/source/resources/manifest.json)、[catch/2016-summer/source/live/manifest.json](../catch/2016-summer/source/live/manifest.json)、[catch/2016-summer/investigation/original-cdx.json](../catch/2016-summer/investigation/original-cdx.json)、[catch/2016-summer/investigation/data-reconciliation.json](../catch/2016-summer/investigation/data-reconciliation.json) |
+| 74 | 2016-summer-2 | 2026-10-20T23:48:33.411Z | 日本可访问源站归档60站内HTML（含未登记000样例）／58实际论坛／169资源，288载荷摘要核验。58编号题名不变，115留言字段全文匹配；CSS作者／引擎58项解析，类型图URL逐项不变，保留类别，隔行黄色不推断迟到分组。58图标／74截图，旧74全部字节对应，补回9补丁入口。旧popupCenter接口改用本地图片和有效固定坐标，去除托管跟踪，原字节保留，HTML／CSS转UTF-8。原貌58目录点击／返回、640px悬停复位、000样例与论坛只读实测；整理58详情74图、查看器、补丁按钮、首页58项59图末项往返通过，无坏图／溢出。287原貌文件／953静态及144事件引用闭合，420发布路径HTTP／SHA相同，4218页构建／lint／数据校验通过。不审看题材／像素，不新增受限，不下载或执行游戏包。 | [catch/2016-summer-2/recovery.json](../catch/2016-summer-2/recovery.json)、[catch/2016-summer-2/source/live/manifest.json](../catch/2016-summer-2/source/live/manifest.json)、[catch/2016-summer-2/source/resources/manifest.json](../catch/2016-summer-2/source/resources/manifest.json)、[catch/2016-summer-2/investigation/data-reconciliation.json](../catch/2016-summer-2/investigation/data-reconciliation.json) |
 
-尚未完成：`2016-summer-2`。
+尚未完成：。
 
 已校对但尚待原貌视图验收：无。

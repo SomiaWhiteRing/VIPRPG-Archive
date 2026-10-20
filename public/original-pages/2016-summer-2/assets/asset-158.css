@@ -1,0 +1,296 @@
+
+/*  Reset Styles (based on YUI)
+-------------------------------------------------------------------------------- */
+html{color:#000;background:#666;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+img{vertical-align:top;}
+address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}
+del,ins{text-decoration:none;}
+li{list-style:none;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}
+input,button,textarea,select{*font-size:100%;}
+*{word-break:break-all;}
+strong{font-weight:bold;}
+input{vertical-align:middle;}
+
+* {
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+html, div, map, dt, isindex, form {
+    display: block;
+}
+dl {
+  margin-left:10px;
+}
+
+#thread-body dd{
+  margin-left:25px;
+}
+
+/*  
+ layout 
+*/
+#headerContainer {
+    border-bottom:1px solid #ccc;
+    height: 28px;
+    text-align: left;
+    width: 100%;
+    min-width:1100px;
+    position:fixed;
+    display:inline;
+    z-index:10;
+}
+#headerContainer a {
+}
+
+#headerMenu {
+    width:210px;
+    float:left;
+}
+
+#logoBox {
+    float:left;
+    padding:5px 10px 0 0;
+}
+#logoBox li {
+    margin-left: 4px;
+    display: inline;
+    line-height: 1;
+}
+
+div.header_part {
+    position: relative;
+    float: right;
+    margin-right: 20px;
+    font-size: 0.8em;
+    height: 100%;
+}
+div.header_part a {
+    text-decoration:none;
+}
+div.header_part a:visited {
+    text-decoration:none;
+}
+div.header_part a:hover {
+    color: #f00;
+    text-decoration:underline;
+}
+.bg_black { background: #000; }
+.bg_black a {
+    color: #fff;
+}
+.bg_white { background: #fff; }
+.bg_white a {
+    color: #000;
+}
+
+div.more_part {
+    position: absolute;
+    top: 27px;
+    padding: 3px 10px 3px 20px;
+    display: none;
+    border: 1px solid #ccc;
+    z-index: 0;
+}
+div#news_more, div#news_highlight {
+    width: 230px;
+}
+div#anker_more, div#anker_highlight {
+    width: 300px;
+}
+div#blog_more, div#blog_highlight {
+    width: 230px;
+}
+ul.more_part_list li {
+    text-decoration: none;
+}
+ul.more_part_list li {
+    padding: 3px;
+}
+p.more_part_close {
+    text-align: right;
+}
+p.more_part_more {
+    margin-top: 5px;
+    text-align: right;
+}
+
+#menu-container {
+    position: absolute;
+    float:left;
+    left: 200px;
+    width:100px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    text-align:left;
+    margin-top: 6px;
+    z-index: 10;
+    padding: 1px;
+}
+
+#news-container {
+    float:left;
+    width:280px;
+    text-align:left;
+    padding-top:6px;
+}
+
+div.header_container {
+    text-align:left;
+    padding-top:6px;
+}
+
+/*  
+ /layout
+*/
+
+/* #headerMenu */
+div#newHeader ul li {
+    margin-left: 8px;
+}
+
+#container {
+  padding-top:47px;
+}   
+
+span.news_icon_white {
+    width:18px;
+    height:18px;
+    display:block;
+    float:left;
+    margin-right:10px;
+    background: url("asset-163.png") no-repeat scroll 0 0 transparent;
+}
+span.anker_icon_white {
+    width:18px;
+    height:18px;
+    display:block;
+    float:left;
+    margin-right:10px;
+    background: url("asset-163.png") no-repeat scroll -162px -36px transparent;
+}
+span.blog_icon_white {
+    width:18px;
+    height:18px;
+    display:block;
+    float:left;
+    margin-right:10px;
+    background: url("asset-163.png") no-repeat scroll -36px -18px transparent;
+}
+span.news_icon_black {
+    width:18px;
+    height:18px;
+    display:block;
+    float:left;
+    margin-right:10px;
+    background: url("asset-164.png") no-repeat scroll 0 0 transparent;
+}
+span.anker_icon_black {
+    width:18px;
+    height:18px;
+    display:block;
+    float:left;
+    margin-right:10px;
+    background: url("asset-164.png") no-repeat scroll -162px -36px transparent;
+}
+span.blog_icon_black {
+    width:18px;
+    height:18px;
+    display:block;
+    float:left;
+    margin-right:10px;
+    background: url("asset-164.png") no-repeat scroll -36px -18px transparent;
+}
+
+
+.ldnews {
+    margin-top:4px;
+    padding-top:4px;
+    border-top:1px solid #ccc;
+}
+.ldnews li {
+    margin: 5px;
+}
+.ldblog {
+    margin-top:4px;
+    padding-top:4px;
+    border-top:1px solid #ccc;
+}
+.ldblog li {
+    margin: 5px;
+}
+
+
+a.pickup {
+    line-height: 1.4em;
+}
+
+/* search_column */
+#search_column {
+    float:right;
+    width:250px;
+    margin-top: 1px;
+}
+#search_column input.text {
+    background: none repeat scroll 0 0 #f3ffff;
+    border: 1px solid #000;
+    color: #000;
+    font-size: 13px;
+    height: 20px;
+    line-height: 16px;
+    margin:2px;
+    padding-left:5px;
+    width: 180px;
+}
+#search_column input.submit {
+  color:#000;
+  font-size:12px;
+  padding:0 7px;
+  margin:2px 2px;
+}
+
+#new_response{
+  margin:5px auto;
+  text-align:center;
+}
+
+
+#adwires_ad{
+  margin-left:5px;
+}
+
+#form_write{
+  margin-left:5px;
+}
+
+#jlisting_ad{
+  margin:0px 5px 5px;
+}
+
+#recommend_ad{
+  margin:5px;
+}
+
+#footer-menu {
+  margin:3px 0px 0px 5px;
+}
+
+/* search form */
+#headerContainer {padding:3px 0;min-width:840px;}
+form#ld_header_sb {float:left;font-size:13px;}
+form#ld_header_sb dl{padding-left:15px;padding-right:5px;}
+form#ld_header_sb dl dt {float:left;display:inline;line-height:30px;margin-right:9px;}
+form#ld_header_sb dl dd {float:left;}
+form#ld_header_sb dl dd.word {width:236px;height:30px;background:url("asset-165.png") no-repeat;}
+form#ld_header_sb dl dd input.q {border:0;line-height:1.1;margin:5px;outline-color:black;outline-style:none;outline-width:0px;text-align:left;vertical-align:middle;width:165px;cursor:text;background:#fff;float:left;font-size:12px;color:#000!important;}
+form#ld_header_sb dl dd button {float:right;width:47px;height:30px;background:url("asset-165.png") no-repeat -189px 0;border:0;text-indent:-99999px;cursor:pointer;}
+/*\*//*/
+form#ld_header_sb dl dd button button {letter-spacing:-9999px;}
+/**/
+#headercontainer div.header_part {margin:5px 0 0 20px;}
+
