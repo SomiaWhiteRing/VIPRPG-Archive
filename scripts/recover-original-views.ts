@@ -1015,6 +1015,8 @@ async function main() {
           $("form [onclick]").removeAttr("onclick");
           compatibilityFixes.push({ page: local, change: "Preserve the captured ranking table and its ordering; unavailable server-side filter/sort controls are disabled." });
         }
+        const inheritedTarget = $("base[target]").first().attr("target");
+        if (inheritedTarget) $("a[href]:not([target])").attr("target", inheritedTarget);
         $("base").remove();
         if (id === "2024-kouhaku") $('script[src]').filter((_, element) => new URL($(element).attr('src')!, original).href === `${base}entry/main.js`).each((_, element) => {
           $(element).remove();
