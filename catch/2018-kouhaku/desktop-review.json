@@ -1,0 +1,104 @@
+{
+  "festivalId": "2018-kouhaku",
+  "reviewedAt": "2026-10-21",
+  "scope": "desktop-only",
+  "method": "Read-only DOM geometry/resource state and actual native mouse, keyboard and browser navigation; no topic or pixel screening.",
+  "organized": {
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    },
+    "details": 61,
+    "screenshotImages": 94,
+    "brokenImages": [],
+    "overflow": [],
+    "initialPendingPages": [
+      30
+    ],
+    "pendingResolved": true,
+    "viewer": {
+      "next": true,
+      "closeButton": true,
+      "escape": true,
+      "alternateImage": {
+        "complete": true,
+        "width": 640,
+        "height": 480
+      }
+    },
+    "home": {
+      "uniqueWorks": 61,
+      "icons": 61,
+      "banners": 1,
+      "allLoadedAfterMiddleScroll": true,
+      "hashExpansionPassed": true,
+      "verifiedLastItemNavigation": true,
+      "returnExpanded": true
+    }
+  },
+  "original": {
+    "viewport": {
+      "width": 1183,
+      "height": 638
+    },
+    "htmlPages": 64,
+    "details": 61,
+    "resultPages": [
+      {
+        "path": "result01.html",
+        "rows": 160,
+        "images": 57
+      },
+      {
+        "path": "resultall.html",
+        "rows": 104,
+        "images": 101
+      }
+    ],
+    "brokenImages": [],
+    "overflow": [],
+    "navigation": [
+      "resultall corrected return to index#gamelist",
+      "sample00 next to formal01",
+      "sandbox catalogue anchor scroll",
+      "sandbox catalogue to60"
+    ],
+    "resultReturnFix": {
+      "original": "entry.html",
+      "probeStatus": 404,
+      "replacement": "index.html#gamelist",
+      "returnedGameListY": 0.09375
+    },
+    "scrollFix": {
+      "rawScript": "js/common.js",
+      "sourceSelector": "legacy Safari flag selects body",
+      "actualScrollingElement": "HTML",
+      "before": {
+        "scrollY": 0,
+        "targetY": 168.296875,
+        "hit": "#koshin"
+      },
+      "after": {
+        "scrollY": 168,
+        "targetY": 0.296875
+      }
+    },
+    "hover": {
+      "page": "entry00.html",
+      "before": "SS/No00SS1.png",
+      "over": "SS/No00SS2.png",
+      "out": "SS/No00SS1.png"
+    },
+    "sandbox": {
+      "permissions": "allow-scripts",
+      "clientWidth": 1071,
+      "scrollWidth": 1071,
+      "anchorScrollY": 295,
+      "gameListY": 0.09375,
+      "formal60Entered": true
+    },
+    "finalConsoleErrors": []
+  },
+  "externalServerFunctions": "Original external addresses retained as source references; no vote submission or game-package download/execution performed.",
+  "contentScreening": false
+}

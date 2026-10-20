@@ -1,0 +1,3331 @@
+{
+  "festivalId": "2018-kouhaku",
+  "originalBase": "https://viprpgmsmkohaku2018.web.fc2.com/",
+  "liveSource": true,
+  "proxyRegion": "Japan",
+  "sourceManifests": [
+    "source/replay/manifest.json"
+  ],
+  "originalResources": {
+    "https://viprpgmsmkohaku2018.web.fc2.com/": "index.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry00.html": "entry00.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/result01.html": "result01.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry02.html": "entry02.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry01.html": "entry01.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry04.html": "entry04.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry03.html": "entry03.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry05.html": "entry05.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry06.html": "entry06.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry07.html": "entry07.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry08.html": "entry08.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry09.html": "entry09.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry10.html": "entry10.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry11.html": "entry11.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry12.html": "entry12.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry13.html": "entry13.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry14.html": "entry14.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry15.html": "entry15.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry16.html": "entry16.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry17.html": "entry17.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry18.html": "entry18.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry19.html": "entry19.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry20.html": "entry20.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry21.html": "entry21.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry22.html": "entry22.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry23.html": "entry23.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry24.html": "entry24.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry25.html": "entry25.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry26.html": "entry26.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry27.html": "entry27.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry28.html": "entry28.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry30.html": "entry30.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry29.html": "entry29.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry31.html": "entry31.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry32.html": "entry32.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry33.html": "entry33.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry34.html": "entry34.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry35.html": "entry35.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry36.html": "entry36.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry37.html": "entry37.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry38.html": "entry38.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry39.html": "entry39.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry40.html": "entry40.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry41.html": "entry41.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry42.html": "entry42.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry43.html": "entry43.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry44.html": "entry44.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry45.html": "entry45.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry46.html": "entry46.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry47.html": "entry47.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry48.html": "entry48.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry49.html": "entry49.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry50.html": "entry50.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry51.html": "entry51.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry52.html": "entry52.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry53.html": "entry53.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry54.html": "entry54.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry55.html": "entry55.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry56.html": "entry56.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry57.html": "entry57.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry58.html": "entry58.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry59.html": "entry59.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/entry60.html": "entry60.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/resultall.html": "resultall.html",
+    "https://viprpgmsmkohaku2018.web.fc2.com/banner/kohaku2018.png": "banner/kohaku2018.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon00.png": "icon/icon00.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon02.png": "icon/icon02.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon03.png": "icon/icon03.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon04.png": "icon/icon04.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon05.PNG": "icon/icon05.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon01.png": "icon/icon01.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon06.png": "icon/icon06.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon07.png": "icon/icon07.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon08.png": "icon/icon08.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon09.png": "icon/icon09.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon10.png": "icon/icon10.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon12.png": "icon/icon12.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/icon/iconZZ.png": "icon/iconZZ.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon13.png": "icon/icon13.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon14.png": "icon/icon14.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon15.png": "icon/icon15.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon17.png": "icon/icon17.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon16.gif": "icon/icon16.gif",
+    "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon18.png": "icon/icon18.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon19.png": "icon/icon19.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon20.png": "icon/icon20.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon23.png": "icon/icon23.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon24.png": "icon/icon24.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon28.png": "icon/icon28.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon26.png": "icon/icon26.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon29.png": "icon/icon29.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon31.png": "icon/icon31.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon30.png": "icon/icon30.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon32.png": "icon/icon32.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon33.png": "icon/icon33.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon36.png": "icon/icon36.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon37.png": "icon/icon37.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon38.png": "icon/icon38.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon40.png": "icon/icon40.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon41.png": "icon/icon41.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon42.gif": "icon/icon42.gif",
+    "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon43.png": "icon/icon43.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon44.png": "icon/icon44.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon45.png": "icon/icon45.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon50.png": "icon/icon50.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon52.png": "icon/icon52.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon49.png": "icon/icon49.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon58.png": "icon/icon58.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon60.png": "icon/icon60.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/banner/kohaku2017.png": "banner/kohaku2017.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/banner/kohaku2016.png": "banner/kohaku2016.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/banner/kohaku2014.png": "banner/kohaku2014.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/banner/kohaku2015.png": "banner/kohaku2015.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/banner/kohaku2013.png": "banner/kohaku2013.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/banner/kohaku2012.png": "banner/kohaku2012.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/banner/kohaku2011.png": "banner/kohaku2011.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/banner/kohaku2010.png": "banner/kohaku2010.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/banner/kohaku2009.png": "banner/kohaku2009.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/banner/kohaku2008.png": "banner/kohaku2008.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/banner/kohaku2007.png": "banner/kohaku2007.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/banner/kohaku2005.png": "banner/kohaku2005.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/banner/kohaku2006.png": "banner/kohaku2006.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/js/jquery.js": "js/jquery.js",
+    "https://viprpgmsmkohaku2018.web.fc2.com/js/common.js": "js/common.js",
+    "https://viprpgmsmkohaku2018.web.fc2.com/images/faviconuku.ico": "images/faviconuku.ico",
+    "https://viprpgmsmkohaku2018.web.fc2.com/css/common.css": "css/common.css",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No00SS1.png": "SS/No00SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/css/haikei.css": "css/haikei.css",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No00SS2.png": "SS/No00SS2.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No29SS1.png": "SS/No29SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No08SS1.png": "SS/No08SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No40SS1.png": "SS/No40SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No13SS1.PNG": "SS/No13SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No09SS1.png": "SS/No09SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No19SS1.png": "SS/No19SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/images/No13END.png": "images/No13END.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/images/astrogorou.gif": "images/astrogorou.gif",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No05SS1.PNG": "SS/No05SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No06SS1.png": "SS/No06SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No12SS1.png": "SS/No12SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No02SS1.png": "SS/No02SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No51SS1.png": "SS/No51SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No54SS1.png": "SS/No54SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No23SS1.png": "SS/No23SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No28SS1.png": "SS/No28SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No24SS1.png": "SS/No24SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No04SS1.png": "SS/No04SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No48SS1.png": "SS/No48SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No09SS2.png": "SS/No09SS2.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No19SS2.png": "SS/No19SS2.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No05SS2.png": "SS/No05SS2.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No29SS2.png": "SS/No29SS2.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No12SS2.png": "SS/No12SS2.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No06SS2.png": "SS/No06SS2.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No02SS2.png": "SS/No02SS2.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No28SS2.png": "SS/No28SS2.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No23SS2.png": "SS/No23SS2.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No01SS1.png": "SS/No01SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No03SS1.png": "SS/No03SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No04SS2.png": "SS/No04SS2.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No03SS2.png": "SS/No03SS2.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No07SS1.png": "SS/No07SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No07SS2.png": "SS/No07SS2.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No10SS2.png": "SS/No10SS2.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No10SS1.png": "SS/No10SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/NoZZSS1.png": "SS/NoZZSS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No15SS1.png": "SS/No15SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No14SS1.png": "SS/No14SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No16SS3.png": "SS/No16SS3.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No15SS2.png": "SS/No15SS2.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No16SS4.png": "SS/No16SS4.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No18SS1.png": "SS/No18SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No17SS1.png": "SS/No17SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No18SS2.png": "SS/No18SS2.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No20SS1.png": "SS/No20SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No21SS1.PNG": "SS/No21SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No25SS1.png": "SS/No25SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No26SS1.png": "SS/No26SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No26SS2.png": "SS/No26SS2.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No27SS1.png": "SS/No27SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No27SS2.png": "SS/No27SS2.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No30SS1.png": "SS/No30SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No30SS2.png": "SS/No30SS2.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No31SS1.png": "SS/No31SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No31SS2.png": "SS/No31SS2.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No32SS1.png": "SS/No32SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No32SS2.png": "SS/No32SS2.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No33SS1.png": "SS/No33SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No33SS2.png": "SS/No33SS2.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No34SS2.png": "SS/No34SS2.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No34SS1.png": "SS/No34SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No35SS1.png": "SS/No35SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No36SS1.png": "SS/No36SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No37SS1.png": "SS/No37SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No37SS2.png": "SS/No37SS2.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No38SS1.png": "SS/No38SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No38SS2.png": "SS/No38SS2.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No39SS2.png": "SS/No39SS2.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No39SS1.png": "SS/No39SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No41SS1.png": "SS/No41SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No41SS2.png": "SS/No41SS2.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No43SS1.png": "SS/No43SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No44SS1.png": "SS/No44SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No42SS1.png": "SS/No42SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No45SS1.png": "SS/No45SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No45SS2.png": "SS/No45SS2.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No46SS1.png": "SS/No46SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No49SS1.png": "SS/No49SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No47SS1.png": "SS/No47SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No49SS2.png": "SS/No49SS2.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No52SS1.png": "SS/No52SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No52SS2.png": "SS/No52SS2.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No50SS1.png": "SS/No50SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No55SS1.png": "SS/No55SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No53SS1.png": "SS/No53SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No56SS1.png": "SS/No56SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No57SS1.png": "SS/No57SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No58SS1.png": "SS/No58SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No59SS1.png": "SS/No59SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No60SS1.png": "SS/No60SS1.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No60SS2.png": "SS/No60SS2.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/images/bg_h2.gif": "images/bg_h2.gif",
+    "https://viprpgmsmkohaku2018.web.fc2.com/images/bg_h3.gif": "images/bg_h3.gif",
+    "https://viprpgmsmkohaku2018.web.fc2.com/images/bg_list.gif": "images/bg_list.gif",
+    "https://viprpgmsmkohaku2018.web.fc2.com/images/bg_pagetop.gif": "images/bg_pagetop.gif",
+    "https://viprpgmsmkohaku2018.web.fc2.com/SS/No58SS2.png": "SS/No58SS2.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/css/haikeimain.png": "css/haikeimain.png",
+    "https://viprpgmsmkohaku2018.web.fc2.com/index.html": "index.html"
+  },
+  "entries": [
+    {
+      "id": "2018-kouhaku-work-00",
+      "no": "00",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry00.html",
+      "catalogue": {
+        "title": "もしもアンサンプル",
+        "author": "管理人",
+        "category": "サンプルゲー",
+        "engine": "2000",
+        "streaming": "不可/不可"
+      },
+      "detailTitle": "もしもアンサンプル",
+      "sourceMetadata": {
+        "作者": "管理人",
+        "ツクール": "2000",
+        "ジャンル": "サンプルゲー",
+        "配信/投稿": "不可/不可",
+        "keyword": "妹が説明中にオチをツケられようとしている哀れな兄",
+        "投票": "テスト投票はこちら"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 2,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon00.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/00-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No00SS1.png",
+          "sha256": "98fe67f6f0095eed410a9aa15c7d59022c5a8ef25bf55cdf057ea71e9a86144c"
+        },
+        {
+          "local": "/screenshots/2018-kouhaku/00-source-2.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No00SS2.png",
+          "sha256": "2dbcc0abc5814bffd03869351612165bc54784f51be4d98ef5f77cd2bcdfea04"
+        }
+      ],
+      "downloadLinks": [],
+      "samplePlaceholderLinks": [
+        "https://viprpgmsmkohaku2018.web.fc2.com/index.html"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-01",
+      "no": "01",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry01.html",
+      "catalogue": {
+        "title": "号外聖人",
+        "author": "鷹",
+        "category": "見るゲ",
+        "engine": "2000",
+        "streaming": "お好きにどうぞ"
+      },
+      "detailTitle": "号外聖人",
+      "sourceMetadata": {
+        "作者": "鷹",
+        "ツクール": "2000",
+        "ジャンル": "見るゲ",
+        "配信/投稿": "お好きにどうぞ",
+        "keyword": "----",
+        "投票": "投票はこちら"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 2,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon01.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/01-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No01SS1.png",
+          "sha256": "a6db11cb5ec8b5cdae4326f6f29e96a799062eb5fb650e5733927535d9ff941b"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1uWodz2vjfsX95jOwCE7Dtj1SBIN0BTgU/view?usp=sharing",
+          "label": "0.3MB11/25登録12/25公開"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=1b699d6a-750a-4028-ba07-1a0fa8a8239c&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-02",
+      "no": "02",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry02.html",
+      "catalogue": {
+        "title": "ダイスローグ",
+        "author": "F-man",
+        "category": "雪道系",
+        "engine": "2000",
+        "streaming": "両方ＯＫ　※ただし自己責任"
+      },
+      "detailTitle": "ダイスローグ",
+      "sourceMetadata": {
+        "作者": "F-man",
+        "ツクール": "2000",
+        "ジャンル": "ローグライクライク",
+        "配信/投稿": "両方ＯＫ　※ただし自己責任",
+        "keyword": "運命、希望、乳球",
+        "投票": "投票はこちら",
+        "更新履歴": "01/03本体更新→01/27本体更新"
+      },
+      "metadataDifferences": [
+        {
+          "label": "ジャンル",
+          "catalogue": "雪道系",
+          "detail": "ローグライクライク"
+        }
+      ],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 4,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon02.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/02-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No02SS1.png",
+          "sha256": "14658b6fc1cfbe988200e4ba6e8c3255f48558a8a572a914d383ec3f3948f193"
+        },
+        {
+          "local": "/screenshots/2018-kouhaku/02-source-2.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No02SS2.png",
+          "sha256": "597633d950c32611f3537684d9862d68015283d193be176bcfff208ed68d9d46"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1hWjxRPGzET6Urk90Y0gI2xmNm2KVMiN6/view?usp=sharing",
+          "label": "3.5MB11/25登録01/27更新"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=b30367be-ba7e-40e0-9730-e5bab438fd6a&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-03",
+      "no": "03",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry03.html",
+      "catalogue": {
+        "title": "勝ち抜きボスバトル紅白2018",
+        "author": "すいかびぃ",
+        "category": "ボスラッシュ",
+        "engine": "VXAce",
+        "streaming": "可/可"
+      },
+      "detailTitle": "勝ち抜きボスバトル紅白2018",
+      "sourceMetadata": {
+        "作者": "すいかびぃ",
+        "ツクール": "VXAce",
+        "ジャンル": "ボスラッシュ",
+        "配信/投稿": "可/可",
+        "keyword": "人によっては懐かしいアノそんざいや未知の相手とも戦えるかも",
+        "投票": "投票はこちら",
+        "更新履歴": "12/29遅刻提出→01/21本体更新→01/23本体更新"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 3,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon03.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/03-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No03SS1.png",
+          "sha256": "a24fe62836874640c21eb45ca1e700c9d067c203bd0dcec2e8ac8db460e4529e"
+        },
+        {
+          "local": "/screenshots/2018-kouhaku/03-source-2.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No03SS2.png",
+          "sha256": "ee7ab5934bfb11261ac8a33a5d59b5a43dece50aefea78b8f888c328f3d22ef9"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1fkRIiZxxpcuYT1F20ohAw_MAQ0sa9mUe/view?usp=sharing",
+          "label": "129.0MB11/25登録01/23更新"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=7cad74e6-a9aa-4567-9b5a-2477696452bc&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-04",
+      "no": "04",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry04.html",
+      "catalogue": {
+        "title": "（自称）死霊術師と聖人の遺体",
+        "author": "徳明",
+        "category": "エロがおまけレベルになったerg R-18",
+        "engine": "Steam版2003",
+        "streaming": "BAN回避策があるなら/らめぇ"
+      },
+      "detailTitle": "（自称）死霊術師と聖人の遺体",
+      "sourceMetadata": {
+        "作者": "徳明",
+        "ツクール": "Steam2003",
+        "ジャンル": "エロがおまけレベルになったerg　R-18",
+        "配信/投稿": "BAN回避策があるなら/らめぇ",
+        "keyword": "百合　母乳　陰毛",
+        "投票": "投票はこちら",
+        "更新履歴": "12/30遅刻提出→01/09本体更新"
+      },
+      "metadataDifferences": [
+        {
+          "label": "ツクール",
+          "catalogue": "Steam版2003",
+          "detail": "Steam2003"
+        }
+      ],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 4,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon04.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/04-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No04SS1.png",
+          "sha256": "0c611b9840273ea82361c2b5bc18d89ab2f534f87c522a7f4c3e466295d4e7f9"
+        },
+        {
+          "local": "/screenshots/2018-kouhaku/04-source-2.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No04SS2.png",
+          "sha256": "51efc867973c8a6e3e8f1fe9e97087a698c339013bced81cca2b894e323268d1"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1Bnw8TI02L3AH_013CMe-uj5Yra1wRlsv/view?usp=sharing",
+          "label": "30.4MB11/25登録01/09更新"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=bec2764e-c8cc-49e2-8d70-0ffc2c86881b&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-05",
+      "no": "05",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry05.html",
+      "catalogue": {
+        "title": "カマソッソの冬休み",
+        "author": "池田さん",
+        "category": "日常系はちゃめちゃギャグ紙芝居",
+        "engine": "2000",
+        "streaming": "可/可"
+      },
+      "detailTitle": "カマソッソの冬休み",
+      "sourceMetadata": {
+        "作者": "池田さん",
+        "ツクール": "2000",
+        "ジャンル": "日常系はちゃめちゃギャグ紙芝居",
+        "配信/投稿": "可/可",
+        "keyword": "「オトナ」と呼ばれる全ての夢見る子供達に捧ぐ、たった１つのおバカ活劇",
+        "投票": "投票はこちら"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 2,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon05.PNG",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/05-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No05SS1.PNG",
+          "sha256": "aa970aa710e017c3306475e063089c3b21ac2ae97b79f1ac54332d38036379d0"
+        },
+        {
+          "local": "/screenshots/2018-kouhaku/05-source-2.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No05SS2.png",
+          "sha256": "6c669e912ae67ec0a2491740de65b304eb923278544e1fdd7d64306a2961a73b"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1pgt_pOK9m8Pcs3bQuw5YqTgSdXKpEnmf/view?usp=sharing",
+          "label": "114.4MB11/25登録12/25公開"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=c62a5cb9-efc9-4b22-8bcc-f011de6f0cf4&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-06",
+      "no": "06",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry06.html",
+      "catalogue": {
+        "title": "THE・野球拳(VIP)",
+        "author": "名雲きつね",
+        "category": "野球拳(R-18)",
+        "engine": "MV",
+        "streaming": "自己責任"
+      },
+      "detailTitle": "THE・野球拳(VIP)",
+      "sourceMetadata": {
+        "作者": "名雲きつね",
+        "ツクール": "MV",
+        "ジャンル": "野球拳(R-18)",
+        "配信/投稿": "自己責任",
+        "keyword": "----",
+        "投票": "投票はこちら",
+        "更新履歴": "12/25公開→12/27本体更新→01/27本体更新"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 3,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon06.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/06-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No06SS1.png",
+          "sha256": "f61314af370a22ad053c675997db76abf4307fb8146cd68a9e88eec92379af67"
+        },
+        {
+          "local": "/screenshots/2018-kouhaku/06-source-2.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No06SS2.png",
+          "sha256": "b80e7dda4ddc2ece2f97f7a829ac078802501a98b47905c7142677be788291ee"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/19IbRo8QzQn5afR6uvzu2dhQWlOemcEVk/view?usp=sharing",
+          "label": "401.2MB11/25登録01/27更新"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=02408f08-2859-4191-b0ea-d02b68ca74b3&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-07",
+      "no": "07",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry07.html",
+      "catalogue": {
+        "title": "レッツゴー！冥界ガーディアンズ",
+        "author": "アクハデジャスティス丸",
+        "category": "限りなく長編に近い中編RPG",
+        "engine": "2000",
+        "streaming": "自己責任"
+      },
+      "detailTitle": "レッツゴー！冥界ガーディアンズ",
+      "sourceMetadata": {
+        "作者": "アクハデジャスティス丸",
+        "ツクール": "2000",
+        "ジャンル": "限りなく長編に近い中編RPG",
+        "配信/投稿": "両方とも可能(ただし自己責任)",
+        "keyword": "登場人物＆概念礼装多数、あとアイコンの子は何気に重要だったりする。",
+        "投票": "投票はこちら",
+        "更新履歴": "01/14本体更新→01/23本体更新"
+      },
+      "metadataDifferences": [
+        {
+          "label": "配信/投稿",
+          "catalogue": "自己責任",
+          "detail": "両方とも可能(ただし自己責任)"
+        }
+      ],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 4,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon07.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/07-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No07SS1.png",
+          "sha256": "81e7d41aca278e1dbcfbc818296841615330ba89eb034f401e9a0230dcff1357"
+        },
+        {
+          "local": "/screenshots/2018-kouhaku/07-source-2.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No07SS2.png",
+          "sha256": "c879e92592344b3ad4c5ca835c02aa290b61d8322202a9016803f640ec9c8655"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1Lpgsf9qrVxY9zzlsOUHao9gVnFlEInXc/view?usp=sharing",
+          "label": "156.1MB11/25登録01/23更新"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=f129f081-243d-48c7-8495-010893c0fde1&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-08",
+      "no": "08",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry08.html",
+      "catalogue": {
+        "title": "ふたりの旅のきろく",
+        "author": "牧場の牛肉",
+        "category": "見るやるゲー",
+        "engine": "2000",
+        "streaming": "○（txtファイルを読んでね）"
+      },
+      "detailTitle": "ふたりの旅のきろく",
+      "sourceMetadata": {
+        "作者": "牧場の牛肉",
+        "ツクール": "2000",
+        "ジャンル": "見るやるゲー",
+        "配信/投稿": "○（txtファイルを読んでね）",
+        "keyword": "新たな発見と思い出",
+        "投票": "投票はこちら",
+        "更新履歴": "12/25公開→01/17更新"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 3,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon08.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/08-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No08SS1.png",
+          "sha256": "bd6952d3c155b2b03bf85d9ed0872c6e5410789c0a632b02439db5145b883d6f"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1MCEe6SCRx-DgBoLHUaWnzVYkyv5_axi3/view?usp=sharing",
+          "label": "19.7MB11/25登録01/17更新"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=6c6665ff-7cf8-4a25-8415-79969ca9adab&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-09",
+      "no": "09",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry09.html",
+      "catalogue": {
+        "title": "フレイム冒険記その２",
+        "author": "夢のキービィ",
+        "category": "フレイムと愉快な仲間達のインフレ長編RPG（予定）",
+        "engine": "2000",
+        "streaming": "自己責任"
+      },
+      "detailTitle": "フレイム冒険記その２",
+      "sourceMetadata": {
+        "作者": "夢のキービィ",
+        "ツクール": "2000",
+        "ジャンル": "フレイムと愉快な仲間達のインフレ長編RPG（予定）",
+        "配信/投稿": "自己責任でお願いします",
+        "keyword": "今回のメインは光の世界の旅",
+        "投票": "投票はこちら",
+        "更新履歴": "12/25公開→12/27更新→01/03更新→01/17更新→01/24更新"
+      },
+      "metadataDifferences": [
+        {
+          "label": "配信/投稿",
+          "catalogue": "自己責任",
+          "detail": "自己責任でお願いします"
+        }
+      ],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 4,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon09.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/09-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No09SS1.png",
+          "sha256": "f809150e19834007d4d8f799908ccf9291f1203d69748457bb4bbed75cacd7db"
+        },
+        {
+          "local": "/screenshots/2018-kouhaku/09-source-2.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No09SS2.png",
+          "sha256": "4e3463331edbf90a1da8ff32e24b03ab391d12b439a307c9a034e5db1160c8e0"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1PNK90gJCTJMY0qTCFgRYScKRyvSzJW-D/view?usp=sharing",
+          "label": "264.4MB11/25登録01/24更新"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=f18d97b2-5545-4533-ac4d-e986eddce501&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-10",
+      "no": "10",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry10.html",
+      "catalogue": {
+        "title": "かばね遣いと林檎",
+        "author": "あきこ",
+        "category": "見るゲ",
+        "engine": "2000",
+        "streaming": "だいじょぶ"
+      },
+      "detailTitle": "かばね遣いと林檎",
+      "sourceMetadata": {
+        "作者": "あきこ",
+        "ツクール": "2000",
+        "ジャンル": "見るゲ",
+        "配信/投稿": "だいじょぶ",
+        "keyword": "ブラックバイソンさんのワクワク屍霊術",
+        "投票": "投票はこちら"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 2,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon10.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/10-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No10SS1.png",
+          "sha256": "03b0079503e0ae0b115648c4ca1b23c4f9b892c0e247bc9ec3f099368b581ab8"
+        },
+        {
+          "local": "/screenshots/2018-kouhaku/10-source-2.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No10SS2.png",
+          "sha256": "1b9b1f70f6d5453dfb91b456525da976f847808ab58d356a0280864bd1c99361"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1dUqMSX0nfWGA_V8TJpWCI_1_pCZKLIP9/view?usp=sharing",
+          "label": "7.2MB11/25登録12/25公開"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=17481ef3-9133-40d1-a9ca-beab3c4c08de&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-11",
+      "no": "11",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry11.html",
+      "catalogue": {
+        "title": "ウンコヴィック最後の闘い",
+        "author": "UNKO",
+        "category": "ksg",
+        "engine": "2000",
+        "streaming": "可/可"
+      },
+      "detailTitle": "ウンコヴィック最後の闘い",
+      "sourceMetadata": {
+        "作者": "UNKO",
+        "ツクール": "2000",
+        "ジャンル": "ksg",
+        "配信/投稿": "可/可",
+        "keyword": "----",
+        "投票": "投票はこちら",
+        "更新履歴": "01/09遅刻提出"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 3,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/iconZZ.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/11-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/NoZZSS1.png",
+          "sha256": "3a8355f92770c05aab670b00d780bd38f13a2457ed5b336e159eb6a620f034eb"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1yXZ-Q7v6pPYqXE8UWTio_FCnFYUHPwuu/view?usp=sharing",
+          "label": "0.44MB11/25登録01/09公開"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=b0b89e6c-7220-4f3e-be3b-926a70b2ebf9&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-12",
+      "no": "12",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry12.html",
+      "catalogue": {
+        "title": "MOSIMO TACTICS",
+        "author": "池田超大作",
+        "category": "君と生まれ変わるRPG",
+        "engine": "2000",
+        "streaming": "君は死ねと言われれば死ぬのかね？"
+      },
+      "detailTitle": "MOSIMO TACTICS",
+      "sourceMetadata": {
+        "作者": "池田超大作",
+        "ツクール": "2000",
+        "ジャンル": "君と生まれ変わるRPG",
+        "配信/投稿": "君は死ねと言われれば死ぬのかね？",
+        "keyword": "友情、勝利、読者投票",
+        "投票": "投票はこちら",
+        "更新履歴": "12/29遅刻提出"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 3,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon12.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/12-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No12SS1.png",
+          "sha256": "b26a90328995e55e86d8e3c4a0512b82e2311a37ef30833fc8745ad468a1b6d0"
+        },
+        {
+          "local": "/screenshots/2018-kouhaku/12-source-2.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No12SS2.png",
+          "sha256": "2a45c444860bbe1a5efb4cbc6796503cc5552ad4c147633fe5c22c6ee8b3f2ba"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1BrUi9cOKGCvUzy3k-DwTeC8SC8vOTHmL/view?usp=sharing",
+          "label": "6.2MB11/26登録12/29公開"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=089e7c41-afc3-4850-af54-9dcd64cc1547&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-13",
+      "no": "13",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry13.html",
+      "catalogue": {
+        "title": "もぐれケゴール洞窟",
+        "author": "藻太郎",
+        "category": "短編デフォ戦RPG",
+        "engine": "2000",
+        "streaming": "お好きに"
+      },
+      "detailTitle": "もぐれケゴール洞窟",
+      "sourceMetadata": {
+        "作者": "藻太郎",
+        "ツクール": "2000",
+        "ジャンル": "短編デフォ戦RPG",
+        "配信/投稿": "お好きに",
+        "keyword": "アフォリズム――「生まれてしまったばかりに」「どうせ死ぬんだし」「人は人にとって狼」の様々な変奏",
+        "投票": "投票はこちら",
+        "更新履歴": "12/25公開→01/03本体更新"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 3,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon13.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/13-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No13SS1.PNG",
+          "sha256": "ce4a3ccadb6162faf4b84dd931c1a87cd19c8492f169b6600684bdd9f905e463"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1TXePSuRTSlZ356_xcJD0RYdm4eB1fkwg/view?usp=sharing",
+          "label": "5.0MB11/26登録01/03更新"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=d549dd21-a2e4-41d9-9166-9811f103e660&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-14",
+      "no": "14",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry14.html",
+      "catalogue": {
+        "title": "RTP食堂",
+        "author": "雪島",
+        "category": "見るゲ",
+        "engine": "2000",
+        "streaming": "自己/責任"
+      },
+      "detailTitle": "RTP食堂",
+      "sourceMetadata": {
+        "作者": "雪島",
+        "ツクール": "2000",
+        "ジャンル": "見るゲ",
+        "配信/投稿": "自己/責任",
+        "keyword": "作成中のミカンですよ？それでも見ます？",
+        "投票": "投票はこちら",
+        "更新履歴": "01/27遅刻提出"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 3,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon14.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/14-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No14SS1.png",
+          "sha256": "66d9e1d0baf32fbc2ac1250e79487ea5897a6bf66ac5e9ab739951e70dd3dfa5"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1PjG5IF92Vf8jcCdN-C-wY1USe5vm55_2/view?usp=sharing",
+          "label": "3.1MB11/29登録01/27公開"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=1f4fc48f-427d-4785-be4d-3dfa4a8e1011&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-15",
+      "no": "15",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry15.html",
+      "catalogue": {
+        "title": "主役キャラクターランキング2018",
+        "author": "秋草",
+        "category": "ランキング",
+        "engine": "2000",
+        "streaming": "可/可"
+      },
+      "detailTitle": "主役キャラクターランキング2018",
+      "sourceMetadata": {
+        "作者": "秋草",
+        "ツクール": "2000",
+        "ジャンル": "ランキング",
+        "配信/投稿": "可/可",
+        "keyword": "50位までのキャラ+α",
+        "投票": "投票はこちら",
+        "更新履歴": "01/03遅刻提出→01/09本体更新"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 3,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon15.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/15-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No15SS1.png",
+          "sha256": "9dd538c4dcbfe87789ad0a273fc7dc95016b670ce35ebe25c91eca0b4c5068be"
+        },
+        {
+          "local": "/screenshots/2018-kouhaku/15-source-2.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No15SS2.png",
+          "sha256": "71b41232c5e420c0593a86afda81dfe9e41a2d45a67067670fd1c7ac6cb0b751"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/12WEOXPbeU_AHoVWrGWy_GE9urXgBzW4b/view?usp=sharing",
+          "label": "8.2MB11/30登録01/09更新"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=fb32a86d-91ec-48a7-9df5-ce12446722b8&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-16",
+      "no": "16",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry16.html",
+      "catalogue": {
+        "title": "THUNDER DRACO -勇者アレックスの野望-",
+        "author": "ドロップ",
+        "category": "STG",
+        "engine": "steam2003",
+        "streaming": "可/可"
+      },
+      "detailTitle": "THUNDER DRACO -勇者アレックスの野望-",
+      "sourceMetadata": {
+        "作者": "ドロップ",
+        "ツクール": "steam2003",
+        "ジャンル": "STG",
+        "配信/投稿": "可",
+        "keyword": "----",
+        "投票": "投票はこちら",
+        "更新履歴": "01/03遅刻提出→01/14本体＆情報更新→01/27本体＆情報更新"
+      },
+      "metadataDifferences": [
+        {
+          "label": "配信/投稿",
+          "catalogue": "可/可",
+          "detail": "可"
+        }
+      ],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 4,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon16.gif",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/16-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No16SS3.png",
+          "sha256": "4836efd1d6e12b7ad4a98a732848f5683b896307dbc3ea3bad936cc8a2cf13e2"
+        },
+        {
+          "local": "/screenshots/2018-kouhaku/16-source-2.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No16SS4.png",
+          "sha256": "35561e74b7dbd12429ae9919ad4e7b5148b0b5f79510299bef8c610602c57833"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/15SPSiAjHlA9G9dxXfPY23gbeerhLB0JN/view?usp=sharing",
+          "label": "6.1MB11/30登録01/27更新"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=6b2b114f-fbff-4212-9d88-f08f963ec341&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-17",
+      "no": "17",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry17.html",
+      "catalogue": {
+        "title": "キャラ・スーンは俺の嫁",
+        "author": "ゴットン",
+        "category": "キャラ様が活躍する",
+        "engine": "2000",
+        "streaming": "不可"
+      },
+      "detailTitle": "キャラ・スーンは俺の嫁",
+      "sourceMetadata": {
+        "作者": "ゴットン",
+        "ツクール": "2000",
+        "ジャンル": "キャラ様が活躍する",
+        "配信/投稿": "不可",
+        "keyword": "キャラ・スーン"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 1,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon17.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/17-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No17SS1.png",
+          "sha256": "0ad08327e71c8caeab9ba7259ff80362c3a4e8f0ffd0d41ca7aaf1051aa88115"
+        }
+      ],
+      "downloadLinks": [],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-18",
+      "no": "18",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry18.html",
+      "catalogue": {
+        "title": "ファイナルもしもファイト",
+        "author": "SHIKUKO",
+        "category": "クラシカルもしもアクション",
+        "engine": "2000",
+        "streaming": "可/可"
+      },
+      "detailTitle": "ファイナルもしもファイト",
+      "sourceMetadata": {
+        "作者": "SHIKUKO",
+        "ツクール": "2000",
+        "ジャンル": "クラシカルもしもアクション",
+        "配信/投稿": "可/可",
+        "keyword": "勇者と魔王軍 全員荒ぶる",
+        "投票": "投票はこちら",
+        "更新履歴": "01/04本体更新→01/13本体更新→01/21本体更新→01/27情報更新"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 3,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon18.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/18-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No18SS1.png",
+          "sha256": "29b40943ea9ef1e354344355915e39ad8571ec211bcd3d720b45f247b41a5942"
+        },
+        {
+          "local": "/screenshots/2018-kouhaku/18-source-2.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No18SS2.png",
+          "sha256": "8ffe21ee68d77afa86abe2dbaab7a91bf3f46f929cda603c4400459a588de81e"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1qvX_GtFdxFvGYJ8jxVigdrb2usQUlLiH/view?usp=sharing",
+          "label": "3.9MB12/01登録01/21更新"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=052cc4b0-68dc-4374-9ee0-2739cb1cfac8&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-19",
+      "no": "19",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry19.html",
+      "catalogue": {
+        "title": "ksg8in1 2nd",
+        "author": "かすていら",
+        "category": "ksg集",
+        "engine": "steam2003",
+        "streaming": "いいよ"
+      },
+      "detailTitle": "ksg8in1 2nd",
+      "sourceMetadata": {
+        "作者": "かすていら",
+        "ツクール": "steam2003",
+        "ジャンル": "ksg集",
+        "配信/投稿": "いいよ",
+        "keyword": "俺とお前と弟子五郎",
+        "投票": "投票はこちら"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 2,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon19.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/19-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No19SS1.png",
+          "sha256": "1281815648094399d54950d6ced292d4c2dc37d0d5e886c429e7d342df416997"
+        },
+        {
+          "local": "/screenshots/2018-kouhaku/19-source-2.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No19SS2.png",
+          "sha256": "71c715c55e84db22d3c6c8c9085da48502cead9c441cc9416b39edc3c2959e98"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1Qjztrj1prl6MgKZ-sz1CoNbTuIWZa6Tq/view?usp=sharing",
+          "label": "57.0MB12/02登録12/25公開"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=a6db0360-9466-4273-a4e6-f7132b7212c2&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-20",
+      "no": "20",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry20.html",
+      "catalogue": {
+        "title": "リハビリksg1",
+        "author": "前業プ杏(64AA)",
+        "category": "一応R-18",
+        "engine": "2000",
+        "streaming": "だめ"
+      },
+      "detailTitle": "リハビリksg1",
+      "sourceMetadata": {
+        "作者": "前業プ杏(64AA)",
+        "ツクール": "2000",
+        "ジャンル": "一応R-18",
+        "配信/投稿": "だめ",
+        "keyword": "わてり　ウィンディ",
+        "投票": "投票はこちら",
+        "更新履歴": "01/21遅刻提出＆情報更新"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 3,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon20.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/20-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No20SS1.png",
+          "sha256": "ed8599e99f292fa1e8c05fc73306a893ba5936102c8577a47b29878b12b199a7"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1mAD5pkZBPGAkbLDsUylq4wNGiM3SYCEN/view?usp=sharing",
+          "label": "4.0MB12/03登録01/21公開"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=609b567e-622c-4779-9fc5-ffac2ed457dc&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-21",
+      "no": "21",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry21.html",
+      "catalogue": {
+        "title": "やみライ5連発紅白2018",
+        "author": "メール欄（メールラン）",
+        "category": "ｋｓｇ集(R-18含む)",
+        "engine": "steam2003",
+        "streaming": "だめ"
+      },
+      "detailTitle": "やみライ5連発紅白2018",
+      "sourceMetadata": {
+        "作者": "メール欄（メールラン）",
+        "ツクール": "steam2003",
+        "ジャンル": "ｋｓｇ集(R-18含む)",
+        "配信/投稿": "だめ",
+        "keyword": "うんち・エロギャグ"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 1,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/iconZZ.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/21-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No21SS1.PNG",
+          "sha256": "58bd330dfe33ce7fcde33e21e55421ed25453318a74cf5e4484dfee9121425cd"
+        }
+      ],
+      "downloadLinks": [],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-22",
+      "no": "22",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry22.html",
+      "catalogue": {
+        "title": "ハーナスのゆりかご",
+        "author": "さいてん",
+        "category": "感動ストーリーパズル",
+        "engine": "2000",
+        "streaming": "可/可"
+      },
+      "detailTitle": "ハーナスのゆりかご",
+      "sourceMetadata": {
+        "作者": "さいてん",
+        "ツクール": "2000",
+        "ジャンル": "感動ストーリーパズル",
+        "配信/投稿": "可",
+        "keyword": "九相図"
+      },
+      "metadataDifferences": [
+        {
+          "label": "配信/投稿",
+          "catalogue": "可/可",
+          "detail": "可"
+        }
+      ],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 2,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/iconZZ.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/22-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/NoZZSS1.png",
+          "sha256": "3a8355f92770c05aab670b00d780bd38f13a2457ed5b336e159eb6a620f034eb"
+        }
+      ],
+      "downloadLinks": [],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-23",
+      "no": "23",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry23.html",
+      "catalogue": {
+        "title": "ぽてまお",
+        "author": "風見ケイ＆ひしお",
+        "category": "見るゲ短編集",
+        "engine": "VXAce",
+        "streaming": "可/可"
+      },
+      "detailTitle": "ぽてまお",
+      "sourceMetadata": {
+        "作者": "風見ケイ＆ひしお",
+        "ツクール": "VXAce",
+        "ジャンル": "見るゲ短編集",
+        "配信/投稿": "可/可",
+        "keyword": "魔王軍四天王",
+        "投票": "投票はこちら",
+        "更新履歴": "01/04本体更新"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 3,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon23.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/23-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No23SS1.png",
+          "sha256": "2b3cc8a6e9a9c1db66704ab58126dabbfcf910eac7addef3ac1433bd06963042"
+        },
+        {
+          "local": "/screenshots/2018-kouhaku/23-source-2.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No23SS2.png",
+          "sha256": "44f27a22f158d773a7b9fe0402ccead226f143520eccb17adc621e5b4723097d"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1YC7iRkER5uTiiHYDBKFrDrcaIEA187xj/view?usp=sharing",
+          "label": "19.3MB12/07登録01/04更新"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=8a618450-2ddc-41b7-8319-b849cefb2767&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-24",
+      "no": "24",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry24.html",
+      "catalogue": {
+        "title": "【水産すげぇ】FREELY TOMORROW",
+        "author": "chest",
+        "category": "人力ボーカロイド",
+        "engine": "2000",
+        "streaming": "おｋ/おｋ（素材も使って）"
+      },
+      "detailTitle": "【水産すげぇ】FREELY TOMORROW",
+      "sourceMetadata": {
+        "作者": "chest",
+        "ツクール": "2000",
+        "ジャンル": "人力ボーカロイド",
+        "配信/投稿": "おｋ/おｋ（素材も使って）",
+        "keyword": "フォルマント解析 人力ボーカロイド UTAU",
+        "投票": "投票はこちら"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 2,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon24.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/24-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No24SS1.png",
+          "sha256": "56e0c4d9c373277e0496739d40f87424719bf2cb0a5e3d39d22516feba504a71"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1-T8lMFx4MkzxiJMoxqyloDpUsHXw2b6r/view?usp=sharing",
+          "label": "本体5MB"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1w0WXGqcM1eKuoD-NFF7kAIBDQkk7eySm/view?usp=sharing",
+          "label": "声47MB12/09登録12/25公開"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=4221044e-d5fa-41bb-a533-083a36b23992&viewtype=detail",
+          "label": "原紹介ページ：本体DL"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=a48735a7-38aa-462d-bdb0-f9af45e3bddf&viewtype=detail",
+          "label": "原紹介ページ：ボイスDL"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-25",
+      "no": "25",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry25.html",
+      "catalogue": {
+        "title": "ライチＶＳムライチ２",
+        "author": "かに",
+        "category": "パズルゲーム",
+        "engine": "2000",
+        "streaming": "可/可"
+      },
+      "detailTitle": "ライチＶＳムライチ２",
+      "sourceMetadata": {
+        "作者": "かに",
+        "ツクール": "2000",
+        "ジャンル": "パズルゲーム",
+        "配信/投稿": "可/可",
+        "keyword": "シェフィ"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 1,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/iconZZ.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/25-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No25SS1.png",
+          "sha256": "d9e0cbb70e28507306a7beab9df466012e3dec4d4b667ab1e3ed3c7965765c81"
+        }
+      ],
+      "downloadLinks": [],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-26",
+      "no": "26",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry26.html",
+      "catalogue": {
+        "title": "万華郷　～りめいく～",
+        "author": "FAH-Q（ふぁーきゅー）",
+        "category": "和風RPG",
+        "engine": "2000",
+        "streaming": "両方可・是非ご連絡下さい"
+      },
+      "detailTitle": "万華郷　～りめいく～",
+      "sourceMetadata": {
+        "作者": "FAH-Q（ふぁーきゅー）",
+        "ツクール": "2000",
+        "ジャンル": "和風RPG",
+        "配信/投稿": "両方可能・是非ご連絡下さい、すぐ観に行きます！",
+        "keyword": "万華郷、和風RPG、妖怪、ケモノ",
+        "投票": "投票はこちら",
+        "更新履歴": "12/27遅刻提出"
+      },
+      "metadataDifferences": [
+        {
+          "label": "配信/投稿",
+          "catalogue": "両方可・是非ご連絡下さい",
+          "detail": "両方可能・是非ご連絡下さい、すぐ観に行きます！"
+        }
+      ],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 4,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon26.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/26-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No26SS1.png",
+          "sha256": "0d09795ea28c63cbebe54747f902998b5fa2a760ddf784d2bbcaf13a041150cb"
+        },
+        {
+          "local": "/screenshots/2018-kouhaku/26-source-2.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No26SS2.png",
+          "sha256": "d3915dff7ea0d91aac3604147faddb59ba58e393c167ec8498de70b2cf299117"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1oCqnCX234GFMksjVXeKd6X3lYc8MYoR4/view?usp=sharing",
+          "label": "13.3MB12/10登録12/27公開"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=3f75386a-7dcc-4d9d-808b-dd2ab0e5e9b2&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-27",
+      "no": "27",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry27.html",
+      "catalogue": {
+        "title": "FINAL ROMANCE RETURNS",
+        "author": "TRICOGASTER(略称TRICO)",
+        "category": "デフォ戦の現状、見るゲ",
+        "engine": "2003",
+        "streaming": "紅白終了以降可/不可"
+      },
+      "detailTitle": "FINAL ROMANCE RETURNS",
+      "sourceMetadata": {
+        "作者": "TRICOGASTER(略称TRICO)",
+        "ツクール": "2003",
+        "ジャンル": "デフォ戦の現状、見るゲ",
+        "配信/投稿": "紅白終了以降可/不可(下記参照)",
+        "keyword": "大体、名前の有るキャラは『皆、主人公』という気持ちで作っていますので、\n  各キャラのセリフ回しやリアクション、心情等を見て欲しいです♪",
+        "投票": "投票はこちら",
+        "更新履歴": "01/03遅刻提出→01/04本体更新→01/27本体更新"
+      },
+      "metadataDifferences": [
+        {
+          "label": "配信/投稿",
+          "catalogue": "紅白終了以降可/不可",
+          "detail": "紅白終了以降可/不可(下記参照)"
+        }
+      ],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 4,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/iconZZ.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/27-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No27SS1.png",
+          "sha256": "8000e007978199e61e4fd685639c0fbc64dfb9d2ce3eaa32b973c0386023c3ae"
+        },
+        {
+          "local": "/screenshots/2018-kouhaku/27-source-2.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No27SS2.png",
+          "sha256": "169e5c50554876bf142b4171dde5f46bbeefd1aa128989c5f5ea9c633a046dfe"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1wfy9W2PtTP4AusVW7p5LBUpmrJ7vvgLA/view?usp=sharing",
+          "label": "21.0MB12/12登録01/27更新"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=c0dc0695-e544-46af-b2a3-4240c9002da7&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-28",
+      "no": "28",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry28.html",
+      "catalogue": {
+        "title": "なすなすデートシミュレーター2018",
+        "author": "†暗黒の扁桃腺の聖騎士†",
+        "category": "恋愛シミュレーション",
+        "engine": "steam2003",
+        "streaming": "可/不可"
+      },
+      "detailTitle": "なすなすデートシミュレーター2018",
+      "sourceMetadata": {
+        "作者": "†暗黒の扁桃腺の聖騎士†",
+        "ツクール": "steam2003",
+        "ジャンル": "恋愛シミュレーション",
+        "配信/投稿": "可/不可",
+        "keyword": "ヴァンダル族 アラン族 スエビ族",
+        "投票": "投票はこちら",
+        "更新履歴": "12/30遅刻提出→01/03配信＆動画化不可→01/04本体更新→01/06本体更新→01/09本体更新＆配信のみ許可"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 3,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon28.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/28-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No28SS1.png",
+          "sha256": "f81c61e1a7186c82a4b4fa7eaf08a6651d1fe53f7b47a20850fcc129161ffd40"
+        },
+        {
+          "local": "/screenshots/2018-kouhaku/28-source-2.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No28SS2.png",
+          "sha256": "cfa60f2f1bf82577220b7ef79f9bf2d4f7743162ed0bf19a7c18a2cc3a008952"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1lOqqRRj7wA8DriRGr1qZGGIRyAWPTwE_/view?usp=sharing",
+          "label": "17.9MB12/13登録01/09更新"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=4302b60a-a092-4123-9b87-d4eb01b9299f&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-29",
+      "no": "29",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry29.html",
+      "catalogue": {
+        "title": "ウィンドⅠの伝説　ブレスオブザわてり",
+        "author": "かねたれ",
+        "category": "クローズエアー探索ゲ",
+        "engine": "2000",
+        "streaming": "可/可"
+      },
+      "detailTitle": "ウィンドⅠの伝説　ブレスオブザわてり",
+      "sourceMetadata": {
+        "作者": "かねたれ",
+        "ツクール": "2000",
+        "ジャンル": "クローズエアー探索ゲ",
+        "配信/投稿": "可/可",
+        "keyword": "ウォーターⅠ,ハクスラ風味,三角形の秘密",
+        "投票": "投票はこちら",
+        "更新履歴": "01/04本体更新→01/05本体更新→01/21本体更新→01/27本体更新"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 3,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon29.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/29-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No29SS1.png",
+          "sha256": "05f63fc9fcfc9fc4cc8750798b8f09b0ccdbc31fb520946ac9188ae2486f7e01"
+        },
+        {
+          "local": "/screenshots/2018-kouhaku/29-source-2.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No29SS2.png",
+          "sha256": "853447b85b64308fe97d5d8d609d64be448da7239c92a84f944402792a1d748f"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1V2QTJ_jP8dYVr32VCjxnolxd_l-r6Th4/view?usp=sharing",
+          "label": "4.0MB12/16登録01/27更新"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=51221bd6-e1bb-4669-9724-acdcbf4c4689&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-30",
+      "no": "30",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry30.html",
+      "catalogue": {
+        "title": "ハッチポッチ",
+        "author": "ダークオルカ",
+        "category": "闇鍋",
+        "engine": "MV",
+        "streaming": "どうでもいいよ"
+      },
+      "detailTitle": "ハッチポッチ",
+      "sourceMetadata": {
+        "作者": "ダークオルカ",
+        "ツクール": "MV",
+        "ジャンル": "闇鍋",
+        "配信/投稿": "どうでもいいよ",
+        "keyword": "----",
+        "投票": "投票はこちら",
+        "更新履歴": "01/23遅刻提出"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 3,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon30.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/30-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No30SS1.png",
+          "sha256": "d837d57ee6ff3575aabd4c19a01cba22b5ffa004236bf7cb2ff88fb2046cbda6"
+        },
+        {
+          "local": "/screenshots/2018-kouhaku/30-source-2.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No30SS2.png",
+          "sha256": "909b05b3400974be6558130d6f486d74b0b226b7745dd2f84f20a9e4301e1173"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1w_-nVBeFBy7GpGAr6qcEnx12p1nK-KyY/view?usp=sharing",
+          "label": "95.8MB12/16登録01/23公開"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=4925097f-3410-4d8b-ab9d-16c0f400c8d6&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-31",
+      "no": "31",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry31.html",
+      "catalogue": {
+        "title": "平成クエスト",
+        "author": "SNEP48",
+        "category": "君が生きた時代を知るRPG(見るゲー)",
+        "engine": "VXAce",
+        "streaming": "いいよ"
+      },
+      "detailTitle": "平成クエスト",
+      "sourceMetadata": {
+        "作者": "SNEP48",
+        "ツクール": "VXAce",
+        "ジャンル": "君が生きた時代を知るRPG(見るゲー)",
+        "配信/投稿": "いいよ",
+        "keyword": "このゲームを最後まで遊ぶと平成で女子校生のスカートが一番短かった時期が分かります(参考画像あり)",
+        "投票": "投票はこちら"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 2,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon31.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/31-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No31SS1.png",
+          "sha256": "f378458083ebe6e9ff4e190fc207fbba09756a0bbd188f0fbc51ba7477bcb966"
+        },
+        {
+          "local": "/screenshots/2018-kouhaku/31-source-2.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No31SS2.png",
+          "sha256": "146caca2a97186a9accb4dfa70e21274b44b544f0aa8dd6dbcc937b7d908e1e1"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1k4L1UaZrejRQHDlDrzJpPdeQvqg9XuaN/view?usp=sharing",
+          "label": "15.6MB12/17登録12/25公開"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=32bec77a-0809-4b54-af4d-bc64a09eb700&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-32",
+      "no": "32",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry32.html",
+      "catalogue": {
+        "title": "もしも紅葉舞い、雪降る時だったら",
+        "author": "お姉さん大好きマン",
+        "category": "基本見るゲ、一部やるげ",
+        "engine": "2000",
+        "streaming": "可/可"
+      },
+      "detailTitle": "もしも紅葉舞い、雪降る時だったら",
+      "sourceMetadata": {
+        "作者": "お姉さん大好きマン",
+        "ツクール": "2000",
+        "ジャンル": "基本見るゲ、ところによりちょっとだけやるげ",
+        "配信/投稿": "可/可",
+        "keyword": "短編集",
+        "投票": "投票はこちら",
+        "更新履歴": "01/03遅刻提出→01/06本体更新→01/13本体更新→01/21本体更新→01/27本体更新"
+      },
+      "metadataDifferences": [
+        {
+          "label": "ジャンル",
+          "catalogue": "基本見るゲ、一部やるげ",
+          "detail": "基本見るゲ、ところによりちょっとだけやるげ"
+        }
+      ],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 4,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon32.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/32-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No32SS1.png",
+          "sha256": "378b5d1265ba7c561756f74bb705f789fe8bc847e6aa4c17e1bfccd50c19f337"
+        },
+        {
+          "local": "/screenshots/2018-kouhaku/32-source-2.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No32SS2.png",
+          "sha256": "54b3d0da800ba9f1e24f190f7593d242a9d138181d956db8f761752fc20ffa2c"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1mwphI4xC1S92NG7l7PRUNzPvpTQf0H4M/view?usp=sharing",
+          "label": "5.8MB12/17登録01/27更新"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=30b4aaa6-809c-4089-8cdf-5a4eb28e8873&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-33",
+      "no": "33",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry33.html",
+      "catalogue": {
+        "title": "もしもEl Shaddai: Ascension of the Metatron",
+        "author": "ブリザルドのうんこしか食ってない",
+        "category": "エルシャダイ",
+        "engine": "steam2003",
+        "streaming": "自己責任"
+      },
+      "detailTitle": "もしもEl Shaddai: Ascension of the Metatron",
+      "sourceMetadata": {
+        "作者": "ブリザルドのうんこしか食ってない",
+        "ツクール": "steam2003",
+        "ジャンル": "エルシャダイ",
+        "配信/投稿": "自己責任",
+        "keyword": "イーノック、ルシフェル、エゼキエル、セムヤザ",
+        "投票": "投票はこちら"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 2,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon33.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/33-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No33SS1.png",
+          "sha256": "79067e848d762a1eede559b5d6ef2d096388c930e47d90b694d80dd23cc78e0c"
+        },
+        {
+          "local": "/screenshots/2018-kouhaku/33-source-2.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No33SS2.png",
+          "sha256": "370f5b5f1f6d7104c54a9961c669707c4527b0c6ddd7fea0258ea9c5ac55c365"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1WDV-486JqEjR_vR6pI9nvGOImt-hTghQ/view?usp=sharing",
+          "label": "306.9MB12/18登録12/25更新"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=eefb315d-acfb-4fbe-a339-803a96c5f074&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード(12/25更新)"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-34",
+      "no": "34",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry34.html",
+      "catalogue": {
+        "title": "VTuberバトルロワイアル",
+        "author": "おりおん",
+        "category": "読むゲ",
+        "engine": "2000",
+        "streaming": "可/可"
+      },
+      "detailTitle": "VTuberバトルロワイアル",
+      "sourceMetadata": {
+        "作者": "おりおん",
+        "ツクール": "2000",
+        "ジャンル": "読むゲ",
+        "配信/投稿": "可/可",
+        "keyword": "VTuberでデスゲーム",
+        "投票": "投票はこちら"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 2,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/iconZZ.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/34-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No34SS1.png",
+          "sha256": "baa93916343cc55642d4dd7d7ebb998ff6d2f6206f5c4ab6fb1f741974810976"
+        },
+        {
+          "local": "/screenshots/2018-kouhaku/34-source-2.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No34SS2.png",
+          "sha256": "b0afc48b819cfcf67cf8001146c6b9688ca3a7181b67c1c3169fb6121a4c8ac1"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1ndUUej-zXIlqt3fHGtqazLFUadgGSL_c/view?usp=sharing",
+          "label": "64.3MB12/19登録01/27更新"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=87e5f5ff-5345-42fd-88f2-d9adb1d76634&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-35",
+      "no": "35",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry35.html",
+      "catalogue": {
+        "title": "baka korekution",
+        "author": "ぬ",
+        "category": "baka",
+        "engine": "2000",
+        "streaming": "同梱txt参照"
+      },
+      "detailTitle": "baka korekution",
+      "sourceMetadata": {
+        "作者": "ぬ",
+        "ツクール": "2000",
+        "ジャンル": "baka",
+        "配信/投稿": "同梱txt参照",
+        "keyword": "頭悪い",
+        "投票": "投票はこちら",
+        "更新履歴": "01/23遅刻提出"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 3,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/iconZZ.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/35-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No35SS1.png",
+          "sha256": "a70283f7c91bc76a6de7c1e20e92b2eefee92be2e6e9e6d06200703c4f60de75"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1qBUY7TiIjP2nRICWqXAgLWrcy_t5rBKm/view?usp=sharing",
+          "label": "58.3MB12/21登録01/23公開"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=7f602b0c-96fb-45f6-bc85-0f12833fe7a5&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-36",
+      "no": "36",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry36.html",
+      "catalogue": {
+        "title": "みぬゲーム",
+        "author": "南蛮仙次",
+        "category": "ksg",
+        "engine": "2000",
+        "streaming": "お好きに"
+      },
+      "detailTitle": "みぬゲーム",
+      "sourceMetadata": {
+        "作者": "南蛮仙次",
+        "ツクール": "2000",
+        "ジャンル": "ksg",
+        "配信/投稿": "お好きに",
+        "keyword": "魔王把握 想定piai時間1分 素材供養",
+        "投票": "投票はこちら"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 2,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon36.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/36-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No36SS1.png",
+          "sha256": "2424bf85070f17e889c559a508f5818195c7a795e7400bc4d433162e7d03f4ed"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1539d-2Rn6NKMJqi7ezU0hFLoQqBbtyXZ/view?usp=sharing",
+          "label": "0.4MB12/21登録12/25公開"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=1a2ae078-edd1-41a1-8a66-ac63a1ed0a81&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-37",
+      "no": "37",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry37.html",
+      "catalogue": {
+        "title": "メイジの暇潰死",
+        "author": "メイジファンＳド",
+        "category": "----",
+        "engine": "2000",
+        "streaming": "悪くないかな！/だめ！"
+      },
+      "detailTitle": "メイジの暇潰死",
+      "sourceMetadata": {
+        "作者": "メイジファンＳド",
+        "ツクール": "2000000000000",
+        "ジャンル": "----",
+        "配信/投稿": "悪くないかな！/だめ！",
+        "keyword": "運命、宿命、因果応報、一期一会",
+        "投票": "投票はこちら"
+      },
+      "metadataDifferences": [
+        {
+          "label": "ツクール",
+          "catalogue": "2000",
+          "detail": "2000000000000"
+        }
+      ],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 3,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon37.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/37-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No37SS1.png",
+          "sha256": "934bf08cda128227ea645d118764cb11d28430e89ba7ef2a72549fcf6cb387e0"
+        },
+        {
+          "local": "/screenshots/2018-kouhaku/37-source-2.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No37SS2.png",
+          "sha256": "ccd723c2fa1c00cc2a874a7d44c031460aa5c2eaaf1bc16b12859366631f52ff"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1a6RD_r4wdV2Tt3R-b4BdHs2icQfiLpxs/view?usp=sharing",
+          "label": "0.06MB12/21登録12/25公開"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=d0ba1ae0-74a2-4ad2-8e04-850ecac10ae5&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-38",
+      "no": "38",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry38.html",
+      "catalogue": {
+        "title": "スーパーごちうさＲＰＧ",
+        "author": "ナインボルト",
+        "category": "お馴染みのごちうさキャラが戦うファンタジーＲＰＧ",
+        "engine": "VXAce",
+        "streaming": "好きにしろ"
+      },
+      "detailTitle": "スーパーごちうさＲＰＧ",
+      "sourceMetadata": {
+        "作者": "ナインボルト",
+        "ツクール": "VXAce",
+        "ジャンル": "お馴染みのごちうさキャラが戦うファンタジーＲＰＧ",
+        "配信/投稿": "好きにしろ",
+        "keyword": "魔王、ファイアⅤ、軍人、おっぱい、裏切り、人間の無力さ",
+        "投票": "投票はこちら"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 2,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon38.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/38-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No38SS1.png",
+          "sha256": "858f367d897f735afad43d1cf324fb7e35c26a71e707652a148c9a865653fd15"
+        },
+        {
+          "local": "/screenshots/2018-kouhaku/38-source-2.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No38SS2.png",
+          "sha256": "36c87af2142f393de44d9ec20a3bbcf11fa4e3ef7361a5f7c20f79c45f281213"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1bG9m-VakUeruci1DPs1jB2-SfbEqvUfi/view?usp=sharing",
+          "label": "2.6MB12/24登録12/25公開"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=65a7d162-b687-4ca0-81c1-503bb4cd840d&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-39",
+      "no": "39",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry39.html",
+      "catalogue": {
+        "title": "乳首ファンタジー　~The Legend of Tikubi~",
+        "author": "mm",
+        "category": "乳ｇ",
+        "engine": "steam2003",
+        "streaming": "左乳首「いいよ」/右乳首「いいよ」"
+      },
+      "detailTitle": "乳首ファンタジー　~The Legend of Tikubi~",
+      "sourceMetadata": {
+        "作者": "mm",
+        "ツクール": "steam2003",
+        "ジャンル": "乳ｇ",
+        "配信/投稿": "左乳首「いいよ」/右乳首「いいよ」",
+        "keyword": "冬に薄めのホットカルピスを作ると美味しい",
+        "投票": "投票はこちら"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 2,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/iconZZ.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/39-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No39SS1.png",
+          "sha256": "9d9b3069350f9bf58f3ecad0572549bdebd08c91162bbdc3943a15d2e34a563a"
+        },
+        {
+          "local": "/screenshots/2018-kouhaku/39-source-2.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No39SS2.png",
+          "sha256": "98fb6a30174d6d86a53a65c8e69205e6acf25cd91841455242500a820e1a0d7e"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1i1bRcIJM16zKj7X_UlbztVxjwV181BqI/view?usp=sharing",
+          "label": "2.3MB12/24登録12/25公開"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=95364db3-0331-497d-8128-c9e719122a54&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-40",
+      "no": "40",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry40.html",
+      "catalogue": {
+        "title": "もしもツクラーだったら",
+        "author": "れーえ",
+        "category": "歩く見るゲ",
+        "engine": "2000",
+        "streaming": "どうぞ"
+      },
+      "detailTitle": "もしもツクラーだったら",
+      "sourceMetadata": {
+        "作者": "れーえ",
+        "ツクール": "2000",
+        "ジャンル": "歩く見るゲ",
+        "配信/投稿": "どうぞ",
+        "keyword": "特別付録付き！！！",
+        "投票": "投票はこちら",
+        "更新履歴": "01/06本体更新"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 3,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon40.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/40-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No40SS1.png",
+          "sha256": "62f1a543d41a2d8800ba03f42fc368758d52d642c1f2c6c148331f04b46e00e1"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/18jQ-zxPDuM91jsMAYV-_VdpMuS-a2ZMB/view?usp=sharing",
+          "label": "2.6MB12/24登録01/06更新"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=e35c0de1-65e5-4c36-80fe-f3008012fea3&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-41",
+      "no": "41",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry41.html",
+      "catalogue": {
+        "title": "波動拳セイントシスターズ2003",
+        "author": "イグサ",
+        "category": "再利用クッキング",
+        "engine": "steam2003",
+        "streaming": "要許可"
+      },
+      "detailTitle": "波動拳セイントシスターズ2003",
+      "sourceMetadata": {
+        "作者": "イグサ",
+        "ツクール": "steam2003",
+        "ジャンル": "再利用クッキング",
+        "配信/投稿": "要許可",
+        "keyword": "「らせん階段」「カブト虫」「廃墟の街」「イチジクのタルト」 「カブト虫」「ドロローサへの道」\n  「カブト虫」 「特異点」「ジョット」「天使」 「紫陽花」「カブト虫」「特異点」「秘密の皇帝」",
+        "投票": "投票はこちら",
+        "更新履歴": "12/26登録→12/30遅刻提出"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 3,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon41.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/41-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No41SS1.png",
+          "sha256": "287c638a741affefcff965ac479a8849de759cd8ed43300a6114715675bb7253"
+        },
+        {
+          "local": "/screenshots/2018-kouhaku/41-source-2.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No41SS2.png",
+          "sha256": "16daab0b3731d91c7378717f1f711df0040bb29c9adb442180dc335f02ca889b"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1YBM8_x5nwvx1o7ulass5Y5bAwJe8P3nk/view?usp=sharing",
+          "label": "17.1MB12/26登録12/30公開"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=1ec5474c-e228-48f3-aac8-1074c3ba69e4&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-42",
+      "no": "42",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry42.html",
+      "catalogue": {
+        "title": "95･2000･2003･XP･VX･VXA･MV 能力値混合ランキングEX",
+        "author": "宮凪ウィンディオ",
+        "category": "見るゲ+魔王把握",
+        "engine": "2000",
+        "streaming": "掲示板に許可を頂こうか/可"
+      },
+      "detailTitle": "95･2000･2003･XP･VX･VXA･MV 能力値混合ランキングEX",
+      "sourceMetadata": {
+        "作者": "宮凪ウィンディオ",
+        "ツクール": "2000",
+        "ジャンル": "見るゲ+魔王把握",
+        "配信/投稿": "掲示板に許可を頂こうか/可",
+        "keyword": "歴代RTPキャラの能力値を平均化。歴代1位の座を手にするのは一体誰だ…!?",
+        "更新履歴": "12/29登録"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 2,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon42.gif",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/42-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No42SS1.png",
+          "sha256": "0990a787190947c7160545c318629b5458ecb1ab64104d37f35b8ed0e5a87986"
+        }
+      ],
+      "downloadLinks": [],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-43",
+      "no": "43",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry43.html",
+      "catalogue": {
+        "title": "On a linux",
+        "author": "雷塵",
+        "category": "（※R-18）リナックスが色々妄想してオナるだけのerksg",
+        "engine": "2000",
+        "streaming": "できない/とおもう"
+      },
+      "detailTitle": "On a linux",
+      "sourceMetadata": {
+        "作者": "雷塵",
+        "ツクール": "2000",
+        "ジャンル": "（※R-18）リナックスが色々妄想してオナるだけのerksg",
+        "配信/投稿": "できない/とおもう",
+        "keyword": "リナちゃんも思春期の女の子。エッチな事に興味津々なのだ",
+        "投票": "投票はこちら",
+        "更新履歴": "12/30登録→12/30遅刻提出"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 3,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon43.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/43-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No43SS1.png",
+          "sha256": "96755af05ed1c8c510666e5707f6f356c6db328821b14fe7c43c498591055a0a"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1ZmHjmxpbCesevfuL4n5trCEWglTmQpR3/view?usp=sharing",
+          "label": "1.0MB12/30登録12/30公開"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=5461c8cc-5c71-4034-bed5-614dda631f3c&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-44",
+      "no": "44",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry44.html",
+      "catalogue": {
+        "title": "す",
+        "author": "す",
+        "category": "す",
+        "engine": "2000",
+        "streaming": "可"
+      },
+      "detailTitle": "す",
+      "sourceMetadata": {
+        "作者": "す",
+        "ツクール": "2000",
+        "ジャンル": "す",
+        "配信/投稿": "可",
+        "keyword": "スマブラ",
+        "投票": "投票はこちら",
+        "更新履歴": "12/30登録＆遅刻提出"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 3,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon44.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/44-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No44SS1.png",
+          "sha256": "9b276a0c05ed0f51ef3aca2c665af690c92da454ea01f602eafce04028ce5797"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/10wnR1k1rIPaW-Cz2ljULzCrFoY7hTdx1/view?usp=sharing",
+          "label": "0.5MB12/30登録12/30公開"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=01763a65-1fdd-45b7-9b2b-ca3a2ad9aec6&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-45",
+      "no": "45",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry45.html",
+      "catalogue": {
+        "title": "I is WORLD 第1章　～灰色の霧～",
+        "author": "（Ｒ）ＤＵ",
+        "category": "デフォ戦やるゲー",
+        "engine": "MV",
+        "streaming": "可/可"
+      },
+      "detailTitle": "I is WORLD 第1章　～灰色の霧～",
+      "sourceMetadata": {
+        "作者": "（Ｒ）ＤＵ",
+        "ツクール": "MV",
+        "ジャンル": "デフォ戦やるゲー",
+        "配信/投稿": "可/可",
+        "keyword": "魔法具現化　Ⅰ魔法　具現化オールスター",
+        "投票": "投票はこちら",
+        "更新履歴": "12/31登録→01/24遅刻提出→01/27本体更新"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 3,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon45.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/45-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No45SS1.png",
+          "sha256": "e6fc6037a9b9d80fbe9b7e4a8455cb7feb05a095c679b41fa7051afd60ba8037"
+        },
+        {
+          "local": "/screenshots/2018-kouhaku/45-source-2.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No45SS2.png",
+          "sha256": "25bcec63b540bf0dab22b12ff69b9e0eaa09191c4f81a9d36b239a117df2894e"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1RE-TMUMHmnZ0CWYG6TyHCE5-qrrZYTli/view?usp=sharing",
+          "label": "307.4MB12/31登録01/27更新"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=ca5828ae-205d-4ec6-badf-32efe1dcb0eb&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-46",
+      "no": "46",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry46.html",
+      "catalogue": {
+        "title": "ミニマップサンプル",
+        "author": "きらきー",
+        "category": "サンプルksg",
+        "engine": "steam2003",
+        "streaming": "自己/責任"
+      },
+      "detailTitle": "ミニマップサンプル",
+      "sourceMetadata": {
+        "作者": "きらきー",
+        "ツクール": "steam2003",
+        "ジャンル": "サンプルksg",
+        "配信/投稿": "自己/責任",
+        "keyword": "お前のトイレの白さを信じろ",
+        "投票": "投票はこちら",
+        "更新履歴": "01/01登録＆遅刻提出→01/21本体更新"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 3,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/iconZZ.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/46-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No46SS1.png",
+          "sha256": "37a43b34a40a24e61a8b3ca630f4e5c574f34d38033f6841f6078ace188a45d1"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1YXSvEUeXvERCR6iUqTcBeCgYsMWwVkKX/view?usp=sharing",
+          "label": "4.9MB01/01登録01/21更新"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=56193223-cc58-4070-a6de-00eb4471672c&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-47",
+      "no": "47",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry47.html",
+      "catalogue": {
+        "title": "Möwius",
+        "author": "humanworld",
+        "category": "RPG",
+        "engine": "MV",
+        "streaming": "一応可"
+      },
+      "detailTitle": "Möwius",
+      "sourceMetadata": {
+        "作者": "humanworld",
+        "ツクール": "MV",
+        "ジャンル": "RPG",
+        "配信/投稿": "一応可",
+        "keyword": "リナックス　メビウス",
+        "投票": "投票はこちら",
+        "更新履歴": "01/02登録→01/17遅刻提出→01/23本体更新"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 3,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/iconZZ.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/47-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No47SS1.png",
+          "sha256": "8ccca83c2f7f4de0ec5f408862a141433b591cec190d54c1f92da07a093d85ea"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1lquufrV5U95-VIH10K6STj2WE1MqzSI_/view?usp=sharing",
+          "label": "695.2MB01/02登録01/23更新"
+        },
+        {
+          "url": "https://www.axfc.net/u/3955128",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-48",
+      "no": "48",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry48.html",
+      "catalogue": {
+        "title": "日がえりポテチクエスト",
+        "author": "KC.R",
+        "category": "魔王把握",
+        "engine": "2000",
+        "streaming": "可/可"
+      },
+      "detailTitle": "日がえりポテチクエスト",
+      "sourceMetadata": {
+        "作者": "KC.R",
+        "ツクール": "2000",
+        "ジャンル": "魔王把握",
+        "配信/投稿": "可/可",
+        "keyword": "M字開脚。",
+        "投票": "投票はこちら",
+        "更新履歴": "01/02登録＆遅刻提出→01/21本体更新→01/27本体更新"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 3,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/iconZZ.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/48-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No48SS1.png",
+          "sha256": "1df4b2781f8a17b0dc56b97395a349f498d713b09f4961b354b699616bc20c6d"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1EruNpY_glN-EM_lv-5KEtag1K-UQcj7J/view?usp=sharing",
+          "label": "20.0MB01/02登録01/27更新"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=e93125a5-daa8-4490-b11c-4d6e7f686c11&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-49",
+      "no": "49",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry49.html",
+      "catalogue": {
+        "title": "生まれなかった子供たちへ",
+        "author": "下郎紳士ゲゲゾミ",
+        "category": "完成しなかった自作品レビュー",
+        "engine": "2000",
+        "streaming": "いいけど/する奴いないだろ"
+      },
+      "detailTitle": "生まれなかった子供たちへ",
+      "sourceMetadata": {
+        "作者": "下郎紳士ゲゲゾミ",
+        "ツクール": "2000",
+        "ジャンル": "完成しなかった自作品レビュー",
+        "配信/投稿": "いいけど/する奴いないだろ",
+        "keyword": "空白の2018年",
+        "投票": "投票はこちら",
+        "更新履歴": "01/02登録→01/27遅刻提出"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 3,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon49.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/49-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No49SS1.png",
+          "sha256": "fb1eef5b6e20723bdc1e0800a94c81303cd8c696e33cec24bc1eb1aa201a3018"
+        },
+        {
+          "local": "/screenshots/2018-kouhaku/49-source-2.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No49SS2.png",
+          "sha256": "e3365c2b182a8f19513926662d7ed52738a76983e7eaa3b63730b36c9115c869"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1NvIw-ftiqXC0OnDeDd8QXXv2YP-QlhpF/view?usp=sharing",
+          "label": "3.2MB01/02登録01/27公開"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=9d6c8867-76bf-4062-8205-748848aa3a60&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-50",
+      "no": "50",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry50.html",
+      "catalogue": {
+        "title": "デトックスラジオ番外編",
+        "author": "黒糖まんじゅう",
+        "category": "見るゲ",
+        "engine": "2000",
+        "streaming": "自己責任で"
+      },
+      "detailTitle": "デトックスラジオ番外編",
+      "sourceMetadata": {
+        "作者": "黒糖まんじゅう",
+        "ツクール": "2000",
+        "ジャンル": "見るゲ",
+        "配信/投稿": "自己責任で",
+        "keyword": "「01/27(日)　作品更新受付終了」",
+        "投票": "投票はこちら",
+        "更新履歴": "01/02登録"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 3,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon50.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/50-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No50SS1.png",
+          "sha256": "5bfb0beabaf3b0721ed889a75e33bb8bf4da39a158c0507e6741ffda3ea7748b"
+        }
+      ],
+      "downloadLinks": [],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-51",
+      "no": "51",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry51.html",
+      "catalogue": {
+        "title": "エターナリ草",
+        "author": "のろし",
+        "category": "アクション",
+        "engine": "steam2003",
+        "streaming": "可"
+      },
+      "detailTitle": "エターナリ草",
+      "sourceMetadata": {
+        "作者": "のろし",
+        "ツクール": "steam2003",
+        "ジャンル": "アクション",
+        "配信/投稿": "可",
+        "keyword": "----",
+        "投票": "投票はこちら",
+        "更新履歴": "01/03登録→01/13遅刻提出"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 3,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/iconZZ.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/51-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No51SS1.png",
+          "sha256": "0a1a8a4bb1877e480bd9b85ba3d3302d4eb2ca8a84109c0dea142ff05df95de9"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1hIV-LysVceNd-I7rozWykgkkIPmLl_ME/view?usp=sharing",
+          "label": "7.2MB01/03登録01/13公開"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=30beb1c5-8253-4a11-ac86-c787c9ed14aa&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-52",
+      "no": "52",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry52.html",
+      "catalogue": {
+        "title": "魔法具現化全書",
+        "author": "なんか。",
+        "category": "素材集",
+        "engine": "2000",
+        "streaming": "可"
+      },
+      "detailTitle": "魔法具現化全書",
+      "sourceMetadata": {
+        "作者": "なんか。",
+        "ツクール": "2000",
+        "ジャンル": "素材集",
+        "配信/投稿": "○/○",
+        "keyword": "素材集、魔法具現化、女神転生風ドット",
+        "投票": "投票はこちら",
+        "更新履歴": "01/03登録→01/04遅刻提出→01/13本体更新"
+      },
+      "metadataDifferences": [
+        {
+          "label": "配信/投稿",
+          "catalogue": "可",
+          "detail": "○/○"
+        }
+      ],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 4,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon52.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/52-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No52SS1.png",
+          "sha256": "4a267204faec2bbe0830e3d27dc802d5dead893b95c3f0af079431c3e7664dd8"
+        },
+        {
+          "local": "/screenshots/2018-kouhaku/52-source-2.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No52SS2.png",
+          "sha256": "8c1cf3d53de575b1c3522f505d8e93e4126a5d87e39377b92f7008272812f423"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/17OxGzH-I2jxu-NR5m_8EJyc2JbB4kLvU/view?usp=sharing",
+          "label": "0.8MB01/03登録01/13更新"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=58cfbf89-d35f-446e-bfdf-7aae4bfbe7a0&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-53",
+      "no": "53",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry53.html",
+      "catalogue": {
+        "title": "Spy The Slayer",
+        "author": "ﾍﾞﾙﾌｧｰﾚ長田（゜∀゜）◆AHYA/HaiA.",
+        "category": "ローグライクアクション",
+        "engine": "MV",
+        "streaming": "可"
+      },
+      "detailTitle": "Spy The Slayer",
+      "sourceMetadata": {
+        "作者": "ﾍﾞﾙﾌｧｰﾚ長田（゜∀゜）◆AHYA/HaiA.",
+        "ツクール": "MV",
+        "ジャンル": "ローグライクアクション",
+        "配信/投稿": "OK/OK",
+        "keyword": "ローグライク ガンシューティング ミリィ",
+        "投票": "投票はこちら",
+        "更新履歴": "01/03登録"
+      },
+      "metadataDifferences": [
+        {
+          "label": "配信/投稿",
+          "catalogue": "可",
+          "detail": "OK/OK"
+        }
+      ],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 4,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/iconZZ.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/53-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No53SS1.png",
+          "sha256": "8b43d363c31700ed28adbf123b675137a9b5fc78748af6dfeb3e2009d2d2ce46"
+        }
+      ],
+      "downloadLinks": [],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-54",
+      "no": "54",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry54.html",
+      "catalogue": {
+        "title": "青いやつと赤いやつ",
+        "author": "脳内住民",
+        "category": "ksg",
+        "engine": "2000",
+        "streaming": "よかろう、やってみろ"
+      },
+      "detailTitle": "青いやつと赤いやつ",
+      "sourceMetadata": {
+        "作者": "脳内住民",
+        "ツクール": "2000",
+        "ジャンル": "ksg",
+        "配信/投稿": "よかろう、やってみろ",
+        "keyword": "----",
+        "投票": "投票はこちら",
+        "更新履歴": "01/03登録＆遅刻提出"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 3,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/iconZZ.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/54-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No54SS1.png",
+          "sha256": "38afffb01a9bef0391237a22a90fa091abd509d69684dcce605e2c55a9770300"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1uuWlDalGWUU3eDLCa6DHHEY9rgdaomYQ/view?usp=sharing",
+          "label": "4.0MB01/03登録01/03公開"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=6ed30ce2-5997-4142-8399-a6eb89263973&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-55",
+      "no": "55",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry55.html",
+      "catalogue": {
+        "title": "ヤミーズウェーブ　読みきり版",
+        "author": "ジャスティス",
+        "category": "読むゲ",
+        "engine": "steam2003",
+        "streaming": "可"
+      },
+      "detailTitle": "ヤミーズウェーブ　読みきり版",
+      "sourceMetadata": {
+        "作者": "ジャスティス",
+        "ツクール": "steam2003",
+        "ジャンル": "読むゲ",
+        "配信/投稿": "可/可",
+        "keyword": "うんこ/うんち/便",
+        "投票": "投票はこちら",
+        "更新履歴": "01/03登録→01/05遅刻提出"
+      },
+      "metadataDifferences": [
+        {
+          "label": "配信/投稿",
+          "catalogue": "可",
+          "detail": "可/可"
+        }
+      ],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 4,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/iconZZ.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/55-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No55SS1.png",
+          "sha256": "f6ed81923f36a42047770fe9f6f75e7ea43019bc18e7fa1028efb405695bddbb"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1qImNYo56JxIadRIbSDm_aGBHXnFE2BNK/view?usp=sharing",
+          "label": "21.4MB01/03登録01/05公開"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=dd676b05-b8d5-4fe8-b818-d399d7a95315&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-56",
+      "no": "56",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry56.html",
+      "catalogue": {
+        "title": "NOK ～にぼしくんが女の子になるだけのksg～2003",
+        "author": "蝶番",
+        "category": "ksg",
+        "engine": "steam2003",
+        "streaming": "可/可"
+      },
+      "detailTitle": "NOK ～にぼしくんが女の子になるだけのksg～2003",
+      "sourceMetadata": {
+        "作者": "蝶番",
+        "ツクール": "2000",
+        "ジャンル": "ksg",
+        "配信/投稿": "可/可",
+        "keyword": "----",
+        "投票": "投票はこちら",
+        "更新履歴": "01/03登録"
+      },
+      "metadataDifferences": [
+        {
+          "label": "ツクール",
+          "catalogue": "steam2003",
+          "detail": "2000"
+        }
+      ],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 4,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/iconZZ.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/56-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No56SS1.png",
+          "sha256": "8efe41f1e5999558a265fbfb57761eca7817e87f86550b65cc8cd17f28adb870"
+        }
+      ],
+      "downloadLinks": [],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-57",
+      "no": "57",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry57.html",
+      "catalogue": {
+        "title": "キバリ日記",
+        "author": "※必須太郎",
+        "category": "中二ノベル",
+        "engine": "2000",
+        "streaming": "自由に"
+      },
+      "detailTitle": "キバリ日記",
+      "sourceMetadata": {
+        "作者": "※必須太郎",
+        "ツクール": "2000",
+        "ジャンル": "中二ノベル",
+        "配信/投稿": "自由に",
+        "keyword": "キバリ",
+        "投票": "投票はこちら",
+        "更新履歴": "01/03登録"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 3,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/iconZZ.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/57-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No57SS1.png",
+          "sha256": "90febb11ed898707a6415675d828a459a67a5da31a31617e5cb72598821b5ba2"
+        }
+      ],
+      "downloadLinks": [],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-58",
+      "no": "58",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry58.html",
+      "catalogue": {
+        "title": "地獄FXおぼなす",
+        "author": "脂はむ",
+        "category": "ホラー",
+        "engine": "2000",
+        "streaming": "両方可"
+      },
+      "detailTitle": "地獄FXおぼなす",
+      "sourceMetadata": {
+        "作者": "脂はむ",
+        "ツクール": "2000",
+        "ジャンル": "ホラー",
+        "配信/投稿": "両方可",
+        "keyword": "ダークネスⅠ　FX",
+        "投票": "投票はこちら",
+        "更新履歴": "01/03登録→01/27遅刻提出"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 3,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon58.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/58-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No58SS1.png",
+          "sha256": "aa7dcb24e6744c5a81bbd3838148110b3f20e917beb7f76fcdb8461fcb436d7f"
+        },
+        {
+          "local": "/screenshots/2018-kouhaku/58-source-2.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No58SS2.png",
+          "sha256": "e20074e0d19cba7a40793e894d26c6c50fe6c0e4594c5ff129faf6fb2699e1b0"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1xxpkutBroc0y3IQ6PIPR-S-nVO6HX_89/view?usp=sharing",
+          "label": "0.3MB01/03登録01/27公開"
+        },
+        {
+          "url": "https://box.yahoo.co.jp/guest/viewer?sid=box-l-x6ozzyapdqrro73i7vzmurwjfy-1001&uniqid=1c7782a2-44f8-4e01-8259-83ea5b8149ab&viewtype=detail",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-59",
+      "no": "59",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry59.html",
+      "catalogue": {
+        "title": "コカトの民の唄",
+        "author": "Aomatu_Spaghe",
+        "category": "短編RPG",
+        "engine": "VXAce",
+        "streaming": "可"
+      },
+      "detailTitle": "コカトの民の唄",
+      "sourceMetadata": {
+        "作者": "Aomatu_Spaghe",
+        "ツクール": "VXAce",
+        "ジャンル": "短編RPG",
+        "配信/投稿": "可",
+        "keyword": "オリキャラ、武具改造システム、ちょっと特殊性癖アリ",
+        "投票": "投票はこちら",
+        "更新履歴": "01/03登録"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 3,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/iconZZ.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/59-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No59SS1.png",
+          "sha256": "903b489608501ee8ee0a471958d79d17fca94fee7dd515ce19f0606e9f6606b4"
+        }
+      ],
+      "downloadLinks": [],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-kouhaku-work-60",
+      "no": "60",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/entry60.html",
+      "catalogue": {
+        "title": "ものすごい前に取った安価",
+        "author": "◆2aLlGIkY8s",
+        "category": "ｋｓｇ",
+        "engine": "2000",
+        "streaming": "可"
+      },
+      "detailTitle": "ものすごい前に取った安価",
+      "sourceMetadata": {
+        "作者": "◆2aLlGIkY8s",
+        "ツクール": "2000",
+        "ジャンル": "ｋｓｇ",
+        "配信/投稿": "可",
+        "keyword": "肩も痛い",
+        "投票": "投票はこちら",
+        "更新履歴": "01/03登録"
+      },
+      "metadataDifferences": [],
+      "commentFields": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "extraSourceRows": 3,
+      "iconSourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/icon/icon60.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-kouhaku/60-source-1.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No60SS1.png",
+          "sha256": "9f634a225dfabe85f49e5e1a3d48f265930dc098626ca035c980fa3c0f19df29"
+        },
+        {
+          "local": "/screenshots/2018-kouhaku/60-source-2.png",
+          "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/SS/No60SS2.png",
+          "sha256": "41d4e026082f57f636f55fc816fcee3324b04eb60934c82a35a877a7d66f32fb"
+        }
+      ],
+      "downloadLinks": [],
+      "samplePlaceholderLinks": [],
+      "packagesDownloaded": false
+    }
+  ],
+  "bannerSources": [
+    {
+      "local": "/banners/2018-kouhaku/source.png",
+      "sourceUrl": "https://viprpgmsmkohaku2018.web.fc2.com/banner/kohaku2018.png",
+      "sha256": "a2335b9a2d2e3f03debecbd3aa52ca16ad0da03a5b751badf6f934160a5cff7d"
+    }
+  ],
+  "groupEvidence": "The source has a single61-entry catalogue, no group column or group dividers, and no detail group field. Do not infer red/white membership from the festival name.",
+  "resultPages": [
+    "result01.html",
+    "resultall.html"
+  ],
+  "handling": "Direct source preservation without topic or pixel screening. Keep all61 existing identities, both complete comment fields, original screenshot/hover roles, keyword/voting source rows and metadata differences. Publisher keyword values are preserved as data, never used for screening. Local source jQuery/common scripts are retained; hosting counters removed. No game packages downloaded or executed.",
+  "desktopReview": "passed-desktop-only",
+  "desktopEvidence": "desktop-review.json",
+  "presentationCorrections": [
+    {
+      "page": "resultall.html",
+      "originalHref": "entry.html",
+      "originalStatus": 404,
+      "target": "index.html#gamelist",
+      "evidence": "investigation/entry-backlink-probe.json"
+    },
+    {
+      "resource": "js/common.js",
+      "change": "Replace obsolete Safari body/html selection with document.scrollingElement; raw source script unchanged."
+    }
+  ],
+  "hostingInlineScriptRemoval": {
+    "occurrences": 81,
+    "uniqueSourceScripts": 1,
+    "sha256": "33a98958461466181111f6fb1163c2a062919e0d4b16e729c37697d46d2a0095"
+  }
+}

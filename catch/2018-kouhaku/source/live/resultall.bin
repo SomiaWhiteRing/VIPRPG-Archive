@@ -1,0 +1,1455 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<link rel="shortcut icon" href="./images/faviconuku.ico">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link rel="stylesheet" href="css/common.css" type="text/css" />
+<link rel="stylesheet" href="css/haikei.css" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<title>VIPRPG紅白2018</title>
+</head>
+<body>
+<div id="top">
+   <div id="header">
+      <h1><a href="index.html">VIPRPG紅白2018</a></h1>
+   </div><!-- /#header -->
+   <div id="menu">
+      <ul>
+      <li><a href="#keisainaiyo">掲載内容について</a></li>
+      <li><a href="#allranking">全提出作品順位表</a></li>
+      <li><a href="#allcomment">投票コメント一覧</a></li>
+      <li><a href="result01.html">表彰会場</a></li>
+      <li><a href="https://jbbs.shitaraba.net/game/60682/">掲示板</a></li>
+      <li><a href="index.html">紅白トップへ戻る</a></li>
+      </ul>
+   </div><!-- /#menu -->
+   <div id="contents">
+      <div id="main">
+      <a href="https://viprpgmsmkohaku2018.web.fc2.com/index.html" target="_blank"><img src="./banner/kohaku2018.png"></a>
+        <h1>投票結果発表・全作品順位＆投票コメント</h1>
+        <h2 id="keisainaiyo">掲載内容について</h2>
+総合順位上位から順番に順位と総合得点、及び各部門得点を掲載します。<br />
+※SS部門の得点は総合得点に加算しないため右端に置いてあります。<br />
+<br>
+※合計点が同じだった場合、<b>SS部門の点数が高い方</b>が上位となります。<br />
+※SS部門の点数も同じだった場合、<b>投票数の多い方</b>が上位となります。<br />
+※それでも同点だった場合は、同位とします。<br />
+        <br>
+        <h2 id="allranking">順位表の見方</h2>
+<font color="#ff59eb"><b>枠内の色がピンク色の作品</b></font>は、<b>投票で平均以上の投票数を獲得した作品</b>です。<br />
+<font color="#563fff"><b>枠内の色が薄い青色の作品</b></font>は、<b>作品未提出でSS部門に投票があった作品</b>です。<br />
+枠内の色が白い作品はそれ以外の作品となります。<br />
+        <br>
+
+
+        <table border="1" width="776">
+	<tr>
+		<td colspan="10"><b>▼総合順位と各部門得点▼</b></td>
+	</tr>
+	<tr  align="center">
+        <td width="80"><font size="2">順位</font></td>
+		<td width="15"><font size="2">No</font></td>
+		<td width="32"><font size="2">Icon</font></td>
+		<td width="300" align="left"><font size="2">作品名/作者名</font></td>
+      <td width="30"><font size="2">物語</font></td>
+      <td width="30"><font size="2">技術</font></td>
+      <td width="30"><font size="2">ｷｬﾗ</font></td>
+      <td width="30"><font size="2">熱中</font></td>
+      <td width="30"><font size="2">演出</font></td>
+      <td width="30"><font size="2">遊易</font></td>
+      <td width="30"><font size="2">斬新</font></td>
+      <td width="30"><font size="2">ﾜﾛｽ</font></td>
+      <td width="30"><font size="2">ｴｯﾁ</font></td>
+      <td width="30"><font size="2">ﾋﾄﾞ</font></td>
+      <td width="45"><font size="2">合計</font></td>
+      <td width="30"><font size="2">SS</font></td>
+          </tr>
+          <tr bgcolor="#ffccf7">
+            <td><font size="2"><b>第1位</b></font></td>
+        <td><font size="2">08</font></td>
+		<td><img src="./icon/icon08.png"></td>
+          <td><font size="2"><a href="entry08.html">ふたりの旅のきろく<font size="2"><br>牧場の牛肉</font></a></font>
+            <td><font size="2">148</font></td>
+            <td><font size="2">141</font></td>
+            <td><font size="2">162</font></td>
+            <td><font size="2">150</font></td>
+            <td><font size="2">143</font></td>
+            <td><font size="2">153</font></td>
+            <td><font size="2">122</font></td>
+            <td><font size="2">130</font></td>
+            <td><font size="2">101</font></td>
+            <td><font size="2">43</font></td>
+            <td><font size="2"><b>1293</b></font></td>
+            <td><font size="2">157</font></td>
+          </tr>
+          <tr bgcolor="#ffccf7">
+            <td><font size="2"><b>第2位</b></font></td>
+        <td><font size="2">29</font></td>
+		<td><img src="./icon/icon29.png"></td>
+          <td><font size="2"><a href="entry29.html">ウィンドⅠの伝説　ブレスオブザわてり<font size="2"><br>かねたれ</font></a></font>
+            <td><font size="2">118</font></td>
+            <td><font size="2">113</font></td>
+            <td><font size="2">124</font></td>
+            <td><font size="2">146</font></td>
+            <td><font size="2">106</font></td>
+            <td><font size="2">136</font></td>
+            <td><font size="2">112</font></td>
+            <td><font size="2">106</font></td>
+            <td><font size="2">31</font></td>
+            <td><font size="2">56</font></td>
+            <td><font size="2"><b>1048</b></font></td>
+            <td><font size="2">103</font></td>
+          </tr>
+          <tr bgcolor="#ffccf7">
+            <td><font size="2"><b>第3位</b></font></td>
+        <td><font size="2">40</font></td>
+		<td><img src="./icon/icon40.png"></td>
+          <td><font size="2"><a href="entry40.html">もしもツクラーだったら<font size="2"><br>れーえ</font></a></font>
+            <td><font size="2">69</font></td>
+            <td><font size="2">105</font></td>
+            <td><font size="2">89</font></td>
+            <td><font size="2">70</font></td>
+            <td><font size="2">110</font></td>
+            <td><font size="2">82</font></td>
+            <td><font size="2">91</font></td>
+            <td><font size="2">74</font></td>
+            <td><font size="2">73</font></td>
+            <td><font size="2">20</font></td>
+            <td><font size="2"><b>783</b></font></td>
+            <td><font size="2">78</font></td>
+          </tr>
+          <tr bgcolor="#ffccf7">
+            <td><font size="2"><b>第4位</b></font></td>
+        <td><font size="2">09</font></td>
+		<td><img src="./icon/icon09.png"></td>
+          <td><font size="2"><a href="entry09.html">フレイム冒険記その２<font size="2"><br>夢のキービィ</font></a></font>
+            <td><font size="2">72</font></td>
+            <td><font size="2">98</font></td>
+            <td><font size="2">87</font></td>
+            <td><font size="2">103</font></td>
+            <td><font size="2">67</font></td>
+            <td><font size="2">79</font></td>
+            <td><font size="2">75</font></td>
+            <td><font size="2">53</font></td>
+            <td><font size="2">29</font></td>
+            <td><font size="2">34</font></td>
+            <td><font size="2"><b>697</b></font></td>
+            <td><font size="2">91</font></td>
+          </tr>
+          <tr bgcolor="#ffccf7">
+            <td><font size="2"><b>第5位</b></font></td>
+        <td><font size="2">13</font></td>
+		<td><img src="./icon/icon13.png"></td>
+          <td><font size="2"><a href="entry13.html">もぐれケゴール洞窟<font size="2"><br>藻太郎</font></a></font>
+            <td><font size="2">77</font></td>
+            <td><font size="2">50</font></td>
+            <td><font size="2">72</font></td>
+            <td><font size="2">69</font></td>
+            <td><font size="2">67</font></td>
+            <td><font size="2">72</font></td>
+            <td><font size="2">66</font></td>
+            <td><font size="2">53</font></td>
+            <td><font size="2">64</font></td>
+            <td><font size="2">67</font></td>
+            <td><font size="2"><b>657</b></font></td>
+            <td><font size="2">63</font></td>
+          </tr>
+          <tr bgcolor="#ffccf7">
+        <td><font size="2">第6位</font></td>
+        <td><font size="2">02</font></td>
+		<td><img src="./icon/icon02.png"></td>
+          <td><font size="2"><a href="entry02.html">ダイスローグ<font size="2"><br>F-man</font></a></font>
+            <td><font size="2">63</font></td>
+            <td><font size="2">77</font></td>
+            <td><font size="2">58</font></td>
+            <td><font size="2">76</font></td>
+            <td><font size="2">69</font></td>
+            <td><font size="2">82</font></td>
+            <td><font size="2">71</font></td>
+            <td><font size="2">58</font></td>
+            <td><font size="2">54</font></td>
+            <td><font size="2">47</font></td>
+            <td><font size="2"><b>655</b></font></td>
+            <td><font size="2">67</font></td>
+          </tr>
+          <tr bgcolor="#ffccf7">
+        <td><font size="2">第7位</font></td>
+        <td><font size="2">19</font></td>
+		<td><img src="./icon/icon19.png"></td>
+          <td><font size="2"><a href="entry19.html">ksg8in1 2nd<font size="2"><br>かすていら</font></a></font>
+            <td><font size="2">59</font></td>
+            <td><font size="2">74</font></td>
+            <td><font size="2">59</font></td>
+            <td><font size="2">59</font></td>
+            <td><font size="2">85</font></td>
+            <td><font size="2">62</font></td>
+            <td><font size="2">58</font></td>
+            <td><font size="2">86</font></td>
+            <td><font size="2">32</font></td>
+            <td><font size="2">72</font></td>
+            <td><font size="2"><b>646</b></font></td>
+            <td><font size="2">65</font></td>
+          </tr>
+          <tr bgcolor="#ffccf7">
+        <td><font size="2">第8位</font></td>
+        <td><font size="2">05</font></td>
+		<td><img src="./icon/icon05.PNG"></td>
+          <td><font size="2"><a href="entry05.html">カマソッソの冬休み<font size="2"><br>池田さん</font></a></font>
+            <td><font size="2">81</font></td>
+            <td><font size="2">67</font></td>
+            <td><font size="2">78</font></td>
+            <td><font size="2">65</font></td>
+            <td><font size="2">73</font></td>
+            <td><font size="2">54</font></td>
+            <td><font size="2">47</font></td>
+            <td><font size="2">79</font></td>
+            <td><font size="2">38</font></td>
+            <td><font size="2">46</font></td>
+            <td><font size="2"><b>628</b></font></td>
+            <td><font size="2">74</font></td>
+          </tr>
+          <tr bgcolor="#ffccf7">
+        <td><font size="2">第9位</font></td>
+        <td><font size="2">06</font></td>
+		<td><img src="./icon/icon06.png"></td>
+          <td><font size="2"><a href="entry06.html">THE・野球拳(VIP)<font size="2"><br>名雲きつね</font></a></font>
+            <td><font size="2">39</font></td>
+            <td><font size="2">42</font></td>
+            <td><font size="2">67</font></td>
+            <td><font size="2">57</font></td>
+            <td><font size="2">51</font></td>
+            <td><font size="2">34</font></td>
+            <td><font size="2">42</font></td>
+            <td><font size="2">28</font></td>
+            <td><font size="2">80</font></td>
+            <td><font size="2">33</font></td>
+            <td><font size="2"><b>473</b></font></td>
+            <td><font size="2">60</font></td>
+          </tr>
+          <tr bgcolor="#ffccf7">
+        <td><font size="2">第10位</font></td>
+        <td><font size="2">12</font></td>
+		<td><img src="./icon/icon12.png"></td>
+          <td><font size="2"><a href="entry12.html">MOSIMO TACTICS<font size="2"><br>池田超大作</font></a></font>
+            <td><font size="2">32</font></td>
+            <td><font size="2">34</font></td>
+            <td><font size="2">40</font></td>
+            <td><font size="2">36</font></td>
+            <td><font size="2">37</font></td>
+            <td><font size="2">39</font></td>
+            <td><font size="2">42</font></td>
+            <td><font size="2">52</font></td>
+            <td><font size="2">50</font></td>
+            <td><font size="2">58</font></td>
+            <td><font size="2"><b>420</b></font></td>
+            <td><font size="2">46</font></td>
+          </tr>
+          <tr bgcolor="#ffccf7">
+        <td><font size="2">第11位</font></td>
+        <td><font size="2">51</font></td>
+		<td><img src="./icon/iconZZ.png"></td>
+          <td><font size="2"><a href="entry51.html">エターナリ草<font size="2"><br>のろし</font></a></font>
+            <td><font size="2">14</font></td>
+            <td><font size="2">64</font></td>
+            <td><font size="2">31</font></td>
+            <td><font size="2">53</font></td>
+            <td><font size="2">52</font></td>
+            <td><font size="2">43</font></td>
+            <td><font size="2">61</font></td>
+            <td><font size="2">22</font></td>
+            <td><font size="2">10</font></td>
+            <td><font size="2">28</font></td>
+            <td><font size="2"><b>378</b></font></td>
+            <td><font size="2">40</font></td>
+          </tr>
+          <tr bgcolor="#ffccf7">
+        <td><font size="2">第12位</font></td>
+        <td><font size="2">54</font></td>
+		<td><img src="./icon/iconZZ.png"></td>
+          <td><font size="2"><a href="entry54.html">青いやつと赤いやつ<font size="2"><br>脳内住民</font></a></font>
+            <td><font size="2">43</font></td>
+            <td><font size="2">36</font></td>
+            <td><font size="2">48</font></td>
+            <td><font size="2">27</font></td>
+            <td><font size="2">49</font></td>
+            <td><font size="2">33</font></td>
+            <td><font size="2">25</font></td>
+            <td><font size="2">56</font></td>
+            <td><font size="2">10</font></td>
+            <td><font size="2">34</font></td>
+            <td><font size="2"><b>361</b></font></td>
+            <td><font size="2">19</font></td>
+          </tr>
+          <tr bgcolor="#ffccf7">
+        <td><font size="2">第13位</font></td>
+        <td><font size="2">23</font></td>
+		<td><img src="./icon/icon23.png"></td>
+          <td><font size="2"><a href="entry23.html">ぽてまお<font size="2"><br>風見ケイ＆ひしお</font></a></font>
+            <td><font size="2">48</font></td>
+            <td><font size="2">33</font></td>
+            <td><font size="2">48</font></td>
+            <td><font size="2">32</font></td>
+            <td><font size="2">37</font></td>
+            <td><font size="2">37</font></td>
+            <td><font size="2">31</font></td>
+            <td><font size="2">39</font></td>
+            <td><font size="2">15</font></td>
+            <td><font size="2">21</font></td>
+            <td><font size="2"><b>341</b></font></td>
+            <td><font size="2">34</font></td>
+          </tr>
+          <tr bgcolor="#ffccf7">
+        <td><font size="2">第14位</font></td>
+        <td><font size="2">28</font></td>
+		<td><img src="./icon/icon28.png"></td>
+          <td><font size="2"><a href="entry28.html">なすなすデートシミュレーター2018<font size="2"><br>†暗黒の扁桃腺の聖騎士†</font></a></font>
+            <td><font size="2">34</font></td>
+            <td><font size="2">30</font></td>
+            <td><font size="2">43</font></td>
+            <td><font size="2">27</font></td>
+            <td><font size="2">34</font></td>
+            <td><font size="2">32</font></td>
+            <td><font size="2">36</font></td>
+            <td><font size="2">39</font></td>
+            <td><font size="2">20</font></td>
+            <td><font size="2">43</font></td>
+            <td><font size="2"><b>338</b></font></td>
+            <td><font size="2">35</font></td>
+          </tr>
+          <tr bgcolor="#ffccf7">
+        <td><font size="2">第15位</font></td>
+        <td><font size="2">04</font></td>
+		<td><img src="./icon/icon04.png"></td>
+          <td><font size="2"><a href="entry04.html">（自称）死霊術師と聖人の遺体<font size="2"><br>徳明</font></a></font>
+            <td><font size="2">47</font></td>
+            <td><font size="2">30</font></td>
+            <td><font size="2">49</font></td>
+            <td><font size="2">26</font></td>
+            <td><font size="2">41</font></td>
+            <td><font size="2">27</font></td>
+            <td><font size="2">19</font></td>
+            <td><font size="2">27</font></td>
+            <td><font size="2">58</font></td>
+            <td><font size="2">12</font></td>
+            <td><font size="2"><b>336</b></font></td>
+            <td><font size="2">27</font></td>
+          </tr>
+          <tr>
+        <td><font size="2">第16位</font></td>
+        <td><font size="2">37</font></td>
+		<td><img src="./icon/icon37.png"></td>
+          <td><font size="2"><a href="entry37.html">メイジの暇潰死<font size="2"><br>メイジファンＳド</font></a></font>
+            <td><font size="2">26</font></td>
+            <td><font size="2">24</font></td>
+            <td><font size="2">36</font></td>
+            <td><font size="2">28</font></td>
+            <td><font size="2">27</font></td>
+            <td><font size="2">32</font></td>
+            <td><font size="2">36</font></td>
+            <td><font size="2">37</font></td>
+            <td><font size="2">25</font></td>
+            <td><font size="2">47</font></td>
+            <td><font size="2"><b>318</b></font></td>
+            <td><font size="2">40</font></td>
+          </tr>
+          <tr bgcolor="#ffccf7">
+        <td><font size="2">第17位</font></td>
+        <td><font size="2">10</font></td>
+		<td><img src="./icon/icon10.png"></td>
+          <td><font size="2"><a href="entry10.html">かばね遣いと林檎<font size="2"><br>あきこ</font></a></font>
+            <td><font size="2">47</font></td>
+            <td><font size="2">31</font></td>
+            <td><font size="2">46</font></td>
+            <td><font size="2">33</font></td>
+            <td><font size="2">50</font></td>
+            <td><font size="2">34</font></td>
+            <td><font size="2">36</font></td>
+            <td><font size="2">14</font></td>
+            <td><font size="2">15</font></td>
+            <td><font size="2">11</font></td>
+            <td><font size="2"><b>317</b></font></td>
+            <td><font size="2">37</font></td>
+          </tr>
+          <tr bgcolor="#ffccf7">
+        <td><font size="2">第18位</font></td>
+        <td><font size="2">24</font></td>
+		<td><img src="./icon/icon24.png"></td>
+          <td><font size="2"><a href="entry24.html">【水産すげぇ】FREELY TOMORROW<font size="2"><br>chest</font></a></font>
+            <td><font size="2">10</font></td>
+            <td><font size="2">67</font></td>
+            <td><font size="2">44</font></td>
+            <td><font size="2">19</font></td>
+            <td><font size="2">33</font></td>
+            <td><font size="2">30</font></td>
+            <td><font size="2">67</font></td>
+            <td><font size="2">24</font></td>
+            <td><font size="2">11</font></td>
+            <td><font size="2">8</font></td>
+            <td><font size="2"><b>313</b></font></td>
+            <td><font size="2">38</font></td>
+          </tr>
+          <tr bgcolor="#ffccf7">
+        <td><font size="2">第19位</font></td>
+        <td><font size="2">48</font></td>
+		<td><img src="./icon/iconZZ.png"></td>
+          <td><font size="2"><a href="entry48.html">日がえりポテチクエスト<font size="2"><br>KC.R</font></a></font>
+            <td><font size="2">37</font></td>
+            <td><font size="2">39</font></td>
+            <td><font size="2">41</font></td>
+            <td><font size="2">26</font></td>
+            <td><font size="2">48</font></td>
+            <td><font size="2">41</font></td>
+            <td><font size="2">27</font></td>
+            <td><font size="2">28</font></td>
+            <td><font size="2">9</font></td>
+            <td><font size="2">14</font></td>
+            <td><font size="2"><b>310</b></font></td>
+            <td><font size="2">45</font></td>
+          </tr>
+          <tr bgcolor="#ffccf7">
+        <td><font size="2">第20位</font></td>
+        <td><font size="2">01</font></td>
+		<td><img src="./icon/icon01.png"></td>
+          <td><font size="2"><a href="entry01.html">号外聖人<font size="2"><br>鷹</font></a></font>
+            <td><font size="2">36</font></td>
+            <td><font size="2">24</font></td>
+            <td><font size="2">48</font></td>
+            <td><font size="2">24</font></td>
+            <td><font size="2">28</font></td>
+            <td><font size="2">47</font></td>
+            <td><font size="2">22</font></td>
+            <td><font size="2">44</font></td>
+            <td><font size="2">14</font></td>
+            <td><font size="2">16</font></td>
+            <td><font size="2"><b>303</b></font></td>
+            <td><font size="2">28</font></td>
+          </tr>
+          <tr>
+        <td><font size="2">第21位</font></td>
+        <td><font size="2">35</font></td>
+		<td><img src="./icon/iconZZ.png"></td>
+          <td><font size="2"><a href="entry35.html">baka korekution<font size="2"><br>ぬ</font></a></font>
+            <td><font size="2">31</font></td>
+            <td><font size="2">29</font></td>
+            <td><font size="2">27</font></td>
+            <td><font size="2">23</font></td>
+            <td><font size="2">30</font></td>
+            <td><font size="2">29</font></td>
+            <td><font size="2">27</font></td>
+            <td><font size="2">41</font></td>
+            <td><font size="2">16</font></td>
+            <td><font size="2">41</font></td>
+            <td><font size="2"><b>294</b></font></td>
+            <td><font size="2">25</font></td>
+          </tr>
+          <tr>
+        <td><font size="2">第22位</font></td>
+        <td><font size="2">32</font></td>
+		<td><img src="./icon/icon32.png"></td>
+          <td><font size="2"><a href="entry32.html">もしも紅葉舞い、雪降る時だったら<font size="2"><br>お姉さん大好きマン</font></a></font>
+            <td><font size="2">43</font></td>
+            <td><font size="2">27</font></td>
+            <td><font size="2">46</font></td>
+            <td><font size="2">26</font></td>
+            <td><font size="2">37</font></td>
+            <td><font size="2">30</font></td>
+            <td><font size="2">20</font></td>
+            <td><font size="2">28</font></td>
+            <td><font size="2">9</font></td>
+            <td><font size="2">11</font></td>
+            <td><font size="2"><b>277</b></font></td>
+            <td><font size="2">29</font></td>
+          </tr>
+          <tr>
+        <td><font size="2">第23位</font></td>
+        <td><font size="2">16</font></td>
+		<td><img src="./icon/icon16.gif"></td>
+          <td><font size="2"><a href="entry16.html">THUNDER DRACO -勇者アレックスの野望-<font size="2"><br>ドロップ</font></a></font>
+            <td><font size="2">26</font></td>
+            <td><font size="2">47</font></td>
+            <td><font size="2">33</font></td>
+            <td><font size="2">38</font></td>
+            <td><font size="2">37</font></td>
+            <td><font size="2">42</font></td>
+            <td><font size="2">26</font></td>
+            <td><font size="2">12</font></td>
+            <td><font size="2">6</font></td>
+            <td><font size="2">8</font></td>
+            <td><font size="2"><b>275</b></font></td>
+            <td><font size="2">34</font></td>
+          </tr>
+          <tr bgcolor="#ffccf7">
+        <td><font size="2">第24位</font></td>
+        <td><font size="2">03</font></td>
+		<td><img src="./icon/icon03.png"></td>
+          <td><font size="2"><a href="entry03.html">勝ち抜きボスバトル紅白2018<font size="2"><br>すいかびぃ</font></a></font>
+            <td><font size="2">23</font></td>
+            <td><font size="2">33</font></td>
+            <td><font size="2">38</font></td>
+            <td><font size="2">39</font></td>
+            <td><font size="2">35</font></td>
+            <td><font size="2">37</font></td>
+            <td><font size="2">21</font></td>
+            <td><font size="2">16</font></td>
+            <td><font size="2">6</font></td>
+            <td><font size="2">4</font></td>
+            <td><font size="2"><b>252</b></font></td>
+            <td><font size="2">41</font></td>
+          </tr>
+          <tr>
+        <td><font size="2">第25位</font></td>
+        <td><font size="2">18</font></td>
+		<td><img src="./icon/icon18.png"></td>
+          <td><font size="2"><a href="entry18.html">ファイナルもしもファイト<font size="2"><br>SHIKUKO</font></a></font>
+            <td><font size="2">26</font></td>
+            <td><font size="2">38</font></td>
+            <td><font size="2">25</font></td>
+            <td><font size="2">38</font></td>
+            <td><font size="2">29</font></td>
+            <td><font size="2">26</font></td>
+            <td><font size="2">25</font></td>
+            <td><font size="2">14</font></td>
+            <td><font size="2">3</font></td>
+            <td><font size="2">9</font></td>
+            <td><font size="2"><b>233</b></font></td>
+            <td><font size="2">33</font></td>
+          </tr>
+          <tr>
+        <td><font size="2">第26位</font></td>
+        <td><font size="2">38</font></td>
+		<td><img src="./icon/icon38.png"></td>
+          <td><font size="2"><a href="entry38.html">スーパーごちうさＲＰＧ<font size="2"><br>ナインボルト</font></a></font>
+            <td><font size="2">20</font></td>
+            <td><font size="2">16</font></td>
+            <td><font size="2">27</font></td>
+            <td><font size="2">19</font></td>
+            <td><font size="2">17</font></td>
+            <td><font size="2">22</font></td>
+            <td><font size="2">23</font></td>
+            <td><font size="2">21</font></td>
+            <td><font size="2">20</font></td>
+            <td><font size="2">33</font></td>
+            <td><font size="2"><b>218</b></font></td>
+            <td><font size="2">24</font></td>
+          </tr>
+          <tr>
+        <td><font size="2">第27位</font></td>
+        <td><font size="2">07</font></td>
+		<td><img src="./icon/icon07.png"></td>
+          <td><font size="2"><a href="entry07.html">レッツゴー！冥界ガーディアンズ<font size="2"><br>アクハデジャスティス丸</font></a></font>
+            <td><font size="2">24</font></td>
+            <td><font size="2">18</font></td>
+            <td><font size="2">23</font></td>
+            <td><font size="2">28</font></td>
+            <td><font size="2">24</font></td>
+            <td><font size="2">25</font></td>
+            <td><font size="2">21</font></td>
+            <td><font size="2">25</font></td>
+            <td><font size="2">9</font></td>
+            <td><font size="2">21</font></td>
+            <td><font size="2"><b>218</b></font></td>
+            <td><font size="2">20</font></td>
+          </tr>
+          <tr>
+        <td><font size="2">第28位</font></td>
+        <td><font size="2">34</font></td>
+		<td><img src="./icon/iconZZ.png"></td>
+          <td><font size="2"><a href="entry34.html">VTuberバトルロワイアル<font size="2"><br>おりおん</font></a></font>
+            <td><font size="2">29</font></td>
+            <td><font size="2">15</font></td>
+            <td><font size="2">28</font></td>
+            <td><font size="2">23</font></td>
+            <td><font size="2">19</font></td>
+            <td><font size="2">18</font></td>
+            <td><font size="2">24</font></td>
+            <td><font size="2">18</font></td>
+            <td><font size="2">21</font></td>
+            <td><font size="2">22</font></td>
+            <td><font size="2"><b>217</b></font></td>
+            <td><font size="2">18</font></td>
+          </tr>
+          <tr>
+        <td><font size="2">第29位</font></td>
+        <td><font size="2">26</font></td>
+		<td><img src="./icon/icon26.png"></td>
+          <td><font size="2"><a href="entry26.html">万華郷　～りめいく～<font size="2"><br>FAH-Q（ふぁーきゅー）</font></a></font>
+            <td><font size="2">27</font></td>
+            <td><font size="2">20</font></td>
+            <td><font size="2">28</font></td>
+            <td><font size="2">20</font></td>
+            <td><font size="2">22</font></td>
+            <td><font size="2">29</font></td>
+            <td><font size="2">18</font></td>
+            <td><font size="2">15</font></td>
+            <td><font size="2">12</font></td>
+            <td><font size="2">10</font></td>
+            <td><font size="2"><b>201</b></font></td>
+            <td><font size="2">27</font></td>
+          </tr>
+          <tr>
+        <td><font size="2">第30位</font></td>
+        <td><font size="2">52</font></td>
+		<td><img src="./icon/icon52.png"></td>
+          <td><font size="2"><a href="entry52.html">魔法具現化全書<font size="2"><br>なんか。</font></a></font>
+            <td><font size="2">7</font></td>
+            <td><font size="2">36</font></td>
+            <td><font size="2">36</font></td>
+            <td><font size="2">12</font></td>
+            <td><font size="2">28</font></td>
+            <td><font size="2">22</font></td>
+            <td><font size="2">27</font></td>
+            <td><font size="2">8</font></td>
+            <td><font size="2">8</font></td>
+            <td><font size="2">3</font></td>
+            <td><font size="2"><b>187</b></font></td>
+            <td><font size="2">38</font></td>
+          </tr>
+          <tr>
+        <td><font size="2">第31位</font></td>
+        <td><font size="2">36</font></td>
+		<td><img src="./icon/icon36.png"></td>
+          <td><font size="2"><a href="entry36.html">みぬゲーム<font size="2"><br>南蛮仙次</font></a></font>
+            <td><font size="2">11</font></td>
+            <td><font size="2">13</font></td>
+            <td><font size="2">12</font></td>
+            <td><font size="2">19</font></td>
+            <td><font size="2">24</font></td>
+            <td><font size="2">16</font></td>
+            <td><font size="2">23</font></td>
+            <td><font size="2">19</font></td>
+            <td><font size="2">3</font></td>
+            <td><font size="2">12</font></td>
+            <td><font size="2"><b>152</b></font></td>
+            <td><font size="2">16</font></td>
+          </tr>
+          <tr>
+        <td><font size="2">第32位</font></td>
+        <td><font size="2">30</font></td>
+		<td><img src="./icon/icon30.png"></td>
+          <td><font size="2"><a href="entry30.html">ハッチポッチ<font size="2"><br>ダークオルカ</font></a></font>
+            <td><font size="2">10</font></td>
+            <td><font size="2">14</font></td>
+            <td><font size="2">13</font></td>
+            <td><font size="2">13</font></td>
+            <td><font size="2">15</font></td>
+            <td><font size="2">12</font></td>
+            <td><font size="2">18</font></td>
+            <td><font size="2">18</font></td>
+            <td><font size="2">11</font></td>
+            <td><font size="2">23</font></td>
+            <td><font size="2"><b>147</b></font></td>
+            <td><font size="2">19</font></td>
+          </tr>
+          <tr>
+        <td><font size="2">第33位</font></td>
+        <td><font size="2">45</font></td>
+		<td><img src="./icon/icon45.png"></td>
+          <td><font size="2"><a href="entry45.html">I is WORLD 第1章　～灰色の霧～<font size="2"><br>（Ｒ）ＤＵ</font></a></font>
+            <td><font size="2">17</font></td>
+            <td><font size="2">15</font></td>
+            <td><font size="2">21</font></td>
+            <td><font size="2">19</font></td>
+            <td><font size="2">11</font></td>
+            <td><font size="2">9</font></td>
+            <td><font size="2">16</font></td>
+            <td><font size="2">12</font></td>
+            <td><font size="2">11</font></td>
+            <td><font size="2">11</font></td>
+            <td><font size="2"><b>142</b></font></td>
+            <td><font size="2">16</font></td>
+          </tr>
+          <tr>
+        <td><font size="2">第34位</font></td>
+        <td><font size="2">47</font></td>
+		<td><img src="./icon/iconZZ.png"></td>
+          <td><font size="2"><a href="entry47.html">Möwius<font size="2"><br>humanworld</font></a></font>
+            <td><font size="2">20</font></td>
+            <td><font size="2">16</font></td>
+            <td><font size="2">21</font></td>
+            <td><font size="2">14</font></td>
+            <td><font size="2">16</font></td>
+            <td><font size="2">10</font></td>
+            <td><font size="2">15</font></td>
+            <td><font size="2">8</font></td>
+            <td><font size="2">9</font></td>
+            <td><font size="2">2</font></td>
+            <td><font size="2"><b>131</b></font></td>
+            <td><font size="2">25</font></td>
+          </tr>
+          <tr>
+        <td><font size="2">第35位</font></td>
+        <td><font size="2">44</font></td>
+		<td><img src="./icon/icon44.png"></td>
+          <td><font size="2"><a href="entry44.html">す<font size="2"><br>す</font></a></font>
+            <td><font size="2">7</font></td>
+            <td><font size="2">8</font></td>
+            <td><font size="2">10</font></td>
+            <td><font size="2">8</font></td>
+            <td><font size="2">18</font></td>
+            <td><font size="2">15</font></td>
+            <td><font size="2">14</font></td>
+            <td><font size="2">20</font></td>
+            <td><font size="2">4</font></td>
+            <td><font size="2">25</font></td>
+            <td><font size="2"><b>129</b></font></td>
+            <td><font size="2">19</font></td>
+          </tr>
+          <tr>
+        <td><font size="2">第36位</font></td>
+        <td><font size="2">58</font></td>
+		<td><img src="./icon/icon58.png"></td>
+          <td><font size="2"><a href="entry58.html">地獄FXおぼなす<font size="2"><br>脂はむ</font></a></font>
+            <td><font size="2">19</font></td>
+            <td><font size="2">5</font></td>
+            <td><font size="2">12</font></td>
+            <td><font size="2">5</font></td>
+            <td><font size="2">15</font></td>
+            <td><font size="2">13</font></td>
+            <td><font size="2">10</font></td>
+            <td><font size="2">16</font></td>
+            <td><font size="2">6</font></td>
+            <td><font size="2">25</font></td>
+            <td><font size="2"><b>126</b></font></td>
+            <td><font size="2">22</font></td>
+          </tr>
+          <tr>
+        <td><font size="2">第37位</font></td>
+        <td><font size="2">43</font></td>
+		<td><img src="./icon/icon43.png"></td>
+          <td><font size="2"><a href="entry43.html">On a linux<font size="2"><br>雷塵</font></a></font>
+            <td><font size="2">12</font></td>
+            <td><font size="2">11</font></td>
+            <td><font size="2">13</font></td>
+            <td><font size="2">10</font></td>
+            <td><font size="2">14</font></td>
+            <td><font size="2">16</font></td>
+            <td><font size="2">8</font></td>
+            <td><font size="2">5</font></td>
+            <td><font size="2">21</font></td>
+            <td><font size="2">8</font></td>
+            <td><font size="2"><b>118</b></font></td>
+            <td><font size="2">8</font></td>
+          </tr>
+          <tr>
+        <td><font size="2">第38位</font></td>
+        <td><font size="2">55</font></td>
+		<td><img src="./icon/iconZZ.png"></td>
+          <td><font size="2"><a href="entry55.html">ヤミーズウェーブ　読みきり版<font size="2"><br>ジャスティス</font></a></font>
+            <td><font size="2">9</font></td>
+            <td><font size="2">6</font></td>
+            <td><font size="2">13</font></td>
+            <td><font size="2">10</font></td>
+            <td><font size="2">9</font></td>
+            <td><font size="2">10</font></td>
+            <td><font size="2">10</font></td>
+            <td><font size="2">17</font></td>
+            <td><font size="2">4</font></td>
+            <td><font size="2">20</font></td>
+            <td><font size="2"><b>108</b></font></td>
+            <td><font size="2">9</font></td>
+          </tr>
+          <tr>
+        <td><font size="2">第39位</font></td>
+        <td><font size="2">31</font></td>
+		<td><img src="./icon/icon31.png"></td>
+          <td><font size="2"><a href="entry31.html">平成クエスト<font size="2"><br>SNEP48</font></a></font>
+            <td><font size="2">12</font></td>
+            <td><font size="2">6</font></td>
+            <td><font size="2">10</font></td>
+            <td><font size="2">12</font></td>
+            <td><font size="2">7</font></td>
+            <td><font size="2">14</font></td>
+            <td><font size="2">10</font></td>
+            <td><font size="2">13</font></td>
+            <td><font size="2">9</font></td>
+            <td><font size="2">8</font></td>
+            <td><font size="2"><b>101</b></font></td>
+            <td><font size="2">8</font></td>
+          </tr>
+          <tr>
+        <td><font size="2">第40位</font></td>
+        <td><font size="2">20</font></td>
+		<td><img src="./icon/icon20.png"></td>
+          <td><font size="2"><a href="entry20.html">リハビリksg1<font size="2"><br>前業プ杏(64AA)</font></a></font>
+            <td><font size="2">17</font></td>
+            <td><font size="2">10</font></td>
+            <td><font size="2">16</font></td>
+            <td><font size="2">7</font></td>
+            <td><font size="2">12</font></td>
+            <td><font size="2">13</font></td>
+            <td><font size="2">8</font></td>
+            <td><font size="2">4</font></td>
+            <td><font size="2">5</font></td>
+            <td><font size="2">4</font></td>
+            <td><font size="2"><b>96</b></font></td>
+            <td><font size="2">11</font></td>
+          </tr>
+          <tr>
+        <td><font size="2">第41位</font></td>
+        <td><font size="2">46</font></td>
+		<td><img src="./icon/iconZZ.png"></td>
+          <td><font size="2"><a href="entry46.html">ミニマップサンプル<font size="2"><br>きらきー</font></a></font>
+            <td><font size="2">4</font></td>
+            <td><font size="2">13</font></td>
+            <td><font size="2">4</font></td>
+            <td><font size="2">4</font></td>
+            <td><font size="2">12</font></td>
+            <td><font size="2">7</font></td>
+            <td><font size="2">11</font></td>
+            <td><font size="2">8</font></td>
+            <td><font size="2">3</font></td>
+            <td><font size="2">13</font></td>
+            <td><font size="2"><b>79</b></font></td>
+            <td><font size="2">10</font></td>
+          </tr>
+          <tr>
+        <td><font size="2">第42位</font></td>
+        <td><font size="2">15</font></td>
+		<td><img src="./icon/icon15.png"></td>
+          <td><font size="2"><a href="entry15.html">主役キャラクターランキング2018<font size="2"><br>秋草</font></a></font>
+            <td><font size="2">4</font></td>
+            <td><font size="2">8</font></td>
+            <td><font size="2">9</font></td>
+            <td><font size="2">7</font></td>
+            <td><font size="2">8</font></td>
+            <td><font size="2">10</font></td>
+            <td><font size="2">8</font></td>
+            <td><font size="2">4</font></td>
+            <td><font size="2">1</font></td>
+            <td><font size="2">2</font></td>
+            <td><font size="2"><b>61</b></font></td>
+            <td><font size="2">6</font></td>
+          </tr>
+          <tr>
+        <td><font size="2">第43位</font></td>
+        <td><font size="2">39</font></td>
+		<td><img src="./icon/iconZZ.png"></td>
+          <td><font size="2"><a href="entry39.html">乳首ファンタジー　~The Legend of Tikubi~<font size="2"><br>mm</font></a></font>
+            <td><font size="2">3</font></td>
+            <td><font size="2">2</font></td>
+            <td><font size="2">3</font></td>
+            <td><font size="2">4</font></td>
+            <td><font size="2">4</font></td>
+            <td><font size="2">5</font></td>
+            <td><font size="2">5</font></td>
+            <td><font size="2">12</font></td>
+            <td><font size="2">8</font></td>
+            <td><font size="2">14</font></td>
+            <td><font size="2"><b>60</b></font></td>
+            <td><font size="2">6</font></td>
+          </tr>
+          <tr>
+        <td><font size="2">第44位</font></td>
+        <td><font size="2">14</font></td>
+		<td><img src="./icon/icon14.png"></td>
+          <td><font size="2"><a href="entry14.html">RTP食堂<font size="2"><br>雪島</font></a></font>
+            <td><font size="2">8</font></td>
+            <td><font size="2">4</font></td>
+            <td><font size="2">9</font></td>
+            <td><font size="2">5</font></td>
+            <td><font size="2">7</font></td>
+            <td><font size="2">6</font></td>
+            <td><font size="2">4</font></td>
+            <td><font size="2">2</font></td>
+            <td><font size="2">1</font></td>
+            <td><font size="2">3</font></td>
+            <td><font size="2"><b>49</b></font></td>
+            <td><font size="2">4</font></td>
+          </tr>
+          <tr>
+        <td><font size="2">第45位</font></td>
+        <td><font size="2">27</font></td>
+		<td><img src="./icon/iconZZ.png"></td>
+          <td><font size="2"><a href="entry27.html">FINAL ROMANCE RETURNS<font size="2"><br>TRICOGASTER(略称TRICO)</font></a></font>
+            <td><font size="2">5</font></td>
+            <td><font size="2">6</font></td>
+            <td><font size="2">6</font></td>
+            <td><font size="2">3</font></td>
+            <td><font size="2">4</font></td>
+            <td><font size="2">8</font></td>
+            <td><font size="2">5</font></td>
+            <td><font size="2">2</font></td>
+            <td><font size="2">0</font></td>
+            <td><font size="2">4</font></td>
+            <td><font size="2"><b>43</b></font></td>
+            <td><font size="2">8</font></td>
+          </tr>
+          <tr>
+        <td><font size="2">第46位</font></td>
+        <td><font size="2">49</font></td>
+		<td><img src="./icon/icon49.png"></td>
+          <td><font size="2"><a href="entry49.html">生まれなかった子供たちへ<font size="2"><br>下郎紳士ゲゲゾミ</font></a></font>
+            <td><font size="2">3</font></td>
+            <td><font size="2">5</font></td>
+            <td><font size="2">5</font></td>
+            <td><font size="2">3</font></td>
+            <td><font size="2">5</font></td>
+            <td><font size="2">4</font></td>
+            <td><font size="2">4</font></td>
+            <td><font size="2">5</font></td>
+            <td><font size="2">1</font></td>
+            <td><font size="2">8</font></td>
+            <td><font size="2"><b>43</b></font></td>
+            <td><font size="2">4</font></td>
+          </tr>
+          <tr>
+        <td><font size="2">第47位</font></td>
+        <td><font size="2">41</font></td>
+		<td><img src="./icon/icon41.png"></td>
+          <td><font size="2"><a href="entry41.html">波動拳セイントシスターズ2003<font size="2"><br>イグサ</font></a></font>
+            <td><font size="2">3</font></td>
+            <td><font size="2">6</font></td>
+            <td><font size="2">3</font></td>
+            <td><font size="2">4</font></td>
+            <td><font size="2">3</font></td>
+            <td><font size="2">3</font></td>
+            <td><font size="2">5</font></td>
+            <td><font size="2">5</font></td>
+            <td><font size="2">2</font></td>
+            <td><font size="2">8</font></td>
+            <td><font size="2"><b>42</b></font></td>
+            <td><font size="2">6</font></td>
+          </tr>
+          <tr>
+        <td><font size="2">第48位</font></td>
+        <td><font size="2">11</font></td>
+		<td><img src="./icon/iconZZ.png"></td>
+          <td><font size="2"><a href="entry11.html">ウンコヴィック最後の闘い<font size="2"><br>UNKO</font></a></font>
+            <td><font size="2">0</font></td>
+            <td><font size="2">0</font></td>
+            <td><font size="2">0</font></td>
+            <td><font size="2">1</font></td>
+            <td><font size="2">1</font></td>
+            <td><font size="2">4</font></td>
+            <td><font size="2">2</font></td>
+            <td><font size="2">2</font></td>
+            <td><font size="2">2</font></td>
+            <td><font size="2">8</font></td>
+            <td><font size="2"><b>20</b></font></td>
+            <td><font size="2">0</font></td>
+          </tr>
+          <tr>
+        <td><font size="2">第49位</font></td>
+        <td><font size="2">33</font></td>
+		<td><img src="./icon/icon33.png"></td>
+          <td><font size="2"><a href="entry33.html">もしもEl Shaddai: Ascension of the Metatron<font size="2"><br>ブリザルドのうんこしか食ってない</font></a></font>
+            <td><font size="2">0</font></td>
+            <td><font size="2">1</font></td>
+            <td><font size="2">0</font></td>
+            <td><font size="2">0</font></td>
+            <td><font size="2">1</font></td>
+            <td><font size="2">3</font></td>
+            <td><font size="2">3</font></td>
+            <td><font size="2">1</font></td>
+            <td><font size="2">1</font></td>
+            <td><font size="2">5</font></td>
+            <td><font size="2"><b>15</b></font></td>
+            <td><font size="2">2</font></td>
+          </tr>
+          <tr bgcolor="#c6bfff">
+        <td><font size="2">第50位</font></td>
+        <td><font size="2">53</font></td>
+		<td><img src="./icon/iconZZ.png"></td>
+          <td><font size="2"><a href="entry53.html">Spy The Slayer<font size="2"><br>ﾍﾞﾙﾌｧｰﾚ長田（゜∀゜）◆AHYA/HaiA.</font></a></font>
+            <td><font size="2">0</font></td>
+            <td><font size="2">0</font></td>
+            <td><font size="2">0</font></td>
+            <td><font size="2">0</font></td>
+            <td><font size="2">0</font></td>
+            <td><font size="2">0</font></td>
+            <td><font size="2">0</font></td>
+            <td><font size="2">0</font></td>
+            <td><font size="2">0</font></td>
+            <td><font size="2">0</font></td>
+            <td><font size="2"><b>0</b></font></td>
+            <td><font size="2">2</font></td>
+          </tr>
+          <tr bgcolor="#c6bfff">
+        <td><font size="2">第50位</font></td>
+        <td><font size="2">56</font></td>
+		<td><img src="./icon/iconZZ.png"></td>
+          <td><font size="2"><a href="entry56.html">NOK ～にぼしくんが女の子になるだけのksg～2003<font size="2"><br>蝶番</font></a></font>
+            <td><font size="2">0</font></td>
+            <td><font size="2">0</font></td>
+            <td><font size="2">0</font></td>
+            <td><font size="2">0</font></td>
+            <td><font size="2">0</font></td>
+            <td><font size="2">0</font></td>
+            <td><font size="2">0</font></td>
+            <td><font size="2">0</font></td>
+            <td><font size="2">0</font></td>
+            <td><font size="2">0</font></td>
+            <td><font size="2"><b>0</b></font></td>
+            <td><font size="2">2</font></td>
+          </tr>
+          </table>
+
+<br>
+        <h2 id="allcomment">全作品の投票コメント</h2>
+投票時に寄せられたコメントを掲載します。<br />
+※表彰作品はそちらに投票コメントをまとめているのでリンクを貼ります。<br />
+※未投票作品、未提出作品及びコメントの無い作品は省きます。<br />
+        <br>
+<table border="1" width="776">
+	<tr>
+		<td colspan="10"><b>▼作品に対する投票コメント(エントリーNo順)▼</b></td>
+	</tr>
+	<tr  align="center">
+		<td width="14"><font size="2">No</font></td>
+		<td width="32"><font size="2">Icon</font></td>
+		<td width="120" align="left"><font size="2">作品名/作者名</font></td>
+      <td width="610"><font size="2">投票コメント</font></td>
+      <tr bgcolor="#ffccf7">
+        <td><font size="2">01</font></td>
+		<td><img src="./icon/icon01.png"></td>
+          <td><font size="2"><a href="entry01.html">号外聖人<font size="2"><br>鷹</font></a></font>
+            <td>★前菜ポジションとして手の付けやすい短編作品。<br />そういった意味ではトップバッターに相応しい作品だったと思う。<br />
+★明治神宮や出雲大社よりもチアコスの聖人さんのいる神社に詣でたい。<br />
+★そういえば聖人さんの全身立ち絵って見たことナイ！<br />
+★待ってましたこのシリーズ。さくっと楽しめる超短編オムニバス。<br />相も変わらずな内容に楽しめました！<br />
+★テンポよく和めるのが良いと思いました。<br />
+★ほのぼの見るゲは力抜いて見れるのでいいですよね。</td>
+          </tr>
+  <tr bgcolor="#ffccf7">
+        <td><font size="2">02</font></td>
+		<td><img src="./icon/icon02.png"></td>
+          <td><font size="2"><a href="entry02.html">ダイスローグ<font size="2"><br>F-man</font></a></font>
+            <td><a href="result01.html"><font size="5">★表彰会場へ★</font></a></td>
+          </tr>
+  <tr bgcolor="#ffccf7">
+        <td><font size="2">03</font></td>
+		<td><img src="./icon/icon03.png"></td>
+          <td><font size="2"><a href="entry03.html">勝ち抜きボスバトル紅白2018<font size="2"><br>すいかびぃ</font></a></font>
+            <td>★物語性や探索が皆無で戦闘・強化を延々繰り返すというソリッドな内容を<br />ソフトな雰囲気で上手く包んでいるので、この手の作品にありがちな<br />無味乾燥な印象は受けない。戦闘バランスも理不尽さのないほどほど。<br />顔グラの変化が細かく、雨に打たれる看板娘ちゃんがかわいそう（褒め言葉）<br />
+              やったー！とか当たらねえ！とかシステムメッセージも愛嬌たっぷりである。<br />
+    ★ランクを上げてのゴリ押しは正義。<br />玉露の宣伝も兼ねているかのような仕上がりの作品です。完成版に期待したい。</td>
+          </tr>
+  <tr bgcolor="#ffccf7">
+        <td><font size="2">04</font></td>
+		<td><img src="./icon/icon04.png"></td>
+          <td><font size="2"><a href="entry04.html">（自称）死霊術師と聖人の遺体<font size="2"><br>徳明</font></a></font>
+            <td><a href="result01.html"><font size="5">★表彰会場へ★</font></a></td>
+          </tr>
+  <tr bgcolor="#ffccf7">
+        <td><font size="2">05</font></td>
+		<td><img src="./icon/icon05.PNG"></td>
+          <td><font size="2"><a href="entry05.html">カマソッソの冬休み<font size="2"><br>池田さん</font></a></font>
+            <td><a href="result01.html"><font size="5">★表彰会場へ★</font></a></td>
+          </tr>
+  <tr bgcolor="#ffccf7">
+        <td><font size="2">06</font></td>
+		<td><img src="./icon/icon06.png"></td>
+          <td><font size="2"><a href="entry06.html">THE・野球拳(VIP)<font size="2"><br>名雲きつね</font></a></font>
+            <td><a href="result01.html"><font size="5">★表彰会場へ★</font></a></td>
+          </tr>
+  <tr>
+        <td><font size="2">07</font></td>
+		<td><img src="./icon/icon07.png"></td>
+          <td><font size="2"><a href="entry07.html">レッツゴー！冥界ガーディアンズ<font size="2"><br>アクハデジャスティス丸</font></a></font>
+            <td>★徒歩スピードがやや遅い点と、アレなネタがシリアスに噛み合っていない点は気になる。<br />ただ難易度は整備されていて、やり込みとして提示された条件(宝物庫)を<br />満たしていく内に丁度いいバランスになっていた。<br />終盤になると様々な要素が噛み合って一気に面白くなった。<br />
+★BGMのかっこ良さと他作品のリスペクトが最高です 次は誰が出てくるんだろう？っていうワクワクが止まりませんでした  パーティーの役割が決まっていて自由に選べなかったところは残念だったけど 勝ったり負けたりで戦闘バランスは好みでした それぞれのボス敵に癖があり初見で倒すのは厳しいものの、戦闘後のヒントのおかげで詰まることなく進めました  (ゲームをクリアした後しばらくの間、例の歌が頭の中でちょこちょこ流れてました)<br />
+★OPのデフォ戦の入りがちょっとかっこいい ふつうによくできたやるゲでパーティメンバーでクエストの台詞が変わるのが細やか 登場キャラもバラエティに富んでいる<br />
+★冥界軍がここまで強くて有名になると今後のストーリーで活躍させづらそう。 続きものなので過去作を遊んでいないと意味がわからない展開やネタありますが、シナリオはまともな仕上がり。 取っつきにくいようでいて遊んでみると結構ハマります。デフォ戦に抵抗がない方はオススメ<br />
+    ★最近少なくなったアングラ感あふれるやるゲ。<br />恥ずかしげもなく（失礼）あれこれパクってできている。こういう作品はいっそ貴重。<br />
+    ★キ　ン　グ　ア　ナ　ー　ル　参　戦　不　可　避</td>
+          </tr>
+  <tr bgcolor="#ffccf7">
+        <td><font size="2">08</font></td>
+		<td><img src="./icon/icon08.png"></td>
+          <td><font size="2"><a href="entry08.html">ふたりの旅のきろく<font size="2"><br>牧場の牛肉</font></a></font>
+            <td><a href="result01.html"><font size="5">★表彰会場へ★</font></a></td>
+          </tr>
+  <tr bgcolor="#ffccf7">
+        <td><font size="2">09</font></td>
+		<td><img src="./icon/icon09.png"></td>
+          <td><font size="2"><a href="entry09.html">フレイム冒険記その２<font size="2"><br>夢のキービィ</font></a></font>
+            <td><a href="result01.html"><font size="5">★表彰会場へ★</font></a></td>
+          </tr>
+  <tr bgcolor="#ffccf7">
+        <td><font size="2">10</font></td>
+		<td><img src="./icon/icon10.png"></td>
+          <td><font size="2"><a href="entry10.html">かばね遣いと林檎<font size="2"><br>あきこ</font></a></font>
+            <td>★一つの事件を追う過程で、台詞によって日常と過去を説明する形式。<br />個人的にこの形式は、物語のボリュームが実際のそれよりも小さく見える。<br />(作中の出来事のスケールがバックボーンより小さい事に意識が向く為)<br />よってボリューム不足を感じやすい作風となっているが、<br />それを差し引いても独特な質感のある物語だった。<br />
+★短編ながら各々キャラが立っていて演出やセリフ回しが素敵な感じで良かったです<br />
+★よい物語を見ました、ありがとうございます<br />
+    ★魅せることを重要視した作品であると感じました。バイソンは何者なのか、<br />その答えが繋がっていく様を見て理解した時のしっくり来る感じが素晴らしいと思います。<br />
+★他にはない何かがある。<br />
+    ★屍術師を取り扱った短編だが、そうスプラッタではなく演出が詩的。<br />よくまとまっていて文章も読みやすく、質が高い。<br />柔和なブラックバイソンというギャップも乙である。<br />
+    ★作者さんの個性が滲み出るような良見るゲでした。こういうバイソンいいなぁ。</td>
+          </tr>
+  <tr>
+        <td><font size="2">11</font></td>
+		<td><img src="./icon/iconZZ.png"></td>
+          <td><font size="2"><a href="entry.11html">ウンコヴィック最後の闘い<font size="2"><br>UNKO</font></a></font>
+            <td>★主人公がトイレしかない絶海の孤島にいることの説明が作中でなされず、世界観にリアリティがない。
+              また引用した写真のトイレットペーパーが二段式で三角折りにされ、便器のボウルが異常に綺麗で使用感がないことからネットでテキトーに
+              拾ってきた画像であることが明らか、しかもウォシュレットつきのトイレを表示しながら、
+              トイレットペーパーでお尻を拭く方法しか説明しないなど時代錯誤も甚だしく、うんこ研究科を自称することに多大な疑問が残る。</td>
+          </tr>
+  <tr bgcolor="#ffccf7">
+        <td><font size="2">12</font></td>
+		<td><img src="./icon/icon12.png"></td>
+          <td><font size="2"><a href="entry12.html">MOSIMO TACTICS<font size="2"><br>池田超大作</font></a></font>
+            <td><a href="result01.html"><font size="5">★表彰会場へ★</font></a></td>
+          </tr>
+  <tr bgcolor="#ffccf7">
+        <td><font size="2">13</font></td>
+		<td><img src="./icon/icon13.png"></td>
+          <td><font size="2"><a href="entry13.html">もぐれケゴール洞窟<font size="2"><br>藻太郎</font></a></font>
+            <td><a href="result01.html"><font size="5">★表彰会場へ★</font></a></td>
+          </tr>
+  <tr>
+        <td><font size="2">14</font></td>
+		<td><img src="./icon/icon14.png"></td>
+          <td><font size="2"><a href="entry14.html">RTP食堂<font size="2"><br>雪島</font></a></font>
+            <td>★リナックスはそんなこと言わない。</td>
+          </tr>
+  <tr>
+        <td><font size="2">15</font></td>
+		<td><img src="./icon/icon15.png"></td>
+          <td><font size="2"><a href="entry15.html">主役キャラクターランキング2018<font size="2"><br>秋草</font></a></font>
+            <td>★鉄板メンツが不動でいつつも、他の採用率の移り変わりに情緒を感じる。<br />
+    ★俺が順位に入っていないことに驚いた</td>
+          </tr>
+  <tr>
+        <td><font size="2">16</font></td>
+		<td><img src="./icon/icon16.gif"></td>
+          <td><font size="2"><a href="entry16.html">THUNDER DRACO -勇者アレックスの野望-<font size="2"><br>ドロップ</font></a></font>
+            <td>★エフェクトが綺麗で操作性も良く、リプレイ機能まで付属。ボス前イベントもキャラ毎に楽しい。
+              個人的にはシューティングが得意ではないため難易度ORIGINALの存在もありがたい。
+              プレイヤーのことが良く考えられており非常にしっかりした作りという印象を受けた。<br />
+    ★自機の弾がﾍﾟﾍﾟﾍﾟﾍﾟﾍﾟという感じではなくデフォルトの広範囲＋キャラごとのαとリッチで爽快感が高い。
+              さらにライフ制なので横シューとしては有情なデザインで初心者でもストレスなく楽しめるようになっている。
+              ボスのアクションもなかなか個性的でスライムや豚がちゃんと陸の端から出てくるのも萌えポイント。<br />
+              ★一番低い難易度なら下手くそシューターでもクリアできました。<br />
+              ★複数の難易度が用意されていてSTG苦手な人から得意な人まで遊べる、と思う。 弾色の使い分けにより全体的に見やすく、背景も相まって綺麗。 ウィンディを選んでも自機の動きがやや遅めなのが気になるぐらい。<br />
+    ★横スクロールのシューティングゲームに慣れている人も初めての人にもオススメな良作。
+              クリアだけなら簡単だけどやり込もうと思えば一気に難しくなる絶妙なバランスに仕上がっています。
+              短い時間で爽快さを味わいたい方にオススメ。<br />
+              ★爽快なシューティングでした
+    </td>
+          </tr>
+  <tr>
+        <td><font size="2">18</font></td>
+		<td><img src="./icon/icon18.png"></td>
+          <td><font size="2"><a href="entry18.html">ファイナルもしもファイト<font size="2"><br>SHIKUKO</font></a></font>
+            <td>★繰り返しプレイしたくなる面白さや遊びやすさ、それにつれて腕前が少しずつ上達していく楽しさ、クリアできなかった難易度がクリアできた瞬間の喜び、そして難度上級のエンディングでの皆の幸せそうなひと時を見た感動。作中での文章は少なくても、救いたい世界、笑顔にしたい人々、報われて欲しい主人公がきちんと表現されているとても素晴らしい作品でした。もしもワールドよ永遠なれ！！<br />
+    ★難しい。初期難易度で満足した。攻撃後の硬直がなかなかクセモノ。 被弾を避けようとすると相手の攻撃を回避してから数発入れる形になり、そうすると今度は敵の耐久力の高さが目立つ。 しかしHPの高いボスを相手にしていてもダレないように、ランダム性があったり発狂パターンがあるので楽しめた。<br />
+              ★ドラゴンの突進の攻撃範囲が見た目より大きくてダメージも痛いのがつらかった。<br />
+              ★懐かしいクラシカルツクールアクションで安心感を覚えつつ楽しく遊ぶことができた（イキっていきなり中級難度で挑んだらニンニンとドラゴナスとドラゴン部屋に何回も虐殺され手に汗握ってはいた）<br />
+              ★VIPRPGへの風刺がピリリと効いた良作。難易度が高めなのもファミコンっぽくて個人的に良い。高難易度を攻略中。
+    </td>
+          </tr>
+  <tr bgcolor="#ffccf7">
+        <td><font size="2">19</font></td>
+		<td><img src="./icon/icon19.png"></td>
+          <td><font size="2"><a href="entry19.html">ksg8in1 2nd<font size="2"><br>かすていら</font></a></font>
+            <td><a href="result01.html"><font size="5">★表彰会場へ★</font></a></td>
+          </tr>
+  <tr>
+        <td><font size="2">20</font></td>
+		<td><img src="./icon/icon20.png"></td>
+          <td><font size="2"><a href="entry20.html">リハビリksg1<font size="2"><br>前業プ杏(64AA)</font></a></font>
+            <td>★テンポの良い演出、会話と哀愁ある雰囲気が好きです。すぐに終わってしまったけどなんとなく良いものを見た気分になりました。<br />
+    ★それが、彼女にとってもリハビリだったのか……<br />
+    ★少しずつでいいのでめげずに頑張ってください…
+    </td>
+          </tr>
+  <tr bgcolor="#ffccf7">
+        <td><font size="2">23</font></td>
+		<td><img src="./icon/icon23.png"></td>
+          <td><font size="2"><a href="entry.html">ぽてまお<font size="2"><br>風見ケイ＆ひしお</font></a></font>
+            <td><a href="result01.html"><font size="5">★表彰会場へ★</font></a></td>
+          </tr>
+  <tr bgcolor="#ffccf7">
+        <td><font size="2">24</font></td>
+		<td><img src="./icon/icon24.png"></td>
+          <td><font size="2"><a href="entry.html">【水産すげぇ】FREELY TOMORROW<font size="2"><br>chest</font></a></font>
+            <td><a href="result01.html"><font size="5">★表彰会場へ★</font></a></td>
+          </tr>
+  <tr>
+        <td><font size="2">26</font></td>
+		<td><img src="./icon/icon26.png"></td>
+          <td><font size="2"><a href="entry.html">万華郷　～りめいく～<font size="2"><br>FAH-Q（ふぁーきゅー）</font></a></font>
+            <td>★優しい世界観が魅力で、童心に帰ったような気分になれて良いシリーズだと思います。 今作も戦闘面などが分かりやすくなっていたり、サブキャラなども用意してあり色々と楽しめました。<br />
+              ★ありし日のコンパクにいそうな模範生でVIPRPG紅白の癒し系 派手さはないがプレイしてみると成程、物は反応が細かく設定され、NPCは親切で時代劇らしい語彙を使い、敵の攻略方法もわかりやすく、移動に束縛を若干感じることもあるが、未完ながら滋味に富んだ出来<br />
+              ★丁寧な作りなのに押し付けがましさがなく、RPGというジャンル自体に馴染みがなくとも問題ありません プレイヤーへの配慮が随所に感じられてものすごく遊びやすい作品です。 また登場人物も個性的で、特にNPCの妖怪は性格がほぼそのまま戦闘スタイルに反映されているので期間限定なのが惜しいくらいに魅力的  今回の祭りでは主人公の出生が分かるところで物語が終わってしまうので少々残念ではありますが、そこを差し引いても充分に楽しめるので一度は遊んで頂きたいです。 完成版に期待<br />
+              ★作者の作品への愛を感じた<br />
+              ★今回は体験版なので、前回の完成版と同じ位褒めるのはあれかもしれませんが相変わらずの素敵な世界観と、2015年版からの改良点が随所に見られるのが良かったです。一から素材を作られるのは大変だと思いますが応援しております。</td>
+          </tr>
+  <tr>
+        <td><font size="2">27</font></td>
+		<td><img src="./icon/iconZZ.png"></td>
+          <td><font size="2"><a href="entry27.html">FINAL ROMANCE RETURNS<font size="2"><br>TRICOGASTER(略称TRICO)</font></a></font>
+            <td>★酒場の地下のヘルプや重いエフェクトのスイッチなど作者の気遣いは所々見え、マップや戦闘アニメは他ゲーに決して劣らず、アイテム取得のエフェクトもちょっとおしゃれ しかし2k3のデフォ戦、ドタバタなのはいいがTKOOL-KOOLの顔グラが氾濫していた頃のなりチャか夢小説かといった脚本が工事中の部分を差し引いても複雑な心境にしてくれる 2kのデフォ顔グラがVIPRPGで真顔の属性を付加されているというコンテクストもまた辛さを煽る<br />
+              ★マップ作り、キャラクターの描写、会話イベントなどの丁寧さから深い拘りを感じました。これは作るのに時間がかかるのも納得と言える仕上がりです。メインPTだけでなくNPC個性が感じられるため個人的には非常に好みなのですが、正直に申し上げますと提出する場所を間違えたとしか思えません。説明文の長さ・15年前の個人サイトを垣間見れるかのようなテキスト・パロディの引用元、全てが古い。そういった意味でも最近ではまずお目にかかれないような出来栄えなので、体験版と言えどもいろんな意味で参考になる作品だと思います。メインであるタロットはそこまで興味がないので遊びませんでした。ごめんなさい。</td>
+          </tr>
+  <tr bgcolor="#ffccf7">
+        <td><font size="2">28</font></td>
+		<td><img src="./icon/icon28.png"></td>
+          <td><font size="2"><a href="entry28.html">なすなすデートシミュレーター2018<font size="2"><br>†暗黒の扁桃腺の聖騎士†</font></a></font>
+            <td><a href="result01.html"><font size="5">★表彰会場へ★</font></a></td>
+          </tr>
+  <tr bgcolor="#ffccf7">
+        <td><font size="2">29</font></td>
+		<td><img src="./icon/icon29.png"></td>
+          <td><font size="2"><a href="entry29.html">ウィンドⅠの伝説　ブレスオブザわてり<font size="2"><br>かねたれ</font></a></font>
+            <td><a href="result01.html"><font size="5">★表彰会場へ★</font></a></td>
+          </tr>
+  <tr>
+        <td><font size="2">30</font></td>
+		<td><img src="./icon/icon30.png"></td>
+          <td><font size="2"><a href="entry30.html">ハッチポッチ<font size="2"><br>ダークオルカ</font></a></font>
+            <td>★刀剣乱舞のキャラが欲しかったです<br />
+              ★うう…えぐ…<br />
+              ★全部分かる奴いんのかよこれｗｗｗｗｗｗｗｗｗｗ<br />
+    ★僕はえぐみクラスタの人間じゃないけどTLで散見するネタがあったので少しばかり理解できた。 これを機にダークネクロフィアとか遊んでみます。<br />
+    ★チーナルブレード！ 細っちい足蹴り！<br />
+    ★えぐみゲーを上げる事。それは一つの稼業、一つの正義として認められ、大手を振って堂々と、何にも憚らずに為せる業。 </td>
+          </tr>
+  <tr>
+        <td><font size="2">31</font></td>
+		<td><img src="./icon/icon31.png"></td>
+          <td><font size="2"><a href="entry31.html">平成クエスト<font size="2"><br>SNEP48</font></a></font>
+            <td>★00年代はラウンジやゲサロ、モナー板やニダー板、喪男板など2ch各板にツクスレが点在し、リレーや共同企画も様々に立ち上がっていた（完成形を見た試しがない）が、あのときの彼らは達者でやっているのだろうか？<br />
+    ★平成の大まかな流れがスラスラ読めた。 生きて体感した通りというべきか、ゲーム機の発展と一部の事件以外は、時代そのものが比較的落ち着いて地味。 昭和まで遡ってしまうと戦争が絡むため、平成は文字通り(比較的)平和が成就したのかもしれない。<br />
+    ★30年間の出来事を気軽に振り返ることができてお勧め。まさか、せがた三四郎が出てくるとは…</td>
+          </tr>
+  <tr>
+        <td><font size="2">32</font></td>
+		<td><img src="./icon/icon32.png"></td>
+          <td><font size="2"><a href="entry32.html">もしも紅葉舞い、雪降る時だったら<font size="2"><br>お姉さん大好きマン</font></a></font>
+            <td>★もうアーケンが尊すぎて無理…だって前より魔王軍になじんだなとか思ったらまた仲良くなってるし首元クールだし素顔肌白いし相変わらずの鈍感紳士だし本当に独身ですか？それにあんなに影の男だけど私にとっては光だしその隣に相方のムシャ立ってるし無理じゃん尊さでしにそう…<br />
+              ★ゴメスは髭面に生まれてしまった乙女だと信じていたのでメスになったゴメスがメスだからアレックスを掘れないと発言したことがたまらなく哀しくてトイレで夕食のほっけをしこたま吐いてしまった ああ、ゴメスはバリタチなんだ　アレゴメなんてなかったんだ こんな思いをするのなら花や草に生まれたかった<br />
+    ★まだ1年？？と思えるほどに完成された、それでいて暖かみのある世界。 登場人物は全て個性的でありながらも極端すぎるキャラ付けや不快さが感じられず、とても考えて作られた事が伝わってきます。 シリアスもギャグも最終的に良い感じに落ち着くため見ていて不安になったり疲れないのが有難い。 正直去年の段階でアーケンというキャラがここまでになろうとは想像もつきませんでした。今後に期待していきたいです<br />
+              ★短編集っていいですよね<br />
+              ★シリアスからギャグまで楽しく心地よく読み込める良いテンポの見るゲだった。 各話も好きだが、色んなキャラクターが出てくる紅葉狩り会？へ夫婦で向かう話が好き。<br />
+              ★ドラゴンが森林保護することに対するアーケンのコメントが印象に残っています
+    </td>
+          </tr>
+  <tr>
+        <td><font size="2">33</font></td>
+		<td><img src="./icon/icon33.png"></td>
+          <td><font size="2"><a href="entry33.html"><font size="2">もしもEl Shaddai: Ascension of the Metatron<br>ブリザルドのうんこしか食ってない</font></a></font>
+            <td>★エルシャダイのPVを垂れ流しているだけじゃないか…！<br />
+    ★ニコニコ動画で初音ミクと一緒に踊ってるおじさんという印象しかない</td>
+          </tr>
+  <tr>
+        <td><font size="2">34</font></td>
+		<td><img src="./icon/iconZZ.png"></td>
+          <td><font size="2"><a href="entry34.html">VTuberバトルロワイアル<font size="2"><br>おりおん</font></a></font>
+            <td>★vtuberを大々的に扱ったという意欲は買いたい ババアのインパクトが良いし結構面白い 完成したらvtuberがプレイしてくれるのだろうか？<br />
+              ★vtuberのアニメ面白いよね。 こういうもしもじゃないのもっと増えて欲しいな<br />
+              ★vtuber＆デスゲームという安直なキーワードが醸し出すヤバみとは裏腹に内容は往年のパロロワを彷彿とさせるシリアスな内容で先の展開が気になる ただウェイトが重く、要所々々ならともかく全編ぼちぼちの遅さでメッセージ速度の変更もないのでFATALMIXに手が出る<br />
+    ★SSで一発ネタかと思ったらしっかりバトロワやってて脱帽した マーダー連中の思考に一捻りあって面白い 投票段階ではまだ序盤しかできてないけど続きが楽しみです<br />
+              ★ロワだし男キャラもっと増やしてほしい ゲーム部の子がかっこいい<br />
+              ★えっちなキャラが多くていい<br />
+              ★いい感じの話でした
+    </td>
+          </tr>
+  <tr>
+        <td><font size="2">35</font></td>
+		<td><img src="./icon/iconZZ.png"></td>
+          <td><font size="2"><a href="entry35.html">baka korekution<font size="2"><br>ぬ</font></a></font>
+            <td>★俺らのスピブレちゃんの正体がチェルシーおばさんってこマ？ クソッ……壁殴っちまった……<br />
+              ★見るゲもデフォ戦も色々参考になりそうで面白かったです。<br />
+    ★この作者にしか出せない高火力技ギャグだと思う。今後も楽しみにしてます。</td>
+          </tr>
+  <tr>
+        <td><font size="2">36</font></td>
+		<td><img src="./icon/icon36.png"></td>
+          <td><font size="2"><a href="entry36.html">みぬゲーム<font size="2"><br>南蛮仙次</font></a></font>
+            <td>★まさしく発想の勝利。<br />
+    ★まず最初のスイッチ2.wav*3がわからない<br />
+    ★一発ネタだけど良かった<br />
+★SSがシンプルなのも納得の内容（いい意味で）</td>
+          </tr>
+  <tr>
+        <td><font size="2">37</font></td>
+		<td><img src="./icon/icon37.png"></td>
+          <td><font size="2"><a href="entry37.html">メイジの暇潰死<font size="2"><br>メイジファンＳド</font></a></font>
+            <td>★もう嫌！こんな、ゲーム...クソよ！！！！！！<br />
+    ★あのメイジの新作！？と思ってプレイしましたが、まさかの予想できない展開に爆笑しました メイジファンの私としては 作品のネタもありましたし良かったと思います<br />
+    ★メイジのファンゲームだけどうんまあひどいね こんな意味不明な作者でもメイジを遊んでることに感動した 誰にでも分かりやすいネタという意味ではまだ面白い方か<br />
+    ★普段VIPRPGやらないのですが笑った<br />
+    ★まさか、私たちのメイジがこうなるなんて vipにはビックリしました！<br />
+★ラドさんて何してても尊いのは自明の理なんだけど次元の狭間で転生しても絶対美しいから凄くない？<br />
+    ★ラドが印象に残りすぎる
+    </td>
+          </tr>
+  <tr>
+        <td><font size="2">38</font></td>
+		<td><img src="./icon/icon38.png"></td>
+          <td><font size="2"><a href="entry38.html">スーパーごちうさＲＰＧ<font size="2"><br>ナインボルト</font></a></font>
+            <td>★笑えるクソゲーというか酷いクソゲー 主人公が人間の屑<br />
+    ★変なゲームだけど、意外と面白いかも。 キャラクターの思想がヤバイです。<br />
+    ★ごちうさSSによくあるキチってる話をそのままゲームにした感じのひどさ。<br />
+    ★今回のキャラ部門はこのゲームのココア様の為の部門だと思った<br />
+    ★ひでえ ○ンコの汎用性</td>
+          </tr>
+  <tr>
+        <td><font size="2">39</font></td>
+		<td><img src="./icon/iconZZ.png"></td>
+          <td><font size="2"><a href="entry39.html">乳首ファンタジー　~The Legend of Tikubi~<font size="2"><br>mm</font></a></font>
+            <td>★SSでもすでにチクビ色出してたのにやられた<br />
+    ★四つの乳首で快感も二倍だな（ローグギャラクシー）</td>
+          </tr>
+  <tr bgcolor="#ffccf7">
+        <td><font size="2">40</font></td>
+		<td><img src="./icon/icon40.png"></td>
+          <td><font size="2"><a href="entry40.html">もしもツクラーだったら<font size="2"><br>れーえ</font></a></font>
+            <td><a href="result01.html"><font size="5">★表彰会場へ★</font></a></td>
+          </tr>
+  <tr>
+        <td><font size="2">41</font></td>
+		<td><img src="./icon/icon41.png"></td>
+          <td><font size="2"><a href="entry41.html">波動拳セイントシスターズ2003<font size="2"><br>イグサ</font></a></font>
+            <td>★本編より3.5章の方が面白かった<br />
+              ★ちくわ大明神<br />
+              ★今作はさすがに評価できません 次回作に期待します</td>
+          </tr>
+  <tr>
+        <td><font size="2">43</font></td>
+		<td><img src="./icon/icon43.png"></td>
+          <td><font size="2"><a href="entry43.html">On a linux<font size="2"><br>雷塵</font></a></font>
+            <td>★ドットを作成しているのはえらい<br />
+    ★スライムなぬるぬるしているし、とてもいいぞ……<br />
+    ★ほこグラHは素晴らしいものだから是非そのまま突き抜けて欲しい。
+    </td>
+          </tr>
+  <tr>
+        <td><font size="2">44</font></td>
+		<td><img src="./icon/icon44.png"></td>
+          <td><font size="2"><a href="entry44.html">す<font size="2"><br>す</font></a></font>
+            <td>★総務省統計局によると全国のスマブラおじさんのおよそ27％がDXピーチで精通している<br />
+   ★F12「すっ…」<br />
+              ★提出した勇気に票を贈りたい<br />
+              ★音合わせksgは祭りの華よ<br />
+    ★いいじゃないｋｓｇでもツクスレだものすっすっすーすっすっすすまぶら</td>
+          </tr>
+  <tr>
+        <td><font size="2">45</font></td>
+		<td><img src="./icon/icon45.png"></td>
+          <td><font size="2"><a href="entry45.html">I is WORLD 第1章　～灰色の霧～<font size="2"><br>（Ｒ）ＤＵ</font></a></font>
+            <td>★もしもシリーズのキャラクターをうまく使っておりシリアスに味付けしてあります。レベルアップの項目が独特で好きです。 まだ途中ですが、会話が多いＲＰＧというのは好きなのでこれから進めるのが楽しみな一作です。<br />
+    ★ファイアⅠは可愛く、ある程度まとめられたリソースやMFのガッツにも似たcon、ポイント割り振りの成長（項目の説明は多少欲しい）など面白い要素はあるが 導線に乏しいマップ、シンボル＆ランダム併用のエンカウント、逃走の成功率の低さ、セーブ制限、移動手段の乏しさなど、複合的しんどさがこみ上げる 快適即ち善しというわけではないが不便さを上回ってくるものがないとちょっと苦しい<br />
+    ★ちょっと粗いけどコンセプトに可能性を感じた システムも斬新 改良を加えていけば良作になると思う。作者頑張れ</td>
+          </tr>
+  <tr>
+        <td><font size="2">46</font></td>
+		<td><img src="./icon/iconZZ.png"></td>
+          <td><font size="2"><a href="entry46.html">ミニマップサンプル<font size="2"><br>きらきー</font></a></font>
+            <td>★参考に…できるのかこれ？<br />
+    ★オチは予想通りなようで意外なようで<br />
+    ★これで方眼紙と替え芯を節約できます</td>
+          </tr>
+  <tr>
+        <td><font size="2">47</font></td>
+		<td><img src="./icon/iconZZ.png"></td>
+          <td><font size="2"><a href="entry47.html">Möwius<font size="2"><br>humanworld</font></a></font>
+            <td>★立ち絵は美麗、マップもしっかり、演出も良く、リナメビの百合ゲーとしてはふつうにニヤニヤできる 一方、自作戦闘の戦略性が高そうでそうでもなく、ボス戦は勝利条件がよくわからないまま勝ち、回復アイテムしかないので宝箱を開ける楽しみが弱く、マウス操作前提で探索中断とダッシュが同じキーであったり、リナメビ以外の台詞の切り替えがわかりにくかったり、場面切り替えの暗転の前にホコグラがしばしば動いていたり、デフォ戦画面がちらりと見えたり、塔の道を戻れなくて再探索もできなかったり、小骨が喉に引っかかる印象は否めない</td>
+          </tr>
+  <tr bgcolor="#ffccf7">
+        <td><font size="2">48</font></td>
+		<td><img src="./icon/iconZZ.png"></td>
+          <td><font size="2"><a href="entry48.html">日がえりポテチクエスト<font size="2"><br>KC.R</font></a></font>
+            <td><a href="result01.html"><font size="5">★表彰会場へ★</font></a></td>
+          </tr>
+  <tr>
+        <td><font size="2">49</font></td>
+		<td><img src="./icon/icon49.png"></td>
+          <td><font size="2"><a href="entry49.html">生まれなかった子供たちへ<font size="2"><br>下郎紳士ゲゲゾミ</font></a></font>
+            <td>★来年の提出もがんばって<br />
+              ★「今度は落とさないでね」<br />
+              ★無事に名前が決まりますように… 可愛いし結構好きなので期待しています。</td>
+          </tr>
+  <tr bgcolor="#ffccf7">
+        <td><font size="2">51</font></td>
+		<td><img src="./icon/iconZZ.png"></td>
+          <td><font size="2"><a href="entry51.html">エターナリ草<font size="2"><br>のろし</font></a></font>
+            <td><a href="result01.html"><font size="5">★表彰会場へ★</font></a></td>
+          </tr>
+  <tr>
+        <td><font size="2">52</font></td>
+		<td><img src="./icon/icon52.png"></td>
+          <td><font size="2"><a href="entry52.html">魔法具現化全書<font size="2"><br>なんか。</font></a></font>
+            <td>★これはいいドット絵、図鑑として眺めるだけでもワクテカできる 本編のRPGにも期待<br />
+    ★お気に入りの仲魔はデビチルのアリアンフロッドです<br />
+    ★メガテン風モングラてんこ盛りでありがたい…。 ページめくりの種類が少なかったので直接キャラページに飛べる一覧でもあれば最高だった。</td>
+          </tr>
+  <tr bgcolor="#ffccf7">
+        <td><font size="2">54</font></td>
+		<td><img src="./icon/iconZZ.png"></td>
+          <td><font size="2"><a href="entry54.html">青いやつと赤いやつ<font size="2"><br>脳内住民</font></a></font>
+            <td><a href="result01.html"><font size="5">★表彰会場へ★</font></a></td>
+          </tr>
+  <tr>
+        <td><font size="2">55</font></td>
+		<td><img src="./icon/iconZZ.png"></td>
+          <td><font size="2"><a href="entry55.html">ヤミーズウェーブ　読みきり版<font size="2"><br>ジャスティス</font></a></font>
+            <td>★少年誌のギャグ漫画にありそうなカオスさに笑<br />
+              ★同作者氏のゲームの中で今作がベストと思う。時折飛び抜けて面白い瞬間がある<br />
+              ★ウェイトがほぼないのでテンポは良く、セリフも切れ味の良いものが所々あるはずだが、メリハリがなく、ボーボボを目指したらチャゲチャになってしまったみたいな哀しみを帯びている</td>
+          </tr>
+  <tr>
+        <td><font size="2">58</font></td>
+		<td><img src="./icon/icon58.png"></td>
+          <td><font size="2"><a href="entry58.html">地獄FXおぼなす<font size="2"><br>脂はむ</font></a></font>
+            <td>★FXって怖いね<br />
+              ★衝撃の実話やめろ。<br />
+              ★泣かないで<br />
+              ★元気出して<br />
+              ★可哀想に……強く生きて……<br />
+              ★やみっちがかわいかった<br />
+    ★ツーサイドアップ右の1ドットの#FFFFFFが気になって夜も眠れない</td>
+          </tr>
+
+          </tr>
+        </table>
+        <p><b>
+           
+          </b>
+         </p>
+<br>
+
+<p>
+		<tr>
+          <td align="center">
+<span class="med">
+
+</span>
+ </td>
+</tr><br />
+         </p>
+
+         
+      </div><!-- /#main -->
+   </div><!-- /#contents -->
+   <div id="pageTop">
+      <a href="#top">ページのトップへ戻る</a>
+   </div><!-- /#pageTop -->
+   <div id="footer">
+   </div><!-- /#footer -->
+</div><!-- /#top -->
+<script><!--
+var fc2footerparam = 'ver=1'
+    + '&url=' + encodeURIComponent(document.location)
+    + '&service=0'
+    + '&r=' + Math.floor(Math.random() * 99999999999);
+var fc2footertag = "//vip.chps-api.fc2.com/apis/footer/?" + fc2footerparam;
+var script = document.createElement('script');
+script.src = fc2footertag;
+script.charset = "UTF-8";
+script.async = true;
+document.getElementsByTagName('head')[0].appendChild(script);
+//--></script>
+<!-- FC2, inc.-->
+<img src="//media.fc2.com/counter_img.php?id=50" style="display:none" alt="inserted by FC2 system" width="0" height="0">
+<!-- FC2, inc.--></body>
+</html>

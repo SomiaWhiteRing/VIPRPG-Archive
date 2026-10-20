@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2018-kouhaku",
+  "activeFestival": "2018-summer",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -2013,6 +2013,30 @@
         "catch/2018-gw-2/investigation/local-http-payloads.json"
       ],
       "notes": "完整校对32项目录，原介绍仅取回01、05；其余30份介绍在已查原站／官方镜像CDX中未取得，明确保留待查，不算原文恢复。日本节点复核原站、FC2镜像均连接失败；社区祭典索引另列公开Mega备份，已只读核对29个游戏ZIP的元数据，没有网站文件，未下载游戏包。香港取得11份原HTML捕获及43图片，54份逻辑载荷全部核对SHA-256／CDX SHA-1；一份目录CDX对应4195字节gzip载荷，解压后与21047字节正文完全相同。9份EUC-JP与2份Shift_JIS分别正确解码，解决旧缓存乱码。保留32既有ID、编号和题名含义，目录元数据及30条配布入口逐项比对；两份完整作者留言直接归档，无新增受限、无主办留言编造。05目录／早期介绍的类型与配信两处差异都保留，整理版以目录信息为主。恢复32图标、3张实证截图与1横幅；横幅和旧文件字节一致。旧4画廊引用中3份对应本次来源，13号旧GIF来源未能核验，原文件保留；13.html旧缓存实为Internet Archive门户，排除出有效详情。05的第二张切换图仍未取得，保留正常图与明确缺口说明。30份待查详情以原介绍布局提供完整编号、目录元数据、图标、配布／感想入口及固定未取得说明，并非内容受限。原貌79文件／36HTML（6份来源页面、30份明确生成的待查页），182静态引用加3悬停引用无缺失或外部自动加载。窄菜单384px说明移出，1130px原标志按945px主框架缩放；菜单原base target=cont在移除base时丢失，造成目录覆盖菜单本身，共用修复592ec38e已单独提交。32整理详情、32原貌详情及首页／目录／菜单桌面检查通过；实际沙箱菜单保留、目录进入主框架、待查13进入及返回、真实01进入均验证，01悬停、整理查看器和首页末项往返通过。115展示文件HTTP/SHA一致，构建4206页、lint和数据校验通过。未审看条目题材或像素内容，未下载或运行游戏包。"
+    },
+    {
+      "festivalId": "2018-kouhaku",
+      "reviewedAt": "2026-10-21",
+      "dataSha256": "06383b27a9749ae50bcf4bd82bab3103919f5d0d48ba0180ee7a7649b699a717",
+      "works": 61,
+      "screenshotFiles": 94,
+      "status": "reviewed",
+      "sourceEvidence": [
+        "catch/2018-kouhaku/recovery.json",
+        "catch/2018-kouhaku/source-comparison.json",
+        "catch/2018-kouhaku/source/live/manifest.json",
+        "catch/2018-kouhaku/source/resources/manifest.json",
+        "catch/2018-kouhaku/investigation/proxy-region.json",
+        "catch/2018-kouhaku/investigation/old-gallery-reconciliation.json",
+        "catch/2018-kouhaku/investigation/navigation-source-review.json",
+        "catch/2018-kouhaku/investigation/entry-backlink-probe.json",
+        "catch/2018-kouhaku/investigation/replay-closure.json"
+      ],
+      "desktopEvidence": [
+        "catch/2018-kouhaku/desktop-review.json",
+        "catch/2018-kouhaku/investigation/local-http-payloads.json"
+      ],
+      "notes": "日本节点直接读取仍可用源站viprpgmsmkohaku2018.web.fc2.com，64份UTF-8 HTML（入口、00样例／60正式介绍及两结果页）与163项展示依赖全部HTTP200并保存原始载荷，227份载荷SHA核对。61既有ID、编号和题名保持；122处完整作者／管理人留言与目录元数据逐项比对，无遗漏。原keyword字段直接归档不审看或用于筛选，投票字段及44项更新履历保持原文；14项目录／介绍元数据差异并列保留。源目录是单一61项表，无分组列或分组段落，详情也无分组字段，不凭“红白”祭典名补造分组。61图标、94截图及1横幅均按实际格式归档，旧94画廊载荷与横幅全部字节对应。恢复49项主配布入口及总计100条目录／原介绍地址，旧Yahoo Box与目录Google Drive两种来源分别保留，不声称游戏文件现可下载；00样例指向首页的DL模板未当成配布地址。保留源站jQuery／common本地脚本，移除81处同一FC2托管脚本及计数器。原貌227文件、64HTML、1029静态引用加86悬停引用无缺失或外部自动加载。结果总览原返回entry.html直读404，展示副本改回index.html#gamelist；原响应保留。真实点击证明旧Safari分支对body动画而当前HTML才是滚动元素，回放脚本改用document.scrollingElement后同一锚点从0实际滚至168，目标距顶0.3px；原JS字节不变。61整理详情及64原貌文档桌面无坏图／横向溢出，一项30号首读延迟图复核正常；结果返回、样例到正式01、00截图悬停、实际沙箱锚点及目录进入60、查看器切换／关闭／Esc与首页61项／61图标／1横幅、末项往返均通过。383展示文件HTTP载荷与本地SHA一致；构建4207页、lint与数据校验通过。未新增受限，未审看题材或像素内容，未下载或运行游戏包。"
     }
   ],
   "originalViewsReviewed": [
@@ -2473,6 +2497,13 @@
       "evidence": [
         "catch/2018-gw-2/original-view.json",
         "catch/2018-gw-2/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2018-kouhaku",
+      "evidence": [
+        "catch/2018-kouhaku/original-view.json",
+        "catch/2018-kouhaku/desktop-review.json"
       ]
     }
   ],
