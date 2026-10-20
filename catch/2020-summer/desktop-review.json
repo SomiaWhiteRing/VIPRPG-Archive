@@ -1,0 +1,72 @@
+{
+  "festivalId": "2020-summer",
+  "reviewedAt": "2026-10-20",
+  "scope": "desktop-only",
+  "method": "Read-only DOM geometry and image load state, real Playwright navigation clicks, native CDP mouse input. No topic or pixel screening.",
+  "organized": {
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    },
+    "details": 47,
+    "brokenImages": [],
+    "overflow": [],
+    "initialPendingPages": 4,
+    "pendingResolved": true,
+    "home": {
+      "rows": 47,
+      "icons": 47,
+      "banners": 1,
+      "allLoaded": true,
+      "returnExpanded": true
+    },
+    "viewer": {
+      "open": true,
+      "next": true,
+      "close": true,
+      "largeImages07BothVerified": true
+    }
+  },
+  "original": {
+    "standaloneViewport": {
+      "width": 1183,
+      "height": 638
+    },
+    "html": 49,
+    "brokenImages": [],
+    "overflow": [],
+    "catalogueImageReferences": 125,
+    "allCatalogueImagesLoaded": true,
+    "actualSandboxWidth": 1185,
+    "sandbox": "allow-scripts",
+    "navigation": [
+      "official migration notice to captured catalogue",
+      "catalogue to source sample00",
+      "00 previous to46",
+      "46 next to00",
+      "TOP returns47-entry catalogue",
+      "12 and16 empty download anchors explicitly disabled"
+    ],
+    "hover": {
+      "page": "entry01.html",
+      "before": "img/ss/ss01.png",
+      "over": "img/ss/ss01b.png",
+      "out": "img/ss/ss01.png"
+    },
+    "fixes": [
+      {
+        "pages": [
+          "entry07.html",
+          "entry18.html"
+        ],
+        "naturalImageWidth": 1280,
+        "renderedImageWidth": 1151,
+        "documentClientWidth": 1168,
+        "documentScrollWidth": 1168,
+        "method": "Constrain source images to desktop viewport width and retain aspect ratio."
+      }
+    ]
+  },
+  "packageBytesValidated": false,
+  "notes": "日本出口先读取仍可用的旧源站，其正式公告明确迁移到Neocities；迁移公告、现行目录及47个介绍页共49份HTML、1份CSS和116份图片原始载荷均保存并核对SHA。47个既有ID、编号和题名保持，00样例的空白详情元数据与目录资料分别保留。68张显示／悬停截图及本祭横幅与旧文件全部逐字节对应，47处图标完整恢复。作者留言及管理人评论／感想分别按标签恢复，47项全文结构比对无遗漏；6项目录／详情的元数据差异并列保留。恢复35项实际配布入口，12、16号原DL栏URL为空，明确注明并停用空链接；00两种来源试玩链接分别保留，浏览器游戏数据未抓取或执行。原貌166文件、49份HTML、583本地引用含悬停目标，无缺失或外部自动加载。07、18号1280px原图按桌面可用宽度缩放，原始缓存不变。47整理详情和49原貌文档通过桌面图片及宽度检查；4项首读延迟图复核正常，07两张图已实际打开查看器。迁移公告到47项目录、00与46环形相邻导航、目录返回、12／16空链接说明、原生悬停往返和截图查看器切换／关闭均验证。首页47项目录、47图标与1横幅全部加载，末项跳转及返回保持展开通过。282展示文件HTTP载荷与本地SHA一致。无题材或像素筛选，无新增受限，未下载或运行游戏包。"
+}

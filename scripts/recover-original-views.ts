@@ -9,6 +9,15 @@ import { rewrite2020Script, snapshot2020Script, root2020Script } from './source-
 import { rewriteSummer2012Source } from "./source-2012-summer-view";
 
 const configurations: Record<string, { base: string; entry?: string; manifests: string[]; seeds: Record<string, string>; seedUrls?: Record<string, string>; cgiProfile?: boolean; encoding?: string; encodingOverrides?: Record<string, string>; liveSource?: boolean; disabledLocalLinks?: string[]; externalResources?: Record<string, string>; preserveExternalExtensions?: string[]; frames?: { menuPage: string; menuName: string; mainName: string } }> = {
+  "2020-summer": {
+    base: "https://vipfesarc.neocities.org/s2020/",
+    entry: "landing.html",
+    manifests: ["source/replay/manifest.json"],
+    seeds: {},
+    encoding: "utf-8",
+    liveSource: true,
+    preserveExternalExtensions: [".zip", ".rar", ".7z", ".exe"],
+  },
   "2020-kouhaku": {
     base: "https://viprpg2020kohaku.xxxxxxxx.jp/",
     manifests: ["source/replay/manifest.json"],
@@ -481,7 +490,7 @@ async function main() {
       sharedHeaderTargets.push(local ? `/original-pages/${id}/${local}${url.search}${url.hash}` : url.href);
     });
   }
-  if (["2020-kouhaku", "2020-gw", "2021-summer", "2021-kouhaku", "2021-gw", "2022-summer", "2022-kouhaku", "2022-gw", "2023-winter", "2023-summer", "2023-kouhaku", "2023-gw", "2024-summer", "2024-kuradashifestival", "2024-kouhaku", "2024-gw", "2025-gw", "2025-summer"].includes(id) || id === "2006-kouhaku" || id === "2012-toppuu-festival" || id === "2011-toppatsu-festival" || id === "2008-jisaku-battle-festival" || id === "2010-gw" || id === "2010-kouhaku" || id === "2010-summer") config.externalResources = recovery.originalResources;
+  if (["2020-summer", "2020-kouhaku", "2020-gw", "2021-summer", "2021-kouhaku", "2021-gw", "2022-summer", "2022-kouhaku", "2022-gw", "2023-winter", "2023-summer", "2023-kouhaku", "2023-gw", "2024-summer", "2024-kuradashifestival", "2024-kouhaku", "2024-gw", "2025-gw", "2025-summer"].includes(id) || id === "2006-kouhaku" || id === "2012-toppuu-festival" || id === "2011-toppatsu-festival" || id === "2008-jisaku-battle-festival" || id === "2010-gw" || id === "2010-kouhaku" || id === "2010-summer") config.externalResources = recovery.originalResources;
   const sourceDetailGapPaths = new Set<string>((recovery.sourceDetailGaps ?? []).map((gap: { sourcePath: string }) => gap.sourcePath));
   const unavailableSourcePagePaths = new Set<string>((recovery.unavailableSourcePages ?? []).map((gap: { sourcePath: string }) => gap.sourcePath));
   const previousMissing: Array<{ url: string; requestedUrl?: string; error: string }> = JSON.parse(await fs.readFile(`${root}/original-view.json`, "utf8").catch(() => "{}")).missingResources ?? [];
@@ -541,6 +550,7 @@ async function main() {
   function localReference(value: string, owner: string, local: string) {
     if (/^(?:data:|javascript:|mailto:)/i.test(value) || value.startsWith("#")) return value;
     const url = new URL(value, owner);
+    if (id === "2020-summer" && url.href === "https://vipfesarc.neocities.org/s2020/entry00/index.html") return url.href;
     if (config.preserveExternalExtensions?.some((extension) => url.pathname.toLowerCase().endsWith(extension.toLowerCase()))) return url.href;
     const target = enqueue(value, owner);
     return target ? (path.posix.relative(path.posix.dirname(local), target) || path.posix.basename(target)) + (config.cgiProfile && url.pathname.endsWith("/profile.cgi") ? "" : url.search) + url.hash : url.href;
@@ -625,6 +635,13 @@ async function main() {
       if (/\.(?:png|jpe?g|gif|bmp|webp|avif|ico)$/i.test(local)) imageExtension(bytes);
       if (/\.html?$/i.test(local)) {
         const $ = cheerio.load(decodeSource(bytes, resourceEncoding));
+        if (id === "2020-summer") {
+          $('script,noscript,iframe,form,object,embed').remove();
+          if (/^entry\d+\.html$/.test(local)) $('head').append('<style data-archive-desktop-fit>#entry img{max-width:calc(100vw - 32px);height:auto}</style>');
+          $('a[href=""]').filter((_, a) => /ダウンロード|【DL/.test($(a).text())).removeAttr('href').attr('aria-disabled', 'true').append('［原URL未記載］');
+          $('img[onmouseover],img[onmouseout]').each((_, element) => { for (const attr of ['onmouseover', 'onmouseout']) { const value = $(element).attr(attr); if (value) $(element).attr(attr, value.replace(/(this\.src\s*=\s*)(['"])([^'"]+)\2/g, (_, prefix, quote, url) => prefix + quote + new URL(url, original).href + quote)); } });
+          compatibilityFixes.push({page:local,change:'Retain the official migration notice, migrated source catalogue, native hover switching and labelled organizer comment/review. Keep the browser-game link external without fetching or executing its game files; remove hosting scripts.'});
+        }
         if (id === "2020-kouhaku") {
           $("script,noscript,iframe,form,object,embed").remove();
           if (/^entry\d+\.html$/.test(local)) $('head').append('<style data-archive-desktop-fit>#entry img{max-width:calc(100vw - 32px);height:auto}</style>');

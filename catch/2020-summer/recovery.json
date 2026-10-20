@@ -1,0 +1,2162 @@
+{
+  "festivalId": "2020-summer",
+  "originalBase": "https://vipfesarc.neocities.org/s2020/",
+  "liveSource": true,
+  "proxyRegion": "Japan",
+  "sourceManifests": [
+    "source/replay/manifest.json"
+  ],
+  "originalResources": {
+    "https://vipfesarc.neocities.org/s2020/entry00.html": "entry00.html",
+    "https://vipfesarc.neocities.org/s2020/": "index.html",
+    "https://vipfesarc.neocities.org/s2020/entry01.html": "entry01.html",
+    "https://vipfesarc.neocities.org/s2020/entry02.html": "entry02.html",
+    "https://vipfesarc.neocities.org/s2020/entry04.html": "entry04.html",
+    "https://vipfesarc.neocities.org/s2020/entry05.html": "entry05.html",
+    "https://vipfesarc.neocities.org/s2020/entry03.html": "entry03.html",
+    "https://vipfesarc.neocities.org/s2020/entry06.html": "entry06.html",
+    "https://vipfesarc.neocities.org/s2020/entry07.html": "entry07.html",
+    "https://vipfesarc.neocities.org/s2020/entry09.html": "entry09.html",
+    "https://vipfesarc.neocities.org/s2020/entry10.html": "entry10.html",
+    "https://vipfesarc.neocities.org/s2020/entry11.html": "entry11.html",
+    "https://vipfesarc.neocities.org/s2020/entry12.html": "entry12.html",
+    "https://vipfesarc.neocities.org/s2020/entry08.html": "entry08.html",
+    "https://vipfesarc.neocities.org/s2020/entry15.html": "entry15.html",
+    "https://vipfesarc.neocities.org/s2020/entry13.html": "entry13.html",
+    "https://vipfesarc.neocities.org/s2020/entry16.html": "entry16.html",
+    "https://vipfesarc.neocities.org/s2020/entry14.html": "entry14.html",
+    "https://vipfesarc.neocities.org/s2020/entry18.html": "entry18.html",
+    "https://vipfesarc.neocities.org/s2020/entry19.html": "entry19.html",
+    "https://vipfesarc.neocities.org/s2020/entry17.html": "entry17.html",
+    "https://vipfesarc.neocities.org/s2020/entry20.html": "entry20.html",
+    "https://vipfesarc.neocities.org/s2020/entry22.html": "entry22.html",
+    "https://vipfesarc.neocities.org/s2020/entry23.html": "entry23.html",
+    "https://vipfesarc.neocities.org/s2020/entry24.html": "entry24.html",
+    "https://vipfesarc.neocities.org/s2020/entry25.html": "entry25.html",
+    "https://vipfesarc.neocities.org/s2020/entry21.html": "entry21.html",
+    "https://vipfesarc.neocities.org/s2020/entry26.html": "entry26.html",
+    "https://vipfesarc.neocities.org/s2020/entry27.html": "entry27.html",
+    "https://vipfesarc.neocities.org/s2020/entry29.html": "entry29.html",
+    "https://vipfesarc.neocities.org/s2020/entry31.html": "entry31.html",
+    "https://vipfesarc.neocities.org/s2020/entry30.html": "entry30.html",
+    "https://vipfesarc.neocities.org/s2020/entry32.html": "entry32.html",
+    "https://vipfesarc.neocities.org/s2020/entry34.html": "entry34.html",
+    "https://vipfesarc.neocities.org/s2020/entry35.html": "entry35.html",
+    "https://vipfesarc.neocities.org/s2020/entry37.html": "entry37.html",
+    "https://vipfesarc.neocities.org/s2020/entry36.html": "entry36.html",
+    "https://vipfesarc.neocities.org/s2020/entry38.html": "entry38.html",
+    "https://vipfesarc.neocities.org/s2020/entry40.html": "entry40.html",
+    "https://vipfesarc.neocities.org/s2020/entry39.html": "entry39.html",
+    "https://vipfesarc.neocities.org/s2020/entry41.html": "entry41.html",
+    "https://vipfesarc.neocities.org/s2020/entry33.html": "entry33.html",
+    "https://vipfesarc.neocities.org/s2020/entry42.html": "entry42.html",
+    "https://vipfesarc.neocities.org/s2020/entry43.html": "entry43.html",
+    "https://vipfesarc.neocities.org/s2020/entry45.html": "entry45.html",
+    "https://vipfesarc.neocities.org/s2020/entry46.html": "entry46.html",
+    "https://vipfesarc.neocities.org/s2020/entry44.html": "entry44.html",
+    "https://vipfesarc.neocities.org/s2020/styles.css": "styles.css",
+    "https://vipfesarc.neocities.org/s2020/entry28.html": "entry28.html",
+    "https://viprpg2020s.xxxxxxxx.jp/": "landing.html",
+    "https://vipfesarc.neocities.org/s2020/img/icon/i00.png": "img/icon/i00.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss00.jpg": "img/ss/ss00.jpg",
+    "https://vipfesarc.neocities.org/s2020/img/icon/i01.png": "img/icon/i01.png",
+    "https://vipfesarc.neocities.org/s2020/img/icon/i02.png": "img/icon/i02.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss01.png": "img/ss/ss01.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss03.png": "img/ss/ss03.png",
+    "https://vipfesarc.neocities.org/s2020/img/icon/i03.png": "img/icon/i03.png",
+    "https://vipfesarc.neocities.org/s2020/Sea.gif": "Sea.gif",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss04.png": "img/ss/ss04.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss05.png": "img/ss/ss05.png",
+    "https://vipfesarc.neocities.org/s2020/img/icon/i04.png": "img/icon/i04.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss02.png": "img/ss/ss02.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss06.png": "img/ss/ss06.png",
+    "https://vipfesarc.neocities.org/s2020/img/icon/VXA.png": "img/icon/VXA.png",
+    "https://vipfesarc.neocities.org/s2020/img/icon/i07.png": "img/icon/i07.png",
+    "https://vipfesarc.neocities.org/s2020/img/icon/i08.png": "img/icon/i08.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss08.png": "img/ss/ss08.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss07.png": "img/ss/ss07.png",
+    "https://vipfesarc.neocities.org/s2020/img/icon/i09.png": "img/icon/i09.png",
+    "https://vipfesarc.neocities.org/s2020/img/icon/i05.png": "img/icon/i05.png",
+    "https://vipfesarc.neocities.org/s2020/img/icon/i10.png": "img/icon/i10.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss10.png": "img/ss/ss10.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss09.png": "img/ss/ss09.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss12.png": "img/ss/ss12.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss11.png": "img/ss/ss11.png",
+    "https://vipfesarc.neocities.org/s2020/img/icon/i13.png": "img/icon/i13.png",
+    "https://vipfesarc.neocities.org/s2020/img/icon/s2003.png": "img/icon/s2003.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss14.png": "img/ss/ss14.png",
+    "https://vipfesarc.neocities.org/s2020/img/icon/2000.png": "img/icon/2000.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss13.png": "img/ss/ss13.png",
+    "https://vipfesarc.neocities.org/s2020/img/icon/i15.gif": "img/icon/i15.gif",
+    "https://vipfesarc.neocities.org/s2020/img/icon/i16.png": "img/icon/i16.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss16.png": "img/ss/ss16.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss15.png": "img/ss/ss15.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss17.png": "img/ss/ss17.png",
+    "https://vipfesarc.neocities.org/s2020/img/icon/i18.png": "img/icon/i18.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss18.png": "img/ss/ss18.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss19.png": "img/ss/ss19.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss20.png": "img/ss/ss20.png",
+    "https://vipfesarc.neocities.org/s2020/img/icon/i19.png": "img/icon/i19.png",
+    "https://vipfesarc.neocities.org/s2020/img/icon/i21.png": "img/icon/i21.png",
+    "https://vipfesarc.neocities.org/s2020/img/icon/i20.png": "img/icon/i20.png",
+    "https://vipfesarc.neocities.org/s2020/img/icon/i17.png": "img/icon/i17.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss21.png": "img/ss/ss21.png",
+    "https://vipfesarc.neocities.org/s2020/img/icon/i22.jpg": "img/icon/i22.jpg",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss22.jpg": "img/ss/ss22.jpg",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss23.png": "img/ss/ss23.png",
+    "https://vipfesarc.neocities.org/s2020/img/icon/i24.gif": "img/icon/i24.gif",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss26.png": "img/ss/ss26.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss25.png": "img/ss/ss25.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss24.png": "img/ss/ss24.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss28.png": "img/ss/ss28.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss27.png": "img/ss/ss27.png",
+    "https://vipfesarc.neocities.org/s2020/img/icon/i29.png": "img/icon/i29.png",
+    "https://vipfesarc.neocities.org/s2020/img/icon/i26.png": "img/icon/i26.png",
+    "https://vipfesarc.neocities.org/s2020/img/icon/i23.jpg": "img/icon/i23.jpg",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss29.png": "img/ss/ss29.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss31.png": "img/ss/ss31.png",
+    "https://vipfesarc.neocities.org/s2020/img/icon/i32.png": "img/icon/i32.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss30.png": "img/ss/ss30.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss32.png": "img/ss/ss32.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss33.png": "img/ss/ss33.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss35.png": "img/ss/ss35.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss34.png": "img/ss/ss34.png",
+    "https://vipfesarc.neocities.org/s2020/img/icon/i35.png": "img/icon/i35.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss36.png": "img/ss/ss36.png",
+    "https://vipfesarc.neocities.org/s2020/img/icon/i33.png": "img/icon/i33.png",
+    "https://vipfesarc.neocities.org/s2020/img/icon/i36.png": "img/icon/i36.png",
+    "https://vipfesarc.neocities.org/s2020/img/icon/i37.png": "img/icon/i37.png",
+    "https://vipfesarc.neocities.org/s2020/img/icon/MZ.png": "img/icon/MZ.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss37.png": "img/ss/ss37.png",
+    "https://vipfesarc.neocities.org/s2020/img/icon/i39.gif": "img/icon/i39.gif",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss38.png": "img/ss/ss38.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss41.jpg": "img/ss/ss41.jpg",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss39.png": "img/ss/ss39.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss42.png": "img/ss/ss42.png",
+    "https://vipfesarc.neocities.org/s2020/img/icon/i42.png": "img/icon/i42.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss40.png": "img/ss/ss40.png",
+    "https://vipfesarc.neocities.org/s2020/img/icon/i43.png": "img/icon/i43.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss43.png": "img/ss/ss43.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss45.png": "img/ss/ss45.png",
+    "https://vipfesarc.neocities.org/s2020/img/icon/i45.png": "img/icon/i45.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss44.png": "img/ss/ss44.png",
+    "https://vipfesarc.neocities.org/s2020/img/icon/95.png": "img/icon/95.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss46.png": "img/ss/ss46.png",
+    "https://vipfesarc.neocities.org/s2020/img/icon/MV.png": "img/icon/MV.png",
+    "https://vipfesarc.neocities.org/s2020/img/icon/XP.png": "img/icon/XP.png",
+    "https://vipfesarc.neocities.org/s2020/img/icon/i40.png": "img/icon/i40.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss01b.png": "img/ss/ss01b.png",
+    "https://vipfesarc.neocities.org/s2020/img/icon/VX.png": "img/icon/VX.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss04b.png": "img/ss/ss04b.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss03b.png": "img/ss/ss03b.png",
+    "https://vipfesarc.neocities.org/s2020/img/icon/2003.png": "img/icon/2003.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss05b.png": "img/ss/ss05b.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss06b.png": "img/ss/ss06b.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss09b.png": "img/ss/ss09b.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss15b.png": "img/ss/ss15b.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss13b.png": "img/ss/ss13b.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss07b.png": "img/ss/ss07b.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss08b.png": "img/ss/ss08b.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss18b.png": "img/ss/ss18b.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss16b.png": "img/ss/ss16b.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss17b.png": "img/ss/ss17b.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss24b.png": "img/ss/ss24b.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss19b.png": "img/ss/ss19b.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss21b.png": "img/ss/ss21b.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss29b.png": "img/ss/ss29b.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss26b.png": "img/ss/ss26b.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss31b.png": "img/ss/ss31b.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss30b.png": "img/ss/ss30b.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss41b.jpg": "img/ss/ss41b.jpg",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss39b.png": "img/ss/ss39b.png",
+    "https://vipfesarc.neocities.org/s2020/img/back.avif": "img/back.avif",
+    "https://vipfesarc.neocities.org/s2020/img/back.jpg": "img/back.jpg",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss33b.png": "img/ss/ss33b.png",
+    "https://vipfesarc.neocities.org/s2020/img/ss/ss43b.png": "img/ss/ss43b.png",
+    "https://vipfesarc.neocities.org/s2020/index.html": "index.html"
+  },
+  "entries": [
+    {
+      "id": "2020-summer-00",
+      "no": "00",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry00.html",
+      "catalogueTitle": "サンプルページ",
+      "detailTitle": "サンプルページ",
+      "catalogueMetadata": {
+        "作者": "管理人",
+        "使用ツール": "MV",
+        "ジャンル": "SRPG",
+        "配信/投稿": "可/可"
+      },
+      "sourceMetadata": {
+        "作者": "",
+        "ジャンル": "",
+        "ツール": "",
+        "配信/投稿": "",
+        "作者コメント": "紅白のと紛らわしくなるので今から遊ぶ方はそっちからお願いします。\nこっちはこっちでブラウザ版として置いたままにしておきますので、お好みでどうぞ",
+        "管理人コメント": "全作品の感想はもうここでは書ききれないので、個人の感想としてスレに上げました。"
+      },
+      "metadataDifferences": [
+        {
+          "label": "作者",
+          "catalogue": "管理人",
+          "detail": ""
+        },
+        {
+          "label": "ジャンル",
+          "catalogue": "SRPG",
+          "detail": ""
+        },
+        {
+          "label": "ツール",
+          "catalogue": "MV",
+          "detail": ""
+        },
+        {
+          "label": "配信/投稿",
+          "catalogue": "可/可",
+          "detail": ""
+        }
+      ],
+      "sourceSample": true,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/i00.png",
+      "screenshotSources": [],
+      "hostImageSources": [],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-summer-01",
+      "no": "01",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry01.html",
+      "catalogueTitle": "名探偵カマソッソ 紙々の狂想曲 -MessengerText-",
+      "detailTitle": "名探偵カマソッソ 紙々の狂想曲 -MessengerText-",
+      "catalogueMetadata": {
+        "作者": "池田さん",
+        "使用ツール": "Steam2003",
+        "ジャンル": "サスペンス系クソバカ見るゲ",
+        "配信/投稿": "可/可"
+      },
+      "sourceMetadata": {
+        "作者": "池田さん",
+        "ジャンル": "サスペンス系クソバカ見るゲ",
+        "ツール": "Steam2003",
+        "配信/投稿": "可/可",
+        "作者コメント": "賑やかしに来ました。こんちわ。\n\t約１年半ぶりのシリーズ正統第７作目！\n\t今回は「カマソッソ総会配信」とかいう “視聴者参加型制作企画” を催し、参加者さん達のリクエストや案を基盤にして(ゴリ押しで)作品化しました。\n\tあと制作室が復活して、ツイッターとかで限定公開してた番外編や新規の掌編を６本収録。\n\tめっちゃ頭悪い作品だけど、遊んでみてネ。",
+        "管理人コメント": "視聴者参加型企画とな！？こいつぁまたハチャメチャな予感がプンプンするぜ…！",
+        "管理人の感想": "総プレイ時間は2~3時間。スペシャルものなので、最期や冬休みなどの過去作をプレイしてるとより楽しめます。\n今回は題材が題材なので過去作より内輪ネタがやや多いですが、なりふり構わないお祭り騒ぎ感が最高で危うく腹筋がもげるかと思いました。\n製作室で見られる闇鍋回とかもなかなかにイカれてるので、ぜひ実績を集めてげはげは笑いましょう。\nここだけの話自分もこっそり企画に参加していて真犯人も知っていたのですが、虫歯で頭が回らないシドやお化け屋敷でおかしくなったアグネファイア、\n微妙に使えそうで使えない残子の発明品、ソソ小の回想での天丼ギャグなどでツボってたら真犯人が誰だったかもいつの間にか忘れてて、\n自分も実質初見みたいな感じでとても楽しめました。\n夏の陣を賑やかしにきてくれて本当にありがとうカマソッソ！きっと夢も終わって暫くは会えないだろうけど、また零の世界から遊びにこいよ！"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/i01.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss01.png",
+          "local": "/screenshots/2020-summer/01-source-1.png",
+          "sha256": "dc0a61c416c04cc455b1134fbf0ff559468397da309c06e8931a0df66ae3c243"
+        },
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss01b.png",
+          "local": "/screenshots/2020-summer/01-source-2.png",
+          "sha256": "b900fd2f9f469edda15efefc7d5f093f1aaaa7359ca2cf4a7c9fca8080f57baa"
+        }
+      ],
+      "hostImageSources": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1NEi6VJGYdUMv9NkN6UQIT1omkZTiBjoj",
+          "label": "【DL(76.7MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-summer-02",
+      "no": "02",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry02.html",
+      "catalogueTitle": "魔法達がCoC～Assault of Innsmouth～",
+      "detailTitle": "魔法達がCoC～Assault of Innsmouth～",
+      "catalogueMetadata": {
+        "作者": "徳明",
+        "使用ツール": "Steam2003",
+        "ジャンル": "見るゲ",
+        "配信/投稿": "○/○"
+      },
+      "sourceMetadata": {
+        "作者": "徳明",
+        "ジャンル": "見るゲ",
+        "ツール": "Steam2003",
+        "配信/投稿": "○/○",
+        "作者コメント": "バーストⅡ達がクトゥルフ神話TRPGで遊ぶだけの見るゲです。\n自分を含めた他プレイヤー達による、実際にプレイしたシナリオのリプレイとなります。\n------------------------------------------------------------------------\nそろそろこの記事を描き上げてしまおう。\n液晶が音をたてている。何かつるつるした巨大なものが体をぶつけているかのような音を。\nしかし液晶を押し破ったところでわたしを見つけられはしない。\n\nいや、そんな！　あの手は何だ！　窓に！　窓に！\n\n　　　　　　　　　　　　　　　　　　　　　　―――探索者が遺した手記の末尾より",
+        "管理人コメント": "神話生物絶対殺すウーマンことバーストⅡ、今回はどれだけの馬鹿力を見せてくれるのだろうか？",
+        "管理人の感想": "【未提出により保留】"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/i02.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss02.png",
+          "local": "/screenshots/2020-summer/02-source-1.png",
+          "sha256": "67fc958941af47d3ea6ff46bc2bc4fc3d5f7af9d30b1b6e1743b7a1de619ea89"
+        }
+      ],
+      "hostImageSources": [],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-summer-03",
+      "no": "03",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry03.html",
+      "catalogueTitle": "アイスⅢと魔導士達の物語",
+      "detailTitle": "アイスⅢと魔導士達の物語",
+      "catalogueMetadata": {
+        "作者": "雨水梨",
+        "使用ツール": "2000",
+        "ジャンル": "見るゲ",
+        "配信/投稿": "どちらも可"
+      },
+      "sourceMetadata": {
+        "作者": "雨水梨",
+        "ジャンル": "見るゲ",
+        "ツール": "2000",
+        "配信/投稿": "どちらも可",
+        "作者コメント": "魔法具現化の存在に惹かれ、RTP大陸への移住を決意した異国の魔導士キリヅマ。\n再び現地に赴いた彼女は、王国の宮廷魔導師の一人であるキャロルのもとを訪ねる。\nキャロルから語られるのは、自身とアイスⅢ、そしてその周りの人物との思い出話。\n\nアイスⅢと、彼女と関わってきた魔導士達のお話です。\nいくつかのchapter形式になっています。\n関連する過去作品も同時収録していますが、本編だけでも大丈夫です。\n\n現在完成率50％弱…",
+        "管理人コメント": "アイスさんを愛す者達が知る、彼女の知られざる一面とは。",
+        "管理人の感想": "【未提出により保留】"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/i03.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss03.png",
+          "local": "/screenshots/2020-summer/03-source-1.png",
+          "sha256": "c17e9648ae31dadfcfd5b4905b0956b13981d09d5f688f1d8aada6a292ff8e66"
+        },
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss03b.png",
+          "local": "/screenshots/2020-summer/03-source-2.png",
+          "sha256": "4d9b0dcca4a66d9c4eea5c2942d9ad44def8edf11ebc44a41eec2fa9cdfbc084"
+        }
+      ],
+      "hostImageSources": [],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-summer-04",
+      "no": "04",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry04.html",
+      "catalogueTitle": "ミタマ道を逝く",
+      "detailTitle": "ミタマ道を逝く",
+      "catalogueMetadata": {
+        "作者": "水精冥王の支配者",
+        "使用ツール": "RPGツクール2000",
+        "ジャンル": "一本道？なデフォ戦ゲー",
+        "配信/投稿": "両方自己責任"
+      },
+      "sourceMetadata": {
+        "作者": "水精冥王の支配者",
+        "ジャンル": "一本道？なデフォ戦ゲー",
+        "ツール": "RPGツクール2000",
+        "配信/投稿": "両方自己責任",
+        "作者コメント": "当初よりゲーム内容が変更になった事をお詫び申し上げます。\n\n理不尽な出来事により人生を失った主人公は生き返るために\n仲間達と魂を集めまくって魂の管理者の元を目指すことに。\n果たして物語の行方は…\n\n3人の仲間と共に困難を乗り越えろ！\n主人公はある条件で敵の技をラーニング出来るぞ！\n\nプレー時間目安：おおよそ2〜3時間\n\n現在の進行状況…\nクリア後要素完成＆実績全実装、他微修正他 (Ver2.0)",
+        "管理人コメント": "妖精さんとあんなことやこんなこともできるゲームかと思いきや、普通にハードなデフォ戦ゲーだった！\nでも、これはこれで面白そうです。",
+        "管理人の感想": "多くの死者が屯し、死してなお殺し合う者も少なからずおり、其の魂は\"モノ\"として通貨に扱われる御霊道。\nそんな場所に事故で迷い込んだ主人公は、現世の日常へと戻るべく魂を集めて冥界の主の元を目指すのであった。\n\n…内容は序盤から雑魚敵が状態異常を連発してくる歯応えのある雪道ゲー。\n今は2ステージあたりまでクリアしたところですが、今のところリンゼちゃんのおりん鳴らしや火葬などの全体攻撃がとても頼もしいです。\nあと、戦闘終了後に状態異常が回復する仕様がとても便利で、ディスペルハーブが結構余りますね。\n序盤は逆にポーションとマジックウォーターが不足する事が多々あります。だいたい自分が脳縛りプレイしてたせい。\n他の作品と並行してプレイしてるので、ラスボスまでいったらまた追記していこうかなと思います。\n(20/09/15頃書いてた感想のバックアップ)"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/i04.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss04.png",
+          "local": "/screenshots/2020-summer/04-source-1.png",
+          "sha256": "4f4023228ac787bc9db61a3cb4858fbd8f07eaea9aa241041db1253f29e4983a"
+        },
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss04b.png",
+          "local": "/screenshots/2020-summer/04-source-2.png",
+          "sha256": "9c9e2372b1a7b48cd136b5942ee7312aa69fb9187d59ef0d647111ba0ce9e98a"
+        }
+      ],
+      "hostImageSources": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1iNC-gGvXd4nv0UoCgtxFbZsd3uTKrftP",
+          "label": "【DL(63.1MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-summer-05",
+      "no": "05",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry05.html",
+      "catalogueTitle": "Dark Malice",
+      "detailTitle": "Dark Malice",
+      "catalogueMetadata": {
+        "作者": "だむ",
+        "使用ツール": "RPGツクールMV",
+        "ジャンル": "俺がMVで初めて作ったRPG",
+        "配信/投稿": "最新版のみ○"
+      },
+      "sourceMetadata": {
+        "作者": "だむ",
+        "ジャンル": "俺がMVで初めて作ったRPG",
+        "ツール": "RPGツクールMV",
+        "配信/投稿": "最新版のみ○",
+        "作者コメント": "まつり参加は3度目になります。\nまたしてもパロディ要素多めの戦闘ゲーです。\nレベル上げが楽しいゲームをめざしました。（意識して上げなくてもクリアはできます！）",
+        "管理人コメント": "容姿端麗、頭脳明癖、高学歴の三拍子揃ったなすーん、どことなくニヒルな感じがしてすこです",
+        "管理人の感想": "製作期間約2年(?)とは思えないくらい気合と熱量がこもっていてホントに遊びやすいRPGでした。\n2020紅白に出てたら優勝狙えてたくらいのクオリティだと思います。\nただOP後のドラ子が助けにきてくれるマップがうちのノートPCだと滅茶苦茶重く、\nPC新調する前はマトモにプレイできなかったので、動作環境が限られてしまうという点では惜しかったです。\n戦闘バランスも絶妙で、ちゃんと戦略を練れば格上の敵でも倒せるのも本当にすごいです。"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/i05.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss05.png",
+          "local": "/screenshots/2020-summer/05-source-1.png",
+          "sha256": "2061505101b7336930f40a15ca0fbc375b2bf3ecd2fdba9c839859782b877135"
+        },
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss05b.png",
+          "local": "/screenshots/2020-summer/05-source-2.png",
+          "sha256": "a4b3484ebb8efe07b9a634ba1a13e7b7ad7aee534e665af55ff070f120744b47"
+        }
+      ],
+      "hostImageSources": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1DdtffA65gZy1IS_YUWfyAmIjhElKjoeC",
+          "label": "【DL(302MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-summer-06",
+      "no": "06",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry06.html",
+      "catalogueTitle": "勇者の剣",
+      "detailTitle": "勇者の剣",
+      "catalogueMetadata": {
+        "使用ツール": "VXAce",
+        "ジャンル": "デフォ戦",
+        "配信/投稿": "可/可"
+      },
+      "sourceMetadata": {
+        "ジャンル": "デフォ戦",
+        "ツール": "VXAce",
+        "配信/投稿": "可・可",
+        "作者コメント": "祭りのサンプルページ用のSS準備してたら開催されたので供養します\n運営頑張って下さい\n\n以下作品のあらすじ\n\n勇者の妹リナックス\nさらわれた兄を探すため、危険な城VXAce魔王城へ乗り込む\n魔王の娘メビウス\nリナックスの親友、そしてメスガキ\nアレックスと共にVXAce魔王城へ\nVXAce魔王城で彼らを待ち受ける者とは・・・",
+        "管理人コメント": "応援ありがとうございます…！初めて祭りの運営をするので至らぬ点も多々あるかと思いますが、頑張ります！",
+        "管理人の感想": "リナックス、エリック、デイジー、クレアスの4人で脳筋プレイしながらなんとか頑張ってクリアしました。\n良くも悪くも歯ごたえのあるバランスで、敵もかなり硬い上に攻撃が激しいので一人ひとり倒していくのにもかなり時間かかりますね…。\n感想掲示板にあるような他のパーティ編成でやればもっと楽だったと思いますが、最終的にクリアできたのでﾖｼ！"
+      },
+      "metadataDifferences": [
+        {
+          "label": "配信/投稿",
+          "catalogue": "可/可",
+          "detail": "可・可"
+        }
+      ],
+      "sourceSample": false,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/VXA.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss06.png",
+          "local": "/screenshots/2020-summer/06-source-1.png",
+          "sha256": "6ffa5856bfbf9e0a1b39aeb79e6ac78bef411403ffb10b06c1f285a692029a40"
+        },
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss06b.png",
+          "local": "/screenshots/2020-summer/06-source-2.png",
+          "sha256": "a7e2621d9f950afe3d00014ff634a37f9b8c28dfe7dc2886b1fa829127741099"
+        }
+      ],
+      "hostImageSources": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1fttA-_R3wXujabFE3wrRQCb5qFZ6jGa3",
+          "label": "【DL(54.2MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-summer-07",
+      "no": "07",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry07.html",
+      "catalogueTitle": "路地裏商人と不完全な従者",
+      "detailTitle": "路地裏商人と不完全な従者",
+      "catalogueMetadata": {
+        "作者": "健康的で文化的な最低限度の見るゲ",
+        "使用ツール": "Steam2003",
+        "ジャンル": "見るゲ(約25分)",
+        "配信/投稿": "可/可（ともに自己責任）"
+      },
+      "sourceMetadata": {
+        "作者": "健康的で文化的な最低限度の見るゲ",
+        "ジャンル": "見るゲ(約25分)",
+        "ツール": "Steam2003",
+        "配信/投稿": "可・可（ともに自己責任）",
+        "作者コメント": "VIPRPG初投稿です。\n大人やみっち×わてりの絵面がどうしても見たかったのでｔｋりました。",
+        "管理人コメント": "うーん　おねロリは　いいぞ。",
+        "管理人の感想": "VIPRPG初作品とは思えないくらいに気合の入った素晴らしい見るゲでした。\n情景描写や世界観なども非常に丁寧に描かれており、BGMの選曲も世界観や場面場面に非常にマッチしていて、とても引き込まれます。\n剣聖のアクションシーンも凄かったです。この世界観で作られた続編があれば、個人的にも是非見てみたいです。"
+      },
+      "metadataDifferences": [
+        {
+          "label": "配信/投稿",
+          "catalogue": "可/可（ともに自己責任）",
+          "detail": "可・可（ともに自己責任）"
+        }
+      ],
+      "sourceSample": false,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/i07.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss07.png",
+          "local": "/screenshots/2020-summer/07-source-1.png",
+          "sha256": "775742a3da5cba44b1e63f1f7f673b3fe0ee0c85299352064d201ad68c99bf3d"
+        },
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss07b.png",
+          "local": "/screenshots/2020-summer/07-source-2.png",
+          "sha256": "d3aefcac1860e32c76ff1d08565944022bda80316e38a5b192560923d423bf7e"
+        }
+      ],
+      "hostImageSources": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1jl9qRCdw6JAnfMSZU2qCgrzX5Wy36yx9",
+          "label": "【DL(32.5MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-summer-08",
+      "no": "08",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry08.html",
+      "catalogueTitle": "リジリミアR",
+      "detailTitle": "リジリミアR",
+      "catalogueMetadata": {
+        "作者": "里ノ",
+        "使用ツール": "VXAce",
+        "ジャンル": "ボスラッシュRPG",
+        "配信/投稿": "可/可"
+      },
+      "sourceMetadata": {
+        "作者": "里ノ",
+        "ジャンル": "ボスラッシュRPG",
+        "ツール": "VXAce",
+        "配信/投稿": "可/可",
+        "作者コメント": "役割の異なる5人を入れ替えながら相手の弱点を突いたり耐性で受け止めて1moreして戦う感じのやつです",
+        "管理人コメント": "無駄のないスマートな戦略が求められそうだ…",
+        "管理人の感想": "とりあえずスタンダード(通常難易度)でクリアしました。\nこちらもNo.6と同様なかなか歯応えがあり、そこそこ戦略性が求められます。\nプレイ開始時は「いや情報量多いなオイ！」みたいになりますが、相手の戦法や弱点が分かれば気持ちよく勝てる塩梅で面白かったです。\n戦闘時のテンポも非常に良く、UIも凝ってて非常にGood！！"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/i08.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss08b.png",
+          "local": "/screenshots/2020-summer/08-source-1.png",
+          "sha256": "76da495e3f3e1741eae780309487a4b463d1e73940645de24a731706d395d1da"
+        }
+      ],
+      "hostImageSources": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1Y4O_J-6CtrOEVLdIQ3tiw36jFoyCOEBu",
+          "label": "【DL(33.4MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-summer-09",
+      "no": "09",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry09.html",
+      "catalogueTitle": "もしも膨体だったら2",
+      "detailTitle": "もしも膨体だったら2",
+      "catalogueMetadata": {
+        "作者": "イカスミ",
+        "使用ツール": "RPGツクール2000",
+        "ジャンル": "（ほぼ）全勢力膨らまし探索ゲー",
+        "配信/投稿": "可/可"
+      },
+      "sourceMetadata": {
+        "作者": "イカスミ",
+        "ジャンル": "（ほぼ）全勢力膨らまし探索ゲー",
+        "ツール": "RPGツクール2000",
+        "配信/投稿": "可/可",
+        "作者コメント": "（※注意　このゲームには膨体・へそフェチといった特殊性癖描写が含まれております！耐性が無い方のプレイはおススメできませんのでご了承ください！）\n\nあのへんなゲーム、もしも膨体だったらが懲りずにパワーアップ（？）して帰ってきた！！\n今度の相手は（ほぼ）全勢力の女の子たち！！\nわてり城に再び呼ばれたウィンディは欲望のまま各地で暴れまわる…。\n君は全てのキャラを膨らませられるか！？",
+        "管理人コメント": "この作品のために膨大な数のドットを打ってそうで、作者さんの熱意を感じられる",
+        "管理人の感想": "無事に全実績をコンプリート。\nエントリーの時点で結構な量の矛グラを打ってそうだなとは思いましたが、まさかここまでの量を実装してるとは……！\n誰を先に膨らませておくか、どんなアイテムを使うか等で反応も変わるようで、作者さんの膨体化への愛が詰まってて良かったです。\n自分はこういうのにエロさは感じないタイプですが、コミカルな表現としては結構好きですね。"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/i09.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss09.png",
+          "local": "/screenshots/2020-summer/09-source-1.png",
+          "sha256": "0d08f446edc5bf1d8783d84c7f2948a6f0fc15280f71ba421b2f50ac8c3b35db"
+        },
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss09b.png",
+          "local": "/screenshots/2020-summer/09-source-2.png",
+          "sha256": "3d9a4e1263bca6bec7e06a9e1a3336e380e4321732d4e902b36b13d0114055e9"
+        }
+      ],
+      "hostImageSources": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=18FXcOzXySAGV6ClGMdeUyL6MMPWT4A24",
+          "label": "【DL(20.2MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-summer-10",
+      "no": "10",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry10.html",
+      "catalogueTitle": "ショタくえすと",
+      "detailTitle": "ショタくえすと",
+      "catalogueMetadata": {
+        "作者": "雷塵",
+        "使用ツール": "RPGツクール2000",
+        "ジャンル": "ショタがえっちするerg(※無論R-18）",
+        "配信/投稿": "ぜったい・むり"
+      },
+      "sourceMetadata": {
+        "作者": "雷塵",
+        "ジャンル": "ショタがえっちするerg(※無論R-18)",
+        "ツール": "RPGツクール2000",
+        "配信/投稿": "ぜったい・むり",
+        "作者コメント": "この作品の世界のニンゲンは寿命は30年ほどでオスは12歳、メスは20歳で体の成長が止まる。\n生殖能力が備わった直後やそれ以降1、2年おきに来る発情期の時にオスとメスは交尾をして子供を作る。\n服という概念は存在しないのでほぼみんな裸。\n\nそんな世界に産まれ、精通を迎えたショタが女の子達とえっちしていくergです。\n一人称がぼくの子とオレの子の2タイプから選んで彼のえっちな姿を見ていきましょう。（それぞれ出会える女の子が少し違うよ）\nEDは4種類。一つ見ても他のEDが見れなくなる事はないです。\nえっちシーンもEDも回想部屋で何度も自由に見返せます。致す時にどうぞ。",
+        "管理人コメント": "一体どんなえっちなシーンが見れるのか非常に楽しみです。",
+        "管理人の感想": "こういう物は好きなパターンから消化するタイプなので、まず内気な子の方から選びました。\n見るゲ系統かと思いきや、探索などのやるゲ要素もしっかり作られてて作者さんの熱量を感じます。\nドットとセリフ回しも丁寧に書かれててとても良かったです。\nあとオレっ子編ではわてり三姉妹のシーンでのセリフ回しが特に面白く、作者さんがノリノリで書いてた感じがしていいですね。"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/i10.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss10.png",
+          "local": "/screenshots/2020-summer/10-source-1.png",
+          "sha256": "95847518dcca34f8c01051f29ef724f2b4f58631dd05790223dc1261a9c5a111"
+        }
+      ],
+      "hostImageSources": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1mzvRhzOWSo0jn8YyD-NZYMpJZOLKQD7u",
+          "label": "【DL(30.1MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-summer-11",
+      "no": "11",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry11.html",
+      "catalogueTitle": "キミノタメ",
+      "detailTitle": "キミノタメ",
+      "catalogueMetadata": {
+        "作者": "ぼじょ",
+        "使用ツール": "RPGツクール2000",
+        "ジャンル": "読むゲー",
+        "配信/投稿": "可/可"
+      },
+      "sourceMetadata": {
+        "作者": "ぼじょ",
+        "ジャンル": "読むゲー",
+        "ツール": "RPGツクール2000",
+        "配信/投稿": "可/可",
+        "作者コメント": "数年前に作ったノベルゲーの供養です\n　誰か読んでやってください",
+        "管理人コメント": "お前重いんだよ！(愛情)",
+        "管理人の感想": "人の醜さと美しさを描く昼ドラのようなシナリオに圧巻。\n最初このスクショを見た時は病んでる感じでビビりましたが、\n最後までプレイしてみるとタイトルの「キミノタメ」の意味合いがよく分かりました。\n抜きんでて悪い人物がいないからこそのすれ違いという感じが妙にリアル。\nアイニーちゃんが悪気なく行ったことのせいで関係が拗れてしまうあの感じ、とてもつらい。\n悪気なく人を傷つけてしまった事の罪悪感ってのはその当人にしか分からないモノです。\n個人的には、アイスさんがフレイムさんにどうすればいいか相談するシーンがめちゃくちゃ好きでした。\nドラマチックな読むげが好きな方にオススメ。"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/2000.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss11.png",
+          "local": "/screenshots/2020-summer/11-source-1.png",
+          "sha256": "940eb194bc5348b8d217fc3659b1d629365411230bc2bb5a52ded97164cfbf8b"
+        }
+      ],
+      "hostImageSources": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1gR_Tqz_p-xWP5oqxEarbZemdfdgjrVXV",
+          "label": "【DL(10.2MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-summer-12",
+      "no": "12",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry12.html",
+      "catalogueTitle": "真・走れゴメス",
+      "detailTitle": "真・走れゴメス",
+      "catalogueMetadata": {
+        "作者": "UNKO",
+        "使用ツール": "2000",
+        "ジャンル": "ksg",
+        "配信/投稿": "可/可"
+      },
+      "sourceMetadata": {
+        "作者": "UNKO",
+        "ジャンル": "ksg",
+        "ツール": "2000",
+        "配信/投稿": "可/可",
+        "作者コメント": "「アレックス。」ゴメスは眼に涙を浮べて言った。\n「俺を殴れ。少しだけ手加減して殴ってくれ。俺は、途中で一度、悪い夢を見た。\nお前がもし俺を殴ってくれなかったら、俺はお前と交尾する資格さえ無いのだ。殴れ。」\nアレックスは、すべてを察した様子でうなずき、少しだけ手加減してゴメスの右頬を殴った。殴ってから優しく微笑み、\n「ゴメス、俺を殴れ。同じくらい手加減して殴ってくれ。俺はこの三日の間、たった一度だけ、ちらとお前を疑った。\n生まれて、はじめてお前を疑った。お前が俺を殴ってくれなければ、俺はお前と交尾できない。」\nゴメスは同じくらい手加減してアレックスの頬を殴った。\n「ありがとう、友よ。」二人同時に言い、ひしと抱き合い、それから嬉し泣きにヴォーヴォー声を放って掘った。\n群衆の中からも、歔欷の声が聞えた。\n国王は、群衆の背後から二人の様をまじまじと見つめていたが、やがて静かに二人に近づき、顔をあからめてこう言った。\n「すげーやらしい交尾してんじゃん。俺リバだから３人でやろうぜ！」",
+        "管理人コメント": "アレゴメ尊い・・・",
+        "管理人の感想": "【未提出により保留】"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/2000.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss12.png",
+          "local": "/screenshots/2020-summer/12-source-1.png",
+          "sha256": "da4188488a2688216aef5fb6b2acdb0c84cd21f24e1e60e529086511f6287f84"
+        }
+      ],
+      "hostImageSources": [],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-summer-13",
+      "no": "13",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry13.html",
+      "catalogueTitle": "もしもVELVETの空の下だったら",
+      "detailTitle": "もしもVELVETの空の下だったら",
+      "catalogueMetadata": {
+        "作者": "みどり",
+        "使用ツール": "2000",
+        "ジャンル": "見るゲ",
+        "配信/投稿": "可/可"
+      },
+      "sourceMetadata": {
+        "作者": "みどり",
+        "ジャンル": "見るゲ",
+        "ツール": "2000",
+        "配信/投稿": "可/可",
+        "作者コメント": "カラーギャングが縄張り争いする話…って感じでもないです。",
+        "管理人コメント": "四つ巴の大抗争が今、幕を開けようとしていた",
+        "管理人の感想": "カラーギャングごっこの小競り合いが、たった一つの悪意でガチめな戦争に発展していく。そんなシリアス系の見るゲです。\n序盤がいつものゆるい感じで拍子抜けしただけに、戦争が泥沼化する過程が見てて非常に来るものがありました。\n王国の地下牢に垂れてきた水滴の演出なんかはだいぶゾクゾクきます。\n終盤のナイ様とカー君の会話で、あまり多くを語らずに快を分かつ場面なんかも哀愁があってとても良いと思いました。"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/i13.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss13.png",
+          "local": "/screenshots/2020-summer/13-source-1.png",
+          "sha256": "b5ce8907527c7d5f4bb2607da588412edd99123f73dd6443f5ed1b6f0f6d4165"
+        },
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss13b.png",
+          "local": "/screenshots/2020-summer/13-source-2.png",
+          "sha256": "1d360872f531a89b6177e14a92e41ec6760cc193b6c1afe49c1b4591c67d5ab9"
+        }
+      ],
+      "hostImageSources": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=19lAcQUSuKpmgy5xkJkEPILeWiZVQPYZq",
+          "label": "【DL(11.1MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-summer-14",
+      "no": "14",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry14.html",
+      "catalogueTitle": "Waters of Gomezvania",
+      "detailTitle": "Waters of Gomezvania",
+      "catalogueMetadata": {
+        "作者": "かすていら",
+        "使用ツール": "Steam2003",
+        "ジャンル": "音合わせｋｓｇ",
+        "配信/投稿": "可/可"
+      },
+      "sourceMetadata": {
+        "作者": "かすていら",
+        "ジャンル": "音合わせｋｓｇ",
+        "ツール": "Steam2003",
+        "配信/投稿": "可/可",
+        "作者コメント": "3年前から案があり、ずっと作りたいと思ってたけど一切着手していなかった物をｔｋり始めましたが、\n現段階だと絵面が想像以上に地味で大丈夫かなってなってます。",
+        "管理人コメント": "ｴｳﾃﾞｯﾃﾞwwwｱｯﾄﾞｩｯﾄﾞｩｰﾜﾄﾞｩﾜwwwwww",
+        "管理人の感想": "Gomezが2000RTPの男達のケツを、「ケツイ」を持って動物、老人、子供すらも容赦なく追っかけまわすってか？\n(ﾂｸﾃｰﾝ)SANS!!!\n元ネタはUndertaleのファンメイド作品のようです。\n合わせ鏡などの演出も凄く、全力で馬鹿やってく感じがほんとにksgらしくていいと思いました。"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/s2003.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss14.png",
+          "local": "/screenshots/2020-summer/14-source-1.png",
+          "sha256": "551898962291f040eb5e6b631b4c2754488fbed13aa553adf43b9fe3f19399ff"
+        }
+      ],
+      "hostImageSources": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1GgfeWnTgXyVOdXhh4WBqZoLAzPBxdpu3",
+          "label": "【DL(6.8MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-summer-15",
+      "no": "15",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry15.html",
+      "catalogueTitle": "ホワイトハウスvsキョダイマックスワールド",
+      "detailTitle": "ホワイトハウスvsキョダイマックスワールド",
+      "catalogueMetadata": {
+        "作者": "WGAS",
+        "使用ツール": "Steam版RPGMAKER2003+MOD",
+        "ジャンル": "ステゴロアクション",
+        "配信/投稿": "可/可"
+      },
+      "sourceMetadata": {
+        "作者": "WGAS",
+        "ジャンル": "ステゴロアクション",
+        "ツール": "Steam版RPGMAKER2003+MOD",
+        "配信/投稿": "可/可",
+        "作者コメント": "ホワイトハウスちゃんとWORLDさんがガチ恋距離で素手喧嘩るゲームです\nゴエモンインパクトとかARMSとかを合わせたようなゲームです\n英語しか対応してません",
+        "管理人コメント": "ふんふふふーん♪私はWORLDさーん♪\n玉露のホワイトハウスちゃんとタイマンで殴り合いしてるぜーい♪ふふふふーん♪",
+        "管理人の感想": "コメント準備中…"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/i15.gif",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss15.png",
+          "local": "/screenshots/2020-summer/15-source-1.png",
+          "sha256": "7617536b1172877f0bbd909a091702c09688d52068c9101a5f885ca21ece3f4d"
+        },
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss15b.png",
+          "local": "/screenshots/2020-summer/15-source-2.png",
+          "sha256": "249c79219b91af75784906d00025c3d90b9f9cea6bbafa14ec7333255e88435c"
+        }
+      ],
+      "hostImageSources": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1LI3R7eYBBDkFlZJCEf_aXzldRjfjk-vJ",
+          "label": "【DL(775KB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-summer-16",
+      "no": "16",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry16.html",
+      "catalogueTitle": "メカドラゴナスペシャル　スカイズ・ウンｋｓｇ",
+      "detailTitle": "メカドラゴナスペシャル　スカイズ・ウンｋｓｇ",
+      "catalogueMetadata": {
+        "作者": "アパッチ・ロング棒",
+        "使用ツール": "2000",
+        "ジャンル": "ksg",
+        "配信/投稿": "全て自己責任"
+      },
+      "sourceMetadata": {
+        "作者": "アパッチ・ロング棒",
+        "ジャンル": "ksg",
+        "ツール": "2000",
+        "配信/投稿": "全て自己責任",
+        "作者コメント": "それは誰もが手にするソラノウン◯――\n\n巨大潜水空母ホワイトハウスを駈り、 IRスーパーシティ推進特区で暴利を貪る政商・玉露！\n彼らに農地を接収されたアンデッドナイ軍の怒り狂う元・農薬散布機メカドラゴなすーん！\n\n両者が激突すれば、核戦争は必至。\nこの危機を止められるのはメカドラゴナス、君しかいない！\n\nというわけで完結したはずの雑コラｋｓｇがまさかの参戦。\nスレ投下分の前作・前々作も同時収録 。\n・ ワイバーン日和（2020-01-05）\n・メカドラゴナス君、頑張る。（2020-02-24）\n\n……なんか言われたら撤退します。\nてか今からｔｋる",
+        "管理人コメント": "メカドラゴナスの勇気が世界を救うと信じて…！",
+        "管理人の感想": "【未提出により保留】"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/i16.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss16.png",
+          "local": "/screenshots/2020-summer/16-source-1.png",
+          "sha256": "2fc80b9aa9b564df5f8c165aaf2b6348b4bea6f318856f8020564bc159979979"
+        },
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss16b.png",
+          "local": "/screenshots/2020-summer/16-source-2.png",
+          "sha256": "7aa3434f9b26322ceb3c1657a788fafb519060962d4b6b3fd58be4a1ba496a39"
+        }
+      ],
+      "hostImageSources": [],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-summer-17",
+      "no": "17",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry17.html",
+      "catalogueTitle": "MOSHIMO FANTASY Ⅳ",
+      "detailTitle": "MOSHIMO FANTASY Ⅳ",
+      "catalogueMetadata": {
+        "作者": "五つ葉",
+        "使用ツール": "ツクール2000",
+        "ジャンル": "見るゲ",
+        "配信/投稿": "可/可"
+      },
+      "sourceMetadata": {
+        "作者": "五つ葉",
+        "ジャンル": "見るゲ",
+        "ツール": "ツクール2000",
+        "配信/投稿": "可/可",
+        "作者コメント": "あの名作ゲーFINAL FANTASYⅣをもしもキャラで再現してみた（可能な限り）\nタダの再現でなく、茶々・ツッコミ・裏設定とか普通にぶっこんでいくんで\n退屈はしないんじゃないかと思う。\n\nとりあえずXPランサー01の竜騎士感は半端無いよね。",
+        "管理人コメント": "私はFFシリーズはエアプなので竜騎士カインが2度も裏切るシーンしか\n覚えていないのですが、本家と一緒に遊んでみるとより楽しめそうです。",
+        "管理人の感想": "コメント準備中…"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/i17.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss17.png",
+          "local": "/screenshots/2020-summer/17-source-1.png",
+          "sha256": "3b62c3221a0a1e59f10eb87efa3aa2b8a6a4f83d87a0ba0c20c5aa1ac6d9f298"
+        },
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss17b.png",
+          "local": "/screenshots/2020-summer/17-source-2.png",
+          "sha256": "8a2fc6ca91d55f6f69625175e90ae694c07347013098bf7f806e0af529b81b77"
+        }
+      ],
+      "hostImageSources": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1_N4RTKXhtT8i0YJ5mMCscg1EhbhL1m9g",
+          "label": "【DL(12.1MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-summer-18",
+      "no": "18",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry18.html",
+      "catalogueTitle": "もしもフレイムⅢとブライアンが入れ替わったら",
+      "detailTitle": "もしもフレイムⅢとブライアンが入れ替わったら",
+      "catalogueMetadata": {
+        "作者": "ブライアソ",
+        "使用ツール": "2000",
+        "ジャンル": "見るゲ",
+        "配信/投稿": "可/可"
+      },
+      "sourceMetadata": {
+        "作者": "ブライアソ",
+        "ジャンル": "見るゲ",
+        "ツール": "2000",
+        "配信/投稿": "可/可",
+        "作者コメント": "初投稿です！\nある朝目覚めると、フレイムⅢとブライアンは入れ替わっていた！！この騒動の原因は？！二人は果たして元に戻れるのか…？！",
+        "管理人コメント": "中身が入れ替わったので立ち位置も一応中身に合わせていく2人。何でもアリなもしも世界なら、こんな事が起きても周囲の理解は早そうだ",
+        "管理人の感想": "コメント準備中…"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/i18.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss18.png",
+          "local": "/screenshots/2020-summer/18-source-1.png",
+          "sha256": "31fb2d9764d2afc8dad3602da82d932799274219ab10cc4ec7bbf54f1326a39c"
+        },
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss18b.png",
+          "local": "/screenshots/2020-summer/18-source-2.png",
+          "sha256": "e818a95d7e1a13723ec5ab246f399f6c37a4bc3881a616d5de5b13e06ece1762"
+        }
+      ],
+      "hostImageSources": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1CGFRkMFWXhFSd9SSp3RVRdoAPJNPIwAR",
+          "label": "【DL(4.9MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-summer-19",
+      "no": "19",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry19.html",
+      "catalogueTitle": "リバ★リフレ",
+      "detailTitle": "リバ★リフレ",
+      "catalogueMetadata": {
+        "作者": "サビカード",
+        "使用ツール": "RPGツクール2000",
+        "ジャンル": "ラブコメ",
+        "配信/投稿": "可/不可"
+      },
+      "sourceMetadata": {
+        "作者": "サビカード",
+        "ジャンル": "ラブコメ",
+        "ツール": "RPGツクール2000",
+        "配信/投稿": "可/不可",
+        "作者コメント": "クラスのあの目立たない地味ぃ〜な女子、名前は…フレイムだっけ\nあんなの全然キョーミないっつーか……目にも映ってなかったけど\nなぜかベッドの前に待ち構えられて、急にコクってきやがった！？\nいやいや、まって。アンタのこと好感度C程度にしか思ってないからね！？\nっていうかアタシら女子同士っしょ？付き合うだなんて、マジありえないっつーか……\n\n＊ひょんなことから14人のフレイムさんを幸せにすることになるリーフバリアのラブコメになります。",
+        "管理人コメント": "SS2枚目のバットまつまるで茶を吹きかけたwwwwwwwwww\nフレイムさん＆りばりはなかなか見ない組み合わせなので楽しみです",
+        "管理人の感想": "【未提出により保留】"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/i19.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss19.png",
+          "local": "/screenshots/2020-summer/19-source-1.png",
+          "sha256": "10673506aff602bea8b66a51e10f978c9d0f023f26f8313a715bc4e17073fa4a"
+        },
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss19b.png",
+          "local": "/screenshots/2020-summer/19-source-2.png",
+          "sha256": "d52bf741eb0e3ed2d6cb9fc82fadd7f5f8e998d9c3c588c4a351a8eaf8a3411d"
+        }
+      ],
+      "hostImageSources": [],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-summer-20",
+      "no": "20",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry20.html",
+      "catalogueTitle": "もしもRPGコンストラクションツールだったら",
+      "detailTitle": "もしもRPGコンストラクションツールだったら",
+      "catalogueMetadata": {
+        "作者": "Dante",
+        "使用ツール": "RPGコンストラクションツール 「Dante」",
+        "ジャンル": "ksg",
+        "配信/投稿": "○/○"
+      },
+      "sourceMetadata": {
+        "作者": "Dante",
+        "ジャンル": "ksg",
+        "ツール": "RPGコンストラクションツール 「Dante」",
+        "配信/投稿": "〇/〇",
+        "作者コメント": "宇宙人田中太郎でRPGツクールGB2だけ認められてないらしいので押し入れから引っ張り出してきました",
+        "管理人コメント": "まさかの最古のPCツクールでの参加ですと…！？\nツクールGB2がダメなのはネタの一種として言ってただけなので、もしそういった方がいても大丈夫です。\nセーブデータの吸い出し→そのデータを相手のカセット＆実機か、ROM＆エミュなどで\n読み込んで遊んでもらうっていうクソめんどくさい手順がいるのでメッチャ敷居高いですけど！",
+        "管理人の感想": "コメント準備中…"
+      },
+      "metadataDifferences": [
+        {
+          "label": "配信/投稿",
+          "catalogue": "○/○",
+          "detail": "〇/〇"
+        }
+      ],
+      "sourceSample": false,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/i20.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss20.png",
+          "local": "/screenshots/2020-summer/20-source-1.png",
+          "sha256": "9ba3b2c1f009d1861f977b35fc0c667b086181eb9cda445c37819a8c84f498dc"
+        }
+      ],
+      "hostImageSources": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1xviUyXj0HrvWPjC3GvliSbYesHehuPDp",
+          "label": "【DL(62.1MB)(オマケ有)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-summer-21",
+      "no": "21",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry21.html",
+      "catalogueTitle": "小さな世界の幸福奇譚",
+      "detailTitle": "小さな世界の幸福奇譚",
+      "catalogueMetadata": {
+        "作者": "ゲ製の民がVIPRPG作って祭りに突撃する企画",
+        "使用ツール": "RPGツクールVX ACE",
+        "ジャンル": "日常系RPG風ギャルゲー",
+        "配信/投稿": "どっちも大歓迎です！"
+      },
+      "sourceMetadata": {
+        "作者": "ゲ製の民がVIPRPG作って祭りに突撃する企画",
+        "ジャンル": "日常系RPG風ギャルゲー",
+        "ツール": "RPGツクールVX ACE",
+        "配信/投稿": "どっちも大歓迎です！",
+        "作者コメント": "祭りに出させて頂くのもこれで二回目になります。\nまだルールとかがよくわかっていませんが、よろしくねがします。\n『第四章　勇者討伐作戦』まで完成したら投下しようと思っております。\n(あと提出はだいぶ後になってしまいますが、急ぎます)",
+        "管理人コメント": "これは…GW2020のNo.15の続きじゃな？",
+        "管理人の感想": "合作とのことで立ち絵や一枚絵、音楽もオリジナルの物がふんだんに使われており、それぞれのキャラの専用テーマ曲みたいな物もあるようです。\nGW2020の方の感想と似たり寄ったりな感想になってしまいますが、個々の描写や各人物の立ち位置等もしっかりしており、\nシナリオも非常に興味をそそられて楽しめました。はい説の設定を随所に挿入するスタイル、自分はいいと思います。\nあと、曲が流れるたびそのに曲名が表示されるスタイルも地味ながらもいい演出ですね！"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/i21.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss21.png",
+          "local": "/screenshots/2020-summer/21-source-1.png",
+          "sha256": "548abad6b32ee0879fa7d3b2f66c0a57e27ea0673ca66c90e942eb2320c45232"
+        },
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss21b.png",
+          "local": "/screenshots/2020-summer/21-source-2.png",
+          "sha256": "9843d15e713ccc8c7be94c06698ff4e2e87c95c961c6c292c9c5e5e30ce82091"
+        }
+      ],
+      "hostImageSources": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1tQKEHuVHIme5O3EaCR19GocwFJiDhe5j",
+          "label": "【DL(335MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-summer-22",
+      "no": "22",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry22.html",
+      "catalogueTitle": "はーなぴ",
+      "detailTitle": "はーなぴ",
+      "catalogueMetadata": {
+        "作者": "тани",
+        "使用ツール": "RPGツクール2000",
+        "ジャンル": "でかいハーピー",
+        "配信/投稿": "可/可"
+      },
+      "sourceMetadata": {
+        "作者": "тани",
+        "ジャンル": "でかいハーピー",
+        "ツール": "RPGツクール2000",
+        "配信/投稿": "可/可",
+        "作者コメント": "3分くらいで終わります。",
+        "管理人コメント": "",
+        "管理人の感想": "【未提出により保留】"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/i22.jpg",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss22.jpg",
+          "local": "/screenshots/2020-summer/22-source-1.jpg",
+          "sha256": "e098e3c07c460bd29ae68fb306eade7de55de9691bbae3d19d2c00b0ac94855c"
+        }
+      ],
+      "hostImageSources": [],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-summer-23",
+      "no": "23",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry23.html",
+      "catalogueTitle": "HIGH BALL(starter)",
+      "detailTitle": "HIGH BALL(starter)",
+      "catalogueMetadata": {
+        "作者": "オマンコレールガン",
+        "使用ツール": "2000",
+        "ジャンル": "知るか",
+        "配信/投稿": "両方可"
+      },
+      "sourceMetadata": {
+        "作者": "オマンコレールガン",
+        "ジャンル": "知るか",
+        "ツール": "2000",
+        "配信/投稿": "両方可",
+        "作者コメント": "タイトルが変わっただけで中身は同じ。\n完成させただけななのが取り柄のゴミです(生きる価値、無)",
+        "管理人コメント": "雰囲気ゲーっぽくて普通に良さそうだと思った(小並感)",
+        "管理人の感想": "コメント準備中…"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/i23.jpg",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss23.png",
+          "local": "/screenshots/2020-summer/23-source-1.png",
+          "sha256": "a8ea9a68aa0382887b23ae26b85e3d3adf48bde47862032ea14fddea56d0ae6d"
+        }
+      ],
+      "hostImageSources": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1BuPl5lZLYyMB9Uzc-lTxmwoMu2ss7D4g",
+          "label": "【DL(9.6MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-summer-24",
+      "no": "24",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry24.html",
+      "catalogueTitle": "ドナ子の淡い恋模様",
+      "detailTitle": "ドナ子の淡い恋模様",
+      "catalogueMetadata": {
+        "作者": "れーえ",
+        "使用ツール": "RPGツクール2000",
+        "ジャンル": "百合コメ",
+        "配信/投稿": "どうぞ・おーけ"
+      },
+      "sourceMetadata": {
+        "作者": "れーえ",
+        "ジャンル": "百合コメ",
+        "ツール": "RPGツクール2000",
+        "配信/投稿": "どうぞ・おーけ",
+        "作者コメント": "プレイ時間 30分ちょい\nドナ子とドワーフちゃんの百合めいたお話ですっ！",
+        "管理人コメント": "くくく…百合っぽいシリーズほっしですな…",
+        "管理人の感想": "コメント準備中…"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/i24.gif",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss24.png",
+          "local": "/screenshots/2020-summer/24-source-1.png",
+          "sha256": "51be9e55618b1e6f51a94b639efb29227cb5d13c0ff1a59ae50536888a4f4c15"
+        },
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss24b.png",
+          "local": "/screenshots/2020-summer/24-source-2.png",
+          "sha256": "175c5bcbbe4fd456436697b87e938172ad82fcd9a1adb06286975a700f30fd53"
+        }
+      ],
+      "hostImageSources": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1wSunqOSy0iqmYdqk8XilBXXIRiJESBkQ",
+          "label": "【DL(14.7MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-summer-25",
+      "no": "25",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry25.html",
+      "catalogueTitle": "境界性人格失調鬱少女",
+      "detailTitle": "境界性人格失調鬱少女",
+      "catalogueMetadata": {
+        "作者": "エブリ・ファイ",
+        "使用ツール": "2000、もしくはマニアクスパッチを当てた2003Steam、あるいはVXA",
+        "ジャンル": "淡水フグ育成ゲーム",
+        "配信/投稿": "オッケーです"
+      },
+      "sourceMetadata": {
+        "作者": "エブリ・ファイ",
+        "ジャンル": "淡水フグ育成ゲーム",
+        "ツール": "2000、もしくはマニアクスパッチを当てた2003Steam、あるいはVXA",
+        "配信/投稿": "オッケーです",
+        "作者コメント": "頑張って公開日に間に合うように作ります",
+        "管理人コメント": "淡水フグは育成に少しばかり手間がかかりそうな感じがしますね。\nアベニーパファーとかなら、比較的育てやすいですけど。",
+        "管理人の感想": "【未提出により保留】"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/2000.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss25.png",
+          "local": "/screenshots/2020-summer/25-source-1.png",
+          "sha256": "3046e8ded6de2da21a5679c1f102c137617d44c6413b6359a112b67f718e4b54"
+        }
+      ],
+      "hostImageSources": [],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-summer-26",
+      "no": "26",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry26.html",
+      "catalogueTitle": "それでも明日はやって来る・再び",
+      "detailTitle": "それでも明日はやって来る・再び",
+      "catalogueMetadata": {
+        "作者": "イモリ",
+        "使用ツール": "SRPGツクール95",
+        "ジャンル": "レトロ風味クソゲー仕立てのSRPG",
+        "配信/投稿": "可/可"
+      },
+      "sourceMetadata": {
+        "作者": "イモリ",
+        "ジャンル": "レトロ風味クソゲー仕立てのSRPG",
+        "ツール": "SRPGツクール95",
+        "配信/投稿": "可/可",
+        "作者コメント": "久方ぶりに参加させて頂きます。\n頑張って8月中の提出を目指します。\n大した内容では有りませぬが、遊んで頂けたら幸いです。",
+        "管理人コメント": "どっかで見たことあるタイトルの構図だと思ったらファイナルソードだこれ！！！",
+        "管理人の感想": "全5章の中で4章までプレイできるようです。\nSRPGは基本的に難易度が高めだったりキャラロストの概念があったりと敷居が高そうなイメージがありますが、\nこの作品は戦闘前のヒントが丁寧で、ストーリーもギャグ&シュールな感じで進むので、\n味方がやられても撤退してくれますし、敵が理不尽に強いなんて事もありません。\nあと命中精度と敏捷と移動力の高いカッパドリくんがメチャクチャ頼りになります。\nSRPGにおいて高機動高火力低耐久を地で行くユニットはやっぱり強いですね。\n\nただ、SRPGツクール95の仕様上の問題なのか敵の攻撃範囲が表示されなかったり、\n攻撃予測ウィンドウが出ないので攻撃するまで命中率や威力が予測しづらかったりする所は少し取っつきにくいかも。\n\n前作や前々作などは実はまだやってないのですが、ストーリー自体は普通に楽しめました。完成版に期待！"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/i26.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss26.png",
+          "local": "/screenshots/2020-summer/26-source-1.png",
+          "sha256": "c1284691d3e4cec1741f6ba0ac9cec83356d1e9d9c5edd28ae8a0744a54756b6"
+        },
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss26b.png",
+          "local": "/screenshots/2020-summer/26-source-2.png",
+          "sha256": "877b2ec4a61034b855f1f60494aaf6bdecd529fba907c6d85e1482f484289292"
+        }
+      ],
+      "hostImageSources": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1Y6dAhAxk6kdbYNuZ85Yjs81ECSLl1V7R",
+          "label": "【DL(21.8MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-summer-27",
+      "no": "27",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry27.html",
+      "catalogueTitle": "タンスの角むーちゃん",
+      "detailTitle": "タンスの角むーちゃん",
+      "catalogueMetadata": {
+        "作者": "ぬ",
+        "使用ツール": "2000",
+        "ジャンル": "ゴミ",
+        "配信/投稿": "共に可"
+      },
+      "sourceMetadata": {
+        "作者": "ぬ",
+        "ジャンル": "ゴミ",
+        "ツール": "2000",
+        "配信/投稿": "共に可",
+        "作者コメント": "全10ステージくらい。\n皆をイライラさせられるよう頑張ります。",
+        "管理人コメント": "やめてむーちゃん！そんな事したら魔王様が激痛で死んじゃうよ！",
+        "管理人の感想": "娘様の質の悪いいたずらから逃げ切り、計37本の小指を犠牲にしてクリアしました。\n右端から迫ってきたり、明かりを消すｽｲｯﾁ設置して道の外をタンスで敷き詰めたり、\n急に動きが早くなったりと孔明の罠がとにかく多いです。\nNeptunian Donutや壺おじみたいなゲームの類ですが、何だかんだでクリアできるようにされてて\n雑に見えて丁寧な調整だなと思います。"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/2000.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss27.png",
+          "local": "/screenshots/2020-summer/27-source-1.png",
+          "sha256": "19078ef9f6a4f8cce792a1e832798d7e4f90e078cff29e591037c4791dacb008"
+        }
+      ],
+      "hostImageSources": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1QwIXsUbh0MbcGX-5Noiv-R_uQ-EzahGv",
+          "label": "【DL(164KB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-summer-28",
+      "no": "28",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry28.html",
+      "catalogueTitle": "もしもフィットアドベンチャー",
+      "detailTitle": "もしもフィットアドベンチャー",
+      "catalogueMetadata": {
+        "作者": "今現在の運動負荷23",
+        "使用ツール": "2000",
+        "ジャンル": "フィットネス",
+        "配信/投稿": "可・可"
+      },
+      "sourceMetadata": {
+        "作者": "今現在の運動負荷23",
+        "ジャンル": "フィットネス",
+        "ツール": "2000",
+        "配信/投稿": "可・可",
+        "作者コメント": "魔王把握しながらトレーニング",
+        "管理人コメント": "3年間にも及ぶトレーニングで、あのキャロルさんも筋肉モリモリマッチョマンに！",
+        "管理人の感想": "コメント準備中…"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/2000.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss28.png",
+          "local": "/screenshots/2020-summer/28-source-1.png",
+          "sha256": "4e8573d2ee0b2876d14fb044579c07e2adaf8472fc6bd64af0f8871b4c22430a"
+        }
+      ],
+      "hostImageSources": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1MPw0I5TKdzSxB8rcuDwe354TBsV94vFW",
+          "label": "【DL(996KB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-summer-29",
+      "no": "29",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry29.html",
+      "catalogueTitle": "魔ーミンと夢のチョコレート工場",
+      "detailTitle": "魔ーミンと夢のチョコレート工場",
+      "catalogueMetadata": {
+        "作者": "みじゅふーせん",
+        "使用ツール": "RPGツクール2000",
+        "ジャンル": "見るゲ",
+        "配信/投稿": "〇/〇"
+      },
+      "sourceMetadata": {
+        "作者": "みじゅふーせん",
+        "ジャンル": "見るゲ",
+        "ツール": "RPGツクール2000",
+        "配信/投稿": "〇/〇",
+        "作者コメント": "ツクール歴の浅い新参者のぺーぺーですが、昔から好きだった「魔ーミンシリーズ」の派生作品を勝手に作っちゃうぞ！（原作ファンの人、ごめんなさい。）\n\n締め切りに間に合わなさそうな時は、30秒で見終わるksgをデコイとして提出します。\n現在の制作率：40％くらい",
+        "管理人コメント": "クソコラタイトルとシュールな版権ネタをお構いなしにぶちこんでいくあたりにリスペクト心を感じる",
+        "管理人の感想": "コメント準備中…"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/i29.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss29.png",
+          "local": "/screenshots/2020-summer/29-source-1.png",
+          "sha256": "365cb4ab815b19da722a35d7c1f8736749ffdb2129904200294e3e2c9c6700d9"
+        },
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss29b.png",
+          "local": "/screenshots/2020-summer/29-source-2.png",
+          "sha256": "f29a25478b29cf17f68533426d8a74a6354beb56a58f70335914909f8ae34015"
+        }
+      ],
+      "hostImageSources": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1yEWpiWzDujzM8gH_G5HnB9dBsLaozdQd",
+          "label": "【DL(29MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-summer-30",
+      "no": "30",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry30.html",
+      "catalogueTitle": "ある温泉宿の一か月",
+      "detailTitle": "ある温泉宿の一か月",
+      "catalogueMetadata": {
+        "作者": "レシラソラソ",
+        "使用ツール": "RPGツクール2000",
+        "ジャンル": "育成シミュレーション",
+        "配信/投稿": "どちらも可"
+      },
+      "sourceMetadata": {
+        "作者": "レシラソラソ",
+        "ジャンル": "育成シミュレーション",
+        "ツール": "RPGツクール2000",
+        "配信/投稿": "どちらも可",
+        "作者コメント": "夏の陣は初参加です。よろしくお願いします。\nジャンル・育成シミュレーションになっていますが、プレイ時間は短めになる予定です。",
+        "管理人コメント": "こういうゆったりとした感じの経営ゲームっていいですよね。",
+        "管理人の感想": "コメント準備中…"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/2000.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss30.png",
+          "local": "/screenshots/2020-summer/30-source-1.png",
+          "sha256": "f55f8e3a6126ac6dfd4dce3681bb57c527c01aed81748faaa1dda2ad560d2615"
+        },
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss30b.png",
+          "local": "/screenshots/2020-summer/30-source-2.png",
+          "sha256": "b90550c0d961a0036d006dd711fe122dfd8d5f9f9f43eb1e10f5dde56ecae48e"
+        }
+      ],
+      "hostImageSources": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1s3nZFryGMP052s1U_k5XTMvNGWhrN8Qm",
+          "label": "【DL(124KB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-summer-31",
+      "no": "31",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry31.html",
+      "catalogueTitle": "ラッパーやみっち／ふえるライチ",
+      "detailTitle": "ラッパーやみっち／ふえるライチ",
+      "catalogueMetadata": {
+        "作者": "NONE THE DARKNESS",
+        "使用ツール": "2000",
+        "ジャンル": "ksg",
+        "配信/投稿": "可・可"
+      },
+      "sourceMetadata": {
+        "作者": "NONE THE DARKNESS",
+        "ジャンル": "ksg",
+        "ツール": "2000",
+        "配信/投稿": "可・可",
+        "作者コメント": "YO　YO　これは短めの見るゲ二本立て\n異常事態でもPIAIするんだって\n俺もお前もinto the DARKNESS...",
+        "管理人コメント": "COVID-19もDon't worry\nこの夏の陣でEradicationさ!\nそれはさておき俺はラップの踏み方が掴めないぜ！",
+        "管理人の感想": "コメント準備中…"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/2000.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss31.png",
+          "local": "/screenshots/2020-summer/31-source-1.png",
+          "sha256": "26b3b05c39fd221e85d7417878167a035f75be2d629342234ecb301bc5928a2a"
+        },
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss31b.png",
+          "local": "/screenshots/2020-summer/31-source-2.png",
+          "sha256": "3c9a922268271e85b415ba46f063ce6acd1ab6d715e901392492dce46bed0652"
+        }
+      ],
+      "hostImageSources": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1kzEB08EHiLbOedwKyutt_9KhJirQnfAe",
+          "label": "【DL(5.83MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-summer-32",
+      "no": "32",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry32.html",
+      "catalogueTitle": "アミィちゃんの深都式xxxxサポート",
+      "detailTitle": "アミィちゃんの深都式オナニーサポート",
+      "catalogueMetadata": {
+        "作者": "名雲きつね",
+        "使用ツール": "MV",
+        "ジャンル": "xxxx風erg",
+        "配信/投稿": "自己責任"
+      },
+      "sourceMetadata": {
+        "作者": "名雲きつね",
+        "ジャンル": "オナサポ風erg",
+        "ツール": "MV",
+        "配信/投稿": "自己責任",
+        "作者コメント": "今からｔｋるので間に合う保証が一切ないやっつけの短いエロゲー。\nロリのエロゲなので苦手な方と未成年はDLしない様にご注意を。\n\n内容はよくあるオナニーをサポートしてくれる系のR-18ボイス作品風のシチュで、\nアミィちゃんがお手伝いをしてくれる内容となっております(本番なし)\n\n短いですがちょっと新しい事もやろうと思っているので間に合わなければまたの機会に…",
+        "管理人コメント": "我々はアミィちゃんでオ↑ナ↓ニーシコシコを躊躇ってはならない時がある",
+        "管理人の感想": "コメント準備中…"
+      },
+      "metadataDifferences": [
+        {
+          "label": "ジャンル",
+          "catalogue": "xxxx風erg",
+          "detail": "オナサポ風erg"
+        }
+      ],
+      "sourceSample": false,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/i32.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss32.png",
+          "local": "/screenshots/2020-summer/32-source-1.png",
+          "sha256": "bc428b46752fac678d87678648dc25e130b6fe1f4c18ca200968b70cb48d7d54"
+        }
+      ],
+      "hostImageSources": [],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-summer-33",
+      "no": "33",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry33.html",
+      "catalogueTitle": "うさぎのダイエット失敗",
+      "detailTitle": "うさぎのダイエット失敗",
+      "catalogueMetadata": {
+        "作者": "goma",
+        "使用ツール": "2000",
+        "ジャンル": "未定",
+        "配信/投稿": "どちらも可"
+      },
+      "sourceMetadata": {
+        "作者": "goma",
+        "ジャンル": "短編RPG",
+        "ツール": "2000",
+        "配信/投稿": "どちらも可",
+        "作者コメント": "ツクール歴9か月、地道に培ってきた実力をこの作品にぶつけます。\n「なるようになる」の精神で作っていきたいと思います。\n\n【追記】\n今のままだとダイエットではなく制作に失敗しそうな気配がするので、\n気合いを入れ直すため進捗(SS二枚目)を公開させて頂きます。\nだいじょうぶだいじょうぶ　なんとかなるなるケン○ッキー",
+        "管理人コメント": "かわいらしいうさぎちゃんの秘密とは一体…？",
+        "管理人の感想": "コメント準備中…"
+      },
+      "metadataDifferences": [
+        {
+          "label": "ジャンル",
+          "catalogue": "未定",
+          "detail": "短編RPG"
+        }
+      ],
+      "sourceSample": false,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/i33.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss33.png",
+          "local": "/screenshots/2020-summer/33-source-1.png",
+          "sha256": "77ac99f576a18b5a4a0404cbd33b0c2c8e2fed705049d4c3063e44c27f55c4fc"
+        },
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss33b.png",
+          "local": "/screenshots/2020-summer/33-source-2.png",
+          "sha256": "945ef39a4dbba8a3bad82f128999bd29f042165d6866402429d401964dacd3d3"
+        }
+      ],
+      "hostImageSources": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1wP972Hq-iS_faXN0-KSuXrSs8Sus8NPh",
+          "label": "【DL(2.0MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-summer-34",
+      "no": "34",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry34.html",
+      "catalogueTitle": "Doki Doki Pederasty Club!",
+      "detailTitle": "Doki Doki Pederasty Club!",
+      "catalogueMetadata": {
+        "作者": "グレートミニマムペニスマン",
+        "使用ツール": "Steam2003",
+        "ジャンル": "ksg",
+        "配信/投稿": "可/可"
+      },
+      "sourceMetadata": {
+        "作者": "グレートミニマムペニスマン",
+        "ジャンル": "ksg",
+        "ツール": "Steam2003",
+        "配信/投稿": "可/可",
+        "作者コメント": "魔王とのバトルに負けた救国の英雄は\nリナックスの目の前で犯され始める…。\n\nアレックスのいやらしいプリケツがあらわになると、\n興奮したゴメスはアレックスの目の前にミラクルドロップ入りの媚薬おち〇ぽを出した。\n\nドロップお〇んぽが出た瞬間\n濃密な蜜の匂いがアレックスの頭の中を朦朧とさせる。\n\nクラクラになったアレックスにゴメスはドロップおちん〇を無理やりに押し付ける。\n濃厚な匂いが一層強くなり匂いだけで救国の英雄はイってしまう。\n\nこれではまだ終わらんぞとばかりにゴメスはアレックスの鼻先にドロップお〇んぽを激しく擦り始める。\n\n救国の英雄は2回もイってしまった。\nしかしこれでもまだ終わらない。ゴメスが手を叩くと\n\n屈強な体つきをしたXPの傭兵サイラスとVXの公爵セオドア、アンデットナイ軍のクレアスが出てきた。\n\nクレアスとセオドアのドデカお〇んぽとサイラスのイボイボおち〇ぽが目に入る。\n\n今からこれを挿れられるのかと思うと救国の英雄は3回もイってしまった。\n\nクレアスのドデカおち〇ぽがアレックスに入る…もうあそこはヌルヌルで\n\nすんなりクレアスのドデカお〇んぽを咥えてしまう…\nしかしまだ終わらない。\nクレアスに続くようにセオドアのドデカお〇んぽとサイラスのイボイボおち〇ぽがアレックスの中に続けて入った。「お゛ほ゛っ♡」\n\nいやらしい声があの救国の英雄から出る。アレックスの秘穴に三本のおち〇ぽが出し入れされる。\n\n前はゴメスとクレアスに、後ろはサイラスとセオドアに犯される。\n\n気が狂いそうな快感にアレックスは気を失ってしまう…\n気付けはそこに泣き崩れるリナックスと魔王がいた。\n\nああそうか、俺はあの4人に犯され続けたのだとすぐにわかった。\n\nあの快感がまた欲しい。あのドロップ媚薬お〇ちんぽをまたしゃぶりたい\n\nドデカおち〇ぽで俺の穴をまた犯して欲しいとアレックスは思った。\n\nもう、皆が思う\"最強の勇者\"はいないのだ。\nただの性欲に溺れたメスはこう言った。\n「リナ、魔王、お願いだ。何でもするから俺を犯してくれ」",
+        "管理人コメント": "ムシキング怪文書(いのちのかたち)やめーやwwwwwwwwww",
+        "管理人の感想": "【未提出により保留】"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/s2003.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss34.png",
+          "local": "/screenshots/2020-summer/34-source-1.png",
+          "sha256": "59cdb2d0a2d8b82fa7d0da4bd7977ca6461469b79e23b7b55d0afbada949782b"
+        }
+      ],
+      "hostImageSources": [],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-summer-35",
+      "no": "35",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry35.html",
+      "catalogueTitle": "でぇじょうぶだ！ドラゴンボールがある！",
+      "detailTitle": "でぇじょうぶだ！ドラゴンボールがある！",
+      "catalogueMetadata": {
+        "作者": "ゴメス丼",
+        "使用ツール": "Steam2003",
+        "ジャンル": "見るゲ",
+        "配信/投稿": "自己責任"
+      },
+      "sourceMetadata": {
+        "作者": "ゴメス丼",
+        "ジャンル": "見るゲ",
+        "ツール": "Steam2003",
+        "配信/投稿": "自己責任",
+        "作者コメント": "5分くらいのパク…パロ見るゲ",
+        "管理人コメント": "7つ集めて願い事さえ言っちめぇば、西の都も燃えた家も一瞬で元通りだし、人を生き返ぇらせる事だってできっぞ！\nえ？心の傷は治せんのかって？オラはそこんとこよく分かんねぇけど、そいつぁ難しいんじゃねぇかなァ・・・",
+        "管理人の感想": "コメント準備中…"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/i35.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss35.png",
+          "local": "/screenshots/2020-summer/35-source-1.png",
+          "sha256": "4dfb2415895980a5623999f41f52ab1a9159c6f5a83b77296368cc1b3d2fe7eb"
+        }
+      ],
+      "hostImageSources": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1w49iI1YWkr88wCY8qxU0dtxYBfchHBkc",
+          "label": "【DL(6.31MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-summer-36",
+      "no": "36",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry36.html",
+      "catalogueTitle": "ハーたんの料理に勝て",
+      "detailTitle": "ハーたんの料理に勝て",
+      "catalogueMetadata": {
+        "作者": "ししし",
+        "使用ツール": "2000",
+        "ジャンル": "見るゲ",
+        "配信/投稿": "可/可"
+      },
+      "sourceMetadata": {
+        "作者": "ししし",
+        "ジャンル": "見るゲ",
+        "ツール": "2000",
+        "配信/投稿": "可/可",
+        "作者コメント": "ウィンディちゃんが友達の為に頑張る\nおよそ10分くらいの短いお話です。",
+        "管理人コメント": "このあと亡くなったんだよね…",
+        "管理人の感想": "コメント準備中…"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/i36.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss36.png",
+          "local": "/screenshots/2020-summer/36-source-1.png",
+          "sha256": "013ec050eb9228c7ecf36dea406d474aed7521e143e9bdddea6c0290eb1cccd1"
+        }
+      ],
+      "hostImageSources": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1XKRzKoTq0MsyvrSOXWhAP7Dy-LVrKg6_",
+          "label": "【DL(4.44MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-summer-37",
+      "no": "37",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry37.html",
+      "catalogueTitle": "絵師はイラスト見れば9割性別当てられる",
+      "detailTitle": "絵師はイラスト見れば9割性別当てられる",
+      "catalogueMetadata": {
+        "作者": "＠JKinMETROPOLIS",
+        "使用ツール": "RPGツクール2000",
+        "ジャンル": "クイズ",
+        "配信/投稿": "可/可"
+      },
+      "sourceMetadata": {
+        "作者": "＠JKinMETROPOLIS",
+        "ジャンル": "クイズ",
+        "ツール": "RPGツクール2000",
+        "配信/投稿": "可/可",
+        "作者コメント": "絵描きは他人の絵を見たときその作者の性別を当てられる、という持論があります。\nそれをヒントに制作しました。\n“正解率90％達成”を目指して見てください。",
+        "管理人コメント": "絵描きの方もそうじゃない方も、作者の性別なんて気にしない人も、ぜひ挑戦してみてはいかがでしょうか。",
+        "管理人の感想": "コメント準備中…"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/i37.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss37.png",
+          "local": "/screenshots/2020-summer/37-source-1.png",
+          "sha256": "2d97d42cb2609c20e12d218352b8ea391ba8fb30a8b25638f478548756efcf94"
+        }
+      ],
+      "hostImageSources": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1e2IteddYBos9HvesqVeGa5polFxwKfkK",
+          "label": "【DL(4.0MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-summer-38",
+      "no": "38",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry38.html",
+      "catalogueTitle": "魔王把握MZ",
+      "detailTitle": "魔王把握MZ",
+      "catalogueMetadata": {
+        "作者": "屋比久",
+        "使用ツール": "MZZZZZZZ",
+        "ジャンル": "ksg",
+        "配信/投稿": "だめ"
+      },
+      "sourceMetadata": {
+        "作者": "屋比久",
+        "ジャンル": "ksg",
+        "ツール": "MZZZZZZZ",
+        "配信/投稿": "だめ",
+        "作者コメント": "魔王把握してません",
+        "管理人コメント": "はえーよホセ！\n(SSが添付されて無かったようなので、こちらで勝手にタイトル画面のスクショのみ用意しておきました)",
+        "管理人の感想": "コメント準備中…"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/MZ.png",
+      "screenshotSources": [],
+      "hostImageSources": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1RaGffrVJ3-x3yQhQewwlxx6VQhb7R21i",
+          "label": "【DL(103MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-summer-39",
+      "no": "39",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry39.html",
+      "catalogueTitle": "やみっちホーム2",
+      "detailTitle": "やみっちホーム2",
+      "catalogueMetadata": {
+        "作者": "たぐち",
+        "使用ツール": "2000",
+        "ジャンル": "法螺ーゲー",
+        "配信/投稿": "自己責任"
+      },
+      "sourceMetadata": {
+        "作者": "たぐち",
+        "ジャンル": "法螺ーゲー",
+        "ツール": "2000",
+        "配信/投稿": "自己責任",
+        "作者コメント": "〇ホラーゲーの皮を被った探索バカゲーが帰ってきた！\n前作をやってなくてもまあ大丈夫！多分！\n\n今度の舞台は廃校！コー〇スパ〇ティーパクろうとして失敗したよ！\n探索メンバーは３人！でも攻略にほぼ意味はないよ！！\n\n更になんと今回は、ホラー苦手な人のために「びびりすいっち」搭載！\nこれをONにすると（ただでさえしょぼい）ホラー演出がさらにバカバカしく！！\n\n作者の技術力を詰め込んだミニゲームも搭載！バｇ…謎の仕様もいっぱい！！\n自作サブメニュー、トロフィー要素、イベントCGなど無駄に詰め込んだぞ！\n\nさあ、この夏はやみっちホーム2をやって…夏…なつ…？\n\nあれ、すでに秋では？\n\n※間に合わなかったらごめんね",
+        "管理人コメント": "残暑つづきで実質夏みたいなもんだしヘーキヘーキ\n秋にやるホラゲもいいものですぞ",
+        "管理人の感想": "コメント準備中…"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/i39.gif",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss39.png",
+          "local": "/screenshots/2020-summer/39-source-1.png",
+          "sha256": "0afafb2b2c8f68dd2490baca51f395663c540707117034ea0b608f5be501ab9e"
+        },
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss39b.png",
+          "local": "/screenshots/2020-summer/39-source-2.png",
+          "sha256": "2bb9dc0aa16d106a83c189f5cbafb45bab371b6d44ff0fe8a66eb4ef570a78c6"
+        }
+      ],
+      "hostImageSources": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1kLNHUNthiz21EPJ_6qkRAgdOA8QzL-25",
+          "label": "【DL(64.6MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-summer-40",
+      "no": "40",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry40.html",
+      "catalogueTitle": "BRAVE VS WARRIOR",
+      "detailTitle": "BRAVE VS WARRIOR",
+      "catalogueMetadata": {
+        "作者": "Yuuta",
+        "使用ツール": "RPGツクール２０００",
+        "ジャンル": "対戦ミニクソゲ",
+        "配信/投稿": "自己責任"
+      },
+      "sourceMetadata": {
+        "作者": "Yuuta",
+        "ジャンル": "対戦ミニクソゲ",
+        "ツール": "RPGツクール２０００",
+        "配信/投稿": "自己責任",
+        "作者コメント": "はじめまして。２ｋの少ないキーでもできて、テンポと勢いのある対戦ゲーが欲しいなと思い立って作りました。",
+        "管理人コメント": "スマートかつド派手なアクションが拝めそうで楽しみです。",
+        "管理人の感想": "コメント準備中…"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/i40.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss40.png",
+          "local": "/screenshots/2020-summer/40-source-1.png",
+          "sha256": "92a75061339a0e617feb0da0df0df2f0d030ffac07a1e7de88057357c62226f8"
+        }
+      ],
+      "hostImageSources": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=19BVuwLMyOnfZOVkhAGOtFB_GewB3oPHf",
+          "label": "【DL(25.2MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-summer-41",
+      "no": "41",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry41.html",
+      "catalogueTitle": "ブレイドロンド用のボードダイス",
+      "detailTitle": "ブレイドロンド用のボードダイス",
+      "catalogueMetadata": {
+        "作者": "一般ソーディアおじさん",
+        "使用ツール": "VXAce",
+        "ジャンル": "クソツール",
+        "配信/投稿": "可能"
+      },
+      "sourceMetadata": {
+        "作者": "一般ソーディアおじさん",
+        "ジャンル": "クソツール",
+        "ツール": "VXAce",
+        "配信/投稿": "可能",
+        "作者コメント": "風栄社のボードゲーム、ブレイドロンド用のライフカウンターです\n私用で製作していたクソツールだったのですがせっかくなので祭り初参加も兼ねて投稿します",
+        "管理人コメント": "わりと使い所がニッチだ…！",
+        "管理人の感想": "ブレイドロンドはやったことがないのでどういう物なのかはよく分かりませんが、\n数値の上限が少なめなのを除けばTRPGで卓を囲む時にも使えそうですね。\n背景のUIもオシャレな感じでイイと思います。"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/VXA.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss41.jpg",
+          "local": "/screenshots/2020-summer/41-source-1.jpg",
+          "sha256": "0daac3c858a8e42ef8d9bb58a1839c9b74291a09e8db790120f3a291471bae2a"
+        },
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss41b.jpg",
+          "local": "/screenshots/2020-summer/41-source-2.jpg",
+          "sha256": "b2782656c7aa11cd4ce13ecbb2a12a4b9a0d693dbabae67a9aadcfde2cb5ca31"
+        }
+      ],
+      "hostImageSources": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1aqy1laczsev0W5ptT7AyFKaeVfwEzhV5",
+          "label": "【DL(30.1MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-summer-42",
+      "no": "42",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry42.html",
+      "catalogueTitle": "プチドット素材コレクション",
+      "detailTitle": "プチドット素材コレクション",
+      "catalogueMetadata": {
+        "作者": "KC.R",
+        "使用ツール": "RPGツクール2000",
+        "ジャンル": "素材集",
+        "配信/投稿": "可/可"
+      },
+      "sourceMetadata": {
+        "作者": "KC.R",
+        "ジャンル": "素材集",
+        "ツール": "RPGツクール2000",
+        "配信/投稿": "可/可",
+        "作者コメント": "シンプルな自作素材の詰め合わせです。シンプルなので改造しやすい。\nマップチップはフィールド、外観、内装の３種類。\nキャラセットはＲＴＰキャラ全員（オブジェクトは出来れば）\nゲームはいつもの魔王把握。作者に優しい。",
+        "管理人コメント": "こういう柔らかい感じのドットの雰囲気ほんとすき",
+        "管理人の感想": "コメント準備中…"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/i42.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss42.png",
+          "local": "/screenshots/2020-summer/42-source-1.png",
+          "sha256": "39b6ba0bf14fd0cfc43af1c818387bb7ef5dbdb902446ba8743607ad993eb423"
+        }
+      ],
+      "hostImageSources": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1rCzV2dZ9L29j3XqYc3X5lv2TnQBWQJfh",
+          "label": "【DL(322KB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-summer-43",
+      "no": "43",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry43.html",
+      "catalogueTitle": "夏の短編集Ⅱ　～運命の出会い語り～",
+      "detailTitle": "夏の短編集Ⅱ　～運命の出会い語り～",
+      "catalogueMetadata": {
+        "作者": "（R）DU",
+        "使用ツール": "ツクール2000",
+        "ジャンル": "見るゲ集",
+        "配信/投稿": "全然OK"
+      },
+      "sourceMetadata": {
+        "作者": "（R）DU",
+        "ジャンル": "見るゲ集",
+        "ツール": "ツクール2000",
+        "配信/投稿": "全然OK",
+        "作者コメント": "※追記：スケジュールの都合で新作3本見送らせていただきます。\n　　　　いずれスレにあげるつもりなのでよろしくお願いします。\n\n夏の陣恒例（？）の短編見るゲ集です。\n\n新作７本+去年夏の陣作品３本+リクエスト１本の計１１作品になります。\n\n今回は主に人と人との出会いをテーマにしたものが多めです。　\n\n※例によって唐突なソフトなエロ展開・グロ描写　性癖全開　有名作品の設定から逸脱した圧倒的はい説(今作は特に)の嵐です。\n一作品事に傾向は乗せていくので苦手な方は注意してください。",
+        "管理人コメント": "人と人の出会いにも、色んなカタチがありますよね。",
+        "管理人の感想": "コメント準備中…"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/i43.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss43.png",
+          "local": "/screenshots/2020-summer/43-source-1.png",
+          "sha256": "61eedadf74a47cc6e7c6b1f35c32dcf66adfcf73b306ff8e36118183cf4cee50"
+        },
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss43b.png",
+          "local": "/screenshots/2020-summer/43-source-2.png",
+          "sha256": "0d08d692db38a507aba805c99b5ddab105665f85d09c19d2f665ed909e0f0c8f"
+        }
+      ],
+      "hostImageSources": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1UXV0nno9K_vaevjBD163BPRwekAzkxY5",
+          "label": "【DL(21.1MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-summer-44",
+      "no": "44",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry44.html",
+      "catalogueTitle": "アレックスと若干不思議なダンジョン",
+      "detailTitle": "アレックスと若干不思議なダンジョン",
+      "catalogueMetadata": {
+        "作者": "脳内住民",
+        "使用ツール": "2000",
+        "ジャンル": "RPG",
+        "配信/投稿": "よかろう、やってみろ"
+      },
+      "sourceMetadata": {
+        "作者": "脳内住民",
+        "ジャンル": "RPG",
+        "ツール": "2000",
+        "配信/投稿": "よかろう、やってみろ",
+        "作者コメント": "若干ゃ遅れるのでエントリーだけ先にしておきます。",
+        "管理人コメント": "天空の地に迷い込んでそうなダンジョンだ",
+        "管理人の感想": "【未提出により保留】"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/2000.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss44.png",
+          "local": "/screenshots/2020-summer/44-source-1.png",
+          "sha256": "8e312ffdc82d3e5f1fb047dc35bcbeb855aea9a6940f8dcb14a710fcdb5525e1"
+        }
+      ],
+      "hostImageSources": [],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-summer-45",
+      "no": "45",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry45.html",
+      "catalogueTitle": "参考にならない戦闘アニメ集 あぺんどでぃすくっ",
+      "detailTitle": "参考にならない戦闘アニメ集 あぺんどでぃすくっ",
+      "catalogueMetadata": {
+        "作者": "TRICOGASTER",
+        "使用ツール": "2003",
+        "ジャンル": "見るゲー",
+        "配信/投稿": "△／×"
+      },
+      "sourceMetadata": {
+        "作者": "TRICOGASTER",
+        "ジャンル": "見るゲー",
+        "ツール": "2003",
+        "配信/投稿": "△／×",
+        "作者コメント": "VIPRPG GW祭2020で参加したものの追加修正データです。単体でも遊べます。\n\n制作期間は２カ月ちょい…過度の期待は禁物(8分音符)(要するにテヌキ)\n\n利用の際には、VIPRPG 夏の陣2011の『戦闘アニメストッカー』を\n利用させて貰うといいかもしれません。\n\n予定していたものと大分、内容が変わってしまいましたが、何とか形に出来ました。\nのんびりプレイしても20〜30分位で終わると思います。\n他作品の合間の骨休みにでも、どうぞっ。\n\n\n(以下、前回と同一)\n＞戦闘アニメの解説と利用\n作者が自己満足でツクっているゲーム用に作った戦闘アニメです。\nサイドビュー(2003デフォ戦)用に合わせているので、\n2000では使い難いと思います。\n\n利用の際は、各素材提供者さまの素材が混在していますので、ご注意を。\nご利用は計画的にっ\n\n１．元素材を提供元から手に入れる\n２．簡単にでも加工出来る技術を有している\n３．利用の際は、素材提供元と、このゲーム名の明記をする\n４．戦闘アニメの加工・名前変更等は自由\n５．加工しても素材先明記だけはする\n６．使用先のゲームの配信・動画等は問わない\n７．素材元や、このゲームの中傷目的で使わない\n８．そのままコピーして使用した際に制作者を偽らない\n９．使用して何が起きても自己責任\n\n\n＞配信について\nいないと思うけど、自分のホームページ等であれば配信、可。\nアップローダー等の不特定なとこは、不可。\n動画での配信はＮＧとさせて頂きます。\n\nレビューは暴言・中傷目的でない限りはご自由に。",
+        "管理人コメント": "戦闘アニメ素材は貴重なので助かる\n2000規格の戦闘アニメをVXAceやMV形式に変換できるTukunEditorってツールもオススメですぜ！",
+        "管理人の感想": "コメント準備中…"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/i45.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss45.png",
+          "local": "/screenshots/2020-summer/45-source-1.png",
+          "sha256": "e2958ccdd4b6e5807e836218c8d8f64ff633ecaaee261d5761364d1d82b2c853"
+        }
+      ],
+      "hostImageSources": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1prnCbzb75RTL0zwVgl9GcxAzXdjdEjFd",
+          "label": "【DL(56.8MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-summer-46",
+      "no": "46",
+      "detailUrl": "https://vipfesarc.neocities.org/s2020/entry46.html",
+      "catalogueTitle": "現出のゼレシア",
+      "detailTitle": "現出のゼレシア",
+      "catalogueMetadata": {
+        "作者": "六火",
+        "使用ツール": "RPGツクールMV",
+        "ジャンル": "全年齢RPG",
+        "配信/投稿": "可/可"
+      },
+      "sourceMetadata": {
+        "作者": "六火",
+        "ジャンル": "全年齢RPG",
+        "ツール": "RPGツクールMV",
+        "配信/投稿": "可/可",
+        "作者コメント": "大陸中央部に位置する王都ゼレシア。\n平和なこの地に突如出現した巨大地下遺跡群により、都市は大陥没を起こし国は混乱を極める。\n沈下がおさまり混乱も収束した現在は、国の調査隊や一攫千金を狙う冒険者たちにより、かつてない賑いを見せている。\n\nそしてゼレシアから遠く離れたとある村。\nこの日、少女マイラは村を出る儀式のために村長の家を訪れることになっていた。\n儀式の内容は「裏山の神殿に祭られている宝珠に触れてくること」\n例年であれば、滞りなく儀式を終えた若者たちが、村に別れを告げて王都へと旅立っていく。\n村をあげての祝祭となるはずであった――。\n\n【制作責任者から】\n貴重なスペースをお借りして挨拶させて頂きます。\n変態RPG制作サークル「六火製作所」の責任者の六火と申します。\nVIPRPG2020夏の陣を盛り上げるため、エターナルの海に沈みかけているRPGを頑張って出展しようと思います。\n9月中に出せると良いなと思っております。",
+        "管理人コメント": "あらすじが王道っぽくて面白そう！\nてかこの太ももとおっぱいで全年齢は無理があるだろおまえ！！！！！",
+        "管理人の感想": "【未提出により保留】"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://vipfesarc.neocities.org/s2020/img/icon/MV.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipfesarc.neocities.org/s2020/img/ss/ss46.png",
+          "local": "/screenshots/2020-summer/46-source-1.png",
+          "sha256": "f46435976dd1cadc4eeeb23c59f8770a5de462061e5a52df289537bcfa63abbc"
+        }
+      ],
+      "hostImageSources": [],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    }
+  ],
+  "bannerSources": [
+    {
+      "sourceKind": "source-inline-data-image",
+      "sourceHtml": "source/live/index.bin",
+      "local": "/banners/2020-summer-source-1.png",
+      "sha256": "0ed5f15f07e329fe794942e0b6f39b40bb78edde4b37981125c8c9c281ca9434"
+    }
+  ],
+  "handling": "Direct archival without topic or image-pixel screening. Preserve all 47 source catalogue entries including No.00 sample; save the original-site migration notice and its linked current source. Separate screenshot slots, author comment and the labelled organizer comment/review. No game packages downloaded or executed",
+  "desktopReview": "passed-desktop-only",
+  "desktopEvidence": "desktop-review.json"
+}
