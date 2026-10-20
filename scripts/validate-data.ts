@@ -93,7 +93,7 @@ const workSchema = {
       type: "object", additionalProperties: false,
       properties: { archivePermission: { type: "string" }, externalUsePermission: { type: "string" }, notes: { type: "string" } },
     },
-    forum: { type: "string", format: "uri" },
+    forum: { type: "string", format: "uri-reference" },
     authorComment: { type: "string" },
     hostComment: { type: "string" },
     sourceContent: { type: "string" },
