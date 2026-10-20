@@ -9,6 +9,14 @@ import { rewrite2020Script, snapshot2020Script, root2020Script } from './source-
 import { rewriteSummer2012Source } from "./source-2012-summer-view";
 
 const configurations: Record<string, { base: string; entry?: string; manifests: string[]; seeds: Record<string, string>; seedUrls?: Record<string, string>; cgiProfile?: boolean; encoding?: string; encodingOverrides?: Record<string, string>; liveSource?: boolean; disabledLocalLinks?: string[]; externalResources?: Record<string, string>; preserveExternalExtensions?: string[]; frames?: { menuPage: string; menuName: string; mainName: string } }> = {
+  "2016-kouhaku": {
+    base: "https://viprpgkohaku2016.wixsite.com/kohaku2016/",
+    manifests: ["source/replay/manifest.json"],
+    seeds: {},
+    encoding: "utf-8",
+    liveSource: true,
+    preserveExternalExtensions: [".zip", ".rar", ".7z", ".exe"],
+  },
   "2016-gw": {
     base: "http://www.geocities.jp/viprpg2016gw/",
     manifests: ["source/replay/manifest.json"],
@@ -579,7 +587,12 @@ async function main() {
       sharedHeaderTargets.push(local ? `/original-pages/${id}/${local}${url.search}${url.hash}` : url.href);
     });
   }
-  if (["2016-gw", "2017-summer", "2017-kouhaku", "2017-gw", "2018-summer", "2018-kouhaku", "2018-gw-2", "2018-gw", "2019-summer", "2019-kouhaku", "2019-gw", "2020-summer", "2020-kouhaku", "2020-gw", "2021-summer", "2021-kouhaku", "2021-gw", "2022-summer", "2022-kouhaku", "2022-gw", "2023-winter", "2023-summer", "2023-kouhaku", "2023-gw", "2024-summer", "2024-kuradashifestival", "2024-kouhaku", "2024-gw", "2025-gw", "2025-summer"].includes(id) || id === "2006-kouhaku" || id === "2012-toppuu-festival" || id === "2011-toppatsu-festival" || id === "2008-jisaku-battle-festival" || id === "2010-gw" || id === "2010-kouhaku" || id === "2010-summer") config.externalResources = recovery.originalResources;
+  if (id === "2016-kouhaku") {
+    for (const local of new Set(Object.values(recovery.originalResources) as string[])) {
+      if (local === "index.html" || local.startsWith("pages/")) sharedHeaderTargets.push(`/original-pages/${id}/${local}`);
+    }
+  }
+  if (["2016-kouhaku", "2016-gw", "2017-summer", "2017-kouhaku", "2017-gw", "2018-summer", "2018-kouhaku", "2018-gw-2", "2018-gw", "2019-summer", "2019-kouhaku", "2019-gw", "2020-summer", "2020-kouhaku", "2020-gw", "2021-summer", "2021-kouhaku", "2021-gw", "2022-summer", "2022-kouhaku", "2022-gw", "2023-winter", "2023-summer", "2023-kouhaku", "2023-gw", "2024-summer", "2024-kuradashifestival", "2024-kouhaku", "2024-gw", "2025-gw", "2025-summer"].includes(id) || id === "2006-kouhaku" || id === "2012-toppuu-festival" || id === "2011-toppatsu-festival" || id === "2008-jisaku-battle-festival" || id === "2010-gw" || id === "2010-kouhaku" || id === "2010-summer") config.externalResources = recovery.originalResources;
   const sourceDetailGapPaths = new Set<string>((recovery.sourceDetailGaps ?? []).map((gap: { sourcePath: string }) => gap.sourcePath));
   const unavailableSourcePagePaths = new Set<string>((recovery.unavailableSourcePages ?? []).map((gap: { sourcePath: string }) => gap.sourcePath));
   const previousMissing: Array<{ url: string; requestedUrl?: string; error: string }> = JSON.parse(await fs.readFile(`${root}/original-view.json`, "utf8").catch(() => "{}")).missingResources ?? [];
@@ -1255,22 +1268,22 @@ async function main() {
           compatibilityFixes.push({ page: local, change: "Constrain source screenshot cells to the desktop viewport without changing image bytes or aspect ratio; pages 11, 19 and 35 otherwise overflow with 1280px screenshots." });
         }
         // Opaque sandbox origins prevent the legacy menu from navigating its sibling frame.
-        if (id === "2024-summer" && $("#HEADER").length) {
+        if ((id === "2024-summer" && $("#HEADER").length) || (id === "2016-kouhaku" && $("#SITE_CONTAINER").length)) {
           $("head").append(`<script data-archive-header-navigation>
             addEventListener('message',function(event){
-              var header=document.querySelector('#HEADER iframe');
-              if(!header||event.source!==header.contentWindow||event.data?.type!=='archive-header-navigation')return;
+              var frames=document.querySelectorAll(${JSON.stringify(id === "2024-summer" ? '#HEADER iframe' : 'iframe[data-archive-component]')});
+              if(!Array.from(frames).some(function(frame){return event.source===frame.contentWindow})||event.data?.type!=='archive-header-navigation')return;
               var url=new URL(event.data.url,location.href);
               var allowed=${JSON.stringify(sharedHeaderTargets)}.map(function(value){return new URL(value,location.href).href;});
               if(allowed.includes(url.href))location.assign(url.href);
             });
           </script>`);
-          compatibilityFixes.push({ page: local, change: "Let the source page navigate itself after a message from its own shared header frame; accept only the six captured header destinations. Opaque sandbox origins block the original _parent navigation." });
+          compatibilityFixes.push({ page: local, change: "Let the source page navigate itself after a message from its own embedded frame; accept only the captured source-page destinations. Opaque sandbox origins block the original ancestor navigation." });
         }
-        if (id === "2024-summer" && local === "header.html") {
+        if ((id === "2024-summer" && local === "header.html") || (id === "2016-kouhaku" && local.startsWith("embedded/"))) {
           $("body").append(`<script data-archive-header-navigation>
             addEventListener('click',function(event){
-              var link=event.target.closest('a[target="_parent"][href]');
+              var link=event.target.closest(${JSON.stringify(id === "2024-summer" ? 'a[target="_parent"][href]' : 'a[data-archive-source-nav][href]')});
               if(!link||parent===window)return;
               event.preventDefault();parent.postMessage({type:'archive-header-navigation',url:link.href},'*');
             });
