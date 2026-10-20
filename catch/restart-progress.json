@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2023-kouhaku",
+  "activeFestival": "2023-summer",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -1497,6 +1497,36 @@
         "catch/2023-gw/desktop-review.json"
       ],
       "notes": "日本源站38份HTML与117份资源原始响应全部归档、校验；37项含00样例，既有ID、编号和题名保持不变。恢复55张实际显示／悬停截图、37处图标引用、原文留言、33个下载入口与2条当前祭典嵌入横幅；21号JPEG悬停图补回1张，目录31份AVIF格式预览对应33处引用单独保留，不重复加入画廊。06、24源站未记作者，明确标记省略；05工具、27作者、30类型的目录／详情差异同时保留，引用符号不擅自删去。AVIF共用识别及本地引用修复独立提交5b535f57。原貌155文件、586本地引用含33处srcset，无缺失或外部自动加载；19处内嵌图片含2条本祭横幅与17条历届横幅。11、19、35宽幅截图在桌面按比例缩放，原图字节不变；末尾不存在的37号NEXT经源站404和香港CDX无记录核对后停用。37整理详情及38原貌文档桌面通过，167处图片最终加载正常；翻页、返回、JPEG悬停及查看器已验证。游戏包未下载。"
+    },
+    {
+      "festivalId": "2023-kouhaku",
+      "reviewedAt": "2026-10-20",
+      "dataSha256": "5634643a4f18bd4e9290fea71d574a7d34e51146cd94eb2e3ff331052365b143",
+      "status": "reviewed-with-exceptions",
+      "works": 44,
+      "screenshotFiles": 93,
+      "screenshotReferences": 93,
+      "iconFiles": 43,
+      "downloadEntries": 36,
+      "downloadLinks": 57,
+      "originalCatalogueCompleteness": "verified-public-website-backup-and-official-archived-44-item-catalogue",
+      "outstandingSourceDetails": 0,
+      "outstandingImageSourceUrls": 1,
+      "outstandingScreenshotRows": 0,
+      "outstandingOtherResources": 1,
+      "packageBytesValidated": false,
+      "sourceEvidence": [
+        "catch/2023-kouhaku/recovery.json",
+        "catch/2023-kouhaku/source-comparison.json",
+        "catch/2023-kouhaku/source/website-backup/manifest.json",
+        "catch/2023-kouhaku/source/archive/manifest.json",
+        "catch/2023-kouhaku/investigation/archived-detail-comparison.json",
+        "catch/2023-kouhaku/investigation/replay-closure.json"
+      ],
+      "desktopEvidence": [
+        "catch/2023-kouhaku/desktop-review.json"
+      ],
+      "notes": "日本源站当前TLS连接失败，按公开网站备份精确范围取得246文件并核对CRC/SHA，126份脚本、字体依赖全部校验；后期官方首页及12份详情存档的原始摘要与CDX一致。44项保留既有ID和题名，恢复93截图、43图标、44份作者及主办原文留言、36项共57个下载入口和4条横幅。34号原无图标，不补造；官网目录与详情下载入口合并，空地址／目录地址停用并保留来源说明。原貌371文件、48份HTML、1377处本地引用无缺失及外部自动加载；修正另存index[1]与书签图标路径。排名页09号GIF变体与21号CSV在备份及所查存档中未取得，前者明确注明使用同号PNG，后者保留不可用说明；33份实际CSV原样保存。44整理详情及48原貌文档桌面布局通过；目录展开、往返、轮播、排名排序、查看器已验证。排名评论展开标签因浏览器工具超时尚未确认，原始控制结构保留并记录此限度。不审看内容、不新增受限；游戏包未下载。"
     }
   ],
   "originalViewsReviewed": [
@@ -1838,6 +1868,13 @@
       "evidence": [
         "catch/2023-gw/original-view.json",
         "catch/2023-gw/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2023-kouhaku",
+      "evidence": [
+        "catch/2023-kouhaku/original-view.json",
+        "catch/2023-kouhaku/desktop-review.json"
       ]
     }
   ],

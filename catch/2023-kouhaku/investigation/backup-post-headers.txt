@@ -1,0 +1,16 @@
+HTTP/1.1 200 Connection established
+
+HTTP/1.1 200 OK
+Date: Tue, 20 Oct 2026 02:50:06 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: cloudflare
+Vary: Host,Accept-Encoding
+P3P: CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=588Sa5glMN2OobXwDuiQ2zGes6uUnZcjdsQA2%2BaPAp5y3PDvxc0ncO5MrXnu5ATW055Kq0AFLvLO0ZeIhUXChdtcjBP2HHNvOdxLORhmriotMUjKsNgdI1uluWLWHwReM3nn2yI%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-cache-status: DYNAMIC
+CF-RAY: a4d4b690b801e375-NRT
+alt-svc: h3=":443"; ma=86400
+

@@ -1,0 +1,1783 @@
+{
+  "festivalId": "2023-kouhaku",
+  "originalBase": "https://viprpg23k.web.fc2.com/",
+  "sourceMode": "verified-public-website-backup-with-later-official-archived-index",
+  "publicBackupPage": "https://ux.getuploader.com/kahitoyou/download/14",
+  "officialIndexSnapshot": "https://web.archive.org/web/20240914091217id_/https://viprpg23k.web.fc2.com/",
+  "sourceManifests": [
+    "source/replay/manifest.json"
+  ],
+  "originalResources": {
+    "https://viprpg23k.web.fc2.com/css/flickity.min.css": "css/flickity.min.css",
+    "https://viprpg23k.web.fc2.com/css/style.css": "css/style.css",
+    "https://viprpg23k.web.fc2.com/entry/01.html": "entry/01.html",
+    "https://viprpg23k.web.fc2.com/entry/02.html": "entry/02.html",
+    "https://viprpg23k.web.fc2.com/entry/03.html": "entry/03.html",
+    "https://viprpg23k.web.fc2.com/entry/04.html": "entry/04.html",
+    "https://viprpg23k.web.fc2.com/entry/05.html": "entry/05.html",
+    "https://viprpg23k.web.fc2.com/entry/06.html": "entry/06.html",
+    "https://viprpg23k.web.fc2.com/entry/07.html": "entry/07.html",
+    "https://viprpg23k.web.fc2.com/entry/08.html": "entry/08.html",
+    "https://viprpg23k.web.fc2.com/entry/09.html": "entry/09.html",
+    "https://viprpg23k.web.fc2.com/entry/10.html": "entry/10.html",
+    "https://viprpg23k.web.fc2.com/entry/11.html": "entry/11.html",
+    "https://viprpg23k.web.fc2.com/entry/12.html": "entry/12.html",
+    "https://viprpg23k.web.fc2.com/entry/13.html": "entry/13.html",
+    "https://viprpg23k.web.fc2.com/entry/14.html": "entry/14.html",
+    "https://viprpg23k.web.fc2.com/entry/15.html": "entry/15.html",
+    "https://viprpg23k.web.fc2.com/entry/16.html": "entry/16.html",
+    "https://viprpg23k.web.fc2.com/entry/17.html": "entry/17.html",
+    "https://viprpg23k.web.fc2.com/entry/18.html": "entry/18.html",
+    "https://viprpg23k.web.fc2.com/entry/19.html": "entry/19.html",
+    "https://viprpg23k.web.fc2.com/entry/20.html": "entry/20.html",
+    "https://viprpg23k.web.fc2.com/entry/21.html": "entry/21.html",
+    "https://viprpg23k.web.fc2.com/entry/22.html": "entry/22.html",
+    "https://viprpg23k.web.fc2.com/entry/23.html": "entry/23.html",
+    "https://viprpg23k.web.fc2.com/entry/24.html": "entry/24.html",
+    "https://viprpg23k.web.fc2.com/entry/25.html": "entry/25.html",
+    "https://viprpg23k.web.fc2.com/entry/26.html": "entry/26.html",
+    "https://viprpg23k.web.fc2.com/entry/27.html": "entry/27.html",
+    "https://viprpg23k.web.fc2.com/entry/28.html": "entry/28.html",
+    "https://viprpg23k.web.fc2.com/entry/29.html": "entry/29.html",
+    "https://viprpg23k.web.fc2.com/entry/30.html": "entry/30.html",
+    "https://viprpg23k.web.fc2.com/entry/31.html": "entry/31.html",
+    "https://viprpg23k.web.fc2.com/entry/32.html": "entry/32.html",
+    "https://viprpg23k.web.fc2.com/entry/33.html": "entry/33.html",
+    "https://viprpg23k.web.fc2.com/entry/34.html": "entry/34.html",
+    "https://viprpg23k.web.fc2.com/entry/35.html": "entry/35.html",
+    "https://viprpg23k.web.fc2.com/entry/36.html": "entry/36.html",
+    "https://viprpg23k.web.fc2.com/entry/37.html": "entry/37.html",
+    "https://viprpg23k.web.fc2.com/entry/38.html": "entry/38.html",
+    "https://viprpg23k.web.fc2.com/entry/39.html": "entry/39.html",
+    "https://viprpg23k.web.fc2.com/entry/40.html": "entry/40.html",
+    "https://viprpg23k.web.fc2.com/entry/41.html": "entry/41.html",
+    "https://viprpg23k.web.fc2.com/entry/42.html": "entry/42.html",
+    "https://viprpg23k.web.fc2.com/entry/43.html": "entry/43.html",
+    "https://viprpg23k.web.fc2.com/entry/44.html": "entry/44.html",
+    "https://viprpg23k.web.fc2.com/entry/csv/1.csv": "entry/csv/1.csv",
+    "https://viprpg23k.web.fc2.com/entry/csv/10.csv": "entry/csv/10.csv",
+    "https://viprpg23k.web.fc2.com/entry/csv/11.csv": "entry/csv/11.csv",
+    "https://viprpg23k.web.fc2.com/entry/csv/12.csv": "entry/csv/12.csv",
+    "https://viprpg23k.web.fc2.com/entry/csv/13.csv": "entry/csv/13.csv",
+    "https://viprpg23k.web.fc2.com/entry/csv/14.csv": "entry/csv/14.csv",
+    "https://viprpg23k.web.fc2.com/entry/csv/15.csv": "entry/csv/15.csv",
+    "https://viprpg23k.web.fc2.com/entry/csv/16.csv": "entry/csv/16.csv",
+    "https://viprpg23k.web.fc2.com/entry/csv/17.csv": "entry/csv/17.csv",
+    "https://viprpg23k.web.fc2.com/entry/csv/18.csv": "entry/csv/18.csv",
+    "https://viprpg23k.web.fc2.com/entry/csv/19.csv": "entry/csv/19.csv",
+    "https://viprpg23k.web.fc2.com/entry/csv/20.csv": "entry/csv/20.csv",
+    "https://viprpg23k.web.fc2.com/entry/csv/23.csv": "entry/csv/23.csv",
+    "https://viprpg23k.web.fc2.com/entry/csv/24.csv": "entry/csv/24.csv",
+    "https://viprpg23k.web.fc2.com/entry/csv/25.csv": "entry/csv/25.csv",
+    "https://viprpg23k.web.fc2.com/entry/csv/27.csv": "entry/csv/27.csv",
+    "https://viprpg23k.web.fc2.com/entry/csv/28.csv": "entry/csv/28.csv",
+    "https://viprpg23k.web.fc2.com/entry/csv/29.csv": "entry/csv/29.csv",
+    "https://viprpg23k.web.fc2.com/entry/csv/3.csv": "entry/csv/3.csv",
+    "https://viprpg23k.web.fc2.com/entry/csv/30.csv": "entry/csv/30.csv",
+    "https://viprpg23k.web.fc2.com/entry/csv/31.csv": "entry/csv/31.csv",
+    "https://viprpg23k.web.fc2.com/entry/csv/32.csv": "entry/csv/32.csv",
+    "https://viprpg23k.web.fc2.com/entry/csv/33.csv": "entry/csv/33.csv",
+    "https://viprpg23k.web.fc2.com/entry/csv/34.csv": "entry/csv/34.csv",
+    "https://viprpg23k.web.fc2.com/entry/csv/35.csv": "entry/csv/35.csv",
+    "https://viprpg23k.web.fc2.com/entry/csv/37.csv": "entry/csv/37.csv",
+    "https://viprpg23k.web.fc2.com/entry/csv/39.csv": "entry/csv/39.csv",
+    "https://viprpg23k.web.fc2.com/entry/csv/4.csv": "entry/csv/4.csv",
+    "https://viprpg23k.web.fc2.com/entry/csv/40.csv": "entry/csv/40.csv",
+    "https://viprpg23k.web.fc2.com/entry/csv/43.csv": "entry/csv/43.csv",
+    "https://viprpg23k.web.fc2.com/entry/csv/44.csv": "entry/csv/44.csv",
+    "https://viprpg23k.web.fc2.com/entry/csv/5.csv": "entry/csv/5.csv",
+    "https://viprpg23k.web.fc2.com/entry/csv/7.csv": "entry/csv/7.csv",
+    "https://viprpg23k.web.fc2.com/entry/gameover.html": "entry/gameover.html",
+    "https://viprpg23k.web.fc2.com/entry/img/i01.gif": "entry/img/i01.gif",
+    "https://viprpg23k.web.fc2.com/entry/img/i02.png": "entry/img/i02.png",
+    "https://viprpg23k.web.fc2.com/entry/img/i03.gif": "entry/img/i03.gif",
+    "https://viprpg23k.web.fc2.com/entry/img/i04.png": "entry/img/i04.png",
+    "https://viprpg23k.web.fc2.com/entry/img/i05.png": "entry/img/i05.png",
+    "https://viprpg23k.web.fc2.com/entry/img/i06.png": "entry/img/i06.png",
+    "https://viprpg23k.web.fc2.com/entry/img/i07.png": "entry/img/i07.png",
+    "https://viprpg23k.web.fc2.com/entry/img/i08.png": "entry/img/i08.png",
+    "https://viprpg23k.web.fc2.com/entry/img/i10.png": "entry/img/i10.png",
+    "https://viprpg23k.web.fc2.com/entry/img/i11.png": "entry/img/i11.png",
+    "https://viprpg23k.web.fc2.com/entry/img/i13.png": "entry/img/i13.png",
+    "https://viprpg23k.web.fc2.com/entry/img/i15.png": "entry/img/i15.png",
+    "https://viprpg23k.web.fc2.com/entry/img/i16.png": "entry/img/i16.png",
+    "https://viprpg23k.web.fc2.com/entry/img/i18.png": "entry/img/i18.png",
+    "https://viprpg23k.web.fc2.com/entry/img/i19.png": "entry/img/i19.png",
+    "https://viprpg23k.web.fc2.com/entry/img/i20.png": "entry/img/i20.png",
+    "https://viprpg23k.web.fc2.com/entry/img/i21.png": "entry/img/i21.png",
+    "https://viprpg23k.web.fc2.com/entry/img/i22.png": "entry/img/i22.png",
+    "https://viprpg23k.web.fc2.com/entry/img/i23.png": "entry/img/i23.png",
+    "https://viprpg23k.web.fc2.com/entry/img/i25.png": "entry/img/i25.png",
+    "https://viprpg23k.web.fc2.com/entry/img/i27.png": "entry/img/i27.png",
+    "https://viprpg23k.web.fc2.com/entry/img/i28.png": "entry/img/i28.png",
+    "https://viprpg23k.web.fc2.com/entry/img/i29.jpg": "entry/img/i29.jpg",
+    "https://viprpg23k.web.fc2.com/entry/img/i30.png": "entry/img/i30.png",
+    "https://viprpg23k.web.fc2.com/entry/img/i31.png": "entry/img/i31.png",
+    "https://viprpg23k.web.fc2.com/entry/img/i33.png": "entry/img/i33.png",
+    "https://viprpg23k.web.fc2.com/entry/img/i35.png": "entry/img/i35.png",
+    "https://viprpg23k.web.fc2.com/entry/img/i36.png": "entry/img/i36.png",
+    "https://viprpg23k.web.fc2.com/entry/img/i37.png": "entry/img/i37.png",
+    "https://viprpg23k.web.fc2.com/entry/img/i38.png": "entry/img/i38.png",
+    "https://viprpg23k.web.fc2.com/entry/img/i39.png": "entry/img/i39.png",
+    "https://viprpg23k.web.fc2.com/entry/img/i40.png": "entry/img/i40.png",
+    "https://viprpg23k.web.fc2.com/entry/img/i41.png": "entry/img/i41.png",
+    "https://viprpg23k.web.fc2.com/entry/img/i42.png": "entry/img/i42.png",
+    "https://viprpg23k.web.fc2.com/entry/img/i43.png": "entry/img/i43.png",
+    "https://viprpg23k.web.fc2.com/entry/img/i44.png": "entry/img/i44.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS01_1.jpg": "entry/img/SS01_1.jpg",
+    "https://viprpg23k.web.fc2.com/entry/img/SS01_2.png": "entry/img/SS01_2.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS01_3.png": "entry/img/SS01_3.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS02_1.png": "entry/img/SS02_1.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS02_2.png": "entry/img/SS02_2.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS03_1.gif": "entry/img/SS03_1.gif",
+    "https://viprpg23k.web.fc2.com/entry/img/SS03_2.png": "entry/img/SS03_2.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS04_1.jpg": "entry/img/SS04_1.jpg",
+    "https://viprpg23k.web.fc2.com/entry/img/SS05_1.png": "entry/img/SS05_1.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS06_1.png": "entry/img/SS06_1.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS06_2.png": "entry/img/SS06_2.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS07_1.png": "entry/img/SS07_1.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS08_1.png": "entry/img/SS08_1.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS08_2.png": "entry/img/SS08_2.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS08_3.png": "entry/img/SS08_3.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS08_4.png": "entry/img/SS08_4.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS09_1.png": "entry/img/SS09_1.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS10_1.png": "entry/img/SS10_1.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS11_1.png": "entry/img/SS11_1.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS11_2.png": "entry/img/SS11_2.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS11_3.png": "entry/img/SS11_3.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS11_4.png": "entry/img/SS11_4.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS12_1.png": "entry/img/SS12_1.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS12_2.png": "entry/img/SS12_2.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS12_3.png": "entry/img/SS12_3.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS12_4.png": "entry/img/SS12_4.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS13_1.png": "entry/img/SS13_1.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS13_2.png": "entry/img/SS13_2.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS14_1.png": "entry/img/SS14_1.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS14_2.png": "entry/img/SS14_2.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS15_1.png": "entry/img/SS15_1.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS15_2.png": "entry/img/SS15_2.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS16_1.png": "entry/img/SS16_1.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS16_2.png": "entry/img/SS16_2.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS17_1.jpg": "entry/img/SS17_1.jpg",
+    "https://viprpg23k.web.fc2.com/entry/img/SS17_2.jpg": "entry/img/SS17_2.jpg",
+    "https://viprpg23k.web.fc2.com/entry/img/SS17_3.jpg": "entry/img/SS17_3.jpg",
+    "https://viprpg23k.web.fc2.com/entry/img/SS18_1.jpg": "entry/img/SS18_1.jpg",
+    "https://viprpg23k.web.fc2.com/entry/img/SS18_2.png": "entry/img/SS18_2.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS18_3.png": "entry/img/SS18_3.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS19_1.png": "entry/img/SS19_1.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS19_2.png": "entry/img/SS19_2.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS19_3.png": "entry/img/SS19_3.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS19_4.png": "entry/img/SS19_4.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS19_5.png": "entry/img/SS19_5.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS19_6.png": "entry/img/SS19_6.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS20_1.png": "entry/img/SS20_1.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS20_2.png": "entry/img/SS20_2.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS21_1.png": "entry/img/SS21_1.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS21_2.png": "entry/img/SS21_2.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS22_1.png": "entry/img/SS22_1.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS22_2.png": "entry/img/SS22_2.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS22_3.png": "entry/img/SS22_3.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS23_1.png": "entry/img/SS23_1.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS23_2.png": "entry/img/SS23_2.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS24_1.png": "entry/img/SS24_1.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS25_1.png": "entry/img/SS25_1.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS25_2.png": "entry/img/SS25_2.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS26_1.png": "entry/img/SS26_1.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS27_1.png": "entry/img/SS27_1.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS27_2.png": "entry/img/SS27_2.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS28_1.png": "entry/img/SS28_1.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS29_1.jpg": "entry/img/SS29_1.jpg",
+    "https://viprpg23k.web.fc2.com/entry/img/SS29_2.jpg": "entry/img/SS29_2.jpg",
+    "https://viprpg23k.web.fc2.com/entry/img/SS29_3.jpg": "entry/img/SS29_3.jpg",
+    "https://viprpg23k.web.fc2.com/entry/img/SS30_1.png": "entry/img/SS30_1.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS30_2.png": "entry/img/SS30_2.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS31_1.png": "entry/img/SS31_1.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS32_1.png": "entry/img/SS32_1.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS32_2.png": "entry/img/SS32_2.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS32_3.png": "entry/img/SS32_3.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS33_1.png": "entry/img/SS33_1.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS33_2.png": "entry/img/SS33_2.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS35_1.png": "entry/img/SS35_1.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS36_1.png": "entry/img/SS36_1.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS36_2.png": "entry/img/SS36_2.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS37_1.png": "entry/img/SS37_1.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS37_2.png": "entry/img/SS37_2.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS37_3.png": "entry/img/SS37_3.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS37_4.png": "entry/img/SS37_4.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS38_1.png": "entry/img/SS38_1.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS39_1.png": "entry/img/SS39_1.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS40_1.png": "entry/img/SS40_1.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS40_2.png": "entry/img/SS40_2.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS40_3.png": "entry/img/SS40_3.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS41_1.png": "entry/img/SS41_1.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS41_2.png": "entry/img/SS41_2.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS42_1.png": "entry/img/SS42_1.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS43_1.png": "entry/img/SS43_1.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS43_2.png": "entry/img/SS43_2.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS43_3.png": "entry/img/SS43_3.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS44_1.png": "entry/img/SS44_1.png",
+    "https://viprpg23k.web.fc2.com/entry/img/SS44_2.png": "entry/img/SS44_2.png",
+    "https://viprpg23k.web.fc2.com/entry/vote_results.html": "entry/vote_results.html",
+    "https://viprpg23k.web.fc2.com/favicon.ico": "favicon.ico",
+    "https://viprpg23k.web.fc2.com/img/ac2311.png": "img/ac2311.png",
+    "https://viprpg23k.web.fc2.com/img/ac2312.png": "img/ac2312.png",
+    "https://viprpg23k.web.fc2.com/img/ac2401.png": "img/ac2401.png",
+    "https://viprpg23k.web.fc2.com/img/ac2402.png": "img/ac2402.png",
+    "https://viprpg23k.web.fc2.com/img/ac2403.png": "img/ac2403.png",
+    "https://viprpg23k.web.fc2.com/img/apple-touch-icon.png": "img/apple-touch-icon.png",
+    "https://viprpg23k.web.fc2.com/img/banner23.png": "img/banner23.png",
+    "https://viprpg23k.web.fc2.com/img/banner23_01.png": "img/banner23_01.png",
+    "https://viprpg23k.web.fc2.com/img/banner23_02.png": "img/banner23_02.png",
+    "https://viprpg23k.web.fc2.com/img/banner23_03.png": "img/banner23_03.png",
+    "https://viprpg23k.web.fc2.com/img/banner23_ryuken.png": "img/banner23_ryuken.png",
+    "https://viprpg23k.web.fc2.com/img/past/05.png": "img/past/05.png",
+    "https://viprpg23k.web.fc2.com/img/past/06.png": "img/past/06.png",
+    "https://viprpg23k.web.fc2.com/img/past/07.png": "img/past/07.png",
+    "https://viprpg23k.web.fc2.com/img/past/08.png": "img/past/08.png",
+    "https://viprpg23k.web.fc2.com/img/past/09.png": "img/past/09.png",
+    "https://viprpg23k.web.fc2.com/img/past/10.png": "img/past/10.png",
+    "https://viprpg23k.web.fc2.com/img/past/11.png": "img/past/11.png",
+    "https://viprpg23k.web.fc2.com/img/past/12.png": "img/past/12.png",
+    "https://viprpg23k.web.fc2.com/img/past/13.png": "img/past/13.png",
+    "https://viprpg23k.web.fc2.com/img/past/14.png": "img/past/14.png",
+    "https://viprpg23k.web.fc2.com/img/past/15.png": "img/past/15.png",
+    "https://viprpg23k.web.fc2.com/img/past/16.png": "img/past/16.png",
+    "https://viprpg23k.web.fc2.com/img/past/17.png": "img/past/17.png",
+    "https://viprpg23k.web.fc2.com/img/past/18.png": "img/past/18.png",
+    "https://viprpg23k.web.fc2.com/img/past/19.png": "img/past/19.png",
+    "https://viprpg23k.web.fc2.com/img/past/20.png": "img/past/20.png",
+    "https://viprpg23k.web.fc2.com/img/past/21.png": "img/past/21.png",
+    "https://viprpg23k.web.fc2.com/img/past/22.png": "img/past/22.png",
+    "https://viprpg23k.web.fc2.com/info.html": "info.html",
+    "https://viprpg23k.web.fc2.com/js/flickity.pkgd.min.js": "js/flickity.pkgd.min.js",
+    "https://viprpg23k.web.fc2.com/js/jquery-3.7.0.min.js": "js/jquery-3.7.0.min.js",
+    "https://viprpg23k.web.fc2.com/js/table_vote.js": "js/table_vote.js",
+    "https://viprpg23k.web.fc2.com/": "index.html",
+    "https://viprpg23k.web.fc2.com/index.html": "index.html",
+    "https://fonts.googleapis.com/css2?family=DotGothic16&display=swap": "css/5996abc8e4cd74afe2151a6a.css",
+    "https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js": "js/0de5e5bb3196b2c5a4a3ec33.js",
+    "http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js": "js/423817ed398418544613d071.js",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.0.woff2": "fonts/c7ca351a76cca614bd68ba43.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.1.woff2": "fonts/1803f44a66039893d602a1f5.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.2.woff2": "fonts/5e2b24f3783eb5678dfd5c83.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.3.woff2": "fonts/ab17ead079a72ccfe37e7e74.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.4.woff2": "fonts/43394c78f3eea45b6b5648a5.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.5.woff2": "fonts/e2feb9a9b7bf018203404fa3.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.6.woff2": "fonts/5c038dc0bda09a3a2fed971c.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.7.woff2": "fonts/dd59d0ce6b4b27c686dee75d.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.8.woff2": "fonts/b1ec7b84ce575c52266b4cbb.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.9.woff2": "fonts/fd5cd1d68d0c19a153eae460.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.10.woff2": "fonts/0e10ddad6153124106c1a5e9.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.11.woff2": "fonts/834e34b90efcfa09247e9ea8.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.12.woff2": "fonts/42bdc6501639efc393fe8cf6.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.13.woff2": "fonts/0a72917744b7d3cd1082ed0c.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.15.woff2": "fonts/d8e053d36ffbb651f4426480.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.14.woff2": "fonts/d1ed71e750654f847e8a3c62.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.16.woff2": "fonts/90e5b5ecb9bd448cca97b4d5.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.17.woff2": "fonts/7464eafc64af00a0b5787487.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.18.woff2": "fonts/b790b22498bd94135a027304.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.19.woff2": "fonts/ae24fd1f9ea85544c4dac113.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.21.woff2": "fonts/97a8e089473710cfd9e2a431.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.20.woff2": "fonts/50e3c836643ffbbc6c6a1dba.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.22.woff2": "fonts/3d8aee28c3cc227b3521572f.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.23.woff2": "fonts/79cf24f5b0f7d8e2b120fa2d.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.25.woff2": "fonts/eda27824d8ad2f88913b1b1a.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.24.woff2": "fonts/bf7aa6c6ce36d815ba107b39.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.26.woff2": "fonts/6d25a388e551d7c734781409.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.27.woff2": "fonts/4de7bcd7ea661e2c8f65cdcf.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.28.woff2": "fonts/d7128718b2ed8935d990389c.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.30.woff2": "fonts/42e9f698357daeca1edcee1e.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.31.woff2": "fonts/2892823a9c34a1fa6e1555b0.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.29.woff2": "fonts/bbe065e02c39da6361326714.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.35.woff2": "fonts/163c7378010e5783cc19a4be.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.33.woff2": "fonts/1b7bed1a8dd0b716d6eb563f.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.32.woff2": "fonts/2b82cc692d2362cc294f6ec1.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.34.woff2": "fonts/ef43ad4f6fd60bed675222eb.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.38.woff2": "fonts/cca02aea311a6d33c13066e9.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.37.woff2": "fonts/f5355b43b2a419f4f77654ff.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.36.woff2": "fonts/d01ca18e8845bb595a440b23.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.39.woff2": "fonts/e61c401f6dd5face7d967f8b.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.40.woff2": "fonts/cdb937530bc049cca0491c27.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.42.woff2": "fonts/11b0620715fe7e13814c5c80.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.43.woff2": "fonts/d136d06b9546731459ce74e4.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.41.woff2": "fonts/1faeb768d8400d7933e80fcb.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.44.woff2": "fonts/f144668b4f3e946ec38fb865.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.45.woff2": "fonts/cc2a11d05d2e76b88b2c4ce8.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.47.woff2": "fonts/d58fdc08ab2637a5d2906185.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.46.woff2": "fonts/c8cbaa4e5cc90abc73a550c4.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.49.woff2": "fonts/85255fecd659725a4de8c32b.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.48.woff2": "fonts/2f228aa35fed623e9f7b173b.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.51.woff2": "fonts/e92a102240df347aee2d190f.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.50.woff2": "fonts/38150c3bd503d0021d08180c.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.55.woff2": "fonts/81d70d48ec5e85f294176b9e.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.52.woff2": "fonts/a84a185f65c0ff093481f980.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.53.woff2": "fonts/833fb3904ac63072dece8c2c.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.54.woff2": "fonts/4f79f3d3892eab627b56b91b.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.59.woff2": "fonts/aefd744d9374bc135b82cdb6.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.57.woff2": "fonts/c9246531892f06a26829f0b4.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.56.woff2": "fonts/2928be09faae11b1370c0f3a.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.58.woff2": "fonts/b410777d4e0241dae16f0a98.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.61.woff2": "fonts/d987d6520964e3aba8b13a65.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.62.woff2": "fonts/b2d43e87750c31af0b51a3ca.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.60.woff2": "fonts/bbca38cd8a892e416f73faba.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.63.woff2": "fonts/b2ed88ba2ea8a1548304da70.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.64.woff2": "fonts/c4dfc3ad589455082b8fc6cf.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.65.woff2": "fonts/f8203d40c727822c0762941f.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.66.woff2": "fonts/049eb1c4409f30123599d2a7.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.67.woff2": "fonts/e93e0d8ed2c04d8be8ff7848.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.68.woff2": "fonts/256179fb517094278a204d1d.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.70.woff2": "fonts/7eb95e8847c8896cc1b00821.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.69.woff2": "fonts/599c5616073bdf85a045495c.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.71.woff2": "fonts/c815e20f0c77ee2572be6cd7.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.72.woff2": "fonts/f68a487be859bfb769f04523.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.73.woff2": "fonts/aa63e849858ab51ca2104c6c.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.74.woff2": "fonts/4b439440c1cff121d5b93b3d.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.75.woff2": "fonts/7f0c42423632290e82354566.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.76.woff2": "fonts/88cc80597c897ed3982a5bad.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.77.woff2": "fonts/d157c8ab12dba2fbe6a654ab.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.78.woff2": "fonts/e60896b82e735bb8404ffe71.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.79.woff2": "fonts/4adb05c3ac90a44fef72e1f5.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.80.woff2": "fonts/f76fc50f2c1661ea76b1fb6e.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.81.woff2": "fonts/da49a88c379351307ea17959.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.83.woff2": "fonts/c94e268337d2613088aeb5d2.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.82.woff2": "fonts/2cfe1d0f75a203f178796e5a.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.84.woff2": "fonts/3fdcc292625db845698180dd.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.85.woff2": "fonts/b73c6eb451ea662944def0b2.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.86.woff2": "fonts/3063a7ef58bf69aa5930745d.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.87.woff2": "fonts/d0a56ffc9d7b4dca2da3c43e.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.88.woff2": "fonts/f43cd7e66a26483cac395be3.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.90.woff2": "fonts/2ef2d2216b7c379bf2c722ef.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.89.woff2": "fonts/49b3920a9e64b13e8f5b0e59.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.91.woff2": "fonts/8f82f6aeef103f6387f9f9b1.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.93.woff2": "fonts/007c85549c9706a793281a3d.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.92.woff2": "fonts/608170413995f0cd90dffef4.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.94.woff2": "fonts/863bc0b08832d93a87357359.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.95.woff2": "fonts/9b4ed74ae8fd2d737bc137d9.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.96.woff2": "fonts/4879818efcb282126be69d96.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.97.woff2": "fonts/17f1409025f1aefa646046ac.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.99.woff2": "fonts/7f7d548c5ffe9fab27b002e8.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.98.woff2": "fonts/5585cda9372618f276135ede.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.101.woff2": "fonts/7df1e05d07fd3d7104baf0dd.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.103.woff2": "fonts/8345b87597caa2d1d114c080.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.100.woff2": "fonts/b7c46f0d6a012245b75ec6b3.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.102.woff2": "fonts/824747bf0c33e73cc47652e1.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.104.woff2": "fonts/6d5640b33179a2a6b6e4e6d6.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.107.woff2": "fonts/7877d795fb0de91168171c6f.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.105.woff2": "fonts/0b6b2b37873d6f5ff29b1c29.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.106.woff2": "fonts/4b2201688649184b20dadc4f.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.109.woff2": "fonts/e521fe32c190ccc5119129f2.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.110.woff2": "fonts/2b9d15176880ee947c15ad11.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.108.woff2": "fonts/2dcde44b91920dc32c25ab7d.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.111.woff2": "fonts/6db11f200a44ece0386662b1.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.113.woff2": "fonts/f302afbf778008f65f6af774.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.114.woff2": "fonts/32331a24372097bdf018d35f.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.115.woff2": "fonts/678007c95908deee81a46159.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.112.woff2": "fonts/195de469f6b09e4e6994012e.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.119.woff2": "fonts/1f3f1657f55fa776379fe6bc.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.116.woff2": "fonts/b7290855e7444b2a9eb22b4a.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.117.woff2": "fonts/7b273a567ffff3afebd2adf0.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGE7Oi25aLSizIM9pT7D_QAno5281PZBz6w.118.woff2": "fonts/3043a35d8fef91dd6d550ea7.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGH7I6X9oPA.woff2": "fonts/abf6f09224f5a4d1855da305.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGH7C6X9oPA.woff2": "fonts/d3f4575a0b91da0254804a53.woff2",
+    "https://fonts.gstatic.com/s/dotgothic16/v22/v6-QGYjBJFKgyw5nSoDAGH7M6X8.woff2": "fonts/b5e2e8553caded3c59584d61.woff2"
+  },
+  "entries": [
+    {
+      "id": "2023-kouhaku-work-01",
+      "no": "01",
+      "detailUrl": "https://viprpg23k.web.fc2.com/entry/01.html",
+      "sourceFile": "source/website-backup/files/entry/01.html",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS01_1.jpg",
+          "local": "/screenshots/2023-kouhaku/01-source-1.jpg",
+          "sha256": "f0178ea6b36da74819c4a0d33f94c663bfec89ef8e62d03b2e6085e4e1b99656"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS01_2.png",
+          "local": "/screenshots/2023-kouhaku/01-source-2.png",
+          "sha256": "c556657af38919e95cff90270917efd6a7df45a91b96299509802300a6659552"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS01_3.png",
+          "local": "/screenshots/2023-kouhaku/01-source-3.png",
+          "sha256": "871362b4d13f69c473f5fd75624a22865c8cc49de9b8c038c5a9f35f2745b715"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg23k.web.fc2.com/entry/img/i01.gif",
+      "downloadLinks": [
+        {
+          "url": "https://yabeeboy.itch.io/dddk",
+          "label": "DL(itch.io)"
+        },
+        {
+          "url": "https://ux.getuploader.com/viprpg2023k_dl3/download/9",
+          "label": "DL"
+        },
+        {
+          "url": "https://ux.getuploader.com/viprpg2023k_dl3/download/15",
+          "label": "DL(EN)"
+        }
+      ],
+      "unavailableDownloadButtons": [],
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2023-kouhaku-work-02",
+      "no": "02",
+      "detailUrl": "https://viprpg23k.web.fc2.com/entry/02.html",
+      "sourceFile": "source/website-backup/files/entry/02.html",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS02_1.png",
+          "local": "/screenshots/2023-kouhaku/02-source-1.png",
+          "sha256": "613a7f06f321614625c44e309a3f043f22abcb947887df368e756858e49760e9"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS02_2.png",
+          "local": "/screenshots/2023-kouhaku/02-source-2.png",
+          "sha256": "bae609b6e2d950216b336498f34e4222fa757dd8c0593bf3a68138ced3e11341"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg23k.web.fc2.com/entry/img/i02.png",
+      "downloadLinks": [],
+      "unavailableDownloadButtons": [],
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2023-kouhaku-work-03",
+      "no": "03",
+      "detailUrl": "https://viprpg23k.web.fc2.com/entry/03.html",
+      "sourceFile": "source/website-backup/files/entry/03.html",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS03_1.gif",
+          "local": "/screenshots/2023-kouhaku/03-source-1.gif",
+          "sha256": "ee6be45beb62c0db458bea6618538ac7c88500053e89ff93300adef969c1fd0a"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS03_2.png",
+          "local": "/screenshots/2023-kouhaku/03-source-2.png",
+          "sha256": "b5bb6a6e6b75f1c14dc39cd2a88090e9768a78d3f57947c28428eb999e463558"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg23k.web.fc2.com/entry/img/i03.gif",
+      "downloadLinks": [
+        {
+          "url": "https://kasutera-tera.itch.io/tukiru",
+          "label": "DL(itch.io)"
+        },
+        {
+          "url": "https://ux.getuploader.com/viprpg2023k_dl/download/1",
+          "label": "DL"
+        }
+      ],
+      "unavailableDownloadButtons": [],
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2023-kouhaku-work-04",
+      "no": "04",
+      "detailUrl": "https://viprpg23k.web.fc2.com/entry/04.html",
+      "sourceFile": "source/website-backup/files/entry/04.html",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS04_1.jpg",
+          "local": "/screenshots/2023-kouhaku/04-source-1.jpg",
+          "sha256": "1976c2f782964d85e55d46534a187e0248f5a8cdf79d1af3c2e4a3b8e9fc14fe"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg23k.web.fc2.com/entry/img/i04.png",
+      "downloadLinks": [
+        {
+          "url": "https://tokumay.itch.io/unwillingness-to-die",
+          "label": "DL(itch.io)"
+        },
+        {
+          "url": "https://ux.getuploader.com/viprpg2023k_dl/download/21",
+          "label": "DL"
+        }
+      ],
+      "unavailableDownloadButtons": [],
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2023-kouhaku-work-05",
+      "no": "05",
+      "detailUrl": "https://viprpg23k.web.fc2.com/entry/05.html",
+      "sourceFile": "source/website-backup/files/entry/05.html",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS05_1.png",
+          "local": "/screenshots/2023-kouhaku/05-source-1.png",
+          "sha256": "831d92eaafff45e09e26837e1821caa95a42c76d30a561b69c7c5a1071219b9f"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg23k.web.fc2.com/entry/img/i05.png",
+      "downloadLinks": [
+        {
+          "url": "https://akiko2023kouhaku.itch.io/nigredo",
+          "label": "DL(itch.io)"
+        },
+        {
+          "url": "https://ux.getuploader.com/viprpg2023k_dl/download/43",
+          "label": "DL"
+        }
+      ],
+      "unavailableDownloadButtons": [],
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2023-kouhaku-work-06",
+      "no": "06",
+      "detailUrl": "https://viprpg23k.web.fc2.com/entry/06.html",
+      "sourceFile": "source/website-backup/files/entry/06.html",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS06_1.png",
+          "local": "/screenshots/2023-kouhaku/06-source-1.png",
+          "sha256": "1619a6fc85813e9ff8db7ee5315a3558ef64b04672e9915711c1c88f91205421"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS06_2.png",
+          "local": "/screenshots/2023-kouhaku/06-source-2.png",
+          "sha256": "684484b38b5e797084402005cefeeaf68b55df0c356f0a3d88fd4c0018138bb4"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg23k.web.fc2.com/entry/img/i06.png",
+      "downloadLinks": [],
+      "unavailableDownloadButtons": [],
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2023-kouhaku-work-07",
+      "no": "07",
+      "detailUrl": "https://viprpg23k.web.fc2.com/entry/07.html",
+      "sourceFile": "source/website-backup/files/entry/07.html",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS07_1.png",
+          "local": "/screenshots/2023-kouhaku/07-source-1.png",
+          "sha256": "6f5291eb4b0d6affa2ef0a2e4821147b9fae393853468009da026c9176659c11"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg23k.web.fc2.com/entry/img/i07.png",
+      "downloadLinks": [
+        {
+          "url": "https://aquhademania.itch.io/dns",
+          "label": "DL(itch.io)"
+        },
+        {
+          "url": "https://ux.getuploader.com/viprpg2023k_dl/download/12",
+          "label": "DL"
+        }
+      ],
+      "unavailableDownloadButtons": [],
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2023-kouhaku-work-08",
+      "no": "08",
+      "detailUrl": "https://viprpg23k.web.fc2.com/entry/08.html",
+      "sourceFile": "source/website-backup/files/entry/08.html",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS08_1.png",
+          "local": "/screenshots/2023-kouhaku/08-source-1.png",
+          "sha256": "67cd3f55964af5557a2ec8c0a60aae7776431970ac641bd41fa8bf02e3abcaf9"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS08_2.png",
+          "local": "/screenshots/2023-kouhaku/08-source-2.png",
+          "sha256": "92b2ebbfce1167500dfa7f5afc420ce66b99ad1bbb6da2ea6ee3f820bfd6cdbc"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS08_3.png",
+          "local": "/screenshots/2023-kouhaku/08-source-3.png",
+          "sha256": "fd0827f041ade29653566c9a360d704786f5624c942dd562db3a9efc520dce50"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS08_4.png",
+          "local": "/screenshots/2023-kouhaku/08-source-4.png",
+          "sha256": "68734bcff166fe0bb86640978edb4cf932e39906e1e869dbde0a2bb4d23e6d98"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg23k.web.fc2.com/entry/img/i08.png",
+      "downloadLinks": [],
+      "unavailableDownloadButtons": [],
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2023-kouhaku-work-09",
+      "no": "09",
+      "detailUrl": "https://viprpg23k.web.fc2.com/entry/09.html",
+      "sourceFile": "source/website-backup/files/entry/09.html",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS09_1.png",
+          "local": "/screenshots/2023-kouhaku/09-source-1.png",
+          "sha256": "e807dba3b0bcad665f68aa7fb8c2b6b814c38e58913b0e837659b85332ced2e5"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS09_1.png",
+      "downloadLinks": [],
+      "unavailableDownloadButtons": [],
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2023-kouhaku-work-10",
+      "no": "10",
+      "detailUrl": "https://viprpg23k.web.fc2.com/entry/10.html",
+      "sourceFile": "source/website-backup/files/entry/10.html",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS10_1.png",
+          "local": "/screenshots/2023-kouhaku/10-source-1.png",
+          "sha256": "afa296761b474252596a15e80b4a317073884439609fe73743521f1269f9dd28"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg23k.web.fc2.com/entry/img/i10.png",
+      "downloadLinks": [
+        {
+          "url": "https://numa-kobushi.itch.io/role",
+          "label": "DL(itch.io)"
+        },
+        {
+          "url": "https://ux.getuploader.com/viprpg2023k_dl2/download/10",
+          "label": "DL"
+        }
+      ],
+      "unavailableDownloadButtons": [],
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2023-kouhaku-work-11",
+      "no": "11",
+      "detailUrl": "https://viprpg23k.web.fc2.com/entry/11.html",
+      "sourceFile": "source/website-backup/files/entry/11.html",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS11_1.png",
+          "local": "/screenshots/2023-kouhaku/11-source-1.png",
+          "sha256": "010bc9dbdc7f96a5d228384002e6e3e6d36359df130597e92b5e29d5b7c1a24f"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS11_2.png",
+          "local": "/screenshots/2023-kouhaku/11-source-2.png",
+          "sha256": "30742595375d334f734674da054082ff778ade2e3eb3ee76789e01b68ffb708e"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS11_3.png",
+          "local": "/screenshots/2023-kouhaku/11-source-3.png",
+          "sha256": "f57151a489acae759b73c2f66858662e4afec4505f5ad4b66f03ce28cffdd2c9"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS11_4.png",
+          "local": "/screenshots/2023-kouhaku/11-source-4.png",
+          "sha256": "0a3f4655510f58c71fe1341fd3a2a79bc5105b1028cf74460532a13a7a75eda7"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS11_1.png",
+      "downloadLinks": [
+        {
+          "url": "https://motarou.itch.io/sazameki",
+          "label": "DL(itch.io)"
+        },
+        {
+          "url": "https://ux.getuploader.com/viprpg2023k_dl/download/8",
+          "label": "DL"
+        }
+      ],
+      "unavailableDownloadButtons": [],
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2023-kouhaku-work-12",
+      "no": "12",
+      "detailUrl": "https://viprpg23k.web.fc2.com/entry/12.html",
+      "sourceFile": "source/website-backup/files/entry/12.html",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS12_1.png",
+          "local": "/screenshots/2023-kouhaku/12-source-1.png",
+          "sha256": "9cd70818fba5123e4f05260c6e31084853ffc50a2c5cd26809c244fbe8eb4c4d"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS12_2.png",
+          "local": "/screenshots/2023-kouhaku/12-source-2.png",
+          "sha256": "2a059dae707e28370639944e28ef01a00b0ccdb63bcf1398d7864e5fb61c8d4d"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS12_3.png",
+          "local": "/screenshots/2023-kouhaku/12-source-3.png",
+          "sha256": "d11f96e11afc14335fd3e086049bd242897726f749445331b7a81800b7256363"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS12_4.png",
+          "local": "/screenshots/2023-kouhaku/12-source-4.png",
+          "sha256": "d66f1c130bf0acd71b868d51e28b2574fb5c973201dd53d3d1cb33672e8b1fe8"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS12_1.png",
+      "downloadLinks": [
+        {
+          "url": "https://mega.nz/file/zmhH3JxB#5Gxs92guYUgLWJAdVIvErCFPYXasvGd0hJVnSKkLDj0",
+          "label": "DL"
+        }
+      ],
+      "unavailableDownloadButtons": [],
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2023-kouhaku-work-13",
+      "no": "13",
+      "detailUrl": "https://viprpg23k.web.fc2.com/entry/13.html",
+      "sourceFile": "source/website-backup/files/entry/13.html",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS13_1.png",
+          "local": "/screenshots/2023-kouhaku/13-source-1.png",
+          "sha256": "485c645aa4933402fc39bf07d1273d36978deca4867c1daff74a256de753bef5"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS13_2.png",
+          "local": "/screenshots/2023-kouhaku/13-source-2.png",
+          "sha256": "fd42ee59dbc4c9d5d2c2f2e9087abf20b26999f9b57f9595c10e5e18a860ee90"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg23k.web.fc2.com/entry/img/i13.png",
+      "downloadLinks": [
+        {
+          "url": "https://itutuba.itch.io/moshimo-partyseason",
+          "label": "DL(itch.io)"
+        },
+        {
+          "url": "https://ux.getuploader.com/viprpg2023k_dl/download/33",
+          "label": "DL"
+        }
+      ],
+      "unavailableDownloadButtons": [],
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2023-kouhaku-work-14",
+      "no": "14",
+      "detailUrl": "https://viprpg23k.web.fc2.com/entry/14.html",
+      "sourceFile": "source/website-backup/files/entry/14.html",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS14_1.png",
+          "local": "/screenshots/2023-kouhaku/14-source-1.png",
+          "sha256": "531caa1e8ae51fc1fef90aaf8dd73563cba1d376f83ebe457ec3b2455c700bf2"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS14_2.png",
+          "local": "/screenshots/2023-kouhaku/14-source-2.png",
+          "sha256": "cf1ce894ff7e92c56a878a4cec8cf9d192b446cd19a182b0b06dfd7a8740976e"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS14_1.png",
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2023k_dl2/download/14",
+          "label": "DL"
+        },
+        {
+          "url": "https://ux.getuploader.com/viprpg2023k_dl/download/11",
+          "label": "DL"
+        }
+      ],
+      "unavailableDownloadButtons": [],
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2023-kouhaku-work-15",
+      "no": "15",
+      "detailUrl": "https://viprpg23k.web.fc2.com/entry/15.html",
+      "sourceFile": "source/website-backup/files/entry/15.html",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS15_1.png",
+          "local": "/screenshots/2023-kouhaku/15-source-1.png",
+          "sha256": "9a0ef8d228d5051a55b2e92554cf5461115fb4fde688d1c6a4eb394d5f696dbf"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS15_2.png",
+          "local": "/screenshots/2023-kouhaku/15-source-2.png",
+          "sha256": "bc1f1649dbce267437202c6dceb3198709260d33a4dbd1a5b86b814ab719f786"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg23k.web.fc2.com/entry/img/i15.png",
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2023k_dl2/download/6",
+          "label": "DL"
+        }
+      ],
+      "unavailableDownloadButtons": [],
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2023-kouhaku-work-16",
+      "no": "16",
+      "detailUrl": "https://viprpg23k.web.fc2.com/entry/16.html",
+      "sourceFile": "source/website-backup/files/entry/16.html",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS16_1.png",
+          "local": "/screenshots/2023-kouhaku/16-source-1.png",
+          "sha256": "a9037f4549266ee4ef3707abe7f097165374985920403c3360a3709ec26a116c"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS16_2.png",
+          "local": "/screenshots/2023-kouhaku/16-source-2.png",
+          "sha256": "d26adc2aa824e8859440e15c6c7e699cfa321e5b7f5b7aeb2e60ac38e7b0d32b"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg23k.web.fc2.com/entry/img/i16.png",
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2023k_dl/download/2",
+          "label": "DL"
+        }
+      ],
+      "unavailableDownloadButtons": [],
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2023-kouhaku-work-17",
+      "no": "17",
+      "detailUrl": "https://viprpg23k.web.fc2.com/entry/17.html",
+      "sourceFile": "source/website-backup/files/entry/17.html",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS17_1.jpg",
+          "local": "/screenshots/2023-kouhaku/17-source-1.jpg",
+          "sha256": "364aa38fdf2bc289f6f56f63628f12bdc2cf55d96b3b949d0a7e145ef82ccc95"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS17_2.jpg",
+          "local": "/screenshots/2023-kouhaku/17-source-2.jpg",
+          "sha256": "f3982ccf5973162a91514972bb88f9ff5a8dc8df1be204d712739d88fd308daa"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS17_3.jpg",
+          "local": "/screenshots/2023-kouhaku/17-source-3.jpg",
+          "sha256": "3c6de44f822ea3e3c5bf36a09b857b056cebf959d3d46f1cd7e9334e60c3a389"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS17_1.jpg",
+      "downloadLinks": [
+        {
+          "url": "https://okarinquest.itch.io/2023",
+          "label": "DL(itch.io)"
+        },
+        {
+          "url": "https://mega.nz/file/PjwEFYbQ#7HR_nSaiZ4lEasVZd8E1MMuyEqSnm6_irOWpsLoSPJs",
+          "label": "DL"
+        }
+      ],
+      "unavailableDownloadButtons": [],
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2023-kouhaku-work-18",
+      "no": "18",
+      "detailUrl": "https://viprpg23k.web.fc2.com/entry/18.html",
+      "sourceFile": "source/website-backup/files/entry/18.html",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS18_1.jpg",
+          "local": "/screenshots/2023-kouhaku/18-source-1.jpg",
+          "sha256": "2682cad983e6fd4636c8183078b09de2bf925eeeb09987f0f89c0efeab41b6dd"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS18_2.png",
+          "local": "/screenshots/2023-kouhaku/18-source-2.png",
+          "sha256": "248800116875b27125361327791bbb596bddaede2114fe67cba5607c9fc3a318"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS18_3.png",
+          "local": "/screenshots/2023-kouhaku/18-source-3.png",
+          "sha256": "9236b02a77fa7b86b28d96d10ad1245992c9cd289bdde5ea0f83c616c672b57d"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg23k.web.fc2.com/entry/img/i18.png",
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2023k_dl/download/27",
+          "label": "DL"
+        }
+      ],
+      "unavailableDownloadButtons": [],
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2023-kouhaku-work-19",
+      "no": "19",
+      "detailUrl": "https://viprpg23k.web.fc2.com/entry/19.html",
+      "sourceFile": "source/website-backup/files/entry/19.html",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS19_1.png",
+          "local": "/screenshots/2023-kouhaku/19-source-1.png",
+          "sha256": "9add01f5e3e3cc06156a80418f027abbff5b2983c8edd4dff727a08ed95d97c8"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS19_2.png",
+          "local": "/screenshots/2023-kouhaku/19-source-2.png",
+          "sha256": "b349b82b7aa2890766971eda8d60b0f10a0564aa97027cb05f90fb2b359ed120"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS19_3.png",
+          "local": "/screenshots/2023-kouhaku/19-source-3.png",
+          "sha256": "7d1e4a39ff4cda97439d9e5bafd85fd345ed3585e95ac11f54e9eb79d6b87e09"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS19_4.png",
+          "local": "/screenshots/2023-kouhaku/19-source-4.png",
+          "sha256": "1635c8d42153f6c68552a0c88c70d4d93362ad4cdb9797408d0f90d99ec9a832"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS19_5.png",
+          "local": "/screenshots/2023-kouhaku/19-source-5.png",
+          "sha256": "6a721e27452d4c4739ecde50025cc582bb0b27fa2199c6ee66df5b3759cc5113"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS19_6.png",
+          "local": "/screenshots/2023-kouhaku/19-source-6.png",
+          "sha256": "e02ecc1a9442d7f210083a11e5ef9645d94db78f2790a2147d2f75e20b8ef74c"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg23k.web.fc2.com/entry/img/i19.png",
+      "downloadLinks": [
+        {
+          "url": "https://appletower.itch.io/k-tower",
+          "label": "DL(itch.io)"
+        },
+        {
+          "url": "https://ux.getuploader.com/viprpg2023k_dl3/download/16",
+          "label": "DL"
+        }
+      ],
+      "unavailableDownloadButtons": [],
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2023-kouhaku-work-20",
+      "no": "20",
+      "detailUrl": "https://viprpg23k.web.fc2.com/entry/20.html",
+      "sourceFile": "source/website-backup/files/entry/20.html",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS20_1.png",
+          "local": "/screenshots/2023-kouhaku/20-source-1.png",
+          "sha256": "d9a120a1aaee366d488287dafb70045aabda96ed35c19364ed74a1ec89e78d9b"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS20_2.png",
+          "local": "/screenshots/2023-kouhaku/20-source-2.png",
+          "sha256": "6e4edd338a909b74e49704ac875c9fa610df562fd9944ddfbbb5872c2ea506e5"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg23k.web.fc2.com/entry/img/i20.png",
+      "downloadLinks": [
+        {
+          "url": "https://rp-tkloo.itch.io/character128-with-harmie",
+          "label": "DL(itch.io)"
+        },
+        {
+          "url": "https://ux.getuploader.com/viprpg2023k_dl3/download/17",
+          "label": "DL"
+        }
+      ],
+      "unavailableDownloadButtons": [],
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2023-kouhaku-work-21",
+      "no": "21",
+      "detailUrl": "https://viprpg23k.web.fc2.com/entry/21.html",
+      "sourceFile": "source/website-backup/files/entry/21.html",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS21_1.png",
+          "local": "/screenshots/2023-kouhaku/21-source-1.png",
+          "sha256": "6e330c9cc353fe094c4b67d1f29013171d97346e088f23b46931356a749faaf2"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS21_2.png",
+          "local": "/screenshots/2023-kouhaku/21-source-2.png",
+          "sha256": "6bedf8cf08d57f95361ceca14305b8487dc1d6a85fd91f6db49e6eead0eacd38"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg23k.web.fc2.com/entry/img/i21.png",
+      "downloadLinks": [
+        {
+          "url": "https://amatenebi.itch.io/rpg",
+          "label": "DL(itch.io)"
+        }
+      ],
+      "unavailableDownloadButtons": [],
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2023-kouhaku-work-22",
+      "no": "22",
+      "detailUrl": "https://viprpg23k.web.fc2.com/entry/22.html",
+      "sourceFile": "source/website-backup/files/entry/22.html",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS22_1.png",
+          "local": "/screenshots/2023-kouhaku/22-source-1.png",
+          "sha256": "fd7227b8172743a785faafe3d3d62022a3bdecf6ba269135b4a76cb368ecdeb6"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS22_2.png",
+          "local": "/screenshots/2023-kouhaku/22-source-2.png",
+          "sha256": "11dd98d4b016e924608b808fac434fd1486528aa717472ca14f9812ad97fad34"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS22_3.png",
+          "local": "/screenshots/2023-kouhaku/22-source-3.png",
+          "sha256": "dce68dd3fa48a0c051725220c3c274b5da1b27a281232260c9773f1475a14e9f"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg23k.web.fc2.com/entry/img/i22.png",
+      "downloadLinks": [
+        {
+          "url": "https://usagi-fuwa-fuwa.itch.io/chaaaaaaa",
+          "label": "DL(itch.io)"
+        },
+        {
+          "url": "https://ux.getuploader.com/viprpg2023k_dl/download/9",
+          "label": "DL"
+        }
+      ],
+      "unavailableDownloadButtons": [],
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2023-kouhaku-work-23",
+      "no": "23",
+      "detailUrl": "https://viprpg23k.web.fc2.com/entry/23.html",
+      "sourceFile": "source/website-backup/files/entry/23.html",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS23_1.png",
+          "local": "/screenshots/2023-kouhaku/23-source-1.png",
+          "sha256": "85347354f5ca4ccc56dd7016280076b8a22fb9c8bec4d22179f319fafeb464a7"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS23_2.png",
+          "local": "/screenshots/2023-kouhaku/23-source-2.png",
+          "sha256": "8fd12df2afa5ffa88a1adaa898d2c54c4ca0831fff32aad40cbcf6546d127124"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg23k.web.fc2.com/entry/img/i23.png",
+      "downloadLinks": [
+        {
+          "url": "https://mirarusaka.itch.io/flash-aa",
+          "label": "DL(itch.io)"
+        },
+        {
+          "url": "https://ux.getuploader.com/viprpg2023k_dl/download/10",
+          "label": "DL"
+        }
+      ],
+      "unavailableDownloadButtons": [],
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2023-kouhaku-work-24",
+      "no": "24",
+      "detailUrl": "https://viprpg23k.web.fc2.com/entry/24.html",
+      "sourceFile": "source/website-backup/files/entry/24.html",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS24_1.png",
+          "local": "/screenshots/2023-kouhaku/24-source-1.png",
+          "sha256": "4dc8e1833c29656512b63873096172627372349fba61d61b6c3862f5e5d6f97f"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS24_1.png",
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2023k_dl2/download/15",
+          "label": "DL"
+        }
+      ],
+      "unavailableDownloadButtons": [],
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2023-kouhaku-work-25",
+      "no": "25",
+      "detailUrl": "https://viprpg23k.web.fc2.com/entry/25.html",
+      "sourceFile": "source/website-backup/files/entry/25.html",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS25_1.png",
+          "local": "/screenshots/2023-kouhaku/25-source-1.png",
+          "sha256": "6e01c3b9b2bf28fbe6e3e7cddf5bc46f97aa1ab272e1dc636fd2950258db98f6"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS25_2.png",
+          "local": "/screenshots/2023-kouhaku/25-source-2.png",
+          "sha256": "a2d7c800b8e8dc97577b1a38c657eac5984d300266670bd4bfb9f220b7a423b1"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg23k.web.fc2.com/entry/img/i25.png",
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2023k_dl3/download/14",
+          "label": "DL"
+        }
+      ],
+      "unavailableDownloadButtons": [],
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2023-kouhaku-work-26",
+      "no": "26",
+      "detailUrl": "https://viprpg23k.web.fc2.com/entry/26.html",
+      "sourceFile": "source/website-backup/files/entry/26.html",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS26_1.png",
+          "local": "/screenshots/2023-kouhaku/26-source-1.png",
+          "sha256": "510baa716c5376764c776e208ac8ae79dbd5dbaad55d50fc9f3dd0e86331ff92"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS26_1.png",
+      "downloadLinks": [],
+      "unavailableDownloadButtons": [],
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2023-kouhaku-work-27",
+      "no": "27",
+      "detailUrl": "https://viprpg23k.web.fc2.com/entry/27.html",
+      "sourceFile": "source/website-backup/files/entry/27.html",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS27_1.png",
+          "local": "/screenshots/2023-kouhaku/27-source-1.png",
+          "sha256": "5c79a5248b8cc8555a6342bc7eb66493f29ae0228b10bf782c1121293ea2225e"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS27_2.png",
+          "local": "/screenshots/2023-kouhaku/27-source-2.png",
+          "sha256": "27a210e4d9ce7541817d29e22bb4c98b7a6b4c8a5cc7de24de045135edb75aa7"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg23k.web.fc2.com/entry/img/i27.png",
+      "downloadLinks": [
+        {
+          "url": "https://x-raniu-viprpg.itch.io/xvipvol01",
+          "label": "DL(itch.io)"
+        },
+        {
+          "url": "https://ux.getuploader.com/viprpg2023k_dl3/download/8",
+          "label": "DL"
+        }
+      ],
+      "unavailableDownloadButtons": [],
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2023-kouhaku-work-28",
+      "no": "28",
+      "detailUrl": "https://viprpg23k.web.fc2.com/entry/28.html",
+      "sourceFile": "source/website-backup/files/entry/28.html",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS28_1.png",
+          "local": "/screenshots/2023-kouhaku/28-source-1.png",
+          "sha256": "839753b27e1889cf8ef52cff6bc45a8636c1ad096356cea4531f030087257031"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg23k.web.fc2.com/entry/img/i28.png",
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2023k_dl/download/23",
+          "label": "DL"
+        }
+      ],
+      "unavailableDownloadButtons": [],
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2023-kouhaku-work-29",
+      "no": "29",
+      "detailUrl": "https://viprpg23k.web.fc2.com/entry/29.html",
+      "sourceFile": "source/website-backup/files/entry/29.html",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS29_1.jpg",
+          "local": "/screenshots/2023-kouhaku/29-source-1.jpg",
+          "sha256": "00d4cd80cf491e77d8de580dfb1f2136059e85ec828cffa42277cbe384924c45"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS29_2.jpg",
+          "local": "/screenshots/2023-kouhaku/29-source-2.jpg",
+          "sha256": "dcf1ce24321a5e8b20c6f9b13fbbdf25b55560e2746be691b2409f530c2334c3"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS29_3.jpg",
+          "local": "/screenshots/2023-kouhaku/29-source-3.jpg",
+          "sha256": "0980a2f7712df8304dfaabc18f4fc352e4dc0454ea1aa4abc52e24f029999967"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg23k.web.fc2.com/entry/img/i29.jpg",
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2023k_dl3/download/18",
+          "label": "DL"
+        }
+      ],
+      "unavailableDownloadButtons": [],
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2023-kouhaku-work-30",
+      "no": "30",
+      "detailUrl": "https://viprpg23k.web.fc2.com/entry/30.html",
+      "sourceFile": "source/website-backup/files/entry/30.html",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS30_1.png",
+          "local": "/screenshots/2023-kouhaku/30-source-1.png",
+          "sha256": "b658eccca0a2fa77817f1eaa3aaadf841dc3529c7d4e03c0ba7cd1eb0876a97e"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS30_2.png",
+          "local": "/screenshots/2023-kouhaku/30-source-2.png",
+          "sha256": "287a668e571851fb1301480482579e6d501f386c18e8567fe6923239c55962cc"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg23k.web.fc2.com/entry/img/i30.png",
+      "downloadLinks": [
+        {
+          "url": "https://narane-yo.itch.io/tokiwokizamu",
+          "label": "DL(itch.io)"
+        },
+        {
+          "url": "https://ux.getuploader.com/viprpg2023k_dl3/download/22",
+          "label": "DL"
+        }
+      ],
+      "unavailableDownloadButtons": [],
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2023-kouhaku-work-31",
+      "no": "31",
+      "detailUrl": "https://viprpg23k.web.fc2.com/entry/31.html",
+      "sourceFile": "source/website-backup/files/entry/31.html",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS31_1.png",
+          "local": "/screenshots/2023-kouhaku/31-source-1.png",
+          "sha256": "a8eb035d7cde94124c2b7e5c9a2bb40f64b991a9cdba5bd42803d041e0920e28"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg23k.web.fc2.com/entry/img/i31.png",
+      "downloadLinks": [
+        {
+          "url": "https://funyara.itch.io/hinoseseragi",
+          "label": "DL(itch.io)"
+        },
+        {
+          "url": "https://ux.getuploader.com/viprpg2023k_dl2/download/14",
+          "label": "DL"
+        }
+      ],
+      "unavailableDownloadButtons": [],
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2023-kouhaku-work-32",
+      "no": "32",
+      "detailUrl": "https://viprpg23k.web.fc2.com/entry/32.html",
+      "sourceFile": "source/website-backup/files/entry/32.html",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS32_1.png",
+          "local": "/screenshots/2023-kouhaku/32-source-1.png",
+          "sha256": "cd584c24ab62af9638ae0e470efcc4a28c8d9d6a21ac8cda7c7ced8cda459642"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS32_2.png",
+          "local": "/screenshots/2023-kouhaku/32-source-2.png",
+          "sha256": "5e4a6f010b0ee65441c51319ad7b13a752a8c33cd051af741dc68eae8d398efe"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS32_3.png",
+          "local": "/screenshots/2023-kouhaku/32-source-3.png",
+          "sha256": "84b6a963d31b84b9a993cd79357812fefa6e3ccc0e396c0009f002e93985a530"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS32_1.png",
+      "downloadLinks": [
+        {
+          "url": "https://mega.nz/file/u3wBAByD#vVzaOsb4bk59SnQ3OfRHAYI9Pip7RoCKLXq8V9LjtmI",
+          "label": "DL"
+        }
+      ],
+      "unavailableDownloadButtons": [],
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2023-kouhaku-work-33",
+      "no": "33",
+      "detailUrl": "https://viprpg23k.web.fc2.com/entry/33.html",
+      "sourceFile": "source/website-backup/files/entry/33.html",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS33_1.png",
+          "local": "/screenshots/2023-kouhaku/33-source-1.png",
+          "sha256": "b8b3664f4ddbc9dea24b88c5f39591c0b4c049acdb09fcd073b801789060be72"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS33_2.png",
+          "local": "/screenshots/2023-kouhaku/33-source-2.png",
+          "sha256": "826c411a4468bf763b50595e16266d5cccb2419a5a6717314990eb97eb2b120c"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg23k.web.fc2.com/entry/img/i33.png",
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2023k_dl/download/17",
+          "label": "DL"
+        }
+      ],
+      "unavailableDownloadButtons": [],
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2023-kouhaku-work-34",
+      "no": "34",
+      "detailUrl": "https://viprpg23k.web.fc2.com/entry/34.html",
+      "sourceFile": "source/website-backup/files/entry/34.html",
+      "screenshotSources": [],
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2023k_dl/download/24",
+          "label": "DL"
+        }
+      ],
+      "unavailableDownloadButtons": [],
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2023-kouhaku-work-35",
+      "no": "35",
+      "detailUrl": "https://viprpg23k.web.fc2.com/entry/35.html",
+      "sourceFile": "source/website-backup/files/entry/35.html",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS35_1.png",
+          "local": "/screenshots/2023-kouhaku/35-source-1.png",
+          "sha256": "153efb5587eb154d501da0860ace6802d9105bc977310a4f36225a7683c0b542"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg23k.web.fc2.com/entry/img/i35.png",
+      "downloadLinks": [
+        {
+          "url": "https://nerlyph.itch.io/otakara4",
+          "label": "DL(itch.io)"
+        },
+        {
+          "url": "https://ux.getuploader.com/viprpg2023k_dl/download/35",
+          "label": "DL"
+        }
+      ],
+      "unavailableDownloadButtons": [],
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2023-kouhaku-work-36",
+      "no": "36",
+      "detailUrl": "https://viprpg23k.web.fc2.com/entry/36.html",
+      "sourceFile": "source/website-backup/files/entry/36.html",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS36_1.png",
+          "local": "/screenshots/2023-kouhaku/36-source-1.png",
+          "sha256": "e55cbc398825be286b9210b0e1b3bac756f36603b24f33f8bb6379462d0a1558"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS36_2.png",
+          "local": "/screenshots/2023-kouhaku/36-source-2.png",
+          "sha256": "5b3cb60a9450b3f39eb423ac3891f2b32bded8331f2970fcc4722b3979e11dcb"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg23k.web.fc2.com/entry/img/i36.png",
+      "downloadLinks": [],
+      "unavailableDownloadButtons": [],
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2023-kouhaku-work-37",
+      "no": "37",
+      "detailUrl": "https://viprpg23k.web.fc2.com/entry/37.html",
+      "sourceFile": "source/website-backup/files/entry/37.html",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS37_1.png",
+          "local": "/screenshots/2023-kouhaku/37-source-1.png",
+          "sha256": "29cb253713d0b123e9678b671b5a021688e3a780056cbede87e1b76624dc9c14"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS37_2.png",
+          "local": "/screenshots/2023-kouhaku/37-source-2.png",
+          "sha256": "67b64fc95a93223fa4cb009a8d116daeae176cbe9a2a0741fe171cdecf610321"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS37_3.png",
+          "local": "/screenshots/2023-kouhaku/37-source-3.png",
+          "sha256": "dc8a6f5c2db58a71b0f7c4e9eff848ee8a4b4bcf390a00088e7279a414879acd"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS37_4.png",
+          "local": "/screenshots/2023-kouhaku/37-source-4.png",
+          "sha256": "da280297fd347f5c892d14deef2f3e4cf2585ee152bbe08bbf6d43c9093c52ea"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg23k.web.fc2.com/entry/img/i37.png",
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2023k_dl3/download/19",
+          "label": "DL"
+        }
+      ],
+      "unavailableDownloadButtons": [],
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2023-kouhaku-work-38",
+      "no": "38",
+      "detailUrl": "https://viprpg23k.web.fc2.com/entry/38.html",
+      "sourceFile": "source/website-backup/files/entry/38.html",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS38_1.png",
+          "local": "/screenshots/2023-kouhaku/38-source-1.png",
+          "sha256": "715cbb167b1bdf4276bbc8a50784ac4acdc748cfb8f0cbf7dfff6fe7fa3e1d57"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg23k.web.fc2.com/entry/img/i38.png",
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2023k_dl3/download/21",
+          "label": "DL"
+        }
+      ],
+      "unavailableDownloadButtons": [],
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2023-kouhaku-work-39",
+      "no": "39",
+      "detailUrl": "https://viprpg23k.web.fc2.com/entry/39.html",
+      "sourceFile": "source/website-backup/files/entry/39.html",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS39_1.png",
+          "local": "/screenshots/2023-kouhaku/39-source-1.png",
+          "sha256": "a468606a12c9cb635e81052cfa7bb2e768fed5b7b1b171cf619d1aa2fb468fbb"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg23k.web.fc2.com/entry/img/i39.png",
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2023k_dl3/download/20",
+          "label": "DL"
+        }
+      ],
+      "unavailableDownloadButtons": [],
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2023-kouhaku-work-40",
+      "no": "40",
+      "detailUrl": "https://viprpg23k.web.fc2.com/entry/40.html",
+      "sourceFile": "source/website-backup/files/entry/40.html",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS40_1.png",
+          "local": "/screenshots/2023-kouhaku/40-source-1.png",
+          "sha256": "9bdaa51315d22f389075280ae0cea421538f03d70b2e092a71f08186ddba1176"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS40_2.png",
+          "local": "/screenshots/2023-kouhaku/40-source-2.png",
+          "sha256": "12731eab195f62ab818d22b365a3c19dbf40cbe2f335c1675498b585a6b428ce"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS40_3.png",
+          "local": "/screenshots/2023-kouhaku/40-source-3.png",
+          "sha256": "8d8de44f624ad9d03224d1219fd8d83d1ebfd0c18c8e4b4331b9df59a51994a8"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg23k.web.fc2.com/entry/img/i40.png",
+      "downloadLinks": [],
+      "unavailableDownloadButtons": [
+        {
+          "rawHref": "",
+          "label": "DL(公開終了)",
+          "owner": "https://viprpg23k.web.fc2.com/"
+        },
+        {
+          "rawHref": "https://viprpg23k.web.fc2.com/entry/",
+          "label": "DL(公開終了※2/4まで)",
+          "owner": "https://viprpg23k.web.fc2.com/entry/40.html"
+        }
+      ],
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2023-kouhaku-work-41",
+      "no": "41",
+      "detailUrl": "https://viprpg23k.web.fc2.com/entry/41.html",
+      "sourceFile": "source/website-backup/files/entry/41.html",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS41_1.png",
+          "local": "/screenshots/2023-kouhaku/41-source-1.png",
+          "sha256": "469f2285578b7ca37b8baa021310caad72dde384f38e92ecbc94a0cc8554a66c"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS41_2.png",
+          "local": "/screenshots/2023-kouhaku/41-source-2.png",
+          "sha256": "e5c416dfd848b28cb85daadb9fe7b8a3d8258ecb60b9d4cbe00340abc8819b62"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg23k.web.fc2.com/entry/img/i41.png",
+      "downloadLinks": [
+        {
+          "url": "https://super774mz.itch.io/mosimogaia",
+          "label": "DL(itch.io)"
+        },
+        {
+          "url": "https://mega.nz/file/fjpD2ApI#MKkK5bEtLcvIZaM6CyU9vbnGX9pO39DQuoL7kf7dQe0",
+          "label": "DL"
+        }
+      ],
+      "unavailableDownloadButtons": [],
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2023-kouhaku-work-42",
+      "no": "42",
+      "detailUrl": "https://viprpg23k.web.fc2.com/entry/42.html",
+      "sourceFile": "source/website-backup/files/entry/42.html",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS42_1.png",
+          "local": "/screenshots/2023-kouhaku/42-source-1.png",
+          "sha256": "98d4d372141d4936516e63d88434ffdd4769ad51f5d8a3814362f35ebd3330b8"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg23k.web.fc2.com/entry/img/i42.png",
+      "downloadLinks": [],
+      "unavailableDownloadButtons": [],
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2023-kouhaku-work-43",
+      "no": "43",
+      "detailUrl": "https://viprpg23k.web.fc2.com/entry/43.html",
+      "sourceFile": "source/website-backup/files/entry/43.html",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS43_1.png",
+          "local": "/screenshots/2023-kouhaku/43-source-1.png",
+          "sha256": "e2517f544265d8df0e958ab99f1973aa79e14538a730091f051c6c80b6e84deb"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS43_2.png",
+          "local": "/screenshots/2023-kouhaku/43-source-2.png",
+          "sha256": "d65d9b1c756c4c17b65aacd9c6b1742b1f21c2bf61b5a8dd47e69a2695b1ae1f"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS43_3.png",
+          "local": "/screenshots/2023-kouhaku/43-source-3.png",
+          "sha256": "6f4cbbd7dd8bb99b166e4b0c8e74bf209600fbde156ff86749f1c4e23a17690c"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg23k.web.fc2.com/entry/img/i43.png",
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2023k_dl3/download/6",
+          "label": "DL"
+        }
+      ],
+      "unavailableDownloadButtons": [],
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2023-kouhaku-work-44",
+      "no": "44",
+      "detailUrl": "https://viprpg23k.web.fc2.com/entry/44.html",
+      "sourceFile": "source/website-backup/files/entry/44.html",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS44_1.png",
+          "local": "/screenshots/2023-kouhaku/44-source-1.png",
+          "sha256": "e0d207a71055d5e986bcca01c4a0daa384d577a9f2d4548e34684dd350a4a538"
+        },
+        {
+          "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS44_2.png",
+          "local": "/screenshots/2023-kouhaku/44-source-2.png",
+          "sha256": "8d8c0fe5efed91309fe478711f618df0a584169f6c9a2c9ee8afd10022c99ebc"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg23k.web.fc2.com/entry/img/i44.png",
+      "downloadLinks": [
+        {
+          "url": "https://harpydra.itch.io/harnass",
+          "label": "DL(itch.io)"
+        },
+        {
+          "url": "https://ux.getuploader.com/viprpg2023k_dl3/download/13",
+          "label": "DL"
+        }
+      ],
+      "unavailableDownloadButtons": [],
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "packagesDownloaded": false
+    }
+  ],
+  "bannerSources": [
+    {
+      "sourceUrl": "https://viprpg23k.web.fc2.com/img/banner23_01.png",
+      "local": "/banners/2023-kouhaku-source-1.png",
+      "sha256": "8c7963d4b1681675278533ed1effd3ebd364b33c9007d82a9aa2653d8519ba69"
+    },
+    {
+      "sourceUrl": "https://viprpg23k.web.fc2.com/img/banner23_02.png",
+      "local": "/banners/2023-kouhaku-source-2.png",
+      "sha256": "1748a709f41621522bd17b967f8995aa860bb45e187075fb2c376699afe6dd6a"
+    },
+    {
+      "sourceUrl": "https://viprpg23k.web.fc2.com/img/banner23_03.png",
+      "local": "/banners/2023-kouhaku-source-3.png",
+      "sha256": "9fd3e68f452483931c7fd147d57fd41369b0975bd55184d34df3067b14e41687"
+    },
+    {
+      "sourceUrl": "https://viprpg23k.web.fc2.com/img/banner23_ryuken.png",
+      "local": "/banners/2023-kouhaku-source-4.png",
+      "sha256": "9d284676dbe7f37d1b2c1f5ff8787b92e689c9de8b1bd5b85198a3f26d9aac74"
+    }
+  ],
+  "sourceGaps": [
+    {
+      "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS09_1.gif",
+      "role": "ranking-thumbnail-variant",
+      "backupMemberPresent": false,
+      "archiveInventory": "investigation/missing-resources-cdx.json",
+      "display": "Captured same-number PNG with an explicit archive note; no GIF fabricated."
+    },
+    {
+      "sourceUrl": "https://viprpg23k.web.fc2.com/entry/csv/21.csv",
+      "role": "ranking-csv",
+      "backupMemberPresent": false,
+      "archiveInventory": "investigation/missing-resources-cdx.json",
+      "display": "Inactive source CSV caption with a missing-source notice; no ranking data fabricated."
+    }
+  ],
+  "handling": "Direct archival without content or keyword/image screening. Verified CRC/SHA-256 website-backup members retain original byte payloads; the later official archived index provides catalogue download labels and project links. Preserve complete carousel images without a six-image or size filter. Retain unavailable source download labels instead of turning empty/directory URLs into game downloads. Archive ranking CSVs and all source dependencies; no game packages downloaded.",
+  "desktopReview": {
+    "status": "passed-with-documented-source-gaps",
+    "evidence": "catch/2023-kouhaku/desktop-review.json"
+  }
+}

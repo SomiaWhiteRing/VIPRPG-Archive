@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-20",
+  "originalBase": "https://viprpg23k.web.fc2.com/",
+  "sourceProxyRegionVerified": "Japan",
+  "attempts": [
+    {
+      "url": "https://viprpg23k.web.fc2.com/",
+      "result": "TLS handshake failed",
+      "curlExit": 35
+    },
+    {
+      "url": "http://viprpg23k.web.fc2.com/",
+      "status": 502,
+      "bodyFile": "source-http-index.bin"
+    },
+    {
+      "url": "https://viprpg23k.web.fc2.com/",
+      "request": "HTTP/1.1 with TLS maximum 1.2 and full browser User-Agent",
+      "result": "TLS handshake failed",
+      "curlExit": 35
+    }
+  ],
+  "currentConclusion": "Direct source requests are unavailable through the verified Japan route. Use the verified public website backup and check official archive records; do not infer absence of original content from connection failure.",
+  "archiveProxyRegionVerified": "Hong Kong",
+  "siteCdxEvidence": "site-cdx.bin",
+  "indexCdxEvidence": "index-cdx.bin"
+}

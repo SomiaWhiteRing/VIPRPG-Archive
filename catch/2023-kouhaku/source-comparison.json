@@ -1,0 +1,40 @@
+{
+  "festivalId": "2023-kouhaku",
+  "checkedAt": "2026-10-20",
+  "works": 44,
+  "identityAndMetadataMismatchNumbers": [],
+  "sourceBackupMembers": 246,
+  "backupHashFailures": 0,
+  "dependencyFiles": 126,
+  "dependencyHashFailures": 0,
+  "publicScreenshotAndBannerHashChecks": 97,
+  "mediaHashFailures": 0,
+  "icons": 43,
+  "sourceIconOmittedNumbers": [
+    "34"
+  ],
+  "authorComments": 44,
+  "hostComments": 44,
+  "sourceGaps": [
+    {
+      "sourceUrl": "https://viprpg23k.web.fc2.com/entry/img/SS09_1.gif",
+      "role": "ranking-thumbnail-variant",
+      "backupMemberPresent": false,
+      "archiveInventory": "investigation/missing-resources-cdx.json",
+      "display": "Captured same-number PNG with an explicit archive note; no GIF fabricated."
+    },
+    {
+      "sourceUrl": "https://viprpg23k.web.fc2.com/entry/csv/21.csv",
+      "role": "ranking-csv",
+      "backupMemberPresent": false,
+      "archiveInventory": "investigation/missing-resources-cdx.json",
+      "display": "Inactive source CSV caption with a missing-source notice; no ranking data fabricated."
+    }
+  ],
+  "officialDetailCrossCheck": "investigation/archived-detail-comparison.json",
+  "officialCatalogueCrossCheck": "investigation/official-catalogue-comparison.json",
+  "downloadEntries": 36,
+  "downloadLinks": 57,
+  "packagesDownloaded": false,
+  "contentScreeningPerformed": false
+}

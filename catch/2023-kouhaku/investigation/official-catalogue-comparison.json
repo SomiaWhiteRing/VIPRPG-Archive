@@ -1,0 +1,15 @@
+{
+  "officialArchivedIndexTimestamp": "20240914091217",
+  "officialArchivedIndexPayloadDigestVerified": true,
+  "backupRows": 44,
+  "archiveRows": 44,
+  "changedEntrySections": [
+    {
+      "no": "23",
+      "field": "metadata"
+    }
+  ],
+  "sourceMode": "Verified complete website backup plus official archived index cross-check.",
+  "archiveEvidence": "source/archive/manifest.json",
+  "backupEvidence": "source/website-backup/manifest.json"
+}

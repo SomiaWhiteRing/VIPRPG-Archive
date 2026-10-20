@@ -7,6 +7,13 @@ import type { WorkEntry } from "../src/lib/types";
 import { rewriteSummer2012Source } from "./source-2012-summer-view";
 
 const configurations: Record<string, { base: string; entry?: string; manifests: string[]; seeds: Record<string, string>; seedUrls?: Record<string, string>; cgiProfile?: boolean; encoding?: string; encodingOverrides?: Record<string, string>; liveSource?: boolean; disabledLocalLinks?: string[]; externalResources?: Record<string, string>; preserveExternalExtensions?: string[]; frames?: { menuPage: string; menuName: string; mainName: string } }> = {
+  "2023-kouhaku": {
+    base: "https://viprpg23k.web.fc2.com/",
+    manifests: ["source/replay/manifest.json"],
+    seeds: {},
+    encoding: "utf-8",
+    preserveExternalExtensions: [".zip", ".rar", ".7z", ".exe"],
+  },
   "2023-gw": {
     base: "https://viprpg2023gw.neocities.org/",
     manifests: ["source/live/manifest.json", "source/resources/manifest.json"],
@@ -391,7 +398,7 @@ async function main() {
       sharedHeaderTargets.push(local ? `/original-pages/${id}/${local}${url.search}${url.hash}` : url.href);
     });
   }
-  if (["2023-gw", "2024-summer", "2024-kuradashifestival", "2024-kouhaku", "2024-gw", "2025-gw", "2025-summer"].includes(id) || id === "2006-kouhaku" || id === "2012-toppuu-festival" || id === "2011-toppatsu-festival" || id === "2008-jisaku-battle-festival" || id === "2010-gw" || id === "2010-kouhaku" || id === "2010-summer") config.externalResources = recovery.originalResources;
+  if (["2023-kouhaku", "2023-gw", "2024-summer", "2024-kuradashifestival", "2024-kouhaku", "2024-gw", "2025-gw", "2025-summer"].includes(id) || id === "2006-kouhaku" || id === "2012-toppuu-festival" || id === "2011-toppatsu-festival" || id === "2008-jisaku-battle-festival" || id === "2010-gw" || id === "2010-kouhaku" || id === "2010-summer") config.externalResources = recovery.originalResources;
   const sourceDetailGapPaths = new Set<string>((recovery.sourceDetailGaps ?? []).map((gap: { sourcePath: string }) => gap.sourcePath));
   const unavailableSourcePagePaths = new Set<string>((recovery.unavailableSourcePages ?? []).map((gap: { sourcePath: string }) => gap.sourcePath));
   const previousMissing: Array<{ url: string; requestedUrl?: string; error: string }> = JSON.parse(await fs.readFile(`${root}/original-view.json`, "utf8").catch(() => "{}")).missingResources ?? [];
@@ -412,6 +419,7 @@ async function main() {
   const manifest = JSON.parse(await fs.readFile(manifestPath, "utf8").catch(() => "{}"));
   function relative(url: string) {
     const original = new URL(unarchive(url), base);
+    if (id === "2023-kouhaku" && original.pathname === "/entry/") return undefined;
     if (id === "2011-gw" && original.pathname.startsWith("/vip_2009gw/")) return undefined;
     if (config.externalResources?.[original.href]) return config.externalResources[original.href];
     if (id === "2024-kuradashifestival") {
@@ -534,6 +542,34 @@ async function main() {
       if (/\.(?:png|jpe?g|gif|bmp|webp|avif|ico)$/i.test(local)) imageExtension(bytes);
       if (/\.html?$/i.test(local)) {
         const $ = cheerio.load(decodeSource(bytes, resourceEncoding));
+        if (id === "2023-kouhaku") {
+          $('a[href]').each((_, element) => {
+            const node = $(element), url = new URL(node.attr('href')!, original);
+            if (url.pathname === '/index[1].html') {
+              url.pathname = '/index.html'; node.attr('href', url.href);
+              compatibilityFixes.push({ page: local, change: 'Resolve browser-save duplicate index[1].html links to the canonical captured index, preserving fragments.' });
+            }
+          });
+          $('link[rel*=icon]').each((_, element) => {
+            const node = $(element), url = new URL(node.attr('href')!, original);
+            const shared = url.pathname === '/entry/favicon.ico' ? '/favicon.ico' : url.pathname === '/entry/img/apple-touch-icon.png' ? '/img/apple-touch-icon.png' : undefined;
+            if (shared) { node.attr('href', new URL(shared, base).href); compatibilityFixes.push({ page: local, change: 'Resolve the detail template bookmark icon against the captured root icon directory.' }); }
+          });
+          if (local.endsWith('.html')) {
+            $('a[href]').filter((_, element) => new URL($(element).attr('href')!, original).href === new URL('entry/', base).href).removeAttr('href target').attr('aria-disabled', 'true');
+            compatibilityFixes.push({ page: local, change: 'Keep the unavailable source download caption inactive; its directory URL is not a downloadable game.' });
+          }
+          if (local === 'index.html') $('a[href=""]').removeAttr('href target').attr('aria-disabled', 'true');
+          if (local === 'entry/vote_results.html') {
+            $('script:not([src])').each((_, element) => {
+              const node = $(element), code = node.html() || '';
+              if (code.includes('/entry/img/SS09_1.gif')) { node.html(code.replaceAll('/entry/img/SS09_1.gif', '/entry/img/SS09_1.png')); compatibilityFixes.push({ page: local, change: 'Use the captured No.09 PNG screenshot for the ranking script thumbnail; its GIF variant is absent from the backup and the checked archive inventory.' }); }
+            });
+            $('a[href]').filter((_, element) => new URL($(element).attr('href')!, original).pathname === '/entry/csv/21.csv').removeAttr('href target').attr('aria-disabled', 'true').after('<small data-archive-source-gap>［原CSV未取得］</small>');
+            $('body').append('<p data-archive-source-gap>［編纂注：09番の集計用GIFは未取得のため、同番号の保存済みPNGを表示。21番のCSVは未取得。］</p>');
+            compatibilityFixes.push({ page: local, change: 'Label the uncaptured No.21 CSV link as unavailable rather than fabricating ranking/comment data. The public backup and checked archive inventory contain no payload.' });
+          }
+        }
         if (id === "2011-summer" && local.startsWith("sub/")) {
           $('link[rel*=ICON][href="picture/favicon.ico"],link[rel*=icon][href="picture/favicon.ico"]').attr("href", "../picture/favicon.ico");
           compatibilityFixes.push({ page: local, change: "Resolve the subsidiary page's template favicon against the original main catalogue's shared picture directory." });
@@ -1191,7 +1227,7 @@ async function main() {
     cachedUnused: (recovery.entries ?? []).reduce((total: number, entry: { additionalPreloadsRecovered?: number }) => total + (entry.additionalPreloadsRecovered ?? 0), 0),
     evidence: `${root}/recovery.json`,
   };
-  const hasDocumentedOmissions = generatedUnavailablePages.length > 0 || failures.length > 0 || omittedCssResources.length > 0 || omittedBackgrounds.length > 0 || omittedHovers.length > 0;
+  const hasDocumentedOmissions = (id === "2023-kouhaku" && recovery.sourceGaps?.length > 0) || generatedUnavailablePages.length > 0 || failures.length > 0 || omittedCssResources.length > 0 || omittedBackgrounds.length > 0 || omittedHovers.length > 0;
   views[id] = { entry: `/original-pages/${id}/${config.entry ?? "index.html"}`, status: hasDocumentedOmissions ? "available-with-documented-omissions" : "available" };
   await writeJson(viewsPath, views);
   await writeJson(`${root}/original-view.json`, { festivalId: id, sourceEncoding: encoding, entry: views[id].entry, sourceManifests: config.manifests, sourcePages: config.seeds, files: [...files.keys()], generatedPlaceholders, ...(generatedUnavailablePages.length ? { generatedUnavailablePages } : {}), preloadResources, missingResources: failures, omittedCssResources, omittedBackgrounds, omittedHovers, compatibilityFixes, changes: [`Original HTML and CSS normalized from ${encoding} to UTF-8.`, "Same-site links, CSS resources and absolute script/hover URLs use local paths.", "External hosting trackers removed; unavailable unused preloads replaced with an empty image.", "Original pages are displayed inside a sandboxed frame.", ...(omittedCssResources.length ? ["Unavailable AtWiki CSS images are omitted without replacements and documented from their recorded 403 responses."] : []), ...(omittedBackgrounds.length ? ["Unavailable background references are omitted; the original background colors are retained and missing resources remain documented."] : []), ...(restrictions.length ? ["Restricted entries retain their catalogue row and full detail structure with fixed neutral text and generated placeholders; original restricted descriptions, media and related links are not published."] : []), ...(config.frames ? ["A scoped local message forwards menu clicks to the sibling frame while preserving the original frameset and sandbox isolation."] : [])], desktopReview: "pending" });
