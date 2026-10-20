@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="../css/default.css">
+		<define id="META"></define>
+		<script>
+			var pageName = "妖星落つ";
+			var gameNo   = "37";
+		</script>
+        <!--↑gameName=のダブルクォーテーション内にゲーム名、gameNo=のダブルクォーテーション内に作品Noを入力してください-->
+	</head>
+	<body class="sky">
+		<define id="HEADER"></define>
+		<define id="PAGENAME"></define>
+		<centering_box>
+			<table>
+				<tr>
+					<td class="icon_space"><img src="../img/icon/icon37.png"></td>
+					<td colspan="3"><h2><define id="GAMENAME"></define></h2></td>
+				</tr>
+				<tr>
+					<td colspan="4">
+						<img src   =          "screenshot/ss37.png"
+						onmouseout ="this.src='screenshot/ss37.png'"
+						onmouseover="this.src='screenshot/ss37.png'">
+						<!--↑基本的には全て同じ画像を設定し、
+						　　マウスオーバースクリーンショットの掲載を依頼された場合のみ
+						　　onmouseover=の""内のみを編集してください-->
+					</td>
+				</tr>
+				<tr>
+					<td colspan="4">
+						<h2>作者のコメント</h2>
+						所要時間1時間程度の見るゲです。（一部操作パート有り）<br><br>
+						＜おはなし＞<br>
+						勇者アレックスの妹リナックスは王様の命令を受け、あるサキュバスの討伐に挑む。<br>
+						しかし、討伐対象のサキュバスは、なんとリナックスに惚れてしまった。<br>
+						悪事を働かないという条件で恋人契約を結ぶことになったリナックス。<br>
+						果たしてこの愛は実を結ぶのか？<br>
+						一方、それとは関係のないところで恐るべき計画を企む輩がいた･･･<br><br>
+						＜プレイ上の注意＞<br>
+						・セーブ箇所が3回ほどあります。操作パートでのセーブはできませんのでご注意ください。<br>
+						・百合描写を含みます。苦手な方嫌いな方はご注意ください。<br>
+						・やんわりと誤魔化していますが多少刺激の強いシーンがあるかもしれません。
+                        <blank></blank>
+                        <h2>主催のコメント</h2>
+                        禁断の恋
+                  </td>
+				</tr>
+				<tr>
+					<td colspan="2"><a href="https://drive.google.com/file/d/1rkR2lMqcrdrVdAf5diqN-hiDEFM7ejpS/view?usp=drive_link">DL(4.9 MB)</a></td>
+					<td colspan="2"><a href="https://jbbs.shitaraba.net/bbs/read.cgi/internet/26302/1723824775/l50"/>感想掲示板</a></td>
+				</tr>
+			</table>
+			</centering_box>
+		<define id="FOOTER"></define>
+		<script src="../js/define.js"></script>
+    <script><!--
+var footerparam = 'charset=' + encodeURIComponent(document.charset ? document.charset : document.characterSet) + '&url=' + encodeURIComponent(document.location) + '&service=1&r=' + Math.floor(Math.random()*99999999999);
+var footertag = "//vip-chps-api.2nt.com/apis/footer/?" + footerparam;
+var script = document.createElement('script');
+script.src = footertag;
+script.charset = "UTF-8";
+script.async = true;
+document.getElementsByTagName('head')[0].appendChild(script);
+//--></script>
+<!-- 2nt, inc.-->
+<img src="//media.fc2.com/counter_img.php?id=50" style="display:none" alt="inserted by 2nt system" width="0" height="0">
+<!-- 2nt, inc.--></body>
+</html>

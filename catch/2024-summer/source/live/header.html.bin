@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/default.css">
+		<link rel="stylesheet" href="css/header.css">
+	</head>
+	<body class="header">
+        <bannerspacer></bannerspacer>
+        <img class="banner" src="img/bunner1.png">
+		<centering_box>
+            <table>
+                <tr>
+                    <th><horizontal_spacer></horizontal_spacer><a href="index.html" target="_parent">トップページ</a><horizontal_spacer></horizontal_spacer></th>
+                    <th><a href="https://jbbs.shitaraba.net/bbs/read.cgi/internet/26302/1719720354/l50" target="_parent">運営掲示板</a><horizontal_spacer></horizontal_spacer></th>
+                    <th><a href="https://jbbs.shitaraba.net/internet/26302/" target="_parent">感想掲示板</a></th>
+                </tr>
+                <tr>
+                    <th><a href="entries.html" target="_parent">作品一覧</a></th>
+                    <th><a href="rule.html" target="_parent">規約</a><horizontal_spacer></horizontal_spacer></th>
+                    <th><a href="info.html" target="_parent">参加方法</a></th>
+                </tr>
+            </table>
+        </centering_box>
+    <script><!--
+var footerparam = 'charset=' + encodeURIComponent(document.charset ? document.charset : document.characterSet) + '&url=' + encodeURIComponent(document.location) + '&service=1&r=' + Math.floor(Math.random()*99999999999);
+var footertag = "//vip-chps-api.2nt.com/apis/footer/?" + footerparam;
+var script = document.createElement('script');
+script.src = footertag;
+script.charset = "UTF-8";
+script.async = true;
+document.getElementsByTagName('head')[0].appendChild(script);
+//--></script>
+<!-- 2nt, inc.-->
+<img src="//media.fc2.com/counter_img.php?id=50" style="display:none" alt="inserted by 2nt system" width="0" height="0">
+<!-- 2nt, inc.--></body>
+</html>

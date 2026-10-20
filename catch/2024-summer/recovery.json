@@ -1,0 +1,2263 @@
+{
+  "festivalId": "2024-summer",
+  "originalBase": "https://vipsummer2024.x.2nt.com/",
+  "liveSource": true,
+  "proxyRegion": "Japan",
+  "sourceManifests": [
+    "source/live/manifest.json",
+    "source/resources/manifest.json"
+  ],
+  "originalResources": {
+    "https://vipsummer2024.x.2nt.com/index.html": "index.html",
+    "https://vipsummer2024.x.2nt.com/entries.html": "entries.html",
+    "https://vipsummer2024.x.2nt.com/header.html": "header.html",
+    "https://vipsummer2024.x.2nt.com/entry/entrysample.html": "entry/entrysample.html",
+    "https://vipsummer2024.x.2nt.com/entry/entry01.html": "entry/entry01.html",
+    "https://vipsummer2024.x.2nt.com/entry/entry02.html": "entry/entry02.html",
+    "https://vipsummer2024.x.2nt.com/entry/entry03.html": "entry/entry03.html",
+    "https://vipsummer2024.x.2nt.com/entry/entry04.html": "entry/entry04.html",
+    "https://vipsummer2024.x.2nt.com/entry/entry05.html": "entry/entry05.html",
+    "https://vipsummer2024.x.2nt.com/entry/entry06.html": "entry/entry06.html",
+    "https://vipsummer2024.x.2nt.com/entry/entry07.html": "entry/entry07.html",
+    "https://vipsummer2024.x.2nt.com/entry/entry08.html": "entry/entry08.html",
+    "https://vipsummer2024.x.2nt.com/entry/entry09.html": "entry/entry09.html",
+    "https://vipsummer2024.x.2nt.com/entry/entry10.html": "entry/entry10.html",
+    "https://vipsummer2024.x.2nt.com/entry/entry11.html": "entry/entry11.html",
+    "https://vipsummer2024.x.2nt.com/entry/entry12.html": "entry/entry12.html",
+    "https://vipsummer2024.x.2nt.com/entry/entry13.html": "entry/entry13.html",
+    "https://vipsummer2024.x.2nt.com/entry/entry14.html": "entry/entry14.html",
+    "https://vipsummer2024.x.2nt.com/entry/entry15.html": "entry/entry15.html",
+    "https://vipsummer2024.x.2nt.com/entry/entry16.html": "entry/entry16.html",
+    "https://vipsummer2024.x.2nt.com/entry/entry17.html": "entry/entry17.html",
+    "https://vipsummer2024.x.2nt.com/entry/entry18.html": "entry/entry18.html",
+    "https://vipsummer2024.x.2nt.com/entry/entry19.html": "entry/entry19.html",
+    "https://vipsummer2024.x.2nt.com/entry/entry20.html": "entry/entry20.html",
+    "https://vipsummer2024.x.2nt.com/entry/entry21.html": "entry/entry21.html",
+    "https://vipsummer2024.x.2nt.com/entry/entry22.html": "entry/entry22.html",
+    "https://vipsummer2024.x.2nt.com/entry/entry23.html": "entry/entry23.html",
+    "https://vipsummer2024.x.2nt.com/entry/entry24.html": "entry/entry24.html",
+    "https://vipsummer2024.x.2nt.com/entry/entry25.html": "entry/entry25.html",
+    "https://vipsummer2024.x.2nt.com/entry/entry26.html": "entry/entry26.html",
+    "https://vipsummer2024.x.2nt.com/entry/entry27.html": "entry/entry27.html",
+    "https://vipsummer2024.x.2nt.com/entry/entry28.html": "entry/entry28.html",
+    "https://vipsummer2024.x.2nt.com/entry/entry29.html": "entry/entry29.html",
+    "https://vipsummer2024.x.2nt.com/entry/entry30.html": "entry/entry30.html",
+    "https://vipsummer2024.x.2nt.com/entry/entry31.html": "entry/entry31.html",
+    "https://vipsummer2024.x.2nt.com/entry/entry32.html": "entry/entry32.html",
+    "https://vipsummer2024.x.2nt.com/entry/entry33.html": "entry/entry33.html",
+    "https://vipsummer2024.x.2nt.com/entry/entry34.html": "entry/entry34.html",
+    "https://vipsummer2024.x.2nt.com/entry/entry35.html": "entry/entry35.html",
+    "https://vipsummer2024.x.2nt.com/entry/entry36.html": "entry/entry36.html",
+    "https://vipsummer2024.x.2nt.com/entry/entry37.html": "entry/entry37.html",
+    "https://vipsummer2024.x.2nt.com/entry/entry38.html": "entry/entry38.html",
+    "https://vipsummer2024.x.2nt.com/entry/entry39.html": "entry/entry39.html",
+    "https://vipsummer2024.x.2nt.com/entry/entry40.html": "entry/entry40.html",
+    "https://vipsummer2024.x.2nt.com/entry/entry41.html": "entry/entry41.html",
+    "https://vipsummer2024.x.2nt.com/entry/entry42.html": "entry/entry42.html",
+    "https://vipsummer2024.x.2nt.com/entry/entry43.html": "entry/entry43.html",
+    "https://vipsummer2024.x.2nt.com/entry/entry44.html": "entry/entry44.html",
+    "https://vipsummer2024.x.2nt.com/entry/entry45.html": "entry/entry45.html",
+    "https://vipsummer2024.x.2nt.com/rule.html": "rule.html",
+    "https://vipsummer2024.x.2nt.com/info.html": "info.html",
+    "https://vipsummer2024.x.2nt.com/footer.html": "footer.html",
+    "https://vipsummer2024.x.2nt.com/css/default.css": "css/default.css",
+    "https://vipsummer2024.x.2nt.com/css/header.css": "css/header.css",
+    "https://vipsummer2024.x.2nt.com/js/define.js": "js/define.js",
+    "https://vipsummer2024.x.2nt.com/img/bunner1.png": "img/bunner1.png",
+    "https://vipsummer2024.x.2nt.com/img/bunner2.png": "img/bunner2.png",
+    "https://vipsummer2024.x.2nt.com/img/bunner3.png": "img/bunner3.png",
+    "https://vipsummer2024.x.2nt.com/img/pastfestbanner/23ex.png": "img/pastfestbanner/23ex.png",
+    "https://vipsummer2024.x.2nt.com/img/pastfestbanner/24gw.png": "img/pastfestbanner/24gw.png",
+    "https://vipsummer2024.x.2nt.com/img/pastfestbanner/23gw.png": "img/pastfestbanner/23gw.png",
+    "https://vipsummer2024.x.2nt.com/img/pastfestbanner/23sf.png": "img/pastfestbanner/23sf.png",
+    "https://vipsummer2024.x.2nt.com/img/pastfestbanner/23kh.png": "img/pastfestbanner/23kh.png",
+    "https://vipsummer2024.x.2nt.com/img/pastfestbanner/22gw.png": "img/pastfestbanner/22gw.png",
+    "https://vipsummer2024.x.2nt.com/img/pastfestbanner/22sf.png": "img/pastfestbanner/22sf.png",
+    "https://vipsummer2024.x.2nt.com/img/pastfestbanner/22kh.png": "img/pastfestbanner/22kh.png",
+    "https://vipsummer2024.x.2nt.com/img/icon/dummy.png": "img/icon/dummy.png",
+    "https://vipsummer2024.x.2nt.com/img/thumbnail/dummy.png": "img/thumbnail/dummy.png",
+    "https://vipsummer2024.x.2nt.com/img/icon/icon01.png": "img/icon/icon01.png",
+    "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb01.png": "img/thumbnail/tmb01.png",
+    "https://vipsummer2024.x.2nt.com/img/icon/icon02.png": "img/icon/icon02.png",
+    "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb02.png": "img/thumbnail/tmb02.png",
+    "https://vipsummer2024.x.2nt.com/img/icon/icon03.jpg": "img/icon/icon03.jpg",
+    "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb03.png": "img/thumbnail/tmb03.png",
+    "https://vipsummer2024.x.2nt.com/img/icon/icon04.png": "img/icon/icon04.png",
+    "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb04.png": "img/thumbnail/tmb04.png",
+    "https://vipsummer2024.x.2nt.com/img/icon/icon05.png": "img/icon/icon05.png",
+    "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb05.png": "img/thumbnail/tmb05.png",
+    "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb06.png": "img/thumbnail/tmb06.png",
+    "https://vipsummer2024.x.2nt.com/img/icon/icon07.png": "img/icon/icon07.png",
+    "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb07.png": "img/thumbnail/tmb07.png",
+    "https://vipsummer2024.x.2nt.com/img/icon/icon08.png": "img/icon/icon08.png",
+    "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb08.png": "img/thumbnail/tmb08.png",
+    "https://vipsummer2024.x.2nt.com/img/icon/icon09s.png": "img/icon/icon09s.png",
+    "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb09.png": "img/thumbnail/tmb09.png",
+    "https://vipsummer2024.x.2nt.com/img/icon/icon10s.png": "img/icon/icon10s.png",
+    "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb10.png": "img/thumbnail/tmb10.png",
+    "https://vipsummer2024.x.2nt.com/img/icon/icon11s.png": "img/icon/icon11s.png",
+    "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb11.png": "img/thumbnail/tmb11.png",
+    "https://vipsummer2024.x.2nt.com/img/icon/icon12.png": "img/icon/icon12.png",
+    "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb12.png": "img/thumbnail/tmb12.png",
+    "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb13.png": "img/thumbnail/tmb13.png",
+    "https://vipsummer2024.x.2nt.com/img/icon/icon14.png": "img/icon/icon14.png",
+    "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb14.png": "img/thumbnail/tmb14.png",
+    "https://vipsummer2024.x.2nt.com/img/icon/icon15.png": "img/icon/icon15.png",
+    "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb15.png": "img/thumbnail/tmb15.png",
+    "https://vipsummer2024.x.2nt.com/img/icon/icon16.png": "img/icon/icon16.png",
+    "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb16.png": "img/thumbnail/tmb16.png",
+    "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb17.png": "img/thumbnail/tmb17.png",
+    "https://vipsummer2024.x.2nt.com/img/icon/icon18.png": "img/icon/icon18.png",
+    "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb18.png": "img/thumbnail/tmb18.png",
+    "https://vipsummer2024.x.2nt.com/img/icon/icon19.png": "img/icon/icon19.png",
+    "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb19.png": "img/thumbnail/tmb19.png",
+    "https://vipsummer2024.x.2nt.com/img/icon/icon20.png": "img/icon/icon20.png",
+    "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb20.png": "img/thumbnail/tmb20.png",
+    "https://vipsummer2024.x.2nt.com/img/icon/icon21.png": "img/icon/icon21.png",
+    "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb21.png": "img/thumbnail/tmb21.png",
+    "https://vipsummer2024.x.2nt.com/img/icon/icon22.png": "img/icon/icon22.png",
+    "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb22.png": "img/thumbnail/tmb22.png",
+    "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb23.png": "img/thumbnail/tmb23.png",
+    "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb24.png": "img/thumbnail/tmb24.png",
+    "https://vipsummer2024.x.2nt.com/img/icon/icon25.png": "img/icon/icon25.png",
+    "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb25.png": "img/thumbnail/tmb25.png",
+    "https://vipsummer2024.x.2nt.com/img/icon/icon26.png": "img/icon/icon26.png",
+    "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb26.png": "img/thumbnail/tmb26.png",
+    "https://vipsummer2024.x.2nt.com/img/icon/icon27.png": "img/icon/icon27.png",
+    "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb27.png": "img/thumbnail/tmb27.png",
+    "https://vipsummer2024.x.2nt.com/img/icon/icon28.png": "img/icon/icon28.png",
+    "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb28.png": "img/thumbnail/tmb28.png",
+    "https://vipsummer2024.x.2nt.com/img/icon/icon29.png": "img/icon/icon29.png",
+    "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb29.png": "img/thumbnail/tmb29.png",
+    "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb30.png": "img/thumbnail/tmb30.png",
+    "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb31.png": "img/thumbnail/tmb31.png",
+    "https://vipsummer2024.x.2nt.com/img/icon/icon32.png": "img/icon/icon32.png",
+    "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb32.png": "img/thumbnail/tmb32.png",
+    "https://vipsummer2024.x.2nt.com/img/icon/icon33.png": "img/icon/icon33.png",
+    "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb33.png": "img/thumbnail/tmb33.png",
+    "https://vipsummer2024.x.2nt.com/img/icon/icon34.png": "img/icon/icon34.png",
+    "https://vipsummer2024.x.2nt.com/img/icon/icon35.png": "img/icon/icon35.png",
+    "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb35.png": "img/thumbnail/tmb35.png",
+    "https://vipsummer2024.x.2nt.com/img/icon/icon36.png": "img/icon/icon36.png",
+    "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb36.png": "img/thumbnail/tmb36.png",
+    "https://vipsummer2024.x.2nt.com/img/icon/icon37.png": "img/icon/icon37.png",
+    "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb37.png": "img/thumbnail/tmb37.png",
+    "https://vipsummer2024.x.2nt.com/img/icon/icon38.png": "img/icon/icon38.png",
+    "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb38.png": "img/thumbnail/tmb38.png",
+    "https://vipsummer2024.x.2nt.com/img/icon/icon39.png": "img/icon/icon39.png",
+    "https://vipsummer2024.x.2nt.com/img/icon/icon40.png": "img/icon/icon40.png",
+    "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb40.png": "img/thumbnail/tmb40.png",
+    "https://vipsummer2024.x.2nt.com/img/icon/icon41.png": "img/icon/icon41.png",
+    "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb41.png": "img/thumbnail/tmb41.png",
+    "https://vipsummer2024.x.2nt.com/img/icon/icon42.png": "img/icon/icon42.png",
+    "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb42.png": "img/thumbnail/tmb42.png",
+    "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb43.png": "img/thumbnail/tmb43.png",
+    "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb44.png": "img/thumbnail/tmb44.png",
+    "https://vipsummer2024.x.2nt.com/img/icon/icon45.png": "img/icon/icon45.png",
+    "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb45.png": "img/thumbnail/tmb45.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/dummy.png": "entry/screenshot/dummy.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/dummy2.png": "entry/screenshot/dummy2.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss01.png": "entry/screenshot/ss01.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss02.png": "entry/screenshot/ss02.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss03-1.jpg": "entry/screenshot/ss03-1.jpg",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss03-2.jpg": "entry/screenshot/ss03-2.jpg",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss04.png": "entry/screenshot/ss04.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss05-1.png": "entry/screenshot/ss05-1.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss05-2.png": "entry/screenshot/ss05-2.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss06.png": "entry/screenshot/ss06.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss07.png": "entry/screenshot/ss07.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss08-1.png": "entry/screenshot/ss08-1.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss08-2.png": "entry/screenshot/ss08-2.png",
+    "https://vipsummer2024.x.2nt.com/img/icon/icon09.png": "img/icon/icon09.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss09-1.png": "entry/screenshot/ss09-1.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss09-2.png": "entry/screenshot/ss09-2.png",
+    "https://vipsummer2024.x.2nt.com/img/icon/icon10.png": "img/icon/icon10.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss10-1.png": "entry/screenshot/ss10-1.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss10-2.png": "entry/screenshot/ss10-2.png",
+    "https://vipsummer2024.x.2nt.com/img/icon/icon11.png": "img/icon/icon11.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss11-1.png": "entry/screenshot/ss11-1.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss11-2.png": "entry/screenshot/ss11-2.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss12-1.png": "entry/screenshot/ss12-1.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss12-2.png": "entry/screenshot/ss12-2.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss13-1.png": "entry/screenshot/ss13-1.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss13-2.png": "entry/screenshot/ss13-2.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss14-1.png": "entry/screenshot/ss14-1.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss14-2.png": "entry/screenshot/ss14-2.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss15.png": "entry/screenshot/ss15.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss16-1.png": "entry/screenshot/ss16-1.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss16-2.png": "entry/screenshot/ss16-2.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss17.png": "entry/screenshot/ss17.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss18-1.png": "entry/screenshot/ss18-1.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss18-2.png": "entry/screenshot/ss18-2.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss19-1.png": "entry/screenshot/ss19-1.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss19-2.png": "entry/screenshot/ss19-2.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss20.png": "entry/screenshot/ss20.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss21-1.png": "entry/screenshot/ss21-1.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss21-2.png": "entry/screenshot/ss21-2.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss22.png": "entry/screenshot/ss22.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss23.png": "entry/screenshot/ss23.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss24-1.png": "entry/screenshot/ss24-1.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss24-2.png": "entry/screenshot/ss24-2.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss25.png": "entry/screenshot/ss25.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss26-1.png": "entry/screenshot/ss26-1.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss26-2.png": "entry/screenshot/ss26-2.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss27.png": "entry/screenshot/ss27.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss28.png": "entry/screenshot/ss28.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss29.png": "entry/screenshot/ss29.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss30.png": "entry/screenshot/ss30.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss31.png": "entry/screenshot/ss31.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss32.png": "entry/screenshot/ss32.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss33.png": "entry/screenshot/ss33.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss35.png": "entry/screenshot/ss35.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss36.png": "entry/screenshot/ss36.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss37.png": "entry/screenshot/ss37.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss38.png": "entry/screenshot/ss38.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss40.png": "entry/screenshot/ss40.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss41.png": "entry/screenshot/ss41.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss42-1.png": "entry/screenshot/ss42-1.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss42-2.png": "entry/screenshot/ss42-2.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss43.png": "entry/screenshot/ss43.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss44.png": "entry/screenshot/ss44.png",
+    "https://vipsummer2024.x.2nt.com/entry/screenshot/ss45.png": "entry/screenshot/ss45.png",
+    "https://vipsummer2024.x.2nt.com/img/sky.png": "img/sky.png",
+    "https://vipsummer2024.x.2nt.com/img/sea.gif": "img/sea.gif",
+    "https://vipsummer2024.x.2nt.com/": "index.html"
+  },
+  "entries": [
+    {
+      "id": "2024-summer-work-00",
+      "no": "00",
+      "detailUrl": "https://vipsummer2024.x.2nt.com/entry/entrysample.html",
+      "sourceCapture": {
+        "originalUrl": "https://vipsummer2024.x.2nt.com/entry/entrysample.html",
+        "actualUrl": "https://vipsummer2024.x.2nt.com/entry/entrysample.html",
+        "status": 200,
+        "file": "entry_entrysample.html.bin",
+        "sha256": "ee348f42461646b3792a04e9da4e6064ccc0cba05ab9e89ef7aff517954230d5",
+        "retrievedAt": "2026-10-20T00:56:16.632Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "00"
+      },
+      "previewSourceUrl": "https://vipsummer2024.x.2nt.com/img/thumbnail/dummy.png",
+      "iconSourceUrl": "https://vipsummer2024.x.2nt.com/img/icon/dummy.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/dummy.png",
+          "local": "/screenshots/2024-summer/00-source-1.png",
+          "sha256": "233f792e24f9cb3b0a350e0d04c443d21b92173c48f5c90ecd395a593b3c9cea"
+        },
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/dummy2.png",
+          "local": "/screenshots/2024-summer/00-source-2.png",
+          "sha256": "65dd9c1876d4b20eabd65f99964e2498e6e756a9ffaa5dae1db157fefd5baf2f"
+        }
+      ],
+      "sourceTitleMatchesCatalogue": false,
+      "detailTitleRecorded": true,
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "sourceDownloadLinks": [],
+      "normalizedDownloadLinks": [],
+      "sourceExampleLinksRetainedOnlyAsSource": [],
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2024-summer-work-01",
+      "no": "01",
+      "detailUrl": "https://vipsummer2024.x.2nt.com/entry/entry01.html",
+      "sourceCapture": {
+        "originalUrl": "https://vipsummer2024.x.2nt.com/entry/entry01.html",
+        "actualUrl": "https://vipsummer2024.x.2nt.com/entry/entry01.html",
+        "status": 200,
+        "file": "entry_entry01.html.bin",
+        "sha256": "4ef1deedd55942f25d782dffe50b05bce5b13c481eaf7d7e5c95f4c67f91863c",
+        "retrievedAt": "2026-10-20T00:56:20.468Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "01"
+      },
+      "previewSourceUrl": "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb01.png",
+      "iconSourceUrl": "https://vipsummer2024.x.2nt.com/img/icon/icon01.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss01.png",
+          "local": "/screenshots/2024-summer/01-source-1.png",
+          "sha256": "e36e9dc94d4675f395c24d5a564dd79483bcb00ef1c5d4ecb2f863e558ca5783"
+        }
+      ],
+      "sourceTitleMatchesCatalogue": true,
+      "detailTitleRecorded": false,
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "sourceDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1PuROONJNshZGPDuPTIXBBG5SIvocsGTN/view?usp=drive_link",
+          "label": "DL(28 MB)"
+        }
+      ],
+      "normalizedDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1PuROONJNshZGPDuPTIXBBG5SIvocsGTN/view?usp=drive_link",
+          "label": "DL(28 MB)"
+        }
+      ],
+      "sourceExampleLinksRetainedOnlyAsSource": [],
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2024-summer-work-02",
+      "no": "02",
+      "detailUrl": "https://vipsummer2024.x.2nt.com/entry/entry02.html",
+      "sourceCapture": {
+        "originalUrl": "https://vipsummer2024.x.2nt.com/entry/entry02.html",
+        "actualUrl": "https://vipsummer2024.x.2nt.com/entry/entry02.html",
+        "status": 200,
+        "file": "entry_entry02.html.bin",
+        "sha256": "f1f3852acea89a515149ce84e80393ecfca8b267336fa4678dc2842d2d517ada",
+        "retrievedAt": "2026-10-20T00:56:21.527Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "02"
+      },
+      "previewSourceUrl": "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb02.png",
+      "iconSourceUrl": "https://vipsummer2024.x.2nt.com/img/icon/icon02.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss02.png",
+          "local": "/screenshots/2024-summer/02-source-1.png",
+          "sha256": "caab7303a73ec5ecb8dbd2ead8cc17b0af4cc5ccd7bf0affdd231b8388af9e0a"
+        }
+      ],
+      "sourceTitleMatchesCatalogue": true,
+      "detailTitleRecorded": false,
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "sourceDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1JHXaCK4PIda9FyccfRzv64hHd3rHwS7m/view?usp=drive_link",
+          "label": "DL(32.2 MB)"
+        }
+      ],
+      "normalizedDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1JHXaCK4PIda9FyccfRzv64hHd3rHwS7m/view?usp=drive_link",
+          "label": "DL(32.2 MB)"
+        }
+      ],
+      "sourceExampleLinksRetainedOnlyAsSource": [],
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2024-summer-work-03",
+      "no": "03",
+      "detailUrl": "https://vipsummer2024.x.2nt.com/entry/entry03.html",
+      "sourceCapture": {
+        "originalUrl": "https://vipsummer2024.x.2nt.com/entry/entry03.html",
+        "actualUrl": "https://vipsummer2024.x.2nt.com/entry/entry03.html",
+        "status": 200,
+        "file": "entry_entry03.html.bin",
+        "sha256": "d1d2fd77fbf4358526c1405e318f55f7ce74b0cd3ad19157184362e9a90ca7fe",
+        "retrievedAt": "2026-10-20T00:56:22.200Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "03"
+      },
+      "previewSourceUrl": "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb03.png",
+      "iconSourceUrl": "https://vipsummer2024.x.2nt.com/img/icon/icon03.jpg",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss03-1.jpg",
+          "local": "/screenshots/2024-summer/03-source-1.jpg",
+          "sha256": "ebb60985be553036ee49b6391f4be71df24d8204c81df23e67cad49e9fe33ac8"
+        },
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss03-2.jpg",
+          "local": "/screenshots/2024-summer/03-source-2.jpg",
+          "sha256": "b4d81c770b09753277cb6c89ef1f59656be6567cdee1eee75e121e0cead2e817"
+        }
+      ],
+      "sourceTitleMatchesCatalogue": true,
+      "detailTitleRecorded": false,
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "sourceDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/19ocjWyWaRvPKFPVbEB4PG_8BeCDq_Ri0/view?usp=drive_link",
+          "label": "DL(3.4 MB)"
+        }
+      ],
+      "normalizedDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/19ocjWyWaRvPKFPVbEB4PG_8BeCDq_Ri0/view?usp=drive_link",
+          "label": "DL(3.4 MB)"
+        }
+      ],
+      "sourceExampleLinksRetainedOnlyAsSource": [],
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2024-summer-work-04",
+      "no": "04",
+      "detailUrl": "https://vipsummer2024.x.2nt.com/entry/entry04.html",
+      "sourceCapture": {
+        "originalUrl": "https://vipsummer2024.x.2nt.com/entry/entry04.html",
+        "actualUrl": "https://vipsummer2024.x.2nt.com/entry/entry04.html",
+        "status": 200,
+        "file": "entry_entry04.html.bin",
+        "sha256": "cd866dddd0f166becf1bcbd98531cf5724d2600194c807b1c66ef9dd7c8660f3",
+        "retrievedAt": "2026-10-20T00:56:24.145Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "04"
+      },
+      "previewSourceUrl": "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb04.png",
+      "iconSourceUrl": "https://vipsummer2024.x.2nt.com/img/icon/icon04.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss04.png",
+          "local": "/screenshots/2024-summer/04-source-1.png",
+          "sha256": "926d49826c1265ca2ac42378ef0adf7fdf1970fa708e4d92f2c7252515d016f4"
+        }
+      ],
+      "sourceTitleMatchesCatalogue": true,
+      "detailTitleRecorded": false,
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "sourceDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/100VnpoMIJUWmLaBq-C4ZYgzlzRi6EPsS/view?usp=drive_link",
+          "label": "DL(54.0 MB)"
+        }
+      ],
+      "normalizedDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/100VnpoMIJUWmLaBq-C4ZYgzlzRi6EPsS/view?usp=drive_link",
+          "label": "DL(54.0 MB)"
+        }
+      ],
+      "sourceExampleLinksRetainedOnlyAsSource": [],
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2024-summer-work-05",
+      "no": "05",
+      "detailUrl": "https://vipsummer2024.x.2nt.com/entry/entry05.html",
+      "sourceCapture": {
+        "originalUrl": "https://vipsummer2024.x.2nt.com/entry/entry05.html",
+        "actualUrl": "https://vipsummer2024.x.2nt.com/entry/entry05.html",
+        "status": 200,
+        "file": "entry_entry05.html.bin",
+        "sha256": "3837afa08647bc54f3673394cc6fa5deef51748250f995929bf1918d54c1b60f",
+        "retrievedAt": "2026-10-20T00:56:24.851Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "05"
+      },
+      "previewSourceUrl": "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb05.png",
+      "iconSourceUrl": "https://vipsummer2024.x.2nt.com/img/icon/icon05.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss05-1.png",
+          "local": "/screenshots/2024-summer/05-source-1.png",
+          "sha256": "b5182cc70aea98a9f84479137e1697dca10aedb2d1f3af951cd560d164a58c6e"
+        },
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss05-2.png",
+          "local": "/screenshots/2024-summer/05-source-2.png",
+          "sha256": "b3db5121ca746aa9d24e28610304b39fe09b30558428ae7bf3ce7367c8e45250"
+        }
+      ],
+      "sourceTitleMatchesCatalogue": true,
+      "detailTitleRecorded": false,
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "sourceDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1-gm_SB6A1rPkBE-2fkO24nCWmZ88noGi/view?usp=drive_link",
+          "label": "DL(48.6 MB)"
+        }
+      ],
+      "normalizedDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1-gm_SB6A1rPkBE-2fkO24nCWmZ88noGi/view?usp=drive_link",
+          "label": "DL(48.6 MB)"
+        }
+      ],
+      "sourceExampleLinksRetainedOnlyAsSource": [],
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2024-summer-work-06",
+      "no": "06",
+      "detailUrl": "https://vipsummer2024.x.2nt.com/entry/entry06.html",
+      "sourceCapture": {
+        "originalUrl": "https://vipsummer2024.x.2nt.com/entry/entry06.html",
+        "actualUrl": "https://vipsummer2024.x.2nt.com/entry/entry06.html",
+        "status": 200,
+        "file": "entry_entry06.html.bin",
+        "sha256": "6c4ed4391b4d27c21ed128f22d60ca9d5d766a3adb84ffe3fb0106430b6e894b",
+        "retrievedAt": "2026-10-20T00:56:25.991Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "06"
+      },
+      "previewSourceUrl": "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb06.png",
+      "iconSourceUrl": "https://vipsummer2024.x.2nt.com/img/icon/dummy.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss06.png",
+          "local": "/screenshots/2024-summer/06-source-1.png",
+          "sha256": "d27b85722001fadd5c6b8623c1387cbfe170281785e2ba9fe69930333abfce71"
+        }
+      ],
+      "sourceTitleMatchesCatalogue": true,
+      "detailTitleRecorded": false,
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "sourceDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1Kky24zn02rdYU7vrISikkyJnnS7JX6wF/view?usp=drive_link",
+          "label": "DL(14.9 MB)"
+        }
+      ],
+      "normalizedDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1Kky24zn02rdYU7vrISikkyJnnS7JX6wF/view?usp=drive_link",
+          "label": "DL(14.9 MB)"
+        }
+      ],
+      "sourceExampleLinksRetainedOnlyAsSource": [],
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2024-summer-work-07",
+      "no": "07",
+      "detailUrl": "https://vipsummer2024.x.2nt.com/entry/entry07.html",
+      "sourceCapture": {
+        "originalUrl": "https://vipsummer2024.x.2nt.com/entry/entry07.html",
+        "actualUrl": "https://vipsummer2024.x.2nt.com/entry/entry07.html",
+        "status": 200,
+        "file": "entry_entry07.html.bin",
+        "sha256": "6e226180bb3613e5951780d8a546c5da43b18a0e78b614db1de8047b8d783a48",
+        "retrievedAt": "2026-10-20T00:56:26.651Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "07"
+      },
+      "previewSourceUrl": "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb07.png",
+      "iconSourceUrl": "https://vipsummer2024.x.2nt.com/img/icon/icon07.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss07.png",
+          "local": "/screenshots/2024-summer/07-source-1.png",
+          "sha256": "a9825c26b2d994d244f8c512fd8b2c370eb737b98b011da5a340fe3501a64e28"
+        }
+      ],
+      "sourceTitleMatchesCatalogue": true,
+      "detailTitleRecorded": false,
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "sourceDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1XOyXMx1r5w7GyhCNK6CFMrsSsQ-r8BKr/view?usp=drive_link",
+          "label": "DL(254.2 MB)"
+        }
+      ],
+      "normalizedDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1XOyXMx1r5w7GyhCNK6CFMrsSsQ-r8BKr/view?usp=drive_link",
+          "label": "DL(254.2 MB)"
+        }
+      ],
+      "sourceExampleLinksRetainedOnlyAsSource": [],
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2024-summer-work-08",
+      "no": "08",
+      "detailUrl": "https://vipsummer2024.x.2nt.com/entry/entry08.html",
+      "sourceCapture": {
+        "originalUrl": "https://vipsummer2024.x.2nt.com/entry/entry08.html",
+        "actualUrl": "https://vipsummer2024.x.2nt.com/entry/entry08.html",
+        "status": 200,
+        "file": "entry_entry08.html.bin",
+        "sha256": "7bd6c236dd87483225404d4cf81f792dd91cc3960c42d84e8f9482668606cfdd",
+        "retrievedAt": "2026-10-20T00:56:27.283Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "08"
+      },
+      "previewSourceUrl": "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb08.png",
+      "iconSourceUrl": "https://vipsummer2024.x.2nt.com/img/icon/icon08.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss08-1.png",
+          "local": "/screenshots/2024-summer/08-source-1.png",
+          "sha256": "71a9a3ba2a15e55bcbf87473eff7b825c6bcdf4a4dc85b5ecfba38c2b38600ba"
+        },
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss08-2.png",
+          "local": "/screenshots/2024-summer/08-source-2.png",
+          "sha256": "3194bef9276699b265e63a3b5a4d6761ba0ed8a29610d69077dce31335439e9d"
+        }
+      ],
+      "sourceTitleMatchesCatalogue": true,
+      "detailTitleRecorded": false,
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "sourceDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1wETSy7BCY8TVUUb_DwfUsUpZuUbhSRL1/view?usp=drive_link",
+          "label": "DL(64.3 MB)"
+        }
+      ],
+      "normalizedDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1wETSy7BCY8TVUUb_DwfUsUpZuUbhSRL1/view?usp=drive_link",
+          "label": "DL(64.3 MB)"
+        }
+      ],
+      "sourceExampleLinksRetainedOnlyAsSource": [],
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2024-summer-work-09",
+      "no": "09",
+      "detailUrl": "https://vipsummer2024.x.2nt.com/entry/entry09.html",
+      "sourceCapture": {
+        "originalUrl": "https://vipsummer2024.x.2nt.com/entry/entry09.html",
+        "actualUrl": "https://vipsummer2024.x.2nt.com/entry/entry09.html",
+        "status": 200,
+        "file": "entry_entry09.html.bin",
+        "sha256": "66ab3752cde9d528d808c2ab65e1755e3e406dcbffce9da8b295815f8477e32c",
+        "retrievedAt": "2026-10-20T00:56:27.951Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "09"
+      },
+      "previewSourceUrl": "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb09.png",
+      "iconSourceUrl": "https://vipsummer2024.x.2nt.com/img/icon/icon09s.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss09-1.png",
+          "local": "/screenshots/2024-summer/09-source-1.png",
+          "sha256": "06275ef9afaf53e9a9eaf7920e5660d4a745fadb41f42ef3b91aba45f884054a"
+        },
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss09-2.png",
+          "local": "/screenshots/2024-summer/09-source-2.png",
+          "sha256": "2112a5474c3f8d3e370e7df73d28ce4a60aa18c9e5b727020924cfd1a6b1cb03"
+        }
+      ],
+      "sourceTitleMatchesCatalogue": true,
+      "detailTitleRecorded": false,
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "sourceDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1S1U9f6akOr7KpKzpG2K5hvAacX5ClgfQ/view?usp=drive_link",
+          "label": "DL(38.1 MB)"
+        }
+      ],
+      "normalizedDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1S1U9f6akOr7KpKzpG2K5hvAacX5ClgfQ/view?usp=drive_link",
+          "label": "DL(38.1 MB)"
+        }
+      ],
+      "sourceExampleLinksRetainedOnlyAsSource": [],
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2024-summer-work-10",
+      "no": "10",
+      "detailUrl": "https://vipsummer2024.x.2nt.com/entry/entry10.html",
+      "sourceCapture": {
+        "originalUrl": "https://vipsummer2024.x.2nt.com/entry/entry10.html",
+        "actualUrl": "https://vipsummer2024.x.2nt.com/entry/entry10.html",
+        "status": 200,
+        "file": "entry_entry10.html.bin",
+        "sha256": "d4f555937019b6208cece1b32735eb6d805b53579edc99ee8b7071b17fbb6c15",
+        "retrievedAt": "2026-10-20T00:56:29.374Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "10"
+      },
+      "previewSourceUrl": "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb10.png",
+      "iconSourceUrl": "https://vipsummer2024.x.2nt.com/img/icon/icon10s.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss10-1.png",
+          "local": "/screenshots/2024-summer/10-source-1.png",
+          "sha256": "587e960aa9023b856749c51e819c178f5caab6c6e5623284729123c9b50b5493"
+        },
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss10-2.png",
+          "local": "/screenshots/2024-summer/10-source-2.png",
+          "sha256": "3d281366e90cd0d88e1cce5c66e0b8ae5f9147f0672cfc29b82b1233ca47f738"
+        }
+      ],
+      "sourceTitleMatchesCatalogue": true,
+      "detailTitleRecorded": false,
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "sourceDownloadLinks": [],
+      "normalizedDownloadLinks": [],
+      "sourceExampleLinksRetainedOnlyAsSource": [],
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2024-summer-work-11",
+      "no": "11",
+      "detailUrl": "https://vipsummer2024.x.2nt.com/entry/entry11.html",
+      "sourceCapture": {
+        "originalUrl": "https://vipsummer2024.x.2nt.com/entry/entry11.html",
+        "actualUrl": "https://vipsummer2024.x.2nt.com/entry/entry11.html",
+        "status": 200,
+        "file": "entry_entry11.html.bin",
+        "sha256": "b74444f0ca18579217f8b629a86b8fbf773f2c4b90dc3fc70ce468b20316c3d3",
+        "retrievedAt": "2026-10-20T00:56:30.026Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "11"
+      },
+      "previewSourceUrl": "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb11.png",
+      "iconSourceUrl": "https://vipsummer2024.x.2nt.com/img/icon/icon11s.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss11-1.png",
+          "local": "/screenshots/2024-summer/11-source-1.png",
+          "sha256": "de717b1487e7d2fd792baa1e81c7b25a26a9adbee28ac3ce64f537f9249df389"
+        },
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss11-2.png",
+          "local": "/screenshots/2024-summer/11-source-2.png",
+          "sha256": "4f3d6e866f9256b154405c8b4970da2da91cadc6890a03721ff963ece6b0d27e"
+        }
+      ],
+      "sourceTitleMatchesCatalogue": true,
+      "detailTitleRecorded": false,
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "sourceDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1-4otRro9m0uHKkjdRG5TnAjMAcmyJxBI/view?usp=drive_link",
+          "label": "DL(94.6 MB)"
+        }
+      ],
+      "normalizedDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1-4otRro9m0uHKkjdRG5TnAjMAcmyJxBI/view?usp=drive_link",
+          "label": "DL(94.6 MB)"
+        }
+      ],
+      "sourceExampleLinksRetainedOnlyAsSource": [],
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2024-summer-work-12",
+      "no": "12",
+      "detailUrl": "https://vipsummer2024.x.2nt.com/entry/entry12.html",
+      "sourceCapture": {
+        "originalUrl": "https://vipsummer2024.x.2nt.com/entry/entry12.html",
+        "actualUrl": "https://vipsummer2024.x.2nt.com/entry/entry12.html",
+        "status": 200,
+        "file": "entry_entry12.html.bin",
+        "sha256": "a45611baf701afe8b8ab230805fc973367dfd010828a1d3933e0979920ccb076",
+        "retrievedAt": "2026-10-20T00:56:30.931Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "12"
+      },
+      "previewSourceUrl": "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb12.png",
+      "iconSourceUrl": "https://vipsummer2024.x.2nt.com/img/icon/icon12.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss12-1.png",
+          "local": "/screenshots/2024-summer/12-source-1.png",
+          "sha256": "2d15b3ab3e48ebd1f9bac89a4e45c5f3f64421a4dfc7504a039bf8c82f8cc7b5"
+        },
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss12-2.png",
+          "local": "/screenshots/2024-summer/12-source-2.png",
+          "sha256": "1b67bb5f1b16f7d072807383047c63d79afee32b491af2fa81749ef0d4d066ed"
+        }
+      ],
+      "sourceTitleMatchesCatalogue": true,
+      "detailTitleRecorded": false,
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "sourceDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1jekfdpG7xhRK4JomJlc9IpgWfYOYqey0/view?usp=drive_link",
+          "label": "DL(15.7 MB)"
+        }
+      ],
+      "normalizedDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1jekfdpG7xhRK4JomJlc9IpgWfYOYqey0/view?usp=drive_link",
+          "label": "DL(15.7 MB)"
+        }
+      ],
+      "sourceExampleLinksRetainedOnlyAsSource": [],
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2024-summer-work-13",
+      "no": "13",
+      "detailUrl": "https://vipsummer2024.x.2nt.com/entry/entry13.html",
+      "sourceCapture": {
+        "originalUrl": "https://vipsummer2024.x.2nt.com/entry/entry13.html",
+        "actualUrl": "https://vipsummer2024.x.2nt.com/entry/entry13.html",
+        "status": 200,
+        "file": "entry_entry13.html.bin",
+        "sha256": "593edee3b99f33fdd12d27d558d7d41426212836fd0fe8e425a0360fbda90827",
+        "retrievedAt": "2026-10-20T00:56:31.608Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "13"
+      },
+      "previewSourceUrl": "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb13.png",
+      "iconSourceUrl": "https://vipsummer2024.x.2nt.com/img/icon/dummy.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss13-1.png",
+          "local": "/screenshots/2024-summer/13-source-1.png",
+          "sha256": "12d9d3c86377305d881f03f3c90046a837dc7115f259a460891f6fb2c897e2a4"
+        },
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss13-2.png",
+          "local": "/screenshots/2024-summer/13-source-2.png",
+          "sha256": "014fb5d49a51c7eda6799f98bbc053e22a801aef755fe1214d536bfed23d3109"
+        }
+      ],
+      "sourceTitleMatchesCatalogue": true,
+      "detailTitleRecorded": false,
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "sourceDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1kUuTmFuZz0nM0ZaaId0ztBXzmu2RugxG/view?usp=drive_link",
+          "label": "DL(472.3 MB)"
+        }
+      ],
+      "normalizedDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1kUuTmFuZz0nM0ZaaId0ztBXzmu2RugxG/view?usp=drive_link",
+          "label": "DL(472.3 MB)"
+        }
+      ],
+      "sourceExampleLinksRetainedOnlyAsSource": [],
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2024-summer-work-14",
+      "no": "14",
+      "detailUrl": "https://vipsummer2024.x.2nt.com/entry/entry14.html",
+      "sourceCapture": {
+        "originalUrl": "https://vipsummer2024.x.2nt.com/entry/entry14.html",
+        "actualUrl": "https://vipsummer2024.x.2nt.com/entry/entry14.html",
+        "status": 200,
+        "file": "entry_entry14.html.bin",
+        "sha256": "0bfac9433762e5e04217e32e570e11def0f5b0a7cfacc64a86468f1b27a0765c",
+        "retrievedAt": "2026-10-20T00:56:32.269Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "14"
+      },
+      "previewSourceUrl": "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb14.png",
+      "iconSourceUrl": "https://vipsummer2024.x.2nt.com/img/icon/icon14.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss14-1.png",
+          "local": "/screenshots/2024-summer/14-source-1.png",
+          "sha256": "6185a05cf972520e280ed3c5b69e91c47b1add792a7bece41757d07fcb819383"
+        },
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss14-2.png",
+          "local": "/screenshots/2024-summer/14-source-2.png",
+          "sha256": "27e41cd403f36b16362be9acd26ad6188ee4062e0e2db1add9ae2c86038219a1"
+        }
+      ],
+      "sourceTitleMatchesCatalogue": true,
+      "detailTitleRecorded": false,
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "sourceDownloadLinks": [],
+      "normalizedDownloadLinks": [],
+      "sourceExampleLinksRetainedOnlyAsSource": [],
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2024-summer-work-15",
+      "no": "15",
+      "detailUrl": "https://vipsummer2024.x.2nt.com/entry/entry15.html",
+      "sourceCapture": {
+        "originalUrl": "https://vipsummer2024.x.2nt.com/entry/entry15.html",
+        "actualUrl": "https://vipsummer2024.x.2nt.com/entry/entry15.html",
+        "status": 200,
+        "file": "entry_entry15.html.bin",
+        "sha256": "a436969df60dce51c190ad7bc3ccb57deaae6e446780be516ad5af34a3a877d4",
+        "retrievedAt": "2026-10-20T00:56:33.660Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "15"
+      },
+      "previewSourceUrl": "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb15.png",
+      "iconSourceUrl": "https://vipsummer2024.x.2nt.com/img/icon/icon15.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss15.png",
+          "local": "/screenshots/2024-summer/15-source-1.png",
+          "sha256": "55900d195e23e4c37ec99ca25c48849546b056ca431b1ee04938ef9d339fa9ab"
+        }
+      ],
+      "sourceTitleMatchesCatalogue": true,
+      "detailTitleRecorded": false,
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "sourceDownloadLinks": [
+        {
+          "url": "https://vipsummer2024.x.2nt.com/entry/Games/summer2024_15.zip",
+          "label": "DL(939.2 KB)"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1KKHgiYpTFlRX4uvLHGPF5m32njktKHR_/view?usp=drive_link",
+          "label": "修正パッチ"
+        }
+      ],
+      "normalizedDownloadLinks": [
+        {
+          "url": "https://vipsummer2024.x.2nt.com/entry/Games/summer2024_15.zip",
+          "label": "DL(939.2 KB)"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1KKHgiYpTFlRX4uvLHGPF5m32njktKHR_/view?usp=drive_link",
+          "label": "修正パッチ"
+        }
+      ],
+      "sourceExampleLinksRetainedOnlyAsSource": [],
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2024-summer-work-16",
+      "no": "16",
+      "detailUrl": "https://vipsummer2024.x.2nt.com/entry/entry16.html",
+      "sourceCapture": {
+        "originalUrl": "https://vipsummer2024.x.2nt.com/entry/entry16.html",
+        "actualUrl": "https://vipsummer2024.x.2nt.com/entry/entry16.html",
+        "status": 200,
+        "file": "entry_entry16.html.bin",
+        "sha256": "043602c4daf1b1006bd8eb3ddc9d93abcf8f187f57a74879d5744317f3f043ad",
+        "retrievedAt": "2026-10-20T00:56:37.436Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "16"
+      },
+      "previewSourceUrl": "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb16.png",
+      "iconSourceUrl": "https://vipsummer2024.x.2nt.com/img/icon/icon16.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss16-1.png",
+          "local": "/screenshots/2024-summer/16-source-1.png",
+          "sha256": "5e5cb32a32c82a009331d8d023f08f459dfd501b5d565df2f8985bf7c686ff22"
+        },
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss16-2.png",
+          "local": "/screenshots/2024-summer/16-source-2.png",
+          "sha256": "ca2305e082e30580ff6cb6a8aefc153f424e71382c13b829892076398376a280"
+        }
+      ],
+      "sourceTitleMatchesCatalogue": true,
+      "detailTitleRecorded": false,
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "sourceDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1-5ng3j5iSklZ_I4ZcXeoMHRWCMLWeu0-/view?usp=drive_link",
+          "label": "DL(1.3 MB)"
+        }
+      ],
+      "normalizedDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1-5ng3j5iSklZ_I4ZcXeoMHRWCMLWeu0-/view?usp=drive_link",
+          "label": "DL(1.3 MB)"
+        }
+      ],
+      "sourceExampleLinksRetainedOnlyAsSource": [],
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2024-summer-work-17",
+      "no": "17",
+      "detailUrl": "https://vipsummer2024.x.2nt.com/entry/entry17.html",
+      "sourceCapture": {
+        "originalUrl": "https://vipsummer2024.x.2nt.com/entry/entry17.html",
+        "actualUrl": "https://vipsummer2024.x.2nt.com/entry/entry17.html",
+        "status": 200,
+        "file": "entry_entry17.html.bin",
+        "sha256": "df2afa9d9417225df57efbae87c2bef5fd7bdbec8fec2609e73243cf2a76ac5a",
+        "retrievedAt": "2026-10-20T00:56:38.207Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "17"
+      },
+      "previewSourceUrl": "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb17.png",
+      "iconSourceUrl": "https://vipsummer2024.x.2nt.com/img/icon/dummy.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss17.png",
+          "local": "/screenshots/2024-summer/17-source-1.png",
+          "sha256": "4b894750d20779077ad65d471f1877d3ac6ed9ce91f4a84228f65228b15c5946"
+        }
+      ],
+      "sourceTitleMatchesCatalogue": true,
+      "detailTitleRecorded": false,
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "sourceDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1FrNzVpLdfcZYIZ9rFTErH442ex8wO3iP/view?usp=drive_link",
+          "label": "DL(3.8 MB)"
+        }
+      ],
+      "normalizedDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1FrNzVpLdfcZYIZ9rFTErH442ex8wO3iP/view?usp=drive_link",
+          "label": "DL(3.8 MB)"
+        }
+      ],
+      "sourceExampleLinksRetainedOnlyAsSource": [],
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2024-summer-work-18",
+      "no": "18",
+      "detailUrl": "https://vipsummer2024.x.2nt.com/entry/entry18.html",
+      "sourceCapture": {
+        "originalUrl": "https://vipsummer2024.x.2nt.com/entry/entry18.html",
+        "actualUrl": "https://vipsummer2024.x.2nt.com/entry/entry18.html",
+        "status": 200,
+        "file": "entry_entry18.html.bin",
+        "sha256": "063f0b558175dab70fd806047b488d5dc4044378d184884c447634fb940139c2",
+        "retrievedAt": "2026-10-20T00:56:38.869Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "18"
+      },
+      "previewSourceUrl": "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb18.png",
+      "iconSourceUrl": "https://vipsummer2024.x.2nt.com/img/icon/icon18.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss18-1.png",
+          "local": "/screenshots/2024-summer/18-source-1.png",
+          "sha256": "0c084ca3d78e92d1ea0450ad916c158266b42506820e0f84f9996b85bb7b542e"
+        },
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss18-2.png",
+          "local": "/screenshots/2024-summer/18-source-2.png",
+          "sha256": "ba7d90107c0c6923cec746b475ec267090193863aea156312352158580a7237c"
+        }
+      ],
+      "sourceTitleMatchesCatalogue": true,
+      "detailTitleRecorded": false,
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "sourceDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/18A4yY70ETnczCU0_TI4X0mLctExyX_Ft/view?usp=drive_link",
+          "label": "DL(21.9 MB)"
+        }
+      ],
+      "normalizedDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/18A4yY70ETnczCU0_TI4X0mLctExyX_Ft/view?usp=drive_link",
+          "label": "DL(21.9 MB)"
+        }
+      ],
+      "sourceExampleLinksRetainedOnlyAsSource": [],
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2024-summer-work-19",
+      "no": "19",
+      "detailUrl": "https://vipsummer2024.x.2nt.com/entry/entry19.html",
+      "sourceCapture": {
+        "originalUrl": "https://vipsummer2024.x.2nt.com/entry/entry19.html",
+        "actualUrl": "https://vipsummer2024.x.2nt.com/entry/entry19.html",
+        "status": 200,
+        "file": "entry_entry19.html.bin",
+        "sha256": "9a1e02fecf0e18aed868c124b313a7123284762c8397085554fbc14457dc67d6",
+        "retrievedAt": "2026-10-20T00:56:39.523Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "19"
+      },
+      "previewSourceUrl": "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb19.png",
+      "iconSourceUrl": "https://vipsummer2024.x.2nt.com/img/icon/icon19.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss19-1.png",
+          "local": "/screenshots/2024-summer/19-source-1.png",
+          "sha256": "64a339cbf1b3d55780b9296064190195ee22953a66a4df54023aa24c3c76c39a"
+        },
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss19-2.png",
+          "local": "/screenshots/2024-summer/19-source-2.png",
+          "sha256": "653a00db1c9454b495e045b6b98b09275f100a9fd85ff763d3996648c71c4694"
+        }
+      ],
+      "sourceTitleMatchesCatalogue": true,
+      "detailTitleRecorded": false,
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "sourceDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1dvctST3MEaumRweFwIDAL-NcJOEye6Cj/view?usp=drive_link",
+          "label": "DL(321.1 MB)"
+        }
+      ],
+      "normalizedDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1dvctST3MEaumRweFwIDAL-NcJOEye6Cj/view?usp=drive_link",
+          "label": "DL(321.1 MB)"
+        }
+      ],
+      "sourceExampleLinksRetainedOnlyAsSource": [],
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2024-summer-work-20",
+      "no": "20",
+      "detailUrl": "https://vipsummer2024.x.2nt.com/entry/entry20.html",
+      "sourceCapture": {
+        "originalUrl": "https://vipsummer2024.x.2nt.com/entry/entry20.html",
+        "actualUrl": "https://vipsummer2024.x.2nt.com/entry/entry20.html",
+        "status": 200,
+        "file": "entry_entry20.html.bin",
+        "sha256": "69fd2307976cb264cc00460fa5e02bc8b999775b6e81310f482a7ede619ccc15",
+        "retrievedAt": "2026-10-20T00:56:40.243Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "20"
+      },
+      "previewSourceUrl": "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb20.png",
+      "iconSourceUrl": "https://vipsummer2024.x.2nt.com/img/icon/icon20.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss20.png",
+          "local": "/screenshots/2024-summer/20-source-1.png",
+          "sha256": "0d37ea91bbbed745aab6c4535a89f2f76474910d2f4d12ae27310fa32dad461d"
+        }
+      ],
+      "sourceTitleMatchesCatalogue": true,
+      "detailTitleRecorded": false,
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "sourceDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1gVt-e-g2fa6YF6_i7nG2IjhbnI6Ycem5/view?usp=drive_link",
+          "label": "DL(16.7 MB)"
+        }
+      ],
+      "normalizedDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1gVt-e-g2fa6YF6_i7nG2IjhbnI6Ycem5/view?usp=drive_link",
+          "label": "DL(16.7 MB)"
+        }
+      ],
+      "sourceExampleLinksRetainedOnlyAsSource": [],
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2024-summer-work-21",
+      "no": "21",
+      "detailUrl": "https://vipsummer2024.x.2nt.com/entry/entry21.html",
+      "sourceCapture": {
+        "originalUrl": "https://vipsummer2024.x.2nt.com/entry/entry21.html",
+        "actualUrl": "https://vipsummer2024.x.2nt.com/entry/entry21.html",
+        "status": 200,
+        "file": "entry_entry21.html.bin",
+        "sha256": "e368f297a9dcac1db97b2dfad6f9c3e76d832d1acf303ab18adb3f5347a7739f",
+        "retrievedAt": "2026-10-20T00:56:40.906Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "21"
+      },
+      "previewSourceUrl": "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb21.png",
+      "iconSourceUrl": "https://vipsummer2024.x.2nt.com/img/icon/icon21.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss21-1.png",
+          "local": "/screenshots/2024-summer/21-source-1.png",
+          "sha256": "97a01b96edbcc0ef11554b2a9dffe878339988f30e961ea3640dd29c08cf29e4"
+        },
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss21-2.png",
+          "local": "/screenshots/2024-summer/21-source-2.png",
+          "sha256": "059c51e3e0696fcf2561fce7ddb7648e94038cf99b71e3489a896860fdba9b98"
+        }
+      ],
+      "sourceTitleMatchesCatalogue": true,
+      "detailTitleRecorded": false,
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "sourceDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1UOTNws63hYpkUo3UGFW7-ADvfvefsWtw/view?usp=drive_link",
+          "label": "DL(518 KB)"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1z4HjoRQUbuhSlAaG9ZKkKQvNJJ09zpqg/view?usp=drive_link",
+          "label": "修正パッチ"
+        }
+      ],
+      "normalizedDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1UOTNws63hYpkUo3UGFW7-ADvfvefsWtw/view?usp=drive_link",
+          "label": "DL(518 KB)"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1z4HjoRQUbuhSlAaG9ZKkKQvNJJ09zpqg/view?usp=drive_link",
+          "label": "修正パッチ"
+        }
+      ],
+      "sourceExampleLinksRetainedOnlyAsSource": [],
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2024-summer-work-22",
+      "no": "22",
+      "detailUrl": "https://vipsummer2024.x.2nt.com/entry/entry22.html",
+      "sourceCapture": {
+        "originalUrl": "https://vipsummer2024.x.2nt.com/entry/entry22.html",
+        "actualUrl": "https://vipsummer2024.x.2nt.com/entry/entry22.html",
+        "status": 200,
+        "file": "entry_entry22.html.bin",
+        "sha256": "c0e7e7f74d0b143ccdb3ab7ea615cc23a40e15c21bd54068cce85129d69ab252",
+        "retrievedAt": "2026-10-20T00:56:41.877Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "22"
+      },
+      "previewSourceUrl": "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb22.png",
+      "iconSourceUrl": "https://vipsummer2024.x.2nt.com/img/icon/icon22.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss22.png",
+          "local": "/screenshots/2024-summer/22-source-1.png",
+          "sha256": "3ae6658a54f05fcaa93275c4ff0eeaf53ef95b317dc1b9f039b51116d22badda"
+        }
+      ],
+      "sourceTitleMatchesCatalogue": true,
+      "detailTitleRecorded": false,
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "sourceDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1mufUC4TmBwePuTG7QGEn__Ld-bc-cd4u/view?usp=drive_link",
+          "label": "DL(6.6 MB)"
+        }
+      ],
+      "normalizedDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1mufUC4TmBwePuTG7QGEn__Ld-bc-cd4u/view?usp=drive_link",
+          "label": "DL(6.6 MB)"
+        }
+      ],
+      "sourceExampleLinksRetainedOnlyAsSource": [],
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2024-summer-work-23",
+      "no": "23",
+      "detailUrl": "https://vipsummer2024.x.2nt.com/entry/entry23.html",
+      "sourceCapture": {
+        "originalUrl": "https://vipsummer2024.x.2nt.com/entry/entry23.html",
+        "actualUrl": "https://vipsummer2024.x.2nt.com/entry/entry23.html",
+        "status": 200,
+        "file": "entry_entry23.html.bin",
+        "sha256": "9a0f30bc176249f33a338de420ec867c09a46a3a5f4e24ed29b1699016bd6832",
+        "retrievedAt": "2026-10-20T00:56:42.818Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "23"
+      },
+      "previewSourceUrl": "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb23.png",
+      "iconSourceUrl": "https://vipsummer2024.x.2nt.com/img/icon/dummy.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss23.png",
+          "local": "/screenshots/2024-summer/23-source-1.png",
+          "sha256": "a0ba7482f7e899026b7e651ae0e82c3c8815c3c8ecd45f41b9d8d52afb506caa"
+        }
+      ],
+      "sourceTitleMatchesCatalogue": true,
+      "detailTitleRecorded": false,
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "sourceDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1LUfd0WbsHS3103eu8H82lElKkIQx9Qp1/view?usp=drive_link",
+          "label": "DL(161.6 KB)"
+        }
+      ],
+      "normalizedDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1LUfd0WbsHS3103eu8H82lElKkIQx9Qp1/view?usp=drive_link",
+          "label": "DL(161.6 KB)"
+        }
+      ],
+      "sourceExampleLinksRetainedOnlyAsSource": [],
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2024-summer-work-24",
+      "no": "24",
+      "detailUrl": "https://vipsummer2024.x.2nt.com/entry/entry24.html",
+      "sourceCapture": {
+        "originalUrl": "https://vipsummer2024.x.2nt.com/entry/entry24.html",
+        "actualUrl": "https://vipsummer2024.x.2nt.com/entry/entry24.html",
+        "status": 200,
+        "file": "entry_entry24.html.bin",
+        "sha256": "2060ff20a6d21053b552f36dffb8e7c6b8330c9149c866b30f792a4e743828c0",
+        "retrievedAt": "2026-10-20T00:56:43.465Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "24"
+      },
+      "previewSourceUrl": "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb24.png",
+      "iconSourceUrl": "https://vipsummer2024.x.2nt.com/img/icon/dummy.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss24-1.png",
+          "local": "/screenshots/2024-summer/24-source-1.png",
+          "sha256": "9896d186f9ca12822cca71b3a2451d85944289fe6a1071150208740f31388a00"
+        },
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss24-2.png",
+          "local": "/screenshots/2024-summer/24-source-2.png",
+          "sha256": "8e8276672a2d52e41b4b0b49a9f11cbc667417ad1177bf3a3883e4efbdb8e050"
+        }
+      ],
+      "sourceTitleMatchesCatalogue": true,
+      "detailTitleRecorded": false,
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "sourceDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/18I7N0zeSM_Xct5EXs8VkQQayQEDdabNk/view?usp=drive_link",
+          "label": "DL(183.3 MB)"
+        }
+      ],
+      "normalizedDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/18I7N0zeSM_Xct5EXs8VkQQayQEDdabNk/view?usp=drive_link",
+          "label": "DL(183.3 MB)"
+        }
+      ],
+      "sourceExampleLinksRetainedOnlyAsSource": [],
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2024-summer-work-25",
+      "no": "25",
+      "detailUrl": "https://vipsummer2024.x.2nt.com/entry/entry25.html",
+      "sourceCapture": {
+        "originalUrl": "https://vipsummer2024.x.2nt.com/entry/entry25.html",
+        "actualUrl": "https://vipsummer2024.x.2nt.com/entry/entry25.html",
+        "status": 200,
+        "file": "entry_entry25.html.bin",
+        "sha256": "3a36b90874740eeb4e2517ec102a9515e03ee8e7b74a768437255c3433263561",
+        "retrievedAt": "2026-10-20T00:56:44.223Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "25"
+      },
+      "previewSourceUrl": "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb25.png",
+      "iconSourceUrl": "https://vipsummer2024.x.2nt.com/img/icon/icon25.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss25.png",
+          "local": "/screenshots/2024-summer/25-source-1.png",
+          "sha256": "922d7058ee2616faf983de14d57a7f53bef25140f508d5e8136c99852c7504da"
+        }
+      ],
+      "sourceTitleMatchesCatalogue": true,
+      "detailTitleRecorded": false,
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "sourceDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1cuXUaR34v8gKVyZcs_EDU0mRlY0by_E0/view?usp=drive_link",
+          "label": "DL(4.7 MB)"
+        }
+      ],
+      "normalizedDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1cuXUaR34v8gKVyZcs_EDU0mRlY0by_E0/view?usp=drive_link",
+          "label": "DL(4.7 MB)"
+        }
+      ],
+      "sourceExampleLinksRetainedOnlyAsSource": [],
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2024-summer-work-26",
+      "no": "26",
+      "detailUrl": "https://vipsummer2024.x.2nt.com/entry/entry26.html",
+      "sourceCapture": {
+        "originalUrl": "https://vipsummer2024.x.2nt.com/entry/entry26.html",
+        "actualUrl": "https://vipsummer2024.x.2nt.com/entry/entry26.html",
+        "status": 200,
+        "file": "entry_entry26.html.bin",
+        "sha256": "ef97670b531833837af502d66ad6317333124fbfd94bb11bd2ad528f8aff25f3",
+        "retrievedAt": "2026-10-20T00:56:44.884Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "26"
+      },
+      "previewSourceUrl": "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb26.png",
+      "iconSourceUrl": "https://vipsummer2024.x.2nt.com/img/icon/icon26.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss26-1.png",
+          "local": "/screenshots/2024-summer/26-source-1.png",
+          "sha256": "d7f7eaa56fe9e99d37cc3c6bd4c6714d0bcc1d728cbf9dede393ffb81448684f"
+        },
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss26-2.png",
+          "local": "/screenshots/2024-summer/26-source-2.png",
+          "sha256": "539cb9d2d4505820dc3468cd5b5f72d2c7bf2e937328bfdab344f9ce4d92d218"
+        }
+      ],
+      "sourceTitleMatchesCatalogue": true,
+      "detailTitleRecorded": false,
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "sourceDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1mIE7V87tqyfF70q0A53rpilgR2ZgiCLL/view?usp=drive_link",
+          "label": "DL(5.8 MB)"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1u2LAtWm-6PUHJCeTgKNSOB6k1CDan8dk/view?usp=drive_link",
+          "label": "修正パッチ"
+        }
+      ],
+      "normalizedDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1mIE7V87tqyfF70q0A53rpilgR2ZgiCLL/view?usp=drive_link",
+          "label": "DL(5.8 MB)"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1u2LAtWm-6PUHJCeTgKNSOB6k1CDan8dk/view?usp=drive_link",
+          "label": "修正パッチ"
+        }
+      ],
+      "sourceExampleLinksRetainedOnlyAsSource": [],
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2024-summer-work-27",
+      "no": "27",
+      "detailUrl": "https://vipsummer2024.x.2nt.com/entry/entry27.html",
+      "sourceCapture": {
+        "originalUrl": "https://vipsummer2024.x.2nt.com/entry/entry27.html",
+        "actualUrl": "https://vipsummer2024.x.2nt.com/entry/entry27.html",
+        "status": 200,
+        "file": "entry_entry27.html.bin",
+        "sha256": "7f159a65a80d5d4c2cf7cac59d2d52ee23d58891c35e05248617f2b6b92e622c",
+        "retrievedAt": "2026-10-20T00:56:45.934Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "27"
+      },
+      "previewSourceUrl": "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb27.png",
+      "iconSourceUrl": "https://vipsummer2024.x.2nt.com/img/icon/icon27.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss27.png",
+          "local": "/screenshots/2024-summer/27-source-1.png",
+          "sha256": "d5e0c14248c3ea2ce5ee0184773039e8799234193512b2548849ecd6f96c2101"
+        }
+      ],
+      "sourceTitleMatchesCatalogue": true,
+      "detailTitleRecorded": false,
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "sourceDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1fZilLE6WOd4OMFxNfWRFVg2YJjd97rFF/view?usp=drive_link",
+          "label": "DL(1.2 MB)"
+        }
+      ],
+      "normalizedDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1fZilLE6WOd4OMFxNfWRFVg2YJjd97rFF/view?usp=drive_link",
+          "label": "DL(1.2 MB)"
+        }
+      ],
+      "sourceExampleLinksRetainedOnlyAsSource": [],
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2024-summer-work-28",
+      "no": "28",
+      "detailUrl": "https://vipsummer2024.x.2nt.com/entry/entry28.html",
+      "sourceCapture": {
+        "originalUrl": "https://vipsummer2024.x.2nt.com/entry/entry28.html",
+        "actualUrl": "https://vipsummer2024.x.2nt.com/entry/entry28.html",
+        "status": 200,
+        "file": "entry_entry28.html.bin",
+        "sha256": "23187b65fa6a82b0f8307a6c6d8b4349f77fd9a88988f2c70fe25ff86399f107",
+        "retrievedAt": "2026-10-20T00:56:48.305Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "28"
+      },
+      "previewSourceUrl": "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb28.png",
+      "iconSourceUrl": "https://vipsummer2024.x.2nt.com/img/icon/icon28.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss28.png",
+          "local": "/screenshots/2024-summer/28-source-1.png",
+          "sha256": "8a701eff16c374c44528f14620793c6cf3fbd727cb28587bc14fbbb787e24cb4"
+        }
+      ],
+      "sourceTitleMatchesCatalogue": true,
+      "detailTitleRecorded": false,
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "sourceDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1czYJ6HbUejBt4mq0VVnbF3ybS8em8Blf/view?usp=drive_link",
+          "label": "DL(108.5 MB)"
+        }
+      ],
+      "normalizedDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1czYJ6HbUejBt4mq0VVnbF3ybS8em8Blf/view?usp=drive_link",
+          "label": "DL(108.5 MB)"
+        }
+      ],
+      "sourceExampleLinksRetainedOnlyAsSource": [],
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2024-summer-work-29",
+      "no": "29",
+      "detailUrl": "https://vipsummer2024.x.2nt.com/entry/entry29.html",
+      "sourceCapture": {
+        "originalUrl": "https://vipsummer2024.x.2nt.com/entry/entry29.html",
+        "actualUrl": "https://vipsummer2024.x.2nt.com/entry/entry29.html",
+        "status": 200,
+        "file": "entry_entry29.html.bin",
+        "sha256": "e61801b536f5c448b06a7d5b562d24f06b4c8540c556d883cb11ba7fda8728de",
+        "retrievedAt": "2026-10-20T00:56:49.291Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "29"
+      },
+      "previewSourceUrl": "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb29.png",
+      "iconSourceUrl": "https://vipsummer2024.x.2nt.com/img/icon/icon29.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss29.png",
+          "local": "/screenshots/2024-summer/29-source-1.png",
+          "sha256": "869c7011a715280848bed2a28877dde88468e8e62dd90755372e3d52feaf9818"
+        }
+      ],
+      "sourceTitleMatchesCatalogue": true,
+      "detailTitleRecorded": false,
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "sourceDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/12WHDs4B9EDDFQWt53_8Ipb8q8H6fM56j/view?usp=drive_link",
+          "label": "DL(18.5 MB)"
+        }
+      ],
+      "normalizedDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/12WHDs4B9EDDFQWt53_8Ipb8q8H6fM56j/view?usp=drive_link",
+          "label": "DL(18.5 MB)"
+        }
+      ],
+      "sourceExampleLinksRetainedOnlyAsSource": [],
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2024-summer-work-30",
+      "no": "30",
+      "detailUrl": "https://vipsummer2024.x.2nt.com/entry/entry30.html",
+      "sourceCapture": {
+        "originalUrl": "https://vipsummer2024.x.2nt.com/entry/entry30.html",
+        "actualUrl": "https://vipsummer2024.x.2nt.com/entry/entry30.html",
+        "status": 200,
+        "file": "entry_entry30.html.bin",
+        "sha256": "baf8cd552e40b4f4c07559bb91a4a728e411b83f4671cf1704acb6f4eade4399",
+        "retrievedAt": "2026-10-20T00:56:50.496Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "30"
+      },
+      "previewSourceUrl": "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb30.png",
+      "iconSourceUrl": "https://vipsummer2024.x.2nt.com/img/icon/dummy.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss30.png",
+          "local": "/screenshots/2024-summer/30-source-1.png",
+          "sha256": "5f80bd6206f995589f540ceca9f989bad25093067713e01f5dff76379d800153"
+        }
+      ],
+      "sourceTitleMatchesCatalogue": true,
+      "detailTitleRecorded": false,
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "sourceDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/12GR_DUCBgHV0ySCoqSXtXN5FcMk-i9Gy/view?usp=drive_link",
+          "label": "DL(1.8 MB)"
+        }
+      ],
+      "normalizedDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/12GR_DUCBgHV0ySCoqSXtXN5FcMk-i9Gy/view?usp=drive_link",
+          "label": "DL(1.8 MB)"
+        }
+      ],
+      "sourceExampleLinksRetainedOnlyAsSource": [],
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2024-summer-work-31",
+      "no": "31",
+      "detailUrl": "https://vipsummer2024.x.2nt.com/entry/entry31.html",
+      "sourceCapture": {
+        "originalUrl": "https://vipsummer2024.x.2nt.com/entry/entry31.html",
+        "actualUrl": "https://vipsummer2024.x.2nt.com/entry/entry31.html",
+        "status": 200,
+        "file": "entry_entry31.html.bin",
+        "sha256": "b6c2917eb2bea4f3ea2f6eba7ee93b76ad548abc0ca0a7c39280d74aaa19cb6b",
+        "retrievedAt": "2026-10-20T00:56:51.181Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "31"
+      },
+      "previewSourceUrl": "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb31.png",
+      "iconSourceUrl": "https://vipsummer2024.x.2nt.com/img/icon/dummy.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss31.png",
+          "local": "/screenshots/2024-summer/31-source-1.png",
+          "sha256": "d5ee7d035298ffde9014ef4d18a00b6f3baea8a9601f94c97c6470b49d7d6a19"
+        }
+      ],
+      "sourceTitleMatchesCatalogue": true,
+      "detailTitleRecorded": false,
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "sourceDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1HP6jHKmU4jsm-6De5962zFVVtEuBATGH/view?usp=drive_link",
+          "label": "DL(153 KB)"
+        }
+      ],
+      "normalizedDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1HP6jHKmU4jsm-6De5962zFVVtEuBATGH/view?usp=drive_link",
+          "label": "DL(153 KB)"
+        }
+      ],
+      "sourceExampleLinksRetainedOnlyAsSource": [],
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2024-summer-work-32",
+      "no": "32",
+      "detailUrl": "https://vipsummer2024.x.2nt.com/entry/entry32.html",
+      "sourceCapture": {
+        "originalUrl": "https://vipsummer2024.x.2nt.com/entry/entry32.html",
+        "actualUrl": "https://vipsummer2024.x.2nt.com/entry/entry32.html",
+        "status": 200,
+        "file": "entry_entry32.html.bin",
+        "sha256": "b54bfa5df4d530993eeeb9d9b9f3f0fbf309505d6bcf0a61be316f76b6415dfb",
+        "retrievedAt": "2026-10-20T00:56:51.859Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "32"
+      },
+      "previewSourceUrl": "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb32.png",
+      "iconSourceUrl": "https://vipsummer2024.x.2nt.com/img/icon/icon32.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss32.png",
+          "local": "/screenshots/2024-summer/32-source-1.png",
+          "sha256": "73697c7827a00d7b76110f43f791fbebe81eeb89cbf5a0fd2243971738b46137"
+        }
+      ],
+      "sourceTitleMatchesCatalogue": true,
+      "detailTitleRecorded": false,
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "sourceDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1C6WFSxAJyK3KX6_B5kiyGcXFI_Kikl8H/view?usp=drive_link",
+          "label": "DL(245 KB)"
+        }
+      ],
+      "normalizedDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1C6WFSxAJyK3KX6_B5kiyGcXFI_Kikl8H/view?usp=drive_link",
+          "label": "DL(245 KB)"
+        }
+      ],
+      "sourceExampleLinksRetainedOnlyAsSource": [],
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2024-summer-work-33",
+      "no": "33",
+      "detailUrl": "https://vipsummer2024.x.2nt.com/entry/entry33.html",
+      "sourceCapture": {
+        "originalUrl": "https://vipsummer2024.x.2nt.com/entry/entry33.html",
+        "actualUrl": "https://vipsummer2024.x.2nt.com/entry/entry33.html",
+        "status": 200,
+        "file": "entry_entry33.html.bin",
+        "sha256": "ac72b3bf36d954470bdfb07a27f815a3278ff2eb697971ef78e326d1dc2a6ede",
+        "retrievedAt": "2026-10-20T00:56:52.619Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "33"
+      },
+      "previewSourceUrl": "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb33.png",
+      "iconSourceUrl": "https://vipsummer2024.x.2nt.com/img/icon/icon33.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss33.png",
+          "local": "/screenshots/2024-summer/33-source-1.png",
+          "sha256": "81b0ba7de922a001a39ca1dcc89ef7e4510597ee61e9477dbf6cbbf297a99603"
+        }
+      ],
+      "sourceTitleMatchesCatalogue": true,
+      "detailTitleRecorded": false,
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "sourceDownloadLinks": [],
+      "normalizedDownloadLinks": [],
+      "sourceExampleLinksRetainedOnlyAsSource": [],
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2024-summer-work-34",
+      "no": "34",
+      "detailUrl": "https://vipsummer2024.x.2nt.com/entry/entry34.html",
+      "sourceCapture": {
+        "originalUrl": "https://vipsummer2024.x.2nt.com/entry/entry34.html",
+        "actualUrl": "https://vipsummer2024.x.2nt.com/entry/entry34.html",
+        "status": 200,
+        "file": "entry_entry34.html.bin",
+        "sha256": "94968fe1f2950767a5076cd60cdd47feda8ea8718592f519ec139ff177c5d604",
+        "retrievedAt": "2026-10-20T00:56:54.302Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "34"
+      },
+      "previewSourceUrl": "https://vipsummer2024.x.2nt.com/img/thumbnail/dummy.png",
+      "iconSourceUrl": "https://vipsummer2024.x.2nt.com/img/icon/icon34.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/dummy.png",
+          "local": "/screenshots/2024-summer/34-source-1.png",
+          "sha256": "233f792e24f9cb3b0a350e0d04c443d21b92173c48f5c90ecd395a593b3c9cea"
+        }
+      ],
+      "sourceTitleMatchesCatalogue": true,
+      "detailTitleRecorded": false,
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "sourceDownloadLinks": [],
+      "normalizedDownloadLinks": [],
+      "sourceExampleLinksRetainedOnlyAsSource": [],
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2024-summer-work-35",
+      "no": "35",
+      "detailUrl": "https://vipsummer2024.x.2nt.com/entry/entry35.html",
+      "sourceCapture": {
+        "originalUrl": "https://vipsummer2024.x.2nt.com/entry/entry35.html",
+        "actualUrl": "https://vipsummer2024.x.2nt.com/entry/entry35.html",
+        "status": 200,
+        "file": "entry_entry35.html.bin",
+        "sha256": "5e8190e661edf277c0a4e04437e0eecf7e01473af50053a2df3d327fe00eb64b",
+        "retrievedAt": "2026-10-20T00:56:55.227Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "35"
+      },
+      "previewSourceUrl": "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb35.png",
+      "iconSourceUrl": "https://vipsummer2024.x.2nt.com/img/icon/icon35.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss35.png",
+          "local": "/screenshots/2024-summer/35-source-1.png",
+          "sha256": "efa046dcaaccaec862264933cdb4b40631545ff99cdcb0efc330e8e66edc3075"
+        }
+      ],
+      "sourceTitleMatchesCatalogue": true,
+      "detailTitleRecorded": false,
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "sourceDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1Kd3XQ7msvE6Nf2dgKduy9MomWvzhUs_A/view?usp=drive_link",
+          "label": "DL(393.8 MB)"
+        }
+      ],
+      "normalizedDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1Kd3XQ7msvE6Nf2dgKduy9MomWvzhUs_A/view?usp=drive_link",
+          "label": "DL(393.8 MB)"
+        }
+      ],
+      "sourceExampleLinksRetainedOnlyAsSource": [],
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2024-summer-work-36",
+      "no": "36",
+      "detailUrl": "https://vipsummer2024.x.2nt.com/entry/entry36.html",
+      "sourceCapture": {
+        "originalUrl": "https://vipsummer2024.x.2nt.com/entry/entry36.html",
+        "actualUrl": "https://vipsummer2024.x.2nt.com/entry/entry36.html",
+        "status": 200,
+        "file": "entry_entry36.html.bin",
+        "sha256": "8cff81aeedb8a51383d89dd5de7265cc3fd7aff39d576ebd368415ba74d8b072",
+        "retrievedAt": "2026-10-20T00:56:58.971Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "36"
+      },
+      "previewSourceUrl": "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb36.png",
+      "iconSourceUrl": "https://vipsummer2024.x.2nt.com/img/icon/icon36.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss36.png",
+          "local": "/screenshots/2024-summer/36-source-1.png",
+          "sha256": "68e575a32a5341d04d5d0395af0e777f5cab2f09ae78bfe136d9a695a78e1ec6"
+        }
+      ],
+      "sourceTitleMatchesCatalogue": true,
+      "detailTitleRecorded": false,
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "sourceDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1-qVtf_jp8d7OLuYBfXfCmtKk1ySARFEE/view?usp=drive_link",
+          "label": "DL(5.9 MB)"
+        }
+      ],
+      "normalizedDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1-qVtf_jp8d7OLuYBfXfCmtKk1ySARFEE/view?usp=drive_link",
+          "label": "DL(5.9 MB)"
+        }
+      ],
+      "sourceExampleLinksRetainedOnlyAsSource": [],
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2024-summer-work-37",
+      "no": "37",
+      "detailUrl": "https://vipsummer2024.x.2nt.com/entry/entry37.html",
+      "sourceCapture": {
+        "originalUrl": "https://vipsummer2024.x.2nt.com/entry/entry37.html",
+        "actualUrl": "https://vipsummer2024.x.2nt.com/entry/entry37.html",
+        "status": 200,
+        "file": "entry_entry37.html.bin",
+        "sha256": "ff18e3e6f527d483279a27794017d48c4ca08921844b6daf9a6e284962b4e6aa",
+        "retrievedAt": "2026-10-20T00:56:59.954Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "37"
+      },
+      "previewSourceUrl": "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb37.png",
+      "iconSourceUrl": "https://vipsummer2024.x.2nt.com/img/icon/icon37.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss37.png",
+          "local": "/screenshots/2024-summer/37-source-1.png",
+          "sha256": "046ada9a0d0a7511b77787b1719fe22f18f60f740e7d2be304a40b1e7ca7bbc6"
+        }
+      ],
+      "sourceTitleMatchesCatalogue": true,
+      "detailTitleRecorded": false,
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "sourceDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1rkR2lMqcrdrVdAf5diqN-hiDEFM7ejpS/view?usp=drive_link",
+          "label": "DL(4.9 MB)"
+        }
+      ],
+      "normalizedDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1rkR2lMqcrdrVdAf5diqN-hiDEFM7ejpS/view?usp=drive_link",
+          "label": "DL(4.9 MB)"
+        }
+      ],
+      "sourceExampleLinksRetainedOnlyAsSource": [],
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2024-summer-work-38",
+      "no": "38",
+      "detailUrl": "https://vipsummer2024.x.2nt.com/entry/entry38.html",
+      "sourceCapture": {
+        "originalUrl": "https://vipsummer2024.x.2nt.com/entry/entry38.html",
+        "actualUrl": "https://vipsummer2024.x.2nt.com/entry/entry38.html",
+        "status": 200,
+        "file": "entry_entry38.html.bin",
+        "sha256": "cd6d57f73346d1835991709914372f4265cf6e006aab853e596f24d6336d989a",
+        "retrievedAt": "2026-10-20T00:57:00.886Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "38"
+      },
+      "previewSourceUrl": "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb38.png",
+      "iconSourceUrl": "https://vipsummer2024.x.2nt.com/img/icon/icon38.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss38.png",
+          "local": "/screenshots/2024-summer/38-source-1.png",
+          "sha256": "39f368395641cf3a46d0ff3916c7f141f3864b34106b3214ec3bd08c6281c601"
+        }
+      ],
+      "sourceTitleMatchesCatalogue": true,
+      "detailTitleRecorded": false,
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "sourceDownloadLinks": [],
+      "normalizedDownloadLinks": [],
+      "sourceExampleLinksRetainedOnlyAsSource": [],
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2024-summer-work-39",
+      "no": "39",
+      "detailUrl": "https://vipsummer2024.x.2nt.com/entry/entry39.html",
+      "sourceCapture": {
+        "originalUrl": "https://vipsummer2024.x.2nt.com/entry/entry39.html",
+        "actualUrl": "https://vipsummer2024.x.2nt.com/entry/entry39.html",
+        "status": 200,
+        "file": "entry_entry39.html.bin",
+        "sha256": "fc3de78a6f9e455cee6d96b1ca6e0a32edaeb41f31a4d6f63cf88e8b94a7bca6",
+        "retrievedAt": "2026-10-20T00:57:01.632Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "39"
+      },
+      "previewSourceUrl": "https://vipsummer2024.x.2nt.com/img/thumbnail/dummy.png",
+      "iconSourceUrl": "https://vipsummer2024.x.2nt.com/img/icon/icon39.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/dummy.png",
+          "local": "/screenshots/2024-summer/39-source-1.png",
+          "sha256": "233f792e24f9cb3b0a350e0d04c443d21b92173c48f5c90ecd395a593b3c9cea"
+        }
+      ],
+      "sourceTitleMatchesCatalogue": true,
+      "detailTitleRecorded": false,
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "sourceDownloadLinks": [],
+      "normalizedDownloadLinks": [],
+      "sourceExampleLinksRetainedOnlyAsSource": [],
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2024-summer-work-40",
+      "no": "40",
+      "detailUrl": "https://vipsummer2024.x.2nt.com/entry/entry40.html",
+      "sourceCapture": {
+        "originalUrl": "https://vipsummer2024.x.2nt.com/entry/entry40.html",
+        "actualUrl": "https://vipsummer2024.x.2nt.com/entry/entry40.html",
+        "status": 200,
+        "file": "entry_entry40.html.bin",
+        "sha256": "9916c5c225b3f4ce9edd3fca8ac2eaf8e9395fc55b91fdcb20c043a1fa2c1067",
+        "retrievedAt": "2026-10-20T00:57:02.271Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "40"
+      },
+      "previewSourceUrl": "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb40.png",
+      "iconSourceUrl": "https://vipsummer2024.x.2nt.com/img/icon/icon40.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss40.png",
+          "local": "/screenshots/2024-summer/40-source-1.png",
+          "sha256": "8baeed95fc91b5de8a12721a333727de496a56ce8439a79bd38e4f25ff8e8b6c"
+        }
+      ],
+      "sourceTitleMatchesCatalogue": true,
+      "detailTitleRecorded": false,
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "sourceDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1PbfoWcEZZaLZki8wl_Jn2LNsmmm7Zk95/view?usp=drive_link",
+          "label": "DL(4.4 MB)"
+        }
+      ],
+      "normalizedDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1PbfoWcEZZaLZki8wl_Jn2LNsmmm7Zk95/view?usp=drive_link",
+          "label": "DL(4.4 MB)"
+        }
+      ],
+      "sourceExampleLinksRetainedOnlyAsSource": [],
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2024-summer-work-41",
+      "no": "41",
+      "detailUrl": "https://vipsummer2024.x.2nt.com/entry/entry41.html",
+      "sourceCapture": {
+        "originalUrl": "https://vipsummer2024.x.2nt.com/entry/entry41.html",
+        "actualUrl": "https://vipsummer2024.x.2nt.com/entry/entry41.html",
+        "status": 200,
+        "file": "entry_entry41.html.bin",
+        "sha256": "c45924d99ea31a1708caebb83e4d09bbd4c726280503dabbf72c42a21ef928ee",
+        "retrievedAt": "2026-10-20T00:57:02.960Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "41"
+      },
+      "previewSourceUrl": "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb41.png",
+      "iconSourceUrl": "https://vipsummer2024.x.2nt.com/img/icon/icon41.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss41.png",
+          "local": "/screenshots/2024-summer/41-source-1.png",
+          "sha256": "4a9225db9d8520770107259db4c6adad46378f61142186c0939ab35a03e9a463"
+        }
+      ],
+      "sourceTitleMatchesCatalogue": true,
+      "detailTitleRecorded": false,
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "sourceDownloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/vipsummerfes2024/download/27",
+          "label": "DL(47 MB)"
+        }
+      ],
+      "normalizedDownloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/vipsummerfes2024/download/27",
+          "label": "DL(47 MB)"
+        }
+      ],
+      "sourceExampleLinksRetainedOnlyAsSource": [],
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2024-summer-work-42",
+      "no": "42",
+      "detailUrl": "https://vipsummer2024.x.2nt.com/entry/entry42.html",
+      "sourceCapture": {
+        "originalUrl": "https://vipsummer2024.x.2nt.com/entry/entry42.html",
+        "actualUrl": "https://vipsummer2024.x.2nt.com/entry/entry42.html",
+        "status": 200,
+        "file": "entry_entry42.html.bin",
+        "sha256": "04643569256ee4f65d4a9cb273862d6f9fed0fc9e68bbf332d2a4fd35e1c1b8b",
+        "retrievedAt": "2026-10-20T00:57:03.602Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "42"
+      },
+      "previewSourceUrl": "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb42.png",
+      "iconSourceUrl": "https://vipsummer2024.x.2nt.com/img/icon/icon42.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss42-1.png",
+          "local": "/screenshots/2024-summer/42-source-1.png",
+          "sha256": "7f51ebf46d3716405526b9365558d7b76a58f0aa88b1d3fad4d62a6100f2ff32"
+        },
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss42-2.png",
+          "local": "/screenshots/2024-summer/42-source-2.png",
+          "sha256": "0e40570625b08f29d106805315b31f0a567fc3ae5deb9c57fb7f85dc9c63a05b"
+        }
+      ],
+      "sourceTitleMatchesCatalogue": true,
+      "detailTitleRecorded": false,
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "sourceDownloadLinks": [],
+      "normalizedDownloadLinks": [],
+      "sourceExampleLinksRetainedOnlyAsSource": [],
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2024-summer-work-43",
+      "no": "43",
+      "detailUrl": "https://vipsummer2024.x.2nt.com/entry/entry43.html",
+      "sourceCapture": {
+        "originalUrl": "https://vipsummer2024.x.2nt.com/entry/entry43.html",
+        "actualUrl": "https://vipsummer2024.x.2nt.com/entry/entry43.html",
+        "status": 200,
+        "file": "entry_entry43.html.bin",
+        "sha256": "c4c9770ca1e1f298b4cc4f1e7b4ebd66b73ffa261b28117a2bc2726281edd1fb",
+        "retrievedAt": "2026-10-20T00:57:04.265Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "43"
+      },
+      "previewSourceUrl": "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb43.png",
+      "iconSourceUrl": "https://vipsummer2024.x.2nt.com/img/icon/dummy.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss43.png",
+          "local": "/screenshots/2024-summer/43-source-1.png",
+          "sha256": "12087539cd355dac9c928afff81851735e4eca703fc1b9c8089d957cbbc857f8"
+        }
+      ],
+      "sourceTitleMatchesCatalogue": true,
+      "detailTitleRecorded": false,
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "sourceDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1xTJ-xHOm8SQ_zyBi7d6vgUphK7popsX8/view?usp=drive_link",
+          "label": "DL(59.5 MB)"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1Q4-qAv2vTj7Udj17wf8Alk_FpjYssoUP/view?usp=drive_link",
+          "label": "修正パッチ"
+        }
+      ],
+      "normalizedDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1xTJ-xHOm8SQ_zyBi7d6vgUphK7popsX8/view?usp=drive_link",
+          "label": "DL(59.5 MB)"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1Q4-qAv2vTj7Udj17wf8Alk_FpjYssoUP/view?usp=drive_link",
+          "label": "修正パッチ"
+        }
+      ],
+      "sourceExampleLinksRetainedOnlyAsSource": [],
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2024-summer-work-44",
+      "no": "44",
+      "detailUrl": "https://vipsummer2024.x.2nt.com/entry/entry44.html",
+      "sourceCapture": {
+        "originalUrl": "https://vipsummer2024.x.2nt.com/entry/entry44.html",
+        "actualUrl": "https://vipsummer2024.x.2nt.com/entry/entry44.html",
+        "status": 200,
+        "file": "entry_entry44.html.bin",
+        "sha256": "d323e623a9493caab806ca738ec3bbb359484a3b93878728460c515571d72ff3",
+        "retrievedAt": "2026-10-20T00:57:04.940Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "44"
+      },
+      "previewSourceUrl": "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb44.png",
+      "iconSourceUrl": "https://vipsummer2024.x.2nt.com/img/icon/dummy.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss44.png",
+          "local": "/screenshots/2024-summer/44-source-1.png",
+          "sha256": "342a79bbcf180d3fddcef8c7910f47c1b8fd312f25087d103c0adf189c928032"
+        }
+      ],
+      "sourceTitleMatchesCatalogue": true,
+      "detailTitleRecorded": false,
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "sourceDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/19FF5lJTUo53kGOpi7Swqcg-kgftunjOm/view?usp=drive_link",
+          "label": "DL(23 KB)"
+        }
+      ],
+      "normalizedDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/19FF5lJTUo53kGOpi7Swqcg-kgftunjOm/view?usp=drive_link",
+          "label": "DL(23 KB)"
+        }
+      ],
+      "sourceExampleLinksRetainedOnlyAsSource": [],
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2024-summer-work-45",
+      "no": "45",
+      "detailUrl": "https://vipsummer2024.x.2nt.com/entry/entry45.html",
+      "sourceCapture": {
+        "originalUrl": "https://vipsummer2024.x.2nt.com/entry/entry45.html",
+        "actualUrl": "https://vipsummer2024.x.2nt.com/entry/entry45.html",
+        "status": 200,
+        "file": "entry_entry45.html.bin",
+        "sha256": "2ba2b05cae4b5bc87ad224d872084b84bf59ae3340418d411b8d6cd77716f2c4",
+        "retrievedAt": "2026-10-20T00:57:05.653Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "45"
+      },
+      "previewSourceUrl": "https://vipsummer2024.x.2nt.com/img/thumbnail/tmb45.png",
+      "iconSourceUrl": "https://vipsummer2024.x.2nt.com/img/icon/icon45.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipsummer2024.x.2nt.com/entry/screenshot/ss45.png",
+          "local": "/screenshots/2024-summer/45-source-1.png",
+          "sha256": "a3457fd03ef148b9808be2a11b8520f20236fa7e683e6e50e86347c45c308260"
+        }
+      ],
+      "sourceTitleMatchesCatalogue": true,
+      "detailTitleRecorded": false,
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "sourceDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1IIgNqwcerpnlnQD1sY0-j-Zvej6nSvk-/view?usp=drive_link",
+          "label": "DL(25.4 MB)"
+        }
+      ],
+      "normalizedDownloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1IIgNqwcerpnlnQD1sY0-j-Zvej6nSvk-/view?usp=drive_link",
+          "label": "DL(25.4 MB)"
+        }
+      ],
+      "sourceExampleLinksRetainedOnlyAsSource": [],
+      "packageBytesDownloaded": false
+    }
+  ],
+  "bannerSources": [
+    {
+      "sourceUrl": "https://vipsummer2024.x.2nt.com/img/bunner1.png",
+      "local": "/banners/2024-summer-source-1.png",
+      "sha256": "882de5777fb75f7875451973d4ede73acec2b5281aa5caa5d34d7c3273fc1532"
+    },
+    {
+      "sourceUrl": "https://vipsummer2024.x.2nt.com/img/bunner2.png",
+      "local": "/banners/2024-summer-source-2.png",
+      "sha256": "65a4d987e533a1d557b696fec87547ee259085e4679eeec54e3dc47ddc4f908a"
+    },
+    {
+      "sourceUrl": "https://vipsummer2024.x.2nt.com/img/bunner3.png",
+      "local": "/banners/2024-summer-source-3.png",
+      "sha256": "966e4cbcad7b20af94add99fd77cb7fd805a0c063090cd33ac22dfcd38d5456f"
+    }
+  ],
+  "handling": "Direct source archival without content review, keyword/image screening, screenshot size filters or six-image limits. Preserve actual displayed and hover screenshots separately from catalogue thumbnails. Comment extraction includes direct text nodes between h2 headings. Original source-supplied dummy media and sample example.com links remain documented without inventing real package links. No game packages downloaded.",
+  "desktopReview": "passed",
+  "desktopEvidence": "catch/2024-summer/desktop-review.json"
+}

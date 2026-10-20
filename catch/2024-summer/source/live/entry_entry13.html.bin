@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="../css/default.css">
+		<define id="META"></define>
+		<script>
+			var pageName = "溺死するＲＰＧ";
+			var gameNo   = "13";
+		</script>
+        <!--↑gameName=のダブルクォーテーション内にゲーム名、gameNo=のダブルクォーテーション内に作品Noを入力してください-->
+	</head>
+	<body class="sky">
+		<define id="HEADER"></define>
+		<define id="PAGENAME"></define>
+		<centering_box>
+			<table>
+				<tr>
+					<td class="icon_space"><img src="../img/icon/dummy.png"></td>
+					<td colspan="3"><h2><define id="GAMENAME"></define></h2></td>
+				</tr>
+				<tr>
+					<td colspan="4">
+						<img src   =          "screenshot/ss13-1.png"
+						onmouseout ="this.src='screenshot/ss13-1.png'"
+						onmouseover="this.src='screenshot/ss13-2.png'">
+						<!--↑基本的には全て同じ画像を設定し、
+						　　マウスオーバースクリーンショットの掲載を依頼された場合のみ
+						　　onmouseover=の""内のみを編集してください-->
+					</td>
+				</tr>
+				<tr>
+					<td colspan="4">
+						<h2>作者のコメント</h2>
+						主人公がすぐ溺死してしまう笑いあり、熱さあり、切なさありのネタゲー。<br>
+						彼を死なせないように気をつけながら魔王を倒そう！<br><br>
+						本作のコンセプトは「誰でもクリアできること」です。<br>
+						戦闘システムは少々厄介ですが<br>
+						ＲＰＧ初心者でもクリアできるようにゲームオーバー時には<br>
+						難易度を下げ続けられる救済措置や戦闘のヒントを設けてあります。<br>
+						お気軽にプレイしてください。<br>
+						反面、高難易度はボスごとに違う立ち回りが求められ<br>
+						ＲＰＧ熟練者も一筋縄ではいかないでしょう。<br>
+						非常に「戦闘が楽しい」ＲＰＧになっております！
+                        <blank></blank>
+                        <h2>主催のコメント</h2>
+						この季節になると水難事故が多くなるので皆さんも気をつけましょう。
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2"><a href="https://drive.google.com/file/d/1kUuTmFuZz0nM0ZaaId0ztBXzmu2RugxG/view?usp=drive_link"/>DL(472.3 MB)</a></td>
+					<td colspan="2"><a href="https://jbbs.shitaraba.net/bbs/read.cgi/internet/26302/1721173789/l50"/>感想掲示板</a></td>
+				</tr>
+			</table>
+		</centering_box>
+		<define id="FOOTER"></define>
+		<script src="../js/define.js"></script>
+    <script><!--
+var footerparam = 'charset=' + encodeURIComponent(document.charset ? document.charset : document.characterSet) + '&url=' + encodeURIComponent(document.location) + '&service=1&r=' + Math.floor(Math.random()*99999999999);
+var footertag = "//vip-chps-api.2nt.com/apis/footer/?" + footerparam;
+var script = document.createElement('script');
+script.src = footertag;
+script.charset = "UTF-8";
+script.async = true;
+document.getElementsByTagName('head')[0].appendChild(script);
+//--></script>
+<!-- 2nt, inc.-->
+<img src="//media.fc2.com/counter_img.php?id=50" style="display:none" alt="inserted by 2nt system" width="0" height="0">
+<!-- 2nt, inc.--></body>
+</html>

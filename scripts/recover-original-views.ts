@@ -7,6 +7,14 @@ import type { WorkEntry } from "../src/lib/types";
 import { rewriteSummer2012Source } from "./source-2012-summer-view";
 
 const configurations: Record<string, { base: string; entry?: string; manifests: string[]; seeds: Record<string, string>; seedUrls?: Record<string, string>; cgiProfile?: boolean; encoding?: string; encodingOverrides?: Record<string, string>; liveSource?: boolean; disabledLocalLinks?: string[]; externalResources?: Record<string, string>; preserveExternalExtensions?: string[]; frames?: { menuPage: string; menuName: string; mainName: string } }> = {
+  "2024-summer": {
+    base: "https://vipsummer2024.x.2nt.com/",
+    manifests: ["source/live/manifest.json", "source/resources/manifest.json"],
+    seeds: {},
+    encoding: "utf-8",
+    liveSource: true,
+    preserveExternalExtensions: [".zip", ".rar", ".7z", ".exe"],
+  },
   "2024-kuradashifestival": {
     base: "https://tkoolviprpg2421014.web.fc2.com/",
     entry: "archive_exf1.html",
@@ -365,7 +373,16 @@ async function main() {
   const omittedBackgrounds: Array<{ page: string; resource: string }> = [];
   const omittedHovers: Array<{ page: string; resource: string }> = [];
   const recovery = JSON.parse(await fs.readFile(`${root}/recovery.json`, "utf8"));
-  if (["2024-kuradashifestival", "2024-kouhaku", "2024-gw", "2025-gw", "2025-summer"].includes(id) || id === "2006-kouhaku" || id === "2012-toppuu-festival" || id === "2011-toppatsu-festival" || id === "2008-jisaku-battle-festival" || id === "2010-gw" || id === "2010-kouhaku" || id === "2010-summer") config.externalResources = recovery.originalResources;
+  const sharedHeaderTargets: string[] = [];
+  if (id === "2024-summer") {
+    const header = cheerio.load(await fs.readFile(`${root}/source/live/header.html.bin`, "utf8"));
+    header('a[target="_parent"][href]').each((_, element) => {
+      const url = new URL(header(element).attr("href")!, config.base);
+      const local = recovery.originalResources[url.href];
+      sharedHeaderTargets.push(local ? `/original-pages/${id}/${local}${url.search}${url.hash}` : url.href);
+    });
+  }
+  if (["2024-summer", "2024-kuradashifestival", "2024-kouhaku", "2024-gw", "2025-gw", "2025-summer"].includes(id) || id === "2006-kouhaku" || id === "2012-toppuu-festival" || id === "2011-toppatsu-festival" || id === "2008-jisaku-battle-festival" || id === "2010-gw" || id === "2010-kouhaku" || id === "2010-summer") config.externalResources = recovery.originalResources;
   const sourceDetailGapPaths = new Set<string>((recovery.sourceDetailGaps ?? []).map((gap: { sourcePath: string }) => gap.sourcePath));
   const unavailableSourcePagePaths = new Set<string>((recovery.unavailableSourcePages ?? []).map((gap: { sourcePath: string }) => gap.sourcePath));
   const previousMissing: Array<{ url: string; requestedUrl?: string; error: string }> = JSON.parse(await fs.readFile(`${root}/original-view.json`, "utf8").catch(() => "{}")).missingResources ?? [];
@@ -776,6 +793,15 @@ async function main() {
             if (!failures.some(failure => failure.url === url)) failures.push({ url, error: "Source script absent from the verified website backup and unavailable at the original host; no CDX capture was returned. The captured header markup is retained." });
           });
         }
+        if (id === "2024-summer") {
+          const tracking = $('script:not([src])').filter((_, element) => /var\s+footerparam\s*=/.test($(element).html() || ''));
+          if (tracking.length) compatibilityFixes.push({ page: local, change: "Remove the hosting footer loader; retain original page-name variables and the source's shared header/footer script." });
+          tracking.remove();
+          if (local.startsWith("entry/")) {
+            $("head").append('<style data-archive-desktop-image-fit>centering_box table tr:nth-child(2) img{max-width:calc(100vw - 32px);height:auto}</style>');
+            compatibilityFixes.push({ page: local, change: "Constrain the source screenshot row to the desktop viewport while retaining aspect ratio and original image bytes; source pages 03, 19 and 28 otherwise overflow with 1280-1440px images." });
+          }
+        }
         $("script").each((_, element) => {
           const script = $(element), src = script.attr("src");
           if ((src && !relative(new URL(src, original).href)) || /fc2footerparam|geovisit\(|var\s+jps\s*=|archive_analytics|__wm\./.test(script.html() ?? "") || (id === "2012-magic-festival" && /fhp_c_pc/.test(script.html() ?? "")) || (id === "2012-kouhaku" && /_gaq|googletag|geniee_|var ID=|twitter-wjs/.test(script.html() ?? ""))) script.remove();
@@ -881,6 +907,28 @@ async function main() {
           compatibilityFixes.push({ page: local, change: "Remove default paragraph margins in the menu absolute-positioned rows. A 56px high layer at z-index 28 overlapped the No.17 and No.18 links at z-index 13; a 20px line box follows the source row spacing and restores pointer access." });
         }
         // Opaque sandbox origins prevent the legacy menu from navigating its sibling frame.
+        if (id === "2024-summer" && $("#HEADER").length) {
+          $("head").append(`<script data-archive-header-navigation>
+            addEventListener('message',function(event){
+              var header=document.querySelector('#HEADER iframe');
+              if(!header||event.source!==header.contentWindow||event.data?.type!=='archive-header-navigation')return;
+              var url=new URL(event.data.url,location.href);
+              var allowed=${JSON.stringify(sharedHeaderTargets)}.map(function(value){return new URL(value,location.href).href;});
+              if(allowed.includes(url.href))location.assign(url.href);
+            });
+          </script>`);
+          compatibilityFixes.push({ page: local, change: "Let the source page navigate itself after a message from its own shared header frame; accept only the six captured header destinations. Opaque sandbox origins block the original _parent navigation." });
+        }
+        if (id === "2024-summer" && local === "header.html") {
+          $("body").append(`<script data-archive-header-navigation>
+            addEventListener('click',function(event){
+              var link=event.target.closest('a[target="_parent"][href]');
+              if(!link||parent===window)return;
+              event.preventDefault();parent.postMessage({type:'archive-header-navigation',url:link.href},'*');
+            });
+          </script>`);
+          compatibilityFixes.push({ page: local, change: "Forward the original header link click to its owning source page without changing the sandbox or the source menu layout." });
+        }
         const menuFrameSelector = config.frames && (config.frames.menuName ? `frame[name="${config.frames.menuName}"]` : 'frame:not([name]),frame[name=""]');
         const mainFrameSelector = config.frames && `frame[name="${config.frames.mainName}"]`;
         if (menuFrameSelector && mainFrameSelector && $(menuFrameSelector).length && $(mainFrameSelector).length) $("head").append(`<script>

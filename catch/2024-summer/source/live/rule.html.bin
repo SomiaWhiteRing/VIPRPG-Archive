@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/default.css">
+		<define id="META"></define>
+		<script>
+			var pageName = "規約";
+		</script>
+	</head>
+	<body class="sky">
+		<define id="HEADER"></define>
+		<define id="PAGENAME"></define>
+		<pane>
+			<h2>規約について</h2><br>
+            <ul>
+                          <li>当イベントは、RPGツクールでゲームを制作する楽しさや創作する楽しさ、そしてそれらの作品を遊んで楽しいひとときを過ごす時間を皆で共有する目的で企画されたイベントです。</li>
+                          <li>例年、様々なジャンルや内容の作品が投稿されています。<br>好みの違い等はあると思われますが、自分一人の感性がすべてではなく、あらゆる考え方が存在するという理念の元、当イベントを運営してまいります。</li>
+              <li>運営上必要であるケースを除き、<font color="FF6666">参加者および書き込みをした方の個人情報(例：IPアドレス)は公開いたしません。<br>また、やむを得ず情報を公開する場合は感想掲示板トップや運営スレッドでのみ報告を行います。</font><br>それ以外の場所で報告されたケースにつきましては当イベント運営は一切関知しないものとします。</li>
+              <li>当イベントで公開された作品の著作権は、各作品の作者様に帰属いたします。</li>
+            </ul>
+		</pane>
+		<pane>
+			<h2>禁止事項</h2><br>
+            下記に関する内容は一切厳禁とします。<br>
+            守れない場合はしかるべき措置を取らせていただきますので、あらかじめご了承願います。
+            <ul>
+                          <li>掲示板やアップローダなどにおける荒らし行為</li>
+                          <li>誹謗中傷等を目的とした内容の書き込みや作品の登録</li>
+                          <li>虚偽の内容を含んだ参加申請</li>
+                          <li>その他、当イベント運営の妨げになる行為</li>
+
+            </ul>
+		</pane>
+      		<pane>
+			<h2>その他</h2><br>
+              当イベント用サイトを作成するにあたり、CSS構成などを<font color="FFAA66">芽座ニアさん</font>にご協力いただきました。<br>
+              ご協力頂き、大変感謝いたします。
+		</pane>
+		<define id="FOOTER"></define>
+		<script src="js/define.js"></script>
+    <script><!--
+var footerparam = 'charset=' + encodeURIComponent(document.charset ? document.charset : document.characterSet) + '&url=' + encodeURIComponent(document.location) + '&service=1&r=' + Math.floor(Math.random()*99999999999);
+var footertag = "//vip-chps-api.2nt.com/apis/footer/?" + footerparam;
+var script = document.createElement('script');
+script.src = footertag;
+script.charset = "UTF-8";
+script.async = true;
+document.getElementsByTagName('head')[0].appendChild(script);
+//--></script>
+<!-- 2nt, inc.-->
+<img src="//media.fc2.com/counter_img.php?id=50" style="display:none" alt="inserted by 2nt system" width="0" height="0">
+<!-- 2nt, inc.--></body>
+</html>

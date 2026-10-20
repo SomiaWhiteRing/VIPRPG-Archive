@@ -1,0 +1,26 @@
+{
+  "userObservedBeforeRepair": "Header 作品一覧 click had no visible response in the embedded original view.",
+  "cause": "The captured header uses target=_parent inside nested opaque sandbox origins.",
+  "fix": "Forward the header click with postMessage and let its owning source page navigate itself. Verify the sender window and allow only the six captured source destinations.",
+  "sandboxUnchanged": true,
+  "inlineScriptsCompiled": 101,
+  "bridgeDocuments": 51,
+  "syntaxErrors": [],
+  "allowedTargets": [
+    "/original-pages/2024-summer/index.html",
+    "https://jbbs.shitaraba.net/bbs/read.cgi/internet/26302/1719720354/l50",
+    "https://jbbs.shitaraba.net/internet/26302/",
+    "/original-pages/2024-summer/entries.html",
+    "/original-pages/2024-summer/rule.html",
+    "/original-pages/2024-summer/info.html"
+  ],
+  "embeddedClickRetest": "passed-user-confirmed-and-observed",
+  "finalBuild": "passed",
+  "lint": "passed",
+  "userConfirmation": {
+    "answer": "现在能进入目录",
+    "observedSourceFramePath": "/original-pages/2024-summer/entries.html",
+    "observedTableRows": 94,
+    "works": 46
+  }
+}

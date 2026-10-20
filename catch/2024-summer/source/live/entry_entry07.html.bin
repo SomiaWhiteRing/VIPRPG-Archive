@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="../css/default.css">
+		<define id="META"></define>
+		<script>
+			var pageName = "フレイムさんの味噌汁";
+			var gameNo   = "07";
+		</script>
+        <!--↑gameName=のダブルクォーテーション内にゲーム名、gameNo=のダブルクォーテーション内に作品Noを入力してください-->
+	</head>
+	<body class="sky">
+		<define id="HEADER"></define>
+		<define id="PAGENAME"></define>
+		<centering_box>
+			<table>
+				<tr>
+					<td class="icon_space"><img src="../img/icon/icon07.png"></td>
+					<td colspan="3"><h2><define id="GAMENAME"></define></h2></td>
+				</tr>
+				<tr>
+					<td colspan="4">
+						<img src   =          "screenshot/ss07.png"
+						onmouseout ="this.src='screenshot/ss07.png'"
+						onmouseover="this.src='screenshot/ss07.png'">
+						<!--↑基本的には全て同じ画像を設定し、
+						　　マウスオーバースクリーンショットの掲載を依頼された場合のみ
+						　　onmouseover=の""内のみを編集してください-->
+					</td>
+				</tr>
+				<tr>
+					<td colspan="4">
+						<h2>作者のコメント</h2>
+						はじめまして、VIPの皆様。シャモ星人でございます。<br>
+						かわいいフレイムさんが味噌汁の具を集める内容の短編作品で、<br>
+						編成→イベント→戦闘を延々と繰り返す闘技場タイプのさっくり終わるデフォ戦RPGです。<br>
+						レベルが存在せず、スキルと呼ばれる装備によって特殊技能や能力値が変化するのが特徴です。<br>
+						好きなスキルの組み合わせや使わなかったスキルがあれば教えてくださいね。次回作の参考にするぜ。
+                        <blank></blank>
+                        <h2>主催のコメント</h2>
+						ちなみに私の好きな味噌汁の具はタマネギ、ジャガイモ、にんじん、豚肉です。
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2"><a href="https://drive.google.com/file/d/1XOyXMx1r5w7GyhCNK6CFMrsSsQ-r8BKr/view?usp=drive_link">DL(254.2 MB)</a></td>
+					<td colspan="2"><a href="https://jbbs.shitaraba.net/bbs/read.cgi/internet/26302/1720238514/l50"/>感想掲示板</a></td>
+				</tr>
+			</table>
+		</centering_box>
+		<define id="FOOTER"></define>
+		<script src="../js/define.js"></script>
+    <script><!--
+var footerparam = 'charset=' + encodeURIComponent(document.charset ? document.charset : document.characterSet) + '&url=' + encodeURIComponent(document.location) + '&service=1&r=' + Math.floor(Math.random()*99999999999);
+var footertag = "//vip-chps-api.2nt.com/apis/footer/?" + footerparam;
+var script = document.createElement('script');
+script.src = footertag;
+script.charset = "UTF-8";
+script.async = true;
+document.getElementsByTagName('head')[0].appendChild(script);
+//--></script>
+<!-- 2nt, inc.-->
+<img src="//media.fc2.com/counter_img.php?id=50" style="display:none" alt="inserted by 2nt system" width="0" height="0">
+<!-- 2nt, inc.--></body>
+</html>

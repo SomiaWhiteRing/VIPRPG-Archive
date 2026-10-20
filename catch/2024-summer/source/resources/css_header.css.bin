@@ -1,0 +1,39 @@
+table, tr
+{
+    font-size : 110%;
+    border-width : 0px !important;
+    table-layout : fixed;
+}
+
+horizontal_spacer
+{
+    display:inline-block;
+    width : 24px;
+}
+
+.banner{
+    margin-bottom : -53px;
+    z-index     : 2;
+}
+
+bannerspacer{
+    display :inline-block;
+    width   :14px;
+    z-index :2;
+}
+
+body{
+    margin-top : -28px;
+}
+
+table
+{
+    border-radius     : 0px !important;
+    background        : #0000 !important;
+}
+
+td
+{
+    border  : 0px !important;
+    padding : 0px !important;
+}

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T00:54:46.227Z",
+  "generatedAt": "2026-10-20T02:03:03.916Z",
   "scope": "Local inventory; field presence is not source verification or completeness.",
   "totals": {
     "festivals": 74,
@@ -10,9 +10,9 @@
     "restrictedDetails": 7,
     "withComments": 3117,
     "withScreenshots": 3335,
-    "withDownload": 2088,
-    "withSource": 2894,
-    "referencedAssets": 7758,
+    "withDownload": 2126,
+    "withSource": 2940,
+    "referencedAssets": 7760,
     "assetIssues": 0
   },
   "festivals": [
@@ -114,19 +114,19 @@
     },
     {
       "id": "2024-summer",
-      "dataSha256": "73a6e72cbd54aaf26285209db02e3d20ce38de5fd52bbca3f26741a091653fc4",
+      "dataSha256": "46ab03ddb36cd407cd3273e7a80ce52175b4a87ca34245797ab8e404f76e601c",
       "listedSourceUrl": "https://vipsummer2024.x.2nt.com/index.html",
       "works": 46,
-      "banners": 1,
+      "banners": 3,
       "detailPages": 46,
       "disabledDetails": 0,
       "restrictedDetails": 0,
       "withAuthor": 46,
       "withComments": 46,
       "withScreenshots": 46,
-      "withDownload": 0,
-      "withSource": 0,
-      "cachedHtmlFiles": 1,
+      "withDownload": 38,
+      "withSource": 46,
+      "cachedHtmlFiles": 53,
       "summaries": [
         "catch/2024-summer/2024-summer-scrape-summary.json"
       ]

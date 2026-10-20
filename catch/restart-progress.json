@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2024-summer",
+  "activeFestival": "2023-gw",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -1424,6 +1424,41 @@
         "catch/2024-kuradashifestival/desktop-review.json"
       ],
       "notes": "日本源站31份HTML及72份资源归档；原Wiki的简短请求头403用完整浏览器请求头解决，29份Wiki页全部直接获取，4份历史Wayback响应另经CDX摘要核验。保存站37条与官方Wiki27项重合23项，合并41项，补入4个未编号Wiki作品，保留原37个ID和编号。恢复55截图、27份投稿说明、3份保存站管理人介绍和41个下载入口；Wiki感想与作者留言分开，F1-8保留目录题名并记录Wiki异名，8处原Wiki下载差异保留来源。解除整祭典详情禁用，14条仅目录资料保留完整详情骨架和明确缺口说明；两来源同字节横幅只展示一次。原貌103文件、1118本地引用无缺失，无外部自动加载；41整理详情、31原貌文档及代表导航桌面通过，Wiki主体和侧栏尺寸与源站一致。游戏包未下载。"
+    },
+    {
+      "festivalId": "2024-summer",
+      "reviewedAt": "2026-10-20",
+      "dataSha256": "46ab03ddb36cd407cd3273e7a80ce52175b4a87ca34245797ab8e404f76e601c",
+      "status": "reviewed",
+      "works": 46,
+      "screenshotFiles": 63,
+      "screenshotReferences": 63,
+      "iconFiles": 46,
+      "sourceGenericIconRows": 10,
+      "sourceProvidedPlaceholderScreenshotRows": [
+        "00",
+        "34",
+        "39"
+      ],
+      "downloadEntries": 38,
+      "downloadLinks": 42,
+      "originalCatalogueCompleteness": "verified-against-current-official-46-row-catalogue-and-all-source-details",
+      "outstandingSourceDetails": 0,
+      "outstandingImageSourceUrls": 0,
+      "outstandingScreenshotRows": 0,
+      "outstandingOtherResources": 0,
+      "outstandingAuxiliaryPages": 0,
+      "packageBytesValidated": false,
+      "sourceEvidence": [
+        "catch/2024-summer/recovery.json",
+        "catch/2024-summer/source-comparison.json",
+        "catch/2024-summer/investigation/metadata-source-verification.json",
+        "catch/2024-summer/investigation/header-navigation-repair.json"
+      ],
+      "desktopEvidence": [
+        "catch/2024-summer/desktop-review.json"
+      ],
+      "notes": "日本源站52份HTML与161份资源原始响应全部归档、校验；46条目录含00样例，保留既有ID、编号和题名，样例原页异名另存。恢复63张实际显示／悬停截图、46处图标引用、作者和主办原文留言、38项共42个下载链接与3条不同源横幅；10处通用图标及00、34、39源站示例／占位截图按来源保留，不生成替代图。留言包含h2之间的直接文本节点，目录缩略图独立保留。原貌213文件、490本地引用无缺失，无外部资源自动加载；保留原动态页头、页脚并移除托管广告。03、19、28宽幅截图按比例限制在桌面视口内，原始字节不变；页头_parent跨不透明沙箱跳转改为验证来源窗口及原菜单六地址的消息转发，沙箱权限不变。46整理详情及52原貌文档桌面通过；用户确认菜单修复有效，浏览器观察原貌目录94行对应46项。游戏包未下载。"
     }
   ],
   "originalViewsReviewed": [
@@ -1751,6 +1786,13 @@
       "evidence": [
         "catch/2024-kuradashifestival/original-view.json",
         "catch/2024-kuradashifestival/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2024-summer",
+      "evidence": [
+        "catch/2024-summer/original-view.json",
+        "catch/2024-summer/desktop-review.json"
       ]
     }
   ],

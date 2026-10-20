@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/default.css">
+		<define id="META"></define>
+		<script>
+			var pageName = "参加方法";
+		</script>
+	</head>
+	<body class="sky">
+		<define id="HEADER"></define>
+		<define id="PAGENAME"></define>
+		<pane>
+			<h2>参加に際して</h2><br>
+            参加に際し、<emphasis><a href="rule.html">規約</a></emphasis>に必ず目を透し、遵守してください。<br>
+            これには参加者同士のトラブル防止等に加え、<br>
+            個人情報漏洩に対する啓蒙、祭り自体における禁則事項等について記述されています。<br>
+            <emphasis>必ず規約を熟読し、不品行を避け、皆が楽しめる祭りを目指しましょう。</emphasis><br>
+		</pane>
+		<pane>
+			<h2>参加条件</h2><br>
+            以下の条件を満たした作品のみエントリー・提出することができます<br>
+            <ul>
+			<li>RPGツクールで制作された作品であること</li>
+            <li>1名につき1エントリーまで</li>
+            <li>複数のゲームファイル同梱については自己責任でお願いします</li>
+            <li>ジャンルは不問です。VIPやもしも等を意識しなくてもOK</li>
+            <li>ergでエントリーする場合はR-18作品であることを必ず明記し、<br>スクリーンショットやアイコンはモザイク修正などを行うこと</li>
+            </ul>
+		</pane>
+        <pane>
+            <h2>エントリー方法</h2>
+            <ul>
+                <li>作品名（任意）</li>
+                <li>作者名（任意）</li>
+                <li>ジャンル（任意）</li>
+                <li>使用ツール（必須）</li>
+                <li>配信と動画投稿それぞれの可・不可（任意）</li>
+                <li>作品のコメント（任意）</li>
+                <li>アイコン（任意）</li>
+                <li>スクリーンショット（任意）※2枚まで掲載可能</li>
+            </ul>
+          これらを記入・添付して <font color="FFAA66">vipsummerfes2024@gmail.com</font> 宛にメールをお願いします。
+        </pane>
+        <pane>
+            <h2>ゲーム提出・更新・修正方法</h2><br>
+				下記いずれかのアップローダーに作品(パッチ)をアップロードしたのちに、<br>
+				<font color="FFAA66">vipsummerfes2024@gmail.com</font> 宛に連絡をお願いします。<br>
+				また、連絡の際にアップロードURLも記入していただけるとありがたいです。<br>
+				ただし、容量が大きいなどでアップローダーが使えない場合はGoogle Driveやgigafile便などを<br>
+				利用いただけますと幸いです。
+          		本体用：<a href="https://ux.getuploader.com/vipsummerfes2024/">https://ux.getuploader.com/vipsummerfes2024/</a><br>
+          		パッチ：<a href="https://ux.getuploader.com/vipsummerfes2024patch/">https://ux.getuploader.com/vipsummerfes2024patch/</a><br>
+<!--            [任意の文章を入力してください]<br>
+            <a href="https://example.com">[任意の文章とリンクアドレスを入力してください]</a>[任意の文章を入力してください]
+-->
+        </pane>
+		<define id="FOOTER"></define>
+		<script src="js/define.js"></script>
+    <script><!--
+var footerparam = 'charset=' + encodeURIComponent(document.charset ? document.charset : document.characterSet) + '&url=' + encodeURIComponent(document.location) + '&service=1&r=' + Math.floor(Math.random()*99999999999);
+var footertag = "//vip-chps-api.2nt.com/apis/footer/?" + footerparam;
+var script = document.createElement('script');
+script.src = footertag;
+script.charset = "UTF-8";
+script.async = true;
+document.getElementsByTagName('head')[0].appendChild(script);
+//--></script>
+<!-- 2nt, inc.-->
+<img src="//media.fc2.com/counter_img.php?id=50" style="display:none" alt="inserted by 2nt system" width="0" height="0">
+<!-- 2nt, inc.--></body>
+</html>

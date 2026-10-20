@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="../css/default.css">
+		<define id="META"></define>
+		<script>
+			var pageName = "魔術師協会のなぞなぞ屋敷";
+			var gameNo   = "40";
+		</script>
+        <!--↑gameName=のダブルクォーテーション内にゲーム名、gameNo=のダブルクォーテーション内に作品Noを入力してください-->
+	</head>
+	<body class="sky">
+		<define id="HEADER"></define>
+		<define id="PAGENAME"></define>
+		<centering_box>
+			<table>
+				<tr>
+					<td class="icon_space"><img src="../img/icon/icon40.png"></td>
+					<td colspan="3"><h2><define id="GAMENAME"></define></h2></td>
+				</tr>
+				<tr>
+					<td colspan="4">
+						<img src   =          "screenshot/ss40.png"
+						onmouseout ="this.src='screenshot/ss40.png'"
+						onmouseover="this.src='screenshot/ss40.png'">
+						<!--↑基本的には全て同じ画像を設定し、
+						　　マウスオーバースクリーンショットの掲載を依頼された場合のみ
+						　　onmouseover=の""内のみを編集してください-->
+					</td>
+				</tr>
+				<tr>
+					<td colspan="4">
+						<h2>作者のコメント</h2>
+						こんばんは、kt住江です。<br>
+						遅刻で申し訳ないですが、エントリーします。<br>
+						８月末までには完成させたいです。<br>
+						僭越ながら、宜しくお願いします。<br><br>
+						～　あらすじ　～<br>
+						私立魔導学園１年生のラディーとコンフレッドのふたりは、<br>
+						魔術師協会の女子生徒が作った『なぞなぞ屋敷』に挑む！<br>
+						果たして、見事ゴールして、豪華賞品をゲットできるのか！？<br>
+						それは、プレイヤーである君達にかかっている！！<br>
+						見事、魔術師協会女子生徒らの繰り出すなぞなぞを解き明かし、<br>
+						ラディーとコンフレッドをゴールに導いてほしい！！
+                        <blank></blank>
+                        <h2>主催のコメント</h2>
+                        問.いつもタクシーにただ乗りしてる悪い客はだーれだ？　答.いつもタクシーにただ乗りしてる悪い客
+                  </td>
+				</tr>
+				<tr>
+					<td colspan="2"><a href="https://drive.google.com/file/d/1PbfoWcEZZaLZki8wl_Jn2LNsmmm7Zk95/view?usp=drive_link">DL(4.4 MB)</a></td>
+					<td colspan="2"><a href="https://jbbs.shitaraba.net/bbs/read.cgi/internet/26302/1723827829/l50"/>感想掲示板</a></td>
+				</tr>
+			</table>
+			</centering_box>
+		<define id="FOOTER"></define>
+		<script src="../js/define.js"></script>
+    <script><!--
+var footerparam = 'charset=' + encodeURIComponent(document.charset ? document.charset : document.characterSet) + '&url=' + encodeURIComponent(document.location) + '&service=1&r=' + Math.floor(Math.random()*99999999999);
+var footertag = "//vip-chps-api.2nt.com/apis/footer/?" + footerparam;
+var script = document.createElement('script');
+script.src = footertag;
+script.charset = "UTF-8";
+script.async = true;
+document.getElementsByTagName('head')[0].appendChild(script);
+//--></script>
+<!-- 2nt, inc.-->
+<img src="//media.fc2.com/counter_img.php?id=50" style="display:none" alt="inserted by 2nt system" width="0" height="0">
+<!-- 2nt, inc.--></body>
+</html>
