@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2024-kuradashifestival",
+  "activeFestival": "2024-summer",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -1388,6 +1388,42 @@
         "catch/2024-kouhaku/desktop-review.json"
       ],
       "notes": "日本源站52份页面与118份资源原始响应校验通过；47条目录、详情、图标和截图全部核对，47份作者留言与47份主办留言拆分，43个下载入口按来源保留，既有ID及题名不变。38号实际BMP按真实格式保存；08号详情错误.jpg图标引用改用同号官方目录.png，错误响应留档。补存总评页。原貌167文件、489处本地引用无缺失且无外部自动加载；47整理详情及52原貌文档桌面通过，原目录延迟图片滚动后全部加载。源main.js与2009历届横幅均返回HTML错误页且精确CDX无记录，分别省略不可用脚本、保留历史链接并显示缺图说明；游戏包未下载。"
+    },
+    {
+      "festivalId": "2024-kuradashifestival",
+      "reviewedAt": "2026-10-20",
+      "dataSha256": "74bac67e5d1bddc6dd8bfa9def8e112c03fdbd80443eecada9b0be7ce57003b7",
+      "works": 41,
+      "screenshotFiles": 55,
+      "screenshotReferences": 55,
+      "iconFiles": 0,
+      "downloadEntries": 41,
+      "authorComments": 27,
+      "curatorComments": 3,
+      "status": "reviewed-with-catalogue-only-records",
+      "originalCatalogueCompleteness": "verified-union-of-live-preservation-catalogue-and-current-official-Wiki-navigation",
+      "preservationCatalogueRows": 37,
+      "officialWikiWorks": 27,
+      "overlap": 23,
+      "additionalUnnumberedEntries": 4,
+      "catalogueOnlyEntries": 14,
+      "unlocatedIndependentDetails": 14,
+      "outstandingImageSourceUrls": 0,
+      "outstandingOtherResources": 0,
+      "outstandingAuxiliaryPages": 0,
+      "sourceDownloadDifferences": 8,
+      "packageBytesValidated": false,
+      "sourceEvidence": [
+        "catch/2024-kuradashifestival/recovery.json",
+        "catch/2024-kuradashifestival/source-comparison.json",
+        "catch/2024-kuradashifestival/investigation/source-access-resolution.json",
+        "catch/2024-kuradashifestival/investigation/catalogue-identity-review.json",
+        "catch/2024-kuradashifestival/investigation/metadata-source-verification.json"
+      ],
+      "desktopEvidence": [
+        "catch/2024-kuradashifestival/desktop-review.json"
+      ],
+      "notes": "日本源站31份HTML及72份资源归档；原Wiki的简短请求头403用完整浏览器请求头解决，29份Wiki页全部直接获取，4份历史Wayback响应另经CDX摘要核验。保存站37条与官方Wiki27项重合23项，合并41项，补入4个未编号Wiki作品，保留原37个ID和编号。恢复55截图、27份投稿说明、3份保存站管理人介绍和41个下载入口；Wiki感想与作者留言分开，F1-8保留目录题名并记录Wiki异名，8处原Wiki下载差异保留来源。解除整祭典详情禁用，14条仅目录资料保留完整详情骨架和明确缺口说明；两来源同字节横幅只展示一次。原貌103文件、1118本地引用无缺失，无外部自动加载；41整理详情、31原貌文档及代表导航桌面通过，Wiki主体和侧栏尺寸与源站一致。游戏包未下载。"
     }
   ],
   "originalViewsReviewed": [
@@ -1708,6 +1744,13 @@
       "evidence": [
         "catch/2024-kouhaku/original-view.json",
         "catch/2024-kouhaku/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2024-kuradashifestival",
+      "evidence": [
+        "catch/2024-kuradashifestival/original-view.json",
+        "catch/2024-kuradashifestival/desktop-review.json"
       ]
     }
   ],

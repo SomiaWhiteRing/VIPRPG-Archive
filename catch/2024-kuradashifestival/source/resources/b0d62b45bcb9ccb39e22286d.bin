@@ -1,0 +1,355 @@
+@charset "shift_jis";
+
+/* -------------------------------------------------------------
+
+[1] レイアウトに関する指定
+[2] ヘッダーブロック内に関する指定
+[3] コンテンツブロック内に関する指定
+[4] サイドバーブロック内に関する指定
+[5] フッターブロック内に関する指定
+[6] CSSデザインサンプルリンク指定
+
+----------------------------------------------------------------
+CSSデザインサンプ [ URL ] http://www.css-designsample.com
+------------------------------------------------------------- */
+
+
+/* 一括で全ての要素の余白をゼロに指定 */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* 全体的なリンク */
+
+a:link,
+a:visited,
+a:hover,
+a:active { text-decoration: underline; }
+
+a:link { color: #00f; }
+
+a:visited { color: #90f; }
+
+a:hover { color: #f00; }
+
+a:active { color: #f00; }
+
+table {
+  /*
+  width: 540px;
+  height: 100px;
+  */
+  background: #b8ff66;
+}
+
+td {
+  text-align: left;
+}
+
+td, th {
+padding: 5px;
+}
+<!--
+table th {
+    white-space: nowrap;
+}
+
+table, th, td {
+
+
+
+width: auto !important;
+}
+
+
+table,th,td {
+  border: 1px solid #bbb;
+}
+
+td {text-align: center}
+-->
+
+.id {
+  width: 32px;
+}
+.title {
+  width: 480px;
+}
+.tool {
+  width: 120px;
+}
+.keyword {
+  width: 120px;
+}
+.category {
+  width: 120px;
+}
+.date {
+  width: 132px;
+}
+.character {
+  width: 160px;
+}
+.comment {
+  width: 48px;
+}
+
+.box {
+  width: 100px;
+}
+.period {
+  width: 230px;
+}
+.idp {
+  width: 100px;
+}
+.pickup {
+  width: 100px;
+}
+
+.thread {
+  width: 400px;
+}
+.situation {
+  width: 120px;
+}
+
+.policy {
+  width: 700px;
+}
+
+.center {
+　text-align: center
+}
+
+.color0 {
+  background-color: #d48aff;
+}
+
+.color1 {
+  background-color: #b5daf5;
+}
+
+.color2 {
+  background-color: #c2c2c2;
+}
+
+.color3 {
+  background-color: #fbffa6;
+}
+
+.color4 {
+  background-color: #a6ffbf;
+}
+
+.color18 {
+  background-color: #ffb6c1;
+}
+
+/* -------------------------------------------------------------
+   [1] レイアウトに関する指定 */
+body {
+  font-size: 100%;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  padding: 0;
+  margin: 0;
+  background-image:url("img/rinamevi142.png");
+  background-repeat: repeat;
+  background-position:50% 50%;
+}
+
+#wrapper {
+  text-align: left;
+  margin: 0 auto 0;
+  width: 95%;
+}
+
+#header {
+  width: 100%;
+  height: 260px;
+  margin-bottom: 2em;
+  position: relative;
+  background: url(img/bg-header.jpg) no-repeat 0 100%;
+}
+
+#container {
+  float: left;
+  width: 100%;
+  margin-right: -180px;
+}
+
+#container-inner {
+  float: right;
+  width: 100%;
+  margin-left: -180px;
+}
+
+#contents {
+  margin: 0 180px;
+  padding: 0 20px;
+}
+
+#left-sidebar {
+  float: left;
+  width: 180px;
+}
+
+#right-sidebar {
+  float: right;
+  width: 180px;
+}
+
+#footer {
+  padding: 20px 0 30px;
+  background-color: #339900;
+  color: #003300;
+}
+
+
+
+/* -------------------------------------------------------------
+   [2] ヘッダーブロック内に関する指定 */
+
+/* -- 見出しレベル1 -- */
+h1 {
+  font-size: 120%;
+  font-weight: normal;
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+}
+
+/* -- 企業名 ショップ名 サイト名 -- */
+.logo {
+  font-size: 120%;
+  position: absolute;
+  top: 30px;
+  left: 0;
+}
+
+.logo a {
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #336600;
+}
+
+.logo a:hover {
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #ff0000;
+}
+
+/* -- 概要 -- */
+.description {
+  position: absolute;
+  top: 70px;
+  left: 200px;
+}
+
+/* -------------------------------------------------------------
+   [3] コンテンツブロック内に関する指定 */
+
+/* -- 見出し -- */
+h2,h3,h4,h5,h6 {
+  font-size: 120%;
+  font-weight: normal;
+  padding: 1em 0 1em 1em;
+  background: url(img/bg-h14.jpg) repeat-x 0 50%;
+}
+
+h3,h4,h5,h6 { margin-top: 1.5em; }
+
+/* -- 文字 -- */
+#contents p {
+  line-height: 3em;
+  /*line-height: 1.6em;*/
+  margin-bottom: 0.5em;
+}
+
+/* -------------------------------------------------------------
+   [4] サイドバーブロック内に関する指定 */
+
+/* -- カテゴリタイトル -- */
+.side-title {
+  padding: 0.5em 5px;
+  background-color: #336600;
+  color: #ffffff;
+}
+
+#left-sidebar ul,
+#right-sidebar ul {
+  list-style-type: none;
+  width: 168px;
+  margin-bottom: 2em;
+  padding: 1em 5px;
+  border: 1px solid #336600;
+}
+
+#left-sidebar li,
+#right-sidebar li { margin-bottom: 1em; }
+
+/* -- リスト -- */
+#left-sidebar .localnavi,
+#right-sidebar .localnavi {
+  width: 180px;
+  padding: 0;
+  border: none;
+}
+
+.localnavi li {
+  display: inline;
+  margin: 0;
+}
+
+#left-sidebar .localnavi a,
+#right-sidebar .localnavi a {
+  text-decoration: none;
+  display: block;
+  width: 170px;
+  padding: 0.5em 5px;
+}
+
+#left-sidebar .localnavi a { background: url(img/bg-localnavi.jpg) no-repeat 0 100%; }
+
+#right-sidebar .localnavi a {
+  background-color: #eeeeee;
+  color: #000000;
+  border-bottom: 1px solid #ffffff;
+}
+
+#left-sidebar .localnavi a:hover,
+#right-sidebar .localnavi a:hover { text-decoration: none; }
+
+#left-sidebar .localnavi a:hover { background: url(img/bg-localnavi.jpg) no-repeat -180px 100%; }
+
+#right-sidebar .localnavi a:hover {
+  background-color: #99CC33;
+  color: #ffffff;
+}
+
+/* -------------------------------------------------------------
+   [5] フッターブロック内に関する指定 */
+
+#footer p {
+  color: #ffffff;
+  text-align: center;
+}
+
+/* -------------------------------------------------------------
+   [6] CSSデザインサンプルリンク指定 */
+
+#cds {
+  font-size: 80%;
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  text-align: right;
+  margin: 0;
+  clear: both;
+}
+
+#cds,
+#cds a,
+#cds a:hover {
+  text-decoration: none;
+  color: #ccc;
+}

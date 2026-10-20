@@ -1,0 +1,30 @@
+{
+  "checkedAt": "2026-10-20",
+  "sourceProxy": "127.0.0.1:37997",
+  "sourceProxyRegionVerified": "Japan",
+  "attempts": [
+    {
+      "file": "source/live/wiki-index.bin",
+      "url": "https://w.atwiki.jp/viprpgkuradashi2024/",
+      "status": 403,
+      "profile": "curl default headers",
+      "sha256": "fbed52136084b93f929150d8aa2e082c5a53b20a0a34af97b5de1c4dac715c52"
+    },
+    {
+      "file": "investigation/wiki-page16-live.bin",
+      "url": "https://w.atwiki.jp/viprpgkuradashi2024/pages/16.html",
+      "status": 403,
+      "profile": "short Mozilla/5.0 user agent",
+      "sha256": "68880ec8720ec0f8fb94f3fe7423d668b0158a5b8a1a4dfb12bdf7f423ab15bc"
+    },
+    {
+      "file": "investigation/wiki-page16-browserheaders.bin",
+      "url": "https://w.atwiki.jp/viprpgkuradashi2024/pages/16.html",
+      "status": 200,
+      "profile": "full desktop browser user agent, Accept and Accept-Language",
+      "sha256": "c2135da4bcb46a9055422c44ae5ab20850dec18c5b20af96600a64a9ed16a7f2"
+    }
+  ],
+  "browserObservedWikiBody": true,
+  "resolution": "Use the verified full desktop browser request headers. All 29 current Wiki pages were then captured directly; HTTP 403 from minimal headers is not source unavailability."
+}

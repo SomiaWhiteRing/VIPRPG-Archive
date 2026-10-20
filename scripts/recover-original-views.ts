@@ -7,6 +7,15 @@ import type { WorkEntry } from "../src/lib/types";
 import { rewriteSummer2012Source } from "./source-2012-summer-view";
 
 const configurations: Record<string, { base: string; entry?: string; manifests: string[]; seeds: Record<string, string>; seedUrls?: Record<string, string>; cgiProfile?: boolean; encoding?: string; encodingOverrides?: Record<string, string>; liveSource?: boolean; disabledLocalLinks?: string[]; externalResources?: Record<string, string>; preserveExternalExtensions?: string[]; frames?: { menuPage: string; menuName: string; mainName: string } }> = {
+  "2024-kuradashifestival": {
+    base: "https://tkoolviprpg2421014.web.fc2.com/",
+    entry: "archive_exf1.html",
+    manifests: ["source/live/manifest.json", "source/resources/manifest.json"],
+    seeds: {},
+    encoding: "utf-8",
+    liveSource: true,
+    preserveExternalExtensions: [".zip", ".rar", ".7z", ".exe"],
+  },
   "2024-kouhaku": {
     base: "https://vipkouhaku2024.x.2nt.com/",
     manifests: ["source/live/manifest.json", "source/resources/replay-manifest.json"],
@@ -356,7 +365,7 @@ async function main() {
   const omittedBackgrounds: Array<{ page: string; resource: string }> = [];
   const omittedHovers: Array<{ page: string; resource: string }> = [];
   const recovery = JSON.parse(await fs.readFile(`${root}/recovery.json`, "utf8"));
-  if (["2024-kouhaku", "2024-gw", "2025-gw", "2025-summer"].includes(id) || id === "2006-kouhaku" || id === "2012-toppuu-festival" || id === "2011-toppatsu-festival" || id === "2008-jisaku-battle-festival" || id === "2010-gw" || id === "2010-kouhaku" || id === "2010-summer") config.externalResources = recovery.originalResources;
+  if (["2024-kuradashifestival", "2024-kouhaku", "2024-gw", "2025-gw", "2025-summer"].includes(id) || id === "2006-kouhaku" || id === "2012-toppuu-festival" || id === "2011-toppatsu-festival" || id === "2008-jisaku-battle-festival" || id === "2010-gw" || id === "2010-kouhaku" || id === "2010-summer") config.externalResources = recovery.originalResources;
   const sourceDetailGapPaths = new Set<string>((recovery.sourceDetailGaps ?? []).map((gap: { sourcePath: string }) => gap.sourcePath));
   const unavailableSourcePagePaths = new Set<string>((recovery.unavailableSourcePages ?? []).map((gap: { sourcePath: string }) => gap.sourcePath));
   const previousMissing: Array<{ url: string; requestedUrl?: string; error: string }> = JSON.parse(await fs.readFile(`${root}/original-view.json`, "utf8").catch(() => "{}")).missingResources ?? [];
@@ -379,6 +388,10 @@ async function main() {
     const original = new URL(unarchive(url), base);
     if (id === "2011-gw" && original.pathname.startsWith("/vip_2009gw/")) return undefined;
     if (config.externalResources?.[original.href]) return config.externalResources[original.href];
+    if (id === "2024-kuradashifestival") {
+      original.hash = "";
+      return config.externalResources?.[original.href];
+    }
     if (original.hostname !== base.hostname || !original.pathname.startsWith(base.pathname)) return undefined;
     const profile = original.pathname.slice(base.pathname.length).match(/^(db|db2|sc\d{2})\/profile\.cgi$/);
     if (config.cgiProfile && profile) {
@@ -552,9 +565,16 @@ async function main() {
           });
           compatibilityFixes.push({ page: local, change: "Preserve Wiki content, existing comments, theme and catalogue navigation; remove hosting ads, scripts, editing/posting controls and unavailable Wiki administration links. Use full source images instead of responsive thumbnail requests." });
         }
-        if (id === "2011-toppatsu-festival" || id === "2008-jisaku-battle-festival") {
+        if (id === "2011-toppatsu-festival" || id === "2008-jisaku-battle-festival" || (id === "2024-kuradashifestival" && local.startsWith("wiki/"))) {
           $("script,noscript,iframe,form,body>header,body>footer,.atwiki-headbar,#atwiki-fixed-nav,#atwiki-modal-search-form,#pageTabs,#editmenu,#toolBox,#toolBoxTour,#ads,#left-ads,#right-ads,#atwiki-ads-overlay,#body_footer,#at_social_links2,[id^='div-gpt-ad-'],.atwiki-modal-bg,.atwiki-modal-wrap,.atwiki-modal,#atwiki_menubar a[href*='/pedit/']").remove();
-          $("link").filter((_, e) => !($(e).attr("rel") || "").includes("stylesheet") || !/base_101default\.css|pc_common\.css|atwiki_common\.css/.test($(e).attr("href") || "")).remove();
+          $("link").filter((_, e) => !($(e).attr("rel") || "").includes("stylesheet") || !/base_101default\.css|base_110old\.css|pc_common\.css|atwiki_common\.css/.test($(e).attr("href") || "")).remove();
+          if (id === "2024-kuradashifestival") {
+            $('img[src*="b.st-hatena.com"],.atwiki-page-keyword').remove();
+            $('a[href]').filter((_, element) => {
+              const url = new URL($(element).attr('href')!, original);
+              return url.hostname === 'login.atwiki.jp' || (url.hostname === 'w.atwiki.jp' && !config.externalResources?.[url.href] && !url.hash);
+            }).removeAttr('href target');
+          }
           $("source,[srcset]").each((_, e) => { if (e.tagName === "source") $(e).remove(); else $(e).removeAttr("srcset"); });
           $("*").each((_, e) => { for (const attr of Object.keys(e.attribs)) if (attr.startsWith("on")) $(e).removeAttr(attr); });
           if (id === "2008-jisaku-battle-festival") {

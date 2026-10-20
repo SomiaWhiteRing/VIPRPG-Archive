@@ -1,0 +1,933 @@
+{
+  "festivalId": "2024-kuradashifestival",
+  "originalBase": "https://tkoolviprpg2421014.web.fc2.com/",
+  "liveSource": true,
+  "sourceManifests": [
+    "source/live/manifest.json",
+    "source/resources/manifest.json"
+  ],
+  "originalResources": {
+    "https://tkoolviprpg2421014.web.fc2.com/archive_exf1.html": "archive_exf1.html",
+    "https://tkoolviprpg2421014.web.fc2.com/pickup_exf1.html": "pickup_exf1.html",
+    "https://w.atwiki.jp/viprpgkuradashi2024/": "wiki/index.html",
+    "https://w.atwiki.jp/viprpgkuradashi2024/pages/1.html": "wiki/pages/1.html",
+    "https://w.atwiki.jp/viprpgkuradashi2024/pages/16.html": "wiki/pages/16.html",
+    "https://w.atwiki.jp/viprpgkuradashi2024/pages/17.html": "wiki/pages/17.html",
+    "https://w.atwiki.jp/viprpgkuradashi2024/pages/18.html": "wiki/pages/18.html",
+    "https://w.atwiki.jp/viprpgkuradashi2024/pages/19.html": "wiki/pages/19.html",
+    "https://w.atwiki.jp/viprpgkuradashi2024/pages/20.html": "wiki/pages/20.html",
+    "https://w.atwiki.jp/viprpgkuradashi2024/pages/21.html": "wiki/pages/21.html",
+    "https://w.atwiki.jp/viprpgkuradashi2024/pages/22.html": "wiki/pages/22.html",
+    "https://w.atwiki.jp/viprpgkuradashi2024/pages/23.html": "wiki/pages/23.html",
+    "https://w.atwiki.jp/viprpgkuradashi2024/pages/24.html": "wiki/pages/24.html",
+    "https://w.atwiki.jp/viprpgkuradashi2024/pages/25.html": "wiki/pages/25.html",
+    "https://w.atwiki.jp/viprpgkuradashi2024/pages/26.html": "wiki/pages/26.html",
+    "https://w.atwiki.jp/viprpgkuradashi2024/pages/27.html": "wiki/pages/27.html",
+    "https://w.atwiki.jp/viprpgkuradashi2024/pages/28.html": "wiki/pages/28.html",
+    "https://w.atwiki.jp/viprpgkuradashi2024/pages/29.html": "wiki/pages/29.html",
+    "https://w.atwiki.jp/viprpgkuradashi2024/pages/30.html": "wiki/pages/30.html",
+    "https://w.atwiki.jp/viprpgkuradashi2024/pages/31.html": "wiki/pages/31.html",
+    "https://w.atwiki.jp/viprpgkuradashi2024/pages/32.html": "wiki/pages/32.html",
+    "https://w.atwiki.jp/viprpgkuradashi2024/pages/33.html": "wiki/pages/33.html",
+    "https://w.atwiki.jp/viprpgkuradashi2024/pages/34.html": "wiki/pages/34.html",
+    "https://w.atwiki.jp/viprpgkuradashi2024/pages/35.html": "wiki/pages/35.html",
+    "https://w.atwiki.jp/viprpgkuradashi2024/pages/36.html": "wiki/pages/36.html",
+    "https://w.atwiki.jp/viprpgkuradashi2024/pages/37.html": "wiki/pages/37.html",
+    "https://w.atwiki.jp/viprpgkuradashi2024/pages/38.html": "wiki/pages/38.html",
+    "https://w.atwiki.jp/viprpgkuradashi2024/pages/39.html": "wiki/pages/39.html",
+    "https://w.atwiki.jp/viprpgkuradashi2024/pages/40.html": "wiki/pages/40.html",
+    "https://w.atwiki.jp/viprpgkuradashi2024/pages/41.html": "wiki/pages/41.html",
+    "https://w.atwiki.jp/viprpgkuradashi2024/pages/42.html": "wiki/pages/42.html",
+    "https://tkoolviprpg2421014.web.fc2.com/base.css": "css/b0d62b45bcb9ccb39e22286d.css",
+    "https://tkoolviprpg2421014.web.fc2.com/img/kuradasi_banner24.png": "assets/925f95f4154ad7ff0cda973b.png",
+    "https://tkoolviprpg2421014.web.fc2.com/img/14-EXF1-1-1.png": "assets/29f99973969cd3b57e71b183.png",
+    "https://tkoolviprpg2421014.web.fc2.com/img/14-EXF1-2-1.png": "assets/1b92d67aa0dd08d11077d977.png",
+    "https://tkoolviprpg2421014.web.fc2.com/img/14-EXF1-7-1.png": "assets/189f9b7e6fd5a3b3a79b95df.png",
+    "https://w.atwiki.jp/common/_skin/base_110old.css?t=dea8eae421d16bb7e748c8911c7722b0": "css/3b4c38eb424769e735751200.css",
+    "https://w.atwiki.jp/common/dist/css/pc_common.css?t=1f73b6cc51130ee10239802add563e78": "css/99befd04481b632d760a40a8.css",
+    "https://w.atwiki.jp/common/dist/css/atwiki_common.css?t=12a322a880674cd2526d1c8bdb22bb6c": "css/09c2c13ad0b3e7954ab791f3.css",
+    "https://img.atwiki.jp/viprpgkuradashi2024/pub/header_v4.png": "assets/eb432e4c920f40ef1e34e688.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/1/8/kuradasi_banner.png": "assets/6c7926fcd5b413eebd71c0a3.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/16/1/1.png": "assets/02cb4eca8abee189686027af.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/16/3/2.png": "assets/1a2cec0aa2b6684fa342df39.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/17/4/3.png": "assets/ae3ef216c33f139eb70a8858.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/17/5/4.png": "assets/b53ca61c5cf6d63df08e194e.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/18/6/5.png": "assets/9481a04d18e1949490eddf46.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/18/7/6.png": "assets/c8b59f985ea5967b9eecc545.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/19/9/7.png": "assets/d183a21f7be95a8455cd4097.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/19/10/8.png": "assets/42750c06392cf840b6341d3c.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/20/11/9.png": "assets/4fc973d1aa8c001c847d425c.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/20/12/10.png": "assets/189042f08aa95a822f052174.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/21/13/11.png": "assets/92b6fc1d99f9a649c2dc2d43.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/21/14/12.png": "assets/fbae24aed6c50e6f5f7c216f.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/22/15/13.png": "assets/ba3174b0a72a741084233c08.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/22/16/14.png": "assets/49cd9d050accb2e564b0ad62.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/23/17/15.png": "assets/83cdc14412634a3705204d04.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/23/18/16.png": "assets/cc47c07fe3fb9a76f15bada4.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/24/20/17.png": "assets/e8b79268ed230f41e2024e3d.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/24/19/18.png": "assets/36aae488508fdbea0ff79f1c.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/25/23/19.png": "assets/bc1a5e3d9575f2d0d3e7e981.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/25/26/20.png": "assets/82d21fe181d0e0ca02afe2b1.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/26/21/21.png": "assets/2116b05d846af4c950717e70.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/26/22/22.png": "assets/1452590ca78c9cfa849a37e3.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/27/28/23.png": "assets/e0cdbdd9cc2753c459e593bd.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/28/30/24.png": "assets/cb04422037e523a0ecbc4dc1.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/28/31/25.png": "assets/719832bdded8689880f3d5de.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/29/33/26.png": "assets/d1ee97512911c4b558623d9e.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/29/32/27.png": "assets/992960afd17bc2c0801bf56e.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/30/35/28.png": "assets/d474f9b6a04c3bf0e8889a85.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/30/34/29.png": "assets/ed2fd7bcd7435375a086621b.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/31/37/30.png": "assets/6b563957c7b9d640e0a73487.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/31/36/31.png": "assets/3317f884b4ae8dc27d9f714f.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/32/39/32.png": "assets/92ab06030681567ca3be3c70.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/32/38/33.png": "assets/e1165121361c10cd2c8df45d.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/33/41/34.png": "assets/bc6f5d1f1a1b599338a0bfee.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/33/40/35.png": "assets/528cd175866254ffc843413a.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/34/46/40.png": "assets/be905d5f35e5a329f6664ecb.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/34/47/41.png": "assets/a4e15817e70c79bab141f0a4.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/35/42/36.png": "assets/5f5a04455f8aa7e98d20562f.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/35/43/37.png": "assets/f76d37589fa2834a0a0142ed.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/36/44/38.png": "assets/4127c8f5508ab436c22ad87b.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/36/45/39.png": "assets/14a9b50c408f12a7ce863e49.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/37/48/42.png": "assets/c9cbe27421d30918db065089.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/37/49/43.png": "assets/265ed2466f54cac7cd1371a0.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/38/50/44.png": "assets/9085d9df5483ef409048893b.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/38/51/45.png": "assets/dd1cac81c9cddfe6667d8206.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/39/52/46.png": "assets/ee3a8f66cac7327d56b39143.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/39/53/47.png": "assets/ab5fb370a85dfd16e54c7f14.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/40/54/48.png": "assets/f0a543a2098da6ca017bebce.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/40/55/49.png": "assets/aa5ee2a43746cf6b2edf94f6.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/41/56/50.png": "assets/f8a20d1d7806885478423490.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/41/57/51.png": "assets/0d076b910a45e8ce37d98014.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/42/58/52.png": "assets/1c10b1d6e8cb5fe51a245f5e.png",
+    "https://tkoolviprpg2421014.web.fc2.com/img/rinamevi142.png": "assets/918e8893648f90b086cfb4fe.png",
+    "https://tkoolviprpg2421014.web.fc2.com/img/bg-header.jpg": "assets/0f621be7da518daca86f6e11.jpg",
+    "https://tkoolviprpg2421014.web.fc2.com/img/bg-h14.jpg": "assets/f9d1b9c9d92bfdc0a8ede61e.jpg",
+    "https://tkoolviprpg2421014.web.fc2.com/img/bg-localnavi.jpg": "assets/c2cfc538a78e9ccb24c1e01c.jpg",
+    "https://w.atwiki.jp/common/_img/skin/default_new/o.gif": "assets/b4f0b64eb2caad077b144763.gif",
+    "https://w.atwiki.jp/common/_img/ic-close.svg": "assets/c81415b77803e0e0241b5a56.svg",
+    "https://w.atwiki.jp/common/_img/ic-edit-alt.svg": "assets/7f77416353f8c0bc62925226.svg",
+    "https://w.atwiki.jp/common/_img/ic-search-gray.svg": "assets/052c0d786a98fb48af709c72.svg",
+    "https://w.atwiki.jp/common/_img/atwiki_logo_small.svg": "assets/f8eb8fb4ddb212866a2a0b3e.svg",
+    "https://w.atwiki.jp/common/_img/loading.gif": "assets/3a6d46438223554615dc7071.gif"
+  },
+  "catalogueRows": 37,
+  "wikiWorks": 27,
+  "overlap": 23,
+  "additionalUnnumberedWorks": [
+    "2024-kuradashifestival-work-wiki-35",
+    "2024-kuradashifestival-work-wiki-36",
+    "2024-kuradashifestival-work-wiki-39",
+    "2024-kuradashifestival-work-wiki-40"
+  ],
+  "entries": [
+    {
+      "id": "2024-kuradashifestival-work-F1-0",
+      "no": "F1-0",
+      "catalogueUrl": "https://tkoolviprpg2421014.web.fc2.com/archive_exf1.html",
+      "authorCommentPresent": false,
+      "hostCommentPresent": false,
+      "screenshotSources": [],
+      "catalogueOnly": true,
+      "primaryDownloadUrl": "https://drive.google.com/uc?id=1UUtlR9Jkb9wHgUll8DV5Jlwo5ZpZyys9"
+    },
+    {
+      "id": "2024-kuradashifestival-work-F1-1",
+      "no": "F1-1",
+      "wikiUrl": "https://w.atwiki.jp/viprpgkuradashi2024/pages/16.html",
+      "catalogueUrl": "https://tkoolviprpg2421014.web.fc2.com/archive_exf1.html",
+      "pickupUrl": "https://tkoolviprpg2421014.web.fc2.com/pickup_exf1.html#pickup_f1-1",
+      "identityMatch": "officialTitle",
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/16/1/1.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-1-source-1.png",
+          "sha256": "cab8884d477da3349a2c7abc3d3ce516f2c51efc01eccee70ebee8243609c9be"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/16/3/2.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-1-source-2.png",
+          "sha256": "17002db4dd41389b198fcf78a5ab5d5f6d577dff862f40c743de4d462ab6e7eb"
+        },
+        {
+          "sourceUrl": "https://tkoolviprpg2421014.web.fc2.com/img/14-EXF1-1-1.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-1-source-3.png",
+          "sha256": "75bdd64cbea3fdc2c02d2d97f1d0b116d6b4fdca50ed6e705e713475c2f1eb7d"
+        }
+      ],
+      "catalogueOnly": false,
+      "primaryDownloadUrl": "https://drive.google.com/uc?id=1zmsEBC477rl0R_YFqA3c7DjCkY9bM0uf"
+    },
+    {
+      "id": "2024-kuradashifestival-work-F1-2",
+      "no": "F1-2",
+      "wikiUrl": "https://w.atwiki.jp/viprpgkuradashi2024/pages/17.html",
+      "catalogueUrl": "https://tkoolviprpg2421014.web.fc2.com/archive_exf1.html",
+      "pickupUrl": "https://tkoolviprpg2421014.web.fc2.com/pickup_exf1.html#pickup_f1-2",
+      "identityMatch": "officialTitle",
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/17/4/3.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-2-source-1.png",
+          "sha256": "202b61a297a12e4d703b748510982d69d0f3608e56df9af75d706f5aee4c6e74"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/17/5/4.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-2-source-2.png",
+          "sha256": "2dab95bbc850937ac2753d3a286a2346cf795cacd8181a39b3bbc242363f192f"
+        },
+        {
+          "sourceUrl": "https://tkoolviprpg2421014.web.fc2.com/img/14-EXF1-2-1.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-2-source-3.png",
+          "sha256": "8f59c0b1dcd2e585ea6e503133fb88da4ad39548c607a2eb022d761bfd11e4cf"
+        }
+      ],
+      "catalogueOnly": false,
+      "primaryDownloadUrl": "https://drive.google.com/uc?id=1nGDAd_VfSkd0ydDgwE7U8cnMKz1CzoJZ"
+    },
+    {
+      "id": "2024-kuradashifestival-work-F1-3",
+      "no": "F1-3",
+      "wikiUrl": "https://w.atwiki.jp/viprpgkuradashi2024/pages/18.html",
+      "catalogueUrl": "https://tkoolviprpg2421014.web.fc2.com/archive_exf1.html",
+      "identityMatch": "officialTitle",
+      "authorCommentPresent": true,
+      "hostCommentPresent": false,
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/18/6/5.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-3-source-1.png",
+          "sha256": "76161a57d2ae9a8b91e9a81776b9ff3d1e3414b9574eb0caf2891b5fcbd25b80"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/18/7/6.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-3-source-2.png",
+          "sha256": "9d9b5432bb09d084aefc6d3b702b6e9ee54f8596dc5eaddf307720af7342b311"
+        }
+      ],
+      "catalogueOnly": false,
+      "primaryDownloadUrl": "https://drive.google.com/uc?id=1Fy3JCqdeGnlJ0KdRNfrV6Sc7PI40Lmcf"
+    },
+    {
+      "id": "2024-kuradashifestival-work-F1-4",
+      "no": "F1-4",
+      "wikiUrl": "https://w.atwiki.jp/viprpgkuradashi2024/pages/19.html",
+      "catalogueUrl": "https://tkoolviprpg2421014.web.fc2.com/archive_exf1.html",
+      "identityMatch": "officialTitle",
+      "authorCommentPresent": true,
+      "hostCommentPresent": false,
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/19/9/7.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-4-source-1.png",
+          "sha256": "41b678783dddb5b1364962c1a9b108b719e1ef8ba0f79bd1df1ff7b75e1427b4"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/19/10/8.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-4-source-2.png",
+          "sha256": "bf7e7e60a89dea93c1ddf5da47f33e346e237baa42afeeeb6df6ccce62d0108d"
+        }
+      ],
+      "catalogueOnly": false,
+      "primaryDownloadUrl": "https://drive.google.com/uc?id=1jEVBkMBVj3lKFURLEaJMw5MmgHbMowVc"
+    },
+    {
+      "id": "2024-kuradashifestival-work-F1-5",
+      "no": "F1-5",
+      "wikiUrl": "https://w.atwiki.jp/viprpgkuradashi2024/pages/20.html",
+      "catalogueUrl": "https://tkoolviprpg2421014.web.fc2.com/archive_exf1.html",
+      "identityMatch": "officialTitle",
+      "authorCommentPresent": true,
+      "hostCommentPresent": false,
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/20/11/9.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-5-source-1.png",
+          "sha256": "3c02328b8fe4153c4ceff209d687be5c841789de9fd734f8813aab21ee84e3ac"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/20/12/10.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-5-source-2.png",
+          "sha256": "d8a3c5174607221e51877bbc7e98a1629b3c6523e9b91f5d54b70876dd6c097b"
+        }
+      ],
+      "catalogueOnly": false,
+      "primaryDownloadUrl": "https://drive.google.com/uc?id=1VxRwo_bnjqSfVcK492XNC8n_V_A76aaf"
+    },
+    {
+      "id": "2024-kuradashifestival-work-F1-6",
+      "no": "F1-6",
+      "wikiUrl": "https://w.atwiki.jp/viprpgkuradashi2024/pages/21.html",
+      "catalogueUrl": "https://tkoolviprpg2421014.web.fc2.com/archive_exf1.html",
+      "identityMatch": "officialTitle",
+      "authorCommentPresent": true,
+      "hostCommentPresent": false,
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/21/13/11.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-6-source-1.png",
+          "sha256": "a4b97e2455c2902dcde16f9afb069a195ac8f272659ebd1fd57df7a1fb4b10a5"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/21/14/12.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-6-source-2.png",
+          "sha256": "88f1c739da68c87a51ff18ba967ee60692ee7ec4bef25c91081bb440a43b579d"
+        }
+      ],
+      "catalogueOnly": false,
+      "primaryDownloadUrl": "https://drive.google.com/uc?id=1pr5QzjhO30kHPAJXPFxXF-ptLQ9lboM2"
+    },
+    {
+      "id": "2024-kuradashifestival-work-F1-7",
+      "no": "F1-7",
+      "wikiUrl": "https://w.atwiki.jp/viprpgkuradashi2024/pages/22.html",
+      "catalogueUrl": "https://tkoolviprpg2421014.web.fc2.com/archive_exf1.html",
+      "pickupUrl": "https://tkoolviprpg2421014.web.fc2.com/pickup_exf1.html#pickup_f1-7",
+      "identityMatch": "officialTitle",
+      "authorCommentPresent": true,
+      "hostCommentPresent": true,
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/22/15/13.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-7-source-1.png",
+          "sha256": "2ea7d97d1767a0bb1340dcc3df61fd4ba29e5ca1363dd39a7a483b43ecd9548b"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/22/16/14.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-7-source-2.png",
+          "sha256": "fe53d4c811eb14178151460cb4b424e31a8754a62e99706d9f090af62610b7d8"
+        },
+        {
+          "sourceUrl": "https://tkoolviprpg2421014.web.fc2.com/img/14-EXF1-7-1.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-7-source-3.png",
+          "sha256": "67227eb03a2642828b6b4cd07656269c521e71aebb120ffaa7fb59580fd08276"
+        }
+      ],
+      "catalogueOnly": false,
+      "primaryDownloadUrl": "https://drive.google.com/uc?id=1MZmF0I3zqM3Y7_v1QloPz526Pbl0r9Bo"
+    },
+    {
+      "id": "2024-kuradashifestival-work-F1-8",
+      "no": "F1-8",
+      "wikiUrl": "https://w.atwiki.jp/viprpgkuradashi2024/pages/23.html",
+      "catalogueUrl": "https://tkoolviprpg2421014.web.fc2.com/archive_exf1.html",
+      "identityMatch": "downloadUrl",
+      "authorCommentPresent": true,
+      "hostCommentPresent": false,
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/23/17/15.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-8-source-1.png",
+          "sha256": "9679e3ab66680eb9a4f5d1e967c3fc13ba0a6377445ba99e13ce9c9607e74726"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/23/18/16.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-8-source-2.png",
+          "sha256": "5b9e9392b34c76e68dc505df8529af42a2dd126df502ecd61bc3ca6d0124a0cd"
+        }
+      ],
+      "catalogueOnly": false,
+      "primaryDownloadUrl": "https://ux.getuploader.com/viprpg_erg8/download/480"
+    },
+    {
+      "id": "2024-kuradashifestival-work-F1-9",
+      "no": "F1-9",
+      "wikiUrl": "https://w.atwiki.jp/viprpgkuradashi2024/pages/24.html",
+      "catalogueUrl": "https://tkoolviprpg2421014.web.fc2.com/archive_exf1.html",
+      "identityMatch": "officialTitle",
+      "authorCommentPresent": true,
+      "hostCommentPresent": false,
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/24/20/17.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-9-source-1.png",
+          "sha256": "486f4209523a94b082bcd3467ae8cdcb1719002233c996727b53cded06ee560b"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/24/19/18.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-9-source-2.png",
+          "sha256": "9919e28567f133ce126c1b012845a1c0cb637aac8e0db9debf5f23b53828276e"
+        }
+      ],
+      "catalogueOnly": false,
+      "primaryDownloadUrl": "https://ux.getuploader.com/viprpg_erg8/download/481",
+      "sourceDownloadDifference": {
+        "catalogueUrl": "https://ux.getuploader.com/viprpg_erg8/download/481",
+        "wikiUrl": "https://ux.getuploader.com/viprpg_erg8/download/480",
+        "handling": "Keep the catalogue as the download action; retain the differing Wiki link inside its original source information and replay without treating it as a verified alternate package."
+      }
+    },
+    {
+      "id": "2024-kuradashifestival-work-F1-10",
+      "no": "F1-10",
+      "wikiUrl": "https://w.atwiki.jp/viprpgkuradashi2024/pages/25.html",
+      "catalogueUrl": "https://tkoolviprpg2421014.web.fc2.com/archive_exf1.html",
+      "identityMatch": "officialTitle",
+      "authorCommentPresent": true,
+      "hostCommentPresent": false,
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/25/23/19.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-10-source-1.png",
+          "sha256": "70a302ce8731e120f954cec602a8b52214bd91d67adb04411156c8d65d77aece"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/25/26/20.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-10-source-2.png",
+          "sha256": "f00492cbd93f719a5475f910bd6879109ba4e73978314102abbf8fab0f7192b1"
+        }
+      ],
+      "catalogueOnly": false,
+      "primaryDownloadUrl": "https://drive.google.com/uc?id=1AS8MmtxQqD51IDAqMnKutNyR5cif73Fx",
+      "sourceDownloadDifference": {
+        "catalogueUrl": "https://drive.google.com/uc?id=1AS8MmtxQqD51IDAqMnKutNyR5cif73Fx",
+        "wikiUrl": "https://drive.google.com/uc?id=1AS8MmtxQqD51IDAqMnKutNyR5cif73Fx0",
+        "handling": "Keep the catalogue as the download action; retain the differing Wiki link inside its original source information and replay without treating it as a verified alternate package."
+      }
+    },
+    {
+      "id": "2024-kuradashifestival-work-F1-11",
+      "no": "F1-11",
+      "wikiUrl": "https://w.atwiki.jp/viprpgkuradashi2024/pages/26.html",
+      "catalogueUrl": "https://tkoolviprpg2421014.web.fc2.com/archive_exf1.html",
+      "identityMatch": "officialTitle",
+      "authorCommentPresent": true,
+      "hostCommentPresent": false,
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/26/21/21.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-11-source-1.png",
+          "sha256": "b47584a4f2815c83a5bc7064f9946508c027324a300d5b82b6b79d3b08b19114"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/26/22/22.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-11-source-2.png",
+          "sha256": "ead09387669fdbb08647e03dbef743973c93cf623e49e21185c1686c59ae7bd1"
+        }
+      ],
+      "catalogueOnly": false,
+      "primaryDownloadUrl": "https://drive.google.com/uc?id=14vEJyjhMYiYpZn0GLzEQtPH81CxqdJWe"
+    },
+    {
+      "id": "2024-kuradashifestival-work-F1-12",
+      "no": "F1-12",
+      "wikiUrl": "https://w.atwiki.jp/viprpgkuradashi2024/pages/27.html",
+      "catalogueUrl": "https://tkoolviprpg2421014.web.fc2.com/archive_exf1.html",
+      "identityMatch": "officialTitle",
+      "authorCommentPresent": true,
+      "hostCommentPresent": false,
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/27/28/23.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-12-source-1.png",
+          "sha256": "84669fea37a95a5588b06c95cc16cde895448971d3e9b957df27f50f065a6cbb"
+        }
+      ],
+      "catalogueOnly": false,
+      "primaryDownloadUrl": "https://drive.google.com/uc?id=1EAHkJokcbO_fixJqwkdok6g0LuRlKDao",
+      "sourceDownloadDifference": {
+        "catalogueUrl": "https://drive.google.com/uc?id=1EAHkJokcbO_fixJqwkdok6g0LuRlKDao",
+        "wikiUrl": "https://drive.google.com/uc?id=14vEJyjhMYiYpZn0GLzEQtPH81CxqdJWe",
+        "handling": "Keep the catalogue as the download action; retain the differing Wiki link inside its original source information and replay without treating it as a verified alternate package."
+      }
+    },
+    {
+      "id": "2024-kuradashifestival-work-F1-13",
+      "no": "F1-13",
+      "wikiUrl": "https://w.atwiki.jp/viprpgkuradashi2024/pages/28.html",
+      "catalogueUrl": "https://tkoolviprpg2421014.web.fc2.com/archive_exf1.html",
+      "identityMatch": "officialTitle",
+      "authorCommentPresent": true,
+      "hostCommentPresent": false,
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/28/30/24.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-13-source-1.png",
+          "sha256": "290b4fc08092fdf5c2a4c50e1fbe9d068a890f2070c67d36a25d1685a0a2570e"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/28/31/25.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-13-source-2.png",
+          "sha256": "ea23e641499e1a74bc73335cf92afcbcf31c707a2835810a414005a03e6d7dcc"
+        }
+      ],
+      "catalogueOnly": false,
+      "primaryDownloadUrl": "https://drive.google.com/uc?id=1f3uhjG81F8rW6daOqtGG_tL9-I2KAccQ",
+      "sourceDownloadDifference": {
+        "catalogueUrl": "https://drive.google.com/uc?id=1f3uhjG81F8rW6daOqtGG_tL9-I2KAccQ",
+        "wikiUrl": "https://drive.google.com/uc?id=14vEJyjhMYiYpZn0GLzEQtPH81CxqdJWe",
+        "handling": "Keep the catalogue as the download action; retain the differing Wiki link inside its original source information and replay without treating it as a verified alternate package."
+      }
+    },
+    {
+      "id": "2024-kuradashifestival-work-F1-14",
+      "no": "F1-14",
+      "wikiUrl": "https://w.atwiki.jp/viprpgkuradashi2024/pages/29.html",
+      "catalogueUrl": "https://tkoolviprpg2421014.web.fc2.com/archive_exf1.html",
+      "identityMatch": "officialTitle",
+      "authorCommentPresent": true,
+      "hostCommentPresent": false,
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/29/33/26.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-14-source-1.png",
+          "sha256": "d96f33c5db7491bf5dacc0d6660040108f1eed627da02055112348ab886aa32d"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/29/32/27.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-14-source-2.png",
+          "sha256": "dbb4919e5f1d50ed615d92e954fcb0edd3a6b29dcf127a000c842a953a9c3962"
+        }
+      ],
+      "catalogueOnly": false,
+      "primaryDownloadUrl": "https://drive.google.com/uc?id=1wp1CUAMB28vZgX5wVxM0s6qpFoCehu8s"
+    },
+    {
+      "id": "2024-kuradashifestival-work-F1-15",
+      "no": "F1-15",
+      "wikiUrl": "https://w.atwiki.jp/viprpgkuradashi2024/pages/30.html",
+      "catalogueUrl": "https://tkoolviprpg2421014.web.fc2.com/archive_exf1.html",
+      "identityMatch": "officialTitle",
+      "authorCommentPresent": true,
+      "hostCommentPresent": false,
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/30/35/28.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-15-source-1.png",
+          "sha256": "5156adf95563bedd97058de42f9b94663883f053925433cc9fc2d1aebbfcc856"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/30/34/29.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-15-source-2.png",
+          "sha256": "81c9d795e743f6a6ed9e4e879a4b4bf5683f395d000ae2590f48ffd91202ff87"
+        }
+      ],
+      "catalogueOnly": false,
+      "primaryDownloadUrl": "https://drive.google.com/uc?id=11Y68KlJD9vHMxKAXKa9MgeLNwX0Q7hlb",
+      "sourceDownloadDifference": {
+        "catalogueUrl": "https://drive.google.com/uc?id=11Y68KlJD9vHMxKAXKa9MgeLNwX0Q7hlb",
+        "wikiUrl": "https://drive.google.com/uc?id=1wp1CUAMB28vZgX5wVxM0s6qpFoCehu8s",
+        "handling": "Keep the catalogue as the download action; retain the differing Wiki link inside its original source information and replay without treating it as a verified alternate package."
+      }
+    },
+    {
+      "id": "2024-kuradashifestival-work-F1-16",
+      "no": "F1-16",
+      "wikiUrl": "https://w.atwiki.jp/viprpgkuradashi2024/pages/31.html",
+      "catalogueUrl": "https://tkoolviprpg2421014.web.fc2.com/archive_exf1.html",
+      "identityMatch": "officialTitle",
+      "authorCommentPresent": true,
+      "hostCommentPresent": false,
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/31/37/30.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-16-source-1.png",
+          "sha256": "c2612e068104fbfdf621f9e30e1243c33c827f83ba171538a3852f1ca9a928e2"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/31/36/31.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-16-source-2.png",
+          "sha256": "048cdd7845f6cd0e294e240fe2c964b33d08170d1009dd53778218bd8b2b11c9"
+        }
+      ],
+      "catalogueOnly": false,
+      "primaryDownloadUrl": "https://drive.google.com/uc?id=10BkCnsyBHKD6LosBZGIJia-wxRumdqzd"
+    },
+    {
+      "id": "2024-kuradashifestival-work-F1-17",
+      "no": "F1-17",
+      "wikiUrl": "https://w.atwiki.jp/viprpgkuradashi2024/pages/32.html",
+      "catalogueUrl": "https://tkoolviprpg2421014.web.fc2.com/archive_exf1.html",
+      "identityMatch": "officialTitle",
+      "authorCommentPresent": true,
+      "hostCommentPresent": false,
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/32/39/32.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-17-source-1.png",
+          "sha256": "a5bd251f43dc75479403344ca232fba65ecda4f86ea6a9287fe63046ed0d1a44"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/32/38/33.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-17-source-2.png",
+          "sha256": "c1922b3edd19868f525a890e298d6b0eb477fbbcca3c41c1083d6aee2f37f799"
+        }
+      ],
+      "catalogueOnly": false,
+      "primaryDownloadUrl": "https://drive.google.com/uc?id=1ZgEI6UoO8IzVx9z8wJbo_tM5y8w1lisy",
+      "sourceDownloadDifference": {
+        "catalogueUrl": "https://drive.google.com/uc?id=1ZgEI6UoO8IzVx9z8wJbo_tM5y8w1lisy",
+        "wikiUrl": "https://drive.google.com/uc?id=1wp1CUAMB28vZgX5wVxM0s6qpFoCehu8s",
+        "handling": "Keep the catalogue as the download action; retain the differing Wiki link inside its original source information and replay without treating it as a verified alternate package."
+      }
+    },
+    {
+      "id": "2024-kuradashifestival-work-F1-18",
+      "no": "F1-18",
+      "wikiUrl": "https://w.atwiki.jp/viprpgkuradashi2024/pages/33.html",
+      "catalogueUrl": "https://tkoolviprpg2421014.web.fc2.com/archive_exf1.html",
+      "identityMatch": "officialTitle",
+      "authorCommentPresent": true,
+      "hostCommentPresent": false,
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/33/41/34.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-18-source-1.png",
+          "sha256": "6988c0e312c1e12d7ff41556d80accfe86d171bb7937727fb3069ec71fd36b3e"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/33/40/35.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-18-source-2.png",
+          "sha256": "76cb66e41d6cf9aa066ec5a16f14dba1b4cc67fce7fb02c44112a08dad474ad0"
+        }
+      ],
+      "catalogueOnly": false,
+      "primaryDownloadUrl": "https://drive.google.com/uc?id=1jzPHyfTi5MkmRkJKLOmNIIGD_hEain_t",
+      "sourceDownloadDifference": {
+        "catalogueUrl": "https://drive.google.com/uc?id=1jzPHyfTi5MkmRkJKLOmNIIGD_hEain_t",
+        "wikiUrl": "https://drive.google.com/uc?id=14vEJyjhMYiYpZn0GLzEQtPH81CxqdJWe",
+        "handling": "Keep the catalogue as the download action; retain the differing Wiki link inside its original source information and replay without treating it as a verified alternate package."
+      }
+    },
+    {
+      "id": "2024-kuradashifestival-work-F1-19",
+      "no": "F1-19",
+      "wikiUrl": "https://w.atwiki.jp/viprpgkuradashi2024/pages/34.html",
+      "catalogueUrl": "https://tkoolviprpg2421014.web.fc2.com/archive_exf1.html",
+      "identityMatch": "officialTitle",
+      "authorCommentPresent": true,
+      "hostCommentPresent": false,
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/34/46/40.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-19-source-1.png",
+          "sha256": "d08f258f4629ffd3424478c6b2d02a5e52cbbb9f04412f6100babf552ff43cd2"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/34/47/41.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-19-source-2.png",
+          "sha256": "bbdeab12c9ebb8aee68cfb76526e1c24e1435d7b1769eb271073730807737336"
+        }
+      ],
+      "catalogueOnly": false,
+      "primaryDownloadUrl": "https://drive.google.com/uc?id=1HtyaWJvTId1pA5vurCUroNXof5hi9p-Y"
+    },
+    {
+      "id": "2024-kuradashifestival-work-F1-20",
+      "no": "F1-20",
+      "wikiUrl": "https://w.atwiki.jp/viprpgkuradashi2024/pages/37.html",
+      "catalogueUrl": "https://tkoolviprpg2421014.web.fc2.com/archive_exf1.html",
+      "identityMatch": "officialTitle",
+      "authorCommentPresent": true,
+      "hostCommentPresent": false,
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/37/48/42.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-20-source-1.png",
+          "sha256": "94e4bc23a48eebc21f3535c8c2d8ff22d611deee6fe3f8cbab074ee8e9b8afb0"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/37/49/43.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-20-source-2.png",
+          "sha256": "869cc91154054c7f9348b265ac7009771da836954518b26033c4e9ea0a1c6c17"
+        }
+      ],
+      "catalogueOnly": false,
+      "primaryDownloadUrl": "https://drive.google.com/uc?id=1A-Llg2iHd6apqCo59dLfZYWOJCp-uzAy"
+    },
+    {
+      "id": "2024-kuradashifestival-work-F1-21",
+      "no": "F1-21",
+      "wikiUrl": "https://w.atwiki.jp/viprpgkuradashi2024/pages/38.html",
+      "catalogueUrl": "https://tkoolviprpg2421014.web.fc2.com/archive_exf1.html",
+      "identityMatch": "officialTitle",
+      "authorCommentPresent": true,
+      "hostCommentPresent": false,
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/38/50/44.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-21-source-1.png",
+          "sha256": "14426b5c7a2ea2bc4e73e7a952b8184a410b72f41245ed2580eed16e62e69cc9"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/38/51/45.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-21-source-2.png",
+          "sha256": "e4e47f6bde274b81a503f6ae414bb0ac7275cf3b23a20313c48887ebc43c5a8b"
+        }
+      ],
+      "catalogueOnly": false,
+      "primaryDownloadUrl": "https://drive.google.com/uc?id=1I4AeLaMIVcNqOtnml4HrFI_aLzBuTSv3",
+      "sourceDownloadDifference": {
+        "catalogueUrl": "https://drive.google.com/uc?id=1I4AeLaMIVcNqOtnml4HrFI_aLzBuTSv3",
+        "wikiUrl": "https://drive.google.com/uc?id=1A-Llg2iHd6apqCo59dLfZYWOJCp-uzAy",
+        "handling": "Keep the catalogue as the download action; retain the differing Wiki link inside its original source information and replay without treating it as a verified alternate package."
+      }
+    },
+    {
+      "id": "2024-kuradashifestival-work-F1-22",
+      "no": "F1-22",
+      "wikiUrl": "https://w.atwiki.jp/viprpgkuradashi2024/pages/41.html",
+      "catalogueUrl": "https://tkoolviprpg2421014.web.fc2.com/archive_exf1.html",
+      "identityMatch": "officialTitle",
+      "authorCommentPresent": true,
+      "hostCommentPresent": false,
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/41/56/50.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-22-source-1.png",
+          "sha256": "7f34cf99201085011daa0234b78d15b043bd9b7a8992d4ee794ba8642e7c5d44"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/41/57/51.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-22-source-2.png",
+          "sha256": "552598d08c0dc51e885605af3a76006bd8c6043fe6cb79253817405afd497846"
+        }
+      ],
+      "catalogueOnly": false,
+      "primaryDownloadUrl": "https://drive.google.com/uc?id=1z7AowlCwyi_99l6z061I5M1zxTFLfC11"
+    },
+    {
+      "id": "2024-kuradashifestival-work-F1-23",
+      "no": "F1-23",
+      "wikiUrl": "https://w.atwiki.jp/viprpgkuradashi2024/pages/42.html",
+      "catalogueUrl": "https://tkoolviprpg2421014.web.fc2.com/archive_exf1.html",
+      "identityMatch": "officialTitle",
+      "authorCommentPresent": true,
+      "hostCommentPresent": false,
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/42/58/52.png",
+          "local": "/screenshots/2024-kuradashifestival/F1-23-source-1.png",
+          "sha256": "c235f0abf834abb64a2b1a07a939b8acb9008d9fe4be7375a581662cea0ca66c"
+        }
+      ],
+      "catalogueOnly": false,
+      "primaryDownloadUrl": "https://drive.google.com/uc?id=1IiPNnHuGEIJ9G9CfuO0rWwkWnGGAuUg0"
+    },
+    {
+      "id": "2024-kuradashifestival-work-F1-24",
+      "no": "F1-24",
+      "catalogueUrl": "https://tkoolviprpg2421014.web.fc2.com/archive_exf1.html",
+      "authorCommentPresent": false,
+      "hostCommentPresent": false,
+      "screenshotSources": [],
+      "catalogueOnly": true,
+      "primaryDownloadUrl": "https://drive.google.com/uc?id=1OpkjlXSY5sB4pcZ9jeO_7ivdzNbkUt05"
+    },
+    {
+      "id": "2024-kuradashifestival-work-F1-25",
+      "no": "F1-25",
+      "catalogueUrl": "https://tkoolviprpg2421014.web.fc2.com/archive_exf1.html",
+      "authorCommentPresent": false,
+      "hostCommentPresent": false,
+      "screenshotSources": [],
+      "catalogueOnly": true,
+      "primaryDownloadUrl": "https://drive.google.com/uc?id=1jfcobsBJvzNs3HUnyOCv5omnBNdFtUmb"
+    },
+    {
+      "id": "2024-kuradashifestival-work-F1-26",
+      "no": "F1-26",
+      "catalogueUrl": "https://tkoolviprpg2421014.web.fc2.com/archive_exf1.html",
+      "authorCommentPresent": false,
+      "hostCommentPresent": false,
+      "screenshotSources": [],
+      "catalogueOnly": true,
+      "primaryDownloadUrl": "https://drive.google.com/uc?id=1ajID6Vaz_04XQxipUqHS6JshOc3KB8Iw"
+    },
+    {
+      "id": "2024-kuradashifestival-work-F1-27",
+      "no": "F1-27",
+      "catalogueUrl": "https://tkoolviprpg2421014.web.fc2.com/archive_exf1.html",
+      "authorCommentPresent": false,
+      "hostCommentPresent": false,
+      "screenshotSources": [],
+      "catalogueOnly": true,
+      "primaryDownloadUrl": "https://drive.google.com/uc?id=1Lk1CgKv4nGtIesraA7Xm5c4MbyF-h6Ir"
+    },
+    {
+      "id": "2024-kuradashifestival-work-F1-28",
+      "no": "F1-28",
+      "catalogueUrl": "https://tkoolviprpg2421014.web.fc2.com/archive_exf1.html",
+      "authorCommentPresent": false,
+      "hostCommentPresent": false,
+      "screenshotSources": [],
+      "catalogueOnly": true,
+      "primaryDownloadUrl": "https://drive.google.com/uc?id=1RwXLuFWlL2UXx55YB7KsVcn4JQ-9MfK4"
+    },
+    {
+      "id": "2024-kuradashifestival-work-F1-29",
+      "no": "F1-29",
+      "catalogueUrl": "https://tkoolviprpg2421014.web.fc2.com/archive_exf1.html",
+      "authorCommentPresent": false,
+      "hostCommentPresent": false,
+      "screenshotSources": [],
+      "catalogueOnly": true,
+      "primaryDownloadUrl": "https://drive.google.com/uc?id=1C4bwt0BWddpy87ucpcJuUvlv7dNmKseG"
+    },
+    {
+      "id": "2024-kuradashifestival-work-F1-EX1",
+      "no": "F1-EX1",
+      "catalogueUrl": "https://tkoolviprpg2421014.web.fc2.com/archive_exf1.html",
+      "authorCommentPresent": false,
+      "hostCommentPresent": false,
+      "screenshotSources": [],
+      "catalogueOnly": true,
+      "primaryDownloadUrl": "https://drive.google.com/uc?id=1fWntPOEBwRh3yiBcbzSTmze0tcujcQM3"
+    },
+    {
+      "id": "2024-kuradashifestival-work-F1-EX2",
+      "no": "F1-EX2",
+      "catalogueUrl": "https://tkoolviprpg2421014.web.fc2.com/archive_exf1.html",
+      "authorCommentPresent": false,
+      "hostCommentPresent": false,
+      "screenshotSources": [],
+      "catalogueOnly": true,
+      "primaryDownloadUrl": "https://drive.google.com/uc?id=1qXd0G7EJuXJTvqijExHF_abIBJPLEZDk"
+    },
+    {
+      "id": "2024-kuradashifestival-work-F1-30",
+      "no": "F1-30",
+      "catalogueUrl": "https://tkoolviprpg2421014.web.fc2.com/archive_exf1.html",
+      "authorCommentPresent": false,
+      "hostCommentPresent": false,
+      "screenshotSources": [],
+      "catalogueOnly": true,
+      "primaryDownloadUrl": "https://drive.google.com/uc?id=14q2WoNggdvnN8wLAPMH3j35S0JylPO1Z"
+    },
+    {
+      "id": "2024-kuradashifestival-work-F1-EX3",
+      "no": "F1-EX3",
+      "catalogueUrl": "https://tkoolviprpg2421014.web.fc2.com/archive_exf1.html",
+      "authorCommentPresent": false,
+      "hostCommentPresent": false,
+      "screenshotSources": [],
+      "catalogueOnly": true,
+      "primaryDownloadUrl": "https://drive.google.com/uc?id=1CTEt1xOddSXZAqe7V5eF2A_Hbn6cUNOL"
+    },
+    {
+      "id": "2024-kuradashifestival-work-F1-31",
+      "no": "F1-31",
+      "catalogueUrl": "https://tkoolviprpg2421014.web.fc2.com/archive_exf1.html",
+      "authorCommentPresent": false,
+      "hostCommentPresent": false,
+      "screenshotSources": [],
+      "catalogueOnly": true,
+      "primaryDownloadUrl": "https://drive.google.com/uc?id=1VDZThz4PnZr7UOlDJQixhrh_8PEpc9qQ"
+    },
+    {
+      "id": "2024-kuradashifestival-work-F1-EX4",
+      "no": "F1-EX4",
+      "catalogueUrl": "https://tkoolviprpg2421014.web.fc2.com/archive_exf1.html",
+      "authorCommentPresent": false,
+      "hostCommentPresent": false,
+      "screenshotSources": [],
+      "catalogueOnly": true,
+      "primaryDownloadUrl": "https://drive.google.com/uc?id=1vbBqTbRcRWFuqSlIXJZ-WMZ4m-8B3Q9m"
+    },
+    {
+      "id": "2024-kuradashifestival-work-F1-EX5",
+      "no": "F1-EX5",
+      "catalogueUrl": "https://tkoolviprpg2421014.web.fc2.com/archive_exf1.html",
+      "authorCommentPresent": false,
+      "hostCommentPresent": false,
+      "screenshotSources": [],
+      "catalogueOnly": true,
+      "primaryDownloadUrl": "https://drive.google.com/uc?id=1W3lwWrkrhB2KTrv5VrfygB9Y377YXrmM"
+    },
+    {
+      "id": "2024-kuradashifestival-work-wiki-35",
+      "wikiUrl": "https://w.atwiki.jp/viprpgkuradashi2024/pages/35.html",
+      "identityMatch": "additionalOfficialWikiEntry",
+      "authorCommentPresent": true,
+      "hostCommentPresent": false,
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/35/42/36.png",
+          "local": "/screenshots/2024-kuradashifestival/wiki-35-source-1.png",
+          "sha256": "c5389ccecdc215e3398383c8b5b56f0fbac952577af8fba4bd74254dc7e673ee"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/35/43/37.png",
+          "local": "/screenshots/2024-kuradashifestival/wiki-35-source-2.png",
+          "sha256": "ec14f519ecbc5dfada45bed4a9af605e810bd486a310a027544d8a20536ffd41"
+        }
+      ],
+      "catalogueOnly": false,
+      "primaryDownloadUrl": "https://ux.getuploader.com/viprpg_erg8/download/491"
+    },
+    {
+      "id": "2024-kuradashifestival-work-wiki-36",
+      "wikiUrl": "https://w.atwiki.jp/viprpgkuradashi2024/pages/36.html",
+      "identityMatch": "additionalOfficialWikiEntry",
+      "authorCommentPresent": true,
+      "hostCommentPresent": false,
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/36/44/38.png",
+          "local": "/screenshots/2024-kuradashifestival/wiki-36-source-1.png",
+          "sha256": "cfcd6c72ee80e505b749e853f9373f8fd856532f93c845b4d540e201f6511cc9"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/36/45/39.png",
+          "local": "/screenshots/2024-kuradashifestival/wiki-36-source-2.png",
+          "sha256": "d79f05934ff8025395db2facae2c0c26a63da71f830649f352e64e7e00e25aa3"
+        }
+      ],
+      "catalogueOnly": false,
+      "primaryDownloadUrl": "https://ux.getuploader.com/viprpg_erg8/download/492"
+    },
+    {
+      "id": "2024-kuradashifestival-work-wiki-39",
+      "wikiUrl": "https://w.atwiki.jp/viprpgkuradashi2024/pages/39.html",
+      "identityMatch": "additionalOfficialWikiEntry",
+      "authorCommentPresent": true,
+      "hostCommentPresent": false,
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/39/52/46.png",
+          "local": "/screenshots/2024-kuradashifestival/wiki-39-source-1.png",
+          "sha256": "f1cd393ec098e1b66198192bf98ef974081d05b3c0b5af204bc4738377cc312d"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/39/53/47.png",
+          "local": "/screenshots/2024-kuradashifestival/wiki-39-source-2.png",
+          "sha256": "1bf0865c1064f253accd9c2172d1bdfb77538b9e8130ede7c5099129eda8aef8"
+        }
+      ],
+      "catalogueOnly": false,
+      "primaryDownloadUrl": "https://ux.getuploader.com/viprpg_erg8/download/495"
+    },
+    {
+      "id": "2024-kuradashifestival-work-wiki-40",
+      "wikiUrl": "https://w.atwiki.jp/viprpgkuradashi2024/pages/40.html",
+      "identityMatch": "additionalOfficialWikiEntry",
+      "authorCommentPresent": true,
+      "hostCommentPresent": false,
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/40/54/48.png",
+          "local": "/screenshots/2024-kuradashifestival/wiki-40-source-1.png",
+          "sha256": "0ff47ffc54a5bc015da04e73d33fb8566fa420ef630dd3570ddfc11162349b55"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/viprpgkuradashi2024/attach/40/55/49.png",
+          "local": "/screenshots/2024-kuradashifestival/wiki-40-source-2.png",
+          "sha256": "51c09cb8a302c15ece380c8f603983b0e56f266e0dede4577212bc6315671b64"
+        }
+      ],
+      "catalogueOnly": false,
+      "primaryDownloadUrl": "https://uu.getuploader.com/viprpg_erg8/download/496"
+    }
+  ],
+  "bannerSources": [
+    "https://tkoolviprpg2421014.web.fc2.com/img/kuradasi_banner24.png",
+    "https://img.atwiki.jp/viprpgkuradashi2024/attach/1/8/kuradasi_banner.png"
+  ],
+  "handling": "Direct archival without content screening. All 37 existing catalogue IDs and numbers retained; 4 additional official Wiki works remain unnumbered. Wiki submission comments, Wiki replies and archival-site curator comments remain distinct. Byte-identical images across sources share one displayed image; all source URLs and bytes remain documented. No package bytes downloaded.",
+  "desktopReview": "passed-with-catalogue-only-records",
+  "desktopEvidence": "catch/2024-kuradashifestival/desktop-review.json"
+}
