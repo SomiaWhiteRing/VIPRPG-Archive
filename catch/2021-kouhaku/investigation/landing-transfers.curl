@@ -1,0 +1,38 @@
+url = "https://vipkohaku2021.web.fc2.com/img/21.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-kouhaku/source/landing/landing-0.bin"
+write-out = "0 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipkohaku2021.web.fc2.com/img/21a.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-kouhaku/source/landing/landing-1.bin"
+write-out = "1 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipkohaku2021.web.fc2.com/img/21b.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-kouhaku/source/landing/landing-2.bin"
+write-out = "2 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipkohaku2021.web.fc2.com/kh5ch.css"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-kouhaku/source/landing/landing-3.bin"
+write-out = "3 %{http_code} %{url_effective} %{size_download}\n"

@@ -1,0 +1,31 @@
+{
+  "festivalId": "2021-kouhaku",
+  "sourceDocument": "wiki/pages/113.html",
+  "sourceTargets": [
+    {
+      "href": "12.html",
+      "sourceTarget": "_parent",
+      "localTarget": "_self"
+    },
+    {
+      "href": "124.html",
+      "sourceTarget": "_top",
+      "localTarget": "_self"
+    }
+  ],
+  "sandbox": "allow-scripts",
+  "sandboxPermissionsUnchanged": true,
+  "before": "Entering No.33 by mouse and keyboard left the source frame on the catalogue; the captured link targeted _top.",
+  "fix": "Use the current frame for captured internal HTML destinations; keep external source links and raw HTML unchanged.",
+  "verifiedAfter": {
+    "portalToWiki": "passed",
+    "wikiTo39EntryCatalogue": "passed",
+    "catalogueToSample00": "passed; /wiki/pages/12.html, 2 images",
+    "sampleToCatalogue": "passed; 39 numbered rows",
+    "catalogueTo33": "passed; /wiki/pages/124.html, 47 images and 11 regions",
+    "embeddedRegionExpand": "passed",
+    "entry33ToSourceDlPage": "passed; /wiki/pages/135.html",
+    "sourceDlToCatalogue": "passed; 39 rows"
+  },
+  "automationObservation": "Frame-locator actions were unreliable after the outer page scrolled. Native accessibility controls provided direct verification of the corrected links."
+}

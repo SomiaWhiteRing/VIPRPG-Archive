@@ -1,0 +1,2697 @@
+{
+  "festivalId": "2021-kouhaku",
+  "originalBase": "https://vipkohaku2021.web.fc2.com/",
+  "wikiBase": "https://w.atwiki.jp/vipkohaku2021/",
+  "sourceEncodings": {
+    "landing": "shift_jis",
+    "wiki": "utf-8"
+  },
+  "liveSource": true,
+  "proxyRegion": "Japan",
+  "sourceManifests": [
+    "source/replay/manifest.json"
+  ],
+  "originalResources": {
+    "https://w.atwiki.jp/vipkohaku2021/": "wiki/index.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/113.html": "wiki/pages/113.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/1.html": "wiki/pages/1.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/156.html": "wiki/pages/156.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/158.html": "wiki/pages/158.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/157.html": "wiki/pages/157.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/3.html": "wiki/pages/3.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/5.html": "wiki/pages/5.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/12.html": "wiki/pages/12.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/20.html": "wiki/pages/20.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/21.html": "wiki/pages/21.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/31.html": "wiki/pages/31.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/22.html": "wiki/pages/22.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/32.html": "wiki/pages/32.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/23.html": "wiki/pages/23.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/33.html": "wiki/pages/33.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/24.html": "wiki/pages/24.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/34.html": "wiki/pages/34.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/25.html": "wiki/pages/25.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/45.html": "wiki/pages/45.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/26.html": "wiki/pages/26.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/46.html": "wiki/pages/46.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/27.html": "wiki/pages/27.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/47.html": "wiki/pages/47.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/28.html": "wiki/pages/28.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/48.html": "wiki/pages/48.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/29.html": "wiki/pages/29.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/49.html": "wiki/pages/49.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/30.html": "wiki/pages/30.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/62.html": "wiki/pages/62.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/72.html": "wiki/pages/72.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/63.html": "wiki/pages/63.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/73.html": "wiki/pages/73.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/64.html": "wiki/pages/64.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/74.html": "wiki/pages/74.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/65.html": "wiki/pages/65.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/75.html": "wiki/pages/75.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/66.html": "wiki/pages/66.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/76.html": "wiki/pages/76.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/67.html": "wiki/pages/67.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/77.html": "wiki/pages/77.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/68.html": "wiki/pages/68.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/78.html": "wiki/pages/78.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/69.html": "wiki/pages/69.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/79.html": "wiki/pages/79.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/70.html": "wiki/pages/70.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/80.html": "wiki/pages/80.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/71.html": "wiki/pages/71.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/81.html": "wiki/pages/81.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/92.html": "wiki/pages/92.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/101.html": "wiki/pages/101.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/93.html": "wiki/pages/93.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/102.html": "wiki/pages/102.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/94.html": "wiki/pages/94.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/103.html": "wiki/pages/103.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/95.html": "wiki/pages/95.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/104.html": "wiki/pages/104.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/96.html": "wiki/pages/96.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/105.html": "wiki/pages/105.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/97.html": "wiki/pages/97.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/106.html": "wiki/pages/106.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/98.html": "wiki/pages/98.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/107.html": "wiki/pages/107.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/99.html": "wiki/pages/99.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/108.html": "wiki/pages/108.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/100.html": "wiki/pages/100.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/109.html": "wiki/pages/109.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/121.html": "wiki/pages/121.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/132.html": "wiki/pages/132.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/122.html": "wiki/pages/122.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/133.html": "wiki/pages/133.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/123.html": "wiki/pages/123.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/134.html": "wiki/pages/134.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/124.html": "wiki/pages/124.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/135.html": "wiki/pages/135.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/125.html": "wiki/pages/125.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/136.html": "wiki/pages/136.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/126.html": "wiki/pages/126.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/137.html": "wiki/pages/137.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/127.html": "wiki/pages/127.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/138.html": "wiki/pages/138.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/128.html": "wiki/pages/128.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/139.html": "wiki/pages/139.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/129.html": "wiki/pages/129.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/140.html": "wiki/pages/140.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/142.html": "wiki/pages/142.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/141.html": "wiki/pages/141.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/13.html": "wiki/pages/13.html",
+    "https://w.atwiki.jp/vipkohaku2021/pages/115.html": "wiki/pages/115.html",
+    "https://w.atwiki.jp/common/_skin/base_124sb.css?t=f3940544928dd92007ef016e895cfd8f": "styles/92739454c92bcd80011452df.css",
+    "https://img.atwiki.jp/vipkohaku2021/css/1657354808.css": "styles/019f1aea0de76bb5924fbaee.css",
+    "https://w.atwiki.jp/common/dist/css/pc_common.css?t=1f73b6cc51130ee10239802add563e78": "styles/99befd04481b632d760a40a8.css",
+    "https://w.atwiki.jp/common/dist/css/atwiki_common.css?t=12a322a880674cd2526d1c8bdb22bb6c": "styles/09c2c13ad0b3e7954ab791f3.css",
+    "https://w.atwiki.jp/common/_img/skin/024sb/images/background.png": "assets/9535b5c5f8a880e241f63902.png",
+    "https://w.atwiki.jp/common/_img/ic-close.svg": "assets/c81415b77803e0e0241b5a56.svg",
+    "https://w.atwiki.jp/common/_img/ic-edit-alt.svg": "assets/7f77416353f8c0bc62925226.svg",
+    "https://w.atwiki.jp/common/_img/ic-search-gray.svg": "assets/052c0d786a98fb48af709c72.svg",
+    "https://w.atwiki.jp/common/_img/atwiki_logo_small.svg": "assets/f8eb8fb4ddb212866a2a0b3e.svg",
+    "https://w.atwiki.jp/common/_img/loading.gif": "assets/3a6d46438223554615dc7071.gif",
+    "https://img.atwiki.jp/vipkohaku2021/attach/11/44/header.png": "assets/e2fcbe4d770057df04dac566.png",
+    "https://img.atwiki.jp/vipkohaku2021/pub/i00.png": "assets/ff8768715c839608a2b8a2e6.png",
+    "https://img.atwiki.jp/vipkohaku2021/pub/ip.png": "assets/5208fb4c70ec16b1a2243115.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/31/9/%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3%E7%B4%85%E7%99%BD2021.png": "assets/8f019fe1fd36aa107e286466.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/32/4/ICON.png": "assets/44e8340b16732c19ef258d8e.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/33/17/icon.png": "assets/55928f51a0372e2f81b47ea5.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/34/20/icon.png": "assets/fe99429aacd83c164cee9c39.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/40/16/SS%E7%B4%85%E7%99%BD21%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.png": "assets/96634409e1595ab93d3d4ffc.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/46/8/%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.png": "assets/aee4a1305d3054fe73c81748.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/47/13/%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.PNG": "assets/58b8373cdd24e01f3808aa50.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/48/26/%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.png": "assets/068a1c6ae4ab9a6785c352b8.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/49/38/i10.png": "assets/f983504aba796b19865822ae.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/62/115/icon.png": "assets/6b716e69a0b391dccc46c69b.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/63/23/komotimoti.png": "assets/7822cb2fd8e221d8d270a407.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/64/34/%E3%82%A2%E3%82%A4%E3%82%B3%EF%BD%A5%EF%BD%A5%EF%BD%A5%E3%83%B3%EF%BC%9F.png": "assets/0d7d79cb34871bcb2ff0bd16.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/65/118/i14.png": "assets/61adc141c2a71dbfcffbcb33.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/66/30/EDGE1.png": "assets/4ea20d529955511d1692b9f7.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/67/40/icon_pic_kh021.png": "assets/0301ee249333f24244572429.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/68/42/%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.png": "assets/846d7a2163202afb0f117621.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/69/46/icon_final.png": "assets/022de523be00d55a81c62754.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/70/107/nui.png": "assets/fbee9203ad8dbea156ff2183.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/71/105/%E7%A5%AD%E3%82%8A%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.png": "assets/08673ae9a3cab2b06c0f6ef8.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/92/57/icon.png": "assets/801947b2ed8329fe37928641.png",
+    "https://img.atwiki.jp/vipkohaku2021/pub/ik.png": "assets/26f933d43284235af2e54a5c.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/95/113/OKRK%E3%80%80%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.png": "assets/e8f802f2a79a4211ccf9f87d.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/96/133/icon2.png": "assets/da7d86a4ac1a1b0ec74a8462.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/97/137/%E3%83%9F%E3%83%AA%E3%82%AA%E3%83%B3%E3%82%B9%E3%83%AD%E3%83%83%E3%83%88.jpg": "assets/5f311395c86fb73eef6981cc.jpg",
+    "https://img.atwiki.jp/vipkohaku2021/attach/98/141/m/2021%E7%B4%85%E7%99%BD%E3%80%80%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.png": "assets/db2cc5691f002f9b8ac45be2.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/119/144/ICON.png": "assets/6fd5bc07906bff7d1a98b885.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/100/150/Icon32.png": "assets/e85fc4af177410c4b15142a6.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/121/159/folder-pc-thumb.png": "assets/abae00e647581250408c6011.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/122/165/icon_.png": "assets/8e8f1ce61fbcc68d16803b84.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/123/170/%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.png": "assets/3ed6002249d600066cdca1f6.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/172/icon.png": "assets/2ef00f69ec4c4684f713bab9.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/125/217/30.png": "assets/89626bab3b38a7a7de3d3879.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/126/222/m/%E7%B4%85%E7%99%BD%EF%BC%92%EF%BC%90%EF%BC%92%EF%BC%91%E3%80%80%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.png": "assets/2ee4f93bbd51ee598c164235.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/127/224/%E3%83%A2%E3%82%B7%E3%83%A2%E3%83%94%E3%82%B3.gif": "assets/b47c2ed31e3f1c23dc406373.gif",
+    "https://img.atwiki.jp/vipkohaku2021/attach/128/225/%E3%81%A8%E3%81%82%E3%81%B7%E3%81%90.png": "assets/ec97827badfe2406f420bad9.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/151/229/%E6%84%8F%E6%80%9D%E3%82%92%E7%B6%99%E3%81%90%E3%82%82%E3%81%AE%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.png": "assets/4450f26801e9dd516f5e8fe3.png",
+    "https://img.atwiki.jp/vipkohaku2021/pub/21.png": "assets/2517dcf0ce7de572c2719981.png",
+    "https://img.atwiki.jp/vipkohaku2021/pub/20.png": "assets/fe21effe0e159a0ef38cca7f.png",
+    "https://img.atwiki.jp/vipkohaku2021/pub/19.png": "assets/2c2090ec72b79cff9df0cf0e.png",
+    "https://img.atwiki.jp/vipkohaku2021/pub/18.png": "assets/92b475b7b17da376ad0f4b1d.png",
+    "https://img.atwiki.jp/vipkohaku2021/pub/17.png": "assets/ead8c8d4c608c0ba2b81a47d.png",
+    "https://img.atwiki.jp/vipkohaku2021/pub/16.png": "assets/e2866ff3d6caf6fe01eedf03.png",
+    "https://img.atwiki.jp/vipkohaku2021/pub/15.png": "assets/5b1bdd08a77869c2bc1e6bab.png",
+    "https://img.atwiki.jp/vipkohaku2021/pub/14.png": "assets/df57caa5f7320d9a81ec6dbb.png",
+    "https://img.atwiki.jp/vipkohaku2021/pub/13.png": "assets/241ca4063dc3531ce6a89a02.png",
+    "https://img.atwiki.jp/vipkohaku2021/pub/12.png": "assets/19734ce15bc3695924a4999d.png",
+    "https://img.atwiki.jp/vipkohaku2021/pub/11.png": "assets/d12f9d0dacee0003799e1e93.png",
+    "https://img.atwiki.jp/vipkohaku2021/pub/10.png": "assets/48510497f9daa4720d1cf83d.png",
+    "https://img.atwiki.jp/vipkohaku2021/pub/09.png": "assets/505e6b880c139ce48cfd4f81.png",
+    "https://img.atwiki.jp/vipkohaku2021/pub/08.png": "assets/a5b7a7442bc825f0d9c38aaa.png",
+    "https://img.atwiki.jp/vipkohaku2021/pub/07.png": "assets/71d75ba5bbfabbde7402ad81.png",
+    "https://img.atwiki.jp/vipkohaku2021/pub/06.png": "assets/7765a6177354adf7c1ae478f.png",
+    "https://img.atwiki.jp/vipkohaku2021/pub/05.png": "assets/fe1b012844fbfd968bb3b278.png",
+    "https://img.atwiki.jp/vipkohaku2021/pub/im.png": "assets/b5d5b0520768bd0ebe5125d9.png",
+    "https://img.atwiki.jp/vipkohaku2021/pub/ie.png": "assets/f9b2bda479452a26d9f44d1a.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/12/1/0.png": "assets/978e046738aa8d011e2f71a2.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/20/5/SS.png": "assets/a44a97cafa01c41d268e2811.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/31/10/%E4%B8%BB%E5%BD%B9%E3%83%A9%E3%83%B3%E3%82%AD%E3%83%B3%E3%82%B02021SS.png": "assets/24d7d1a2abf9585e14fd93da.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/32/2/SS.png": "assets/7b1b3c662a1e6caa327e9646.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/32/3/SS2.png": "assets/398ad6ab4d76f2629e6b9fe6.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/33/228/SS13.png": "assets/5b99320ce0260903a007d560.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/33/18/SS2.png": "assets/c416f2872f265f3ef4b9c039.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/34/21/SS.png": "assets/77eee04ba1131ad8979a2f6d.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/40/14/SS%E7%B4%85%E7%99%BD21A.png": "assets/164984cb1adab9730a302238.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/40/15/SS%E7%B4%85%E7%99%BD21B.png": "assets/023811fb5b9fe0a45ea143d1.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/46/6/SS1.png": "assets/6d298b330557a5c52683f6af.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/46/7/SS2.png": "assets/4f6a56ca0ab344443526f4a3.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/47/11/1%E3%83%9A%E3%83%BC%E3%82%B8%E7%9B%AE.png": "assets/6e818817e734ddf6c4471565.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/47/12/2%E3%83%9A%E3%83%BC%E3%82%B8%E7%9B%AE.png": "assets/77be1cceaf4a7bf40162c9e6.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/48/27/%E3%82%B9%E3%82%AF%E3%82%B7%E3%83%A7%E3%81%9D%E3%81%AE%EF%BC%91.png": "assets/05ba26b5f3195a422d905e70.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/49/39/10a.png": "assets/58569be0283b0a19d729462e.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/62/116/title.png": "assets/d9bf4581589d1338d115f0a8.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/62/123/ScreenShot.png": "assets/e3387da49a9bb90135c1b354.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/63/22/poo-.png": "assets/f0567f6e5f212cc86675c9a3.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/63/28/m03726_.png": "assets/fd7da27445fad221a4f4ebc0.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/63/149/kakusi.png": "assets/66acabfc6e565f107550db8d.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/64/31/%E3%83%BB%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%EF%BC%91.png": "assets/eca433cd2898751f90672d75.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/64/32/%EF%BC%B3%EF%BC%B3%EF%BC%91.png": "assets/ebc3500ebf91d3efd4a68322.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/65/120/K9fryjG_d.webp": "assets/4481a0386e3837416c5922fd.webp",
+    "https://img.atwiki.jp/vipkohaku2021/attach/65/121/WnY6BeF_d.webp": "assets/7585ac643bb9cfb18af38630.webp",
+    "https://img.atwiki.jp/vipkohaku2021/attach/65/122/14c.png": "assets/2a574681d3d2dc750b018398.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/66/29/ss.png": "assets/3137099748c3b5528b0da364.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/67/35/viprpg_kh2021_xraniu_s_A.png": "assets/e0709c59461a3008ac25aa32.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/67/36/viprpg_kh2021_xraniu_s_B.png": "assets/c2039f2f09dc87163e14e576.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/68/168/10.png": "assets/3dcf0bb2ed8f9dda144627c8.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/68/148/6.png": "assets/7d62a66ee7b3882771ff5f1a.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/68/146/4.png": "assets/fe36785a32f4224c247e8500.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/68/147/5.png": "assets/efc42fec734b511fb60e4377.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/69/45/DIS_Legacy.png": "assets/d7c9ce69a3694da70e2c4663.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/69/56/picon_8-export_fix.png": "assets/4bd06cf51c937f7c29a9c36e.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/69/50/picon_9-export.png": "assets/bbb4e95d4a4716bbb2f3354f.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/69/55/picon_12-export_fix.png": "assets/2164723236ea4f47628768ed.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/69/54/picon_11-export_fix.png": "assets/0e086bcffbc2d91339f9ef4d.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/69/130/picon_3-export.png": "assets/116d73053320c1d813bcda05.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/69/156/211229_185247.png": "assets/3a13372d2e212bdf068ec32c.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/69/151/211228_161045.png": "assets/f2e2cc7471aef573c32632c7.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/69/155/FF1xZYrVQAQ5XBU.png": "assets/be9472f7ef28fd1482117eb9.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/69/154/211226_135905.png": "assets/fc2b1ea656d7c4b828047c6c.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/69/158/211230_140555.png": "assets/864bf2994b6627c3644ab401.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/69/157/211229_183655.png": "assets/2703fe9292724d6ce39231d8.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/69/152/211228_180651.png": "assets/401686eb6aae0f3a7ddaafaf.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/69/129/211220_233610.png": "assets/cc3237f6381aa65d1bc69439.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/69/52/211212_182302.png": "assets/f0f15eddce8e5d6d1aa71677.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/69/53/211212_182129.png": "assets/f852247bfe446056095eb944.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/70/59/ou.png": "assets/5975c8f7380bf1a2817d7aa4.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/71/103/%E7%A5%AD%E3%82%8ASS.png": "assets/677bcbdb856cc5897589cfde.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/71/106/%E7%A5%AD%E3%82%8ASS2%E3%83%AA%E3%82%B5%E3%82%A4%E3%82%BA.png": "assets/1b2adfc39db45a40fafb1d6a.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/92/58/title.png": "assets/168621b0fa4a93aee8d516ba.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/93/204/title.png": "assets/ff321365532db7e969cc0689.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/94/108/01.PNG": "assets/baef3b2a82d2be98d93cc2c3.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/94/109/02.png": "assets/40f1709f46a76e755ee1953e.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/95/111/OKRK%E3%80%80SS%EF%BC%91.png": "assets/88141cb3eec679585d1faa72.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/95/112/OKRK%E3%80%80SS%EF%BC%92.png": "assets/e8408aedb30068320debf60b.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/96/131/SS1.png": "assets/dca42ff2ed83d6c090a00462.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/96/132/PSS2.png": "assets/674cef1376d05475bfe441dc.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/97/135/320240.png": "assets/124a309f50921766371d36b0.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/97/138/ss01.jpg": "assets/26c175c355b5e2740e8ca22b.jpg",
+    "https://img.atwiki.jp/vipkohaku2021/attach/97/139/ss02.jpg": "assets/41594a64ffcb954a65174a83.jpg",
+    "https://img.atwiki.jp/vipkohaku2021/attach/98/143/2021%E7%B4%85%E7%99%BDSS1.png": "assets/6b3620a7a26b3142fa2b6005.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/98/140/2021%E7%B4%85%E7%99%BDSS2.png": "assets/dd5e6cb82c10ea70e57ff209.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/98/141/2021%E7%B4%85%E7%99%BD%E3%80%80%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.png": "assets/957b137b44c42c72bd8129e8.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/119/145/SS1.png": "assets/bc06d39d87c5357c20659948.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/121/161/kohaku2021.jpg": "assets/e5e1c5ea40449fb945bac77c.jpg",
+    "https://img.atwiki.jp/vipkohaku2021/attach/122/162/entry1.png": "assets/a3fda762ee25ac9f86fac8d4.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/122/163/entry2.png": "assets/c74eefb0a97a5a3523f111fe.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/123/169/skcc.png": "assets/9fd54f51e791d6415834726f.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/183/ss33.jpg": "assets/0aa263c791d1001473c1e820.jpg",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/174/vipsz3_face4285_2.png": "assets/9289a264b04df53b401fa9be.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/201/Golbez.png": "assets/4a2bd4e0aab933ebee4eaac5.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/175/3.png": "assets/f644476fd7d8baab8b181921.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/176/6.png": "assets/0b29611f1da47e76cf88ff01.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/177/7.png": "assets/c5dde98992d83dc1c8d9273d.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/178/8.png": "assets/31bf45cf9fc5d03bf9032ffd.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/179/9.png": "assets/4d2076de9044842034997cc0.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/180/10.png": "assets/6a20f9a1a7a7d6e1ca119a1b.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/181/11.png": "assets/8cd149675d85c33faf676422.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/182/12.png": "assets/2cb8c4d01a4fe22644fe09da.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/192/4.png": "assets/582fa6df3aff40eecd797281.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/185/13.png": "assets/8a89283fbf5b57e972506530.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/186/14.png": "assets/fe6f03f83b1a89fb86971b96.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/187/15.png": "assets/d9a3a3318ad99728295fee96.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/188/16.png": "assets/c441dd917361c28ae304341f.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/189/17.png": "assets/8beac0427115bf21c874081b.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/190/18.png": "assets/d9456394000df6bce45a49d0.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/191/19.png": "assets/797819a2e2d2cc13a6ac5b2f.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/193/5_.png": "assets/e6c23de3ba4bfaac6766e2dc.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/194/20.png": "assets/51b104db40af9ffd29d24d1b.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/195/21.png": "assets/079a6708e374a867ea7687eb.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/196/22.png": "assets/eccc6eea6c96093d57423228.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/197/23.png": "assets/b47856df020ad1fe519c49d4.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/198/24.png": "assets/a8c95bc91ae584d5f7a8b9ff.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/199/25.png": "assets/5b74ea410ac770baf9b738b8.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/200/26.png": "assets/a812c43b12805cdfeb81aa16.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/214/40.png": "assets/82b496111723392168e7b6aa.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/205/27.png": "assets/c6c81428d2451d3fa3846065.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/206/28.png": "assets/9ad4dd818f0e5e76c9caf343.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/207/29.png": "assets/03f98ad0ce726c3e52de67d8.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/208/30.png": "assets/17e157847713065c91056f90.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/209/31.png": "assets/42d9205efedadde6582786da.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/210/32.png": "assets/d53f0159aaf2dd09cd2a5182.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/211/33.png": "assets/551ff9ccac9b6e80618757c4.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/212/34.png": "assets/662e003af630009bc18fa340.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/213/35.png": "assets/75b01a9abab0b6bfab52b62a.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/232/image_20210121_222011.png": "assets/93251c021f3a4e96eb0dddf5.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/233/image_20210127_214207.png": "assets/83cd634ffcba9fb54899861f.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/239/image_20210731_132611.png": "assets/19029d0a90b6ae4584d34f73.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/236/image_20210524_004741.png": "assets/16a8496aacd1ffabbe96d82a.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/235/image_20220128_004446.png": "assets/02f656dfea168de9683ffd6a.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/234/image_20210122_185738.png": "assets/03ac7d76aec750a05b7e1fd3.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/237/image_20210405_234816.png": "assets/bb024bb39f70547fa44c98f4.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/240/image_20210919_183210.png": "assets/70675a0cc3cd3afcb0e60190.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/124/238/image_20210723_142637.png": "assets/23cd2b251436dc18cb90b3bc.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/125/216/ti2.png": "assets/930b34a6fe71ecd257f36a72.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/125/218/s.png": "assets/392f5ed315a982354ddb2ab5.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/126/220/SNOW%20DAYS%20%E3%80%80%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB.png": "assets/5d9c6218d06715b798860a29.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/126/221/%E7%B4%85%E7%99%BD%EF%BC%92%EF%BC%90%EF%BC%92%EF%BC%91%E3%80%80SS2%E6%9E%9A%E7%9B%AE.png": "assets/be062906987eaf8ba6e830d9.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/126/222/%E7%B4%85%E7%99%BD%EF%BC%92%EF%BC%90%EF%BC%92%EF%BC%91%E3%80%80%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.png": "assets/bc2db8a8fc6dea7337fa4ef7.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/127/223/SSUnderStep.png": "assets/1487af4cf1ca914aab6cb22a.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/128/226/%E3%80%90%E3%82%A8%E3%83%A2%E3%82%AF%E3%83%AD%E3%80%91%E3%83%94%E3%82%AF%E3%83%81%E3%83%A31.png": "assets/784b0119869ed9bf003c4b8a.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/128/227/%E3%80%90%E3%82%A8%E3%83%A2%E3%82%AF%E3%83%AD%E3%80%91%E3%83%94%E3%82%AF%E3%83%81%E3%83%A32.png": "assets/fa8ae1a739893d963e5e793d.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/129/231/%E6%84%8F%E6%80%9D%E3%82%92%E7%B6%99%E3%81%90%E3%82%82%E3%81%AE%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB66p.png": "assets/e509ab94f39912f705962114.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/11/43/bg.png": "assets/83ba990cf7688acc8807fde9.png",
+    "https://img.atwiki.jp/vipkohaku2021/attach/64/33/%EF%BC%B3%EF%BC%B3%EF%BC%92.png": "assets/f34b9eb37e3600c4a3d5bd78.png",
+    "https://vipkohaku2021.web.fc2.com/index.html": "index.html",
+    "https://vipkohaku2021.web.fc2.com/img/21.png": "assets/ee58350e25609912d380a075.png",
+    "https://vipkohaku2021.web.fc2.com/img/21a.png": "assets/517180a2b30a8ffed201cfad.png",
+    "https://vipkohaku2021.web.fc2.com/img/21b.png": "assets/860d04fa70826001a114fdc6.png",
+    "https://vipkohaku2021.web.fc2.com/kh5ch.css": "styles/bb0f88e9ce0155d959a7bc28.css",
+    "https://vipkohaku2021.web.fc2.com/bg.png": "assets/20b68722f22bac8f1b858b2d.png",
+    "https://vipkohaku2021.web.fc2.com/top.png": "assets/4d69a3e438f7784b392698bf.png",
+    "https://vipkohaku2021.web.fc2.com/": "index.html"
+  },
+  "entries": [
+    {
+      "id": "2021-kouhaku-work-00",
+      "no": "00",
+      "detailUrl": "https://w.atwiki.jp/vipkohaku2021/pages/12.html",
+      "sourceFile": "12.bin",
+      "newlyRestored": false,
+      "catalogueTitle": "サンプル",
+      "catalogueAuthor": "サンプル",
+      "catalogueClassification": [
+        "サンプル",
+        "RPGツクール"
+      ],
+      "sourceMetadata": {
+        "タイトル": "サンプル",
+        "作者": "2021紅白管理人",
+        "ジャンル": "ADV"
+      },
+      "legacyStreamingConfirmed": true,
+      "iconSourceUrl": "https://img.atwiki.jp/vipkohaku2021/pub/i00.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/12/1/0.png",
+          "local": "/screenshots/2021-kouhaku/00-source-1.png",
+          "sha256": "4b3d47211710f009f2c9991da1fb51d1ba2969cf6ee02bf84b176b72ee8d3e12"
+        }
+      ],
+      "inlineImageSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/12/1/0.png",
+          "role": "source-metadata-icon",
+          "renderedWidth": "32",
+          "renderedHeight": "32",
+          "preservedInSourceCommentAndOriginalView": true
+        }
+      ],
+      "hostCommentSource": "Official catalogue classification-cell title attribute",
+      "dlPageUrl": "https://jbbs.shitaraba.net/bbs/read.cgi/movie/10904/1638592305/",
+      "downloadLinks": [],
+      "auxiliaryExternalLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-kouhaku-work-01",
+      "no": "01",
+      "detailUrl": "https://w.atwiki.jp/vipkohaku2021/pages/20.html#id_6d0a53e7",
+      "sourceFile": "20.bin",
+      "newlyRestored": false,
+      "catalogueTitle": "メリーモア",
+      "catalogueAuthor": "ぬ",
+      "catalogueClassification": [
+        "デフォ戦",
+        "2000"
+      ],
+      "sourceMetadata": {
+        "タイトル": "メリーモア",
+        "作者": "ぬ",
+        "プレイ時間": "たくさん",
+        "ジャンル": "デフォ戦"
+      },
+      "legacyStreamingConfirmed": true,
+      "iconSourceUrl": "https://img.atwiki.jp/vipkohaku2021/pub/ip.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/20/5/SS.png",
+          "local": "/screenshots/2021-kouhaku/01-source-1.png",
+          "sha256": "e7a32fee133442a2b493dac30f2c9be34db0518cc9ff57af99faf2c3746065bc"
+        }
+      ],
+      "inlineImageSources": [],
+      "hostCommentSource": "Official catalogue classification-cell title attribute",
+      "dlPageUrl": "https://w.atwiki.jp/vipkohaku2021/pages/21.html",
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpgmaker2021/download/158",
+          "label": "原配布ページのリンク"
+        },
+        {
+          "url": "https://ux.getuploader.com/viprpgmaker2021/download/24",
+          "label": "原配布ページのリンク"
+        }
+      ],
+      "auxiliaryExternalLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-kouhaku-work-02",
+      "no": "02",
+      "detailUrl": "https://w.atwiki.jp/vipkohaku2021/pages/31.html#id_0f6e61af",
+      "sourceFile": "31.bin",
+      "newlyRestored": false,
+      "catalogueTitle": "主役キャラクターランキング2021+α",
+      "catalogueAuthor": "ミズキリ",
+      "catalogueClassification": [
+        "資料",
+        "2000"
+      ],
+      "sourceMetadata": {
+        "タイトル": "主役キャラクターランキング2021＋α",
+        "作者": "ミズキリ"
+      },
+      "legacyStreamingConfirmed": true,
+      "iconSourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/31/9/%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3%E7%B4%85%E7%99%BD2021.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/31/10/%E4%B8%BB%E5%BD%B9%E3%83%A9%E3%83%B3%E3%82%AD%E3%83%B3%E3%82%B02021SS.png",
+          "local": "/screenshots/2021-kouhaku/02-source-1.png",
+          "sha256": "3b60166d105ae1e055f5f5f55a8561785279fc0bd63c23b8b7613f03527eb983"
+        }
+      ],
+      "inlineImageSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/31/9/%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3%E7%B4%85%E7%99%BD2021.png",
+          "role": "source-metadata-icon",
+          "renderedWidth": "32",
+          "renderedHeight": "32",
+          "preservedInSourceCommentAndOriginalView": true
+        }
+      ],
+      "hostCommentSource": "Official catalogue classification-cell title attribute",
+      "dlPageUrl": "https://w.atwiki.jp/vipkohaku2021/pages/22.html",
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpgmaker2021/download/146",
+          "label": "原配布ページのリンク"
+        }
+      ],
+      "auxiliaryExternalLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-kouhaku-work-03",
+      "no": "03",
+      "detailUrl": "https://w.atwiki.jp/vipkohaku2021/pages/32.html#id_54bf6e30",
+      "sourceFile": "32.bin",
+      "newlyRestored": false,
+      "catalogueTitle": "俺流好きなキャラ100人魔王把握",
+      "catalogueAuthor": "悪派手魔似亜",
+      "catalogueClassification": [
+        "もう何番煎じかわかんない100人把握",
+        "2000"
+      ],
+      "sourceMetadata": {
+        "タイトル": "俺流好きなキャラ100人魔王把握",
+        "作者": "悪派手魔似亜"
+      },
+      "legacyStreamingConfirmed": true,
+      "iconSourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/32/4/ICON.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/32/2/SS.png",
+          "local": "/screenshots/2021-kouhaku/03-source-1.png",
+          "sha256": "d25a86ce2e2a63a189ce34c989748f16cd57eec4d034d72900d5227254b0403c"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/32/3/SS2.png",
+          "local": "/screenshots/2021-kouhaku/03-source-2.png",
+          "sha256": "3fdf13143cf127a6fca09c72f407aec6d909de3ad85d01c36e074eb41bb3d31a"
+        }
+      ],
+      "inlineImageSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/32/4/ICON.png",
+          "role": "source-metadata-icon",
+          "renderedWidth": "32",
+          "renderedHeight": "32",
+          "preservedInSourceCommentAndOriginalView": true
+        }
+      ],
+      "hostCommentSource": "Official catalogue classification-cell title attribute",
+      "dlPageUrl": "https://w.atwiki.jp/vipkohaku2021/pages/23.html",
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpgmaker20215/download/14",
+          "label": "原配布ページのリンク"
+        },
+        {
+          "url": "https://ux.getuploader.com/viprpgmaker20215/download/15",
+          "label": "原配布ページのリンク"
+        }
+      ],
+      "auxiliaryExternalLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-kouhaku-work-04",
+      "no": "04",
+      "detailUrl": "https://w.atwiki.jp/vipkohaku2021/pages/33.html#id_f057c2ee",
+      "sourceFile": "33.bin",
+      "newlyRestored": false,
+      "catalogueTitle": "ゴメス将棋",
+      "catalogueAuthor": "焼きそば男",
+      "catalogueClassification": [
+        "将棋パズル",
+        "2000"
+      ],
+      "sourceMetadata": {
+        "タイトル": "ゴメス将棋",
+        "作者": "焼きそば男"
+      },
+      "legacyStreamingConfirmed": true,
+      "iconSourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/33/17/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/33/228/SS13.png",
+          "local": "/screenshots/2021-kouhaku/04-source-1.png",
+          "sha256": "1d96b962908afbd786b2bd79800d527d24c0db12e636a51477a99a7e53f2673d"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/33/18/SS2.png",
+          "local": "/screenshots/2021-kouhaku/04-source-2.png",
+          "sha256": "0648e32579e821498625e6aff1f4422427f72dcd55905b40e53a86d767831418"
+        }
+      ],
+      "inlineImageSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/33/17/icon.png",
+          "role": "source-metadata-icon",
+          "renderedWidth": "32",
+          "renderedHeight": "32",
+          "preservedInSourceCommentAndOriginalView": true
+        }
+      ],
+      "hostCommentSource": "Official catalogue classification-cell title attribute",
+      "dlPageUrl": "https://w.atwiki.jp/vipkohaku2021/pages/24.html",
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpgmaker2021/download/166",
+          "label": "原配布ページのリンク"
+        },
+        {
+          "url": "https://ux.getuploader.com/viprpgmaker2021/download/167",
+          "label": "原配布ページのリンク"
+        }
+      ],
+      "auxiliaryExternalLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-kouhaku-work-05",
+      "no": "05",
+      "detailUrl": "https://w.atwiki.jp/vipkohaku2021/pages/34.html#id_e3328164",
+      "sourceFile": "34.bin",
+      "newlyRestored": false,
+      "catalogueTitle": "もしもAI小説だったら",
+      "catalogueAuthor": "AIごめりすと",
+      "catalogueClassification": [
+        "AIノベル",
+        "2000"
+      ],
+      "sourceMetadata": {
+        "タイトル": "もしもAI小説だったら",
+        "作者": "AIごめりすと"
+      },
+      "legacyStreamingConfirmed": true,
+      "iconSourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/34/20/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/34/21/SS.png",
+          "local": "/screenshots/2021-kouhaku/05-source-1.png",
+          "sha256": "5d8d25ad6056294b8c4f08f20b997ad6487c07e598974a3618885c645359c50a"
+        }
+      ],
+      "inlineImageSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/34/20/icon.png",
+          "role": "source-metadata-icon",
+          "renderedWidth": "32",
+          "renderedHeight": "32",
+          "preservedInSourceCommentAndOriginalView": true
+        }
+      ],
+      "hostCommentSource": "Official catalogue classification-cell title attribute",
+      "dlPageUrl": "https://w.atwiki.jp/vipkohaku2021/pages/25.html",
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpgmaker2021/download/63",
+          "label": "原配布ページのリンク"
+        },
+        {
+          "url": "https://dl.easyuploader.cloud/20211225124208_49776678.zip",
+          "label": "原配布ページのリンク"
+        }
+      ],
+      "auxiliaryExternalLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-kouhaku-work-06",
+      "no": "06",
+      "detailUrl": "https://w.atwiki.jp/vipkohaku2021/pages/45.html#id_cee32b61",
+      "sourceFile": "45.bin",
+      "newlyRestored": false,
+      "catalogueTitle": "バリアーズと破壊のバリア",
+      "catalogueAuthor": "牧場の牛肉",
+      "catalogueClassification": [
+        "やる",
+        "VXACE"
+      ],
+      "sourceMetadata": {
+        "タイトル": "バリアーズと破壊のバリア",
+        "作者": "牧場の牛肉"
+      },
+      "legacyStreamingConfirmed": true,
+      "iconSourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/40/16/SS%E7%B4%85%E7%99%BD21%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/40/14/SS%E7%B4%85%E7%99%BD21A.png",
+          "local": "/screenshots/2021-kouhaku/06-source-1.png",
+          "sha256": "c34b97859f8841c3340d4bf6a1856d7cfbca5aeef2356f86d4ceec0de0ab64a1"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/40/15/SS%E7%B4%85%E7%99%BD21B.png",
+          "local": "/screenshots/2021-kouhaku/06-source-2.png",
+          "sha256": "0df024c5f978c5390181f6b2ac2f61134bf3b09a0236c3710541a7fb27193c82"
+        }
+      ],
+      "inlineImageSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/40/16/SS%E7%B4%85%E7%99%BD21%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.png",
+          "role": "source-metadata-icon",
+          "renderedWidth": "32",
+          "renderedHeight": "32",
+          "preservedInSourceCommentAndOriginalView": true
+        }
+      ],
+      "hostCommentSource": "Official catalogue classification-cell title attribute",
+      "dlPageUrl": "https://w.atwiki.jp/vipkohaku2021/pages/26.html",
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpgmaker2021/download/99",
+          "label": "原配布ページのリンク"
+        },
+        {
+          "url": "https://ux.getuploader.com/viprpgmaker2021/download/159",
+          "label": "原配布ページのリンク"
+        }
+      ],
+      "auxiliaryExternalLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-kouhaku-work-07",
+      "no": "07",
+      "detailUrl": "https://w.atwiki.jp/vipkohaku2021/pages/46.html#id_eec95383",
+      "sourceFile": "46.bin",
+      "newlyRestored": false,
+      "catalogueTitle": "子どもたちの国 -Magic Children-",
+      "catalogueAuthor": "たんち",
+      "catalogueClassification": [
+        "大人の夜更かしのための見るゲ",
+        "Steam2003"
+      ],
+      "sourceMetadata": {
+        "タイトル": "子どもたちの国 -Magic Children-",
+        "作者": "たんち"
+      },
+      "legacyStreamingConfirmed": true,
+      "iconSourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/46/8/%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/46/6/SS1.png",
+          "local": "/screenshots/2021-kouhaku/07-source-1.png",
+          "sha256": "8ae8bbf9e09e1bab0c44cd756fddffb5cd2d79f1289db109fe146e913f56159d"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/46/7/SS2.png",
+          "local": "/screenshots/2021-kouhaku/07-source-2.png",
+          "sha256": "6f135bb9ea771485424cdce9800d940bf0b01400777865c32e6be92e1048aa9e"
+        }
+      ],
+      "inlineImageSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/46/8/%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.png",
+          "role": "source-metadata-icon",
+          "renderedWidth": "32",
+          "renderedHeight": "32",
+          "preservedInSourceCommentAndOriginalView": true
+        }
+      ],
+      "hostCommentSource": "Official catalogue classification-cell title attribute",
+      "dlPageUrl": "https://w.atwiki.jp/vipkohaku2021/pages/27.html",
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpgmaker2021/download/109",
+          "label": "原配布ページのリンク"
+        },
+        {
+          "url": "https://ux.getuploader.com/viprpgmaker2021/download/108",
+          "label": "原配布ページのリンク"
+        }
+      ],
+      "auxiliaryExternalLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-kouhaku-work-08",
+      "no": "08",
+      "detailUrl": "https://w.atwiki.jp/vipkohaku2021/pages/47.html#id_b1353764",
+      "sourceFile": "47.bin",
+      "newlyRestored": false,
+      "catalogueTitle": "夢幻洞窟",
+      "catalogueAuthor": "あじたま",
+      "catalogueClassification": [
+        "ダンジョン系RPG",
+        "2000"
+      ],
+      "sourceMetadata": {
+        "タイトル": "夢幻洞窟",
+        "作者": "あじたま"
+      },
+      "legacyStreamingConfirmed": true,
+      "iconSourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/47/13/%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.PNG",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/47/11/1%E3%83%9A%E3%83%BC%E3%82%B8%E7%9B%AE.png",
+          "local": "/screenshots/2021-kouhaku/08-source-1.png",
+          "sha256": "05e60b635a17058292585d23b408959d74f6164c63de7f895ffe67695cf4635e"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/47/12/2%E3%83%9A%E3%83%BC%E3%82%B8%E7%9B%AE.png",
+          "local": "/screenshots/2021-kouhaku/08-source-2.png",
+          "sha256": "d2ddf2f8d81c35ed5f533b3aed5687af7dfd145fa384111a188f4e07d9a79fb7"
+        }
+      ],
+      "inlineImageSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/47/13/%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.PNG",
+          "role": "source-metadata-icon",
+          "renderedWidth": "32",
+          "renderedHeight": "32",
+          "preservedInSourceCommentAndOriginalView": true
+        }
+      ],
+      "hostCommentSource": "Official catalogue classification-cell title attribute",
+      "dlPageUrl": "https://w.atwiki.jp/vipkohaku2021/pages/28.html",
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpgmaker20212/download/82",
+          "label": "原配布ページのリンク"
+        }
+      ],
+      "auxiliaryExternalLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-kouhaku-work-09",
+      "no": "09",
+      "detailUrl": "https://w.atwiki.jp/vipkohaku2021/pages/48.html#id_26a8f6ac",
+      "sourceFile": "48.bin",
+      "newlyRestored": false,
+      "catalogueTitle": "モンスターズ・カーニバル",
+      "catalogueAuthor": "アラン・スミシー",
+      "catalogueClassification": [
+        "収集&育成",
+        "MV"
+      ],
+      "sourceMetadata": {
+        "タイトル": "モンスターズ・カーニバル",
+        "作者": "アラン・スミシー"
+      },
+      "legacyStreamingConfirmed": true,
+      "iconSourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/48/26/%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/48/27/%E3%82%B9%E3%82%AF%E3%82%B7%E3%83%A7%E3%81%9D%E3%81%AE%EF%BC%91.png",
+          "local": "/screenshots/2021-kouhaku/09-source-1.png",
+          "sha256": "1ef2b8551ea02c6470ff9869f834f435d17225eed541298d17e2f08898778603"
+        }
+      ],
+      "inlineImageSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/48/26/%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.png",
+          "role": "source-metadata-icon",
+          "renderedWidth": "32",
+          "renderedHeight": "32",
+          "preservedInSourceCommentAndOriginalView": true
+        }
+      ],
+      "hostCommentSource": "Official catalogue classification-cell title attribute",
+      "dlPageUrl": "https://w.atwiki.jp/vipkohaku2021/pages/29.html",
+      "downloadLinks": [
+        {
+          "url": "https://mega.nz/file/scRSwLwR#Lo8i6Ne3Dsmnb9HcgP4s5rSfDGqNFUMUdpiUtMF-Fj8",
+          "label": "原配布ページのリンク"
+        },
+        {
+          "url": "https://game.nicovideo.jp/atsumaru/games/gm21500?",
+          "label": "原配布ページのリンク"
+        }
+      ],
+      "auxiliaryExternalLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-kouhaku-work-10",
+      "no": "10",
+      "detailUrl": "https://w.atwiki.jp/vipkohaku2021/pages/49.html#id_f26d7153",
+      "sourceFile": "49.bin",
+      "newlyRestored": false,
+      "catalogueTitle": "2005～21キャラ歴史まとめ",
+      "catalogueAuthor": "ヒマーネスI",
+      "catalogueClassification": [
+        "資料",
+        "2000"
+      ],
+      "sourceMetadata": {
+        "タイトル": "2005～21キャラ歴史まとめ",
+        "作者": "ヒマーネスI"
+      },
+      "legacyStreamingConfirmed": true,
+      "iconSourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/49/38/i10.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/49/39/10a.png",
+          "local": "/screenshots/2021-kouhaku/10-source-1.png",
+          "sha256": "5fcc30ee11b61a1a67515a8fd3f0f12d8bc02b1e7419f9400251030e01415205"
+        }
+      ],
+      "inlineImageSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/49/38/i10.png",
+          "role": "source-metadata-icon",
+          "renderedWidth": "32",
+          "renderedHeight": "32",
+          "preservedInSourceCommentAndOriginalView": true
+        }
+      ],
+      "hostCommentSource": "Official catalogue classification-cell title attribute",
+      "dlPageUrl": "https://w.atwiki.jp/vipkohaku2021/pages/30.html",
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpgmaker2021/download/100",
+          "label": "原配布ページのリンク"
+        }
+      ],
+      "auxiliaryExternalLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-kouhaku-work-11",
+      "no": "11",
+      "detailUrl": "https://w.atwiki.jp/vipkohaku2021/pages/62.html#id_105b50dc",
+      "sourceFile": "62.bin",
+      "newlyRestored": false,
+      "catalogueTitle": "命短し、殺意せよ乙女",
+      "catalogueAuthor": "かすていら",
+      "catalogueClassification": [
+        "読むゲ",
+        "Steam2003"
+      ],
+      "sourceMetadata": {
+        "タイトル": "命短し、殺意せよ乙女",
+        "作者": "かすていら"
+      },
+      "legacyStreamingConfirmed": true,
+      "iconSourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/62/115/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/62/116/title.png",
+          "local": "/screenshots/2021-kouhaku/11-source-1.png",
+          "sha256": "18b56735d407bf6b509f5013ab592764e976f7bb9b3c25cd55bbf4ed0dc9e66e"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/62/123/ScreenShot.png",
+          "local": "/screenshots/2021-kouhaku/11-source-2.png",
+          "sha256": "f27deaf8549a6fbcfd175acce4759dc112e720f7b7de33d6583a488bf03996aa"
+        }
+      ],
+      "inlineImageSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/62/115/icon.png",
+          "role": "source-metadata-icon",
+          "renderedWidth": "32",
+          "renderedHeight": "32",
+          "preservedInSourceCommentAndOriginalView": true
+        }
+      ],
+      "hostCommentSource": "Official catalogue classification-cell title attribute",
+      "dlPageUrl": "https://w.atwiki.jp/vipkohaku2021/pages/72.html",
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpgmaker2021/download/66",
+          "label": "原配布ページのリンク"
+        },
+        {
+          "url": "https://drive.google.com/u/2/uc?id=1jPrv6Ln2SeALpGq2lPzDyZ6JlFlHxysZ&export=download",
+          "label": "原配布ページのリンク"
+        }
+      ],
+      "auxiliaryExternalLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-kouhaku-work-12",
+      "no": "12",
+      "detailUrl": "https://w.atwiki.jp/vipkohaku2021/pages/63.html#id_44c7db6c",
+      "sourceFile": "63.bin",
+      "newlyRestored": false,
+      "catalogueTitle": "子もちもちと不思議な仲間たち ReMZ -WIP-",
+      "catalogueAuthor": "t",
+      "catalogueClassification": [
+        "デフォ戦RPG",
+        "MZ"
+      ],
+      "sourceMetadata": {
+        "タイトル": "子もちもちと不思議な仲間たち ReMZ -WIP-",
+        "作者": "t"
+      },
+      "legacyStreamingConfirmed": true,
+      "iconSourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/63/23/komotimoti.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/63/22/poo-.png",
+          "local": "/screenshots/2021-kouhaku/12-source-1.png",
+          "sha256": "80ccab2dcb98da22e367133dac454ee9f6b8eaf07cd9bf2e8904e37bc0956fa7"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/63/28/m03726_.png",
+          "local": "/screenshots/2021-kouhaku/12-source-2.png",
+          "sha256": "24858c2df17f476dd9d853d7edd18206a42c23341bb0e84c5229230be6115ef9"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/63/149/kakusi.png",
+          "local": "/screenshots/2021-kouhaku/12-source-3.png",
+          "sha256": "ecce7edb58f06c35c6a503ee576693067d3b2f9c86449ef9fa9d0b6fe1862767"
+        }
+      ],
+      "inlineImageSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/63/23/komotimoti.png",
+          "role": "source-metadata-icon",
+          "renderedWidth": "32",
+          "renderedHeight": "32",
+          "preservedInSourceCommentAndOriginalView": true
+        }
+      ],
+      "hostCommentSource": "Official catalogue classification-cell title attribute",
+      "dlPageUrl": "https://w.atwiki.jp/vipkohaku2021/pages/73.html",
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpgmaker2021/download/70",
+          "label": "原配布ページのリンク"
+        },
+        {
+          "url": "https://ux.getuploader.com/viprpgmaker2021/download/71",
+          "label": "原配布ページのリンク"
+        },
+        {
+          "url": "https://game.nicovideo.jp/atsumaru/games/gm23769?key=34130c7b8435",
+          "label": "原配布ページのリンク"
+        }
+      ],
+      "auxiliaryExternalLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-kouhaku-work-13",
+      "no": "13",
+      "detailUrl": "https://w.atwiki.jp/vipkohaku2021/pages/64.html#id_e6a743a6",
+      "sourceFile": "64.bin",
+      "newlyRestored": false,
+      "catalogueTitle": "勇者と聖剣の伝説",
+      "catalogueAuthor": "魔禁胆",
+      "catalogueClassification": [
+        "脱衣野球拳モドキ(R18)",
+        "2000"
+      ],
+      "sourceMetadata": {
+        "タイトル": "勇者と聖剣の伝説",
+        "作者": "魔禁胆"
+      },
+      "legacyStreamingConfirmed": false,
+      "iconSourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/64/34/%E3%82%A2%E3%82%A4%E3%82%B3%EF%BD%A5%EF%BD%A5%EF%BD%A5%E3%83%B3%EF%BC%9F.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/64/31/%E3%83%BB%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%EF%BC%91.png",
+          "local": "/screenshots/2021-kouhaku/13-source-1.png",
+          "sha256": "b3a72a4e54df8f76ba160512deb8de7fb7a6c5a0a8a0439cd7c22e48b907ed38"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/64/32/%EF%BC%B3%EF%BC%B3%EF%BC%91.png",
+          "local": "/screenshots/2021-kouhaku/13-source-2.png",
+          "sha256": "0d7f336b76e632be6144d008ce43358dec0fa2b496584193d2c726e1b7bd544c"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/64/33/%EF%BC%B3%EF%BC%B3%EF%BC%92.png",
+          "local": "/screenshots/2021-kouhaku/13-source-3.png",
+          "sha256": "c4c8de824b65d47c3c767e4cf3125db3d8a4df2c7edc2e394385c717e7ae3103"
+        }
+      ],
+      "historicalScreenshotEvidence": {
+        "url": "https://img.atwiki.jp/vipkohaku2021/attach/64/33/%EF%BC%B3%EF%BC%B3%EF%BC%92.png",
+        "cachedPage": "64.html#id_e6a743a6",
+        "captureDateUnknown": true,
+        "currentlyDisplayed": false
+      },
+      "inlineImageSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/64/34/%E3%82%A2%E3%82%A4%E3%82%B3%EF%BD%A5%EF%BD%A5%EF%BD%A5%E3%83%B3%EF%BC%9F.png",
+          "role": "source-metadata-icon",
+          "renderedWidth": "32",
+          "renderedHeight": "32",
+          "preservedInSourceCommentAndOriginalView": true
+        }
+      ],
+      "hostCommentSource": "Official catalogue classification-cell title attribute",
+      "dlPageUrl": "https://w.atwiki.jp/vipkohaku2021/pages/74.html",
+      "downloadLinks": [
+        {
+          "url": "https://siasky.net/AABvO1hIYgSx9nJFx6gwg4dr0Gv4zG_3UmJlKdTLF7au1g",
+          "label": "原配布ページのリンク"
+        }
+      ],
+      "auxiliaryExternalLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-kouhaku-work-14",
+      "no": "14",
+      "detailUrl": "https://w.atwiki.jp/vipkohaku2021/pages/65.html#id_26a0d094",
+      "sourceFile": "65.bin",
+      "newlyRestored": false,
+      "catalogueTitle": "小さな世界の幸福奇譚　八章まで",
+      "catalogueAuthor": "ゲ製の民がVIPRPG作って祭りに突撃する企画",
+      "catalogueClassification": [
+        "日常系RPG風ギャルゲー",
+        "VXACE"
+      ],
+      "sourceMetadata": {
+        "タイトル": "小さな世界の幸福奇譚　八章まで",
+        "作者": "ゲ製の民がVIPRPG作って祭りに突撃する企画"
+      },
+      "legacyStreamingConfirmed": true,
+      "iconSourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/65/118/i14.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/65/120/K9fryjG_d.webp",
+          "local": "/screenshots/2021-kouhaku/14-source-1.webp",
+          "sha256": "c852c06907909c40d81d9352cd6db0ef1b9ffdc4e7c7df0ea89548d09203c6fb"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/65/121/WnY6BeF_d.webp",
+          "local": "/screenshots/2021-kouhaku/14-source-2.webp",
+          "sha256": "2192de5f026b11edc92032ff8e77bf60a64a666a5903d2daaf0b5db62b2e48b0"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/65/122/14c.png",
+          "local": "/screenshots/2021-kouhaku/14-source-3.png",
+          "sha256": "049eee0e01c8667866c9564b202ebbbee4f2871814198f95bce28a9ed0e2dcec"
+        }
+      ],
+      "inlineImageSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/65/118/i14.png",
+          "role": "source-metadata-icon",
+          "renderedWidth": "32",
+          "renderedHeight": "32",
+          "preservedInSourceCommentAndOriginalView": true
+        }
+      ],
+      "hostCommentSource": "Official catalogue classification-cell title attribute",
+      "dlPageUrl": "https://w.atwiki.jp/vipkohaku2021/pages/75.html",
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1dpeQ6e9Sg0lVPYZ7_DPE1bA_DBFCBBuJ/view?usp=sharing",
+          "label": "原配布ページのリンク"
+        }
+      ],
+      "auxiliaryExternalLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-kouhaku-work-15",
+      "no": "15",
+      "detailUrl": "https://w.atwiki.jp/vipkohaku2021/pages/66.html#id_59ab7ba5",
+      "sourceFile": "66.bin",
+      "newlyRestored": false,
+      "catalogueTitle": "グレートどどん↓",
+      "catalogueAuthor": "すぱペニスミニマムワッフルワッフル",
+      "catalogueClassification": [
+        "虚無再現",
+        "2000"
+      ],
+      "sourceMetadata": {
+        "タイトル": "グレートどどん↓",
+        "作者": "すぱペニスミニマムワッフルワッフル"
+      },
+      "legacyStreamingConfirmed": true,
+      "iconSourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/66/30/EDGE1.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/66/29/ss.png",
+          "local": "/screenshots/2021-kouhaku/15-source-1.png",
+          "sha256": "2d2e3a08e34c7c8df7ce261322cea67dc694117fd25463596b5f9bcc7384f340"
+        }
+      ],
+      "inlineImageSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/66/30/EDGE1.png",
+          "role": "source-metadata-icon",
+          "renderedWidth": "32",
+          "renderedHeight": "32",
+          "preservedInSourceCommentAndOriginalView": true
+        }
+      ],
+      "hostCommentSource": "Official catalogue classification-cell title attribute",
+      "dlPageUrl": "https://w.atwiki.jp/vipkohaku2021/pages/76.html",
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpgmaker20213/download/12",
+          "label": "原配布ページのリンク"
+        }
+      ],
+      "auxiliaryExternalLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-kouhaku-work-16",
+      "no": "16",
+      "detailUrl": "https://w.atwiki.jp/vipkohaku2021/pages/67.html#id_59ab7ba5",
+      "sourceFile": "67.bin",
+      "newlyRestored": false,
+      "catalogueTitle": "Ｖ・Ｉ・Ｐの魔王城把握～デフォ戦１６番勝負～",
+      "catalogueAuthor": "X-羅仁宇(らにう)",
+      "catalogueClassification": [
+        "デフォ戦16戦ＲＰＧ",
+        "2000"
+      ],
+      "sourceMetadata": {
+        "タイトル": "Ｖ・Ｉ・Ｐの魔王城把握～デフォ戦１６番勝負～",
+        "作者": "X-羅仁宇(らにう)"
+      },
+      "legacyStreamingConfirmed": true,
+      "iconSourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/67/40/icon_pic_kh021.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/67/35/viprpg_kh2021_xraniu_s_A.png",
+          "local": "/screenshots/2021-kouhaku/16-source-1.png",
+          "sha256": "78cc4ecabd0f334d5de6d999098da52e3ee8e1b1227cdf82c95a62c5fce35904"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/67/36/viprpg_kh2021_xraniu_s_B.png",
+          "local": "/screenshots/2021-kouhaku/16-source-2.png",
+          "sha256": "36144c75cf83f619d413137dfe7bdc271ede6c42caa861fd157fe635aa8cf3b0"
+        }
+      ],
+      "inlineImageSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/67/40/icon_pic_kh021.png",
+          "role": "source-metadata-icon",
+          "renderedWidth": "32",
+          "renderedHeight": "32",
+          "preservedInSourceCommentAndOriginalView": true
+        }
+      ],
+      "hostCommentSource": "Official catalogue classification-cell title attribute",
+      "dlPageUrl": "https://w.atwiki.jp/vipkohaku2021/pages/77.html",
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpgmaker20212/download/80",
+          "label": "原配布ページのリンク"
+        },
+        {
+          "url": "https://ux.getuploader.com/viprpgmaker2021/download/147",
+          "label": "原配布ページのリンク"
+        },
+        {
+          "url": "https://ux.getuploader.com/viprpgmaker2021/download/138",
+          "label": "原配布ページのリンク"
+        },
+        {
+          "url": "https://ux.getuploader.com/viprpgmaker2021/download/136",
+          "label": "原配布ページのリンク"
+        },
+        {
+          "url": "https://ux.getuploader.com/viprpgmaker2021/download/129",
+          "label": "原配布ページのリンク"
+        }
+      ],
+      "auxiliaryExternalLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-kouhaku-work-17",
+      "no": "17",
+      "detailUrl": "https://w.atwiki.jp/vipkohaku2021/pages/68.html#id_df42fa43",
+      "sourceFile": "68.bin",
+      "newlyRestored": false,
+      "catalogueTitle": "フレイムさんの赤単盤戯 TURBO",
+      "catalogueAuthor": "里乃",
+      "catalogueClassification": [
+        "ローグライトカードゲーム風味RPG",
+        "VXACE"
+      ],
+      "sourceMetadata": {
+        "タイトル": "フレイムさんの赤単盤戯ⅡTURBO",
+        "作者": "里乃"
+      },
+      "legacyStreamingConfirmed": false,
+      "iconSourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/68/42/%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/68/168/10.png",
+          "local": "/screenshots/2021-kouhaku/17-source-1.png",
+          "sha256": "d07b7e258084994d1d911b085ca930d2fec76352e8256b4e5bba39540ac2cf05"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/68/148/6.png",
+          "local": "/screenshots/2021-kouhaku/17-source-2.png",
+          "sha256": "b8e2815750e19056297c8959db88bcb6e3748e5e099bdc7a655697189f940a35"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/68/146/4.png",
+          "local": "/screenshots/2021-kouhaku/17-source-3.png",
+          "sha256": "d89a4d000b92ef2d7f791ef54e625fc662c85713edf9fe5978530324050c1dd3"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/68/147/5.png",
+          "local": "/screenshots/2021-kouhaku/17-source-4.png",
+          "sha256": "53ccec495f132dc2ecf54f0c9ac461e8bf2d7617768bfa31b671d882557cb57a"
+        }
+      ],
+      "inlineImageSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/68/42/%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.png",
+          "role": "source-metadata-icon",
+          "renderedWidth": "32",
+          "renderedHeight": "32",
+          "preservedInSourceCommentAndOriginalView": true
+        }
+      ],
+      "hostCommentSource": "Official catalogue classification-cell title attribute",
+      "dlPageUrl": "https://w.atwiki.jp/vipkohaku2021/pages/78.html",
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/drive/folders/1qAw0NMjsGeJEDbtfqkWhLAAUXfw_yNRi?usp=sharing",
+          "label": "原配布ページのリンク"
+        }
+      ],
+      "auxiliaryExternalLinks": [
+        "https://forms.gle/Cp4L2LSXhu6bTx4p6"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-kouhaku-work-18",
+      "no": "18",
+      "detailUrl": "https://w.atwiki.jp/vipkohaku2021/pages/69.html#id_eb813373",
+      "sourceFile": "69.bin",
+      "newlyRestored": false,
+      "catalogueTitle": "Doradora Island Saga: Legacy",
+      "catalogueAuthor": "安倍普三（本物)",
+      "catalogueClassification": [
+        "RTS",
+        "Steam2003"
+      ],
+      "sourceMetadata": {
+        "タイトル": "Doradora Island Saga: Legacy",
+        "作者": "安倍普三（本物)"
+      },
+      "legacyStreamingConfirmed": true,
+      "iconSourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/69/46/icon_final.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/69/45/DIS_Legacy.png",
+          "local": "/screenshots/2021-kouhaku/18-source-1.png",
+          "sha256": "252589d0932d9848229d31525286f269ddc7ce30d396e97cae61b5a6dfc19622"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/69/156/211229_185247.png",
+          "local": "/screenshots/2021-kouhaku/18-source-2.png",
+          "sha256": "fda70440064914f34389826964ee0533da9c4b5aaab0335ee74a0d35efe3e916"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/69/151/211228_161045.png",
+          "local": "/screenshots/2021-kouhaku/18-source-3.png",
+          "sha256": "181147dbe8395120d43d094874228d94eddc6d3ecf03c1c4fbaab735c115e4cf"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/69/155/FF1xZYrVQAQ5XBU.png",
+          "local": "/screenshots/2021-kouhaku/18-source-4.png",
+          "sha256": "db351a85666933d08f8b087503ce0964b029ad4a14f5548a4d91a9f60e1887c2"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/69/154/211226_135905.png",
+          "local": "/screenshots/2021-kouhaku/18-source-5.png",
+          "sha256": "e09a16251833455c9a2dc5bee03bf765a3827fdaed5e2fd38b42cbc4a1f62b0c"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/69/158/211230_140555.png",
+          "local": "/screenshots/2021-kouhaku/18-source-6.png",
+          "sha256": "5dacc82a786926ca9975f751de2cc37141f2b3c3053c888642cc812d5fc31eee"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/69/157/211229_183655.png",
+          "local": "/screenshots/2021-kouhaku/18-source-7.png",
+          "sha256": "cd437b242bdd53bfee8ea6751998af599bdd98bfc4736a649b52372865ae4ba8"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/69/152/211228_180651.png",
+          "local": "/screenshots/2021-kouhaku/18-source-8.png",
+          "sha256": "50ae12602e45461447c4964824c38668c4d1044444e68e16801404aec9d71d97"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/69/129/211220_233610.png",
+          "local": "/screenshots/2021-kouhaku/18-source-9.png",
+          "sha256": "817eda9dbf356817c354a821b47b1e6e9aced569d0eff3ba49f49ee9b3553b11"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/69/52/211212_182302.png",
+          "local": "/screenshots/2021-kouhaku/18-source-10.png",
+          "sha256": "9d7b44c1e88372bfa9d30169dd07d71f1493efb5c71c730b6e80a6c4d8459e5a"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/69/53/211212_182129.png",
+          "local": "/screenshots/2021-kouhaku/18-source-11.png",
+          "sha256": "308b188ef427332dba9a665b3cade396c53108cf764650d9cb3deab9420ecfa5"
+        }
+      ],
+      "inlineImageSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/69/46/icon_final.png",
+          "role": "source-metadata-icon",
+          "renderedWidth": "32",
+          "renderedHeight": "32",
+          "preservedInSourceCommentAndOriginalView": true
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/69/56/picon_8-export_fix.png",
+          "role": "inline-source-illustration",
+          "renderedWidth": "38",
+          "renderedHeight": "32",
+          "preservedInSourceCommentAndOriginalView": true
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/69/50/picon_9-export.png",
+          "role": "inline-source-illustration",
+          "renderedWidth": "38",
+          "renderedHeight": "32",
+          "preservedInSourceCommentAndOriginalView": true
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/69/55/picon_12-export_fix.png",
+          "role": "inline-source-illustration",
+          "renderedWidth": "38",
+          "renderedHeight": "32",
+          "preservedInSourceCommentAndOriginalView": true
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/69/54/picon_11-export_fix.png",
+          "role": "inline-source-illustration",
+          "renderedWidth": "38",
+          "renderedHeight": "32",
+          "preservedInSourceCommentAndOriginalView": true
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/69/130/picon_3-export.png",
+          "role": "inline-source-illustration",
+          "renderedWidth": "38",
+          "renderedHeight": "32",
+          "preservedInSourceCommentAndOriginalView": true
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/69/56/picon_8-export_fix.png",
+          "role": "inline-source-illustration",
+          "renderedWidth": "38",
+          "renderedHeight": "32",
+          "preservedInSourceCommentAndOriginalView": true
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/69/50/picon_9-export.png",
+          "role": "inline-source-illustration",
+          "renderedWidth": "38",
+          "renderedHeight": "32",
+          "preservedInSourceCommentAndOriginalView": true
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/69/54/picon_11-export_fix.png",
+          "role": "inline-source-illustration",
+          "renderedWidth": "38",
+          "renderedHeight": "32",
+          "preservedInSourceCommentAndOriginalView": true
+        }
+      ],
+      "hostCommentSource": "Official catalogue classification-cell title attribute",
+      "dlPageUrl": "https://w.atwiki.jp/vipkohaku2021/pages/79.html",
+      "downloadLinks": [
+        {
+          "url": "https://tokyohuskarl.itch.io/dis-legacy",
+          "label": "原配布ページのリンク"
+        },
+        {
+          "url": "https://mega.nz/file/J40EwDyD#lLAUKN6BMVOafjOuYYclc0YOSZfH68-5-MIq1SzqI-E",
+          "label": "原配布ページのリンク"
+        }
+      ],
+      "auxiliaryExternalLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-kouhaku-work-19",
+      "no": "19",
+      "detailUrl": "https://w.atwiki.jp/vipkohaku2021/pages/70.html#id_16bf2c6d",
+      "sourceFile": "70.bin",
+      "newlyRestored": false,
+      "catalogueTitle": "雨を追う",
+      "catalogueAuthor": "わてりちゃん",
+      "catalogueClassification": [
+        "短い時間の物語",
+        "2000"
+      ],
+      "sourceMetadata": {
+        "タイトル": "雨を追う　もしも通り過ぎたあとに",
+        "作者": "わてりちゃん"
+      },
+      "legacyStreamingConfirmed": true,
+      "iconSourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/70/107/nui.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/70/59/ou.png",
+          "local": "/screenshots/2021-kouhaku/19-source-1.png",
+          "sha256": "72316e40c2fbf108e99e7d83d8626accc82bc8f5c84ce5fd44aad704fc9e312f"
+        }
+      ],
+      "inlineImageSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/70/107/nui.png",
+          "role": "source-metadata-icon",
+          "renderedWidth": "32",
+          "renderedHeight": "32",
+          "preservedInSourceCommentAndOriginalView": true
+        }
+      ],
+      "hostCommentSource": "Official catalogue classification-cell title attribute",
+      "dlPageUrl": "https://w.atwiki.jp/vipkohaku2021/pages/80.html",
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpgmaker2021/download/60",
+          "label": "原配布ページのリンク"
+        }
+      ],
+      "auxiliaryExternalLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-kouhaku-work-20",
+      "no": "20",
+      "detailUrl": "https://w.atwiki.jp/vipkohaku2021/pages/71.html#id_0eb5ddb7",
+      "sourceFile": "71.bin",
+      "newlyRestored": false,
+      "catalogueTitle": "りか♂×りか♂＆男の娘100人程度把握",
+      "catalogueAuthor": "雷塵",
+      "catalogueClassification": [
+        "男の娘盛り沢山＆100人把握（※R-18）",
+        "2000"
+      ],
+      "sourceMetadata": {
+        "タイトル": "りか♂×りか♂＆男の娘100人程度把握",
+        "作者": "雷塵"
+      },
+      "legacyStreamingConfirmed": true,
+      "iconSourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/71/105/%E7%A5%AD%E3%82%8A%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/71/103/%E7%A5%AD%E3%82%8ASS.png",
+          "local": "/screenshots/2021-kouhaku/20-source-1.png",
+          "sha256": "9e455fecdbf5c495e5734b7c68b827951762049499a3e5411a4df9a4ce0118c4"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/71/106/%E7%A5%AD%E3%82%8ASS2%E3%83%AA%E3%82%B5%E3%82%A4%E3%82%BA.png",
+          "local": "/screenshots/2021-kouhaku/20-source-2.png",
+          "sha256": "bee5382e73222f9b3f6cc1005a38077d4c918f54e51586d0a480946e7be5cde8"
+        }
+      ],
+      "inlineImageSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/71/105/%E7%A5%AD%E3%82%8A%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.png",
+          "role": "source-metadata-icon",
+          "renderedWidth": "40",
+          "renderedHeight": "40",
+          "preservedInSourceCommentAndOriginalView": true
+        }
+      ],
+      "hostCommentSource": "Official catalogue classification-cell title attribute",
+      "dlPageUrl": "https://w.atwiki.jp/vipkohaku2021/pages/81.html",
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpgmaker2021/download/119",
+          "label": "原配布ページのリンク"
+        }
+      ],
+      "auxiliaryExternalLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-kouhaku-work-21",
+      "no": "21",
+      "detailUrl": "https://w.atwiki.jp/vipkohaku2021/pages/92.html#id_dc7dd9d5",
+      "sourceFile": "92.bin",
+      "newlyRestored": false,
+      "catalogueTitle": "人斬りと人喰いの噺",
+      "catalogueAuthor": "徳明",
+      "catalogueClassification": [
+        "ダーク和ンタジー読むゲ",
+        "Steam2003"
+      ],
+      "sourceMetadata": {
+        "タイトル": "人斬りと人喰いの噺",
+        "作者": "徳明"
+      },
+      "legacyStreamingConfirmed": true,
+      "iconSourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/92/57/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/92/58/title.png",
+          "local": "/screenshots/2021-kouhaku/21-source-1.png",
+          "sha256": "08a766d1237881facb237edac94474248730827158b9cd0d4eabff6e64c8674b"
+        }
+      ],
+      "inlineImageSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/92/57/icon.png",
+          "role": "source-metadata-icon",
+          "renderedWidth": "32",
+          "renderedHeight": "32",
+          "preservedInSourceCommentAndOriginalView": true
+        }
+      ],
+      "hostCommentSource": "Official catalogue classification-cell title attribute",
+      "dlPageUrl": "https://w.atwiki.jp/vipkohaku2021/pages/101.html",
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpgmaker2021/download/130",
+          "label": "原配布ページのリンク"
+        }
+      ],
+      "auxiliaryExternalLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-kouhaku-work-22",
+      "no": "22",
+      "detailUrl": "https://w.atwiki.jp/vipkohaku2021/pages/93.html#id_71635549",
+      "sourceFile": "93.bin",
+      "newlyRestored": false,
+      "catalogueTitle": "MOWIUS",
+      "catalogueAuthor": "humanworld",
+      "catalogueClassification": [
+        "RPG",
+        "MV"
+      ],
+      "sourceMetadata": {
+        "タイトル": "MÖWIUS",
+        "作者": "humanworld"
+      },
+      "legacyStreamingConfirmed": true,
+      "iconSourceUrl": "https://img.atwiki.jp/vipkohaku2021/pub/ip.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/93/204/title.png",
+          "local": "/screenshots/2021-kouhaku/22-source-1.png",
+          "sha256": "91b7bf459efed1d2f9f978615c694c78b68b15403c14d46e9cdf15b43e2155b4"
+        }
+      ],
+      "inlineImageSources": [],
+      "hostCommentSource": "Official catalogue classification-cell title attribute",
+      "dlPageUrl": "https://w.atwiki.jp/vipkohaku2021/pages/102.html",
+      "downloadLinks": [
+        {
+          "url": "https://mega.nz/file/Y49WBCLA#CsNDqCH3Z_teIXq8u583oA4SMx8x2yNp9P8DxL5DBLI",
+          "label": "原配布ページのリンク"
+        },
+        {
+          "url": "https://game.nicovideo.jp/atsumaru/games/gm24106?key=b7fa58143999",
+          "label": "原配布ページのリンク"
+        }
+      ],
+      "auxiliaryExternalLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-kouhaku-work-23",
+      "no": "23",
+      "detailUrl": "https://w.atwiki.jp/vipkohaku2021/pages/94.html#id_af88a3af",
+      "sourceFile": "94.bin",
+      "newlyRestored": false,
+      "catalogueTitle": "アレックスと馬が少し気になる娘のトレーニング",
+      "catalogueAuthor": "馬に全然詳しくない人",
+      "catalogueClassification": [
+        "ミニゲーム",
+        "Steam2003"
+      ],
+      "sourceMetadata": {
+        "タイトル": "アレックスと馬が少し気になる娘のトレーニング",
+        "作者": "馬に全然詳しくない人"
+      },
+      "legacyStreamingConfirmed": true,
+      "iconSourceUrl": "https://img.atwiki.jp/vipkohaku2021/pub/ik.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/94/108/01.PNG",
+          "local": "/screenshots/2021-kouhaku/23-source-1.png",
+          "sha256": "253cdbc2a6b4a807b56bd2eefe6e513741eab33ddc3fbda012573937423b91b8"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/94/109/02.png",
+          "local": "/screenshots/2021-kouhaku/23-source-2.png",
+          "sha256": "cbc6989074a19c52e91d2df4a8c664c8be8824b30a4940e6fd941c6610d1d9b6"
+        }
+      ],
+      "inlineImageSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/12/1/0.png",
+          "role": "source-metadata-icon",
+          "renderedWidth": "32",
+          "renderedHeight": "32",
+          "preservedInSourceCommentAndOriginalView": true
+        }
+      ],
+      "hostCommentSource": "Official catalogue classification-cell title attribute",
+      "dlPageUrl": "https://w.atwiki.jp/vipkohaku2021/pages/103.html",
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpgmaker2021/download/56",
+          "label": "原配布ページのリンク"
+        },
+        {
+          "url": "https://ux.getuploader.com/viprpgmaker2021/download/88",
+          "label": "原配布ページのリンク"
+        }
+      ],
+      "auxiliaryExternalLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-kouhaku-work-24",
+      "no": "24",
+      "detailUrl": "https://w.atwiki.jp/vipkohaku2021/pages/95.html#id_b2e46f71",
+      "sourceFile": "95.bin",
+      "newlyRestored": false,
+      "catalogueTitle": "オキラクエスト　-Okira Quest-",
+      "catalogueAuthor": "ろーぷれつくろ～",
+      "catalogueClassification": [
+        "RPG",
+        "2000"
+      ],
+      "sourceMetadata": {
+        "タイトル": "オキラクエスト　-Okira Quest-",
+        "作者": "ろーぷれつくろ～"
+      },
+      "legacyStreamingConfirmed": true,
+      "iconSourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/95/113/OKRK%E3%80%80%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/95/111/OKRK%E3%80%80SS%EF%BC%91.png",
+          "local": "/screenshots/2021-kouhaku/24-source-1.png",
+          "sha256": "604601f1d1e2d13e44b1f4a43a95c60ed641b4a1cc3f7f2e772bee3ccaa85a1f"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/95/112/OKRK%E3%80%80SS%EF%BC%92.png",
+          "local": "/screenshots/2021-kouhaku/24-source-2.png",
+          "sha256": "873c3f23a16e10f282670e40f52882ffb03534b0dc8a41ac4f40d7ab4084cc2b"
+        }
+      ],
+      "inlineImageSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/95/113/OKRK%E3%80%80%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.png",
+          "role": "source-metadata-icon",
+          "renderedWidth": "32",
+          "renderedHeight": "32",
+          "preservedInSourceCommentAndOriginalView": true
+        }
+      ],
+      "hostCommentSource": "Official catalogue classification-cell title attribute",
+      "dlPageUrl": "https://w.atwiki.jp/vipkohaku2021/pages/104.html",
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpgmaker20213/download/23",
+          "label": "原配布ページのリンク"
+        },
+        {
+          "url": "https://ux.getuploader.com/viprpgmaker20213/download/22",
+          "label": "原配布ページのリンク"
+        },
+        {
+          "url": "https://ux.getuploader.com/viprpgmaker20213/download/13",
+          "label": "原配布ページのリンク"
+        }
+      ],
+      "auxiliaryExternalLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-kouhaku-work-25",
+      "no": "25",
+      "detailUrl": "https://w.atwiki.jp/vipkohaku2021/pages/96.html#id_8a527a92",
+      "sourceFile": "96.bin",
+      "newlyRestored": false,
+      "catalogueTitle": "ParallelでBondなStory",
+      "catalogueAuthor": "ナラネーヨ",
+      "catalogueClassification": [
+        "デフォ戦＋ちょこちょこ色々",
+        "2000"
+      ],
+      "sourceMetadata": {
+        "タイトル": "ParallelでBondなStory",
+        "作者": "ナラネーヨ"
+      },
+      "legacyStreamingConfirmed": true,
+      "iconSourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/96/133/icon2.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/96/131/SS1.png",
+          "local": "/screenshots/2021-kouhaku/25-source-1.png",
+          "sha256": "402408804e54a9430022b74da3117d11c8a0a26d00317e069245db19c29f6165"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/96/132/PSS2.png",
+          "local": "/screenshots/2021-kouhaku/25-source-2.png",
+          "sha256": "b485288180e410abe6d4d10e5a97f244459f49b8adeb95c9eeea430e22c219c2"
+        }
+      ],
+      "inlineImageSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/96/133/icon2.png",
+          "role": "source-metadata-icon",
+          "renderedWidth": "32",
+          "renderedHeight": "32",
+          "preservedInSourceCommentAndOriginalView": true
+        }
+      ],
+      "hostCommentSource": "Official catalogue classification-cell title attribute",
+      "dlPageUrl": "https://w.atwiki.jp/vipkohaku2021/pages/105.html",
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpgmaker20212/download/77",
+          "label": "原配布ページのリンク"
+        },
+        {
+          "url": "https://ux.getuploader.com/viprpgmaker20212/download/58",
+          "label": "原配布ページのリンク"
+        },
+        {
+          "url": "https://ux.getuploader.com/viprpgmaker20212/download/59",
+          "label": "原配布ページのリンク"
+        },
+        {
+          "url": "https://ux.getuploader.com/viprpgmaker20212/download/76",
+          "label": "原配布ページのリンク"
+        }
+      ],
+      "auxiliaryExternalLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-kouhaku-work-26",
+      "no": "26",
+      "detailUrl": "https://w.atwiki.jp/vipkohaku2021/pages/97.html#id_f2fb3b46",
+      "sourceFile": "97.bin",
+      "newlyRestored": false,
+      "catalogueTitle": "もしも魔王軍大好きな僕がもしも世界に転生したら",
+      "catalogueAuthor": "自律神経",
+      "catalogueClassification": [
+        "棒立ちピョンピョン見るゲ",
+        "Steam2003"
+      ],
+      "sourceMetadata": {
+        "タイトル": "もしも魔王軍大好きな僕がもしも世界に転生したら",
+        "作者": "自律神経"
+      },
+      "legacyStreamingConfirmed": true,
+      "iconSourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/97/137/%E3%83%9F%E3%83%AA%E3%82%AA%E3%83%B3%E3%82%B9%E3%83%AD%E3%83%83%E3%83%88.jpg",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/97/135/320240.png",
+          "local": "/screenshots/2021-kouhaku/26-source-1.png",
+          "sha256": "f97b5bf04ac407725227776f35c911e77b161d5fbffcfdf2eb3d222ce7a080fb"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/97/138/ss01.jpg",
+          "local": "/screenshots/2021-kouhaku/26-source-2.jpg",
+          "sha256": "7aff51dc22530ebafba9d31c9797a60da422aa56e3734c5a42bee5031e748709"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/97/139/ss02.jpg",
+          "local": "/screenshots/2021-kouhaku/26-source-3.jpg",
+          "sha256": "abda8dee39b4ebbe5e4d8fce0c5577ca23cd2eff8d62eb916159f6abce9f51b2"
+        }
+      ],
+      "inlineImageSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/97/137/%E3%83%9F%E3%83%AA%E3%82%AA%E3%83%B3%E3%82%B9%E3%83%AD%E3%83%83%E3%83%88.jpg",
+          "role": "source-metadata-icon",
+          "renderedWidth": "32",
+          "renderedHeight": "32",
+          "preservedInSourceCommentAndOriginalView": true
+        }
+      ],
+      "hostCommentSource": "Official catalogue classification-cell title attribute",
+      "dlPageUrl": "https://w.atwiki.jp/vipkohaku2021/pages/106.html",
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpgmaker2021/download/64",
+          "label": "原配布ページのリンク"
+        }
+      ],
+      "auxiliaryExternalLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-kouhaku-work-27",
+      "no": "27",
+      "detailUrl": "https://w.atwiki.jp/vipkohaku2021/pages/98.html#id_cd154744",
+      "sourceFile": "98.bin",
+      "newlyRestored": false,
+      "catalogueTitle": "ずっと一緒にいる”私”の友達",
+      "catalogueAuthor": "五つ葉",
+      "catalogueClassification": [
+        "読むゲ",
+        "Steam2003"
+      ],
+      "sourceMetadata": {
+        "タイトル": "ずっと一緒にいる”私”の友達",
+        "作者": "五つ葉"
+      },
+      "legacyStreamingConfirmed": true,
+      "iconSourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/98/141/m/2021%E7%B4%85%E7%99%BD%E3%80%80%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/98/143/2021%E7%B4%85%E7%99%BDSS1.png",
+          "local": "/screenshots/2021-kouhaku/27-source-1.png",
+          "sha256": "bdc68f8f643ef3109f41016074f9207ac412b79c4550a6f7444bf7c9f2f2d14f"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/98/140/2021%E7%B4%85%E7%99%BDSS2.png",
+          "local": "/screenshots/2021-kouhaku/27-source-2.png",
+          "sha256": "b7fea94bf031cda822281a90369ec031483e4f78ef87385ddaf6dc72ef359bd2"
+        }
+      ],
+      "inlineImageSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/98/141/2021%E7%B4%85%E7%99%BD%E3%80%80%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.png",
+          "role": "source-metadata-icon",
+          "renderedWidth": "32",
+          "renderedHeight": "32",
+          "preservedInSourceCommentAndOriginalView": true
+        }
+      ],
+      "hostCommentSource": "Official catalogue classification-cell title attribute",
+      "dlPageUrl": "https://w.atwiki.jp/vipkohaku2021/pages/107.html",
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpgmaker2021/download/65",
+          "label": "原配布ページのリンク"
+        }
+      ],
+      "auxiliaryExternalLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-kouhaku-work-28",
+      "no": "28",
+      "detailUrl": "https://w.atwiki.jp/vipkohaku2021/pages/99.html#id_c3e1ae87",
+      "sourceFile": "99.bin",
+      "newlyRestored": false,
+      "catalogueTitle": "交わざる二人の線",
+      "catalogueAuthor": "インターマッスル",
+      "catalogueClassification": [
+        "読むゲ",
+        "2000"
+      ],
+      "sourceMetadata": {
+        "タイトル": "交わらざる二人の線",
+        "作者": "インターマッスル"
+      },
+      "legacyStreamingConfirmed": true,
+      "iconSourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/119/144/ICON.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/119/145/SS1.png",
+          "local": "/screenshots/2021-kouhaku/28-source-1.png",
+          "sha256": "b02b280e22bdce2c98414d5ac38d907f32595a74de64ecc8d2cf6574344fece5"
+        }
+      ],
+      "inlineImageSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/119/144/ICON.png",
+          "role": "source-metadata-icon",
+          "renderedWidth": "32",
+          "renderedHeight": "32",
+          "preservedInSourceCommentAndOriginalView": true
+        }
+      ],
+      "hostCommentSource": "Official catalogue classification-cell title attribute",
+      "dlPageUrl": "https://w.atwiki.jp/vipkohaku2021/pages/108.html",
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpgmaker20213/download/15",
+          "label": "原配布ページのリンク"
+        }
+      ],
+      "auxiliaryExternalLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-kouhaku-work-29",
+      "no": "29",
+      "detailUrl": "https://w.atwiki.jp/vipkohaku2021/pages/100.html#id_88bad6b0",
+      "sourceFile": "100.bin",
+      "newlyRestored": false,
+      "catalogueTitle": "マジックマスタースライム",
+      "catalogueAuthor": "hanol",
+      "catalogueClassification": [
+        "見るゲ",
+        "Steam2003"
+      ],
+      "sourceMetadata": {
+        "タイトル": "マジックマスタースライム　Episode 1",
+        "作者": "hanol"
+      },
+      "legacyStreamingConfirmed": true,
+      "iconSourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/100/150/Icon32.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/12/1/0.png",
+          "local": "/screenshots/2021-kouhaku/29-source-1.png",
+          "sha256": "4b3d47211710f009f2c9991da1fb51d1ba2969cf6ee02bf84b176b72ee8d3e12"
+        }
+      ],
+      "inlineImageSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/100/150/Icon32.png",
+          "role": "source-metadata-icon",
+          "renderedWidth": "32",
+          "renderedHeight": "32",
+          "preservedInSourceCommentAndOriginalView": true
+        }
+      ],
+      "hostCommentSource": "Official catalogue classification-cell title attribute",
+      "dlPageUrl": "https://w.atwiki.jp/vipkohaku2021/pages/109.html",
+      "downloadLinks": [
+        {
+          "url": "https://w.atwiki.jp/vipkohaku2021/pages/109.html",
+          "label": "原DLページ（ファイル未確認）"
+        }
+      ],
+      "auxiliaryExternalLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-kouhaku-work-30",
+      "no": "30",
+      "detailUrl": "https://w.atwiki.jp/vipkohaku2021/pages/121.html#id_94b393dd",
+      "sourceFile": "121.bin",
+      "newlyRestored": false,
+      "catalogueTitle": "2019-2020年キャラ 全員把握！！(体験版)",
+      "catalogueAuthor": "富良田 \"Overwork\" レイ",
+      "catalogueClassification": [
+        "デフォ戦系ステージクリア式魔王把握",
+        "VXACE"
+      ],
+      "sourceMetadata": {
+        "タイトル": "2019-2020年キャラ 全員把握！！(体験版)",
+        "作者": "富良田 \"Overwork\" レイ"
+      },
+      "legacyStreamingConfirmed": true,
+      "iconSourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/121/159/folder-pc-thumb.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/121/161/kohaku2021.jpg",
+          "local": "/screenshots/2021-kouhaku/30-source-1.jpg",
+          "sha256": "3eb44fcd8473bcb5bd3f92486d5099628e348e75fb37d12d4ce319d5cd2b8c78"
+        }
+      ],
+      "inlineImageSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/121/159/folder-pc-thumb.png",
+          "role": "source-metadata-icon",
+          "renderedWidth": "32",
+          "renderedHeight": "32",
+          "preservedInSourceCommentAndOriginalView": true
+        }
+      ],
+      "hostCommentSource": "Official catalogue classification-cell title attribute",
+      "dlPageUrl": "https://w.atwiki.jp/vipkohaku2021/pages/132.html",
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpgmaker20213/download/16",
+          "label": "原配布ページのリンク"
+        }
+      ],
+      "auxiliaryExternalLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-kouhaku-work-31",
+      "no": "31",
+      "detailUrl": "https://w.atwiki.jp/vipkohaku2021/pages/122.html#id_43c5b2c8",
+      "sourceFile": "122.bin",
+      "newlyRestored": false,
+      "catalogueTitle": "風呂鳥",
+      "catalogueAuthor": "鳥in風呂",
+      "catalogueClassification": [
+        "ローグライトアクション",
+        "Steam2003(MP)"
+      ],
+      "sourceMetadata": {
+        "タイトル": "風呂鳥",
+        "作者": "鳥in風呂",
+        "プレイ時間": "？"
+      },
+      "legacyStreamingConfirmed": false,
+      "iconSourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/122/165/icon_.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/122/162/entry1.png",
+          "local": "/screenshots/2021-kouhaku/31-source-1.png",
+          "sha256": "9400e59b861cc8fa0c3682551861d22b4aa6f0f798a7a4045628a4b10f3780c1"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/122/163/entry2.png",
+          "local": "/screenshots/2021-kouhaku/31-source-2.png",
+          "sha256": "2785e4fd66b41c0de67b8907d1f26dba32e9bb562ebab076fe5aba7e52a4de88"
+        }
+      ],
+      "inlineImageSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/122/165/icon_.png",
+          "role": "source-metadata-icon",
+          "renderedWidth": "32",
+          "renderedHeight": "32",
+          "preservedInSourceCommentAndOriginalView": true
+        }
+      ],
+      "hostCommentSource": "Official catalogue classification-cell title attribute",
+      "dlPageUrl": "https://w.atwiki.jp/vipkohaku2021/pages/133.html",
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpgmaker20213/download/40",
+          "label": "原配布ページのリンク"
+        }
+      ],
+      "auxiliaryExternalLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-kouhaku-work-32",
+      "no": "32",
+      "detailUrl": "https://w.atwiki.jp/vipkohaku2021/pages/123.html#id_4f9bb34b",
+      "sourceFile": "123.bin",
+      "newlyRestored": false,
+      "catalogueTitle": "フリップトラベラーズ・アレブラ",
+      "catalogueAuthor": "たたみね",
+      "catalogueClassification": [
+        "バトルホビーＲＰＧ",
+        "2000"
+      ],
+      "sourceMetadata": {
+        "タイトル": "フリップトラベラーズ　アレブラ",
+        "作者": "たたみね"
+      },
+      "legacyStreamingConfirmed": true,
+      "iconSourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/123/170/%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/123/169/skcc.png",
+          "local": "/screenshots/2021-kouhaku/32-source-1.png",
+          "sha256": "0d280bfe0837fe42993adaff39c2e5a06516bf7417972e5a61acaaf23aec9d03"
+        }
+      ],
+      "inlineImageSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/123/170/%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.png",
+          "role": "source-metadata-icon",
+          "renderedWidth": "32",
+          "renderedHeight": "32",
+          "preservedInSourceCommentAndOriginalView": true
+        }
+      ],
+      "hostCommentSource": "Official catalogue classification-cell title attribute",
+      "dlPageUrl": "https://w.atwiki.jp/vipkohaku2021/pages/134.html",
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpgmaker2021/download/141",
+          "label": "原配布ページのリンク"
+        }
+      ],
+      "auxiliaryExternalLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-kouhaku-work-33",
+      "no": "33",
+      "detailUrl": "https://w.atwiki.jp/vipkohaku2021/pages/124.html",
+      "sourceFile": "124.bin",
+      "newlyRestored": true,
+      "catalogueTitle": "もしもエムブレム花鳥風月 体験版(序章~6章まで)",
+      "catalogueAuthor": "ラグロ聖教会広報部",
+      "catalogueClassification": [
+        "7割くらいクロゲのSRPG",
+        "MV"
+      ],
+      "sourceMetadata": {
+        "タイトル": "もしもエムブレム花鳥風月 体験版(序章~6章まで)",
+        "作者": "ラグロ聖教会広報部"
+      },
+      "legacyStreamingConfirmed": false,
+      "iconSourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/172/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/183/ss33.jpg",
+          "local": "/screenshots/2021-kouhaku/33-source-1.jpg",
+          "sha256": "d0fc4c9d660b346d0aa3d9482e769e3923e9a225eaa0fa27e031ba10b5db6e95"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/232/image_20210121_222011.png",
+          "local": "/screenshots/2021-kouhaku/33-source-2.png",
+          "sha256": "88206689542f2d20f15689055b521baf9c39e69e6448fc3bd832f39d125b3fae"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/233/image_20210127_214207.png",
+          "local": "/screenshots/2021-kouhaku/33-source-3.png",
+          "sha256": "8e9a0bde1e2e8cd0c352a87b4022674ab922289d234bf5e8ff20542aa9e2cbd9"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/239/image_20210731_132611.png",
+          "local": "/screenshots/2021-kouhaku/33-source-4.png",
+          "sha256": "ccd2020cdb329b6ae77bdb66d27c734301da58e3c638d4d81c51e9a690a1eecd"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/236/image_20210524_004741.png",
+          "local": "/screenshots/2021-kouhaku/33-source-5.png",
+          "sha256": "c5afc36bafcc8ad60532e448b5db21d48cfbbe01ce991fb18f6d579efd646b08"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/235/image_20220128_004446.png",
+          "local": "/screenshots/2021-kouhaku/33-source-6.png",
+          "sha256": "7a7667d26b750a363b85a8ca4e06446e1ae1e40fb01d90af8a9f3c46c705c107"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/234/image_20210122_185738.png",
+          "local": "/screenshots/2021-kouhaku/33-source-7.png",
+          "sha256": "5beaf513f60497f624ea26dac64c37809be47891ce93d69d76801252c212e28d"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/237/image_20210405_234816.png",
+          "local": "/screenshots/2021-kouhaku/33-source-8.png",
+          "sha256": "1dad052c9271e7f1533b000af6b6ec5aa04d191cc8ca9ff9ced5607649b7a8ed"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/240/image_20210919_183210.png",
+          "local": "/screenshots/2021-kouhaku/33-source-9.png",
+          "sha256": "ff09eda7c3e5897b9d4860b2f359e779358e0e6fd64b763803cc779451431cc8"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/238/image_20210723_142637.png",
+          "local": "/screenshots/2021-kouhaku/33-source-10.png",
+          "sha256": "89e9dd8fb4715e0add2ebf2282848819fc22bb6bf45657ebc4181ec79997d14b"
+        }
+      ],
+      "inlineImageSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/172/icon.png",
+          "role": "source-metadata-icon",
+          "renderedWidth": "32",
+          "renderedHeight": "32",
+          "preservedInSourceCommentAndOriginalView": true
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/174/vipsz3_face4285_2.png",
+          "role": "inline-source-illustration",
+          "renderedWidth": "48",
+          "renderedHeight": "48",
+          "preservedInSourceCommentAndOriginalView": true
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/201/Golbez.png",
+          "role": "inline-source-illustration",
+          "renderedWidth": "48",
+          "renderedHeight": "48",
+          "preservedInSourceCommentAndOriginalView": true
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/175/3.png",
+          "role": "inline-source-illustration",
+          "renderedWidth": "48",
+          "renderedHeight": "48",
+          "preservedInSourceCommentAndOriginalView": true
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/176/6.png",
+          "role": "inline-source-illustration",
+          "renderedWidth": "48",
+          "renderedHeight": "48",
+          "preservedInSourceCommentAndOriginalView": true
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/177/7.png",
+          "role": "inline-source-illustration",
+          "renderedWidth": "48",
+          "renderedHeight": "48",
+          "preservedInSourceCommentAndOriginalView": true
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/178/8.png",
+          "role": "inline-source-illustration",
+          "renderedWidth": "48",
+          "renderedHeight": "48",
+          "preservedInSourceCommentAndOriginalView": true
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/179/9.png",
+          "role": "inline-source-illustration",
+          "renderedWidth": "48",
+          "renderedHeight": "48",
+          "preservedInSourceCommentAndOriginalView": true
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/180/10.png",
+          "role": "inline-source-illustration",
+          "renderedWidth": "48",
+          "renderedHeight": "48",
+          "preservedInSourceCommentAndOriginalView": true
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/181/11.png",
+          "role": "inline-source-illustration",
+          "renderedWidth": "48",
+          "renderedHeight": "48",
+          "preservedInSourceCommentAndOriginalView": true
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/182/12.png",
+          "role": "inline-source-illustration",
+          "renderedWidth": "48",
+          "renderedHeight": "48",
+          "preservedInSourceCommentAndOriginalView": true
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/192/4.png",
+          "role": "inline-source-illustration",
+          "renderedWidth": "48",
+          "renderedHeight": "48",
+          "preservedInSourceCommentAndOriginalView": true
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/185/13.png",
+          "role": "inline-source-illustration",
+          "renderedWidth": "48",
+          "renderedHeight": "48",
+          "preservedInSourceCommentAndOriginalView": true
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/186/14.png",
+          "role": "inline-source-illustration",
+          "renderedWidth": "48",
+          "renderedHeight": "48",
+          "preservedInSourceCommentAndOriginalView": true
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/187/15.png",
+          "role": "inline-source-illustration",
+          "renderedWidth": "48",
+          "renderedHeight": "48",
+          "preservedInSourceCommentAndOriginalView": true
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/188/16.png",
+          "role": "inline-source-illustration",
+          "renderedWidth": "48",
+          "renderedHeight": "48",
+          "preservedInSourceCommentAndOriginalView": true
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/189/17.png",
+          "role": "inline-source-illustration",
+          "renderedWidth": "48",
+          "renderedHeight": "48",
+          "preservedInSourceCommentAndOriginalView": true
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/190/18.png",
+          "role": "inline-source-illustration",
+          "renderedWidth": "48",
+          "renderedHeight": "48",
+          "preservedInSourceCommentAndOriginalView": true
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/191/19.png",
+          "role": "inline-source-illustration",
+          "renderedWidth": "48",
+          "renderedHeight": "48",
+          "preservedInSourceCommentAndOriginalView": true
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/193/5_.png",
+          "role": "inline-source-illustration",
+          "renderedWidth": "48",
+          "renderedHeight": "48",
+          "preservedInSourceCommentAndOriginalView": true
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/194/20.png",
+          "role": "inline-source-illustration",
+          "renderedWidth": "48",
+          "renderedHeight": "48",
+          "preservedInSourceCommentAndOriginalView": true
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/195/21.png",
+          "role": "inline-source-illustration",
+          "renderedWidth": "48",
+          "renderedHeight": "48",
+          "preservedInSourceCommentAndOriginalView": true
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/196/22.png",
+          "role": "inline-source-illustration",
+          "renderedWidth": "48",
+          "renderedHeight": "48",
+          "preservedInSourceCommentAndOriginalView": true
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/197/23.png",
+          "role": "inline-source-illustration",
+          "renderedWidth": "48",
+          "renderedHeight": "48",
+          "preservedInSourceCommentAndOriginalView": true
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/198/24.png",
+          "role": "inline-source-illustration",
+          "renderedWidth": "48",
+          "renderedHeight": "48",
+          "preservedInSourceCommentAndOriginalView": true
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/199/25.png",
+          "role": "inline-source-illustration",
+          "renderedWidth": "48",
+          "renderedHeight": "48",
+          "preservedInSourceCommentAndOriginalView": true
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/200/26.png",
+          "role": "inline-source-illustration",
+          "renderedWidth": "48",
+          "renderedHeight": "48",
+          "preservedInSourceCommentAndOriginalView": true
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/214/40.png",
+          "role": "inline-source-illustration",
+          "renderedWidth": "48",
+          "renderedHeight": "48",
+          "preservedInSourceCommentAndOriginalView": true
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/205/27.png",
+          "role": "inline-source-illustration",
+          "renderedWidth": "48",
+          "renderedHeight": "48",
+          "preservedInSourceCommentAndOriginalView": true
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/206/28.png",
+          "role": "inline-source-illustration",
+          "renderedWidth": "48",
+          "renderedHeight": "48",
+          "preservedInSourceCommentAndOriginalView": true
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/207/29.png",
+          "role": "inline-source-illustration",
+          "renderedWidth": "48",
+          "renderedHeight": "48",
+          "preservedInSourceCommentAndOriginalView": true
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/208/30.png",
+          "role": "inline-source-illustration",
+          "renderedWidth": "48",
+          "renderedHeight": "48",
+          "preservedInSourceCommentAndOriginalView": true
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/209/31.png",
+          "role": "inline-source-illustration",
+          "renderedWidth": "48",
+          "renderedHeight": "48",
+          "preservedInSourceCommentAndOriginalView": true
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/210/32.png",
+          "role": "inline-source-illustration",
+          "renderedWidth": "48",
+          "renderedHeight": "48",
+          "preservedInSourceCommentAndOriginalView": true
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/211/33.png",
+          "role": "inline-source-illustration",
+          "renderedWidth": "48",
+          "renderedHeight": "48",
+          "preservedInSourceCommentAndOriginalView": true
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/212/34.png",
+          "role": "inline-source-illustration",
+          "renderedWidth": "48",
+          "renderedHeight": "48",
+          "preservedInSourceCommentAndOriginalView": true
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/124/213/35.png",
+          "role": "inline-source-illustration",
+          "renderedWidth": "48",
+          "renderedHeight": "48",
+          "preservedInSourceCommentAndOriginalView": true
+        }
+      ],
+      "hostCommentSource": "Official catalogue classification-cell title attribute",
+      "dlPageUrl": "https://w.atwiki.jp/vipkohaku2021/pages/135.html",
+      "downloadLinks": [
+        {
+          "url": "https://w.atwiki.jp/vipkohaku2021/pages/135.html",
+          "label": "原DLページ（ファイル未確認）"
+        }
+      ],
+      "auxiliaryExternalLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-kouhaku-work-34",
+      "no": "34",
+      "detailUrl": "https://w.atwiki.jp/vipkohaku2021/pages/125.html#id_b38a97ba",
+      "sourceFile": "125.bin",
+      "newlyRestored": false,
+      "catalogueTitle": "ラグナグの柩(エター)",
+      "catalogueAuthor": "藻太郎",
+      "catalogueClassification": [
+        "エターなりました",
+        "MV"
+      ],
+      "sourceMetadata": {
+        "タイトル": "ラグナグの柩(エター)",
+        "作者": "藻太郎"
+      },
+      "legacyStreamingConfirmed": true,
+      "iconSourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/125/217/30.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/125/216/ti2.png",
+          "local": "/screenshots/2021-kouhaku/34-source-1.png",
+          "sha256": "45af8a016d8c7da76f202b549accfa5c8723bbccc31bd349a2b804ac1d9d9dc8"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/125/218/s.png",
+          "local": "/screenshots/2021-kouhaku/34-source-2.png",
+          "sha256": "8b94715fb963a39b079a4a8365df328c3ece84a9bd3710fdafc57b19aa2ffe6d"
+        }
+      ],
+      "inlineImageSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/125/217/30.png",
+          "role": "source-metadata-icon",
+          "renderedWidth": "32",
+          "renderedHeight": "32",
+          "preservedInSourceCommentAndOriginalView": true
+        }
+      ],
+      "hostCommentSource": "Official catalogue classification-cell title attribute",
+      "dlPageUrl": "https://w.atwiki.jp/vipkohaku2021/pages/136.html",
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpgmaker20212/download/66",
+          "label": "原配布ページのリンク"
+        },
+        {
+          "url": "https://ux.getuploader.com/viprpgmaker20212/download/62",
+          "label": "原配布ページのリンク"
+        }
+      ],
+      "auxiliaryExternalLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-kouhaku-work-35",
+      "no": "35",
+      "detailUrl": "https://w.atwiki.jp/vipkohaku2021/pages/126.html#id_e64c46a0",
+      "sourceFile": "126.bin",
+      "newlyRestored": false,
+      "catalogueTitle": "SNOW　DAYS",
+      "catalogueAuthor": "（R）DU",
+      "catalogueClassification": [
+        "短編見るゲ",
+        "2000"
+      ],
+      "sourceMetadata": {
+        "タイトル": "SNOW　DAYS",
+        "作者": "（R）DU"
+      },
+      "legacyStreamingConfirmed": true,
+      "iconSourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/126/222/m/%E7%B4%85%E7%99%BD%EF%BC%92%EF%BC%90%EF%BC%92%EF%BC%91%E3%80%80%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/126/220/SNOW%20DAYS%20%E3%80%80%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB.png",
+          "local": "/screenshots/2021-kouhaku/35-source-1.png",
+          "sha256": "c61e4d50510e1121b9c4dc5ade92cb6ee441ad89cf720799faa4aa92a904cf77"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/126/221/%E7%B4%85%E7%99%BD%EF%BC%92%EF%BC%90%EF%BC%92%EF%BC%91%E3%80%80SS2%E6%9E%9A%E7%9B%AE.png",
+          "local": "/screenshots/2021-kouhaku/35-source-2.png",
+          "sha256": "d68fda6dab23b3c225c57f454d749e80add833302ae6c18555850860a28eeddd"
+        }
+      ],
+      "inlineImageSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/126/222/%E7%B4%85%E7%99%BD%EF%BC%92%EF%BC%90%EF%BC%92%EF%BC%91%E3%80%80%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.png",
+          "role": "source-metadata-icon",
+          "renderedWidth": "32",
+          "renderedHeight": "32",
+          "preservedInSourceCommentAndOriginalView": true
+        }
+      ],
+      "dlPageUrl": "https://w.atwiki.jp/vipkohaku2021/pages/137.html",
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpgmaker2021/download/157",
+          "label": "原配布ページのリンク"
+        }
+      ],
+      "auxiliaryExternalLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-kouhaku-work-36",
+      "no": "36",
+      "detailUrl": "https://w.atwiki.jp/vipkohaku2021/pages/127.html#id_df8da5d9",
+      "sourceFile": "127.bin",
+      "newlyRestored": false,
+      "catalogueTitle": "UnderStep",
+      "catalogueAuthor": "KC.R",
+      "catalogueClassification": [
+        "素材サンプル",
+        "2000"
+      ],
+      "sourceMetadata": {
+        "タイトル": "UnderStep",
+        "作者": "KC.R"
+      },
+      "legacyStreamingConfirmed": true,
+      "iconSourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/127/224/%E3%83%A2%E3%82%B7%E3%83%A2%E3%83%94%E3%82%B3.gif",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/127/223/SSUnderStep.png",
+          "local": "/screenshots/2021-kouhaku/36-source-1.png",
+          "sha256": "babd646e6f50f1657e7a63cb155f2e19ba246e2edc3e2589bcb1afc648324906"
+        }
+      ],
+      "inlineImageSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/127/224/%E3%83%A2%E3%82%B7%E3%83%A2%E3%83%94%E3%82%B3.gif",
+          "role": "source-metadata-icon",
+          "renderedWidth": "32",
+          "renderedHeight": "32",
+          "preservedInSourceCommentAndOriginalView": true
+        }
+      ],
+      "dlPageUrl": "https://w.atwiki.jp/vipkohaku2021/pages/138.html",
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpgmaker2021/download/164",
+          "label": "原配布ページのリンク"
+        }
+      ],
+      "auxiliaryExternalLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-kouhaku-work-37",
+      "no": "37",
+      "detailUrl": "https://w.atwiki.jp/vipkohaku2021/pages/128.html",
+      "sourceFile": "128.bin",
+      "newlyRestored": false,
+      "catalogueTitle": "もしも怪異のTRPG:いたずらな恋の四角関係",
+      "catalogueAuthor": "みどりいぬ",
+      "catalogueClassification": [
+        "TRPG布教",
+        "2000"
+      ],
+      "sourceMetadata": {
+        "タイトル": "もしも怪異のTRPG:いたずらな恋の四角関係",
+        "作者": "みどりいぬ"
+      },
+      "legacyStreamingConfirmed": true,
+      "iconSourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/128/225/%E3%81%A8%E3%81%82%E3%81%B7%E3%81%90.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/128/226/%E3%80%90%E3%82%A8%E3%83%A2%E3%82%AF%E3%83%AD%E3%80%91%E3%83%94%E3%82%AF%E3%83%81%E3%83%A31.png",
+          "local": "/screenshots/2021-kouhaku/37-source-1.png",
+          "sha256": "1745d6b3f996ff21f5293e32b5263ef9dbb47fe8fcf37d9af5e004a10f95e25f"
+        },
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/128/227/%E3%80%90%E3%82%A8%E3%83%A2%E3%82%AF%E3%83%AD%E3%80%91%E3%83%94%E3%82%AF%E3%83%81%E3%83%A32.png",
+          "local": "/screenshots/2021-kouhaku/37-source-2.png",
+          "sha256": "295654478badc85d07cc8f7846a5167b6e3012d5bb6d8062349d3833e724faa0"
+        }
+      ],
+      "inlineImageSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/128/225/%E3%81%A8%E3%81%82%E3%81%B7%E3%81%90.png",
+          "role": "source-metadata-icon",
+          "renderedWidth": "32",
+          "renderedHeight": "32",
+          "preservedInSourceCommentAndOriginalView": true
+        }
+      ],
+      "dlPageUrl": "https://w.atwiki.jp/vipkohaku2021/pages/139.html",
+      "downloadLinks": [
+        {
+          "url": "https://w.atwiki.jp/vipkohaku2021/pages/139.html",
+          "label": "原DLページ（ファイル未確認）"
+        }
+      ],
+      "auxiliaryExternalLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-kouhaku-work-38",
+      "no": "38",
+      "detailUrl": "https://w.atwiki.jp/vipkohaku2021/pages/129.html",
+      "sourceFile": "129.bin",
+      "newlyRestored": false,
+      "catalogueTitle": "意思を継ぐもの",
+      "catalogueAuthor": "更科総一",
+      "catalogueClassification": [
+        "やるゲ",
+        "MV"
+      ],
+      "sourceMetadata": {
+        "タイトル": "意思を継ぐもの",
+        "作者": "更科総一"
+      },
+      "legacyStreamingConfirmed": true,
+      "iconSourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/151/229/%E6%84%8F%E6%80%9D%E3%82%92%E7%B6%99%E3%81%90%E3%82%82%E3%81%AE%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/129/231/%E6%84%8F%E6%80%9D%E3%82%92%E7%B6%99%E3%81%90%E3%82%82%E3%81%AE%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB66p.png",
+          "local": "/screenshots/2021-kouhaku/38-source-1.png",
+          "sha256": "6df18603ae863c874a18ed0b1fc187a5018650ecde60697526b55a6d5cf72785"
+        }
+      ],
+      "inlineImageSources": [
+        {
+          "sourceUrl": "https://img.atwiki.jp/vipkohaku2021/attach/151/229/%E6%84%8F%E6%80%9D%E3%82%92%E7%B6%99%E3%81%90%E3%82%82%E3%81%AE%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.png",
+          "role": "source-metadata-icon",
+          "renderedWidth": "32",
+          "renderedHeight": "32",
+          "preservedInSourceCommentAndOriginalView": true
+        }
+      ],
+      "dlPageUrl": "https://w.atwiki.jp/vipkohaku2021/pages/140.html",
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg_erg5/download/397",
+          "label": "原配布ページのリンク"
+        }
+      ],
+      "auxiliaryExternalLinks": [],
+      "packagesDownloaded": false
+    }
+  ],
+  "bannerSources": [
+    {
+      "sourceUrl": "https://vipkohaku2021.web.fc2.com/img/21.png",
+      "local": "/banners/2021-kouhaku/current-source-1.png",
+      "sha256": "8d4be100a304cec22a777236ceb890534d7e713b7eb71f1466768b8cf2b494ee"
+    },
+    {
+      "sourceUrl": "https://vipkohaku2021.web.fc2.com/img/21b.png",
+      "local": "/banners/2021-kouhaku/current-source-2.png",
+      "sha256": "8338b2bd018702e0e75272917e179fe43adfc706c915118fcee7586786f04125"
+    }
+  ],
+  "handling": "Direct archival without work-content or pixel screening. Preserve the official FC2 portal, its two banners and its navigation into the Wiki. Restore missing No.33, preserve existing IDs and all official catalogue identities, metadata and prose. Preserve inline illustrations in source comments and replay; gallery roles follow explicit source markup rather than natural-image dimensions. No six-image cap. Native nested details replace platform script-dependent regions. Distribution URLs and unconfirmed source DL pages remain distinct; no game packages downloaded.",
+  "desktopReview": "passed-with-documented-source-file-and-date-limits"
+}

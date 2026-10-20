@@ -1,0 +1,1077 @@
+url = "https://w.atwiki.jp/vipkohaku2021/pages/1.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/1.bin"
+write-out = "0 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/156.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/156.bin"
+write-out = "1 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/158.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/158.bin"
+write-out = "2 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/157.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/157.bin"
+write-out = "3 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/3.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/3.bin"
+write-out = "4 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/5.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/5.bin"
+write-out = "5 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/12.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/12.bin"
+write-out = "6 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/20.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/20.bin"
+write-out = "7 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/21.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/21.bin"
+write-out = "8 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/31.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/31.bin"
+write-out = "9 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/22.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/22.bin"
+write-out = "10 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/32.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/32.bin"
+write-out = "11 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/23.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/23.bin"
+write-out = "12 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/33.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/33.bin"
+write-out = "13 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/24.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/24.bin"
+write-out = "14 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/34.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/34.bin"
+write-out = "15 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/25.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/25.bin"
+write-out = "16 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/45.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/45.bin"
+write-out = "17 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/26.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/26.bin"
+write-out = "18 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/46.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/46.bin"
+write-out = "19 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/27.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/27.bin"
+write-out = "20 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/47.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/47.bin"
+write-out = "21 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/28.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/28.bin"
+write-out = "22 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/48.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/48.bin"
+write-out = "23 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/29.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/29.bin"
+write-out = "24 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/49.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/49.bin"
+write-out = "25 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/30.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/30.bin"
+write-out = "26 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/62.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/62.bin"
+write-out = "27 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/72.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/72.bin"
+write-out = "28 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/63.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/63.bin"
+write-out = "29 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/73.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/73.bin"
+write-out = "30 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/64.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/64.bin"
+write-out = "31 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/74.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/74.bin"
+write-out = "32 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/65.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/65.bin"
+write-out = "33 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/75.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/75.bin"
+write-out = "34 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/66.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/66.bin"
+write-out = "35 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/76.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/76.bin"
+write-out = "36 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/67.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/67.bin"
+write-out = "37 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/77.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/77.bin"
+write-out = "38 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/68.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/68.bin"
+write-out = "39 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/78.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/78.bin"
+write-out = "40 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/69.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/69.bin"
+write-out = "41 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/79.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/79.bin"
+write-out = "42 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/70.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/70.bin"
+write-out = "43 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/80.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/80.bin"
+write-out = "44 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/71.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/71.bin"
+write-out = "45 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/81.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/81.bin"
+write-out = "46 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/92.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/92.bin"
+write-out = "47 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/101.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/101.bin"
+write-out = "48 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/93.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/93.bin"
+write-out = "49 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/102.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/102.bin"
+write-out = "50 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/94.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/94.bin"
+write-out = "51 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/103.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/103.bin"
+write-out = "52 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/95.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/95.bin"
+write-out = "53 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/104.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/104.bin"
+write-out = "54 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/96.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/96.bin"
+write-out = "55 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/105.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/105.bin"
+write-out = "56 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/97.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/97.bin"
+write-out = "57 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/106.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/106.bin"
+write-out = "58 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/98.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/98.bin"
+write-out = "59 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/107.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/107.bin"
+write-out = "60 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/99.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/99.bin"
+write-out = "61 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/108.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/108.bin"
+write-out = "62 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/100.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/100.bin"
+write-out = "63 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/109.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/109.bin"
+write-out = "64 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/121.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/121.bin"
+write-out = "65 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/132.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/132.bin"
+write-out = "66 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/122.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/122.bin"
+write-out = "67 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/133.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/133.bin"
+write-out = "68 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/123.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/123.bin"
+write-out = "69 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/134.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/134.bin"
+write-out = "70 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/124.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/124.bin"
+write-out = "71 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/135.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/135.bin"
+write-out = "72 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/125.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/125.bin"
+write-out = "73 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/136.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/136.bin"
+write-out = "74 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/126.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/126.bin"
+write-out = "75 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/137.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/137.bin"
+write-out = "76 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/127.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/127.bin"
+write-out = "77 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/138.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/138.bin"
+write-out = "78 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/128.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/128.bin"
+write-out = "79 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/139.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/139.bin"
+write-out = "80 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/129.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/129.bin"
+write-out = "81 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/140.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/140.bin"
+write-out = "82 %{http_code} %{url_effective} %{size_download}\n"

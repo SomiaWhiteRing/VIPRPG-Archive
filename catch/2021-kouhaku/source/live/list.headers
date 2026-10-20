@@ -1,0 +1,30 @@
+HTTP/1.1 200 Connection established
+
+HTTP/1.1 200 OK
+Date: Tue, 20 Oct 2026 08:14:24 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-vcache: MISS
+Server: cloudflare
+Cache-Control: public,max-age=180,s-maxage=1800
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-ua-compatible: IE=edge
+x-wiki-render-mode: rust_dual/cached
+access-control-allow-methods: POST, GET, OPTIONS
+access-control-allow-headers: Origin, Authorization, Accept, X-Requested-With
+access-control-allow-credentials: true
+Server-Timing: cfCacheStatus;desc="DYNAMIC"
+Server-Timing: cfEdge;dur=6,cfOrigin;dur=36
+content-security-policy: upgrade-insecure-requests
+vary: Accept-Encoding
+via: 1.1 500a2bcd822341bc281724b9b8ac30e0.cloudfront.net (CloudFront)
+alt-svc: h3=":443"; ma=86400
+Age: 0
+x-cache: Miss from cloudfront
+x-amz-cf-pop: NRT12-P4
+x-amz-cf-id: 5agb1kHIvSimz16jaF2YVXJSd5kEgPj3IqdffTMPSTR-4x_kLay6lQ==
+cf-cache-status: DYNAMIC
+CF-RAY: a4d691995a2fd750-NRT
+

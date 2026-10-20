@@ -1,0 +1,50 @@
+url = "https://w.atwiki.jp/common/_skin/base_124sb.css?t=f3940544928dd92007ef016e895cfd8f"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/css,*/*;q=0.1"
+referer = "https://w.atwiki.jp/vipkohaku2021/"
+output = "catch/2021-kouhaku/source/styles/style-0.css"
+write-out = "0 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://img.atwiki.jp/vipkohaku2021/css/1657354808.css"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/css,*/*;q=0.1"
+referer = "https://w.atwiki.jp/vipkohaku2021/"
+output = "catch/2021-kouhaku/source/styles/style-1.css"
+write-out = "1 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/common/dist/css/pc_common.css?t=1f73b6cc51130ee10239802add563e78"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/css,*/*;q=0.1"
+referer = "https://w.atwiki.jp/vipkohaku2021/"
+output = "catch/2021-kouhaku/source/styles/style-2.css"
+write-out = "2 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/common/dist/css/atwiki_common.css?t=12a322a880674cd2526d1c8bdb22bb6c"
+proxy = "http://127.0.0.1:37997"
+max-time = 30
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/css,*/*;q=0.1"
+referer = "https://w.atwiki.jp/vipkohaku2021/"
+output = "catch/2021-kouhaku/source/styles/style-3.css"
+write-out = "3 %{http_code} %{url_effective} %{size_download}\n"

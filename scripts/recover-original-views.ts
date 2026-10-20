@@ -4,9 +4,19 @@ import * as cheerio from "cheerio";
 import { decodeSource, imageExtension, writeJson } from "./recover-entry-table";
 import { getDictionary } from "../src/lib/i18n";
 import type { WorkEntry } from "../src/lib/types";
+import { materializeAtWikiRegions } from './source-atwiki-regions';
 import { rewriteSummer2012Source } from "./source-2012-summer-view";
 
 const configurations: Record<string, { base: string; entry?: string; manifests: string[]; seeds: Record<string, string>; seedUrls?: Record<string, string>; cgiProfile?: boolean; encoding?: string; encodingOverrides?: Record<string, string>; liveSource?: boolean; disabledLocalLinks?: string[]; externalResources?: Record<string, string>; preserveExternalExtensions?: string[]; frames?: { menuPage: string; menuName: string; mainName: string } }> = {
+  "2021-kouhaku": {
+    base: "https://vipkohaku2021.web.fc2.com/",
+    manifests: ["source/replay/manifest.json"],
+    seeds: {},
+    encoding: "utf-8",
+    encodingOverrides: { "index.html": "shift_jis" },
+    liveSource: true,
+    preserveExternalExtensions: [".zip", ".rar", ".7z", ".exe", ".lzh"],
+  },
   "2021-gw": {
     base: "https://viprpg2021gw.x.2nt.com/",
     manifests: ["source/replay/manifest.json"],
@@ -444,7 +454,7 @@ async function main() {
       sharedHeaderTargets.push(local ? `/original-pages/${id}/${local}${url.search}${url.hash}` : url.href);
     });
   }
-  if (["2021-gw", "2022-summer", "2022-kouhaku", "2022-gw", "2023-winter", "2023-summer", "2023-kouhaku", "2023-gw", "2024-summer", "2024-kuradashifestival", "2024-kouhaku", "2024-gw", "2025-gw", "2025-summer"].includes(id) || id === "2006-kouhaku" || id === "2012-toppuu-festival" || id === "2011-toppatsu-festival" || id === "2008-jisaku-battle-festival" || id === "2010-gw" || id === "2010-kouhaku" || id === "2010-summer") config.externalResources = recovery.originalResources;
+  if (["2021-kouhaku", "2021-gw", "2022-summer", "2022-kouhaku", "2022-gw", "2023-winter", "2023-summer", "2023-kouhaku", "2023-gw", "2024-summer", "2024-kuradashifestival", "2024-kouhaku", "2024-gw", "2025-gw", "2025-summer"].includes(id) || id === "2006-kouhaku" || id === "2012-toppuu-festival" || id === "2011-toppatsu-festival" || id === "2008-jisaku-battle-festival" || id === "2010-gw" || id === "2010-kouhaku" || id === "2010-summer") config.externalResources = recovery.originalResources;
   const sourceDetailGapPaths = new Set<string>((recovery.sourceDetailGaps ?? []).map((gap: { sourcePath: string }) => gap.sourcePath));
   const unavailableSourcePagePaths = new Set<string>((recovery.unavailableSourcePages ?? []).map((gap: { sourcePath: string }) => gap.sourcePath));
   const previousMissing: Array<{ url: string; requestedUrl?: string; error: string }> = JSON.parse(await fs.readFile(`${root}/original-view.json`, "utf8").catch(() => "{}")).missingResources ?? [];
@@ -468,7 +478,7 @@ async function main() {
     if (id === "2023-kouhaku" && original.pathname === "/entry/") return undefined;
     if (id === "2011-gw" && original.pathname.startsWith("/vip_2009gw/")) return undefined;
     if (config.externalResources?.[original.href]) return config.externalResources[original.href];
-    if (id === "2024-kuradashifestival") {
+    if (id === "2024-kuradashifestival" || id === "2021-kouhaku") {
       original.hash = "";
       return config.externalResources?.[original.href];
     }
@@ -727,10 +737,11 @@ async function main() {
           });
           compatibilityFixes.push({ page: local, change: "Preserve Wiki content, existing comments, theme and catalogue navigation; remove hosting ads, scripts, editing/posting controls and unavailable Wiki administration links. Use full source images instead of responsive thumbnail requests." });
         }
-        if (id === "2023-summer" || id === "2011-toppatsu-festival" || id === "2008-jisaku-battle-festival" || (id === "2024-kuradashifestival" && local.startsWith("wiki/"))) {
+        if ((id === "2021-kouhaku" && local.startsWith("wiki/")) || id === "2023-summer" || id === "2011-toppatsu-festival" || id === "2008-jisaku-battle-festival" || (id === "2024-kuradashifestival" && local.startsWith("wiki/"))) {
           $("script,noscript,iframe,form,body>header,body>footer,.atwiki-headbar,#atwiki-fixed-nav,#atwiki-modal-search-form,#pageTabs,#editmenu,#toolBox,#toolBoxTour,#ads,#left-ads,#right-ads,#atwiki-ads-overlay,#body_footer,#at_social_links2,[id^='div-gpt-ad-'],.atwiki-modal-bg,.atwiki-modal-wrap,.atwiki-modal,#atwiki_menubar a[href*='/pedit/']").remove();
-          $("link").filter((_, e) => !($(e).attr("rel") || "").includes("stylesheet") || !/base_101default\.css|base_110old\.css|base_121mandarin\.css|pc_common\.css|atwiki_common\.css/.test($(e).attr("href") || "")).remove();
-          if (id === "2024-kuradashifestival") {
+          $("link").filter((_, e) => !($(e).attr("rel") || "").includes("stylesheet") || !(/base_101default\.css|base_110old\.css|base_121mandarin\.css|pc_common\.css|atwiki_common\.css/.test($(e).attr("href") || "") || (id === "2021-kouhaku" && /base_124sb\.css|1657354808\.css/.test($(e).attr("href") || "")))).remove();
+          if (id === "2021-kouhaku") { const regions = materializeAtWikiRegions($); if (regions) compatibilityFixes.push({ page: local, change: `Replace ${regions} source script-dependent region tables with native nested details; preserve every image and label.` }); $(".plugin_vote3,#atwiki-liked-counter").remove(); }
+          if (id === "2024-kuradashifestival" || id === "2021-kouhaku") {
             $('img[src*="b.st-hatena.com"],.atwiki-page-keyword').remove();
             $('a[href]').filter((_, element) => {
               const url = new URL($(element).attr('href')!, original);
@@ -1037,6 +1048,7 @@ async function main() {
             }
             node.attr(attr, localReference(value, original, local));
             if (attr === "href" && node.attr("target") === "_blank" && /\.html?$/i.test(relative(new URL(value, original).href) || "")) node.attr("target", "_self");
+            if (id === "2021-kouhaku" && attr === "href" && ["_top", "_parent"].includes(node.attr("target") || "") && /\.html?$/i.test(relative(new URL(value, original).href) || "")) { node.attr("target", "_self"); compatibilityFixes.push({ page: local, change: "Open captured internal source _top/_parent links in the current frame. Opaque archive sandbox blocks navigation to ancestor frames; sandbox permissions remain unchanged." }); }
           }
         });
         $("*").each((_, element) => {

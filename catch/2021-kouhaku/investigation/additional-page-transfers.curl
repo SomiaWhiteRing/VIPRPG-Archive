@@ -1,0 +1,50 @@
+url = "https://w.atwiki.jp/vipkohaku2021/pages/142.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/142.bin"
+write-out = "0 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/141.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/141.bin"
+write-out = "1 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/13.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/13.bin"
+write-out = "2 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://w.atwiki.jp/vipkohaku2021/pages/115.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+user-agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+header = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+header = "Accept-Language: ja,en-US;q=0.8,en;q=0.7"
+output = "catch/2021-kouhaku/source/live/115.bin"
+write-out = "3 %{http_code} %{url_effective} %{size_download}\n"

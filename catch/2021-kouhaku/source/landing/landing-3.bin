@@ -1,0 +1,95 @@
+@charset "Shift-JIS";
+
+body {
+background: #ffa07a ;
+background-image: url(./bg.png);
+background-attachment: fixed;4
+  margin:  0;  
+}
+
+table tr td:nth-of-type(1){
+  text-align:center;
+}
+table tr td:nth-of-type(2){
+  text-align:center;
+}
+table tr td:nth-of-type(5){
+  text-align:center;
+}
+table tr td:nth-of-type(6){
+  text-align:center;
+}
+
+.tenuki tr:nth-child(odd) td {  
+  background-color: #ffffea;
+
+}
+.tenuki tr:nth-child(even) td {  
+  background-color: #ffdbb7;
+} 
+
+
+
+
+.btn-mouseover:hover + .mouseover__box{
+  display: block;
+ background: #ddbbbb;
+}
+.mouseover__box:hover{
+  display: block;
+}
+.mouseover__box{
+  display: none;
+  position: absolute;
+  top:-8px;
+  left:0;
+  width: 300px;
+  padding: 5px;
+  font-size: 13px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.vertical {
+-ms-writing-mode: tb-rl;
+writing-mode: vertical-rl;
+text-orientation: upright;
+}
+
+div#content {
+width: 100%;
+overflow: hidden;
+}
+
+div#main {
+width: 85%;
+float: right;
+}
+
+nav {
+  background-image: url(./top.png);
+  background-size: cover;
+width: 15%;
+float: left;
+}
+
+a.btn{
+  display       : inline-block;
+  border-radius : 20%;          /* 角丸       */
+  font-size     : 14pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 7px 14px;   /* 余白       */
+  background    : #990000;     /* 背景色     */
+  color         : #ffffff;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  box-shadow    : 1px 1px 1px #666666;  /* 影の設定 */
+  border        : 2px solid #990000;    /* 枠の指定 */
+}
+a.btn:hover{
+  box-shadow    : none;        /* カーソル時の影消去 */
+  color         : #990000;     /* 背景色     */
+  background    : #ffffff;     /* 文字色     */
+}

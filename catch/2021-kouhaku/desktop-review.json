@@ -1,0 +1,105 @@
+{
+  "festivalId": "2021-kouhaku",
+  "reviewedAt": "2026-10-20",
+  "scope": "desktop-only",
+  "method": "Browser DOM geometry, actual native region controls and accessibility link activation; no image-pixel or topic screening.",
+  "organized": {
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    },
+    "documents": 39,
+    "imageReferences": 166,
+    "galleryReferences": 85,
+    "inlineImageReferences": 81,
+    "expandedRegions": 17,
+    "brokenImages": [],
+    "overflow": [],
+    "lazyLoadFollowup": "No.33 had three pending images below the viewport; End scrolling completed all 47 images with naturalWidth > 0.",
+    "newEntry33Gallery": 10,
+    "entry18Gallery": 11,
+    "metadataIcon30": {
+      "naturalWidth": 300,
+      "sourceDeclaredWidth": 32,
+      "renderedWidth": 32,
+      "galleryImages": 1
+    }
+  },
+  "original": {
+    "viewport": {
+      "width": 1183,
+      "height": 638
+    },
+    "documents": 90,
+    "imageReferences": 225,
+    "sourceRegions": 19,
+    "defaultLayoutOverflow": [],
+    "observedBrokenImages": [],
+    "criticalExpandedPages": [
+      {
+        "page": "wiki/pages/68.html",
+        "regions": 2,
+        "images": 5,
+        "allLoaded": true
+      },
+      {
+        "page": "wiki/pages/69.html",
+        "regions": 6,
+        "images": 20,
+        "allLoaded": true
+      },
+      {
+        "page": "wiki/pages/124.html",
+        "regions": 11,
+        "images": 47,
+        "allLoaded": true
+      }
+    ],
+    "lazyLoadHandling": "Source closed regions and offscreen lazy images were not counted as broken. All 19 regions were opened; final No.33 scrolling completed all source images."
+  },
+  "homepage": {
+    "anchor": "#2021-kouhaku",
+    "expanded": true,
+    "panelHeight": 3412,
+    "panelInert": false,
+    "works": 39,
+    "new33Rendered": true,
+    "banners": 2,
+    "bannersLoaded": true,
+    "new33Link": "passed"
+  },
+  "embedded": {
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    },
+    "iframeWidth": 1185,
+    "iframeHeight": 640,
+    "sandbox": "allow-scripts",
+    "navigationEvidence": "investigation/internal-navigation-repair.json"
+  },
+  "viewer": {
+    "legacyNo13ThirdImage": "passed; 13-source-3.png loaded",
+    "previousImage": "passed; 13-source-2.png loaded",
+    "close": "passed",
+    "entry13To33": "passed"
+  },
+  "localHttpEvidence": "investigation/local-http-payloads.json",
+  "sourceLimits": {
+    "unconfirmedFileDlNumbers": [
+      "29",
+      "33",
+      "37"
+    ],
+    "undatedLegacyImageNumber": "13"
+  },
+  "build": {
+    "buildId": "cO5x-ofy3UQx6Bc0GgEDB",
+    "prerenderedRoutes": 4157,
+    "finalPublicOnlyNavigationFix": "Generated and browser-verified after the build; application data, route entry and sandbox unchanged."
+  },
+  "lint": "passed; full npm lint plus final generator-specific ESLint",
+  "dataValidation": "passed",
+  "packagesDownloaded": false,
+  "mobileTested": false
+}
