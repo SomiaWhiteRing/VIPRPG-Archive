@@ -1,0 +1,17 @@
+{
+  "scope": "Remove two nonexistent redundant evidence pointers; retain and verify the already listed authoritative source manifests. No work data changed.",
+  "changes": [
+    {
+      "festivalId": "2009-silver-week-miruge-festival",
+      "removedDanglingReference": "catch/2009-silver-week-miruge-festival/investigation/wayback-captures.json",
+      "retainedAuthoritativeManifest": "catch/2009-silver-week-miruge-festival/source/archive/manifest.json",
+      "rawCaptureChecksumsVerified": 16
+    },
+    {
+      "festivalId": "2008-gw",
+      "removedDanglingReference": "catch/2008-gw/source/original-view/manifest.json",
+      "retainedAuthoritativeManifest": "catch/2008-gw/source/archive/manifest.json",
+      "rawCaptureChecksumsVerified": 74
+    }
+  ]
+}

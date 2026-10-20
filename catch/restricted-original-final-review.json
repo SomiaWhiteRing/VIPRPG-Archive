@@ -1,0 +1,90 @@
+{
+  "scope": "Fixed template and neutral-placeholder structure only; no topic or pixel review.",
+  "results": [
+    {
+      "festivalId": "2015-summer",
+      "no": "04",
+      "file": "sakuhin.html?4",
+      "dataScript": "data.js",
+      "fixedDescriptionCount": 3,
+      "relatedLinksSuppressed": true,
+      "placeholderImages": [
+        "icon/4.svg",
+        "ss/4.svg"
+      ],
+      "localFileExists": true
+    },
+    {
+      "festivalId": "2014-kouhaku",
+      "no": "039",
+      "file": "entry/039.html",
+      "fixedDescriptionCount": 2,
+      "placeholderImages": [
+        "../restricted/039-screenshot.svg"
+      ],
+      "localFileExists": true
+    },
+    {
+      "festivalId": "2013-kouhaku",
+      "no": "33",
+      "file": "ent/33.html",
+      "fixedDescriptionCount": 3,
+      "placeholderImages": [
+        "../restricted/33-icon.svg",
+        "../restricted/33-screenshot.svg"
+      ],
+      "localFileExists": true
+    },
+    {
+      "festivalId": "2012-gw",
+      "no": "45",
+      "file": "en_045.html",
+      "fixedDescriptionCount": 3,
+      "placeholderImages": [
+        "restricted/45-screenshot.svg"
+      ],
+      "localFileExists": true
+    },
+    {
+      "festivalId": "2012-kouhaku",
+      "no": "017",
+      "file": "db/entry017.html",
+      "fixedDescriptionCount": 3,
+      "placeholderImages": [
+        "../restricted/017-icon.svg",
+        "../restricted/017-screenshot.svg"
+      ],
+      "localFileExists": true
+    },
+    {
+      "festivalId": "2012-magic-festival",
+      "no": "3",
+      "file": "page/page3.html",
+      "fixedDescriptionCount": 3,
+      "placeholderImages": [
+        "../restricted/3-icon.svg",
+        "../restricted/3-screenshot.svg"
+      ],
+      "localFileExists": true
+    },
+    {
+      "festivalId": "2012-magic-festival",
+      "no": "14",
+      "file": "page/page14.html",
+      "fixedDescriptionCount": 3,
+      "placeholderImages": [
+        "../restricted/14-icon.svg",
+        "../restricted/14-screenshot.svg"
+      ],
+      "localFileExists": true
+    }
+  ],
+  "allSevenFixedSkeletonsVerified": true,
+  "browserResults": {
+    "pages": 7,
+    "allFixedTemplates": true,
+    "minimumNeutralImages": 1,
+    "brokenImages": 0,
+    "method": "Directly load each published original page, including sakuhin.html?4, and compare fixed template and neutral-image DOM."
+  }
+}

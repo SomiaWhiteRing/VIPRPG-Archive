@@ -1,0 +1,2332 @@
+{
+  "auditedAt": "2026-10-20T23:57:13.791Z",
+  "scope": "Completion of the restart review checklist, not a claim that all historical content or game runtimes have been recovered.",
+  "passed": true,
+  "requirements": {
+    "festivals": 74,
+    "completed": 74,
+    "originalReviewed": 74,
+    "runtimeRegistered": 74,
+    "works": 4235,
+    "uniqueWorkIds": 4235,
+    "builtEnabledWorkRoutes": 4139,
+    "builtOriginalRoutes": 74,
+    "listedHomeRows": 4235,
+    "sourceEvidenceRefs": 516,
+    "desktopEvidenceRefs": 181,
+    "originalEvidenceRefs": 152,
+    "publishedOriginalFileRefs": 15733,
+    "publishedOriginalHtmlRefs": 4337,
+    "originalEntryHttpShaMatched": 74,
+    "originalWrapperHttpBindingMatched": 74,
+    "restrictedFixedSkeletons": 7,
+    "restrictedOriginalSkeletons": 7,
+    "festivalCommitRefs": 74,
+    "sourceCommits": 74
+  },
+  "inventoryTotals": {
+    "festivals": 74,
+    "festivalsWithBanners": 64,
+    "works": 4235,
+    "detailPages": 4139,
+    "disabledDetails": 96,
+    "restrictedDetails": 7,
+    "withComments": 3146,
+    "withScreenshots": 3410,
+    "withDownload": 3106,
+    "withSource": 4228,
+    "referencedAssets": 7962,
+    "assetIssues": 0
+  },
+  "scopeBoundaries": {
+    "statusCounts": {
+      "reviewed": 31,
+      "reviewed-with-documented-source-omissions": 2,
+      "reviewed-with-catalogue-only-records": 1,
+      "reviewed-with-exceptions": 17,
+      "reviewed-with-content-restriction": 2,
+      "reviewed-with-supplemental-restricted-entry": 1,
+      "reviewed-with-documented-source-gaps": 17,
+      "reviewed-with-documented-css-omissions": 1,
+      "reviewed-with-source-gaps": 2
+    },
+    "exceptionRecords": [
+      {
+        "festivalId": "2024-gw",
+        "status": "reviewed-with-documented-source-omissions"
+      },
+      {
+        "festivalId": "2024-kouhaku",
+        "status": "reviewed-with-documented-source-omissions"
+      },
+      {
+        "festivalId": "2024-kuradashifestival",
+        "status": "reviewed-with-catalogue-only-records"
+      },
+      {
+        "festivalId": "2023-kouhaku",
+        "status": "reviewed-with-exceptions"
+      },
+      {
+        "festivalId": "2022-kouhaku",
+        "status": "reviewed-with-exceptions"
+      },
+      {
+        "festivalId": "2022-summer",
+        "status": "reviewed-with-exceptions"
+      },
+      {
+        "festivalId": "2021-gw",
+        "status": "reviewed-with-exceptions"
+      },
+      {
+        "festivalId": "2021-kouhaku",
+        "status": "reviewed-with-exceptions"
+      },
+      {
+        "festivalId": "2020-gw",
+        "status": "reviewed-with-exceptions"
+      },
+      {
+        "festivalId": "2020-kouhaku",
+        "status": "reviewed-with-exceptions"
+      },
+      {
+        "festivalId": "2020-summer",
+        "status": "reviewed-with-exceptions"
+      },
+      {
+        "festivalId": "2019-gw",
+        "status": "reviewed-with-exceptions"
+      },
+      {
+        "festivalId": "2019-kouhaku",
+        "status": "reviewed-with-exceptions"
+      },
+      {
+        "festivalId": "2019-summer",
+        "status": "reviewed-with-exceptions"
+      },
+      {
+        "festivalId": "2018-gw",
+        "status": "reviewed-with-exceptions"
+      },
+      {
+        "festivalId": "2018-gw-2",
+        "status": "reviewed-with-exceptions"
+      },
+      {
+        "festivalId": "2017-gw",
+        "status": "reviewed-with-exceptions"
+      },
+      {
+        "festivalId": "2017-kouhaku",
+        "status": "reviewed-with-exceptions"
+      },
+      {
+        "festivalId": "2017-summer",
+        "status": "reviewed-with-exceptions"
+      },
+      {
+        "festivalId": "2016-kouhaku",
+        "status": "reviewed-with-exceptions"
+      },
+      {
+        "festivalId": "2015-summer",
+        "status": "reviewed-with-content-restriction"
+      },
+      {
+        "festivalId": "2014-kouhaku",
+        "status": "reviewed-with-content-restriction"
+      },
+      {
+        "festivalId": "2012-gw",
+        "status": "reviewed-with-supplemental-restricted-entry"
+      },
+      {
+        "festivalId": "2011-gw",
+        "status": "reviewed-with-documented-source-gaps"
+      },
+      {
+        "festivalId": "2011-kouhaku",
+        "status": "reviewed-with-documented-source-gaps"
+      },
+      {
+        "festivalId": "2011-toppatsu-festival",
+        "status": "reviewed-with-documented-css-omissions"
+      },
+      {
+        "festivalId": "2010-gw",
+        "status": "reviewed-with-documented-source-gaps"
+      },
+      {
+        "festivalId": "2010-summer",
+        "status": "reviewed-with-documented-source-gaps"
+      },
+      {
+        "festivalId": "2009-gw",
+        "status": "reviewed-with-documented-source-gaps"
+      },
+      {
+        "festivalId": "2009-kouhaku",
+        "status": "reviewed-with-documented-source-gaps"
+      },
+      {
+        "festivalId": "2009-ksgfestival",
+        "status": "reviewed-with-documented-source-gaps"
+      },
+      {
+        "festivalId": "2009-silver-week-miruge-festival",
+        "status": "reviewed-with-documented-source-gaps"
+      },
+      {
+        "festivalId": "2009-summer",
+        "status": "reviewed-with-documented-source-gaps"
+      },
+      {
+        "festivalId": "2008-chuuni-festival",
+        "status": "reviewed-with-documented-source-gaps"
+      },
+      {
+        "festivalId": "2008-jisaku-battle-festival",
+        "status": "reviewed-with-documented-source-gaps"
+      },
+      {
+        "festivalId": "2008-kouhaku",
+        "status": "reviewed-with-documented-source-gaps"
+      },
+      {
+        "festivalId": "2008-seiyoku-festival",
+        "status": "reviewed-with-documented-source-gaps"
+      },
+      {
+        "festivalId": "2008-summer",
+        "status": "reviewed-with-documented-source-gaps"
+      },
+      {
+        "festivalId": "2007-default-battle-festival",
+        "status": "reviewed-with-documented-source-gaps"
+      },
+      {
+        "festivalId": "2007-gw",
+        "status": "reviewed-with-documented-source-gaps"
+      },
+      {
+        "festivalId": "2007-summer",
+        "status": "reviewed-with-documented-source-gaps"
+      },
+      {
+        "festivalId": "2006-kouhaku",
+        "status": "reviewed-with-source-gaps"
+      },
+      {
+        "festivalId": "2006-summer",
+        "status": "reviewed-with-source-gaps"
+      }
+    ],
+    "disabledWorkIds": [
+      "2008-chuuni-festival-work-001",
+      "2008-chuuni-festival-work-002",
+      "2008-chuuni-festival-work-003",
+      "2008-chuuni-festival-work-004",
+      "2008-chuuni-festival-work-005",
+      "2008-chuuni-festival-work-006",
+      "2008-chuuni-festival-work-007",
+      "2008-chuuni-festival-work-008",
+      "2008-chuuni-festival-work-009",
+      "2008-chuuni-festival-work-010",
+      "2008-chuuni-festival-work-011",
+      "2008-chuuni-festival-work-012",
+      "2008-chuuni-festival-work-013",
+      "2008-chuuni-festival-work-014",
+      "2008-chuuni-festival-work-015",
+      "2008-chuuni-festival-work-016",
+      "2008-chuuni-festival-work-017",
+      "2008-chuuni-festival-work-018",
+      "2008-chuuni-festival-work-019",
+      "2008-chuuni-festival-work-020",
+      "2008-chuuni-festival-work-021",
+      "2008-chuuni-festival-work-022",
+      "2008-chuuni-festival-work-023",
+      "2008-chuuni-festival-work-024",
+      "2010-gw-work-001",
+      "2010-gw-work-002",
+      "2010-gw-work-003",
+      "2010-gw-work-004",
+      "2010-gw-work-005",
+      "2010-gw-work-006",
+      "2010-gw-work-007",
+      "2010-gw-work-008",
+      "2010-gw-work-009",
+      "2010-gw-work-010",
+      "2010-gw-work-011",
+      "2010-gw-work-012",
+      "2010-gw-work-013",
+      "2010-gw-work-015",
+      "2010-gw-work-016",
+      "2010-gw-work-017",
+      "2010-gw-work-018",
+      "2010-gw-work-019",
+      "2010-gw-work-020",
+      "2010-gw-work-021",
+      "2010-gw-work-022",
+      "2010-gw-work-023",
+      "2010-gw-work-024",
+      "2010-gw-work-025",
+      "2010-gw-work-026",
+      "2010-gw-work-027",
+      "2010-gw-work-028",
+      "2010-gw-work-029",
+      "2010-gw-work-030",
+      "2010-gw-work-031",
+      "2010-gw-work-032",
+      "2010-gw-work-033",
+      "2010-gw-work-034",
+      "2010-gw-work-035",
+      "2010-gw-work-036",
+      "2010-gw-work-037",
+      "2010-gw-work-038",
+      "2010-gw-work-039",
+      "2010-gw-work-040",
+      "2010-gw-work-041",
+      "2010-gw-work-042",
+      "2010-gw-work-043",
+      "2010-gw-work-044",
+      "2010-gw-work-045",
+      "2010-gw-work-046",
+      "2010-gw-work-047",
+      "2010-gw-work-048",
+      "2010-gw-work-049",
+      "2010-gw-work-050",
+      "2010-gw-work-051",
+      "2010-gw-work-052",
+      "2010-gw-work-053",
+      "2010-gw-work-054",
+      "2010-gw-work-055",
+      "2010-gw-work-056",
+      "2010-gw-work-057",
+      "2010-gw-work-058",
+      "2010-gw-work-059",
+      "2010-gw-work-060",
+      "2010-gw-work-061",
+      "2010-gw-work-062",
+      "2010-gw-work-063",
+      "2010-gw-work-064",
+      "2010-gw-work-065",
+      "2010-gw-work-066",
+      "2010-gw-work-067",
+      "2010-gw-work-068",
+      "2010-summer-work-005",
+      "2010-summer-work-023",
+      "2010-summer-work-035",
+      "2010-summer-work-072",
+      "2012-magic-festival-work-0"
+    ],
+    "sourceFieldAbsent": [
+      {
+        "id": "2012-kouhaku-work-017",
+        "restricted": true,
+        "detailDisabled": false
+      },
+      {
+        "id": "2012-magic-festival-work-0",
+        "restricted": false,
+        "detailDisabled": true
+      },
+      {
+        "id": "2012-magic-festival-work-003",
+        "restricted": true,
+        "detailDisabled": false
+      },
+      {
+        "id": "2012-magic-festival-work-014",
+        "restricted": true,
+        "detailDisabled": false
+      },
+      {
+        "id": "2013-kouhaku-work-033",
+        "restricted": true,
+        "detailDisabled": false
+      },
+      {
+        "id": "2014-kouhaku-work-039",
+        "restricted": true,
+        "detailDisabled": false
+      },
+      {
+        "id": "2015-summer-work-04",
+        "restricted": true,
+        "detailDisabled": false
+      }
+    ],
+    "rawInventoryAudit": "catch/archive-audit.json",
+    "restrictedEvidence": "catch/restricted-skeleton-final-review.json",
+    "notes": [
+      "Prior per-festival desktop reports remain authoritative within their stated scope; no new claim of full browser retesting of all4235 works.",
+      "Historical source gaps and UI-test limitations remain in the74 ledger entries.",
+      "Existing untracked catch/site-backup-2024 is outside this task."
+    ]
+  },
+  "festivalEvidence": [
+    {
+      "festivalId": "2025-gw",
+      "works": 30,
+      "status": "reviewed",
+      "dataSha256": "10c89133804ca5a1253d797449337d9938879653f93e089d34cf5ee6cffde784",
+      "sourceEvidence": [
+        "catch/2025-gw/recovery.json",
+        "catch/2025-gw/source-comparison.json",
+        "catch/2025-gw/investigation/live-page-verification.json",
+        "catch/2025-gw/investigation/gallery-resource-verification.json",
+        "catch/2025-gw/investigation/title-provenance-review.json"
+      ],
+      "desktopEvidence": [
+        "catch/2025-gw/desktop-review.json"
+      ],
+      "originalEvidence": [
+        "catch/2025-gw/original-view.json",
+        "catch/2025-gw/desktop-review.json"
+      ],
+      "latestSourceCommit": "8613e74897ace9fb6c2ca2e9fc6b5ddb7910a145",
+      "originalFiles": 495,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2025-summer",
+      "works": 43,
+      "status": "reviewed",
+      "dataSha256": "6868138e5024f9cbc70f449265da7e83d7fd3f59c5c2be6cd0c6b245ee814e6f",
+      "sourceEvidence": [
+        "catch/2025-summer/recovery.json",
+        "catch/2025-summer/source-comparison.json",
+        "catch/2025-summer/investigation/metadata-source-verification.json",
+        "catch/2025-summer/investigation/live-page-verification.json",
+        "catch/2025-summer/investigation/gallery-resource-verification.json",
+        "catch/2025-summer/investigation/archived-payload-verification.json",
+        "catch/2025-summer/investigation/source-empty-icons.json",
+        "catch/2025-summer/investigation/catalogue-identity-review.json"
+      ],
+      "desktopEvidence": [
+        "catch/2025-summer/desktop-review.json"
+      ],
+      "originalEvidence": [
+        "catch/2025-summer/original-view.json",
+        "catch/2025-summer/desktop-review.json"
+      ],
+      "latestSourceCommit": "ac9f56a3f5f7241ad159ddc51b668c1648fab1bb",
+      "originalFiles": 492,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2024-gw",
+      "works": 31,
+      "status": "reviewed-with-documented-source-omissions",
+      "dataSha256": "132105b00925356d7ae6feabb319b1de9d86135c338d53fb9722c9f5dc4d40c7",
+      "sourceEvidence": [
+        "catch/2024-gw/recovery.json",
+        "catch/2024-gw/source-comparison.json",
+        "catch/2024-gw/investigation/metadata-source-verification.json",
+        "catch/2024-gw/investigation/media-verification.json",
+        "catch/2024-gw/investigation/title-source-resolution.json",
+        "catch/2024-gw/investigation/additional-venue-entry.json",
+        "catch/2024-gw/investigation/recovered-publisher-image-urls.json"
+      ],
+      "desktopEvidence": [
+        "catch/2024-gw/desktop-review.json"
+      ],
+      "originalEvidence": [
+        "catch/2024-gw/original-view.json",
+        "catch/2024-gw/desktop-review.json"
+      ],
+      "latestSourceCommit": "762416fcd2abf653ade1d2c095463f14f4753a25",
+      "originalFiles": 399,
+      "originalMissingRecorded": 1
+    },
+    {
+      "festivalId": "2024-kouhaku",
+      "works": 47,
+      "status": "reviewed-with-documented-source-omissions",
+      "dataSha256": "bf6852bcdaef360ae732c9857824275613329cb9d8fee4fb285f73a6b4527679",
+      "sourceEvidence": [
+        "catch/2024-kouhaku/recovery.json",
+        "catch/2024-kouhaku/source-comparison.json",
+        "catch/2024-kouhaku/investigation/metadata-source-verification.json",
+        "catch/2024-kouhaku/investigation/source-omissions.json"
+      ],
+      "desktopEvidence": [
+        "catch/2024-kouhaku/desktop-review.json"
+      ],
+      "originalEvidence": [
+        "catch/2024-kouhaku/original-view.json",
+        "catch/2024-kouhaku/desktop-review.json"
+      ],
+      "latestSourceCommit": "d01d9fdbaeaf04a651f4c4bb48facd497f240d27",
+      "originalFiles": 167,
+      "originalMissingRecorded": 2
+    },
+    {
+      "festivalId": "2024-kuradashifestival",
+      "works": 41,
+      "status": "reviewed-with-catalogue-only-records",
+      "dataSha256": "74bac67e5d1bddc6dd8bfa9def8e112c03fdbd80443eecada9b0be7ce57003b7",
+      "sourceEvidence": [
+        "catch/2024-kuradashifestival/recovery.json",
+        "catch/2024-kuradashifestival/source-comparison.json",
+        "catch/2024-kuradashifestival/investigation/source-access-resolution.json",
+        "catch/2024-kuradashifestival/investigation/catalogue-identity-review.json",
+        "catch/2024-kuradashifestival/investigation/metadata-source-verification.json"
+      ],
+      "desktopEvidence": [
+        "catch/2024-kuradashifestival/desktop-review.json"
+      ],
+      "originalEvidence": [
+        "catch/2024-kuradashifestival/original-view.json",
+        "catch/2024-kuradashifestival/desktop-review.json"
+      ],
+      "latestSourceCommit": "e6898068b1c54c21143a2f75b77c554cfb3d0bb7",
+      "originalFiles": 103,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2024-summer",
+      "works": 46,
+      "status": "reviewed",
+      "dataSha256": "46ab03ddb36cd407cd3273e7a80ce52175b4a87ca34245797ab8e404f76e601c",
+      "sourceEvidence": [
+        "catch/2024-summer/recovery.json",
+        "catch/2024-summer/source-comparison.json",
+        "catch/2024-summer/investigation/metadata-source-verification.json",
+        "catch/2024-summer/investigation/header-navigation-repair.json"
+      ],
+      "desktopEvidence": [
+        "catch/2024-summer/desktop-review.json"
+      ],
+      "originalEvidence": [
+        "catch/2024-summer/original-view.json",
+        "catch/2024-summer/desktop-review.json"
+      ],
+      "latestSourceCommit": "2e78087171d21b84b37a7113a1d9396369d33b9b",
+      "originalFiles": 213,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2023-gw",
+      "works": 37,
+      "status": "reviewed",
+      "dataSha256": "b9f343a8b7fcbe4c025a95e01cb9d6af6ff9af5d0cfbd79e954ffe086d127b4e",
+      "sourceEvidence": [
+        "catch/2023-gw/recovery.json",
+        "catch/2023-gw/source-comparison.json",
+        "catch/2023-gw/investigation/metadata-source-verification.json",
+        "catch/2023-gw/investigation/responsive-image-plan.json",
+        "catch/2023-gw/investigation/boundary-navigation.json"
+      ],
+      "desktopEvidence": [
+        "catch/2023-gw/desktop-review.json"
+      ],
+      "originalEvidence": [
+        "catch/2023-gw/original-view.json",
+        "catch/2023-gw/desktop-review.json"
+      ],
+      "latestSourceCommit": "1d4820b777d2e6b35854a1bdbe1d89f0922ee341",
+      "originalFiles": 155,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2023-kouhaku",
+      "works": 44,
+      "status": "reviewed-with-exceptions",
+      "dataSha256": "5634643a4f18bd4e9290fea71d574a7d34e51146cd94eb2e3ff331052365b143",
+      "sourceEvidence": [
+        "catch/2023-kouhaku/recovery.json",
+        "catch/2023-kouhaku/source-comparison.json",
+        "catch/2023-kouhaku/source/website-backup/manifest.json",
+        "catch/2023-kouhaku/source/archive/manifest.json",
+        "catch/2023-kouhaku/investigation/archived-detail-comparison.json",
+        "catch/2023-kouhaku/investigation/replay-closure.json"
+      ],
+      "desktopEvidence": [
+        "catch/2023-kouhaku/desktop-review.json"
+      ],
+      "originalEvidence": [
+        "catch/2023-kouhaku/original-view.json",
+        "catch/2023-kouhaku/desktop-review.json"
+      ],
+      "latestSourceCommit": "c89dd58398dadebea98aaf9892108c6095fd4bb6",
+      "originalFiles": 371,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2023-summer",
+      "works": 50,
+      "status": "reviewed",
+      "dataSha256": "2e2c6a384d8cdf0049d18b64ca871b80d4c0c16970a18a15acab6b13b88996a7",
+      "sourceEvidence": [
+        "catch/2023-summer/recovery.json",
+        "catch/2023-summer/source-comparison.json",
+        "catch/2023-summer/source/website-backup/manifest.json",
+        "catch/2023-summer/source/archive/manifest.json",
+        "catch/2023-summer/source/archive/entries/manifest.json",
+        "catch/2023-summer/investigation/image-role-verification.json",
+        "catch/2023-summer/investigation/screenshot-comparison.json",
+        "catch/2023-summer/investigation/replay-closure.json"
+      ],
+      "desktopEvidence": [
+        "catch/2023-summer/desktop-review.json"
+      ],
+      "originalEvidence": [
+        "catch/2023-summer/original-view.json",
+        "catch/2023-summer/desktop-review.json"
+      ],
+      "latestSourceCommit": "53a9dd488fd80e1952b6b3ca200ed44b0f2dff55",
+      "originalFiles": 479,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2023-winter",
+      "works": 33,
+      "status": "reviewed",
+      "dataSha256": "4a6165a4eef90808e535a1e43fcd5b3220dc8f18ab385f46e0a7f3e305a2c75d",
+      "sourceEvidence": [
+        "catch/2023-winter/recovery.json",
+        "catch/2023-winter/source-comparison.json",
+        "catch/2023-winter/investigation/live-rate-validation.json",
+        "catch/2023-winter/source/archive/manifest.json",
+        "catch/2023-winter/source/archive-assets/manifest.json",
+        "catch/2023-winter/investigation/embedded-entry-extraction.json",
+        "catch/2023-winter/investigation/gallery-comparison.json",
+        "catch/2023-winter/investigation/replay-closure.json"
+      ],
+      "desktopEvidence": [
+        "catch/2023-winter/desktop-review.json"
+      ],
+      "originalEvidence": [
+        "catch/2023-winter/original-view.json",
+        "catch/2023-winter/desktop-review.json"
+      ],
+      "latestSourceCommit": "4b3b048e4d580b4b14d859e3511dc7fc0afa968b",
+      "originalFiles": 1014,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2022-gw",
+      "works": 34,
+      "status": "reviewed",
+      "dataSha256": "f11f975f0554f586090e649965e87225a30dbc3203cef0a65cdc4b996a560f21",
+      "sourceEvidence": [
+        "catch/2022-gw/recovery.json",
+        "catch/2022-gw/source-comparison.json",
+        "catch/2022-gw/source/live/manifest.json",
+        "catch/2022-gw/source/resources/manifest.json",
+        "catch/2022-gw/investigation/replay-closure.json"
+      ],
+      "desktopEvidence": [
+        "catch/2022-gw/desktop-review.json"
+      ],
+      "originalEvidence": [
+        "catch/2022-gw/original-view.json",
+        "catch/2022-gw/desktop-review.json"
+      ],
+      "latestSourceCommit": "a76452c551715fc82f0ac984c55a7aca9846d791",
+      "originalFiles": 143,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2022-kouhaku",
+      "works": 72,
+      "status": "reviewed-with-exceptions",
+      "dataSha256": "3470b50bb653ecba36966ee9a1731bf329057b877a2322ec6cd8dc07347a78e3",
+      "sourceEvidence": [
+        "catch/2022-kouhaku/recovery.json",
+        "catch/2022-kouhaku/source-comparison.json",
+        "catch/2022-kouhaku/source/archive/manifest.json",
+        "catch/2022-kouhaku/investigation/confirmed-page-gaps.json",
+        "catch/2022-kouhaku/investigation/mega-file-inventory.json",
+        "catch/2022-kouhaku/investigation/replay-closure.json"
+      ],
+      "desktopEvidence": [
+        "catch/2022-kouhaku/desktop-review.json"
+      ],
+      "originalEvidence": [
+        "catch/2022-kouhaku/original-view.json",
+        "catch/2022-kouhaku/desktop-review.json"
+      ],
+      "latestSourceCommit": "4eabe4bf462c4f1b56573d6dd10553b1fd66fac7",
+      "originalFiles": 342,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2022-summer",
+      "works": 23,
+      "status": "reviewed-with-exceptions",
+      "dataSha256": "3d3c83552ead72394b52ae9a169ba1cbd0a7047d33319115b8fb1d8297ee6643",
+      "sourceEvidence": [
+        "catch/2022-summer/recovery.json",
+        "catch/2022-summer/source-comparison.json",
+        "catch/2022-summer/source/live/manifest.json",
+        "catch/2022-summer/source/resources/manifest.json",
+        "catch/2022-summer/investigation/source-image-gaps.json",
+        "catch/2022-summer/investigation/replay-closure.json"
+      ],
+      "desktopEvidence": [
+        "catch/2022-summer/desktop-review.json"
+      ],
+      "originalEvidence": [
+        "catch/2022-summer/original-view.json",
+        "catch/2022-summer/desktop-review.json"
+      ],
+      "latestSourceCommit": "5a194382c4a8602a500d9c305740c8d706fa064e",
+      "originalFiles": 58,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2021-gw",
+      "works": 37,
+      "status": "reviewed-with-exceptions",
+      "dataSha256": "d1340c6b09bf1588bf85d0a016c0d9b00eaee7663a358c8353491a7f72b30afc",
+      "sourceEvidence": [
+        "catch/2021-gw/recovery.json",
+        "catch/2021-gw/source-comparison.json",
+        "catch/2021-gw/source/live/manifest.json",
+        "catch/2021-gw/source/resources/manifest.json",
+        "catch/2021-gw/investigation/source-image-gaps.json",
+        "catch/2021-gw/investigation/title-source-confirmation.json",
+        "catch/2021-gw/investigation/replay-closure.json"
+      ],
+      "desktopEvidence": [
+        "catch/2021-gw/desktop-review.json"
+      ],
+      "originalEvidence": [
+        "catch/2021-gw/original-view.json",
+        "catch/2021-gw/desktop-review.json"
+      ],
+      "latestSourceCommit": "196d2ff77d57a41d2dda291917a3c7aaeb60cdd6",
+      "originalFiles": 145,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2021-kouhaku",
+      "works": 39,
+      "status": "reviewed-with-exceptions",
+      "dataSha256": "2fe6a4bedd9113308a9b2b46eecab35316d45d21bb66cb8468558a7985a4b6ab",
+      "sourceEvidence": [
+        "catch/2021-kouhaku/recovery.json",
+        "catch/2021-kouhaku/source-comparison.json",
+        "catch/2021-kouhaku/source/landing/manifest.json",
+        "catch/2021-kouhaku/source/live/manifest.json",
+        "catch/2021-kouhaku/source/resources/manifest.json",
+        "catch/2021-kouhaku/investigation/catalogue-detail-metadata.json",
+        "catch/2021-kouhaku/investigation/region-structure-check.json",
+        "catch/2021-kouhaku/investigation/replay-closure.json"
+      ],
+      "desktopEvidence": [
+        "catch/2021-kouhaku/desktop-review.json",
+        "catch/2021-kouhaku/investigation/internal-navigation-repair.json",
+        "catch/2021-kouhaku/investigation/local-http-payloads.json"
+      ],
+      "originalEvidence": [
+        "catch/2021-kouhaku/original-view.json",
+        "catch/2021-kouhaku/desktop-review.json"
+      ],
+      "latestSourceCommit": "56eec24d7f7438421cfa0564a215b5073068f544",
+      "originalFiles": 292,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2021-summer",
+      "works": 46,
+      "status": "reviewed",
+      "dataSha256": "af35f1f48454479ce32dcf62ee301a8b185b4e9a727b34ad5d1befb8ac189f83",
+      "sourceEvidence": [
+        "catch/2021-summer/recovery.json",
+        "catch/2021-summer/source-comparison.json",
+        "catch/2021-summer/source/live/manifest.json",
+        "catch/2021-summer/source/resources/manifest.json",
+        "catch/2021-summer/investigation/navigation-source-gaps.json",
+        "catch/2021-summer/investigation/replay-closure.json"
+      ],
+      "desktopEvidence": [
+        "catch/2021-summer/desktop-review.json",
+        "catch/2021-summer/investigation/local-http-payloads.json"
+      ],
+      "originalEvidence": [
+        "catch/2021-summer/original-view.json",
+        "catch/2021-summer/desktop-review.json"
+      ],
+      "latestSourceCommit": "1ee755a0323817d2efd3f4366baf028d2ca76c95",
+      "originalFiles": 169,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2020-gw",
+      "works": 40,
+      "status": "reviewed-with-exceptions",
+      "dataSha256": "d9912e282e2c701be9c57c9b1fe614760d0a355e494d362d1f0c150bd7b39455",
+      "sourceEvidence": [
+        "catch/2020-gw/recovery.json",
+        "catch/2020-gw/source-comparison.json",
+        "catch/2020-gw/source/live/manifest.json",
+        "catch/2020-gw/source/resources/manifest.json",
+        "catch/2020-gw/investigation/source-samples.json",
+        "catch/2020-gw/investigation/replay-closure.json"
+      ],
+      "desktopEvidence": [
+        "catch/2020-gw/desktop-review.json",
+        "catch/2020-gw/investigation/script-syntax.json",
+        "catch/2020-gw/investigation/local-http-payloads.json"
+      ],
+      "originalEvidence": [
+        "catch/2020-gw/original-view.json",
+        "catch/2020-gw/desktop-review.json"
+      ],
+      "latestSourceCommit": "a54438dd93794fbc2585ea338abb8306f71368d0",
+      "originalFiles": 137,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2020-kouhaku",
+      "works": 56,
+      "status": "reviewed-with-exceptions",
+      "dataSha256": "975eb9c1133954be6f05341f3c30ea6e43297774de0a44a2919a57d7fff88801",
+      "sourceEvidence": [
+        "catch/2020-kouhaku/recovery.json",
+        "catch/2020-kouhaku/source-comparison.json",
+        "catch/2020-kouhaku/source/live/manifest.json",
+        "catch/2020-kouhaku/source/resources/manifest.json",
+        "catch/2020-kouhaku/investigation/historical-42.json",
+        "catch/2020-kouhaku/investigation/replay-closure.json"
+      ],
+      "desktopEvidence": [
+        "catch/2020-kouhaku/desktop-review.json",
+        "catch/2020-kouhaku/investigation/local-http-payloads.json"
+      ],
+      "originalEvidence": [
+        "catch/2020-kouhaku/original-view.json",
+        "catch/2020-kouhaku/desktop-review.json"
+      ],
+      "latestSourceCommit": "174bef47dd9decedef7b45a84118cc3b9bd9562b",
+      "originalFiles": 216,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2020-summer",
+      "works": 47,
+      "status": "reviewed-with-exceptions",
+      "dataSha256": "bbf4f623213358c56ef517cd6d2776f5a6be28ce844ea651b6fe219a92bc7d21",
+      "sourceEvidence": [
+        "catch/2020-summer/recovery.json",
+        "catch/2020-summer/source-comparison.json",
+        "catch/2020-summer/source/live/manifest.json",
+        "catch/2020-summer/source/resources/manifest.json",
+        "catch/2020-summer/investigation/text-structure-comparison.json",
+        "catch/2020-summer/investigation/replay-closure.json"
+      ],
+      "desktopEvidence": [
+        "catch/2020-summer/desktop-review.json",
+        "catch/2020-summer/investigation/local-http-payloads.json"
+      ],
+      "originalEvidence": [
+        "catch/2020-summer/original-view.json",
+        "catch/2020-summer/desktop-review.json"
+      ],
+      "latestSourceCommit": "b63b86c6801fc1ce7b1f53d1f9ea6c669d4739b5",
+      "originalFiles": 166,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2019-gw",
+      "works": 38,
+      "status": "reviewed-with-exceptions",
+      "dataSha256": "ed50a8e74666d5744f8e9d668cf8da2891f47461eaefe3a3150a577bf6e65d0b",
+      "sourceEvidence": [
+        "catch/2019-gw/recovery.json",
+        "catch/2019-gw/source-comparison.json",
+        "catch/2019-gw/source/live/manifest.json",
+        "catch/2019-gw/source/resources/manifest.json",
+        "catch/2019-gw/investigation/source-address-confirmation.json",
+        "catch/2019-gw/investigation/text-structure-comparison.json",
+        "catch/2019-gw/investigation/navigation-source-review.json",
+        "catch/2019-gw/investigation/replay-closure.json"
+      ],
+      "desktopEvidence": [
+        "catch/2019-gw/desktop-review.json",
+        "catch/2019-gw/investigation/local-http-payloads.json"
+      ],
+      "originalEvidence": [
+        "catch/2019-gw/original-view.json",
+        "catch/2019-gw/desktop-review.json"
+      ],
+      "latestSourceCommit": "3064508167d29e74d1df272ea71510d56f354fc1",
+      "originalFiles": 147,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2019-kouhaku",
+      "works": 57,
+      "status": "reviewed-with-exceptions",
+      "dataSha256": "646a7de7c378307e1a64c0f05c0ed6467d5ca5498b4d670d9ff07172078a6870",
+      "sourceEvidence": [
+        "catch/2019-kouhaku/recovery.json",
+        "catch/2019-kouhaku/source-comparison.json",
+        "catch/2019-kouhaku/source/live/manifest.json",
+        "catch/2019-kouhaku/source/resources/manifest.json",
+        "catch/2019-kouhaku/investigation/source-encoding-review.json",
+        "catch/2019-kouhaku/investigation/text-structure-comparison.json",
+        "catch/2019-kouhaku/investigation/group-source-mapping.json",
+        "catch/2019-kouhaku/investigation/navigation-source-review.json",
+        "catch/2019-kouhaku/investigation/replay-closure.json"
+      ],
+      "desktopEvidence": [
+        "catch/2019-kouhaku/desktop-review.json",
+        "catch/2019-kouhaku/investigation/local-http-payloads.json"
+      ],
+      "originalEvidence": [
+        "catch/2019-kouhaku/original-view.json",
+        "catch/2019-kouhaku/desktop-review.json"
+      ],
+      "latestSourceCommit": "70d249b2aba5a05eac0e1161e33bbe309296455d",
+      "originalFiles": 288,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2019-summer",
+      "works": 52,
+      "status": "reviewed-with-exceptions",
+      "dataSha256": "972fa0733e2ad105d6925b815c285961878e6c38e01099058f86f106264efbc6",
+      "sourceEvidence": [
+        "catch/2019-summer/recovery.json",
+        "catch/2019-summer/source-comparison.json",
+        "catch/2019-summer/source/live/manifest.json",
+        "catch/2019-summer/source/archive/manifest.json",
+        "catch/2019-summer/source/images/manifest.json",
+        "catch/2019-summer/source/dependencies/manifest.json",
+        "catch/2019-summer/investigation/dated-snapshot-comparison.json",
+        "catch/2019-summer/investigation/replay-closure.json"
+      ],
+      "desktopEvidence": [
+        "catch/2019-summer/desktop-review.json",
+        "catch/2019-summer/investigation/local-http-payloads.json"
+      ],
+      "originalEvidence": [
+        "catch/2019-summer/original-view.json",
+        "catch/2019-summer/desktop-review.json"
+      ],
+      "latestSourceCommit": "9c2a7f3ae5c7524fed4eda772ca1020d57e880a9",
+      "originalFiles": 167,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2018-gw",
+      "works": 35,
+      "status": "reviewed-with-exceptions",
+      "dataSha256": "9b131cec98bdb28b5911d6964b2bbdba5822603ca21ab29c998d433f47648c34",
+      "sourceEvidence": [
+        "catch/2018-gw/recovery.json",
+        "catch/2018-gw/source-comparison.json",
+        "catch/2018-gw/source/archive/manifest.json",
+        "catch/2018-gw/source/resources/manifest.json",
+        "catch/2018-gw/source/live/manifest.json",
+        "catch/2018-gw/investigation/proxy-controller.json",
+        "catch/2018-gw/investigation/old-gallery-reconciliation.json",
+        "catch/2018-gw/investigation/replay-closure.json"
+      ],
+      "desktopEvidence": [
+        "catch/2018-gw/desktop-review.json",
+        "catch/2018-gw/investigation/local-http-payloads.json"
+      ],
+      "originalEvidence": [
+        "catch/2018-gw/original-view.json",
+        "catch/2018-gw/desktop-review.json"
+      ],
+      "latestSourceCommit": "94b6b5681accd0c99b196628e43e96894dbf90a5",
+      "originalFiles": 127,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2018-gw-2",
+      "works": 32,
+      "status": "reviewed-with-exceptions",
+      "dataSha256": "27af40a13d31166131c1db2f124680728e18b95f247784ee89db0efe1ad14d4f",
+      "sourceEvidence": [
+        "catch/2018-gw-2/recovery.json",
+        "catch/2018-gw-2/source-comparison.json",
+        "catch/2018-gw-2/source/archive/manifest.json",
+        "catch/2018-gw-2/source/resources/manifest.json",
+        "catch/2018-gw-2/investigation/source-network-review.json",
+        "catch/2018-gw-2/investigation/public-backup-review.json",
+        "catch/2018-gw-2/investigation/old-gallery-reconciliation.json",
+        "catch/2018-gw-2/investigation/replay-closure.json"
+      ],
+      "desktopEvidence": [
+        "catch/2018-gw-2/desktop-review.json",
+        "catch/2018-gw-2/investigation/local-http-payloads.json"
+      ],
+      "originalEvidence": [
+        "catch/2018-gw-2/original-view.json",
+        "catch/2018-gw-2/desktop-review.json"
+      ],
+      "latestSourceCommit": "428285e9637925d32b34758afe1ec392a45e8053",
+      "originalFiles": 79,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2018-kouhaku",
+      "works": 61,
+      "status": "reviewed",
+      "dataSha256": "06383b27a9749ae50bcf4bd82bab3103919f5d0d48ba0180ee7a7649b699a717",
+      "sourceEvidence": [
+        "catch/2018-kouhaku/recovery.json",
+        "catch/2018-kouhaku/source-comparison.json",
+        "catch/2018-kouhaku/source/live/manifest.json",
+        "catch/2018-kouhaku/source/resources/manifest.json",
+        "catch/2018-kouhaku/investigation/proxy-region.json",
+        "catch/2018-kouhaku/investigation/old-gallery-reconciliation.json",
+        "catch/2018-kouhaku/investigation/navigation-source-review.json",
+        "catch/2018-kouhaku/investigation/entry-backlink-probe.json",
+        "catch/2018-kouhaku/investigation/replay-closure.json"
+      ],
+      "desktopEvidence": [
+        "catch/2018-kouhaku/desktop-review.json",
+        "catch/2018-kouhaku/investigation/local-http-payloads.json"
+      ],
+      "originalEvidence": [
+        "catch/2018-kouhaku/original-view.json",
+        "catch/2018-kouhaku/desktop-review.json"
+      ],
+      "latestSourceCommit": "23b2db64f06bc31fc2f5b4f7f75b994a3d14b5ce",
+      "originalFiles": 227,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2018-summer",
+      "works": 45,
+      "status": "reviewed",
+      "dataSha256": "25f3540c315189d986b06d3baf49635648a8466f8572169c27522ba726a56724",
+      "sourceEvidence": [
+        "catch/2018-summer/recovery.json",
+        "catch/2018-summer/source-comparison.json",
+        "catch/2018-summer/source/live/manifest.json",
+        "catch/2018-summer/source/live/deep-manifest.json",
+        "catch/2018-summer/source/archive/manifest.json",
+        "catch/2018-summer/source/resources/manifest.json",
+        "catch/2018-summer/investigation/original-cdx.json",
+        "catch/2018-summer/investigation/entry02-hover-response.json",
+        "catch/2018-summer/investigation/scope-review.json",
+        "catch/2018-summer/investigation/old-gallery-reconciliation.json",
+        "catch/2018-summer/investigation/replay-closure.json"
+      ],
+      "desktopEvidence": [
+        "catch/2018-summer/desktop-review.json",
+        "catch/2018-summer/investigation/local-http-payloads.json"
+      ],
+      "originalEvidence": [
+        "catch/2018-summer/original-view.json",
+        "catch/2018-summer/desktop-review.json"
+      ],
+      "latestSourceCommit": "4ec6cb76c2116b1a805a1938ae5f92a1cd1f8242",
+      "originalFiles": 153,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2017-gw",
+      "works": 51,
+      "status": "reviewed-with-exceptions",
+      "dataSha256": "34be99e70f93174caf9aae7bb2b25f149daf902c988ca16826dad1b16fe865dc",
+      "sourceEvidence": [
+        "catch/2017-gw/recovery.json",
+        "catch/2017-gw/source-comparison.json",
+        "catch/2017-gw/source/live/manifest.json",
+        "catch/2017-gw/source/resources/manifest.json",
+        "catch/2017-gw/investigation/source-gap-review.json",
+        "catch/2017-gw/investigation/presentation-corrections.json",
+        "catch/2017-gw/investigation/old-gallery-reconciliation.json",
+        "catch/2017-gw/investigation/replay-closure.json",
+        "catch/2017-gw/source-supplement.json",
+        "catch/2017-gw/source/archive/manifest.json",
+        "catch/2017-gw/source/supplemental-live/manifest.json",
+        "catch/2017-gw/investigation/archive-supplement-provenance.json",
+        "catch/2017-gw/investigation/restored21-title-evidence.json"
+      ],
+      "desktopEvidence": [
+        "catch/2017-gw/desktop-review.json",
+        "catch/2017-gw/investigation/local-http-payloads.json"
+      ],
+      "originalEvidence": [
+        "catch/2017-gw/original-view.json",
+        "catch/2017-gw/desktop-review.json"
+      ],
+      "latestSourceCommit": "5ae5eda208067140be54a2fa47f4b39147efa6d1",
+      "originalFiles": 194,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2017-kouhaku",
+      "works": 71,
+      "status": "reviewed-with-exceptions",
+      "dataSha256": "eabce5fb9f4e12fb03843513dfae9e8cd6b47e1759425a82f998444ec119d881",
+      "sourceEvidence": [
+        "catch/2017-kouhaku/recovery.json",
+        "catch/2017-kouhaku/source-comparison.json",
+        "catch/2017-kouhaku/source/live/manifest.json",
+        "catch/2017-kouhaku/source/resources/manifest.json",
+        "catch/2017-kouhaku/investigation/runtime-corrections.json",
+        "catch/2017-kouhaku/investigation/old-gallery-reconciliation.json",
+        "catch/2017-kouhaku/investigation/replay-closure.json",
+        "catch/2017-kouhaku/investigation/historical-gw-link.json"
+      ],
+      "desktopEvidence": [
+        "catch/2017-kouhaku/desktop-review.json",
+        "catch/2017-kouhaku/investigation/local-http-payloads.json"
+      ],
+      "originalEvidence": [
+        "catch/2017-kouhaku/original-view.json",
+        "catch/2017-kouhaku/desktop-review.json"
+      ],
+      "latestSourceCommit": "b53edd3cd2a820d8dbf81879c7dc9deaf20cd9f5",
+      "originalFiles": 197,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2017-summer",
+      "works": 45,
+      "status": "reviewed-with-exceptions",
+      "dataSha256": "e77f0459cd68745249576bd294d978b382442ec9a5ae156643ab4da52eccb6a6",
+      "sourceEvidence": [
+        "catch/2017-summer/recovery.json",
+        "catch/2017-summer/source-comparison.json",
+        "catch/2017-summer/source/live/manifest.json",
+        "catch/2017-summer/source/resources/manifest.json",
+        "catch/2017-summer/source/archive/manifest.json",
+        "catch/2017-summer/source/original-resources/manifest.json",
+        "catch/2017-summer/source/original-fallback/manifest.json",
+        "catch/2017-summer/investigation/historical-origin.json",
+        "catch/2017-summer/investigation/source32-record.json",
+        "catch/2017-summer/investigation/restored32-source-record.json",
+        "catch/2017-summer/investigation/restored32-title-evidence.json",
+        "catch/2017-summer/investigation/old-gallery-reconciliation.json",
+        "catch/2017-summer/investigation/replay-closure.json",
+        "catch/2017-summer/investigation/preview-reference-closure.json"
+      ],
+      "desktopEvidence": [
+        "catch/2017-summer/desktop-review.json",
+        "catch/2017-summer/investigation/local-http-payloads.json"
+      ],
+      "originalEvidence": [
+        "catch/2017-summer/original-view.json",
+        "catch/2017-summer/desktop-review.json"
+      ],
+      "latestSourceCommit": "7fca773f35bd20696758bdde3e927dbbae54782e",
+      "originalFiles": 187,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2016-gw",
+      "works": 64,
+      "status": "reviewed",
+      "dataSha256": "71558c716adda0c433211ecc2387504c7dddbce45c33605d7c3914994cd88f7c",
+      "sourceEvidence": [
+        "catch/2016-gw/recovery.json",
+        "catch/2016-gw/source/archive/manifest.json",
+        "catch/2016-gw/source/resources/manifest.json",
+        "catch/2016-gw/investigation/official-title-evidence.json",
+        "catch/2016-gw/investigation/data-reconciliation.json"
+      ],
+      "desktopEvidence": [
+        "catch/2016-gw/desktop-review.json",
+        "catch/2016-gw/investigation/local-http-payloads.json"
+      ],
+      "originalEvidence": [
+        "catch/2016-gw/original-view.json",
+        "catch/2016-gw/desktop-review.json"
+      ],
+      "latestSourceCommit": "b39399a700ed936dfaba761a91703d0c1e8e4f56",
+      "originalFiles": 219,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2016-kouhaku",
+      "works": 71,
+      "status": "reviewed-with-exceptions",
+      "dataSha256": "b63a12b9f96e4f49b2c0645ad8152e4da6394a201029544ddc712bccfe65b298",
+      "sourceEvidence": [
+        "catch/2016-kouhaku/recovery.json",
+        "catch/2016-kouhaku/source/live/manifest.json",
+        "catch/2016-kouhaku/source/features/manifest.json",
+        "catch/2016-kouhaku/source/resources/manifest.json",
+        "catch/2016-kouhaku/investigation/data-reconciliation.json",
+        "catch/2016-kouhaku/investigation/archive-supplement.json"
+      ],
+      "desktopEvidence": [
+        "catch/2016-kouhaku/desktop-review.json",
+        "catch/2016-kouhaku/investigation/local-http-payloads.json"
+      ],
+      "originalEvidence": [
+        "catch/2016-kouhaku/original-view.json",
+        "catch/2016-kouhaku/desktop-review.json"
+      ],
+      "latestSourceCommit": "7c7387e4308a1e13d46670aced80390df3f3f0c5",
+      "originalFiles": 587,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2016-summer",
+      "works": 50,
+      "status": "reviewed",
+      "dataSha256": "f5340b782a4f86c5b8e33784a00476fa5618fa9488f37f9efee3de34579a6721",
+      "sourceEvidence": [
+        "catch/2016-summer/recovery.json",
+        "catch/2016-summer/source/archive/manifest.json",
+        "catch/2016-summer/source/resources/manifest.json",
+        "catch/2016-summer/source/live/manifest.json",
+        "catch/2016-summer/investigation/original-cdx.json",
+        "catch/2016-summer/investigation/data-reconciliation.json"
+      ],
+      "desktopEvidence": [
+        "catch/2016-summer/desktop-review.json",
+        "catch/2016-summer/investigation/local-http-payloads.json"
+      ],
+      "originalEvidence": [
+        "catch/2016-summer/original-view.json",
+        "catch/2016-summer/desktop-review.json"
+      ],
+      "latestSourceCommit": "863f2fc90cff4e338d40db77399e7a96304436ec",
+      "originalFiles": 102,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2016-summer-2",
+      "works": 58,
+      "status": "reviewed",
+      "dataSha256": "be2fdf63dce815d32b16171b987ce72953202f68a6902836e76f8f9dc4842cbe",
+      "sourceEvidence": [
+        "catch/2016-summer-2/recovery.json",
+        "catch/2016-summer-2/source/live/manifest.json",
+        "catch/2016-summer-2/source/resources/manifest.json",
+        "catch/2016-summer-2/investigation/data-reconciliation.json"
+      ],
+      "desktopEvidence": [
+        "catch/2016-summer-2/desktop-review.json",
+        "catch/2016-summer-2/investigation/local-http-payloads.json"
+      ],
+      "originalEvidence": [
+        "catch/2016-summer-2/original-view.json",
+        "catch/2016-summer-2/desktop-review.json"
+      ],
+      "latestSourceCommit": "c87a297c79ab4da3c14276de64912e71b23dd60f",
+      "originalFiles": 287,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2015-gw",
+      "works": 72,
+      "status": "reviewed",
+      "dataSha256": "0de87408aec574a5cd3dcd049cbe8a82d0aae1f5bd40a0b45118445db7ad5038",
+      "sourceEvidence": [
+        "catch/2015-gw/recovery.json",
+        "catch/preload-gallery-correction.json",
+        "catch/title-source-comparison.json"
+      ],
+      "desktopEvidence": [
+        "docs/restart.md",
+        "test-results/batch2-2015-gw-list.png",
+        "test-results/batch2-2015-gw-detail.png",
+        "catch/preload-gallery-review.json",
+        "catch/title-ui-review.json",
+        "catch/title-replay-review.json"
+      ],
+      "originalEvidence": [
+        "catch/2015-gw/original-view.json",
+        "catch/2015-gw/original-desktop-review.json"
+      ],
+      "latestSourceCommit": "bf002d561937c4d4d972e644b9d13420208f337e",
+      "originalFiles": 249,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2015-kouhaku",
+      "works": 92,
+      "status": "reviewed",
+      "dataSha256": "82c9d652f6670e3e01c50dd5713e4a531e186137562ebda3447ea84dc1cb0ced",
+      "sourceEvidence": [
+        "catch/2015-kouhaku/recovery.json",
+        "catch/2015-kouhaku/source/recovery/manifest.json",
+        "catch/preload-gallery-correction.json"
+      ],
+      "desktopEvidence": [
+        "catch/2015-kouhaku/desktop-review.json",
+        "test-results/review-2015-kouhaku-list.png",
+        "test-results/review-2015-kouhaku-detail44.png",
+        "catch/preload-gallery-review.json"
+      ],
+      "originalEvidence": [
+        "catch/2015-kouhaku/original-view.json",
+        "catch/2015-kouhaku/original-desktop-review.json"
+      ],
+      "latestSourceCommit": "d24d412d8dba5a7184169d7036c82dc8007f0b02",
+      "originalFiles": 341,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2015-summer",
+      "works": 77,
+      "status": "reviewed-with-content-restriction",
+      "dataSha256": "5aac749970afe23aaaa0f6bda856fd03c549f14a2c6631fc893aca338e103d77",
+      "sourceEvidence": [
+        "catch/2015-summer/recovery.json",
+        "catch/2015-summer/image-recovery.json",
+        "catch/title-source-comparison.json",
+        "catch/2015-summer/external-image-recovery.json"
+      ],
+      "desktopEvidence": [
+        "catch/2015-summer/desktop-review.json",
+        "test-results/review-2015-summer-list.png",
+        "test-results/review-2015-summer-detail01.png",
+        "test-results/review-2015-summer-original-list.png",
+        "test-results/review-2015-summer-original-detail01.png",
+        "test-results/review-2015-summer-restricted-detail.png",
+        "test-results/review-2015-summer-original-restricted-detail.png",
+        "catch/2015-summer/footer-desktop-review.json",
+        "catch/title-ui-review.json",
+        "catch/title-replay-review.json"
+      ],
+      "originalEvidence": [
+        "catch/2015-summer/original-view.json",
+        "catch/2015-summer/desktop-review.json",
+        "catch/2015-summer/footer-desktop-review.json"
+      ],
+      "latestSourceCommit": "176fda8d9c2a9af44372a6b545c0e21525a90712",
+      "originalFiles": 206,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2014-gw",
+      "works": 69,
+      "status": "reviewed",
+      "dataSha256": "0fe35c0cfdc617cd97c6b8ad3ce9c38fa867f944e2491a0d8799eae8aa06a066",
+      "sourceEvidence": [
+        "catch/2014-gw/recovery.json",
+        "catch/2014-gw/screenshot-recovery.json"
+      ],
+      "desktopEvidence": [
+        "docs/restart.md",
+        "test-results/restart-desktop-2014-gw-list.png",
+        "test-results/restart-desktop-2014-gw-detail.png"
+      ],
+      "originalEvidence": [
+        "catch/2014-gw/original-view.json",
+        "catch/2014-gw/original-desktop-review.json"
+      ],
+      "latestSourceCommit": "a44c209431f7c1f8a56d6a9d0596b6a6ea07bf38",
+      "originalFiles": 213,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2014-kouhaku",
+      "works": 113,
+      "status": "reviewed-with-content-restriction",
+      "dataSha256": "378a58bff6b102b68441578528582384927931e900af597e5bd65f4b90942944",
+      "sourceEvidence": [
+        "catch/2014-kouhaku/recovery.json",
+        "catch/2014-kouhaku/source-comparison.json",
+        "catch/2014-kouhaku/original-view.json",
+        "catch/title-source-comparison.json"
+      ],
+      "desktopEvidence": [
+        "catch/2014-kouhaku/desktop-review.json",
+        "catch/2014-kouhaku/route-review.json",
+        "test-results/review-2014-kouhaku-list.png",
+        "test-results/review-2014-kouhaku-detail001.png",
+        "test-results/review-2014-kouhaku-sample000.png",
+        "test-results/review-2014-kouhaku-restricted039.png",
+        "test-results/review-2014-kouhaku-original-list.png",
+        "test-results/review-2014-kouhaku-original-detail001.png",
+        "test-results/review-2014-kouhaku-original-restricted039.png",
+        "catch/title-ui-review.json",
+        "catch/title-replay-review.json"
+      ],
+      "originalEvidence": [
+        "catch/2014-kouhaku/original-view.json",
+        "catch/2014-kouhaku/desktop-review.json"
+      ],
+      "latestSourceCommit": "663b9258ce5603b4758444a6897793f04606775b",
+      "originalFiles": 398,
+      "originalMissingRecorded": 1
+    },
+    {
+      "festivalId": "2014-summer",
+      "works": 73,
+      "status": "reviewed",
+      "dataSha256": "fa5e9143633802b7d2119032586a02a21dfebd2da2211d34badc2b368a61a4c7",
+      "sourceEvidence": [
+        "catch/2014-summer/recovery.json",
+        "catch/2014-summer/source-comparison.json",
+        "catch/2014-summer/original-view.json",
+        "catch/title-source-comparison.json"
+      ],
+      "desktopEvidence": [
+        "catch/2014-summer/desktop-review.json",
+        "catch/2014-summer/route-review.json",
+        "catch/2014-summer/replay-review.json",
+        "test-results/review-2014-summer-list.png",
+        "test-results/review-2014-summer-detail00.png",
+        "test-results/review-2014-summer-original-list.png",
+        "test-results/review-2014-summer-original-detail00.png",
+        "catch/title-ui-review.json",
+        "catch/title-replay-review.json"
+      ],
+      "originalEvidence": [
+        "catch/2014-summer/original-view.json",
+        "catch/2014-summer/desktop-review.json"
+      ],
+      "latestSourceCommit": "dd8ab4ee7988275aeeba4d6a51d0e287ce107231",
+      "originalFiles": 251,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2014-tsukusure-festival",
+      "works": 91,
+      "status": "reviewed",
+      "dataSha256": "71441996cf957b1917af1baceafd49d114cfc36797a8b8045bee63b3ddf7f473",
+      "sourceEvidence": [
+        "catch/2014-tsukusure-festival/recovery.json",
+        "catch/2014-tsukusure-festival/source-comparison.json",
+        "catch/2014-tsukusure-festival/legacy-reconciliation.json",
+        "catch/2014-tsukusure-festival/original-view.json"
+      ],
+      "desktopEvidence": [
+        "catch/2014-tsukusure-festival/desktop-review.json",
+        "catch/2014-tsukusure-festival/original-desktop-review.json",
+        "catch/2014-tsukusure-festival/route-review.json",
+        "catch/2014-tsukusure-festival/audio-browser-review.json",
+        "catch/2014-tsukusure-festival/replay-review.json"
+      ],
+      "originalEvidence": [
+        "catch/2014-tsukusure-festival/original-view.json",
+        "catch/2014-tsukusure-festival/original-desktop-review.json"
+      ],
+      "latestSourceCommit": "ad8bc4e6a3a7fb896c4cb5a08940a8d837dd250e",
+      "originalFiles": 232,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2013-gw",
+      "works": 66,
+      "status": "reviewed",
+      "dataSha256": "0397bb8ee9a843da558f16a86772b4a718b1ffb1427fef2266f455fd235f8551",
+      "sourceEvidence": [
+        "catch/2013-gw/recovery.json",
+        "catch/2013-gw/source-comparison.json",
+        "catch/2013-gw/title-review.json",
+        "catch/2013-gw/content-review.json"
+      ],
+      "desktopEvidence": [
+        "catch/2013-gw/desktop-review.json",
+        "catch/2013-gw/route-review.json",
+        "catch/2013-gw/image-browser-review.json",
+        "catch/2013-gw/replay-review.json"
+      ],
+      "originalEvidence": [
+        "catch/2013-gw/original-view.json",
+        "catch/2013-gw/desktop-review.json"
+      ],
+      "latestSourceCommit": "117d75549bd949fefa69b4b227d54a6fa88f649f",
+      "originalFiles": 207,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2013-kouhaku",
+      "works": 76,
+      "status": "reviewed",
+      "dataSha256": "45cf501e7039f89672be561808c276eabbc18241c58625978651ac1078f5357e",
+      "sourceEvidence": [
+        "catch/2013-kouhaku/recovery.json",
+        "catch/2013-kouhaku/source-comparison.json",
+        "catch/2013-kouhaku/missing-resource-review.json",
+        "catch/2013-kouhaku/content-review.json"
+      ],
+      "desktopEvidence": [
+        "catch/2013-kouhaku/desktop-review.json",
+        "catch/2013-kouhaku/route-review.json",
+        "catch/2013-kouhaku/image-browser-review.json",
+        "catch/2013-kouhaku/restriction-review.json",
+        "catch/2013-kouhaku/replay-review.json"
+      ],
+      "originalEvidence": [
+        "catch/2013-kouhaku/original-view.json",
+        "catch/2013-kouhaku/desktop-review.json"
+      ],
+      "latestSourceCommit": "663220ec8f9c6d9c0197a0320214c499e0054ea4",
+      "originalFiles": 355,
+      "originalMissingRecorded": 2
+    },
+    {
+      "festivalId": "2013-summer",
+      "works": 72,
+      "status": "reviewed",
+      "dataSha256": "bc5177c0491dd99f8e80d0068e23e6d9bf373e9cb503461154e058655622fa6f",
+      "sourceEvidence": [
+        "catch/2013-summer/recovery.json",
+        "catch/2013-summer/source-comparison.json",
+        "catch/2013-summer/live-comparison.json",
+        "catch/2013-summer/title-review.json",
+        "catch/2013-summer/content-review.json"
+      ],
+      "desktopEvidence": [
+        "catch/2013-summer/desktop-review.json",
+        "catch/2013-summer/route-review.json",
+        "catch/2013-summer/image-browser-review.json",
+        "catch/2013-summer/replay-review.json"
+      ],
+      "originalEvidence": [
+        "catch/2013-summer/original-view.json",
+        "catch/2013-summer/desktop-review.json"
+      ],
+      "latestSourceCommit": "4567e3f0fb642d169ea588b46f1c0c2aa39f64d2",
+      "originalFiles": 243,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2012-gw",
+      "works": 60,
+      "status": "reviewed-with-supplemental-restricted-entry",
+      "dataSha256": "0d5792df95ca9b6a5709a96cbf61b57a2d391b0051d724ffeb9ed6c97dc1129d",
+      "sourceEvidence": [
+        "catch/2012-gw/recovery.json",
+        "catch/2012-gw/source-comparison.json",
+        "catch/2012-gw/content-review.json",
+        "catch/2012-gw/title-review.json",
+        "catch/2012-gw/restricted-structure-review.json",
+        "catch/2012-gw/source/recovery/manifest.json"
+      ],
+      "desktopEvidence": [
+        "catch/2012-gw/desktop-review.json",
+        "catch/2012-gw/route-review.json",
+        "catch/2012-gw/image-browser-review.json",
+        "catch/2012-gw/restriction-review.json",
+        "catch/2012-gw/replay-review.json"
+      ],
+      "originalEvidence": [
+        "catch/2012-gw/original-view.json",
+        "catch/2012-gw/desktop-review.json",
+        "catch/2012-gw/restricted-structure-review.json"
+      ],
+      "latestSourceCommit": "45e82c9e7fb5d49367db6eddded8576e020416b2",
+      "originalFiles": 175,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2012-kouhaku",
+      "works": 96,
+      "status": "reviewed",
+      "dataSha256": "cd1bda8e23bcf2978b5c16161ed68783c16b4208e377a1f41222e5aff768cd46",
+      "sourceEvidence": [
+        "catch/2012-kouhaku/recovery.json",
+        "catch/2012-kouhaku/rearchive-fetch.json",
+        "catch/2012-kouhaku/rearchive-resource-fetch.json",
+        "catch/2012-kouhaku/rearchive-source-comparison.json"
+      ],
+      "desktopEvidence": [
+        "catch/2012-kouhaku/rearchive-desktop-review.json",
+        "catch/2012-kouhaku/rearchive-replay-review.json"
+      ],
+      "originalEvidence": [
+        "catch/2012-kouhaku/original-view.json",
+        "catch/2012-kouhaku/rearchive-desktop-review.json"
+      ],
+      "latestSourceCommit": "1475d02c813d6fac5677ea9c8c6c0802123e43bd",
+      "originalFiles": 515,
+      "originalMissingRecorded": 53
+    },
+    {
+      "festivalId": "2012-magic-festival",
+      "works": 43,
+      "status": "reviewed",
+      "dataSha256": "7ee2bf78e7a29d63a2db09448843898d1d9c0bb3650f377b55a49feece492d89",
+      "sourceEvidence": [
+        "catch/2012-magic-festival/recovery.json",
+        "catch/2012-magic-festival/rearchive-fetch.json",
+        "catch/2012-magic-festival/rearchive-source-comparison.json"
+      ],
+      "desktopEvidence": [
+        "catch/2012-magic-festival/rearchive-desktop-review.json",
+        "catch/2012-magic-festival/rearchive-replay-review.json"
+      ],
+      "originalEvidence": [
+        "catch/2012-magic-festival/original-view.json",
+        "catch/2012-magic-festival/rearchive-desktop-review.json"
+      ],
+      "latestSourceCommit": "071b3ecc40695c9aa31973a5298da67bfd08d600",
+      "originalFiles": 134,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2012-summer",
+      "works": 90,
+      "status": "reviewed",
+      "dataSha256": "7dc0379789899c422681c28ac924d40dac763b71a20b8d7e4dbb3226b6ed5a20",
+      "sourceEvidence": [
+        "catch/2012-summer/recovery.json",
+        "catch/2012-summer/rearchive-fetch.json",
+        "catch/2012-summer/rearchive-source-comparison.json"
+      ],
+      "desktopEvidence": [
+        "catch/2012-summer/rearchive-desktop-review.json",
+        "catch/2012-summer/rearchive-replay-review.json"
+      ],
+      "originalEvidence": [
+        "catch/2012-summer/original-view.json",
+        "catch/2012-summer/rearchive-desktop-review.json"
+      ],
+      "latestSourceCommit": "c358e5379c89f57ce2699be261ec28776c3f886f",
+      "originalFiles": 183,
+      "originalMissingRecorded": 1
+    },
+    {
+      "festivalId": "2012-toppuu-festival",
+      "works": 19,
+      "status": "reviewed",
+      "dataSha256": "138c5c84653a9637a7cdc7790e7e52111b6e698a0d7f7331677f4ba66b917805",
+      "sourceEvidence": [
+        "catch/2012-toppuu-festival/recovery.json",
+        "catch/2012-toppuu-festival/source-comparison.json",
+        "catch/2012-toppuu-festival/local-resource-review.json"
+      ],
+      "desktopEvidence": [
+        "catch/2012-toppuu-festival/desktop-review.json",
+        "catch/2012-toppuu-festival/replay-review.json"
+      ],
+      "originalEvidence": [
+        "catch/2012-toppuu-festival/original-view.json",
+        "catch/2012-toppuu-festival/desktop-review.json"
+      ],
+      "latestSourceCommit": "cb3822f4e6e587bb31475fa818e322a2d8e79554",
+      "originalFiles": 72,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2011-denpa-game-festival",
+      "works": 43,
+      "status": "reviewed",
+      "dataSha256": "bfa1c6ebc37b456616c10aed1a721647e7552f0bdbfc2073db1d113cced803ce",
+      "sourceEvidence": [
+        "catch/2011-denpa-game-festival/recovery.json",
+        "catch/2011-denpa-game-festival/source-comparison.json",
+        "catch/2011-denpa-game-festival/title-review.json",
+        "catch/2011-denpa-game-festival/investigation/discovery.json"
+      ],
+      "desktopEvidence": [
+        "catch/2011-denpa-game-festival/desktop-review.json",
+        "catch/2011-denpa-game-festival/replay-review.json"
+      ],
+      "originalEvidence": [
+        "catch/2011-denpa-game-festival/original-view.json",
+        "catch/2011-denpa-game-festival/desktop-review.json"
+      ],
+      "latestSourceCommit": "33985a6a40785c2e7c1af7f37afc8c5fe90be3b8",
+      "originalFiles": 144,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2011-gw",
+      "works": 89,
+      "status": "reviewed-with-documented-source-gaps",
+      "dataSha256": "585b0f2dd43a97cfb31892bd79299fa62f9379e5d802279f90b5c63a4ee1ead9",
+      "sourceEvidence": [
+        "catch/2011-gw/recovery.json",
+        "catch/2011-gw/source-comparison.json",
+        "catch/2011-gw/title-evidence.json",
+        "catch/2011-gw/investigation/detail-fetch.json",
+        "catch/2011-gw/investigation/entry063-availability.bin"
+      ],
+      "desktopEvidence": [
+        "catch/2011-gw/desktop-review.json",
+        "catch/2011-gw/replay-review.json"
+      ],
+      "originalEvidence": [
+        "catch/2011-gw/original-view.json",
+        "catch/2011-gw/desktop-review.json"
+      ],
+      "latestSourceCommit": "066ab395877e570532838f60e15f6d54aedec47f",
+      "originalFiles": 256,
+      "originalMissingRecorded": 2
+    },
+    {
+      "festivalId": "2011-kouhaku",
+      "works": 98,
+      "status": "reviewed-with-documented-source-gaps",
+      "dataSha256": "ede83485eb5c22833f2f7d922c4ea287eec18445c505af1311a6a4514de77d13",
+      "sourceEvidence": [
+        "catch/2011-kouhaku/recovery.json",
+        "catch/2011-kouhaku/source-comparison.json",
+        "catch/2011-kouhaku/investigation/missing-asset-index-review.json",
+        "catch/2011-kouhaku/investigation/public-backup-listing.json",
+        "catch/2011-kouhaku/image-decode-review.json"
+      ],
+      "desktopEvidence": [
+        "catch/2011-kouhaku/formatted-desktop-review.json",
+        "catch/2011-kouhaku/original-desktop-review.json",
+        "catch/2011-kouhaku/hover-desktop-review.json",
+        "catch/2011-kouhaku/gallery-desktop-review.json",
+        "catch/2011-kouhaku/catalogue-desktop-review.json",
+        "catch/2011-kouhaku/replay-review.json"
+      ],
+      "originalEvidence": [
+        "catch/2011-kouhaku/original-view.json",
+        "catch/2011-kouhaku/original-desktop-review.json",
+        "catch/2011-kouhaku/hover-desktop-review.json"
+      ],
+      "latestSourceCommit": "b448fc6688016d902e6eec1e4a98ff3a2b169d46",
+      "originalFiles": 264,
+      "originalMissingRecorded": 106
+    },
+    {
+      "festivalId": "2011-summer",
+      "works": 108,
+      "status": "reviewed",
+      "dataSha256": "e4f756254f1373bab8193876894ab24bc2c31398b98161203ce545d90981b301",
+      "sourceEvidence": [
+        "catch/2011-summer/recovery.json",
+        "catch/2011-summer/source-comparison.json",
+        "catch/2011-summer/investigation/shared-introduction-map.json",
+        "catch/2011-summer/investigation/established-title-review.json",
+        "catch/2011-summer/image-decode-review.json",
+        "catch/2011-summer/local-resource-review.json"
+      ],
+      "desktopEvidence": [
+        "catch/2011-summer/formatted-desktop-review.json",
+        "catch/2011-summer/original-desktop-review.json",
+        "catch/2011-summer/hover-desktop-review.json",
+        "catch/2011-summer/gallery-desktop-review.json",
+        "catch/2011-summer/catalogue-desktop-review.json",
+        "catch/2011-summer/final-download-desktop-review.json",
+        "catch/2011-summer/replay-review.json"
+      ],
+      "originalEvidence": [
+        "catch/2011-summer/original-view.json",
+        "catch/2011-summer/original-desktop-review.json",
+        "catch/2011-summer/hover-desktop-review.json"
+      ],
+      "latestSourceCommit": "5a2c7028ff6dcd352c9fa5ebcf5c69ea9204f851",
+      "originalFiles": 291,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2011-toppatsu-festival",
+      "works": 26,
+      "status": "reviewed-with-documented-css-omissions",
+      "dataSha256": "fb9f80efd432445de00d2fffe887a8a42b5423d2bda088c09ae05df95082cca5",
+      "sourceEvidence": [
+        "catch/2011-toppatsu-festival/recovery.json",
+        "catch/2011-toppatsu-festival/source-comparison.json",
+        "catch/2011-toppatsu-festival/source/original/manifest.json",
+        "catch/2011-toppatsu-festival/original-view.json",
+        "catch/2011-toppatsu-festival/desktop-review.json"
+      ],
+      "desktopEvidence": [
+        "catch/2011-toppatsu-festival/desktop-review.json",
+        "catch/2011-toppatsu-festival/original-view.json"
+      ],
+      "originalEvidence": [
+        "catch/2011-toppatsu-festival/original-view.json",
+        "catch/2011-toppatsu-festival/desktop-review.json"
+      ],
+      "latestSourceCommit": "c6321e405cdd7bddc8af171aeefbc2f59b84f7b7",
+      "originalFiles": 132,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2010-gw",
+      "works": 68,
+      "status": "reviewed-with-documented-source-gaps",
+      "dataSha256": "83318541ad27060b27f953da08c751bfd7d2e896aa6b9a0a806fcdd7eb1ecd60",
+      "sourceEvidence": [
+        "catch/2010-gw/recovery.json",
+        "catch/2010-gw/source-comparison.json",
+        "catch/2010-gw/source/archive/manifest.json",
+        "catch/2010-gw/investigation/site-cdx-all.json",
+        "test-results/2010gw-proxy-session.json",
+        "catch/2010-gw/original-view.json",
+        "catch/2010-gw/desktop-review.json"
+      ],
+      "desktopEvidence": [
+        "catch/2010-gw/desktop-review.json",
+        "catch/2010-gw/original-view.json"
+      ],
+      "originalEvidence": [
+        "catch/2010-gw/original-view.json",
+        "catch/2010-gw/desktop-review.json"
+      ],
+      "latestSourceCommit": "a3b3f97cec770f99f404a0701770ffe8e38dd23b",
+      "originalFiles": 78,
+      "originalMissingRecorded": 2
+    },
+    {
+      "festivalId": "2010-kouhaku",
+      "works": 103,
+      "status": "reviewed",
+      "dataSha256": "a16da4c6cba372b831df8e0f28255ab7b6f28afaa1a15948096dfc691a53dd95",
+      "sourceEvidence": [
+        "catch/2010-kouhaku/recovery.json",
+        "catch/2010-kouhaku/source-comparison.json",
+        "catch/2010-kouhaku/source/original/manifest.json",
+        "catch/2010-kouhaku/investigation/resource-inventory.json",
+        "catch/2010-kouhaku/investigation/direct-resource-capture-log.json",
+        "catch/2010-kouhaku/original-resources.json",
+        "catch/2010-kouhaku/original-view.json"
+      ],
+      "desktopEvidence": [
+        "catch/2010-kouhaku/desktop-review.json",
+        "catch/2010-kouhaku/original-view.json"
+      ],
+      "originalEvidence": [
+        "catch/2010-kouhaku/original-view.json",
+        "catch/2010-kouhaku/desktop-review.json"
+      ],
+      "latestSourceCommit": "8552b32f020da9abdf48e15a739f27fb0c704f32",
+      "originalFiles": 476,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2010-summer",
+      "works": 90,
+      "status": "reviewed-with-documented-source-gaps",
+      "dataSha256": "37b4d143c0c50b84f18d601c529b5df71304ed7639de8e4f23b5ec70a08c5642",
+      "sourceEvidence": [
+        "catch/2010-summer/recovery.json",
+        "catch/2010-summer/source-comparison.json",
+        "catch/2010-summer/source/archive/manifest.json",
+        "catch/2010-summer/investigation/site-cdx.json",
+        "catch/2010-summer/investigation/archive-capture-plan.json",
+        "catch/2010-summer/investigation/archive-capture-log.json",
+        "catch/2010-summer/investigation/resource-inventory.json",
+        "catch/2010-summer/investigation/index-structure.json",
+        "catch/2010-summer/original-view.json"
+      ],
+      "desktopEvidence": [
+        "catch/2010-summer/desktop-review.json",
+        "catch/2010-summer/original-view.json"
+      ],
+      "originalEvidence": [
+        "catch/2010-summer/original-view.json",
+        "catch/2010-summer/desktop-review.json"
+      ],
+      "latestSourceCommit": "372ef3ebd4bc9889d3b96edf926b68611300bec1",
+      "originalFiles": 156,
+      "originalMissingRecorded": 91
+    },
+    {
+      "festivalId": "2009-gw",
+      "works": 48,
+      "status": "reviewed-with-documented-source-gaps",
+      "dataSha256": "d4174de7dd7aea07c5226c5590738769fffe7135de436b6d41990c77dc34e94b",
+      "sourceEvidence": [
+        "catch/2009-gw/recovery.json",
+        "catch/2009-gw/source-comparison.json",
+        "catch/2009-gw/source/original/manifest.json",
+        "catch/2009-gw/investigation/resource-inventory.json",
+        "catch/2009-gw/investigation/stylesheet-cdx.json",
+        "catch/2009-gw/investigation/favicon-cdx.json",
+        "catch/2009-gw/original-view.json"
+      ],
+      "desktopEvidence": [
+        "catch/2009-gw/desktop-review.json",
+        "catch/2009-gw/original-view.json"
+      ],
+      "originalEvidence": [
+        "catch/2009-gw/original-view.json",
+        "catch/2009-gw/desktop-review.json"
+      ],
+      "latestSourceCommit": "39697493631af3e879a7cbf457b8ef8338da0823",
+      "originalFiles": 2,
+      "originalMissingRecorded": 2
+    },
+    {
+      "festivalId": "2009-kouhaku",
+      "works": 89,
+      "status": "reviewed-with-documented-source-gaps",
+      "dataSha256": "7f9ccf55472df70ed9ac2ad88fd9bda564321c18897357ae13494e27a1bcdd2a",
+      "sourceEvidence": [
+        "catch/2009-kouhaku/recovery.json",
+        "catch/2009-kouhaku/source-comparison.json",
+        "catch/2009-kouhaku/source/original/manifest.json",
+        "catch/2009-kouhaku/investigation/direct-detail-crawl.json",
+        "catch/2009-kouhaku/investigation/direct-asset-crawl.json",
+        "catch/2009-kouhaku/investigation/direct-failures.json",
+        "catch/2009-kouhaku/investigation/proxy-routes.json",
+        "catch/2009-kouhaku/original-view.json"
+      ],
+      "desktopEvidence": [
+        "catch/2009-kouhaku/desktop-review.json",
+        "catch/2009-kouhaku/original-view.json"
+      ],
+      "originalEvidence": [
+        "catch/2009-kouhaku/original-view.json",
+        "catch/2009-kouhaku/desktop-review.json"
+      ],
+      "latestSourceCommit": "bab1eb55d95c6da04fb2fe31f9e8025cee78c8e4",
+      "originalFiles": 201,
+      "originalMissingRecorded": 1
+    },
+    {
+      "festivalId": "2009-ksgfestival",
+      "works": 30,
+      "status": "reviewed-with-documented-source-gaps",
+      "dataSha256": "334d69ae73f27294708b0afff6451380bb0419c2986bfc1844b8085567b988af",
+      "sourceEvidence": [
+        "catch/2009-ksgfestival/recovery.json",
+        "catch/2009-ksgfestival/source-comparison.json",
+        "catch/2009-ksgfestival/source/archive/manifest.json",
+        "catch/2009-ksgfestival/investigation/direct-attempts.json",
+        "catch/2009-ksgfestival/investigation/direct-detail-attempts.json",
+        "catch/2009-ksgfestival/investigation/wayback-captures.json",
+        "catch/2009-ksgfestival/investigation/alternate-captures.json",
+        "catch/2009-ksgfestival/original-view.json"
+      ],
+      "desktopEvidence": [
+        "catch/2009-ksgfestival/desktop-review.json",
+        "catch/2009-ksgfestival/original-view.json"
+      ],
+      "originalEvidence": [
+        "catch/2009-ksgfestival/original-view.json",
+        "catch/2009-ksgfestival/desktop-review.json"
+      ],
+      "latestSourceCommit": "e13304a531385d74bed8beca96cd31ba03f35375",
+      "originalFiles": 31,
+      "originalMissingRecorded": 30
+    },
+    {
+      "festivalId": "2009-silver-week-miruge-festival",
+      "works": 32,
+      "status": "reviewed-with-documented-source-gaps",
+      "dataSha256": "85b3a9d5f56424daa909fc7a127c5e6508f7d3a956ae126e39b847036443d559",
+      "sourceEvidence": [
+        "catch/2009-silver-week-miruge-festival/recovery.json",
+        "catch/2009-silver-week-miruge-festival/source-comparison.json",
+        "catch/2009-silver-week-miruge-festival/source/archive/manifest.json",
+        "catch/2009-silver-week-miruge-festival/investigation/direct-attempts.json",
+        "catch/2009-silver-week-miruge-festival/investigation/direct-source-assets.json",
+        "catch/2009-silver-week-miruge-festival/investigation/prefix-full-cdx.json",
+        "catch/2009-silver-week-miruge-festival/original-view.json"
+      ],
+      "desktopEvidence": [
+        "catch/2009-silver-week-miruge-festival/desktop-review.json",
+        "catch/2009-silver-week-miruge-festival/original-view.json"
+      ],
+      "originalEvidence": [
+        "catch/2009-silver-week-miruge-festival/original-view.json",
+        "catch/2009-silver-week-miruge-festival/desktop-review.json"
+      ],
+      "latestSourceCommit": "57452a26ad8d6e90863e7b3e4234b8de90833af0",
+      "originalFiles": 16,
+      "originalMissingRecorded": 16
+    },
+    {
+      "festivalId": "2009-summer",
+      "works": 99,
+      "status": "reviewed-with-documented-source-gaps",
+      "dataSha256": "47cd6462c50e729835e0d993b1919bb92adbd5906c4205591079f58e8d2b1ce6",
+      "sourceEvidence": [
+        "catch/2009-summer/recovery.json",
+        "catch/2009-summer/source-comparison.json",
+        "catch/2009-summer/source/archive/manifest.json",
+        "catch/2009-summer/source/archive/capture-metadata.json",
+        "catch/2009-summer/investigation/direct-attempts.json",
+        "catch/2009-summer/investigation/direct-source-assets.json",
+        "catch/2009-summer/investigation/prefix-https-cdx.json",
+        "catch/2009-summer/investigation/prefix-http-cdx.json",
+        "catch/2009-summer/investigation/index-https-cdx.json",
+        "catch/2009-summer/investigation/index-http-cdx.json",
+        "catch/2009-summer/investigation/original-timemap.bin",
+        "catch/2009-summer/investigation/resource-coverage.json",
+        "catch/2009-summer/investigation/asset-gap-cdx.json",
+        "catch/2009-summer/investigation/backcolor-redirect.json",
+        "catch/2009-summer/original-view.json"
+      ],
+      "desktopEvidence": [
+        "catch/2009-summer/desktop-review.json",
+        "catch/2009-summer/original-view.json"
+      ],
+      "originalEvidence": [
+        "catch/2009-summer/original-view.json",
+        "catch/2009-summer/desktop-review.json"
+      ],
+      "latestSourceCommit": "f449a281489337402ab837c7a0a02bcd19595b48",
+      "originalFiles": 223,
+      "originalMissingRecorded": 97
+    },
+    {
+      "festivalId": "2008-chuuni-festival",
+      "works": 24,
+      "status": "reviewed-with-documented-source-gaps",
+      "dataSha256": "14dcaeb8cf51f0f90364df70ad8d54b815c1f708c142106e7e1a1e175a2af75c",
+      "sourceEvidence": [
+        "catch/2008-chuuni-festival/recovery.json",
+        "catch/2008-chuuni-festival/source-comparison.json",
+        "catch/2008-chuuni-festival/source/archive/manifest.json",
+        "catch/2008-chuuni-festival/source/archive/capture-metadata.json",
+        "catch/2008-chuuni-festival/investigation/direct-attempts.json",
+        "catch/2008-chuuni-festival/investigation/direct-entry-attempts.json",
+        "catch/2008-chuuni-festival/investigation/direct-source-assets.json",
+        "catch/2008-chuuni-festival/investigation/index-https-cdx.json",
+        "catch/2008-chuuni-festival/investigation/index-http-cdx.json",
+        "catch/2008-chuuni-festival/investigation/prefix-https-cdx.json",
+        "catch/2008-chuuni-festival/investigation/prefix-http-cdx.json",
+        "catch/2008-chuuni-festival/investigation/entry-cdx.json",
+        "catch/2008-chuuni-festival/investigation/asset-cdx.json",
+        "catch/2008-chuuni-festival/investigation/additional-page-cdx.json",
+        "catch/2008-chuuni-festival/investigation/original-timemap.bin",
+        "catch/2008-chuuni-festival/investigation/structural-inventory.json",
+        "catch/2008-chuuni-festival/original-view.json"
+      ],
+      "desktopEvidence": [
+        "catch/2008-chuuni-festival/desktop-review.json",
+        "catch/2008-chuuni-festival/original-view.json"
+      ],
+      "originalEvidence": [
+        "catch/2008-chuuni-festival/original-view.json",
+        "catch/2008-chuuni-festival/desktop-review.json"
+      ],
+      "latestSourceCommit": "3f2de882236aeb8d91bd04f460263e0d6755b379",
+      "originalFiles": 27,
+      "originalMissingRecorded": 32
+    },
+    {
+      "festivalId": "2008-gw",
+      "works": 63,
+      "status": "reviewed",
+      "dataSha256": "6db00a42eaf0765f1808555570927cbde8675b14dc9b1302ba15f5bee41607c4",
+      "sourceEvidence": [
+        "catch/2008-gw/recovery.json",
+        "catch/2008-gw/source-comparison.json",
+        "catch/2008-gw/investigation/direct-source-probes.json",
+        "catch/2008-gw/investigation/direct-asset-attempts.json",
+        "catch/2008-gw/investigation/index-https-cdx.json",
+        "catch/2008-gw/investigation/index-http-cdx.json",
+        "catch/2008-gw/investigation/prefix-https-cdx.json",
+        "catch/2008-gw/investigation/prefix-http-cdx.json",
+        "catch/2008-gw/investigation/wayback-captures.json",
+        "catch/2008-gw/investigation/archive-resource-fetch.json",
+        "catch/2008-gw/investigation/original-timemap.bin",
+        "catch/2008-gw/investigation/structural-inventory.json",
+        "catch/2008-gw/source/archive/manifest.json",
+        "catch/2008-gw/source/archive/capture-metadata.json",
+        "catch/2008-gw/source/archive/index-20220428072419.bin",
+        "catch/2008-gw/original-view.json"
+      ],
+      "desktopEvidence": [
+        "catch/2008-gw/desktop-review.json",
+        "catch/2008-gw/original-view.json"
+      ],
+      "originalEvidence": [
+        "catch/2008-gw/desktop-review.json",
+        "catch/2008-gw/original-view.json"
+      ],
+      "latestSourceCommit": "327033fbe7c9affde71b2b989dd79c14b312ace1",
+      "originalFiles": 71,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2008-jisaku-battle-festival",
+      "works": 4,
+      "status": "reviewed-with-documented-source-gaps",
+      "dataSha256": "6d1f8605eabc54b2ca8f268e2c8c6de5e53da97907c7fc9938197c198ffab9a1",
+      "sourceEvidence": [
+        "catch/2008-jisaku-battle-festival/recovery.json",
+        "catch/2008-jisaku-battle-festival/source-comparison.json",
+        "catch/2008-jisaku-battle-festival/investigation/pre-recovery-inventory.json",
+        "catch/2008-jisaku-battle-festival/investigation/direct-source-attempts.json",
+        "catch/2008-jisaku-battle-festival/investigation/direct-css-2019.json",
+        "catch/2008-jisaku-battle-festival/investigation/css-assets-direct.json",
+        "catch/2008-jisaku-battle-festival/investigation/asset-gap-cdx-summary.json",
+        "catch/2008-jisaku-battle-festival/investigation/asset-gap-fetch.json",
+        "catch/2008-jisaku-battle-festival/investigation/oldhost-asset-cdx-summary.json",
+        "catch/2008-jisaku-battle-festival/investigation/atwiki-index-https-cdx.json",
+        "catch/2008-jisaku-battle-festival/investigation/atwiki-index-http-cdx.json",
+        "catch/2008-jisaku-battle-festival/investigation/atwiki-prefix-https-cdx.json",
+        "catch/2008-jisaku-battle-festival/investigation/atwiki-entry-page-cdx-summary.json",
+        "catch/2008-jisaku-battle-festival/investigation/pc-common-cdx-summary.json",
+        "catch/2008-jisaku-battle-festival/investigation/root-ui-images-direct.json",
+        "catch/2008-jisaku-battle-festival/investigation/unverified-archive-fallback-attempt.json",
+        "catch/2008-jisaku-battle-festival/source/archive/manifest.json",
+        "catch/2008-jisaku-battle-festival/source/archive/capture-metadata.json",
+        "catch/2008-jisaku-battle-festival/source/archive/index-20191216100856.bin",
+        "catch/2008-jisaku-battle-festival/source/live/original-view-manifest.json",
+        "catch/2008-jisaku-battle-festival/source/live/css-2019/manifest.json",
+        "catch/2008-jisaku-battle-festival/source/live/root-ui-images/manifest.json",
+        "catch/2008-jisaku-battle-festival/original-view.json",
+        "catch/2008-jisaku-battle-festival/desktop-review.json"
+      ],
+      "desktopEvidence": [
+        "catch/2008-jisaku-battle-festival/desktop-review.json",
+        "catch/2008-jisaku-battle-festival/original-view.json"
+      ],
+      "originalEvidence": [
+        "catch/2008-jisaku-battle-festival/desktop-review.json",
+        "catch/2008-jisaku-battle-festival/original-view.json"
+      ],
+      "latestSourceCommit": "33e471ef95c1e5d1fac5583484b9d2fac7e923a9",
+      "originalFiles": 52,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2008-kouhaku",
+      "works": 125,
+      "status": "reviewed-with-documented-source-gaps",
+      "dataSha256": "879bcf93b532cf1a7e10190a45b02765fb48ce2b46725411e89e791add3c3e80",
+      "sourceEvidence": [
+        "catch/2008-kouhaku/recovery.json",
+        "catch/2008-kouhaku/source/archive/manifest.json",
+        "catch/2008-kouhaku/investigation/direct-source-probes.json",
+        "catch/2008-kouhaku/investigation/wayback-captures.json",
+        "catch/2008-kouhaku/investigation/archive-resource-fetch.json",
+        "catch/2008-kouhaku/investigation/encoding-check.json",
+        "catch/2008-kouhaku/investigation/catalogue-title-comparison.json",
+        "catch/2008-kouhaku/investigation/structural-check.json",
+        "catch/2008-kouhaku/investigation/asset-integrity-check.json",
+        "catch/2008-kouhaku/original-view.json",
+        "catch/2008-kouhaku/desktop-review.json"
+      ],
+      "desktopEvidence": [
+        "catch/2008-kouhaku/desktop-review.json",
+        "catch/2008-kouhaku/original-view.json"
+      ],
+      "originalEvidence": [
+        "catch/2008-kouhaku/original-view.json",
+        "catch/2008-kouhaku/desktop-review.json"
+      ],
+      "latestSourceCommit": "e5982ba0023d8a9f3965924c7a6495320ca7bfaa",
+      "originalFiles": 147,
+      "originalMissingRecorded": 2
+    },
+    {
+      "festivalId": "2008-seiyoku-festival",
+      "works": 2,
+      "status": "reviewed-with-documented-source-gaps",
+      "dataSha256": "1901db68ffaea04e7a2429dc5985adc27c1c41fe0dd1eb59d50afd2b1a0e2bb3",
+      "sourceEvidence": [
+        "catch/2008-seiyoku-festival/recovery.json",
+        "catch/2008-seiyoku-festival/source-comparison.json",
+        "catch/2008-seiyoku-festival/source/archive/manifest.json",
+        "catch/2008-seiyoku-festival/investigation/source-retrieval.json",
+        "catch/2008-seiyoku-festival/investigation/archive-retrieval.json",
+        "catch/2008-seiyoku-festival/investigation/archive-seiyoku-htm-retrieval.json",
+        "catch/2008-seiyoku-festival/investigation/parser-correction.json",
+        "catch/2008-seiyoku-festival/investigation/proxy-routes.json",
+        "catch/2008-seiyoku-festival/investigation/structural-check.json",
+        "catch/2008-seiyoku-festival/investigation/festival-directory-probes.json",
+        "catch/2008-seiyoku-festival/investigation/related-source-probes.json",
+        "catch/2008-seiyoku-festival/investigation/mirror-home-probe.json",
+        "catch/2008-seiyoku-festival/original-view.json",
+        "catch/2008-seiyoku-festival/desktop-review.json"
+      ],
+      "desktopEvidence": [
+        "catch/2008-seiyoku-festival/desktop-review.json",
+        "catch/2008-seiyoku-festival/original-view.json"
+      ],
+      "originalEvidence": [
+        "catch/2008-seiyoku-festival/original-view.json",
+        "catch/2008-seiyoku-festival/desktop-review.json"
+      ],
+      "latestSourceCommit": "cb484198c303b676bdf3647a5bfd90089e36de15",
+      "originalFiles": 1,
+      "originalMissingRecorded": 2
+    },
+    {
+      "festivalId": "2008-summer",
+      "works": 92,
+      "status": "reviewed-with-documented-source-gaps",
+      "dataSha256": "575e76456a42fed1f88ab63b13b9d026f76e796440c172e34cdd8d70db81f19b",
+      "sourceEvidence": [
+        "catch/2008-summer/recovery.json",
+        "catch/2008-summer/investigation/successful-prefix-cdx.json",
+        "catch/2008-summer/investigation/archive-retrieval.json",
+        "catch/2008-summer/investigation/linked-capture-results.json",
+        "catch/2008-summer/investigation/replay-digest-decisions.json",
+        "catch/2008-summer/investigation/local-structure-review.json"
+      ],
+      "desktopEvidence": [
+        "catch/2008-summer/desktop-review.json"
+      ],
+      "originalEvidence": [
+        "catch/2008-summer/original-view.json",
+        "catch/2008-summer/desktop-review.json"
+      ],
+      "latestSourceCommit": "de435311556c17117889909ccfdb196e2e06aada",
+      "originalFiles": 209,
+      "originalMissingRecorded": 60
+    },
+    {
+      "festivalId": "2007-default-battle-festival",
+      "works": 26,
+      "status": "reviewed-with-documented-source-gaps",
+      "dataSha256": "bc1bd0a7ddf01869d9f4e3d8fb659c70d893afc3e8f8b489572a15cba14862b6",
+      "sourceEvidence": [
+        "catch/2007-default-battle-festival/recovery.json",
+        "catch/2007-default-battle-festival/investigation/detail-capture-index.json",
+        "catch/2007-default-battle-festival/investigation/capture-digest-checks.json",
+        "catch/2007-default-battle-festival/investigation/source-probes.json",
+        "catch/2007-default-battle-festival/investigation/migration-http-source-probe.json",
+        "catch/2007-default-battle-festival/investigation/local-structure-review.json"
+      ],
+      "desktopEvidence": [
+        "catch/2007-default-battle-festival/desktop-review.json"
+      ],
+      "originalEvidence": [
+        "catch/2007-default-battle-festival/original-view.json",
+        "catch/2007-default-battle-festival/desktop-review.json"
+      ],
+      "latestSourceCommit": "95140bca092a7c06346a4a2b4b43ec5c5113391c",
+      "originalFiles": 30,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2007-gw",
+      "works": 62,
+      "status": "reviewed-with-documented-source-gaps",
+      "dataSha256": "fa4c3f8ff801ebc4a7a14d43c0af2cdb48a854162344fadf06416c09369ef473",
+      "sourceEvidence": [
+        "catch/2007-gw/recovery.json",
+        "catch/2007-gw/investigation/catalogue-section-review.json",
+        "catch/2007-gw/investigation/detail-capture-index.json",
+        "catch/2007-gw/investigation/rate-limit-checkpoint.json",
+        "catch/2007-gw/investigation/source-dns-check.json",
+        "catch/2007-gw/investigation/local-structure-review.json"
+      ],
+      "desktopEvidence": [
+        "catch/2007-gw/desktop-review.json"
+      ],
+      "originalEvidence": [
+        "catch/2007-gw/original-view.json",
+        "catch/2007-gw/desktop-review.json"
+      ],
+      "latestSourceCommit": "d8bd4c65b3c3255c3aca4601094581adaee33aba",
+      "originalFiles": 69,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2007-summer",
+      "works": 97,
+      "status": "reviewed-with-documented-source-gaps",
+      "dataSha256": "03bace41385f9ca8ada09d7e71f0b0ee8fd8bee29e0052fdf12e413f317d61ff",
+      "sourceEvidence": [
+        "catch/2007-summer/recovery.json",
+        "catch/2007-summer/investigation/catalogue-encoding-review.json",
+        "catch/2007-summer/investigation/detail-capture-index.json",
+        "catch/2007-summer/investigation/patch-row-map.json",
+        "catch/2007-summer/investigation/additional-image-captures.json",
+        "catch/2007-summer/investigation/linked-image-replays.json",
+        "catch/2007-summer/investigation/local-structure-review.json"
+      ],
+      "desktopEvidence": [
+        "catch/2007-summer/desktop-review.json"
+      ],
+      "originalEvidence": [
+        "catch/2007-summer/original-view.json",
+        "catch/2007-summer/desktop-review.json"
+      ],
+      "latestSourceCommit": "b45f8b9a043f9d5c36a25366c14f532df5ac469b",
+      "originalFiles": 117,
+      "originalMissingRecorded": 7
+    },
+    {
+      "festivalId": "2006-gw",
+      "works": 31,
+      "status": "reviewed",
+      "dataSha256": "fc9e631241d782503597d95d32a6a09a47d3b15475e1a9126147c5397c03add6",
+      "sourceEvidence": [
+        "catch/2006-gw/recovery.json",
+        "catch/2006-gw/investigation/original-origin-identity-review.json",
+        "catch/2006-gw/investigation/legacy-parser-diagnosis.json",
+        "catch/2006-gw/investigation/legacy-id-map.json",
+        "catch/2006-gw/investigation/original-normalized-inventory.json",
+        "catch/2006-gw/investigation/local-structure-review.json"
+      ],
+      "desktopEvidence": [
+        "catch/2006-gw/desktop-review.json"
+      ],
+      "originalEvidence": [
+        "catch/2006-gw/original-view.json",
+        "catch/2006-gw/desktop-review.json"
+      ],
+      "latestSourceCommit": "9a5596009300a3c82fdd826622e100aad6fe2212",
+      "originalFiles": 88,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2006-kouhaku",
+      "works": 92,
+      "status": "reviewed-with-source-gaps",
+      "dataSha256": "a5ed3e242def4917376789e82843d8e04cdeff6e09491cd708674be01717b089",
+      "sourceEvidence": [
+        "catch/2006-kouhaku/recovery.json",
+        "catch/2006-kouhaku/source-comparison.json",
+        "catch/2006-kouhaku/investigation/legacy-parser-diagnosis.json",
+        "catch/2006-kouhaku/investigation/original-detail-index-coverage.json",
+        "catch/2006-kouhaku/investigation/final-original-resource-verification.json",
+        "catch/2006-kouhaku/investigation/auxiliary-nearest-replays.json"
+      ],
+      "desktopEvidence": [
+        "catch/2006-kouhaku/desktop-review.json"
+      ],
+      "originalEvidence": [
+        "catch/2006-kouhaku/original-view.json",
+        "catch/2006-kouhaku/desktop-review.json"
+      ],
+      "latestSourceCommit": "de629b731e788bdf8f6ec5e988f776da2bcb5288",
+      "originalFiles": 223,
+      "originalMissingRecorded": 1
+    },
+    {
+      "festivalId": "2006-summer",
+      "works": 33,
+      "status": "reviewed-with-source-gaps",
+      "dataSha256": "e40d14028b3100055938a08f0c81cb581bce7598bbb7ac72a861ec1cf90131ee",
+      "sourceEvidence": [
+        "catch/2006-summer/recovery.json",
+        "catch/2006-summer/source-comparison.json",
+        "catch/2006-summer/investigation/original-origin-evidence.json",
+        "catch/2006-summer/investigation/final-original-resource-verification.json",
+        "catch/2006-summer/investigation/forum-title-provenance.json",
+        "catch/2006-summer/investigation/legacy-id-map.json",
+        "catch/2006-summer/investigation/no30-title-reconstruction.json",
+        "catch/2006-summer/investigation/header-image-position-evidence.json",
+        "catch/2006-summer/investigation/patch-page-source-evidence.json"
+      ],
+      "desktopEvidence": [
+        "catch/2006-summer/desktop-review.json"
+      ],
+      "originalEvidence": [
+        "catch/2006-summer/original-view.json",
+        "catch/2006-summer/desktop-review.json"
+      ],
+      "latestSourceCommit": "2d6dee85f2cf6c91659a6a2bbb47407f68bd7988",
+      "originalFiles": 104,
+      "originalMissingRecorded": 0
+    },
+    {
+      "festivalId": "2005-kouhaku",
+      "works": 26,
+      "status": "reviewed",
+      "dataSha256": "c27d39be63572004597cf0f6d7d45b021c724c71524de31b3c26c56385bc4333",
+      "sourceEvidence": [
+        "catch/2005-kouhaku/recovery.json",
+        "catch/2005-kouhaku/source-comparison.json",
+        "catch/2005-kouhaku/investigation/source-state-review.json",
+        "catch/2005-kouhaku/investigation/scoped-cdx.json",
+        "catch/2005-kouhaku/investigation/source-row-structure.json",
+        "catch/2005-kouhaku/investigation/header-provenance.json"
+      ],
+      "desktopEvidence": [
+        "catch/2005-kouhaku/desktop-review.json"
+      ],
+      "originalEvidence": [
+        "catch/2005-kouhaku/original-view.json",
+        "catch/2005-kouhaku/desktop-review.json"
+      ],
+      "latestSourceCommit": "a51d2e27d40b37ce1ee629575ddfd6532c605cbc",
+      "originalFiles": 34,
+      "originalMissingRecorded": 0
+    }
+  ],
+  "failures": []
+}
