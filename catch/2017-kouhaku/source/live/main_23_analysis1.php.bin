@@ -1,0 +1,122 @@
+<?php	
+	//DB接続
+	require_once '../kanri/php/getDB.php';
+	if(getDB()){
+		$db = getDB();
+		//テーブル名指定
+		$tb_name = 'vote';
+
+        for($i = 0; $i <= 9; $i++){
+            $sql = "SELECT no, time, v$i, u1, u2, u3 FROM vote WHERE v$i != 0 ORDER BY no, time";
+
+            //クエリ発行（vote）
+            $j = -1;
+            $st = $db -> query($sql);
+            while($row = $st -> fetch()){
+                $j++;
+
+                $data[$i][$j][0] = intval($row['no']);
+                $data[$i][$j][1] = checkdated($row['time']);
+                $data[$i][$j][2] = checkAge(intval($row['u1']));
+                $data[$i][$j][3] = checkGen(intval($row['u2']), intval($row['u3'])) ;
+                $data[$i][$j][4] = intval($row["v$i"]);
+
+                if($j != 0){
+                    if($data[$i][$j - 1][0] == $data[$i][$j][0]){
+                        $k++;
+                        $l += intval($row["v$i"]);
+                    }else{
+                        $k = 1;
+                        $l = intval($row["v$i"]);
+                    }
+                }else{
+                    $k = 1;
+                    $l = intval($row["v$i"]);
+                }
+
+                $data[$i][$j][5] = $k;
+                $data[$i][$j][6] = $l;
+            }
+        }
+
+		//終了
+        $db=NULL;
+        
+        header('Content-type: application/json charset=UTF-8');
+        echo json_encode($data);
+ 
+    }
+
+    function checkdated($dated){
+        $dateval = substr($dated, 5, 2) . '/' . substr($dated, 8, 2);
+        return $dateval;
+    }
+
+    function checKAge($age){
+        switch($age){
+            case 0;
+                $ageval = '20才未満';
+                break;
+            case 1;
+                $ageval = '20代';
+                break;
+            case 2;
+                $ageval = '30代';
+                break;
+            case 3;
+                $ageval = '40代';
+                break;
+            case 4;
+                $ageval = '50代';
+                break;
+            case 5;
+                $ageval = '60代';
+                break;
+            case 6;
+                $ageval = '70代';
+                break;
+            case 7;
+                $ageval = '80代';
+                break;
+            case 8;
+                $ageval = '90才以上';
+                break;
+            default;
+                $ageval = '無回答';
+                break;
+        }
+        return $ageval;
+    }
+
+    function checkGen($u2, $u3){
+        $gender = $u2;
+        switch($gender){
+            case 0;
+                $genval = '男性';
+                break;
+            case 1;
+                $genval = '女性';
+                break;
+            case 2;
+                $genval = 'その他';
+                break;
+
+            case 4;
+                $genrate = $u3;
+                if($genrate < 50){
+                    $genval = 100 - $genrate . "%男性";
+                }elseif($genrate > 50){
+                    $genval = $genrate . "%女性";
+                }else{
+                    $genval = "中性";
+                }
+                break;
+
+            default;
+                $genval = '無回答';
+                break;
+        }
+        return $genval;
+    }
+
+?>

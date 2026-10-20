@@ -1,0 +1,496 @@
+body{
+	margin:0;
+	background-color:#EFEFEF;
+	font-family: "Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
+}
+
+/*＃＃＃div設定＃＃＃*/
+/*bodyの替わり*/
+div.bodylike{
+	background-color:#EFEFEF;
+	line-height:150%;
+}
+/*headerとfooter*/
+.head, .foot{
+	background-color:#880000;
+	margin:auto;
+}
+/*headerとfooter内の文字, text-align以外は同じ*/
+.top, .bottom{
+	position: relative;
+	padding:10px 10px;
+	color:white;
+	width:750px;
+	margin-left:auto;
+	margin-right:auto;
+}
+/*top内の文字()*/
+.top{
+	text-align:left;
+}
+/*footer内の文字()*/
+.bottom{
+	text-align:center;
+}
+/*通常文章はnonline,base,base2*/
+/*共通箇所*/
+.nonline, .base, .base2 ,base3{
+	background-color:#EFEFEF;
+	position: relative;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+}
+/*線で囲っていない領域*/
+.nonline{
+	padding:0px 10px;
+	width:750px;
+	text-align:left;
+}
+/*線で囲った領域*/
+.base{
+	border-style:solid;
+	border-width:1px;
+	border-color: #222222;
+	box-shadow:10px 10px 0px 0px #AAAAAA;
+	padding:0px 10px;
+	width:800px;
+}
+/*線で囲った領域：ゲーム紹介用*/
+.base2{
+	border-style:solid;
+	border-width:1px;
+	border-color: #222222;
+	width:640px;
+}
+.base3{
+	border-style:solid;
+	border-width:1px;
+	border-color: #222222;
+	width:800px;
+}
+/*オーバーフロー*/
+.flow{
+	max-height:300px;
+	overflow:scroll;
+}
+/*表示・非表示切替ボタン*/
+.hidden, .show{
+	color:green;
+}
+
+/*top,bottom,nonline,baseを横幅640pxで表示する用*/
+.mini{
+	width:640px;
+}
+/*PCのみ*/
+.pconly{
+	display:inline;
+}
+/*PCのみ*/
+.pconly2{
+	display:block;
+}
+/*携帯のみ*/
+.mobile{
+	visibility:hidden;
+}
+.mobile2, .mobile3{
+	display:none;
+}
+.twitter{
+	vertical-align:middle;
+	height:20px;
+}
+/*携帯・スマホ用*/
+@media screen and (max-width:540px){
+	div.bodylike{
+		line-height:120%;
+		font-size:80%;
+	}
+	.top, .bottom, .nonline, .base, .base2 , base3{
+		width:100%;
+		padding:0px;
+	}
+	h1{
+		font-size:14px;
+	}
+	.pconly, .pconly2{
+		display:none;
+	}
+	.mobile{
+		visibility:visible;
+		color:blue;
+	}
+	.mobile2{
+		display:inline;
+	}
+	.mobile3{
+		display:block;
+	}
+	/*リンクの箇所だけは携帯では大きく*/
+	a[href]{
+		font-size:125%;
+		line-height:150%;
+	}
+}
+
+/*＃＃＃アイコンとSS＃＃＃*/
+img.icon{
+	width:32px;
+	max-width:32px;
+}
+img.ss{
+	max-width:640px;
+}
+img.topbanner{
+	margin:10px -30px 0px 0px;
+	width:400px;
+	float:right;
+}
+img.banner{
+	padding:3px;
+}
+/*携帯・スマホ用*/
+@media screen and (max-width:540px){
+	img.icon{
+	width:24px;
+	vertical-align:middle;
+	}
+	img.ss{
+		max-width:100%;
+	}
+	img.topbanner{
+		margin:0px 0px 0px 0px;
+		width:300px;
+		float:none;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	img.banner{
+		width:200px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.twitter{
+		height:16px;
+	}
+}
+
+/*＃＃＃table設定＃＃＃*/
+table.gamelist{
+	border: 1px #000000 solid;
+	border-collapse: collapse;
+	box-shadow:10px 10px 0px 0px #AAAAAA;
+}
+tr{
+	border: 1px #000000 solid;
+	border-collapse: collapse;
+}
+tr:nth-child(odd){
+	background: #F8E1ED;
+}
+tr:nth-child(even){
+	background: #FFFFFF;
+}
+tr:nth-child(n+2):hover{
+    cursor: default;
+    background: #80C5E6;
+}
+tr.even{
+	background: #FFFFFF;
+}
+tr.odd{
+	background: #F8E1ED;
+}
+tr.even:hover, tr.odd:hover{
+    cursor: default;
+    background: #80C5E6;	
+}
+
+
+td{
+	border: 1px #000000 solid;
+	border-collapse: collapse;
+	/*td"だけで"指定したらchromeはokだけどedgeが反応しない・・・*/
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis; /* Opera9,10対応 */
+}
+
+/*だからaで"も"指定したらうまくいった*/
+a.tdtxt{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis; /* Opera9,10対応 */
+}
+
+/*狐用*/
+@-moz-document url-prefix() {
+	td {
+		text-overflow: clip;
+	}
+}
+
+/*tdの細かい設定*/
+td.check{
+	width:50px;
+	max-width:50px;
+}
+.no{
+	width:55px;
+	max-width:55px;
+}
+.tkool{
+	width:50px;
+	max-width:50px;
+}
+.title{
+	width:200px;
+	max-width:200px;
+}
+.ag{
+	width:80px;
+	max-width:80px;
+	font-size:90%;
+	line-height:130%;
+}
+.tdm{
+	width:40px;
+	max-width:40px;
+	font-size:90%;
+	line-height:130%;
+}
+.vote{
+	width:35px;
+	max-width:35px;
+}
+.board{
+	width:35px;
+	max-width:35px;
+}
+.subdate{
+	width:45px;
+	max-width:45px;
+	font-size:90%;
+	line-height:130%;
+}
+.dl{
+	width:65px;
+	max-width:65px;
+	font-size:90%;
+	line-height:130%;
+}
+.count{
+	width:40px;
+	max-width:40px;
+	font-size:90%;
+	line-height:130%;
+}
+.point{
+	font-size:90%;
+	line-height:130%;
+}
+
+img.pop{
+	position:absolute;
+	left:80px;
+	max-height:480px;
+}
+
+/*リストボックス*/
+select.mark{
+	color:red;
+	font-weight: bold;
+	font-size:16px;
+	width:40px;
+	height:24px
+}
+
+@media screen and (max-width:540px){
+
+	a.tdtxt{
+		white-space: normal;
+	}
+	td{
+		white-space: normal;
+	}
+	
+	.no{
+		width:30px;
+		max-width:30px;
+	}
+	.title{
+		width:100%;
+		max-width:100%;
+	}	
+	td.check, .tkool, .ag, .tdm, .vote, .board , .dl, .count, .subdate{
+		display:none;
+	}
+
+	img.pop{
+		position:absolute;
+		left:40px;
+		max-width:270px;
+	}
+}
+
+
+
+/*＃＃＃ボタン用＃＃＃*/
+/*通常ボタン*/
+[class*="button"]{
+	cursor:pointer;
+	color:#FFFFF0;
+	border:1px solid #FFFFF0;
+	border-radius:5px;
+	padding:1px 5px;
+	text-decoration: none;
+	line-height:250%;
+	white-space: nowrap;
+}
+/*汎用ボタン*/
+.button1 {
+	background: linear-gradient(to bottom, #C37676 0%, #880000 50%);
+}
+.button1:hover {
+	color:#880000;
+	border:1px solid #666;
+    background: linear-gradient(to bottom, #FFFFFF 0%, #FFFFF0 50%);
+}
+/*小ボタン*/
+.button2 {
+    padding:0px 2px;
+	font-weight:300;
+	background: linear-gradient(to bottom, #C37676 0%, #880000 50%);
+}
+.button2:hover {
+	color:#880000;
+	border:1px solid #666;
+    background: linear-gradient(to bottom, #FFFFFF 0%, #FFFFF0 50%);
+}
+/*マーカーボタン*/
+.button3 {
+	color:blue;
+	border:1px solid #666;
+    background: linear-gradient(to bottom, #FFFFFF 0%, #FFFFF0 50%);
+}
+.button3:hover {
+	color:white;
+    background: linear-gradient(to bottom, #0000FF 0%, #0000AA 50%);
+}
+/*マーカー選択時*/
+.button4 {
+    background: linear-gradient(to bottom, #0000FF 0%, #0000AA 50%);
+}
+.button4:hover {
+	color:blue;
+    background: linear-gradient(to bottom, #FFFFFF 0%, #FFFFF0 50%);
+}
+/*DLボタン*/
+.button5 {
+	color:white;
+	font-size:20px;
+	font-weight:700;
+	line-height:164%;
+	border:1px solid #666;
+    background: linear-gradient(to bottom, #f07705 0%, #ec8932 50%);
+}
+.button5:hover {
+	color:#f07705;
+    background: linear-gradient(to bottom, #FFFFFF 0%, #FFFFF0 50%);
+}
+
+/*DLボタン小*/
+.button6, .button8 {
+    padding:1px 5px;
+	line-height:130%;
+	white-space: nowrap;
+	/*font-size:12px;*/
+}
+.button6 {
+    background: linear-gradient(to bottom, #0000ff 0%, #0101a8 50%);
+}
+.button6:hover {
+	color:#0000ff;
+    background: linear-gradient(to bottom, #FFFFFF 0%, #FFFFF0 50%);
+}
+
+/*Webボタン*/
+.button7 {
+	color:white;
+	font-size:20px;
+	font-weight:700;
+	line-height:164%;
+	border:1px solid #666;
+    background: linear-gradient(to bottom, #11698f 0%, #0d506d 50%);
+}
+.button7:hover {
+	color:#11698f;
+    background: linear-gradient(to bottom, #FFFFFF 0%, #FFFFF0 50%);
+}
+/*Webボタン小*/
+.button8 {
+    background: linear-gradient(to bottom, #008000 0%, #004b00 50%);
+}
+.button8:hover {
+	color:#008000;
+    background: linear-gradient(to bottom, #FFFFFF 0%, #FFFFF0 50%);
+}
+/*投票ボタン*/
+.button9 {
+	color:white;
+    background: linear-gradient(to bottom, #c40c86 0%, #ad0274 50%);
+}
+.button9:hover {
+	color:#ad0274;
+	border:1px solid #666;
+    background: linear-gradient(to bottom, #FFFFFF 0%, #FFFFF0 50%);
+}
+/*投票ボタン*/
+.button10 {
+	color:white;
+	border:1px solid #666;
+    background: linear-gradient(to bottom, #666 0%,  #666 50%);
+}
+.button10:hover {
+	color:white;
+	background: linear-gradient(to bottom, #383838 0%,  #666 50%);
+}
+/*お気軽投票ボタン*/
+.button11 {
+	color:white;
+    background: linear-gradient(to bottom, #df1f5f 0%,  #d31554 50%);
+}
+.button11:hover {
+	color:#df1f5f;
+	border:1px solid #666;
+	background: linear-gradient(to bottom, #FFFFFF 0%, #FFFFF0 50%);
+}
+/*スマホ*/
+/*
+@media screen and (max-width:540px){
+	.button1, .button2, .button3, .button4, .button5, .button6{
+		font-size:125%;
+	}
+}
+*/
+/*ボタン切替用*/
+.chbtn{
+	margin:0px 5px 0px;
+	padding:0px;
+}
+.bEmp1, .bEmp2, .bEmp3, .bEmp4, .bEmp5{
+	padding:0px;
+}
+
+.bEmp1{
+	line-height:150%;
+}
+.adj{
+	height:15px;
+}

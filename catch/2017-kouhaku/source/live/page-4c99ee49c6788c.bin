@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/common.css?0104">
+	<link rel="stylesheet" type="text/css" href="../css/game.css">
+    <link rel="icon" type="image/png" id="fabicon" href="">
+	<title></title>
+
+</style>
+</head>
+<body><script type="text/javascript" charset="utf-8" src="//asumi.shinobi.jp/encount"></script><div style="text-align: center;"><div style="display: inline-block; position: relative; z-index: 9999;"><script type="text/javascript" charset="utf-8" src="//asumi.shinobi.jp/fire?f=44"></script><script type="text/javascript" charset="utf-8" src="/__sys__inactive_message.js"></script></div></div>
+<div class="bodylike">
+
+	<div class="head">
+		<div class="top mini">
+			<h1>VIPRPG 2017紅白<a id="gameNo1"></a></h1>
+		</div>
+	</div>
+	
+	<a id="pageTop"></a>
+	<div class="nonline mini">
+		<div class="split pconly" style="float:right">
+			<!--DL-->
+			<div style="margin:5px 10px 0px 0px; float:left">
+				<button class="button7" id="gameWeb" style="visibility:hidden">Web<br>版</button>
+				<button class="button5" id="gameDl1" style="visibility:hidden">ﾀﾞｳﾝﾛｰﾄﾞ<br>容量</button>
+			</div>
+			<!--マーカー-->
+			<a class="button3" id="mark0" data-value="0">　</a>
+			<a class="button3" id="mark1" data-value="1">済</a>
+			<a class="button3" id="mark2" data-value="2">未</a>
+			<a class="button3" id="mark3" data-value="3">〇</a><br>
+			<a class="button3" id="mark4" data-value="4">♡</a>
+			<a class="button3" id="mark5" data-value="5">！</a>
+			<a class="button3" id="mark6" data-value="6">？</a>
+			<a class="button3" id="mark6" data-value="7">夏</a>
+			<!--<label><input type="radio" name="mark" value="9">緑</label>--><br>
+		</div>
+
+		<div>
+            <a href="index.html" class="button1">トップページへ戻る</a>
+			<a href="03_list.html" class="button1" id="gameList1">作品一覧</a>
+			<br>
+			<a class="button1" id="gameDown1">前へ</a>
+            <a class="button1" id="gameUp1">次へ</a>
+			<a class="button1" id="Goimpression">感想</a>
+			<a class="button1" id="Gowrite">感想書込</a>
+			<br>
+		</div>
+	</div>
+
+	<!--作品名-->
+	<div class="base2" style="height:32px">
+		<img class="icon" id="gameIcon" style="float:left;" src="" alt="">No.<a id="gameNo2"></a> <b id="gameTitle1"></b>
+	</div>
+
+	<!--携帯用DL-->
+	<div class="mobile3">
+		<div style="height:5px"></div>
+		<button class="button6" id="gameDl2" style="visibility:hidden">ﾀﾞｳﾝﾛｰﾄﾞ<br>容量</button>
+		<button class="button8" id="gameWeb2" style="visibility:hidden">Web版</button>
+		<div style="height:5px"></div>
+		※スマートフォンを用いてお遊びの方へ<br>
+		プレイ前に一度<a href="index.html#other002">こちらのリンク</a>をご確認ください。<br>
+		PCでこの表示が出る場合は、ブラウザの横幅を540px以上に広げてください<br>
+	</div>
+	<!--画像-->
+	<div class="base2">
+		<img class="ss" id="gameSs" src="" alt="ss"><br>
+		<a id="ss2Comment">マウスオーバー/タップで2枚目に切替</a>
+		<a id="ss1Return" style="color:blue">⇒1枚目</a>
+	</div>
+
+	<!--作者名-->
+	<div class="base2">
+		【作者名】<a id="author"></a>
+	</div>
+	<!--ジャンル-->
+	<div class="base2">
+		【ジャンル】<a id="genre"></a>
+	</div>
+	<!--ツクール-->
+	<div class="base2">
+		【使用ツクール】<a id="tkool"></a>
+	</div>
+	<!--配信/動画-->
+	<div class="base2">
+		【配信/動画】<a id="dandm"></a>
+	</div>
+	<!--投票
+	<div class="base2">
+		【投票】<a id="vote"></a>
+	</div>-->
+	<!--コメント-->
+	<div class="base2">
+		【作者コメント】<br>
+		<div id="comment"></div>
+	</div>
+	<!--管理人コメント-->
+	<div class="base2">
+		【管理人コメント】<br>
+		<div id="comment2"></div>
+	</div>
+	<!--その他情報-->
+	<div class="base2">
+		提出日：<a id="date1"></a><br>
+		最終更新日：<a id="date2"></a><br>
+	</div>
+	<!--リスト-->
+	<span id="popList">
+		<!--jQuery-->
+	</span>
+	<!--前へと次へ-->
+	<a id="impression"></a>
+	<div id="stickmenu" style="z-index:2">
+		<div class="nonline" style="width:800px">
+			<a href="index.html" class="button1">トップページへ戻る</a>
+			<a href="03_list.html" class="button1" id="gameList2">作品一覧</a>
+			No.<a id="gameNo3"></a> <b id="gameTitle2"></b>
+			<br>
+			<a class="button1" id="gameDown2">前へ</a>
+			<a class="button1" id="gameUp2">次へ</a>
+			<a class="button1" id="GopageTop">ページトップへ</a>
+			<a class="button1" id="Goimpression">感想トップへ</a>
+			<a class="button1" id="Gowrite">感想書込</a>
+		</div>
+	</div>
+	
+	<div class="base" style="position: static; z-index:1">
+		
+		<!--掲示板-->
+		<div id="impressBoard"></div>
+
+	<br>
+
+	<div style="height:1000px;"></div>
+	
+	<div class="foot">
+		<div class="bottom">
+			<a>VIPRPG2017紅白</a>
+		</div>
+	</div>
+
+</div>
+<script src="../js/jquery.js"></script>
+<script src="../js/jquery.cookie.js"></script>
+<script src="../js/jquery.sticky.js"></script>
+<script src="../js/common.js"></script>
+<script type="text/JavaScript"><!--
+
+	//########データ挿入###########################
+    //メニュー付いてくる
+    $(document).ready(function(){
+      $("#stickmenu").sticky({ topSpacing: 0, center:true,});
+	});
+	
+	//グローバル変数にdataとdataLoad宣言
+	var gameData =[];
+	//var dataLoad = false;
+
+	//画面読み込み
+	$(function(){
+		loadScreen();
+	});
+	function loadScreen() {
+		$('html,body').animate({ scrollTop: 0 }, 0);
+			//JSON読み込み
+			$.getJSON('../games/data.json?random=' + Math.random(), function (data){
+			gameData = data;
+			var id = idGet();
+			//初期読み込み時のセット
+			screenSet(gameData, id);
+			//感想を選択しているか否か
+			if(location.hash === '#impression'){
+				var target = $('#impression');
+				var speed = 0; // ミリ秒
+				goScreen(target, speed);								//感想に移動
+				history.pushState(true, '', '04_game.html?id=' + id);	//url書き換え
+			}
+		});
+	}
+
+	//ブラウザからの戻る/進む対策
+	if (window.history && window.history.pushState){
+		$(window).on("popstate",function(event){
+			if (!event.originalEvent.state) return; // 初回アクセス時対策
+			$(function(){
+				loadScreen();
+			});
+		});
+	}
+
+	//簡易ゲーム一覧
+	$('[id^="gameList"]').on({
+		//マウスオン
+		'mouseenter': function(){
+			$('#popList').show();
+			$('#popList').insertAfter(this);
+			//要素内移動
+			var position = $('#popList li').eq(idGet()).position().top;
+			$('#popList').scrollTop(position);
+			//どっちのボタンからか
+			if(this.id === 'gameList1'){
+				$('#popList').attr('data-area', '');
+			}else{
+				$('#popList').attr('data-area', 'impression');
+			}
+		},
+		//マウスオフ
+		'mouseleave': function(){
+			$('#popList').hide();
+		},
+	});
+	$('#popList').on({
+		//マウスオン
+		'mouseenter': function(){
+			$(this).show();
+		},
+		//マウスオフ
+		'mouseleave': function(){
+			$(this).hide();
+		},
+	});
+	$('body').on({
+		//クリック
+		'click': function(){
+			//データ読み込み、画面更新
+			var id = $(this).index();
+			screenSet(gameData, id);								//画面セット
+			history.pushState(true, '', '04_game.html?id=' + id);	//url書き換え
+			//下のボタンから行ったら感想に合わせる
+			if($('#popList').attr('data-area') === 'impression'){
+				var speed = 0;
+				var target = $('#impression');
+				goScreen(target, speed);
+			}
+		},
+	},'#popList li');
+
+	//ゲーム番号アップダウン
+	$('[id^="gameUp"], [id^="gameDown"]').on('click', function(){
+		//アップかダウンか
+		if(!this.id.indexOf('gameUp')){
+			var id = idGet() + 1 ;
+		}else{
+			var id = idGet() -1 ;
+		}
+
+		//感想欄を上にするか否か
+		if(this.id === 'gameUp2' || this.id === 'gameDown2'){
+			var target = $('#impression');
+		}else{
+			var target = false;
+		}
+		//データ読み込み、画面更新
+		screenSet(gameData, id);								//画面セット
+		history.pushState(true, '', '04_game.html?id=' + id);	//url書き換え
+		if(target){
+			var speed = 0;
+			goScreen(target, speed);
+		}
+	});
+
+	//移動
+	$('[id^="Go"]').on('click', function(){
+		// 移動先を取得(id名から"Go"を抜き、セレクタに代入)
+		var target = $('#' + $(this).attr('id').replace('Go', ''));
+		var speed = 400; // ミリ秒
+		goScreen(target, speed);
+	});
+
+	function goScreen(target, speed){
+		// 移動先を数値で取得
+		var position = target.offset().top;
+		// スムーススクロール
+		$('html, body').animate({scrollTop:position}, speed, 'swing');
+		return false;		
+	}
+
+	//urlからkeyを取得
+	function idGet(){
+		var arg  = new Object;
+		var url = location.search.substring(1).split('&');
+		
+		for(var i = 0; url[i]; i++) {
+			var k = url[i].split('=');
+			arg[k[0]] = k[1];
+		}
+		var id = arg.id - 0;
+
+		//文字列だったらidに0を代入
+		if(isNaN(id)){
+			id = 0;
+		}
+		//切り捨て整数化
+		id = Math.floor(id);
+		return id;
+	}
+
+	//画面内容セット
+	function screenSet(data, id){
+
+		var num = data['num'];	//作品数
+
+		//idが0～numまででなければ0を代入
+		if(id < 0 || id > num){
+			id = 0;
+			history.pushState(true, '', '04_game.html?id=' + id);	//url書き換え
+		}
+		
+		//noセット
+		if(id <= 9){
+			var no = '0' + id;
+		}else{
+			var no = id;
+		}
+		//iconの拡張子が指定されていなければicon.pngを入れる
+		if(data[id]['iconext'] == ''){
+			var icon = '../img/games/icon.png';
+		}else{
+			var icon = '../img/games/' + id + '-icon.' + data[id]['iconext'];
+		}
+		//MVのブラウザ
+		if(data[id]['browser'] == 1){
+			var tkooltype = data[id]['tkool'] + ' /ブラウザ希望';
+		}else{
+			var tkooltype = data[id]['tkool'];
+		}
+		//投票
+		if(data[id]['vote'] == 1){
+			var votecomment = "可";
+		}else{
+			var votecomment = "不可";
+		}		
+
+		//作品番号が0ならば「前の作品へ」を表示しない
+		if(id <= 0){
+			$('[id^="gameDown"]').css('visibility', 'hidden');
+		}else{
+			$('[id^="gameDown"]').css('visibility', 'visible');
+		}		
+		//作品番号が末尾ならば「次の作品へ」を表示しない
+		if(id >= num){
+			$('[id^="gameUp"]').css('visibility', 'hidden');
+		}else{
+			$('[id^="gameUp"]').css('visibility', 'visible');
+		}
+
+		//値代入
+		$("title").text('紅白No' + no);
+		$('[id^="gameNo"]').text(no);
+		$('[id^="gameTitle"]').text('読み込み中・・・');
+		$('#author').text(data[id]['author']);
+		$('#genre').text(data[id]['genre']);
+		$('#tkool').text(tkooltype);
+		$('#dandm').text(data[id]['dandm']);
+		$('#vote').text(votecomment);
+		$('#comment').html(nl2br(data[id]['comment']));
+		$('#comment2').html(nl2br(data[id]['comment2']));
+
+		//提出済みの場合DLボタン表示
+		if(data[id]['link1'] != ''){
+			$('[id^="gameDl1"]').html('ﾀﾞｳﾝﾛｰﾄﾞ<br>' + data[id]['capa']);
+			$('[id^="gameDl2"]').html('ﾀﾞｳﾝﾛｰﾄﾞ ' + data[id]['capa']);
+			$('[id^="gameDl"]').data('num', id);
+			$('[id^="gameDl"]').data('link', data[id]['link1']);
+			$('[id^="gameDl"]').css('visibility', 'visible');
+		}else{
+			$('[id^="gameDl"]').css('visibility', 'hidden');
+		}
+		//Web版表示表示
+		if(data[id]['link2'] != ''){
+			$('[id^="gameWeb"]').css('visibility', 'visible');
+			$('[id^="gameWeb"]').data('num', id);
+			$('[id^="gameWeb"]').data('link', data[id]['link2']);
+		}else{
+			$('[id^="gameWeb"]').css('visibility', 'hidden');
+		}
+		//提出日と最終更新日
+		if(data[id]['date1'] != ''){
+			$('#date1').text(data[id]['date1']);
+		}else{
+			$('#date1').text('');
+		}
+		if(data[id]['date2'] != ''){
+			$('#date2').text(data[id]['date2']);
+		}else{
+			$('#date2').text('');
+		}
+
+		//アイコンとファビコン
+		$('#gameIcon').attr('src', icon);
+		$('#fabicon').attr('href', icon);
+		
+		//ss2枚目があるかないかで画像の出力を変える
+		if(data[id]['ss2ext']){
+			$('#gameSs').attr({
+				'src': '../img/games/' + id + '-1.' + data[id]['ss1ext'],
+				'onmouseover': 'this.src="../img/games/' + id + '-2.' + data[id]['ss2ext'] + '"',
+				'onmouseout': 'this.src="../img/games/' + id + '-1.' + data[id]['ss1ext'] + '"',
+			});
+			$('#ss2Comment').css('visibility', 'visible');
+			$('#ss1Return').css('visibility', 'visible');
+			$('#ss1Return').attr('onclick', '#gameSs.src="../img/games/' + id + '-1.' + data[id]['ss1ext'] + '"');
+
+			//ss2枚目をプリロード
+			$('<img>').attr('src', '../img/games/' + id + '-2.' + data[id]['ss2ext']);
+
+		}else{
+			$('#gameSs').attr({
+				'src': '../img/games/' + id + '-1.' + data[id]['ss1ext'],
+				'onmouseover': '',
+				'onmouseout': '',			
+			});
+			$('#ss2Comment').css('visibility', 'hidden');
+			$('#ss1Return').css('visibility', 'hidden');
+			$('#ss1Return').attr('onclick', '');
+		}
+
+		//マーカー設定
+		setMark(id);
+
+		//フォーム設定
+		//初期化
+		formClear();
+
+		//タイトル1セット（掲示板以外読み込み終了）
+		$('#gameTitle1').text(data[id]['title']);
+
+		//掲示板リンク及びセット
+		if(data[id]['board']){
+			var url = 'http://jbbs.shitaraba.net/bbs/read.cgi/game/60350/' + data[id]['board'] + '/';
+			$('#board1, #board2').attr('href', url);
+			var url = 'http://jbbs.shitaraba.net/bbs/rawmode.cgi/game/60350/' + data[id]['board'] + '/';
+			$('#board1, #board2').css('visibility', 'visible');
+			setBoard(url);
+		}else{
+			$('#board1, #board2').css('visibility', 'hidden');
+			$('#impressBoard').html('');				//掲示板データ空に
+		}
+
+		//タイトル2セット（掲示板読み込み終了）
+		$('#gameTitle2').text(data[id]['title']);
+
+		//リスト
+		var listText = '<ul>';
+		for(var i = 0; i <= num; i++){
+			if(i == id){
+				listText += '<li value="' + i + '" style="background-color:gray;">' + data[i]['title'] + '</li>';
+			}else{
+				listText += '<li value="' + i + '">' + data[i]['title'] + '</li>';
+			}
+		}
+		listText += '</ul>';
+		$('#popList').html(listText);
+	}
+
+	//改行phpのnl2br
+	function nl2br(str) {
+		str = str.replace(/\r\n/g, "<br />");
+		str = str.replace(/(\n|\r)/g, "<br />");
+		return str;
+	}
+
+	//マーカー設定
+	function setMark(id){
+		//マーカーを一度リセット
+		$('a[id^="mark"]').attr('class', 'button3');
+		if($.cookie('check')){
+			//クッキーが存在時のみ行う
+			var cvalue = $.cookie('check');
+			//クッキーから必要な値を読み取りリストにセット
+			var val = cvalue.substr(id, 1);
+			$('#mark' + val).attr('class', 'button4');		
+			//ボタンに反映
+		}
+	}
+
+	//マーカー変更
+	$('a[id^="mark"]').on('click', function(){
+		//ボタン変更
+		$('a[id^="mark"]').attr('class', 'button3');
+		$(this).attr('class', 'button4');
+
+		if(!$.cookie('check')){
+			//クッキーが存在しない場合、まずは値をセット
+			var cvalue = '';		
+			//255文字0を続ける
+			for (var i = 0; i < 255; i++){
+				cvalue += '0';
+			}
+		}else{
+			//クッキー存在する場合は値をそのまま変数にセット
+			var cvalue = $.cookie('check');
+		}
+		//変更した作品番号と、値を取得
+		var num = idGet();
+		var value = $(this).attr('data-value');
+		//値を書き換え
+		cvalue = cvalue.slice(0, num) + value + cvalue.slice(num + 1);
+		//クッキー書き込み		
+		$.cookie('check', cvalue, { expires: 365 });
+
+	});	
+
+	//掲示板表示
+	function setBoard(url){
+		
+		/*$.getJSON('21_board.php?url=' + url, function(data){
+			
+			var boardText = '';							//書き込みデータ
+			var tmp1 = data.split('\n');				//読み込みデータを改行ごとに区切り
+			var len = tmp1.length -1;					//読み込みデータの行数
+			var boardData = [];							//データを変数に格納
+
+			for(var i = 0; i < len; i++){
+				var tmp2 = tmp1[i].split('<>');			//データをさらに<>にて区切り
+				var resNum = tagCut(tmp2[0]);			//レス番号取得
+
+				boardData[i] = [
+					tagCut(tmp2[0]),	//レス番号
+					tagCut(tmp2[1]),	//名前
+					tagCut(tmp2[3]),	//日にち
+					tagCut(tmp2[6]),	//ID
+					tagChange(tmp2[4])	//本文
+				];
+
+				boardText +=
+					'<div id="res' + boardData[i][0] + '"' +
+					(boardData[i][0] == 1 ? ' style="display:none">' : '>') +
+					'<a class="resNo">' + boardData[i][0] + '</a>：' +
+					'<a class="resName">' +
+					boardData[i][1] + '</a>　' +
+					boardData[i][2] + '　ID:' +
+					boardData[i][3] + '<br>' +
+					boardData[i][4] + '</div><br>';
+			}
+			//最後にまとめて書き込み
+			$('#impressBoard').html(boardText);
+			
+		});
+
+		//タグを取り除く
+		function tagCut(str){
+			var a = str.replace(/<a.*?>|<b>|<\/a>|<\/b>/g, '');
+			//var a = str.replace(/<a.*?>|<\/a>/g, '');
+			return a;
+		}
+		function tagChange(str){
+			var a = str.replace(/<a.*?>/g, '<a class="resPop">');
+			return a;
+		}*/
+	}
+
+
+	//#############PIAI########################
+	//DL
+	$('body').on('click', '[id^="gameDl"]', function(){
+		//作品番号取得し、クッキーとカウンターの確認
+		var num = $(this).data('num');
+		var type = 'dl';
+		setCount(num, type);
+		//DLページに飛ばす
+		window.location.href = $(this).data('link');
+	});
+	//Web
+	$('body').on('click', '[id^="gameWeb"]', function(){
+		//作品番号取得し、クッキーとカウンターの確認
+		var num = $(this).data('num');
+		var type = 'web';
+		setCount(num, type);
+		//Webページに飛ばす
+		window.location.href = $(this).data('link');
+	});
+
+	function setCount(num, datatype){
+		if(!$.cookie(datatype)){
+			//クッキーが存在しない場合、まずは値をセット
+			var cvalue = '';		
+			//255文字0を続ける
+			for (var i = 0; i < 255; i++){
+				cvalue += '0';
+			}
+		}else{
+			//クッキー存在する場合は値をそのまま変数にセット
+			var cvalue = $.cookie(datatype);
+		}
+
+		//初DLの場合≒クッキーの値が0の場合、カウントする
+		var val = cvalue.substr(num, 1);
+		if(val !== '1'){
+			//受け渡し用データ
+			var postData = { no: num, type: datatype };
+			//カウント用のphpにデータ受け渡し
+			/*$.ajax({
+				type: "POST",
+				url: "05_dl.php",
+				data: postData
+			});*/
+		}
+		//クッキー書き込み		
+		var value = 1;
+		cvalue = cvalue.slice(0, num) + value + cvalue.slice(num + 1);
+		$.cookie(datatype, cvalue, { expires: 365 });
+	}
+
+	//#############投票########################
+
+	//投票開閉2及びデーターをクッキーに代入
+	$('[name=userAge]').on('change', function(){
+		if($(this).val() == '' || $('[name=gender]:checked').val() == undefined){
+			$('#userVoteB').hide('slow');
+		}else{
+			$('#userVoteB').show('slow');
+		}
+		setUserData('age', $(this).val());
+	});
+	$('[name=gender]').on('change', function(){
+		if($('[name=userAge]').val() != ''){
+			$('#userVoteB').show('slow');
+		}
+		setUserData('gender', $(this).val());
+	});
+	$('#gender2').on('change', function(){
+		if($('[name=userAge]').val() != ''){
+			$('#userVoteB').show('slow');
+		}
+		if($(this).val() == 0){
+			setUserData('gender', 0);
+		}else if($(this).val() == 100){
+			setUserData('gender', 1);
+		}else{
+			setUserData('gender', 4);
+		}
+		setUserData('gender2', $(this).val());
+	});
+
+	function setUserData(datatype, value){
+		//$.cookie.json = true;これいらない
+		if(!$.cookie('userdata')){
+			//クッキーが存在しない場合、まずは値をセット
+			var cvalue = [false,false,false,false,false];	
+			//255文字0を続ける
+		}else{
+			//クッキー存在する場合は値をそのまま変数にセット
+			var cvalue = decodeURI($.cookie('userdata'));
+			cvalue = cvalue.replace(/"/g, '');
+			cvalue = cvalue.split(',');
+		}
+		if(datatype == 'age'){
+			cvalue[1] = value;
+		}else if(datatype == 'gender'){
+			cvalue[2] = value;
+		}else if(datatype == 'gender2'){
+			cvalue[3] = value;
+		}
+		//alert(value);
+
+		//クッキー書き込み		
+		$.cookie('userdata', cvalue, { expires: 365 });
+	}
+
+	//ユーザーデータ入っているとき
+	if($.cookie('userdata')){
+		var covalue = decodeURI($.cookie('userdata'));
+		covalue = covalue.replace(/"/g, '');
+		covalue = covalue.split(',');
+		$('[name=userAge]').val(covalue[1]);
+		$('[name=gender]').val([covalue[2]]);
+		$('#gender2').val(covalue[3]);
+		if(covalue[1] != '' && covalue[2] != ''){
+			$('#userVoteB').show('slow');
+		}
+		if(covalue[1] != '' && covalue[2] == 4){
+			$('#male').text((100 - $('#gender2').val()) + '%');
+			$('#female').text($('#gender2').val() + '%');
+		}
+	}
+
+	//性別
+	$('#gender2').on('input', function(){
+		$('#male').text((100 - $(this).val()) + '%');
+		$('#female').text($(this).val() + '%');
+		if($(this).val() == 0){
+			$('[name=gender]').val([0]);
+			$('#male').text('');
+			$('#female').text('');
+		}else if($(this).val() == 100){
+			$('[name=gender]').val([1]);
+			$('#male').text('');
+			$('#female').text('');
+		}else{
+			$('[name=gender]').val([4]);
+		}
+	});
+
+	//性別
+	$('[name=gender]').on('click', function(){
+		if($(this).val() == 0){
+			$('#gender2').val([0]);
+		}else if($(this).val() == 1){
+			$('#gender2').val([1]);
+		}else if($(this).val() == 4){
+			$(this).val([]);
+		}
+		$('#male').text('');
+		$('#female').text('');
+	});
+
+	//投票初期化
+	function vDel(){
+		$('[name^="v"]').val([]);
+		$('[id^="subBtn"]').prop('disabled', true);
+		$('[id^="subBtn"]').css('visibility', 'hidden');
+		$('[id^="subBtn"]').css('display', 'inline');
+		$('[id^="subCom"]').text('');
+	}
+
+	//ラジオボタン選択時に送信ボタンを選択可能にする
+	$('[name^="v"]').on('click', function(){
+		var btnnum = $(this).attr('name');
+		btnnum = btnnum[1];
+		$('#subBtn' + btnnum).prop('disabled', false);
+	});
+
+	//投票ボタン
+	$('[id^="subBtn"]').on('click', function(){
+		var gamenum = idGet();
+		var btnnum = $(this).attr('id');
+		btnnum = btnnum[6];
+		var pointa = $('[name=v' + btnnum +']:checked').val();
+		//alert(gamenum + ', ' + btnnum + ', ' + point);
+
+		//ボタン消去
+		$('#subCom' + btnnum).text('投票済(' + pointa + '点)');
+		$('#subCom' + btnnum).css('color', 'red');
+		$('#subBtn' + btnnum).css('display', 'none');
+
+		//サーバーに送信
+		//ユーザー情報
+		if($.cookie('userdata')){
+			var userdata = decodeURI($.cookie('userdata'));
+			userdata = userdata.replace(/"/g, '');
+			userdata = userdata.split(',');
+			//alert(userdata[1]+  ', ' + userdata[2] + ', ' + userdata[3]);
+		}else{
+			var userdata = [false,false,false,false,false];	
+		}
+		var us1 = userdata[1];
+		var us2 = userdata[2];
+		var us3 = userdata[3];
+
+		//受け渡し用データ
+		var postData = { no: gamenum, type: btnnum, point: pointa, u1: us1, u2: us2, u3: us3};
+		//カウント用のphpにデータ受け渡し
+		/*$.ajax({
+			type: "POST",
+			url: "06_vote.php",
+			data: postData
+		});*/
+
+		//クッキーに代入
+		if(!$.cookie('vote')){
+			//クッキーが存在しない場合、まずは値をセット
+			var cvalue;		
+			//255×10回0を続ける
+			for (var i = 0; i < 255; i++){
+				cvalue += '0000000000';
+			}
+			$.cookie('vote', cvalue, { expires: 365 });
+		}//else{
+			//クッキー存在する場合は値をそのまま変数にセット
+			var cvalue = $.cookie('vote');
+		//}
+		//変更した作品番号と、値を取得
+		var num = gamenum  + btnnum + '';	//文字扱いにすることを明確化
+		num = Number(num);					//数値に変換
+		//値を書き換え
+		cvalue = cvalue.slice(0, num) + pointa + cvalue.slice(num + 1);
+		//alert(num);
+		//クッキー書き込み		
+		$.cookie('vote', cvalue, { expires: 365 });
+	});
+
+	//投票済みを反映
+	function setVoteEnd(id){
+		if($.cookie('vote')){
+			//クッキーが存在時のみ行う
+			var cvalue = $.cookie('vote');
+			//idから該当箇所のデータを抽出
+			var num;
+			for(var i = 0; i < 10; i++){
+				num = cvalue[id * 10 + i];
+				if(num != 0){
+					$('#subCom' + i).text('投票済(' + num + '点)');
+					$('#subCom' + i).css('color', 'red');
+					$('#subBtn' + i).css('display', 'none');
+				}
+			}
+		}
+	}
+	//#############自由意見欄########################
+	//文字数確認　
+	$('#userComment').on('change keyup', function(){
+		var count = $(this).val().length;
+		$("#lenComment").text(count);
+	});
+
+	//テキスト削除
+	$('#textClear').on('click', function(){
+		textDel();
+	});
+	function textDel(){
+		$('#userComment').val('');
+	}
+
+	//一時保存⇒ローカルストレージを使用する
+	$('#comTemp').on('click', function(){
+		setLocalComment();
+	});
+	//関数化
+	function setLocalComment(){
+		var comkey = 'vip17kh' + idGet();
+		var comval = $('#userComment').val();
+		localStorage.setItem(comkey, comval);
+	}
+
+	//送信
+	$('#comSub').on('click', function(){
+		var gamenum = idGet();
+		var comval = $('#userComment').val();
+		//localにコメント保存
+		setLocalComment();
+
+		if(!comval){
+			alert('コメントが入力されていません');
+		}else{
+			if(confirm('この内容で送信します\n送信できるのは一作品につき一回のみです\n宜しいでしょうか？')){
+			//OK
+				//ボタン消去
+				$('#comTemp').prop('disabled', true);
+				$('#comSub').prop('disabled', true);
+				$('#comSub').text('送信済み');
+
+				//サーバーに送信
+				//ユーザー情報
+				if($.cookie('userdata')){
+					var userdata = decodeURI($.cookie('userdata'));
+					userdata = userdata.replace(/"/g, '');
+					userdata = userdata.split(',');
+				}else{
+					var userdata = [false,false,false,false,false];	
+				}
+				var us1 = userdata[1];
+				var us2 = userdata[2];
+				var us3 = userdata[3];
+
+				//受け渡し用データ
+				var postData = { no: gamenum, comment: comval, u1: us1, u2: us2, u3: us3};
+				//カウント用のphpにデータ受け渡し
+				/*$.ajax({
+					type: "POST",
+					url: "08_comment.php",
+					data: postData
+				});*/
+
+				//クッキーに代入
+				if(!$.cookie('comment')){
+					//クッキーが存在しない場合、まずは値をセット
+					var cvalue = '';		
+					//255回0を続ける
+					for (var i = 0; i < 255; i++){
+						cvalue += '0';
+					}
+				}else{
+					//クッキー存在する場合は値をそのまま変数にセット
+					var cvalue = $.cookie('comment');
+				}
+				//変更した作品番号と、値を取得
+				var num = gamenum;
+				num = Number(num);					//数値に変換
+				//値を書き換え
+				cvalue = cvalue.slice(0, num) + '1' + cvalue.slice(num + 1);
+				//alert(num);
+				//クッキー書き込み		
+				$.cookie('comment', cvalue, { expires: 365 });
+			}else{
+				//alert('送信をキャンセルしました');
+			}
+		}
+	});
+
+	//マーカー設定
+	function setComEnd(id){
+		//ボタンリセット
+		$('#comTemp').prop('disabled', false);
+		$('#comSub').prop('disabled', false);
+		$('#comSub').text('送信する');
+		if($.cookie('comment')){
+			//クッキーが存在時のみ行う
+			var cvalue = $.cookie('comment');
+			//クッキーから必要な値を読み取りリストにセット
+			var val = cvalue.substr(id, 1);
+			if(val == '1'){
+				$('#comTemp').prop('disabled', true);
+				$('#comSub').prop('disabled', true);
+				$('#comSub').text('送信済み');
+			}
+		}
+	}
+
+	//ユーザーフォームクリア
+	function formClear(){
+		vDel();
+		//textDel();2018/01/29コメントアウト
+	}
+
+	//アラート
+	function alert001(text){
+		alert(text);
+	}
+			
+--></script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4da8bbb9a115087',t:'MTc5MjUyNTc2Ng=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"1b464aad4cb14e2ea25b2030f823e83c","spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

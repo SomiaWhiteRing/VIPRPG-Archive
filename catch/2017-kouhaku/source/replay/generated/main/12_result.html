@@ -1,0 +1,121 @@
+<!DOCTYPE html><html><head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/result.css">
+	<link rel="icon" type="image/png" href="../img/icon.png">
+    <title>紅白2017投票結果</title>
+
+</head>
+<body><section data-archive-statistics-gap="" style="padding:12px;margin:12px;border:1px solid #aab7c4;background:#f1f5f8;line-height:1.6"><strong>保存庫による集計資料未取得の案内</strong><p>元のサーバー集計APIは、現在の移転先ではJSONではなくPHPソースを返します。元のデータベースによる集計値は未取得です。このページの数値は補作していません。作品紹介・受賞結果・公開投票コメントは別ページに保存しています。</p><p><a href="03_list.html">作品一覧</a> / <a href="10_award.html">受賞結果</a> / <a href="13_result2.html">公開投票コメント</a></p></section><div style="text-align: center;"><div style="display: inline-block; position: relative; z-index: 9999;"></div></div>
+<div class="bodylike">
+
+	<div class="head">
+		<div class="top">
+			<h1>紅白2017投票結果一覧</h1>
+		</div>
+	</div>
+	<br>
+
+	<div class="nonline">
+        <div id="stickmenu">
+            <a href="index.html" class="button1">トップページへ戻る</a>
+            <a href="http://jbbs.shitaraba.net/game/60350/" class="button1">掲示板</a>	
+            <a href="http://jbbs.shitaraba.net/bbs/read.cgi/game/60350/1509880850/" class="button1">運営スレ</a>
+            <a href="10_award.html" class="button1">表彰会場へ</a>
+            <a href="13_result2.html" class="button5" style="font-size:90%">投票コメントへ</a>
+            <a href="14_result3.html" class="button5" style="font-size:90%">投票結果②へ</a>
+            <a id="togglemenu" class="button4">条件の表示切替</a><br>
+            <div style="height:5px;"></div>
+
+            <div id="menu">
+                <b>集計期間</b>
+                <label><input type="radio" name="term" value="0" checked="" disabled="disabled">紅白期間</label>
+                <label><input type="radio" name="term" value="1" disabled="disabled">全期間</label>
+                <label><input type="radio" name="term" value="3" disabled="disabled">紅白以降</label>               
+                <label><input type="radio" name="term" value="2" disabled="disabled">カスタム</label>
+                <input type="date" id="calender1" value="2017-12-24" disabled="disabled">～<input type="date" id="calender2" value="2018-01-28" disabled="disabled">
+                <div style="height:5px;"></div>
+
+                <b>IPアドレスの重複</b>
+                <label><input type="radio" name="distinct" value="1" checked="" disabled="disabled">最初のみカウント</label>
+                <label><input type="radio" name="distinct" value="0" disabled="disabled">全てカウント</label>
+                <a id="getQuery" class="button4">結果を取得</a>    
+                <div style="height:10px;"></div>
+
+                <b>表示形式</b>
+                <label><input type="radio" name="pointOrcount" value="0" disabled="disabled">得点/票数</label>
+                <label><input type="radio" name="pointOrcount" value="1" checked="" disabled="disabled">得点(順位)</label>
+                <label><input type="radio" name="pointOrcount" value="2" disabled="disabled">得点</label>
+                <label><input type="radio" name="pointOrcount" value="3" disabled="disabled">/票数</label>
+                <label><input type="radio" name="pointOrcount" value="4" disabled="disabled">(順位)</label><br>
+                <div style="height:5px;"></div>
+
+                <b>ソート</b>
+                <label><input type="radio" name="sorttabl" value="-1" checked="" disabled="disabled">No.</label>
+                <label><input type="radio" name="sorttabl" value="0" disabled="disabled">ss</label>
+                <label><input type="radio" name="sorttabl" value="1" disabled="disabled">総合</label>
+                <label><input type="radio" name="sorttabl" value="2" disabled="disabled">技術</label>
+                <label><input type="radio" name="sorttabl" value="3" disabled="disabled">物語</label>
+                <label><input type="radio" name="sorttabl" value="4" disabled="disabled">演出</label>
+                <label><input type="radio" name="sorttabl" value="5" disabled="disabled">斬新</label>
+                <label><input type="radio" name="sorttabl" value="6" disabled="disabled">遊び</label>
+                <label><input type="radio" name="sorttabl" value="7" disabled="disabled">ﾜﾛｽ</label>
+                <label><input type="radio" name="sorttabl" value="8" disabled="disabled">ﾋﾄﾞｲ</label>
+                <label><input type="radio" name="sorttabl" value="9" disabled="disabled">ｴｯﾁｨ</label>
+                <label><input type="radio" name="sorttabl" value="10" disabled="disabled">DL数</label>
+                <div style="height:15px;"></div>
+            </div>
+        </div>
+        ※このページは携帯・スマホ向けの調整を行っておりません。可能であればPCでの閲覧をお勧めします。<br>
+        ※集計期間の変更、IPアドレスの重複を変更した場合はサーバーから結果を取得する必要があります。<br>
+        　該当項目を変更したときにボタンが表示されますので押してください。<br>
+        ※表示形式、ソート変更は個別結果に反映されます。この二つは通信無しに切替可能です。<br>
+        ※個別結果の見出し欄(ss、総合等)をクリックしてもソート可能です。<br>
+
+        <br>
+        <br>
+
+        <b style="color:blue; font-size:150%">全体結果</b>※ポイント/票数で表示しています。
+        <div>
+            <!--紅白チーム結果-->
+            <table id="RedWhite">
+                <tbody><tr><td id="RedHead"><b>紅組</b></td><td>項目</td><td id="WhiteHead"><b>白組</b></td></tr>
+                <tr><td id="Red1"></td><td>総合部門</td><td id="White1"></td></tr>
+                <tr><td id="Red0"></td><td>ss部門</td><td id="White0"></td></tr>
+                <tr><td id="Red2"></td><td>技術部門</td><td id="White2"></td></tr>
+                <tr><td id="Red3"></td><td>物語部門</td><td id="White3"></td></tr>
+                <tr><td id="Red4"></td><td>演出部門</td><td id="White4"></td></tr>
+                <tr><td id="Red5"></td><td>斬新部門</td><td id="White5"></td></tr>
+                <tr><td id="Red6"></td><td>遊びやすさ部門</td><td id="White6"></td></tr>
+                <tr><td id="Red7"></td><td>ワロス部門</td><td id="White7"></td></tr>
+                <tr><td id="Red8"></td><td>これひど部門</td><td id="White8"></td></tr>
+                <tr><td id="Red9"></td><td>いやらしさ部門</td><td id="White9"></td></tr>
+            </tbody></table>
+        </div>
+        <br>
+        <br>
+
+        <b style="color:blue; font-size:150%">個別結果</b>
+		<!--ゲームリスト、データは'../games/data.json'を読み込んでjQueryで生成-->
+		<table class="gamelist" id="gamelist">
+		</table>
+		<br>
+
+	</div>
+
+	<div style="height:20px;"></div>
+
+	<div class="foot">
+		<div class="bottom">
+			<a>VIPRPG 2017紅白</a>
+		</div>
+	</div>
+</div>
+<script src="../js/jquery.js"></script>
+<script src="../js/jquery.cookie.js"></script>
+<script src="../js/jquery.sticky.js"></script>
+<script src="../js/common.js"></script>
+
+
+
+</body></html>

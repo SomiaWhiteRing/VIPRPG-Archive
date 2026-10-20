@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/result.css">
+	<link rel="icon" type="image/png" href="../img/icon.png">
+    <title>紅白2017投票結果</title>
+
+</head>
+<body><script type="text/javascript" charset="utf-8" src="//asumi.shinobi.jp/encount"></script><div style="text-align: center;"><div style="display: inline-block; position: relative; z-index: 9999;"><script type="text/javascript" charset="utf-8" src="//asumi.shinobi.jp/fire?f=44"></script><script type="text/javascript" charset="utf-8" src="/__sys__inactive_message.js"></script></div></div>
+<div class="bodylike">
+
+	<div class="head">
+		<div class="top">
+			<h1>紅白2017投票結果一覧</h1>
+		</div>
+	</div>
+	<br>
+
+	<div class="nonline">
+        <div id="stickmenu">
+            <a href="index.html" class="button1">トップページへ戻る</a>
+            <a href="http://jbbs.shitaraba.net/game/60350/" class="button1">掲示板</a>	
+            <a href="http://jbbs.shitaraba.net/bbs/read.cgi/game/60350/1509880850/" class="button1">運営スレ</a>
+            <a href="10_award.html" class="button1">表彰会場へ</a>
+            <a href="13_result2.html" class="button5" style="font-size:90%">投票コメントへ</a>
+            <a href="14_result3.html" class="button5" style="font-size:90%">投票結果②へ</a>
+            <a id="togglemenu" class="button4">条件の表示切替</a><br>
+            <div style="height:5px;"></div>
+
+            <div id="menu">
+                <b>集計期間</b>
+                <label><input type="radio" name="term" value="0" checked>紅白期間</label>
+                <label><input type="radio" name="term" value="1">全期間</label>
+                <label><input type="radio" name="term" value="3">紅白以降</label>               
+                <label><input type="radio" name="term" value="2">カスタム</label>
+                <input type="date" id="calender1" value="2017-12-24" disabled>～<input type="date" id="calender2" value="2018-01-28" disabled>
+                <div style="height:5px;"></div>
+
+                <b>IPアドレスの重複</b>
+                <label><input type="radio" name="distinct" value="1" checked>最初のみカウント</label>
+                <label><input type="radio" name="distinct" value="0">全てカウント</label>
+                <a id="getQuery" class="button4">結果を取得</a>    
+                <div style="height:10px;"></div>
+
+                <b>表示形式</b>
+                <label><input type="radio" name="pointOrcount" value="0">得点/票数</label>
+                <label><input type="radio" name="pointOrcount" value="1" checked>得点(順位)</label>
+                <label><input type="radio" name="pointOrcount" value="2">得点</label>
+                <label><input type="radio" name="pointOrcount" value="3">/票数</label>
+                <label><input type="radio" name="pointOrcount" value="4">(順位)</label><br>
+                <div style="height:5px;"></div>
+
+                <b>ソート</b>
+                <label><input type="radio" name="sorttabl" value="-1" checked>No.</label>
+                <label><input type="radio" name="sorttabl" value="0">ss</label>
+                <label><input type="radio" name="sorttabl" value="1">総合</label>
+                <label><input type="radio" name="sorttabl" value="2">技術</label>
+                <label><input type="radio" name="sorttabl" value="3">物語</label>
+                <label><input type="radio" name="sorttabl" value="4">演出</label>
+                <label><input type="radio" name="sorttabl" value="5">斬新</label>
+                <label><input type="radio" name="sorttabl" value="6">遊び</label>
+                <label><input type="radio" name="sorttabl" value="7">ﾜﾛｽ</label>
+                <label><input type="radio" name="sorttabl" value="8">ﾋﾄﾞｲ</label>
+                <label><input type="radio" name="sorttabl" value="9">ｴｯﾁｨ</label>
+                <label><input type="radio" name="sorttabl" value="10">DL数</label>
+                <div style="height:15px;"></div>
+            </div>
+        </div>
+        ※このページは携帯・スマホ向けの調整を行っておりません。可能であればPCでの閲覧をお勧めします。<br>
+        ※集計期間の変更、IPアドレスの重複を変更した場合はサーバーから結果を取得する必要があります。<br>
+        　該当項目を変更したときにボタンが表示されますので押してください。<br>
+        ※表示形式、ソート変更は個別結果に反映されます。この二つは通信無しに切替可能です。<br>
+        ※個別結果の見出し欄(ss、総合等)をクリックしてもソート可能です。<br>
+
+        <br>
+        <br>
+
+        <b style="color:blue; font-size:150%">全体結果</b>※ポイント/票数で表示しています。
+        <div>
+            <!--紅白チーム結果-->
+            <table id="RedWhite">
+                <tr><td id="RedHead"><b>紅組</b></td><td>項目</td><td id="WhiteHead"><b>白組</b></td></tr>
+                <tr><td id="Red1"></td><td>総合部門</td><td id="White1"></td></tr>
+                <tr><td id="Red0"></td><td>ss部門</td><td id="White0"></td></tr>
+                <tr><td id="Red2"></td><td>技術部門</td><td id="White2"></td></tr>
+                <tr><td id="Red3"></td><td>物語部門</td><td id="White3"></td></tr>
+                <tr><td id="Red4"></td><td>演出部門</td><td id="White4"></td></tr>
+                <tr><td id="Red5"></td><td>斬新部門</td><td id="White5"></td></tr>
+                <tr><td id="Red6"></td><td>遊びやすさ部門</td><td id="White6"></td></tr>
+                <tr><td id="Red7"></td><td>ワロス部門</td><td id="White7"></td></tr>
+                <tr><td id="Red8"></td><td>これひど部門</td><td id="White8"></td></tr>
+                <tr><td id="Red9"></td><td>いやらしさ部門</td><td id="White9"></td></tr>
+            </table>
+        </div>
+        <br>
+        <br>
+
+        <b style="color:blue; font-size:150%">個別結果</b>
+		<!--ゲームリスト、データは'../games/data.json'を読み込んでjQueryで生成-->
+		<table class="gamelist" id="gamelist">
+		</table>
+		<br>
+
+	</div>
+
+	<div style="height:20px;"></div>
+
+	<div class="foot">
+		<div class="bottom">
+			<a>VIPRPG 2017紅白</a>
+		</div>
+	</div>
+</div>
+<script src="../js/jquery.js"></script>
+<script src="../js/jquery.cookie.js"></script>
+<script src="../js/jquery.sticky.js"></script>
+<script src="../js/common.js"></script>
+<script type="text/JavaScript"><!--
+
+    //#####グローバル関数設定###########################################
+    var num;                        //作品数
+    var listdata = new Array();     //作品データ
+    var votePoint = new Array();    //投票結果
+    var dlCount = new Array();      //DL数
+
+	//#####リスト作成##################################################
+    //メニュー付いてくる
+    $(document).ready(function(){
+      $("#stickmenu").sticky({ topSpacing: 0, center:true,});
+    });
+
+    //条件の表示切替
+    $('#togglemenu').on('click', function(){
+        //alert('a');
+        $('#menu').slideToggle('slow');
+    });
+
+	//JSON読み込み
+    //readResult();
+    readResult(1, '', '2018-01-28', 1);
+    function readResult(termdata, startdata, enddata, disdata){
+    //function readResult(){
+        $.when(
+            $.getJSON('../games/data.json'),
+            $.getJSON('25_dlcount2.php', {term : termdata, start : startdata, end : enddata, distinct: disdata}),
+            $.getJSON('22_votecount.php', {term : termdata, start : startdata, end : enddata, distinct: disdata})
+        )
+        .done(function(data, count, vote){
+
+            data = data[0];
+            count = count[0];
+            vote = vote[0];
+
+            num = data['num'];							//作品数 グローバルで
+
+            for(var i = 0; i <= num; i++){
+                //各データ代入　グローバル変数だからvar入れないこと！！
+                listdata[i] = {'no': i, 'title': data[i]['title'], 'author': data[i]['author'], 'genre': data[i]['genre'], 'vote': data[i]['vote'], 'date1': data[i]['date1']};
+
+                //DL数　グローバル変数だからvar入れないこと！！
+                if(count[i] == undefined){
+                    dlCount[i] = [0, 0, 0, 0]; //DL数、DL順位、web数、web順位
+                }else{
+                    dlCount[i] = count[i];
+                }
+
+                //票数　グローバル変数だからvar入れないこと！！
+                if(vote[i] == undefined){
+                    votePoint[i] = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+                }else{
+                    votePoint[i] = vote[i];
+                }
+            }
+            //tableの中身を空にする
+            $("#gamelist").empty();
+            //list化
+            sortDefault();
+            //現在のソート列を取得
+            var votetype = $('[name=sorttabl]:checked').val();
+            if(votetype == -1){
+                //デフォルトの表を作成
+                sortDefault();
+            }else if(votetype == 10){
+                sorttable2();
+            }else{
+                sorttable(votetype);
+            }
+            //チームテーブルの値を変更
+            setRedWhite();
+        });
+    }
+	
+    //チーム結果
+    function setRedWhite(){
+        var redpoint = new Array();
+        var redcount = new Array();
+        var whitepoint = new Array();
+        var whitecount  = new Array();;
+
+
+
+        //votePoint[i][j]
+			//偶数奇数によって背景色を変える
+			//if(listdata[i]['no'] % 2 == 0){
+				//var evenodd = 'class="even"';
+			//}else{
+				//var evenodd = 'class="odd"';
+			//}
+
+        for(var j = 0; j <= 9 ; j++){
+            redpoint[j] = 0;
+            redcount[j] = 0
+            whitepoint[j] = 0;
+            whitecount[j] = 0;
+        }
+
+        for(var i = 0; i <= num; i++){
+            for(var j = 0; j <= 9; j++){
+                if(i % 2 == 1){
+                    //奇数：紅組
+                    redpoint[j] += votePoint[i][j];
+                    redcount[j] += votePoint[i][j + 10];
+                }else{
+                    whitepoint[j] += votePoint[i][j];
+                    whitecount[j] += votePoint[i][j + 10];                    
+                }
+            }
+        }
+        for(var j = 0; j <= 9 ; j++){
+            $('#Red' + j).text(redpoint[j] + '/' + redcount[j]);
+            $('#White' + j).text(whitepoint[j] + '/' + whitecount[j]);
+        }
+    }
+
+	//#####各種動作##################################################
+    //集計期間
+    //集計期間変更
+    $('[name=term]').on('change', function(){
+        if($('[name=term]:checked').val() == 0){
+            $('#calender1').val('2017-12-24');
+            $('#calender2').val('2018-01-28');
+            $('#calender1').attr("disabled","disabled");
+            $('#calender2').attr("disabled","disabled");
+        }else if($('[name=term]:checked').val() == 1){
+            $('#calender1').val('2017-12-24');
+            $('#calender2').val(todaySet());
+            $('#calender1').attr("disabled","disabled");
+            $('#calender2').attr("disabled","disabled");
+        }else if($('[name=term]:checked').val() == 3){
+            $('#calender1').val('2018-01-29');
+            $('#calender2').val(todaySet());
+            $('#calender1').attr("disabled","disabled");
+            $('#calender2').attr("disabled","disabled");
+        }else{
+            $('#calender1').removeAttr("disabled");
+            $('#calender2').removeAttr("disabled");
+        }
+        $('#getQuery').show();
+    });
+
+    //集計期間変更
+    $('[name=distinct], #calender1, #calender2').on('change', function(){
+        $('#getQuery').show();
+    });
+
+
+    //結果を取得ボタン　初期は隠す
+    $('#getQuery').hide();
+    $('#getQuery').on('click', function(){
+        var dis = $('[name=distinct]:checked').val();
+        if($('[name=term]:checked').val() == 1){
+            readResult(0, '', '', dis);
+        }else{
+            var t1 = document.getElementById("calender1").value + '';
+            var t2 = document.getElementById("calender2").value + '';
+            readResult(1, t1, t2, dis);
+        }
+        //反映したらボタンはまた隠す
+        $('#getQuery').hide();
+    });
+
+    //今日の日付を取得
+    function todaySet(){
+        var date = new Date()
+        var year = date.getFullYear()
+        var month = date.getMonth() + 1
+        var day = date.getDate()
+        
+        var toTwoDigits = function (numb, digit) {
+            numb += ''
+            if (numb.length < digit) {
+            numb = '0' + numb
+            }
+            return numb
+        }
+        var yyyy = toTwoDigits(year, 4)
+        var mm = toTwoDigits(month, 2)
+        var dd = toTwoDigits(day, 2)
+        var ymd = yyyy + "-" + mm + "-" + dd;
+        return ymd;
+    }
+
+    //ソート
+    $('[name=sorttabl]').on('change', function(){
+        var votetype = $('[name=sorttabl]:checked').val();
+        if(votetype == -1){
+            //デフォルトの表を作成
+            sortDefault();
+        }else if(votetype == 10){
+            sorttable2();
+        }else{
+            sorttable(votetype);
+        }
+    });
+    //投票ソートの関数
+    function sorttable(votetype){
+        var original = new Array();
+        for(var i = 0; i <= num; i++){
+            original.push([i, votePoint[i][votetype]]);
+        }
+        var sortdata = original.sort(function(a, b){
+            return(b[1] - a[1]);
+        });
+        //リスト化
+        sortVoteData(sortdata);
+    }
+    //DLソートの関数
+    function sorttable2(){
+        var original = new Array();
+        for(var i = 0; i <= num; i++){
+            original.push([i, dlCount[i][0]]);
+        }
+        var sortdata = original.sort(function(a, b){
+            return(b[1] - a[1]);
+        });
+        //リスト化
+        sortVoteData(sortdata);
+    }
+
+    //表のno列を押したとき
+    $('body').on('click', '[name=nosort]', function(){
+        //デフォルトの表を作成
+        sortDefault();
+        //ラジオボタンのnoを選択
+        $('[name=sorttabl]').val([-1]);
+    });
+    //表のvote列を押したとき
+    $('body').on('click', '[name^="votesort"]', function(){
+        var votetype = $(this).attr('name')[8]; //投票項目の番号を取得:クリックしたname属性の9文字目
+        sorttable(votetype);
+        $('[name=sorttabl]').val([votetype]);
+    });
+    //表のdl列を押したとき
+    $('body').on('click', '[name=dlsort]', function(){
+        //デフォルトの表を作成
+        sorttable2();
+        //ラジオボタンのnoを選択
+        $('[name=sorttabl]').val([10]);
+    });
+
+    //表示形式変更
+    $('[name=pointOrcount]').on('change', function(){
+        viewChange();
+    });
+    function viewChange(){
+        if($('[name=pointOrcount]:checked').val() == 0){
+            $('.pointResult').show();
+            $('.countResult').show();
+            $('.rankResult').hide();
+        }else if($('[name=pointOrcount]:checked').val() == 1){
+            $('.pointResult').show();
+            $('.countResult').hide();
+            $('.rankResult').show();
+        }else if($('[name=pointOrcount]:checked').val() == 2){
+            $('.pointResult').show();
+            $('.countResult').hide();
+            $('.rankResult').hide();
+        }else if($('[name=pointOrcount]:checked').val() == 3){
+            $('.pointResult').hide();
+            $('.countResult').show();
+            $('.rankResult').hide();
+        }else if($('[name=pointOrcount]:checked').val() == 4){
+            $('.pointResult').hide();
+            $('.countResult').hide();
+            $('.rankResult').show();
+        }
+    }
+
+    //初期表示
+    function sortDefault(){
+        //各種変数
+		var no, evenodd;
+        //tableの中身を空にする
+        $("#gamelist").empty();
+		//各作品処理
+		for(var i = 1; i <= num; i++){
+			//10作品に一つ見出しをつける
+			if(i % 10 == 1){
+                listHead();	
+			}
+            //各データ
+            listColumn(i, '');
+		}
+            //初期表示
+            viewChange();
+    }
+
+    //ソート表示
+    function sortVoteData(sortdata){
+        //各種変数
+		var no, evenodd;
+        //tableの中身を空にする
+        $("#gamelist").empty();
+        //各作品処理
+        var k = 0;
+        var rank = 1;
+        var rankadd = 1;
+		while(sortdata[k][1] >= 1){
+            //作品番号iには　sortdata[k][0]　を代入
+            var i = sortdata[k][0];
+			//10作品に一つ見出しをつける
+			if(k % 10 == 0){
+                listHead();
+			}
+            if(k != 0){
+                //ひとつ前の得点と同じか確認
+                if(sortdata[k - 1][1] == sortdata[k][1]){
+                    //同じだったらrankは変えず、rankaddに+1
+                    rankadd++;
+                }else{
+                    //違ったらrankにrankaddを足し、rankaddは1に戻す
+                    rank += rankadd;
+                    rankadd = 1
+                }
+            } 
+            //行を追加
+            listColumn(i, rank);
+            //k増加
+            k++;
+		}
+        //表示
+        viewChange();
+    }
+
+        //表作成の共通箇所1:見出し
+        function listHead(){
+            $('#gamelist').append(
+                '<tr class="heading">' +
+                    '<td>順位</td>' +
+                    '<td class="point" name="nosort">No.</td>' +
+                    '<td class="title">作品名</td>' +
+                    '<td class="point" name="votesort0">ss' +
+                    '<td class="point" name="votesort1">総合</td></td>' +
+                    '<td class="point" name="votesort2">技術</td></td>' +
+                    '<td class="point" name="votesort3">物語</td></td>' +
+                    '<td class="point" name="votesort4">演出</td></td>' +
+                    '<td class="point" name="votesort5">斬新</td></td>' +
+                    '<td class="point" name="votesort6">遊び</td></td>' +
+                    '<td class="point" name="votesort7">ﾜﾛｽ </td></td>' +
+                    '<td class="point" name="votesort8">ﾋﾄﾞｲ</td></td>' +
+                    '<td class="point" name="votesort9">ｴｯﾁｨ</td></td>' +
+                    '<td class="point "count" name="dlsort">DL数<br>Web</td>' +
+                    '<td class="ag">作者名<br>ジャンル</td>' +
+                    '<td class="tdm">投票</td>' +
+                    '<td class="subdate">提出日</td>' +
+                '</tr>'
+            );
+        }
+
+        //表作成の共通箇所2:カラム
+        function listColumn(i, rank){
+			//通し番号
+			if(i <= 9){
+				var no = '0' + i;
+			}else{
+				var no = i;
+			}
+			//偶数奇数によって背景色を変える
+			if(listdata[i]['no'] % 2 == 0){
+				var evenodd = 'class="even"';
+			}else{
+				var evenodd = 'class="odd"';
+			}
+
+			//投票
+			if(listdata[i]['vote'] == 1){
+				var voteok = "〇";
+			}else{
+				var voteok = "✕";
+			}	
+
+            //各値を代入
+            var votevalue='';
+            for(var j = 0; j < 10; j++){
+                if(votePoint[i][j] != 0){
+                    votevalue += '<td><div class="pointResult">' + votePoint[i][j] + '</div><div class="countResult">/' + votePoint[i][j + 10] + '</div>' + '<div class="rankResult">(' + votePoint[i][j + 20] + ')</div></td>';
+                }else{
+                    votevalue += '<td></td>'
+                }
+
+            }
+            //DL数を代入
+            var dlvalue = '<td>';
+            if(dlCount[i][0] != ''){
+                dlvalue += dlCount[i][0];
+            }
+            if(dlCount[i][2] != ''){
+                dlvalue += '<br>' + dlCount[i][2];
+            }
+            dlvalue += '</td>';            
+
+			//各要素を代入
+            var putdata = '' +
+                '<tr ' + evenodd + '>' +
+                '<td>' + rank + '</td>' +
+                '<td>' + no + '</td>' +
+					'<td class="title"><a title="' + listdata[i]['title'] + '" href="04_game.php?id=' + i + '">' 
+                        + listdata[i]['title'] + '</a></td>' +
+                    votevalue +
+                    dlvalue +
+                    '<td class="ag"><a title="' + listdata[i]['author'] + '">' + listdata[i]['author'] + '</a><br>'
+					    + '<a title="' + listdata[i]['genre'] + '">' + listdata[i]['genre'] + '</a></td>' +
+                    '<td class="tdm">' + voteok + '</td>' +
+                    '<td class="subdate">' + listdata[i]['date1'] + '</td>' +	
+                '</tr>';
+			$('#gamelist').append(putdata);
+        }
+
+--></script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4da8bb7dc8adcef',t:'MTc5MjUyNTc2Ng=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"1b464aad4cb14e2ea25b2030f823e83c","spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

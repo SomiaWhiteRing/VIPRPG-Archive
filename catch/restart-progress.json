@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2017-kouhaku",
+  "activeFestival": "2017-summer",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -2086,6 +2086,29 @@
         "catch/2017-gw/investigation/local-http-payloads.json"
       ],
       "notes": "日本节点直接读取仍可用的viprpg2017gw.x.2nt.com源站，53份有效HTML（5个入口／菜单／说明／更新／目录文档、48份原介绍）与133项展示图像依赖保存原始载荷；连同托管错误页／探测与错误样式缓存共193项载荷引用SHA核对。51既有身份、编号、题名保持，48份介绍的96段完整作者／管理人留言比对，51图标、70截图和2张横幅按实际格式归档，旧70画廊全部字节对应。保留43项配布入口的44条目录／介绍地址，不声称游戏文件现可下载。类型／工具字段分别保留，源站无分组字段，不补造分组。21、49原目录无介绍链接；23虽有链接但当前跳转至托管平台错误页，旧23缓存同样不是介绍。香港HKG出口精确查询旧x.fc2.com及现x.2nt.com的23地址均返回空CDX；较宽前缀查询超时不作为无存档依据，23原文仍待查。三个编号均保留完整整理详情及明确标注生成来源的原貌缺口骨架，未添加受限标记。定位UTF-8 BOM令HTML解析器丢掉frameset导致空入口，调用现有decodeSource后恢复原生menu／contents两框架，原载荷不变。目录固定950px加20px边距在933px内容框架溢出，展示副本改为自适应且保留原边距后表宽897、滚动宽933。原貌189文件／56HTML、364静态加70悬停引用无缺失或外部自动加载；312展示文件HTTP/SHA一致。51整理详情和51原貌详情／骨架、说明／更新／目录均通过桌面检查；两项初读延迟图确认正常，实际沙箱内菜单及全部51项目录逐项点击验证933px下无溢出、坏图或待加载图。00原貌悬停、查看器切换／关闭／Esc、首页51图标与2横幅和末项往返通过。构建4211页、lint与数据校验通过。未审看题材或像素内容，未下载游戏包。"
+    },
+    {
+      "festivalId": "2017-kouhaku",
+      "reviewedAt": "2026-10-21",
+      "dataSha256": "eabce5fb9f4e12fb03843513dfae9e8cd6b47e1759425a82f998444ec119d881",
+      "works": 71,
+      "screenshotFiles": 114,
+      "status": "reviewed-with-exceptions",
+      "sourceEvidence": [
+        "catch/2017-kouhaku/recovery.json",
+        "catch/2017-kouhaku/source-comparison.json",
+        "catch/2017-kouhaku/source/live/manifest.json",
+        "catch/2017-kouhaku/source/resources/manifest.json",
+        "catch/2017-kouhaku/investigation/runtime-corrections.json",
+        "catch/2017-kouhaku/investigation/old-gallery-reconciliation.json",
+        "catch/2017-kouhaku/investigation/replay-closure.json",
+        "catch/2017-kouhaku/investigation/historical-gw-link.json"
+      ],
+      "desktopEvidence": [
+        "catch/2017-kouhaku/desktop-review.json",
+        "catch/2017-kouhaku/investigation/local-http-payloads.json"
+      ],
+      "notes": "日本节点直接读取websupportviprpg迁移站，保存7份HTML、71项原始games/data.json及269条公开投票评论comment.json；连同依赖、404与原PHP接口探测共210项原载荷引用SHA核对。71既有身份／编号／题名不变，142个作者／管理人留言字段逐项全文比对（含00的源空值），71图标（20项采用源脚本明确指定的默认图标）、114截图和2张本祭典横幅按实际格式保存，旧114画廊全部字节对应。历史友情链接9张横幅仅保留在原貌包，不当成本祭典横幅。恢复51项配布／浏览器版入口的54条原地址，不下载或运行游戏包。JSON无分组字段，类型／工具／浏览器希望／投票资格分别归档，不补造红白组别。保留原站动态目录和共用id查询详情模板。真实沙箱Cookie读取抛SecurityError，在回放vendor加仅针对该错误的当前文档临时字符串存储，原vendor载荷保留，偏好不跨页持久化。实际网络对比证明jQuery的X-Requested-With触发Origin:null的OPTIONS400；回放将Ajax按真实跨域处理，去掉此头后同一沙箱两次JSON GET200并生成71项目录，沿用既有CORS配置和allow-scripts权限。奖项页17-icon.gif实际404，按原JSON的png字段修正展示引用并保留404原响应。两个统计页依赖的三个接口现返回PHP源码而非JSON，引用原管理数据库；未访问该数据库，也未补造集计数，改为明确资料未取得提示并停用相应无效控件。公开评论页实际渲染269个base3块，奖项页28图正常。原貌197文件（7HTML及2JSON）、369静态引用无缺失或外部自动加载；动态图片／JSON依赖由71实际详情、114源截图角色与HTTP384文件逐项核对。真实沙箱71项均逐项目录进入／返回，题名加载与主截图id对应且1168px内容区无溢出、坏图或待加载图；71整理详情、00原貌悬停、查看器切换／关闭／Esc、首页71图标与2横幅及末项往返通过。一次工具批次超时复核停在已完成23，重新连接后24至70分批实测，不把未返回批次当通过。构建4212页、lint与数据校验通过。未新增受限，未审看题材或像素。历史友情链接还找到2017GW的Geocities原地址，并取得21／23原介绍作为单独补档后续依据。"
     }
   ],
   "originalViewsReviewed": [
@@ -2567,6 +2590,13 @@
       "evidence": [
         "catch/2017-gw/original-view.json",
         "catch/2017-gw/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2017-kouhaku",
+      "evidence": [
+        "catch/2017-kouhaku/original-view.json",
+        "catch/2017-kouhaku/desktop-review.json"
       ]
     }
   ],

@@ -1,0 +1,82 @@
+<?php
+
+    //パラメータ取得
+    if(isset($_GET['term'])) {
+		$term = $_GET['term'];
+    }else{
+        $term = 0;
+    }
+    if(isset($_GET['start'])) {
+		$start = $_GET['start'];
+    }else{
+        $start = '';
+    }
+    if(isset($_GET['end'])) {
+		$end = $_GET['end'];
+    }else{
+        $end = '';
+    }
+    if(isset($_GET['distinct'])) {
+		$dis = $_GET['distinct'];
+    }else{
+        $dis = 1;
+    }
+
+    //期間
+    $period = '';
+    if($term == 0){
+        //$period = '';
+    }else{
+        if($start !== ''){
+            $period .= 'AND time >= \'' . $start . ' 00:00:00\'';
+        }
+        if($end !== ''){
+            $period .= 'AND time < \''. $end . ' 23:59:59\'';
+        }
+	}
+    
+    //IP重複
+    if($dis == 0){
+        $distinct = '';
+    }else{
+        $distinct = 'DISTINCT';
+    }
+
+	//DB接続
+	require_once '../kanri/php/getDB.php';
+	if(getDB()){
+
+        //あらかじめ全ての関数に0をいれておく
+        for($j = 0; $j < 75; $j++){
+            for($i = 0; $i < 4; $i++){
+                $data[$j][$i] = 0;
+            }
+        }
+
+		$db = getDB();
+		//テーブル名指定
+		$tb_name = 'dl_count';
+		
+		//クエリ発行（DL人）
+        $st = $db -> query("SELECT no, COUNT($distinct ip2) AS count FROM dl_count WHERE dl = 1 $period GROUP BY no ORDER BY count DESC");
+        $k = 1;       
+		while($row = $st -> fetch()){
+            $data[$row['no']][0] = intval($row['count']);
+            $data[$row['no']][1] = $k;
+            $k++;
+        }
+        //クエリ発行（WEB人）
+		$st = $db -> query("SELECT no, COUNT($distinct ip2) AS count FROM dl_count WHERE web = 1 $period GROUP BY no ORDER BY count DESC");
+        $k = 1;       
+		while($row = $st -> fetch()){
+            $data[$row['no']][2] = intval($row['count']);
+            $data[$row['no']][3] = $k;
+            $k++;
+        }
+		//終了
+        $db=NULL;
+        
+        header('Content-type: application/json charset=UTF-8');
+        echo json_encode($data);
+    }
+?>

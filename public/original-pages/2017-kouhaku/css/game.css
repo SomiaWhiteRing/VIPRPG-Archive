@@ -1,0 +1,78 @@
+/*04_game.phpのみで使うclass及びidのスタイルシート*/
+
+/*レス番号*/
+/*a[id^="res"]{
+	color:blue;
+}*/
+
+/*横方向に分割*/
+.split{
+	position:static;
+	width:300px;
+}
+
+a.resPop{
+	color:blue;
+}
+
+a.resName{
+	color:green;
+}
+
+#popList{
+	position:absolute;
+	z-index:1;
+	display:none;
+	background-color:#1f1f1f;
+	opacity:0.9;
+	
+	margin-left:-10px;
+	text-align:left;	
+	border-style:solid;
+	border-width:1px;
+	border-color: #222222;
+	height:480px;
+	overflow:scroll;
+}
+#popList li{
+	color:white;
+	list-style-type:decimal;
+}
+#popList li:hover{
+	background-color:#005f00;
+	font-size:120%;
+	color:#fc8d8d;
+	font-weight:700;
+	cursor:pointer;
+}
+
+/*menu*/
+#stickmenu{
+	background-color:#EFEFEF;
+}
+
+
+#sticker{
+	text-align:right;
+	display:none;
+}
+
+#male, #female{
+	position:absolute;
+	margin:20px  0px  0px -20px;
+	font-size:70%;
+}
+#male{
+	color:blue;
+}
+#female{
+	color:red;
+}
+
+input[name*="v"]{
+	margin-top:7px;
+}
+
+[class*="button"] {
+    user-select: none;
+}

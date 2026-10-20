@@ -1,0 +1,4553 @@
+{
+  "festivalId": "2017-kouhaku",
+  "originalBase": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/",
+  "entryPage": "main/index.html",
+  "liveSource": true,
+  "sourceManifests": [
+    "source/replay/manifest.json"
+  ],
+  "originalResources": {
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/index.html": "main/index.html",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/03_list.html": "main/03_list.html",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json": "games/data.json",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/10_award.html": "main/10_award.html",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/12_result.html": "main/12_result.html",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/14_result3.html": "main/14_result3.html",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/13_result2.html": "main/13_result2.html",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html": "main/04_game.html",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/comment.json": "games/comment.json",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/twitter.png": "img/twitter.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/banner1.png": "img/banner1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/banners/12th.png": "img/banners/12th.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/banners/k2016.png": "img/banners/k2016.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/banners/k2015.png": "img/banners/k2015.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/banners/k2014.png": "img/banners/k2014.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/banners/s2016-1.png": "img/banners/s2016-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/banners/s2016-2.png": "img/banners/s2016-2.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/banners/g2017.png": "img/banners/g2017.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/banners/g2016.png": "img/banners/g2016.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/banners/g2015.png": "img/banners/g2015.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/banner2.png?001": "img/banner2.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/js/jquery.cookie.js": "js/jquery.cookie.js",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/js/jquery.js": "js/jquery.js",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/js/common.js": "js/common.js",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/icon.png": "img/icon.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/css/common.css?1223_1": "css/common.css",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/41-icon.gif": "img/games/41-icon.gif",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/css/common.css": "css/common.css",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/41-1.png": "img/games/41-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/35-icon.png": "img/games/35-icon.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/35-1.png": "img/games/35-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/27-icon.png": "img/games/27-icon.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/35.png": "img/35.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/27-1.png": "img/games/27-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/23-icon.png": "img/games/23-icon.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/17-1.png": "img/games/17-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/23-1.png": "img/games/23-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/11-icon.png": "img/games/11-icon.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/11.png": "img/11.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/11-1.png": "img/games/11-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/7-icon.png": "img/games/7-icon.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/46-icon.png": "img/games/46-icon.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/7-1.png": "img/games/7-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/46-1.png": "img/games/46-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/28-icon.png": "img/games/28-icon.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/32-icon.gif": "img/games/32-icon.gif",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/28-1.png": "img/games/28-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/47-icon.png": "img/games/47-icon.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/32-1.png": "img/games/32-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/47-1.png": "img/games/47-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/31-icon.png": "img/games/31-icon.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/31-1.png": "img/games/31-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/33-icon.png": "img/games/33-icon.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/js/jquery.sticky.js": "js/jquery.sticky.js",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/33-1.png": "img/games/33-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/css/game.css": "css/game.css",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/css/result.css": "css/result.css",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/css/common.css?0104": "css/common.css",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/0-2.png": "img/games/0-2.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/0-1.png": "img/games/0-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/1-icon.png": "img/games/1-icon.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/1-1.png": "img/games/1-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/1-2.png": "img/games/1-2.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/2-1.png?1216": "img/games/2-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/3-icon.png": "img/games/3-icon.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/3-1.png": "img/games/3-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/3-2.png": "img/games/3-2.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/4-1.png?1223": "img/games/4-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/4-2.png": "img/games/4-2.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/4-icon.gif": "img/games/4-icon.gif",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/5-1.jpg?0123": "img/games/5-1.jpg",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/5-2.jpg": "img/games/5-2.jpg",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/6-icon.gif": "img/games/6-icon.gif",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/6-1.png?1223": "img/games/6-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/7-2.png?1222": "img/games/7-2.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/8-1.png": "img/games/8-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/7-1.png?1222": "img/games/7-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/9-icon.png": "img/games/9-icon.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/9-1.png": "img/games/9-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/8-2.png": "img/games/8-2.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/10-2.png": "img/games/10-2.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/11-icon.png?1126": "img/games/11-icon.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/10-1.png?1122": "img/games/10-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/11-1.png?1126": "img/games/11-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/11-2.png?1126": "img/games/11-2.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/12-icon.png": "img/games/12-icon.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/12-2.png": "img/games/12-2.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/12-1.png?1223": "img/games/12-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/14-icon.png": "img/games/14-icon.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/13-1.png": "img/games/13-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/15-icon.gif": "img/games/15-icon.gif",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/14-1.png": "img/games/14-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/15-1.png": "img/games/15-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/15-2.png": "img/games/15-2.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/16-icon.png": "img/games/16-icon.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/16-1.png": "img/games/16-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/16-2.png": "img/games/16-2.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/17-1.png?1125": "img/games/17-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/17-2.png": "img/games/17-2.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/18-1.png?1223": "img/games/18-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/17-icon.png": "img/games/17-icon.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/19-1.png": "img/games/19-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/19-icon.png": "img/games/19-icon.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/20-1.png": "img/games/20-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/20-icon.png": "img/games/20-icon.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/20-2.png": "img/games/20-2.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/21-1.png": "img/games/21-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/21-2.png": "img/games/21-2.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/22-icon.png": "img/games/22-icon.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/22-1.png": "img/games/22-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/23-2.png": "img/games/23-2.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/24-1.png": "img/games/24-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/25-icon.png": "img/games/25-icon.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/24-2.png?1121": "img/games/24-2.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/25-1.png": "img/games/25-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/26-icon.png": "img/games/26-icon.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/26-1.png": "img/games/26-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/26-2.png": "img/games/26-2.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/29-icon.png": "img/games/29-icon.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/27-2.png": "img/games/27-2.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/29-1.png?1127": "img/games/29-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/30-1.jpg": "img/games/30-1.jpg",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/30-icon.png": "img/games/30-icon.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/30-2.jpg": "img/games/30-2.jpg",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/31-2.png": "img/games/31-2.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/32-2.png": "img/games/32-2.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/33-1.png?1223": "img/games/33-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/33-2.png?1223": "img/games/33-2.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/34-icon.jpg": "img/games/34-icon.jpg",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/34-1.png": "img/games/34-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/35-2.png": "img/games/35-2.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/36-icon.png": "img/games/36-icon.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/36-1.png": "img/games/36-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/36-2.png": "img/games/36-2.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/37-1.png": "img/games/37-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/37-2.png": "img/games/37-2.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/38-icon.png": "img/games/38-icon.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/38-2.png": "img/games/38-2.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/39-icon.png": "img/games/39-icon.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/38-1.png": "img/games/38-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/39-1.png?0106": "img/games/39-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/40-icon.png?1212": "img/games/40-icon.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/39-2.png?0106": "img/games/39-2.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/40-1.png?1212": "img/games/40-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/40-2.png?1212": "img/games/40-2.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/41-1.png?0108": "img/games/41-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/41-2.png": "img/games/41-2.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/42-1.jpg": "img/games/42-1.jpg",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/43-icon.png": "img/games/43-icon.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/43-1.png": "img/games/43-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/44-1.png?0117": "img/games/44-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/45-icon.png": "img/games/45-icon.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/44-2.png": "img/games/44-2.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/46-2.png": "img/games/46-2.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/45-1.png": "img/games/45-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/48-2.png?1227": "img/games/48-2.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/48-1.png": "img/games/48-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/49-icon.png": "img/games/49-icon.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/49-1.png": "img/games/49-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/51-icon.png": "img/games/51-icon.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/51-1.jpg": "img/games/51-1.jpg",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/51-2.jpg": "img/games/51-2.jpg",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/52-icon.png": "img/games/52-icon.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/52-1.png": "img/games/52-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/50-1.png": "img/games/50-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/52-2.png": "img/games/52-2.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/53-1.png": "img/games/53-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/54-1.png": "img/games/54-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/55-icon.jpg": "img/games/55-icon.jpg",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/56-icon.png": "img/games/56-icon.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/55-1.png": "img/games/55-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/56-1.png": "img/games/56-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/56-2.png": "img/games/56-2.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/57-icon.png": "img/games/57-icon.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/57-1.png": "img/games/57-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/57-2.png": "img/games/57-2.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/58-icon.png": "img/games/58-icon.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/59-icon.png": "img/games/59-icon.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/59-1.png": "img/games/59-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/59-2.png": "img/games/59-2.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/58-1.png": "img/games/58-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/60-icon.png": "img/games/60-icon.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/60-1.jpg": "img/games/60-1.jpg",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/60-2.jpg": "img/games/60-2.jpg",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/61-icon.png": "img/games/61-icon.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/61-1.png": "img/games/61-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/61-2.png": "img/games/61-2.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/62-1.png": "img/games/62-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/63-1.jpg": "img/games/63-1.jpg",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/63-2.jpg": "img/games/63-2.jpg",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/62-icon.png": "img/games/62-icon.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/64-1.jpg": "img/games/64-1.jpg",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/64-icon.jpg": "img/games/64-icon.jpg",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/64-2.png": "img/games/64-2.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/65-1.png?0202": "img/games/65-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/66-1.png": "img/games/66-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/67-1.png": "img/games/67-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/68-icon.png": "img/games/68-icon.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/68-2.png": "img/games/68-2.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/68-1.png": "img/games/68-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/69-icon.png": "img/games/69-icon.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/70-icon.png": "img/games/70-icon.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/69-1.png": "img/games/69-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/70-1.png": "img/games/70-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/icon.png": "img/games/icon.png"
+  },
+  "entries": [
+    {
+      "id": "2017-kouhaku-work-00",
+      "no": "00",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=0",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": "1510326173",
+        "title": "サンプル",
+        "author": "管理人",
+        "genre": "サンプル",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "可/可",
+        "vote": "0",
+        "ss1ext": "png",
+        "ss2ext": "png",
+        "iconext": "",
+        "board": "",
+        "date1": "",
+        "date2": "",
+        "capa": "",
+        "link1": "",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/0-1.png",
+          "local": "/screenshots/2017-kouhaku/00-source-1.png",
+          "sha256": "7e30039c1c3b6e3d4cb65e6115bcceeef8579ef2e04d037f0a9eac74f29bbf83"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/0-2.png",
+          "local": "/screenshots/2017-kouhaku/00-source-2.png",
+          "sha256": "78cba7ef664b12c5ba1ab174205cdeeacceb65c7e6001a5eba1d8f3b75609c48"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/0-1.png",
+          "local": "/screenshots/2017-kouhaku/00-source-1.png",
+          "sha256": "7e30039c1c3b6e3d4cb65e6115bcceeef8579ef2e04d037f0a9eac74f29bbf83"
+        },
+        {
+          "role": "ss2ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/0-2.png",
+          "local": "/screenshots/2017-kouhaku/00-source-2.png",
+          "sha256": "78cba7ef664b12c5ba1ab174205cdeeacceb65c7e6001a5eba1d8f3b75609c48"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-01",
+      "no": "01",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=1",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "アシュリー冒険記",
+        "author": "すいかびぃ",
+        "genre": "ステージ式サイドビューRPG",
+        "tkool": "VXA",
+        "browser": "0",
+        "dandm": "可/可",
+        "vote": "1",
+        "ss1ext": "png",
+        "ss2ext": "png",
+        "iconext": "png",
+        "board": "1510338360",
+        "date1": "01/07",
+        "date2": "01/28",
+        "capa": "149MB",
+        "link1": "https://drive.google.com/uc?export=download&id=18rJId48skgEcPZUxZyK3eJEapeOKQQRu",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/1-icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/1-1.png",
+          "local": "/screenshots/2017-kouhaku/01-source-1.png",
+          "sha256": "c33eab89052916838c8bb4d2f1e80e555cdc356665f125746ef017078f3820bd"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/1-2.png",
+          "local": "/screenshots/2017-kouhaku/01-source-2.png",
+          "sha256": "5d998dc7ce8c343cf97000532df46fcbf16630c96d8c80a877f18ab806a0cc03"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/1-1.png",
+          "local": "/screenshots/2017-kouhaku/01-source-1.png",
+          "sha256": "c33eab89052916838c8bb4d2f1e80e555cdc356665f125746ef017078f3820bd"
+        },
+        {
+          "role": "ss2ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/1-2.png",
+          "local": "/screenshots/2017-kouhaku/01-source-2.png",
+          "sha256": "5d998dc7ce8c343cf97000532df46fcbf16630c96d8c80a877f18ab806a0cc03"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=18rJId48skgEcPZUxZyK3eJEapeOKQQRu",
+          "label": "配布：149MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-02",
+      "no": "02",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=2",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "纏",
+        "author": "ぬ",
+        "genre": "サウンドノベル",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "同梱txt参照/不可",
+        "vote": "1",
+        "ss1ext": "png?1216",
+        "ss2ext": "",
+        "iconext": "",
+        "board": "1510338440",
+        "date1": "",
+        "date2": "",
+        "capa": "",
+        "link1": "",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/2-1.png?1216",
+          "local": "/screenshots/2017-kouhaku/02-source-1.png",
+          "sha256": "9c1fa417d6f33a83e3708fbe0478c002a24a34953ab0fae321b1d1bf7d0380a9"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/2-1.png?1216",
+          "local": "/screenshots/2017-kouhaku/02-source-1.png",
+          "sha256": "9c1fa417d6f33a83e3708fbe0478c002a24a34953ab0fae321b1d1bf7d0380a9"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-03",
+      "no": "03",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=3",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "世界一短い私への手紙",
+        "author": "サイコレズ聖戦士",
+        "genre": "見るゲ",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "不可/不可",
+        "vote": "1",
+        "ss1ext": "png",
+        "ss2ext": "png",
+        "iconext": "png",
+        "board": "1510352922",
+        "date1": "",
+        "date2": "",
+        "capa": "",
+        "link1": "",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/3-icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/3-1.png",
+          "local": "/screenshots/2017-kouhaku/03-source-1.png",
+          "sha256": "92139161387c4cd4f3a7acd2b67265a8236e4a9e9b4ef03bba07637ff5ab5d14"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/3-2.png",
+          "local": "/screenshots/2017-kouhaku/03-source-2.png",
+          "sha256": "17d7eb7023a1d13e2ff495f58f5415ff2d2a15374e494dfceae561c55329f9a2"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/3-1.png",
+          "local": "/screenshots/2017-kouhaku/03-source-1.png",
+          "sha256": "92139161387c4cd4f3a7acd2b67265a8236e4a9e9b4ef03bba07637ff5ab5d14"
+        },
+        {
+          "role": "ss2ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/3-2.png",
+          "local": "/screenshots/2017-kouhaku/03-source-2.png",
+          "sha256": "17d7eb7023a1d13e2ff495f58f5415ff2d2a15374e494dfceae561c55329f9a2"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-04",
+      "no": "04",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=4",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "ドラゴンナイトの冒険",
+        "author": "1942",
+        "genre": "STG",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "可/可",
+        "vote": "1",
+        "ss1ext": "png?1223",
+        "ss2ext": "png",
+        "iconext": "gif",
+        "board": "1510338705",
+        "date1": "12/26",
+        "date2": "02/02",
+        "capa": "2.25MB",
+        "link1": "https://drive.google.com/uc?export=download&id=1iyjvweJesW2V3g2NH808QHE0hjntTllt",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/4-icon.gif",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/4-1.png?1223",
+          "local": "/screenshots/2017-kouhaku/04-source-1.png",
+          "sha256": "dd4888cd65f4011b40c2b41d0b6a6c2318138c2f93051145a5611cc9eddd57a0"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/4-2.png",
+          "local": "/screenshots/2017-kouhaku/04-source-2.png",
+          "sha256": "d1a363f01d2a4fead2b0e456e4925257e84319bd5b88fb2597fb9541ec487176"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/4-1.png?1223",
+          "local": "/screenshots/2017-kouhaku/04-source-1.png",
+          "sha256": "dd4888cd65f4011b40c2b41d0b6a6c2318138c2f93051145a5611cc9eddd57a0"
+        },
+        {
+          "role": "ss2ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/4-2.png",
+          "local": "/screenshots/2017-kouhaku/04-source-2.png",
+          "sha256": "d1a363f01d2a4fead2b0e456e4925257e84319bd5b88fb2597fb9541ec487176"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1iyjvweJesW2V3g2NH808QHE0hjntTllt",
+          "label": "配布：2.25MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-05",
+      "no": "05",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=5",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "魔族の少女",
+        "author": "風音",
+        "genre": "主人公の兄を探し　世界を旅するゲーム",
+        "tkool": "VXA",
+        "browser": "0",
+        "dandm": "OKです。言ってくだされば見にいきます。",
+        "vote": "1",
+        "ss1ext": "jpg?0123",
+        "ss2ext": "jpg",
+        "iconext": "",
+        "board": "1510339104",
+        "date1": "12/24",
+        "date2": "01/22",
+        "capa": "91.8MB",
+        "link1": "https://drive.google.com/uc?export=download&id=1MDJEHTRmndeB62n1MnHoct0MIR03nOvH",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/5-1.jpg?0123",
+          "local": "/screenshots/2017-kouhaku/05-source-1.jpg",
+          "sha256": "0ee8b0773ce38addcc42cf09281020940722cbba5229c7a43fbb4851977f3238"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/5-2.jpg",
+          "local": "/screenshots/2017-kouhaku/05-source-2.jpg",
+          "sha256": "9b8077d6e4a89408370775f937f997d6c8e7e74f95f00f37687bda6fbe494bc2"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/5-1.jpg?0123",
+          "local": "/screenshots/2017-kouhaku/05-source-1.jpg",
+          "sha256": "0ee8b0773ce38addcc42cf09281020940722cbba5229c7a43fbb4851977f3238"
+        },
+        {
+          "role": "ss2ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/5-2.jpg",
+          "local": "/screenshots/2017-kouhaku/05-source-2.jpg",
+          "sha256": "9b8077d6e4a89408370775f937f997d6c8e7e74f95f00f37687bda6fbe494bc2"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1MDJEHTRmndeB62n1MnHoct0MIR03nOvH",
+          "label": "配布：91.8MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-06",
+      "no": "06",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=6",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "XmasのXはサイレンスの×",
+        "author": "あきこ",
+        "genre": "ｋｓｇ",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "可/可",
+        "vote": "1",
+        "ss1ext": "png?1223",
+        "ss2ext": "",
+        "iconext": "gif",
+        "board": "1510339152",
+        "date1": "12/24",
+        "date2": "12/30",
+        "capa": "5.00MB",
+        "link1": "https://drive.google.com/uc?export=download&id=1OPtruWKzREkujMfTd-9obGYbyNAfweMo",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/6-icon.gif",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/6-1.png?1223",
+          "local": "/screenshots/2017-kouhaku/06-source-1.png",
+          "sha256": "2bbec237339f06de8431ff56a094f63f4e7f4a1f6af0e761f0f2f45cbb38f4ca"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/6-1.png?1223",
+          "local": "/screenshots/2017-kouhaku/06-source-1.png",
+          "sha256": "2bbec237339f06de8431ff56a094f63f4e7f4a1f6af0e761f0f2f45cbb38f4ca"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1OPtruWKzREkujMfTd-9obGYbyNAfweMo",
+          "label": "配布：5.00MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-07",
+      "no": "07",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=7",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "カマソッソの謎",
+        "author": "池田さん",
+        "genre": "ダークシリアス系見るゲー",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "可/可",
+        "vote": "1",
+        "ss1ext": "png?1222",
+        "ss2ext": "png?1222",
+        "iconext": "png",
+        "board": "1510339211",
+        "date1": "12/22",
+        "date2": "12/30",
+        "capa": "70.8MB",
+        "link1": "https://drive.google.com/uc?export=download&id=1G9H-WZ0MkqlxODZ4KXt3bEwQko2k5rCn",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/7-icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/7-1.png?1222",
+          "local": "/screenshots/2017-kouhaku/07-source-1.png",
+          "sha256": "d128b139e8d4fd62c5ba7eb2c4c759a8b070f2d7356a085925b614a1ad64337f"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/7-2.png?1222",
+          "local": "/screenshots/2017-kouhaku/07-source-2.png",
+          "sha256": "d5f0261d4b30ef9e4e1250b0ed549cbf7578ddc8dde4eefb736b2a8a1a6550c9"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/7-1.png?1222",
+          "local": "/screenshots/2017-kouhaku/07-source-1.png",
+          "sha256": "d128b139e8d4fd62c5ba7eb2c4c759a8b070f2d7356a085925b614a1ad64337f"
+        },
+        {
+          "role": "ss2ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/7-2.png?1222",
+          "local": "/screenshots/2017-kouhaku/07-source-2.png",
+          "sha256": "d5f0261d4b30ef9e4e1250b0ed549cbf7578ddc8dde4eefb736b2a8a1a6550c9"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1G9H-WZ0MkqlxODZ4KXt3bEwQko2k5rCn",
+          "label": "配布：70.8MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-08",
+      "no": "08",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=8",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "MAGIC BANANA -Re:birth Edition-",
+        "author": "team鼻蔵",
+        "genre": "RPG",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "可/可",
+        "vote": "1",
+        "ss1ext": "png",
+        "ss2ext": "png",
+        "iconext": "",
+        "board": "1510339243",
+        "date1": "12/23",
+        "date2": "01/22",
+        "capa": "92.0MB",
+        "link1": "https://drive.google.com/uc?export=download&id=1liF-kIGCgjxOFUJg5rVJ6eLGZlUYoFn_",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/8-1.png",
+          "local": "/screenshots/2017-kouhaku/08-source-1.png",
+          "sha256": "2ff8a9f02f33a3baf0934ae482dd11ab3d0c75647bf6a3f765f08d13a3ee302c"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/8-2.png",
+          "local": "/screenshots/2017-kouhaku/08-source-2.png",
+          "sha256": "a7532f1e117a4e3057bd5f603c144fee8c237658826523b9bbef8f402508a0b5"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/8-1.png",
+          "local": "/screenshots/2017-kouhaku/08-source-1.png",
+          "sha256": "2ff8a9f02f33a3baf0934ae482dd11ab3d0c75647bf6a3f765f08d13a3ee302c"
+        },
+        {
+          "role": "ss2ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/8-2.png",
+          "local": "/screenshots/2017-kouhaku/08-source-2.png",
+          "sha256": "a7532f1e117a4e3057bd5f603c144fee8c237658826523b9bbef8f402508a0b5"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1liF-kIGCgjxOFUJg5rVJ6eLGZlUYoFn_",
+          "label": "配布：92.0MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-09",
+      "no": "09",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=9",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "Ch：Mephistopheles",
+        "author": "イグザ",
+        "genre": "見るゲ",
+        "tkool": "2003",
+        "browser": "0",
+        "dandm": "間に合わないし諦めろ/間に合っても諦めろ",
+        "vote": "1",
+        "ss1ext": "png",
+        "ss2ext": "",
+        "iconext": "png",
+        "board": "1510339276",
+        "date1": "",
+        "date2": "",
+        "capa": "",
+        "link1": "",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/9-icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/9-1.png",
+          "local": "/screenshots/2017-kouhaku/09-source-1.png",
+          "sha256": "f12f6e89cf2ea69426dbf4d62f9e07008016b1e1502643694a74a010bbf6df69"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/9-1.png",
+          "local": "/screenshots/2017-kouhaku/09-source-1.png",
+          "sha256": "f12f6e89cf2ea69426dbf4d62f9e07008016b1e1502643694a74a010bbf6df69"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-10",
+      "no": "10",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=10",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "MagicEmbodyingJobSystem",
+        "author": "ラエム",
+        "genre": "編成重視デフォ戦やるゲ",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "可/可",
+        "vote": "1",
+        "ss1ext": "png?1122",
+        "ss2ext": "png",
+        "iconext": "",
+        "board": "1510339996",
+        "date1": "",
+        "date2": "",
+        "capa": "",
+        "link1": "",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/10-1.png?1122",
+          "local": "/screenshots/2017-kouhaku/10-source-1.png",
+          "sha256": "6d160c9f8be1748ba0f9d4e51756ce11510ef2a95de706381b564734779d82ec"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/10-2.png",
+          "local": "/screenshots/2017-kouhaku/10-source-2.png",
+          "sha256": "a261824a0c0d38e8f85c576d366369051c24aa46e7d7321caabe7a7ddb06056d"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/10-1.png?1122",
+          "local": "/screenshots/2017-kouhaku/10-source-1.png",
+          "sha256": "6d160c9f8be1748ba0f9d4e51756ce11510ef2a95de706381b564734779d82ec"
+        },
+        {
+          "role": "ss2ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/10-2.png",
+          "local": "/screenshots/2017-kouhaku/10-source-2.png",
+          "sha256": "a261824a0c0d38e8f85c576d366369051c24aa46e7d7321caabe7a7ddb06056d"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-11",
+      "no": "11",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=11",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "去り行く運命",
+        "author": "ヨハン・カスパー・シュミット",
+        "genre": "剣と魔法のボーイミーツガール見るゲ",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "好きにしろ",
+        "vote": "1",
+        "ss1ext": "png?1126",
+        "ss2ext": "png?1126",
+        "iconext": "png?1126",
+        "board": "1510340036",
+        "date1": "12/23",
+        "date2": "01/28",
+        "capa": "81.8MB",
+        "link1": "https://drive.google.com/uc?export=download&id=1rewvBEaM3GVuYHgsyDpC3k8Ukejai_I2",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/11-icon.png?1126",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/11-1.png?1126",
+          "local": "/screenshots/2017-kouhaku/11-source-1.png",
+          "sha256": "5cb2c8fec653a8af58410063c4801975a760534c60870f74b98ccfd63caa776f"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/11-2.png?1126",
+          "local": "/screenshots/2017-kouhaku/11-source-2.png",
+          "sha256": "0c954e3399683d8f214042617d492afff28f468c785619c61d121c0e84452cb4"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/11-1.png?1126",
+          "local": "/screenshots/2017-kouhaku/11-source-1.png",
+          "sha256": "5cb2c8fec653a8af58410063c4801975a760534c60870f74b98ccfd63caa776f"
+        },
+        {
+          "role": "ss2ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/11-2.png?1126",
+          "local": "/screenshots/2017-kouhaku/11-source-2.png",
+          "sha256": "0c954e3399683d8f214042617d492afff28f468c785619c61d121c0e84452cb4"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1rewvBEaM3GVuYHgsyDpC3k8Ukejai_I2",
+          "label": "配布：81.8MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-12",
+      "no": "12",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=12",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "冥界ウガウガ短編集(おまけつき)",
+        "author": "アクアたんをprprしたいHDS様",
+        "genre": "見るゲ＆デフォ戦",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "可/可（ただし自己責任）",
+        "vote": "1",
+        "ss1ext": "png?1223",
+        "ss2ext": "png",
+        "iconext": "png",
+        "board": "1510340077",
+        "date1": "12/27",
+        "date2": "01/20",
+        "capa": "63.7MB",
+        "link1": "https://drive.google.com/uc?export=download&id=1Ng_ew1ETgFcYAw9sQ0g95th_y8-byFrm",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/12-icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/12-1.png?1223",
+          "local": "/screenshots/2017-kouhaku/12-source-1.png",
+          "sha256": "ddb7935ae775cad724021cd66d361183de6e8850c5392730c138353b7b08eea5"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/12-2.png",
+          "local": "/screenshots/2017-kouhaku/12-source-2.png",
+          "sha256": "57cbf9f6dcf8f9f1f0569ce27ee42abb8c100925b004dd0e9560d6a17a44321e"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/12-1.png?1223",
+          "local": "/screenshots/2017-kouhaku/12-source-1.png",
+          "sha256": "ddb7935ae775cad724021cd66d361183de6e8850c5392730c138353b7b08eea5"
+        },
+        {
+          "role": "ss2ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/12-2.png",
+          "local": "/screenshots/2017-kouhaku/12-source-2.png",
+          "sha256": "57cbf9f6dcf8f9f1f0569ce27ee42abb8c100925b004dd0e9560d6a17a44321e"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1Ng_ew1ETgFcYAw9sQ0g95th_y8-byFrm",
+          "label": "配布：63.7MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-13",
+      "no": "13",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=13",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "深海のエンドロール",
+        "author": "ものすごく甘い味がする",
+        "genre": "見るゲ",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "可/可",
+        "vote": "1",
+        "ss1ext": "png",
+        "ss2ext": "",
+        "iconext": "",
+        "board": "1510352792",
+        "date1": "",
+        "date2": "",
+        "capa": "",
+        "link1": "",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/13-1.png",
+          "local": "/screenshots/2017-kouhaku/13-source-1.png",
+          "sha256": "c54365d21756ab82de4d6a94692f2585bb2962b97cf83a8c4883881e511bd74a"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/13-1.png",
+          "local": "/screenshots/2017-kouhaku/13-source-1.png",
+          "sha256": "c54365d21756ab82de4d6a94692f2585bb2962b97cf83a8c4883881e511bd74a"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-14",
+      "no": "14",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=14",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "夜霧断つシューティングスター",
+        "author": "鷹",
+        "genre": "デフォ戦RPG",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "可/可",
+        "vote": "1",
+        "ss1ext": "png",
+        "ss2ext": "",
+        "iconext": "png",
+        "board": "1510352839",
+        "date1": "12/21",
+        "date2": "01/28",
+        "capa": "38.1MB",
+        "link1": "https://drive.google.com/uc?export=download&id=1aBDYsejRmczuvlohnfKntOCO6gN0uP-T",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/14-icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/14-1.png",
+          "local": "/screenshots/2017-kouhaku/14-source-1.png",
+          "sha256": "f06aa790bf299f02dc32c636d72d8f095c7f9e913a194f499363f3f21480c637"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/14-1.png",
+          "local": "/screenshots/2017-kouhaku/14-source-1.png",
+          "sha256": "f06aa790bf299f02dc32c636d72d8f095c7f9e913a194f499363f3f21480c637"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1aBDYsejRmczuvlohnfKntOCO6gN0uP-T",
+          "label": "配布：38.1MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-15",
+      "no": "15",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=15",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "戦えアレックス",
+        "author": "デフォ戦大好き",
+        "genre": "探索デフォ戦",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "可/可",
+        "vote": "1",
+        "ss1ext": "png",
+        "ss2ext": "png",
+        "iconext": "gif",
+        "board": "1510380819",
+        "date1": "",
+        "date2": "",
+        "capa": "",
+        "link1": "",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/15-icon.gif",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/15-1.png",
+          "local": "/screenshots/2017-kouhaku/15-source-1.png",
+          "sha256": "de6a3c0a6089241f8e8fc155260ea4ee14479ed42a2b5a9376a3f82dfe64772f"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/15-2.png",
+          "local": "/screenshots/2017-kouhaku/15-source-2.png",
+          "sha256": "e509ee6fb7197914e981b06707028a99cacf03ebbdf06d03bdcf410c732c9bdc"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/15-1.png",
+          "local": "/screenshots/2017-kouhaku/15-source-1.png",
+          "sha256": "de6a3c0a6089241f8e8fc155260ea4ee14479ed42a2b5a9376a3f82dfe64772f"
+        },
+        {
+          "role": "ss2ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/15-2.png",
+          "local": "/screenshots/2017-kouhaku/15-source-2.png",
+          "sha256": "e509ee6fb7197914e981b06707028a99cacf03ebbdf06d03bdcf410c732c9bdc"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-16",
+      "no": "16",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=16",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "竜騎士ケヴィン",
+        "author": "タヤゥプタ",
+        "genre": "ＲＰＧ",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "可/可",
+        "vote": "1",
+        "ss1ext": "png",
+        "ss2ext": "png",
+        "iconext": "png",
+        "board": "1510380867",
+        "date1": "12/25",
+        "date2": "",
+        "capa": "651KB",
+        "link1": "https://drive.google.com/uc?export=download&id=1EFTJtOg5vQv5F3peSpwx07Kd_UPjh_B2",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/16-icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/16-1.png",
+          "local": "/screenshots/2017-kouhaku/16-source-1.png",
+          "sha256": "7b6b0c95f422767809fff9928dad289930de7921a1bfb9e9c27c622033f20015"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/16-2.png",
+          "local": "/screenshots/2017-kouhaku/16-source-2.png",
+          "sha256": "1a2be590b34c875dbd505b3966458b8990bf30579f2d5275fa474d63fc1eed4b"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/16-1.png",
+          "local": "/screenshots/2017-kouhaku/16-source-1.png",
+          "sha256": "7b6b0c95f422767809fff9928dad289930de7921a1bfb9e9c27c622033f20015"
+        },
+        {
+          "role": "ss2ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/16-2.png",
+          "local": "/screenshots/2017-kouhaku/16-source-2.png",
+          "sha256": "1a2be590b34c875dbd505b3966458b8990bf30579f2d5275fa474d63fc1eed4b"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1EFTJtOg5vQv5F3peSpwx07Kd_UPjh_B2",
+          "label": "配布：651KB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-17",
+      "no": "17",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=17",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "帰らぬ少女のバラッド",
+        "author": "女体化ダークメカアレックス",
+        "genre": "RPG",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "可/可",
+        "vote": "1",
+        "ss1ext": "png?1125",
+        "ss2ext": "png",
+        "iconext": "png",
+        "board": "1510380905",
+        "date1": "12/23",
+        "date2": "01/24",
+        "capa": "15.9MB",
+        "link1": "https://drive.google.com/uc?export=download&id=1KHY2dKiGezx4ChthKDUJOcdSh3FP_0Bb",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/17-icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/17-1.png?1125",
+          "local": "/screenshots/2017-kouhaku/17-source-1.png",
+          "sha256": "7ad12c18421f1ba8279cd76ea969fe04d70b49e7afa937ec12b12159ee25232d"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/17-2.png",
+          "local": "/screenshots/2017-kouhaku/17-source-2.png",
+          "sha256": "9610d7565f43da590a455a0b04added3b837899b633342484cbfe5d92b0a9adc"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/17-1.png?1125",
+          "local": "/screenshots/2017-kouhaku/17-source-1.png",
+          "sha256": "7ad12c18421f1ba8279cd76ea969fe04d70b49e7afa937ec12b12159ee25232d"
+        },
+        {
+          "role": "ss2ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/17-2.png",
+          "local": "/screenshots/2017-kouhaku/17-source-2.png",
+          "sha256": "9610d7565f43da590a455a0b04added3b837899b633342484cbfe5d92b0a9adc"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1KHY2dKiGezx4ChthKDUJOcdSh3FP_0Bb",
+          "label": "配布：15.9MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-18",
+      "no": "18",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=18",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "名探偵ぬっくりあ！",
+        "author": "かに",
+        "genre": "未定",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "でき/ます",
+        "vote": "1",
+        "ss1ext": "png?1223",
+        "ss2ext": "",
+        "iconext": "",
+        "board": "1510385799",
+        "date1": "02/02",
+        "date2": "",
+        "capa": "651KB",
+        "link1": "https://drive.google.com/uc?export=download&id=12I-9sNnFYV9QXFACz7AO-oFALKyz4MC_",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/18-1.png?1223",
+          "local": "/screenshots/2017-kouhaku/18-source-1.png",
+          "sha256": "49404bc2fd8dc4a7ee1203333c01f18f5bb7ca2841213b53797877cdf5539255"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/18-1.png?1223",
+          "local": "/screenshots/2017-kouhaku/18-source-1.png",
+          "sha256": "49404bc2fd8dc4a7ee1203333c01f18f5bb7ca2841213b53797877cdf5539255"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=12I-9sNnFYV9QXFACz7AO-oFALKyz4MC_",
+          "label": "配布：651KB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-19",
+      "no": "19",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=19",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "魔法達のCoC～Murder List～",
+        "author": "徳明",
+        "genre": "TRPGリプレイ見るゲ",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "可/可",
+        "vote": "1",
+        "ss1ext": "png",
+        "ss2ext": "",
+        "iconext": "png",
+        "board": "1510389079",
+        "date1": "",
+        "date2": "",
+        "capa": "",
+        "link1": "",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/19-icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/19-1.png",
+          "local": "/screenshots/2017-kouhaku/19-source-1.png",
+          "sha256": "5a671bd4f177e0ef4bced9175c6be044604029d6ac600f3fa72a759d87517c76"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/19-1.png",
+          "local": "/screenshots/2017-kouhaku/19-source-1.png",
+          "sha256": "5a671bd4f177e0ef4bced9175c6be044604029d6ac600f3fa72a759d87517c76"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-20",
+      "no": "20",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=20",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "主役キャラクターランキング2017",
+        "author": "秋草",
+        "genre": "ランキング",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "可/可",
+        "vote": "1",
+        "ss1ext": "png",
+        "ss2ext": "png",
+        "iconext": "png",
+        "board": "1510408558",
+        "date1": "01/11",
+        "date2": "01/22",
+        "capa": "3.45MB",
+        "link1": "https://drive.google.com/uc?export=download&id=1A-8FXgM066s8RE4I2Ld2MSQFnSyooG2t",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/20-icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/20-1.png",
+          "local": "/screenshots/2017-kouhaku/20-source-1.png",
+          "sha256": "739844862132cedd7cd4e1f0777eb86a7e7f72838cf3f29f21ef69082c16210f"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/20-2.png",
+          "local": "/screenshots/2017-kouhaku/20-source-2.png",
+          "sha256": "d2def9914883f1e9f885df79b2e812aa0253aa09093e8f7879d41f1104bf986a"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/20-1.png",
+          "local": "/screenshots/2017-kouhaku/20-source-1.png",
+          "sha256": "739844862132cedd7cd4e1f0777eb86a7e7f72838cf3f29f21ef69082c16210f"
+        },
+        {
+          "role": "ss2ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/20-2.png",
+          "local": "/screenshots/2017-kouhaku/20-source-2.png",
+          "sha256": "d2def9914883f1e9f885df79b2e812aa0253aa09093e8f7879d41f1104bf986a"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1A-8FXgM066s8RE4I2Ld2MSQFnSyooG2t",
+          "label": "配布：3.45MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-21",
+      "no": "21",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=21",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": "6798778385e663bc56c77ad19980f507",
+        "title": "せんねんゆうしゃ",
+        "author": "名前って必要？",
+        "genre": "雪道？ゲー",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "提出できないだろうけど〇/できたのなら〇",
+        "vote": "0",
+        "ss1ext": "png",
+        "ss2ext": "png",
+        "iconext": "",
+        "board": "1510408669",
+        "date1": "",
+        "date2": "",
+        "capa": "",
+        "link1": "",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/21-1.png",
+          "local": "/screenshots/2017-kouhaku/21-source-1.png",
+          "sha256": "4181632766edc7bcc538757622a3c9f45e5f02fc40dc3d2abc5900036689868d"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/21-2.png",
+          "local": "/screenshots/2017-kouhaku/21-source-2.png",
+          "sha256": "7e865a0701d4d9e83f4ab383a133487e5adb3c0703e08915e77955929a8722e2"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/21-1.png",
+          "local": "/screenshots/2017-kouhaku/21-source-1.png",
+          "sha256": "4181632766edc7bcc538757622a3c9f45e5f02fc40dc3d2abc5900036689868d"
+        },
+        {
+          "role": "ss2ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/21-2.png",
+          "local": "/screenshots/2017-kouhaku/21-source-2.png",
+          "sha256": "7e865a0701d4d9e83f4ab383a133487e5adb3c0703e08915e77955929a8722e2"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-22",
+      "no": "22",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=22",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "増補版・死をみつめて",
+        "author": "フラジリスタ",
+        "genre": "ksg短編集2",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "お好きに",
+        "vote": "1",
+        "ss1ext": "png",
+        "ss2ext": "",
+        "iconext": "png",
+        "board": "1510408938",
+        "date1": "12/16",
+        "date2": "12/24",
+        "capa": "13.3MB",
+        "link1": "https://drive.google.com/uc?export=download&id=1FWT_E5oj1ALQOWuO4vclATM4-8_gzv5w",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/22-icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/22-1.png",
+          "local": "/screenshots/2017-kouhaku/22-source-1.png",
+          "sha256": "df35ec5e66b6460758d2a3d068be7fea5d364a7c5320c45e1dfc8b7ce929a018"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/22-1.png",
+          "local": "/screenshots/2017-kouhaku/22-source-1.png",
+          "sha256": "df35ec5e66b6460758d2a3d068be7fea5d364a7c5320c45e1dfc8b7ce929a018"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1FWT_E5oj1ALQOWuO4vclATM4-8_gzv5w",
+          "label": "配布：13.3MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-23",
+      "no": "23",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=23",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "もしもンクエストモンスターズ2 ～ポテチのふしぎな鍵～",
+        "author": "ぽっこん",
+        "genre": "RPG",
+        "tkool": "2003",
+        "browser": "0",
+        "dandm": "可/可",
+        "vote": "1",
+        "ss1ext": "png",
+        "ss2ext": "png",
+        "iconext": "png",
+        "board": "1510446384",
+        "date1": "01/04",
+        "date2": "02/02",
+        "capa": "64.5MB",
+        "link1": "https://drive.google.com/uc?export=download&id=1agSUS5qyDAOMvUA3YvQCLH1HHfaQ4jbv",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/23-icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/23-1.png",
+          "local": "/screenshots/2017-kouhaku/23-source-1.png",
+          "sha256": "8c1246ede6ae1fc77525fb86e8f41890b25a1dd9380fddcf6343a745eed72ee1"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/23-2.png",
+          "local": "/screenshots/2017-kouhaku/23-source-2.png",
+          "sha256": "6e17668db26ba9456e8948e4e74f37159bbf7b3437aabb77c2391c85c8e5f962"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/23-1.png",
+          "local": "/screenshots/2017-kouhaku/23-source-1.png",
+          "sha256": "8c1246ede6ae1fc77525fb86e8f41890b25a1dd9380fddcf6343a745eed72ee1"
+        },
+        {
+          "role": "ss2ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/23-2.png",
+          "local": "/screenshots/2017-kouhaku/23-source-2.png",
+          "sha256": "6e17668db26ba9456e8948e4e74f37159bbf7b3437aabb77c2391c85c8e5f962"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1agSUS5qyDAOMvUA3YvQCLH1HHfaQ4jbv",
+          "label": "配布：64.5MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-24",
+      "no": "24",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=24",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "エンド オブ ザ ナイト　～Breaking dawn～",
+        "author": "かすていら",
+        "genre": "デフォ戦やるゲ",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "可/可",
+        "vote": "1",
+        "ss1ext": "png",
+        "ss2ext": "png?1121",
+        "iconext": "",
+        "board": "1510481358",
+        "date1": "12/26",
+        "date2": "01/05",
+        "capa": "46.5MB",
+        "link1": "https://drive.google.com/uc?export=download&id=1u2_JCueorK5JAmlnnvoOu4EDifDCne4n",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/24-1.png",
+          "local": "/screenshots/2017-kouhaku/24-source-1.png",
+          "sha256": "621eef7de2a29c9f689614893fb1ed54d296e3f6e63a0b8047ee4653eecaddae"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/24-2.png?1121",
+          "local": "/screenshots/2017-kouhaku/24-source-2.png",
+          "sha256": "5e36f302830b25453e9c612530cb3009de16bdf1c6e9b1166e452609a8e86916"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/24-1.png",
+          "local": "/screenshots/2017-kouhaku/24-source-1.png",
+          "sha256": "621eef7de2a29c9f689614893fb1ed54d296e3f6e63a0b8047ee4653eecaddae"
+        },
+        {
+          "role": "ss2ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/24-2.png?1121",
+          "local": "/screenshots/2017-kouhaku/24-source-2.png",
+          "sha256": "5e36f302830b25453e9c612530cb3009de16bdf1c6e9b1166e452609a8e86916"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1u2_JCueorK5JAmlnnvoOu4EDifDCne4n",
+          "label": "配布：46.5MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-25",
+      "no": "25",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=25",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "和風面子だけでばとる",
+        "author": "牧場の牛肉",
+        "genre": "デフォ戦",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "可/可",
+        "vote": "1",
+        "ss1ext": "png",
+        "ss2ext": "",
+        "iconext": "png",
+        "board": "1510481459",
+        "date1": "12/23",
+        "date2": "01/02",
+        "capa": "5.93MB",
+        "link1": "https://drive.google.com/uc?export=download&id=1bje0027A0MC9afuLN0vYRfpkuNj4riuX",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/25-icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/25-1.png",
+          "local": "/screenshots/2017-kouhaku/25-source-1.png",
+          "sha256": "6176ab2fbdb9babe60c7a67430b0e24276b6fd81210ad641d56090fa8773dbd7"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/25-1.png",
+          "local": "/screenshots/2017-kouhaku/25-source-1.png",
+          "sha256": "6176ab2fbdb9babe60c7a67430b0e24276b6fd81210ad641d56090fa8773dbd7"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1bje0027A0MC9afuLN0vYRfpkuNj4riuX",
+          "label": "配布：5.93MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-26",
+      "no": "26",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=26",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": "61c44407106777461ba5e33e45c3f1fd",
+        "title": "Feral Girl WindI",
+        "author": "Aomatu_Spaghe",
+        "genre": "ド○キー○ングっぽいジャンプアクション",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "可/可",
+        "vote": "1",
+        "ss1ext": "png",
+        "ss2ext": "png",
+        "iconext": "png",
+        "board": "1510492295",
+        "date1": "",
+        "date2": "",
+        "capa": "",
+        "link1": "",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/26-icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/26-1.png",
+          "local": "/screenshots/2017-kouhaku/26-source-1.png",
+          "sha256": "8f9b5bbf23ea1e1e02fb29b7c2138e86b6153971fdbb6bfacac6c54876f249cc"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/26-2.png",
+          "local": "/screenshots/2017-kouhaku/26-source-2.png",
+          "sha256": "0846402b433e6716f9b012310bab440fbc7169d0ac976277a4bb8a7a23c0e7c1"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/26-1.png",
+          "local": "/screenshots/2017-kouhaku/26-source-1.png",
+          "sha256": "8f9b5bbf23ea1e1e02fb29b7c2138e86b6153971fdbb6bfacac6c54876f249cc"
+        },
+        {
+          "role": "ss2ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/26-2.png",
+          "local": "/screenshots/2017-kouhaku/26-source-2.png",
+          "sha256": "0846402b433e6716f9b012310bab440fbc7169d0ac976277a4bb8a7a23c0e7c1"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-27",
+      "no": "27",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=27",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "暗黒魔導士",
+        "author": "焼きそば男",
+        "genre": "連鎖パズル",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "可/可",
+        "vote": "1",
+        "ss1ext": "png",
+        "ss2ext": "png",
+        "iconext": "png",
+        "board": "1510580831",
+        "date1": "12/23",
+        "date2": "1/30",
+        "capa": "7.82MB",
+        "link1": "https://drive.google.com/uc?export=download&id=1PN8EoW131XJhqwQ5UDguh0Inx-qrhT24",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/27-icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/27-1.png",
+          "local": "/screenshots/2017-kouhaku/27-source-1.png",
+          "sha256": "3936ec54871a28c59ded951ca765cb1887a341d37fcdb3e521a27e0ab31bfdd8"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/27-2.png",
+          "local": "/screenshots/2017-kouhaku/27-source-2.png",
+          "sha256": "1a69ac23cfcee7275bba8ee24ccde78294b3b24742b4d0257b13aba4f86de0d2"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/27-1.png",
+          "local": "/screenshots/2017-kouhaku/27-source-1.png",
+          "sha256": "3936ec54871a28c59ded951ca765cb1887a341d37fcdb3e521a27e0ab31bfdd8"
+        },
+        {
+          "role": "ss2ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/27-2.png",
+          "local": "/screenshots/2017-kouhaku/27-source-2.png",
+          "sha256": "1a69ac23cfcee7275bba8ee24ccde78294b3b24742b4d0257b13aba4f86de0d2"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1PN8EoW131XJhqwQ5UDguh0Inx-qrhT24",
+          "label": "配布：7.82MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-28",
+      "no": "28",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=28",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "しろくろヤミライチ！",
+        "author": "ﾍﾞﾙﾌｧｰﾚ長田（゜∀゜）◆AHYA/lPiZg",
+        "genre": "五目並べ",
+        "tkool": "MV",
+        "browser": "1",
+        "dandm": "可/可",
+        "vote": "1",
+        "ss1ext": "png",
+        "ss2ext": "",
+        "iconext": "png",
+        "board": "1510580999",
+        "date1": "12/23",
+        "date2": "01/04",
+        "capa": "131MB",
+        "link1": "https://drive.google.com/uc?export=download&id=1tNSHminvwzYLf_PhXYfEE2q_fYAuLxX4",
+        "link2": "http://velvel.net/Cynthia/Game/viprpg_kouhaku_2017_28/www/ ",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/28-icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/28-1.png",
+          "local": "/screenshots/2017-kouhaku/28-source-1.png",
+          "sha256": "88f4257ad82891fdd5e5b5c587f18d5912c97a3a97cd4e97372e6318515039d3"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/28-1.png",
+          "local": "/screenshots/2017-kouhaku/28-source-1.png",
+          "sha256": "88f4257ad82891fdd5e5b5c587f18d5912c97a3a97cd4e97372e6318515039d3"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1tNSHminvwzYLf_PhXYfEE2q_fYAuLxX4",
+          "label": "配布：131MB"
+        },
+        {
+          "url": "http://velvel.net/Cynthia/Game/viprpg_kouhaku_2017_28/www/",
+          "label": "ブラウザ版"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-29",
+      "no": "29",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=29",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "顔",
+        "author": "伊藤どすこい丸",
+        "genre": "陰鬱レズ読むゲ",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "可/可（自己責任）",
+        "vote": "1",
+        "ss1ext": "png?1127",
+        "ss2ext": "",
+        "iconext": "png",
+        "board": "1510651618",
+        "date1": "12/16",
+        "date2": "",
+        "capa": "3.36MB",
+        "link1": "https://drive.google.com/uc?export=download&id=1CPqIXSIyubtYqSCQcM_TxXlaW3_bFx35",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/29-icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/29-1.png?1127",
+          "local": "/screenshots/2017-kouhaku/29-source-1.png",
+          "sha256": "d6f7f78dd48ca14cf87aa3e61518f3565d258c77da30884a13b98b47d7abadbd"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/29-1.png?1127",
+          "local": "/screenshots/2017-kouhaku/29-source-1.png",
+          "sha256": "d6f7f78dd48ca14cf87aa3e61518f3565d258c77da30884a13b98b47d7abadbd"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1CPqIXSIyubtYqSCQcM_TxXlaW3_bFx35",
+          "label": "配布：3.36MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-30",
+      "no": "30",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=30",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "CONDENSER.exe",
+        "author": "LUCE NEVEL",
+        "genre": "RPG アクション　パズル",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "可/可",
+        "vote": "1",
+        "ss1ext": "jpg",
+        "ss2ext": "jpg",
+        "iconext": "png",
+        "board": "1510739883",
+        "date1": "12/20",
+        "date2": "",
+        "capa": "1.03GB",
+        "link1": "https://drive.google.com/file/d/1oFRkMIo5abqmFuYp7ooVw4tP8cq4Ddue/view?usp=sharing",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/30-icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/30-1.jpg",
+          "local": "/screenshots/2017-kouhaku/30-source-1.jpg",
+          "sha256": "c4e7d728293ae178ebfd161dd6195c3e7a6ba200719b532d526ac353c9738f27"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/30-2.jpg",
+          "local": "/screenshots/2017-kouhaku/30-source-2.jpg",
+          "sha256": "c42e4f01cd0668417981fe35dd7b70eaeb618d2ecd25febf17062ab45a569917"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/30-1.jpg",
+          "local": "/screenshots/2017-kouhaku/30-source-1.jpg",
+          "sha256": "c4e7d728293ae178ebfd161dd6195c3e7a6ba200719b532d526ac353c9738f27"
+        },
+        {
+          "role": "ss2ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/30-2.jpg",
+          "local": "/screenshots/2017-kouhaku/30-source-2.jpg",
+          "sha256": "c42e4f01cd0668417981fe35dd7b70eaeb618d2ecd25febf17062ab45a569917"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1oFRkMIo5abqmFuYp7ooVw4tP8cq4Ddue/view?usp=sharing",
+          "label": "配布：1.03GB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-31",
+      "no": "31",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=31",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "Flame Days",
+        "author": "名雲きつね",
+        "genre": "短編erg",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "自己責任",
+        "vote": "1",
+        "ss1ext": "png",
+        "ss2ext": "png",
+        "iconext": "png",
+        "board": "1510739954",
+        "date1": "01/14",
+        "date2": "",
+        "capa": "96.8MB",
+        "link1": "https://drive.google.com/uc?export=download&id=1mN7176N_2cSP_7STvLh3zTQvaPBn9ldh",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/31-icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/31-1.png",
+          "local": "/screenshots/2017-kouhaku/31-source-1.png",
+          "sha256": "92e89c949325ff78302184dec5538400c6e80a98598326bb9c4cad644b13c56f"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/31-2.png",
+          "local": "/screenshots/2017-kouhaku/31-source-2.png",
+          "sha256": "5c13c2899d0e4b68a92bcd36d9e8f986388888288d3dc14da5ea15910e1f8cda"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/31-1.png",
+          "local": "/screenshots/2017-kouhaku/31-source-1.png",
+          "sha256": "92e89c949325ff78302184dec5538400c6e80a98598326bb9c4cad644b13c56f"
+        },
+        {
+          "role": "ss2ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/31-2.png",
+          "local": "/screenshots/2017-kouhaku/31-source-2.png",
+          "sha256": "5c13c2899d0e4b68a92bcd36d9e8f986388888288d3dc14da5ea15910e1f8cda"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1mN7176N_2cSP_7STvLh3zTQvaPBn9ldh",
+          "label": "配布：96.8MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-32",
+      "no": "32",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=32",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "お使いのツクールは正常です",
+        "author": "マイルドおしり",
+        "genre": "ｋｓｇ",
+        "tkool": "MV",
+        "browser": "1",
+        "dandm": "可/可",
+        "vote": "1",
+        "ss1ext": "png",
+        "ss2ext": "png",
+        "iconext": "gif",
+        "board": "1510740000",
+        "date1": "12/19",
+        "date2": "",
+        "capa": "60.7MB",
+        "link1": "https://drive.google.com/uc?export=download&id=1ctOD4HaDOPA2HJwAhSjZTzPttQEOMTiW",
+        "link2": "https://tansandenchi.github.io/tkoolMV_otsukai/",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/32-icon.gif",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/32-1.png",
+          "local": "/screenshots/2017-kouhaku/32-source-1.png",
+          "sha256": "5fc9c2c7b8348e533851f49222f64f77110244f1d9c2d4861383884dbea1a469"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/32-2.png",
+          "local": "/screenshots/2017-kouhaku/32-source-2.png",
+          "sha256": "75b82e2dbaedad4115ce021393a05b23c5ae1103d00b1944c09982e570145014"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/32-1.png",
+          "local": "/screenshots/2017-kouhaku/32-source-1.png",
+          "sha256": "5fc9c2c7b8348e533851f49222f64f77110244f1d9c2d4861383884dbea1a469"
+        },
+        {
+          "role": "ss2ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/32-2.png",
+          "local": "/screenshots/2017-kouhaku/32-source-2.png",
+          "sha256": "75b82e2dbaedad4115ce021393a05b23c5ae1103d00b1944c09982e570145014"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1ctOD4HaDOPA2HJwAhSjZTzPttQEOMTiW",
+          "label": "配布：60.7MB"
+        },
+        {
+          "url": "https://tansandenchi.github.io/tkoolMV_otsukai/",
+          "label": "ブラウザ版"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-33",
+      "no": "33",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=33",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "narrogue",
+        "author": "起楽　侑",
+        "genre": "ローグライクパズル",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "可/可",
+        "vote": "1",
+        "ss1ext": "png?1223",
+        "ss2ext": "png?1223",
+        "iconext": "png",
+        "board": "1511012291",
+        "date1": "12/23",
+        "date2": "01/20",
+        "capa": "9.48MB",
+        "link1": "https://drive.google.com/uc?export=download&id=1ZRhGS1K9pbgCpLRqu5zdzZ4dcMpRcOqP",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/33-icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/33-1.png?1223",
+          "local": "/screenshots/2017-kouhaku/33-source-1.png",
+          "sha256": "16e01a164a7dbfad34cbdb360575146860331eaf7826585ec74486e4a9aa0345"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/33-2.png?1223",
+          "local": "/screenshots/2017-kouhaku/33-source-2.png",
+          "sha256": "520bbcf42c4da372ffe395f74413607433801bdfb235c869f4c740f588f6733e"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/33-1.png?1223",
+          "local": "/screenshots/2017-kouhaku/33-source-1.png",
+          "sha256": "16e01a164a7dbfad34cbdb360575146860331eaf7826585ec74486e4a9aa0345"
+        },
+        {
+          "role": "ss2ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/33-2.png?1223",
+          "local": "/screenshots/2017-kouhaku/33-source-2.png",
+          "sha256": "520bbcf42c4da372ffe395f74413607433801bdfb235c869f4c740f588f6733e"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1ZRhGS1K9pbgCpLRqu5zdzZ4dcMpRcOqP",
+          "label": "配布：9.48MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-34",
+      "no": "34",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=34",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": "c32e9e0ef8582445dfd2d7f3997e472b",
+        "title": "ウンコヨーカン",
+        "author": "ウンコヨーカン",
+        "genre": "ウンコヨーカン",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "自己責任でお願いします！！",
+        "vote": "1",
+        "ss1ext": "png",
+        "ss2ext": "",
+        "iconext": "jpg",
+        "board": "1511012416",
+        "date1": "",
+        "date2": "",
+        "capa": "",
+        "link1": "",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/34-icon.jpg",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/34-1.png",
+          "local": "/screenshots/2017-kouhaku/34-source-1.png",
+          "sha256": "3d38cfcceb65d2895f9a0a1f208f4b1d2f4def92adc20431560684c605e2b6e6"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/34-1.png",
+          "local": "/screenshots/2017-kouhaku/34-source-1.png",
+          "sha256": "3d38cfcceb65d2895f9a0a1f208f4b1d2f4def92adc20431560684c605e2b6e6"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-35",
+      "no": "35",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=35",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "ダーリン菊一文字",
+        "author": "Foomal",
+        "genre": "デフォ戦RPG",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "可/可",
+        "vote": "1",
+        "ss1ext": "png",
+        "ss2ext": "png",
+        "iconext": "png",
+        "board": "1511012635",
+        "date1": "12/23",
+        "date2": "01/10",
+        "capa": "4.44MB",
+        "link1": "https://drive.google.com/uc?export=download&id=1E-w3pfOOtKmvde5tS2Q1Pf-eslYc4062",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/35-icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/35-1.png",
+          "local": "/screenshots/2017-kouhaku/35-source-1.png",
+          "sha256": "69cc1bcd162c3c77378933691b7b981d9b147b936b43a6253cae69d4c0df73fc"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/35-2.png",
+          "local": "/screenshots/2017-kouhaku/35-source-2.png",
+          "sha256": "9781dba648990143a6e748518b391cdd2a5f10ba10c0d67695f05c744d18702c"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/35-1.png",
+          "local": "/screenshots/2017-kouhaku/35-source-1.png",
+          "sha256": "69cc1bcd162c3c77378933691b7b981d9b147b936b43a6253cae69d4c0df73fc"
+        },
+        {
+          "role": "ss2ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/35-2.png",
+          "local": "/screenshots/2017-kouhaku/35-source-2.png",
+          "sha256": "9781dba648990143a6e748518b391cdd2a5f10ba10c0d67695f05c744d18702c"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1E-w3pfOOtKmvde5tS2Q1Pf-eslYc4062",
+          "label": "配布：4.44MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-36",
+      "no": "36",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=36",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "マザークライ　前編",
+        "author": "黒糖饅頭",
+        "genre": "見るゲ",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "自己責任でお願いします",
+        "vote": "1",
+        "ss1ext": "png",
+        "ss2ext": "png",
+        "iconext": "png",
+        "board": "1511269533",
+        "date1": "01/30",
+        "date2": "",
+        "capa": "4.72MB",
+        "link1": "https://drive.google.com/uc?export=download&id=1kaHpGP459ICpZbOAYZ-2KLAdI3P7y9_B",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/36-icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/36-1.png",
+          "local": "/screenshots/2017-kouhaku/36-source-1.png",
+          "sha256": "c37c7c455dd9af5415c3957cd433e7a60b95b6264f946e64320d13425f094b2b"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/36-2.png",
+          "local": "/screenshots/2017-kouhaku/36-source-2.png",
+          "sha256": "56030a0d691b50ebebbf4bcd0cfb6c706b07c5e1638bec4c77845153807bf3be"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/36-1.png",
+          "local": "/screenshots/2017-kouhaku/36-source-1.png",
+          "sha256": "c37c7c455dd9af5415c3957cd433e7a60b95b6264f946e64320d13425f094b2b"
+        },
+        {
+          "role": "ss2ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/36-2.png",
+          "local": "/screenshots/2017-kouhaku/36-source-2.png",
+          "sha256": "56030a0d691b50ebebbf4bcd0cfb6c706b07c5e1638bec4c77845153807bf3be"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1kaHpGP459ICpZbOAYZ-2KLAdI3P7y9_B",
+          "label": "配布：4.72MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-37",
+      "no": "37",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=37",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": "b23eb0b6c674f13d36f30edf3e4e4d6f",
+        "title": "もしも王様が神にも匹敵する巨根を手にしたら2017",
+        "author": "アパッチ・ロング棒",
+        "genre": "ｋｓｇ",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "現時点ではご遠慮ください",
+        "vote": "1",
+        "ss1ext": "png",
+        "ss2ext": "png",
+        "iconext": "",
+        "board": "1511955409",
+        "date1": "",
+        "date2": "",
+        "capa": "",
+        "link1": "",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/37-1.png",
+          "local": "/screenshots/2017-kouhaku/37-source-1.png",
+          "sha256": "d93fd36fe44cac451e8d24cba85d24f4fd0b53039b70f37848e0382648eea788"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/37-2.png",
+          "local": "/screenshots/2017-kouhaku/37-source-2.png",
+          "sha256": "793d8e53f5f0e50b0ed0908250ea2009b5541e20338a929df3bd7cd14cfe6a3d"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/37-1.png",
+          "local": "/screenshots/2017-kouhaku/37-source-1.png",
+          "sha256": "d93fd36fe44cac451e8d24cba85d24f4fd0b53039b70f37848e0382648eea788"
+        },
+        {
+          "role": "ss2ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/37-2.png",
+          "local": "/screenshots/2017-kouhaku/37-source-2.png",
+          "sha256": "793d8e53f5f0e50b0ed0908250ea2009b5541e20338a929df3bd7cd14cfe6a3d"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-38",
+      "no": "38",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=38",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "Magic Frontier",
+        "author": "五つ葉",
+        "genre": "短編RPG",
+        "tkool": "VXA",
+        "browser": "0",
+        "dandm": "可/可",
+        "vote": "1",
+        "ss1ext": "png",
+        "ss2ext": "png",
+        "iconext": "png",
+        "board": "1512119592",
+        "date1": "12/23",
+        "date2": "01/27",
+        "capa": "127MB",
+        "link1": "https://drive.google.com/uc?export=download&id=15YANREZHmL9tpEVxCyijL4Wb-aKnqKF0",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/38-icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/38-1.png",
+          "local": "/screenshots/2017-kouhaku/38-source-1.png",
+          "sha256": "7d64ef30ad8e2f0935d5b354573353c30df878d0148c4b7cf53abb30805f153c"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/38-2.png",
+          "local": "/screenshots/2017-kouhaku/38-source-2.png",
+          "sha256": "82543476fb9b7515f201d33ad11cd2acfac7277248e5ddf6080caf8cecc472d5"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/38-1.png",
+          "local": "/screenshots/2017-kouhaku/38-source-1.png",
+          "sha256": "7d64ef30ad8e2f0935d5b354573353c30df878d0148c4b7cf53abb30805f153c"
+        },
+        {
+          "role": "ss2ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/38-2.png",
+          "local": "/screenshots/2017-kouhaku/38-source-2.png",
+          "sha256": "82543476fb9b7515f201d33ad11cd2acfac7277248e5ddf6080caf8cecc472d5"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=15YANREZHmL9tpEVxCyijL4Wb-aKnqKF0",
+          "label": "配布：127MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-39",
+      "no": "39",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=39",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "Element Zero",
+        "author": "Dr.K",
+        "genre": "RPG",
+        "tkool": "VXA",
+        "browser": "0",
+        "dandm": "可/可",
+        "vote": "1",
+        "ss1ext": "png?0106",
+        "ss2ext": "png?0106",
+        "iconext": "png",
+        "board": "1512987012",
+        "date1": "01/06",
+        "date2": "01/30",
+        "capa": "95.8MB",
+        "link1": "https://drive.google.com/uc?export=download&id=1YVYMCmpd8smM2UCk0ihR5t2l-7-58F77",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/39-icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/39-1.png?0106",
+          "local": "/screenshots/2017-kouhaku/39-source-1.png",
+          "sha256": "dc87ade80e33a19daf8049c0d2631c2eb2e8c5a9d6b856ca2472b95f92fc92d4"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/39-2.png?0106",
+          "local": "/screenshots/2017-kouhaku/39-source-2.png",
+          "sha256": "b9bb7f13b89fcab9e1befc2aeeaa9f0ec9509610531cbed308686a764b47cf97"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/39-1.png?0106",
+          "local": "/screenshots/2017-kouhaku/39-source-1.png",
+          "sha256": "dc87ade80e33a19daf8049c0d2631c2eb2e8c5a9d6b856ca2472b95f92fc92d4"
+        },
+        {
+          "role": "ss2ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/39-2.png?0106",
+          "local": "/screenshots/2017-kouhaku/39-source-2.png",
+          "sha256": "b9bb7f13b89fcab9e1befc2aeeaa9f0ec9509610531cbed308686a764b47cf97"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1YVYMCmpd8smM2UCk0ihR5t2l-7-58F77",
+          "label": "配布：95.8MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-40",
+      "no": "40",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=40",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "R2.exe",
+        "author": "Zero",
+        "genre": "seceret",
+        "tkool": "other",
+        "browser": "0",
+        "dandm": "UNKNOWN",
+        "vote": "0",
+        "ss1ext": "png?1212",
+        "ss2ext": "png?1212",
+        "iconext": "png?1212",
+        "board": "1513077433",
+        "date1": "12/27",
+        "date2": "01/13",
+        "capa": "11.5MB",
+        "link1": "https://drive.google.com/uc?export=download&id=1KUXYaukpaV1shOK6SUU06B1szP79pfnN",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/40-icon.png?1212",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/40-1.png?1212",
+          "local": "/screenshots/2017-kouhaku/40-source-1.png",
+          "sha256": "395fd7d79f962ff71b398f957fcf167bbb6047f9de05034f3a7024e916409fa3"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/40-2.png?1212",
+          "local": "/screenshots/2017-kouhaku/40-source-2.png",
+          "sha256": "ddfae2d39d491fa7131ec8a3f4f9ba3a45778824ffdab18553e067f34b4b949c"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/40-1.png?1212",
+          "local": "/screenshots/2017-kouhaku/40-source-1.png",
+          "sha256": "395fd7d79f962ff71b398f957fcf167bbb6047f9de05034f3a7024e916409fa3"
+        },
+        {
+          "role": "ss2ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/40-2.png?1212",
+          "local": "/screenshots/2017-kouhaku/40-source-2.png",
+          "sha256": "ddfae2d39d491fa7131ec8a3f4f9ba3a45778824ffdab18553e067f34b4b949c"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1KUXYaukpaV1shOK6SUU06B1szP79pfnN",
+          "label": "配布：11.5MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-41",
+      "no": "41",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=41",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "Nocturne else...",
+        "author": "ローゼンクロイツ ◆Mvhdw.2dlc",
+        "genre": "メガテン風シナリオ / モナーRPG",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "可/可",
+        "vote": "1",
+        "ss1ext": "png?0108",
+        "ss2ext": "png",
+        "iconext": "gif",
+        "board": "1513157043",
+        "date1": "12/24",
+        "date2": "01/08",
+        "capa": "47.8MB",
+        "link1": "https://drive.google.com/uc?export=download&id=1PPDmfubF0_Mf7NFBKRhPqXH0Mukrumko",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/41-icon.gif",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/41-1.png?0108",
+          "local": "/screenshots/2017-kouhaku/41-source-1.png",
+          "sha256": "5f5f569022d387fa202191a32165e302bf47d8b1b273e090f76c3a3f10b7382b"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/41-2.png",
+          "local": "/screenshots/2017-kouhaku/41-source-2.png",
+          "sha256": "8358b2add5f577444a04eec38c5553dd026846ca0f427d588934c0192f6fa57f"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/41-1.png?0108",
+          "local": "/screenshots/2017-kouhaku/41-source-1.png",
+          "sha256": "5f5f569022d387fa202191a32165e302bf47d8b1b273e090f76c3a3f10b7382b"
+        },
+        {
+          "role": "ss2ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/41-2.png",
+          "local": "/screenshots/2017-kouhaku/41-source-2.png",
+          "sha256": "8358b2add5f577444a04eec38c5553dd026846ca0f427d588934c0192f6fa57f"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1PPDmfubF0_Mf7NFBKRhPqXH0Mukrumko",
+          "label": "配布：47.8MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-42",
+      "no": "42",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=42",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "もしも魔王が近衛兵を雇ったら",
+        "author": "お姉さん大好きマン",
+        "genre": "見るゲ",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "可/可",
+        "vote": "1",
+        "ss1ext": "jpg",
+        "ss2ext": "",
+        "iconext": "",
+        "board": "1513386584",
+        "date1": "12/23",
+        "date2": "01/05",
+        "capa": "4.44MB",
+        "link1": "https://drive.google.com/uc?export=download&id=15s_jrKmlrVer7qNnUr4osBMKi-TpFNtz",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/42-1.jpg",
+          "local": "/screenshots/2017-kouhaku/42-source-1.jpg",
+          "sha256": "bec31b0ef99c751d4daa83d12d9d3eaddbab93d9206c3334b936e23fb8058db6"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/42-1.jpg",
+          "local": "/screenshots/2017-kouhaku/42-source-1.jpg",
+          "sha256": "bec31b0ef99c751d4daa83d12d9d3eaddbab93d9206c3334b936e23fb8058db6"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=15s_jrKmlrVer7qNnUr4osBMKi-TpFNtz",
+          "label": "配布：4.44MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-43",
+      "no": "43",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=43",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "きばりと奇跡のカレー",
+        "author": "コーラマン",
+        "genre": "アドベンチャー",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "可/可",
+        "vote": "1",
+        "ss1ext": "png",
+        "ss2ext": "",
+        "iconext": "png",
+        "board": "1513523753",
+        "date1": "12/25",
+        "date2": "",
+        "capa": "10.6MB",
+        "link1": "https://drive.google.com/uc?export=download&id=1JnG5VZa-pydmE8NRmn-OmD-d7DX40qFO",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/43-icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/43-1.png",
+          "local": "/screenshots/2017-kouhaku/43-source-1.png",
+          "sha256": "a65b106acd12c1d1ea5c20fd38c4b1fb26b87b30dc4e8bba53f90a7bfce7e976"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/43-1.png",
+          "local": "/screenshots/2017-kouhaku/43-source-1.png",
+          "sha256": "a65b106acd12c1d1ea5c20fd38c4b1fb26b87b30dc4e8bba53f90a7bfce7e976"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1JnG5VZa-pydmE8NRmn-OmD-d7DX40qFO",
+          "label": "配布：10.6MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-44",
+      "no": "44",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=44",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "未定",
+        "author": "未定",
+        "genre": "サブカルクソゲーム",
+        "tkool": "未定",
+        "browser": "0",
+        "dandm": "付属テキスト参照(予定)",
+        "vote": "1",
+        "ss1ext": "png?0117",
+        "ss2ext": "png",
+        "iconext": "",
+        "board": "1513608397",
+        "date1": "01/17",
+        "date2": "",
+        "capa": "5.54MB",
+        "link1": "https://drive.google.com/uc?export=download&id=1z2ithWCpUx1qBJfVvAkW9mdZdBenV90W",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/44-1.png?0117",
+          "local": "/screenshots/2017-kouhaku/44-source-1.png",
+          "sha256": "29d080e19c3fcb013b9b546810a1471c457c6a516eb676ca2fd802b4d79e3dd2"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/44-2.png",
+          "local": "/screenshots/2017-kouhaku/44-source-2.png",
+          "sha256": "91024766ad8d20cce089352230cdae6182cee24ab76448a60d78db6b1596d4a8"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/44-1.png?0117",
+          "local": "/screenshots/2017-kouhaku/44-source-1.png",
+          "sha256": "29d080e19c3fcb013b9b546810a1471c457c6a516eb676ca2fd802b4d79e3dd2"
+        },
+        {
+          "role": "ss2ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/44-2.png",
+          "local": "/screenshots/2017-kouhaku/44-source-2.png",
+          "sha256": "91024766ad8d20cce089352230cdae6182cee24ab76448a60d78db6b1596d4a8"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1z2ithWCpUx1qBJfVvAkW9mdZdBenV90W",
+          "label": "配布：5.54MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-45",
+      "no": "45",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=45",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "品性を疑うksg",
+        "author": "慟哭マン",
+        "genre": "ksg",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "可/可",
+        "vote": "1",
+        "ss1ext": "png",
+        "ss2ext": "",
+        "iconext": "png",
+        "board": "1513608521",
+        "date1": "12/18",
+        "date2": "",
+        "capa": "459KB",
+        "link1": "https://drive.google.com/uc?export=download&id=1_6w796UEQDq0dc1pTkuzIZGRR-lTDhP3",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/45-icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/45-1.png",
+          "local": "/screenshots/2017-kouhaku/45-source-1.png",
+          "sha256": "e794785529c7e952864b052d0624ee1a58ff7b437e21b67402986f97fd5b69b5"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/45-1.png",
+          "local": "/screenshots/2017-kouhaku/45-source-1.png",
+          "sha256": "e794785529c7e952864b052d0624ee1a58ff7b437e21b67402986f97fd5b69b5"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1_6w796UEQDq0dc1pTkuzIZGRR-lTDhP3",
+          "label": "配布：459KB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-46",
+      "no": "46",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=46",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "ライチがピアノ弾くだけ",
+        "author": "sakana",
+        "genre": "音合わせ見るゲー",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "可/可",
+        "vote": "1",
+        "ss1ext": "png",
+        "ss2ext": "png",
+        "iconext": "png",
+        "board": "1513693023",
+        "date1": "12/24",
+        "date2": "",
+        "capa": "1.73MB",
+        "link1": "https://drive.google.com/uc?export=download&id=1L0K7aGshq3dSNgyi76XqEQEoExt8okD8",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/46-icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/46-1.png",
+          "local": "/screenshots/2017-kouhaku/46-source-1.png",
+          "sha256": "ebb04c1b60682c45bd9e4065c65cd1378f7b37e4a66b25674675b7b5d59663bd"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/46-2.png",
+          "local": "/screenshots/2017-kouhaku/46-source-2.png",
+          "sha256": "c30b2c0c039a946589075264ed365d8d34bd8fe7c0276f9ef53554c6e27fd930"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/46-1.png",
+          "local": "/screenshots/2017-kouhaku/46-source-1.png",
+          "sha256": "ebb04c1b60682c45bd9e4065c65cd1378f7b37e4a66b25674675b7b5d59663bd"
+        },
+        {
+          "role": "ss2ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/46-2.png",
+          "local": "/screenshots/2017-kouhaku/46-source-2.png",
+          "sha256": "c30b2c0c039a946589075264ed365d8d34bd8fe7c0276f9ef53554c6e27fd930"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1L0K7aGshq3dSNgyi76XqEQEoExt8okD8",
+          "label": "配布：1.73MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-47",
+      "no": "47",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=47",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "老人介護施設で働く寝る前さん",
+        "author": "ざわめく遺伝子に背くように",
+        "genre": "精神を病んでゆく寝る前さんを眺めるゲーム",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "可/可",
+        "vote": "1",
+        "ss1ext": "png",
+        "ss2ext": "",
+        "iconext": "png",
+        "board": "1513693094",
+        "date1": "12/24",
+        "date2": "12/25",
+        "capa": "11.3MB",
+        "link1": "https://drive.google.com/uc?export=download&id=1BalDo1KWRi2_nSdLJgr11jcugb7hthiv",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/47-icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/47-1.png",
+          "local": "/screenshots/2017-kouhaku/47-source-1.png",
+          "sha256": "39d0b26f3451aa6a6de48ab282e8e97ca4f30737c14797cab13214ecd13827f2"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/47-1.png",
+          "local": "/screenshots/2017-kouhaku/47-source-1.png",
+          "sha256": "39d0b26f3451aa6a6de48ab282e8e97ca4f30737c14797cab13214ecd13827f2"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1BalDo1KWRi2_nSdLJgr11jcugb7hthiv",
+          "label": "配布：11.3MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-48",
+      "no": "48",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=48",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "Frozen Triggers",
+        "author": "河澄",
+        "genre": "強制横スクロールローグライクアクションシューティング",
+        "tkool": "2003",
+        "browser": "0",
+        "dandm": "可/微妙に可",
+        "vote": "1",
+        "ss1ext": "png",
+        "ss2ext": "png?1227",
+        "iconext": "",
+        "board": "1513863873",
+        "date1": "01/27",
+        "date2": "",
+        "capa": "33.1MB",
+        "link1": "https://drive.google.com/uc?export=download&id=1vhGsl9pDuHsr7nqor8d_iOmMTnaz0ry0",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/48-1.png",
+          "local": "/screenshots/2017-kouhaku/48-source-1.png",
+          "sha256": "e2540856635e0d43b0778d1edb947c2d0896930e4ff992ff92ee3c160aac0853"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/48-2.png?1227",
+          "local": "/screenshots/2017-kouhaku/48-source-2.png",
+          "sha256": "1a73d23f24f9a8c776479ab4828f930d298279585efe1be124efcdda2289c3ba"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/48-1.png",
+          "local": "/screenshots/2017-kouhaku/48-source-1.png",
+          "sha256": "e2540856635e0d43b0778d1edb947c2d0896930e4ff992ff92ee3c160aac0853"
+        },
+        {
+          "role": "ss2ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/48-2.png?1227",
+          "local": "/screenshots/2017-kouhaku/48-source-2.png",
+          "sha256": "1a73d23f24f9a8c776479ab4828f930d298279585efe1be124efcdda2289c3ba"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1vhGsl9pDuHsr7nqor8d_iOmMTnaz0ry0",
+          "label": "配布：33.1MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-49",
+      "no": "49",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=49",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "タイトルへ",
+        "author": "タイトルへ",
+        "genre": "タイトルへ",
+        "tkool": "VXA",
+        "browser": "0",
+        "dandm": "可/可",
+        "vote": "1",
+        "ss1ext": "png",
+        "ss2ext": "",
+        "iconext": "png",
+        "board": "1513863975",
+        "date1": "12/22",
+        "date2": "",
+        "capa": "1.28MB",
+        "link1": "https://drive.google.com/uc?export=download&id=14kTE3dLuBZxToZQO76UznwvZ4FDkx_i4",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/49-icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/49-1.png",
+          "local": "/screenshots/2017-kouhaku/49-source-1.png",
+          "sha256": "f99bb383ae7d03237263ee266e95c9c3102b72ec61d7a7c8bb8a6c1ef4e76771"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/49-1.png",
+          "local": "/screenshots/2017-kouhaku/49-source-1.png",
+          "sha256": "f99bb383ae7d03237263ee266e95c9c3102b72ec61d7a7c8bb8a6c1ef4e76771"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=14kTE3dLuBZxToZQO76UznwvZ4FDkx_i4",
+          "label": "配布：1.28MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-50",
+      "no": "50",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=50",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "みどりの",
+        "author": "lpre_ys",
+        "genre": "百合見るゲ(ちょいエロ)",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "不可/不可",
+        "vote": "1",
+        "ss1ext": "png",
+        "ss2ext": "",
+        "iconext": "",
+        "board": "1514017994",
+        "date1": "12/23",
+        "date2": "1/20",
+        "capa": "927KB",
+        "link1": "https://drive.google.com/uc?export=download&id=116cJGd0dT-wEV2z2ZjZkNqzWQKhTFREv",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/50-1.png",
+          "local": "/screenshots/2017-kouhaku/50-source-1.png",
+          "sha256": "f6ecedae12833eeb3152119297d38a45f718ac23140f20055a3d039e589e1035"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/50-1.png",
+          "local": "/screenshots/2017-kouhaku/50-source-1.png",
+          "sha256": "f6ecedae12833eeb3152119297d38a45f718ac23140f20055a3d039e589e1035"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=116cJGd0dT-wEV2z2ZjZkNqzWQKhTFREv",
+          "label": "配布：927KB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-51",
+      "no": "51",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=51",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": "4bf377ff196f9bb1000c77c9f5f769f2",
+        "title": "ヴァルキリープロジェクト -VALHALLA DEFENCE-",
+        "author": "流久利亜",
+        "genre": "自由配置型タワーディフェンス(RTS)",
+        "tkool": "MV",
+        "browser": "1",
+        "dandm": "可/可",
+        "vote": "1",
+        "ss1ext": "jpg",
+        "ss2ext": "jpg",
+        "iconext": "png",
+        "board": "1514037871",
+        "date1": "",
+        "date2": "",
+        "capa": "",
+        "link1": "",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/51-icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/51-1.jpg",
+          "local": "/screenshots/2017-kouhaku/51-source-1.jpg",
+          "sha256": "1fd095b5eaa980fdbd66204c8a6cf3f93f8519892356ee41a2bc22c68bb6ea43"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/51-2.jpg",
+          "local": "/screenshots/2017-kouhaku/51-source-2.jpg",
+          "sha256": "dd76f9a87dcd1d5671a93f585efa017a09deefcd47dbb6ed9f3f956d62add445"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/51-1.jpg",
+          "local": "/screenshots/2017-kouhaku/51-source-1.jpg",
+          "sha256": "1fd095b5eaa980fdbd66204c8a6cf3f93f8519892356ee41a2bc22c68bb6ea43"
+        },
+        {
+          "role": "ss2ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/51-2.jpg",
+          "local": "/screenshots/2017-kouhaku/51-source-2.jpg",
+          "sha256": "dd76f9a87dcd1d5671a93f585efa017a09deefcd47dbb6ed9f3f956d62add445"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-52",
+      "no": "52",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=52",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "Pandemonium Labyrinth",
+        "author": "零式トワ",
+        "genre": "デフォ戦",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "可/可",
+        "vote": "1",
+        "ss1ext": "png",
+        "ss2ext": "png",
+        "iconext": "png",
+        "board": "1514200135",
+        "date1": "12/25",
+        "date2": "01/15",
+        "capa": "3.12MB",
+        "link1": "https://drive.google.com/uc?export=download&id=1haAyyMgNV1S5pGMDYuZqyHAKqap0MKUv",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/52-icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/52-1.png",
+          "local": "/screenshots/2017-kouhaku/52-source-1.png",
+          "sha256": "92de19557eddf551d83f26bad3dcf796daef666eff39310596725407e57ea75a"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/52-2.png",
+          "local": "/screenshots/2017-kouhaku/52-source-2.png",
+          "sha256": "f59986656dd418a211210fc9efe773e327b1597f2e231fe51d3048047adcb900"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/52-1.png",
+          "local": "/screenshots/2017-kouhaku/52-source-1.png",
+          "sha256": "92de19557eddf551d83f26bad3dcf796daef666eff39310596725407e57ea75a"
+        },
+        {
+          "role": "ss2ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/52-2.png",
+          "local": "/screenshots/2017-kouhaku/52-source-2.png",
+          "sha256": "f59986656dd418a211210fc9efe773e327b1597f2e231fe51d3048047adcb900"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1haAyyMgNV1S5pGMDYuZqyHAKqap0MKUv",
+          "label": "配布：3.12MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-53",
+      "no": "53",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=53",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": "cc03fe1bfcc8bab8dfa5eef2e439966c",
+        "title": "ライツアウ塔!!",
+        "author": "惑星",
+        "genre": "ライツアウト",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "可/可",
+        "vote": "1",
+        "ss1ext": "png",
+        "ss2ext": "",
+        "iconext": "",
+        "board": "1514215106",
+        "date1": "",
+        "date2": "",
+        "capa": "",
+        "link1": "",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/53-1.png",
+          "local": "/screenshots/2017-kouhaku/53-source-1.png",
+          "sha256": "74d081352f586a33652a1470be38ec7421d044a6dac4f17da9765131573c8add"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/53-1.png",
+          "local": "/screenshots/2017-kouhaku/53-source-1.png",
+          "sha256": "74d081352f586a33652a1470be38ec7421d044a6dac4f17da9765131573c8add"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-54",
+      "no": "54",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=54",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "Steam版RPG Maker 2003日本語化パッチ",
+        "author": "氷山羊",
+        "genre": "パッチ",
+        "tkool": "other",
+        "browser": "0",
+        "dandm": "どの/ように",
+        "vote": "0",
+        "ss1ext": "png",
+        "ss2ext": "",
+        "iconext": "",
+        "board": "1514293994",
+        "date1": "12/30",
+        "date2": "02/02",
+        "capa": "1.47MB",
+        "link1": "https://drive.google.com/uc?export=download&id=1yJB2W5cjqboK3A0PiCUCzCe2ALwRja2c",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/54-1.png",
+          "local": "/screenshots/2017-kouhaku/54-source-1.png",
+          "sha256": "7551ba716f2b210856fc48113f654ddd8d001676877e2c7145cfefcb939c9178"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/54-1.png",
+          "local": "/screenshots/2017-kouhaku/54-source-1.png",
+          "sha256": "7551ba716f2b210856fc48113f654ddd8d001676877e2c7145cfefcb939c9178"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1yJB2W5cjqboK3A0PiCUCzCe2ALwRja2c",
+          "label": "配布：1.47MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-55",
+      "no": "55",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=55",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "ウンコヴィック博士の冒険",
+        "author": "UNKO",
+        "genre": "ウンコヴィック博士の冒険",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "おｋ",
+        "vote": "1",
+        "ss1ext": "png",
+        "ss2ext": "",
+        "iconext": "jpg",
+        "board": "1514294231",
+        "date1": "12/27",
+        "date2": "12/28",
+        "capa": "1.06KB",
+        "link1": "https://drive.google.com/uc?export=download&id=19-uF1m4FxRctKbMmYTvK-CgODiaODzT-",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/55-icon.jpg",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/55-1.png",
+          "local": "/screenshots/2017-kouhaku/55-source-1.png",
+          "sha256": "8ec6ad46d250020f1432f87755de60c5b87e683eebab70ec180596b91d0fcad9"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/55-1.png",
+          "local": "/screenshots/2017-kouhaku/55-source-1.png",
+          "sha256": "8ec6ad46d250020f1432f87755de60c5b87e683eebab70ec180596b91d0fcad9"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=19-uF1m4FxRctKbMmYTvK-CgODiaODzT-",
+          "label": "配布：1.06KB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-56",
+      "no": "56",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=56",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "オレオレビュー2017",
+        "author": "KC.R",
+        "genre": "短編集",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "可/可",
+        "vote": "1",
+        "ss1ext": "png",
+        "ss2ext": "png",
+        "iconext": "png",
+        "board": "1514470383",
+        "date1": "12/30",
+        "date2": "01/23",
+        "capa": "9.16MB",
+        "link1": "https://drive.google.com/uc?export=download&id=1Mah9w-r3yD2W53DU3_vuG7mtFCNTGkCQ",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/56-icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/56-1.png",
+          "local": "/screenshots/2017-kouhaku/56-source-1.png",
+          "sha256": "54b06d9191c187a5410d3ed1fbeb1a1fbd41420d359c8bb1f9703bfb5ece9ae4"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/56-2.png",
+          "local": "/screenshots/2017-kouhaku/56-source-2.png",
+          "sha256": "d288c3d44b4baf44443f2a6e46ee6d5b8a40e8203bf088f050970c6e37a6b4f9"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/56-1.png",
+          "local": "/screenshots/2017-kouhaku/56-source-1.png",
+          "sha256": "54b06d9191c187a5410d3ed1fbeb1a1fbd41420d359c8bb1f9703bfb5ece9ae4"
+        },
+        {
+          "role": "ss2ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/56-2.png",
+          "local": "/screenshots/2017-kouhaku/56-source-2.png",
+          "sha256": "d288c3d44b4baf44443f2a6e46ee6d5b8a40e8203bf088f050970c6e37a6b4f9"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1Mah9w-r3yD2W53DU3_vuG7mtFCNTGkCQ",
+          "label": "配布：9.16MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-57",
+      "no": "57",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=57",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": "27b6ab7fc20f0fd468be467443ed4e6b",
+        "title": "S&#039;ils sont les chemins saints",
+        "author": "鹿河豚",
+        "genre": "見るゲ",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "可/可",
+        "vote": "1",
+        "ss1ext": "png",
+        "ss2ext": "png",
+        "iconext": "png",
+        "board": "1514634529",
+        "date1": "",
+        "date2": "",
+        "capa": "",
+        "link1": "",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/57-icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/57-1.png",
+          "local": "/screenshots/2017-kouhaku/57-source-1.png",
+          "sha256": "c93ae8e78c91e75ec166518dee4f238803026da8a6a01b40d58fae95fbc4ab82"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/57-2.png",
+          "local": "/screenshots/2017-kouhaku/57-source-2.png",
+          "sha256": "d8b81c2e83cfea8510ce04b1af62c6b1f538305b9463f6dd811e61dfbc8c3499"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/57-1.png",
+          "local": "/screenshots/2017-kouhaku/57-source-1.png",
+          "sha256": "c93ae8e78c91e75ec166518dee4f238803026da8a6a01b40d58fae95fbc4ab82"
+        },
+        {
+          "role": "ss2ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/57-2.png",
+          "local": "/screenshots/2017-kouhaku/57-source-2.png",
+          "sha256": "d8b81c2e83cfea8510ce04b1af62c6b1f538305b9463f6dd811e61dfbc8c3499"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-58",
+      "no": "58",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=58",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "iSOC-7の、RPGツクール2003サルベージ大作戦。",
+        "author": "iSOC-7(アイゾック セブン)",
+        "genre": "RPG",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "可/可",
+        "vote": "1",
+        "ss1ext": "png",
+        "ss2ext": "",
+        "iconext": "png",
+        "board": "1514635007",
+        "date1": "02/02",
+        "date2": "",
+        "capa": "20.4MB",
+        "link1": "https://drive.google.com/uc?export=download&id=17NXtLspEX3BhW3hA228lGkYZOfs0Wwdd",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/58-icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/58-1.png",
+          "local": "/screenshots/2017-kouhaku/58-source-1.png",
+          "sha256": "713016c027181d038dd773379081f45118dc1b9bfd1196f681113028b43cfc2b"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/58-1.png",
+          "local": "/screenshots/2017-kouhaku/58-source-1.png",
+          "sha256": "713016c027181d038dd773379081f45118dc1b9bfd1196f681113028b43cfc2b"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=17NXtLspEX3BhW3hA228lGkYZOfs0Wwdd",
+          "label": "配布：20.4MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-59",
+      "no": "59",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=59",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "タイピングオブザもしも",
+        "author": "がらくた",
+        "genre": "タイピング",
+        "tkool": "MV",
+        "browser": "1",
+        "dandm": "可/可",
+        "vote": "1",
+        "ss1ext": "png",
+        "ss2ext": "png",
+        "iconext": "png",
+        "board": "1514684114",
+        "date1": "12/31",
+        "date2": "",
+        "capa": "51.3MB",
+        "link1": "https://drive.google.com/uc?export=download&id=1DuAnYyy2XZvmUwN3OvvQd6W22vMoyNZA",
+        "link2": "http://viprpg17kh.php.xdomain.jp/games/17kh59/www/",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/59-icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/59-1.png",
+          "local": "/screenshots/2017-kouhaku/59-source-1.png",
+          "sha256": "290426c0b72c04537646f9d6ec34077f7e95b506fde1d01ae3a1a0737cb8baaf"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/59-2.png",
+          "local": "/screenshots/2017-kouhaku/59-source-2.png",
+          "sha256": "0b0a7b0a579f7b13bc9cee2344cc1e6323fca552b4209e869dececbefdc6a6cd"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/59-1.png",
+          "local": "/screenshots/2017-kouhaku/59-source-1.png",
+          "sha256": "290426c0b72c04537646f9d6ec34077f7e95b506fde1d01ae3a1a0737cb8baaf"
+        },
+        {
+          "role": "ss2ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/59-2.png",
+          "local": "/screenshots/2017-kouhaku/59-source-2.png",
+          "sha256": "0b0a7b0a579f7b13bc9cee2344cc1e6323fca552b4209e869dececbefdc6a6cd"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1DuAnYyy2XZvmUwN3OvvQd6W22vMoyNZA",
+          "label": "配布：51.3MB"
+        },
+        {
+          "url": "http://viprpg17kh.php.xdomain.jp/games/17kh59/www/",
+          "label": "ブラウザ版"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-60",
+      "no": "60",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=60",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": "8a110a93862f1a8d14e6a52675bd7d14",
+        "title": "龍札（ドラゴンカード）-VIPRPGエディション-",
+        "author": "焼肉",
+        "genre": "限りなくTRPGに近いなんか強そうな理論を展開した人が勝つカードゲーム",
+        "tkool": "MV",
+        "browser": "1",
+        "dandm": "可/可",
+        "vote": "1",
+        "ss1ext": "jpg",
+        "ss2ext": "jpg",
+        "iconext": "png",
+        "board": "1514684294",
+        "date1": "",
+        "date2": "",
+        "capa": "",
+        "link1": "",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/60-icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/60-1.jpg",
+          "local": "/screenshots/2017-kouhaku/60-source-1.jpg",
+          "sha256": "56fbc71ca59f6ccb3ce23fba2aa96928e846a6f095ccf28dfe1f40419f4912e9"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/60-2.jpg",
+          "local": "/screenshots/2017-kouhaku/60-source-2.jpg",
+          "sha256": "061a39215da31e99dec5bca39bf53cd489b382c466f4769f8ead66b5433b1bd1"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/60-1.jpg",
+          "local": "/screenshots/2017-kouhaku/60-source-1.jpg",
+          "sha256": "56fbc71ca59f6ccb3ce23fba2aa96928e846a6f095ccf28dfe1f40419f4912e9"
+        },
+        {
+          "role": "ss2ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/60-2.jpg",
+          "local": "/screenshots/2017-kouhaku/60-source-2.jpg",
+          "sha256": "061a39215da31e99dec5bca39bf53cd489b382c466f4769f8ead66b5433b1bd1"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-61",
+      "no": "61",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=61",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": "2c335380b10ccbc3898db4e464320f0c",
+        "title": "架空動力の滑車",
+        "author": "ざるそば",
+        "genre": "読めるｋｓｇ",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "可/可",
+        "vote": "1",
+        "ss1ext": "png",
+        "ss2ext": "png",
+        "iconext": "png",
+        "board": "1514812488",
+        "date1": "",
+        "date2": "",
+        "capa": "",
+        "link1": "",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/61-icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/61-1.png",
+          "local": "/screenshots/2017-kouhaku/61-source-1.png",
+          "sha256": "0e434e41b6577d5b81412de78b9861ec7ad5bf6f5bb88e1864c08b3d3861cd0b"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/61-2.png",
+          "local": "/screenshots/2017-kouhaku/61-source-2.png",
+          "sha256": "d99b9c060c3e5623056ff05a8dd1e94924ff02606297180742aae3b3eec043ab"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/61-1.png",
+          "local": "/screenshots/2017-kouhaku/61-source-1.png",
+          "sha256": "0e434e41b6577d5b81412de78b9861ec7ad5bf6f5bb88e1864c08b3d3861cd0b"
+        },
+        {
+          "role": "ss2ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/61-2.png",
+          "local": "/screenshots/2017-kouhaku/61-source-2.png",
+          "sha256": "d99b9c060c3e5623056ff05a8dd1e94924ff02606297180742aae3b3eec043ab"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-62",
+      "no": "62",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=62",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": "409fd19dbd895b61e707a504b20273d1",
+        "title": "バーチャルyoutubeｒ始めてみた！",
+        "author": "ウィンディ",
+        "genre": "病弱美少女がお送りする gdgdとksg",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "可/可",
+        "vote": "1",
+        "ss1ext": "png",
+        "ss2ext": "",
+        "iconext": "png",
+        "board": "1514812713",
+        "date1": "",
+        "date2": "",
+        "capa": "",
+        "link1": "",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/62-icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/62-1.png",
+          "local": "/screenshots/2017-kouhaku/62-source-1.png",
+          "sha256": "10d00b6d61f0520ad7ffacfe11ab9659b47bdf7a0c79d041acd92a6b54cf2e12"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/62-1.png",
+          "local": "/screenshots/2017-kouhaku/62-source-1.png",
+          "sha256": "10d00b6d61f0520ad7ffacfe11ab9659b47bdf7a0c79d041acd92a6b54cf2e12"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-63",
+      "no": "63",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=63",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "うきうき短編集☆",
+        "author": "小泉純一郎",
+        "genre": "見るゲ",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "可/可",
+        "vote": "1",
+        "ss1ext": "jpg",
+        "ss2ext": "jpg",
+        "iconext": "",
+        "board": "1514813026",
+        "date1": "01/30",
+        "date2": "",
+        "capa": "30.5MB",
+        "link1": "https://drive.google.com/uc?export=download&id=1sArubsBzezr3UfQXn6kebx6hj5P47BHn",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/63-1.jpg",
+          "local": "/screenshots/2017-kouhaku/63-source-1.jpg",
+          "sha256": "7e3a68668e96f9ace7b31fbfe31d6d5693ba2d5e2572d7fdb44546148f1fbe0d"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/63-2.jpg",
+          "local": "/screenshots/2017-kouhaku/63-source-2.jpg",
+          "sha256": "f3ece803d6f73be9914c4b7e9f50a369c0b05feb34ca19467b04b9d1638f6337"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/63-1.jpg",
+          "local": "/screenshots/2017-kouhaku/63-source-1.jpg",
+          "sha256": "7e3a68668e96f9ace7b31fbfe31d6d5693ba2d5e2572d7fdb44546148f1fbe0d"
+        },
+        {
+          "role": "ss2ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/63-2.jpg",
+          "local": "/screenshots/2017-kouhaku/63-source-2.jpg",
+          "sha256": "f3ece803d6f73be9914c4b7e9f50a369c0b05feb34ca19467b04b9d1638f6337"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1sArubsBzezr3UfQXn6kebx6hj5P47BHn",
+          "label": "配布：30.5MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-64",
+      "no": "64",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=64",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "ツクリックス",
+        "author": "んぱぁ",
+        "genre": "アクション",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "可/可",
+        "vote": "0",
+        "ss1ext": "jpg",
+        "ss2ext": "png",
+        "iconext": "jpg",
+        "board": "1514814252",
+        "date1": "01/18",
+        "date2": "01/24",
+        "capa": "19.7MB",
+        "link1": "https://drive.google.com/uc?export=download&id=10tKtqitfkpQ57aBAmmaD7BAYHM-plkRK",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/64-icon.jpg",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/64-1.jpg",
+          "local": "/screenshots/2017-kouhaku/64-source-1.jpg",
+          "sha256": "61a3860e6e3f893e2597018eb45e371582b9d61270ef998d6f52ddb2f026ba58"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/64-2.png",
+          "local": "/screenshots/2017-kouhaku/64-source-2.png",
+          "sha256": "d24570ef5d39ba37e80078d29418869f01778638fd25604d6b869f59462a78bb"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/64-1.jpg",
+          "local": "/screenshots/2017-kouhaku/64-source-1.jpg",
+          "sha256": "61a3860e6e3f893e2597018eb45e371582b9d61270ef998d6f52ddb2f026ba58"
+        },
+        {
+          "role": "ss2ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/64-2.png",
+          "local": "/screenshots/2017-kouhaku/64-source-2.png",
+          "sha256": "d24570ef5d39ba37e80078d29418869f01778638fd25604d6b869f59462a78bb"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=10tKtqitfkpQ57aBAmmaD7BAYHM-plkRK",
+          "label": "配布：19.7MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-65",
+      "no": "65",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=65",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "たたかう、ムーンライト",
+        "author": "：注釈",
+        "genre": "ksg",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "可/可",
+        "vote": "1",
+        "ss1ext": "png?0202",
+        "ss2ext": "",
+        "iconext": "",
+        "board": "1514896062",
+        "date1": "02/02",
+        "date2": "",
+        "capa": "364KB",
+        "link1": "https://drive.google.com/uc?export=download&id=1WxUYbknvCQrxnjc-JKyYd8l8XWyqCxU6",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/65-1.png?0202",
+          "local": "/screenshots/2017-kouhaku/65-source-1.png",
+          "sha256": "74819677fcb1651fa190cb63b6cc13383eb375503d19b6bc19da7d47cd7eecf5"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/65-1.png?0202",
+          "local": "/screenshots/2017-kouhaku/65-source-1.png",
+          "sha256": "74819677fcb1651fa190cb63b6cc13383eb375503d19b6bc19da7d47cd7eecf5"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1WxUYbknvCQrxnjc-JKyYd8l8XWyqCxU6",
+          "label": "配布：364KB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-66",
+      "no": "66",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=66",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": "55bab79c4b3e81568eda55d286b1589b",
+        "title": "哲学者たち",
+        "author": "鳳天舞の陣－１",
+        "genre": "読むゲ",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "可/可",
+        "vote": "1",
+        "ss1ext": "png",
+        "ss2ext": "",
+        "iconext": "",
+        "board": "1514896429",
+        "date1": "",
+        "date2": "",
+        "capa": "",
+        "link1": "",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/66-1.png",
+          "local": "/screenshots/2017-kouhaku/66-source-1.png",
+          "sha256": "35e5cc0a073ae0c0897cd6157c50a5730deff220ce896e11935ae7897c701950"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/66-1.png",
+          "local": "/screenshots/2017-kouhaku/66-source-1.png",
+          "sha256": "35e5cc0a073ae0c0897cd6157c50a5730deff220ce896e11935ae7897c701950"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-67",
+      "no": "67",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=67",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "締め切り３日前から作るクソゲー",
+        "author": "脳内住民",
+        "genre": "デフォ戦クソゲー",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "可/可",
+        "vote": "1",
+        "ss1ext": "png",
+        "ss2ext": "",
+        "iconext": "",
+        "board": "1514896507",
+        "date1": "01/02",
+        "date2": "",
+        "capa": "4.04MB",
+        "link1": "https://drive.google.com/uc?export=download&id=1SZFZUQFl-jSu0XXuEqKKCEppN3iT06rw",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/67-1.png",
+          "local": "/screenshots/2017-kouhaku/67-source-1.png",
+          "sha256": "38afffb01a9bef0391237a22a90fa091abd509d69684dcce605e2c55a9770300"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/67-1.png",
+          "local": "/screenshots/2017-kouhaku/67-source-1.png",
+          "sha256": "38afffb01a9bef0391237a22a90fa091abd509d69684dcce605e2c55a9770300"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1SZFZUQFl-jSu0XXuEqKKCEppN3iT06rw",
+          "label": "配布：4.04MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-68",
+      "no": "68",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=68",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "ワイン：ザ・マスカレード",
+        "author": "墾田永年私財法",
+        "genre": "ADV",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "○/-(掲示板連絡で転載を許可)",
+        "vote": "0",
+        "ss1ext": "png",
+        "ss2ext": "png",
+        "iconext": "png",
+        "board": "1514944947",
+        "date1": "02/02",
+        "date2": "",
+        "capa": "6.30MB",
+        "link1": "https://drive.google.com/uc?export=download&id=1QPlE7e-UrebdPlfaXnJfwNTNFz14nZNS",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/68-icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/68-1.png",
+          "local": "/screenshots/2017-kouhaku/68-source-1.png",
+          "sha256": "7d9712271c2b7749074830fdaa404fa3ead59cc030992c2e3c839d376245fbbb"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/68-2.png",
+          "local": "/screenshots/2017-kouhaku/68-source-2.png",
+          "sha256": "807ddfc6b54874567e4e29160dff505c2467c999012ec72f216184cf64cb4052"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/68-1.png",
+          "local": "/screenshots/2017-kouhaku/68-source-1.png",
+          "sha256": "7d9712271c2b7749074830fdaa404fa3ead59cc030992c2e3c839d376245fbbb"
+        },
+        {
+          "role": "ss2ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/68-2.png",
+          "local": "/screenshots/2017-kouhaku/68-source-2.png",
+          "sha256": "807ddfc6b54874567e4e29160dff505c2467c999012ec72f216184cf64cb4052"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1QPlE7e-UrebdPlfaXnJfwNTNFz14nZNS",
+          "label": "配布：6.30MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-69",
+      "no": "69",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=69",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": "ab1cadbf4f774eae522e208bb5735c20",
+        "title": "地獄惑星おぼなす",
+        "author": "脂はむ",
+        "genre": "ホラー",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "可/可",
+        "vote": "0",
+        "ss1ext": "png",
+        "ss2ext": "",
+        "iconext": "png",
+        "board": "1514945036",
+        "date1": "",
+        "date2": "",
+        "capa": "",
+        "link1": "",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/69-icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/69-1.png",
+          "local": "/screenshots/2017-kouhaku/69-source-1.png",
+          "sha256": "071e7ef72198563c235119fee3c3e73f55044ef9a4953e109f033e41b650c020"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/69-1.png",
+          "local": "/screenshots/2017-kouhaku/69-source-1.png",
+          "sha256": "071e7ef72198563c235119fee3c3e73f55044ef9a4953e109f033e41b650c020"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-kouhaku-work-70",
+      "no": "70",
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/04_game.html?id=70",
+      "dataSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/games/data.json",
+      "dataRawFile": "source/live/games_data.json.bin",
+      "sourceMetadata": {
+        "time": null,
+        "title": "シルヴド",
+        "author": "◆2aLlGIkY8s",
+        "genre": "信じて",
+        "tkool": "2000",
+        "browser": "0",
+        "dandm": "何/同",
+        "vote": "1",
+        "ss1ext": "png",
+        "ss2ext": "",
+        "iconext": "png",
+        "board": "1514945191",
+        "date1": "01/20",
+        "date2": "",
+        "capa": "25.5MB",
+        "link1": "https://drive.google.com/uc?export=download&id=1tN8HEKNS-9JGh6smU4rIKKPHUMsJDIxh",
+        "link2": "",
+        "yobi1": "",
+        "yobi2": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/70-icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/70-1.png",
+          "local": "/screenshots/2017-kouhaku/70-source-1.png",
+          "sha256": "6569b0ce99270b38aed5014437a3e1e58d1e93a55301ee76439dabcc1c1cf3a5"
+        }
+      ],
+      "screenshotRoles": [
+        {
+          "role": "ss1ext",
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/games/70-1.png",
+          "local": "/screenshots/2017-kouhaku/70-source-1.png",
+          "sha256": "6569b0ce99270b38aed5014437a3e1e58d1e93a55301ee76439dabcc1c1cf3a5"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1tN8HEKNS-9JGh6smU4rIKKPHUMsJDIxh",
+          "label": "配布：25.5MB"
+        }
+      ],
+      "packagesDownloaded": false
+    }
+  ],
+  "bannerSources": [
+    {
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/banner1.png",
+      "local": "/banners/2017-kouhaku/source-1.png",
+      "sha256": "18f3b37111d78407b9dea37f6973f01cfc2c42bb9f8f9ebb31ebfc9a7e5d77fb"
+    },
+    {
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/img/banner2.png?001",
+      "local": "/banners/2017-kouhaku/source-2.png",
+      "sha256": "1acedba1642914a3df455be408d6dac45dabb39c480084d2081b9c6558da6a8d"
+    }
+  ],
+  "hostingInlineScriptsRemoved": 7,
+  "generatedSourceGapNotices": [
+    "main/12_result.html#server-statistics",
+    "main/14_result3.html#server-statistics"
+  ],
+  "serverStatisticsUnavailable": {
+    "pages": [
+      "main/12_result.html",
+      "main/14_result3.html"
+    ],
+    "endpoints": [
+      "main/25_dlcount2.php",
+      "main/22_votecount.php",
+      "main/23_analysis1.php"
+    ],
+    "cause": "Migration serves raw PHP source instead of executable JSON responses; source refers to original administrative database helper. Original database not part of the public archive dataset.",
+    "publicCommentData": "games/comment.json",
+    "publicCommentRows": 269,
+    "generatedCounts": false
+  },
+  "presentationCorrections": [
+    {
+      "page": "main/10_award.html",
+      "source": "../img/games/17-icon.gif",
+      "status": 404,
+      "replacement": "../img/games/17-icon.png",
+      "evidence": "games/data.json record17 iconext and verified PNG payload"
+    }
+  ],
+  "handling": "Direct archival without topic or pixel screening. Preserve all71 JSON records, both comments, original scripts, catalogue/detail template, awards/results and declared image roles. Shared dynamic detail template uses original id query; existing archive CORS headers allow local JSON loading. No game packages downloaded or executed.",
+  "desktopReview": "passed-desktop-only",
+  "desktopEvidence": "desktop-review.json",
+  "runtimeCorrections": "investigation/runtime-corrections.json"
+}

@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/common.css">
+	<link rel="stylesheet" type="text/css" href="../css/game.css">
+	<link rel="icon" type="image/png" href="../img/icon.png">
+	<title>投票結果②</title>
+
+</head>
+<body><script type="text/javascript" charset="utf-8" src="//asumi.shinobi.jp/encount"></script><div style="text-align: center;"><div style="display: inline-block; position: relative; z-index: 9999;"><script type="text/javascript" charset="utf-8" src="//asumi.shinobi.jp/fire?f=44"></script><script type="text/javascript" charset="utf-8" src="/__sys__inactive_message.js"></script></div></div>
+<div class="bodylike">
+
+	<div class="head">
+		<div class="top" id="Top">
+			<h1>投票結果②</h1>
+		</div>
+	</div>
+	
+	<div class="nonline">
+
+		<div id="stickmenu" style="z-index:2">
+			<a href="index.html" class="button1">トップページへ戻る</a>
+			<a href="http://jbbs.shitaraba.net/game/60350/" class="button1">掲示板</a>
+			<a href="http://jbbs.shitaraba.net/bbs/read.cgi/game/60350/1509880850/" class="button1">運営スレ</a>
+			<!--<a class="button4" id="gameAll">全て表示</a>-->
+			<a href="10_award.html" class="button5" style="font-size:90%">表彰会場へ</a>
+            <a href="12_result.html" class="button5" style="font-size:90%">投票結果①へ</a>
+            <a href="13_result2.html" class="button5" style="font-size:90%">投票コメントへ</a>
+			<br>
+            <div style="height:5px;"></div>
+            <a class="button4" id="gameList">作品から絞り込む</a>
+			<a id="before" class="button8">前へ</a>
+			<a id="next" class="button8">次へ</a>
+            <b>表示中の作品</b>No.<a id="viewgn"></a>：<b id="viewgt"></b><br>
+            <div style="height:10px;"></div>           
+            <a id="jump0" class="button9">ss</a>
+            <a id="jump1" class="button9">総合</a>
+            <a id="jump2" class="button9">技術</a>
+            <a id="jump3" class="button9">物語</a>           
+            <a id="jump4" class="button9">演出</a>
+            <a id="jump5" class="button9">斬新</a>
+            <a id="jump6" class="button9">遊びやすさ</a>
+            <a id="jump7" class="button9">ワロス</a>
+            <a id="jump8" class="button9">これひど</a>
+            <a id="jump9" class="button9">いやらしさ</a>
+		</div>
+		<div style="height:20px;"></div>
+
+        <b>ss</b>
+        <div id="vote0">
+			<!--jQuery-->
+        </div>
+        <br> <br>
+        <b>総合</b>
+        <div id="vote1">
+			<!--jQuery-->
+        </div>
+        <br><br>
+        <b>技術</b>
+        <div id="vote2">
+			<!--jQuery-->
+        </div>
+        <br><br>
+        <b>物語</b>
+        <div id="vote3">
+			<!--jQuery-->
+        </div>
+        <br>
+        <br>
+
+        <b>演出</b>
+        <div id="vote4">
+			<!--jQuery-->
+        </div>
+        <br>
+        <br>
+
+        <b>斬新</b>
+        <div id="vote5">
+			<!--jQuery-->
+        </div>
+        <br>
+        <br>
+
+        <b>遊びやすさ</b>
+        <div id="vote6">
+			<!--jQuery-->
+        </div>
+        <br>
+        <br>
+
+        <b>ワロス</b>
+        <div id="vote7">
+			<!--jQuery-->
+        </div>
+        <br>
+        <br>
+
+        <b>これひど</b>
+        <div id="vote8">
+			<!--jQuery-->
+        </div>
+        <br>
+        <br>
+
+        <b>いやらしさ</b>
+        <div id="vote9">
+			<!--jQuery-->
+        </div>
+        <br>
+        <br>
+
+		<!--作品ポップリスト-->
+		<span id="popList">
+			<!--jQuery-->
+		</span>
+
+		<div style="height:15px;"></div>
+		<a href="#Top" class="button2">▲</a><br>
+	</div>
+
+	<div class="nonline">
+		<button class="chbtn" name="btnCh1" style="float:right">ボタン切替</button>
+	</div>
+
+	<div style="height:50px;"></div>	
+	<div class="foot">
+		<div class="bottom">
+			<a>VIPRPG 2017紅白</a>
+		</div>
+	</div>
+</div>
+
+<script src="../js/jquery.js"></script>
+<script src="../js/jquery.cookie.js"></script>
+<script src="../js/jquery.sticky.js"></script>
+<script src="../js/common.js"></script>
+<script type="text/JavaScript"><!--
+
+    //メニュー付いてくる/*
+    $(document).ready(function(){
+      $("#stickmenu").sticky({ topSpacing: 0, center:true,});
+    });
+
+    //読み込み
+    readResult();
+    function readResult(){
+        $.when(
+            $.getJSON('../games/data.json'),
+            $.getJSON('23_analysis1.php'),
+        )
+        .done(function(data, vote){       
+            var num = data[0]['num']; //作品数
+            
+			//ポップリストの生成
+			var listText = '<ul>';
+			for(var j = 0; j <= num; j++){
+				listText += '<li value="' + j + '" id="glist' + j + '">' + data[0][j]['title'] + '</li>';
+			}
+			listText += '</ul>';
+			$('#popList').html(listText);	
+
+
+            for(var i = 0; i <= 9; i++){
+                //作品
+                var str = '<table class="gamelist">';
+                    str += '<tr>';
+                        str += '<td>No.</td>';
+                        str += '<td>日時</td>';
+                        str += '<td>年齢</td>';
+                        str += '<td>性別</td>';
+                        str += '<td>得点</td>';
+                        str += '<td>累計人数</td>';
+                        str += '<td>累計得点</td>';
+                    str += '</tr>';
+
+                for(var j = 0; j <= vote[0][i].length - 1; j++){
+                    //作品名とそのリンク
+                    var gn = Number(vote[0][i][j][0]);
+                    str += '<tr name="game' + gn + '">';
+                        str += '<td>' + gn + '</td>';
+                        str += '<td>' + vote[0][i][j][1] + '</td>';
+                        str += '<td>' + vote[0][i][j][2] + '</td>';
+                        str += '<td>' + vote[0][i][j][3] + '</td>';
+                        str += '<td>' + vote[0][i][j][4] + '</td>';
+                        str += '<td>' + vote[0][i][j][5] + '</td>';
+                        str += '<td>' + vote[0][i][j][6] + '</td>';
+                    str += '</tr>';
+                }
+                str += '</table>';
+                $('#vote' + i).html(str);
+                //重すぎるから初期は非表示
+                $('[name^="game"]').hide();
+            }
+
+
+			
+        });
+    }
+
+	//作品から絞り込む
+	$('[id^="gameList"]').on({
+		//マウスオン
+		'mouseenter': function(){
+			$('#popList').show();
+			$('#popList').insertAfter(this);
+			//要素内移動
+			var position = $('#popList li').eq(idGet()).position().top;
+			$('#popList').scrollTop(position);
+
+		},
+		//マウスオフ
+		'mouseleave': function(){
+			$('#popList').hide();
+		},
+	});
+	$('#popList').on({
+		//マウスオン
+		'mouseenter': function(){
+			$(this).show();
+		},
+		//マウスオフ
+		'mouseleave': function(){
+			$(this).hide();
+		},
+	});
+	//POPLISTの挙動
+	$('body').on({
+		//クリック
+		'click': function(){
+			//データ読み込み、画面更新
+			var viewgn = $(this).index();
+			var viewgt = $(this).text();
+			//$('#popList ').prop('selected');
+			//値変更
+			$('#viewgn').text(viewgn);
+			$('#viewgt').text(viewgt);
+			//表示変更
+			$('[name^="game"]').hide();
+			$('[name="game' + viewgn + '"]').show();
+
+		},
+	},'#popList li');
+
+	$('#gameAll').on('click', function(){
+		$('[name^="game"]').show();
+		$('#viewgn').text('');
+		$('#viewgt').text('');
+	});
+
+	//次へと前へ
+	$('#before').on('click', function(){
+		//現在の番号取得
+		var now = Number($('#viewgn').text());
+		//無表示または0以外なら処理
+		if(now !="" & now != 0){
+			var newnum = now - 1;
+			//値変更
+			$('#viewgn').text(newnum);
+			//作品名取得
+			var title = $('#glist' + newnum).text();
+			$('#viewgt').text(title);
+			//表示変更
+			$('[name^="game"]').hide();
+			$('[name="game' + newnum + '"]').show();
+		}
+	});
+	$('#next').on('click', function(){
+		//現在の番号取得
+		var now = Number($('#viewgn').text());
+		//無表示または0以外なら処理
+		if(now !="" & now != 70){
+			var newnum = now + 1;
+			//値変更
+			$('#viewgn').text(newnum);
+			//作品名取得
+			var title = $('#glist' + newnum).text();
+			$('#viewgt').text(title);
+			//表示変更
+			$('[name^="game"]').hide();
+			$('[name="game' + newnum + '"]').show();
+		}
+	});
+
+    //ジャンプ
+    $('[id^="jump"]').on('click', function(){
+        var num = $(this).attr('id')[4];
+        var target = $('#vote' + num);
+        // 移動先を数値で取得
+        var position = target.offset().top;
+        // スムーススクロール
+        $('html, body').animate({scrollTop:position}, 400, 'swing');
+    });
+
+	$(function(){
+		// #で始まるアンカーをクリックした場合に処理
+		$('a[href^="#"]').on('click', function(){
+			// スクロールの速度
+			var speed = 400; // ミリ秒
+			// アンカーの値取得
+			var href= $(this).attr("href");
+			// 移動先を取得
+			var target = $(href == "#" || href == "" ? 'html' : href);
+			// 移動先を数値で取得
+			var position = target.offset().top;
+			// スムーススクロール
+			$('html, body').animate({scrollTop:position}, speed, 'swing');
+			return false;
+		});
+	});
+
+--></script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"1b464aad4cb14e2ea25b2030f823e83c","spa":2}' crossorigin="anonymous"></script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4da8bb8bcacaef2',t:'MTc5MjUyNTc2Ng=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

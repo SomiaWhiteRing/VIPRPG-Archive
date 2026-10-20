@@ -1,0 +1,97 @@
+{
+  "festivalId": "2017-kouhaku",
+  "reviewedAt": "2026-10-21",
+  "scope": "desktop-only",
+  "method": "Read-only DOM/resource geometry plus actual clicks, native mouse/wheel, keyboard and browser navigation. No topic/pixel screening.",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "organized": {
+    "details": 71,
+    "brokenImages": 0,
+    "overflow": 0,
+    "initialPending": [
+      "01",
+      "32",
+      "58"
+    ],
+    "pendingResolved": true,
+    "viewer": {
+      "next": true,
+      "closeButton": true,
+      "escape": true,
+      "alternateWidth": 640
+    },
+    "home": {
+      "workLinks": 71,
+      "icons": 71,
+      "banners": 2,
+      "loadedImagesAfterMiddleBottomScroll": 73,
+      "pending": 0,
+      "broken": 0,
+      "hashExpansionPassed": true,
+      "lastEntryNavigation": "2017-kouhaku-work-70",
+      "returnExpanded": true
+    }
+  },
+  "original": {
+    "documents": 7,
+    "sharedParameterizedDetailTemplate": "main/04_game.html?id=0..70",
+    "actualSandboxDirectoryDetailReturnClicks": 71,
+    "verifiedRanges": [
+      [
+        0,
+        23
+      ],
+      [
+        24,
+        70
+      ]
+    ],
+    "renderedIdsAndMainScreenshotIdsMatch": true,
+    "clientWidth": 1168,
+    "overflow": 0,
+    "pendingVisibleImages": 0,
+    "brokenVisibleImages": 0,
+    "hiddenUninitializedPreview": {
+      "id": "pop",
+      "width": 0,
+      "excludedFromVisibleImageFailures": true
+    },
+    "award": {
+      "images": 28,
+      "brokenVisibleImages": 0
+    },
+    "publicVotingComments": {
+      "path": "main/13_result2.html",
+      "renderedClass": "base3",
+      "blocks": 269,
+      "sourceRows": 269,
+      "overflow": 0
+    },
+    "statisticsNotices": [
+      {
+        "path": "main/12_result.html",
+        "noticeVisible": true,
+        "disabledControls": 25
+      },
+      {
+        "path": "main/14_result3.html",
+        "noticeVisible": true,
+        "disabledControls": 1
+      }
+    ],
+    "hover": {
+      "id": "0",
+      "before": "../img/games/0-1.png",
+      "over": "../img/games/0-2.png",
+      "out": "../img/games/0-1.png",
+      "width": 640
+    },
+    "runtimeEvidence": "investigation/runtime-corrections.json",
+    "uiToolInterruption": "Second batch exceeded tool timeout before leaving23; after connection reset, actual state was inspected and24..70 were checked in smaller batches. Unreturned work was not counted."
+  },
+  "externalServerFunctions": "No vote/forum submission or game-package download/execution; PHP-dependent original database statistics remain unavailable and visibly labelled.",
+  "contentScreening": false
+}

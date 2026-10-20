@@ -1,0 +1,72 @@
+{
+  "sourceScriptsPreservedAsRaw": true,
+  "cookie": {
+    "before": "Uncaught SecurityError when original jquery.cookie reads document.cookie in allow-scripts-only opaque sandbox.",
+    "correction": "Derived cookie wrapper delegates original API, using ephemeral per-document string storage only on SecurityError.",
+    "limitations": "Source remember/mark preferences are not persisted across archive document navigations.",
+    "sandboxPermissionsUnchanged": "allow-scripts"
+  },
+  "jsonTransport": {
+    "before": {
+      "sourceRelativeUrl": "../games/data.json",
+      "requestedWith": "XMLHttpRequest",
+      "preflightMethod": "OPTIONS",
+      "preflightStatus": 400,
+      "origin": "null",
+      "standaloneDirectoryRendered": 71,
+      "sandboxDirectoryRendered": 0
+    },
+    "correction": "Derived jQuery sets crossDomain:true so its URL-origin heuristic does not add X-Requested-With inside an opaque sandbox.",
+    "after": {
+      "jsonGetResponses": [
+        200,
+        200
+      ],
+      "requestedWithHeaderAbsent": true,
+      "preflightObserved": false,
+      "sandboxDirectoryRendered": 71,
+      "publicArchiveCorsHeader": "Access-Control-Allow-Origin:* (existing)"
+    }
+  },
+  "awardIcon": {
+    "page": "main/10_award.html",
+    "original": "../img/games/17-icon.gif",
+    "status": 404,
+    "corrected": "../img/games/17-icon.png",
+    "evidence": "Official games/data.json record17 iconext=png; actual PNG capture verified."
+  },
+  "statistics": {
+    "publicCommentRows": 269,
+    "commentPageRenderedClass": "base3",
+    "renderedCommentBlocks": 269,
+    "unavailablePages": [
+      "main/12_result.html",
+      "main/14_result3.html"
+    ],
+    "reason": "API requests return PHP source rather than JSON; code refers to original administrative database helper. Original database was not requested.",
+    "noticeVisible": true,
+    "disabledControls": [
+      25,
+      1
+    ],
+    "generatedCounts": false
+  },
+  "hiddenPreview": {
+    "sourceEmptyImageId": "pop",
+    "renderedWidth": 0,
+    "behavior": "Original hover preview has no source until hovered; excluded from visible broken-image counts."
+  },
+  "uiToolRecovery": {
+    "firstCompletedRange": [
+      0,
+      23
+    ],
+    "nextBatchTimedOutBeforeLeaving23": true,
+    "connectionReset": true,
+    "resumedVerifiedRange": [
+      24,
+      70
+    ],
+    "unreturnedBatchNotCountedAsPassed": true
+  }
+}

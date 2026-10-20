@@ -1,0 +1,96 @@
+<?php
+    //パラメータ取得
+    if(isset($_GET['term'])) {
+		$term = $_GET['term'];
+    }else{
+        $term = 0;
+    }
+    if(isset($_GET['start'])) {
+		$start = $_GET['start'];
+    }else{
+        $start = '';
+    }
+    if(isset($_GET['end'])) {
+		$end = $_GET['end'];
+    }else{
+        $end = '';
+    }
+    if(isset($_GET['distinct'])) {
+		$dis = $_GET['distinct'];
+    }else{
+        $dis = 1;
+    }
+
+    //期間
+    $period = '';
+    if($term == 0){
+        //$period = '';
+    }else{
+        if($start !== ''){
+            $period .= 'AND time >= \'' . $start . ' 00:00:00\'';
+        }
+        if($end !== ''){
+            $period .= 'AND time < \''. $end . ' 23:59:59\'';
+        }
+    }
+
+    //IP重複
+    if($dis == 0){
+        $distinct = '';
+    }else{
+        $distinct = 'DISTINCT';
+    }
+
+	//DB接続
+	require_once '../kanri/php/getDB.php';
+	if(getDB()){
+
+        //あらかじめ全ての関数に0をいれておく
+        for($j = 0; $j < 75; $j++){
+            for($i = 0; $i < 30; $i++){
+                $data[$j][$i] = 0;
+            }
+        }
+
+
+		$db = getDB();
+		//テーブル名指定
+		$tb_name = 'vote'; //使っていないけど一応
+
+        for($i = 0; $i <= 9; $i++){
+            $sql = "SELECT no, SUM(ballot) AS point, COUNT(ballot) AS count FROM (SELECT $distinct no, v$i AS ballot, ip2 FROM vote WHERE v$i != 0 $period) as view GROUP BY no ORDER BY point DESC";
+            
+            //クエリ発行（vote）
+            $st = $db -> query($sql);
+            $k = 0;
+            $rank = 1;
+            $rankadd = 1;
+		    while($row = $st -> fetch()){
+                $data[$row['no']][$i] = intval($row['point']);
+                $data[$row['no']][$i + 10] = intval($row['count']);
+
+                if($k !== 0){
+                    //ひとつ前の得点と同じか確認
+                    if($data[$row['no']][$i] == $tmp){
+                        //同じだったらrankは変えず、rankaddに+1
+                        $rankadd++;
+                    }else{
+                        //違ったらrankにrankaddを足し、rankaddは1に戻す
+                        $rank += $rankadd;
+                        $rankadd = 1;
+                    }
+                }
+                //rank代入
+                $data[$row['no']][$i + 20] = $rank;
+                $tmp = $data[$row['no']][$i];
+                $k++;
+
+            }
+        }
+		//終了
+        $db=NULL;
+        
+        header('Content-type: application/json charset=UTF-8');
+        echo json_encode($data);
+    }
+?>
