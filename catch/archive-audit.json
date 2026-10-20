@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-10-20T17:00:21.657Z",
+  "generatedAt": "2026-10-20T18:07:49.806Z",
   "scope": "Local inventory; field presence is not source verification or completeness.",
   "totals": {
     "festivals": 74,
     "festivalsWithBanners": 63,
     "works": 4235,
-    "detailPages": 4107,
-    "disabledDetails": 127,
+    "detailPages": 4136,
+    "disabledDetails": 98,
     "restrictedDetails": 7,
     "withComments": 3141,
-    "withScreenshots": 3358,
-    "withDownload": 2763,
-    "withSource": 3680,
-    "referencedAssets": 7844,
+    "withScreenshots": 3357,
+    "withDownload": 2793,
+    "withSource": 3712,
+    "referencedAssets": 7843,
     "assetIssues": 0
   },
   "festivals": [
@@ -449,26 +449,26 @@
       "withScreenshots": 35,
       "withDownload": 28,
       "withSource": 35,
-      "cachedHtmlFiles": 99,
+      "cachedHtmlFiles": 101,
       "summaries": [
         "catch/2018-gw/2018-gw-scrape-summary.json"
       ]
     },
     {
       "id": "2018-gw-2",
-      "dataSha256": "b5c5a044c0824bf216dbace62a63a38344e79368150ac3c6a96f0511f4dbea0b",
+      "dataSha256": "27af40a13d31166131c1db2f124680728e18b95f247784ee89db0efe1ad14d4f",
       "listedSourceUrl": "https://vipkohaku.x.fc2.com/2018GW2/index.html",
       "works": 32,
       "banners": 1,
-      "detailPages": 3,
-      "disabledDetails": 29,
+      "detailPages": 32,
+      "disabledDetails": 0,
       "restrictedDetails": 0,
       "withAuthor": 32,
       "withComments": 2,
-      "withScreenshots": 3,
-      "withDownload": 0,
-      "withSource": 0,
-      "cachedHtmlFiles": 6,
+      "withScreenshots": 2,
+      "withDownload": 30,
+      "withSource": 32,
+      "cachedHtmlFiles": 55,
       "summaries": [
         "catch/2018-gw-2/2018-gw-2-scrape-summary.json"
       ]

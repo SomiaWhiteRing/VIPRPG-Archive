@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2018-gw-2",
+  "activeFestival": "2018-kouhaku",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -1987,6 +1987,32 @@
         "catch/2018-gw/investigation/local-http-payloads.json"
       ],
       "notes": "从2021 GW官方历届链接确认FC2镜像；日本节点分别以curl和Node复核仍连接失败，另存其2025年快照向FC2禁止页的重定向证据。找到运行中Clash命名管道控制API，直接切换既有核心，按日本源站／香港存档分批并核实出口；无需启动旧临时代理。香港取得原Geocities的2019-03-30／31目录和35详情、91图片，共127份原始载荷，全部SHA-256及CDX SHA-1一致。35既有ID和编号保留，17号题名只修正HTML实体多重转义；原目录与详情共同确认，另核验官方镜像目录。35项元数据、70项完整作者／管理人留言逐项比对；02号重复ジャンル行完整保留。恢复35详情（重新开放旧5项禁用详情）、49截图、29源图标和28项共29条配布地址及1横幅；旧28截图全部逐字节对应，六项原无图标如实保留，4份BMP按实际格式保存。原貌127文件、36 HTML、244静态引用和28悬停引用，无缺失或外部自动加载。35末项误指未列目录的36号边界链接停用，原始缓存不变。比对发现3条相对悬停路径未跟随jpeg／伪png的真实扩展名，共用修复已独立提交856fb9a3，06 JPEG和28 BMP悬停往返及完整加载验证。35整理详情、36原貌文档、实际沙箱目录进入／返回、相邻导航、查看器切换／关闭／Esc、首页35项／29图标／1横幅与末项往返均通过桌面验收；一项首读BMP延迟随后正常。206展示文件HTTP载荷与本地SHA一致，构建4176页通过，未审看题材或像素内容、未新增受限、未下载或运行游戏包。"
+    },
+    {
+      "festivalId": "2018-gw-2",
+      "reviewedAt": "2026-10-21",
+      "dataSha256": "27af40a13d31166131c1db2f124680728e18b95f247784ee89db0efe1ad14d4f",
+      "works": 32,
+      "screenshotFiles": 3,
+      "introductionPagesCaptured": 2,
+      "sourceDetailGaps": 30,
+      "imageGaps": 1,
+      "status": "reviewed-with-exceptions",
+      "sourceEvidence": [
+        "catch/2018-gw-2/recovery.json",
+        "catch/2018-gw-2/source-comparison.json",
+        "catch/2018-gw-2/source/archive/manifest.json",
+        "catch/2018-gw-2/source/resources/manifest.json",
+        "catch/2018-gw-2/investigation/source-network-review.json",
+        "catch/2018-gw-2/investigation/public-backup-review.json",
+        "catch/2018-gw-2/investigation/old-gallery-reconciliation.json",
+        "catch/2018-gw-2/investigation/replay-closure.json"
+      ],
+      "desktopEvidence": [
+        "catch/2018-gw-2/desktop-review.json",
+        "catch/2018-gw-2/investigation/local-http-payloads.json"
+      ],
+      "notes": "完整校对32项目录，原介绍仅取回01、05；其余30份介绍在已查原站／官方镜像CDX中未取得，明确保留待查，不算原文恢复。日本节点复核原站、FC2镜像均连接失败；社区祭典索引另列公开Mega备份，已只读核对29个游戏ZIP的元数据，没有网站文件，未下载游戏包。香港取得11份原HTML捕获及43图片，54份逻辑载荷全部核对SHA-256／CDX SHA-1；一份目录CDX对应4195字节gzip载荷，解压后与21047字节正文完全相同。9份EUC-JP与2份Shift_JIS分别正确解码，解决旧缓存乱码。保留32既有ID、编号和题名含义，目录元数据及30条配布入口逐项比对；两份完整作者留言直接归档，无新增受限、无主办留言编造。05目录／早期介绍的类型与配信两处差异都保留，整理版以目录信息为主。恢复32图标、3张实证截图与1横幅；横幅和旧文件字节一致。旧4画廊引用中3份对应本次来源，13号旧GIF来源未能核验，原文件保留；13.html旧缓存实为Internet Archive门户，排除出有效详情。05的第二张切换图仍未取得，保留正常图与明确缺口说明。30份待查详情以原介绍布局提供完整编号、目录元数据、图标、配布／感想入口及固定未取得说明，并非内容受限。原貌79文件／36HTML（6份来源页面、30份明确生成的待查页），182静态引用加3悬停引用无缺失或外部自动加载。窄菜单384px说明移出，1130px原标志按945px主框架缩放；菜单原base target=cont在移除base时丢失，造成目录覆盖菜单本身，共用修复592ec38e已单独提交。32整理详情、32原貌详情及首页／目录／菜单桌面检查通过；实际沙箱菜单保留、目录进入主框架、待查13进入及返回、真实01进入均验证，01悬停、整理查看器和首页末项往返通过。115展示文件HTTP/SHA一致，构建4206页、lint和数据校验通过。未审看条目题材或像素内容，未下载或运行游戏包。"
     }
   ],
   "originalViewsReviewed": [
@@ -2440,6 +2466,13 @@
       "evidence": [
         "catch/2018-gw/original-view.json",
         "catch/2018-gw/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2018-gw-2",
+      "evidence": [
+        "catch/2018-gw-2/original-view.json",
+        "catch/2018-gw-2/desktop-review.json"
       ]
     }
   ],

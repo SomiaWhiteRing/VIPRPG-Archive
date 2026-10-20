@@ -1,0 +1,80 @@
+{
+  "proxyControl": "Existing Mihomo named-pipe HTTP API; independent Japan-source and Hong-Kong-archive batches on port7897",
+  "sourceRegion": "Japan",
+  "sourceTrace": {
+    "loc": "JP",
+    "colo": "NRT"
+  },
+  "archiveRegion": "Hong Kong",
+  "originalProbes": [
+    {
+      "url": "http://3rd.geocities.jp/viprpg2018/",
+      "status": 0,
+      "error": "ECONNRESET"
+    },
+    {
+      "url": "https://vipkohaku.x.fc2.com/2018GW2/index.html",
+      "status": 0,
+      "error": "ECONNRESET"
+    },
+    {
+      "url": "http://vipkohaku.x.fc2.com/2018GW2/index.html",
+      "status": 0,
+      "error": "UND_ERR_SOCKET"
+    }
+  ],
+  "candidateProbe": {
+    "url": "https://vipkohaku.x.2nt.com/2018GW2/index.html",
+    "status": 0,
+    "error": "ECONNRESET",
+    "identityNotConfirmed": true
+  },
+  "wikiProbe": {
+    "url": "https://w.atwiki.jp/vip_rpg/pages/502.html",
+    "nodeStatus": 403,
+    "browserPublicPageRead": true,
+    "publicBackupLinkVerified": true
+  },
+  "cdxProvenance": {
+    "original": "original-cdx.json",
+    "mirror": "mirror-cdx.json",
+    "mirrorDerivedFrom": "catch/2018-gw/investigation/current-cdx.json",
+    "inventory": "original-timemap.bin",
+    "inventoryIsColumnReorderedCdx": true
+  },
+  "permanentAbsenceNotEstablished": true,
+  "directDetailAndImageProbes": {
+    "proxyRegion": "Japan",
+    "nodeMatchesPreviousSuccessfulHelper": true,
+    "redirectMode": "manual",
+    "browserUserAgent": true,
+    "rows": [
+      {
+        "url": "https://vipkohaku.x.fc2.com/2018GW2/works/01.html",
+        "status": 0,
+        "error": "ECONNRESET"
+      },
+      {
+        "url": "https://vipkohaku.x.fc2.com/2018GW2/works/13.html",
+        "status": 0,
+        "error": "ECONNRESET"
+      },
+      {
+        "url": "http://3rd.geocities.jp/viprpg2018/works/13.html",
+        "status": 301,
+        "location": "https://info-geocities.yahoo.co.jp:443/viprpg2018/works/13.html",
+        "file": "deep-probe-2.bin",
+        "bytes": 1,
+        "sha256": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068"
+      },
+      {
+        "url": "http://3rd.geocities.jp/viprpg2018/works/img/05-ss2.png",
+        "status": 301,
+        "location": "https://info-geocities.yahoo.co.jp:443/viprpg2018/works/img/05-ss2.png",
+        "file": "deep-probe-3.bin",
+        "bytes": 1,
+        "sha256": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068"
+      }
+    ]
+  }
+}

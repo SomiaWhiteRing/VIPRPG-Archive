@@ -1,0 +1,28 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>VIPRPG52018GW</title>
+<script>
+          addEventListener('message',function(event){
+            var menu=document.querySelector("frame[name=\"menu\"]"),main=document.querySelector("frame[name=\"cont\"]");
+            if(!menu||!main||event.source!==menu.contentWindow||event.data?.type!=='archive-main-navigation')return;
+            var url=new URL(event.data.url,location.href);
+            if(url.origin===location.origin&&url.pathname.startsWith(location.pathname.slice(0,location.pathname.lastIndexOf('/')+1)))main.src=url.href;
+          });
+        </script></head>
+<frameset cols="120,*"> 
+  <frame src="viprpg_files/bbsmenu.html" name="menu">
+  <frame src="viprpg_files/index2.html" name="cont">
+<noframes>&lt;body bgcolor="#FFFFFF"&gt;
+VIPRPG52018GWは、生まれたばかりの掲示板です。応援して下さいね☆&lt;br&gt;
+お友達にもここを 教えてあげて下さいね。&lt;br&gt;</noframes>
+</frameset>
+
+
+
+
+
+</html><!--
+var fc2footerparam = 'charset=' + encodeURIComponent(document.charset ? document.charset : document.characterSet) + '&url=' + encodeURIComponent(document.location) + '&service=1&r=' + Math.floor(Math.random()*99999999999);
+var fc2footertag = '<' + 'script src="//adult.vip.chps-api.fc2.com/apis/footer/?' + fc2footerparam + '" charset="UTF-8"><' + '/script>';
+document.write(fc2footertag);
+//--><!-- FC2, inc.--><!-- FC2, inc.-->

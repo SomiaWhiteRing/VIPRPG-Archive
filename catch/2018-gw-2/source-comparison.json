@@ -1,0 +1,56 @@
+{
+  "festivalId": "2018-gw-2",
+  "method": "Structural metadata, full available author-comment text and byte/hash comparison; no topic or pixel screening",
+  "rawPayloadsVerified": 54,
+  "htmlCaptures": 11,
+  "sourceImages": 43,
+  "allCdxDigestsVerified": true,
+  "oneDigestUsesGzipWire": true,
+  "sourceEncodings": {
+    "euc-jp": 9,
+    "Shift_JIS": 2
+  },
+  "imageFormats": {
+    "png": 41,
+    "gif": 1,
+    "jpg": 1
+  },
+  "works": 32,
+  "stableIdsAndNumbers": 32,
+  "sourceDetails": 2,
+  "fullAuthorCommentsCompared": 2,
+  "hostCommentsInvented": 0,
+  "explicitSourceGapPages": 30,
+  "sourceGapBodiesInvented": 0,
+  "iconReferences": 32,
+  "screenshots": 3,
+  "legacyGalleryRoles": {
+    "screenshot": 3,
+    "unmatched": 1
+  },
+  "legacyBannerBytesMatch": true,
+  "downloadEntries": 30,
+  "downloadLinks": 30,
+  "missingHoverImage": [
+    {
+      "no": "05",
+      "sourceUrl": "http://3rd.geocities.jp/viprpg2018/works/img/05-ss2.png",
+      "role": "source-hover-image"
+    }
+  ],
+  "oldPortalCacheExcluded": "13.html is an Internet Archive portal, not an introduction document",
+  "publicBackup": "29 game ZIP files; metadata inspected without downloading packages",
+  "packagesDownloaded": false,
+  "catalogueMetadataCompared": 32,
+  "catalogueMetadataPrimary": true,
+  "detailMetadataDifferencesRetained": [
+    {
+      "field": "category",
+      "preserved": true
+    },
+    {
+      "field": "streaming",
+      "preserved": true
+    }
+  ]
+}

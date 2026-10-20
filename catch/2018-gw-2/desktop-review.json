@@ -1,0 +1,135 @@
+{
+  "festivalId": "2018-gw-2",
+  "reviewedAt": "2026-10-21",
+  "scope": "desktop-only",
+  "method": "Read-only DOM geometry, status/resource state and actual native CDP mouse input; no topic or pixel screening.",
+  "organized": {
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    },
+    "details": 32,
+    "realIntroductionBodies": 2,
+    "explicitCatalogueOnlyDetails": 30,
+    "renderedTextSectionsAllNonempty": true,
+    "screenshots": 3,
+    "brokenImages": [],
+    "overflow": [],
+    "metadata05RecheckedAfterRebuild": true,
+    "viewer": {
+      "next": true,
+      "closeButton": true,
+      "escape": true,
+      "alternateImage": {
+        "complete": true,
+        "width": 640,
+        "height": 480
+      }
+    },
+    "home": {
+      "uniqueWorks": 32,
+      "icons": 32,
+      "banners": 1,
+      "allLoaded": true,
+      "hashExpansionPassed": true,
+      "verifiedLastItemNavigation": true,
+      "returnExpanded": true
+    }
+  },
+  "original": {
+    "viewport": {
+      "width": 1183,
+      "height": 638
+    },
+    "htmlPages": 36,
+    "capturedSourcePages": 6,
+    "generatedSourceGapPages": 30,
+    "detailsChecked": 32,
+    "brokenImages": [],
+    "overflow": [],
+    "generatedSkeletonRows": 9,
+    "sourceGapMarkersVerified": 30,
+    "frames": {
+      "menu": "menu",
+      "main": "cont",
+      "cols": "120,*",
+      "sandbox": "allow-scripts"
+    },
+    "mainFrame": {
+      "clientWidth": 945,
+      "scrollWidth": 945
+    },
+    "menuFix": {
+      "beforeNoticeHeight": 384,
+      "afterNotices": 0,
+      "beforeCatalogueY": 542.71875,
+      "afterCatalogueY": 107.71875
+    },
+    "logoFix": {
+      "naturalWidth": 1130,
+      "beforeScrollWidth": 1138,
+      "clientWidth": 945,
+      "afterRenderedWidth": 928.984375,
+      "afterScrollWidth": 945
+    },
+    "navigation": [
+      "menu catalogue enters cont while menu stays bbsmenu",
+      "catalogue to explicit gap13 in cont",
+      "gap13 back catalogue",
+      "catalogue to real introduction01 in cont"
+    ],
+    "baseTargetFix": "592ec38e",
+    "sourceHover01": {
+      "before": "img/01-ss1.png",
+      "over": "img/01-ss2.png",
+      "out": "img/01-ss1.png"
+    },
+    "sourceMissingHover05": {
+      "normalImageLoaded": true,
+      "unavailableOverHandlerRemoved": true,
+      "visibleGapNotice": true
+    },
+    "finalConsoleErrors": []
+  },
+  "remainingSourceGaps": [
+    "02",
+    "03",
+    "04",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32"
+  ],
+  "remainingImageGaps": [
+    {
+      "no": "05",
+      "sourceUrl": "http://3rd.geocities.jp/viprpg2018/works/img/05-ss2.png",
+      "role": "source-hover-image"
+    }
+  ],
+  "publicBackupPackagesDownloaded": false,
+  "contentScreening": false
+}
