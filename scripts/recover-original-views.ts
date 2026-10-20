@@ -7,6 +7,15 @@ import type { WorkEntry } from "../src/lib/types";
 import { rewriteSummer2012Source } from "./source-2012-summer-view";
 
 const configurations: Record<string, { base: string; entry?: string; manifests: string[]; seeds: Record<string, string>; seedUrls?: Record<string, string>; cgiProfile?: boolean; encoding?: string; encodingOverrides?: Record<string, string>; liveSource?: boolean; disabledLocalLinks?: string[]; externalResources?: Record<string, string>; preserveExternalExtensions?: string[]; frames?: { menuPage: string; menuName: string; mainName: string } }> = {
+  "2023-gw": {
+    base: "https://viprpg2023gw.neocities.org/",
+    manifests: ["source/live/manifest.json", "source/resources/manifest.json"],
+    seeds: {},
+    encoding: "utf-8",
+    liveSource: true,
+    disabledLocalLinks: ["entry37.html"],
+    preserveExternalExtensions: [".zip", ".rar", ".7z", ".exe"],
+  },
   "2024-summer": {
     base: "https://vipsummer2024.x.2nt.com/",
     manifests: ["source/live/manifest.json", "source/resources/manifest.json"],
@@ -382,7 +391,7 @@ async function main() {
       sharedHeaderTargets.push(local ? `/original-pages/${id}/${local}${url.search}${url.hash}` : url.href);
     });
   }
-  if (["2024-summer", "2024-kuradashifestival", "2024-kouhaku", "2024-gw", "2025-gw", "2025-summer"].includes(id) || id === "2006-kouhaku" || id === "2012-toppuu-festival" || id === "2011-toppatsu-festival" || id === "2008-jisaku-battle-festival" || id === "2010-gw" || id === "2010-kouhaku" || id === "2010-summer") config.externalResources = recovery.originalResources;
+  if (["2023-gw", "2024-summer", "2024-kuradashifestival", "2024-kouhaku", "2024-gw", "2025-gw", "2025-summer"].includes(id) || id === "2006-kouhaku" || id === "2012-toppuu-festival" || id === "2011-toppatsu-festival" || id === "2008-jisaku-battle-festival" || id === "2010-gw" || id === "2010-kouhaku" || id === "2010-summer") config.externalResources = recovery.originalResources;
   const sourceDetailGapPaths = new Set<string>((recovery.sourceDetailGaps ?? []).map((gap: { sourcePath: string }) => gap.sourcePath));
   const unavailableSourcePagePaths = new Set<string>((recovery.unavailableSourcePages ?? []).map((gap: { sourcePath: string }) => gap.sourcePath));
   const previousMissing: Array<{ url: string; requestedUrl?: string; error: string }> = JSON.parse(await fs.readFile(`${root}/original-view.json`, "utf8").catch(() => "{}")).missingResources ?? [];
@@ -905,6 +914,10 @@ async function main() {
         if (id === "2006-summer" && local === "fure-m.htm") {
           $("head").append('<style data-archive-menu-spacing>body>div[style*="absolute"]>p{margin:0;line-height:20px}</style>');
           compatibilityFixes.push({ page: local, change: "Remove default paragraph margins in the menu absolute-positioned rows. A 56px high layer at z-index 28 overlapped the No.17 and No.18 links at z-index 13; a 20px line box follows the source row spacing and restores pointer access." });
+        }
+        if (id === "2023-gw" && /^entry\d+\.html$/.test(local)) {
+          $("head").append('<style data-archive-desktop-image-fit>#entry td[colspan="2"] img{max-width:calc(100vw - 32px);height:auto}</style>');
+          compatibilityFixes.push({ page: local, change: "Constrain source screenshot cells to the desktop viewport without changing image bytes or aspect ratio; pages 11, 19 and 35 otherwise overflow with 1280px screenshots." });
         }
         // Opaque sandbox origins prevent the legacy menu from navigating its sibling frame.
         if (id === "2024-summer" && $("#HEADER").length) {

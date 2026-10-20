@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2023-gw",
+  "activeFestival": "2023-kouhaku",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -1459,6 +1459,44 @@
         "catch/2024-summer/desktop-review.json"
       ],
       "notes": "日本源站52份HTML与161份资源原始响应全部归档、校验；46条目录含00样例，保留既有ID、编号和题名，样例原页异名另存。恢复63张实际显示／悬停截图、46处图标引用、作者和主办原文留言、38项共42个下载链接与3条不同源横幅；10处通用图标及00、34、39源站示例／占位截图按来源保留，不生成替代图。留言包含h2之间的直接文本节点，目录缩略图独立保留。原貌213文件、490本地引用无缺失，无外部资源自动加载；保留原动态页头、页脚并移除托管广告。03、19、28宽幅截图按比例限制在桌面视口内，原始字节不变；页头_parent跨不透明沙箱跳转改为验证来源窗口及原菜单六地址的消息转发，沙箱权限不变。46整理详情及52原貌文档桌面通过；用户确认菜单修复有效，浏览器观察原貌目录94行对应46项。游戏包未下载。"
+    },
+    {
+      "festivalId": "2023-gw",
+      "reviewedAt": "2026-10-20",
+      "dataSha256": "b9f343a8b7fcbe4c025a95e01cb9d6af6ff9af5d0cfbd79e954ffe086d127b4e",
+      "status": "reviewed",
+      "works": 37,
+      "screenshotFiles": 55,
+      "screenshotReferences": 55,
+      "iconFiles": 37,
+      "sourceGenericEngineIconRows": 12,
+      "sourceSampleScreenshotRows": [
+        "00",
+        "15",
+        "34"
+      ],
+      "downloadEntries": 33,
+      "originalCatalogueCompleteness": "verified-against-current-official-37-item-catalogue-and-all-source-details",
+      "responsivePreviewFiles": 31,
+      "responsivePreviewReferences": 33,
+      "metadataDifferences": 3,
+      "outstandingSourceDetails": 0,
+      "outstandingImageSourceUrls": 0,
+      "outstandingScreenshotRows": 0,
+      "outstandingOtherResources": 0,
+      "outstandingAuxiliaryPages": 0,
+      "packageBytesValidated": false,
+      "sourceEvidence": [
+        "catch/2023-gw/recovery.json",
+        "catch/2023-gw/source-comparison.json",
+        "catch/2023-gw/investigation/metadata-source-verification.json",
+        "catch/2023-gw/investigation/responsive-image-plan.json",
+        "catch/2023-gw/investigation/boundary-navigation.json"
+      ],
+      "desktopEvidence": [
+        "catch/2023-gw/desktop-review.json"
+      ],
+      "notes": "日本源站38份HTML与117份资源原始响应全部归档、校验；37项含00样例，既有ID、编号和题名保持不变。恢复55张实际显示／悬停截图、37处图标引用、原文留言、33个下载入口与2条当前祭典嵌入横幅；21号JPEG悬停图补回1张，目录31份AVIF格式预览对应33处引用单独保留，不重复加入画廊。06、24源站未记作者，明确标记省略；05工具、27作者、30类型的目录／详情差异同时保留，引用符号不擅自删去。AVIF共用识别及本地引用修复独立提交5b535f57。原貌155文件、586本地引用含33处srcset，无缺失或外部自动加载；19处内嵌图片含2条本祭横幅与17条历届横幅。11、19、35宽幅截图在桌面按比例缩放，原图字节不变；末尾不存在的37号NEXT经源站404和香港CDX无记录核对后停用。37整理详情及38原貌文档桌面通过，167处图片最终加载正常；翻页、返回、JPEG悬停及查看器已验证。游戏包未下载。"
     }
   ],
   "originalViewsReviewed": [
@@ -1793,6 +1831,13 @@
       "evidence": [
         "catch/2024-summer/original-view.json",
         "catch/2024-summer/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2023-gw",
+      "evidence": [
+        "catch/2023-gw/original-view.json",
+        "catch/2023-gw/desktop-review.json"
       ]
     }
   ],

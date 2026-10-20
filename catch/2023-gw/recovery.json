@@ -1,0 +1,1889 @@
+{
+  "festivalId": "2023-gw",
+  "originalBase": "https://viprpg2023gw.neocities.org/",
+  "liveSource": true,
+  "proxyRegion": "Japan",
+  "sourceManifests": [
+    "source/live/manifest.json",
+    "source/resources/manifest.json"
+  ],
+  "originalResources": {
+    "https://viprpg2023gw.neocities.org/": "index.html",
+    "https://viprpg2023gw.neocities.org/entry00.html": "entry00.html",
+    "https://viprpg2023gw.neocities.org/entry00": "entry00.html",
+    "https://viprpg2023gw.neocities.org/entry01.html": "entry01.html",
+    "https://viprpg2023gw.neocities.org/entry01": "entry01.html",
+    "https://viprpg2023gw.neocities.org/entry02.html": "entry02.html",
+    "https://viprpg2023gw.neocities.org/entry02": "entry02.html",
+    "https://viprpg2023gw.neocities.org/entry03.html": "entry03.html",
+    "https://viprpg2023gw.neocities.org/entry03": "entry03.html",
+    "https://viprpg2023gw.neocities.org/entry04.html": "entry04.html",
+    "https://viprpg2023gw.neocities.org/entry04": "entry04.html",
+    "https://viprpg2023gw.neocities.org/entry05.html": "entry05.html",
+    "https://viprpg2023gw.neocities.org/entry05": "entry05.html",
+    "https://viprpg2023gw.neocities.org/entry06.html": "entry06.html",
+    "https://viprpg2023gw.neocities.org/entry06": "entry06.html",
+    "https://viprpg2023gw.neocities.org/entry07.html": "entry07.html",
+    "https://viprpg2023gw.neocities.org/entry07": "entry07.html",
+    "https://viprpg2023gw.neocities.org/entry08.html": "entry08.html",
+    "https://viprpg2023gw.neocities.org/entry08": "entry08.html",
+    "https://viprpg2023gw.neocities.org/entry09.html": "entry09.html",
+    "https://viprpg2023gw.neocities.org/entry09": "entry09.html",
+    "https://viprpg2023gw.neocities.org/entry10.html": "entry10.html",
+    "https://viprpg2023gw.neocities.org/entry10": "entry10.html",
+    "https://viprpg2023gw.neocities.org/entry11.html": "entry11.html",
+    "https://viprpg2023gw.neocities.org/entry11": "entry11.html",
+    "https://viprpg2023gw.neocities.org/entry12.html": "entry12.html",
+    "https://viprpg2023gw.neocities.org/entry12": "entry12.html",
+    "https://viprpg2023gw.neocities.org/entry13.html": "entry13.html",
+    "https://viprpg2023gw.neocities.org/entry13": "entry13.html",
+    "https://viprpg2023gw.neocities.org/entry14.html": "entry14.html",
+    "https://viprpg2023gw.neocities.org/entry14": "entry14.html",
+    "https://viprpg2023gw.neocities.org/entry15.html": "entry15.html",
+    "https://viprpg2023gw.neocities.org/entry15": "entry15.html",
+    "https://viprpg2023gw.neocities.org/entry16.html": "entry16.html",
+    "https://viprpg2023gw.neocities.org/entry16": "entry16.html",
+    "https://viprpg2023gw.neocities.org/entry17.html": "entry17.html",
+    "https://viprpg2023gw.neocities.org/entry17": "entry17.html",
+    "https://viprpg2023gw.neocities.org/entry18.html": "entry18.html",
+    "https://viprpg2023gw.neocities.org/entry18": "entry18.html",
+    "https://viprpg2023gw.neocities.org/entry19.html": "entry19.html",
+    "https://viprpg2023gw.neocities.org/entry19": "entry19.html",
+    "https://viprpg2023gw.neocities.org/entry20.html": "entry20.html",
+    "https://viprpg2023gw.neocities.org/entry20": "entry20.html",
+    "https://viprpg2023gw.neocities.org/entry21.html": "entry21.html",
+    "https://viprpg2023gw.neocities.org/entry21": "entry21.html",
+    "https://viprpg2023gw.neocities.org/entry22.html": "entry22.html",
+    "https://viprpg2023gw.neocities.org/entry22": "entry22.html",
+    "https://viprpg2023gw.neocities.org/entry23.html": "entry23.html",
+    "https://viprpg2023gw.neocities.org/entry23": "entry23.html",
+    "https://viprpg2023gw.neocities.org/entry24.html": "entry24.html",
+    "https://viprpg2023gw.neocities.org/entry24": "entry24.html",
+    "https://viprpg2023gw.neocities.org/entry25.html": "entry25.html",
+    "https://viprpg2023gw.neocities.org/entry25": "entry25.html",
+    "https://viprpg2023gw.neocities.org/entry26.html": "entry26.html",
+    "https://viprpg2023gw.neocities.org/entry26": "entry26.html",
+    "https://viprpg2023gw.neocities.org/entry27.html": "entry27.html",
+    "https://viprpg2023gw.neocities.org/entry27": "entry27.html",
+    "https://viprpg2023gw.neocities.org/entry28.html": "entry28.html",
+    "https://viprpg2023gw.neocities.org/entry28": "entry28.html",
+    "https://viprpg2023gw.neocities.org/entry29.html": "entry29.html",
+    "https://viprpg2023gw.neocities.org/entry29": "entry29.html",
+    "https://viprpg2023gw.neocities.org/entry30.html": "entry30.html",
+    "https://viprpg2023gw.neocities.org/entry30": "entry30.html",
+    "https://viprpg2023gw.neocities.org/entry31.html": "entry31.html",
+    "https://viprpg2023gw.neocities.org/entry31": "entry31.html",
+    "https://viprpg2023gw.neocities.org/entry32.html": "entry32.html",
+    "https://viprpg2023gw.neocities.org/entry32": "entry32.html",
+    "https://viprpg2023gw.neocities.org/entry33.html": "entry33.html",
+    "https://viprpg2023gw.neocities.org/entry33": "entry33.html",
+    "https://viprpg2023gw.neocities.org/entry34.html": "entry34.html",
+    "https://viprpg2023gw.neocities.org/entry34": "entry34.html",
+    "https://viprpg2023gw.neocities.org/entry35.html": "entry35.html",
+    "https://viprpg2023gw.neocities.org/entry35": "entry35.html",
+    "https://viprpg2023gw.neocities.org/entry36.html": "entry36.html",
+    "https://viprpg2023gw.neocities.org/entry36": "entry36.html",
+    "https://viprpg2023gw.neocities.org/styles.css": "styles.css",
+    "https://viprpg2023gw.neocities.org/img/ss/ss00.png": "img/ss/ss00.png",
+    "https://viprpg2023gw.neocities.org/img/icon/2000.png": "img/icon/2000.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss01.png": "img/ss/ss01.png",
+    "https://viprpg2023gw.neocities.org/img/icon/i01.png": "img/icon/i01.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss02.png": "img/ss/ss02.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss03.png": "img/ss/ss03.png",
+    "https://viprpg2023gw.neocities.org/img/icon/i03.png": "img/icon/i03.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss04.png": "img/ss/ss04.png",
+    "https://viprpg2023gw.neocities.org/img/icon/i04.png": "img/icon/i04.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss05.png": "img/ss/ss05.png",
+    "https://viprpg2023gw.neocities.org/img/icon/i05.png": "img/icon/i05.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss06.png": "img/ss/ss06.png",
+    "https://viprpg2023gw.neocities.org/img/icon/MV.png": "img/icon/MV.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss07.png": "img/ss/ss07.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss08.png": "img/ss/ss08.png",
+    "https://viprpg2023gw.neocities.org/img/icon/i08.png": "img/icon/i08.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss09.png": "img/ss/ss09.png",
+    "https://viprpg2023gw.neocities.org/img/icon/i09.png": "img/icon/i09.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss10.png": "img/ss/ss10.png",
+    "https://viprpg2023gw.neocities.org/img/icon/VXA.png": "img/icon/VXA.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss11.png": "img/ss/ss11.png",
+    "https://viprpg2023gw.neocities.org/img/icon/i11.png": "img/icon/i11.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss12.png": "img/ss/ss12.png",
+    "https://viprpg2023gw.neocities.org/img/icon/i12.png": "img/icon/i12.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss13.png": "img/ss/ss13.png",
+    "https://viprpg2023gw.neocities.org/img/icon/i13.png": "img/icon/i13.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss14.png": "img/ss/ss14.png",
+    "https://viprpg2023gw.neocities.org/img/icon/i14.png": "img/icon/i14.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss16.png": "img/ss/ss16.png",
+    "https://viprpg2023gw.neocities.org/img/icon/i16.png": "img/icon/i16.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss17.png": "img/ss/ss17.png",
+    "https://viprpg2023gw.neocities.org/img/icon/MZ.png": "img/icon/MZ.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss18.png": "img/ss/ss18.png",
+    "https://viprpg2023gw.neocities.org/img/icon/i18.png": "img/icon/i18.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss19.png": "img/ss/ss19.png",
+    "https://viprpg2023gw.neocities.org/img/icon/i19.png": "img/icon/i19.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss20.png": "img/ss/ss20.png",
+    "https://viprpg2023gw.neocities.org/img/icon/i20.png": "img/icon/i20.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss21.jpg": "img/ss/ss21.jpg",
+    "https://viprpg2023gw.neocities.org/img/ss/ss22.png": "img/ss/ss22.png",
+    "https://viprpg2023gw.neocities.org/img/icon/i22.png": "img/icon/i22.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss23.png": "img/ss/ss23.png",
+    "https://viprpg2023gw.neocities.org/img/icon/i23.png": "img/icon/i23.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss24.png": "img/ss/ss24.png",
+    "https://viprpg2023gw.neocities.org/img/icon/i24.png": "img/icon/i24.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss25.png": "img/ss/ss25.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss26.jpg": "img/ss/ss26.jpg",
+    "https://viprpg2023gw.neocities.org/img/icon/i26.png": "img/icon/i26.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss27.png": "img/ss/ss27.png",
+    "https://viprpg2023gw.neocities.org/img/icon/i27.png": "img/icon/i27.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss28.png": "img/ss/ss28.png",
+    "https://viprpg2023gw.neocities.org/img/icon/i28.png": "img/icon/i28.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss29.png": "img/ss/ss29.png",
+    "https://viprpg2023gw.neocities.org/img/icon/i29.png": "img/icon/i29.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss30.png": "img/ss/ss30.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss31.png": "img/ss/ss31.png",
+    "https://viprpg2023gw.neocities.org/img/icon/i31.png": "img/icon/i31.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss32.png": "img/ss/ss32.png",
+    "https://viprpg2023gw.neocities.org/img/icon/unite.png": "img/icon/unite.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss33.png": "img/ss/ss33.png",
+    "https://viprpg2023gw.neocities.org/img/icon/i33.png": "img/icon/i33.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss35.png": "img/ss/ss35.png",
+    "https://viprpg2023gw.neocities.org/img/icon/i35.png": "img/icon/i35.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss36.png": "img/ss/ss36.png",
+    "https://viprpg2023gw.neocities.org/img/icon/i36.gif": "img/icon/i36.gif",
+    "https://viprpg2023gw.neocities.org/img/ss/ss00b.png": "img/ss/ss00b.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss03b.png": "img/ss/ss03b.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss04b.png": "img/ss/ss04b.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss05b.png": "img/ss/ss05b.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss06b.png": "img/ss/ss06b.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss09b.png": "img/ss/ss09b.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss10b.png": "img/ss/ss10b.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss11b.png": "img/ss/ss11b.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss12b.png": "img/ss/ss12b.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss13b.png": "img/ss/ss13b.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss14b.png": "img/ss/ss14b.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss18b.png": "img/ss/ss18b.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss19b.png": "img/ss/ss19b.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss21b.jpg": "img/ss/ss21b.jpg",
+    "https://viprpg2023gw.neocities.org/img/ss/ss27b.png": "img/ss/ss27b.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss29b.png": "img/ss/ss29b.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss33b.png": "img/ss/ss33b.png",
+    "https://viprpg2023gw.neocities.org/img/ss/ss35b.png": "img/ss/ss35b.png",
+    "https://viprpg2023gw.neocities.org/img/back.avif": "img/back.avif",
+    "https://viprpg2023gw.neocities.org/img/back.jpg": "img/back.jpg",
+    "https://viprpg2023gw.neocities.org/img/ss/ss00.avif": "img/ss/ss00.avif",
+    "https://viprpg2023gw.neocities.org/img/ss/ss01.avif": "img/ss/ss01.avif",
+    "https://viprpg2023gw.neocities.org/img/ss/ss02.avif": "img/ss/ss02.avif",
+    "https://viprpg2023gw.neocities.org/img/ss/ss03.avif": "img/ss/ss03.avif",
+    "https://viprpg2023gw.neocities.org/img/ss/ss04.avif": "img/ss/ss04.avif",
+    "https://viprpg2023gw.neocities.org/img/ss/ss05.avif": "img/ss/ss05.avif",
+    "https://viprpg2023gw.neocities.org/img/ss/ss06.avif": "img/ss/ss06.avif",
+    "https://viprpg2023gw.neocities.org/img/ss/ss08.avif": "img/ss/ss08.avif",
+    "https://viprpg2023gw.neocities.org/img/ss/ss09.avif": "img/ss/ss09.avif",
+    "https://viprpg2023gw.neocities.org/img/ss/ss10.avif": "img/ss/ss10.avif",
+    "https://viprpg2023gw.neocities.org/img/ss/ss11.avif": "img/ss/ss11.avif",
+    "https://viprpg2023gw.neocities.org/img/ss/ss12.avif": "img/ss/ss12.avif",
+    "https://viprpg2023gw.neocities.org/img/ss/ss13.avif": "img/ss/ss13.avif",
+    "https://viprpg2023gw.neocities.org/img/ss/ss14.avif": "img/ss/ss14.avif",
+    "https://viprpg2023gw.neocities.org/img/ss/ss16.avif": "img/ss/ss16.avif",
+    "https://viprpg2023gw.neocities.org/img/ss/ss17.avif": "img/ss/ss17.avif",
+    "https://viprpg2023gw.neocities.org/img/ss/ss19.avif": "img/ss/ss19.avif",
+    "https://viprpg2023gw.neocities.org/img/ss/ss20.avif": "img/ss/ss20.avif",
+    "https://viprpg2023gw.neocities.org/img/ss/ss21.avif": "img/ss/ss21.avif",
+    "https://viprpg2023gw.neocities.org/img/ss/ss23.avif": "img/ss/ss23.avif",
+    "https://viprpg2023gw.neocities.org/img/ss/ss24.avif": "img/ss/ss24.avif",
+    "https://viprpg2023gw.neocities.org/img/ss/ss25.avif": "img/ss/ss25.avif",
+    "https://viprpg2023gw.neocities.org/img/ss/ss26.avif": "img/ss/ss26.avif",
+    "https://viprpg2023gw.neocities.org/img/ss/ss27.avif": "img/ss/ss27.avif",
+    "https://viprpg2023gw.neocities.org/img/ss/ss28.avif": "img/ss/ss28.avif",
+    "https://viprpg2023gw.neocities.org/img/ss/ss29.avif": "img/ss/ss29.avif",
+    "https://viprpg2023gw.neocities.org/img/ss/ss30.avif": "img/ss/ss30.avif",
+    "https://viprpg2023gw.neocities.org/img/ss/ss31.avif": "img/ss/ss31.avif",
+    "https://viprpg2023gw.neocities.org/img/ss/ss32.avif": "img/ss/ss32.avif",
+    "https://viprpg2023gw.neocities.org/img/ss/ss33.avif": "img/ss/ss33.avif",
+    "https://viprpg2023gw.neocities.org/img/ss/ss35.avif": "img/ss/ss35.avif"
+  },
+  "entries": [
+    {
+      "id": "2023-gw-work-00",
+      "no": "00",
+      "detailUrl": "https://viprpg2023gw.neocities.org/entry00.html",
+      "sourceCapture": {
+        "originalUrl": "https://viprpg2023gw.neocities.org/entry00.html",
+        "actualUrl": "https://viprpg2023gw.neocities.org/entry00",
+        "status": 200,
+        "file": "entry00.bin",
+        "sha256": "1975cdd8864985d2be595aac8b1937f50b3cb858465d8fd41aeff868335b36b7",
+        "retrievedAt": "2026-10-20T02:05:44.131Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "00"
+      },
+      "iconSourceUrl": "https://viprpg2023gw.neocities.org/img/icon/2000.png",
+      "previewSourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss00.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss00.png",
+          "local": "/screenshots/2023-gw/00-source-1.png",
+          "sha256": "699aff9906815fdf22edfa6ef0fc14dccd945a8daf761cfefd3cde5117e176eb"
+        },
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss00b.png",
+          "local": "/screenshots/2023-gw/00-source-2.png",
+          "sha256": "a43cbfab7915d9d25d73d4576ee89060b56fe0c474e597fe3c081f705d5f800b"
+        }
+      ],
+      "sourceMetadata": {
+        "作者": "サンプル",
+        "ジャンル": "ksg",
+        "ツール": "2000",
+        "配信/投稿": "可/可",
+        "作者コメント": "ここに作者コメント",
+        "管理人コメント": "ここに管理人コメント"
+      },
+      "catalogueMetadata": {
+        "author": "サンプル",
+        "category": "ksg",
+        "engine": "2000",
+        "streaming": "可/可"
+      },
+      "metadataDifferences": [],
+      "authorOmittedInBothSources": false,
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2023-gw-work-01",
+      "no": "01",
+      "detailUrl": "https://viprpg2023gw.neocities.org/entry01.html",
+      "sourceCapture": {
+        "originalUrl": "https://viprpg2023gw.neocities.org/entry01.html",
+        "actualUrl": "https://viprpg2023gw.neocities.org/entry01",
+        "status": 200,
+        "file": "entry01.bin",
+        "sha256": "7a6d20fff25b950def57bcd0863bea298a27249a0c470125c0503f38c4af9224",
+        "retrievedAt": "2026-10-20T02:05:45.183Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "01"
+      },
+      "iconSourceUrl": "https://viprpg2023gw.neocities.org/img/icon/i01.png",
+      "previewSourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss01.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss01.png",
+          "local": "/screenshots/2023-gw/01-source-1.png",
+          "sha256": "85a546b2369696faed632a06ad6cb875948c81d4de54755b820426011ba57f4d"
+        }
+      ],
+      "sourceMetadata": {
+        "作者": "徳明",
+        "ジャンル": "ここは良くある剣と魔法と銃と現代科学のダークファンタジーRPGの世界な読むゲ",
+        "ツール": "Steam版2003",
+        "配信/投稿": "共におけまる",
+        "作者コメント": "人斬りの女侍が、自分の事を国王だと言い張る脱走軍人を処しに行くだけの話です。この読むゲには暴力シーン、グロテスクな表現が含まれています。この読むゲを制作するに辺り、お力添え頂いたイシザル様と名雲きつね様にこの場をお借りしましてお礼申し上げます。",
+        "管理人コメント": "人斬りシリーズの続編ktkr"
+      },
+      "catalogueMetadata": {
+        "author": "徳明",
+        "category": "ここは良くある剣と魔法と銃と現代科学のダークファンタジーRPGの世界な読むゲ",
+        "engine": "Steam版2003",
+        "streaming": "共におけまる"
+      },
+      "metadataDifferences": [],
+      "authorOmittedInBothSources": false,
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2023-gw-work-02",
+      "no": "02",
+      "detailUrl": "https://viprpg2023gw.neocities.org/entry02.html",
+      "sourceCapture": {
+        "originalUrl": "https://viprpg2023gw.neocities.org/entry02.html",
+        "actualUrl": "https://viprpg2023gw.neocities.org/entry02",
+        "status": 200,
+        "file": "entry02.bin",
+        "sha256": "ccdc7ce26668b543ab5261bcbc43d9e8be56677898bb53d2a9963866812dc9f6",
+        "retrievedAt": "2026-10-20T02:05:46.055Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "02"
+      },
+      "iconSourceUrl": "https://viprpg2023gw.neocities.org/img/icon/2000.png",
+      "previewSourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss02.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss02.png",
+          "local": "/screenshots/2023-gw/02-source-1.png",
+          "sha256": "151ac11bad9a6c33cbb01d5f63fc66394dc317039b71c57a938e0751c582c0a7"
+        }
+      ],
+      "sourceMetadata": {
+        "作者": "ぬ",
+        "ジャンル": "おまけつきゴミ",
+        "ツール": "2000",
+        "配信/投稿": "配信のみ可",
+        "作者コメント": "最後までプレイしてクイズに正解すると、次回作「メリーモアⅡ」の予告編が見れます。",
+        "管理人コメント": "タンスの角の次はメガバイオだと！？よろしくね。"
+      },
+      "catalogueMetadata": {
+        "author": "ぬ",
+        "category": "おまけつきゴミ",
+        "engine": "2000",
+        "streaming": "配信のみ可"
+      },
+      "metadataDifferences": [],
+      "authorOmittedInBothSources": false,
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2023-gw-work-03",
+      "no": "03",
+      "detailUrl": "https://viprpg2023gw.neocities.org/entry03.html",
+      "sourceCapture": {
+        "originalUrl": "https://viprpg2023gw.neocities.org/entry03.html",
+        "actualUrl": "https://viprpg2023gw.neocities.org/entry03",
+        "status": 200,
+        "file": "entry03.bin",
+        "sha256": "ddd1fbab5dcb00188d411f397391a1b677fe4d36a2a8cce966aaea2396cedfe3",
+        "retrievedAt": "2026-10-20T02:05:46.753Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "03"
+      },
+      "iconSourceUrl": "https://viprpg2023gw.neocities.org/img/icon/i03.png",
+      "previewSourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss03.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss03.png",
+          "local": "/screenshots/2023-gw/03-source-1.png",
+          "sha256": "9d6784304a71785dad5d776c02a7ca6e698a5d64591049a20f651aa30b9ffb58"
+        },
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss03b.png",
+          "local": "/screenshots/2023-gw/03-source-2.png",
+          "sha256": "327c905301fda6c3611a0e482c7b7b338c9a29a913ffd6af05e65975d704ca58"
+        }
+      ],
+      "sourceMetadata": {
+        "作者": "悲しき歴代RTPマシーン",
+        "ジャンル": "見るゲ&探索&デフォ戦",
+        "ツール": "Steam2003",
+        "配信/投稿": "可/可",
+        "作者コメント": "無計画で作ってたら前回のエントリーでまたしても間に合わなくなったのでリベンジ。カマソッソシリーズの大ファンである別作者が外伝を勝手に作りました(原作者公認&一部監修済)。多分シリーズ初見でもなんとなくで楽しめると思いますが、「カマソッソの集合」内の「アーケチの事件簿」辺りをやっておくとより楽しめるかもしれません。Another author who is a big fan of the Camazotz series has taken the liberty of creating a sequel. (Officially approved by the original author & partially supervised).You can enjoy it somehow even if it is your first time to see the series, but you may enjoy it more if you have played \"アーケチの事件簿\" in \"カマソッソの集合\".(翻訳：Deepl)05/03追記英語版と製作室は間に合いそうにないので後でパッチで追加します。05/31追記英語版実装が思ったより時間かかりそうなので、そっちは後日上げます。",
+        "管理人コメント": "勝手に続編系はツクスレ誕生当初からの醍醐味。"
+      },
+      "catalogueMetadata": {
+        "author": "悲しき歴代RTPマシーン",
+        "category": "見るゲ&探索&デフォ戦",
+        "engine": "Steam2003",
+        "streaming": "可/可"
+      },
+      "metadataDifferences": [],
+      "authorOmittedInBothSources": false,
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2023-gw-work-04",
+      "no": "04",
+      "detailUrl": "https://viprpg2023gw.neocities.org/entry04.html",
+      "sourceCapture": {
+        "originalUrl": "https://viprpg2023gw.neocities.org/entry04.html",
+        "actualUrl": "https://viprpg2023gw.neocities.org/entry04",
+        "status": 200,
+        "file": "entry04.bin",
+        "sha256": "d3ceb7043b7e9478e9ec6b7571c759a85363b5888bb9b919e0e80c60d62bb774",
+        "retrievedAt": "2026-10-20T02:05:47.498Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "04"
+      },
+      "iconSourceUrl": "https://viprpg2023gw.neocities.org/img/icon/i04.png",
+      "previewSourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss04.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss04.png",
+          "local": "/screenshots/2023-gw/04-source-1.png",
+          "sha256": "81ac9669771b5a6e1d44b6c8790ef161e4f41aff5e0a93301392b44bd50bdb7b"
+        },
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss04b.png",
+          "local": "/screenshots/2023-gw/04-source-2.png",
+          "sha256": "beecde3fe61073d6008bafb19848c4cb235353e93ef21fecd3d94d1562f5e9f7"
+        }
+      ],
+      "sourceMetadata": {
+        "作者": "F-man",
+        "ジャンル": "トーナメント型ローグライト",
+        "ツール": "Steam版2003",
+        "配信/投稿": "両方可　※ただし自己責任",
+        "作者コメント": "某ヘレンの戦闘システムをベースとしたトーナメントを勝ち抜くだけのお手軽ローグライトです。スレ投下の「ザザッドスドス」のシステムに改良を加え、キーボード・マウス操作両対応かつオートセーブ搭載の快適さと共に繰り返される戦いの果てを楽しんで下さい。クリアする度に開放されるプレーヤー候補となる選手は初期含めて１６人。選べる選手は一人一人に背景がありますが、懐かしの他作品から作者がエターなった作品まで混ぜ込んだただの闇鍋なのでストーリーは有って無い様なものです。考えるな、感じるのです",
+        "管理人コメント": "某ヘレンリスペクト、近年でもちょくちょく見かけますね。"
+      },
+      "catalogueMetadata": {
+        "author": "F-man",
+        "category": "トーナメント型ローグライト",
+        "engine": "Steam版2003",
+        "streaming": "両方可 ※ただし自己責任"
+      },
+      "metadataDifferences": [],
+      "authorOmittedInBothSources": false,
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2023-gw-work-05",
+      "no": "05",
+      "detailUrl": "https://viprpg2023gw.neocities.org/entry05.html",
+      "sourceCapture": {
+        "originalUrl": "https://viprpg2023gw.neocities.org/entry05.html",
+        "actualUrl": "https://viprpg2023gw.neocities.org/entry05",
+        "status": 200,
+        "file": "entry05.bin",
+        "sha256": "49a809791a29464911ef755d3000aec9f7d41adf5026c4a0460b86399f6ef064",
+        "retrievedAt": "2026-10-20T02:05:48.129Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "05"
+      },
+      "iconSourceUrl": "https://viprpg2023gw.neocities.org/img/icon/i05.png",
+      "previewSourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss05.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss05.png",
+          "local": "/screenshots/2023-gw/05-source-1.png",
+          "sha256": "7d0a9d0b20ffb241778d7306e90a972389aee980533912c7e888c8f5847e0881"
+        },
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss05b.png",
+          "local": "/screenshots/2023-gw/05-source-2.png",
+          "sha256": "f7520db86df1c103110a64b3660d9efae41266c583763a70055c4254d2dddac3"
+        }
+      ],
+      "sourceMetadata": {
+        "作者": "あじたま",
+        "ジャンル": "RPG",
+        "ツール": "RPGツクールSteam2003",
+        "配信/投稿": "可/可",
+        "作者コメント": "2D式チェッカーバトルゲームです。ボス戦のみの短編。わてりが醤油革命を起こします。プレイ時間：１時間半ぐらい",
+        "管理人コメント": "SoySource is Delicious! SoySource is Strongests!"
+      },
+      "catalogueMetadata": {
+        "author": "あじたま",
+        "category": "RPG",
+        "engine": "Steam版2003",
+        "streaming": "可/可"
+      },
+      "metadataDifferences": [
+        {
+          "label": "ツール",
+          "catalogueValue": "Steam版2003",
+          "detailValue": "RPGツクールSteam2003"
+        }
+      ],
+      "authorOmittedInBothSources": false,
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2023-gw-work-06",
+      "no": "06",
+      "detailUrl": "https://viprpg2023gw.neocities.org/entry06.html",
+      "sourceCapture": {
+        "originalUrl": "https://viprpg2023gw.neocities.org/entry06.html",
+        "actualUrl": "https://viprpg2023gw.neocities.org/entry06",
+        "status": 200,
+        "file": "entry06.bin",
+        "sha256": "4f44f2e8a41efcffd6b6aefc37d01c6ed08f67640f5ea4f8c4786910928653dc",
+        "retrievedAt": "2026-10-20T02:05:49.019Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "06"
+      },
+      "iconSourceUrl": "https://viprpg2023gw.neocities.org/img/icon/MV.png",
+      "previewSourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss06.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss06.png",
+          "local": "/screenshots/2023-gw/06-source-1.png",
+          "sha256": "c463f03dc2c55fefe1dc722eea91488ae5bdb0854e59c59b3b67625b4a0d5fe9"
+        },
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss06b.png",
+          "local": "/screenshots/2023-gw/06-source-2.png",
+          "sha256": "965420fdee47108b81f447b6a802cba07307df2f8aeaf5413ee8817a1b2106b5"
+        }
+      ],
+      "sourceMetadata": {
+        "ジャンル": "サクっと終わる狙撃やるゲ（ゴメス狙撃したら即クリア）",
+        "ツール": "ＲＰＧツクールＭＶ",
+        "配信/投稿": "可/可",
+        "作者コメント": "フレーバーテキストに少し力を入れました。",
+        "管理人コメント": "とうとう奴も暗殺される時が来てしまったか……！"
+      },
+      "catalogueMetadata": {
+        "author": "",
+        "category": "サクっと終わる狙撃やるゲ（ゴメス狙撃したら即クリア）",
+        "engine": "ＲＰＧツクールＭＶ",
+        "streaming": "可/可"
+      },
+      "metadataDifferences": [],
+      "authorOmittedInBothSources": true,
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2023-gw-work-07",
+      "no": "07",
+      "detailUrl": "https://viprpg2023gw.neocities.org/entry07.html",
+      "sourceCapture": {
+        "originalUrl": "https://viprpg2023gw.neocities.org/entry07.html",
+        "actualUrl": "https://viprpg2023gw.neocities.org/entry07",
+        "status": 200,
+        "file": "entry07.bin",
+        "sha256": "85226155a9b14017ac8fb28217cfd23ce7dd4350bc6e24957fc2c6852a4e82fb",
+        "retrievedAt": "2026-10-20T02:05:50.631Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "07"
+      },
+      "iconSourceUrl": "https://viprpg2023gw.neocities.org/img/icon/2000.png",
+      "previewSourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss07.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss07.png",
+          "local": "/screenshots/2023-gw/07-source-1.png",
+          "sha256": "e91dd36eaa4efaf6c5de78242fe5a7896d2c82e1b8686c0e5f4618fc15e6affb"
+        }
+      ],
+      "sourceMetadata": {
+        "作者": "計画性で構成されたかすていら",
+        "ジャンル": "計画性で構成されたｋｓｇ",
+        "ツール": "計画性で構成された2000",
+        "配信/投稿": "計画性で構成されているので可",
+        "作者コメント": "2023/04/29 18:00:00から23:59:59まで展開を募り、2023/04/30 12:00:00から貰った展開を基にこっちでランダムに決めた時間分作ります。2023/5/2追記 苦しかった",
+        "管理人コメント": "SSまで計画性で構成されておる……！"
+      },
+      "catalogueMetadata": {
+        "author": "計画性で構成されたかすていら",
+        "category": "計画性で構成されたｋｓｇ",
+        "engine": "計画性で構成された2000",
+        "streaming": "計画性で構成されているので可"
+      },
+      "metadataDifferences": [],
+      "authorOmittedInBothSources": false,
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2023-gw-work-08",
+      "no": "08",
+      "detailUrl": "https://viprpg2023gw.neocities.org/entry08.html",
+      "sourceCapture": {
+        "originalUrl": "https://viprpg2023gw.neocities.org/entry08.html",
+        "actualUrl": "https://viprpg2023gw.neocities.org/entry08",
+        "status": 200,
+        "file": "entry08.bin",
+        "sha256": "9e7247de23ba820cb11bf85bbd5811a2823cf88573fe953484e0db911cc159fb",
+        "retrievedAt": "2026-10-20T02:05:51.665Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "08"
+      },
+      "iconSourceUrl": "https://viprpg2023gw.neocities.org/img/icon/i08.png",
+      "previewSourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss08.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss08.png",
+          "local": "/screenshots/2023-gw/08-source-1.png",
+          "sha256": "e899e035e8de6c7c273fcdbccb826af3277c4cc92334f52030962d74c56daf4e"
+        }
+      ],
+      "sourceMetadata": {
+        "作者": "伝六館館主",
+        "ジャンル": "SRPG",
+        "ツール": "RPGツクールMZ",
+        "配信/投稿": "可・可",
+        "作者コメント": "自作のボクセルによる３Ｄキャラを用いたムービーやAPNGによるアニメーション付きのデモとして、現在作成中の作品を紹介させていただきます。今後、Uniteをはじめとする各種ツクールにおいて３Ｄモデルが普及することが見込まれますが、その場合におけるイベントのイメージとしてご参考になれば幸いです。…スイマセン、ホントは『できたよー！見て見てー！』です。御感想をよろしくお願いします。SRPG部も途中のステージまでプレイできます。シリーズ物の３作目なので、前作が気になった方は「伝六館」で検索してください。【ダイマ】操作方法は作品内にチュートリアルがあります。",
+        "管理人コメント": "SSからポクセルへのかなりの情熱を感じ取れますね。"
+      },
+      "catalogueMetadata": {
+        "author": "伝六館館主",
+        "category": "SRPG",
+        "engine": "RPGツクールMZ",
+        "streaming": "可・可"
+      },
+      "metadataDifferences": [],
+      "authorOmittedInBothSources": false,
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2023-gw-work-09",
+      "no": "09",
+      "detailUrl": "https://viprpg2023gw.neocities.org/entry09.html",
+      "sourceCapture": {
+        "originalUrl": "https://viprpg2023gw.neocities.org/entry09.html",
+        "actualUrl": "https://viprpg2023gw.neocities.org/entry09",
+        "status": 200,
+        "file": "entry09.bin",
+        "sha256": "5b79356b837df077220d19111d6995ff46fb4c226d2b3045979025bd6727274e",
+        "retrievedAt": "2026-10-20T02:05:54.289Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "09"
+      },
+      "iconSourceUrl": "https://viprpg2023gw.neocities.org/img/icon/i09.png",
+      "previewSourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss09.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss09.png",
+          "local": "/screenshots/2023-gw/09-source-1.png",
+          "sha256": "ee2a45c21b27f5b2db64af09024157edba6b5daa423d07f716ad910e04181e96"
+        },
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss09b.png",
+          "local": "/screenshots/2023-gw/09-source-2.png",
+          "sha256": "b71b1190fe6db1f888692f5c3f8493bc9834671fb9a5ce43c43b1670c3496968"
+        }
+      ],
+      "sourceMetadata": {
+        "作者": "ナナメティックスレイヤー",
+        "ジャンル": "短編ksg",
+        "ツール": "RPGツクール2000",
+        "配信/投稿": "可・可",
+        "作者コメント": "本スレが規制されているのでksgだけど祭りに出します想定視聴時間は７～８分　途中セーブ２回なお　壮大な物語は展開しない模様",
+        "管理人コメント": "(エントリー番号は)No.09でいい"
+      },
+      "catalogueMetadata": {
+        "author": "ナナメティックスレイヤー",
+        "category": "短編ksg",
+        "engine": "RPGツクール2000",
+        "streaming": "可・可"
+      },
+      "metadataDifferences": [],
+      "authorOmittedInBothSources": false,
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2023-gw-work-10",
+      "no": "10",
+      "detailUrl": "https://viprpg2023gw.neocities.org/entry10.html",
+      "sourceCapture": {
+        "originalUrl": "https://viprpg2023gw.neocities.org/entry10.html",
+        "actualUrl": "https://viprpg2023gw.neocities.org/entry10",
+        "status": 200,
+        "file": "entry10.bin",
+        "sha256": "bb8d4687e3cfde5a6bb5e54b6a50586746289839acff35d5352438d48ccb8896",
+        "retrievedAt": "2026-10-20T02:05:55.118Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "10"
+      },
+      "iconSourceUrl": "https://viprpg2023gw.neocities.org/img/icon/VXA.png",
+      "previewSourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss10.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss10.png",
+          "local": "/screenshots/2023-gw/10-source-1.png",
+          "sha256": "32b68a0c1a89cf984173f0b10cc6cb096da6b5fc09fe3356c894001120d409b5"
+        },
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss10b.png",
+          "local": "/screenshots/2023-gw/10-source-2.png",
+          "sha256": "c36175109f0fbd43073d70179943db5c6a45c5965b1fc04de2d3d524821f2e8b"
+        }
+      ],
+      "sourceMetadata": {
+        "作者": "五つ葉",
+        "ジャンル": "デフォ戦(エネミー50形式)",
+        "ツール": "VXACE",
+        "配信/投稿": "可・可",
+        "作者コメント": "2021GWの\"Battle Tower　XP勢がデフォ戦するだけ\"の発展型ともいうべき作品です。プレイヤーキャラ達は安価で出てきた候補から選びました。",
+        "管理人コメント": "今回も中々の戦略性がありそう。"
+      },
+      "catalogueMetadata": {
+        "author": "五つ葉",
+        "category": "デフォ戦(エネミー50形式)",
+        "engine": "VXACE",
+        "streaming": "可・可"
+      },
+      "metadataDifferences": [],
+      "authorOmittedInBothSources": false,
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2023-gw-work-11",
+      "no": "11",
+      "detailUrl": "https://viprpg2023gw.neocities.org/entry11.html",
+      "sourceCapture": {
+        "originalUrl": "https://viprpg2023gw.neocities.org/entry11.html",
+        "actualUrl": "https://viprpg2023gw.neocities.org/entry11",
+        "status": 200,
+        "file": "entry11.bin",
+        "sha256": "ddb2da5c919403369cae9ec4a8be241ec381bb38cd239563b99c19137b7e76de",
+        "retrievedAt": "2026-10-20T02:05:55.611Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "11"
+      },
+      "iconSourceUrl": "https://viprpg2023gw.neocities.org/img/icon/i11.png",
+      "previewSourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss11.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss11.png",
+          "local": "/screenshots/2023-gw/11-source-1.png",
+          "sha256": "91845121a51032d33cbee5c1a18a0105fcc3bada65a05d6469667fb597d34d07"
+        },
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss11b.png",
+          "local": "/screenshots/2023-gw/11-source-2.png",
+          "sha256": "cf3dda760cff9c52686574dbb06665993fabc86f84e9ad951349210c2d5e76a5"
+        }
+      ],
+      "sourceMetadata": {
+        "作者": "ねりぷ",
+        "ジャンル": "ダンジョンRPG（疑）",
+        "ツール": "RPGツクールVXAce",
+        "配信/投稿": "どちらも可ですが、やめとけ",
+        "作者コメント": "ダンジョンに潜ってアイテムを集めるゲームです。そこそこ長いので、ほかの素敵なゲームに飽きた頃にでもどうぞ。",
+        "管理人コメント": "SS見るだけでもパロディてんこもりでハチャメチャな予感がするぜ……！"
+      },
+      "catalogueMetadata": {
+        "author": "ねりぷ",
+        "category": "ダンジョンRPG（疑）",
+        "engine": "RPGツクールVXAce",
+        "streaming": "どちらも可ですが、やめとけ"
+      },
+      "metadataDifferences": [],
+      "authorOmittedInBothSources": false,
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2023-gw-work-12",
+      "no": "12",
+      "detailUrl": "https://viprpg2023gw.neocities.org/entry12.html",
+      "sourceCapture": {
+        "originalUrl": "https://viprpg2023gw.neocities.org/entry12.html",
+        "actualUrl": "https://viprpg2023gw.neocities.org/entry12",
+        "status": 200,
+        "file": "entry12.bin",
+        "sha256": "7f428456f9e873d45d7e2a96f285589b8059c2301b4f587d6feabf8f0e92c859",
+        "retrievedAt": "2026-10-20T02:05:56.629Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "12"
+      },
+      "iconSourceUrl": "https://viprpg2023gw.neocities.org/img/icon/i12.png",
+      "previewSourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss12.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss12.png",
+          "local": "/screenshots/2023-gw/12-source-1.png",
+          "sha256": "33dc778c4e62bb38da932da07b8b5eb946ed9cb00c778c8bb702a6f502a721e5"
+        },
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss12b.png",
+          "local": "/screenshots/2023-gw/12-source-2.png",
+          "sha256": "72ece16cd1245f024f55b98c5966a4ee2149ecf0ffd76ab4747b3f14e1164392"
+        }
+      ],
+      "sourceMetadata": {
+        "作者": "たんち",
+        "ジャンル": "大人の夜更かしのための見るゲ",
+        "ツール": "s2003",
+        "配信/投稿": "いいよ/いいよ",
+        "作者コメント": "冷やし中華はじめました(6回目)。",
+        "管理人コメント": "狂詩性ブラックサンダーシリーズの6作目らしい。今作も中々スタッフが豪華そうです。"
+      },
+      "catalogueMetadata": {
+        "author": "たんち",
+        "category": "大人の夜更かしのための見るゲ",
+        "engine": "s2003",
+        "streaming": "いいよ/いいよ"
+      },
+      "metadataDifferences": [],
+      "authorOmittedInBothSources": false,
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2023-gw-work-13",
+      "no": "13",
+      "detailUrl": "https://viprpg2023gw.neocities.org/entry13.html",
+      "sourceCapture": {
+        "originalUrl": "https://viprpg2023gw.neocities.org/entry13.html",
+        "actualUrl": "https://viprpg2023gw.neocities.org/entry13",
+        "status": 200,
+        "file": "entry13.bin",
+        "sha256": "5139f772bb132f44067a78e349f7075c4a011f99a1aefaf9e043beb900ddfb6b",
+        "retrievedAt": "2026-10-20T02:05:57.580Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "13"
+      },
+      "iconSourceUrl": "https://viprpg2023gw.neocities.org/img/icon/i13.png",
+      "previewSourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss13.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss13.png",
+          "local": "/screenshots/2023-gw/13-source-1.png",
+          "sha256": "a5001b9ecc10e16247ee8008ebdf12ec495f24583eb60bb5fbe934a861b0823e"
+        },
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss13b.png",
+          "local": "/screenshots/2023-gw/13-source-2.png",
+          "sha256": "c5b7917f30c702abd0582f3de207f1767cf52b3d097616fb518ac2dd45ad0393"
+        }
+      ],
+      "sourceMetadata": {
+        "作者": "ナラネーヨ",
+        "ジャンル": "†漆黒のksgを纏いし見るゲ†は世を忍ぶ仮の姿････",
+        "ツール": "steam2003",
+        "配信/投稿": "お前ならやれる！/待ってるぞ！",
+        "作者コメント": "笑い、あり！シリアス（笑）、あり！節操、なし！―――これはお前の知能指数を「破壊」する。※この作品を遊ぶ際同梱されている実行ファイル（要zip解凍）で起動しないと想定されていない表示、動作になる可能性があります遊び方が分からない場合は同じく同梱されているファイル「★簡単！遊び方説明！★」をご覧くださいまた、ツールの都合上解凍後に実行ファイルが誤検知され、削除される可能性がありますその場合は「★実行ファイルの誤検知対策法★」をご覧ください―――――――――――――――★★★★Secret Area！★★★★―――――――――――――――夏の陣作品でゴス子の雪道ゲーっぽいのｔｋるかゾウさんクエストｔｋるか迷うゾウを見つけたぞ！やったな！　/￣ヽ＿/￣ヽ　｜ 　・・　 | ＿＿　｜　　 ヾ／ ＿/　　見つかって、しまったね･･･　　＞―ﾚ＼＿＿／　｜ 　　　　｜　｜ 凵 　　　二]ノ ＼　　　 /　　 凵 凵お前に30点くらいあげちゃう！～終～",
+        "管理人コメント": "30点getやったぜ！！　SSも絶妙に頭悪そうな感じで草"
+      },
+      "catalogueMetadata": {
+        "author": "ナラネーヨ",
+        "category": "†漆黒のksgを纏いし見るゲ†は世を忍ぶ仮の姿････",
+        "engine": "steam2003",
+        "streaming": "お前ならやれる！/待ってるぞ！"
+      },
+      "metadataDifferences": [],
+      "authorOmittedInBothSources": false,
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2023-gw-work-14",
+      "no": "14",
+      "detailUrl": "https://viprpg2023gw.neocities.org/entry14.html",
+      "sourceCapture": {
+        "originalUrl": "https://viprpg2023gw.neocities.org/entry14.html",
+        "actualUrl": "https://viprpg2023gw.neocities.org/entry14",
+        "status": 200,
+        "file": "entry14.bin",
+        "sha256": "cfea0b37b5059821effc8f4fba2deb1592f622758eeef9f2d3857ff89b563da7",
+        "retrievedAt": "2026-10-20T02:05:59.209Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "14"
+      },
+      "iconSourceUrl": "https://viprpg2023gw.neocities.org/img/icon/i14.png",
+      "previewSourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss14.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss14.png",
+          "local": "/screenshots/2023-gw/14-source-1.png",
+          "sha256": "cd42ba95ce621af223f4e983b1bbaf3314def12880e6d10edb6067a5abc78801"
+        },
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss14b.png",
+          "local": "/screenshots/2023-gw/14-source-2.png",
+          "sha256": "3665d7113267d58d211665519512cc6c99f916208bd7963c206842fd87530033"
+        }
+      ],
+      "sourceMetadata": {
+        "作者": "女体化ダークメカアレックス",
+        "ジャンル": "アクションRPG",
+        "ツール": "steam2003",
+        "配信/投稿": "ええよ/ええよ",
+        "作者コメント": "生まれては別れにむかうわたしたちのために。◆SEKIROとHellsinker.とウォールにモロな影響を受けたゲーム◆中二病の煮凝りを固めた感じのフレーバー◆なんとなく触ってて気持ち良い感触を追求してみました◆プレイ時間は1～3時間くらいの想定です※exeファイルがウイルスと誤認され消去されてしまう場合、以下の手順を試してください 1. Windowsの設定を起動し、  「更新とセキュリティ（プライバシーとセキュリティ）＞Windowsセキュリティ＞ウイルスと脅威の防止＞設定の管理」を開く 2.「リアルタイム保護」の項目を一時的にオフにする 3.「除外の追加または削除」をクリックし、ゲームのあるフォルダーを除外項目に追加する 4.「リアルタイム保護」の項目を再度オンにする 5. 以上の手順を実施したうえで、zipを解凍する",
+        "管理人コメント": "こういう厨二系ダークな感じめちゃくちゃ好き"
+      },
+      "catalogueMetadata": {
+        "author": "女体化ダークメカアレックス",
+        "category": "アクションRPG",
+        "engine": "steam2003",
+        "streaming": "ええよ/ええよ"
+      },
+      "metadataDifferences": [],
+      "authorOmittedInBothSources": false,
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2023-gw-work-15",
+      "no": "15",
+      "detailUrl": "https://viprpg2023gw.neocities.org/entry15.html",
+      "sourceCapture": {
+        "originalUrl": "https://viprpg2023gw.neocities.org/entry15.html",
+        "actualUrl": "https://viprpg2023gw.neocities.org/entry15",
+        "status": 200,
+        "file": "entry15.bin",
+        "sha256": "effede24bd3aaabb29115a949987626842cfebeb7f901827453a5cc767d7e75c",
+        "retrievedAt": "2026-10-20T02:06:00.843Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "15"
+      },
+      "iconSourceUrl": "https://viprpg2023gw.neocities.org/img/icon/2000.png",
+      "previewSourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss00.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss00.png",
+          "local": "/screenshots/2023-gw/15-source-1.png",
+          "sha256": "699aff9906815fdf22edfa6ef0fc14dccd945a8daf761cfefd3cde5117e176eb"
+        }
+      ],
+      "sourceMetadata": {
+        "作者": "ヌッ！ダグバ・ゼバ",
+        "ジャンル": "読むゲ",
+        "ツール": "RPGツクール２０００",
+        "配信/投稿": "おｋ/おｋ",
+        "作者コメント": "やたら自己評価の低いアーケンさんが友達以上恋人未満の天使と一緒にドレズ人さらいをスレイするお話",
+        "管理人コメント": "SSアイコン共に添付されていなかったので、サンプルページと同じ物にしておきます"
+      },
+      "catalogueMetadata": {
+        "author": "ヌッ！ダグバ・ゼバ",
+        "category": "読むゲ",
+        "engine": "RPGツクール２０００",
+        "streaming": "おｋ/おｋ"
+      },
+      "metadataDifferences": [],
+      "authorOmittedInBothSources": false,
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2023-gw-work-16",
+      "no": "16",
+      "detailUrl": "https://viprpg2023gw.neocities.org/entry16.html",
+      "sourceCapture": {
+        "originalUrl": "https://viprpg2023gw.neocities.org/entry16.html",
+        "actualUrl": "https://viprpg2023gw.neocities.org/entry16",
+        "status": 200,
+        "file": "entry16.bin",
+        "sha256": "0ae15e5fa96665d79cd75e9e46dda371d645736948f561154cb9073a357a87b4",
+        "retrievedAt": "2026-10-20T02:06:02.046Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "16"
+      },
+      "iconSourceUrl": "https://viprpg2023gw.neocities.org/img/icon/i16.png",
+      "previewSourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss16.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss16.png",
+          "local": "/screenshots/2023-gw/16-source-1.png",
+          "sha256": "31300982e0fed30e6259554e4f39558b58785e5dcabd52dafe8f43b9b2351524"
+        }
+      ],
+      "sourceMetadata": {
+        "作者": "あげりすと",
+        "ジャンル": "ksg",
+        "ツール": "2000",
+        "配信/投稿": "可・可",
+        "作者コメント": "AIにお馴染みのテキストやキャラ名を入力した時の生成品を見るお遊びです。もしもキャラを再現しようとする試みではありません（そんな技術は無い）。",
+        "管理人コメント": "最近流行りのAIイラストの実力は如何程に。勇者ちゃんかわいくていいぞ(次の場面から出てこないかもしれないけど)。"
+      },
+      "catalogueMetadata": {
+        "author": "あげりすと",
+        "category": "ksg",
+        "engine": "2000",
+        "streaming": "可・可"
+      },
+      "metadataDifferences": [],
+      "authorOmittedInBothSources": false,
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2023-gw-work-17",
+      "no": "17",
+      "detailUrl": "https://viprpg2023gw.neocities.org/entry17.html",
+      "sourceCapture": {
+        "originalUrl": "https://viprpg2023gw.neocities.org/entry17.html",
+        "actualUrl": "https://viprpg2023gw.neocities.org/entry17",
+        "status": 200,
+        "file": "entry17.bin",
+        "sha256": "b95d40e1d58232be872d3a68e8efb72f9664ae386e70f412bb48329110246d6d",
+        "retrievedAt": "2026-10-20T02:06:02.961Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "17"
+      },
+      "iconSourceUrl": "https://viprpg2023gw.neocities.org/img/icon/MZ.png",
+      "previewSourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss17.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss17.png",
+          "local": "/screenshots/2023-gw/17-source-1.png",
+          "sha256": "e7c917476e0e8f155ffbc6a9af39c6a54ed3be52b4c1a56884f198b2e282ba9f"
+        }
+      ],
+      "sourceMetadata": {
+        "作者": "えんがわ",
+        "ジャンル": "超短編RPG",
+        "ツール": "RPGツクールMZ",
+        "配信/投稿": "いいよ・いいよ",
+        "作者コメント": "ドラゴン野菜レイパーとなすびの間に生まれた悲しきハーフドラゴン「なすーん」ある日、彼女のもとに最強の味噌汁の具を決める武闘会の招待状が届いた…トマト先輩の後押しによってなすーんは野菜の誇りを取り戻す為、出場を決意するのであった敵を倒す順番は自由、強化ポイントである「ナスコン」は勝っても負けても貰えるぞ！なすーんを好き勝手にカスタマイズし、最強のナスになれ！",
+        "管理人コメント": "こういうシュールそうなの結構すき。"
+      },
+      "catalogueMetadata": {
+        "author": "えんがわ",
+        "category": "超短編RPG",
+        "engine": "RPGツクールMZ",
+        "streaming": "いいよ・いいよ"
+      },
+      "metadataDifferences": [],
+      "authorOmittedInBothSources": false,
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2023-gw-work-18",
+      "no": "18",
+      "detailUrl": "https://viprpg2023gw.neocities.org/entry18.html",
+      "sourceCapture": {
+        "originalUrl": "https://viprpg2023gw.neocities.org/entry18.html",
+        "actualUrl": "https://viprpg2023gw.neocities.org/entry18",
+        "status": 200,
+        "file": "entry18.bin",
+        "sha256": "55e1d2ffec4ece67d51b1c0c7c4974743b819a85faf966d4727387e5792fd1eb",
+        "retrievedAt": "2026-10-20T02:06:03.950Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "18"
+      },
+      "iconSourceUrl": "https://viprpg2023gw.neocities.org/img/icon/i18.png",
+      "previewSourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss18.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss18.png",
+          "local": "/screenshots/2023-gw/18-source-1.png",
+          "sha256": "94c6eb0700b11ac4bb60338edd6a977e50eb2fddb5b9a833aad6485e340261aa"
+        },
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss18b.png",
+          "local": "/screenshots/2023-gw/18-source-2.png",
+          "sha256": "9a2b91fc0bdab7014a22e05a17cf40c0fed4a7ff01f798e007cd4f4877db61b9"
+        }
+      ],
+      "sourceMetadata": {
+        "作者": "ぼっちぼろまろ",
+        "ジャンル": "あいまいな空気読み診断っぽいの",
+        "ツール": "RPGツクール2000",
+        "配信/投稿": "両方可能だけど自己責任",
+        "作者コメント": "ここは自由に空気を読んでいい空間。あなたが空気を読むことを止める人は誰もいません。たった1人で空気を読める夢の世界。心ゆくまでご堪能ください。というわけで空気を読むあのゲームのインスパイアです。1周大体5分程度で終わる見込みです。ヒント？有名なあの場面ではお約束通りに空気を読みましょう。悪人は悪人らしく空気を読みましょう。（悪人もどきもいるのでごめんね！）ステージは20以上！ただしプレーする毎にランダムです。余裕があったらステージ追加する…かもね？",
+        "管理人コメント": "なんか昔そういうタイトルのゲームありましたね。今も新作出てるみたいで懐かしさを覚える"
+      },
+      "catalogueMetadata": {
+        "author": "ぼっちぼろまろ",
+        "category": "あいまいな空気読み診断っぽいの",
+        "engine": "RPGツクール2000",
+        "streaming": "両方可能だけど自己責任"
+      },
+      "metadataDifferences": [],
+      "authorOmittedInBothSources": false,
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2023-gw-work-19",
+      "no": "19",
+      "detailUrl": "https://viprpg2023gw.neocities.org/entry19.html",
+      "sourceCapture": {
+        "originalUrl": "https://viprpg2023gw.neocities.org/entry19.html",
+        "actualUrl": "https://viprpg2023gw.neocities.org/entry19",
+        "status": 200,
+        "file": "entry19.bin",
+        "sha256": "ba494fd239119ff8ee75350556a4d999babd49e66eaa686a813be71b57355b13",
+        "retrievedAt": "2026-10-20T02:06:05.058Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "19"
+      },
+      "iconSourceUrl": "https://viprpg2023gw.neocities.org/img/icon/i19.png",
+      "previewSourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss19.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss19.png",
+          "local": "/screenshots/2023-gw/19-source-1.png",
+          "sha256": "47685d4bc65fe52919cbfe57926744efc7c15762b39df6f429abba672cb12b4b"
+        },
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss19b.png",
+          "local": "/screenshots/2023-gw/19-source-2.png",
+          "sha256": "4e66f29364363e1e1cc0c56d9e2c43f766776eee52904f0af179f95d6aad20bb"
+        }
+      ],
+      "sourceMetadata": {
+        "作者": "クアアタ",
+        "ジャンル": "アニメ",
+        "ツール": "RPGツクール2000",
+        "配信/投稿": "どっちも好きにやっていいよ",
+        "作者コメント": "本編2分+おまけ2分「劇場アニメ「らくだい魔女　フウカと闇の魔女」おもしろかった」竜騎士ケヴィンから６年、新たなる竜騎士の物語　同時上映！　『きょうはどのこ？？？～しぼうゆうぎへん～』今なら初回コメント特典でゴジさばちゃん！と！スパてぃらちゃん！がついてくる！　えいがかんへ急げ！くわしくはツイッターアカウント「@shikatama69ta」まで！※ツイッターアカウントでコメントしましたとのリプライの一報ととも　「ゴジさばちゃん」か「スパてぃら」ちゃんの　どちらかが希望かを記載いただけると特典を　配布しやすくなりますのでよろしくお願いいたします。",
+        "管理人コメント": "まさかの特典つきとな！？"
+      },
+      "catalogueMetadata": {
+        "author": "クアアタ",
+        "category": "アニメ",
+        "engine": "RPGツクール2000",
+        "streaming": "どっちも好きにやっていいよ"
+      },
+      "metadataDifferences": [],
+      "authorOmittedInBothSources": false,
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2023-gw-work-20",
+      "no": "20",
+      "detailUrl": "https://viprpg2023gw.neocities.org/entry20.html",
+      "sourceCapture": {
+        "originalUrl": "https://viprpg2023gw.neocities.org/entry20.html",
+        "actualUrl": "https://viprpg2023gw.neocities.org/entry20",
+        "status": 200,
+        "file": "entry20.bin",
+        "sha256": "7c345e9367700ba6984ddef191e3a549c95cbf4e8300e44b99c4a889f98fb067",
+        "retrievedAt": "2026-10-20T02:06:05.741Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "20"
+      },
+      "iconSourceUrl": "https://viprpg2023gw.neocities.org/img/icon/i20.png",
+      "previewSourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss20.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss20.png",
+          "local": "/screenshots/2023-gw/20-source-1.png",
+          "sha256": "763755d53cd15a446d7b1223c23601e71b85f855d71ad5bc77eae3c82bc9cbe3"
+        }
+      ],
+      "sourceMetadata": {
+        "作者": "hanol",
+        "ジャンル": "短編集",
+        "ツール": "s2003",
+        "配信/投稿": "可",
+        "作者コメント": "短編ksgを3～4本収録予定です内容は公開されてからのお楽しみに...",
+        "管理人コメント": "某岩男風のかほりを感じますね"
+      },
+      "catalogueMetadata": {
+        "author": "hanol",
+        "category": "短編集",
+        "engine": "s2003",
+        "streaming": "可"
+      },
+      "metadataDifferences": [],
+      "authorOmittedInBothSources": false,
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2023-gw-work-21",
+      "no": "21",
+      "detailUrl": "https://viprpg2023gw.neocities.org/entry21.html",
+      "sourceCapture": {
+        "originalUrl": "https://viprpg2023gw.neocities.org/entry21.html",
+        "actualUrl": "https://viprpg2023gw.neocities.org/entry21",
+        "status": 200,
+        "file": "entry21.bin",
+        "sha256": "f4f3b2e30887761ba2a3666939971da9299a22a863ef31c1d7e6c1b69b9f3cc8",
+        "retrievedAt": "2026-10-20T02:06:06.790Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "21"
+      },
+      "iconSourceUrl": "https://viprpg2023gw.neocities.org/img/icon/VXA.png",
+      "previewSourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss21.jpg",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss21.jpg",
+          "local": "/screenshots/2023-gw/21-source-1.jpg",
+          "sha256": "666e63460d9e3fea1f008da741758e19f949c519d8924e6d48f82490ffd381d8"
+        },
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss21b.jpg",
+          "local": "/screenshots/2023-gw/21-source-2.jpg",
+          "sha256": "66464b70eb5303ad9fcc1bf79909fb9bd9e4c380774109e43a1f6b64bd471e35"
+        }
+      ],
+      "sourceMetadata": {
+        "作者": "しーどん",
+        "ジャンル": "パクリゲー",
+        "ツール": "VX Ace",
+        "配信/投稿": "ダメだ！その配信と動画投稿はパンドラの箱だ！開けてはいけない！中に入っているデータはうｐ主を滅亡へと導く災厄だ！著作権的な意味でタイーホの引き金となる物なんだ!!",
+        "作者コメント": "フゥーハハハ！いよいよ我がインターネット老人会研究所のVIPRPGが公開された。前回の2022紅白ではMrブラウンから「くだらねぇもんを見せやがって、家賃を倍にするぞ」と脅されてしまった・・・。どうやら“機関”は、ついにあのタコ坊主まで抱き込んだようだ。“機関”がMrブラウンを使って妨害してきた以上、もはや猶予はない。あの計画を実行に移すぞ！何？あの計画って何ぞ？だと・・・。計画は計画だ！VIPRPGの実践投入以外になにがあるというのだ！！2022紅白以降、我々はマウス操作対応やクエスト画面システム導入、シナリオ追加などの改良を施し、ついに2023GW祭へと到達した。そして、この計画により世界の支配構造を作り変えるのだ！",
+        "管理人コメント": "確定した過去を変えずに結果を変えるのだ。健闘を祈る、、エル・プサイ・コングルゥ"
+      },
+      "catalogueMetadata": {
+        "author": "しーどん",
+        "category": "パクリゲー",
+        "engine": "VX Ace",
+        "streaming": "ダメだ！その配信と動画投稿はパンドラの箱だ！開けてはいけない！中に入っているデータはうｐ主を滅亡へと導く災厄だ！著作権的な意味でタイーホの引き金となる物なんだ!!"
+      },
+      "metadataDifferences": [],
+      "authorOmittedInBothSources": false,
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2023-gw-work-22",
+      "no": "22",
+      "detailUrl": "https://viprpg2023gw.neocities.org/entry22.html",
+      "sourceCapture": {
+        "originalUrl": "https://viprpg2023gw.neocities.org/entry22.html",
+        "actualUrl": "https://viprpg2023gw.neocities.org/entry22",
+        "status": 200,
+        "file": "entry22.bin",
+        "sha256": "3e9fd03a22285fc58cbd2fa14e38b7972aa710b3fdb4c7db6512f2d05f945f3e",
+        "retrievedAt": "2026-10-20T02:06:08.547Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "22"
+      },
+      "iconSourceUrl": "https://viprpg2023gw.neocities.org/img/icon/i22.png",
+      "previewSourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss22.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss22.png",
+          "local": "/screenshots/2023-gw/22-source-1.png",
+          "sha256": "51aaf5fc05a633ed902234a21c6e9925350f8154942e526dc5bcfabaedbdd770"
+        }
+      ],
+      "sourceMetadata": {
+        "作者": "HOT-W",
+        "ジャンル": "デフォ戦",
+        "ツール": "steam2003_maniacs",
+        "配信/投稿": "○/○",
+        "作者コメント": "電波に果てはあるか？",
+        "管理人コメント": "さあ……僕には分からない"
+      },
+      "catalogueMetadata": {
+        "author": "HOT-W",
+        "category": "デフォ戦",
+        "engine": "steam2003_maniacs",
+        "streaming": "○/○"
+      },
+      "metadataDifferences": [],
+      "authorOmittedInBothSources": false,
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2023-gw-work-23",
+      "no": "23",
+      "detailUrl": "https://viprpg2023gw.neocities.org/entry23.html",
+      "sourceCapture": {
+        "originalUrl": "https://viprpg2023gw.neocities.org/entry23.html",
+        "actualUrl": "https://viprpg2023gw.neocities.org/entry23",
+        "status": 200,
+        "file": "entry23.bin",
+        "sha256": "e9b6d3cd6a602a4afb946a351aa8c4ca555d8f42fcb36e1c31a1154c82a438c6",
+        "retrievedAt": "2026-10-20T02:06:09.280Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "23"
+      },
+      "iconSourceUrl": "https://viprpg2023gw.neocities.org/img/icon/i23.png",
+      "previewSourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss23.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss23.png",
+          "local": "/screenshots/2023-gw/23-source-1.png",
+          "sha256": "75989ce16c0e7b6ef63e931df18f8daa9b3cac9f1ec5496b1ce2408a65a8d0b9"
+        }
+      ],
+      "sourceMetadata": {
+        "作者": "牧場の牛肉＆雨水葉月",
+        "ジャンル": "TSF短編集",
+        "ツール": "2000",
+        "配信/投稿": "可/可",
+        "作者コメント": "アレックスが様々な女の子魔法具現化の姿になってしまうTSF短編集の「合作」GW21の「へんしんアレックス」の続きになっていますが、最低限アレックスが変身しやすい体質になっているという事前提で見ていただければ今作から見始めても大丈夫だと思います『牧場の牛肉のコメント』過去作へんしんアレックスを作るきっかけとなった雨水さんとの合作となる今作、雨水さんとはアレックスの変身姿（通称：○○っくす）についてたくさん語り合った仲でもあるので合作ができるとなってとてもテンションが上がりました…二人によるほどよく健全でちょっぴりえち（ふぇち）な世界観をお楽しみ頂ければと思います『雨水葉月のコメント』過去作「へんしんアレックス」の作るきっかけやネタなど影響与えまくってた人です一方で私も普段もしもの物語を描く上で牛肉さんからとても影響を受けていまして、そんな憧れのツクラーである牛肉さんとの合作ということで同じくテンション上がってます…！二人のやりとりの中でたくさんの○○っくすネタが生まれ、その中のいくつかを見るゲにしました雰囲気としてはつい最近までアニメも放送していたあの兄妹のお話に近いかも？そんなアレックスとリナックスの二人を中心とした、ほのぼのふぇっちなお話を楽しんで頂けましたら幸いです",
+        "管理人コメント": "最近おにまいアニメ化とかありましたし、TSFものも今まで以上にメジャーな性癖になってきましたね。"
+      },
+      "catalogueMetadata": {
+        "author": "牧場の牛肉＆雨水葉月",
+        "category": "TSF短編集",
+        "engine": "2000",
+        "streaming": "可/可"
+      },
+      "metadataDifferences": [],
+      "authorOmittedInBothSources": false,
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2023-gw-work-24",
+      "no": "24",
+      "detailUrl": "https://viprpg2023gw.neocities.org/entry24.html",
+      "sourceCapture": {
+        "originalUrl": "https://viprpg2023gw.neocities.org/entry24.html",
+        "actualUrl": "https://viprpg2023gw.neocities.org/entry24",
+        "status": 200,
+        "file": "entry24.bin",
+        "sha256": "1c569333308387cc2f1aa4731cf938ad35fb12ff5e3c8abc5d374ecee11cd64b",
+        "retrievedAt": "2026-10-20T02:06:11.212Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "24"
+      },
+      "iconSourceUrl": "https://viprpg2023gw.neocities.org/img/icon/i24.png",
+      "previewSourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss24.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss24.png",
+          "local": "/screenshots/2023-gw/24-source-1.png",
+          "sha256": "ffd99df8cfbe71bc1fd76f98d7771e107ea37f79b5fcdf67716815e24f783b75"
+        }
+      ],
+      "sourceMetadata": {
+        "ジャンル": "君が叫ぶまで叩くのを止めないVIPRPG",
+        "ツール": "Steam2003",
+        "配信/投稿": "可",
+        "作者コメント": "マンドラさんを叩きまくるゲーム",
+        "管理人コメント": "なんの罪もないマンドラさんをハンマーが襲う！"
+      },
+      "catalogueMetadata": {
+        "author": "",
+        "category": "君が叫ぶまで叩くのを止めないVIPRPG",
+        "engine": "Steam2003",
+        "streaming": "可"
+      },
+      "metadataDifferences": [],
+      "authorOmittedInBothSources": true,
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2023-gw-work-25",
+      "no": "25",
+      "detailUrl": "https://viprpg2023gw.neocities.org/entry25.html",
+      "sourceCapture": {
+        "originalUrl": "https://viprpg2023gw.neocities.org/entry25.html",
+        "actualUrl": "https://viprpg2023gw.neocities.org/entry25",
+        "status": 200,
+        "file": "entry25.bin",
+        "sha256": "5de89320dcb16ea04e756d69af8e7ac498ea571c7aa64f55c7bfbccdd23b1d3b",
+        "retrievedAt": "2026-10-20T02:06:15.868Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "25"
+      },
+      "iconSourceUrl": "https://viprpg2023gw.neocities.org/img/icon/MV.png",
+      "previewSourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss25.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss25.png",
+          "local": "/screenshots/2023-gw/25-source-1.png",
+          "sha256": "814d1e6d062a78b6da21780c3f89ed7a7cbfb942d2e82133b467bb2476b835e4"
+        }
+      ],
+      "sourceMetadata": {
+        "作者": "猫目　綾人",
+        "ジャンル": "RPG",
+        "ツール": "RPGツクールMV",
+        "配信/投稿": "可",
+        "作者コメント": "■キャッチコピーパンティーのパンティーによるパンティーのためのRPG■あらすじ凄腕のパンティー泥棒であるシンは、その日もパンティーを盗んでいたが、その一連の動きが速すぎるため、時空が歪み未来の世界へタイムスリップしてしまう。未来の世界で時空の歪みを察知した政府に確保されたシンは、事情を説明し、元の時代に戻る方法はないのか聞く。その話を聞いた政府は自分たちが開発した一度しか使用できないタイムマシンを使わせる代わりにある仕事をして欲しいと提案する。その仕事とは、悪の組織「パンティー協会」の計画を止めることだった！",
+        "管理人コメント": "これは……バカゲーじゃな？"
+      },
+      "catalogueMetadata": {
+        "author": "猫目 綾人",
+        "category": "RPG",
+        "engine": "RPGツクールMV",
+        "streaming": "可"
+      },
+      "metadataDifferences": [],
+      "authorOmittedInBothSources": false,
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2023-gw-work-26",
+      "no": "26",
+      "detailUrl": "https://viprpg2023gw.neocities.org/entry26.html",
+      "sourceCapture": {
+        "originalUrl": "https://viprpg2023gw.neocities.org/entry26.html",
+        "actualUrl": "https://viprpg2023gw.neocities.org/entry26",
+        "status": 200,
+        "file": "entry26.bin",
+        "sha256": "1595ddf2be9b8f9e3d5a99b6c3a09d03bfbb5bb9635b9de18e98b051ea20b087",
+        "retrievedAt": "2026-10-20T02:06:16.851Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "26"
+      },
+      "iconSourceUrl": "https://viprpg2023gw.neocities.org/img/icon/i26.png",
+      "previewSourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss26.jpg",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss26.jpg",
+          "local": "/screenshots/2023-gw/26-source-1.jpg",
+          "sha256": "7177d83e3c89a301232d48f890b2fc17e0e0ec40b748f8cfb61ce06c6ab53b5f"
+        }
+      ],
+      "sourceMetadata": {
+        "作者": "自律神経",
+        "ジャンル": "ksg",
+        "ツール": "RPGツクール2000",
+        "配信/投稿": "たぶん大丈夫/可",
+        "作者コメント": "暗い森で嫁様がちんちんに襲われる",
+        "管理人コメント": "Ochinchin."
+      },
+      "catalogueMetadata": {
+        "author": "自律神経",
+        "category": "ksg",
+        "engine": "RPGツクール2000",
+        "streaming": "たぶん大丈夫/可"
+      },
+      "metadataDifferences": [],
+      "authorOmittedInBothSources": false,
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2023-gw-work-27",
+      "no": "27",
+      "detailUrl": "https://viprpg2023gw.neocities.org/entry27.html",
+      "sourceCapture": {
+        "originalUrl": "https://viprpg2023gw.neocities.org/entry27.html",
+        "actualUrl": "https://viprpg2023gw.neocities.org/entry27",
+        "status": 200,
+        "file": "entry27.bin",
+        "sha256": "919e0e7c69feab6ab8b12d26ed64db97a16c9e09edd39bcd5b3ab26f95b673b5",
+        "retrievedAt": "2026-10-20T02:06:19.235Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "27"
+      },
+      "iconSourceUrl": "https://viprpg2023gw.neocities.org/img/icon/i27.png",
+      "previewSourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss27.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss27.png",
+          "local": "/screenshots/2023-gw/27-source-1.png",
+          "sha256": "c218d5a3e879d2f50f9d650b453853950ca4160902f2cd2265eb948fe9454f78"
+        },
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss27b.png",
+          "local": "/screenshots/2023-gw/27-source-2.png",
+          "sha256": "b072b7a9e4bd1009f9e2adefa32caa86b468d86f86fdc35d7dbdc35fe9e460a1"
+        }
+      ],
+      "sourceMetadata": {
+        "作者": "ろーぷれつくろ～",
+        "ジャンル": "短編集",
+        "ツール": "2000",
+        "配信/投稿": "ご自由に/どうぞ",
+        "作者コメント": "ゴールデンウィークは短編集で楽しもう！全部新作の短編集＋α！◆収録作品（各作品の説明はSS2枚目に書いてあります。）＜クルトンだらけ＞＜ナビュー、実家へ帰る＞＜皆勤賞トリオの魔王把握＞＜小ネタ未満の掌編コレクション＞他にも作者が描いた絵が見れる美術館などのおまけもあり！※注意2020年紅白のミニksg集とは違って制作中作品の代理作品ではありません。また、作者が描いた絵のクオリティには期待しないほうがいいかもしれません。",
+        "管理人コメント": "なかなか良さげなラインナップで楽しみです。"
+      },
+      "catalogueMetadata": {
+        "author": "ろーぷれつくろ〜",
+        "category": "短編集",
+        "engine": "2000",
+        "streaming": "ご自由に/どうぞ"
+      },
+      "metadataDifferences": [
+        {
+          "label": "作者",
+          "catalogueValue": "ろーぷれつくろ〜",
+          "detailValue": "ろーぷれつくろ～"
+        }
+      ],
+      "authorOmittedInBothSources": false,
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2023-gw-work-28",
+      "no": "28",
+      "detailUrl": "https://viprpg2023gw.neocities.org/entry28.html",
+      "sourceCapture": {
+        "originalUrl": "https://viprpg2023gw.neocities.org/entry28.html",
+        "actualUrl": "https://viprpg2023gw.neocities.org/entry28",
+        "status": 200,
+        "file": "entry28.bin",
+        "sha256": "b03270cbbd08507d32b2f73e2c5f2f60512d9818a9dc9bfd8538c88a992e2c72",
+        "retrievedAt": "2026-10-20T02:06:22.027Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "28"
+      },
+      "iconSourceUrl": "https://viprpg2023gw.neocities.org/img/icon/i28.png",
+      "previewSourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss28.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss28.png",
+          "local": "/screenshots/2023-gw/28-source-1.png",
+          "sha256": "ccc6d1f281c19e1ec89a5280a1f664a719ed3cfffb410b8f11a6c96ea6a42c94"
+        }
+      ],
+      "sourceMetadata": {
+        "作者": "畳の上の水蓮",
+        "ジャンル": "カス",
+        "ツール": "2000",
+        "配信/投稿": "連絡ください",
+        "作者コメント": "大理石",
+        "管理人コメント": "壮大な物語が始まりそうで始まらなさそう。"
+      },
+      "catalogueMetadata": {
+        "author": "畳の上の水蓮",
+        "category": "カス",
+        "engine": "2000",
+        "streaming": "連絡ください"
+      },
+      "metadataDifferences": [],
+      "authorOmittedInBothSources": false,
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2023-gw-work-29",
+      "no": "29",
+      "detailUrl": "https://viprpg2023gw.neocities.org/entry29.html",
+      "sourceCapture": {
+        "originalUrl": "https://viprpg2023gw.neocities.org/entry29.html",
+        "actualUrl": "https://viprpg2023gw.neocities.org/entry29",
+        "status": 200,
+        "file": "entry29.bin",
+        "sha256": "4485dfd81d754a59706b9b86ca6d101295303e69cc2c5e7ce647d9341390265f",
+        "retrievedAt": "2026-10-20T02:06:22.838Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "29"
+      },
+      "iconSourceUrl": "https://viprpg2023gw.neocities.org/img/icon/i29.png",
+      "previewSourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss29.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss29.png",
+          "local": "/screenshots/2023-gw/29-source-1.png",
+          "sha256": "b278e770032370fcd19670bd23a268064d19b43d3984f8ca4b2e190510e1bdf8"
+        },
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss29b.png",
+          "local": "/screenshots/2023-gw/29-source-2.png",
+          "sha256": "f8d0cc932af662487493a69468c223c0486293cb0070cd7d3ac3f78d02199bd3"
+        }
+      ],
+      "sourceMetadata": {
+        "作者": "温暖化は嘘松",
+        "ジャンル": "陰謀ゲー",
+        "ツール": "2000",
+        "配信/投稿": "拡散可だけど暗殺されても知らないよ",
+        "作者コメント": "元VIPRPGである作者がVIPRPGの住人に向けた命懸けの告発であり暴露ゲーです\nわてうぃんを中心に混沌の時代である今起きている数々の社会問題を分かりやすく解説します！その中でも我々の生命や生活を脅かすレベルの危険度の高い物を中心とした見るゲとなっております二次元好きが多いのでインボイスも例外的に解説有りこのままでは間違いなく滅びゆく日本はどうなってしまうのか？救う手立ては存在するのか？真剣に考えた陰謀論者わてりが全力で徹底解説するぞ！！※俺も命懸けなので伏字はありません",
+        "管理人コメント": "来やがったか……久々にアングラらしいエントリーが……！"
+      },
+      "catalogueMetadata": {
+        "author": "温暖化は嘘松",
+        "category": "陰謀ゲー",
+        "engine": "2000",
+        "streaming": "拡散可だけど暗殺されても知らないよ"
+      },
+      "metadataDifferences": [],
+      "authorOmittedInBothSources": false,
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2023-gw-work-30",
+      "no": "30",
+      "detailUrl": "https://viprpg2023gw.neocities.org/entry30.html",
+      "sourceCapture": {
+        "originalUrl": "https://viprpg2023gw.neocities.org/entry30.html",
+        "actualUrl": "https://viprpg2023gw.neocities.org/entry30",
+        "status": 200,
+        "file": "entry30.bin",
+        "sha256": "d885554cf4fbaa39f7aceafc24f9bb2b1da674e6bc3697a5c8a08de801c32e83",
+        "retrievedAt": "2026-10-20T02:06:24.459Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "30"
+      },
+      "iconSourceUrl": "https://viprpg2023gw.neocities.org/img/icon/2000.png",
+      "previewSourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss30.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss30.png",
+          "local": "/screenshots/2023-gw/30-source-1.png",
+          "sha256": "b99b3f54ead55a945f12c1331586277e9fec51ffc8055ab67ecfc7bed6dec6c5"
+        }
+      ],
+      "sourceMetadata": {
+        "作者": "Rossignol",
+        "ジャンル": "放置ゲー",
+        "ツール": "RPGツクール2000",
+        "配信/投稿": "可／可",
+        "作者コメント": "好きな曲を流したりほかのゲームをやりながらやってください\nテストプレイはあんまりしていません（ぇ",
+        "管理人コメント": "放置ゲーたすかる"
+      },
+      "catalogueMetadata": {
+        "author": "Rossignol",
+        "category": "放置",
+        "engine": "RPGツクール2000",
+        "streaming": "可／可"
+      },
+      "metadataDifferences": [
+        {
+          "label": "ジャンル",
+          "catalogueValue": "放置",
+          "detailValue": "放置ゲー"
+        }
+      ],
+      "authorOmittedInBothSources": false,
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2023-gw-work-31",
+      "no": "31",
+      "detailUrl": "https://viprpg2023gw.neocities.org/entry31.html",
+      "sourceCapture": {
+        "originalUrl": "https://viprpg2023gw.neocities.org/entry31.html",
+        "actualUrl": "https://viprpg2023gw.neocities.org/entry31",
+        "status": 200,
+        "file": "entry31.bin",
+        "sha256": "693be554b28907f57b251792153e151d33bac9568460a650c1eea83b5fa585a1",
+        "retrievedAt": "2026-10-20T02:06:25.745Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "31"
+      },
+      "iconSourceUrl": "https://viprpg2023gw.neocities.org/img/icon/i31.png",
+      "previewSourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss31.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss31.png",
+          "local": "/screenshots/2023-gw/31-source-1.png",
+          "sha256": "55730d46a4653cf0600cdaf69c16f68f1753beb71eedb4edf420bdbec4146270"
+        }
+      ],
+      "sourceMetadata": {
+        "作者": "シバルバー",
+        "ジャンル": "アクションRPG",
+        "ツール": "Steam版2003",
+        "配信/投稿": "可/可",
+        "作者コメント": "某テイルズっぽい戦闘、疑似3Dマップのゲームの体験版です。提出できるようにがんばります。",
+        "管理人コメント": "S2003で3Dマップ……だと……！？"
+      },
+      "catalogueMetadata": {
+        "author": "シバルバー",
+        "category": "アクションRPG",
+        "engine": "Steam版2003",
+        "streaming": "可/可"
+      },
+      "metadataDifferences": [],
+      "authorOmittedInBothSources": false,
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2023-gw-work-32",
+      "no": "32",
+      "detailUrl": "https://viprpg2023gw.neocities.org/entry32.html",
+      "sourceCapture": {
+        "originalUrl": "https://viprpg2023gw.neocities.org/entry32.html",
+        "actualUrl": "https://viprpg2023gw.neocities.org/entry32",
+        "status": 200,
+        "file": "entry32.bin",
+        "sha256": "b25b8a380c562b977a56a9e35ab6a3e987206f8e18fe16f5638247963e963086",
+        "retrievedAt": "2026-10-20T02:06:26.448Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "32"
+      },
+      "iconSourceUrl": "https://viprpg2023gw.neocities.org/img/icon/unite.png",
+      "previewSourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss32.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss32.png",
+          "local": "/screenshots/2023-gw/32-source-1.png",
+          "sha256": "912a11712f3c4d6f9f35e55d07220990598a565555e3205842c09792fa98ff04"
+        }
+      ],
+      "sourceMetadata": {
+        "作者": "黒い砂漠で釣りの神になった屋比久",
+        "ジャンル": "ksg",
+        "ツール": "RPG maker unite",
+        "配信/投稿": "不可",
+        "作者コメント": "mzに続いてまた最速ですか？起動が遅いですね。",
+        "管理人コメント": "ヒャア！新鮮なUnite製ksgだァ！"
+      },
+      "catalogueMetadata": {
+        "author": "黒い砂漠で釣りの神になった屋比久",
+        "category": "ksg",
+        "engine": "RPG maker unite",
+        "streaming": "不可"
+      },
+      "metadataDifferences": [],
+      "authorOmittedInBothSources": false,
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2023-gw-work-33",
+      "no": "33",
+      "detailUrl": "https://viprpg2023gw.neocities.org/entry33.html",
+      "sourceCapture": {
+        "originalUrl": "https://viprpg2023gw.neocities.org/entry33.html",
+        "actualUrl": "https://viprpg2023gw.neocities.org/entry33",
+        "status": 200,
+        "file": "entry33.bin",
+        "sha256": "86ceececcee26aca047c37677dc82ff0e0347dc480fe1851b34986273ec4acea",
+        "retrievedAt": "2026-10-20T02:06:28.538Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "33"
+      },
+      "iconSourceUrl": "https://viprpg2023gw.neocities.org/img/icon/i33.png",
+      "previewSourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss33.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss33.png",
+          "local": "/screenshots/2023-gw/33-source-1.png",
+          "sha256": "ba27e6d5b3c732b6e34ad3d03783bfa3530b5d40c13a97386b0db5206f78ca94"
+        },
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss33b.png",
+          "local": "/screenshots/2023-gw/33-source-2.png",
+          "sha256": "b843384998c048e35c00b682efabae9b140a34d8083aaa211fee4a70675e0f1c"
+        }
+      ],
+      "sourceMetadata": {
+        "作者": "末人",
+        "ジャンル": "読むゲ",
+        "ツール": "ツクール2000",
+        "配信/投稿": "お好きに",
+        "作者コメント": "サイの一生。",
+        "管理人コメント": "これまた良さげな儚い雰囲気を感じる"
+      },
+      "catalogueMetadata": {
+        "author": "末人",
+        "category": "読むゲ",
+        "engine": "ツクール2000",
+        "streaming": "お好きに"
+      },
+      "metadataDifferences": [],
+      "authorOmittedInBothSources": false,
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2023-gw-work-34",
+      "no": "34",
+      "detailUrl": "https://viprpg2023gw.neocities.org/entry34.html",
+      "sourceCapture": {
+        "originalUrl": "https://viprpg2023gw.neocities.org/entry34.html",
+        "actualUrl": "https://viprpg2023gw.neocities.org/entry34",
+        "status": 200,
+        "file": "entry34.bin",
+        "sha256": "b38d66d3885311add6789200273a4537a2cd17b24610ce4d9b408f0920f85815",
+        "retrievedAt": "2026-10-20T02:06:29.634Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "34"
+      },
+      "iconSourceUrl": "https://viprpg2023gw.neocities.org/img/icon/2000.png",
+      "previewSourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss00.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss00.png",
+          "local": "/screenshots/2023-gw/34-source-1.png",
+          "sha256": "699aff9906815fdf22edfa6ef0fc14dccd945a8daf761cfefd3cde5117e176eb"
+        }
+      ],
+      "sourceMetadata": {
+        "作者": "SS・Iconは仮の画像でお願いします",
+        "ジャンル": "ksg",
+        "ツール": "RPGツクール2000",
+        "配信/投稿": "可",
+        "作者コメント": "枯れ木も山の賑わいと言ってるし総エントリー数を増やす為にksgでも提出目指す",
+        "管理人コメント": "がんばえー。"
+      },
+      "catalogueMetadata": {
+        "author": "SS・Iconは仮の画像でお願いします",
+        "category": "ksg",
+        "engine": "RPGツクール2000",
+        "streaming": "可"
+      },
+      "metadataDifferences": [],
+      "authorOmittedInBothSources": false,
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2023-gw-work-35",
+      "no": "35",
+      "detailUrl": "https://viprpg2023gw.neocities.org/entry35.html",
+      "sourceCapture": {
+        "originalUrl": "https://viprpg2023gw.neocities.org/entry35.html",
+        "actualUrl": "https://viprpg2023gw.neocities.org/entry35",
+        "status": 200,
+        "file": "entry35.bin",
+        "sha256": "3ac1107ece157f02bb0f4ba59a525db1e08059876bc839b39d7feca0569e4e17",
+        "retrievedAt": "2026-10-20T02:06:30.592Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "35"
+      },
+      "iconSourceUrl": "https://viprpg2023gw.neocities.org/img/icon/i35.png",
+      "previewSourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss35.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss35.png",
+          "local": "/screenshots/2023-gw/35-source-1.png",
+          "sha256": "b1c2a09d6213082bcb2bd741ff4bade989ef92c8bba4d2585689ecea56f5bdd9"
+        },
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss35b.png",
+          "local": "/screenshots/2023-gw/35-source-2.png",
+          "sha256": "66836de763cf83056636f6bf0e35fa8b6127a30bcc5d498dbb744c354447251f"
+        }
+      ],
+      "sourceMetadata": {
+        "作者": "Husky",
+        "ジャンル": "サバイバル",
+        "ツール": "RPGツクール2000",
+        "配信/投稿": "可能",
+        "作者コメント": "2023年の初夢をゲームにしました。",
+        "管理人コメント": "初夢が物騒すぎないか？"
+      },
+      "catalogueMetadata": {
+        "author": "Husky",
+        "category": "サバイバル",
+        "engine": "RPGツクール2000",
+        "streaming": "可能"
+      },
+      "metadataDifferences": [],
+      "authorOmittedInBothSources": false,
+      "packageBytesDownloaded": false
+    },
+    {
+      "id": "2023-gw-work-36",
+      "no": "36",
+      "detailUrl": "https://viprpg2023gw.neocities.org/entry36.html",
+      "sourceCapture": {
+        "originalUrl": "https://viprpg2023gw.neocities.org/entry36.html",
+        "actualUrl": "https://viprpg2023gw.neocities.org/entry36",
+        "status": 200,
+        "file": "entry36.bin",
+        "sha256": "faf18aea015219ba25afdadc1fe17da55df43e537b353c5531295242a8f86630",
+        "retrievedAt": "2026-10-20T02:06:31.258Z",
+        "proxyRegion": "Japan",
+        "kind": "html",
+        "no": "36"
+      },
+      "iconSourceUrl": "https://viprpg2023gw.neocities.org/img/icon/i36.gif",
+      "previewSourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss36.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2023gw.neocities.org/img/ss/ss36.png",
+          "local": "/screenshots/2023-gw/36-source-1.png",
+          "sha256": "4836de75fc630b14e9fa0445c014394f7a2eb80c743a9cd3aa857f45a821992e"
+        }
+      ],
+      "sourceMetadata": {
+        "作者": "露村",
+        "ジャンル": "音合わせ見るゲ",
+        "ツール": "2000",
+        "配信/投稿": "可/可",
+        "作者コメント": "祭りを賑やかしにきました！(遅1分で終わります",
+        "管理人コメント": "指先でつつかれたらそのまま腐る前に死にそう。"
+      },
+      "catalogueMetadata": {
+        "author": "露村",
+        "category": "音合わせ見るゲ",
+        "engine": "2000",
+        "streaming": "可/可"
+      },
+      "metadataDifferences": [],
+      "authorOmittedInBothSources": false,
+      "packageBytesDownloaded": false
+    }
+  ],
+  "bannerSources": [
+    {
+      "sourceHtml": "source/live/index.bin",
+      "selector": "body>p>img[src^=\"data:image/\"]",
+      "ordinal": 0,
+      "mime": "png",
+      "local": "/banners/2023-gw-source-1.png",
+      "sha256": "18a1c99a9add38a02a1531c92b6264f641d5a08028858d50a16623793037b0c3"
+    },
+    {
+      "sourceHtml": "source/live/index.bin",
+      "selector": "body>p>img[src^=\"data:image/\"]",
+      "ordinal": 1,
+      "mime": "png",
+      "local": "/banners/2023-gw-source-2.png",
+      "sha256": "35c9aaa0d6e306f33a1f9d4b9df56330c45a5aae137dea59fb228158c6722730"
+    }
+  ],
+  "handling": "Direct source archival without content screening or image-pixel inspection. Preserve all displayed and hover screenshot URLs, including JPEG hover images omitted by the historical PNG-only extraction. Separate catalogue previews, source-provided engine icons and sample media from assumptions about missing content. Preserve HTML comments and original quote markers. Top-level embedded festival banners are distinct from embedded past-festival banners. No game packages downloaded.",
+  "desktopReview": "passed",
+  "desktopEvidence": "catch/2023-gw/desktop-review.json",
+  "responsivePreviewEvidence": "catch/2023-gw/investigation/responsive-image-plan.json",
+  "boundaryNavigationEvidence": "catch/2023-gw/investigation/boundary-navigation.json"
+}
