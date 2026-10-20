@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T19:05:49.720Z",
+  "generatedAt": "2026-10-20T19:21:32.172Z",
   "scope": "Local inventory; field presence is not source verification or completeness.",
   "totals": {
     "festivals": 74,
@@ -10,9 +10,9 @@
     "restrictedDetails": 7,
     "withComments": 3141,
     "withScreenshots": 3357,
-    "withDownload": 2842,
-    "withSource": 3773,
-    "referencedAssets": 7843,
+    "withDownload": 2872,
+    "withSource": 3818,
+    "referencedAssets": 7842,
     "assetIssues": 0
   },
   "festivals": [
@@ -494,19 +494,19 @@
     },
     {
       "id": "2018-summer",
-      "dataSha256": "0533b65a1da3eff0ac730f9ad645f849819f9249f77dd30020c9a95b2516c2f2",
+      "dataSha256": "25f3540c315189d986b06d3baf49635648a8466f8572169c27522ba726a56724",
       "listedSourceUrl": "https://vipkohaku.x.fc2.com/2018s/index.html",
       "works": 45,
-      "banners": 3,
+      "banners": 2,
       "detailPages": 45,
       "disabledDetails": 0,
       "restrictedDetails": 0,
       "withAuthor": 45,
       "withComments": 45,
       "withScreenshots": 45,
-      "withDownload": 0,
-      "withSource": 0,
-      "cachedHtmlFiles": 46,
+      "withDownload": 30,
+      "withSource": 45,
+      "cachedHtmlFiles": 139,
       "summaries": [
         "catch/2018-summer/2018-summer-scrape-summary.json"
       ]

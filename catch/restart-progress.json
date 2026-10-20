@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2018-summer",
+  "activeFestival": "2017-gw",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -2037,6 +2037,32 @@
         "catch/2018-kouhaku/investigation/local-http-payloads.json"
       ],
       "notes": "日本节点直接读取仍可用源站viprpgmsmkohaku2018.web.fc2.com，64份UTF-8 HTML（入口、00样例／60正式介绍及两结果页）与163项展示依赖全部HTTP200并保存原始载荷，227份载荷SHA核对。61既有ID、编号和题名保持；122处完整作者／管理人留言与目录元数据逐项比对，无遗漏。原keyword字段直接归档不审看或用于筛选，投票字段及44项更新履历保持原文；14项目录／介绍元数据差异并列保留。源目录是单一61项表，无分组列或分组段落，详情也无分组字段，不凭“红白”祭典名补造分组。61图标、94截图及1横幅均按实际格式归档，旧94画廊载荷与横幅全部字节对应。恢复49项主配布入口及总计100条目录／原介绍地址，旧Yahoo Box与目录Google Drive两种来源分别保留，不声称游戏文件现可下载；00样例指向首页的DL模板未当成配布地址。保留源站jQuery／common本地脚本，移除81处同一FC2托管脚本及计数器。原貌227文件、64HTML、1029静态引用加86悬停引用无缺失或外部自动加载。结果总览原返回entry.html直读404，展示副本改回index.html#gamelist；原响应保留。真实点击证明旧Safari分支对body动画而当前HTML才是滚动元素，回放脚本改用document.scrollingElement后同一锚点从0实际滚至168，目标距顶0.3px；原JS字节不变。61整理详情及64原貌文档桌面无坏图／横向溢出，一项30号首读延迟图复核正常；结果返回、样例到正式01、00截图悬停、实际沙箱锚点及目录进入60、查看器切换／关闭／Esc与首页61项／61图标／1横幅、末项往返均通过。383展示文件HTTP载荷与本地SHA一致；构建4207页、lint与数据校验通过。未新增受限，未审看题材或像素内容，未下载或运行游戏包。"
+    },
+    {
+      "festivalId": "2018-summer",
+      "reviewedAt": "2026-10-21",
+      "dataSha256": "25f3540c315189d986b06d3baf49635648a8466f8572169c27522ba726a56724",
+      "works": 45,
+      "screenshotFiles": 56,
+      "status": "reviewed",
+      "sourceEvidence": [
+        "catch/2018-summer/recovery.json",
+        "catch/2018-summer/source-comparison.json",
+        "catch/2018-summer/source/live/manifest.json",
+        "catch/2018-summer/source/live/deep-manifest.json",
+        "catch/2018-summer/source/archive/manifest.json",
+        "catch/2018-summer/source/resources/manifest.json",
+        "catch/2018-summer/investigation/original-cdx.json",
+        "catch/2018-summer/investigation/entry02-hover-response.json",
+        "catch/2018-summer/investigation/scope-review.json",
+        "catch/2018-summer/investigation/old-gallery-reconciliation.json",
+        "catch/2018-summer/investigation/replay-closure.json"
+      ],
+      "desktopEvidence": [
+        "catch/2018-summer/desktop-review.json",
+        "catch/2018-summer/investigation/local-http-payloads.json"
+      ],
+      "notes": "日本节点核对源入口及详情：FC2镜像连接重置，Geocities HTTP转向关闭服务主机，HTTPS入口404；不将连接失败当成无存档。香港节点从CDX恢复46份UTF-8 HTML（目录、00样例和01至44介绍）及107项有CDX依据的依赖，全部SHA1和本地SHA256核对；另直接取回No.02带.png的悬停别名，字节与无扩展名的已验证图片完全相同，两种地址都保留。45既有ID、编号、题名保持，90段作者／管理人留言完整比对；45图标、56截图及2张本祭典横幅按真实格式保存，旧56画廊全部字节对应。旧额外两横幅未在本批来源找到字节对应，保留原文件，展示采用当前来源明确引用的两张。目录类型／工具原字段分别归档，无分组列或分组段落，不补造分组。保留30项配布入口的31条目录／介绍链接，未下载游戏包。原貌153文件／46HTML，380静态引用加90悬停引用无缺失、无外部自动加载。45整理详情及45原貌详情、入口目录均通过桌面结构／图片／宽度检查；09号首读延迟图片复核正常。真实沙箱目录进00样例、样例进01，09原貌悬停、截图查看器切换／关闭／Esc、首页45图标与2横幅加载和末项往返通过。256展示文件HTTP载荷与本地SHA一致，构建4208页、lint和数据校验通过。未新增受限，未审看题材或像素内容。"
     }
   ],
   "originalViewsReviewed": [
@@ -2504,6 +2530,13 @@
       "evidence": [
         "catch/2018-kouhaku/original-view.json",
         "catch/2018-kouhaku/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2018-summer",
+      "evidence": [
+        "catch/2018-summer/original-view.json",
+        "catch/2018-summer/desktop-review.json"
       ]
     }
   ],

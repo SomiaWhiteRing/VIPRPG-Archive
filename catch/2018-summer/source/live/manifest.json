@@ -1,0 +1,28 @@
+{
+  "rows": [
+    {
+      "originalUrl": "https://vipkohaku.x.fc2.com/2018s/",
+      "status": 0,
+      "error": "ECONNRESET",
+      "proxyRegion": "Japan"
+    },
+    {
+      "originalUrl": "https://www.geocities.jp/tkoolvip2018summer/",
+      "status": 404,
+      "location": null,
+      "file": "probe-1.bin",
+      "bytes": 6885,
+      "sha256": "3706d3cb83a68e2844c8b0b3cf4ebdf65909704c533642235441420327b4fd15",
+      "proxyRegion": "Japan"
+    },
+    {
+      "originalUrl": "http://www.geocities.jp/tkoolvip2018summer/",
+      "status": 301,
+      "location": "https://info-geocities.yahoo.co.jp:443/tkoolvip2018summer/",
+      "file": "probe-2.bin",
+      "bytes": 1,
+      "sha256": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068",
+      "proxyRegion": "Japan"
+    }
+  ]
+}

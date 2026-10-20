@@ -1,0 +1,2555 @@
+{
+  "festivalId": "2018-summer",
+  "originalBase": "http://www.geocities.jp/tkoolvip2018summer/",
+  "entryPage": "index.html",
+  "liveSource": false,
+  "originalResources": {
+    "http://www.geocities.jp/tkoolvip2018summer/entry00.html": "entry00.html",
+    "http://www.geocities.jp/tkoolvip2018summer/index.html": "index.html",
+    "http://www.geocities.jp/tkoolvip2018summer/entry01.html": "entry01.html",
+    "http://www.geocities.jp/tkoolvip2018summer/entry02.html": "entry02.html",
+    "http://www.geocities.jp/tkoolvip2018summer/entry03.html": "entry03.html",
+    "http://www.geocities.jp/tkoolvip2018summer/entry04.html": "entry04.html",
+    "http://www.geocities.jp/tkoolvip2018summer/entry05.html": "entry05.html",
+    "http://www.geocities.jp/tkoolvip2018summer/entry06.html": "entry06.html",
+    "http://www.geocities.jp/tkoolvip2018summer/entry08.html": "entry08.html",
+    "http://www.geocities.jp/tkoolvip2018summer/entry09.html": "entry09.html",
+    "http://www.geocities.jp/tkoolvip2018summer/entry07.html": "entry07.html",
+    "http://www.geocities.jp/tkoolvip2018summer/entry11.html": "entry11.html",
+    "http://www.geocities.jp/tkoolvip2018summer/entry12.html": "entry12.html",
+    "http://www.geocities.jp/tkoolvip2018summer/entry13.html": "entry13.html",
+    "http://www.geocities.jp/tkoolvip2018summer/entry14.html": "entry14.html",
+    "http://www.geocities.jp/tkoolvip2018summer/entry10.html": "entry10.html",
+    "http://www.geocities.jp/tkoolvip2018summer/entry15.html": "entry15.html",
+    "http://www.geocities.jp/tkoolvip2018summer/entry16.html": "entry16.html",
+    "http://www.geocities.jp/tkoolvip2018summer/entry17.html": "entry17.html",
+    "http://www.geocities.jp/tkoolvip2018summer/entry18.html": "entry18.html",
+    "http://www.geocities.jp/tkoolvip2018summer/entry19.html": "entry19.html",
+    "http://www.geocities.jp/tkoolvip2018summer/entry20.html": "entry20.html",
+    "http://www.geocities.jp/tkoolvip2018summer/entry21.html": "entry21.html",
+    "http://www.geocities.jp/tkoolvip2018summer/entry22.html": "entry22.html",
+    "http://www.geocities.jp/tkoolvip2018summer/entry23.html": "entry23.html",
+    "http://www.geocities.jp/tkoolvip2018summer/entry25.html": "entry25.html",
+    "http://www.geocities.jp/tkoolvip2018summer/entry24.html": "entry24.html",
+    "http://www.geocities.jp/tkoolvip2018summer/entry27.html": "entry27.html",
+    "http://www.geocities.jp/tkoolvip2018summer/entry26.html": "entry26.html",
+    "http://www.geocities.jp/tkoolvip2018summer/entry28.html": "entry28.html",
+    "http://www.geocities.jp/tkoolvip2018summer/entry29.html": "entry29.html",
+    "http://www.geocities.jp/tkoolvip2018summer/entry30.html": "entry30.html",
+    "http://www.geocities.jp/tkoolvip2018summer/entry31.html": "entry31.html",
+    "http://www.geocities.jp/tkoolvip2018summer/entry32.html": "entry32.html",
+    "http://www.geocities.jp/tkoolvip2018summer/entry33.html": "entry33.html",
+    "http://www.geocities.jp/tkoolvip2018summer/entry35.html": "entry35.html",
+    "http://www.geocities.jp/tkoolvip2018summer/entry34.html": "entry34.html",
+    "http://www.geocities.jp/tkoolvip2018summer/entry36.html": "entry36.html",
+    "http://www.geocities.jp/tkoolvip2018summer/entry37.html": "entry37.html",
+    "http://www.geocities.jp/tkoolvip2018summer/entry38.html": "entry38.html",
+    "http://www.geocities.jp/tkoolvip2018summer/entry40.html": "entry40.html",
+    "http://www.geocities.jp/tkoolvip2018summer/entry39.html": "entry39.html",
+    "http://www.geocities.jp/tkoolvip2018summer/entry42.html": "entry42.html",
+    "http://www.geocities.jp/tkoolvip2018summer/entry41.html": "entry41.html",
+    "http://www.geocities.jp/tkoolvip2018summer/entry44.html": "entry44.html",
+    "http://www.geocities.jp/tkoolvip2018summer/entry43.html": "entry43.html",
+    "http://www.geocities.jp/tkoolvip2018summer/styles.css": "styles.css",
+    "http://www.geocities.jp/tkoolvip2018summer/entry00ss.png": "entry00ss.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry00icon.gif": "entry00icon.gif",
+    "http://www.geocities.jp/tkoolvip2018summer/summer_2018a.png": "summer_2018a.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry01icon.png": "entry01icon.png",
+    "http://www.geocities.jp/tkoolvip2018summer/summer_2018b.png": "summer_2018b.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry03icon.png": "entry03icon.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry04icon.png": "entry04icon.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry05icon.png": "entry05icon.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entryxxicon.png": "entryxxicon.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entryxxicon2.png": "entryxxicon2.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry10icon.png": "entry10icon.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry02icon.png": "entry02icon.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry11icon1.png": "entry11icon1.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry13icon.png": "entry13icon.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry14icon.png": "entry14icon.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entryxxicon3.png": "entryxxicon3.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry17icon.png": "entry17icon.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry16icon.png": "entry16icon.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry18icon.jpg": "entry18icon.jpg",
+    "http://www.geocities.jp/tkoolvip2018summer/entry20icon.png": "entry20icon.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry21icon.png": "entry21icon.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry22icon.png": "entry22icon.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry24icon.png": "entry24icon.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry27icon.png": "entry27icon.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry25icon.png": "entry25icon.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry28icon.png": "entry28icon.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry29icon.png": "entry29icon.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry30icon.png": "entry30icon.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry33icon.png": "entry33icon.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry32icon.png": "entry32icon.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry35icon.png": "entry35icon.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry37icon.png": "entry37icon.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry38icon.png": "entry38icon.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry43icon.jpg": "entry43icon.jpg",
+    "http://www.geocities.jp/tkoolvip2018summer/entry44icon.png": "entry44icon.png",
+    "http://www.geocities.jp/tkoolvip2018summer/summer_2007.png": "summer_2007.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry34icon.png": "entry34icon.png",
+    "http://www.geocities.jp/tkoolvip2018summer/summer_2008.png": "summer_2008.png",
+    "http://www.geocities.jp/tkoolvip2018summer/summer_2010.png": "summer_2010.png",
+    "http://www.geocities.jp/tkoolvip2018summer/summer_2009.png": "summer_2009.png",
+    "http://www.geocities.jp/tkoolvip2018summer/summer_2011.png": "summer_2011.png",
+    "http://www.geocities.jp/tkoolvip2018summer/summer_2013.png": "summer_2013.png",
+    "http://www.geocities.jp/tkoolvip2018summer/summer_2014.png": "summer_2014.png",
+    "http://www.geocities.jp/tkoolvip2018summer/summer_2012.png": "summer_2012.png",
+    "http://www.geocities.jp/tkoolvip2018summer/summer_2015.png": "summer_2015.png",
+    "http://www.geocities.jp/tkoolvip2018summer/summer_2016.png": "summer_2016.png",
+    "http://www.geocities.jp/tkoolvip2018summer/summer_2016ura.png": "summer_2016ura.png",
+    "http://www.geocities.jp/tkoolvip2018summer/summer_2017.png": "summer_2017.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry01ss2.png": "entry01ss2.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry01ss1": "entry01ss1.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry02ss1": "entry02ss1.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry03ss1.png": "entry03ss1.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry03ss2.png": "entry03ss2.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry04ss.png": "entry04ss.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry05ss.png": "entry05ss.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry06ss.jpg": "entry06ss.jpg",
+    "http://www.geocities.jp/tkoolvip2018summer/entry08ss.png": "entry08ss.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry09ss1.png": "entry09ss1.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry09ss2.png": "entry09ss2.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry07ss.jpg": "entry07ss.jpg",
+    "http://www.geocities.jp/tkoolvip2018summer/entry11ss1.png": "entry11ss1.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry12ss.jpg": "entry12ss.jpg",
+    "http://www.geocities.jp/tkoolvip2018summer/entry13ss2.png": "entry13ss2.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry13ss1.png": "entry13ss1.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry10ss1.png": "entry10ss1.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry14ss.png": "entry14ss.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry10ss2.png": "entry10ss2.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry15ss.png": "entry15ss.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry16ss.png": "entry16ss.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry18ss1.jpg": "entry18ss1.jpg",
+    "http://www.geocities.jp/tkoolvip2018summer/entry17ss.png": "entry17ss.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry19ss.png": "entry19ss.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry18ss2.jpg": "entry18ss2.jpg",
+    "http://www.geocities.jp/tkoolvip2018summer/entry20ss.png": "entry20ss.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry22ss.jpg": "entry22ss.jpg",
+    "http://www.geocities.jp/tkoolvip2018summer/entry21ss.png": "entry21ss.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry23ss.png": "entry23ss.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry24ss1.png": "entry24ss1.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry24ss2.png": "entry24ss2.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry27ss1.png": "entry27ss1.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry26ss1.png": "entry26ss1.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry26ss2.png": "entry26ss2.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry25ss.png": "entry25ss.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry28ss.png": "entry28ss.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry29ss.png": "entry29ss.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry31ss.png": "entry31ss.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry30ss.jpg": "entry30ss.jpg",
+    "http://www.geocities.jp/tkoolvip2018summer/entry32ss.png": "entry32ss.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry33ss1.jpg": "entry33ss1.jpg",
+    "http://www.geocities.jp/tkoolvip2018summer/entry33ss2.jpg": "entry33ss2.jpg",
+    "http://www.geocities.jp/tkoolvip2018summer/entry35ss2.png": "entry35ss2.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry34ss.Png": "entry34ss.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry35ss1.png": "entry35ss1.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry37ss3.png": "entry37ss3.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry37ss2.png": "entry37ss2.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry38ss.png": "entry38ss.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry40ss.png": "entry40ss.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry36ss.PNG": "entry36ss.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry42ss.png": "entry42ss.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry39ss.png": "entry39ss.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry41ss.png": "entry41ss.png",
+    "http://www.geocities.jp/tkoolvip2018summer/entry44ss.jpg": "entry44ss.jpg",
+    "http://www.geocities.jp/tkoolvip2018summer/entry43ss.jpg": "entry43ss.jpg",
+    "http://www.geocities.jp/tkoolvip2018summer/entry02ss1.png": "entry02ss1.png",
+    "http://www.geocities.jp/tkoolvip2018summer/vipsz3_pa5024.png": "vipsz3_pa5024.png",
+    "http://www.geocities.jp/tkoolvip2018summer/vipsz3_pa5023.png": "vipsz3_pa5023.png",
+    "http://www.geocities.jp/tkoolvip2018summer/vipsz3_pa5020.png": "vipsz3_pa5020.png"
+  },
+  "sourceManifests": [
+    "source/replay/manifest.json"
+  ],
+  "entries": [
+    {
+      "id": "2018-summer-work-00",
+      "no": "00",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry00.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330153518id_/http://www.geocities.jp/tkoolvip2018summer/entry00.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "管理人",
+          "html": "作者：管理人"
+        },
+        {
+          "label": "ジャンル",
+          "value": "STG",
+          "html": "ジャンル：STG"
+        },
+        {
+          "label": "ツール",
+          "value": "Steam版2003",
+          "html": "ツール：Steam版2003"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "○/○",
+          "html": "配信/投稿：○/○"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "管理人",
+        "type": "STGSteam版2003",
+        "typeHtml": "STG<br><span class=\"font75\">Steam版2003</span>",
+        "streaming": "○/○"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry00icon.gif",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-summer/00-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry00ss.png",
+          "sha256": "978a869a1f7cff12e3b5b712de7a92ccabda4bcdb07e5302b9252d0f1ebf73cd"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://yahoo.jp/box/OVKefY",
+          "label": "3.6MB"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-summer-work-01",
+      "no": "01",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry01.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330153518id_/http://www.geocities.jp/tkoolvip2018summer/entry01.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "すいかびぃ",
+          "html": "作者：すいかびぃ"
+        },
+        {
+          "label": "ジャンル",
+          "value": "不思議のダンジョンの皮を被ったデフォ戦ゲー",
+          "html": "ジャンル：不思議のダンジョンの皮を被ったデフォ戦ゲー"
+        },
+        {
+          "label": "ツール",
+          "value": "VXAce",
+          "html": "ツール：VXAce"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "可・可",
+          "html": "配信/投稿：可・可"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "すいかびぃ",
+        "type": "不思議のダンジョンの皮を被ったデフォ戦ゲーVXAce",
+        "typeHtml": "不思議のダンジョンの皮を被ったデフォ戦ゲー<br><span class=\"font75\">VXAce</span>",
+        "streaming": "可・可"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry01icon.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-summer/01-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry01ss1",
+          "sha256": "1913a11430804adc01e96828144ee9ce77f55281983edb6f68280b5ec01071b2"
+        },
+        {
+          "local": "/screenshots/2018-summer/01-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry01ss2.png",
+          "sha256": "23cada01c63e16acac58ed49bfd56d2f5ce3bd9df9eaff99b64ad47de5626c42"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://yahoo.jp/box/OwA6Fx",
+          "label": "52.2MB"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-summer-work-02",
+      "no": "02",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry02.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330153519id_/http://www.geocities.jp/tkoolvip2018summer/entry02.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "徳明",
+          "html": "作者：徳明"
+        },
+        {
+          "label": "ジャンル",
+          "value": "屍姦レズerg",
+          "html": "ジャンル：屍姦レズerg"
+        },
+        {
+          "label": "ツール",
+          "value": "Steam版2003",
+          "html": "ツール：Steam版2003"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "BANされるかも/らめぇ",
+          "html": "配信/投稿：BANされるかも/らめぇ"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "徳明",
+        "type": "屍姦レズergSteam版2003",
+        "typeHtml": "屍姦レズerg<br><span class=\"font75\">Steam版2003</span>",
+        "streaming": "BANされるかも/らめぇ"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry02icon.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-summer/02-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry02ss1",
+          "sha256": "c47205bcbdee13445493722131b66f30f10ce3a7ee1bac14a2459a67aff6d2ee"
+        }
+      ],
+      "downloadLinks": [],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-summer-work-03",
+      "no": "03",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry03.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135425id_/http://www.geocities.jp/tkoolvip2018summer/entry03.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "池田さん",
+          "html": "作者：池田さん"
+        },
+        {
+          "label": "ジャンル",
+          "value": "ラブストーリー系ギャグアクション見るゲー",
+          "html": "ジャンル：ラブストーリー系ギャグアクション見るゲー"
+        },
+        {
+          "label": "ツール",
+          "value": "２０００",
+          "html": "ツール：２０００"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "いいよ・いいよ",
+          "html": "配信/投稿：いいよ・いいよ"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "池田さん",
+        "type": "ラブストーリー系ギャグアクション見るゲー２０００",
+        "typeHtml": "ラブストーリー系ギャグアクション見るゲー<br><span class=\"font75\">２０００</span>",
+        "streaming": "いいよ・いいよ"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry03icon.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-summer/03-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry03ss1.png",
+          "sha256": "619cc910984598537ddf79226bb0215c0bc66ec9795d05479823b1cb76b4e714"
+        },
+        {
+          "local": "/screenshots/2018-summer/03-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry03ss2.png",
+          "sha256": "a44a18452658e798587b3c7180aee356141d7072bfd9a735f08dd222e41ac1ac"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://yahoo.jp/box/-XZaVp",
+          "label": "94.6MB"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-summer-work-04",
+      "no": "04",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry04.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330153519id_/http://www.geocities.jp/tkoolvip2018summer/entry04.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "アクハデ大好き丸（仮）",
+          "html": "作者：アクハデ大好き丸（仮）"
+        },
+        {
+          "label": "ジャンル",
+          "value": "見るゲ",
+          "html": "ジャンル：見るゲ"
+        },
+        {
+          "label": "ツール",
+          "value": "RPGツクール2000",
+          "html": "ツール：RPGツクール2000"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "両方とも可能（自己責任）",
+          "html": "配信/投稿：両方とも可能（自己責任）"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "アクハデ大好き丸（仮）",
+        "type": "見るゲRPGツクール2000",
+        "typeHtml": "見るゲ<br><span class=\"font75\">RPGツクール2000</span>",
+        "streaming": "両方とも可能（自己責任）"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry04icon.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-summer/04-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry04ss.png",
+          "sha256": "304ce36d79084506017d96c57082b344d361874bb2f60275460826f09d0e354f"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://yahoo.jp/box/4p1ARw",
+          "label": "1.1MB"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-summer-work-05",
+      "no": "05",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry05.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330153519id_/http://www.geocities.jp/tkoolvip2018summer/entry05.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "鷹",
+          "html": "作者：鷹"
+        },
+        {
+          "label": "ジャンル",
+          "value": "ストーンⅠ",
+          "html": "ジャンル：ストーンⅠ"
+        },
+        {
+          "label": "ツール",
+          "value": "2000",
+          "html": "ツール：2000"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "可・可",
+          "html": "配信/投稿：可・可"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "鷹",
+        "type": "ストーンⅠ2000",
+        "typeHtml": "ストーンⅠ<br><span class=\"font75\">2000</span>",
+        "streaming": "可・可"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry05icon.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-summer/05-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry05ss.png",
+          "sha256": "afc220fe634e04896c153b9e96c640935d33de3a0365dd1e5f8c426558650667"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://yahoo.jp/box/G6UiGu",
+          "label": "185.6kB"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-summer-work-06",
+      "no": "06",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry06.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331140314id_/http://www.geocities.jp/tkoolvip2018summer/entry06.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "おちんちんブンブン丸",
+          "html": "作者：おちんちんブンブン丸"
+        },
+        {
+          "label": "ジャンル",
+          "value": "見る",
+          "html": "ジャンル：見る"
+        },
+        {
+          "label": "ツール",
+          "value": "2000",
+          "html": "ツール：2000"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "可可",
+          "html": "配信/投稿：可可"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "おちんちんブンブン丸",
+        "type": "見る2000",
+        "typeHtml": "見る<br><span class=\"font75\">2000</span>",
+        "streaming": "可可"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entryxxicon.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-summer/06-source-1.jpg",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry06ss.jpg",
+          "sha256": "e2e5d659a074e4bdecfe3e1462c869d74da5f84ab4e42a363686394f5b2e40e9"
+        }
+      ],
+      "downloadLinks": [],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-summer-work-07",
+      "no": "07",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry07.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330153519id_/http://www.geocities.jp/tkoolvip2018summer/entry07.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "ツクール初心者",
+          "html": "作者：ツクール初心者"
+        },
+        {
+          "label": "ジャンル",
+          "value": "墓参り",
+          "html": "ジャンル：墓参り"
+        },
+        {
+          "label": "ツール",
+          "value": "VXAce",
+          "html": "ツール：VXAce"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "どちらも可",
+          "html": "配信/投稿：どちらも可"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "ツクール初心者",
+        "type": "墓参りVXAce",
+        "typeHtml": "墓参り<br><span class=\"font75\">VXAce</span>",
+        "streaming": "どちらも可"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entryxxicon2.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-summer/07-source-1.jpg",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry07ss.jpg",
+          "sha256": "6a38c273b61277e3eea49a6801f462800ebb8cbef9e70ed22c57d698613275d7"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://yahoo.jp/box/EiDnip",
+          "label": "1.4MB"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-summer-work-08",
+      "no": "08",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry08.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330153519id_/http://www.geocities.jp/tkoolvip2018summer/entry08.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "かに",
+          "html": "作者：かに"
+        },
+        {
+          "label": "ジャンル",
+          "value": "TRPGリプレイっぽいモノ",
+          "html": "ジャンル：TRPGリプレイっぽいモノ"
+        },
+        {
+          "label": "ツール",
+          "value": "RPGツクール2000",
+          "html": "ツール：RPGツクール2000"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "どっちもおk",
+          "html": "配信/投稿：どっちもおk"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "かに",
+        "type": "TRPGリプレイっぽいモノRPGツクール2000",
+        "typeHtml": "TRPGリプレイっぽいモノ<br><span class=\"font75\">RPGツクール2000</span>",
+        "streaming": "どっちもおk"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entryxxicon.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-summer/08-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry08ss.png",
+          "sha256": "a86f2f802d598e9ee44d5534078f4948ef34e27a0ff5dc5b518bf92468d3571e"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://yahoo.jp/box/Zz2V3t",
+          "label": "2.4MB"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-summer-work-09",
+      "no": "09",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry09.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330153520id_/http://www.geocities.jp/tkoolvip2018summer/entry09.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "前世で業を積みすぎてプリンになってしまった人",
+          "html": "作者：前世で業を積みすぎてプリンになってしまった人"
+        },
+        {
+          "label": "ジャンル",
+          "value": "自然と何故か若干百合くなった多分短編",
+          "html": "ジャンル：自然と何故か若干百合くなった多分短編"
+        },
+        {
+          "label": "ツール",
+          "value": "2000",
+          "html": "ツール：2000"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "共に可",
+          "html": "配信/投稿：共に可"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "前世で業を積みすぎてプリンになってしまった人",
+        "type": "自然と何故か若干百合くなった多分短編2000",
+        "typeHtml": "自然と何故か若干百合くなった多分短編<br><span class=\"font75\">2000</span>",
+        "streaming": "共に可"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entryxxicon.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-summer/09-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry09ss1.png",
+          "sha256": "c65d68a675782448f12ef0dc658130d0971f989af1a361631b58c0962d97d111"
+        },
+        {
+          "local": "/screenshots/2018-summer/09-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry09ss2.png",
+          "sha256": "9cd1b8e6e9e23f5421666c2b01c5f2c1645192ee68270d81e704acefefba5201"
+        }
+      ],
+      "downloadLinks": [],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-summer-work-10",
+      "no": "10",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry10.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330153520id_/http://www.geocities.jp/tkoolvip2018summer/entry10.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "かすていら",
+          "html": "作者：かすていら"
+        },
+        {
+          "label": "ジャンル",
+          "value": "リプレイ見るゲ",
+          "html": "ジャンル：リプレイ見るゲ"
+        },
+        {
+          "label": "ツール",
+          "value": "Steam版2003",
+          "html": "ツール：Steam版2003"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "共に可",
+          "html": "配信/投稿：共に可"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "かすていら",
+        "type": "リプレイ見るゲSteam版2003",
+        "typeHtml": "リプレイ見るゲ<br><span class=\"font75\">Steam版2003</span>",
+        "streaming": "共に可"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry10icon.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-summer/10-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry10ss1.png",
+          "sha256": "be88feb67cbe193caa1964c3c94f310cf5c92f6fbf208e6a4f65eaa86f7e148a"
+        },
+        {
+          "local": "/screenshots/2018-summer/10-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry10ss2.png",
+          "sha256": "e07663c764ef62c502e86399f20b634907834a5c2388ef61a3dd76102bebe9bd"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://yahoo.jp/box/aBO3yp",
+          "label": "29.3MB"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-summer-work-11",
+      "no": "11",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry11.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330153521id_/http://www.geocities.jp/tkoolvip2018summer/entry11.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "通りすがりのねざか",
+          "html": "作者：通りすがりのねざか"
+        },
+        {
+          "label": "ジャンル",
+          "value": "短時間で終わるｋｓｇ",
+          "html": "ジャンル：短時間で終わるｋｓｇ"
+        },
+        {
+          "label": "ツール",
+          "value": "ＶＸ　Ａｃｅ",
+          "html": "ツール：ＶＸ　Ａｃｅ"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "どちらも可。",
+          "html": "配信/投稿：どちらも可。"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "通りすがりのねざか",
+        "type": "短時間で終わるｋｓｇＶＸ　Ａｃｅ",
+        "typeHtml": "短時間で終わるｋｓｇ<br><span class=\"font75\">ＶＸ　Ａｃｅ</span>",
+        "streaming": "どちらも可。"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry11icon1.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-summer/11-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry11ss1.png",
+          "sha256": "a887f9ad2b13846b10cebbefbffb0480ee5d7b210137bcd15281c12d51019e9a"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://yahoo.jp/box/f08Ptv",
+          "label": "40.5MB"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-summer-work-12",
+      "no": "12",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry12.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330153520id_/http://www.geocities.jp/tkoolvip2018summer/entry12.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "UNKO",
+          "html": "作者：UNKO"
+        },
+        {
+          "label": "ジャンル",
+          "value": "ksg",
+          "html": "ジャンル：ksg"
+        },
+        {
+          "label": "ツール",
+          "value": "2000",
+          "html": "ツール：2000"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "○/○",
+          "html": "配信/投稿：○/○"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "UNKO",
+        "type": "ksg2000",
+        "typeHtml": "ksg<br><span class=\"font75\">2000</span>",
+        "streaming": "○/○"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entryxxicon.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-summer/12-source-1.jpg",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry12ss.jpg",
+          "sha256": "b5023ee1227637ad7dd6be9c76a2154fb5d972079474b3e2227ec9919f3bab98"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://yahoo.jp/box/4JAj42",
+          "label": "14.9MB"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-summer-work-13",
+      "no": "13",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry13.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330153525id_/http://www.geocities.jp/tkoolvip2018summer/entry13.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "名雲きつね",
+          "html": "作者：名雲きつね"
+        },
+        {
+          "label": "ジャンル",
+          "value": "kserg",
+          "html": "ジャンル：kserg"
+        },
+        {
+          "label": "ツール",
+          "value": "2000",
+          "html": "ツール：2000"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "自己責任",
+          "html": "配信/投稿：自己責任"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "名雲きつね",
+        "type": "kserg2000",
+        "typeHtml": "kserg<br><span class=\"font75\">2000</span>",
+        "streaming": "自己責任"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry13icon.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-summer/13-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry13ss1.png",
+          "sha256": "8f76559309adb76449d5566010b9d18186b9c0731767c052254b34e74c24d652"
+        },
+        {
+          "local": "/screenshots/2018-summer/13-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry13ss2.png",
+          "sha256": "e75b805accad7cadb16159f03365eb2d78185a4a2a68df0fa7e3375e87942ed0"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://yahoo.jp/box/3-QijS",
+          "label": "38.5MB"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-summer-work-14",
+      "no": "14",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry14.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331142009id_/http://www.geocities.jp/tkoolvip2018summer/entry14.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "屋根裏ビーム",
+          "html": "作者：屋根裏ビーム"
+        },
+        {
+          "label": "ジャンル",
+          "value": "見るゲ",
+          "html": "ジャンル：見るゲ"
+        },
+        {
+          "label": "ツール",
+          "value": "2000",
+          "html": "ツール：2000"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "どちらも可",
+          "html": "配信/投稿：どちらも可"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "屋根裏ビーム",
+        "type": "見るゲ2000",
+        "typeHtml": "見るゲ<br><span class=\"font75\">2000</span>",
+        "streaming": "どちらも可"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry14icon.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-summer/14-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry14ss.png",
+          "sha256": "168d7864411238103891d6890a2765cb84e0b51f4213d1b1486cc02e113cdbcd"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://yahoo.jp/box/2zhVqR",
+          "label": "8.3MB"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-summer-work-15",
+      "no": "15",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry15.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330153521id_/http://www.geocities.jp/tkoolvip2018summer/entry15.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "メール欄（メールラン）",
+          "html": "作者：メール欄（メールラン）"
+        },
+        {
+          "label": "ジャンル",
+          "value": "ｋｓｇ集",
+          "html": "ジャンル：ｋｓｇ集"
+        },
+        {
+          "label": "ツール",
+          "value": "2003Steam",
+          "html": "ツール：2003Steam"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "両方いいけど一応R-18",
+          "html": "配信/投稿：両方いいけど一応R-18"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "メール欄（メールラン）",
+        "type": "ｋｓｇ集2003Steam",
+        "typeHtml": "ｋｓｇ集<br><span class=\"font75\">2003Steam</span>",
+        "streaming": "両方いいけど一応R-18"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entryxxicon3.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-summer/15-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry15ss.png",
+          "sha256": "de08828474d7f53011739c504a38aee7f72ea49b29c050b5e6ecca5305f7a73f"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://yahoo.jp/box/u4Zo6Z",
+          "label": "11.5MB"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-summer-work-16",
+      "no": "16",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry16.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330153525id_/http://www.geocities.jp/tkoolvip2018summer/entry16.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "星の回教聖戦士（ガージー）",
+          "html": "作者：星の回教聖戦士（ガージー）"
+        },
+        {
+          "label": "ジャンル",
+          "value": "ゴミ",
+          "html": "ジャンル：ゴミ"
+        },
+        {
+          "label": "ツール",
+          "value": "steam2003",
+          "html": "ツール：steam2003"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "好きにしろ",
+          "html": "配信/投稿：好きにしろ"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "星の回教聖戦士（ガージー）",
+        "type": "ゴミsteam2003",
+        "typeHtml": "ゴミ<br><span class=\"font75\">steam2003</span>",
+        "streaming": "好きにしろ"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry16icon.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-summer/16-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry16ss.png",
+          "sha256": "d84ff601c3589640b0d6bee1e6d642778caf0753d32d92a52b1c69c35e609488"
+        }
+      ],
+      "downloadLinks": [],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-summer-work-17",
+      "no": "17",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry17.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330153526id_/http://www.geocities.jp/tkoolvip2018summer/entry17.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "五つ葉",
+          "html": "作者：五つ葉"
+        },
+        {
+          "label": "ジャンル",
+          "value": "デフォ戦",
+          "html": "ジャンル：デフォ戦"
+        },
+        {
+          "label": "ツール",
+          "value": "RPGツクール２０００",
+          "html": "ツール：RPGツクール２０００"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "OK/OK",
+          "html": "配信/投稿：OK/OK"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "五つ葉",
+        "type": "デフォ戦RPGツクール２０００",
+        "typeHtml": "デフォ戦<br><span class=\"font75\">RPGツクール２０００</span>",
+        "streaming": "OK/OK"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry17icon.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-summer/17-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry17ss.png",
+          "sha256": "bf82992a68ae9b0f4e5dbea4c4c90da036466af27ce9ed8ef983734250978c65"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://yahoo.jp/box/F7mhB3",
+          "label": "13.8MB"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-summer-work-18",
+      "no": "18",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry18.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331125702id_/http://www.geocities.jp/tkoolvip2018summer/entry18.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "究極魔理沙",
+          "html": "作者：究極魔理沙"
+        },
+        {
+          "label": "ジャンル",
+          "value": "アクションゲーム",
+          "html": "ジャンル：アクションゲーム"
+        },
+        {
+          "label": "ツール",
+          "value": "２０００",
+          "html": "ツール：２０００"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "◎・◎",
+          "html": "配信/投稿：◎・◎"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "究極魔理沙",
+        "type": "アクションゲーム２０００",
+        "typeHtml": "アクションゲーム<br><span class=\"font75\">２０００</span>",
+        "streaming": "◎・◎"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry18icon.jpg",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-summer/18-source-1.jpg",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry18ss1.jpg",
+          "sha256": "30088973d52dedc3c48536fb68af27ecfec154b0fe098ab90f6e042afee1df6f"
+        },
+        {
+          "local": "/screenshots/2018-summer/18-source-2.jpg",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry18ss2.jpg",
+          "sha256": "7216ef3580458ec73f48847d11c83a9afde4a731d7ea0e37db7a1ff08101d229"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://yahoo.jp/box/WoVInm",
+          "label": "11.3MB"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-summer-work-19",
+      "no": "19",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry19.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330153526id_/http://www.geocities.jp/tkoolvip2018summer/entry19.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "屋比久",
+          "html": "作者：屋比久"
+        },
+        {
+          "label": "ジャンル",
+          "value": "脱出ゲーム？のようなksg",
+          "html": "ジャンル：脱出ゲーム？のようなksg"
+        },
+        {
+          "label": "ツール",
+          "value": "2000",
+          "html": "ツール：2000"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "〇or×？",
+          "html": "配信/投稿：〇or×？"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "屋比久",
+        "type": "脱出ゲーム？のようなksg2000",
+        "typeHtml": "脱出ゲーム？のようなksg<br><span class=\"font75\">2000</span>",
+        "streaming": "〇or×？"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entryxxicon.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-summer/19-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry19ss.png",
+          "sha256": "9d219736a6a820d6c5c94b5a72a03611987599c861494bbf62e031448f46f339"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://yahoo.jp/box/8C-QGb",
+          "label": "48.3MB"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-summer-work-20",
+      "no": "20",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry20.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331141228id_/http://www.geocities.jp/tkoolvip2018summer/entry20.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "おぼろ",
+          "html": "作者：おぼろ"
+        },
+        {
+          "label": "ジャンル",
+          "value": "NAITO SOFT",
+          "html": "ジャンル：NAITO SOFT"
+        },
+        {
+          "label": "ツール",
+          "value": "RPGツクールMV",
+          "html": "ツール：RPGツクールMV"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "可/可",
+          "html": "配信/投稿：可/可"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "おぼろ",
+        "type": "NAITO SOFTRPGツクールMV",
+        "typeHtml": "NAITO SOFT<br><span class=\"font75\">RPGツクールMV</span>",
+        "streaming": "可/可"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry20icon.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-summer/20-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry20ss.png",
+          "sha256": "d642385514ea6f157a75f20c49f0517aa082e04a2fe827290682230517720ce5"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://yahoo.jp/box/Gfsh72",
+          "label": "70.0MB"
+        },
+        {
+          "url": "https://naitosoft.github.io/ad10001/",
+          "label": "Web版"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-summer-work-21",
+      "no": "21",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry21.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331141644id_/http://www.geocities.jp/tkoolvip2018summer/entry21.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "牧場の牛肉",
+          "html": "作者：牧場の牛肉"
+        },
+        {
+          "label": "ジャンル",
+          "value": "デフォ戦",
+          "html": "ジャンル：デフォ戦"
+        },
+        {
+          "label": "ツール",
+          "value": "2000",
+          "html": "ツール：2000"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "○/○",
+          "html": "配信/投稿：○/○"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "牧場の牛肉",
+        "type": "デフォ戦2000",
+        "typeHtml": "デフォ戦<br><span class=\"font75\">2000</span>",
+        "streaming": "○/○"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry21icon.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-summer/21-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry21ss.png",
+          "sha256": "61284c1ad641c9534af70c0493b220ebfaff3de36258c1b6ae300342c259132e"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://yahoo.jp/box/IVxFRU",
+          "label": "2.6MB"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-summer-work-22",
+      "no": "22",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry22.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330153527id_/http://www.geocities.jp/tkoolvip2018summer/entry22.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "アルゴ",
+          "html": "作者：アルゴ"
+        },
+        {
+          "label": "ジャンル",
+          "value": "講座ゲー",
+          "html": "ジャンル：講座ゲー"
+        },
+        {
+          "label": "ツール",
+          "value": "2000",
+          "html": "ツール：2000"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "OK・OK",
+          "html": "配信/投稿：OK・OK"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "アルゴ",
+        "type": "講座ゲー2000",
+        "typeHtml": "講座ゲー<br><span class=\"font75\">2000</span>",
+        "streaming": "OK・OK"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry22icon.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-summer/22-source-1.jpg",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry22ss.jpg",
+          "sha256": "225b1d8f0042899596a8f5c237082002a05840cbe28bf06f720d6c8296b6a1a2"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://yahoo.jp/box/WVffOG",
+          "label": "14.2kB"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-summer-work-23",
+      "no": "23",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry23.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330153528id_/http://www.geocities.jp/tkoolvip2018summer/entry23.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "JK",
+          "html": "作者：JK"
+        },
+        {
+          "label": "ジャンル",
+          "value": "TRPGリプレイ見るゲ",
+          "html": "ジャンル：TRPGリプレイ見るゲ"
+        },
+        {
+          "label": "ツール",
+          "value": "RPGツクール2000",
+          "html": "ツール：RPGツクール2000"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "可",
+          "html": "配信/投稿：可"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "JK",
+        "type": "TRPGリプレイ見るゲRPGツクール2000",
+        "typeHtml": "TRPGリプレイ見るゲ<br><span class=\"font75\">RPGツクール2000</span>",
+        "streaming": "可"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entryxxicon.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-summer/23-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry23ss.png",
+          "sha256": "45798135efb75d3feab985a8b0b368c22ed8c07eddc6864edd586de0c6807ceb"
+        }
+      ],
+      "downloadLinks": [],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-summer-work-24",
+      "no": "24",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry24.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330153528id_/http://www.geocities.jp/tkoolvip2018summer/entry24.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "ジャスティス",
+          "html": "作者：ジャスティス"
+        },
+        {
+          "label": "ジャンル",
+          "value": "読むksg",
+          "html": "ジャンル：読むksg"
+        },
+        {
+          "label": "ツール",
+          "value": "steam版2003",
+          "html": "ツール：steam版2003"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "可・可",
+          "html": "配信/投稿：可・可"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "ジャスティス",
+        "type": "読むksgsteam版2003",
+        "typeHtml": "読むksg<br><span class=\"font75\">steam版2003</span>",
+        "streaming": "可・可"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry24icon.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-summer/24-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry24ss1.png",
+          "sha256": "d9508aee57576e6413d3798a01dc8fafe95d0c1d418e00f6c0f3c361a6510a35"
+        },
+        {
+          "local": "/screenshots/2018-summer/24-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry24ss2.png",
+          "sha256": "cd26b309f19daae52eff476525b5bcd4e976f1674ac7f1f68a5d82c3bd3cf121"
+        }
+      ],
+      "downloadLinks": [],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-summer-work-25",
+      "no": "25",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry25.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331124025id_/http://www.geocities.jp/tkoolvip2018summer/entry25.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "ksg太郎",
+          "html": "作者：ksg太郎"
+        },
+        {
+          "label": "ジャンル",
+          "value": "なろう系",
+          "html": "ジャンル：なろう系"
+        },
+        {
+          "label": "ツール",
+          "value": "2000",
+          "html": "ツール：2000"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "両方可",
+          "html": "配信/投稿：両方可"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "ksg太郎",
+        "type": "なろう系2000",
+        "typeHtml": "なろう系<br><span class=\"font75\">2000</span>",
+        "streaming": "両方可"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry25icon.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-summer/25-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry25ss.png",
+          "sha256": "803e9914633d99edd08ee4081a584048c4d2bfebc6928c773ff6e32bb065bab1"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://yahoo.jp/box/IB4TxP",
+          "label": "1.4MB"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-summer-work-26",
+      "no": "26",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry26.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330153528id_/http://www.geocities.jp/tkoolvip2018summer/entry26.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "アナルハメ",
+          "html": "作者：アナルハメ"
+        },
+        {
+          "label": "ジャンル",
+          "value": "ksg",
+          "html": "ジャンル：ksg"
+        },
+        {
+          "label": "ツール",
+          "value": "Steam2003",
+          "html": "ツール：Steam2003"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "良いかも",
+          "html": "配信/投稿：良いかも"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "アナルハメ",
+        "type": "ksgSteam2003",
+        "typeHtml": "ksg<br><span class=\"font75\">Steam2003</span>",
+        "streaming": "良いかも"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entryxxicon3.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-summer/26-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry26ss1.png",
+          "sha256": "5ef2179e35000bca4caeeea9ad46e60e73254642d5ab1eff5b6969c2478eae40"
+        },
+        {
+          "local": "/screenshots/2018-summer/26-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry26ss2.png",
+          "sha256": "3fa84eec5249103a5e726c44f08400fa474d943312b9a28c7f3629fb4c93b9fa"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://yahoo.jp/box/e29Vqz",
+          "label": "4.8MB"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-summer-work-27",
+      "no": "27",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry27.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330153528id_/http://www.geocities.jp/tkoolvip2018summer/entry27.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "ゲル美",
+          "html": "作者：ゲル美"
+        },
+        {
+          "label": "ジャンル",
+          "value": "レイズで解決する話",
+          "html": "ジャンル：レイズで解決する話"
+        },
+        {
+          "label": "ツール",
+          "value": "2000",
+          "html": "ツール：2000"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "共に可",
+          "html": "配信/投稿：共に可"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "ゲル美",
+        "type": "レイズで解決する話2000",
+        "typeHtml": "レイズで解決する話<br><span class=\"font75\">2000</span>",
+        "streaming": "共に可"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry27icon.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-summer/27-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry27ss1.png",
+          "sha256": "b4f45eb30c82f863020e220dfdc921b99d48d81bff42d7f11be9ffdc5f72cb68"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://yahoo.jp/box/py1Ghm",
+          "label": "774.3kB"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-summer-work-28",
+      "no": "28",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry28.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331144045id_/http://www.geocities.jp/tkoolvip2018summer/entry28.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "めがみ：おかま",
+          "html": "作者：めがみ：おかま"
+        },
+        {
+          "label": "ジャンル",
+          "value": "シュレディンガーの猫",
+          "html": "ジャンル：シュレディンガーの猫"
+        },
+        {
+          "label": "ツール",
+          "value": "ツクール２Ｄ２０",
+          "html": "ツール：ツクール２Ｄ２０"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "うん",
+          "html": "配信/投稿：うん"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "めがみ：おかま",
+        "type": "シュレディンガーの猫ツクール２Ｄ２０",
+        "typeHtml": "シュレディンガーの猫<br><span class=\"font75\">ツクール２Ｄ２０</span>",
+        "streaming": "うん"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry28icon.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-summer/28-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry28ss.png",
+          "sha256": "741905e540b594597b1024c8ed85a33a9293299b176ef876b38d7ecceb262145"
+        }
+      ],
+      "downloadLinks": [],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-summer-work-29",
+      "no": "29",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry29.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331145613id_/http://www.geocities.jp/tkoolvip2018summer/entry29.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "ゴメス研究室",
+          "html": "作者：ゴメス研究室"
+        },
+        {
+          "label": "ジャンル",
+          "value": "ゴメス系ksg",
+          "html": "ジャンル：ゴメス系ksg"
+        },
+        {
+          "label": "ツール",
+          "value": "MV",
+          "html": "ツール：MV"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "フッ・・・　好きにしろ。",
+          "html": "配信/投稿：フッ・・・　好きにしろ。"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "ゴメス研究室",
+        "type": "ゴメス系ksgMV",
+        "typeHtml": "ゴメス系ksg<br><span class=\"font75\">MV</span>",
+        "streaming": "フッ・・・　好きにしろ。"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry29icon.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-summer/29-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry29ss.png",
+          "sha256": "31a4c9632c21219a8601277d974946eebab4a86cc8855749f88877dfe0143f84"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://yahoo.jp/box/jZaFW4",
+          "label": "58.8MB"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-summer-work-30",
+      "no": "30",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry30.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330153529id_/http://www.geocities.jp/tkoolvip2018summer/entry30.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "ほのぼの百合ゲーの神の作者",
+          "html": "作者：ほのぼの百合ゲーの神の作者"
+        },
+        {
+          "label": "ジャンル",
+          "value": "ほのぼの百合ゲー",
+          "html": "ジャンル：ほのぼの百合ゲー"
+        },
+        {
+          "label": "ツール",
+          "value": "ほのぼの2000",
+          "html": "ツール：ほのぼの2000"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "百/合",
+          "html": "配信/投稿：百/合"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "ほのぼの百合ゲーの神の作者",
+        "type": "ほのぼの百合ゲーほのぼの2000",
+        "typeHtml": "ほのぼの百合ゲー<br><span class=\"font75\">ほのぼの2000</span>",
+        "streaming": "百/合"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry30icon.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-summer/30-source-1.jpg",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry30ss.jpg",
+          "sha256": "22dc6bed005ce51ba71d348067f827d35b7573452f9bdd720cf1e5bfef6fe7a9"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://yahoo.jp/box/Ije40W",
+          "label": "182.5kB"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-summer-work-31",
+      "no": "31",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry31.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330153530id_/http://www.geocities.jp/tkoolvip2018summer/entry31.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "ぬ",
+          "html": "作者：ぬ"
+        },
+        {
+          "label": "ジャンル",
+          "value": "baka",
+          "html": "ジャンル：baka"
+        },
+        {
+          "label": "ツール",
+          "value": "2000",
+          "html": "ツール：2000"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "共に可",
+          "html": "配信/投稿：共に可"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "ぬ",
+        "type": "baka2000",
+        "typeHtml": "baka<br><span class=\"font75\">2000</span>",
+        "streaming": "共に可"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entryxxicon.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-summer/31-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry31ss.png",
+          "sha256": "2efeb1fa1a7b5d251c79ed214972eb692ee63a70e6f802f9dfe25cd807b99205"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://yahoo.jp/box/RClViJ",
+          "label": "9.1MB"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-summer-work-32",
+      "no": "32",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry32.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330153530id_/http://www.geocities.jp/tkoolvip2018summer/entry32.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "ﾍﾞﾙﾌｧｰﾚ長田(ﾟ∀ﾟ)◆AHYA/HaiA.",
+          "html": "作者：ﾍﾞﾙﾌｧｰﾚ長田(ﾟ∀ﾟ)◆AHYA/HaiA."
+        },
+        {
+          "label": "ジャンル",
+          "value": "アクション",
+          "html": "ジャンル：アクション"
+        },
+        {
+          "label": "ツール",
+          "value": "RPGツクールMV",
+          "html": "ツール：RPGツクールMV"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "おｋ／おｋ",
+          "html": "配信/投稿：おｋ／おｋ"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "ﾍﾞﾙﾌｧｰﾚ長田(ﾟ∀ﾟ)◆AHYA/HaiA.",
+        "type": "アクションRPGツクールMV",
+        "typeHtml": "アクション<br><span class=\"font75\">RPGツクールMV</span>",
+        "streaming": "おｋ／おｋ"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry32icon.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-summer/32-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry32ss.png",
+          "sha256": "a3f6865958c047a5e03de6a0bf539469bf28bafd05dea2ee6a614d95d0d9da54"
+        }
+      ],
+      "downloadLinks": [],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-summer-work-33",
+      "no": "33",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry33.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331142550id_/http://www.geocities.jp/tkoolvip2018summer/entry33.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "お姉さん大好きマン",
+          "html": "作者：お姉さん大好きマン"
+        },
+        {
+          "label": "ジャンル",
+          "value": "見るゲ(一戦だけどデフォ戦あり)",
+          "html": "ジャンル：見るゲ(一戦だけどデフォ戦あり)"
+        },
+        {
+          "label": "ツール",
+          "value": "2000",
+          "html": "ツール：2000"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "どちらもご自由に",
+          "html": "配信/投稿：どちらもご自由に"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "お姉さん大好きマン",
+        "type": "見るゲ(一戦だけどデフォ戦あり)2000",
+        "typeHtml": "見るゲ(一戦だけどデフォ戦あり)<br><span class=\"font75\">2000</span>",
+        "streaming": "どちらもご自由に"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry33icon.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-summer/33-source-1.jpg",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry33ss1.jpg",
+          "sha256": "acb2e6c0cee5d12f7d0331d1893862490e2c61388efc86e006a190f41edae07d"
+        },
+        {
+          "local": "/screenshots/2018-summer/33-source-2.jpg",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry33ss2.jpg",
+          "sha256": "35f157202c89437e8e023a6a422221d1db8904c7c6e2a65cfd9e32966c5c27a6"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://yahoo.jp/box/GTKZRE",
+          "label": "1.4MB"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-summer-work-34",
+      "no": "34",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry34.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330153530id_/http://www.geocities.jp/tkoolvip2018summer/entry34.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "パトラミック",
+          "html": "作者：パトラミック"
+        },
+        {
+          "label": "ジャンル",
+          "value": "元ネタ探し",
+          "html": "ジャンル：元ネタ探し"
+        },
+        {
+          "label": "ツール",
+          "value": "2000",
+          "html": "ツール：2000"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "投稿も配信もしていいよ",
+          "html": "配信/投稿：投稿も配信もしていいよ"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "パトラミック",
+        "type": "元ネタ探し2000",
+        "typeHtml": "元ネタ探し<br><span class=\"font75\">2000</span>",
+        "streaming": "投稿も配信もしていいよ"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry34icon.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-summer/34-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry34ss.Png",
+          "sha256": "a9c1b50bd413cb11cd6940ed8950c4a80c2e3cb8b9df26b4ef814c103338e5c4"
+        }
+      ],
+      "downloadLinks": [],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-summer-work-35",
+      "no": "35",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry35.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331144802id_/http://www.geocities.jp/tkoolvip2018summer/entry35.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "armt",
+          "html": "作者：armt"
+        },
+        {
+          "label": "ジャンル",
+          "value": "CTBボスラッシュ",
+          "html": "ジャンル：CTBボスラッシュ"
+        },
+        {
+          "label": "ツール",
+          "value": "VXACE",
+          "html": "ツール：VXACE"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "可・可",
+          "html": "配信/投稿：可・可"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "armt",
+        "type": "CTBボスラッシュVXACE",
+        "typeHtml": "CTBボスラッシュ<br><span class=\"font75\">VXACE</span>",
+        "streaming": "可・可"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry35icon.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-summer/35-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry35ss1.png",
+          "sha256": "1eca88058b8ab530f2644071878972f25affcf907e7028692435629f247bd22e"
+        },
+        {
+          "local": "/screenshots/2018-summer/35-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry35ss2.png",
+          "sha256": "e872397c5e2fbb30678ff193970ab58043df1633863cfd8efba7dc5f7841dae5"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://yahoo.jp/box/Nettm9",
+          "label": "21.5MB"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-summer-work-36",
+      "no": "36",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry36.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331143711id_/http://www.geocities.jp/tkoolvip2018summer/entry36.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "ふえｌ",
+          "html": "作者：ふえｌ"
+        },
+        {
+          "label": "ジャンル",
+          "value": "やるゲ?",
+          "html": "ジャンル：やるゲ?"
+        },
+        {
+          "label": "ツール",
+          "value": "RPGツクール2000",
+          "html": "ツール：RPGツクール2000"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "○/○",
+          "html": "配信/投稿：○/○"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "ふえｌ",
+        "type": "やるゲ?RPGツクール2000",
+        "typeHtml": "やるゲ?<br><span class=\"font75\">RPGツクール2000</span>",
+        "streaming": "○/○"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entryxxicon.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-summer/36-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry36ss.PNG",
+          "sha256": "0ac589248b4b9e038317e45474ee5984e7ce86441955e1de0868d586f2b6daa0"
+        }
+      ],
+      "downloadLinks": [],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-summer-work-37",
+      "no": "37",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry37.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331145134id_/http://www.geocities.jp/tkoolvip2018summer/entry37.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "(R)DU",
+          "html": "作者：(R)DU"
+        },
+        {
+          "label": "ジャンル",
+          "value": "見るゲー",
+          "html": "ジャンル：見るゲー"
+        },
+        {
+          "label": "ツール",
+          "value": "ＲＰＧツクール２０００",
+          "html": "ツール：ＲＰＧツクール２０００"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "両方ＯＫ",
+          "html": "配信/投稿：両方ＯＫ"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "(R)DU",
+        "type": "見るゲーＲＰＧツクール２０００",
+        "typeHtml": "見るゲー<br><span class=\"font75\">ＲＰＧツクール２０００</span>",
+        "streaming": "両方ＯＫ"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry37icon.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-summer/37-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry37ss3.png",
+          "sha256": "50ccebc340e21e81ed6ae989e55a9de53bfed2041727d460872fd45ab39ed38e"
+        },
+        {
+          "local": "/screenshots/2018-summer/37-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry37ss2.png",
+          "sha256": "77e7ebac140e925816e00896751a9aa67243fd8a098be95e4e2a12b2a70c3b37"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://yahoo.jp/box/jjZw88",
+          "label": "16.4MB"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-summer-work-38",
+      "no": "38",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry38.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331142545id_/http://www.geocities.jp/tkoolvip2018summer/entry38.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "脂はむ",
+          "html": "作者：脂はむ"
+        },
+        {
+          "label": "ジャンル",
+          "value": "ホラー",
+          "html": "ジャンル：ホラー"
+        },
+        {
+          "label": "ツール",
+          "value": "2000",
+          "html": "ツール：2000"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "両方可",
+          "html": "配信/投稿：両方可"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "脂はむ",
+        "type": "ホラー2000",
+        "typeHtml": "ホラー<br><span class=\"font75\">2000</span>",
+        "streaming": "両方可"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry38icon.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-summer/38-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry38ss.png",
+          "sha256": "aa7dcb24e6744c5a81bbd3838148110b3f20e917beb7f76fcdb8461fcb436d7f"
+        }
+      ],
+      "downloadLinks": [],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-summer-work-39",
+      "no": "39",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry39.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331145613id_/http://www.geocities.jp/tkoolvip2018summer/entry39.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "もう生きて俺の塵",
+          "html": "作者：もう生きて俺の塵"
+        },
+        {
+          "label": "ジャンル",
+          "value": "ksg",
+          "html": "ジャンル：ksg"
+        },
+        {
+          "label": "ツール",
+          "value": "2000",
+          "html": "ツール：2000"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "か・か",
+          "html": "配信/投稿：か・か"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "もう生きて俺の塵",
+        "type": "ksg2000",
+        "typeHtml": "ksg<br><span class=\"font75\">2000</span>",
+        "streaming": "か・か"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entryxxicon.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-summer/39-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry39ss.png",
+          "sha256": "ae52d7b06ead7d2f9999701686c4e1054f8a4c4dbc69d814cb5eabdfb5cb7a54"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://yahoo.jp/box/46cBFY",
+          "label": "182.5kB"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-summer-work-40",
+      "no": "40",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry40.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330153531id_/http://www.geocities.jp/tkoolvip2018summer/entry40.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "鳳天舞の陣－１",
+          "html": "作者：鳳天舞の陣－１"
+        },
+        {
+          "label": "ジャンル",
+          "value": "読むゲ",
+          "html": "ジャンル：読むゲ"
+        },
+        {
+          "label": "ツール",
+          "value": "2000",
+          "html": "ツール：2000"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "可",
+          "html": "配信/投稿：可"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "鳳天舞の陣－１",
+        "type": "読むゲ2000",
+        "typeHtml": "読むゲ<br><span class=\"font75\">2000</span>",
+        "streaming": "可"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entryxxicon.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-summer/40-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry40ss.png",
+          "sha256": "314f06320b4901e964afce859664b062ef8ef9dce981abdc03cc29ccaccfffef"
+        }
+      ],
+      "downloadLinks": [],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-summer-work-41",
+      "no": "41",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry41.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331141116id_/http://www.geocities.jp/tkoolvip2018summer/entry41.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "へそごま",
+          "html": "作者：へそごま"
+        },
+        {
+          "label": "ジャンル",
+          "value": "見るゲ",
+          "html": "ジャンル：見るゲ"
+        },
+        {
+          "label": "ツール",
+          "value": "2000",
+          "html": "ツール：2000"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "----",
+          "html": "配信/投稿：----"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "へそごま",
+        "type": "見るゲ2000",
+        "typeHtml": "見るゲ<br><span class=\"font75\">2000</span>",
+        "streaming": "----"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entryxxicon.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-summer/41-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry41ss.png",
+          "sha256": "943b4c4e18b5583c418f81cec85c8f7e847ca4071b1887b841a44506f7e59a15"
+        }
+      ],
+      "downloadLinks": [],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-summer-work-42",
+      "no": "42",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry42.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331145307id_/http://www.geocities.jp/tkoolvip2018summer/entry42.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "蝶番",
+          "html": "作者：蝶番"
+        },
+        {
+          "label": "ジャンル",
+          "value": "ｋｓｇ",
+          "html": "ジャンル：ｋｓｇ"
+        },
+        {
+          "label": "ツール",
+          "value": "2000",
+          "html": "ツール：2000"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "○/○",
+          "html": "配信/投稿：○/○"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "蝶番",
+        "type": "ｋｓｇ2000",
+        "typeHtml": "ｋｓｇ<br><span class=\"font75\">2000</span>",
+        "streaming": "○/○"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entryxxicon.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-summer/42-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry42ss.png",
+          "sha256": "4f2fcd2876af814c8e70446353beed56db7ce031b42ee757637584e50f5f787b"
+        }
+      ],
+      "downloadLinks": [],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-summer-work-43",
+      "no": "43",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry43.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331143420id_/http://www.geocities.jp/tkoolvip2018summer/entry43.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "秋草",
+          "html": "作者：秋草"
+        },
+        {
+          "label": "ジャンル",
+          "value": "見るゲ",
+          "html": "ジャンル：見るゲ"
+        },
+        {
+          "label": "ツール",
+          "value": "2000",
+          "html": "ツール：2000"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "可/可",
+          "html": "配信/投稿：可/可"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "秋草",
+        "type": "見るゲ2000",
+        "typeHtml": "見るゲ<br><span class=\"font75\">2000</span>",
+        "streaming": "可/可"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry43icon.jpg",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-summer/43-source-1.jpg",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry43ss.jpg",
+          "sha256": "fa4894a4cf139d22999f1daa7ace21511cdca157ae0c6cb3e41c8dfdbaf9cc12"
+        }
+      ],
+      "downloadLinks": [],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2018-summer-work-44",
+      "no": "44",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry44.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331133008id_/http://www.geocities.jp/tkoolvip2018summer/entry44.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "脳内住民",
+          "html": "作者：脳内住民"
+        },
+        {
+          "label": "ジャンル",
+          "value": "ksg",
+          "html": "ジャンル：ksg"
+        },
+        {
+          "label": "ツール",
+          "value": "2000",
+          "html": "ツール：2000"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "よかろう やってみろ",
+          "html": "配信/投稿：よかろう やってみろ"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "脳内住民",
+        "type": "ksg2000",
+        "typeHtml": "ksg<br><span class=\"font75\">2000</span>",
+        "streaming": "よかろう やってみろ"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry44icon.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2018-summer/44-source-1.jpg",
+          "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/entry44ss.jpg",
+          "sha256": "6b5459046aa1cbfee9e876ca95e6e893aad36781ac765bba320790626ea01b23"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://yahoo.jp/box/hHJFkR",
+          "label": "1.7MB"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    }
+  ],
+  "bannerSources": [
+    {
+      "local": "/banners/2018-summer/source-1.png",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/summer_2018a.png",
+      "sha256": "ae13cb6d28fa5ec4f42a1cb115c3ac5a370c4e309bcf55a932475d9b03a799e1"
+    },
+    {
+      "local": "/banners/2018-summer/source-2.png",
+      "sourceUrl": "http://www.geocities.jp/tkoolvip2018summer/summer_2018b.png",
+      "sha256": "96a5c1c8a0108ef01738f5bdc81c82cb1e095332f1cec41ccbf2e9db8aeb9714"
+    }
+  ],
+  "liveSourceEvidence": "source/live/manifest.json",
+  "sourceSnapshotEvidence": "source/archive/manifest.json",
+  "handling": "Direct archival without topic or pixel screening. Preserve all45 source identities, both complete comments, original hover roles and duplicated metadata labels. All source icons are preserved. No.02 hover alias was retrieved directly and its payload matches the indexed extensionless screenshot. No game packages downloaded or executed.",
+  "desktopReview": "passed-desktop-only",
+  "desktopEvidence": "desktop-review.json",
+  "aliasEvidence": "investigation/entry02-hover-response.json",
+  "sourceGapReview": "All 45 source introductions and every referenced display dependency are archived. Legacy banners 2 and 3 lack byte matches in the verified source corpus; their files are retained but no longer advertised as current source banners."
+}
