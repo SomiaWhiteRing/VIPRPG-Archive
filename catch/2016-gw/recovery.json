@@ -1,0 +1,3674 @@
+{
+  "festivalId": "2016-gw",
+  "originalBase": "http://www.geocities.jp/viprpg2016gw/",
+  "entryPage": "index.html",
+  "liveSource": false,
+  "originalResources": {
+    "http://www.geocities.jp/viprpg2016gw/main.html": "main.html",
+    "http://www.geocities.jp/viprpg2016gw/": "index.html",
+    "http://www.geocities.jp/viprpg2016gw/intro.html": "intro.html",
+    "http://www.geocities.jp/viprpg2016gw/menu.html": "menu.html",
+    "http://www.geocities.jp/viprpg2016gw/faq.html": "faq.html",
+    "http://www.geocities.jp/viprpg2016gw/entry00.html": "entry00.html",
+    "http://www.geocities.jp/viprpg2016gw/entry02.html": "entry02.html",
+    "http://www.geocities.jp/viprpg2016gw/entry01.html": "entry01.html",
+    "http://www.geocities.jp/viprpg2016gw/entry04.html": "entry04.html",
+    "http://www.geocities.jp/viprpg2016gw/entry03.html": "entry03.html",
+    "http://www.geocities.jp/viprpg2016gw/entry05.html": "entry05.html",
+    "http://www.geocities.jp/viprpg2016gw/entry06.html": "entry06.html",
+    "http://www.geocities.jp/viprpg2016gw/entry07.html": "entry07.html",
+    "http://www.geocities.jp/viprpg2016gw/entry09.html": "entry09.html",
+    "http://www.geocities.jp/viprpg2016gw/entry08.html": "entry08.html",
+    "http://www.geocities.jp/viprpg2016gw/entry10.html": "entry10.html",
+    "http://www.geocities.jp/viprpg2016gw/entry11.html": "entry11.html",
+    "http://www.geocities.jp/viprpg2016gw/entry13.html": "entry13.html",
+    "http://www.geocities.jp/viprpg2016gw/entry12.html": "entry12.html",
+    "http://www.geocities.jp/viprpg2016gw/entry14.html": "entry14.html",
+    "http://www.geocities.jp/viprpg2016gw/entry15.html": "entry15.html",
+    "http://www.geocities.jp/viprpg2016gw/entry16.html": "entry16.html",
+    "http://www.geocities.jp/viprpg2016gw/entry17.html": "entry17.html",
+    "http://www.geocities.jp/viprpg2016gw/entry19.html": "entry19.html",
+    "http://www.geocities.jp/viprpg2016gw/entry18.html": "entry18.html",
+    "http://www.geocities.jp/viprpg2016gw/entry21.html": "entry21.html",
+    "http://www.geocities.jp/viprpg2016gw/entry22.html": "entry22.html",
+    "http://www.geocities.jp/viprpg2016gw/entry23.html": "entry23.html",
+    "http://www.geocities.jp/viprpg2016gw/entry20.html": "entry20.html",
+    "http://www.geocities.jp/viprpg2016gw/entry24.html": "entry24.html",
+    "http://www.geocities.jp/viprpg2016gw/entry26.html": "entry26.html",
+    "http://www.geocities.jp/viprpg2016gw/entry25.html": "entry25.html",
+    "http://www.geocities.jp/viprpg2016gw/entry27.html": "entry27.html",
+    "http://www.geocities.jp/viprpg2016gw/entry28.html": "entry28.html",
+    "http://www.geocities.jp/viprpg2016gw/entry30.html": "entry30.html",
+    "http://www.geocities.jp/viprpg2016gw/entry29.html": "entry29.html",
+    "http://www.geocities.jp/viprpg2016gw/entry31.html": "entry31.html",
+    "http://www.geocities.jp/viprpg2016gw/entry32.html": "entry32.html",
+    "http://www.geocities.jp/viprpg2016gw/entry34.html": "entry34.html",
+    "http://www.geocities.jp/viprpg2016gw/entry35.html": "entry35.html",
+    "http://www.geocities.jp/viprpg2016gw/entry33.html": "entry33.html",
+    "http://www.geocities.jp/viprpg2016gw/entry36.html": "entry36.html",
+    "http://www.geocities.jp/viprpg2016gw/entry38.html": "entry38.html",
+    "http://www.geocities.jp/viprpg2016gw/entry37.html": "entry37.html",
+    "http://www.geocities.jp/viprpg2016gw/entry39.html": "entry39.html",
+    "http://www.geocities.jp/viprpg2016gw/entry40.html": "entry40.html",
+    "http://www.geocities.jp/viprpg2016gw/entry41.html": "entry41.html",
+    "http://www.geocities.jp/viprpg2016gw/entry42.html": "entry42.html",
+    "http://www.geocities.jp/viprpg2016gw/entry43.html": "entry43.html",
+    "http://www.geocities.jp/viprpg2016gw/entry44.html": "entry44.html",
+    "http://www.geocities.jp/viprpg2016gw/entry45.html": "entry45.html",
+    "http://www.geocities.jp/viprpg2016gw/entry46.html": "entry46.html",
+    "http://www.geocities.jp/viprpg2016gw/entry47.html": "entry47.html",
+    "http://www.geocities.jp/viprpg2016gw/entry48.html": "entry48.html",
+    "http://www.geocities.jp/viprpg2016gw/entry49.html": "entry49.html",
+    "http://www.geocities.jp/viprpg2016gw/entry51.html": "entry51.html",
+    "http://www.geocities.jp/viprpg2016gw/entry52.html": "entry52.html",
+    "http://www.geocities.jp/viprpg2016gw/entry50.html": "entry50.html",
+    "http://www.geocities.jp/viprpg2016gw/entry54.html": "entry54.html",
+    "http://www.geocities.jp/viprpg2016gw/entry53.html": "entry53.html",
+    "http://www.geocities.jp/viprpg2016gw/entry56.html": "entry56.html",
+    "http://www.geocities.jp/viprpg2016gw/entry57.html": "entry57.html",
+    "http://www.geocities.jp/viprpg2016gw/entry55.html": "entry55.html",
+    "http://www.geocities.jp/viprpg2016gw/entry58.html": "entry58.html",
+    "http://www.geocities.jp/viprpg2016gw/entry59.html": "entry59.html",
+    "http://www.geocities.jp/viprpg2016gw/entry60.html": "entry60.html",
+    "http://www.geocities.jp/viprpg2016gw/entry61.html": "entry61.html",
+    "http://www.geocities.jp/viprpg2016gw/entry62.html": "entry62.html",
+    "http://www.geocities.jp/viprpg2016gw/entry63.html": "entry63.html",
+    "http://www.geocities.jp/viprpg2016gw/mate/i01.png": "mate/i01.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/i00.png": "mate/i00.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ip.png": "mate/ip.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/i03.png": "mate/i03.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/i05.gif": "mate/i05.gif",
+    "http://www.geocities.jp/viprpg2016gw/mate/i06.PNG": "mate/i06.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/i07.png": "mate/i07.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/i10.png": "mate/i10.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/i11.png": "mate/i11.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/i09.png": "mate/i09.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/i14.png": "mate/i14.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/i12.png": "mate/i12.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/i16.png": "mate/i16.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/i15.png": "mate/i15.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/i19.png": "mate/i19.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/iv.png": "mate/iv.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/i22.png": "mate/i22.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/i20.png": "mate/i20.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/i24.png": "mate/i24.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/i25.png": "mate/i25.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/i28.png": "mate/i28.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/i29.png": "mate/i29.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/i27.png": "mate/i27.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/i30.gif": "mate/i30.gif",
+    "http://www.geocities.jp/viprpg2016gw/mate/i31.png": "mate/i31.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/i34.png": "mate/i34.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/i35.png": "mate/i35.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/i36.png": "mate/i36.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/i37.png": "mate/i37.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/i39.png": "mate/i39.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/i41.png": "mate/i41.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/i43.Png": "mate/i43.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/i44.png": "mate/i44.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/i46.png": "mate/i46.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/i45.png": "mate/i45.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/i47.bmp": "mate/i47.bmp",
+    "http://www.geocities.jp/viprpg2016gw/mate/i51.gif": "mate/i51.gif",
+    "http://www.geocities.jp/viprpg2016gw/mate/i49.png": "mate/i49.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/i52.gif": "mate/i52.gif",
+    "http://www.geocities.jp/viprpg2016gw/mate/i54.png": "mate/i54.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/i58.png": "mate/i58.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/i57.png": "mate/i57.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/i63.gif": "mate/i63.gif",
+    "http://www.geocities.jp/viprpg2016gw/mate/gw2006b.png": "mate/gw2006b.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/gw2007b.gif": "mate/gw2007b.gif",
+    "http://www.geocities.jp/viprpg2016gw/mate/gw2008b.png": "mate/gw2008b.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/gw2009b.png": "mate/gw2009b.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/gw2011b.png": "mate/gw2011b.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/gw2012b.png": "mate/gw2012b.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/gw2013b.png": "mate/gw2013b.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/gw2014b.png": "mate/gw2014b.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/gw2010b.png": "mate/gw2010b.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/gw2015b.png": "mate/gw2015b.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/gw2016a.png": "mate/gw2016a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/gw2016b.png": "mate/gw2016b.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss00a.png": "mate/ss00a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss00b.png": "mate/ss00b.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss02a.png": "mate/ss02a.png",
+    "http://www.geocities.jp/viprpg2016gw/gw16.css": "gw16.css",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss01a.png": "mate/ss01a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss01b.png": "mate/ss01b.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss04a.png": "mate/ss04a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss03b.png": "mate/ss03b.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss03a.png": "mate/ss03a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss05a.png": "mate/ss05a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss06a.PNG": "mate/ss06a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss06b.PNG": "mate/ss06b.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss07a.png": "mate/ss07a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss07b.png": "mate/ss07b.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss09b.png": "mate/ss09b.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss08a.png": "mate/ss08a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss09a.png": "mate/ss09a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss10a.png": "mate/ss10a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss13a.JPG": "mate/ss13a.jpg",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss11a.png": "mate/ss11a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss12a.png": "mate/ss12a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss14a.png": "mate/ss14a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss15a.png": "mate/ss15a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss16a.png": "mate/ss16a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/i17.png": "mate/i17.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss17a.png": "mate/ss17a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss19a.png": "mate/ss19a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss18a.png": "mate/ss18a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss18b.png": "mate/ss18b.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss19b.png": "mate/ss19b.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss21b.jpg": "mate/ss21b.jpg",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss21a.png": "mate/ss21a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss22a.png": "mate/ss22a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss23a.png": "mate/ss23a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss22b.png": "mate/ss22b.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss20a.png": "mate/ss20a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss20b.png": "mate/ss20b.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss26a.png": "mate/ss26a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss24a.png": "mate/ss24a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss25a.png": "mate/ss25a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss25b.png": "mate/ss25b.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss27a.png": "mate/ss27a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss27b.png": "mate/ss27b.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss28a.png": "mate/ss28a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss28b.png": "mate/ss28b.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss30b.png": "mate/ss30b.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss29a.png": "mate/ss29a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss29b.png": "mate/ss29b.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss30a.png": "mate/ss30a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss31a.png": "mate/ss31a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss32a.png": "mate/ss32a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss31b.png": "mate/ss31b.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss34a.png": "mate/ss34a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss35a.png": "mate/ss35a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss35b.png": "mate/ss35b.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss33a.png": "mate/ss33a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss38a.png": "mate/ss38a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss38b.png": "mate/ss38b.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss36a.png": "mate/ss36a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss37b.png": "mate/ss37b.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss37a.png": "mate/ss37a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss39a.png": "mate/ss39a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss39b.png": "mate/ss39b.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss41a.jpg": "mate/ss41a.jpg",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss40a.jpg": "mate/ss40a.jpg",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss43a.Png": "mate/ss43a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss42a.png": "mate/ss42a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss43b.png": "mate/ss43b.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss44a.png": "mate/ss44a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss44b.png": "mate/ss44b.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss45a.png": "mate/ss45a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss45b.png": "mate/ss45b.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss46a.png": "mate/ss46a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss47a.png": "mate/ss47a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss47b.png": "mate/ss47b.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss49a.png": "mate/ss49a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss48a.png": "mate/ss48a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss52a.png": "mate/ss52a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss51a.png": "mate/ss51a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss50a.png": "mate/ss50a.jpg",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss54b.png": "mate/ss54b.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss54a.png": "mate/ss54a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss56a.png": "mate/ss56a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss53a.png": "mate/ss53a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss57a.png": "mate/ss57a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss57b.png": "mate/ss57b.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss55a.png": "mate/ss55a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss58a.png": "mate/ss58a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss58b.png": "mate/ss58b.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss59a.png": "mate/ss59a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss60a.PNG": "mate/ss60a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss61a.png": "mate/ss61a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss62a.png": "mate/ss62a.png",
+    "http://www.geocities.jp/viprpg2016gw/mate/ss63a.png": "mate/ss63a.png",
+    "http://www.geocities.jp/viprpg2016gw/bg.png": "bg.png"
+  },
+  "sourceManifests": [
+    "source/replay/manifest.json"
+  ],
+  "entries": [
+    {
+      "id": "2016-gw-work-00",
+      "no": "00",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry00.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181503id_/http://www.geocities.jp/viprpg2016gw/entry00.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "かんりにん",
+          "html": "作者：かんりにん"
+        },
+        {
+          "label": "ツクール",
+          "value": "MV",
+          "html": "ツクール：MV"
+        },
+        {
+          "label": "ジャンル",
+          "value": "サンプル",
+          "html": "ジャンル：サンプル"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "○/×",
+          "html": "配信/投稿：○/×"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "かんりにん",
+        "type": "サンプルMV",
+        "streaming": "○/×"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/i00.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/00-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss00a.png",
+          "sha256": "9242960fcc32dc48e1fd4b83a1ff65aed6b4db3d22aa63130a1013255b15cdfd"
+        },
+        {
+          "local": "/screenshots/2016-gw/00-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss00b.png",
+          "sha256": "759c9879aadf8eeb19ff99cfe0535146732813ee55d26daefe63871103efc856"
+        }
+      ],
+      "downloadLinks": [],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-01",
+      "no": "01",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry01.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181517id_/http://www.geocities.jp/viprpg2016gw/entry01.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "イグサ",
+          "html": "作者：イグサ"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "このふたりはやっぱりいいRPG",
+          "html": "ジャンル：このふたりはやっぱりいいRPG"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "応相談",
+          "html": "配信/投稿：応相談"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "イグサ",
+        "type": "このふたりはやっぱりいいRPG2000",
+        "streaming": "応相談"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/i01.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/01-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss01a.png",
+          "sha256": "1ecbd1a2246fee02e25f5850946f73b7fde12991d439b3b744a2ecbd2071f82e"
+        },
+        {
+          "local": "/screenshots/2016-gw/01-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss01b.png",
+          "sha256": "2665d6a441a5fe06d342aad565076d3c9bf98ce6a3e480c5a1e3099b4b60acc8"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/rZkA07",
+          "label": "67.4MB05/31更新"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-02",
+      "no": "02",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry02.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181516id_/http://www.geocities.jp/viprpg2016gw/entry02.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "Gam123",
+          "html": "作者：Gam123"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "1分で終わるかもしれないRPG",
+          "html": "ジャンル：1分で終わるかもしれないRPG"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "ご自由にどうぞ（はぁと）",
+          "html": "配信/投稿：ご自由にどうぞ（はぁと）"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "Gam123",
+        "type": "1分で終わるかもしれないRPG2000",
+        "streaming": "ご自由にどうぞ（はぁと）"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ip.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/02-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss02a.png",
+          "sha256": "34c575e61ca1e74c071269ef96c29c1045beb85ce558e35e0c392b2ebeb1e452"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/W2eC9T",
+          "label": "202KB05/07更新"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-03",
+      "no": "03",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry03.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330215549id_/http://www.geocities.jp/viprpg2016gw/entry03.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "F-man",
+          "html": "作者：F-man"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "防衛ゲーム",
+          "html": "ジャンル：防衛ゲーム"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "おｋ/おｋ",
+          "html": "配信/投稿：おｋ/おｋ"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "F-man",
+        "type": "防衛ゲーム2000",
+        "streaming": "おｋ/おｋ"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/i03.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/03-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss03a.png",
+          "sha256": "c370c959d763f8433446591fdebe7951a954af0e1809d25d075e545f71156c18"
+        },
+        {
+          "local": "/screenshots/2016-gw/03-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss03b.png",
+          "sha256": "db48e5d41061f8cc16aa50b9a6564be033403d6e755642137c85251ad7bc4c6b"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/5nxk5R",
+          "label": "27.8MB05/29更新"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-04",
+      "no": "04",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry04.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181510id_/http://www.geocities.jp/viprpg2016gw/entry04.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "ぬ",
+          "html": "作者：ぬ"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "baka",
+          "html": "ジャンル：baka"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "共に可",
+          "html": "配信/投稿：共に可"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "ぬ",
+        "type": "baka2000",
+        "streaming": "共に可"
+      },
+      "iconSourceUrl": null,
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/04-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss04a.png",
+          "sha256": "5d3dc84aa9bf67c11adec4cb6de3e382508da7e5ed652fddfade640870b13b4b"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/2vCZ8e",
+          "label": "447KB05/03提出"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-05",
+      "no": "05",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry05.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129160342id_/http://www.geocities.jp/viprpg2016gw/entry05.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "うっぺれ",
+          "html": "作者：うっぺれ"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "アクションパズル",
+          "html": "ジャンル：アクションパズル"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "お/ｋ",
+          "html": "配信/投稿：お/ｋ"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "うっぺれ",
+        "type": "アクションパズル2000",
+        "streaming": "お/ｋ"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/i05.gif",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/05-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss05a.png",
+          "sha256": "526a4cf6aa3bce004ba2b145fa47e7b8d515e85dced90f97e6d21ec84caabf0a"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/V-WIub",
+          "label": "15.8MB04/29提出"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-06",
+      "no": "06",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry06.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331145958id_/http://www.geocities.jp/viprpg2016gw/entry06.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "まかろん制作委員会",
+          "html": "作者：まかろん制作委員会"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "ギャルゲー",
+          "html": "ジャンル：ギャルゲー"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "焼肉奢ってくれるなら可",
+          "html": "配信/投稿：焼肉奢ってくれるなら可"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "まかろん制作委員会",
+        "type": "ギャルゲー2000",
+        "streaming": "焼肉奢ってくれるなら可"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/i06.PNG",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/06-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss06a.PNG",
+          "sha256": "1c9db517cbd91802f399c292c164bf566d8ac00628f73263cd6306a6868280d7"
+        },
+        {
+          "local": "/screenshots/2016-gw/06-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss06b.PNG",
+          "sha256": "5fca13bcaed1b4b8571c8cecaa996b07b94a7030a54ec0ecd401a1e441c0d898"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/7A0ITL",
+          "label": "40.3MB05/13提出"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-07",
+      "no": "07",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry07.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331144440id_/http://www.geocities.jp/viprpg2016gw/entry07.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "suica",
+          "html": "作者：suica"
+        },
+        {
+          "label": "ツクール",
+          "value": "VXAce",
+          "html": "ツクール：VXAce"
+        },
+        {
+          "label": "ジャンル",
+          "value": "中編やるゲ(デフォ戦)",
+          "html": "ジャンル：中編やるゲ(デフォ戦)"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "可能/可能",
+          "html": "配信/投稿：可能/可能"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "suica",
+        "type": "中編やるゲ(デフォ戦)VXAce",
+        "streaming": "可能/可能"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/i07.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/07-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss07a.png",
+          "sha256": "710648692eeecc83a627999be87d3791625588197e27d962eab4017c018494eb"
+        },
+        {
+          "local": "/screenshots/2016-gw/07-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss07b.png",
+          "sha256": "6114610a7fdb91d3aea92ef8301d1b8fac1c9f8143d5764ffddbd2a2a69df733"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/nrbIJe",
+          "label": "93.7MB05/31更新"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-08",
+      "no": "08",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry08.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330213723id_/http://www.geocities.jp/viprpg2016gw/entry08.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "かに",
+          "html": "作者：かに"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "らいやみRPG",
+          "html": "ジャンル：らいやみRPG"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "どっちも可",
+          "html": "配信/投稿：どっちも可"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "かに",
+        "type": "らいやみRPG2000",
+        "streaming": "どっちも可"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ip.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/08-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss08a.png",
+          "sha256": "7dba894d69735099ee3df0af977bb4bbaddcc9340c1a90b295448d32044a4462"
+        }
+      ],
+      "downloadLinks": [],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-09",
+      "no": "09",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry09.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181514id_/http://www.geocities.jp/viprpg2016gw/entry09.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "さいてん",
+          "html": "作者：さいてん"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "ダンジョン探索ＲＰＧ",
+          "html": "ジャンル：ダンジョン探索ＲＰＧ"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "可",
+          "html": "配信/投稿：可"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "さいてん",
+        "type": "ダンジョン探索ＲＰＧ2000",
+        "streaming": "可"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/i09.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/09-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss09a.png",
+          "sha256": "ee27eb909f6844666c453df209f9179cef092560c6636b49bb16dc108a11ff6d"
+        },
+        {
+          "local": "/screenshots/2016-gw/09-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss09b.png",
+          "sha256": "40dd79ef2302a9c1b01612561d924ff52279e7ec95d83de9403623c7bdff7bd8"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/YJhOeL",
+          "label": "3.7MB05/15更新"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-10",
+      "no": "10",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry10.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181502id_/http://www.geocities.jp/viprpg2016gw/entry10.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "灰色障太",
+          "html": "作者：灰色障太"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "キバリちゃんへの愛を詰め込んだｋｓｇ集",
+          "html": "ジャンル：キバリちゃんへの愛を詰め込んだｋｓｇ集"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "いいですとも♂",
+          "html": "配信/投稿：いいですとも♂"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "灰色障太",
+        "type": "キバリちゃんへの愛を詰め込んだｋｓｇ集2000",
+        "streaming": "いいですとも♂"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/i10.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/10-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss10a.png",
+          "sha256": "8348c2ad56fa27f11c58c902bb493775364851cadd74a4f8fec28b30edd093a4"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/-32R-y",
+          "label": "4.7MB04/29提出"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-11",
+      "no": "11",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry11.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181510id_/http://www.geocities.jp/viprpg2016gw/entry11.html",
+      "titleCorrection": {
+        "before": "キュアー?のデトックスラジオスペシャル",
+        "after": "キュアーⅠのデトックスラジオスペシャル",
+        "kind": "official-title-confirmed",
+        "evidence": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1460899077/"
+      },
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "茶豆のおまんじゅう",
+          "html": "作者：茶豆のおまんじゅう"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "見るゲ",
+          "html": "ジャンル：見るゲ"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "自己責任でお願いします",
+          "html": "配信/投稿：自己責任でお願いします"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "茶豆のおまんじゅう",
+        "type": "見るゲ2000",
+        "streaming": "自己責任でお願いします"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/i11.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/11-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss11a.png",
+          "sha256": "307204c55158af33756e960031766863f0aa2f4842bdcb12787fd628f1650cf3"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/3IYDno",
+          "label": "8.1MB05/03提出"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-12",
+      "no": "12",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry12.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181516id_/http://www.geocities.jp/viprpg2016gw/entry12.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "おたつ",
+          "html": "作者：おたつ"
+        },
+        {
+          "label": "ツクール",
+          "value": "2003",
+          "html": "ツクール：2003"
+        },
+        {
+          "label": "ジャンル",
+          "value": "短編デフォ戦",
+          "html": "ジャンル：短編デフォ戦"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "可能/可能",
+          "html": "配信/投稿：可能/可能"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "おたつ",
+        "type": "短編デフォ戦2003",
+        "streaming": "可能/可能"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/i12.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/12-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss12a.png",
+          "sha256": "1544103a551eccc7091b6934cc3ea361df3bda7a9c0d090e829cb7859a5e6c46"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/1plMWp",
+          "label": "3.4MB05/15更新"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-13",
+      "no": "13",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry13.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181513id_/http://www.geocities.jp/viprpg2016gw/entry13.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "焼肉",
+          "html": "作者：焼肉"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "ロック",
+          "html": "ジャンル：ロック"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "可能/可能",
+          "html": "配信/投稿：可能/可能"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "焼肉",
+        "type": "ロック2000",
+        "streaming": "可能/可能"
+      },
+      "iconSourceUrl": null,
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/13-source-1.jpg",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss13a.JPG",
+          "sha256": "3a3a83061a341f5f2abdf0044b5dd15621b1565f79c3c5ee7537c7446ae999a5"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/jixU5j",
+          "label": "1.9MB05/31提出"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-14",
+      "no": "14",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry14.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181513id_/http://www.geocities.jp/viprpg2016gw/entry14.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "池多昇",
+          "html": "作者：池多昇"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "ダークアクション格闘ksg",
+          "html": "ジャンル：ダークアクション格闘ksg"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "実況でなければ可",
+          "html": "配信/投稿：実況でなければ可"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "池多昇",
+        "type": "ダークアクション格闘ksg2000",
+        "streaming": "実況でなければ可"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/i14.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/14-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss14a.png",
+          "sha256": "20138193fbdf54d4b1b2d84c7dc09d0690efb1902b0f8b0475b294facf66a2ec"
+        }
+      ],
+      "downloadLinks": [],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-15",
+      "no": "15",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry15.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181506id_/http://www.geocities.jp/viprpg2016gw/entry15.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "鷹",
+          "html": "作者：鷹"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "導きゲ",
+          "html": "ジャンル：導きゲ"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "可/可",
+          "html": "配信/投稿：可/可"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "鷹",
+        "type": "導きゲ2000",
+        "streaming": "可/可"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/i15.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/15-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss15a.png",
+          "sha256": "419275272739b28ca07bd465e4edddab6dcc1a7b7eb089e83a3acd416bc0ad8b"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/zVGjL8",
+          "label": "7.1MB05/23更新"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-16",
+      "no": "16",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry16.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181509id_/http://www.geocities.jp/viprpg2016gw/entry16.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "かりかりん",
+          "html": "作者：かりかりん"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "読むゲ",
+          "html": "ジャンル：読むゲ"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "可/可",
+          "html": "配信/投稿：可/可"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "かりかりん",
+        "type": "読むゲ2000",
+        "streaming": "可/可"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/i16.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/16-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss16a.png",
+          "sha256": "5a15780ef1fff930a2d032737b7bf2bc27bd455f779253148732c5b148248a1c"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/d-2duD",
+          "label": "13.5MB05/03提出"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-17",
+      "no": "17",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry17.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181510id_/http://www.geocities.jp/viprpg2016gw/entry17.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "ざるそば",
+          "html": "作者：ざるそば"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "与太見るゲ",
+          "html": "ジャンル：与太見るゲ"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "自己責任",
+          "html": "配信/投稿：自己責任"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "ざるそば",
+        "type": "与太見るゲ2000",
+        "streaming": "自己責任"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/iv.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/17-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss17a.png",
+          "sha256": "b3892cd3c2c0bdf9d486a540c7b384acff0a89ab9aef5325e6c461561b9f218b"
+        }
+      ],
+      "downloadLinks": [],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-18",
+      "no": "18",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry18.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181510id_/http://www.geocities.jp/viprpg2016gw/entry18.html",
+      "titleCorrection": {
+        "before": "ダークネスウィンド&amp;ロボ",
+        "after": "ダークネスウィンド&ロボ",
+        "kind": "html-entity-decoding",
+        "evidence": "https://web.archive.org/web/20190330213724id_/http://www.geocities.jp/viprpg2016gw/main.html"
+      },
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "ザハーク",
+          "html": "作者：ザハーク"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "デフォ戦ＲＰＧ～Ｚ級映画の風味を添えて～",
+          "html": "ジャンル：デフォ戦ＲＰＧ～Ｚ級映画の風味を添えて～"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "可能・可能",
+          "html": "配信/投稿：可能・可能"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "ザハーク",
+        "type": "デフォ戦ＲＰＧ～Ｚ級映画の風味を添えて～2000",
+        "streaming": "可能・可能"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ip.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/18-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss18a.png",
+          "sha256": "61966b53c078f27095bf50a9d51cf3288ca156824175326f88ffac52d118751c"
+        },
+        {
+          "local": "/screenshots/2016-gw/18-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss18b.png",
+          "sha256": "bf0d8b3ae6cbfd27f1b5b9821aa96e3250ae2c92de4d14595f8afee65ff71523"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/Y0Ue59",
+          "label": "7.1MB04/29提出"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-19",
+      "no": "19",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry19.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181508id_/http://www.geocities.jp/viprpg2016gw/entry19.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "女体化ダークメカアレックス",
+          "html": "作者：女体化ダークメカアレックス"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "アトリエ",
+          "html": "ジャンル：アトリエ"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "可/可",
+          "html": "配信/投稿：可/可"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "女体化ダークメカアレックス",
+        "type": "ksg2000",
+        "streaming": "可/可"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/i19.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/19-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss19a.png",
+          "sha256": "36049baedbd469d47aa551c7071335129eee32ac2281bdd95eea6858cd3a0819"
+        },
+        {
+          "local": "/screenshots/2016-gw/19-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss19b.png",
+          "sha256": "041179886871bca5663a2558b034c1aa4a7edf303e44642f9813003c0724702d"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/tV5Bgz",
+          "label": "4.9MB05/01提出"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-20",
+      "no": "20",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry20.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181511id_/http://www.geocities.jp/viprpg2016gw/entry20.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "けいと",
+          "html": "作者：けいと"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "見下ろし型アクション",
+          "html": "ジャンル：見下ろし型アクション"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "やったぁ！/やったぁ！",
+          "html": "配信/投稿：やったぁ！/やったぁ！"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "けいと",
+        "type": "見下ろし型アクション2000",
+        "streaming": "やったぁ！/やったぁ！"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/i20.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/20-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss20a.png",
+          "sha256": "ebefbeed0ca4d5049d7a4e311e88bf502561f169df2c6e38deaab2a12453e3ce"
+        },
+        {
+          "local": "/screenshots/2016-gw/20-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss20b.png",
+          "sha256": "9d8fe77fa8063b46300c0ccbef0116afcae0db03186f7a18ed6a39dc757530a8"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/X9Txpp",
+          "label": "1.2MB05/03更新"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-21",
+      "no": "21",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry21.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181516id_/http://www.geocities.jp/viprpg2016gw/entry21.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "徳明",
+          "html": "作者：徳明"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "erg",
+          "html": "ジャンル：erg"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "消される覚悟があるなら/らめぇ",
+          "html": "配信/投稿：消される覚悟があるなら/らめぇ"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "徳明",
+        "type": "erg2000",
+        "streaming": "消される覚悟があるなら/らめぇ"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/iv.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/21-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss21a.png",
+          "sha256": "0bc3470bd15191a841b7a87c8eee493dedba7fd290c5efe92899a6ae6908c431"
+        },
+        {
+          "local": "/screenshots/2016-gw/21-source-2.jpg",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss21b.jpg",
+          "sha256": "1a7498d569ecd8d0a1a59a217bec8434f86f7bcd503f795d5e175d83bb5ca021"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/Ql0Vdd",
+          "label": "1.3MB05/05提出"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-22",
+      "no": "22",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry22.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181516id_/http://www.geocities.jp/viprpg2016gw/entry22.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "煮汁",
+          "html": "作者：煮汁"
+        },
+        {
+          "label": "ツクール",
+          "value": "VXAce",
+          "html": "ツクール：VXAce"
+        },
+        {
+          "label": "ジャンル",
+          "value": "見るゲ",
+          "html": "ジャンル：見るゲ"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "許可／許可",
+          "html": "配信/投稿：許可／許可"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "煮汁",
+        "type": "見るゲVXAce",
+        "streaming": "許可／許可"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/i22.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/22-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss22a.png",
+          "sha256": "689d05108ac4ce4ac73b9350e16a69b384d728cb2ae3d118cbbb3ce4ad4132e4"
+        },
+        {
+          "local": "/screenshots/2016-gw/22-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss22b.png",
+          "sha256": "a05fe012cbc3dcfb553ca92bc97d1691975eb655a627a73cda718ff44091f088"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/LQF5d5",
+          "label": "2.4MB05/27提出"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-23",
+      "no": "23",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry23.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181510id_/http://www.geocities.jp/viprpg2016gw/entry23.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "黒蟻大使",
+          "html": "作者：黒蟻大使"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "コレクションゲー",
+          "html": "ジャンル：コレクションゲー"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "可/可",
+          "html": "配信/投稿：可/可"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "黒蟻大使",
+        "type": "コレクションゲー2000",
+        "streaming": "可/可"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/iv.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/23-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss23a.png",
+          "sha256": "ded05c902fa2d175bbbdb57367968ca6f154657c6e244d7e6d9f665b6a22297f"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/d5dqmE",
+          "label": "347KB05/03提出"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-24",
+      "no": "24",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry24.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181505id_/http://www.geocities.jp/viprpg2016gw/entry24.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "ヌプルペツ",
+          "html": "作者：ヌプルペツ"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "安価見るゲ",
+          "html": "ジャンル：安価見るゲ"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "どちらも大歓迎です",
+          "html": "配信/投稿：どちらも大歓迎です"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "ヌプルペツ",
+        "type": "安価見るゲ2000",
+        "streaming": "どちらも大歓迎です"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/i24.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/24-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss24a.png",
+          "sha256": "041bcf42e656ac565a2d40939a62f21984baf1457213793cf8a5f0d590b83f18"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/ufL2mS",
+          "label": "1.4MB05/31提出"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-25",
+      "no": "25",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry25.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181507id_/http://www.geocities.jp/viprpg2016gw/entry25.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "秋草",
+          "html": "作者：秋草"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "見るゲ＋ksg集",
+          "html": "ジャンル：見るゲ＋ksg集"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "応相談",
+          "html": "配信/投稿：応相談"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "秋草",
+        "type": "見るゲ＋ksg集2000",
+        "streaming": "応相談"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/i25.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/25-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss25a.png",
+          "sha256": "ed3076dca9adf74a40872873758d0d1319c2d522fe3d9dbd7b956ca180808629"
+        },
+        {
+          "local": "/screenshots/2016-gw/25-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss25b.png",
+          "sha256": "0969bc2a6e43bc9f20e28882bc1621358ef6cc195babe501b23854b5b1577fb9"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/3qhEab",
+          "label": "13.7MB05/15更新"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-26",
+      "no": "26",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry26.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181504id_/http://www.geocities.jp/viprpg2016gw/entry26.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "ラクスマン",
+          "html": "作者：ラクスマン"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "ksgに近い見るゲ",
+          "html": "ジャンル：ksgに近い見るゲ"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "可能",
+          "html": "配信/投稿：可能"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "ラクスマン",
+        "type": "ksgに近い見るゲ2000",
+        "streaming": "可能"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/iv.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/26-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss26a.png",
+          "sha256": "9669037230b274a22b2af0548d50d976ac1d5d7adb16e8fcba68a844007fe59c"
+        }
+      ],
+      "downloadLinks": [],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-27",
+      "no": "27",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry27.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181504id_/http://www.geocities.jp/viprpg2016gw/entry27.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "那智巣汚濁",
+          "html": "作者：那智巣汚濁"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "闇鍋パクリ世紀末自作戦闘RPG",
+          "html": "ジャンル：闇鍋パクリ世紀末自作戦闘RPG"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "可能",
+          "html": "配信/投稿：可能"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "那智巣汚濁",
+        "type": "闇鍋パクリ世紀末自作戦闘RPG2000",
+        "streaming": "どうなっても俺は知らんぞ！"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/i27.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/27-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss27a.png",
+          "sha256": "6d57ad32886f176a2010f31bc98d4f5c65c0afb06fb3ecdff68c01bde4967f26"
+        },
+        {
+          "local": "/screenshots/2016-gw/27-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss27b.png",
+          "sha256": "e08aeb74877ddcf993061f3642441dcb7941b47ff864fe67bc39fab1e5c31389"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/dCNTBT",
+          "label": "22.9MB05/25更新"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-28",
+      "no": "28",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry28.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181509id_/http://www.geocities.jp/viprpg2016gw/entry28.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "蒔いた種",
+          "html": "作者：蒔いた種"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "講座+ツール",
+          "html": "ジャンル：講座+ツール"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "よしなに",
+          "html": "配信/投稿：よしなに"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "蒔いた種",
+        "type": "講座+ツール2000",
+        "streaming": "よしなに"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/i28.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/28-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss28a.png",
+          "sha256": "005515537ce69c4f4fcea769dfdff1bfeff11e293fde2ea91d9796514c115a8b"
+        },
+        {
+          "local": "/screenshots/2016-gw/28-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss28b.png",
+          "sha256": "c3439f12b81893629d04f2e06e9216e7cc50ee74b3ee351e1d684ccd644beb36"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/6f8jrm",
+          "label": "829KB05/09更新"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-29",
+      "no": "29",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry29.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331143922id_/http://www.geocities.jp/viprpg2016gw/entry29.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "冷凍ブラックツナ",
+          "html": "作者：冷凍ブラックツナ"
+        },
+        {
+          "label": "ツクール",
+          "value": "VXAce",
+          "html": "ツクール：VXAce"
+        },
+        {
+          "label": "ジャンル",
+          "value": "erg",
+          "html": "ジャンル：erg"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "自己責任",
+          "html": "配信/投稿：自己責任"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "冷凍ブラックツナ",
+        "type": "ergVXAce",
+        "streaming": "自己責任"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/i29.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/29-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss29a.png",
+          "sha256": "4cb73a086a104602a39ee0b46923b1bf4ac8bafc69696741fb7e41e7da7bfc7d"
+        },
+        {
+          "local": "/screenshots/2016-gw/29-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss29b.png",
+          "sha256": "c6892950043c6b0336bebb8b2912cf1b8e7fbd6e34740f23c08060eb5032d779"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/5hB9ku",
+          "label": "10.6MB05/31提出"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-30",
+      "no": "30",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry30.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181505id_/http://www.geocities.jp/viprpg2016gw/entry30.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "青のシフォン",
+          "html": "作者：青のシフォン"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "RPG/自作戦闘/長編",
+          "html": "ジャンル：RPG/自作戦闘/長編"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "OKです！",
+          "html": "配信/投稿：OKです！"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "青のシフォン",
+        "type": "RPG/自作戦闘/長編2000",
+        "streaming": "OKです！"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/i30.gif",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/30-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss30a.png",
+          "sha256": "a45987ded054bb52586443190575d9bca3d9c80ba34496e2d8c8cb1fb252b5e3"
+        },
+        {
+          "local": "/screenshots/2016-gw/30-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss30b.png",
+          "sha256": "87146d46a86560ecbef87ada296ab510649db72bd3df0252b97ee00ca1f214fd"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/uWnk2H",
+          "label": "22.4MB05/31更新"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-31",
+      "no": "31",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry31.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181507id_/http://www.geocities.jp/viprpg2016gw/entry31.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "にょいぼう",
+          "html": "作者：にょいぼう"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "自作戦闘やるゲ",
+          "html": "ジャンル：自作戦闘やるゲ"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "両方とも自己責任でお願いします。",
+          "html": "配信/投稿：両方とも自己責任でお願いします。"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "にょいぼう",
+        "type": "自作戦闘やるゲ2000",
+        "streaming": "両方とも自己責任でお願いします。"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/i31.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/31-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss31a.png",
+          "sha256": "f46cfb0e124ce76fb0cf9ede94ce1344ae4d7056488522cd3e80259ef3a87f16"
+        },
+        {
+          "local": "/screenshots/2016-gw/31-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss31b.png",
+          "sha256": "1d7989130751896fe98f46da252cbb2eabc3e751d2d3d5efd2d9920a9b464e5f"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/A8fKea",
+          "label": "9.4MB05/13更新"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-32",
+      "no": "32",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry32.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181509id_/http://www.geocities.jp/viprpg2016gw/entry32.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "穀雨",
+          "html": "作者：穀雨"
+        },
+        {
+          "label": "ツクール",
+          "value": "VXAce",
+          "html": "ツクール：VXAce"
+        },
+        {
+          "label": "ジャンル",
+          "value": "見るゲ",
+          "html": "ジャンル：見るゲ"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "ご自由にどうぞ",
+          "html": "配信/投稿：ご自由にどうぞ"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "穀雨",
+        "type": "見るゲVXAce",
+        "streaming": "ご自由にどうぞ"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/iv.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/32-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss32a.png",
+          "sha256": "003c2177eb790843a81bf5e4a2be7217477724c7f53eb77c01f92a5c3424afdd"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/4KJaFO",
+          "label": "9.7MB05/29更新"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-33",
+      "no": "33",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry33.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181516id_/http://www.geocities.jp/viprpg2016gw/entry33.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "ジャスティス",
+          "html": "作者：ジャスティス"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "ｋｓｇ",
+          "html": "ジャンル：ｋｓｇ"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "可",
+          "html": "配信/投稿：可"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "ジャスティス",
+        "type": "ksg2000",
+        "streaming": "可"
+      },
+      "iconSourceUrl": null,
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/33-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss33a.png",
+          "sha256": "cbf72b2e2782e7ed4b67274aa9d9f72d94f30ed3278d3b460dc8f3c63afbd533"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/yOV0Lw",
+          "label": "4.2MB05/07提出"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-34",
+      "no": "34",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry34.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181513id_/http://www.geocities.jp/viprpg2016gw/entry34.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "保安玄奘",
+          "html": "作者：保安玄奘"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "Тяжелая игра",
+          "html": "ジャンル：Тяжелая игра"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "自己責任/自己責任",
+          "html": "配信/投稿：自己責任/自己責任"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "保安玄奘",
+        "type": "Тяжелая игра2000",
+        "streaming": "自己責任/自己責任"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/i34.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/34-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss34a.png",
+          "sha256": "9b3459e124b3de39f81059d67d957723973c4fd3621689946febf8e0de46778e"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/dT-mtz",
+          "label": "2.8MB05/03提出"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-35",
+      "no": "35",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry35.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181506id_/http://www.geocities.jp/viprpg2016gw/entry35.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "名雲きつね",
+          "html": "作者：名雲きつね"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "シンプルerg",
+          "html": "ジャンル：シンプルerg"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "自己責任",
+          "html": "配信/投稿：自己責任"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "名雲きつね",
+        "type": "シンプルerg2000",
+        "streaming": "自己責任"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/i35.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/35-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss35a.png",
+          "sha256": "14878d2e06a8be8ad6bbc8227d601e2f4b39889707164840e575ee42640bcf27"
+        },
+        {
+          "local": "/screenshots/2016-gw/35-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss35b.png",
+          "sha256": "2b40bd5a3cfa7eac954f0c4899d8128c0f8abe4466a1f0a7368d286e9d475c99"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/Sn8Lnn",
+          "label": "10.1MB05/25更新"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-36",
+      "no": "36",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry36.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181506id_/http://www.geocities.jp/viprpg2016gw/entry36.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "くらむぼん",
+          "html": "作者：くらむぼん"
+        },
+        {
+          "label": "ツクール",
+          "value": "MV",
+          "html": "ツクール：MV"
+        },
+        {
+          "label": "ジャンル",
+          "value": "オンラインゲーム",
+          "html": "ジャンル：オンラインゲーム"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "可",
+          "html": "配信/投稿：可"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "くらむぼん",
+        "type": "オンラインゲームMV",
+        "streaming": "可"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/i36.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/36-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss36a.png",
+          "sha256": "012903df104d14fa98a87489243b61854702b4a91b6357802767bbcaf8dae7dc"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/D18G4B",
+          "label": "100.3MB05/09更新"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-37",
+      "no": "37",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry37.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181506id_/http://www.geocities.jp/viprpg2016gw/entry37.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "マイクロビキニ老女",
+          "html": "作者：マイクロビキニ老女"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "短編デフォ戦ゲー",
+          "html": "ジャンル：短編デフォ戦ゲー"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "可・可",
+          "html": "配信/投稿：可・可"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "マイクロビキニ老女",
+        "type": "短編デフォ戦ゲー2000",
+        "streaming": "可・可"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/i37.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/37-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss37a.png",
+          "sha256": "6f6500f5b01c967a517466dfaa8410d20ec0f0378287f75e69e27064817d5f18"
+        },
+        {
+          "local": "/screenshots/2016-gw/37-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss37b.png",
+          "sha256": "75a7fc075f6ea5b95871f678412ffe0fe4de0d58cdcd021308d286059c92ea4a"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/7-XmIs",
+          "label": "7.7MB05/07更新"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-38",
+      "no": "38",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry38.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181509id_/http://www.geocities.jp/viprpg2016gw/entry38.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "ササミヤ",
+          "html": "作者：ササミヤ"
+        },
+        {
+          "label": "ツクール",
+          "value": "MV",
+          "html": "ツクール：MV"
+        },
+        {
+          "label": "ジャンル",
+          "value": "ツクールＭＶの新機能をほとんど生かしていないksg",
+          "html": "ジャンル：ツクールＭＶの新機能をほとんど生かしていないksg"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "どちらも可",
+          "html": "配信/投稿：どちらも可"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "ツクールＭＶについて話し合うササミヤ",
+        "type": "ツクールＭＶの新機能をほとんど生かしていないksgMV",
+        "streaming": "どちらも可"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/iv.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/38-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss38a.png",
+          "sha256": "0f4ae035089c814fe03fa5e17ff73950cc85c1f03728ba796894e75cbab1f161"
+        },
+        {
+          "local": "/screenshots/2016-gw/38-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss38b.png",
+          "sha256": "e2e22c5820a9faada2cec0e144887b5d7d690733f36809cf8dd48ea9bf6272d3"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/IvVqT9",
+          "label": "115MB04/29提出"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-39",
+      "no": "39",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry39.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181504id_/http://www.geocities.jp/viprpg2016gw/entry39.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "シア=ナードクス",
+          "html": "作者：シア=ナードクス"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "状態変化見るゲ(R-15G)",
+          "html": "ジャンル：状態変化見るゲ(R-15G)"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "自己責任",
+          "html": "配信/投稿：自己責任"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "シア=ナードクス",
+        "type": "状態変化見るゲ(R-15G)2000",
+        "streaming": "自己責任"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/i39.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/39-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss39a.png",
+          "sha256": "b67f7099619d91a6f1c31fccd0c499ef1b08cca1a009f7d30fd49446af2f233e"
+        },
+        {
+          "local": "/screenshots/2016-gw/39-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss39b.png",
+          "sha256": "d12063af7eabf05c23e4971e62d34271fe564e8133403549607b51fd0a27fd87"
+        }
+      ],
+      "downloadLinks": [],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-40",
+      "no": "40",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry40.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181511id_/http://www.geocities.jp/viprpg2016gw/entry40.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "SNEP48",
+          "html": "作者：SNEP48"
+        },
+        {
+          "label": "ツクール",
+          "value": "VXAce",
+          "html": "ツクール：VXAce"
+        },
+        {
+          "label": "ジャンル",
+          "value": "掌編ノベル",
+          "html": "ジャンル：掌編ノベル"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "女と虎のみ許可",
+          "html": "配信/投稿：女と虎のみ許可"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "SNEP48",
+        "type": "掌編ノベルVXAce",
+        "streaming": "女と虎のみ許可"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/iv.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/40-source-1.jpg",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss40a.jpg",
+          "sha256": "412ec034b70738bf4c173bba12e9739353e1b936f78c254a1a0dfcfdb7e81085"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/E17b7O",
+          "label": "2.7MB04/25提出"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-41",
+      "no": "41",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry41.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181514id_/http://www.geocities.jp/viprpg2016gw/entry41.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "ウンコヨーカン",
+          "html": "作者：ウンコヨーカン"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "ウンコヨーカン",
+          "html": "ジャンル：ウンコヨーカン"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "自己責任でお願いします！！",
+          "html": "配信/投稿：自己責任でお願いします！！"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "ウンコヨーカン",
+        "type": "ウンコヨーカン2000",
+        "streaming": "自己責任でお願いします！！"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/i41.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/41-source-1.jpg",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss41a.jpg",
+          "sha256": "d9bc02c51f7f345b953e24f903bf9bff89739cef5f78e265acfc1547d99c606f"
+        }
+      ],
+      "downloadLinks": [],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-42",
+      "no": "42",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry42.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181516id_/http://www.geocities.jp/viprpg2016gw/entry42.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "_",
+          "html": "作者：_"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "遊戯王見るゲARC-5D's",
+          "html": "ジャンル：遊戯王見るゲARC-5D's"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "自己責任でお願いします！！",
+          "html": "配信/投稿：自己責任でお願いします！！"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "",
+        "type": "遊戯王見るゲARC-5D's2000",
+        "streaming": "自☆己☆責☆任"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/iv.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/42-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss42a.png",
+          "sha256": "4bf92d54248b7c382b5867c668fed81c33cc77c05d298e1eb673883196862d4f"
+        }
+      ],
+      "downloadLinks": [],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-43",
+      "no": "43",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry43.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181504id_/http://www.geocities.jp/viprpg2016gw/entry43.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "パトラミック",
+          "html": "作者：パトラミック"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "ジャンル？",
+          "html": "ジャンル：ジャンル？"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "両方可能",
+          "html": "配信/投稿：両方可能"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "パトラミック",
+        "type": "ジャンル？2000",
+        "streaming": "両方可能"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/i43.Png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/43-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss43a.Png",
+          "sha256": "686469de108c7f7370baa2a5ff39833116d210f25702d59c4acf94d59a7fef73"
+        },
+        {
+          "local": "/screenshots/2016-gw/43-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss43b.png",
+          "sha256": "076190a683a0c89b5347e77c155979e75fbde20e835d18bfb66b621326fb1842"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/RrJpXN",
+          "label": "8.8MB05/17提出"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-44",
+      "no": "44",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry44.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181508id_/http://www.geocities.jp/viprpg2016gw/entry44.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "あひょふりぐ",
+          "html": "作者：あひょふりぐ"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "リハビリｋｓｇ",
+          "html": "ジャンル：リハビリｋｓｇ"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "可能/可能",
+          "html": "配信/投稿：可能/可能"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "あひょふりぐ",
+        "type": "リハビリｋｓｇ2000",
+        "streaming": "可能/可能"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/i44.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/44-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss44a.png",
+          "sha256": "911d9a27b16a4bb1438d20719389ae4b41c39e203ad372caf88b72c6d247548d"
+        },
+        {
+          "local": "/screenshots/2016-gw/44-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss44b.png",
+          "sha256": "79c877799ab5c16134de461f25358fc65e9e9cc8d94ae8423fa52117fa70f625"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/SQ2Zql",
+          "label": "732KB05/03提出"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-45",
+      "no": "45",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry45.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181503id_/http://www.geocities.jp/viprpg2016gw/entry45.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "クルマユ大好き丸",
+          "html": "作者：クルマユ大好き丸"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "ｋｓｇ",
+          "html": "ジャンル：ｋｓｇ"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "見てみたい",
+          "html": "配信/投稿：見てみたい"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "クルマユ大好き丸",
+        "type": "ｋｓｇ2000",
+        "streaming": "見てみたい"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/i45.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/45-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss45a.png",
+          "sha256": "a636d61f89b56b7eedaba499e4cfdc4ea2558128bb09c082fe568d06092b95d0"
+        },
+        {
+          "local": "/screenshots/2016-gw/45-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss45b.png",
+          "sha256": "0a067f152ea2857ccf1efafbebcb5ddd490fa0a9f5458ca976231b88987e8beb"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/Fmo6XA",
+          "label": "2.2MB05/31提出"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-46",
+      "no": "46",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry46.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181503id_/http://www.geocities.jp/viprpg2016gw/entry46.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "たらいそ",
+          "html": "作者：たらいそ"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "講座",
+          "html": "ジャンル：講座"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "可・可",
+          "html": "配信/投稿：可・可"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "たらいそ",
+        "type": "講座2000",
+        "streaming": "可・可"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/i46.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/46-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss46a.png",
+          "sha256": "8bfa418e463d3df117cf568a5119122aaabbc1ca287ad63579748f1f9504d761"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/LPxybc",
+          "label": "174KB05/01提出"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-47",
+      "no": "47",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry47.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129160334id_/http://www.geocities.jp/viprpg2016gw/entry47.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "72-64",
+          "html": "作者：72-64"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "低難易度アクション",
+          "html": "ジャンル：低難易度アクション"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "可能／可能",
+          "html": "配信/投稿：可能／可能"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "72-64",
+        "type": "低難易度アクション2000",
+        "streaming": "可能／可能"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/i47.bmp",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/47-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss47a.png",
+          "sha256": "237d0693779c849f2d588859a5aea52eebee3c556c69903fc1c38cddea87ed44"
+        },
+        {
+          "local": "/screenshots/2016-gw/47-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss47b.png",
+          "sha256": "d517484f89e3a0aeba6ae6b8f7322483ebe0e2c3f28038abf45a7b9aced77c21"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/eYp2tq",
+          "label": "28.0MB05/31更新"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-48",
+      "no": "48",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry48.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181515id_/http://www.geocities.jp/viprpg2016gw/entry48.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "へんたい",
+          "html": "作者：へんたい"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "回避アクション",
+          "html": "ジャンル：回避アクション"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "可",
+          "html": "配信/投稿：可"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "へんたい",
+        "type": "回避アクション2000",
+        "streaming": "可"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ip.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/48-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss48a.png",
+          "sha256": "85ea5302aa93b4fd320cd2155ef99c68a869f5f089f482178f5742d1aee64ee6"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/ZmeETC",
+          "label": "997KB05/31提出"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-49",
+      "no": "49",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry49.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181503id_/http://www.geocities.jp/viprpg2016gw/entry49.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "iSOC-7(アイゾックセブン)",
+          "html": "作者：iSOC-7(アイゾックセブン)"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "講座 見るゲ",
+          "html": "ジャンル：講座 見るゲ"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "可能/可能",
+          "html": "配信/投稿：可能/可能"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "iSOC-7(アイゾックセブン)",
+        "type": "講座 見るゲ2000",
+        "streaming": "可能/可能"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/i49.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/49-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss49a.png",
+          "sha256": "78b65b82b3c3f0a655c5e3872b96103b71130a0bdca24c32617226622d011335"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/OP-okw",
+          "label": "2.5MB05/31提出"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-50",
+      "no": "50",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry50.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181506id_/http://www.geocities.jp/viprpg2016gw/entry50.html",
+      "titleCorrection": {
+        "before": "スパーク?ちゃんの脱出ゲーム",
+        "after": "スパークⅡちゃんの脱出ゲーム",
+        "kind": "official-title-confirmed",
+        "evidence": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1462112761/"
+      },
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "ハエ",
+          "html": "作者：ハエ"
+        },
+        {
+          "label": "ツクール",
+          "value": "VXAce",
+          "html": "ツクール：VXAce"
+        },
+        {
+          "label": "ジャンル",
+          "value": "脱出やるゲ",
+          "html": "ジャンル：脱出やるゲ"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "可／可",
+          "html": "配信/投稿：可／可"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "ハエ",
+        "type": "脱出やるゲVXAce",
+        "streaming": "可／可"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ip.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/50-source-1.jpg",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss50a.png",
+          "sha256": "1ebe86885d37003946b620d73d4178fbb3444a32a9d796b278a07929d0c0fe19"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/Wi2TAd",
+          "label": "3.0MB05/01提出"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-51",
+      "no": "51",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry51.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181512id_/http://www.geocities.jp/viprpg2016gw/entry51.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "不明",
+          "html": "作者：不明"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "３分ｋｓｇ",
+          "html": "ジャンル：３分ｋｓｇ"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "可/可",
+          "html": "配信/投稿：可/可"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "不明",
+        "type": "３分ｋｓｇ2000",
+        "streaming": "可/可"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/i51.gif",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/51-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss51a.png",
+          "sha256": "b4f67874a244e4556908c1847e7f192abb53f32f1ca1cc6da21d3ae241a19101"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/DPpCXY",
+          "label": "3.4MB05/03提出"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-52",
+      "no": "52",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry52.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181510id_/http://www.geocities.jp/viprpg2016gw/entry52.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "1-3",
+          "html": "作者：1-3"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "やるゲ予定",
+          "html": "ジャンル：やるゲ予定"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "可/可",
+          "html": "配信/投稿：可/可"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "1-3",
+        "type": "やるゲ予定2000",
+        "streaming": "可/可"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/i52.gif",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/52-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss52a.png",
+          "sha256": "4e30de8b232ba0e3288bbad1651a17803354296f9a942fd12adcb252fb01d697"
+        }
+      ],
+      "downloadLinks": [],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-53",
+      "no": "53",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry53.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181511id_/http://www.geocities.jp/viprpg2016gw/entry53.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "大富豪の大貧民役",
+          "html": "作者：大富豪の大貧民役"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "デフォ戦RPG",
+          "html": "ジャンル：デフォ戦RPG"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "可/可",
+          "html": "配信/投稿：可/可"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "～少女の想いは憎悪と共に～大富豪の大貧民役",
+        "type": "デフォ戦RPG2000",
+        "streaming": "可/可"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ip.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/53-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss53a.png",
+          "sha256": "2576b3537826bd7139e3c9bde4093ec90fe0e997e42e6e65ab887065f63e7155"
+        }
+      ],
+      "downloadLinks": [],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-54",
+      "no": "54",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry54.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181504id_/http://www.geocities.jp/viprpg2016gw/entry54.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "（R）DU",
+          "html": "作者：（R）DU"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "漫才デモ系見るゲー",
+          "html": "ジャンル：漫才デモ系見るゲー"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "可/可",
+          "html": "配信/投稿：可/可"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "（R）DU",
+        "type": "漫才デモ系見るゲー2000",
+        "streaming": "可/可"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/i54.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/54-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss54a.png",
+          "sha256": "b4b6752c96874eefee415c2953fbb52f08a2a01367763bb97f5e0f16339734c1"
+        },
+        {
+          "local": "/screenshots/2016-gw/54-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss54b.png",
+          "sha256": "78131cae341171287375a8e2b23db5cea212a4cfa4581c71d021901e752314a6"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/y3x5k0",
+          "label": "6.2MB05/31提出"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-55",
+      "no": "55",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry55.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181513id_/http://www.geocities.jp/viprpg2016gw/entry55.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "ダダルマー",
+          "html": "作者：ダダルマー"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "講座ゲー",
+          "html": "ジャンル：講座ゲー"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "可/不可",
+          "html": "配信/投稿：可/不可"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "ダダルマー",
+        "type": "講座ゲー2000",
+        "streaming": "可/不可"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/iv.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/55-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss55a.png",
+          "sha256": "78b5e6e1d5c3c6354191c78428bafc77000029c60e7ffce3800e8d8332242ae9"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/KBq9td",
+          "label": "1.8MB05/03提出"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-56",
+      "no": "56",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry56.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181514id_/http://www.geocities.jp/viprpg2016gw/entry56.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "１８５０グラム",
+          "html": "作者：１８５０グラム"
+        },
+        {
+          "label": "ツクール",
+          "value": "VXAce",
+          "html": "ツクール：VXAce"
+        },
+        {
+          "label": "ジャンル",
+          "value": "ｋｓｇ",
+          "html": "ジャンル：ｋｓｇ"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "可・可",
+          "html": "配信/投稿：可・可"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "徹底解剖しなかったら１８５０グラム",
+        "type": "ｋｓｇVXAce",
+        "streaming": "可/可"
+      },
+      "iconSourceUrl": null,
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/56-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss56a.png",
+          "sha256": "fe08d53276f6309f5e047ba085d299f88cedcb4d14501bbe3f03bc5d36ad1ab3"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/Zq_d-N",
+          "label": "1.8MB05/03提出"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-57",
+      "no": "57",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry57.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181505id_/http://www.geocities.jp/viprpg2016gw/entry57.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "無貌神士ゲゲゾミ",
+          "html": "作者：無貌神士ゲゲゾミ"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "君のケツをファックするRPG",
+          "html": "ジャンル：君のケツをファックするRPG"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "好きに/しちゃって",
+          "html": "配信/投稿：好きに/しちゃって"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "無貌神士ゲゲゾミ",
+        "type": "君のケツをファックするRPG2000",
+        "streaming": "好きに/しちゃって"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/i57.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/57-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss57a.png",
+          "sha256": "24319d64cf094f3ce94637de0a4b1ff0ce64bc3058d583f9b27837acd6f72693"
+        },
+        {
+          "local": "/screenshots/2016-gw/57-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss57b.png",
+          "sha256": "f473933fd56856ddee70351ee2abb0834a9c1685720cf803ed84f303ce7519bb"
+        }
+      ],
+      "downloadLinks": [],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-58",
+      "no": "58",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry58.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181505id_/http://www.geocities.jp/viprpg2016gw/entry58.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "焼きそば男",
+          "html": "作者：焼きそば男"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "音合わせ見るゲ",
+          "html": "ジャンル：音合わせ見るゲ"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "可／可",
+          "html": "配信/投稿：可／可"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "焼きそば男",
+        "type": "音合わせ見るゲ2000",
+        "streaming": "可／可"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/i58.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/58-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss58a.png",
+          "sha256": "057bb07596e2efe694094277701c74c915166d0c151d84658f75c18761010081"
+        },
+        {
+          "local": "/screenshots/2016-gw/58-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss58b.png",
+          "sha256": "513704085a52b9b12b1849208e00d614cd0648580d19d305aa8f77d4d4e1afec"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/gVd06n",
+          "label": "4.0MB05/07更新"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-59",
+      "no": "59",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry59.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181513id_/http://www.geocities.jp/viprpg2016gw/entry59.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "鳳天舞の陣－１",
+          "html": "作者：鳳天舞の陣－１"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "読むゲ短編集",
+          "html": "ジャンル：読むゲ短編集"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "是",
+          "html": "配信/投稿：是"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "鳳天舞の陣－１",
+        "type": "読むゲ短編集2000",
+        "streaming": "是"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/iv.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/59-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss59a.png",
+          "sha256": "c9e942f0040364ef97eb03c72b7b7a58ed1601169164a8c486e8b5a50fb013ba"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/CtdiIl",
+          "label": "649KB05/31提出"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-60",
+      "no": "60",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry60.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181514id_/http://www.geocities.jp/viprpg2016gw/entry60.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "よそのん",
+          "html": "作者：よそのん"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "デフォ戦を含むもの",
+          "html": "ジャンル：デフォ戦を含むもの"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "○",
+          "html": "配信/投稿：○"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "よそのん",
+        "type": "デフォ戦を含むもの2000",
+        "streaming": "○"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ip.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/60-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss60a.PNG",
+          "sha256": "23c83fc32508fa56d11f3346193fcf569f1341b8c17f88e4c1af48a2b682d029"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/V-87fg",
+          "label": "1.1MB05/19提出"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-61",
+      "no": "61",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry61.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181509id_/http://www.geocities.jp/viprpg2016gw/entry61.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "l_l",
+          "html": "作者：l_l"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "未識別",
+          "html": "ジャンル：未識別"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "？／？",
+          "html": "配信/投稿：？／？"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "l_l",
+        "type": "未識別2000",
+        "streaming": "？／？"
+      },
+      "iconSourceUrl": null,
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/61-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss61a.png",
+          "sha256": "86e8d6fa14872c25f205f356347b65318549cad9d9ae6111c875bc32be24f24a"
+        }
+      ],
+      "downloadLinks": [],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-62",
+      "no": "62",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry62.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181507id_/http://www.geocities.jp/viprpg2016gw/entry62.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "QR太郎",
+          "html": "作者：QR太郎"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "超短編アドベンチャー",
+          "html": "ジャンル：超短編アドベンチャー"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "無記入",
+          "html": "配信/投稿：無記入"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "QR太郎",
+        "type": "超短編アドベンチャー2000",
+        "streaming": "無記入"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ip.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/62-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss62a.png",
+          "sha256": "73ecb807b3bd27ca51cc9cb96088a5d46f3ba16195a295fdc3cae7dc9988fc87"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/6YfNC8",
+          "label": "196KB05/31提出"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-gw-work-63",
+      "no": "63",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/entry63.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181504id_/http://www.geocities.jp/viprpg2016gw/entry63.html",
+      "sourceMetadata": [
+        {
+          "label": "作者",
+          "value": "ALPHA",
+          "html": "作者：ALPHA"
+        },
+        {
+          "label": "ツクール",
+          "value": "2000",
+          "html": "ツクール：2000"
+        },
+        {
+          "label": "ジャンル",
+          "value": "技術的な小ネタ",
+          "html": "ジャンル：技術的な小ネタ"
+        },
+        {
+          "label": "配信/投稿",
+          "value": "自己責任/自己責任",
+          "html": "配信/投稿：自己責任/自己責任"
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "ALPHA",
+        "type": "技術的な小ネタ2000",
+        "streaming": "自己責任/自己責任"
+      },
+      "iconSourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/i63.gif",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-gw/63-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/ss63a.png",
+          "sha256": "26160e60d8a0cc987ce5922b7988a835379ba718b721b91cf87253cb26097dee"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/XyWo6W",
+          "label": "827KB05/03提出"
+        }
+      ],
+      "commentRows": [
+        "作者コメント",
+        "管理人コメント"
+      ],
+      "packagesDownloaded": false
+    }
+  ],
+  "bannerSources": [
+    {
+      "local": "/banners/2016-gw/source-1.png",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/gw2016a.png",
+      "sha256": "6bea63ca46c8819ea4f6b9bd831ac5fa811411c94f37b0c83caaaddc594acf22"
+    },
+    {
+      "local": "/banners/2016-gw/source-2.png",
+      "sourceUrl": "http://www.geocities.jp/viprpg2016gw/mate/gw2016b.png",
+      "sha256": "6c1734480a5356055eebe92506b355305791008f833e644201d335fb870659c9"
+    }
+  ],
+  "liveSourceEvidence": "source/live/manifest.json",
+  "sourceSnapshotEvidence": "source/archive/manifest.json",
+  "handling": "Direct archival without topic or pixel screening. Preserve all64 source identities, both complete comments, original hover roles and duplicated metadata labels. Source-provided placeholder icons are preserved by role. No game packages downloaded or executed. Entry22 uses the source label サイト管理者 for the host comment; both full comment fields are retained for all64 entries. Derived documents declare UTF-8; raw Shift_JIS HTML is unchanged.",
+  "desktopReview": "desktop-review.json"
+}

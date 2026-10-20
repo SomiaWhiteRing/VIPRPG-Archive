@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T21:41:03.147Z",
+  "generatedAt": "2026-10-20T22:02:15.346Z",
   "scope": "Local inventory; field presence is not source verification or completeness.",
   "totals": {
     "festivals": 74,
@@ -8,11 +8,11 @@
     "detailPages": 4139,
     "disabledDetails": 96,
     "restrictedDetails": 7,
-    "withComments": 3145,
+    "withComments": 3146,
     "withScreenshots": 3360,
-    "withDownload": 3001,
-    "withSource": 3985,
-    "referencedAssets": 7849,
+    "withDownload": 3053,
+    "withSource": 4049,
+    "referencedAssets": 7841,
     "assetIssues": 0
   },
   "festivals": [
@@ -570,19 +570,19 @@
     },
     {
       "id": "2016-gw",
-      "dataSha256": "0e5624c291752688ddf55e9f17515a601117dd1c54e20ce25e61bf63c4b43d17",
+      "dataSha256": "71558c716adda0c433211ecc2387504c7dddbce45c33605d7c3914994cd88f7c",
       "listedSourceUrl": "https://vipkohaku.x.fc2.com/2016GW/index.html",
       "works": 64,
-      "banners": 1,
+      "banners": 2,
       "detailPages": 64,
       "disabledDetails": 0,
       "restrictedDetails": 0,
-      "withAuthor": 63,
-      "withComments": 63,
+      "withAuthor": 64,
+      "withComments": 64,
       "withScreenshots": 64,
-      "withDownload": 0,
-      "withSource": 0,
-      "cachedHtmlFiles": 147,
+      "withDownload": 52,
+      "withSource": 64,
+      "cachedHtmlFiles": 287,
       "summaries": [
         "catch/2016-gw/2016-gw-scrape-summary.json"
       ]

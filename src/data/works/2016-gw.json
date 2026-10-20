@@ -5,15 +5,19 @@
     "no": "00",
     "title": "サンプルゲーム",
     "author": "かんりにん",
-    "category": "サンプル",
     "engine": "MV",
+    "category": "サンプル",
     "streaming": "○/×",
-    "authorComment": "今回はMVの816*624サイズを用意してみました。",
-    "hostComment": "SSを2枚使う場合はなるべく同じサイズに合わせた方が見やすくなります。",
-    "icon": "/icons/2016-gw/00.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry00.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181503id_/http://www.geocities.jp/viprpg2016gw/entry00.html"
+    },
+    "authorComment": "<div>\n今回はMVの816*624サイズを用意してみました。</div>",
+    "hostComment": "<div>\nSSを2枚使う場合はなるべく同じサイズに合わせた方が見やすくなります。</div>",
+    "icon": "/icons/2016-gw/00-source.png",
     "ss": [
-      "/screenshots/2016-gw/00.png",
-      "/screenshots/2016-gw/00-02.png"
+      "/screenshots/2016-gw/00-source-1.png",
+      "/screenshots/2016-gw/00-source-2.png"
     ]
   },
   {
@@ -22,17 +26,31 @@
     "no": "01",
     "title": "やみライ(高度3万キロ)",
     "author": "イグサ",
-    "category": "このふたりはやっぱりいいRPG",
     "engine": "2000",
+    "category": "このふたりはやっぱりいいRPG",
     "streaming": "応相談",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1460898479/",
-    "authorComment": "2016GW最糞部門ノミネート",
-    "hostComment": "3万kmや。",
-    "icon": "/icons/2016-gw/01.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry01.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181517id_/http://www.geocities.jp/viprpg2016gw/entry01.html"
+    },
+    "authorComment": "<div>\n2016GW最糞部門ノミネート</div>",
+    "hostComment": "<div>\n3万kmや。</div>",
+    "icon": "/icons/2016-gw/01-source.png",
     "ss": [
-      "/screenshots/2016-gw/01.png",
-      "/screenshots/2016-gw/01-02.png"
-    ]
+      "/screenshots/2016-gw/01-source-1.png",
+      "/screenshots/2016-gw/01-source-2.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1460898479/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/rZkA07",
+        "label": "67.4MB05/31更新"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/rZkA07",
+      "label": "67.4MB05/31更新"
+    }
   },
   {
     "id": "2016-gw-work-02",
@@ -40,16 +58,30 @@
     "no": "02",
     "title": "SIMPLE ksg シリーズ001（完全版？）",
     "author": "Gam123",
-    "category": "1分で終わるかもしれないRPG",
     "engine": "2000",
+    "category": "1分で終わるかもしれないRPG",
     "streaming": "ご自由にどうぞ（はぁと）",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1460898662/",
-    "authorComment": "1年程前にふりーむに出した「ガムガムRPG」を意識したゲームです。",
-    "hostComment": "こういうダサＴはあっても人前で着られませんね。",
-    "icon": "/icons/2016-gw/02.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry02.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181516id_/http://www.geocities.jp/viprpg2016gw/entry02.html"
+    },
+    "authorComment": "<div>\n1年程前にふりーむに出した「ガムガムRPG」を意識したゲームです。</div>",
+    "hostComment": "<div>\nこういうダサＴはあっても人前で着られませんね。</div>",
+    "icon": "/icons/2016-gw/02-source.png",
     "ss": [
-      "/screenshots/2016-gw/02.png"
-    ]
+      "/screenshots/2016-gw/02-source-1.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1460898662/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/W2eC9T",
+        "label": "202KB05/07更新"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/W2eC9T",
+      "label": "202KB05/07更新"
+    }
   },
   {
     "id": "2016-gw-work-03",
@@ -57,17 +89,31 @@
     "no": "03",
     "title": "The Happy Keeper",
     "author": "F-man",
-    "category": "防衛ゲーム",
     "engine": "2000",
+    "category": "防衛ゲーム",
     "streaming": "おｋ/おｋ",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1460898728/",
-    "authorComment": "◆あらすじ◆\nあなたは王様に重大な仕事を任されることになりました。\n4体の巨大モンスターから砦を何故かたった一人で守るという、\n無駄に難易度を高く釣り上げた危険な仕事を\n◆ゲームルール・概要とか◆\n・砦が破壊される前に巨大モンスターを倒す\nゲームの最終目的\n・巨大モンスターが出現するまでの猶予がある\n素材集めて砦を頑丈にしたり砦にある兵器を強くしたり、\nプレ ーヤーキャラを強化して出現を待ちましょう\n・巨大モンスターは出現しても砦に近付くまで攻撃出来ない\nプレーヤーはその間に兵器で攻撃可能\n・砦まで接近したら巨大モンスターは攻撃可能になる\n同時にプレーヤーキャラはモンスターを直接攻撃出来る\n・砦が壊れればゲームオーバー\nプレーヤーがＨＰ０になってもしばらく動けないだけ\n◆注意とかもろもろ◆\n・１セッション３０分ぐらい\n・クリアする度に操作キャラ増える。\n現バージョンでは最大４人まで追加\n・やや死に覚え\n・チマい遊びが好きな人向け\n・ラスボスの技に殺意覚えないで\n・引き継ぎスタートの本当の楽しみ方は\n変わった遊びを模索したい人向け",
-    "hostComment": "拠点迎撃戦はロマン。",
-    "icon": "/icons/2016-gw/03.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry03.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330215549id_/http://www.geocities.jp/viprpg2016gw/entry03.html"
+    },
+    "authorComment": "<div>\n◆あらすじ◆<br>\nあなたは王様に重大な仕事を任されることになりました。<br>\n4体の巨大モンスターから砦を何故かたった一人で守るという、<br>\n無駄に難易度を高く釣り上げた危険な仕事を<br>\n<br>\n◆ゲームルール・概要とか◆<br>\n・砦が破壊される前に巨大モンスターを倒す<br>\n　ゲームの最終目的<br>\n・巨大モンスターが出現するまでの猶予がある<br>\n　素材集めて砦を頑丈にしたり砦にある兵器を強くしたり、<br>\n　プレ ーヤーキャラを強化して出現を待ちましょう<br>\n・巨大モンスターは出現しても砦に近付くまで攻撃出来ない<br>\n　プレーヤーはその間に兵器で攻撃可能<br>\n・砦まで接近したら巨大モンスターは攻撃可能になる<br>\n　同時にプレーヤーキャラはモンスターを直接攻撃出来る<br>\n・砦が壊れればゲームオーバー<br>\n　プレーヤーがＨＰ０になってもしばらく動けないだけ<br>\n<br>\n◆注意とかもろもろ◆<br>\n・１セッション３０分ぐらい<br>\n・クリアする度に操作キャラ増える。<br>\n　現バージョンでは最大４人まで追加<br>\n・やや死に覚え<br>\n・チマい遊びが好きな人向け<br>\n・ラスボスの技に殺意覚えないで<br>\n・引き継ぎスタートの本当の楽しみ方は<br>\n　変わった遊びを模索したい人向け</div>",
+    "hostComment": "<div>\n拠点迎撃戦はロマン。</div>",
+    "icon": "/icons/2016-gw/03-source.png",
     "ss": [
-      "/screenshots/2016-gw/03.png",
-      "/screenshots/2016-gw/03-02.png"
-    ]
+      "/screenshots/2016-gw/03-source-1.png",
+      "/screenshots/2016-gw/03-source-2.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1460898728/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/5nxk5R",
+        "label": "27.8MB05/29更新"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/5nxk5R",
+      "label": "27.8MB05/29更新"
+    }
   },
   {
     "id": "2016-gw-work-04",
@@ -75,15 +121,29 @@
     "no": "04",
     "title": "baka20",
     "author": "ぬ",
-    "category": "baka",
     "engine": "2000",
+    "category": "baka",
     "streaming": "共に可",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1460898803/",
-    "authorComment": "ゴミみたいなｋｓｇ5コくらい詰め込んで短編集だと嘯いてやろうと画策していたのですが\n1コ目制作途中で飽きたのでゴミ山からゴミに変貌しました",
-    "hostComment": "ゴミンナサイなんつってｗｗｗｗｗｗｗｗｗｗ",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry04.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181510id_/http://www.geocities.jp/viprpg2016gw/entry04.html"
+    },
+    "authorComment": "<div>\nゴミみたいなｋｓｇ5コくらい詰め込んで短編集だと嘯いてやろうと画策していたのですが<br>\n1コ目制作途中で飽きたのでゴミ山からゴミに変貌しました</div>",
+    "hostComment": "<div>\nゴミンナサイなんつってｗｗｗｗｗｗｗｗｗｗ</div>",
     "ss": [
-      "/screenshots/2016-gw/04.png"
-    ]
+      "/screenshots/2016-gw/04-source-1.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1460898803/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/2vCZ8e",
+        "label": "447KB05/03提出"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/2vCZ8e",
+      "label": "447KB05/03提出"
+    }
   },
   {
     "id": "2016-gw-work-05",
@@ -91,16 +151,30 @@
     "no": "05",
     "title": "Win' Wind' Windy",
     "author": "うっぺれ",
-    "category": "アクションパズル",
     "engine": "2000",
+    "category": "アクションパズル",
     "streaming": "お/ｋ",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1460898841/",
-    "authorComment": "敵に触れると一発でやられるウィンディをゴールまで導くシンプルなアクションパズルです。\n・導入用のNormalモードと、パズル要素の強くなるHardモードあり\n・本編27ステージ＋おまけ18ステージ、リプレイ機能つき\n・本編想定プレイ時間は1時間ほど\n・ｋｓｇ並のストーリーや掛け合いも一応あるよ",
-    "hostComment": "『マリオとワリオ』みたいな感じでしょうか。",
-    "icon": "/icons/2016-gw/05.gif",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry05.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129160342id_/http://www.geocities.jp/viprpg2016gw/entry05.html"
+    },
+    "authorComment": "<div>\n敵に触れると一発でやられるウィンディをゴールまで導くシンプルなアクションパズルです。<br>\n<br>\n・導入用のNormalモードと、パズル要素の強くなるHardモードあり<br>\n・本編27ステージ＋おまけ18ステージ、リプレイ機能つき<br>\n・本編想定プレイ時間は1時間ほど<br>\n・ｋｓｇ並のストーリーや掛け合いも一応あるよ</div>",
+    "hostComment": "<div>\n『マリオとワリオ』みたいな感じでしょうか。</div>",
+    "icon": "/icons/2016-gw/05-source.gif",
     "ss": [
-      "/screenshots/2016-gw/05.png"
-    ]
+      "/screenshots/2016-gw/05-source-1.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1460898841/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/V-WIub",
+        "label": "15.8MB04/29提出"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/V-WIub",
+      "label": "15.8MB04/29提出"
+    }
   },
   {
     "id": "2016-gw-work-06",
@@ -108,17 +182,31 @@
     "no": "06",
     "title": "聖少女騎士団☆まかろん ～最終版～",
     "author": "まかろん制作委員会",
-    "category": "ギャルゲー",
     "engine": "2000",
+    "category": "ギャルゲー",
     "streaming": "焼肉奢ってくれるなら可",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1460898879/",
-    "authorComment": "フルボイスなんで重いです。",
-    "hostComment": "もはやVのブの字も残っていなかった！！",
-    "icon": "/icons/2016-gw/06.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry06.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331145958id_/http://www.geocities.jp/viprpg2016gw/entry06.html"
+    },
+    "authorComment": "<div>\nフルボイスなんで重いです。</div>",
+    "hostComment": "<div>\nもはやVのブの字も残っていなかった！！</div>",
+    "icon": "/icons/2016-gw/06-source.png",
     "ss": [
-      "/screenshots/2016-gw/06.png",
-      "/screenshots/2016-gw/06-02.png"
-    ]
+      "/screenshots/2016-gw/06-source-1.png",
+      "/screenshots/2016-gw/06-source-2.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1460898879/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/7A0ITL",
+        "label": "40.3MB05/13提出"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/7A0ITL",
+      "label": "40.3MB05/13提出"
+    }
   },
   {
     "id": "2016-gw-work-07",
@@ -126,17 +214,31 @@
     "no": "07",
     "title": "次世代冒険記",
     "author": "suica",
-    "category": "中編やるゲ(デフォ戦)",
     "engine": "VXAce",
+    "category": "中編やるゲ(デフォ戦)",
     "streaming": "可能/可能",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1460898916/",
-    "authorComment": "VIPRPG初作品になります。\nアレックスの提案により、リナックスとメビウスによる「魔王把握」という名の連戦の旅が始まった。\n魔王城に辿り着くまでに今回の提案の事を聞いて協力してくれたたくさんのキャラが彼女達に立ち塞がる……。\n5/11追記\n遅刻提出致しました。ゲームプレイ時間目安は約8時間です。\n5/15追記\n掲示板でご指摘いただいたバグやミスの修正などを行いました。\n5/25追記\n本体更新を行いました(Ver.1-4)\n・おまけバトル＋おまけストーリー4つ追加\n・雑魚敵の弱体化及び一部相手の調整\n・味方の技習得レベル及び技の消費TP調整\n・他作品の小ネタ大量追加",
-    "hostComment": "VX(A)の解像度は加工に難儀しますよね。",
-    "icon": "/icons/2016-gw/07.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry07.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331144440id_/http://www.geocities.jp/viprpg2016gw/entry07.html"
+    },
+    "authorComment": "<div>\nVIPRPG初作品になります。<br>\nアレックスの提案により、リナックスとメビウスによる「魔王把握」という名の連戦の旅が始まった。<br>\n魔王城に辿り着くまでに今回の提案の事を聞いて協力してくれたたくさんのキャラが彼女達に立ち塞がる……。<br>\n<br>\n5/11追記<br>\n遅刻提出致しました。ゲームプレイ時間目安は約8時間です。<br>\n<br>\n5/15追記<br>\n掲示板でご指摘いただいたバグやミスの修正などを行いました。<br>\n<br>\n5/25追記<br>\n本体更新を行いました(Ver.1-4)<br>\n・おまけバトル＋おまけストーリー4つ追加<br>\n・雑魚敵の弱体化及び一部相手の調整<br>\n・味方の技習得レベル及び技の消費TP調整<br>\n・他作品の小ネタ大量追加\n</div>",
+    "hostComment": "<div>\nVX(A)の解像度は加工に難儀しますよね。</div>",
+    "icon": "/icons/2016-gw/07-source.png",
     "ss": [
-      "/screenshots/2016-gw/07.png",
-      "/screenshots/2016-gw/07-02.png"
-    ]
+      "/screenshots/2016-gw/07-source-1.png",
+      "/screenshots/2016-gw/07-source-2.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1460898916/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/nrbIJe",
+        "label": "93.7MB05/31更新"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/nrbIJe",
+      "label": "93.7MB05/31更新"
+    }
   },
   {
     "id": "2016-gw-work-08",
@@ -144,16 +246,20 @@
     "no": "08",
     "title": "もしもライチが妊娠しちゃったら 体験版２",
     "author": "かに",
-    "category": "らいやみRPG",
     "engine": "2000",
+    "category": "らいやみRPG",
     "streaming": "どっちも可",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1460898956/",
-    "authorComment": "どう考えても完成には程遠いので今回も\n体験版です。\nでもみなさんに楽しんでいただけるゲームを目指して\n頑張ります！",
-    "hostComment": "前回MAXサイズだったSSが今回は謎サイズに！",
-    "icon": "/icons/2016-gw/08.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry08.html",
+      "snapshotUrl": "https://web.archive.org/web/20190330213723id_/http://www.geocities.jp/viprpg2016gw/entry08.html"
+    },
+    "authorComment": "<div>\nどう考えても完成には程遠いので今回も<br>\n体験版です。<br>\nでもみなさんに楽しんでいただけるゲームを目指して<br>\n頑張ります！</div>",
+    "hostComment": "<div>\n前回MAXサイズだったSSが今回は謎サイズに！</div>",
+    "icon": "/icons/2016-gw/08-source.png",
     "ss": [
-      "/screenshots/2016-gw/08.png"
-    ]
+      "/screenshots/2016-gw/08-source-1.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1460898956/"
   },
   {
     "id": "2016-gw-work-09",
@@ -161,17 +267,31 @@
     "no": "09",
     "title": "やみっちと迷宮 THE MOTHER OF SATAN",
     "author": "さいてん",
-    "category": "ダンジョン探索ＲＰＧ",
     "engine": "2000",
+    "category": "ダンジョン探索ＲＰＧ",
     "streaming": "可",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1460899001/",
-    "authorComment": "やみきゅーって略すと今風です。\n同時収録：やみっちの謎 裏",
-    "hostComment": "後ろの2作はシリーズ作品ってわかりますけども……。",
-    "icon": "/icons/2016-gw/09.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry09.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181514id_/http://www.geocities.jp/viprpg2016gw/entry09.html"
+    },
+    "authorComment": "<div>\nやみきゅーって略すと今風です。<br>\n同時収録：やみっちの謎　裏</div>",
+    "hostComment": "<div>\n後ろの2作はシリーズ作品ってわかりますけども……。</div>",
+    "icon": "/icons/2016-gw/09-source.png",
     "ss": [
-      "/screenshots/2016-gw/09.png",
-      "/screenshots/2016-gw/09-02.png"
-    ]
+      "/screenshots/2016-gw/09-source-1.png",
+      "/screenshots/2016-gw/09-source-2.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1460899001/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/YJhOeL",
+        "label": "3.7MB05/15更新"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/YJhOeL",
+      "label": "3.7MB05/15更新"
+    }
   },
   {
     "id": "2016-gw-work-10",
@@ -179,33 +299,62 @@
     "no": "10",
     "title": "肥溜め倉庫",
     "author": "灰色障太",
-    "category": "キバリちゃんへの愛を詰め込んだｋｓｇ集",
     "engine": "2000",
+    "category": "キバリちゃんへの愛を詰め込んだｋｓｇ集",
     "streaming": "いいですとも♂",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1460899037/",
-    "authorComment": "キバリちゃんの大活躍するｋｓｇをいっぱい作りました！！！\nＳＳはほのぼのしていますがお下品なネタが多いのでご注意ください！！！！！",
-    "hostComment": "ほのぼのって何だっけ？",
-    "icon": "/icons/2016-gw/10.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry10.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181502id_/http://www.geocities.jp/viprpg2016gw/entry10.html"
+    },
+    "authorComment": "<div>\nキバリちゃんの大活躍するｋｓｇをいっぱい作りました！！！<br>\nＳＳはほのぼのしていますがお下品なネタが多いのでご注意ください！！！！！</div>",
+    "hostComment": "<div>\nほのぼのって何だっけ？</div>",
+    "icon": "/icons/2016-gw/10-source.png",
     "ss": [
-      "/screenshots/2016-gw/10.png"
-    ]
+      "/screenshots/2016-gw/10-source-1.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1460899037/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/-32R-y",
+        "label": "4.7MB04/29提出"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/-32R-y",
+      "label": "4.7MB04/29提出"
+    }
   },
   {
     "id": "2016-gw-work-11",
     "festivalId": "2016-gw",
     "no": "11",
-    "title": "キュアー?のデトックスラジオスペシャル",
+    "title": "キュアーⅠのデトックスラジオスペシャル",
     "author": "茶豆のおまんじゅう",
-    "category": "見るゲ",
     "engine": "2000",
+    "category": "見るゲ",
     "streaming": "自己責任でお願いします",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1460899077/",
-    "authorComment": "スペシャル回です。夏の陣2014・素材祭り・夏の陣2015に続き四作目になります。\n過去のシリーズもよろしく！",
-    "hostComment": "何アレ食べ物なの！？",
-    "icon": "/icons/2016-gw/11.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry11.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181510id_/http://www.geocities.jp/viprpg2016gw/entry11.html",
+      "titleUrl": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1460899077/"
+    },
+    "authorComment": "<div>\nスペシャル回です。夏の陣2014・素材祭り・夏の陣2015に続き四作目になります。<br>\n過去のシリーズもよろしく！</div>",
+    "hostComment": "<div>\n何アレ食べ物なの！？</div>",
+    "icon": "/icons/2016-gw/11-source.png",
     "ss": [
-      "/screenshots/2016-gw/11.png"
-    ]
+      "/screenshots/2016-gw/11-source-1.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1460899077/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/3IYDno",
+        "label": "8.1MB05/03提出"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/3IYDno",
+      "label": "8.1MB05/03提出"
+    }
   },
   {
     "id": "2016-gw-work-12",
@@ -213,16 +362,30 @@
     "no": "12",
     "title": "あさめしけ外伝",
     "author": "おたつ",
-    "category": "短編デフォ戦",
     "engine": "2003",
+    "category": "短編デフォ戦",
     "streaming": "可能/可能",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1460899110/",
-    "authorComment": "前作をPIAIしていなくても大丈夫",
-    "hostComment": "SSから読み取れる情報が<a href=\"https://web.archive.org/web/20190129181516/http://www.geocities.jp/vipkohaku2015/entry27.html\" target=\"blank\">前作</a>よりさらに少ない！",
-    "icon": "/icons/2016-gw/12.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry12.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181516id_/http://www.geocities.jp/viprpg2016gw/entry12.html"
+    },
+    "authorComment": "<div>\n前作をPIAIしていなくても大丈夫</div>",
+    "hostComment": "<div>\nSSから読み取れる情報が<a href=\"http://www.geocities.jp/vipkohaku2015/entry27.html\" target=\"blank\">前作</a>よりさらに少ない！</div>",
+    "icon": "/icons/2016-gw/12-source.png",
     "ss": [
-      "/screenshots/2016-gw/12.png"
-    ]
+      "/screenshots/2016-gw/12-source-1.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1460899110/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/1plMWp",
+        "label": "3.4MB05/15更新"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/1plMWp",
+      "label": "3.4MB05/15更新"
+    }
   },
   {
     "id": "2016-gw-work-13",
@@ -230,15 +393,29 @@
     "no": "13",
     "title": "やみっちの天ぷらそば",
     "author": "焼肉",
-    "category": "ロック",
     "engine": "2000",
+    "category": "ロック",
     "streaming": "可能/可能",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1460899144/",
-    "authorComment": "天ぷらそば大好きです",
-    "hostComment": "そばなら鴨せいろが好きですね。",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry13.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181513id_/http://www.geocities.jp/viprpg2016gw/entry13.html"
+    },
+    "authorComment": "<div>\n天ぷらそば大好きです</div>",
+    "hostComment": "<div>\nそばなら鴨せいろが好きですね。</div>",
     "ss": [
-      "/screenshots/2016-gw/13.jpg"
-    ]
+      "/screenshots/2016-gw/13-source-1.jpg"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1460899144/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/jixU5j",
+        "label": "1.9MB05/31提出"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/jixU5j",
+      "label": "1.9MB05/31提出"
+    }
   },
   {
     "id": "2016-gw-work-14",
@@ -246,16 +423,20 @@
     "no": "14",
     "title": "Vampire Requiem",
     "author": "池多昇",
-    "category": "ダークアクション格闘ksg",
     "engine": "2000",
+    "category": "ダークアクション格闘ksg",
     "streaming": "実況でなければ可",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461070180/",
-    "authorComment": "魔界を賭けた闇の血族達の最後の戦いに鎮魂歌を。\n米 当作品はフィクションであり、実在の護るべきモノ及び\nユダの血族、デミトリ・マキシモフなどとは一切関係ありません。",
-    "hostComment": "食べ合わせって言葉があります。良いか悪いかは食べてみないとわかりませんが。",
-    "icon": "/icons/2016-gw/14.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry14.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181513id_/http://www.geocities.jp/viprpg2016gw/entry14.html"
+    },
+    "authorComment": "<div>\n魔界を賭けた闇の血族達の最後の戦いに鎮魂歌を。<br>\n米 当作品はフィクションであり、実在の護るべきモノ及び<br>\nユダの血族、デミトリ・マキシモフなどとは一切関係ありません。</div>",
+    "hostComment": "<div>\n食べ合わせって言葉があります。良いか悪いかは食べてみないとわかりませんが。</div>",
+    "icon": "/icons/2016-gw/14-source.png",
     "ss": [
-      "/screenshots/2016-gw/14.png"
-    ]
+      "/screenshots/2016-gw/14-source-1.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461070180/"
   },
   {
     "id": "2016-gw-work-15",
@@ -263,16 +444,30 @@
     "no": "15",
     "title": "看板聖人。",
     "author": "鷹",
-    "category": "導きゲ",
     "engine": "2000",
+    "category": "導きゲ",
     "streaming": "可/可",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461070223/",
-    "authorComment": "【ゲームについて】\nこのゲームは「看板」の仕事を始めた聖人さんが人々を導くゲームです。\n人々の要望を聞いて、適切な場所へと導いてあげましょう。\n「操作説明」\n【右上の文字が「待つ」の時】\nＺキー:次の人を呼ぶ\nＸキー:セーブ\nShiftキー:仕事をやめる（エンディングに行く）\n【右上の文字が「導き」の時】\n方向キー：導く方向を決める\nＺキー：決めた方向に導く\nＸキー：要望を聞きなおす\n【エンディング条件】\n１：「仕事をやめる」を選択する\n２：100人を導く（セーブ画面のデータに導いた人数が表示されます）\n――「操作説明」より",
-    "hostComment": "そこ そこ！\nくいを はさんで ひだり がわ",
-    "icon": "/icons/2016-gw/15.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry15.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181506id_/http://www.geocities.jp/viprpg2016gw/entry15.html"
+    },
+    "authorComment": "<div>\n【ゲームについて】\nこのゲームは「看板」の仕事を始めた聖人さんが人々を導くゲームです。<br>\n人々の要望を聞いて、適切な場所へと導いてあげましょう。<br>\n <br>\n「操作説明」<br>\n【右上の文字が「待つ」の時】<br>\n　Ｚキー:次の人を呼ぶ<br>\n　Ｘキー:セーブ<br>\n　Shiftキー:仕事をやめる（エンディングに行く）<br>\n <br>\n【右上の文字が「導き」の時】<br>\n　方向キー：導く方向を決める<br>\n　Ｚキー：決めた方向に導く<br>\n　Ｘキー：要望を聞きなおす<br>\n <br>\n <br>\n【エンディング条件】<br>\n１：「仕事をやめる」を選択する<br>\n２：100人を導く（セーブ画面のデータに導いた人数が表示されます）<br>\n <br>\n――「操作説明」より</div>",
+    "hostComment": "<div>\nそこ　そこ！<br>\nくいを　はさんで　ひだり　がわ</div>",
+    "icon": "/icons/2016-gw/15-source.png",
     "ss": [
-      "/screenshots/2016-gw/15.png"
-    ]
+      "/screenshots/2016-gw/15-source-1.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461070223/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/zVGjL8",
+        "label": "7.1MB05/23更新"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/zVGjL8",
+      "label": "7.1MB05/23更新"
+    }
   },
   {
     "id": "2016-gw-work-16",
@@ -280,16 +475,30 @@
     "no": "16",
     "title": "この雨が止まないのは涙雨だから",
     "author": "かりかりん",
-    "category": "読むゲ",
     "engine": "2000",
+    "category": "読むゲ",
     "streaming": "可/可",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461070268/",
-    "authorComment": "雨がさんさんと降っていた、あの日\n――私は、雨の中で踊るあなたを偶然見かけた\n1時間程度の読むゲ＋時々見るゲです\nちなみに、前作「ライチ・イン・ナイトメア」とは時系列が一緒の予定\nもちろん、前作をやってなくても遊べます",
-    "hostComment": "ツッコミ所がなくなってしまった……と思ったら新しく用意されてるｗｗｗｗ",
-    "icon": "/icons/2016-gw/16.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry16.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181509id_/http://www.geocities.jp/viprpg2016gw/entry16.html"
+    },
+    "authorComment": "<div>\n雨がさんさんと降っていた、あの日<br>\n――私は、雨の中で踊るあなたを偶然見かけた<br>\n1時間程度の読むゲ＋時々見るゲです<br>\n<br>\nちなみに、前作「ライチ・イン・ナイトメア」とは時系列が一緒の予定<br>\nもちろん、前作をやってなくても遊べます</div>",
+    "hostComment": "<div>\nツッコミ所がなくなってしまった……と思ったら新しく用意されてるｗｗｗｗ</div>",
+    "icon": "/icons/2016-gw/16-source.png",
     "ss": [
-      "/screenshots/2016-gw/16.png"
-    ]
+      "/screenshots/2016-gw/16-source-1.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461070268/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/d-2duD",
+        "label": "13.5MB05/03提出"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/d-2duD",
+      "label": "13.5MB05/03提出"
+    }
   },
   {
     "id": "2016-gw-work-17",
@@ -297,34 +506,53 @@
     "no": "17",
     "title": "そして美しい生き物の国へ",
     "author": "ざるそば",
-    "category": "与太見るゲ",
     "engine": "2000",
+    "category": "与太見るゲ",
     "streaming": "自己責任",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461070313/",
-    "authorComment": "運がよければ本編5~10分の\n少し昔の保管庫とかに転がってそうな与太ｋｓｇがPOPします。",
-    "hostComment": "いつまでコタツ出してるんですか。",
-    "icon": "/icons/2016-gw/17.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry17.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181510id_/http://www.geocities.jp/viprpg2016gw/entry17.html"
+    },
+    "authorComment": "<div>\n運がよければ本編5~10分の<br>\n少し昔の保管庫とかに転がってそうな与太ｋｓｇがPOPします。</div>",
+    "hostComment": "<div>\nいつまでコタツ出してるんですか。</div>",
+    "icon": "/icons/2016-gw/17-source.png",
     "ss": [
-      "/screenshots/2016-gw/17.png"
-    ]
+      "/screenshots/2016-gw/17-source-1.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461070313/"
   },
   {
     "id": "2016-gw-work-18",
     "festivalId": "2016-gw",
     "no": "18",
-    "title": "ダークネスウィンド&amp;ロボ",
+    "title": "ダークネスウィンド&ロボ",
     "author": "ザハーク",
-    "category": "デフォ戦ＲＰＧ",
-    "engine": "～Ｚ級映画の風味を添えて～",
+    "engine": "2000",
+    "category": "デフォ戦ＲＰＧ～Ｚ級映画の風味を添えて～",
     "streaming": "可能・可能",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461070424/",
-    "authorComment": "ＰＩＡＩ専門からはや数年。\n「私もゲームをtktkしたい」という渇望は日に日に高まり…\nキガ ツク トワ タシ ハヤル ゲヲ ツク ツテ イタ",
-    "hostComment": "お前をツクラーにしてやろうか！！",
-    "icon": "/icons/2016-gw/18.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry18.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181510id_/http://www.geocities.jp/viprpg2016gw/entry18.html",
+      "titleUrl": "https://web.archive.org/web/20190330213724id_/http://www.geocities.jp/viprpg2016gw/main.html"
+    },
+    "authorComment": "<div>\nＰＩＡＩ専門からはや数年。<br>\n「私もゲームをtktkしたい」という渇望は日に日に高まり…<br>\nキガ ツク トワ タシ ハヤル ゲヲ ツク ツテ イタ</div>",
+    "hostComment": "<div>\nお前をツクラーにしてやろうか！！</div>",
+    "icon": "/icons/2016-gw/18-source.png",
     "ss": [
-      "/screenshots/2016-gw/18.png",
-      "/screenshots/2016-gw/18-02.png"
-    ]
+      "/screenshots/2016-gw/18-source-1.png",
+      "/screenshots/2016-gw/18-source-2.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461070424/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/Y0Ue59",
+        "label": "7.1MB04/29提出"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/Y0Ue59",
+      "label": "7.1MB04/29提出"
+    }
   },
   {
     "id": "2016-gw-work-19",
@@ -332,17 +560,31 @@
     "no": "19",
     "title": "キャロらない",
     "author": "女体化ダークメカアレックス",
-    "category": "ksg",
     "engine": "2000",
+    "category": "アトリエ",
     "streaming": "可/可",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461070486/",
-    "authorComment": "１枚目の内容は夏頃に頑張ります。",
-    "hostComment": "見知らぬ愛らしい女の子は来なかったみたいですね。",
-    "icon": "/icons/2016-gw/19.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry19.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181508id_/http://www.geocities.jp/viprpg2016gw/entry19.html"
+    },
+    "authorComment": "<div>\n１枚目の内容は夏頃に頑張ります。</div>",
+    "hostComment": "<div>\n見知らぬ愛らしい女の子は来なかったみたいですね。</div>",
+    "icon": "/icons/2016-gw/19-source.png",
     "ss": [
-      "/screenshots/2016-gw/19.png",
-      "/screenshots/2016-gw/19-02.png"
-    ]
+      "/screenshots/2016-gw/19-source-1.png",
+      "/screenshots/2016-gw/19-source-2.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461070486/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/tV5Bgz",
+        "label": "4.9MB05/01提出"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/tV5Bgz",
+      "label": "4.9MB05/01提出"
+    }
   },
   {
     "id": "2016-gw-work-20",
@@ -350,17 +592,31 @@
     "no": "20",
     "title": "わてり無双",
     "author": "けいと",
-    "category": "見下ろし型アクション",
     "engine": "2000",
+    "category": "見下ろし型アクション",
     "streaming": "やったぁ！/やったぁ！",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461070540/",
-    "authorComment": "全てのウィンディを狩り尽くせ！\nアクションゲーって難易度調整難しいよね。\nそれと、誰にだってスペルミスくらいあるもんさ",
-    "hostComment": "こううじゃうじゃしてるとイナゴみたいですね。",
-    "icon": "/icons/2016-gw/20.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry20.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181511id_/http://www.geocities.jp/viprpg2016gw/entry20.html"
+    },
+    "authorComment": "<div>\n全てのウィンディを狩り尽くせ！<br>\nアクションゲーって難易度調整難しいよね。<br>\nそれと、誰にだってスペルミスくらいあるもんさ</div>",
+    "hostComment": "<div>\nこううじゃうじゃしてるとイナゴみたいですね。</div>",
+    "icon": "/icons/2016-gw/20-source.png",
     "ss": [
-      "/screenshots/2016-gw/20.png",
-      "/screenshots/2016-gw/20-02.png"
-    ]
+      "/screenshots/2016-gw/20-source-1.png",
+      "/screenshots/2016-gw/20-source-2.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461070540/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/X9Txpp",
+        "label": "1.2MB05/03更新"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/X9Txpp",
+      "label": "1.2MB05/03更新"
+    }
   },
   {
     "id": "2016-gw-work-21",
@@ -368,17 +624,31 @@
     "no": "21",
     "title": "ヒール先生がウィンディに触るだけのerg",
     "author": "徳明",
-    "category": "erg",
     "engine": "2000",
+    "category": "erg",
     "streaming": "消される覚悟があるなら/らめぇ",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461070578/",
-    "authorComment": "変態医者ヒール先生が治療と同時に調教されたウィンディを野外で触診するだけのergです\nPIAI時間は10分くらいだったような気がします。\n※実際のゲーム画面ではゴメスは居ません",
-    "hostComment": "※実際のプレイ中はあなたの後ろにゴメスがいます",
-    "icon": "/icons/2016-gw/21.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry21.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181516id_/http://www.geocities.jp/viprpg2016gw/entry21.html"
+    },
+    "authorComment": "<div>\n変態医者ヒール先生が治療と同時に調教されたウィンディを野外で触診するだけのergです<br>\nPIAI時間は10分くらいだったような気がします。<br>\n<br>\n※実際のゲーム画面ではゴメスは居ません</div>",
+    "hostComment": "<div>\n※実際のプレイ中はあなたの後ろにゴメスがいます</div>",
+    "icon": "/icons/2016-gw/21-source.png",
     "ss": [
-      "/screenshots/2016-gw/21.png",
-      "/screenshots/2016-gw/21-02.jpg"
-    ]
+      "/screenshots/2016-gw/21-source-1.png",
+      "/screenshots/2016-gw/21-source-2.jpg"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461070578/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/Ql0Vdd",
+        "label": "1.3MB05/05提出"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/Ql0Vdd",
+      "label": "1.3MB05/05提出"
+    }
   },
   {
     "id": "2016-gw-work-22",
@@ -386,26 +656,31 @@
     "no": "22",
     "title": "もしもSCP-1733だったら",
     "author": "煮汁",
-    "category": "見るゲ",
     "engine": "VXAce",
+    "category": "見るゲ",
     "streaming": "許可／許可",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461070623/",
-    "authorComment": "Item #:SCP-■■■■-VIP\nObject Class:Safe\n取扱方：SCP-■■■■-VIPはVIPRPG2016年GW祭りに保管されています。\n実験を行う研究員は、サイト管理者の許可の元先述したサイトから\nSCP-■■■■-VIPのコピーを入手してください。\nこの際、SCP-■■■■-VIP本体に変更を加えることはいかなる場合でも禁止されています。\nとあるSCPオブジェクトの再現見るゲです。CC3.0 BY-SAで公開できる…はず。",
-    "icon": "/icons/2016-gw/22.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry22.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181516id_/http://www.geocities.jp/viprpg2016gw/entry22.html"
+    },
+    "authorComment": "<div>\nItem #:SCP-■■■■-VIP<br>\nObject Class:Safe<br>\n取扱方：SCP-■■■■-VIPはVIPRPG2016年GW祭りに保管されています。<br>\n実験を行う研究員は、サイト管理者の許可の元先述したサイトから<br>\nSCP-■■■■-VIPのコピーを入手してください。<br>\nこの際、SCP-■■■■-VIP本体に変更を加えることはいかなる場合でも禁止されています。<br>\n<br>\nとあるSCPオブジェクトの再現見るゲです。CC3.0 BY-SAで公開できる…はず。\n</div>",
+    "hostComment": "<div>\n当該オブジェクトの閲覧に際し、事後のカウンセリング、及び記憶処理は必要ありません。</div>",
+    "icon": "/icons/2016-gw/22-source.png",
     "ss": [
-      "/screenshots/2016-gw/22.png",
-      "/screenshots/2016-gw/22-02.png",
-      "/screenshots/2016-gw/22-03.png",
-      "/screenshots/2016-gw/22-04.png",
-      "/screenshots/2016-gw/22-05.png",
-      "/screenshots/2016-gw/22-06.png",
-      "/screenshots/2016-gw/22-07.png",
-      "/screenshots/2016-gw/22-08.png",
-      "/screenshots/2016-gw/22-09.png",
-      "/screenshots/2016-gw/22-10.png",
-      "/screenshots/2016-gw/22-11.png",
-      "/screenshots/2016-gw/22-12.png"
-    ]
+      "/screenshots/2016-gw/22-source-1.png",
+      "/screenshots/2016-gw/22-source-2.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461070623/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/LQF5d5",
+        "label": "2.4MB05/27提出"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/LQF5d5",
+      "label": "2.4MB05/27提出"
+    }
   },
   {
     "id": "2016-gw-work-23",
@@ -413,16 +688,30 @@
     "no": "23",
     "title": "やみらい10連発",
     "author": "黒蟻大使",
-    "category": "コレクションゲー",
     "engine": "2000",
+    "category": "コレクションゲー",
     "streaming": "可/可",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461070662/",
-    "authorComment": "ほとんど安価で決まったｋｓｇ集です\n祭は初参加なのでお手柔らかにお願いします",
-    "hostComment": "間違いなくこれはひどい。",
-    "icon": "/icons/2016-gw/23.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry23.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181510id_/http://www.geocities.jp/viprpg2016gw/entry23.html"
+    },
+    "authorComment": "<div>\nほとんど安価で決まったｋｓｇ集です<br>\n祭は初参加なのでお手柔らかにお願いします</div>",
+    "hostComment": "<div>\n間違いなくこれはひどい。</div>",
+    "icon": "/icons/2016-gw/23-source.png",
     "ss": [
-      "/screenshots/2016-gw/23.png"
-    ]
+      "/screenshots/2016-gw/23-source-1.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461070662/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/d5dqmE",
+        "label": "347KB05/03提出"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/d5dqmE",
+      "label": "347KB05/03提出"
+    }
   },
   {
     "id": "2016-gw-work-24",
@@ -430,16 +719,30 @@
     "no": "24",
     "title": "転々アフィリエイト",
     "author": "ヌプルペツ",
-    "category": "安価見るゲ",
     "engine": "2000",
+    "category": "安価見るゲ",
     "streaming": "どちらも大歓迎です",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461070697/",
-    "authorComment": "そうだ、京都行こう",
-    "hostComment": "当サイトはアフィリエイトを設置しておりませんのでご安心ください。",
-    "icon": "/icons/2016-gw/24.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry24.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181505id_/http://www.geocities.jp/viprpg2016gw/entry24.html"
+    },
+    "authorComment": "<div>\nそうだ、京都行こう</div>",
+    "hostComment": "<div>\n当サイトはアフィリエイトを設置しておりませんのでご安心ください。</div>",
+    "icon": "/icons/2016-gw/24-source.png",
     "ss": [
-      "/screenshots/2016-gw/24.png"
-    ]
+      "/screenshots/2016-gw/24-source-1.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461070697/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/ufL2mS",
+        "label": "1.4MB05/31提出"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/ufL2mS",
+      "label": "1.4MB05/31提出"
+    }
   },
   {
     "id": "2016-gw-work-25",
@@ -447,17 +750,31 @@
     "no": "25",
     "title": "果てしない物語",
     "author": "秋草",
-    "category": "見るゲ＋ksg集",
     "engine": "2000",
+    "category": "見るゲ＋ksg集",
     "streaming": "応相談",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461070731/",
-    "authorComment": "～あらすじ～\n１日中玉座に座っている王様は、退屈を紛らわせるためにいろいろな人を呼んで物語を話させていた。\nある日、王様は国中にお触れを出す。\n『永遠に終わらない物語を話して聞かせた者に、望む物を与える』、と。\n物語が好きな王様と、彼に振り回される周囲の人々の話。",
-    "hostComment": "かぐや姫もビックリの難題。",
-    "icon": "/icons/2016-gw/25.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry25.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181507id_/http://www.geocities.jp/viprpg2016gw/entry25.html"
+    },
+    "authorComment": "<div>\n～あらすじ～<br>\n１日中玉座に座っている王様は、退屈を紛らわせるためにいろいろな人を呼んで物語を話させていた。<br>\nある日、王様は国中にお触れを出す。<br>\n『永遠に終わらない物語を話して聞かせた者に、望む物を与える』、と。<br>\n<br>\n物語が好きな王様と、彼に振り回される周囲の人々の話。\n</div>",
+    "hostComment": "<div>\nかぐや姫もビックリの難題。</div>",
+    "icon": "/icons/2016-gw/25-source.png",
     "ss": [
-      "/screenshots/2016-gw/25.png",
-      "/screenshots/2016-gw/25-02.png"
-    ]
+      "/screenshots/2016-gw/25-source-1.png",
+      "/screenshots/2016-gw/25-source-2.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461070731/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/3qhEab",
+        "label": "13.7MB05/15更新"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/3qhEab",
+      "label": "13.7MB05/15更新"
+    }
   },
   {
     "id": "2016-gw-work-26",
@@ -465,16 +782,20 @@
     "no": "26",
     "title": "サービス残業マン",
     "author": "ラクスマン",
-    "category": "ksgに近い見るゲ",
     "engine": "2000",
+    "category": "ksgに近い見るゲ",
     "streaming": "可能",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461070771/",
-    "authorComment": "ksgをｔｋります",
-    "hostComment": "GWも、サービスサービスぅ！",
-    "icon": "/icons/2016-gw/26.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry26.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181504id_/http://www.geocities.jp/viprpg2016gw/entry26.html"
+    },
+    "authorComment": "<div>\nksgをｔｋります\n</div>",
+    "hostComment": "<div>\nGWも、サービスサービスぅ！</div>",
+    "icon": "/icons/2016-gw/26-source.png",
     "ss": [
-      "/screenshots/2016-gw/26.png"
-    ]
+      "/screenshots/2016-gw/26-source-1.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461070771/"
   },
   {
     "id": "2016-gw-work-27",
@@ -482,17 +803,31 @@
     "no": "27",
     "title": "メガナチスVSグレート・ニンジャ FINAL 世紀末版",
     "author": "那智巣汚濁",
-    "category": "闇鍋パクリ世紀末自作戦闘RPG",
     "engine": "2000",
-    "streaming": "どうなっても俺は知らんぞ！",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461235576/",
-    "authorComment": "提出時に現在全体の30%くらいしかできてないという記載を消してしまったせいで\n勘違いしている人が出てしまっているようなので改めて記載させていただきます\nこれは未完成の体験版です\n計2時間くらいしか遊べません\n完成版は今年の紅白ごろになる予定",
-    "hostComment": "ようきなおにいさん",
-    "icon": "/icons/2016-gw/27.png",
+    "category": "闇鍋パクリ世紀末自作戦闘RPG",
+    "streaming": "可能",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry27.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181504id_/http://www.geocities.jp/viprpg2016gw/entry27.html"
+    },
+    "authorComment": "<div>\n提出時に現在全体の30%くらいしかできてないという記載を消してしまったせいで<br>\n勘違いしている人が出てしまっているようなので改めて記載させていただきます<br>\nこれは未完成の体験版です<br>\n計2時間くらいしか遊べません<br>\n完成版は今年の紅白ごろになる予定\n</div>",
+    "hostComment": "<div>\nようきなおにいさん</div>",
+    "icon": "/icons/2016-gw/27-source.png",
     "ss": [
-      "/screenshots/2016-gw/27.png",
-      "/screenshots/2016-gw/27-02.png"
-    ]
+      "/screenshots/2016-gw/27-source-1.png",
+      "/screenshots/2016-gw/27-source-2.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461235576/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/dCNTBT",
+        "label": "22.9MB05/25更新"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/dCNTBT",
+      "label": "22.9MB05/25更新"
+    }
   },
   {
     "id": "2016-gw-work-28",
@@ -500,17 +835,31 @@
     "no": "28",
     "title": "TKScの紹介講座的なv2",
     "author": "蒔いた種",
-    "category": "講座+ツール",
     "engine": "2000",
+    "category": "講座+ツール",
     "streaming": "よしなに",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461235617/",
-    "authorComment": "誰かがつくったTKcode Scripterの紹介講座と\n私が多少弄ったTKSc本体のセットになります\n(テキストエディタでtktkできる便利なツールをありがとう！)\n伝わらないことが発覚したので\nターゲットと規模を絞る形でつくりなおして再うp\n旧verが気になる方はShift+スタートで",
-    "hostComment": "思いのほかマジな講座ゲーに！",
-    "icon": "/icons/2016-gw/28.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry28.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181509id_/http://www.geocities.jp/viprpg2016gw/entry28.html"
+    },
+    "authorComment": "<div>\n誰かがつくったTKcode Scripterの紹介講座と<br>\n私が多少弄ったTKSc本体のセットになります<br>\n(テキストエディタでtktkできる便利なツールをありがとう！)<br>\n<br>\n伝わらないことが発覚したので<br>\nターゲットと規模を絞る形でつくりなおして再うp<br>\n<br>\n旧verが気になる方はShift+スタートで\n</div>",
+    "hostComment": "<div>\n思いのほかマジな講座ゲーに！</div>",
+    "icon": "/icons/2016-gw/28-source.png",
     "ss": [
-      "/screenshots/2016-gw/28.png",
-      "/screenshots/2016-gw/28-02.png"
-    ]
+      "/screenshots/2016-gw/28-source-1.png",
+      "/screenshots/2016-gw/28-source-2.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461235617/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/6f8jrm",
+        "label": "829KB05/09更新"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/6f8jrm",
+      "label": "829KB05/09更新"
+    }
   },
   {
     "id": "2016-gw-work-29",
@@ -518,17 +867,31 @@
     "no": "29",
     "title": "目指せ健全世界",
     "author": "冷凍ブラックツナ",
-    "category": "erg",
     "engine": "VXAce",
+    "category": "erg",
     "streaming": "自己責任",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461235659/",
-    "authorComment": "突如氾濫した変態たち！ こんな世の中に誰がした！\n4人の魔法具現化たちが健全な世界を目指して立ち上がる！",
-    "hostComment": "健全な世界を目指す健全じゃないゲーム！",
-    "icon": "/icons/2016-gw/29.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry29.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331143922id_/http://www.geocities.jp/viprpg2016gw/entry29.html"
+    },
+    "authorComment": "<div>\n突如氾濫した変態たち！　こんな世の中に誰がした！<br>\n4人の魔法具現化たちが健全な世界を目指して立ち上がる！\n</div>",
+    "hostComment": "<div>\n健全な世界を目指す健全じゃないゲーム！</div>",
+    "icon": "/icons/2016-gw/29-source.png",
     "ss": [
-      "/screenshots/2016-gw/29.png",
-      "/screenshots/2016-gw/29-02.png"
-    ]
+      "/screenshots/2016-gw/29-source-1.png",
+      "/screenshots/2016-gw/29-source-2.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461235659/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/5hB9ku",
+        "label": "10.6MB05/31提出"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/5hB9ku",
+      "label": "10.6MB05/31提出"
+    }
   },
   {
     "id": "2016-gw-work-30",
@@ -536,17 +899,31 @@
     "no": "30",
     "title": "勇者達の軌跡",
     "author": "青のシフォン",
-    "category": "RPG/自作戦闘/長編",
     "engine": "2000",
+    "category": "RPG/自作戦闘/長編",
     "streaming": "OKです！",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461235700/",
-    "authorComment": "◆あらすじ\nある日アレックスは魔物に襲われている少年を助ける。\nその少年の話に因ると、彼等の住む村\"マアラグ\"が変な魔物に襲われたらしい。\n不穏な空気を感じ、アレックスはマアラグへ向かうことに―――\n初めての祭り参加なので、お手柔らかによろしくお願いしますね。",
-    "hostComment": "オプションの充実度に驚愕。",
-    "icon": "/icons/2016-gw/30.gif",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry30.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181505id_/http://www.geocities.jp/viprpg2016gw/entry30.html"
+    },
+    "authorComment": "<div>\n◆あらすじ<br>\nある日アレックスは魔物に襲われている少年を助ける。<br>\nその少年の話に因ると、彼等の住む村\"マアラグ\"が変な魔物に襲われたらしい。<br>\n不穏な空気を感じ、アレックスはマアラグへ向かうことに―――<br>\n<br>\n初めての祭り参加なので、お手柔らかによろしくお願いしますね。\n</div>",
+    "hostComment": "<div>\nオプションの充実度に驚愕。</div>",
+    "icon": "/icons/2016-gw/30-source.gif",
     "ss": [
-      "/screenshots/2016-gw/30.png",
-      "/screenshots/2016-gw/30-02.png"
-    ]
+      "/screenshots/2016-gw/30-source-1.png",
+      "/screenshots/2016-gw/30-source-2.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461235700/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/uWnk2H",
+        "label": "22.4MB05/31更新"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/uWnk2H",
+      "label": "22.4MB05/31更新"
+    }
   },
   {
     "id": "2016-gw-work-31",
@@ -554,17 +931,31 @@
     "no": "31",
     "title": "ラナのアトリエ エターなるラナ",
     "author": "にょいぼう",
-    "category": "自作戦闘やるゲ",
     "engine": "2000",
+    "category": "自作戦闘やるゲ",
     "streaming": "両方とも自己責任でお願いします。",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461235743/",
-    "authorComment": "作りたいように作りました。ラナたちが別の大陸で頑張るお話です。\nオリジナルキャラの比率が高いため、プレイの際はご注意ください。\nゲームバランスには勝てなかったよ・・・",
-    "hostComment": "アトリエが被ったと言ったな？ あれは嘘だ",
-    "icon": "/icons/2016-gw/31.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry31.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181507id_/http://www.geocities.jp/viprpg2016gw/entry31.html"
+    },
+    "authorComment": "<div>\n作りたいように作りました。ラナたちが別の大陸で頑張るお話です。<br>\nオリジナルキャラの比率が高いため、プレイの際はご注意ください。<br>\nゲームバランスには勝てなかったよ・・・\n</div>",
+    "hostComment": "<div>\nアトリエが被ったと言ったな？　あれは嘘だ</div>",
+    "icon": "/icons/2016-gw/31-source.png",
     "ss": [
-      "/screenshots/2016-gw/31.png",
-      "/screenshots/2016-gw/31-02.png"
-    ]
+      "/screenshots/2016-gw/31-source-1.png",
+      "/screenshots/2016-gw/31-source-2.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461235743/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/A8fKea",
+        "label": "9.4MB05/13更新"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/A8fKea",
+      "label": "9.4MB05/13更新"
+    }
   },
   {
     "id": "2016-gw-work-32",
@@ -572,16 +963,30 @@
     "no": "32",
     "title": "ゆるふわ斜視子は愛が欲しい＋後日談",
     "author": "穀雨",
-    "category": "見るゲ",
     "engine": "VXAce",
+    "category": "見るゲ",
     "streaming": "ご自由にどうぞ",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461235791/",
-    "authorComment": "※提出したシナリオはVer.5です。Ver.2～4は非公表です。\n──適合率。\n魔法具現化たちはその基準によって選別され、管理されていた。\n適合率を満たせなかったコンフューズの具現化『斜視子』は、それでも前向きに生きていた。\nいつかきっと、己の主たる魔術師は、自分をパートナーとして選んでくれるはずだと。 (Ver.1)",
-    "hostComment": "ツクールはVXAceに落ち着いたみたいです。",
-    "icon": "/icons/2016-gw/32.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry32.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181509id_/http://www.geocities.jp/viprpg2016gw/entry32.html"
+    },
+    "authorComment": "<div>\n※提出したシナリオはVer.5です。Ver.2～4は非公表です。<br>\n<br>\n──適合率。<br>\n魔法具現化たちはその基準によって選別され、管理されていた。<br>\n適合率を満たせなかったコンフューズの具現化『斜視子』は、それでも前向きに生きていた。<br>\nいつかきっと、己の主たる魔術師は、自分をパートナーとして選んでくれるはずだと。 (Ver.1)\n</div>",
+    "hostComment": "<div>\nツクールはVXAceに落ち着いたみたいです。</div>",
+    "icon": "/icons/2016-gw/32-source.png",
     "ss": [
-      "/screenshots/2016-gw/32.png"
-    ]
+      "/screenshots/2016-gw/32-source-1.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461235791/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/4KJaFO",
+        "label": "9.7MB05/29更新"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/4KJaFO",
+      "label": "9.7MB05/29更新"
+    }
   },
   {
     "id": "2016-gw-work-33",
@@ -589,15 +994,29 @@
     "no": "33",
     "title": "やみっちライチのワクワク★ごーるでんうぃーく",
     "author": "ジャスティス",
-    "category": "ksg",
     "engine": "2000",
+    "category": "ｋｓｇ",
     "streaming": "可",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461414067/",
-    "authorComment": "バレンタインに投下したｋｓｇ「やみっちライチのラブラブ★ばれんたいん」の続編でございます。\n今から作ります。\nぶっちゃけこの時点で、「いや、タイトルとゲームの内容関係なーい！」的な\nこのゲーム最大のインパクトがなくなってしまいましたが、なんとか他の要素でがんばります。",
-    "hostComment": "ついにポピャブッチャフォー喫茶の謎が明らかに……！？",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry33.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181516id_/http://www.geocities.jp/viprpg2016gw/entry33.html"
+    },
+    "authorComment": "<div>\nバレンタインに投下したｋｓｇ「やみっちライチのラブラブ★ばれんたいん」の続編でございます。<br>\n今から作ります。<br>\nぶっちゃけこの時点で、「いや、タイトルとゲームの内容関係なーい！」的な<br>\nこのゲーム最大のインパクトがなくなってしまいましたが、なんとか他の要素でがんばります。\n</div>",
+    "hostComment": "<div>\nついにポピャブッチャフォー喫茶の謎が明らかに……！？\n</div>",
     "ss": [
-      "/screenshots/2016-gw/33.png"
-    ]
+      "/screenshots/2016-gw/33-source-1.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461414067/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/yOV0Lw",
+        "label": "4.2MB05/07提出"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/yOV0Lw",
+      "label": "4.2MB05/07提出"
+    }
   },
   {
     "id": "2016-gw-work-34",
@@ -605,16 +1024,30 @@
     "no": "34",
     "title": "重量感あるよな",
     "author": "保安玄奘",
-    "category": "Тяжелая игра",
     "engine": "2000",
+    "category": "Тяжелая игра",
     "streaming": "自己責任/自己責任",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461414109/",
-    "authorComment": "あなたが忍者を見ている時、忍者もあなたを見ているのだ。",
-    "hostComment": "「重いゲーム」？",
-    "icon": "/icons/2016-gw/34.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry34.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181513id_/http://www.geocities.jp/viprpg2016gw/entry34.html"
+    },
+    "authorComment": "<div>\nあなたが忍者を見ている時、忍者もあなたを見ているのだ。\n</div>",
+    "hostComment": "<div>\n「重いゲーム」？\n</div>",
+    "icon": "/icons/2016-gw/34-source.png",
     "ss": [
-      "/screenshots/2016-gw/34.png"
-    ]
+      "/screenshots/2016-gw/34-source-1.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461414109/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/dT-mtz",
+        "label": "2.8MB05/03提出"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/dT-mtz",
+      "label": "2.8MB05/03提出"
+    }
   },
   {
     "id": "2016-gw-work-35",
@@ -622,17 +1055,31 @@
     "no": "35",
     "title": "THE 枕営業",
     "author": "名雲きつね",
-    "category": "シンプルerg",
     "engine": "2000",
+    "category": "シンプルerg",
     "streaming": "自己責任",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461414162/",
-    "authorComment": "スピブレちゃんが枕で営業するシンプルな見るエロゲです。\nR-18ですので未成年はプレイしないようにしましょう。\nネタを思いついてから描いた素材２枚でSSを作ったので、\nほぼこれから作る状態です。遅刻したらごめんなさい。\nちなみに好きなアイドルは橘ありすちゃんです。",
-    "hostComment": "永遠の17歳さんが好きです。",
-    "icon": "/icons/2016-gw/35.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry35.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181506id_/http://www.geocities.jp/viprpg2016gw/entry35.html"
+    },
+    "authorComment": "<div>\nスピブレちゃんが枕で営業するシンプルな見るエロゲです。<br>\nR-18ですので未成年はプレイしないようにしましょう。<br>\n<br>\nネタを思いついてから描いた素材２枚でSSを作ったので、<br>\nほぼこれから作る状態です。遅刻したらごめんなさい。<br>\n<br>\nちなみに好きなアイドルは橘ありすちゃんです。\n</div>",
+    "hostComment": "<div>\n永遠の17歳さんが好きです。\n</div>",
+    "icon": "/icons/2016-gw/35-source.png",
     "ss": [
-      "/screenshots/2016-gw/35.png",
-      "/screenshots/2016-gw/35-02.png"
-    ]
+      "/screenshots/2016-gw/35-source-1.png",
+      "/screenshots/2016-gw/35-source-2.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461414162/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/Sn8Lnn",
+        "label": "10.1MB05/25更新"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/Sn8Lnn",
+      "label": "10.1MB05/25更新"
+    }
   },
   {
     "id": "2016-gw-work-36",
@@ -640,16 +1087,30 @@
     "no": "36",
     "title": "もしもオンラインだったら",
     "author": "くらむぼん",
-    "category": "オンラインゲーム",
     "engine": "MV",
+    "category": "オンラインゲーム",
     "streaming": "可",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461414197/",
-    "authorComment": "ＶＩＰＲＰＧ史上初のオンラインゲームを作ります！！（ネタ自体は既出かもだけど）\nどんなゲームにするかはこれから考える←",
-    "hostComment": "魔王軍ザコ軍団のひとりにはなれませんでした。",
-    "icon": "/icons/2016-gw/36.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry36.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181506id_/http://www.geocities.jp/viprpg2016gw/entry36.html"
+    },
+    "authorComment": "<div>\nＶＩＰＲＰＧ史上初のオンラインゲームを作ります！！（ネタ自体は既出かもだけど）<br>\n<br>\nどんなゲームにするかはこれから考える←\n</div>",
+    "hostComment": "<div>\n魔王軍ザコ軍団のひとりにはなれませんでした。\n</div>",
+    "icon": "/icons/2016-gw/36-source.png",
     "ss": [
-      "/screenshots/2016-gw/36.png"
-    ]
+      "/screenshots/2016-gw/36-source-1.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461414197/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/D18G4B",
+        "label": "100.3MB05/09更新"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/D18G4B",
+      "label": "100.3MB05/09更新"
+    }
   },
   {
     "id": "2016-gw-work-37",
@@ -657,35 +1118,65 @@
     "no": "37",
     "title": "最高の女",
     "author": "マイクロビキニ老女",
-    "category": "短編デフォ戦ゲー",
     "engine": "2000",
+    "category": "短編デフォ戦ゲー",
     "streaming": "可・可",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461586193/",
-    "authorComment": "ツクール初心者が作ったデフォ戦ゲーです。\nよろしくお願いします。\n※このゲームはshiftキーを使いますので、exeファイルは最新版のもの（729KBのもの）をご使用ください。\n※テストプレイモードで遊ぶ場合、shiftキーで台詞を瞬間表示にすると、フリーズすることがございます。",
-    "hostComment": "前のSSは本当に何だったんだよｗｗｗｗ",
-    "icon": "/icons/2016-gw/37.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry37.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181506id_/http://www.geocities.jp/viprpg2016gw/entry37.html"
+    },
+    "authorComment": "<div>\nツクール初心者が作ったデフォ戦ゲーです。<br>\nよろしくお願いします。<br>\n<br>\n※このゲームはshiftキーを使いますので、exeファイルは最新版のもの（729KBのもの）をご使用ください。<br>\n※テストプレイモードで遊ぶ場合、shiftキーで台詞を瞬間表示にすると、フリーズすることがございます。\n</div>",
+    "hostComment": "<div>\n前のSSは本当に何だったんだよｗｗｗｗ\n</div>",
+    "icon": "/icons/2016-gw/37-source.png",
     "ss": [
-      "/screenshots/2016-gw/37.png",
-      "/screenshots/2016-gw/37-02.png"
-    ]
+      "/screenshots/2016-gw/37-source-1.png",
+      "/screenshots/2016-gw/37-source-2.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461586193/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/7-XmIs",
+        "label": "7.7MB05/07更新"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/7-XmIs",
+      "label": "7.7MB05/07更新"
+    }
   },
   {
     "id": "2016-gw-work-38",
     "festivalId": "2016-gw",
     "no": "38",
     "title": "アレックスとブライアンが",
-    "author": "ツクールＭＶについて話し合う",
-    "category": "ツクールＭＶの新機能を",
-    "engine": "ほとんど生かしていないksg",
+    "author": "ササミヤ",
+    "engine": "MV",
+    "category": "ツクールＭＶの新機能をほとんど生かしていないksg",
     "streaming": "どちらも可",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461586231/",
-    "authorComment": "ツクールＭＶのデフォ素材やらサイドビュー戦闘やらについて思ったことをアレブラ形式で話し合うだけのksgです。\n個人の感想以上の事は喋ってませんが、ツクールＭＶに少しでも興味のある方はどうぞ。",
-    "hostComment": "そういえばキャラ生成ツールにニンジャめいたパーツ素材が追加されてました。",
-    "icon": "/icons/2016-gw/38.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry38.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181509id_/http://www.geocities.jp/viprpg2016gw/entry38.html",
+      "titleUrl": "https://web.archive.org/web/20190330213724id_/http://www.geocities.jp/viprpg2016gw/main.html"
+    },
+    "authorComment": "<div>\nツクールＭＶのデフォ素材やらサイドビュー戦闘やらについて思ったことをアレブラ形式で話し合うだけのksgです。<br>\n個人の感想以上の事は喋ってませんが、ツクールＭＶに少しでも興味のある方はどうぞ。\n</div>",
+    "hostComment": "<div>\nそういえばキャラ生成ツールにニンジャめいたパーツ素材が追加されてました。\n</div>",
+    "originalTitle": "アレックスとブライアンがツクールＭＶについて話し合う",
+    "icon": "/icons/2016-gw/38-source.png",
     "ss": [
-      "/screenshots/2016-gw/38.png",
-      "/screenshots/2016-gw/38-02.png"
-    ]
+      "/screenshots/2016-gw/38-source-1.png",
+      "/screenshots/2016-gw/38-source-2.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461586231/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/IvVqT9",
+        "label": "115MB04/29提出"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/IvVqT9",
+      "label": "115MB04/29提出"
+    }
   },
   {
     "id": "2016-gw-work-39",
@@ -693,17 +1184,21 @@
     "no": "39",
     "title": "ナイ ミュージアム/悪役の軌跡",
     "author": "シア=ナードクス",
-    "category": "状態変化見るゲ(R-15G)",
     "engine": "2000",
+    "category": "状態変化見るゲ(R-15G)",
     "streaming": "自己責任",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461586272/",
-    "authorComment": "ナイ軍キャラ(男女問わず)を石化させたり人形にしたり香水に変えたりする見るゲです\n状態変化(又はASFR)というジャンルを知らない人や嫌いな人は絶対にプレイしないでください\nまたエロ描写はありませんが人によっては身体が崩れ落ちるとも見て取れる描写もあるので(重要！)\n15歳未満やグロが苦手な人もご遠慮ください",
-    "hostComment": "アンデッドナイはやっぱり化石ですかね？",
-    "icon": "/icons/2016-gw/39.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry39.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181504id_/http://www.geocities.jp/viprpg2016gw/entry39.html"
+    },
+    "authorComment": "<div>\nナイ軍キャラ(男女問わず)を石化させたり人形にしたり香水に変えたりする見るゲです<br>\n状態変化(又はASFR)というジャンルを知らない人や嫌いな人は絶対にプレイしないでください<br>\nまたエロ描写はありませんが人によっては身体が崩れ落ちるとも見て取れる描写もあるので(重要！)<br>\n15歳未満やグロが苦手な人もご遠慮ください\n</div>",
+    "hostComment": "<div>\nアンデッドナイはやっぱり化石ですかね？\n</div>",
+    "icon": "/icons/2016-gw/39-source.png",
     "ss": [
-      "/screenshots/2016-gw/39.png",
-      "/screenshots/2016-gw/39-02.png"
-    ]
+      "/screenshots/2016-gw/39-source-1.png",
+      "/screenshots/2016-gw/39-source-2.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461586272/"
   },
   {
     "id": "2016-gw-work-40",
@@ -711,16 +1206,30 @@
     "no": "40",
     "title": "もしも「女か虎か」がゲームになったら",
     "author": "SNEP48",
-    "category": "掌編ノベル",
     "engine": "VXAce",
+    "category": "掌編ノベル",
     "streaming": "女と虎のみ許可",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461586305/",
-    "authorComment": "フランク・ストックトンのリドルストーリー「女か虎か」を元ネタにした掌編ノベルです。\n気合いを入れて作る予定でしたがLeague of Legendsが面白すぎてこの有様。\nもしも自分ならどちらの扉を選ぶか。\n男になりきって選択肢を選んでみるとちょっと面白いかもしれません。",
-    "hostComment": "真実はいつも一つ、とは限らない。",
-    "icon": "/icons/2016-gw/40.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry40.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181511id_/http://www.geocities.jp/viprpg2016gw/entry40.html"
+    },
+    "authorComment": "<div>\nフランク・ストックトンのリドルストーリー「女か虎か」を元ネタにした掌編ノベルです。<br>\n気合いを入れて作る予定でしたがLeague of Legendsが面白すぎてこの有様。<br>\nもしも自分ならどちらの扉を選ぶか。<br>\n男になりきって選択肢を選んでみるとちょっと面白いかもしれません。\n</div>",
+    "hostComment": "<div>\n真実はいつも一つ、とは限らない。\n</div>",
+    "icon": "/icons/2016-gw/40-source.png",
     "ss": [
-      "/screenshots/2016-gw/40.jpg"
-    ]
+      "/screenshots/2016-gw/40-source-1.jpg"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461586305/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/E17b7O",
+        "label": "2.7MB04/25提出"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/E17b7O",
+      "label": "2.7MB04/25提出"
+    }
   },
   {
     "id": "2016-gw-work-41",
@@ -728,33 +1237,43 @@
     "no": "41",
     "title": "ウンコヨーカン",
     "author": "ウンコヨーカン",
-    "category": "ウンコヨーカン",
     "engine": "2000",
+    "category": "ウンコヨーカン",
     "streaming": "自己責任でお願いします！！",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461586340/",
-    "authorComment": "タイトル画面のはヨーカンじゃなくて名古屋ういろうです！！！",
-    "hostComment": "タイトル・作者・ジャンルのコピペが楽でした。",
-    "icon": "/icons/2016-gw/41.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry41.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181514id_/http://www.geocities.jp/viprpg2016gw/entry41.html"
+    },
+    "authorComment": "<div>\nタイトル画面のはヨーカンじゃなくて名古屋ういろうです！！！\n</div>",
+    "hostComment": "<div>\nタイトル・作者・ジャンルのコピペが楽でした。\n</div>",
+    "icon": "/icons/2016-gw/41-source.png",
     "ss": [
-      "/screenshots/2016-gw/41.jpg"
-    ]
+      "/screenshots/2016-gw/41-source-1.jpg"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461586340/"
   },
   {
     "id": "2016-gw-work-42",
     "festivalId": "2016-gw",
     "no": "42",
     "title": "もしも闇のゲームだったら_",
-    "author": "",
-    "category": "遊戯王見るゲARC-5D's",
+    "author": "_",
     "engine": "2000",
-    "streaming": "自☆己☆責☆任",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461586378/",
-    "authorComment": "映画見ちまって5D's風作品に手がつかねぇ\nやっぱり闇のゲームとはいったい……\n遊戯王IF様のコピゲです\n世界観は元ネタ様に準じております\nですがいよいよ深都編最終話なので徹底的にパラレルです\n演出量増やし過ぎ(当社比)て辛杉内、これからメインデュエルtkります\n映画にあやかったことやりたかったけどそれは次回の特別編でな\nライディングデュエル、アクセラレーション！",
-    "hostComment": "5D'sのスピードワールド2ありきの駆け引きは見ていて楽しかったです。",
-    "icon": "/icons/2016-gw/42.png",
+    "category": "遊戯王見るゲARC-5D's",
+    "streaming": "自己責任でお願いします！！",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry42.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181516id_/http://www.geocities.jp/viprpg2016gw/entry42.html",
+      "titleUrl": "https://web.archive.org/web/20190330213724id_/http://www.geocities.jp/viprpg2016gw/main.html"
+    },
+    "authorComment": "<div>\n映画見ちまって5D's風作品に手がつかねぇ<br>\nやっぱり闇のゲームとはいったい……<br>\n<br>\n遊戯王IF様のコピゲです<br>\n世界観は元ネタ様に準じております<br>\nですがいよいよ深都編最終話なので徹底的にパラレルです<br>\n演出量増やし過ぎ(当社比)て辛杉内、これからメインデュエルtkります<br>\n映画にあやかったことやりたかったけどそれは次回の特別編でな<br>\n<br>\nライディングデュエル、アクセラレーション！\n</div>",
+    "hostComment": "<div>\n5D'sのスピードワールド2ありきの駆け引きは見ていて楽しかったです。\n</div>",
+    "originalTitle": "もしも闇のゲームだったら",
+    "icon": "/icons/2016-gw/42-source.png",
     "ss": [
-      "/screenshots/2016-gw/42.png"
-    ]
+      "/screenshots/2016-gw/42-source-1.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461586378/"
   },
   {
     "id": "2016-gw-work-43",
@@ -762,17 +1281,31 @@
     "no": "43",
     "title": "新世代から",
     "author": "パトラミック",
-    "category": "ジャンル？",
     "engine": "2000",
+    "category": "ジャンル？",
     "streaming": "両方可能",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461586414/",
-    "authorComment": "これが自分がツクるラウンジゲーの最後の作品になるかもしれません",
-    "hostComment": "デフォ戦ゲーではないのか……？",
-    "icon": "/icons/2016-gw/43.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry43.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181504id_/http://www.geocities.jp/viprpg2016gw/entry43.html"
+    },
+    "authorComment": "<div>\nこれが自分がツクるラウンジゲーの最後の作品になるかもしれません\n</div>",
+    "hostComment": "<div>\nデフォ戦ゲーではないのか……？\n</div>",
+    "icon": "/icons/2016-gw/43-source.png",
     "ss": [
-      "/screenshots/2016-gw/43.png",
-      "/screenshots/2016-gw/43-02.png"
-    ]
+      "/screenshots/2016-gw/43-source-1.png",
+      "/screenshots/2016-gw/43-source-2.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461586414/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/RrJpXN",
+        "label": "8.8MB05/17提出"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/RrJpXN",
+      "label": "8.8MB05/17提出"
+    }
   },
   {
     "id": "2016-gw-work-44",
@@ -780,17 +1313,31 @@
     "no": "44",
     "title": "ちくわ大明神",
     "author": "あひょふりぐ",
-    "category": "リハビリｋｓｇ",
     "engine": "2000",
+    "category": "リハビリｋｓｇ",
     "streaming": "可能/可能",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461761405/",
-    "authorComment": "PIAI時間5分未満のやるゲっぽいけど見るｋｓｇです。\nGWだが会話はしているだろうか、\nなんかUNIXコンピュータの前でぶつぶつ呟いてはいないだろうか？\n出かけるのも大事なのでごあんしんください。",
-    "hostComment": "最近の若者はすぐキレる！？",
-    "icon": "/icons/2016-gw/44.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry44.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181508id_/http://www.geocities.jp/viprpg2016gw/entry44.html"
+    },
+    "authorComment": "<div>\nPIAI時間5分未満のやるゲっぽいけど見るｋｓｇです。<br>\n<br>\nGWだが会話はしているだろうか、<br>\nなんかUNIXコンピュータの前でぶつぶつ呟いてはいないだろうか？<br>\n出かけるのも大事なのでごあんしんください。\n</div>",
+    "hostComment": "<div>\n最近の若者はすぐキレる！？\n</div>",
+    "icon": "/icons/2016-gw/44-source.png",
     "ss": [
-      "/screenshots/2016-gw/44.png",
-      "/screenshots/2016-gw/44-02.png"
-    ]
+      "/screenshots/2016-gw/44-source-1.png",
+      "/screenshots/2016-gw/44-source-2.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461761405/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/SQ2Zql",
+        "label": "732KB05/03提出"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/SQ2Zql",
+      "label": "732KB05/03提出"
+    }
   },
   {
     "id": "2016-gw-work-45",
@@ -798,17 +1345,31 @@
     "no": "45",
     "title": "どきどきオクタプルデート",
     "author": "クルマユ大好き丸",
-    "category": "ｋｓｇ",
     "engine": "2000",
+    "category": "ｋｓｇ",
     "streaming": "見てみたい",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461935257/",
-    "authorComment": "あらすじ\n定番ネタ(？)であるラブラブデートをこなす為に強制的に似た属性の異性らと\nデートする事になったバリアーズ達。\nしかし認識の違いからかラブラブな雰囲気を醸し出すのが相当困難な様子\n果たしてプライドをかなぐり捨ててでもラブラブな感じになれるカップルは出現するのか？\n「無謀なキャラ付け会議(計画編)」や\n「バレンタイン＆ホワイトデーｋｓｇ」から続いてるかもしれないシリーズ\n本当は「ロレックスプッシュゲー」か「ディストラクトプッシュゲー」辺りを作ろうと\n考えてましたけど、どちらにしようかと迷っている内に期限内に上手く作れる\n自信が無くなってしまったので、簡単に作れそうな今作に決めました。\n※SSやあらすじ、内容がメチャクチャに変わる可能性や代理作品提出の可能性もあります\n自分はラブラブデートよりも断然、駄目駄目デート派です",
-    "hostComment": "ﾅｶｶﾞｲｲﾅｰ",
-    "icon": "/icons/2016-gw/45.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry45.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181503id_/http://www.geocities.jp/viprpg2016gw/entry45.html"
+    },
+    "authorComment": "<div>\nあらすじ<br>\n定番ネタ(？)であるラブラブデートをこなす為に強制的に似た属性の異性らと<br>\nデートする事になったバリアーズ達。<br>\n<br>\nしかし認識の違いからかラブラブな雰囲気を醸し出すのが相当困難な様子<br>\n果たしてプライドをかなぐり捨ててでもラブラブな感じになれるカップルは出現するのか？<br>\n<br>\n<br>\n<br>\n<br>\n「無謀なキャラ付け会議(計画編)」や<br>\n「バレンタイン＆ホワイトデーｋｓｇ」から続いてるかもしれないシリーズ<br>\n<br>\n本当は「ロレックスプッシュゲー」か「ディストラクトプッシュゲー」辺りを作ろうと<br>\n考えてましたけど、どちらにしようかと迷っている内に期限内に上手く作れる<br>\n自信が無くなってしまったので、簡単に作れそうな今作に決めました。<br>\n<br>\n※SSやあらすじ、内容がメチャクチャに変わる可能性や代理作品提出の可能性もあります<br>\n自分はラブラブデートよりも断然、駄目駄目デート派です\n</div>",
+    "hostComment": "<div>\nﾅｶｶﾞｲｲﾅｰ\n</div>",
+    "icon": "/icons/2016-gw/45-source.png",
     "ss": [
-      "/screenshots/2016-gw/45.png",
-      "/screenshots/2016-gw/45-02.png"
-    ]
+      "/screenshots/2016-gw/45-source-1.png",
+      "/screenshots/2016-gw/45-source-2.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1461935257/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/Fmo6XA",
+        "label": "2.2MB05/31提出"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/Fmo6XA",
+      "label": "2.2MB05/31提出"
+    }
   },
   {
     "id": "2016-gw-work-46",
@@ -816,16 +1377,30 @@
     "no": "46",
     "title": "ドシロート向けツクールテクニック",
     "author": "たらいそ",
-    "category": "講座",
     "engine": "2000",
+    "category": "講座",
     "streaming": "可・可",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1462112551/",
-    "authorComment": "初めてツクールを触る人向けの\nとても簡単で基本的なテクニックですぜ",
-    "hostComment": "これで真面目に講座してたらその方が面白いと思います。",
-    "icon": "/icons/2016-gw/46.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry46.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181503id_/http://www.geocities.jp/viprpg2016gw/entry46.html"
+    },
+    "authorComment": "<div>\n初めてツクールを触る人向けの<br>\nとても簡単で基本的なテクニックですぜ\n</div>",
+    "hostComment": "<div>\nこれで真面目に講座してたらその方が面白いと思います。\n</div>",
+    "icon": "/icons/2016-gw/46-source.png",
     "ss": [
-      "/screenshots/2016-gw/46.png"
-    ]
+      "/screenshots/2016-gw/46-source-1.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1462112551/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/LPxybc",
+        "label": "174KB05/01提出"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/LPxybc",
+      "label": "174KB05/01提出"
+    }
   },
   {
     "id": "2016-gw-work-47",
@@ -833,17 +1408,31 @@
     "no": "47",
     "title": "DOOM SOULS 0 LoD",
     "author": "72-64",
-    "category": "低難易度アクション",
     "engine": "2000",
+    "category": "低難易度アクション",
     "streaming": "可能／可能",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1462112614/",
-    "authorComment": "非常に簡単で希望に満ち溢れたアクションゲームです。\n10人中8人がクリアできる難易度設定を行っています。\n補遺-1：\nDOOM SOULS \"1\" は夏以降の祭りで公開予定\n但し、エターなったらすまんこ",
-    "hostComment": "\"ジャンルに気を付けろ\"",
-    "icon": "/icons/2016-gw/47.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry47.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129160334id_/http://www.geocities.jp/viprpg2016gw/entry47.html"
+    },
+    "authorComment": "<div>\n非常に簡単で希望に満ち溢れたアクションゲームです。<br>\n10人中8人がクリアできる難易度設定を行っています。<br>\n<br>\n補遺-1：<br>\nDOOM SOULS \"1\" は夏以降の祭りで公開予定 <br>\n但し、エターなったらすまんこ\n</div>",
+    "hostComment": "<div>\n\"ジャンルに気を付けろ\"\n</div>",
+    "icon": "/icons/2016-gw/47-source.bmp",
     "ss": [
-      "/screenshots/2016-gw/47.png",
-      "/screenshots/2016-gw/47-02.png"
-    ]
+      "/screenshots/2016-gw/47-source-1.png",
+      "/screenshots/2016-gw/47-source-2.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1462112614/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/eYp2tq",
+        "label": "28.0MB05/31更新"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/eYp2tq",
+      "label": "28.0MB05/31更新"
+    }
   },
   {
     "id": "2016-gw-work-48",
@@ -851,17 +1440,30 @@
     "no": "48",
     "title": "もしもアレックスの回避アクションだったら",
     "author": "へんたい",
-    "category": "回避アクション",
     "engine": "2000",
+    "category": "回避アクション",
     "streaming": "可",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1462112683/",
-    "authorComment": "おまいら久しぶり！\n今回はアクションゲームに挑戦してみたよ！\n遅刻は確定だけどなっ！",
-    "hostComment": "たかが格子扉1枚で何が平和だ！",
-    "icon": "/icons/2016-gw/48.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry48.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181515id_/http://www.geocities.jp/viprpg2016gw/entry48.html"
+    },
+    "authorComment": "<div>\nおまいら久しぶり！<br>\n<br>\n今回はアクションゲームに挑戦してみたよ！<br>\n<br>\n遅刻は確定だけどなっ！\n</div>",
+    "hostComment": "<div>\nたかが格子扉1枚で何が平和だ！\n</div>",
+    "icon": "/icons/2016-gw/48-source.png",
     "ss": [
-      "/screenshots/2016-gw/48.png",
-      "/screenshots/2016-gw/48-02.png"
-    ]
+      "/screenshots/2016-gw/48-source-1.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1462112683/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/ZmeETC",
+        "label": "997KB05/31提出"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/ZmeETC",
+      "label": "997KB05/31提出"
+    }
   },
   {
     "id": "2016-gw-work-49",
@@ -869,33 +1471,62 @@
     "no": "49",
     "title": "iSOC-7の3D講座",
     "author": "iSOC-7(アイゾックセブン)",
-    "category": "講座 見るゲ",
     "engine": "2000",
+    "category": "講座 見るゲ",
     "streaming": "可能/可能",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1462112720/",
-    "authorComment": "VIPRPGに初参加させて頂きます。\n対象はツクーラー向けに3Dの解説を予定しております。\n配信は可能と言いましたが、後々内容が大幅に変わるかも知れない事を予めご了承下さい。",
-    "hostComment": "たとえ弄る気がなくともツクールを起動する。本当に大事。",
-    "icon": "/icons/2016-gw/49.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry49.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181503id_/http://www.geocities.jp/viprpg2016gw/entry49.html"
+    },
+    "authorComment": "<div>\nVIPRPGに初参加させて頂きます。<br>\n対象はツクーラー向けに3Dの解説を予定しております。<br>\n配信は可能と言いましたが、後々内容が大幅に変わるかも知れない事を予めご了承下さい。\n</div>",
+    "hostComment": "<div>\nたとえ弄る気がなくともツクールを起動する。本当に大事。\n</div>",
+    "icon": "/icons/2016-gw/49-source.png",
     "ss": [
-      "/screenshots/2016-gw/49.png"
-    ]
+      "/screenshots/2016-gw/49-source-1.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1462112720/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/OP-okw",
+        "label": "2.5MB05/31提出"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/OP-okw",
+      "label": "2.5MB05/31提出"
+    }
   },
   {
     "id": "2016-gw-work-50",
     "festivalId": "2016-gw",
     "no": "50",
-    "title": "スパーク?ちゃんの脱出ゲーム",
+    "title": "スパークⅡちゃんの脱出ゲーム",
     "author": "ハエ",
-    "category": "脱出やるゲ",
     "engine": "VXAce",
+    "category": "脱出やるゲ",
     "streaming": "可／可",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1462112761/",
-    "authorComment": "処女作になります\nキャラ崩壊、セリフに違和感などあっても責任は負いません\nエロ要素はありません\n早ければ１０分かからず終わります",
-    "hostComment": "<div align=\"right\">生\nき\n残\nり\n戦\n略\n</div>",
-    "icon": "/icons/2016-gw/50.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry50.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181506id_/http://www.geocities.jp/viprpg2016gw/entry50.html",
+      "titleUrl": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1462112761/"
+    },
+    "authorComment": "<div>\n処女作になります<br>\nキャラ崩壊、セリフに違和感などあっても責任は負いません<br>\nエロ要素はありません<br>\n早ければ１０分かからず終わります\n</div>",
+    "hostComment": "<div>\n<div align=\"right\">生<br>\nき<br>\n残<br>\nり<br>\n戦<br>\n略\n</div></div>",
+    "icon": "/icons/2016-gw/50-source.png",
     "ss": [
-      "/screenshots/2016-gw/50.jpg"
-    ]
+      "/screenshots/2016-gw/50-source-1.jpg"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1462112761/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/Wi2TAd",
+        "label": "3.0MB05/01提出"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/Wi2TAd",
+      "label": "3.0MB05/01提出"
+    }
   },
   {
     "id": "2016-gw-work-51",
@@ -903,16 +1534,30 @@
     "no": "51",
     "title": "ホワイトデーの次の日",
     "author": "不明",
-    "category": "３分ｋｓｇ",
     "engine": "2000",
+    "category": "３分ｋｓｇ",
     "streaming": "可/可",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1462112799/",
-    "authorComment": "そう...このGameは安売りCHOCOLATEをかけた\nTAIMAN-BATLLEを眺める...ただそれだけさ......\n・前回作品宣伝(やらなくても大丈夫です)\n<a href=\"https://web.archive.org/web/20190129181512/http://www.geocities.jp/vipkohaku2015/entry11.html\" target=\"blank\">http://www.geocities.jp/vipkohaku2015/entry11.html</a>",
-    "hostComment": "そこまでしてチョコを食べたい執念とは。",
-    "icon": "/icons/2016-gw/51.gif",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry51.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181512id_/http://www.geocities.jp/viprpg2016gw/entry51.html"
+    },
+    "authorComment": "<div>\nそう...このGameは安売りCHOCOLATEをかけた<br>\nTAIMAN-BATLLEを眺める...ただそれだけさ......<br>\n<br>\n・前回作品宣伝(やらなくても大丈夫です)<br>\n<a href=\"http://www.geocities.jp/vipkohaku2015/entry11.html\" target=\"blank\">http://www.geocities.jp/vipkohaku2015/entry11.html</a>\n</div>",
+    "hostComment": "<div>\nそこまでしてチョコを食べたい執念とは。\n</div>",
+    "icon": "/icons/2016-gw/51-source.gif",
     "ss": [
-      "/screenshots/2016-gw/51.png"
-    ]
+      "/screenshots/2016-gw/51-source-1.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1462112799/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/DPpCXY",
+        "label": "3.4MB05/03提出"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/DPpCXY",
+      "label": "3.4MB05/03提出"
+    }
   },
   {
     "id": "2016-gw-work-52",
@@ -920,33 +1565,43 @@
     "no": "52",
     "title": "魔法少女ライチ",
     "author": "1-3",
-    "category": "やるゲ予定",
     "engine": "2000",
+    "category": "やるゲ予定",
     "streaming": "可/可",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1462112833/",
-    "authorComment": "魔法ってすごいよね",
-    "hostComment": "魔法(物理)",
-    "icon": "/icons/2016-gw/52.gif",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry52.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181510id_/http://www.geocities.jp/viprpg2016gw/entry52.html"
+    },
+    "authorComment": "<div>\n魔法ってすごいよね\n</div>",
+    "hostComment": "<div>\n魔法(物理)\n</div>",
+    "icon": "/icons/2016-gw/52-source.gif",
     "ss": [
-      "/screenshots/2016-gw/52.png"
-    ]
+      "/screenshots/2016-gw/52-source-1.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1462112833/"
   },
   {
     "id": "2016-gw-work-53",
     "festivalId": "2016-gw",
     "no": "53",
     "title": "アレブラと捨てられた館",
-    "author": "～少女の想いは憎悪と共に～",
-    "category": "デフォ戦RPG",
+    "author": "大富豪の大貧民役",
     "engine": "2000",
+    "category": "デフォ戦RPG",
     "streaming": "可/可",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1462112898/",
-    "authorComment": "今日も国の平和を脅かす輩を締めに締めきったアレックスとブライアンとおまけ二人。\n気分上々で帰路につくが帰り道で迷いさらに雨にも降られる。\n運良く雨宿りできそうな建物を見つけたがその館は怪しい雰囲気が漂っていて…？\nGW2014、夏の陣2014の「アレブラと〇〇」作品の設定を受け継いでいます。知らなかったらお先にそちらをどうぞ\nここ一年まともに一個もゲーム作れてないのでリハビリを兼ねてデフォ戦ｔｋります。\n遅刻前提の上今から作ります（重要）",
-    "hostComment": "ゴメスあたりは喜ぶでしょ(適当)",
-    "icon": "/icons/2016-gw/53.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry53.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181511id_/http://www.geocities.jp/viprpg2016gw/entry53.html",
+      "titleUrl": "https://web.archive.org/web/20190330213724id_/http://www.geocities.jp/viprpg2016gw/main.html"
+    },
+    "authorComment": "<div>\n今日も国の平和を脅かす輩を締めに締めきったアレックスとブライアンとおまけ二人。<br>\n気分上々で帰路につくが帰り道で迷いさらに雨にも降られる。<br>\n運良く雨宿りできそうな建物を見つけたがその館は怪しい雰囲気が漂っていて…？<br>\n<br>\n<br>\nGW2014、夏の陣2014の「アレブラと〇〇」作品の設定を受け継いでいます。知らなかったらお先にそちらをどうぞ<br>\nここ一年まともに一個もゲーム作れてないのでリハビリを兼ねてデフォ戦ｔｋります。<br>\n遅刻前提の上今から作ります（重要）\n</div>",
+    "hostComment": "<div>\nゴメスあたりは喜ぶでしょ(適当)\n</div>",
+    "originalTitle": "アレブラと捨てられた館～少女の想いは憎悪と共に～",
+    "icon": "/icons/2016-gw/53-source.png",
     "ss": [
-      "/screenshots/2016-gw/53.png"
-    ]
+      "/screenshots/2016-gw/53-source-1.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1462112898/"
   },
   {
     "id": "2016-gw-work-54",
@@ -954,16 +1609,31 @@
     "no": "54",
     "title": "やライチ",
     "author": "（R）DU",
-    "category": "漫才デモ系見るゲー",
     "engine": "2000",
+    "category": "漫才デモ系見るゲー",
     "streaming": "可/可",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1462112939/",
-    "authorComment": "某ノリボケ漫才で有名な埼玉出身のお笑い芸人のパロディです。\nネタは一応本家のコピー再現ではなく、全部オリジナルの予定です。",
-    "hostComment": "これはコンビ名ありきで思い付いたに違いない。",
-    "icon": "/icons/2016-gw/54.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry54.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181504id_/http://www.geocities.jp/viprpg2016gw/entry54.html"
+    },
+    "authorComment": "<div>\n某ノリボケ漫才で有名な埼玉出身のお笑い芸人のパロディです。<br>\nネタは一応本家のコピー再現ではなく、全部オリジナルの予定です。\n</div>",
+    "hostComment": "<div>\nこれはコンビ名ありきで思い付いたに違いない。\n</div>",
+    "icon": "/icons/2016-gw/54-source.png",
     "ss": [
-      "/screenshots/2016-gw/54.png"
-    ]
+      "/screenshots/2016-gw/54-source-1.png",
+      "/screenshots/2016-gw/54-source-2.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1462112939/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/y3x5k0",
+        "label": "6.2MB05/31提出"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/y3x5k0",
+      "label": "6.2MB05/31提出"
+    }
   },
   {
     "id": "2016-gw-work-55",
@@ -971,29 +1641,62 @@
     "no": "55",
     "title": "2045年問題を学ぶ！",
     "author": "ダダルマー",
-    "category": "講座ゲー",
     "engine": "2000",
+    "category": "講座ゲー",
     "streaming": "可/不可",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1462246085/",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry55.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181513id_/http://www.geocities.jp/viprpg2016gw/entry55.html"
+    },
+    "authorComment": "<div>\n2045年問題を学ぶ！<br>\n技術的特異点（シンギュラリティ）の恩恵と恐怖<br>\n<br>\n各所で調べた情報をまとめたものです。<br>\n申し訳ないですが、<br>\nあまり突っ込んだ事を聞かれても答えられません。<br>\n<br>\nこのゲームで少しでも希望を持って頂けたら幸いです。\n</div>",
+    "hostComment": "<div>\n2038年問題を扱うゲームが紅白にあったけど、2045年にも何かあるのか……。\n</div>",
+    "icon": "/icons/2016-gw/55-source.png",
     "ss": [
-      "/screenshots/2016-gw/55.png"
-    ]
+      "/screenshots/2016-gw/55-source-1.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1462246085/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/KBq9td",
+        "label": "1.8MB05/03提出"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/KBq9td",
+      "label": "1.8MB05/03提出"
+    }
   },
   {
     "id": "2016-gw-work-56",
     "festivalId": "2016-gw",
     "no": "56",
     "title": "もしも四天王がツクールＶＸＡＣＥを",
-    "author": "徹底解剖しなかったら",
-    "category": "ｋｓｇ",
+    "author": "１８５０グラム",
     "engine": "VXAce",
-    "streaming": "可/可",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1462246167/",
-    "authorComment": "ＲＰＧツクールＶＸＡＣＥで作ったゲームを投下するのは初めてなので\n至らぬ点も多いと思いますがよろしくお願いします。",
-    "hostComment": "MV発売なんてもう半年前の話だよ！",
+    "category": "ｋｓｇ",
+    "streaming": "可・可",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry56.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181514id_/http://www.geocities.jp/viprpg2016gw/entry56.html",
+      "titleUrl": "https://web.archive.org/web/20190330213724id_/http://www.geocities.jp/viprpg2016gw/main.html"
+    },
+    "authorComment": "<div>\nＲＰＧツクールＶＸＡＣＥで作ったゲームを投下するのは初めてなので<br>\n至らぬ点も多いと思いますがよろしくお願いします。\n</div>",
+    "hostComment": "<div>\nMV発売なんてもう半年前の話だよ！\n</div>",
+    "originalTitle": "もしも四天王がツクールＶＸＡＣＥを徹底解剖しなかったら",
     "ss": [
-      "/screenshots/2016-gw/56.png"
-    ]
+      "/screenshots/2016-gw/56-source-1.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1462246167/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/Zq_d-N",
+        "label": "1.8MB05/03提出"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/Zq_d-N",
+      "label": "1.8MB05/03提出"
+    }
   },
   {
     "id": "2016-gw-work-57",
@@ -1001,17 +1704,21 @@
     "no": "57",
     "title": "観測者ども",
     "author": "無貌神士ゲゲゾミ",
-    "category": "君のケツをファックするRPG",
     "engine": "2000",
+    "category": "君のケツをファックするRPG",
     "streaming": "好きに/しちゃって",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1462246308/",
-    "authorComment": "スレ投下作品『天体観測』、『変態観測』、新作『観測者ども』、\nあとシリーズに全く関係無いスレ投下作品『おはかまいれ』の四本1セットの予定です\n手抜きですね\nなお新作が完成しなかった場合未提出となります 意味ないですし",
-    "hostComment": "GW(中)に作品(作って遅刻で)出そうぜ！",
-    "icon": "/icons/2016-gw/57.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry57.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181505id_/http://www.geocities.jp/viprpg2016gw/entry57.html"
+    },
+    "authorComment": "<div>\nスレ投下作品『天体観測』、『変態観測』、新作『観測者ども』、<br>\nあとシリーズに全く関係無いスレ投下作品『おはかまいれ』の四本1セットの予定です<br>\n手抜きですね<br>\nなお新作が完成しなかった場合未提出となります　意味ないですし\n</div>",
+    "hostComment": "<div>\nGW(中)に作品(作って遅刻で)出そうぜ！\n</div>",
+    "icon": "/icons/2016-gw/57-source.png",
     "ss": [
-      "/screenshots/2016-gw/57.png",
-      "/screenshots/2016-gw/57-02.png"
-    ]
+      "/screenshots/2016-gw/57-source-1.png",
+      "/screenshots/2016-gw/57-source-2.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1462246308/"
   },
   {
     "id": "2016-gw-work-58",
@@ -1019,17 +1726,31 @@
     "no": "58",
     "title": "ファルコン想歌",
     "author": "焼きそば男",
-    "category": "音合わせ見るゲ",
     "engine": "2000",
+    "category": "音合わせ見るゲ",
     "streaming": "可／可",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1462246354/",
-    "authorComment": "恒例？のラテン音楽見るゲ。\n今年は申年ということで、ファルコンをテーマにしました。",
-    "hostComment": "「申年だからファルコン」って字だけだと割と意味不明ですね！",
-    "icon": "/icons/2016-gw/58.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry58.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181505id_/http://www.geocities.jp/viprpg2016gw/entry58.html"
+    },
+    "authorComment": "<div>\n恒例？のラテン音楽見るゲ。<br>\n今年は申年ということで、ファルコンをテーマにしました。\n</div>",
+    "hostComment": "<div>\n「申年だからファルコン」って字だけだと割と意味不明ですね！\n</div>",
+    "icon": "/icons/2016-gw/58-source.png",
     "ss": [
-      "/screenshots/2016-gw/58.png",
-      "/screenshots/2016-gw/58-02.png"
-    ]
+      "/screenshots/2016-gw/58-source-1.png",
+      "/screenshots/2016-gw/58-source-2.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1462246354/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/gVd06n",
+        "label": "4.0MB05/07更新"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/gVd06n",
+      "label": "4.0MB05/07更新"
+    }
   },
   {
     "id": "2016-gw-work-59",
@@ -1037,16 +1758,30 @@
     "no": "59",
     "title": "Je t'aime",
     "author": "鳳天舞の陣－１",
-    "category": "読むゲ短編集",
     "engine": "2000",
+    "category": "読むゲ短編集",
     "streaming": "是",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1462246421/",
-    "authorComment": "勇気を出して打ち明けるのも、\n鳴かず飛ばずで身を焦がすのも、\nそもそもそれが別のものでも――",
-    "hostComment": "くっ、結局差し込むコメントが思い浮かばない！",
-    "icon": "/icons/2016-gw/59.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry59.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181513id_/http://www.geocities.jp/viprpg2016gw/entry59.html"
+    },
+    "authorComment": "<div>\n勇気を出して打ち明けるのも、<br>\n鳴かず飛ばずで身を焦がすのも、<br>\nそもそもそれが別のものでも――\n</div>",
+    "hostComment": "<div>\nくっ、結局差し込むコメントが思い浮かばない！\n</div>",
+    "icon": "/icons/2016-gw/59-source.png",
     "ss": [
-      "/screenshots/2016-gw/59.png"
-    ]
+      "/screenshots/2016-gw/59-source-1.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1462246421/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/CtdiIl",
+        "label": "649KB05/31提出"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/CtdiIl",
+      "label": "649KB05/31提出"
+    }
   },
   {
     "id": "2016-gw-work-60",
@@ -1054,16 +1789,30 @@
     "no": "60",
     "title": "風の声をきいてみて",
     "author": "よそのん",
-    "category": "デフォ戦を含むもの",
     "engine": "2000",
+    "category": "デフォ戦を含むもの",
     "streaming": "○",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1462246469/",
-    "authorComment": "狂ってたシステムとストーリーの修正でモチベがつきはて\n提出のタイミングを逃して放置していた物を完成優先で作り直した作品です\nこれ以上時間もとれないので期待した人すまない。",
-    "hostComment": "なあに、エターならないことが第一さ！",
-    "icon": "/icons/2016-gw/60.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry60.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181514id_/http://www.geocities.jp/viprpg2016gw/entry60.html"
+    },
+    "authorComment": "<div>\n狂ってたシステムとストーリーの修正でモチベがつきはて<br>\n提出のタイミングを逃して放置していた物を完成優先で作り直した作品です<br>\nこれ以上時間もとれないので期待した人すまない。\n</div>",
+    "hostComment": "<div>\nなあに、エターならないことが第一さ！\n</div>",
+    "icon": "/icons/2016-gw/60-source.png",
     "ss": [
-      "/screenshots/2016-gw/60.png"
-    ]
+      "/screenshots/2016-gw/60-source-1.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1462246469/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/V-87fg",
+        "label": "1.1MB05/19提出"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/V-87fg",
+      "label": "1.1MB05/19提出"
+    }
   },
   {
     "id": "2016-gw-work-61",
@@ -1071,15 +1820,19 @@
     "no": "61",
     "title": "？？？",
     "author": "l_l",
-    "category": "未識別",
     "engine": "2000",
+    "category": "未識別",
     "streaming": "？／？",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1462246509/",
-    "authorComment": "識別されていないのでよく分からない。",
-    "hostComment": "なるほど、わからん。",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry61.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181509id_/http://www.geocities.jp/viprpg2016gw/entry61.html"
+    },
+    "authorComment": "<div>\n識別されていないのでよく分からない。\n</div>",
+    "hostComment": "<div>\nなるほど、わからん。\n</div>",
     "ss": [
-      "/screenshots/2016-gw/61.png"
-    ]
+      "/screenshots/2016-gw/61-source-1.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1462246509/"
   },
   {
     "id": "2016-gw-work-62",
@@ -1087,16 +1840,30 @@
     "no": "62",
     "title": "QR物語",
     "author": "QR太郎",
-    "category": "超短編アドベンチャー",
     "engine": "2000",
+    "category": "超短編アドベンチャー",
     "streaming": "無記入",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1462246552/",
-    "authorComment": "暗闇の中、スマートフォンだけが俺の友達だった",
-    "hostComment": "ちょっと苦戦しましたがちゃんと4枚とも読み取れました。",
-    "icon": "/icons/2016-gw/62.png",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry62.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181507id_/http://www.geocities.jp/viprpg2016gw/entry62.html"
+    },
+    "authorComment": "<div>\n暗闇の中、スマートフォンだけが俺の友達だった\n</div>",
+    "hostComment": "<div>\nちょっと苦戦しましたがちゃんと4枚とも読み取れました。\n</div>",
+    "icon": "/icons/2016-gw/62-source.png",
     "ss": [
-      "/screenshots/2016-gw/62.png"
-    ]
+      "/screenshots/2016-gw/62-source-1.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1462246552/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/6YfNC8",
+        "label": "196KB05/31提出"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/6YfNC8",
+      "label": "196KB05/31提出"
+    }
   },
   {
     "id": "2016-gw-work-63",
@@ -1104,15 +1871,29 @@
     "no": "63",
     "title": "スギ花粉地獄バイリニア",
     "author": "ALPHA",
-    "category": "技術的な小ネタ",
     "engine": "2000",
+    "category": "技術的な小ネタ",
     "streaming": "自己責任/自己責任",
-    "forum": "https://web.archive.org/web/20211007044658/http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1462278274/",
-    "authorComment": "一度やってみたかった、ツクール2000でのバイリニア補間による描画。\n今回は、むかし本スレに上げた「スギ花粉地獄」を\nバイリニア補間による描画でリメイクしました。\n滑らかな描画が得られましたが、ただそれだけの作品です (＾o＾)\n注意：ピクチャーが512枚使える改造exeを使っています。\nプレイは自己責任でお願いします。",
-    "hostComment": "バイリニア補間でホコグラに滑らかなアクションをさせる話を前に聞いた覚えがありますね。",
-    "icon": "/icons/2016-gw/63.gif",
+    "source": {
+      "url": "http://www.geocities.jp/viprpg2016gw/entry63.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181504id_/http://www.geocities.jp/viprpg2016gw/entry63.html"
+    },
+    "authorComment": "<div>\n一度やってみたかった、ツクール2000でのバイリニア補間による描画。<br>\n今回は、むかし本スレに上げた「スギ花粉地獄」を<br>\nバイリニア補間による描画でリメイクしました。<br>\n滑らかな描画が得られましたが、ただそれだけの作品です (＾o＾)<br>\n注意：ピクチャーが512枚使える改造exeを使っています。<br>\nプレイは自己責任でお願いします。\n</div>",
+    "hostComment": "<div>\nバイリニア補間でホコグラに滑らかなアクションをさせる話を前に聞いた覚えがありますね。\n</div>",
+    "icon": "/icons/2016-gw/63-source.gif",
     "ss": [
-      "/screenshots/2016-gw/63.png"
-    ]
+      "/screenshots/2016-gw/63-source-1.png"
+    ],
+    "forum": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/23584/1462278274/",
+    "downloads": [
+      {
+        "url": "http://yahoo.jp/box/XyWo6W",
+        "label": "827KB05/03提出"
+      }
+    ],
+    "download": {
+      "url": "http://yahoo.jp/box/XyWo6W",
+      "label": "827KB05/03提出"
+    }
   }
 ]
