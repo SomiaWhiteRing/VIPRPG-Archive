@@ -5,9 +5,18 @@ import { decodeSource, imageExtension, writeJson } from "./recover-entry-table";
 import { getDictionary } from "../src/lib/i18n";
 import type { WorkEntry } from "../src/lib/types";
 import { materializeAtWikiRegions } from './source-atwiki-regions';
+import { rewrite2020Script, snapshot2020Script, root2020Script } from './source-2020-gw-view';
 import { rewriteSummer2012Source } from "./source-2012-summer-view";
 
 const configurations: Record<string, { base: string; entry?: string; manifests: string[]; seeds: Record<string, string>; seedUrls?: Record<string, string>; cgiProfile?: boolean; encoding?: string; encodingOverrides?: Record<string, string>; liveSource?: boolean; disabledLocalLinks?: string[]; externalResources?: Record<string, string>; preserveExternalExtensions?: string[]; frames?: { menuPage: string; menuName: string; mainName: string } }> = {
+  "2020-gw": {
+    base: "https://vipgw2020.tubakurame.com/",
+    manifests: ["source/replay/manifest.json"],
+    seeds: {},
+    encoding: "utf-8",
+    liveSource: true,
+    preserveExternalExtensions: [".zip", ".rar", ".7z", ".exe"],
+  },
   "2021-summer": {
     base: "https://viprpg2021s.kenkenpa.net/",
     manifests: ["source/replay/manifest.json"],
@@ -463,7 +472,7 @@ async function main() {
       sharedHeaderTargets.push(local ? `/original-pages/${id}/${local}${url.search}${url.hash}` : url.href);
     });
   }
-  if (["2021-summer", "2021-kouhaku", "2021-gw", "2022-summer", "2022-kouhaku", "2022-gw", "2023-winter", "2023-summer", "2023-kouhaku", "2023-gw", "2024-summer", "2024-kuradashifestival", "2024-kouhaku", "2024-gw", "2025-gw", "2025-summer"].includes(id) || id === "2006-kouhaku" || id === "2012-toppuu-festival" || id === "2011-toppatsu-festival" || id === "2008-jisaku-battle-festival" || id === "2010-gw" || id === "2010-kouhaku" || id === "2010-summer") config.externalResources = recovery.originalResources;
+  if (["2020-gw", "2021-summer", "2021-kouhaku", "2021-gw", "2022-summer", "2022-kouhaku", "2022-gw", "2023-winter", "2023-summer", "2023-kouhaku", "2023-gw", "2024-summer", "2024-kuradashifestival", "2024-kouhaku", "2024-gw", "2025-gw", "2025-summer"].includes(id) || id === "2006-kouhaku" || id === "2012-toppuu-festival" || id === "2011-toppatsu-festival" || id === "2008-jisaku-battle-festival" || id === "2010-gw" || id === "2010-kouhaku" || id === "2010-summer") config.externalResources = recovery.originalResources;
   const sourceDetailGapPaths = new Set<string>((recovery.sourceDetailGaps ?? []).map((gap: { sourcePath: string }) => gap.sourcePath));
   const unavailableSourcePagePaths = new Set<string>((recovery.unavailableSourcePages ?? []).map((gap: { sourcePath: string }) => gap.sourcePath));
   const previousMissing: Array<{ url: string; requestedUrl?: string; error: string }> = JSON.parse(await fs.readFile(`${root}/original-view.json`, "utf8").catch(() => "{}")).missingResources ?? [];
@@ -607,6 +616,18 @@ async function main() {
       if (/\.(?:png|jpe?g|gif|bmp|webp|avif|ico)$/i.test(local)) imageExtension(bytes);
       if (/\.html?$/i.test(local)) {
         const $ = cheerio.load(decodeSource(bytes, resourceEncoding));
+        if (id === "2020-gw") {
+          $('script').each((_, element) => {
+            const node = $(element), src = node.attr('src'), code = node.html() || '';
+            if ((src && !/jquery-1\.9\.0|platform\.js/.test(src)) || code.includes('__CF$cv$params')) node.remove();
+            else if (!src) node.html(local === 'index.html' && code.includes('window.onload') ? root2020Script() : rewrite2020Script(code, local));
+          });
+          if (local !== 'index.html' && $('script[src]').filter((_, e) => ($(e).attr('src') || '').includes('jquery')).length) {
+            const snapshots = JSON.parse(await fs.readFile(root + '/source/replay/snapshots.json', 'utf8'));
+            $('script[src]').filter((_, e) => ($(e).attr('src') || '').includes('jquery')).first().after('<script data-archive-snapshot>' + snapshot2020Script(snapshots.h, snapshots.s) + '</script>');
+          }
+          compatibilityFixes.push({ page: local, change: 'Keep the original dynamic rendering and local jQuery/platform dependencies. Supply captured publisher JSON without opaque-origin AJAX; route only messages from the two owned child frames to captured local pages, with external and submission actions explicitly labelled. Preserve the sandbox permissions.' });
+        }
         if (id === "2021-summer") {
           $("script,noscript,iframe,form,object,embed").remove();
           $('head').append('<style data-archive-available-width>body{width:auto}</style>');
@@ -978,6 +999,7 @@ async function main() {
           const script = $(element), src = script.attr("src");
           if ((src && !relative(new URL(src, original).href)) || /fc2footerparam|geovisit\(|var\s+jps\s*=|archive_analytics|__wm\./.test(script.html() ?? "") || (id === "2012-magic-festival" && /fhp_c_pc/.test(script.html() ?? "")) || (id === "2012-kouhaku" && /_gaq|googletag|geniee_|var ID=|twitter-wjs/.test(script.html() ?? ""))) script.remove();
           else if (!src) {
+            if (id === "2020-gw") return;
             let code = script.html() ?? "";
             if (id === "2012-summer" && /^sakuhin_?\.html$/.test(local)) {
               code = rewriteSummer2012Source(code, local, (value) => localReference(value, original, local), (recovery.failures ?? []).map((f: { sourceUrl: string }) => f.sourceUrl.match(/\/ss\/no(\d+)\./)?.[1]).filter(Boolean).map(Number));

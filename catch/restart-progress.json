@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2020-gw",
+  "activeFestival": "2020-kouhaku",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -1781,6 +1781,37 @@
         "catch/2021-summer/investigation/local-http-payloads.json"
       ],
       "notes": "日本源站47份HTML、1份CSS和121份图片原始响应全部保存并核对SHA；46项含00样例，既有ID、编号及题名保持。70张实际显示／悬停截图与旧画廊全部逐字节对应，46处图标、1条本祭横幅和16条历届横幅按来源保留。恢复45项配布入口、原文作者及主办留言。00原详情是题名与元数据留空的填写模板，目录资料保留，Google Drive／掲示板服务入口不当作实际下载与感想主题；33号配信字段源站空白保持未设置。整理版配信字段采用官方目录，00、01、10、25的目录／详情表记差异按明确标签分别保留。10号上一页误写no9.html，日本源站404且香港精确CDX无记录，回放指向官方目录已有的no09.html；45号下一页no46.html同样404且CDX无记录，停用链接而不编造目录外作品。原貌169文件、47份HTML、479本地引用含悬停目标无缺失或外部自动加载。12号作者留言长文本将表格撑到2008像素，针对该单元格补换行；源100vw正文还使12、18、19、29号表格被滚动条裁边，回放改用实际可用宽度，47页按1168px内容区复核通过。46整理详情、主页46项目录与横幅、47原貌文档通过桌面检查，原生悬停、查看器切换、沙箱目录到10／09及返回导航均通过。286展示文件最终HTTP载荷与本地文件SHA一致。没有题材筛选、没有新增受限，游戏包未下载或执行。"
+    },
+    {
+      "festivalId": "2020-gw",
+      "reviewedAt": "2026-10-20",
+      "dataSha256": "d9912e282e2c701be9c57c9b1fe614760d0a355e494d362d1f0c150bd7b39455",
+      "status": "reviewed-with-exceptions",
+      "works": 40,
+      "screenshotFiles": 71,
+      "screenshotReferences": 71,
+      "iconFiles": 40,
+      "downloadEntries": 34,
+      "originalCatalogueCompleteness": "verified-publisher-39-formal-entries-plus-source-literal-sample-and-dynamic-rendering",
+      "outstandingSourceDetails": 0,
+      "outstandingImageSourceUrls": 0,
+      "outstandingScreenshotRows": 0,
+      "outstandingOtherResources": 0,
+      "packageBytesValidated": false,
+      "sourceEvidence": [
+        "catch/2020-gw/recovery.json",
+        "catch/2020-gw/source-comparison.json",
+        "catch/2020-gw/source/live/manifest.json",
+        "catch/2020-gw/source/resources/manifest.json",
+        "catch/2020-gw/investigation/source-samples.json",
+        "catch/2020-gw/investigation/replay-closure.json"
+      ],
+      "desktopEvidence": [
+        "catch/2020-gw/desktop-review.json",
+        "catch/2020-gw/investigation/script-syntax.json",
+        "catch/2020-gw/investigation/local-http-payloads.json"
+      ],
+      "notes": "日本源站取得9份原HTML、2份发布者JSON、jQuery／平台及广告标记3份脚本、121份图片，原始载荷全部核对SHA。Heroku entries接口实际404，采用站方发布的data_h_local.json；39个正式作品与两份JSON数组顺序、编号一致，0号样例从top／entries原脚本的纯字面量对象提取，不执行抓取代码。40个既有ID、编号和题名保持，恢复71截图、40图标、34项配布入口和3条真实轮换横幅；旧71截图全部逐字节对应。0号目录／详情的作者及主办留言变体分别保存；25号未指定截图使用源默认图，10项使用源默认图标。原脚本会因34项末尾空截图槽覆盖已有首图，回放滤去空槽并保留真实图片，原JSON不变。保留原jQuery动态表格、截图切换、FRAMESET菜单和图片轮换；捕获JSON直接供原渲染代码读取，避免不透明沙箱内AJAX失败，框架导航仅接受两个所属子窗口消息和已捕获本地页面，权限不变。静态投稿功能和未归档外部论坛／配布正文均用明确来源说明页，不留空白。原貌137文件，静态引用30处无缺失或外部自动加载；动态资源另经40个详情状态与实际框架验证，71个截图切换入口齐全。40整理详情、40动态原貌详情及桌面框内912px内容区、辅助页、主页40项与3横幅通过。实际选择作品1、菜单进入2、SS2切换、横幅轮换、返回目录及停用说明均验证；251展示文件最终HTTP载荷与本地文件SHA一致。没有题材筛选、没有新增受限，游戏包未下载或执行。"
     }
   ],
   "originalViewsReviewed": [
@@ -2185,6 +2216,13 @@
       "evidence": [
         "catch/2021-summer/original-view.json",
         "catch/2021-summer/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2020-gw",
+      "evidence": [
+        "catch/2020-gw/original-view.json",
+        "catch/2020-gw/desktop-review.json"
       ]
     }
   ],

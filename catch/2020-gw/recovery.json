@@ -1,0 +1,2425 @@
+{
+  "festivalId": "2020-gw",
+  "originalBase": "https://vipgw2020.tubakurame.com/",
+  "liveSource": true,
+  "proxyRegion": "Japan",
+  "sourceManifests": [
+    "source/replay/manifest.json"
+  ],
+  "originalResources": {
+    "https://vipgw2020.tubakurame.com/": "index.html",
+    "https://vipgw2020.tubakurame.com/menu.html": "menu.html",
+    "https://vipgw2020.tubakurame.com/entries.html": "entries.html",
+    "https://vipgw2020.tubakurame.com/top.html": "top.html",
+    "https://vipgw2020.tubakurame.com/data_h_local.json": "data_h_local.json",
+    "https://vipgw2020.tubakurame.com/games.json": "games.json",
+    "https://vipgw2020.tubakurame.com/about.html": "about.html",
+    "https://vipgw2020.tubakurame.com/update.html": "update.html",
+    "https://vipgw2020.tubakurame.com/past.html": "past.html",
+    "https://vipgw2020.tubakurame.com/entryFail.html": "entryFail.html",
+    "https://vipgw2020.tubakurame.com/ab.html": "ab.html",
+    "https://vipgw2020.tubakurame.com/platform.js": "platform.js",
+    "https://vipgw2020.tubakurame.com/adframe.js": "adframe.js",
+    "https://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.min.js": "dependencies/jquery-1.9.0.min.js",
+    "https://vipgw2020.tubakurame.com/img/bg_m.png": "img/32ea3de1ef36d8107390c957.png",
+    "https://vipgw2020.tubakurame.com/img/bg.jpg": "img/3942ed4ec4d0ab5397063748.jpg",
+    "https://vipgw2020.tubakurame.com/img/kh2019.png": "img/dd3a2dbe16d3bb9f3da1d046.png",
+    "https://vipgw2020.tubakurame.com/img/su2019.png": "img/10eaaba4ce138f1b2fd9baa6.png",
+    "https://vipgw2020.tubakurame.com/img/gw2019.png": "img/dc071adca03dbd09b3996d9c.png",
+    "https://vipgw2020.tubakurame.com/img/gw2018.png": "img/db079a814b3408793b1d06d0.png",
+    "https://vipgw2020.tubakurame.com/img/gw2017.png": "img/2827c2bc98d4e1f443df9a9d.png",
+    "https://vipgw2020.tubakurame.com/img/gw2016.png": "img/18583aa3b482b6ee8cb442d9.png",
+    "https://vipgw2020.tubakurame.com/img/gw2015.png": "img/703e0d15f3a9fd3c0ded84dd.png",
+    "https://vipgw2020.tubakurame.com/img/gw2014.png": "img/39e63c0f271d6aef5e70adba.png",
+    "https://vipgw2020.tubakurame.com/img/gw2013.png": "img/f36221c0723db551642fded0.png",
+    "https://vipgw2020.tubakurame.com/img/gw2012.png": "img/178615d6a7cd5fba838af9ad.png",
+    "https://vipgw2020.tubakurame.com/img/gw2011.png": "img/eacd669ddc2a996ae75ef3bc.png",
+    "https://vipgw2020.tubakurame.com/img/gw2010.png": "img/c994d0927563b201ba580b9b.png",
+    "https://vipgw2020.tubakurame.com/img/gw2009.png": "img/dceb0572702d4574d1de77a3.png",
+    "https://vipgw2020.tubakurame.com/img/gw2008.png": "img/003ee671ad3cee4adf6ce7c3.png",
+    "https://vipgw2020.tubakurame.com/img/gw2007.png": "img/48cb50773f16ccd59ae0548b.png",
+    "https://vipgw2020.tubakurame.com/img/gw2006.png": "img/f4d61c08bee56c5aeea4e48d.png",
+    "https://vipgw2020.tubakurame.com/img/gw2020_1.png": "img/gw2020_1.png",
+    "https://vipgw2020.tubakurame.com/img/gw2020_2.png": "img/gw2020_2.png",
+    "https://vipgw2020.tubakurame.com/img/gw2020_3.png": "img/gw2020_3.png",
+    "https://vipgw2020.tubakurame.com/img/icon_no01": "img/3f889f099d3e04ccabde980d.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no01_1": "img/573a7245b56706d2f92cd64e.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no01_2": "img/addc54161fe5fd60ed2e0365.png",
+    "https://vipgw2020.tubakurame.com/img/icon_no02": "img/ee55c74483f3ec08f6f48306.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no02_1": "img/b976f71590af4ac4ed2ca152.png",
+    "https://vipgw2020.tubakurame.com/img/icon_no03": "img/bc9f52f9f0977325576f6489.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no03_1": "img/8424a6b0904d3f0670e9d747.png",
+    "https://vipgw2020.tubakurame.com/img/icon_no04": "img/2eec0b41b5bb2dafa73345db.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no04_1": "img/4d77eba769ad4a13ffbd8c7f.png",
+    "https://vipgw2020.tubakurame.com/img/icon_no05": "img/c5c75b04e5471e2111f3d912.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no05_1": "img/dd47bfc67abee85d39f65ab3.png",
+    "https://vipgw2020.tubakurame.com/img/icon_no06": "img/d1fba35d1c939f199fd54272.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no06_1": "img/1546515cc53bedf29c988482.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no06_2": "img/df42ccb4b3d87fdd030f55f5.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no06_3": "img/e61860216c4b7cce9acd727c.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no06_4": "img/e2450f7f681a8ef2d12e5351.png",
+    "https://vipgw2020.tubakurame.com/img/icon_no07": "img/569b562e04fc6e65cbbee274.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no07_1": "img/1b77de6c12d33e7b63a4cec8.jpg",
+    "https://vipgw2020.tubakurame.com/img/ss_no07_2": "img/91e074b9dc280bf9dad5e62a.jpg",
+    "https://vipgw2020.tubakurame.com/img/icon_no08": "img/af5c6921bdb3d377a63da258.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no08_1": "img/0bd0d4bb6c025b6f62c36b5b.png",
+    "https://vipgw2020.tubakurame.com/img/default_icon.png": "img/default_icon.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no09_1": "img/8aa9ad442e9daf2ec8e1ece2.png",
+    "https://vipgw2020.tubakurame.com/img/icon_no10": "img/4ee307d78121c1f3a1532ba8.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no10_1": "img/8a6a1b7927acbb13880db0c6.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no10_2": "img/9dcbbe4acdcab0ccf01df69f.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no11_1": "img/0186dbb29f5afd301a0302c3.png",
+    "https://vipgw2020.tubakurame.com/img/icon_no12": "img/1ecb628727d02d2e29a549a0.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no12_1": "img/07f978fbc22fb6b40a822796.jpg",
+    "https://vipgw2020.tubakurame.com/img/icon_no13": "img/3113336c494549ffb7affaa6.gif",
+    "https://vipgw2020.tubakurame.com/img/ss_no13_1": "img/7853d36f3c0a7145c655df85.gif",
+    "https://vipgw2020.tubakurame.com/img/icon_no14": "img/39a9b3ef5ad9d7f5cb6981cd.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no14_1": "img/752082a4304ad967d2e96c4b.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no14_2": "img/55f9c3b06d34b08b5d4e0969.png",
+    "https://vipgw2020.tubakurame.com/img/icon_no15": "img/b7b6ff40020c9a01df8bd053.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no15_1": "img/4950cf28cd39010aeefc0221.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no15_2": "img/524069a9948d938feda9fc0d.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no15_3": "img/4084301ca85510d256a70cc8.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no15_4": "img/0ec5b4d4ea568bb16cb3c402.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no16_1": "img/ffd1fddfce2e7a3643255037.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no16_2": "img/c17fee0981893539e6ef7fd9.png",
+    "https://vipgw2020.tubakurame.com/img/icon_no17": "img/23345730ed5f8a348dda7b27.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no17_1": "img/ffb8b9c3e07d3856e804afce.png",
+    "https://vipgw2020.tubakurame.com/img/icon_no18": "img/60fff7b3b116f29a688d052c.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no18_1": "img/fb8127d6f6ec4fc23c009981.png",
+    "https://vipgw2020.tubakurame.com/img/icon_no19": "img/db170de2a1f8a6f2648110e8.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no19_1": "img/c5ee65deda3e4f62afd02123.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no19_2": "img/f7a9e9ff383b4e7221f4657b.png",
+    "https://vipgw2020.tubakurame.com/img/icon_no20": "img/912f57c70c81aaab2e448bfe.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no20_1": "img/c28e010e46a96f3123f9e0ea.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no20_2": "img/632f73f591ad784f8d9d0985.png",
+    "https://vipgw2020.tubakurame.com/img/icon_no21": "img/30df1c63696791fa46d05f5e.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no21_1": "img/f782656a311d227e4345268b.png",
+    "https://vipgw2020.tubakurame.com/img/icon_no22": "img/93e2fb0aa413f337b7bfb5a5.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no22_1": "img/84cdfe00f78d2963b3813677.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no22_2": "img/e1463627e697de2225b44e6e.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no22_3": "img/81aead01aa4880625748d178.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no23_1": "img/9c08d3b63a44ecc79623ba04.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no24_1": "img/379a987130ac3068fc7daac9.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no24_2": "img/420e0df08dc0ae6a9c07a0a9.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no24_3": "img/1de2ad10d1401a6db77041db.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no24_4": "img/196ca9157275ab4bea2bdc30.png",
+    "https://vipgw2020.tubakurame.com/img/icon_no26": "img/92405b3b7fcba54a038e4cf0.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no26_1": "img/ebae7b310c26875cc475e5fa.jpg",
+    "https://vipgw2020.tubakurame.com/img/ss_no26_2": "img/9f2b977c16439e1a441d8384.jpg",
+    "https://vipgw2020.tubakurame.com/img/icon_no27": "img/f955c6ecc70cd6b54518c081.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no27_1": "img/7030b8f11aa2eff30f8c38ff.png",
+    "https://vipgw2020.tubakurame.com/img/icon_no28": "img/dc21ded71e4e3c3bc96713ff.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no28_1": "img/1973ec1e80adfafe18443386.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no28_2": "img/bceb1da766fc26e1f6a362fa.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no29_1": "img/d927d807f19082806761d6fd.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no29_2": "img/dc0d7e4c60001c49ec1ae85a.png",
+    "https://vipgw2020.tubakurame.com/img/icon_no30": "img/c1f2ecadedea5f229cf4b8c7.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no30_1": "img/ed67e2b0ef5d653bf3326804.png",
+    "https://vipgw2020.tubakurame.com/img/icon_no31": "img/dc753a1cb4d3e9e3a1cb448c.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no31_1": "img/a497783b4b2e094fe418df8d.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no31_2": "img/f978003da41753f232161888.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no31_3": "img/c73b46109fe4c289c7c2980f.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no31_4": "img/ca52a3888a394c817bcda88d.png",
+    "https://vipgw2020.tubakurame.com/img/icon_no32": "img/be9791820288a49b094e536f.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no32_1": "img/de36468f5a2abd63efce80d3.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no32_2": "img/97e06873b39d294364cf113f.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no32_3": "img/9463f8eb973ff9119006975a.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no32_4": "img/d2e5a6c18ab3a0a3ad712992.png",
+    "https://vipgw2020.tubakurame.com/img/icon_no33": "img/1cb928d9c03974f88dd3b75e.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no33_1": "img/379a8198504cd7f9c4500192.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no33_2": "img/81062aaaf9672dc3d55192a9.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no34_1": "img/022c5669a91ac3135dc4d796.jpg",
+    "https://vipgw2020.tubakurame.com/img/ss_no34_2": "img/6a51aabf85a7f237f6ce3337.png",
+    "https://vipgw2020.tubakurame.com/img/icon_no35": "img/c3d3c5655becce118b326c18.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no35_1": "img/c412ca5986430ebce42b9bdf.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no36_1": "img/6880e6bb42725d94fa996abc.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no37_1": "img/cc27fe2e77eb7d63576b8de8.png",
+    "https://vipgw2020.tubakurame.com/img/icon_no38": "img/aa874917239d8a73bf21560e.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no38_1": "img/2467734bd2ec9685595e1f6e.png",
+    "https://vipgw2020.tubakurame.com/img/icon_no39": "img/682c1a8ecfa761e5ab5574a9.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no39_1": "img/111a9bacc931f499a0ab748e.png",
+    "https://vipgw2020.tubakurame.com/img/ss_no39_2": "img/0ace63fec605940871e14bd6.png",
+    "https://vipgw2020.tubakurame.com/img/default_ss1.png": "img/default_ss1.png",
+    "https://vipgw2020.tubakurame.com/img/default_ss2.png": "img/default_ss2.png",
+    "https://vipgw2020.tubakurame.com/index.html": "index.html",
+    "https://vipgw2020.tubakurame.com/archive-closed.html": "archive-closed.html",
+    "https://vipgw2020.tubakurame.com/archive-external.html": "archive-external.html"
+  },
+  "entries": [
+    {
+      "id": "2020-gw-work-00",
+      "no": "0",
+      "sourceMetadata": {
+        "gameid": 0,
+        "name_game": "サンプル",
+        "name_author": "管理人",
+        "genre": "サンプルゲーム",
+        "tool": "Steam2003",
+        "stream": "18歳以上は不可",
+        "comment": "作品情報のサンプルです。\nアイコン・SSが未指定の場合はこのようになります。",
+        "game_url": [
+          "https://ux.getuploader.com/vipgw2020_game/download/118",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "modified": "6/2"
+      },
+      "sourceSupplement": {
+        "icon": "default_icon.png",
+        "ss": [
+          "default_ss1.png",
+          "default_ss2.png"
+        ],
+        "forum": "https://jbbs.shitaraba.net/bbs/read.cgi/game/60946/1587008069/l1000",
+        "a_com": ""
+      },
+      "sourceIconUrl": "https://vipgw2020.tubakurame.com/img/default_icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/default_ss1.png",
+          "local": "/screenshots/2020-gw/00-source-1.png",
+          "sha256": "82c5a74346a7697f0d27f2b787899b3509462136efee4bea41118a61a9103847"
+        },
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/default_ss2.png",
+          "local": "/screenshots/2020-gw/00-source-2.png",
+          "sha256": "bd6ddc2e50383854ef9a82aac21d571b7707cca5e66f2bc220323dbbedbceb4d"
+        }
+      ],
+      "sourceDefaultIcon": false,
+      "sourceDefaultScreenshot": false,
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/vipgw2020_game/download/118",
+          "label": "DL1"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-gw-work-01",
+      "no": "1",
+      "sourceMetadata": {
+        "gameid": 1,
+        "name_game": "ウィンディ絶滅計画",
+        "name_author": "藻太郎",
+        "genre": "お下劣RPG",
+        "tool": "MV",
+        "stream": "できるかしら…",
+        "comment": "('A`)",
+        "modified": "1589717512584",
+        "game_url": [
+          "https://ux.getuploader.com/vipgw2020_game/download/99",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "sourceSupplement": {
+        "icon": "icon_no01",
+        "ss": [
+          "ss_no01_1",
+          "ss_no01_2",
+          "",
+          ""
+        ],
+        "forum": "https://jbbs.shitaraba.net/bbs/read.cgi/game/60946/1587424201/l1000",
+        "a_com": "戦闘画面のレイアウトの圧ヤバすぎない？<br><br><details><summary>プレイ後感想追記（クリックで開く）</summary><br>いっそえげつないまでの下ネタ危ないネタの数々が押し寄せてきますが、それも軽く受け入れられてしまうほどに軽妙な会話やシステムが魅力だと感じました。<br>ストーリーは割合にあっさり気味というかさくさくと進んでいきますが、アイテムを拾ったとき等のキャラクターの反応など作り込みは非常に丁寧で、一発ネタ臭いビジュアルなのにそれで終わらないだけの心情描写が為されています。<br>戦闘画面のイシュタムさんかわいいね。</details>"
+      },
+      "sourceIconUrl": "https://vipgw2020.tubakurame.com/img/icon_no01",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no01_1",
+          "local": "/screenshots/2020-gw/01-source-1.png",
+          "sha256": "569b5f764954df2e092730d0a4725589631224e73bbcd120f597b78f7fdf6b74"
+        },
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no01_2",
+          "local": "/screenshots/2020-gw/01-source-2.png",
+          "sha256": "088337005f011ae446a6be2ae4e591220038e636ae0cec3fcf7303c2029a8535"
+        }
+      ],
+      "sourceDefaultIcon": false,
+      "sourceDefaultScreenshot": false,
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/vipgw2020_game/download/99",
+          "label": "DL1"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-gw-work-02",
+      "no": "2",
+      "sourceMetadata": {
+        "gameid": 2,
+        "name_game": "もしもしりとりで魔王把握",
+        "name_author": "余裕がなくなってきた人",
+        "genre": "タイトルの通りの魔王把握",
+        "tool": "2000",
+        "stream": "可/可",
+        "comment": "今年のGWは規模を縮小してこれを出す事にしました。\r\n紅白にあの作品は今年は厳しいかな…\r\n\r\nタイトル通りしりとりしながら魔王把握します。\r\n多分30分もかからず終わると思います。\r\n自身のある人はせっかちモードにも挑戦してみて下さい。",
+        "modified": "1589059964497",
+        "game_url": [
+          "https://ux.getuploader.com/vipgw2020_game/download/64",
+          "https://ux.getuploader.com/vipgw2020_game/download/75",
+          "",
+          "",
+          ""
+        ]
+      },
+      "sourceSupplement": {
+        "icon": "icon_no02",
+        "ss": [
+          "ss_no02_1",
+          "",
+          "",
+          ""
+        ],
+        "forum": "https://jbbs.shitaraba.net/bbs/read.cgi/game/60946/1587424241/l1000",
+        "a_com": "探索のしがいがありそうなルールですね。<br><br><details><summary>プレイ後感想追記（クリックで開く）</summary><br>主にキャラクターの選出などが色々とカオスでした。<br>マップを探索しているうちに次の文字を忘れてしまうことが頻繁にあったので、メニューの称号や画面端に表示してあったら親切だったかなと思います。<br>発想はよかったけど狭い通路を歩き回る雑魚がつらい……。</details>"
+      },
+      "sourceIconUrl": "https://vipgw2020.tubakurame.com/img/icon_no02",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no02_1",
+          "local": "/screenshots/2020-gw/02-source-1.png",
+          "sha256": "64b004932409a6ce0d0eddaded2776aa088d25658520a88c97b1f22f6474ea61"
+        }
+      ],
+      "sourceDefaultIcon": false,
+      "sourceDefaultScreenshot": false,
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/vipgw2020_game/download/64",
+          "label": "DL1"
+        },
+        {
+          "url": "https://ux.getuploader.com/vipgw2020_game/download/75",
+          "label": "DL2"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-gw-work-03",
+      "no": "3",
+      "sourceMetadata": {
+        "gameid": 3,
+        "name_game": "コロコロコロナ",
+        "name_author": "クマックマ",
+        "genre": "射幸心",
+        "tool": "Steam2003",
+        "stream": "○/○",
+        "comment": "お金が増えたり減ったりするのを見て\r\nほくそ笑んでからゴミ箱に投げ捨てる100%運ゲーです\r\n\r\n収入支援で10万円配るっていっても\r\nそれって結局クレジット10万枚分じゃないですか\r\nそう考えるとあんま大した額じゃないですよね\r\n\r\n※容量が無駄にでかいのはRTP全部入りだからです",
+        "modified": "1588288807956",
+        "game_url": [
+          "https://ux.getuploader.com/vipgw2020_game_p6/download/17",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "sourceSupplement": {
+        "icon": "icon_no03",
+        "ss": [
+          "ss_no03_1",
+          "",
+          "",
+          ""
+        ],
+        "forum": "https://jbbs.shitaraba.net/bbs/read.cgi/game/60946/1587424261/l1000",
+        "a_com": "金銭感覚こわれる<br><br><details><summary>プレイ後感想追記（クリックで開く）</summary><br>安全な道なんてないじゃないかクソったれ！(列に岩3個)って状態だったのに続けてると案外安定して勝てるようになってくる不思議。<br>虹と3倍と1万までは出しましたが10R以降は厳しい感じですね。<br>運要素が非常に高いので結局どれを選んだってなるようになるだろう、と思いつつも考えながらプレイしてしまいます。<br>単純に所持金を増やすだけなら周回ボーナスが地味に美味しいですね。何もない所を通り抜けるのもあり。<br>あと謎にｳｺﾞｳｺﾞする岩にちょっと笑ってしまった。</details>"
+      },
+      "sourceIconUrl": "https://vipgw2020.tubakurame.com/img/icon_no03",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no03_1",
+          "local": "/screenshots/2020-gw/03-source-1.png",
+          "sha256": "35f08b20f2cb165d59987517205df78be37b0917d160fadff5a539b7c35f0760"
+        }
+      ],
+      "sourceDefaultIcon": false,
+      "sourceDefaultScreenshot": false,
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/vipgw2020_game_p6/download/17",
+          "label": "DL1"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-gw-work-04",
+      "no": "4",
+      "sourceMetadata": {
+        "gameid": 4,
+        "name_game": "家から出たくない",
+        "name_author": "鷹",
+        "genre": "家から出ない",
+        "tool": "2000",
+        "stream": "まる/まる",
+        "comment": "ワンルームは小さな宇宙。　\r\nその宇宙の中の星のお話。\r\n\r\nうそです。",
+        "modified": "1588206464341",
+        "game_url": [
+          "https://ux.getuploader.com/vipgw2020_game_p6/download/3",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "sourceSupplement": {
+        "icon": "icon_no04",
+        "ss": [
+          "ss_no04_1",
+          "",
+          "",
+          ""
+        ],
+        "forum": "https://jbbs.shitaraba.net/bbs/read.cgi/game/60946/1587424278/l1000",
+        "a_com": "家から出ずとも無限の宇宙は作れるじゃないか、そうこのツクールで<br><br><details><summary>プレイ後感想追記（クリックで開く）</summary><br>最初の時点でバーストⅠが家に押し入ってくるせいで感染爆発ってオチかと思ったら違った。<br>トイレはどこでするんだろうなぁと下賤なことを考えながらプレイしました。<br>ちなみにダメ人間になりたくない人はベッドを別の部屋に置くと良いです。</details>"
+      },
+      "sourceIconUrl": "https://vipgw2020.tubakurame.com/img/icon_no04",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no04_1",
+          "local": "/screenshots/2020-gw/04-source-1.png",
+          "sha256": "6c48607cdc94a62baf81e72888b60ccc8651e1f1280493c049aa36d85af748ed"
+        }
+      ],
+      "sourceDefaultIcon": false,
+      "sourceDefaultScreenshot": false,
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/vipgw2020_game_p6/download/3",
+          "label": "DL1"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-gw-work-05",
+      "no": "5",
+      "sourceMetadata": {
+        "gameid": 5,
+        "name_game": "デトックスラジオ　アンデッドナイ軍出張スペシャル",
+        "name_author": "黒糖まんじゅう",
+        "genre": "見るゲ",
+        "tool": "ＲＰＧツクール2000",
+        "stream": "自己責任で",
+        "comment": "スペシャルとなってますが時間とモチベがナイのでいつも以上にショボい内容です",
+        "modified": "1587416192151",
+        "game_url": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "sourceSupplement": {
+        "icon": "icon_no05",
+        "ss": [
+          "ss_no05_1",
+          "",
+          "",
+          ""
+        ],
+        "forum": "https://jbbs.shitaraba.net/bbs/read.cgi/game/60946/1587424307/l1000",
+        "a_com": "たのしい貧困"
+      },
+      "sourceIconUrl": "https://vipgw2020.tubakurame.com/img/icon_no05",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no05_1",
+          "local": "/screenshots/2020-gw/05-source-1.png",
+          "sha256": "98e62ce469af14bd1d630ecf73abb1f0215b707313559a18bb2d216bf0b21c5e"
+        }
+      ],
+      "sourceDefaultIcon": false,
+      "sourceDefaultScreenshot": false,
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-gw-work-06",
+      "no": "6",
+      "sourceMetadata": {
+        "gameid": 6,
+        "name_game": "もしもおためシングルだったら",
+        "name_author": "雨水梨",
+        "genre": "ノンフィールドRPG",
+        "tool": "VXAce",
+        "stream": "可/可",
+        "comment": "ホントは見るゲを作っていたけどどうしてもモチベが上がらなかったので急遽作り始めた試作。\r\nクリアだけなら１時間くらいでサクッと終われるくらいのボリュームを目指します。\r\n短めな分やりこみ要素とか入れられたらいいね。\r\n\r\n※遅刻します。04/30現在の完成度：本編の4割くらい\r\n\r\n※SSや作者コメントは更新するかも",
+        "modified": "1588361761152",
+        "game_url": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "sourceSupplement": {
+        "icon": "icon_no06",
+        "ss": [
+          "ss_no06_1",
+          "ss_no06_2",
+          "ss_no06_3",
+          "ss_no06_4"
+        ],
+        "forum": "https://jbbs.shitaraba.net/bbs/read.cgi/game/60946/1587424324/l1000",
+        "a_com": "体゛力゛が゛減゛っ゛た゛ら゛、お゛く゛す゛り゛で゛こ゛ま゛め゛に゛回゛復゛す゛る゛ん゛だ！゛！゛"
+      },
+      "sourceIconUrl": "https://vipgw2020.tubakurame.com/img/icon_no06",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no06_1",
+          "local": "/screenshots/2020-gw/06-source-1.png",
+          "sha256": "5949cff1774175e92a9d71489837a7cd45af9e9e9e4aaa5e9c85a98249ef357b"
+        },
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no06_2",
+          "local": "/screenshots/2020-gw/06-source-2.png",
+          "sha256": "f3ed1fdc4014274a6abc11b19af7f2f272150bd1aa56b0bb941084f90c93c0bd"
+        },
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no06_3",
+          "local": "/screenshots/2020-gw/06-source-3.png",
+          "sha256": "74dda43fd4a1656826e795b676146f62a3406e9131994fe202373b4834eb782a"
+        },
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no06_4",
+          "local": "/screenshots/2020-gw/06-source-4.png",
+          "sha256": "06251ca8bb5a5f21d6f83ce49175f3dda9a5f5873f40b3a238508aa9cdd893cf"
+        }
+      ],
+      "sourceDefaultIcon": false,
+      "sourceDefaultScreenshot": false,
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-gw-work-07",
+      "no": "7",
+      "sourceMetadata": {
+        "gameid": 7,
+        "name_game": "Monster's Streich",
+        "name_author": "89",
+        "genre": "RPG",
+        "tool": "2000",
+        "stream": "〇/〇",
+        "comment": "祭り初参加させて頂く。\r\n村長の依頼で魔物を討伐していくだけのRPG。\r\n\r\nサイドビュー自作戦闘でほぼストーリーなし。\r\nひたすら戦闘とダンジョン探索したい人向け。\r\n初見ラスボス撃破まで約5～7時間くらいです。",
+        "modified": "1589492521141",
+        "game_url": [
+          "https://ux.getuploader.com/vipgw2020_game/download/69",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "sourceSupplement": {
+        "icon": "icon_no07",
+        "ss": [
+          "ss_no07_1",
+          "ss_no07_2",
+          "",
+          ""
+        ],
+        "forum": "https://jbbs.shitaraba.net/bbs/read.cgi/game/60946/1587424346/l1000",
+        "a_com": "ストーリーがない分、戦闘と探索に集中できそうですね。<br><br><details><summary>プレイ後感想追記（クリックで開く）</summary><br>猫饅頭最後の一個見つからないんだけど！！！！！！！！！<br>戦闘バランスはかなり良好で、特にレベル16以降は全体攻撃技も覚えて快適に進められます。<br>バフを重ねて超威力の必殺技を叩き込む、という単純にして明快な面白さがありますね。必殺技を装填している時は防御できないというのも葛藤があって面白いシステムです。<br>その一方で、アイコンが重なっていて行動順がわかりづらかったり、スキル枠が少ないためかせっかくのディレイシステムに関わる技が少なかったのがやや残念でした。<br>マップは作り込みは良いのですが、曲がりくねっていて狭苦しい通路が多く踏破にややストレスがあるので、もう少し狭い通路・広い部屋を使い分けた緩急が欲しかったですね。<br>1マスや2マスの通路に敵が居座っていることが多く、戦闘の回避が非常に難しいのも少々問題に思いました。逃走の簡略化の側面を持つシンボルエンカウントを採用しているのに避けられない敵がいて、なのに逃走率は100%、とちょっとどっちつかずな部分があります。<br>また、マップの導線がはっきりしていないので「この先に宝箱があるな」「強敵がいそうだな」などの予測がつかず、若干進みづらさを感じました。<br>宝箱もあまり設置されているわけではないため、敵シンボルの隣をすり抜けて進むことに腐心してしまう設計は大変惜しいです。<br>しかしながら戦闘面に関しては、古き良きコマンド戦闘に必要十分に手が加えられ、確りとした戦略性を持ったものに仕上がっている良作でした。<br>ブライアン、お前ただの肉壁かと思ったらめちゃくちゃ優秀なバッファーじゃないか……。そしてデイジーいなくてよかった……。</details>"
+      },
+      "sourceIconUrl": "https://vipgw2020.tubakurame.com/img/icon_no07",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no07_1",
+          "local": "/screenshots/2020-gw/07-source-1.jpg",
+          "sha256": "aef58bb3ab52c27eafaf8a6285cbc72dc91dfb785323ca5da643656165bd97fe"
+        },
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no07_2",
+          "local": "/screenshots/2020-gw/07-source-2.jpg",
+          "sha256": "6fce74676595e205680fc65388851f72b3e72c8642ea170d56a69d3d89028133"
+        }
+      ],
+      "sourceDefaultIcon": false,
+      "sourceDefaultScreenshot": false,
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/vipgw2020_game/download/69",
+          "label": "DL1"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-gw-work-08",
+      "no": "8",
+      "sourceMetadata": {
+        "gameid": 8,
+        "name_game": "ゲーミングもしも",
+        "name_author": "彩光乱舞",
+        "genre": "ksg",
+        "tool": "2000",
+        "stream": "可/可",
+        "comment": "ゲーミングってなんだよ",
+        "modified": "1587478753205",
+        "game_url": [
+          "https://ux.getuploader.com/vipgw2020_game_p6/download/5",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "sourceSupplement": {
+        "icon": "icon_no08",
+        "ss": [
+          "ss_no08_1",
+          "",
+          "",
+          ""
+        ],
+        "forum": "https://jbbs.shitaraba.net/bbs/read.cgi/game/60946/1587509049/l1000",
+        "a_com": "アレックスは無敵状態のときは虹色に光るべき<br><br><details><summary>プレイ後感想追記（クリックで開く）</summary><br>なんで全員光ってるんだよ！！見づらいわ！！！<br>ビカビカ光るのではなくゆっくりと色が変わっていくのが絶妙なゲーミングの再現ですね。<br>でもゲーミングってなんだよ。</details>"
+      },
+      "sourceIconUrl": "https://vipgw2020.tubakurame.com/img/icon_no08",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no08_1",
+          "local": "/screenshots/2020-gw/08-source-1.png",
+          "sha256": "c7989ceefae383ddd45601ceaa4077734f1ba5c5356b9312b43626f02bc2ca2c"
+        }
+      ],
+      "sourceDefaultIcon": false,
+      "sourceDefaultScreenshot": false,
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/vipgw2020_game_p6/download/5",
+          "label": "DL1"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-gw-work-09",
+      "no": "9",
+      "sourceMetadata": {
+        "gameid": 9,
+        "name_game": "ずっと君と一緒にいたいから",
+        "name_author": "ぼじょ",
+        "genre": "ノベル",
+        "tool": "ツクール2000",
+        "stream": "〇/〇",
+        "comment": "30分くらいでさっくり終わるナイ軍の読むゲーをtkりました\r\nお気軽にどうぞ",
+        "modified": "1587493779536",
+        "game_url": [
+          "https://ux.getuploader.com/vipgw2020_game_p6/download/6",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "sourceSupplement": {
+        "icon": "",
+        "ss": [
+          "ss_no09_1",
+          "",
+          "",
+          ""
+        ],
+        "forum": "https://jbbs.shitaraba.net/bbs/read.cgi/game/60946/1587509079/l1000",
+        "a_com": "シリアスな読むゲーかな？これは期待<br><br><details><summary>プレイ後感想追記（クリックで開く）</summary><br>頼れる物が何もないとき、精神的な支柱がどこにあるのかに焦点を当てた話。<br>泣いたり折れたりしないだけではなく、慕ってくれる誰かがいるというのも強さの一つです。<br>それも他人の痛みを感じられるある種の弱さがあればこそのものですね。<br>で、借金は？</details>"
+      },
+      "sourceIconUrl": "https://vipgw2020.tubakurame.com/img/default_icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no09_1",
+          "local": "/screenshots/2020-gw/09-source-1.png",
+          "sha256": "2038d6307c2f69e31185ea379bc676a815615d01cbbb602fad3ef8f42f718786"
+        }
+      ],
+      "sourceDefaultIcon": true,
+      "sourceDefaultScreenshot": false,
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/vipgw2020_game_p6/download/6",
+          "label": "DL1"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-gw-work-10",
+      "no": "10",
+      "sourceMetadata": {
+        "gameid": 10,
+        "name_game": "ナビューと秘密な世界",
+        "name_author": "ろーぷれつくろ～",
+        "genre": "アイテム集めアドベンチャー",
+        "tool": "2000",
+        "stream": "ご自由に/どうぞ",
+        "comment": "誰も知らない？秘密な世界で落としてしまった大切な杖を探しに\r\nナビ妖精のナビューが初めての大冒険！\r\n４つ＋αのエリアでマジックピースやアイテムを集めて、\r\n杖を取り戻して元の世界に戻ろう！\r\nそして謎の少女が杖探しのカギを握る・・・！？\r\n\r\n※注意\r\n今回の舞台はもしも世界とは別の世界なので、\r\n色々なキャラのそっくりさんが大量に出現します（全員ではない）。",
+        "modified": "1589481569173",
+        "game_url": [
+          "https://ux.getuploader.com/vipgw2020_game/download/87",
+          "https://ux.getuploader.com/vipgw2020_game/download/88",
+          "",
+          "",
+          ""
+        ]
+      },
+      "sourceSupplement": {
+        "icon": "icon_no10",
+        "ss": [
+          "ss_no10_1",
+          "ss_no10_2",
+          "",
+          ""
+        ],
+        "forum": "https://jbbs.shitaraba.net/bbs/read.cgi/game/60946/1587509100/l1000",
+        "a_com": "自分で戦えるナビ妖精というのも乙なものですね<br><br><details><summary>プレイ後感想追記（クリックで開く）</summary><br>ひとまずピースを全て集めて一周クリア。<br>アイテムの隠し方が難しすぎず簡単すぎずでとても良かったです。<br>見落としがあっても難なくカバーできる親切設計もあり苦もなくクリアすることができました。<br>本来重要な立ち位置であるはずの絵本の主人公の子が割とぽっと出で、本作のストーリーのアクシデンタルな面を強調しているように感じます。<br>マップのコンセプトがしっかりしていてテンポよく進められる中、いきなり出てくる間のエリアで緩急を付けてきたのも面白い部分です。<br>チャートが作りやすい構成なのでRTA実績にも気軽にチャレンジできそうですね。</details>"
+      },
+      "sourceIconUrl": "https://vipgw2020.tubakurame.com/img/icon_no10",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no10_1",
+          "local": "/screenshots/2020-gw/10-source-1.png",
+          "sha256": "a1d8318813206959c02ff531d4c2e5f5bafc2d16015a27c0119a36680234d1fc"
+        },
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no10_2",
+          "local": "/screenshots/2020-gw/10-source-2.png",
+          "sha256": "fc4ad4e953385a28ef9cb8445127e8853b3bc180042347139f750e0afa38f8f9"
+        }
+      ],
+      "sourceDefaultIcon": false,
+      "sourceDefaultScreenshot": false,
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/vipgw2020_game/download/87",
+          "label": "DL1"
+        },
+        {
+          "url": "https://ux.getuploader.com/vipgw2020_game/download/88",
+          "label": "DL2"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-gw-work-11",
+      "no": "11",
+      "sourceMetadata": {
+        "gameid": 11,
+        "name_game": "ナス一家とココイチとエアカレー",
+        "name_author": "かに",
+        "genre": "見るゲ",
+        "tool": "2000",
+        "stream": "ドッチも可",
+        "comment": "2019紅白に間に合わなかったもののリベンジです。",
+        "modified": "1590958083497",
+        "game_url": [
+          "https://ux.getuploader.com/vipgw2020_game/download/115",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "sourceSupplement": {
+        "icon": "",
+        "ss": [
+          "ss_no11_1",
+          "",
+          "",
+          ""
+        ],
+        "forum": "https://jbbs.shitaraba.net/bbs/read.cgi/game/60946/1587509128/l1000",
+        "a_com": "内容がまったく予想できない……。<br><br><details><summary>プレイ後感想追記（クリックで開く）</summary><br>これはいいドタバタ。外食に行くだけなのになんでこんなメチャクチャになるのかわからんｗｗｗ<br>人外の家族喧嘩は一味違いますね。ショウじゃなきゃ完全に死んでいます。<br>エアカレーは勢いから出たでまかせかと思いきや本人も信じ込んでるのこわい。ちゃんとしたものを参考にせず間違った方向に努力してしまうことは誰にでもあることだと思いますが、ここまで地獄に向けて一直線に突っ走れるのはヤバすぎますね。鳥なのに視野がすごくせまそう。<br>魔ーミンは久しぶりに見ましたね……。割と好きなキャラなのにあまり使われなくてちょっと悲しいですが、見た目があれなので仕方ない。今回は憎めない良い悪役をやっていました。<br>そしてえまりーが街中でも普通に湧くの草。</details>"
+      },
+      "sourceIconUrl": "https://vipgw2020.tubakurame.com/img/default_icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no11_1",
+          "local": "/screenshots/2020-gw/11-source-1.png",
+          "sha256": "6d9ec8b7f2d5a6863db1475ed523b52b776189089bf750df52482a8942c60349"
+        }
+      ],
+      "sourceDefaultIcon": true,
+      "sourceDefaultScreenshot": false,
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/vipgw2020_game/download/115",
+          "label": "DL1"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-gw-work-12",
+      "no": "12",
+      "sourceMetadata": {
+        "gameid": 12,
+        "name_game": "saikoro",
+        "name_author": "ごごごRASH",
+        "genre": "ツール",
+        "tool": "Steam2003",
+        "stream": "〇/〇",
+        "comment": "目に名前つけて振るだけ\r\nゲームじゃないよ\r\n\r\nふりーむで2003製を新規で置いてくれなくなったからこっちに置くことにしたよ\r\n\r\nsteam2003RTPなくても動くし\r\nマウスだけでも操作できるよ",
+        "modified": "1589757050102",
+        "game_url": [
+          "https://ux.getuploader.com/vipgw2020_game/download/100",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "sourceSupplement": {
+        "icon": "icon_no12",
+        "ss": [
+          "ss_no12_1",
+          "",
+          "",
+          ""
+        ],
+        "forum": "https://jbbs.shitaraba.net/bbs/read.cgi/game/60946/1587570538/l1000",
+        "a_com": "ふりーむがそんな状況に……。<br><br><details><summary>プレイ後感想追記（クリックで開く）</summary><br>ダイスロールができるツール。スタイリッシュなビジュアルが目を惹きます。<br>出てくる目の頻度を均等にそろえようとするバランスモードが面白いです。<br>一方で一度に複数ダイスを振れなかったり、プロファイルをひとつしか保存できなかったり。キーが非常に滑りやすいのもちょっと残念。<br></summary>"
+      },
+      "sourceIconUrl": "https://vipgw2020.tubakurame.com/img/icon_no12",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no12_1",
+          "local": "/screenshots/2020-gw/12-source-1.jpg",
+          "sha256": "66264bac4881e2e37ad2cd023ca76c3821e089b53af5e8b30332cfa2a0598870"
+        }
+      ],
+      "sourceDefaultIcon": false,
+      "sourceDefaultScreenshot": false,
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/vipgw2020_game/download/100",
+          "label": "DL1"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-gw-work-13",
+      "no": "13",
+      "sourceMetadata": {
+        "gameid": 13,
+        "name_game": "ｌヮｌ",
+        "name_author": "ｌヮｌ",
+        "genre": "ｌヮｌ",
+        "tool": "ｌヮｌ× 2000",
+        "stream": "○ヮ○",
+        "comment": "ｌヮｌ",
+        "modified": "1588177243199",
+        "game_url": [
+          "https://ux.getuploader.com/vipgw2020_game_p6/download/10",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "sourceSupplement": {
+        "icon": "icon_no13",
+        "ss": [
+          "ss_no13_1",
+          "",
+          "",
+          ""
+        ],
+        "forum": "https://jbbs.shitaraba.net/bbs/read.cgi/game/60946/1587570569/l1000",
+        "a_com": "´ｌヮｌ`<br><br><details><summary>プレイ後感想追記（クリックで開く）</summary><br>タイトル画面がいちいちうるせぇ！ｗｗｗｗ<br>各話にReadmeが付いている（読まなくても支障はない）のが面白いです。<br>ドッペルゲンガーと話しても気が狂わない人っているんですね。<br>世界征服の話が一番面白かったです。寝る前さんによるWORLDさんの紹介がクソすぎて笑った。<br>頭が弱い二人の話をうまく舵きりする寝る前さんの手管には素で唸らせられました。流石は年長者。<br>ところでじいちゃんの（略）は9世代目なのでは……？</details>"
+      },
+      "sourceIconUrl": "https://vipgw2020.tubakurame.com/img/icon_no13",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no13_1",
+          "local": "/screenshots/2020-gw/13-source-1.gif",
+          "sha256": "68c72c7890810cb3d7e50fd625d9fa9059c658c6adcf1f10b462fd9932c94015"
+        }
+      ],
+      "sourceDefaultIcon": false,
+      "sourceDefaultScreenshot": false,
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/vipgw2020_game_p6/download/10",
+          "label": "DL1"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-gw-work-14",
+      "no": "14",
+      "sourceMetadata": {
+        "gameid": 14,
+        "name_game": "もしもアイテムがチョコしかなかったら",
+        "name_author": "（Ｒ）ＤＵ",
+        "genre": "見るゲ+デフォ戦やるゲ",
+        "tool": "2000",
+        "stream": "両方可",
+        "comment": "～あらすじ的な～\r\n\r\nここは魔王把握撮影用の島…\r\nもしもの力によって魔物が吹っ飛び\r\n魔王と勇者の肛門が引き裂かれる音がこだまする\r\nこの地も、今日は年に一度の\r\nチョコ立食パーティ会場となっていた。\r\n\r\n新作チョコを楽しみに来島してきた\r\nカップルや家族連れ…たくさんの見知った仲間達…\r\nそれぞれの思いが交差し\r\n島中に甘い空気が漂っていた…\r\n\r\nしかしパーティ開始１時間前、\r\n冒険家ザックはポテチ王様に呼び出される…。\r\n\r\n王様「儂のとっておきのチョコが盗まれた！\r\n　　　きっと魔王のイタズラじゃ！\r\n　　　取り返してきてくれ！」\r\n\r\n突然始まった魔王把握。\r\nザックは魔王と王様の気まぐれっぷりに\r\nやや呆れながらも把握し、\r\n魔王城へ向かうのであった…。\r\n\r\n今回はもしもの力もない！\r\n安全の為に武具及び危険物の持ち込みも禁止！\r\nこの島で頼れるのはチョコレートのみっ！\r\n\r\nザックはチョコを駆使して死線を乗り越え、\r\nとっておきのチョコを取り戻せるのか…！\r\n\r\n～終わり～\r\n\r\n\r\n\r\n\r\n～概要～\r\n最初はバレンタインをテーマにしたksgだったのに\r\nいろいろ話が膨らんでしまって\r\nいつの間にかそこそこのボリュームに\r\nなってしまった遅すぎるバレンタインゲーです。\r\n\r\nいろいろ混ぜ過ぎてよく分からないゲームに\r\nなってますがよろしくお願いします<(_ _)>",
+        "modified": "1589846081198",
+        "game_url": [
+          "https://ux.getuploader.com/vipgw2020_game_p6/download/16",
+          "https://ux.getuploader.com/vipgw2020_game/download/54",
+          "",
+          "",
+          ""
+        ]
+      },
+      "sourceSupplement": {
+        "icon": "icon_no14",
+        "ss": [
+          "ss_no14_1",
+          "ss_no14_2",
+          "",
+          ""
+        ],
+        "forum": "https://jbbs.shitaraba.net/bbs/read.cgi/game/60946/1587686350/l1000",
+        "a_com": "本当に遅すぎてワロタ<br><br><details><summary>プレイ後感想追記（クリックで開く）</summary><br>話しかけるべきキャラにアイコンが出ていて素早く見分けがつくため、さくさくと進められるところが良かったです。<br>意欲的なシステムを多数積んでいるのですが、戦闘周りは正直なところ調整不足感が否めません。<br>会話は何やら前提知識が要求されるので全体的に追いてけぼりにされたり、初見では健全ほのぼのといった雰囲気だったのに突然出てくるド下ネタにびっくりさせられたりと没入しづらさがありました。<br>短いながらに登場キャラがとても多く、お祭りゲー感はとても出ていたと思います。</details>"
+      },
+      "sourceIconUrl": "https://vipgw2020.tubakurame.com/img/icon_no14",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no14_1",
+          "local": "/screenshots/2020-gw/14-source-1.png",
+          "sha256": "32a6486b821ba87fccb184a775051cf1acc67a1df05f010fed5c84abcea64881"
+        },
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no14_2",
+          "local": "/screenshots/2020-gw/14-source-2.png",
+          "sha256": "d5e2aac4fa1f2f110dbdc5aa4f63d01e00cf66d97e96205cecd5c32133ea7589"
+        }
+      ],
+      "sourceDefaultIcon": false,
+      "sourceDefaultScreenshot": false,
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/vipgw2020_game_p6/download/16",
+          "label": "DL1"
+        },
+        {
+          "url": "https://ux.getuploader.com/vipgw2020_game/download/54",
+          "label": "DL2"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-gw-work-15",
+      "no": "15",
+      "sourceMetadata": {
+        "gameid": 15,
+        "name_game": "小さな世界の幸福奇譚",
+        "name_author": "ゲ製の民がVIPRPG作って祭りに突撃する企画",
+        "genre": "デフォ戦付き見るゲー",
+        "tool": "RPGツクールVX ACE",
+        "stream": "大歓迎です！",
+        "comment": "初めまして。普段はゲーム製作雑談スレでゲーム製作をしている者です。\r\nツクールに触るのも、こういった祭りに提出するのも初めてですので、至らない点がありましたら申し訳ございません。\r\n提出させていただくのは、製作途上の物です。\r\nどうか鼻くそでもほじりながら適当に遊んで下さい\r\n\r\n--2020/5/2日追記--\r\n「分割ダウンロードに不便を感じていらっしゃる方がいる」とのご指摘を受けましたので、\r\nサイト管理人様より、外部ストレージからのDLが出来る様に便宜を図っていただきました。\r\nDLは私個人のgoogleドライブからとなります。\r\n不具合等ありましたら報告お願いします。\r\n\r\n--2020/5/16日追記--\r\n三章まで出来ました。プレイ時間は二時間ぐらいです。\r\nどなたかテストプレイお願いします。\r\n\r\n--2020/5/22日追記--\r\n細かいミスを修正しました\r\n\r\n--2020/6/5日追記--\r\n細かいミスを修正しました",
+        "modified": "1591320615156",
+        "game_url": [
+          "https://drive.google.com/file/d/1CXPB0teC9Ttp74sckfdy6YyESk1LIuNB/view?usp=sharing",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "sourceSupplement": {
+        "icon": "icon_no15",
+        "ss": [
+          "ss_no15_1",
+          "ss_no15_2",
+          "ss_no15_3",
+          "ss_no15_4"
+        ],
+        "forum": "https://jbbs.shitaraba.net/bbs/read.cgi/game/60946/1587884025/l1000",
+        "a_com": "ようこそようこそ。SSから気合が入っているのが見て取れますね<br><br><details><summary>プレイ後感想追記（クリックで開く）</summary><br>とある箱庭世界の中と外を舞台とした見るゲ。まだ制作途中のようですが、これから話が大きく広がっていく雰囲気を感じます。<br>この世界の残酷な真実（ホモ本であること）を知って、登場人物たちがどんな反応を取るかこれから楽しみですね。<br>キャラクターの掛け合いが軽妙で、かつ個々の描写がしっかりとされており、各人物の立ち位置が掴みやすかったです。<br>ただし、含みのあるセリフの多さに対してUI面の洗練が足りていないため、やや伝わりづらい所が散見されました。立ち絵がちかちかと点滅したり、立ち絵でほとんど画面が塞がっているのにマップがスクロールしたり、と作り込みが若干甘かったかも。<br>ストーリーは非常に興味深いですが、過去の視点に頻繁に飛ぶために話の進みが遅く感じやすいかなと。広範のキャラを使ったことで勢力の説明が多くなり、話の流れが強引になっている印象も否めません。<br>はい説の設定を随所に挿入すると内輪っぽさが却って増してしまうため、劇中の描写でそれとなく説明した方がVIPRPGを知らない人には優しかったのではないかと思いますが、あくまでVIPRPGの外からVIPRPGを描くというコンセプトは大変面白いと感じました。<br>でも仮にも悪の組織の代表の前で「キャロルとデートするから抜けるぜ！」は流石にあんまりじゃないかな……。</details>"
+      },
+      "sourceIconUrl": "https://vipgw2020.tubakurame.com/img/icon_no15",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no15_1",
+          "local": "/screenshots/2020-gw/15-source-1.png",
+          "sha256": "072ef97ec9dc5aff818b4c67943277c0c2f587f9dc45c086f97d28357b52dc85"
+        },
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no15_2",
+          "local": "/screenshots/2020-gw/15-source-2.png",
+          "sha256": "8af86b586adb3f6ad0c4059961a6ba8f4d6350cd1f51a4a74b55fd5717c320a0"
+        },
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no15_3",
+          "local": "/screenshots/2020-gw/15-source-3.png",
+          "sha256": "0f0e77a3f146d724326641fdffa8c55689e8db9a222ccdcb71bc293343b32f59"
+        },
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no15_4",
+          "local": "/screenshots/2020-gw/15-source-4.png",
+          "sha256": "cee66bdee5c3a37a8fc547dd12eee3b7b10f2f9056d4dfae1cf8c36572fa190c"
+        }
+      ],
+      "sourceDefaultIcon": false,
+      "sourceDefaultScreenshot": false,
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1CXPB0teC9Ttp74sckfdy6YyESk1LIuNB/view?usp=sharing",
+          "label": "DL1"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-gw-work-16",
+      "no": "16",
+      "sourceMetadata": {
+        "gameid": 16,
+        "name_game": "大迷宮地獄",
+        "name_author": "Rossignol",
+        "genre": "縦横無尽スクロールパズル（混乱）アクションゲーム",
+        "tool": "steam2003",
+        "stream": "〇/〇",
+        "comment": "※ただし帰るまでが遠足です\r\n\r\nP.S.　実行ファイルは同梱のpass付きzipのなかにあるので\r\n\r\nP.P.S　RTPなくてもきっと動くはず",
+        "modified": "1588010873017",
+        "game_url": [
+          "https://ux.getuploader.com/vipgw2020_game_p6/download/15",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "sourceSupplement": {
+        "icon": "",
+        "ss": [
+          "ss_no16_1",
+          "ss_no16_2",
+          "",
+          ""
+        ],
+        "forum": "https://jbbs.shitaraba.net/bbs/read.cgi/game/60946/1587999881/l1000",
+        "a_com": "R.I.P. プレイヤー<br><br><details><summary>プレイ後感想追記（クリックで開く）</summary><br>前作は楽しめる拷問でしたが、これは苦行度が高すぎて面倒になってしまったので断念。<br>マップ移動した先に毎回棘が置いてあるのでとても疲労が溜まります。<br>考えたら何か新しい解法を発見できたり、段階的に複雑化していく操作の上達を楽しめたりとかそういうのはなく、ひたすら微妙に難しい暗算やらされてる感じ。<br>せめて視覚的な楽しみがもう少し欲しかったかなと思います。</details>"
+      },
+      "sourceIconUrl": "https://vipgw2020.tubakurame.com/img/default_icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no16_1",
+          "local": "/screenshots/2020-gw/16-source-1.png",
+          "sha256": "86ddad67b48cfdf75be90b5ab8e7fb804de322360841ccb158c65077ac9356fb"
+        },
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no16_2",
+          "local": "/screenshots/2020-gw/16-source-2.png",
+          "sha256": "33bc6977ec4ba3b512500697a7d6df06648e287abd728d184c5424ca5579d2fe"
+        }
+      ],
+      "sourceDefaultIcon": true,
+      "sourceDefaultScreenshot": false,
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/vipgw2020_game_p6/download/15",
+          "label": "DL1"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-gw-work-17",
+      "no": "17",
+      "sourceMetadata": {
+        "gameid": 17,
+        "name_game": "がんばる商売人たち（＋α）",
+        "name_author": "牧場の牛肉",
+        "genre": "短い物を色々",
+        "tool": "2000",
+        "stream": "○/○",
+        "comment": "・ドワ子、シャティ、ポショ子が主人公の短いデフォ戦\r\n・ちょっと変わったツクールテクばかり紹介する魔王把握\r\n・自作の顔グラとモングラを解説するコーナー\r\n\r\nの３つ仕立ての内容です。\r\n全体的に短いので軽めの気持ちでプレイしてください。\r\n\r\n【ver1.1（5/3に修正）】戦闘終了時に一部の技がリセットされないバグを修正",
+        "modified": "1588529940074",
+        "game_url": [
+          "https://ux.getuploader.com/vipgw2020_game/download/41",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "sourceSupplement": {
+        "icon": "icon_no17",
+        "ss": [
+          "ss_no17_1",
+          "",
+          "",
+          ""
+        ],
+        "forum": "https://jbbs.shitaraba.net/bbs/read.cgi/game/60946/1588104417/l1000",
+        "a_com": "このzipひとつでやるゲー、講座ゲー、素材ゲーが無料で遊べちまうんだ！<br><br><details><summary>プレイ後感想追記（クリックで開く）</summary><br>素材集はかわいい系からおぞましい系、アフロ短剣使い系までかなり幅が広いです。こちらに迫ってきてる感じの戦闘グラフィックはとても使いたくなりますね。<br>デフォ戦はノーマルでクリアしました。とても戦闘向きには見えないパーティがあの手この手で戦っている感じが良かったです。<br>攻撃を外したら次の攻撃が強化されるパッシブスキルは損な感じを軽減していてなるほどと思いましたが、あまりにも命中率が酷いので結局スレッジハンマーはほとんど使いませんでした……。リジェネも使わなかったけどハードでは出番があるのかな？<br>小ネタ集、というか小技集は実演式で大変分かりやすかったです。「作るのめんどくさかったら最低限の演出でもええんやで」という所までフォローしているのは親切すぎてちょっと笑った。</details>"
+      },
+      "sourceIconUrl": "https://vipgw2020.tubakurame.com/img/icon_no17",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no17_1",
+          "local": "/screenshots/2020-gw/17-source-1.png",
+          "sha256": "e9db7adc9af7e1b945072d691aa1e8e08604f5aec75f4fa5747ed55ae1d0b06d"
+        }
+      ],
+      "sourceDefaultIcon": false,
+      "sourceDefaultScreenshot": false,
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/vipgw2020_game/download/41",
+          "label": "DL1"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-gw-work-18",
+      "no": "18",
+      "sourceMetadata": {
+        "gameid": 18,
+        "name_game": "金×銀　新たなるもしも",
+        "name_author": "名無しについて",
+        "genre": "百合の新たな可能性を見出すエロゲ",
+        "tool": "2000",
+        "stream": "無理に決まってるやん",
+        "comment": "この作品は\r\n『女同士の貝合わせ』\r\n『ある種のファンタジー的な要素の\r\n受精、妊娠、出産』\r\nが含まれてます\r\n\r\n未成年、それらが苦手な方、及び\r\nゴメス、クレアス、セオドア、等\r\nホモ好きの方はお帰りください",
+        "modified": "1588336777975",
+        "game_url": [
+          "https://ux.getuploader.com/vipgw2020_game/download/24",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "sourceSupplement": {
+        "icon": "icon_no18",
+        "ss": [
+          "ss_no18_1",
+          "",
+          "",
+          ""
+        ],
+        "forum": "https://jbbs.shitaraba.net/bbs/read.cgi/game/60946/1588172672/l1000",
+        "a_com": "処女受胎を題材にした神聖なエロゲと見た<br><br><details><summary>プレイ後感想追記（クリックで開く）</summary><br>笑いすぎて頭がおかしくなるところでした。<br>性器同士がむにむに動いてお互いを取り込むのもヤバいし、2倍の母体で胎児の成長速度が10倍なのもヤバいです。原作者の方はM字開脚をキープし続けるのが辛いと思ったのか無理やり1/10の時間に縮めた感がある気がしますが、それでもなお出産までの一か月をM字開脚で向き合って過ごすのは恐らくかなり大変でしょうね。<br>ストーリーの量はほぼ無に等しく、正直言って原作の設定を使って投げやりにエロシーン作ってみた感が強いです。特に、女の子同士で膣融合しないと出られないプレハブが突然現れたあたりはもうちょっとフォローのしようがあったんじゃないかと思いました。<br>他にも臍の緒は二本あるのか途中から二股になっているのかとか、あの動くベッドを使ったとしても性器の結合部の上に尿道口があるのだから排尿は無理があるんじゃないかとか色々気になることは多かったのですが、やはり一番気になったのはCGの画質の低さです。どうかニアレストネイバー以外の補間法を使って縮小してください……。</details>"
+      },
+      "sourceIconUrl": "https://vipgw2020.tubakurame.com/img/icon_no18",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no18_1",
+          "local": "/screenshots/2020-gw/18-source-1.png",
+          "sha256": "f2395ddcec77e431d084d33ca1712cf262a9f5fa41219ce7c4e7e9e37c6842bc"
+        }
+      ],
+      "sourceDefaultIcon": false,
+      "sourceDefaultScreenshot": false,
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/vipgw2020_game/download/24",
+          "label": "DL1"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-gw-work-19",
+      "no": "19",
+      "sourceMetadata": {
+        "gameid": 19,
+        "name_game": "クソゲームガールわてりー",
+        "name_author": "kanetare",
+        "genre": "自作品コレクションゲー風探索ゲ",
+        "tool": "2000",
+        "stream": "readme.txt参照",
+        "comment": "自分がスレで投下してきたksg約20作品と、\r\n今作用に準備したksg約10作品を合わせて、\r\nまったくあたらしいコレクションゲーをtkりました。\r\n\r\nプレイ開始直後では数作品しか遊べず、\r\nksgを遊んだり、やりこんだりするとトロフィーが貰えて、\r\nその数や質に応じて、遊べる作品や行ける場所が増える方式です。\r\n（マリオ６４みたいな感じです。トロフィーは全部で１００種類あります。）\r\n\r\nksgの約９割は一発ネタやコピペ的な魔王把握ですが、\r\n中にはそこそこ遊べる短編探索ゲや見るゲ、ミニゲームもあります。\r\n\r\nタイトルはわてりですが、わてりが出ない作品も結構多いです。\r\nそれどころか時事ネタ、風刺ネタ等、苦手な人が多いテーマが混じるので、\r\n遊びづらいかもしれません。（好きな方には刺さるかもしれません。）\r\n\r\n（5/5　遅刻提出しました。）",
+        "modified": "1591828126398",
+        "game_url": [
+          "https://ux.getuploader.com/vipgw2020_game2/download/11",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "sourceSupplement": {
+        "icon": "icon_no19",
+        "ss": [
+          "ss_no19_1",
+          "ss_no19_2",
+          "",
+          ""
+        ],
+        "forum": "https://jbbs.shitaraba.net/bbs/read.cgi/game/60946/1588277292/l1000",
+        "a_com": "ksg詰め合わせにコレクター要素を付け加えるだけで俄然ゲーム性が増すように感じられますね<br><br><details><summary>プレイ後感想追記（クリックで開く）</summary><br>ギャラリーそのものを探索するというのはなかなか斬新。トロフィー屋はそれなりに利用させて頂きました。それでも140個台止まりですが……。<br>一番好きなｋｓｇは不死身のウィンディでした。ヒール先生のセリフと間違い電話が地味にツボってしまった。<br>FF7オマージュは力入ってるのか手抜きなのかわからなくて混乱しました。アルテマ連打。<br>探索アイテム集め系が多くて作者の好みがよくわかりますね。一つだけかと思ったら三つくらい入ってた。<br>マップを探索することに集中していると「け」が見つからないのほんま……。<br>ヴェクサシオンの隠し場所は単純ながら汚ねーぞ！となりました。エリック・サティとジョン・ケージはクソ（条件反射）<br>アクション系・自作システム系は正直どれも操作感が悪かったかも。キー入力周りがもっさりしていてスコアを伸ばすのが大変でした。先行入力とかあったらよかったかもしれませんね。<br>まさかのバックストーリーはえぐみのあるメタ要素でとても良かったです。実話じゃないと聞いてほっとしたような、少しがっかりしたような……。<br>ゲーム制作はなるべく楽しくやれたらいいなと思う反面、鬱屈した感情と退廃的な背景から生み出されるものもたまには在っていいかも、と不謹慎ながら考えてしまいました。</details>"
+      },
+      "sourceIconUrl": "https://vipgw2020.tubakurame.com/img/icon_no19",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no19_1",
+          "local": "/screenshots/2020-gw/19-source-1.png",
+          "sha256": "5bc12f0b7220cd70f52cd6fe99642a2d8a0fe279303795b24d7c0891a77cd712"
+        },
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no19_2",
+          "local": "/screenshots/2020-gw/19-source-2.png",
+          "sha256": "6c2fc54aa51f599971838f44755a63bf38ce16a23f4ece782a0543161e4a9a70"
+        }
+      ],
+      "sourceDefaultIcon": false,
+      "sourceDefaultScreenshot": false,
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/vipgw2020_game2/download/11",
+          "label": "DL1"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-gw-work-20",
+      "no": "20",
+      "sourceMetadata": {
+        "gameid": 20,
+        "name_game": "光芒を渡る。",
+        "name_author": "なんか。",
+        "genre": "ノンフィールドRPG",
+        "tool": "2000",
+        "stream": "自己責任",
+        "comment": "※現在最新版1.08\r\nＤＬ１：本体修正済み、最新です。\r\nＤＬ２：1.08パッチ。旧バージョンの方はDL2から落として当ててください\r\n\r\n◇あらすじ\r\n孤島にある地下蒸気都市から一組の男女が脱走した。\r\n二人は地上を目指し、化物や看守が蔓延る道を進む。\r\n\r\n◇nnkr\r\n・作者の悪癖が詰まった中編ノンフィールドデフォ戦RPG\r\n・4つのタイプの男女をそれぞれ選び、二人で脱走してください。\r\n・システムの習作なので短め&あっさり。推定プレイ時間は5時間ぐらい？\r\n・難易度高め。レべリングが好きだったり、アイテムばんばん使う人におすすめ。。推奨クリアレベルは30ぐらい。\r\n・ED数は4種類。トゥルーとノーマルはほぼ誤差レベルですが。\r\n\r\n◇体験版とはここがちがう！\r\n・キャラメイク後初期TP50追加！これで回復スキルをとればサポーターがいなくでも序盤が安定するぞ！\r\n・最初に手に入るセーブアイテムを二つずつに変更！安心してレアエネミー狩りに勤しもう！\r\n・レアエネミー撃破時、SSが読めるアイテムが追加！キミは全て見つけられるか！？\r\n・一部の詰むレベルの雑魚敵をナーフ、ボスの耐久を下げ火力をアップ！全体的にスピーディーに！\r\n・商人出現率を低下し宝箱の種類＆出現率アップ！\r\n・その他、TP入手率を全体的に向上！カスタマイズして君だけの主人公を作れ！！",
+        "modified": "1591739795530",
+        "game_url": [
+          "https://ux.getuploader.com/vipgw2020_game/download/122",
+          "https://ux.getuploader.com/vipgw2020_game2/download/10",
+          "",
+          "",
+          ""
+        ]
+      },
+      "sourceSupplement": {
+        "icon": "icon_no20",
+        "ss": [
+          "ss_no20_1",
+          "ss_no20_2",
+          "",
+          ""
+        ],
+        "forum": "https://jbbs.shitaraba.net/bbs/read.cgi/game/60946/1588277313/l1000",
+        "a_com": "完成待ってたやつ。退廃的な雰囲気が大変好みです<br><br><details><summary>プレイ後感想追記（クリックで開く）</summary><br>全エンド見てクリア。レベルは30くらいまで上げました。<br>エンド4は流石に反則過ぎて爆笑せざるを得なかった。ただ、若干作品の雰囲気を壊してしまったかなという感じはあります。救いと破滅が両立したエンド2が一番好みですね。<br>裏ボス関連以外は一貫した語りと、全体を通した救われなさ・重苦しさがとても良かったです。雪道ゲーの窮屈さ・閉塞感も作品のコンセプトとうまくかみ合っているように感じます。ラスボスがなんか小物っぽかった気がしましたが、まあ所詮は帝国の操り人形にして中間管理職だったというところでしょう（？）<br>戦闘バランスはラスボスが（裏ボスドロップの武器が強すぎたためか）やや弱かったように感じましたが、それ以外は演出の凄みも相まってとても緊張感があります。ちょっと属性関連が複雑だったのでReadmeを隣に開きながらプレイしました。もう少し属性は絞ってもよかったかもしれませんね。<br>女神転生の退廃的なテイストは私も好きです。三面ボスの男のあれみたいなえげつない行為がしれっと行われているのもすごくメガテンっぽい。<br>作品を通したメッセージとしてはやはり「つらくても決して諦めないこと」でしょうか。光芒、つまりか細い光の筋を懸命に捉え、闇の中を渡り歩いていく強さをいつだって持ちたいものです。至極残念なことに、進んだ先にある光によって照らされた真実は残酷だったりもするのですが、まあ、その時はその時ということでね（海に飛び込む）。<br>総じてしっかりとした一貫性を感じた良作でした。</details>"
+      },
+      "sourceIconUrl": "https://vipgw2020.tubakurame.com/img/icon_no20",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no20_1",
+          "local": "/screenshots/2020-gw/20-source-1.png",
+          "sha256": "3f6639dfeec9139a9011b26bb5bd05962a5a84ee46cc6a25aec4a59d2c4d551c"
+        },
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no20_2",
+          "local": "/screenshots/2020-gw/20-source-2.png",
+          "sha256": "266c5ea4ebf8a69060369b36e812630452c8ea44f1443c5f168685e1a1bcd4dd"
+        }
+      ],
+      "sourceDefaultIcon": false,
+      "sourceDefaultScreenshot": false,
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/vipgw2020_game/download/122",
+          "label": "DL1"
+        },
+        {
+          "url": "https://ux.getuploader.com/vipgw2020_game2/download/10",
+          "label": "DL2"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-gw-work-21",
+      "no": "21",
+      "sourceMetadata": {
+        "gameid": 21,
+        "name_game": "もしも王子が魔王把握したら",
+        "name_author": "KC.R",
+        "genre": "魔王把握",
+        "tool": "2000",
+        "stream": "〇/〇",
+        "comment": "王子様の父親の息子が魔王把握する魔王把握です。\r\nゴメスオチです。\r\n先に言っておけば安心だよね！！！！！！！！！！\r\n\r\nそういえば、GW祭には初めての参加ですね。\r\n",
+        "modified": "1589643993737",
+        "game_url": [
+          "https://ux.getuploader.com/vipgw2020_game/download/97",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "sourceSupplement": {
+        "icon": "icon_no21",
+        "ss": [
+          "ss_no21_1",
+          "",
+          "",
+          ""
+        ],
+        "forum": "https://jbbs.shitaraba.net/bbs/read.cgi/game/60946/1588277334/l1000",
+        "a_com": "半裸の鳥のお姉さんに給餌してもらえる場所はここですか<br><br><details><summary>プレイ後感想追記（クリックで開く）</summary><br>ほのぼのした魔王把握。ほのぼのだっつってんっだろ！（ゴメスから目を逸らしながら）<br>オブジェクトひとつひとつにコメントが入っているのは正直驚きました。マップの出来もよく手間が掛かっていることが伺えます。<br>全体的にゆるい雰囲気ですが、いつの間にか増殖してるおぱんつや滅びたエルフ族などほのぼので隠しきれないヤバさがにじみ出てて笑いを誘います。<br>インプのカップル（？）は背中を押してくっつけてあげるのかなと思いきや……。<br>ストレートに求婚したのに断られるハー妹で草。なんでやハー妹かわいいやろ！何もしないところとか！<br>それにしてもこのフィールドBGMは某ローグライクRPGを思い出してしまいますね……。</details>"
+      },
+      "sourceIconUrl": "https://vipgw2020.tubakurame.com/img/icon_no21",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no21_1",
+          "local": "/screenshots/2020-gw/21-source-1.png",
+          "sha256": "7d860d4dfb80aed22f6e2cb2b5587b6ec6a9daf95091f27822aa5edd76d64901"
+        }
+      ],
+      "sourceDefaultIcon": false,
+      "sourceDefaultScreenshot": false,
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/vipgw2020_game/download/97",
+          "label": "DL1"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-gw-work-22",
+      "no": "22",
+      "sourceMetadata": {
+        "gameid": 22,
+        "name_game": "未来の勇者と古の騎士",
+        "name_author": "桑田 \"Saint\" レイ",
+        "genre": "少年勇者が上位魔法を習得するまでの話",
+        "tool": "2000 VALUE!+",
+        "stream": "〇/〇",
+        "comment": "ちょっと真面目な見るゲ。\r\n\r\nぶっちゃけると自作素材を使いたかっただけなので、クオリティには期待しないで頂きたい！\r\n\r\n5/8追記:SS3のシーンは劇中には存在しません。ただの解説です。(念のため)",
+        "modified": "1588898240378",
+        "game_url": [
+          "https://ux.getuploader.com/vipgw2020_game/download/46",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "sourceSupplement": {
+        "icon": "icon_no22",
+        "ss": [
+          "ss_no22_1",
+          "ss_no22_2",
+          "ss_no22_3",
+          ""
+        ],
+        "forum": "https://jbbs.shitaraba.net/bbs/read.cgi/game/60946/1588363861/l1000",
+        "a_com": "馬ケツ<br><br><details><summary>プレイ後感想追記（クリックで開く）</summary><br>ロレックス超覚醒編。見るゲの途中で魔王把握が始まるのは面白かったです。<br>魔法具現化は使いようによってはかなりおいしい設定だなと思っているのですが、「実は過去の人物だった」はその最たるものだなと。<br>ただ、いきなりピンポイントな人物が具現化として発生するのはやや都合がいいというべきか、あるいは因果がアーケンに嫌がらせをしているというべきか……。いずれにせよ馬部分が分離してしまったのはちょっと残念でした（突然の個人的嗜好）<br>間合いを無視するテレポート斬り、剣技としては強くないわけがないんですが見た目は果てしなく地味ですね……。</details>"
+      },
+      "sourceIconUrl": "https://vipgw2020.tubakurame.com/img/icon_no22",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no22_1",
+          "local": "/screenshots/2020-gw/22-source-1.png",
+          "sha256": "bdc0e1db340b02aff851b38b8e896afdc1678c453d9b43e7498c5b5224533090"
+        },
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no22_2",
+          "local": "/screenshots/2020-gw/22-source-2.png",
+          "sha256": "96343cde8455dad7797186cad7b759a08dc7ef7b06701efbaf875c3fb50d5358"
+        },
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no22_3",
+          "local": "/screenshots/2020-gw/22-source-3.png",
+          "sha256": "4bedbf74492bbd86e314ff6de3feb11e5c315c282d0913ae14ee924578518ec8"
+        }
+      ],
+      "sourceDefaultIcon": false,
+      "sourceDefaultScreenshot": false,
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/vipgw2020_game/download/46",
+          "label": "DL1"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-gw-work-23",
+      "no": "23",
+      "sourceMetadata": {
+        "gameid": 23,
+        "name_game": "もしもフレーバーテキストだったら",
+        "name_author": "鳳天舞の陣－１",
+        "genre": "ksg",
+        "tool": "2000",
+        "stream": "2/2 ブロックされない",
+        "comment": "各キャラに何やらそれっぽいテキストが添えられているだけのksg。100+1文。\r\n\r\n\r\n※5/2 14時:DLパス設定について勘違いしていました\r\nアップロードし直したのでもうDLできます　失礼しました\r\n\r\n※5/12 22時:ヴァージョン1.1に更新、41文追加しました。\r\n最初のは数え間違いで109+1だったのでこれで150になります。多分もう更新はないです。",
+        "modified": "1589322942662",
+        "game_url": [
+          "https://ux.getuploader.com/vipgw2020_game/download/85",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "sourceSupplement": {
+        "icon": "",
+        "ss": [
+          "ss_no23_1",
+          "",
+          "",
+          ""
+        ],
+        "forum": "https://jbbs.shitaraba.net/bbs/read.cgi/game/60946/1588363906/l1000",
+        "a_com": "むしろフレーバーテキストを書きたいからやるゲ作るみたいなとこある<br><br><details><summary>プレイ後感想追記（クリックで開く）</summary><br>フレーバーテキストと一口に言っても台詞系・説明系・ポエム系と色々ありますね。<br>性質を言い表したものもいいですが、個人的にはバックストーリーを感じさせるものが好みです。短くて端的であればなおいい。<br>アーサーのテキストが一番好きでした。ツクールやってるとつくづく思いますが、物語は上手い形にして伝える人がいなければ始まりませんね。</details>"
+      },
+      "sourceIconUrl": "https://vipgw2020.tubakurame.com/img/default_icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no23_1",
+          "local": "/screenshots/2020-gw/23-source-1.png",
+          "sha256": "f3b2161a1d0c8d1e0b26ab50803d734d258bd7596afbe3d3ba9adddd1be4037d"
+        }
+      ],
+      "sourceDefaultIcon": true,
+      "sourceDefaultScreenshot": false,
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/vipgw2020_game/download/85",
+          "label": "DL1"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-gw-work-24",
+      "no": "24",
+      "sourceMetadata": {
+        "gameid": 24,
+        "name_game": "自作ツール\"magic-pot\"のご紹介",
+        "name_author": "lpre-ys",
+        "genre": "自作ツール / 紹介見るゲ",
+        "tool": "見るゲは2000",
+        "stream": "〇/×",
+        "comment": "自作ツールと、その紹介見るゲを予定しています。\r\n\r\n--- 5/24更新ここから ---\r\n\r\n見るゲの投下および\r\n予定していた、ツール本体の更新完了！\r\n\r\n--- ここまで ---\r\n\r\n◆このツールを利用して、万が一、何か、こー、データが飛んだとか、PCが爆発したとか、制作中のゲームがエタったとかしても、中の人は一切の責任を取りません。\r\n何年かずっと愛用しているツールなので、普通に使う分には普通に動くはず。きっと。おそらく。動いてくれ。\r\n◆開発系ツールが何も入っていないWindows10に対して、環境構築から試して動くところまで確認済みです。他人の環境でも多分動きます。\r\n動かない場合は一応調査してみるので教えてください。ただし、「俺にもわからん！すまん！」と投げる可能性は50%近くあります。\r\n◆あくまでも、自分用に作った小さなツールを、他人でも使えるように説明tkりました、レベルの物です。\r\n自分用に最適化しているので、使いづらい等あるかと思います。\r\nソースはGitHubに置いてあるので、変えたいところがあれば自分で改造して使ってください。\r\n◆その他\r\nコロナの影響で帰省は無くなったにしろ、別で色々と忙しいので、掲示板のチェックとかあんまりできないです。\r\n返事が遅くても許してね。\r\n",
+        "modified": "1590293882531",
+        "game_url": [
+          "https://ux.getuploader.com/vipgw2020_game/download/109",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "sourceSupplement": {
+        "icon": "",
+        "ss": [
+          "ss_no24_1",
+          "ss_no24_2",
+          "ss_no24_3",
+          "ss_no24_4"
+        ],
+        "forum": "https://jbbs.shitaraba.net/bbs/read.cgi/game/60946/1588462811/l1000",
+        "a_com": "nexeで実行ファイル化とかできないかな？ちなみにこのサイトもnode.jsで動いています。<br><br><details><summary>プレイ後感想追記（クリックで開く）</summary><br>ツクールでは大変な画像のインポートを楽にしてくれるツール。画像の透明色の指定だけでなく結合とか分割とかもできるみたいですね。<br>nodeやgitの環境構築は比較的楽な方とはいえ、未経験の人にはやはり大変なので詳しい説明があるのはありがたいです。ドット二つ重ねてしまうとかよくあるミスもカバーしててワロタ。<br>画像の透明色を全て統一するのは大変なので、(0, 0)の色を透明色に使う設定などもあればよかったかなと思いました。<br>大規模な制作を行おうとすると効率化のために何かと自作ツールを開発する必要に駆られてプログラミングをかじるのは正直あるあるですが、ゲームまるごとプログラムで書くよりはツクールで作った方が手間がかからないからギリギリ本末転倒ではないですよ！たぶん！</details>"
+      },
+      "sourceIconUrl": "https://vipgw2020.tubakurame.com/img/default_icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no24_1",
+          "local": "/screenshots/2020-gw/24-source-1.png",
+          "sha256": "49b4da1486efc0861c5f1c4c30e0e79ed3ae65d3842583b508fb175aa2729d05"
+        },
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no24_2",
+          "local": "/screenshots/2020-gw/24-source-2.png",
+          "sha256": "ad32ed4403bfa1385ff9ddbed30dfbcb5dc11a85f4b61cf29ff44bc87e9a1424"
+        },
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no24_3",
+          "local": "/screenshots/2020-gw/24-source-3.png",
+          "sha256": "ed7e616f84410e5354a56641c3a60225da782bc3b93cbda4330fff8e624074a3"
+        },
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no24_4",
+          "local": "/screenshots/2020-gw/24-source-4.png",
+          "sha256": "b64f35c75231152a71265a8c048a6a8d3ec8c14ad5975bf772ae109b34d4a737"
+        }
+      ],
+      "sourceDefaultIcon": true,
+      "sourceDefaultScreenshot": false,
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/vipgw2020_game/download/109",
+          "label": "DL1"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-gw-work-25",
+      "no": "25",
+      "sourceMetadata": {
+        "gameid": 25,
+        "name_game": "コロナアタック",
+        "name_author": "屋比久",
+        "genre": "ksg",
+        "tool": "2000",
+        "stream": "×",
+        "comment": "2時間で作ったksg",
+        "modified": "1588473285871",
+        "game_url": [
+          "https://ux.getuploader.com/vipgw2020_game/download/38",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "sourceSupplement": {
+        "icon": "",
+        "ss": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "forum": "https://jbbs.shitaraba.net/bbs/read.cgi/game/60946/1588462838/l1000",
+        "a_com": "死のコロナホモ、スペースゴメス<br><br><details><summary>プレイ後感想追記（クリックで開く）</summary><br>なんだこれｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ<br>あまりにもシュールすぎて変な笑いが止まらなくなりました。っていうかウィンディになってオナニーするやつ他のGW作品でも見たけど流行ってんの！？！？<br>マップのディテールが雑なのと繋がりがおかしいのが逆に悪夢感出てて良かったです。コロナでもただの風邪でも咳が出てるならマスクを付けて外出しよう！</details>"
+      },
+      "sourceIconUrl": "https://vipgw2020.tubakurame.com/img/default_icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/default_ss1.png",
+          "local": "/screenshots/2020-gw/25-source-1.png",
+          "sha256": "82c5a74346a7697f0d27f2b787899b3509462136efee4bea41118a61a9103847"
+        }
+      ],
+      "sourceDefaultIcon": true,
+      "sourceDefaultScreenshot": true,
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/vipgw2020_game/download/38",
+          "label": "DL1"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-gw-work-26",
+      "no": "26",
+      "sourceMetadata": {
+        "gameid": 26,
+        "name_game": "ゴメス「えっ…俺の子宮…悪いんですか…？」",
+        "name_author": "UNKO",
+        "genre": "ksg",
+        "tool": "2000",
+        "stream": "〇",
+        "comment": "医者「悪いなんてもんじゃないね 肛門がぐちゃぐちゃ」\r\n\r\nゴメス「そんな…」\r\n\r\n医者「君の身体の黒いとこ 全部腐ってるよ」\r\n\r\nゴメス「じゃ…じゃあ…俺は…」\r\n\r\n医者「全摘出ですね」\r\n\r\nゴメス「赤ちゃんは…」\r\n\r\n医者「あ？作れるわけねーだろ」\r\n\r\nゴメス「そ…そんなの嫌です…」\r\nｸﾞｽﾝ\r\n\r\n医者「じゃあキミ死ぬね」\r\n\r\nアレックス「ゴメス………」\r\n\r\nアレックス「命には代えられないよ…」\r\n\r\nゴメス「ンァァァァァァン！！」\r\nｷﾞｭｯ\r\n\r\nアレックス「先生…お願いします…」\r\n\r\n-手術終了\r\n\r\nゴメス「…」\r\n\r\nゴメス（本当になくなってしまった…）\r\nﾎﾟｯｺﾘ\r\n\r\nアレックス「ゴメス…」\r\n\r\nゴメス（ぐっ…うぅ…お腹の下が痛い…）\r\nﾌﾟﾙﾌﾟﾙ\r\n\r\n医者「はい これ 記念に持っててね」\r\n\r\nゴメス「こ…これは…？」\r\nﾍﾟﾗｯ\r\n\r\nゴメス「！！」\r\n\r\n医者「ゴメスさんの摘出した写真だよ」\r\n\r\nゴメス「～～～ッ！！！」\r\n\r\nアレックス「汚ねぇ～」\r\n\r\nゴメス「…」\r\n\r\nゴメス（女の人の一番大切な部分…）\r\n\r\nゴメス（なくなってしまった…）\r\nﾎﾟﾛｯﾎﾟﾛｯ…\r\n\r\n-城\r\n\r\nザック「やっぱり子供が産まれたらカッコイイ名前がいいよな！」\r\n\r\nアルベルト「あんまり奇抜すぎるのもな～」\r\n\r\nザック「男の子だったらサモン！女の子だったらダッツにしよう！」\r\n\r\nアルベルト「…！」\r\n\r\nアルベルト「おいザック…」\r\n\r\nザック「？」\r\n\r\nゴメス「…」\r\nｼﾞｯ\r\n\r\nザック「ご…ゴメス…す…すまん…悪気はなかったんだ…」\r\n\r\nブライアン「そうだよ」\r\n\r\nゴメス「わかってるよ…」\r\n\r\nアルベルト「でもさ！ほら あれだろ？うんこしないってことだろ？よかったじゃねぇか！」\r\n\r\nザック「うらやましいなぁ」\r\n\r\nゴメス「…」",
+        "modified": "1588727766244",
+        "game_url": [
+          "https://ux.getuploader.com/vipgw2020_game/download/55",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "sourceSupplement": {
+        "icon": "icon_no26",
+        "ss": [
+          "ss_no26_1",
+          "ss_no26_2",
+          "",
+          ""
+        ],
+        "forum": "https://jbbs.shitaraba.net/bbs/read.cgi/game/60946/1588612757/l1000",
+        "a_com": "あれごめ鬱SS<br><br><details><summary>プレイ後感想追記（クリックで開く）</summary><br>アレックスの能天気さ（オブラートに包んだ表現）がいちいちゴメスをえぐってて草。<br>ゴメス……お前……女……なのか……？いやでもゴメスって苗字だから名前はベアトリスとかカタリナとかかもしれないしな……（混乱）<br>女性器と肛門はこの世界では同じものなのかもしれません。総排泄孔か？</details>"
+      },
+      "sourceIconUrl": "https://vipgw2020.tubakurame.com/img/icon_no26",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no26_1",
+          "local": "/screenshots/2020-gw/26-source-1.jpg",
+          "sha256": "a0c349f8a7bd5bbe4b2da84ef79bb6bc2b2e0b7238f1477f1d3c9768b24122cf"
+        },
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no26_2",
+          "local": "/screenshots/2020-gw/26-source-2.jpg",
+          "sha256": "03da9abe4999b82c71cdb41f1180225003444446071e27ad277168db8f076f24"
+        }
+      ],
+      "sourceDefaultIcon": false,
+      "sourceDefaultScreenshot": false,
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/vipgw2020_game/download/55",
+          "label": "DL1"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-gw-work-27",
+      "no": "27",
+      "sourceMetadata": {
+        "gameid": 27,
+        "name_game": "私はあなたを",
+        "name_author": "Konzept",
+        "genre": "ksg",
+        "tool": "2000",
+        "stream": "恥ずかしいけどOK",
+        "comment": "自分の趣味を盛ったksgをtkりました。\r\n不穏な要素はあります。\r\n\r\n紅白ゲーはエターなりました。\r\n\r\n最新バージョン【1.04】",
+        "modified": "1589316312146",
+        "game_url": [
+          "https://ux.getuploader.com/vipgw2020_game/download/84",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "sourceSupplement": {
+        "icon": "icon_no27",
+        "ss": [
+          "ss_no27_1",
+          "",
+          "",
+          ""
+        ],
+        "forum": "https://jbbs.shitaraba.net/bbs/read.cgi/game/60946/1588866922/l1000",
+        "a_com": "SSから漂う穏やかな雰囲気。<br><br><details><summary>プレイ後感想追記（クリックで開く）</summary><br>ほぼ1マップだけのシンプルな探索ゲー。<br>ルート自体は非常に短いのですが、同じオブジェクトを何度も調べないと見つからないタイプのイベントを自力で見つけられた試しがないのでヒントをガン見することになりました。<br>医者が病気や怪我を治して人の命を救うのと、クローンで死者を復活させるのは何が違うのか。善と悪、エゴイズムとアルトゥルイズムの境界はどこにあるのか。ある種古典的ながら答えを出しにくい疑問が浮かびますが、突然のだくねくで全てが吹き飛びました。やめろォ！</details>"
+      },
+      "sourceIconUrl": "https://vipgw2020.tubakurame.com/img/icon_no27",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no27_1",
+          "local": "/screenshots/2020-gw/27-source-1.png",
+          "sha256": "280d11c0fac7622049a68201f037005b0134be50e6275dcdb471a0c38c09b820"
+        }
+      ],
+      "sourceDefaultIcon": false,
+      "sourceDefaultScreenshot": false,
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/vipgw2020_game/download/84",
+          "label": "DL1"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-gw-work-28",
+      "no": "28",
+      "sourceMetadata": {
+        "gameid": 28,
+        "name_game": "Leopard4",
+        "name_author": "HOT-W",
+        "genre": "RPG",
+        "tool": "2000(Vxace)",
+        "stream": "自己責任/自己責任",
+        "comment": "間に合う気がしねぇ\r\n場合によっちゃデモ版になるかも\r\nナイ様の代わりにお金を稼ぐデフォ戦ゲー\r\nダンジョンATTACKを繰り返して借金返済だ！\r\n\r\n-イカしたメンバーを紹介するぜ！-\r\nアンパン_ロール[タンク]:今回の最大の被害者\r\nブライアン_ロール[タンク]:兄としての威厳はない\r\nアーケン_ロール[タンク]：たたかうことがだいすき\r\nダーエロ_ロール[タンク]:外出自粛しない一般HENTAI\r\n\r\n",
+        "modified": "1588929406274",
+        "game_url": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "sourceSupplement": {
+        "icon": "icon_no28",
+        "ss": [
+          "ss_no28_1",
+          "ss_no28_2",
+          "",
+          ""
+        ],
+        "forum": "https://jbbs.shitaraba.net/bbs/read.cgi/game/60946/1588957858/l1000",
+        "a_com": "レオパルト1が4台でレオパルト4（タンク違い）"
+      },
+      "sourceIconUrl": "https://vipgw2020.tubakurame.com/img/icon_no28",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no28_1",
+          "local": "/screenshots/2020-gw/28-source-1.png",
+          "sha256": "7079b10ce77f264097e4a0ac55afa78e89aa5ee19f0fd24c4f0c1a804a34e544"
+        },
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no28_2",
+          "local": "/screenshots/2020-gw/28-source-2.png",
+          "sha256": "991a8f35104e7c37c16937e69072d6234edf5cc83fc571696a4275b0fda9e521"
+        }
+      ],
+      "sourceDefaultIcon": false,
+      "sourceDefaultScreenshot": false,
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-gw-work-29",
+      "no": "29",
+      "sourceMetadata": {
+        "gameid": 29,
+        "name_game": "こんなゲーム探してます",
+        "name_author": "クレクレ厨",
+        "genre": "フリゲうろ覚え再現",
+        "tool": "2000",
+        "stream": "〇/〇",
+        "comment": "タイトル通り、作者が個人的に探しているゲームのうろ覚え再現ゲーです。\r\n\r\n15年位前のツクール2000製(多分)のフリゲなんですが、タイトルすら記憶になく、掲示板で質問などしましたが発見は絶望的。\r\n一旦は諦めたのですが最近又気になりだしたので、ツクールを買って再現し、それをもとに情報提供をお願いしようと考えました。\r\n\r\n不純な動機で参加させて頂き申し訳ないのですが、お心当たりのある方いらっしゃいましたら僅かな情報でもいいのでお知らせ願えませんでしょうか。",
+        "modified": "1590258501451",
+        "game_url": [
+          "https://ux.getuploader.com/vipgw2020_game/download/107",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "sourceSupplement": {
+        "icon": "",
+        "ss": [
+          "ss_no29_1",
+          "ss_no29_2",
+          "",
+          ""
+        ],
+        "forum": "https://jbbs.shitaraba.net/bbs/read.cgi/game/60946/1589147022/l1000",
+        "a_com": "なるほど、こういうツクールの使い方もあるんですね。<br><br><details><summary>プレイ後感想追記（クリックで開く）</summary><br>ツクールでコンシューマの再現はよくありますが、過去のツクールゲーの再現というのはかなり珍しいですね。<br>エントリー後すぐに管理人もざっとVectorの2000ゲーを全て洗ってみたのですが、部分的に当てはまるゲームはちらほらあったものの挙げられている特徴全てに当てはまるゲームは残念ながら見つかりませんでした。マイナーなフリゲは本当に見つからないですよね……。<br>ボスが意外と強くてワロタ。再現ゲーだし負けても進むだろうと軽い気持ちで戦ってみたら両方のボスに一回ずつ負けてゲームオーバーになる羽目になりました。<br>クローンの王女を敵組織に送り込むのは面白いストーリーですね。その手があったか！と思ったけど冷静に考えてみると手段としては割とガバ。</details>"
+      },
+      "sourceIconUrl": "https://vipgw2020.tubakurame.com/img/default_icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no29_1",
+          "local": "/screenshots/2020-gw/29-source-1.png",
+          "sha256": "ef532b4331fdfff5c734d2cd3a9df6cf7d8136fc74833b59c66ee650c837fd60"
+        },
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no29_2",
+          "local": "/screenshots/2020-gw/29-source-2.png",
+          "sha256": "a5d4260daf2987ec3aae90a6b0aa6c9a0aee692e59754041e8728568ba72d961"
+        }
+      ],
+      "sourceDefaultIcon": true,
+      "sourceDefaultScreenshot": false,
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/vipgw2020_game/download/107",
+          "label": "DL1"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-gw-work-30",
+      "no": "30",
+      "sourceMetadata": {
+        "gameid": 30,
+        "name_game": "五等分のライチ",
+        "name_author": "びんぜん",
+        "genre": "ｋｓｇ",
+        "tool": "2003",
+        "stream": "X/×",
+        "comment": "記念受験程度のksgです。",
+        "modified": "1589218751531",
+        "game_url": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "sourceSupplement": {
+        "icon": "icon_no30",
+        "ss": [
+          "ss_no30_1",
+          "",
+          "",
+          ""
+        ],
+        "forum": "https://jbbs.shitaraba.net/bbs/read.cgi/game/60946/1589211962/l1000",
+        "a_com": "善意の第三者・購入代行サービスと言い換えてもなお十分に胡散臭い。"
+      },
+      "sourceIconUrl": "https://vipgw2020.tubakurame.com/img/icon_no30",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no30_1",
+          "local": "/screenshots/2020-gw/30-source-1.png",
+          "sha256": "2c0a6aa507cdf54fe183aea0a44d76ec75504efe4b9944dde2abe8c665505f49"
+        }
+      ],
+      "sourceDefaultIcon": false,
+      "sourceDefaultScreenshot": false,
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-gw-work-31",
+      "no": "31",
+      "sourceMetadata": {
+        "gameid": 31,
+        "name_game": "アストは静かに暮らしたい",
+        "name_author": "フィールMX",
+        "genre": "デフォ戦王道RPG",
+        "tool": "MV",
+        "stream": "〇/〇",
+        "comment": "祭り初参加。\r\n30分～1時間程で遊べるデフォ戦王道RPG。\r\n主人公のアストが一人暮らしライフを満喫するために四苦八苦するゲームです。\r\n5つの難易度が選べるので、好きな難易度でどうぞ。",
+        "modified": "1589275378067",
+        "game_url": [
+          "https://1drv.ms/u/s!Aij9taHQctcuhE15owZG4-QHdI-o?e=XDFUuy",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "sourceSupplement": {
+        "icon": "icon_no31",
+        "ss": [
+          "ss_no31_1",
+          "ss_no31_2",
+          "ss_no31_3",
+          "ss_no31_4"
+        ],
+        "forum": "https://jbbs.shitaraba.net/bbs/read.cgi/game/60946/1589211992/l1000",
+        "a_com": "静かに暮らしたい系主人公が増えている昨今<br><br><details><summary>プレイ後感想追記（クリックで開く）</summary><br>シンプルで親切なデフォ戦ゲー。主人公もシンプルに迷惑被っててかわいそう。<br>裏ボス含めノーマルでクリア。ボスに弱点クリティカルが入って1ターンで死んで唖然とすることもありましたが、ハード以降は（裏ボスが）なかなかきつい難易度のようです。ブラックホール連射しないで！<br>助けに応じてくれる三人いいやつだな～って一瞬思いかけたけど騙されないですからね。</details>"
+      },
+      "sourceIconUrl": "https://vipgw2020.tubakurame.com/img/icon_no31",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no31_1",
+          "local": "/screenshots/2020-gw/31-source-1.png",
+          "sha256": "74add52a5e6fb23dc231c18bac0ec1c60a735287850b9bfb7c31a2eba6a7928b"
+        },
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no31_2",
+          "local": "/screenshots/2020-gw/31-source-2.png",
+          "sha256": "664f3c5ccc6eb768b5c1c1a1e97ce495a66e487e997a4a531190eba42c543ca7"
+        },
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no31_3",
+          "local": "/screenshots/2020-gw/31-source-3.png",
+          "sha256": "12e1ba9e1f9287a270d3fbfe180b25fdbe76df2d2ec20bc5f96ae5f027f4dcc1"
+        },
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no31_4",
+          "local": "/screenshots/2020-gw/31-source-4.png",
+          "sha256": "d2f28489bc0313dde1f7d05e0e26c41b958a4ef11328077188d2f5723672cf23"
+        }
+      ],
+      "sourceDefaultIcon": false,
+      "sourceDefaultScreenshot": false,
+      "downloadLinks": [
+        {
+          "url": "https://1drv.ms/u/s!Aij9taHQctcuhE15owZG4-QHdI-o?e=XDFUuy",
+          "label": "DL1"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-gw-work-32",
+      "no": "32",
+      "sourceMetadata": {
+        "gameid": 32,
+        "name_game": "アナザー魔法具現化バスターズOPとか",
+        "name_author": "イカスミ",
+        "genre": "ただの見るげー",
+        "tool": "RPGツクール2000",
+        "stream": "有り得ないと思うけど一応両方可",
+        "comment": "2019夏の陣ででたアナバスの制作途中報告的なものです。\r\n・ノンクレジットOP\r\n・アナバスについて軽い説明\r\n・とりあえず数話すっ飛ばしてtkってみた第七話の冒頭シーン\r\nを収録してます。\r\n前作より更に狭小な内容ですが少しでも楽しんで頂けたら嬉しいです。\r\n\r\n（※あなたが露出狂ウィンディでなければある場所でテストプレイのすり抜けを絶対に悪用しないでください。）",
+        "modified": "1589660328933",
+        "game_url": [
+          "https://ux.getuploader.com/vipgw2020_game/download/98",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "sourceSupplement": {
+        "icon": "icon_no32",
+        "ss": [
+          "ss_no32_1",
+          "ss_no32_2",
+          "ss_no32_3",
+          "ss_no32_4"
+        ],
+        "forum": "https://jbbs.shitaraba.net/bbs/read.cgi/game/60946/1589483103/l1000",
+        "a_com": "ズル過ぎて100%その場ですり抜けてしまいます（広告）<br><br><details><summary>プレイ後感想追記（クリックで開く）</summary><br>予告映像的な何か。登場キャラがかなり多いようでシナリオはなかなか複雑そうです。<br>元となった具現化でしか倒せないって強すぎない？いったいその力はどこから来ているのか……。<br>銭湯でのシームレスな着替えに感心。異国でも構わず露出するウィンディさん最低ですよ！</details>"
+      },
+      "sourceIconUrl": "https://vipgw2020.tubakurame.com/img/icon_no32",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no32_1",
+          "local": "/screenshots/2020-gw/32-source-1.png",
+          "sha256": "34478a0a36e0adb3a0507286ebd1a788aed6f6a3f3b850a46a2cea3e17e03405"
+        },
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no32_2",
+          "local": "/screenshots/2020-gw/32-source-2.png",
+          "sha256": "00f1befd5ff5146456f88866f206ccc8eea40ad9e29f115fd3ef39ce09d7c988"
+        },
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no32_3",
+          "local": "/screenshots/2020-gw/32-source-3.png",
+          "sha256": "f8d9da6421fa4f8c2c45c0c686f32b59ef83f50a9f1f60a270191d5d93a5dd39"
+        },
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no32_4",
+          "local": "/screenshots/2020-gw/32-source-4.png",
+          "sha256": "f47800d4d03f24c5f7dff1d4b7f3dada2bc5966bbd7ecacf60346a6b99a27986"
+        }
+      ],
+      "sourceDefaultIcon": false,
+      "sourceDefaultScreenshot": false,
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/vipgw2020_game/download/98",
+          "label": "DL1"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-gw-work-33",
+      "no": "33",
+      "sourceMetadata": {
+        "gameid": 33,
+        "name_game": "高揚の風1stあにばーさりー",
+        "name_author": "高揚の風 ／ にしぇ",
+        "genre": "まとめゲー",
+        "tool": "2000/s2003/XVAce",
+        "stream": "いいけどするものでも無いと思う",
+        "comment": "VIPRPGにハマって早一年。正確にはそれと数ヶ月ですが((\r\n高揚の風と名義して作ってきた数々の作品を自ロダゲー、スレゲー構わず全部纏めちゃいます。\r\n\r\nやったことあること、やったことねぇよというもの、これお前のかよというものを楽しんでいただければいいなぁと思ってますね・・・うん・・・\r\n\r\nどうしよう、書きたいコメントあんまり無((((((\r\n\r\n\r\n暴走族はともかく移植ゲーとかやったことないので不具合とかありましたらバンバン報告ください。順次修正します。\r\n\r\n本体容量が思った以上に大きかったのでs2003/VXAceゲーは別途DLをお願いします",
+        "modified": "1589580226161",
+        "game_url": [
+          "https://ux.getuploader.com/vipgw2020_game/download/92",
+          "https://ux.getuploader.com/vipgw2020_game/download/91",
+          "",
+          "",
+          ""
+        ]
+      },
+      "sourceSupplement": {
+        "icon": "icon_no33",
+        "ss": [
+          "ss_no33_1",
+          "ss_no33_2",
+          "",
+          ""
+        ],
+        "forum": "https://jbbs.shitaraba.net/bbs/read.cgi/game/60946/1589483133/l1000",
+        "a_com": "ここのコメントもいつも考えて書いてはいるけど実はあんまり書くことが無(((((((<br><br><details><summary>プレイ後感想追記（クリックで開く）</summary><br>いわゆるｋｓｇコレクションですね。ウィンディとウェンディは同じ顔グラで喋らないで！<br>ダイスじゃんけん、結局数字を比べるだけだからファンブルとかクリティカルとか全く意味なくて草……。<br>改行の位置が中途半端なのが気になりました。</details>"
+      },
+      "sourceIconUrl": "https://vipgw2020.tubakurame.com/img/icon_no33",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no33_1",
+          "local": "/screenshots/2020-gw/33-source-1.png",
+          "sha256": "78fbffa9ad90cae9f439aadfe9b4185c727d9d82a674652507edf3518e9eee59"
+        },
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no33_2",
+          "local": "/screenshots/2020-gw/33-source-2.png",
+          "sha256": "8bf3c802972a4b91915209a16abc7160b14d24789ea0d4c5bdc74a8b6d4455f2"
+        }
+      ],
+      "sourceDefaultIcon": false,
+      "sourceDefaultScreenshot": false,
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/vipgw2020_game/download/92",
+          "label": "DL1"
+        },
+        {
+          "url": "https://ux.getuploader.com/vipgw2020_game/download/91",
+          "label": "DL2"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-gw-work-34",
+      "no": "34",
+      "sourceMetadata": {
+        "gameid": 34,
+        "name_game": "死ぬほどでかいカエルとドラゴンの女の子の物語",
+        "name_author": "Cringe assburger :-DDD",
+        "genre": "ksg",
+        "tool": "2003S",
+        "stream": "好きにしろ",
+        "comment": "せっかくなのでエントリーします",
+        "modified": "1589482919752",
+        "game_url": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "sourceSupplement": {
+        "icon": "",
+        "ss": [
+          "ss_no34_1",
+          "ss_no34_2",
+          "",
+          ""
+        ],
+        "forum": "https://jbbs.shitaraba.net/bbs/read.cgi/game/60946/1589483186/l1000",
+        "a_com": "<3"
+      },
+      "sourceIconUrl": "https://vipgw2020.tubakurame.com/img/default_icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no34_1",
+          "local": "/screenshots/2020-gw/34-source-1.jpg",
+          "sha256": "bd7749b568475766fd126d8aec07746d927ed71247e96a62c55c8493a52de68b"
+        },
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no34_2",
+          "local": "/screenshots/2020-gw/34-source-2.png",
+          "sha256": "af06cf917a10fe9bac0bdf8d1a31565899ecff36bcb4fcc80b16bf11ec65f51e"
+        }
+      ],
+      "sourceDefaultIcon": true,
+      "sourceDefaultScreenshot": false,
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-gw-work-35",
+      "no": "35",
+      "sourceMetadata": {
+        "gameid": 35,
+        "name_game": "参考にならない戦闘アニメ集",
+        "name_author": "TRICOGASTER",
+        "genre": "見るゲー",
+        "tool": "2003",
+        "stream": "△/×",
+        "comment": "名前の無い物語…\r\n\r\nこんな悲しい戦闘アニメ集があったっていい…\r\n\r\n\r\n\r\n＞戦闘アニメの解説と利用\r\n作者が自己満足でツクっているゲーム用に作った戦闘アニメの一部です。\r\nサイドビュー(2003デフォ戦)用に合わせているので、\r\n2000では使い難いと思います。\r\n\r\n利用の際は、各素材提供者さまの素材が混在していますので、ご注意を。\r\nご利用は計画的にっ\r\n\r\n\r\n＞配信について\r\nいないと思うけど、自分のホームページ等であれば配信、可。\r\nアップローダー等の不特定なとこは、不可。\r\n動画での配信はＮＧとさせて頂きます。\r\n\r\nレビューは暴言・中傷目的でない限りはご自由に。\r\n\r\n",
+        "modified": "1591380309479",
+        "game_url": [
+          "https://ux.getuploader.com/vipgw2020_game/download/120",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "sourceSupplement": {
+        "icon": "icon_no35",
+        "ss": [
+          "ss_no35_1",
+          "",
+          "",
+          ""
+        ],
+        "forum": "https://jbbs.shitaraba.net/bbs/read.cgi/game/60946/1589560491/l1000",
+        "a_com": "戦闘アニメは作るの面倒なのでこういう素材集はありがたいですね<br><br><details><summary>プレイ後感想追記（クリックで開く）</summary><br>膨大な量の戦闘アニメ集。乱れ雪月花がある……。<br>確かに2000のようなフロントビューで使う場合にはエフェクトが小さすぎて使いづらそうですが、サイドビューのゲームを作るなら心強い味方ですね。<br>戦闘アニメの作り方の丁寧な説明もついています。<br>オープニングの会話がちょっと長くて草。</details>"
+      },
+      "sourceIconUrl": "https://vipgw2020.tubakurame.com/img/icon_no35",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no35_1",
+          "local": "/screenshots/2020-gw/35-source-1.png",
+          "sha256": "17fe1f50fd38abc6a1b80ad19e7e6f186a3308eb10b0a3d516fde2be695bc288"
+        }
+      ],
+      "sourceDefaultIcon": false,
+      "sourceDefaultScreenshot": false,
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/vipgw2020_game/download/120",
+          "label": "DL1"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-gw-work-36",
+      "no": "36",
+      "sourceMetadata": {
+        "gameid": 36,
+        "name_game": "ウロボロスヘビゲーム",
+        "name_author": "脳内住民",
+        "genre": "クソゲー",
+        "tool": "2000",
+        "stream": "よかろう、やってみろ",
+        "comment": "ヘビゲームの常識を投げ捨てろ",
+        "modified": "1589769044183",
+        "game_url": [
+          "https://ux.getuploader.com/vipgw2020_game/download/103",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "sourceSupplement": {
+        "icon": "",
+        "ss": [
+          "ss_no36_1",
+          "",
+          "",
+          ""
+        ],
+        "forum": "https://jbbs.shitaraba.net/bbs/read.cgi/game/60946/1589560507/l1000",
+        "a_com": "tanasinn...<br><br><details><summary>プレイ後感想追記（クリックで開く）</summary><br>ヘビゲームと聞いて最初ピンと来ませんでしたがプレイしてみたらなるほど、これは懐かしい……。インベーダーも合わせて懐かしさで殴ってくる……。<br>普通にヘビゲームしてたのは最初だけで後は避けゲー。ループ画面にする発想が面白いです。<br>ボタンおしっぱで常に加速出来たらよかったなと思います（後半は要らなくなりますが）。</details>"
+      },
+      "sourceIconUrl": "https://vipgw2020.tubakurame.com/img/default_icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no36_1",
+          "local": "/screenshots/2020-gw/36-source-1.png",
+          "sha256": "443b7d270c73cb7f9a4f180a7dbc92b5e7bb2ed270007c2b559671722294a65b"
+        }
+      ],
+      "sourceDefaultIcon": true,
+      "sourceDefaultScreenshot": false,
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/vipgw2020_game/download/103",
+          "label": "DL1"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-gw-work-37",
+      "no": "37",
+      "sourceMetadata": {
+        "gameid": 37,
+        "name_game": "うすあじデフォ戦",
+        "name_author": "よそもの",
+        "genre": "掌編ＲＰＧ？",
+        "tool": "ＲＰＧツクール２０００",
+        "stream": "○",
+        "comment": "エターなりそうだけど\r\n制作はしているので記念にエントリーしました",
+        "modified": "1589579382748",
+        "game_url": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "sourceSupplement": {
+        "icon": "",
+        "ss": [
+          "ss_no37_1",
+          "",
+          "",
+          ""
+        ],
+        "forum": "https://jbbs.shitaraba.net/bbs/read.cgi/game/60946/1589560537/l1000",
+        "a_com": "がんばって！"
+      },
+      "sourceIconUrl": "https://vipgw2020.tubakurame.com/img/default_icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no37_1",
+          "local": "/screenshots/2020-gw/37-source-1.png",
+          "sha256": "a3ad0756a16474e9b6ff0317e96aaabb225b46f7d234384f7c4ec031ecfc20d6"
+        }
+      ],
+      "sourceDefaultIcon": true,
+      "sourceDefaultScreenshot": false,
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-gw-work-38",
+      "no": "38",
+      "sourceMetadata": {
+        "gameid": 38,
+        "name_game": "ルの実験室 クレーンゲーム",
+        "name_author": "ルズ",
+        "genre": "ミニゲーム",
+        "tool": "2000",
+        "stream": "◇／◇",
+        "comment": "ひたすらクレーンでぬいぐるみを獲得していくゲームです。",
+        "modified": "1591732961870",
+        "game_url": [
+          "https://ux.getuploader.com/vipgw2020_game/download/121",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "sourceSupplement": {
+        "icon": "icon_no38",
+        "ss": [
+          "ss_no38_1",
+          "",
+          "",
+          ""
+        ],
+        "forum": "https://jbbs.shitaraba.net/bbs/read.cgi/game/60946/1589560559/l1000",
+        "a_com": "Nintendo Switchも入れておいて<br><br><details><summary>プレイ後感想追記（クリックで開く）</summary><br>約170種類のキャラクターのぬいぐるみが用意されているユーフォ―キャッチャー。この時点で凄いです。<br>たぶん160超は取りましたが、種類が多すぎてどれを取り逃しているのかわからないのでひとまずクリアということに。<br>持ち上げるとRTPのホコグラみたいになるドラゴナスが好きです。アイスニードールはちょっと名前で笑った。</details>"
+      },
+      "sourceIconUrl": "https://vipgw2020.tubakurame.com/img/icon_no38",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no38_1",
+          "local": "/screenshots/2020-gw/38-source-1.png",
+          "sha256": "1e306f81a790a5d876d993a32650e0df9fb0373eecd47f25d583efcc6d9fd5da"
+        }
+      ],
+      "sourceDefaultIcon": false,
+      "sourceDefaultScreenshot": false,
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/vipgw2020_game/download/121",
+          "label": "DL1"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-gw-work-39",
+      "no": "39",
+      "sourceMetadata": {
+        "gameid": 39,
+        "name_game": "ならずもの冒険録",
+        "name_author": "このうち一人が戦線離脱",
+        "genre": "デフォ戦ゲー",
+        "tool": "2000",
+        "stream": "いいのよ/いいわよ",
+        "comment": "どうやら今回も間に合わんようです\r\n間に合えば代理ｋｓｇが提出されることでしょう\r\n\r\n完成には程遠いので隔日更新を狙っていきます　こざかしいな…！\r\n",
+        "modified": "1590970943412",
+        "game_url": [
+          "https://ux.getuploader.com/vipgw2020_game/download/116",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "sourceSupplement": {
+        "icon": "icon_no39",
+        "ss": [
+          "ss_no39_1",
+          "ss_no39_2",
+          "",
+          ""
+        ],
+        "forum": "https://jbbs.shitaraba.net/bbs/read.cgi/game/60946/1589560573/l1000",
+        "a_com": "ならずものっていうかダメそうなパーティで草。<br><br><details><summary>プレイ後感想追記（クリックで開く）</summary><br>これは……代理ゲーじゃな？　ちょっとした小話の詰め合わせになる予定みたいですね。今のところは一話だけ。<br>世はインディーズゲーム時代、優秀なエンジンも無料で配布されており凝ったゲームも多く、グラフィックなどの技術も個人レベルでさえ猛烈に上がってきていますね。<br>そんな中でどうすれば売れるか、プレイしてもらえるかというのは実際非常に難しい話。ゲーム自体の質が良くてもプレイヤーの時間の奪い合いに勝てない可能性は大いにあります。Twitterでの宣伝・進捗報告も大事ですが、付け加えるならインディーズゲームのイベントに積極的に参加した上で、レビューサイトなどに記事を書いてもらう依頼を出すのが一番確実かなと。最近INDIE Live Expoというインディーズ専門の情報番組も配信され始めたようですし、広告を打てる場所は段々と増えています。可能ならパブリッシャーの手も借りたり。<br>アングラなVIPRPGには直接関係はない話ではありますが、インディーズの動向には注目していきたいところですね。</details>"
+      },
+      "sourceIconUrl": "https://vipgw2020.tubakurame.com/img/icon_no39",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no39_1",
+          "local": "/screenshots/2020-gw/39-source-1.png",
+          "sha256": "06f7149a4e68a34d7319e6c8a8d1228b66adde33b60dd435142052027c6dd341"
+        },
+        {
+          "sourceUrl": "https://vipgw2020.tubakurame.com/img/ss_no39_2",
+          "local": "/screenshots/2020-gw/39-source-2.png",
+          "sha256": "c9650e3715b056d3736d0577c4415c7eb04cb8780a538f759b94cdab180b0c26"
+        }
+      ],
+      "sourceDefaultIcon": false,
+      "sourceDefaultScreenshot": false,
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/vipgw2020_game/download/116",
+          "label": "DL1"
+        }
+      ],
+      "packagesDownloaded": false
+    }
+  ],
+  "bannerSources": [
+    {
+      "sourceUrl": "https://vipgw2020.tubakurame.com/img/gw2020_1.png",
+      "local": "/banners/2020-gw/current-source-1.png",
+      "sha256": "db9ba4b74e988dff366292f2c6479dec46ad47977d07f8969291dd4d1caeff30"
+    },
+    {
+      "sourceUrl": "https://vipgw2020.tubakurame.com/img/gw2020_2.png",
+      "local": "/banners/2020-gw/current-source-2.png",
+      "sha256": "0d2ac8af1e98caaa746818c3e72ec2a104ec977efd6de4d1bd098b315c746bb7"
+    },
+    {
+      "sourceUrl": "https://vipgw2020.tubakurame.com/img/gw2020_3.png",
+      "local": "/banners/2020-gw/current-source-3.png",
+      "sha256": "3960bc804de00cb2b5132ea468bd3fba62124304d3593b4146b3e8fdd6256172"
+    }
+  ],
+  "sourceDefaultRows": [
+    {
+      "no": "9",
+      "defaultIcon": true,
+      "defaultScreenshot": false
+    },
+    {
+      "no": "11",
+      "defaultIcon": true,
+      "defaultScreenshot": false
+    },
+    {
+      "no": "16",
+      "defaultIcon": true,
+      "defaultScreenshot": false
+    },
+    {
+      "no": "23",
+      "defaultIcon": true,
+      "defaultScreenshot": false
+    },
+    {
+      "no": "24",
+      "defaultIcon": true,
+      "defaultScreenshot": false
+    },
+    {
+      "no": "25",
+      "defaultIcon": true,
+      "defaultScreenshot": true
+    },
+    {
+      "no": "29",
+      "defaultIcon": true,
+      "defaultScreenshot": false
+    },
+    {
+      "no": "34",
+      "defaultIcon": true,
+      "defaultScreenshot": false
+    },
+    {
+      "no": "36",
+      "defaultIcon": true,
+      "defaultScreenshot": false
+    },
+    {
+      "no": "37",
+      "defaultIcon": true,
+      "defaultScreenshot": false
+    }
+  ],
+  "blankScreenshotSlotRows": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39"
+  ],
+  "sourceSampleVariants": {
+    "entries": {
+      "h": {
+        "gameid": 0,
+        "name_game": "サンプル",
+        "name_author": "管理人",
+        "genre": "サンプルゲーム",
+        "tool": "Steam2003",
+        "stream": "18歳以上は不可",
+        "comment": "ダーエロとメカゴが主人公の弾幕STGです。\n現在ステージ2までですが時間があればステージ3も作るかも。\n難易度は東方換算でEasy～Normal程度。\n\n一部不適切な表現を含むので注意。\nおまけの素材も同梱しています。",
+        "game_url": [
+          "https://ux.getuploader.com/vipgw2020_game/download/118",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "modified": "6/2"
+      },
+      "s": {
+        "icon": "default_icon.png",
+        "ss": [
+          "default_ss1.png",
+          "default_ss2.png"
+        ],
+        "forum": "https://jbbs.shitaraba.net/bbs/read.cgi/game/60946/1587008069/l1000",
+        "a_com": "エントリー直後のコメントの他、クリアしたら追加でコメントを書いていこうと思います。"
+      }
+    },
+    "top": {
+      "h": {
+        "gameid": 0,
+        "name_game": "サンプル",
+        "name_author": "管理人",
+        "genre": "サンプルゲーム",
+        "tool": "Steam2003",
+        "stream": "18歳以上は不可",
+        "comment": "作品情報のサンプルです。\nアイコン・SSが未指定の場合はこのようになります。",
+        "game_url": [
+          "https://ux.getuploader.com/vipgw2020_game/download/118",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "modified": "6/2"
+      },
+      "s": {
+        "icon": "default_icon.png",
+        "ss": [
+          "default_ss1.png",
+          "default_ss2.png"
+        ],
+        "forum": "https://jbbs.shitaraba.net/bbs/read.cgi/game/60946/1587008069/l1000",
+        "a_com": ""
+      }
+    }
+  },
+  "sourceApi": {
+    "url": "https://viprpg-gw2020.herokuapp.com/entries",
+    "status": 404,
+    "evidence": "investigation/heroku-entries.bin",
+    "publisherFallback": "data_h_local.json"
+  },
+  "handling": "Direct source archival without topic or pixel screening. Use the publisher JSON fallback and literal sample objects; preserve all 40 existing identities. Empty source screenshot slots are omitted before replay to avoid the original loop overwriting valid first images. All-empty entries keep the source default image. All game package URLs are recorded without downloading packages.",
+  "desktopReview": "passed-with-labelled-static-function-limits"
+}

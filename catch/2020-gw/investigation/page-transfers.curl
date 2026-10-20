@@ -1,0 +1,48 @@
+url = "https://vipgw2020.tubakurame.com/menu.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/live/page-0.bin"
+write-out = "0 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/entries.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/live/page-1.bin"
+write-out = "1 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/top.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/live/page-2.bin"
+write-out = "2 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/data_h_local.json"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/live/page-3.bin"
+write-out = "3 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/games.json"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/live/page-4.bin"
+write-out = "4 %{http_code} %{url_effective} %{size_download}\n"

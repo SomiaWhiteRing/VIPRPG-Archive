@@ -1,0 +1,104 @@
+{
+  "festivalId": "2020-gw",
+  "reviewedAt": "2026-10-20",
+  "scope": "desktop-only",
+  "method": "Browser DOM geometry, native UI input in the actual attached renderer session, and real screenshot/menu controls; no topic or image-pixel screening.",
+  "organized": {
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    },
+    "details": 40,
+    "imageReferences": 71,
+    "brokenImages": [],
+    "pendingImages": [],
+    "overflow": []
+  },
+  "original": {
+    "standaloneViewport": {
+      "width": 1183,
+      "height": 638
+    },
+    "dynamicDetailStates": 40,
+    "imageReferences": 80,
+    "screenshotSwitchLinks": 71,
+    "brokenImages": [],
+    "overflow": [],
+    "desktopMainFrameSimulation": {
+      "viewport": {
+        "width": 927,
+        "height": 638
+      },
+      "actualContentWidth": 912,
+      "states": 40,
+      "overflow": []
+    },
+    "auxiliaryDocuments": 8,
+    "auxiliaryMainFrameChecks": 6
+  },
+  "embedded": {
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    },
+    "sandbox": "allow-scripts",
+    "rootTag": "FRAMESET",
+    "childFrames": [
+      "frame1",
+      "frame2"
+    ],
+    "mainContentWidth": 912,
+    "defaultCatalogueRows": 41,
+    "defaultCatalogueImages": 40,
+    "rootSelect1": "passed; root index.html?id=1, menu and entries synchronized",
+    "menuNext2": "passed; root index.html?id=2 and both child frames synchronized",
+    "screenshot2": "passed; changed to second source image and loaded",
+    "bannerReroll": "passed; source gw2020_3.png changed to gw2020_1.png and loaded",
+    "returnCatalogue": "passed; index.html?page=0 and 41 rows",
+    "submission": "passed; labelled archive-closed.html with no form",
+    "externalForum": "passed; labelled archive-external.html with original source URL shown"
+  },
+  "menuLast39": {
+    "previous38": true,
+    "next40": false,
+    "disabledNextLabel": true
+  },
+  "viewer": {
+    "open": "passed",
+    "next": "passed; second screenshot loaded",
+    "close": "passed"
+  },
+  "homepage": {
+    "hash": "#2020-gw",
+    "expanded": true,
+    "inert": false,
+    "entries": 40,
+    "banners": 3,
+    "bannersLoaded": true,
+    "overflow": false
+  },
+  "automationEvidence": "Higher-level input did not reach the independently rendered nested frames. The attached root renderer session was discovered from Target.attachedToTarget; DOM hit testing and real Input mouse events verified navigation. No DOM functions were invoked to substitute for UI input.",
+  "sourceLimits": {
+    "liveHerokuEntriesStatus": 404,
+    "publisherLocalJsonUsed": true,
+    "sampleCommentVariantsPreserved": true,
+    "postingAndUnarchivedExternalPagesLabelled": true,
+    "sourceBlankSlotBug": "34 source rows had blank screenshot slots that could overwrite a valid first screenshot; replay omits empty slots while retaining all original data in raw caches.",
+    "sourceDefaultScreenshotNumber": "25"
+  },
+  "checks": {
+    "build": "passed",
+    "lint": "passed full npm lint and targeted helper ESLint after replay corrections",
+    "dataValidation": "passed",
+    "scriptSyntax": "investigation/script-syntax.json",
+    "staticClosure": "investigation/replay-closure.json",
+    "httpPayloads": "investigation/local-http-payloads.json"
+  },
+  "build": {
+    "buildId": "EXIuSW9O-Cdjzerccf3zV",
+    "prerenderedRoutes": 4159,
+    "publicOnlyReplayCorrections": "Final image-prefix and native-frame-selector corrections were generated, linted and browser-verified after the application build; app data/entry route unchanged."
+  },
+  "packagesDownloaded": false,
+  "mobileTested": false
+}

@@ -1,0 +1,1208 @@
+url = "https://vipgw2020.tubakurame.com/img/bg_m.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-0.bin"
+write-out = "0 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/bg.jpg"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-1.bin"
+write-out = "1 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/kh2019.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-2.bin"
+write-out = "2 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/su2019.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-3.bin"
+write-out = "3 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/gw2019.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-4.bin"
+write-out = "4 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/gw2018.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-5.bin"
+write-out = "5 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/gw2017.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-6.bin"
+write-out = "6 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/gw2016.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-7.bin"
+write-out = "7 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/gw2015.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-8.bin"
+write-out = "8 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/gw2014.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-9.bin"
+write-out = "9 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/gw2013.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-10.bin"
+write-out = "10 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/gw2012.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-11.bin"
+write-out = "11 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/gw2011.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-12.bin"
+write-out = "12 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/gw2010.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-13.bin"
+write-out = "13 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/gw2009.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-14.bin"
+write-out = "14 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/gw2008.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-15.bin"
+write-out = "15 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/gw2007.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-16.bin"
+write-out = "16 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/gw2006.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-17.bin"
+write-out = "17 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/gw2020_1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-18.bin"
+write-out = "18 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/gw2020_2.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-19.bin"
+write-out = "19 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/gw2020_3.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-20.bin"
+write-out = "20 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/icon_no01"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-21.bin"
+write-out = "21 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no01_1"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-22.bin"
+write-out = "22 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no01_2"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-23.bin"
+write-out = "23 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/icon_no02"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-24.bin"
+write-out = "24 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no02_1"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-25.bin"
+write-out = "25 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/icon_no03"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-26.bin"
+write-out = "26 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no03_1"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-27.bin"
+write-out = "27 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/icon_no04"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-28.bin"
+write-out = "28 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no04_1"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-29.bin"
+write-out = "29 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/icon_no05"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-30.bin"
+write-out = "30 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no05_1"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-31.bin"
+write-out = "31 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/icon_no06"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-32.bin"
+write-out = "32 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no06_1"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-33.bin"
+write-out = "33 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no06_2"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-34.bin"
+write-out = "34 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no06_3"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-35.bin"
+write-out = "35 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no06_4"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-36.bin"
+write-out = "36 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/icon_no07"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-37.bin"
+write-out = "37 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no07_1"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-38.bin"
+write-out = "38 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no07_2"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-39.bin"
+write-out = "39 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/icon_no08"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-40.bin"
+write-out = "40 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no08_1"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-41.bin"
+write-out = "41 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/default_icon.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-42.bin"
+write-out = "42 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no09_1"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-43.bin"
+write-out = "43 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/icon_no10"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-44.bin"
+write-out = "44 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no10_1"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-45.bin"
+write-out = "45 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no10_2"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-46.bin"
+write-out = "46 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no11_1"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-47.bin"
+write-out = "47 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/icon_no12"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-48.bin"
+write-out = "48 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no12_1"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-49.bin"
+write-out = "49 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/icon_no13"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-50.bin"
+write-out = "50 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no13_1"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-51.bin"
+write-out = "51 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/icon_no14"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-52.bin"
+write-out = "52 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no14_1"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-53.bin"
+write-out = "53 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no14_2"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-54.bin"
+write-out = "54 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/icon_no15"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-55.bin"
+write-out = "55 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no15_1"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-56.bin"
+write-out = "56 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no15_2"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-57.bin"
+write-out = "57 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no15_3"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-58.bin"
+write-out = "58 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no15_4"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-59.bin"
+write-out = "59 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no16_1"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-60.bin"
+write-out = "60 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no16_2"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-61.bin"
+write-out = "61 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/icon_no17"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-62.bin"
+write-out = "62 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no17_1"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-63.bin"
+write-out = "63 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/icon_no18"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-64.bin"
+write-out = "64 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no18_1"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-65.bin"
+write-out = "65 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/icon_no19"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-66.bin"
+write-out = "66 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no19_1"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-67.bin"
+write-out = "67 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no19_2"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-68.bin"
+write-out = "68 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/icon_no20"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-69.bin"
+write-out = "69 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no20_1"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-70.bin"
+write-out = "70 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no20_2"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-71.bin"
+write-out = "71 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/icon_no21"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-72.bin"
+write-out = "72 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no21_1"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-73.bin"
+write-out = "73 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/icon_no22"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-74.bin"
+write-out = "74 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no22_1"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-75.bin"
+write-out = "75 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no22_2"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-76.bin"
+write-out = "76 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no22_3"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-77.bin"
+write-out = "77 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no23_1"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-78.bin"
+write-out = "78 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no24_1"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-79.bin"
+write-out = "79 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no24_2"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-80.bin"
+write-out = "80 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no24_3"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-81.bin"
+write-out = "81 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no24_4"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-82.bin"
+write-out = "82 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/icon_no26"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-83.bin"
+write-out = "83 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no26_1"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-84.bin"
+write-out = "84 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no26_2"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-85.bin"
+write-out = "85 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/icon_no27"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-86.bin"
+write-out = "86 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no27_1"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-87.bin"
+write-out = "87 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/icon_no28"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-88.bin"
+write-out = "88 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no28_1"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-89.bin"
+write-out = "89 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no28_2"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-90.bin"
+write-out = "90 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no29_1"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-91.bin"
+write-out = "91 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no29_2"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-92.bin"
+write-out = "92 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/icon_no30"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-93.bin"
+write-out = "93 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no30_1"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-94.bin"
+write-out = "94 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/icon_no31"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-95.bin"
+write-out = "95 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no31_1"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-96.bin"
+write-out = "96 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no31_2"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-97.bin"
+write-out = "97 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no31_3"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-98.bin"
+write-out = "98 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no31_4"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-99.bin"
+write-out = "99 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/icon_no32"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-100.bin"
+write-out = "100 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no32_1"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-101.bin"
+write-out = "101 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no32_2"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-102.bin"
+write-out = "102 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no32_3"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-103.bin"
+write-out = "103 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no32_4"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-104.bin"
+write-out = "104 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/icon_no33"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-105.bin"
+write-out = "105 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no33_1"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-106.bin"
+write-out = "106 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no33_2"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-107.bin"
+write-out = "107 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no34_1"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-108.bin"
+write-out = "108 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no34_2"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-109.bin"
+write-out = "109 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/icon_no35"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-110.bin"
+write-out = "110 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no35_1"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-111.bin"
+write-out = "111 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no36_1"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-112.bin"
+write-out = "112 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no37_1"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-113.bin"
+write-out = "113 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/icon_no38"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-114.bin"
+write-out = "114 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no38_1"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-115.bin"
+write-out = "115 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/icon_no39"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-116.bin"
+write-out = "116 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no39_1"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-117.bin"
+write-out = "117 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/ss_no39_2"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-118.bin"
+write-out = "118 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/default_ss1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-119.bin"
+write-out = "119 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://vipgw2020.tubakurame.com/img/default_ss2.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-gw/source/resources/asset-120.bin"
+write-out = "120 %{http_code} %{url_effective} %{size_download}\n"

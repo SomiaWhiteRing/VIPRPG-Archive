@@ -1,0 +1,118 @@
+{
+  "entries": {
+    "data_h.games.unshift": [
+      {
+        "name": "gameid",
+        "kind": "FirstLiteralToken"
+      },
+      {
+        "name": "name_game",
+        "kind": "StringLiteral"
+      },
+      {
+        "name": "name_author",
+        "kind": "StringLiteral"
+      },
+      {
+        "name": "genre",
+        "kind": "StringLiteral"
+      },
+      {
+        "name": "tool",
+        "kind": "StringLiteral"
+      },
+      {
+        "name": "stream",
+        "kind": "StringLiteral"
+      },
+      {
+        "name": "comment",
+        "kind": "StringLiteral"
+      },
+      {
+        "name": "game_url",
+        "kind": "ArrayLiteralExpression"
+      },
+      {
+        "name": "modified",
+        "kind": "StringLiteral"
+      }
+    ],
+    "data_s.games.unshift": [
+      {
+        "name": "icon",
+        "kind": "StringLiteral"
+      },
+      {
+        "name": "ss",
+        "kind": "ArrayLiteralExpression"
+      },
+      {
+        "name": "forum",
+        "kind": "StringLiteral"
+      },
+      {
+        "name": "\"a_com\"",
+        "kind": "StringLiteral"
+      }
+    ]
+  },
+  "top": {
+    "data_h.games.unshift": [
+      {
+        "name": "gameid",
+        "kind": "FirstLiteralToken"
+      },
+      {
+        "name": "name_game",
+        "kind": "StringLiteral"
+      },
+      {
+        "name": "name_author",
+        "kind": "StringLiteral"
+      },
+      {
+        "name": "genre",
+        "kind": "StringLiteral"
+      },
+      {
+        "name": "tool",
+        "kind": "StringLiteral"
+      },
+      {
+        "name": "stream",
+        "kind": "StringLiteral"
+      },
+      {
+        "name": "comment",
+        "kind": "StringLiteral"
+      },
+      {
+        "name": "game_url",
+        "kind": "ArrayLiteralExpression"
+      },
+      {
+        "name": "modified",
+        "kind": "StringLiteral"
+      }
+    ],
+    "data_s.games.unshift": [
+      {
+        "name": "icon",
+        "kind": "StringLiteral"
+      },
+      {
+        "name": "ss",
+        "kind": "ArrayLiteralExpression"
+      },
+      {
+        "name": "forum",
+        "kind": "StringLiteral"
+      },
+      {
+        "name": "\"a_com\"",
+        "kind": "StringLiteral"
+      }
+    ]
+  }
+}

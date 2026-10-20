@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T10:13:59.598Z",
+  "generatedAt": "2026-10-20T11:09:32.978Z",
   "scope": "Local inventory; field presence is not source verification or completeness.",
   "totals": {
     "festivals": 74,
@@ -10,9 +10,9 @@
     "restrictedDetails": 7,
     "withComments": 3122,
     "withScreenshots": 3342,
-    "withDownload": 2513,
-    "withSource": 3355,
-    "referencedAssets": 7891,
+    "withDownload": 2547,
+    "withSource": 3395,
+    "referencedAssets": 7893,
     "assetIssues": 0
   },
   "festivals": [
@@ -323,19 +323,19 @@
     },
     {
       "id": "2020-gw",
-      "dataSha256": "9926f9c4361f510ce09f6023679147c76ac0b4a2dd7276078d51366645deb371",
+      "dataSha256": "d9912e282e2c701be9c57c9b1fe614760d0a355e494d362d1f0c150bd7b39455",
       "listedSourceUrl": "https://vipgw2020.tubakurame.com/",
       "works": 40,
-      "banners": 1,
+      "banners": 3,
       "detailPages": 40,
       "disabledDetails": 0,
       "restrictedDetails": 0,
       "withAuthor": 40,
       "withComments": 40,
       "withScreenshots": 40,
-      "withDownload": 0,
-      "withSource": 0,
-      "cachedHtmlFiles": 1,
+      "withDownload": 34,
+      "withSource": 40,
+      "cachedHtmlFiles": 13,
       "summaries": [
         "catch/2020-gw/2020-gw-scrape-summary.json"
       ]

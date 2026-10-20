@@ -1,0 +1,132 @@
+{
+  "festivalId": "2020-gw",
+  "checkedAt": "2026-10-20",
+  "works": 40,
+  "formalEntries": 39,
+  "sampleNumber": "0",
+  "screenshots": 71,
+  "icons": 40,
+  "downloadEntries": 34,
+  "banners": 3,
+  "sourceHashFailures": [],
+  "oldGalleryReferences": 71,
+  "oldBytesAbsentFromCurrentGallery": [],
+  "blankScreenshotSlotRows": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39"
+  ],
+  "defaultRows": [
+    {
+      "no": "9",
+      "defaultIcon": true,
+      "defaultScreenshot": false
+    },
+    {
+      "no": "11",
+      "defaultIcon": true,
+      "defaultScreenshot": false
+    },
+    {
+      "no": "16",
+      "defaultIcon": true,
+      "defaultScreenshot": false
+    },
+    {
+      "no": "23",
+      "defaultIcon": true,
+      "defaultScreenshot": false
+    },
+    {
+      "no": "24",
+      "defaultIcon": true,
+      "defaultScreenshot": false
+    },
+    {
+      "no": "25",
+      "defaultIcon": true,
+      "defaultScreenshot": true
+    },
+    {
+      "no": "29",
+      "defaultIcon": true,
+      "defaultScreenshot": false
+    },
+    {
+      "no": "34",
+      "defaultIcon": true,
+      "defaultScreenshot": false
+    },
+    {
+      "no": "36",
+      "defaultIcon": true,
+      "defaultScreenshot": false
+    },
+    {
+      "no": "37",
+      "defaultIcon": true,
+      "defaultScreenshot": false
+    }
+  ],
+  "sourceSampleVariantFields": [
+    {
+      "group": "h",
+      "field": "comment"
+    },
+    {
+      "group": "s",
+      "field": "a_com"
+    }
+  ],
+  "sourceApiFallback": {
+    "url": "https://viprpg-gw2020.herokuapp.com/entries",
+    "status": 404,
+    "evidence": "investigation/heroku-entries.bin",
+    "publisherFallback": "data_h_local.json"
+  },
+  "contentOrPixelScreeningPerformed": false,
+  "packagesDownloaded": false,
+  "literalTitleFormattingDifferenceNumbers": [
+    "5",
+    "18"
+  ],
+  "sourceNoFileUrlNumbers": [
+    "5",
+    "6",
+    "28",
+    "30",
+    "34",
+    "37"
+  ]
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html><html><head>
+	<meta charset="UTF-8">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Cache-Control" content="no-cache">
+	<title>VIPRPG GW祭2020</title>
+	<script>
+    window.onload=function(){
+      var query=location.search,num=new URLSearchParams(query).get('id');
+      document.querySelector('frame[name="frame1"]').src='menu.html'+query;
+      document.querySelector('frame[name="frame2"]').src=num!==null?'entries.html?id='+encodeURIComponent(num):'top.html';
+    };
+    addEventListener('message',function(event){
+      var menu=document.querySelector('frame[name="frame1"]'),main=document.querySelector('frame[name="frame2"]');
+      if(!menu||!main||![menu.contentWindow,main.contentWindow].includes(event.source)||event.data?.type!=='archive-2020-navigation')return;
+      var u=new URL(event.data.url,location.href),dir=location.pathname.slice(0,location.pathname.lastIndexOf('/')+1);
+      if(u.origin!==location.origin||!u.pathname.startsWith(dir))return;
+      var name=u.pathname.slice(dir.length);
+      if(!['index.html','menu.html','entries.html','top.html','about.html','update.html','past.html','entryFail.html','ab.html','archive-closed.html','archive-external.html'].includes(name))return;
+      if(event.data.target==='root')location.href=u.href;
+      else if(event.data.target==='frame1')menu.src=u.href;
+      else if(event.data.target==='frame2')main.src=u.href;
+    });</script>
+</head>
+
+<frameset cols="250,*" noresize="">
+
+<frame src="" name="frame1" title="左フレーム">
+<frame src="" name="frame2" title="右フレーム">
+
+<noframes>
+
+</noframes>
+
+</frameset>
+
+
+
+
+
+       </html>

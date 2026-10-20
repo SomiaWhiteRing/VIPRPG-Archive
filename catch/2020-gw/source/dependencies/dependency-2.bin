@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>VIPRPG GW2020 企画概要</title>
+	<style type="text/css">
+		body { 
+			margin: 0; 
+			padding: 0;
+			background-image: url(./img/bg.jpg);
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: cover;
+		}
+		.rw {
+			margin: 0.8rem; 
+			padding: 4px 3px 6px 10px;
+			border-radius: 0.4rem;
+			border: 2px solid #338888;
+			background-color: rgba(255, 255, 255, 0.75);
+			width: 800px;
+			font-size:0.7rem;
+		}
+		.ttd {
+			width:70px;
+			padding:0.7rem;
+			text-align: center;
+			font-family: Meiryo;
+			font-size: 11px
+		}
+		.ttc {
+			width:560px;
+			padding:1rem;
+			font-family: Meiryo;
+			font-size: 1rem
+		}
+		.tw {
+			border-radius: 5px;
+			border:2px solid rgba(150, 150, 220, 1);
+			margin:1rem;
+			background-color: rgba(255, 255, 255, 0.7);
+			width:600px
+		}
+		.t {
+			font-weight:600;
+			font-size:13px;
+		}
+		.m {
+				font-size:1rem;
+				font-weight: 600;
+				background: linear-gradient(transparent 82%, rgba(90, 160, 240, 0.4) 18%); ;
+			}
+		table td {
+			border: dashed 1px #999;
+			padding:1px
+		}
+	</style>
+	<script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.min.js"></script>
+	<script src="platform.js"></script>
+	<script type="text/javascript">
+
+	</script>
+</head>
+<body><script type="text/javascript" charset="utf-8" src="//asumi.shinobi.jp/encount"></script><div style="text-align: center;"><div style="display: inline-block; position: relative; z-index: 9999;"><script type="text/javascript" charset="utf-8" src="//asumi.shinobi.jp/fire?f=435"></script><script type="text/javascript" charset="utf-8" src="/__sys__inactive_message.js"></script></div></div>
+	<div id="header">
+		<div style="height:4rem; background:linear-gradient(to left, rgba(200, 255, 230, 0.6), rgba(255, 255, 255, 0.6));
+			border-bottom:1px solid #007777">
+			<div style="position:absolute; top:-0.05rem; left:1rem">
+				<h3>過去の祭り</h3>
+			</div>
+		</div>
+	</div>
+	<div style="margin:0.3rem"></div>
+	<div class="rw">
+		<div style="margin:0.6rem; font-size:1rem">
+			<span class="m">直近&nbsp;</span>
+		</div>
+		<div class="tw">
+			<table style="border-collapse: collapse; border: solid 2px rgba(0, 0, 0, 0)">
+				<tr><td class="ttd"><a href="https://kohakuviprpg2019.x.fc2.com/">
+					<img src="./img/kh2019.png"></a></td><td class="ttc">紅白2019</td></tr>
+				<tr><td class="ttd"><a href="https://sites.google.com/view/viprpg2019summer/">
+					<img src="./img/su2019.png"></a></td><td class="ttc">夏の陣2019</td></tr>
+			</table>
+		</div>
+		<div style="margin:0.6rem; font-size:1rem">
+			<span class="m">GW&nbsp;</span>
+		</div>
+		<div class="tw">
+			<table style="border-collapse: collapse; border: solid 2px rgba(0, 0, 0, 0)">
+
+				<tr><td class="ttd"><a href="https://viprpg2019gw.xxxxxxxx.jp/" target="_blank">
+					<img src="./img/gw2019.png"></a></td><td class="ttc">2019</td></tr>
+
+				<tr><td class="ttd"><a href="https://vipkohaku.x.fc2.com/2018GW/top.html" target="_blank">
+					<img src="./img/gw2018.png"></a></td><td class="ttc">2018</td></tr>
+
+				<tr><td class="ttd"><a href="https://viprpg2017gw.x.fc2.com/" target="_blank">
+					<img src="./img/gw2017.png"></a></td><td class="ttc">2017</td></tr>
+
+				<tr><td class="ttd"><a href="https://vipkohaku.x.fc2.com/2016GW/index.html" target="_blank">
+					<img src="./img/gw2016.png"></a></td><td class="ttc">2016</td></tr>
+
+				<tr><td class="ttd"><a href="https://vipkohaku.x.fc2.com/2015GW/index.html" target="_blank">
+					<img src="./img/gw2015.png"></a></td><td class="ttc">2015</td></tr>
+
+				<tr><td class="ttd"><a href="http://viprpg2014gw.web.fc2.com/" target="_blank">
+					<img src="./img/gw2014.png"></a></td><td class="ttc">2014</td></tr>
+
+				<tr><td class="ttd"><a href="http://viprpg2013gw.web.fc2.com/index.html" target="_blank">
+					<img src="./img/gw2013.png"></a></td><td class="ttc">2013</td></tr>
+
+				<tr><td class="ttd"><a href="http://viprpg2012gw.web.fc2.com/top.html" target="_blank">
+					<img src="./img/gw2012.png"></a></td><td class="ttc">2012</td></tr>
+
+				<tr><td class="ttd"><a href="https://vipgw2011.web.fc2.com/" target="_blank">
+					<img src="./img/gw2011.png"></a></td><td class="ttc">2011</td></tr>
+
+				<tr><td class="ttd"><a href="https://vipkohaku.x.fc2.com/2010GW/index.html" target="_blank">
+					<img src="./img/gw2010.png"></a></td><td class="ttc">2010</td></tr>
+
+				<tr><td class="ttd"><a href="https://vipgw2011.web.fc2.com/vip_2009gw/index.html" target="_blank">
+					<img src="./img/gw2009.png"></a></td><td class="ttc">2009</td></tr>
+
+				<tr><td class="ttd"><a href="https://vipkohaku.x.fc2.com/2008GW/index.html" target="_blank">
+					<img src="./img/gw2008.png"></a></td><td class="ttc">2008</td></tr>
+
+				<tr><td class="ttd"><a href="https://vipkohaku.x.fc2.com/2007GW/index.html" target="_blank">
+					<img src="./img/gw2007.png"></a></td><td class="ttc">2007</td></tr>
+
+				<tr><td class="ttd"><a href="https://vipkohaku.x.fc2.com/2006GW/top.html" target="_blank">
+					<img src="./img/gw2006.png"></a></td><td class="ttc">2006</td></tr>
+			</table>
+		</div>
+	</div>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"1b464aad4cb14e2ea25b2030f823e83c","spa":2}' crossorigin="anonymous"></script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4d74dfb5b10a0be',t:'MTc5MjQ5MTc4MA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><div style="text-align: center;"><div style="display: inline-block; position: relative; z-index: 9999;"><script type="text/javascript" charset="utf-8" src="//asumi.shinobi.jp/fire?f=434"></script></div></div></body>
+</html>
