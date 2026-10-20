@@ -1,0 +1,25 @@
+{
+  "rawPayloadUnchanged": true,
+  "encoding": {
+    "rawPrefixHex": "efbbbf",
+    "rawUtf8StringParsedFrames": 0,
+    "decodedReplayFrames": 2,
+    "correction": "Use existing decodeSource for UTF-8 BOM removal before HTML parsing."
+  },
+  "catalogue": {
+    "sourceWidthAttribute": 950,
+    "sourceLeftMargin": 20,
+    "actualDesktopContentClientWidth": 933,
+    "beforeScrollWidth": 978,
+    "afterTableWidth": 897,
+    "afterScrollWidth": 933,
+    "correction": "Derived catalogue table width calc(100% - 20px), max-width950px, overflow-wrap:anywhere; source bytes and source margin retained."
+  },
+  "nativeFrameAcceptance": {
+    "detailsAndGapSkeletonsOpenedByActualMenuAndCatalogueClicks": 51,
+    "uniquePaths": 51,
+    "brokenImages": 0,
+    "pendingImages": 0,
+    "overflow": 0
+  }
+}

@@ -1,0 +1,2817 @@
+{
+  "festivalId": "2017-gw",
+  "originalBase": "https://viprpg2017gw.x.2nt.com/",
+  "liveSource": true,
+  "sourceManifests": [
+    "source/replay/manifest.json"
+  ],
+  "originalResources": {
+    "https://viprpg2017gw.x.2nt.com/image/b2017-1.png": "image/b2017-1.png",
+    "https://viprpg2017gw.x.2nt.com/image/b2017-2.png": "image/b2017-2.png",
+    "https://viprpg2017gw.x.2nt.com/image/icon/00.png": "image/icon/00.png",
+    "https://viprpg2017gw.x.2nt.com/image/icon/01.png": "image/icon/01.png",
+    "https://viprpg2017gw.x.2nt.com/image/icon/02.png": "image/icon/02.png",
+    "https://viprpg2017gw.x.2nt.com/image/icon/03.gif": "image/icon/03.gif",
+    "https://viprpg2017gw.x.2nt.com/image/icon/04.png": "image/icon/04.png",
+    "https://viprpg2017gw.x.2nt.com/image/icon/05.png": "image/icon/05.png",
+    "https://viprpg2017gw.x.2nt.com/image/icon/06.png": "image/icon/06.png",
+    "https://viprpg2017gw.x.2nt.com/image/icon/07.png": "image/icon/07.png",
+    "https://viprpg2017gw.x.2nt.com/image/icon/08.png": "image/icon/08.png",
+    "https://viprpg2017gw.x.2nt.com/image/icon/09.png": "image/icon/09.png",
+    "https://viprpg2017gw.x.2nt.com/image/icon/10.png": "image/icon/10.png",
+    "https://viprpg2017gw.x.2nt.com/image/icon/11.png": "image/icon/11.png",
+    "https://viprpg2017gw.x.2nt.com/image/icon/12.png": "image/icon/12.png",
+    "https://viprpg2017gw.x.2nt.com/image/icon/13.png": "image/icon/13.png",
+    "https://viprpg2017gw.x.2nt.com/image/icon/14.png": "image/icon/14.png",
+    "https://viprpg2017gw.x.2nt.com/image/icon/15.png": "image/icon/15.png",
+    "https://viprpg2017gw.x.2nt.com/image/icon/16.png": "image/icon/16.png",
+    "https://viprpg2017gw.x.2nt.com/image/icon/17.png": "image/icon/17.png",
+    "https://viprpg2017gw.x.2nt.com/image/icon/18.png": "image/icon/18.png",
+    "https://viprpg2017gw.x.2nt.com/image/icon/19.png": "image/icon/19.png",
+    "https://viprpg2017gw.x.2nt.com/image/icon/20.png": "image/icon/20.png",
+    "https://viprpg2017gw.x.2nt.com/image/icon/22.png": "image/icon/22.png",
+    "https://viprpg2017gw.x.2nt.com/image/icon/23.png": "image/icon/23.png",
+    "https://viprpg2017gw.x.2nt.com/image/icon/24.png": "image/icon/24.png",
+    "https://viprpg2017gw.x.2nt.com/image/icon/25.png": "image/icon/25.png",
+    "https://viprpg2017gw.x.2nt.com/image/icon/26.png": "image/icon/26.png",
+    "https://viprpg2017gw.x.2nt.com/image/icon/27.gif": "image/icon/27.gif",
+    "https://viprpg2017gw.x.2nt.com/image/icon/28.png": "image/icon/28.png",
+    "https://viprpg2017gw.x.2nt.com/image/icon/29.png": "image/icon/29.png",
+    "https://viprpg2017gw.x.2nt.com/image/icon/30.png": "image/icon/30.png",
+    "https://viprpg2017gw.x.2nt.com/image/icon/31.gif": "image/icon/31.gif",
+    "https://viprpg2017gw.x.2nt.com/image/icon/32.png": "image/icon/32.png",
+    "https://viprpg2017gw.x.2nt.com/image/icon/33.png": "image/icon/33.png",
+    "https://viprpg2017gw.x.2nt.com/image/icon/34.png": "image/icon/34.png",
+    "https://viprpg2017gw.x.2nt.com/image/icon/35.png": "image/icon/35.png",
+    "https://viprpg2017gw.x.2nt.com/image/icon/36.png": "image/icon/36.png",
+    "https://viprpg2017gw.x.2nt.com/image/icon/37.png": "image/icon/37.png",
+    "https://viprpg2017gw.x.2nt.com/image/icon/38.png": "image/icon/38.png",
+    "https://viprpg2017gw.x.2nt.com/image/icon/39.png": "image/icon/39.png",
+    "https://viprpg2017gw.x.2nt.com/image/icon/40.png": "image/icon/40.png",
+    "https://viprpg2017gw.x.2nt.com/image/icon/41.gif": "image/icon/41.gif",
+    "https://viprpg2017gw.x.2nt.com/image/icon/42.png": "image/icon/42.png",
+    "https://viprpg2017gw.x.2nt.com/image/icon/43.png": "image/icon/43.png",
+    "https://viprpg2017gw.x.2nt.com/image/icon/44.png": "image/icon/44.png",
+    "https://viprpg2017gw.x.2nt.com/image/icon/45.png": "image/icon/45.png",
+    "https://viprpg2017gw.x.2nt.com/image/icon/46.png": "image/icon/46.png",
+    "https://viprpg2017gw.x.2nt.com/image/icon/47.png": "image/icon/47.png",
+    "https://viprpg2017gw.x.2nt.com/image/icon/48.png": "image/icon/48.png",
+    "https://viprpg2017gw.x.2nt.com/image/icon/50.png": "image/icon/50.png",
+    "https://viprpg2017gw.x.2nt.com/image/bg.jpg": "image/bg.jpg",
+    "https://viprpg2017gw.x.2nt.com/image/b2016.png": "image/b2016.png",
+    "https://viprpg2017gw.x.2nt.com/image/b2015.png": "image/b2015.png",
+    "https://viprpg2017gw.x.2nt.com/image/b2014.png": "image/b2014.png",
+    "https://viprpg2017gw.x.2nt.com/image/b2013.png": "image/b2013.png",
+    "https://viprpg2017gw.x.2nt.com/image/b2012.png": "image/b2012.png",
+    "https://viprpg2017gw.x.2nt.com/image/b2011.png": "image/b2011.png",
+    "https://viprpg2017gw.x.2nt.com/image/b2010.png": "image/b2010.png",
+    "https://viprpg2017gw.x.2nt.com/image/b2009.png": "image/b2009.png",
+    "https://viprpg2017gw.x.2nt.com/image/b2008.png": "image/b2008.png",
+    "https://viprpg2017gw.x.2nt.com/image/b2007.png": "image/b2007.png",
+    "https://viprpg2017gw.x.2nt.com/image/b2006.png": "image/b2006.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/00a.png": "image/ss/00a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/00b.png": "image/ss/00b.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/01a.png": "image/ss/01a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/02a.png": "image/ss/02a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/02b.png": "image/ss/02b.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/03a.png": "image/ss/03a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/03b.png": "image/ss/03b.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/04a.png": "image/ss/04a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/04b.png": "image/ss/04b.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/05a.png": "image/ss/05a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/05b.png": "image/ss/05b.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/06a.png": "image/ss/06a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/07a.png": "image/ss/07a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/07b.png": "image/ss/07b.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/08a.png": "image/ss/08a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/08b.png": "image/ss/08b.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/09a.png": "image/ss/09a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/10a.png": "image/ss/10a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/11a.png": "image/ss/11a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/12a.png": "image/ss/12a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/13a.png": "image/ss/13a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/14a.png": "image/ss/14a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/14b.png": "image/ss/14b.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/15a.png": "image/ss/15a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/16a.png": "image/ss/16a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/16b.png": "image/ss/16b.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/17a.png": "image/ss/17a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/17b.png": "image/ss/17b.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/18a.png": "image/ss/18a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/18b.png": "image/ss/18b.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/19a.png": "image/ss/19a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/19b.png": "image/ss/19b.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/20a.png": "image/ss/20a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/22a.png": "image/ss/22a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/22b.png": "image/ss/22b.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/24a.png": "image/ss/24a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/25a.png": "image/ss/25a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/26a.png": "image/ss/26a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/27a.png": "image/ss/27a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/27b.png": "image/ss/27b.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/28a.png": "image/ss/28a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/28b.png": "image/ss/28b.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/29a.png": "image/ss/29a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/29b.png": "image/ss/29b.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/30a.png": "image/ss/30a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/31a.png": "image/ss/31a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/32a.png": "image/ss/32a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/32b.png": "image/ss/32b.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/33a.png": "image/ss/33a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/34a.png": "image/ss/34a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/35a.png": "image/ss/35a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/35b.png": "image/ss/35b.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/36a.png": "image/ss/36a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/36b.png": "image/ss/36b.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/37a.png": "image/ss/37a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/37b.png": "image/ss/37b.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/38a.png": "image/ss/38a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/39a.png": "image/ss/39a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/40a.png": "image/ss/40a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/40b.png": "image/ss/40b.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/41a.png": "image/ss/41a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/42a.png": "image/ss/42a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/42b.png": "image/ss/42b.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/43a.png": "image/ss/43a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/44a.png": "image/ss/44a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/45a.png": "image/ss/45a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/46a.png": "image/ss/46a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/47a.png": "image/ss/47a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/48a.png": "image/ss/48a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/50a.png": "image/ss/50a.png",
+    "https://viprpg2017gw.x.2nt.com/index.html": "index.html",
+    "https://viprpg2017gw.x.2nt.com/menu.html": "menu.html",
+    "https://viprpg2017gw.x.2nt.com/games.html": "games.html",
+    "https://viprpg2017gw.x.2nt.com/about.html": "about.html",
+    "https://viprpg2017gw.x.2nt.com/update.html": "update.html",
+    "https://viprpg2017gw.x.2nt.com/games/00.html": "games/00.html",
+    "https://viprpg2017gw.x.2nt.com/games/01.html": "games/01.html",
+    "https://viprpg2017gw.x.2nt.com/games/02.html": "games/02.html",
+    "https://viprpg2017gw.x.2nt.com/games/03.html": "games/03.html",
+    "https://viprpg2017gw.x.2nt.com/games/04.html": "games/04.html",
+    "https://viprpg2017gw.x.2nt.com/games/05.html": "games/05.html",
+    "https://viprpg2017gw.x.2nt.com/games/06.html": "games/06.html",
+    "https://viprpg2017gw.x.2nt.com/games/07.html": "games/07.html",
+    "https://viprpg2017gw.x.2nt.com/games/08.html": "games/08.html",
+    "https://viprpg2017gw.x.2nt.com/games/09.html": "games/09.html",
+    "https://viprpg2017gw.x.2nt.com/games/10.html": "games/10.html",
+    "https://viprpg2017gw.x.2nt.com/games/11.html": "games/11.html",
+    "https://viprpg2017gw.x.2nt.com/games/12.html": "games/12.html",
+    "https://viprpg2017gw.x.2nt.com/games/13.html": "games/13.html",
+    "https://viprpg2017gw.x.2nt.com/games/14.html": "games/14.html",
+    "https://viprpg2017gw.x.2nt.com/games/15.html": "games/15.html",
+    "https://viprpg2017gw.x.2nt.com/games/16.html": "games/16.html",
+    "https://viprpg2017gw.x.2nt.com/games/17.html": "games/17.html",
+    "https://viprpg2017gw.x.2nt.com/games/18.html": "games/18.html",
+    "https://viprpg2017gw.x.2nt.com/games/19.html": "games/19.html",
+    "https://viprpg2017gw.x.2nt.com/games/20.html": "games/20.html",
+    "https://viprpg2017gw.x.2nt.com/games/22.html": "games/22.html",
+    "https://viprpg2017gw.x.2nt.com/games/24.html": "games/24.html",
+    "https://viprpg2017gw.x.2nt.com/games/25.html": "games/25.html",
+    "https://viprpg2017gw.x.2nt.com/games/26.html": "games/26.html",
+    "https://viprpg2017gw.x.2nt.com/games/27.html": "games/27.html",
+    "https://viprpg2017gw.x.2nt.com/games/28.html": "games/28.html",
+    "https://viprpg2017gw.x.2nt.com/games/29.html": "games/29.html",
+    "https://viprpg2017gw.x.2nt.com/games/30.html": "games/30.html",
+    "https://viprpg2017gw.x.2nt.com/games/31.html": "games/31.html",
+    "https://viprpg2017gw.x.2nt.com/games/32.html": "games/32.html",
+    "https://viprpg2017gw.x.2nt.com/games/33.html": "games/33.html",
+    "https://viprpg2017gw.x.2nt.com/games/34.html": "games/34.html",
+    "https://viprpg2017gw.x.2nt.com/games/35.html": "games/35.html",
+    "https://viprpg2017gw.x.2nt.com/games/36.html": "games/36.html",
+    "https://viprpg2017gw.x.2nt.com/games/37.html": "games/37.html",
+    "https://viprpg2017gw.x.2nt.com/games/38.html": "games/38.html",
+    "https://viprpg2017gw.x.2nt.com/games/39.html": "games/39.html",
+    "https://viprpg2017gw.x.2nt.com/games/40.html": "games/40.html",
+    "https://viprpg2017gw.x.2nt.com/games/41.html": "games/41.html",
+    "https://viprpg2017gw.x.2nt.com/games/42.html": "games/42.html",
+    "https://viprpg2017gw.x.2nt.com/games/43.html": "games/43.html",
+    "https://viprpg2017gw.x.2nt.com/games/44.html": "games/44.html",
+    "https://viprpg2017gw.x.2nt.com/games/45.html": "games/45.html",
+    "https://viprpg2017gw.x.2nt.com/games/46.html": "games/46.html",
+    "https://viprpg2017gw.x.2nt.com/games/47.html": "games/47.html",
+    "https://viprpg2017gw.x.2nt.com/games/48.html": "games/48.html",
+    "https://viprpg2017gw.x.2nt.com/games/50.html": "games/50.html",
+    "https://viprpg2017gw.x.2nt.com/games/21.html": "games/21.html",
+    "https://viprpg2017gw.x.2nt.com/games/23.html": "games/23.html",
+    "https://viprpg2017gw.x.2nt.com/games/49.html": "games/49.html"
+  },
+  "generatedSourceGapNotices": [
+    "games/21.html",
+    "games/23.html",
+    "games/49.html"
+  ],
+  "entries": [
+    {
+      "id": "2017-gw-work-00",
+      "no": "00",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/00.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "管理人",
+        "engine": "2000",
+        "category": "サンプルゲーム",
+        "streaming": "いいよ/だめだよ",
+        "html": "サンプルゲーム<br><font color=\"#0000CC\">2000</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/00.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/00-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/00a.png",
+          "sha256": "82c5a74346a7697f0d27f2b787899b3509462136efee4bea41118a61a9103847"
+        },
+        {
+          "local": "/screenshots/2017-gw/00-source-2.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/00b.png",
+          "sha256": "f5bc61becec3fe63abb92420511e15e8ed6647217ce12fc5abb3146ea3d683f3"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-01",
+      "no": "01",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/01.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "UNKO",
+        "engine": "2000",
+        "category": "R-15ksg",
+        "streaming": "やっぱ自己責任で",
+        "html": "R-15ksg<br><font color=\"#0000CC\">2000</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/01.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/01-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/01a.png",
+          "sha256": "59eb962cdeb5f73034adac86e6c2277fe64a1cef843bf0feee23fae2251a520b"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/vipgw2017/download/1/vipgw17_01.zip",
+          "label": "DL04/27提出"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-02",
+      "no": "02",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/02.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "通りすがりの冥府神HDS",
+        "engine": "2000",
+        "category": "すごい勢いでお送りする講座ゲー",
+        "streaming": "両方とも可能（ただし自己責任）",
+        "html": "すごい勢いでお送りする講座ゲー<br><font color=\"#0000CC\">2000</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/02.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/02-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/02a.png",
+          "sha256": "e4d9b3c33c9bf78c6c3e72196f9e15607077c27f71f167227a911d918970f92d"
+        },
+        {
+          "local": "/screenshots/2017-gw/02-source-2.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/02b.png",
+          "sha256": "c1f5b737cf5773f73bda5bee92b45e9ec54c6b76ed7dcfcea3a6422c318c44c4"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/vipgw2017/download/50/vipgw17_02.zip",
+          "label": "DL05/25更新"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-03",
+      "no": "03",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/03.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "かすていら",
+        "engine": "2000",
+        "category": "物欲センサー搭載サバイバル時々運ゲーワイルドRPG",
+        "streaming": "共に可",
+        "html": "物欲センサー搭載サバイバル時々運ゲー<br>ワイルドRPG<br><font color=\"#0000CC\">2000</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/03.gif",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/03-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/03a.png",
+          "sha256": "d224b66895fc9afb1ab29440b4147facccfcf27c273b6703d16f03bedf93e2f7"
+        },
+        {
+          "local": "/screenshots/2017-gw/03-source-2.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/03b.png",
+          "sha256": "ac4f7b5515f0ee4d2e5e33a0a7c0542b0cc6d2458768b09909dd2532cb187ad5"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/vipgw2017/download/66/vipgw17_03.zip",
+          "label": "DL05/06更新"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-04",
+      "no": "04",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/04.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "ぽっこん",
+        "engine": "2003",
+        "category": "RPG",
+        "streaming": "いいよ！/来いよ！",
+        "html": "RPG<br><font color=\"#888800\">2003</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/04.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/04-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/04a.png",
+          "sha256": "19ff55a0b59fe85fa6d0c829315cac4846520def6d79b72c8b1cdba212271b49"
+        },
+        {
+          "local": "/screenshots/2017-gw/04-source-2.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/04b.png",
+          "sha256": "c3379aba5bfad8a3bb216dcab6007ba32385cac95a2cb4e91a79eb4f5ef1de31"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/vipgw2017/download/33/vipgw17_04.zip",
+          "label": "DL05/10提出"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-05",
+      "no": "05",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/05.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "suicarby",
+        "engine": "VXAce",
+        "category": "見るゲ＆デフォ戦",
+        "streaming": "OK/OK",
+        "html": "見るゲ＆デフォ戦<br><font color=\"#CC0000\">VXAce</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/05.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/05-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/05a.png",
+          "sha256": "73699501a0db118a8f6510521a23520a81c9b1e00646bfbc5743ac90f4c764dc"
+        },
+        {
+          "local": "/screenshots/2017-gw/05-source-2.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/05b.png",
+          "sha256": "d6303ed78b1dbb4561aa9b0a16893cf9cf0812b69d9475aaa9fcd97e15cb5d0f"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/vipgw2017/download/46/vipgw17_05.zip",
+          "label": "DL05/25更新"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-06",
+      "no": "06",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/06.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "F-man",
+        "engine": "2000",
+        "category": "社会風刺系フリースタイルスローライフＲＰＧ",
+        "streaming": "どうぞどうぞ　ただし自己責任でオナシャス",
+        "html": "社会風刺系フリースタイル<br>スローライフＲＰＧ<br><font color=\"#0000CC\">2000</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/06.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/06-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/06a.png",
+          "sha256": "d4ce1540577c149ef39bf23019cdd72e7c4a4fb0f29a3a2a0d284364d4c485bd"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-07",
+      "no": "07",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/07.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "マジクソケツピン聖戦士",
+        "engine": "2000",
+        "category": "ksg",
+        "streaming": "やだこわい…",
+        "html": "ksg<br><font color=\"#0000CC\">2000</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/07.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/07-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/07a.png",
+          "sha256": "3a7fa15ab48a42761c3506e8c51834b2fcf88e20a5b315d68628b3de23be8b45"
+        },
+        {
+          "local": "/screenshots/2017-gw/07-source-2.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/07b.png",
+          "sha256": "8794eeb3846fb464308445ecf6462715bce13048147dffa08c1d052ecceb9e83"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/vipgw2017/download/51/vipgw17_07.zip",
+          "label": "DL05/25提出"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-08",
+      "no": "08",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/08.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "ね",
+        "engine": "2000",
+        "category": "ｋｓｇ",
+        "streaming": "お好きに/どうぞ",
+        "html": "ｋｓｇ<br><font color=\"#0000CC\">2000</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/08.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/08-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/08a.png",
+          "sha256": "a9afd708a30d37a376939e459d9458ee7ab90072a47bce0a490cc7678b1f04ae"
+        },
+        {
+          "local": "/screenshots/2017-gw/08-source-2.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/08b.png",
+          "sha256": "3885224b7ad8b0f71efe61212924e835fc0ab97d23c2628ac13cf995ffcb7c3f"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/vipgw2017/download/23/vipgw17_08.zip",
+          "label": "DL04/27提出"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-09",
+      "no": "09",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/09.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": ".",
+        "engine": "2000",
+        "category": "見るゲ",
+        "streaming": "どちらも可",
+        "html": "見るゲ<br><font color=\"#0000CC\">2000</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/09.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/09-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/09a.png",
+          "sha256": "d69b58443978fda265c855c7a28a7b464455c02f6602a16ae7bcd559f5ab918e"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/vipgw2017/download/4/vipgw17_09.zip",
+          "label": "DL05/03提出"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-10",
+      "no": "10",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/10.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "池田さん",
+        "engine": "2000",
+        "category": "大豆ゲー",
+        "streaming": "-",
+        "html": "大豆ゲー<br><font color=\"#0000CC\">2000</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/10.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/10-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/10a.png",
+          "sha256": "f1dde17aff78de23002b47e848efdc2cd519def37d0d0aff7a1a0e7c80069ada"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-11",
+      "no": "11",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/11.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "FAH-Q",
+        "engine": "2000",
+        "category": "和風RPG・短編集",
+        "streaming": "両方可・連絡下さい見に行きます！",
+        "html": "和風RPG・短編集 <br><font color=\"#0000CC\">2000</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/11.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/11-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/11a.png",
+          "sha256": "247050d1a4183d5299c5cbfdc4d5a1fa59fb3a7b25246cb54a8afedde87a295e"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/vipgw2017/download/58/vipgw17_11.zip",
+          "label": "DL05/29更新"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-12",
+      "no": "12",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/12.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "鷹",
+        "engine": "2000",
+        "category": "夜闇",
+        "streaming": "お好きにどうぞ",
+        "html": "夜闇<br><font color=\"#0000CC\">2000</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/12.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/12-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/12a.png",
+          "sha256": "3ce6aeb2e9e421232dd56c58c96bb7b8d8b2ea9352f245704e463406634fa995"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/vipgw2017/download/5/vipgw17_12.zip",
+          "label": "DL05/03提出"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-13",
+      "no": "13",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/13.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "牧場の牛肉",
+        "engine": "2000",
+        "category": "見るゲ",
+        "streaming": "○",
+        "html": "見るゲ <br><font color=\"#0000CC\">2000</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/13.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/13-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/13a.png",
+          "sha256": "defa75220a326e162ae8c12f8b61975a71fe215a4fdb94eb89d7041c469343fe"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/vipgw2017/download/6/vipgw17_13.zip",
+          "label": "DL05/03提出"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-14",
+      "no": "14",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/14.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "焼きそば男",
+        "engine": "2000",
+        "category": "パネル型パズル",
+        "streaming": "どうぞ／どうぞ",
+        "html": "パネル型パズル<br><font color=\"#0000CC\">2000</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/14.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/14-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/14a.png",
+          "sha256": "73cbf3c30ff0021c3939301a63370613b7f60b00522b16efea277a7239c3e000"
+        },
+        {
+          "local": "/screenshots/2017-gw/14-source-2.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/14b.png",
+          "sha256": "7be3e22c7f8eba4903f0a4f233d10fa6da003caac258cc5084260dcfb48d50bd"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/vipgw2017/download/36/vipgw17_14.zip",
+          "label": "DL05/10更新"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-15",
+      "no": "15",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/15.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "ジャスティス",
+        "engine": "2000",
+        "category": "見るゲ系ksg",
+        "streaming": "ドンと来い！！",
+        "html": "見るゲ系ksg<br><font color=\"#0000CC\">2000</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/15.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/15-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/15a.png",
+          "sha256": "02f90c6bda0fd1fcc5e8649e15194b461f99bdc78064eca0952849ca9fbadbcf"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/vipgw2017/download/8/vipgw17_15.zip",
+          "label": "DL05/03提出"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-16",
+      "no": "16",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/16.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "おにぎり＠阿修羅オナニスト",
+        "engine": "2000",
+        "category": "ホラー＆アクション＆ＲＰＧ",
+        "streaming": "いいけど",
+        "html": "ホラー＆アクション＆ＲＰＧ<br><font color=\"#0000CC\">2000</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/16.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/16-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/16a.png",
+          "sha256": "c0a6fedb499a2860f5f60b55d908ec40f17831fdc2297a25b0e59322c827bd70"
+        },
+        {
+          "local": "/screenshots/2017-gw/16-source-2.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/16b.png",
+          "sha256": "2c1c5da8f8cf074b4b2ea6bcb312336790973f02368d21057fdddf6bbe08c602"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-17",
+      "no": "17",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/17.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "すしまんじゅう",
+        "engine": "2000",
+        "category": "見るゲ",
+        "streaming": "自己責任で頼むでござる",
+        "html": "見るゲ <br><font color=\"#0000CC\">2000</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/17.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/17-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/17a.png",
+          "sha256": "b69659fabadd1997a6a204787238116cd0494ce31abdc0c1a3a5f7072b8700c7"
+        },
+        {
+          "local": "/screenshots/2017-gw/17-source-2.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/17b.png",
+          "sha256": "0de6a70ed8c95718b349dad1dbe214d9f7c98a1926a5f9d6e1886f1bf2bc3c50"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/vipgw2017/download/54/vipgw17_17.zip",
+          "label": "DL05/25提出"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-18",
+      "no": "18",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/18.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "カール＝ハインツ・フリーザー",
+        "engine": "2000",
+        "category": "ｋｓｇ",
+        "streaming": "好きにしろ",
+        "html": "ｋｓｇ<br><font color=\"#0000CC\">2000</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/18.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/18-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/18a.png",
+          "sha256": "89af53c718e48699a833dd541134d734436657f485ca819767171d0cf57b8bd0"
+        },
+        {
+          "local": "/screenshots/2017-gw/18-source-2.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/18b.png",
+          "sha256": "82172eaf933227d81c5945e88926c2a11107360f2b0ecc7e643328141d3a3723"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/vipgw2017/download/30/vipgw17_18.zip",
+          "label": "DL05/06提出"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-19",
+      "no": "19",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/19.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "病葉",
+        "engine": "2000",
+        "category": "デフォ戦掌編RPG",
+        "streaming": "お好きに",
+        "html": "デフォ戦掌編RPG <br><font color=\"#0000CC\">2000</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/19.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/19-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/19a.png",
+          "sha256": "962040a355a67968a6f2231847ad4269d245c48367f1937fd79a7253dffac2f5"
+        },
+        {
+          "local": "/screenshots/2017-gw/19-source-2.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/19b.png",
+          "sha256": "41c7c98331d8227cf555100b3f7fb79855e6a4649f07ac9d3bbdf448fb2c58f6"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/vipgw2017/download/24/vipgw17_19.zip",
+          "label": "DL04/27提出"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-20",
+      "no": "20",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/20.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "かに",
+        "engine": "2000",
+        "category": "音合わせ",
+        "streaming": "可/可",
+        "html": "音合わせ<br><font color=\"#0000CC\">2000</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/20.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/20-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/20a.png",
+          "sha256": "bf31c61db88bb86da71de1bb6fc9438dfd77356b568bee0db8f9dc30c28acd89"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/vipgw2017/download/59/vipgw17_20.zip",
+          "label": "DL05/29提出"
+        },
+        {
+          "url": "http://ux.getuploader.com/vipgw2017/download/58/vipgw17_11.zip",
+          "label": "原紹介ページ：ダウンロード"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-21",
+      "no": "21",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/21.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": true,
+      "sourceMetadata": [],
+      "catalogueMetadata": {
+        "author": "-",
+        "engine": "-",
+        "category": "-",
+        "streaming": "-",
+        "html": " - <br><font color=\"#0000CC\">-</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/00.png",
+      "screenshotSources": [],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-22",
+      "no": "22",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/22.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "スライドショー",
+        "engine": "VXAce",
+        "category": "ダンジョン探索RPG",
+        "streaming": "可",
+        "html": "ダンジョン探索RPG<br><font color=\"#CC0000\">VXAce</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/22.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/22-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/22a.png",
+          "sha256": "10052a614b7e0307f48cbc8f2d939a6ecbc88d1d21dde038e7bc3bff953f5f34"
+        },
+        {
+          "local": "/screenshots/2017-gw/22-source-2.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/22b.png",
+          "sha256": "71521e28ec237bbb691a53231425cf022408891a78718f666842c91eea6f9fc4"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/vipgw2017/download/32/vipgw17_22.zip",
+          "label": "DL05/10更新"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-23",
+      "no": "23",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/23.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": true,
+      "sourceMetadata": [],
+      "catalogueMetadata": {
+        "author": "名雲きつね",
+        "engine": "2000",
+        "category": "見るエロゲ",
+        "streaming": "自己責任",
+        "html": "見るエロゲ <br><font color=\"#0000CC\">2000</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/23.png",
+      "screenshotSources": [],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/vipgw2017/download/43/vipgw17_23.zip",
+          "label": "DL05/21更新"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-24",
+      "no": "24",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/24.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "徳明",
+        "engine": "2000",
+        "category": "TRPGリプレイ見るゲ",
+        "streaming": "おｋ/OK",
+        "html": "TRPGリプレイ見るゲ<br><font color=\"#0000CC\">2000</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/24.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/24-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/24a.png",
+          "sha256": "0a092564d556e631f118879d9f07f1a3e462a52e1d2fdf886e1ea9700a193aa2"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/vipgw2017/download/48/vipgw17_24.zip",
+          "label": "DL05/25更新"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-25",
+      "no": "25",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/25.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "名無しについて",
+        "engine": "2000",
+        "category": "数番煎じのエロゲ",
+        "streaming": "自己責任",
+        "html": "数番煎じのエロゲ<br><font color=\"#0000CC\">2000</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/25.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/25-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/25a.png",
+          "sha256": "9e939923d73e735d2ba061b2c023e3a87c8fc2b1ebe879723af81fa496987d7a"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/vipgw2017/download/28/vipgw17_25.zip",
+          "label": "DL05/06更新"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-26",
+      "no": "26",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/26.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "パトラミック",
+        "engine": "2000",
+        "category": "戦略ゲーにしたい",
+        "streaming": "可能",
+        "html": "戦略ゲーにしたい<br><font color=\"#0000CC\">2000</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/26.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/26-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/26a.png",
+          "sha256": "948a3662a2ccd2fd4b97ae27e773308b5b45cdba53fa33e613cdf5ce693d4b53"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/vipgw2017/download/41/vipgw17_26.zip",
+          "label": "DL05/17提出"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-27",
+      "no": "27",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/27.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "秋草",
+        "engine": "2000",
+        "category": "レビュー＆見るゲ",
+        "streaming": "〇/〇",
+        "html": "レビュー＆見るゲ<br><font color=\"#0000CC\">2000</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/27.gif",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/27-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/27a.png",
+          "sha256": "659258bc4135660fa480d6a8214d0ba8a31e46a637d433fbdbcb4ae8dad0b9d7"
+        },
+        {
+          "local": "/screenshots/2017-gw/27-source-2.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/27b.png",
+          "sha256": "486974657bf9d0a347c2cf85a2d45284602b6dd4b169408ec58032f9186480a4"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/vipgw2017/download/63/vipgw17_27.zip",
+          "label": "DL06/01更新"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-28",
+      "no": "28",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/28.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "ゴムなし一回3万",
+        "engine": "2000",
+        "category": "田舎ち○ぽ短編集",
+        "streaming": "ゴメス「いいぞ」",
+        "html": "田舎ち○ぽ短編集<br><font color=\"#0000CC\">2000</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/28.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/28-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/28a.png",
+          "sha256": "6d53d19fed105a4d1e56bd65fb29036c357aa883a430a56a50b1942c1f438878"
+        },
+        {
+          "local": "/screenshots/2017-gw/28-source-2.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/28b.png",
+          "sha256": "6b2121eab5cdafcae23659f5c5c355ef5da610f20d6b26b27c2b4830cc1f3dab"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-29",
+      "no": "29",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/29.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "れーえ",
+        "engine": "2000",
+        "category": "百合コメ",
+        "streaming": "OKです",
+        "html": "百合コメ<br><font color=\"#0000CC\">2000</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/29.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/29-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/29a.png",
+          "sha256": "c004e775a06dff93c6d463c1315496ae0a91bdf038f1c50631837d1f4cd6d1bb"
+        },
+        {
+          "local": "/screenshots/2017-gw/29-source-2.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/29b.png",
+          "sha256": "1baa2c186305c717a00ceb10467f0f4c31d4cdb970f20a2c5193fd66feb04a83"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/vipgw2017/download/11/vipgw17_29.zip",
+          "label": "DL05/03提出"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-30",
+      "no": "30",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/30.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "剣ヶ峰おじいさん",
+        "engine": "2000",
+        "category": "ソーシャルゲーム（アニメ放送前に終了）",
+        "streaming": "可・可",
+        "html": "ソーシャルゲーム（アニメ放送前に終了）<br><font color=\"#0000CC\">2000</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/30.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/30-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/30a.png",
+          "sha256": "3f2dce3d00d1d92fcbf30434fb6388c4b4240f9d9233dd5250222f3cf84b5320"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/vipgw2017/download/12/vipgw17_30.zip",
+          "label": "DL04/27提出"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-31",
+      "no": "31",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/31.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "ドナルド・マクドナルド",
+        "engine": "2000",
+        "category": "糞",
+        "streaming": "自己責任",
+        "html": "糞<br><font color=\"#0000CC\">2000</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/31.gif",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/31-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/31a.png",
+          "sha256": "d579f5c9563bb54131a1f4f4dedc010af88cd37bb4f7da40fa8d6d878ab0fc59"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/vipgw2017/download/13/vipgw17_31.zip",
+          "label": "DL04/29提出"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-32",
+      "no": "32",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/32.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "作者名",
+        "engine": "2000",
+        "category": "たぶんksg",
+        "streaming": "応相談",
+        "html": "たぶんksg<br><font color=\"#0000CC\">2000</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/32.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/32-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/32a.png",
+          "sha256": "f04ee46b553f5674a445bdaf29165e057e37e3f9a54cddc4ffe1ddc8a14d7fd0"
+        },
+        {
+          "local": "/screenshots/2017-gw/32-source-2.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/32b.png",
+          "sha256": "30671d822cc1c60b1393d0f1f821b50b58a79617b7e30b9f596e710c4575af02"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/vipgw2017/download/57/vipgw17_32.zip",
+          "label": "DL05/29提出"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-33",
+      "no": "33",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/33.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "女体化ダークメカアレックス",
+        "engine": "2000",
+        "category": "ksg",
+        "streaming": "いっすよ/いっすよ",
+        "html": "ksg<br><font color=\"#0000CC\">2000</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/33.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/33-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/33a.png",
+          "sha256": "b5cc9f21a733fc1f72b4d87e45171c4e15e4433dfdfde35aa3546924d79d574e"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/vipgw2017/download/14/vipgw17_33.zip",
+          "label": "DL05/03提出"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-34",
+      "no": "34",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/34.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "黒蟻博士",
+        "engine": "VXAce",
+        "category": "ｋｓｇ集",
+        "streaming": "両方いいけどエッチなシーンあるよ",
+        "html": "ｋｓｇ集<br><font color=\"#CC0000\">VXAce</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/34.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/34-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/34a.png",
+          "sha256": "72ab2c67a9e362182fb4489c5d3483c32b7ad30cf75a05cd8a716df91c386ad9"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/vipgw2017/download/15/vipgw17_34.zip",
+          "label": "DL05/03提出"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-35",
+      "no": "35",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/35.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "Ｓ○Ｋ大好きっ子",
+        "engine": "2000",
+        "category": "ＫＯＦのＲＰＧがやりたかっただけ",
+        "streaming": "どうぞ",
+        "html": "ＫＯＦのＲＰＧがやりたかっただけ<br><font color=\"#0000CC\">2000</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/35.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/35-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/35a.png",
+          "sha256": "23925b25f00727d50a7e4a5e782122a6d30351df90741f1fe8bda386d81d5536"
+        },
+        {
+          "local": "/screenshots/2017-gw/35-source-2.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/35b.png",
+          "sha256": "164d575cab7441f5c5f0126ab6d4c1d277a7623f3a5a8f57cf772065399423fc"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/vipgw2017/download/20/vipgw17_35.zip",
+          "label": "DL05/03提出"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-36",
+      "no": "36",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/36.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "vippantsuX",
+        "engine": "2000",
+        "category": "ホラー系とみせかけてただの排泄物",
+        "streaming": "X/無許可はX",
+        "html": "ホラー系とみせかけてただの排泄物<br><font color=\"#0000CC\">2000</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/36.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/36-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/36a.png",
+          "sha256": "3f310746c3d57dfa1fb856a94f7d6209115841a02f4d080e86f7bf433bf19765"
+        },
+        {
+          "local": "/screenshots/2017-gw/36-source-2.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/36b.png",
+          "sha256": "4be798bc6868ee86dcf8caa8e05df3630a756f89cc0ec98b1b401a4191ee8bfd"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/vipgw2017/download/31/vipgw17_36.zip",
+          "label": "DL05/06更新"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-37",
+      "no": "37",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/37.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "（Ｒ）ＤＵ",
+        "engine": "2000",
+        "category": "ユルーいやるゲー",
+        "streaming": "両方ともＯＫ",
+        "html": "ユルーいやるゲー<br><font color=\"#0000CC\">2000</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/37.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/37-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/37a.png",
+          "sha256": "6292376ba2f54ed9158b267410d5e26b998b89ef7a1706e483c38665940ea5f1"
+        },
+        {
+          "local": "/screenshots/2017-gw/37-source-2.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/37b.png",
+          "sha256": "b71f51aa738c6506d122e0913222e797cce794425885cffd4a8a253df21ce6eb"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/vipgw2017/download/61/vipgw17_37.zip",
+          "label": "DL05/31提出"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-38",
+      "no": "38",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/38.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "iSOC-7(アイゾック セブン)",
+        "engine": "2000",
+        "category": "RPG…というよりも素材集に近い",
+        "streaming": "両方とも可能",
+        "html": "RPG…というよりも素材集に近い<br><font color=\"#0000CC\">2000</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/38.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/38-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/38a.png",
+          "sha256": "e9c38364d9b80db2c5b7d2f63d13e4958790b0c647e4c045c03ffd82180f87b3"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/vipgw2017/download/56/vipgw17_38.zip",
+          "label": "DL05/29提出"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-39",
+      "no": "39",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/39.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "エントリー期限短くなったの聞いてない人",
+        "engine": "2000",
+        "category": "ksg",
+        "streaming": "可/可",
+        "html": "ksg<br><font color=\"#0000CC\">2000</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/39.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/39-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/39a.png",
+          "sha256": "d8251b9b4206a75b7b7c3c0d6a717f6b36612d1478f21d4deacfe24ab42d1f29"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/vipgw2017/download/53/vipgw17_39.zip",
+          "label": "DL05/25提出"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-40",
+      "no": "40",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/40.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "クルマユ大好き丸",
+        "engine": "2000",
+        "category": "ksg",
+        "streaming": "可|可",
+        "html": "ksg<br><font color=\"#0000CC\">2000</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/40.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/40-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/40a.png",
+          "sha256": "1a589d5c3e29b037f3129c5720ec218191178f2151aeeed968d495899b63b895"
+        },
+        {
+          "local": "/screenshots/2017-gw/40-source-2.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/40b.png",
+          "sha256": "599b1242abc76de59fe2c76dcfaf593d2dbb7b0e2e39e12acdda24f0450d84fc"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/vipgw2017/download/64/vipgw17_40.zip",
+          "label": "DL06/01提出"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-41",
+      "no": "41",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/41.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "ALPHA",
+        "engine": "2000",
+        "category": "パズル",
+        "streaming": "不可/不可",
+        "html": "パズル<br><font color=\"#0000CC\">2000</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/41.gif",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/41-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/41a.png",
+          "sha256": "e2f42c1fd5a69b95fd4b03e3e928dd135182d6c7e9761a824ba87750fff07003"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/vipgw2017/download/35/vipgw17_41.zip",
+          "label": "DL05/10更新"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-42",
+      "no": "42",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/42.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "メガカボス",
+        "engine": "2000",
+        "category": "何か面白い同人卓上ゲーム見つけたから勝手に宣伝してみる系の見るゲ",
+        "streaming": "応相談",
+        "html": "何か面白い同人卓上ゲーム見つけたから勝手に宣伝してみる系の見るゲ<br><font color=\"#0000CC\">2000</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/42.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/42-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/42a.png",
+          "sha256": "b232e5d365e8d794a8b5a5adb5f0b91a3b7b0e7732f308fd2372dfa4a1a552e6"
+        },
+        {
+          "local": "/screenshots/2017-gw/42-source-2.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/42b.png",
+          "sha256": "676ab1810a137ad38023aa905a84d0dee614a3f92c8a9e953abea6e24a65d3c2"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/vipgw2017/download/38/vipgw17_42.zip",
+          "label": "DL05/10提出"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-43",
+      "no": "43",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/43.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "やらわか",
+        "engine": "2000",
+        "category": "総当り育成パズル",
+        "streaming": "可/可",
+        "html": "総当り育成パズル<br><font color=\"#0000CC\">2000</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/43.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/43-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/43a.png",
+          "sha256": "67e7458160e54e1f3704facc1d5d7c7825e2f6cc2a7d4021605fe32f4cad6a2c"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/vipgw2017/download/55/vipgw17_43.zip",
+          "label": "DL05/29更新"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-44",
+      "no": "44",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/44.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "C#大好き丸",
+        "engine": "2k～MV",
+        "category": "ツール",
+        "streaming": "o/o",
+        "html": "ツール<br><font color=\"#333333\">2k～MV</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/44.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/44-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/44a.png",
+          "sha256": "ddb87257c4936d2c063f75a51677ece53e8161a394b4c99e33c2e1b8060d1b9f"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/vipgw2017/download/49/vipgw17_44.zip",
+          "label": "DL05/25更新"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-45",
+      "no": "45",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/45.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "脂はむ",
+        "engine": "2000",
+        "category": "ホラー",
+        "streaming": "可能/可能",
+        "html": "ホラー<br><font color=\"#0000CC\">2000</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/45.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/45-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/45a.png",
+          "sha256": "aa7dcb24e6744c5a81bbd3838148110b3f20e917beb7f76fcdb8461fcb436d7f"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-46",
+      "no": "46",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/46.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "フャイル",
+        "engine": "2000",
+        "category": "ksg",
+        "streaming": "どちらも自己責任でお願いします",
+        "html": "ksg<br><font color=\"#0000CC\">2000</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/46.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/46-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/46a.png",
+          "sha256": "7f8d1e0a40726fcc6104bc28f50fc555d2b915b13f67c48c8bd1339c652e30c1"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/vipgw2017/download/62/vipgw17_46.zip",
+          "label": "DL05/31提出"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-47",
+      "no": "47",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/47.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "カチコチ",
+        "engine": "2000",
+        "category": "恋愛＆カード",
+        "streaming": "○/○",
+        "html": "恋愛＆カード<br><font color=\"#0000CC\">2000</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/47.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/47-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/47a.png",
+          "sha256": "7eb66af37b3073f3ba70379f1aecda3c122b5e3402046854900bce5ddeedd4f7"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/vipgw2017/download/65/vipgw17_47.zip",
+          "label": "DL06/01提出"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-48",
+      "no": "48",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/48.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "脳内住民",
+        "engine": "2000",
+        "category": "ksg",
+        "streaming": "やるっていうなら相手になるぞ！",
+        "html": "ksg<br><font color=\"#0000CC\">2000</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/48.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/48-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/48a.png",
+          "sha256": "021f4e38827b1a658bc7af20fccf0f983f6b3961bd5c6e9f67df0c36ae0e2d8d"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/vipgw2017/download/19/vipgw17_48.zip",
+          "label": "DL05/03登録"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-49",
+      "no": "49",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/49.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": true,
+      "sourceMetadata": [],
+      "catalogueMetadata": {
+        "author": "-",
+        "engine": "-",
+        "category": "-",
+        "streaming": "-",
+        "html": "-<br><font color=\"#0000CC\">-</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/00.png",
+      "screenshotSources": [],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-gw-work-50",
+      "no": "50",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/50.html",
+      "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
+      "sourceDetailUnavailable": false,
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
+      "catalogueMetadata": {
+        "author": "◆2aLlGIkY8s",
+        "engine": "2000",
+        "category": "ｋｓｇ",
+        "streaming": "カイ/ワレ",
+        "html": "ｋｓｇ<br><font color=\"#0000CC\">2000</font>"
+      },
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/50.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/50-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/50a.png",
+          "sha256": "933dbc8843595c6dcbd24b2bca2af4e4712126b644f5d0ee5ec07699d0ad723a"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "http://ux.getuploader.com/vipgw2017/download/45/vipgw17_50.zip",
+          "label": "DL05/21提出"
+        }
+      ],
+      "packagesDownloaded": false
+    }
+  ],
+  "bannerSources": [
+    {
+      "local": "/banners/2017-gw/source-1.png",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/b2017-1.png",
+      "sha256": "27eab23c89b971e616afdf28ddfdea6edf1851eed7f21841739b9ad2aa0a9162"
+    },
+    {
+      "local": "/banners/2017-gw/source-2.png",
+      "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/b2017-2.png",
+      "sha256": "7d3a134f798f91e9dc8384f8ef9eb7ddac4dd61cb144f720742cbe6220ce4f73"
+    }
+  ],
+  "handling": "Direct archival without topic or pixel screening. Preserve all51 source catalogue rows. 21/49 are unlinked;23 introduction returns a hosting error. All three keep complete neutral gap skeletons, without restricted flags. Raw hosting-error responses remain evidence but are not treated as introductions.",
+  "desktopReview": "passed-desktop-only",
+  "desktopEvidence": "desktop-review.json",
+  "presentationCorrections": "investigation/presentation-corrections.json",
+  "sourceGapEvidence": "investigation/source-gap-review.json"
+}

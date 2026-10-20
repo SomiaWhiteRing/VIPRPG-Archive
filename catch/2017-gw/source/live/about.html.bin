@@ -1,0 +1,582 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<html>
+<head>
+<meta http-equiv="Content-Script-Type" content="text/html; charset=UTF-8" />
+</head>
+ <style type="text/css">
+ 
+img{margin: 0; padding: 0; vertical-align: bottom;}
+.med{font-size: 2pt; line-height: 480%;}
+ </style>
+<body style="background: url(./image/bg.jpg); background-repeat: no-repeat; background-color: #FFFFFF; background-attachment:fixed;">
+<font color="#000000" face="meiryo" size=2">
+
+<br>
+
+<table style="background-color:#FFFFFF; filter:alpha(opacity=90); -moz-opacity:0.9; opacity:0.9; margin-left: 60px;" width="600"  border="2" cellspacing="2" cellpadding="2" bordercolor="#669999" id="pickup">
+<tr>
+<td colspan="2"><b><center>本日のピックアップ</center></b></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</table>
+
+<script>
+
+var games = 50;
+
+var tdy = new Date();
+var month = tdy.getMonth()+1;
+var day = tdy.getDate();
+
+var rnd = 0;
+
+rnd = month*999 + day*79 + 8;
+if (rnd > 9999) {rnd -= month*500;}
+rnd = rnd*rnd; rnd = rnd/100; rnd = Math.floor(rnd); rnd= rnd%10000; 
+game_a = rnd % games + 1;
+
+rnd = month*1002 + day*82 + 14;
+if (rnd > 9999) {rnd -= month*500;}
+rnd = rnd*rnd; rnd = rnd/100; rnd = Math.floor(rnd); rnd= rnd%10000;
+game_b = rnd % games + 1;
+
+if (game_a == game_b) {game_b = (game_a + 1) % games;}
+if (game_a == 21) {game_a = (game_a + day) % games + 1}
+if (game_b == 21) {game_b = (game_a + day + 4) % games + 1}
+
+
+if (game_a == 1){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/01a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/01.html'>No.1 NUDNOANIOGEE</a>";}
+if (game_b == 1){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/01a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/01.html'>No.1 NUDNOANIOGEE</a>";}
+
+if (game_a == 2){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/02a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/02.html'>No.2 HDS様たちと学ぶシャドバ講座</a>";}
+if (game_b == 2){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/02a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/02.html'>No.2 HDS様たちと学ぶシャドバ講座</a>";}
+
+if (game_a == 3){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/03a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/03.html'>No.3 スピリットブレスオブザワイルド</a>";}
+if (game_b == 3){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/03a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/03.html'>No.3 スピリットブレスオブザワイルド</a>";}
+
+if (game_a == 4){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/04a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/04.html'>No.4 もしもンクエストモンスターズ2 ～ポテチのふしぎな鍵～ 体験版2</a>";}
+if (game_b == 4){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/04a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/04.html'>No.4 もしもンクエストモンスターズ2 ～ポテチのふしぎな鍵～ 体験版2</a>";}
+
+if (game_a == 5){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/05a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/05.html'>No.5 短編詰め合わせGW2017</a>";}
+if (game_b == 5){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/05a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/05.html'>No.5 短編詰め合わせGW2017</a>";}
+
+if (game_a == 6){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/06a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/06.html'>No.6 CHOCOLAIT DAWN２</a>";}
+if (game_b == 6){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/06a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/06.html'>No.6 CHOCOLAIT DAWN２</a>";}
+
+if (game_a == 7){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/07a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/07.html'>No.7 ジーク・ハイル・ダーク・キャロル！</a>";}
+if (game_b == 7){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/07a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/07.html'>No.7 ジーク・ハイル・ダーク・キャロル！</a>";}
+
+if (game_a == 8){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/08a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/08.html'>No.8 もしもクリアクリーン</a>";}
+if (game_b == 8){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/08a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/08.html'>No.8 もしもクリアクリーン</a>";}
+
+if (game_a == 9){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/09a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/09.html'>No.9 よわいこころ</a>";}
+if (game_b == 9){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/09a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/09.html'>No.9 よわいこころ</a>";}
+
+if (game_a == 10){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/10a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/10.html'>No.10 大豆くん、死す。</a>";}
+if (game_b == 10){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/10a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/10.html'>No.10 大豆くん、死す。</a>";}
+
+if (game_a == 11){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/11a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/11.html'>No.11 万華郷　～外伝～</a>";}
+if (game_b == 11){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/11a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/11.html'>No.11 万華郷　～外伝～</a>";}
+
+if (game_a == 12){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/12a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/12.html'>No.12 夜霧</a>";}
+if (game_b == 12){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/12a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/12.html'>No.12 夜霧</a>";}
+
+if (game_a == 13){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/13a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/13.html'>No.13 悲しみに光を</a>";}
+if (game_b == 13){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/13a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/13.html'>No.13 悲しみに光を</a>";}
+
+if (game_a == 14){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/14a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/14.html'>No.14 StarLight☆Mountain</a>";}
+if (game_b == 14){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/14a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/14.html'>No.14 StarLight☆Mountain</a>";}
+
+if (game_a == 15){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/15a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/15.html'>No.15 むきむき斜視子はインドで懲役</a>";}
+if (game_b == 15){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/15a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/15.html'>No.15 むきむき斜視子はインドで懲役</a>";}
+
+if (game_a == 16){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/16a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/16.html'>No.16 デューステイル　魂の流刑地　おためし版</a>";}
+if (game_b == 16){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/16a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/16.html'>No.16 デューステイル　魂の流刑地　おためし版～</a>";}
+
+if (game_a == 17){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/17a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/17.html'>No.17 デトックスラジオ・ザ・ニンジャ</a>";}
+if (game_b == 17){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/17a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/17.html'>No.17 デトックスラジオ・ザ・ニンジャ</a>";}
+
+if (game_a == 18){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/18a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/18.html'>No.18 電撃戦という幻</a>";}
+if (game_b == 18){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/18a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/18.html'>No.18 電撃戦という幻</a>";}
+
+if (game_a == 19){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/19a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/19.html'>No.19 さらばケゴール島</a>";}
+if (game_b == 19){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/19a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/19.html'>No.19 さらばケゴール島</a>";}
+
+if (game_a == 20){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/20a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/20.html'>No.20 プライド革命</a>";}
+if (game_b == 20){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/20a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/20.html'>No.20 プライド革命</a>";}
+
+if (game_a == 21){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/21a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/21.html'>No.21 暗殺者やみっちⅠ　＆　暗殺者やみっちⅡ-守護者煮干-</a>";}
+if (game_b == 21){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/21a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/21.html'>No.21 暗殺者やみっちⅠ　＆　暗殺者やみっちⅡ-守護者煮干-</a>";}
+
+if (game_a == 22){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/22a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/22.html'>No.22 Dungeon of Mebius 2</a>";}
+if (game_b == 22){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/22a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/22.html'>No.22 Dungeon of Mebius 2</a>";}
+
+if (game_a == 23){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/23a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/23.html'>No.23 POISON MIST</a>";}
+if (game_b == 23){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/23a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/23.html'>No.23 POISON MIST</a>";}
+
+if (game_a == 24){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/24a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/24.html'>No.24 魔法達のCoC～檸檬色の帆～</a>";}
+if (game_b == 24){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/24a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/24.html'>No.24 魔法達のCoC～檸檬色の帆～</a>";}
+
+if (game_a == 25){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/25a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/25.html'>No.25 ただセリフ(とか)を変えただけのエロゲ</a>";}
+if (game_b == 25){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/25a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/25.html'>No.25 ただセリフ(とか)を変えただけのエロゲ</a>";}
+
+if (game_a == 26){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/26a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/26.html'>No.26 最高にして最後の預言者の旅</a>";}
+if (game_b == 26){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/26a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/26.html'>No.26 最高にして最後の預言者の旅</a>";}
+
+if (game_a == 27){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/27a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/27.html'>No.27 自作レビュー2016年度版</a>";}
+if (game_b == 27){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/27a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/27.html'>No.27 自作レビュー2016年度版</a>";}
+
+if (game_a == 28){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/28a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/28.html'>No.28 ド田舎に転校してきたギャルが田舎ち○ぽにヤられまくり！</a>";}
+if (game_b == 28){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/28a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/28.html'>No.28 ド田舎に転校してきたギャルが田舎ち○ぽにヤられまくり！</a>";}
+
+if (game_a == 29){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/29a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/29.html'>No.29 妖精の雑貨屋さん</a>";}
+if (game_b == 29){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/29a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/29.html'>No.29 妖精の雑貨屋さん</a>";}
+
+if (game_a == 30){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/30a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/30.html'>No.30 ミリしらフレンズ</a>";}
+if (game_b == 30){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/30a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/30.html'>No.30 ミリしらフレンズ</a>";}
+
+if (game_a == 31){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/31a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/31.html'>No.31 もしも○○洗式だったら</a>";}
+if (game_b == 31){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/31a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/31.html'>No.31 もしも○○洗式だったら</a>";}
+
+if (game_a == 32){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/32a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/32.html'>No.32 この醜悪な世界に終末を！～最終編～</a>";}
+if (game_b == 32){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/32a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/32.html'>No.32 この醜悪な世界に終末を！～最終編～</a>";}
+
+if (game_a == 33){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/33a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/33.html'>No.33 どうしよっか体操</a>";}
+if (game_b == 33){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/32a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/33.html'>No.33 どうしよっか体操</a>";}
+
+if (game_a == 34){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/34a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/34.html'>No.34 ｋｓｇ10連発VXA</a>";}
+if (game_b == 34){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/34a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/34.html'>No.34 ｋｓｇ10連発VXA</a>";}
+
+if (game_a == 35){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/35a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/35.html'>No.35 アレックスもどきがキング・オブ・ファイターズに出場するＲＰＧ</a>";}
+if (game_b == 35){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/35a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/35.html'>No.35 アレックスもどきがキング・オブ・ファイターズに出場するＲＰＧ</a>";}
+
+if (game_a == 36){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/36a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/36.html'>No.36 新約運命人間X</a>";}
+if (game_b == 36){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/36a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/36.html'>No.36 新約運命人間X</a>";}
+
+if (game_a == 37){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/37a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/37.html'>No.37 Burstey　～思い出の中の閃光～</a>";}
+if (game_b == 37){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/37a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/37.html'>No.37 Burstey　～思い出の中の閃光～</a>";}
+
+if (game_a == 38){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/38a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/38.html'>No.38 iSOC-7の、RPGツクール95サルベージ大作戦。</a>";}
+if (game_b == 38){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/38a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/38.html'>No.38 iSOC-7の、RPGツクール95サルベージ大作戦。</a>";}
+
+if (game_a == 39){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/39a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/39.html'>No.39 ポイとパラ</a>";}
+if (game_b == 39){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/39a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/39.html'>No.39 ポイとパラ</a>";}
+
+if (game_a == 40){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/40a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/40.html'>No.40 邪妖精</a>";}
+if (game_b == 40){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/40a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/40.html'>No.40 邪妖精</a>";}
+
+if (game_a == 41){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/41a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/41.html'>No.41 一筆書き迷路</a>";}
+if (game_b == 41){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/41a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/41.html'>No.41 一筆書き迷路</a>";}
+
+if (game_a == 42){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/42a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/42.html'>No.42 もしも式　異世界転生ゲーム（宣伝）</a>";}
+if (game_b == 42){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/42a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/42.html'>No.42 もしも式　異世界転生ゲーム（宣伝）</a>";}
+
+if (game_a == 43){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/43a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/43.html'>No.43 もしもGR○Wだったら</a>";}
+if (game_b == 43){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/43a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/43.html'>No.43 もしもGR○Wだったら</a>";}
+
+if (game_a == 44){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/44a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/44.html'>No.44 もしも俺々仕様のRPGツクールローダーがあったら</a>";}
+if (game_b == 44){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/44a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/44.html'>No.44 もしも俺々仕様のRPGツクールローダーがあったら</a>";}
+
+if (game_a == 45){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/45a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/45.html'>No.45 おぼぎり草</a>";}
+if (game_b == 45){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/45a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/45.html'>No.45 おぼぎり草</a>";}
+
+if (game_a == 46){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/46a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/46.html'>No.46 おう゛ぁる・くるせいだー</a>";}
+if (game_b == 46){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/46a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/46.html'>No.46 おう゛ぁる・くるせいだー</a>";}
+
+if (game_a == 47){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/47a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/47.html'>No.47イケメンからチョコもらおう！</a>";}
+if (game_b == 47){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/47a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/47.html'>No.47イケメンからチョコもらおう！</a>";}
+
+if (game_a == 48){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/48a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/48.html'>No.48 締め切り2時間前ksg</a>";}
+if (game_b == 48){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/48a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/48.html'>No.48 締め切り2時間前ksg</a>";}
+
+if (game_a == 49){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/49a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/49.html'>No.49 思い焦がれた姿</a>";}
+if (game_b == 49){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/49a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/49.html'>No.49 思い焦がれた姿</a>";}
+
+if (game_a == 50){
+pickup.rows[1].cells[0].innerHTML = "<img src='./image/ss/50a.png' width='320'>";
+pickup.rows[2].cells[0].innerHTML = "<a href='./games/50.html'>No.50 ヨエホノ</a>";}
+if (game_b == 50){
+pickup.rows[1].cells[1].innerHTML = "<img src='./image/ss/50a.png' width='320'>";
+pickup.rows[2].cells[1].innerHTML = "<a href='./games/50.html'>No.50 ヨエホノ</a>";}
+
+</script>
+
+
+
+
+
+<br>
+
+
+<table style="background-color:#FFFFFF; filter:alpha(opacity=80); -moz-opacity:0.8; opacity:0.8; margin-left: 20px;" width="750" border="2" cellspacing="2" cellpadding="5" bordercolor="#669999">
+<tr>
+ <td><b>企画概要</b></td>
+</tr>
+<tr>
+ <td>
+VIPRPG GW祭はニュース速報VIP板RPGツクールスレッドで毎年開催されている、<br>
+ツクール作品を公開しあい感想を付け合う事を目的とした企画です。<br>
+過去のGW祭についてはページ下部のリンクからご覧ください。<br>
+</td>
+</tr>
+</table>
+
+<br>
+
+<table style="background-color:#FFFFFF; filter:alpha(opacity=80); -moz-opacity:0.8; opacity:0.8; margin-left: 20px;" width="750" border="2" cellspacing="2" cellpadding="5" bordercolor="#669999">
+<tr>
+ <td><b>参加条件</b></td>
+</tr>
+<tr>
+ <td>
+・ツクール製の作品であること or ツクールに関係したツールであること<br>
+・一人一作品まで<br>
+・ジャンル不問　VIPやもしもとか意識しなくてもおｋ<br>
+ </td>
+</tr>
+</table>
+
+<br>
+
+<table style="background-color:#FFFFFF; filter:alpha(opacity=80); -moz-opacity:0.8; opacity:0.8; margin-left: 20px;" width="750" border="2" cellspacing="2" cellpadding="5" bordercolor="#669999">
+<tr>
+ <td><b>日程</b></td>
+</tr>
+<tr>
+ <td>
+04/18　エントリー受付開始<br>
+04/23　作品提出受付開始<br>
+05/02　エントリー受付終了<br>
+05/03　作品公開<br>
+05/31　作品提出・更新の受付終了<br>
+06/01　更新終了
+ </td>
+</tr>
+</table>
+
+<br>
+
+<table style="background-color:#FFFFFF; filter:alpha(opacity=80); -moz-opacity:0.8; opacity:0.8; margin-left: 20px;" width="750" border="2" cellspacing="2" cellpadding="5" bordercolor="#669999">
+<tr>
+ <td><b>応募方法</b></td>
+</tr>
+<tr>
+ <td>
+【作者名】<br>
+【作品タイトル】<br>
+【使用ツクール】<br>
+【配信/動画投稿の可否】<br>
+【作者コメント】<br>
+【作品のスクリーンショット】<br>
+【作品のジャンル】<br>
+【アイコン】<br>
+
+<br>
+以上の項目を明記、添付したメールを<br>
+<b>　vip2017gw-entry◆yahoo.co.jp</b> (◆→@)<br>
+へお送りください。<br>
+<br>
+※スクリーンショットについて<br>
+　640*480pxのPNG・BMP形式の画像とし、二枚まで指定できます。<br>
+　もしこれ以外のサイズの場合、こちらでリサイズさせて頂きます。<br>
+　二枚指定する場合、マウスロールオーバーでどちらを表示するかの指定もお願いします。<br>
+<br>
+※アイコンについて<br>
+　32*32pxのpng・bmp・GIF形式の画像とします。<br>
+　未指定の場合は実行ファイルのアイコンとなります。<br>
+ </td>
+</tr>
+</table>
+
+<br>
+
+<table style="background-color:#FFFFFF; filter:alpha(opacity=80); -moz-opacity:0.8; opacity:0.8; margin-left: 20px;" width="750" border="2" cellspacing="2" cellpadding="5" bordercolor="#669999">
+<tr>
+ <td><b>作品提出について</b></td>
+</tr>
+<tr>
+ <td>
+【作品名/作品No.】<br>
+【アップローダへのURL】<br>
+【ダウンロードパス】<br>
+<br>
+作品をアップローダに提出の上、以上の項目を明記したメールを上記のエントリー用アドレスにお送りください。<br>
+なお、作品公開日以降はダウンロードパスの設定は必須ではないものとします。<br>
+エントリーと同時の提出も可能です。<br>
+<br>
+作品の提出はこちらにお願いします。<br>
+<a href="http://ux.getuploader.com/vip2017gw_1/" target="contents"><b><font size=4>作品提出用アップローダ</font></b></a>
+ </td>
+</tr>
+</table>
+
+<br>
+
+<table style="background-color:#FFFFFF; filter:alpha(opacity=80); -moz-opacity:0.8; opacity:0.8; margin-left: 20px;" width="750" border="2" cellspacing="2" cellpadding="5" bordercolor="#669999">
+<tr>
+ <td><b>作品更新について</b></td>
+</tr>
+<tr>
+ <td>
+バグ修正などでアップデートが必要となった場合、作品を更新することができます。<br>
+更新を行いたい場合は<br>
+【作品名/作品No.】<br>
+【アップローダへのURL】<br>
+を明記したメールを上記のエントリー用アドレスにお送りください。<br>
+<br>
+パッチとして提出する場合は、修正データを以下の修正パッチ用アップローダに上げてください。<br>
+運営側が本体にパッチを当て、再度アップロードを行います。<br>
+パッチではなく本体ごとアップロードする場合は作品提出用アップローダにお願いします。<br>
+<br>
+<a href="http://ux.getuploader.com/vip2017gw_patch/"><b><font size=4>修正パッチ用アップローダ</font></b></a>
+
+ </td>
+</tr>
+</table>
+
+<br>
+
+<table style="background-color:#FFFFFF; filter:alpha(opacity=80); -moz-opacity:0.8; opacity:0.8; margin-left: 20px;" width="750" border="2" cellspacing="2" cellpadding="5" bordercolor="#669999">
+<tr>
+ <td><b>リンク</b></td>
+</tr>
+<tr>
+ <td>
+<span class="med">
+　　<a href="http://www.geocities.jp/viprpg2016gw/" target="_blank"><img src="./image/b2016.png" ></a>　　
+<a href="http://www.geocities.jp/viprpg2015gw/" target="_blank"><img src="./image/b2015.png" ></a>　　
+<a href="http://viprpg2014gw.web.fc2.com/" target="_blank"><img src="./image/b2014.png" ></a><br>
+
+　　<a href="http://viprpg2013gw.web.fc2.com/index.html" target="_blank"><img src="./image/b2013.png" ></a>　　
+<a href="http://viprpg2012gw.web.fc2.com/top.html" target="_blank"><img src="./image/b2012.png" ></a>　　
+<a href="http://www.geocities.jp/vip_gw2011/" target="_blank"><img src="./image/b2011.png" ></a><br>
+
+　　<a href="http://sky.geocities.jp/gw2010tktk/" target="_blank"><img src="./image/b2010.png" ></a>　　
+<a href="http://www.geocities.jp/vip_gw2011/vip_2009gw/index.html" target="_blank"><img src="./image/b2009.png" ></a>　　
+<a href="http://www.geocities.jp/viprpg_gw_2008/" target="_blank"><img src="./image/b2008.png" ></a><br>
+
+　　<a href="http://www.geocities.jp/viprpg_gw2007/" target="_blank"><img src="./image/b2007.png" ></a>　　
+<a href="http://www.geocities.jp/viprpg_gw/" target="_blank"><img src="./image/b2006.png" ></a>
+</span>
+ </td>
+</tr>
+</table>
+
+<br>
+
+<script><!--
+var footerparam = 'charset=' + encodeURIComponent(document.charset ? document.charset : document.characterSet) + '&url=' + encodeURIComponent(document.location) + '&service=1&r=' + Math.floor(Math.random()*99999999999);
+var footertag = "//vip-chps-api.2nt.com/apis/footer/?" + footerparam;
+var script = document.createElement('script');
+script.src = footertag;
+script.charset = "UTF-8";
+script.async = true;
+document.getElementsByTagName('head')[0].appendChild(script);
+//--></script>
+<!-- 2nt, inc.-->
+<img src="//media.fc2.com/counter_img.php?id=50" style="display:none" alt="inserted by 2nt system" width="0" height="0">
+<!-- 2nt, inc.--></body>
+</html>

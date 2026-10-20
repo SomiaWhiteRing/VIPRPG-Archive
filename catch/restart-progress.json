@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2017-gw",
+  "activeFestival": "2017-kouhaku",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -2063,6 +2063,29 @@
         "catch/2018-summer/investigation/local-http-payloads.json"
       ],
       "notes": "日本节点核对源入口及详情：FC2镜像连接重置，Geocities HTTP转向关闭服务主机，HTTPS入口404；不将连接失败当成无存档。香港节点从CDX恢复46份UTF-8 HTML（目录、00样例和01至44介绍）及107项有CDX依据的依赖，全部SHA1和本地SHA256核对；另直接取回No.02带.png的悬停别名，字节与无扩展名的已验证图片完全相同，两种地址都保留。45既有ID、编号、题名保持，90段作者／管理人留言完整比对；45图标、56截图及2张本祭典横幅按真实格式保存，旧56画廊全部字节对应。旧额外两横幅未在本批来源找到字节对应，保留原文件，展示采用当前来源明确引用的两张。目录类型／工具原字段分别归档，无分组列或分组段落，不补造分组。保留30项配布入口的31条目录／介绍链接，未下载游戏包。原貌153文件／46HTML，380静态引用加90悬停引用无缺失、无外部自动加载。45整理详情及45原貌详情、入口目录均通过桌面结构／图片／宽度检查；09号首读延迟图片复核正常。真实沙箱目录进00样例、样例进01，09原貌悬停、截图查看器切换／关闭／Esc、首页45图标与2横幅加载和末项往返通过。256展示文件HTTP载荷与本地SHA一致，构建4208页、lint和数据校验通过。未新增受限，未审看题材或像素内容。"
+    },
+    {
+      "festivalId": "2017-gw",
+      "reviewedAt": "2026-10-21",
+      "dataSha256": "691fed0d62b39fef612ffc64e7763da6b22cfc5a2c387570be490bd9122e7ce5",
+      "works": 51,
+      "screenshotFiles": 70,
+      "status": "reviewed-with-exceptions",
+      "sourceEvidence": [
+        "catch/2017-gw/recovery.json",
+        "catch/2017-gw/source-comparison.json",
+        "catch/2017-gw/source/live/manifest.json",
+        "catch/2017-gw/source/resources/manifest.json",
+        "catch/2017-gw/investigation/source-gap-review.json",
+        "catch/2017-gw/investigation/presentation-corrections.json",
+        "catch/2017-gw/investigation/old-gallery-reconciliation.json",
+        "catch/2017-gw/investigation/replay-closure.json"
+      ],
+      "desktopEvidence": [
+        "catch/2017-gw/desktop-review.json",
+        "catch/2017-gw/investigation/local-http-payloads.json"
+      ],
+      "notes": "日本节点直接读取仍可用的viprpg2017gw.x.2nt.com源站，53份有效HTML（5个入口／菜单／说明／更新／目录文档、48份原介绍）与133项展示图像依赖保存原始载荷；连同托管错误页／探测与错误样式缓存共193项载荷引用SHA核对。51既有身份、编号、题名保持，48份介绍的96段完整作者／管理人留言比对，51图标、70截图和2张横幅按实际格式归档，旧70画廊全部字节对应。保留43项配布入口的44条目录／介绍地址，不声称游戏文件现可下载。类型／工具字段分别保留，源站无分组字段，不补造分组。21、49原目录无介绍链接；23虽有链接但当前跳转至托管平台错误页，旧23缓存同样不是介绍。香港HKG出口精确查询旧x.fc2.com及现x.2nt.com的23地址均返回空CDX；较宽前缀查询超时不作为无存档依据，23原文仍待查。三个编号均保留完整整理详情及明确标注生成来源的原貌缺口骨架，未添加受限标记。定位UTF-8 BOM令HTML解析器丢掉frameset导致空入口，调用现有decodeSource后恢复原生menu／contents两框架，原载荷不变。目录固定950px加20px边距在933px内容框架溢出，展示副本改为自适应且保留原边距后表宽897、滚动宽933。原貌189文件／56HTML、364静态加70悬停引用无缺失或外部自动加载；312展示文件HTTP/SHA一致。51整理详情和51原貌详情／骨架、说明／更新／目录均通过桌面检查；两项初读延迟图确认正常，实际沙箱内菜单及全部51项目录逐项点击验证933px下无溢出、坏图或待加载图。00原貌悬停、查看器切换／关闭／Esc、首页51图标与2横幅和末项往返通过。构建4211页、lint与数据校验通过。未审看题材或像素内容，未下载游戏包。"
     }
   ],
   "originalViewsReviewed": [
@@ -2537,6 +2560,13 @@
       "evidence": [
         "catch/2018-summer/original-view.json",
         "catch/2018-summer/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2017-gw",
+      "evidence": [
+        "catch/2017-gw/original-view.json",
+        "catch/2017-gw/desktop-review.json"
       ]
     }
   ],
