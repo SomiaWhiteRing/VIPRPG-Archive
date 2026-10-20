@@ -1,0 +1,78 @@
+{
+  "migrationRecord": 32,
+  "allMigrationFieldsEmpty": true,
+  "historicalVersions": [
+    {
+      "snapshotUrl": "https://web.archive.org/web/20170914122218id_/http://viprpg17sum.php.xdomain.jp:80/main/game.php?id=32&",
+      "rawFile": "source/archive/probe-0.bin",
+      "titleChars": 17,
+      "metadataFieldLengths": {
+        "作者名": 6,
+        "ジャンル": 7,
+        "使用ツクール": 4,
+        "配信/動画": 3
+      },
+      "commentFieldLengths": [
+        40,
+        10
+      ]
+    },
+    {
+      "snapshotUrl": "https://web.archive.org/web/20170821152555id_/http://viprpg17sum.php.xdomain.jp:80/main/game.php?id=32",
+      "rawFile": "source/archive/probe-1.bin",
+      "titleChars": 17,
+      "metadataFieldLengths": {
+        "作者名": 6,
+        "ジャンル": 7,
+        "使用ツクール": 4,
+        "配信/動画": 3
+      },
+      "commentFieldLengths": [
+        40,
+        10
+      ]
+    },
+    {
+      "snapshotUrl": "https://web.archive.org/web/20191209032240id_/http://viprpg17sum.php.xdomain.jp/main/game.php?id=32",
+      "rawFile": "source/archive/entry-32.bin",
+      "titleChars": 1,
+      "metadataFieldLengths": {
+        "作者名": 1,
+        "ジャンル": 1,
+        "使用ツクール": 1,
+        "配信/動画": 1
+      },
+      "commentFieldLengths": [
+        1,
+        1
+      ]
+    }
+  ],
+  "correctedHeaderParser": {
+    "method": "Read text of the header anchor and strip only its No.number prefix.",
+    "controlCases": [
+      0,
+      1,
+      3,
+      31
+    ],
+    "allControlTitlesMatchMigration": true,
+    "priorRemoveAnchorParserWasWrong": true
+  },
+  "selectedSnapshot": "20170914122218",
+  "officialTitleEvidence": "restored32-title-evidence.json",
+  "restored": "Actual title, author, genre, tool, streaming and both published comment fields restored. Former Work32 name was a legacy placeholder.",
+  "sourceImage": {
+    "width": 22,
+    "height": 18,
+    "bytes": 96,
+    "originalGameScreenshotUnconfirmed": true
+  },
+  "registeredCatalogueIds": "0..44",
+  "unlistedBoundaryIds": [
+    45,
+    46
+  ],
+  "noContentRestrictionAdded": true,
+  "noBodyTopicOrPixelReview": true
+}

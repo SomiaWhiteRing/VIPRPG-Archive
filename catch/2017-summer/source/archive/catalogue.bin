@@ -1,0 +1,1161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; meta charset=utf-8" />
+	<meta name="viewport" content="width=device-width" >
+	<link rel="stylesheet" type="text/css" href="../main/style.css">
+	<title>ゲーム一覧</title>
+</head>
+<body>
+<script type="text/javascript" src="https://ad.xdomain.ne.jp/js/server-php.js"></script>
+
+<div class="bodylike">
+
+	<div class="head">
+		<div class="top">
+			<button class="chbtn" name="btnCh1" style="margin-right:0px; float:right">ボタン切替</button>
+			<h1>VIPRPG 2017夏の陣参加作品一覧</h1>
+		</div>
+	</div>
+	
+	<div class="nonline">
+		<a href="index.html" class="button1">トップページへ戻る</a>
+		<a href="http://jbbs.shitaraba.net/game/60231/" class="button1">運営掲示板</a>
+		<a href="http://jbbs.shitaraba.net/game/60233/" class="button1">感想掲示板</a><br>
+			<div style="height:10px;"></div>
+		
+		<a>アイコンにマウスを当てるとSS画像が見れます。</a><br>
+
+		<!--携帯のみ表示-->
+		<div class="mobile"><a>現在携帯モードで表示しています。配信/動画、投票については個別ページからご確認ください</a></div>
+		
+		<table class="gamelist">
+
+			<tr style="color:white; background-color:#696969;">
+				<td class="no">No.</td>
+				<td class="tkool">ﾂｸｰﾙ</td>
+				<td class="title">作品名<br class="mobile2">
+					<a class="mobile2">作者名/ジャンル</a></td>
+				<td class="ag">作者名</td>
+				<td class="ag">ジャンル</td>
+				<td class="tdm" title="配信/動画">配/動</td>
+				<td class="vote">投票</td>
+				<td class="board">感想</td>				
+				<td class="dl">PIAI</td>
+				<td class="count" title="+以降はweb版">DL数</td>
+				<td class="count">票数</td>
+			</tr>	
+			<tr>
+				<td class="no">00<img src="../main/images/icon/0.png?0921" class="icon"
+					onmouseout="pop0.src='../main/images/blank.png'" onmouseover="pop0.src='../main/images/ss/0-1.png?0921_1'"
+					ondblclick="pop0.src='../main/images/ss/0-2.png?0921_1'" title="ダブルクリックで二枚目"><img class="pop" name="pop0">
+					</td>
+				<td class="tkool">MV</td>
+				<td class="title"><a class="tdtxt" href="game.php?id=0" title="バーストⅠと魔法の筆">バーストⅠと魔法の筆</a><br class="mobile2">
+					<a class="mobile2">管理人/短編やるゲ</a>
+					<a class="mobile2" href="game.php?id=0&#impression">感想</a></td>
+				<td class="ag"><a class="tdtxt" title="管理人">管理人</a></td>
+				<td class="ag"><a class="tdtxt" title="短編やるゲ">短編やるゲ</a></td>
+				<td class="tdm" title="可/可">〇/〇</td>
+				<td class="vote" style="color:black">×</td>
+				<td class="board"><a class="button2" href="game.php?id=0&#impression">〇</a></td>		
+				<td class="dl">
+					<form style="margin:0px; padding:0px" action="dl.php" method="post">
+						<input type="hidden" name="token" value="06275d3cf5d770a756da5430cbc75fb2">	
+						<input type="hidden" name="id" value="0">					
+						<button class="button5" type="submit">更新:9/30<br>66MB</button>
+					</form>						
+					 
+			<form style="margin:0px; padding:0px; text-align:center" action="web.php" method="post">
+				<input type="hidden" name="token" value="06275d3cf5d770a756da5430cbc75fb2">	
+				<input type="hidden" name="id" value="0">					
+				<button class="button6" type="submit">web版</button>
+			</form>						
+			</td>	
+				<td class="count" style="font-size:12px;">102<br>+191</td>
+				<td class="count" style="font-size:12px;"></td>
+			</tr>	
+			<tr>
+				<td class="no">01<img src="../main/images/icon/1.png" class="icon"
+					onmouseout="pop1.src='../main/images/blank.png'" onmouseover="pop1.src='../main/images/ss/1-1.jpg'"
+					><img class="pop" name="pop1">
+					</td>
+				<td class="tkool">2000</td>
+				<td class="title"><a class="tdtxt" href="game.php?id=1" title="正義">正義</a><br class="mobile2">
+					<a class="mobile2">UNKO/ksg</a>
+					<a class="mobile2" href="game.php?id=1&#impression">感想</a></td>
+				<td class="ag"><a class="tdtxt" title="UNKO">UNKO</a></td>
+				<td class="ag"><a class="tdtxt" title="ksg">ksg</a></td>
+				<td class="tdm" title="可/可">〇/〇</td>
+				<td class="vote" style="color:black">〇</td>
+				<td class="board"><a class="button2" href="game.php?id=1&#impression">〇</a></td>		
+				<td class="dl"> </td>	
+				<td class="count" style="font-size:12px;"></td>
+				<td class="count" style="font-size:12px;"></td>
+			</tr>	
+			<tr>
+				<td class="no">02<img src="../main/images/icon/2.png" class="icon"
+					onmouseout="pop2.src='../main/images/blank.png'" onmouseover="pop2.src='../main/images/ss/2-1.png'"
+					><img class="pop" name="pop2">
+					</td>
+				<td class="tkool">2000</td>
+				<td class="title"><a class="tdtxt" href="game.php?id=2" title="Request～シェイドⅢが怪しいSNSにドハマリするだけのerg～">Request～シェイドⅢが怪しいSNSにドハマリするだけのerg～</a><br class="mobile2">
+					<a class="mobile2">徳明/erg</a>
+					<a class="mobile2" href="game.php?id=2&#impression">感想</a></td>
+				<td class="ag"><a class="tdtxt" title="徳明">徳明</a></td>
+				<td class="ag"><a class="tdtxt" title="erg">erg</a></td>
+				<td class="tdm" title="BANされる覚悟を持ってして">※</td>
+				<td class="vote" style="color:black">〇</td>
+				<td class="board"><a class="button2" href="game.php?id=2&#impression">〇</a></td>		
+				<td class="dl">
+					<form style="margin:0px; padding:0px" action="dl.php" method="post">
+						<input type="hidden" name="token" value="06275d3cf5d770a756da5430cbc75fb2">	
+						<input type="hidden" name="id" value="2">					
+						<button class="button5" type="submit">提出:8/24<br>8.8MB</button>
+					</form>						
+					 </td>	
+				<td class="count" style="font-size:12px;">828</td>
+				<td class="count" style="font-size:12px;">14</td>
+			</tr>	
+			<tr>
+				<td class="no">03<img src="../main/images/icon/3.png" class="icon"
+					onmouseout="pop3.src='../main/images/blank.png'" onmouseover="pop3.src='../main/images/ss/3-1.png'"
+					ondblclick="pop3.src='../main/images/ss/3-2.png'" title="ダブルクリックで二枚目"><img class="pop" name="pop3">
+					</td>
+				<td class="tkool">2000</td>
+				<td class="title"><a class="tdtxt" href="game.php?id=3" title="ボムっと発掘！とれじゃーはんたぁ">ボムっと発掘！とれじゃーはんたぁ</a><br class="mobile2">
+					<a class="mobile2">焼きそば男/一筆書きパズル</a>
+					<a class="mobile2" href="game.php?id=3&#impression">感想</a></td>
+				<td class="ag"><a class="tdtxt" title="焼きそば男">焼きそば男</a></td>
+				<td class="ag"><a class="tdtxt" title="一筆書きパズル">一筆書きパズル</a></td>
+				<td class="tdm" title="可/可">〇/〇</td>
+				<td class="vote" style="color:black">〇</td>
+				<td class="board"><a class="button2" href="game.php?id=3&#impression">〇</a></td>		
+				<td class="dl">
+					<form style="margin:0px; padding:0px" action="dl.php" method="post">
+						<input type="hidden" name="token" value="06275d3cf5d770a756da5430cbc75fb2">	
+						<input type="hidden" name="id" value="3">					
+						<button class="button5" type="submit">更新:9/28<br>6.5MB</button>
+					</form>						
+					 </td>	
+				<td class="count" style="font-size:12px;">1208</td>
+				<td class="count" style="font-size:12px;">69</td>
+			</tr>	
+			<tr>
+				<td class="no">04<img src="../main/images/icon/4.png" class="icon"
+					onmouseout="pop4.src='../main/images/blank.png'" onmouseover="pop4.src='../main/images/ss/4-1.png'"
+					ondblclick="pop4.src='../main/images/ss/4-2.png'" title="ダブルクリックで二枚目"><img class="pop" name="pop4">
+					</td>
+				<td class="tkool">2000</td>
+				<td class="title"><a class="tdtxt" href="game.php?id=4" title="カマソッソの誕生">カマソッソの誕生</a><br class="mobile2">
+					<a class="mobile2">池田さん/ドタバタコメディ系見るゲー</a>
+					<a class="mobile2" href="game.php?id=4&#impression">感想</a></td>
+				<td class="ag"><a class="tdtxt" title="池田さん">池田さん</a></td>
+				<td class="ag"><a class="tdtxt" title="ドタバタコメディ系見るゲー">ドタバタコメディ系見るゲー</a></td>
+				<td class="tdm" title="可/可">〇/〇</td>
+				<td class="vote" style="color:black">〇</td>
+				<td class="board"><a class="button2" href="game.php?id=4&#impression">〇</a></td>		
+				<td class="dl">
+					<form style="margin:0px; padding:0px" action="dl.php" method="post">
+						<input type="hidden" name="token" value="06275d3cf5d770a756da5430cbc75fb2">	
+						<input type="hidden" name="id" value="4">					
+						<button class="button5" type="submit">更新:9/09<br>39MB</button>
+					</form>						
+					 </td>	
+				<td class="count" style="font-size:12px;">1059</td>
+				<td class="count" style="font-size:12px;">62</td>
+			</tr>	
+			<tr>
+				<td class="no">05<img src="../main/images/icon/5.gif" class="icon"
+					onmouseout="pop5.src='../main/images/blank.png'" onmouseover="pop5.src='../main/images/ss/5-1.png'"
+					ondblclick="pop5.src='../main/images/ss/5-2.png'" title="ダブルクリックで二枚目"><img class="pop" name="pop5">
+					</td>
+				<td class="tkool">2000</td>
+				<td class="title"><a class="tdtxt" href="game.php?id=5" title="Recycle Edition">Recycle Edition</a><br class="mobile2">
+					<a class="mobile2">1942/STG</a>
+					<a class="mobile2" href="game.php?id=5&#impression">感想</a></td>
+				<td class="ag"><a class="tdtxt" title="1942">1942</a></td>
+				<td class="ag"><a class="tdtxt" title="STG">STG</a></td>
+				<td class="tdm" title="可/可">〇/〇</td>
+				<td class="vote" style="color:black">〇</td>
+				<td class="board"><a class="button2" href="game.php?id=5&#impression">〇</a></td>		
+				<td class="dl">
+					<form style="margin:0px; padding:0px" action="dl.php" method="post">
+						<input type="hidden" name="token" value="06275d3cf5d770a756da5430cbc75fb2">	
+						<input type="hidden" name="id" value="5">					
+						<button class="button5" type="submit">更新:8/16<br>792KB</button>
+					</form>						
+					 </td>	
+				<td class="count" style="font-size:12px;">443</td>
+				<td class="count" style="font-size:12px;">27</td>
+			</tr>	
+			<tr>
+				<td class="no">06<img src="../main/images/icon/6.png" class="icon"
+					onmouseout="pop6.src='../main/images/blank.png'" onmouseover="pop6.src='../main/images/ss/6-1.png'"
+					ondblclick="pop6.src='../main/images/ss/6-2.png'" title="ダブルクリックで二枚目"><img class="pop" name="pop6">
+					</td>
+				<td class="tkool">2000</td>
+				<td class="title"><a class="tdtxt" href="game.php?id=6" title="Re:今から作る無計画ksg">Re:今から作る無計画ksg</a><br class="mobile2">
+					<a class="mobile2">かすていら/見るゲ</a>
+					<a class="mobile2" href="game.php?id=6&#impression">感想</a></td>
+				<td class="ag"><a class="tdtxt" title="かすていら">かすていら</a></td>
+				<td class="ag"><a class="tdtxt" title="見るゲ">見るゲ</a></td>
+				<td class="tdm" title="可/可">〇/〇</td>
+				<td class="vote" style="color:black">〇</td>
+				<td class="board"><a class="button2" href="game.php?id=6&#impression">〇</a></td>		
+				<td class="dl">
+					<form style="margin:0px; padding:0px" action="dl.php" method="post">
+						<input type="hidden" name="token" value="06275d3cf5d770a756da5430cbc75fb2">	
+						<input type="hidden" name="id" value="6">					
+						<button class="button5" type="submit">更新:8/20<br>34MB</button>
+					</form>						
+					 </td>	
+				<td class="count" style="font-size:12px;">755</td>
+				<td class="count" style="font-size:12px;">45</td>
+			</tr>	
+			<tr>
+				<td class="no">07<img src="../main/images/icon/7.png" class="icon"
+					onmouseout="pop7.src='../main/images/blank.png'" onmouseover="pop7.src='../main/images/ss/7-1.png'"
+					ondblclick="pop7.src='../main/images/ss/7-2.png'" title="ダブルクリックで二枚目"><img class="pop" name="pop7">
+					</td>
+				<td class="tkool">2000</td>
+				<td class="title"><a class="tdtxt" href="game.php?id=7" title="魔法淫具店ガンタイ">魔法淫具店ガンタイ</a><br class="mobile2">
+					<a class="mobile2">名雲きつね/erg短編集</a>
+					<a class="mobile2" href="game.php?id=7&#impression">感想</a></td>
+				<td class="ag"><a class="tdtxt" title="名雲きつね">名雲きつね</a></td>
+				<td class="ag"><a class="tdtxt" title="erg短編集">erg短編集</a></td>
+				<td class="tdm" title="自己責任">※</td>
+				<td class="vote" style="color:black">〇</td>
+				<td class="board"><a class="button2" href="game.php?id=7&#impression">〇</a></td>		
+				<td class="dl">
+					<form style="margin:0px; padding:0px" action="dl.php" method="post">
+						<input type="hidden" name="token" value="06275d3cf5d770a756da5430cbc75fb2">	
+						<input type="hidden" name="id" value="7">					
+						<button class="button5" type="submit">更新:9/27<br>35MB</button>
+					</form>						
+					 </td>	
+				<td class="count" style="font-size:12px;">1673</td>
+				<td class="count" style="font-size:12px;">39</td>
+			</tr>	
+			<tr>
+				<td class="no">08<img src="../main/images/icon/8.png" class="icon"
+					onmouseout="pop8.src='../main/images/blank.png'" onmouseover="pop8.src='../main/images/ss/8-1.jpg'"
+					><img class="pop" name="pop8">
+					</td>
+				<td class="tkool">2000</td>
+				<td class="title"><a class="tdtxt" href="game.php?id=8" title="松永と君の１０の苦行">松永と君の１０の苦行</a><br class="mobile2">
+					<a class="mobile2">さいてん/苦行</a>
+					<a class="mobile2" href="game.php?id=8&#impression">感想</a></td>
+				<td class="ag"><a class="tdtxt" title="さいてん">さいてん</a></td>
+				<td class="ag"><a class="tdtxt" title="苦行">苦行</a></td>
+				<td class="tdm" title="可/可">〇/〇</td>
+				<td class="vote" style="color:black">〇</td>
+				<td class="board"><a class="button2" href="game.php?id=8&#impression">〇</a></td>		
+				<td class="dl"> </td>	
+				<td class="count" style="font-size:12px;"></td>
+				<td class="count" style="font-size:12px;"></td>
+			</tr>	
+			<tr>
+				<td class="no">09<img src="../main/images/icon/9.png?0809" class="icon"
+					onmouseout="pop9.src='../main/images/blank.png'" onmouseover="pop9.src='../main/images/ss/9-1.png?0809'"
+					ondblclick="pop9.src='../main/images/ss/9-2.png?0809'" title="ダブルクリックで二枚目"><img class="pop" name="pop9">
+					</td>
+				<td class="tkool">2003</td>
+				<td class="title"><a class="tdtxt" href="game.php?id=9" title="茄子とハルマゲドン：Viking Conquest">茄子とハルマゲドン：Viking Conquest</a><br class="mobile2">
+					<a class="mobile2">ハーラル3世/RTSARPGクソゲー</a>
+					<a class="mobile2" href="game.php?id=9&#impression">感想</a></td>
+				<td class="ag"><a class="tdtxt" title="ハーラル3世">ハーラル3世</a></td>
+				<td class="ag"><a class="tdtxt" title="RTSARPGクソゲー">RTSARPGクソゲー</a></td>
+				<td class="tdm" title="正気か？">※</td>
+				<td class="vote" style="color:black">〇</td>
+				<td class="board"><a class="button2" href="game.php?id=9&#impression">〇</a></td>		
+				<td class="dl"> </td>	
+				<td class="count" style="font-size:12px;"></td>
+				<td class="count" style="font-size:12px;"></td>
+			</tr>
+			<tr style="color:white; background-color:#696969;">
+				<td class="no">No.</td>
+				<td class="tkool">ﾂｸｰﾙ</td>
+				<td class="title">作品名<br class="mobile2">
+					<a class="mobile2">作者名/ジャンル</a></td>
+				<td class="ag">作者名</td>
+				<td class="ag">ジャンル</td>
+				<td class="tdm" title="配信/動画">配/動</td>
+				<td class="vote">投票</td>
+				<td class="board">感想</td>				
+				<td class="dl">PIAI</td>
+				<td class="count" title="+以降はweb版">DL数</td>
+				<td class="count">票数</td>
+			</tr>	
+			<tr>
+				<td class="no">10<img src="../main/images/icon/10.png" class="icon"
+					onmouseout="pop10.src='../main/images/blank.png'" onmouseover="pop10.src='../main/images/ss/10-1.png?0815'"
+					ondblclick="pop10.src='../main/images/ss/10-2.png?0815'" title="ダブルクリックで二枚目"><img class="pop" name="pop10">
+					</td>
+				<td class="tkool">VXA</td>
+				<td class="title"><a class="tdtxt" href="game.php?id=10" title="アースバリアと夏の思い出">アースバリアと夏の思い出</a><br class="mobile2">
+					<a class="mobile2">すいかびぃ/見るゲ&amp;やるげ</a>
+					<a class="mobile2" href="game.php?id=10&#impression">感想</a></td>
+				<td class="ag"><a class="tdtxt" title="すいかびぃ">すいかびぃ</a></td>
+				<td class="ag"><a class="tdtxt" title="見るゲ&amp;やるげ">見るゲ&amp;やるげ</a></td>
+				<td class="tdm" title="可/可">〇/〇</td>
+				<td class="vote" style="color:black">〇</td>
+				<td class="board"><a class="button2" href="game.php?id=10&#impression">〇</a></td>		
+				<td class="dl">
+					<form style="margin:0px; padding:0px" action="dl.php" method="post">
+						<input type="hidden" name="token" value="06275d3cf5d770a756da5430cbc75fb2">	
+						<input type="hidden" name="id" value="10">					
+						<button class="button5" type="submit">更新:8/31<br>111MB</button>
+					</form>						
+					 </td>	
+				<td class="count" style="font-size:12px;">448</td>
+				<td class="count" style="font-size:12px;">12</td>
+			</tr>	
+			<tr>
+				<td class="no">11<img src="../main/images/icon/11.png" class="icon"
+					onmouseout="pop11.src='../main/images/blank.png'" onmouseover="pop11.src='../main/images/ss/11-1.png'"
+					><img class="pop" name="pop11">
+					</td>
+				<td class="tkool">2000</td>
+				<td class="title"><a class="tdtxt" href="game.php?id=11" title="夏の陣ｋｓｇ集-2017-">夏の陣ｋｓｇ集-2017-</a><br class="mobile2">
+					<a class="mobile2">黒蟻博士/ｋｓｇ集</a>
+					<a class="mobile2" href="game.php?id=11&#impression">感想</a></td>
+				<td class="ag"><a class="tdtxt" title="黒蟻博士">黒蟻博士</a></td>
+				<td class="ag"><a class="tdtxt" title="ｋｓｇ集">ｋｓｇ集</a></td>
+				<td class="tdm" title="不可/不可">×/×</td>
+				<td class="vote" style="color:black">〇</td>
+				<td class="board"><a class="button2" href="game.php?id=11&#impression">〇</a></td>		
+				<td class="dl"> </td>	
+				<td class="count" style="font-size:12px;"></td>
+				<td class="count" style="font-size:12px;"></td>
+			</tr>	
+			<tr>
+				<td class="no">12<img src="../main/images/icon/12.png" class="icon"
+					onmouseout="pop12.src='../main/images/blank.png'" onmouseover="pop12.src='../main/images/ss/12-1.png'"
+					ondblclick="pop12.src='../main/images/ss/12-2.png'" title="ダブルクリックで二枚目"><img class="pop" name="pop12">
+					</td>
+				<td class="tkool">2000</td>
+				<td class="title"><a class="tdtxt" href="game.php?id=12" title="あばりトラベル">あばりトラベル</a><br class="mobile2">
+					<a class="mobile2">椎名/短編やるゲ</a>
+					<a class="mobile2" href="game.php?id=12&#impression">感想</a></td>
+				<td class="ag"><a class="tdtxt" title="椎名">椎名</a></td>
+				<td class="ag"><a class="tdtxt" title="短編やるゲ">短編やるゲ</a></td>
+				<td class="tdm" title="可/可">〇/〇</td>
+				<td class="vote" style="color:black">〇</td>
+				<td class="board"><a class="button2" href="game.php?id=12&#impression">〇</a></td>		
+				<td class="dl">
+					<form style="margin:0px; padding:0px" action="dl.php" method="post">
+						<input type="hidden" name="token" value="06275d3cf5d770a756da5430cbc75fb2">	
+						<input type="hidden" name="id" value="12">					
+						<button class="button5" type="submit">更新:9/29<br>18MB</button>
+					</form>						
+					 </td>	
+				<td class="count" style="font-size:12px;">522</td>
+				<td class="count" style="font-size:12px;">40</td>
+			</tr>	
+			<tr>
+				<td class="no">13<img src="../main/images/icon/13.png" class="icon"
+					onmouseout="pop13.src='../main/images/blank.png'" onmouseover="pop13.src='../main/images/ss/13-1.png'"
+					ondblclick="pop13.src='../main/images/ss/13-2.png'" title="ダブルクリックで二枚目"><img class="pop" name="pop13">
+					</td>
+				<td class="tkool">2000</td>
+				<td class="title"><a class="tdtxt" href="game.php?id=13" title="真説・光神話 パルテナの鏡外伝">真説・光神話 パルテナの鏡外伝</a><br class="mobile2">
+					<a class="mobile2">HDS様大好き丸/装備重視RPG</a>
+					<a class="mobile2" href="game.php?id=13&#impression">感想</a></td>
+				<td class="ag"><a class="tdtxt" title="HDS様大好き丸">HDS様大好き丸</a></td>
+				<td class="ag"><a class="tdtxt" title="装備重視RPG">装備重視RPG</a></td>
+				<td class="tdm" title="可/可">〇/〇</td>
+				<td class="vote" style="color:black">〇</td>
+				<td class="board"><a class="button2" href="game.php?id=13&#impression">〇</a></td>		
+				<td class="dl">
+					<form style="margin:0px; padding:0px" action="dl.php" method="post">
+						<input type="hidden" name="token" value="06275d3cf5d770a756da5430cbc75fb2">	
+						<input type="hidden" name="id" value="13">					
+						<button class="button5" type="submit">更新:9/12<br>30MB</button>
+					</form>						
+					 </td>	
+				<td class="count" style="font-size:12px;">694</td>
+				<td class="count" style="font-size:12px;">18</td>
+			</tr>	
+			<tr>
+				<td class="no">14<img src="../main/images/icon/14.png" class="icon"
+					onmouseout="pop14.src='../main/images/blank.png'" onmouseover="pop14.src='../main/images/ss/14-1.png?0928'"
+					ondblclick="pop14.src='../main/images/ss/14-2.png?0928'" title="ダブルクリックで二枚目"><img class="pop" name="pop14">
+					</td>
+				<td class="tkool">2000</td>
+				<td class="title"><a class="tdtxt" href="game.php?id=14" title="光と影の中">光と影の中</a><br class="mobile2">
+					<a class="mobile2">ラエム/デフォ戦やるゲ</a>
+					<a class="mobile2" href="game.php?id=14&#impression">感想</a></td>
+				<td class="ag"><a class="tdtxt" title="ラエム">ラエム</a></td>
+				<td class="ag"><a class="tdtxt" title="デフォ戦やるゲ">デフォ戦やるゲ</a></td>
+				<td class="tdm" title="可/可">〇/〇</td>
+				<td class="vote" style="color:black">〇</td>
+				<td class="board"><a class="button2" href="game.php?id=14&#impression">〇</a></td>		
+				<td class="dl">
+					<form style="margin:0px; padding:0px" action="dl.php" method="post">
+						<input type="hidden" name="token" value="06275d3cf5d770a756da5430cbc75fb2">	
+						<input type="hidden" name="id" value="14">					
+						<button class="button5" type="submit">更新:9/29<br>25MB</button>
+					</form>						
+					 </td>	
+				<td class="count" style="font-size:12px;">271</td>
+				<td class="count" style="font-size:12px;">8</td>
+			</tr>	
+			<tr>
+				<td class="no">15<img src="../main/images/icon/15.png" class="icon"
+					onmouseout="pop15.src='../main/images/blank.png'" onmouseover="pop15.src='../main/images/ss/15-1.png'"
+					><img class="pop" name="pop15">
+					</td>
+				<td class="tkool">2000</td>
+				<td class="title"><a class="tdtxt" href="game.php?id=15" title="Ch:Mephistopheles">Ch:Mephistopheles</a><br class="mobile2">
+					<a class="mobile2">イグサ/見るゲ</a>
+					<a class="mobile2" href="game.php?id=15&#impression">感想</a></td>
+				<td class="ag"><a class="tdtxt" title="イグサ">イグサ</a></td>
+				<td class="ag"><a class="tdtxt" title="見るゲ">見るゲ</a></td>
+				<td class="tdm" title="不可/不可">×/×</td>
+				<td class="vote" style="color:black">〇</td>
+				<td class="board"><a class="button2" href="game.php?id=15&#impression">〇</a></td>		
+				<td class="dl"> </td>	
+				<td class="count" style="font-size:12px;"></td>
+				<td class="count" style="font-size:12px;"></td>
+			</tr>	
+			<tr>
+				<td class="no">16<img src="../main/images/icon/16.png?0815" class="icon"
+					onmouseout="pop16.src='../main/images/blank.png'" onmouseover="pop16.src='../main/images/ss/16-1.png?0815'"
+					ondblclick="pop16.src='../main/images/ss/16-2.png?0815'" title="ダブルクリックで二枚目"><img class="pop" name="pop16">
+					</td>
+				<td class="tkool">2000</td>
+				<td class="title"><a class="tdtxt" href="game.php?id=16" title="海と剣士と月の光">海と剣士と月の光</a><br class="mobile2">
+					<a class="mobile2">カナエール教永遠宗信徒/代理ｋｓｇ集</a>
+					<a class="mobile2" href="game.php?id=16&#impression">感想</a></td>
+				<td class="ag"><a class="tdtxt" title="カナエール教永遠宗信徒">カナエール教永遠宗信徒</a></td>
+				<td class="ag"><a class="tdtxt" title="代理ｋｓｇ集">代理ｋｓｇ集</a></td>
+				<td class="tdm" title="可/可">〇/〇</td>
+				<td class="vote" style="color:black">〇</td>
+				<td class="board"><a class="button2" href="game.php?id=16&#impression">〇</a></td>		
+				<td class="dl">
+					<form style="margin:0px; padding:0px" action="dl.php" method="post">
+						<input type="hidden" name="token" value="06275d3cf5d770a756da5430cbc75fb2">	
+						<input type="hidden" name="id" value="16">					
+						<button class="button5" type="submit">提出:8/19<br>13MB</button>
+					</form>						
+					 </td>	
+				<td class="count" style="font-size:12px;">211</td>
+				<td class="count" style="font-size:12px;">6</td>
+			</tr>	
+			<tr>
+				<td class="no">17<img src="../main/images/icon/17.png" class="icon"
+					onmouseout="pop17.src='../main/images/blank.png'" onmouseover="pop17.src='../main/images/ss/17-1.png'"
+					ondblclick="pop17.src='../main/images/ss/17-2.png'" title="ダブルクリックで二枚目"><img class="pop" name="pop17">
+					</td>
+				<td class="tkool">2000</td>
+				<td class="title"><a class="tdtxt" href="game.php?id=17" title="裏切者には懺悔を">裏切者には懺悔を</a><br class="mobile2">
+					<a class="mobile2">Aomatu_Spaghe/トラップハメハメ皆殺しギャグゲーム</a>
+					<a class="mobile2" href="game.php?id=17&#impression">感想</a></td>
+				<td class="ag"><a class="tdtxt" title="Aomatu_Spaghe">Aomatu_Spaghe</a></td>
+				<td class="ag"><a class="tdtxt" title="トラップハメハメ皆殺しギャグゲーム">トラップハメハメ皆殺しギャグゲーム</a></td>
+				<td class="tdm" title="可/可">〇/〇</td>
+				<td class="vote" style="color:black">〇</td>
+				<td class="board"><a class="button2" href="game.php?id=17&#impression">〇</a></td>		
+				<td class="dl">
+					<form style="margin:0px; padding:0px" action="dl.php" method="post">
+						<input type="hidden" name="token" value="06275d3cf5d770a756da5430cbc75fb2">	
+						<input type="hidden" name="id" value="17">					
+						<button class="button5" type="submit">更新:9/17<br>3.2MB</button>
+					</form>						
+					 </td>	
+				<td class="count" style="font-size:12px;">289</td>
+				<td class="count" style="font-size:12px;">9</td>
+			</tr>	
+			<tr>
+				<td class="no">18<img src="../main/images/icon/18.png" class="icon"
+					onmouseout="pop18.src='../main/images/blank.png'" onmouseover="pop18.src='../main/images/ss/18-1.png'"
+					><img class="pop" name="pop18">
+					</td>
+				<td class="tkool">2000</td>
+				<td class="title"><a class="tdtxt" href="game.php?id=18" title="蛾の王">蛾の王</a><br class="mobile2">
+					<a class="mobile2">陰毛/わかんない</a>
+					<a class="mobile2" href="game.php?id=18&#impression">感想</a></td>
+				<td class="ag"><a class="tdtxt" title="陰毛">陰毛</a></td>
+				<td class="ag"><a class="tdtxt" title="わかんない">わかんない</a></td>
+				<td class="tdm" title="可/不可">〇/×</td>
+				<td class="vote" style="color:black">〇</td>
+				<td class="board"><a class="button2" href="game.php?id=18&#impression">〇</a></td>		
+				<td class="dl">
+					<form style="margin:0px; padding:0px" action="dl.php" method="post">
+						<input type="hidden" name="token" value="06275d3cf5d770a756da5430cbc75fb2">	
+						<input type="hidden" name="id" value="18">					
+						<button class="button5" type="submit">提出:9/29<br>2.1MB</button>
+					</form>						
+					 </td>	
+				<td class="count" style="font-size:12px;">145</td>
+				<td class="count" style="font-size:12px;">5</td>
+			</tr>	
+			<tr>
+				<td class="no">19<img src="../main/images/icon/19.png" class="icon"
+					onmouseout="pop19.src='../main/images/blank.png'" onmouseover="pop19.src='../main/images/ss/19-1.png?0808'"
+					ondblclick="pop19.src='../main/images/ss/19-2.png?0808'" title="ダブルクリックで二枚目"><img class="pop" name="pop19">
+					</td>
+				<td class="tkool">2000</td>
+				<td class="title"><a class="tdtxt" href="game.php?id=19" title="ツクラーになろう">ツクラーになろう</a><br class="mobile2">
+					<a class="mobile2">ツクラーになろう製作委員会/異世界転生ksg</a>
+					<a class="mobile2" href="game.php?id=19&#impression">感想</a></td>
+				<td class="ag"><a class="tdtxt" title="ツクラーになろう製作委員会">ツクラーになろう製作委員会</a></td>
+				<td class="ag"><a class="tdtxt" title="異世界転生ksg">異世界転生ksg</a></td>
+				<td class="tdm" title="付属テキスト参照">※</td>
+				<td class="vote" style="color:black">×</td>
+				<td class="board"><a class="button2" href="game.php?id=19&#impression">〇</a></td>		
+				<td class="dl">
+					<form style="margin:0px; padding:0px" action="dl.php" method="post">
+						<input type="hidden" name="token" value="06275d3cf5d770a756da5430cbc75fb2">	
+						<input type="hidden" name="id" value="19">					
+						<button class="button5" type="submit">提出:8/14<br>1.8MB</button>
+					</form>						
+					 </td>	
+				<td class="count" style="font-size:12px;">333</td>
+				<td class="count" style="font-size:12px;"></td>
+			</tr>
+			<tr style="color:white; background-color:#696969;">
+				<td class="no">No.</td>
+				<td class="tkool">ﾂｸｰﾙ</td>
+				<td class="title">作品名<br class="mobile2">
+					<a class="mobile2">作者名/ジャンル</a></td>
+				<td class="ag">作者名</td>
+				<td class="ag">ジャンル</td>
+				<td class="tdm" title="配信/動画">配/動</td>
+				<td class="vote">投票</td>
+				<td class="board">感想</td>				
+				<td class="dl">PIAI</td>
+				<td class="count" title="+以降はweb版">DL数</td>
+				<td class="count">票数</td>
+			</tr>	
+			<tr>
+				<td class="no">20<img src="../main/images/icon/20.png" class="icon"
+					onmouseout="pop20.src='../main/images/blank.png'" onmouseover="pop20.src='../main/images/ss/20-1.jpg'"
+					ondblclick="pop20.src='../main/images/ss/20-2.jpg'" title="ダブルクリックで二枚目"><img class="pop" name="pop20">
+					</td>
+				<td class="tkool">2000</td>
+				<td class="title"><a class="tdtxt" href="game.php?id=20" title="Something Blue">Something Blue</a><br class="mobile2">
+					<a class="mobile2">秋草/見るゲ</a>
+					<a class="mobile2" href="game.php?id=20&#impression">感想</a></td>
+				<td class="ag"><a class="tdtxt" title="秋草">秋草</a></td>
+				<td class="ag"><a class="tdtxt" title="見るゲ">見るゲ</a></td>
+				<td class="tdm" title="自己責任">※</td>
+				<td class="vote" style="color:black">〇</td>
+				<td class="board"><a class="button2" href="game.php?id=20&#impression">〇</a></td>		
+				<td class="dl"> </td>	
+				<td class="count" style="font-size:12px;"></td>
+				<td class="count" style="font-size:12px;"></td>
+			</tr>	
+			<tr>
+				<td class="no">21<img src="../main/images/icon/21.png" class="icon"
+					onmouseout="pop21.src='../main/images/blank.png'" onmouseover="pop21.src='../main/images/ss/21-1.png'"
+					><img class="pop" name="pop21">
+					</td>
+				<td class="tkool">2000</td>
+				<td class="title"><a class="tdtxt" href="game.php?id=21" title="砂浜に流れ着いた見るゲ">砂浜に流れ着いた見るゲ</a><br class="mobile2">
+					<a class="mobile2">牧場の牛肉/見るゲ</a>
+					<a class="mobile2" href="game.php?id=21&#impression">感想</a></td>
+				<td class="ag"><a class="tdtxt" title="牧場の牛肉">牧場の牛肉</a></td>
+				<td class="ag"><a class="tdtxt" title="見るゲ">見るゲ</a></td>
+				<td class="tdm" title="可/可">〇/〇</td>
+				<td class="vote" style="color:black">〇</td>
+				<td class="board"><a class="button2" href="game.php?id=21&#impression">〇</a></td>		
+				<td class="dl">
+					<form style="margin:0px; padding:0px" action="dl.php" method="post">
+						<input type="hidden" name="token" value="06275d3cf5d770a756da5430cbc75fb2">	
+						<input type="hidden" name="id" value="21">					
+						<button class="button5" type="submit">提出:8/14<br>6.1MB</button>
+					</form>						
+					 </td>	
+				<td class="count" style="font-size:12px;">1075</td>
+				<td class="count" style="font-size:12px;">52</td>
+			</tr>	
+			<tr>
+				<td class="no">22<img src="../main/images/icon/22.png" class="icon"
+					onmouseout="pop22.src='../main/images/blank.png'" onmouseover="pop22.src='../main/images/ss/22-1.png'"
+					><img class="pop" name="pop22">
+					</td>
+				<td class="tkool">VXA</td>
+				<td class="title"><a class="tdtxt" href="game.php?id=22" title="超医学プロレス録">超医学プロレス録</a><br class="mobile2">
+					<a class="mobile2">濃い顔のブライアンの人/医学プロレスゲーム</a>
+					<a class="mobile2" href="game.php?id=22&#impression">感想</a></td>
+				<td class="ag"><a class="tdtxt" title="濃い顔のブライアンの人">濃い顔のブライアンの人</a></td>
+				<td class="ag"><a class="tdtxt" title="医学プロレスゲーム">医学プロレスゲーム</a></td>
+				<td class="tdm" title="不可/不可">×/×</td>
+				<td class="vote" style="color:black">×</td>
+				<td class="board"><a class="button2" href="game.php?id=22&#impression">〇</a></td>		
+				<td class="dl">
+					<form style="margin:0px; padding:0px" action="dl.php" method="post">
+						<input type="hidden" name="token" value="06275d3cf5d770a756da5430cbc75fb2">	
+						<input type="hidden" name="id" value="22">					
+						<button class="button5" type="submit">提出:7/29<br>102MB</button>
+					</form>						
+					 </td>	
+				<td class="count" style="font-size:12px;">391</td>
+				<td class="count" style="font-size:12px;"></td>
+			</tr>	
+			<tr>
+				<td class="no">23<img src="../main/images/icon/23.png" class="icon"
+					onmouseout="pop23.src='../main/images/blank.png'" onmouseover="pop23.src='../main/images/ss/23-1.png'"
+					><img class="pop" name="pop23">
+					</td>
+				<td class="tkool">2000</td>
+				<td class="title"><a class="tdtxt" href="game.php?id=23" title="番外聖人">番外聖人</a><br class="mobile2">
+					<a class="mobile2">鷹/見るゲ</a>
+					<a class="mobile2" href="game.php?id=23&#impression">感想</a></td>
+				<td class="ag"><a class="tdtxt" title="鷹">鷹</a></td>
+				<td class="ag"><a class="tdtxt" title="見るゲ">見るゲ</a></td>
+				<td class="tdm" title="可/可">〇/〇</td>
+				<td class="vote" style="color:black">〇</td>
+				<td class="board"><a class="button2" href="game.php?id=23&#impression">〇</a></td>		
+				<td class="dl">
+					<form style="margin:0px; padding:0px" action="dl.php" method="post">
+						<input type="hidden" name="token" value="06275d3cf5d770a756da5430cbc75fb2">	
+						<input type="hidden" name="id" value="23">					
+						<button class="button5" type="submit">提出:8/04<br>732KB</button>
+					</form>						
+					 </td>	
+				<td class="count" style="font-size:12px;">544</td>
+				<td class="count" style="font-size:12px;">28</td>
+			</tr>	
+			<tr>
+				<td class="no">24<img src="../main/images/icon/24.png" class="icon"
+					onmouseout="pop24.src='../main/images/blank.png'" onmouseover="pop24.src='../main/images/ss/24-1.png'"
+					><img class="pop" name="pop24">
+					</td>
+				<td class="tkool">2000</td>
+				<td class="title"><a class="tdtxt" href="game.php?id=24" title="ごーくんとまーちゃん">ごーくんとまーちゃん</a><br class="mobile2">
+					<a class="mobile2">六徳/見たり歩いたり</a>
+					<a class="mobile2" href="game.php?id=24&#impression">感想</a></td>
+				<td class="ag"><a class="tdtxt" title="六徳">六徳</a></td>
+				<td class="ag"><a class="tdtxt" title="見たり歩いたり">見たり歩いたり</a></td>
+				<td class="tdm" title="可/可">〇/〇</td>
+				<td class="vote" style="color:black">〇</td>
+				<td class="board"><a class="button2" href="game.php?id=24&#impression">〇</a></td>		
+				<td class="dl">
+					<form style="margin:0px; padding:0px" action="dl.php" method="post">
+						<input type="hidden" name="token" value="06275d3cf5d770a756da5430cbc75fb2">	
+						<input type="hidden" name="id" value="24">					
+						<button class="button5" type="submit">提出:8/23<br>9.5MB</button>
+					</form>						
+					 </td>	
+				<td class="count" style="font-size:12px;">416</td>
+				<td class="count" style="font-size:12px;">25</td>
+			</tr>	
+			<tr>
+				<td class="no">25<img src="../main/images/icon/25.png" class="icon"
+					onmouseout="pop25.src='../main/images/blank.png'" onmouseover="pop25.src='../main/images/ss/25-1.png'"
+					><img class="pop" name="pop25">
+					</td>
+				<td class="tkool">2000</td>
+				<td class="title"><a class="tdtxt" href="game.php?id=25" title="ウィンディを飼いたいんですが…">ウィンディを飼いたいんですが…</a><br class="mobile2">
+					<a class="mobile2">病葉/見るゲ</a>
+					<a class="mobile2" href="game.php?id=25&#impression">感想</a></td>
+				<td class="ag"><a class="tdtxt" title="病葉">病葉</a></td>
+				<td class="ag"><a class="tdtxt" title="見るゲ">見るゲ</a></td>
+				<td class="tdm" title="可/可">〇/〇</td>
+				<td class="vote" style="color:black">〇</td>
+				<td class="board"><a class="button2" href="game.php?id=25&#impression">〇</a></td>		
+				<td class="dl">
+					<form style="margin:0px; padding:0px" action="dl.php" method="post">
+						<input type="hidden" name="token" value="06275d3cf5d770a756da5430cbc75fb2">	
+						<input type="hidden" name="id" value="25">					
+						<button class="button5" type="submit">提出:8/07<br>2.0MB</button>
+					</form>						
+					 </td>	
+				<td class="count" style="font-size:12px;">973</td>
+				<td class="count" style="font-size:12px;">62</td>
+			</tr>	
+			<tr>
+				<td class="no">26<img src="../main/images/icon/26.png" class="icon"
+					onmouseout="pop26.src='../main/images/blank.png'" onmouseover="pop26.src='../main/images/ss/26-1.png'"
+					ondblclick="pop26.src='../main/images/ss/26-2.png'" title="ダブルクリックで二枚目"><img class="pop" name="pop26">
+					</td>
+				<td class="tkool">2000</td>
+				<td class="title"><a class="tdtxt" href="game.php?id=26" title="やみっちホーム">やみっちホーム</a><br class="mobile2">
+					<a class="mobile2">たぐち/法螺ーゲー</a>
+					<a class="mobile2" href="game.php?id=26&#impression">感想</a></td>
+				<td class="ag"><a class="tdtxt" title="たぐち">たぐち</a></td>
+				<td class="ag"><a class="tdtxt" title="法螺ーゲー">法螺ーゲー</a></td>
+				<td class="tdm" title="やって/ちょんまげ">※</td>
+				<td class="vote" style="color:black">〇</td>
+				<td class="board"><a class="button2" href="game.php?id=26&#impression">〇</a></td>		
+				<td class="dl">
+					<form style="margin:0px; padding:0px" action="dl.php" method="post">
+						<input type="hidden" name="token" value="06275d3cf5d770a756da5430cbc75fb2">	
+						<input type="hidden" name="id" value="26">					
+						<button class="button5" type="submit">更新:9/17<br>14MB</button>
+					</form>						
+					 </td>	
+				<td class="count" style="font-size:12px;">1334</td>
+				<td class="count" style="font-size:12px;">47</td>
+			</tr>	
+			<tr>
+				<td class="no">27<img src="../main/images/icon/27.png" class="icon"
+					onmouseout="pop27.src='../main/images/blank.png'" onmouseover="pop27.src='../main/images/ss/27-1.png'"
+					ondblclick="pop27.src='../main/images/ss/27-2.png'" title="ダブルクリックで二枚目"><img class="pop" name="pop27">
+					</td>
+				<td class="tkool">MV</td>
+				<td class="title"><a class="tdtxt" href="game.php?id=27" title="RTP改変素材MV用">RTP改変素材MV用</a><br class="mobile2">
+					<a class="mobile2">がらくた/RTP改変素材</a>
+					<a class="mobile2" href="game.php?id=27&#impression">感想</a></td>
+				<td class="ag"><a class="tdtxt" title="がらくた">がらくた</a></td>
+				<td class="ag"><a class="tdtxt" title="RTP改変素材">RTP改変素材</a></td>
+				<td class="tdm" title="可/可">〇/〇</td>
+				<td class="vote" style="color:black">×</td>
+				<td class="board"><a class="button2" href="game.php?id=27&#impression">〇</a></td>		
+				<td class="dl">
+					<form style="margin:0px; padding:0px" action="dl.php" method="post">
+						<input type="hidden" name="token" value="06275d3cf5d770a756da5430cbc75fb2">	
+						<input type="hidden" name="id" value="27">					
+						<button class="button5" type="submit">提出:9/28<br>100MB</button>
+					</form>						
+					 
+			<form style="margin:0px; padding:0px; text-align:center" action="web.php" method="post">
+				<input type="hidden" name="token" value="06275d3cf5d770a756da5430cbc75fb2">	
+				<input type="hidden" name="id" value="27">					
+				<button class="button6" type="submit">web版</button>
+			</form>						
+			</td>	
+				<td class="count" style="font-size:12px;">211<br>+107</td>
+				<td class="count" style="font-size:12px;"></td>
+			</tr>	
+			<tr>
+				<td class="no">28<img src="../main/images/icon/28.png" class="icon"
+					onmouseout="pop28.src='../main/images/blank.png'" onmouseover="pop28.src='../main/images/ss/28-1.png'"
+					ondblclick="pop28.src='../main/images/ss/28-2.png'" title="ダブルクリックで二枚目"><img class="pop" name="pop28">
+					</td>
+				<td class="tkool">2000</td>
+				<td class="title"><a class="tdtxt" href="game.php?id=28" title="エコぽて経済倫理学">エコぽて経済倫理学</a><br class="mobile2">
+					<a class="mobile2">黄泉つ/りんりー</a>
+					<a class="mobile2" href="game.php?id=28&#impression">感想</a></td>
+				<td class="ag"><a class="tdtxt" title="黄泉つ">黄泉つ</a></td>
+				<td class="ag"><a class="tdtxt" title="りんりー">りんりー</a></td>
+				<td class="tdm" title="可/可">〇/〇</td>
+				<td class="vote" style="color:black">〇</td>
+				<td class="board"><a class="button2" href="game.php?id=28&#impression">〇</a></td>		
+				<td class="dl">
+					<form style="margin:0px; padding:0px" action="dl.php" method="post">
+						<input type="hidden" name="token" value="06275d3cf5d770a756da5430cbc75fb2">	
+						<input type="hidden" name="id" value="28">					
+						<button class="button5" type="submit">更新:8/26<br>6.1MB</button>
+					</form>						
+					 </td>	
+				<td class="count" style="font-size:12px;">408</td>
+				<td class="count" style="font-size:12px;">13</td>
+			</tr>	
+			<tr>
+				<td class="no">29<img src="../main/images/icon/29.png?0818" class="icon"
+					onmouseout="pop29.src='../main/images/blank.png'" onmouseover="pop29.src='../main/images/ss/29-1.png?0818'"
+					><img class="pop" name="pop29">
+					</td>
+				<td class="tkool">2000</td>
+				<td class="title"><a class="tdtxt" href="game.php?id=29" title="アラビア単発">アラビア単発</a><br class="mobile2">
+					<a class="mobile2">パトラミック/短編</a>
+					<a class="mobile2" href="game.php?id=29&#impression">感想</a></td>
+				<td class="ag"><a class="tdtxt" title="パトラミック">パトラミック</a></td>
+				<td class="ag"><a class="tdtxt" title="短編">短編</a></td>
+				<td class="tdm" title="可/可">〇/〇</td>
+				<td class="vote" style="color:black">×</td>
+				<td class="board"><a class="button2" href="game.php?id=29&#impression">〇</a></td>		
+				<td class="dl">
+					<form style="margin:0px; padding:0px" action="dl.php" method="post">
+						<input type="hidden" name="token" value="06275d3cf5d770a756da5430cbc75fb2">	
+						<input type="hidden" name="id" value="29">					
+						<button class="button5" type="submit">提出:8/20<br>106MB</button>
+					</form>						
+					 </td>	
+				<td class="count" style="font-size:12px;">155</td>
+				<td class="count" style="font-size:12px;"></td>
+			</tr>
+			<tr style="color:white; background-color:#696969;">
+				<td class="no">No.</td>
+				<td class="tkool">ﾂｸｰﾙ</td>
+				<td class="title">作品名<br class="mobile2">
+					<a class="mobile2">作者名/ジャンル</a></td>
+				<td class="ag">作者名</td>
+				<td class="ag">ジャンル</td>
+				<td class="tdm" title="配信/動画">配/動</td>
+				<td class="vote">投票</td>
+				<td class="board">感想</td>				
+				<td class="dl">PIAI</td>
+				<td class="count" title="+以降はweb版">DL数</td>
+				<td class="count">票数</td>
+			</tr>	
+			<tr>
+				<td class="no">30<img src="../main/images/icon/30.png" class="icon"
+					onmouseout="pop30.src='../main/images/blank.png'" onmouseover="pop30.src='../main/images/ss/30-1.png'"
+					ondblclick="pop30.src='../main/images/ss/30-2.png'" title="ダブルクリックで二枚目"><img class="pop" name="pop30">
+					</td>
+				<td class="tkool">2000</td>
+				<td class="title"><a class="tdtxt" href="game.php?id=30" title="これがやりたかっただけの小ネタ集">これがやりたかっただけの小ネタ集</a><br class="mobile2">
+					<a class="mobile2">ろーぷれつくろ～/ｋｓ短編集</a>
+					<a class="mobile2" href="game.php?id=30&#impression">感想</a></td>
+				<td class="ag"><a class="tdtxt" title="ろーぷれつくろ～">ろーぷれつくろ～</a></td>
+				<td class="ag"><a class="tdtxt" title="ｋｓ短編集">ｋｓ短編集</a></td>
+				<td class="tdm" title="非推奨">※</td>
+				<td class="vote" style="color:black">〇</td>
+				<td class="board"><a class="button2" href="game.php?id=30&#impression">〇</a></td>		
+				<td class="dl">
+					<form style="margin:0px; padding:0px" action="dl.php" method="post">
+						<input type="hidden" name="token" value="06275d3cf5d770a756da5430cbc75fb2">	
+						<input type="hidden" name="id" value="30">					
+						<button class="button5" type="submit">更新:9/16<br>24MB</button>
+					</form>						
+					 </td>	
+				<td class="count" style="font-size:12px;">364</td>
+				<td class="count" style="font-size:12px;">11</td>
+			</tr>	
+			<tr>
+				<td class="no">31<img src="../main/images/icon/31.png" class="icon"
+					onmouseout="pop31.src='../main/images/blank.png'" onmouseover="pop31.src='../main/images/ss/31-1.png'"
+					><img class="pop" name="pop31">
+					</td>
+				<td class="tkool">MV</td>
+				<td class="title"><a class="tdtxt" href="game.php?id=31" title="2000→MV素材変換器">2000→MV素材変換器</a><br class="mobile2">
+					<a class="mobile2">くらむぼん/ツール</a>
+					<a class="mobile2" href="game.php?id=31&#impression">感想</a></td>
+				<td class="ag"><a class="tdtxt" title="くらむぼん">くらむぼん</a></td>
+				<td class="ag"><a class="tdtxt" title="ツール">ツール</a></td>
+				<td class="tdm" title="可/可">〇/〇</td>
+				<td class="vote" style="color:black">×</td>
+				<td class="board"><a class="button2" href="game.php?id=31&#impression">〇</a></td>		
+				<td class="dl">
+					<form style="margin:0px; padding:0px" action="dl.php" method="post">
+						<input type="hidden" name="token" value="06275d3cf5d770a756da5430cbc75fb2">	
+						<input type="hidden" name="id" value="31">					
+						<button class="button5" type="submit">提出:8/16<br>72MB</button>
+					</form>						
+					 </td>	
+				<td class="count" style="font-size:12px;">250</td>
+				<td class="count" style="font-size:12px;"></td>
+			</tr>	
+			<tr>
+				<td class="no">32<img src="../main/images/icon/32.png" class="icon"
+					onmouseout="pop32.src='../main/images/blank.png'" onmouseover="pop32.src='../main/images/ss/32-1.png?0928'"
+					><img class="pop" name="pop32">
+					</td>
+				<td class="tkool">-</td>
+				<td class="title"><a class="tdtxt" href="game.php?id=32" title="-">-</a><br class="mobile2">
+					<a class="mobile2">-/-</a>
+					<a class="mobile2" href="game.php?id=32&#impression">感想</a></td>
+				<td class="ag"><a class="tdtxt" title="-">-</a></td>
+				<td class="ag"><a class="tdtxt" title="-">-</a></td>
+				<td class="tdm" title="-">※</td>
+				<td class="vote" style="color:black">×</td>
+				<td class="board"><a class="button2" href="game.php?id=32&#impression">〇</a></td>		
+				<td class="dl"> </td>	
+				<td class="count" style="font-size:12px;"></td>
+				<td class="count" style="font-size:12px;"></td>
+			</tr>	
+			<tr>
+				<td class="no">33<img src="../main/images/icon/33.png" class="icon"
+					onmouseout="pop33.src='../main/images/blank.png'" onmouseover="pop33.src='../main/images/ss/33-1.png'"
+					><img class="pop" name="pop33">
+					</td>
+				<td class="tkool">2000</td>
+				<td class="title"><a class="tdtxt" href="game.php?id=33" title="好きな曲を好きに使ってデフォ戦">好きな曲を好きに使ってデフォ戦</a><br class="mobile2">
+					<a class="mobile2">坑道メシ/デフォ戦</a>
+					<a class="mobile2" href="game.php?id=33&#impression">感想</a></td>
+				<td class="ag"><a class="tdtxt" title="坑道メシ">坑道メシ</a></td>
+				<td class="ag"><a class="tdtxt" title="デフォ戦">デフォ戦</a></td>
+				<td class="tdm" title="可/可">〇/〇</td>
+				<td class="vote" style="color:black">〇</td>
+				<td class="board"><a class="button2" href="game.php?id=33&#impression">〇</a></td>		
+				<td class="dl">
+					<form style="margin:0px; padding:0px" action="dl.php" method="post">
+						<input type="hidden" name="token" value="06275d3cf5d770a756da5430cbc75fb2">	
+						<input type="hidden" name="id" value="33">					
+						<button class="button5" type="submit">更新:9/02<br>55MB</button>
+					</form>						
+					 </td>	
+				<td class="count" style="font-size:12px;">590</td>
+				<td class="count" style="font-size:12px;">18</td>
+			</tr>	
+			<tr>
+				<td class="no">34<img src="../main/images/icon/34.png" class="icon"
+					onmouseout="pop34.src='../main/images/blank.png'" onmouseover="pop34.src='../main/images/ss/34-1.png'"
+					><img class="pop" name="pop34">
+					</td>
+				<td class="tkool">2000</td>
+				<td class="title"><a class="tdtxt" href="game.php?id=34" title="神撃のワイバーン VIRGIN SOUL">神撃のワイバーン VIRGIN SOUL</a><br class="mobile2">
+					<a class="mobile2">JK/RPG</a>
+					<a class="mobile2" href="game.php?id=34&#impression">感想</a></td>
+				<td class="ag"><a class="tdtxt" title="JK">JK</a></td>
+				<td class="ag"><a class="tdtxt" title="RPG">RPG</a></td>
+				<td class="tdm" title="可/可">〇/〇</td>
+				<td class="vote" style="color:black">〇</td>
+				<td class="board"><a class="button2" href="game.php?id=34&#impression">〇</a></td>		
+				<td class="dl"> </td>	
+				<td class="count" style="font-size:12px;"></td>
+				<td class="count" style="font-size:12px;"></td>
+			</tr>	
+			<tr>
+				<td class="no">35<img src="../main/images/icon/35.png" class="icon"
+					onmouseout="pop35.src='../main/images/blank.png'" onmouseover="pop35.src='../main/images/ss/35-1.png'"
+					ondblclick="pop35.src='../main/images/ss/35-2.png'" title="ダブルクリックで二枚目"><img class="pop" name="pop35">
+					</td>
+				<td class="tkool">2000</td>
+				<td class="title"><a class="tdtxt" href="game.php?id=35" title="ダークハーフ">ダークハーフ</a><br class="mobile2">
+					<a class="mobile2">クルマユ大好き丸/ksg</a>
+					<a class="mobile2" href="game.php?id=35&#impression">感想</a></td>
+				<td class="ag"><a class="tdtxt" title="クルマユ大好き丸">クルマユ大好き丸</a></td>
+				<td class="ag"><a class="tdtxt" title="ksg">ksg</a></td>
+				<td class="tdm" title="不可/不可">×/×</td>
+				<td class="vote" style="color:black">×</td>
+				<td class="board"><a class="button2" href="game.php?id=35&#impression">〇</a></td>		
+				<td class="dl">
+					<form style="margin:0px; padding:0px" action="dl.php" method="post">
+						<input type="hidden" name="token" value="06275d3cf5d770a756da5430cbc75fb2">	
+						<input type="hidden" name="id" value="35">					
+						<button class="button5" type="submit">提出:9/29<br>2.7MB</button>
+					</form>						
+					 </td>	
+				<td class="count" style="font-size:12px;">110</td>
+				<td class="count" style="font-size:12px;"></td>
+			</tr>	
+			<tr>
+				<td class="no">36<img src="../main/images/icon/36.png" class="icon"
+					onmouseout="pop36.src='../main/images/blank.png'" onmouseover="pop36.src='../main/images/ss/36-1.png'"
+					><img class="pop" name="pop36">
+					</td>
+				<td class="tkool">2000</td>
+				<td class="title"><a class="tdtxt" href="game.php?id=36" title="→→→">→→→</a><br class="mobile2">
+					<a class="mobile2">やらわか/1分ミニゲーム</a>
+					<a class="mobile2" href="game.php?id=36&#impression">感想</a></td>
+				<td class="ag"><a class="tdtxt" title="やらわか">やらわか</a></td>
+				<td class="ag"><a class="tdtxt" title="1分ミニゲーム">1分ミニゲーム</a></td>
+				<td class="tdm" title="可/可">〇/〇</td>
+				<td class="vote" style="color:black">〇</td>
+				<td class="board"><a class="button2" href="game.php?id=36&#impression">〇</a></td>		
+				<td class="dl">
+					<form style="margin:0px; padding:0px" action="dl.php" method="post">
+						<input type="hidden" name="token" value="06275d3cf5d770a756da5430cbc75fb2">	
+						<input type="hidden" name="id" value="36">					
+						<button class="button5" type="submit">提出:8/28<br>41MB</button>
+					</form>						
+					 </td>	
+				<td class="count" style="font-size:12px;">458</td>
+				<td class="count" style="font-size:12px;">13</td>
+			</tr>	
+			<tr>
+				<td class="no">37<img src="../main/images/icon/37.png" class="icon"
+					onmouseout="pop37.src='../main/images/blank.png'" onmouseover="pop37.src='../main/images/ss/37-1.png'"
+					><img class="pop" name="pop37">
+					</td>
+				<td class="tkool">2000</td>
+				<td class="title"><a class="tdtxt" href="game.php?id=37" title="iSOC-7の、音楽堂サルベージ。">iSOC-7の、音楽堂サルベージ。</a><br class="mobile2">
+					<a class="mobile2">iSOC-7(アイゾック セブン)/RPG…というよりも素材集に近い</a>
+					<a class="mobile2" href="game.php?id=37&#impression">感想</a></td>
+				<td class="ag"><a class="tdtxt" title="iSOC-7(アイゾック セブン)">iSOC-7(アイゾック セブン)</a></td>
+				<td class="ag"><a class="tdtxt" title="RPG…というよりも素材集に近い">RPG…というよりも素材集に近い</a></td>
+				<td class="tdm" title="可/可">〇/〇</td>
+				<td class="vote" style="color:black">〇</td>
+				<td class="board"><a class="button2" href="game.php?id=37&#impression">〇</a></td>		
+				<td class="dl">
+					<form style="margin:0px; padding:0px" action="dl.php" method="post">
+						<input type="hidden" name="token" value="06275d3cf5d770a756da5430cbc75fb2">	
+						<input type="hidden" name="id" value="37">					
+						<button class="button5" type="submit">提出:9/15<br>39MB</button>
+					</form>						
+					 </td>	
+				<td class="count" style="font-size:12px;">240</td>
+				<td class="count" style="font-size:12px;">7</td>
+			</tr>	
+			<tr>
+				<td class="no">38<img src="../main/images/icon/38.png" class="icon"
+					onmouseout="pop38.src='../main/images/blank.png'" onmouseover="pop38.src='../main/images/ss/38-1.png'"
+					ondblclick="pop38.src='../main/images/ss/38-2.png'" title="ダブルクリックで二枚目"><img class="pop" name="pop38">
+					</td>
+				<td class="tkool">2000</td>
+				<td class="title"><a class="tdtxt" href="game.php?id=38" title="「ベルガモット組曲」">「ベルガモット組曲」</a><br class="mobile2">
+					<a class="mobile2">（Ｒ）ＤＵ/見るゲ(ちょっとだけやるゲ)</a>
+					<a class="mobile2" href="game.php?id=38&#impression">感想</a></td>
+				<td class="ag"><a class="tdtxt" title="（Ｒ）ＤＵ">（Ｒ）ＤＵ</a></td>
+				<td class="ag"><a class="tdtxt" title="見るゲ(ちょっとだけやるゲ)">見るゲ(ちょっとだけやるゲ)</a></td>
+				<td class="tdm" title="可/可">〇/〇</td>
+				<td class="vote" style="color:black">〇</td>
+				<td class="board"><a class="button2" href="game.php?id=38&#impression">〇</a></td>		
+				<td class="dl">
+					<form style="margin:0px; padding:0px" action="dl.php" method="post">
+						<input type="hidden" name="token" value="06275d3cf5d770a756da5430cbc75fb2">	
+						<input type="hidden" name="id" value="38">					
+						<button class="button5" type="submit">提出:9/24<br>12MB</button>
+					</form>						
+					 </td>	
+				<td class="count" style="font-size:12px;">184</td>
+				<td class="count" style="font-size:12px;">3</td>
+			</tr>	
+			<tr>
+				<td class="no">39<img src="../main/images/icon/39.png" class="icon"
+					onmouseout="pop39.src='../main/images/blank.png'" onmouseover="pop39.src='../main/images/ss/39-1.png'"
+					ondblclick="pop39.src='../main/images/ss/39-2.png'" title="ダブルクリックで二枚目"><img class="pop" name="pop39">
+					</td>
+				<td class="tkool">2000</td>
+				<td class="title"><a class="tdtxt" href="game.php?id=39" title="勇者のブロック迷宮探索">勇者のブロック迷宮探索</a><br class="mobile2">
+					<a class="mobile2">愚図の本懐/アクションアドベンチャー</a>
+					<a class="mobile2" href="game.php?id=39&#impression">感想</a></td>
+				<td class="ag"><a class="tdtxt" title="愚図の本懐">愚図の本懐</a></td>
+				<td class="ag"><a class="tdtxt" title="アクションアドベンチャー">アクションアドベンチャー</a></td>
+				<td class="tdm" title="可/可">〇/〇</td>
+				<td class="vote" style="color:black">〇</td>
+				<td class="board"><a class="button2" href="game.php?id=39&#impression">〇</a></td>		
+				<td class="dl"> </td>	
+				<td class="count" style="font-size:12px;"></td>
+				<td class="count" style="font-size:12px;"></td>
+			</tr>
+			<tr style="color:white; background-color:#696969;">
+				<td class="no">No.</td>
+				<td class="tkool">ﾂｸｰﾙ</td>
+				<td class="title">作品名<br class="mobile2">
+					<a class="mobile2">作者名/ジャンル</a></td>
+				<td class="ag">作者名</td>
+				<td class="ag">ジャンル</td>
+				<td class="tdm" title="配信/動画">配/動</td>
+				<td class="vote">投票</td>
+				<td class="board">感想</td>				
+				<td class="dl">PIAI</td>
+				<td class="count" title="+以降はweb版">DL数</td>
+				<td class="count">票数</td>
+			</tr>	
+			<tr>
+				<td class="no">40<img src="../main/images/icon/40.png" class="icon"
+					onmouseout="pop40.src='../main/images/blank.png'" onmouseover="pop40.src='../main/images/ss/40-1.png'"
+					ondblclick="pop40.src='../main/images/ss/40-2.png'" title="ダブルクリックで二枚目"><img class="pop" name="pop40">
+					</td>
+				<td class="tkool">VX</td>
+				<td class="title"><a class="tdtxt" href="game.php?id=40" title="うんちぶりぶり">うんちぶりぶり</a><br class="mobile2">
+					<a class="mobile2">ウンコマン/うんこ</a>
+					<a class="mobile2" href="game.php?id=40&#impression">感想</a></td>
+				<td class="ag"><a class="tdtxt" title="ウンコマン">ウンコマン</a></td>
+				<td class="ag"><a class="tdtxt" title="うんこ">うんこ</a></td>
+				<td class="tdm" title="可/可">〇/〇</td>
+				<td class="vote" style="color:black">〇</td>
+				<td class="board"><a class="button2" href="game.php?id=40&#impression">〇</a></td>		
+				<td class="dl">
+					<form style="margin:0px; padding:0px" action="dl.php" method="post">
+						<input type="hidden" name="token" value="06275d3cf5d770a756da5430cbc75fb2">	
+						<input type="hidden" name="id" value="40">					
+						<button class="button5" type="submit">提出:8/31<br>222KB</button>
+					</form>						
+					 </td>	
+				<td class="count" style="font-size:12px;">124</td>
+				<td class="count" style="font-size:12px;">6</td>
+			</tr>	
+			<tr>
+				<td class="no">41<img src="../main/images/icon/41.png" class="icon"
+					onmouseout="pop41.src='../main/images/blank.png'" onmouseover="pop41.src='../main/images/ss/41-1.png'"
+					><img class="pop" name="pop41">
+					</td>
+				<td class="tkool">2000</td>
+				<td class="title"><a class="tdtxt" href="game.php?id=41" title="おぼぎり草">おぼぎり草</a><br class="mobile2">
+					<a class="mobile2">脂はむ/ホラー</a>
+					<a class="mobile2" href="game.php?id=41&#impression">感想</a></td>
+				<td class="ag"><a class="tdtxt" title="脂はむ">脂はむ</a></td>
+				<td class="ag"><a class="tdtxt" title="ホラー">ホラー</a></td>
+				<td class="tdm" title="可/可">〇/〇</td>
+				<td class="vote" style="color:black">〇</td>
+				<td class="board"><a class="button2" href="game.php?id=41&#impression">〇</a></td>		
+				<td class="dl"> </td>	
+				<td class="count" style="font-size:12px;"></td>
+				<td class="count" style="font-size:12px;"></td>
+			</tr>	
+			<tr>
+				<td class="no">42<img src="../main/images/icon/42.png" class="icon"
+					onmouseout="pop42.src='../main/images/blank.png'" onmouseover="pop42.src='../main/images/ss/42-1.png'"
+					><img class="pop" name="pop42">
+					</td>
+				<td class="tkool">MV</td>
+				<td class="title"><a class="tdtxt" href="game.php?id=42" title="アースノーカ For MV">アースノーカ For MV</a><br class="mobile2">
+					<a class="mobile2">ﾍﾞﾙﾌｧｰﾚ長田（゜∀゜）/やるゲ</a>
+					<a class="mobile2" href="game.php?id=42&#impression">感想</a></td>
+				<td class="ag"><a class="tdtxt" title="ﾍﾞﾙﾌｧｰﾚ長田（゜∀゜）">ﾍﾞﾙﾌｧｰﾚ長田（゜∀゜）</a></td>
+				<td class="ag"><a class="tdtxt" title="やるゲ">やるゲ</a></td>
+				<td class="tdm" title="可/可">〇/〇</td>
+				<td class="vote" style="color:black">〇</td>
+				<td class="board"><a class="button2" href="game.php?id=42&#impression">〇</a></td>		
+				<td class="dl">
+					<form style="margin:0px; padding:0px" action="dl.php" method="post">
+						<input type="hidden" name="token" value="06275d3cf5d770a756da5430cbc75fb2">	
+						<input type="hidden" name="id" value="42">					
+						<button class="button5" type="submit">提出:8/31<br>61MB</button>
+					</form>						
+					 
+			<form style="margin:0px; padding:0px; text-align:center" action="web.php" method="post">
+				<input type="hidden" name="token" value="06275d3cf5d770a756da5430cbc75fb2">	
+				<input type="hidden" name="id" value="42">					
+				<button class="button6" type="submit">web版</button>
+			</form>						
+			</td>	
+				<td class="count" style="font-size:12px;">122<br>+218</td>
+				<td class="count" style="font-size:12px;">11</td>
+			</tr>	
+			<tr>
+				<td class="no">43<img src="../main/images/icon/43.png" class="icon"
+					onmouseout="pop43.src='../main/images/blank.png'" onmouseover="pop43.src='../main/images/ss/43-1.png?0831'"
+					><img class="pop" name="pop43">
+					</td>
+				<td class="tkool">2000</td>
+				<td class="title"><a class="tdtxt" href="game.php?id=43" title="魔神伝説">魔神伝説</a><br class="mobile2">
+					<a class="mobile2">脳内住民/みるげ</a>
+					<a class="mobile2" href="game.php?id=43&#impression">感想</a></td>
+				<td class="ag"><a class="tdtxt" title="脳内住民">脳内住民</a></td>
+				<td class="ag"><a class="tdtxt" title="みるげ">みるげ</a></td>
+				<td class="tdm" title="可/可">〇/〇</td>
+				<td class="vote" style="color:black">〇</td>
+				<td class="board"><a class="button2" href="game.php?id=43&#impression">〇</a></td>		
+				<td class="dl">
+					<form style="margin:0px; padding:0px" action="dl.php" method="post">
+						<input type="hidden" name="token" value="06275d3cf5d770a756da5430cbc75fb2">	
+						<input type="hidden" name="id" value="43">					
+						<button class="button5" type="submit">提出:8/31<br>2.2MB</button>
+					</form>						
+					 </td>	
+				<td class="count" style="font-size:12px;">380</td>
+				<td class="count" style="font-size:12px;">13</td>
+			</tr>	
+			<tr>
+				<td class="no">44<img src="../main/images/icon/44.png" class="icon"
+					onmouseout="pop44.src='../main/images/blank.png'" onmouseover="pop44.src='../main/images/ss/44-1.png'"
+					><img class="pop" name="pop44">
+					</td>
+				<td class="tkool">2000</td>
+				<td class="title"><a class="tdtxt" href="game.php?id=44" title="ゴメス">ゴメス</a><br class="mobile2">
+					<a class="mobile2">ゴメス/ゴメス</a>
+					<a class="mobile2" href="game.php?id=44&#impression">感想</a></td>
+				<td class="ag"><a class="tdtxt" title="ゴメス">ゴメス</a></td>
+				<td class="ag"><a class="tdtxt" title="ゴメス">ゴメス</a></td>
+				<td class="tdm" title="ゴメス">※</td>
+				<td class="vote" style="color:black">〇</td>
+				<td class="board"><a class="button2" href="game.php?id=44&#impression">〇</a></td>		
+				<td class="dl">
+					<form style="margin:0px; padding:0px" action="dl.php" method="post">
+						<input type="hidden" name="token" value="06275d3cf5d770a756da5430cbc75fb2">	
+						<input type="hidden" name="id" value="44">					
+						<button class="button5" type="submit">提出:9/02<br>52KB</button>
+					</form>						
+					 </td>	
+				<td class="count" style="font-size:12px;">490</td>
+				<td class="count" style="font-size:12px;">21</td>
+			</tr>
+		</table>
+
+	<br><a style="color:#EFEFEF">773.16 m秒</a>	</div>
+	
+	<div class="nonline">
+		<button class="chbtn" name="btnCh1" style="float:right">ボタン切替</button>
+	</div>
+	<div style="height:500px;"></div>
+
+	<div class="foot">
+		<div class="bottom">
+			<a>VIPRPG 2017夏の陣</a>
+		</div>
+	</div>
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/common.js"></script>
+</body>
+</html>

@@ -1,0 +1,638 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Script-Type" content="text/html; meta charset=UTF-8" />
+	<meta name="viewport" content="width=device-width" >
+	<link rel="stylesheet" type="text/css" href="../main/style.css">
+	<title>VIPRPG夏の陣2017</title>
+	<style type="text/css"><!--
+		tr {
+			border:none;
+			border-bottom: 1px #000000 solid;
+			border-collapse: collapse;
+		}
+		td{
+			border:none;
+			border-bottom: 1px #000000 solid;
+			border-collapse: collapse;
+			white-space: normal;
+			border-spacing:0px;
+			margin:0px;
+			padding:0px;
+			line-height:130%;
+		}
+	--></style>
+</head>
+<style type="text/css">
+</style>
+<body>
+<script type="text/javascript" src="https://ad.xdomain.ne.jp/js/server-php.js"></script>
+<div class="bodylike">
+
+	<div class="head">
+		<div class="top">
+			<button class="chbtn" name="btnCh1" style="margin-right:0px; float:right">ボタン切替</button>
+			<h1>VIPRPG 2017夏の陣</h1>
+		</div>
+	</div>
+	
+	<div class="nonline">
+
+		<img src="images/banner.png" class="topbanner"><br class="mobile2">
+		
+		<a href="#abstract" class="button1">概要</a>
+		<a href="#vote" class="button1">投票</a>
+		<a href="#link" class="button1">リンク</a>		
+		<a href="http://jbbs.shitaraba.net/game/60231/" class="button1">運営掲示板</a>
+		<a href="http://jbbs.shitaraba.net/game/60233/" class="button1">感想掲示板</a>
+		<br>
+		
+		<a href="gamelist.php" class="button1">★作品一覧★</a>
+		<a href="https://twitter.com/viprpg2017_sum" class="button1">
+			<img src="images/twitter.png" class="twitter"> 連絡用Twitter</a><br>
+
+		<div style="height:20px;"></div>		
+
+	</div>
+	
+	<div style="text-align: center">
+		<a style="font-size:x-large" href="awarding.html">投票結果表彰会場</a><br>
+	</div>
+
+	<div class="nonline">		
+		<b>連絡＆更新履歴</b> <a class="hidden" id="notice">-非表示-</a>
+	</div>
+	<div class="nonline" id="noticeA">
+		<div class="base flow">
+			<table>
+				<tr><td style="color:red">9/30</a></td><td>
+					夏の陣2017更新は本日をもって終了です<br>
+					掲示板や投票ボタン、アップローダーは今後もお使いいただけます。<br>
+					皆様、長い間ありがとうございました。<br>
+					</td></tr>
+				<tr><td>9/30</td><td>
+					<a href="awarding.html">表彰会場設置</a><br>
+					作品リスト及び作品紹介ページから投票数を見れるように変更<br>
+					</td></tr>
+				<tr><td>9/29</td><td>
+					<a href="game.php?id=35">No35</a> 作品公開<br>
+					<a href="game.php?id=18">No18</a> 作品公開<br>
+					<a href="game.php?id=12">No12</a> 更新(作品更新)<br>
+					<a href="game.php?id=27">No27</a> web版公開<br>	
+					<a href="game.php?id=14">No14</a> 更新(作品更新)<br>
+					</td></tr>
+				<tr><td>9/28</td><td>
+					<a href="game.php?id=27">No27</a> 作品公開<br>
+					<a href="game.php?id=14">No14</a> 更新(作品更新)<br>	
+					<a href="game.php?id=3">No3</a> 更新(作品更新)<br>
+					</td></tr>
+				<tr><td>9/27</td><td>
+					<a href="game.php?id=14">No14</a> 作品公開<br>				
+					<a href="game.php?id=7">No7</a> 更新(作品更新)<br>
+					</td></tr>
+				<tr><td>9/26</td><td>
+					<a href="game.php?id=7">No7</a> 更新(作品更新)<br>
+					</td></tr>
+				<tr><td>9/24</td><td>
+					<a href="game.php?id=38">No38</a> 作品公開<br>
+					</td></tr>
+				<tr><td>9/21</td><td>
+					<a href="game.php?id=0">No0</a> 作品公開<br>
+					</td></tr>
+				<tr><td>9/17</td><td>
+					<a href="game.php?id=17">No17</a> 更新(作品更新)<br>
+					<a href="game.php?id=26">No26</a> 更新(作品更新)<br>
+					</td></tr>	
+				<tr><td>9/16</td><td>
+					<a href="game.php?id=17">No17</a> 作品公開<br>
+					<a href="game.php?id=30">No30</a> 更新(作品更新)<br>
+					<a href="game.php?id=26">No26</a> 更新(作品更新)<br>
+					</td></tr>	
+				<tr><td>9/15</td><td>
+					<a href="game.php?id=37">No37</a> 作品公開<br>
+					<a href="game.php?id=26">No26</a> 作品公開<br>
+					</td></tr>	
+				<tr><td>9/12</td><td>
+					<a href="game.php?id=13">No13</a> 更新(作品更新)<br>
+					</td></tr>	
+				<tr><td>9/09</td><td>
+					<a href="game.php?id=4">No4</a> 更新(作品更新)<br>
+					</td></tr>	
+				<tr><td>9/02</td><td>
+					<a href="game.php?id=33">No33</a> 更新(作品更新)<br>
+					<a href="game.php?id=42">No42</a> 更新(web版公開)<br>				
+					<a href="game.php?id=44">No44</a> 作品公開<br>
+					</td></tr>	
+				<tr><td>9/01</td><td>
+					<a href="game.php?id=44">No44</a> 登録<br>					
+					<a href="game.php?id=43">No43</a> 登録＆作品公開<br>	
+					<a href="game.php?id=42">No42</a> 登録＆作品公開<br>
+					<a href="game.php?id=41">No41</a> 登録<br>	
+					</td></tr>						
+				<tr><td>8/31</td><td>
+					<a href="game.php?id=10">No10</a> 更新(作品更新)<br>					
+					<a href="game.php?id=40">No40</a> 登録＆作品公開<br>	
+					<a href="game.php?id=39">No39</a> 登録<br>			
+					</td></tr>	
+					<tr><td>8/30</td><td>
+					<a href="game.php?id=38">No38</a> 登録<br>			
+					</td></tr>	
+					<tr><td>8/29</td><td>
+					<a href="game.php?id=37">No37</a> 登録<br>			
+					</td></tr>	
+					<tr><td>8/28</td><td>
+					<a href="game.php?id=36">No36</a> 登録＆作品公開<br>			
+					</td></tr>	
+				<tr><td>8/27</td><td>
+					
+					<a href="game.php?id=7">No7</a> 作品公開<br>	
+					<a href="game.php?id=12">No12</a>
+					<a href="game.php?id=13">No13</a> 更新(作品更新)<br>
+					<a href="game.php?id=35">No35</a> 登録<br>				
+					</td></tr>	
+				<tr><td>8/26</td><td>
+					<a href="game.php?id=28">No28</a> 更新(作品更新)<br>
+					<a href="game.php?id=34">No34</a> 登録<br>				
+					</td></tr>	
+				<tr><td>8/24</td><td>
+					<a href="game.php?id=2">No2</a> 作品公開,各種変更(投票不可→可, 説明文追記)
+					</td></tr>	
+				<tr><td>8/23</td><td>
+					<a href="game.php?id=24">No24</a>
+					<a href="game.php?id=12">No12</a> 更新(作品更新)<br>
+					</td></tr>	
+				<tr><td>8/21</td><td>
+					<a href="game.php?id=13">No13</a>
+					<a href="game.php?id=24">No24</a> 更新(作品更新)<br>
+					</td></tr>	
+				<tr><td>8/20</td><td>
+					<a href="game.php?id=6">No6</a>
+					<a href="game.php?id=30">No30</a> 更新(作品更新)<br>			
+					<a href="game.php?id=29">No29</a>
+					<a href="game.php?id=24">No24</a>
+					<a href="game.php?id=12">No12</a> 作品公開
+					</td></tr>	
+				<tr><td>8/19</td><td>
+					<a href="game.php?id=16">No16</a> 作品公開<br>
+					<a href="game.php?id=29">No29</a> ss変更
+					</td></tr>			
+				<tr><td>8/16</td><td>
+					<a href="game.php?id=28">No5</a> 更新<br>
+					<a href="game.php?id=33">No33</a> 登録＆作品公開<br>
+					<a href="game.php?id=3">No3</a>
+					<a href="game.php?id=4">No4</a>
+					<a href="game.php?id=5">No5</a>
+					<a href="game.php?id=6">No6</a>
+					<a href="game.php?id=10">No10</a>
+					<a href="game.php?id=13">No13</a>
+					<a href="game.php?id=19">No19</a>
+					<a href="game.php?id=21">No21</a>
+					<a href="game.php?id=22">No22</a>
+					<a href="game.php?id=23">No23</a>
+					<a href="game.php?id=25">No25</a>
+					<a href="game.php?id=28">No28</a>
+					<a href="game.php?id=30">No30</a>
+					<a href="game.php?id=31">No31</a> 作品公開
+					</td></tr>
+				<tr><td>8/15</td><td>
+					<a href="game.php?id=16">No16</a> 変更<br>
+					<a href="game.php?id=32">No32</a>
+					<a href="game.php?id=31">No31</a>
+					<a href="game.php?id=30">No30</a> 登録<br>
+					<a href="game.php?id=3">No3</a> 提出<br>
+					</td></tr>
+				<tr><td>8/14</td><td>
+					<a href="game.php?id=19">No19</a>
+					<a href="game.php?id=21">No21</a> 提出<br>
+					<a href="game.php?id=29">No29</a> 登録
+					</td></tr>			
+				<tr><td>8/13</td><td>
+					<a href="game.php?id=13">No13</a> 提出
+					</td></tr>
+				<tr><td>8/11</td><td>
+					<a href="game.php?id=28">No28</a> 登録
+					</td></tr>
+				<tr><td>8/09</td><td>
+					<a href="game.php?id=9">No9</a> 更新(色々変更)
+					</td></tr>
+				<tr><td>8/08</td><td>
+					<a href="game.php?id=19">No19</a> 更新(ss変更,追加<br>
+					<a href="game.php?id=27">No27</a> 登録
+					</td></tr>
+				<tr><td>8/07</td><td>
+					<a href="game.php?id=25">No25</a> 提出
+					</td></tr>
+				<tr><td>8/06</td><td>
+					<a href="game.php?id=6">No6</a> 提出
+					</td></tr>	
+				<tr><td>8/04</td><td>
+					<a href="game.php?id=23">No23</a> 提出<br>
+					<a href="game.php?id=26">No26</a> 登録<br>
+					<a href="game.php?id=10">No10</a> 更新
+					</td></tr>
+				<tr><td>8/01</td><td>
+					<a href="game.php?id=25">No25</a> 登録
+					</td></tr>
+				<tr><td>7/31</td><td>
+					<a href="game.php?id=24">No24</a> 登録<br>
+					<a href="game.php?id=14">No14</a> ss追加・変更
+					</td></tr>
+				<tr><td>7/30</td><td>
+					<a href="game.php?id=23">No23</a> 登録<br>
+					<a href="game.php?id=13">No13</a> SS追加
+					</td></tr>
+				<tr><td>7/29</td><td>
+					<a href="game.php?id=5">No5</a> 提出＆変更(ss追加、配信＆動画＆投票：不可→可)<br>
+					<a href="game.php?id=22">No22</a> 登録＆提出
+					</td></tr>
+				<tr><td>7/23</td><td>
+					<a href="game.php?id=19">No19</a>
+					<a href="game.php?id=20">No20</a>
+					<a href="game.php?id=21">No21</a> 登録<br>	
+					<a href="game.php?id=4">No4</a> ss変更
+					<a href="game.php?id=18">No18</a> 作者名変更
+					</td></tr>		
+				<tr><td>7/22</td><td>
+					<a href="game.php?id=18">No18</a> 登録<br>
+					<a href="game.php?id=6">No6</a> ss追加
+					</td></tr>
+				<tr><td>7/18</td><td>
+					<a href="game.php?id=17">No17</a> 登録
+					</td></tr>
+				<tr><td>7/17</td><td>
+					<a href="game.php?id=10">No10</a> ジャンル変更
+					</td></tr>
+				<tr><td>7/16</td><td>
+					<a href="game.php?id=1">No1</a>
+					<a href="game.php?id=2">No2</a>
+					<a href="game.php?id=3">No3</a>
+					<a href="game.php?id=4">No4</a>
+					<a href="game.php?id=5">No5</a>
+					<a href="game.php?id=6">No6</a>
+					<a href="game.php?id=7">No7</a>
+					<a href="game.php?id=8">No8</a>
+					<a href="game.php?id=9">No9</a>
+					<a href="game.php?id=10">No10</a>
+					<a href="game.php?id=11">No11</a>
+					<a href="game.php?id=12">No12</a>
+					<a href="game.php?id=13">No13</a>
+					<a href="game.php?id=14">No14</a>
+					<a href="game.php?id=15">No15</a>
+					<a href="game.php?id=16">No16</a> <br>
+					登録
+					</td></tr>
+			</table>
+		</div>
+		<br>
+		<a href="#Top" class="button2">▲</a><br>
+		<br>
+	</div>
+	
+	<div class="nonline">
+		<b>企画概要</b> <a class="hidden" id="abstract">-非表示-</a>
+	</div>
+	<div class="nonline" id="abstractA">	
+		<div class="base">
+			<div style="height:10px;"></div>
+			　VIPRPG夏の陣はニュース速報VIP板RPGツクールスレッドで毎年開催されている、ツクール作品を公開しあい感想を付け合う事を目的とした企画です。過去の夏の陣については<a href="#link">ページ下部のリンク</a>からご覧ください。詳細については、下記項目をご参照下さい。<br>
+			<a href="#submit" class="button1">提出方法</a>
+			<a href="#update" class="button1">更新方法</a>		
+			<a href="#rule" class="button1">ルール</a>
+			<a href="#schedule" class="button1">日程</a>
+			<a href="#entry" class="button1">エントリー</a>
+			
+		</div>
+		<br>
+		<a href="#Top" class="button2">▲</a><br>
+		<br>
+	</div>
+	
+	<div class="nonline">
+		<b>投票方法</b> <a class="hidden" id="vote">-非表示-</a>
+	</div>
+	<div class="nonline" id="voteA">	
+		<div class="base">
+			<div style="height:10px;"></div>
+			投票可の作品且つ提出済みの作品は、各作品紹介ページの上側に<br>
+			<div style="height:5px;"></div>
+			　　<button class="button3">投票する</button><br>
+			<div style="height:5px;"></div>
+			こんな感じのボタンを設置しておりますので、良いなと思ったら押してください。投票は1作品につき1票まで入れられます。多重投票はお控え頂くようお願いします。明らかに悪意があるとみなした場合（例えば同一IPアドレスから数十票など）、アクセス禁止等の措置をとる可能性があります。<br>
+			<div style="height:10px;"></div>
+			<b>集計について</b><br>
+			　集計期間は8/16～9/24までとし、期間内の投票数に応じてランキングを行う予定です。また、中間結果発表も2回ほど行う予定です。<br>
+		</div>
+		<br>
+		<a href="#Top" class="button2">▲</a><br>
+		<br>
+	</div>
+
+	<div class="nonline">
+		<b>投票結果</b> <a class="hidden" id="result">-非表示-</a>
+	</div>
+	<div class="nonline" id="resultA">	
+		<div class="base">
+			<div style="height:10px;"></div>
+			<b>＜第一回中間結果＞</b>（集計：8/16～8/29,公表：8/30）<br>
+			<div style="height:5px;"></div>
+			　<b>１位：29票</b> <a href="game.php?id=3">No.3 ボムっと発掘！とれじゃーはんたぁ</a><br>
+			　<b>２位：27票</b> <a href="game.php?id=21">No.21 砂浜に流れ着いた見るゲ</a><br>
+			　<b>３位：26票</b> <a href="game.php?id=25">No.25 ウィンディを飼いたいんですが…</a><br>
+			<div style="height:5px;"></div>
+			　有効投票：226票<br>
+			
+			<div style="height:10px;"></div>
+			<b>＜第二回中間結果＞</b>（集計：8/16～9/11,公表：9/12）<br>
+			<div style="height:5px;"></div>
+			　<b>１位：47票</b> <a href="game.php?id=3">No.3 ボムっと発掘！とれじゃーはんたぁ</a><br>
+			　<b>２位：42票</b> <a href="game.php?id=25">No.25 ウィンディを飼いたいんですが…</a><br>
+			　<b>３位：41票</b> <a href="game.php?id=21">No.21 砂浜に流れ着いた見るゲ</a><br>
+			　<b>４位：35票</b> <a href="game.php?id=4">No.4 カマソッソの誕生</a><br>
+			　<b>５位：28票</b> <a href="game.php?id=6">No.6 Re:今から作る無計画ksg</a><br>
+			　<b>５位：28票</b> <a href="game.php?id=12">No.12 あばりトラベル</a><br>
+			<div style="height:5px;"></div>
+			　有効投票：390票<br>
+			
+			<div style="height:10px;"></div>
+			<b>＜最終結果＞</b>（集計：8/16～9/24,公表9/30）<br>
+			<div style="height:5px;"></div>
+			　<a href="awarding.html">表彰会場</a>
+			<br>			
+			
+		</div>
+		<br>
+		<a href="#Top" class="button2">▲</a><br>
+		<br>
+	</div>
+	
+	<div class="nonline">
+		<b>作品提出について</b> <a class="hidden" id="submit">-非表示-</a>
+	</div>
+	<div class="nonline" id="submitA">
+		<div class="base">
+			<div style="height:10px;"></div>
+			作品をアップローダに提出の上、以下の項目を明記したメールを<br>
+			　viprpg2017summer★yahoo.co.jp(★→@)<br>
+			にお送りください。<br>
+			<div style="height:10px;"></div>
+			【作品名/作品No.】<br>
+			【アップローダへのURL】<br>
+			【ダウンロードパス】<br>
+			<div style="height:10px;"></div>
+			なお、作品公開日（8/16）以降はダウンロードパスの設定は必須ではないものとします。<br>
+			※連絡につきましては、エントリー時のメールアドレスから行ってください。
+			<div style="height:10px;"></div>
+			<a style="font-size:x-large" href="http://ux.getuploader.com/VipSum_01/">作品提出用アップローダー①</a><br><br>
+			<a style="font-size:x-large" href="http://ux.getuploader.com/VipSum_02/">作品提出用アップローダー②</a><br><br>	
+		</div>
+		<br>
+		<a href="#Top" class="button2">▲</a><br>
+		<br>
+	</div>
+
+	<div class="nonline">	
+		<b>作品等の更新について</b> <a class="hidden" id="update">-非表示-</a>
+	</div>
+	<div class="nonline" id="updateA">
+		<div class="base">
+			<div style="height:10px;"></div>
+			作品を修正・更新したい場合は、以下の項目を明記したメールを<br>
+			　viprpg2017summer★yahoo.co.jp(★→@)<br>
+			にお送りください。<br>
+			<div style="height:10px;"></div>
+			【作品名/作品No.】<br>
+			【変更事項】<br>
+			【アップローダへのURL】（パッチファイル、作品等の場合）<br>
+			<div style="height:10px;"></div>
+			パッチファイル作成の場合は、専用アップローダーを設置いたします。<br>
+			運営側が本体にパッチを当てて、再度公開致します。<br>
+			パッチファイルではなく本体ごとアップロードする場合は、作品提出用アップローダにお願いします。<br>
+			※連絡につきましては、エントリー時のメールアドレスからとして下さい。
+			<div style="height:10px;"></div>
+			<a style="font-size:x-large" href="http://ux.getuploader.com/vipsum_p/">パッチ用アップローダー</a><br><br>
+			
+			<b>ファイルが空ファイルとなってしまう問題について</b><br>
+			　作品公開日以来、パッチファイルが空になるという報告がちょくちょくありましたが、アップロード時のリンクが正しく表示されないことが原因のようです。URLを掲示板等に貼り付ける場合は一度ご確認お願い致します。<br>
+			<img src="images/issue.png" style="width:100%">
+
+		</div>
+		<br>
+		<a href="#Top" class="button2">▲</a><br>
+		<br>
+	</div>
+
+	<div class="nonline">
+		<b>ルール</b> <a class="hidden" id="rule">-非表示-</a>
+	</div>
+	<div class="nonline" id="ruleA">
+		<div class="base">
+			<div style="height:10px;"></div>
+			・ツクール製の作品であること or ツクールに関係したツールであること<br>
+			・一人一作品まで<br>
+			・ジャンル不問　VIPやもしもとか意識しなくてもおｋ<br>
+		</div>
+		<br>
+		<a href="#Top" class="button2">▲</a><br>
+		<br>
+	</div>
+
+	<div class="nonline">		
+		<b>日程</b>	 <a class="hidden" id="schedule">-非表示-</a>
+	</div>
+	<div class="nonline" id="scheduleA">	
+		<div class="base">
+			<div style="height:10px;"></div>
+			07/15　エントリー受付開始<br>
+			07/29　作品提出受付開始<br>
+			08/16　作品公開<br>
+			08/16　投票開始（予定）<br>
+			08/31　エントリー受付終了<br>
+			09/24　投票終了<br>
+			09/29　作品提出・更新の受付終了<br>
+			09/30　サイト更新終了<br>
+		</div>
+		<br>
+		<a href="#Top" class="button2">▲</a><br>
+		<br>
+	</div>
+	
+	<div class="nonline">			
+		<b>応募方法</b> <a class="hidden" id="entry">-非表示-</a>
+	</div>
+	<div class="nonline" id="entryA">	
+		<div class="base">
+			<div style="height:10px;"></div>
+			エントリーは締め切りました。
+
+			<!--
+				<a href="./entry.html" style="font-size:x-large">エントリーフォーム</a><br><br>
+				から登録あるいは、<br>
+				<br>
+				以下の項目を明記、添付したメールを<br>
+				　viprpg2017summer★yahoo.co.jp(★→@)<br>
+				へお送りください。先に作品をアップローダーにあげてからその旨を連絡でもOKです。<br>
+				【作者名】<br>
+				【作品タイトル】<br>
+				【使用ツクール】<br>
+				【配信/動画投稿の可否】<br>
+				【作品のジャンル】<br>
+				【作者コメント】<br>
+				【作品のスクリーンショット】※1<br>
+				【アイコン】※2<br>
+				【投票の可否】※3<br>
+				<div style="height:10px;"></div>
+				※1<br>
+				640*480pxのJPG,PNG形式の画像とし、二枚まで指定できます。2枚指定の場合は、どちらが表（非マウスオーバー時の画像）か明記してください。<br>
+				<div style="height:10px;"></div>
+				※2<br>
+				32*32pxのpng・bmp・GIF形式の画像とします。(任意)<br>
+				<div style="height:10px;"></div>
+				※3<br>
+				投票を可とした作品のみ集計してランキングにします。紅白と違って点数や部門は設けず、シンプルに票数のみです。特に指定されていない作品については未集計とします。<br>
+			-->
+		</div>
+		<br>
+		<a href="#Top" class="button2">▲</a><br>
+		<br>
+	</div>
+	
+	<div class="nonline">		
+		<b>その他</b> <a class="hidden" id="other">-非表示-</a>
+	</div>
+	<div class="nonline" id="otherA">	
+		<div class="base">
+			ボタンが見にくいんだけど？<br>
+			→切り替えスイッチ<button class="chbtn" name="btnCh1">ボタン切替</button>を押してみてください(ページ右上と右下にも設置)<br>
+			<br>
+			スイッチ働かないよ？<br>
+			→javascriptとcookieを有効にしてください
+		</div>
+		<br>
+		<a href="#Top" class="button2">▲</a><br>
+		<br>
+	</div>
+	
+	<div class="nonline">	
+		<b>リンク集</b> <a class="hidden" id="link">-非表示-</a>
+	</div>
+	<div class="nonline" id="linkA">	
+		<div class="base">
+			・<a href="https://www10.atwiki.jp/vip_rpg/"> VIPRPG-Wiki</a><a>　VIPRPGって何？という方はまずはWikiをどうぞ<br>
+			・12代目作品保管庫(スレ投下作品はこちらから)<br>
+			<a href="http://www.geocities.jp/tkoolvipxii/"><img class="banner" src="images/banners/12th.png" style="padding:3px;"></a>
+			<br>
+			・過去の祭りサイト<br>
+			<a href="http://www.geocities.jp/viprpgsun2016/viptop.html"><img class="banner" src="images/banners/s2016-1.png" style="padding:3px;"></a>
+			<a href="http://viprpgsummer2016.web.fc2.com/"><img class="banner" src="images/banners/s2016-2.png" style="padding:3px;"></a>
+			<a href="http://viprpgsum15.webcrow.jp/"><img class="banner" src="images/banners/s2015.png" style="padding:3px;"></a><br>
+			<a href="http://viprpgkohaku2016.wixsite.com/kohaku2016"><img class="banner" src="images/banners/k2016.png" style="padding:3px;"></a>
+			<a href="http://www.geocities.jp/vipkohaku2015/"><img class="banner" src="images/banners/k2015.png" style="padding:3px;"></a>
+			<a href="http://www.geocities.jp/vipkohaku2014/"><img class="banner" src="images/banners/k2014.png" style="padding:3px;"></a><br>	
+			<a href="http://www.geocities.jp/viprpg_gw2017/"><img class="banner" src="images/banners/g2017.png" style="padding:3px;"></a>
+			<a href="http://www.geocities.jp/viprpg2016gw/"><img class="banner" src="images/banners/g2016.png" style="padding:3px;"></a>
+			<a href="http://www.geocities.jp/viprpg2015gw/"><img class="banner" src="images/banners/g2015.png" style="padding:3px;"></a><br>	
+		</div>
+		<br>
+		<a href="#Top" class="button2">▲</a><br>
+	</div>
+
+	<div class="nonline">
+		<button class="chbtn" name="btnCh1" style="float:right">ボタン切替</button>
+	</div>
+
+	<div style="height:50px;"></div>	
+	<div class="foot">
+		<div class="bottom">
+			<a>VIPRPG 2017夏の陣</a>
+		</div>
+	</div>
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/common.js"></script>
+<script type="text/JavaScript"><!--
+	//＃＃＃＃＃表示・非表示入れ替え＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃
+	//非表示
+	$('body').on('click touchstart','.hidden', function(){
+		$(this).text('-表示-');							//文字を表示に切替
+		$(this).removeClass('hidden').addClass('show');	//クラス"hidden"を消してクラス"show"を付与
+		var id = '#' + $(this).attr('id');				//隠すid属性を指定
+		$(id + 'A').hide();								//隠す
+		setHideCookie(id, 'hide');						//隠したidをクッキー"hide"に格納
+	});
+	//表示
+	$('body').on('click touchstart', '.show', function(){
+		$(this).text('-非表示-');						//文字を非表示に切替
+		$(this).removeClass('show').addClass('hidden');	//クラス"show"を消してクラス"hidden"を付与
+		var id = '#' + $(this).attr('id');				//表示するid属性を指定
+		$(id + 'A').show();								//表示
+		removeHideCookie(id, 'hide');					//クッキー"hide"から表示したIDを破棄
+	});
+	//クッキーに応じて非表示
+	if($.cookie('hide')){
+		//既にクッキーが存在することが前提
+		//非表示に対応するIDを非表示にする
+		var hide = decodeURI($.cookie('hide'));					//クッキーの中身をURLでコードする
+		var data = hide.split(',');								//データを","で区切る
+		$.each(data, function(i, id){
+			//console.log(id)
+			if(id !==''){
+				$(id).text('-表示-');							//文字を表示に切替
+				$(id).removeClass('hidden').addClass('show');	//クラス"hidden"を消してクラス"show"を付与
+				$(id + 'A').hide();								//隠す
+			}
+		});
+	}
+			
+	//関数
+	//非表示にしたidをクッキーにて保存、クッキーは配列にて保存
+	function setHideCookie(id, c_name){
+		if($.cookie(c_name)){
+			//既にクッキーが存在する場合、末尾にidを追加
+			var old_hide = decodeURI($.cookie(c_name));	//クッキーの中身をURLでコードする
+			var new_hide = old_hide + id + ',';			//文字列の末尾にID追加
+
+		}else{
+			var new_hide = id + ',';					//","を付けたし
+		}
+		$.cookie(c_name, new_hide, { expires: 30 });	//クッキー書き込み		
+		console.log(new_hide);							//コンソールログにも書き込み
+	}
+	//表示にしたidをクッキーから削除
+	function removeHideCookie(id, c_name){
+		if($.cookie(c_name)){
+			//既にクッキーが存在することが前提
+			//非表示にしていたIDを削除する
+			var old_hide = decodeURI($.cookie(c_name));	//クッキーの中身をURLでコードする
+			var data = old_hide.split(',');				//データを","で区切る
+			var splicenum = $.inArray(id, data);		//非表示のIDに対応する配列の番号を探す
+			
+			data.splice(splicenum, 1);					//配列からIDの要素を消す
+			new_hide = data								//新データ取得
+			$.cookie(c_name, new_hide, { expires: 30 });//クッキー書き込み		
+			console.log(new_hide);						//コンソールログにも書き込み
+		}
+	}
+--></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

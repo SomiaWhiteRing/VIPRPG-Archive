@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; meta charset=utf-8" />
+	<meta name="viewport" content="width=device-width" >
+	<link rel="stylesheet" type="text/css" href="../main/style.css">
+	<title>No13</title>
+</head>
+<body>
+<script type="text/javascript" src="https://ad.xdomain.ne.jp/js/server-php.js"></script>
+<div class="bodylike">
+
+	<div class="head">
+		<div class="top mini">
+			<button class="chbtn" name="btnCh1" style="margin-right:0px; float:right">ボタン切替</button>
+			<h1>VIPRPG 2017夏の陣No13</h1>
+		</div>
+	</div>
+	
+	<a name="Top"></a>
+	<div class="nonline mini">
+		<div class="split pconly" style="float:right">
+			<div class="adj"></div>
+			<form style="float:right" action="dl.php" method="post">
+				<a>&nbsp;</a>
+				<input type="hidden" name="token" value="87bbca0102232a7bf508f77d07b689b0">
+				<input type="hidden" name="id" value="13">
+				<button class="button4" type="submit">ﾀﾞｳﾝﾛｰﾄﾞ<br>30MB</button>
+			</form>
+			<form style="float:right" action="vote.php" method="post">
+				<a>&nbsp;</a>
+				<input type="hidden" name="token" value="87bbca0102232a7bf508f77d07b689b0">
+				<input type="hidden" name="id" value="13">
+				<button class="button3" type="submit">投票する</button>
+			</form>
+		</div>
+		<div>
+			<a href="index.html" class="button1">トップページへ戻る</a>
+			<a href="gamelist.php" class="button1">作品一覧</a><br>
+			<!--前へと次へ0-->
+			<a class="button1" href="game.php?id=12">前の作品へ</a>
+			<a class="button1"  href="game.php?id=14">次の作品へ</a>
+			<a class="button1 grad1" href="#impression">感想</a>
+		</div>
+	</div>
+	
+<!--作品名-->
+	<div class="base2" style="height:32px">
+	
+		<img style="float:left" class="icon" src="../main/images/icon/13.png">
+		<a>　No.13 <b>真説・光神話 パルテナの鏡外伝</b></a><br>
+	</div>
+<!--画像-->
+	<div class="base2">
+		<img class="ss" name="ss" src="../main/images/ss/13-1.png" onmouseover="this.src='../main/images/ss/13-2.png'" onmouseout="this.src='../main/images/ss/13-1.png'">
+		　画像にマウスオーバーでss2枚目が見れます。タッチデバイスの場合は画像タップで2枚目が見れます。1枚目に戻りたい時は<a onclick="ss.src='../main/images/ss/13-1.png'" style="color:blue">ココ</a>をタップして下さい。
+	</div>
+<!--作者名-->
+	<div class="base2">
+	【作者名】HDS様大好き丸
+	</div>
+<!--ジャンル-->
+	<div class="base2">
+	【ジャンル】装備重視RPG
+	</div>
+<!--ツクール-->
+	<div class="base2">
+	【使用ツクール】2000
+	</div>
+<!--配信/動画-->
+	<div class="base2">
+	【配信/動画】可/可
+	</div>
+<!--投票-->
+	<div class="base2">
+	【投票】可
+	</div>
+<!--コメント-->
+	<div class="base2">
+	【作者コメント】<br/>
+	どうにか、5周年に間に合ったみたいだな。（日付的には全然間に合っていない）<br />
+ <br />
+あらすじ<br />
+3年の時を経てあいつが再び動き出した。<br />
+野望を止めるために冥界軍は天界の天使たちの力も借り<br />
+冥界と地獄の調和を取り戻すために脅威に立ち向かう。<br />
+ <br />
+装備を集めて鑑定して強敵に立ち向かえ的な。<br />
+仲間は主人公を含め最大12人まで増えます。<br />
+ <br />
+パルテナネタ中心ですがドンキーコングネタ他も入っています。<br />
+後頑張れば序盤で強力な装備が手に入る可能性がありますので<br />
+装備や習得特技によっては余裕でクリア出来ちゃうかも…<br />
+ <br />
+パルテナシリーズを未経験でも楽しめますが<br />
+プレイしたことがあるならもっと楽しめます、恐らく。<br />
+ <br />
+クリア後コンテンツ「ボスバトル」追加しました。<br />
+本家パルテナ3DS準拠で滅茶苦茶手ごわいと思われますので挑戦者求む。
+	</div>
+	<div class="base2">
+	【管理人コメント】<br/>
+	え？もう五年？嘘やろホンマに・・・<br />
+<br />
+*最新版:sum17_13_05.zip<br />
+
+	
+	</div>
+<!--その他情報-->
+	<div class="base2">	
+		<form style="float:right; margin:10px 5px 0px" action="dl.php" method="post">
+			<input type="hidden" name="token" value="87bbca0102232a7bf508f77d07b689b0">
+			<input type="hidden" name="id" value="13">
+			<button class="button2" type="submit">DLする:30MB</button>
+		</form>
+			更新:9/12<br>
+			DL人数:695<br>
+			投票:18票<br>
+
+	<a style="color:#EFEFEF">1.71 m秒</a>	</div>
+	
+	<!--前へと次へ-->
+	<a name="impression"></a>
+	<div class="nonline mini">
+		<a href="#Top" class="button1">▲</a>		
+		<a href="index.html" class="button1">トップページへ戻る</a>
+		<a href="gamelist.php" class="button1">作品一覧</a>
+		<br>
+		<a class="button1" href="game.php?id=12&#impression">前の作品へ</a>
+		<a class="button1"  href="game.php?id=14&#impression">次の作品へ</a>
+		<a class="button1 grad1" href="http://jbbs.shitaraba.net/bbs/read.cgi/game/60233/1500167601/">感想掲示板</a>
+	</div>
+	
+	<div class="base">
+		<div><b>No13 真説・光神話 パルテナの鏡外伝</b><br>
+		*書き込みは感想掲示板(外部サイト)から<br></div><br>
+		2:<a style="color:blue"><b>名無しさん</b></a> 2017/07/19(水) 17:28:06 ID:<br>
+パルテナシリーズは知らないけど面白そう<br><br>
+3:<a style="color:blue"><b>名無しプレイヤー</b></a> 2017/07/21(金) 20:33:12 ID:<br>
+GWの講座ゲーの人かな？<br>楽しみにしてます。<br><br>
+4:<a style="color:blue"><b>名無しさん</b></a> 2017/08/15(火) 02:21:43 ID:iwdSioRs0<br>
+ヘルって北欧神話の方だから若干異物感が<br><br>
+5:<a style="color:blue"><b>名無しさん</b></a> 2017/08/16(水) 20:25:26 ID:j1Pji64.0<br>
+これはメインそっちのけでロストワールドに籠もりたくなるパターン<br><br>
+6:<a style="color:blue"><b>名無しさん</b></a> 2017/08/16(水) 22:32:03 ID:UD0C9MM20<br>
+レア掘り楽しいです<br>3-2を空前絶後でクリアしたらUR時空女神の杖と衣が一気に出たのでアゼクラちゃん一軍不可避<br><br>
+7:<a style="color:blue"><b>名無しさん</b></a> 2017/08/16(水) 22:42:12 ID:21FrB9wM0<br>
+プレミアムチケットって入手した場所のランクに関係なくURまで出るのかな？<br>中級ロストワールドで入手したチケットからURが出たけど<br><br>
+8:<a style="color:blue"><b>名無しさん</b></a> 2017/08/16(水) 23:10:48 ID:WX3FgIP20<br>
+というか今のところロストワールド中級のPチケでURしか出てない気がする<br>なんか序盤で結構簡単にUR揃っちゃうような…<br>ところで鑑定で出ないというPRはどこで出るんでしょう？固定宝箱かイベント？<br><br>
+9:<a style="color:blue"><b>名無しさん</b></a> 2017/08/17(木) 02:05:09 ID:npZDEF2w0<br>
+ロストワールド上級1回クリアしたら中級のPチケでURが出なくなってSRが出るようになった<br>不具合だったっぽい？<br><br>
+10:<a style="color:blue"><b>名無しさん</b></a> 2017/08/17(木) 03:09:30 ID:IKaImIgs0<br>
+作者です<br><br>&gt;&gt;7-9<br>どうやら最後に選択したメインステージの難易度と同じレアリティの物が手に入る仕様になっていたので修正しました<br>（普通＝HR、難しい＝SR、空前絶後＝UR）<br>↓のパッチの適用をお願いします、すみません<br>ttps://ux.getuploader.com/Vipsum_p/download/7<br><br>
+11:<a style="color:blue"><b>名無しさん</b></a> 2017/08/17(木) 03:25:46 ID:r631Q1ao0<br>
+サンダー&#8544;の穴に入ると同時に敵シンボルに隣接されると<br>戦闘も発生せず動くことも出来ず詰みます<br><br>
+12:<a style="color:blue"><b>名無しさん</b></a> 2017/08/17(木) 04:02:55 ID:IKaImIgs0<br>
+作者です<br>&gt;&gt;11<br>↓修正しました（&gt;&gt;10の内容も含まれています）<br>ttps://ux.getuploader.com/vipsum_p/download/8<br><br>
+13:<a style="color:blue"><b>名無しさん</b></a> 2017/08/18(金) 01:24:02 ID:sL6YRY/g0<br>
+クリアしました&#65374;面白かった<br>だいたい聖人さんとろばりの全体回復二枚看板＋αという超ビビリ構成でした<br>＋αはメインでは扉開け用にイシュタム、ロストワールドでは穴潜り用のサンダー&#8544;という感じ<br><br>
+14:<a style="color:blue"><b>名無しさん</b></a> 2017/08/18(金) 04:19:08 ID:gSUa17vY0<br>
+VIPRPGで初めて投票したゲーム記念カキコ<br>自分は聖人でリカバーしながら主人公でツンツンしてボス倒した<br>他の二人飾りだった<br><br>
+15:<a style="color:blue"><b>名無しさん</b></a> 2017/08/18(金) 15:59:09 ID:7UGLBCeg0<br>
+例のアレネタを使いながらも野獣先輩に頼らない良構成<br>+8101145141919点<br><br>
+16:<a style="color:blue"><b>名無しさん</b></a> 2017/08/20(日) 17:59:13 ID:HEuyemZQ0<br>
+即死トラップはストレスにしかならないって習わなかったんですかね<br><br>
+17:<a style="color:blue"><b>名無しさん</b></a> 2017/08/21(月) 00:21:24 ID:Xod4ad.g0<br>
+パーティーキャラ選ぶ所で物理タイプか魔法タイプかみたいな属性位は簡単に表記しといてくれるとありがたいなあ。<br><br>
+18:<a style="color:blue"><b>名無しさん</b></a> 2017/08/21(月) 04:15:51 ID:IKaImIgs0<br>
+作者です、現在クリア後コンテンツを制作中です<br>それに伴いクリア後のパーティー編成やロストワールド周回も出来るようになる予定です<br>8月中に出来るといいなぁ…<br><br>&gt;&gt;17<br>それにつきましては次回更新時に反映させていただきます<br><br>
+20:<a style="color:blue"><b>名無しさん</b></a> 2017/08/21(月) 19:01:52 ID:6/Rmxsis0<br>
+全体攻撃の機関銃が単体攻撃になってます。<br><br>
+21:<a style="color:blue"><b>名無しさん</b></a> 2017/08/21(月) 20:39:53 ID:IKaImIgs0<br>
+&gt;&gt;20<br>ttps://ux.getuploader.com/vipsum_p/download/19<br>修正しました（今までのパッチの内容も入っています）<br><br>
+22:<a style="color:blue"><b>名無しさん</b></a> 2017/08/22(火) 09:01:05 ID:4Je3Bm0Q0<br>
+2ステージ目あたりからもうハートが余ってきて戦闘ごとに回復薬がぶ飲みになる<br>これなら最初から戦闘終了時全快でよかったんでは？という気はした<br>戦闘そのものは雑魚相手でもコマンド入力して戦わないと危険という緊張感あるいいバランスだった<br><br>
+23:<a style="color:blue"><b>名無しさん</b></a> 2017/08/22(火) 12:58:21 ID:AvFQqQfA0<br>
+やるゲ好きだけどこのゲームは美味だった<br><br>
+24:<a style="color:blue"><b>名無しさん</b></a> 2017/08/27(日) 22:19:18 ID:IKaImIgs0<br>
+作者です、お待たせしましたクリア後コンテンツ追加です<br>ttps://ux.getuploader.com/VipSum_01/download/30<br>（本体更新となります）<br><br>ボスバトル追加（クリア後）<br>それに伴いクリア後もパーティ編成＆ロストワールド周回出来るようになりました<br>それ以外の更新状況はreadmeをご覧ください<br><br>
+25:<a style="color:blue"><b>名無しさん</b></a> 2017/08/30(水) 02:48:34 ID:ZYpksCQg0<br>
+面白いけどニトロ即死がストレス過ぎた<br><br>
+26:<a style="color:blue"><b>名無しさん</b></a> 2017/08/30(水) 04:37:29 ID:ZYpksCQg0<br>
+レオ戦主人公ソロできないのか　縛りプレイぐらいさせて欲しいな・・・<br><br>
+27:<a style="color:blue"><b>名無しさん</b></a> 2017/08/30(水) 14:33:46 ID:LE0Rgwk.0<br>
+むしろ主人公を外したい<br><br>
+28:<a style="color:blue"><b>名無しさん</b></a> 2017/09/10(日) 19:52:11 ID:EGh8S8L.0<br>
+ボスバトルを181ターンでクリア<br>最初は難しい、第5階層から空前絶後で挑んでると<br>ロストワールドを各難易度1回行くくらいでもUR装備が結構集まった<br>空前絶後で敵を多数倒した後での鑑定時のwktk感いいね<br><br>ボスバトルは、弱めの相手なら<br>マジックペンダント装備エアロバリアがマイティガードや回復、マジックチャージしつつ<br>主人公・デュラハン・イシュタムがひたすら通常攻撃してリソース温存してた<br>ポプ子ピピ美、4人組、ルミナ、ラストが強敵だった　行動不能状態異常や複数人999ダメージは手強い<br><br>
+29:<a style="color:blue"><b>名無しさん</b></a> 2017/09/12(火) 21:23:21 ID:IKaImIgs0<br>
+最新版パッチです、最新版本体に上書きしてください<br>ttps://ux.getuploader.com/vipsum_p/download/29<br><br>クリア後にある条件を満たすと最大HPとMPを上げられるようにしました<br>後宝物庫のクリア後に達成出来ない条件の救済措置も追加しました<br><br>
+	
+	</div>
+	
+	<div style="height:15px;"></div>	
+	
+	<div class="nonline mini">
+		<a href="#Top" class="button1">▲</a>		
+		<a href="index.html" class="button1">トップページへ戻る</a>
+		<a href="gamelist.php" class="button1">作品一覧</a>
+		<br>
+		<a class="button1" href="game.php?id=12&#impression">前の作品へ</a>
+		<a class="button1"  href="game.php?id=14&#impression">次の作品へ</a>
+		<a class="button1 grad1" href="http://jbbs.shitaraba.net/bbs/read.cgi/game/60233/1500167601/">感想掲示板</a>
+		
+
+	<br><a style="color:#EFEFEF">40.51 m秒</a>		
+	</div>
+	<div class="nonline mini">
+		<button class="chbtn" name="btnCh1" style="float:right">ボタン切替</button>
+	</div>
+	
+	<div style="height:1000px;"></div>
+	
+	<div class="foot">
+		<div class="bottom">
+			<a>VIPRPG 2017夏の陣</a>
+		</div>
+	</div>
+
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/common.js"></script>
+</body>
+</html>

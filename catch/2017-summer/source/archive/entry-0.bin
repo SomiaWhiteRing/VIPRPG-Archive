@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; meta charset=utf-8" />
+	<meta name="viewport" content="width=device-width" >
+	<link rel="stylesheet" type="text/css" href="../main/style.css">
+	<title>No0</title>
+</head>
+<body>
+<script type="text/javascript" src="https://ad.xdomain.ne.jp/js/server-php.js"></script>
+<div class="bodylike">
+
+	<div class="head">
+		<div class="top mini">
+			<button class="chbtn" name="btnCh1" style="margin-right:0px; float:right">ボタン切替</button>
+			<h1>VIPRPG 2017夏の陣No0</h1>
+		</div>
+	</div>
+	
+	<a name="Top"></a>
+	<div class="nonline mini">
+		<div class="split pconly" style="float:right">
+			<div class="adj"></div>
+			<form style="float:right" action="dl.php" method="post">
+				<a>&nbsp;</a>
+				<input type="hidden" name="token" value="1ac5ce2d998a2ef04e8eaeb9def7cff4">
+				<input type="hidden" name="id" value="0">
+				<button class="button4" type="submit">ﾀﾞｳﾝﾛｰﾄﾞ<br>66MB</button>
+			</form>
+			<form style="float:right" action="web.php" method="post">
+				<input type="hidden" name="token" value="1ac5ce2d998a2ef04e8eaeb9def7cff4">
+				<input type="hidden" name="id" value="0">
+				<button class="button4" type="submit">web版<br>で遊ぶ</button>
+			</form>
+		</div>
+		<div>
+			<a href="index.html" class="button1">トップページへ戻る</a>
+			<a href="gamelist.php" class="button1">作品一覧</a><br>
+			<!--前へと次へ-->
+			<a class="button1" >前の作品へ</a>
+			<a class="button1"  href="game.php?id=1">次の作品へ</a>
+			<a class="button1 grad1" href="#impression">感想</a>
+		</div>
+	</div>
+	
+<!--作品名-->
+	<div class="base2" style="height:32px">
+	
+		<img style="float:left" class="icon" src="../main/images/icon/0.png?0921">
+		<a>　No.0 <b>バーストⅠと魔法の筆</b></a><br>
+	</div>
+<!--画像-->
+	<div class="base2">
+		<img class="ss" name="ss" src="../main/images/ss/0-1.png?0921_1" onmouseover="this.src='../main/images/ss/0-2.png?0921_1'" onmouseout="this.src='../main/images/ss/0-1.png?0921_1'">
+		　画像にマウスオーバーでss2枚目が見れます。タッチデバイスの場合は画像タップで2枚目が見れます。1枚目に戻りたい時は<a onclick="ss.src='../main/images/ss/0-1.png?0921_1'" style="color:blue">ココ</a>をタップして下さい。
+	</div>
+<!--作者名-->
+	<div class="base2">
+	【作者名】管理人
+	</div>
+<!--ジャンル-->
+	<div class="base2">
+	【ジャンル】短編やるゲ
+	</div>
+<!--ツクール-->
+	<div class="base2">
+	【使用ツクール】MV
+	</div>
+<!--配信/動画-->
+	<div class="base2">
+	【配信/動画】可/可
+	</div>
+<!--投票-->
+	<div class="base2">
+	【投票】不可
+	</div>
+<!--コメント-->
+	<div class="base2">
+	【作者コメント】<br/>
+	10分程度の短いやるゲです<br />
+<br />
+夢の世界に迷い込んだバーストⅠを操作して<br />
+敵を倒したり逃げたりするゲームです<br />
+もし宜しければ遊んでいただければ幸いです<br />
+<br />
+※ボタンを多用するゲームなのでスマホ等のタッチデバイスではお遊びいただけません<br />
+ブラウザはGoogle Chrome推奨です<br />
+<br />
+9/22:ver1.01c<br />
+一部バグの除去と敵を間引いて処理を軽くしました
+	</div>
+	<div class="base2">
+	【管理人コメント】<br/>
+	皆様、夏の陣にご参加頂きありがとうございます<br />
+<br />
+当初は後の祭り運営者の助けになればと、<br />
+最終日の9/30にサイトのphp等スクリプトでも公開しようかと思っていましたが<br />
+セキュリティーの問題や、スクリプトがスパゲッティと化したため<br />
+急遽8月末から作った短編やるげを提出します<br />
+<br />
+で、パッチ等をあてる必要性も考慮してこのタイミングで出させていただきます<br />
+<br />
+夏の陣も残り僅かですが最後までよろしくお願いしますね
+	
+	</div>
+<!--その他情報-->
+	<div class="base2">	
+		<form style="float:right; margin:10px 5px 0px" action="dl.php" method="post">
+			<input type="hidden" name="token" value="1ac5ce2d998a2ef04e8eaeb9def7cff4">
+			<input type="hidden" name="id" value="0">
+			<button class="button2" type="submit">DLする:66MB</button>
+		</form>
+			<form style="float:right; margin:10px 5px 0px" action="web.php" method="post">
+				<input type="hidden" name="token" value="1ac5ce2d998a2ef04e8eaeb9def7cff4">
+				<input type="hidden" name="id" value="0">
+				<button class="button2" type="submit">web版</button>
+			</form>
+			更新:9/30<br>
+			DL+web版ﾌﾟﾚｲ人数:102+191<br>
+
+	<a style="color:#EFEFEF">1.75 m秒</a>	</div>
+	
+	<!--前へと次へ-->
+	<a name="impression"></a>
+	<div class="nonline mini">
+		<a href="#Top" class="button1">▲</a>		
+		<a href="index.html" class="button1">トップページへ戻る</a>
+		<a href="gamelist.php" class="button1">作品一覧</a>
+		<br>
+		<a class="button1" >前の作品へ</a>
+		<a class="button1"  href="game.php?id=1&#impression">次の作品へ</a>
+		<a class="button1 grad1" href="http://jbbs.shitaraba.net/bbs/read.cgi/game/60233/1505995209/">感想掲示板</a>
+	</div>
+	
+	<div class="base">
+		<div><b>No0 バーストⅠと魔法の筆</b><br>
+		*書き込みは感想掲示板(外部サイト)から<br></div><br>
+		2:<a style="color:blue"><b>名無しさん</b></a> 2017/09/21(木) 21:54:34 ID:IKaImIgs0<br>
+まさか管理人様の作品も来てましたとは…<br>ありがとうございます！！<br><br>
+3:<a style="color:blue"><b>名無しさん</b></a> 2017/09/21(木) 22:21:28 ID:ikpKimno0<br>
+最後ボスでもいるのかなと思ったらまさかの謎解き面だったけど面白かった<br>しかし重くてしょっちゅうプチフリする・・・スペッコ不足なんだろうか<br>更に敵とかステージ増やしたり成長要素あったらもっと楽しくなりそう<br><br>最後のスタッフロールは一部の作者名に様つくと何か面白くなっててつい笑ってしまった<br>（まだもうちょっとあるけど）夏の陣管理乙でした！！<br><br>
+4:<a style="color:blue"><b>名無しさん</b></a> 2017/09/21(木) 22:56:49 ID:rnoxZroY0<br>
+進むにつれて自分なりのルートを構築できるのが楽しかった。タイムアタックやレベルアップ要素があったらもっと面白くなりそう<br>ただ俺の低スペPCだと1-4や2-2で処理落ちしまくるのが辛かったな<br>キーを押してから遅れて画面が反応するから、ミノタウロスを撒いてる時に起こると何が何やらで気がつけば死んでる<br><br>
+5:<a style="color:blue"><b>名無しさん</b></a> 2017/09/21(木) 23:08:58 ID:EGh8S8L.0<br>
+固くて固くて基本的に逃げるしかなかったミノさんが<br>ボムなら数発で吹き飛ばせる逆転劇が楽しい<br><br>1-10のクリスタルに下側から触れると、池で後退しきれずフリーズするようです<br><br>
+6:<a style="color:blue"><b>名無しさん</b></a> 2017/09/22(金) 01:23:35 ID:YIFg1AQM0<br>
+MVかー<br>軽いやつならブラウザ上でもサクサク動くんだけど、これはかなり重いな<br><br>
+7:<a style="color:blue"><b>名無しさん</b></a> 2017/09/22(金) 13:26:27 ID:iC0t8WsA0<br>
+そこそこ重いのはしょうがないけど一部場面で壁越しに殴られるのが辛かった<br><br>
+8:<a style="color:blue"><b>名無しさん</b></a> 2017/09/23(土) 21:56:46 ID:KEhs3msw0<br>
+迫り来るミノさんの威圧がすごかったゲ<br>河や荒野みたいに２ルート開拓できると戦略性がでていいね<br>高速で巻いたりヒット＆ウェイして波を乗り切ったり<br>岩石地帯でＨＰ空になって迷路越えるのは手に汗握った！<br><br>
+9:<a style="color:blue"><b>名無しさん</b></a> 2017/09/24(日) 10:37:18 ID:5JZyJ1M.0<br>
+30分ほどでクリア。ビームが解禁された後のマップで悪戦苦闘。<br>プレイ時間の半分以上はここでの足止めでしたｗ<br>プレイの手軽さで言うならMVも2000に引けを取らないという可能性を感じさせてくれるゲームでした。<br><br>
+	
+	</div>
+	
+	<div style="height:15px;"></div>	
+	
+	<div class="nonline mini">
+		<a href="#Top" class="button1">▲</a>		
+		<a href="index.html" class="button1">トップページへ戻る</a>
+		<a href="gamelist.php" class="button1">作品一覧</a>
+		<br>
+		<a class="button1" >前の作品へ</a>
+		<a class="button1"  href="game.php?id=1&#impression">次の作品へ</a>
+		<a class="button1 grad1" href="http://jbbs.shitaraba.net/bbs/read.cgi/game/60233/1505995209/">感想掲示板</a>
+		
+
+	<br><a style="color:#EFEFEF">40.63 m秒</a>		
+	</div>
+	<div class="nonline mini">
+		<button class="chbtn" name="btnCh1" style="float:right">ボタン切替</button>
+	</div>
+	
+	<div style="height:1000px;"></div>
+	
+	<div class="foot">
+		<div class="bottom">
+			<a>VIPRPG 2017夏の陣</a>
+		</div>
+	</div>
+
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/common.js"></script>
+</body>
+</html>

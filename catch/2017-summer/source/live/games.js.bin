@@ -1,0 +1,73 @@
+
+
+
+const dataes = async() => {
+  let result = await fetch('data.json').then((response) => response.json());
+  //console.log(result);
+  return result
+};
+
+
+document.addEventListener('DOMContentLoaded', async() => {
+
+  vm = new Vue({
+    el: '#app',
+    data: {
+      gameDataes: await dataes(),
+      isOpenModal: false,
+      selectedImage: 1,
+      activeNumber: -1
+    },
+    computed: {
+      activeData: function(){
+        if(!this.gameDataes) return false;
+        if(this.activeNumber === -1) return false;
+        //if(!this.gameDataes[this.activeNumber]) return false;
+        return this.gameDataes[this.activeNumber];
+      },
+      imageUrl1: function(){
+        if(!this.activeData) return 'images/blank.png';
+        if(this.activeNumber === -1) return 'images/blank.png';
+        if(!this.activeData.ss1) return 'images/blank.png';
+        return `images/ss/${this.activeNumber}-1.${this.activeData.ss1}`
+      },
+      imageUrl2: function(){
+        if(!this.imageUrl1) return 'images/blank.png';
+        if(!this.activeData.ss2)  return 'images/blank.png';
+        return `images/ss/${this.activeNumber}-2.${this.activeData.ss2}`
+      },
+      selectedImageUrl: function(){
+        if(!this.imageUrl1) return 'images/blank.png';
+        if(!this.activeData.ss2)  return this.imageUrl1;
+        if(this.selectedImage === 1){
+          return this.imageUrl1;
+        }else{
+          return this.imageUrl2;
+        }
+      }
+    },
+    methods:{
+      width: function(size){
+        return `max-width: ${size}`;
+      },
+      openModal: function(num){
+        this.activeNumber = num;
+        this.isOpenModal = true;
+        this.selectedImage = 1;
+        return false;
+      },
+      closeModal: function(){
+        this.isOpenModal = false;
+        return false;
+      },
+      moveActiveNumber: function(val){
+        let newActiveNumber = this.activeNumber + val;
+        if(newActiveNumber < 0) return false;
+        if(newActiveNumber >= this.gameDataes.length) return false;
+        this.activeNumber = newActiveNumber;
+        return false;
+      }
+    }
+  });
+});
+

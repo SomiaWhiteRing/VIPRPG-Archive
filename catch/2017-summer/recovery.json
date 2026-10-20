@@ -1,0 +1,2223 @@
+{
+  "festivalId": "2017-summer",
+  "originalBase": "http://viprpg17sum.php.xdomain.jp/main/",
+  "migrationBase": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/",
+  "entryPage": "index.html",
+  "liveSource": false,
+  "sourceManifests": [
+    "source/replay/manifest.json"
+  ],
+  "originalResources": {
+    "http://viprpg17sum.php.xdomain.jp/main/images/banner.png": "images/banner.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/twitter.png": "images/twitter.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/issue.png": "images/issue.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/banners/12th.png": "images/banners/12th.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/banners/s2016-1.png": "images/banners/s2016-1.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/banners/s2016-2.png": "images/banners/s2016-2.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/banners/s2015.png": "images/banners/s2015.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/banners/k2016.png": "images/banners/k2016.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/banners/k2015.png": "images/banners/k2015.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/banners/k2014.png": "images/banners/k2014.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/banners/g2017.png": "images/banners/g2017.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/banners/g2016.png": "images/banners/g2016.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/banners/g2015.png": "images/banners/g2015.png",
+    "http://viprpg17sum.php.xdomain.jp/main/js/jquery.js": "js/jquery.js",
+    "http://viprpg17sum.php.xdomain.jp/main/js/jquery.cookie.js": "js/jquery.cookie.js",
+    "http://viprpg17sum.php.xdomain.jp/main/js/common.js": "js/common.js",
+    "http://viprpg17sum.php.xdomain.jp/main/style.css": "style.css",
+    "http://viprpg17sum.php.xdomain.jp/main/images/icon/0.png?0921": "images/icon/0.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/icon/1.png": "images/icon/1.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/icon/2.png": "images/icon/2.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/icon/3.png": "images/icon/3.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/icon/4.png": "images/icon/4.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/icon/5.gif": "images/icon/5.gif",
+    "http://viprpg17sum.php.xdomain.jp/main/images/icon/6.png": "images/icon/6.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/icon/7.png": "images/icon/7.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/icon/8.png": "images/icon/8.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/icon/9.png?0809": "images/icon/9.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/icon/10.png": "images/icon/10.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/icon/11.png": "images/icon/11.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/icon/12.png": "images/icon/12.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/icon/13.png": "images/icon/13.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/icon/14.png": "images/icon/14.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/icon/15.png": "images/icon/15.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/icon/16.png?0815": "images/icon/16.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/icon/17.png": "images/icon/17.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/icon/18.png": "images/icon/18.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/icon/19.png": "images/icon/19.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/icon/20.png": "images/icon/20.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/icon/21.png": "images/icon/21.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/icon/22.png": "images/icon/22.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/icon/23.png": "images/icon/23.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/icon/24.png": "images/icon/24.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/icon/25.png": "images/icon/25.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/icon/26.png": "images/icon/26.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/icon/27.png": "images/icon/27.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/icon/28.png": "images/icon/28.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/icon/29.png?0818": "images/icon/29.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/icon/30.png": "images/icon/30.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/icon/31.png": "images/icon/31.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/icon/32.png": "images/icon/32.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/icon/33.png": "images/icon/33.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/icon/34.png": "images/icon/34.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/icon/35.png": "images/icon/35.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/icon/36.png": "images/icon/36.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/icon/37.png": "images/icon/37.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/icon/38.png": "images/icon/38.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/icon/39.png": "images/icon/39.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/icon/40.png": "images/icon/40.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/icon/41.png": "images/icon/41.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/icon/42.png": "images/icon/42.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/icon/43.png": "images/icon/43.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/icon/44.png": "images/icon/44.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/0-1.png?0921_1": "images/ss/0-1.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/0-2.png?0921_1": "images/ss/0-2.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/1-1.jpg": "images/ss/1-1.jpg",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/2-1.png": "images/ss/2-1.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/3-1.png": "images/ss/3-1.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/3-2.png": "images/ss/3-2.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/4-1.png": "images/ss/4-1.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/4-2.png": "images/ss/4-2.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/5-1.png": "images/ss/5-1.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/5-2.png": "images/ss/5-2.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/6-1.png": "images/ss/6-1.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/6-2.png": "images/ss/6-2.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/7-1.png": "images/ss/7-1.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/7-2.png": "images/ss/7-2.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/8-1.jpg": "images/ss/8-1.jpg",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/9-1.png?0809": "images/ss/9-1.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/9-2.png?0809": "images/ss/9-2.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/10-1.png?0815": "images/ss/10-1.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/10-2.png?0815": "images/ss/10-2.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/11-1.png": "images/ss/11-1.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/12-1.png": "images/ss/12-1.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/12-2.png": "images/ss/12-2.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/13-1.png": "images/ss/13-1.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/13-2.png": "images/ss/13-2.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/14-1.png?0928": "images/ss/14-1.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/14-1.png": "images/ss/14-1.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/14-2.png?0928": "images/ss/14-2.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/15-1.png": "images/ss/15-1.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/16-1.png?0815": "images/ss/16-1.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/16-2.png?0815": "images/ss/16-2.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/17-1.png": "images/ss/17-1.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/17-2.png": "images/ss/17-2.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/18-1.png": "images/ss/18-1.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/19-1.png?0808": "images/ss/19-1.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/19-2.png?0808": "images/ss/19-2.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/20-1.jpg": "images/ss/20-1.jpg",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/20-2.jpg": "images/ss/20-2.jpg",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/21-1.png": "images/ss/21-1.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/22-1.png": "images/ss/22-1.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/23-1.png": "images/ss/23-1.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/24-1.png": "images/ss/24-1.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/25-1.png": "images/ss/25-1.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/26-1.png": "images/ss/26-1.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/26-2.png": "images/ss/26-2.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/27-1.png": "images/ss/27-1.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/27-2.png": "images/ss/27-2.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/28-1.png": "images/ss/28-1.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/28-2.png": "images/ss/28-2.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/29-1.png?0818": "images/ss/29-1.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/30-1.png": "images/ss/30-1.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/30-2.png": "images/ss/30-2.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/31-1.png": "images/ss/31-1.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/32-1.png?0928": "images/ss/32-1.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/32-1.png": "images/ss/32-1.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/33-1.png": "images/ss/33-1.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/34-1.png": "images/ss/34-1.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/35-1.png": "images/ss/35-1.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/35-2.png": "images/ss/35-2.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/36-1.png": "images/ss/36-1.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/37-1.png": "images/ss/37-1.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/38-1.png": "images/ss/38-1.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/38-2.png": "images/ss/38-2.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/39-1.png": "images/ss/39-1.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/39-2.png": "images/ss/39-2.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/40-1.png": "images/ss/40-1.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/40-2.png": "images/ss/40-2.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/41-1.png": "images/ss/41-1.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/42-1.png": "images/ss/42-1.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/43-1.png?0831": "images/ss/43-1.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/ss/44-1.png": "images/ss/44-1.png",
+    "http://viprpg17sum.php.xdomain.jp/main/images/blank.png": "images/blank.png",
+    "http://viprpg17sum.php.xdomain.jp/main/index.html": "index.html",
+    "http://viprpg17sum.php.xdomain.jp/main/gamelist.php": "gamelist.html",
+    "http://viprpg17sum.php.xdomain.jp/main/entry.html": "entry.html",
+    "http://viprpg17sum.php.xdomain.jp/main/game.php?id=0": "entry00.html",
+    "http://viprpg17sum.php.xdomain.jp/main/game.php?id=1": "entry01.html",
+    "http://viprpg17sum.php.xdomain.jp/main/game.php?id=2": "entry02.html",
+    "http://viprpg17sum.php.xdomain.jp/main/game.php?id=3": "entry03.html",
+    "http://viprpg17sum.php.xdomain.jp/main/game.php?id=4": "entry04.html",
+    "http://viprpg17sum.php.xdomain.jp/main/game.php?id=5": "entry05.html",
+    "http://viprpg17sum.php.xdomain.jp/main/game.php?id=6": "entry06.html",
+    "http://viprpg17sum.php.xdomain.jp/main/game.php?id=7": "entry07.html",
+    "http://viprpg17sum.php.xdomain.jp/main/game.php?id=8": "entry08.html",
+    "http://viprpg17sum.php.xdomain.jp/main/game.php?id=9": "entry09.html",
+    "http://viprpg17sum.php.xdomain.jp/main/game.php?id=10": "entry10.html",
+    "http://viprpg17sum.php.xdomain.jp/main/game.php?id=11": "entry11.html",
+    "http://viprpg17sum.php.xdomain.jp/main/game.php?id=12": "entry12.html",
+    "http://viprpg17sum.php.xdomain.jp/main/game.php?id=13": "entry13.html",
+    "http://viprpg17sum.php.xdomain.jp/main/game.php?id=14": "entry14.html",
+    "http://viprpg17sum.php.xdomain.jp/main/game.php?id=15": "entry15.html",
+    "http://viprpg17sum.php.xdomain.jp/main/game.php?id=16": "entry16.html",
+    "http://viprpg17sum.php.xdomain.jp/main/game.php?id=17": "entry17.html",
+    "http://viprpg17sum.php.xdomain.jp/main/game.php?id=18": "entry18.html",
+    "http://viprpg17sum.php.xdomain.jp/main/game.php?id=19": "entry19.html",
+    "http://viprpg17sum.php.xdomain.jp/main/game.php?id=20": "entry20.html",
+    "http://viprpg17sum.php.xdomain.jp/main/game.php?id=21": "entry21.html",
+    "http://viprpg17sum.php.xdomain.jp/main/game.php?id=22": "entry22.html",
+    "http://viprpg17sum.php.xdomain.jp/main/game.php?id=23": "entry23.html",
+    "http://viprpg17sum.php.xdomain.jp/main/game.php?id=24": "entry24.html",
+    "http://viprpg17sum.php.xdomain.jp/main/game.php?id=25": "entry25.html",
+    "http://viprpg17sum.php.xdomain.jp/main/game.php?id=26": "entry26.html",
+    "http://viprpg17sum.php.xdomain.jp/main/game.php?id=27": "entry27.html",
+    "http://viprpg17sum.php.xdomain.jp/main/game.php?id=28": "entry28.html",
+    "http://viprpg17sum.php.xdomain.jp/main/game.php?id=29": "entry29.html",
+    "http://viprpg17sum.php.xdomain.jp/main/game.php?id=30": "entry30.html",
+    "http://viprpg17sum.php.xdomain.jp/main/game.php?id=31": "entry31.html",
+    "http://viprpg17sum.php.xdomain.jp/main/game.php?id=32": "entry32.html",
+    "http://viprpg17sum.php.xdomain.jp/main/game.php?id=33": "entry33.html",
+    "http://viprpg17sum.php.xdomain.jp/main/game.php?id=34": "entry34.html",
+    "http://viprpg17sum.php.xdomain.jp/main/game.php?id=35": "entry35.html",
+    "http://viprpg17sum.php.xdomain.jp/main/game.php?id=36": "entry36.html",
+    "http://viprpg17sum.php.xdomain.jp/main/game.php?id=37": "entry37.html",
+    "http://viprpg17sum.php.xdomain.jp/main/game.php?id=38": "entry38.html",
+    "http://viprpg17sum.php.xdomain.jp/main/game.php?id=39": "entry39.html",
+    "http://viprpg17sum.php.xdomain.jp/main/game.php?id=40": "entry40.html",
+    "http://viprpg17sum.php.xdomain.jp/main/game.php?id=41": "entry41.html",
+    "http://viprpg17sum.php.xdomain.jp/main/game.php?id=42": "entry42.html",
+    "http://viprpg17sum.php.xdomain.jp/main/game.php?id=43": "entry43.html",
+    "http://viprpg17sum.php.xdomain.jp/main/game.php?id=44": "entry44.html",
+    "http://viprpg17sum.php.xdomain.jp/main/": "index.html",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/style.css": "migration/style.css",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/3-1.png": "migration/images/ss/3-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/25-1.png": "migration/images/ss/25-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/4-1.png": "migration/images/ss/4-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/21-1.png": "migration/images/ss/21-1.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/3-2.png": "migration/images/ss/3-2.png",
+    "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/4-2.png": "migration/images/ss/4-2.png",
+    "http://viprpg17sum.php.xdomain.jp/main/awarding.html": "awarding.html"
+  },
+  "generatedSourceGapNotices": [
+    "entry32.html#source-image"
+  ],
+  "entries": [
+    {
+      "id": "2017-summer-work-00",
+      "no": "00",
+      "sourceUrl": "http://viprpg17sum.php.xdomain.jp/main/game.php?id=0",
+      "snapshotUrl": "https://web.archive.org/web/20191117020305id_/http://viprpg17sum.php.xdomain.jp/main/game.php?id=0",
+      "migrationDataUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/data.json",
+      "migrationRecord": 0,
+      "sourceMetadata": {
+        "ss1": "png?0921_1",
+        "ss2": "png?0921_1",
+        "icon": "png?0921",
+        "title": "バーストⅠと魔法の筆",
+        "author": "管理人",
+        "genre": "短編やるゲ",
+        "tkool": "MV",
+        "dandm": "可/可",
+        "vote": "",
+        "board": "1505995209",
+        "game": "提出:9/21",
+        "volume": "66MB",
+        "link": "https://drive.google.com/file/d/0B6TKb5wt9MARNTdocl9FSkhuTUU/view?usp=sharing"
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "sourceDetailUnavailable": false,
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/icon/0.png?0921",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/0-1.png?0921_1",
+          "local": "/screenshots/2017-summer/00-source-1.png",
+          "sha256": "56221d54d789e650565c8b699057b19eae0fbd79a51a754a3cd58c73278f3ee8"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/0-2.png?0921_1",
+          "local": "/screenshots/2017-summer/00-source-2.png",
+          "sha256": "1633c027f45fae67c82d95b6788942b56a4f2ac763586375f89d3e1c5d2b1b71"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/0B6TKb5wt9MARNTdocl9FSkhuTUU/view?usp=sharing",
+          "label": "配布：66MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-summer-work-01",
+      "no": "01",
+      "sourceUrl": "http://viprpg17sum.php.xdomain.jp/main/game.php?id=1",
+      "snapshotUrl": "https://web.archive.org/web/20191209021808id_/http://viprpg17sum.php.xdomain.jp/main/game.php?id=1",
+      "migrationDataUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/data.json",
+      "migrationRecord": 1,
+      "sourceMetadata": {
+        "ss1": "jpg",
+        "ss2": "",
+        "icon": "png",
+        "title": "正義",
+        "author": "UNKO",
+        "genre": "ksg",
+        "tkool": "2000",
+        "dandm": "可/可",
+        "vote": "1",
+        "board": "1500165839",
+        "game": "",
+        "volume": "",
+        "link": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "sourceDetailUnavailable": false,
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/icon/1.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/1-1.jpg",
+          "local": "/screenshots/2017-summer/01-source-1.jpg",
+          "sha256": "de95487c8a57761a62ed60ef36a0dd2d8b0a49415e569d95cde985c1eaa168bf"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-summer-work-02",
+      "no": "02",
+      "sourceUrl": "http://viprpg17sum.php.xdomain.jp/main/game.php?id=2",
+      "snapshotUrl": "https://web.archive.org/web/20191117024439id_/http://viprpg17sum.php.xdomain.jp/main/game.php?id=2",
+      "migrationDataUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/data.json",
+      "migrationRecord": 2,
+      "sourceMetadata": {
+        "ss1": "png",
+        "ss2": "",
+        "icon": "png",
+        "title": "Request～シェイドⅢが怪しいSNSにドハマリするだけのerg～",
+        "author": "徳明",
+        "genre": "erg",
+        "tkool": "2000",
+        "dandm": "BANされる覚悟を持ってして",
+        "vote": "1",
+        "board": "1500166042",
+        "game": "提出:8/24",
+        "volume": "8.8MB",
+        "link": "https://drive.google.com/file/d/0B6TKb5wt9MARSlF6dHc5ZFdnWDA/view?usp=sharing"
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "sourceDetailUnavailable": false,
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/icon/2.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/2-1.png",
+          "local": "/screenshots/2017-summer/02-source-1.png",
+          "sha256": "f6aa3c2942d05fd5fce92ce22de3e5fd6fc2a63d070da8152a6d7c0f4c920b5a"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/0B6TKb5wt9MARSlF6dHc5ZFdnWDA/view?usp=sharing",
+          "label": "配布：8.8MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-summer-work-03",
+      "no": "03",
+      "sourceUrl": "http://viprpg17sum.php.xdomain.jp/main/game.php?id=3",
+      "snapshotUrl": "https://web.archive.org/web/20191117030658id_/http://viprpg17sum.php.xdomain.jp/main/game.php?id=3",
+      "migrationDataUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/data.json",
+      "migrationRecord": 3,
+      "sourceMetadata": {
+        "ss1": "png",
+        "ss2": "png",
+        "icon": "png",
+        "title": "ボムっと発掘！とれじゃーはんたぁ",
+        "author": "焼きそば男",
+        "genre": "一筆書きパズル",
+        "tkool": "2000",
+        "dandm": "可/可",
+        "vote": "1",
+        "board": "1500166106",
+        "game": "更新:9/28",
+        "volume": "6.5MB",
+        "link": "https://drive.google.com/file/d/15v84G5GPSH0L7OaBtlsG1d23MhFtOujE/view?usp=sharing"
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "sourceDetailUnavailable": false,
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/icon/3.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/3-1.png",
+          "local": "/screenshots/2017-summer/03-source-1.png",
+          "sha256": "35bd9e0231e02c13c296489296e2052be445327694174aa9e86a348d3c22a65e"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/3-2.png",
+          "local": "/screenshots/2017-summer/03-source-2.png",
+          "sha256": "e6a8bd47a471133ff1761f50c93d3ce5697c171c946a0dd51d2f52cf6c8371bb"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/15v84G5GPSH0L7OaBtlsG1d23MhFtOujE/view?usp=sharing",
+          "label": "配布：6.5MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-summer-work-04",
+      "no": "04",
+      "sourceUrl": "http://viprpg17sum.php.xdomain.jp/main/game.php?id=4",
+      "snapshotUrl": "https://web.archive.org/web/20200508105305id_/http://viprpg17sum.php.xdomain.jp/main/game.php?id=4",
+      "migrationDataUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/data.json",
+      "migrationRecord": 4,
+      "sourceMetadata": {
+        "ss1": "png",
+        "ss2": "png",
+        "icon": "png",
+        "title": "カマソッソの誕生",
+        "author": "池田さん",
+        "genre": "ドタバタコメディ系見るゲー",
+        "tkool": "2000",
+        "dandm": "可/可",
+        "vote": "1",
+        "board": "1500166140",
+        "game": "更新:9/09",
+        "volume": "39MB",
+        "link": "https://drive.google.com/file/d/0B6TKb5wt9MARNlFqaG9lOE9qSEU/view?usp=sharing"
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "sourceDetailUnavailable": false,
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/icon/4.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/4-1.png",
+          "local": "/screenshots/2017-summer/04-source-1.png",
+          "sha256": "1b6cdfc668d325fe291ef99a1368faf2df14ea09eced051065f4c9482b34a4b1"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/4-2.png",
+          "local": "/screenshots/2017-summer/04-source-2.png",
+          "sha256": "b5eb6c1f4addf0e4ab5feef3c3a5e8f6a06ba112abd27cad2a0677f8463b2b02"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/0B6TKb5wt9MARNlFqaG9lOE9qSEU/view?usp=sharing",
+          "label": "配布：39MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-summer-work-05",
+      "no": "05",
+      "sourceUrl": "http://viprpg17sum.php.xdomain.jp/main/game.php?id=5",
+      "snapshotUrl": "https://web.archive.org/web/20191209014608id_/http://viprpg17sum.php.xdomain.jp/main/game.php?id=5",
+      "migrationDataUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/data.json",
+      "migrationRecord": 5,
+      "sourceMetadata": {
+        "ss1": "png",
+        "ss2": "png",
+        "icon": "gif",
+        "title": "Recycle Edition",
+        "author": "1942",
+        "genre": "STG",
+        "tkool": "2000",
+        "dandm": "可/可",
+        "vote": "1",
+        "board": "1500166306",
+        "game": "更新:8/16",
+        "volume": "792KB",
+        "link": "https://drive.google.com/file/d/0B6TKb5wt9MARaUxkUGlnaGs1Zjg/view?usp=sharing"
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "sourceDetailUnavailable": false,
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/icon/5.gif",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/5-1.png",
+          "local": "/screenshots/2017-summer/05-source-1.png",
+          "sha256": "92612d1bfe5eae1067e8f8d9e93535cf65ca32e9cfe949816c6afa7e2c683b3d"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/5-2.png",
+          "local": "/screenshots/2017-summer/05-source-2.png",
+          "sha256": "32ae0dcbfb9a91029c19c33176bb0768c9e4338a34375155dae2611399cf4733"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/0B6TKb5wt9MARaUxkUGlnaGs1Zjg/view?usp=sharing",
+          "label": "配布：792KB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-summer-work-06",
+      "no": "06",
+      "sourceUrl": "http://viprpg17sum.php.xdomain.jp/main/game.php?id=6",
+      "snapshotUrl": "https://web.archive.org/web/20191117020904id_/http://viprpg17sum.php.xdomain.jp/main/game.php?id=6",
+      "migrationDataUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/data.json",
+      "migrationRecord": 6,
+      "sourceMetadata": {
+        "ss1": "png",
+        "ss2": "png",
+        "icon": "png",
+        "title": "Re:今から作る無計画ksg",
+        "author": "かすていら",
+        "genre": "見るゲ",
+        "tkool": "2000",
+        "dandm": "可/可",
+        "vote": "1",
+        "board": "1500166441",
+        "game": "更新:8/20",
+        "volume": "34MB",
+        "link": "https://drive.google.com/file/d/0B6TKb5wt9MARZ1MyWkRQZUV1T0k/view?usp=sharing"
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "sourceDetailUnavailable": false,
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/icon/6.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/6-1.png",
+          "local": "/screenshots/2017-summer/06-source-1.png",
+          "sha256": "8c2bb00f84d3c0604731f19e237fb93ac3e9f9b008a40a7967d74594e29c2ab4"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/6-2.png",
+          "local": "/screenshots/2017-summer/06-source-2.png",
+          "sha256": "8c9be780e0ff38cfc133c2b6c9959665677c438c02abd1b6c67f255da6b19718"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/0B6TKb5wt9MARZ1MyWkRQZUV1T0k/view?usp=sharing",
+          "label": "配布：34MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-summer-work-07",
+      "no": "07",
+      "sourceUrl": "http://viprpg17sum.php.xdomain.jp/main/game.php?id=7",
+      "snapshotUrl": "https://web.archive.org/web/20200225050032id_/http://viprpg17sum.php.xdomain.jp:80/main/game.php?id=7",
+      "migrationDataUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/data.json",
+      "migrationRecord": 7,
+      "sourceMetadata": {
+        "ss1": "png",
+        "ss2": "png",
+        "icon": "png",
+        "title": "魔法淫具店ガンタイ",
+        "author": "名雲きつね",
+        "genre": "erg短編集",
+        "tkool": "2000",
+        "dandm": "自己責任",
+        "vote": "1",
+        "board": "1500166483",
+        "game": "更新:9/27",
+        "volume": "35MB",
+        "link": "https://drive.google.com/file/d/0B6TKb5wt9MARZThBRVZPRFloUG8/view?usp=sharing"
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "sourceDetailUnavailable": false,
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/icon/7.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/7-1.png",
+          "local": "/screenshots/2017-summer/07-source-1.png",
+          "sha256": "1d4d1cb008f870bc96ec55b7ee8c69b780bdd46ff7a32e0a67f3ef4e26d864f5"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/7-2.png",
+          "local": "/screenshots/2017-summer/07-source-2.png",
+          "sha256": "1d583efaf3b98f9b94e122b9120ea591e2ee178a0dd3136487212c2fa8c355f4"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/0B6TKb5wt9MARZThBRVZPRFloUG8/view?usp=sharing",
+          "label": "配布：35MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-summer-work-08",
+      "no": "08",
+      "sourceUrl": "http://viprpg17sum.php.xdomain.jp/main/game.php?id=8",
+      "snapshotUrl": "https://web.archive.org/web/20191209025102id_/http://viprpg17sum.php.xdomain.jp/main/game.php?id=8",
+      "migrationDataUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/data.json",
+      "migrationRecord": 8,
+      "sourceMetadata": {
+        "ss1": "jpg",
+        "ss2": "",
+        "icon": "png",
+        "title": "松永と君の１０の苦行",
+        "author": "さいてん",
+        "genre": "苦行",
+        "tkool": "2000",
+        "dandm": "可/可",
+        "vote": "1",
+        "board": "1500166537",
+        "game": "",
+        "volume": "",
+        "link": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "sourceDetailUnavailable": false,
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/icon/8.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/8-1.jpg",
+          "local": "/screenshots/2017-summer/08-source-1.jpg",
+          "sha256": "87398d947f965035a50d30a820fe2a7b676f7ef5c1757693f6ed2581f5e713b3"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-summer-work-09",
+      "no": "09",
+      "sourceUrl": "http://viprpg17sum.php.xdomain.jp/main/game.php?id=9",
+      "snapshotUrl": "https://web.archive.org/web/20191117031625id_/http://viprpg17sum.php.xdomain.jp/main/game.php?id=9",
+      "migrationDataUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/data.json",
+      "migrationRecord": 9,
+      "sourceMetadata": {
+        "ss1": "png?0809",
+        "ss2": "png?0809",
+        "icon": "png?0809",
+        "title": "茄子とハルマゲドン：Viking Conquest",
+        "author": "ハーラル3世",
+        "genre": "RTSARPGクソゲー",
+        "tkool": "2003",
+        "dandm": "正気か？",
+        "vote": "1",
+        "board": "1500166571",
+        "game": "",
+        "volume": "",
+        "link": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "sourceDetailUnavailable": false,
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/icon/9.png?0809",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/9-1.png?0809",
+          "local": "/screenshots/2017-summer/09-source-1.png",
+          "sha256": "133c04ff4eeb7fa6ae2dffa074ed4c00fcd44ba565463de21f8de0b60bc7e713"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/9-2.png?0809",
+          "local": "/screenshots/2017-summer/09-source-2.png",
+          "sha256": "67e395698dfc0d17b3e6731d9db7aeb82ed4160c5e2af33ac9bdf9306e1c697d"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-summer-work-10",
+      "no": "10",
+      "sourceUrl": "http://viprpg17sum.php.xdomain.jp/main/game.php?id=10",
+      "snapshotUrl": "https://web.archive.org/web/20191209022158id_/http://viprpg17sum.php.xdomain.jp/main/game.php?id=10",
+      "migrationDataUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/data.json",
+      "migrationRecord": 10,
+      "sourceMetadata": {
+        "ss1": "png?0815",
+        "ss2": "png?0815",
+        "icon": "png",
+        "title": "アースバリアと夏の思い出",
+        "author": "すいかびぃ",
+        "genre": "見るゲ&やるげ",
+        "tkool": "VXA",
+        "dandm": "可/可",
+        "vote": "1",
+        "board": "1500166736",
+        "game": "更新:8/31",
+        "volume": "111MB",
+        "link": "https://drive.google.com/file/d/0B6TKb5wt9MARQ0l4bFpCWUxqYUk/view?usp=sharing"
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "sourceDetailUnavailable": false,
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/icon/10.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/10-1.png?0815",
+          "local": "/screenshots/2017-summer/10-source-1.png",
+          "sha256": "80c359ef1248969d2141d3ee803c5577cb50e42d6028dc633042493f68cca541"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/10-2.png?0815",
+          "local": "/screenshots/2017-summer/10-source-2.png",
+          "sha256": "5efb432a2ca8ab5bd79248428dea35b610e4f8090a646a349f1ecb25ed8be57d"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/0B6TKb5wt9MARQ0l4bFpCWUxqYUk/view?usp=sharing",
+          "label": "配布：111MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-summer-work-11",
+      "no": "11",
+      "sourceUrl": "http://viprpg17sum.php.xdomain.jp/main/game.php?id=11",
+      "snapshotUrl": "https://web.archive.org/web/20191209014538id_/http://viprpg17sum.php.xdomain.jp/main/game.php?id=11",
+      "migrationDataUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/data.json",
+      "migrationRecord": 11,
+      "sourceMetadata": {
+        "ss1": "png",
+        "ss2": "",
+        "icon": "png",
+        "title": "夏の陣ｋｓｇ集-2017-",
+        "author": "黒蟻博士",
+        "genre": "ｋｓｇ集",
+        "tkool": "2000",
+        "dandm": "不可/不可",
+        "vote": "1",
+        "board": "1500166820",
+        "game": "",
+        "volume": "",
+        "link": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "sourceDetailUnavailable": false,
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/icon/11.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/11-1.png",
+          "local": "/screenshots/2017-summer/11-source-1.png",
+          "sha256": "b34ed38d74f4be672ea74218d8c59f7c97d32471fac8d1d462ed658e5c709f1b"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-summer-work-12",
+      "no": "12",
+      "sourceUrl": "http://viprpg17sum.php.xdomain.jp/main/game.php?id=12",
+      "snapshotUrl": "https://web.archive.org/web/20191117023859id_/http://viprpg17sum.php.xdomain.jp/main/game.php?id=12",
+      "migrationDataUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/data.json",
+      "migrationRecord": 12,
+      "sourceMetadata": {
+        "ss1": "png",
+        "ss2": "png",
+        "icon": "png",
+        "title": "あばりトラベル",
+        "author": "椎名",
+        "genre": "短編やるゲ",
+        "tkool": "2000",
+        "dandm": "可/可",
+        "vote": "1",
+        "board": "1500167530",
+        "game": "更新:9/29",
+        "volume": "18MB",
+        "link": "https://drive.google.com/file/d/1tOFMCwj-84pK5y-OSz624ij6Q1TSYxO-/view?usp=sharing"
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "sourceDetailUnavailable": false,
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/icon/12.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/12-1.png",
+          "local": "/screenshots/2017-summer/12-source-1.png",
+          "sha256": "c493387225dc865375596eead3fc71ccd54c50b21154aad77d834953c9f3e345"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/12-2.png",
+          "local": "/screenshots/2017-summer/12-source-2.png",
+          "sha256": "ba4868838cc20e6b535692387e479f5df7b1fbc8aad0eb67e8589717aa1e3539"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1tOFMCwj-84pK5y-OSz624ij6Q1TSYxO-/view?usp=sharing",
+          "label": "配布：18MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-summer-work-13",
+      "no": "13",
+      "sourceUrl": "http://viprpg17sum.php.xdomain.jp/main/game.php?id=13",
+      "snapshotUrl": "https://web.archive.org/web/20191209014556id_/http://viprpg17sum.php.xdomain.jp/main/game.php?id=13",
+      "migrationDataUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/data.json",
+      "migrationRecord": 13,
+      "sourceMetadata": {
+        "ss1": "png",
+        "ss2": "png",
+        "icon": "png",
+        "title": "真説・光神話 パルテナの鏡外伝",
+        "author": "HDS様大好き丸",
+        "genre": "装備重視RPG",
+        "tkool": "2000",
+        "dandm": "可/可",
+        "vote": "1",
+        "board": "1500167601",
+        "game": "更新:9/12",
+        "volume": "30MB",
+        "link": "https://drive.google.com/file/d/0B6TKb5wt9MARVVZaTEZyR19SaDA/view?usp=sharing"
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "sourceDetailUnavailable": false,
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/icon/13.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/13-1.png",
+          "local": "/screenshots/2017-summer/13-source-1.png",
+          "sha256": "4f2ad2d7301bbc11ea5f9938e312a4150e64554d127d127c69fe969ddd63614f"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/13-2.png",
+          "local": "/screenshots/2017-summer/13-source-2.png",
+          "sha256": "cfe383ac153b01186b272ff5d4250223536152b04b143c8a582b4c98fb01da80"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/0B6TKb5wt9MARVVZaTEZyR19SaDA/view?usp=sharing",
+          "label": "配布：30MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-summer-work-14",
+      "no": "14",
+      "sourceUrl": "http://viprpg17sum.php.xdomain.jp/main/game.php?id=14",
+      "snapshotUrl": "https://web.archive.org/web/20191209024856id_/http://viprpg17sum.php.xdomain.jp/main/game.php?id=14",
+      "migrationDataUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/data.json",
+      "migrationRecord": 14,
+      "sourceMetadata": {
+        "ss1": "png?0928",
+        "ss2": "png?0928",
+        "icon": "png",
+        "title": "光と影の中",
+        "author": "ラエム",
+        "genre": "デフォ戦やるゲ",
+        "tkool": "2000",
+        "dandm": "可/可",
+        "vote": "1",
+        "board": "1500222832",
+        "game": "更新:9/29",
+        "volume": "25MB",
+        "link": "https://drive.google.com/file/d/1kc0nhhkf0Gq8J2EtkmXVUS8E76ycYxc-/view?usp=sharing"
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "sourceDetailUnavailable": false,
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/icon/14.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/14-1.png?0928",
+          "local": "/screenshots/2017-summer/14-source-1.png",
+          "sha256": "720427d38aac1d2749e8a5b91dd900d091fdeada2ef424c15b83912066b9a773"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/14-2.png?0928",
+          "local": "/screenshots/2017-summer/14-source-2.png",
+          "sha256": "43d52e6555b3471f1e6e143d81da2c748f3fbe4b46596bb5bae893a79239a20f"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1kc0nhhkf0Gq8J2EtkmXVUS8E76ycYxc-/view?usp=sharing",
+          "label": "配布：25MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-summer-work-15",
+      "no": "15",
+      "sourceUrl": "http://viprpg17sum.php.xdomain.jp/main/game.php?id=15",
+      "snapshotUrl": "https://web.archive.org/web/20191209015033id_/http://viprpg17sum.php.xdomain.jp/main/game.php?id=15",
+      "migrationDataUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/data.json",
+      "migrationRecord": 15,
+      "sourceMetadata": {
+        "ss1": "png",
+        "ss2": "",
+        "icon": "png",
+        "title": "Ch:Mephistopheles",
+        "author": "イグサ",
+        "genre": "見るゲ",
+        "tkool": "2000",
+        "dandm": "不可/不可",
+        "vote": "1",
+        "board": "1500222866",
+        "game": "",
+        "volume": "",
+        "link": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "sourceDetailUnavailable": false,
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/icon/15.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/15-1.png",
+          "local": "/screenshots/2017-summer/15-source-1.png",
+          "sha256": "5e14c2cd807103ea78a3756a0cb4325dbadfe736f7edffae775bcc91747df056"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-summer-work-16",
+      "no": "16",
+      "sourceUrl": "http://viprpg17sum.php.xdomain.jp/main/game.php?id=16",
+      "snapshotUrl": "https://web.archive.org/web/20191209030225id_/http://viprpg17sum.php.xdomain.jp/main/game.php?id=16",
+      "migrationDataUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/data.json",
+      "migrationRecord": 16,
+      "sourceMetadata": {
+        "ss1": "png?0815",
+        "ss2": "png?0815",
+        "icon": "png?0815",
+        "title": "海と剣士と月の光",
+        "author": "カナエール教永遠宗信徒",
+        "genre": "代理ｋｓｇ集",
+        "tkool": "2000",
+        "dandm": "可/可",
+        "vote": "1",
+        "board": "1500222951",
+        "game": "提出:8/19",
+        "volume": "13MB",
+        "link": "https://drive.google.com/file/d/1kc0nhhkf0Gq8J2EtkmXVUS8E76ycYxc-/view?usp=sharing"
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "sourceDetailUnavailable": false,
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/icon/16.png?0815",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/16-1.png?0815",
+          "local": "/screenshots/2017-summer/16-source-1.png",
+          "sha256": "49b6230c17349d82baeede12e4cb8f9484a4bd99294e6d6c46b2c6ff3dc49e83"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/16-2.png?0815",
+          "local": "/screenshots/2017-summer/16-source-2.png",
+          "sha256": "91877fcd52e0a54ec106df5b4ce48a153e61ae9c18771ae2340d367365e6b0da"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1kc0nhhkf0Gq8J2EtkmXVUS8E76ycYxc-/view?usp=sharing",
+          "label": "配布：13MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-summer-work-17",
+      "no": "17",
+      "sourceUrl": "http://viprpg17sum.php.xdomain.jp/main/game.php?id=17",
+      "snapshotUrl": "https://web.archive.org/web/20191209020336id_/http://viprpg17sum.php.xdomain.jp/main/game.php?id=17",
+      "migrationDataUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/data.json",
+      "migrationRecord": 17,
+      "sourceMetadata": {
+        "ss1": "png",
+        "ss2": "png",
+        "icon": "png",
+        "title": "裏切者には懺悔を",
+        "author": "Aomatu_Spaghe",
+        "genre": "トラップハメハメ皆殺しギャグゲーム",
+        "tkool": "2000",
+        "dandm": "可/可",
+        "vote": "1",
+        "board": "1500376679",
+        "game": "更新:9/17",
+        "volume": "3.2MB",
+        "link": "https://drive.google.com/file/d/1pe4amhPU_sgPUlovlwdwrlrKqfnoIjb4/view?usp=sharing"
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "sourceDetailUnavailable": false,
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/icon/17.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/17-1.png",
+          "local": "/screenshots/2017-summer/17-source-1.png",
+          "sha256": "ad9a673adc70fa00973db6ef79584eb49c8cf4b3d72d148cf80fbb2f9e507d22"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/17-2.png",
+          "local": "/screenshots/2017-summer/17-source-2.png",
+          "sha256": "71daf88ff5cfb9563556cf429afb1727639bd7507b4b6f5016cd9bfaac68d855"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1pe4amhPU_sgPUlovlwdwrlrKqfnoIjb4/view?usp=sharing",
+          "label": "配布：3.2MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-summer-work-18",
+      "no": "18",
+      "sourceUrl": "http://viprpg17sum.php.xdomain.jp/main/game.php?id=18",
+      "snapshotUrl": "https://web.archive.org/web/20191209031619id_/http://viprpg17sum.php.xdomain.jp/main/game.php?id=18",
+      "migrationDataUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/data.json",
+      "migrationRecord": 18,
+      "sourceMetadata": {
+        "ss1": "png",
+        "ss2": "",
+        "icon": "png",
+        "title": "蛾の王",
+        "author": "陰毛",
+        "genre": "わかんない",
+        "tkool": "2000",
+        "dandm": "可/不可",
+        "vote": "1",
+        "board": "1500723754",
+        "game": "提出:9/29",
+        "volume": "2.1MB",
+        "link": "https://drive.google.com/file/d/1lLYV2Zy20DuGH_xUJkV6BfyZgbKr25so/view?usp=sharing"
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "sourceDetailUnavailable": false,
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/icon/18.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/18-1.png",
+          "local": "/screenshots/2017-summer/18-source-1.png",
+          "sha256": "852add47868999d0d10f8ff3edc42f61868cc9d53d2dbac97f71b029b0aa447d"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1lLYV2Zy20DuGH_xUJkV6BfyZgbKr25so/view?usp=sharing",
+          "label": "配布：2.1MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-summer-work-19",
+      "no": "19",
+      "sourceUrl": "http://viprpg17sum.php.xdomain.jp/main/game.php?id=19",
+      "snapshotUrl": "https://web.archive.org/web/20191209021736id_/http://viprpg17sum.php.xdomain.jp/main/game.php?id=19",
+      "migrationDataUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/data.json",
+      "migrationRecord": 19,
+      "sourceMetadata": {
+        "ss1": "png?0808",
+        "ss2": "png?0808",
+        "icon": "png",
+        "title": "ツクラーになろう",
+        "author": "ツクラーになろう製作委員会",
+        "genre": "異世界転生ksg",
+        "tkool": "2000",
+        "dandm": "付属テキスト参照",
+        "vote": "",
+        "board": "1500735533",
+        "game": "提出:8/14",
+        "volume": "1.8MB",
+        "link": "https://drive.google.com/file/d/0B6TKb5wt9MARTWtLQk03aG5nemc/view?usp=sharing"
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "sourceDetailUnavailable": false,
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/icon/19.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/19-1.png?0808",
+          "local": "/screenshots/2017-summer/19-source-1.png",
+          "sha256": "9e722bc8b96296e2a7d94c425c3e5fce283daa49cca62a83d13e07ace0e62283"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/19-2.png?0808",
+          "local": "/screenshots/2017-summer/19-source-2.png",
+          "sha256": "e2d745c25e69699fad87ba314c5a4d04178dc96cee2b8bc23a58943270409ade"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/0B6TKb5wt9MARTWtLQk03aG5nemc/view?usp=sharing",
+          "label": "配布：1.8MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-summer-work-20",
+      "no": "20",
+      "sourceUrl": "http://viprpg17sum.php.xdomain.jp/main/game.php?id=20",
+      "snapshotUrl": "https://web.archive.org/web/20191209024518id_/http://viprpg17sum.php.xdomain.jp/main/game.php?id=20",
+      "migrationDataUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/data.json",
+      "migrationRecord": 20,
+      "sourceMetadata": {
+        "ss1": "jpg",
+        "ss2": "jpg",
+        "icon": "png",
+        "title": "Something Blue",
+        "author": "秋草",
+        "genre": "見るゲ",
+        "tkool": "2000",
+        "dandm": "自己責任",
+        "vote": "1",
+        "board": "1500773730",
+        "game": "",
+        "volume": "",
+        "link": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "sourceDetailUnavailable": false,
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/icon/20.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/20-1.jpg",
+          "local": "/screenshots/2017-summer/20-source-1.jpg",
+          "sha256": "e420560985ae76e0fcd853a4cdf2185daa8646e79ec8a7fccffef4c46ac850f9"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/20-2.jpg",
+          "local": "/screenshots/2017-summer/20-source-2.jpg",
+          "sha256": "ad424e214b1eb74a6cbb0b43118af34bfcb2735c13d86b9a8d25b0dca55553d2"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-summer-work-21",
+      "no": "21",
+      "sourceUrl": "http://viprpg17sum.php.xdomain.jp/main/game.php?id=21",
+      "snapshotUrl": "https://web.archive.org/web/20191117020259id_/http://viprpg17sum.php.xdomain.jp/main/game.php?id=21",
+      "migrationDataUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/data.json",
+      "migrationRecord": 21,
+      "sourceMetadata": {
+        "ss1": "png",
+        "ss2": "",
+        "icon": "png",
+        "title": "砂浜に流れ着いた見るゲ",
+        "author": "牧場の牛肉",
+        "genre": "見るゲ",
+        "tkool": "2000",
+        "dandm": "可/可",
+        "vote": "1",
+        "board": "1500821790",
+        "game": "提出:8/14",
+        "volume": "6.1MB",
+        "link": "https://drive.google.com/file/d/0B6TKb5wt9MARUFd4ZmEtRjBuS1E/view?usp=sharing"
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "sourceDetailUnavailable": false,
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/icon/21.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/21-1.png",
+          "local": "/screenshots/2017-summer/21-source-1.png",
+          "sha256": "4d82eef568346976f5e5550e42d7cbed1614cebee3bbb692435b5922088b16c0"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/0B6TKb5wt9MARUFd4ZmEtRjBuS1E/view?usp=sharing",
+          "label": "配布：6.1MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-summer-work-22",
+      "no": "22",
+      "sourceUrl": "http://viprpg17sum.php.xdomain.jp/main/game.php?id=22",
+      "snapshotUrl": "https://web.archive.org/web/20191117030116id_/http://viprpg17sum.php.xdomain.jp/main/game.php?id=22",
+      "migrationDataUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/data.json",
+      "migrationRecord": 22,
+      "sourceMetadata": {
+        "ss1": "png",
+        "ss2": "",
+        "icon": "png",
+        "title": "超医学プロレス録",
+        "author": "濃い顔のブライアンの人",
+        "genre": "医学プロレスゲーム",
+        "tkool": "VXA",
+        "dandm": "不可/不可",
+        "vote": "",
+        "board": "1501256760",
+        "game": "提出:7/29",
+        "volume": "102MB",
+        "link": "https://drive.google.com/file/d/0B6TKb5wt9MARaDh6cTBTWExFd1U/view?usp=sharing"
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "sourceDetailUnavailable": false,
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/icon/22.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/22-1.png",
+          "local": "/screenshots/2017-summer/22-source-1.png",
+          "sha256": "1d3ce9a2241e15ecaa641e8b12af21d80bc3ce579e50113ea3c8f3656d626005"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/0B6TKb5wt9MARaDh6cTBTWExFd1U/view?usp=sharing",
+          "label": "配布：102MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-summer-work-23",
+      "no": "23",
+      "sourceUrl": "http://viprpg17sum.php.xdomain.jp/main/game.php?id=23",
+      "snapshotUrl": "https://web.archive.org/web/20191209015954id_/http://viprpg17sum.php.xdomain.jp/main/game.php?id=23",
+      "migrationDataUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/data.json",
+      "migrationRecord": 23,
+      "sourceMetadata": {
+        "ss1": "png",
+        "ss2": "",
+        "icon": "png",
+        "title": "番外聖人",
+        "author": "鷹",
+        "genre": "見るゲ",
+        "tkool": "2000",
+        "dandm": "可/可",
+        "vote": "1",
+        "board": "1501425487",
+        "game": "提出:8/04",
+        "volume": "732KB",
+        "link": "https://drive.google.com/file/d/0B6TKb5wt9MARR1pNbVdFRURCTms/view?usp=sharing"
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "sourceDetailUnavailable": false,
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/icon/23.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/23-1.png",
+          "local": "/screenshots/2017-summer/23-source-1.png",
+          "sha256": "5eb934299264f1866d4aceb2f9bbd969394f08834b1aada9b176a53287c59c5d"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/0B6TKb5wt9MARR1pNbVdFRURCTms/view?usp=sharing",
+          "label": "配布：732KB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-summer-work-24",
+      "no": "24",
+      "sourceUrl": "http://viprpg17sum.php.xdomain.jp/main/game.php?id=24",
+      "snapshotUrl": "https://web.archive.org/web/20200108154340id_/http://viprpg17sum.php.xdomain.jp:80/main/game.php?id=24",
+      "migrationDataUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/data.json",
+      "migrationRecord": 24,
+      "sourceMetadata": {
+        "ss1": "png",
+        "ss2": "",
+        "icon": "png",
+        "title": "ごーくんとまーちゃん",
+        "author": "六徳",
+        "genre": "見たり歩いたり",
+        "tkool": "2000",
+        "dandm": "可/可",
+        "vote": "1",
+        "board": "1501511586",
+        "game": "提出:8/23",
+        "volume": "9.5MB",
+        "link": "https://drive.google.com/file/d/0B6TKb5wt9MARcVR6b01ybkYxSHM/view?usp=sharing"
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "sourceDetailUnavailable": false,
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/icon/24.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/24-1.png",
+          "local": "/screenshots/2017-summer/24-source-1.png",
+          "sha256": "c721d53d11dd52b1dca41a3497f6bcb6caa958b4e8e0adc583fc235ad090c510"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/0B6TKb5wt9MARcVR6b01ybkYxSHM/view?usp=sharing",
+          "label": "配布：9.5MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-summer-work-25",
+      "no": "25",
+      "sourceUrl": "http://viprpg17sum.php.xdomain.jp/main/game.php?id=25",
+      "snapshotUrl": "https://web.archive.org/web/20191209021400id_/http://viprpg17sum.php.xdomain.jp/main/game.php?id=25",
+      "migrationDataUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/data.json",
+      "migrationRecord": 25,
+      "sourceMetadata": {
+        "ss1": "png",
+        "ss2": "",
+        "icon": "png",
+        "title": "ウィンディを飼いたいんですが…",
+        "author": "病葉",
+        "genre": "見るゲ",
+        "tkool": "2000",
+        "dandm": "可/可",
+        "vote": "1",
+        "board": "1501583967",
+        "game": "提出:8/07",
+        "volume": "2.0MB",
+        "link": "https://drive.google.com/file/d/0B6TKb5wt9MARV1RxQS1TZTVhUWM/view?usp=sharing"
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "sourceDetailUnavailable": false,
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/icon/25.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/25-1.png",
+          "local": "/screenshots/2017-summer/25-source-1.png",
+          "sha256": "0342f486d6252344e8c4d93ad95b2ae4f64bbb5a0f940a6c046cf24e8b0ac624"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/0B6TKb5wt9MARV1RxQS1TZTVhUWM/view?usp=sharing",
+          "label": "配布：2.0MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-summer-work-26",
+      "no": "26",
+      "sourceUrl": "http://viprpg17sum.php.xdomain.jp/main/game.php?id=26",
+      "snapshotUrl": "https://web.archive.org/web/20191117032801id_/http://viprpg17sum.php.xdomain.jp/main/game.php?id=26",
+      "migrationDataUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/data.json",
+      "migrationRecord": 26,
+      "sourceMetadata": {
+        "ss1": "png",
+        "ss2": "png",
+        "icon": "png",
+        "title": "やみっちホーム",
+        "author": "たぐち",
+        "genre": "法螺ーゲー",
+        "tkool": "2000",
+        "dandm": "やって/ちょんまげ",
+        "vote": "1",
+        "board": "1501838642",
+        "game": "更新:9/17",
+        "volume": "14MB",
+        "link": "https://drive.google.com/file/d/12JdgUZKkpfynupOCnFpaRZtk7Vno3aY3/view?usp=sharing"
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "sourceDetailUnavailable": false,
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/icon/26.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/26-1.png",
+          "local": "/screenshots/2017-summer/26-source-1.png",
+          "sha256": "1b590226dbbf08b458e15371f1d34e6c48821ecb54e048b84260207e9bd6a607"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/26-2.png",
+          "local": "/screenshots/2017-summer/26-source-2.png",
+          "sha256": "941090cc9019def5d76c07f9724d0c77ca617aa1765423e23803462b1d256cf0"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/12JdgUZKkpfynupOCnFpaRZtk7Vno3aY3/view?usp=sharing",
+          "label": "配布：14MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-summer-work-27",
+      "no": "27",
+      "sourceUrl": "http://viprpg17sum.php.xdomain.jp/main/game.php?id=27",
+      "snapshotUrl": "https://web.archive.org/web/20191209022721id_/http://viprpg17sum.php.xdomain.jp/main/game.php?id=27",
+      "migrationDataUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/data.json",
+      "migrationRecord": 27,
+      "sourceMetadata": {
+        "ss1": "png",
+        "ss2": "png",
+        "icon": "png",
+        "title": "RTP改変素材MV用",
+        "author": "がらくた",
+        "genre": "RTP改変素材",
+        "tkool": "MV",
+        "dandm": "可/可",
+        "vote": "",
+        "board": "1502196998",
+        "game": "提出:9/28",
+        "volume": "100MB",
+        "link": "https://drive.google.com/file/d/0B6TKb5wt9MARLTlvMkFISFdVb0k/view?usp=sharing"
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "sourceDetailUnavailable": false,
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/icon/27.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/27-1.png",
+          "local": "/screenshots/2017-summer/27-source-1.png",
+          "sha256": "694622a5fb51ce9e69ee753a16054d8bc9e99f6b2876bd11f10ebdd2418ca4ab"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/27-2.png",
+          "local": "/screenshots/2017-summer/27-source-2.png",
+          "sha256": "24e5f095f1ee5c3df60ee6d31c1e98a8561e5f5960ba7258440463b517676aee"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/0B6TKb5wt9MARLTlvMkFISFdVb0k/view?usp=sharing",
+          "label": "配布：100MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-summer-work-28",
+      "no": "28",
+      "sourceUrl": "http://viprpg17sum.php.xdomain.jp/main/game.php?id=28",
+      "snapshotUrl": "https://web.archive.org/web/20191117020252id_/http://viprpg17sum.php.xdomain.jp/main/game.php?id=28",
+      "migrationDataUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/data.json",
+      "migrationRecord": 28,
+      "sourceMetadata": {
+        "ss1": "png",
+        "ss2": "png",
+        "icon": "png",
+        "title": "エコぽて経済倫理学",
+        "author": "黄泉つ",
+        "genre": "りんりー",
+        "tkool": "2000",
+        "dandm": "可/可",
+        "vote": "1",
+        "board": "1502459407",
+        "game": "更新:8/26",
+        "volume": "6.1MB",
+        "link": "https://drive.google.com/file/d/0B6TKb5wt9MARV0U3dTFmZlVKRDQ/view?usp=sharing"
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "sourceDetailUnavailable": false,
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/icon/28.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/28-1.png",
+          "local": "/screenshots/2017-summer/28-source-1.png",
+          "sha256": "84ed69402eb9ad95f92dc321e523ad2afd37ed1d4944e9aea1693aa698408cad"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/28-2.png",
+          "local": "/screenshots/2017-summer/28-source-2.png",
+          "sha256": "1976d62a3b41ec283a6b651959a824743cfbd3bd15298afe5f6919267f77c471"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/0B6TKb5wt9MARV0U3dTFmZlVKRDQ/view?usp=sharing",
+          "label": "配布：6.1MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-summer-work-29",
+      "no": "29",
+      "sourceUrl": "http://viprpg17sum.php.xdomain.jp/main/game.php?id=29",
+      "snapshotUrl": "https://web.archive.org/web/20191117024410id_/http://viprpg17sum.php.xdomain.jp/main/game.php?id=29",
+      "migrationDataUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/data.json",
+      "migrationRecord": 29,
+      "sourceMetadata": {
+        "ss1": "png?0818",
+        "ss2": "",
+        "icon": "png?0818",
+        "title": "アラビア単発",
+        "author": "パトラミック",
+        "genre": "短編",
+        "tkool": "2000",
+        "dandm": "可/可",
+        "vote": "",
+        "board": "1502701592",
+        "game": "提出:8/20",
+        "volume": "106MB",
+        "link": "https://drive.google.com/file/d/0B6TKb5wt9MARQ1Q5UzJNSGpScFU/view?usp=sharing"
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "sourceDetailUnavailable": false,
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/icon/29.png?0818",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/29-1.png?0818",
+          "local": "/screenshots/2017-summer/29-source-1.png",
+          "sha256": "ba46fab6eead1c4a55850ab60435e7a2dcecd31452b6b95dafcf8c70a661c448"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/0B6TKb5wt9MARQ1Q5UzJNSGpScFU/view?usp=sharing",
+          "label": "配布：106MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-summer-work-30",
+      "no": "30",
+      "sourceUrl": "http://viprpg17sum.php.xdomain.jp/main/game.php?id=30",
+      "snapshotUrl": "https://web.archive.org/web/20191117031106id_/http://viprpg17sum.php.xdomain.jp/main/game.php?id=30",
+      "migrationDataUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/data.json",
+      "migrationRecord": 30,
+      "sourceMetadata": {
+        "ss1": "png",
+        "ss2": "png",
+        "icon": "png",
+        "title": "これがやりたかっただけの小ネタ集",
+        "author": "ろーぷれつくろ～",
+        "genre": "ｋｓ短編集",
+        "tkool": "2000",
+        "dandm": "非推奨",
+        "vote": "1",
+        "board": "1502790426",
+        "game": "更新:9/16",
+        "volume": "24MB",
+        "link": "https://drive.google.com/file/d/1evNXSTC_h55_ozu8G0tnQPpluR0jtUPX/view?usp=sharing"
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "sourceDetailUnavailable": false,
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/icon/30.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/30-1.png",
+          "local": "/screenshots/2017-summer/30-source-1.png",
+          "sha256": "e1fc90e94c0898e9c2edaaebf986f574098590c7121c1b13d36f7e118f885fa4"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/30-2.png",
+          "local": "/screenshots/2017-summer/30-source-2.png",
+          "sha256": "163c3b751e5192081dbe7890bf0c42092fb12da727d0cb0c3c98910c8281af2f"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1evNXSTC_h55_ozu8G0tnQPpluR0jtUPX/view?usp=sharing",
+          "label": "配布：24MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-summer-work-31",
+      "no": "31",
+      "sourceUrl": "http://viprpg17sum.php.xdomain.jp/main/game.php?id=31",
+      "snapshotUrl": "https://web.archive.org/web/20191209021013id_/http://viprpg17sum.php.xdomain.jp/main/game.php?id=31",
+      "migrationDataUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/data.json",
+      "migrationRecord": 31,
+      "sourceMetadata": {
+        "ss1": "png",
+        "ss2": "",
+        "icon": "png",
+        "title": "2000→MV素材変換器",
+        "author": "くらむぼん",
+        "genre": "ツール",
+        "tkool": "MV",
+        "dandm": "可/可",
+        "vote": "",
+        "board": "1502790748",
+        "game": "提出:8/16",
+        "volume": "72MB",
+        "link": "https://drive.google.com/file/d/0B6TKb5wt9MARYWhRcWRwYU9oR2c/view?usp=sharing"
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "sourceDetailUnavailable": false,
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/icon/31.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/31-1.png",
+          "local": "/screenshots/2017-summer/31-source-1.png",
+          "sha256": "310b49ecdf11766e1a4590cfbc1b0ea36b64ea56f21a3ce69bd05038e7d6e12f"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/0B6TKb5wt9MARYWhRcWRwYU9oR2c/view?usp=sharing",
+          "label": "配布：72MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-summer-work-32",
+      "no": "32",
+      "sourceUrl": "http://viprpg17sum.php.xdomain.jp/main/game.php?id=32",
+      "snapshotUrl": "https://web.archive.org/web/20170914122218id_/http://viprpg17sum.php.xdomain.jp:80/main/game.php?id=32&",
+      "migrationDataUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/data.json",
+      "migrationRecord": 32,
+      "sourceMetadata": {
+        "ss1": "",
+        "ss2": "",
+        "icon": "",
+        "title": "",
+        "author": "",
+        "genre": "",
+        "tkool": "",
+        "dandm": "",
+        "vote": "",
+        "board": "",
+        "game": "",
+        "volume": "",
+        "link": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "sourceDetailUnavailable": false,
+      "source32RecoveredFromSnapshot": true,
+      "source32OriginalScreenshotUnconfirmed": true,
+      "source32PreviousTitle": "Work 32",
+      "source32TitleEvidence": "investigation/restored32-title-evidence.json",
+      "iconSourceUrl": null,
+      "screenshotSources": [
+        {
+          "sourceUrl": "http://viprpg17sum.php.xdomain.jp/main/images/ss/32-1.png",
+          "local": "/screenshots/2017-summer/32-source-1.png",
+          "sha256": "340a79f189830cdb1efd365a4838a4bd4fcd54ee52654e3a5279a7a2fbd68808"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-summer-work-33",
+      "no": "33",
+      "sourceUrl": "http://viprpg17sum.php.xdomain.jp/main/game.php?id=33",
+      "snapshotUrl": "https://web.archive.org/web/20191117022754id_/http://viprpg17sum.php.xdomain.jp/main/game.php?id=33",
+      "migrationDataUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/data.json",
+      "migrationRecord": 33,
+      "sourceMetadata": {
+        "ss1": "png",
+        "ss2": "",
+        "icon": "png",
+        "title": "好きな曲を好きに使ってデフォ戦",
+        "author": "坑道メシ",
+        "genre": "デフォ戦",
+        "tkool": "2000",
+        "dandm": "可/可",
+        "vote": "1",
+        "board": "1502882213",
+        "game": "更新:9/02",
+        "volume": "55MB",
+        "link": "https://drive.google.com/file/d/0B6TKb5wt9MARbzFEM2R5aXk4TG8/view?usp=sharing"
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "sourceDetailUnavailable": false,
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/icon/33.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/33-1.png",
+          "local": "/screenshots/2017-summer/33-source-1.png",
+          "sha256": "b817abf80f835fe020eb4208aa6ed29164f232a906887da663d090fe1fe61db0"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/0B6TKb5wt9MARbzFEM2R5aXk4TG8/view?usp=sharing",
+          "label": "配布：55MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-summer-work-34",
+      "no": "34",
+      "sourceUrl": "http://viprpg17sum.php.xdomain.jp/main/game.php?id=34",
+      "snapshotUrl": "https://web.archive.org/web/20191209014544id_/http://viprpg17sum.php.xdomain.jp/main/game.php?id=34",
+      "migrationDataUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/data.json",
+      "migrationRecord": 34,
+      "sourceMetadata": {
+        "ss1": "png",
+        "ss2": "",
+        "icon": "png",
+        "title": "神撃のワイバーン VIRGIN SOUL",
+        "author": "JK",
+        "genre": "RPG",
+        "tkool": "2000",
+        "dandm": "可/可",
+        "vote": "1",
+        "board": "1503708746",
+        "game": "",
+        "volume": "",
+        "link": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "sourceDetailUnavailable": false,
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/icon/34.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/34-1.png",
+          "local": "/screenshots/2017-summer/34-source-1.png",
+          "sha256": "eccf6f3036b1cac7fded7bcc3bc7f563bdcb87fcdecae7d8ddddf5807c1138bb"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-summer-work-35",
+      "no": "35",
+      "sourceUrl": "http://viprpg17sum.php.xdomain.jp/main/game.php?id=35",
+      "snapshotUrl": "https://web.archive.org/web/20191209023724id_/http://viprpg17sum.php.xdomain.jp/main/game.php?id=35",
+      "migrationDataUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/data.json",
+      "migrationRecord": 35,
+      "sourceMetadata": {
+        "ss1": "png",
+        "ss2": "png",
+        "icon": "png",
+        "title": "ダークハーフ",
+        "author": "クルマユ大好き丸",
+        "genre": "ksg",
+        "tkool": "2000",
+        "dandm": "不可/不可",
+        "vote": "",
+        "board": "1503802283",
+        "game": "提出:9/29",
+        "volume": "2.7MB",
+        "link": "https://drive.google.com/file/d/1FvqRlzxMeTVTbALk3FDQ0sur0Yun5bLU/view?usp=sharing"
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "sourceDetailUnavailable": false,
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/icon/35.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/35-1.png",
+          "local": "/screenshots/2017-summer/35-source-1.png",
+          "sha256": "37ebbe502f77bcb53cc7bc321b7d4b84d901848fb7ae206477654d41289b73f0"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/35-2.png",
+          "local": "/screenshots/2017-summer/35-source-2.png",
+          "sha256": "aac09aab8aa48b25ed6700928bbb2d1b12c27b1897dfe438832e2045451241d8"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1FvqRlzxMeTVTbALk3FDQ0sur0Yun5bLU/view?usp=sharing",
+          "label": "配布：2.7MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-summer-work-36",
+      "no": "36",
+      "sourceUrl": "http://viprpg17sum.php.xdomain.jp/main/game.php?id=36",
+      "snapshotUrl": "https://web.archive.org/web/20191209014601id_/http://viprpg17sum.php.xdomain.jp/main/game.php?id=36",
+      "migrationDataUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/data.json",
+      "migrationRecord": 36,
+      "sourceMetadata": {
+        "ss1": "png",
+        "ss2": "",
+        "icon": "png",
+        "title": "→→→",
+        "author": "やらわか",
+        "genre": "1分ミニゲーム",
+        "tkool": "2000",
+        "dandm": "可/可",
+        "vote": "1",
+        "board": "1503927994",
+        "game": "提出:8/28",
+        "volume": "41MB",
+        "link": "https://drive.google.com/file/d/0B6TKb5wt9MARTUhCRUFwYl9FOTQ/view?usp=sharing"
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "sourceDetailUnavailable": false,
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/icon/36.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/36-1.png",
+          "local": "/screenshots/2017-summer/36-source-1.png",
+          "sha256": "c3b3450509c354a9fa97b0fdc0342e17aa13125868cb30fcd23c1afd38304c2f"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/0B6TKb5wt9MARTUhCRUFwYl9FOTQ/view?usp=sharing",
+          "label": "配布：41MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-summer-work-37",
+      "no": "37",
+      "sourceUrl": "http://viprpg17sum.php.xdomain.jp/main/game.php?id=37",
+      "snapshotUrl": "https://web.archive.org/web/20191209025039id_/http://viprpg17sum.php.xdomain.jp/main/game.php?id=37",
+      "migrationDataUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/data.json",
+      "migrationRecord": 37,
+      "sourceMetadata": {
+        "ss1": "png",
+        "ss2": "",
+        "icon": "png",
+        "title": "iSOC-7の、音楽堂サルベージ。",
+        "author": "iSOC-7(アイゾック セブン)",
+        "genre": "RPG…というよりも素材集に近い",
+        "tkool": "2000",
+        "dandm": "可/可",
+        "vote": "1",
+        "board": "1504010324",
+        "game": "提出:9/15",
+        "volume": "39MB",
+        "link": "https://drive.google.com/file/d/0B6TKb5wt9MARcnY3b3ZjV2lRSDA/view?usp=sharing"
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "sourceDetailUnavailable": false,
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/icon/37.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/37-1.png",
+          "local": "/screenshots/2017-summer/37-source-1.png",
+          "sha256": "33c3c6f77cb426a5c2347b5f4e7dbc3e545af31e71b385a62aa14b5d4d2cce4f"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/0B6TKb5wt9MARcnY3b3ZjV2lRSDA/view?usp=sharing",
+          "label": "配布：39MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-summer-work-38",
+      "no": "38",
+      "sourceUrl": "http://viprpg17sum.php.xdomain.jp/main/game.php?id=38",
+      "snapshotUrl": "https://web.archive.org/web/20191209015201id_/http://viprpg17sum.php.xdomain.jp/main/game.php?id=38",
+      "migrationDataUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/data.json",
+      "migrationRecord": 38,
+      "sourceMetadata": {
+        "ss1": "png",
+        "ss2": "png",
+        "icon": "png",
+        "title": "「ベルガモット組曲」",
+        "author": "（Ｒ）ＤＵ",
+        "genre": "見るゲ(ちょっとだけやるゲ)",
+        "tkool": "2000",
+        "dandm": "可/可",
+        "vote": "1",
+        "board": "1504104004",
+        "game": "提出:9/24",
+        "volume": "12MB",
+        "link": "https://drive.google.com/file/d/1xBp2ZlRwpG2xFZ80P8O-hTQcF9kZ716h/view?usp=sharing"
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "sourceDetailUnavailable": false,
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/icon/38.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/38-1.png",
+          "local": "/screenshots/2017-summer/38-source-1.png",
+          "sha256": "559655dabd0588be533d903dc49cf0a5f46298da70bf93b2ec8dcc72501e309e"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/38-2.png",
+          "local": "/screenshots/2017-summer/38-source-2.png",
+          "sha256": "e6b14a3866711c571d412100e10003ae2ae5d6ee019a9a0ef337b5c76c6a2477"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1xBp2ZlRwpG2xFZ80P8O-hTQcF9kZ716h/view?usp=sharing",
+          "label": "配布：12MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-summer-work-39",
+      "no": "39",
+      "sourceUrl": "http://viprpg17sum.php.xdomain.jp/main/game.php?id=39",
+      "snapshotUrl": "https://web.archive.org/web/20191209030409id_/http://viprpg17sum.php.xdomain.jp/main/game.php?id=39",
+      "migrationDataUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/data.json",
+      "migrationRecord": 39,
+      "sourceMetadata": {
+        "ss1": "png",
+        "ss2": "png",
+        "icon": "png",
+        "title": "勇者のブロック迷宮探索",
+        "author": "愚図の本懐",
+        "genre": "アクションアドベンチャー",
+        "tkool": "2000",
+        "dandm": "可/可",
+        "vote": "1",
+        "board": "1504132901",
+        "game": "",
+        "volume": "",
+        "link": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "sourceDetailUnavailable": false,
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/icon/39.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/39-1.png",
+          "local": "/screenshots/2017-summer/39-source-1.png",
+          "sha256": "ec8d767eba0d1f39cf13dff7073d021379f1c4444bb4d226c33402228363c197"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/39-2.png",
+          "local": "/screenshots/2017-summer/39-source-2.png",
+          "sha256": "53ecb87e0540be282224b244583ea3c27e6b34ce1fb3a035d00a46edaa7b3a1c"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-summer-work-40",
+      "no": "40",
+      "sourceUrl": "http://viprpg17sum.php.xdomain.jp/main/game.php?id=40",
+      "snapshotUrl": "https://web.archive.org/web/20191209014533id_/http://viprpg17sum.php.xdomain.jp/main/game.php?id=40",
+      "migrationDataUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/data.json",
+      "migrationRecord": 40,
+      "sourceMetadata": {
+        "ss1": "png",
+        "ss2": "png",
+        "icon": "png",
+        "title": "うんちぶりぶり",
+        "author": "ウンコマン",
+        "genre": "うんこ",
+        "tkool": "VX",
+        "dandm": "可/可",
+        "vote": "1",
+        "board": "1504184678",
+        "game": "提出:8/31",
+        "volume": "222KB",
+        "link": "https://drive.google.com/file/d/0B6TKb5wt9MARbms2WVl2NGg4UUk/view?usp=sharing"
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "sourceDetailUnavailable": false,
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/icon/40.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/40-1.png",
+          "local": "/screenshots/2017-summer/40-source-1.png",
+          "sha256": "e835fe72dd99a1511871095747e67e5183bdd6fdd60043bfc919d4d8faec3e3c"
+        },
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/40-2.png",
+          "local": "/screenshots/2017-summer/40-source-2.png",
+          "sha256": "2d16cbd6ca8530afceda72ebcec0fdd8206c542fa157ba4a2240de3ab35bde05"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/0B6TKb5wt9MARbms2WVl2NGg4UUk/view?usp=sharing",
+          "label": "配布：222KB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-summer-work-41",
+      "no": "41",
+      "sourceUrl": "http://viprpg17sum.php.xdomain.jp/main/game.php?id=41",
+      "snapshotUrl": "https://web.archive.org/web/20191209023352id_/http://viprpg17sum.php.xdomain.jp/main/game.php?id=41",
+      "migrationDataUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/data.json",
+      "migrationRecord": 41,
+      "sourceMetadata": {
+        "ss1": "png",
+        "ss2": "",
+        "icon": "png",
+        "title": "おぼぎり草",
+        "author": "脂はむ",
+        "genre": "ホラー",
+        "tkool": "2000",
+        "dandm": "可/可",
+        "vote": "1",
+        "board": "1504218396",
+        "game": "",
+        "volume": "",
+        "link": ""
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "sourceDetailUnavailable": false,
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/icon/41.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/41-1.png",
+          "local": "/screenshots/2017-summer/41-source-1.png",
+          "sha256": "2fa71697e501b754512bafb14683cbf8ef63e9be74c9c94ec84a81f0e3a395ee"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-summer-work-42",
+      "no": "42",
+      "sourceUrl": "http://viprpg17sum.php.xdomain.jp/main/game.php?id=42",
+      "snapshotUrl": "https://web.archive.org/web/20191209014550id_/http://viprpg17sum.php.xdomain.jp/main/game.php?id=42",
+      "migrationDataUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/data.json",
+      "migrationRecord": 42,
+      "sourceMetadata": {
+        "ss1": "png",
+        "ss2": "",
+        "icon": "png",
+        "title": "アースノーカ For MV",
+        "author": "ﾍﾞﾙﾌｧｰﾚ長田（゜∀゜）",
+        "genre": "やるゲ",
+        "tkool": "MV",
+        "dandm": "可/可",
+        "vote": "1",
+        "board": "1504218584",
+        "game": "提出:8/31",
+        "volume": "61MB",
+        "link": "https://drive.google.com/file/d/0B6TKb5wt9MARNGhld3hJRGI5R0k/view?usp=sharing"
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "sourceDetailUnavailable": false,
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/icon/42.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/42-1.png",
+          "local": "/screenshots/2017-summer/42-source-1.png",
+          "sha256": "7cca4d7c3aac8a1a44b8254245830d125599f3ec303bc5d2d12c52d9737fd068"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/0B6TKb5wt9MARNGhld3hJRGI5R0k/view?usp=sharing",
+          "label": "配布：61MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-summer-work-43",
+      "no": "43",
+      "sourceUrl": "http://viprpg17sum.php.xdomain.jp/main/game.php?id=43",
+      "snapshotUrl": "https://web.archive.org/web/20191209024705id_/http://viprpg17sum.php.xdomain.jp/main/game.php?id=43",
+      "migrationDataUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/data.json",
+      "migrationRecord": 43,
+      "sourceMetadata": {
+        "ss1": "png?0831",
+        "ss2": "",
+        "icon": "png",
+        "title": "魔神伝説",
+        "author": "脳内住民",
+        "genre": "みるげ",
+        "tkool": "2000",
+        "dandm": "可/可",
+        "vote": "1",
+        "board": "1504218818",
+        "game": "提出:8/31",
+        "volume": "2.2MB",
+        "link": "https://drive.google.com/file/d/1AT_90h7y5ufzJbWpP9QkC8kF4i9E8YF7/view?usp=sharing"
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "sourceDetailUnavailable": false,
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/icon/43.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/43-1.png?0831",
+          "local": "/screenshots/2017-summer/43-source-1.png",
+          "sha256": "927a0e99e8a8b887fc20e8393fa5d04f0cf33a912152e8670843be26bd349f73"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1AT_90h7y5ufzJbWpP9QkC8kF4i9E8YF7/view?usp=sharing",
+          "label": "配布：2.2MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2017-summer-work-44",
+      "no": "44",
+      "sourceUrl": "http://viprpg17sum.php.xdomain.jp/main/game.php?id=44",
+      "snapshotUrl": "https://web.archive.org/web/20191209014859id_/http://viprpg17sum.php.xdomain.jp/main/game.php?id=44",
+      "migrationDataUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/data.json",
+      "migrationRecord": 44,
+      "sourceMetadata": {
+        "ss1": "png",
+        "ss2": "",
+        "icon": "png",
+        "title": "ゴメス",
+        "author": "ゴメス",
+        "genre": "ゴメス",
+        "tkool": "2000",
+        "dandm": "ゴメス",
+        "vote": "1",
+        "board": "1504220048",
+        "game": "提出:9/02",
+        "volume": "52KB",
+        "link": "https://drive.google.com/file/d/1vSaMXQ6FxhcA8_vT04SnvV4FZmnR3K75/view?usp=sharing"
+      },
+      "sourceCommentFields": [
+        "comment",
+        "comment2"
+      ],
+      "sourceDetailUnavailable": false,
+      "iconSourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/icon/44.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/ss/44-1.png",
+          "local": "/screenshots/2017-summer/44-source-1.png",
+          "sha256": "486959940f3da48b83fee7ffe10ab729de0a4b14e2e9d4920674f09ab53af204"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/file/d/1vSaMXQ6FxhcA8_vT04SnvV4FZmnR3K75/view?usp=sharing",
+          "label": "配布：52KB"
+        }
+      ],
+      "packagesDownloaded": false
+    }
+  ],
+  "bannerSources": [
+    {
+      "sourceUrl": "https://websupportviprpg.xxxxxxxx.jp/archive/2017Summer/images/banner.png",
+      "local": "/banners/2017-summer/source.png",
+      "sha256": "30ed5caa3b3ab238a15c1e1d7eb260447f9fe2105ad71c64e2da8be60acf1b5c"
+    }
+  ],
+  "handling": "Direct source archival without topic/pixel review. Current migration JSON provides44 non-empty records and an all-empty32 slot. Historical catalogue confirms45 identities00..44;45/46 are unlisted boundary requests, not added works. Original archived home/list/submission and45 detail captures are replayed with archived resources and explicitly sourced same-record migration media.32 is blank in the current migration and later captures. Its actual title, metadata and both published comment fields are restored from the verified2017 snapshot; official forum document title independently confirms the title. The surviving SS image is22x18 and is retained with an explicit completeness warning. No content restriction is applied. Current migration award page supplements the missing historical award document. Raw original, migration and all placeholder evidence retained; no game packages downloaded/executed.",
+  "desktopReview": "passed-desktop-only",
+  "desktopEvidence": "desktop-review.json",
+  "presentationCorrections": "investigation/presentation-corrections.json",
+  "source32Evidence": "investigation/source32-record.json"
+}

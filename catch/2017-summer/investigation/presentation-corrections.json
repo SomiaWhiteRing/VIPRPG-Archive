@@ -1,0 +1,32 @@
+{
+  "detail22": {
+    "beforeRootScroll": 1317,
+    "client": 1168,
+    "afterRootScroll": 1168,
+    "innerContentClient": 770,
+    "innerContentScroll": 1118,
+    "change": "Only the derived22 document gives .base horizontal overflow:auto; source text layout and raw HTML remain unchanged."
+  },
+  "cataloguePreview": {
+    "rootCause": "Source uses named popN.src assignments, which retained ../main/images paths after packaging.",
+    "change": "Resolve these45 preview control paths through the verified original-resource mapping and source reset image; support mouseover, mouseout and double-click.",
+    "assignmentsVerified": 163,
+    "missing": 0,
+    "nativePreviewAndDoubleClickWidths": [
+      640,
+      640
+    ],
+    "nativeResetWidth": 22
+  },
+  "source32": {
+    "headerParsingCorrection": "Title is inside the anchor together with No.number. Strip the number prefix; do not remove the anchor. Four known-title controls matched before restoring32.",
+    "officialThreadTitleMatch": true,
+    "completeTextRestored": true,
+    "originalGameScreenshotUnconfirmed": true,
+    "retainedImageDimensions": [
+      22,
+      18
+    ]
+  },
+  "dataUnchangedByPresentationFix": true
+}

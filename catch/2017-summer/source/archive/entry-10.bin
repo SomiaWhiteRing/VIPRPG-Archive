@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; meta charset=utf-8" />
+	<meta name="viewport" content="width=device-width" >
+	<link rel="stylesheet" type="text/css" href="../main/style.css">
+	<title>No10</title>
+</head>
+<body>
+<script type="text/javascript" src="https://ad.xdomain.ne.jp/js/server-php.js"></script>
+<div class="bodylike">
+
+	<div class="head">
+		<div class="top mini">
+			<button class="chbtn" name="btnCh1" style="margin-right:0px; float:right">ボタン切替</button>
+			<h1>VIPRPG 2017夏の陣No10</h1>
+		</div>
+	</div>
+	
+	<a name="Top"></a>
+	<div class="nonline mini">
+		<div class="split pconly" style="float:right">
+			<div class="adj"></div>
+			<form style="float:right" action="dl.php" method="post">
+				<a>&nbsp;</a>
+				<input type="hidden" name="token" value="d5d6eb80c421f35a7ece4b3371a71278">
+				<input type="hidden" name="id" value="10">
+				<button class="button4" type="submit">ﾀﾞｳﾝﾛｰﾄﾞ<br>111MB</button>
+			</form>
+			<form style="float:right" action="vote.php" method="post">
+				<a>&nbsp;</a>
+				<input type="hidden" name="token" value="d5d6eb80c421f35a7ece4b3371a71278">
+				<input type="hidden" name="id" value="10">
+				<button class="button3" type="submit">投票する</button>
+			</form>
+		</div>
+		<div>
+			<a href="index.html" class="button1">トップページへ戻る</a>
+			<a href="gamelist.php" class="button1">作品一覧</a><br>
+			<!--前へと次へ0-->
+			<a class="button1" href="game.php?id=9">前の作品へ</a>
+			<a class="button1"  href="game.php?id=11">次の作品へ</a>
+			<a class="button1 grad1" href="#impression">感想</a>
+		</div>
+	</div>
+	
+<!--作品名-->
+	<div class="base2" style="height:32px">
+	
+		<img style="float:left" class="icon" src="../main/images/icon/10.png">
+		<a>　No.10 <b>アースバリアと夏の思い出</b></a><br>
+	</div>
+<!--画像-->
+	<div class="base2">
+		<img class="ss" name="ss" src="../main/images/ss/10-1.png?0815" onmouseover="this.src='../main/images/ss/10-2.png?0815'" onmouseout="this.src='../main/images/ss/10-1.png?0815'">
+		　画像にマウスオーバーでss2枚目が見れます。タッチデバイスの場合は画像タップで2枚目が見れます。1枚目に戻りたい時は<a onclick="ss.src='../main/images/ss/10-1.png?0815'" style="color:blue">ココ</a>をタップして下さい。
+	</div>
+<!--作者名-->
+	<div class="base2">
+	【作者名】すいかびぃ
+	</div>
+<!--ジャンル-->
+	<div class="base2">
+	【ジャンル】見るゲ&amp;やるげ
+	</div>
+<!--ツクール-->
+	<div class="base2">
+	【使用ツクール】VXA
+	</div>
+<!--配信/動画-->
+	<div class="base2">
+	【配信/動画】可/可
+	</div>
+<!--投票-->
+	<div class="base2">
+	【投票】可
+	</div>
+<!--コメント-->
+	<div class="base2">
+	【作者コメント】<br/>
+	アースバリア(あばり)がメインor出てくるお話を収録。新作中編見るゲとスレ投下作品1本、安価作品1本の合計3本立て。<br />
+<br />
+『あばりとウィルの2人旅』(見るゲ)<br />
+新作。バリアーズの夏の旅行先を決めるために、一足先にちょっと旅行してみることをエアロバリア(ろばり)から提案されたあばりは、ろばりの風属性仲間のウィンドⅡ(ウィル)のぶらり旅に付き添うことに。<br />
+<br />
+『魔法に試練と祝福を』(サイドビューもどきRPG)<br />
+スレ投下作品の移植。「魔守の塔(まもりのとう)」に眠っているといわれる宝玉を求めてわてり、ウィンディ、ライチ、やみっちの4人は塔を登る冒険に。主役はこの4人だけどあばりも出てきます。<br />
+(スレ投下当時よりアクション・やみっちのボス説明を追加、及びいくつかのミスを修正)<br />
+<br />
+『次世代対決記』(サイドビューもどきデフォ戦ゲー)<br />
+安価で当たったキャラ(SS1参照)がメインで登場するお話。<br />
+「たまには普段戦わないような相手と戦いたい」という魔王の依頼を引き受けたリナックスは、お約束と言わんばかりに魔王城に辿り着くまでに3人の仲間を集めることにした。<br />
+果たしてリナックスに待ち受けていた結末とは……。<br />
+<br />
+※8/31更新<br />
+完成版を提出しました。全3話クリアするとおまけ要素とエンディングが出現します。
+	</div>
+	<div class="base2">
+	【管理人コメント】<br/>
+	あら良い景色<br />
+今回もなかなかのボリュームですね<br />
+<br />
+最新版:sum17_10_02.zip
+	
+	</div>
+<!--その他情報-->
+	<div class="base2">	
+		<form style="float:right; margin:10px 5px 0px" action="dl.php" method="post">
+			<input type="hidden" name="token" value="d5d6eb80c421f35a7ece4b3371a71278">
+			<input type="hidden" name="id" value="10">
+			<button class="button2" type="submit">DLする:111MB</button>
+		</form>
+			更新:8/31<br>
+			DL人数:449<br>
+			投票:12票<br>
+
+	<a style="color:#EFEFEF">4.81 m秒</a>	</div>
+	
+	<!--前へと次へ-->
+	<a name="impression"></a>
+	<div class="nonline mini">
+		<a href="#Top" class="button1">▲</a>		
+		<a href="index.html" class="button1">トップページへ戻る</a>
+		<a href="gamelist.php" class="button1">作品一覧</a>
+		<br>
+		<a class="button1" href="game.php?id=9&#impression">前の作品へ</a>
+		<a class="button1"  href="game.php?id=11&#impression">次の作品へ</a>
+		<a class="button1 grad1" href="http://jbbs.shitaraba.net/bbs/read.cgi/game/60233/1500166736/">感想掲示板</a>
+	</div>
+	
+	<div class="base">
+		<div><b>No10 アースバリアと夏の思い出</b><br>
+		*書き込みは感想掲示板(外部サイト)から<br></div><br>
+		2:<a style="color:blue"><b>名無しさん</b></a> 2017/07/19(水) 17:25:05 ID:<br>
+夏の雰囲気を味わえるゲームっぽいので期待してます<br><br>
+3:<a style="color:blue"><b>作者</b></a> 2017/08/16(水) 02:04:53 ID:5JZyJ1M.0<br>
+すみません、早速ミスが発覚したのでパッチ出しました。<br>ttps://ux.getuploader.com/Vipsum_p/download/1<br><br>
+4:<a style="color:blue"><b>名無しさん</b></a> 2017/08/16(水) 03:59:15 ID:Mh5dwb6w0<br>
+パッチファイルが空・・・？<br><br>
+5:<a style="color:blue"><b>作者</b></a> 2017/08/16(水) 08:26:34 ID:5JZyJ1M.0<br>
+何故かダウンロードした後にパッチデータが空になる現象が発生していたので再度アップし直しました。<br>ttps://ux.getuploader.com/Vipsum_p/download/3<br><br>
+6:<a style="color:blue"><b>作者</b></a> 2017/08/17(木) 22:43:14 ID:5JZyJ1M.0<br>
+ttps://ux.getuploader.com/Vipsum_p/download/10<br>アゼクラがほとんど技を覚えないミスを修正(昨日の修正も同封)。<br>再度アゼクラ戦前からやり直していただくか、アゼクラを仲間にした状態で妖精さんの村にいるリーザス(オレンジ髪の女の子)に話しかけると修正されます。<br><br>
+7:<a style="color:blue"><b>名無しさん</b></a> 2017/08/19(土) 11:33:37 ID:N82xkD420<br>
+去年の紅白の時から思ってたけどエントリーばかり急いで未完成のもの投げるくらいなら完成してから提出して欲しい<br>GWから楽しみにしててゲーム始めて続きは更新をお待ちくださいは正直言ってストレス溜まる<br><br>
+8:<a style="color:blue"><b>名無しさん</b></a> 2017/08/19(土) 14:56:09 ID:dFvj0YDA0<br>
+アースバリアと夏の思い出の説明を選んでも読めません<br><br>
+9:<a style="color:blue"><b>作者</b></a> 2017/08/20(日) 00:39:46 ID:5JZyJ1M.0<br>
+&gt;&gt;7<br>折角楽しみにしていただいたのに不快な思いをさせてしまい申し訳ありません。以後気をつけます。<br><br>&gt;&gt;8<br>報告ありがとうございます。次の更新までに直します。<br><br>
+10:<a style="color:blue"><b>名無しさん</b></a> 2017/08/22(火) 16:13:19 ID:IKaImIgs0<br>
+バグ報告<br>次世代対決記プレー後に魔法に&#65374;をやると最初の戦闘のBGMが無音になります<br><br>
+11:<a style="color:blue"><b>名無しさん</b></a> 2017/08/27(日) 22:43:09 ID:UJMEHIEk0<br>
+今回も楽しくやらせていただきます<br>魔法のをデータ引継ぎでプレイするとやみっちのボスの説明見る技（調査）が覚えられないままになってしまいますので、妖精に話しかけると覚えるようにするといいかも？<br><br>
+12:<a style="color:blue"><b>作者</b></a> 2017/09/01(金) 00:23:48 ID:5JZyJ1M.0<br>
+作品の本体更新を行いました。ご報告いただいたバグややみっちの習得技についても修正致しました。<br><br>
+13:<a style="color:blue"><b>名無しさん</b></a> 2017/09/01(金) 13:35:44 ID:ulJ8sHEE0<br>
+ねじりハチマキが流星群を使った時に効いてないようです。<br><br>
+14:<a style="color:blue"><b>名無しさん</b></a> 2017/09/10(日) 12:09:46 ID:KEhs3msw0<br>
+エンディングまでクリア<br><br>『あばりとウィルの２人旅』<br>アースの旅行好きもキャラクター性ができてていいね。<br>恋人未満ラブデートだったけど心情展開も丁寧に描いていたから<br>まったりプレーでも楽しめる読み見るゲだった。<br>文章ボリュームもあって力作だった。<br><br>『次世代対決記』<br>安価ゲーなのでいいテンポで遊べる短編だった。<br>技の量が多いのでどれが効果的かは初回では厳しいけど<br>パーティの会話や最終戦でのシリアスやいろいろ見所があった。<br>クリア後再プレイが暗転しているバグあり。<br><br>『魔法に試練と祝福を』<br>個人的にはこれが難問。なのでいろいろ意見書く。<br>２層の目印のない純粋迷路でうろうろ（もう少し誘導性があった方がいい）<br>３層はスイッチが反転している罠？（ON/OFF自由切り替え）にくわえて<br>左⇔右の答え合わせで長い通路をくり返し往復させられる仕様が不親切だった。<br>大きめのマップ＋通常歩行スピードだから面倒臭さがじわじわとストレスになってくる。<br>４層はほとんどの人が攻略で詰むかもしれない最大難所。<br>ゲーム内にヒントがない。google検索しないと解けないような謎解きは悪手<br>暗記代入ミスったのか計算が解けず最終的には総当りで解をみつけた。<br>かなりの根気がないと越えられないと思う。<br>&#8546;ボスは鬼だったけどアイテム使用を解禁してどうにか倒せた。<br>アイスに残り一撃（最終特攻）で先制ヒール使われて殺された時は笑ったｗﾋﾄﾞｽ<br>ＥＤもしっかり作られててどれも祭り規模の短編集×３の贅沢セットだった。<br><br>
+15:<a style="color:blue"><b>名無しさん</b></a> 2017/09/11(月) 10:41:14 ID:jIeHJ7l60<br>
+やるゲはすごく面白いんだけどみるゲはいまいちだった<br>リスペクト多いのは嬉しいけど偶には作者のオリジナリティが見たい<br>どんな方向性で突っ走りたいのかがいまいち分からなかった印象<br><br>
+16:<a style="color:blue"><b>作者</b></a> 2017/09/12(火) 01:16:29 ID:5JZyJ1M.0<br>
+プレイ・感想・報告ありがとうございます。頂いたご意見を元に修正パッチを作成しました。<br>ttps://ux.getuploader.com/Vipsum_p/download/28<br><br>・「魔法に試練と祝福を」の3F、5Fにヒントを追加<br>・「次世代対決記」の2周目以降で画面が暗転したままのバグを修正<br>・各ボスの攻略やギミックの攻略について記述した攻略メモを同封<br><br>ちなみに「ねじりハチマキ」の報告についてですが、自身の技の反動による攻撃と特攻の低下は防げない仕様となっております。<br><br>
+17:<a style="color:blue"><b>名無しさん</b></a> 2017/10/08(日) 11:04:47 ID:8tMJX9vs0<br>
+&gt;&gt;16<br>パッチファイルが破損してるみたい<br><br>
+18:<a style="color:blue"><b>名無しさん</b></a> 2017/10/08(日) 15:29:52 ID:awJt.Ay.0<br>
+ttps://ux.getuploader.com/vipsum_p/download/28<br><br>こちらで試してみてください<br><br>
+19:<a style="color:blue"><b>名無しさん</b></a> 2017/10/08(日) 16:28:37 ID:8tMJX9vs0<br>
+&gt;&gt;18<br>ちゃんと解凍できました！<br>ありがとうございます！<br><br>
+	
+	</div>
+	
+	<div style="height:15px;"></div>	
+	
+	<div class="nonline mini">
+		<a href="#Top" class="button1">▲</a>		
+		<a href="index.html" class="button1">トップページへ戻る</a>
+		<a href="gamelist.php" class="button1">作品一覧</a>
+		<br>
+		<a class="button1" href="game.php?id=9&#impression">前の作品へ</a>
+		<a class="button1"  href="game.php?id=11&#impression">次の作品へ</a>
+		<a class="button1 grad1" href="http://jbbs.shitaraba.net/bbs/read.cgi/game/60233/1500166736/">感想掲示板</a>
+		
+
+	<br><a style="color:#EFEFEF">40.56 m秒</a>		
+	</div>
+	<div class="nonline mini">
+		<button class="chbtn" name="btnCh1" style="float:right">ボタン切替</button>
+	</div>
+	
+	<div style="height:1000px;"></div>
+	
+	<div class="foot">
+		<div class="bottom">
+			<a>VIPRPG 2017夏の陣</a>
+		</div>
+	</div>
+
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/common.js"></script>
+</body>
+</html>

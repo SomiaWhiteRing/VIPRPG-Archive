@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; meta charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<title>エントリーフォーム</title>
+
+</head>
+<body>
+<script type="text/javascript" src="https://ad.xdomain.ne.jp/js/server-php.js"></script>
+	<div class="bodylike">
+	
+		<div class="head">
+			<div class="top">
+				<h1>VIPRPG 2017夏の陣エントリーフォーム</h1>
+			</div>
+		</div>
+		<br>
+		<div class="nonline">
+			<a href="index.html" class="button1 grad1">トップページへ戻る</a>
+			<a href="http://jbbs.shitaraba.net/game/60231/" class="button1 grad2">運営掲示板</a>
+			<a href="http://jbbs.shitaraba.net/game/60233/" class="button1 grad2">感想掲示板</a>
+			<br>
+			<br>
+
+	
+			<form action="newentry.php" method="post" enctype="multipart/form-data">
+
+				【作者名】(20文字以内)<br/>
+				<input type="text" name="author" size="40" onKeyUp="getLen(value, 'txtlen1')" onChange="txtLen(this, 20, 'txtlen1')"　>
+				<a id="txtlen1">0</a>文字<br/>
+				<br/>
+
+				【連絡用メールアドレス】(公開されません)<br/>
+				※必ず作者本人が使える有効なアドレスを入力してください。登録されているメールアドレス以外から変更申請等来ても受け付けませんのでご留意ください。
+				<input type="email" name="mail" size="80"
+					onKeyUp="getLen(value, 'txtlen2'); mailCheck(value)" onChange="txtLen(this, 100, 'txtlen2')"　>
+				<a id="txtlen2">0</a>文字<br/>
+				<font color="red"><a id="mailalert"></a></font><br/>
+				<br/>
+
+				【作品名】(50文字以内)<br/>
+				<input type="text" name="title" size="80"
+					onKeyUp="getLen(value, 'txtlen3')" onChange="txtLen(this, 50, 'txtlen3')"　>
+				<a id="txtlen3">0</a>文字<br/>
+				<br/>
+
+				【作品のジャンル】(20文字以内)<br/>
+				<input type="text" name="genre" size="40"
+					onKeyUp="getLen(value, 'txtlen4')" onChange="txtLen(this, 20, 'txtlen4')"　>
+				<a id="txtlen4">0</a>文字<br/>
+				<br/>
+
+
+				【使用ツクール】<br/>
+				<input type="radio" name="tkool" value="2000" checked /> 2000
+				<input type="radio" name="tkool" value="2003" /> 2003
+				<input type="radio" name="tkool" value="XP" /> XP
+				<input type="radio" name="tkool" value="VX" /> VX
+				<input type="radio" name="tkool" value="VXA" /> VXA
+				<input type="radio" name="tkool" value="MV" /> MV
+				<input type="radio" name="tkool" value="other" /> その他<br/>
+				<br/>
+
+				【配信/動画の可否】<br/>
+				配信
+				<input type="radio" name="del" value="可" /> 可
+				<input type="radio" name="del" value="不可" checked /> 不可<br/>
+				動画
+				<input type="radio" name="movie" value="可" /> 可
+				<input type="radio" name="movie" value="不可" checked /> 不可<br/>
+
+				
+				<br/>
+				
+				【投票の可否】<br/>
+				<input type="radio" name="vote" value="可" /> 可
+				<input type="radio" name="vote" value="不可" checked /> 不可<br/>
+				<br/>
+
+
+				【作者コメント】(1000文字以内)<br/>
+				<textarea name="comment" cols="80" rows="15"
+					onKeyUp="getLen(value, 'txtlen6')" onChange="txtLen(this, 1000, 'txtlen6')" ></textarea><br/>
+				<a id="txtlen6">0</a>文字<br/>
+				<br/>
+
+				
+				
+				【SS】横640px ×縦480px<br/>
+				表（必須）<a id="ss1"></a><input type="file" name="ss1" accept="image/jpeg,image/png" onChange="sizeCheck(this)"><br/>
+				裏（任意）<a id="ss2"></a><input type="file" name="ss2" accept="image/jpeg,image/png" onChange="sizeCheck(this)"><br/>
+				<br/>
+
+				【アイコン】32p × 32px（任意）<br/>
+				<a id="icon"></a><input type="file" name="icon" accept="image/jpeg,image/gif,image/png" onChange="sizeCheck(this)"><br/>
+				<br/>
+				
+				※ファイルサイズが大きすぎるとエラーが起きるので注意して下さい。<br/>
+				　（最大1MB/枚です、サイズを守っていれば問題ないはず）<br/>
+				<br/>
+				
+				【管理人への要望】(任意・200文字以内・公開されません)<br/>
+				<a>　動画/配信の欄に「〇〇/△△」と書いてくれとか、保管庫の作品にリンク付けしてくれとか可能な範囲で受け付けます。作品を作品提出アップローダーに提出してから、エントリーしていただいても構いません。その場合は、この欄にURLとパスを記入してください。</a><br>
+				<textarea name="demand" cols="80" rows="5"
+					onKeyUp="getLen(value, 'txtlen7')" onChange="txtLen(this, 200, 'txtlen7')"　></textarea><br/>
+				<a id="txtlen7">0</a>文字<br/>
+				<br/>
+				
+
+				<div class="base2">
+				【作品名】
+				<b><a id="title"></a></b><br>
+				</div>
+			
+				<div class="base2">
+				【SS】
+				<a id="ss"></a><br>
+				</div>
+			
+				<div class="base2">
+				【作者名】
+				<a id="author"></a><br>
+				</div>
+				
+				<div class="base2">
+				【ジャンル】
+				<a id="genre"></a><br>
+				</div>
+
+				<div class="base2">
+				【使用ツクール】
+				<a id="tkool"></a><br>
+				</div>
+
+				<div class="base2">
+				【配信/動画】
+				<a id="del"></a>/
+				<a id="movie"></a><br>
+				</div>
+
+				<div class="base2">
+				【投票】
+				<a id="vote"></a><br>
+				</div>
+
+				<div class="base2">
+				【作者コメント】<br/>
+				<a id="comment"></a><br>
+				</div>
+				<br/>
+
+				<div class="base2">
+				【メールアドレス】※公開されません<br/>
+				<a id="mail"></a><br>
+				</div>
+
+				<div class="base2">
+				【管理人への要望】（任意）※公開されません<br/>
+				<a id="demand"></a><br>
+				</div>
+				<br/>
+				
+				<!--確認ボタン-->
+				<input type="button" value="確認する" onclick="checkForm()" ><br/>
+				<br/>
+				<!--送信ボタン-->
+				
+				<input type="submit" id="submit" value="登録する" disabled ><br>
+				<a>※必要事項を全て入力したうえで「確認する」ボタンを押してください。<a><br>
+				<a>　必要事項が全て記入されていたら、「登録する」ボタンが押せるようになります。</a>
+			</form>
+
+
+	<!--確認用のスクリプト、ちゃんとしたチェックはサーバー側で行う-->
+    <script language="JavaScript" type="text/JavaScript">
+	<!--
+		//文字数が一定以上なら切り捨てる
+		function txtLen(obj, limit, field){
+			if (obj.value.length > limit){
+				obj.value = obj.value.substring(0,limit);
+				document.getElementById(field).innerHTML = obj.value.length;
+			}
+		}
+		
+		//文字数をカウントして表示する
+		function getLen(text, field) {
+			document.getElementById(field).innerHTML = text.length;
+		}
+		
+		//明らかにメールアドレスでない場合、忠告を出す
+		//あくまで忠告だけ
+		function mailCheck(text){
+			if(!text.match(/.+@.+\..+/)){
+				document.getElementById('mailalert').innerHTML = 'メールアドレスが正しくありません';
+			}
+			else{
+				document.getElementById('mailalert').innerHTML = '';
+			}
+		}
+
+		//画像確認
+		function sizeCheck(obj){
+			document.getElementById(obj.name).innerHTML = Math.ceil(obj.files[0].size/1024)+'KB';
+		}
+		
+		//外部変数
+		var sendflg;
+		
+		//確認画面を出す
+		function checkForm(){
+			sendflg=true;
+		
+			//テキスト
+			txtCheck('title');
+			txtCheck('author');
+			txtCheck('genre');
+			txtCheck('comment');
+			txtCheck('mail');
+			txtCheck2('demand');
+
+			//ラジオボタン
+			radioCheck('tkool');
+			radioCheck('del');
+			radioCheck('movie');
+			radioCheck('vote');
+				
+			//SS
+			if(!document.getElementsByName('ss1')[0].value){
+				document.getElementById('ss').innerHTML = '選択されていません';
+				document.getElementById('ss').style.color = "red";
+				sendflg = false;
+			}
+			else{
+				document.getElementById('ss').innerHTML = '選択済み';
+				document.getElementById('ss').style.color = "black";
+			}
+			
+			//フラグ確認
+			if (sendflg === true){
+				document.getElementById('submit').disabled = false;
+			}
+			else{
+				document.getElementById('submit').disabled = true;
+			}
+		}
+
+		//テキストチェック
+		function txtCheck(name){
+			var text = document.getElementsByName(name)[0].value;
+			if (text === ''){
+				document.getElementById(name).innerHTML ='入力されていません';
+				document.getElementById(name).style.color = "red";
+				sendflg = false;
+			}
+			else{
+				htmlEntities(name);
+				document.getElementById(name).style.color = "black";
+			}	
+		}
+		
+		//テキストチェック
+		function txtCheck2(name){
+			var text = document.getElementsByName(name)[0].value;
+			if (text === ''){
+				//document.getElementById(name).innerHTML ='入力されていませんがこのままで大丈夫ですか（任意のためエラーはでません）';
+				document.getElementById(name).style.color = "red";
+			}
+			else{
+				htmlEntities(name);
+				document.getElementById(name).style.color = "black";
+			}	
+		}
+		
+		//ラジオチェック
+		function radioCheck(name){
+			var myPara =  document.getElementsByName(name);
+			for (i=0; i<myPara.length; i++){
+				if (myPara[i].checked){
+					document.getElementById(name).innerHTML = myPara[i].value;
+				}
+			}
+		}
+
+		//特殊文字を変換
+		function htmlEntities(name) {
+			var entities = [
+				['amp', '&'],
+				['apos', '\''],
+				['lt', '<'],
+				['gt', '>'],
+			];
+			var text = document.getElementsByName(name)[0].value;
+			for (var i=0, max=entities.length; i<max; i++ ) {
+				text = text.replace(new RegExp( entities[i][1], 'g' ), "&"+entities[i][0]+';' ).replace( '"', '&quot;' );
+			}
+			document.getElementById(name).innerHTML = text.replace(/\r?\n/g, '<br>');
+		}
+
+	-->
+    </script>
+		</div>
+	</div>
+</body>
+</html>
