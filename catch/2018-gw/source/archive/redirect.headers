@@ -1,0 +1,35 @@
+HTTP/1.1 200 Connection established
+
+HTTP/1.1 302 Moved Temporarily
+Server: nginx
+Date: Tue, 20 Oct 2026 16:24:31 GMT
+Content-Type: text/html
+Content-Length: 142
+Connection: keep-alive
+x-archive-orig-server: openresty
+x-archive-orig-date: Fri, 13 Jun 2025 00:37:10 GMT
+x-archive-orig-content-length: 142
+x-archive-orig-connection: close
+location: https://web.archive.org/web/20250613003710id_/https://error.fc2.com/other/forbidden.html
+cache-control: max-age=1800
+memento-datetime: Fri, 13 Jun 2025 00:37:10 GMT
+link: <https://vipkohaku.x.fc2.com/2018GW/top.html>; rel="original", <https://web.archive.org/web/timemap/link/https://vipkohaku.x.fc2.com/2018GW/top.html>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/https://vipkohaku.x.fc2.com/2018GW/top.html>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: SPNOUTLINKS-20250612230523-crawl802/SPNOUTLINKS-20250613001814-00020.warc.gz
+server-timing: captures_list;dur=0.642959, exclusion.robots;dur=0.070661, exclusion.robots.policy;dur=0.056097, esindex;dur=0.009468, cdx.remote;dur=20.046417, LoadShardBlock;dur=141.663165, PetaboxLoader3.datanode;dur=109.145578, PetaboxLoader3.resolve;dur=347.007233, load_resource;dur=387.552966
+x-app-server: wwwb-app244-dc8
+x-ts: 302
+x-tr: 570
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=0
+set-cookie: wb-p-SERVER=wwwb-app244; path=/
+X-location: All
+X-AS: 201351
+X-RL: 0
+X-NA: 0
+X-Page-Cache: MISS
+Server-Timing: MISS
+X-NID: Ikuuu Network Ltd
+Referrer-Policy: no-referrer-when-downgrade
+Permissions-Policy: interest-cohort=()
+X-sd: 0
+

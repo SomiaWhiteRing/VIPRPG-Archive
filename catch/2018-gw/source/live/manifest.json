@@ -1,0 +1,18 @@
+{
+  "rows": [
+    {
+      "originalUrl": "https://vipkohaku.x.fc2.com/2018GW/top.html",
+      "status": 0,
+      "error": "ECONNRESET",
+      "proxyRegion": "Japan"
+    },
+    {
+      "originalUrl": "http://vipkohaku.x.fc2.com/2018GW/top.html",
+      "status": 0,
+      "error": "UND_ERR_SOCKET",
+      "proxyRegion": "Japan"
+    }
+  ],
+  "transport": "Node built-in fetch",
+  "reason": "Separate check after Windows Schannel failed during archive transfer"
+}

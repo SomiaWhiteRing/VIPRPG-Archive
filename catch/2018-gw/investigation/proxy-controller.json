@@ -1,0 +1,34 @@
+{
+  "method": "Existing running Mihomo core HTTP API over Windows named pipe; no helper launch required",
+  "controllerDiscovery": "Enumerate named pipes matching MihomoParty; GET /version verified v1.19.32; GET and PUT /proxies/{group} used for selector changes",
+  "credentialHandling": "Controller token read locally without output or archival",
+  "selector": "🔰 选择节点",
+  "sourceBatch": {
+    "selected": "🇯🇵 日本S01 | IEPL",
+    "proxy": "http://127.0.0.1:7897",
+    "trace": {
+      "loc": "JP",
+      "colo": "NRT"
+    },
+    "sourceRuleChainVerified": true,
+    "httpsSource": {
+      "url": "https://vipkohaku.x.fc2.com/2018GW/top.html",
+      "curlExit": 28,
+      "httpStatus": 0,
+      "timeoutSeconds": 35
+    },
+    "httpSource": {
+      "url": "http://vipkohaku.x.fc2.com/2018GW/top.html",
+      "httpStatus": 502
+    }
+  },
+  "archiveBatch": {
+    "selected": "🇭🇰 香港S01",
+    "proxy": "http://127.0.0.1:7897",
+    "trace": {
+      "loc": "HK",
+      "colo": "HKG"
+    }
+  },
+  "sourceAvailability": "Direct requests failed on verified Japan route; this does not establish permanent absence. A 2025 mirror archive redirects to FC2 forbidden page."
+}

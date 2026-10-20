@@ -1,0 +1,88 @@
+{
+  "festivalId": "2018-gw",
+  "reviewedAt": "2026-10-21",
+  "scope": "desktop-only",
+  "method": "Read-only DOM geometry/resource checks, real navigation and keyboard actions, native CDP mouse input including the actual sandbox child target. No topic or pixel review.",
+  "organized": {
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    },
+    "details": 35,
+    "brokenImages": [],
+    "overflow": [],
+    "initialPendingPages": [
+      28
+    ],
+    "pendingResolved": true,
+    "home": {
+      "uniqueWorks": 35,
+      "icons": 29,
+      "banners": 1,
+      "allLoaded": true,
+      "verifiedLastItemNavigation": true,
+      "returnExpanded": true
+    },
+    "viewer": {
+      "next": true,
+      "closeButton": true,
+      "escape": true,
+      "bmp": {
+        "complete": true,
+        "width": 640,
+        "height": 480
+      }
+    }
+  },
+  "original": {
+    "viewport": {
+      "width": 1183,
+      "height": 638
+    },
+    "uniqueHtmlPages": 36,
+    "details": 35,
+    "brokenImages": [],
+    "overflow": [],
+    "catalogueRecords": 35,
+    "navigation": [
+      "catalogue to04",
+      "35 to34 and back35",
+      "detail back catalogue",
+      "sandbox catalogue to04 and back catalogue"
+    ],
+    "sandbox": "allow-scripts",
+    "sandboxClientWidth": 1071,
+    "sandboxScrollWidth": 1071,
+    "unlistedNext36Disabled": true,
+    "hover": [
+      {
+        "entry": 4,
+        "roundTrip": true
+      },
+      {
+        "entry": 6,
+        "before": "entry/ss06_1.jpg",
+        "over": "entry/ss06_2.png",
+        "out": "entry/ss06_1.jpg",
+        "loaded": true
+      },
+      {
+        "entry": 28,
+        "before": "entry/ss28_1.bmp",
+        "over": "entry/ss28_2.bmp",
+        "out": "entry/ss28_1.bmp",
+        "loaded": true,
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "commonHoverFix": "856fb9a3",
+    "finalConsoleErrors": []
+  },
+  "limits": [
+    "Current official FC2 mirror failed through the verified Japan route with both Windows curl and Node clients; dated archive is explicitly labelled.",
+    "Six source records have no publisher-provided icon; no artwork invented."
+  ],
+  "contentScreening": false,
+  "packagesDownloaded": false
+}
