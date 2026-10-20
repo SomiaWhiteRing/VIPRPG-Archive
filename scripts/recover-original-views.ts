@@ -7,6 +7,14 @@ import type { WorkEntry } from "../src/lib/types";
 import { rewriteSummer2012Source } from "./source-2012-summer-view";
 
 const configurations: Record<string, { base: string; entry?: string; manifests: string[]; seeds: Record<string, string>; seedUrls?: Record<string, string>; cgiProfile?: boolean; encoding?: string; encodingOverrides?: Record<string, string>; liveSource?: boolean; disabledLocalLinks?: string[]; externalResources?: Record<string, string>; preserveExternalExtensions?: string[]; frames?: { menuPage: string; menuName: string; mainName: string } }> = {
+  "2023-winter": {
+    base: "https://itch.io/jam/viprmwinterjam2023-anno-draconis/",
+    manifests: ["source/replay/manifest.json"],
+    seeds: {},
+    encoding: "utf-8",
+    liveSource: true,
+    preserveExternalExtensions: [".zip", ".rar", ".7z", ".exe"],
+  },
   "2023-summer": {
     base: "https://w.atwiki.jp/viprpg23s/",
     manifests: ["source/replay/manifest.json"],
@@ -405,7 +413,7 @@ async function main() {
       sharedHeaderTargets.push(local ? `/original-pages/${id}/${local}${url.search}${url.hash}` : url.href);
     });
   }
-  if (["2023-summer", "2023-kouhaku", "2023-gw", "2024-summer", "2024-kuradashifestival", "2024-kouhaku", "2024-gw", "2025-gw", "2025-summer"].includes(id) || id === "2006-kouhaku" || id === "2012-toppuu-festival" || id === "2011-toppatsu-festival" || id === "2008-jisaku-battle-festival" || id === "2010-gw" || id === "2010-kouhaku" || id === "2010-summer") config.externalResources = recovery.originalResources;
+  if (["2023-winter", "2023-summer", "2023-kouhaku", "2023-gw", "2024-summer", "2024-kuradashifestival", "2024-kouhaku", "2024-gw", "2025-gw", "2025-summer"].includes(id) || id === "2006-kouhaku" || id === "2012-toppuu-festival" || id === "2011-toppatsu-festival" || id === "2008-jisaku-battle-festival" || id === "2010-gw" || id === "2010-kouhaku" || id === "2010-summer") config.externalResources = recovery.originalResources;
   const sourceDetailGapPaths = new Set<string>((recovery.sourceDetailGaps ?? []).map((gap: { sourcePath: string }) => gap.sourcePath));
   const unavailableSourcePagePaths = new Set<string>((recovery.unavailableSourcePages ?? []).map((gap: { sourcePath: string }) => gap.sourcePath));
   const previousMissing: Array<{ url: string; requestedUrl?: string; error: string }> = JSON.parse(await fs.readFile(`${root}/original-view.json`, "utf8").catch(() => "{}")).missingResources ?? [];
@@ -549,6 +557,30 @@ async function main() {
       if (/\.(?:png|jpe?g|gif|bmp|webp|avif|ico)$/i.test(local)) imageExtension(bytes);
       if (/\.html?$/i.test(local)) {
         const $ = cheerio.load(decodeSource(bytes, resourceEncoding));
+        if (id === "2023-winter" && local === "rate/2436789.html") {
+          $("head").append('<style data-archive-desktop-column-fit>.jam_columns>.main_column{min-width:0}.visit_game .play_btn{max-width:100%;white-space:normal}</style>');
+          compatibilityFixes.push({ page: local, change: "Allow the source flex content column to shrink and wrap its long visit-game link within the desktop viewport. Automatic column min-width caused a verified 72px overflow; the nowrap 823px link also exceeded its 751px parent after column shrink. Preserve all link text and image bytes." });
+        }
+        if (id === "2023-winter" && local.startsWith("game/")) {
+          const controls = $('.direct_download_btn,a.download_btn[href^="javascript:"]');
+          if (controls.length) {
+            controls.each((_, element) => {
+              const node = $(element).removeAttr('href target').attr('aria-disabled', 'true').addClass('archive-distribution-disabled');
+              if (element.tagName === 'button') node.attr('disabled', 'disabled');
+            });
+            const container = $('.uploads').first();
+            (container.length ? container : controls.first().parent()).append('<p class="archive-source-note" data-archive-distribution-note>［保存庫補記］配布先は整理版のDL欄をご利用ください。</p>');
+            $('head').append('<style data-archive-static-controls>.archive-distribution-disabled{cursor:default!important;opacity:.65}.archive-source-note{overflow-wrap:anywhere}</style>');
+            compatibilityFixes.push({ page: local, change: 'Mark script-only distribution controls inactive and visibly refer to the formatted DL entry. The archived reading copy cannot run the platform download widget; no game packages are locally supplied.' });
+          }
+          $('.video_embed_widget iframe[src]').each((_, element) => {
+            const url = new URL($(element).attr('src')!, original).href;
+            const note = $('<p>').attr('data-archive-external-video', '').text('［外部動画］原ページの動画URL：');
+            note.append($('<code>').text(url)).append('（整理版のリンクから開けます）');
+            $(element).closest('.video_embed_widget').replaceWith(note);
+            compatibilityFixes.push({ page: local, change: 'Replace the empty 195px external-video wrapper with its exact source URL and a fixed notice. The formatted record retains the external video link; raw source iframe markup remains archived.' });
+          });
+        }
         if (id === "2023-kouhaku") {
           $('a[href]').each((_, element) => {
             const node = $(element), url = new URL(node.attr('href')!, original);
@@ -810,7 +842,7 @@ async function main() {
         }
         $('img[src*="media.fc2.com/counter_img.php"]').remove();
         $('img[src*="netriver.jp/countriver/"]').remove();
-        if (id === "2008-gw" || id === "2008-chuuni-festival" || id === "2009-summer" || id === "2008-kouhaku" || id === "2008-seiyoku-festival" || id === "2008-summer" || id === "2007-default-battle-festival" || id === "2007-gw" || id === "2007-summer" || id === "2006-gw" || id === "2006-kouhaku" || id === "2006-summer" || id === "2005-kouhaku" || ["2025-gw", "2025-summer"].includes(id) || (id === "2024-gw" && local.startsWith("itch/"))) {
+        if (id === "2008-gw" || id === "2008-chuuni-festival" || id === "2009-summer" || id === "2008-kouhaku" || id === "2008-seiyoku-festival" || id === "2008-summer" || id === "2007-default-battle-festival" || id === "2007-gw" || id === "2007-summer" || id === "2006-gw" || id === "2006-kouhaku" || id === "2006-summer" || id === "2005-kouhaku" || ["2023-winter", "2025-gw", "2025-summer"].includes(id) || (id === "2024-gw" && local.startsWith("itch/"))) {
           const activeElements = $("script,noscript,form,object,embed").length;
           $("script,noscript,form,object,embed").remove();
           const unarchivedLoads = $("img[src],iframe[src],link[rel~='stylesheet'][href],video[src],audio[src],source[src]").toArray().filter((element) => {
@@ -895,8 +927,12 @@ async function main() {
           }), original, local));
           }
         });
-        if (["2025-gw", "2025-summer"].includes(id) || (id === "2024-gw" && local.startsWith("itch/"))) {
+        if (["2023-winter", "2025-gw", "2025-summer"].includes(id) || (id === "2024-gw" && local.startsWith("itch/"))) {
           if (id === "2025-summer") $('link[rel="manifest"]').remove();
+          if (id === "2023-winter" && $('link[rel="manifest"]').length) {
+            $('link[rel="manifest"]').remove();
+            compatibilityFixes.push({ page: local, change: "Omit the live platform web-app manifest from the static reading copy; page content and captured styles/images remain local." });
+          }
           if (id === "2025-summer" && local === "index.html") {
             let labelled = 0;
             $('a[href]').each((_, element) => {
@@ -1161,7 +1197,7 @@ async function main() {
         compatibilityFixes.push({ page: local, change: "Omit an unavailable stylesheet or favicon reference; the source inline styling remains in place and the missing resource stays documented." });
       }
     });
-    if (["2010-gw", "2012-kouhaku", "2011-gw", "2011-kouhaku", "2010-summer", "2009-kouhaku", "2009-ksgfestival", "2009-silver-week-miruge-festival", "2009-summer", "2008-gw", "2008-jisaku-battle-festival", "2008-chuuni-festival", "2009-gw", "2008-kouhaku", "2008-seiyoku-festival", "2008-summer", "2007-default-battle-festival", "2007-gw", "2007-summer", "2006-gw", "2006-kouhaku", "2006-summer", "2005-kouhaku", "2025-gw", "2025-summer", "2024-gw"].includes(id) || [...omittedBackgrounds, ...omittedHovers].some((omission) => omission.page === local)) files.set(local, Buffer.from($.html()));
+    if (["2010-gw", "2012-kouhaku", "2011-gw", "2011-kouhaku", "2010-summer", "2009-kouhaku", "2009-ksgfestival", "2009-silver-week-miruge-festival", "2009-summer", "2008-gw", "2008-jisaku-battle-festival", "2008-chuuni-festival", "2009-gw", "2008-kouhaku", "2008-seiyoku-festival", "2008-summer", "2007-default-battle-festival", "2007-gw", "2007-summer", "2006-gw", "2006-kouhaku", "2006-summer", "2005-kouhaku", "2023-winter", "2025-gw", "2025-summer", "2024-gw"].includes(id) || [...omittedBackgrounds, ...omittedHovers].some((omission) => omission.page === local)) files.set(local, Buffer.from($.html()));
   }
   const generatedUnavailablePages: string[] = (recovery.generatedSourceGapNotices ?? []).map((notice: { path: string }) => notice.path);
   if (["2011-gw", "2010-gw", "2009-ksgfestival", "2008-chuuni-festival", "2008-jisaku-battle-festival", "2008-kouhaku", "2008-summer", "2007-default-battle-festival", "2007-gw", "2007-summer", "2006-kouhaku", "2006-summer"].includes(id)) for (const gap of recovery.sourceDetailGaps ?? []) {

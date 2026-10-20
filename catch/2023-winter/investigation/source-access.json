@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-10-20",
+  "sourceProxy": "127.0.0.1:37997",
+  "sourceProxyRegionVerified": "Japan",
+  "archiveProxy": "127.0.0.1:7897",
+  "archiveProxyRegionVerified": "Hong Kong",
+  "currentRateValidation": "live-rate-validation.json",
+  "archivedRows": [
+    "7",
+    "15",
+    "30"
+  ],
+  "sourceHttp200IsNotIdentityProof": true,
+  "invalidRootRedirectNumber": "30",
+  "currentAssetNetworkRetriesResolved": 3,
+  "currentAsset403RecoveredByVerifiedArchive": 1,
+  "embeddedJsonParsedWithoutExecutingSourceScripts": true,
+  "rawSourcePayloadsPreserved": true
+}

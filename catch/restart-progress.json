@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2023-winter",
+  "activeFestival": "2022-gw",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -1561,6 +1561,38 @@
         "catch/2023-summer/desktop-review.json"
       ],
       "notes": "现行Wiki与同名图片CDN在日本出口均返回404；从公开网站备份精确取得911文件并核对CRC/SHA，13份共用主题资源从源站保存。官方首页及22份页面存档原始载荷均与CDX摘要一致，正文、图片和下载地址与备份一致；其中21个作品详情快照链接写入来源。保留50个既有ID、编号及题名，恢复50个下载入口、原文留言及3条横幅。按原目录图片字节及详情明确的32×32图标位分清38处内嵌图标与76张截图；原貌完整保留114处图片，10张截图同时被源目录复用为图标仍留在截图画廊。旧画廊中12、25、45号的3个大尺寸图标归回图标字段；不以自然尺寸过滤图片。目录48处图标引用、18及38源无图标；5项作者署名省略明确标记。工具从原页标题恢复，纠正旧脚本漏认的3种写法；10、41、46的目录／详情分类或作者表记分别保留，46分类由目录补齐。原貌479文件、55份HTML、1371处本地引用无缺失或外部自动加载；未编号辅助模板单独保存，不编造00。50整理详情、55原貌文档桌面通过，目录图标与延迟图片全部加载；目录往返、沙箱导航及截图查看器切换通过。无内容审看、无新增受限、游戏包未下载。"
+    },
+    {
+      "festivalId": "2023-winter",
+      "reviewedAt": "2026-10-20",
+      "dataSha256": "4a6165a4eef90808e535a1e43fcd5b3220dc8f18ab385f46e0a7f3e305a2c75d",
+      "status": "reviewed",
+      "works": 33,
+      "screenshotFiles": 95,
+      "screenshotReferences": 95,
+      "iconFiles": 33,
+      "downloadEntries": 33,
+      "archivedDistributionPageEntries": 3,
+      "originalCatalogueCompleteness": "verified-current-official-0-through-32-catalogue-and-all-33-project-identities",
+      "outstandingSourceDetails": 0,
+      "outstandingImageSourceUrls": 0,
+      "outstandingScreenshotRows": 0,
+      "outstandingOtherResources": 0,
+      "packageBytesValidated": false,
+      "sourceEvidence": [
+        "catch/2023-winter/recovery.json",
+        "catch/2023-winter/source-comparison.json",
+        "catch/2023-winter/investigation/live-rate-validation.json",
+        "catch/2023-winter/source/archive/manifest.json",
+        "catch/2023-winter/source/archive-assets/manifest.json",
+        "catch/2023-winter/investigation/embedded-entry-extraction.json",
+        "catch/2023-winter/investigation/gallery-comparison.json",
+        "catch/2023-winter/investigation/replay-closure.json"
+      ],
+      "desktopEvidence": [
+        "catch/2023-winter/desktop-review.json"
+      ],
+      "notes": "日本出口取得63份有效现行HTML、10份CSS及934份图片／字体资源；7、15、30的投稿及项目页由香港Wayback恢复，6份原始载荷摘要与CDX一致，项目ID全部对应。30号现行投稿URL虽最终200但跳回首页，未当作有效详情；另1张403旧缩略图由存档摘要核验找回。33项含0号样例，既有ID、编号和题名保持；旧禁用8、15、28、30恢复详情。原画廊95图，不再限制六张，18号30图、31号10图全部保留；旧画廊5个非当前画廊载荷均在正文／封面等其他来源资源中找到并保留。33处目录图标、3条横幅、29份作者留言与33份主办留言、33个配布页入口恢复，其中3项指向已核验历史项目页；不声称游戏文件仍可下载。4个项目页异名另存，标题依据官方目录；目录按五个列头分别提取作者及感想地址。原貌1014文件、69份HTML，2261本地引用无缺失或外部自动加载，935份二进制资源字节一致；80余格总览按40+40+2和末页0核验为82格，独立于95个画廊链接。投稿列表原HTML的空框由内嵌React数据中30个真实封面补齐，不执行平台脚本；补回22、27的列表短文。静态JS下载控件明确停用并指向整理版DL栏，10号外部视频空白改为来源提示且整理版保留链接，21号内容列与长按钮适配桌面。33整理详情与69原貌文档、全部目录图标／封面、折叠图片、字体及代表导航／查看器通过桌面验收；沙箱权限不变。无内容筛选、无新增受限，游戏包及视频未下载或执行。"
     }
   ],
   "originalViewsReviewed": [
@@ -1916,6 +1948,13 @@
       "evidence": [
         "catch/2023-summer/original-view.json",
         "catch/2023-summer/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2023-winter",
+      "evidence": [
+        "catch/2023-winter/original-view.json",
+        "catch/2023-winter/desktop-review.json"
       ]
     }
   ],

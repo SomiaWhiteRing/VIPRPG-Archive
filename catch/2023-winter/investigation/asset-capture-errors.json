@@ -1,0 +1,31 @@
+[
+  {
+    "url": "https://img.itch.zone/aW1nLzE0OTM5NTY3LnBuZw==/315x250%23c/crxJEy.png",
+    "status": 403,
+    "htmlResponse": false,
+    "roles": [
+      "displayed-image"
+    ]
+  },
+  {
+    "url": "https://img.itch.zone/aW1hZ2UvMjQzNjUzMy8xNDUwMDMzOS5wbmc=/347x500/5owPwo.png",
+    "error": "Error: Command failed: curl.exe --proxy http://127.0.0.1:37997 --location --max-time 35 --silent --show-error --user-agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 --output catch/2023-winter/source/assets/2650ece6327fb6003c49d806.bin --write-out %{http_code}\n%{url_effective} https://img.itch.zone/aW1hZ2UvMjQzNjUzMy8xNDUwMDMzOS5wbmc=/347x500/5owPwo.png\ncurl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\r\n",
+    "roles": [
+      "displayed-image"
+    ]
+  },
+  {
+    "url": "https://img.itch.zone/aW1nLzE0NjE2Mjc3LnBuZw==/original/SE6K8w.png",
+    "error": "Error: Command failed: curl.exe --proxy http://127.0.0.1:37997 --location --max-time 35 --silent --show-error --user-agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 --output catch/2023-winter/source/assets/e05975b261c89b0445a2c49e.bin --write-out %{http_code}\n%{url_effective} https://img.itch.zone/aW1nLzE0NjE2Mjc3LnBuZw==/original/SE6K8w.png\ncurl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\r\n",
+    "roles": [
+      "gallery-original"
+    ]
+  },
+  {
+    "url": "https://fonts.gstatic.com/s/zenmarugothic/v20/o-0SIpIxzW5b-RxT-6A8jWAtCp-k6Cp2NqD0lNmc0DbQUnIZ7kZUNZMp2Vc.12.woff2",
+    "error": "Error: Command failed: curl.exe --proxy http://127.0.0.1:37997 --location --max-time 35 --silent --show-error --user-agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 --output catch/2023-winter/source/assets/19f63ae4bef51138589bfbf5.bin --write-out %{http_code}\n%{url_effective} https://fonts.gstatic.com/s/zenmarugothic/v20/o-0SIpIxzW5b-RxT-6A8jWAtCp-k6Cp2NqD0lNmc0DbQUnIZ7kZUNZMp2Vc.12.woff2\ncurl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\r\n",
+    "roles": [
+      "stylesheet-resource"
+    ]
+  }
+]

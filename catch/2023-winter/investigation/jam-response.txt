@@ -1,0 +1,20 @@
+HTTP/1.1 200 Connection established
+
+HTTP/1.1 200 OK
+Date: Tue, 20 Oct 2026 04:14:45 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Set-Cookie: itchio_token=WyJSakVVIiwxNzkyNDY5Njg1LCJ0a29MMDc0Tks0ZXI5NUIiXQ%3D%3D.wbUUfdtAEyI6Y9C6IsQEOTxdBG8%3D; Path=/; Domain=.itch.io; HttpOnly; Secure
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Referrer-Policy: no-referrer-when-downgrade
+Server: cloudflare
+X-Cache-Status: MISS
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Hlo3dZwV8p14ObSJ74ybeOTYWW6UL6YP05rqr6ftC28YJoM02N36vicx5VI1OVU1ZqhkDjBCsVXGD90MWtB8OMMO74xRI2wyRPvs7XM3KX4eWkyg%2BC55DNk%3D"}]}
+vary: accept-encoding
+cf-cache-status: DYNAMIC
+CF-RAY: a4d5328e2fdcc238-NRT
+
