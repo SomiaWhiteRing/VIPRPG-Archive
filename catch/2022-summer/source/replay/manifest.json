@@ -1,0 +1,798 @@
+{
+  "https://viprpg2022s.suppa.jp/index.html": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/index.html",
+    "actualUrl": "https://viprpg2022s.suppa.jp/index.html",
+    "status": 200,
+    "file": "../live/index.bin",
+    "sha256": "e46ee67b8da42c7b8f3f2c39c3cf7a994f44107ae318f182be1f932d66263640",
+    "kind": "html",
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/entry.html": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/entry.html",
+    "actualUrl": "https://viprpg2022s.suppa.jp/entry.html",
+    "status": 200,
+    "file": "../live/entry.bin",
+    "sha256": "74c3023b5a6cba4c5da2688bd5ccf7d7fc55dc367aab135a7f7209a2a3339f60",
+    "kind": "html",
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/style.css": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/style.css",
+    "actualUrl": "https://viprpg2022s.suppa.jp/style.css",
+    "status": 200,
+    "file": "../live/style.bin",
+    "sha256": "a5c38e92901b1ee342b977eb83c6d1726c9397922b0165f2426d8c0496221848",
+    "kind": "css",
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/s2022.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/s2022.png",
+    "roles": [
+      "catalogue-or-banner"
+    ],
+    "file": "../resources/asset-0.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/s2022.png",
+    "status": 200,
+    "sha256": "a02a7574bf846d217506d195c9d7876eb6a011d8a8e19f30927a90f178e7acc0",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/ss0a.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/ss0a.png",
+    "roles": [
+      "catalogue-or-banner",
+      "detail-displayed",
+      "detail-hover",
+      "detail-hover"
+    ],
+    "file": "../resources/asset-1.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/ss0a.png",
+    "status": 200,
+    "sha256": "506df3c7356f8157787fe891711cfea21b150889a588d3758652ec701168f6c3",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/ss1a.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/ss1a.png",
+    "roles": [
+      "catalogue-or-banner",
+      "detail-displayed",
+      "detail-hover"
+    ],
+    "file": "../resources/asset-2.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/ss1a.png",
+    "status": 200,
+    "sha256": "cf9f06b99b667586d418809344981319ecac289c1e651f1c01759cc008f1c0d4",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/ss2a.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/ss2a.png",
+    "roles": [
+      "catalogue-or-banner",
+      "detail-displayed",
+      "detail-hover"
+    ],
+    "file": "../resources/asset-3.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/ss2a.png",
+    "status": 200,
+    "sha256": "85cc91dcfdc698426cbc9d7186908efe970e09a1ebc6b6ac03c5f4b9d06f5a81",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/ss3a.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/ss3a.png",
+    "roles": [
+      "catalogue-or-banner",
+      "detail-displayed",
+      "detail-hover"
+    ],
+    "file": "../resources/asset-4.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/ss3a.png",
+    "status": 200,
+    "sha256": "6d9929ac0e6eaa62f4602c1385d631972fed48a0ed29d1661dcfcd98b0c55aea",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/ss4a.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/ss4a.png",
+    "roles": [
+      "catalogue-or-banner",
+      "detail-displayed",
+      "detail-hover"
+    ],
+    "file": "../resources/asset-5.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/ss4a.png",
+    "status": 200,
+    "sha256": "227c92974fa893531963121ee949f80645bb5f7f93759cb2b05658953711f400",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/ss5a.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/ss5a.png",
+    "roles": [
+      "catalogue-or-banner",
+      "detail-displayed",
+      "detail-hover"
+    ],
+    "file": "../resources/asset-6.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/ss5a.png",
+    "status": 200,
+    "sha256": "e3f72bd748fe18bafc1434e5789ee1e3e10c84920947ef59a063f1fc513daf62",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/ss6a.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/ss6a.png",
+    "roles": [
+      "catalogue-or-banner",
+      "detail-displayed",
+      "detail-hover",
+      "detail-hover"
+    ],
+    "file": "../resources/asset-7.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/ss6a.png",
+    "status": 200,
+    "sha256": "37cb8e5cbff4a30a4ea1c0f08cdf0aac91cd26dd5a8ce9c347086020855007ef",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/ss7a.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/ss7a.png",
+    "roles": [
+      "catalogue-or-banner",
+      "detail-displayed",
+      "detail-hover",
+      "detail-hover"
+    ],
+    "file": "../resources/asset-8.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/ss7a.png",
+    "status": 200,
+    "sha256": "6da0d709ad931e89223c380cffc0b744d072f4898ab9ffdb062828e7a8a85e52",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/ss8a.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/ss8a.png",
+    "roles": [
+      "catalogue-or-banner",
+      "detail-displayed",
+      "detail-hover"
+    ],
+    "file": "../resources/asset-9.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/ss8a.png",
+    "status": 200,
+    "sha256": "6da9bb13251e295ce4dc2a881280d9360493b45e4ff02ff5722e8da62ac0db2f",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/ss9a.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/ss9a.png",
+    "roles": [
+      "catalogue-or-banner",
+      "detail-displayed",
+      "detail-hover"
+    ],
+    "file": "../resources/asset-10.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/ss9a.png",
+    "status": 200,
+    "sha256": "3fd672a79437a0738647f2cfe3242996073683787f8e04109376920b8f8427d2",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/ss10a.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/ss10a.png",
+    "roles": [
+      "catalogue-or-banner",
+      "detail-displayed",
+      "detail-hover",
+      "detail-hover"
+    ],
+    "file": "../resources/asset-11.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/ss10a.png",
+    "status": 200,
+    "sha256": "2b3dbfe2ee17057732d8e904eda2af825210c6855aed06e0712e6c4076ada7ae",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/ss11a.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/ss11a.png",
+    "roles": [
+      "catalogue-or-banner",
+      "detail-displayed",
+      "detail-hover",
+      "detail-hover"
+    ],
+    "file": "../resources/asset-12.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/ss11a.png",
+    "status": 200,
+    "sha256": "a88a4285c99f3a529aa616fde9ffd859c286515c90d3e056eb9db2f405e2fe05",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/ss12a.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/ss12a.png",
+    "roles": [
+      "catalogue-or-banner",
+      "detail-displayed",
+      "detail-hover",
+      "detail-hover"
+    ],
+    "file": "../resources/asset-13.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/ss12a.png",
+    "status": 200,
+    "sha256": "5eb8651efd72ac1629b20b491606e1dc0fb8468bf07f9993400976a7bd8dd358",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/ss13a.PNG": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/ss13a.PNG",
+    "roles": [
+      "catalogue-or-banner",
+      "detail-displayed",
+      "detail-hover"
+    ],
+    "file": "../resources/asset-14.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/ss13a.PNG",
+    "status": 200,
+    "sha256": "ab46107897cd15b77d452adc5a1afd8f2a24bc847f62b994ee9f5eef75b7aaad",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/ss14a.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/ss14a.png",
+    "roles": [
+      "catalogue-or-banner",
+      "detail-displayed",
+      "detail-hover"
+    ],
+    "file": "../resources/asset-15.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/ss14a.png",
+    "status": 200,
+    "sha256": "86cb74e131035c179632841257358fbdaf162eae12c1ac93d2be7382327c93e8",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/ss15a.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/ss15a.png",
+    "roles": [
+      "catalogue-or-banner",
+      "detail-displayed",
+      "detail-hover"
+    ],
+    "file": "../resources/asset-16.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/ss15a.png",
+    "status": 200,
+    "sha256": "09abd1ead22243d76114b8b110558e0a7d92bb712f1c36e94bca2efe1859225e",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/ss16a.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/ss16a.png",
+    "roles": [
+      "catalogue-or-banner",
+      "detail-displayed",
+      "detail-hover"
+    ],
+    "file": "../resources/asset-17.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/ss16a.png",
+    "status": 200,
+    "sha256": "b723adc830442bbdb01224cb67155793ae213fd611071dbb9716a4b4a2cccb1a",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/ss17a.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/ss17a.png",
+    "roles": [
+      "catalogue-or-banner",
+      "detail-displayed",
+      "detail-hover",
+      "detail-hover"
+    ],
+    "file": "../resources/asset-18.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/ss17a.png",
+    "status": 200,
+    "sha256": "abf1fd9c794cc8c7764bda207f9a654fd9db58e32f3683dbb9e84d2281c412d1",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/ss18a.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/ss18a.png",
+    "roles": [
+      "catalogue-or-banner",
+      "detail-displayed",
+      "detail-hover",
+      "detail-hover"
+    ],
+    "file": "../resources/asset-19.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/ss18a.png",
+    "status": 200,
+    "sha256": "8f728bf1d486ee05eb4dd31dfa6775a744c9f104653859989116376963568802",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/ss19a.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/ss19a.png",
+    "roles": [
+      "catalogue-or-banner",
+      "detail-displayed"
+    ],
+    "file": "../resources/asset-20.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/ss19a.png",
+    "status": 200,
+    "sha256": "c0f852928a8f71ab8cbc71e771ab15cecbe584c6969211bac21e4a92e22325e0",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/ss20a.jpg": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/ss20a.jpg",
+    "roles": [
+      "catalogue-or-banner",
+      "detail-displayed",
+      "detail-hover",
+      "detail-hover"
+    ],
+    "file": "../resources/asset-21.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/ss20a.jpg",
+    "status": 200,
+    "sha256": "ea205dc9083fe9649d9b49985d3d18a7468e81b312e0ed3d40d317ee69051c53",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/ss21a.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/ss21a.png",
+    "roles": [
+      "catalogue-or-banner",
+      "detail-displayed",
+      "detail-hover"
+    ],
+    "file": "../resources/asset-22.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/ss21a.png",
+    "status": 200,
+    "sha256": "30d2414621a33ea70b19e6c14cab02fd5fa5d3ff369a12562ba9185ce62dc493",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/ss22a.jpg": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/ss22a.jpg",
+    "roles": [
+      "catalogue-or-banner",
+      "detail-displayed",
+      "detail-hover"
+    ],
+    "file": "../resources/asset-23.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/ss22a.jpg",
+    "status": 200,
+    "sha256": "a224367060b134b604010e0f50e228142daa70ccc006b3fa13f3b6dbc6609860",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/s2006.jpg": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/s2006.jpg",
+    "roles": [
+      "catalogue-or-banner"
+    ],
+    "file": "../resources/asset-24.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/s2006.jpg",
+    "status": 200,
+    "sha256": "5b1424780d18921068023dc5275b162773c71703a799577d2068bd67978b0a46",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/s2007.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/s2007.png",
+    "roles": [
+      "catalogue-or-banner"
+    ],
+    "file": "../resources/asset-25.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/s2007.png",
+    "status": 200,
+    "sha256": "cede5209afb621bbf99e967bdc35f72d40a6e2b970e463760515a9510e901c4a",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/s2008.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/s2008.png",
+    "roles": [
+      "catalogue-or-banner"
+    ],
+    "file": "../resources/asset-26.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/s2008.png",
+    "status": 200,
+    "sha256": "dd15043c8c3e8dc6867d8abc78553cc48f8d7672d9d7cebc0f2be4fec03ff89c",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/s2009.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/s2009.png",
+    "roles": [
+      "catalogue-or-banner"
+    ],
+    "file": "../resources/asset-27.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/s2009.png",
+    "status": 200,
+    "sha256": "0f51089b1f37720e4d3f47dfb83ab3028b05b931948964944c961a3008994ca7",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/s2010.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/s2010.png",
+    "roles": [
+      "catalogue-or-banner"
+    ],
+    "file": "../resources/asset-28.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/s2010.png",
+    "status": 200,
+    "sha256": "7d00d6bda6e2e65964deebc9d24bf91be34e0f309c500e4265035633116ee185",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/s2011.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/s2011.png",
+    "roles": [
+      "catalogue-or-banner"
+    ],
+    "file": "../resources/asset-29.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/s2011.png",
+    "status": 200,
+    "sha256": "1b64ee617c0a57c7df2c33c5cab456f6c0b68d4a7152df885fc10317293a5a2d",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/s2012.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/s2012.png",
+    "roles": [
+      "catalogue-or-banner"
+    ],
+    "file": "../resources/asset-30.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/s2012.png",
+    "status": 200,
+    "sha256": "781f610e12c4936dab982d1d813dc34a6363443d9694766a5ba88c1dc882e394",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/s2013.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/s2013.png",
+    "roles": [
+      "catalogue-or-banner"
+    ],
+    "file": "../resources/asset-31.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/s2013.png",
+    "status": 200,
+    "sha256": "9934b78fdde5daea53cb7e1b404cf15fe50803c70cce544b8d0a255aa64b0923",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/s2014.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/s2014.png",
+    "roles": [
+      "catalogue-or-banner"
+    ],
+    "file": "../resources/asset-32.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/s2014.png",
+    "status": 200,
+    "sha256": "09fafb61ff980c3ad850eb634af4c52db250cc03f058ca88e5876c8bf89b1af4",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/s2015.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/s2015.png",
+    "roles": [
+      "catalogue-or-banner"
+    ],
+    "file": "../resources/asset-33.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/s2015.png",
+    "status": 200,
+    "sha256": "fa8fda92abf1d5714939c58b216840a601ec5000f6f280ff6c30f2ed2d05fd00",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/s2016a.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/s2016a.png",
+    "roles": [
+      "catalogue-or-banner"
+    ],
+    "file": "../resources/asset-34.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/s2016a.png",
+    "status": 200,
+    "sha256": "553459841f818fa58c3d478f417a9371e83358b1b1ec755b2ab48812ee3d2e95",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/s2016b.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/s2016b.png",
+    "roles": [
+      "catalogue-or-banner"
+    ],
+    "file": "../resources/asset-35.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/s2016b.png",
+    "status": 200,
+    "sha256": "dfe56533c3706c5aa49349e9d1445b4797ae70ab506844f4a54e83789d17d94d",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/s2017.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/s2017.png",
+    "roles": [
+      "catalogue-or-banner"
+    ],
+    "file": "../resources/asset-36.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/s2017.png",
+    "status": 200,
+    "sha256": "4df4738e176df2aec834cdde1d1ec8542d4c3697724612c4d1fa8d0b1d47a83e",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/s2018.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/s2018.png",
+    "roles": [
+      "catalogue-or-banner"
+    ],
+    "file": "../resources/asset-37.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/s2018.png",
+    "status": 200,
+    "sha256": "25290d09bb273e26f878e234173b42fb365493ef916a43c729e18e109f8b0ee0",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/s2019.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/s2019.png",
+    "roles": [
+      "catalogue-or-banner"
+    ],
+    "file": "../resources/asset-38.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/s2019.png",
+    "status": 200,
+    "sha256": "110df567cd2364d8120cedd3a5a2fc8506ca82f33dea49ffbaeaf7f733ceb701",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/s2020.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/s2020.png",
+    "roles": [
+      "catalogue-or-banner"
+    ],
+    "file": "../resources/asset-39.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/s2020.png",
+    "status": 200,
+    "sha256": "7ade13558b4670abea255bcf5b152d5a02f761350dbd99735eb924b3520191c3",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/s2021.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/s2021.png",
+    "roles": [
+      "catalogue-or-banner"
+    ],
+    "file": "../resources/asset-40.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/s2021.png",
+    "status": 200,
+    "sha256": "30a0605b048df2d32c2bb41e042d6e7bca965c9d4489ba08025548557da7c0f7",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/ss1b.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/ss1b.png",
+    "roles": [
+      "detail-hover"
+    ],
+    "file": "../resources/asset-41.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/ss1b.png",
+    "status": 200,
+    "sha256": "352fb4d774de6de827625afc072707dfd7f4626d5b7a937db87891020b9a000b",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/ss2b.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/ss2b.png",
+    "roles": [
+      "detail-hover"
+    ],
+    "file": "../resources/asset-42.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/ss2b.png",
+    "status": 200,
+    "sha256": "20def9c87ddc33ec5146ff5337f8ece4888544cf82e24cbdfc575cd8de97a79a",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/ss3b.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/ss3b.png",
+    "roles": [
+      "detail-hover"
+    ],
+    "file": "../resources/asset-43.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/ss3b.png",
+    "status": 200,
+    "sha256": "e7b3a05e3b05a0b98f5a0bfa00d8a9a4f8df30530eff92c084c63fc8b793497c",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/ss4b.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/ss4b.png",
+    "roles": [
+      "detail-hover"
+    ],
+    "file": "../resources/asset-44.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/ss4b.png",
+    "status": 200,
+    "sha256": "1d81a59accffe6c7162b90a674c211032f4cb31eb92eecb10aac57e9d2856557",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/ss5b.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/ss5b.png",
+    "roles": [
+      "detail-hover"
+    ],
+    "file": "../resources/asset-45.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/ss5b.png",
+    "status": 200,
+    "sha256": "b39d00268c6f612750809cdf2de159aef6f61ff9b8c287a88ac94a89afa1996c",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/ss8b.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/ss8b.png",
+    "roles": [
+      "detail-hover"
+    ],
+    "file": "../resources/asset-46.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/ss8b.png",
+    "status": 200,
+    "sha256": "099ada78c1c528fa1ace44840f5d45fd6e362a9ef5584e7760973167d4f11ca9",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/ss9b.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/ss9b.png",
+    "roles": [
+      "detail-hover"
+    ],
+    "file": "../resources/asset-47.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/ss9b.png",
+    "status": 200,
+    "sha256": "ae4c4b163152ebe1f238c7cb237c3f14505d1c41322f7d0e018967c963338944",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/ss13b.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/ss13b.png",
+    "roles": [
+      "detail-hover"
+    ],
+    "file": "../resources/asset-48.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/ss13b.png",
+    "status": 200,
+    "sha256": "ab1e6df2b345902b6611c28c0582a895bed443b8f0d28b5cd3c3e6f3e9819bdc",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/ss14b.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/ss14b.png",
+    "roles": [
+      "detail-hover"
+    ],
+    "file": "../resources/asset-49.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/ss14b.png",
+    "status": 200,
+    "sha256": "b8c8f85c90a736ed8f34ac54a03d3127fb589ae03ea529c9f31859e301d5bec4",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/ss15b.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/ss15b.png",
+    "roles": [
+      "detail-hover"
+    ],
+    "file": "../resources/asset-50.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/ss15b.png",
+    "status": 200,
+    "sha256": "e922a21cdd2c776b04bf12f9687a02ed9141a5fe5a2c23501ea03f4be9749500",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/ss16b.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/ss16b.png",
+    "roles": [
+      "detail-hover"
+    ],
+    "file": "../resources/asset-51.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/ss16b.png",
+    "status": 200,
+    "sha256": "1a0c61fb3c7843b3f6981cdbee851dce255b92e9297824118c6d1222bd1b49a5",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/ss21b.png": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/ss21b.png",
+    "roles": [
+      "detail-hover"
+    ],
+    "file": "../resources/asset-53.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/ss21b.png",
+    "status": 200,
+    "sha256": "3f20fbc3fdb31bb1a59d42fedd0f26d0b72448b1dc3d34dff6993f98f7ff71e8",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/ss22b.jpg": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/ss22b.jpg",
+    "roles": [
+      "detail-hover"
+    ],
+    "file": "../resources/asset-54.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/ss22b.jpg",
+    "status": 200,
+    "sha256": "13dbda639d5adf74b9e6835c17c9f6605cbaf32af362bbee088b39cb27c8b55c",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  },
+  "https://viprpg2022s.suppa.jp/bg.jpg": {
+    "originalUrl": "https://viprpg2022s.suppa.jp/bg.jpg",
+    "roles": [
+      "css-background"
+    ],
+    "file": "../resources/asset-55.bin",
+    "actualUrl": "https://viprpg2022s.suppa.jp/bg.jpg",
+    "status": 200,
+    "sha256": "0a70033b6aa387721fef30cd9fcfca9641ffb8c8d96ca848da24cf3154052513",
+    "kind": "asset",
+    "usable": true,
+    "proxyRegion": "Japan"
+  }
+}

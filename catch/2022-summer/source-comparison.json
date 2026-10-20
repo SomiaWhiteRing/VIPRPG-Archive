@@ -1,0 +1,52 @@
+{
+  "festivalId": "2022-summer",
+  "checkedAt": "2026-10-20",
+  "sourceHtmlPages": 2,
+  "cssFiles": 1,
+  "sourceImages": 55,
+  "works": 23,
+  "screenshotReferences": 36,
+  "sourceIconsAbsent": true,
+  "downloadEntries": 20,
+  "sourceNoDownloadNumbers": [
+    "09",
+    "19",
+    "21"
+  ],
+  "titleDifferences": [
+    {
+      "no": "11",
+      "title": "夢戦争～Dream Wars～",
+      "originalTitle": "夢戦争～Dream　Wars～",
+      "catalogueTitle": "夢戦争～Dream　Wars～",
+      "normalizedEquivalent": true
+    }
+  ],
+  "formatChanges": [
+    {
+      "sourceUrl": "https://viprpg2022s.suppa.jp/ss14a.png",
+      "actualExtension": "bmp"
+    },
+    {
+      "sourceUrl": "https://viprpg2022s.suppa.jp/ss14b.png",
+      "actualExtension": "bmp"
+    }
+  ],
+  "sourceImageGaps": [
+    {
+      "originalUrl": "https://viprpg2022s.suppa.jp/ss19a.jpg",
+      "status": 404,
+      "role": "No.19 source hover target; displayed PNG remains available",
+      "archiveEvidence": "ss19a-jpg-cdx.json",
+      "archiveExactCaptures": 0
+    }
+  ],
+  "oldGalleryReferences": 36,
+  "oldBytesAbsentFromCurrentGallery": [],
+  "metadataOrMediaFailures": [],
+  "contentOrPixelScreeningPerformed": false,
+  "packagesDownloaded": false,
+  "rawCaptureHashFailures": [],
+  "originalEmptyTopLinksRepaired": 23,
+  "hoverGapHandling": "Remove both failing source mouse-enter and mouse-leave targets for No.19, retaining saved normal PNG and a fixed gap note."
+}

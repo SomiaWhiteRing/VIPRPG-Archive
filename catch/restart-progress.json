@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2022-summer",
+  "activeFestival": "2021-gw",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -1650,6 +1650,35 @@
         "catch/2022-kouhaku/desktop-review.json"
       ],
       "notes": "日本源站已变为托管错误页，香港Wayback恢复54份官方HTML（50详情及目录／规则／投票／集计），原始或解压载荷与CDX摘要核对；7份较晚详情替换早期快照以保留后续菜单和39号新增图。72项既有ID、编号及题名保持，72图标、71截图、3横幅恢复；22份未取得详情解除旧禁用并保留明确标记的目录资料骨架，其中4、5、41、43另补回保存预览。旧画廊4份不同字节均在目录缩略图或共用默认图资源中找到并保留。40处缺失WebP预览引用同号已保存原图，16处仍缺预览明确注明；新闻及全点数内訳2辅助原页未取得，单列说明。共同备份通过公开MEGA元数据逐一对应67个投稿包文件名，保留原官方菜单地址来源，游戏包未下载或验证。原貌342文件、78份HTML、1853本地引用无缺失和外部自动加载，保存124字体文件；原目录依赖脚本的透明卡片改为静态背景，停止投票表单。72整理详情及78原貌文档桌面布局／图片加载通过，沙箱目录往返、真实详情、缺页骨架及查看器切换已验证。无内容筛选、无新增受限。"
+    },
+    {
+      "festivalId": "2022-summer",
+      "reviewedAt": "2026-10-20",
+      "dataSha256": "3d3c83552ead72394b52ae9a169ba1cbd0a7047d33319115b8fb1d8297ee6643",
+      "status": "reviewed-with-exceptions",
+      "works": 23,
+      "screenshotFiles": 36,
+      "screenshotReferences": 36,
+      "iconFiles": 0,
+      "downloadEntries": 20,
+      "originalCatalogueCompleteness": "verified-current-official-0-through-22-catalogue-and-all-23-article-details",
+      "outstandingSourceDetails": 0,
+      "outstandingImageSourceUrls": 1,
+      "outstandingScreenshotRows": 1,
+      "outstandingOtherResources": 0,
+      "packageBytesValidated": false,
+      "sourceEvidence": [
+        "catch/2022-summer/recovery.json",
+        "catch/2022-summer/source-comparison.json",
+        "catch/2022-summer/source/live/manifest.json",
+        "catch/2022-summer/source/resources/manifest.json",
+        "catch/2022-summer/investigation/source-image-gaps.json",
+        "catch/2022-summer/investigation/replay-closure.json"
+      ],
+      "desktopEvidence": [
+        "catch/2022-summer/desktop-review.json"
+      ],
+      "notes": "日本源站2份完整HTML、1份CSS及55份有效图片原始响应全部保存并核对SHA，23项含00样例，既有ID、编号及题名保持。完整恢复36张显示／悬停截图、原文作者及主办留言、20个源下载入口和1条本祭横幅，17条历届横幅原貌保留；目录缩略图为同一截图引用，源无独立图标，不补造。11号标题空白表记差异另存originalTitle，14号两份伪PNG按实际BMP扩展名保存且字节不变。19号悬停／移出均指向不存在JPG：日本源站404、香港精确CDX无记录，本地保留正常PNG并明确标注。原站23个空地址TOP链接修复为保存目录，原始HTML不变。原貌58文件、2份HTML含23投稿区块、225处本地引用含悬停目标，无悬空引用及外部自动加载。23整理详情、原貌目录及全部投稿区块桌面通过，5处首次尚未完成的延迟图待加载后均正常；BMP悬停进出、查看器切换、沙箱内目录定位与返回均通过。无内容筛选、无新增受限，游戏包未下载或验证。"
     }
   ],
   "originalViewsReviewed": [
@@ -2026,6 +2055,13 @@
       "evidence": [
         "catch/2022-kouhaku/original-view.json",
         "catch/2022-kouhaku/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2022-summer",
+      "evidence": [
+        "catch/2022-summer/original-view.json",
+        "catch/2022-summer/desktop-review.json"
       ]
     }
   ],

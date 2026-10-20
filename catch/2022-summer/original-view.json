@@ -1,0 +1,101 @@
+{
+  "festivalId": "2022-summer",
+  "sourceEncoding": "utf-8",
+  "entry": "/original-pages/2022-summer/index.html",
+  "sourceManifests": [
+    "source/replay/manifest.json"
+  ],
+  "sourcePages": {},
+  "files": [
+    "index.html",
+    "entry.html",
+    "style.css",
+    "s2022.png",
+    "ss0a.png",
+    "ss1a.png",
+    "ss2a.png",
+    "ss3a.png",
+    "ss4a.png",
+    "ss5a.png",
+    "ss6a.png",
+    "ss7a.png",
+    "ss8a.png",
+    "ss9a.png",
+    "ss10a.png",
+    "ss11a.png",
+    "ss12a.png",
+    "ss13a.png",
+    "ss14a.bmp",
+    "ss15a.png",
+    "ss16a.png",
+    "ss17a.png",
+    "ss18a.png",
+    "ss19a.png",
+    "ss20a.jpg",
+    "ss21a.png",
+    "ss22a.jpg",
+    "s2006.jpg",
+    "s2007.png",
+    "s2008.png",
+    "s2009.png",
+    "s2010.png",
+    "s2011.png",
+    "s2012.png",
+    "s2013.png",
+    "s2014.png",
+    "s2015.png",
+    "s2016a.png",
+    "s2016b.png",
+    "s2017.png",
+    "s2018.png",
+    "s2019.png",
+    "s2020.png",
+    "s2021.png",
+    "ss1b.png",
+    "ss2b.png",
+    "ss3b.png",
+    "ss4b.png",
+    "ss5b.png",
+    "ss8b.png",
+    "ss9b.png",
+    "ss13b.png",
+    "ss14b.bmp",
+    "ss15b.png",
+    "ss16b.png",
+    "ss21b.png",
+    "ss22b.jpg",
+    "bg.jpg"
+  ],
+  "generatedPlaceholders": [],
+  "preloadResources": {
+    "unavailableUnused": 0,
+    "cachedUnused": 0,
+    "evidence": "catch/2022-summer/recovery.json"
+  },
+  "missingResources": [],
+  "omittedCssResources": [],
+  "omittedBackgrounds": [],
+  "omittedHovers": [
+    {
+      "page": "entry.html",
+      "resource": "ss19a.jpg"
+    }
+  ],
+  "compatibilityFixes": [
+    {
+      "page": "index.html",
+      "change": "Remove hosting advertisements/tracking and inactivity scripts; preserve native screenshot hover events. Correct source-empty TOP links to the captured catalogue, with raw HTML unchanged."
+    },
+    {
+      "page": "entry.html",
+      "change": "Remove hosting advertisements/tracking and inactivity scripts; preserve native screenshot hover events. Correct source-empty TOP links to the captured catalogue, with raw HTML unchanged."
+    }
+  ],
+  "changes": [
+    "Original HTML and CSS normalized from utf-8 to UTF-8.",
+    "Same-site links, CSS resources and absolute script/hover URLs use local paths.",
+    "External hosting trackers removed; unavailable unused preloads replaced with an empty image.",
+    "Original pages are displayed inside a sandboxed frame."
+  ],
+  "desktopReview": "passed-with-documented-source-hover-gap"
+}

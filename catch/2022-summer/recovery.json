@@ -1,0 +1,842 @@
+{
+  "festivalId": "2022-summer",
+  "originalBase": "https://viprpg2022s.suppa.jp/",
+  "liveSource": true,
+  "proxyRegion": "Japan",
+  "sourceManifests": [
+    "source/replay/manifest.json"
+  ],
+  "originalResources": {
+    "https://viprpg2022s.suppa.jp/index.html": "index.html",
+    "https://viprpg2022s.suppa.jp/entry.html": "entry.html",
+    "https://viprpg2022s.suppa.jp/style.css": "style.css",
+    "https://viprpg2022s.suppa.jp/s2022.png": "s2022.png",
+    "https://viprpg2022s.suppa.jp/ss0a.png": "ss0a.png",
+    "https://viprpg2022s.suppa.jp/ss1a.png": "ss1a.png",
+    "https://viprpg2022s.suppa.jp/ss2a.png": "ss2a.png",
+    "https://viprpg2022s.suppa.jp/ss3a.png": "ss3a.png",
+    "https://viprpg2022s.suppa.jp/ss4a.png": "ss4a.png",
+    "https://viprpg2022s.suppa.jp/ss5a.png": "ss5a.png",
+    "https://viprpg2022s.suppa.jp/ss6a.png": "ss6a.png",
+    "https://viprpg2022s.suppa.jp/ss7a.png": "ss7a.png",
+    "https://viprpg2022s.suppa.jp/ss8a.png": "ss8a.png",
+    "https://viprpg2022s.suppa.jp/ss9a.png": "ss9a.png",
+    "https://viprpg2022s.suppa.jp/ss10a.png": "ss10a.png",
+    "https://viprpg2022s.suppa.jp/ss11a.png": "ss11a.png",
+    "https://viprpg2022s.suppa.jp/ss12a.png": "ss12a.png",
+    "https://viprpg2022s.suppa.jp/ss13a.PNG": "ss13a.png",
+    "https://viprpg2022s.suppa.jp/ss14a.png": "ss14a.bmp",
+    "https://viprpg2022s.suppa.jp/ss15a.png": "ss15a.png",
+    "https://viprpg2022s.suppa.jp/ss16a.png": "ss16a.png",
+    "https://viprpg2022s.suppa.jp/ss17a.png": "ss17a.png",
+    "https://viprpg2022s.suppa.jp/ss18a.png": "ss18a.png",
+    "https://viprpg2022s.suppa.jp/ss19a.png": "ss19a.png",
+    "https://viprpg2022s.suppa.jp/ss20a.jpg": "ss20a.jpg",
+    "https://viprpg2022s.suppa.jp/ss21a.png": "ss21a.png",
+    "https://viprpg2022s.suppa.jp/ss22a.jpg": "ss22a.jpg",
+    "https://viprpg2022s.suppa.jp/s2006.jpg": "s2006.jpg",
+    "https://viprpg2022s.suppa.jp/s2007.png": "s2007.png",
+    "https://viprpg2022s.suppa.jp/s2008.png": "s2008.png",
+    "https://viprpg2022s.suppa.jp/s2009.png": "s2009.png",
+    "https://viprpg2022s.suppa.jp/s2010.png": "s2010.png",
+    "https://viprpg2022s.suppa.jp/s2011.png": "s2011.png",
+    "https://viprpg2022s.suppa.jp/s2012.png": "s2012.png",
+    "https://viprpg2022s.suppa.jp/s2013.png": "s2013.png",
+    "https://viprpg2022s.suppa.jp/s2014.png": "s2014.png",
+    "https://viprpg2022s.suppa.jp/s2015.png": "s2015.png",
+    "https://viprpg2022s.suppa.jp/s2016a.png": "s2016a.png",
+    "https://viprpg2022s.suppa.jp/s2016b.png": "s2016b.png",
+    "https://viprpg2022s.suppa.jp/s2017.png": "s2017.png",
+    "https://viprpg2022s.suppa.jp/s2018.png": "s2018.png",
+    "https://viprpg2022s.suppa.jp/s2019.png": "s2019.png",
+    "https://viprpg2022s.suppa.jp/s2020.png": "s2020.png",
+    "https://viprpg2022s.suppa.jp/s2021.png": "s2021.png",
+    "https://viprpg2022s.suppa.jp/ss1b.png": "ss1b.png",
+    "https://viprpg2022s.suppa.jp/ss2b.png": "ss2b.png",
+    "https://viprpg2022s.suppa.jp/ss3b.png": "ss3b.png",
+    "https://viprpg2022s.suppa.jp/ss4b.png": "ss4b.png",
+    "https://viprpg2022s.suppa.jp/ss5b.png": "ss5b.png",
+    "https://viprpg2022s.suppa.jp/ss8b.png": "ss8b.png",
+    "https://viprpg2022s.suppa.jp/ss9b.png": "ss9b.png",
+    "https://viprpg2022s.suppa.jp/ss13b.png": "ss13b.png",
+    "https://viprpg2022s.suppa.jp/ss14b.png": "ss14b.bmp",
+    "https://viprpg2022s.suppa.jp/ss15b.png": "ss15b.png",
+    "https://viprpg2022s.suppa.jp/ss16b.png": "ss16b.png",
+    "https://viprpg2022s.suppa.jp/ss21b.png": "ss21b.png",
+    "https://viprpg2022s.suppa.jp/ss22b.jpg": "ss22b.jpg",
+    "https://viprpg2022s.suppa.jp/bg.jpg": "bg.jpg",
+    "https://viprpg2022s.suppa.jp/": "index.html",
+    "http://viprpg2022s.suppa.jp/": "index.html"
+  },
+  "entries": [
+    {
+      "id": "2022-summer-work-00",
+      "no": "00",
+      "detailUrl": "https://viprpg2022s.suppa.jp/entry.html#id0",
+      "sourceMetadata": {
+        "作者名": "管理人",
+        "ジャンル": "デフォ戦",
+        "ツール": "VXAce",
+        "配信/投稿": "可",
+        "管理人コメント": "あ"
+      },
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022s.suppa.jp/ss0a.png",
+          "local": "/screenshots/2022-summer/00-source-1.png",
+          "sha256": "506df3c7356f8157787fe891711cfea21b150889a588d3758652ec701168f6c3"
+        }
+      ],
+      "missingImageUrls": [],
+      "cataloguePreviewUrl": "https://viprpg2022s.suppa.jp/ss0a.png",
+      "originalDownloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=14Jq2y6r1B93B4THCkpOTfmD6MD3kBeFV",
+          "label": "ダウンロード(8/31提出)"
+        }
+      ],
+      "sourceIconAbsent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-summer-work-01",
+      "no": "01",
+      "detailUrl": "https://viprpg2022s.suppa.jp/entry.html#id1",
+      "sourceMetadata": {
+        "作者名": "はぴどら",
+        "ジャンル": "プレシャス15周年記念見るゲ＋作品集",
+        "ツール": "RPGツクール2000",
+        "配信/投稿": "可/可",
+        "作者コメント": "最終更新版です。使用素材とおまけ作品の取捨選択を行いました。\nまた、Shiftキーを押しながらニューゲームを始める事で、全作品のクリアフラグの開放が可能になりました。\nこれ以降の修正がある場合は、修正パッチを作品・パッチ提出アップローダーにアップロードします。\n\nあらすじ\nダーエロに強引に誘われ、アイドルグループ『スピリットガールズ』のライブコンサートに参加する事になったショウ。\nところが、アイドルの一人『スピカ』が、自分の故郷の世界での恩人である『聖女様』に似ている事に気付く。\n一方、当のスピカも、ショウが昔の知り合いに似ていると感じており…。\n\n\nとあるもしもキャラの愛称と同じ名前の星の存在に気付いた後、別の星の名前を持ったもしもキャラを連想した結果、\nこのような作品が出来ていました。以下は注意点となります。\n\n①プレシャス関連の作品です。ショウさんが主役です。\nこの作品名とキャラ名を見ても問題のない方のみPIAIを推奨します。\n\n②オリカプ(？)要素あり\nショウさんがハーナス以外の女性キャラと交流する場面があります。\n一応、恋愛要素は薄いですが、この手のハーレムを連想させる描写が苦手な方はご注意ください。\n\n③はい説(独自設定)あり\nショウさんがもしもワールドに来る前の世界についての描写があります。\n具体的にはショウさんと同郷の異世界人が登場します。\n\n④作品集について\n内容は、短編三つ、次回作の体験版三つ、下記の新キャラ紹介作品(長編)二つとなります。\n当然これらの作品も本編同様プレシャス15周年記念作品として例外なくショウさんが関わってきます。\n短編以外は本編以上のボリュームがありますのでご注意ください。\n\n⑤作品集のうちの二つに自作の新キャラ二名が登場します。\nしかし自分の画力では歩行グラフィックの製作が限界でしたので、\n顔グラフィックはCHARAT(C)さんにて製作させていただきました。\n\n作者はツクール初投稿の初心者なので、拙い所があるとは思いますが、\n生暖かい目で見守ってくれると助かります。\nまた、感想や不具合報告があれば感想掲示板でコメントを頂けるとモチベーションが上がります。",
+        "管理人コメント": "初投稿ありがとうございます！プレシャスには魔物が潜む…"
+      },
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022s.suppa.jp/ss1a.png",
+          "local": "/screenshots/2022-summer/01-source-1.png",
+          "sha256": "cf9f06b99b667586d418809344981319ecac289c1e651f1c01759cc008f1c0d4"
+        },
+        {
+          "sourceUrl": "https://viprpg2022s.suppa.jp/ss1b.png",
+          "local": "/screenshots/2022-summer/01-source-2.png",
+          "sha256": "352fb4d774de6de827625afc072707dfd7f4626d5b7a937db87891020b9a000b"
+        }
+      ],
+      "missingImageUrls": [],
+      "cataloguePreviewUrl": "https://viprpg2022s.suppa.jp/ss1a.png",
+      "originalDownloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1NaO5yLiaUk6tFFsIi5btI5g6PQciIwZZ",
+          "label": "ダウンロード(8/31更新)"
+        }
+      ],
+      "sourceIconAbsent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-summer-work-02",
+      "no": "02",
+      "detailUrl": "https://viprpg2022s.suppa.jp/entry.html#id2",
+      "sourceMetadata": {
+        "作者名": "クアアタ",
+        "ジャンル": "空想月面戦争紙芝居見るゲ",
+        "ツール": "2003s",
+        "配信/投稿": "両方可（チンコ相撲に気をつけて自己責任）",
+        "作者コメント": "あ、一枚オークたちがチンコ相撲してる\n絵が入ってるのでR-18作品指定で\n\n前作、聖本物川VS勇者バブルドーザー\nからの続きではあるが\n別にみてなくても何の支障も無い\n\n2015年5月8日から2015年12月7日に\n掛けて214日つまり\n七カ月にわたって描かれた\n1418枚の画像で構成された漫画作品\nなんとなくデータだけ持ってても\n日の目を見ないので\nせっかくだし肉声をつけて\n紙芝居風にしたというもの\n\nチャプターメニュー形式で\n五章構成である\n\n全部通しての視聴時間は\nAUTOモードONで一時間十分\n手動の場合はいくらでも調整可能\n\n基本無声映画に声で効果音足した\nって作りなので読む要素は無い\n流し見るとよかろう",
+        "管理人コメント": "世の中はどうしてこの天才を放っておいたんだ！"
+      },
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022s.suppa.jp/ss2a.png",
+          "local": "/screenshots/2022-summer/02-source-1.png",
+          "sha256": "85cc91dcfdc698426cbc9d7186908efe970e09a1ebc6b6ac03c5f4b9d06f5a81"
+        },
+        {
+          "sourceUrl": "https://viprpg2022s.suppa.jp/ss2b.png",
+          "local": "/screenshots/2022-summer/02-source-2.png",
+          "sha256": "20def9c87ddc33ec5146ff5337f8ece4888544cf82e24cbdfc575cd8de97a79a"
+        }
+      ],
+      "missingImageUrls": [],
+      "cataloguePreviewUrl": "https://viprpg2022s.suppa.jp/ss2a.png",
+      "originalDownloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1DXbVsIExHG7zcBqdfJahSIAHqXixghPP",
+          "label": "ダウンロード(7/25提出)"
+        }
+      ],
+      "sourceIconAbsent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-summer-work-03",
+      "no": "03",
+      "detailUrl": "https://viprpg2022s.suppa.jp/entry.html#id3",
+      "sourceMetadata": {
+        "作者名": "以下、5ちゃんねるからVIPがお送りします",
+        "ジャンル": "RPG",
+        "ツール": "2000",
+        "配信/投稿": "バグに目をつぶってくれるなら",
+        "作者コメント": "アレックスの新しい冒険が始まる！\n\n※お話は前作と関係ありませんので前作未PIAIの方もどうぞ。\n※既にいくつかバグが確認されています。本当にゴメス。",
+        "管理人コメント": "管理人は前作全クリ済です！"
+      },
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022s.suppa.jp/ss3a.png",
+          "local": "/screenshots/2022-summer/03-source-1.png",
+          "sha256": "6d9929ac0e6eaa62f4602c1385d631972fed48a0ed29d1661dcfcd98b0c55aea"
+        },
+        {
+          "sourceUrl": "https://viprpg2022s.suppa.jp/ss3b.png",
+          "local": "/screenshots/2022-summer/03-source-2.png",
+          "sha256": "e7b3a05e3b05a0b98f5a0bfa00d8a9a4f8df30530eff92c084c63fc8b793497c"
+        }
+      ],
+      "missingImageUrls": [],
+      "cataloguePreviewUrl": "https://viprpg2022s.suppa.jp/ss3a.png",
+      "originalDownloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1cDHxJQBJmE6mmmM9CaM1Nw5fUSQuUIuI",
+          "label": "ダウンロード(8/16更新)"
+        }
+      ],
+      "sourceIconAbsent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-summer-work-04",
+      "no": "04",
+      "detailUrl": "https://viprpg2022s.suppa.jp/entry.html#id4",
+      "sourceMetadata": {
+        "作者名": "恍惚なる晩年",
+        "ジャンル": "掌編RPG(1～2時間)",
+        "ツール": "MV",
+        "配信/投稿": "可",
+        "作者コメント": "ウィンディの遺骨ぼりぼり",
+        "管理人コメント": "心はいつでも新人ツクラーでいたいです"
+      },
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022s.suppa.jp/ss4a.png",
+          "local": "/screenshots/2022-summer/04-source-1.png",
+          "sha256": "227c92974fa893531963121ee949f80645bb5f7f93759cb2b05658953711f400"
+        },
+        {
+          "sourceUrl": "https://viprpg2022s.suppa.jp/ss4b.png",
+          "local": "/screenshots/2022-summer/04-source-2.png",
+          "sha256": "1d81a59accffe6c7162b90a674c211032f4cb31eb92eecb10aac57e9d2856557"
+        }
+      ],
+      "missingImageUrls": [],
+      "cataloguePreviewUrl": "https://viprpg2022s.suppa.jp/ss4a.png",
+      "originalDownloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1btBRIfHts9oJr3So5R1DQCVZhBojxPqc",
+          "label": "ダウンロード(8/9更新)"
+        }
+      ],
+      "sourceIconAbsent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-summer-work-05",
+      "no": "05",
+      "detailUrl": "https://viprpg2022s.suppa.jp/entry.html#id5",
+      "sourceMetadata": {
+        "作者名": "ろーぷれつくろ～",
+        "ジャンル": "ことわざ見るゲ",
+        "ツール": "2000",
+        "配信/投稿": "ご自由に/どうぞ",
+        "作者コメント": "もしもの見るゲでことわざが学べる！？\n\n多分新感覚かもしれないことわざ見るゲが登場！\n\n\n「犬も歩けば棒に当たる」や「石の上にも三年」など、\n\n様々なことわざをテーマにしたお話を４０種類以上収録！\n\n各ことわざには簡単な意味・説明もあり。\n\nさらに今後のアップデートで続々ことわざを追加予定！\n\n\nこれをプレイすれば自然とことわざが身につく・・・かも？\n\n\n※注意\n\nこの見るゲはことわざがテーマとなっていますが、\n\n子供には少し見せづらいシーンもあるかもしれませんので\n\nご注意ください。（１８禁ではないのでそこはご安心を。）",
+        "管理人コメント": "SSの一枚絵と四コマ漫画がかわいい！こういう使い方をイメージしていました"
+      },
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022s.suppa.jp/ss5a.png",
+          "local": "/screenshots/2022-summer/05-source-1.png",
+          "sha256": "e3f72bd748fe18bafc1434e5789ee1e3e10c84920947ef59a063f1fc513daf62"
+        },
+        {
+          "sourceUrl": "https://viprpg2022s.suppa.jp/ss5b.png",
+          "local": "/screenshots/2022-summer/05-source-2.png",
+          "sha256": "b39d00268c6f612750809cdf2de159aef6f61ff9b8c287a88ac94a89afa1996c"
+        }
+      ],
+      "missingImageUrls": [],
+      "cataloguePreviewUrl": "https://viprpg2022s.suppa.jp/ss5a.png",
+      "originalDownloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=10Kc10RHZo-yHUxGOC9N9fYRhvGFHXUco",
+          "label": "ダウンロード(8/31更新)"
+        }
+      ],
+      "sourceIconAbsent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-summer-work-06",
+      "no": "06",
+      "detailUrl": "https://viprpg2022s.suppa.jp/entry.html#id6",
+      "sourceMetadata": {
+        "作者名": "雨水葉月",
+        "ジャンル": "見るゲ",
+        "ツール": "2000",
+        "配信/投稿": "可・可",
+        "作者コメント": "本来公開予定だった「こうもり魔法カルテット」が未完成のため、\nバリアーズ関係で浮かんだ単発ネタを数個まとめた掌編集を代理ksgとして提出します。\n\n元々提出する予定だった作品用に作った新規素材がかなり多く、\n未公開のままなのはもったいないので、いつかは何らかの形で登場させたいと思います。",
+        "管理人コメント": "代理ksgもツクスレの風物詩ですね"
+      },
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022s.suppa.jp/ss6a.png",
+          "local": "/screenshots/2022-summer/06-source-1.png",
+          "sha256": "37cb8e5cbff4a30a4ea1c0f08cdf0aac91cd26dd5a8ce9c347086020855007ef"
+        }
+      ],
+      "missingImageUrls": [],
+      "cataloguePreviewUrl": "https://viprpg2022s.suppa.jp/ss6a.png",
+      "originalDownloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1gQhn2wsWiPZDwoIwf3KaGq-ezbgEiYek",
+          "label": "ダウンロード(8/31提出)"
+        }
+      ],
+      "sourceIconAbsent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-summer-work-07",
+      "no": "07",
+      "detailUrl": "https://viprpg2022s.suppa.jp/entry.html#id7",
+      "sourceMetadata": {
+        "作者名": "沼",
+        "ジャンル": "カードバトルRPG",
+        "ツール": "steam2003",
+        "配信/投稿": "OK",
+        "作者コメント": "完成はしていません。期限内に作ったとこまでを提出するのでたぶんすぐ終わります。\nシステムはあらかた完成しあとはボリュームを増やすだけなのですが、これ面白いのかどうか不安なので皆様の感想を聞かせろください。",
+        "管理人コメント": "作品のボリュームを増やす作業、それは沼の如く…！"
+      },
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022s.suppa.jp/ss7a.png",
+          "local": "/screenshots/2022-summer/07-source-1.png",
+          "sha256": "6da0d709ad931e89223c380cffc0b744d072f4898ab9ffdb062828e7a8a85e52"
+        }
+      ],
+      "missingImageUrls": [],
+      "cataloguePreviewUrl": "https://viprpg2022s.suppa.jp/ss7a.png",
+      "originalDownloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpg2022s/download/96",
+          "label": "ダウンロード(8/24更新)"
+        }
+      ],
+      "sourceIconAbsent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-summer-work-08",
+      "no": "08",
+      "detailUrl": "https://viprpg2022s.suppa.jp/entry.html#id8",
+      "sourceMetadata": {
+        "作者名": "Aomatu_Taglia",
+        "ジャンル": "アクション",
+        "ツール": "2000",
+        "配信/投稿": "いずれも自己責任でお願いします",
+        "作者コメント": "謎の実験に参加させられ、金属の身体に変えられたウィンディとわてり。\n金属の身体を利用して幾多の仕掛けを解いてゆけ！\n…そんな感じのゲームです。\n※たっぷりの特殊性癖要素とほんのり18禁要素を含んでいます。",
+        "管理人コメント": "うわっエロッ！"
+      },
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022s.suppa.jp/ss8a.png",
+          "local": "/screenshots/2022-summer/08-source-1.png",
+          "sha256": "6da9bb13251e295ce4dc2a881280d9360493b45e4ff02ff5722e8da62ac0db2f"
+        },
+        {
+          "sourceUrl": "https://viprpg2022s.suppa.jp/ss8b.png",
+          "local": "/screenshots/2022-summer/08-source-2.png",
+          "sha256": "099ada78c1c528fa1ace44840f5d45fd6e362a9ef5584e7760973167d4f11ca9"
+        }
+      ],
+      "missingImageUrls": [],
+      "cataloguePreviewUrl": "https://viprpg2022s.suppa.jp/ss8a.png",
+      "originalDownloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1K7Y68zVv8o5AoOb5epjjGS23pBBn4hD7",
+          "label": "ダウンロード(8/31更新)"
+        }
+      ],
+      "sourceIconAbsent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-summer-work-09",
+      "no": "09",
+      "detailUrl": "https://viprpg2022s.suppa.jp/entry.html#id9",
+      "sourceMetadata": {
+        "作者名": "hanol",
+        "ジャンル": "作者の技術を向上させるための100魔把",
+        "ツール": "s2k3",
+        "配信/投稿": "可",
+        "作者コメント": "アレックスとリリアのどちらかを主人公に選んでの100人魔王把握です\n基本的には探索と会話だけです",
+        "管理人コメント": "二人のキャラクターで楽しみも二倍ですね！"
+      },
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022s.suppa.jp/ss9a.png",
+          "local": "/screenshots/2022-summer/09-source-1.png",
+          "sha256": "3fd672a79437a0738647f2cfe3242996073683787f8e04109376920b8f8427d2"
+        },
+        {
+          "sourceUrl": "https://viprpg2022s.suppa.jp/ss9b.png",
+          "local": "/screenshots/2022-summer/09-source-2.png",
+          "sha256": "ae4c4b163152ebe1f238c7cb237c3f14505d1c41322f7d0e018967c963338944"
+        }
+      ],
+      "missingImageUrls": [],
+      "cataloguePreviewUrl": "https://viprpg2022s.suppa.jp/ss9a.png",
+      "originalDownloadLinks": [],
+      "sourceIconAbsent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-summer-work-10",
+      "no": "10",
+      "detailUrl": "https://viprpg2022s.suppa.jp/entry.html#id10",
+      "sourceMetadata": {
+        "作者名": "ヒッチハイカー上嶋",
+        "ジャンル": "ksg",
+        "ツール": "2000",
+        "配信/投稿": "可",
+        "作者コメント": "とても短いksgです",
+        "管理人コメント": "緑の子のせいで遺影にしか見えないです"
+      },
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022s.suppa.jp/ss10a.png",
+          "local": "/screenshots/2022-summer/10-source-1.png",
+          "sha256": "2b3dbfe2ee17057732d8e904eda2af825210c6855aed06e0712e6c4076ada7ae"
+        }
+      ],
+      "missingImageUrls": [],
+      "cataloguePreviewUrl": "https://viprpg2022s.suppa.jp/ss10a.png",
+      "originalDownloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1tWLYAiCJC7AHIOWkjagdY1HfBgyNrqIS",
+          "label": "ダウンロード(7/24提出)"
+        }
+      ],
+      "sourceIconAbsent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-summer-work-11",
+      "no": "11",
+      "detailUrl": "https://viprpg2022s.suppa.jp/entry.html#id11",
+      "sourceMetadata": {
+        "作者名": "イロイロ",
+        "ジャンル": "RPG",
+        "ツール": "ツクール2000",
+        "配信/投稿": "^^) _旦~~　どうぞ",
+        "作者コメント": "結構長いです。注)ゲームのやり始め時はBGMとかの関係上少し重かったりします。",
+        "管理人コメント": "夢戦争…一体どんな戦争なんでしょうか"
+      },
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022s.suppa.jp/ss11a.png",
+          "local": "/screenshots/2022-summer/11-source-1.png",
+          "sha256": "a88a4285c99f3a529aa616fde9ffd859c286515c90d3e056eb9db2f405e2fe05"
+        }
+      ],
+      "missingImageUrls": [],
+      "cataloguePreviewUrl": "https://viprpg2022s.suppa.jp/ss11a.png",
+      "originalDownloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1OdretQWWBa0nWNdH3UkJLimxbdKz9PHx",
+          "label": "ダウンロード(7/30更新)"
+        }
+      ],
+      "sourceIconAbsent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-summer-work-12",
+      "no": "12",
+      "detailUrl": "https://viprpg2022s.suppa.jp/entry.html#id12",
+      "sourceMetadata": {
+        "作者名": "もちまる",
+        "ジャンル": "ギミックゲー",
+        "ツール": "2000",
+        "配信/投稿": "ご自由にどうぞ",
+        "作者コメント": "ツクールを買って１週間で仕上げました。\n拙いところ多々ありますが大目に見てくださいませ。",
+        "管理人コメント": "新人ツクラーさんにtktkされちゃうわてりちゃん楽しみです！"
+      },
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022s.suppa.jp/ss12a.png",
+          "local": "/screenshots/2022-summer/12-source-1.png",
+          "sha256": "5eb8651efd72ac1629b20b491606e1dc0fb8468bf07f9993400976a7bd8dd358"
+        }
+      ],
+      "missingImageUrls": [],
+      "cataloguePreviewUrl": "https://viprpg2022s.suppa.jp/ss12a.png",
+      "originalDownloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1e-xsyFBt1ZMV-wfI2Grre0FcAqIKWPY1",
+          "label": "ダウンロード(8/4更新)"
+        }
+      ],
+      "sourceIconAbsent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-summer-work-13",
+      "no": "13",
+      "detailUrl": "https://viprpg2022s.suppa.jp/entry.html#id13",
+      "sourceMetadata": {
+        "作者名": "YuuTa",
+        "ジャンル": "戦車対戦",
+        "ツール": "Steam2003",
+        "配信/投稿": "可",
+        "作者コメント": "１試合にかかる時間は1～5分程度です！\nドンパチうるさいので音量注意です！\n画面がとにかく煙くなるように工夫しました！\n夏だけに、蚊取り線香を焚きながらやるとより臨場感が出るかもしれません！\n無理やりですが2P対戦もできます！友達は別売りです。",
+        "管理人コメント": "煙で自機が見えなくなるくらいのやつが好きです"
+      },
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022s.suppa.jp/ss13a.PNG",
+          "local": "/screenshots/2022-summer/13-source-1.png",
+          "sha256": "ab46107897cd15b77d452adc5a1afd8f2a24bc847f62b994ee9f5eef75b7aaad"
+        },
+        {
+          "sourceUrl": "https://viprpg2022s.suppa.jp/ss13b.png",
+          "local": "/screenshots/2022-summer/13-source-2.png",
+          "sha256": "ab1e6df2b345902b6611c28c0582a895bed443b8f0d28b5cd3c3e6f3e9819bdc"
+        }
+      ],
+      "missingImageUrls": [],
+      "cataloguePreviewUrl": "https://viprpg2022s.suppa.jp/ss13a.PNG",
+      "originalDownloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1WNTskyy6_2xl_98UC-8m0dOg5o2fy35F",
+          "label": "ダウンロード(8/31提出)"
+        }
+      ],
+      "sourceIconAbsent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-summer-work-14",
+      "no": "14",
+      "detailUrl": "https://viprpg2022s.suppa.jp/entry.html#id14",
+      "sourceMetadata": {
+        "作者名": "ナラネーヨ",
+        "ジャンル": "見るゲ",
+        "ツール": "2000",
+        "配信/投稿": "やっておしまい！\n\n（問題ないとは思うけど一応自己責任）",
+        "作者コメント": "頭空っぽにして見る作品です\n\nたまにミニゲームっぽいのが挟まります（スキップ可）\n\n\nアーイ！ア、アーイ！エビバディパッｓ（終）",
+        "管理人コメント": "わてモン１５１匹ゲットー！"
+      },
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022s.suppa.jp/ss14a.png",
+          "local": "/screenshots/2022-summer/14-source-1.bmp",
+          "sha256": "86cb74e131035c179632841257358fbdaf162eae12c1ac93d2be7382327c93e8"
+        },
+        {
+          "sourceUrl": "https://viprpg2022s.suppa.jp/ss14b.png",
+          "local": "/screenshots/2022-summer/14-source-2.bmp",
+          "sha256": "b8c8f85c90a736ed8f34ac54a03d3127fb589ae03ea529c9f31859e301d5bec4"
+        }
+      ],
+      "missingImageUrls": [],
+      "cataloguePreviewUrl": "https://viprpg2022s.suppa.jp/ss14a.png",
+      "originalDownloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1ENbf8ypU8gczFbHAOBpBYfoTIMyEW71L",
+          "label": "ダウンロード(8/10提出)"
+        }
+      ],
+      "sourceIconAbsent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-summer-work-15",
+      "no": "15",
+      "detailUrl": "https://viprpg2022s.suppa.jp/entry.html#id15",
+      "sourceMetadata": {
+        "作者名": "おりおん",
+        "ジャンル": "RPG",
+        "ツール": "MZ",
+        "配信/投稿": "OK/OK",
+        "作者コメント": "普通のRPGをいっぺん作ってみたかった。",
+        "管理人コメント": "これが…異世界転生ってやつですね！"
+      },
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022s.suppa.jp/ss15a.png",
+          "local": "/screenshots/2022-summer/15-source-1.png",
+          "sha256": "09abd1ead22243d76114b8b110558e0a7d92bb712f1c36e94bca2efe1859225e"
+        },
+        {
+          "sourceUrl": "https://viprpg2022s.suppa.jp/ss15b.png",
+          "local": "/screenshots/2022-summer/15-source-2.png",
+          "sha256": "e922a21cdd2c776b04bf12f9687a02ed9141a5fe5a2c23501ea03f4be9749500"
+        }
+      ],
+      "missingImageUrls": [],
+      "cataloguePreviewUrl": "https://viprpg2022s.suppa.jp/ss15a.png",
+      "originalDownloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1tpi2UcWjMm_gOTGhZZzX61Zqu-QNcFHg",
+          "label": "ダウンロード(8/6提出)"
+        }
+      ],
+      "sourceIconAbsent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-summer-work-16",
+      "no": "16",
+      "detailUrl": "https://viprpg2022s.suppa.jp/entry.html#id16",
+      "sourceMetadata": {
+        "作者名": "ソソ集制作委員会",
+        "ジャンル": "アンソロジー見るゲ",
+        "ツール": "steam2003",
+        "配信/投稿": "可/可",
+        "作者コメント": "カマソッソが帰ってきたッ！！",
+        "管理人コメント": "お盆の時期なので何が帰ってきてもヨシ！"
+      },
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022s.suppa.jp/ss16a.png",
+          "local": "/screenshots/2022-summer/16-source-1.png",
+          "sha256": "b723adc830442bbdb01224cb67155793ae213fd611071dbb9716a4b4a2cccb1a"
+        },
+        {
+          "sourceUrl": "https://viprpg2022s.suppa.jp/ss16b.png",
+          "local": "/screenshots/2022-summer/16-source-2.png",
+          "sha256": "1a0c61fb3c7843b3f6981cdbee851dce255b92e9297824118c6d1222bd1b49a5"
+        }
+      ],
+      "missingImageUrls": [],
+      "cataloguePreviewUrl": "https://viprpg2022s.suppa.jp/ss16a.png",
+      "originalDownloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1A4l6859T7y5JTTD5-e-JvItw-DA9LdH9",
+          "label": "ダウンロード(8/20更新)"
+        }
+      ],
+      "sourceIconAbsent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-summer-work-17",
+      "no": "17",
+      "detailUrl": "https://viprpg2022s.suppa.jp/entry.html#id17",
+      "sourceMetadata": {
+        "作者名": "funyara。",
+        "ジャンル": "なんちゃって無理矢理ミステリー",
+        "ツール": "steam2003",
+        "配信/投稿": "可/可",
+        "作者コメント": "見るゲです。初投稿です\nあまり代わり映えしないマップでキャラがダラダラ喋ります\n出来れば音量少し大き目でプレイして頂けると嬉しいです\n色々拙いですがよろしくお願いします\n\n※ウィルスソフト等によっては誤検出により起動ファイルが削除されてしまう事がある様です\nお手数ですがウィルスソフトの例外設定を行い、同封のzip内のRPG_RT.exeを解凍して下さい\nあと誤字修正少し行いました",
+        "管理人コメント": "やみっちちゃんのおっぱいはチョコ味なのか？このミステリーを調べるために我々は作品をDLした"
+      },
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022s.suppa.jp/ss17a.png",
+          "local": "/screenshots/2022-summer/17-source-1.png",
+          "sha256": "abf1fd9c794cc8c7764bda207f9a654fd9db58e32f3683dbb9e84d2281c412d1"
+        }
+      ],
+      "missingImageUrls": [],
+      "cataloguePreviewUrl": "https://viprpg2022s.suppa.jp/ss17a.png",
+      "originalDownloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1Bh33VqyvQgTJP76ZtW-kqNAKY4ZQ1xjz",
+          "label": "ダウンロード(8/31更新)"
+        }
+      ],
+      "sourceIconAbsent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-summer-work-18",
+      "no": "18",
+      "detailUrl": "https://viprpg2022s.suppa.jp/entry.html#id18",
+      "sourceMetadata": {
+        "作者名": "わてりちゃん",
+        "ジャンル": "10分で終わるキャラ紹介ksg",
+        "ツール": "ツクール2000",
+        "配信/投稿": "可",
+        "作者コメント": "人類絶滅しろ",
+        "管理人コメント": "作者さんに幸せ分けてあげてー！"
+      },
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022s.suppa.jp/ss18a.png",
+          "local": "/screenshots/2022-summer/18-source-1.png",
+          "sha256": "8f728bf1d486ee05eb4dd31dfa6775a744c9f104653859989116376963568802"
+        }
+      ],
+      "missingImageUrls": [],
+      "cataloguePreviewUrl": "https://viprpg2022s.suppa.jp/ss18a.png",
+      "originalDownloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1KJTIIcg-8bqSzJR7QkqTsPKTS8X6E6vu",
+          "label": "ダウンロード(8/11提出)"
+        }
+      ],
+      "sourceIconAbsent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-summer-work-19",
+      "no": "19",
+      "detailUrl": "https://viprpg2022s.suppa.jp/entry.html#id19",
+      "sourceMetadata": {
+        "作者名": "ヌッ！ダグバ・ゼバ",
+        "ジャンル": "ksg",
+        "ツール": "RPGツクール２０００",
+        "配信/投稿": "いいよ",
+        "作者コメント": "五分で終わる",
+        "管理人コメント": "愚痴を聞いてくれる人がいるという幸せ"
+      },
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022s.suppa.jp/ss19a.png",
+          "local": "/screenshots/2022-summer/19-source-1.png",
+          "sha256": "c0f852928a8f71ab8cbc71e771ab15cecbe584c6969211bac21e4a92e22325e0"
+        }
+      ],
+      "missingImageUrls": [
+        "https://viprpg2022s.suppa.jp/ss19a.jpg"
+      ],
+      "cataloguePreviewUrl": "https://viprpg2022s.suppa.jp/ss19a.png",
+      "originalDownloadLinks": [],
+      "sourceIconAbsent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-summer-work-20",
+      "no": "20",
+      "detailUrl": "https://viprpg2022s.suppa.jp/entry.html#id20",
+      "sourceMetadata": {
+        "作者名": "みどり＆nanasinegi",
+        "ジャンル": "ksg",
+        "ツール": "2000",
+        "配信/投稿": "可/可",
+        "作者コメント": "ジグソーパズルのピースがはまるようです",
+        "管理人コメント": "男と女、光と闇、ホモとノンケ…"
+      },
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022s.suppa.jp/ss20a.jpg",
+          "local": "/screenshots/2022-summer/20-source-1.jpg",
+          "sha256": "ea205dc9083fe9649d9b49985d3d18a7468e81b312e0ed3d40d317ee69051c53"
+        }
+      ],
+      "missingImageUrls": [],
+      "cataloguePreviewUrl": "https://viprpg2022s.suppa.jp/ss20a.jpg",
+      "originalDownloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1pScZI_KvEtgezUXmgCXlf76qtQDww-TZ",
+          "label": "ダウンロード(8/17提出)"
+        }
+      ],
+      "sourceIconAbsent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-summer-work-21",
+      "no": "21",
+      "detailUrl": "https://viprpg2022s.suppa.jp/entry.html#id21",
+      "sourceMetadata": {
+        "作者名": "表現の自由剣術士",
+        "ジャンル": "ksg",
+        "ツール": "多分VXAかs2003",
+        "配信/投稿": "可/可",
+        "作者コメント": "一理あるよ　無惨\nでもさ　もう少し言い方ってものがあるだろ…\n\n　湧き出す怒り―――――\n　次号、表紙&巻頭カラーで決戦開始!!!\n\n※さくしゃの過酷な実生活的に実質製作期間2時間くらいになるので多分9割がた間に合いません",
+        "管理人コメント": "作っても作っても満足出来ないんです"
+      },
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022s.suppa.jp/ss21a.png",
+          "local": "/screenshots/2022-summer/21-source-1.png",
+          "sha256": "30d2414621a33ea70b19e6c14cab02fd5fa5d3ff369a12562ba9185ce62dc493"
+        },
+        {
+          "sourceUrl": "https://viprpg2022s.suppa.jp/ss21b.png",
+          "local": "/screenshots/2022-summer/21-source-2.png",
+          "sha256": "3f20fbc3fdb31bb1a59d42fedd0f26d0b72448b1dc3d34dff6993f98f7ff71e8"
+        }
+      ],
+      "missingImageUrls": [],
+      "cataloguePreviewUrl": "https://viprpg2022s.suppa.jp/ss21a.png",
+      "originalDownloadLinks": [],
+      "sourceIconAbsent": true,
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-summer-work-22",
+      "no": "22",
+      "detailUrl": "https://viprpg2022s.suppa.jp/entry.html#id22",
+      "sourceMetadata": {
+        "作者名": "ジャスティス",
+        "ジャンル": "レビュー",
+        "ツール": "ツクール２０００",
+        "配信/投稿": "他作者様の作品を扱ってるため非推奨です",
+        "作者コメント": "「夏祭りを味わい尽くしてもらいたい」\nそんな思いを持って、二人の幼女が立ち上がった！！\n果たして二人のレビューはうまくいくのか！？\n\n暇な夏だったので夏祭りでゲームをいっぱいやってゲームが面白かったので面白かったなあと思ってレビューしたいなあと思ったからレビューをしようと思いました。\n人のフンドシでしか相撲を取れない人間にとっては天職です。\n夏競馬で惨敗した屈辱を人のフンドシに塗り込んで一生懸命四股を踏みます。\nでもそれはそれとして遅刻はします。",
+        "管理人コメント": "ＶＩＰツクスレは夢届けるレビュアーも応援しています"
+      },
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022s.suppa.jp/ss22a.jpg",
+          "local": "/screenshots/2022-summer/22-source-1.jpg",
+          "sha256": "a224367060b134b604010e0f50e228142daa70ccc006b3fa13f3b6dbc6609860"
+        },
+        {
+          "sourceUrl": "https://viprpg2022s.suppa.jp/ss22b.jpg",
+          "local": "/screenshots/2022-summer/22-source-2.jpg",
+          "sha256": "13dbda639d5adf74b9e6835c17c9f6605cbaf32af362bbee088b39cb27c8b55c"
+        }
+      ],
+      "missingImageUrls": [],
+      "cataloguePreviewUrl": "https://viprpg2022s.suppa.jp/ss22a.jpg",
+      "originalDownloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1q8vu_FXUolJPlZcY4Yq9T4QKUndkv3HS",
+          "label": "ダウンロード(8/31提出)"
+        }
+      ],
+      "sourceIconAbsent": true,
+      "packagesDownloaded": false
+    }
+  ],
+  "bannerSources": [
+    {
+      "sourceUrl": "https://viprpg2022s.suppa.jp/s2022.png",
+      "local": "/banners/2022-summer/current-source.png",
+      "sha256": "a02a7574bf846d217506d195c9d7876eb6a011d8a8e19f30927a90f178e7acc0"
+    }
+  ],
+  "titleDifferences": [
+    {
+      "no": "11",
+      "title": "夢戦争～Dream Wars～",
+      "originalTitle": "夢戦争～Dream　Wars～",
+      "catalogueTitle": "夢戦争～Dream　Wars～",
+      "normalizedEquivalent": true
+    }
+  ],
+  "formatChanges": [
+    {
+      "sourceUrl": "https://viprpg2022s.suppa.jp/ss14a.png",
+      "actualExtension": "bmp"
+    },
+    {
+      "sourceUrl": "https://viprpg2022s.suppa.jp/ss14b.png",
+      "actualExtension": "bmp"
+    }
+  ],
+  "handling": "Direct source archival without work-content or image-pixel screening. Preserve all 23 identities including No.00; full source metadata, comments, actual displayed/hover images and source download URLs. Catalogue thumbnails are screenshots, not separate invented icons. Original empty TOP links are explicitly repaired in replay only. Game packages not downloaded.",
+  "desktopReview": "passed-with-documented-source-hover-gap"
+}

@@ -1,0 +1,69 @@
+{
+  "festivalId": "2022-summer",
+  "reviewedAt": "2026-10-20",
+  "scope": "desktop-only",
+  "method": "Browser DOM geometry, image loading and actual clicks; no work-content or image-pixel screening.",
+  "formatted": {
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    },
+    "routes": 23,
+    "images": 36,
+    "missingMain": [],
+    "overflow": [],
+    "initialPendingImageRoutes": [
+      "03",
+      "08",
+      "09",
+      "11",
+      "12"
+    ],
+    "loadFollowup": "All pending lazy images completed with naturalWidth > 0 after network idle; no code change or server restart used as a substitute for observation.",
+    "finalBrokenImages": []
+  },
+  "original": {
+    "viewport": {
+      "width": 1183,
+      "height": 638
+    },
+    "documents": 2,
+    "articles": 23,
+    "indexImages": 41,
+    "entryImages": 23,
+    "articleWidth": 1000,
+    "brokenImages": [],
+    "overflow": [],
+    "background": "local bg.jpg",
+    "correctedTopLinks": 23,
+    "hoverGapNotes": 1
+  },
+  "embedded": {
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    },
+    "iframeWidth": 1185,
+    "iframeHeight": 640,
+    "sandbox": "allow-scripts",
+    "catalogueToEntry14Fragment": "passed; article top 0.46875px",
+    "entry14To23EntryCatalogue": "passed"
+  },
+  "interactions": {
+    "bmp14MouseEnter": "ss14a.bmp -> ss14b.bmp; loaded",
+    "bmp14MouseLeave": "ss14b.bmp -> ss14a.bmp; loaded",
+    "viewerOpenNextClose": "passed; both BMPs loaded",
+    "formatted14To19Navigation": "passed; source gap note and normal image present"
+  },
+  "limits": [
+    "No.19 original hover JPG is 404 and exact Wayback CDX has no record; normal PNG retained and labelled.",
+    "No game files downloaded or verified.",
+    "No mobile or image-pixel/content screening performed."
+  ],
+  "build": {
+    "buildId": "EcY3Y7ce30fpYcsYfdnck",
+    "prerenderedRoutes": 4154
+  },
+  "lint": "passed",
+  "dataValidation": "passed"
+}

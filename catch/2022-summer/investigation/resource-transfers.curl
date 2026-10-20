@@ -1,0 +1,558 @@
+url = "https://viprpg2022s.suppa.jp/s2022.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-0.bin"
+write-out = "0 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/ss0a.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-1.bin"
+write-out = "1 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/ss1a.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-2.bin"
+write-out = "2 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/ss2a.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-3.bin"
+write-out = "3 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/ss3a.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-4.bin"
+write-out = "4 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/ss4a.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-5.bin"
+write-out = "5 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/ss5a.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-6.bin"
+write-out = "6 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/ss6a.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-7.bin"
+write-out = "7 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/ss7a.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-8.bin"
+write-out = "8 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/ss8a.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-9.bin"
+write-out = "9 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/ss9a.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-10.bin"
+write-out = "10 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/ss10a.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-11.bin"
+write-out = "11 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/ss11a.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-12.bin"
+write-out = "12 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/ss12a.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-13.bin"
+write-out = "13 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/ss13a.PNG"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-14.bin"
+write-out = "14 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/ss14a.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-15.bin"
+write-out = "15 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/ss15a.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-16.bin"
+write-out = "16 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/ss16a.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-17.bin"
+write-out = "17 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/ss17a.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-18.bin"
+write-out = "18 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/ss18a.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-19.bin"
+write-out = "19 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/ss19a.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-20.bin"
+write-out = "20 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/ss20a.jpg"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-21.bin"
+write-out = "21 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/ss21a.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-22.bin"
+write-out = "22 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/ss22a.jpg"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-23.bin"
+write-out = "23 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/s2006.jpg"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-24.bin"
+write-out = "24 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/s2007.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-25.bin"
+write-out = "25 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/s2008.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-26.bin"
+write-out = "26 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/s2009.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-27.bin"
+write-out = "27 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/s2010.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-28.bin"
+write-out = "28 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/s2011.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-29.bin"
+write-out = "29 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/s2012.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-30.bin"
+write-out = "30 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/s2013.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-31.bin"
+write-out = "31 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/s2014.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-32.bin"
+write-out = "32 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/s2015.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-33.bin"
+write-out = "33 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/s2016a.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-34.bin"
+write-out = "34 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/s2016b.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-35.bin"
+write-out = "35 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/s2017.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-36.bin"
+write-out = "36 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/s2018.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-37.bin"
+write-out = "37 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/s2019.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-38.bin"
+write-out = "38 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/s2020.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-39.bin"
+write-out = "39 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/s2021.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-40.bin"
+write-out = "40 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/ss1b.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-41.bin"
+write-out = "41 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/ss2b.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-42.bin"
+write-out = "42 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/ss3b.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-43.bin"
+write-out = "43 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/ss4b.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-44.bin"
+write-out = "44 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/ss5b.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-45.bin"
+write-out = "45 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/ss8b.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-46.bin"
+write-out = "46 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/ss9b.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-47.bin"
+write-out = "47 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/ss13b.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-48.bin"
+write-out = "48 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/ss14b.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-49.bin"
+write-out = "49 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/ss15b.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-50.bin"
+write-out = "50 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/ss16b.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-51.bin"
+write-out = "51 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/ss19a.jpg"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-52.bin"
+write-out = "52 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/ss21b.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-53.bin"
+write-out = "53 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/ss22b.jpg"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-54.bin"
+write-out = "54 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2022s.suppa.jp/bg.jpg"
+proxy = "http://127.0.0.1:37997"
+max-time = 35
+silent
+show-error
+location
+output = "catch/2022-summer/source/resources/asset-55.bin"
+write-out = "55 %{http_code} %{url_effective} %{size_download}\n"
