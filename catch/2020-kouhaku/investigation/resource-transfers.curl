@@ -1,0 +1,1548 @@
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss01.gif"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-0.bin"
+write-out = "0 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i01.gif"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-1.bin"
+write-out = "1 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss02.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-2.bin"
+write-out = "2 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i02.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-3.bin"
+write-out = "3 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss03.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-4.bin"
+write-out = "4 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i03.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-5.bin"
+write-out = "5 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss04.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-6.bin"
+write-out = "6 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i04.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-7.bin"
+write-out = "7 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss05.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-8.bin"
+write-out = "8 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i05.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-9.bin"
+write-out = "9 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss06.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-10.bin"
+write-out = "10 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i06.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-11.bin"
+write-out = "11 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss07.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-12.bin"
+write-out = "12 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i07.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-13.bin"
+write-out = "13 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss08.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-14.bin"
+write-out = "14 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/2000.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-15.bin"
+write-out = "15 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss09.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-16.bin"
+write-out = "16 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i09.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-17.bin"
+write-out = "17 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss10.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-18.bin"
+write-out = "18 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i10.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-19.bin"
+write-out = "19 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss11c.jpg"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-20.bin"
+write-out = "20 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i11.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-21.bin"
+write-out = "21 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss12.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-22.bin"
+write-out = "22 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/MZ.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-23.bin"
+write-out = "23 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss13.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-24.bin"
+write-out = "24 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i13.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-25.bin"
+write-out = "25 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss14.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-26.bin"
+write-out = "26 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i14.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-27.bin"
+write-out = "27 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss15.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-28.bin"
+write-out = "28 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i15.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-29.bin"
+write-out = "29 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss16.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-30.bin"
+write-out = "30 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i16.gif"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-31.bin"
+write-out = "31 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss17.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-32.bin"
+write-out = "32 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i17.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-33.bin"
+write-out = "33 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss18.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-34.bin"
+write-out = "34 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i18.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-35.bin"
+write-out = "35 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss19.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-36.bin"
+write-out = "36 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss20.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-37.bin"
+write-out = "37 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss21.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-38.bin"
+write-out = "38 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss22.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-39.bin"
+write-out = "39 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i22.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-40.bin"
+write-out = "40 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss23.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-41.bin"
+write-out = "41 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i23.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-42.bin"
+write-out = "42 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss24.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-43.bin"
+write-out = "43 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i24.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-44.bin"
+write-out = "44 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss25.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-45.bin"
+write-out = "45 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i25.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-46.bin"
+write-out = "46 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/_ss.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-47.bin"
+write-out = "47 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i00.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-48.bin"
+write-out = "48 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss27.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-49.bin"
+write-out = "49 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i27.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-50.bin"
+write-out = "50 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss28.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-51.bin"
+write-out = "51 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i28.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-52.bin"
+write-out = "52 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss29.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-53.bin"
+write-out = "53 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i29.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-54.bin"
+write-out = "54 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss30.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-55.bin"
+write-out = "55 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i30.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-56.bin"
+write-out = "56 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss31.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-57.bin"
+write-out = "57 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i31.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-58.bin"
+write-out = "58 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss32.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-59.bin"
+write-out = "59 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i32.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-60.bin"
+write-out = "60 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss33.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-61.bin"
+write-out = "61 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i33.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-62.bin"
+write-out = "62 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss34.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-63.bin"
+write-out = "63 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i34.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-64.bin"
+write-out = "64 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss35.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-65.bin"
+write-out = "65 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i35.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-66.bin"
+write-out = "66 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss36.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-67.bin"
+write-out = "67 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i36.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-68.bin"
+write-out = "68 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss37.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-69.bin"
+write-out = "69 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i37.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-70.bin"
+write-out = "70 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss38.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-71.bin"
+write-out = "71 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i38.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-72.bin"
+write-out = "72 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss39.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-73.bin"
+write-out = "73 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss40.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-74.bin"
+write-out = "74 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i40.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-75.bin"
+write-out = "75 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss41.jpg"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-76.bin"
+write-out = "76 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i41.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-77.bin"
+write-out = "77 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss42.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-78.bin"
+write-out = "78 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i42.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-79.bin"
+write-out = "79 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss43.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-80.bin"
+write-out = "80 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss44.jpg"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-81.bin"
+write-out = "81 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i44.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-82.bin"
+write-out = "82 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss45.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-83.bin"
+write-out = "83 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss46.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-84.bin"
+write-out = "84 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i46.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-85.bin"
+write-out = "85 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss47.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-86.bin"
+write-out = "86 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i47.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-87.bin"
+write-out = "87 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss48.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-88.bin"
+write-out = "88 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss49.gif"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-89.bin"
+write-out = "89 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i49.gif"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-90.bin"
+write-out = "90 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss50.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-91.bin"
+write-out = "91 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/s2003.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-92.bin"
+write-out = "92 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss51.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-93.bin"
+write-out = "93 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i51.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-94.bin"
+write-out = "94 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss52.jpg"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-95.bin"
+write-out = "95 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i52.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-96.bin"
+write-out = "96 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss53.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-97.bin"
+write-out = "97 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss54.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-98.bin"
+write-out = "98 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i54.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-99.bin"
+write-out = "99 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss55.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-100.bin"
+write-out = "100 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i55.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-101.bin"
+write-out = "101 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/95.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-102.bin"
+write-out = "102 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/2003.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-103.bin"
+write-out = "103 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/XP.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-104.bin"
+write-out = "104 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/VX.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-105.bin"
+write-out = "105 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/VXA.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-106.bin"
+write-out = "106 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/MV.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-107.bin"
+write-out = "107 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2000.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-108.bin"
+write-out = "108 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/image01.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-109.bin"
+write-out = "109 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/PIAISS.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-110.bin"
+write-out = "110 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/%E7%B4%85%E7%99%BD2020_No02%E8%A1%A8%E5%BD%B0%E6%8E%B2%E8%BC%89%E7%94%A8.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-111.bin"
+write-out = "111 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/%E3%81%AA%E3%81%84.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-112.bin"
+write-out = "112 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss01b.gif"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-113.bin"
+write-out = "113 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss02b.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-114.bin"
+write-out = "114 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaXP.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-115.bin"
+write-out = "115 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss03b.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-116.bin"
+write-out = "116 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaVXA.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-117.bin"
+write-out = "117 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaDS.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-118.bin"
+write-out = "118 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaMV.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-119.bin"
+write-out = "119 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss05b.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-120.bin"
+write-out = "120 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2003.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-121.bin"
+write-out = "121 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaVX.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-122.bin"
+write-out = "122 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss07b.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-123.bin"
+write-out = "123 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaFes.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-124.bin"
+write-out = "124 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha95.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-125.bin"
+write-out = "125 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss11.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-126.bin"
+write-out = "126 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss11b.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-127.bin"
+write-out = "127 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaMVTry.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-128.bin"
+write-out = "128 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaMZ.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-129.bin"
+write-out = "129 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss13b.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-130.bin"
+write-out = "130 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss14b.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-131.bin"
+write-out = "131 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss15b.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-132.bin"
+write-out = "132 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss19b.jpg"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-133.bin"
+write-out = "133 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss20b.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-134.bin"
+write-out = "134 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss21b.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-135.bin"
+write-out = "135 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss22b.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-136.bin"
+write-out = "136 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaDSplus.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-137.bin"
+write-out = "137 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss24b.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-138.bin"
+write-out = "138 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss25b.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-139.bin"
+write-out = "139 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss27b.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-140.bin"
+write-out = "140 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss28c.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-141.bin"
+write-out = "141 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss29b.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-142.bin"
+write-out = "142 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss30b.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-143.bin"
+write-out = "143 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss34b.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-144.bin"
+write-out = "144 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss35b.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-145.bin"
+write-out = "145 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss36b.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-146.bin"
+write-out = "146 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss38b.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-147.bin"
+write-out = "147 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss40b.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-148.bin"
+write-out = "148 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss42b.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-149.bin"
+write-out = "149 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss44z.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-150.bin"
+write-out = "150 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss46b.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-151.bin"
+write-out = "151 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss49b.gif"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-152.bin"
+write-out = "152 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss52b.jpg"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-153.bin"
+write-out = "153 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss53b.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/asset-154.bin"
+write-out = "154 %{http_code} %{url_effective} %{size_download}\n"

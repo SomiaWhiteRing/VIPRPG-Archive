@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2020-kouhaku",
+  "activeFestival": "2020-summer",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -1812,6 +1812,35 @@
         "catch/2020-gw/investigation/local-http-payloads.json"
       ],
       "notes": "日本源站取得9份原HTML、2份发布者JSON、jQuery／平台及广告标记3份脚本、121份图片，原始载荷全部核对SHA。Heroku entries接口实际404，采用站方发布的data_h_local.json；39个正式作品与两份JSON数组顺序、编号一致，0号样例从top／entries原脚本的纯字面量对象提取，不执行抓取代码。40个既有ID、编号和题名保持，恢复71截图、40图标、34项配布入口和3条真实轮换横幅；旧71截图全部逐字节对应。0号目录／详情的作者及主办留言变体分别保存；25号未指定截图使用源默认图，10项使用源默认图标。原脚本会因34项末尾空截图槽覆盖已有首图，回放滤去空槽并保留真实图片，原JSON不变。保留原jQuery动态表格、截图切换、FRAMESET菜单和图片轮换；捕获JSON直接供原渲染代码读取，避免不透明沙箱内AJAX失败，框架导航仅接受两个所属子窗口消息和已捕获本地页面，权限不变。静态投稿功能和未归档外部论坛／配布正文均用明确来源说明页，不留空白。原貌137文件，静态引用30处无缺失或外部自动加载；动态资源另经40个详情状态与实际框架验证，71个截图切换入口齐全。40整理详情、40动态原貌详情及桌面框内912px内容区、辅助页、主页40项与3横幅通过。实际选择作品1、菜单进入2、SS2切换、横幅轮换、返回目录及停用说明均验证；251展示文件最终HTTP载荷与本地文件SHA一致。没有题材筛选、没有新增受限，游戏包未下载或执行。"
+    },
+    {
+      "festivalId": "2020-kouhaku",
+      "reviewedAt": "2026-10-20",
+      "dataSha256": "975eb9c1133954be6f05341f3c30ea6e43297774de0a44a2919a57d7fff88801",
+      "status": "reviewed-with-exceptions",
+      "works": 56,
+      "screenshotReferences": 84,
+      "iconFiles": 56,
+      "downloadEntries": 44,
+      "originalCatalogueCompleteness": "55-source-slots-including-empty-26-plus-published-00-sample",
+      "outstandingSourceDetails": 1,
+      "outstandingImageSourceUrls": 0,
+      "outstandingScreenshotRows": 0,
+      "outstandingOtherResources": 0,
+      "packageBytesValidated": false,
+      "sourceEvidence": [
+        "catch/2020-kouhaku/recovery.json",
+        "catch/2020-kouhaku/source-comparison.json",
+        "catch/2020-kouhaku/source/live/manifest.json",
+        "catch/2020-kouhaku/source/resources/manifest.json",
+        "catch/2020-kouhaku/investigation/historical-42.json",
+        "catch/2020-kouhaku/investigation/replay-closure.json"
+      ],
+      "desktopEvidence": [
+        "catch/2020-kouhaku/desktop-review.json",
+        "catch/2020-kouhaku/investigation/local-http-payloads.json"
+      ],
+      "notes": "日本源站保存58份HTML、1份CSS和156份有效图片，原始载荷核对SHA。保留54个既有作品ID和题名，补回01前页链接的00样例，并将目录原本仅列编号和共通图片的26号保留为明确标注的空号资料骨架；另存entry000辅助模板，不重复计为作品。共56项，恢复83张现站显示／悬停截图、56处图标、108处主办留言行内图像、44项配布入口和3条本祭横幅。42号旧图与现站同URL载荷不同，香港Wayback的2021-01-02快照取回后与旧文件逐字节一致，作为第84张历史截图注明来源；旧82张画廊载荷全部对应。7项目录／详情元数据差异并列保留。原貌216文件、59份HTML、1227本地引用含悬停目标，无缺失或外部自动加载。颁奖页两张日文文件名图片按实际Unicode路径发布，修复URL编码与磁盘文件名失配。原1280像素截图按桌面可用宽度缩放，30号作者留言连续长文本仅该单元格补换行，原始缓存不变。56整理详情与59原貌文档通过桌面资源及宽度检查，9项首读延迟图复核均加载；首页56项、56图标及3横幅、末项进入并返回保持展开通过。实际沙箱目录进入01、前页到00与辅助000、空号骨架往返、55末尾404链接停用，以及原生悬停GIF往返和整理截图查看器切换／关闭通过。没有题材筛选、没有新增受限，未下载或执行游戏包。"
     }
   ],
   "originalViewsReviewed": [
@@ -2223,6 +2252,13 @@
       "evidence": [
         "catch/2020-gw/original-view.json",
         "catch/2020-gw/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2020-kouhaku",
+      "evidence": [
+        "catch/2020-kouhaku/original-view.json",
+        "catch/2020-kouhaku/desktop-review.json"
       ]
     }
   ],

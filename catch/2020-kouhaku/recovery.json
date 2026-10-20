@@ -1,0 +1,2645 @@
+{
+  "festivalId": "2020-kouhaku",
+  "originalBase": "https://viprpg2020kohaku.xxxxxxxx.jp/",
+  "liveSource": true,
+  "proxyRegion": "Japan",
+  "sourceManifests": [
+    "source/replay/manifest.json"
+  ],
+  "originalResources": {
+    "https://viprpg2020kohaku.xxxxxxxx.jp/": "index.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/result.html": "result.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry01.html": "entry01.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry02.html": "entry02.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry03.html": "entry03.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry04.html": "entry04.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry05.html": "entry05.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry06.html": "entry06.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry07.html": "entry07.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry08.html": "entry08.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry09.html": "entry09.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry10.html": "entry10.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry11.html": "entry11.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry12.html": "entry12.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry13.html": "entry13.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry14.html": "entry14.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry15.html": "entry15.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry16.html": "entry16.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry17.html": "entry17.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry18.html": "entry18.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry19.html": "entry19.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry20.html": "entry20.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry21.html": "entry21.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry22.html": "entry22.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry23.html": "entry23.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry24.html": "entry24.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry25.html": "entry25.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry27.html": "entry27.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry28.html": "entry28.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry29.html": "entry29.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry30.html": "entry30.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry31.html": "entry31.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry32.html": "entry32.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry33.html": "entry33.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry34.html": "entry34.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry35.html": "entry35.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry36.html": "entry36.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry37.html": "entry37.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry38.html": "entry38.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry39.html": "entry39.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry40.html": "entry40.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry41.html": "entry41.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry42.html": "entry42.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry43.html": "entry43.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry44.html": "entry44.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry45.html": "entry45.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry46.html": "entry46.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry47.html": "entry47.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry48.html": "entry48.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry49.html": "entry49.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry50.html": "entry50.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry51.html": "entry51.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry52.html": "entry52.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry53.html": "entry53.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry54.html": "entry54.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry55.html": "entry55.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/styles.css": "styles.css",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry00.html": "entry00.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry000.html": "entry000.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss01.gif": "img/ss/ss01.gif",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i01.gif": "img/icon/i01.gif",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss02.png": "img/ss/ss02.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i02.png": "img/icon/i02.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss03.png": "img/ss/ss03.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i03.png": "img/icon/i03.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss04.png": "img/ss/ss04.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i04.png": "img/icon/i04.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss05.png": "img/ss/ss05.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i05.png": "img/icon/i05.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss06.png": "img/ss/ss06.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i06.png": "img/icon/i06.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss07.png": "img/ss/ss07.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i07.png": "img/icon/i07.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss08.png": "img/ss/ss08.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/2000.png": "img/icon/2000.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss09.png": "img/ss/ss09.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i09.png": "img/icon/i09.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss10.png": "img/ss/ss10.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i10.png": "img/icon/i10.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss11c.jpg": "img/ss/ss11c.jpg",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i11.png": "img/icon/i11.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss12.png": "img/ss/ss12.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/MZ.png": "img/icon/MZ.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss13.png": "img/ss/ss13.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i13.png": "img/icon/i13.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss14.png": "img/ss/ss14.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i14.png": "img/icon/i14.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss15.png": "img/ss/ss15.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i15.png": "img/icon/i15.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss16.png": "img/ss/ss16.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i16.gif": "img/icon/i16.gif",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss17.png": "img/ss/ss17.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i17.png": "img/icon/i17.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss18.png": "img/ss/ss18.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i18.png": "img/icon/i18.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss19.png": "img/ss/ss19.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss20.png": "img/ss/ss20.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss21.png": "img/ss/ss21.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss22.png": "img/ss/ss22.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i22.png": "img/icon/i22.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss23.png": "img/ss/ss23.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i23.png": "img/icon/i23.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss24.png": "img/ss/ss24.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i24.png": "img/icon/i24.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss25.png": "img/ss/ss25.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i25.png": "img/icon/i25.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/_ss.png": "img/ss/_ss.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i00.png": "img/icon/i00.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss27.png": "img/ss/ss27.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i27.png": "img/icon/i27.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss28.png": "img/ss/ss28.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i28.png": "img/icon/i28.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss29.png": "img/ss/ss29.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i29.png": "img/icon/i29.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss30.png": "img/ss/ss30.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i30.png": "img/icon/i30.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss31.png": "img/ss/ss31.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i31.png": "img/icon/i31.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss32.png": "img/ss/ss32.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i32.png": "img/icon/i32.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss33.png": "img/ss/ss33.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i33.png": "img/icon/i33.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss34.png": "img/ss/ss34.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i34.png": "img/icon/i34.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss35.png": "img/ss/ss35.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i35.png": "img/icon/i35.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss36.png": "img/ss/ss36.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i36.png": "img/icon/i36.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss37.png": "img/ss/ss37.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i37.png": "img/icon/i37.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss38.png": "img/ss/ss38.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i38.png": "img/icon/i38.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss39.png": "img/ss/ss39.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss40.png": "img/ss/ss40.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i40.png": "img/icon/i40.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss41.jpg": "img/ss/ss41.jpg",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i41.png": "img/icon/i41.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss42.png": "img/ss/ss42.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i42.png": "img/icon/i42.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss43.png": "img/ss/ss43.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss44.jpg": "img/ss/ss44.jpg",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i44.png": "img/icon/i44.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss45.png": "img/ss/ss45.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss46.png": "img/ss/ss46.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i46.png": "img/icon/i46.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss47.png": "img/ss/ss47.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i47.png": "img/icon/i47.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss48.png": "img/ss/ss48.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss49.gif": "img/ss/ss49.gif",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i49.gif": "img/icon/i49.gif",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss50.png": "img/ss/ss50.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/s2003.png": "img/icon/s2003.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss51.png": "img/ss/ss51.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i51.png": "img/icon/i51.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss52.jpg": "img/ss/ss52.jpg",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i52.png": "img/icon/i52.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss53.png": "img/ss/ss53.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss54.png": "img/ss/ss54.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i54.png": "img/icon/i54.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss55.png": "img/ss/ss55.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i55.png": "img/icon/i55.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/95.png": "img/icon/95.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/2003.png": "img/icon/2003.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/XP.png": "img/icon/XP.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/VX.png": "img/icon/VX.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/VXA.png": "img/icon/VXA.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/MV.png": "img/icon/MV.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2000.png": "img/icon/yusha2000.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/image01.png": "img/image01.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/PIAISS.png": "img/PIAISS.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/%E7%B4%85%E7%99%BD2020_No02%E8%A1%A8%E5%BD%B0%E6%8E%B2%E8%BC%89%E7%94%A8.png": "img/紅白2020_No02表彰掲載用.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/%E3%81%AA%E3%81%84.png": "img/ない.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss01b.gif": "img/ss/ss01b.gif",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss02b.png": "img/ss/ss02b.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaXP.png": "img/icon/yushaXP.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss03b.png": "img/ss/ss03b.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaVXA.png": "img/icon/yushaVXA.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaDS.png": "img/icon/yushaDS.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaMV.png": "img/icon/yushaMV.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss05b.png": "img/ss/ss05b.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2003.png": "img/icon/yusha2003.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaVX.png": "img/icon/yushaVX.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss07b.png": "img/ss/ss07b.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaFes.png": "img/icon/yushaFes.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha95.png": "img/icon/yusha95.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss11.png": "img/ss/ss11.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss11b.png": "img/ss/ss11b.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaMVTry.png": "img/icon/yushaMVTry.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaMZ.png": "img/icon/yushaMZ.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss13b.png": "img/ss/ss13b.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss14b.png": "img/ss/ss14b.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss15b.png": "img/ss/ss15b.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss19b.jpg": "img/ss/ss19b.jpg",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss20b.png": "img/ss/ss20b.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss21b.png": "img/ss/ss21b.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss22b.png": "img/ss/ss22b.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaDSplus.png": "img/icon/yushaDSplus.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss24b.png": "img/ss/ss24b.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss25b.png": "img/ss/ss25b.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss27b.png": "img/ss/ss27b.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss28c.png": "img/ss/ss28c.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss29b.png": "img/ss/ss29b.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss30b.png": "img/ss/ss30b.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss34b.png": "img/ss/ss34b.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss35b.png": "img/ss/ss35b.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss36b.png": "img/ss/ss36b.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss38b.png": "img/ss/ss38b.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss40b.png": "img/ss/ss40b.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss42b.png": "img/ss/ss42b.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss44z.png": "img/ss/ss44z.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss46b.png": "img/ss/ss46b.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss49b.gif": "img/ss/ss49b.gif",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss52b.jpg": "img/ss/ss52b.jpg",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss53b.png": "img/ss/ss53b.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss00.png": "img/ss/ss00.png",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/index.html": "index.html",
+    "https://viprpg2020kohaku.xxxxxxxx.jp/entry26.html": "entry26.html"
+  },
+  "entries": [
+    {
+      "id": "2020-kouhaku-work-00",
+      "no": "00",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry00.html",
+      "detailTitle": "サンプルページ",
+      "catalogueMetadata": {},
+      "sourceMetadata": {
+        "作者": "管理人",
+        "ジャンル": "?",
+        "ツール": "?",
+        "配信/投稿": "可/可",
+        "作者コメント": "前回はだいぶgdってしまったので管理人の感想欄をけしました。\n夏の陣の全作品レビューは個人の感想として後にまとめておくつもりです"
+      },
+      "metadataDifferences": [],
+      "sourceSample": true,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/2000.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss00.png",
+          "local": "/screenshots/2020-kouhaku/00-source-1.png",
+          "sha256": "b0662ee5f8356fb6ab996b1457513488eee251b203133793f5fe29b69b68a185"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2000.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2003.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaVXA.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha95.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaDSplus.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2003.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaMVTry.png"
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-01",
+      "no": "01",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry01.html",
+      "catalogueTitle": "Re：Stars And Lights",
+      "detailTitle": "Re：Stars And Lights",
+      "catalogueMetadata": {
+        "作者": "かすていら",
+        "使用ツール": "Steam2003",
+        "ジャンル": "見るゲ",
+        "配信/投稿": "可/可"
+      },
+      "sourceMetadata": {
+        "作者": "かすていら",
+        "ジャンル": "見るゲ",
+        "ツール": "Steam2003",
+        "配信/投稿": "可/可",
+        "作者コメント": "自分の祭り作品処女作「Stars And Lights」（夏の陣2016 No30、裏夏の陣2016 No24）を今の技術力と感性でリメイクした作品です。\nやみっちとライチの2人が主役の見るゲで、尺は大体1時間ぐらいだと思います。\nストーリーの大筋は原作と大きく変わりませんが、一部展開だったりが変更されたり、新規シーンなどが追加されたりしています。あとUndertale要素は9割消えました。\nあと、画面演出などの方面に関してはもう完全に進化していると思うので、必見です。\n原作未プレイの方は勿論、原作既プレイの方も楽しめる作りだとは思います。\nもうほとんど完成してるので提出自体はいつでも出来ます。"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i01.gif",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss01.gif",
+          "local": "/screenshots/2020-kouhaku/01-source-1.gif",
+          "sha256": "764cda87f47bee91ddf49ed5589a5b53a000e9a4239231a92e5dab1d1384795e"
+        },
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss01b.gif",
+          "local": "/screenshots/2020-kouhaku/01-source-2.gif",
+          "sha256": "5c310c39224484e26d351b6e00d5b60ecac5f14a54f583cf8458ff08734fea93"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2000.png"
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1ve3pSD8ui0TzqwefnU4Ta6KTenWwr4ff",
+          "label": "【DL(68.1MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-02",
+      "no": "02",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry02.html",
+      "catalogueTitle": "もしもおためシングルだったら",
+      "detailTitle": "もしもおためシングルだったら",
+      "catalogueMetadata": {
+        "作者": "雨水葉月",
+        "使用ツール": "VXAce",
+        "ジャンル": "ノンフィールドRPG",
+        "配信/投稿": "非営利に限り両方可"
+      },
+      "sourceMetadata": {
+        "作者": "雨水葉月",
+        "ジャンル": "ノンフィールドRPG",
+        "ツール": "VXAce",
+        "配信/投稿": "非営利に限り両方可",
+        "作者コメント": "GW祭2020で出し損ねた作品です。\n当初よりもシステム面を色々改修しました。\n\n1VS1のシングルバトルスタイルで戦っていくサイドビュー式デフォ戦ゲー。\nステージはノンフィールドスタイルで、双方のスタイルのおためしも兼ねています。\n\n従来の複数人パーティのデフォ戦ゲーと違い、別の味方に回復や蘇生をしてもらうことができず、復活手段も限られるので、味方のHP管理がより重要になります。\n交代はターンを消費せずに基本ノーリスクで行えますが、SSのように交代を封じられることもあります。\n\n前回(夏の陣2019)に引き続き本家ポケモンのシステム再現に重点を置いているので、\n最近ソード・シールドを遊んでいた方にはより楽しんでいただけるかも？\n一応ゴリ押しでもなんとかなる難易度にはなってます。たぶんね。\n\n【2021年1月28日追記】\n追加モード実装版を提出しました。"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i02.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss02.png",
+          "local": "/screenshots/2020-kouhaku/02-source-1.png",
+          "sha256": "81f528e41aa9868e041d773c5461a5e042ba9d2c8a4431c0c21809ffd2fb979b"
+        },
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss02b.png",
+          "local": "/screenshots/2020-kouhaku/02-source-2.png",
+          "sha256": "a25f8cf7f1d6e0cb6a98cb112e8733ac4d7c65967402bb01d2b2395cbe4e806d"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaXP.png"
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1xpilXjLVsRP1s2MiYvfRhcqsQ12saLmX",
+          "label": "【DL(183MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-03",
+      "no": "03",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry03.html",
+      "catalogueTitle": "ネバーメルト",
+      "detailTitle": "ネバーメルト",
+      "catalogueMetadata": {
+        "作者": "あきこ",
+        "使用ツール": "RPGツクール2000",
+        "ジャンル": "魔王把握+探索",
+        "配信/投稿": "だいじょぶ/だいじょぶ"
+      },
+      "sourceMetadata": {
+        "作者": "あきこ",
+        "ジャンル": "魔王把握+探索",
+        "ツール": "RPGツクール2000",
+        "配信/投稿": "だいじょぶ/だいじょぶ",
+        "作者コメント": "やあハッシ～。\n悪い紙がポテチを盗んじゃったんだ。\n君はハサミなんだし、紙なんてバラバラに切り刻んで、ポテチを取り返してよ。\n頼んだよ。悪魔。"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i03.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss03.png",
+          "local": "/screenshots/2020-kouhaku/03-source-1.png",
+          "sha256": "39e7b96c78a9b8ddef3ed4636e12f99b83ac39090469a78d4965337fd36d8163"
+        },
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss03b.png",
+          "local": "/screenshots/2020-kouhaku/03-source-2.png",
+          "sha256": "50acfb344b98c114df8726fb5850ff9a12ff11422a392efdbee89e89c22907c7"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaVXA.png"
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1RTOc-p6feQ5kdlOqJ0PEeN5IOepiJCbb",
+          "label": "【DL(4.26MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-04",
+      "no": "04",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry04.html",
+      "catalogueTitle": "恋々とする涙と夜に吹く風",
+      "detailTitle": "恋々とする涙と夜に吹く風",
+      "catalogueMetadata": {
+        "作者": "音合わせ中に窓動かすと同期ズレて悲しい",
+        "使用ツール": "Steam2003",
+        "ジャンル": "観るゲ(約25分)",
+        "配信/投稿": "可・可（ともに自己責任）"
+      },
+      "sourceMetadata": {
+        "作者": "音合わせ中に窓動かすと同期ズレて悲しい",
+        "ジャンル": "観るゲ(約25分)",
+        "ツール": "Steam2003",
+        "配信/投稿": "配信可・動画可（ともに自己責任）",
+        "作者コメント": "推しカプのウィンディ×やみっちです。"
+      },
+      "metadataDifferences": [
+        {
+          "label": "配信/投稿",
+          "catalogue": "可・可（ともに自己責任）",
+          "detail": "配信可・動画可（ともに自己責任）"
+        }
+      ],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i04.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss04.png",
+          "local": "/screenshots/2020-kouhaku/04-source-1.png",
+          "sha256": "210f966b634f56bad31682a8adae63bd8380f6aba2d62c14cef5359ae0258ae8"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaDS.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaMV.png"
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1XxqcUoUWgZdWvJlf64ecTzITePb8FWVD",
+          "label": "【DL(25.5MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-05",
+      "no": "05",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry05.html",
+      "catalogueTitle": "チデロボ",
+      "detailTitle": "チデロボ",
+      "catalogueMetadata": {
+        "作者": "焼きそば男",
+        "使用ツール": "RPGツクール2000",
+        "ジャンル": "ボールコントロールパズル",
+        "配信/投稿": "可/可"
+      },
+      "sourceMetadata": {
+        "作者": "焼きそば男",
+        "ジャンル": "ボールコントロールパズル",
+        "ツール": "RPGツクール2000",
+        "配信/投稿": "可・可",
+        "作者コメント": "チェンジ\nディレクション\nローリング\nボール"
+      },
+      "metadataDifferences": [
+        {
+          "label": "配信/投稿",
+          "catalogue": "可/可",
+          "detail": "可・可"
+        }
+      ],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i05.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss05.png",
+          "local": "/screenshots/2020-kouhaku/05-source-1.png",
+          "sha256": "4696c51fa3f6c882e049fb778d30379236c1fccb0ee0d0c0db9cdfa22e20427b"
+        },
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss05b.png",
+          "local": "/screenshots/2020-kouhaku/05-source-2.png",
+          "sha256": "8dad6b0b848cda8b04d287ebdb96dc07056821c9d5f6c6cc30680e669ae1d504"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2003.png"
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=10lFSy-vSg63Vmf8nftCrmDVsAA0Y9bW1",
+          "label": "【DL(6.22MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-06",
+      "no": "06",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry06.html",
+      "catalogueTitle": "Green Life!!",
+      "detailTitle": "Green Life!!",
+      "catalogueMetadata": {
+        "作者": "鷹",
+        "使用ツール": "2000",
+        "ジャンル": "生死を賭けた三角関係見るゲ",
+        "配信/投稿": "配信可・ともに可"
+      },
+      "sourceMetadata": {
+        "作者": "鷹",
+        "ジャンル": "生死を賭けた三角関係見るゲ",
+        "ツール": "2000",
+        "配信/投稿": "配信可・ともに可",
+        "作者コメント": "死者の女王ヘルは今、大変な憤りを感じていた！\n死を迎える予定だったサモンという男が未だに冥界へと送られてこないのだ！\n\n一方、その頃、地上では、\nサモンの隣には絶対の健康を約束する「最強の少女」が立っていた……\n\nこれは、一人の男の生死を賭けた、「死の運命」と「究極の健康」の戦いである……"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i06.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss06.png",
+          "local": "/screenshots/2020-kouhaku/06-source-1.png",
+          "sha256": "439a6b3ceaa9378557d761f74ec663bdde717ff8eab827f487a219b62d4c9daa"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaXP.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaVX.png"
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1_hXbOP9QtE6flI2OeIxQAxQ72YoToocT",
+          "label": "【DL(8.0MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-07",
+      "no": "07",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry07.html",
+      "catalogueTitle": "AQUHADE35",
+      "detailTitle": "AQUHADE35",
+      "catalogueMetadata": {
+        "作者": "AQUHADEMASTER",
+        "使用ツール": "RPGツクール2000",
+        "ジャンル": "横流しのコンビニ弁当詰め合わせ",
+        "配信/投稿": "両方自己責任"
+      },
+      "sourceMetadata": {
+        "作者": "AQUHADEMASTER",
+        "ジャンル": "横流しのコンビニ弁当詰め合わせ",
+        "ツール": "RPGツクール2000",
+        "配信/投稿": "両方自己責任",
+        "作者コメント": "夏の陣で力を使い果たした感があるので紅白はksg35連発で締めくくる事にしました。\n性懲りもなくアクハデメインです。\n\n※注意\nアクア、ハデス両方が出演しない話もあるかもしれません。\n当ksgは祭りサイトでのダウンロード専用です。\nマルチプレイは出来ません。\n2021年3月末までの限定公開です。(これは＋うそです＋)\n\n年始の予告なんてなかった。\n(制作当初はAQUHADE100の予定でしたが時間が足りなさすぎるので妥協しました。)"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i07.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss07.png",
+          "local": "/screenshots/2020-kouhaku/07-source-1.png",
+          "sha256": "1c85be0780a2859ea5aead92e2458c144cfd217526eff52eee94dfe25469cb9a"
+        },
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss07b.png",
+          "local": "/screenshots/2020-kouhaku/07-source-2.png",
+          "sha256": "23bac124728536c3b86981d0f807ef9bbe19a912b70b9dd0b2c6222d2eb99ef0"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2003.png"
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1x6jvTFgrpwiyRMGOfh299hVgCRxzlyFp",
+          "label": "【DL(13.3MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-08",
+      "no": "08",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry08.html",
+      "catalogueTitle": "死してなお永遠に",
+      "detailTitle": "死してなお永遠に",
+      "catalogueMetadata": {
+        "作者": "OJO-B",
+        "使用ツール": "ツクール2000",
+        "ジャンル": "読み物",
+        "配信/投稿": "可"
+      },
+      "sourceMetadata": {
+        "作者": "OJO-B",
+        "ジャンル": "読み物",
+        "ツール": "ツクール2000",
+        "配信/投稿": "可",
+        "作者コメント": "このお話はバッドエンドです\n美しいお話を目指しました"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/2000.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss08.png",
+          "local": "/screenshots/2020-kouhaku/08-source-1.png",
+          "sha256": "dc90dc60eb7fc2c8e0593f231ad5ac24a994811a0ddf7efe412c574b9e26d665"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaFes.png"
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1hxtZxHF6w3SRoYtiBOF_OMjic6W6e7D_",
+          "label": "【DL(17.8MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-09",
+      "no": "09",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry09.html",
+      "catalogueTitle": "ゴメス☆ジャンケン",
+      "detailTitle": "ゴメス☆ジャンケン",
+      "catalogueMetadata": {
+        "作者": "NONE",
+        "使用ツール": "Steam版ツクール2003",
+        "ジャンル": "動体視力ゲー",
+        "配信/投稿": "可"
+      },
+      "sourceMetadata": {
+        "作者": "NONE",
+        "ジャンル": "動体視力ゲー",
+        "ツール": "Steam版ツクール2003",
+        "配信/投稿": "可",
+        "作者コメント": "1プレイ10分程度\nジャンケンだけど運ゲーではない\n素早く動くゴメスたちを見逃すな！\n\n(zipファイル内に実行ファイルが入っているので解凍してお楽しみください\nパスワードは「v」一文字)"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i09.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss09.png",
+          "local": "/screenshots/2020-kouhaku/09-source-1.png",
+          "sha256": "f4f84a2016673390732f9ae93d633bf08c0f81993489370fd4101830a935f91b"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha95.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaVXA.png"
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1sOIiv_KWATfNkqiFyDyRSuogwmMEy_5z",
+          "label": "【DL(854KB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-10",
+      "no": "10",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry10.html",
+      "catalogueTitle": "I'll be Brave ～Re：だって勇者だもの～",
+      "detailTitle": "I'll be Brave ～Re：だって勇者だもの～",
+      "catalogueMetadata": {
+        "作者": "◆AMAlKoCBjkNn",
+        "使用ツール": "Steam版2003",
+        "ジャンル": "見るゲ",
+        "配信/投稿": "全面禁止"
+      },
+      "sourceMetadata": {
+        "作者": "◆AMAlKoCBjkNn",
+        "ジャンル": "見るゲ",
+        "ツール": "Steam版2003",
+        "配信/投稿": "全面禁止",
+        "作者コメント": "2008紅白作品「だって勇者だもの」のセルフリメイクです。\n10年記念として挑みましたが、2年遅れました。\n\n～前作との違い～\n・お約束は変えていませんがほぼ別物です\n・なので前作の履修は不要です\n・操作やデフォ戦はなくなりました。100％見るゲです\n・前作発表以後に出たキャラや逆にオミットされたキャラがいます"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i10.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss10.png",
+          "local": "/screenshots/2020-kouhaku/10-source-1.png",
+          "sha256": "55a5b0f70fc7808f73cff9991b24c9fc29ea06706180c49af93e61b1319a0899"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaVX.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaXP.png"
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1ecOTSEoGQ0ZR3qIRMy10IamjBpIi7XJ8",
+          "label": "【DL(5.6MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-11",
+      "no": "11",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry11.html",
+      "catalogueTitle": "もしもエムブレム花鳥風月(体験版)",
+      "detailTitle": "もしもエムブレム花鳥風月(体験版)",
+      "catalogueMetadata": {
+        "作者": "宮永ウインディオ",
+        "使用ツール": "MV",
+        "ジャンル": "SRPGもどき",
+        "配信/投稿": "可/可"
+      },
+      "sourceMetadata": {
+        "作者": "宮永ウインディオ",
+        "ジャンル": "SRPGもどき",
+        "ツール": "MV",
+        "配信/投稿": "可/可",
+        "作者コメント": "FE風花雪月をオマージュして見切り発車で作ったSRPGもどきの体験版のDL版です。\n夏の陣で期間内に出すことが出来なかったので、改めてこっちに出します。\n今は序章から3章くらいまでいけるので、2~3時間くらい遊べると思います。\n\nもしもシリーズ(VIPRPG)の予備知識や本家FEの知識もそんなに要りませんが、両方知ってるとより楽しめます。\n序盤も序盤なので現時点では大丈夫だとは思いますが、原作のネタバレと思わしき要素も少しだけ出てくるかもしれません。\n\n戦闘バランスは少々易しめで、ユニットがやられても撤退扱いで次の戦闘では復活するので\nSRPGやった事ない人でもそこそこ楽しめるはず。\nただ序盤のうちはMPの消耗が激しいので、魔法や戦技などは計画的に使いましょう。\n\nShiftを押しながらニューゲームを選ぶと製作室みたいなとこに飛べます。まだ序盤も序盤までの体験版なのに飛べます。\n第一部の分まで出来上がったらここの感想掲示板で更新報告するかもね。"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i11.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss11.png",
+          "local": "/screenshots/2020-kouhaku/11-source-1.png",
+          "sha256": "c3f1a23fc80fd64ac8aa292acc7aaaad2ce71b0cae60133efaf27e16e79ef8cf"
+        },
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss11b.png",
+          "local": "/screenshots/2020-kouhaku/11-source-2.png",
+          "sha256": "fb64e44ff6a0e31eb32ada8d4d94385eedf1eb07bb77c3b679c6148479c47bdf"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2000.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2003.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaMVTry.png"
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1w8b6rL1AZfhSw3ym7ZX36FFsuMwtsn2k",
+          "label": "【DL(139MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-12",
+      "no": "12",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry12.html",
+      "catalogueTitle": "ナーラム転生",
+      "detailTitle": "ナーラム転生",
+      "catalogueMetadata": {
+        "作者": "エンガワ",
+        "使用ツール": "RPGツクールMZ",
+        "ジャンル": "人外魔境RPG",
+        "配信/投稿": "どうぞ"
+      },
+      "sourceMetadata": {
+        "作者": "エンガワ",
+        "ジャンル": "人外魔境RPG",
+        "ツール": "RPGツクールMZ",
+        "配信/投稿": "どうぞ",
+        "作者コメント": "異界都市ナーラム…\n外界から隔たれ、“シカ”と呼ばれる異形が徘徊する\n呪われた街ナーラムに消息不明の妹を追って少女がひとり潜入する\nプレイ時間:おおよそ15分程度なので箸休めにどうぞ"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/MZ.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss12.png",
+          "local": "/screenshots/2020-kouhaku/12-source-1.png",
+          "sha256": "96bd4edc54f99e8dce66345686922e09bc0ae40a302ff49a55b1fa0562835854"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaXP.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaMZ.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaFes.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaMZ.png"
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-13",
+      "no": "13",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry13.html",
+      "catalogueTitle": "海底撈月",
+      "detailTitle": "海底撈月",
+      "catalogueMetadata": {
+        "作者": "みどり",
+        "使用ツール": "2000",
+        "ジャンル": "読むゲ",
+        "配信/投稿": "可/可"
+      },
+      "sourceMetadata": {
+        "作者": "みどり",
+        "ジャンル": "読むゲ",
+        "ツール": "2000",
+        "配信/投稿": "可/可",
+        "作者コメント": "強いウィンディと弱いわてりの話です。\n読むゲだけど少しだけ操作するところあります。"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i13.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss13.png",
+          "local": "/screenshots/2020-kouhaku/13-source-1.png",
+          "sha256": "cb5febf019edf2cc9b6914e7c7d8716111eaf500c79a513d6158e44d6f8502f1"
+        },
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss13b.png",
+          "local": "/screenshots/2020-kouhaku/13-source-2.png",
+          "sha256": "3fedfe21995ae8c6cbd5e30680afbf7f13ac485728f7b42bad4717f45076b0c7"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2000.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2003.png"
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1N9P1SAdvP3tl80DemyeaidQWbGJ40UGx",
+          "label": "【DL(15.8MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-14",
+      "no": "14",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry14.html",
+      "catalogueTitle": "ヴァンパイア骸",
+      "detailTitle": "ヴァンパイア骸",
+      "catalogueMetadata": {
+        "作者": "たんち",
+        "使用ツール": "steam2003",
+        "ジャンル": "ダークサウンドノベル",
+        "配信/投稿": "可・可"
+      },
+      "sourceMetadata": {
+        "作者": "たんち",
+        "ジャンル": "ダークサウンドノベル",
+        "ツール": "steam2003",
+        "配信/投稿": "可・可",
+        "作者コメント": "人形劇＋紙芝居/本編約45分/メイキング特典約5分\n結果ボルケニオンゲット！"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i14.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss14.png",
+          "local": "/screenshots/2020-kouhaku/14-source-1.png",
+          "sha256": "b0d604f151c1d1218ba0b5a61a3ef056edf414f42203cd601deaf2d508910ce8"
+        },
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss14b.png",
+          "local": "/screenshots/2020-kouhaku/14-source-2.png",
+          "sha256": "f79f2870fd2ef11e785d49c564e7545f0584b0c856dce96069a156379d2aec68"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaXP.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaDS.png"
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=17ypycXzkqAJgmRZeR3D4ergM3UqRYG2S",
+          "label": "【DL(48.9MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-15",
+      "no": "15",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry15.html",
+      "catalogueTitle": "りばひの二度漬け",
+      "detailTitle": "りばひの二度漬け",
+      "catalogueMetadata": {
+        "作者": "PIAI専",
+        "使用ツール": "2000",
+        "ジャンル": "リズムゲー",
+        "配信/投稿": "可/可"
+      },
+      "sourceMetadata": {
+        "作者": "PIAI専",
+        "ジャンル": "リズムゲー",
+        "ツール": "2000",
+        "配信/投稿": "可/可",
+        "作者コメント": "モンスター達をヒールしてあげる心温まるksgです"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i15.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss15.png",
+          "local": "/screenshots/2020-kouhaku/15-source-1.png",
+          "sha256": "1b56949dbec42be45ff2441069dc3a188ebfc39087c109b41e55f250249bd968"
+        },
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss15b.png",
+          "local": "/screenshots/2020-kouhaku/15-source-2.png",
+          "sha256": "c2de58d82893e4b5ff5b2e9da82e17aac1d81aa38449b598a14219a73cf7fd4e"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2003.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2000.png"
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1B4TCLIEuaZyV3FUNfLZtxN1o60bVSk-s",
+          "label": "【DL(25.2MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-16",
+      "no": "16",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry16.html",
+      "catalogueTitle": "THUNDER WINDY -Castle of the UndeadKnigh-",
+      "detailTitle": "THUNDER WINDY -Castle of the UndeadKnigh-",
+      "catalogueMetadata": {
+        "使用ツール": "Steam版2003",
+        "ジャンル": "STG",
+        "配信/投稿": "可・可"
+      },
+      "sourceMetadata": {
+        "ジャンル": "STG",
+        "ツール": "Steam版2003",
+        "配信/投稿": "可・可",
+        "作者コメント": "風の魔法具現化ウィンディ\nさらわれたヒール先生を探すため、危険な城アンデッドナイ城へ乗り込む\nわてり、ライチ、やみいち\nウィンディの親友、そして（ksg出演数を競う）ライバル\nウィンディと共にアンデッドナイ城へ\nアンデッドナイ城で彼らを待ち受ける者とは・・・"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i16.gif",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss16.png",
+          "local": "/screenshots/2020-kouhaku/16-source-1.png",
+          "sha256": "d1fd96dbf7f1eb2f06e77526c5c23484bb9b58246b1cf8dfbb72c3555236b0c9"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaMV.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaDS.png"
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1GAlLC8DJ3jjeE-W8FbXGioyHug2aCkoL",
+          "label": "【DL(3.67MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-17",
+      "no": "17",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry17.html",
+      "catalogueTitle": "ご注文はわてりですか？",
+      "detailTitle": "ご注文はわてりですか？",
+      "catalogueMetadata": {
+        "作者": "セミの抜け殻",
+        "使用ツール": "2000 VALUE!+",
+        "ジャンル": "ksg",
+        "配信/投稿": "どっちもダメ"
+      },
+      "sourceMetadata": {
+        "作者": "セミの抜け殻",
+        "ジャンル": "ksg",
+        "ツール": "2000 VALUE!+",
+        "配信/投稿": "どっちもダメ",
+        "作者コメント": "3分くらいで終わるよ！"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i17.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss17.png",
+          "local": "/screenshots/2020-kouhaku/17-source-1.png",
+          "sha256": "facf6184bfef286822982a35890a2c1d48f0cd4df034e7b182df3ea5c3dfbd13"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2000.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2003.png"
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1SHJd_yohHPUBoOumUmjMPKJ39Cxi4ryh",
+          "label": "【DL(5.1MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-18",
+      "no": "18",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry18.html",
+      "catalogueTitle": "人斬りの噺",
+      "detailTitle": "人斬りの噺",
+      "catalogueMetadata": {
+        "作者": "徳明",
+        "使用ツール": "Steam版2003",
+        "ジャンル": "読むゲ",
+        "配信/投稿": "おｋ/おｋ"
+      },
+      "sourceMetadata": {
+        "作者": "徳明",
+        "ジャンル": "読むゲ",
+        "ツール": "Steam版2003",
+        "配信/投稿": "おｋ・おｋ",
+        "作者コメント": "2019年GWに出した作品の完全版のつもりです。\n人斬りの姉　それを盲従する妹の話です、グロテスクな表現があります"
+      },
+      "metadataDifferences": [
+        {
+          "label": "配信/投稿",
+          "catalogue": "おｋ/おｋ",
+          "detail": "おｋ・おｋ"
+        }
+      ],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i18.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss18.png",
+          "local": "/screenshots/2020-kouhaku/18-source-1.png",
+          "sha256": "1c71598e1875bae5c70a513829b7f151ec8bf230b16bd48419c5b7da5e2eedd6"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaFes.png"
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1-Lae6KDisdOYiJZ_eRjkbQsFcrNOh3Mh",
+          "label": "【DL(22.7MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-19",
+      "no": "19",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry19.html",
+      "catalogueTitle": "始めての煉獄",
+      "detailTitle": "始めての煉獄",
+      "catalogueMetadata": {
+        "作者": "黒嬢駕",
+        "使用ツール": "RPGツクール2000",
+        "ジャンル": "RPG",
+        "配信/投稿": "可/可"
+      },
+      "sourceMetadata": {
+        "作者": "黒嬢駕",
+        "ジャンル": "RPG",
+        "ツール": "RPGツクール2000",
+        "配信/投稿": "可/可",
+        "作者コメント": "君が代は\n千代に八千代に\nさざれ石の\n巌（いわお）となりて\n苔（こけ）のむすまで"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/2000.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss19.png",
+          "local": "/screenshots/2020-kouhaku/19-source-1.png",
+          "sha256": "ad13e2f445abcd19f8e1790b6ac801f40dd96e67d3c0b23a53db89c8ee613c3c"
+        },
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss19b.jpg",
+          "local": "/screenshots/2020-kouhaku/19-source-2.jpg",
+          "sha256": "3d1d75d9320abd9eaa191ad41c0cf2faebe5afb9bee6e7448164ccdb4584db03"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2000.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2003.png"
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-20",
+      "no": "20",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry20.html",
+      "catalogueTitle": "意味不明劇場",
+      "detailTitle": "意味不明劇場",
+      "catalogueMetadata": {
+        "作者": "ぬ",
+        "使用ツール": "2000",
+        "ジャンル": "ゴミ",
+        "配信/投稿": "共に可"
+      },
+      "sourceMetadata": {
+        "作者": "ぬ",
+        "ジャンル": "ゴミ",
+        "ツール": "2000",
+        "配信/投稿": "共に可",
+        "作者コメント": "全10のエピソードからなる短編集です。\n内容はほぼゴミなので苦しむこと間違いなしです。"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/2000.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss20.png",
+          "local": "/screenshots/2020-kouhaku/20-source-1.png",
+          "sha256": "d4ddef91a1c14ca6514c37651f688c3ef095bd5426e66bea3435af68fccdb0bd"
+        },
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss20b.png",
+          "local": "/screenshots/2020-kouhaku/20-source-2.png",
+          "sha256": "5fcb937c7898ab76ffbf34733ea6d81b8dee07ce2fd0fce87cd6d120affd3fe1"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaXP.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaDS.png"
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1it5oSYc5Wt_8z6F-qEyfSTpQ6kL8T_Q_",
+          "label": "【DL(28.8MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-21",
+      "no": "21",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry21.html",
+      "catalogueTitle": "VTuberバトルロワイアル",
+      "detailTitle": "VTuberバトルロワイアル",
+      "catalogueMetadata": {
+        "作者": "おりおん",
+        "使用ツール": "2000",
+        "ジャンル": "読むゲ",
+        "配信/投稿": "可・可"
+      },
+      "sourceMetadata": {
+        "作者": "おりおん",
+        "ジャンル": "読むげ",
+        "ツール": "2000",
+        "配信/投稿": "可・可",
+        "作者コメント": "完成しました。\n\nVTuberのパロロワ読みたいのに\n誰も作らない気がしたから自分で作りました。\n全方位素人なもので至らぬところまみれですが、楽しんでいただけたら幸いです。\n\n人選がかなり古いです。\n2018年を謳歌してた人達です。\nこんな時代もあったんだなって思いながら見てください。"
+      },
+      "metadataDifferences": [
+        {
+          "label": "ジャンル",
+          "catalogue": "読むゲ",
+          "detail": "読むげ"
+        }
+      ],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/2000.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss21.png",
+          "local": "/screenshots/2020-kouhaku/21-source-1.png",
+          "sha256": "116a9b06c595a810045a279a0f20a75b5a91f8c3cb4c0ff2d832229eb1aca7d8"
+        },
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss21b.png",
+          "local": "/screenshots/2020-kouhaku/21-source-2.png",
+          "sha256": "022ed7288ec30387c7627346b7b40f824c6af0cd1f12e802f33e2b83d5c8d062"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2000.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2003.png"
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1xF2jWlgLYUsifGkIJhKU2VgkbDLznOnk",
+          "label": "【DL(75.2MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-22",
+      "no": "22",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry22.html",
+      "catalogueTitle": "万華郷　〜りめいく〜",
+      "detailTitle": "万華郷　〜りめいく〜",
+      "catalogueMetadata": {
+        "作者": "FAH-Q（ふぁーきゅー）",
+        "使用ツール": "RPGツクール2000",
+        "ジャンル": "和風RPG",
+        "配信/投稿": "両方可・むしろして下さい！！"
+      },
+      "sourceMetadata": {
+        "作者": "FAH-Q（ふぁーきゅー）",
+        "ジャンル": "和風RPG",
+        "ツール": "RPGツクール2000",
+        "配信/投稿": "両方可・むしろして下さい！！",
+        "作者コメント": "2015年に出した処女作「万華郷　〜Mangekyou〜」のリメイク版です。\n2018年にはスランプと多忙にかまけて体験版しか出せませんでしたが、\n今年は満を持して完全版が登場！！このセリフを言うのも三度目なんですけど、\n今一度童心に返って、楽しい夏休みを過ごしましょう！！（まぁ、もうすぐ冬ですけどね）\n\n【2018年版との変更点およびお詫び】\n●データ欄をいじくりまわしたので2018年版のセーブデータを使うと色々バグる\n　可能性がありますのでお手数ですがまた「はじめから」遊んで下さい。\n●前回には不登場だったイラスト付きの説明書がついに完成！\n　より万華郷の世界観に浸りたい方は是非！\n●一部敵のグラフィックが大幅にパワーアップしました。\n●一部アイテムの名称や効果が変更、および一部アイテムを没にしました。\n●一部のダンジョンに新たなギミックを搭載。"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i22.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss22.png",
+          "local": "/screenshots/2020-kouhaku/22-source-1.png",
+          "sha256": "33459e27a41f739374de7cacc7955a22d7ef1191aba4599adf24ef888ab7266d"
+        },
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss22b.png",
+          "local": "/screenshots/2020-kouhaku/22-source-2.png",
+          "sha256": "6c369d0d6cf00bbc2499a4ab07f60d989ae831a643af4a36dc1393b339730459"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaMZ.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaMV.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaDS.png"
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1_tAvf1weSon2bLqxlXaFUWmFQh8MgSIQ",
+          "label": "【DL(16.6MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-23",
+      "no": "23",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry23.html",
+      "catalogueTitle": "HIGH BALL:完全版",
+      "detailTitle": "HIGH BALL:完全版",
+      "catalogueMetadata": {
+        "作者": "ジョンソンヴィル元・麻辣杏仁GAMレールガン",
+        "使用ツール": "steam2003使いてえけどウィルス扱いされるから普通の2000",
+        "ジャンル": "二次創作",
+        "配信/投稿": "どっちも可"
+      },
+      "sourceMetadata": {
+        "作者": "ジョンソンヴィル元・麻辣杏仁GAMレールガン",
+        "ジャンル": "二次創作",
+        "ツール": "steam2003使いてえけどウィルス扱いされるから普通の2000",
+        "配信/投稿": "どっちも可",
+        "作者コメント": "夏の陣https://viprpg2020s.xxxxxxxx.jp/entry23.htmlの続きだけど、大して話繋がってないんでやらなくていいです。"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i23.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss23.png",
+          "local": "/screenshots/2020-kouhaku/23-source-1.png",
+          "sha256": "5d86fe1c1da9c4e3edb43a7e1b5a6a3e2227b2f3db342768d29ddedb2db0f3e1"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2000.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaDSplus.png"
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-24",
+      "no": "24",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry24.html",
+      "catalogueTitle": "天空山賊キャプテンダーロック -宇宙の幼女はオレのヨメ-",
+      "detailTitle": "天空山賊キャプテンダーロック -宇宙の幼女はオレのヨメ-",
+      "catalogueMetadata": {
+        "作者": "魔禁胆",
+        "使用ツール": "2000",
+        "ジャンル": "ダンジョン探索（戦闘はありません・一撃死はあります）",
+        "配信/投稿": "止めませんが自己責任で"
+      },
+      "sourceMetadata": {
+        "作者": "魔禁胆",
+        "ジャンル": "ダンジョン探索（戦闘はありません・一撃死はあります）\n･･･（と隠しハクスラＲＰＧ）",
+        "ツール": "2000",
+        "配信/投稿": "止めませんが自己責任で",
+        "作者コメント": "以下、現国王からのメッセージです。\n\n「よくぞ来てくれた。私が国王、ポテチスキー14世だ。\n　魔王軍の幹部の残党が再び我が国に侵略を行なおうとしている。\n　君はかつて魔王を倒し、王国を救った勇者の子だ。\n　君の任務は、ダーロックと名乗る侵略者の巨大飛空艇〈ダークネス〉に潜入し\n　黒騎士の警備をかいくぐり、ダーロックを逮捕もしくは暗殺することだ。\n　しかし、注意したまえ！君の行く手には、いくつもの危険が待ちうけている。\n　二代目勇者よ･･･成功を祈る。」"
+      },
+      "metadataDifferences": [
+        {
+          "label": "ジャンル",
+          "catalogue": "ダンジョン探索（戦闘はありません・一撃死はあります）",
+          "detail": "ダンジョン探索（戦闘はありません・一撃死はあります）\n･･･（と隠しハクスラＲＰＧ）"
+        }
+      ],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i24.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss24.png",
+          "local": "/screenshots/2020-kouhaku/24-source-1.png",
+          "sha256": "9a1ce8edf70d243513ea384c951f8a846cb59f8866c42723f9933db68e8bc3a4"
+        },
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss24b.png",
+          "local": "/screenshots/2020-kouhaku/24-source-2.png",
+          "sha256": "7f238d0515ae149a211a29f02efefc92d902b513a3b2a9036f8baac75a2f49bc"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaDS.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaXP.png"
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1vxI9U7Ha23HbG4u-k_dZOAUJ21G4Uwyq",
+          "label": "【DL(2.31MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-25",
+      "no": "25",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry25.html",
+      "catalogueTitle": "~Ⅰ is WORLD ~",
+      "detailTitle": "~Ⅰ is WORLD ~",
+      "catalogueMetadata": {
+        "作者": "(Ｒ)ＤＵ",
+        "使用ツール": "ＲＰＧツクールＭＶ",
+        "ジャンル": "長編やるゲ",
+        "配信/投稿": "両方可"
+      },
+      "sourceMetadata": {
+        "作者": "(Ｒ)ＤＵ",
+        "ジャンル": "長編やるゲ",
+        "ツール": "ＲＰＧツクールＭＶ",
+        "配信/投稿": "両方可",
+        "作者コメント": "hello !"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i25.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss25.png",
+          "local": "/screenshots/2020-kouhaku/25-source-1.png",
+          "sha256": "db7a1b546a6f88b80653a3a45e4d6a50a02122b3105307d018d1e67b79fac502"
+        },
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss25b.png",
+          "local": "/screenshots/2020-kouhaku/25-source-2.png",
+          "sha256": "54d348c2eb76c864dccaabb5ad39908351c0530603ea353da1dd0d86e380c4df"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2000.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaVXA.png"
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-26",
+      "no": "26",
+      "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/",
+      "sourceCatalogueEmptySlot": true,
+      "expectedDetailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry26.html",
+      "detailProbeStatus": 404,
+      "archiveExactCaptures": 0,
+      "evidence": "investigation/entry26-cdx.json"
+    },
+    {
+      "id": "2020-kouhaku-work-27",
+      "no": "27",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry27.html",
+      "catalogueTitle": "激転メタルコマソード",
+      "detailTitle": "激転メタルコマソード",
+      "catalogueMetadata": {
+        "作者": "WGAS",
+        "使用ツール": "s2003mp",
+        "ジャンル": "コマ遊びシミュレーター",
+        "配信/投稿": "可/可"
+      },
+      "sourceMetadata": {
+        "作者": "WGAS",
+        "ジャンル": "コマ遊びシミュレーター",
+        "ツール": "s2003mp",
+        "配信/投稿": "可/可",
+        "作者コメント": "アレのパロディです。\nそれっぽく対戦ゲーム風に仕上げましたが\n勝負の駆け引きとかあんまり無いのでAI同士で戦わせた方が楽しいかもしれません。童心に帰れる。\n\n最近はボトルマンとか出たらしいですね。\n※対象年齢　６才以上"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i27.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss27.png",
+          "local": "/screenshots/2020-kouhaku/27-source-1.png",
+          "sha256": "077bbd4287f2d8ccc6cf5d1b04b1a79e62153075b330d8f07b86707985de023e"
+        },
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss27b.png",
+          "local": "/screenshots/2020-kouhaku/27-source-2.png",
+          "sha256": "09ae48ba43fcd0a52f752c505af7cb9936e92e8899f097529831b85239e8c446"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2003.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2000.png"
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=18BzFmNV-3lDiZVCWsLna1SNm5kzBC-jG",
+          "label": "【DL(720KB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-28",
+      "no": "28",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry28.html",
+      "catalogueTitle": "Ｘ－羅仁宇式　RPG2000作品福袋　紅白2020Ver.",
+      "detailTitle": "Ｘ－羅仁宇式　RPG2000作品福袋　紅白2020Ver.",
+      "catalogueMetadata": {
+        "作者": "Ｘ－羅仁宇（らにう）",
+        "使用ツール": "ＲＰＧツクール２０００",
+        "ジャンル": "ＲＰＧ２点、Ｋｓｇ３点",
+        "配信/投稿": "お手柔らかに"
+      },
+      "sourceMetadata": {
+        "作者": "Ｘ－羅仁宇（らにう）",
+        "ジャンル": "ＲＰＧ２点、Ｋｓｇ３点",
+        "ツール": "ＲＰＧツクール２０００",
+        "配信/投稿": "お手柔らかに",
+        "作者コメント": "大変恐縮ながら、これが私のＶＩＰＲＰＧ初投稿となります。\n　皆様、何卒よろしくお願いいたします。\n\n　昔ながらの、複数作品フォルダ詰め合わせの福袋形式で出させていただきます。\n　以下、当福袋内にあります作品のセットの内容です。　　※ 作品名／ジャンル\n\n　①アヴァーク・サーガ　（ＲＰＧ）\n　戦乱の世の中、アヴァーク島で起った古の魔神復活と、それを阻止する若き４人の戦士たちの物語、その序章。\n　デフォ戦主体のシリアス系ＲＰＧです。\n\n　②新訳・玉露ファンタジー　Ｘ－羅仁宇 Ver.　作りかけEdition　（ＲＰＧ）\n　玉露ファンタジーに惹かれた作者が、ゲーム『玉露リレー』をベースに作った『新訳』。『もしもの世界で起こった玉露ファンタジー』がコンセプト。\n　もしもキャラ主体（注：オリ設多少有）＆デフォ戦。　作りかけ作品の為、展開は途中まで。\n　リレーに出すかは・・・不明。\n\n　③魔王把握　Ｘ－羅仁宇 Ver.　（Ｋｓｇ）\n　私、作者・Ｘ－羅仁宇が作ってみた魔王把握。\n　魔王軍メンバーは、マイナー含む、ほぼ総動員＆自分なりに（ツクール的に）細かな演出も入れてみた豪華仕様！・・・に、なったハズです。\n\n　④自作エネミーグラ戦闘Ｋｓｇ　（Ｋｓｇ）\n　もしもの世界に惹かれた作者が、ＶＩＰＲＰＧ（＋α）キャラのエネミーを描いてみたデフォ戦Ｋｓｇ。\n　実はどこかに今後の作者が描くであろう、前後の物語の展開のカギとなる物も・・・？\n\n　⑤エデ＆マーの『easyRPG』0.6.2.3検証　（Ｋｓｇ）\n　『アヴァーク・サーガ』登場キャラの２名がeasyRPG（Ver.0.6.2.3時点）の気になる箇所を駄弁るＫｓｇ。\n　よかったらeasyRPGと２０００両方でＰＩＡＩして見てくださいませ。\n\n\n　所々、粗も見かける部分もあるやもしれませんが、よろしければＰＩＡＩお待ちしております。\n\n　※出す作品、並び内容は提出までに変更・削除等の可能性があります。提出できなかったらゴメスっ！！\n\n\n　最期に作者からコメント：\n　２０００作品複数フォルダで詰めてもＭＶ短編作品１本以下の容量で済むなんて、やっぱスゴイっ。収まれば、の話だけど・・・。"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i28.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss28.png",
+          "local": "/screenshots/2020-kouhaku/28-source-1.png",
+          "sha256": "299f8915c5e66c66964cb488aaca04d2a5bfca716af5895caf03b542d48e0786"
+        },
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss28c.png",
+          "local": "/screenshots/2020-kouhaku/28-source-2.png",
+          "sha256": "c07d5dcb4762a48e56b7706f138222091a38f7bc4278344bf7160244c606a58b"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaXP.png"
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1sbcvxeItSEboV4kXty-MnnMA2dKnFtv3",
+          "label": "【DL(5.91MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-29",
+      "no": "29",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry29.html",
+      "catalogueTitle": "もしも半人前の勇者が",
+      "detailTitle": "もしも半人前の勇者が",
+      "catalogueMetadata": {
+        "作者": "アラン・スミシー",
+        "使用ツール": "RPGツクール2000",
+        "ジャンル": "短編デフォ戦RPG",
+        "配信/投稿": "ともに可"
+      },
+      "sourceMetadata": {
+        "作者": "アラン・スミシー",
+        "ジャンル": "短編デフォ戦RPG",
+        "ツール": "RPGツクール2000",
+        "配信/投稿": "ともに可",
+        "作者コメント": "持てる限りのデフォ戦技術を注ぎました。人選は趣味です。"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i29.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss29.png",
+          "local": "/screenshots/2020-kouhaku/29-source-1.png",
+          "sha256": "fc8742149115a49e583ad36fba53cf4276da932f5cf7ae526101f586b4753e0e"
+        },
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss29b.png",
+          "local": "/screenshots/2020-kouhaku/29-source-2.png",
+          "sha256": "f4ac4179529686a981fa3fab4dc166491370e41283c4a5dfae37f1a5186c1eff"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2003.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2000.png"
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1X6iZfKCZaqaE7OW8jyvwBoJ9QHBMa1Jp",
+          "label": "【DL(882KB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-30",
+      "no": "30",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry30.html",
+      "catalogueTitle": "ファインディングニモ",
+      "detailTitle": "ファインディングニモ",
+      "catalogueMetadata": {
+        "作者": "ねむり草",
+        "使用ツール": "2000",
+        "ジャンル": "ねんまつｋｓｇつめあわせ",
+        "配信/投稿": "共に可"
+      },
+      "sourceMetadata": {
+        "作者": "ねむり草",
+        "ジャンル": "ねんまつｋｓｇつめあわせ",
+        "ツール": "2000",
+        "配信/投稿": "共に可",
+        "作者コメント": "祭り初参加作品＆VIPRPG二作目です。新人賞をくれ！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i30.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss30.png",
+          "local": "/screenshots/2020-kouhaku/30-source-1.png",
+          "sha256": "c5b6d5a6ee827e451d867ac4b201846e14d467d2768e1a00a9b15020d65688db"
+        },
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss30b.png",
+          "local": "/screenshots/2020-kouhaku/30-source-2.png",
+          "sha256": "e781f55936855c9ae0d61e9c4c4867a7bef51de49ddb627fa7954a0f7c790d76"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaXP.png"
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1OWptdJIkX1IPRfUbaN_bSfnf56eXjkS1",
+          "label": "【DL(2.33MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-31",
+      "no": "31",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry31.html",
+      "catalogueTitle": "おんjのホラーゲームを作ろうとした",
+      "detailTitle": "おんjのホラーゲームを作ろうとした",
+      "catalogueMetadata": {
+        "作者": "おんj民の集団だった",
+        "使用ツール": "VXAce",
+        "ジャンル": "ホラーゲームにしようとした",
+        "配信/投稿": "やめてクレメンス"
+      },
+      "sourceMetadata": {
+        "作者": "おんj民の集団だった",
+        "ジャンル": "ホラーゲームにしようとした",
+        "ツール": "VXAce",
+        "配信/投稿": "やめてクレメンス",
+        "作者コメント": "おんj民数人でホラーゲームを作ろうとした\nこれは試作品で完成の後より本格的な物を作るつもりだったが無理だこれってなった\nメンバーから素材が並んでるだけでゲームとは言えないみたいなことを言われました\nその通りだと思います\n10分以内に終わると思います"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i31.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss31.png",
+          "local": "/screenshots/2020-kouhaku/31-source-1.png",
+          "sha256": "cf9b3fca87a821f55ccfc3b2a54157d0b7f6bd9858272466727df3dd3ca7ad87"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaVXA.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaDSplus.png"
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1OkV__9w8kUZ-rag2zLTiPHQSFgOS_V9y",
+          "label": "【DL(59.7MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-32",
+      "no": "32",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry32.html",
+      "catalogueTitle": "強くてニューゲームで運命を変える勇者",
+      "detailTitle": "強くてニューゲームで運命を変える勇者",
+      "catalogueMetadata": {
+        "作者": "黒ヤモリ",
+        "使用ツール": "2000",
+        "ジャンル": "ｋｓｇ",
+        "配信/投稿": "可・可"
+      },
+      "sourceMetadata": {
+        "作者": "黒ヤモリ",
+        "ジャンル": "ｋｓｇ",
+        "ツール": "2000",
+        "配信/投稿": "可・可",
+        "作者コメント": "最近のなろう系って2週目もの多くね"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i32.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss32.png",
+          "local": "/screenshots/2020-kouhaku/32-source-1.png",
+          "sha256": "289029f4ad6bc076b808b2b4e4cd12dc27250802ff6c97a4fe487b9501092b29"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaDS.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaXP.png"
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1EkJdJRa5AVlVf25Fot8ly0Qngw8MW8Ww",
+          "label": "【DL(187KB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-33",
+      "no": "33",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry33.html",
+      "catalogueTitle": "どうも、お化け退治専門家です",
+      "detailTitle": "どうも、お化け退治専門家です",
+      "catalogueMetadata": {
+        "作者": "牧場の牛肉",
+        "使用ツール": "VXAce",
+        "ジャンル": "短編RPG",
+        "配信/投稿": "可/可"
+      },
+      "sourceMetadata": {
+        "作者": "牧場の牛肉",
+        "ジャンル": "短編RPG",
+        "ツール": "VXAce",
+        "配信/投稿": "可/可",
+        "作者コメント": "「毒沼地帯に現れたという未知の魔物を調査してほしい」\n\nというクエストを受けたリナックスは、青髪の方のセイントⅢとゴーストバリアと一緒に\n毒沼地帯の奥へ繋がる地下通路へと向かう…、というお話\n\n本当はバリアーズの作品で参加する予定でしたが間に合わなさそうだったので短編で参加、\n自分にとっては初めて公開するVXA作品になります\n\n歩行グラやマップは2000らしく仕上げているのでちょっぴり2000っぽさも味わえます\n（戦闘画面や戦闘アニメはVXA風味ですが）"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i33.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss33.png",
+          "local": "/screenshots/2020-kouhaku/33-source-1.png",
+          "sha256": "1d0bd4ee2dacb78f52f2a1df4c781606f762034c10b3ccb605a5cb74b1d5dc4f"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaDS.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2000.png"
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=16XeJ52LZvnYy0VJjKs2IW7FFJxOnTyR8",
+          "label": "【DL(13.0MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-34",
+      "no": "34",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry34.html",
+      "catalogueTitle": "あることないことｋｓｇセット",
+      "detailTitle": "あることないことｋｓｇセット",
+      "catalogueMetadata": {
+        "作者": "みじゅふーせん",
+        "使用ツール": "RPGツクール2000",
+        "ジャンル": "ｋｓｇ",
+        "配信/投稿": "可/可"
+      },
+      "sourceMetadata": {
+        "作者": "みじゅふーせん",
+        "ジャンル": "ｋｓｇ",
+        "ツール": "RPGツクール2000",
+        "配信/投稿": "可/可",
+        "作者コメント": "安価で出たキャラがなんかします。\n本スレに出す予定だったｋｓｇのボリュームを増やし、紅白に出すことにしました。こんなゴミみたいなｋｓｇでも、作品数多い方がにぎわってる感じがして楽しいでしょ？"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i34.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss34.png",
+          "local": "/screenshots/2020-kouhaku/34-source-1.png",
+          "sha256": "b6e0d1788214b558e6f80ca21790f699c5edb2768a348fa208242ac6bb0f896b"
+        },
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss34b.png",
+          "local": "/screenshots/2020-kouhaku/34-source-2.png",
+          "sha256": "0090ec79837ecb73b965cbb6e5fc0e1a2cc1887476d11f5e6da59bf5383bc828"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaXP.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaDS.png"
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1b5eM4uZ1qq8wd9m0PBVZmgcmoIkuUX4r",
+          "label": "【DL(37.2MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-35",
+      "no": "35",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry35.html",
+      "catalogueTitle": "ばりぼっち",
+      "detailTitle": "ばりぼっち",
+      "catalogueMetadata": {
+        "作者": "REBORNプラネットマン",
+        "使用ツール": "RPGツクール2000",
+        "ジャンル": "パズル",
+        "配信/投稿": "可/自己責任"
+      },
+      "sourceMetadata": {
+        "作者": "REBORNプラネットマン",
+        "ジャンル": "パズル",
+        "ツール": "RPGツクール2000",
+        "配信/投稿": "可/自己責任",
+        "作者コメント": "今回のテーマは「野球」\nカナエール軍とスペースダークカナエール軍との勝負まであと1週間と迫る中\nカナエールは人員不足で窮していた。\n\n「まだあわわわ時間あわわわわわわ！！！」\nそう心に留めながらトボトボと歩いていると、ふとこんな閃きが舞い降りた――\n\n「そーいや、9年も経ったらバリアーズも増えてるんじゃね？」\n\n数えてみたら、24人いた。\nサッカーできるぞ。\n\n「そうと決まれば勧誘だ！」\n\nこうしてカナエールの戦いが始まったのであった――\n\nしかし、そう簡単なことではなく\nバリアーズ達は大モメ。あとなんか急にドクターマリオもしたくなってきちゃったし\nこの勝負、一体どうなってしまうのか！？\n\n🌸-🌸-🌸-🌸-🌸-🌸-🌸-🌸-🌸-🌸-🌸-🌸-🌸-🌸-🌸-🌸-🌸-🌸-🌸-🌸\n\n前作「カナエールVSダークカナエール」の続編です。\n9年ぶりですがよろしくおねがいします～～"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i35.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss35b.png",
+          "local": "/screenshots/2020-kouhaku/35-source-1.png",
+          "sha256": "894101877dd44bb38f8d54cafc7bd6bf9a8e75ea2962326ebe909cdffeba8423"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2000.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2003.png"
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1B4Aw6WzAOxZ5hj8dNo6hCYBef6UBzxcC",
+          "label": "【DL(8.14MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-36",
+      "no": "36",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry36.html",
+      "catalogueTitle": "ろーぷれつくろ～のミニksg集・2020紅白編",
+      "detailTitle": "ろーぷれつくろ～のミニksg集・2020紅白編",
+      "catalogueMetadata": {
+        "作者": "ろーぷれつくろ～",
+        "使用ツール": "2000",
+        "ジャンル": "自作品テーマのｋｓｇ集",
+        "配信/投稿": "ご自由に/どうぞ"
+      },
+      "sourceMetadata": {
+        "作者": "ろーぷれつくろ～",
+        "ジャンル": "自作品テーマのｋｓｇ集",
+        "ツール": "2000",
+        "配信/投稿": "ご自由に/どうぞ",
+        "作者コメント": "（本当は新作RPG【オキラクエスト】で参加の予定にしていましたが、\n　まだ調整したい所があるので代わりにこの作品で参加します。ご了承ください。）\n\n５年ぶりの紅白参加はこの作品で！？\n作者の自作品がテーマのミニｋｓｇ集＋α！\n\n【もしも自作品をいきなり終了させたら】（ほぼ秒殺の自作品振り返り見るゲ）\n意外な終わらせ方や定番の終わらせ方、強引すぎる終わらせ方など\nあらゆる手段で作者がこれまで公開した作品をいきなり終わらせる！！\nこれまで公開された自作品を見たことがない人もそれぞれどんな作品かがちょっとだけわかるので安心？\n\n【皆勤賞組登場シーンまとめ】（登場場面振り返り見るゲ）\n自作品の皆勤賞キャラであるブーン、カーバンクル、エリーの３名。\n彼らがそれぞれ各作品のどんなシーンで登場したかがこれ一つでわかる！\n各作品に対するちょっとしたコメントや裏話も？\n\n【もしもBGMがInternetホームページ用素材集Midi&WAVコレクションだったら】（魔王把握）\n作者がよく使っている市販BGM素材集を使った魔王把握系ｋｓｇ！\nクルトンやナビューなど作者の自作キャラ達が総出演！？\n\n【オキラクエスト・事前情報公開】（事前資料集）\n本来この紅白２０２０で公開予定だった新作RPGの事前情報を公開！\n主人公と仲間キャラクターやストーリーの説明、ゲームのスクリーンショットなどが見れる！\n\n他にも自作キャラのはい説コーナーなどもあり！\nさらにアップデートで作品が追加される可能性も！？\n\n※注意\nこの作品はほとんどが自作品の話題で構成されています。\n苦手な方はご注意ください。"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i36.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss36.png",
+          "local": "/screenshots/2020-kouhaku/36-source-1.png",
+          "sha256": "d92d6b2912cd702ccef7a001021d33af832c6b26b00269915b5cbd11a8f84270"
+        },
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss36b.png",
+          "local": "/screenshots/2020-kouhaku/36-source-2.png",
+          "sha256": "a4d0bd8032d1ce34fce476366ceece3bcbbf22a5d10e1e3c81bafc7308df6012"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaDS.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaXP.png"
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1ROAZ1uUbh2dPDIXwI_uPWjp5M6aL6vfp",
+          "label": "【DL(21.7MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-37",
+      "no": "37",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry37.html",
+      "catalogueTitle": "実績を解除！[初めての死]",
+      "detailTitle": "実績を解除！[初めての死]",
+      "catalogueMetadata": {
+        "作者": "こなき",
+        "使用ツール": "2000",
+        "ジャンル": "短編ｋｓｇ",
+        "配信/投稿": "ええで/ええで"
+      },
+      "sourceMetadata": {
+        "作者": "こなき",
+        "ジャンル": "短編ｋｓｇ",
+        "ツール": "2000",
+        "配信/投稿": "ええで/ええで",
+        "作者コメント": "賑やかしのために初参加です。\nたぶん過去話的なやつだと思う"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i37.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss37.png",
+          "local": "/screenshots/2020-kouhaku/37-source-1.png",
+          "sha256": "fba6c1e4ce0d9c7d5e3bc67ecdf10dd635f07fbddc61779f6aa9b967ef55c961"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2000.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2003.png"
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1C8n2weKg3fX_2Lgty3rWDRPg-hmGTCbQ",
+          "label": "【DL(2.48MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-38",
+      "no": "38",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry38.html",
+      "catalogueTitle": "キャラチップ頭身アップ講座 with RPGツクールDS＋",
+      "detailTitle": "キャラチップ頭身アップ講座 with RPGツクールDS＋",
+      "catalogueMetadata": {
+        "作者": "紫藤",
+        "使用ツール": "RPGツクール2000 VALUE!＋",
+        "ジャンル": "ちょっぴりカオスなドキュメンタリー講座的な見るゲ＋α",
+        "配信/投稿": "恥ずかしいから両方NG！"
+      },
+      "sourceMetadata": {
+        "作者": "紫藤",
+        "ジャンル": "ちょっぴりカオスなドキュメンタリー講座的な見るゲ＋α",
+        "ツール": "RPGツクール2000 VALUE!＋",
+        "配信/投稿": "恥ずかしいから両方NG！",
+        "作者コメント": "今回、VIPRPGのお祭りに初参加＆処女作を初投稿させていただきました！\n数多くのVIPRPG作品等に憧れた末、ツクラー初心者ながらも約４年くらい(ブランク期間込み)掛けて見るゲーを作りました！\nストーリーや設定、演出等で至らない点は多々あるかと思いますが、生暖かい目でお楽しみいただければ幸いです！！\n\n『もしもシリーズ』を始めとした、数多くの作品をリスペクト＆様々な設定を拝借しております。\nもちろん、VIPRPGの予備知識が全くなくても、大丈夫なテイストには一応してあります。\n\nなお、臨場感を楽しんでほしいと思っておりますので、文章ウェイトをあえて多用しております。\n万一、テンポの悪さが気になる方は、最初に文章の表示設定をしていただくか、各セーブデータからご覧いただく事をおすすめ致します。\n他意はございませんが、個人的にはイヤホンのご利用を推奨しております。\n\nちなみに、拙作ではございますが、RPGツクールDS＋のキャラチップ素材も何点かご用意しております。\n詳細については、本作品内の『キャラチップ素材』のフォルダに同封している\nテキストファイル『【必読】自作素材について』をご覧ください。\n\n最後に、皆様の感想やアドバイス等がございましたら、どうかお手柔らかによろしくお願い致します！\n\n長くなってしまいましたが、皆様どうぞよろしくお願い致します！！"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i38.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss38.png",
+          "local": "/screenshots/2020-kouhaku/38-source-1.png",
+          "sha256": "797356380199aaee98fa6ad379d407d93672b908970f0c52e9db42d495d1cbae"
+        },
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss38b.png",
+          "local": "/screenshots/2020-kouhaku/38-source-2.png",
+          "sha256": "7cd356334caa1531d792f92bd77bbca512467406ba1db25ed0ae487d7e83adb2"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaXP.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaDSplus.png"
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1XYlRHjGwRM2AeRon8MGZ23uDomQQ2jsv",
+          "label": "【DL(22.8MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-39",
+      "no": "39",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry39.html",
+      "catalogueTitle": "VIPRPGおへそ集",
+      "detailTitle": "VIPRPGおへそ集",
+      "catalogueMetadata": {
+        "作者": "輪ゴムでべそマン",
+        "使用ツール": "2000",
+        "ジャンル": "ヘソフェチ向けクソゲー集",
+        "配信/投稿": "どうぞ/どうぞ"
+      },
+      "sourceMetadata": {
+        "作者": "輪ゴムでべそマン",
+        "ジャンル": "ヘソフェチ向けクソゲー集",
+        "ツール": "2000",
+        "配信/投稿": "どうぞ/どうぞ",
+        "作者コメント": "界隈初！ヘソフェチ向けの超クソゲー集！\n今から作りまっせ"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/2000.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss39.png",
+          "local": "/screenshots/2020-kouhaku/39-source-1.png",
+          "sha256": "434180ffb92a1ce50dec7815228fedf54880df782f015e23026a1ea6039284bd"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2000.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2003.png"
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1sQv3QHtLtaulRSkge1Aogm1tmPQp9w3y",
+          "label": "【DL(324KB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-40",
+      "no": "40",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry40.html",
+      "catalogueTitle": "リナメビとゆるく越える年末2020",
+      "detailTitle": "リナメビとゆるく越える年末2020",
+      "catalogueMetadata": {
+        "作者": "ニートT",
+        "使用ツール": "VXAce",
+        "ジャンル": "ゆる見るゲ",
+        "配信/投稿": "こんなもんで良ければ"
+      },
+      "sourceMetadata": {
+        "作者": "ニートT",
+        "ジャンル": "ゆる見るゲ",
+        "ツール": "VXAce",
+        "配信/投稿": "こんなもんで良ければ",
+        "作者コメント": "VIPRPG初参加です。\nリナメビがメタっぽい話題をただゆるく喋ってるだけの見るゲです。\n微百合要素あり。\n\n今年は、某ウイルスのせいで、ホントにろくな事がなかったので、\n年越しぐらいは、可愛いリナメビと過ごしたいな、という、\n作者のしょうもない願望を具現化してしまいました。\n\n似たような気持ちの人がいたら、楽しんで頂けると嬉しいです！"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i40.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss40.png",
+          "local": "/screenshots/2020-kouhaku/40-source-1.png",
+          "sha256": "fa6d7556b45b162f57e86905e963e5e3a9c6868a69b77ed3d479a7e0517c2343"
+        },
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss40b.png",
+          "local": "/screenshots/2020-kouhaku/40-source-2.png",
+          "sha256": "6be3ca4374788f91d5af93312e501c6c91ed414bf6adea3ab0c8a970fe860a3b"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaXP.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaDS.png"
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=19K_AbAQi4mWutSFUMGoq20Ll_LYHTxcw",
+          "label": "【DL(13.4MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-41",
+      "no": "41",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry41.html",
+      "catalogueTitle": "ホモはゲイ会かラグビー部の写真か100%当てられる",
+      "detailTitle": "ホモはゲイ会かラグビー部の写真か100%当てられる",
+      "catalogueMetadata": {
+        "作者": "＠JKinMETROPOLIS",
+        "使用ツール": "RPGツクール2000",
+        "ジャンル": "クイズ",
+        "配信/投稿": "可/可"
+      },
+      "sourceMetadata": {
+        "作者": "＠JKinMETROPOLIS",
+        "ジャンル": "クイズ",
+        "ツール": "RPGツクール2000",
+        "配信/投稿": "可・可",
+        "作者コメント": "作品の完成が（ゲイ会の画像が見つからないため）"
+      },
+      "metadataDifferences": [
+        {
+          "label": "配信/投稿",
+          "catalogue": "可/可",
+          "detail": "可・可"
+        }
+      ],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i41.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss41.jpg",
+          "local": "/screenshots/2020-kouhaku/41-source-1.jpg",
+          "sha256": "1efa6031e6fc7727bf893274bca18752a81997b339f838bd12030bbaa3eeec2c"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2000.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2003.png"
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-42",
+      "no": "42",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry42.html",
+      "catalogueTitle": "小さな世界の幸福奇譚・前日譚　デイジーの原案",
+      "detailTitle": "小さな世界の幸福奇譚・前日譚　デイジーの原案",
+      "catalogueMetadata": {
+        "作者": "ゲ製の民がVIPRPG作って祭りに突撃する企画",
+        "使用ツール": "RPGツクールVX ACE",
+        "ジャンル": "見るゲー",
+        "配信/投稿": "どっちもおっけーです"
+      },
+      "sourceMetadata": {
+        "作者": "ゲ製の民がVIPRPG作って祭りに突撃する企画",
+        "ジャンル": "見るゲー",
+        "ツール": "RPGツクールVX ACE",
+        "配信/投稿": "どっちもおっけーです",
+        "作者コメント": "当企画の作品「小さな世界の幸福奇譚」の前日譚に当たる話で、\n「デイジーが描いていたBL本」にスポットを当てた、BLギャグ作品です。\n「幸福奇譚」の方を知っていなくても、問題なく読み進められます。\n\nプレイ時間は、ゆっくり読み進めて30分。早い方なら15分ぐらいです。\n\n優れた立ち絵素材をふんだんに使った、クソみたいなksgです。\n\nあと、こういう事をコメント欄に書いていいのかどうなのか分かりませんが、\n当方、アレックスのケツを掘るのは初めてで、竿役のキャラ変更等を行った際、ちょくちょく竿役の座標がズレます。\nどなたか解決方法を教えて下さい。なんでもしますから。"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i42.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss42.png",
+          "local": "/screenshots/2020-kouhaku/42-source-1.png",
+          "sha256": "a17df4bbd1503bc90614fc8a0939d357cc0bf039e9c230312b7cd655c0edb4f6"
+        },
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss42b.png",
+          "local": "/screenshots/2020-kouhaku/42-source-2.png",
+          "sha256": "a52f5efb9bb0228140175fdeacf3cd045e01eb9c3804692d5ce073e77de53eb3"
+        },
+        {
+          "sourceUrl": "https://web.archive.org/web/20210102205333id_/https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss42.png",
+          "local": "/screenshots/2020-kouhaku/42.png",
+          "sha256": "2c89344d19da3c23bc31f6b37f9e4abe697eeb853c70e09f163b17268fa97125"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaDS.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaVX.png"
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1QxK35g53oSru7uePyIn4F47Lu7aPOYLS",
+          "label": "【DL(46.2MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-43",
+      "no": "43",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry43.html",
+      "catalogueTitle": "真・走れゴメス",
+      "detailTitle": "真・走れゴメス",
+      "catalogueMetadata": {
+        "作者": "UNKO",
+        "使用ツール": "2000",
+        "ジャンル": "ksg",
+        "配信/投稿": "可"
+      },
+      "sourceMetadata": {
+        "作者": "UNKO",
+        "ジャンル": "ksg",
+        "ツール": "2000",
+        "配信/投稿": "可",
+        "作者コメント": "「アレックス。」ゴメスは眼に涙を浮べて言った。\n「俺を殴れ。少しだけ手加減して殴ってくれ。俺は、途中で一度、悪い夢を見た。\nお前がもし俺を殴ってくれなかったら、俺はお前と交尾する資格さえ無いのだ。殴れ。」\nアレックスは、すべてを察した様子でうなずき、少しだけ手加減してゴメスの右頬を殴った。殴ってから優しく微笑み、\n「ゴメス、俺を殴れ。同じくらい手加減して殴ってくれ。俺はこの三日の間、たった一度だけ、ちらとお前を疑った。\n生まれて、はじめてお前を疑った。お前が俺を殴ってくれなければ、俺はお前と交尾できない。」\nゴメスは同じくらい手加減してアレックスの頬を殴った。\n「ありがとう、友よ。」二人同時に言い、ひしと抱き合い、それから嬉し泣きにヴォーヴォー声を放って掘った。\n群衆の中からも、歔欷の声が聞えた。\n国王は、群衆の背後から二人の様をまじまじと見つめていたが、やがて静かに二人に近づき、顔をあからめてこう言った。\n「すげーやらしい交尾してんじゃん。俺リバだから３人でやろうぜ！」"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/2000.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss43.png",
+          "local": "/screenshots/2020-kouhaku/43-source-1.png",
+          "sha256": "da4188488a2688216aef5fb6b2acdb0c84cd21f24e1e60e529086511f6287f84"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha95.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2000.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha95.png"
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-44",
+      "no": "44",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry44.html",
+      "catalogueTitle": "2019-2020年キャラ　全員把握！",
+      "detailTitle": "2019-2020年キャラ　全員把握！",
+      "catalogueMetadata": {
+        "作者": "桑田 \"Overwork\" レイ",
+        "使用ツール": "VX ACE",
+        "ジャンル": "新たな世代へ繋ぐための旅",
+        "配信/投稿": "オッケー"
+      },
+      "sourceMetadata": {
+        "作者": "桑田 \"Overwork\" レイ",
+        "ジャンル": "新たな世代へ繋ぐための旅",
+        "ツール": "VX ACE",
+        "配信/投稿": "オッケー",
+        "作者コメント": "デフォ戦ゲー。\n10日くらいに投稿できたらなあと思っていますが多分GW祭まで遅れます(大嘘…にしたい)\n\nP.S.\nMZキャラは出ません。"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i44.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss44.jpg",
+          "local": "/screenshots/2020-kouhaku/44-source-1.jpg",
+          "sha256": "3d4e750d4fceab30da60448e3f8b005b502c479f02434f0259a58be7b395f39d"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaMZ.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss44z.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaFes.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaDS.png"
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-45",
+      "no": "45",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry45.html",
+      "catalogueTitle": "Word Butler　無の迷宮",
+      "detailTitle": "Word Butler　無の迷宮",
+      "catalogueMetadata": {
+        "作者": "イロイロ",
+        "使用ツール": "ＲＰＧツクール2000",
+        "ジャンル": "ダンジョンRPG",
+        "配信/投稿": "お好きなように"
+      },
+      "sourceMetadata": {
+        "作者": "イロイロ",
+        "ジャンル": "ダンジョンRPG",
+        "ツール": "ＲＰＧツクール2000",
+        "配信/投稿": "お好きなように",
+        "作者コメント": "ゲーム完成しました。"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/2000.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss45.png",
+          "local": "/screenshots/2020-kouhaku/45-source-1.png",
+          "sha256": "8aa3ea479e55b227ff5b46fb6ef31eaf250b7845faa3cd9635f61702da382341"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2003.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2000.png"
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1Ms-FMte5XcH1anqVmuutuyIMdwwY0vHe",
+          "label": "【DL(39.5MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-46",
+      "no": "46",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry46.html",
+      "catalogueTitle": "果ての先のアカマース（仮題）",
+      "detailTitle": "果ての先のアカマース（仮題）",
+      "catalogueMetadata": {
+        "作者": "えどわーど・ぎぼんちゃん",
+        "使用ツール": "2003S",
+        "ジャンル": "リアルタイムタクティカル一本道RPG",
+        "配信/投稿": "好きにしてくだちゃい"
+      },
+      "sourceMetadata": {
+        "作者": "えどわーど・ぎぼんちゃん",
+        "ジャンル": "リアルタイムタクティカル一本道RPG",
+        "ツール": "2003S",
+        "配信/投稿": "好きにしてくだちゃい",
+        "作者コメント": "12/26日現在戦闘システムしかできてない短編雪道でちゅわ\nSSさえロクに用意できてないでちゅ\n三が日くらいまでにある程度形にならなかったら代理ｋｓｇ出しまちゅ\n時間とモチベくだちゃい"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i46.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss46.png",
+          "local": "/screenshots/2020-kouhaku/46-source-1.png",
+          "sha256": "c5cb632dec7977b87249dbdc5d5a9314bfc006069e5f1750c8c6301c1f2bcb0c"
+        },
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss46b.png",
+          "local": "/screenshots/2020-kouhaku/46-source-2.png",
+          "sha256": "cd7e6132655b712beae4a2b3f98bc8285ae2205c4dda6807ad021c7b09cfc5a1"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaDS.png"
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-47",
+      "no": "47",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry47.html",
+      "catalogueTitle": "あばり伝説",
+      "detailTitle": "あばり伝説",
+      "catalogueMetadata": {
+        "作者": "原作　あばり　制作　イカスミ",
+        "使用ツール": "RPGツクール2000",
+        "ジャンル": "マジクソ＆クソ広告パロ見るゲー",
+        "配信/投稿": "両方大歓迎"
+      },
+      "sourceMetadata": {
+        "作者": "原作　あばり　制作　イカスミ",
+        "ジャンル": "マジクソ＆クソ広告パロ見るゲー",
+        "ツール": "RPGツクール2000",
+        "配信/投稿": "両方大歓迎　ただし収益化はご遠慮願います",
+        "作者コメント": "俺の名はあばり！！！！！魔剣ハンターだ！！！！！！！！（ブレイバを利用して平行世界から突如やってきたあばりに脅されて作りました。）\nあばりからのおしらせ　意外にも十連ガチャが解放された！？早速遊んでみようぜ！！このゲームは神装備ももらえて最高だぜ！！"
+      },
+      "metadataDifferences": [
+        {
+          "label": "配信/投稿",
+          "catalogue": "両方大歓迎",
+          "detail": "両方大歓迎　ただし収益化はご遠慮願います"
+        }
+      ],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i47.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss47.png",
+          "local": "/screenshots/2020-kouhaku/47-source-1.png",
+          "sha256": "b52f24c4dd1e9eb431122a1f25c8fcc6e3d1c31621b11041bac6a1c2871a551a"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaVXA.png"
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1RMKTFnJTe1k4abz1u6EsbX-kAY1Z6QZS",
+          "label": "【DL(3.51MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-48",
+      "no": "48",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry48.html",
+      "catalogueTitle": "肛酔",
+      "detailTitle": "肛酔",
+      "catalogueMetadata": {
+        "作者": "莉琉",
+        "使用ツール": "ツクール2000",
+        "ジャンル": "ksg",
+        "配信/投稿": "可"
+      },
+      "sourceMetadata": {
+        "作者": "莉琉",
+        "ジャンル": "ksg",
+        "ツール": "ツクール2000",
+        "配信/投稿": "可",
+        "作者コメント": "最近よく聴く"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/2000.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss48.png",
+          "local": "/screenshots/2020-kouhaku/48-source-1.png",
+          "sha256": "98643f8168ab2efba39cf6cf6df8f286697c2715c2b471827be3f722b07e8136"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaXP.png"
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1DFBvvJa4C6GrjNrDlfPFNl-8abEe1qWM",
+          "label": "【DL(418KB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-49",
+      "no": "49",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry49.html",
+      "catalogueTitle": "何此地靈異伝",
+      "detailTitle": "何此地靈異伝",
+      "catalogueMetadata": {
+        "作者": "掃除すき太郎",
+        "使用ツール": "Steam2003mp",
+        "ジャンル": "脱衣ブロック崩し大往生",
+        "配信/投稿": "できるの？（動作的な意味で）/できるの？（内容的な意味で）"
+      },
+      "sourceMetadata": {
+        "作者": "掃除すき太郎",
+        "ジャンル": "脱衣ブロック崩し大往生",
+        "ツール": "Steam2003mp",
+        "配信/投稿": "できるの？（動作的な意味で）/できるの？（内容的な意味で）",
+        "作者コメント": "某54連発目のスレ投下を狙撃しようと芋砂していましたが、ねんないにまにあわなさそうだったので紅白に横流しすることにしました。\nほぼ靈異伝です。水煮要素はありません。SS右下の要素もありません。\n\nちなみに僕が初めてPIAIしたエロフラッシュは、「エロフラッシュの辺境」の＃07でした。性癖への影響を感じました。"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i49.gif",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss49.gif",
+          "local": "/screenshots/2020-kouhaku/49-source-1.gif",
+          "sha256": "c0a9715eee1ea4cedb4c015e76914fe666e58a5afdda10ef30d6b67dad563243"
+        },
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss49b.gif",
+          "local": "/screenshots/2020-kouhaku/49-source-2.gif",
+          "sha256": "12f9ab623b1e6cc68711bc0a3ad6beb66047e90517364dda663b6eae4c91261c"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2000.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2003.png"
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1hZsfEFXqvx62jSS_4-TBqmPx0lGSimDD",
+          "label": "【DL(9.23MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-50",
+      "no": "50",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry50.html",
+      "catalogueTitle": "Doki Doki Pederasty Club!",
+      "detailTitle": "Doki Doki Pederasty Club!",
+      "catalogueMetadata": {
+        "作者": "グレートミニマムペニスマン",
+        "使用ツール": "Steam2003",
+        "ジャンル": "ksg",
+        "配信/投稿": "可/可"
+      },
+      "sourceMetadata": {
+        "作者": "グレートミニマムペニスマン",
+        "ジャンル": "ksg",
+        "ツール": "Steam2003",
+        "配信/投稿": "可/可",
+        "作者コメント": "グレートミニマムペニスマンと申します、初めての祭り参加なので緊張しております\n内容はSS見れば分かる通りドキ文のパロディです\n\n多分間に合わないので後でスレに投下します"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/s2003.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss50.png",
+          "local": "/screenshots/2020-kouhaku/50-source-1.png",
+          "sha256": "59cdb2d0a2d8b82fa7d0da4bd7977ca6461469b79e23b7b55d0afbada949782b"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaXP.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaDS.png"
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-51",
+      "no": "51",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry51.html",
+      "catalogueTitle": "エピタフ(体験版)",
+      "detailTitle": "エピタフ(体験版)",
+      "catalogueMetadata": {
+        "作者": "藻太郎",
+        "使用ツール": "2000",
+        "ジャンル": "デフォ戦RPG体験版",
+        "配信/投稿": "どちらも可"
+      },
+      "sourceMetadata": {
+        "作者": "藻太郎",
+        "ジャンル": "デフォ戦RPG体験版",
+        "ツール": "2000",
+        "配信/投稿": "どちらも可",
+        "作者コメント": "('A`)"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i51.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss51.png",
+          "local": "/screenshots/2020-kouhaku/51-source-1.png",
+          "sha256": "8ba35129109acb6f769559ad12b1b566faaa2ebb0de5e48ca1325a1e613d6400"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2000.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2003.png"
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1trbsRlTpHp-dx35z_F8-H6yqn4mqMLQC",
+          "label": "【DL(12.5MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-52",
+      "no": "52",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry52.html",
+      "catalogueTitle": "custom.exe",
+      "detailTitle": "custom.exe",
+      "catalogueMetadata": {
+        "作者": "霧山 千明",
+        "使用ツール": "RPGツクール2000",
+        "ジャンル": "RPG・パズル",
+        "配信/投稿": "可/可"
+      },
+      "sourceMetadata": {
+        "作者": "霧山 千明",
+        "ジャンル": "RPG・パズル",
+        "ツール": "RPGツクール2000",
+        "配信/投稿": "可/可",
+        "作者コメント": "アニメ・マンガ・ゲーム・ドラマ…その他諸共のキャラクターや世界、さらに魔法などを実体化するシステム\n\nDimension Connecter=DICONが完成し、普及した。\n\n\n2022年1月20日\n\n津軽にて「コンピューターウィルス」が実体化し破壊活動を開始。\n\n\n各種DICONの破壊を目標とし、事件の収束を図る。"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i52.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss52.jpg",
+          "local": "/screenshots/2020-kouhaku/52-source-1.jpg",
+          "sha256": "845d7e646c7205641d8b5fbbcc300db04216cf5922b698bcfbe0eadc31e2ec43"
+        },
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss52b.jpg",
+          "local": "/screenshots/2020-kouhaku/52-source-2.jpg",
+          "sha256": "9a8399a25c6ef52625dcf1803d2951b2deacc740ba83e22bdd0dcbd7d2f5a38f"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaVX.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaMZ.png"
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=15C22odXgMAcWD23EwNR-U07LA_kSPznG",
+          "label": "【DL(601MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-53",
+      "no": "53",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry53.html",
+      "catalogueTitle": "ふたりエッジ",
+      "detailTitle": "ふたりエッジ",
+      "catalogueMetadata": {
+        "作者": "ぽんぽこたぬきさん",
+        "使用ツール": "rpgツクール2000",
+        "ジャンル": "ksg",
+        "配信/投稿": "自己責任でお願いします"
+      },
+      "sourceMetadata": {
+        "作者": "ぽんぽこたぬきさん",
+        "ジャンル": "ksg",
+        "ツール": "rpgツクール2000",
+        "配信/投稿": "自己責任でお願いします",
+        "作者コメント": "物故ゲーでゴメス"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/2000.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss53.png",
+          "local": "/screenshots/2020-kouhaku/53-source-1.png",
+          "sha256": "d9c595215be4e97f0a617db9798f170ab06edb8d636a5b5934a143b0a036332a"
+        },
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss53b.png",
+          "local": "/screenshots/2020-kouhaku/53-source-2.png",
+          "sha256": "077d3ec6aaac3332d6cc62102d5d78275fa804c3e0843ca3b5019f48fb13e13c"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2000.png",
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2003.png"
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1JdCUkDfQwt1tWtzp4TNxC93qrmz1FRWw",
+          "label": "【DL(3.54MB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-54",
+      "no": "54",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry54.html",
+      "catalogueTitle": "緊急辞退宣言",
+      "detailTitle": "緊急辞退宣言",
+      "catalogueMetadata": {
+        "作者": "◆2aLlGIkY8s",
+        "使用ツール": "2000",
+        "ジャンル": "ｋｓｇ",
+        "配信/投稿": "緊急/辞退"
+      },
+      "sourceMetadata": {
+        "作者": "◆2aLlGIkY8s",
+        "ジャンル": "ｋｓｇ",
+        "ツール": "2000",
+        "配信/投稿": "緊急/辞退",
+        "作者コメント": "うんこ"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i54.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss54.png",
+          "local": "/screenshots/2020-kouhaku/54-source-1.png",
+          "sha256": "350ed6d20eb46c00fd62e120b832f319e7abfb84c97f3649aff024710b558a7f"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yushaXP.png"
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1xONHLjCnNJCvaOLf9t_rc3WD4YHgR2Yc",
+          "label": "【DL(880KB)】"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2020-kouhaku-work-55",
+      "no": "55",
+      "detailUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/entry55.html",
+      "catalogueTitle": "地獄旅行おぼなす",
+      "detailTitle": "地獄旅行おぼなす",
+      "catalogueMetadata": {
+        "作者": "脂べーこん",
+        "使用ツール": "2000",
+        "ジャンル": "ホラー",
+        "配信/投稿": "両方可"
+      },
+      "sourceMetadata": {
+        "作者": "脂べーこん",
+        "ジャンル": "ホラー",
+        "ツール": "2000",
+        "配信/投稿": "両方可",
+        "作者コメント": "今から作ります　おぼなすシリーズを勝手にリスペクトしたプレイ時間3分程度のホラーノベルです\n脂はむ氏の作品ではないので悪しからず"
+      },
+      "metadataDifferences": [],
+      "sourceSample": false,
+      "iconSourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/i55.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss55.png",
+          "local": "/screenshots/2020-kouhaku/55-source-1.png",
+          "sha256": "31302422761340d7cbe72e348788817bf588100ba6a3518a854e52e76270b610"
+        }
+      ],
+      "hostImageSources": [
+        "https://viprpg2020kohaku.xxxxxxxx.jp/img/icon/yusha2000.png"
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    }
+  ],
+  "bannerSources": [
+    {
+      "sourceKind": "source-inline-data-image",
+      "sourceHtml": "source/live/index.bin",
+      "local": "/banners/2020-kouhaku-source-1.png",
+      "sha256": "998eaf4d5b4fe20ec6fd79ef410cade92263275142ce76af84bc30f97b72811e"
+    },
+    {
+      "sourceKind": "source-inline-data-image",
+      "sourceHtml": "source/live/index.bin",
+      "local": "/banners/2020-kouhaku-source-2.png",
+      "sha256": "fb3a725b78b513793fe26834b09e3162542b6d0b2092d051ece0d0448fdd6679"
+    },
+    {
+      "sourceKind": "source-inline-data-image",
+      "sourceHtml": "source/live/index.bin",
+      "local": "/banners/2020-kouhaku-source-3.png",
+      "sha256": "2c177ce5bc5916985281834f0ea1f038b34d09652aa2b1b089ae69eb394bc6be"
+    }
+  ],
+  "generatedSourceGapNotices": [
+    {
+      "path": "entry26.html"
+    }
+  ],
+  "handling": "Direct archival without topic or image-pixel screening. Preserve the official 55 directory slots, including the explicitly empty No.26, and separately restore the published No.00 sample reached from No.01. Keep entry000 as an unlisted source template, not another work. Preserve screenshot slots and all organizer inline images in their distinct source roles. No game packages downloaded.",
+  "desktopReview": "passed-desktop-only",
+  "desktopEvidence": "desktop-review.json"
+}

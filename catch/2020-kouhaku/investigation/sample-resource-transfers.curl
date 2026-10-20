@@ -1,0 +1,8 @@
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/img/ss/ss00.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/resources/sample-extra-0.bin"
+write-out = "0 %{http_code} %{url_effective} %{size_download}\n"

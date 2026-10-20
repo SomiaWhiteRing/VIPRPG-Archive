@@ -9,6 +9,15 @@ import { rewrite2020Script, snapshot2020Script, root2020Script } from './source-
 import { rewriteSummer2012Source } from "./source-2012-summer-view";
 
 const configurations: Record<string, { base: string; entry?: string; manifests: string[]; seeds: Record<string, string>; seedUrls?: Record<string, string>; cgiProfile?: boolean; encoding?: string; encodingOverrides?: Record<string, string>; liveSource?: boolean; disabledLocalLinks?: string[]; externalResources?: Record<string, string>; preserveExternalExtensions?: string[]; frames?: { menuPage: string; menuName: string; mainName: string } }> = {
+  "2020-kouhaku": {
+    base: "https://viprpg2020kohaku.xxxxxxxx.jp/",
+    manifests: ["source/replay/manifest.json"],
+    seeds: {},
+    encoding: "utf-8",
+    liveSource: true,
+    disabledLocalLinks: ["404.html"],
+    preserveExternalExtensions: [".zip", ".rar", ".7z", ".exe"],
+  },
   "2020-gw": {
     base: "https://vipgw2020.tubakurame.com/",
     manifests: ["source/replay/manifest.json"],
@@ -472,7 +481,7 @@ async function main() {
       sharedHeaderTargets.push(local ? `/original-pages/${id}/${local}${url.search}${url.hash}` : url.href);
     });
   }
-  if (["2020-gw", "2021-summer", "2021-kouhaku", "2021-gw", "2022-summer", "2022-kouhaku", "2022-gw", "2023-winter", "2023-summer", "2023-kouhaku", "2023-gw", "2024-summer", "2024-kuradashifestival", "2024-kouhaku", "2024-gw", "2025-gw", "2025-summer"].includes(id) || id === "2006-kouhaku" || id === "2012-toppuu-festival" || id === "2011-toppatsu-festival" || id === "2008-jisaku-battle-festival" || id === "2010-gw" || id === "2010-kouhaku" || id === "2010-summer") config.externalResources = recovery.originalResources;
+  if (["2020-kouhaku", "2020-gw", "2021-summer", "2021-kouhaku", "2021-gw", "2022-summer", "2022-kouhaku", "2022-gw", "2023-winter", "2023-summer", "2023-kouhaku", "2023-gw", "2024-summer", "2024-kuradashifestival", "2024-kouhaku", "2024-gw", "2025-gw", "2025-summer"].includes(id) || id === "2006-kouhaku" || id === "2012-toppuu-festival" || id === "2011-toppatsu-festival" || id === "2008-jisaku-battle-festival" || id === "2010-gw" || id === "2010-kouhaku" || id === "2010-summer") config.externalResources = recovery.originalResources;
   const sourceDetailGapPaths = new Set<string>((recovery.sourceDetailGaps ?? []).map((gap: { sourcePath: string }) => gap.sourcePath));
   const unavailableSourcePagePaths = new Set<string>((recovery.unavailableSourcePages ?? []).map((gap: { sourcePath: string }) => gap.sourcePath));
   const previousMissing: Array<{ url: string; requestedUrl?: string; error: string }> = JSON.parse(await fs.readFile(`${root}/original-view.json`, "utf8").catch(() => "{}")).missingResources ?? [];
@@ -616,6 +625,14 @@ async function main() {
       if (/\.(?:png|jpe?g|gif|bmp|webp|avif|ico)$/i.test(local)) imageExtension(bytes);
       if (/\.html?$/i.test(local)) {
         const $ = cheerio.load(decodeSource(bytes, resourceEncoding));
+        if (id === "2020-kouhaku") {
+          $("script,noscript,iframe,form,object,embed").remove();
+          if (/^entry\d+\.html$/.test(local)) $('head').append('<style data-archive-desktop-fit>#entry img{max-width:calc(100vw - 32px);height:auto}</style>');
+          if (local === 'entry30.html') $('#entry tr').eq(6).children('td').css('overflow-wrap', 'anywhere');
+          $('img[onmouseover],img[onmouseout]').each((_, element) => { for (const attr of ['onmouseover', 'onmouseout']) { const value = $(element).attr(attr); if (value) $(element).attr(attr, value.replace(/(this\.src\s*=\s*)(['"])([^'"]+)\2/g, (_, prefix, quote, url) => prefix + quote + new URL(url, original).href + quote)); } });
+          if (local === 'index.html') $('.wrapUnder-contents-listItem-descriptionTitle').filter((_, e) => /^No\.26$/.test($(e).text().trim())).append('<small data-archive-empty-slot>［原一覧の空欄］ <a href="https://viprpg2020kohaku.xxxxxxxx.jp/entry26.html">保存庫の資料枠</a></small>');
+          compatibilityFixes.push({ page: local, change: 'Preserve source screenshots, hover events, inline organizer icons and source theme. Retain the empty No.26 directory slot with an explicitly labelled archive skeleton; keep No.00 and entry000 source samples distinct. Remove hosting scripts and disable the missing final 404.html destination.' });
+        }
         if (id === "2020-gw") {
           $('script').each((_, element) => {
             const node = $(element), src = node.attr('src'), code = node.html() || '';

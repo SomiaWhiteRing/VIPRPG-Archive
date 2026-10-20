@@ -1,0 +1,558 @@
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/result.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-0.bin"
+write-out = "0 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry01.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-1.bin"
+write-out = "1 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry02.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-2.bin"
+write-out = "2 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry03.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-3.bin"
+write-out = "3 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry04.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-4.bin"
+write-out = "4 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry05.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-5.bin"
+write-out = "5 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry06.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-6.bin"
+write-out = "6 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry07.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-7.bin"
+write-out = "7 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry08.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-8.bin"
+write-out = "8 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry09.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-9.bin"
+write-out = "9 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry10.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-10.bin"
+write-out = "10 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry11.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-11.bin"
+write-out = "11 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry12.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-12.bin"
+write-out = "12 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry13.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-13.bin"
+write-out = "13 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry14.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-14.bin"
+write-out = "14 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry15.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-15.bin"
+write-out = "15 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry16.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-16.bin"
+write-out = "16 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry17.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-17.bin"
+write-out = "17 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry18.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-18.bin"
+write-out = "18 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry19.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-19.bin"
+write-out = "19 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry20.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-20.bin"
+write-out = "20 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry21.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-21.bin"
+write-out = "21 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry22.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-22.bin"
+write-out = "22 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry23.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-23.bin"
+write-out = "23 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry24.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-24.bin"
+write-out = "24 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry25.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-25.bin"
+write-out = "25 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry27.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-26.bin"
+write-out = "26 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry28.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-27.bin"
+write-out = "27 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry29.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-28.bin"
+write-out = "28 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry30.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-29.bin"
+write-out = "29 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry31.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-30.bin"
+write-out = "30 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry32.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-31.bin"
+write-out = "31 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry33.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-32.bin"
+write-out = "32 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry34.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-33.bin"
+write-out = "33 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry35.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-34.bin"
+write-out = "34 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry36.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-35.bin"
+write-out = "35 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry37.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-36.bin"
+write-out = "36 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry38.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-37.bin"
+write-out = "37 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry39.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-38.bin"
+write-out = "38 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry40.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-39.bin"
+write-out = "39 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry41.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-40.bin"
+write-out = "40 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry42.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-41.bin"
+write-out = "41 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry43.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-42.bin"
+write-out = "42 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry44.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-43.bin"
+write-out = "43 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry45.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-44.bin"
+write-out = "44 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry46.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-45.bin"
+write-out = "45 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry47.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-46.bin"
+write-out = "46 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry48.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-47.bin"
+write-out = "47 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry49.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-48.bin"
+write-out = "48 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry50.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-49.bin"
+write-out = "49 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry51.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-50.bin"
+write-out = "50 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry52.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-51.bin"
+write-out = "51 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry53.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-52.bin"
+write-out = "52 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry54.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-53.bin"
+write-out = "53 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/entry55.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-54.bin"
+write-out = "54 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2020kohaku.xxxxxxxx.jp/styles.css"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2020-kouhaku/source/live/page-55.bin"
+write-out = "55 %{http_code} %{url_effective} %{size_download}\n"
