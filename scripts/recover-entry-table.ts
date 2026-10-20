@@ -35,6 +35,7 @@ export function imageExtension(bytes: Buffer) {
   if (bytes.subarray(0, 3).toString() === "GIF") return "gif";
   if (bytes.subarray(0, 2).toString() === "BM") return "bmp";
   if (bytes.subarray(0, 4).toString() === "RIFF" && bytes.subarray(8, 12).toString() === "WEBP") return "webp";
+  if (bytes.subarray(4, 12).toString() === "ftypavif") return "avif";
   if (hex.startsWith("00000100")) return "ico";
   throw new Error("Response is not a recognized image");
 }

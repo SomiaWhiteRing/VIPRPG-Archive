@@ -432,7 +432,7 @@ async function main() {
     const absolute = new URL(unarchive(url), owner).href, local = relative(absolute);
     if (local && blocked.has(local)) return blocked.get(local);
     if (local && ((id === "2010-gw" && sourceDetailGapPaths.has(local)) || (["2008-jisaku-battle-festival", "2008-kouhaku", "2008-summer", "2007-default-battle-festival", "2007-gw", "2007-summer", "2006-kouhaku", "2006-summer"].includes(id) && (sourceDetailGapPaths.has(local) || unavailableSourcePagePaths.has(local))))) return local;
-    if (local && /\.(?:html?|css|js|png|jpe?g|gif|bmp|webp|ico|cur|svg|mp3|wav|ogg|mid|avi|ogv|txt|zip|woff2?|ttf|eot)$/i.test(local)) {
+    if (local && /\.(?:html?|css|js|png|jpe?g|gif|bmp|webp|avif|ico|cur|svg|mp3|wav|ogg|mid|avi|ogv|txt|zip|woff2?|ttf|eot)$/i.test(local)) {
       queue.add(absolute);
       return local;
     }
@@ -508,7 +508,7 @@ async function main() {
             const response = await fetch(url, { signal: AbortSignal.timeout(30000) });
             if (!response.ok) throw new Error(`HTTP ${response.status}`);
             const candidate = Buffer.from(await response.arrayBuffer());
-            if (/\.(?:png|jpe?g|gif|bmp|webp|ico)$/i.test(local)) imageExtension(candidate);
+            if (/\.(?:png|jpe?g|gif|bmp|webp|avif|ico)$/i.test(local)) imageExtension(candidate);
             recovered = candidate;
             const filename = `${Object.keys(manifest).length + 1}.bin`;
             await fs.writeFile(`${cache}/${filename}`, recovered);
@@ -522,7 +522,7 @@ async function main() {
       }
       if (encoding !== "utf-8" && bytes.subarray(0, 3).equals(Buffer.from([0xef, 0xbb, 0xbf]))) compatibilityFixes.push({ page: local, change: "Decode this resource using its UTF-8 BOM instead of the festival default encoding." });
       if (!/\.html?$/i.test(local) && /^\s*<(?:!doctype|html)\b/i.test(bytes.subarray(0, 256).toString("utf8"))) throw new Error("HTML returned instead of a source resource");
-      if (/\.(?:png|jpe?g|gif|bmp|webp|ico)$/i.test(local)) imageExtension(bytes);
+      if (/\.(?:png|jpe?g|gif|bmp|webp|avif|ico)$/i.test(local)) imageExtension(bytes);
       if (/\.html?$/i.test(local)) {
         const $ = cheerio.load(decodeSource(bytes, resourceEncoding));
         if (id === "2011-summer" && local.startsWith("sub/")) {
