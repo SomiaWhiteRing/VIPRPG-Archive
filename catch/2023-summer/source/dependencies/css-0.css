@@ -1,0 +1,580 @@
+body {
+    background-image:url(/common/_img/skin/021mandarin/bg1b.gif);
+    background-repeat:repeat-x;
+    background-color:#FC3;
+    padding:0;
+    text-align:center;
+    font-family:arial,helvetica,"�q���M�m�p�S Pro W3","Hiragino Kaku Gothic Pro",Osaka,"���C���I",Meiryo,"MS P�S�V�b�N",clean,sans-serif;
+    font-size:13px;
+    font-size-adjust:none;
+    font-stretch:normal;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    line-height:normal;
+}
+
+.box {
+    zoom: 1;
+}
+
+h1 {
+    font-size:167%;
+    font-weight:bold;
+    color:#FFF;
+    margin:0;
+}
+
+#header h1,#header h1 a:hover,#header h1 a:active,#header h1 a:visited,#header h1 a:link{
+    color:white;
+    font-size:24px;
+    font-weight:bold;
+    margin:0;
+    padding:0;
+    line-height:1.3;
+}
+#header h1 {
+    padding: 40px 0 5px 5px;
+}
+
+
+#header h2,#header h2 a:hover ,#header h2 a:active ,#header h2 a:visited ,#header h2 a:link    {
+    color:#F90;
+    font-size:10px;
+    margin:0;
+    padding:0;
+    line-height:1;
+}
+#header h2 {
+    padding: 0px 0 5px 5px;
+}
+
+#wikibody h1,#wikibody h2{
+    color:black;
+
+}
+
+#wikibody h2 {
+    color:#F90;
+    margin:0;
+    border-bottom:1px dotted #CCC;
+}
+
+h3 {
+    color:#369;
+    margin:0;
+    padding-bottom:5px;
+    border-bottom:1px dotted #CCC;
+}
+
+h1{font-size:167%;font-weight:bold;}
+h2{font-size:152%;font-weight:bold;}
+h3{font-size:144%;font-weight:bold;}
+h4{font-size:129%;font-weight:bold;}
+h5{font-size:114%;font-weight:bold;}
+h6{font-size:100%;font-weight:bold;}
+
+p {
+    margin-top:5px;
+    padding-bottom:5px;
+}
+
+.text {
+    margin-top:5px;
+    padding-bottom:5px;
+}
+
+a { text-decoration: none; color:#369;}
+
+#atwiki-jp-bg2{
+    padding-top:25px;
+}
+
+#container {
+    margin:0px auto 10px auto;
+    width:1100px;
+    padding:10px;
+    height:auto;
+    background-color:#FFF;
+    text-align:left;
+}
+#container {
+    line-height:1.5;
+}
+
+#atwiki-jp-bg1 {
+    float: left;
+    width: 210px;
+    height:100px;
+    margin-bottom:10px;
+    background: #fff url(/common/_img/skin/021mandarin/leaf.gif) left no-repeat;
+    -webkit-background-size: 210px 100px;
+    -moz-background-size: 210px 100px;
+    -o-background-size: 210px 100px;
+    background-size:210px 100px;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/common/_img/skin/021mandarin/leaf.gif', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/common/_img/skin/021mandarin/leaf.gif', sizingMethod='scale')";
+}
+
+#header-right {
+    width: 878px;
+    height:100px;
+    float: right;
+    display: inline-block;
+    background:url(/common/_img/skin/021mandarin/bg1c.gif) repeat-x;
+    color:#666;
+}
+
+#wrapper {
+    overflow: hidden;
+}
+
+#contents {
+    width: 860px;
+    float: right;
+    margin-top: 10px;
+    color:#666;
+    overflow: hidden;
+}
+
+#menubar{
+    width:200px;
+    padding:10px 5px;
+    color:#fff;
+    font-size:11px;
+    float: left;
+    margin-top: 10px;
+    background: #000;
+    overflow: hidden;
+}
+
+#menubar hr{
+    border-bottom:1px dotted #CCC;
+}
+
+#menubar ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+#menubar ul a {
+    display:block;
+    color:#F90;
+    text-decoration:none;
+    padding:10px;
+    width:180px;
+    /*height:10px;*/
+    border-bottom:1px dotted #333;
+
+}
+
+#menubar ul a:hover{
+    background-color:#333;
+}
+
+/*
+#menubar {
+    width:130px;
+    background:url(/common/_img/skin/021mandarin/bg1c.gif) repeat-x;
+    padding:110px 10px 10px;
+    color:#EAEAEA;
+}
+*/
+
+#clear {
+    clear:both;
+}
+
+.date {
+    font-size:10px;
+    color:#999;
+    font-weight:normal;
+}
+
+#copyright {
+    padding-top:10px;
+    font:10px;
+    color:#369;
+}
+
+#copyright a {
+    text-decoration:none;
+    color:#369;
+}
+
+#copyright a:hover {
+    color:#F39;
+}
+
+/*SEARCH HIGHLIGHT COLOR*/
+.highlight
+{
+    background: #DEFFA9;
+}
+
+/* RIGHTBOX AND LEFTBOX FOR TOOLBAR */
+.leftbox {
+ float: left;
+ margin: 0.5em 1em 0 0;
+ }
+
+.rightbox {
+ float: right;
+ margin-left: 1em;
+ margin-bottom: 0em;
+ }
+
+.footer hr{
+    display:none;
+}
+
+#footer {
+    text-align: center;
+}
+
+#menubar{
+    overflow:hidden;
+}
+
+#wikibody p,
+#wikibody dl,
+#wikibody multicol,
+#menubar p,
+#menubar dl,
+#menubar multicol{
+    display: block;
+    margin: 1em 0;
+}
+#wikibody dd,
+#menubar dd{
+    display: block;
+    margin-left: 20px;
+}
+
+#wikibody address,
+#menubar address{
+    display: block;
+    font-style: italic;
+}
+
+#wikibody center,
+#menubar center{
+    display: block;
+    text-align: center;
+}
+
+blockquote{
+    display: block;
+    margin: 1em 0;
+    padding-left: 1em;
+    border-left: solid;
+    border-color: #ff9f06;
+    border-width: 3px;
+}
+
+#wikibody h1,
+#menubar h1{
+    margin: 13px 0;
+}
+#wikibody h2,
+#menubar h2{
+    margin: 13px 0;
+}
+#wikibody h3,
+#menubar h3{
+    margin: 13px 0;
+}
+#wikibody h4,
+#menubar h4{
+    margin: 13px 0;
+}
+#wikibody h5,
+#menubar h5{
+    margin: 13px 0;
+}
+#wikibody h6,
+#menubar h6{
+    margin: 13px 0;
+}
+
+xmp,
+pre,
+plaintext{
+    display: block;
+    font-family: fixed;
+    white-space: pre;
+    margin: 1em 0;
+    padding 1em;
+    border: 1px solid #75b201;
+}
+
+#wikibody table,
+#menubar table{
+    display: table;
+    border-spacing: 2px;
+    border-collapse: collapse;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    -moz-box-sizing: border-box;
+    text-indent: 0;
+    border:1px solid #aaa;
+}
+
+#wikibody caption,
+#menubar caption{
+    display: table-caption;
+    text-align: center;
+}
+
+#wikibody table[align="center"] > caption,
+#menubar table[align="center"] > caption{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#wikibody table[align="center"] > caption[align="left"],
+#menubar table[align="center"] > caption[align="left"]{
+    margin-right: 0;
+}
+
+#wikibody table[align="center"] > caption[align="right"],
+#menubar table[align="center"] > caption[align="right"]{
+    margin-left: 0;
+}
+
+#wikibody tr,
+#menubar tr{
+    display: table-row;
+    vertical-align: inherit;
+}
+
+#wikibody col,
+#menubar col{
+    display: table-column;
+}
+
+#wikibody colgroup,
+#menubar colgroup{
+    display: table-column-group;
+}
+
+#wikibody tbody,
+#menubar tbody{
+    display: table-row-group;
+    vertical-align: middle;
+}
+
+#wikibody thead,
+#menubar thead{
+    display: table-header-group;
+    vertical-align: middle;
+}
+
+#wikibody tfoot,
+#menubar tfoot{
+    display: table-footer-group;
+    vertical-align: middle;
+}
+
+#wikibody table > tr,
+#menubar table > tr{
+    vertical-align: middle;
+}
+
+#wikibody td,
+#menubar td{
+    display: table-cell;
+    vertical-align: inherit;
+    text-align: inherit;
+    padding: 1px;
+    border:1px solid #aaa;
+}
+
+#wikibody th,
+#menubar th{
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    padding: 1px;
+    border:1px solid #aaa;
+}
+
+#wikibody q:before,
+#menubar q:before{
+    content: open-quote;
+}
+
+#wikibody q:after,
+#menubar q:after{
+    content: close-quote;
+}
+
+#wikibody b,
+#wikibody strong,
+#menubar b,
+#menubar strong{
+    font-weight: bolder;
+}
+
+#wikibody i,
+#wikibody cite,
+#wikibody em,
+#wikibody var,
+#wikibody dfn,
+#menubar i,
+#menubar cite,
+#menubar em,
+#menubar var,
+#menubar dfn {
+    font-style: italic;
+}
+
+#wikibody u,
+#wikibody ins,
+#menubar u,
+#menubar ins{
+    text-decoration: underline;
+}
+
+#wikibody s,
+#wikibody strike,
+#wikibody del,
+#menubar s,
+#menubar strike,
+#menubar del{
+    text-decoration: line-through;
+}
+
+#wikibody sub,
+#menubar sub{
+    vertical-align: sub;
+    font-size: smaller;
+    line-height: normal;
+}
+
+#wikibody sup,
+#menubar sup{
+    vertical-align: super;
+    font-size: smaller;
+    line-height: normal;
+}
+
+#wikibody nobr,
+#menubar nobr{
+    white-space: nowrap;
+}
+
+#wikibody abbr[title],
+#wikibody acronym[title],
+#menubar abbr[title],
+#menubar acronym[title]{
+    border-bottom: dotted 1px;
+}
+
+#wikibody ul{
+    display: block;
+    list-style-type: disc;
+    margin: 1em 0;
+    padding-left: 25px;
+}
+
+#wikibody ol,
+#menubar ol{
+    display: block;
+    list-style-type: decimal;
+    margin: 1em 0;
+    padding-left: 25px;
+}
+
+#wikibody li,
+#menubar li{
+    display: list-item;
+}
+
+#wikibody ul ul,
+#wikibody ul ol,
+#wikibody ul dl,
+#wikibody ol ul,
+#wikibody ol ol,
+#wikibody ol dl,
+#wikibody dl ul,
+#wikibody dl ol,
+#wikibody dl dl,
+#menubar ul ul,
+#menubar ul ol,
+#menubar ul dl,
+#menubar ol ul,
+#menubar ol ol,
+#menubar ol dl,
+#menubar dl ul,
+#menubar dl ol,
+#menubar dl dl {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#wikibody ol ul,
+#wikibody ul ul,
+#menubar ol ul,
+#menubar ul ul{
+    list-style-type: circle;
+}
+
+#wikibody ol ol ul,
+#wikibody ol ul ul,
+#wikibody ul ol ul,
+#wikibody ul ul ul,
+#menubar ol ol ul,
+#menubar ol ul ul,
+#menubar ul ol ul,
+#menubar ul ul ul{
+    list-style-type: square;
+}
+
+#wikibody hr,
+#menubar hr{
+    display: block;
+    height: 1px;
+    border: 1px 0;
+    margin: 0.5em auto 0.5em auto;
+}
+
+#menubar fieldset{
+    width:160px;
+    overflow:hidden;
+}
+
+#menubar select{
+    max-width:160px;
+}
+#menubar input{
+    max-width:160px;
+}
+#menubar textarea{
+    max-width:160px;
+}
+
+span.word1{ color: #000; background-color: #ffff66; }
+span.word2{ color: #000; background-color: #a0ffff; }
+span.word3{ color: #000; background-color: #99ff99; }
+span.word4{ color: #000; background-color: #ff9999; }
+span.word5{ color: #000; background-color: #ff66ff; }
+span.word6{ color: #fff; background-color: #880000; }
+span.word7{ color: #fff; background-color: #00aa00; }
+span.word8{ color: #fff; background-color: #886800; }
+span.word9{ color: #fff; background-color: #004699; }
+span.word10{ color: #fff; background-color: #990099; }
+
+/*ads*/
+
+.gafc_on{
+    background-color:#CEFF7F;
+}
+a.gafc_domain{
+    color:green;
+}
+/* Hides from IE-mac \*/
+ * html #source___Frame{ width:97% !important;}
+ /* End hide from IE-mac */
+

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/css/uikit.min.css" />
+	<link rel="stylesheet" href="/common/_skin/404/404.css?t=9b61cf677d68b4ce94307ca585fdf298" media="all">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous">
+	<link rel="shortcut icon" href="/common/_img/favicon.ico?t=817e430203913b2fcfd66bc48e51132b">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/js/uikit.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/js/uikit-icons.min.js"></script>
+	<title>お探しのページが見つかりません | アットウィキ</title>
+</head>
+<body>
+<div class="uk-section uk-section-large@m">
+	<div class="uk-container uk-container-center">
+		<div class="uk-margin-medium-bottom uk-width-xxlarge uk-margin-auto uk-card uk-card-default uk-border-rounded">
+			<div class="uk-padding">
+				<div class="uk-padding-remove-top main_image">
+					<div class="uk-width-1-1@m uk-first-column">
+						<div class="uk-text-center uk-scrollspy-inview uk-animation-slide-top-small uk-padding-small" uk-scrollspy-class="">
+							<img src="/common/_skin/404/error404.svg?t=df82576c47d6ec77d29670d18bb2115f" class="uk-width-3-4 uk-width-2-3@s uk-width-2-3@m uk-width-1-2@l">
+						</div>
+					</div>
+				</div>
+				<div class="uk-margin-top">
+					<h1 class="uk-align-center uk-text-center uk-scrollspy-inview uk-animation-slide-top-small uk-text-bold" uk-scrollspy-class="">
+						お探しのページが
+						<span class="uk-display-inline-block">見つかりません</span>
+					</h1>
+					<p>大変申し訳ございません。お探しのページが見つかりませんでした。</p>
+					<div class="box_border uk-margin-remove-bottom uk-padding-small" uk-alert>
+						<ul class="uk-list uk-list-bullet uk-margin-remove-bottom">
+							<li>ご指定のページ（URL）は移動した可能性があります。</li>
+							<li class="uk-margin-remove-top">ご指定のページ（URL）は削除された可能性があります。</li>
+							<li class="uk-margin-remove-top">ご指定のアドレス（URL）が間違っている可能性があります。</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="uk-padding uk-padding-remove-top">
+				<h2 class="uk-h4 uk-text-bold uk-text-bottom">
+					<span uk-icon="cog" class="uk-margin-small-right"></span>
+					解決方法
+				</h2>
+				<ul class="uk-list uk-list-bullet">
+					<li>ご指定のアドレス（URL）が正しく入力されているかご確認ください。</li>
+					<li class="uk-margin-remove-top">お手数をおかけしますが、しばらく時間を置いてから開き直していただくか、下記の検索からご覧になりたいページをお探しください。</li>
+				</ul>
+				<div class="box_border_green uk-margin-remove" uk-alert>
+					<p class="uk-text-bold uk-margin-small-bottom">アットウィキ検索</p>
+					<form class="uk-search uk-search-default uk-width-1-1 uk-background-default" action="//atwiki.jp/search" method="get">
+						<span uk-search-icon></span>
+						<input class="uk-search-input uk-border-rounded" name="query" type="text" placeholder="検索ワード">
+					</form>
+				</div>
+			</div>
+			<hr class="uk-margin-remove">
+			<div class="uk-padding">
+				<div>
+					<p>@WIKIはホームページ・ブログ・コミュニティサイトなどが無料で作れるホームページレンタルサービスです。</p>
+					<div>
+						<div class="balloon uk-border-rounded">
+							<p>登録も手間要らず！</p>
+						</div>
+						<ul>
+							<li>任意のウィキID</li>
+							<li>任意のパスワード</li>
+							<li>Emailアドレス</li>
+						</ul>
+						<p>
+							<span class="marker">３つの項目を登録フォームにご入力いただくだけ</span>ですぐにご利用いただけます！
+						</p>
+					</div>
+				</div>
+				<a href="https://atwiki.jp/wiki/new" class="uk-width-1-1 uk-button uk-button-default uk-border-rounded register_btn">新規ウィキ登録</a>
+				<hr />
+				<h2 class="uk-h4 uk-text-bold uk-text-bottom uk-text-center">どんなことにつかっているの？</h2>
+				<div class="uk-margin-bottom">
+					<p>主に人気ソーシャルゲームやテレビゲームの攻略ウィキに使われています！<br>困ったらアットウィキで情報交換をしよう！</p>
+					<p class="uk-margin-top">他にはこんな使い方も・・・</p>
+				</div>
+				<div class="uk-grid uk-text-center">
+					<div class="uk-width-1-2 uk-width-1-4@s uk-width-1-4@m uk-margin-bottom">
+						<div class="circle uk-width-1-1 uk-border-circle icon_bg uk-margin-small-bottom">
+							<span><i class="fa fa-home"></i></span>
+						</div>
+						<p class="uk-margin-remove">ホームページ</p>
+					</div>
+					<div class="uk-width-1-2 uk-width-1-4@s uk-width-1-4@m uk-margin-bottom">
+						<span class="uk-width-1-1 uk-border-circle uk-display-block icon_bg uk-align-center uk-margin-small-bottom circle">
+							<span><i class="fa fa-users"></i></span>
+						</span>
+						<p class="uk-margin-remove">コミュニティ</p>
+					</div>
+					<div class="uk-width-1-2 uk-width-1-4@s uk-width-1-4@m uk-margin-bottom">
+						<span class="uk-width-1-1 uk-border-circle uk-display-block icon_bg uk-align-center uk-margin-small-bottom circle">
+							<span><i class="fa fa-calendar"></i></span>
+						</span>
+						<p class="uk-margin-remove">ブログ</p>
+					</div>
+					<div class="uk-width-1-2 uk-width-1-4@s uk-width-1-4@m uk-margin-bottom">
+						<span class="uk-width-1-1 uk-border-circle uk-display-block icon_bg uk-align-center uk-margin-small-bottom circle">
+							<span><i class="fa fa-file"></i></span>
+						</span>
+						<p class="uk-margin-remove">メモ帳</p>
+					</div>
+				</div>
+				<a href="https://atwiki.jp/wiki/new" class="uk-width-1-1 uk-button uk-button-default uk-border-rounded register_btn">新規ウィキ登録</a>
+				<hr />
+				<h2 class="uk-h4 uk-text-bold uk-text-bottom uk-text-center">アットウィキの特長</h2>
+				<div class="uk-grid uk-grid-small uk-text-center uk-width-1-1 atwiki_features">
+					<div class="uk-width-1-1 uk-width-1-3@s uk-width-1-3@m">
+						<span class="uk-width-1-1 uk-border-rounded uk-display-block icon_bg uk-align-center uk-margin-small-bottom uk-padding-small">
+							<span><i class="fa fa-columns"></i></span>
+						</span>
+						<p class="uk-margin-small-top uk-margin-bottom">
+							ブログ感覚で
+							<span class="uk-display-inline-block">ホームページ作成</span>
+						</p>
+					</div>
+					<div class="uk-width-1-1 uk-width-1-3@s uk-width-1-3@m">
+						<span class="uk-width-1-1 uk-border-rounded uk-display-block icon_bg uk-align-center uk-margin-small-bottom uk-padding-small">
+							<span><i class="fa fa-i-cursor"></i></span>
+						</span>
+						<p class="uk-margin-small-top uk-margin-bottom">えらべる編集方法</p>
+					</div>
+					<div class="uk-width-1-1 uk-width-1-3@s uk-width-1-3@m">
+						<span class="uk-width-1-1 uk-border-rounded uk-display-block icon_bg uk-align-center uk-margin-small-bottom uk-padding-small">
+							<span><i class="fa fa-mobile"></i></span>
+						</span>
+						<p class="uk-margin-small-top uk-margin-bottom">携帯からでも閲覧可能</p>
+					</div>
+					<div class="uk-width-1-1 uk-width-1-3@s uk-width-1-3@m">
+						<span class="uk-width-1-1 uk-border-rounded uk-display-block icon_bg uk-align-center uk-margin-small-bottom uk-padding-small">
+							<span><i class="fa fa-cogs"></i></span>
+						</span>
+						<p class="uk-margin-small-top uk-margin-bottom">充実のプラグイン</p>
+					</div>
+					<div class="uk-width-1-1 uk-width-1-3@s uk-width-1-3@m">
+						<span class="uk-width-1-1 uk-border-rounded uk-display-block icon_bg uk-align-center uk-margin-small-bottom uk-padding-small">
+							<span><i class="fa fa-paint-brush"></i></span>
+						</span>
+						<p class="uk-margin-small-top uk-margin-bottom">えらべるデザイン</p>
+					</div>
+					<div class="uk-width-1-1 uk-width-1-3@s uk-width-1-3@m">
+						<span class="uk-width-1-1 uk-border-rounded uk-display-block icon_bg uk-align-center uk-margin-small-bottom uk-padding-small">
+							<span><i class="fa fa-comments"></i></span>
+						</span>
+						<p class="uk-margin-small-top uk-margin-bottom">みんなで情報を共有できる</p>
+					</div>
+				</div>
+				<a href="https://atwiki.jp/wiki/new" class="uk-width-1-1 uk-button uk-button-default uk-border-rounded uk-margin-top register_btn">新規ウィキ登録</a>
+			</div>
+			</div>
+		</div>
+		<p class="uk-text-center uk-text-small uk-margin-remove">&copy; 2019 AtWiki, Inc.</p>
+	</div>
+</div>
+<script>window.__CF$cv$params={r:'a4d50411ce73f611',t:'MTc5MjQ2Nzc4MQ==',u:'01a15767c75172e181ea70c6ecabb09d',ut:'3sYVsYRqdmE_oqn59W3gKej.uXgz9IpXxC4QVioyxQU-1792467781-1.2.1.1-_9R9l41lNiLVR8E8yTtkpOYhANPTfmHgBOqSiZIenYfPhqpDevXuRgxKjKG9jMwBA6tcualrOuylUySyu7lCgVRWrzsbfPSUlYt0oJOuVoI',i:60};(function(){if(!document.body)return;var s=document.createElement('script');s.src='/cdn-cgi/challenge-platform/scripts/precursor/main.js';document.head.appendChild(s);})();</script><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"f88247bfb6e74f54be0af0546b041614","spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

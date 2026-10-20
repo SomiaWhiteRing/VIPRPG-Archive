@@ -1,0 +1,95 @@
+{
+  "issue": "Initial verifier compared decoded bytes only; early captures retain gzip payloads whose compressed bytes match CDX. Corrected without refetching matched payloads.",
+  "observations": [
+    {
+      "originalUrl": "https://w.atwiki.jp/viprpg23s/pages/17.html",
+      "requestedUrl": "https://web.archive.org/web/20231001180753id_/https://w.atwiki.jp/viprpg23s/pages/17.html",
+      "error": "Error: CDX digest mismatch"
+    },
+    {
+      "originalUrl": "https://w.atwiki.jp/viprpg23s/pages/20.html",
+      "requestedUrl": "https://web.archive.org/web/20231001180719id_/https://w.atwiki.jp/viprpg23s/pages/20.html",
+      "error": "Error: CDX digest mismatch"
+    },
+    {
+      "originalUrl": "https://w.atwiki.jp/viprpg23s/pages/19.html",
+      "requestedUrl": "https://web.archive.org/web/20231002035511id_/https://w.atwiki.jp/viprpg23s/pages/19.html",
+      "error": "Error: CDX digest mismatch"
+    },
+    {
+      "originalUrl": "https://w.atwiki.jp/viprpg23s/pages/1.html",
+      "requestedUrl": "https://web.archive.org/web/20231001180647id_/https://w.atwiki.jp/viprpg23s/pages/1.html",
+      "error": "Error: CDX digest mismatch"
+    },
+    {
+      "originalUrl": "https://w.atwiki.jp/viprpg23s/pages/25.html",
+      "requestedUrl": "https://web.archive.org/web/20231001180719id_/https://w.atwiki.jp/viprpg23s/pages/25.html",
+      "error": "Error: CDX digest mismatch"
+    },
+    {
+      "originalUrl": "https://w.atwiki.jp/viprpg23s/pages/26.html",
+      "requestedUrl": "https://web.archive.org/web/20231001180756id_/https://w.atwiki.jp/viprpg23s/pages/26.html",
+      "error": "Error: CDX digest mismatch"
+    },
+    {
+      "originalUrl": "https://w.atwiki.jp/viprpg23s/pages/28.html",
+      "requestedUrl": "https://web.archive.org/web/20231001180755id_/https://w.atwiki.jp/viprpg23s/pages/28.html",
+      "error": "Error: CDX digest mismatch"
+    },
+    {
+      "originalUrl": "https://w.atwiki.jp/viprpg23s/pages/32.html",
+      "requestedUrl": "https://web.archive.org/web/20231001180733id_/https://w.atwiki.jp/viprpg23s/pages/32.html",
+      "error": "Error: CDX digest mismatch"
+    },
+    {
+      "originalUrl": "https://w.atwiki.jp/viprpg23s/pages/34.html",
+      "requestedUrl": "https://web.archive.org/web/20231001180742id_/https://w.atwiki.jp/viprpg23s/pages/34.html",
+      "error": "Error: CDX digest mismatch"
+    },
+    {
+      "originalUrl": "https://w.atwiki.jp/viprpg23s/pages/35.html",
+      "requestedUrl": "https://web.archive.org/web/20231001180717id_/https://w.atwiki.jp/viprpg23s/pages/35.html",
+      "error": "Error: CDX digest mismatch"
+    },
+    {
+      "originalUrl": "https://w.atwiki.jp/viprpg23s/pages/36.html",
+      "requestedUrl": "https://web.archive.org/web/20231001180739id_/https://w.atwiki.jp/viprpg23s/pages/36.html",
+      "error": "Error: CDX digest mismatch"
+    },
+    {
+      "originalUrl": "https://w.atwiki.jp/viprpg23s/pages/40.html",
+      "requestedUrl": "https://web.archive.org/web/20231001180748id_/https://w.atwiki.jp/viprpg23s/pages/40.html",
+      "error": "Error: CDX digest mismatch"
+    },
+    {
+      "originalUrl": "https://w.atwiki.jp/viprpg23s/pages/45.html",
+      "requestedUrl": "https://web.archive.org/web/20231001180746id_/https://w.atwiki.jp/viprpg23s/pages/45.html",
+      "error": "Error: CDX digest mismatch"
+    },
+    {
+      "originalUrl": "https://w.atwiki.jp/viprpg23s/pages/48.html",
+      "requestedUrl": "https://web.archive.org/web/20231001180707id_/https://w.atwiki.jp/viprpg23s/pages/48.html",
+      "error": "Error: CDX digest mismatch"
+    },
+    {
+      "originalUrl": "https://w.atwiki.jp/viprpg23s/pages/53.html",
+      "requestedUrl": "https://web.archive.org/web/20231001180733id_/https://w.atwiki.jp/viprpg23s/pages/53.html",
+      "error": "Error: CDX digest mismatch"
+    },
+    {
+      "originalUrl": "https://w.atwiki.jp/viprpg23s/pages/55.html",
+      "requestedUrl": "https://web.archive.org/web/20231001180730id_/https://w.atwiki.jp/viprpg23s/pages/55.html",
+      "error": "Error: CDX digest mismatch"
+    },
+    {
+      "originalUrl": "https://w.atwiki.jp/viprpg23s/pages/63.html",
+      "requestedUrl": "https://web.archive.org/web/20231001180714id_/https://w.atwiki.jp/viprpg23s/pages/63.html",
+      "error": "Error: Command failed: curl.exe --proxy http://127.0.0.1:7897 --location --max-time 60 --silent --show-error --output catch/2023-summer/source/archive/entries/63.bin --write-out %{http_code} https://web.archive.org/web/20231001180714id_/https://w.atwiki.jp/viprpg23s/pages/63.html\ncurl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\r\n"
+    },
+    {
+      "originalUrl": "https://w.atwiki.jp/viprpg23s/pages/62.html",
+      "requestedUrl": "https://web.archive.org/web/20231001180800id_/https://w.atwiki.jp/viprpg23s/pages/62.html",
+      "error": "Error: CDX digest mismatch"
+    }
+  ]
+}

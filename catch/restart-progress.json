@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2023-summer",
+  "activeFestival": "2023-winter",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -1527,6 +1527,40 @@
         "catch/2023-kouhaku/desktop-review.json"
       ],
       "notes": "日本源站当前TLS连接失败，按公开网站备份精确范围取得246文件并核对CRC/SHA，126份脚本、字体依赖全部校验；后期官方首页及12份详情存档的原始摘要与CDX一致。44项保留既有ID和题名，恢复93截图、43图标、44份作者及主办原文留言、36项共57个下载入口和4条横幅。34号原无图标，不补造；官网目录与详情下载入口合并，空地址／目录地址停用并保留来源说明。原貌371文件、48份HTML、1377处本地引用无缺失及外部自动加载；修正另存index[1]与书签图标路径。排名页09号GIF变体与21号CSV在备份及所查存档中未取得，前者明确注明使用同号PNG，后者保留不可用说明；33份实际CSV原样保存。44整理详情及48原貌文档桌面布局通过；目录展开、往返、轮播、排名排序、查看器已验证。排名评论展开标签因浏览器工具超时尚未确认，原始控制结构保留并记录此限度。不审看内容、不新增受限；游戏包未下载。"
+    },
+    {
+      "festivalId": "2023-summer",
+      "reviewedAt": "2026-10-20",
+      "dataSha256": "2e2c6a384d8cdf0049d18b64ca871b80d4c0c16970a18a15acab6b13b88996a7",
+      "status": "reviewed",
+      "works": 50,
+      "screenshotFiles": 76,
+      "screenshotReferences": 76,
+      "iconFiles": 48,
+      "sourceInlineIconReferences": 38,
+      "downloadEntries": 50,
+      "downloadLinks": 50,
+      "originalCatalogueCompleteness": "verified-public-website-backup-and-official-archived-50-item-catalogue",
+      "outstandingSourceDetails": 0,
+      "outstandingImageSourceUrls": 0,
+      "outstandingScreenshotRows": 0,
+      "outstandingOtherResources": 0,
+      "outstandingAuxiliaryPages": 0,
+      "packageBytesValidated": false,
+      "sourceEvidence": [
+        "catch/2023-summer/recovery.json",
+        "catch/2023-summer/source-comparison.json",
+        "catch/2023-summer/source/website-backup/manifest.json",
+        "catch/2023-summer/source/archive/manifest.json",
+        "catch/2023-summer/source/archive/entries/manifest.json",
+        "catch/2023-summer/investigation/image-role-verification.json",
+        "catch/2023-summer/investigation/screenshot-comparison.json",
+        "catch/2023-summer/investigation/replay-closure.json"
+      ],
+      "desktopEvidence": [
+        "catch/2023-summer/desktop-review.json"
+      ],
+      "notes": "现行Wiki与同名图片CDN在日本出口均返回404；从公开网站备份精确取得911文件并核对CRC/SHA，13份共用主题资源从源站保存。官方首页及22份页面存档原始载荷均与CDX摘要一致，正文、图片和下载地址与备份一致；其中21个作品详情快照链接写入来源。保留50个既有ID、编号及题名，恢复50个下载入口、原文留言及3条横幅。按原目录图片字节及详情明确的32×32图标位分清38处内嵌图标与76张截图；原貌完整保留114处图片，10张截图同时被源目录复用为图标仍留在截图画廊。旧画廊中12、25、45号的3个大尺寸图标归回图标字段；不以自然尺寸过滤图片。目录48处图标引用、18及38源无图标；5项作者署名省略明确标记。工具从原页标题恢复，纠正旧脚本漏认的3种写法；10、41、46的目录／详情分类或作者表记分别保留，46分类由目录补齐。原貌479文件、55份HTML、1371处本地引用无缺失或外部自动加载；未编号辅助模板单独保存，不编造00。50整理详情、55原貌文档桌面通过，目录图标与延迟图片全部加载；目录往返、沙箱导航及截图查看器切换通过。无内容审看、无新增受限、游戏包未下载。"
     }
   ],
   "originalViewsReviewed": [
@@ -1875,6 +1909,13 @@
       "evidence": [
         "catch/2023-kouhaku/original-view.json",
         "catch/2023-kouhaku/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2023-summer",
+      "evidence": [
+        "catch/2023-summer/original-view.json",
+        "catch/2023-summer/desktop-review.json"
       ]
     }
   ],

@@ -1,0 +1,24 @@
+#atwiki-jp-bg1 {background: #fff url("../attach/1/200/banner.png") left no-repeat;}
+
+div#atwiki_table_sample tr.atwiki_tr_odd {
+color: #000;
+background: #eaffea;
+
+font-size: 12px;
+}
+div#atwiki_table_sample tr.atwiki_tr_even {
+color: #000;
+background: #ffffea;
+font-size: 12px;
+}
+div#atwiki_table_sample tr.atwiki_tr_1 {
+color: #fff;
+background: #000000;
+font-weight: bold;
+font-size: 12px;
+white-space: nowrap;
+}
+
+div#atwiki_table_sample td.atwiki_tr_4{
+ font-size: 20px;
+}

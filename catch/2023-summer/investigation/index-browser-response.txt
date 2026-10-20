@@ -1,0 +1,25 @@
+HTTP/1.1 200 Connection established
+
+HTTP/1.1 404 Not Found
+Date: Tue, 20 Oct 2026 03:40:38 GMT
+Content-Type: text/html; charset=utf8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-vcache: MISS
+Server: cloudflare
+Server-Timing: cfCacheStatus;desc="DYNAMIC"
+Server-Timing: cfEdge;dur=5,cfOrigin;dur=31
+x-cacheable: NO: obj.status
+x-cacheable-status: 404
+content-security-policy: upgrade-insecure-requests
+vary: Accept-Encoding
+vary: Origin
+x-cache: Error from cloudfront
+via: 1.1 af4a3d6da547d8f14a7f34cd361488d2.cloudfront.net (CloudFront)
+x-amz-cf-pop: NRT12-P4
+alt-svc: h3=":443"; ma=86400
+x-amz-cf-id: ACaJLHbzHVbDRpVKhqzAmB8EJjrsxkmJZedmoLzOFasLpvssSJtPEQ==
+Age: 0
+cf-cache-status: DYNAMIC
+CF-RAY: a4d500923bad1ca8-NRT
+

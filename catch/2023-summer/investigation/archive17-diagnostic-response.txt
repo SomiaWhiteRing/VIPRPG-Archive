@@ -1,0 +1,60 @@
+HTTP/1.1 200 Connection established
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 20 Oct 2026 03:45:29 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-archive-orig-transfer-encoding: chunked
+x-archive-orig-connection: keep-alive
+x-archive-orig-date: Sun, 01 Oct 2023 18:07:53 GMT
+x-archive-orig-server: nginx
+x-archive-orig-set-cookie: _atwiki_sid=c78d78a3a7988a2e7cf5ef22a45c11c4; expires=Sun, 29-Oct-2023 18:07:53 GMT; Max-Age=2419200; path=/; domain=atwiki.jp; HttpOnly
+x-archive-orig-cache-control: public,max-age=180,s-maxage=1800
+x-archive-orig-expires: Sun, 01 Oct 2023 18:10:53 GMT
+x-archive-orig-etag: W/"a58124b16579800462e35a39c63f91055-67fb13145947d714b843155bbb07e936"
+x-archive-orig-x-xss-protection: 1; mode=block
+x-archive-orig-x-content-type-options: nosniff
+x-archive-orig-x-ua-compatible: IE=edge
+x-archive-orig-access-control-allow-methods: POST, GET, OPTIONS
+x-archive-orig-access-control-allow-headers: Origin, Authorization, Accept, X-Requested-With
+x-archive-orig-access-control-allow-credentials: true
+content-encoding: gzip
+x-archive-orig-content-security-policy: upgrade-insecure-requests
+x-archive-orig-access-control-allow-origin: https://w.atwiki.jp
+x-archive-orig-access-control-expose-headers: AMP-Access-Control-Allow-Source-Origin
+x-archive-orig-amp-access-control-allow-source-origin: https://w.atwiki.jp
+x-archive-orig-x-vcache: MISS
+x-archive-orig-accept-ranges: bytes
+x-archive-orig-vary: Accept-Encoding,User-Agent
+x-archive-orig-x-cache: Miss from cloudfront
+x-archive-orig-via: 1.1 e2d7efb4a6fe4a49c212c47079f43f9c.cloudfront.net (CloudFront)
+x-archive-orig-x-amz-cf-pop: SFO5-P1
+x-archive-orig-alt-svc: h3=":443"; ma=86400
+x-archive-orig-x-amz-cf-id: Kb-_Q7H-RNSgMvJhlzNPyrVSLwFbx23jFCc6bCFVrkFf23Oh8XtciA==
+x-archive-orig-age: 0
+cache-control: max-age=1800
+accept-ranges: bytes
+memento-datetime: Sun, 01 Oct 2023 18:07:53 GMT
+link: <https://w.atwiki.jp/viprpg23s/pages/17.html>; rel="original", <https://web.archive.org/web/timemap/link/https://w.atwiki.jp/viprpg23s/pages/17.html>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/https://w.atwiki.jp/viprpg23s/pages/17.html>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: spn2-20231001185854/spn2-20231001171459-wwwb-spn06.us.archive.org-8005.warc.gz
+server-timing: captures_list;dur=0.439586, exclusion.robots;dur=0.046955, exclusion.robots.policy;dur=0.037069, esindex;dur=0.006734, cdx.remote;dur=9.031158, LoadShardBlock;dur=233.489175, PetaboxLoader3.datanode;dur=190.790957, PetaboxLoader3.resolve;dur=48.251768, load_resource;dur=79.140527
+x-app-server: wwwb-app264-dc8
+x-ts: 200
+x-tr: 339
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=0
+set-cookie: wb-p-SERVER=wwwb-app264; path=/
+cache-control: private
+X-location: All
+X-AS: 201351
+X-RL: 0
+X-NA: 0
+X-Page-Cache: MISS
+Server-Timing: MISS
+X-NID: Ikuuu Network Ltd
+Referrer-Policy: no-referrer-when-downgrade
+Permissions-Policy: interest-cohort=()
+X-sd: 0
+
