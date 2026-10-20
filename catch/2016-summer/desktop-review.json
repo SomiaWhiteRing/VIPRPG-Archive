@@ -1,0 +1,102 @@
+{
+  "festivalId": "2016-summer",
+  "reviewedAt": "2026-10-20T23:25:16.668Z",
+  "scope": "Desktop only; identifiers, metadata, geometry, image loading and controls. No topic or pixel review.",
+  "viewport": [
+    1280,
+    720
+  ],
+  "original": {
+    "entry": "index.html",
+    "actualEntryClick": true,
+    "main": "viptop.html",
+    "entries": 50,
+    "allTablesHaveGeometry": true,
+    "loadedMainImages": 71,
+    "mainClientWidth": 1168,
+    "mainScrollWidth": 1284,
+    "mainHeight": 15554,
+    "galleryLinksClickedAndReturned": 19,
+    "allGalleryHashesMatched": true,
+    "imagesInLinkedGroups": 44,
+    "galleryPages": [
+      {
+        "page": "sslist.html",
+        "groups": 8,
+        "images": 28,
+        "badImages": 0,
+        "width": 1265,
+        "scroll": 1265
+      },
+      {
+        "page": "sslist2.html",
+        "groups": 1,
+        "images": 2,
+        "badImages": 0,
+        "width": 1265,
+        "scroll": 1265
+      },
+      {
+        "page": "sslist3.html",
+        "groups": 10,
+        "images": 14,
+        "badImages": 0,
+        "width": 1265,
+        "scroll": 1265
+      }
+    ],
+    "signupInstructionsVisited": true,
+    "signupForms": 0,
+    "sandbox": "allow-scripts",
+    "layout": "Original main-page widths are preserved, with horizontal scrolling inside the reading frame; no source CSS redesign."
+  },
+  "formatted": {
+    "entries": 50,
+    "imagesLoaded": 94,
+    "badImages": 0,
+    "horizontalOverflowAfterFix": 0,
+    "clientWidth": 1265,
+    "sourcePreFix": {
+      "no": "39",
+      "field": "authorComment",
+      "beforeRootWidth": 1365,
+      "afterRootWidth": 1265,
+      "preContainerClient": 839,
+      "preContentWidth": 1008,
+      "method": "Confine the original preformatted block to its own horizontal scroll container. Preserve all source text, spaces and line breaks."
+    },
+    "viewer": {
+      "entry": "19",
+      "images": 9,
+      "lastScreenshot": "19-source-9.png",
+      "nextToLast": true,
+      "wrapToFirst": true,
+      "close": true,
+      "escape": true
+    }
+  },
+  "home": {
+    "uniqueWorks": 50,
+    "images": 52,
+    "allImagesLoadedAfterScrolling": true,
+    "rootWidth": 1265,
+    "rootScroll": 1265,
+    "lastEntry": "49",
+    "lastEntryNavigationAndReturn": true
+  },
+  "checks": {
+    "validateData": true,
+    "lint": true,
+    "buildPages": 4217,
+    "originalFiles": 102,
+    "httpPayloads": 198,
+    "sha256Matched": 198,
+    "staticLocalReferences": 174,
+    "missingResources": 0
+  },
+  "limitations": [
+    "Original source is closed and current atwiki attachment is protected by a browser challenge; primary Wayback payloads are the verified recovery source.",
+    "Source download previews are reused as directory thumbnails; they are not described as separate game icons.",
+    "No game package download or runtime acceptance."
+  ]
+}

@@ -1,0 +1,1733 @@
+{
+  "festivalId": "2016-summer",
+  "originalBase": "http://www.geocities.jp/viprpgsun2016/",
+  "entryPage": "index.html",
+  "liveSource": false,
+  "originalResources": {
+    "http://www.geocities.jp/viprpgsun2016/sanka.html": "sanka.html",
+    "http://www.geocities.jp/viprpgsun2016/": "index.html",
+    "http://www.geocities.jp/viprpgsun2016/sslist2.html": "sslist2.html",
+    "http://www.geocities.jp/viprpgsun2016/sslist.html": "sslist.html",
+    "http://www.geocities.jp/viprpgsun2016/sslist3.html": "sslist3.html",
+    "http://www.geocities.jp/viprpgsun2016/viptop.html": "viptop.html",
+    "http://www.geocities.jp/viprpgsun2016/himitu.png": "assets/asset-1.png",
+    "http://www.geocities.jp/viprpgsun2016/bg_bridge_h03.bmp": "assets/asset-0.bmp",
+    "http://www.geocities.jp/viprpgsun2016/no0.png": "assets/asset-2.png",
+    "http://www.geocities.jp/viprpgsun2016/no10.png": "assets/asset-3.png",
+    "http://www.geocities.jp/viprpgsun2016/no10ss1.png": "assets/asset-4.png",
+    "http://www.geocities.jp/viprpgsun2016/no11.png": "assets/asset-5.png",
+    "http://www.geocities.jp/viprpgsun2016/no12.png": "assets/asset-6.png",
+    "http://www.geocities.jp/viprpgsun2016/no12ss1.png": "assets/asset-7.png",
+    "http://www.geocities.jp/viprpgsun2016/no13.png": "assets/asset-9.png",
+    "http://www.geocities.jp/viprpgsun2016/no12ss2.png": "assets/asset-8.png",
+    "http://www.geocities.jp/viprpgsun2016/no13ss.png": "assets/asset-10.png",
+    "http://www.geocities.jp/viprpgsun2016/no14.png": "assets/asset-12.png",
+    "http://www.geocities.jp/viprpgsun2016/no13ss2.png": "assets/asset-11.png",
+    "http://www.geocities.jp/viprpgsun2016/no16.png": "assets/asset-14.png",
+    "http://www.geocities.jp/viprpgsun2016/no15.png": "assets/asset-13.png",
+    "http://www.geocities.jp/viprpgsun2016/no17.png": "assets/asset-15.png",
+    "http://www.geocities.jp/viprpgsun2016/no18.PNG": "assets/asset-16.png",
+    "http://www.geocities.jp/viprpgsun2016/no19ss/no19ss1.png": "assets/asset-18.png",
+    "http://www.geocities.jp/viprpgsun2016/no19.png": "assets/asset-17.png",
+    "http://www.geocities.jp/viprpgsun2016/no19ss/no19ss2.png": "assets/asset-19.png",
+    "http://www.geocities.jp/viprpgsun2016/no19ss/no19ss3.png": "assets/asset-20.png",
+    "http://www.geocities.jp/viprpgsun2016/no19ss/no19ss5.png": "assets/asset-22.png",
+    "http://www.geocities.jp/viprpgsun2016/no19ss/no19ss4.png": "assets/asset-21.png",
+    "http://www.geocities.jp/viprpgsun2016/no19ss/no19ss7.png": "assets/asset-24.png",
+    "http://www.geocities.jp/viprpgsun2016/no19ss/no19ss6.png": "assets/asset-23.png",
+    "http://www.geocities.jp/viprpgsun2016/no19ss/no19ss8.png": "assets/asset-25.png",
+    "http://www.geocities.jp/viprpgsun2016/no2.png": "assets/asset-26.png",
+    "http://www.geocities.jp/viprpgsun2016/no20.png": "assets/asset-27.png",
+    "http://www.geocities.jp/viprpgsun2016/no20ss1.png": "assets/asset-28.png",
+    "http://www.geocities.jp/viprpgsun2016/no21.png": "assets/asset-30.png",
+    "http://www.geocities.jp/viprpgsun2016/no20ss2.png": "assets/asset-29.png",
+    "http://www.geocities.jp/viprpgsun2016/no21/no21ss1.png": "assets/asset-31.png",
+    "http://www.geocities.jp/viprpgsun2016/no21/no21ss2.png": "assets/asset-32.png",
+    "http://www.geocities.jp/viprpgsun2016/no21/no21ss4.png": "assets/asset-34.png",
+    "http://www.geocities.jp/viprpgsun2016/no21/no21ss5.png": "assets/asset-35.png",
+    "http://www.geocities.jp/viprpgsun2016/no21/no21ss3.png": "assets/asset-33.png",
+    "http://www.geocities.jp/viprpgsun2016/no21/no21ss6.png": "assets/asset-36.png",
+    "http://www.geocities.jp/viprpgsun2016/no21/no21ss8.png": "assets/asset-38.png",
+    "http://www.geocities.jp/viprpgsun2016/no21/no21ss7.png": "assets/asset-37.png",
+    "http://www.geocities.jp/viprpgsun2016/no22.png": "assets/asset-39.png",
+    "http://www.geocities.jp/viprpgsun2016/no24.png": "assets/asset-41.png",
+    "http://www.geocities.jp/viprpgsun2016/no23.png": "assets/asset-40.png",
+    "http://www.geocities.jp/viprpgsun2016/no25.png": "assets/asset-42.png",
+    "http://www.geocities.jp/viprpgsun2016/no26.png": "assets/asset-43.png",
+    "http://www.geocities.jp/viprpgsun2016/no27.png": "assets/asset-45.png",
+    "http://www.geocities.jp/viprpgsun2016/no28.png": "assets/asset-46.png",
+    "http://www.geocities.jp/viprpgsun2016/no26ss1.png": "assets/asset-44.png",
+    "http://www.geocities.jp/viprpgsun2016/no29ss1.png": "assets/asset-47.png",
+    "http://www.geocities.jp/viprpgsun2016/no30.png": "assets/asset-49.png",
+    "http://www.geocities.jp/viprpgsun2016/no3.png": "assets/asset-48.png",
+    "http://www.geocities.jp/viprpgsun2016/no31.png": "assets/asset-50.png",
+    "http://www.geocities.jp/viprpgsun2016/no32.png": "assets/asset-51.png",
+    "http://www.geocities.jp/viprpgsun2016/no32/no32ss1.png": "assets/asset-52.png",
+    "http://www.geocities.jp/viprpgsun2016/no32/no32ss2.png": "assets/asset-53.png",
+    "http://www.geocities.jp/viprpgsun2016/no32/no32ss4.png": "assets/asset-55.png",
+    "http://www.geocities.jp/viprpgsun2016/no32/no32ss3.png": "assets/asset-54.png",
+    "http://www.geocities.jp/viprpgsun2016/no33.png": "assets/asset-56.png",
+    "http://www.geocities.jp/viprpgsun2016/no34.png": "assets/asset-57.png",
+    "http://www.geocities.jp/viprpgsun2016/no35.png": "assets/asset-58.png",
+    "http://www.geocities.jp/viprpgsun2016/no35/no35ss1.png": "assets/asset-59.png",
+    "http://www.geocities.jp/viprpgsun2016/no35/no35ss2.png": "assets/asset-60.png",
+    "http://www.geocities.jp/viprpgsun2016/no36.png": "assets/asset-61.png",
+    "http://www.geocities.jp/viprpgsun2016/no37.png": "assets/asset-63.png",
+    "http://www.geocities.jp/viprpgsun2016/no36ss1.png": "assets/asset-62.png",
+    "http://www.geocities.jp/viprpgsun2016/no38.Png": "assets/asset-65.png",
+    "http://www.geocities.jp/viprpgsun2016/no37ss1.png": "assets/asset-64.png",
+    "http://www.geocities.jp/viprpgsun2016/no3ss.png": "assets/asset-67.png",
+    "http://www.geocities.jp/viprpgsun2016/no39.png": "assets/asset-66.png",
+    "http://www.geocities.jp/viprpgsun2016/no4.png": "assets/asset-68.png",
+    "http://www.geocities.jp/viprpgsun2016/no40.png": "assets/asset-69.png",
+    "http://www.geocities.jp/viprpgsun2016/no41.png": "assets/asset-70.png",
+    "http://www.geocities.jp/viprpgsun2016/no42ss.png": "assets/asset-72.png",
+    "http://www.geocities.jp/viprpgsun2016/no42.png": "assets/asset-71.png",
+    "http://www.geocities.jp/viprpgsun2016/no43ss.png": "assets/asset-74.png",
+    "http://www.geocities.jp/viprpgsun2016/no43.png": "assets/asset-73.png",
+    "http://www.geocities.jp/viprpgsun2016/no44.png": "assets/asset-75.png",
+    "http://www.geocities.jp/viprpgsun2016/no44ss1.png": "assets/asset-76.png",
+    "http://www.geocities.jp/viprpgsun2016/no45.png": "assets/asset-77.png",
+    "http://www.geocities.jp/viprpgsun2016/no46.png": "assets/asset-78.png",
+    "http://www.geocities.jp/viprpgsun2016/no48.png": "assets/asset-79.png",
+    "http://www.geocities.jp/viprpgsun2016/no49ss.png": "assets/asset-81.png",
+    "http://www.geocities.jp/viprpgsun2016/no49.png": "assets/asset-80.png",
+    "http://www.geocities.jp/viprpgsun2016/no4ss2.png": "assets/asset-83.png",
+    "http://www.geocities.jp/viprpgsun2016/no4ss1.png": "assets/asset-82.png",
+    "http://www.geocities.jp/viprpgsun2016/no5.png": "assets/asset-84.png",
+    "http://www.geocities.jp/viprpgsun2016/no6.png": "assets/asset-85.png",
+    "http://www.geocities.jp/viprpgsun2016/no7.png": "assets/asset-86.png",
+    "http://www.geocities.jp/viprpgsun2016/no7ss1.png": "assets/asset-87.png",
+    "http://www.geocities.jp/viprpgsun2016/no8.png": "assets/asset-88.png",
+    "http://www.geocities.jp/viprpgsun2016/no9.png": "assets/asset-89.bmp",
+    "http://www.geocities.jp/viprpgsun2016/no9/no9ss0.png": "assets/asset-90.png",
+    "http://www.geocities.jp/viprpgsun2016/no9/no9ss1.png": "assets/asset-91.png",
+    "http://www.geocities.jp/viprpgsun2016/no9/no9ss2.png": "assets/asset-92.png",
+    "http://www.geocities.jp/viprpgsun2016/noex.png": "assets/asset-93.png",
+    "http://www.geocities.jp/viprpgsun2016/vipsun2016b.png": "assets/asset-94.png",
+    "http://www.geocities.jp/viprpgsun2016/vipsun2016b2.png": "assets/asset-95.png"
+  },
+  "entries": [
+    {
+      "id": "2016-summer-work-ex",
+      "no": "EX",
+      "sourceNo": "EX",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "<span class=\"auto-style35\">エントリーNOEX：ある夏の日の依頼　作者：管理人　配信：可　公開：可　ツクール：２００ｘ　<a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1475249028/\" target=\"_blank\">感想はコチラ</a></span><br>\n\t\t\t\t<br>\n\t\t\t\t",
+      "commentFields": [
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/noex.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/EX-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/noex.png",
+          "sha256": "0c00a74ce0f5dd0e820a91f77151c86afa5e27a41b962366d35d7b042f5ca772"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/jjswqa",
+          "label": "原サイトの配布先"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-01",
+      "no": "01",
+      "sourceNo": "1",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "エントリーNO1：the ksg集　作者：ジャスティス　<br>\n\t\t\t\t配信：可　公開：可　ツクール：２０００　　<a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1468167158/\" target=\"_blank\">感想はコチラ</a><br>\n\t\t\t\t",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no0.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/01-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no0.png",
+          "sha256": "37c29efea9ce2eacf40faa9ff6cc214aab44a3270726f4430d175de4bb9245e0"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-02",
+      "no": "02",
+      "sourceNo": "２",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "<span class=\"auto-style35\">エントリーNO２：ウチモンＧＯ！　作者：くらむぼん　ジャンル：オンラインゲーム</span><span class=\"auto-style4\"><br class=\"auto-style20\">\n\t\t\t\t<span class=\"auto-style20\">配信：可　公開：可　ツクール：MV</span></span>　<a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1468167272/\" target=\"_blank\">感想はコチラ</a><br>\n\t\t\t\t",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no2.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/02-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no2.png",
+          "sha256": "6cf150e807e5c9b3a3d1e65c6e0cd04ad4e8f7ce81b2194065ce814782235cb4"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/DU5FfU",
+          "label": "原サイトの配布先"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-03",
+      "no": "03",
+      "sourceNo": "３",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "<span class=\"auto-style35\">エントリー</span><span class=\"auto-style4\"><a name=\"NO３：ちんすこうクエストARC-V\" class=\"auto-style20\">NO３：ちんすこうクエストARC-V</a><span class=\"auto-style20\">　作者：焼肉　</span><br class=\"auto-style20\">\n\t\t\t\t<span class=\"auto-style20\">配信：可　公開：可　ツクール：２０００</span></span>　　<a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1468167347/\" target=\"_blank\">感想はコチラ</a><br>\n\t\t\t\t",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no3.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "gallerySource": "http://www.geocities.jp/viprpgsun2016/sslist.html",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/03-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no3.png",
+          "sha256": "4768394f252f8715b092264bed528704ba8d32ac6caf063954bbb65f3be000f2"
+        },
+        {
+          "local": "/screenshots/2016-summer/03-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no3ss.png",
+          "sha256": "be8868db6ee1de7102bdfa72fcd6b74a4bcc68cd352ee5e66c413a3255429853"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/PA8fGl",
+          "label": "原サイトの配布先"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-04",
+      "no": "04",
+      "sourceNo": "４",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "エントリーNO４：<a name=\"ツギハギメモリーズ\">つぎはぎメモリーズ</a>　作者：ぬ　<br>\n\t\t\t\t配信：可　公開：同梱ｔｘｔ参考　<br>\n\t\t\t\tツクール：２００ｘジャンル：パクリ　<a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1468167401/\" target=\"_blank\">感想はコチラ</a><br>\n\t\t\t\t",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no4.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "gallerySource": "http://www.geocities.jp/viprpgsun2016/sslist.html",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/04-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no4.png",
+          "sha256": "eb3c22f9f14426b4dca710aa33cce1ef8a2a5b58272bf52d8f200689e1bf0eec"
+        },
+        {
+          "local": "/screenshots/2016-summer/04-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no4ss1.png",
+          "sha256": "4457c8c89c658fa2ee0a1ceb37baa439814e295da82887be69c60b7488383e14"
+        },
+        {
+          "local": "/screenshots/2016-summer/04-source-3.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no4ss2.png",
+          "sha256": "15833f4614de67681af711f5212ea3c742ccf5536e3a332c71e814d2181cdb4f"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-05",
+      "no": "05",
+      "sourceNo": "５",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "\n\t\t\t\t<span class=\"auto-style35\">エントリーNO５：</span><span class=\"auto-style4\"><span id=\"yiv2128074838defid\" class=\"auto-style20\">-偽典ちんすこうクエスト-</span><span class=\"auto-style20\">吸精姫やみっち　作者：徳明</span></span>　　<span class=\"auto-style30\"><a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1468167447/\" target=\"_blank\">感想はコチラ</a></span><br>\n\t\t\t\t<span class=\"auto-style55\">配信：消される覚悟があるなら　公開：らめぇ　ツクール：ergツクール２０００</span><span class=\"auto-style15\">※R－１８作</span>",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no5.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/05-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no5.png",
+          "sha256": "cb1c369c294e6714da1b4a81960d2d3e5dcb166dacc2e008ae7d07b0686be228"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/R82j7k",
+          "label": "原サイトの配布先"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-06",
+      "no": "06",
+      "sourceNo": "６",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "<span class=\"auto-style35\">エントリーNO６：短編聖人。　作者：鷹　配信：可　公開：可　ツクール：２０００</span><br>\n\t\t\t\t<a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1468167490/\" target=\"_blank\">\n\t\t\t\t感想はコチラ</a><br>\n\t\t\t\t",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no6.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/06-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no6.png",
+          "sha256": "38f1408889d61e1f218641ee2b2aac90a24fc17fe8f414a65332a187e54990bd"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/YwhP0H",
+          "label": "原サイトの配布先"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-07",
+      "no": "07",
+      "sourceNo": "７",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "<br>\n\t\t\t\tエントリーNO７<a name=\"：ヨロズ英雄譚\">：ヨロズ英雄譚</a>　作者：炭酸電池　<br>\n\t\t\t\t配信：公開：ともに自己責任で　ツクール：２０００　<a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1468167568/\" target=\"_blank\">感想はコチラ</a><br>\n\t\t\t\t<br>\n\t\t\t\t",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no7.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "gallerySource": "http://www.geocities.jp/viprpgsun2016/sslist.html",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/07-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no7.png",
+          "sha256": "575f59eecf234345163e45e3a68fb3919a9b835329d3f410f100eaa17385aaec"
+        },
+        {
+          "local": "/screenshots/2016-summer/07-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no7ss1.png",
+          "sha256": "ba63e34119ecb7d37f64e5537991bbda7b4c30cd2448f679096ea9dee56f4b0b"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-08",
+      "no": "08",
+      "sourceNo": "８",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "エントリーNO８：窓から見える（仮）　作者：特に思いつきません　<br>\n\t\t\t\t配信：丸　公開：罰　ツクール：２０００　<a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1468167703/\" target=\"_blank\">感想はコチラ</a><br>\n\t\t\t\t",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no8.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/08-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no8.png",
+          "sha256": "ee54a4b0285d88f9c1896a7629b84ba59ded55c7efefb0f26b8a64352dde02f5"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-09",
+      "no": "09",
+      "sourceNo": "9",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "<span class=\"auto-style35\">エントリー</span><a name=\"NO9：我が愛弟子のとある一日\" class=\"auto-style35\">NO9：我が愛弟子のとある一日</a><span class=\"auto-style35\">　作者：名乗る程の者ではございません　</span><span class=\"auto-style4\"><br class=\"auto-style20\">\n\t\t\t\t<span class=\"auto-style20\">配信：ok　公開：ok　ツクール：２０００　</span></span><a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1468167762/\" target=\"_blank\" class=\"auto-style20\">感想はコチラ</a><br class=\"auto-style35\">\n\t\t\t\t<br>\n\t\t\t\t",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no9.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "gallerySource": "http://www.geocities.jp/viprpgsun2016/sslist.html",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/09-source-1.bmp",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no9.png",
+          "sha256": "b8d1ea752fb142fa3d658c3f1490de1188352fac1bfaf88aa5e09f6f1757afba"
+        },
+        {
+          "local": "/screenshots/2016-summer/09-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no9/no9ss0.png",
+          "sha256": "68b354e3bec5117d9e39ca5efb86453a6f0a2c6f46fa582b73c5842fb09eed5a"
+        },
+        {
+          "local": "/screenshots/2016-summer/09-source-3.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no9/no9ss1.png",
+          "sha256": "bf44989862e8526663d295e8a1525c6e504069eb0a8be893a349344746427e3a"
+        },
+        {
+          "local": "/screenshots/2016-summer/09-source-4.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no9/no9ss2.png",
+          "sha256": "2985b3c020f6f1eb22f0f43a47da3734fc7c5d51cb92158cfe2de55463a1bdd7"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/B5g2fQ",
+          "label": "原サイトの配布先"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-10",
+      "no": "10",
+      "sourceNo": "10",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "エントリーNO10:夢をみるムシャ　作者：うっぺれ　<br>\n\t\t\t\t配信：いい　公開：よ　ツクール：２０００　ジャンル：アクション　<a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1468167802/\" target=\"_blank\">感想はコチラ</a><br>\n\t\t\t\t<br>\n\t\t\t\t",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no10.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/10-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no10.png",
+          "sha256": "a5c86f3f1ba8020e3b46400d45ca01e83f33c325415a3a72ea3c2fb901457ae4"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-11",
+      "no": "11",
+      "sourceNo": "Ⅺ",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "エントリーNOⅪ：茄子とハルマゲドン（課題）　作者：ヨハン・カスパー・シュミット　<br>\n\t\t\t\t配信：好きにして　公開：好きにして　ツクール：２０００　ジャンル：アクション　<a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1468167838/\" target=\"_blank\">感想はコチラ</a><br>\n\t\t\t\t",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no11.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/11-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no11.png",
+          "sha256": "7210b212f181d14f1b3aa1aa720efd10f13dbf2bf1f006d4019dd76aa5a987da"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-12",
+      "no": "12",
+      "sourceNo": "12",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "\n\t\t\t\t<span class=\"auto-style35\">エントリー</span><a name=\"NO12：なすみす\" class=\"auto-style35\">NO12：なすみす</a><span class=\"auto-style35\">　作者：名雲きつね　　　　　</span><a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1468167888/\" target=\"_blank\" class=\"auto-style35\">感想はコチラ</a><br class=\"auto-style35\">\n\t\t\t\t<span class=\"auto-style35\">配信：自己責任　公開：自己責任　ツクール：２０００</span>　<span class=\"auto-style15\">※R－１８作品</span>",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no12.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "gallerySource": "http://www.geocities.jp/viprpgsun2016/sslist2.html",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/12-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no12.png",
+          "sha256": "a8385177aed12a1d43da5e2bfd9a92f5fc94e596467c56b0b06f3a5e9c7f637c"
+        },
+        {
+          "local": "/screenshots/2016-summer/12-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no12ss1.png",
+          "sha256": "e00c69a017fafa99d0831344077a92c036810993b8c62569b89d92d31e023a74"
+        },
+        {
+          "local": "/screenshots/2016-summer/12-source-3.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no12ss2.png",
+          "sha256": "e5b460e0b0be04ed76b0eac287a664efa7beab021a87ebf4686279526a2f5864"
+        },
+        {
+          "local": "/screenshots/2016-summer/12-source-4.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/himitu.png",
+          "sha256": "96c74aa8237e1e3c923fe3bae9f23e18203fb24c32f2944e799f198a2034dd5b"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/sCkI1h",
+          "label": "原サイトの配布先"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-13",
+      "no": "13",
+      "sourceNo": "13",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "<span class=\"auto-style35\">エントリー</span><a name=\"NO13：魔法達の夏物語\" class=\"auto-style35\">NO13：魔法達の夏物語</a><span class=\"auto-style35\">　作者：suica　</span><br class=\"auto-style20\">\n\t\t\t\t<span class=\"auto-style35\">配信：可能　公開：可能　ツクール：VXace</span><span class=\"auto-style20\">　　</span><a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1468167923/\" target=\"_blank\" class=\"auto-style35\">感想はコチラ</a>",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no13.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "gallerySource": "http://www.geocities.jp/viprpgsun2016/sslist.html",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/13-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no13.png",
+          "sha256": "f9d0313f1837e562dc999c90d6903c4b0320c478f4545f193336ce6572885b95"
+        },
+        {
+          "local": "/screenshots/2016-summer/13-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no13ss.png",
+          "sha256": "a361991ed13f05b002721cd7fd0076c420b3460639d249a32eaa7d1460a62323"
+        },
+        {
+          "local": "/screenshots/2016-summer/13-source-3.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no13ss2.png",
+          "sha256": "99df18b7af1bc413f744fa903dbfbf793ca09aad1676e7267fcb6d3ed34fc6c5"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/JxyCFX",
+          "label": "原サイトの配布先"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-14",
+      "no": "14",
+      "sourceNo": "14",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "<span class=\"auto-style35\">エントリーNO14：もしもカワサキ・ニンジャだったら　作者：Gam123　</span><span class=\"auto-style4\"><br class=\"auto-style20\">\n\t\t\t\t<span class=\"auto-style20\">配信：いいよ！　公開：いいよ！　ツクール：２０００</span></span>　<a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1468167987/\" target=\"_blank\">感想はコチラ</a>",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no14.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/14-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no14.png",
+          "sha256": "d08eacd7860ca482b19331451d0fb2d3f3b5494161f07e657097d840dc471135"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/kQKD82",
+          "label": "原サイトの配布先"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-15",
+      "no": "15",
+      "sourceNo": "15",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "<span class=\"auto-style35\">エントリーNO15：フリゲＢＧＭカルタ　作者：著作拳法・流の型</span><span class=\"auto-style4\"><br class=\"auto-style20\">\n\t\t\t\t<span class=\"auto-style20\">配信：自己責任　公開：自己責任　ツクール：２０００　　</span></span><a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1468168023/\" target=\"_blank\" class=\"auto-style35\">感想はコチラ</a><br>\n\t\t\t\t",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no15.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/15-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no15.png",
+          "sha256": "24cab7490c2a6af29b576bbdcef62f319fcd4d2e64f6f5695fff6e9221e5fa52"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/9-sGOG",
+          "label": "原サイトの配布先"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-16",
+      "no": "16",
+      "sourceNo": "16",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "<span class=\"auto-style35\">エントリーNO16：ナコルルＲＰＧ　作者：おたつ　<br>\n\t\t\t\t配信：可能　公開：可能　ツクール：２００３　</span><a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1468168056/\" target=\"_blank\">感想はコチラ</a><br>\n\t\t\t\t",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no16.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/16-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no16.png",
+          "sha256": "d6bfa587c2b63d251043aec78e0d1209f3ab3f5363dca59e166698b8def7969b"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/--PgOY",
+          "label": "原サイトの配布先"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-17",
+      "no": "17",
+      "sourceNo": "17",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "<span class=\"auto-style35\">エントリーNO17：しろくろシンドロームZero　作者：あさって　</span><span class=\"auto-style4\"><br class=\"auto-style20\">\n\t\t\t\t<span class=\"auto-style20\">配信：可　公開：可　ツクール：２０００　《ジャンル》：アクション</span></span>　<a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1468168100/\" target=\"_blank\">感想はコチラ</a><br>\n\t\t\t\t",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no17.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/17-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no17.png",
+          "sha256": "95f8941a6570be79062eaf7c70ceb7961258f94607d70f9041a718014bcfcc0d"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/3mfSdF",
+          "label": "原サイトの配布先"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-18",
+      "no": "18",
+      "sourceNo": "18",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "エントリーNO18：蛾の王　作者：二階堂モス　配信：可　公開：可　ツクール：２０００<br>\n\t\t\t\t<a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1468168153/\" target=\"_blank\">\n\t\t\t\t感想はコチラ</a><br>\n\t\t\t\t",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no18.PNG",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/18-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no18.PNG",
+          "sha256": "92fdf0edfb4e0547896ba3af9d44583fcc4ddd81b1e99b639b4d3f15cf9656fa"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-19",
+      "no": "19",
+      "sourceNo": "１９",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "エントリーNO１９：<span id=\"yiv816733568defid\" class=\"auto-style20\" style=\"font-size: medium;\"><a name=\"月光騎士英雄伝\">月光騎士英雄伝</a>-Prototype-</span>　作者：ツナ太郎　<br>\n\t\t\t\t配信：許可　公開：BANされる覚悟があるなら　ツクール：２０００<br>\n\t\t\t\t<a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1468168212/\" target=\"_blank\">\n\t\t\t\t感想はコチラ</a>",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no19.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "gallerySource": "http://www.geocities.jp/viprpgsun2016/sslist.html",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/19-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no19.png",
+          "sha256": "223e78c2b82097bab75abeceee5617595a502ed86ee5e6fb972c5013f3d504c7"
+        },
+        {
+          "local": "/screenshots/2016-summer/19-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no19ss/no19ss1.png",
+          "sha256": "85c5c301b10556eb79649ce8c82c29fce5d160d4cfa64ace3736c345bb9cbb5e"
+        },
+        {
+          "local": "/screenshots/2016-summer/19-source-3.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no19ss/no19ss2.png",
+          "sha256": "2c0ba03ad14f7520af6ea51551adb86eaa236b909dcfa102802f26de694ef7ee"
+        },
+        {
+          "local": "/screenshots/2016-summer/19-source-4.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no19ss/no19ss3.png",
+          "sha256": "f829294eaa82075c12c851ae67da33af83bc72a58c5c83842679761584b46480"
+        },
+        {
+          "local": "/screenshots/2016-summer/19-source-5.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no19ss/no19ss4.png",
+          "sha256": "6a16d93071d170d81c7dd724c3780515ed4f425c4b018a42445e944e14492e68"
+        },
+        {
+          "local": "/screenshots/2016-summer/19-source-6.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no19ss/no19ss5.png",
+          "sha256": "401295e0a8349d3cfccf92977b1252bfde597ee0e683230745ea2e2f7593d0de"
+        },
+        {
+          "local": "/screenshots/2016-summer/19-source-7.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no19ss/no19ss6.png",
+          "sha256": "e4bea479dd12000a565c7153241fb67bd915e66f283c4ec797f436da8b2f41cb"
+        },
+        {
+          "local": "/screenshots/2016-summer/19-source-8.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no19ss/no19ss7.png",
+          "sha256": "7323e6a3aab235d71acaf4d5f65a27607634c75a3ad74c9aeba49926c88b7d5d"
+        },
+        {
+          "local": "/screenshots/2016-summer/19-source-9.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no19ss/no19ss8.png",
+          "sha256": "7788d69d46f102b793fdbf923687633600c9fde9f63fb211ecd9297602941e3b"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-20",
+      "no": "20",
+      "sourceNo": "２０",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "\n\t\t\t\t<a name=\"エントリーNO２０：アレックスの謎\">エントリーNO２０：アレックスの謎</a>　SEEK　THE LOST MAGIC　作者：さいてん　<br>\n\t\t\t\t配信：可　公開：可　ツクール：２０００　ジャンル：滑ってやる系やるゲ<br>\n\t\t\t\t<a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1468168288/\" target=\"_blank\">\n\t\t\t\t感想はコチラ</a><br>\n\t\t\t\t",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no20.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "gallerySource": "http://www.geocities.jp/viprpgsun2016/sslist.html",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/20-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no20.png",
+          "sha256": "f581905f9a12e5a6bda28001919139291c57173c1aef6459149fd5f94fb44f12"
+        },
+        {
+          "local": "/screenshots/2016-summer/20-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no20ss1.png",
+          "sha256": "21206877b33ba93188d8ca203c03a7b7bcadab0698d10e8d109fbaa7d26bf5e2"
+        },
+        {
+          "local": "/screenshots/2016-summer/20-source-3.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no20ss2.png",
+          "sha256": "b45eb2d2aab0c4751a925391ebf6ae019e7d1b8d87174d11b019a48616032d08"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-21",
+      "no": "21",
+      "sourceNo": "21",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "\n\t\t\t\t<a name=\"エントリーNO21：君がそばに\" class=\"auto-style35\">エントリーNO21：君がそばに　</a><span class=\"auto-style35\">作者：秋草　</span><span class=\"auto-style4\"><br class=\"auto-style20\">\n\t\t\t\t<span class=\"auto-style20\">配信：応相談　公開：応相談　ツクール：２０００　</span></span><a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1468168350/\" target=\"_blank\">感想はコチラ</a>",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no21.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "gallerySource": "http://www.geocities.jp/viprpgsun2016/sslist.html",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/21-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no21.png",
+          "sha256": "df0e056519e659f8c9fe2380f2d81674246e956ca20d89fcdc52b4846d6c282e"
+        },
+        {
+          "local": "/screenshots/2016-summer/21-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no21/no21ss1.png",
+          "sha256": "476a5b6c6fcd0e3ba630b011e5accd5ea084bdd3b19eca016f22cce30727ca80"
+        },
+        {
+          "local": "/screenshots/2016-summer/21-source-3.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no21/no21ss2.png",
+          "sha256": "4d7c898f97b7faf17f1f477f059b4ccf6fa959489039ef1ee46acbc955e25b8c"
+        },
+        {
+          "local": "/screenshots/2016-summer/21-source-4.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no21/no21ss3.png",
+          "sha256": "48c667cc596436656e788d15775bccaec211e37883e211a56f226d71e300132b"
+        },
+        {
+          "local": "/screenshots/2016-summer/21-source-5.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no21/no21ss4.png",
+          "sha256": "26063df9a8857059c6c72e5786a63e007146350124919878f2bf013f4255902b"
+        },
+        {
+          "local": "/screenshots/2016-summer/21-source-6.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no21/no21ss5.png",
+          "sha256": "75d14d7f4abc5a71500962cefc0c6e78c998248f7e25d5c1fc27ebc8df8b9af7"
+        },
+        {
+          "local": "/screenshots/2016-summer/21-source-7.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no21/no21ss6.png",
+          "sha256": "676ce9037e2c6c29579f3d7367a31273157be2203c7b21b42b8560d55c571ccd"
+        },
+        {
+          "local": "/screenshots/2016-summer/21-source-8.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no21/no21ss7.png",
+          "sha256": "be4f01bd43e5f48700e4cf6195545413e0ca64afa215212ca94162619afd0eb1"
+        },
+        {
+          "local": "/screenshots/2016-summer/21-source-9.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no21/no21ss8.png",
+          "sha256": "c74fe15579a906bc2d52213b495c1f07e5f4901f4363892e0fa1b96079162bad"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/l8QR9D",
+          "label": "原サイトの配布先"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-22",
+      "no": "22",
+      "sourceNo": "22",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "エントリーNO22：タイトル未定（まる）　作者：ケイト　ジャンル；ＲＰＧ<br>\n\t\t\t\t配信：おｋ牧場　公開：おｋ牧場　ツクール：２０００　<a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1468406855/\" target=\"_blank\">感想はコチラ</a><br>\n\t\t\t\t<br>\n\t\t\t\t",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no22.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/22-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no22.png",
+          "sha256": "6a4d7c4ee3382395457278038001bd5efd97024746355489f20f1d6926a913a0"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-23",
+      "no": "23",
+      "sourceNo": "23",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "エントリーNO23：膳　作者：臙脂色園児　<br>\n\t\t\t\t配信：全然（両方OK）　公開：全然（両方OK）　ツクール：RPGツクール2000　<a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1468527305/\" target=\"_blank\">感想はコチラ</a><br>\n\t\t\t\t",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no23.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/23-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no23.png",
+          "sha256": "3bfa5d6713cf5533904ed75bf2c5807c8d8e8bc4ce85c7ab1b3a4b598a38bd99"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-24",
+      "no": "24",
+      "sourceNo": "24",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "エントリーNO24：暗殺者やみっちZERO-勇者アレックス-　作者：青葉　桜<br>\n\t\t\t\t配信：良かったらどうぞ　公開：良かったらどうぞ　ツクール：2000　<a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1468511443/\" target=\"_blank\">感想はコチラ</a><br>\n\t\t\t\t<br>\n\t\t\t\t",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no24.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/24-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no24.png",
+          "sha256": "d5e1d8ade66e00df58c9a208e1981b99bbbfc86e4ee945ab7f9ddd8800f145f6"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-25",
+      "no": "25",
+      "sourceNo": "２５",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "エントリーNO２５：偉草物語Re　作者：女休化ダ一クメ力アレックス　<br>\n\t\t\t\t配信：可　公開：可　ツクール：MV　<a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1468511499/\" target=\"_blank\">感想はコチラ</a><br>\n\t\t\t\t",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no25.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/25-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no25.png",
+          "sha256": "98681ab20220af670348d7d5d0454baa84a123003622df204b798afb8e7bee34"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-26",
+      "no": "26",
+      "sourceNo": "26",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "<span class=\"auto-style35\">エントリー</span><a name=\"NO26：祓うもの　～Exorcist～\" class=\"auto-style35\">NO26：祓うもの　～Exorcist～</a><span class=\"auto-style35\">　作者：FAH-Q　</span><span class=\"auto-style4\"><br class=\"auto-style20\">\n\t\t\t\t<span class=\"auto-style20\">配信＆公開：むしろ是非して下さい！観に行きます！　ツクール：２０００　</span></span><a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1468585841/\" target=\"_blank\">感想はコチラ</a><br>\n\t\t\t\t",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no26.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "gallerySource": "http://www.geocities.jp/viprpgsun2016/sslist3.html",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/26-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no26.png",
+          "sha256": "86edcd5ae79be0712d2a562cad1a4df380c2a7efba49385c56200b0de2699a93"
+        },
+        {
+          "local": "/screenshots/2016-summer/26-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no26ss1.png",
+          "sha256": "c456715a695c7162ee03ad40507f98245164324ed11491dc2eaf4cd8c979636b"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/H-xImK",
+          "label": "原サイトの配布先"
+        },
+        {
+          "url": "http://yahoo.jp/box/01U921",
+          "label": "原サイトの配布先"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-27",
+      "no": "27",
+      "sourceNo": "27",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "\n\t\t\t\t<p>エントリーNO27：鉄屑の嬢　作者：イグサ　<br>\n\t\t\t\t配信：不可　公開；不可　ツクール：２００９U　<a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1468597790/\" target=\"_blank\">感想はコチラ<br>\n\t\t\t\t</a>　<br>\n\t\t\t\t</p>\n\t\t\t\t",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no27.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/27-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no27.png",
+          "sha256": "4b40dae559a226a4b5795ec522141338ff44768b634d7a58d6ef03e57fd00370"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-28",
+      "no": "28",
+      "sourceNo": "28",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "<span class=\"auto-style35\">エントリーNO28：真・やみライデート　作者：ミルクちゃん</span><span class=\"auto-style4\"><br class=\"auto-style20\">\n\t\t\t\t<span class=\"auto-style20\">　配信：ご自由に　公開：ご自由に　ツクール：２００ｘ　</span></span><a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1468638016/\" target=\"_blank\" class=\"auto-style20\">感想はコチラ</a><span class=\"auto-style4\"><br class=\"auto-style20\">\n\t\t\t\t<br class=\"auto-style20\">\n\t\t\t\t</span>\n\t\t\t\t",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no28.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/28-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no28.png",
+          "sha256": "f15c3d24e3e663b434b67367135fb1be8c8b404175b9d4041963211fa8475ae9"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/5ZauY0",
+          "label": "原サイトの配布先"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-29",
+      "no": "29",
+      "sourceNo": "29",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "<span class=\"auto-style35\">エントリー</span><a name=\"NO29：ウィンディの日常を考えてみた\" class=\"auto-style35\">NO29：ウィンディの日常を考えてみた</a><span class=\"auto-style35\">　作者：屋比久　</span><br class=\"auto-style20\">\n\t\t\t\t<span class=\"auto-style35\">配信：不可　公開：不可　ツクール：２０００　ジャンル：ksg</span><span class=\"auto-style20\">　</span><a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1468723380/\" target=\"_blank\" class=\"auto-style20\">感想はコチラ</a><br>\n\t\t\t\t<br>\n\t\t\t\t",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no0.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "gallerySource": "http://www.geocities.jp/viprpgsun2016/sslist3.html",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/29-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no0.png",
+          "sha256": "37c29efea9ce2eacf40faa9ff6cc214aab44a3270726f4430d175de4bb9245e0"
+        },
+        {
+          "local": "/screenshots/2016-summer/29-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no29ss1.png",
+          "sha256": "229d95788b9a2ee95fddf6fd12807d5376a0f13ebd3fa9bbe6ed15d57a3673e5"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/LCJgdW",
+          "label": "原サイトの配布先"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-30",
+      "no": "30",
+      "sourceNo": "30",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "<span class=\"auto-style35\">エントリーNO30：Stars And Lights　作者：かすていら　</span><br class=\"auto-style20\">\n\t\t\t\t<span class=\"auto-style35\">配信：O　公開：K　ツクール：２０００</span><span class=\"auto-style20\">　　</span><a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1468766609/\" target=\"_blank\" class=\"auto-style20\">感想はコチラ</a><br class=\"auto-style35\">\n\t\t\t\t",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no30.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/30-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no30.png",
+          "sha256": "b16beead7ce88e27d6cca2a561bbe24c3fbde423802eda190acd38fa0fcbfa03"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/gVvt2Y",
+          "label": "原サイトの配布先"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-31",
+      "no": "31",
+      "sourceNo": "３１",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "<span class=\"auto-style35\">エントリーNO３１：退屈クエスト　作者：ぶるあああああああああああああああああああああああああああ　</span><span class=\"auto-style4\"><br class=\"auto-style20\">\n\t\t\t\t<span class=\"auto-style20\">配信：歓迎　公開：大歓迎　ツクール：VX</span></span>　<a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1468858121/\" target=\"_blank\">感想はコチラ</a><br>\n\t\t\t\t<br>\n\t\t\t\t",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no31.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/31-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no31.png",
+          "sha256": "71cf09dc9aae1cc78bfb2eab9c6c2f9b218e0cbdf133e73b30ce35c9b7c0cd17"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/pZnMDm",
+          "label": "原サイトの配布先"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-32",
+      "no": "32",
+      "sourceNo": "32",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "<span class=\"auto-style35\">エントリー</span><a name=\"NO32：なんかアーネストが不動の主人公だったら\" class=\"auto-style35\">NO32：なんかアーネストが不動の主人公だったら</a><span class=\"auto-style35\">　作者：ととと　</span><span class=\"auto-style4\"><br class=\"auto-style20\">\n\t\t\t\t<span class=\"auto-style20\">配信：いいよ！　公開：いいよ！　ツクール：VXace</span></span>　<a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1469109435/\" target=\"_blank\">感想はコチラ</a><br>\n\t\t\t\t",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no32.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "gallerySource": "http://www.geocities.jp/viprpgsun2016/sslist3.html",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/32-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no32.png",
+          "sha256": "159e6a5bb85591bcd6da5288c4a8fbfa22236752e3da477d03f8c194efe5f898"
+        },
+        {
+          "local": "/screenshots/2016-summer/32-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no32/no32ss1.png",
+          "sha256": "45d56c81e10ff64db2717e95adbc8bcd315a40e9dfc79a7fd3d5b02ef79fd4f0"
+        },
+        {
+          "local": "/screenshots/2016-summer/32-source-3.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no32/no32ss2.png",
+          "sha256": "0065e786fd52a045d1b4b734fac8389a2a4ead93a7babffd39d76455bb9c3817"
+        },
+        {
+          "local": "/screenshots/2016-summer/32-source-4.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no32/no32ss3.png",
+          "sha256": "8ca64b3e7c421a7962df4784cb9099203d9072e1dfc01703b3fceb4a956f9fea"
+        },
+        {
+          "local": "/screenshots/2016-summer/32-source-5.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no32/no32ss4.png",
+          "sha256": "79b31edf9e6f6d2cbe6a549647823b0f6a461d368b0af814ae94b03fa77995c4"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/KmStJw",
+          "label": "原サイトの配布先"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-33",
+      "no": "33",
+      "sourceNo": "33",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "<span class=\"auto-style35\">エントリーNO33：ミリィ誕生秘話　作者：ハイチュウ　</span><span class=\"auto-style4\"><br class=\"auto-style20\">\n\t\t\t\t<span class=\"auto-style20\">配信：どうぞ　公開：どうぞ　ツクール：２０００</span></span>　　<a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1469252298/\" target=\"_blank\">感想はコチラ</a><br>\n\t\t\t\t",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no33.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/33-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no33.png",
+          "sha256": "5aabe0c71b49f3c80eabaa5e02f4b57cad04f382f0d38367bc2c2b79aa4c519d"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/qWx9-q",
+          "label": "原サイトの配布先"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-34",
+      "no": "34",
+      "sourceNo": "34",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "<span class=\"auto-style35\">エントリーNO34：寝る前さんの室内脱糞ゲーム　作者：うんこ　</span><br class=\"auto-style20\">\n\t\t\t\t<span class=\"auto-style35\">配信：可　公開：可　ツクール：２０００　</span><span class=\"auto-style20\">　</span><a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1469368020/\" target=\"_blank\" class=\"auto-style20\"><span class=\"auto-style4\">感想はコチラ</span></a>",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no34.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/34-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no34.png",
+          "sha256": "b7755353b0af07b5caf6ab541e123e91008e788784ab4366109819af1b4e552c"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/yRhO78",
+          "label": "原サイトの配布先"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-35",
+      "no": "35",
+      "sourceNo": "35",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "<span class=\"auto-style35\">エントリー</span><a name=\"NO35：もしもコレクションＭＶエディション\" class=\"auto-style35\">NO35：もしもコレクションＭＶエディション</a><span class=\"auto-style35\">　作者：千年ポテチ　</span><span class=\"auto-style4\"><br class=\"auto-style20\">\n\t\t\t\t<span class=\"auto-style20\">配信＆公開：一応どちらもＯＫです　ツクール：MV</span></span>　<a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1469369451/\" target=\"_blank\">感想はコチラ</a><br>\n\t\t\t\t",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no35.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "gallerySource": "http://www.geocities.jp/viprpgsun2016/sslist3.html",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/35-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no35.png",
+          "sha256": "d1cd0b35e06ee6b819f4cd66c24c66c55d3f64500e09e5932849e861464b8cd4"
+        },
+        {
+          "local": "/screenshots/2016-summer/35-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no35/no35ss1.png",
+          "sha256": "b576b06252bbed5fcf9d6939b22347700ccb60db44a7cc19041e0f7d6d232740"
+        },
+        {
+          "local": "/screenshots/2016-summer/35-source-3.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no35/no35ss2.png",
+          "sha256": "54f59a804a20a28a335bf825b9a477d42c46dbd1f6d3f4a6f4dedb59bc0ad2a8"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/KKUoDA",
+          "label": "原サイトの配布先"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-36",
+      "no": "36",
+      "sourceNo": "36",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "<span class=\"auto-style35\">エントリー</span><a name=\"NO36：題名のない竜退治\" class=\"auto-style35\">NO36：題名のない竜退治</a><span class=\"auto-style35\">　作者：トカゲのしっぽな　</span><span class=\"auto-style4\"><br class=\"auto-style20\">\n\t\t\t\t<span class=\"auto-style20\">配信＆公開：どちらもアウト　ツクール：２０００</span></span>　<a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1469635209/\" target=\"_blank\">感想はコチラ</a>",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no36.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "gallerySource": "http://www.geocities.jp/viprpgsun2016/sslist3.html",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/36-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no36.png",
+          "sha256": "138f580661c57122d846aedbee29eb9e574808f08428e46af88429a0718cb8e4"
+        },
+        {
+          "local": "/screenshots/2016-summer/36-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no36ss1.png",
+          "sha256": "8c47241777d2a8ab4ffb9e2967ac6d0343aa66aad6e56431fc2433ed63076a1d"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/v0BRqq",
+          "label": "原サイトの配布先"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-37",
+      "no": "37",
+      "sourceNo": "37",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "<span class=\"auto-style35\">エントリー</span><span class=\"auto-style20\"><a name=\"NO37：水産おばさんとの思い出\" class=\"auto-style35\">NO37：</a></span><a name=\"NO37：水産おばさんとの思い出\" class=\"auto-style4\"><span id=\"yiv77651518defid\" class=\"auto-style20\">水産おばさんとの思い出</span></a><span class=\"auto-style35\">　作者：</span><span class=\"auto-style4\"><span id=\"yiv77651518defid0\" class=\"auto-style20\">クルマユ大好き丸</span>　<br class=\"auto-style20\">\n\t\t\t\t<span class=\"auto-style20\">配信：○　公開：○　ツクール：2000</span></span>　　　<a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1469708359/\" target=\"_blank\">感想はコチラ</a><br>\n\t\t\t\t",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no37.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "gallerySource": "http://www.geocities.jp/viprpgsun2016/sslist3.html",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/37-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no37.png",
+          "sha256": "857f5e1e24395ce9cf474600b9afbe9436541465534db2a809debdf24373ae76"
+        },
+        {
+          "local": "/screenshots/2016-summer/37-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no37ss1.png",
+          "sha256": "b5152374d223711fed056adf551e8e82187383121d8abf3e1c5458cc4cfed7d9"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/4zL5Fa",
+          "label": "原サイトの配布先"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-38",
+      "no": "38",
+      "sourceNo": "38",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "<span class=\"auto-style35\"><br>\n\t\t\t\tエントリーNO38：適当にオリキャラ＋レイチェル☆彡ポップ！！（おまけ）　作者：パトラミック　</span><br class=\"auto-style20\">\n\t\t\t\t<span class=\"auto-style35\">配信＆公開：どっちも大丈夫　ツクール：２０００</span>　<a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1469802894/\" target=\"_blank\">感想はコチラ</a><br>\n\t\t\t\t<br>\n\t\t\t\t",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no38.Png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/38-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no38.Png",
+          "sha256": "770cb49c3139a3c3a76f5e7c6139729c147500664a5e864cbed0919b7283ab6e"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/4NEdBc",
+          "label": "原サイトの配布先"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-39",
+      "no": "39",
+      "sourceNo": "39",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "<span class=\"auto-style35\">エントリーNO39：ダークネスウィンド＆リナ　作者：ザハーク　</span><span class=\"auto-style4\"><br class=\"auto-style20\">\n\t\t\t\t<span class=\"auto-style20\">配信＆公開：どちらも自己責任　ツクール：２０００　　</span></span>　<a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1469885276/\" target=\"_blank\">感想はコチラ</a><br>\n\t\t\t\t<br>\n\t\t\t\t",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no39.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/39-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no39.png",
+          "sha256": "a120f88595a6de26a73813622696f8da2a6a073164a3db374c51bf87783dea61"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/Dr7ghm",
+          "label": "原サイトの配布先"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-40",
+      "no": "40",
+      "sourceNo": "40",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "<span class=\"auto-style20\">エントリーNO40：ＲＰＧツクールで架空デュエルを作ろう　作者：darkbakura　<br>\n\t\t\t\t配信：可　公開：可<span id=\"yiv928657527yui_3_2_0_3_1469866791042136\" class=\"yiv928657527infoelm\">（ニコニコ動画には作者自身が投稿します）</span>　ツクール：VXace　　<a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1469887059/\" target=\"_blank\">感想はコチラ</a></span><br class=\"auto-style20\">\n\t\t\t\t",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no40.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/40-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no40.png",
+          "sha256": "faf169a4a7209dd2fc47d92f671819c9863eacf4329532f57cea5e18f6fad96a"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/hG9HsX",
+          "label": "原サイトの配布先"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-41",
+      "no": "41",
+      "sourceNo": "41",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "エントリーNO41：生きる　作者名：Aomatu_Spaghe （青松◎すぱげ）<br>\n\t\t\t\t配信＆公開：×（やりたい人は自己責任で）　ツクール：VXace　<a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1470591146/\" target=\"_blank\">感想はコチラ</a><br>\n\t\t\t\t",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no41.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/41-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no41.png",
+          "sha256": "94d63db38f6fccbb109a043be4866404d089f5b78f052c0d6148370dde36d1b9"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-42",
+      "no": "42",
+      "sourceNo": "42",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "エントリー<a class=\"auto-style20\" name=\"NO42：夏色ＤＩＡＲＹ　～記憶を綴る日記帳～\">NO42：夏色ＤＩＡＲＹ　～記憶を綴る日記帳～</a>　作者：（Ｒ）ＤＵ　<br>\n&nbsp;《作品の配信許可／動画公開許可》 どちらもＯＫ&nbsp; ツクール：２００ｘ　　<a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1470920837/\" target=\"_blank\">感想はコチラ</a><br>\n\t\t\t\t",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no42.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "gallerySource": "http://www.geocities.jp/viprpgsun2016/sslist3.html",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/42-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no42.png",
+          "sha256": "b82607ddfa9121a6806da8a2b2357ae82ee8af246ce117741e1d495e802d09c7"
+        },
+        {
+          "local": "/screenshots/2016-summer/42-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no42ss.png",
+          "sha256": "37cd7fb12e718380368443dfd969b28f6ef74c18f06ddb85843777407e835b8f"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-43",
+      "no": "43",
+      "sourceNo": "43",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "<span class=\"auto-style35\">エントリー</span><a class=\"auto-style35\" name=\"NO43：ゴスボッコ\">NO43：ゴスボッコ</a><span class=\"auto-style35\">　作者：Pehumimic</span><span class=\"auto-style4\"><br class=\"auto-style20\">\n\t\t\t\t<span class=\"auto-style20\">配信：NG　公開：NG　ツクール：２０００</span></span>　　<a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1471003972/\" target=\"_blank\">感想はコチラ</a><br>\n\t\t\t\t<br>\n\t\t\t\t",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no43.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "gallerySource": "http://www.geocities.jp/viprpgsun2016/sslist3.html",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/43-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no43.png",
+          "sha256": "0fca61430621245fb9916937d12a726ff32e07b9904a78c7d1cc3a4ece009b00"
+        },
+        {
+          "local": "/screenshots/2016-summer/43-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no43ss.png",
+          "sha256": "18934be8dd36f3c28fc7d309645240c7f9993a91bc3739fbcf75db724026d9f5"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/foTQCu",
+          "label": "原サイトの配布先"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-44",
+      "no": "44",
+      "sourceNo": "44",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "<span class=\"auto-style35\">エントリー</span><a class=\"auto-style35\" name=\"NO44：忘れ去られた散水塔と追跡者の詩\">NO44：忘れ去られた散水塔と追跡者の詩</a><span class=\"auto-style4\"><span class=\"auto-style20\">　作者：幻草　</span><br class=\"auto-style20\">\n\t\t\t\t<span class=\"auto-style20\">配信＆公開：どちらもOK　ツクール：２０００</span></span>　<a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1471004615/\" target=\"_blank\">感想はコチラ</a>",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no44.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "gallerySource": "http://www.geocities.jp/viprpgsun2016/sslist3.html",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/44-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no44.png",
+          "sha256": "2e3d6656d2784b89ea619d403cb4642560ad7e2c6b36ed7d89d551cf84a86b9c"
+        },
+        {
+          "local": "/screenshots/2016-summer/44-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no44ss1.png",
+          "sha256": "d55a8b26d8a334bb77cf8a877d348ad28f1d21edfe5e1bc22410efbc6460dd47"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/x8v6qq",
+          "label": "原サイトの配布先"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-45",
+      "no": "45",
+      "sourceNo": "45",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "エントリーNO45：残虐度チェッカー　作者：ＹＲ　<br>\n\t\t\t\t配信：OK　公開：OK　ツクール：VXA　　<a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1471005622/\" target=\"_blank\">感想はコチラ</a><br>\n\t\t\t\t",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no45.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/45-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no45.png",
+          "sha256": "fee6716838fd9691d6fcea26a49951463421bea51bc39e584c62ff14797ba22a"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-46",
+      "no": "46",
+      "sourceNo": "46",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "<span class=\"auto-style35\">エントリーNO46：iSOC-7がみんなの安価を聞きます　作者：iSOC-7(アイゾックセブン)　</span><span class=\"auto-style4\"><br class=\"auto-style20\">\n\t\t\t\t<span class=\"auto-style20\">配信：可　公開：可　ツクール：２０００　</span></span>　　<a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1471264484/\" target=\"_blank\">感想はコチラ</a>",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no46.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/46-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no46.png",
+          "sha256": "5c5800e16326d6e1ecf555c7e4345b5a5d2bd038842b85aa475754dabd9fb9a3"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/YpnW9s",
+          "label": "原サイトの配布先"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-47",
+      "no": "47",
+      "sourceNo": "47",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "<span class=\"auto-style20\">エントリーNO47：mrg　作者：未記入　</span><br class=\"auto-style20\">\n\t\t\t\t<span class=\"auto-style20\">配信＆公開：自己責任で　ツクール：２０００　　<a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1471312024/\" target=\"_blank\">感想はコチラ</a></span>",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no0.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/47-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no0.png",
+          "sha256": "37c29efea9ce2eacf40faa9ff6cc214aab44a3270726f4430d175de4bb9245e0"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [
+        {
+          "url": "http://yahoo.jp/box/vcjycN",
+          "label": "原サイトの配布先"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-48",
+      "no": "48",
+      "sourceNo": "48",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "エントリーNO48：もしも一心同体だったら　体験版　作者：蝶番　<br>\n\t\t\t\t配信：可　公開：可　ツクール：２０００　　<a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1471312059/\" target=\"_blank\">感想はコチラ</a><br>\n\t\t\t\t",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no48.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/48-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no48.png",
+          "sha256": "5d59a5d77bbf8ed5cd700adfdf114fcb6dcd0f4c01558d13825d35e49d1154a1"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2016-summer-work-49",
+      "no": "49",
+      "sourceNo": "49",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "snapshotUrl": "https://web.archive.org/web/20190331135940id_/http://www.geocities.jp/viprpgsun2016/viptop.html",
+      "sourceMetadataHtml": "エントリー<a class=\"auto-style20\" name=\"NO49：TastyWind～白と黒と偽りの幻想曲～\">NO49：TastyWind～白と黒と偽りの幻想曲～</a>　作者：流久利亜　<br>\n\t\t\t\t配信：ok　公開：ok　ツクール：２００ｘ　<a href=\"http://jbbs.shitaraba.net/bbs/read.cgi/otaku/17585/1471312103/\" target=\"_blank\">感想はコチラ</a><br>\n\t\t\t\t",
+      "commentFields": [
+        "author",
+        "host"
+      ],
+      "primaryPreviewSource": "http://www.geocities.jp/viprpgsun2016/no49.png",
+      "directoryThumbnailRole": "Source download preview, also preserved as a screenshot; no separate source game icon.",
+      "gallerySource": "http://www.geocities.jp/viprpgsun2016/sslist3.html",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2016-summer/49-source-1.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no49.png",
+          "sha256": "987b3c88743b261eef9d205c17b3bb7d872e554b728a0c1db17a290fd6124456"
+        },
+        {
+          "local": "/screenshots/2016-summer/49-source-2.png",
+          "sourceUrl": "http://www.geocities.jp/viprpgsun2016/no49ss.png",
+          "sha256": "c15f1d0b4159b536988bc8a22d721230a3070ac446c298df9f28ef65f184db90"
+        }
+      ],
+      "byteIdenticalImageAliases": [],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    }
+  ],
+  "bannerSources": [
+    {
+      "local": "/banners/2016-summer/source-1.png",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/vipsun2016b.png",
+      "sha256": "1d2ee07000b62a0e589a7bf47c7a27d83a15cb3a2961117ced7a4d3bb29827ce"
+    },
+    {
+      "local": "/banners/2016-summer/source-2.png",
+      "sourceUrl": "http://www.geocities.jp/viprpgsun2016/vipsun2016b2.png",
+      "sha256": "d5ea4c3c1f3c9f5d803d2d5950c30e5d85bb07a09fe3491e19a3d4468243586f"
+    }
+  ],
+  "sourceManifests": [
+    "source/replay/manifest.json"
+  ],
+  "handling": "Archive source bytes directly without topic or pixel review. Preserve EX and01-49 identities, original Roman XI for11 in provenance, source preview/gallery roles, and every available comment. Source download previews double as directory thumbnails; no separate game icon invented. Game packages are not downloaded or executed.",
+  "desktopReview": "desktop-review.json",
+  "desktopCompatibilityFix": {
+    "entry": "39",
+    "field": "authorComment",
+    "type": "Local scrolling around source preformatted block",
+    "sourceTextUnchanged": true,
+    "originalSourceHtmlUnchanged": true
+  }
+}

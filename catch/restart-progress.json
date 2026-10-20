@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2016-summer",
+  "activeFestival": "2016-summer-2",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -2184,6 +2184,27 @@
         "catch/2016-kouhaku/investigation/local-http-payloads.json"
       ],
       "notes": "日本源站直接归档：247HTML（93Wix、83嵌入介绍、71实际论坛页）、92组件JSON、340资源；679载荷摘要核验，论坛EUC-JP保留并转UTF-8只读，70个讨论框由外链补成实页。Livedoor装饰图不可直取，香港存档补充且CDX摘要匹配。71编号／题名不变，3字形异名另存；142留言字段全文相同。71图标、180截图、1横幅、53配布项，旧155图全部对应，补回旧6图上限遗漏25张。原貌587文件、10116静态和184幻灯片引用闭合；839发布文件HTTP／SHA相同。两版各71详情渲染无坏图，整理版无溢出；原貌保留源站1310px固有排版。沙箱仅00–09实际目录鼠标验收，最终01三层讨论框／只读／返回复验；其余以独立原貌页验收，不冒称全部沙箱鼠标测试。原幻灯片10张／圆点、整理查看器和首页71唯一入口／72图／末项往返通过；4216页构建、lint、数据校验通过。额外allpictures特征端点404记录，非登记作品缺页。不审看题材／像素，不新增受限，不下载或执行游戏包。"
+    },
+    {
+      "festivalId": "2016-summer",
+      "reviewedAt": "2026-10-20T23:25:16.684Z",
+      "dataSha256": "f5340b782a4f86c5b8e33784a00476fa5618fa9488f37f9efee3de34579a6721",
+      "works": 50,
+      "screenshotFiles": 94,
+      "status": "reviewed",
+      "sourceEvidence": [
+        "catch/2016-summer/recovery.json",
+        "catch/2016-summer/source/archive/manifest.json",
+        "catch/2016-summer/source/resources/manifest.json",
+        "catch/2016-summer/source/live/manifest.json",
+        "catch/2016-summer/investigation/original-cdx.json",
+        "catch/2016-summer/investigation/data-reconciliation.json"
+      ],
+      "desktopEvidence": [
+        "catch/2016-summer/desktop-review.json",
+        "catch/2016-summer/investigation/local-http-payloads.json"
+      ],
+      "notes": "日本原站301关闭、atwiki当前403，香港Wayback前缀939记录恢复6HTML／96图像，102载荷CDX摘要核验。50编号／题名不变，Ⅺ仅编号映射11，99留言字段全文一致。旧0图现94个来源预览／截图引用；来源无独立图标，下载预览复作目录缩略图，2横幅、31配布来源保留。原貌50表／71图和全部19图库入口锚点／返回、三个图库44图及参加说明通过；整理版50详情／94图无坏图，39预格式文本局部滚动使页面1365→1265且原文未改。原貌主表保留1284px排版，框1168px内横滚。九图查看器／关闭／Esc、首页50唯一作品／52图／末项往返通过。102原貌文件／174引用闭合，198发布文件HTTP／SHA一致；4217页构建、lint、数据校验通过。不审看题材／像素，不新增受限，不下载或执行游戏包。"
     }
   ],
   "originalViewsReviewed": [
@@ -2693,6 +2714,13 @@
       "evidence": [
         "catch/2016-kouhaku/original-view.json",
         "catch/2016-kouhaku/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2016-summer",
+      "evidence": [
+        "catch/2016-summer/original-view.json",
+        "catch/2016-summer/desktop-review.json"
       ]
     }
   ],
