@@ -629,7 +629,7 @@ async function main() {
         }
         if (id === "2011-toppatsu-festival" || id === "2008-jisaku-battle-festival" || (id === "2024-kuradashifestival" && local.startsWith("wiki/"))) {
           $("script,noscript,iframe,form,body>header,body>footer,.atwiki-headbar,#atwiki-fixed-nav,#atwiki-modal-search-form,#pageTabs,#editmenu,#toolBox,#toolBoxTour,#ads,#left-ads,#right-ads,#atwiki-ads-overlay,#body_footer,#at_social_links2,[id^='div-gpt-ad-'],.atwiki-modal-bg,.atwiki-modal-wrap,.atwiki-modal,#atwiki_menubar a[href*='/pedit/']").remove();
-          $("link").filter((_, e) => !($(e).attr("rel") || "").includes("stylesheet") || !/base_101default\.css|base_110old\.css|pc_common\.css|atwiki_common\.css/.test($(e).attr("href") || "")).remove();
+          $("link").filter((_, e) => !($(e).attr("rel") || "").includes("stylesheet") || !/base_101default\.css|base_110old\.css|base_121mandarin\.css|pc_common\.css|atwiki_common\.css/.test($(e).attr("href") || "")).remove();
           if (id === "2024-kuradashifestival") {
             $('img[src*="b.st-hatena.com"],.atwiki-page-keyword').remove();
             $('a[href]').filter((_, element) => {
