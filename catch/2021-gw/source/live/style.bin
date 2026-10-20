@@ -1,0 +1,33 @@
+body{background-image:url("back1.jpg");background-size:cover; background-attachment:fixed}
+.body2{background-image:url("back2.jpg");background-size:cover; background-attachment:fixed}
+.body3{background-image:url("back3.jpg");background-size:cover; background-attachment:fixed;}
+table{margin-left:auto;margin-right:auto;}
+
+.main{width:932px;}
+.main_No{width:40px;}
+.main_icon{width:40px;}
+.main_name{width:400px;}
+.main_tool{width:200px;}
+.main_dl{width:100px;}
+.main_ul{width:100px;}
+.main_chat{width:40px;}
+
+.entry{width:640px;}
+.entry_icon{width:32px;}
+.entry_2cell{width:66%;text-align:center;}
+
+.color0{background-color:#EE5599;}
+.color0_cener{background-color:#EE5599;text-align:center;}
+.color1{background-color:#EE88BB;}
+.color1_cener{background-color:#EE88BB;text-align:center;}
+.color2{background-color:#FFBBDD;}
+.color2_cener{background-color:#FFBBDD;text-align:center;}
+.color3{background-color:#FFDDEE;}
+.color3_cener{background-color:#FFDDEE;text-align:center;}
+
+.bold{font-weight:bold;}
+.line-through{text-decoration-line:line-through;}
+.left{text-align:left;}
+.center{text-align:center;}
+.font75{font-size:75%;}
+.aafont3{background-color:#FFDDEE;font-family:"ＭＳ Ｐゴシック";}

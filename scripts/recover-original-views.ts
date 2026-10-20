@@ -7,6 +7,14 @@ import type { WorkEntry } from "../src/lib/types";
 import { rewriteSummer2012Source } from "./source-2012-summer-view";
 
 const configurations: Record<string, { base: string; entry?: string; manifests: string[]; seeds: Record<string, string>; seedUrls?: Record<string, string>; cgiProfile?: boolean; encoding?: string; encodingOverrides?: Record<string, string>; liveSource?: boolean; disabledLocalLinks?: string[]; externalResources?: Record<string, string>; preserveExternalExtensions?: string[]; frames?: { menuPage: string; menuName: string; mainName: string } }> = {
+  "2021-gw": {
+    base: "https://viprpg2021gw.x.2nt.com/",
+    manifests: ["source/replay/manifest.json"],
+    seeds: {},
+    encoding: "utf-8",
+    liveSource: true,
+    preserveExternalExtensions: [".zip", ".rar", ".7z", ".exe"],
+  },
   "2022-summer": {
     base: "https://viprpg2022s.suppa.jp/",
     manifests: ["source/replay/manifest.json"],
@@ -436,7 +444,7 @@ async function main() {
       sharedHeaderTargets.push(local ? `/original-pages/${id}/${local}${url.search}${url.hash}` : url.href);
     });
   }
-  if (["2022-summer", "2022-kouhaku", "2022-gw", "2023-winter", "2023-summer", "2023-kouhaku", "2023-gw", "2024-summer", "2024-kuradashifestival", "2024-kouhaku", "2024-gw", "2025-gw", "2025-summer"].includes(id) || id === "2006-kouhaku" || id === "2012-toppuu-festival" || id === "2011-toppatsu-festival" || id === "2008-jisaku-battle-festival" || id === "2010-gw" || id === "2010-kouhaku" || id === "2010-summer") config.externalResources = recovery.originalResources;
+  if (["2021-gw", "2022-summer", "2022-kouhaku", "2022-gw", "2023-winter", "2023-summer", "2023-kouhaku", "2023-gw", "2024-summer", "2024-kuradashifestival", "2024-kouhaku", "2024-gw", "2025-gw", "2025-summer"].includes(id) || id === "2006-kouhaku" || id === "2012-toppuu-festival" || id === "2011-toppatsu-festival" || id === "2008-jisaku-battle-festival" || id === "2010-gw" || id === "2010-kouhaku" || id === "2010-summer") config.externalResources = recovery.originalResources;
   const sourceDetailGapPaths = new Set<string>((recovery.sourceDetailGaps ?? []).map((gap: { sourcePath: string }) => gap.sourcePath));
   const unavailableSourcePagePaths = new Set<string>((recovery.unavailableSourcePages ?? []).map((gap: { sourcePath: string }) => gap.sourcePath));
   const previousMissing: Array<{ url: string; requestedUrl?: string; error: string }> = JSON.parse(await fs.readFile(`${root}/original-view.json`, "utf8").catch(() => "{}")).missingResources ?? [];
@@ -580,6 +588,13 @@ async function main() {
       if (/\.(?:png|jpe?g|gif|bmp|webp|avif|ico)$/i.test(local)) imageExtension(bytes);
       if (/\.html?$/i.test(local)) {
         const $ = cheerio.load(decodeSource(bytes, resourceEncoding));
+        if (id === "2021-gw") {
+          $("script,noscript,form,object,embed").remove();
+          if (local === 'entry35.html') { $('head').append('<style data-archive-desktop-wrap>table>tbody>tr:nth-child(6)>td{overflow-wrap:anywhere}</style>'); compatibilityFixes.push({ page: local, change: 'Allow unbroken text in the source author-comment cell to wrap. Its min-content width expanded the source table to 3242px at the desktop viewport; other cells and the organizer AA font remain unchanged.' }); }
+          $('img[onmouseover]').each((_, element) => { const value = $(element).attr('onmouseover') || ''; const gap = ['ss04b.png', 'ss17b.png'].find(name => value.includes(name)); if (gap) { $(element).removeAttr('onmouseover'); $(element).after('<p data-archive-hover-gap>［保存庫補記］原マウスオーバー切替画像は未取得です。通常表示の保存済み画像を保持しています。</p>'); omittedHovers.push({ page: local, resource: gap }); } });
+          $('img[onmouseover],img[onmouseout]').each((_, element) => { for (const attr of ['onmouseover', 'onmouseout']) { const value = $(element).attr(attr); if (value) $(element).attr(attr, value.replace(/(this\.src\s*=\s*)(['"])([^'"]+)\2/g, (_, prefix, quote, url) => prefix + quote + new URL(url, original).href + quote)); } });
+          compatibilityFixes.push({ page: local, change: "Remove hosting scripts and tracking; retain source table layout, native navigation and all actual screenshot hover handlers with captured native image paths." });
+        }
         if (id === "2022-summer") {
           $("script,noscript,form,object,embed").remove();
           $('img[onmouseover]').each((_, element) => { if (($(element).attr('onmouseover') || '').includes("ss19a.jpg")) { $(element).removeAttr('onmouseover onmouseout'); $(element).after('<p data-archive-hover-gap>［保存庫補記］原マウスオーバー画像は未取得です。通常表示の画像を保持しています。</p>'); omittedHovers.push({ page: local, resource: 'ss19a.jpg' }); } });

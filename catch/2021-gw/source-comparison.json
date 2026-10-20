@@ -1,0 +1,62 @@
+{
+  "festivalId": "2021-gw",
+  "checkedAt": "2026-10-20",
+  "works": 37,
+  "sourceHtmlPages": 38,
+  "cssFiles": 1,
+  "sourceImages": 106,
+  "iconReferences": 37,
+  "screenshotReferences": 58,
+  "downloadEntries": 33,
+  "downloadLinks": 36,
+  "noSourceDownloadNumbers": [
+    "03",
+    "16",
+    "29",
+    "34"
+  ],
+  "authorComments": 37,
+  "hostComments": 36,
+  "metadataDifferenceNumbers": [
+    "20",
+    "29"
+  ],
+  "sourceImageGaps": [
+    {
+      "originalUrl": "https://viprpg2021gw.x.2nt.com/ss04b.png",
+      "status": 200,
+      "responseKind": "hosting-error-HTML-instead-of-image",
+      "captureFile": "source/resources/asset-52.bin",
+      "archiveExactCaptures": 0,
+      "archiveEvidence": "ss04b-cdx.json",
+      "handling": "Retain normal source screenshot; explicitly label unavailable hover target without inventing an image."
+    },
+    {
+      "originalUrl": "https://viprpg2021gw.x.2nt.com/ss17b.png",
+      "status": 200,
+      "responseKind": "hosting-error-HTML-instead-of-image",
+      "captureFile": "source/resources/asset-73.bin",
+      "archiveExactCaptures": 0,
+      "archiveEvidence": "ss17b-cdx.json",
+      "handling": "Retain normal source screenshot; explicitly label unavailable hover target without inventing an image."
+    }
+  ],
+  "titleEvidence": "investigation/title-source-confirmation.json",
+  "oldGalleryReferences": 58,
+  "oldBytesAbsentFromCurrentGallery": [],
+  "metadataOrMediaFailures": [],
+  "contentOrPixelScreeningPerformed": false,
+  "packagesDownloaded": false,
+  "rawCaptureHashFailures": [],
+  "authorLabelVariant": {
+    "no": "14",
+    "sourceLabel": "Pen name",
+    "handledAs": "author",
+    "matchesCatalogue": true
+  },
+  "uniqueScreenshotSourceUrls": 58,
+  "currentFestivalBanners": 1,
+  "historicalBanners": 15,
+  "backgroundImages": 3,
+  "uniqueIconSourceUrls": 29
+}

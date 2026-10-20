@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2021-gw",
+  "activeFestival": "2021-kouhaku",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -1679,6 +1679,36 @@
         "catch/2022-summer/desktop-review.json"
       ],
       "notes": "日本源站2份完整HTML、1份CSS及55份有效图片原始响应全部保存并核对SHA，23项含00样例，既有ID、编号及题名保持。完整恢复36张显示／悬停截图、原文作者及主办留言、20个源下载入口和1条本祭横幅，17条历届横幅原貌保留；目录缩略图为同一截图引用，源无独立图标，不补造。11号标题空白表记差异另存originalTitle，14号两份伪PNG按实际BMP扩展名保存且字节不变。19号悬停／移出均指向不存在JPG：日本源站404、香港精确CDX无记录，本地保留正常PNG并明确标注。原站23个空地址TOP链接修复为保存目录，原始HTML不变。原貌58文件、2份HTML含23投稿区块、225处本地引用含悬停目标，无悬空引用及外部自动加载。23整理详情、原貌目录及全部投稿区块桌面通过，5处首次尚未完成的延迟图待加载后均正常；BMP悬停进出、查看器切换、沙箱内目录定位与返回均通过。无内容筛选、无新增受限，游戏包未下载或验证。"
+    },
+    {
+      "festivalId": "2021-gw",
+      "reviewedAt": "2026-10-20",
+      "dataSha256": "d1340c6b09bf1588bf85d0a016c0d9b00eaee7663a358c8353491a7f72b30afc",
+      "status": "reviewed-with-exceptions",
+      "works": 37,
+      "screenshotFiles": 58,
+      "screenshotReferences": 58,
+      "iconFiles": 37,
+      "downloadEntries": 33,
+      "originalCatalogueCompleteness": "verified-current-official-00-through-36-catalogue-and-all-37-details",
+      "outstandingSourceDetails": 0,
+      "outstandingImageSourceUrls": 2,
+      "outstandingScreenshotRows": 2,
+      "outstandingOtherResources": 0,
+      "packageBytesValidated": false,
+      "sourceEvidence": [
+        "catch/2021-gw/recovery.json",
+        "catch/2021-gw/source-comparison.json",
+        "catch/2021-gw/source/live/manifest.json",
+        "catch/2021-gw/source/resources/manifest.json",
+        "catch/2021-gw/investigation/source-image-gaps.json",
+        "catch/2021-gw/investigation/title-source-confirmation.json",
+        "catch/2021-gw/investigation/replay-closure.json"
+      ],
+      "desktopEvidence": [
+        "catch/2021-gw/desktop-review.json"
+      ],
+      "notes": "日本源站38份HTML、1份CSS及106份有效图片原始响应均保存并核对SHA，37项含00样例，既有ID、编号及题名保持。恢复37处图标引用、58张显示／悬停截图、37份作者及36份主办留言、33项共36个源下载／配布链接和1条本祭横幅；15条历届横幅与3份背景原貌保留。58份旧画廊载荷全部在本次恢复中对应。14号英文Pen name署名按实际标签提取；20号类型与29号配信的目录／详情差异同时保存。36号保留目录简称为title、详情完整名另存originalTitle，官方讨论区EUC-JP主题列表印证完整名。04、17号两张悬停PNG实际返回托管错误HTML，香港精确CDX无记录；正常截图保留并明确注明切换图未取得。原貌145文件、38份HTML、395本地引用含悬停目标，无悬空引用及外部自动加载。35号作者留言不可断行文本将原表格撑到3242像素，仅该单元格补换行后收回1152，主办AA字体及规则保持。37整理详情与38原貌文档桌面通过，7项首读未完成的延迟图片待加载后均正常；原生悬停进出、查看器、沙箱目录往返及缺图提示通过。无内容筛选、无新增受限，游戏包未下载或验证。"
     }
   ],
   "originalViewsReviewed": [
@@ -2062,6 +2092,13 @@
       "evidence": [
         "catch/2022-summer/original-view.json",
         "catch/2022-summer/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2021-gw",
+      "evidence": [
+        "catch/2021-gw/original-view.json",
+        "catch/2021-gw/desktop-review.json"
       ]
     }
   ],

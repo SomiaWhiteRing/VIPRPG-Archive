@@ -1,0 +1,93 @@
+{
+  "festivalId": "2021-gw",
+  "reviewedAt": "2026-10-20",
+  "scope": "desktop-only",
+  "method": "Browser DOM geometry, image loading and real semantic clicks; no work-content or image-pixel screening.",
+  "formatted": {
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    },
+    "routes": 37,
+    "images": 58,
+    "missingMain": [],
+    "overflow": [],
+    "initialPendingLazyImageNumbers": [
+      "01",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22"
+    ],
+    "loadFollowup": "All pending lazy images completed with naturalWidth > 0; no data change/restart used to substitute for load observation.",
+    "finalBrokenImages": []
+  },
+  "original": {
+    "viewport": {
+      "width": 1183,
+      "height": 638
+    },
+    "documents": 38,
+    "images": 127,
+    "sourceHoverGapPages": [
+      "entry04.html",
+      "entry17.html"
+    ],
+    "brokenImages": [],
+    "initialOverflowPage": "entry35.html",
+    "finalOverflow": []
+  },
+  "layoutRepair": {
+    "page": "entry35.html",
+    "before": {
+      "tableWidth": 3242,
+      "scrollWidth": 3250,
+      "viewport": 1183
+    },
+    "cause": "Unbroken author-comment text widened the table beyond the desktop viewport.",
+    "selector": "table>tbody>tr:nth-child(6)>td",
+    "rule": "overflow-wrap:anywhere",
+    "after": {
+      "tableWidth": 1152,
+      "authorCellWidth": 1146,
+      "authorCellCharacters": 295,
+      "scrollWidth": 1168,
+      "viewport": 1183
+    },
+    "organizerFont": "ＭＳ Ｐゴシック",
+    "organizerOverflowWrap": "normal",
+    "rawSourceUnchanged": true
+  },
+  "embedded": {
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    },
+    "iframeWidth": 1185,
+    "iframeHeight": 640,
+    "sandbox": "allow-scripts",
+    "catalogueTo35": "passed; width 1152 within client width 1168",
+    "entry35ToCatalogue": "passed; 37 entries and no broken images",
+    "catalogueTo4": "passed; normal image loaded, invalid hover handler removed and gap note present"
+  },
+  "interactions": {
+    "sourceEntry1MouseEnter": "ss01a.png -> ss01b.png; loaded",
+    "sourceEntry1MouseLeave": "ss01b.png -> ss01a.png; loaded",
+    "formattedViewerOpenNextClose": "passed; next screenshot loaded",
+    "formattedEntry1To35": "passed; final path verified separately after client navigation settled"
+  },
+  "limits": [
+    "Two source hover PNG URLs return hosting error HTML; exact Wayback queries have no captures. Normal images and explicit gap notes retained.",
+    "No game packages downloaded, executed or verified.",
+    "No mobile or work-content/image-pixel screening."
+  ],
+  "build": {
+    "buildId": "Ll-GVxKebbcNFdLmIhiD5",
+    "prerenderedRoutes": 4155,
+    "publicOnlyLayoutCorrection": "Final public HTML correction verified in browser after generation; app data and original route entry unchanged."
+  },
+  "lint": "passed full npm lint and final targeted original-view generator check",
+  "dataValidation": "passed"
+}
