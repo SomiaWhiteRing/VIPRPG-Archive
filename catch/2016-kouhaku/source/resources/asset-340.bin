@@ -1,0 +1,2404 @@
+<!DOCTYPE html>
+<html><!-- jbbs -->
+<head>
+<meta http-equiv="content-type" content="text/html; charset=euc-jp">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta property="og:title" content="VIPRPG紅白2016　感想掲示板 - したらば掲示板">
+<meta property="og:description" content="　">
+<meta property="og:url" content="https://jbbs.shitaraba.net/game/59992/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="したらば掲示板">
+<meta property="og:image" content="https://parts.jbbs.shitaraba.net/img/ogp.png">
+
+<meta name="description" content="VIPRPG紅白2016　感想掲示板 : 　">
+<link rel="canonical" href="https://jbbs.shitaraba.net/game/59992/">
+<link rel="alternate" media="handheld" type="text/html" href="http://jbbs.m.shitaraba.net/b/i.cgi/game/59992/" />
+<link rel="alternate" type="application/rss+xml" title="RSS" href="//jbbs.shitaraba.net/bbs/subject.cgi/game/59992/rss" />
+<link rel="apple-touch-icon" href="https://parts.jbbs.shitaraba.net/img/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/x-icon" href="https://parts.jbbs.shitaraba.net/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="https://parts.jbbs.shitaraba.net/favicon.ico">
+<title>VIPRPG紅白2016　感想掲示板</title>
+<script type="text/javascript">
+<!--
+Name = getCookie("NAME");
+Mail = getCookie("MAIL");
+function getCookie(key,  tmp1, tmp2, xx1, xx2, xx3) {
+ tmp1 = " " + document.cookie + ";";
+ xx1 = xx2 = 0;
+ len = tmp1.length;
+ while (xx1 < len) {
+  xx2 = tmp1.indexOf(";", xx1);
+  tmp2 = tmp1.substring(xx1 + 1, xx2);
+  xx3 = tmp2.indexOf("=");
+  if (tmp2.substring(0, xx3) == key) {
+   return(unescape(tmp2.substring(xx3 + 1, xx2 - xx1 - 1)));
+  }
+  xx1 = xx2 + 1;
+ }
+ return("");
+}
+
+window.onload = fillinCookies;
+function fillinCookies() {
+  for(var i = 0; i < document.forms.length; i++) {
+  if(document.forms[i].name != 'fcs') continue;
+  document.forms[i].NAME.value = Name;
+  document.forms[i].MAIL.value = Mail;
+ }
+}
+// -->
+</script>
+<!-- i-mobile for SmartPhone client script -->
+<script type="text/javascript">
+    imobile_tag_ver = "0.2";
+    imobile_pid = "426";
+    imobile_asid = "242390";
+    imobile_type = "overlay";
+</script>
+
+<style type="text/css">
+/* ===============================================
+  common
+=============================================== */
+html,body,div,h1,h2,h3,h4,h5,h6,p,blockquote,pre,table,th,tr,td,ul,ol,li,dl,dt,dd,form,fieldset,legend,hr,span,a,img,strong,em,ins,del,cite,abbr,acronym,sup,sub,dfn,code,var,samp,kbd {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+body {
+  background: #f3f3f3;
+  color: #333;
+  font-family: sans-serif;
+  font-size: 83%;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+a img {
+  border: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+div.jbbsCustomHeader,
+div#contents_box,
+div#ads_fieldOuter,
+div#thread_listOuter,
+div.thread {
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+div#thread_listOuter {
+  padding-bottom: 10px;
+  overflow: hidden;
+}
+* html div#thread_listOuter { zoom: 1; }
+*:first-child+html div#thread_listOuter { zoom: 1; }
+
+div.thread_itemsWrapper {
+  margin-bottom: 10px;
+}
+
+.content_title h3 {
+  padding: 8px 25px;
+  color: #333333;
+}
+
+.content_main p {
+  padding: 8px 25px;
+}
+
+/* ===============================================
+  outline
+=============================================== */
+div#contents_box {
+  background: #fff url(http://parts.jbbs.shitaraba.net/skin/0023/bg_top_r.gif) no-repeat right top;
+}
+
+div.main_box {
+  padding: 10px 10px 0 10px;
+  background: url(http://parts.jbbs.shitaraba.net/skin/0023/bg_top_l.gif) no-repeat left top;
+}
+
+div.thread {
+  margin-bottom: 10px;
+  background: url(http://parts.jbbs.shitaraba.net/skin/0023/bg_btm_r.gif) no-repeat right bottom;
+}
+
+/* ===============================================
+  title
+=============================================== */
+div#title_box_wrapperOuter {
+  background: #b8b8b8;
+}
+* html div#title_box_wrapperOuter { zoom: 1; }
+
+div#title_box_wrapperInner {
+  background: url(http://parts.jbbs.shitaraba.net/skin/0023/01_btm_r.gif) no-repeat right bottom;
+}
+* html div#title_box_wrapperInner { zoom: 1; }
+
+div#title_box_wrapper {
+  background: url(http://parts.jbbs.shitaraba.net/skin/0023/01_btm_l.gif) no-repeat left bottom;
+}
+
+div#title_boxOuter {
+  background: url(http://parts.jbbs.shitaraba.net/skin/0023/01_top_r.gif) no-repeat right top;
+}
+
+div#title_boxInner {
+  background: url(http://parts.jbbs.shitaraba.net/skin/0023/01_top_l.gif) no-repeat left top;
+}
+
+div#title_box {
+  padding: 25px 40px;
+}
+
+div#title_box h1 {
+  padding-bottom: 15px;
+  color: #fff;
+  font-size: 170%;
+}
+
+div#title_boxInner a {
+  color: #fff;
+}
+
+div#linklist,
+div#linklist a {
+  color: #000;
+}
+
+/* ===============================================
+  local rule
+=============================================== */
+div.localrule {
+  position: relative;
+  padding: 0 10px 0;
+  margin-top: 10px;
+}
+
+.menu_box .content_main {
+  background: url(http://parts.jbbs.shitaraba.net/skin/0023/02_btm_r.gif) no-repeat right bottom;
+}
+* html .menu_box .content_main { zoom: 1; }
+
+.menu_box .content_main p {
+  background: url(http://parts.jbbs.shitaraba.net/skin/0023/02_btm_l.gif) no-repeat left bottom;
+}
+
+.menu_box .content_title {
+  background: #dadada url(http://parts.jbbs.shitaraba.net/skin/0023/02_top_r.gif) no-repeat right top;
+}
+
+.menu_box .content_title h3 {
+  background: url(http://parts.jbbs.shitaraba.net/skin/0023/02_top_l.gif) no-repeat left top;
+}
+
+.menu_box .content_mainWrapper {
+  background: url(http://parts.jbbs.shitaraba.net/skin/0023/02_line_width.gif) repeat-x left bottom;
+}
+
+.menu_box .content_mainOuter {
+  background: url(http://parts.jbbs.shitaraba.net/skin/0023/02_line_height.gif) repeat-y left top;
+}
+
+.menu_box .content_mainInner {
+  background: url(http://parts.jbbs.shitaraba.net/skin/0023/02_line_height.gif) repeat-y right top;
+}
+
+/* ===============================================
+  ad
+=============================================== */
+#ads_fieldOuter {
+  padding: 10px;
+  background: #fff;
+  font-size: 120%;
+}
+
+#ads_fieldInner {
+  background: #dadada url(http://parts.jbbs.shitaraba.net/skin/0023/03_btm_r.gif) no-repeat right bottom;
+}
+
+#ads_field {
+  background: url(http://parts.jbbs.shitaraba.net/skin/0023/03_btm_l.gif) no-repeat left bottom;
+}
+
+#ads_itemsOuter {
+  background: url(http://parts.jbbs.shitaraba.net/skin/0023/03_top_r.gif) no-repeat right top;
+}
+
+#ads_items {
+  background: url(http://parts.jbbs.shitaraba.net/skin/0023/03_top_l.gif) no-repeat left top;
+}
+
+#ads_items .ad {
+  width: 728px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+#ads_items {
+  text-align: center;
+}
+
+.ad {
+  text-align: left;
+}
+
+.ad a {
+  text-decoration: none;
+}
+
+.ad a b {
+  color: #0088df;
+  text-decoration: underline;
+}
+
+.ad a span {
+  color: #1b8d1c!important;
+}
+
+/* ===============================================
+  thread list
+=============================================== */
+div#thread_listOuter {
+  padding: 0 10px 10px;
+  background: #fff;
+}
+
+div.thread_list {
+  width: 49%;
+}
+
+div#thread_listOuter .new {
+  float: left;
+}
+
+div#thread_listOuter .old {
+  float: right;
+}
+
+/* ===============================================
+  thread
+=============================================== */
+div.thread {
+  clear: both;
+  padding: 0 10px;
+  background-color: #fff;
+}
+* html div.thread { zoom: 1; }
+
+.thread_itemsWrapper {
+  background: url(http://parts.jbbs.shitaraba.net/skin/0023/02_line_width.gif) repeat-x left bottom;
+}
+* html .thread_itemsWrapper { zoom: 1; }
+
+.thread_itemsOuter {
+  background: url(http://parts.jbbs.shitaraba.net/skin/0023/02_line_height.gif) repeat-y right top;
+}
+
+.thread_itemsInner .title {
+  background: #dadada url(http://parts.jbbs.shitaraba.net/skin/0023/02_top_r.gif) no-repeat right top;
+}
+* html .thread_itemsInner .title { zoom: 1; }
+
+.thread_items .title h3 {
+  padding: 8px 25px;
+  background: url(http://parts.jbbs.shitaraba.net/skin/0023/02_top_l.gif) no-repeat left top;
+}
+* html .thread_items .title h3 { zoom: 1; }
+
+.contents {
+  background: url(http://parts.jbbs.shitaraba.net/skin/0023/04_btm_r.gif) no-repeat right bottom;
+}
+
+.thread_items {
+  background: url(http://parts.jbbs.shitaraba.net/skin/0023/04_btm_l.gif) no-repeat left bottom;
+}
+
+.thread_itemsInner {
+  background: url(http://parts.jbbs.shitaraba.net/skin/0023/02_line_height.gif) repeat-y left top;
+}
+
+.thread_itemsWrapper .contents {
+  padding: 0 20px 20px;
+}
+
+.thread_itemsWrapper .contents table,
+.thread_itemsWrapper .contents textarea {
+  width: 100%;
+}
+* html .thread_itemsWrapper .contents table {
+  width: 90%;
+}
+* html .thread_itemsWrapper .contents textarea {
+  width: 100%;
+}
+
+.thread_itemsWrapper .contents table td.post {
+  width: 100px;
+}
+
+.thread_items .contents dd {
+  padding: 5px 20px;
+}
+
+/* ===============================================
+  thread creation
+=============================================== */
+.creation {
+  margin-bottom: 10px;
+}
+
+.creation .content_main form {
+  padding: 20px;
+  background: url(http://parts.jbbs.shitaraba.net/skin/0023/02_btm_l.gif) no-repeat left bottom;
+}
+
+.thread_title {
+  padding-bottom: 20px;
+}
+
+div.thread div.next {
+  padding: 20px 0;
+  font-weight: bold;
+}
+
+div.thread table td.items {
+  width: 1%;
+}
+
+div.thread textarea {
+  width: 100%;
+}
+
+div.thread input.title {
+  width: 80%;
+}
+
+div.thread input.name {
+  width: 30%;
+}
+
+div.thread input.mail {
+  width: 30%;
+}
+
+div#content_bottom {
+  margin: -10px 0 0 -10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  background: url(http://parts.jbbs.shitaraba.net/skin/0023/bg_btm_l.gif) no-repeat left bottom;
+}
+
+* html div#content_bottom {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+</style>
+
+</head>
+<body text="#333333" bgcolor="#F3F3F3" link="#0088DF" alink="#0088DF" vlink="#782069" background=""><script type="text/javascript" src="//parts.jbbs.shitaraba.net/js/smartphone.js"></script>
+<a name="top"></a>
+<style type="text/css">
+body{margin:50px 0 0 0;}
+table#jbbsheader {
+  border:0;
+  width:100%;
+  height:26px;
+  font-size:12px;
+  margin-bottom:18px;
+  color:#666;
+  background:#fff;
+  border-bottom:1px solid #ccc;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:100;
+}
+table#jbbsheader tr, table#jbbsheader td, table#jbbsheader th, table#jbbsheader div { border:0; }
+table#jbbsheader a:link, table#jbbsheader a:visited { color:#666; }
+table#jbbsheader .logo{ width:180px; text-align:center; }
+table#jbbsheader a img{ border:none; }
+table#jbbsheader img{ vertical-align:middle; }
+#jbbsheader, #jbbsheader *{margin:0;padding:0;}
+</style>
+<table cellspacing="0" id="jbbsheader">
+<tr>
+<th class="logo" nowrap><div><a href="https://rentalbbs.shitaraba.com/"><img src="//parts.jbbs.shitaraba.net/img/cmn/logo_shitaraba.gif" alt="したらば掲示板" width="104" height="31"></a></div></th>
+<td nowrap><div>[&nbsp;<a href="//jbbs.shitaraba.net/bbs/board_info.cgi/game/59992/" title="掲示板詳細情報">板情報</a>&nbsp;|&nbsp;<a href="https://rentalbbs.shitaraba.com/jbbs/search/ranking?category=game">ゲーム/囲碁/将棋</a>&nbsp;]</div></td>
+<td nowrap id="staff_info" style="text-align: right; padding-right: 10px;"><!-- announcement here --></td>
+</tr>
+</table>
+<script src="//jbbs.shitaraba.net/js/staff_info.js?t=1624007708"></script>
+<div class="jbbsCustomHeader">
+</div><!-- for div class="jbbsCustomHeader" -->
+<div id="contents_box">
+  <div class="main_box">
+    <div id="title_box_wrapperOuter">
+      <div id="title_box_wrapperInner">
+        <div id="title_box_wrapper">
+          <div id="title_boxOuter">
+            <div id="title_boxInner">
+              <div id="title_box">
+                <h1>VIPRPG紅白2016　感想掲示板</h1>
+                <div id="linklist">
+                  <a href="http://jbbs.seesaa.net/">掲示板の使い方</a>
+                  / <a rel="nofollow" href="/bbs/notice_mail.cgi/game/59992/">新着をメールで受信</a>
+                  / <a href="/bbs/storage.cgi/game/59992/">過去ログ倉庫</a>
+                  / <a href="/bbs/subject.cgi/game/59992/">スレッド一覧</a>
+                  / <a rel="nofollow" href="./">リロード</a>
+                  / <a rel="nofollow" href="#thread_creation_form">スレッド作成</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="localrule menu_box">
+    <div class="content_title"><H3>ローカルルール</H3></div>
+    <div class="content_mainWrapper">
+      <div class="content_mainOuter">
+        <div class="content_mainInner">
+          <div class="content_main"><p></p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="ads_fieldOuter">
+  <div id="ads_fieldInner">
+    <div id="ads_field">
+      <div id="ads_itemsOuter">
+        <div id="ads_items">
+          <div class="ad"><!-- pc_index_middle1 -->
+<!-- pc_index_middle1 -->
+<center>
+
+<table border="0">
+<tr>
+<td style="padding: 5px;">
+<!-- BEGIN CRITEO CDB -->
+<script async="async" type="text/javascript" src="//static.criteo.net/js/ld/publishertag.js"></script>
+<div id="criteo_slot_1554405"></div>
+<script>
+    !function(){
+        /* CONFIG CRITEO ZONE ID, SLOT DIV ID, PASSBACK */
+        var criteoZoneId = 1554405;
+        var criteoSlotId = "criteo_slot_1554405";
+        var passback = function () {
+            var width = "300", height = "250";
+var slotid = "criteo_slot_1554405"; var div = document.getElementById(slotid);
+if (div) { var ifr = document.createElement('iframe'); ifr.setAttribute("id", slotid+"_iframe"), ifr.setAttribute("frameborder","0"), ifr.setAttribute("allowtransparency","true"), ifr.setAttribute("hspace","0"), ifr.setAttribute("marginwidth","0"), ifr.setAttribute("marginheight","0"), ifr.setAttribute("scrolling","no"), ifr.setAttribute("vspace","0"), ifr.setAttribute("width", "300"), ifr.setAttribute("height", "250");
+div.appendChild(ifr);
+var htmlcode = "<html><head></head><body><!-- Revive Adserver JavaScriptタグ - Generated with Revive Adserver v4.1.4 -->\n"+
+" <script type='text/javascript'><!--//<![CDATA[\n"+
+"  var m3_u = (location.protocol=='https:'?'https://tx.creativecarrer.com/www/delivery/ajs.php':'http://tx.creativecarrer.com/www/delivery/ajs.php');\n"+
+"  var m3_r = Math.floor(Math.random()*99999999999);\n"+
+"  if (!document.MAX_used) document.MAX_used = ',';\n"+
+"  document.write (\"<scr\"+\"ipt type='text/javascript' src='\"+m3_u);\n"+
+"  document.write (\"?zoneid=95\");\n"+
+"  document.write ('&cb=' + m3_r);\n"+
+"  if (document.MAX_used != ',') document.write (\"&exclude=\" + document.MAX_used);\n"+
+"  document.write (document.charset ? '&charset='+document.charset : (document.characterSet ? '&charset='+document.characterSet : ''));\n"+
+"  document.write (\"&loc=\" + escape(window.location));\n"+
+"  if (document.referrer) document.write (\"&referer=\" + escape(document.referrer));\n"+
+"  if (document.context) document.write (\"&context=\" + escape(document.context));\n"+
+"  if (document.mmm_fo) document.write (\"&mmm_fo=1\");\n"+
+"  document.write (\"'><\/scr\"+\"ipt>\");\n"+
+" //]]>--></scr"+"ipt><noscript><a href='http://tx.creativecarrer.com/www/delivery/ck.php?n=a3b956bd&cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://tx.creativecarrer.com/www/delivery/avw.php?zoneid=95&cb=INSERT_RANDOM_NUMBER_HERE&n=a3b956bd border='0' alt='' /></a></noscript></body></html>";
+var ifrd = ifr.contentWindow.document; ifrd.open(); ifrd.write(htmlcode); ifrd.close(); }
+        }
+ 
+        var CriteoAdUnits = { "placements": [{ "slotid": criteoSlotId, "zoneid": criteoZoneId }]};
+        window.Criteo = window.Criteo || {}; window.Criteo.events = window.Criteo.events || [];
+        var processCdbBid = function() {
+            var bids = Criteo.GetBidsForAdUnit(criteoSlotId);
+            if (bids.length > 0) {
+                var bidFound = bids[0]; Criteo.RenderAd({ bidId: bidFound.id, containerId: bidFound.impressionId });
+            } else { passback(); }
+        };
+        Criteo.events.push(function() { Criteo.RequestBids(CriteoAdUnits, processCdbBid, 2000);});
+    }();
+</script>
+<!-- END CRITEO CDB -->
+</td>
+
+<td style="padding: 5px;">
+<!-- BEGIN CRITEO CDB -->
+<script async="async" type="text/javascript" src="//static.criteo.net/js/ld/publishertag.js"></script>
+<div id="criteo_slot_1554406"></div>
+<script>
+    !function(){
+        /* CONFIG CRITEO ZONE ID, SLOT DIV ID, PASSBACK */
+        var criteoZoneId = 1554406;
+        var criteoSlotId = "criteo_slot_1554406";
+        var passback = function () {
+            var width = "300", height = "250";
+var slotid = "criteo_slot_1554406"; var div = document.getElementById(slotid);
+if (div) { var ifr = document.createElement('iframe'); ifr.setAttribute("id", slotid+"_iframe"), ifr.setAttribute("frameborder","0"), ifr.setAttribute("allowtransparency","true"), ifr.setAttribute("hspace","0"), ifr.setAttribute("marginwidth","0"), ifr.setAttribute("marginheight","0"), ifr.setAttribute("scrolling","no"), ifr.setAttribute("vspace","0"), ifr.setAttribute("width", "300"), ifr.setAttribute("height", "250");
+div.appendChild(ifr);
+var htmlcode = "<html><head></head><body><!-- Revive Adserver JavaScriptタグ - Generated with Revive Adserver v4.1.4 -->\n"+
+" <script type='text/javascript'><!--//<![CDATA[\n"+
+"  var m3_u = (location.protocol=='https:'?'https://tx.creativecarrer.com/www/delivery/ajs.php':'http://tx.creativecarrer.com/www/delivery/ajs.php');\n"+
+"  var m3_r = Math.floor(Math.random()*99999999999);\n"+
+"  if (!document.MAX_used) document.MAX_used = ',';\n"+
+"  document.write (\"<scr\"+\"ipt type='text/javascript' src='\"+m3_u);\n"+
+"  document.write (\"?zoneid=96\");\n"+
+"  document.write ('&cb=' + m3_r);\n"+
+"  if (document.MAX_used != ',') document.write (\"&exclude=\" + document.MAX_used);\n"+
+"  document.write (document.charset ? '&charset='+document.charset : (document.characterSet ? '&charset='+document.characterSet : ''));\n"+
+"  document.write (\"&loc=\" + escape(window.location));\n"+
+"  if (document.referrer) document.write (\"&referer=\" + escape(document.referrer));\n"+
+"  if (document.context) document.write (\"&context=\" + escape(document.context));\n"+
+"  if (document.mmm_fo) document.write (\"&mmm_fo=1\");\n"+
+"  document.write (\"'><\/scr\"+\"ipt>\");\n"+
+" //]]>--></scr"+"ipt><noscript><a href='http://tx.creativecarrer.com/www/delivery/ck.php?n=a8145a5e&cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://tx.creativecarrer.com/www/delivery/avw.php?zoneid=96&cb=INSERT_RANDOM_NUMBER_HERE&n=a8145a5e border='0' alt='' /></a></noscript></body></html>";
+var ifrd = ifr.contentWindow.document; ifrd.open(); ifrd.write(htmlcode); ifrd.close(); }
+        }
+ 
+        var CriteoAdUnits = { "placements": [{ "slotid": criteoSlotId, "zoneid": criteoZoneId }]};
+        window.Criteo = window.Criteo || {}; window.Criteo.events = window.Criteo.events || [];
+        var processCdbBid = function() {
+            var bids = Criteo.GetBidsForAdUnit(criteoSlotId);
+            if (bids.length > 0) {
+                var bidFound = bids[0]; Criteo.RenderAd({ bidId: bidFound.id, containerId: bidFound.impressionId });
+            } else { passback(); }
+        };
+        Criteo.events.push(function() { Criteo.RequestBids(CriteoAdUnits, processCdbBid, 2000);});
+    }();
+</script>
+<!-- END CRITEO CDB -->
+</td>
+<tr>
+</table>
+
+</center><!-- pc_index_middle2 -->
+<!-- AG 002／PCレクタングル／一般枠（pc_index_middle2） -->
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div><!-- for div class="jbbsCustomHeader" -->
+</div><a name="menu"></a><div id="thread_listOuter">
+  <div class="menu_box thread_list new">
+    <div class="content_title"><h3>最新スレッド</h3></div>
+    <div class="content_mainWrapper">
+      <div class="content_mainOuter">
+        <div class="content_mainInner">
+          <div class="content_main">
+            <p>
+                <a rel="nofollow"
+                   href="/bbs/read.cgi/game/59992/1481431484/l50">1</a>：
+                <a rel="nofollow"
+                   href="#1">No.36　わんだーうぉーかぁず！(17)</a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow"
+                   href="/bbs/read.cgi/game/59992/1483254082/l50">2</a>：
+                <a rel="nofollow"
+                   href="#2">No.65　たぶんラストエントリー(7)</a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow"
+                   href="/bbs/read.cgi/game/59992/1557864766/l50">3</a>：
+                <a rel="nofollow"
+                   href="#3">ブランドコピー激安通販サイト(1)</a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow"
+                   href="/bbs/read.cgi/game/59992/1481431385/l50">4</a>：
+                <a rel="nofollow"
+                   href="#4">No.34　もしもDS+の和風二人がやってきたら(18)</a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow"
+                   href="/bbs/read.cgi/game/59992/1480251218/l50">5</a>：
+                <a rel="nofollow"
+                   href="#5">No.23　ピアニッシモ(10)</a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow"
+                   href="/bbs/read.cgi/game/59992/1479599960/l50">6</a>：
+                <a rel="nofollow"
+                   href="#6">No.16　キャロルのブロック崩し〜いにしえの魔導書〜(46)</a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow"
+                   href="/bbs/read.cgi/game/59992/1479599994/l50">7</a>：
+                <a rel="nofollow"
+                   href="#7">No.17　ドラゴンクエスト・闇レナ編(25)</a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow"
+                   href="/bbs/read.cgi/game/59992/1481431432/l50">8</a>：
+                <a rel="nofollow"
+                   href="#8">No.35　ぬりばー■□(71)</a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow"
+                   href="/bbs/read.cgi/game/59992/1482667104/l50">9</a>：
+                <a rel="nofollow"
+                   href="#9">No.60　かなしみの箱舟(23)</a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow"
+                   href="/bbs/read.cgi/game/59992/1480251284/l50">10</a>：
+                <a rel="nofollow"
+                   href="#10">No.25　ヘルちゃまのおにぎり大作戦！(4)</a>
+                &nbsp;:&nbsp;
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="menu_box thread_list old">
+    <div class="content_title"><H3>その他のスレッド</H3></div>
+    <div class="content_mainWrapper">
+      <div class="content_mainOuter">
+        <div class="content_mainInner">
+          <div class="content_main">
+            <p>
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1483254152/l50">
+                  11：No.66　ほのぼの短編集☆(20)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1480870801/l50">
+                  12：No.32　冬の陣に出すゲーム(14)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1483254035/l50">
+                  13：No.64　【新版】賽を振る女（予告編）(4)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1479639874/l50">
+                  14：No.19　DOOM BORNE(25)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1480870840/l50">
+                  15：No.33　どきどきオクタプルデート２(3)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1480251045/l50">
+                  16：No.22　未開の島の調査録(128)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1479599864/l50">
+                  17：No.13　魔法達とCoC〜檸檬色の帆〜(6)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1479640207/l50">
+                  18：No.20　Ｄの冒険7　〜Dの謎！？〜(35)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1479599757/l50">
+                  19：No.10　リナ・ホワイト・スワップ(91)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1481474517/l50">
+                  20：No.39　見えなくもない東方(12)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1479599927/l50">
+                  21：No.15　やみっちと迷宮(11)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1479599789/l50">
+                  22：No.11　ウンコヴィック博士の半生(12)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1479608851/l50">
+                  23：No.18　THE 添い寝(111)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1479281351/l50">
+                  24：運営スレ(159)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1481433382/l50">
+                  25：No.38　もしもブライアンが異世界転生したら(31)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1480870690/l50">
+                  26：No.30　ナイトメアルーラーズ(17)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1483253937/l50">
+                  27：No.62　小島の小冒険(5)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1479599642/l50">
+                  28：No.7　万華郷　〜外伝〜(22)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1479599720/l50">
+                  29：No.9　もしもクトゥルフ神話TRPGをやって遊んだら(63)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1479599534/l50">
+                  30：No.4　地獄残業おぼなす(15)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1482086445/l50">
+                  31：No.44　デスセイバー(27)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1482667053/l50">
+                  32：No.59　もしもサンタさんが(6)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1482967469/l50">
+                  33：No.61　都市を巡り回って(6)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1482087336/l50">
+                  34：No.46　きばりのカレーな冒険(19)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1479599829/l50">
+                  35：No.12　病煮(8)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1482497169/l50">
+                  36：No.54　ナディア旅行記(26)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1481431575/l50">
+                  37：No.37　ゴメスの最終講義(15)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1480251418/l50">
+                  38：No.28　もしも魔法具現化の進化(15)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1483254345/l50">
+                  39：No.70　ヨエホノ(8)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1479599897/l50">
+                  40：No.14　ライチ軍団ＶＳムライチ軍団(28)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1479599683/l50">
+                  41：No.8　一番輝く星を探して(12)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1482085862/l50">
+                  42：No.43　賞賛聖人。(16)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1480251588/l50">
+                  43：No.29　iSOC-7の、SRPG95サルベージ大作戦。(13)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1482492498/l50">
+                  44：No.49　もしもコレクションＭＶエディションVol.2(2)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1480870744/l50">
+                  45：No.31　アレックスと仲間達の魔王把握w(13)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1482512541/l50">
+                  46：No.57　ドラゴンソード(29)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1482085334/l50">
+                  47：No.41　ショタさらい(3)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1482086602/l50">
+                  48：No.45　これが俺たちのブリッツクリーク(13)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1482494732/l50">
+                  49：No.52　もしもの戦い(34)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1479599612/l50">
+                  50：No.6　ちんすこうクエスト5-レイクエム-(12)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1480251384/l50">
+                  51：No.27　もしも配役がランダムだったら＋(28)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1482492416/l50">
+                  52：No.48　初投稿です。(8)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1482506729/l50">
+                  53：No,55　女性向けを謳って女性にウケたためしが無い(5)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1482512504/l50">
+                  54：No.56　ツクールフェスどうなの？(13)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1483254195/l50">
+                  55：No.67　しろくろライチネス(2)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1482492612/l50">
+                  56：No.51　大乱闘！もしもブラザーズX(8)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1483254259/l50">
+                  57：No.68　うぼあー(2)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1483254302/l50">
+                  58：No.69　死(3)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1481474585/l50">
+                  59：No.40　オークラフト(4)
+                </a>
+                &nbsp;:&nbsp;
+                <a rel="nofollow" href="/bbs/read.cgi/game/59992/1479647091/l50">
+                  60：No.21　がんばれにせご(2)
+                </a>
+                &nbsp;:&nbsp;
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="thread">
+  <div class="thread_itemsWrapper"><div class="thread_itemsOuter"><div class="thread_itemsInner"><div class="thread_items"><div class="thread_title"><a name="1"></a><div class="title"><h3><span class="anchor d_none"><a href="/bbs/read.cgi/game/59992/1481431484/">1</a>
+                  &nbsp;&nbsp;
+                  <span class="subject">No.36　わんだーうぉーかぁず！</span>
+                  <span class="logcount">
+                    &nbsp;&nbsp;
+                    (書き込み数&nbsp;:&nbsp;17)
+                  </span>
+                </span>
+              </h3>
+            </div>
+          </div>
+          <div class="contents">
+            <dl>
+              <dt>
+                <a rel="nofollow"
+                   href="/bbs/read.cgi/game/59992/1481431484/1">1</a>：
+                <font color="#009E25"><b>かんりにん</b> ◆vwWb.1aPxk<b> </b></font>&nbsp;&nbsp;
+                <span class="date">
+                  ：2016/12/11(日) 13:44:44
+                  &nbsp;&nbsp;
+                  
+                </span>
+              </dt>
+              <dd>作品の感想はこちらにどうぞ。</dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1481431484/11">
+                    11
+                  </a>：
+                  <font color="#009E25"><b>名無しさん </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2016/12/28(水) 20:38:33
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>初回ボスでカナエール様の言いつけを破って<br>下キーを押したらPress Shiftと表示されたまま操作が受け付けなくなってどうしようもなくなりました…<br>何卒、お許しください…<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1481431484/12">
+                    12
+                  </a>：
+                  <font color="#009E25"><b>名無しさん </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2016/12/31(土) 20:41:45
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>小さい冒険風のＲＰＧで楽しくプレイできた<br>ときどき強い敵とエンカウントすることもあったけど<br>なるほど隠しの称号も実装してあったのね。百虎は危なかった…<br>カードバトルもお手軽でたのしかった<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1481431484/13">
+                    13
+                  </a>：
+                  <font color="#009E25"><b>名無しさん </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2017/01/09(月) 11:03:41
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>三週目クリアしたら<br>スタッフロール後真っ暗でクリア後の部屋が表示されない・・・<br>メニューは開けるからセーブしたけど、ロードしても真っ暗なまま何もできない<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1481431484/14">
+                    14
+                  </a>：
+                  <font color="#009E25"><b>名無しさん </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2017/02/11(土) 19:59:26
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>これだけ言われても直すどころかレスすらしない作者に脱帽<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1481431484/15">
+                    15
+                  </a>：
+                  <font color="#009E25"><b>名無しさん </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2017/02/14(火) 16:33:54
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>ver1.01で透過ミス直したってあるけどトリッシュとアイスＩだけ透過みす直ってないっぽい<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1481431484/16">
+                    16
+                  </a>：
+                  <a href="mailto:ydurninvy@hotmail.com"><b>クロムハーツ ブレスレット スーパーコピー </b></a>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2019/12/30(月) 04:38:21
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>ブランドコピーならにお任せ!<br>弊店のロレックスブランドコピーは2年無料保証になります。<br>ご入金が確認できてから1週間でお届け致します。<br>ロレックスコピー時計などを購入したい方はこちらへ。<br>ロレックスブランドコピー時計通販、N級品、全て新品、高い品質、激安、送料無料。<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1481431484/17">
+                    17
+                  </a>：
+                  <font color="#009E25"><b>名無しさん </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2023/05/26(金) 22:53:49
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>サクッと1周クリア<br>大味なゲームバランスながらもこじんまりとまとまっていて面白かったです<br></dd>
+            </dl>
+            <div class="next">
+              <a rel="nofollow"
+                 href="/bbs/read.cgi/game/59992/1481431484/l50">&gt;&gt; 最新50件</a>
+              &nbsp;&nbsp;
+              <a href="/bbs/read.cgi/game/59992/1481431484/">&gt;&gt; 全部読む</a>
+            </div>
+            <form name="fcs" method="POST" action="/bbs/write.cgi/game/59992/1481431484/">
+              <input type="hidden" name="DIR" value="game"><input type="hidden" name="BBS" value="59992"><input type="hidden" name="KEY" value="1481431484"><input type="hidden" name="TIME" value="1685109229">
+              <table border="0" cellspacing="5" cellpadding="0" class="thread">
+                <tr>
+                  <td align="right" nowrap class="items">名前</td>
+                  <td><input type="text" name="NAME" size="23" class="name"></td>
+                </tr>
+                <tr>
+                  <td align="right" nowrap class="items">E-mail</td>
+                  <td><input type="text" name="MAIL" size="23" class="mail">（省略OK）</td>
+                </tr>
+                <tr>
+                  <td align="right" nowrap class="items">内容</td>
+                  <td colspan="2">
+                    <textarea rows="5" cols="50" wrap="off" name="MESSAGE"></textarea>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" align="center">
+                    <input type="submit" value="投稿する" name="submit">
+                  </td>
+                </tr>
+              </table>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="thread_itemsWrapper"><div class="thread_itemsOuter"><div class="thread_itemsInner"><div class="thread_items"><div class="thread_title"><a name="2"></a><div class="title"><h3><span class="anchor d_none"><a href="/bbs/read.cgi/game/59992/1483254082/">2</a>
+                  &nbsp;&nbsp;
+                  <span class="subject">No.65　たぶんラストエントリー</span>
+                  <span class="logcount">
+                    &nbsp;&nbsp;
+                    (書き込み数&nbsp;:&nbsp;7)
+                  </span>
+                </span>
+              </h3>
+            </div>
+          </div>
+          <div class="contents">
+            <dl>
+              <dt>
+                <a rel="nofollow"
+                   href="/bbs/read.cgi/game/59992/1483254082/1">1</a>：
+                <font color="#009E25"><b>かんりにん</b> ◆vwWb.1aPxk<b> </b></font>&nbsp;&nbsp;
+                <span class="date">
+                  ：2017/01/01(日) 16:01:22
+                  &nbsp;&nbsp;
+                  
+                </span>
+              </dt>
+              <dd>作品の感想はこちらにどうぞ。</dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1483254082/2">
+                    2
+                  </a>：
+                  <font color="#009E25"><b>名無しさん </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2017/02/04(土) 02:11:22
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>コンヒューズ祭りというか運ゲーというか<br>雰囲気は凄く良いし好き<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1483254082/3">
+                    3
+                  </a>：
+                  <font color="#009E25"><b>名無しさん </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2017/02/04(土) 11:52:59
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>一応クリア。仕様なのか意識的なものなのかわからないけど「ボディチェンジ」＋「スターライトビット」で<br>ラスボス含めほぼすべての相手を瞬殺(サンディに至ってはボディチェンジで即死)できたので対戦相手の6割はそれで済ませてしまった……。<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1483254082/4">
+                    4
+                  </a>：
+                  <font color="#009E25"><b>名無しさん </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2017/02/04(土) 16:36:57
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>仕込みバサミ＆魔力銃でほぼ鉄板だった<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1483254082/5">
+                    5
+                  </a>：
+                  <font color="#009E25"><b>名無しさん </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2017/02/04(土) 23:50:19
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>バラエティ豊かな１３人の刺客だったが全員バラバラにしてやった<br>初期状態でも攻略できる対戦相手も多いから<br>ＭＡＰもロックマン形式のほうが戦略性あったかな<br>そっちの方が倒すルートが人それぞれ個性的になったと思う<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1483254082/6">
+                    6
+                  </a>：
+                  <font color="#009E25"><b>名無しさん </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2017/02/12(日) 11:25:39
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>毒殺＆スタンスラッシュでゴリ押した<br>マップ可愛い<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1483254082/7">
+                    7
+                  </a>：
+                  <font color="#009E25"><b>名無しさん </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2023/05/26(金) 21:01:11
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>クリアー<br>難易度控えめバグ多め<br><a href="/bbs/read.cgi/game/59992/1483254082/4" rel="nofollow" target="_blank">&gt;&gt;4</a>と同じく仕込みバサミと魔力銃で全員しばきました<br></dd>
+            </dl>
+            <div class="next">
+              <a rel="nofollow"
+                 href="/bbs/read.cgi/game/59992/1483254082/l50">&gt;&gt; 最新50件</a>
+              &nbsp;&nbsp;
+              <a href="/bbs/read.cgi/game/59992/1483254082/">&gt;&gt; 全部読む</a>
+            </div>
+            <form name="fcs" method="POST" action="/bbs/write.cgi/game/59992/1483254082/">
+              <input type="hidden" name="DIR" value="game"><input type="hidden" name="BBS" value="59992"><input type="hidden" name="KEY" value="1483254082"><input type="hidden" name="TIME" value="1685102471">
+              <table border="0" cellspacing="5" cellpadding="0" class="thread">
+                <tr>
+                  <td align="right" nowrap class="items">名前</td>
+                  <td><input type="text" name="NAME" size="23" class="name"></td>
+                </tr>
+                <tr>
+                  <td align="right" nowrap class="items">E-mail</td>
+                  <td><input type="text" name="MAIL" size="23" class="mail">（省略OK）</td>
+                </tr>
+                <tr>
+                  <td align="right" nowrap class="items">内容</td>
+                  <td colspan="2">
+                    <textarea rows="5" cols="50" wrap="off" name="MESSAGE"></textarea>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" align="center">
+                    <input type="submit" value="投稿する" name="submit">
+                  </td>
+                </tr>
+              </table>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="thread_itemsWrapper"><div class="thread_itemsOuter"><div class="thread_itemsInner"><div class="thread_items"><div class="thread_title"><a name="3"></a><div class="title"><h3><span class="anchor d_none"><a href="/bbs/read.cgi/game/59992/1557864766/">3</a>
+                  &nbsp;&nbsp;
+                  <span class="subject">ブランドコピー激安通販サイト</span>
+                  <span class="logcount">
+                    &nbsp;&nbsp;
+                    (書き込み数&nbsp;:&nbsp;1)
+                  </span>
+                </span>
+              </h3>
+            </div>
+          </div>
+          <div class="contents">
+            <dl>
+              <dt>
+                <a rel="nofollow"
+                   href="/bbs/read.cgi/game/59992/1557864766/1">1</a>：
+                <a href="mailto:jdpxqevh@ezwen.ne.jp"><b>ブランドコピー激安通販サイト </b></a>&nbsp;&nbsp;
+                <span class="date">
+                  ：2019/05/15(水) 05:12:46
+                  &nbsp;&nbsp;
+                  
+                </span>
+              </dt>
+              <dd>人気新作ブランドコピー財布、腕時計、雑貨、小物商店<br>日本的な人気と信頼を得ています。<br>激安、安心、安全にお届けします.品数豊富な商品情報ＨＰはこちら！！どしどしご来店ください！！！<br>商品数も大幅に増え、品質も大自信です（＊＾ｖ＾＊）<br>日本では手に入らない商品も、全て卸売りします。<br>価格、品質、自信のある商品を取り揃えておりますので、<br>当店の主要な経営のブランド：ヴィトン  C.Dior(ディオール)<br>シャネル グッチ Coach(コーチ) ロレックスなど.<br>当店は主に経営する商品：かばん.バッグ .財布 .キーケース. 手帳.腕時計など.<br>当店の商品は特恵を与える。興味あれば、是非ご覧下さい<br>あなたが私の店まで(へ)商品を買うことを期待して、あるいは尋ねます.（＊＾ｖ＾＊）</dd>
+            </dl>
+            <div class="next">
+              <a rel="nofollow"
+                 href="/bbs/read.cgi/game/59992/1557864766/l50">&gt;&gt; 最新50件</a>
+              &nbsp;&nbsp;
+              <a href="/bbs/read.cgi/game/59992/1557864766/">&gt;&gt; 全部読む</a>
+            </div>
+            <form name="fcs" method="POST" action="/bbs/write.cgi/game/59992/1557864766/">
+              <input type="hidden" name="DIR" value="game"><input type="hidden" name="BBS" value="59992"><input type="hidden" name="KEY" value="1557864766"><input type="hidden" name="TIME" value="1557864766">
+              <table border="0" cellspacing="5" cellpadding="0" class="thread">
+                <tr>
+                  <td align="right" nowrap class="items">名前</td>
+                  <td><input type="text" name="NAME" size="23" class="name"></td>
+                </tr>
+                <tr>
+                  <td align="right" nowrap class="items">E-mail</td>
+                  <td><input type="text" name="MAIL" size="23" class="mail">（省略OK）</td>
+                </tr>
+                <tr>
+                  <td align="right" nowrap class="items">内容</td>
+                  <td colspan="2">
+                    <textarea rows="5" cols="50" wrap="off" name="MESSAGE"></textarea>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" align="center">
+                    <input type="submit" value="投稿する" name="submit">
+                  </td>
+                </tr>
+              </table>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="thread_itemsWrapper"><div class="thread_itemsOuter"><div class="thread_itemsInner"><div class="thread_items"><div class="thread_title"><a name="4"></a><div class="title"><h3><span class="anchor d_none"><a href="/bbs/read.cgi/game/59992/1481431385/">4</a>
+                  &nbsp;&nbsp;
+                  <span class="subject">No.34　もしもDS+の和風二人がやってきたら</span>
+                  <span class="logcount">
+                    &nbsp;&nbsp;
+                    (書き込み数&nbsp;:&nbsp;18)
+                  </span>
+                </span>
+              </h3>
+            </div>
+          </div>
+          <div class="contents">
+            <dl>
+              <dt>
+                <a rel="nofollow"
+                   href="/bbs/read.cgi/game/59992/1481431385/1">1</a>：
+                <font color="#009E25"><b>かんりにん</b> ◆vwWb.1aPxk<b> </b></font>&nbsp;&nbsp;
+                <span class="date">
+                  ：2016/12/11(日) 13:43:05
+                  &nbsp;&nbsp;
+                  
+                </span>
+              </dt>
+              <dd>作品の感想はこちらにどうぞ。</dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1481431385/12">
+                    12
+                  </a>：
+                  <a href="mailto:sage"><b>名無しさん </b></a>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2017/01/18(水) 00:18:59
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd><a href="/bbs/read.cgi/game/59992/1481431385/11" rel="nofollow" target="_blank">&gt;&gt;11</a><br>パスは？<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1481431385/13">
+                    13
+                  </a>：
+                  <font color="#009E25"><b>作者 </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2017/01/18(水) 23:47:52
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd><a href="/bbs/read.cgi/game/59992/1481431385/12" rel="nofollow" target="_blank">&gt;&gt;12</a><br>大変申し訳ありません<br>パッチ用のリンクを張り間違えていました…<br>ttp://ux.getuploader.com/viprpg_kohaku2016_patch_1/download/55/%E3%82%82%E3%81%97%E3%82%82DS%2B%E3%81%AE%E5%92%8C%E9%A2%A8%E4%BA%8C%E4%BA%BA%E3%81%8C%E3%82%84%E3%81%A3%E3%81%A6%E3%81%8D%E3%81%9F%E3%82%89_ver1.01_%E3%83%91%E3%83%83%E3%83%81.zip<br><br>なお、祭りサイトから現在DLできるバージョンは<br>上記パッチが適応済みのものになります。<br><br>お手数おかけして申し訳ありませんでした<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1481431385/14">
+                    14
+                  </a>：
+                  <a href="mailto:sage"><b>名無しさん </b></a>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2017/01/25(水) 04:55:03
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>浮動小数点エラーでPIAIエター<br>まあ確かに冗長な部分はあったけど<br>楽しんで作ってるならそれはそれでいいと思う<br>ナイ戦カッコ良かった<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1481431385/15">
+                    15
+                  </a>：
+                  <font color="#009E25"><b>名無しさん </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2017/02/02(木) 13:08:08
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>読破しました。まず全体的な感想を述べさせてもらうと、非常に素晴らしかったです。<br>新規の2人がお馴染みのもしもシリーズの人々と全勢力把握を通す事で馴染んでいくのがとても良い。物語ももしもシリーズの定番の流れをしっかりと織り交ぜながらもシリアスに描かれているので見やすかった。<br>本編が終了した後のおまけもとてもよかったです。主役の2人含め、おまけに登場した彼らもぜひ出番が増えてほしいと心から思える内容でした。<br>ところどころに作者さんの過去作のネタやキャラ、組み合わせの再登場があることや、過去のもしも作品を彷彿させる台詞が出てくるのも嬉しい要素。見せ所であるシーンの迫力や、細かい演出にも「凝ってるなぁ」と驚かされました。<br>全体的に各登場人物やもしもシリーズに対する作者さんの愛が感じられました。素晴らしい作品をありがとう！<br><br>テンポやウェイトに関しては賛否両論だと思うけど個人的には心境表現としていい感じに働いていると思った。ただ「ここウェイトいるのか？」と思えるシーンも多かったのでテンポが悪くなっているのは否めない。<br>ただその点も含め作者さんのこだわりがあってのことだと思いますし、冗長と思える部分も物語で言われていたように「見方を変えれば」話の起伏としてうまく機能しているとも思う。<br>何にせよ、今後の作品も楽しみにしています。頑張って下さい！<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1481431385/16">
+                    16
+                  </a>：
+                  <font color="#009E25"><b>名無しさん </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2017/02/12(日) 17:40:44
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>つまらん<br>プレイエターなった<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1481431385/17">
+                    17
+                  </a>：
+                  <font color="#009E25"><b>名無しさん </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2017/02/18(土) 01:17:57
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>このシリーズめっちゃすき。前作の五郎のやつや矛無し勢のやつから追っかけてるけど<br>人間関係の妙にみたいのを巧く表現してくれてて欲しい料理出されてる感ある。<br>続編と思われるライチのもPiayしたし今後の続編も追っていきたいとおもた<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1481431385/18">
+                    18
+                  </a>：
+                  <a href="mailto:baxqdtyoyi@ybb.ne.jp"><b>スーパーコピー </b></a>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2019/04/13(土) 07:28:23
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>ロレックス 通販専門店<br><br>★経営理念: <br>1.信用第一，品質保証，最も合理的な価格で商品を消費者に提供致します. <br>2.弊社の商品品数大目で、商品は安めです！★商品現物写真★ <br>3.数量制限無し、一個の注文も、ＯＫです. <br>4.1個も1万個も問わず、誠心誠意対応します. <br>5.不良品の場合、弊社が無償で交換します.<br><br><br>営業種目:<br>高級腕時計，スーパーコピー時計（N級品），財布（N級品）<br>バッグ（N級品），靴（N品），指輪（N級品），ベルト（N級品），マフラー（N級品）<br>ロレックス，カルティエ，IWC，オメガ，パネライ，ブランド時計等も豊富に取り揃えております<br><br><font color="#009E25">（省略されました・・全てを読むには<a href="//jbbs.shitaraba.net/bbs/read.cgi/game/59992/1481431385/18" target="_blank">ここ</a>を押してください）</font><br></dd>
+            </dl>
+            <div class="next">
+              <a rel="nofollow"
+                 href="/bbs/read.cgi/game/59992/1481431385/l50">&gt;&gt; 最新50件</a>
+              &nbsp;&nbsp;
+              <a href="/bbs/read.cgi/game/59992/1481431385/">&gt;&gt; 全部読む</a>
+            </div>
+            <form name="fcs" method="POST" action="/bbs/write.cgi/game/59992/1481431385/">
+              <input type="hidden" name="DIR" value="game"><input type="hidden" name="BBS" value="59992"><input type="hidden" name="KEY" value="1481431385"><input type="hidden" name="TIME" value="1555108103">
+              <table border="0" cellspacing="5" cellpadding="0" class="thread">
+                <tr>
+                  <td align="right" nowrap class="items">名前</td>
+                  <td><input type="text" name="NAME" size="23" class="name"></td>
+                </tr>
+                <tr>
+                  <td align="right" nowrap class="items">E-mail</td>
+                  <td><input type="text" name="MAIL" size="23" class="mail">（省略OK）</td>
+                </tr>
+                <tr>
+                  <td align="right" nowrap class="items">内容</td>
+                  <td colspan="2">
+                    <textarea rows="5" cols="50" wrap="off" name="MESSAGE"></textarea>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" align="center">
+                    <input type="submit" value="投稿する" name="submit">
+                  </td>
+                </tr>
+              </table>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="thread_itemsWrapper"><div class="thread_itemsOuter"><div class="thread_itemsInner"><div class="thread_items"><div class="thread_title"><a name="5"></a><div class="title"><h3><span class="anchor d_none"><a href="/bbs/read.cgi/game/59992/1480251218/">5</a>
+                  &nbsp;&nbsp;
+                  <span class="subject">No.23　ピアニッシモ</span>
+                  <span class="logcount">
+                    &nbsp;&nbsp;
+                    (書き込み数&nbsp;:&nbsp;10)
+                  </span>
+                </span>
+              </h3>
+            </div>
+          </div>
+          <div class="contents">
+            <dl>
+              <dt>
+                <a rel="nofollow"
+                   href="/bbs/read.cgi/game/59992/1480251218/1">1</a>：
+                <font color="#009E25"><b>かんりにん</b> ◆vwWb.1aPxk<b> </b></font>&nbsp;&nbsp;
+                <span class="date">
+                  ：2016/11/27(日) 21:53:38
+                  &nbsp;&nbsp;
+                  
+                </span>
+              </dt>
+              <dd>作品の感想はこちらにどうぞ。</dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1480251218/4">
+                    4
+                  </a>：
+                  <font color="#009E25"><b>名無しさん </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2016/11/27(日) 22:23:22
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>良さそう<br>期待<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1480251218/5">
+                    5
+                  </a>：
+                  <font color="#009E25"><b>名無しさん </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2016/12/25(日) 16:12:26
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>色々不思議だった<br>結局あそこが何だったのか気になる<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1480251218/6">
+                    6
+                  </a>：
+                  <font color="#009E25"><b>名無しさん </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2016/12/28(水) 13:45:23
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>料理で出来たもののずれ方に笑った<br>ギャグに寄せてもおもしろいのができそうだね<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1480251218/7">
+                    7
+                  </a>：
+                  <font color="#009E25"><b>名無しさん </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2016/12/30(金) 00:19:23
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>コミックLOやメガストアを愛読して少女を監禁しているおじさんはあぶないとおもった<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1480251218/8">
+                    8
+                  </a>：
+                  <font color="#009E25"><b>名無しさん </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2017/01/25(水) 20:40:05
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>TRPGによくある巻き込まれ系の脱出シナリオのような雰囲気で、謎解きがあるのかなと思ったら不思議なまま終わってしまった<br>スタッフロールの発想は本当に好きです<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1480251218/9">
+                    9
+                  </a>：
+                  <font color="#009E25"><b>名無しさん </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2017/02/12(日) 11:23:21
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>取りとめのあるような無いような夢あるある<br>老人の変な台詞が印象的<br>あとドーナツ食べたくなった<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1480251218/10">
+                    10
+                  </a>：
+                  <a href="mailto:siwujbo@gmail.com"><b>日本最大級のブランド時計・バッグ・財布N級品専門店 </b></a>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2018/10/21(日) 20:14:17
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>東京第七家信用スーパーコピー時計の実体の店<br>ブランドコピーバッグの誠実と信用の店、<br>24時間以内に出荷し、3&#65374;4日に到着して、<br>当社の販売のさまざまな国際ブランド、<br>ルイヴィトンバッグ、エルメスコピー、<br>ロレックスコピー、オメガ コピー、<br>シャネル時計コピー、スーパーコピーバッグ、<br>当社は誠心誠意あなたのためにサービス、<br></dd>
+            </dl>
+            <div class="next">
+              <a rel="nofollow"
+                 href="/bbs/read.cgi/game/59992/1480251218/l50">&gt;&gt; 最新50件</a>
+              &nbsp;&nbsp;
+              <a href="/bbs/read.cgi/game/59992/1480251218/">&gt;&gt; 全部読む</a>
+            </div>
+            <form name="fcs" method="POST" action="/bbs/write.cgi/game/59992/1480251218/">
+              <input type="hidden" name="DIR" value="game"><input type="hidden" name="BBS" value="59992"><input type="hidden" name="KEY" value="1480251218"><input type="hidden" name="TIME" value="1540120457">
+              <table border="0" cellspacing="5" cellpadding="0" class="thread">
+                <tr>
+                  <td align="right" nowrap class="items">名前</td>
+                  <td><input type="text" name="NAME" size="23" class="name"></td>
+                </tr>
+                <tr>
+                  <td align="right" nowrap class="items">E-mail</td>
+                  <td><input type="text" name="MAIL" size="23" class="mail">（省略OK）</td>
+                </tr>
+                <tr>
+                  <td align="right" nowrap class="items">内容</td>
+                  <td colspan="2">
+                    <textarea rows="5" cols="50" wrap="off" name="MESSAGE"></textarea>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" align="center">
+                    <input type="submit" value="投稿する" name="submit">
+                  </td>
+                </tr>
+              </table>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="thread_itemsWrapper"><div class="thread_itemsOuter"><div class="thread_itemsInner"><div class="thread_items"><div class="thread_title"><a name="6"></a><div class="title"><h3><span class="anchor d_none"><a href="/bbs/read.cgi/game/59992/1479599960/">6</a>
+                  &nbsp;&nbsp;
+                  <span class="subject">No.16　キャロルのブロック崩し&#65374;いにしえの魔導書&#65374;</span>
+                  <span class="logcount">
+                    &nbsp;&nbsp;
+                    (書き込み数&nbsp;:&nbsp;46)
+                  </span>
+                </span>
+              </h3>
+            </div>
+          </div>
+          <div class="contents">
+            <dl>
+              <dt>
+                <a rel="nofollow"
+                   href="/bbs/read.cgi/game/59992/1479599960/1">1</a>：
+                <font color="#009E25"><b>かんりにん</b> ◆vwWb.1aPxk<b> </b></font>&nbsp;&nbsp;
+                <span class="date">
+                  ：2016/11/20(日) 08:59:20
+                  &nbsp;&nbsp;
+                  
+                </span>
+              </dt>
+              <dd>作品の感想はこちらにどうぞ。</dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1479599960/40">
+                    40
+                  </a>：
+                  <font color="#009E25"><b>名無しさん </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2017/01/11(水) 00:30:38
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>ブロック崩しとしてよく出来ている上にギミック豊富で楽しい<br>ただ、ブロック崩しの常だけど最後に残ったブロック1個を崩したりするのは時間ばかり掛かってイマイチな印象<br>全部壊さなくても敵全滅で先に進めたりするとより良かったかも<br>そんな残りブロックの掃除にも便利なバリアーズはマジおすすめ<br>コンフューズは最後まで挙動が良く分からなかった<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1479599960/41">
+                    41
+                  </a>：
+                  <font color="#009E25"><b>作者 </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2017/01/30(月) 00:28:53
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>一部のバグと仕様を変更・修正しました。<br>ttp://ux.getuploader.com/viprpg_kohaku2016_patch_1/download/72/%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E5%B4%A9%E3%81%97%E4%BF%AE%E6%AD%A3%E3%83%91%E3%83%83%E3%83%81Ver1.21.zip<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1479599960/42">
+                    42
+                  </a>：
+                  <font color="#009E25"><b>名無しさん </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2017/02/15(水) 17:28:15
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>短めながらも完成度の高い良作です<br>バランスもシナリオも丁度いい塩梅で楽しめる<br>MP溜めて使う魔法も程よく強力でゲームが楽しい<br>ステージも凝ってて飽きない工夫がされてる<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1479599960/43">
+                    43
+                  </a>：
+                  <font color="#009E25"><b>名無しさん </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2017/03/07(火) 17:30:34
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>mediafireじゃない方のアップローダーにこの作品がないんだけどどうすればいいですか・・？<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1479599960/44">
+                    44
+                  </a>：
+                  <font color="#009E25"><b>名無しさん </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2017/03/13(月) 14:13:39
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd><a href="/bbs/read.cgi/game/59992/1479599960/43" rel="nofollow" target="_blank">&gt;&gt;43</a><br>気付くのが遅くなってしまいました…すみません…<br>ttp://ux.getuploader.com/viprpg_kohaku2016_release_1/download/81/vipkh16_16_%E3%82%AD%E3%83%A3%E3%83%AD%E3%83%AB%E3%81%AE%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E5%B4%A9%E3%81%97%EF%BD%9E%E3%81%84%E3%81%AB%E3%81%97%E3%81%88%E3%81%AE%E9%AD%94%E5%B0%8E%E6%9B%B8%EF%BD%9E.zip<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1479599960/45">
+                    45
+                  </a>：
+                  <font color="#009E25"><b>名無しさん </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2017/04/12(水) 21:12:22
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd><a href="/bbs/read.cgi/game/59992/1479599960/44" rel="nofollow" target="_blank">&gt;&gt;44</a><br>久しぶりに来たら対応されてた！ありがとう<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1479599960/46">
+                    46
+                  </a>：
+                  <font color="#009E25"><b>名無しさん </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2018/10/09(火) 22:19:43
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>とても面白かったです！<br>どういう技術でブロック崩しになってるのでしょうか？<br>玉はプレイヤーなのかピクチャなのか<br>ピクチャとイベントの衝突をどう処理しているのか<br>ゲーム作りの参考に教えてくれると嬉しいです<br></dd>
+            </dl>
+            <div class="next">
+              <a rel="nofollow"
+                 href="/bbs/read.cgi/game/59992/1479599960/l50">&gt;&gt; 最新50件</a>
+              &nbsp;&nbsp;
+              <a href="/bbs/read.cgi/game/59992/1479599960/">&gt;&gt; 全部読む</a>
+            </div>
+            <form name="fcs" method="POST" action="/bbs/write.cgi/game/59992/1479599960/">
+              <input type="hidden" name="DIR" value="game"><input type="hidden" name="BBS" value="59992"><input type="hidden" name="KEY" value="1479599960"><input type="hidden" name="TIME" value="1539091183">
+              <table border="0" cellspacing="5" cellpadding="0" class="thread">
+                <tr>
+                  <td align="right" nowrap class="items">名前</td>
+                  <td><input type="text" name="NAME" size="23" class="name"></td>
+                </tr>
+                <tr>
+                  <td align="right" nowrap class="items">E-mail</td>
+                  <td><input type="text" name="MAIL" size="23" class="mail">（省略OK）</td>
+                </tr>
+                <tr>
+                  <td align="right" nowrap class="items">内容</td>
+                  <td colspan="2">
+                    <textarea rows="5" cols="50" wrap="off" name="MESSAGE"></textarea>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" align="center">
+                    <input type="submit" value="投稿する" name="submit">
+                  </td>
+                </tr>
+              </table>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="thread_itemsWrapper"><div class="thread_itemsOuter"><div class="thread_itemsInner"><div class="thread_items"><div class="thread_title"><a name="7"></a><div class="title"><h3><span class="anchor d_none"><a href="/bbs/read.cgi/game/59992/1479599994/">7</a>
+                  &nbsp;&nbsp;
+                  <span class="subject">No.17　ドラゴンクエスト・闇レナ編</span>
+                  <span class="logcount">
+                    &nbsp;&nbsp;
+                    (書き込み数&nbsp;:&nbsp;25)
+                  </span>
+                </span>
+              </h3>
+            </div>
+          </div>
+          <div class="contents">
+            <dl>
+              <dt>
+                <a rel="nofollow"
+                   href="/bbs/read.cgi/game/59992/1479599994/1">1</a>：
+                <font color="#009E25"><b>かんりにん</b> ◆vwWb.1aPxk<b> </b></font>&nbsp;&nbsp;
+                <span class="date">
+                  ：2016/11/20(日) 08:59:54
+                  &nbsp;&nbsp;
+                  
+                </span>
+              </dt>
+              <dd>作品の感想はこちらにどうぞ。</dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1479599994/19">
+                    19
+                  </a>：
+                  <font color="#009E25"><b>おたつ </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2017/01/15(日) 15:25:24
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>冥利につきます。<br>表ラスボスは呪文も駆使しないと厳しくなってますね。特にステータス異常が重要。<br>作者・神のあのビームは確率で使用なので反射なくても運が良ければ理論上は倒せますが、<br>反射させたほうが早いでしょう。仕様です。<br>メタルキングの剣も強いですね、一撃では最強でしょう。攻撃回数を考慮するとエターナルスフィアか。<br>おまけダンジョンのＢＧＭはゲームボーイの星のカービィ２のたしか６面あたりの雲ステージの曲です。<br>カービィは名曲多くてもう…。<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1479599994/20">
+                    20
+                  </a>：
+                  <a href="mailto:sage"><b>名無しさん </b></a>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2017/01/25(水) 04:52:04
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>最初レナックスかと思ったら…誰？<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1479599994/21">
+                    21
+                  </a>：
+                  <font color="#009E25"><b>おたつ </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2017/01/28(土) 12:46:26
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>スターオーシャンセカンドストーリーのヒロインです。<br>ファイナルファンタジー５のレナでも<br>メインベルトに存在する小惑星のレナでもありません。<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1479599994/22">
+                    22
+                  </a>：
+                  <font color="#009E25"><b>名無しさん </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2017/02/07(火) 18:54:40
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>viprpgのキャラじゃないんだ<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1479599994/23">
+                    23
+                  </a>：
+                  <font color="#009E25"><b>名無しさん </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2018/01/12(金) 01:26:34
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>この作品以降は提出なしか・・・<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1479599994/24">
+                    24
+                  </a>：
+                  <a href="mailto:udlacq@i.softbank.jp"><b>ブランドバッグスーパーコピー </b></a>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2018/09/10(月) 01:49:31
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>弊店はスーパーコピー時計N品、<br>イベント中です、<br>ロレックスコピー時計、パネライレプリカ時計、<br>シャネルニセモノ時計、ブライトリング偽物時計、<br>ウブロレプリカ時計、IWC イミテーション時計、<br>二年以内に人的破壊でない故障は無料で修理をします。<br>正規品と同等品質のコピー品を低価でお客様に提供します。<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1479599994/25">
+                    25
+                  </a>：
+                  <a href="mailto:ebafmiahe@icloud.com"><b>ウブロ時計コピー </b></a>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2018/09/12(水) 01:23:32
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>★最高等級ウブロコピー時計大量入荷！<br>▽◆▽世界の一流ウブロコピー品N級の専門ショップ★ <br>注文特恵中-新作入荷!-価格比較.送料無料！ <br>◆主要取扱商品 スーパーコピー時計！ <br>◆全国送料一律無料 <br>◆オークション、楽天オークション、売店、卸売りと小売りの第一選択のブランドの店。 <br>■信用第一、良い品質、低価格は 私達の勝ち残りの切り札です。 <br>◆ 当社の商品は絶対の自信が御座います。 <br>おすすめ人気ブランドコピー腕時計， 最高等級時計大量入荷！ <br>◆N品質シリアル付きも有り 付属品完備！ <br>☆★☆━━━━━━━━━━━━━━━━━━━☆★☆ <br>以上 宜しくお願い致します。 <br>(＾０＾）<br></dd>
+            </dl>
+            <div class="next">
+              <a rel="nofollow"
+                 href="/bbs/read.cgi/game/59992/1479599994/l50">&gt;&gt; 最新50件</a>
+              &nbsp;&nbsp;
+              <a href="/bbs/read.cgi/game/59992/1479599994/">&gt;&gt; 全部読む</a>
+            </div>
+            <form name="fcs" method="POST" action="/bbs/write.cgi/game/59992/1479599994/">
+              <input type="hidden" name="DIR" value="game"><input type="hidden" name="BBS" value="59992"><input type="hidden" name="KEY" value="1479599994"><input type="hidden" name="TIME" value="1536683012">
+              <table border="0" cellspacing="5" cellpadding="0" class="thread">
+                <tr>
+                  <td align="right" nowrap class="items">名前</td>
+                  <td><input type="text" name="NAME" size="23" class="name"></td>
+                </tr>
+                <tr>
+                  <td align="right" nowrap class="items">E-mail</td>
+                  <td><input type="text" name="MAIL" size="23" class="mail">（省略OK）</td>
+                </tr>
+                <tr>
+                  <td align="right" nowrap class="items">内容</td>
+                  <td colspan="2">
+                    <textarea rows="5" cols="50" wrap="off" name="MESSAGE"></textarea>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" align="center">
+                    <input type="submit" value="投稿する" name="submit">
+                  </td>
+                </tr>
+              </table>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="thread_itemsWrapper"><div class="thread_itemsOuter"><div class="thread_itemsInner"><div class="thread_items"><div class="thread_title"><a name="8"></a><div class="title"><h3><span class="anchor d_none"><a href="/bbs/read.cgi/game/59992/1481431432/">8</a>
+                  &nbsp;&nbsp;
+                  <span class="subject">No.35　ぬりばー■□</span>
+                  <span class="logcount">
+                    &nbsp;&nbsp;
+                    (書き込み数&nbsp;:&nbsp;71)
+                  </span>
+                </span>
+              </h3>
+            </div>
+          </div>
+          <div class="contents">
+            <dl>
+              <dt>
+                <a rel="nofollow"
+                   href="/bbs/read.cgi/game/59992/1481431432/1">1</a>：
+                <font color="#009E25"><b>かんりにん</b> ◆vwWb.1aPxk<b> </b></font>&nbsp;&nbsp;
+                <span class="date">
+                  ：2016/12/11(日) 13:43:52
+                  &nbsp;&nbsp;
+                  
+                </span>
+              </dt>
+              <dd>作品の感想はこちらにどうぞ。</dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1481431432/65">
+                    65
+                  </a>：
+                  <font color="#009E25"><b>62 </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2017/02/05(日) 10:25:13
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd><a href="/bbs/read.cgi/game/59992/1481431432/64" rel="nofollow" target="_blank">&gt;&gt;64</a><br>ありがとう、出来たよ<br>一度そこにも行ってみたんだけど、<br>前は行けなかったからフラグをたててなかったみたい<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1481431432/66">
+                    66
+                  </a>：
+                  <font color="#009E25"><b>名無しさん </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2017/02/06(月) 18:38:43
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>カノム、リアの正体（？）についてはなんとなく予想通り。<br>それでも事前の情報隠しが効いて、どういうことなのか知りたくなる。<br>戦闘面、SP管理について早い段階で言及してもよかったんじゃないかと思う。<br>序盤→終盤で2人とブランの力関係が逆転してくるのがストーリー上でも意味が感じられるのが良い。<br>シンプルなゲームだけど小ネタがいい味出してて面白かった。<br>地味にダンジョンご飯2・4・6が見つけにくいね。2は見つかった。<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1481431432/67">
+                    67
+                  </a>：
+                  <font color="#009E25"><b>栗原直樹 </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2017/04/17(月) 12:55:23
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>わてりとふれいむさんのパズルゲームの人ですよね？<br>分かってるのかどうか分かりませんが…<br>集団ストーカーはネタじゃなくてマジですよ<br>職場のページもご覧になってください<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1481431432/68">
+                    68
+                  </a>：
+                  <font color="#009E25"><b>名無しさん </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2017/04/24(月) 20:07:49
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>遅れてプレイしたけど、雰囲気が素敵だったなぁ<br><br>ただ、面白かったもののSPが有限のリソースである事は最初に説明が欲しかった<br>SPが有限である事を利用した仕掛けや調整があるわけでもなく階層移動で大雑把に回復させてしまうなら、最初からSP有限のシステム自体が要らなかったんじゃないかと思う<br>後は死んだら拠点に戻るというルールだったのが途中で説明無しに死んだらゲームオーバーに切り替わるのはちょっと卑怯<br>SP回復を残して徹底的にトレハンしてさあ戻るぞと自殺したらゲームオーバーになった時は投げそうになったぜ・・・<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1481431432/69">
+                    69
+                  </a>：
+                  <font color="#009E25"><b>名無しさん </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2018/06/23(土) 14:45:31
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>プレイさせて頂きました。<br>１つ１つのマップがすごく丁寧に作られてて<br>良かったです！<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1481431432/70">
+                    70
+                  </a>：
+                  <font color="#009E25"><b>名無しさん </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2018/06/23(土) 14:46:11
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>プレイさせて頂きました。<br>１つ１つのマップがすごく丁寧に作られてて<br>良かったです！<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1481431432/71">
+                    71
+                  </a>：
+                  <font color="#009E25"><b>名無しさん </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2018/07/21(土) 01:10:43
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>ポップで可愛い雰囲気のデフォ戦！ゲームオーバーの演出も良いですね。<br>ｴﾋﾞﾏﾖ&#65374;とかやけに出てくるスピブレさんなど独自の雰囲気を出していた感じがします<br>会話もテンポよかったりで。宝箱でトークするのとか、ラウンジのゲームみたいでにぎやかで好きです。<br><br>仲間に任せるデフォ戦というのも楽しきですね。<br>ＨＰ・ＳＰの運用がなかなか難しい！面クリア以外でＳＰ回復しないの終盤で気付いたし！<br>レアザコとかレアドロップもあって、ゲームの楽しい雰囲気に一役買っていたと思いました。<br>可愛い反面、熱いバランスしてますね。<br>井戸バリアとか冥界とかめっちゃぎりぎりでした…HP回復アイテムのバランスがちょうどよかった気がしますね…。<br><br>スライムのタピオカドリンクおいしそう…<br>トゲのマップのヒントなんていやらしすぎるｗｗリッチのところは結局毒床踏みまくるしかなかったのかな？ｗ<br>二刀流筆のエフェクトかっこよすぎる。<br>序盤の泣き虫バーストちゃん可愛いのに、真ボスも二刀流バフでザクザク切り刻むバーストちゃんがＩＫＥＭＥＮでした<br>ＥＤ０まで一枚絵を用意している細かさよ…<br><font color="#009E25">（省略されました・・全てを読むには<a href="//jbbs.shitaraba.net/bbs/read.cgi/game/59992/1481431432/71" target="_blank">ここ</a>を押してください）</font><br></dd>
+            </dl>
+            <div class="next">
+              <a rel="nofollow"
+                 href="/bbs/read.cgi/game/59992/1481431432/l50">&gt;&gt; 最新50件</a>
+              &nbsp;&nbsp;
+              <a href="/bbs/read.cgi/game/59992/1481431432/">&gt;&gt; 全部読む</a>
+            </div>
+            <form name="fcs" method="POST" action="/bbs/write.cgi/game/59992/1481431432/">
+              <input type="hidden" name="DIR" value="game"><input type="hidden" name="BBS" value="59992"><input type="hidden" name="KEY" value="1481431432"><input type="hidden" name="TIME" value="1532103043">
+              <table border="0" cellspacing="5" cellpadding="0" class="thread">
+                <tr>
+                  <td align="right" nowrap class="items">名前</td>
+                  <td><input type="text" name="NAME" size="23" class="name"></td>
+                </tr>
+                <tr>
+                  <td align="right" nowrap class="items">E-mail</td>
+                  <td><input type="text" name="MAIL" size="23" class="mail">（省略OK）</td>
+                </tr>
+                <tr>
+                  <td align="right" nowrap class="items">内容</td>
+                  <td colspan="2">
+                    <textarea rows="5" cols="50" wrap="off" name="MESSAGE"></textarea>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" align="center">
+                    <input type="submit" value="投稿する" name="submit">
+                  </td>
+                </tr>
+              </table>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="thread_itemsWrapper"><div class="thread_itemsOuter"><div class="thread_itemsInner"><div class="thread_items"><div class="thread_title"><a name="9"></a><div class="title"><h3><span class="anchor d_none"><a href="/bbs/read.cgi/game/59992/1482667104/">9</a>
+                  &nbsp;&nbsp;
+                  <span class="subject">No.60　かなしみの箱舟</span>
+                  <span class="logcount">
+                    &nbsp;&nbsp;
+                    (書き込み数&nbsp;:&nbsp;23)
+                  </span>
+                </span>
+              </h3>
+            </div>
+          </div>
+          <div class="contents">
+            <dl>
+              <dt>
+                <a rel="nofollow"
+                   href="/bbs/read.cgi/game/59992/1482667104/1">1</a>：
+                <font color="#009E25"><b>かんりにん</b> ◆vwWb.1aPxk<b> </b></font>&nbsp;&nbsp;
+                <span class="date">
+                  ：2016/12/25(日) 20:58:24
+                  &nbsp;&nbsp;
+                  
+                </span>
+              </dt>
+              <dd>作品の感想はこちらにどうぞ。</dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1482667104/17">
+                    17
+                  </a>：
+                  <font color="#009E25"><b>名無しさん </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2017/03/11(土) 20:42:09
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>長編の新しい作品つくってよ！<br>バダールとかアリスとかモブ夫が主人公のやつとか全部やったよ！<br>暗い世界観の作品作ってよ！<br>美脚好きのキチガイとか良かったよ<br>暗い世界観の作品作ってよ！<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1482667104/18">
+                    18
+                  </a>：
+                  <font color="#009E25"><b>名無しさん </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2017/03/14(火) 02:21:56
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>お元気そうでなによりだわ。<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1482667104/19">
+                    19
+                  </a>：
+                  <font color="#009E25"><b>名無しさん </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2017/04/27(木) 17:53:30
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>また会えてうれしい<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1482667104/20">
+                    20
+                  </a>：
+                  <font color="#009E25"><b>名無しさん </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2017/05/15(月) 05:54:20
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>うおっ<br>藻太郎さん生きてた！<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1482667104/21">
+                    21
+                  </a>：
+                  <font color="#009E25"><b>名無しさん </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2018/07/21(土) 01:04:45
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>過去作から新作まで含む豪華な見るゲがたくさんあり、とても楽しめました<br>ギャグ作品が意外と多く、読みやすかったです<br>また長めの作品やしっとりした短編がいい味を出していたと思います。<br>かなり長くなってしまいましたが集大成のようなものを感じ、良い作品が多くコメントせざるを得ないと感じました<br><br>以下、前の祭りで公開されてコメント済の作品以外で印象に残ったものを挙げさせていただきますね。<br><br>「世界のしみ」<br>アートみたいでこういうのも良いですね！<br>帰りは少しゾッとしました<br><br>「レナックスとウィンディシリーズ」<br>アニメーションすごい！！！<br>ゴメスとアレックスが妥協婚なのが笑います<br>後ろめたさがあったのだろうか…ベストカップルじゃん！！<br><font color="#009E25">（省略されました・・全てを読むには<a href="//jbbs.shitaraba.net/bbs/read.cgi/game/59992/1482667104/21" target="_blank">ここ</a>を押してください）</font><br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1482667104/22">
+                    22
+                  </a>：
+                  <font color="#009E25"><b>名無しさん </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2018/07/21(土) 01:06:55
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>「ゴメスの代理人」<br>代理人ってそういう…年老いたもしもキャラというのもまた良さがありますね！！グッジョブです<br>アレックスは年老いた方がかっこいい気がする。<br>娘様が介護を放棄っていうのがこころもち社会の闇でした<br>こんなグラあるんだ…最初のパートが最後の伏線になってるのがいいですねー<br><br>「ウィンディの秘孔を突け！」<br>怪しい箇所ばかりなんですがｗｗｗ<br>頭部破壊もひっどいｗｗこのテンションは洗練されてますね<br>思いますけどもたろうさんのヒールさんはやたらとテンション高くてウケますねー。好きです。<br>キジウィンディがボイスと合ってて可愛かったです！<br><br>「今度も必ず勝つ」<br>新しい素材をひたすら使っていくひどいｋｓｇいいですね！<br>フレイムさん可愛い…<br><font color="#009E25">（省略されました・・全てを読むには<a href="//jbbs.shitaraba.net/bbs/read.cgi/game/59992/1482667104/22" target="_blank">ここ</a>を押してください）</font><br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1482667104/23">
+                    23
+                  </a>：
+                  <font color="#009E25"><b>名無しさん </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2018/07/21(土) 01:08:28
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>「スキゾフレニア・ライチ」<br>統合失調症について少しわかった気がしました<br>文章を小説のように紡いでおり、人間の半生をダイジェストで見たように感じ取れました<br><br>「アリシアのパンセ」<br>イシュチェルちゃんポジティブ可愛いしアリシアちゃんは知的ですねー<br>『他人の脳髄で考えたものを完璧に理解することは不可能、だから自分限りの異本を作りたいの』<br>なるほどキャラ性と本を書いた理由が明確なシーンでした<br>人間が創作をしようとするのは自分の異本を作りたいという本能なのかもしれません<br>個別の事象に徹するのは危険というのはまた難しいところですね<br>会話の折り合いで、２つのキャラが生きているという感覚がしました<br>『折り合いと片方が折れること、変えさせたくないし変わりたくない、近づきたいけど近づきたくない、飲み込まれるのが怖いの』<br>個別な会話にぎこちないアリシアちゃん可愛いｗｗ<br>『ぽとりぽとりと日常のエキスが濾過されて思想になる』<br>名だたる思想家たちも日常全てがスタイリッシュってわけではないと私も思いますね&#65374;<br><font color="#009E25">（省略されました・・全てを読むには<a href="//jbbs.shitaraba.net/bbs/read.cgi/game/59992/1482667104/23" target="_blank">ここ</a>を押してください）</font><br></dd>
+            </dl>
+            <div class="next">
+              <a rel="nofollow"
+                 href="/bbs/read.cgi/game/59992/1482667104/l50">&gt;&gt; 最新50件</a>
+              &nbsp;&nbsp;
+              <a href="/bbs/read.cgi/game/59992/1482667104/">&gt;&gt; 全部読む</a>
+            </div>
+            <form name="fcs" method="POST" action="/bbs/write.cgi/game/59992/1482667104/">
+              <input type="hidden" name="DIR" value="game"><input type="hidden" name="BBS" value="59992"><input type="hidden" name="KEY" value="1482667104"><input type="hidden" name="TIME" value="1532102908">
+              <table border="0" cellspacing="5" cellpadding="0" class="thread">
+                <tr>
+                  <td align="right" nowrap class="items">名前</td>
+                  <td><input type="text" name="NAME" size="23" class="name"></td>
+                </tr>
+                <tr>
+                  <td align="right" nowrap class="items">E-mail</td>
+                  <td><input type="text" name="MAIL" size="23" class="mail">（省略OK）</td>
+                </tr>
+                <tr>
+                  <td align="right" nowrap class="items">内容</td>
+                  <td colspan="2">
+                    <textarea rows="5" cols="50" wrap="off" name="MESSAGE"></textarea>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" align="center">
+                    <input type="submit" value="投稿する" name="submit">
+                  </td>
+                </tr>
+              </table>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="thread_itemsWrapper"><div class="thread_itemsOuter"><div class="thread_itemsInner"><div class="thread_items"><div class="thread_title"><a name="10"></a><div class="title"><h3><span class="anchor d_none"><a href="/bbs/read.cgi/game/59992/1480251284/">10</a>
+                  &nbsp;&nbsp;
+                  <span class="subject">No.25　ヘルちゃまのおにぎり大作戦！</span>
+                  <span class="logcount">
+                    &nbsp;&nbsp;
+                    (書き込み数&nbsp;:&nbsp;4)
+                  </span>
+                </span>
+              </h3>
+            </div>
+          </div>
+          <div class="contents">
+            <dl>
+              <dt>
+                <a rel="nofollow"
+                   href="/bbs/read.cgi/game/59992/1480251284/1">1</a>：
+                <font color="#009E25"><b>かんりにん</b> ◆vwWb.1aPxk<b> </b></font>&nbsp;&nbsp;
+                <span class="date">
+                  ：2016/11/27(日) 21:54:44
+                  &nbsp;&nbsp;
+                  
+                </span>
+              </dt>
+              <dd>作品の感想はこちらにどうぞ。</dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1480251284/2">
+                    2
+                  </a>：
+                  <font color="#009E25"><b>名無しさん </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2016/11/27(日) 22:16:30
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>やばいすごい気になる<br>期待<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1480251284/3">
+                    3
+                  </a>：
+                  <font color="#009E25"><b>名無しさん </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2016/11/28(月) 01:37:56
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>なんかワロタ<br></dd>
+                <dt>
+                  <a rel="nofollow"
+                     href="/bbs/read.cgi/game/59992/1480251284/4">
+                    4
+                  </a>：
+                  <font color="#009E25"><b>名無しさん </b></font>&nbsp;&nbsp;
+                  <span class="date">
+                    ：2018/02/10(土) 12:03:17
+                    &nbsp;&nbsp;
+                    
+                  </span>
+                </dt>
+                <dd>スレ投下のものをプレイしました<br>いやー、ギャグが冴えに冴えてて面白かったです<br>音声やピクチャーの使い方が天才的ですね<br>どれも笑いましたがひろしの出てくるやつが一番笑いました<br>すごくいいキャラしてました！<br></dd>
+            </dl>
+            <div class="next">
+              <a rel="nofollow"
+                 href="/bbs/read.cgi/game/59992/1480251284/l50">&gt;&gt; 最新50件</a>
+              &nbsp;&nbsp;
+              <a href="/bbs/read.cgi/game/59992/1480251284/">&gt;&gt; 全部読む</a>
+            </div>
+            <form name="fcs" method="POST" action="/bbs/write.cgi/game/59992/1480251284/">
+              <input type="hidden" name="DIR" value="game"><input type="hidden" name="BBS" value="59992"><input type="hidden" name="KEY" value="1480251284"><input type="hidden" name="TIME" value="1518231797">
+              <table border="0" cellspacing="5" cellpadding="0" class="thread">
+                <tr>
+                  <td align="right" nowrap class="items">名前</td>
+                  <td><input type="text" name="NAME" size="23" class="name"></td>
+                </tr>
+                <tr>
+                  <td align="right" nowrap class="items">E-mail</td>
+                  <td><input type="text" name="MAIL" size="23" class="mail">（省略OK）</td>
+                </tr>
+                <tr>
+                  <td align="right" nowrap class="items">内容</td>
+                  <td colspan="2">
+                    <textarea rows="5" cols="50" wrap="off" name="MESSAGE"></textarea>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" align="center">
+                    <input type="submit" value="投稿する" name="submit">
+                  </td>
+                </tr>
+              </table>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="thread_creation_form" class="menu_box creation">
+    <div class="content_title"><h3>スレッド作成</h3></div>
+    <div class="content_mainWrapper">
+      <div class="content_mainOuter">
+        <div class="content_mainInner">
+          <div class="content_main">
+            <form name="fcs" method="POST" action="/bbs/write.cgi/game/59992/new/">
+              <table border="0" cellspacing="5" cellpadding="0" class="thread">
+                <tr>
+                  <td align="right" nowrap class="items">タイトル</td>
+                  <td><input type="text" name="SUBJECT" size="40" class="title"></td>
+                </tr>
+                <tr>
+                  <td align="right" nowrap class="items">名前</td>
+                  <td><input type="text" name="NAME" size="23" class="name"></td>
+                </tr>
+                <tr>
+                  <td align="right" nowrap class="items">E-mail</td>
+                  <td><input type="text" name="MAIL" size="23" class="mail">（省略OK）</td>
+                </tr>
+                <tr>
+                  <td align="right" nowrap class="items">内容</td>
+                  <td colspan="2">
+                    <textarea rows="5" cols="50" wrap="off" name="MESSAGE"></textarea>
+                    <input type="hidden" name="DIR" value="game"><input type="hidden" name="BBS" value="59992"><input type="hidden" name="TIME" value="1685109229">
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" align="center">
+                    <input type="submit" value="新規書き込み" name="submit">
+                  </td>
+                </tr>
+              </table>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="content_bottom"></div>
+</div><!-- for div class="thread" -->
+<center>
+  <div id="jbbs_footerWrapper">
+    <div id="jbbs_footerOuter">
+      <div id="jbbs_footerInner">
+        <div id="jbbs_footer">
+          <table width="90%">
+            <tr>
+              <td valign="middle" width="130" nowrap>
+                <small>
+                  <a rel="nofollow" target="_blank"
+                     href="https://rentalbbs.shitaraba.com/jbbs/user_inquiry/?dir=game&amp;bbs=59992">
+                    掲示板管理者へ連絡
+                  </a>
+                </small>
+                <br>
+                [00036121]
+              </td>
+              <td width="118">
+              </td>
+              <td align="right">
+                <form method="GET" action="https://cms.jbbs.shitaraba.net/game/59992/config/">
+                  <input type="submit" value="管理者メニュー">
+                </form>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</center>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154728857-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-154728857-2');
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EZ8JYXNLDB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EZ8JYXNLDB');
+</script>
+
+
+    	<script>
+    		function convertShitarabaImgLinks() {
+    			var alllinks = document.querySelectorAll('a');
+    			for(var i = 0;i < alllinks.length; i++) {
+    				var linkurl = alllinks[i].getAttribute("href");
+            if(linkurl !== null) {
+      				if(linkurl.indexOf("https://img.shitaraba.net/") != -1) {
+      					var source = '<img class="lazyload pc_res_image_lazy" data-src="' +  linkurl +'" />';
+      					alllinks[i].innerHTML = source;
+      				} else if(linkurl.indexOf("https://i.postimg.cc/") != -1) {
+                console.log(linkurl);
+                var source = '<img class="lazyload pc_res_image_lazy" data-src="' +  linkurl +'" /><br>' + linkurl;
+                alllinks[i].innerHTML = source;
+              }
+            }
+    			}
+    		}
+    		convertShitarabaImgLinks();
+
+    	</script>
+      <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.min.js"></script>
+      <script>
+          lazyload();
+      </script>
+      <style>
+      .pc_res_image_lazy {
+        width: 400px;
+        max-width: 400px;
+      }
+      </style>
+      	<script>
+      		function convertShitarabaYoutubeLinks() {
+      			var alllinks = document.querySelectorAll('a');
+      			for(var i=0 ; i < alllinks.length; i++) {
+      				var linkurl = alllinks[i].getAttribute("href");
+              if(linkurl !== null) {
+        				if(linkurl.indexOf("/bbs/link.cgi?url=") != -1) {
+                  var queries  = linkurl.slice(linkurl.indexOf('?') + 1).split("=");
+                  var link = "";
+                  if(queries[0] == "url") {
+                    link = decodeURIComponent(queries[1]);
+                  }
+                  if(link.indexOf("https://www.youtube.com") != -1 || link.indexOf("http://www.youtube.com") != -1 || link.indexOf("https://youtu.be") != -1) {
+                    var youtubeIframe = link.replace(/(?:https:\/\/|http:\/\/)?(?:www\.)?(?:youtube\.com|youtu\.be)\/(?:watch\?v=)?(.+)/g, '<div class="strb_youtube"><div class="strb_youtube_iframe"><iframe width="560" height="315" src="https://www.youtube.com/embed/$1" frameborder="0" allowfullscreen></iframe></div></div>');
+                    alllinks[i].outerHTML = youtubeIframe;
+                  }
+                } else {
+                  if(linkurl.indexOf("https://www.youtube.com") != -1 || linkurl.indexOf("http://www.youtube.com") != -1 || linkurl.indexOf("https://youtu.be") != -1) {
+                    var youtubeIframe = linkurl.replace(/(?:https:\/\/|http:\/\/)?(?:www\.)?(?:youtube\.com|youtu\.be)\/(?:watch\?v=)?(.+)/g, '<div class="strb_youtube"><div class="strb_youtube_iframe"><iframe width="560" height="315" src="https://www.youtube.com/embed/$1" frameborder="0" allowfullscreen></iframe></div></div>');
+                    alllinks[i].outerHTML = youtubeIframe;
+                  }
+                }
+              }
+      			}
+      		}
+      		convertShitarabaYoutubeLinks();
+
+      	</script>
+        <style>
+        .strb_youtube {
+          width:100%;
+          max-width:560px;
+        }
+
+        .strb_youtube_iframe {
+          position: relative;
+          width: 100%;
+          padding-top: 56.25%;
+          margin-bottom:50px;
+        }
+        .strb_youtube_iframe iframe {
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 100%;
+          height: 100%;
+        }
+        </style>
+</body></html>

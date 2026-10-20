@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T22:02:15.346Z",
+  "generatedAt": "2026-10-20T22:56:21.900Z",
   "scope": "Local inventory; field presence is not source verification or completeness.",
   "totals": {
     "festivals": 74,
@@ -10,9 +10,9 @@
     "restrictedDetails": 7,
     "withComments": 3146,
     "withScreenshots": 3360,
-    "withDownload": 3053,
-    "withSource": 4049,
-    "referencedAssets": 7841,
+    "withDownload": 3106,
+    "withSource": 4120,
+    "referencedAssets": 7866,
     "assetIssues": 0
   },
   "festivals": [
@@ -589,7 +589,7 @@
     },
     {
       "id": "2016-kouhaku",
-      "dataSha256": "3fb6169acf9b282069e3a5808ca58dd62b8dcce15e2fbca38bb95c2d76d484b7",
+      "dataSha256": "b63a12b9f96e4f49b2c0645ad8152e4da6394a201029544ddc712bccfe65b298",
       "listedSourceUrl": "http://viprpgkohaku2016.wixsite.com/kohaku2016",
       "works": 71,
       "banners": 1,
@@ -599,9 +599,9 @@
       "withAuthor": 71,
       "withComments": 71,
       "withScreenshots": 71,
-      "withDownload": 0,
-      "withSource": 0,
-      "cachedHtmlFiles": 75,
+      "withDownload": 53,
+      "withSource": 71,
+      "cachedHtmlFiles": 502,
       "summaries": [
         "catch/2016-kouhaku/2016-kouhaku-scrape-summary.json"
       ]

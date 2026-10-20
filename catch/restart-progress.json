@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2016-kouhaku",
+  "activeFestival": "2016-summer",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -2163,6 +2163,27 @@
         "catch/2016-gw/investigation/local-http-payloads.json"
       ],
       "notes": "原Geocities双框架69页／150资源从香港Wayback归档，219载荷CDX摘要全部匹配；日本原站关闭证据保留。64编号，59来源图标、92截图、2横幅、52配布入口；旧102截图引用全部字节对应，来源本身5项无图标。11／50题名仅以官方讨论页文档标题核实修正，18修正HTML实体；4详情异名另存originalTitle。22管理人标签为サイト管理者，已恢复；128留言字段全文比较一致。UTF-8展示副本同步字符集声明，原Shift_JIS载荷不改。两版各64详情实测，无坏图／桌面溢出；菜单3页、截图悬停复位、查看器切换／关闭／Esc、首页64入口和61图全滚动及末项往返通过。219原貌文件，522静态和128图像事件引用闭合，372发布文件HTTP/SHA一致；4215页构建、lint、数据校验通过。未主动审看题材或像素、未新增受限、未下载或执行游戏包。"
+    },
+    {
+      "festivalId": "2016-kouhaku",
+      "reviewedAt": "2026-10-20T22:55:10.795Z",
+      "dataSha256": "b63a12b9f96e4f49b2c0645ad8152e4da6394a201029544ddc712bccfe65b298",
+      "works": 71,
+      "screenshotFiles": 335,
+      "status": "reviewed-with-exceptions",
+      "sourceEvidence": [
+        "catch/2016-kouhaku/recovery.json",
+        "catch/2016-kouhaku/source/live/manifest.json",
+        "catch/2016-kouhaku/source/features/manifest.json",
+        "catch/2016-kouhaku/source/resources/manifest.json",
+        "catch/2016-kouhaku/investigation/data-reconciliation.json",
+        "catch/2016-kouhaku/investigation/archive-supplement.json"
+      ],
+      "desktopEvidence": [
+        "catch/2016-kouhaku/desktop-review.json",
+        "catch/2016-kouhaku/investigation/local-http-payloads.json"
+      ],
+      "notes": "日本源站直接归档：247HTML（93Wix、83嵌入介绍、71实际论坛页）、92组件JSON、340资源；679载荷摘要核验，论坛EUC-JP保留并转UTF-8只读，70个讨论框由外链补成实页。Livedoor装饰图不可直取，香港存档补充且CDX摘要匹配。71编号／题名不变，3字形异名另存；142留言字段全文相同。71图标、180截图、1横幅、53配布项，旧155图全部对应，补回旧6图上限遗漏25张。原貌587文件、10116静态和184幻灯片引用闭合；839发布文件HTTP／SHA相同。两版各71详情渲染无坏图，整理版无溢出；原貌保留源站1310px固有排版。沙箱仅00–09实际目录鼠标验收，最终01三层讨论框／只读／返回复验；其余以独立原貌页验收，不冒称全部沙箱鼠标测试。原幻灯片10张／圆点、整理查看器和首页71唯一入口／72图／末项往返通过；4216页构建、lint、数据校验通过。额外allpictures特征端点404记录，非登记作品缺页。不审看题材／像素，不新增受限，不下载或执行游戏包。"
     }
   ],
   "originalViewsReviewed": [
@@ -2665,6 +2686,13 @@
       "evidence": [
         "catch/2016-gw/original-view.json",
         "catch/2016-gw/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2016-kouhaku",
+      "evidence": [
+        "catch/2016-kouhaku/original-view.json",
+        "catch/2016-kouhaku/desktop-review.json"
       ]
     }
   ],

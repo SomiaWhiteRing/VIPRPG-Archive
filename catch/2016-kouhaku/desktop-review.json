@@ -1,0 +1,127 @@
+{
+  "festivalId": "2016-kouhaku",
+  "reviewedAt": "2026-10-20T22:55:10.786Z",
+  "scope": "Desktop only; identifiers, layout geometry, encoding, image loading and navigation. No topic or pixel review.",
+  "viewport": [
+    1280,
+    720
+  ],
+  "formatted": {
+    "entries": 71,
+    "imagesLoaded": 180,
+    "badImages": 0,
+    "horizontalOverflow": 0,
+    "clientWidth": 1265,
+    "viewer": {
+      "entry": "01",
+      "lastScreenshot": "01-source-10.png",
+      "nextToTenth": true,
+      "close": true,
+      "escape": true
+    }
+  },
+  "original": {
+    "independentPagesRendered": 71,
+    "finalPassRanges": [
+      [
+        0,
+        17
+      ],
+      [
+        18,
+        35
+      ],
+      [
+        36,
+        53
+      ],
+      [
+        54,
+        70
+      ]
+    ],
+    "slideshowSlots": 180,
+    "badImages": 0,
+    "clientWidth": 1265,
+    "documentWidth": 1310,
+    "sourceBaseline": {
+      "page": "0-40",
+      "liveDocumentWidth": 1310,
+      "liveClientWidth": 1265,
+      "liveEmbeddedCatalogue": {
+        "width": 1013,
+        "height": 11660
+      },
+      "frozenEmbeddedCatalogue": {
+        "width": 1013,
+        "height": 11660
+      }
+    },
+    "intrinsicWidth": "Preserve the source desktop layout; original source itself extends to1310px at the1280px browser viewport. Horizontal scrolling is retained inside the original viewer.",
+    "sandbox": {
+      "flags": "allow-scripts",
+      "outerWidth": 1183,
+      "sourceClientWidth": 1168,
+      "catalogueMouseNavigationIds": [
+        "00",
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09"
+      ],
+      "finalNestedDiscussionCheck": {
+        "entry": "01",
+        "charset": "UTF-8",
+        "postHeaders": 4,
+        "postBodies": 4,
+        "forms": 0,
+        "enabledControls": 0,
+        "badImages": 0,
+        "returnToCatalogue": true
+      },
+      "scope": "Ten entries exercised by catalogue mouse navigation in the sandbox viewer; all71 source pages rendered independently. The control interface lost its child target before entry10, so remaining navigation is not claimed as71 sandbox mouse tests."
+    },
+    "slideshowControls": {
+      "entry": "01",
+      "allTenSlideUrisMatched": true,
+      "dotReturnsToFirst": true,
+      "activeDotCount": 1
+    },
+    "navigationFix": {
+      "before": "A catalogue entry loaded the full Wix page inside the catalogue HTML component.",
+      "after": "Owned embedded frame sends the selected captured URL to its source page; the source page performs the navigation.",
+      "sandboxPermissionsUnchanged": true
+    }
+  },
+  "home": {
+    "uniqueWorks": 71,
+    "workLinks": 74,
+    "extraLinks": "Three source typography aliases link to the same works.",
+    "images": 72,
+    "allLoadedAfterScrolling": true,
+    "lastWork": "70",
+    "lastWorkNavigationAndReturn": true
+  },
+  "checks": {
+    "validateData": true,
+    "lint": true,
+    "buildPages": 4216,
+    "httpPayloads": 839,
+    "httpSha256Matched": 839,
+    "originalFiles": 587,
+    "staticLocalReferences": 10116,
+    "slideshowLocalReferences": 184,
+    "missingResources": 0
+  },
+  "limitations": [
+    "No game packages downloaded or executed.",
+    "No claim of mobile acceptance.",
+    "Source native desktop width is preserved rather than redesigned.",
+    "Only the actual embedded forum URLs are archived; this is not a crawl of all forum pagination."
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "reason": "Canonical, alternate mobile and RSS link metadata do not load automatically; retain raw probes without publishing them as image dependencies.",
+  "entries": [
+    {
+      "originalUrl": "https://jbbs.shitaraba.net/bbs/read.cgi/game/59992/1479599994/",
+      "actualUrl": "https://jbbs.shitaraba.net/bbs/read.cgi/game/59992/1479599994/",
+      "status": 200,
+      "file": "asset-337.bin",
+      "contentType": "text/html; charset=EUC-JP",
+      "sha256": "b276e7f90cc1ab3b6f12e00427ed26521fa3d9f755641871064e2195e2ae6fa9",
+      "roles": [
+        "source-icon"
+      ],
+      "proxyRegion": "Japan",
+      "retrievedAt": "2026-10-20T22:21:57.386Z"
+    },
+    {
+      "originalUrl": "http://jbbs.m.shitaraba.net/b/i.cgi/game/59992/1479599994/l50",
+      "actualUrl": "http://jbbs.m.shitaraba.net/b/i.cgi/game/59992/1479599994/l50",
+      "status": 404,
+      "file": "asset-338.bin",
+      "contentType": "text/html; charset=iso-8859-1",
+      "sha256": "06a7bd966abbe20072880d85291bb23a3de0dc050d73f84965392b9e5563c398",
+      "roles": [
+        "source-icon"
+      ],
+      "proxyRegion": "Japan",
+      "retrievedAt": "2026-10-20T22:21:56.613Z"
+    },
+    {
+      "originalUrl": "https://jbbs.shitaraba.net/bbs/rssmode.cgi/game/59992/1479599994/",
+      "actualUrl": "https://jbbs.shitaraba.net/bbs/rssmode.cgi/game/59992/1479599994/",
+      "status": 200,
+      "file": "asset-339.bin",
+      "contentType": "application/rdf+xml; charset=UTF-8",
+      "sha256": "1743aeb6d5139d142a274aa969466d01bb438ec765e025988a939f83f17a8df9",
+      "roles": [
+        "source-icon"
+      ],
+      "proxyRegion": "Japan",
+      "retrievedAt": "2026-10-20T22:21:56.816Z"
+    },
+    {
+      "originalUrl": "https://jbbs.shitaraba.net/game/59992/",
+      "actualUrl": "https://jbbs.shitaraba.net/game/59992/",
+      "status": 200,
+      "file": "asset-340.bin",
+      "contentType": "text/html",
+      "sha256": "377d235333ec87e84ab6d1941a9f66b8623745b602114e7fbaa37c87b0870b9d",
+      "roles": [
+        "source-icon"
+      ],
+      "proxyRegion": "Japan",
+      "retrievedAt": "2026-10-20T22:21:56.990Z"
+    }
+  ]
+}
