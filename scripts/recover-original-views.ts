@@ -1170,7 +1170,8 @@ async function main() {
           for (const attr of Object.keys(element.attribs)) if (attr.startsWith("on")) {
             const text = $(element).attr(attr)!;
             for (const match of text.matchAll(/this\.src\s*=\s*['"]([^'"]+)['"]/g)) enqueue(match[1], original);
-            $(element).attr(attr, rewriteAbsoluteStrings(text, original, local));
+            const rewritten = text.replace(/(this\.src\s*=\s*)(['"])([^'"]+)\2/g, (_, prefix, quote, value) => `${prefix}${quote}${localReference(value, original, local)}${quote}`);
+            $(element).attr(attr, rewriteAbsoluteStrings(rewritten, original, local));
           }
         });
         $("[style],style").each((_, element) => {
