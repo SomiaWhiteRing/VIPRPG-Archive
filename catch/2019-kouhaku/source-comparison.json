@@ -1,0 +1,63 @@
+{
+  "festivalId": "2019-kouhaku",
+  "officialFormalWorks": 55,
+  "samples": 2,
+  "works": 57,
+  "sampleNumberHandling": "Both source samples print No.0; retain that number with distinct ids and directory-link titles.",
+  "htmlCaptures": 103,
+  "uniqueHtmlPages": 102,
+  "images": 185,
+  "screenshotReferences": 87,
+  "downloadEntries": 36,
+  "downloadReferences": 36,
+  "oldScreenshotReferences": 84,
+  "legacyGalleryRoleCorrections": [
+    {
+      "no": "11",
+      "path": "/screenshots/2019-kouhaku/11.png",
+      "sha256": "311bf84300184269193c52467a0ec6fa2dbca18f0129d48806d0377adf0caaf4",
+      "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/img/minibanar.png"
+    },
+    {
+      "no": "11",
+      "path": "/screenshots/2019-kouhaku/11-02.png",
+      "sha256": "2fa975c5e860bc2167d17609c293cfcf304b536cffa38dfcc68591239a6f349f",
+      "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/downlord_r.png"
+    }
+  ],
+  "unaccountedLegacyBytes": [],
+  "sourceTextComparisonFailures": [],
+  "sourceHashFailures": [],
+  "sourceCounterImagesExcluded": true,
+  "largeGif": {
+    "bytes": 18300592,
+    "sourceUrl": "https://download1.getuploader.com/g/viprpgkouhaku2019ex/5/no011_2.gif",
+    "retrieval": "Complete200 initial response plus206 range continuation; expected object length and GIF terminator verified."
+  },
+  "contentOrPixelScreeningPerformed": false,
+  "packagesDownloaded": false,
+  "oldBytesAbsentFromCurrentGallery": [
+    {
+      "no": "11",
+      "path": "/screenshots/2019-kouhaku/11.png"
+    },
+    {
+      "no": "11",
+      "path": "/screenshots/2019-kouhaku/11-02.png"
+    }
+  ],
+  "mediaFiles": 1,
+  "sourceMedia": {
+    "path": "list/no011.mp4",
+    "bytes": 717929,
+    "containerHeaderVerified": true,
+    "manuallyPlayed": false,
+    "bodyContentReviewed": false
+  },
+  "sampleInlineImages": 4,
+  "groupSourceEvidence": "investigation/group-source-mapping.json",
+  "groupValues": [
+    "紅組",
+    "白組"
+  ]
+}

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang=“ja”>
+	<head>
+		<meta charset="Shift_JIS">
+			<title>表彰No.28</title>
+    
+    
+			<style>
+				*{
+					margin: 0px;
+					padding: 0px;
+				}
+				
+				#dekabox{							/* ヘッダーバナー用 */
+   					width: 1000px;               /* ボックス幅指定 */
+  					height: 141px;              /* ボックス高さ指定 */
+				}
+				
+				
+				
+				h1{									/* ヘッダーカラー用 */
+					background-color: #ff9898;     /* 背景色 */
+				}
+								
+				h2{									/* ヘッダーカラー用2 */
+					background-color: #503833;     /* 背景色 */
+				}
+
+				
+				.tyuuou{
+					display: flex;
+					width: 1300px;
+					margin-left: auto;
+					margin-right: auto;
+				}
+				
+				.tyuuou2{
+					display: inline-block;
+					margin-left: 80px;
+					margin-right: auto;
+					margin-top: 15px;
+					margin-bottom: 20px;
+				}
+				
+				.tyuuou3{
+					display: inline-block;
+					margin-left: 40px;
+					margin-right: auto;
+					background-color: #ffffff;
+					font-size: 0;			
+					padding-left: 30px;
+					padding-right: 30px;
+
+				}
+	
+				.tyuuou4{
+					background-color: #ffd3d1;
+					padding-top: 15px;
+					padding-bottom: 15px;
+					display: inline-block;
+					min-width: 640px;
+				}
+			
+				.title{
+					font-family: 游ゴシック;
+					margin: 20px 20px;
+					
+					font-size: 30px;
+					color: white;
+				}
+				
+				.title2{
+					width:740px;
+					height:1px;
+					box-shadow: 0px 0px 5px 2px rgba(255,255,255,0.6);
+					background-color:grey;
+				}
+				
+				.download{
+					font-size: 12px;
+					filter: drop-shadow(0px 0px 4px rgba(255,255,255,1));
+					margin-left:60px;
+					margin-top: 10px;
+					margin-bottom: 10px;
+				}
+				
+				.oukanicon{
+					width: 260px;
+					height: 24px;
+					background-color:#d0887c;
+					margin-top: 5px;
+					margin-bottom: 5px;
+					display: flex;
+				}
+				
+				.oukanicon2{
+					margin-left: 50px;
+					margin-top: 10px;
+					margin-bottom: 30px;
+					font-size: 0px;
+				}
+				
+				.oukanicon3{				
+					width: 100%;
+					height: 24px;
+					font-size: 14px;
+					font-family: 游ゴシック;
+					background-color:#ffffff;
+					display: iline-block;
+					letter-spacing: 10px;
+					padding-left: 20px;
+				}
+				
+				.mozi{
+					font-size: 18px;
+					font-family: 游ゴシック;
+					color: white;
+					margin-left:50px;
+					background-color: black;
+					border-radius: 15px;        /* 角丸 */	
+					display: inline-block;
+					padding: 2px 6px;
+				}
+				
+				.yoko{
+					display: flex;
+				}
+				
+				.komento{
+					font-size: 16px;
+					margin-left:10px;
+				}
+				
+				
+				hr {
+					border: none;
+					height: 2px;
+					border-top:dashed #bbb;
+					color:#FFFFFF;
+					margin: 10px 20px;
+				}
+
+				.tate{
+					display block;
+				}
+				
+			#preloadedImages {
+ 		      width: 0px;
+ 		      height: 0px;
+ 		      display: inline;
+ 		      background-image: url(../list/no028u_2.png); /* 読ませたいイメージ */
+			}		
+			
+			</style>
+			
+<div id="preloadedImages"></div>
+
+	</head>
+	 <h1>
+ <div id="dekabox" >
+ 	<img src="../img/minibanar.png">
+ </div>
+ 	 </h1>
+ 	 <h2>
+ <div class="tyuuou" >
+ 			<img src="minivotingbanner.jpg">
+  </div>
+  	 </h2>
+	<body background="votingback.png">
+
+ <div class="tyuuou2" >
+  <a href="no25.htm">＜No.25<a>
+  <a href="../voting/">戻る<a>
+  <a href="no31.htm">No.31＞<a>
+ <div class="title"><img src="../list/icon028_2.png" border="0" >NO.28 - どらどら☆あいらんど・サガ<div class="title2"></div></div>
+ <div class="mozi">・入賞部門・</div>
+  	<div class="oukanicon2">
+
+		<div class="oukanicon"><img src="oukan3.png"><div class="oukanicon3"><b>総合部門</b></div></div>
+		<div class="oukanicon"><img src="oukan2.png"><div class="oukanicon3"><b>熱中部門</b></div></div>
+		<div class="oukanicon"><img src="oukan1.png"><div class="oukanicon3"><b>技術部門</b></div></div>
+		<div class="oukanicon"><img src="oukan1.png"><div class="oukanicon3"><b>斬新部門</b></div></div>
+
+	 	
+	</div>
+	
+	<div class="title"><div class="title2"></div></div>
+ 	<div class="tyuuou3" >
+ 	 	<div class="tyuuou4" >
+ 	 	<img src="../list/no028.png" onmouseover="this.src='../list/no028u_2.png'" onmouseout="this.src='../list/no028.png'" />
+ 		</div>
+ 	</div>
+ 	<div class="download">
+	 	<a href="https://drive.google.com/open?id=1zKYaajg_cwP2INfPxjfMyWWhUtBL1aZf">
+				<img src="../list/downlord_w.png" border="0" ></a>
+				<22.0Mb>
+				<a href="https://drive.google.com/open?id=1GUnp9V4kGyKrc09ioqf6t6t8NIc0v0JI">最新パッチ(20/2/22)<a>
+		<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1576590580/">感想を書く<a>	
+		
+ 	</div>
+ 	<div class="title"><div class="title2"></div></div>
+
+ 	
+
+
+	<div class="tyuuou3" >
+ 		<div class="tyuuou4" >
+	 		<div class="komento" >
+ 	 		<b>【メロディックデス憲法21条1項および同条2項前段様からのコメント】</b><hr>
+ 	 		Nasoon:you're awful Alex<br>
+Alex:me? I'm awful oh yeah how am I awful?<br>
+Nasoon:Playing my game....inviting me on the kohaku...you just wanted to make fun of me in front of the tkoolers and piaiers....you're just like the rest of ‘em<br>
+Alex:you don't know the first thing about viprpg pal, look what happened because of what you did, what it led to. There are Vikings out there,Two dragons are in critical condition...<br>
+Nasoon:*laughs*<br>
+Alex:you're laughing you're laughing someone was killed today because of what you did<br>
+Nasoon:I know.. how about another ksg, Alex<br>
+Alex:no I think we've had enough of your ksg<br>
+Nasoon:what do you get...<br>
+Alex:no I don't think so<br>
+Nasoon:when you cross a MENTALLY ILL DRAGON WITH A TKOOLER THAT BULLIES HER AND TREATS HER LIKE TRASH<br>
+Alex:call Gomez, Brian<br>
+Nasoon:I'LL TELL YOU WHAT YOU GET, YOU GET WHAT YOU FUCKING DESERVE<br>
+            <br>
+…今回一枚絵を使わせていただいたsszさん、重ね重ねになりますがどうもありがとうございました。<br>
+あなたの絵がなければ、このゲームはヴァイキングのオッサンとヴァイキングのオッサンが殴り合うクッソ地味なゲームになっていました。<br>
+今回のエンジンは今後も使いまわすつもりで作ったので、皆さんまた別の祭りでお会いしましょう。<br>
+ただ、たくさん兵士出してワチャワチャする路線は激しく限界を感じるので今作が最後かもですが……<hr>
+ 	 		<p><a href="../list/no_28.htm">紹介ページへ<a></p>
+ 	 		</div>
+ 	 	</div>		
+ 	</div>
+ </div>
+	<script><!--
+var footerparam = 'charset=' + encodeURIComponent(document.charset ? document.charset : document.characterSet) + '&url=' + encodeURIComponent(document.location) + '&service=1&r=' + Math.floor(Math.random()*99999999999);
+var footertag = "//vip-chps-api.2nt.com/apis/footer/?" + footerparam;
+var script = document.createElement('script');
+script.src = footertag;
+script.charset = "UTF-8";
+script.async = true;
+document.getElementsByTagName('head')[0].appendChild(script);
+//--></script>
+<!-- 2nt, inc.-->
+<img src="//media.fc2.com/counter_img.php?id=50" style="display:none" alt="inserted by 2nt system" width="0" height="0">
+<!-- 2nt, inc.--></body>
+</html>

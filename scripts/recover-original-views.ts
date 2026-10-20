@@ -9,6 +9,14 @@ import { rewrite2020Script, snapshot2020Script, root2020Script } from './source-
 import { rewriteSummer2012Source } from "./source-2012-summer-view";
 
 const configurations: Record<string, { base: string; entry?: string; manifests: string[]; seeds: Record<string, string>; seedUrls?: Record<string, string>; cgiProfile?: boolean; encoding?: string; encodingOverrides?: Record<string, string>; liveSource?: boolean; disabledLocalLinks?: string[]; externalResources?: Record<string, string>; preserveExternalExtensions?: string[]; frames?: { menuPage: string; menuName: string; mainName: string } }> = {
+  "2019-kouhaku": {
+    base: "https://kohakuviprpg2019.x.2nt.com/",
+    manifests: ["source/replay/manifest.json"],
+    seeds: {},
+    encoding: "shift_jis",
+    liveSource: true,
+    preserveExternalExtensions: [".zip", ".rar", ".7z", ".exe"],
+  },
   "2019-gw": {
     base: "https://viprpg2019gw.xxxxxxxx.jp/",
     manifests: ["source/replay/manifest.json"],
@@ -498,7 +506,7 @@ async function main() {
       sharedHeaderTargets.push(local ? `/original-pages/${id}/${local}${url.search}${url.hash}` : url.href);
     });
   }
-  if (["2019-gw", "2020-summer", "2020-kouhaku", "2020-gw", "2021-summer", "2021-kouhaku", "2021-gw", "2022-summer", "2022-kouhaku", "2022-gw", "2023-winter", "2023-summer", "2023-kouhaku", "2023-gw", "2024-summer", "2024-kuradashifestival", "2024-kouhaku", "2024-gw", "2025-gw", "2025-summer"].includes(id) || id === "2006-kouhaku" || id === "2012-toppuu-festival" || id === "2011-toppatsu-festival" || id === "2008-jisaku-battle-festival" || id === "2010-gw" || id === "2010-kouhaku" || id === "2010-summer") config.externalResources = recovery.originalResources;
+  if (["2019-kouhaku", "2019-gw", "2020-summer", "2020-kouhaku", "2020-gw", "2021-summer", "2021-kouhaku", "2021-gw", "2022-summer", "2022-kouhaku", "2022-gw", "2023-winter", "2023-summer", "2023-kouhaku", "2023-gw", "2024-summer", "2024-kuradashifestival", "2024-kouhaku", "2024-gw", "2025-gw", "2025-summer"].includes(id) || id === "2006-kouhaku" || id === "2012-toppuu-festival" || id === "2011-toppatsu-festival" || id === "2008-jisaku-battle-festival" || id === "2010-gw" || id === "2010-kouhaku" || id === "2010-summer") config.externalResources = recovery.originalResources;
   const sourceDetailGapPaths = new Set<string>((recovery.sourceDetailGaps ?? []).map((gap: { sourcePath: string }) => gap.sourcePath));
   const unavailableSourcePagePaths = new Set<string>((recovery.unavailableSourcePages ?? []).map((gap: { sourcePath: string }) => gap.sourcePath));
   const previousMissing: Array<{ url: string; requestedUrl?: string; error: string }> = JSON.parse(await fs.readFile(`${root}/original-view.json`, "utf8").catch(() => "{}")).missingResources ?? [];
@@ -643,6 +651,13 @@ async function main() {
       if (/\.(?:png|jpe?g|gif|bmp|webp|avif|ico)$/i.test(local)) imageExtension(bytes);
       if (/\.html?$/i.test(local)) {
         const $ = cheerio.load(decodeSource(bytes, resourceEncoding));
+        if (id === "2019-kouhaku") {
+          $('script,noscript,iframe,form,object,embed').remove();
+          if (local === 'list/index.html') $('head').append('<style data-archive-desktop-fit>.tyuuou{width:auto;max-width:100%}.tyuuou2,.tyuuou3{width:min(1200px,100%)}.yoko{width:100%;max-width:100%}.yoko>*{min-width:0}.kumiwake,.icon,.new,.time{flex-shrink:0}</style>');
+          if (local.startsWith('voting/')) $('head').append('<style data-archive-desktop-fit>.tyuuou,.tyuuou2{max-width:100%;box-sizing:border-box;margin-left:auto;margin-right:auto}.download{max-width:calc(100% - 60px);box-sizing:border-box}</style>');
+          $('img[onmouseover],img[onmouseout]').each((_, element) => { for (const attr of ['onmouseover','onmouseout']) { const value=$(element).attr(attr); if(value) $(element).attr(attr,value.replace(/(this\.src\s*=\s*)(['"])([^'"]+)\2/g,(_,prefix,quote,url)=>prefix+quote+new URL(url,original).href+quote)); } });
+          compatibilityFixes.push({page:local,change:'Decode original Shift_JIS source and preserve original red/white styling, metadata, native hover and image enlargement links. Keep both No.0 samples distinct and retain schedule/voting source documents. Remove hosting counters, Twitter loading scripts and live forms from the captured replay.'});
+        }
         if (id === "2019-gw") {
           if (local === '37.html') {
             $('a[href]').filter((_, a) => $(a).text().trim()==='前の作品' && new URL($(a).attr('href')!, original).pathname==='/35.html').attr('href','https://viprpg2019gw.xxxxxxxx.jp/36.html');

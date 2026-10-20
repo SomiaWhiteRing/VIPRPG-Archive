@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang=“ja”>
+	<head>
+		<meta charset="Shift_JIS">
+			<title>表彰No.48</title>
+    
+    
+			<style>
+				*{
+					margin: 0px;
+					padding: 0px;
+				}
+				
+				#dekabox{							/* ヘッダーバナー用 */
+   					width: 1000px;               /* ボックス幅指定 */
+  					height: 141px;              /* ボックス高さ指定 */
+				}
+				
+				
+				
+				h1{									/* ヘッダーカラー用 */
+					background-color: #ff9898;     /* 背景色 */
+				}
+								
+				h2{									/* ヘッダーカラー用2 */
+					background-color: #503833;     /* 背景色 */
+				}
+
+				
+				.tyuuou{
+					display: flex;
+					width: 1300px;
+					margin-left: auto;
+					margin-right: auto;
+				}
+				
+				.tyuuou2{
+					display: inline-block;
+					margin-left: 80px;
+					margin-right: auto;
+					margin-top: 15px;
+					margin-bottom: 20px;
+				}
+				
+				.tyuuou3{
+					display: inline-block;
+					margin-left: 40px;
+					margin-right: auto;
+					background-color: #ffffff;
+					font-size: 0;			
+					padding-left: 30px;
+					padding-right: 30px;
+
+				}
+	
+				.tyuuou4{
+					background-color: #ffd3d1;
+					padding-top: 15px;
+					padding-bottom: 15px;
+					display: inline-block;
+					min-width: 640px;
+				}
+			
+				.title{
+					font-family: 游ゴシック;
+					margin: 20px 20px;
+					
+					font-size: 30px;
+					color: white;
+				}
+				
+				.title2{
+					width:740px;
+					height:1px;
+					box-shadow: 0px 0px 5px 2px rgba(255,255,255,0.6);
+					background-color:grey;
+				}
+				
+				.download{
+					font-size: 12px;
+					filter: drop-shadow(0px 0px 4px rgba(255,255,255,1));
+					margin-left:60px;
+					margin-top: 10px;
+					margin-bottom: 10px;
+				}
+				
+				.oukanicon{
+					width: 260px;
+					height: 24px;
+					background-color:#d0887c;
+					margin-top: 5px;
+					margin-bottom: 5px;
+					display: flex;
+				}
+				
+				.oukanicon2{
+					margin-left: 50px;
+					margin-top: 10px;
+					margin-bottom: 30px;
+					font-size: 0px;
+				}
+				
+				.oukanicon3{				
+					width: 100%;
+					height: 24px;
+					font-size: 14px;
+					font-family: 游ゴシック;
+					background-color:#ffffff;
+					display: iline-block;
+					letter-spacing: 10px;
+					padding-left: 20px;
+				}
+				
+				.mozi{
+					font-size: 18px;
+					font-family: 游ゴシック;
+					color: white;
+					margin-left:50px;
+					background-color: black;
+					border-radius: 15px;        /* 角丸 */	
+					display: inline-block;
+					padding: 2px 6px;
+				}
+				
+				.yoko{
+					display: flex;
+				}
+				
+				.komento{
+					font-size: 16px;
+					margin-left:10px;
+				}
+				
+				
+				hr {
+					border: none;
+					height: 2px;
+					border-top:dashed #bbb;
+					color:#FFFFFF;
+					margin: 10px 20px;
+				}
+
+				.tate{
+					display block;
+				}
+				
+			#preloadedImages {
+ 		      width: 0px;
+ 		      height: 0px;
+ 		      display: inline;
+ 		      background-image: url(../list/no048u.png); /* 読ませたいイメージ */
+			}		
+			
+			</style>
+			
+<div id="preloadedImages"></div>
+
+	</head>
+	 <h1>
+ <div id="dekabox" >
+ 	<img src="../img/minibanar.png">
+ </div>
+ 	 </h1>
+ 	 <h2>
+ <div class="tyuuou" >
+ 			<img src="minivotingbanner.jpg">
+  </div>
+  	 </h2>
+	<body background="votingback.png">
+
+ <div class="tyuuou2" >
+  <a href="no43.htm">＜No.43<a>
+  <a href="../voting/">戻る<a>
+ <div class="title"><img src="../list/icon048.png" border="0" >NO.48 - 妖精さんにロングソードは効くか<div class="title2"></div></div>
+ <div class="mozi">・入賞部門・</div>
+  	<div class="oukanicon2">
+
+		<div class="oukanicon"><img src="oukan2.png"><div class="oukanicon3"><b>総合部門</b></div></div>
+		<div class="oukanicon"><img src="oukan1.png"><div class="oukanicon3"><b>熱中部門</b></div></div>
+		<div class="oukanicon"><img src="oukan2.png"><div class="oukanicon3"><b>技術部門</b></div></div>
+		<div class="oukanicon"><img src="oukan2.png"><div class="oukanicon3"><b>演出部門</b></div></div>
+		
+	</div>
+	
+	<div class="title"><div class="title2"></div></div>
+ 	<div class="tyuuou3" >
+ 	 	<div class="tyuuou4" >
+ 	 	<img src="../list/no048.png" onmouseover="this.src='../list/no048u.png'" onmouseout="this.src='../list/no048.png'" />
+ 		</div>
+ 	</div>
+ 	<div class="download">
+	 	<a href="https://drive.google.com/open?id=1NFyzZVb0H-Zt3qEM495NAwKvq7dPZFM-">
+		<img src="../list/downlord_w.png" border="0" ></a>
+		<13.7Mb>
+		<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1577808342/">感想を書く<a>	
+		
+ 	</div>
+ 	<div class="title"><div class="title2"></div></div>
+
+ 	
+
+
+	<div class="tyuuou3" >
+ 		<div class="tyuuou4" >
+	 		<div class="komento" >
+ 	 		<b>【ゼンチンチ様からのコメント】</b><hr>
+ 	 		大体こいつが悪いんや！堪忍な！<br>
+<br>
+ジャスコが存在したのは2011年までだそうです。<br>
+これって伏線になりますか？<br>
+ご愛読ありがとうございました。<br>
+ゼラチンチン先生の次回作にご期待ください。<br>
+<img src="no48.png" border="0" ><hr>
+ 	 		<p><a href="../list/no_48.htm">紹介ページへ<a></p>
+ 	 		</div>
+ 	 	</div>		
+ 	</div>
+ </div>
+	<script><!--
+var footerparam = 'charset=' + encodeURIComponent(document.charset ? document.charset : document.characterSet) + '&url=' + encodeURIComponent(document.location) + '&service=1&r=' + Math.floor(Math.random()*99999999999);
+var footertag = "//vip-chps-api.2nt.com/apis/footer/?" + footerparam;
+var script = document.createElement('script');
+script.src = footertag;
+script.charset = "UTF-8";
+script.async = true;
+document.getElementsByTagName('head')[0].appendChild(script);
+//--></script>
+<!-- 2nt, inc.-->
+<img src="//media.fc2.com/counter_img.php?id=50" style="display:none" alt="inserted by 2nt system" width="0" height="0">
+<!-- 2nt, inc.--></body>
+</html>

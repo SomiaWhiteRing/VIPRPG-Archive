@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang=“ja”>
+	<head>
+		<meta charset="Shift_JIS">
+			<title>No.11</title>
+			
+			
+			<style>
+
+			*{
+				margin: 0px;
+				padding: 0px;
+			}
+	
+			body {
+				background-color: #ffffff;
+				background-image: url(list_back.jpg);
+				background-position: right bottom;
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+			}
+
+			.tyuuou{
+				width: 640px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+	
+			h1{									/* ヘッダーカラー用 */
+				background-color: #ff9898;     /* 背景色 */
+			}		
+			
+			#dekabox{							/* ヘッダーバナー用 */
+				width: 1000px;               /* ボックス幅指定 */
+		  		height: 141px;              /* ボックス高さ指定 */
+			}
+			
+			.title{
+				display :flex;
+				align-items: flex-end;		/* 下ぞろえ */
+				margin-top: 10px;
+				margin-bottom: 5px;
+				border: dashed 3px rgba(200,0,0,0.5);
+				background-color: #ffF;     /* 背景色 */
+				width: auto;
+				padding-left: 4px;
+				font-family: 游ゴシック;
+			}
+			
+			.ran{
+				margin-top: 1px;
+				margin-bottom: 5px;
+				border: dashed 3px rgba(200,0,0,0.5);
+				background-color: #ffF;     /* 背景色 */
+				width: auto;
+				padding-left: 4px;
+				font-family: 游ゴシック;			
+			}
+			
+			.ran hr{
+				border-width: 1px 0px 0px 0px;
+				border-style: solid; /* 線種 */
+				border-color: rgba(0,0,0,0.2);   /* 線色 */
+				height: 1px;         /* 高さ(※古いIE用) */
+			}
+			
+			.icon{
+				padding-left: 7px;
+				padding-top: 9px;
+				margin-right: 10px;
+			}
+			
+			.link{
+			margin-top: 10px;
+			display: flex;
+			width: 100%;
+			justify-content: center;
+			font-family: 游ゴシック;	
+			}
+			</style>
+			
+	</head>
+	<h1>
+		<div id="dekabox" >
+			<img src="../img/minibanar.png">
+		 </div>
+	 </h1>
+	<body>
+
+	<script>
+
+	</script>
+
+		<div class="tyuuou" >
+		<div class="link" >
+			<a href="no_10.htm">←No.10<a>
+			<a href="../list/">　一覧へ<a>
+			<a href="no_12.htm">　No.12→<a>
+		</div>
+			<div class="title" >
+				<div class="icon" ><img src="icon011.png" border="0"></div>No. 11 - <b>もしもクトゥルフ神話TRPGをプレイして遊んだら</b>
+			</div>
+				<video src="no011.mp4" autoplay loop></video>
+				<a href="https://drive.google.com/open?id=1XaOJzSz_ZfrWkBG7mEheF3zYrTFfCxWQ">
+				<img src="downlord_r.png" border="0" ></a>
+				<28.9Mb>
+				
+
+				<a href="https://drive.google.com/open?id=139BzrA2KO6v2zGIUGvJhgW2GrajGVvAJ">最新パッチ(20/1/25)<a>
+				<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1571290545/">感想を書く<a>	
+			<div class="ran" >
+				【名前】ジーノ<hr>
+				【ジャンル】リプレイksg<hr>
+				【ツクール】RPG2000<hr>
+				【推定プレイ時間】<hr>
+				【動画/配信】どんどんどうぞ
+			</div>
+			<div class="ran" >
+				【コメント】<hr>
+					「思うに、神がわれわれに与えた最大の恩寵は、物の関連性に思い当たる能力を、われわれ人類の心から取り除いたことであろう、人類は無限に広がる暗黒の海に浮かぶ<<無知>>の孤島に生きている」 ――――――H.P.ラヴクラフト『クトゥルフの呼び声』より<br>
+					今回使用するシナリオはクトゥルフ・バイ・ガスライトより「ジャッカルの夜に」より。<br>
+					リプレイとしても、ksgとしても楽しんでくだされば幸いです。<br>
+			</div>
+			<div class="ran" >
+				【管理人コメント】<hr>
+				イギリス南端の港町ドーヴァー・・・というところが舞台らしいです。<br>
+				<a href="https://download1.getuploader.com/g/viprpgkouhaku2019ex/5/no011_2.gif">SSが再生されない方はこちら<a>
+			</div>	
+					
+		</div>
+
+	<script><!--
+var footerparam = 'charset=' + encodeURIComponent(document.charset ? document.charset : document.characterSet) + '&url=' + encodeURIComponent(document.location) + '&service=1&r=' + Math.floor(Math.random()*99999999999);
+var footertag = "//vip-chps-api.2nt.com/apis/footer/?" + footerparam;
+var script = document.createElement('script');
+script.src = footertag;
+script.charset = "UTF-8";
+script.async = true;
+document.getElementsByTagName('head')[0].appendChild(script);
+//--></script>
+<!-- 2nt, inc.-->
+<img src="//media.fc2.com/counter_img.php?id=50" style="display:none" alt="inserted by 2nt system" width="0" height="0">
+<!-- 2nt, inc.--></body>
+</html>

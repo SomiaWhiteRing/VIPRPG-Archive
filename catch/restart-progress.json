@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2019-kouhaku",
+  "activeFestival": "2019-summer",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -1906,6 +1906,41 @@
         "catch/2019-gw/investigation/local-http-payloads.json"
       ],
       "notes": "旧脚本列出的FC2候选源站失败后，从已保存的2021 GW官方历届链接确认仍可直接访问的viprpg2019gw.xxxxxxxx.jp，日本节点取得目录、sakuhin样例和37个正式介绍，共40份原HTML捕获（根入口与index重复）、1份CSS、3份jQuery／Popper／Bootstrap脚本及104份图片，全部原始载荷核对SHA。38个既有ID、编号和题名保持，恢复38处图标、60截图、32项共33条配布地址和2条本祭横幅。旧60画廊载荷及2横幅全部逐字节对应；29号两张png命名的源图片实为BMP，按真实格式保存并验证显示。38项作者／管理人留言全文结构比对无遗漏，4项目录／详情元数据差异并列保留。06号目录与详情配布URL不同，两者明确标注保留。原貌147文件、39份唯一HTML、629本地引用含悬停目标，无缺失或外部自动加载；247展示文件HTTP载荷与本地SHA一致。保留Bootstrap主题及本地3脚本，移除托管脚本和对本地字节副本多余的SRI/CORS属性，真实提示关闭操作验证框架可用。38整理详情与39原貌文档、首页38项及38图标／2横幅通过桌面检查；3项首读延迟图复核正常。实际沙箱目录进入样例、下一项01、页头返回目录及末项37通过。逐项核对全组相邻导航，发现原37上一项误指35，按目录及36下一项37的证据在回放中改指36，实际37到36再回37验证，原缓存不改。BMP原生悬停往返与查看器切换关闭均通过，最终沙箱控制台无错误／警告。无题材或像素筛选，无新增受限，未下载或运行游戏包。"
+    },
+    {
+      "festivalId": "2019-kouhaku",
+      "reviewedAt": "2026-10-20",
+      "dataSha256": "646a7de7c378307e1a64c0f05c0ed6467d5ca5498b4d670d9ff07172078a6870",
+      "status": "reviewed-with-exceptions",
+      "works": 57,
+      "formalWorks": 55,
+      "samples": 2,
+      "screenshotReferences": 87,
+      "iconFiles": 57,
+      "downloadEntries": 36,
+      "downloadReferences": 36,
+      "originalCatalogueCompleteness": "55-official-formal-entries-plus-two-explicitly-linked-No0-samples",
+      "outstandingSourceDetails": 0,
+      "outstandingImageSourceUrls": 0,
+      "outstandingScreenshotRows": 0,
+      "outstandingOtherResources": 0,
+      "packageBytesValidated": false,
+      "sourceEvidence": [
+        "catch/2019-kouhaku/recovery.json",
+        "catch/2019-kouhaku/source-comparison.json",
+        "catch/2019-kouhaku/source/live/manifest.json",
+        "catch/2019-kouhaku/source/resources/manifest.json",
+        "catch/2019-kouhaku/investigation/source-encoding-review.json",
+        "catch/2019-kouhaku/investigation/text-structure-comparison.json",
+        "catch/2019-kouhaku/investigation/group-source-mapping.json",
+        "catch/2019-kouhaku/investigation/navigation-source-review.json",
+        "catch/2019-kouhaku/investigation/replay-closure.json"
+      ],
+      "desktopEvidence": [
+        "catch/2019-kouhaku/desktop-review.json",
+        "catch/2019-kouhaku/investigation/local-http-payloads.json"
+      ],
+      "notes": "日本源站仍可直接访问，保存103份Shift_JIS HTML原始捕获（102唯一文档）、185份图片及1份MP4，全部载荷核对SHA，103页均无解码替代字符。保留55个既有正式作品ID、编号和题名，补回目录明确链接的两个样例；两者按源页保留No.0，以独立ID及目录链接题名区分，共57项。类型与紅／白分组分别保存，28紅組、27白組，配信／動画字段按来源标签保留。57项作者／管理人留言全文结构对比无遗漏，首个样例的4处时长图例保留为行内图像；来源基本信息完整保留。恢复57处图标、87张显示／悬停／放大图、36项配布入口和2横幅。旧84画廊引用中82份实际图片均对应，两份11号误收的站点横幅／下载按钮归回界面资源，原文件保留；17与46的4张放大版按原评论中的图片链接取回。另补回11号原链接的18,300,592字节GIF，首次60秒传输后以206续传完成，长度、GIF标记及浏览器完整加载均验证；MP4为717,929字节，容器头与HTTP载荷核对，整理版提供本地资料链接，未审看媒体内容。共用回放器补齐MP4识别已单独提交05bc9f26。原貌288文件、102 HTML、1403本地引用含悬停及媒体，无缺失或外部自动加载；434展示文件HTTP/SHA一致。目录1800px、投票1300px的多余固定外层宽度收回桌面可用区，并保留图标列宽度，原作者绝对定位与配色不改，原始缓存不动。57整理详情及102原貌文档桌面通过；4项首读延迟图复核正常，18MB GIF完整加载为640×480；查看器切换至1000×750放大图、按钮关闭与Esc关闭均验证。实际沙箱入口到目录、两个样例互转、正式作品进入、放大图及浏览器返回、目录回入口和投票附件进入均通过；55正式条目全组相邻导航无跳号，原生悬停往返通过。首页57项、57图标／2横幅、独立类型／分组列、末项进入及返回保持展开通过；最终控制台无错误／警告。无题材或像素筛选，无新增受限，未下载或运行游戏包。"
     }
   ],
   "originalViewsReviewed": [
@@ -2338,6 +2373,13 @@
       "evidence": [
         "catch/2019-gw/original-view.json",
         "catch/2019-gw/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2019-kouhaku",
+      "evidence": [
+        "catch/2019-kouhaku/original-view.json",
+        "catch/2019-kouhaku/desktop-review.json"
       ]
     }
   ],

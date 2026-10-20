@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang=“ja”>
+	<head>
+		<meta charset="Shift_JIS">
+			<title>No.6 - バカスクリニック　そのよん</title>
+    
+    
+			<style>
+				*{
+					margin: 0px;
+					padding: 0px;
+				}
+				
+				#dekabox{							/* ヘッダーバナー用 */
+   					width: 1000px;               /* ボックス幅指定 */
+  					height: 141px;              /* ボックス高さ指定 */
+				}
+				
+				
+				
+				h1{									/* ヘッダーカラー用 */
+					background-color: #ff9898;     /* 背景色 */
+				}
+				
+				.tyuuou2{
+					display: block;
+					width: 1000px;
+					margin-left: auto;
+					margin-right: auto;
+					margin-top: 8px;
+				}
+								
+				.about{
+					width: 900px;	
+					border-radius: 15px;        /* 角丸 */	
+					border: solid 6px White;	
+					background-color: rgba(255,211,206,1);	
+				}
+
+				.about2 hr{
+					border: 0;
+					height: 1px;
+					background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+					background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+					background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+					background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+				}
+				
+				.syouhai{
+					border: double 5px #9d7443;
+					width: 1300px;
+					height:500px;
+					margin-bottom:30px;
+					background-image: url(kekka.png);
+					opacity: 0.5;
+					position: relative;
+				}
+				.syouhai:after{
+
+					background-image: url(syouhai.png);
+					width: 1300px;
+					height:500px;
+					position: absolute;
+					content: '';
+				}
+				.midasi{
+					position: relative;
+					background: linear-gradient(135deg, rgba(255,255,255,1), rgba(255,255,255,1));
+  					height: 60px;              /* 高さ指定 */
+  					margin: 10px 0px;
+  					border-radius: 20px;        /* 角丸指定 */
+					width: 96%;               /* 幅指定 */
+				}
+
+				.sakuhin{					/* 作品名 */
+					position: relative;
+					background-color: rgba(0,0,0,0.8);
+					width: 96%;               /* 幅指定 */
+  					height: 20px;              /* 高さ指定 */
+  					margin: 5px 9px 5px 6px;
+  					font-size: 15px; 
+  					color: #ffffff;
+  					padding: 2px 5px;
+  					border-radius: 11px;        /* 角丸指定 */
+				}
+
+				.comment{					/* 作品コメント */
+					position: relative;
+					background-color: rgba(0,0,0,0.1);
+					width: 96%;               /* 幅指定 */
+					letter-spacing: 2px;
+					line-height: 1.6;
+  					font-size: 13px; 
+  					padding: 5px 8px;
+  					border-radius: 14px;        /* 角丸指定 */
+  					font-family: monospace ;	/* フォント */
+  					margin: 0px 0px 20px 0px;
+				}
+				
+				.midasimozi{
+					font-size: 24px;
+					color: rgba(220,20,20,0.6);
+					position: absolute;
+					top: 50%;
+					left: 10px;
+					transform: translateY(-50%);
+					padding: 0em 0.5em;/*上下の余白*/
+					border-left: solid 5px rgba(220,20,20,0.6);/*左線*/
+					font-weight: bold; 
+				}
+				
+				.midasisetumei{		
+					font-size: 14px;
+					color: rgba(20,20,20,0.7);
+					margin-left: 20px;	
+					margin-top: 10px;
+					margin-bottom: 10px;
+				}
+				
+				.touhyousurubotan{
+					padding: 28px 60px;
+					margin:0px 25px;
+					color: #2c2c2f;
+					background: #dad0ae;
+					height:40px;
+					font-size: 28px;
+					font-family: 游明朝 ; 
+					box-shadow: 0px 0px 0px 5px #fff0cd;
+				}
+				
+				
+				.yoko{
+					display: flex;
+					align-items: flex-start;
+				}
+
+			</style>
+	</head>
+	 <h1>
+ <div id="dekabox" >
+ 	<img src="../img/minibanar.png">
+ </div>
+ 	 </h1>
+	<body background="votingback.png">
+				
+		<div class="tyuuou2" >
+		<div class="midasisetumei"><a href="./">戻る</a></div>
+
+			
+			<div class="yoko">
+
+				<div class="about">
+					<div class="midasisetumei">
+
+						<div class="yoko">
+							<img src="../list/2000icon.png" border="0"><div class="sakuhin">No.6 - バカスクリニック　そのよん</div>
+						</div>
+						<div class="midasi"><div class="midasimozi">投票ポイント</div></div>
+								<div class="comment">
+									総合部門：<br>
+									　81 pt<br>
+									これはひどい部門：<br>
+									　4 pt<br>
+									熱中部門：<br>
+									　13 pt<br>
+									技術部門：<br>
+									　12 pt<br>
+									シナリオ部門：<br>
+									　12 pt<br>
+									ワロス部門：<br>
+									　10 pt<br>
+									演出部門：<br>
+									　9 pt<br>
+									遊びやすさ部門：<br>
+									　14 pt<br>
+									斬新部門：<br>
+									　6 pt<br>
+									いやらしさ部門：<br>
+									　1 pt<br>
+									　<br>
+									投票数：<br>
+									　15
+									　
+								</div>			
+						<div class="midasi"><div class="midasimozi">投票コメント</div></div>
+				
+
+								HN:ゴメス大好き丸 age:0~9 sex:♂ <br>
+								<div class="comment">
+									相変わらずマップや選曲などの雰囲気がオシャレでセンスがいいッ！
+								</div>
+
+								HN:D age:30~39 sex:♂ <br>
+								<div class="comment">
+									雰囲気もゲーム部分もとても好み。
+								</div>
+
+								HN: age: sex: <br>
+								<div class="comment">
+									スキルの処理には驚かされるが基本的なキャラとUIが過去作と同じなのでゲームとして代わり映えがしない<br>
+									戦闘難易度が高く、防御も上がらないのでプレイヤーが必ずパズルを強いられるのが疲れた大人にはしんどい<br>
+									スキル増やしてゴリ押ししようとしても稼ぎも渋いので倍速プレイを強要させられるのも作業感が強く、遊びやすいとはお世辞でも言い難い…
+								</div>
+
+								HN:あきこ age: sex:♀ <br>
+								<div class="comment">
+									ダンジョンの構造、戦闘システム、シナリオ・・・、アイデアと丁寧さに圧倒されました。
+								</div>
+
+								HN: age: sex: <br>
+								<div class="comment">
+									かなり遅刻していましたが、その分クオリティがかなり高くなっててよかったです。<br>
+									話に関しては「ぬ」さんのゲーム(アイマス【VIPRPG】とbakaシリーズとバカスクリニック等)をしていないと？なところもありますが、まあ楽しめるだろうとおもいます。<br>
+									「ぬ」さんのゲームを知っていたら所々にその作品関連を見つけてまずまず楽しくなります。<br>
+									今作の話だけでいうと、それぞれの日々の日常からの様々な小さな異変からのそれが大きな一つの異変になるというものです。その中心はおそらく今作からのキャラなのでここからはじめても問題はないと思います。キャラが日々どう過ごしているかがわかる日常風景、ギャグがあり、後半になるにつれシリアスになっていき、でもギャグを挟むことも忘れない、かなり楽しく進めれました。最後の方でわてりがさらっと出てきたのには吹きました。<br>
+									やはり独特の戦闘システムがあり、その一部のシステムを語ると今作はなんと経験値を後からふるようにするシステムになっています。これのおかげで初期レベル縛りがある意味楽になりました。<br>
+									戦闘に関しては敵の残機システムや、サブメニューにあるヘルプの存在のおかけでメリハリあるかつ、進みやすくなっています。<br>
+									スキルとパーティメンバーを入れ替えして工夫して進むのが楽しかったです。<br>
+									最終的には回復アイテムでごり押ししました。<br>
+									ラスボスに挑んだメンバーはウィンディ、やみっち、ブライアンでした。<br>
+									作中のヒントにもあったように使わないでもいいが、確かにブライアンはどう考えてもほかのキャラの頭一つ強さがある感じでした。<br>
+									ウィンディとやみっちの友情がかなり良かったです。<br>
+									ほかのキャラもかなり魅力があります。<br>
+									スピブレは・・・かなりアレですかあれはあれでいいと思います。<br>
+									作者さん、面白いゲームを作っていただきありがとうございました。
+								</div>
+
+								HN: age: sex: <br>
+								<div class="comment">
+									PTメンバーの性能の個性が強く、風変わりなスキルが多くて育成も戦闘も楽しい<br>
+									デフォ戦もここまで突き詰めると自作戦闘に片脚を突っ込んでいる<br>
+									ザコ戦はサクサク、ボス戦や赤シンボルは歯応えがあるが行動パターンを計算しやすくなっており、ゲームバランスがよく練られた良作
+								</div>
+
+								HN: age: sex: <br>
+								<div class="comment">
+									ここまでのデフォ戦を作るとは凄いっす。
+								</div>
+
+
+					</div>
+
+
+				</div>
+
+				
+			</div>
+			
+			<div class="midasisetumei"><a href="./">戻る</a></div>
+		</div>
+			
+	<script><!--
+var footerparam = 'charset=' + encodeURIComponent(document.charset ? document.charset : document.characterSet) + '&url=' + encodeURIComponent(document.location) + '&service=1&r=' + Math.floor(Math.random()*99999999999);
+var footertag = "//vip-chps-api.2nt.com/apis/footer/?" + footerparam;
+var script = document.createElement('script');
+script.src = footertag;
+script.charset = "UTF-8";
+script.async = true;
+document.getElementsByTagName('head')[0].appendChild(script);
+//--></script>
+<!-- 2nt, inc.-->
+<img src="//media.fc2.com/counter_img.php?id=50" style="display:none" alt="inserted by 2nt system" width="0" height="0">
+<!-- 2nt, inc.--></body>
+</html>

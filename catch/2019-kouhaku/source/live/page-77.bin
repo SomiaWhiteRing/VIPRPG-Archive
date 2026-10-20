@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang=“ja”>
+	<head>
+		<meta charset="Shift_JIS">
+			<title>No.12 - メカミルミさん、頑張る。</title>
+    
+    
+			<style>
+				*{
+					margin: 0px;
+					padding: 0px;
+				}
+				
+				#dekabox{							/* ヘッダーバナー用 */
+   					width: 1000px;               /* ボックス幅指定 */
+  					height: 141px;              /* ボックス高さ指定 */
+				}
+				
+				
+				
+				h1{									/* ヘッダーカラー用 */
+					background-color: #ff9898;     /* 背景色 */
+				}
+				
+				.tyuuou2{
+					display: block;
+					width: 1000px;
+					margin-left: auto;
+					margin-right: auto;
+					margin-top: 8px;
+				}
+								
+				.about{
+					width: 900px;	
+					border-radius: 15px;        /* 角丸 */	
+					border: solid 6px White;	
+					background-color: rgba(255,211,206,1);	
+				}
+
+				.about2 hr{
+					border: 0;
+					height: 1px;
+					background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+					background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+					background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+					background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+				}
+				
+				.syouhai{
+					border: double 5px #9d7443;
+					width: 1300px;
+					height:500px;
+					margin-bottom:30px;
+					background-image: url(kekka.png);
+					opacity: 0.5;
+					position: relative;
+				}
+				.syouhai:after{
+
+					background-image: url(syouhai.png);
+					width: 1300px;
+					height:500px;
+					position: absolute;
+					content: '';
+				}
+				.midasi{
+					position: relative;
+					background: linear-gradient(135deg, rgba(255,255,255,1), rgba(255,255,255,1));
+  					height: 60px;              /* 高さ指定 */
+  					margin: 10px 0px;
+  					border-radius: 20px;        /* 角丸指定 */
+					width: 96%;               /* 幅指定 */
+				}
+
+				.sakuhin{					/* 作品名 */
+					position: relative;
+					background-color: rgba(0,0,0,0.8);
+					width: 96%;               /* 幅指定 */
+  					height: 20px;              /* 高さ指定 */
+  					margin: 5px 9px 5px 6px;
+  					font-size: 15px; 
+  					color: #ffffff;
+  					padding: 2px 5px;
+  					border-radius: 11px;        /* 角丸指定 */
+				}
+
+				.comment{					/* 作品コメント */
+					position: relative;
+					background-color: rgba(0,0,0,0.1);
+					width: 96%;               /* 幅指定 */
+					letter-spacing: 2px;
+					line-height: 1.6;
+  					font-size: 13px; 
+  					padding: 5px 8px;
+  					border-radius: 14px;        /* 角丸指定 */
+  					font-family: monospace ;	/* フォント */
+  					margin: 0px 0px 20px 0px;
+				}
+				
+				.midasimozi{
+					font-size: 24px;
+					color: rgba(220,20,20,0.6);
+					position: absolute;
+					top: 50%;
+					left: 10px;
+					transform: translateY(-50%);
+					padding: 0em 0.5em;/*上下の余白*/
+					border-left: solid 5px rgba(220,20,20,0.6);/*左線*/
+					font-weight: bold; 
+				}
+				
+				.midasisetumei{		
+					font-size: 14px;
+					color: rgba(20,20,20,0.7);
+					margin-left: 20px;	
+					margin-top: 10px;
+					margin-bottom: 10px;
+				}
+				
+				.touhyousurubotan{
+					padding: 28px 60px;
+					margin:0px 25px;
+					color: #2c2c2f;
+					background: #dad0ae;
+					height:40px;
+					font-size: 28px;
+					font-family: 游明朝 ; 
+					box-shadow: 0px 0px 0px 5px #fff0cd;
+				}
+				
+				
+				.yoko{
+					display: flex;
+					align-items: flex-start;
+				}
+
+			</style>
+	</head>
+	 <h1>
+ <div id="dekabox" >
+ 	<img src="../img/minibanar.png">
+ </div>
+ 	 </h1>
+	<body background="votingback.png">
+				
+		<div class="tyuuou2" >
+		<div class="midasisetumei"><a href="./">戻る</a></div>
+
+			
+			<div class="yoko">
+
+				<div class="about">
+					<div class="midasisetumei">
+
+						<div class="yoko">
+							<img src="../list/icon012.gif" border="0"><div class="sakuhin">No.12 - メカミルミさん、頑張る。</div>
+						</div>
+						<div class="midasi"><div class="midasimozi">投票ポイント</div></div>
+								<div class="comment">
+									総合部門：<br>
+									　129 pt<br>
+									これはひどい部門：<br>
+									　7 pt<br>
+									熱中部門：<br>
+									　24 pt<br>
+									技術部門：<br>
+									　7 pt<br>
+									シナリオ部門：<br>
+									　19 pt<br>
+									ワロス部門：<br>
+									　17 pt<br>
+									演出部門：<br>
+									　20 pt<br>
+									遊びやすさ部門：<br>
+									　29 pt<br>
+									斬新部門：<br>
+									　5 pt<br>
+									いやらしさ部門：<br>
+									　1 pt<br>
+									　<br>
+									投票数：<br>
+									　32
+									　
+								</div>			
+						<div class="midasi"><div class="midasimozi">投票コメント</div></div>
+
+								HN:ナシの森 age:20~29 sex:♂ <br>
+								<div class="comment">
+									程よい長さの程よいRPG。<br>
+									自作素材がふんだんに使われているところに強いこだわりを感じる。<br>
+									これからも頑張って欲しいと思っています。
+								</div>
+
+								HN:あきこ age: sex:♀ <br>
+								<div class="comment">
+									王道かつ丁寧な作品。<br>
+									遊びやすかったです。
+								</div>
+
+								HN: age: sex: <br>
+								<div class="comment">
+									良作オブ良作。非常に遊びやすい<br>
+									君は気軽に楽しんでもいいしやりこんでもいい
+								</div>
+
+								HN: age: sex: <br>
+								<div class="comment">
+									フリフリの実の全身フリゲ人間が作っているとしか考えられない糞サブカル脳に溢れたハイコンテクストVIPRPG<br>
+									かけあいは面白いがメタ台詞で胃が焼ける 作中の"狭小な範囲で広大な"半ば内輪じみたネタをすべて理解できる者は作者以外には存在しないであろう<br>
+									優れたゲームバランスに宝箱やヒントなどの論理的な配置が光る良作
+								</div>
+
+								HN: age: sex: <br>
+								<div class="comment">
+									GWのもしもタワーが更に遊びやすくパワーアップといった内容。楽しませてもらいました。
+								</div>
+
+								HN:アンチまんさん age:30~39 sex:♂ <br>
+								<div class="comment">
+									前半サクサク後半簡悔のひでぇバランスにF12<br>
+									会話の絶望的つまらなさも相まってカーズネクロフィアを下回るがっかりRPG<br>
+									どうしてこうなった
+								</div>
+
+								HN: age: sex: <br>
+								<div class="comment">
+									新キャラが主人公のデフォ戦RPG。メカミルミと魔王軍の仲間たちのやり取りがギャグあり、ちょいとまじめありでたのしかったです。戦闘難易度は優しめで、サクサク進めれました。でも、ラスボスが歯ごたえあってよかったです。<br>
+									いろいろパロって来るスタイルは自分は好きです。<br>
+									次回作も(やみっちの方)楽しみに待っております。<br>
+									次回作(ドシリアス)も…自分の趣味に合えば。
+								</div>
+
+								HN: age:20~29 sex: <br>
+								<div class="comment">
+									探索も戦闘も楽しく、掛け合いも賑やかでした。<br>
+									ボスを担当する顔ぶれもお馴染みから新しめまで幅広くて面白かったです。
+								</div>
+
+								HN: age:30~39 sex:♂ <br>
+								<div class="comment">
+									メカミルミさんが他のゲームでも使われるようになるかな
+								</div>
+
+								HN: age:20~29 sex: <br>
+								<div class="comment">
+									メカミルミさん定着するといいなあ
+								</div>
+
+								HN:きのこ age:20~29 sex:♂ <br>
+								<div class="comment">
+									メカミルミさんかわいいよメカミルミさん<br>
+									主役ゆえに戦闘アニメが専用のものだったりして存在感が大きい<br>
+									当然3人の同行者であるダーエロ、ミルミ、五郎についても道中の会話が適度に挟まれる事で影が薄いとかもありませんでした<br>
+									その気になればサクッと終わらせれるのでしょうけれど、実績や隠し通路、コンプ要素などを考えると10時間くらいはガッツリ取り組める作品なのではないでしょうか<br>
+									基本となるシステムのチュートリアルも簡素ながら分かりやすく、まさしく「遊びやすさ」が考えられていると思います<br>
+									特にステージ３の洞窟から覗く青空が綺麗で印象に残りました
+								</div>
+
+								HN: age: sex: <br>
+								<div class="comment">
+									ラスダンとラスボスは遊びにくい部門
+								</div>
+
+
+					</div>
+
+				</div>
+				
+			</div>
+			
+			<div class="midasisetumei"><a href="./">戻る</a></div>
+		</div>
+			
+	<script><!--
+var footerparam = 'charset=' + encodeURIComponent(document.charset ? document.charset : document.characterSet) + '&url=' + encodeURIComponent(document.location) + '&service=1&r=' + Math.floor(Math.random()*99999999999);
+var footertag = "//vip-chps-api.2nt.com/apis/footer/?" + footerparam;
+var script = document.createElement('script');
+script.src = footertag;
+script.charset = "UTF-8";
+script.async = true;
+document.getElementsByTagName('head')[0].appendChild(script);
+//--></script>
+<!-- 2nt, inc.-->
+<img src="//media.fc2.com/counter_img.php?id=50" style="display:none" alt="inserted by 2nt system" width="0" height="0">
+<!-- 2nt, inc.--></body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang=“ja”>
+	<head>
+		<meta charset="Shift_JIS">
+			<title>No.21</title>
+			
+			
+			<style>
+
+			*{
+				margin: 0px;
+				padding: 0px;
+			}
+	
+			body {
+				background-color: #ffffff;
+				background-image: url(list_back.jpg);
+				background-position: right bottom;
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+			}
+
+			.tyuuou{
+				width: 640px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+	
+			h1{									/* ヘッダーカラー用 */
+				background-color: #ff9898;     /* 背景色 */
+			}		
+			
+			#dekabox{							/* ヘッダーバナー用 */
+				width: 1000px;               /* ボックス幅指定 */
+		  		height: 141px;              /* ボックス高さ指定 */
+			}
+			
+			.title{
+				display :flex;
+				align-items: flex-end;		/* 下ぞろえ */
+				margin-top: 10px;
+				margin-bottom: 5px;
+				border: dashed 3px rgba(200,0,0,0.5);
+				background-color: #ffF;     /* 背景色 */
+				width: auto;
+				padding-left: 4px;
+				font-family: 游ゴシック;
+			}
+			
+			.ran{
+				margin-top: 1px;
+				margin-bottom: 5px;
+				border: dashed 3px rgba(200,0,0,0.5);
+				background-color: #ffF;     /* 背景色 */
+				width: auto;
+				padding-left: 4px;
+				font-family: 游ゴシック;			
+			}
+			
+			.ran hr{
+				border-width: 1px 0px 0px 0px;
+				border-style: solid; /* 線種 */
+				border-color: rgba(0,0,0,0.2);   /* 線色 */
+				height: 1px;         /* 高さ(※古いIE用) */
+			}
+			
+			.icon{
+				padding-left: 7px;
+				padding-top: 9px;
+				margin-right: 10px;
+			}
+			
+			.link{
+			margin-top: 10px;
+			display: flex;
+			width: 100%;
+			justify-content: center;
+			font-family: 游ゴシック;	
+			}
+			
+			#preloadedImages {
+ 		      width: 0px;
+ 		      height: 0px;
+ 		      display: inline;
+ 		      background-image: url(no021u.png); /* 読ませたいイメージ */
+			}			
+			</style>
+			
+	</head>
+	<h1>
+		<div id="dekabox" >
+			<img src="../img/minibanar.png">
+		 </div>
+	 </h1>
+	<body>
+
+<div id="preloadedImages"></div>
+
+		<div class="tyuuou" >
+		<div class="link" >
+			<a href="no_20.htm">←No.20<a>
+			<a href="../list/">　一覧へ<a>
+			<a href="no_22.htm">　No.22→<a>
+		</div>
+			<div class="title" >
+				<div class="icon" ><img src="icon021.png" border="0"></div>No. 21 - <b>狂鋼地獄街道滅多斬り祭り</b>
+			</div>
+				<img src="no021.png" onmouseover="this.src='no021u.png'" onmouseout="this.src='no021.png'" />
+				<a href="https://drive.google.com/open?id=10mLjV4vif-HaB0_2NEcZ-EAAEt8um-so">
+				<img src="downlord_r.png" border="0"></a>
+				<119.9Mb><a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1574568251/">感想を書く<a>
+
+			<div class="ran" >
+				【名前】ゑびす<hr>
+				【ジャンル】剣術RPG<hr>
+				【ツクール】RPGツクール2000<hr>
+				【推定プレイ時間】10時間くらい？<hr>
+				【動画/配信】共に大歓迎
+			</div>
+			<div class="ran" >
+				【コメント】<hr>
+				HPの概念は過去のものとなり、デフォ戦は新たなる境地へと達する。<br>
+				本格剣術RPG遂に現る。<br>
+				斬り合いの果てに貴殿は何を見る？<br>
+				【ご挨拶】<br>
+				初めまして、ゑびすと申します。普段は新都社で漫画描いてます。<br>
+				10年以上前にツクール活動してましたが、就職したらツクールやってるヒマがなくてやめてたんですが、<br>
+				最近になって時間の使い方が上手くなってきたので久々にツクールいじってみるかーってやってたら熱中しちゃって<br>
+				ゲーム一個できちゃいました。<br>
+				で、どこに公開しようかと迷った挙句、こちらを紹介されたので、最近ツクスレとか全然見てなかったけど、ま、いっかと<br>
+				飛び込んでみることにしました。<br>
+				内容的には、「自作戦闘でやれ」って自分でも思う感じなんですが、デフォ戦の限界にも挑戦してみたいしぃ…<br>
+				グラフィック完全自作がんばったよよくやった俺。自作メニューがんばったよすごいぞ俺。<br>
+				テストプレイちょっとサボったよ、どこかにバグが潜んでるかも、しっかりしろ俺。<br>
+				ってなわけで、ふつつかで不審な者ですがよろしくお願いします。やっぱり俺はVIPで生きていく運命なのだな…<br>
+			</div>
+			<div class="ran" >
+				【管理人コメント】<hr>
+				まさかの漫画家参戦。ＨＰの概念を葬るとは一体！？
+			</div>	
+					
+		</div>
+
+	<script><!--
+var footerparam = 'charset=' + encodeURIComponent(document.charset ? document.charset : document.characterSet) + '&url=' + encodeURIComponent(document.location) + '&service=1&r=' + Math.floor(Math.random()*99999999999);
+var footertag = "//vip-chps-api.2nt.com/apis/footer/?" + footerparam;
+var script = document.createElement('script');
+script.src = footertag;
+script.charset = "UTF-8";
+script.async = true;
+document.getElementsByTagName('head')[0].appendChild(script);
+//--></script>
+<!-- 2nt, inc.-->
+<img src="//media.fc2.com/counter_img.php?id=50" style="display:none" alt="inserted by 2nt system" width="0" height="0">
+<!-- 2nt, inc.--></body>
+</html>

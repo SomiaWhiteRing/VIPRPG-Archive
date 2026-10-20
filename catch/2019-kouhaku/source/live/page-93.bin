@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang=“ja”>
+	<head>
+		<meta charset="Shift_JIS">
+			<title>No.39 - Ⅰ is WORLD Ver2.0</title>
+    
+    
+			<style>
+				*{
+					margin: 0px;
+					padding: 0px;
+				}
+				
+				#dekabox{							/* ヘッダーバナー用 */
+   					width: 1000px;               /* ボックス幅指定 */
+  					height: 141px;              /* ボックス高さ指定 */
+				}
+				
+				
+				
+				h1{									/* ヘッダーカラー用 */
+					background-color: #ff9898;     /* 背景色 */
+				}
+				
+				.tyuuou2{
+					display: block;
+					width: 1000px;
+					margin-left: auto;
+					margin-right: auto;
+					margin-top: 8px;
+				}
+								
+				.about{
+					width: 900px;	
+					border-radius: 15px;        /* 角丸 */	
+					border: solid 6px White;	
+					background-color: rgba(255,211,206,1);	
+				}
+
+				.about2 hr{
+					border: 0;
+					height: 1px;
+					background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+					background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+					background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+					background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+				}
+				
+				.syouhai{
+					border: double 5px #9d7443;
+					width: 1300px;
+					height:500px;
+					margin-bottom:30px;
+					background-image: url(kekka.png);
+					opacity: 0.5;
+					position: relative;
+				}
+				.syouhai:after{
+
+					background-image: url(syouhai.png);
+					width: 1300px;
+					height:500px;
+					position: absolute;
+					content: '';
+				}
+				.midasi{
+					position: relative;
+					background: linear-gradient(135deg, rgba(255,255,255,1), rgba(255,255,255,1));
+  					height: 60px;              /* 高さ指定 */
+  					margin: 10px 0px;
+  					border-radius: 20px;        /* 角丸指定 */
+					width: 96%;               /* 幅指定 */
+				}
+
+				.sakuhin{					/* 作品名 */
+					position: relative;
+					background-color: rgba(0,0,0,0.8);
+					width: 96%;               /* 幅指定 */
+  					height: 20px;              /* 高さ指定 */
+  					margin: 5px 9px 5px 6px;
+  					font-size: 15px; 
+  					color: #ffffff;
+  					padding: 2px 5px;
+  					border-radius: 11px;        /* 角丸指定 */
+				}
+
+				.comment{					/* 作品コメント */
+					position: relative;
+					background-color: rgba(0,0,0,0.1);
+					width: 96%;               /* 幅指定 */
+					letter-spacing: 2px;
+					line-height: 1.6;
+  					font-size: 13px; 
+  					padding: 5px 8px;
+  					border-radius: 14px;        /* 角丸指定 */
+  					font-family: monospace ;	/* フォント */
+  					margin: 0px 0px 20px 0px;
+				}
+				
+				.midasimozi{
+					font-size: 24px;
+					color: rgba(220,20,20,0.6);
+					position: absolute;
+					top: 50%;
+					left: 10px;
+					transform: translateY(-50%);
+					padding: 0em 0.5em;/*上下の余白*/
+					border-left: solid 5px rgba(220,20,20,0.6);/*左線*/
+					font-weight: bold; 
+				}
+				
+				.midasisetumei{		
+					font-size: 14px;
+					color: rgba(20,20,20,0.7);
+					margin-left: 20px;	
+					margin-top: 10px;
+					margin-bottom: 10px;
+				}
+				
+				.touhyousurubotan{
+					padding: 28px 60px;
+					margin:0px 25px;
+					color: #2c2c2f;
+					background: #dad0ae;
+					height:40px;
+					font-size: 28px;
+					font-family: 游明朝 ; 
+					box-shadow: 0px 0px 0px 5px #fff0cd;
+				}
+				
+				
+				.yoko{
+					display: flex;
+					align-items: flex-start;
+				}
+
+			</style>
+	</head>
+	 <h1>
+ <div id="dekabox" >
+ 	<img src="../img/minibanar.png">
+ </div>
+ 	 </h1>
+	<body background="votingback.png">
+				
+		<div class="tyuuou2" >
+		<div class="midasisetumei"><a href="./">戻る</a></div>
+
+			
+			<div class="yoko">
+
+				<div class="about">
+					<div class="midasisetumei">
+
+						<div class="yoko">
+							<img src="../list/icon039.png" border="0"><div class="sakuhin">No.39 - Ⅰ is WORLD Ver2.0</div>
+						</div>
+						<div class="midasi"><div class="midasimozi">投票ポイント</div></div>
+								<div class="comment">
+									総合部門：<br>
+									　59 pt<br>
+									これはひどい部門：<br>
+									　3 pt<br>
+									熱中部門：<br>
+									　10 pt<br>
+									技術部門：<br>
+									　5 pt<br>
+									シナリオ部門：<br>
+									　11 pt<br>
+									ワロス部門：<br>
+									　5 pt<br>
+									演出部門：<br>
+									　8 pt<br>
+									遊びやすさ部門：<br>
+									　5 pt<br>
+									斬新部門：<br>
+									　7 pt<br>
+									いやらしさ部門：<br>
+									　5 pt<br>
+									　<br>
+									投票数：<br>
+									　13
+									　
+								</div>			
+						<div class="midasi"><div class="midasimozi">投票コメント</div></div>
+
+								HN: age:20~29 sex:♂ <br>
+								<div class="comment">
+									豊富なVIPRPGのキャラクターが登場し、人間が死滅した絶望の世界で仲間を見つけ出すRPG<br>
+									VIPRPGには少なめのシリアスな世界観で楽しめました<br>
+									魔法具現化を中心にしたキャラクターを大切に扱っており、10を越える仲間がいるにも関わらず会話イベントが丁寧に作られています(仲間キャラのいるいないで差分まである！)<br>
+									EXPを自由に振り分けられるシステムもお気に入りのキャラに愛着が湧くよい仕様だと思います<br>
+									フリーシナリオ要素もあり隠された仲間やエンチャントを探すのも楽しいです<br>
+									たまにある進行に関わるなバグ(現在はだいたい修正済み)や不安定なゲームバランスなど荒削りな面は否めませんが、プレイ時間も10時間近くに及ぶ大ボリュームで熱意のある良作です
+								</div>
+
+								HN: age:20~29 sex: <br>
+								<div class="comment">
+									シリアスでキャラも生き生き、好き<br>
+									完結じっくりお待ちします
+								</div>
+
+								HN:ないとう age:0~9 sex:♂ <br>
+								<div class="comment">
+									2000の顔倉をそのままMV規格にしても違和感のないヌルヌルにする技術が気になる
+								</div>
+
+								HN: age: sex: <br>
+								<div class="comment">
+									見るげ部分は人を選びつつも面白さはあるが、やるゲ部分は改善点が多い<br>
+									1章の難易度引き下げやエンカウント緩和などはユーザーの声を聞くべきだし、2章も難易度引き下げやエンカウント緩和などの改革が必要<br>
+									通しプレイすらしてないのも丸分かりなバグが多く、出くわすと萎えるのでせめて2回ぐらい自分でクリアしてから提出した方が良い
+								</div>
+
+								HN: age: sex: <br>
+								<div class="comment">
+									ver1はハートブレイクなプレイ感から中断、ver2はNewGame<br>
+									移動が高速化しエンカウントが緩和されグリモールジョギング大会も中止になるなど改良で遊びやすくなった<br>
+									1章も2章も序盤は消耗するが育成で飛躍的に強くなるので中盤以降は易化するインフレバランス<br>
+									エンチャント特性の倍率が激しいので育成が楽しい反面、ゲームバランスは大味<br>
+									Ⅰ魔法メイン（次章では網羅？）で加入自由のキャラが多くセリフの差分が細かいので魔法具現化好きなら楽しめるだろう
+								</div>
+
+								HN:眠い age: sex: <br>
+								<div class="comment">
+									Ｈなバースティ達はいいと思います
+								</div>
+
+								HN:古典主義 age:40~49 sex:♂ <br>
+								<div class="comment">
+									バグが多い、誤字が多い…そんな事は些細な事。<br>
+									このゲームは熱い！<br>
+									どこが熱いかって？やればわかるさ！
+								</div>
+
+								HN: age: sex: <br>
+								<div class="comment">
+									VXACEで良かった気もするけど良作
+								</div>
+
+								HN:ぽぽぽ age: sex:♀ <br>
+								<div class="comment">
+									大所帯なダークファンタジーＲＰＧで、世紀末の世界で可愛い少年少女たちが奮闘する作品です。<br>
+									シリアス展開の面白さに加え、加入状況により異なるテキストの詳細な差分がありキャラゲーとしての完成度も高いです。<br>
+									レベルアップシステムのフォントの違いや爆弾製造など、この作者さんでしか見られないアイデアも面白いです。
+								</div>
+
+
+					</div>
+
+				</div>
+				
+			</div>
+			
+			<div class="midasisetumei"><a href="./">戻る</a></div>
+		</div>
+			
+	<script><!--
+var footerparam = 'charset=' + encodeURIComponent(document.charset ? document.charset : document.characterSet) + '&url=' + encodeURIComponent(document.location) + '&service=1&r=' + Math.floor(Math.random()*99999999999);
+var footertag = "//vip-chps-api.2nt.com/apis/footer/?" + footerparam;
+var script = document.createElement('script');
+script.src = footertag;
+script.charset = "UTF-8";
+script.async = true;
+document.getElementsByTagName('head')[0].appendChild(script);
+//--></script>
+<!-- 2nt, inc.-->
+<img src="//media.fc2.com/counter_img.php?id=50" style="display:none" alt="inserted by 2nt system" width="0" height="0">
+<!-- 2nt, inc.--></body>
+</html>

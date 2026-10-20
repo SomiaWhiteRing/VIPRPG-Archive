@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang=“ja”>
+	<head>
+		<meta charset="Shift_JIS">
+			<title>No.17</title>
+			
+			
+			<style>
+
+			*{
+				margin: 0px;
+				padding: 0px;
+			}
+	
+			body {
+				background-color: #ffffff;
+				background-image: url(list_back.jpg);
+				background-position: right bottom;
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+			}
+
+			.tyuuou{
+				width: 640px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+	
+			h1{									/* ヘッダーカラー用 */
+				background-color: #ff9898;     /* 背景色 */
+			}		
+			
+			#dekabox{							/* ヘッダーバナー用 */
+				width: 1000px;               /* ボックス幅指定 */
+		  		height: 141px;              /* ボックス高さ指定 */
+			}
+			
+			.title{
+				display :flex;
+				align-items: flex-end;		/* 下ぞろえ */
+				margin-top: 10px;
+				margin-bottom: 5px;
+				border: dashed 3px rgba(200,0,0,0.5);
+				background-color: #ffF;     /* 背景色 */
+				width: auto;
+				padding-left: 4px;
+				font-family: 游ゴシック;
+			}
+			
+			.ran{
+				margin-top: 1px;
+				margin-bottom: 5px;
+				border: dashed 3px rgba(200,0,0,0.5);
+				background-color: #ffF;     /* 背景色 */
+				width: auto;
+				padding-left: 4px;
+				font-family: 游ゴシック;			
+			}
+			
+			.ran hr{
+				border-width: 1px 0px 0px 0px;
+				border-style: solid; /* 線種 */
+				border-color: rgba(0,0,0,0.2);   /* 線色 */
+				height: 1px;         /* 高さ(※古いIE用) */
+			}
+			
+			.icon{
+				padding-left: 7px;
+				padding-top: 9px;
+				margin-right: 10px;
+			}
+			
+			.link{
+			margin-top: 10px;
+			display: flex;
+			width: 100%;
+			justify-content: center;
+			font-family: 游ゴシック;	
+			}
+			
+			#preloadedImages {
+ 		      width: 0px;
+ 		      height: 0px;
+ 		      display: inline;
+ 		      background-image: url(no017_2u.png); /* 読ませたいイメージ */
+			}			
+			</style>
+			
+	</head>
+	<h1>
+		<div id="dekabox" >
+			<img src="../img/minibanar.png">
+		 </div>
+	 </h1>
+	<body>
+
+<div id="preloadedImages"></div>
+
+		<div class="tyuuou" >
+		<div class="link" >
+			<a href="no_16.htm">←No.16<a>
+			<a href="../list/">　一覧へ<a>
+			<a href="no_18.htm">　No.18→<a>
+		</div>
+			<div class="title" >
+				<div class="icon" ><img src="icon017.gif" border="0"></div>No. 17 - <b>ぼむぽよ～</b>
+			</div>
+				<img src="no017_2.png" onmouseover="this.src='no017_2u.png'" onmouseout="this.src='no017_2.png'" />
+				<a href="https://drive.google.com/open?id=1hJS50c8E8iq26myTZ1VWKW8jzoeBPAOp">
+				<img src="downlord_r.png" border="0"></a>
+				<142.7Mb><a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/60867/1572705052/">感想を書く<a>
+
+			<div class="ran" >
+				【名前】うどん屋さん<hr>
+				【ジャンル】変身バラエティＲＰＧ<hr>
+				【ツクール】RPGツクールVXAce<hr>
+				【推定プレイ時間】２～３時間ぐらいの予定です<hr>
+				【動画/配信】自己責任でオッケ～。
+			</div>
+			<div class="ran" >
+				【コメント】<hr>
+				ぼむぽよ～(挨拶)　ページを見てくれてありがとうございます<br>
+<br>
+				さて本作は『変身バラエティＲＰＧ』です！<br>
+				ちょっとマニアックなお色気もあるよ！<br>
+<br>
+				あらすじ<br>
+				◆平和に暮らすバースト姉妹。しかしある日突然バーニィがナイ軍に誘拐されてしまう。<br>
+				◆ナイ軍の目的とは！？果たして、バースティはバーニィを救えるのか…？<br>
+<br>
+				戦闘部分補足<br>
+				・シンボルエンカウントで基本逃走率１００％<br>
+				・基本命中率１００％(敵側は外すこともある)<br>
+				・装備を付け替えてスキルを入れ替えたり敵のスキルを盗むシステム<br>
+				・ギミックや演出を見て欲しいので『難易度は低め』です。<br>
+				・ゲームオーバーペナルティなし。簡単にリトライ出来ます。<br>
+<br>
+				お話部分補足<br>
+				・個性的なキャラクター多数登場。<br>
+				・立ち絵は基本的に全自作でーす。今のところ実装済みは２８人(12/24現在)。<br>
+				・大人と子供で会話が変わるところも結構ありますよ。<br>
+				・基本どこでもセーブ可能。<br>
+				・全年齢だけどお色気多め。より過激なのはスイッチＯＮで見れます（初期ＯＦＦ）<br>
+				・読み飛ばし対策のバックログ機能を搭載<br>
+			</div>
+			<div class="ran" >
+				【管理人コメント】<hr>
+				いろんな楽しみ方が出来そうだ。お色気要素まであるなんてもはや申し分ない！<br>
+				<a href="no0171000x750_2.png">大きいサイズのSS1<a><br>
+				<a href="no017u1000x750_2.png">大きいサイズのSS2<a>
+			</div>	
+					
+		</div>
+
+	<script><!--
+var footerparam = 'charset=' + encodeURIComponent(document.charset ? document.charset : document.characterSet) + '&url=' + encodeURIComponent(document.location) + '&service=1&r=' + Math.floor(Math.random()*99999999999);
+var footertag = "//vip-chps-api.2nt.com/apis/footer/?" + footerparam;
+var script = document.createElement('script');
+script.src = footertag;
+script.charset = "UTF-8";
+script.async = true;
+document.getElementsByTagName('head')[0].appendChild(script);
+//--></script>
+<!-- 2nt, inc.-->
+<img src="//media.fc2.com/counter_img.php?id=50" style="display:none" alt="inserted by 2nt system" width="0" height="0">
+<!-- 2nt, inc.--></body>
+</html>

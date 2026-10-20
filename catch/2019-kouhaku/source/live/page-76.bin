@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang=“ja”>
+	<head>
+		<meta charset="Shift_JIS">
+			<title>No.11 - もしもクトゥルフ神話TRPGをプレイして遊んだら</title>
+    
+    
+			<style>
+				*{
+					margin: 0px;
+					padding: 0px;
+				}
+				
+				#dekabox{							/* ヘッダーバナー用 */
+   					width: 1000px;               /* ボックス幅指定 */
+  					height: 141px;              /* ボックス高さ指定 */
+				}
+				
+				
+				
+				h1{									/* ヘッダーカラー用 */
+					background-color: #ff9898;     /* 背景色 */
+				}
+				
+				.tyuuou2{
+					display: block;
+					width: 1000px;
+					margin-left: auto;
+					margin-right: auto;
+					margin-top: 8px;
+				}
+								
+				.about{
+					width: 900px;	
+					border-radius: 15px;        /* 角丸 */	
+					border: solid 6px White;	
+					background-color: rgba(255,211,206,1);	
+				}
+
+				.about2 hr{
+					border: 0;
+					height: 1px;
+					background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+					background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+					background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+					background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+				}
+				
+				.syouhai{
+					border: double 5px #9d7443;
+					width: 1300px;
+					height:500px;
+					margin-bottom:30px;
+					background-image: url(kekka.png);
+					opacity: 0.5;
+					position: relative;
+				}
+				.syouhai:after{
+
+					background-image: url(syouhai.png);
+					width: 1300px;
+					height:500px;
+					position: absolute;
+					content: '';
+				}
+				.midasi{
+					position: relative;
+					background: linear-gradient(135deg, rgba(255,255,255,1), rgba(255,255,255,1));
+  					height: 60px;              /* 高さ指定 */
+  					margin: 10px 0px;
+  					border-radius: 20px;        /* 角丸指定 */
+					width: 96%;               /* 幅指定 */
+				}
+
+				.sakuhin{					/* 作品名 */
+					position: relative;
+					background-color: rgba(0,0,0,0.8);
+					width: 96%;               /* 幅指定 */
+  					height: 20px;              /* 高さ指定 */
+  					margin: 5px 9px 5px 6px;
+  					font-size: 15px; 
+  					color: #ffffff;
+  					padding: 2px 5px;
+  					border-radius: 11px;        /* 角丸指定 */
+				}
+
+				.comment{					/* 作品コメント */
+					position: relative;
+					background-color: rgba(0,0,0,0.1);
+					width: 96%;               /* 幅指定 */
+					letter-spacing: 2px;
+					line-height: 1.6;
+  					font-size: 13px; 
+  					padding: 5px 8px;
+  					border-radius: 14px;        /* 角丸指定 */
+  					font-family: monospace ;	/* フォント */
+  					margin: 0px 0px 20px 0px;
+				}
+				
+				.midasimozi{
+					font-size: 24px;
+					color: rgba(220,20,20,0.6);
+					position: absolute;
+					top: 50%;
+					left: 10px;
+					transform: translateY(-50%);
+					padding: 0em 0.5em;/*上下の余白*/
+					border-left: solid 5px rgba(220,20,20,0.6);/*左線*/
+					font-weight: bold; 
+				}
+				
+				.midasisetumei{		
+					font-size: 14px;
+					color: rgba(20,20,20,0.7);
+					margin-left: 20px;	
+					margin-top: 10px;
+					margin-bottom: 10px;
+				}
+				
+				.touhyousurubotan{
+					padding: 28px 60px;
+					margin:0px 25px;
+					color: #2c2c2f;
+					background: #dad0ae;
+					height:40px;
+					font-size: 28px;
+					font-family: 游明朝 ; 
+					box-shadow: 0px 0px 0px 5px #fff0cd;
+				}
+				
+				
+				.yoko{
+					display: flex;
+					align-items: flex-start;
+				}
+
+			</style>
+	</head>
+	 <h1>
+ <div id="dekabox" >
+ 	<img src="../img/minibanar.png">
+ </div>
+ 	 </h1>
+	<body background="votingback.png">
+				
+		<div class="tyuuou2" >
+		<div class="midasisetumei"><a href="./">戻る</a></div>
+
+			
+			<div class="yoko">
+
+				<div class="about">
+					<div class="midasisetumei">
+
+						<div class="yoko">
+							<img src="../list/icon011.png" border="0"><div class="sakuhin">No.11 - もしもクトゥルフ神話TRPGをプレイして遊んだら</div>
+						</div>
+						<div class="midasi"><div class="midasimozi">投票ポイント</div></div>
+								<div class="comment">
+									総合部門：<br>
+									　107 pt<br>
+									これはひどい部門：<br>
+									　22 pt<br>
+									熱中部門：<br>
+									　4 pt<br>
+									技術部門：<br>
+									　2 pt<br>
+									シナリオ部門：<br>
+									　20 pt<br>
+									ワロス部門：<br>
+									　29 pt<br>
+									演出部門：<br>
+									　21 pt<br>
+									遊びやすさ部門：<br>
+									　9 pt<br>
+									斬新部門：<br>
+									　0 pt<br>
+									いやらしさ部門：<br>
+									　0 pt<br>
+									　<br>
+									投票数：<br>
+									　35
+									　
+								</div>			
+						<div class="midasi"><div class="midasimozi">投票コメント</div></div>
+
+								HN: age: sex: <br>
+								<div class="comment">
+									PCのファンのNPCに爆弾を巻いて突撃させるガイゾック並の戦術に脱帽しました
+								</div>
+
+								HN: age: sex: <br>
+								<div class="comment">
+									神話生物より身近な人間の方が恐ろしいというテーマが隠されていてよかった
+								</div>
+
+								HN: age:30~39 sex:♂ <br>
+								<div class="comment">
+									シーンの情景や、その場で起こる破天荒な PIAI を演出でしっかり表現できてて凄いと思った。<br>
+									TRPG をその場で楽しんでいるような気分にさせてくれますねぇ。<br>
+									これはひどいはブラの人へ向けて（いい意味で）
+								</div>
+
+								HN:bld age:20~29 sex:♂ <br>
+								<div class="comment">
+									TRPGのリプレイということで、TRPGらしく最後まで予想のつかない展開だった
+								</div>
+					</div>
+
+				</div>
+				
+			</div>
+			
+			<div class="midasisetumei"><a href="./">戻る</a></div>
+		</div>
+			
+	<script><!--
+var footerparam = 'charset=' + encodeURIComponent(document.charset ? document.charset : document.characterSet) + '&url=' + encodeURIComponent(document.location) + '&service=1&r=' + Math.floor(Math.random()*99999999999);
+var footertag = "//vip-chps-api.2nt.com/apis/footer/?" + footerparam;
+var script = document.createElement('script');
+script.src = footertag;
+script.charset = "UTF-8";
+script.async = true;
+document.getElementsByTagName('head')[0].appendChild(script);
+//--></script>
+<!-- 2nt, inc.-->
+<img src="//media.fc2.com/counter_img.php?id=50" style="display:none" alt="inserted by 2nt system" width="0" height="0">
+<!-- 2nt, inc.--></body>
+</html>

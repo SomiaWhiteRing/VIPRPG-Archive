@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang=“ja”>
+	<head>
+		<meta charset="Shift_JIS">
+			<title>投票</title>
+    
+    
+			<style>
+				*{
+					margin: 0px;
+					padding: 0px;
+				
+				}
+				a{
+					text-decoration: none;
+				}
+				
+				
+				#dekabox{							/* ヘッダーバナー用 */
+   					width: 1000px;               /* ボックス幅指定 */
+  					height: 141px;              /* ボックス高さ指定 */
+				}
+				
+				
+				
+				h1{									/* ヘッダーカラー用 */
+					background-color: #ff9898;     /* 背景色 */
+				}
+								
+				h2{									/* ヘッダーカラー用2 */
+					background-color: #503833;     /* 背景色 */
+				}
+
+				
+				.tyuuou{
+					display: flex;
+					width: 1300px;
+					margin-left: auto;
+					margin-right: auto;
+				}
+				
+				.tyuuou2{
+					display: block;
+					width: 1000px;
+					margin-left: auto;
+					margin-right: auto;
+					margin-top: 8px;
+				}
+								
+				.about{
+					width: 720px;	
+					border-radius: 15px;        /* 角丸 */	
+					border: solid 6px White;	
+					background-color: rgba(255,211,206,1);	
+				}
+
+				.about2{
+					width: 232px;		/* 幅 */
+					background-color: rgba(255,255,255,1);		/* 背景 */		
+					font-family: メイリオ ;			/* フォント */	
+					text-align:center;		
+					font-size: 18px;		
+					color: #ee9427;
+					font-weight: bolder;		/* 太字 */
+					letter-spacing: 10px;		/* 文字間隔 */
+					line-height: 30px;		/* 行間 */
+					margin-left:20px;
+					border-top: solid 5px #d74f30;
+					border-bottom: solid 5px #d74f30;
+					padding-top: 10px;
+					
+				}
+				.about2 p{
+					border-radius: 20px;        /* 角丸指定 */
+					background: #ffc4a4;
+					margin: auto;
+					width: 90%;	
+					font-size: 20px;
+					color: #bb6d21;
+					line-height: 30px;		/* 行間 */
+				
+				}
+				.about2 hr{
+					border: 0;
+					height: 1px;
+					background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+					background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+					background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+					background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+				}
+				
+				.syouhai{
+					border: double 5px #9d7443;
+					width: 1300px;
+					height:500px;
+					margin-bottom:30px;
+					background-image: url(kekka.png);
+					opacity: 0.5;
+					position: relative;
+				}
+				.syouhai:after{
+
+					background-image: url(syouhai.png);
+					width: 1300px;
+					height:500px;
+					position: absolute;
+					content: '';
+				}
+				.midasi{
+					position: relative;
+					background: linear-gradient(135deg, rgba(255,255,255,1), rgba(255,255,255,1));
+					width: 96%;               /* 幅指定 */
+  					height: 60px;              /* 高さ指定 */
+  					margin: 10px auto;
+  					border-radius: 20px;        /* 角丸指定 */
+				}
+				.midasimozi{
+					font-size: 24px;
+					color: rgba(220,20,20,0.6);
+					position: absolute;
+					top: 50%;
+					left: 10px;
+					transform: translateY(-50%);
+					padding: 0em 0.5em;/*上下の余白*/
+					border-left: solid 5px rgba(220,20,20,0.6);/*左線*/
+					font-weight: bold; 
+				}
+				
+				.midasisetumei{		
+					font-size: 14px;
+					color: rgba(20,20,20,0.7);
+					margin-left: 20px;	
+					margin-top: 10px;
+					margin-bottom: 10px;
+				}
+				
+				.touhyousurubotan{
+					padding: 28px 60px;
+					margin:0px 25px;
+					color: #2c2c2f;
+					background: #dad0ae;
+					height:40px;
+					font-size: 28px;
+					font-family: 游明朝 ; 
+					box-shadow: 0px 0px 0px 5px #fff0cd;
+				}
+				
+				
+				.yoko{
+					display: flex;
+				}
+				
+				.tate{
+					display block;
+				}
+			</style>
+	</head>
+	 <h1>
+ <div id="dekabox" >
+ 	<img src="../img/minibanar.png">
+ </div>
+ 	 </h1>
+ 	 <h2>
+ <div class="tyuuou" >
+ 			<img src="votingbanner.jpg">
+  </div>
+  	 </h2>
+	<body background="votingback.png">
+				
+		<div class="tyuuou2" >
+		<div class="midasisetumei"><a href="../">TOPへ</a></div>
+
+			
+			<div class="yoko">
+				
+
+
+				
+				
+				
+				<div class="about">
+				
+					<div class="midasi"><div class="midasimozi">結果発表</div></div>
+					<div class="midasisetumei">
+						<u>・紅白結果</u><br>
+						<font size="5"><b>紅組1244pt</b></font> vs <font size="5"><b>白組960pt</b></font><br>
+						<br>
+						従って<font size="8" color="#ff6563" face="游明朝,Yu Mincho">紅組の優勝！</font><br>
+						<br>
+						<br>
+						<u>・各部門に入賞した作品</u><br>
+						<br>
+						<a href="no11.htm" border="0"><img src="../list/icon011.png" border="0">No.11 - <b>もしもクトゥルフ神話TRPGをプレイして遊んだら</b></a><br>
+						<a href="no12.htm"><img src="../list/icon012.gif" border="0">No.12 - <b>メカミルミさん、頑張る。</b></a><br>
+						<a href="no17.htm"><img src="../list/icon017.gif" border="0">No.17 - <b>ぼむぽよ～</b></a><br>
+						<a href="no24.htm"><img src="../list/icon024.png" border="0">No.24 - <b>逝道</b></a><br>
+						<a href="no25.htm"><img src="../list/icon025.png" border="0">No.25 - <b>たまつゆ</b></a><br>
+						<a href="no28.htm"><img src="../list/icon028_2.png" border="0">No.28 - <b>どらどら☆あいらんど・サガ</b></a><br>
+						<a href="no31.htm"><img src="../list/icon031.gif" border="0">No.31 - <b>キミが参加する謎解きADV</b></a><br>
+						<a href="no43.htm"><img src="../list/icon043.png" border="0">No.43 - <b>s2k3mp destroyer</b></a><br>
+						<a href="no48.htm"><img src="../list/icon048.png" border="0">No.48 - <b>妖精さんにロングソードは効くか</b></a><br>
+						<br>
+						<br>
+						<u>・以下詳細(準備中)</u><br>
+						<br>
+						<a href="01_wA9q_no.3.htm">No.3 - Curse Necklofar 灰色地帯の戦い</a><br>
+						<a href="02_lH7p_no.5.htm">No.5 - アルベド</a><br>
+						<a href="03_G8uI_no.6.htm">No.6 - バカスクリニック　そのよん</a><br>
+						<a href="04_0POe_no.8.htm">No.8 - torture</a><br>
+						<a href="05_mS3q_no.10.htm">No.10 - アレックス外伝～三人の勇者と復活の王～</a><br>
+						<a href="06_1Ggh_no.11.htm">No.11 - もしもクトゥルフ神話TRPGをプレイして遊んだら</a><br>
+						<a href="07_X67q_no.12.htm">No.12 - メカミルミさん、頑張る。</a><br>
+						<a href="08_UiS2_no.13.htm">No.13 - DRAGONASUN</a><br>
+						<a href="09_61Lk_no.15.htm">No.15 - すぱっちとサンディのイチャエロ生活</a><br>
+						<a href="10_jX38_no.16.htm">No.16 - もしも新キャラ図鑑2019年版</a><br>
+						<a href="11_aSq6_no.17.htm">No.17 - ぼむぽよ～</a><br>
+						No.19 - 主役キャラクターランキング2019<br>
+						<a href="13_tbP1_no.21.htm">No.21 - 狂鋼地獄街道滅多斬り祭り</a><br>
+						<a href="14_r7T1_no.22.htm">No.22 - 道具屋のおじさんのちょっとした話</a><br>
+						<a href="15_Poz2_no.23.htm">No.23 - RPGツクール2000　自己流データベースサンプル</a><br>
+						<a href="16_kaS3_no.24.htm">No.24 - 逝道</a><br>
+						No.25 - たまつゆ<br>
+						No.26 - もしも会話がマップチップだったら<br>
+						<a href="19_2Xd7_no.27.htm">No.27 - すみっこぐらし</a><br>
+						<a href="20_lJ8s_no.28.htm">No.28 - どらどら☆あいらんど・サガ</a><br>
+						<a href="21_u0Ub_no.29.htm">No.29 - 流刑島の墓守</a><br>
+						<a href="22_3O3r_no.30.htm">No.30 - 習作魔王把握</a><br>
+						<a href="23_aK50_no.31.htm">No.31 - キミが参加する謎解きADV</a><br>
+						<a href="24_g7Yq_no.32.htm">No.32 - 2019年を締めくくる</a><br>
+						<a href="25_87Nq_no.33.htm">No.33 - 脳死握り飯ツクール2019</a><br>
+						No.38 - ばぁすとすいーぱぁ<br>
+						<a href="27_Ws8o_no.39.htm">No.39 - Ⅰ is WORLD Ver2.0</a><br>
+						<a href="28_0Ok1_no.40.htm">No.40 - Stay With Boss　Q【ku:】</a><br>
+						<a href="29_j71A_no.41.htm">No.41 - Darkness2003</a><br>
+						<a href="30_e6Mn_no.42.htm">No.42 - 星の輝く丘の三人に</a><br>
+						<a href="31_Pk0q_no.43.htm">No.43 - s2k3mp destroyer</a><br>
+						<a href="32_t8P1_no.45.htm">No.45 - ひとふでマインサバイバー</a><br>
+						<a href="33_r8J1_no.46.htm">No.46 - ルンルン王女の大冒険</a><br>
+						<a href="34_bQ22_no.48.htm">No.48 - 妖精さんにロングソードは効くか</a><br>
+						<a href="35_8iQy_no.51.htm">No.51 - 締め切り２日前から作るクソゲー</a><br>
+					</div>
+					<div class="midasi"><div class="midasimozi">投票について</div></div>
+					<div class="midasisetumei">
+							紅白の組み分けは作品番号を基準とします。<br>
+							奇数番号が紅組、偶数番号が白組となります。<br>
+							<br>
+							開票時は各作品の各部門合計票を開票し、<br>
+							表彰では、合計票上位５つ、<br>
+							もしくは各部門いずれかの上位３つに入った作品を<br>
+							個別にページを１つ作り表彰させていただきます。（各部門への同時入賞に対応するため）<br>
+							組の勝敗は、各組の総合投票数によって決めさせていただきます。<br>
+							また表彰された作品の作者様にはメールにてコメントのご協力をお願いします。<br>
+							<a href="../schedule">スケジュールへ</a><br>
+							
+							<br>
+							投票部門は以下となります<br><br>
+							<b>・これはひどい部門</b><br>
+							　これはひどい！と思った作品へ<br>
+							　誉め言葉です<br><br>
+							<b>・熱中部門</b><br>
+							　何時間も一気にプレイしてしまった・・・<br>
+							　時間を忘れ熱中した作品へ<br><br>
+							<b>・技術部門</b><br>
+							　これがツクールで！？<br>
+							　作者の巧妙な腕が輝いていた作品へ<br><br>
+							<b>・シナリオ部門</b><br>
+							　物語の革命か<br>
+							　シナリオに心惹かれた作品へ<br><br>
+							<b>・ワロス部門</b><br>
+							　今日一日笑いが止まらなかった<br>
+							　とにかく笑った作品へ<br><br>
+							<b>・演出部門</b><br>
+							　見る目を惹いた！<br>
+							　演出に思わず驚いた作品へ<br><br>
+							<b>・遊びやすさ部門</b><br>
+							　なるほど分かりやすい！<br>
+							　文句なくスムーズに遊べた作品へ<br><br>
+							<b>・斬新部門</b><br>
+							　これは新しい！<br>
+							　今まで見たことのなかった作品へ<br><br>
+							<b>・いやらしさ部門</b><br>
+							　なんだこれは！けしからん！！<br>
+							　良い子には見せられないような作品へ<br>
+							　<br>
+							　<a href="no000.html">表彰ページサンプル<a>
+					</div>
+
+
+				</div>
+				<div class="tate">
+					<div class="about2">
+					<p>・投票結果・</p>
+					
+						総合部門<br>
+						1位<a href="no25.htm"><img src="../list/icon025.png" border="0"></a><br>
+						2位<a href="no48.htm"><img src="../list/icon048.png" border="0"></a><br>
+						3位<a href="no28.htm"><img src="../list/icon028_2.png" border="0"></a><br>
+						4位<a href="no17.htm"><img src="../list/icon017.gif" border="0"></a><br>
+						5位<a href="no24.htm"><img src="../list/icon024.png" border="0"></a><hr>
+						これひど部門<br>
+						1位<a href="no11.htm"><img src="../list/icon011.png" border="0"></a><br>
+						2位<a href="no25.htm"><img src="../list/icon025.png" border="0"></a><br>
+						3位<a href="no17.htm"><img src="../list/icon017.gif" border="0"></a><hr>
+						熱中部門<br>
+						1位<a href="no48.htm"><img src="../list/icon048.png" border="0"></a><br>
+						2位<a href="no28.htm"><img src="../list/icon028_2.png" border="0"></a><br>
+						3位<a href="no12.htm"><img src="../list/icon012.gif" border="0"></a><hr>
+						技術部門<br>
+						1位<a href="no28.htm"><img src="../list/icon028_2.png" border="0"></a><br>
+						2位<a href="no48.htm"><img src="../list/icon048.png" border="0"></a><br>
+						3位<a href="no43.htm"><img src="../list/icon043.png" border="0"></a><hr>
+						シナリオ部門<br>
+						1位<a href="no25.htm"><img src="../list/icon025.png" border="0"></a><br>
+						2位<a href="no24.htm"><img src="../list/icon024.png" border="0"></a><br>
+						3位<a href="no11.htm"><img src="../list/icon011.png" border="0"></a><hr>
+						ワロス部門<br>
+						1位<a href="no11.htm"><img src="../list/icon011.png" border="0"></a><br>
+						2位<a href="no25.htm"><img src="../list/icon025.png" border="0"></a><br>
+						3位<a href="no12.htm"><img src="../list/icon012.gif" border="0"></a><hr>
+						演出部門<br>
+						1位<a href="no24.htm"><img src="../list/icon024.png" border="0"></a><br>
+						1位<a href="no25.htm"><img src="../list/icon025.png" border="0"></a><br>
+						2位<a href="no48.htm"><img src="../list/icon048.png" border="0"></a><br>
+						3位<a href="no11.htm"><img src="../list/icon011.png" border="0"></a><hr>
+						遊びやすさ部門<br>
+						1位<a href="no12.htm"><img src="../list/icon012.gif" border="0"></a><br>
+						2位<a href="no24.htm"><img src="../list/icon024.png" border="0"></a><br>
+						3位<a href="no17.htm"><img src="../list/icon017.gif" border="0"></a><hr>
+						斬新部門<br>
+						1位<a href="no28.htm"><img src="../list/icon028_2.png" border="0"></a><br>
+						2位<a href="no31.htm"><img src="../list/icon031.gif" border="0"></a><br>
+						3位<a href="no17.htm"><img src="../list/icon017.gif" border="0"></a><hr>
+						いやらしさ部門<br>
+						1位<a href="no17.htm"><img src="../list/icon017.gif" border="0"></a><br>
+						2位<a href="no25.htm"><img src="../list/icon025.png" border="0"></a><br>
+						3位<a href="no24.htm"><img src="../list/icon024.png" border="0"></a><br>
+
+					</div>	
+				</div>
+				
+			</div>
+			
+			<div class="midasisetumei"><a href="../">TOPへ</a></div>
+		</div>
+			
+	<script><!--
+var footerparam = 'charset=' + encodeURIComponent(document.charset ? document.charset : document.characterSet) + '&url=' + encodeURIComponent(document.location) + '&service=1&r=' + Math.floor(Math.random()*99999999999);
+var footertag = "//vip-chps-api.2nt.com/apis/footer/?" + footerparam;
+var script = document.createElement('script');
+script.src = footertag;
+script.charset = "UTF-8";
+script.async = true;
+document.getElementsByTagName('head')[0].appendChild(script);
+//--></script>
+<!-- 2nt, inc.-->
+<img src="//media.fc2.com/counter_img.php?id=50" style="display:none" alt="inserted by 2nt system" width="0" height="0">
+<!-- 2nt, inc.--></body>
+</html>

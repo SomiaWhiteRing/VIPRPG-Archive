@@ -1,0 +1,2129 @@
+{
+  "festivalId": "2019-kouhaku",
+  "originalBase": "https://kohakuviprpg2019.x.2nt.com/",
+  "liveSource": true,
+  "proxyRegion": "Japan",
+  "sourceEncoding": "shift_jis",
+  "originalResources": {
+    "https://kohakuviprpg2019.x.2nt.com/index.html": "index.html",
+    "https://kohakuviprpg2019.x.2nt.com/schedule/": "schedule/index.html",
+    "https://kohakuviprpg2019.x.2nt.com/list/": "list/index.html",
+    "https://kohakuviprpg2019.x.2nt.com/voting/": "voting/index.html",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_1.htm": "list/no_1.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_0.html": "list/no_0.html",
+    "https://kohakuviprpg2019.x.2nt.com/": "index.html",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_3.htm": "list/no_3.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_4.htm": "list/no_4.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_0_2.html": "list/no_0_2.html",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_2.htm": "list/no_2.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_7.htm": "list/no_7.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_9.htm": "list/no_9.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_8.htm": "list/no_8.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_6.htm": "list/no_6.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_11.htm": "list/no_11.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_5.htm": "list/no_5.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_10.htm": "list/no_10.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_12.htm": "list/no_12.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_13.htm": "list/no_13.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_16.htm": "list/no_16.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_18.htm": "list/no_18.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_15.htm": "list/no_15.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_17.htm": "list/no_17.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_19.htm": "list/no_19.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_21.htm": "list/no_21.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_22.htm": "list/no_22.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_23.htm": "list/no_23.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_24.htm": "list/no_24.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_25.htm": "list/no_25.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_26.htm": "list/no_26.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_27.htm": "list/no_27.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_28.htm": "list/no_28.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_29.htm": "list/no_29.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_31.htm": "list/no_31.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_30.htm": "list/no_30.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_33.htm": "list/no_33.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_32.htm": "list/no_32.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_34.htm": "list/no_34.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_36.htm": "list/no_36.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_35.htm": "list/no_35.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_37.htm": "list/no_37.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_38.htm": "list/no_38.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_40.htm": "list/no_40.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_14.htm": "list/no_14.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_41.htm": "list/no_41.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_43.htm": "list/no_43.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_44.htm": "list/no_44.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_45.htm": "list/no_45.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_39.htm": "list/no_39.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_46.htm": "list/no_46.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_42.htm": "list/no_42.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_48.htm": "list/no_48.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_49.htm": "list/no_49.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_47.htm": "list/no_47.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_50.htm": "list/no_50.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_51.htm": "list/no_51.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_52.htm": "list/no_52.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_53.htm": "list/no_53.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_54.htm": "list/no_54.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_55.htm": "list/no_55.htm",
+    "https://kohakuviprpg2019.x.2nt.com/voting/no11.htm": "voting/no11.htm",
+    "https://kohakuviprpg2019.x.2nt.com/voting/no12.htm": "voting/no12.htm",
+    "https://kohakuviprpg2019.x.2nt.com/voting/no17.htm": "voting/no17.htm",
+    "https://kohakuviprpg2019.x.2nt.com/voting/no28.htm": "voting/no28.htm",
+    "https://kohakuviprpg2019.x.2nt.com/voting/no25.htm": "voting/no25.htm",
+    "https://kohakuviprpg2019.x.2nt.com/voting/no24.htm": "voting/no24.htm",
+    "https://kohakuviprpg2019.x.2nt.com/voting/no48.htm": "voting/no48.htm",
+    "https://kohakuviprpg2019.x.2nt.com/voting/no31.htm": "voting/no31.htm",
+    "https://kohakuviprpg2019.x.2nt.com/voting/01_wA9q_no.3.htm": "voting/01_wA9q_no.3.htm",
+    "https://kohakuviprpg2019.x.2nt.com/voting/no43.htm": "voting/no43.htm",
+    "https://kohakuviprpg2019.x.2nt.com/voting/02_lH7p_no.5.htm": "voting/02_lH7p_no.5.htm",
+    "https://kohakuviprpg2019.x.2nt.com/voting/05_mS3q_no.10.htm": "voting/05_mS3q_no.10.htm",
+    "https://kohakuviprpg2019.x.2nt.com/voting/03_G8uI_no.6.htm": "voting/03_G8uI_no.6.htm",
+    "https://kohakuviprpg2019.x.2nt.com/voting/04_0POe_no.8.htm": "voting/04_0POe_no.8.htm",
+    "https://kohakuviprpg2019.x.2nt.com/voting/06_1Ggh_no.11.htm": "voting/06_1Ggh_no.11.htm",
+    "https://kohakuviprpg2019.x.2nt.com/list/no_20.htm": "list/no_20.htm",
+    "https://kohakuviprpg2019.x.2nt.com/voting/07_X67q_no.12.htm": "voting/07_X67q_no.12.htm",
+    "https://kohakuviprpg2019.x.2nt.com/voting/08_UiS2_no.13.htm": "voting/08_UiS2_no.13.htm",
+    "https://kohakuviprpg2019.x.2nt.com/voting/10_jX38_no.16.htm": "voting/10_jX38_no.16.htm",
+    "https://kohakuviprpg2019.x.2nt.com/voting/09_61Lk_no.15.htm": "voting/09_61Lk_no.15.htm",
+    "https://kohakuviprpg2019.x.2nt.com/voting/15_Poz2_no.23.htm": "voting/15_Poz2_no.23.htm",
+    "https://kohakuviprpg2019.x.2nt.com/voting/13_tbP1_no.21.htm": "voting/13_tbP1_no.21.htm",
+    "https://kohakuviprpg2019.x.2nt.com/voting/14_r7T1_no.22.htm": "voting/14_r7T1_no.22.htm",
+    "https://kohakuviprpg2019.x.2nt.com/voting/16_kaS3_no.24.htm": "voting/16_kaS3_no.24.htm",
+    "https://kohakuviprpg2019.x.2nt.com/voting/19_2Xd7_no.27.htm": "voting/19_2Xd7_no.27.htm",
+    "https://kohakuviprpg2019.x.2nt.com/voting/11_aSq6_no.17.htm": "voting/11_aSq6_no.17.htm",
+    "https://kohakuviprpg2019.x.2nt.com/voting/20_lJ8s_no.28.htm": "voting/20_lJ8s_no.28.htm",
+    "https://kohakuviprpg2019.x.2nt.com/voting/22_3O3r_no.30.htm": "voting/22_3O3r_no.30.htm",
+    "https://kohakuviprpg2019.x.2nt.com/voting/21_u0Ub_no.29.htm": "voting/21_u0Ub_no.29.htm",
+    "https://kohakuviprpg2019.x.2nt.com/voting/25_87Nq_no.33.htm": "voting/25_87Nq_no.33.htm",
+    "https://kohakuviprpg2019.x.2nt.com/voting/23_aK50_no.31.htm": "voting/23_aK50_no.31.htm",
+    "https://kohakuviprpg2019.x.2nt.com/voting/24_g7Yq_no.32.htm": "voting/24_g7Yq_no.32.htm",
+    "https://kohakuviprpg2019.x.2nt.com/voting/29_j71A_no.41.htm": "voting/29_j71A_no.41.htm",
+    "https://kohakuviprpg2019.x.2nt.com/voting/27_Ws8o_no.39.htm": "voting/27_Ws8o_no.39.htm",
+    "https://kohakuviprpg2019.x.2nt.com/voting/28_0Ok1_no.40.htm": "voting/28_0Ok1_no.40.htm",
+    "https://kohakuviprpg2019.x.2nt.com/voting/32_t8P1_no.45.htm": "voting/32_t8P1_no.45.htm",
+    "https://kohakuviprpg2019.x.2nt.com/voting/30_e6Mn_no.42.htm": "voting/30_e6Mn_no.42.htm",
+    "https://kohakuviprpg2019.x.2nt.com/voting/31_Pk0q_no.43.htm": "voting/31_Pk0q_no.43.htm",
+    "https://kohakuviprpg2019.x.2nt.com/voting/33_r8J1_no.46.htm": "voting/33_r8J1_no.46.htm",
+    "https://kohakuviprpg2019.x.2nt.com/voting/34_bQ22_no.48.htm": "voting/34_bQ22_no.48.htm",
+    "https://kohakuviprpg2019.x.2nt.com/voting/no000.html": "voting/no000.html",
+    "https://kohakuviprpg2019.x.2nt.com/voting/35_8iQy_no.51.htm": "voting/35_8iQy_no.51.htm",
+    "https://kohakuviprpg2019.x.2nt.com/img/topbanar.png": "img/topbanar.png",
+    "https://kohakuviprpg2019.x.2nt.com/img/bbs.png": "img/bbs.png",
+    "https://kohakuviprpg2019.x.2nt.com/img/voting.png": "img/voting.png",
+    "https://kohakuviprpg2019.x.2nt.com/img/list.png": "img/list.png",
+    "https://kohakuviprpg2019.x.2nt.com/img/sxhedule.png": "img/sxhedule.png",
+    "https://kohakuviprpg2019.x.2nt.com/img/viprpg_kohaku2017.png": "img/viprpg_kohaku2017.png",
+    "https://kohakuviprpg2019.x.2nt.com/img/abouticon.png": "img/abouticon.png",
+    "https://kohakuviprpg2019.x.2nt.com/img/viprpg_kohaku2016.png": "img/viprpg_kohaku2016.png",
+    "https://kohakuviprpg2019.x.2nt.com/img/viprpg_kohaku2015.png": "img/viprpg_kohaku2015.png",
+    "https://kohakuviprpg2019.x.2nt.com/img/viprpg_kohaku2018.png": "img/viprpg_kohaku2018.png",
+    "https://kohakuviprpg2019.x.2nt.com/img/viprpg_kohaku2013.png": "img/viprpg_kohaku2013.png",
+    "https://kohakuviprpg2019.x.2nt.com/img/viprpg_kohaku2011.png": "img/viprpg_kohaku2011.png",
+    "https://kohakuviprpg2019.x.2nt.com/img/viprpg_kohaku2012.png": "img/viprpg_kohaku2012.png",
+    "https://kohakuviprpg2019.x.2nt.com/img/viprpg_kohaku2010.png": "img/viprpg_kohaku2010.png",
+    "https://kohakuviprpg2019.x.2nt.com/img/viprpg_kohaku2009.png": "img/viprpg_kohaku2009.png",
+    "https://kohakuviprpg2019.x.2nt.com/img/viprpg_kohaku2014.png": "img/viprpg_kohaku2014.png",
+    "https://kohakuviprpg2019.x.2nt.com/img/viprpg_kohaku2008.png": "img/viprpg_kohaku2008.png",
+    "https://kohakuviprpg2019.x.2nt.com/img/viprpg_kohaku2007.png": "img/viprpg_kohaku2007.png",
+    "https://kohakuviprpg2019.x.2nt.com/img/viprpg_kohaku2005.png": "img/viprpg_kohaku2005.png",
+    "https://kohakuviprpg2019.x.2nt.com/img/2019banner1.png": "img/2019banner1.png",
+    "https://kohakuviprpg2019.x.2nt.com/img/viprpg_kohaku2006.png": "img/viprpg_kohaku2006.png",
+    "https://kohakuviprpg2019.x.2nt.com/img/back2.png": "img/back2.png",
+    "https://kohakuviprpg2019.x.2nt.com/img/sxhedule_g.png": "img/sxhedule_g.png",
+    "https://kohakuviprpg2019.x.2nt.com/img/bbs_g.png": "img/bbs_g.png",
+    "https://kohakuviprpg2019.x.2nt.com/img/2019banner2.png": "img/2019banner2.png",
+    "https://kohakuviprpg2019.x.2nt.com/img/newtop.png": "img/newtop.png",
+    "https://kohakuviprpg2019.x.2nt.com/img/voting_g.png": "img/voting_g.png",
+    "https://kohakuviprpg2019.x.2nt.com/img/list_g.png": "img/list_g.png",
+    "https://kohakuviprpg2019.x.2nt.com/img/minibanar.png": "img/minibanar.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/sankalist.png": "list/sankalist.png",
+    "https://kohakuviprpg2019.x.2nt.com/img/about.png": "img/about.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/akagumi.png": "list/akagumi.png",
+    "https://kohakuviprpg2019.x.2nt.com/schedule/schedule_back.png": "schedule/schedule_back.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/time_medium.png": "list/time_medium.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/sirogumi.png": "list/sirogumi.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/icon003.png": "list/icon003.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/hosi.png": "list/hosi.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/icon001.png": "list/icon001.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/time_long.png": "list/time_long.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/icon004.png": "list/icon004.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/icon005.png": "list/icon005.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/icon007.png": "list/icon007.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/icon008.png": "list/icon008.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/icon011.png": "list/icon011.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/2000icon.png": "list/2000icon.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/icon010.bmp": "list/icon010.bmp",
+    "https://kohakuviprpg2019.x.2nt.com/list/icon012.gif": "list/icon012.gif",
+    "https://kohakuviprpg2019.x.2nt.com/list/icon015.png": "list/icon015.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/icon014.png": "list/icon014.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/icon013.png": "list/icon013.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/icon017.gif": "list/icon017.gif",
+    "https://kohakuviprpg2019.x.2nt.com/list/icon016.png": "list/icon016.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/icon020.png": "list/icon020.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/icon021.png": "list/icon021.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/icon019.png": "list/icon019.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/time_short.png": "list/time_short.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/icon028_2.png": "list/icon028_2.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/icon024.png": "list/icon024.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/icon029.bmp": "list/icon029.bmp",
+    "https://kohakuviprpg2019.x.2nt.com/list/icon031.gif": "list/icon031.gif",
+    "https://kohakuviprpg2019.x.2nt.com/list/icon033.png": "list/icon033.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/icon027.png": "list/icon027.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/icon034_2.png": "list/icon034_2.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/time_unknown.png": "list/time_unknown.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/icon039.png": "list/icon039.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/icon038.gif": "list/icon038.gif",
+    "https://kohakuviprpg2019.x.2nt.com/list/icon040.png": "list/icon040.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/icon037.png": "list/icon037.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/icon041.png": "list/icon041.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/icon048.png": "list/icon048.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/icon043.png": "list/icon043.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/icon046.PNG": "list/icon046.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/icon052.png": "list/icon052.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/icon050.jpg": "list/icon050.jpg",
+    "https://kohakuviprpg2019.x.2nt.com/list/icon054.png": "list/icon054.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/icon055.png": "list/icon055.png",
+    "https://kohakuviprpg2019.x.2nt.com/voting/votingback.png": "voting/votingback.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/new.gif": "list/new.gif",
+    "https://kohakuviprpg2019.x.2nt.com/voting/syouhai.png": "voting/syouhai.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no001_2.png": "list/no001_2.png",
+    "https://kohakuviprpg2019.x.2nt.com/voting/votingbanner.jpg": "voting/votingbanner.jpg",
+    "https://kohakuviprpg2019.x.2nt.com/voting/kekka.png": "voting/kekka.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/downlord_n.png": "list/downlord_n.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no000.jpg": "list/no000.jpg",
+    "https://kohakuviprpg2019.x.2nt.com/list/downlord_r.png": "list/downlord_r.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/list_back.jpg": "list/list_back.jpg",
+    "https://kohakuviprpg2019.x.2nt.com/list/no000u.jpg": "list/no000u.jpg",
+    "https://kohakuviprpg2019.x.2nt.com/list/no003_2.png": "list/no003_2.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no003u_3.png": "list/no003u_3.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no00.jpg": "list/no00.jpg",
+    "https://kohakuviprpg2019.x.2nt.com/list/no004_2u.png": "list/no004_2u.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/downlord_w.png": "list/downlord_w.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no00u.jpg": "list/no00u.jpg",
+    "https://kohakuviprpg2019.x.2nt.com/list/no007.png": "list/no007.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no002.png": "list/no002.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no009.png": "list/no009.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no008_3.png": "list/no008_3.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no008_2u.png": "list/no008_2u.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no006_2.png": "list/no006_2.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no005.png": "list/no005.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no010.png": "list/no010.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/icon025.png": "list/icon025.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no004_2.png": "list/no004_2.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no012_2.png": "list/no012_2.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no012u_2.png": "list/no012u_2.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no013.png": "list/no013.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no013u.png": "list/no013u.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no016_2.png": "list/no016_2.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no018.png": "list/no018.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no015.png": "list/no015.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no016u.png": "list/no016u.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no018u.png": "list/no018u.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no017_2u.png": "list/no017_2u.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no019.jpg": "list/no019.jpg",
+    "https://kohakuviprpg2019.x.2nt.com/list/no017_2.png": "list/no017_2.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no006_2u.png": "list/no006_2u.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no017u.png": "list/no017u.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no022.png": "list/no022.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no021u.png": "list/no021u.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no024u.png": "list/no024u.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no024.png": "list/no024.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no021.png": "list/no021.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no023.png": "list/no023.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no025.png": "list/no025.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no028.png": "list/no028.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no026.png": "list/no026.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no028u_2.png": "list/no028u_2.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no029u.png": "list/no029u.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no031.png": "list/no031.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no027.png": "list/no027.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no029.bmp": "list/no029.bmp",
+    "https://kohakuviprpg2019.x.2nt.com/list/no030.png": "list/no030.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no030u.png": "list/no030u.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no031u.png": "list/no031u.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no034_2.png": "list/no034_2.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no033u.jpg": "list/no033u.jpg",
+    "https://kohakuviprpg2019.x.2nt.com/list/no032.png": "list/no032.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no033.png": "list/no033.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no034u.png": "list/no034u.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no036.png": "list/no036.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no035.png": "list/no035.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no035u.png": "list/no035u.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no040u.png": "list/no040u.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no038.png": "list/no038.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no014.png": "list/no014.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no040.png": "list/no040.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no044_2.png": "list/no044_2.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no041.png": "list/no041.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no037.png": "list/no037.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no043.png": "list/no043.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no045.png": "list/no045.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no039_2.png": "list/no039_2.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no039u.png": "list/no039u.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no046_2.PNG": "list/no046_2.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no042u.jpg": "list/no042u.jpg",
+    "https://kohakuviprpg2019.x.2nt.com/list/no046u.PNG": "list/no046u.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no042.jpg": "list/no042.jpg",
+    "https://kohakuviprpg2019.x.2nt.com/list/no049.png": "list/no049.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no048.png": "list/no048.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no048u.png": "list/no048u.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no047u.png": "list/no047u.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no050.jpg": "list/no050.jpg",
+    "https://kohakuviprpg2019.x.2nt.com/list/no047.png": "list/no047.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no053.png": "list/no053.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no051.png": "list/no051.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no052.png": "list/no052.png",
+    "https://kohakuviprpg2019.x.2nt.com/voting/minivotingbanner.jpg": "voting/minivotingbanner.jpg",
+    "https://kohakuviprpg2019.x.2nt.com/voting/oukan1.png": "voting/oukan1.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no054.png": "list/no054.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no055.png": "list/no055.png",
+    "https://kohakuviprpg2019.x.2nt.com/voting/no012.png": "voting/no012.png",
+    "https://kohakuviprpg2019.x.2nt.com/voting/oukan4.png": "voting/oukan4.png",
+    "https://kohakuviprpg2019.x.2nt.com/voting/oukan3.png": "voting/oukan3.png",
+    "https://kohakuviprpg2019.x.2nt.com/voting/oukan2.png": "voting/oukan2.png",
+    "https://kohakuviprpg2019.x.2nt.com/voting/no17.png": "voting/no17.png",
+    "https://kohakuviprpg2019.x.2nt.com/voting/oukan5.png": "voting/oukan5.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no020.PNG": "list/no020.png",
+    "https://kohakuviprpg2019.x.2nt.com/voting/no011.png": "voting/no011.png",
+    "https://kohakuviprpg2019.x.2nt.com/voting/no48.png": "voting/no48.png",
+    "https://kohakuviprpg2019.x.2nt.com/voting/no24.png": "voting/no24.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no0171000x750_2.png": "list/no0171000x750_2.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no017u1000x750_2.png": "list/no017u1000x750_2.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no046e_1.PNG": "list/no046e_1.png",
+    "https://kohakuviprpg2019.x.2nt.com/list/no046e_2.PNG": "list/no046e_2.png",
+    "https://download1.getuploader.com/g/viprpgkouhaku2019ex/5/no011_2.gif": "g/viprpgkouhaku2019ex/5/no011_2.gif",
+    "https://kohakuviprpg2019.x.2nt.com/list/no011.mp4": "list/no011.mp4"
+  },
+  "sourceManifests": [
+    "source/replay/manifest.json"
+  ],
+  "entries": [
+    {
+      "id": "2019-kouhaku-work-00-sample-1",
+      "no": "0",
+      "sampleVariant": "1",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_0.html",
+      "sourceNumber": "No.0",
+      "sourceMetadata": {
+        "名前": "管理人",
+        "ジャンル": "クソゲー",
+        "ツクール": "2000",
+        "推定プレイ時間": "無限",
+        "動画/配信": "〇/〇"
+      },
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/2000icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no000.jpg",
+          "local": "/screenshots/2019-kouhaku/sample-1-source-1.jpg",
+          "sha256": "e8f617a9576edbf578aa03373cee71d3f495c96acd7e12e36a0e95ffe7d30740"
+        },
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no000u.jpg",
+          "local": "/screenshots/2019-kouhaku/sample-1-source-2.jpg",
+          "sha256": "3f0a49d7b161b89a349eb082a31ffbe7835f74dac4400dfb4b9895ca07c52b95"
+        }
+      ],
+      "authorTextLength": 337,
+      "hostTextLength": 45,
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-00-sample-2",
+      "no": "0",
+      "sampleVariant": "2",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_0_2.html",
+      "sourceNumber": "No.0",
+      "sourceMetadata": {
+        "ジャンル": "大長編",
+        "ツクール": "MV",
+        "推定プレイ時間": "5秒",
+        "動画/配信": "×/×"
+      },
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/2000icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no00.jpg",
+          "local": "/screenshots/2019-kouhaku/sample-2-source-1.jpg",
+          "sha256": "b21ead2107cddef9fb7b0b52000cc9eacde74a7a63d32faa3d17b5780af37222"
+        },
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no00u.jpg",
+          "local": "/screenshots/2019-kouhaku/sample-2-source-2.jpg",
+          "sha256": "2321785ca54390c5c3040dac75d5aff665d67d337f0acc5dec33ba115c1d3e52"
+        }
+      ],
+      "authorTextLength": 45,
+      "hostTextLength": 24,
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-01",
+      "no": "01",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_1.htm",
+      "sourceNumber": "No.1",
+      "sourceMetadata": {
+        "名前": "センター９",
+        "ジャンル": "見るゲ",
+        "ツクール": "2000",
+        "推定プレイ時間": "MEDIUM",
+        "動画/配信": "〇/〇"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/akagumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/icon001.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no001_2.png",
+          "local": "/screenshots/2019-kouhaku/01-source-1.png",
+          "sha256": "58bb0838ded6fd698e97d1a6668dc4370cad6e883fb56e377a5eecc25eac226a"
+        }
+      ],
+      "authorTextLength": 291,
+      "hostTextLength": 29,
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-02",
+      "no": "02",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_2.htm",
+      "sourceNumber": "No.2",
+      "sourceMetadata": {
+        "名前": "まーらーかお4",
+        "ジャンル": "見るゲ",
+        "ツクール": "steam2003",
+        "推定プレイ時間": "",
+        "動画/配信": "可"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/sirogumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/2000icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no002.png",
+          "local": "/screenshots/2019-kouhaku/02-source-1.png",
+          "sha256": "dd241fa5af178f93941ccf6e6fc1ff9483a141052893ef5a4ee47d7a445872a8"
+        }
+      ],
+      "authorTextLength": 240,
+      "hostTextLength": 54,
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-03",
+      "no": "03",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_3.htm",
+      "sourceNumber": "No.3",
+      "sourceMetadata": {
+        "名前": "最終兵器AQUHADE",
+        "ジャンル": "混ぜるな危険！を混ぜてしまった結果（中身は中編RPG）",
+        "ツクール": "RPGツクール2000",
+        "推定プレイ時間": "3時間～",
+        "動画/配信": "両方自己責任"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/akagumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/icon003.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no003_2.png",
+          "local": "/screenshots/2019-kouhaku/03-source-1.png",
+          "sha256": "148fa9fc9e92fc1da3eb92593c4442c6d3f131fe81e7f160373e75501c3fa8fa"
+        },
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no003u_3.png",
+          "local": "/screenshots/2019-kouhaku/03-source-2.png",
+          "sha256": "22497e8aacbddd69387cd64cda03d8d6b8b99dcaf6df1e75f8440f8e0d293691"
+        }
+      ],
+      "authorTextLength": 415,
+      "hostTextLength": 31,
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/open?id=1quxz9PYBMp85ECmSmGwADjwtniONUAr-",
+          "label": "DOWNLOAD(178.0Mb)"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-04",
+      "no": "04",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_4.htm",
+      "sourceNumber": "No.4",
+      "sourceMetadata": {
+        "名前": "北上　沙奈恵",
+        "ジャンル": "見るゲ",
+        "ツクール": "RPGツクール2000",
+        "推定プレイ時間": "30分～50分を目安に制作しています。",
+        "動画/配信": "どちらも可"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/sirogumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/icon004.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no004_2.png",
+          "local": "/screenshots/2019-kouhaku/04-source-1.png",
+          "sha256": "c3b8380b242ad165d6777b589a8dab70d8ff2358e622751201608286c7bc157d"
+        },
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no004_2u.png",
+          "local": "/screenshots/2019-kouhaku/04-source-2.png",
+          "sha256": "6e4c6bad1562038bab12bde146b8f412418fd3bb0082baf97524a7e013b5fb48"
+        }
+      ],
+      "authorTextLength": 289,
+      "hostTextLength": 26,
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-05",
+      "no": "05",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_5.htm",
+      "sourceNumber": "No.5",
+      "sourceMetadata": {
+        "名前": "あきこ",
+        "ジャンル": "見るゲ",
+        "ツクール": "ＲＰＧツクール2000",
+        "推定プレイ時間": "",
+        "動画/配信": "だいじょぶ/だいじょぶ"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/akagumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/icon005.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no005.png",
+          "local": "/screenshots/2019-kouhaku/05-source-1.png",
+          "sha256": "ddfb163fc732033f3ee7cc62c2e73e29791e035d8a9ecd1dde233996635bdda0"
+        }
+      ],
+      "authorTextLength": 58,
+      "hostTextLength": 17,
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/open?id=1iOyN-Q0x_IGJUNMVRDDJ0_AW5DC-iI_O",
+          "label": "DOWNLOAD(4.5Mb)"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-06",
+      "no": "06",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_6.htm",
+      "sourceNumber": "No.6",
+      "sourceMetadata": {
+        "名前": "ぬ",
+        "ジャンル": "デフォ戦",
+        "ツクール": "2000",
+        "推定プレイ時間": "",
+        "動画/配信": "動画　同梱txt参照/配信　可"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/sirogumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/2000icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no006_2.png",
+          "local": "/screenshots/2019-kouhaku/06-source-1.png",
+          "sha256": "b8c570ac9307a5d902a51718574b1e75435829385953d8790483fcfacb5596cb"
+        },
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no006_2u.png",
+          "local": "/screenshots/2019-kouhaku/06-source-2.png",
+          "sha256": "036a526b3e504efcfe9c19140cee2a001e9bd7e9e55bbf4e935ee7feb5713d14"
+        }
+      ],
+      "authorTextLength": 269,
+      "hostTextLength": 41,
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/open?id=1Km8ZoMDL0sNoOVe8tLuDUls5Sm4t0FNJ",
+          "label": "DOWNLOAD(92.4Mb)"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-07",
+      "no": "07",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_7.htm",
+      "sourceNumber": "No.7",
+      "sourceMetadata": {
+        "名前": "徳明",
+        "ジャンル": "TRPGリプレイ見るゲ",
+        "ツクール": "Steam版2003",
+        "推定プレイ時間": "まだ分からないから後で！",
+        "動画/配信": "プレイ動画・配信：共にOK"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/akagumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/icon007.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no007.png",
+          "local": "/screenshots/2019-kouhaku/07-source-1.png",
+          "sha256": "1a98098c9ac39c464b39343f2d831787caf7f62ddce76ce2e6f4dae97beafcc0"
+        }
+      ],
+      "authorTextLength": 342,
+      "hostTextLength": 24,
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-08",
+      "no": "08",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_8.htm",
+      "sourceNumber": "No.8",
+      "sourceMetadata": {
+        "名前": "Rossignol",
+        "ジャンル": "横スクロールアクション",
+        "ツクール": "steam2003",
+        "推定プレイ時間": "３時間",
+        "動画/配信": "可/可"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/sirogumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/icon008.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no008_3.png",
+          "local": "/screenshots/2019-kouhaku/08-source-1.png",
+          "sha256": "203b497c5f62cb56221cea13175729f4c850e89987f64c60b09af0a80bd629f3"
+        },
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no008_2u.png",
+          "local": "/screenshots/2019-kouhaku/08-source-2.png",
+          "sha256": "4cf05f170fdcdd87d0e53d7f70fd2b18331efdbb02f9a0fab06014ce596e38fe"
+        }
+      ],
+      "authorTextLength": 291,
+      "hostTextLength": 20,
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/open?id=1uEoU7KWajCiKnMBbz-jsokW-mpzov7Sw",
+          "label": "DOWNLOAD(9.0Mb)"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-09",
+      "no": "09",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_9.htm",
+      "sourceNumber": "No.9",
+      "sourceMetadata": {
+        "名前": "かに",
+        "ジャンル": "",
+        "ツクール": "２０００",
+        "推定プレイ時間": "",
+        "動画/配信": "どっちもおｋです。"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/akagumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/2000icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no009.png",
+          "local": "/screenshots/2019-kouhaku/09-source-1.png",
+          "sha256": "6d9ec8b7f2d5a6863db1475ed523b52b776189089bf750df52482a8942c60349"
+        }
+      ],
+      "authorTextLength": 25,
+      "hostTextLength": 30,
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-10",
+      "no": "10",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_10.htm",
+      "sourceNumber": "No.10",
+      "sourceMetadata": {
+        "名前": "アレックス（はちまき）",
+        "ジャンル": "見るゲー",
+        "ツクール": "２０００",
+        "推定プレイ時間": "一時間",
+        "動画/配信": "どちらとも可"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/sirogumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/icon010.bmp",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no010.png",
+          "local": "/screenshots/2019-kouhaku/10-source-1.png",
+          "sha256": "10f3b4d02f228d2a674361e36d3c93a2d6c3d48a86496973ef7b4b6cd498c7ef"
+        }
+      ],
+      "authorTextLength": 27,
+      "hostTextLength": 41,
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/open?id=1wZYu9ax8ma9OdxSDbhdb_RY0r4ve_7My",
+          "label": "DOWNLOAD(48.0Mb)"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-11",
+      "no": "11",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_11.htm",
+      "sourceNumber": "No.11",
+      "sourceMetadata": {
+        "名前": "ジーノ",
+        "ジャンル": "リプレイksg",
+        "ツクール": "RPG2000",
+        "推定プレイ時間": "",
+        "動画/配信": "どんどんどうぞ"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/akagumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/icon011.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://download1.getuploader.com/g/viprpgkouhaku2019ex/5/no011_2.gif",
+          "local": "/screenshots/2019-kouhaku/11-source-1.gif",
+          "sha256": "2279e3a2aa583af19c0f0b80a646b5f52135b91ebb80f9766701d3e3c454e5eb"
+        }
+      ],
+      "authorTextLength": 210,
+      "hostTextLength": 56,
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/open?id=1XaOJzSz_ZfrWkBG7mEheF3zYrTFfCxWQ",
+          "label": "DOWNLOAD(28.9Mb)"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-12",
+      "no": "12",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_12.htm",
+      "sourceNumber": "No.12",
+      "sourceMetadata": {
+        "名前": "下呂射部/玖号",
+        "ジャンル": "短編デフォ戦RPG",
+        "ツクール": "ツクール2000",
+        "推定プレイ時間": "２～３時間。",
+        "動画/配信": "カモン／ベイベ"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/sirogumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/icon012.gif",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no012_2.png",
+          "local": "/screenshots/2019-kouhaku/12-source-1.png",
+          "sha256": "a177900bb3987d34b06eda1d60d1e53b876f2df54f733e941f814d76219373fa"
+        },
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no012u_2.png",
+          "local": "/screenshots/2019-kouhaku/12-source-2.png",
+          "sha256": "350603dc0c2d52b2306da8af2c7ac83c96c271b07e4a6e8b19b0f7b22660d954"
+        }
+      ],
+      "authorTextLength": 589,
+      "hostTextLength": 26,
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/open?id=1P87hbS5KAnjlpQeDxLffPDbZlH66ziin",
+          "label": "DOWNLOAD(58.7Mb)"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-13",
+      "no": "13",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_13.htm",
+      "sourceNumber": "No.13",
+      "sourceMetadata": {
+        "名前": "HOT-W",
+        "ジャンル": "やるげ",
+        "ツクール": "STEAM版RPGMAKER2003",
+        "推定プレイ時間": "１～2時間に収まるように作りたいなぁ",
+        "動画/配信": "両方可"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/akagumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/icon013.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no013.png",
+          "local": "/screenshots/2019-kouhaku/13-source-1.png",
+          "sha256": "56f079e4536bd0dbc3a4f742a1a4ace7af83b87bef8847bc7d289ab7639d501c"
+        },
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no013u.png",
+          "local": "/screenshots/2019-kouhaku/13-source-2.png",
+          "sha256": "63712118cf30c8ff8fdd20cc0857bf5a224a487abd7aea2ca5e7948b7cc0bd2c"
+        }
+      ],
+      "authorTextLength": 299,
+      "hostTextLength": 26,
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/open?id=1U3tn0ht80zbsHchZ-bPvNgtg1ig73myN",
+          "label": "DOWNLOAD(23.1Mb)"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-14",
+      "no": "14",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_14.htm",
+      "sourceNumber": "No.14",
+      "sourceMetadata": {
+        "名前": "イグサ",
+        "ジャンル": "長編ｋｓｇ",
+        "ツクール": "Steam2003",
+        "推定プレイ時間": "30分",
+        "動画/配信": "不可"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/sirogumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/icon014.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no014.png",
+          "local": "/screenshots/2019-kouhaku/14-source-1.png",
+          "sha256": "5c907eadf069219480ea8d9e4081b0bf1d4eaf0f99f811f921346566b38518c0"
+        }
+      ],
+      "authorTextLength": 53,
+      "hostTextLength": 36,
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-15",
+      "no": "15",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_15.htm",
+      "sourceNumber": "No.15",
+      "sourceMetadata": {
+        "名前": "名無しについて",
+        "ジャンル": "バーストⅡが怒りそうなラヴラヴエロゲ",
+        "ツクール": "2000",
+        "推定プレイ時間": "たぶんミディアム",
+        "動画/配信": "・プレイ動画　ハーたんがまともな料理を作るほどありえない/・配信　ゴメスが女を襲うほどありえない"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/akagumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/icon015.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no015.png",
+          "local": "/screenshots/2019-kouhaku/15-source-1.png",
+          "sha256": "8078c6d8e20d702ead17a92a8947ff7d95e5ca8a8a4890cd5ab90203fc72a571"
+        }
+      ],
+      "authorTextLength": 108,
+      "hostTextLength": 21,
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/open?id=195IL8agwe2lGFsl-114q_lbm3xFHK7XA",
+          "label": "DOWNLOAD(13.3Mb)"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-16",
+      "no": "16",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_16.htm",
+      "sourceNumber": "No.16",
+      "sourceMetadata": {
+        "名前": "雨水梨",
+        "ジャンル": "資料＋？？？",
+        "ツクール": "2000",
+        "推定プレイ時間": "30分～60分",
+        "動画/配信": "可・可"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/sirogumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/icon016.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no016_2.png",
+          "local": "/screenshots/2019-kouhaku/16-source-1.png",
+          "sha256": "7c561e91a74c06ab56e4e3a89debfd90a07718a39c4c131f226e72d4c02ce5c3"
+        },
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no016u.png",
+          "local": "/screenshots/2019-kouhaku/16-source-2.png",
+          "sha256": "291ada74427df7de0195b082afd2906e893aa4850dac67b1b8e87426d6b89fb8"
+        }
+      ],
+      "authorTextLength": 611,
+      "hostTextLength": 28,
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/open?id=1dfJjjvCsE_ObZgxbodlPhoQtluvCPkKh",
+          "label": "DOWNLOAD(3.2Mb)"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-17",
+      "no": "17",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_17.htm",
+      "sourceNumber": "No.17",
+      "sourceMetadata": {
+        "名前": "うどん屋さん",
+        "ジャンル": "変身バラエティＲＰＧ",
+        "ツクール": "RPGツクールVXAce",
+        "推定プレイ時間": "２～３時間ぐらいの予定です",
+        "動画/配信": "自己責任でオッケ～。"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/akagumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/icon017.gif",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no017_2.png",
+          "local": "/screenshots/2019-kouhaku/17-source-1.png",
+          "sha256": "abe20ab139098ad81f1e34679ceb1cb25207dfabd80fd84b5228d4b17323448e"
+        },
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no017_2u.png",
+          "local": "/screenshots/2019-kouhaku/17-source-2.png",
+          "sha256": "f6b73a31dd1ea1c8df145b0684f738b3c89b030bbfb61a451b84bb972d9eb454"
+        },
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no0171000x750_2.png",
+          "local": "/screenshots/2019-kouhaku/17-source-3.png",
+          "sha256": "707816d69ac844931880b7192c262da39cd3ecb16ef29d4c0133a2f1dc081292"
+        },
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no017u1000x750_2.png",
+          "local": "/screenshots/2019-kouhaku/17-source-4.png",
+          "sha256": "5126b7064bbe1f4c835b43c51f1aad8ee64185df1815f19dfc895aac7055a3c2"
+        }
+      ],
+      "authorTextLength": 535,
+      "hostTextLength": 71,
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/open?id=1hJS50c8E8iq26myTZ1VWKW8jzoeBPAOp",
+          "label": "DOWNLOAD(142.7Mb)"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-18",
+      "no": "18",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_18.htm",
+      "sourceNumber": "No.18",
+      "sourceMetadata": {
+        "名前": "ね",
+        "ジャンル": "講座",
+        "ツクール": "MV",
+        "推定プレイ時間": "まだ不明",
+        "動画/配信": "お好きに/どうぞ"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/sirogumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/2000icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no018.png",
+          "local": "/screenshots/2019-kouhaku/18-source-1.png",
+          "sha256": "e57d96be4f7980c160ed6d0477856d436ee3d33f748b1f6c2db8e68e597a9879"
+        },
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no018u.png",
+          "local": "/screenshots/2019-kouhaku/18-source-2.png",
+          "sha256": "7504c71db43829a9ea733318b6862eea956abd54ce39314672b70632413ac7c4"
+        }
+      ],
+      "authorTextLength": 171,
+      "hostTextLength": 31,
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-19",
+      "no": "19",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_19.htm",
+      "sourceNumber": "No.19",
+      "sourceMetadata": {
+        "名前": "秋草",
+        "ジャンル": "ランキング",
+        "ツクール": "2000",
+        "推定プレイ時間": "10～20分程度",
+        "動画/配信": "どちらも可"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/akagumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/icon019.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no019.jpg",
+          "local": "/screenshots/2019-kouhaku/19-source-1.jpg",
+          "sha256": "1883d991adbc2fc5c8f0ab44a6fe897b3fcf250544406fc06e111c0a82128946"
+        }
+      ],
+      "authorTextLength": 237,
+      "hostTextLength": 18,
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/open?id=1RoARUjruOvIK7h7wNk-FdYBWM1Efa0NH",
+          "label": "DOWNLOAD(9.1Mb)"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-20",
+      "no": "20",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_20.htm",
+      "sourceNumber": "No.20",
+      "sourceMetadata": {
+        "名前": "輪ゴムでべそマン",
+        "ジャンル": "ヘソフェチ向けｋｓｇ集",
+        "ツクール": "2003Steam",
+        "推定プレイ時間": "不明",
+        "動画/配信": "R-18ではないのでどうぞ"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/sirogumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/icon020.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no020.PNG",
+          "local": "/screenshots/2019-kouhaku/20-source-1.png",
+          "sha256": "98007819ed5e6fd6c3590d7fb04bb2cf71dc485705967a5082492395447e6816"
+        }
+      ],
+      "authorTextLength": 124,
+      "hostTextLength": 23,
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-21",
+      "no": "21",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_21.htm",
+      "sourceNumber": "No.21",
+      "sourceMetadata": {
+        "名前": "ゑびす",
+        "ジャンル": "剣術RPG",
+        "ツクール": "RPGツクール2000",
+        "推定プレイ時間": "10時間くらい？",
+        "動画/配信": "共に大歓迎"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/akagumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/icon021.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no021.png",
+          "local": "/screenshots/2019-kouhaku/21-source-1.png",
+          "sha256": "8526afb0e2569a6fa4092ee9438691f88becef6189136a6418d7e773f0e715ef"
+        },
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no021u.png",
+          "local": "/screenshots/2019-kouhaku/21-source-2.png",
+          "sha256": "d8e63ca05413b360b1e640692683481ae7853bde1c8437cfcfd1b02a537a2246"
+        }
+      ],
+      "authorTextLength": 530,
+      "hostTextLength": 29,
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/open?id=10mLjV4vif-HaB0_2NEcZ-EAAEt8um-so",
+          "label": "DOWNLOAD(119.9Mb)"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-22",
+      "no": "22",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_22.htm",
+      "sourceNumber": "No.22",
+      "sourceMetadata": {
+        "名前": "天丼食べたい",
+        "ジャンル": "",
+        "ツクール": "RPGツクール2000",
+        "推定プレイ時間": "5～10分",
+        "動画/配信": "否（未表記）"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/sirogumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/2000icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no022.png",
+          "local": "/screenshots/2019-kouhaku/22-source-1.png",
+          "sha256": "9d61d43ccc7e152b26f99e74eccda37aad06dae302e32323fde79ad4fde266c6"
+        }
+      ],
+      "authorTextLength": 22,
+      "hostTextLength": 31,
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/open?id=1xXKluiDMPR-2VNoCM4h3bmxh1HVJTGY2",
+          "label": "DOWNLOAD(431.7kb)"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-23",
+      "no": "23",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_23.htm",
+      "sourceNumber": "No.23",
+      "sourceMetadata": {
+        "名前": "ハルマキ",
+        "ジャンル": "データ集兼体験ゲーム",
+        "ツクール": "RPGツクール2000",
+        "推定プレイ時間": "約30分（じっくり体験した場合）",
+        "動画/配信": "両方可（むしろ広めてください）"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/akagumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/2000icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no023.png",
+          "local": "/screenshots/2019-kouhaku/23-source-1.png",
+          "sha256": "6681b9c3398a785430eaeaf5615b305856abb772f8e3ec8d7ddcb85b2540f7ce"
+        }
+      ],
+      "authorTextLength": 289,
+      "hostTextLength": 34,
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/open?id=1Tbhh7e-OhYSWLagdV-osAxVwEKExW-xb",
+          "label": "DOWNLOAD(107.1kb)"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-24",
+      "no": "24",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_24.htm",
+      "sourceNumber": "No.24",
+      "sourceMetadata": {
+        "名前": "病葉",
+        "ジャンル": "ノンフィールドRPG",
+        "ツクール": "2000",
+        "推定プレイ時間": "30分",
+        "動画/配信": "どちらも可"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/sirogumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/icon024.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no024.png",
+          "local": "/screenshots/2019-kouhaku/24-source-1.png",
+          "sha256": "8807d2a6a24f0b422bbe0744657d16eb2b83624863165147628281224bc1003b"
+        },
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no024u.png",
+          "local": "/screenshots/2019-kouhaku/24-source-2.png",
+          "sha256": "f73c691bd8bf03ee6e48b73b4c410ccab1947be35a356790ac98a7dca5c2ba50"
+        }
+      ],
+      "authorTextLength": 31,
+      "hostTextLength": 32,
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/open?id=1v68WtCbeaxl3QJftpzLRWukNWoc1plvk",
+          "label": "DOWNLOAD(7.1Mb)"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-25",
+      "no": "25",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_25.htm",
+      "sourceNumber": "No.25",
+      "sourceMetadata": {
+        "名前": "ぺろはむ",
+        "ジャンル": "読むゲ",
+        "ツクール": "2000",
+        "推定プレイ時間": "1H",
+        "動画/配信": "可/可"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/akagumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/icon025.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no025.png",
+          "local": "/screenshots/2019-kouhaku/25-source-1.png",
+          "sha256": "89fd57655524d053d4f16d0ce6073407e3b293116e7ea857e9a442dc82fe04ec"
+        }
+      ],
+      "authorTextLength": 23,
+      "hostTextLength": 32,
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/open?id=1eFQQ7g4tE8D_OxQuOdH70FN5zv_0wLIx",
+          "label": "DOWNLOAD(5.7Mb)"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-26",
+      "no": "26",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_26.htm",
+      "sourceNumber": "No.26",
+      "sourceMetadata": {
+        "名前": "屋比久",
+        "ジャンル": "ksg",
+        "ツクール": "2000",
+        "推定プレイ時間": "2分ぐらい",
+        "動画/配信": "ダメ"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/sirogumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/2000icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no026.png",
+          "local": "/screenshots/2019-kouhaku/26-source-1.png",
+          "sha256": "67002b84b68d21c9eff23d6073fdf8ea1d70d6574e1d4b1b1f4628359827bfdc"
+        }
+      ],
+      "authorTextLength": 24,
+      "hostTextLength": 41,
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/open?id=1sYfdoT_i9_YyYH0wi1g7B8VnPSowN38Z",
+          "label": "DOWNLOAD(103.2kb)"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-27",
+      "no": "27",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_27.htm",
+      "sourceNumber": "No.27",
+      "sourceMetadata": {
+        "名前": "スミッコニアン博物館",
+        "ジャンル": "ksg",
+        "ツクール": "2000",
+        "推定プレイ時間": "1分",
+        "動画/配信": "両方可"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/akagumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/icon027.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no027.png",
+          "local": "/screenshots/2019-kouhaku/27-source-1.png",
+          "sha256": "8f4482960f4b1a3677f9b3ac2017c315090489ac8f6161c382f9cd96e533627d"
+        }
+      ],
+      "authorTextLength": 32,
+      "hostTextLength": 43,
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/open?id=1BBMtaR_OlYZpryi1xji1ICTYxFvAk7wZ",
+          "label": "DOWNLOAD(730.3kb)"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-28",
+      "no": "28",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_28.htm",
+      "sourceNumber": "No.28",
+      "sourceMetadata": {
+        "名前": "メロディックデス憲法21条1項および同条2項前段",
+        "ジャンル": "ドラゴン娘の孤島開拓ほのぼのRTS",
+        "ツクール": "Steam版2003",
+        "推定プレイ時間": "未定",
+        "動画/配信": "好きにしろ"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/sirogumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/icon028_2.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no028.png",
+          "local": "/screenshots/2019-kouhaku/28-source-1.png",
+          "sha256": "defba8ecb4b215c95ec7d64f94bf4acee2df4c03b84815544c0eb4cc75f0487f"
+        },
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no028u_2.png",
+          "local": "/screenshots/2019-kouhaku/28-source-2.png",
+          "sha256": "844ab7f14669fab17b405809ed39911c5db7e5eae46421ccd10a5b268c62d85b"
+        }
+      ],
+      "authorTextLength": 208,
+      "hostTextLength": 42,
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/open?id=1zKYaajg_cwP2INfPxjfMyWWhUtBL1aZf",
+          "label": "DOWNLOAD(22.0Mb)"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-29",
+      "no": "29",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_29.htm",
+      "sourceNumber": "No.29",
+      "sourceMetadata": {
+        "名前": "みんぱる",
+        "ジャンル": "ノベルゲーム",
+        "ツクール": "RPGツクール2000",
+        "推定プレイ時間": "五時間",
+        "動画/配信": "可能。見たいので、教えてくれたら見に行きます。"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/akagumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/icon029.bmp",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no029u.png",
+          "local": "/screenshots/2019-kouhaku/29-source-1.png",
+          "sha256": "7ca5732b765719e15aab30e0cef9302a56923470fd5d491a697da66cb02d74c8"
+        },
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no029.bmp",
+          "local": "/screenshots/2019-kouhaku/29-source-2.bmp",
+          "sha256": "efb9d20a11bd7dff4e491b3d4bde4e9351a7052769a9e861cf1cbc8a3867b09b"
+        }
+      ],
+      "authorTextLength": 6,
+      "hostTextLength": 20,
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/open?id=1pdeOa1-WFcY1gXtcU0dckFX_NCGMzG5Z",
+          "label": "DOWNLOAD(23.5Mb)"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-30",
+      "no": "30",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_30.htm",
+      "sourceNumber": "No.30",
+      "sourceMetadata": {
+        "名前": "桑田 \"Mimic\" レイ",
+        "ジャンル": "ただの魔王把握",
+        "ツクール": "2000 VALUE!+",
+        "推定プレイ時間": "全部合わせて大体40分～1時間程",
+        "動画/配信": "共に可、ただしそれをやるほどの価値があるかは…"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/sirogumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/2000icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no030.png",
+          "local": "/screenshots/2019-kouhaku/30-source-1.png",
+          "sha256": "93fcb796dc5d28e15a30b858aa2b191a165e723236dfccb86666679b86ece1db"
+        },
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no030u.png",
+          "local": "/screenshots/2019-kouhaku/30-source-2.png",
+          "sha256": "75ab89006c71cda46602bb38960e413be5d08bd8c99f0d1f6f5bf5b859fdcf2d"
+        }
+      ],
+      "authorTextLength": 123,
+      "hostTextLength": 29,
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/open?id=1eOchiiLqLvo91rblLSVqJ-0lHOPQDLpv",
+          "label": "DOWNLOAD(14.1Mb)"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-31",
+      "no": "31",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_31.htm",
+      "sourceNumber": "No.31",
+      "sourceMetadata": {
+        "名前": "うらん・りん・れじうむ",
+        "ジャンル": "謎解きADV",
+        "ツクール": "RPGツクール2000",
+        "推定プレイ時間": "1時間未満",
+        "動画/配信": "可。ただし仕様上やりにくいかも"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/akagumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/icon031.gif",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no031.png",
+          "local": "/screenshots/2019-kouhaku/31-source-1.png",
+          "sha256": "e0a803e28cb842672d97a26fa28266c5f049b03e4fddf805ba2e65de215d0356"
+        },
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no031u.png",
+          "local": "/screenshots/2019-kouhaku/31-source-2.png",
+          "sha256": "fb95e2c538b51d0e75c911dee9d52d39d251483438963df3992d46c1b6586633"
+        }
+      ],
+      "authorTextLength": 322,
+      "hostTextLength": 41,
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/open?id=1cr05dTVxW-6fTpEINTpp1Vmn5NznUXlL",
+          "label": "DOWNLOAD(6.0Mb)"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-32",
+      "no": "32",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_32.htm",
+      "sourceNumber": "No.32",
+      "sourceMetadata": {
+        "名前": "Donald John Trump",
+        "ジャンル": "今世紀最大の締めくくり",
+        "ツクール": "ツクール2000",
+        "推定プレイ時間": "",
+        "動画/配信": "2020年になってから可"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/sirogumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/2000icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no032.png",
+          "local": "/screenshots/2019-kouhaku/32-source-1.png",
+          "sha256": "08390015b5fa1d43b174f4a9d4aadae96e332a25386dad681625ce5d95ea42a5"
+        }
+      ],
+      "authorTextLength": 15,
+      "hostTextLength": 45,
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/open?id=14D2DhKH_4Xrtur9fmdqYGL7XhUWhXo4j",
+          "label": "DOWNLOAD(75.2kb)"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-33",
+      "no": "33",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_33.htm",
+      "sourceNumber": "No.33",
+      "sourceMetadata": {
+        "名前": "エル",
+        "ジャンル": "くそげ",
+        "ツクール": "2000",
+        "推定プレイ時間": "いつまでも",
+        "動画/配信": "叶姉妹"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/akagumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/icon033.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no033.png",
+          "local": "/screenshots/2019-kouhaku/33-source-1.png",
+          "sha256": "393d6dada47f05ab89c5c6d8d2cec732ad3d8d54fd5ddd1b5c2ce4e55dc0a47e"
+        },
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no033u.jpg",
+          "local": "/screenshots/2019-kouhaku/33-source-2.jpg",
+          "sha256": "41680a7c06dcba0f2d2be8024a804522f8011f6b002b6ee4ee596d9b6999b3c6"
+        }
+      ],
+      "authorTextLength": 315,
+      "hostTextLength": 28,
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/open?id=1tqENXc9HOY5a56eUw090vxySb2qjbnsJ",
+          "label": "DOWNLOAD(6.6Mb)"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-34",
+      "no": "34",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_34.htm",
+      "sourceNumber": "No.34",
+      "sourceMetadata": {
+        "名前": "にしぇ＠高揚の風",
+        "ジャンル": "やるゲ",
+        "ツクール": "2000のまま変更なし",
+        "推定プレイ時間": "時間がかかるかもしれないし、そうじゃないかもしれない",
+        "動画/配信": "自己責任でGO"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/sirogumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/icon034_2.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no034_2.png",
+          "local": "/screenshots/2019-kouhaku/34-source-1.png",
+          "sha256": "d915bca4df717fe97550a130b7b665a3379255befc59618eb58fffc908e43e4b"
+        },
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no034u.png",
+          "local": "/screenshots/2019-kouhaku/34-source-2.png",
+          "sha256": "c61362a214a0426b4e3d2e561765b6122c25c3b7a4bb9e12829270c15eb96bce"
+        }
+      ],
+      "authorTextLength": 43,
+      "hostTextLength": 37,
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-35",
+      "no": "35",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_35.htm",
+      "sourceNumber": "No.35",
+      "sourceMetadata": {
+        "名前": "イカスミ",
+        "ジャンル": "マップ再現系魔王把握",
+        "ツクール": "2000",
+        "推定プレイ時間": "ハイリア人ならクリアまでそうかからない。",
+        "動画/配信": "ありえないと思うけど可"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/akagumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/2000icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no035.png",
+          "local": "/screenshots/2019-kouhaku/35-source-1.png",
+          "sha256": "07aef231882cdba75c01753d48665539033ee426fe6f323ce901c55c29608228"
+        },
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no035u.png",
+          "local": "/screenshots/2019-kouhaku/35-source-2.png",
+          "sha256": "fe78564bd57f28c1800964d432d8f1f4fa0e43334a5c60d6dd70bb0d0a0eefe1"
+        }
+      ],
+      "authorTextLength": 442,
+      "hostTextLength": 24,
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-36",
+      "no": "36",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_36.htm",
+      "sourceNumber": "No.36",
+      "sourceMetadata": {
+        "名前": "Konzept",
+        "ジャンル": "ksg",
+        "ツクール": "2000",
+        "推定プレイ時間": "10分ぐらい",
+        "動画/配信": "恥ずかしいけどOK"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/sirogumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/2000icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no036.png",
+          "local": "/screenshots/2019-kouhaku/36-source-1.png",
+          "sha256": "7951615be9db0e3ad50021c2e5355c97e14895e31f5f8417049fc2d2b1b78e81"
+        }
+      ],
+      "authorTextLength": 28,
+      "hostTextLength": 31,
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-37",
+      "no": "37",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_37.htm",
+      "sourceNumber": "No.37",
+      "sourceMetadata": {
+        "名前": "黒糖まんじゅう",
+        "ジャンル": "多分見るゲ",
+        "ツクール": "ＲＰＧツクール2000",
+        "推定プレイ時間": "３０分～１時間程度（予定）",
+        "動画/配信": "自己責任でお願いします"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/akagumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/icon037.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no037.png",
+          "local": "/screenshots/2019-kouhaku/37-source-1.png",
+          "sha256": "2220aa4b52533090b64bef87b68291f793d66d5df91f2372f250bcdaeb2086f5"
+        }
+      ],
+      "authorTextLength": 105,
+      "hostTextLength": 38,
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-38",
+      "no": "38",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_38.htm",
+      "sourceNumber": "No.38",
+      "sourceMetadata": {
+        "名前": "豆狸",
+        "ジャンル": "パズル",
+        "ツクール": "2000",
+        "推定プレイ時間": "5分",
+        "動画/配信": "○/○"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/sirogumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/icon038.gif",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no038.png",
+          "local": "/screenshots/2019-kouhaku/38-source-1.png",
+          "sha256": "c0aff25e08d7851b64571f2cd5ab3d1136667c404f4c6676e9956d8e5be780f8"
+        }
+      ],
+      "authorTextLength": 31,
+      "hostTextLength": 38,
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/open?id=1tP4gd7o05KYlZXfpAMbOIYLYkNoGd36k",
+          "label": "DOWNLOAD(515.2Kb)"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-39",
+      "no": "39",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_39.htm",
+      "sourceNumber": "No.39",
+      "sourceMetadata": {
+        "名前": "（R）DU",
+        "ジャンル": "デフォ戦やるゲー",
+        "ツクール": "RPGツクールMV",
+        "推定プレイ時間": "LONG",
+        "動画/配信": "両方OK"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/akagumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/icon039.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no039_2.png",
+          "local": "/screenshots/2019-kouhaku/39-source-1.png",
+          "sha256": "c85dad4a78fec044f1a01a931d85300e59ed4463aa043e16eb8c1737dcb7d336"
+        },
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no039u.png",
+          "local": "/screenshots/2019-kouhaku/39-source-2.png",
+          "sha256": "22c93b770ec9a08b0d31d0e53239cb7d718f5683185dd1bdd651b58b49c579c4"
+        }
+      ],
+      "authorTextLength": 349,
+      "hostTextLength": 26,
+      "downloadLinks": [
+        {
+          "url": "https://kohakuviprpg2019.x.2nt.com/list/no_39.htm",
+          "label": "DOWNLOAD(532.9Mb)"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-40",
+      "no": "40",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_40.htm",
+      "sourceNumber": "No.40",
+      "sourceMetadata": {
+        "名前": "カナエール教永遠宗信徒",
+        "ジャンル": "固定シナリオデフォ戦",
+        "ツクール": "2000",
+        "推定プレイ時間": "MEDIUM",
+        "動画/配信": "劇物につき自己責任"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/sirogumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/icon040.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no040.png",
+          "local": "/screenshots/2019-kouhaku/40-source-1.png",
+          "sha256": "871d700fa1b9d80d534d2ed4f859e17a04b5a8232a8f487f2c472a545efe1c4f"
+        },
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no040u.png",
+          "local": "/screenshots/2019-kouhaku/40-source-2.png",
+          "sha256": "78cc06239b82391f631cf704d05dc5d20b1398b40fbbe3bcd23464d2ca0b6482"
+        }
+      ],
+      "authorTextLength": 251,
+      "hostTextLength": 37,
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/open?id=1o743LMKvYriWAcPKRZyJ9Hy0kj7KZnJs",
+          "label": "DOWNLOAD(18.3Mb)"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-41",
+      "no": "41",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_41.htm",
+      "sourceNumber": "No.41",
+      "sourceMetadata": {
+        "名前": "◆rKh0ZWU29A",
+        "ジャンル": "見るゲ",
+        "ツクール": "2000",
+        "推定プレイ時間": "5分～任意（プレイする人の気分次第）",
+        "動画/配信": "全面禁止"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/akagumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/icon041.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no041.png",
+          "local": "/screenshots/2019-kouhaku/41-source-1.png",
+          "sha256": "4e2c64cca4b447f27173487103607650afa8013060c3d8bac2da7b6b9c9312f7"
+        }
+      ],
+      "authorTextLength": 26,
+      "hostTextLength": 27,
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/open?id=1IjX8o_X4rgHqSXbGb_xNGXzUVwWfyH8F",
+          "label": "DOWNLOAD(5.0Mb)"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-42",
+      "no": "42",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_42.htm",
+      "sourceNumber": "No.42",
+      "sourceMetadata": {
+        "名前": "三石",
+        "ジャンル": "見るゲ",
+        "ツクール": "2000",
+        "推定プレイ時間": "分からないけど短編二つなので短い",
+        "動画/配信": "どっちも可"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/sirogumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/2000icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no042.jpg",
+          "local": "/screenshots/2019-kouhaku/42-source-1.jpg",
+          "sha256": "5dad8bf0bd0678d48188d1506f6a398c1345ae8294fa7848a5e42b208ed99d1c"
+        },
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no042u.jpg",
+          "local": "/screenshots/2019-kouhaku/42-source-2.jpg",
+          "sha256": "f8a7fda38db5923e5e7f7e251a77227c2c84cde09b9d1028e6a33864e2f90305"
+        }
+      ],
+      "authorTextLength": 187,
+      "hostTextLength": 22,
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/open?id=1mjN6wkV8OEKdRu-TkpglhyKgorGtEL2W",
+          "label": "DOWNLOAD(345.9Kb)"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-43",
+      "no": "43",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_43.htm",
+      "sourceNumber": "No.43",
+      "sourceMetadata": {
+        "名前": "のろし",
+        "ジャンル": "人海戦術死にゲー",
+        "ツクール": "Steam版2003",
+        "推定プレイ時間": "20分位",
+        "動画/配信": "可/可"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/akagumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/icon043.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no043.png",
+          "local": "/screenshots/2019-kouhaku/43-source-1.png",
+          "sha256": "fbbf05f775c6d70231607d3365c7dc440a0c26cce5fd2cbb5b0a73982a03454e"
+        }
+      ],
+      "authorTextLength": 53,
+      "hostTextLength": 37,
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/open?id=1Zkle1jloZSmx39mQVGK9fTXa1dG86X0M",
+          "label": "DOWNLOAD(2.3Mb)"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-44",
+      "no": "44",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_44.htm",
+      "sourceNumber": "No.44",
+      "sourceMetadata": {
+        "名前": "わて太郎",
+        "ジャンル": "",
+        "ツクール": "2000",
+        "推定プレイ時間": "",
+        "動画/配信": "不可（未記入）"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/sirogumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/2000icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no044_2.png",
+          "local": "/screenshots/2019-kouhaku/44-source-1.png",
+          "sha256": "d8e6e63adb9f5f6a1c5e2197a5bbffaf4e68a075e1d7d6d616ca397e0ea10402"
+        }
+      ],
+      "authorTextLength": 19,
+      "hostTextLength": 35,
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-45",
+      "no": "45",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_45.htm",
+      "sourceNumber": "No.45",
+      "sourceMetadata": {
+        "名前": "ﾍﾞﾙﾌｧｰﾚ長田(゜∀゜)◆AHYA/HaiA.",
+        "ジャンル": "マインスイーパー",
+        "ツクール": "RPGツクールMV",
+        "推定プレイ時間": "15分くらい",
+        "動画/配信": "OK／OK"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/akagumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/2000icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no045.png",
+          "local": "/screenshots/2019-kouhaku/45-source-1.png",
+          "sha256": "bc96b5b0aa0113a209d9cb1ce793716286fa8cc35fb4fa436d951698e551d465"
+        }
+      ],
+      "authorTextLength": 119,
+      "hostTextLength": 38,
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/open?id=1XN2AZbtz8M8vlfJNt-q7ewXqQKnUe8Ag",
+          "label": "DOWNLOAD(162.2Mb)"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-46",
+      "no": "46",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_46.htm",
+      "sourceNumber": "No.46",
+      "sourceMetadata": {
+        "名前": "ムクロジ",
+        "ジャンル": "デフォ戦の中編",
+        "ツクール": "ＲＰＧツクール2000",
+        "推定プレイ時間": "１時間ぐらい",
+        "動画/配信": "可"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/sirogumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/icon046.PNG",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no046_2.PNG",
+          "local": "/screenshots/2019-kouhaku/46-source-1.png",
+          "sha256": "4e5107de0dc52a7c901b032f312edfc445bf612ae558f25080ba371e80583a8e"
+        },
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no046u.PNG",
+          "local": "/screenshots/2019-kouhaku/46-source-2.png",
+          "sha256": "8780a346303c4a53e1ab04584446394c4e909f6bdaa3e2effc1816405ddbdbf8"
+        },
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no046e_1.PNG",
+          "local": "/screenshots/2019-kouhaku/46-source-3.png",
+          "sha256": "ad93d754869d3ad89489ec188e0afb1eaaf72f314eb6153c6230a5b68f7ed09c"
+        },
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no046e_2.PNG",
+          "local": "/screenshots/2019-kouhaku/46-source-4.png",
+          "sha256": "8ad2d0ef0916bcd7d3d4f239b9072dc9314d3c168add2aff5d3fa2fe81b7beb5"
+        }
+      ],
+      "authorTextLength": 207,
+      "hostTextLength": 43,
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/open?id=1OcEbyqSQxaQ4MSAYdPSKrjoNEnMEspO2",
+          "label": "DOWNLOAD(40.3Mb)"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-47",
+      "no": "47",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_47.htm",
+      "sourceNumber": "No.47",
+      "sourceMetadata": {
+        "名前": "タガワリュウノスケ",
+        "ジャンル": "RPG",
+        "ツクール": "RPGツクール２０００",
+        "推定プレイ時間": "10時間はかかる見込み。",
+        "動画/配信": "自由です。"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/akagumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/2000icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no047.png",
+          "local": "/screenshots/2019-kouhaku/47-source-1.png",
+          "sha256": "abb24ac1c7525190f8c91a52880577081d294f13df37fa986fbdb2cc18b469e7"
+        },
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no047u.png",
+          "local": "/screenshots/2019-kouhaku/47-source-2.png",
+          "sha256": "160140da897e3250e65c3f095240aca19162711a9b7e18baed4102e80c31d2a7"
+        }
+      ],
+      "authorTextLength": 294,
+      "hostTextLength": 21,
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-48",
+      "no": "48",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_48.htm",
+      "sourceNumber": "No.48",
+      "sourceMetadata": {
+        "名前": "ゼンチンチ",
+        "ジャンル": "アクションRPG",
+        "ツクール": "2000",
+        "推定プレイ時間": "3時間以上想定",
+        "動画/配信": "自由"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/sirogumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/icon048.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no048.png",
+          "local": "/screenshots/2019-kouhaku/48-source-1.png",
+          "sha256": "5de82db0ffe63fb3e38166deca1ea9ad6b6e797fb98e038f49a3b6cf27196d45"
+        },
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no048u.png",
+          "local": "/screenshots/2019-kouhaku/48-source-2.png",
+          "sha256": "e0efb80c8c63888075fdebbb64e82fb68320d30636cf69b6aa6400250449db8b"
+        }
+      ],
+      "authorTextLength": 182,
+      "hostTextLength": 35,
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/open?id=1NFyzZVb0H-Zt3qEM495NAwKvq7dPZFM-",
+          "label": "DOWNLOAD(13.7Mb)"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-49",
+      "no": "49",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_49.htm",
+      "sourceNumber": "No.49",
+      "sourceMetadata": {
+        "名前": "ジャスティス",
+        "ジャンル": "お題っぽいksg",
+        "ツクール": "2000",
+        "推定プレイ時間": "",
+        "動画/配信": "両方可"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/akagumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/2000icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no049.png",
+          "local": "/screenshots/2019-kouhaku/49-source-1.png",
+          "sha256": "01b34e1164bef206c3f907e265c0bb8ac67cb560dcf0c53c493bbf4743f807b3"
+        }
+      ],
+      "authorTextLength": 210,
+      "hostTextLength": 17,
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-50",
+      "no": "50",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_50.htm",
+      "sourceNumber": "No.50",
+      "sourceMetadata": {
+        "名前": "きゃっぺ（Cappesoft_SINCE2002） ◆do7wOyQeJk",
+        "ジャンル": "塔のぼりRPG",
+        "ツクール": "RPGツクール2000",
+        "推定プレイ時間": "3時間？",
+        "動画/配信": "可"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/sirogumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/icon050.jpg",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no050.jpg",
+          "local": "/screenshots/2019-kouhaku/50-source-1.jpg",
+          "sha256": "2187b4438d939093aad539aed2d8c8a84939c8fde52366a609c703febc6dbbc0"
+        }
+      ],
+      "authorTextLength": 45,
+      "hostTextLength": 34,
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/open?id=10MrIiTYawYUQEWHqcPA1l36SeyiSFYSR",
+          "label": "DOWNLOAD(2.7Mb)"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-51",
+      "no": "51",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_51.htm",
+      "sourceNumber": "No.51",
+      "sourceMetadata": {
+        "名前": "脳内住民",
+        "ジャンル": "デフォ戦ksg",
+        "ツクール": "2000",
+        "推定プレイ時間": "F12を押すまで1分30秒",
+        "動画/配信": "よかろう、やってみろ"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/akagumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/2000icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no051.png",
+          "local": "/screenshots/2019-kouhaku/51-source-1.png",
+          "sha256": "2382e1057dba2ebf493647808133b70ac44d7aa84ac3584e02697305346d63b0"
+        }
+      ],
+      "authorTextLength": 34,
+      "hostTextLength": 21,
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/open?id=1T0jIV9TbCjeJkkNGAXw_B6DK8p_5ua1V",
+          "label": "DOWNLOAD(4.1Mb)"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-52",
+      "no": "52",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_52.htm",
+      "sourceNumber": "No.52",
+      "sourceMetadata": {
+        "名前": "Aomatu_Spaghe",
+        "ジャンル": "液体金属と固体金属の特徴を駆使して仕掛けを解くアクションパズル",
+        "ツクール": "ツクール2000",
+        "推定プレイ時間": "およそ1時間ほど",
+        "動画/配信": "いずれにおいても自己責任でお願いします。"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/sirogumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/icon052.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no052.png",
+          "local": "/screenshots/2019-kouhaku/52-source-1.png",
+          "sha256": "0771725142b8e66e0d681c831a52d4819b670cbf81492e3a8e7ea49580920443"
+        }
+      ],
+      "authorTextLength": 10,
+      "hostTextLength": 21,
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-53",
+      "no": "53",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_53.htm",
+      "sourceNumber": "No.53",
+      "sourceMetadata": {
+        "名前": "Project.作者名",
+        "ジャンル": "見るゲ",
+        "ツクール": "RPGツクール2000",
+        "推定プレイ時間": "",
+        "動画/配信": "可・可"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/akagumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/2000icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no053.png",
+          "local": "/screenshots/2019-kouhaku/53-source-1.png",
+          "sha256": "2c21196ff0f199728328d596fd464c7837d431439ba6a121dbeee3dd5a7489e2"
+        }
+      ],
+      "authorTextLength": 32,
+      "hostTextLength": 23,
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-54",
+      "no": "54",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_54.htm",
+      "sourceNumber": "No.54",
+      "sourceMetadata": {
+        "名前": "脂はむ",
+        "ジャンル": "ホラー",
+        "ツクール": "2000",
+        "推定プレイ時間": "10分",
+        "動画/配信": "両方可"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/sirogumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/icon054.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no054.png",
+          "local": "/screenshots/2019-kouhaku/54-source-1.png",
+          "sha256": "aa7dcb24e6744c5a81bbd3838148110b3f20e917beb7f76fcdb8461fcb436d7f"
+        }
+      ],
+      "authorTextLength": 34,
+      "hostTextLength": 18,
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2019-kouhaku-work-55",
+      "no": "55",
+      "detailUrl": "https://kohakuviprpg2019.x.2nt.com/list/no_55.htm",
+      "sourceNumber": "No.55",
+      "sourceMetadata": {
+        "名前": "◆2aLlGIkY8s",
+        "ジャンル": "ｋｓｇ",
+        "ツクール": "2000",
+        "推定プレイ時間": "？？？",
+        "動画/配信": "ものす/ごい前"
+      },
+      "sourceGroupIcon": "https://kohakuviprpg2019.x.2nt.com/list/akagumi.png",
+      "iconSourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/icon055.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/list/no055.png",
+          "local": "/screenshots/2019-kouhaku/55-source-1.png",
+          "sha256": "38e2f20d0234d4d7e014832b9f2ee2ee1e095c4c970b3dc9b3e8388273c6c483"
+        }
+      ],
+      "authorTextLength": 57,
+      "hostTextLength": 24,
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    }
+  ],
+  "bannerSources": [
+    {
+      "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/img/2019banner1.png",
+      "local": "/banners/2019-kouhaku/source-1.png",
+      "sha256": "0b5e4d63a44d3e41948a7a97505d1cb0f54a874ce99e39ab431f0be654dc1e08"
+    },
+    {
+      "sourceUrl": "https://kohakuviprpg2019.x.2nt.com/img/2019banner2.png",
+      "local": "/banners/2019-kouhaku/source-2.png",
+      "sha256": "45c63dd04b6c47ea3e2a059c3537025adcc40410820359a6fce0088be9dfbaae"
+    }
+  ],
+  "handling": "Direct archival without topic or pixel screening. Preserve all55 original catalogue identities and both explicitly linked sample variants; both samples retain their original No.0 and distinct source-link titles. Genre and red/white group are separate fields. Retain full comments, source metadata, inline illustrations and declared screenshot roles. No game packages downloaded or executed.",
+  "desktopReview": "passed-desktop-only",
+  "desktopEvidence": "desktop-review.json"
+}

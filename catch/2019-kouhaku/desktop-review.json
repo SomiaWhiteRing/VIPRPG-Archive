@@ -1,0 +1,98 @@
+{
+  "festivalId": "2019-kouhaku",
+  "reviewedAt": "2026-10-20",
+  "scope": "desktop-only",
+  "method": "Read-only DOM geometry and resource state; real locator clicks, browser navigation, Escape and native CDP mouse input. No topic or pixel review.",
+  "organized": {
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    },
+    "details": 57,
+    "brokenImages": [],
+    "overflow": [],
+    "initialPendingPages": 4,
+    "pendingResolved": true,
+    "home": {
+      "uniqueWorks": 57,
+      "icons": 57,
+      "banners": 2,
+      "allLoaded": true,
+      "returnExpanded": true,
+      "columns": [
+        "type",
+        "group",
+        "streaming"
+      ],
+      "redGroup": 28,
+      "whiteGroup": 27,
+      "samplesKeepOriginalNo0": true
+    },
+    "viewer": {
+      "largeGif": {
+        "complete": true,
+        "width": 640,
+        "height": 480
+      },
+      "enlargedScreenshot": {
+        "complete": true,
+        "width": 1000,
+        "height": 750
+      },
+      "next": true,
+      "closeButton": true,
+      "escape": true
+    },
+    "localMediaLink": "/original-pages/2019-kouhaku/list/no011.mp4"
+  },
+  "original": {
+    "viewport": {
+      "width": 1183,
+      "height": 638
+    },
+    "uniqueHtmlPages": 102,
+    "brokenImages": [],
+    "overflow": [],
+    "sandboxWidth": 1185,
+    "sandbox": "allow-scripts",
+    "navigation": [
+      "entry to55-formal catalogue with two source sample links",
+      "sample1 tosample2 andback catalogue",
+      "catalogue toformal01",
+      "catalogue to17 andsource enlargement link",
+      "browser back from1000x750 image to17",
+      "catalogue back entry andvoting directory",
+      "voting directory toattachment17"
+    ],
+    "formalAdjacentNavigationErrors": [],
+    "hover": {
+      "page": "list/no_17.htm",
+      "before": "no017_2.png",
+      "over": "no017_2u.png",
+      "out": "no017_2.png"
+    },
+    "desktopFit": {
+      "catalogue": {
+        "beforeScrollWidth": 1800,
+        "afterScrollWidth": 1168,
+        "clientWidth": 1168,
+        "overlappingTitles": 0
+      },
+      "voting": {
+        "beforeScrollWidth": 1300,
+        "afterScrollWidth": 1168,
+        "clientWidth": 1168
+      },
+      "votingSample": {
+        "beforeScrollWidth": 1380,
+        "afterScrollWidth": 1168,
+        "clientWidth": 1168
+      }
+    },
+    "consoleErrors": [],
+    "consoleWarnings": []
+  },
+  "mediaBodyReviewed": false,
+  "gamePackagesDownloadedOrExecuted": false,
+  "notes": "日本源站仍可直接访问，保存103份Shift_JIS HTML原始捕获（102唯一文档）、185份图片及1份MP4，全部载荷核对SHA，103页均无解码替代字符。保留55个既有正式作品ID、编号和题名，补回目录明确链接的两个样例；两者按源页保留No.0，以独立ID及目录链接题名区分，共57项。类型与紅／白分组分别保存，28紅組、27白組，配信／動画字段按来源标签保留。57项作者／管理人留言全文结构对比无遗漏，首个样例的4处时长图例保留为行内图像；来源基本信息完整保留。恢复57处图标、87张显示／悬停／放大图、36项配布入口和2横幅。旧84画廊引用中82份实际图片均对应，两份11号误收的站点横幅／下载按钮归回界面资源，原文件保留；17与46的4张放大版按原评论中的图片链接取回。另补回11号原链接的18,300,592字节GIF，首次60秒传输后以206续传完成，长度、GIF标记及浏览器完整加载均验证；MP4为717,929字节，容器头与HTTP载荷核对，整理版提供本地资料链接，未审看媒体内容。共用回放器补齐MP4识别已单独提交05bc9f26。原貌288文件、102 HTML、1403本地引用含悬停及媒体，无缺失或外部自动加载；434展示文件HTTP/SHA一致。目录1800px、投票1300px的多余固定外层宽度收回桌面可用区，并保留图标列宽度，原作者绝对定位与配色不改，原始缓存不动。57整理详情及102原貌文档桌面通过；4项首读延迟图复核正常，18MB GIF完整加载为640×480；查看器切换至1000×750放大图、按钮关闭与Esc关闭均验证。实际沙箱入口到目录、两个样例互转、正式作品进入、放大图及浏览器返回、目录回入口和投票附件进入均通过；55正式条目全组相邻导航无跳号，原生悬停往返通过。首页57项、57图标／2横幅、独立类型／分组列、末项进入及返回保持展开通过；最终控制台无错误／警告。无题材或像素筛选，无新增受限，未下载或运行游戏包。"
+}

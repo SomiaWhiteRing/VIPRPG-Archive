@@ -421,14 +421,15 @@
     "slug": "2019-kouhaku",
     "type": "kouhaku",
     "banners": [
-      "/banners/2019-kouhaku-1.png",
-      "/banners/2019-kouhaku-2.png"
+      "/banners/2019-kouhaku/source-1.png",
+      "/banners/2019-kouhaku/source-2.png"
     ],
     "columns": [
       "no",
       "icon",
       "work",
       "type",
+      "group",
       "streaming",
       "download",
       "forum"
