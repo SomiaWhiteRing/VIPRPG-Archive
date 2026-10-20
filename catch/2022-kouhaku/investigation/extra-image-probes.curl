@@ -1,0 +1,314 @@
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/23/screenshots/main.png"
+output = "catch/2022-kouhaku/source/resources/probe-23-png.raw"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/23/screenshots/main.jpg"
+output = "catch/2022-kouhaku/source/resources/probe-23-jpg.raw"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/24/screenshots/main.png"
+output = "catch/2022-kouhaku/source/resources/probe-24-png.raw"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/24/screenshots/main.jpg"
+output = "catch/2022-kouhaku/source/resources/probe-24-jpg.raw"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/28/screenshots/main.png"
+output = "catch/2022-kouhaku/source/resources/probe-28-png.raw"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/28/screenshots/main.jpg"
+output = "catch/2022-kouhaku/source/resources/probe-28-jpg.raw"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/41/screenshots/main.png"
+output = "catch/2022-kouhaku/source/resources/probe-41-png.raw"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/41/screenshots/main.jpg"
+output = "catch/2022-kouhaku/source/resources/probe-41-jpg.raw"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/42/screenshots/main.png"
+output = "catch/2022-kouhaku/source/resources/probe-42-png.raw"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/42/screenshots/main.jpg"
+output = "catch/2022-kouhaku/source/resources/probe-42-jpg.raw"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/43/screenshots/main.png"
+output = "catch/2022-kouhaku/source/resources/probe-43-png.raw"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/43/screenshots/main.jpg"
+output = "catch/2022-kouhaku/source/resources/probe-43-jpg.raw"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/44/screenshots/main.png"
+output = "catch/2022-kouhaku/source/resources/probe-44-png.raw"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/44/screenshots/main.jpg"
+output = "catch/2022-kouhaku/source/resources/probe-44-jpg.raw"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/46/screenshots/main.png"
+output = "catch/2022-kouhaku/source/resources/probe-46-png.raw"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/46/screenshots/main.jpg"
+output = "catch/2022-kouhaku/source/resources/probe-46-jpg.raw"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/51/screenshots/main.png"
+output = "catch/2022-kouhaku/source/resources/probe-51-png.raw"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/51/screenshots/main.jpg"
+output = "catch/2022-kouhaku/source/resources/probe-51-jpg.raw"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/55/screenshots/main.png"
+output = "catch/2022-kouhaku/source/resources/probe-55-png.raw"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/55/screenshots/main.jpg"
+output = "catch/2022-kouhaku/source/resources/probe-55-jpg.raw"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/58/screenshots/main.png"
+output = "catch/2022-kouhaku/source/resources/probe-58-png.raw"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/58/screenshots/main.jpg"
+output = "catch/2022-kouhaku/source/resources/probe-58-jpg.raw"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/63/screenshots/main.png"
+output = "catch/2022-kouhaku/source/resources/probe-63-png.raw"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/63/screenshots/main.jpg"
+output = "catch/2022-kouhaku/source/resources/probe-63-jpg.raw"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/65/screenshots/main.png"
+output = "catch/2022-kouhaku/source/resources/probe-65-png.raw"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/65/screenshots/main.jpg"
+output = "catch/2022-kouhaku/source/resources/probe-65-jpg.raw"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/67/screenshots/main.png"
+output = "catch/2022-kouhaku/source/resources/probe-67-png.raw"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/67/screenshots/main.jpg"
+output = "catch/2022-kouhaku/source/resources/probe-67-jpg.raw"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/68/screenshots/main.png"
+output = "catch/2022-kouhaku/source/resources/probe-68-png.raw"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/68/screenshots/main.jpg"
+output = "catch/2022-kouhaku/source/resources/probe-68-jpg.raw"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/71/screenshots/main.png"
+output = "catch/2022-kouhaku/source/resources/probe-71-png.raw"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/71/screenshots/main.jpg"
+output = "catch/2022-kouhaku/source/resources/probe-71-jpg.raw"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/72/screenshots/main.png"
+output = "catch/2022-kouhaku/source/resources/probe-72-png.raw"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/72/screenshots/main.jpg"
+output = "catch/2022-kouhaku/source/resources/probe-72-jpg.raw"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20230627170535id_/https://viprpg2022kohaku.x.2nt.com/entries/39/screenshots/sub.png"
+output = "catch/2022-kouhaku/source/resources/latest-39-sub.raw"
+write-out = "%{http_code} %{url_effective}\n"

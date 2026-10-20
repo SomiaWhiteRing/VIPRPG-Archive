@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2022-kouhaku",
+  "activeFestival": "2022-summer",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -1621,6 +1621,35 @@
         "catch/2022-gw/desktop-review.json"
       ],
       "notes": "日本源站35份HTML、107份图片及1份CSS均保存原始响应并核对SHA；无需跨地区存档回退。34项含0号样例，既有编号、ID及题名保持；目录与详情的作者、类型、工具及配信资料逐项一致。57张显示／悬停图完整保留、34图标及2条本祭横幅恢复；原页另列16条历届横幅单独保留。32项下载入口按原链接保存，20、33无下载，保留原DL/更新状态。0号作者与管理人合并留言保持组合标签，不虚拆为两人留言。原貌143文件、35份HTML、292本地引用无缺失或外部自动加载，去除托管广告、跟踪及停用提示脚本，保留本页图片悬停事件。34整理详情与35原貌页桌面通过，目录、翻页、返回及查看器已验证，0号截图鼠标进入／离开按原图切换。无内容筛选、无新增受限，游戏文件未下载或验证。"
+    },
+    {
+      "festivalId": "2022-kouhaku",
+      "reviewedAt": "2026-10-20",
+      "dataSha256": "3470b50bb653ecba36966ee9a1731bf329057b877a2322ec6cd8dc07347a78e3",
+      "status": "reviewed-with-exceptions",
+      "works": 72,
+      "screenshotFiles": 71,
+      "screenshotReferences": 71,
+      "iconFiles": 72,
+      "downloadEntries": 67,
+      "originalCatalogueCompleteness": "verified-official-72-entry-catalogue; 50 actual details and 22 labelled source gaps",
+      "outstandingSourceDetails": 22,
+      "outstandingImageSourceUrls": 16,
+      "outstandingScreenshotRows": 16,
+      "outstandingOtherResources": 2,
+      "packageBytesValidated": false,
+      "sourceEvidence": [
+        "catch/2022-kouhaku/recovery.json",
+        "catch/2022-kouhaku/source-comparison.json",
+        "catch/2022-kouhaku/source/archive/manifest.json",
+        "catch/2022-kouhaku/investigation/confirmed-page-gaps.json",
+        "catch/2022-kouhaku/investigation/mega-file-inventory.json",
+        "catch/2022-kouhaku/investigation/replay-closure.json"
+      ],
+      "desktopEvidence": [
+        "catch/2022-kouhaku/desktop-review.json"
+      ],
+      "notes": "日本源站已变为托管错误页，香港Wayback恢复54份官方HTML（50详情及目录／规则／投票／集计），原始或解压载荷与CDX摘要核对；7份较晚详情替换早期快照以保留后续菜单和39号新增图。72项既有ID、编号及题名保持，72图标、71截图、3横幅恢复；22份未取得详情解除旧禁用并保留明确标记的目录资料骨架，其中4、5、41、43另补回保存预览。旧画廊4份不同字节均在目录缩略图或共用默认图资源中找到并保留。40处缺失WebP预览引用同号已保存原图，16处仍缺预览明确注明；新闻及全点数内訳2辅助原页未取得，单列说明。共同备份通过公开MEGA元数据逐一对应67个投稿包文件名，保留原官方菜单地址来源，游戏包未下载或验证。原貌342文件、78份HTML、1853本地引用无缺失和外部自动加载，保存124字体文件；原目录依赖脚本的透明卡片改为静态背景，停止投票表单。72整理详情及78原貌文档桌面布局／图片加载通过，沙箱目录往返、真实详情、缺页骨架及查看器切换已验证。无内容筛选、无新增受限。"
     }
   ],
   "originalViewsReviewed": [
@@ -1990,6 +2019,13 @@
       "evidence": [
         "catch/2022-gw/original-view.json",
         "catch/2022-gw/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2022-kouhaku",
+      "evidence": [
+        "catch/2022-kouhaku/original-view.json",
+        "catch/2022-kouhaku/desktop-review.json"
       ]
     }
   ],

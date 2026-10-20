@@ -1,0 +1,65 @@
+{
+  "festivalId": "2022-kouhaku",
+  "reviewedAt": "2026-10-20",
+  "scope": "desktop-only",
+  "method": "Browser DOM geometry, resource loading and actual semantic clicks; no work-content or image-pixel screening.",
+  "formatted": {
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    },
+    "routes": 72,
+    "images": 123,
+    "missingMain": [],
+    "brokenImages": [],
+    "overflow": []
+  },
+  "original": {
+    "viewport": {
+      "width": 1183,
+      "height": 638
+    },
+    "documents": 78,
+    "images": 328,
+    "labelledEntrySkeletons": 22,
+    "labelledAuxiliaryGaps": 2,
+    "brokenImages": [],
+    "overflow": [],
+    "catalogueCards": 72,
+    "allCardsOpacityOne": true,
+    "previewBackgrounds": 56,
+    "labelledPreviewGaps": 16,
+    "fontFamily": "Noto Sans JP",
+    "fontStatus": "loaded"
+  },
+  "embedded": {
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    },
+    "iframeWidth": 1185,
+    "iframeHeight": 640,
+    "sandbox": "allow-scripts",
+    "catalogueToEntry4Skeleton": "passed",
+    "skeletonReturnTo72CardCatalogue": "passed",
+    "catalogueToActualEntry1": "passed"
+  },
+  "interactions": {
+    "formattedEntry1ViewerOpen": "passed",
+    "viewerNextImageLoaded": "passed",
+    "viewerClose": "passed",
+    "formattedEntry1To4Navigation": "passed"
+  },
+  "limits": [
+    "Source page gaps and missing catalogue previews remain labelled; not claimed recovered.",
+    "No game files downloaded, executed or verified.",
+    "No mobile or image-pixel/content screening performed."
+  ],
+  "build": {
+    "buildId": "F2ddRC_g7hF3InIP9sIxo",
+    "prerenderedRoutes": 4153,
+    "festivalRoutes": 73
+  },
+  "lint": "passed",
+  "dataValidation": "passed"
+}

@@ -1,0 +1,33 @@
+<!doctype html><html lang=ja-jp><head><meta charset=utf-8><title>VIPRPG紅白 2022</title><link rel=preload href=/assets/style.css as=style><link rel=preload href=/assets/2000.png as=image><link rel=preload href=/assets/2003s.png as=image><link rel=preload href=/assets/ksg.webp as=image><link rel=preload href=/assets/vxa.png as=image><link rel=preload href=/assets/mv.png as=image><link rel=preload href=/assets/naito.png as=image><meta property="og:image" content="https://viprpg2022kohaku.x.2nt.com/assets/ksg.webp"><script type=module>
+  const bgObserver = new IntersectionObserver((entries, _) => {
+    for (const entry of entries) {
+      if (entry.isIntersecting) {
+        entry.target.style.backgroundImage = `url("${entry.target.dataset.src}")`;
+        entry.target.style.opacity = "1";
+        entry.target.style.animation = ["fadein", ".25s", "ease-out"].join(" ");
+        bgObserver.unobserve(entry.target);
+      }
+    }
+  });
+
+  for (const card of document.querySelectorAll(".entry-card"))
+    bgObserver.observe(card);
+</script><meta name=viewport content="width=device-width,initial-scale=1"><script type=module>
+    import { listen, prefetch } from "https://unpkg.com/quicklink?module";
+    listen();
+  </script><link rel=stylesheet href=/assets/style.css><link rel=canonical href=https://viprpg2022kohaku.x.2nt.com/entries/27/><meta property="og:url" content="https://viprpg2022kohaku.x.2nt.com/entries/27/"><meta property="og:site_name" content="VIPRPG紅白 2022"><meta property="twitter:card" content="summary_large_image"><meta property="og:description" name=description content="VIPRPG紅白 2022 エントリーNo. 27"><meta property="og:title" content="狂詩性ブラックサンダーC"><meta property="og:image" content="https://viprpg2022kohaku.x.2nt.com/entries/27/screenshots/main.webp"><meta property="og:locale" content="ja_JP"><meta property="og:type" content="website"></head><body><div class=wrapper-global><header class=header-pc><nav><h1 class=nav-item><a href=/>VIPRPG紅白 2022</a></h1><h2 hidden>メニュー</h2><p class="nav-item button-arena"><strong>開票</strong></p><ul class="nav-item nav-subs"><li><a href=/about/>各種要綱</a></li><li><a href=/vote/>投票</a></li><li><a href=/news/>お知らせ</a></li><li><a href=https://jbbs.shitaraba.net/otaku/18266/>感想掲示板</a></li></ul></nav></header><header class=header-mobile><h1><a href=/>VIPRPG紅白 2022</a></h1><div class=menu-mobile><input type=checkbox id=menu-opener name=menu-opener value=off>
+<label id=menu-icon for=menu-opener></label>
+<label id=menu-backdrop for=menu-opener></label><nav><ul class=nav-item><li><a href=/about/>各種要綱</a></li><li><a href=/entries/>会場</a></li><li><a href=/vote/>投票</a></li><li><a href=/news/>お知らせ</a></li><li><a href=https://jbbs.shitaraba.net/otaku/18266/>感想掲示板</a></li></ul></nav></div></header><main><article class=article-entry><h2>狂詩性ブラックサンダーC</h2><figure class=screenshots><img src=screenshots/main.png class=screenshot-default alt="Screenshot #1">
+<img src=screenshots/main.png class=screenshot-hover alt="Screenshot #2"></figure><h3 hidden>作品メニュー</h3><div class=entry-menu><p class="button-download entry-menu-items"><a href=https://mega.nz/file/lO0QlIgJ#BgjcOVgWMgwDBzqariWV2hIxHU7EBuaEVzF4L3pygq8 class=drop-shadow><img src=../../assets/2000.png><br>Download<br><small>(3.7 MB)</small></a></p><ul class=entry-menu-items><li class=link-impression><a href=https://jbbs.shitaraba.net/bbs/read.cgi/otaku/18266/1670070137/l50>感想</a></li></ul></div><h3 hidden>詳細情報</h3><dl class=entry-info><dt>作者</dt><dd>だんぢ</dd><dt>ジャンル</dt><dd>大人たちの夜更かしのための見るゲ</dd><dt>ツクール</dt><dd><img src=/assets/2000.png> RPGツクール2000</dd><dt>配信/投稿</dt><dd>可/可</dd><dt>コメント</dt><dd><p>シロノワールブラックサンダーはじめました</p></dd><dt>管理人から一言</dt><dd><img src=/assets/naito.png><i>なんかﾊﾟﾁﾓﾝが北お・・・</i></dd></dl><h3 hidden>シェア</h3><ul class=socials><li><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class=twitter-share-button data-size=large data-hashtags=VIPRPG data-lang=ja data-show-count=false data-text="VIPRPG紅白 2022 エントリーNo. 27
+「狂詩性ブラックサンダーC」">Tweet</a></li></ul></article><script async src=https://platform.twitter.com/widgets.js></script></main><footer><p><small>© 2022-2023 VIPPERS w/ VIP Quality. All rights confused.</small></p></footer></div><script><!--
+var footerparam = 'charset=' + encodeURIComponent(document.charset ? document.charset : document.characterSet) + '&url=' + encodeURIComponent(document.location) + '&service=1&r=' + Math.floor(Math.random()*99999999999);
+var footertag = "//vip-chps-api.2nt.com/apis/footer/?" + footerparam;
+var script = document.createElement('script');
+script.src = footertag;
+script.charset = "UTF-8";
+script.defer = true;
+document.getElementsByTagName('head')[0].appendChild(script);
+//--></script>
+<!-- 2nt, inc.-->
+<img src="//media.fc2.com/counter_img.php?id=50" style="visibility:hidden" alt="inserted by 2nt system" width="0" height="0">
+<!-- 2nt, inc.--></body></html>

@@ -1,0 +1,107 @@
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 45
+silent
+show-error
+url = "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fviprpg2022kohaku.x.2nt.com%2Fentries%2F1%2F&output=json&filter=timestamp%3A20230327172026&fl=original,timestamp,digest"
+output = "catch/2022-kouhaku/investigation/later-1-cdx.json"
+write-out = "%{http_code}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 45
+silent
+show-error
+url = "https://web.archive.org/web/20230327172026id_/https://viprpg2022kohaku.x.2nt.com/entries/1/"
+output = "catch/2022-kouhaku/source/archive/entry-1-later.bin"
+write-out = "%{http_code}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 45
+silent
+show-error
+url = "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fviprpg2022kohaku.x.2nt.com%2Fentries%2F13%2F&output=json&filter=timestamp%3A20221219223059&fl=original,timestamp,digest"
+output = "catch/2022-kouhaku/investigation/later-13-cdx.json"
+write-out = "%{http_code}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 45
+silent
+show-error
+url = "https://web.archive.org/web/20221219223059id_/https://viprpg2022kohaku.x.2nt.com/entries/13/"
+output = "catch/2022-kouhaku/source/archive/entry-13-later.bin"
+write-out = "%{http_code}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 45
+silent
+show-error
+url = "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fviprpg2022kohaku.x.2nt.com%2Fentries%2F16%2F&output=json&filter=timestamp%3A20230111213425&fl=original,timestamp,digest"
+output = "catch/2022-kouhaku/investigation/later-16-cdx.json"
+write-out = "%{http_code}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 45
+silent
+show-error
+url = "https://web.archive.org/web/20230111213425id_/https://viprpg2022kohaku.x.2nt.com/entries/16/"
+output = "catch/2022-kouhaku/source/archive/entry-16-later.bin"
+write-out = "%{http_code}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 45
+silent
+show-error
+url = "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fviprpg2022kohaku.x.2nt.com%2Fentries%2F26%2F&output=json&filter=timestamp%3A20221219223053&fl=original,timestamp,digest"
+output = "catch/2022-kouhaku/investigation/later-26-cdx.json"
+write-out = "%{http_code}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 45
+silent
+show-error
+url = "https://web.archive.org/web/20221219223053id_/https://viprpg2022kohaku.x.2nt.com/entries/26/"
+output = "catch/2022-kouhaku/source/archive/entry-26-later.bin"
+write-out = "%{http_code}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 45
+silent
+show-error
+url = "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fviprpg2022kohaku.x.2nt.com%2Fentries%2F49%2F&output=json&filter=timestamp%3A20230131004641&fl=original,timestamp,digest"
+output = "catch/2022-kouhaku/investigation/later-49-cdx.json"
+write-out = "%{http_code}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 45
+silent
+show-error
+url = "https://web.archive.org/web/20230131004641id_/https://viprpg2022kohaku.x.2nt.com/entries/49/"
+output = "catch/2022-kouhaku/source/archive/entry-49-later.bin"
+write-out = "%{http_code}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 45
+silent
+show-error
+url = "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fviprpg2022kohaku.x.2nt.com%2Fentries%2F6%2F&output=json&filter=timestamp%3A20230116224150&fl=original,timestamp,digest"
+output = "catch/2022-kouhaku/investigation/later-6-cdx.json"
+write-out = "%{http_code}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 45
+silent
+show-error
+url = "https://web.archive.org/web/20230116224150id_/https://viprpg2022kohaku.x.2nt.com/entries/6/"
+output = "catch/2022-kouhaku/source/archive/entry-6-later.bin"
+write-out = "%{http_code}\n"

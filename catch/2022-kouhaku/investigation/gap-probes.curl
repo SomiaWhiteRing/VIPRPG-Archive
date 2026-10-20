@@ -1,0 +1,206 @@
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/4/"
+output = "catch/2022-kouhaku/investigation/gap-probe-4.bin"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/5/"
+output = "catch/2022-kouhaku/investigation/gap-probe-5.bin"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/23/"
+output = "catch/2022-kouhaku/investigation/gap-probe-23.bin"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/24/"
+output = "catch/2022-kouhaku/investigation/gap-probe-24.bin"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/28/"
+output = "catch/2022-kouhaku/investigation/gap-probe-28.bin"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/36/"
+output = "catch/2022-kouhaku/investigation/gap-probe-36.bin"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/38/"
+output = "catch/2022-kouhaku/investigation/gap-probe-38.bin"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/41/"
+output = "catch/2022-kouhaku/investigation/gap-probe-41.bin"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/42/"
+output = "catch/2022-kouhaku/investigation/gap-probe-42.bin"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/43/"
+output = "catch/2022-kouhaku/investigation/gap-probe-43.bin"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/44/"
+output = "catch/2022-kouhaku/investigation/gap-probe-44.bin"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/46/"
+output = "catch/2022-kouhaku/investigation/gap-probe-46.bin"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/51/"
+output = "catch/2022-kouhaku/investigation/gap-probe-51.bin"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/55/"
+output = "catch/2022-kouhaku/investigation/gap-probe-55.bin"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/58/"
+output = "catch/2022-kouhaku/investigation/gap-probe-58.bin"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/63/"
+output = "catch/2022-kouhaku/investigation/gap-probe-63.bin"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/65/"
+output = "catch/2022-kouhaku/investigation/gap-probe-65.bin"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/67/"
+output = "catch/2022-kouhaku/investigation/gap-probe-67.bin"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/68/"
+output = "catch/2022-kouhaku/investigation/gap-probe-68.bin"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/69/"
+output = "catch/2022-kouhaku/investigation/gap-probe-69.bin"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/71/"
+output = "catch/2022-kouhaku/investigation/gap-probe-71.bin"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/entries/72/"
+output = "catch/2022-kouhaku/investigation/gap-probe-72.bin"
+write-out = "%{http_code} %{url_effective}\n"
+next
+proxy = "http://127.0.0.1:7897"
+location
+max-time = 40
+silent
+show-error
+url = "https://web.archive.org/web/20240325002843id_/https://viprpg2022kohaku.x.2nt.com/news/"
+output = "catch/2022-kouhaku/investigation/news-probe.bin"
+write-out = "%{http_code} %{url_effective}\n"

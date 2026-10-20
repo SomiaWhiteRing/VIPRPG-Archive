@@ -1,0 +1,3121 @@
+{
+  "festivalId": "2022-kouhaku",
+  "originalBase": "https://viprpg2022kohaku.x.2nt.com/",
+  "sourceManifests": [
+    "source/replay/manifest.json"
+  ],
+  "originalResources": {
+    "https://viprpg2022kohaku.x.2nt.com/": "index.html",
+    "https://viprpg2022kohaku.x.2nt.com/about/": "about/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/1/": "entries/1/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/10/": "entries/10/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/11/": "entries/11/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/13/": "entries/13/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/12/": "entries/12/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/14/": "entries/14/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/15/": "entries/15/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/16/": "entries/16/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/18/": "entries/18/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/19/": "entries/19/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/17/": "entries/17/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/20/": "entries/20/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/2/": "entries/2/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/21/": "entries/21/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/25/": "entries/25/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/22/": "entries/22/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/26/": "entries/26/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/29/": "entries/29/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/27/": "entries/27/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/3/": "entries/3/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/30/": "entries/30/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/31/": "entries/31/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/32/": "entries/32/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/33/": "entries/33/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/34/": "entries/34/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/37/": "entries/37/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/39/": "entries/39/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/40/": "entries/40/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/45/": "entries/45/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/47/": "entries/47/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/48/": "entries/48/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/35/": "entries/35/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/50/": "entries/50/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/49/": "entries/49/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/52/": "entries/52/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/56/": "entries/56/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/54/": "entries/54/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/57/": "entries/57/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/59/": "entries/59/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/53/": "entries/53/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/6/": "entries/6/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/60/": "entries/60/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/61/": "entries/61/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/62/": "entries/62/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/64/": "entries/64/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/66/": "entries/66/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/7/": "entries/7/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/70/": "entries/70/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/8/": "entries/8/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/vote/": "vote/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/vote/overall/": "vote/overall/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/9/": "entries/9/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/": "index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/1/icon.png": "entries/1/icon.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/2/icon.png": "entries/2/icon.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/3/icon.png": "entries/3/icon.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/4/icon.png": "entries/4/icon.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/5/icon.png": "entries/5/icon.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/6/icon.png": "entries/6/icon.png",
+    "https://viprpg2022kohaku.x.2nt.com/assets/2000.png": "assets/2000.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/10/icon.png": "entries/10/icon.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/11/icon.png": "entries/11/icon.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/12/icon.png": "entries/12/icon.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/14/icon.png": "entries/14/icon.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/15/icon.png": "entries/15/icon.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/16/icon.png": "entries/16/icon.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/17/icon.png": "entries/17/icon.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/18/icon.png": "entries/18/icon.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/19/icon.png": "entries/19/icon.png",
+    "https://viprpg2022kohaku.x.2nt.com/assets/2003s.png": "assets/2003s.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/21/icon.png": "entries/21/icon.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/23/icon.png": "entries/23/icon.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/24/icon.png": "entries/24/icon.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/25/icon.png": "entries/25/icon.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/26/icon.png": "entries/26/icon.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/28/icon.png": "entries/28/icon.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/29/icon.png": "entries/29/icon.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/31/icon.png": "entries/31/icon.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/32/icon.png": "entries/32/icon.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/34/icon.png": "entries/34/icon.png",
+    "https://viprpg2022kohaku.x.2nt.com/assets/kusoge.webp": "assets/kusoge.webp",
+    "https://viprpg2022kohaku.x.2nt.com/entries/37/icon.png": "entries/37/icon.png",
+    "https://viprpg2022kohaku.x.2nt.com/assets/mz.png": "assets/mz.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/40/icon.png": "entries/40/icon.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/42/icon.png": "entries/42/icon.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/43/icon.png": "entries/43/icon.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/44/icon.png": "entries/44/icon.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/45/icon.png": "entries/45/icon.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/48/icon.png": "entries/48/icon.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/49/icon.png": "entries/49/icon.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/52/icon.png": "entries/52/icon.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/53/icon.png": "entries/53/icon.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/57/icon.png": "entries/57/icon.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/59/icon.png": "entries/59/icon.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/61/icon.png": "entries/61/icon.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/62/icon.webp": "entries/62/icon.webp",
+    "https://viprpg2022kohaku.x.2nt.com/entries/64/icon.png": "entries/64/icon.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/66/icon.png": "entries/66/icon.png",
+    "https://viprpg2022kohaku.x.2nt.com/assets/vxa.png": "assets/vxa.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/68/icon.png": "entries/68/icon.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/71/icon.png": "entries/71/icon.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/72/icon.png": "entries/72/icon.png",
+    "https://media.fc2.com/counter_img.php?id=50": "counter_img.gif",
+    "https://viprpg2022kohaku.x.2nt.com/assets/style.css": "assets/style.css",
+    "https://viprpg2022kohaku.x.2nt.com/assets/ksg.webp": "assets/ksg.webp",
+    "https://viprpg2022kohaku.x.2nt.com/assets/mv.png": "assets/mv.png",
+    "https://viprpg2022kohaku.x.2nt.com/assets/naito.png": "assets/naito.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/4/screenshots/main.webp": "entries/4/screenshots/main.webp",
+    "https://viprpg2022kohaku.x.2nt.com/entries/5/screenshots/main.webp": "entries/5/screenshots/main.webp",
+    "https://viprpg2022kohaku.x.2nt.com/entries/6/screenshots/main.webp": "entries/6/screenshots/main.webp",
+    "https://viprpg2022kohaku.x.2nt.com/entries/7/screenshots/main.webp": "entries/7/screenshots/main.webp",
+    "https://viprpg2022kohaku.x.2nt.com/entries/8/screenshots/main.webp": "entries/8/screenshots/main.webp",
+    "https://viprpg2022kohaku.x.2nt.com/entries/9/screenshots/main.webp": "entries/9/screenshots/main.webp",
+    "https://viprpg2022kohaku.x.2nt.com/entries/10/screenshots/main.webp": "entries/10/screenshots/main.webp",
+    "https://viprpg2022kohaku.x.2nt.com/entries/11/screenshots/main.webp": "entries/11/screenshots/main.webp",
+    "https://viprpg2022kohaku.x.2nt.com/entries/12/screenshots/main.webp": "entries/12/screenshots/main.webp",
+    "https://viprpg2022kohaku.x.2nt.com/entries/62/screenshots/main.webp": "entries/62/screenshots/main.webp",
+    "https://viprpg2022kohaku.x.2nt.com/assets/banner-kohaku-2022.png": "assets/banner-kohaku-2022.png",
+    "https://viprpg2022kohaku.x.2nt.com/assets/banner-kohaku-2022-2.png": "assets/banner-kohaku-2022-2.png",
+    "https://viprpg2022kohaku.x.2nt.com/assets/banner-kohaku-2022-3.png": "assets/banner-kohaku-2022-3.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/1/screenshots/main.png": "entries/1/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/1/screenshots/sub.jpg": "entries/1/screenshots/sub.jpg",
+    "https://viprpg2022kohaku.x.2nt.com/entries/10/screenshots/main.jpg": "entries/10/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/10/screenshots/sub.jpg": "entries/10/screenshots/sub.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/11/screenshots/main.png": "entries/11/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/13/screenshots/main.png": "entries/13/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/13/screenshots/sub.png": "entries/13/screenshots/sub.png",
+    "https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png": "images/v4/public/entry-button/button-only@2x.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/12/screenshots/main.png": "entries/12/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/12/screenshots/sub.png": "entries/12/screenshots/sub.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/14/screenshots/main.png": "entries/14/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/15/screenshots/main.png": "entries/15/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/16/screenshots/main.jpg": "entries/16/screenshots/main.jpg",
+    "https://viprpg2022kohaku.x.2nt.com/entries/16/screenshots/sub.jpg": "entries/16/screenshots/sub.jpg",
+    "https://viprpg2022kohaku.x.2nt.com/entries/18/screenshots/main.png": "entries/18/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/18/screenshots/sub.png": "entries/18/screenshots/sub.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/19/screenshots/main.png": "entries/19/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/17/screenshots/main.png": "entries/17/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/20/screenshots/main.png": "entries/20/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/2/screenshots/main.png": "entries/2/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/21/screenshots/main.png": "entries/21/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/25/screenshots/main.png": "entries/25/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/22/screenshots/main.png": "entries/22/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/22/screenshots/sub.png": "entries/22/screenshots/sub.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/26/screenshots/main.png": "entries/26/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/26/screenshots/sub.png": "entries/26/screenshots/sub.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/29/screenshots/main.png": "entries/29/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/29/screenshots/sub.png": "entries/29/screenshots/sub.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/27/screenshots/main.png": "entries/27/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/3/screenshots/main.png": "entries/3/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/30/screenshots/main.png": "entries/30/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/31/screenshots/main.png": "entries/31/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/31/screenshots/sub.png": "entries/31/screenshots/sub.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/33/screenshots/main.png": "entries/33/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/34/screenshots/main.png": "entries/34/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/34/screenshots/sub.png": "entries/34/screenshots/sub.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/37/screenshots/main.png": "entries/37/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/37/screenshots/sub.png": "entries/37/screenshots/sub.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/39/screenshots/main.png": "entries/39/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/40/screenshots/main.png": "entries/40/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/45/screenshots/main.png": "entries/45/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/45/screenshots/sub.png": "entries/45/screenshots/sub.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/48/screenshots/main.png": "entries/48/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/50/screenshots/main.png": "entries/50/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/49/screenshots/main.png": "entries/49/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/assets/wagnas.webp": "assets/wagnas.webp",
+    "https://viprpg2022kohaku.x.2nt.com/entries/52/screenshots/main.png": "entries/52/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/52/screenshots/sub.png": "entries/52/screenshots/sub.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/56/screenshots/main.png": "entries/56/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/54/screenshots/main.png": "entries/54/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/57/screenshots/main.png": "entries/57/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/57/screenshots/sub.png": "entries/57/screenshots/sub.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/59/screenshots/main.png": "entries/59/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/59/screenshots/sub.png": "entries/59/screenshots/sub.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/53/screenshots/main.png": "entries/53/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/53/screenshots/sub.png": "entries/53/screenshots/sub.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/6/screenshots/main.png": "entries/6/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/60/screenshots/main.png": "entries/60/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/61/screenshots/main.png": "entries/61/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/61/screenshots/sub.png": "entries/61/screenshots/sub.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/64/screenshots/main.png": "entries/64/screenshots/main.bmp",
+    "https://viprpg2022kohaku.x.2nt.com/entries/64/screenshots/sub.png": "entries/64/screenshots/sub.bmp",
+    "https://viprpg2022kohaku.x.2nt.com/entries/66/screenshots/main.png": "entries/66/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/66/screenshots/sub.png": "entries/66/screenshots/sub.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/7/screenshots/main.png": "entries/7/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/8/screenshots/main.png": "entries/8/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/43/screenshots/main.png": "entries/43/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/43/screenshots/sub.png": "entries/43/screenshots/sub.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/9/screenshots/main.png": "entries/9/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/41/screenshots/main.png": "entries/41/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/39/screenshots/sub.png": "entries/39/screenshots/sub.png",
+    "https://cdn.jsdelivr.net/npm/destyle.css@4.0.0/destyle.min.css": "styles/250883e2d4ab44cb2ad4ee0c.css",
+    "https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap": "styles/af485e933e094023fc289f87.css",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.2.woff2": "fonts/24c222b2d60e2f62debd417e.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.1.woff2": "fonts/43638a6f90cef36934898c95.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.3.woff2": "fonts/c1ab9387279da93cb1cda404.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.0.woff2": "fonts/c0c87d8ee0543e9809cafc6c.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.4.woff2": "fonts/29e6ed156850d86c0a457c05.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.5.woff2": "fonts/49889babb61d6002330c3fcc.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.8.woff2": "fonts/58050ad2b98fc9c89fb1c979.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.9.woff2": "fonts/9648fad5d731c31e9f7b578e.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.6.woff2": "fonts/e761a8335b5ec6e111a7b4f0.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.10.woff2": "fonts/b29ba5de0a46f0aa1d4787b1.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.7.woff2": "fonts/f00b049e1118122ff505251e.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.12.woff2": "fonts/f5133bf404888e6ab2e55957.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.11.woff2": "fonts/acad036af4571fab43f72196.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.14.woff2": "fonts/b1dd4234672134a91236c586.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.13.woff2": "fonts/06655404559fda1bf0b97047.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.16.woff2": "fonts/815bbaf9c974ae58fd21c20a.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.15.woff2": "fonts/68fdb73ef0fab5a8981e4918.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.17.woff2": "fonts/f612ea4b8a7b99688418dbfa.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.19.woff2": "fonts/3d092f87bae2a22908401214.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.21.woff2": "fonts/fbe0d729f3b5ffb46fba13b4.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.18.woff2": "fonts/2c96122226f704fae0c26bb9.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.22.woff2": "fonts/37e0105f2fe2b27ec45944c8.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.20.woff2": "fonts/5c565e991c42f26840247298.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.24.woff2": "fonts/19a473d4f0504f801dd1485c.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.23.woff2": "fonts/c87190d27684baaeca23d919.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.25.woff2": "fonts/61bd1e3cbcb99b08274704a0.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.26.woff2": "fonts/1ec4db99d66fceb6bb0af95d.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.28.woff2": "fonts/f47a47dd2197e50ba5f0d3f9.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.29.woff2": "fonts/4737d08f9ac0863564ae60d0.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.30.woff2": "fonts/c913b3dbb6a85929a088bcbf.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.31.woff2": "fonts/0ea23f68111c10dfe14f39cc.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.32.woff2": "fonts/d797cd60ad425137c5b81f67.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.27.woff2": "fonts/9e1173b12c49f8ba52cc1ebb.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.36.woff2": "fonts/7117941be36a881b1c637525.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.34.woff2": "fonts/e0f8a4eaad4757e3c5db4af7.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.35.woff2": "fonts/4b517a529f3d74d51365969c.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.39.woff2": "fonts/7b70c656e584f40fac9de28e.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.38.woff2": "fonts/e0b7a0438d8fae04bac32338.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.33.woff2": "fonts/131cb5deb5379048a29288cb.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.40.woff2": "fonts/0a6dabfc0f6b4e99ae40a64d.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.37.woff2": "fonts/0f5646c4f2bf2de36499cf9c.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.43.woff2": "fonts/3cf72c78ccf7541b81fcfb6e.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.42.woff2": "fonts/497863b400a658bdd7a81e88.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.41.woff2": "fonts/f19f4c65fc225ceb7e33d3da.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.44.woff2": "fonts/cec6b1e8963fb6d2ab4a9d7c.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.46.woff2": "fonts/6990e1398f1b176370b00391.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.45.woff2": "fonts/a3b96dd5025a73fa242caa5c.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.47.woff2": "fonts/415cc3373aaf34cf0ba1dbe2.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.49.woff2": "fonts/c4686fdffea47967b9ff3e6d.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.51.woff2": "fonts/3ccfc29617e515080b0d436c.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.50.woff2": "fonts/7ea142cf55cb5638580abb6d.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.52.woff2": "fonts/713acf07c941f86ed8669706.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.53.woff2": "fonts/090e85801d3da6148fa116ec.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.55.woff2": "fonts/97368ea66f683dc1f3298cd9.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.56.woff2": "fonts/fb7d1cc1498861e9e9a654d3.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.48.woff2": "fonts/33073eaeb89b7ae8412f4f55.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.57.woff2": "fonts/9d29c1f76d49c2f057e24a09.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.59.woff2": "fonts/46fbec3740699094a8030c80.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.60.woff2": "fonts/f1c06efa4f277f2a2827e843.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.61.woff2": "fonts/0b73a2c76f11ac2ac0a95344.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.63.woff2": "fonts/03bf431c8dcc5a0431661172.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.64.woff2": "fonts/0a97e9262a73c74d1ccc6b16.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.58.woff2": "fonts/d911325865cc89cfa35a5d09.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.54.woff2": "fonts/365a796181f81088ea024b61.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.66.woff2": "fonts/eae49dcae81954a2294a77da.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.62.woff2": "fonts/d3ee9160df5330107c814459.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.67.woff2": "fonts/3b416a05c7a5ec2e3bef8528.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.65.woff2": "fonts/a1def4fac7cd18c8b5bb6cb6.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.69.woff2": "fonts/e70ab80ef4f8f9a96689d6d3.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.72.woff2": "fonts/bbe8d0fe73344e42be25278e.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.70.woff2": "fonts/6b597fda95e18b4208f042b8.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.74.woff2": "fonts/9a7b47e2bb8dde03420282b2.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.71.woff2": "fonts/48e76369167d05227a732cc9.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.73.woff2": "fonts/20351fbbe8fcc7e739c4ad78.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.68.woff2": "fonts/e2df1fe9081cb6f4912bf8c0.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.77.woff2": "fonts/9497cb5b7968aaa55df72be1.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.76.woff2": "fonts/679e9a18ed51e3bb3ee84bb4.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.78.woff2": "fonts/57878877c510eb5e67ae42be.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.79.woff2": "fonts/5aa41f6eb6b7f7df17c84801.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.80.woff2": "fonts/715ff180c2fa660e5fadb572.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.75.woff2": "fonts/aa4bb4255a89208fcb4347dc.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.81.woff2": "fonts/1bb1552b93c25c28f701cd9c.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.83.woff2": "fonts/cb44738a4acc1abf2749d23d.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.82.woff2": "fonts/a7ce5ed63870213907d0ae77.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.84.woff2": "fonts/ba08dc514bc9434244c8af90.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.87.woff2": "fonts/714a5a532f9dd0943d9f9202.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.85.woff2": "fonts/e549e22fede94e3009bc75f1.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.86.woff2": "fonts/ef37361a8e60702d25dfbb0b.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.91.woff2": "fonts/a62a9d44832b9dc9ed15e0f4.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.88.woff2": "fonts/bd25931726513d3687194cab.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.89.woff2": "fonts/380630c3cd11177bce1794ec.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.93.woff2": "fonts/443b930d4db9f81953969f13.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.92.woff2": "fonts/2d0ff572acdbd792698e536c.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.95.woff2": "fonts/24ddf402156c3a8fbd0a781c.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.94.woff2": "fonts/c25ee20cfe50138b39130f92.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.98.woff2": "fonts/35f61456fe8cd7e45bac1a67.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.90.woff2": "fonts/2f595ba56ca48bdae2f7e94d.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.96.woff2": "fonts/b3dfbca305af856e1590da54.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.99.woff2": "fonts/6e32047cf4c747acb6a3ea1f.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.100.woff2": "fonts/5631adc8c5167c582e5eb8ca.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.101.woff2": "fonts/e9aaa6d3c4725602d68dc566.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.97.woff2": "fonts/1eac86f14942901d579af6a7.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.102.woff2": "fonts/375389c31458009da30fb834.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.104.woff2": "fonts/5cee506f9a6f1193026bfe30.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.103.woff2": "fonts/fdde230514f052b0fa3eddd1.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.105.woff2": "fonts/dc3765be55dd56eb0b4ffde4.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.106.woff2": "fonts/88b36db1de703a066b32a4dd.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.107.woff2": "fonts/05eb327616e48937147a094f.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.109.woff2": "fonts/4f0a22629985b093a16b5c5d.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.110.woff2": "fonts/969b3475893dad42d68b1742.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.112.woff2": "fonts/8aaea7d5ef196c6e292bc670.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.108.woff2": "fonts/e8ae5f7fea7a7e3f78bc3595.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.113.woff2": "fonts/1fab5a5d9f0de1bbb31fd2bd.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.115.woff2": "fonts/7017220718b4ae622e6a488a.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.111.woff2": "fonts/c699c8e487938d3009692fc4.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.117.woff2": "fonts/63bc942f0cc29132e4ed8cdf.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.114.woff2": "fonts/8669b33bb96e998fa8b2fc6d.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.118.woff2": "fonts/cd36df33a882164a7af25c33.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.119.woff2": "fonts/929ea881e4ac38c5bbb8c4d2.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFYzggP6lY.woff2": "fonts/6ee2e0f02e550e84036353b5.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.116.woff2": "fonts/d9fabfc95dc2a4de30864c8e.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFYxQgP6lY.woff2": "fonts/de77ac496f5017c5ca183221.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFYwQgP.woff2": "fonts/4018a74149fd0d619277c79b.woff2",
+    "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFYzwgP6lY.woff2": "fonts/267bedd602beebaecf5d558d.woff2",
+    "https://viprpg2022kohaku.x.2nt.com/entries/1/screenshots/main.webp": "entries/1/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/2/screenshots/main.webp": "entries/2/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/3/screenshots/main.webp": "entries/3/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/13/screenshots/main.webp": "entries/13/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/14/screenshots/main.webp": "entries/14/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/15/screenshots/main.webp": "entries/15/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/16/screenshots/main.webp": "entries/16/screenshots/main.jpg",
+    "https://viprpg2022kohaku.x.2nt.com/entries/17/screenshots/main.webp": "entries/17/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/18/screenshots/main.webp": "entries/18/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/19/screenshots/main.webp": "entries/19/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/20/screenshots/main.webp": "entries/20/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/21/screenshots/main.webp": "entries/21/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/22/screenshots/main.webp": "entries/22/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/25/screenshots/main.webp": "entries/25/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/26/screenshots/main.webp": "entries/26/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/27/screenshots/main.webp": "entries/27/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/29/screenshots/main.webp": "entries/29/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/30/screenshots/main.webp": "entries/30/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/31/screenshots/main.webp": "entries/31/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/33/screenshots/main.webp": "entries/33/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/34/screenshots/main.webp": "entries/34/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/37/screenshots/main.webp": "entries/37/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/39/screenshots/main.webp": "entries/39/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/40/screenshots/main.webp": "entries/40/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/41/screenshots/main.webp": "entries/41/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/43/screenshots/main.webp": "entries/43/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/45/screenshots/main.webp": "entries/45/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/48/screenshots/main.webp": "entries/48/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/49/screenshots/main.webp": "entries/49/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/50/screenshots/main.webp": "entries/50/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/52/screenshots/main.webp": "entries/52/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/53/screenshots/main.webp": "entries/53/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/54/screenshots/main.webp": "entries/54/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/56/screenshots/main.webp": "entries/56/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/57/screenshots/main.webp": "entries/57/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/59/screenshots/main.webp": "entries/59/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/60/screenshots/main.webp": "entries/60/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/61/screenshots/main.webp": "entries/61/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/64/screenshots/main.webp": "entries/64/screenshots/main.bmp",
+    "https://viprpg2022kohaku.x.2nt.com/entries/66/screenshots/main.webp": "entries/66/screenshots/main.png",
+    "https://viprpg2022kohaku.x.2nt.com/entries/4/": "entries/4/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/5/": "entries/5/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/23/": "entries/23/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/24/": "entries/24/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/28/": "entries/28/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/36/": "entries/36/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/38/": "entries/38/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/41/": "entries/41/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/42/": "entries/42/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/43/": "entries/43/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/44/": "entries/44/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/46/": "entries/46/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/51/": "entries/51/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/55/": "entries/55/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/58/": "entries/58/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/63/": "entries/63/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/65/": "entries/65/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/67/": "entries/67/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/68/": "entries/68/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/69/": "entries/69/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/71/": "entries/71/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/entries/72/": "entries/72/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/news/": "news/index.html",
+    "https://viprpg2022kohaku.x.2nt.com/result.html": "result.html"
+  },
+  "entries": [
+    {
+      "id": "2022-kouhaku-work-1",
+      "no": "1",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/1/",
+      "snapshotUrl": "https://web.archive.org/web/20230327172026id_/https://viprpg2022kohaku.x.2nt.com/entries/1/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "89",
+        "ジャンル": "RPG",
+        "ツクール": "RPG Maker 2003",
+        "配信/投稿": "OK/OK",
+        "コメント": "紅白に初参加させて頂く。もしもゲー初めて作りました。WT制 サイドビュー自作戦闘ボスラッシュ魔王把握RPG\n(運要素なし、雑魚戦なし、ダンジョン探索なし)魔王把握祭…年に一度開催される祭りの主役にアイスさんが選ばれた。\nRTP大陸を駆け廻りバトルに勝って全員吹っ飛ばせ！ヘレン風の戦闘システムをもとに人数が2対2に増えたバトル。\nアイスさんはふたつの装備武器の組み合わせで大きく戦闘スタイルが変わります。\n仲間は事前に決めた作戦にしたがって自動で動く。アイスさんと仲間が同時に攻撃すると連携攻撃に！\n敵の行動の隙をよく観察しながら、仲間と協力しあって戦いましょう。本編クリアまで約3～6時間です(思考時間やプレイ方針により変化)。",
+        "管理人から一言": "1発目から凄そうなのｋｔｋｒｗｗｗ"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/1/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/1/screenshots/main.png",
+          "local": "/screenshots/2022-kouhaku/1-source-1.png",
+          "sha256": "de7c69bed9325a23ee5e41948de7ce6cd089c49241d508a3153037fe1d26890b"
+        },
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/1/screenshots/sub.jpg",
+          "local": "/screenshots/2022-kouhaku/1-source-2.jpg",
+          "sha256": "ea3c37c41ab005b323b96446fd67ef529a903f6b3d7341ca3df1145f274e73d0"
+        }
+      ],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [
+        {
+          "url": "https://mega.nz/file/VCdDnZIC",
+          "label": "Download(45.5 MB, updated\n2023-01-09)"
+        }
+      ],
+      "backupFile": {
+        "name": "viprpg2022kohaku_001.zip",
+        "handle": "BOESEBRA",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-2",
+      "no": "2",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/2/",
+      "snapshotUrl": "https://web.archive.org/web/20221203051205id_/https://viprpg2022kohaku.x.2nt.com/entries/2/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "雨水葉月",
+        "ジャンル": "かくれんぼ＋α",
+        "ツクール": "RPG Maker 2003",
+        "配信/投稿": "可/可",
+        "コメント": "今回の紅白に向けてRPGも作っていたのですが、間に合いそうにないので先月思いついたやるゲで参加します夢の魔力を核として生まれた魔法具現化「ドリームバリア」(むばり)は、\nある時は人目に付きにくい高所や物陰から、\nある時はその夢に登場する人物や物品に姿形を変えながら、\n数多くの夢世界を渡り歩き、見守り続けてきた。そんなむばりの話を聞いて、魔法具現化大好きな魔法使いの少女「アシュリー」は、\n夢の中で隠れているむばりを探し出してみたいと言い出した。\nそして彼女達につきまとっているイタズラ大好き精霊「ツムジ」が、\n「アシュリーの夢の中にむばりが隠れて、それをアシュリーとツムジが協力して探し出す」\nという不思議な「かくれんぼ」を思いつき、3人で夢世界で遊ぶことに………といった感じのストーリーから始まるかくれんぼゲーム。\nアシュリーが自力で、あるいはツムジからヒントをもらいながら、\n制限時間以内に様々な方法や姿で隠れているむばりを探し当てることができれば勝ち。変身/形状変化系の要素が結構出るゲームになりそうなので苦手な人はご注意ください。",
+        "管理人から一言": "かくれんぼと形状変化の夢のコラボだお！（ドリームバリアだけに）"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/2/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/2/screenshots/main.png",
+          "local": "/screenshots/2022-kouhaku/2-source-1.png",
+          "sha256": "419f69fc3d58da2eedadd8663da18b5e4a8edb16097b4107cfc6618af8ba2136"
+        }
+      ],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_002.zip",
+        "handle": "lalllTIa",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-3",
+      "no": "3",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/3/",
+      "snapshotUrl": "https://web.archive.org/web/20230102131944id_/https://viprpg2022kohaku.x.2nt.com/entries/3/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "はぴどら",
+        "ジャンル": "プレシャス15周年記念見るゲ＋作品集",
+        "ツクール": "RPGツクール2000",
+        "配信/投稿": "不可/不可",
+        "コメント": "2022夏祭りの同名作品のバージョンアップ版です。\nこの作品はプレシャスゲーであり、ショウさんが真面目に活躍する作品なので、\n予めご了承ください。\nまた、作者の設定した新キャラが数人程登場します。Shiftキーを押しながらニューゲームを始める事で、\n夏祭り版の作品集をクリアした状態から始める事ができます。\nまた、この始め方で来れるチラシの裏の上部の石板を調べると、\n夏祭り作品の追加エピソードを直接閲覧する事ができます。\nなお、この機能を使う場合は、ネタバレ防止のため、\n上から順番にクリアしていく事を推奨します。\nまた、一定量のエピソードをクリアすると現れる、\nチラシの裏の左上の新キャラに話しかけると、新エピソードをPIAIする事ができます。何かバグ等がありましたら、感想掲示板でお知らせしていただけると助かります。\nまた、通常の感想の方も大歓迎です。",
+        "管理人から一言": "ドコなんだお・・・ココはお・・・"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/3/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/3/screenshots/main.png",
+          "local": "/screenshots/2022-kouhaku/3-source-1.png",
+          "sha256": "378fc7e613e0d4ef5e08a2c9b022b2d30d639811652a96b3d366ee7419bc8c40"
+        }
+      ],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [
+        {
+          "url": "https://mega.nz/file/wW0WmDaB",
+          "label": "Download(11.9 MB, updated\n2022-12-31)"
+        }
+      ],
+      "backupFile": {
+        "name": "viprpg2022kohaku_003.zip",
+        "handle": "dSlECQDS",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-4",
+      "no": "4",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/4/",
+      "sourceDetailUnavailable": true,
+      "sourceFields": {},
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/4/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/4/screenshots/main.webp",
+          "local": "/screenshots/2022-kouhaku/4-source-1.webp",
+          "sha256": "fcaef9cde4978d56051227b1d2df74c080c670c462d5c7bd3c844358e43cf928"
+        }
+      ],
+      "screenshotRole": "saved-catalogue-preview",
+      "originalDownloadLinks": [],
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-5",
+      "no": "5",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/5/",
+      "sourceDetailUnavailable": true,
+      "sourceFields": {},
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/5/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/5/screenshots/main.webp",
+          "local": "/screenshots/2022-kouhaku/5-source-1.webp",
+          "sha256": "810ef365cbbf9b001df79979f6fb844b5093af0246eda1dbd0ab47134b7c5d08"
+        }
+      ],
+      "screenshotRole": "saved-catalogue-preview",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_005.zip",
+        "handle": "pOsAlDpA",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-6",
+      "no": "6",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/6/",
+      "snapshotUrl": "https://web.archive.org/web/20230116224150id_/https://viprpg2022kohaku.x.2nt.com/entries/6/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "キチガイ地獄外道祭文",
+        "ジャンル": "異世界転生剣劇血風譚読むゲ",
+        "ツクール": "RPGツクール2000",
+        "配信/投稿": "可/可",
+        "コメント": "初ツクール初登校です。よろしくお願いしまう。",
+        "管理人から一言": "まだ1ｹﾀ台なのにプレシャスﾈﾀ2つめｗｗｗっうぇｗｗｗ"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/6/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/6/screenshots/main.png",
+          "local": "/screenshots/2022-kouhaku/6-source-1.png",
+          "sha256": "b48350b807099d8c4158a5a7087f56a643214d8373c4b0abd0060c6daee0f728"
+        }
+      ],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [
+        {
+          "url": "https://mega.nz/file/lO9iGAwD",
+          "label": "Download(248 MB, updated\n2023-01-01)"
+        }
+      ],
+      "backupFile": {
+        "name": "viprpg2022kohaku_006.zip",
+        "handle": "Qb8lSbpa",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-7",
+      "no": "7",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/7/",
+      "snapshotUrl": "https://web.archive.org/web/20230109151717id_/https://viprpg2022kohaku.x.2nt.com/entries/7/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "ヒマーネスI",
+        "ジャンル": "資料",
+        "ツクール": "RPGツクール2000",
+        "配信/投稿": "可/可",
+        "コメント": "今年も参加してみました。年末までにどんなキャラが出てくるのかわからない。",
+        "管理人から一言": "ｷｬﾗ大杉ｗｗｗﾊﾞﾛｽｗｗｗ"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/assets/2000.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/7/screenshots/main.png",
+          "local": "/screenshots/2022-kouhaku/7-source-1.png",
+          "sha256": "8fd3c3871c3e064d8cbaa29025287738dfa760d49c53d9e8667bc10bc2ca3f76"
+        }
+      ],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [
+        {
+          "url": "https://mega.nz/file/FacwiKIT",
+          "label": "Download(14.5 MB, updated\n2023-01-07)"
+        }
+      ],
+      "backupFile": {
+        "name": "viprpg2022kohaku_007.zip",
+        "handle": "1WtllLYJ",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-8",
+      "no": "8",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/8/",
+      "snapshotUrl": "https://web.archive.org/web/20221202235516id_/https://viprpg2022kohaku.x.2nt.com/entries/8/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "かすていら",
+        "ジャンル": "見るゲ",
+        "ツクール": "RPGツクール2000",
+        "配信/投稿": "いいよ/いいよ",
+        "コメント": "何年か前に出した見るゲをいくつか手直しとかして出します。多分追加シーンとか台詞の調整がメインになります。",
+        "管理人から一言": "VIPRPG12代目保管庫288番『消えぬ煙の魔女』のリメイクかお？"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/assets/2000.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/8/screenshots/main.png",
+          "local": "/screenshots/2022-kouhaku/8-source-1.png",
+          "sha256": "28fd8b206b7b5d3452851da22c2c30f182a1aa42582b5280f54bf574ee790c8b"
+        }
+      ],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_008.zip",
+        "handle": "4e0kDaID",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-9",
+      "no": "9",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/9/",
+      "snapshotUrl": "https://web.archive.org/web/20221202095302id_/https://viprpg2022kohaku.x.2nt.com/entries/9/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "鷹",
+        "ジャンル": "見るゲ",
+        "ツクール": "RPGツクール2000",
+        "配信/投稿": "可/可",
+        "コメント": "世界が聖人を必要とする限り、聖人は何度でも蘇る。",
+        "管理人から一言": "聖人さんは滅びぬ！何度でも蘇るお！ﾊﾞﾙｽｗｗｗ"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/assets/2000.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/9/screenshots/main.png",
+          "local": "/screenshots/2022-kouhaku/9-source-1.png",
+          "sha256": "d846191d183d0741c2b3f2f5aff374ccb852a9851ee19c95ec7699c00ca1617e"
+        }
+      ],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [
+        {
+          "url": "https://viprpg2022kohaku.x.2nt.com/games/viprpg2022kohaku_009.zip",
+          "label": "Download(0.0 KB, updated\n\t\t\t\t\t\t\t\t2023-01-01)"
+        }
+      ],
+      "backupFile": {
+        "name": "viprpg2022kohaku_009.zip",
+        "handle": "Va9H2KrT",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-10",
+      "no": "10",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/10/",
+      "snapshotUrl": "https://web.archive.org/web/20221202141037id_/https://viprpg2022kohaku.x.2nt.com/entries/10/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "あじたま",
+        "ジャンル": "たぶんスポーツ",
+        "ツクール": "RPGツクール2000",
+        "配信/投稿": "可/可",
+        "コメント": "コマンド式サッカーゲームです。\n\t\t\t\t\t\tドリブルやパスなどは全てコマンド操作。\n\t\t\t\t\t\tメインシナリオのみなら7時間程度でクリア可能です。\n\t\t\t\t\t\tオフサイドのように難しいルールは存在しません。これはもしもサッカー、サッカー初心者も安心です。",
+        "管理人から一言": "ドイツくんふっとばされた！"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/10/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/10/screenshots/main.jpg",
+          "local": "/screenshots/2022-kouhaku/10-source-1.png",
+          "sha256": "775957d79a1e20a8fa689c2c4992a2568a10ad172d8bf8db1991492ffb4b75b2"
+        },
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/10/screenshots/sub.jpg",
+          "local": "/screenshots/2022-kouhaku/10-source-2.png",
+          "sha256": "352806c8e6cbaf27ad107960b5afb0214294fa5c324a821b014aacaf9cdfd929"
+        }
+      ],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [
+        {
+          "url": "https://viprpg2022kohaku.x.2nt.com/games/viprpg2022kohaku_010.zip",
+          "label": "Download(0.0 KB, updated 2023-01-01)"
+        }
+      ],
+      "backupFile": {
+        "name": "viprpg2022kohaku_010.zip",
+        "handle": "4S00HRTT",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-11",
+      "no": "11",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/11/",
+      "snapshotUrl": "https://web.archive.org/web/20221225074552id_/https://viprpg2022kohaku.x.2nt.com/entries/11/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "徳明",
+        "ジャンル": "ダークファンタジー読むゲ",
+        "ツクール": "RPG Maker 2003",
+        "配信/投稿": "いいよ/おｋまる",
+        "コメント": "タイトル画面はほたる様から使用許諾を頂きました、この場をお借りしましてお礼申し上げます。",
+        "管理人から一言": "筋肉巨乳娘ｋｔｋｒｗｗｗ"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/11/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/11/screenshots/main.png",
+          "local": "/screenshots/2022-kouhaku/11-source-1.png",
+          "sha256": "089187fc1435625bbaa5144422ba8008cbbf7834671728ce43f126b4708883c9"
+        }
+      ],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [
+        {
+          "url": "https://mega.nz/file/1f1hmLjA",
+          "label": "Download(30.2 MB)"
+        }
+      ],
+      "backupFile": {
+        "name": "viprpg2022kohaku_011.zip",
+        "handle": "cH8n3RxL",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-12",
+      "no": "12",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/12/",
+      "snapshotUrl": "https://web.archive.org/web/20221224070609id_/https://viprpg2022kohaku.x.2nt.com/entries/12/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "ナナメティックスレイヤー",
+        "ジャンル": "R-18見るゲ",
+        "ツクール": "RPGツクール2000",
+        "配信/投稿": "自己責任/自己責任",
+        "コメント": "・18歳未満プレイ禁止　　配信、動画投稿は自己責任でお願いします・冷たいパスタさんに　アイドル怪人になりきって貰って\n　使い捨てｵﾘｷｬﾗをボコボコにして頂きました・かなりM度が高く　言葉もキツイです　超ドM向けです・暴力表現が多くあります　　いわゆるＭ格闘、逆リョナです・ですが　流血、骨折などの　人体の欠損表現は　全くありません・男のセリフは一切ありません　全編パスタさんのセリフのみで進行します・性行為は衣服の上からの足コキだけです　本番描写はありません・想定視聴時間は20分前後・途中セーブ無し　最初からチャプターセレクトが可能・FacesetフォルダとCharsetフォルダ内の改変顔グラと自作矛グラは好きに使ってくれて構いません\n　火花エフェクトも必要ならBattleフォルダ内から物故抜いてどうぞ",
+        "管理人から一言": "えｒｇｷﾀ────(ﾟ∀ﾟ)────!!"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/12/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/12/screenshots/main.png",
+          "local": "/screenshots/2022-kouhaku/12-source-1.png",
+          "sha256": "4a37fd3c0c262bb67da68b5e9158a47acaa79582b87c5ca5a16ec79edec70357"
+        },
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/12/screenshots/sub.png",
+          "local": "/screenshots/2022-kouhaku/12-source-2.png",
+          "sha256": "56d0ed91028fd71470e1627f25100bce2928c047551e981798cf9d38f2fbc8ee"
+        }
+      ],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [
+        {
+          "url": "https://mega.nz/file/hPtERBpD",
+          "label": "Download(28.2 MB)"
+        }
+      ],
+      "backupFile": {
+        "name": "viprpg2022kohaku_012.zip",
+        "handle": "0bkBQbBB",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-13",
+      "no": "13",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/13/",
+      "snapshotUrl": "https://web.archive.org/web/20221219223059id_/https://viprpg2022kohaku.x.2nt.com/entries/13/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "ぬ",
+        "ジャンル": "頭悪い",
+        "ツクール": "RPGツクール2000",
+        "配信/投稿": "可/クリア動画のみ可",
+        "コメント": "ワイシャツの下から大騒ぎするゲームです。",
+        "管理人から一言": "10位・ゴキブリで顔を拭く"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/assets/2000.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/13/screenshots/main.png",
+          "local": "/screenshots/2022-kouhaku/13-source-1.png",
+          "sha256": "95f3af1544c437e82be27d733c964ba0512ea1ffb94293c2cc4eb05f831538d0"
+        },
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/13/screenshots/sub.png",
+          "local": "/screenshots/2022-kouhaku/13-source-2.png",
+          "sha256": "cfbbaf1ccbc3dd00559b8e6669a37963f6dc7efbd73b586fbc848ae9f1bac72d"
+        }
+      ],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_013.zip",
+        "handle": "hPNyURbJ",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-14",
+      "no": "14",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/14/",
+      "snapshotUrl": "https://web.archive.org/web/20221204080052id_/https://viprpg2022kohaku.x.2nt.com/entries/14/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "悲しきツクールDSマシン",
+        "ジャンル": "見るゲ&探索+α",
+        "ツクール": "RPG Maker 2003",
+        "配信/投稿": "可/可",
+        "コメント": "おれ、ほんとはにねんまえにだしたやるげのつづきだすよていだったけど、\nえふいーえんげーじでやおれがやろうとしてたことをやられて、\nもちべがけしとんだから、かわりにこれででるよ。\nてかこれかいてたら、おなじかまそっそだいざいのえんとりーがあって、\nちょっとくすっときたね。かまそっそしりーずのひこうしきがいでんってやつで、\nげんさくしゃにきょかはとってるんだってさ。\nのりもげんさくをりすぺくとしてて、わかりやすいつくりにもなってるから、\nかまそっそすきなひとも、かまそっそしらないひとも、\nとうじょうきゃらぜんいんしらないひとも、たのしめるんじゃないかなあ。でも、ことしのなつのじんのかまそっそのしゅうごうにある、\n「アーケチの事件簿」をやってるともっとたのしめるかも。\nまだつくってるとちゅうだから、SSはごじつこうしんするよ。ところで、れもんじーなのさいはんはまだかなあ。\nつちのあじとかいわれてたけど、ぜんぜんそんなことないし、\nおれはすきだったんだけどなあ。",
+        "管理人から一言": "カマソッソ大杉でﾜﾀﾛｗｗｗｗｗｗｗｗｗｗっうぇｗｗｗｗｗ"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/14/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/14/screenshots/main.png",
+          "local": "/screenshots/2022-kouhaku/14-source-1.png",
+          "sha256": "273d7a3a1f4cc6198ea4ca39ccd567a3793e1a2b4bb5ef31af6bd64f55a241f3"
+        }
+      ],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [],
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-15",
+      "no": "15",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/15/",
+      "snapshotUrl": "https://web.archive.org/web/20221203134000id_/https://viprpg2022kohaku.x.2nt.com/entries/15/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "リガル",
+        "ジャンル": "読むゲ",
+        "ツクール": "RPGツクール2000",
+        "配信/投稿": "可/可",
+        "コメント": "初参加になります　何卒お手柔らかに\n30分程度で読み終わる作品です",
+        "管理人から一言": "なんか怖そうだお・・・・"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/15/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/15/screenshots/main.png",
+          "local": "/screenshots/2022-kouhaku/15-source-1.png",
+          "sha256": "1eae06bd00b4e4ca550a02a57dbb73eab39c37d13763c5792155552efd5fe362"
+        }
+      ],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_015.zip",
+        "handle": "USMQXBBY",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-16",
+      "no": "16",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/16/",
+      "snapshotUrl": "https://web.archive.org/web/20230111213425id_/https://viprpg2022kohaku.x.2nt.com/entries/16/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "みどり",
+        "ジャンル": "やるゲ",
+        "ツクール": "RPG Maker 2003",
+        "配信/投稿": "可/可",
+        "コメント": "旅するゲームです。一緒に旅してみませんか。",
+        "管理人から一言": "可愛い娘には旅をさせようずｗｗｗ"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/16/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/16/screenshots/main.jpg",
+          "local": "/screenshots/2022-kouhaku/16-source-1.jpg",
+          "sha256": "f5c3fab7b5e38b99241b937066b31e7493f4515197ad05902b7d02d0b16d6ae9"
+        },
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/16/screenshots/sub.jpg",
+          "local": "/screenshots/2022-kouhaku/16-source-2.jpg",
+          "sha256": "440eab5855b945a087f3e4c96283823e107d4eb72749268ea046f393181465c3"
+        }
+      ],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [
+        {
+          "url": "https://mega.nz/file/de0GCJ4S",
+          "label": "Download(16.3 MB)"
+        }
+      ],
+      "backupFile": {
+        "name": "viprpg2022kohaku_016.zip",
+        "handle": "ZCtRgSaa",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-17",
+      "no": "17",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/17/",
+      "snapshotUrl": "https://web.archive.org/web/20221203031049id_/https://viprpg2022kohaku.x.2nt.com/entries/17/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "雷塵",
+        "ジャンル": "魔法と銃のデフォ戦やるゲー（男の娘成分を添えて）",
+        "ツクール": "RPGツクール2000",
+        "配信/投稿": "可能（金銭が発生する物は除く）/というかどんどんやってほしい（アレなシーンは編集した方が安心？）/可能/というかどんどんやってほしい（アレなシーンは編集した方が安心？）",
+        "コメント": "自然と科学が調和するテーマパークに迷い込んだアシュリーと調査に来たフェーニの二人が魔法と銃で戦い、突き進む自作初のデフォ戦やるゲ！\nクリア後要素もあるけれどまず本編だけ出して後にアプデで追加する予定です。※ちなみに二人は男の娘です。\n全年齢向けだからR-18シーンはないよ（性的な描写が全く無いとは言っていない）",
+        "管理人から一言": "男の娘ももはや一般性癖通り越して社会運動だおね・・・・"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/17/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/17/screenshots/main.png",
+          "local": "/screenshots/2022-kouhaku/17-source-1.png",
+          "sha256": "a55cee237b97f4ffbaf52fe54dedeaba4541b86c17933f51321ef35f016f7ac5"
+        }
+      ],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_017.zip",
+        "handle": "4b9FmBYL",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-18",
+      "no": "18",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/18/",
+      "snapshotUrl": "https://web.archive.org/web/20221203005107id_/https://viprpg2022kohaku.x.2nt.com/entries/18/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "五つ葉",
+        "ジャンル": "見るゲー＆100人魔王把握",
+        "ツクール": "RPG Maker 2003",
+        "配信/投稿": "可/可",
+        "コメント": "短編見るゲー集と100人魔王把握です。\nそこまでボリュームはないので、大作の箸休め程度につまんでもらえればと。※SSに写っているキャラクターが一部登場しない可能性があります。",
+        "管理人から一言": "まさにお祭り騒ぎｗｗｗ"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/18/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/18/screenshots/main.png",
+          "local": "/screenshots/2022-kouhaku/18-source-1.png",
+          "sha256": "c4c187f46c44659af756b894fc4e966792b64983dc41860cfc93149f546bcad3"
+        },
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/18/screenshots/sub.png",
+          "local": "/screenshots/2022-kouhaku/18-source-2.png",
+          "sha256": "7c146478d21d83cab89e8e80e53369aad2f3324d2160cdf61e83610a544358d5"
+        }
+      ],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_018.zip",
+        "handle": "ta8y1JDQ",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-19",
+      "no": "19",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/19/",
+      "snapshotUrl": "https://web.archive.org/web/20221203010453id_/https://viprpg2022kohaku.x.2nt.com/entries/19/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "あきこ",
+        "ジャンル": "土地が冒険するｋｓｇ",
+        "ツクール": "RPGツクール2000",
+        "配信/投稿": "OK/OK",
+        "コメント": "王様は思いました。\n「たまには変わった奴にポテチを取り返しにいかそう」\nそしてここに楽園がエントリーするーー",
+        "管理人から一言": "ついに惑星までプレシャスかお・・・・"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/19/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/19/screenshots/main.png",
+          "local": "/screenshots/2022-kouhaku/19-source-1.png",
+          "sha256": "90932bbf497ba283923c066ab678497cb44db15d7e877cfe3929f65deca1fde4"
+        }
+      ],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_019.zip",
+        "handle": "MGFCTRaB",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-20",
+      "no": "20",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/20/",
+      "snapshotUrl": "https://web.archive.org/web/20221204083639id_/https://viprpg2022kohaku.x.2nt.com/entries/20/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "ナラネーヨ",
+        "ジャンル": "やるゲ",
+        "ツクール": "RPG Maker 2003",
+        "配信/投稿": "可/可",
+        "コメント": "崩れ落ちた時の中へSS２枚目は作品と共に準備中です",
+        "管理人から一言": "細○守最新作『時を刻む少女』"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/assets/2003s.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/20/screenshots/main.png",
+          "local": "/screenshots/2022-kouhaku/20-source-1.png",
+          "sha256": "4e2816b2fb4a3d2ab1766dc3f1e42b65f0aff346eaf7ab3916dcf1495266260a"
+        }
+      ],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_020.zip",
+        "handle": "xb9VWD6K",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-21",
+      "no": "21",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/21/",
+      "snapshotUrl": "https://web.archive.org/web/20221205085238id_/https://viprpg2022kohaku.x.2nt.com/entries/21/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "hanol",
+        "ジャンル": "パズル",
+        "ツクール": "RPG Maker 2003",
+        "配信/投稿": "可/可",
+        "コメント": "GW祭に投稿した「Reリリア」の続編です\n前作から５年後、リリア達の前に現れた新たな敵とは…!?\n※夏の陣に間に合わなかった100魔把も収録するかもしれません",
+        "管理人から一言": "VIPRPG 2022GW祭『リリアのギミックパズル ～Reリリア～』の続編だお！"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/21/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/21/screenshots/main.png",
+          "local": "/screenshots/2022-kouhaku/21-source-1.png",
+          "sha256": "70c9d8df2366c75dfc24978fea4fb76f265cb8c9c69828404bac24b98fee3d21"
+        }
+      ],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_021.zip",
+        "handle": "cK8xlRKD",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-22",
+      "no": "22",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/22/",
+      "snapshotUrl": "https://web.archive.org/web/20221207030348id_/https://viprpg2022kohaku.x.2nt.com/entries/22/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "紅夏",
+        "ジャンル": "アクションゲーム",
+        "ツクール": "RPGツクール2000",
+        "配信/投稿": "可/可",
+        "コメント": "完成まで、あと2～3年待ってほしい",
+        "管理人から一言": "VIPRPG 2021夏の陣から続けて登場！全裸で待つお！"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/assets/2000.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/22/screenshots/main.png",
+          "local": "/screenshots/2022-kouhaku/22-source-1.png",
+          "sha256": "535002ca484055657330d043d90d7979461f542def366211a788711f2a82407d"
+        },
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/22/screenshots/sub.png",
+          "local": "/screenshots/2022-kouhaku/22-source-2.png",
+          "sha256": "c5202ed06b2e9d92cd4f7ee04223495c0088e29a98fd1e0732fa6819435aa2a3"
+        }
+      ],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_022.zip",
+        "handle": "MOkmzZbT",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-23",
+      "no": "23",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/23/",
+      "sourceDetailUnavailable": true,
+      "sourceFields": {},
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/23/icon.png",
+      "screenshotSources": [],
+      "screenshotRole": "saved-catalogue-preview",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_023.zip",
+        "handle": "ATsmCS4b",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-24",
+      "no": "24",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/24/",
+      "sourceDetailUnavailable": true,
+      "sourceFields": {},
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/24/icon.png",
+      "screenshotSources": [],
+      "screenshotRole": "saved-catalogue-preview",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_024.zip",
+        "handle": "kCdGjRjY",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-25",
+      "no": "25",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/25/",
+      "snapshotUrl": "https://web.archive.org/web/20221207070759id_/https://viprpg2022kohaku.x.2nt.com/entries/25/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "クアアタ",
+        "ジャンル": "アニメ",
+        "ツクール": "RPGツクール2000",
+        "配信/投稿": "可/可",
+        "コメント": "視聴時間：二分　※追加更新パッチ当てる余裕があれば+a\n作者コメント：\n映画デリシャスパーティ・プリキュア・夢みるお子さまランチ！面白かった",
+        "管理人から一言": "アニメ・・・だと？"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/25/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/25/screenshots/main.png",
+          "local": "/screenshots/2022-kouhaku/25-source-1.png",
+          "sha256": "a000833551dae1f07773cca4c4be21492e98bf0ba4a50c7349fe9658913e07ee"
+        }
+      ],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_025.zip",
+        "handle": "ZO8RETDZ",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-26",
+      "no": "26",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/26/",
+      "snapshotUrl": "https://web.archive.org/web/20221219223053id_/https://viprpg2022kohaku.x.2nt.com/entries/26/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "たんち",
+        "ジャンル": "大人の夜更かしのための見るゲ",
+        "ツクール": "RPG Maker 2003",
+        "配信/投稿": "いいよ/いいよ",
+        "コメント": "冷やし中華はじめました(5回目)。",
+        "管理人から一言": "『狂詩性ブラックサンダー』シリーズの5作目らしいお！"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/26/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/26/screenshots/main.png",
+          "local": "/screenshots/2022-kouhaku/26-source-1.png",
+          "sha256": "0f6115dea9ef8a0d2387183b983e537fd2a27e6d2b0049635899b022e23f7a22"
+        },
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/26/screenshots/sub.png",
+          "local": "/screenshots/2022-kouhaku/26-source-2.png",
+          "sha256": "4b5e0cef79c1d74ddb1429b21de7755220c4b6d944364c002438d7e95922ea7f"
+        }
+      ],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_026.zip",
+        "handle": "cGNWHbbR",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-27",
+      "no": "27",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/27/",
+      "snapshotUrl": "https://web.archive.org/web/20230320212104id_/https://viprpg2022kohaku.x.2nt.com/entries/27/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "だんぢ",
+        "ジャンル": "大人たちの夜更かしのための見るゲ",
+        "ツクール": "RPGツクール2000",
+        "配信/投稿": "可/可",
+        "コメント": "シロノワールブラックサンダーはじめました",
+        "管理人から一言": "なんかﾊﾟﾁﾓﾝが北お・・・"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/assets/2000.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/27/screenshots/main.png",
+          "local": "/screenshots/2022-kouhaku/27-source-1.png",
+          "sha256": "589aac787dd1d45b863d910360c30ecbeb6b23c8f99eb8288f66d2fd08b46fab"
+        }
+      ],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [
+        {
+          "url": "https://mega.nz/file/lO0QlIgJ",
+          "label": "Download(3.7 MB)"
+        }
+      ],
+      "backupFile": {
+        "name": "viprpg2022kohaku_027.zip",
+        "handle": "VGcmWRpK",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-28",
+      "no": "28",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/28/",
+      "sourceDetailUnavailable": true,
+      "sourceFields": {},
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/28/icon.png",
+      "screenshotSources": [],
+      "screenshotRole": "saved-catalogue-preview",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_028.zip",
+        "handle": "ZP0j0D6b",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-29",
+      "no": "29",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/29/",
+      "snapshotUrl": "https://web.archive.org/web/20221205074534id_/https://viprpg2022kohaku.x.2nt.com/entries/29/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "名雲きつね",
+        "ジャンル": "読むerg",
+        "ツクール": "RPGツクールMV",
+        "配信/投稿": "自己責任/自己責任",
+        "コメント": "去年(2021)の春くらいからじわじわ作っていた短編２本立てです、未成年はDL禁止。\n片方が凌辱系で片方が純愛系なのでどちらの需要も満たせると自負しているよ。[霧の森の魔女]　あらすじ\n悪の魔王は勇者アレックスの手によって打ち倒され大地から魔物はいなくなりました、めでたしめでたし。\nそんな風にかつての勇者の戦いがおとぎ話になるほどの年月が経った後のとある村で囁かれている噂「かつての勇者と共に戦った英雄である大魔法使いキャロルは不老不死の術を手にし今も生き続けている、だが邪悪な魔女と化してしまった彼女は流行り病を蔓延させ人々を苦しめている」\nそんな魔女の住む霧深い森を進む人影があった…あなたの目的はただひとつ。\n家族の命を奪った疫病を撒いた邪悪な魔女への復讐であった…[陽だまりの教会]　あらすじ\n大神官デイジーの元で下働きをしていた青年(あなた)に、最近老齢の神父が他界し代わりの人材を求めていたとある田舎の村への赴任が言い渡される。\n勇者の仲間であった事もあるデイジーの元で働いていた言わばエリートであった自分が突然遠い田舎へ飛ばされる事に困惑するが、後の出世には必要な事と言い含められ承諾する事となった。\n失意の中重い足取りでその村へと向かうあなただったが、そこでひとりの少女と出会う。\nまるで陽だまりの様なやさしい暖かさをもった彼女に案内されたのは[教会でもある]という、身寄りのない子供達の集まる家だった…",
+        "管理人から一言": "まさかの2本勃てｗｋｔｋ"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/29/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/29/screenshots/main.png",
+          "local": "/screenshots/2022-kouhaku/29-source-1.png",
+          "sha256": "d2a07f116cd39db2f71d9e24a1e2cb3c064e97c93348bed7640e2cb190cb8352"
+        },
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/29/screenshots/sub.png",
+          "local": "/screenshots/2022-kouhaku/29-source-2.png",
+          "sha256": "d856e5c72cc5fd73ba6d93cf64899cfd3e4f19883e7d71e4a33246352e51ed61"
+        }
+      ],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_029.zip",
+        "handle": "1XlA2AqK",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-30",
+      "no": "30",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/30/",
+      "snapshotUrl": "https://web.archive.org/web/20221205184121id_/https://viprpg2022kohaku.x.2nt.com/entries/30/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "よもぎもち",
+        "ジャンル": "見るだけゲ",
+        "ツクール": "RPGツクール2000",
+        "配信/投稿": "配信するようなもんじゃない/いいよ",
+        "コメント": "段位道場のインフレがえげつないですね1316％適当に作りました",
+        "管理人から一言": "Zzz…"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/assets/2000.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/30/screenshots/main.png",
+          "local": "/screenshots/2022-kouhaku/30-source-1.png",
+          "sha256": "b4a81705aad104a5a40a8e3ee78f3917445b93b157616577e959ed5645a9635b"
+        }
+      ],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_030.zip",
+        "handle": "1WszEb7J",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-31",
+      "no": "31",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/31/",
+      "snapshotUrl": "https://web.archive.org/web/20221209032056id_/https://viprpg2022kohaku.x.2nt.com/entries/31/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "Aomatu_Taglia",
+        "ジャンル": "脱出アクションっぽいやつ",
+        "ツクール": "RPGツクール2000",
+        "配信/投稿": "可(ただし自己責任)/可(ただし自己責任)",
+        "コメント": "随分前に途中まで作ってエターなったものを再始動。ナゾの施設に放り込まれたウィンディを操作し、\n仕掛けや敵をどうにかしながら施設から脱出するという、まあまあよくあるシチュエーションのアクションっぽいゲームです。罠にかかると石になったり凍ったりドロドロにされたりとフェチ要素アリ、さらに寄り道することでちょっぴりエッチな要素にたどり着くことが出来る・・・かもしれません。",
+        "管理人から一言": "メタル化は…まあ確かに今の時代まあまあよくあるかお？"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/31/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/31/screenshots/main.png",
+          "local": "/screenshots/2022-kouhaku/31-source-1.png",
+          "sha256": "fee6663e0fbb77e4b417c2e79c20c7cc277fc7a4cc89cf59aa5d43a3e3945dd0"
+        },
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/31/screenshots/sub.png",
+          "local": "/screenshots/2022-kouhaku/31-source-2.png",
+          "sha256": "e63a43984b4be19b3ee7b62d3cd689cedf8e93fe3ec59b60805565d11fe4c87c"
+        }
+      ],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_031.zip",
+        "handle": "YH0DiCoB",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-32",
+      "no": "32",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/32/",
+      "snapshotUrl": "https://web.archive.org/web/20221207053254id_/https://viprpg2022kohaku.x.2nt.com/entries/32/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "HOT-W",
+        "ジャンル": "デフォ戦",
+        "ツクール": "RPGツクールVX Ace",
+        "配信/投稿": "可/可",
+        "コメント": "これはデフォ戦ではない\n私がそう判断した(不正解の音)",
+        "管理人から一言": "VIPじゃ全然アリだお！"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/32/icon.png",
+      "screenshotSources": [],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_032.zip",
+        "handle": "cLECmJKI",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-33",
+      "no": "33",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/33/",
+      "snapshotUrl": "https://web.archive.org/web/20221229044312id_/https://viprpg2022kohaku.x.2nt.com/entries/33/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "死に体",
+        "ジャンル": "ksg(5分程度)",
+        "ツクール": "RPGツクール2000",
+        "配信/投稿": "可/可",
+        "コメント": "・・・・・・・・・・",
+        "管理人から一言": "かわいそうなのじゃ抜けないけど何故かﾃｨﾑﾎﾟはおっきしてしまうﾈｺ"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/assets/2000.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/33/screenshots/main.png",
+          "local": "/screenshots/2022-kouhaku/33-source-1.png",
+          "sha256": "e8a52ec6283e17e3c821dfc5cac05896d3e44972c86664f48e28c4936ebf2b3e"
+        }
+      ],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [
+        {
+          "url": "https://mega.nz/file/4b8DzDbb",
+          "label": "Download(10.6 MB)"
+        }
+      ],
+      "backupFile": {
+        "name": "viprpg2022kohaku_033.zip",
+        "handle": "pakzCbDD",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-34",
+      "no": "34",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/34/",
+      "snapshotUrl": "https://web.archive.org/web/20221223122750id_/https://viprpg2022kohaku.x.2nt.com/entries/34/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "華想研",
+        "ジャンル": "童話風見るゲ",
+        "ツクール": "RPGツクールMV",
+        "配信/投稿": "ご自由に/どうぞ",
+        "コメント": "VIPRPG初作品です。世界中で知られている童話の中から\nこの時期用に4つアレンジしてみました。\nどれも短めです。図書館とかで、\nふと気になった本を片手にとって\n読んでみるくらいの感覚で見ることをオススメします。――――\n左上…『エリークリスマス』\n　　　　(原作:小人の靴屋)\n右上…『ポーション売りガールズ』\n　　　　(原作:マッチ売りの少女)\n左下…『かまくら』\n　　　　(原作:てぶくろ)\n右下…『おおきなしょくざい』\n　　　　(原作:おおきなかぶ)おまけ…『アレックスとウィンディのクリスマスナイト』\n――――※1枚目は\n　実際のゲーム画面のほんの数分の1を映したものです。",
+        "管理人から一言": "4+1作！大ボリュームだお！"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/34/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/34/screenshots/main.png",
+          "local": "/screenshots/2022-kouhaku/34-source-1.png",
+          "sha256": "2f653f1323ffc1a2ce93aa8b9345731a012f512c238686d96c313029e58fffdb"
+        },
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/34/screenshots/sub.png",
+          "local": "/screenshots/2022-kouhaku/34-source-2.png",
+          "sha256": "90a8cb106309b121d5735f279ee76b652955898274091e02b1a670417a9507de"
+        }
+      ],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_034.zip",
+        "handle": "xH9xET4A",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-35",
+      "no": "35",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/35/",
+      "snapshotUrl": "https://web.archive.org/web/20230202020436id_/https://viprpg2022kohaku.x.2nt.com/entries/35/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "2022紅白管理人",
+        "ジャンル": "見るゲ",
+        "ツクール": "RPG Maker 2003",
+        "配信/投稿": "好きにどうぞ/好きにどうぞ",
+        "コメント": "同梱してある実行ファイルを使用してください。\n他タイトルから移植したりするとちゃんと動きません。\nパスワードは　VIP　です。大文字である事にご注意ください。ーーーーー2022年紅白管理人",
+        "管理人から一言": "誰だお…"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/assets/kusoge.webp",
+      "screenshotSources": [],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [
+        {
+          "url": "https://mega.nz/file/MSEDRKjD",
+          "label": "Download(67.7 MB)"
+        }
+      ],
+      "backupFile": {
+        "name": "viprpg2022kohaku_035.zip",
+        "handle": "NaMG2DSR",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-36",
+      "no": "36",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/36/",
+      "sourceDetailUnavailable": true,
+      "sourceFields": {},
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/assets/2000.png",
+      "screenshotSources": [],
+      "screenshotRole": "saved-catalogue-preview",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_036.zip",
+        "handle": "lHsASaZK",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-37",
+      "no": "37",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/37/",
+      "snapshotUrl": "https://web.archive.org/web/20221211050656id_/https://viprpg2022kohaku.x.2nt.com/entries/37/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "Ｘ-羅仁宇",
+        "ジャンル": "※人把握系",
+        "ツクール": "RPGツクール2000",
+        "配信/投稿": "自己責任で/自己責任で",
+        "コメント": "最近流行の※人把握系に挑戦！\n但し１００人把握では無く、半分の５０人把握！！\nしかも出発場所が魔王城で把握先は・・・ポテチ城！？果たして今回、選ばれた『ジームの戦士』一人で『Ｉ』の彼、\n『ジーム＝アイゼン』(タイトル右の人物)はこの把握を達成できるでしょうか・・・？※１　時系列的には自作品の紅白2022・No.16から少し後の話、らしい\n※２　当世界独自のはい設多数有\n※３　一部キャラに新規に追加顔グラもある・・・かも？",
+        "管理人から一言": "『紅白2022』って書かれてビビったけど、前年紅白の『Ｖ・Ｉ・Ｐの魔王城把握～デフォ戦１６番勝負～』の事だおね？"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/37/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/37/screenshots/main.png",
+          "local": "/screenshots/2022-kouhaku/37-source-1.png",
+          "sha256": "d41ad5932b98d90d75f325293273a257af5f29d57268ba8d10f467107d893607"
+        },
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/37/screenshots/sub.png",
+          "local": "/screenshots/2022-kouhaku/37-source-2.png",
+          "sha256": "5683907adfc3af82867fed5a754f8f1fdcf622d34129820d1182ccac60260d83"
+        }
+      ],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_037.zip",
+        "handle": "ILtG1awJ",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-38",
+      "no": "38",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/38/",
+      "sourceDetailUnavailable": true,
+      "sourceFields": {},
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/assets/2003s.png",
+      "screenshotSources": [],
+      "screenshotRole": "saved-catalogue-preview",
+      "originalDownloadLinks": [],
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-39",
+      "no": "39",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/39/",
+      "snapshotUrl": "https://web.archive.org/web/20230627032312id_/https://viprpg2022kohaku.x.2nt.com/entries/39/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "えんがわ",
+        "ジャンル": "超短編素材供養RPG",
+        "ツクール": "RPGツクールMZ",
+        "配信/投稿": "いいよ/いいよ",
+        "コメント": "死に戻ることでループポイントを貯めてウィンディを強化し、死の運命（戦闘ターン）をなるべく長引かせる内容です\nお友達とのクリスマス会に参加出来るまでウィンディを生存させてあげましょう\nクリアまでの目安時間は数分程度です",
+        "管理人から一言": "またこの娘死んでるお・・・"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/assets/mz.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/39/screenshots/main.png",
+          "local": "/screenshots/2022-kouhaku/39-source-1.png",
+          "sha256": "5501da2cf98eeff0156f9567cec5c24c661a0eb0822acb3b2581e6d948132c1b"
+        },
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/39/screenshots/sub.png",
+          "local": "/screenshots/2022-kouhaku/39-source-2.png",
+          "sha256": "ec16a77f1952d10082cadbdd7b52dc02e364ac30ec0fdfc64bbeccb65b5121d5"
+        }
+      ],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [
+        {
+          "url": "https://mega.nz/file/YP0hmCZB",
+          "label": "Download(138 MB)"
+        }
+      ],
+      "backupFile": {
+        "name": "viprpg2022kohaku_039.zip",
+        "handle": "sXtwURBJ",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-40",
+      "no": "40",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/40/",
+      "snapshotUrl": "https://web.archive.org/web/20221210205437id_/https://viprpg2022kohaku.x.2nt.com/entries/40/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "黒糖まんじゅう",
+        "ジャンル": "見るゲ",
+        "ツクール": "RPGツクール2000",
+        "配信/投稿": "自己責任でお願いします/自己責任でお願いします",
+        "コメント": "デトックスラジオ10作目になりますが特別な企画とかはありません。いつも通りです\nシリーズ作品の宿命で過去作の履修ありきで話が進みますがご了承ください",
+        "管理人から一言": "VIPRPG夏の陣2014『キュアーⅠのデトックスラジオ』から脈々と続くシリーズも10作目！"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/40/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/40/screenshots/main.png",
+          "local": "/screenshots/2022-kouhaku/40-source-1.png",
+          "sha256": "0595e1cd4b3f898093c9c35988a57a454d634927611b0b1dabdf3a097ea5ef9d"
+        }
+      ],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_040.zip",
+        "handle": "dDVSHbwa",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-41",
+      "no": "41",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/41/",
+      "sourceDetailUnavailable": true,
+      "sourceFields": {},
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/assets/2003s.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/41/screenshots/main.png",
+          "local": "/screenshots/2022-kouhaku/41-source-1.png",
+          "sha256": "9411da1e9bfb8dea07ebb3499551cbf9f5af3cf440455291bbed450282b48c7f"
+        }
+      ],
+      "screenshotRole": "saved-catalogue-preview",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_041.zip",
+        "handle": "sX83HDQI",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-42",
+      "no": "42",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/42/",
+      "sourceDetailUnavailable": true,
+      "sourceFields": {},
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/42/icon.png",
+      "screenshotSources": [],
+      "screenshotRole": "saved-catalogue-preview",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_042.zip",
+        "handle": "tSk0mIqB",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-43",
+      "no": "43",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/43/",
+      "sourceDetailUnavailable": true,
+      "sourceFields": {},
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/43/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/43/screenshots/main.png",
+          "local": "/screenshots/2022-kouhaku/43-source-1.png",
+          "sha256": "285d64f2d9d7438b2e500e26ce4bcea3af9739fdf7999e7c4589f8716bc26d2d"
+        }
+      ],
+      "screenshotRole": "saved-catalogue-preview",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_043.zip",
+        "handle": "wWtigAQI",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-44",
+      "no": "44",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/44/",
+      "sourceDetailUnavailable": true,
+      "sourceFields": {},
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/44/icon.png",
+      "screenshotSources": [],
+      "screenshotRole": "saved-catalogue-preview",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_044.zip",
+        "handle": "oKkQFARC",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-45",
+      "no": "45",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/45/",
+      "snapshotUrl": "https://web.archive.org/web/20221222175026id_/https://viprpg2022kohaku.x.2nt.com/entries/45/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "kanetare",
+        "ジャンル": "大正浪漫クソゲー",
+        "ツクール": "RPGツクール2000",
+        "配信/投稿": "readme参照/readme参照",
+        "コメント": "大正110年代（西暦2020年代）の日本を舞台とする、\nマルチバッドエンド方式の中編読むゲです。雑談で100兆円儲ける事を目指してVtuberとなった\n社内ニートのわてり（アラサー女子）が、\nチャンネル登録者数や配信の同時接続者数でマウントを取り命を奪い合う、\n大いなる戦いに巻き込まれる話です。ストーリーとかは色々パクりつつ脊髄で書いてます。\nキャラが暴言吐いたり死んだり不適切な発言を繰り返すため、\n苦手な方はＰＩＡＩ非推奨です。設定的に、VIPRPG夏の陣2019で公開した作品の続編となりますが、\nPIAIしていなくても問題ないと思います。年内までに本編＋おまけシナリオ２種を入れたver1.00を公開し、\nその後、モチベ次第となりますが、おまけシナリオを何種類かを追加した最終版を\n１月下旬～２月頃には公開したいと考えています。",
+        "管理人から一言": "『わー!!ＴＥＲＩ』の続編だおね？関係ないけど後から調べてGAS想像以上に何でもできるの知って最初から先駆者様みたいに全部GASベースで組むべきだったって後悔してるお・・・"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/45/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/45/screenshots/main.png",
+          "local": "/screenshots/2022-kouhaku/45-source-1.png",
+          "sha256": "f5bc7885728f29e3ea129592f764a890c43f3977063c96cdce23f4c454955b76"
+        },
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/45/screenshots/sub.png",
+          "local": "/screenshots/2022-kouhaku/45-source-2.png",
+          "sha256": "68bef116f2ac4b758831eb92dfa08927dd7afa0f30e3066946495fb28ab59dae"
+        }
+      ],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_045.zip",
+        "handle": "QfswVR6Q",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-46",
+      "no": "46",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/46/",
+      "sourceDetailUnavailable": true,
+      "sourceFields": {},
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/assets/2000.png",
+      "screenshotSources": [],
+      "screenshotRole": "saved-catalogue-preview",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_046.zip",
+        "handle": "Ma8ECaRB",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-47",
+      "no": "47",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/47/",
+      "snapshotUrl": "https://web.archive.org/web/20230102132231id_/https://viprpg2022kohaku.x.2nt.com/entries/47/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "おととい",
+        "ジャンル": "ksg",
+        "ツクール": "RPGツクール2000",
+        "配信/投稿": "おっ/けー",
+        "コメント": "２分で終わるksgです。\n微力ながらお祭りを盛り上げるため参加させていただきます！",
+        "管理人から一言": "大歓迎だお！"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/assets/2000.png",
+      "screenshotSources": [],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [
+        {
+          "url": "https://mega.nz/file/JeVjiIaa",
+          "label": "Download(783 KB, updated\n2022-12-24)"
+        }
+      ],
+      "backupFile": {
+        "name": "viprpg2022kohaku_047.zip",
+        "handle": "AXtDGJDZ",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-48",
+      "no": "48",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/48/",
+      "snapshotUrl": "https://web.archive.org/web/20221223004240id_/https://viprpg2022kohaku.x.2nt.com/entries/48/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "ちゃかなん",
+        "ジャンル": "見るゲ",
+        "ツクール": "RPG Maker 2003",
+        "配信/投稿": "可/年明け以降可",
+        "コメント": "見るゲ用につくった自作文章表示のお披露目を兼ねた短編です。いつでもメニューを開けるので、そこからセーブしたりできます。便利ですね。セリフの途中で顔グラを変えたりできるので、表情豊かなやみっちが見られます。かわいいですね。",
+        "管理人から一言": "紅白を黒く染めにきたおね・・・"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/48/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/48/screenshots/main.png",
+          "local": "/screenshots/2022-kouhaku/48-source-1.png",
+          "sha256": "d01590998c3589cbafb9cb800f0c6be6af4f434aba134b524ed81a657565f11e"
+        }
+      ],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_048.zip",
+        "handle": "wD9wCLhQ",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-49",
+      "no": "49",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/49/",
+      "snapshotUrl": "https://web.archive.org/web/20230131004641id_/https://viprpg2022kohaku.x.2nt.com/entries/49/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "女体化ダークメカアレックス",
+        "ジャンル": "ksg",
+        "ツクール": "RPGツクール2000",
+        "配信/投稿": "ええよ/ええよ",
+        "コメント": "今からつくります",
+        "管理人から一言": ""
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/49/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/49/screenshots/main.png",
+          "local": "/screenshots/2022-kouhaku/49-source-1.png",
+          "sha256": "20980ea1ff4b628c45f93a6802bed529f575bbf82972700037fd5a0e4aeeedd1"
+        }
+      ],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [
+        {
+          "url": "https://mega.nz/file/kDU3FLAb",
+          "label": "Download(5.0 MB)"
+        }
+      ],
+      "backupFile": {
+        "name": "viprpg2022kohaku_049.zip",
+        "handle": "0DcmBTrK",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-50",
+      "no": "50",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/50/",
+      "snapshotUrl": "https://web.archive.org/web/20221222195832id_/https://viprpg2022kohaku.x.2nt.com/entries/50/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "funyara。",
+        "ジャンル": "見るゲ",
+        "ツクール": "RPG Maker 2003",
+        "配信/投稿": "可/可",
+        "コメント": "閉じ込められたなすーんちゃんが頑張って脱出を目指す見るゲです",
+        "管理人から一言": "可愛い娘は閉じ込めたくなるおね！"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/assets/2003s.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/50/screenshots/main.png",
+          "local": "/screenshots/2022-kouhaku/50-source-1.png",
+          "sha256": "5ca9e317ac7f631479dfdde17f2faaa86725d24c944e1ef610d4299751ff66d0"
+        }
+      ],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_050.zip",
+        "handle": "JSs0BTaQ",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-51",
+      "no": "51",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/51/",
+      "sourceDetailUnavailable": true,
+      "sourceFields": {},
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/assets/2000.png",
+      "screenshotSources": [],
+      "screenshotRole": "saved-catalogue-preview",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_051.zip",
+        "handle": "1D0hBDRY",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-52",
+      "no": "52",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/52/",
+      "snapshotUrl": "https://web.archive.org/web/20221220004159id_/https://viprpg2022kohaku.x.2nt.com/entries/52/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "ろしにょる",
+        "ジャンル": "デフォ戦ゲー",
+        "ツクール": "RPGツクール2000",
+        "配信/投稿": "〇/〇",
+        "コメント": "デフォ戦ゲーが作りたくなったので\nおそらく難しめです",
+        "管理人から一言": "見て！サボテンが喋ってるよ　かわいいね"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/52/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/52/screenshots/main.png",
+          "local": "/screenshots/2022-kouhaku/52-source-1.png",
+          "sha256": "7951d5429b48546e40d15cca9439378ad4103027118880d184bb55b0f50dd40b"
+        },
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/52/screenshots/sub.png",
+          "local": "/screenshots/2022-kouhaku/52-source-2.png",
+          "sha256": "f239aba77e80b4be927e45488b790cb3d45f81420a06488554f9d6d135b23e66"
+        }
+      ],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_052.zip",
+        "handle": "hXVkAT4a",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-53",
+      "no": "53",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/53/",
+      "snapshotUrl": "https://web.archive.org/web/20221219231224id_/https://viprpg2022kohaku.x.2nt.com/entries/53/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "ワシミミズク",
+        "ジャンル": "パズル",
+        "ツクール": "RPGツクール2000",
+        "配信/投稿": "自己責任でおｋ/自己責任でおｋ",
+        "コメント": "ヘルたそ～",
+        "管理人から一言": "…わざわざ漏れが何か言うまでもないおね？"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/53/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/53/screenshots/main.png",
+          "local": "/screenshots/2022-kouhaku/53-source-1.png",
+          "sha256": "b26634ef38dcdf2cbc27787665284473c5e5bd4dd7bfb0faa415190ca1e19416"
+        },
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/53/screenshots/sub.png",
+          "local": "/screenshots/2022-kouhaku/53-source-2.png",
+          "sha256": "591d5852ad553ac04c765078812637665cbded1d7556dbc23a444dc58eaecd20"
+        }
+      ],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_053.zip",
+        "handle": "gL1wHJKK",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-54",
+      "no": "54",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/54/",
+      "snapshotUrl": "https://web.archive.org/web/20221221101950id_/https://viprpg2022kohaku.x.2nt.com/entries/54/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "lpre_ys",
+        "ジャンル": "ツール紹介",
+        "ツクール": "RPGツクール2000",
+        "配信/投稿": "お好きに/どうぞ",
+        "コメント": "毎回毎回、ツクール2000の戦闘アニメを作る時に、マウスぽちぽち作業で発狂してたので、自分用にエフェクト作成ツールを作りました。\nそちらの紹介&使い方説明見るゲです。紹介と解説が95%以上、なゲームなので、ストーリーとかゲーム性とか全く無いです。ごめんね。Q. どんなツールなん？\nセルの「開始・終了時のパラメータ」「表示フレーム数」「イージング」を指定して、エフェクトを組み立てるツールです。\nなんのこっちゃ？って人は、下記ツイートにて、実際の操作を動画で公開しています。ご参考にどうぞ。\n※開発中の動画なので、実際のUIとは異なる箇所があります。\nhttps://twitter.com/lpre_ys/status/1582299261894791168Q. ツールは何処からDLするの？\nお祭りのゲーム公開に合わせて、githubにて公開予定です。\nこの見るゲ見なくても、なんとなくで使えるような作りにしてあるので\nご興味ありましたら、ツールだけでもご利用ください。Q. 不具合見つけたんだけど……\n中の人は稀によく掲示板の存在を忘れるので、確実に伝えたいバグや不具合があれば、SNSで捕まえてご報告ください。\n匿名が良いよって人はマシュマロもあります。Q. この機能追加してほしい\nやる気とモチベとリソースが有ったら追加します。それでも良ければ、ご意見お待ちしております。\nただし、マウスでポチポチやる系の機能は、まず採用されないと思ってください。マウス操作嫌いなので。Q. 主役はバイソンなん？\n描きたいから描いただけなので、バイソンが主役と言うわけではないです。出るけど。※24日～25日は忙しいので、公開直後の反応は遅くなると思います。",
+        "管理人から一言": "ついにソフトウェア作品が！ちなみに漏れはReactもVueもSvelteもよくわかんないから伝統芸能HTML手打ちからのHugoに雑に乗っけて紅白サイトを生成してるお！"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/assets/2000.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/54/screenshots/main.png",
+          "local": "/screenshots/2022-kouhaku/54-source-1.png",
+          "sha256": "d4166baf05ab8c0f4c77747e0d1c6744673c14922e1ff043e10a2f53380676af"
+        }
+      ],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_054.zip",
+        "handle": "oHdgFLqR",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-55",
+      "no": "55",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/55/",
+      "sourceDetailUnavailable": true,
+      "sourceFields": {},
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/assets/2003s.png",
+      "screenshotSources": [],
+      "screenshotRole": "saved-catalogue-preview",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_055.zip",
+        "handle": "1K9lCIRI",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-56",
+      "no": "56",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/56/",
+      "snapshotUrl": "https://web.archive.org/web/20221224050356id_/https://viprpg2022kohaku.x.2nt.com/entries/56/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "偽死神五世ちゃんかわいい",
+        "ジャンル": "ksg",
+        "ツクール": "RPGツクール2000",
+        "配信/投稿": "可/可",
+        "コメント": "12/19から、ｔｋりだしたｋｓｇになっています。※この作品はフィクションです。",
+        "管理人から一言": "乞うご期待！"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/assets/2000.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/56/screenshots/main.png",
+          "local": "/screenshots/2022-kouhaku/56-source-1.png",
+          "sha256": "35fb0a5c48b21cfa932d4c6ab964d5bd8bf746c1b3da2ed730d169e275ddc75b"
+        }
+      ],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [
+        {
+          "url": "https://mega.nz/file/0akC3Y5J",
+          "label": "Download(289 KB)"
+        }
+      ],
+      "backupFile": {
+        "name": "viprpg2022kohaku_056.zip",
+        "handle": "ZO9lmATC",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-57",
+      "no": "57",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/57/",
+      "snapshotUrl": "https://web.archive.org/web/20221226063154id_/https://viprpg2022kohaku.x.2nt.com/entries/57/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "ろーぜんべるく",
+        "ジャンル": "現代思想",
+        "ツクール": "RPG Maker 2003",
+        "配信/投稿": "好きにしろ/好きにしろ",
+        "コメント": "マテリアル・パズルを一気読みしたらエントリーしたくなりました\n年末の時間で作るかもしれないし作らないかもしれません",
+        "管理人から一言": "『マテリアル・パズル』は29日まで全話無料公開中！"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/57/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/57/screenshots/main.png",
+          "local": "/screenshots/2022-kouhaku/57-source-1.png",
+          "sha256": "a4fa3af7513e286f80e5e470d7011a3655cda14f2c456eba71b02f3064467f33"
+        },
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/57/screenshots/sub.png",
+          "local": "/screenshots/2022-kouhaku/57-source-2.png",
+          "sha256": "9c8681ed8152c14951c75ead6631a9dca98b88f61e516086084946ef9041a744"
+        }
+      ],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_057.zip",
+        "handle": "FCtATZLK",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-58",
+      "no": "58",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/58/",
+      "sourceDetailUnavailable": true,
+      "sourceFields": {},
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/assets/mz.png",
+      "screenshotSources": [],
+      "screenshotRole": "saved-catalogue-preview",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_058.zip",
+        "handle": "wKdUBRTI",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-59",
+      "no": "59",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/59/",
+      "snapshotUrl": "https://web.archive.org/web/20221223153107id_/https://viprpg2022kohaku.x.2nt.com/entries/59/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "イカスミ",
+        "ジャンル": "オムニバス作品集",
+        "ツクール": "RPGツクール2000",
+        "配信/投稿": "大歓迎。ただし収益化はご遠慮ください。/大歓迎。",
+        "コメント": "どうせ遅刻するとなったことでヤケを起こした人が巻き起こす４作オムニバス作品です。\n・鏡の中のミラージュ\nミラーバリアのみばりを主人公にした大型ストーリー。\n変われない者、変わってしまった者、それぞれの葛藤、野望、成長を描く。\nそして呪術師協会が(散々顔見せ程度だったけどようやく）動き出す…！・あばりのべりすと\nAIのべりすとで作成していたマジクソを見るゲ化。夢と希望の物語(ただのクソ)。・シークレット\n制作中。完成し完成しなかったらすみません。性癖ゲーです。・うぃーあー令和魔法具現化\n令和に登場した魔法具現化を独自設定を付けて紹介！\n一部平成に生まれたヤツも居るけど気にするな！",
+        "管理人から一言": "まさに狂気の産物！"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/59/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/59/screenshots/main.png",
+          "local": "/screenshots/2022-kouhaku/59-source-1.png",
+          "sha256": "926a231924910580aec76f617bb7599f6e14a3a3db1043d7fda16a5bf4cba56a"
+        },
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/59/screenshots/sub.png",
+          "local": "/screenshots/2022-kouhaku/59-source-2.png",
+          "sha256": "dbcda9a31b66f96eced4723bc65dda4ba1f69022815a29e827ce5c9b72932d05"
+        }
+      ],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_059.zip",
+        "handle": "kPFGQZza",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-60",
+      "no": "60",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/60/",
+      "snapshotUrl": "https://web.archive.org/web/20221226100239id_/https://viprpg2022kohaku.x.2nt.com/entries/60/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "莉琉",
+        "ジャンル": "ksg",
+        "ツクール": "RPG Maker 2003",
+        "配信/投稿": "可/可",
+        "コメント": "うおおおおおおおおおおお",
+        "管理人から一言": "EARTH DEFENSE FORCE"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/assets/2003s.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/60/screenshots/main.png",
+          "local": "/screenshots/2022-kouhaku/60-source-1.png",
+          "sha256": "a76ecc1471be9d0acf4151e9e44921d562ee07a2db6e792828281a411a4213b3"
+        }
+      ],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [
+        {
+          "url": "https://mega.nz/file/wH82BZzL",
+          "label": "Download(1.1 MB)"
+        }
+      ],
+      "backupFile": {
+        "name": "viprpg2022kohaku_060.zip",
+        "handle": "Fe03XZJK",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-61",
+      "no": "61",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/61/",
+      "snapshotUrl": "https://web.archive.org/web/20221225124318id_/https://viprpg2022kohaku.x.2nt.com/entries/61/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "PON",
+        "ジャンル": "RPG",
+        "ツクール": "RPG Maker 2003",
+        "配信/投稿": "不可/不可",
+        "コメント": "初投稿させて頂きます。\n未完成のデモ版で、自作メニューや自作戦闘、飛空艇の擬似3Dなどを体験して頂ければと思います。\n紅白に間に合わせるため急造したため、バランス未調整の部分やバグが残っているかと思いますが、ご容赦ください。",
+        "管理人から一言": "色んな意味でド直球ストレート！"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/61/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/61/screenshots/main.png",
+          "local": "/screenshots/2022-kouhaku/61-source-1.png",
+          "sha256": "c55b06fe5b08a66be5326704d8a5d9f53fb103abb70cc51b9bbb311d43975c7d"
+        },
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/61/screenshots/sub.png",
+          "local": "/screenshots/2022-kouhaku/61-source-2.png",
+          "sha256": "57950981dcd2f74bcfc325bdfa9e925a5cfc7a905a1d5ae245e8f65364b817f6"
+        }
+      ],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [
+        {
+          "url": "https://mega.nz/file/Eb9iWT5S",
+          "label": "Download(598 MB)"
+        }
+      ],
+      "backupFile": {
+        "name": "viprpg2022kohaku_061.zip",
+        "handle": "kfkQUZLB",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-62",
+      "no": "62",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/62/",
+      "snapshotUrl": "https://web.archive.org/web/20221228153846id_/https://viprpg2022kohaku.x.2nt.com/entries/62/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "富良田 \"Overwork\" レイ",
+        "ジャンル": "年度別全キャラ制覇系ステージクリア式デフォ戦魔王把握",
+        "ツクール": "RPGツクールVX Ace",
+        "配信/投稿": "基本的には自由、ただしゲーム中で指示があった場合は従う事/配信に同じ",
+        "コメント": "ようやく完成の目途が立ってきたので遅刻エントリー！年内に完成させたかったけどやっぱ無理でした！\nあとやっぱりMZキャラは出ません！ごめんね！P.S. 去年辺りに出した体験版をやった人も最初からやって頂くことになります(全体的なバランス調整&セーブデータそのまんま使ったら何故かエラーが出た為)。ご了承ください。",
+        "管理人から一言": "去年紅白『2019-2020年キャラ 全員把握！！(体験版)』の完成版！コロナ禍で生まれた新キャラ達を見よ！"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/62/icon.webp",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/62/screenshots/main.webp",
+          "local": "/screenshots/2022-kouhaku/62-source-1.webp",
+          "sha256": "caeae5c51f62582c3ecd9da54e049c499564b5950620bc3597645402c8604606"
+        }
+      ],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_062.zip",
+        "handle": "NftzCQ5D",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-63",
+      "no": "63",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/63/",
+      "sourceDetailUnavailable": true,
+      "sourceFields": {},
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/assets/2000.png",
+      "screenshotSources": [],
+      "screenshotRole": "saved-catalogue-preview",
+      "originalDownloadLinks": [],
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-64",
+      "no": "64",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/64/",
+      "snapshotUrl": "https://web.archive.org/web/20221231094904id_/https://viprpg2022kohaku.x.2nt.com/entries/64/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "F-man",
+        "ジャンル": "分からん　多分やるゲ",
+        "ツクール": "RPG Maker 2003",
+        "配信/投稿": "自己責任でオナシャス/自己責任でオナシャス",
+        "コメント": "表界隈にて他ツールでｋｓｇをｔｋｔｋしている合間に産まれた\nSteam版2003と2003マニアクスパッチで出来る事と\n今後製作する為のマウスオンリー操作にもキーパッド操作両方にも対応出来るUI周りの実験とか\nダラダラやって出来たものをとりあえず投げられたらいいねエロかもしれんしやるゲかもしれんし噴乳かもしれんし\nワシにも分からん",
+        "管理人から一言": "これが・・・大晦日・・・"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/64/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/64/screenshots/main.png",
+          "local": "/screenshots/2022-kouhaku/64-source-1.bmp",
+          "sha256": "a6533ffbeadeefda3bf03458f7e42c7d9657986d7f2da53cf5b932982d8a2ae8"
+        },
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/64/screenshots/sub.png",
+          "local": "/screenshots/2022-kouhaku/64-source-2.bmp",
+          "sha256": "7517bd7959afde1c782b8e0e0c34d8cd003e2744ad4f94d8763d6f40304ac724"
+        }
+      ],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_064.zip",
+        "handle": "pLkQXQ4Z",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-65",
+      "no": "65",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/65/",
+      "sourceDetailUnavailable": true,
+      "sourceFields": {},
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/assets/2000.png",
+      "screenshotSources": [],
+      "screenshotRole": "saved-catalogue-preview",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_065.zip",
+        "handle": "ta8kFITD",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-66",
+      "no": "66",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/66/",
+      "snapshotUrl": "https://web.archive.org/web/20230202165600id_/https://viprpg2022kohaku.x.2nt.com/entries/66/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "（R）DU",
+        "ジャンル": "自作戦闘やるゲ",
+        "ツクール": "RPG Maker 2003",
+        "配信/投稿": "OK/OK",
+        "コメント": "tktk初めて７年　初めての自作戦闘\n開発から6ヵ月コモンイベントとにらめっこ生活を\n送りましたがようやく形になりましたお話自体はいつもの趣味全開です\n感想お待ちしています収録している話\n１．レッツ・チュートリアル\n　　わてり・ウィンディ・ライチ・やみっちの４人と一緒に\n　　自作戦闘のシステムを分かりやすく(？)説明するよ！２．メビウスはじめてのクエスト\n　　たくさん修行を積んで戦えるようになったメビウスが、\n　　親友のリナックス・リーザスと共に初めてのお小遣い稼ぎに向かうよ！３．雷光一閃\n　　更なる高みを目指すべく新技を考えているものの、なかなか思いつかないスパイチ。\n　　フィレイと共に新しい技を習得するべく魔法大陸で戦いまくる！",
+        "管理人から一言": "大きな一歩！"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/66/icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/66/screenshots/main.png",
+          "local": "/screenshots/2022-kouhaku/66-source-1.png",
+          "sha256": "71ce1389c9a2ce46f98a9c47833a97e00a088dcc091876ddce47ec36ebbc7e6c"
+        },
+        {
+          "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/66/screenshots/sub.png",
+          "local": "/screenshots/2022-kouhaku/66-source-2.png",
+          "sha256": "4e30e734dd6a530cb9808ee53d0a2ba78d63c80da381656fa128ac8a5b4e648f"
+        }
+      ],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [
+        {
+          "url": "https://mega.nz/file/QS8AlaiC",
+          "label": "Download(74.9 MB, updated\n2023-02-02)"
+        }
+      ],
+      "backupFile": {
+        "name": "viprpg2022kohaku_066.zip",
+        "handle": "9CkXkBaB",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-67",
+      "no": "67",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/67/",
+      "sourceDetailUnavailable": true,
+      "sourceFields": {},
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/assets/vxa.png",
+      "screenshotSources": [],
+      "screenshotRole": "saved-catalogue-preview",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_067.zip",
+        "handle": "AD8GmSBa",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-68",
+      "no": "68",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/68/",
+      "sourceDetailUnavailable": true,
+      "sourceFields": {},
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/68/icon.png",
+      "screenshotSources": [],
+      "screenshotRole": "saved-catalogue-preview",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_068.zip",
+        "handle": "ZakwkDCR",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-69",
+      "no": "69",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/69/",
+      "sourceDetailUnavailable": true,
+      "sourceFields": {},
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/assets/2000.png",
+      "screenshotSources": [],
+      "screenshotRole": "saved-catalogue-preview",
+      "originalDownloadLinks": [],
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-70",
+      "no": "70",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/70/",
+      "snapshotUrl": "https://web.archive.org/web/20230131165107id_/https://viprpg2022kohaku.x.2nt.com/entries/70/",
+      "sourceDetailUnavailable": false,
+      "sourceFields": {
+        "作者": "呂宋兄弟",
+        "ジャンル": "見るゲ",
+        "ツクール": "RPG Maker 2003",
+        "配信/投稿": "配信してヨシ！/動画投稿してヨシ！",
+        "コメント": "真っ白なソダシが俺の黒い人生を救ってくれるので初投稿です\n何とか提出期限までには完成させます",
+        "管理人から一言": "真っ白な粉で黒い人生に突っ走った大正義■■■■終身名誉死刑囚がなんか言ってるおね…"
+      },
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/assets/2003s.png",
+      "screenshotSources": [],
+      "screenshotRole": "detail-image",
+      "originalDownloadLinks": [
+        {
+          "url": "https://mega.nz/file/NX8xHJbR",
+          "label": "Download(4.7 MB)"
+        }
+      ],
+      "backupFile": {
+        "name": "viprpg2022kohaku_070.zip",
+        "handle": "JalDjIrS",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-71",
+      "no": "71",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/71/",
+      "sourceDetailUnavailable": true,
+      "sourceFields": {},
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/71/icon.png",
+      "screenshotSources": [],
+      "screenshotRole": "saved-catalogue-preview",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_071.zip",
+        "handle": "UDlHUZ6J",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-kouhaku-work-72",
+      "no": "72",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/72/",
+      "sourceDetailUnavailable": true,
+      "sourceFields": {},
+      "iconSourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/72/icon.png",
+      "screenshotSources": [],
+      "screenshotRole": "saved-catalogue-preview",
+      "originalDownloadLinks": [],
+      "backupFile": {
+        "name": "viprpg2022kohaku_072.zip",
+        "handle": "5b8D2TCa",
+        "folder": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w"
+      },
+      "forumEvidence": "legacy official subject listing: forum-subject.html and scripts/update-2022-kouhaku-forums.ts",
+      "packagesDownloaded": false
+    }
+  ],
+  "bannerSources": [
+    {
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/assets/banner-kohaku-2022.png",
+      "local": "/banners/2022-kouhaku-source-1.png",
+      "sha256": "cfecc29071468ec69b00b48bb077082e74d0121caf2a3c687016eb8bdc651c90"
+    },
+    {
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/assets/banner-kohaku-2022-2.png",
+      "local": "/banners/2022-kouhaku-source-2.png",
+      "sha256": "791da7997c2d8c06f4d6cdba00cb5799b22f7ff9d4ac04fb603f5d654d4f2f0a"
+    },
+    {
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/assets/banner-kohaku-2022-3.png",
+      "local": "/banners/2022-kouhaku-source-3.png",
+      "sha256": "4d5b7bd6c6094b3dcf7bc91c9ced327de3b198e332afb5cf5dab6bbb509f878d"
+    }
+  ],
+  "sourceDetailGaps": [
+    {
+      "no": "4",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/4/",
+      "sourcePath": "entries/4/index.html",
+      "evidence": "investigation/confirmed-page-gaps.json"
+    },
+    {
+      "no": "5",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/5/",
+      "sourcePath": "entries/5/index.html",
+      "evidence": "investigation/confirmed-page-gaps.json"
+    },
+    {
+      "no": "23",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/23/",
+      "sourcePath": "entries/23/index.html",
+      "evidence": "investigation/confirmed-page-gaps.json"
+    },
+    {
+      "no": "24",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/24/",
+      "sourcePath": "entries/24/index.html",
+      "evidence": "investigation/confirmed-page-gaps.json"
+    },
+    {
+      "no": "28",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/28/",
+      "sourcePath": "entries/28/index.html",
+      "evidence": "investigation/confirmed-page-gaps.json"
+    },
+    {
+      "no": "36",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/36/",
+      "sourcePath": "entries/36/index.html",
+      "evidence": "investigation/confirmed-page-gaps.json"
+    },
+    {
+      "no": "38",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/38/",
+      "sourcePath": "entries/38/index.html",
+      "evidence": "investigation/confirmed-page-gaps.json"
+    },
+    {
+      "no": "41",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/41/",
+      "sourcePath": "entries/41/index.html",
+      "evidence": "investigation/confirmed-page-gaps.json"
+    },
+    {
+      "no": "42",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/42/",
+      "sourcePath": "entries/42/index.html",
+      "evidence": "investigation/confirmed-page-gaps.json"
+    },
+    {
+      "no": "43",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/43/",
+      "sourcePath": "entries/43/index.html",
+      "evidence": "investigation/confirmed-page-gaps.json"
+    },
+    {
+      "no": "44",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/44/",
+      "sourcePath": "entries/44/index.html",
+      "evidence": "investigation/confirmed-page-gaps.json"
+    },
+    {
+      "no": "46",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/46/",
+      "sourcePath": "entries/46/index.html",
+      "evidence": "investigation/confirmed-page-gaps.json"
+    },
+    {
+      "no": "51",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/51/",
+      "sourcePath": "entries/51/index.html",
+      "evidence": "investigation/confirmed-page-gaps.json"
+    },
+    {
+      "no": "55",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/55/",
+      "sourcePath": "entries/55/index.html",
+      "evidence": "investigation/confirmed-page-gaps.json"
+    },
+    {
+      "no": "58",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/58/",
+      "sourcePath": "entries/58/index.html",
+      "evidence": "investigation/confirmed-page-gaps.json"
+    },
+    {
+      "no": "63",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/63/",
+      "sourcePath": "entries/63/index.html",
+      "evidence": "investigation/confirmed-page-gaps.json"
+    },
+    {
+      "no": "65",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/65/",
+      "sourcePath": "entries/65/index.html",
+      "evidence": "investigation/confirmed-page-gaps.json"
+    },
+    {
+      "no": "67",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/67/",
+      "sourcePath": "entries/67/index.html",
+      "evidence": "investigation/confirmed-page-gaps.json"
+    },
+    {
+      "no": "68",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/68/",
+      "sourcePath": "entries/68/index.html",
+      "evidence": "investigation/confirmed-page-gaps.json"
+    },
+    {
+      "no": "69",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/69/",
+      "sourcePath": "entries/69/index.html",
+      "evidence": "investigation/confirmed-page-gaps.json"
+    },
+    {
+      "no": "71",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/71/",
+      "sourcePath": "entries/71/index.html",
+      "evidence": "investigation/confirmed-page-gaps.json"
+    },
+    {
+      "no": "72",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/72/",
+      "sourcePath": "entries/72/index.html",
+      "evidence": "investigation/confirmed-page-gaps.json"
+    }
+  ],
+  "previewAliases": [
+    {
+      "no": "1",
+      "requestedUrl": "https://viprpg2022kohaku.x.2nt.com/entries/1/screenshots/main.webp",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/1/screenshots/main.png",
+      "reason": "Use the saved same-entry original image for its unavailable derived catalogue WebP preview; no image synthesis."
+    },
+    {
+      "no": "2",
+      "requestedUrl": "https://viprpg2022kohaku.x.2nt.com/entries/2/screenshots/main.webp",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/2/screenshots/main.png",
+      "reason": "Use the saved same-entry original image for its unavailable derived catalogue WebP preview; no image synthesis."
+    },
+    {
+      "no": "3",
+      "requestedUrl": "https://viprpg2022kohaku.x.2nt.com/entries/3/screenshots/main.webp",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/3/screenshots/main.png",
+      "reason": "Use the saved same-entry original image for its unavailable derived catalogue WebP preview; no image synthesis."
+    },
+    {
+      "no": "13",
+      "requestedUrl": "https://viprpg2022kohaku.x.2nt.com/entries/13/screenshots/main.webp",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/13/screenshots/main.png",
+      "reason": "Use the saved same-entry original image for its unavailable derived catalogue WebP preview; no image synthesis."
+    },
+    {
+      "no": "14",
+      "requestedUrl": "https://viprpg2022kohaku.x.2nt.com/entries/14/screenshots/main.webp",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/14/screenshots/main.png",
+      "reason": "Use the saved same-entry original image for its unavailable derived catalogue WebP preview; no image synthesis."
+    },
+    {
+      "no": "15",
+      "requestedUrl": "https://viprpg2022kohaku.x.2nt.com/entries/15/screenshots/main.webp",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/15/screenshots/main.png",
+      "reason": "Use the saved same-entry original image for its unavailable derived catalogue WebP preview; no image synthesis."
+    },
+    {
+      "no": "16",
+      "requestedUrl": "https://viprpg2022kohaku.x.2nt.com/entries/16/screenshots/main.webp",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/16/screenshots/main.jpg",
+      "reason": "Use the saved same-entry original image for its unavailable derived catalogue WebP preview; no image synthesis."
+    },
+    {
+      "no": "17",
+      "requestedUrl": "https://viprpg2022kohaku.x.2nt.com/entries/17/screenshots/main.webp",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/17/screenshots/main.png",
+      "reason": "Use the saved same-entry original image for its unavailable derived catalogue WebP preview; no image synthesis."
+    },
+    {
+      "no": "18",
+      "requestedUrl": "https://viprpg2022kohaku.x.2nt.com/entries/18/screenshots/main.webp",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/18/screenshots/main.png",
+      "reason": "Use the saved same-entry original image for its unavailable derived catalogue WebP preview; no image synthesis."
+    },
+    {
+      "no": "19",
+      "requestedUrl": "https://viprpg2022kohaku.x.2nt.com/entries/19/screenshots/main.webp",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/19/screenshots/main.png",
+      "reason": "Use the saved same-entry original image for its unavailable derived catalogue WebP preview; no image synthesis."
+    },
+    {
+      "no": "20",
+      "requestedUrl": "https://viprpg2022kohaku.x.2nt.com/entries/20/screenshots/main.webp",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/20/screenshots/main.png",
+      "reason": "Use the saved same-entry original image for its unavailable derived catalogue WebP preview; no image synthesis."
+    },
+    {
+      "no": "21",
+      "requestedUrl": "https://viprpg2022kohaku.x.2nt.com/entries/21/screenshots/main.webp",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/21/screenshots/main.png",
+      "reason": "Use the saved same-entry original image for its unavailable derived catalogue WebP preview; no image synthesis."
+    },
+    {
+      "no": "22",
+      "requestedUrl": "https://viprpg2022kohaku.x.2nt.com/entries/22/screenshots/main.webp",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/22/screenshots/main.png",
+      "reason": "Use the saved same-entry original image for its unavailable derived catalogue WebP preview; no image synthesis."
+    },
+    {
+      "no": "25",
+      "requestedUrl": "https://viprpg2022kohaku.x.2nt.com/entries/25/screenshots/main.webp",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/25/screenshots/main.png",
+      "reason": "Use the saved same-entry original image for its unavailable derived catalogue WebP preview; no image synthesis."
+    },
+    {
+      "no": "26",
+      "requestedUrl": "https://viprpg2022kohaku.x.2nt.com/entries/26/screenshots/main.webp",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/26/screenshots/main.png",
+      "reason": "Use the saved same-entry original image for its unavailable derived catalogue WebP preview; no image synthesis."
+    },
+    {
+      "no": "27",
+      "requestedUrl": "https://viprpg2022kohaku.x.2nt.com/entries/27/screenshots/main.webp",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/27/screenshots/main.png",
+      "reason": "Use the saved same-entry original image for its unavailable derived catalogue WebP preview; no image synthesis."
+    },
+    {
+      "no": "29",
+      "requestedUrl": "https://viprpg2022kohaku.x.2nt.com/entries/29/screenshots/main.webp",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/29/screenshots/main.png",
+      "reason": "Use the saved same-entry original image for its unavailable derived catalogue WebP preview; no image synthesis."
+    },
+    {
+      "no": "30",
+      "requestedUrl": "https://viprpg2022kohaku.x.2nt.com/entries/30/screenshots/main.webp",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/30/screenshots/main.png",
+      "reason": "Use the saved same-entry original image for its unavailable derived catalogue WebP preview; no image synthesis."
+    },
+    {
+      "no": "31",
+      "requestedUrl": "https://viprpg2022kohaku.x.2nt.com/entries/31/screenshots/main.webp",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/31/screenshots/main.png",
+      "reason": "Use the saved same-entry original image for its unavailable derived catalogue WebP preview; no image synthesis."
+    },
+    {
+      "no": "33",
+      "requestedUrl": "https://viprpg2022kohaku.x.2nt.com/entries/33/screenshots/main.webp",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/33/screenshots/main.png",
+      "reason": "Use the saved same-entry original image for its unavailable derived catalogue WebP preview; no image synthesis."
+    },
+    {
+      "no": "34",
+      "requestedUrl": "https://viprpg2022kohaku.x.2nt.com/entries/34/screenshots/main.webp",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/34/screenshots/main.png",
+      "reason": "Use the saved same-entry original image for its unavailable derived catalogue WebP preview; no image synthesis."
+    },
+    {
+      "no": "37",
+      "requestedUrl": "https://viprpg2022kohaku.x.2nt.com/entries/37/screenshots/main.webp",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/37/screenshots/main.png",
+      "reason": "Use the saved same-entry original image for its unavailable derived catalogue WebP preview; no image synthesis."
+    },
+    {
+      "no": "39",
+      "requestedUrl": "https://viprpg2022kohaku.x.2nt.com/entries/39/screenshots/main.webp",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/39/screenshots/main.png",
+      "reason": "Use the saved same-entry original image for its unavailable derived catalogue WebP preview; no image synthesis."
+    },
+    {
+      "no": "40",
+      "requestedUrl": "https://viprpg2022kohaku.x.2nt.com/entries/40/screenshots/main.webp",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/40/screenshots/main.png",
+      "reason": "Use the saved same-entry original image for its unavailable derived catalogue WebP preview; no image synthesis."
+    },
+    {
+      "no": "41",
+      "requestedUrl": "https://viprpg2022kohaku.x.2nt.com/entries/41/screenshots/main.webp",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/41/screenshots/main.png",
+      "reason": "Use the saved same-entry original image for its unavailable derived catalogue WebP preview; no image synthesis."
+    },
+    {
+      "no": "43",
+      "requestedUrl": "https://viprpg2022kohaku.x.2nt.com/entries/43/screenshots/main.webp",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/43/screenshots/main.png",
+      "reason": "Use the saved same-entry original image for its unavailable derived catalogue WebP preview; no image synthesis."
+    },
+    {
+      "no": "45",
+      "requestedUrl": "https://viprpg2022kohaku.x.2nt.com/entries/45/screenshots/main.webp",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/45/screenshots/main.png",
+      "reason": "Use the saved same-entry original image for its unavailable derived catalogue WebP preview; no image synthesis."
+    },
+    {
+      "no": "48",
+      "requestedUrl": "https://viprpg2022kohaku.x.2nt.com/entries/48/screenshots/main.webp",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/48/screenshots/main.png",
+      "reason": "Use the saved same-entry original image for its unavailable derived catalogue WebP preview; no image synthesis."
+    },
+    {
+      "no": "49",
+      "requestedUrl": "https://viprpg2022kohaku.x.2nt.com/entries/49/screenshots/main.webp",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/49/screenshots/main.png",
+      "reason": "Use the saved same-entry original image for its unavailable derived catalogue WebP preview; no image synthesis."
+    },
+    {
+      "no": "50",
+      "requestedUrl": "https://viprpg2022kohaku.x.2nt.com/entries/50/screenshots/main.webp",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/50/screenshots/main.png",
+      "reason": "Use the saved same-entry original image for its unavailable derived catalogue WebP preview; no image synthesis."
+    },
+    {
+      "no": "52",
+      "requestedUrl": "https://viprpg2022kohaku.x.2nt.com/entries/52/screenshots/main.webp",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/52/screenshots/main.png",
+      "reason": "Use the saved same-entry original image for its unavailable derived catalogue WebP preview; no image synthesis."
+    },
+    {
+      "no": "53",
+      "requestedUrl": "https://viprpg2022kohaku.x.2nt.com/entries/53/screenshots/main.webp",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/53/screenshots/main.png",
+      "reason": "Use the saved same-entry original image for its unavailable derived catalogue WebP preview; no image synthesis."
+    },
+    {
+      "no": "54",
+      "requestedUrl": "https://viprpg2022kohaku.x.2nt.com/entries/54/screenshots/main.webp",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/54/screenshots/main.png",
+      "reason": "Use the saved same-entry original image for its unavailable derived catalogue WebP preview; no image synthesis."
+    },
+    {
+      "no": "56",
+      "requestedUrl": "https://viprpg2022kohaku.x.2nt.com/entries/56/screenshots/main.webp",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/56/screenshots/main.png",
+      "reason": "Use the saved same-entry original image for its unavailable derived catalogue WebP preview; no image synthesis."
+    },
+    {
+      "no": "57",
+      "requestedUrl": "https://viprpg2022kohaku.x.2nt.com/entries/57/screenshots/main.webp",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/57/screenshots/main.png",
+      "reason": "Use the saved same-entry original image for its unavailable derived catalogue WebP preview; no image synthesis."
+    },
+    {
+      "no": "59",
+      "requestedUrl": "https://viprpg2022kohaku.x.2nt.com/entries/59/screenshots/main.webp",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/59/screenshots/main.png",
+      "reason": "Use the saved same-entry original image for its unavailable derived catalogue WebP preview; no image synthesis."
+    },
+    {
+      "no": "60",
+      "requestedUrl": "https://viprpg2022kohaku.x.2nt.com/entries/60/screenshots/main.webp",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/60/screenshots/main.png",
+      "reason": "Use the saved same-entry original image for its unavailable derived catalogue WebP preview; no image synthesis."
+    },
+    {
+      "no": "61",
+      "requestedUrl": "https://viprpg2022kohaku.x.2nt.com/entries/61/screenshots/main.webp",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/61/screenshots/main.png",
+      "reason": "Use the saved same-entry original image for its unavailable derived catalogue WebP preview; no image synthesis."
+    },
+    {
+      "no": "64",
+      "requestedUrl": "https://viprpg2022kohaku.x.2nt.com/entries/64/screenshots/main.webp",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/64/screenshots/main.png",
+      "reason": "Use the saved same-entry original image for its unavailable derived catalogue WebP preview; no image synthesis."
+    },
+    {
+      "no": "66",
+      "requestedUrl": "https://viprpg2022kohaku.x.2nt.com/entries/66/screenshots/main.webp",
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/entries/66/screenshots/main.png",
+      "reason": "Use the saved same-entry original image for its unavailable derived catalogue WebP preview; no image synthesis."
+    }
+  ],
+  "previewGaps": [
+    {
+      "no": "23",
+      "url": "https://viprpg2022kohaku.x.2nt.com/entries/23/screenshots/main.webp"
+    },
+    {
+      "no": "24",
+      "url": "https://viprpg2022kohaku.x.2nt.com/entries/24/screenshots/main.webp"
+    },
+    {
+      "no": "28",
+      "url": "https://viprpg2022kohaku.x.2nt.com/entries/28/screenshots/main.webp"
+    },
+    {
+      "no": "32",
+      "url": "https://viprpg2022kohaku.x.2nt.com/entries/32/screenshots/main.webp"
+    },
+    {
+      "no": "42",
+      "url": "https://viprpg2022kohaku.x.2nt.com/entries/42/screenshots/main.webp"
+    },
+    {
+      "no": "44",
+      "url": "https://viprpg2022kohaku.x.2nt.com/entries/44/screenshots/main.webp"
+    },
+    {
+      "no": "46",
+      "url": "https://viprpg2022kohaku.x.2nt.com/entries/46/screenshots/main.webp"
+    },
+    {
+      "no": "51",
+      "url": "https://viprpg2022kohaku.x.2nt.com/entries/51/screenshots/main.webp"
+    },
+    {
+      "no": "55",
+      "url": "https://viprpg2022kohaku.x.2nt.com/entries/55/screenshots/main.webp"
+    },
+    {
+      "no": "58",
+      "url": "https://viprpg2022kohaku.x.2nt.com/entries/58/screenshots/main.webp"
+    },
+    {
+      "no": "63",
+      "url": "https://viprpg2022kohaku.x.2nt.com/entries/63/screenshots/main.webp"
+    },
+    {
+      "no": "65",
+      "url": "https://viprpg2022kohaku.x.2nt.com/entries/65/screenshots/main.webp"
+    },
+    {
+      "no": "67",
+      "url": "https://viprpg2022kohaku.x.2nt.com/entries/67/screenshots/main.webp"
+    },
+    {
+      "no": "68",
+      "url": "https://viprpg2022kohaku.x.2nt.com/entries/68/screenshots/main.webp"
+    },
+    {
+      "no": "71",
+      "url": "https://viprpg2022kohaku.x.2nt.com/entries/71/screenshots/main.webp"
+    },
+    {
+      "no": "72",
+      "url": "https://viprpg2022kohaku.x.2nt.com/entries/72/screenshots/main.webp"
+    }
+  ],
+  "communityBackup": {
+    "url": "https://mega.nz/folder/sH9FgKYK#v30KmLRpkKIsASq60p506w",
+    "metadataOnly": true,
+    "sourceNote": "https://note.com/reminder_89/n/nd6cae94d4f3f",
+    "inventory": "investigation/mega-file-inventory.json"
+  },
+  "auxiliaryGaps": [
+    {
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/news/",
+      "sourcePath": "news/index.html"
+    },
+    {
+      "sourceUrl": "https://viprpg2022kohaku.x.2nt.com/result.html",
+      "sourcePath": "result.html"
+    }
+  ],
+  "generatedSourceGapNotices": [
+    {
+      "path": "entries/4/index.html"
+    },
+    {
+      "path": "entries/5/index.html"
+    },
+    {
+      "path": "entries/23/index.html"
+    },
+    {
+      "path": "entries/24/index.html"
+    },
+    {
+      "path": "entries/28/index.html"
+    },
+    {
+      "path": "entries/36/index.html"
+    },
+    {
+      "path": "entries/38/index.html"
+    },
+    {
+      "path": "entries/41/index.html"
+    },
+    {
+      "path": "entries/42/index.html"
+    },
+    {
+      "path": "entries/43/index.html"
+    },
+    {
+      "path": "entries/44/index.html"
+    },
+    {
+      "path": "entries/46/index.html"
+    },
+    {
+      "path": "entries/51/index.html"
+    },
+    {
+      "path": "entries/55/index.html"
+    },
+    {
+      "path": "entries/58/index.html"
+    },
+    {
+      "path": "entries/63/index.html"
+    },
+    {
+      "path": "entries/65/index.html"
+    },
+    {
+      "path": "entries/67/index.html"
+    },
+    {
+      "path": "entries/68/index.html"
+    },
+    {
+      "path": "entries/69/index.html"
+    },
+    {
+      "path": "entries/71/index.html"
+    },
+    {
+      "path": "entries/72/index.html"
+    },
+    {
+      "path": "news/index.html"
+    },
+    {
+      "path": "result.html"
+    }
+  ],
+  "handling": "Direct archival without content or image screening. Preserve all 72 catalogue identities; 50 actual introduction pages and 22 explicitly labelled catalogue-only skeletons remain distinct. No category/tool/streaming or prose is guessed for missing pages. Same-entry original images may substitute unavailable derived WebP previews with explicit provenance. Source default graphics remain defaults. Community backup entries are identified by exact public filenames; no game packages downloaded or executed.",
+  "desktopReview": "passed-with-documented-source-gaps"
+}

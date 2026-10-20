@@ -7,6 +7,13 @@ import type { WorkEntry } from "../src/lib/types";
 import { rewriteSummer2012Source } from "./source-2012-summer-view";
 
 const configurations: Record<string, { base: string; entry?: string; manifests: string[]; seeds: Record<string, string>; seedUrls?: Record<string, string>; cgiProfile?: boolean; encoding?: string; encodingOverrides?: Record<string, string>; liveSource?: boolean; disabledLocalLinks?: string[]; externalResources?: Record<string, string>; preserveExternalExtensions?: string[]; frames?: { menuPage: string; menuName: string; mainName: string } }> = {
+  "2022-kouhaku": {
+    base: "https://viprpg2022kohaku.x.2nt.com/",
+    manifests: ["source/replay/manifest.json"],
+    seeds: {},
+    encoding: "utf-8",
+    preserveExternalExtensions: [".zip", ".rar", ".7z", ".exe"],
+  },
   "2022-gw": {
     base: "http://viprpg2022gw.nobody.jp/",
     manifests: ["source/replay/manifest.json"],
@@ -421,7 +428,7 @@ async function main() {
       sharedHeaderTargets.push(local ? `/original-pages/${id}/${local}${url.search}${url.hash}` : url.href);
     });
   }
-  if (["2022-gw", "2023-winter", "2023-summer", "2023-kouhaku", "2023-gw", "2024-summer", "2024-kuradashifestival", "2024-kouhaku", "2024-gw", "2025-gw", "2025-summer"].includes(id) || id === "2006-kouhaku" || id === "2012-toppuu-festival" || id === "2011-toppatsu-festival" || id === "2008-jisaku-battle-festival" || id === "2010-gw" || id === "2010-kouhaku" || id === "2010-summer") config.externalResources = recovery.originalResources;
+  if (["2022-kouhaku", "2022-gw", "2023-winter", "2023-summer", "2023-kouhaku", "2023-gw", "2024-summer", "2024-kuradashifestival", "2024-kouhaku", "2024-gw", "2025-gw", "2025-summer"].includes(id) || id === "2006-kouhaku" || id === "2012-toppuu-festival" || id === "2011-toppatsu-festival" || id === "2008-jisaku-battle-festival" || id === "2010-gw" || id === "2010-kouhaku" || id === "2010-summer") config.externalResources = recovery.originalResources;
   const sourceDetailGapPaths = new Set<string>((recovery.sourceDetailGaps ?? []).map((gap: { sourcePath: string }) => gap.sourcePath));
   const unavailableSourcePagePaths = new Set<string>((recovery.unavailableSourcePages ?? []).map((gap: { sourcePath: string }) => gap.sourcePath));
   const previousMissing: Array<{ url: string; requestedUrl?: string; error: string }> = JSON.parse(await fs.readFile(`${root}/original-view.json`, "utf8").catch(() => "{}")).missingResources ?? [];
@@ -565,6 +572,18 @@ async function main() {
       if (/\.(?:png|jpe?g|gif|bmp|webp|avif|ico)$/i.test(local)) imageExtension(bytes);
       if (/\.html?$/i.test(local)) {
         const $ = cheerio.load(decodeSource(bytes, resourceEncoding));
+        if (id === "2022-kouhaku") {
+          $('script,noscript,form,object,embed').remove();
+          $('.entry-card[data-src]').each((_, element) => {
+            const node = $(element), url = new URL(node.attr('data-src')!, original).href;
+            const mapped = config.externalResources?.[url];
+            if (mapped) node.attr('style', (node.attr('style') || '') + ';background-image:url(' + JSON.stringify(url) + ');opacity:1');
+            else { node.attr('style', (node.attr('style') || '') + ';opacity:1'); node.find('a').first().append('<small data-archive-preview-gap>［原プレビュー画像未取得］</small>'); }
+            node.removeAttr('data-src');
+          });
+          if (local === 'vote/index.html') $('main').prepend('<p data-archive-static-voting>［保存庫補記］投票受付は終了しています。<a href="https://viprpg2022kohaku.x.2nt.com/vote/overall/">保存した集計結果</a></p>');
+          compatibilityFixes.push({ page: local, change: 'Materialize source catalogue background URLs and opacity without scripts; mark uncaptured previews explicitly. Remove platform prefetch/tracking and posting controls; raw source bytes remain unchanged.' });
+        }
         if (id === "2022-gw") {
           $("script,noscript,form,object,embed").remove();
           compatibilityFixes.push({ page: local, change: "Remove hosting advertisements, tracking and inactivity-message scripts from the captured page; retain native navigation and source screenshot hover handlers." });

@@ -1,0 +1,32 @@
+<!doctype html><html lang=ja-jp><head><meta charset=utf-8><title>VIPRPG紅白 2022</title><link rel=preload href=/assets/style.css as=style><link rel=preload href=/assets/2000.png as=image><link rel=preload href=/assets/2003s.png as=image><link rel=preload href=/assets/ksg.webp as=image><link rel=preload href=/assets/vxa.png as=image><link rel=preload href=/assets/mv.png as=image><link rel=preload href=/assets/naito.png as=image><meta property="og:image" content="https://viprpg2022kohaku.x.2nt.com/assets/ksg.webp"><script type=module>
+  const bgObserver = new IntersectionObserver((entries, _) => {
+    for (const entry of entries) {
+      if (entry.isIntersecting) {
+        entry.target.style.backgroundImage = `url("${entry.target.dataset.src}")`;
+        entry.target.style.opacity = "1";
+        entry.target.style.animation = ["fadein", ".25s", "ease-out"].join(" ");
+        bgObserver.unobserve(entry.target);
+      }
+    }
+  });
+
+  for (const card of document.querySelectorAll(".entry-card"))
+    bgObserver.observe(card);
+</script><meta name=viewport content="width=device-width,initial-scale=1"><script type=module>
+    import { listen, prefetch } from "https://unpkg.com/quicklink?module";
+    listen();
+  </script><link rel=stylesheet href=/assets/style.css><link rel=canonical href=https://viprpg2022kohaku.x.2nt.com/about/><meta property="og:url" content="https://viprpg2022kohaku.x.2nt.com/about/"><meta property="og:site_name" content="VIPRPG紅白 2022"><meta property="og:description" name=description content="2022年も開催、VIPRPG紅白！"><meta property="og:image" content="https://viprpg2022kohaku.x.2nt.com/assets/ksg.webp"><meta property="og:locale" content="ja_JP"><meta property="og:type" content="website"></head><body><div class=wrapper-global><header class=header-pc><nav><h1 class=nav-item><a href=/>VIPRPG紅白 2022</a></h1><h2 hidden>メニュー</h2><p class="nav-item button-arena"><strong>開票</strong></p><ul class="nav-item nav-subs"><li><a href=/about/>各種要綱</a></li><li><a href=/vote/>投票</a></li><li><a href=/news/>お知らせ</a></li><li><a href=https://jbbs.shitaraba.net/otaku/18266/>感想掲示板</a></li></ul></nav></header><header class=header-mobile><h1><a href=/>VIPRPG紅白 2022</a></h1><div class=menu-mobile><input type=checkbox id=menu-opener name=menu-opener value=off>
+<label id=menu-icon for=menu-opener></label>
+<label id=menu-backdrop for=menu-opener></label><nav><ul class=nav-item><li><a href=/about/>各種要綱</a></li><li><a href=/entries/>会場</a></li><li><a href=/vote/>投票</a></li><li><a href=/news/>お知らせ</a></li><li><a href=https://jbbs.shitaraba.net/otaku/18266/>感想掲示板</a></li></ul></nav></div></header><main><article><h2 id=viprpg紅白とは>VIPRPG紅白とは？</h2><p><a href=https://www.5ch.net>5ちゃんねる</a>の<a href=https://www.5ch.net/news4vip/>ニュー速VIP</a>板に立てられるRPGツクールのスレッド(ツクスレ)で毎年の年末、ツクラー達が作品を持ち寄り、互いに感想を付け合おうという趣旨で開催される「祭り」です。ツクールでツクられた作品、およびツクールに関連するソフトウェアであれば何でもOK。ハッキングから今晩のおかずまでご自由に。ツクスレ住民でない方々も歓迎です。</p><p><a href=https://tkool.jp/products/rtp.html>歴代PC版ツクールのRTP</a>、<a href=https://www.rpgmakerweb.com/run-time-package>RPG Maker 2003 RTP</a>、および<a href=https://viprpg2019gw.xxxxxxxx.jp/34.html>MoshimoLoader</a>の導入を推奨。</p><h2 id=参加規則>参加規則</h2><ul><li>原則、本祭りで初公開となる作品であること<ul><li>ただし、既公開の作品であっても、提出物が本祭りで初公開となる「十分なアップデート版」であるならば認める。<ul><li>「既公開のデモ版の十分なアップデート版、もしくは完成版」など</li><li>既作品にあたるものが過去のVIPツクスレ、VIPRPGの祭りに提出されたものである場合、この規則は管理人の裁量により緩和される可能性がある。</li></ul></li></ul></li><li>提出品が以下のいずれか1つ以上を満たすものであること。<ul><li>ツクールシリーズで制作された作品</li><li>ツクールシリーズに関連したソフトウェア</li></ul></li><li>ただし、「ツクールシリーズで制作された作品」のうち、以下は追加の制約を受ける。<ul><li>アツマール投稿作品の提出は、「限定公開」に設定し、その上で限定公開URLによるもののみ認める。エントリーページ上に提出が反映次第、作者は「公開」に設定してもよい。</li></ul></li><li>以下に該当するパッチは、原則としてサイト反映を認めない。<ul><li>当祭りに提出されていない作品に対するパッチ</li><li>エントリーと異なるツクールシリーズへの移植を含むパッチ、およびそれに対するパッチ</li><li>自身の提出物以外に対するパッチ</li><li>管理人がパッチと看做せないパッチ</li></ul></li><li>多重エントリーの禁止。1人1エントリー、1作品のみ。</li><li>更新停止まで、参加規則は管理人の裁量で一部、もしくは全体が変化する可能性がある。<ul><li>変化した規則は不遡及である。</li></ul></li></ul><h2 id=参加方法>参加方法</h2><p>まずは「エントリー」を行い、その後「提出」するのが主な流れ。</p><h3 id=エントリー>エントリー</h3><p><del>エントリーフォームはこちら</del></p><p>連番付け作業の簡便化のため、可能な限り上記フォームからエントリー願います。</p><p>エントリー番号は先着順、奇数が紅組、偶数が白組となります。</p><h3 id=提出>提出</h3><p><del>提出フォームはこちら</del></p><p>上記フォームの他、メールでの提出、ツイッターのダイレクトメッセージでの提出、専用アップローダーに「ひと目、見るだけでそうだとわかりそうな」コメントもしくはファイル名を付けてアップロードする提出も受け付けます。</p><p>提出物の提出法は特に定めません。専用アップローダーを使ってもいいし、外部のアップローダー、自身のクラウドストレージ等を利用しても構いません。</p><p>エントリーを経ていない提出は、原則として認めません。</p><p>未提出のエントリーは、投票の対象になりません。</p><h3 id=パッチ>パッチ</h3><p><a href=https://jbbs.shitaraba.net/bbs/read.cgi/otaku/18266/1669868518/>パッチ適用要請スレッド</a></p><p>個別ページへのパッチ適用は上記「パッチ適用要請スレッド」を介して公開的に行います。</p><ul><li>適用先の作品タイトル</li><li>パッチ本体のダウンロードアドレス</li></ul><p>以上を含んだ書き込みを残してください。確認次第、管理人が個別にアンカーを飛ばして対応します。</p><h3 id=専用アップローダー>専用アップローダー</h3><p><a href=https://ux.getuploader.com/george_nagaoka/>専用アップローダーその2はこちら</a>
+<a href=https://ux.getuploader.com/naito_horizon/>専用アップローダーはこちら（満杯）</a></p><p>専用アップローダーは作品・スクリーンショット・パッチの提出にお使いください。</p><p>専用アップローダーを提出に使う際、ダウンロードパスワードの併記は不要です。</p><h2 id=日程>日程</h2><dl><dt>2022/12/2 0:00</dt><dd>エントリー・作品提出の受付開始</dd><dt>2022/12/24 0:00</dt><dd>提出作品の公開・遅刻提出・パッチの受付開始</dd><dt>2023/1/1 0:00</dt><dd>投票の受付開始</dd><dt>2023/1/15 0:00</dt><dd>エントリー受付終了</dd><dt>2023/2/1 0:00</dt><dd>投票・提出の受付終了</dd><dt>2023/2/13 0:00</dt><dd>開票</dd><dt>2023/3/1 0:00</dt><dd>パッチ受付終了、更新停止</dd></dl><h2 id=バナー>バナー</h2><ul class=banners><li><img src=/assets/banner-kohaku-2022.png></li><li><img src=/assets/banner-kohaku-2022-2.png></li><li><img src=/assets/banner-kohaku-2022-3.png></li></ul></article></main><footer><p><small>© 2022-2023 VIPPERS w/ VIP Quality. All rights confused.</small></p></footer></div><script><!--
+var footerparam = 'charset=' + encodeURIComponent(document.charset ? document.charset : document.characterSet) + '&url=' + encodeURIComponent(document.location) + '&service=1&r=' + Math.floor(Math.random()*99999999999);
+var footertag = "//vip-chps-api.2nt.com/apis/footer/?" + footerparam;
+var script = document.createElement('script');
+script.src = footertag;
+script.charset = "UTF-8";
+script.defer = true;
+document.getElementsByTagName('head')[0].appendChild(script);
+//--></script>
+<!-- 2nt, inc.-->
+<img src="//media.fc2.com/counter_img.php?id=50" style="visibility:hidden" alt="inserted by 2nt system" width="0" height="0">
+<!-- 2nt, inc.--></body></html>
