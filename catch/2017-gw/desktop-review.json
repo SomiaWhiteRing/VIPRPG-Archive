@@ -39,10 +39,8 @@
   },
   "original": {
     "htmlDocuments": 56,
-    "sourceIntroductions": 48,
+    "sourceIntroductions": 50,
     "labelledGapSkeletons": [
-      "21",
-      "23",
       "49"
     ],
     "otherPages": [
@@ -81,5 +79,147 @@
     "presentationEvidence": "investigation/presentation-corrections.json"
   },
   "externalServerFunctions": "No game-package download/execution, forum submission or external source mutation performed.",
-  "contentScreening": false
+  "contentScreening": false,
+  "initialReviewSnapshot": {
+    "festivalId": "2017-gw",
+    "reviewedAt": "2026-10-21",
+    "scope": "desktop-only",
+    "method": "Read-only DOM geometry/resource state and actual native mouse/wheel, keyboard and browser navigation. No topic or pixel screening.",
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    },
+    "organized": {
+      "details": 51,
+      "brokenImages": [],
+      "overflow": [],
+      "initialPending": [
+        "16",
+        "17"
+      ],
+      "pendingResolved": true,
+      "imageWidths": [
+        640,
+        640
+      ],
+      "viewer": {
+        "next": true,
+        "closeButton": true,
+        "escape": true
+      },
+      "home": {
+        "workLinks": 51,
+        "icons": 51,
+        "banners": 2,
+        "imagesLoadedAfterMiddleAndBottomScroll": 53,
+        "pending": 0,
+        "broken": 0,
+        "hashExpansionPassed": true,
+        "lastEntryNavigation": "2017-gw-work-50",
+        "returnExpanded": true
+      }
+    },
+    "original": {
+      "htmlDocuments": 56,
+      "sourceIntroductions": 48,
+      "labelledGapSkeletons": [
+        "21",
+        "23",
+        "49"
+      ],
+      "otherPages": [
+        "index.html",
+        "menu.html",
+        "about.html",
+        "update.html",
+        "games.html"
+      ],
+      "brokenImages": [],
+      "overflow": [],
+      "nativeSandbox": {
+        "permissions": "allow-scripts",
+        "menuClientWidth": 215,
+        "menuScrollWidth": 215,
+        "contentClientWidth": 933,
+        "catalogueScrollWidthBefore": 978,
+        "catalogueScrollWidthAfter": 933,
+        "catalogueTableWidthAfter": 897,
+        "actualMenuAndCatalogueEntryClicks": 51,
+        "uniqueDetailPaths": 51,
+        "allDetailsAndGapSkeletons": {
+          "clientWidth": 933,
+          "overflow": 0,
+          "pendingImages": 0,
+          "brokenImages": 0
+        }
+      },
+      "hover": {
+        "page": "games/00.html",
+        "before": "../image/ss/00a.png",
+        "over": "../image/ss/00b.png",
+        "out": "../image/ss/00a.png",
+        "width": 640
+      },
+      "presentationEvidence": "investigation/presentation-corrections.json"
+    },
+    "externalServerFunctions": "No game-package download/execution, forum submission or external source mutation performed.",
+    "contentScreening": false
+  },
+  "archiveSupplement": {
+    "reviewedAt": "2026-10-21",
+    "changedWorks": [
+      "21",
+      "23"
+    ],
+    "allOther49RecordsUnchanged": true,
+    "organized": {
+      "details": 2,
+      "imagesPerDetail": 2,
+      "clientWidth": 1265,
+      "scrollWidth": 1265,
+      "brokenImages": 0,
+      "alternateViewerWidths": [
+        640,
+        640
+      ],
+      "viewerNextAndClosePassed": true
+    },
+    "original": {
+      "actualMenuCatalogueNavigationPassed": true,
+      "restoredIntroductionNotices": 2,
+      "clientWidth": 933,
+      "scrollWidth": 933,
+      "pendingImages": 0,
+      "brokenImages": 0,
+      "hover21": {
+        "over": "../image/ss/21b.png",
+        "out": "../image/ss/21a.png",
+        "width": 640
+      },
+      "hover23": {
+        "over": "../image/ss/23b.png",
+        "out": "../image/ss/23a.png",
+        "width": 640
+      }
+    },
+    "home": {
+      "hashExpansionPassed": true,
+      "workLinks": 51,
+      "changedIconWidths": [
+        32,
+        32
+      ],
+      "loaded": true,
+      "rowWidths": [
+        996,
+        996
+      ],
+      "clientWidth": 1265,
+      "scrollWidth": 1265
+    },
+    "httpFiles": 321,
+    "httpPayloadHashesMatch": true,
+    "sourceEvidence": "source-supplement.json",
+    "noContentOrPixelScreening": true
+  }
 }

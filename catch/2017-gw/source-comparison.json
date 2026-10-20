@@ -1,17 +1,15 @@
 {
   "festivalId": "2017-gw",
-  "rawCaptureReferencesVerified": 193,
-  "sourceIntroductions": 48,
+  "rawCaptureReferencesVerified": 201,
+  "sourceIntroductions": 50,
   "sourceGaps": [
-    "21",
-    "23",
     "49"
   ],
-  "fullCommentsCompared": 96,
+  "fullCommentsCompared": 100,
   "works": 51,
   "stableIdsNumbersAndTitles": true,
   "icons": 51,
-  "screenshots": 70,
+  "screenshots": 74,
   "downloadEntries": 43,
   "downloadLinks": 44,
   "banners": 2,
@@ -19,5 +17,31 @@
     "screenshot": 70
   },
   "contentScreening": false,
-  "packagesDownloaded": false
+  "packagesDownloaded": false,
+  "beforeArchiveSupplement": {
+    "festivalId": "2017-gw",
+    "rawCaptureReferencesVerified": 193,
+    "sourceIntroductions": 48,
+    "sourceGaps": [
+      "21",
+      "23",
+      "49"
+    ],
+    "fullCommentsCompared": 96,
+    "works": 51,
+    "stableIdsNumbersAndTitles": true,
+    "icons": 51,
+    "screenshots": 70,
+    "downloadEntries": 43,
+    "downloadLinks": 44,
+    "banners": 2,
+    "legacyGalleryRoles": {
+      "screenshot": 70
+    },
+    "contentScreening": false,
+    "packagesDownloaded": false
+  },
+  "archiveIntroductionSnapshotsVerified": 2,
+  "supplementEvidence": "source-supplement.json",
+  "title21Evidence": "investigation/restored21-title-evidence.json"
 }

@@ -2009,6 +2009,61 @@
     "contentType": "image/png",
     "proxyRegion": "Japan"
   },
+  "https://viprpg2017gw.x.2nt.com/image/icon/21.png": {
+    "originalUrl": "https://viprpg2017gw.x.2nt.com/image/icon/21.png",
+    "actualUrl": "https://viprpg2017gw.x.2nt.com/image/icon/21.png",
+    "status": 200,
+    "file": "../resources/../supplemental-live/image_icon_21.png.bin",
+    "bytes": 3129,
+    "sha256": "8fcec0e8e8ebf140068b86042d4773928eb0252b54e7652bcda862831c4b0b04",
+    "contentType": "image/png",
+    "proxyRegion": "Japan",
+    "kind": "image"
+  },
+  "https://viprpg2017gw.x.2nt.com/image/ss/21a.png": {
+    "originalUrl": "https://viprpg2017gw.x.2nt.com/image/ss/21a.png",
+    "actualUrl": "https://viprpg2017gw.x.2nt.com/image/ss/21a.png",
+    "status": 200,
+    "file": "../resources/../supplemental-live/image_ss_21a.png.bin",
+    "bytes": 21336,
+    "sha256": "fa2790622602645788b3933918bad8371135562cdc13f89c8bc8cbce6177ec13",
+    "contentType": "image/png",
+    "proxyRegion": "Japan",
+    "kind": "image"
+  },
+  "https://viprpg2017gw.x.2nt.com/image/ss/23a.png": {
+    "originalUrl": "https://viprpg2017gw.x.2nt.com/image/ss/23a.png",
+    "actualUrl": "https://viprpg2017gw.x.2nt.com/image/ss/23a.png",
+    "status": 200,
+    "file": "../resources/../supplemental-live/image_ss_23a.png.bin",
+    "bytes": 66912,
+    "sha256": "ba4c63a2b1fc60794669c834b4d4cadb4879324f2b4d0b50988dad6815e5bdcd",
+    "contentType": "image/png",
+    "proxyRegion": "Japan",
+    "kind": "image"
+  },
+  "https://viprpg2017gw.x.2nt.com/image/ss/21b.png": {
+    "originalUrl": "https://viprpg2017gw.x.2nt.com/image/ss/21b.png",
+    "actualUrl": "https://viprpg2017gw.x.2nt.com/image/ss/21b.png",
+    "status": 200,
+    "file": "../resources/../supplemental-live/image_ss_21b.png.bin",
+    "bytes": 683408,
+    "sha256": "6bebad04206003b3b6ad5cf3f68f1d52c0944683f8348b7f2d6151c22555d5d9",
+    "contentType": "image/png",
+    "proxyRegion": "Japan",
+    "kind": "image"
+  },
+  "https://viprpg2017gw.x.2nt.com/image/ss/23b.png": {
+    "originalUrl": "https://viprpg2017gw.x.2nt.com/image/ss/23b.png",
+    "actualUrl": "https://viprpg2017gw.x.2nt.com/image/ss/23b.png",
+    "status": 200,
+    "file": "../resources/../supplemental-live/image_ss_23b.png.bin",
+    "bytes": 351703,
+    "sha256": "d674cdf9e4edf59ff6e908f7c406045af81cba8ec8f45a52b8d21cfa36260bf9",
+    "contentType": "image/png",
+    "proxyRegion": "Japan",
+    "kind": "image"
+  },
   "https://viprpg2017gw.x.2nt.com/index.html": {
     "originalUrl": "https://viprpg2017gw.x.2nt.com/index.html",
     "file": "generated/index.html",
@@ -2034,7 +2089,7 @@
     "file": "generated/games.html",
     "status": 200,
     "kind": "html",
-    "sha256": "adce8ae6fcfd092d1f021b648cbcee8c319d1dde8d1bd731e3c4c05bfca359af",
+    "sha256": "0b5d75f142e1c104768d027b17d434eca4fd5d05e7b9d8d43a25fb336f0ee100",
     "sourceKind": "derived-static-replay",
     "sourceRawFile": "../live/games.html.bin",
     "sourceRawSha256": "f24a75f816fccd27b2ea714f949b1369fbbd29bb1e0f43dc87cfb026be10676a"
@@ -2278,6 +2333,18 @@
     "sourceKind": "derived-static-replay",
     "sourceRawFile": "../live/games_22.html.bin",
     "sourceRawSha256": "e832511ffaa342a084cbf300d932a5bca0ab37ef4d24fdfdd151e28d801e7af9"
+  },
+  "https://viprpg2017gw.x.2nt.com/games/23.html": {
+    "originalUrl": "https://viprpg2017gw.x.2nt.com/games/23.html",
+    "file": "generated/games/23.html",
+    "status": 200,
+    "kind": "html",
+    "sha256": "305c6d5db1365ce093874e76b3140f8e5d85d1602c40fc7aeb2a00afab155346",
+    "sourceKind": "archive-restored-introduction",
+    "sourceRawFile": "../live/../archive/23-20190129181944.bin",
+    "sourceRawSha256": "8cb29a875cf0f7782dd0f8f543bb9ecfb78859a39b206a772a8180b421855512",
+    "snapshotUrl": "https://web.archive.org/web/20190129181944id_/http://www.geocities.jp/viprpg_gw2017/games/23.html",
+    "sourceOriginalUrl": "http://www.geocities.jp/viprpg_gw2017/games/23.html"
   },
   "https://viprpg2017gw.x.2nt.com/games/24.html": {
     "originalUrl": "https://viprpg2017gw.x.2nt.com/games/24.html",
@@ -2544,16 +2611,12 @@
     "file": "generated/games/21.html",
     "status": 200,
     "kind": "html",
-    "sha256": "2eefc1b65a9e28fc354561d8776bfb6aa49a79bf1fdd57ff5adb4c4e43fc2530",
-    "sourceKind": "generated-source-gap-notice"
-  },
-  "https://viprpg2017gw.x.2nt.com/games/23.html": {
-    "originalUrl": "https://viprpg2017gw.x.2nt.com/games/23.html",
-    "file": "generated/games/23.html",
-    "status": 200,
-    "kind": "html",
-    "sha256": "62f9deeeac326311a96be2cb2dc585af4efdc7b86dbc2a2ae4ce163e32821e20",
-    "sourceKind": "generated-source-gap-notice"
+    "sha256": "54a84140eb3d4627ac2eae9c93b92ecb8c1ea2b1ed10c7f2f3529c1855802e06",
+    "sourceKind": "archive-restored-introduction",
+    "sourceRawFile": "../live/../archive/21-20190129181949.bin",
+    "sourceRawSha256": "d75c5fc9604e5882de42cb868830baa05d275536db540baba87508070dbe4a02",
+    "snapshotUrl": "https://web.archive.org/web/20190129181949id_/http://www.geocities.jp/viprpg_gw2017/games/21.html",
+    "sourceOriginalUrl": "http://www.geocities.jp/viprpg_gw2017/games/21.html"
   },
   "https://viprpg2017gw.x.2nt.com/games/49.html": {
     "originalUrl": "https://viprpg2017gw.x.2nt.com/games/49.html",

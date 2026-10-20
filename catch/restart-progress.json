@@ -2067,9 +2067,9 @@
     {
       "festivalId": "2017-gw",
       "reviewedAt": "2026-10-21",
-      "dataSha256": "691fed0d62b39fef612ffc64e7763da6b22cfc5a2c387570be490bd9122e7ce5",
+      "dataSha256": "34be99e70f93174caf9aae7bb2b25f149daf902c988ca16826dad1b16fe865dc",
       "works": 51,
-      "screenshotFiles": 70,
+      "screenshotFiles": 74,
       "status": "reviewed-with-exceptions",
       "sourceEvidence": [
         "catch/2017-gw/recovery.json",
@@ -2079,13 +2079,18 @@
         "catch/2017-gw/investigation/source-gap-review.json",
         "catch/2017-gw/investigation/presentation-corrections.json",
         "catch/2017-gw/investigation/old-gallery-reconciliation.json",
-        "catch/2017-gw/investigation/replay-closure.json"
+        "catch/2017-gw/investigation/replay-closure.json",
+        "catch/2017-gw/source-supplement.json",
+        "catch/2017-gw/source/archive/manifest.json",
+        "catch/2017-gw/source/supplemental-live/manifest.json",
+        "catch/2017-gw/investigation/archive-supplement-provenance.json",
+        "catch/2017-gw/investigation/restored21-title-evidence.json"
       ],
       "desktopEvidence": [
         "catch/2017-gw/desktop-review.json",
         "catch/2017-gw/investigation/local-http-payloads.json"
       ],
-      "notes": "日本节点直接读取仍可用的viprpg2017gw.x.2nt.com源站，53份有效HTML（5个入口／菜单／说明／更新／目录文档、48份原介绍）与133项展示图像依赖保存原始载荷；连同托管错误页／探测与错误样式缓存共193项载荷引用SHA核对。51既有身份、编号、题名保持，48份介绍的96段完整作者／管理人留言比对，51图标、70截图和2张横幅按实际格式归档，旧70画廊全部字节对应。保留43项配布入口的44条目录／介绍地址，不声称游戏文件现可下载。类型／工具字段分别保留，源站无分组字段，不补造分组。21、49原目录无介绍链接；23虽有链接但当前跳转至托管平台错误页，旧23缓存同样不是介绍。香港HKG出口精确查询旧x.fc2.com及现x.2nt.com的23地址均返回空CDX；较宽前缀查询超时不作为无存档依据，23原文仍待查。三个编号均保留完整整理详情及明确标注生成来源的原貌缺口骨架，未添加受限标记。定位UTF-8 BOM令HTML解析器丢掉frameset导致空入口，调用现有decodeSource后恢复原生menu／contents两框架，原载荷不变。目录固定950px加20px边距在933px内容框架溢出，展示副本改为自适应且保留原边距后表宽897、滚动宽933。原貌189文件／56HTML、364静态加70悬停引用无缺失或外部自动加载；312展示文件HTTP/SHA一致。51整理详情和51原貌详情／骨架、说明／更新／目录均通过桌面检查；两项初读延迟图确认正常，实际沙箱内菜单及全部51项目录逐项点击验证933px下无溢出、坏图或待加载图。00原貌悬停、查看器切换／关闭／Esc、首页51图标与2横幅和末项往返通过。构建4211页、lint与数据校验通过。未审看题材或像素内容，未下载游戏包。"
+      "notes": "日本源站与存档补档已合并校对：51身份／编号及现题名保持；48份源站原介绍加21、23两份CDX／SHA1验证的Geocities旧介绍，共50份原文，100个作者／管理人留言字段全文比对。新原址由随后校对的2017红白历史友情链接确认；旧x.fc2／x.2nt空CDX及前缀超时记录保留为历史，不再当成原文缺失结论。21号现题名获得官方讨论页文档题名确认，按约定保留title，存档页不同题名另存originalTitle，并记录titleUrl；未审看论坛正文。两篇存档原文直接归档，5项所需图像从日本移转源站HTTP200取得，包含4张主图／悬停图；截图由70增至74，图标仍51，本祭典横幅2。数据仅21、23两条改变，其余49条逐字段保持；旧70画廊原载荷保留。论坛和配布链接按来源保留，未下载游戏包。49原目录未链接介绍，所查旧Geo精确路径CDX无成功记录，继续保留完整中性缺口骨架，不声称永久丢失。最初3个骨架的验收记录保留在desktop-review.initialReviewSnapshot，现在只剩49一个来源缺口，未增加受限。原入口UTF-8 BOM导致frameset丢失已修复；目录950px固定宽造成的933px框架溢出已在展示副本修复，原载荷保持。现原貌194文件／56HTML，372静态加74悬停共446引用无缺失或外部自动加载；201项原始载荷引用SHA核验，两篇HTML另核CDX SHA1。321展示文件HTTP/SHA一致。初审全部51项真实菜单／目录点击通过；本次对唯一改变的21、23在实际双框架目录再次点击验收，933px下无横向溢出、坏图或待加载，主图／悬停图均640px正常；两整理详情与查看器切换、首页51项／两更新图标及宽度通过。构建4212页、lint与数据校验通过。原始、迁移站和存档版本分别记录，未审看题材或像素、未新增限制、未下载或执行游戏。"
     },
     {
       "festivalId": "2017-kouhaku",

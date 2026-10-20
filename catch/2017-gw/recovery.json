@@ -139,6 +139,11 @@
     "https://viprpg2017gw.x.2nt.com/image/ss/47a.png": "image/ss/47a.png",
     "https://viprpg2017gw.x.2nt.com/image/ss/48a.png": "image/ss/48a.png",
     "https://viprpg2017gw.x.2nt.com/image/ss/50a.png": "image/ss/50a.png",
+    "https://viprpg2017gw.x.2nt.com/image/icon/21.png": "image/icon/21.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/21a.png": "image/ss/21a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/23a.png": "image/ss/23a.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/21b.png": "image/ss/21b.png",
+    "https://viprpg2017gw.x.2nt.com/image/ss/23b.png": "image/ss/23b.png",
     "https://viprpg2017gw.x.2nt.com/index.html": "index.html",
     "https://viprpg2017gw.x.2nt.com/menu.html": "menu.html",
     "https://viprpg2017gw.x.2nt.com/games.html": "games.html",
@@ -166,6 +171,7 @@
     "https://viprpg2017gw.x.2nt.com/games/19.html": "games/19.html",
     "https://viprpg2017gw.x.2nt.com/games/20.html": "games/20.html",
     "https://viprpg2017gw.x.2nt.com/games/22.html": "games/22.html",
+    "https://viprpg2017gw.x.2nt.com/games/23.html": "games/23.html",
     "https://viprpg2017gw.x.2nt.com/games/24.html": "games/24.html",
     "https://viprpg2017gw.x.2nt.com/games/25.html": "games/25.html",
     "https://viprpg2017gw.x.2nt.com/games/26.html": "games/26.html",
@@ -193,12 +199,9 @@
     "https://viprpg2017gw.x.2nt.com/games/48.html": "games/48.html",
     "https://viprpg2017gw.x.2nt.com/games/50.html": "games/50.html",
     "https://viprpg2017gw.x.2nt.com/games/21.html": "games/21.html",
-    "https://viprpg2017gw.x.2nt.com/games/23.html": "games/23.html",
     "https://viprpg2017gw.x.2nt.com/games/49.html": "games/49.html"
   },
   "generatedSourceGapNotices": [
-    "games/21.html",
-    "games/23.html",
     "games/49.html"
   ],
   "entries": [
@@ -1322,8 +1325,31 @@
       "no": "21",
       "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/21.html",
       "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
-      "sourceDetailUnavailable": true,
-      "sourceMetadata": [],
+      "sourceDetailUnavailable": false,
+      "sourceOriginalUrl": "http://www.geocities.jp/viprpg_gw2017/games/21.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181949id_/http://www.geocities.jp/viprpg_gw2017/games/21.html",
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
       "catalogueMetadata": {
         "author": "-",
         "engine": "-",
@@ -1331,8 +1357,19 @@
         "streaming": "-",
         "html": " - <br><font color=\"#0000CC\">-</font>"
       },
-      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/00.png",
-      "screenshotSources": [],
+      "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/21.png",
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/21-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/21a.png",
+          "sha256": "fa2790622602645788b3933918bad8371135562cdc13f89c8bc8cbce6177ec13"
+        },
+        {
+          "local": "/screenshots/2017-gw/21-source-2.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/21b.png",
+          "sha256": "6bebad04206003b3b6ad5cf3f68f1d52c0944683f8348b7f2d6151c22555d5d9"
+        }
+      ],
       "downloadLinks": [],
       "packagesDownloaded": false
     },
@@ -1397,8 +1434,31 @@
       "no": "23",
       "sourceUrl": "https://viprpg2017gw.x.2nt.com/games/23.html",
       "catalogueUrl": "https://viprpg2017gw.x.2nt.com/games.html",
-      "sourceDetailUnavailable": true,
-      "sourceMetadata": [],
+      "sourceDetailUnavailable": false,
+      "sourceOriginalUrl": "http://www.geocities.jp/viprpg_gw2017/games/23.html",
+      "snapshotUrl": "https://web.archive.org/web/20190129181944id_/http://www.geocities.jp/viprpg_gw2017/games/23.html",
+      "sourceMetadata": [
+        {
+          "label": "作者名",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "使用ツール",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "ジャンル",
+          "value": "",
+          "html": ""
+        },
+        {
+          "label": "配信/投稿",
+          "value": "",
+          "html": ""
+        }
+      ],
       "catalogueMetadata": {
         "author": "名雲きつね",
         "engine": "2000",
@@ -1407,7 +1467,18 @@
         "html": "見るエロゲ <br><font color=\"#0000CC\">2000</font>"
       },
       "iconSourceUrl": "https://viprpg2017gw.x.2nt.com/image/icon/23.png",
-      "screenshotSources": [],
+      "screenshotSources": [
+        {
+          "local": "/screenshots/2017-gw/23-source-1.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/23a.png",
+          "sha256": "ba4c63a2b1fc60794669c834b4d4cadb4879324f2b4d0b50988dad6815e5bdcd"
+        },
+        {
+          "local": "/screenshots/2017-gw/23-source-2.png",
+          "sourceUrl": "https://viprpg2017gw.x.2nt.com/image/ss/23b.png",
+          "sha256": "d674cdf9e4edf59ff6e908f7c406045af81cba8ec8f45a52b8d21cfa36260bf9"
+        }
+      ],
       "downloadLinks": [
         {
           "url": "http://ux.getuploader.com/vipgw2017/download/43/vipgw17_23.zip",
@@ -2809,9 +2880,16 @@
       "sha256": "7d3a134f798f91e9dc8384f8ef9eb7ddac4dd61cb144f720742cbe6220ce4f73"
     }
   ],
-  "handling": "Direct archival without topic or pixel screening. Preserve all51 source catalogue rows. 21/49 are unlinked;23 introduction returns a hosting error. All three keep complete neutral gap skeletons, without restricted flags. Raw hosting-error responses remain evidence but are not treated as introductions.",
+  "archiveRestoredIntroductions": [
+    "21",
+    "23"
+  ],
+  "historicalOrigin": "http://www.geocities.jp/viprpg_gw2017/",
+  "historicalOriginEvidence": "../2017-kouhaku/investigation/historical-gw-link.json",
+  "handling": "Direct archival without topic or pixel screening. Preserve all51 current catalogue identities. Current21/49 are unlinked and23 returns a hosting error;21/23 introductions are now restored from CDX-verified historical Geocities snapshots, with directly retrieved Japan-mirror images. Existing21 title confirmed by official thread is retained; archived heading is originalTitle.49 keeps a complete labelled gap skeleton. Raw live errors and prior gap evidence remain preserved.",
   "desktopReview": "passed-desktop-only",
   "desktopEvidence": "desktop-review.json",
   "presentationCorrections": "investigation/presentation-corrections.json",
-  "sourceGapEvidence": "investigation/source-gap-review.json"
+  "sourceGapEvidence": "investigation/source-gap-review.json",
+  "archiveSupplementEvidence": "source-supplement.json"
 }
