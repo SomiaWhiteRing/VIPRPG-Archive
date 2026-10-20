@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2019-summer",
+  "activeFestival": "2018-gw",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -1941,6 +1941,29 @@
         "catch/2019-kouhaku/investigation/local-http-payloads.json"
       ],
       "notes": "日本源站仍可直接访问，保存103份Shift_JIS HTML原始捕获（102唯一文档）、185份图片及1份MP4，全部载荷核对SHA，103页均无解码替代字符。保留55个既有正式作品ID、编号和题名，补回目录明确链接的两个样例；两者按源页保留No.0，以独立ID及目录链接题名区分，共57项。类型与紅／白分组分别保存，28紅組、27白組，配信／動画字段按来源标签保留。57项作者／管理人留言全文结构对比无遗漏，首个样例的4处时长图例保留为行内图像；来源基本信息完整保留。恢复57处图标、87张显示／悬停／放大图、36项配布入口和2横幅。旧84画廊引用中82份实际图片均对应，两份11号误收的站点横幅／下载按钮归回界面资源，原文件保留；17与46的4张放大版按原评论中的图片链接取回。另补回11号原链接的18,300,592字节GIF，首次60秒传输后以206续传完成，长度、GIF标记及浏览器完整加载均验证；MP4为717,929字节，容器头与HTTP载荷核对，整理版提供本地资料链接，未审看媒体内容。共用回放器补齐MP4识别已单独提交05bc9f26。原貌288文件、102 HTML、1403本地引用含悬停及媒体，无缺失或外部自动加载；434展示文件HTTP/SHA一致。目录1800px、投票1300px的多余固定外层宽度收回桌面可用区，并保留图标列宽度，原作者绝对定位与配色不改，原始缓存不动。57整理详情及102原貌文档桌面通过；4项首读延迟图复核正常，18MB GIF完整加载为640×480；查看器切换至1000×750放大图、按钮关闭与Esc关闭均验证。实际沙箱入口到目录、两个样例互转、正式作品进入、放大图及浏览器返回、目录回入口和投票附件进入均通过；55正式条目全组相邻导航无跳号，原生悬停往返通过。首页57项、57图标／2横幅、独立类型／分组列、末项进入及返回保持展开通过；最终控制台无错误／警告。无题材或像素筛选，无新增受限，未下载或运行游戏包。"
+    },
+    {
+      "festivalId": "2019-summer",
+      "reviewedAt": "2026-10-21",
+      "dataSha256": "972fa0733e2ad105d6925b815c285961878e6c38e01099058f86f106264efbc6",
+      "works": 52,
+      "screenshotFiles": 82,
+      "status": "reviewed-with-exceptions",
+      "sourceEvidence": [
+        "catch/2019-summer/recovery.json",
+        "catch/2019-summer/source-comparison.json",
+        "catch/2019-summer/source/live/manifest.json",
+        "catch/2019-summer/source/archive/manifest.json",
+        "catch/2019-summer/source/images/manifest.json",
+        "catch/2019-summer/source/dependencies/manifest.json",
+        "catch/2019-summer/investigation/dated-snapshot-comparison.json",
+        "catch/2019-summer/investigation/replay-closure.json"
+      ],
+      "desktopEvidence": [
+        "catch/2019-summer/desktop-review.json",
+        "catch/2019-summer/investigation/local-http-payloads.json"
+      ],
+      "notes": "Google Sites源站及133行更新表仍可直接访问，但作品Apps Script明确因Rhino停用而失败。从2025-10-11的Wayback公开响应以AST字面量解码恢复52条原目录记录（2讨论板、1样例、49正式作品）及780行原掲示板数据；原删除标记控制773条可见投稿，不新增内容筛选。压缩HTTP原载荷SHA-1与CDX一致；回放的52记录和780行数据与捕获逐项相等。52个既有ID及题名保留，元数据及作者留言全文结构核对通过；恢复52图标、82截图、41项共47条配布链接，旧82画廊图片全部字节对应，BMP按真实格式保存。日本源站取得115个图片标识及48份可用样式／字体／脚本等依赖；当前页头图403，明确标注以本祭旧保存横幅代替，并不声称是同一图；平台favicon因日本出口退出而未取得，未据此认定源站不存在。原貌167文件、3HTML、142静态本地引用无缺失和外部自动加载；原应用保留4份客户脚本，补离线运行接口，禁用发帖、IP查询及远程计数。52整理详情及52动态原貌状态桌面无横向溢出或坏图；目录、相邻按钮、方向键、边界、保存掲示板重载、引用弹窗及图片悬停往返通过；沙箱内入口、33号BMP与返回原主页、133行更新表均验证。整理查看器切换、关闭、Esc及首页52项／52图标／1横幅、末项进入和返回保持展开通过。302展示文件HTTP载荷与本地SHA一致。未下载或运行游戏包，未审看条目题材或像素内容，未新增受限。"
     }
   ],
   "originalViewsReviewed": [
@@ -2380,6 +2403,13 @@
       "evidence": [
         "catch/2019-kouhaku/original-view.json",
         "catch/2019-kouhaku/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2019-summer",
+      "evidence": [
+        "catch/2019-summer/original-view.json",
+        "catch/2019-summer/desktop-review.json"
       ]
     }
   ],

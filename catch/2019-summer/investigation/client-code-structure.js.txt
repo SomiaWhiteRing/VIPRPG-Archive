@@ -1,0 +1,525 @@
+
+        let gameNo = 0;
+        let globalDataes = JSON.parse('[]');
+        let globalBoard = JSON.parse('[]');
+        let globalPosition = '#pageTop';
+    
+
+
+const createResponce = ( no, cnt = 0, idCheck = false ) => {
+
+    let element = globalBoard[no];
+    
+    if( no > globalBoard.length ){
+        return false;
+    }    
+    if( element['del'] ){
+        return false;
+    }
+    if(idCheck){
+        if( element['id'] != idCheck || element['admin'] || element['author'] ){
+            return false;
+        }
+    }else{
+        if( gameNo === 2 ){
+            
+        }else if ( element['gameNo'] != gameNo ){
+            return false;
+        }
+    }
+
+    cnt++;
+    
+    let nameArea = '';
+    let idArea = '<a style="visibility:hidden">id:A000000<a>';
+    let comment = element['comment'].replace(/&gt;&gt;[0-9]{1,}/g, (s) => {
+        let responceNo = s.replace(/&gt;&gt;/g, '');
+        return `<a class="text-success responceChecker" data-no="${responceNo}">${s}</a> `;
+    });
+    
+    let gameTitle = ( gameNo === 2 || idCheck ) ? `(${globalDataes[ element['gameNo'] ]['title']})` : '' ;
+    
+    if(element['admin']){
+        nameArea = `<b class="text-danger">${no}: ${element['writer']}</b>`;
+    }else if(element['author']){
+        nameArea = `<b class="text-success">${no}: ${element['writer']}</b>`;
+    }else{
+        nameArea = `<a class="text-primary">${no}: ${element['writer']}</a>`;
+        idArea = `<a class="text-success idChecker" data-id="${element['id']}">id:${element['id']}</a>`;
+    }
+    
+    str = `${nameArea}<br>
+        ${comment}<br>
+        <div class="text-right text-secondary">
+        No.${element['gameNo']}&nbsp;
+        ${gameTitle}&nbsp;&nbsp;
+        ${element['time']}&nbsp;&nbsp;&nbsp;
+        ${idArea}
+        </div>
+        <hr>`;
+    return [str, cnt];
+}
+
+
+$('body').on( 'click', '.responceChecker', function() {
+    let no = $(this).data('no');
+    let responce = createResponce(no);
+    
+    if(responce){
+        $('#modalBoardBody').html(responce[0]);
+        $('#modalBoard').modal('show');
+    }
+});
+
+
+$('body').on( 'click', '.idChecker', function() {
+    let id = $(this).data('id');
+
+    let cnt = 0;
+    let str = '';
+    
+    for( let i = 0; i < globalBoard.length; i++ ){
+        let responce = createResponce(i, cnt, id);
+        
+        if(responce){
+            str += responce[0];
+            cnt = responce[1];
+        }
+    }
+    
+    $('#modalBoardBody').html(str);
+    $('#modalBoard').modal('show');
+
+});
+
+
+
+
+
+const getGoogleUrl = (googleId) => {
+    if(!googleId){
+        return '';
+    }
+    return 'https://drive.google.com/uc?export=view&id=' + googleId;
+}
+
+
+
+const updateInformation = () => {
+    let element = globalDataes[gameNo];
+    let title = `<img src="${getGoogleUrl(element['icon'])}"> No.${gameNo}: ${element['title']}`;
+
+    let ss1 = getGoogleUrl(element['ss1']);
+    let ss2 = getGoogleUrl(element['ss2']);
+
+    let image;
+    if(ss2){
+        image = `<img class="img-fluid" src="${ss1}"
+        onmouseover="this.src='${ss2}'"
+        onmouseout="this.src='${ss1}'">
+        <img src="${ss2}" style="display:none">
+        `;
+    }else{
+        image = `<img class="img-fluid" src="${ss1}">`;
+    }
+
+    let body = `
+        ${title}
+        <hr>
+        ${image}
+        <hr>
+        作者名: ${element['author']}<br>
+        ツール: ${ element['tkool'] === 'other' ? element['tkool_other'] : element['tkool'] }<br>
+        動画や配信: ${ element['video'] === 'other' ? element['video_other'] : element['video'] }<br>
+        ジャンル: ${element['genre']}<br>
+        <hr>
+        作者コメント:<br>
+        ${element['comment_author']}<br>
+        `;
+    $('#gameInformation').html(body);
+    $('#displayNo').text(gameNo + ' ' + element['title'] );
+    $('#urlViewer').val('https:\/\/script.google.com\/macros\/s\/AKfycbxUhsUdhTG6F844hBnioDdGacKRTip815r48sgbP-pPUhoXuPsK\/exec?game=' + gameNo);
+    
+    
+    
+    
+    if( element['game'] == 'false' ){
+        $('#downloadGame').hide();
+        $('#lastUpdateDisplay').text('');
+    }else{
+        $('#downloadGame').show();
+        $('#downloadGame').attr( 'href', 'https://drive.google.com/file/d/' + element['game'] + '/view?usp=drivesdk' );
+        
+        let date = new Date(element['spare2']);
+        let updateDate = ( date.getMonth() + 1 ) + "/" + date.getDate();
+        $('#lastUpdateDisplay').text(updateDate);
+        
+    }
+    if( element['patch'] == 'false' ){
+        $('#downloadPatch').hide();
+    }else{
+        $('#downloadPatch').show();
+        $('#downloadPatch').attr( 'href', 'https://drive.google.com/file/d/' + element['patch'] + '/view?usp=drivesdk' );
+    }
+    if( element['spare3'] ){
+        $('#downloadGame').text( Math.round( element['spare3'] / 1024/ 1024 * 10 ) / 10 + 'MB' );
+    }
+    
+    let dlCount = ( element['board'] != 'false' ) ? element['board'] : 0;
+    dlCount = ( element['spare1'] == 'public' ) ? dlCount : '非公開';
+    dlCount = ( element['game'] != 'false' ) ? dlCount : '';
+    $('#downloadCount').text( dlCount );
+
+}
+
+
+const preloadingImage = () => {
+    let str = '';
+    for( let i = 0; i < globalDataes.length; i++ ){
+        
+        let element = globalDataes[i];
+        
+        let icon = ( element['icon'] == '' ? '' : `<img src="${getGoogleUrl(element['icon'])}">` );
+        let ss1 = ( element['ss1'] == '' ? '' : `<img src="${getGoogleUrl(element['ss1'])}">` );
+        let ss2 = ( element['ss2'] == '' ? '' : `<img src="${getGoogleUrl(element['ss2'])}">` );
+        
+        str += icon + ss1 + ss2;
+    }
+    $('#preLoadingImage').html(str);
+}
+
+
+
+
+const updateBoard = () => {
+    let str = '';
+    let cnt = 0;
+    
+    for( let i = 0; i < globalBoard.length; i++ ){
+        let responce = createResponce(i, cnt);
+        
+        if(responce){
+            str += responce[0];
+            cnt = responce[1];
+        }
+    }
+    $('#boardArea').html(str);
+    
+    let cntComment = [];
+    let lastComment = [];
+    for( let n = 0; n < globalDataes.length; n++ ){
+        cntComment[n] = 0;
+        lastComment[n] = '';
+    }
+    
+    for( let i = 0; i < globalBoard.length; i++ ){
+        let element = globalBoard[i];
+        if(element['del']){
+            continue;
+        }
+        if( isNaN(element['gameNo']) ){
+            continue;
+        }
+        let n = element['gameNo'];
+        cntComment[n] = cntComment[n] + 1;
+        lastComment[n] = element['time'].substr(3, 11);
+        lastComment[2] = element['time'].substr(3, 11);
+    }
+
+    
+    for( let n = 0; n < globalDataes.length; n++ ){
+        let target = '#lastComment' + n;
+        $(target).text(lastComment[n]);
+    }
+        
+
+}
+
+function updateTable(){
+    const iconDefaultUrl = getGoogleUrl('1D_4Xt0GvJkq9aEr6tSgLtHlFnr-uljC3');
+    let str;
+    let header = 
+        '<thead><tr style="background-color:grey; color:white">'
+            + '<th class="icon">icon</th>'
+            + '<th class="no">No.<br>tool</th>'
+            + '<th class="author">author<br>video</th>'
+            + '<th class="title">title<br>genre</th>'
+            + '<th class="dl">DL<br>update</th>'
+            + '<th class="count">dl count<br>last comment</th>'
+        + '</tr></thead><tbody><tr></tr>';
+        
+        for( let i = 0; globalDataes.length > i ; i++ ){
+            let element = globalDataes[i];
+            let gameNo = element['gameNo'];
+            let iconUrl = ( element['icon'] === '' ? iconDefaultUrl : getGoogleUrl(element['icon']) );
+            
+            let author = ( element['author'].length > 7 ? element['author'].substr(0, 6) + '...' : element['author'] );
+            let video = ( element['video'] === 'other' ? element['video_other'] : element['video'] );
+            video = ( video.length > 7 ? video.substr(0, 6) + '...' : video );
+            
+            let updateDate;
+            if( element['spare2'] != 'false' ){
+            let date = new Date(element['spare2']);
+                updateDate = ( date.getMonth() + 1 ) + "/" + date.getDate();
+            }else{
+                updateDate= '';
+            }
+
+            let volume;
+            if( element['spare3'] != 'false' ){
+                volume = Math.round( element['spare3'] / 1024/ 1024 * 10 ) / 10 + 'MB';
+            }else{
+                volume = '';
+            }
+            
+            let href;
+            if( element['game'] != 'false' ){
+                href = 'https://drive.google.com/file/d/' + element['game'] + '/view?usp=drivesdk';
+            }else{
+                href = '';
+            }
+            
+            let dlCount = ( element['board'] != 'false' ) ? element['board'] : 0;
+            dlCount = ( element['spare1'] == 'public' ) ? dlCount : '非公開';
+            dlCount = ( element['game'] != 'false' ) ? dlCount : '';
+            
+            str += ( i % 10 == 0 ) ? header : '';
+            
+            str += '<tr>';
+                str += '<td class="icon"><img src="' + iconUrl + '" class="icon"></td>';
+                str += '<td class="no"><a class="text-danger">' + i + '</a><br>' + element['tkool'] + '</td>';
+                str += '<td class="author">' + author + '<br>' + video + '</td>';
+                str += '<td class="title"><a class="text-success" id="gameTitle' + i + '" data-no="' + i + '">' + element['title'] + '</a><br>' + element['genre'] + '</td>';
+                str += '<td class="dl"><a href="' + href + '" data-no="' + i + '" class="downloadGameFromList" target="_blank">' + volume + '</a><br>' + updateDate + '</td>';
+                str += '<td class="count"><b>' + dlCount + '</b><br><a class="text-success" id="lastComment' + i + '" data-no="' + i + '"></a></td>';
+            str += '</tr>';
+        }
+
+    str += '</tbody>';
+    
+    $('#gamelist').html(str);
+}
+
+
+{
+    google.script.url.getLocation( function(location) {
+        gameNo = location.parameter.game;
+        if( 
+            isNaN(gameNo) | 
+            gameNo > globalDataes.length - 1 |
+            0 > gameNo 
+        ){
+            console.log('urlで遊ばないでね！');
+            gameNo = 0;
+        }
+        gameNo = Math.floor(gameNo);
+        updateInformation();
+        updateTable();
+        preloadingImage();
+        updateBoard();
+        
+        
+        if( location.parameter.list ) {
+            $('#modal').modal('show');
+        }
+    });
+}
+
+const afterUpload = (dataes) => {
+    const reWrite = () => {
+        $('#submitBtn').prop('disabled', false);
+        $('#information').text('再書き込みが可能になりました');   
+    }
+    
+    if(dataes){
+        
+        globalBoard = dataes;
+        updateBoard();
+        alert('書き込みが終了しました');
+
+        $('#writer').val('');
+        $('#comment').val('');
+
+        
+        let count = 20;
+        const timer = setInterval( () => {
+            count--;
+            $('#information').text(`再度書き込み可能になるまで${count}秒ほどお待ち下さい`);
+
+            if ( count <= 0 ){
+                clearInterval(timer);
+                $('#submitBtn').prop('disabled', false);
+                $('#information').text('再書き込みが可能になりました');                           
+            }
+        }, 1000);
+
+    }else{
+        $('#information').text('');
+        $('#submitBtn').prop('disabled', false);
+        alert('かきこみ失敗');
+    }
+}
+
+
+$('#reloadBoard').on('click', function(){
+
+    const afterUpdateBoard = (dataes) => {
+        $('#informationUpdateBoard').text('');
+        $(this).show();
+        if(dataes){
+            globalBoard = dataes;
+            updateBoard();
+        }else{
+            alert('更新失敗');
+        }
+    }
+    $('#informationUpdateBoard').text('しばらくお待ち下さい');
+    $(this).hide();
+    google.script.run.withSuccessHandler(afterUpdateBoard).updateBoardDataes();
+});
+
+
+$('#submitBtn').on('click', function(){
+
+    if( $('#comment').val() ){
+        $('#information').text('しばらくお待ち下さい');
+        $('#submitBtn').prop('disabled', true);
+
+        $.getJSON('https://api.ipify.org?format=json', function(data){                                        
+            let dataes = {
+                gameNo  :   gameNo,
+                writer  :   $('#writer').val(),
+                comment :   $('#comment').val(),
+                author  :   false,
+                ip      :   data['ip']    
+            };
+            google.script.run.withSuccessHandler(afterUpload).writeBoard(dataes);
+        });
+    }else{
+        alert('書き込みがありません！');
+    }
+});
+
+
+$('#downloadGame').on( 'click', function(){
+    google.script.run.withSuccessHandler().downloadCount(gameNo);
+    
+});
+$('body').on( 'click', '.downloadGameFromList', function(){
+    let no = $(this).data('no');
+    google.script.run.withSuccessHandler().downloadCount(no);
+});
+
+    
+
+{
+    $('[data-toggle="tooltip"]').tooltip();
+}
+
+
+$('.countText').on('input', function(){
+    let count = $(this).val().length;
+    let thisID = $(this).attr('id');
+    let target = $(`#count_${thisID}`);
+    target.text(count);
+});
+
+
+const movePosition = () => {
+    
+    let target = $(globalPosition);
+    let speed = 400; 
+    let position = target.offset().top;
+    $('html, body').animate({scrollTop:position}, speed, 'swing');    
+}
+$('[id^="movePosition"]').on( 'click', function() {
+    globalPosition = $(this).data('target');
+    movePosition();
+    
+    $('[id^="movePosition"]').removeClass('btn-success', 'btn-secondary');
+    $('[id^="movePosition"]').addClass('btn-secondary');
+    $(this).addClass('btn-success');
+});
+
+
+const moveGame = () => {
+    updateInformation();
+    updateBoard();
+    
+}
+
+const gameCountDown = () => {
+    if(gameNo > 0){
+        gameNo--;
+        moveGame();
+    }
+}
+const gameCountUp = () => {
+    if(gameNo < globalDataes.length - 1){
+        gameNo++;
+        moveGame();
+    }
+}
+
+$('body').on('click', '[id^="gameBefore"]',() => {
+    gameCountDown();
+});
+$('body').on('click', '[id^="gameNext"]',() => {
+    gameCountUp();
+});
+
+
+$('body').on('click', '[id^="gameTitle"]',function(){
+    gameNo = $(this).data('no');
+    moveGame();
+    $('#modal').modal('hide');
+});
+$('body').on('click', '[id^="lastComment"]',function(){
+    gameNo = $(this).data('no');
+    moveGame();
+    $('#movePositionBottom').trigger('click');
+    $('#modal').modal('hide');
+});
+
+
+$(window).on( 'keydown', (e) => {
+
+    let focused = $(':focus');        
+    
+    if( focused.hasClass('form-control') || focused.hasClass('btnGroup') ){
+        return;
+    }
+    
+    
+    if( e.keyCode === 37 || e.keyCode === 52 ){
+        gameCountDown();
+    }
+    if( e.keyCode === 39 || e.keyCode === 54 ){
+        gameCountUp();
+    }
+    
+    
+    if( e.keyCode === 48 ){
+        let modal = $('#modal');
+        if( modal.hasClass('show') ){
+            modal.modal('hide');
+        }else{
+            modal.modal('show');
+        }
+    }
+    
+    
+    if( e.keyCode === 56 ){
+        let modal = $('#modal');
+        $('#movePositionTop').trigger('click');
+    }
+    if( e.keyCode === 53 ){
+        let modal = $('#modal');
+        $('#movePositionMiddle').trigger('click');
+    }
+    if( e.keyCode === 50 ){
+        let modal = $('#modal');
+        $('#movePositionBottom').trigger('click');
+    }
+});
+

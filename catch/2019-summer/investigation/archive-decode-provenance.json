@@ -1,0 +1,54 @@
+{
+  "sourceFile": "source/archive/app-snapshot-body.bin",
+  "sourceSha256": "187f36dd2ba3238b5ff1376e163ed9e976530f2dd0412ed6e5e2ddcc5888043b",
+  "method": "TypeScript AST literal decoding followed by JSON.parse; never evaluate downloaded scripts.",
+  "captureDateConfirmed": true,
+  "decodedFile": "source/archive-decoded/userHtml.bin",
+  "decodedSha256": "fd24d2954ea8b1b22fa8286d2ca517dd10df7db39a5aab474007433ef1b8640a",
+  "datasets": [
+    {
+      "name": "globalDataes",
+      "length": 52,
+      "keys": [
+        "entryNo",
+        "gameNo",
+        "email",
+        "author",
+        "title",
+        "tkool",
+        "tkool_other",
+        "genre",
+        "video",
+        "video_other",
+        "comment_author",
+        "ss1",
+        "ss2",
+        "icon",
+        "creationTimeCode",
+        "creationDate",
+        "updateTimeCode",
+        "updateDate",
+        "board",
+        "game",
+        "patch",
+        "spare1",
+        "spare2",
+        "spare3"
+      ]
+    },
+    {
+      "name": "globalBoard",
+      "length": 780,
+      "keys": [
+        "gameNo",
+        "writer",
+        "author",
+        "comment",
+        "time",
+        "id",
+        "admin",
+        "del"
+      ]
+    }
+  ]
+}

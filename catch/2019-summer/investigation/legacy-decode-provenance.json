@@ -1,0 +1,54 @@
+{
+  "sourceFile": "game-39-outer.html",
+  "sourceSha256": "94f1fe51e1633f27e9000089f70ea04b8f907fb6f726a31d132d731ae641e201",
+  "method": "TypeScript AST literal decoding followed by JSON.parse; never evaluate downloaded scripts.",
+  "captureDateConfirmed": false,
+  "decodedFile": "source/legacy-decoded/userHtml.bin",
+  "decodedSha256": "f9e84b3a337adeeef8a6fae993bc48b14792e48789403c666a611153745122ab",
+  "datasets": [
+    {
+      "name": "globalDataes",
+      "length": 52,
+      "keys": [
+        "entryNo",
+        "gameNo",
+        "email",
+        "author",
+        "title",
+        "tkool",
+        "tkool_other",
+        "genre",
+        "video",
+        "video_other",
+        "comment_author",
+        "ss1",
+        "ss2",
+        "icon",
+        "creationTimeCode",
+        "creationDate",
+        "updateTimeCode",
+        "updateDate",
+        "board",
+        "game",
+        "patch",
+        "spare1",
+        "spare2",
+        "spare3"
+      ]
+    },
+    {
+      "name": "globalBoard",
+      "length": 780,
+      "keys": [
+        "gameNo",
+        "writer",
+        "author",
+        "comment",
+        "time",
+        "id",
+        "admin",
+        "del"
+      ]
+    }
+  ]
+}
