@@ -1,0 +1,1511 @@
+{
+  "festivalId": "2022-gw",
+  "originalBase": "http://viprpg2022gw.nobody.jp/",
+  "liveSource": true,
+  "proxyRegion": "Japan",
+  "sourceManifests": [
+    "source/replay/manifest.json"
+  ],
+  "originalResources": {
+    "http://viprpg2022gw.nobody.jp/": "index.html",
+    "http://viprpg2022gw.nobody.jp/entry0.html": "entry0.html",
+    "http://viprpg2022gw.nobody.jp/entry2.html": "entry2.html",
+    "http://viprpg2022gw.nobody.jp/entry3.html": "entry3.html",
+    "http://viprpg2022gw.nobody.jp/entry1.html": "entry1.html",
+    "http://viprpg2022gw.nobody.jp/entry5.html": "entry5.html",
+    "http://viprpg2022gw.nobody.jp/entry6.html": "entry6.html",
+    "http://viprpg2022gw.nobody.jp/entry7.html": "entry7.html",
+    "http://viprpg2022gw.nobody.jp/entry9.html": "entry9.html",
+    "http://viprpg2022gw.nobody.jp/entry10.html": "entry10.html",
+    "http://viprpg2022gw.nobody.jp/entry8.html": "entry8.html",
+    "http://viprpg2022gw.nobody.jp/entry11.html": "entry11.html",
+    "http://viprpg2022gw.nobody.jp/entry13.html": "entry13.html",
+    "http://viprpg2022gw.nobody.jp/entry12.html": "entry12.html",
+    "http://viprpg2022gw.nobody.jp/entry14.html": "entry14.html",
+    "http://viprpg2022gw.nobody.jp/entry15.html": "entry15.html",
+    "http://viprpg2022gw.nobody.jp/entry16.html": "entry16.html",
+    "http://viprpg2022gw.nobody.jp/entry19.html": "entry19.html",
+    "http://viprpg2022gw.nobody.jp/entry4.html": "entry4.html",
+    "http://viprpg2022gw.nobody.jp/entry20.html": "entry20.html",
+    "http://viprpg2022gw.nobody.jp/entry18.html": "entry18.html",
+    "http://viprpg2022gw.nobody.jp/entry21.html": "entry21.html",
+    "http://viprpg2022gw.nobody.jp/entry23.html": "entry23.html",
+    "http://viprpg2022gw.nobody.jp/entry24.html": "entry24.html",
+    "http://viprpg2022gw.nobody.jp/entry26.html": "entry26.html",
+    "http://viprpg2022gw.nobody.jp/entry27.html": "entry27.html",
+    "http://viprpg2022gw.nobody.jp/entry25.html": "entry25.html",
+    "http://viprpg2022gw.nobody.jp/entry17.html": "entry17.html",
+    "http://viprpg2022gw.nobody.jp/entry29.html": "entry29.html",
+    "http://viprpg2022gw.nobody.jp/entry22.html": "entry22.html",
+    "http://viprpg2022gw.nobody.jp/entry32.html": "entry32.html",
+    "http://viprpg2022gw.nobody.jp/entry31.html": "entry31.html",
+    "http://viprpg2022gw.nobody.jp/entry28.html": "entry28.html",
+    "http://viprpg2022gw.nobody.jp/entry30.html": "entry30.html",
+    "http://viprpg2022gw.nobody.jp/entry33.html": "entry33.html",
+    "http://viprpg2022gw.nobody.jp/style.css": "style.css",
+    "http://viprpg2022gw.nobody.jp/gw2022a.png": "gw2022a.png",
+    "http://viprpg2022gw.nobody.jp/icon0.png": "icon0.png",
+    "http://viprpg2022gw.nobody.jp/gw2022b.png": "gw2022b.png",
+    "http://viprpg2022gw.nobody.jp/icon3.png": "icon3.png",
+    "http://viprpg2022gw.nobody.jp/icon4.png": "icon4.png",
+    "http://viprpg2022gw.nobody.jp/icon6.gif": "icon6.gif",
+    "http://viprpg2022gw.nobody.jp/icon5.png": "icon5.png",
+    "http://viprpg2022gw.nobody.jp/icon8.png": "icon8.png",
+    "http://viprpg2022gw.nobody.jp/icon1.png": "icon1.png",
+    "http://viprpg2022gw.nobody.jp/icon9.png": "icon9.png",
+    "http://viprpg2022gw.nobody.jp/icon7.png": "icon7.png",
+    "http://viprpg2022gw.nobody.jp/icon14.png": "icon14.png",
+    "http://viprpg2022gw.nobody.jp/icon2.png": "icon2.png",
+    "http://viprpg2022gw.nobody.jp/icon12.png": "icon12.png",
+    "http://viprpg2022gw.nobody.jp/icon16.png": "icon16.png",
+    "http://viprpg2022gw.nobody.jp/icon2003s.png": "icon2003s.png",
+    "http://viprpg2022gw.nobody.jp/icon18.png": "icon18.png",
+    "http://viprpg2022gw.nobody.jp/icon15.png": "icon15.png",
+    "http://viprpg2022gw.nobody.jp/icon21.jpg": "icon21.jpg",
+    "http://viprpg2022gw.nobody.jp/icon22.png": "icon22.png",
+    "http://viprpg2022gw.nobody.jp/icon24.png": "icon24.png",
+    "http://viprpg2022gw.nobody.jp/icon19.png": "icon19.png",
+    "http://viprpg2022gw.nobody.jp/icon25.gif": "icon25.gif",
+    "http://viprpg2022gw.nobody.jp/icon26.png": "icon26.png",
+    "http://viprpg2022gw.nobody.jp/icon23.png": "icon23.png",
+    "http://viprpg2022gw.nobody.jp/icon28.png": "icon28.png",
+    "http://viprpg2022gw.nobody.jp/icon27.png": "icon27.png",
+    "http://viprpg2022gw.nobody.jp/icon11.png": "icon11.png",
+    "http://viprpg2022gw.nobody.jp/icon31.png": "icon31.png",
+    "http://viprpg2022gw.nobody.jp/icon29.png": "icon29.png",
+    "http://viprpg2022gw.nobody.jp/icon30.png": "icon30.png",
+    "http://viprpg2022gw.nobody.jp/icon33.png": "icon33.png",
+    "http://viprpg2022gw.nobody.jp/icon32.png": "icon32.png",
+    "http://viprpg2022gw.nobody.jp/gw2006.png": "gw2006.png",
+    "http://viprpg2022gw.nobody.jp/gw2007.png": "gw2007.png",
+    "http://viprpg2022gw.nobody.jp/gw2008.png": "gw2008.png",
+    "http://viprpg2022gw.nobody.jp/gw2009.png": "gw2009.png",
+    "http://viprpg2022gw.nobody.jp/gw2010.png": "gw2010.png",
+    "http://viprpg2022gw.nobody.jp/gw2011.png": "gw2011.png",
+    "http://viprpg2022gw.nobody.jp/gw2013.png": "gw2013.png",
+    "http://viprpg2022gw.nobody.jp/gw2014.png": "gw2014.png",
+    "http://viprpg2022gw.nobody.jp/gw2012.png": "gw2012.png",
+    "http://viprpg2022gw.nobody.jp/gw2015.png": "gw2015.png",
+    "http://viprpg2022gw.nobody.jp/gw2017.png": "gw2017.png",
+    "http://viprpg2022gw.nobody.jp/gw2018.png": "gw2018.png",
+    "http://viprpg2022gw.nobody.jp/gw2016.png": "gw2016.png",
+    "http://viprpg2022gw.nobody.jp/gw2019.png": "gw2019.png",
+    "http://viprpg2022gw.nobody.jp/gw2021.png": "gw2021.png",
+    "http://viprpg2022gw.nobody.jp/gw2020.png": "gw2020.png",
+    "http://viprpg2022gw.nobody.jp/ss0a.png": "ss0a.png",
+    "http://viprpg2022gw.nobody.jp/ss0b.png": "ss0b.png",
+    "http://viprpg2022gw.nobody.jp/ss2a.png": "ss2a.png",
+    "http://viprpg2022gw.nobody.jp/ss3a.png": "ss3a.png",
+    "http://viprpg2022gw.nobody.jp/ss1b.png": "ss1b.png",
+    "http://viprpg2022gw.nobody.jp/ss2b.png": "ss2b.png",
+    "http://viprpg2022gw.nobody.jp/ss3b.png": "ss3b.png",
+    "http://viprpg2022gw.nobody.jp/ss5a.png": "ss5a.png",
+    "http://viprpg2022gw.nobody.jp/ss5b.png": "ss5b.png",
+    "http://viprpg2022gw.nobody.jp/ss6.png": "ss6.png",
+    "http://viprpg2022gw.nobody.jp/ss1a.png": "ss1a.png",
+    "http://viprpg2022gw.nobody.jp/ss7a.png": "ss7a.png",
+    "http://viprpg2022gw.nobody.jp/ss7b.png": "ss7b.png",
+    "http://viprpg2022gw.nobody.jp/ss10a.png": "ss10a.png",
+    "http://viprpg2022gw.nobody.jp/ss9b.png": "ss9b.png",
+    "http://viprpg2022gw.nobody.jp/ss9a.png": "ss9a.png",
+    "http://viprpg2022gw.nobody.jp/ss8.png": "ss8.png",
+    "http://viprpg2022gw.nobody.jp/ss10b.png": "ss10b.png",
+    "http://viprpg2022gw.nobody.jp/ss12.png": "ss12.png",
+    "http://viprpg2022gw.nobody.jp/ss11b.png": "ss11b.png",
+    "http://viprpg2022gw.nobody.jp/ss11a.png": "ss11a.png",
+    "http://viprpg2022gw.nobody.jp/ss15.jpg": "ss15.jpg",
+    "http://viprpg2022gw.nobody.jp/ss16.png": "ss16.png",
+    "http://viprpg2022gw.nobody.jp/ss13.png": "ss13.png",
+    "http://viprpg2022gw.nobody.jp/ss14.png": "ss14.png",
+    "http://viprpg2022gw.nobody.jp/ss19b.png": "ss19b.png",
+    "http://viprpg2022gw.nobody.jp/ss4a.png": "ss4a.png",
+    "http://viprpg2022gw.nobody.jp/ss19a.png": "ss19a.png",
+    "http://viprpg2022gw.nobody.jp/ss20.jpg": "ss20.jpg",
+    "http://viprpg2022gw.nobody.jp/ss18a.png": "ss18a.png",
+    "http://viprpg2022gw.nobody.jp/ss4b.png": "ss4b.png",
+    "http://viprpg2022gw.nobody.jp/ss18b.png": "ss18b.png",
+    "http://viprpg2022gw.nobody.jp/ss23a.png": "ss23a.png",
+    "http://viprpg2022gw.nobody.jp/ss23b.png": "ss23b.png",
+    "http://viprpg2022gw.nobody.jp/ss21.jpg": "ss21.jpg",
+    "http://viprpg2022gw.nobody.jp/ss24a.png": "ss24a.png",
+    "http://viprpg2022gw.nobody.jp/ss24b.png": "ss24b.png",
+    "http://viprpg2022gw.nobody.jp/ss26b.jpg": "ss26b.jpg",
+    "http://viprpg2022gw.nobody.jp/ss26a.jpg": "ss26a.jpg",
+    "http://viprpg2022gw.nobody.jp/ss27a.png": "ss27a.png",
+    "http://viprpg2022gw.nobody.jp/ss25a.png": "ss25a.png",
+    "http://viprpg2022gw.nobody.jp/ss17.png": "ss17.png",
+    "http://viprpg2022gw.nobody.jp/ss25b.png": "ss25b.png",
+    "http://viprpg2022gw.nobody.jp/ss29a.png": "ss29a.png",
+    "http://viprpg2022gw.nobody.jp/ss27b.png": "ss27b.png",
+    "http://viprpg2022gw.nobody.jp/ss22a.png": "ss22a.png",
+    "http://viprpg2022gw.nobody.jp/ss29b.png": "ss29b.png",
+    "http://viprpg2022gw.nobody.jp/ss32b.png": "ss32b.png",
+    "http://viprpg2022gw.nobody.jp/ss32a.png": "ss32a.png",
+    "http://viprpg2022gw.nobody.jp/ss22b.png": "ss22b.png",
+    "http://viprpg2022gw.nobody.jp/ss31a.png": "ss31a.png",
+    "http://viprpg2022gw.nobody.jp/ss31b.png": "ss31b.png",
+    "http://viprpg2022gw.nobody.jp/ss28a.png": "ss28a.png",
+    "http://viprpg2022gw.nobody.jp/ss30a.png": "ss30a.png",
+    "http://viprpg2022gw.nobody.jp/ss30b.png": "ss30b.png",
+    "http://viprpg2022gw.nobody.jp/ss28b.png": "ss28b.png",
+    "http://viprpg2022gw.nobody.jp/ss33.png": "ss33.png",
+    "http://viprpg2022gw.nobody.jp/bg.jpg": "bg.jpg",
+    "http://viprpg2022gw.nobody.jp/index.html": "index.html"
+  },
+  "entries": [
+    {
+      "id": "2022-gw-work-0",
+      "no": "0",
+      "detailUrl": "http://viprpg2022gw.nobody.jp/entry0.html",
+      "sourceMetadata": {
+        "作者名": "管理人",
+        "ジャンル": "ARPG",
+        "ツール": "2000",
+        "配信/投稿": "可",
+        "作者・管理人コメント": "20分くらいで終わるやるゲです。\nメスガキ要素はありません。\nリスペクト作品：剣士ポショ子の華麗なる冒険"
+      },
+      "catalogueMetadata": {
+        "author": "管理人",
+        "category": "ARPG",
+        "engine": "2000",
+        "streaming": "可"
+      },
+      "metadataDifferences": [],
+      "combinedCommentPreserved": true,
+      "iconSourceUrl": "http://viprpg2022gw.nobody.jp/icon0.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss0a.png",
+          "local": "/screenshots/2022-gw/00-source-1.png",
+          "sha256": "744c334e1f8fc3043d6b272f013dd7fd0294eec8b14a5af4a6c8fb6f7ff51e09"
+        },
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss0b.png",
+          "local": "/screenshots/2022-gw/00-source-2.png",
+          "sha256": "03d9c2bada482eec089482c323a53fbba2c1daa52ec08325a6dd96fce8c18bca"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1O3H1ZHEhKRQKEKnHn0z8HtZFQ-EzRS42",
+          "label": "508kB"
+        },
+        {
+          "url": "https://game.nicovideo.jp/atsumaru/games/gm25530?",
+          "label": "ブラウザ版"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-gw-work-1",
+      "no": "1",
+      "detailUrl": "http://viprpg2022gw.nobody.jp/entry1.html",
+      "sourceMetadata": {
+        "作者名": "hanol",
+        "ジャンル": "パズル",
+        "ツール": "s2k3",
+        "配信/投稿": "可",
+        "作者コメント": "リリアが主人公のパズルゲーム試作品です\nどうぞお楽しみ下さい",
+        "管理人コメント": "ロリリアさんちっちゃかわいい！"
+      },
+      "catalogueMetadata": {
+        "author": "hanol",
+        "category": "パズル",
+        "engine": "s2k3",
+        "streaming": "可"
+      },
+      "metadataDifferences": [],
+      "combinedCommentPreserved": false,
+      "iconSourceUrl": "http://viprpg2022gw.nobody.jp/icon1.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss1a.png",
+          "local": "/screenshots/2022-gw/01-source-1.png",
+          "sha256": "db912f6dd28328c106344b8349f98d1aeded81d25394836b880bd6fac044aa67"
+        },
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss1b.png",
+          "local": "/screenshots/2022-gw/01-source-2.png",
+          "sha256": "6df498e4a1ac3eab0823e09e7ede8005d1fe2f99c0abb732ce3a41969017f204"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=18x4qurhRttaoJIzVi9Z00bi3-1YGl-DL",
+          "label": "963kB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-gw-work-2",
+      "no": "2",
+      "detailUrl": "http://viprpg2022gw.nobody.jp/entry2.html",
+      "sourceMetadata": {
+        "作者名": "ペヤング獄激辛チーズケーキ味希望",
+        "ジャンル": "今日も飯が美味いぜ！",
+        "ツール": "RPGツクール2000",
+        "配信/投稿": "どちらも自己責任",
+        "作者コメント": "ひたすら飯を食って死の危機を逃れるやつです。\nあの作品に触発されました、ごめんなさい。",
+        "管理人コメント": "毎日のksg摂取は健康に良い（ヤラナイカ＝ゴメス氏）"
+      },
+      "catalogueMetadata": {
+        "author": "ペヤング獄激辛チーズケーキ味希望",
+        "category": "今日も飯が美味いぜ！",
+        "engine": "RPGツクール2000",
+        "streaming": "どちらも自己責任"
+      },
+      "metadataDifferences": [],
+      "combinedCommentPreserved": false,
+      "iconSourceUrl": "http://viprpg2022gw.nobody.jp/icon2.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss2a.png",
+          "local": "/screenshots/2022-gw/02-source-1.png",
+          "sha256": "bdcec358dea07cdf4c3e5a0525cfecae13998c7d5604414eb207edccf15e299b"
+        },
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss2b.png",
+          "local": "/screenshots/2022-gw/02-source-2.png",
+          "sha256": "b318f0217850a3825171ff7e5ea011f4470dd36344d132d44f76ce3f9ff61ea5"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1prhv-e0mZpiMI9bT6b_DJXTjB0lEqN7c",
+          "label": "26.4MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-gw-work-3",
+      "no": "3",
+      "detailUrl": "http://viprpg2022gw.nobody.jp/entry3.html",
+      "sourceMetadata": {
+        "作者名": "たんち",
+        "ジャンル": "大人たちの夜更かしのための見るゲ",
+        "ツール": "Steam2003",
+        "配信/投稿": "可・可",
+        "作者コメント": "冷やし中華はじめました(4回目)。\nR-18要素があるから気を付けたも。\n(R-18シーンの前に任意スキップ機能を実装しました！)",
+        "管理人コメント": "豪華スタッフによる合同制作！オラワクワクしてきたぞ！"
+      },
+      "catalogueMetadata": {
+        "author": "たんち",
+        "category": "大人たちの夜更かしのための見るゲ",
+        "engine": "Steam2003",
+        "streaming": "可・可"
+      },
+      "metadataDifferences": [],
+      "combinedCommentPreserved": false,
+      "iconSourceUrl": "http://viprpg2022gw.nobody.jp/icon3.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss3a.png",
+          "local": "/screenshots/2022-gw/03-source-1.png",
+          "sha256": "6e489ee60e03587452d27687e979b965d2111eab97d74e02f9503d7587b122e1"
+        },
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss3b.png",
+          "local": "/screenshots/2022-gw/03-source-2.png",
+          "sha256": "97512b7f011cff1b55007b92458cee123a7eb7890322ff0fd3d1f9cc64f293a5"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=10duy9vbD81YqCQYEyoEyj6ZA9NWnDXLa",
+          "label": "96MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-gw-work-4",
+      "no": "4",
+      "detailUrl": "http://viprpg2022gw.nobody.jp/entry4.html",
+      "sourceMetadata": {
+        "作者名": "クアアタ",
+        "ジャンル": "紙芝居風見るゲ",
+        "ツール": "2003ｓ",
+        "配信/投稿": "配信：可、投稿：可",
+        "作者コメント": "ツクール作品のウィンドウ表示を弄れることを知ったので\nちょっと大き目な画像をウィンドウ表示できるかのテストを兼ねて",
+        "管理人コメント": "これは是非とも大画面でPIAIしたいですね"
+      },
+      "catalogueMetadata": {
+        "author": "クアアタ",
+        "category": "紙芝居風見るゲ",
+        "engine": "2003ｓ",
+        "streaming": "配信：可、投稿：可"
+      },
+      "metadataDifferences": [],
+      "combinedCommentPreserved": false,
+      "iconSourceUrl": "http://viprpg2022gw.nobody.jp/icon4.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss4a.png",
+          "local": "/screenshots/2022-gw/04-source-1.png",
+          "sha256": "297d9cdb58e74a9f23be1bc210f4e23d928ee27bd0799bff0da268e214ade796"
+        },
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss4b.png",
+          "local": "/screenshots/2022-gw/04-source-2.png",
+          "sha256": "d322fbaf970518e28fdb498397b353dbc483921dba9252014278ad0bebe3dc63"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1oHEO3n7jyqJnBZ3bbqPCfd-60X8rf7-Q",
+          "label": "69.1MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-gw-work-5",
+      "no": "5",
+      "detailUrl": "http://viprpg2022gw.nobody.jp/entry5.html",
+      "sourceMetadata": {
+        "作者名": "ナラネーヨ",
+        "ジャンル": "やるゲ",
+        "ツール": "2000",
+        "配信/投稿": "両方おｋｋのｋ",
+        "作者コメント": "おまけ付きの自作戦闘ゲです\n本編だけならたぶん10分くらいで終わります\n息抜きとかにどうぞ\n\n追記：試験的にwav入れたりとか\nおまけのあれこれとかで容量膨れ上がっちゃった\nごめんね。",
+        "管理人コメント": "ざぁこ💓　マップツリーデータが壊れています💓"
+      },
+      "catalogueMetadata": {
+        "author": "ナラネーヨ",
+        "category": "やるゲ",
+        "engine": "2000",
+        "streaming": "両方おｋｋのｋ"
+      },
+      "metadataDifferences": [],
+      "combinedCommentPreserved": false,
+      "iconSourceUrl": "http://viprpg2022gw.nobody.jp/icon5.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss5a.png",
+          "local": "/screenshots/2022-gw/05-source-1.png",
+          "sha256": "e3127b5009b5ccf2c50569de78292c8826e39d50edd1fe5087fae6d42982acf6"
+        },
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss5b.png",
+          "local": "/screenshots/2022-gw/05-source-2.png",
+          "sha256": "b891ef560b2d828ec22228796ff49fe7506766d3c0a52c50bedd389026ec410e"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1C0ZxeQkxQ_WIDNj2JQRFuuh5JLA3iwCf",
+          "label": "62.8MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-gw-work-6",
+      "no": "6",
+      "detailUrl": "http://viprpg2022gw.nobody.jp/entry6.html",
+      "sourceMetadata": {
+        "作者名": "kt住江",
+        "ジャンル": "もしも式ぶっとばしorくにおくん風orワギャン風ミニゲーム",
+        "ツール": "ＲＰＧツクール２０００",
+        "配信/投稿": "可：可",
+        "作者コメント": "初めまして。お祭り初参加。ＶＩＰＲＰＧ歴１年の新参者、kt住江と申します。\n僭越ながら宜しくお願いします。\n\nあらすじ：ある日、アナタが目覚めると、そこは見たコトもない広大な平原。\n　　　　　女神ＷＯＲＬＤによって呼び出されたアナタは、\n　　　　　呪術師協会によって滅茶苦茶にされた、\n　　　　　このもしもの世界を救う救世主に選ばれました。\n　　　　　僅かに残ったもしもの力を得たアナタは、意気揚々と平原を駆け抜けます。\n　　　　　果たして、もしもの世界を救うコトができるのか？\n　　　　　それはアナタにかかっています・・・",
+        "管理人コメント": "新人さんいらっしゃい！これからもVIPRPGをよろしくお願いします"
+      },
+      "catalogueMetadata": {
+        "author": "kt住江",
+        "category": "もしも式ぶっとばしorくにおくん風orワギャン風ミニゲーム",
+        "engine": "ＲＰＧツクール２０００",
+        "streaming": "可：可"
+      },
+      "metadataDifferences": [],
+      "combinedCommentPreserved": false,
+      "iconSourceUrl": "http://viprpg2022gw.nobody.jp/icon6.gif",
+      "screenshotSources": [
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss6.png",
+          "local": "/screenshots/2022-gw/06-source-1.png",
+          "sha256": "3d9ad036c0284f4a7fa845a5476f6e0a69b55c7f28c98c44631adf213eab9260"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=18Xi87yBb_a06CK81Ne7x8hQYJ-eyMYHY",
+          "label": "1.05MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-gw-work-7",
+      "no": "7",
+      "detailUrl": "http://viprpg2022gw.nobody.jp/entry7.html",
+      "sourceMetadata": {
+        "作者名": "あじたま",
+        "ジャンル": "雰囲気重視ゲー",
+        "ツール": "RPGツクール2000",
+        "配信/投稿": "可・可",
+        "作者コメント": "ありふれた春の空\n４人は意味もなくムシャの家へと集まる。一人は多くの友を携えて。\n当のムシャは何かを買いに出かけたようだが……。\nこれはムシャ達の、決してハレではない日常の物語である。\n\nただ歩いて会話するだけの雰囲気重視ゲームです。\nたまにミニゲームもあります。\n\nプレイ時間：45分程度",
+        "管理人コメント": "ムシャとブロウ、禁断の関係…？（どきどき）"
+      },
+      "catalogueMetadata": {
+        "author": "あじたま",
+        "category": "雰囲気重視ゲー",
+        "engine": "RPGツクール2000",
+        "streaming": "可・可"
+      },
+      "metadataDifferences": [],
+      "combinedCommentPreserved": false,
+      "iconSourceUrl": "http://viprpg2022gw.nobody.jp/icon7.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss7a.png",
+          "local": "/screenshots/2022-gw/07-source-1.png",
+          "sha256": "d1e9231d6bba5636cd7239809fc7345f741e9d3b2dd3c4008f93532f08691db7"
+        },
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss7b.png",
+          "local": "/screenshots/2022-gw/07-source-2.png",
+          "sha256": "7cd59dcc274bb4a7950313509409bcbe2c4de507880b459e0b39bed6ee0677ee"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1CrsyV0bwrabrw4Nvknbq-CJ9cYf36piA",
+          "label": "30.6MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-gw-work-8",
+      "no": "8",
+      "detailUrl": "http://viprpg2022gw.nobody.jp/entry8.html",
+      "sourceMetadata": {
+        "作者名": "イロイロ",
+        "ジャンル": "見るゲ",
+        "ツール": "2000",
+        "配信/投稿": "○",
+        "作者コメント": "もし何でも叶うなら何叶えたい？",
+        "管理人コメント": "現実世界でもたまにそういう本を見かけます"
+      },
+      "catalogueMetadata": {
+        "author": "イロイロ",
+        "category": "見るゲ",
+        "engine": "2000",
+        "streaming": "○"
+      },
+      "metadataDifferences": [],
+      "combinedCommentPreserved": false,
+      "iconSourceUrl": "http://viprpg2022gw.nobody.jp/icon8.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss8.png",
+          "local": "/screenshots/2022-gw/08-source-1.png",
+          "sha256": "d642bb02374a026e5f50d43bb173555e46c2ee4b014be758e2bebf9b8109a655"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1_Q7X4vJrsfewimwRharxhDo6GJdDfOfQ",
+          "label": "1.26MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-gw-work-9",
+      "no": "9",
+      "detailUrl": "http://viprpg2022gw.nobody.jp/entry9.html",
+      "sourceMetadata": {
+        "作者名": "五つ葉",
+        "ジャンル": "見るゲ",
+        "ツール": "Steam2003",
+        "配信/投稿": "可・可",
+        "作者コメント": "ウィンディ10周年おめでとう！",
+        "管理人コメント": "はぅ～お持ち帰りぃ～"
+      },
+      "catalogueMetadata": {
+        "author": "五つ葉",
+        "category": "見るゲ",
+        "engine": "Steam2003",
+        "streaming": "可・可"
+      },
+      "metadataDifferences": [],
+      "combinedCommentPreserved": false,
+      "iconSourceUrl": "http://viprpg2022gw.nobody.jp/icon9.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss9a.png",
+          "local": "/screenshots/2022-gw/09-source-1.png",
+          "sha256": "5b9b9111ac9062287c15a5d78348c4c94da9f0f0067aed18d83bc432c814e386"
+        },
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss9b.png",
+          "local": "/screenshots/2022-gw/09-source-2.png",
+          "sha256": "8d8177af0162e4127c650955a6c5a005189a109d104b8b0495057785502d2ef1"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1ZsRMXO4xZmgfUQC6Nw32epSZ-8PP6K-h",
+          "label": "38.6MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-gw-work-10",
+      "no": "10",
+      "detailUrl": "http://viprpg2022gw.nobody.jp/entry10.html",
+      "sourceMetadata": {
+        "作者名": "まだ助かる(中略)マダガスカル！",
+        "ジャンル": "SRPG",
+        "ツール": "2000",
+        "配信/投稿": "-",
+        "作者コメント": "祭り初参加です。\nSRPGが作りたくなったので某スパロボを元ネタに作成しています。戦闘デモはありません。\n携帯機シリーズ+αを参考にしているので難易度はヌルゲーです。\nシナリオがエターなったので予定よりステージ数は大幅に削減されています／(^o^)＼",
+        "管理人コメント": "キャラが多い！UIがカッコ良い！これはガチの予感！"
+      },
+      "catalogueMetadata": {
+        "author": "まだ助かる(中略)マダガスカル！",
+        "category": "SRPG",
+        "engine": "2000",
+        "streaming": "-"
+      },
+      "metadataDifferences": [],
+      "combinedCommentPreserved": false,
+      "iconSourceUrl": "http://viprpg2022gw.nobody.jp/icon0.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss10a.png",
+          "local": "/screenshots/2022-gw/10-source-1.png",
+          "sha256": "8523d4b506927a70af3097f852a0778e77446b5cec2d041822c93aabb9d07bd0"
+        },
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss10b.png",
+          "local": "/screenshots/2022-gw/10-source-2.png",
+          "sha256": "ceb01ed9b03bfee2664e63b1ff140f7229b54e93026cb2704aa642fd54b37c3f"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1BcPuZ6hQGxbMbCHHecaaA_mtoNgr9UHr",
+          "label": "16.8MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-gw-work-11",
+      "no": "11",
+      "detailUrl": "http://viprpg2022gw.nobody.jp/entry11.html",
+      "sourceMetadata": {
+        "作者名": "ゲ製の民がVIPRPG作って祭りに突撃する企画",
+        "ジャンル": "日常系ファンタジー/見るゲ",
+        "ツール": "VXACE",
+        "配信/投稿": "よろこんで！",
+        "作者コメント": "ようやく九章を公開する事が出来ました。\n完成まで、まだまだ時間がかかりそうです、本当に申し訳ございません。",
+        "管理人コメント": "フレイムさんがハッピーに暮らせるエンドが来るまで待ってます"
+      },
+      "catalogueMetadata": {
+        "author": "ゲ製の民がVIPRPG作って祭りに突撃する企画",
+        "category": "日常系ファンタジー/見るゲ",
+        "engine": "VXACE",
+        "streaming": "よろこんで！"
+      },
+      "metadataDifferences": [],
+      "combinedCommentPreserved": false,
+      "iconSourceUrl": "http://viprpg2022gw.nobody.jp/icon11.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss11a.png",
+          "local": "/screenshots/2022-gw/11-source-1.png",
+          "sha256": "170095481da4d7b5ebd7fb257530f78f6f51a3841e7ccabedf9e60e39299c63c"
+        },
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss11b.png",
+          "local": "/screenshots/2022-gw/11-source-2.png",
+          "sha256": "db69e3582ca5d0e915af8ddf41e65ac39f9533df2cfe37c90b5bf420adc8c4bf"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1aQEtT2za2YFj-4kT7_CTeIlaLg6Sjypj",
+          "label": "450.7MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-gw-work-12",
+      "no": "12",
+      "detailUrl": "http://viprpg2022gw.nobody.jp/entry12.html",
+      "sourceMetadata": {
+        "作者名": "徳明",
+        "ジャンル": "掌編読むゲ",
+        "ツール": "Steam版2003",
+        "配信/投稿": "いいよ！",
+        "作者コメント": "※この読むゲには暴力シーン・グロテスクな表現が含まれています\n\n148 自分：以下、5ちゃんねるからVIPがお送りします (ﾜｯﾁｮｲ cb18-EhK1)[] 投稿日：2022/04/13(水) 20:08:51.254 ID:SQf7q7yK0 [1/3]\n今からGW用に短い読むゲｔｋるからテーマ↓↓\n\n150 名前：以下、5ちゃんねるからVIPがお送りします (ﾜｯﾁｮｲW 5287-efiV)[] 投稿日：2022/04/13(水) 20:15:32.937 ID:zVKWPS9d0 [2/2]\n常在戦場",
+        "管理人コメント": "管理人は常在tktk（と言えるツクラーになりたい）です"
+      },
+      "catalogueMetadata": {
+        "author": "徳明",
+        "category": "掌編読むゲ",
+        "engine": "Steam版2003",
+        "streaming": "いいよ！"
+      },
+      "metadataDifferences": [],
+      "combinedCommentPreserved": false,
+      "iconSourceUrl": "http://viprpg2022gw.nobody.jp/icon12.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss12.png",
+          "local": "/screenshots/2022-gw/12-source-1.png",
+          "sha256": "e1e799c53c847c625caa7583a54837069d2300a9500c8a6561b3c7cb0c0b7fc8"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1WUyPdiqNBvZd2Rwl7hSijah6hh7T8tqE",
+          "label": "15.6MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-gw-work-13",
+      "no": "13",
+      "detailUrl": "http://viprpg2022gw.nobody.jp/entry13.html",
+      "sourceMetadata": {
+        "作者名": "ぬ",
+        "ジャンル": "ゴミ",
+        "ツール": "2000",
+        "配信/投稿": "事前に許可を得て下さい。",
+        "作者コメント": "海に行けばよかった。",
+        "管理人コメント": "恐怖の館より淫乱の館に行きたいです"
+      },
+      "catalogueMetadata": {
+        "author": "ぬ",
+        "category": "ゴミ",
+        "engine": "2000",
+        "streaming": "事前に許可を得て下さい。"
+      },
+      "metadataDifferences": [],
+      "combinedCommentPreserved": false,
+      "iconSourceUrl": "http://viprpg2022gw.nobody.jp/icon0.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss13.png",
+          "local": "/screenshots/2022-gw/13-source-1.png",
+          "sha256": "f3e175dcefab719357afeeeb03cba38f85445cf2613db27afe9521a3e540f808"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1Ui2etcNXj9Hwb4Xxx8FcefPDduV9Zfss",
+          "label": "7.2MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-gw-work-14",
+      "no": "14",
+      "detailUrl": "http://viprpg2022gw.nobody.jp/entry14.html",
+      "sourceMetadata": {
+        "作者名": "畳の上の水蓮",
+        "ジャンル": "恋愛シミュレーション",
+        "ツール": "2000",
+        "配信/投稿": "別にいいよ",
+        "作者コメント": "30分で作りました",
+        "管理人コメント": "30分？あっ・・・（察し）"
+      },
+      "catalogueMetadata": {
+        "author": "畳の上の水蓮",
+        "category": "恋愛シミュレーション",
+        "engine": "2000",
+        "streaming": "別にいいよ"
+      },
+      "metadataDifferences": [],
+      "combinedCommentPreserved": false,
+      "iconSourceUrl": "http://viprpg2022gw.nobody.jp/icon14.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss14.png",
+          "local": "/screenshots/2022-gw/14-source-1.png",
+          "sha256": "023aa16fa880076499faac4fabbaa4aa9ace3f762e689798f2b32d9dbaecf7f2"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1BWXeQkGT20bYpY8HlZHwZgvnDJsUN1RP",
+          "label": "3.7MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-gw-work-15",
+      "no": "15",
+      "detailUrl": "http://viprpg2022gw.nobody.jp/entry15.html",
+      "sourceMetadata": {
+        "作者名": "エル",
+        "ジャンル": "趣味とネタが入り混じったガチャゲ",
+        "ツール": "2022-22＝2000！",
+        "配信/投稿": "ガチャ配信、ぜひあなたも",
+        "作者コメント": "脳死握り飯ツクールから早２年ちょい‥‥時間たつのはやくね？　怖くね？\nあのツクールシリーズが脳死をやめて帰ってきた！！\n\nやめたら作品の主題が変わっちゃうじゃんと思わなくもないのですが、\nそれはそれとして原神やってたらガチャゲ作りたくなったので作ってきました。\nこうしてあの時の金の使い道を作ればよかったんやなと、今更ながらに気付く訳ですが、\nこれもこれで微妙にずれてるんだよなぁと、１歩歩いては0.7歩下がるツクール人生。\nとりあえずあれだ、うん。ガチャ回そうぜ！\n\n\n製品概要：\n　　内容 ――稼いだ金をガチャに貢ぐ人種（オオカミ）の末路を体験してほしいけど多分できない系\n　　分類 ―― 諸行無常なる人生ゲーム系アドベンチャー\n　　進行 ―― 完成\n　　時間 ―― 無制限\n　　保存 ―― 可\n　　戦闘 ―― 無\n　　分岐 ―― 無　　　　　　　　　　　　 ∧∧∧∧∧∧∧∧∧∧　\n　　仕組 ――　 ↶　仕事で金を稼ぐ　　　＜　　　　　　　　　　＞\n　　　　　　　↙　　↖　　　　　　　　 ＜ エンドレスワルツ！ ＞\n　　　　　　 ↪　➙　⤴ 寝る　　　　　　 ＜　　　　　　　　　　＞\n　　　　ガチャる　　　　　　　　　　　　 ∨∨∨∨∨∨∨∨∨∨",
+        "管理人コメント": "えっ今日は１００連ガチャ引いてもいいのか！？"
+      },
+      "catalogueMetadata": {
+        "author": "エル",
+        "category": "趣味とネタが入り混じったガチャゲ",
+        "engine": "2022-22＝2000！",
+        "streaming": "ガチャ配信、ぜひあなたも"
+      },
+      "metadataDifferences": [],
+      "combinedCommentPreserved": false,
+      "iconSourceUrl": "http://viprpg2022gw.nobody.jp/icon15.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss15.jpg",
+          "local": "/screenshots/2022-gw/15-source-1.jpg",
+          "sha256": "32b7ff875bd2c84aeff621cc0365bec1f9c5c61219b67d3d09b16438a8678bd1"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1ODc2A-J_uLNnqFERIRaHpwXTrxiFZC36",
+          "label": "40.4MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-gw-work-16",
+      "no": "16",
+      "detailUrl": "http://viprpg2022gw.nobody.jp/entry16.html",
+      "sourceMetadata": {
+        "作者名": "シンギュラリティ陽一郎",
+        "ジャンル": "AI",
+        "ツール": "2000",
+        "配信/投稿": "可・可",
+        "作者コメント": "あらすじオンリーです。",
+        "管理人コメント": "AI「本編エターなったｗｗｗｗｗ」"
+      },
+      "catalogueMetadata": {
+        "author": "シンギュラリティ陽一郎",
+        "category": "AI",
+        "engine": "2000",
+        "streaming": "可・可"
+      },
+      "metadataDifferences": [],
+      "combinedCommentPreserved": false,
+      "iconSourceUrl": "http://viprpg2022gw.nobody.jp/icon16.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss16.png",
+          "local": "/screenshots/2022-gw/16-source-1.png",
+          "sha256": "c2b6ebc49d9aba471294139f69040e984098e36e407cb6c49cb46682d3cb179f"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1JQG4Jqr61fruxlurKdsMFeBDXD9z0PlB",
+          "label": "9.5MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-gw-work-17",
+      "no": "17",
+      "detailUrl": "http://viprpg2022gw.nobody.jp/entry17.html",
+      "sourceMetadata": {
+        "作者名": "かすていら",
+        "ジャンル": "ksg",
+        "ツール": "Steam2003",
+        "配信/投稿": "いいよ",
+        "作者コメント": "これタイトルどこまで長くしていいんですかね",
+        "管理人コメント": "レイアウトが崩れない程度でお願いします"
+      },
+      "catalogueMetadata": {
+        "author": "かすていら",
+        "category": "ksg",
+        "engine": "Steam2003",
+        "streaming": "いいよ"
+      },
+      "metadataDifferences": [],
+      "combinedCommentPreserved": false,
+      "iconSourceUrl": "http://viprpg2022gw.nobody.jp/icon2003s.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss17.png",
+          "local": "/screenshots/2022-gw/17-source-1.png",
+          "sha256": "f09fb64b1f82e14afb78347520701aeaa9ea82def2fc739774a33f5c1375d00d"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1TIj17iv4PkYGcqjn_L8tbPZxMM2PTzIj",
+          "label": "9.1MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-gw-work-18",
+      "no": "18",
+      "detailUrl": "http://viprpg2022gw.nobody.jp/entry18.html",
+      "sourceMetadata": {
+        "作者名": "SprigatitoOTS (旧:OTSShimajiro)",
+        "ジャンル": "魔王把握アドベンチャー/ロールプレイングゲーム",
+        "ツール": "RPG Maker 2003 + Maniacs Patch",
+        "配信/投稿": "条件付可（詳細はReadme参照。）",
+        "作者コメント": "5月17日に誕生日にしてVIPRPGを初めて6年が経過する記念に制作。そして祭り初参加作品となります。\n\nポケットモンスターに登場するコリンクが主人公の魔王把握アドベンチャー。\n\n王様からかつて所属していた魔王軍へいつものおつかいを頼まれたが、\nその道中は最速1分でゲームオーバーになる世界であった！！\nしかも彼はもしものちからどころか通常攻撃も持っていないため、\n特殊技能のみを使って敵に立ち向かう・・・",
+        "管理人コメント": "2003デフォ戦だ！そういえばポケモンって通常攻撃無いですね"
+      },
+      "catalogueMetadata": {
+        "author": "SprigatitoOTS (旧:OTSShimajiro)",
+        "category": "魔王把握アドベンチャー/ロールプレイングゲーム",
+        "engine": "RPG Maker 2003 + Maniacs Patch",
+        "streaming": "条件付可（詳細はReadme参照。）"
+      },
+      "metadataDifferences": [],
+      "combinedCommentPreserved": false,
+      "iconSourceUrl": "http://viprpg2022gw.nobody.jp/icon18.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss18a.png",
+          "local": "/screenshots/2022-gw/18-source-1.png",
+          "sha256": "a7749efa2ba280dcf6a649e0331fc7e3bceae0f5a2b31de7e18cf891cec9cbed"
+        },
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss18b.png",
+          "local": "/screenshots/2022-gw/18-source-2.png",
+          "sha256": "9a68cc56d9019ef594ba96d6fe529a1f6c2197d506af5900be2ac1c0536c39fc"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1BBqW-VZjNzC2J1OdTx1eFBtMgS8tMgyW",
+          "label": "2.9MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-gw-work-19",
+      "no": "19",
+      "detailUrl": "http://viprpg2022gw.nobody.jp/entry19.html",
+      "sourceMetadata": {
+        "作者名": "れーえ",
+        "ジャンル": "見るゲ(10分)",
+        "ツール": "ツクール2000",
+        "配信/投稿": "どうぞ",
+        "作者コメント": "10分くらいで終わる見るゲです。\nスゴロクで遊ぶ3人のお話。",
+        "管理人コメント": "男（女）三人、すごろくゲーム。何も起きないはずがなく……。"
+      },
+      "catalogueMetadata": {
+        "author": "れーえ",
+        "category": "見るゲ(10分)",
+        "engine": "ツクール2000",
+        "streaming": "どうぞ"
+      },
+      "metadataDifferences": [],
+      "combinedCommentPreserved": false,
+      "iconSourceUrl": "http://viprpg2022gw.nobody.jp/icon19.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss19a.png",
+          "local": "/screenshots/2022-gw/19-source-1.png",
+          "sha256": "4a62f0b0b53af7912e7bd66cc5535b237709b39182e3607dc02df2c2a7903863"
+        },
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss19b.png",
+          "local": "/screenshots/2022-gw/19-source-2.png",
+          "sha256": "4e6ae5969641b526df011d7893744f3713a45fb75c3992c5840157365b1c04a4"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1i-4-4t9qKW9zOTPVtcPE_ePHHa15frXD",
+          "label": "6.4MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-gw-work-20",
+      "no": "20",
+      "detailUrl": "http://viprpg2022gw.nobody.jp/entry20.html",
+      "sourceMetadata": {
+        "作者名": "UNKO",
+        "ジャンル": "ksg",
+        "ツール": "2000",
+        "配信/投稿": "可",
+        "作者コメント": "5月5日は\n1年間で最もゴメスが出没する「ゴメスの日」です。\n貴方の知り合いや友人ももれなくゴメスです。\n普段はあどけない顔して世間話してるあの青年もゴメスです。\n貴方が片想いしているあのガチムチ兄貴もゴメスです。\n貴方にもし年頃の息子さんや兄・弟がいて、いま家にいないのでしたら間違いなくゴメスです。\n貴方と別れたあのガチホモも貴方が疑ってもいなかったゴメスです。\n貴方の将来の恋人やガンボリされる相手は、いま海賊姿の装束を身につけようとしています。\nすべてを諦めましょう。そして、ゴメスにさらわれましょう。",
+        "管理人コメント": "Let's All F*ck Gomes"
+      },
+      "catalogueMetadata": {
+        "author": "UNKO",
+        "category": "ksg",
+        "engine": "2000",
+        "streaming": "可"
+      },
+      "metadataDifferences": [],
+      "combinedCommentPreserved": false,
+      "iconSourceUrl": "http://viprpg2022gw.nobody.jp/icon0.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss20.jpg",
+          "local": "/screenshots/2022-gw/20-source-1.jpg",
+          "sha256": "b9cdf80a74c0fc192fa7ceb567c12c1f6bb87627012968746390b588a8894bfc"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-gw-work-21",
+      "no": "21",
+      "detailUrl": "http://viprpg2022gw.nobody.jp/entry21.html",
+      "sourceMetadata": {
+        "作者名": "kanetare",
+        "ジャンル": "性格診断風ADV",
+        "ツール": "2000",
+        "配信/投稿": "可",
+        "作者コメント": "某ドラ○エ３のオープニングで遊べる性格診断をモチーフに作った短編ADVです。\n一周目は普通の性格診断として遊べますが（たぶん）、\n試行錯誤して色々な性格パターンを見つけ、診断結果のコメントを見ることを目的とした\n収集ゲー的な要素を強くしています。（ストーリー要素・探索要素もちょっとあります）\n　※性格診断のコメントが辛辣だったり不適切だったりするかもしれません。苦手な方はご注意ください。",
+        "管理人コメント": "ド〇クエ３の性格診断はねっけつかんって出た覚えがあります"
+      },
+      "catalogueMetadata": {
+        "author": "kanetare",
+        "category": "性格診断風ADV",
+        "engine": "2000",
+        "streaming": "可"
+      },
+      "metadataDifferences": [],
+      "combinedCommentPreserved": false,
+      "iconSourceUrl": "http://viprpg2022gw.nobody.jp/icon21.jpg",
+      "screenshotSources": [
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss21.jpg",
+          "local": "/screenshots/2022-gw/21-source-1.jpg",
+          "sha256": "e5d1e3877eeb3f888654083da2c9e0635f82dc8ada407d1b74cda697045c7f60"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1hvBXpwsrTY60SzR79OWdaPPqSU4ZvXCV",
+          "label": "2.9MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-gw-work-22",
+      "no": "22",
+      "detailUrl": "http://viprpg2022gw.nobody.jp/entry22.html",
+      "sourceMetadata": {
+        "作者名": "雷塵",
+        "ジャンル": "おね×男の娘ノベルerg",
+        "ツール": "2000",
+        "配信/投稿": "R-18のためどちらも不可",
+        "作者コメント": "フォロワーさんの妄想ツイとまだまだ収まらない男の娘欲に触発された、\nさくっと見れる大人やみっちと男の娘ライチのおね×男の娘ノベルerg（19年夏に出した闇駆ける星の逆的な）\n\n言うまでもなく未成年はpiaiしちゃダメです。\nエロドットはないけど頂いた挿絵があるよ！",
+        "管理人コメント": "ありがたい…。"
+      },
+      "catalogueMetadata": {
+        "author": "雷塵",
+        "category": "おね×男の娘ノベルerg",
+        "engine": "2000",
+        "streaming": "R-18のためどちらも不可"
+      },
+      "metadataDifferences": [],
+      "combinedCommentPreserved": false,
+      "iconSourceUrl": "http://viprpg2022gw.nobody.jp/icon22.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss22a.png",
+          "local": "/screenshots/2022-gw/22-source-1.png",
+          "sha256": "02bf1b2b3e92e5c9d9f703d0bfd158fa3440ff0e5aed150e8d259c673cfafab3"
+        },
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss22b.png",
+          "local": "/screenshots/2022-gw/22-source-2.png",
+          "sha256": "fba5de4362aa844ae6bed3858cff4d798830ff5cc9bd311f89a61b8b61d0b2bc"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1dnYJu_IhM737JPXzhheuyoVn2uE7cvQb",
+          "label": "1.1MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-gw-work-23",
+      "no": "23",
+      "detailUrl": "http://viprpg2022gw.nobody.jp/entry23.html",
+      "sourceMetadata": {
+        "作者名": "みどりいぬ",
+        "ジャンル": "G&W系魔王把握",
+        "ツール": "RPGツクール2000",
+        "配信/投稿": "大丈夫ですが面白味どこ……？",
+        "作者コメント": "ゲームウオッチ ゲームウオッチ ゲームウオッチ ゲームウオッチ\nいつでもゲームウオッチ どこでもゲームウオッチ だれでもゲームウオッチ\nゲームウオ～～～～ッチ！\n\nジャッジ、ボール、バーミン、ファイア。\nマイクロコンピューターを使った、ゲームウオッチ。\nゲームをしない時は デジタル式クオーツ時計です。\nゲ～～ムウオ～～～～ッチ！\n\n\nQ.GWにG&Wの作品とかダジャレですか\nA.3割くらいはそうです。",
+        "管理人コメント": "お土産屋さんに売られている電子ゲームには今でも心をくすぐられます"
+      },
+      "catalogueMetadata": {
+        "author": "みどりいぬ",
+        "category": "G&W系魔王把握",
+        "engine": "RPGツクール2000",
+        "streaming": "大丈夫ですが面白味どこ……？"
+      },
+      "metadataDifferences": [],
+      "combinedCommentPreserved": false,
+      "iconSourceUrl": "http://viprpg2022gw.nobody.jp/icon23.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss23a.png",
+          "local": "/screenshots/2022-gw/23-source-1.png",
+          "sha256": "9a5747d610ab9dc174ab373089dcd242def4b162b37d43add76d208131fea7c1"
+        },
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss23b.png",
+          "local": "/screenshots/2022-gw/23-source-2.png",
+          "sha256": "10bbcca62208e5009a47b83399cbfc0142159c266b83f16c3826138f47c75462"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1H6NHxglDoT7eide1WH7YtCDC-a4J1Ibc",
+          "label": "15.8MB"
+        },
+        {
+          "url": "https://game.nicovideo.jp/atsumaru/games/gm25947/",
+          "label": "ブラウザ版"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-gw-work-24",
+      "no": "24",
+      "detailUrl": "http://viprpg2022gw.nobody.jp/entry24.html",
+      "sourceMetadata": {
+        "作者名": "書き込みエラーが解除されない人",
+        "ジャンル": "ksg",
+        "ツール": "RPGツクール2000",
+        "配信/投稿": "可",
+        "作者コメント": "いつまでたっても本スレの書き込みエラーが解除されないため、GW祭に投稿するという暴挙に出ました。\n星のカービィディスカバリーのネタバレ（？）を含むので、プレイ中の方は注意です。",
+        "管理人コメント": "ksgは祭りの華！エントリーありがとうございます。"
+      },
+      "catalogueMetadata": {
+        "author": "書き込みエラーが解除されない人",
+        "category": "ksg",
+        "engine": "RPGツクール2000",
+        "streaming": "可"
+      },
+      "metadataDifferences": [],
+      "combinedCommentPreserved": false,
+      "iconSourceUrl": "http://viprpg2022gw.nobody.jp/icon24.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss24a.png",
+          "local": "/screenshots/2022-gw/24-source-1.png",
+          "sha256": "c9a9fa9697e8249e02e1f324e7047d97703f0db91ff6533564bd13bfd3320dc6"
+        },
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss24b.png",
+          "local": "/screenshots/2022-gw/24-source-2.png",
+          "sha256": "dc5715972e83b769499fc43d9561902fd0f7bae8841d59b2c3c9f18016ab03be"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1h9OnnnpZXqaSQbhXqIejRO3hwICYOMck",
+          "label": "256kB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-gw-work-25",
+      "no": "25",
+      "detailUrl": "http://viprpg2022gw.nobody.jp/entry25.html",
+      "sourceMetadata": {
+        "作者名": "うどん屋さん",
+        "ジャンル": "R-18魔王把握",
+        "ツール": "RPGツクールMV",
+        "配信/投稿": "いいわよ！",
+        "作者コメント": "『エロゲーを魔王把握風に作ったら』 こんな感じ？\n久しぶりにＲＰＧツクールの世界を楽しみます！\n\n◆スクリーン　１２８０×７２０　(^o^)ほぼ画質劣化なし！スゴイ！\n◆歩行グラフィック独自規格　６０キャラ以上　(^o^)あてぃしがんばれ!\n◆アニメ付き立ち絵　５０キャラ以上　(^o^)巨乳多すぎィ！\n◆アニメ付きエロ　基本２８枚　差分８０枚以上　(^o^)経験がほぼ無い！\n※かなり下品系のエロが多いので苦手な方は飛ばしてね＞＜\n魔王把握なので早い人は２分で終わります。筋トレのついでにやってください。\n全イベント舐めたら１時間ぐらいはかかると思われる。",
+        "管理人コメント": "画質も枚数も肉感も、とにかくすごいボリュームだ…！"
+      },
+      "catalogueMetadata": {
+        "author": "うどん屋さん",
+        "category": "R-18魔王把握",
+        "engine": "RPGツクールMV",
+        "streaming": "いいわよ！"
+      },
+      "metadataDifferences": [],
+      "combinedCommentPreserved": false,
+      "iconSourceUrl": "http://viprpg2022gw.nobody.jp/icon25.gif",
+      "screenshotSources": [
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss25a.png",
+          "local": "/screenshots/2022-gw/25-source-1.png",
+          "sha256": "b2d74ea32455337e128d121ad721e16ce5efe1d00af936d32c430c9d29e5efe9"
+        },
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss25b.png",
+          "local": "/screenshots/2022-gw/25-source-2.png",
+          "sha256": "9e08213c8e4c63949fe95a8dd86d92b0a140aedf57f29c6cc23f1be3ef3fe0dc"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1I7p0X6PPzqZB5mNfNx2KTO-HfthGBK7A",
+          "label": "210.5MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-gw-work-26",
+      "no": "26",
+      "detailUrl": "http://viprpg2022gw.nobody.jp/entry26.html",
+      "sourceMetadata": {
+        "作者名": "三石",
+        "ジャンル": "短編集",
+        "ツール": "ツクール2000",
+        "配信/投稿": "可/可",
+        "作者コメント": "過去作の一部を幾つかと新しい短編を2つ収録したものです\n95デフォルトパーティーメンバー中心の物語\nでも自薦する短編は95じゃないメンツが主役",
+        "管理人コメント": "ツクールが好きなのでツクール勇者達の活躍は応援したくなります"
+      },
+      "catalogueMetadata": {
+        "author": "三石",
+        "category": "短編集",
+        "engine": "ツクール2000",
+        "streaming": "可/可"
+      },
+      "metadataDifferences": [],
+      "combinedCommentPreserved": false,
+      "iconSourceUrl": "http://viprpg2022gw.nobody.jp/icon26.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss26a.jpg",
+          "local": "/screenshots/2022-gw/26-source-1.jpg",
+          "sha256": "b7c6deb531b43aff378fd12fd6658cb2c8560ba47273e62ca3064ce5f87679f3"
+        },
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss26b.jpg",
+          "local": "/screenshots/2022-gw/26-source-2.jpg",
+          "sha256": "c6d4e741519a714348fcef45ccd77c13d7bb4f477197779f5cc049160d73cf85"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=14xqozdMLuMa0MWSwOQKchwcJG6yzN-3H",
+          "label": "3.3MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-gw-work-27",
+      "no": "27",
+      "detailUrl": "http://viprpg2022gw.nobody.jp/entry27.html",
+      "sourceMetadata": {
+        "作者名": "あちぃよ",
+        "ジャンル": "ドライビング避けゲー",
+        "ツール": "Steam2003",
+        "配信/投稿": "いいとも",
+        "作者コメント": "全１ステージを駆け抜けろ！\n３分で終わります。\n\nあと、祭り初参加です。\nよろしくお願いいたします。",
+        "管理人コメント": "親方！前から車が！"
+      },
+      "catalogueMetadata": {
+        "author": "あちぃよ",
+        "category": "ドライビング避けゲー",
+        "engine": "Steam2003",
+        "streaming": "いいとも"
+      },
+      "metadataDifferences": [],
+      "combinedCommentPreserved": false,
+      "iconSourceUrl": "http://viprpg2022gw.nobody.jp/icon27.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss27a.png",
+          "local": "/screenshots/2022-gw/27-source-1.png",
+          "sha256": "237fcca2a23ee2b8bbe33e3e11721f7607925ec71c93311309450e8478b484eb"
+        },
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss27b.png",
+          "local": "/screenshots/2022-gw/27-source-2.png",
+          "sha256": "6fdcdd6ff81819f50a79fe3060791f366dad3fcf5eee9860d937594274fed798"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1F2adwz4CcegSDjWqrw0gBo_O7x7Uhiwp",
+          "label": "1.3MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-gw-work-28",
+      "no": "28",
+      "detailUrl": "http://viprpg2022gw.nobody.jp/entry28.html",
+      "sourceMetadata": {
+        "作者名": "ワシミミズク",
+        "ジャンル": "素材集",
+        "ツール": "RPGツクール2000",
+        "配信/投稿": "可可",
+        "作者コメント": "(祭りには)初投稿です。ゲーム要素はありません。",
+        "管理人コメント": "マップ集はツクスレの大切な財産！いつもお世話になっています"
+      },
+      "catalogueMetadata": {
+        "author": "ワシミミズク",
+        "category": "素材集",
+        "engine": "RPGツクール2000",
+        "streaming": "可可"
+      },
+      "metadataDifferences": [],
+      "combinedCommentPreserved": false,
+      "iconSourceUrl": "http://viprpg2022gw.nobody.jp/icon28.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss28a.png",
+          "local": "/screenshots/2022-gw/28-source-1.png",
+          "sha256": "2660748f8f6d8112f9546859e6ba830c423843a0e7581015ddd9268b852343ce"
+        },
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss28b.png",
+          "local": "/screenshots/2022-gw/28-source-2.png",
+          "sha256": "21d3e65ae48e87206208fc3cbc1ed35c6f1c54f3b2551445fa7fac4dada1295b"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1L5VaGbOPtwDEG_Ievn1R8Ie1ZpfzeJ5x",
+          "label": "3.3MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-gw-work-29",
+      "no": "29",
+      "detailUrl": "http://viprpg2022gw.nobody.jp/entry29.html",
+      "sourceMetadata": {
+        "作者名": "わてりちゃん",
+        "ジャンル": "紙芝居ノベルゲー",
+        "ツール": "RPGツクール2000",
+        "配信/投稿": "両方ともOK",
+        "作者コメント": "アミメキリンは身体から強烈な３-メチルインドールの臭気を放っています。",
+        "管理人コメント": "つまり……クソ野郎って事ですね？！"
+      },
+      "catalogueMetadata": {
+        "author": "わてりちゃん",
+        "category": "紙芝居ノベルゲー",
+        "engine": "RPGツクール2000",
+        "streaming": "両方ともOK"
+      },
+      "metadataDifferences": [],
+      "combinedCommentPreserved": false,
+      "iconSourceUrl": "http://viprpg2022gw.nobody.jp/icon29.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss29a.png",
+          "local": "/screenshots/2022-gw/29-source-1.png",
+          "sha256": "df30188eae75013c0c7cbf8a6a42f477876b49de80eea3825a49c6650734b267"
+        },
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss29b.png",
+          "local": "/screenshots/2022-gw/29-source-2.png",
+          "sha256": "8773e01a8d85e80b1649d68ab9081b8d397af6ce5b8dbd6356cb002081bea8b1"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1jUVFjYztU0DXWlVkMWNcp4oPQaR86tKP",
+          "label": "18.9MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-gw-work-30",
+      "no": "30",
+      "detailUrl": "http://viprpg2022gw.nobody.jp/entry30.html",
+      "sourceMetadata": {
+        "作者名": "呂宋兄弟",
+        "ジャンル": "現状はtkった矛倉お披露目ゲー",
+        "ツール": "steam2K3",
+        "配信/投稿": "可/可 だけど現状配信するような内容が無いよう",
+        "作者コメント": "tkっていたゲームが明らかにクオリティ不足の為急遽こっちを制作しましたが、本編間に合いませんでしたので夏祭りで本編出します。",
+        "管理人コメント": "偽エロは後ろに乗っけて走りたいですね。"
+      },
+      "catalogueMetadata": {
+        "author": "呂宋兄弟",
+        "category": "現状はtkった矛倉お披露目ゲー",
+        "engine": "steam2K3",
+        "streaming": "可/可 だけど現状配信するような内容が無いよう"
+      },
+      "metadataDifferences": [],
+      "combinedCommentPreserved": false,
+      "iconSourceUrl": "http://viprpg2022gw.nobody.jp/icon30.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss30a.png",
+          "local": "/screenshots/2022-gw/30-source-1.png",
+          "sha256": "a395dc01ccf558197ed0550b520cb9b76cf7cd0d72958b9aa2d4a388d1fae2d6"
+        },
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss30b.png",
+          "local": "/screenshots/2022-gw/30-source-2.png",
+          "sha256": "0c13e822e0381e6cbd0ae3f46e61e77d76e970c604d1e69594e14f514b5ccdb6"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1ZraY80HXeHr6-AKKA-1-L6CwBEN0A4-G",
+          "label": "3.1MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-gw-work-31",
+      "no": "31",
+      "detailUrl": "http://viprpg2022gw.nobody.jp/entry31.html",
+      "sourceMetadata": {
+        "作者名": "（R）DU",
+        "ジャンル": "お祭り魔王把握（長め）",
+        "ツール": "２０００",
+        "配信/投稿": "-",
+        "作者コメント": "祝　ウィンディ生誕１０周年を記念した\n魔法具現化だらけの魔王把握です！",
+        "管理人コメント": "ツクラー達のウィンディ愛は10年経っても止まらない！"
+      },
+      "catalogueMetadata": {
+        "author": "（R）DU",
+        "category": "お祭り魔王把握（長め）",
+        "engine": "２０００",
+        "streaming": "-"
+      },
+      "metadataDifferences": [],
+      "combinedCommentPreserved": false,
+      "iconSourceUrl": "http://viprpg2022gw.nobody.jp/icon31.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss31a.png",
+          "local": "/screenshots/2022-gw/31-source-1.png",
+          "sha256": "7a817d3c31bb3a35b3dc88a8a04226e300e1f6ee722a2c15d24cb805644b5388"
+        },
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss31b.png",
+          "local": "/screenshots/2022-gw/31-source-2.png",
+          "sha256": "67b1cf6d7e6ec75858593581146f21bfea2afe2c9e1d56a055e83fa644491bca"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?id=1OzIbSgT-TWszxnnFxniwGhbzE_4PsJuV",
+          "label": "81.3MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-gw-work-32",
+      "no": "32",
+      "detailUrl": "http://viprpg2022gw.nobody.jp/entry32.html",
+      "sourceMetadata": {
+        "作者名": "名無しMZ",
+        "ジャンル": "〇ルダ最新作",
+        "ツール": "RPGツクールMZ",
+        "配信/投稿": "可・可",
+        "作者コメント": "〇ルダの伝説の新作が延期になったので、もう俺が作りました。\n実質〇ルダ最新作です。\n\n勇気・力・英知の『エターナルフォース』をめぐる勇者と姫と魔王の超王道RPG。\nMZのATBとギミック満載の謎解きで世界を救え！",
+        "管理人コメント": "純正統派超大作RPGの予感…！最新ツクールとは祭りも華やぎますね！"
+      },
+      "catalogueMetadata": {
+        "author": "名無しMZ",
+        "category": "〇ルダ最新作",
+        "engine": "RPGツクールMZ",
+        "streaming": "可・可"
+      },
+      "metadataDifferences": [],
+      "combinedCommentPreserved": false,
+      "iconSourceUrl": "http://viprpg2022gw.nobody.jp/icon32.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss32a.png",
+          "local": "/screenshots/2022-gw/32-source-1.png",
+          "sha256": "76cc83d23557aa82b5206ef207369b8c0c08ed9e89d3980f7c8c80ce4835af02"
+        },
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss32b.png",
+          "local": "/screenshots/2022-gw/32-source-2.png",
+          "sha256": "b2625bbe637513056e488eb7b30b355b209bbbef14630eabfc53a4a25aa7025e"
+        }
+      ],
+      "downloadLinks": [
+        {
+          "url": "https://game.nicovideo.jp/atsumaru/games/gm25841?key=408f09414cc7",
+          "label": "ブラウザ版"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2022-gw-work-33",
+      "no": "33",
+      "detailUrl": "http://viprpg2022gw.nobody.jp/entry33.html",
+      "sourceMetadata": {
+        "作者名": "鳳天舞の陣－１",
+        "ジャンル": "ｋｓｇ",
+        "ツール": "2000",
+        "配信/投稿": "可",
+        "作者コメント": "恍惚恍惚恍惚恍惚恍惚恍惚恍惚恍惚恍惚恍惚恍惚恍惚恍惚恍惚恍惚恍惚恍惚恍惚恍惚恍惚",
+        "管理人コメント": "縮小顔グラのアイコンで吹きました。RPGツクール恍惚誕生！"
+      },
+      "catalogueMetadata": {
+        "author": "鳳天舞の陣－１",
+        "category": "ｋｓｇ",
+        "engine": "2000",
+        "streaming": "可"
+      },
+      "metadataDifferences": [],
+      "combinedCommentPreserved": false,
+      "iconSourceUrl": "http://viprpg2022gw.nobody.jp/icon33.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "http://viprpg2022gw.nobody.jp/ss33.png",
+          "local": "/screenshots/2022-gw/33-source-1.png",
+          "sha256": "88c2c2ce9727e41edfa0a675bcf59d360763b4b56ff39ea9ea86fe66455a8806"
+        }
+      ],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    }
+  ],
+  "bannerSources": [
+    {
+      "sourceUrl": "http://viprpg2022gw.nobody.jp/gw2022a.png",
+      "local": "/banners/2022-gw-source-1.png",
+      "sha256": "d6a866fb449fdb37b32c7b92e810c50e2c0b745c676c53bfcd81fa1634742df3"
+    },
+    {
+      "sourceUrl": "http://viprpg2022gw.nobody.jp/gw2022b.png",
+      "local": "/banners/2022-gw-source-2.png",
+      "sha256": "161299088daa7c3346a699ae6a4b55237d29e3e2a6c1826e28f4c7f2e2bd697f"
+    }
+  ],
+  "formatChanges": [],
+  "handling": "Direct source archival without content, keyword or image-pixel screening. Preserve the source 0-33 catalogue and every displayed/hover screenshot URL without natural-size filtering. Keep No.0 combined author/organizer comment under its actual combined label. Catalogue/detail metadata differences and source DL/update status remain explicit. Download URLs are copied from source; no game packages downloaded.",
+  "desktopReview": {
+    "status": "passed",
+    "evidence": "catch/2022-gw/desktop-review.json"
+  }
+}

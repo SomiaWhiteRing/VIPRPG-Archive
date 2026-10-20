@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2022-gw",
+  "activeFestival": "2022-kouhaku",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -1593,6 +1593,34 @@
         "catch/2023-winter/desktop-review.json"
       ],
       "notes": "日本出口取得63份有效现行HTML、10份CSS及934份图片／字体资源；7、15、30的投稿及项目页由香港Wayback恢复，6份原始载荷摘要与CDX一致，项目ID全部对应。30号现行投稿URL虽最终200但跳回首页，未当作有效详情；另1张403旧缩略图由存档摘要核验找回。33项含0号样例，既有ID、编号和题名保持；旧禁用8、15、28、30恢复详情。原画廊95图，不再限制六张，18号30图、31号10图全部保留；旧画廊5个非当前画廊载荷均在正文／封面等其他来源资源中找到并保留。33处目录图标、3条横幅、29份作者留言与33份主办留言、33个配布页入口恢复，其中3项指向已核验历史项目页；不声称游戏文件仍可下载。4个项目页异名另存，标题依据官方目录；目录按五个列头分别提取作者及感想地址。原貌1014文件、69份HTML，2261本地引用无缺失或外部自动加载，935份二进制资源字节一致；80余格总览按40+40+2和末页0核验为82格，独立于95个画廊链接。投稿列表原HTML的空框由内嵌React数据中30个真实封面补齐，不执行平台脚本；补回22、27的列表短文。静态JS下载控件明确停用并指向整理版DL栏，10号外部视频空白改为来源提示且整理版保留链接，21号内容列与长按钮适配桌面。33整理详情与69原貌文档、全部目录图标／封面、折叠图片、字体及代表导航／查看器通过桌面验收；沙箱权限不变。无内容筛选、无新增受限，游戏包及视频未下载或执行。"
+    },
+    {
+      "festivalId": "2022-gw",
+      "reviewedAt": "2026-10-20",
+      "dataSha256": "f11f975f0554f586090e649965e87225a30dbc3203cef0a65cdc4b996a560f21",
+      "status": "reviewed",
+      "works": 34,
+      "screenshotFiles": 57,
+      "screenshotReferences": 57,
+      "iconFiles": 34,
+      "downloadEntries": 32,
+      "originalCatalogueCompleteness": "verified-current-official-0-through-33-catalogue-and-every-detail",
+      "outstandingSourceDetails": 0,
+      "outstandingImageSourceUrls": 0,
+      "outstandingScreenshotRows": 0,
+      "outstandingOtherResources": 0,
+      "packageBytesValidated": false,
+      "sourceEvidence": [
+        "catch/2022-gw/recovery.json",
+        "catch/2022-gw/source-comparison.json",
+        "catch/2022-gw/source/live/manifest.json",
+        "catch/2022-gw/source/resources/manifest.json",
+        "catch/2022-gw/investigation/replay-closure.json"
+      ],
+      "desktopEvidence": [
+        "catch/2022-gw/desktop-review.json"
+      ],
+      "notes": "日本源站35份HTML、107份图片及1份CSS均保存原始响应并核对SHA；无需跨地区存档回退。34项含0号样例，既有编号、ID及题名保持；目录与详情的作者、类型、工具及配信资料逐项一致。57张显示／悬停图完整保留、34图标及2条本祭横幅恢复；原页另列16条历届横幅单独保留。32项下载入口按原链接保存，20、33无下载，保留原DL/更新状态。0号作者与管理人合并留言保持组合标签，不虚拆为两人留言。原貌143文件、35份HTML、292本地引用无缺失或外部自动加载，去除托管广告、跟踪及停用提示脚本，保留本页图片悬停事件。34整理详情与35原貌页桌面通过，目录、翻页、返回及查看器已验证，0号截图鼠标进入／离开按原图切换。无内容筛选、无新增受限，游戏文件未下载或验证。"
     }
   ],
   "originalViewsReviewed": [
@@ -1955,6 +1983,13 @@
       "evidence": [
         "catch/2023-winter/original-view.json",
         "catch/2023-winter/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2022-gw",
+      "evidence": [
+        "catch/2022-gw/original-view.json",
+        "catch/2022-gw/desktop-review.json"
       ]
     }
   ],

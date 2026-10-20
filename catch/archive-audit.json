@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T05:53:09.063Z",
+  "generatedAt": "2026-10-20T06:16:59.105Z",
   "scope": "Local inventory; field presence is not source verification or completeness.",
   "totals": {
     "festivals": 74,
@@ -8,10 +8,10 @@
     "detailPages": 4075,
     "disabledDetails": 154,
     "restrictedDetails": 7,
-    "withComments": 3122,
+    "withComments": 3121,
     "withScreenshots": 3340,
-    "withDownload": 2278,
-    "withSource": 3104,
+    "withDownload": 2310,
+    "withSource": 3138,
     "referencedAssets": 7795,
     "assetIssues": 0
   },
@@ -209,7 +209,7 @@
     },
     {
       "id": "2022-gw",
-      "dataSha256": "fe57a3c5ea3503f8c57e4fa5bbd384fea788c3a72dcf878154347fec5a849dee",
+      "dataSha256": "f11f975f0554f586090e649965e87225a30dbc3203cef0a65cdc4b996a560f21",
       "listedSourceUrl": "http://viprpg2022gw.nobody.jp/",
       "works": 34,
       "banners": 2,
@@ -217,11 +217,11 @@
       "disabledDetails": 0,
       "restrictedDetails": 0,
       "withAuthor": 34,
-      "withComments": 34,
+      "withComments": 33,
       "withScreenshots": 34,
-      "withDownload": 0,
-      "withSource": 0,
-      "cachedHtmlFiles": 35,
+      "withDownload": 32,
+      "withSource": 34,
+      "cachedHtmlFiles": 70,
       "summaries": [
         "catch/2022-gw/2022-gw-scrape-summary.json"
       ]
