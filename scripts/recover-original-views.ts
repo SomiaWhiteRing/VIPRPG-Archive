@@ -7,6 +7,14 @@ import type { WorkEntry } from "../src/lib/types";
 import { rewriteSummer2012Source } from "./source-2012-summer-view";
 
 const configurations: Record<string, { base: string; entry?: string; manifests: string[]; seeds: Record<string, string>; seedUrls?: Record<string, string>; cgiProfile?: boolean; encoding?: string; encodingOverrides?: Record<string, string>; liveSource?: boolean; disabledLocalLinks?: string[]; externalResources?: Record<string, string>; preserveExternalExtensions?: string[]; frames?: { menuPage: string; menuName: string; mainName: string } }> = {
+  "2024-kouhaku": {
+    base: "https://vipkouhaku2024.x.2nt.com/",
+    manifests: ["source/live/manifest.json", "source/resources/replay-manifest.json"],
+    seeds: {},
+    encoding: "utf-8",
+    liveSource: true,
+    preserveExternalExtensions: [".zip", ".rar", ".7z", ".exe"],
+  },
   "2024-gw": {
     base: "https://viprpg24gw.x.2nt.com/",
     manifests: ["source/replay/manifest.json"],
@@ -348,7 +356,7 @@ async function main() {
   const omittedBackgrounds: Array<{ page: string; resource: string }> = [];
   const omittedHovers: Array<{ page: string; resource: string }> = [];
   const recovery = JSON.parse(await fs.readFile(`${root}/recovery.json`, "utf8"));
-  if (["2024-gw", "2025-gw", "2025-summer"].includes(id) || id === "2006-kouhaku" || id === "2012-toppuu-festival" || id === "2011-toppatsu-festival" || id === "2008-jisaku-battle-festival" || id === "2010-gw" || id === "2010-kouhaku" || id === "2010-summer") config.externalResources = recovery.originalResources;
+  if (["2024-kouhaku", "2024-gw", "2025-gw", "2025-summer"].includes(id) || id === "2006-kouhaku" || id === "2012-toppuu-festival" || id === "2011-toppatsu-festival" || id === "2008-jisaku-battle-festival" || id === "2010-gw" || id === "2010-kouhaku" || id === "2010-summer") config.externalResources = recovery.originalResources;
   const sourceDetailGapPaths = new Set<string>((recovery.sourceDetailGaps ?? []).map((gap: { sourcePath: string }) => gap.sourcePath));
   const unavailableSourcePagePaths = new Set<string>((recovery.unavailableSourcePages ?? []).map((gap: { sourcePath: string }) => gap.sourcePath));
   const previousMissing: Array<{ url: string; requestedUrl?: string; error: string }> = JSON.parse(await fs.readFile(`${root}/original-view.json`, "utf8").catch(() => "{}")).missingResources ?? [];
@@ -693,6 +701,20 @@ async function main() {
           compatibilityFixes.push({ page: local, change: "Preserve the captured ranking table and its ordering; unavailable server-side filter/sort controls are disabled." });
         }
         $("base").remove();
+        if (id === "2024-kouhaku") $('script[src]').filter((_, element) => new URL($(element).attr('src')!, original).href === `${base}entry/main.js`).each((_, element) => {
+          $(element).remove();
+          const url = `${base}entry/main.js`;
+          if (!failures.some(failure => failure.url === url)) failures.push({ url, error: "Source serves an HTML error page for this script; exact CDX has no captures. Raw response retained; unavailable script omitted from static replay." });
+          compatibilityFixes.push({ page: local, change: "Omit the source's unavailable main.js; retain source table layout, images and normal links." });
+        });
+        if (id === "2024-kouhaku") for (const gap of recovery.unavailableSourceImages ?? []) {
+          $('img[src]').filter((_, element) => new URL($(element).attr('src')!, original).href === gap.url).each((_, element) => {
+            const notice = $('<span data-archive-source-gap="image"></span>').text(`［原画像未取得：${gap.label}］`);
+            $(element).replaceWith(notice);
+            if (!failures.some(failure => failure.url === gap.url)) failures.push({ url: gap.url, error: gap.reason });
+            compatibilityFixes.push({ page: local, change: "Replace the unavailable historical-festival banner with an explicit text notice while retaining its original festival link." });
+          });
+        }
         if (id === "2012-kouhaku") $("noscript,#geniee_overray_base,#geniee_overray_tag,link[rel='alternate'],img[src*='geniee.jp']").remove();
         if ((id === "2008-gw" || id === "2008-chuuni-festival" || id === "2009-summer") && $('img[src*="media.fc2.com/counter_img.php"]').length) {
           compatibilityFixes.push({ page: local, change: "Remove the uncaptured external visitor counter to keep the replay offline and avoid a live third-party request." });

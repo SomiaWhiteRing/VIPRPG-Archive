@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T00:07:01.770Z",
+  "generatedAt": "2026-10-20T00:29:27.386Z",
   "scope": "Local inventory; field presence is not source verification or completeness.",
   "totals": {
     "festivals": 74,
@@ -10,9 +10,9 @@
     "restrictedDetails": 7,
     "withComments": 3093,
     "withScreenshots": 3311,
-    "withDownload": 2004,
-    "withSource": 2806,
-    "referencedAssets": 7707,
+    "withDownload": 2047,
+    "withSource": 2853,
+    "referencedAssets": 7706,
     "assetIssues": 0
   },
   "festivals": [
@@ -75,19 +75,19 @@
     },
     {
       "id": "2024-kouhaku",
-      "dataSha256": "3a9c1a4564f6f83dbd8418d3f1d997b12d8d4f99bacf6227bb8084abcd54e463",
+      "dataSha256": "bf6852bcdaef360ae732c9857824275613329cb9d8fee4fb285f73a6b4527679",
       "listedSourceUrl": "https://vipkouhaku2024.x.2nt.com/index.html",
       "works": 47,
-      "banners": 2,
+      "banners": 1,
       "detailPages": 47,
       "disabledDetails": 0,
       "restrictedDetails": 0,
       "withAuthor": 47,
       "withComments": 47,
       "withScreenshots": 47,
-      "withDownload": 0,
-      "withSource": 0,
-      "cachedHtmlFiles": 2,
+      "withDownload": 43,
+      "withSource": 47,
+      "cachedHtmlFiles": 57,
       "summaries": [
         "catch/2024-kouhaku/2024-kouhaku-scrape-summary.json"
       ]

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>VIPRPG紅白2024</title>
+</head>
+
+<body>
+  <header>
+    <h1><span color="#FF8888" style="color: #ff8888;"><a href="../">VIPRPG紅白2024</a></span></h1>
+      <nav class="nav">
+        <ul class="menu">
+
+         <li><a href="https://jbbs.shitaraba.net/game/61441/">掲示板</a></li>
+         <li><a href="../vote.html">投票</a></li> 
+        </ul>
+       </nav>
+  </header>
+  <main>
+<table border="1" class="nocss entrypage">
+    <tr>
+    <td colspan="2" align="center">
+      <img id="pic_ss" onclick="slideshow()" src="./ss/ss05.png" width="640" height="480">
+            <script>
+            var pics_src = new Array("./ss/ss05.png","./ss/ss05a.png");
+            var num = 0;
+
+            function slideshow(){
+                if (num == 1) {
+                    num = 0;
+                }
+                else {
+                    num ++;
+                }
+                document.getElementById("pic_ss").src=pics_src[num];
+            }
+            </script>
+      <p>クリックで画像が変わります(計2枚)</p>
+      </td></tr><tr>
+ 
+    <td align="center" width="60px"><img src="./icons/icon05.png"></td>
+    <td>魔王軍奮闘記 -もしも王国が謎の組織に乗っ取られたら-</td></tr><tr>
+    <td colspan="2"><a href="https://drive.google.com/file/d/11VNdk4exUAP3fkf_TmLNPcBlIv3EoNZS" target="_blank">ダウンロード(148.3MB)</a>／<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61441/1733795981/">感想スレッド</a></td></tr><tr>
+    <td colspan="2">ジャンル</td></tr><tr>
+    <td colspan="2">どこかであったようなほぼフリーシナリオRPG</td></tr><tr>
+    <td colspan="2">コメント</td></tr><tr>
+    <td colspan="2">去年α版にも満たない状態だったやつの完成版(予定)です。<br>
+                    メンバーは7+1人で3人パーティです。<br>
+                    最初から色々な所へ行けるいわばフリーシナリオ的なやつになりました。<br><br>
+                    内容一部抜粋<br>
+                    【○○○の力ロード】※○○○の中身はネタバレにつき伏せ字<br>
+                    各地のエリアマスター全員に勝利し○○○の力を獲得せよ！<br>
+                    【LEGENDルート】<br>
+                    ヌシモンスターを討伐し珍しい植物を採取せよ！<br>
+                    【RTP☆ストリート】<br>
+                    RTP団のボスを撃破し捕らわれた仲間を解放せよ！<br>
+                    【ハー妹ダンジョン】<br>
+                    レベルアップ＆稼ぎはここで！中には凶悪なモンスターも？<br><br>
+                    And more…？<br><br>
+                    隠し要素も色々あるよ！遅刻しないようがんばりマッスル！
+    </td></tr><tr>
+    <td colspan="2">主催コメント</td></tr><tr>
+    <td colspan="2">あえて私は「ナレーター＝実況＝今作の黒幕」説を唱えておきます。</td></tr><tr>
+</table>
+    
+
+</main>
+<!-- フッター --><footer>
+<p>&copy; 2024-2025 VIPRPG</p>
+</footer><!-- body直前でjQueryと自作のJSファイルの読み込み  -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<!-- 自作のJSファイル  -->
+<script src="main.js"></script>
+<script><!--
+var footerparam = 'charset=' + encodeURIComponent(document.charset ? document.charset : document.characterSet) + '&url=' + encodeURIComponent(document.location) + '&service=1&r=' + Math.floor(Math.random()*99999999999);
+var footertag = "//vip-chps-api.2nt.com/apis/footer/?" + footerparam;
+var script = document.createElement('script');
+script.src = footertag;
+script.charset = "UTF-8";
+script.async = true;
+document.getElementsByTagName('head')[0].appendChild(script);
+//--></script>
+<!-- 2nt, inc.-->
+<img src="//media.fc2.com/counter_img.php?id=50" style="display:none" alt="inserted by 2nt system" width="0" height="0">
+<!-- 2nt, inc.--></body>
+</html>

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<title>VIPRPG紅白2024 | 要項等</title>
+		<meta name="viewport" content="width=device-width">
+		<!-- >>> Style Sheets <<< -->
+		<link rel="stylesheet" href="./assets/css/destyle.css"><!-- CSSリセット: Destyle.css -->
+		<link rel="stylesheet" href="./assets/css/viprpg_kouhaku_2024.css">
+	</head>
+	<body id="info">
+		<!-- >>> Header >>> -->
+		<header class="area-header">
+			<div class="area-width">
+				<h1 class="site-title">
+					<a href="./">VIPRPG<span class="c-aka">紅</span><span class="c-shiro">白</span>2024</a>
+				</h1>
+				<nav class="global-nav">
+					<ul>
+						<li><a href="./info.html">要項等</a></li>
+						<li><a href="./vote.html">投票</a></li>
+						<li><a href="./vote_result.html">結果発表</a></li>
+						<li><a href="https://jbbs.shitaraba.net/game/61441/">掲示板</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<!-- <<< Header <<< -->
+		<!-- >>> Contents >>> -->
+		<main class="area-contents">
+			<div class="area-width">
+<!-- >>>  >>> -->
+<h2>要項等</h2>
+<aside>
+	<h3>索引</h3>
+	<ul>
+		<li><a href="#update">更新履歴</a></li>
+		<li><a href="#summary">概要</a></li>
+		<li><a href="#schedule">日程</a></li>
+		<li><a href="#terms">規約</a></li>
+		<li><a href="#prohibitions">禁止事項</a></li>
+		<li><a href="#guidelines">参加要項</a></li>
+		<li><a href="#viprpg">過去のVIPRPG紅白</a></li>
+	</ul>
+</aside>
+<article>
+	<section id="update">
+		<h3>更新履歴</h3>
+		<pre>
+2025/04/06 … 追加コメント反映
+　　　　　　　全ページ更新終了
+2025/03/14 … 追加コメント反映
+2025/02/27 … 結果発表ページ更新
+　　　　　　　3月31日まで追加用投票コメント募集
+2025/02/15 … 投票終了および修正パッチ受付終了・集計開始
+2025/02/14 … No.2,9,27 修正パッチ対応
+2025/02/12 … No.9,11,22 修正パッチ対応
+2025/02/09 … 一部投票の仕様変更に伴い、投票期間延長
+　　　　　　　No.5,9,27 修正パッチ対応
+2025/02/07 … No.43 本体更新・SS更新
+　　　　　　　No.11,45 修正パッチ対応
+2025/02/04 … No.45 修正パッチ対応
+2025/02/03 … エントリー受付および作品提出受付終了
+　　　　　　　投票開始
+　　　　　　　No.46,47 エントリー・提出
+　　　　　　　No.11,12,22 修正パッチ対応
+　　　　　　　No.23 提出
+2025/02/02 … No.44,45 エントリー・提出
+　　　　　　　No.34 提出・各種情報更新
+　　　　　　　No.41 提出
+　　　　　　　No.5,21 修正パッチ対応
+　　　　　　　No.22 本体更新・SS更新
+　　　　　　　No.4 各種情報更新
+2025/02/01 … No.43 エントリー・提出
+　　　　　　　No.11 修正パッチ対応
+2025/01/31 … No.12 提出
+　　　　　　　No.9,32,42 修正パッチ対応
+2025/01/27 … No.27 提出・各種情報更新
+　　　　　　　No.1,2,5,9,11,16,39 修正パッチ対応
+　　　　　　　容量超過に伴い本体用アップローダーを追加設置
+2025/01/24 … No.5,9 修正パッチ対応
+2025/01/21 … No.7,9,32 修正パッチ対応
+2025/01/20 … No.32,42 提出・各種情報更新
+　　　　　　　No.2,9,21 修正パッチ対応
+2025/01/16 … No.4 修正パッチ対応
+2025/01/15 … No.42 エントリー
+　　　　　　　No.2 提出・各種情報更新
+　　　　　　　No.9,11 修正パッチ対応
+2025/01/13 … No.30 提出・各種情報更新
+　　　　　　　No.9,21 修正パッチ対応
+2025/01/10 … No.6,9,11 修正パッチ対応
+2025/01/08 … No.21 修正パッチ対応
+2025/01/07 … No.40,41 エントリー
+　　　　　　　No.20,40 提出
+　　　　　　　No.9,13,21,39 修正パッチ対応
+2025/01/05 … N0.11,17,39 修正パッチ対応
+　　　　　　　No.27,30 作品紹介ページ修正
+2025/01/02 … No.39 提出
+　　　　　　　No.3,9,21 修正パッチ対応
+2025/01/01 … 謹賀新年
+　　　　　　　No.38,39 エントリー
+　　　　　　　No.28 提出
+　　　　　　　No.1,7,9,11 修正パッチ適応
+2024/12/31 … No.22 提出
+　　　　　　　No.4 提出・各種情報更新
+　　　　　　　No.5,9,19 修正パッチ対応
+　　　　　　　No.37 スクリーンショット更新
+2024/12/30 … サイトのデザイン改修
+　　　　　　　No.37 エントリー・提出
+　　　　　　　No.16,18,21 提出
+　　　　　　　No.5,17 修正パッチ対応
+2024/12/28 … 作品公開開始
+　　　　　　　エントリー受付期間の記載を追記
+　　　　　　　No.34～36 エントリー
+　　　　　　　No.1,5,7,9,17,19,24,35,36 提出
+　　　　　　　No.5 修正パッチ対応
+　　　　　　　No.31 提出・各種情報更新
+2024/12/27 … No.11,13 提出
+　　　　　　　No.15 plicy版リンク追加(12/28以降プレイ可能)
+　　　　　　　No.29 提出・作者コメント更新
+2024/12/26 … No.33 エントリー・提出
+　　　　　　　No.31 作品ページの記載内容修正
+2024/12/24 … No.31,32 エントリー
+　　　　　　　No.3,15 提出
+　　　　　　　No.30 作品ページの記載内容修正
+2024/12/22 … No.5 ジャンルに追記
+　　　　　　　No.26 修正対応
+　　　　　　　No.30 エントリー
+　　　　　　　投票に「エロス部門」追加
+2024/12/19 … No.29 エントリー
+2024/12/18 … No.10 提出・タイトルおよびSS更新
+2024/12/17 … No.28 エントリー
+　　　　　　　イベント名を「VIPRPG紅白2024」に変更
+　　　　　　　└それに伴って、すべてのページを更新
+2024/12/15 … No.27 エントリー
+　　　　　　　No.6,8 提出
+2024/12/14 … No.25,26 エントリー
+　　　　　　　No.26 提出
+2024/12/13 … No.21～24 エントリー
+　　　　　　　参加要項に一部追記
+2024/12/12 … No.19～20 エントリー
+2024/12/11 … No.06～18 エントリー
+2024/12/10 … No.01～05 エントリー
+2024/12/09 … サイト設立
+		</pre>
+	</section>
+	<section id="summary">
+		<h3>概要</h3>
+		<p>
+			「VIPRPG紅白」は、ニュー速VIP板内のRPGツクールスレッドで開催されている、<br>
+			ツクール作品を持ち寄り、感想を付け合う事を目的とした企画のうち、年末年始に開催されるものです。<br>
+			諸事情で企画立案時は「紅白VIPRPG合戦 in 2024」の名称でしたが、歴史の継承を鑑みた結果、<br>
+			「VIPRPG紅白2024」に変更いたしました。
+		</p>
+		<p>
+			バナーは下記のものをどうぞご利用ください。<br>
+			リンク先のURLは「<a href="https://vipkouhaku2024.x.2nt.com/">vipkouhaku2024.x.2nt.com</a>」です。
+		</p>
+		<ul>
+			<li><img src="./assets/images/banner_viprpg_kouhaku_2024.png" width="200" height="40" alt="VIPRPG紅白2024バナー"></li>
+			<li><img src="./assets/images/banner_viprpg_kouhaku_2024_old.png" width="200" height="40" alt="VIPRPG紅白2024バナー（旧ver）"></li>
+		</ul>
+	</section>
+	<section id="schedule">
+		<h3>日程</h3>
+		<ul>
+			<li>2024/12/10 00:00　エントリー受付開始</li>
+			<li>2024/12/14 00:00　作品提出および修正パッチ受付</li>
+			<li>2024/12/28 00:00　作品公開開始</li>
+			<li>2025/02/02 23:59　エントリー受付および作品提出受付終了</li>
+			<li>2025/02/03 00:00　投票開始</li>
+			<li><b class="c-kin">2025/02/14 23:59　投票終了および修正パッチ受付終了・集計開始</b> ※02/09より期限変更</li>
+			<li>2025/02/1X XX:XX　結果発表・更新終了</li>
+		</ul>
+	</section>
+	<section id="terms">
+		<h3>規約</h3>
+		<p>古今の情勢を鑑みて、VIPRPG夏の陣2024の例にならって規約を設けました。参加者一同は、下記について一度目を通すようお願い申し上げます。</p>
+		<ul>
+			<li>当イベントは、RPGツクールでゲームを制作する楽しさや創作する楽しさ、そしてそれらの作品を遊んで楽しいひとときを過ごす時間を皆で共有する目的で企画されたイベントです。</li>
+			<li>例年、様々なジャンルや内容の作品が投稿されています。好みの違い等はあると思われますが、自分一人の感性がすべてではなく、あらゆる考え方が存在するという理念の元、当イベントを運営してまいります。</li>
+			<li>当イベントの運営に関する情報は当サイトおよび当サイト付属掲示板にてのみ連絡いたします。</li>
+			<li>運営上必要であるケースを除き、参加者および書き込みをした方の個人情報（例：IPアドレス）は公開いたしません。また、やむを得ず情報を公開する場合は感想掲示板トップや運営スレッドでのみ報告を行います。それ以外の場所で報告されたケースにつきましては当イベント運営は一切関知しないものとします。</li>
+			<li>当イベントで公開された作品の著作権は、各作品の作者様に帰属いたします。</li>
+		</ul>
+	</section>
+	<section id="prohibitions">
+		<h3>禁止事項</h3>
+		<p>下記に関する内容は一切厳禁とします。守って頂けない場合は、しかるべき対応をいたしますので、予めご了承下さい。</p>
+		<ul>
+			<li>掲示板やアップローダーなどにおける荒らし行為</li>
+			<li>誹謗中傷等を目的とした内容の書き込みや作品の登録</li>
+			<li>虚偽の内容を含んだ参加申請</li>
+			<li>その他、当イベント運営の妨げになる行為</li>
+		</ul>
+	</section>
+	<section id="guidelines">
+		<h3>参加要項</h3>
+		<p>以下の条件を満たした作品のみエントリー・提出することができます</p>
+		<ul>
+			<li>RPGツクールで制作された作品であること</li>
+			<li>1名につき1エントリーまで</li>
+			<li>複数のゲームファイル同梱については自己責任でお願いします</li>
+			<li>ジャンルは不問です。VIPやもしも等を意識しなくてもOK</li>
+			<li>ergでエントリーする場合はR-18作品であることを必ず明記し、スクリーンショットやアイコンはモザイク修正などを行うこと</li>
+		</ul>
+		<p>以上の条件を満たしたうえで下記の内容をご記入の上、作品を添付し、<b class="c-kin">vipkouhaku2024@gmail.com</b>宛にメールをお願いします。</p>
+		<ul>
+			<li>作品名（任意）</li>
+			<li>作者名（任意）</li>
+			<li>ジャンル（任意）</li>
+			<li>使用ツール<b class="c-aka">（必須）</b></li>
+			<li>18禁要素の有無<b class="c-aka">（必須）</b></li>
+			<li>配信と動画投稿それぞれの可・不可（任意）</li>
+			<li>作品のコメント（任意）</li>
+			<li>アイコン（任意） … ※32x32などの正方形が望ましい</li>
+			<li>スクリーンショット（任意） … ※比率は 640x480 などの4:3が望ましい。最大4枚まで掲載可能。スクリーンショットは1枚につき1MB以内でお願いします。1MB以上だった場合はこちらでリサイズ加工などをして掲載いたします。</li>
+		</ul>
+		<p>作品の提出や修正パッチの更新依頼についても、作品やパッチのダウンロードリンクを記載して <b class="c-kin">vipkouhaku2024@gmail.com</b>宛にメールをお願いします。作品・パッチ提出の際は下記のアップローダーを使用する他にgigafile便やaxfcなどを使用してもOKです。</p>
+		<ul>
+			<li>下記のアップローダーを利用する場合でかつ、<b class="c-aka">作品公開日前の場合はパスワードを掛けてアップロード</b>し、ダウンロード用のパスワードとURLを記載した上で提出してください。</li>
+			<li>下記のアップローダーを利用する場合でかつ、作品公開日後の場合はパスワードは掛けなくても大丈夫です。</li>
+			<li>gigafile便やaxfcなどの外部アップローダーを使用する場合でかつ、<b class="c-aka">作品公開日前の場合は主催および製作者以外の方がダウンロードできないように設定</b>して提出してください。</li>
+			<li>gigafile便やaxfcなどの外部アップローダーを使用する場合でかつ、作品公開日後の場合は特に公開の設定はしなくても大丈夫です。</li>
+		</ul>
+		<p>付属アップローダーは下記の通りです。<br>いずれも100MB以下のデータのみアップロードが可能です。100MBを超えるデータについては上記の外部アップローダーの使用をお願いします。</p>
+		<ul>
+			<li>本体その１：<a href="https://ux.getuploader.com/vipkouhaku2024_standard/">https://ux.getuploader.com/vipkouhaku2024_standard/</a></li>
+            <li>本体その２：<a href="https://ux.getuploader.com/vipkouhaku2024_standard_2/">https://ux.getuploader.com/vipkouhaku2024_standard_2/</a></li>
+			<li>パッチ等：<a href="https://ux.getuploader.com/vipkouhaku2024_patch/">https://ux.getuploader.com/vipkouhaku2024_patch/</a></li>
+		</ul>
+	</section>
+	<section id="viprpg">
+		<h3>過去のVIPRPG紅白</h3>
+		<p>興味のある方は、過去に開催された紅白の作品を遊んでみるのも一興…かもしれません。<br>あるいは製作に詰まってしまった方であれば、過去の作品を遊んだり解析したりすることで、<br>何かを得たり道を切り開く術を発見できる…かもしれません。</p>
+		<ul class="past_viprpg_kouhaku">
+			<li><a href="http://vipkouhaku05.cs.land.to"><img src="./assets/images/banner_viprpg_kouhaku_2005.png" width="200" height="40" alt="VIPRPG紅白2005バナー"></a></li>
+			<li><a href="https://vipkohaku.x.fc2.com/2006/"><img src="./assets/images/banner_viprpg_kouhaku_2006.png" width="200" height="40" alt="VIPRPG紅白2006バナー"></a><small>代理保管庫内</small></li>
+			<li><a href="https://vipkohaku.x.fc2.com/2007/"><img src="./assets/images/banner_viprpg_kouhaku_2007.png" width="200" height="40" alt="VIPRPG紅白2007バナー"></a><small>代理保管庫内</small></li>
+			<li><a href="https://vipkohaku.x.fc2.com/2008/"><img src="./assets/images/banner_viprpg_kouhaku_2008.png" width="200" height="40" alt="VIPRPG紅白2008バナー"></a><small>代理保管庫内</small></li>
+			<li><a href="http://vipkouhaku09.web.fc2.com"><img src="./assets/images/banner_viprpg_kouhaku_2009.png" width="200" height="40" alt="VIPRPG紅白2009バナー"></a></li>
+			<li><a href="https://vipkohaku.x.fc2.com/2010/"><img src="./assets/images/banner_viprpg_kouhaku_2010.png" width="200" height="40" alt="VIPRPG紅白2010バナー"></a><small>代理保管庫内</small></li>
+			<li><a href="http://vipkohaku2011.web.fc2.com/"><img src="./assets/images/banner_viprpg_kouhaku_2011.png" width="200" height="40" alt="VIPRPG紅白2011バナー"></a></li>
+			<li><a href="https://vipkohaku.x.fc2.com/2012/"><img src="./assets/images/banner_viprpg_kouhaku_2012.png" width="200" height="40" alt="VIPRPG紅白2012バナー"></a><small>代理保管庫内</small></li>
+			<li><a href="http://vipkohaku2013.web.fc2.com"><img src="./assets/images/banner_viprpg_kouhaku_2013.png" width="200" height="40" alt="VIPRPG紅白2013バナー"></a></li>
+			<li><a href="https://vipkohaku.x.fc2.com/2014/"><img src="./assets/images/banner_viprpg_kouhaku_2014.png" width="200" height="40" alt="VIPRPG紅白2014バナー"></a><small>代理保管庫内</small></li>
+			<li><a href="https://vipkohaku.x.fc2.com/2015/"><img src="./assets/images/banner_viprpg_kouhaku_2015.png" width="200" height="40" alt="VIPRPG紅白2015バナー"></a></li>
+			<li><a href="https://viprpgkohaku2016.wixsite.com/kohaku2016/"><img src="./assets/images/banner_viprpg_kouhaku_2016.png" width="200" height="40" alt="VIPRPG紅白2016バナー"></a></li>
+			<li><a href="https://websupportviprpg.xxxxxxxx.jp/archive/kohaku2017/main/"><img src="./assets/images/banner_viprpg_kouhaku_2017.png" width="200" height="40" alt="VIPRPG紅白2017バナー"></a><small>VIPRPG Web Support内</small></li>
+			<li><a href="https://viprpgmsmkohaku2018.web.fc2.com/"><img src="./assets/images/banner_viprpg_kouhaku_2018.png" width="200" height="40" alt="VIPRPG紅白2018バナー"></a></li>
+			<li><a href="https://kohakuviprpg2019.x.2nt.com/"><img src="./assets/images/banner_viprpg_kouhaku_2019.png" width="200" height="40" alt="VIPRPG紅白2019バナー"></a></li>
+			<li><a href="https://viprpg2020kohaku.xxxxxxxx.jp/"><img src="./assets/images/banner_viprpg_kouhaku_2020.png" width="200" height="40" alt="VIPRPG紅白2020バナー"></a></li>
+			<li><a href="https://w.atwiki.jp/vipkohaku2021/"><img src="./assets/images/banner_viprpg_kouhaku_2021.png" width="200" height="40" alt="VIPRPG紅白2021バナー"></a></li>
+			<li><a href="https://viprpg2022kohaku.x.2nt.com/"><img src="./assets/images/banner_viprpg_kouhaku_2022.png" width="200" height="40" alt="VIPRPG紅白2022バナー"></a></li>
+			<li><img src="./assets/images/banner_viprpg_kouhaku_2023.png" width="200" height="40" alt="VIPRPG紅白2023バナー"><small>閉鎖</small></li>
+		</ul>
+		<ul>
+			<li><a href="https://vipkohaku.x.fc2.com">VIPRPG過去作品代理保管庫</a></li>
+			<li><a href="https://websupportviprpg.xxxxxxxx.jp">VIPRPG Web Support</a></li>
+		</ul>
+	</section>
+</article>
+<!-- <<<  <<< -->
+			</div>
+		</main>
+		<!-- <<< Contents <<< -->
+		<!-- >>> Footer >>> -->
+		<footer class="area-footer">
+			<p class="copyright area-width"><small>© 2024 VIPRPG紅白2024</small></p>
+		</footer>
+		<!-- <<< Footer <<< -->
+	<script><!--
+var footerparam = 'charset=' + encodeURIComponent(document.charset ? document.charset : document.characterSet) + '&url=' + encodeURIComponent(document.location) + '&service=1&r=' + Math.floor(Math.random()*99999999999);
+var footertag = "//vip-chps-api.2nt.com/apis/footer/?" + footerparam;
+var script = document.createElement('script');
+script.src = footertag;
+script.charset = "UTF-8";
+script.async = true;
+document.getElementsByTagName('head')[0].appendChild(script);
+//--></script>
+<!-- 2nt, inc.-->
+<img src="//media.fc2.com/counter_img.php?id=50" style="display:none" alt="inserted by 2nt system" width="0" height="0">
+<!-- 2nt, inc.--></body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>VIPRPG紅白2024</title>
+</head>
+
+<body>
+  <header>
+    <h1><span color="#FF8888" style="color: #ff8888;"><a href="../">VIPRPG紅白2024</a></span></h1>
+      <nav class="nav">
+        <ul class="menu">
+
+         <li><a href="https://jbbs.shitaraba.net/game/61441/">掲示板</a></li>
+         <li><a href="../vote.html">投票</a></li> 
+        </ul>
+       </nav>
+  </header>
+  <main>
+<table border="1" class="nocss entrypage">
+    <tr>
+    <td colspan="2" align="center">
+      <img src="./ss/ss45.png">
+      </td></tr><tr>
+    <td align="center" width="60px"><img src="./icons/icon45.png"></td>
+    <td>衛兵アレックス</td></tr><tr>
+    <td colspan="2"><a href="https://drive.google.com/uc?export=download&id=1v8QkNweA_2XGzJJuas_hQ33A3oMRcUPU">ダウンロード(6.5MB)</a>／<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61441/1738493778/">感想スレッド</a></td></tr><tr>
+    <td colspan="2">ジャンル</td></tr><tr>
+    <td colspan="2">探索型やるゲ（指で数えるほどしかありませんがデフォ戦あり）</td></tr><tr>
+    <td colspan="2">コメント</td></tr><tr>
+    <td colspan="2">初めての皆様は初めまして。<br>
+                    VIPRPG３年目のkt住江です。<br>
+                    このたびは『衛兵アレックス』をダウンロードしてくださり、ありがとうございます。<br>
+                    なんとか、ＶＩＰＲＰＧ紅白２０２４年の締め切り前に提出が間に合いました。<br>
+                    このゲームは、１９９０年１２月１５日よりパンプレストから販売された、<br>
+                    あの名作時代劇のファミコンゲーム、<br>
+                    『必殺仕事人』のオマージュ作品です。<br>
+                    小学生の頃、シナリオがお気に入りで思い出深いゲームだった事もあり、<br>
+                    このゲームを作る事を決めました。<br>
+                    しかし、完全再現ではなく、前回の『魔術師協会Ｓクラス』と同じく、<br>
+                    『必殺仕事人』のエンディングまでの主な道筋は大体同じですが、<br>
+                    それ以外のシナリオは、VIPRPGのキャラに合わせて、<br>
+                    大幅なアレンジが施されております。<br>
+                    完全再現を期待している方には申し訳ないです。<br>
+                    しかし、VIPRPGのキャラを通じて、<br>
+                    このゲームを楽しんでいただければ幸いです。<br>
+                    今後も様々な形で、VIPRPGに貢献していきたいと思っておりますので、<br>
+                    僭越ながら宜しくお願いします。<br>※修正３<br><br>
+                    ～　あらすじ　～<br>
+                    どこかにあると言われる、剣と魔法の世界、もしもワールド。オーザック王国。<br>
+                    ある日、首都オーザックの王城守護院に勤務する衛兵、アレックス・ベイカーが出勤しようとすると、<br>
+                    リリアの母親であるミシェルお義母さんが、<br>
+                    昨夜、ご先祖様が夢枕に立ったらしく『跡継ぎはまだか？　私はとても心配だ』と警告されたらしい。<br>
+                    ベイカー家の未来はアナタ達にかかっていると、ミシェルお義母さんから言われていると、<br>
+                    後輩のザックがかけつけてきた。<br>
+                    何でも、あの孤児で悪ガキで有名なスパイチが今朝、捕まったらしい。<br>
+                    アレックスは３日前、スパイチに馬の糞を顔面にぶつけられた事があり、<br>
+                    直ぐにアレックスはザックと共に、スパイチが捕らわれている衛兵詰所に向かう。<br>
+                    すると、そこには王城守護院のナンバーである、マシュー大隊長がいた。<br>
+                    マシュー大隊長はアレックスにスパイチの尋問を任せると言い、<br>
+                    アレックスも３日前の汚名を返上すべく、スパイチへの尋問に臨むのだった・・・
+    </td></tr><tr>
+    <td colspan="2">主催コメント</td></tr><tr>
+    <td colspan="2">リスペクトに雰囲気再現にUI構築に・・・オマージュの大変さといったらそれはもう</td></tr><tr>
+</table>
+    
+
+</main>
+<!-- フッター --><footer>
+<p>&copy; 2024-2025 VIPRPG</p>
+</footer><!-- body直前でjQueryと自作のJSファイルの読み込み  -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<!-- 自作のJSファイル  -->
+<script src="main.js"></script>
+<script><!--
+var footerparam = 'charset=' + encodeURIComponent(document.charset ? document.charset : document.characterSet) + '&url=' + encodeURIComponent(document.location) + '&service=1&r=' + Math.floor(Math.random()*99999999999);
+var footertag = "//vip-chps-api.2nt.com/apis/footer/?" + footerparam;
+var script = document.createElement('script');
+script.src = footertag;
+script.charset = "UTF-8";
+script.async = true;
+document.getElementsByTagName('head')[0].appendChild(script);
+//--></script>
+<!-- 2nt, inc.-->
+<img src="//media.fc2.com/counter_img.php?id=50" style="display:none" alt="inserted by 2nt system" width="0" height="0">
+<!-- 2nt, inc.--></body>
+</html>

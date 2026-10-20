@@ -1,0 +1,116 @@
+body {
+    padding-top: 80px;
+    background-color: #111111;
+}
+
+/******* ヘッダーのスタイル ********/
+header {
+    position: fixed;
+    width: 100%; 
+    height: 80px; 
+    background: #1A1A1A; 
+    padding: 20px 60px; 
+    box-sizing: border-box;
+    top: 0; 
+    left: 0; 
+    display: flex; 
+    align-items: center; 
+  
+   /* ロゴとメニューを横並びにする */
+    display: flex;
+    justify-content:space-between;
+}
+
+header .nav .menu {
+    display: flex; 
+}
+
+header .nav .menu li {
+    list-style: none; 
+    margin-left: 20px;
+}
+
+header .nav .menu li a{
+   color: #F0F0F0;
+   font-weight:bold;
+   text-decoration: none;
+}
+
+/******* ここからメインエリアのスタイル ********/
+main {
+    color: #BBBBBB;
+    text-align:left;
+    width:1000px;
+    margin:0 auto;
+    display: flex;
+}
+
+section {
+    padding-top: 80px;
+    margin-top: -80px;
+}
+
+top {
+    text-align:center;   
+}
+
+h2 {
+   color: #DDBB66;
+   text-decoration: none;
+   padding-top: 12px;
+}
+
+hr {
+    border-width:2px 0 0 0;
+    border-style:dotted;
+    border-color:#DDDDDD;
+}
+a,a:hover,a:visited{
+    color: inherit;
+}
+
+/****** 作品ページ用スタイル ******/
+.entrypage{
+    border-collapse: collapse;
+    margin:auto;
+}
+.entrypage td{
+    color: #FFFFFF;
+    background: #333333;
+    border: 2px solid;
+    border-color:#111111;
+    padding: 4px;
+}
+.entrypage td2{
+    color: #FFFFFF;
+    background: #333333;
+    border: 2px solid;
+    border-color:#111111;
+    padding: 4px;
+    width: 60px;
+}
+.entrypage tr:nth-of-type(2n) td{
+    color: #FFFFFF;
+    background: #666666;
+    font-size: large;
+    font-weight:bold;
+    text-decoration: none;
+
+}
+
+/******* ここからフッターのスタイル ********/
+footer {
+    background: #CCC; 
+    padding: 1em;
+    margin-top: 100px;
+}
+
+footer p {
+    font-size: .8em;
+    color: #fff;
+    max-width: 800px;
+    padding: 0;
+    text-align:center;
+    margin:0 auto;
+    font-weight:bold;
+}

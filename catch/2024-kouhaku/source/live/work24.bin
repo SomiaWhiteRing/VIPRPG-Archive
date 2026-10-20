@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>VIPRPG紅白2024</title>
+</head>
+
+<body>
+  <header>
+    <h1><span color="#FF8888" style="color: #ff8888;"><a href="../">VIPRPG紅白2024</a></span></h1>
+      <nav class="nav">
+        <ul class="menu">
+
+         <li><a href="https://jbbs.shitaraba.net/game/61441/">掲示板</a></li>
+         <li><a href="../vote.html">投票</a></li> 
+        </ul>
+       </nav>
+  </header>
+  <main>
+<table border="1" class="nocss entrypage">
+    <tr>
+    <td colspan="2" align="center">
+      <img id="pic_ss" onclick="slideshow()" src="./ss/ss24.png" width="640" height="480">
+            <script>
+            var pics_src = new Array("./ss/ss24.png","./ss/ss24a.jpg","./ss/ss24b.jpg","./ss/ss24c.jpg");
+            var num = 0;
+
+            function slideshow(){
+                if (num == 3) {
+                    num = 0;
+                }
+                else {
+                    num ++;
+                }
+                document.getElementById("pic_ss").src=pics_src[num];
+            }
+            </script>
+      <p>クリックで画像が変わります(計4枚)</p>
+      </td></tr><tr>
+ 
+    <td align="center" width="60px"><img src="./icons/icon_shiro.png"></td>
+    <td>オカリンクエスト　第2章中編</td></tr><tr>
+    <td colspan="2"><a href="https://drive.google.com/file/d/1ZKPFQW4muud8MqQ7AlWo5RgnUo30Y4vQ/" target="_blank">ダウンロード(218.6MB)</a>／<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61441/1734021865/">感想スレッド</a></td></tr><tr>
+    <td colspan="2">ジャンル</td></tr><tr>
+    <td colspan="2">パクリげー</td></tr><tr>
+    <td colspan="2">コメント</td></tr><tr>
+    <td colspan="2">フゥーハハハ！<br>
+これより、第1024回円卓会議を始める。<br><br>
+なに？円卓なんてどこにもないだとッ？<br>
+ふっ、実物はない。<br>
+だが、我らラボメンの心の中にはある。そうだろう？<br><br>
+さて、お前たちには我がラボが置かれている状況を伝えておく必要がある。<br>
+うぷ主の気が向くままに2022紅白からVIPRPGの実践投入が開始され、<br>
+多くの人が俺と知り合ったことで機関に狙われた。<br>
+サラ、クラウディア、シモーヌ…<br>
+そんな彼女らに報いるため、俺は「まめ知識」機能を「クエスト受注画面」に実装したのだ。<br>
+これにより、これまで登場してきたキャラクター達や元ネタを知ることができるだろう。<br><br>
+そして、これより我々は、夢と狂気が交錯する聖地、こみっくパーティへと赴く。<br>
+そこには数々のサークルが集い、己の作品を世に知らしめるべく挑む者たちが待っている。<br>
+我々もまた、この機会を逃すわけにはいかぬ！<br><br>
+なぜ、あの聖戦に参加する必要があるのかだって？<br>
+フフフ、いい質問だ。<br>
+我がラボの目的は世界の支配構造の変革にある。<br>
+混沌に巻き込む同人誌を作り出し、その片鱗を披露するのだ！<br><br><br>
+[前作プレイ済みの方へ]<br>
+プレイ時間が長くなってきたので、前回の祭り終了時点のセーブデータ同封しました。
+    </td></tr><tr>
+    <td colspan="2">主催コメント</td></tr><tr>
+    <td colspan="2">混沌(カオス)ここに極まれり</td></tr><tr>
+</table>
+    
+
+</main>
+<!-- フッター --><footer>
+<p>&copy; 2024-2025 VIPRPG</p>
+</footer><!-- body直前でjQueryと自作のJSファイルの読み込み  -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<!-- 自作のJSファイル  -->
+<script src="main.js"></script>
+<script><!--
+var footerparam = 'charset=' + encodeURIComponent(document.charset ? document.charset : document.characterSet) + '&url=' + encodeURIComponent(document.location) + '&service=1&r=' + Math.floor(Math.random()*99999999999);
+var footertag = "//vip-chps-api.2nt.com/apis/footer/?" + footerparam;
+var script = document.createElement('script');
+script.src = footertag;
+script.charset = "UTF-8";
+script.async = true;
+document.getElementsByTagName('head')[0].appendChild(script);
+//--></script>
+<!-- 2nt, inc.-->
+<img src="//media.fc2.com/counter_img.php?id=50" style="display:none" alt="inserted by 2nt system" width="0" height="0">
+<!-- 2nt, inc.--></body>
+</html>

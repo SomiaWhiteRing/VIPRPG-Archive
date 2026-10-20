@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-10-20",
+  "sourceProxyRegion": "Japan",
+  "archiveProxyRegion": "Hong Kong",
+  "knownSoft404s": 3,
+  "icon08": {
+    "originalUrl": "https://vipkouhaku2024.x.2nt.com/entry/icons/icon08.jpg",
+    "replacementSourceUrl": "https://vipkouhaku2024.x.2nt.com/entry/icons/icon08.png",
+    "basis": "Valid current official catalogue reference for the same numbered work."
+  },
+  "omissions": [
+    {
+      "url": "https://vipkouhaku2024.x.2nt.com/entry/main.js",
+      "error": "Source serves an HTML error page for this script; exact CDX has no captures. Raw response retained; unavailable script omitted from static replay."
+    },
+    {
+      "url": "https://vipkouhaku2024.x.2nt.com/assets/images/banner_viprpg_kouhaku_2009.png",
+      "error": "Current response is an HTML error page despite HTTP 200; the exact CDX query returned no captures. Retain the source festival link with an explicit missing-image label."
+    }
+  ],
+  "archiveEvidence": [
+    {
+      "url": "https://vipkouhaku2024.x.2nt.com/entry/main.js",
+      "file": "detail-script-cdx.bin",
+      "captureCount": 0
+    },
+    {
+      "url": "https://vipkouhaku2024.x.2nt.com/assets/images/banner_viprpg_kouhaku_2009.png",
+      "file": "legacy-banner-cdx.bin",
+      "captureCount": 0
+    }
+  ],
+  "rawErrorResponsesRetained": true
+}

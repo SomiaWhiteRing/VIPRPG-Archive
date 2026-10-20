@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>VIPRPG紅白2024</title>
+</head>
+
+<body>
+  <header>
+    <h1><span color="#FF8888" style="color: #ff8888;"><a href="../">VIPRPG紅白2024</a></span></h1>
+      <nav class="nav">
+        <ul class="menu">
+
+         <li><a href="https://jbbs.shitaraba.net/game/61441/">掲示板</a></li>
+         <li><a href="../vote.html">投票</a></li> 
+        </ul>
+       </nav>
+  </header>
+  <main>
+<table border="1" class="nocss entrypage">
+    <tr>
+        <td colspan="2" align="center">
+      <img id="pic_ss" onclick="slideshow()" src="./ss/ss25.png" width="640" height="480">
+            <script>
+            var pics_src = new Array("./ss/ss25.png","./ss/ss25a.png");
+            var num = 0;
+
+            function slideshow(){
+                if (num == 1) {
+                    num = 0;
+                }
+                else {
+                    num ++;
+                }
+                document.getElementById("pic_ss").src=pics_src[num];
+            }
+            </script>
+      <p>クリックで画像が変わります(計2枚)</p>
+      </td></tr><tr>
+ 
+    <td align="center" width="60px"><img src="./icons/icon_aka.png"></td>
+    <td>俺流解釈/新・世界樹の迷宮Ⅱ（上）</td></tr><tr>
+    <td colspan="2">ダウンロード(---KB)／<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61441/1734108945/">感想スレッド</a></td></tr><tr>
+    <td colspan="2">ジャンル</td></tr><tr>
+    <td colspan="2">ファンタジー未満ksg</td></tr><tr>
+    <td colspan="2">コメント</td></tr><tr>
+    <td colspan="2">２０１４年発売されたゲーム『新・世界樹の迷宮』をうろ覚えながら書き直した作品です。<br>ご想像の通りクオリティはうんこなのであまり期待なさらないでください（イメ損にならないようにだけは気を付けています）
+    </td></tr><tr>
+    <td colspan="2">主催コメント</td></tr><tr>
+    <td colspan="2">人間の数だけ解釈は存在する。</td></tr><tr>
+</table>
+    
+
+</main>
+<!-- フッター --><footer>
+<p>&copy; 2024-2025 VIPRPG</p>
+</footer><!-- body直前でjQueryと自作のJSファイルの読み込み  -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<!-- 自作のJSファイル  -->
+<script src="main.js"></script>
+<script><!--
+var footerparam = 'charset=' + encodeURIComponent(document.charset ? document.charset : document.characterSet) + '&url=' + encodeURIComponent(document.location) + '&service=1&r=' + Math.floor(Math.random()*99999999999);
+var footertag = "//vip-chps-api.2nt.com/apis/footer/?" + footerparam;
+var script = document.createElement('script');
+script.src = footertag;
+script.charset = "UTF-8";
+script.async = true;
+document.getElementsByTagName('head')[0].appendChild(script);
+//--></script>
+<!-- 2nt, inc.-->
+<img src="//media.fc2.com/counter_img.php?id=50" style="display:none" alt="inserted by 2nt system" width="0" height="0">
+<!-- 2nt, inc.--></body>
+</html>

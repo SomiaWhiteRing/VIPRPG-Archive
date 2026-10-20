@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>VIPRPG紅白2024</title>
+</head>
+
+<body>
+  <header>
+    <h1><span color="#FF8888" style="color: #ff8888;"><a href="../">VIPRPG紅白2024</a></span></h1>
+      <nav class="nav">
+        <ul class="menu">
+
+         <li><a href="https://jbbs.shitaraba.net/game/61441/">掲示板</a></li>
+         <li><a href="../vote.html">投票</a></li> 
+        </ul>
+       </nav>
+  </header>
+  <main>
+<table border="1" class="nocss entrypage">
+    <tr>
+    <td colspan="2" align="center">
+      <img src="./ss/ss32.png">
+      </td></tr><tr>
+    <td align="center" width="60px"><img src="./icons/icon32.png"></td>
+    <td>好きキャラで100人把握 with エクスピア連合王国</td></tr><tr>
+    <td colspan="2"><a href="https://drive.google.com/uc?export=download&id=1FzpI1_XkgCmZkiIeBP-BVwlz0bZ82O1c">ダウンロード(5.8MB)</a>／<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61441/1734977834/">感想スレッド</a></td></tr><tr>
+    <td colspan="2">ジャンル</td></tr><tr>
+    <td colspan="2">魔王把握</td></tr><tr>
+    <td colspan="2">コメント</td></tr><tr>
+    <td colspan="2">令和のツクスレにも平成中期のツクスレにも足りない要素を詰め合わせた<br>
+                    XP&VIPRPG20周年記念の作品集……を本来お出しする予定だったのですが、<br>
+                    そんなことしたら4年連続紅白未提出という屈辱を味わいそうなので、<br>
+                    10年単位で続いてるスランプのリハビリも兼ねた代理作を遅ればせながら仕上げました<br>
+                    多分そんなにボリュームはないので息抜き的な感じでPIAIしてやってください<br>
+                    S2003製ですが日本語版2000RTPさえ入っていればおｋで、EasyRPGでの動作も確認済です<br><br>
+                    あとこれに限らずさくしゃの全ての過去作にも言えますが、当作に出てないキャラの中にも<br>
+                    好きなキャラはたくさんいるので「特に好きなんだなぁ」くらいに捉えてくだされば幸いです<br><br>
+                    ※2024GWの過去作、「薄汚れた勇者と僧侶の手記」と地味に地続きの世界観になっていますが、<br>
+                    　やってなくても普通に楽しめるかと思います<br>
+                    　でも個人的にはあれも一回やってほしい
+    </td></tr><tr>
+    <td colspan="2">主催コメント</td></tr><tr>
+    <td colspan="2">RTP素材の良さ、2倍になった解像度、ツクールの根幹部分にも手を出せるスクリプトなど、<br>ツクールXPが出た当時は非常に心が躍ったのもあって今でも記憶に残ってます。ろくに扱えませんでしたが。</td></tr><tr>
+</table>
+    
+
+</main>
+<!-- フッター --><footer>
+<p>&copy; 2024-2025 VIPRPG</p>
+</footer><!-- body直前でjQueryと自作のJSファイルの読み込み  -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<!-- 自作のJSファイル  -->
+<script src="main.js"></script>
+<script><!--
+var footerparam = 'charset=' + encodeURIComponent(document.charset ? document.charset : document.characterSet) + '&url=' + encodeURIComponent(document.location) + '&service=1&r=' + Math.floor(Math.random()*99999999999);
+var footertag = "//vip-chps-api.2nt.com/apis/footer/?" + footerparam;
+var script = document.createElement('script');
+script.src = footertag;
+script.charset = "UTF-8";
+script.async = true;
+document.getElementsByTagName('head')[0].appendChild(script);
+//--></script>
+<!-- 2nt, inc.-->
+<img src="//media.fc2.com/counter_img.php?id=50" style="display:none" alt="inserted by 2nt system" width="0" height="0">
+<!-- 2nt, inc.--></body>
+</html>

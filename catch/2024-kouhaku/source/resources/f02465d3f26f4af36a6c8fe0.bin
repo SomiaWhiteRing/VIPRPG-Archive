@@ -1,0 +1,379 @@
+@charset "UTF-8";
+/* >>>>>                        <<<<< */
+/*           VIPRPG紅白2024           */
+/* >>>>>                        <<<<< */
+/* >>> 共通                       >>> */
+:root {
+	--c-text: #ddd;
+	--c-link: #0cf;
+	--c-hover: #90f;
+	--bgc-base: #131313;
+	--bgc-darkgray: #222;
+	--c-sumi: #333;
+	--c-kin: #ec0;
+	--c-aka: #d01;
+	--c-shiro: #fff;
+	--c-cha: #631;
+}
+body {
+	color: var(--c-text);
+	background: var(--bgc-base);
+	font-family: "Meiryo", sans-serif;
+	font-size: 100%;
+	line-height: 1.5;
+}
+a {
+	color: var(--c-link);
+}
+small {
+	font-size: 75%;
+}
+pre {
+	font-family: "BIZ UDゴシック", monospace;
+}
+h1, h2, h3 {
+	font-weight: bold;
+}
+h2 {
+	margin: 40px 0 20px;
+	border-right-color: var(--c-shiro);
+	border-left-color: var(--c-aka);
+	border-style: solid;
+	border-width: 0 3rem 0 3rem;
+	text-align: center;
+	color: var(--c-kin);
+	font-size: 1.5rem;
+	line-height: 3rem;
+}
+h3 {
+	margin: calc(2rem - 60px) 0 1rem;
+	padding-top: 60px;
+	border-bottom: var(--c-kin) solid 1px;
+	font-size: 1.25rem;
+}
+p {
+	margin: 1rem 0;
+}
+.area-width {
+	margin: auto;
+	width: 1000px;
+}
+.c-aka  { color: var(--c-aka); }
+.c-shiro { color: var(--c-shiro); }
+.c-kin, .works td small { color: var(--c-kin); }
+/* display: flex;関連の指定 */
+.area-header *:not(span),
+.local-nav *, .works ol, .works ol li {
+	display: flex;
+}
+:is(.area-header, .local-nav) a,
+.main-visual figcaption p,
+.game-icon, .game-screenshot,
+.works ol div a {
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+}
+/* <<<                       共通 <<< */
+/* >>> ヘッダー                   >>> */
+.area-header {
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+	height: 60px;
+	background: var(--bgc-base);
+}
+.area-header .area-width {
+	justify-content: space-between;
+}
+:is(.area-header, .local-nav) a {
+	height: 60px;
+}
+.site-title a {
+	color: var(--c-kin);
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+/* グローバルナビゲーション */
+.global-nav a {
+	height: 40px;
+	margin: 10px 0 0 10px;
+	border-radius: 20px;
+	padding: 0 20px;
+	color: var(--c-text);
+	background: var(--bgc-darkgray);
+	font-weight: bold;
+}
+/* <<<                   ヘッダー <<< */
+/* >>> フッター                   >>> */
+.area-footer {
+	margin-top: 40px;
+	padding: 5px;
+	background: var(--bgc-darkgray);
+	text-align: center;
+}
+/* <<<                   フッター <<< */
+/* >>> コンテンツ                 >>> */
+.area-contents {
+	padding: 60px 0;
+}
+/* メインヴィジュアル */
+.main-visual {
+	position: relative;
+	padding-top: 60px;
+	height: 560px;
+	background: #000;
+}.main-visual img {
+	display: block;
+	margin: auto;
+}
+.main-visual figcaption {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.75);
+}
+.main-visual figcaption p {
+	padding: 0 20px;
+	font-family: "Yu Mincho", serif;
+	font-size: 1.25rem;
+	font-weight: bold;
+}
+/* ローカルナビゲーション */
+.local-nav ul {
+	justify-content: center;
+	gap: 30px;
+	margin: 20px 0;
+}
+.local-nav li {
+	border-radius: 10px;
+}
+.local-nav li:nth-child(1) {
+	color: var(--c-haku);
+	background: var(--c-aka);
+}
+.local-nav li:nth-child(2) {
+	color: var(--c-cha);
+	background: var(--c-kin);
+}
+/* 追加・変更ここから */
+.local-nav li:nth-child(3) {
+	color: var(--c-kin);
+	background: var(--c-cha);
+}
+.local-nav li:nth-child(4) {
+	color: var(--c-aka);
+	background: var(--c-shiro);
+}
+/* 追加・変更ここまで */
+
+.local-nav a {
+	width: 240px;
+	height: 60px;
+	color: inherit !important;
+	font-size: 1.25rem;
+	font-weight: bold;
+	text-indent: 1em;
+	letter-spacing: 1em;
+}
+/* 参加作品一覧 */
+.works ol {
+	flex-wrap: wrap;
+	gap: 20px;
+	counter-reset: number 0;
+}
+.works ol li {
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: flex-start;
+	position: relative;
+	width: 490px;
+	height: 660px;
+}
+.works ol li:nth-child(odd) {
+	border: var(--c-aka) solid 5px;
+}
+.works ol li:nth-child(even) {
+	border: var(--c-shiro) solid 5px;
+}
+.works ol li:nth-child(odd)::before,
+.works ol li:nth-child(odd) .game-title {
+	color: var(--c-shiro);
+	background: var(--c-aka);
+}
+.works ol li:nth-child(even)::before,
+.works ol li:nth-child(even) .game-title {
+	color: var(--c-aka);
+	background: var(--c-shiro);
+}
+.works ol li::before, 
+.works ol dl :is(dt, dd) {
+	display: block;
+	position: absolute;
+}
+.works ol li::before {
+	counter-increment: number 1;
+	content: counter(number);
+	top: -5px;
+	left: -5px;
+	z-index: 10;
+	width: 50px;
+	height: 50px;
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-align: center;
+	line-height: 50px;
+}
+.works ol dl {
+	position: relative;
+	width: 480px;
+	height: 410px;
+}
+.game-title {
+	top: 360px;
+	left: 50px;
+	width: 430px;
+	height: 50px;
+	padding: 0 10px;
+	font-size: 1.25rem;
+	line-height: 50px;
+	background: var(--c-aka);
+}
+.game-screenshot {
+	top: 0;
+	left: 0;
+	width: 480px;
+	height: 360px;
+	overflow: hidden;
+	background: #000;
+}
+.game-icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 360px;
+	left: 0;
+	width: 50px;
+	height: 50px;
+	background: var(--bgc-darkgray);
+}
+.works ol table {
+	border-spacing: 1px;
+	border-collapse : separate;
+	width: 360px;
+	height: 240px;
+	font-size: 0.825rem;
+	line-height: 1;
+}
+.works ol table tr {
+	height: 38px;
+}
+.works ol table :is(th, td) {
+	background: var(--bgc-darkgray);
+	vertical-align: middle;
+}
+.works ol table th {
+	width: 90px;
+	padding-right: 2px;
+	font-weight: normal;
+	text-align: right;
+}
+.works ol table th::after {
+	content: "：";
+}
+.works ol table td {
+	width: 270px;
+	padding-left: 5px;
+}
+.works ol div a {
+	display: block;
+	flex-direction: column;
+	border-color: var(--bgc-base);
+	border-style: solid;
+	border-width: 1px 1px 0 0;
+	width: 120px;
+	color: #fff;
+	background: var(--c-sumi);
+	font-weight: bold;
+}
+.shousai, .kansou {
+	height: 60px;
+}
+.download {
+	border-bottom-width: 1px;
+	height: 119px;
+	background: #393 !important;
+	text-align: center;
+}
+.download small {
+	font-weight: normal;
+}
+.download small::before { content: "("; }
+.download small::after { content: ")"; }
+.fs1rem { font-size: 1rem; }
+.fs08rem { font-size: 0.8rem; } /* 追加 */
+/* 要項等・投票ページ */
+#info .area-contents li {
+	list-style: disc;
+	margin: 0.5rem 0 0.5rem 2rem;
+}
+#update pre {
+	height: 240px;
+	overflow-y: scroll;
+}
+#schedule li {
+	font-family: 'BIZ UDゴシック', monospace;
+}
+#vote .area-contents dt {
+	margin-bottom: 0.25rem;
+}
+#vote .area-contents dd {
+	margin-bottom: 1rem;
+	margin-left: 2rem;
+}
+.past_viprpg_kouhaku {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 5px;
+	margin-bottom: 1rem;
+}
+.past_viprpg_kouhaku li {
+	position: relative;
+	list-style: none !important;
+	margin: 0 !important;
+	width: 200px;
+	height: 40px;
+}
+.past_viprpg_kouhaku small {
+	position: absolute;
+	right: 2px;
+	bottom: 2px;
+	line-height: 1;
+	text-shadow:
+		1px 1px 0 #000, -1px -1px 0 #000,
+		-1px 1px 0 #000, 1px -1px 0 #000,
+		0px 1px 0 #000,  0-1px 0 #000,
+		-1px 0 0 #000, 1px 0 0 #000;
+}
+
+.result{
+    border-collapse: collapse;
+    margin:auto;
+    text-align:center;
+}
+.result td{
+    color: #FFFFFF;
+    background: #2C2C2C;
+    border: 2px solid;
+    border-color:#111111;
+    padding: 4px;
+}
+.result first{background-color: #FFFF00; color:#FF0000;}
+.result second{background-color: #777777; color:#FFFFFF;}
+.result third{background-color: #B46450; color:#FFFFFF;}
+
+
+/* <<<                 コンテンツ <<< */

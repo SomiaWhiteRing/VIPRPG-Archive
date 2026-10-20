@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>VIPRPG紅白2024</title>
+</head>
+
+<body>
+  <header>
+    <h1><span color="#FF8888" style="color: #ff8888;"><a href="../">VIPRPG紅白2024</a></span></h1>
+      <nav class="nav">
+        <ul class="menu">
+
+         <li><a href="https://jbbs.shitaraba.net/game/61441/">掲示板</a></li>
+         <li><a href="../vote.html">投票</a></li> 
+        </ul>
+       </nav>
+  </header>
+  <main>
+<table border="1" class="nocss entrypage">
+    <tr>
+    <td colspan="2" align="center">
+      <img id="pic_ss" onclick="slideshow()" src="./ss/ss42.png" width="640" height="480">
+            <script>
+            var pics_src = new Array("./ss/ss42.png","./ss/ss42a.png");
+            var num = 0;
+
+            function slideshow(){
+                if (num == 1) {
+                    num = 0;
+                }
+                else {
+                    num ++;
+                }
+                document.getElementById("pic_ss").src=pics_src[num];
+            }
+            </script>
+      <p>クリックで画像が変わります(計2枚)</p>
+      </td></tr><tr>
+    <td align="center" width="60px"><img src="./icons/icon42.png"></td>
+    <td>縛りにもならない縛りで「好きなキャラ100人で魔王把握」</td></tr><tr>
+    <td colspan="2"><a href="https://drive.google.com/uc?export=download&id=1VN3p_CBJw51AOjfs2s-GxWcwgduNmD0p">ダウンロード(5.5MB)</a>／<a href="https://jbbs.shitaraba.net/bbs/read.cgi/game/61441/1736874697/">感想スレッド</a></td></tr><tr>
+    <td colspan="2">ジャンル</td></tr><tr>
+    <td colspan="2">魔王把握</td></tr><tr>
+    <td colspan="2">コメント</td></tr><tr>
+    <td colspan="2">【※当作品にはかなり軽度の変化・TS要素があります】<br>
+                    めでてぇ年だという事で自分のケツを叩き製作を進めて滑り込み参加！<br>
+                    もう祭り期間半月もねえ！！しかも100人把握が３作もダブってるだとう！？<br><br>
+                    （あまりにも軽すぎる）縛り下で作者の好きなキャラ100人を選出し、<br>
+                    その全員（＋縛り外のキャラなど）を出した魔王把握となります。<br>
+                    本作にはちょっとしたギミックやイベントなどをいくらか盛り込みましたので、<br>
+                    ほんの少しでも楽しいと思って頂ける仕上がりになっていれば幸いです。
+    </td></tr><tr>
+    <td colspan="2">主催コメント</td></tr><tr>
+    <td colspan="2">作者によって異なるキャラ選出が楽しめるのも、百人把握の醍醐味だと思います。</td></tr><tr>
+</table>
+    
+
+</main>
+<!-- フッター --><footer>
+<p>&copy; 2024-2025 VIPRPG</p>
+</footer><!-- body直前でjQueryと自作のJSファイルの読み込み  -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<!-- 自作のJSファイル  -->
+<script src="main.js"></script>
+<script><!--
+var footerparam = 'charset=' + encodeURIComponent(document.charset ? document.charset : document.characterSet) + '&url=' + encodeURIComponent(document.location) + '&service=1&r=' + Math.floor(Math.random()*99999999999);
+var footertag = "//vip-chps-api.2nt.com/apis/footer/?" + footerparam;
+var script = document.createElement('script');
+script.src = footertag;
+script.charset = "UTF-8";
+script.async = true;
+document.getElementsByTagName('head')[0].appendChild(script);
+//--></script>
+<!-- 2nt, inc.-->
+<img src="//media.fc2.com/counter_img.php?id=50" style="display:none" alt="inserted by 2nt system" width="0" height="0">
+<!-- 2nt, inc.--></body>
+</html>
