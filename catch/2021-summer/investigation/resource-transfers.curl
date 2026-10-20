@@ -1,0 +1,1208 @@
+url = "https://viprpg2021s.kenkenpa.net/image/banner1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-0.bin"
+write-out = "0 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/noicon.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-1.bin"
+write-out = "1 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no01icon.gif"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-2.bin"
+write-out = "2 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no02icon.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-3.bin"
+write-out = "3 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no03icon.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-4.bin"
+write-out = "4 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no04icon.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-5.bin"
+write-out = "5 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no07icon.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-6.bin"
+write-out = "6 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no08icon.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-7.bin"
+write-out = "7 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no09icon.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-8.bin"
+write-out = "8 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no10icon.gif"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-9.bin"
+write-out = "9 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no11icon.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-10.bin"
+write-out = "10 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no12icon.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-11.bin"
+write-out = "11 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no13icon.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-12.bin"
+write-out = "12 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no14icon.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-13.bin"
+write-out = "13 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no15icon.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-14.bin"
+write-out = "14 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no16icon.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-15.bin"
+write-out = "15 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no18icon.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-16.bin"
+write-out = "16 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no19icon.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-17.bin"
+write-out = "17 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no20icon.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-18.bin"
+write-out = "18 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no21icon.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-19.bin"
+write-out = "19 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no22icon.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-20.bin"
+write-out = "20 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no23icon.gif"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-21.bin"
+write-out = "21 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no24icon.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-22.bin"
+write-out = "22 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no25icon.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-23.bin"
+write-out = "23 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no26icon.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-24.bin"
+write-out = "24 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no28icon.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-25.bin"
+write-out = "25 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no29icon.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-26.bin"
+write-out = "26 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no30icon.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-27.bin"
+write-out = "27 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no32icon.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-28.bin"
+write-out = "28 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no36icon.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-29.bin"
+write-out = "29 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no37icon.gif"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-30.bin"
+write-out = "30 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no38icon.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-31.bin"
+write-out = "31 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no42icon.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-32.bin"
+write-out = "32 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no43icon.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-33.bin"
+write-out = "33 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no45icon.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-34.bin"
+write-out = "34 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/kako6.jpg"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-35.bin"
+write-out = "35 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/kako7.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-36.bin"
+write-out = "36 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/kako8.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-37.bin"
+write-out = "37 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/kako9.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-38.bin"
+write-out = "38 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/kako10.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-39.bin"
+write-out = "39 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/kako11.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-40.bin"
+write-out = "40 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/kako12.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-41.bin"
+write-out = "41 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/kako13.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-42.bin"
+write-out = "42 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/kako14.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-43.bin"
+write-out = "43 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/kako15.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-44.bin"
+write-out = "44 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/kako16.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-45.bin"
+write-out = "45 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/kako16ura.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-46.bin"
+write-out = "46 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/kako17.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-47.bin"
+write-out = "47 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/kako18.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-48.bin"
+write-out = "48 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/kako19.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-49.bin"
+write-out = "49 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/kako20.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-50.bin"
+write-out = "50 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no00ss1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-51.bin"
+write-out = "51 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no00ss2.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-52.bin"
+write-out = "52 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no01ss1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-53.bin"
+write-out = "53 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no02ss1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-54.bin"
+write-out = "54 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no03ss1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-55.bin"
+write-out = "55 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no03ss2.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-56.bin"
+write-out = "56 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no04ss1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-57.bin"
+write-out = "57 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no05ss1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-58.bin"
+write-out = "58 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no06ss1.jpg"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-59.bin"
+write-out = "59 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no07ss1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-60.bin"
+write-out = "60 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no07ss2.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-61.bin"
+write-out = "61 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no08ss1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-62.bin"
+write-out = "62 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no08ss2.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-63.bin"
+write-out = "63 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no09ss1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-64.bin"
+write-out = "64 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no09ss2.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-65.bin"
+write-out = "65 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no10ss1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-66.bin"
+write-out = "66 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no10ss2.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-67.bin"
+write-out = "67 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no11ss1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-68.bin"
+write-out = "68 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no11ss2.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-69.bin"
+write-out = "69 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no12ss1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-70.bin"
+write-out = "70 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no13ss1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-71.bin"
+write-out = "71 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no14ss1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-72.bin"
+write-out = "72 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no14ss2.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-73.bin"
+write-out = "73 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no15ss1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-74.bin"
+write-out = "74 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no16ss1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-75.bin"
+write-out = "75 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no16ss2.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-76.bin"
+write-out = "76 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no17ss1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-77.bin"
+write-out = "77 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no18ss1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-78.bin"
+write-out = "78 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no18ss2.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-79.bin"
+write-out = "79 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no19ss1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-80.bin"
+write-out = "80 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no19ss2.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-81.bin"
+write-out = "81 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no20ss1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-82.bin"
+write-out = "82 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no21ss1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-83.bin"
+write-out = "83 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no22ss1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-84.bin"
+write-out = "84 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no23ss1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-85.bin"
+write-out = "85 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no23ss2.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-86.bin"
+write-out = "86 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no24ss1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-87.bin"
+write-out = "87 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no24ss2.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-88.bin"
+write-out = "88 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no25ss1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-89.bin"
+write-out = "89 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no25ss2.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-90.bin"
+write-out = "90 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no26ss1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-91.bin"
+write-out = "91 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no26ss2.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-92.bin"
+write-out = "92 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no27ss1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-93.bin"
+write-out = "93 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no28ss1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-94.bin"
+write-out = "94 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no29ss1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-95.bin"
+write-out = "95 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no29ss2.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-96.bin"
+write-out = "96 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no30ss1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-97.bin"
+write-out = "97 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no30ss2.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-98.bin"
+write-out = "98 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no31ss1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-99.bin"
+write-out = "99 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no32ss1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-100.bin"
+write-out = "100 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no32ss2.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-101.bin"
+write-out = "101 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no33ss1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-102.bin"
+write-out = "102 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no34ss1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-103.bin"
+write-out = "103 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no35ss1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-104.bin"
+write-out = "104 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no36ss1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-105.bin"
+write-out = "105 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no36ss2.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-106.bin"
+write-out = "106 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no37ss1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-107.bin"
+write-out = "107 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no37ss2.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-108.bin"
+write-out = "108 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no38ss1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-109.bin"
+write-out = "109 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no38ss2.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-110.bin"
+write-out = "110 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no39ss1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-111.bin"
+write-out = "111 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no40ss1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-112.bin"
+write-out = "112 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no41ss1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-113.bin"
+write-out = "113 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no42ss1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-114.bin"
+write-out = "114 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no42ss2.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-115.bin"
+write-out = "115 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no43ss1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-116.bin"
+write-out = "116 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no43ss2.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-117.bin"
+write-out = "117 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no45ss1.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-118.bin"
+write-out = "118 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/no45ss2.png"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-119.bin"
+write-out = "119 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/image/background1.jpg"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/resources/asset-120.bin"
+write-out = "120 %{http_code} %{url_effective} %{size_download}\n"

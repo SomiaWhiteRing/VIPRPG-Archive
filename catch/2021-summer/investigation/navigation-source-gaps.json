@@ -1,0 +1,23 @@
+{
+  "sourceProxyRegion": "Japan",
+  "archiveProxyRegion": "Hong Kong",
+  "issues": [
+    {
+      "owner": "no10.html",
+      "sourceHref": "no9.html",
+      "liveStatus": 404,
+      "exactArchiveCaptures": 0,
+      "archiveEvidence": "no9-cdx.json",
+      "canonicalOfficialCatalogueHref": "no09.html",
+      "handling": "Use the separately captured official No.09 page."
+    },
+    {
+      "owner": "no45.html",
+      "sourceHref": "no46.html",
+      "liveStatus": 404,
+      "exactArchiveCaptures": 0,
+      "archiveEvidence": "no46-cdx.json",
+      "handling": "Disable the final next-link; do not invent an entry outside the 00-45 catalogue."
+    }
+  ]
+}

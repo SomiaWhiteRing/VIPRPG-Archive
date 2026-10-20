@@ -1,0 +1,2151 @@
+{
+  "festivalId": "2021-summer",
+  "originalBase": "https://viprpg2021s.kenkenpa.net/",
+  "liveSource": true,
+  "proxyRegion": "Japan",
+  "sourceManifests": [
+    "source/replay/manifest.json"
+  ],
+  "originalResources": {
+    "https://viprpg2021s.kenkenpa.net/index.html": "index.html",
+    "https://viprpg2021s.kenkenpa.net/no00.html": "no00.html",
+    "https://viprpg2021s.kenkenpa.net/no01.html": "no01.html",
+    "https://viprpg2021s.kenkenpa.net/no02.html": "no02.html",
+    "https://viprpg2021s.kenkenpa.net/no03.html": "no03.html",
+    "https://viprpg2021s.kenkenpa.net/no04.html": "no04.html",
+    "https://viprpg2021s.kenkenpa.net/no05.html": "no05.html",
+    "https://viprpg2021s.kenkenpa.net/no06.html": "no06.html",
+    "https://viprpg2021s.kenkenpa.net/no07.html": "no07.html",
+    "https://viprpg2021s.kenkenpa.net/no08.html": "no08.html",
+    "https://viprpg2021s.kenkenpa.net/no09.html": "no09.html",
+    "https://viprpg2021s.kenkenpa.net/no10.html": "no10.html",
+    "https://viprpg2021s.kenkenpa.net/no11.html": "no11.html",
+    "https://viprpg2021s.kenkenpa.net/no12.html": "no12.html",
+    "https://viprpg2021s.kenkenpa.net/no13.html": "no13.html",
+    "https://viprpg2021s.kenkenpa.net/no14.html": "no14.html",
+    "https://viprpg2021s.kenkenpa.net/no15.html": "no15.html",
+    "https://viprpg2021s.kenkenpa.net/no16.html": "no16.html",
+    "https://viprpg2021s.kenkenpa.net/no17.html": "no17.html",
+    "https://viprpg2021s.kenkenpa.net/no18.html": "no18.html",
+    "https://viprpg2021s.kenkenpa.net/no19.html": "no19.html",
+    "https://viprpg2021s.kenkenpa.net/no20.html": "no20.html",
+    "https://viprpg2021s.kenkenpa.net/no21.html": "no21.html",
+    "https://viprpg2021s.kenkenpa.net/no22.html": "no22.html",
+    "https://viprpg2021s.kenkenpa.net/no23.html": "no23.html",
+    "https://viprpg2021s.kenkenpa.net/no24.html": "no24.html",
+    "https://viprpg2021s.kenkenpa.net/no25.html": "no25.html",
+    "https://viprpg2021s.kenkenpa.net/no26.html": "no26.html",
+    "https://viprpg2021s.kenkenpa.net/no27.html": "no27.html",
+    "https://viprpg2021s.kenkenpa.net/no28.html": "no28.html",
+    "https://viprpg2021s.kenkenpa.net/no29.html": "no29.html",
+    "https://viprpg2021s.kenkenpa.net/no30.html": "no30.html",
+    "https://viprpg2021s.kenkenpa.net/no31.html": "no31.html",
+    "https://viprpg2021s.kenkenpa.net/no32.html": "no32.html",
+    "https://viprpg2021s.kenkenpa.net/no33.html": "no33.html",
+    "https://viprpg2021s.kenkenpa.net/no34.html": "no34.html",
+    "https://viprpg2021s.kenkenpa.net/no35.html": "no35.html",
+    "https://viprpg2021s.kenkenpa.net/no36.html": "no36.html",
+    "https://viprpg2021s.kenkenpa.net/no37.html": "no37.html",
+    "https://viprpg2021s.kenkenpa.net/no38.html": "no38.html",
+    "https://viprpg2021s.kenkenpa.net/no39.html": "no39.html",
+    "https://viprpg2021s.kenkenpa.net/no40.html": "no40.html",
+    "https://viprpg2021s.kenkenpa.net/no41.html": "no41.html",
+    "https://viprpg2021s.kenkenpa.net/no42.html": "no42.html",
+    "https://viprpg2021s.kenkenpa.net/no43.html": "no43.html",
+    "https://viprpg2021s.kenkenpa.net/no44.html": "no44.html",
+    "https://viprpg2021s.kenkenpa.net/no45.html": "no45.html",
+    "https://viprpg2021s.kenkenpa.net/styles.css": "styles.css",
+    "https://viprpg2021s.kenkenpa.net/image/banner1.png": "image/banner1.png",
+    "https://viprpg2021s.kenkenpa.net/image/noicon.png": "image/noicon.png",
+    "https://viprpg2021s.kenkenpa.net/image/no01icon.gif": "image/no01icon.gif",
+    "https://viprpg2021s.kenkenpa.net/image/no02icon.png": "image/no02icon.png",
+    "https://viprpg2021s.kenkenpa.net/image/no03icon.png": "image/no03icon.png",
+    "https://viprpg2021s.kenkenpa.net/image/no04icon.png": "image/no04icon.png",
+    "https://viprpg2021s.kenkenpa.net/image/no07icon.png": "image/no07icon.png",
+    "https://viprpg2021s.kenkenpa.net/image/no08icon.png": "image/no08icon.png",
+    "https://viprpg2021s.kenkenpa.net/image/no09icon.png": "image/no09icon.png",
+    "https://viprpg2021s.kenkenpa.net/image/no10icon.gif": "image/no10icon.gif",
+    "https://viprpg2021s.kenkenpa.net/image/no11icon.png": "image/no11icon.png",
+    "https://viprpg2021s.kenkenpa.net/image/no12icon.png": "image/no12icon.png",
+    "https://viprpg2021s.kenkenpa.net/image/no13icon.png": "image/no13icon.png",
+    "https://viprpg2021s.kenkenpa.net/image/no14icon.png": "image/no14icon.png",
+    "https://viprpg2021s.kenkenpa.net/image/no15icon.png": "image/no15icon.png",
+    "https://viprpg2021s.kenkenpa.net/image/no16icon.png": "image/no16icon.png",
+    "https://viprpg2021s.kenkenpa.net/image/no18icon.png": "image/no18icon.png",
+    "https://viprpg2021s.kenkenpa.net/image/no19icon.png": "image/no19icon.png",
+    "https://viprpg2021s.kenkenpa.net/image/no20icon.png": "image/no20icon.png",
+    "https://viprpg2021s.kenkenpa.net/image/no21icon.png": "image/no21icon.png",
+    "https://viprpg2021s.kenkenpa.net/image/no22icon.png": "image/no22icon.png",
+    "https://viprpg2021s.kenkenpa.net/image/no23icon.gif": "image/no23icon.gif",
+    "https://viprpg2021s.kenkenpa.net/image/no24icon.png": "image/no24icon.png",
+    "https://viprpg2021s.kenkenpa.net/image/no25icon.png": "image/no25icon.png",
+    "https://viprpg2021s.kenkenpa.net/image/no26icon.png": "image/no26icon.png",
+    "https://viprpg2021s.kenkenpa.net/image/no28icon.png": "image/no28icon.png",
+    "https://viprpg2021s.kenkenpa.net/image/no29icon.png": "image/no29icon.png",
+    "https://viprpg2021s.kenkenpa.net/image/no30icon.png": "image/no30icon.png",
+    "https://viprpg2021s.kenkenpa.net/image/no32icon.png": "image/no32icon.png",
+    "https://viprpg2021s.kenkenpa.net/image/no36icon.png": "image/no36icon.png",
+    "https://viprpg2021s.kenkenpa.net/image/no37icon.gif": "image/no37icon.gif",
+    "https://viprpg2021s.kenkenpa.net/image/no38icon.png": "image/no38icon.png",
+    "https://viprpg2021s.kenkenpa.net/image/no42icon.png": "image/no42icon.png",
+    "https://viprpg2021s.kenkenpa.net/image/no43icon.png": "image/no43icon.png",
+    "https://viprpg2021s.kenkenpa.net/image/no45icon.png": "image/no45icon.png",
+    "https://viprpg2021s.kenkenpa.net/image/kako6.jpg": "image/kako6.jpg",
+    "https://viprpg2021s.kenkenpa.net/image/kako7.png": "image/kako7.png",
+    "https://viprpg2021s.kenkenpa.net/image/kako8.png": "image/kako8.png",
+    "https://viprpg2021s.kenkenpa.net/image/kako9.png": "image/kako9.png",
+    "https://viprpg2021s.kenkenpa.net/image/kako10.png": "image/kako10.png",
+    "https://viprpg2021s.kenkenpa.net/image/kako11.png": "image/kako11.png",
+    "https://viprpg2021s.kenkenpa.net/image/kako12.png": "image/kako12.png",
+    "https://viprpg2021s.kenkenpa.net/image/kako13.png": "image/kako13.png",
+    "https://viprpg2021s.kenkenpa.net/image/kako14.png": "image/kako14.png",
+    "https://viprpg2021s.kenkenpa.net/image/kako15.png": "image/kako15.png",
+    "https://viprpg2021s.kenkenpa.net/image/kako16.png": "image/kako16.png",
+    "https://viprpg2021s.kenkenpa.net/image/kako16ura.png": "image/kako16ura.png",
+    "https://viprpg2021s.kenkenpa.net/image/kako17.png": "image/kako17.png",
+    "https://viprpg2021s.kenkenpa.net/image/kako18.png": "image/kako18.png",
+    "https://viprpg2021s.kenkenpa.net/image/kako19.png": "image/kako19.png",
+    "https://viprpg2021s.kenkenpa.net/image/kako20.png": "image/kako20.png",
+    "https://viprpg2021s.kenkenpa.net/image/no00ss1.png": "image/no00ss1.png",
+    "https://viprpg2021s.kenkenpa.net/image/no00ss2.png": "image/no00ss2.png",
+    "https://viprpg2021s.kenkenpa.net/image/no01ss1.png": "image/no01ss1.png",
+    "https://viprpg2021s.kenkenpa.net/image/no02ss1.png": "image/no02ss1.png",
+    "https://viprpg2021s.kenkenpa.net/image/no03ss1.png": "image/no03ss1.png",
+    "https://viprpg2021s.kenkenpa.net/image/no03ss2.png": "image/no03ss2.png",
+    "https://viprpg2021s.kenkenpa.net/image/no04ss1.png": "image/no04ss1.png",
+    "https://viprpg2021s.kenkenpa.net/image/no05ss1.png": "image/no05ss1.png",
+    "https://viprpg2021s.kenkenpa.net/image/no06ss1.jpg": "image/no06ss1.jpg",
+    "https://viprpg2021s.kenkenpa.net/image/no07ss1.png": "image/no07ss1.png",
+    "https://viprpg2021s.kenkenpa.net/image/no07ss2.png": "image/no07ss2.png",
+    "https://viprpg2021s.kenkenpa.net/image/no08ss1.png": "image/no08ss1.png",
+    "https://viprpg2021s.kenkenpa.net/image/no08ss2.png": "image/no08ss2.png",
+    "https://viprpg2021s.kenkenpa.net/image/no09ss1.png": "image/no09ss1.png",
+    "https://viprpg2021s.kenkenpa.net/image/no09ss2.png": "image/no09ss2.png",
+    "https://viprpg2021s.kenkenpa.net/image/no10ss1.png": "image/no10ss1.png",
+    "https://viprpg2021s.kenkenpa.net/image/no10ss2.png": "image/no10ss2.png",
+    "https://viprpg2021s.kenkenpa.net/image/no11ss1.png": "image/no11ss1.png",
+    "https://viprpg2021s.kenkenpa.net/image/no11ss2.png": "image/no11ss2.png",
+    "https://viprpg2021s.kenkenpa.net/image/no12ss1.png": "image/no12ss1.png",
+    "https://viprpg2021s.kenkenpa.net/image/no13ss1.png": "image/no13ss1.png",
+    "https://viprpg2021s.kenkenpa.net/image/no14ss1.png": "image/no14ss1.png",
+    "https://viprpg2021s.kenkenpa.net/image/no14ss2.png": "image/no14ss2.png",
+    "https://viprpg2021s.kenkenpa.net/image/no15ss1.png": "image/no15ss1.png",
+    "https://viprpg2021s.kenkenpa.net/image/no16ss1.png": "image/no16ss1.png",
+    "https://viprpg2021s.kenkenpa.net/image/no16ss2.png": "image/no16ss2.png",
+    "https://viprpg2021s.kenkenpa.net/image/no17ss1.png": "image/no17ss1.png",
+    "https://viprpg2021s.kenkenpa.net/image/no18ss1.png": "image/no18ss1.png",
+    "https://viprpg2021s.kenkenpa.net/image/no18ss2.png": "image/no18ss2.png",
+    "https://viprpg2021s.kenkenpa.net/image/no19ss1.png": "image/no19ss1.png",
+    "https://viprpg2021s.kenkenpa.net/image/no19ss2.png": "image/no19ss2.png",
+    "https://viprpg2021s.kenkenpa.net/image/no20ss1.png": "image/no20ss1.png",
+    "https://viprpg2021s.kenkenpa.net/image/no21ss1.png": "image/no21ss1.png",
+    "https://viprpg2021s.kenkenpa.net/image/no22ss1.png": "image/no22ss1.png",
+    "https://viprpg2021s.kenkenpa.net/image/no23ss1.png": "image/no23ss1.png",
+    "https://viprpg2021s.kenkenpa.net/image/no23ss2.png": "image/no23ss2.png",
+    "https://viprpg2021s.kenkenpa.net/image/no24ss1.png": "image/no24ss1.png",
+    "https://viprpg2021s.kenkenpa.net/image/no24ss2.png": "image/no24ss2.png",
+    "https://viprpg2021s.kenkenpa.net/image/no25ss1.png": "image/no25ss1.png",
+    "https://viprpg2021s.kenkenpa.net/image/no25ss2.png": "image/no25ss2.png",
+    "https://viprpg2021s.kenkenpa.net/image/no26ss1.png": "image/no26ss1.png",
+    "https://viprpg2021s.kenkenpa.net/image/no26ss2.png": "image/no26ss2.png",
+    "https://viprpg2021s.kenkenpa.net/image/no27ss1.png": "image/no27ss1.png",
+    "https://viprpg2021s.kenkenpa.net/image/no28ss1.png": "image/no28ss1.png",
+    "https://viprpg2021s.kenkenpa.net/image/no29ss1.png": "image/no29ss1.png",
+    "https://viprpg2021s.kenkenpa.net/image/no29ss2.png": "image/no29ss2.png",
+    "https://viprpg2021s.kenkenpa.net/image/no30ss1.png": "image/no30ss1.png",
+    "https://viprpg2021s.kenkenpa.net/image/no30ss2.png": "image/no30ss2.png",
+    "https://viprpg2021s.kenkenpa.net/image/no31ss1.png": "image/no31ss1.png",
+    "https://viprpg2021s.kenkenpa.net/image/no32ss1.png": "image/no32ss1.png",
+    "https://viprpg2021s.kenkenpa.net/image/no32ss2.png": "image/no32ss2.png",
+    "https://viprpg2021s.kenkenpa.net/image/no33ss1.png": "image/no33ss1.png",
+    "https://viprpg2021s.kenkenpa.net/image/no34ss1.png": "image/no34ss1.png",
+    "https://viprpg2021s.kenkenpa.net/image/no35ss1.png": "image/no35ss1.png",
+    "https://viprpg2021s.kenkenpa.net/image/no36ss1.png": "image/no36ss1.png",
+    "https://viprpg2021s.kenkenpa.net/image/no36ss2.png": "image/no36ss2.png",
+    "https://viprpg2021s.kenkenpa.net/image/no37ss1.png": "image/no37ss1.png",
+    "https://viprpg2021s.kenkenpa.net/image/no37ss2.png": "image/no37ss2.png",
+    "https://viprpg2021s.kenkenpa.net/image/no38ss1.png": "image/no38ss1.png",
+    "https://viprpg2021s.kenkenpa.net/image/no38ss2.png": "image/no38ss2.png",
+    "https://viprpg2021s.kenkenpa.net/image/no39ss1.png": "image/no39ss1.png",
+    "https://viprpg2021s.kenkenpa.net/image/no40ss1.png": "image/no40ss1.png",
+    "https://viprpg2021s.kenkenpa.net/image/no41ss1.png": "image/no41ss1.png",
+    "https://viprpg2021s.kenkenpa.net/image/no42ss1.png": "image/no42ss1.png",
+    "https://viprpg2021s.kenkenpa.net/image/no42ss2.png": "image/no42ss2.png",
+    "https://viprpg2021s.kenkenpa.net/image/no43ss1.png": "image/no43ss1.png",
+    "https://viprpg2021s.kenkenpa.net/image/no43ss2.png": "image/no43ss2.png",
+    "https://viprpg2021s.kenkenpa.net/image/no45ss1.png": "image/no45ss1.png",
+    "https://viprpg2021s.kenkenpa.net/image/no45ss2.png": "image/no45ss2.png",
+    "https://viprpg2021s.kenkenpa.net/image/background1.jpg": "image/background1.jpg",
+    "https://viprpg2021s.kenkenpa.net/no9.html": "no09.html",
+    "https://viprpg2021s.kenkenpa.net/": "index.html",
+    "http://viprpg2021s.kenkenpa.net/": "index.html"
+  },
+  "entries": [
+    {
+      "id": "2021-summer-work-00",
+      "no": "00",
+      "detailUrl": "https://viprpg2021s.kenkenpa.net/no00.html",
+      "catalogueTitle": "夏の陣2021",
+      "detailTitle": "題名",
+      "sourceTemplate": true,
+      "sourceMetadata": {
+        "作者": "",
+        "ジャンル": "",
+        "ツール": "",
+        "配信/投稿": "",
+        "作者コメント": "ここに作者のコメントが入ります。",
+        "管理人コメント": "ここに管理人のコメントが入ります。"
+      },
+      "catalogueMetadata": {
+        "author": "管理人",
+        "category": "見るゲ",
+        "engine": "2000",
+        "streaming": "○/○"
+      },
+      "metadataDifferences": [
+        {
+          "label": "作者",
+          "catalogue": "管理人",
+          "detail": ""
+        },
+        {
+          "label": "ジャンル",
+          "catalogue": "見るゲ",
+          "detail": ""
+        },
+        {
+          "label": "ツール",
+          "catalogue": "2000",
+          "detail": ""
+        },
+        {
+          "label": "配信/投稿",
+          "catalogue": "○/○",
+          "detail": ""
+        }
+      ],
+      "iconSourceUrl": "https://viprpg2021s.kenkenpa.net/image/noicon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no00ss1.png",
+          "local": "/screenshots/2021-summer/00-source-1.png",
+          "sha256": "df72dae66513881d25742d12149bc3abb1184a4e5e8f79f1c3e141e4f13388ef"
+        },
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no00ss2.png",
+          "local": "/screenshots/2021-summer/00-source-2.png",
+          "sha256": "927c9d40d077907057db81134429f81f020d902bf59ec5d1d848539e6882c900"
+        }
+      ],
+      "missingImageUrls": [],
+      "downloadLinks": [],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-summer-work-01",
+      "no": "01",
+      "detailUrl": "https://viprpg2021s.kenkenpa.net/no01.html",
+      "catalogueTitle": "モシモピコ",
+      "detailTitle": "モシモピコ",
+      "sourceTemplate": false,
+      "sourceMetadata": {
+        "作者": "KC.R",
+        "ジャンル": "魔王把握",
+        "ツール": "RPGツクール2000",
+        "配信/投稿": "",
+        "作者コメント": "ごく普通の魔王把握です。安心安全。\n\t\tゴメスオチです。\n\t\t先に言っておけば安心だよね！！！！！！！！！！！！！！！！！！！\n\t\t\n\t\tこのゲームは自作したRPGツクール用のフリー素材と、優しさで作られています。\n\t\t素材のフォルダ内にあるものは全て使ってよし、改造してよしです。",
+        "管理人コメント": "これはかわいい素材！！完成が楽しみです。"
+      },
+      "catalogueMetadata": {
+        "author": "KC.R",
+        "category": "魔王把握",
+        "engine": "RPGツクール2000",
+        "streaming": "〇/〇"
+      },
+      "metadataDifferences": [
+        {
+          "label": "配信/投稿",
+          "catalogue": "〇/〇",
+          "detail": ""
+        }
+      ],
+      "iconSourceUrl": "https://viprpg2021s.kenkenpa.net/image/no01icon.gif",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no01ss1.png",
+          "local": "/screenshots/2021-summer/01-source-1.png",
+          "sha256": "d64a832c8e96947fff72c129c949eee887e585b4c7dd7138c71b515fcb4f5835"
+        }
+      ],
+      "missingImageUrls": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1UK6fYw3ByeQM7d6rGbRCyzEZpKcjOj8F",
+          "label": "990KB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-summer-work-02",
+      "no": "02",
+      "detailUrl": "https://viprpg2021s.kenkenpa.net/no02.html",
+      "catalogueTitle": "THE ENTRY",
+      "detailTitle": "THE ENTRY",
+      "sourceTemplate": false,
+      "sourceMetadata": {
+        "作者": "モルスァーマン",
+        "ジャンル": "シンプルksg",
+        "ツール": "ENG2003",
+        "配信/投稿": "やだ/やだ",
+        "作者コメント": "重作業の反動でおててが震えてる中で文字を打つのはちょっときつい🥺",
+        "管理人コメント": "文字打ちファイト！どんな作品なのか全く想像が付かない…！！"
+      },
+      "catalogueMetadata": {
+        "author": "モルスァーマン",
+        "category": "シンプルksg",
+        "engine": "ENG2003",
+        "streaming": "やだ/やだ"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2021s.kenkenpa.net/image/no02icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no02ss1.png",
+          "local": "/screenshots/2021-summer/02-source-1.png",
+          "sha256": "00bc973140c60b97fef0fb2ce9ec28922c96af867bb2a97f1563e81292162424"
+        }
+      ],
+      "missingImageUrls": [],
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/",
+          "label": "----"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-summer-work-03",
+      "no": "03",
+      "detailUrl": "https://viprpg2021s.kenkenpa.net/no03.html",
+      "catalogueTitle": "緊急辞退条項",
+      "detailTitle": "緊急辞退条項",
+      "sourceTemplate": false,
+      "sourceMetadata": {
+        "作者": "平社員ヤーメ",
+        "ジャンル": "tktkやめたいなぁ…",
+        "ツール": "2000（そろそろやめたいなぁ…）",
+        "配信/投稿": "もう人生もやめたいなぁ…",
+        "作者コメント": "新型やめたいなぁウィルスに感染して多分作品出せません。",
+        "管理人コメント": "驚異の新型やめたいなぁウイルス…！！\n提出は9月上旬までできるのでモチベのある時にのんびりtkってください！"
+      },
+      "catalogueMetadata": {
+        "author": "平社員ヤーメ",
+        "category": "tktkやめたいなぁ…",
+        "engine": "2000（そろそろやめたいなぁ…）",
+        "streaming": "もう人生もやめたいなぁ…"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2021s.kenkenpa.net/image/no03icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no03ss1.png",
+          "local": "/screenshots/2021-summer/03-source-1.png",
+          "sha256": "3af54a56c6989dcb81cab247153119dcc15c421db5fe9ae6b7f1725d10024100"
+        },
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no03ss2.png",
+          "local": "/screenshots/2021-summer/03-source-2.png",
+          "sha256": "1a9e5b4adbb482cd6c4be277d1096d703b64067a7ef9918a7f6cf95dd13cee3f"
+        }
+      ],
+      "missingImageUrls": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1-d3jiQ-sYvKpITjSf_wJM20v2HcNgJPZ",
+          "label": "283KB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-summer-work-04",
+      "no": "04",
+      "detailUrl": "https://viprpg2021s.kenkenpa.net/no04.html",
+      "catalogueTitle": "苦い思い出",
+      "detailTitle": "苦い思い出",
+      "sourceTemplate": false,
+      "sourceMetadata": {
+        "作者": "雪見だいふく",
+        "ジャンル": "醤油",
+        "ツール": "2000",
+        "配信/投稿": "おｋ/おｋ",
+        "作者コメント": "共感性羞恥心を浴びせてやりたい",
+        "管理人コメント": "ツクラーなら誰もが通る道…？！実は初期位置以外は初めて見た。\n初心者を超えたらいずれ分かるのだろうか…"
+      },
+      "catalogueMetadata": {
+        "author": "雪見だいふく",
+        "category": "醤油",
+        "engine": "2000",
+        "streaming": "おｋ/おｋ"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2021s.kenkenpa.net/image/no04icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no04ss1.png",
+          "local": "/screenshots/2021-summer/04-source-1.png",
+          "sha256": "f3cafbf9806eabe75a65a23b82aa239f790439153c30e334c8bb4065705c763b"
+        }
+      ],
+      "missingImageUrls": [],
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/",
+          "label": "----"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-summer-work-05",
+      "no": "05",
+      "detailUrl": "https://viprpg2021s.kenkenpa.net/no05.html",
+      "catalogueTitle": "劇場版アフロ短剣使い　恐怖！モスギルマン",
+      "detailTitle": "劇場版アフロ短剣使い　恐怖！モスギルマン",
+      "sourceTemplate": false,
+      "sourceMetadata": {
+        "作者": "かすていら",
+        "ジャンル": "モスギルマンの身にアフロ短剣使いが襲いかかる！",
+        "ツール": "ツクール2000",
+        "配信/投稿": "いいよ",
+        "作者コメント": "モスギルマンがアフロ短剣使いに襲い掛かります\n今から作ります",
+        "管理人コメント": "一体どっちが先に手を出したんだ…？！"
+      },
+      "catalogueMetadata": {
+        "author": "かすていら",
+        "category": "モスギルマンの身にアフロ短剣使いが襲いかかる！",
+        "engine": "ツクール2000",
+        "streaming": "いいよ"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2021s.kenkenpa.net/image/noicon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no05ss1.png",
+          "local": "/screenshots/2021-summer/05-source-1.png",
+          "sha256": "0f821eec7dc751e4b7fad15e77b6029db3e3826ced7872ccc1ac4105de13f326"
+        }
+      ],
+      "missingImageUrls": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1K4JHWU625G-Q7ER6ssLUvTLw67SL40mc",
+          "label": "44MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-summer-work-06",
+      "no": "06",
+      "detailUrl": "https://viprpg2021s.kenkenpa.net/no06.html",
+      "catalogueTitle": "ホモの恩返し",
+      "detailTitle": "ホモの恩返し",
+      "sourceTemplate": false,
+      "sourceMetadata": {
+        "作者": "UNKO",
+        "ジャンル": "ksg",
+        "ツール": "2000",
+        "配信/投稿": "〇",
+        "作者コメント": "むかしむかし、ある所に心の優しいアレックスが居ました\nある日、アレックスは処女を売りに行きました\nすると途中罠にかかったホモが居ました\n心の優しいアレックスは罠から外してそのホモを助けました\nするとホモは\nこの恩は必ずお返しします\nそう言って去っていきました\nその夜、アレックスの家の戸をトントンと叩く音がしました\nアレックスが戸を開けると頭から精子を被ったホモが立っていました\nこわいねぇ…\n優しいアレックスはそのホモを家に入れてしまいました\nそしてその晩アレックスは疲れからか、寝ていましたが\nおトイレに行きたくなって目を覚ましました\nしかし、手足を縛られていて動けません\nこれは夢なのか、現実なのか…。\n暑い真夏の夜過熱した欲望は、遂に危険な領域へと突入する。",
+        "管理人コメント": "恐ろしい世界観だ…！！！"
+      },
+      "catalogueMetadata": {
+        "author": "UNKO",
+        "category": "ksg",
+        "engine": "2000",
+        "streaming": "〇"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2021s.kenkenpa.net/image/noicon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no06ss1.jpg",
+          "local": "/screenshots/2021-summer/06-source-1.jpg",
+          "sha256": "8a8d83cb71c19133ad6ceabb5fb2951adb9865145718c1bac07315d9f46b1203"
+        }
+      ],
+      "missingImageUrls": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1vUDEmxO5q1FrFjZbdTQE0nwniFRomxjl",
+          "label": "2KB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-summer-work-07",
+      "no": "07",
+      "detailUrl": "https://viprpg2021s.kenkenpa.net/no07.html",
+      "catalogueTitle": "Moshimo Fantasy Ⅳ The After Trailer & Fall of Heart 俺式ムーンライト",
+      "detailTitle": "Moshimo Fantasy Ⅳ The After Trailer & Fall of Heart 俺式ムーンライト",
+      "sourceTemplate": false,
+      "sourceMetadata": {
+        "作者": "五つ葉",
+        "ジャンル": "見るゲ",
+        "ツール": "Steam2003",
+        "配信/投稿": "可/可",
+        "作者コメント": "～Moshimo Fantasy Ⅳ The After Trailer～\n\nFINAL FANTASY IV THE AFTER YEARS-月の帰還-の\nトレーラームービーの再現&アレンジです。\n\nつまり昨年の夏の陣に提出した\nMoshimo Fantasy Ⅳ の続編のPV的なアレです。\n\n視聴時間約4分\n\n～Fall Of Heart～\n\nある日のこと・・\nシロから分身魔法を習ったライチは分身をしてみる。\nしかしライチの様子がおかしくなってしまう！\n\n視聴時間約5~10分",
+        "管理人コメント": "どっちも気になる！カッコいい(ム)ライチが見られそうだぁ…！"
+      },
+      "catalogueMetadata": {
+        "author": "五つ葉",
+        "category": "見るゲ",
+        "engine": "Steam2003",
+        "streaming": "可/可"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2021s.kenkenpa.net/image/no07icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no07ss1.png",
+          "local": "/screenshots/2021-summer/07-source-1.png",
+          "sha256": "79e39194501e3380764bb2ff5b6be1288d983519a238516791df07edaaf2a305"
+        },
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no07ss2.png",
+          "local": "/screenshots/2021-summer/07-source-2.png",
+          "sha256": "720f8ce42bbc816d5db57a0a90a9cbeb321143aa86826436e40b1ba8bfcd14c3"
+        }
+      ],
+      "missingImageUrls": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1iJD7_gDMzRAa4TPglMItsJrcS2rAxFLu",
+          "label": "16MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-summer-work-08",
+      "no": "08",
+      "detailUrl": "https://viprpg2021s.kenkenpa.net/no08.html",
+      "catalogueTitle": "PRECIOUS -なぜショウは神に挑んだのか-",
+      "detailTitle": "PRECIOUS -なぜショウは神に挑んだのか-",
+      "sourceTemplate": false,
+      "sourceMetadata": {
+        "作者": "たんち",
+        "ジャンル": "コメディバトルアクション見るゲ",
+        "ツール": "Steam2003",
+        "配信/投稿": "可・可",
+        "作者コメント": "14周年リメイク始めました。",
+        "管理人コメント": "プレシャスリメイクは名作の法則（今作った）はたしてショウの戦う理由とは…？！"
+      },
+      "catalogueMetadata": {
+        "author": "たんち",
+        "category": "コメディバトルアクション見るゲ",
+        "engine": "Steam2003",
+        "streaming": "可・可"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2021s.kenkenpa.net/image/no08icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no08ss1.png",
+          "local": "/screenshots/2021-summer/08-source-1.png",
+          "sha256": "26f573734c5ce2ec7f23599268df060bdc2701a89a4a4fe626fbcabfe3976977"
+        },
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no08ss2.png",
+          "local": "/screenshots/2021-summer/08-source-2.png",
+          "sha256": "4bdaf23a9ba04e8cbd301bf740f0cbb904d388634997a72bc6c3afddc43a5582"
+        }
+      ],
+      "missingImageUrls": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1xGiO42atK6Rglsn02UsIOIBs8JAcJDS9",
+          "label": "86MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-summer-work-09",
+      "no": "09",
+      "detailUrl": "https://viprpg2021s.kenkenpa.net/no09.html",
+      "catalogueTitle": "モンスターズ・カーニバル（体験版）",
+      "detailTitle": "モンスターズ・カーニバル（体験版）",
+      "sourceTemplate": false,
+      "sourceMetadata": {
+        "作者": "アラン・スミシー",
+        "ジャンル": "収集&育成",
+        "ツール": "RPGツクールMV",
+        "配信/投稿": "可／可",
+        "作者コメント": "スクエニはドラクエモンスターズの新作を出せ",
+        "管理人コメント": "今度はどんなモンスターと出会えるんだろうか。"
+      },
+      "catalogueMetadata": {
+        "author": "アラン・スミシー",
+        "category": "収集&育成",
+        "engine": "RPGツクールMV",
+        "streaming": "可／可"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2021s.kenkenpa.net/image/no09icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no09ss1.png",
+          "local": "/screenshots/2021-summer/09-source-1.png",
+          "sha256": "28a7ee45cafd1a456371168e58170bf6e9631ac97f68da0849b38f6f4926c1fc"
+        },
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no09ss2.png",
+          "local": "/screenshots/2021-summer/09-source-2.png",
+          "sha256": "db59fd0f07db6a63d7748daf172c09d5fb1f32a43bc1811faa0f5ddc8fe1a745"
+        }
+      ],
+      "missingImageUrls": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=16BgYe8-ywW6uDtosay3ErZtJCiuoszZn",
+          "label": "Win"
+        },
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1-sjXYYoqf6_2Jr7HIetRQQ-2ZfUgO69x",
+          "label": "Mac"
+        },
+        {
+          "url": "https://game.nicovideo.jp/atsumaru/games/gm21500?key=dc4dd81113e7",
+          "label": "URL"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-summer-work-10",
+      "no": "10",
+      "detailUrl": "https://viprpg2021s.kenkenpa.net/no10.html",
+      "catalogueTitle": "lこ　ん　lこ　く　農　家　の　陰　謀",
+      "detailTitle": "lこ　ん　lこ　く　農　家　の　陰　謀",
+      "sourceTemplate": false,
+      "sourceMetadata": {
+        "作者": "ナナメティックスレイヤー",
+        "ジャンル": "見るゲ",
+        "ツール": "2000",
+        "配信/投稿": "可／可",
+        "作者コメント": "2019夏の陣以来\n\n二年ぶり二回目の祭参加となります\n\nよろしくお願いします\n\n\n\n今回は　20分程度の見るゲで　途中セーブ地点は２ヶ所です\n\n\n\nどうぞお楽しみください\n\n\n\nタイトルが変なのは検索避けです",
+        "管理人コメント": "にんにく農家がアレックスに復讐？！謎が謎を呼びそう。"
+      },
+      "catalogueMetadata": {
+        "author": "ナナメティックスレイヤー",
+        "category": "見るゲ",
+        "engine": "2000",
+        "streaming": "配信：おｋ/投稿：自分でやります"
+      },
+      "metadataDifferences": [
+        {
+          "label": "配信/投稿",
+          "catalogue": "配信：おｋ/投稿：自分でやります",
+          "detail": "可／可"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg2021s.kenkenpa.net/image/no10icon.gif",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no10ss1.png",
+          "local": "/screenshots/2021-summer/10-source-1.png",
+          "sha256": "8747dc87f4355fe9e20fdcb0cae32f435a219902bfec60375146ffec6accd6fd"
+        },
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no10ss2.png",
+          "local": "/screenshots/2021-summer/10-source-2.png",
+          "sha256": "28fc6e67d99c68f5b436684e583e8139ca3cda3321527cffc3815341868261c5"
+        }
+      ],
+      "missingImageUrls": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=18h6muRmAiWG-4SP3HXwfQFtuExAkRE3i",
+          "label": "14MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-summer-work-11",
+      "no": "11",
+      "detailUrl": "https://viprpg2021s.kenkenpa.net/no11.html",
+      "catalogueTitle": "WATERI～私で「在」る為に～（+水面の先にいるあなたへ）",
+      "detailTitle": "WATERI～私で「在」る為に～（+水面の先にいるあなたへ）",
+      "sourceTemplate": false,
+      "sourceMetadata": {
+        "作者": "ナラネーヨ",
+        "ジャンル": "ごった煮やるゲ（+探索ゲ）",
+        "ツール": "2000",
+        "配信/投稿": "きほんは〇/〇かいて〇",
+        "作者コメント": "〇WATERI～私で『在』る為に～(ごった煮)\n\n　色々な挑戦を兼ねてtkった今回の本命作品\n　スキップ機能搭載で、苦手なジャンルや面倒なステージがあってもピピピでポン！\n　想定PIAI時間:1時間～2時間前後くらい\n\n〇水面の先にいるあなたへ(探索)\n\n　ツイッターでのジャンル募集アンケートを元にtkった作品\n　おまけで付いてる押し売りソフトみたいな感じ\n　静かめな雰囲気+ほぼサイレント(無台詞)\n　それに加え音楽の力を借り、眠気を誘う…！\n　想定PIAI時間:1時間前後くらい\n（攻略情報的なテキストあり）\n\n※両作品の世界観に関連性はありません\n\nツクール歴2ヶ月というのもあり拙いところは多々あると思いますが\n少しでも楽しんでいただければ幸いです！",
+        "管理人コメント": "なんだか深イイ話の予感。苦手なところを飛ばせるのは地味にタスカル。"
+      },
+      "catalogueMetadata": {
+        "author": "ナラネーヨ",
+        "category": "ごった煮やるゲ（+探索ゲ）",
+        "engine": "2000",
+        "streaming": "きほんは〇/〇かいて〇"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2021s.kenkenpa.net/image/no11icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no11ss1.png",
+          "local": "/screenshots/2021-summer/11-source-1.png",
+          "sha256": "82c020207c9538130f6df5999a651afd07072fa99e9d57ebcda62fb7712a2db6"
+        },
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no11ss2.png",
+          "local": "/screenshots/2021-summer/11-source-2.png",
+          "sha256": "47cc098af90ed8d42a05c2497efe919a9143158c759814a68ebd0133ba93eb4b"
+        }
+      ],
+      "missingImageUrls": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1ClAA5Itv_ieVBNWdaiy-gNRGta3gZeRb",
+          "label": "61MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-summer-work-12",
+      "no": "12",
+      "detailUrl": "https://viprpg2021s.kenkenpa.net/no12.html",
+      "catalogueTitle": "今から作る",
+      "detailTitle": "今から作る",
+      "sourceTemplate": false,
+      "sourceMetadata": {
+        "作者": "今から作る",
+        "ジャンル": "今から作る",
+        "ツール": "今から作る",
+        "配信/投稿": "今から作る",
+        "作者コメント": "今から作ります。無計画賞をくれ！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！",
+        "管理人コメント": "無計画賞めざして今から頑張れ！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！"
+      },
+      "catalogueMetadata": {
+        "author": "今から作る",
+        "category": "今から作る",
+        "engine": "今から作る",
+        "streaming": "今から作る"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2021s.kenkenpa.net/image/no12icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no12ss1.png",
+          "local": "/screenshots/2021-summer/12-source-1.png",
+          "sha256": "f877be3ae8361d6f4f64de85ecfcaea6ed5a992509bb5876ae7564adbe8874e6"
+        }
+      ],
+      "missingImageUrls": [],
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/",
+          "label": "----"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-summer-work-13",
+      "no": "13",
+      "detailUrl": "https://viprpg2021s.kenkenpa.net/no13.html",
+      "catalogueTitle": "好きなキャラ100人で魔王把握「夏」",
+      "detailTitle": "好きなキャラ100人で魔王把握「夏」",
+      "sourceTemplate": false,
+      "sourceMetadata": {
+        "作者": "牧場の牛肉",
+        "ジャンル": "魔王把握",
+        "ツール": "2000",
+        "配信/投稿": "○/○",
+        "作者コメント": "何回目かの便乗となる好きなキャラ100人を出すやつ\n2年前の夏の陣でも似た様なのを作ったけど、100キャラverもやりたくなったので作り始めました\n\nこの作品に出ないキャラの中にも好きなキャラはたくさんいるので「特に好きなんだなぁ」という感じに捉えてください\n\n少しの探索要素があるくらいなのでちょっとした息抜きなどに",
+        "管理人コメント": "誰が出てくるんだろう？ワールドさんとゆうれいちゃんの掛け合いも想像できなくて気になる。"
+      },
+      "catalogueMetadata": {
+        "author": "牧場の牛肉",
+        "category": "魔王把握",
+        "engine": "2000",
+        "streaming": "○/○"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2021s.kenkenpa.net/image/no13icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no13ss1.png",
+          "local": "/screenshots/2021-summer/13-source-1.png",
+          "sha256": "b3d38dd7089e5804219fcc4da603be0434c78c177ffa500d19dbc2fb4ad43a25"
+        }
+      ],
+      "missingImageUrls": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=12X7zHolnS6QsIVc-Op8PN22zZpaGLox9",
+          "label": "4MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-summer-work-14",
+      "no": "14",
+      "detailUrl": "https://viprpg2021s.kenkenpa.net/no14.html",
+      "catalogueTitle": "BLOODY BULLET",
+      "detailTitle": "BLOODY BULLET",
+      "sourceTemplate": false,
+      "sourceMetadata": {
+        "作者": "紅夏",
+        "ジャンル": "ガンアクション",
+        "ツール": "RPGツクール2000",
+        "配信/投稿": "可能",
+        "作者コメント": "一応 \"VIPRPG\"の世界観で、魔王把握をやっている国から\n遙か西に存在する国の物語です。\n\nまだ作成中の為、完成しなかった場合はスコアアタック制の\nゲームにする予定です。",
+        "管理人コメント": "SSから本気度が伝わってくる。どんなアクションが見られるだろうか。"
+      },
+      "catalogueMetadata": {
+        "author": "紅夏",
+        "category": "ガンアクション",
+        "engine": "RPGツクール2000",
+        "streaming": "可能"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2021s.kenkenpa.net/image/no14icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no14ss1.png",
+          "local": "/screenshots/2021-summer/14-source-1.png",
+          "sha256": "1f9f9a7541e1f0bbae403ef2e63c72a7e02275296ef5cdc94e9b90fc3ceabc83"
+        },
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no14ss2.png",
+          "local": "/screenshots/2021-summer/14-source-2.png",
+          "sha256": "44272475df1607ff39dd86a42c3e05bebf643b3f452064448bbc0cacd46f9650"
+        }
+      ],
+      "missingImageUrls": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=11zQYvI_qgvlCQqx7g8pOu5UpdXl5laTM",
+          "label": "59MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-summer-work-15",
+      "no": "15",
+      "detailUrl": "https://viprpg2021s.kenkenpa.net/no15.html",
+      "catalogueTitle": "もしも　白い部屋にオス臭い４人がいたら",
+      "detailTitle": "もしも　白い部屋にオス臭い４人がいたら",
+      "sourceTemplate": false,
+      "sourceMetadata": {
+        "作者": "ゴメスおちんちんZZ",
+        "ジャンル": "なぞときRPG人間ドラマ",
+        "ツール": "ツクールMV",
+        "配信/投稿": "配信は不可でおねがいします。",
+        "作者コメント": "ストーリー：\n目が覚めると、白い部屋にオス臭い男たちと閉じ込められていたアレックス\n密室、ガタイのいいオス４人。何も起こらないはずがなく・・・\n\n\n初参加です。おねがいいたします。攻略法などにつきましてはリードミーに書いています。ゴメスが好きです。",
+        "管理人コメント": "もう逃げられないゾ♡"
+      },
+      "catalogueMetadata": {
+        "author": "ゴメスおちんちんZZ",
+        "category": "なぞときRPG人間ドラマ",
+        "engine": "ツクールMV",
+        "streaming": "配信は不可でおねがいします。"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2021s.kenkenpa.net/image/no15icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no15ss1.png",
+          "local": "/screenshots/2021-summer/15-source-1.png",
+          "sha256": "f5c96a367fa86a8e8f113101287177704b582338e6e90b7c959828835ec69951"
+        }
+      ],
+      "missingImageUrls": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1RwZqPxVYi3MQk1e2k7_3RjX_5_z8rFBQ",
+          "label": "149MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-summer-work-16",
+      "no": "16",
+      "detailUrl": "https://viprpg2021s.kenkenpa.net/no16.html",
+      "catalogueTitle": "もしもいろいろ王国",
+      "detailTitle": "もしもいろいろ王国",
+      "sourceTemplate": false,
+      "sourceMetadata": {
+        "作者": "イロイロ",
+        "ジャンル": "アンドロイドと一緒に過ごすＲＰＧ",
+        "ツール": "ＲＰＧツクール2000",
+        "配信/投稿": "できたらね/できたらね",
+        "作者コメント": "アンドロイドは決して携帯機種とは関係ありません。",
+        "管理人コメント": "アンドロイドに妖精にポケモン…多様なキャラ達の織り成す物語が見られそう。"
+      },
+      "catalogueMetadata": {
+        "author": "イロイロ",
+        "category": "アンドロイドと一緒に過ごすＲＰＧ",
+        "engine": "RPGツクール2000",
+        "streaming": "できたらね/できたらね"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2021s.kenkenpa.net/image/no16icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no16ss1.png",
+          "local": "/screenshots/2021-summer/16-source-1.png",
+          "sha256": "2dad481b8e1d43f93d2610f6e807d20cb733a83927da5b53de325115ee2c0db4"
+        },
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no16ss2.png",
+          "local": "/screenshots/2021-summer/16-source-2.png",
+          "sha256": "53e7e9fdead4bd5ee6ccea85645d645614dcdb42ad008c61bd245ed45eb7fa23"
+        }
+      ],
+      "missingImageUrls": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1k3Ay-UNmrjRm43E_8p65MLmAuQxmSRLR",
+          "label": "6MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-summer-work-17",
+      "no": "17",
+      "detailUrl": "https://viprpg2021s.kenkenpa.net/no17.html",
+      "catalogueTitle": "輝ける空の彼方へ",
+      "detailTitle": "輝ける空の彼方へ",
+      "sourceTemplate": false,
+      "sourceMetadata": {
+        "作者": "ぼじょ",
+        "ジャンル": "デフォ戦",
+        "ツール": "RPGツクール2000",
+        "配信/投稿": "可・可",
+        "作者コメント": "人の痛みも、苦しみも、\n僕には分からないのです",
+        "管理人コメント": "雰囲気がかっこいい…！（語彙力）デフォ戦の戦略性も高そう。"
+      },
+      "catalogueMetadata": {
+        "author": "ぼじょ",
+        "category": "デフォ戦",
+        "engine": "RPGツクール2000",
+        "streaming": "可・可"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2021s.kenkenpa.net/image/noicon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no17ss1.png",
+          "local": "/screenshots/2021-summer/17-source-1.png",
+          "sha256": "ae03df562b1ca46c6aa53905f66152ca7faf7fc9bb9de5a765776e647adfb460"
+        }
+      ],
+      "missingImageUrls": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1XyT31AN7rKYq1Z7nSjytUz-QinTwTBC6",
+          "label": "11MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-summer-work-18",
+      "no": "18",
+      "detailUrl": "https://viprpg2021s.kenkenpa.net/no18.html",
+      "catalogueTitle": "バリアーズEcstasying Restricted Game",
+      "detailTitle": "バリアーズEcstasying Restricted Game",
+      "sourceTemplate": false,
+      "sourceMetadata": {
+        "作者": "雷塵",
+        "ジャンル": "バリアーズのerg（※R-18）",
+        "ツール": "RPGツクール2000",
+        "配信/投稿": "メチコによる粛清不可避/（どっちもダメだよ）",
+        "作者コメント": "これはバリアーズの官能的な閲覧制限付きゲーム（ようは短編集詰め合わせerg。）\n\nテキストとドットアニメーションとピクチャで描かれる11人のバリアーズの女の子達のえっちな姿を楽しもう！（推しの子がいなかったらゴメンね！　あとろばりのは残念ですがありません）\n\n竿役の名前は自由に変更可能です。（基本的には普通の男だけど、一部作品ではショタになったりする。）\n\n色々端折った低クオリティな超短編集ではありますが、誰かオカズにでもしてくれたら嬉しいな！\n\n\n\n※エロドットはほぼ自作改変で、ピクチャはロリergに定評のある某作者様が描かれたものです。",
+        "管理人コメント": "テキストにドットアニメにピクチャでバリアーズ11人のergだって？！こいつは欲張りセットすぎる！オラワクワクすっぞ！!"
+      },
+      "catalogueMetadata": {
+        "author": "雷塵",
+        "category": "バリアーズのerg（※R-18）",
+        "engine": "RPGツクール2000",
+        "streaming": "メチコによる粛清不可避/（どっちもダメだよ）"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2021s.kenkenpa.net/image/no18icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no18ss1.png",
+          "local": "/screenshots/2021-summer/18-source-1.png",
+          "sha256": "e52c9b87845633ac97a5e4b33c89c9b977da186bebffd761286508e0a471d12a"
+        },
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no18ss2.png",
+          "local": "/screenshots/2021-summer/18-source-2.png",
+          "sha256": "d573dbb8111f1d8145795211ebf773cef72d24d9fb93f4e2e0c753d4895b8086"
+        }
+      ],
+      "missingImageUrls": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1iseF8-Gqd-ulOK4QuSwMtEPyeXWfbMNO",
+          "label": "8MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-summer-work-19",
+      "no": "19",
+      "detailUrl": "https://viprpg2021s.kenkenpa.net/no19.html",
+      "catalogueTitle": "にぼスパ",
+      "detailTitle": "にぼスパ",
+      "sourceTemplate": false,
+      "sourceMetadata": {
+        "作者": "わてりちゃん",
+        "ジャンル": "君のおちんちんに響く短編見るゲ",
+        "ツール": "RPGツクール2000",
+        "配信/投稿": "いいよ",
+        "作者コメント": "私が魔法具現化の生体実験により持ち帰った鉱物は、ある時は銀色に見え、またある時は群青に染まった。これはキャロリアン試薬に引っかからないので、恐らくはマナを含有していない未知の魔法要素だ。私はハンマーでそれを粉々にしてみる。砕けたひとつひとつの粒が、パチパチと弾けた。物質構成を調べると、花崗岩に構成は似ていて、つまり生命のもとになるCHNOPSが比較的薄いことを意味する。これらの組成から、さきのような自然な『破裂』の性質ができるのはあまりにも不自然だ。恐らく、我々の知り得ない原素が付加されているのだろう。しかし、このような強固な分子結合に浸透できるとは、まるで原子機械である。私は古い分子生物学の言葉animalcule（微小動物）をとり、この新要素をanimacule（微小魔法原素）と名付けた。勇者アレクサンダー・レクサス・クルセイダー・スミスが得たもしもの力は、基本的に爆発によりその物語を幕を閉じる。長らく、なぜ爆発するのか、なぜ魔法ニュークリアは高熱と閃光を生み出す爆発を司るにも関わらず無属性であるのか、なぜ海賊ゴメスは擬似的にもしもの力が齎す効果を再現できるのか、疑問であった。この原素はそれら世界に蔓延する“原初の謎”を解く鍵になるのではないかと私は考えた。……そして、気の遠くなるような研究の末、私は驚くべき結論に辿り着いた。しかし、この余白はそれを書くには狭すぎる。\n　　　　　――――――王国大学終身名誉教授オレノナハ・アバリ博士",
+        "管理人コメント": "一見もしもの謎を探る真面目な見るゲっぽいけど、ジャンルやスクショ2枚目からギャグの香りがする…。\nどんなゲームか、真相はキミの目で確かみてみろ！"
+      },
+      "catalogueMetadata": {
+        "author": "わてりちゃん",
+        "category": "君のおちんちんに響く短編見るゲ",
+        "engine": "RPGツクール2000",
+        "streaming": "いいよ"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2021s.kenkenpa.net/image/no19icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no19ss1.png",
+          "local": "/screenshots/2021-summer/19-source-1.png",
+          "sha256": "de9e53d2c9b771f595a178bd2767130ba1c6342e8626082a49c8f76cba1dfec4"
+        },
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no19ss2.png",
+          "local": "/screenshots/2021-summer/19-source-2.png",
+          "sha256": "f81cf31230731318797e5927bd9368ead35120dbfb3f5a8c73be813b3a45f25f"
+        }
+      ],
+      "missingImageUrls": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1DmWqVLWRQ9gX7sAoui-M33xV6crKGijY",
+          "label": "7MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-summer-work-20",
+      "no": "20",
+      "detailUrl": "https://viprpg2021s.kenkenpa.net/no20.html",
+      "catalogueTitle": "刃針の名手と愛を惜しむ物売り",
+      "detailTitle": "刃針の名手と愛を惜しむ物売り",
+      "sourceTemplate": false,
+      "sourceMetadata": {
+        "作者": "まだなんも書いてねーわ",
+        "ジャンル": "たぶん読むゲ",
+        "ツール": "Steam2003",
+        "配信/投稿": "配信やだ/投稿いいよ",
+        "作者コメント": "その日、友人から預かった質である鏡から、男の子が出てきた。\n魔法識別名はダークネスI。あたしと同じだった。",
+        "管理人コメント": "やみっち×男体化やみっちだって？！（ゴクリ）\n二人の儚げな笑顔が不穏さを醸し出すが展開はいかに…？"
+      },
+      "catalogueMetadata": {
+        "author": "まだなんも書いてねーわ",
+        "category": "たぶん読むゲ",
+        "engine": "Steam2003",
+        "streaming": "配信やだ/投稿いいよ"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2021s.kenkenpa.net/image/no20icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no20ss1.png",
+          "local": "/screenshots/2021-summer/20-source-1.png",
+          "sha256": "4afd92c2c1a1bb79c6b13abd038a688df14e14e816dcac9f4795eb682a56bc67"
+        }
+      ],
+      "missingImageUrls": [],
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/",
+          "label": "----"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-summer-work-21",
+      "no": "21",
+      "detailUrl": "https://viprpg2021s.kenkenpa.net/no21.html",
+      "catalogueTitle": "氷水火山SOKOBAN",
+      "detailTitle": "氷水火山SOKOBAN",
+      "sourceTemplate": false,
+      "sourceMetadata": {
+        "作者": "こなき",
+        "ジャンル": "倉庫番系なんか夏っぽいパズル",
+        "ツール": "Steam2003",
+        "配信/投稿": "可/可",
+        "作者コメント": "操作キャラを切り替えながら進む倉庫番系パズルです。全35面。\n炎っぽいやつらと決闘<タイマン>したり、なんかその辺の手持ち無沙汰な魔法具現化をスイッチに乗っけたりしながら地上を目指しましょう。\n詰み対策システムとかもあるのでパズルが得意でなくても安心！(多分)",
+        "管理人コメント": "操作キャラ切り替えのある倉庫番は初めて見た。実はパズル下手なので初心者でも遊べそうで楽しみ。"
+      },
+      "catalogueMetadata": {
+        "author": "こなき",
+        "category": "倉庫番系なんか夏っぽいパズル",
+        "engine": "Steam2003",
+        "streaming": "可/可"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2021s.kenkenpa.net/image/no21icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no21ss1.png",
+          "local": "/screenshots/2021-summer/21-source-1.png",
+          "sha256": "b0c5f007bd546a03f56e31b16dcd6769733dba7c157dc5f546d77fca999759a4"
+        }
+      ],
+      "missingImageUrls": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1HtSA9TgaEoL3XHs1DGSBDSUawBJE5mgK",
+          "label": "30MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-summer-work-22",
+      "no": "22",
+      "detailUrl": "https://viprpg2021s.kenkenpa.net/no22.html",
+      "catalogueTitle": "しりとりで　しょうぶだ！",
+      "detailTitle": "しりとりで　しょうぶだ！",
+      "sourceTemplate": false,
+      "sourceMetadata": {
+        "作者": "初心シャーマン",
+        "ジャンル": "ミニksg",
+        "ツール": "2000",
+        "配信/投稿": "えんけい/サークル",
+        "作者コメント": "スクショが全てです！！！！",
+        "管理人コメント": "キャラ名でしりとり対決だろうか。呼び名によっても流れが変わってきそう…！"
+      },
+      "catalogueMetadata": {
+        "author": "初心シャーマン",
+        "category": "ミニksg",
+        "engine": "2000",
+        "streaming": "えんけい/サークル"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2021s.kenkenpa.net/image/no22icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no22ss1.png",
+          "local": "/screenshots/2021-summer/22-source-1.png",
+          "sha256": "9e5003362a8ee82d7b4b31de1cf54ea5f92fabc0859fa4b894fc2d13868793bc"
+        }
+      ],
+      "missingImageUrls": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1exa8vgduC9vwSPBwDtlAjnwBqRZMGkmx",
+          "label": "2MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-summer-work-23",
+      "no": "23",
+      "detailUrl": "https://viprpg2021s.kenkenpa.net/no23.html",
+      "catalogueTitle": "かけろ！やみっち！！",
+      "detailTitle": "かけろ！やみっち！！",
+      "sourceTemplate": false,
+      "sourceMetadata": {
+        "作者": "なんか。",
+        "ジャンル": "賭博",
+        "ツール": "Steam版2003",
+        "配信/投稿": "〇",
+        "作者コメント": "〇8つの運ゲーが入ったミニゲーム集です\nストーリーモードを楽しむもよし、\nひたすらフリーモードでハイスコアを狙うもよし\nご自由にお遊びください\n\n～ストーリーモード～\n地獄に落ちたやみっちがお金を稼ぎつつ脱出を目指すお話。\n途中いつものメンバーも加わって、果たして全員、無事現世に帰還できるのか？\n\n～フリーモード～\n最初から8つのミニゲーム全て遊べる（全て遊べるとは言っていない）モード。\nあなたが飽きた時がEDです。\n\n◇ミニゲーム一覧\n・ブラックジャック　・ポーカー　・スロットマシーン\n・BIG or SMALL　・龍虎（簡易版）　・大小（シック・ボー）\n・コードブレイカー　・デビルアリーナ",
+        "管理人コメント": "合法的に賭博ができる！そう、RPGツクールならね。\nやみっちはともかく他のメンツがどうやって地獄行きになったかも気になるところ。"
+      },
+      "catalogueMetadata": {
+        "author": "なんか。",
+        "category": "賭博",
+        "engine": "Steam版2003",
+        "streaming": "〇"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2021s.kenkenpa.net/image/no23icon.gif",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no23ss1.png",
+          "local": "/screenshots/2021-summer/23-source-1.png",
+          "sha256": "d17fe29b0fa2d4f1237601cccfca0b15cba2e72ddcaa6f5260b25c5384e1c391"
+        },
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no23ss2.png",
+          "local": "/screenshots/2021-summer/23-source-2.png",
+          "sha256": "ca3fcfb87ac19ef8e388739cdb36b252552066bf91d08af550b5f3bc6b84dd19"
+        }
+      ],
+      "missingImageUrls": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1PvViFZXE3oOrjz-qupJfRnGbQsApwzvP",
+          "label": "76MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-summer-work-24",
+      "no": "24",
+      "detailUrl": "https://viprpg2021s.kenkenpa.net/no24.html",
+      "catalogueTitle": "エターナラーオレクション2021",
+      "detailTitle": "エターナラーオレクション2021",
+      "sourceTemplate": false,
+      "sourceMetadata": {
+        "作者": "みやなが",
+        "ジャンル": "自作品コレクション(9作+3作+2作+新規1作)",
+        "ツール": "Steam2003＋VXAce＋MV",
+        "配信/投稿": "可/可",
+        "作者コメント": "さくしゃが今まで公開した作品の殆どを詰め込んだコレクションゲーです。\nサンプル系やもしもエムブレム等を除けば全て揃ってます。\n魔王把握、掌編ksg、デフォ戦やるゲ、セルフレビュー、非もしも系など色々入ってます。お得ですね。\n登場キャラがあまりにもXP以降のRTP組やDS以降のCS組に偏りすぎてるのは気にしてはいけない(戒め)\n\n【収録している作品】\n・[新規追加]パナリルと学ぶwaifu2x活用講座\n・ウィンディオの魔王把握&ツクールDSBGM素材集\n・上凪巧斗の憂鬱\n・サンプルクエスト -あなたが作る物語-(2kリメイク)\n・Win10でもツクール2kを動作させよう\n・95･2000･2003･XP･VX･VXA･MV 能力値混合ランキングEX\n・2015～2019 エターナラーオレビュー(12代目ID:3104)\n・エターナラーオレビュー2020\n・ダンボくんとアルシェス\n・ラ行キャラ禁止縛りで魔王把握\n\n【VXA・MV製(詳しくは付属のhtmlで)】\n・天空の谷の神隠し VXAce Edition\n・DS～フェスのキャラを紹介するだけのksg\n・MVでもksgタイム\n・エターなりかけてる非もしもやるゲ",
+        "管理人コメント": "新規RTP多めのオレクション！SS見た感じ半分くらい初見なので何が入ってるか気になる。"
+      },
+      "catalogueMetadata": {
+        "author": "みやなが",
+        "category": "自作品コレクション(9作+3作+2作+新規1作)",
+        "engine": "Steam2003＋VXAce＋MV",
+        "streaming": "可/可"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2021s.kenkenpa.net/image/no24icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no24ss1.png",
+          "local": "/screenshots/2021-summer/24-source-1.png",
+          "sha256": "692d86bb1620e01470ecfb91cf7d50849bb73c5916ed241023b69c101dac0954"
+        },
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no24ss2.png",
+          "local": "/screenshots/2021-summer/24-source-2.png",
+          "sha256": "b3366ed467780d5591c483f2bba55b85ddd1c64162a0feda86ff97491f938257"
+        }
+      ],
+      "missingImageUrls": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1fLU5nqHOr8sMDRiwc7pWJWBGmOOROGtU",
+          "label": "35MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-summer-work-25",
+      "no": "25",
+      "detailUrl": "https://viprpg2021s.kenkenpa.net/no25.html",
+      "catalogueTitle": "はじめてのVXAce製RPG",
+      "detailTitle": "はじめてのVXAce製RPG",
+      "sourceTemplate": false,
+      "sourceMetadata": {
+        "作者": "ろーぷれつくろ～",
+        "ジャンル": "VXAce試作品（RPG）",
+        "ツール": "VXAce",
+        "配信/投稿": "ご自由に/どうぞ",
+        "作者コメント": "（ツクールストアの初夏セールでVXAceを購入したので、試しに作品を作ってみました。）\n\nろーぷれつくろ～初のVXAce製作品が登場！\n青いふしぎな幻獣が主人公の、\nいつもとは全く違う世界で繰り広げられる大冒険！\n3匹の精霊たちを助けて世界を救いに行こう！\n\nその他にも以下のシステムが搭載されているぞ！\n●主人公の名前と性別を決められる！\n●バトルエリアでレベル上げ＆レアアイテムゲット！？\n●戦闘で負けても再戦が可能！\n\nさらにクリアパスワードで入れる制作室では、\n今年の紅白で公開予定の作品、【オキラクエスト】の\n最新情報も公開！\n\n※注意\nセリフや文章はほぼひらがなとカタカナで書かれています。\n読みにくかったらごめんなさい。",
+        "管理人コメント": "レベル上げと再戦機能でRPG初心者にも優しそう。\n並行世界の見た目そっくりな別人って何かロマンあるよね。"
+      },
+      "catalogueMetadata": {
+        "author": "ろーぷれつくろ～",
+        "category": "VXAce試作品（RPG）",
+        "engine": "VXAce",
+        "streaming": "〇"
+      },
+      "metadataDifferences": [
+        {
+          "label": "配信/投稿",
+          "catalogue": "〇",
+          "detail": "ご自由に/どうぞ"
+        }
+      ],
+      "iconSourceUrl": "https://viprpg2021s.kenkenpa.net/image/no25icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no25ss1.png",
+          "local": "/screenshots/2021-summer/25-source-1.png",
+          "sha256": "c6faf0f80f3457b1f895ac31a5c679c81c785d4e0acde857ee688a6e7deebaf6"
+        },
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no25ss2.png",
+          "local": "/screenshots/2021-summer/25-source-2.png",
+          "sha256": "64c33d2dd571dc58e23237f4dfc6b7a385b204596773aba21e2654ba1642688b"
+        }
+      ],
+      "missingImageUrls": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1rwil5ctPH8NP8Vu0duPc2l15UabRRt0l",
+          "label": "21MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-summer-work-26",
+      "no": "26",
+      "detailUrl": "https://viprpg2021s.kenkenpa.net/no26.html",
+      "catalogueTitle": "むばり短編集",
+      "detailTitle": "むばり短編集",
+      "sourceTemplate": false,
+      "sourceMetadata": {
+        "作者": "雨水葉月",
+        "ジャンル": "見るゲ",
+        "ツール": "2000",
+        "配信/投稿": "可・可",
+        "作者コメント": "「むばり」こと、ドリームバリアがメインの短編集です。\n10個のエピソードが収録されています。\n\n元々登場1周年記念も兼ねてtkってましたが、\n当時モチベとメンタルが逝っててロクにtkれなかったのでこっちで公開します。\n\n2021/09/02 更新\n提出しました。",
+        "管理人コメント": "むばり一週年めでてぇｗｗｗｗｗｗ\n夢Tシャツは真っすぐな感じがして逆にカッコいいかも"
+      },
+      "catalogueMetadata": {
+        "author": "雨水葉月",
+        "category": "見るゲ",
+        "engine": "2000",
+        "streaming": "可・可"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2021s.kenkenpa.net/image/no26icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no26ss1.png",
+          "local": "/screenshots/2021-summer/26-source-1.png",
+          "sha256": "019fde57e33920db29946e19d77f39690d37574c4753a69c3723912d042ba346"
+        },
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no26ss2.png",
+          "local": "/screenshots/2021-summer/26-source-2.png",
+          "sha256": "60ecccba201ed01dd3b55a9fbcdb7540add61eba8ed93d3860d5f813339f6ef9"
+        }
+      ],
+      "missingImageUrls": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=12ipph2seoty6jBMlbDFjsrDDpxhbRefX",
+          "label": "5.7MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-summer-work-27",
+      "no": "27",
+      "detailUrl": "https://viprpg2021s.kenkenpa.net/no27.html",
+      "catalogueTitle": "ムリロケット",
+      "detailTitle": "ムリロケット",
+      "sourceTemplate": false,
+      "sourceMetadata": {
+        "作者": "PIAI専",
+        "ジャンル": "パクリゲー",
+        "ツール": "Steam2003",
+        "配信/投稿": "○/○",
+        "作者コメント": "リムロケットのパクリゲーです\n今から作ります",
+        "管理人コメント": "どんなゲームかggってみたら無料のブラウザゲーだった。\nえっ？！今からツクールであれの再現を？！"
+      },
+      "catalogueMetadata": {
+        "author": "PIAI専",
+        "category": "パクリゲー",
+        "engine": "Steam2003",
+        "streaming": "○/○"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2021s.kenkenpa.net/image/noicon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no27ss1.png",
+          "local": "/screenshots/2021-summer/27-source-1.png",
+          "sha256": "bc0d3d8c41f76d050e73a8da3040dcfcf88dd2a84b34f7b9a41f3b209ee015e7"
+        }
+      ],
+      "missingImageUrls": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/",
+          "label": "----"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-summer-work-28",
+      "no": "28",
+      "detailUrl": "https://viprpg2021s.kenkenpa.net/no28.html",
+      "catalogueTitle": "搾精ポテチ牢獄",
+      "detailTitle": "搾精ポテチ牢獄",
+      "sourceTemplate": false,
+      "sourceMetadata": {
+        "作者": "ゴメミヤ先生",
+        "ジャンル": "エロゲ",
+        "ツール": "2000",
+        "配信/投稿": "可・可",
+        "作者コメント": "牢獄に捕らわれたファルコンに女兵士達が襲い掛かるエロゲです。",
+        "管理人コメント": "おい！！ファルコンのくせにうらやましいぞ！！！１１１１"
+      },
+      "catalogueMetadata": {
+        "author": "ゴメミヤ先生",
+        "category": "エロゲ",
+        "engine": "2000",
+        "streaming": "可・可"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2021s.kenkenpa.net/image/no28icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no28ss1.png",
+          "local": "/screenshots/2021-summer/28-source-1.png",
+          "sha256": "e6de42b5b0fa57863b4636e80fff51f3e10d93036743d87304ee36857c2d0834"
+        }
+      ],
+      "missingImageUrls": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1J8Rl-iOnHBfqGTxLHosJc_gwdLtRG92m",
+          "label": "400KB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-summer-work-29",
+      "no": "29",
+      "detailUrl": "https://viprpg2021s.kenkenpa.net/no29.html",
+      "catalogueTitle": "ドラ爆破",
+      "detailTitle": "ドラ爆破",
+      "sourceTemplate": false,
+      "sourceMetadata": {
+        "作者": "アンチドラさん",
+        "ジャンル": "本格政治シミュレーションゲーム",
+        "ツール": "Steam2003",
+        "配信/投稿": "好きにしろ",
+        "作者コメント": "Самый реалистичный симулятор издевательств над драконами. Безжалостно уничтожайте драконов, чтобы выжить, и переживите драматические истории с несколькими концовками.\n\nОтличительные особенности:\n-Тщательно продуманная игровая система, в которой главное - просто нажать кнопку мыши. \n-Огромный выбор играбельных персонажей, от вашего любимого дракона-баклажана до Линкшегелианера\n-Богатый выбор музыки, отражающей всю историю человечества\n-Множество скинов, позволяющих вашим бомбам быть радикальными и эпичными.\n\nУвлекательные события, среди которых:\n-Выбор президента Российской Федерации \n-Вторжение остатков нацизма\n-Восстановление Римской империи\n-Другие секретные события\n***************************************\nThe most realistic dragon bullying simulator. Bomb out dragons with no mercy to survive and experience dramatic multi-ending stories.\n\nDistinctive Features:\n-Carefully thought-out game system, in which the main feature is just to click \n-Huge selection of playable characters, from your favorite eggplant-dragon to the Linkshegelianer\n-A rich selection of music, reflecting the entire history of humanity\n-Many skins allowing your bombs to be radical and epic\n\nFascinating events, among which:\n-Choice of the President of the Russian Federation \n-Invasion of Nazi Remnants\n-The Restoration of Roman Empire\n-And other secret events\n*************************************** \n最も現実的なドラゴンいじめシミュレーター。生き残り、劇的なマルチエンドの物語を体験するために、容赦なくドラゴンを爆撃してください。\n\n特徴的な機能：\n-クリックするだけが主な機能である、慎重に考え抜かれたゲームシステム\n-お気に入りのナスドラゴンからヘーゲル左派まで、プレイ可能なキャラクターの豊富なセレクション\n-人類の歴史全体を反映した豊富な音楽セレクション\n-爆弾を過激で叙事詩にすることができる多くのスキン\n\n魅力的なイベント、その中で：\n-ロシア連邦大統領の選択\n-ナチスの残党の侵入\n-ローマ帝国の回復\n-そして他の秘密のイベント",
+        "管理人コメント": "なるほど、わからん。なすーん博士、お許しください！"
+      },
+      "catalogueMetadata": {
+        "author": "アンチドラさん",
+        "category": "本格政治シミュレーションゲーム",
+        "engine": "Steam2003",
+        "streaming": "好きにしろ"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2021s.kenkenpa.net/image/no29icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no29ss1.png",
+          "local": "/screenshots/2021-summer/29-source-1.png",
+          "sha256": "e40f996881d21fd4586dd3b9699a009790e4a2be7351151f023a8ec8394b1103"
+        },
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no29ss2.png",
+          "local": "/screenshots/2021-summer/29-source-2.png",
+          "sha256": "c50927a156bd3f3474d420f86fef194a57c325e5a1de9b17fc8dbec46d02fb53"
+        }
+      ],
+      "missingImageUrls": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1g21xK27kUTVMuYNAOu3sB2jJk0j_EbZB",
+          "label": "38MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-summer-work-30",
+      "no": "30",
+      "detailUrl": "https://viprpg2021s.kenkenpa.net/no30.html",
+      "catalogueTitle": "小さな世界の幸福奇譚　七章まで",
+      "detailTitle": "小さな世界の幸福奇譚　七章まで",
+      "sourceTemplate": false,
+      "sourceMetadata": {
+        "作者": "ゲ製の民がVIPRPG作って祭りに突撃する企画",
+        "ジャンル": "日常系RPG風ギャルゲー",
+        "ツール": "RPGツクールVX ACE",
+        "配信/投稿": "どちらも大歓迎です！",
+        "作者コメント": "祭りに投稿させて頂くのも、これで四回目になります。\n\n　企画を立ち上げたのも、RPGツクールを触り始めたのも、今年で四年目になるのですが、\n　まだまだどうにも、初心者の域を抜けられません。\n　バグやらなんやらが一杯あると思いますが、お手柔らかにお願いします。\n　今年中に完成させられたらいいなぁ。\n\n　プレイ時間は、6章までで5時間～8時間半。7章だけなら1時間前後になるかと思います。\n　もしよろしければ、通しでプレイした時間を、感想の所に書いていただけると助かります。",
+        "管理人コメント": "去年のGWから連なる大長編RPG。\nしばらくいなかった間にだいぶ章が進んでるみたいなので楽しみです。"
+      },
+      "catalogueMetadata": {
+        "author": "ゲ製の民がVIPRPG作って祭りに突撃する企画",
+        "category": "日常系RPG風ギャルゲー",
+        "engine": "RPGツクールVX ACE",
+        "streaming": "どちらも大歓迎です！"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2021s.kenkenpa.net/image/no30icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no30ss1.png",
+          "local": "/screenshots/2021-summer/30-source-1.png",
+          "sha256": "22421068ed4556688e55892637cac7cfca058c7d8c8e53b246998c0c1b9b5675"
+        },
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no30ss2.png",
+          "local": "/screenshots/2021-summer/30-source-2.png",
+          "sha256": "6d80bd6a80279af85f3827f5a5a49c111ceac3a4da89a17f08c14ad5320d7c26"
+        }
+      ],
+      "missingImageUrls": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1wfyv1vOTdNfkOFEnGHowQjQGB4IZcnAK",
+          "label": "453MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-summer-work-31",
+      "no": "31",
+      "detailUrl": "https://viprpg2021s.kenkenpa.net/no31.html",
+      "catalogueTitle": "rpg2",
+      "detailTitle": "rpg2",
+      "sourceTemplate": false,
+      "sourceMetadata": {
+        "作者": "Rossignol",
+        "ジャンル": "RPG",
+        "ツール": "RPGツクール2000",
+        "配信/投稿": "〇/〇",
+        "作者コメント": "突然RPGがやりたくなったので\n難しめです",
+        "管理人コメント": "ド直球なネーミング！難しめとの事ですが、既に右下のメンツに勝てる気がしない…"
+      },
+      "catalogueMetadata": {
+        "author": "Rossignol",
+        "category": "RPG",
+        "engine": "RPGツクール2000",
+        "streaming": "〇/〇"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2021s.kenkenpa.net/image/noicon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no31ss1.png",
+          "local": "/screenshots/2021-summer/31-source-1.png",
+          "sha256": "9517da12e19347f8493b7771d505ce3c7b71635d0153dc386c4f61b7ac1ede3a"
+        }
+      ],
+      "missingImageUrls": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1Tjb9Wg-7pcyCaM8OrdA44CL393yTxEXW",
+          "label": "77KB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-summer-work-32",
+      "no": "32",
+      "detailUrl": "https://viprpg2021s.kenkenpa.net/no32.html",
+      "catalogueTitle": "プレシャスタワー",
+      "detailTitle": "プレシャスタワー",
+      "sourceTemplate": false,
+      "sourceMetadata": {
+        "作者": "畳の上の水蓮",
+        "ジャンル": "WWAライク",
+        "ツール": "Steam2003",
+        "配信/投稿": "”原則”ダメです",
+        "作者コメント": "14周年を記念して、名作と名作のキメラをお届け\n（注1）戦闘はHARDです。\n（注2）ツクラー歴長いのにksg率高し。\n（注3）フリーラン　ない　です。\n（注4）バランス調整力の低さに俺が泣いた……\n この四つの点にご注意ください。",
+        "管理人コメント": "本格やるゲっぽいプレシャス。しかしまぁ中途半端な年数である。"
+      },
+      "catalogueMetadata": {
+        "author": "畳の上の水蓮",
+        "category": "WWAライク",
+        "engine": "Steam2003",
+        "streaming": "”原則”ダメです"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2021s.kenkenpa.net/image/no32icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no32ss1.png",
+          "local": "/screenshots/2021-summer/32-source-1.png",
+          "sha256": "7dab179af2b2ca8e07bca8b7f32c525403fed3f170d2ec6d87aa633a4d219db7"
+        },
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no32ss2.png",
+          "local": "/screenshots/2021-summer/32-source-2.png",
+          "sha256": "84423b4fb4ce3abe7f776d8ff0af23cae231ff0578f0ef9db7a68e2cd9e6c478"
+        }
+      ],
+      "missingImageUrls": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1scOj2VQsxAjUAAgElev9693t_FfnrH-i",
+          "label": "42MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-summer-work-33",
+      "no": "33",
+      "detailUrl": "https://viprpg2021s.kenkenpa.net/no33.html",
+      "catalogueTitle": "ぬくりあさんああぬくりあさん",
+      "detailTitle": "ぬくりあさんああぬくりあさん",
+      "sourceTemplate": false,
+      "sourceMetadata": {
+        "作者": "異邦人",
+        "ジャンル": "R18G",
+        "ツール": "2000",
+        "配信/投稿": "",
+        "作者コメント": "その　むけつな　までの　\nえがお　を　くもらせたい　\nああ　くもらせたい　\nそれほどまでに　いとおしい",
+        "管理人コメント": "ここに来て初のR-18G。ぬくりあさん…いったいどんな目にあってしまうんだ？！"
+      },
+      "catalogueMetadata": {
+        "author": "異邦人",
+        "category": "R18G",
+        "engine": "2000",
+        "streaming": ""
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2021s.kenkenpa.net/image/noicon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no33ss1.png",
+          "local": "/screenshots/2021-summer/33-source-1.png",
+          "sha256": "17d78819eb274b7ce3d7adec94cd2af7aaa5a170a0097d2d191821ae5f9efe92"
+        }
+      ],
+      "missingImageUrls": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/",
+          "label": "----"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-summer-work-34",
+      "no": "34",
+      "detailUrl": "https://viprpg2021s.kenkenpa.net/no34.html",
+      "catalogueTitle": "ときめき☆もしも学園",
+      "detailTitle": "ときめき☆もしも学園",
+      "sourceTemplate": false,
+      "sourceMetadata": {
+        "作者": "種保",
+        "ジャンル": "ksg",
+        "ツール": "RPGツクールMV",
+        "配信/投稿": "うおおおお！！！",
+        "作者コメント": "MV初登校です！！！！！\nジャンルは恋愛アドベンチャーです！！！！！\nよろしくおねがいします！！！！！！！！！！！！！",
+        "管理人コメント": "もしもキャラのギャルゲだー！！！！作者名を安価で決める漢気に敬礼。"
+      },
+      "catalogueMetadata": {
+        "author": "種保",
+        "category": "ksg",
+        "engine": "RPGツクールMV",
+        "streaming": "うおおおお！！！"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2021s.kenkenpa.net/image/noicon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no34ss1.png",
+          "local": "/screenshots/2021-summer/34-source-1.png",
+          "sha256": "aab288e756119ec9893cc1f241093e479ceec08014696707a1782ef23d058777"
+        }
+      ],
+      "missingImageUrls": [],
+      "downloadLinks": [
+        {
+          "url": "https://game.nicovideo.jp/atsumaru/games/gm21545",
+          "label": "アツマール"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-summer-work-35",
+      "no": "35",
+      "detailUrl": "https://viprpg2021s.kenkenpa.net/no35.html",
+      "catalogueTitle": "タンスの角むーちゃん2",
+      "detailTitle": "タンスの角むーちゃん2",
+      "sourceTemplate": false,
+      "sourceMetadata": {
+        "作者": "ぬ",
+        "ジャンル": "ゴミ",
+        "ツール": "2000",
+        "配信/投稿": "共に可",
+        "作者コメント": "特に進歩はしていません。",
+        "管理人コメント": "あのハイスピードアクションが帰ってきた！磨いた反射神経と指捌きを今こそ見せる時！"
+      },
+      "catalogueMetadata": {
+        "author": "ぬ",
+        "category": "ゴミ",
+        "engine": "2000",
+        "streaming": "共に可"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2021s.kenkenpa.net/image/noicon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no35ss1.png",
+          "local": "/screenshots/2021-summer/35-source-1.png",
+          "sha256": "47e711528ffb573ddf760e46f84ad1622b103f16503806c52371b8deb657e535"
+        }
+      ],
+      "missingImageUrls": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1Ws7QWZjPRqgAwYZAPXpze1AaugJIzstq",
+          "label": "160KB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-summer-work-36",
+      "no": "36",
+      "detailUrl": "https://viprpg2021s.kenkenpa.net/no36.html",
+      "catalogueTitle": "MOSHIMO FANTASY ピクセルリマスター",
+      "detailTitle": "MOSHIMO FANTASY ピクセルリマスター",
+      "sourceTemplate": false,
+      "sourceMetadata": {
+        "作者": "ゴメス研究室",
+        "ジャンル": "※注ksgです",
+        "ツール": "VXA",
+        "配信/投稿": "フッ…好きにしろ",
+        "作者コメント": "2020夏 MOSHIMO FANTASY Ⅳに触発されてVXAで試作的に作り始めました。\n序盤だけ(30分くらい)のサイドビューグラの素材供養のようなｋｓgです。\nあまり時間が取れないので未調整のまま提出になりそうです。",
+        "管理人コメント": "もしも×FFな本格RPGの予感！！\n色々想像させられて、こういうのを見るとワクワクしますね。"
+      },
+      "catalogueMetadata": {
+        "author": "ゴメス研究室",
+        "category": "※注ksgです",
+        "engine": "VXA",
+        "streaming": "フッ…好きにしろ"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2021s.kenkenpa.net/image/no36icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no36ss1.png",
+          "local": "/screenshots/2021-summer/36-source-1.png",
+          "sha256": "c325cb2930031ee65b3d4c2eb0fdc103755d3330f28abb71a68e2ba57936c820"
+        },
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no36ss2.png",
+          "local": "/screenshots/2021-summer/36-source-2.png",
+          "sha256": "b2f53db6681cd3a070d4273e72fdedfd159e4756ca6b823d282882f6080a98e5"
+        }
+      ],
+      "missingImageUrls": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1-zYZ7IeJA2LwZ1VFvjGf_uSVljuKWuFU",
+          "label": "50MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-summer-work-37",
+      "no": "37",
+      "detailUrl": "https://viprpg2021s.kenkenpa.net/no37.html",
+      "catalogueTitle": "玉露弾",
+      "detailTitle": "玉露弾",
+      "sourceTemplate": false,
+      "sourceMetadata": {
+        "作者": "ＷＧＡＳ",
+        "ジャンル": "２Ｄ対戦風アクションゲーム",
+        "ツール": "s2k3+mp",
+        "配信/投稿": "可・可",
+        "作者コメント": "紅白に見送ろうと思いましたが、もう秋かってくらい期限ギリギリで夏の陣に参戦です\n普通のアクションゲームです。\n対戦モードはありますが2人対戦は出来ません",
+        "管理人コメント": "ガチ度の高そうなアクションゲーム！絶対楽しいやつだコレ（小並感）"
+      },
+      "catalogueMetadata": {
+        "author": "ＷＧＡＳ",
+        "category": "２Ｄ対戦風アクションゲーム",
+        "engine": "s2k3+mp",
+        "streaming": "可・可"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2021s.kenkenpa.net/image/no37icon.gif",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no37ss1.png",
+          "local": "/screenshots/2021-summer/37-source-1.png",
+          "sha256": "a67d0915379a0e8184b2a575ec225cc908d378093791412672aff4902052dff3"
+        },
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no37ss2.png",
+          "local": "/screenshots/2021-summer/37-source-2.png",
+          "sha256": "5e1adbb47f92ae9aa7338852b0dae37aa874f3cbd3f30673ac736ffee8628041"
+        }
+      ],
+      "missingImageUrls": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1N9n9csgZdiG6nt0j8D0hBuderPDdvGfK",
+          "label": "1.5MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-summer-work-38",
+      "no": "38",
+      "detailUrl": "https://viprpg2021s.kenkenpa.net/no38.html",
+      "catalogueTitle": "燃え盛る炎の魔王把握＋",
+      "detailTitle": "燃え盛る炎の魔王把握＋",
+      "sourceTemplate": false,
+      "sourceMetadata": {
+        "作者": "にしぇ",
+        "ジャンル": "魔王把握とｋｓｇセット",
+        "ツール": "2k",
+        "配信/投稿": "あなたはしてもいいし、しなくてもいい",
+        "作者コメント": "にしぇ　　　「高揚の風１ｓｔあにばーさりーが〆ドレー２０００なら\n　　　　　　　今作は万戈イム－一ノ十ってとこです」\nアイフィーズ「ドンだーにしかわからん比喩表現やめろ」\nにしぇ　　　「そこはまあ、なんだっていいじゃないか\n　　　　　　　アイちゃんは固いんだからもう」\nアイフィーズ「アイちゃん言うな」\nにしぇ　　　「そしてやっぱりこれ以上書くこと思いつかないので\n　　　　　　　ちょうわざ！＋こんしん！＋ぞくせいきょうかした\n　　　　　　　属性一致グランドファイアG5でも蹴っておきます」\nアイフィーズ「お前属性不一致な上に二人じゃ蹴れねぇよ！！！」\n\n[追記]\nにしぇ　　　「ファイルがやたら大きいけどだいたいmp3のせいです」\nアイフィーズ「もうちょっと抑える努力したら・・・？」\nにしぇ　　　「あと、一応一通りチェックしたけど\n　　　　　　　途中で特に必要でもないイベント作って\n　　　　　　　結局消して関連したところも戻したのもあって\n　　　　　　　ちゃんと直せてるか心配なところあるので\n　　　　　　　バグでもあったら教えてもらえるとありがたいです」\nアイフィーズ「あんま不必要な謎イベント制作しなけりゃいいのに」\nにしぇ　　　「なんかどうでもいいとこほどこだわりたくなる癖が」",
+        "管理人コメント": "魔王把握とksg群のセット！全体的に賑やかそうです。"
+      },
+      "catalogueMetadata": {
+        "author": "にしぇ",
+        "category": "魔王把握とｋｓｇセット",
+        "engine": "2k",
+        "streaming": "あなたはしてもいいし、しなくてもいい"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2021s.kenkenpa.net/image/no38icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no38ss1.png",
+          "local": "/screenshots/2021-summer/38-source-1.png",
+          "sha256": "3d3ed4b86a4b821380c8e6c525097d89a58542a6a3211504dacfc419b97ec1ad"
+        },
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no38ss2.png",
+          "local": "/screenshots/2021-summer/38-source-2.png",
+          "sha256": "6a4348f2f868d4cb439fb70d8948bde43143a6ac0356540241fb550ca02f2281"
+        }
+      ],
+      "missingImageUrls": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1mj2Y0xwKhF6uOiEutkfc-mTEMhwGvY_S",
+          "label": "174MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-summer-work-39",
+      "no": "39",
+      "detailUrl": "https://viprpg2021s.kenkenpa.net/no39.html",
+      "catalogueTitle": "デフォ外の魔法達",
+      "detailTitle": "デフォ外の魔法達",
+      "sourceTemplate": false,
+      "sourceMetadata": {
+        "作者": "飛び入り参加者",
+        "ジャンル": "数合わせ",
+        "ツール": "2000",
+        "配信/投稿": "〇",
+        "作者コメント": "ごめん",
+        "管理人コメント": "いえいえ！"
+      },
+      "catalogueMetadata": {
+        "author": "飛び入り参加者",
+        "category": "数合わせ",
+        "engine": "2000",
+        "streaming": "〇"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2021s.kenkenpa.net/image/noicon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no39ss1.png",
+          "local": "/screenshots/2021-summer/39-source-1.png",
+          "sha256": "6b5176fc7d50373abc5b979db6a4db6d4eae2fbe94b145d15844a2bbeb186716"
+        }
+      ],
+      "missingImageUrls": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1fm5S-2J9HraUcNEte0YLfiHzDJUbDheG",
+          "label": "1.72MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-summer-work-40",
+      "no": "40",
+      "detailUrl": "https://viprpg2021s.kenkenpa.net/no40.html",
+      "catalogueTitle": "SA:A",
+      "detailTitle": "SA:A",
+      "sourceTemplate": false,
+      "sourceMetadata": {
+        "作者": "未定でした。",
+        "ジャンル": "ノベル/ツール",
+        "ツール": "スチーム2003マニアクスパッチ",
+        "配信/投稿": "いいよ/いいけどね",
+        "作者コメント": "もしよろしければ\n\n私が何を伝えたくてそれを作ったのか\n\n是非考えながら触れてみてください。\n\n\n（セーブ15番目に答えが置いてあります。）",
+        "管理人コメント": "未定。それは無限の可能性…！！"
+      },
+      "catalogueMetadata": {
+        "author": "未定でした。",
+        "category": "ノベル/ツール",
+        "engine": "スチーム2003マニアクスパッチ",
+        "streaming": "いいよ/いいけどね"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2021s.kenkenpa.net/image/noicon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no40ss1.png",
+          "local": "/screenshots/2021-summer/40-source-1.png",
+          "sha256": "8d12f9ef2307057a8223d91b43c33cfcafe3e35f2be437c97926d1865db6fb0b"
+        }
+      ],
+      "missingImageUrls": [],
+      "downloadLinks": [
+        {
+          "url": "https://ux.getuploader.com/viprpgsummer2021_download/download/1",
+          "label": "29MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-summer-work-41",
+      "no": "41",
+      "detailUrl": "https://viprpg2021s.kenkenpa.net/no41.html",
+      "catalogueTitle": "RTP Story～もしも勇者が痛かったら～動作確認版",
+      "detailTitle": "RTP Story～もしも勇者が痛かったら～動作確認版",
+      "sourceTemplate": false,
+      "sourceMetadata": {
+        "作者": "シバルバー",
+        "ジャンル": "アクションRPG",
+        "ツール": "Steam2003",
+        "配信/投稿": "どうぞどうぞ",
+        "作者コメント": "3Dマップと二つの自作戦闘を作ってみました。\n自作戦闘のシステムをコマンドバトルかアクションにするか迷っているので、\nどちらの方がやりたいと感じたか感想いただけると嬉しいです。",
+        "管理人コメント": "アクションRPG大好き丸だぁ…お前は？"
+      },
+      "catalogueMetadata": {
+        "author": "シバルバー",
+        "category": "アクションRPG",
+        "engine": "Steam2003",
+        "streaming": "どうぞどうぞ"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2021s.kenkenpa.net/image/noicon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no41ss1.png",
+          "local": "/screenshots/2021-summer/41-source-1.png",
+          "sha256": "6dd70f73d52e6e895a517bb4f2c553e9fb4a5a86b2f9c5f20c7bb00a2ec6ccd5"
+        }
+      ],
+      "missingImageUrls": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=17GniCaM3rZAxmwyLvizkYbzbc4zMawRZ",
+          "label": "15MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-summer-work-42",
+      "no": "42",
+      "detailUrl": "https://viprpg2021s.kenkenpa.net/no42.html",
+      "catalogueTitle": "フィレイの休日",
+      "detailTitle": "フィレイの休日",
+      "sourceTemplate": false,
+      "sourceMetadata": {
+        "作者": "（Ｒ）ＤＵ",
+        "ジャンル": "真夏の見るゲ",
+        "ツール": "２０００",
+        "配信/投稿": "両方ＯＫ",
+        "作者コメント": "聖暦１０４９年　６月２６日\n\n魔法具現化だってちょっと魔法が得意なだけの普通の人間、\n\n休みの日はどこかで素敵な一日を過ごしています。\n\n\n\nライチ「明日は私達もオフだし、フィレイの後ついていってみない？」\n\nやみっち「だと思ったわ…。」\n\n\n\nそんな思い付きから始まる初夏の物語。\n\n\n\n作者コメント\n\n\n\n８月も終わりですがめちゃんこ暑い日が続いております。\n\n夏の陣で出す予定だったウィンディの魔王把握はエターなりかけなので\n\n\n\n後日スレに投下しようと思っていたこちらの見るゲを提出しようと思います。\n\n（ちょうど夏にぴったりだしね。）\n\n\n\nあらすじの通り、ライやみが休日のフィレイの後をついていく見るゲです。",
+        "管理人コメント": "凝った画面の見るゲ！フィレイはどんな休日を過ごすんだろう…？"
+      },
+      "catalogueMetadata": {
+        "author": "（Ｒ）ＤＵ",
+        "category": "真夏の見るゲ",
+        "engine": "２０００",
+        "streaming": "両方ＯＫ"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2021s.kenkenpa.net/image/no42icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no42ss1.png",
+          "local": "/screenshots/2021-summer/42-source-1.png",
+          "sha256": "9a3118c50f7bf1d732f7eea6865c6a0a3f11f94dc338467bc78434d4e757d7a1"
+        },
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no42ss2.png",
+          "local": "/screenshots/2021-summer/42-source-2.png",
+          "sha256": "929bbfd8a3a870db3610df901c9b223238014b2a0a5af0943f37e354412c5c82"
+        }
+      ],
+      "missingImageUrls": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=16rkuA9KXy5Q7YgWoWVgUao4F9vzkQ38q",
+          "label": "4.4MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-summer-work-43",
+      "no": "43",
+      "detailUrl": "https://viprpg2021s.kenkenpa.net/no43.html",
+      "catalogueTitle": "わてりと刀の暗殺者",
+      "detailTitle": "わてりと刀の暗殺者",
+      "sourceTemplate": false,
+      "sourceMetadata": {
+        "作者": "みどりいぬ",
+        "ジャンル": "シリアスギャグ系のみるゲのつもりだった",
+        "ツール": "RPGツクール2000",
+        "配信/投稿": "こんなものでよければ/ぜひお願いします。",
+        "作者コメント": "例の路地裏で交わる、二人の少女\n誰に対しても優しい、明るく健気な少女、\n殺し屋として密かに名を馳せる少女、\n仲良くなりたい少女と命を狙う殺し屋の、どこか間の抜けた二人が作り出す、\nそこまで壮大でもない物語……\n\n初製作です。ゆっくり読んで45分程度のクソみたいな見るゲです。（ハードルを下げていくスタイル）\n※スクリーンショットは作中本編とは特に関係ありません。\n結局突貫工事になってしまったので普通にバグあるかも。",
+        "管理人コメント": "遊んでみるまで内容は分からない！秘密な感じが逆に気にならせます。"
+      },
+      "catalogueMetadata": {
+        "author": "みどりいぬ",
+        "category": "シリアスギャグ系のみるゲのつもりだった",
+        "engine": "RPGツクール2000",
+        "streaming": "こんなものでよければ/ぜひお願いします。"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2021s.kenkenpa.net/image/no43icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no43ss1.png",
+          "local": "/screenshots/2021-summer/43-source-1.png",
+          "sha256": "10f55a409965bfac6a3306ed1955a2e0cb0f6dbfe360415fea304121e9ca6503"
+        },
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no43ss2.png",
+          "local": "/screenshots/2021-summer/43-source-2.png",
+          "sha256": "c53f593086d2e49625801e17ebde1180e2c8e7a58bd76f959623d7d3f6e78e0f"
+        }
+      ],
+      "missingImageUrls": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1_yA0y8QZPxBJRSQ7tXGHydZSIv7XErHt",
+          "label": "2.2MB"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-summer-work-44",
+      "no": "44",
+      "detailUrl": "https://viprpg2021s.kenkenpa.net/no44.html",
+      "catalogueTitle": "まだ決まってないです",
+      "detailTitle": "まだ決まってないです",
+      "sourceTemplate": false,
+      "sourceMetadata": {
+        "作者": "呂宋兄弟",
+        "ジャンル": "見るゲ",
+        "ツール": "steam2k3",
+        "配信/投稿": "OK/OK",
+        "作者コメント": "9/10までに出せるようにがんばります",
+        "管理人コメント": "滑り込み歓迎！"
+      },
+      "catalogueMetadata": {
+        "author": "呂宋兄弟",
+        "category": "見るゲ",
+        "engine": "steam2k3",
+        "streaming": "OK/OK"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2021s.kenkenpa.net/image/noicon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no00ss1.png",
+          "local": "/screenshots/2021-summer/44-source-1.png",
+          "sha256": "df72dae66513881d25742d12149bc3abb1184a4e5e8f79f1c3e141e4f13388ef"
+        }
+      ],
+      "missingImageUrls": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/",
+          "label": "----"
+        }
+      ],
+      "packagesDownloaded": false
+    },
+    {
+      "id": "2021-summer-work-45",
+      "no": "45",
+      "detailUrl": "https://viprpg2021s.kenkenpa.net/no45.html",
+      "catalogueTitle": "好きなキャラ100人で魔王把握(予定)",
+      "detailTitle": "好きなキャラ100人で魔王把握(予定)",
+      "sourceTemplate": false,
+      "sourceMetadata": {
+        "作者": "管理人",
+        "ジャンル": "ksg",
+        "ツール": "RPGツクール2000",
+        "配信/投稿": "おけまる水産",
+        "作者コメント": "作品数をかさ増ししたっていいじゃない、ksgだもの。\nぶろお",
+        "管理人コメント": "わてりの15周年をちょろっとお祝いしたい"
+      },
+      "catalogueMetadata": {
+        "author": "管理人",
+        "category": "ksg",
+        "engine": "RPGツクール2000",
+        "streaming": "おけまる水産"
+      },
+      "metadataDifferences": [],
+      "iconSourceUrl": "https://viprpg2021s.kenkenpa.net/image/no45icon.png",
+      "screenshotSources": [
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no45ss1.png",
+          "local": "/screenshots/2021-summer/45-source-1.png",
+          "sha256": "c02738ab6287373201e1bb207c993673c92d612982f91219fa458028b084280c"
+        },
+        {
+          "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/no45ss2.png",
+          "local": "/screenshots/2021-summer/45-source-2.png",
+          "sha256": "3a24c3a597429004a92cb9683fc15683166075b7c9d5e89a1ef16046c80f582c"
+        }
+      ],
+      "missingImageUrls": [],
+      "downloadLinks": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1hBYruGSriG1iGnmP7sGuSj-of4IZ0Aj5",
+          "label": "----"
+        }
+      ],
+      "packagesDownloaded": false
+    }
+  ],
+  "bannerSources": [
+    {
+      "sourceUrl": "https://viprpg2021s.kenkenpa.net/image/banner1.png",
+      "local": "/banners/2021-summer/current-source.png",
+      "sha256": "30a0605b048df2d32c2bb41e042d6e7bca965c9d4489ba08025548557da7c0f7"
+    }
+  ],
+  "formatChanges": [],
+  "handling": "Direct current source archival without work-content or image-pixel screening. Preserve all 46 identities including No.00, full labels/comments, every displayed/hover image and actual source download URLs. Sample service-root placeholders are retained as source text, not actual downloads. Correct the source no9.html typo to the official no09.html; disable the documented missing final no46.html destination. No game packages downloaded.",
+  "desktopReview": "passed"
+}

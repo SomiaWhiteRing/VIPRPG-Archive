@@ -1,0 +1,468 @@
+url = "https://viprpg2021s.kenkenpa.net/no00.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/no00.bin"
+write-out = "0 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/no01.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/no01.bin"
+write-out = "1 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/no02.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/no02.bin"
+write-out = "2 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/no03.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/no03.bin"
+write-out = "3 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/no04.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/no04.bin"
+write-out = "4 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/no05.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/no05.bin"
+write-out = "5 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/no06.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/no06.bin"
+write-out = "6 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/no07.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/no07.bin"
+write-out = "7 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/no08.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/no08.bin"
+write-out = "8 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/no09.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/no09.bin"
+write-out = "9 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/no10.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/no10.bin"
+write-out = "10 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/no11.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/no11.bin"
+write-out = "11 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/no12.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/no12.bin"
+write-out = "12 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/no13.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/no13.bin"
+write-out = "13 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/no14.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/no14.bin"
+write-out = "14 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/no15.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/no15.bin"
+write-out = "15 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/no16.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/no16.bin"
+write-out = "16 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/no17.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/no17.bin"
+write-out = "17 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/no18.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/no18.bin"
+write-out = "18 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/no19.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/no19.bin"
+write-out = "19 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/no20.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/no20.bin"
+write-out = "20 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/no21.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/no21.bin"
+write-out = "21 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/no22.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/no22.bin"
+write-out = "22 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/no23.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/no23.bin"
+write-out = "23 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/no24.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/no24.bin"
+write-out = "24 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/no25.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/no25.bin"
+write-out = "25 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/no26.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/no26.bin"
+write-out = "26 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/no27.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/no27.bin"
+write-out = "27 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/no28.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/no28.bin"
+write-out = "28 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/no29.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/no29.bin"
+write-out = "29 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/no30.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/no30.bin"
+write-out = "30 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/no31.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/no31.bin"
+write-out = "31 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/no32.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/no32.bin"
+write-out = "32 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/no33.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/no33.bin"
+write-out = "33 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/no34.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/no34.bin"
+write-out = "34 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/no35.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/no35.bin"
+write-out = "35 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/no36.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/no36.bin"
+write-out = "36 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/no37.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/no37.bin"
+write-out = "37 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/no38.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/no38.bin"
+write-out = "38 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/no39.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/no39.bin"
+write-out = "39 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/no40.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/no40.bin"
+write-out = "40 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/no41.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/no41.bin"
+write-out = "41 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/no42.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/no42.bin"
+write-out = "42 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/no43.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/no43.bin"
+write-out = "43 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/no44.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/no44.bin"
+write-out = "44 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/no45.html"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/no45.bin"
+write-out = "45 %{http_code} %{url_effective} %{size_download}\n"
+
+next
+url = "https://viprpg2021s.kenkenpa.net/styles.css"
+proxy = "http://127.0.0.1:37997"
+max-time = 25
+silent
+show-error
+location
+output = "catch/2021-summer/source/live/styles.bin"
+write-out = "46 %{http_code} %{url_effective} %{size_download}\n"

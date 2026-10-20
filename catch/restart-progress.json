@@ -76,7 +76,7 @@
     "2016-summer",
     "2016-summer-2"
   ],
-  "activeFestival": "2021-summer",
+  "activeFestival": "2020-gw",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -1751,6 +1751,36 @@
         "catch/2021-kouhaku/investigation/local-http-payloads.json"
       ],
       "notes": "日本源站取得FC2原入口及其5份图片、1份CSS，另保存89份Wiki HTML、4份CSS和192份图片／主题资源；全部原始载荷核对SHA，无需Wayback回退。原入口按Shift_JIS解码，保留进入Wiki的原导航及两张真实横幅，横幅与原有文件字节一致。现行目录39项含00样例，补回旧数据缺失的33号，其余ID、编号和题名保持。恢复85张画廊截图与81处行内图像，18号11张、33号10张截图完整保留；32／40像素原图标槽及38×32、48×48行内插图按源标记保留在正文，不按自然尺寸过滤。13号旧缓存明确显示的额外截图从原CDN取回且与旧文件字节一致，标明现页已移除、旧缓存日期未确认；30号旧画廊图片归回原32像素图标栏，正文和原貌保留。38项配布入口包含35项实际来源链接与29、33、37三个未填写文件的原DL页，后者明确标注文件未确认；不把模板地址作为下载文件。原貌292文件、90份HTML、2018本地引用无缺失或外部自动加载；418个本地展示文件HTTP载荷与文件SHA一致。19处平台脚本折叠转换为原生嵌套details，共用函数单独提交fa5c05bc。原目录00的_parent及33的_top改为本地当前框架，沙箱权限不变；原入口、Wiki、39项目录、00／33详情、展开及DL页往返均验证。39整理详情、90原貌文档、主页39项及横幅、截图查看器和延迟图加载通过桌面检查。没有题材筛选、没有新增受限，游戏包未下载或执行。"
+    },
+    {
+      "festivalId": "2021-summer",
+      "reviewedAt": "2026-10-20",
+      "dataSha256": "af35f1f48454479ce32dcf62ee301a8b185b4e9a727b34ad5d1befb8ac189f83",
+      "status": "reviewed",
+      "works": 46,
+      "screenshotFiles": 70,
+      "screenshotReferences": 70,
+      "iconFiles": 46,
+      "downloadEntries": 45,
+      "originalCatalogueCompleteness": "verified-current-official-00-through-45-catalogue-and-all-46-details-including-explicit-sample-template",
+      "outstandingSourceDetails": 0,
+      "outstandingImageSourceUrls": 0,
+      "outstandingScreenshotRows": 0,
+      "outstandingOtherResources": 0,
+      "packageBytesValidated": false,
+      "sourceEvidence": [
+        "catch/2021-summer/recovery.json",
+        "catch/2021-summer/source-comparison.json",
+        "catch/2021-summer/source/live/manifest.json",
+        "catch/2021-summer/source/resources/manifest.json",
+        "catch/2021-summer/investigation/navigation-source-gaps.json",
+        "catch/2021-summer/investigation/replay-closure.json"
+      ],
+      "desktopEvidence": [
+        "catch/2021-summer/desktop-review.json",
+        "catch/2021-summer/investigation/local-http-payloads.json"
+      ],
+      "notes": "日本源站47份HTML、1份CSS和121份图片原始响应全部保存并核对SHA；46项含00样例，既有ID、编号及题名保持。70张实际显示／悬停截图与旧画廊全部逐字节对应，46处图标、1条本祭横幅和16条历届横幅按来源保留。恢复45项配布入口、原文作者及主办留言。00原详情是题名与元数据留空的填写模板，目录资料保留，Google Drive／掲示板服务入口不当作实际下载与感想主题；33号配信字段源站空白保持未设置。整理版配信字段采用官方目录，00、01、10、25的目录／详情表记差异按明确标签分别保留。10号上一页误写no9.html，日本源站404且香港精确CDX无记录，回放指向官方目录已有的no09.html；45号下一页no46.html同样404且CDX无记录，停用链接而不编造目录外作品。原貌169文件、47份HTML、479本地引用含悬停目标无缺失或外部自动加载。12号作者留言长文本将表格撑到2008像素，针对该单元格补换行；源100vw正文还使12、18、19、29号表格被滚动条裁边，回放改用实际可用宽度，47页按1168px内容区复核通过。46整理详情、主页46项目录与横幅、47原貌文档通过桌面检查，原生悬停、查看器切换、沙箱目录到10／09及返回导航均通过。286展示文件最终HTTP载荷与本地文件SHA一致。没有题材筛选、没有新增受限，游戏包未下载或执行。"
     }
   ],
   "originalViewsReviewed": [
@@ -2148,6 +2178,13 @@
       "evidence": [
         "catch/2021-kouhaku/original-view.json",
         "catch/2021-kouhaku/desktop-review.json"
+      ]
+    },
+    {
+      "festivalId": "2021-summer",
+      "evidence": [
+        "catch/2021-summer/original-view.json",
+        "catch/2021-summer/desktop-review.json"
       ]
     }
   ],

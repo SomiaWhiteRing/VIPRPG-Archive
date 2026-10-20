@@ -1,0 +1,83 @@
+{
+  "festivalId": "2021-summer",
+  "reviewedAt": "2026-10-20",
+  "scope": "desktop-only",
+  "method": "Browser DOM geometry, source hover events and actual navigation/viewer controls; no work-content or image-pixel screening.",
+  "organized": {
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    },
+    "documents": 46,
+    "images": 70,
+    "brokenImages": [],
+    "overflow": [],
+    "lazyFollowup": "No.01 first image completed with naturalWidth 640 after visibility/load observation.",
+    "catalogueStreamingPrimaryAndDetailSupplement": "No.10 both source values visibly present under their respective labels."
+  },
+  "original": {
+    "viewport": {
+      "width": 1183,
+      "height": 638
+    },
+    "clientWidthWithScrollbar": 1168,
+    "documents": 47,
+    "imageReferences": 155,
+    "brokenImages": [],
+    "contentClipping": [],
+    "layoutRepair": {
+      "authorCell": "no12.html table>tbody>tr:nth-child(6)>td",
+      "rule": "overflow-wrap:anywhere",
+      "beforeTableWidth": 2008,
+      "sourceBodyWidthProblem": "100vw included the scrollbar width and clipped full-width tables on No.12/18/19/29.",
+      "availableWidthRule": "body{width:auto}",
+      "afterBodyAndScrollWidth": 1168,
+      "rawSourceUnchanged": true
+    }
+  },
+  "homepage": {
+    "anchor": "#2021-summer",
+    "expanded": true,
+    "panelInert": false,
+    "entries": 46,
+    "sample00Present": true,
+    "last45Present": true,
+    "banners": 1,
+    "bannerLoaded": true,
+    "lastEntryNavigation": "passed; /works/2021-summer-work-45"
+  },
+  "embedded": {
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    },
+    "iframeWidth": 1185,
+    "iframeHeight": 640,
+    "sandbox": "allow-scripts",
+    "catalogueTo10": "passed",
+    "corrected10To09": "passed; no09.html",
+    "detail09ToCatalogue": "passed; 46 entries",
+    "navigationSourceEvidence": "investigation/navigation-source-gaps.json"
+  },
+  "interactions": {
+    "sourceHoverEnter": "no00ss1.png -> no00ss2.png; loaded",
+    "sourceHoverLeave": "no00ss2.png -> no00ss1.png; loaded",
+    "lastSourceNextLink": "no46.html href removed; existing label remains",
+    "viewerOpenNextClose": "passed; both sample screenshots loaded",
+    "organized00To10": "passed"
+  },
+  "checks": {
+    "build": "passed",
+    "lint": "passed full npm lint and final generator ESLint",
+    "dataValidation": "passed",
+    "httpPayloads": "investigation/local-http-payloads.json"
+  },
+  "toolObservation": "One oversized browser check batch reached the tool deadline and reset the runtime. Existing tab 24 was recovered; all 46 organized routes were then checked again in small batches with recorded results. The service was not restarted and product timeouts were not modified in response.",
+  "build": {
+    "buildId": "PwAPnY6B1n2LmIQrlC3hG",
+    "prerenderedRoutes": 4158,
+    "publicOnlyLayoutFix": "Final public HTML width corrections were generated, linted and browser-verified after the build; app data and route entry unchanged."
+  },
+  "packagesDownloaded": false,
+  "mobileTested": false
+}
