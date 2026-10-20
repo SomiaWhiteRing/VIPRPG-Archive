@@ -441,7 +441,7 @@ async function main() {
     const absolute = new URL(unarchive(url), owner).href, local = relative(absolute);
     if (local && blocked.has(local)) return blocked.get(local);
     if (local && ((id === "2010-gw" && sourceDetailGapPaths.has(local)) || (["2008-jisaku-battle-festival", "2008-kouhaku", "2008-summer", "2007-default-battle-festival", "2007-gw", "2007-summer", "2006-kouhaku", "2006-summer"].includes(id) && (sourceDetailGapPaths.has(local) || unavailableSourcePagePaths.has(local))))) return local;
-    if (local && /\.(?:html?|css|js|png|jpe?g|gif|bmp|webp|avif|ico|cur|svg|mp3|wav|ogg|mid|avi|ogv|txt|zip|woff2?|ttf|eot)$/i.test(local)) {
+    if (local && /\.(?:html?|css|js|png|jpe?g|gif|bmp|webp|avif|ico|cur|svg|mp3|wav|ogg|mid|avi|ogv|csv|txt|zip|woff2?|ttf|eot)$/i.test(local)) {
       queue.add(absolute);
       return local;
     }
