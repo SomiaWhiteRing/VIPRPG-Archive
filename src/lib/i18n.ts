@@ -3,8 +3,8 @@ export type Locale = (typeof locales)[number];
 
 const dictionaries: Record<Locale, Record<string, string>> = {
   ja: {
-    siteTitle: "VIPRPG 保存庫 試作版",
-    siteSubtitle: "年代別に祭典と作品をまとめた保存サンプル",
+    siteTitle: "VIPRPG祭典保存库",
+    siteSubtitle: "将祭典信息转储为静态资源并免费托管以长久保存与检索用的备份仓库",
     searchLabel: "キーワード検索",
     searchPlaceholder: "作品名・作者名などを入力してください",
     searchEmpty: "該当する作品は見つかりませんでした。",
@@ -56,8 +56,8 @@ const dictionaries: Record<Locale, Record<string, string>> = {
     screenshotAlt: "作品スクリーンショット",
   },
   zh: {
-    siteTitle: "VIPRPG 保存库 原型",
-    siteSubtitle: "按年份整理的祭典与作品示例",
+    siteTitle: "VIPRPG祭典保存库",
+    siteSubtitle: "将祭典信息转储为静态资源并免费托管以长久保存与检索用的备份仓库",
     searchLabel: "关键词检索",
     searchPlaceholder: "输入作品名称、作者等",
     searchEmpty: "没有找到匹配的作品。",
@@ -109,8 +109,8 @@ const dictionaries: Record<Locale, Record<string, string>> = {
     screenshotAlt: "作品截图",
   },
   en: {
-    siteTitle: "VIPRPG Archive Prototype",
-    siteSubtitle: "Sample archive of festivals and entries by year",
+    siteTitle: "VIPRPG祭典保存库",
+    siteSubtitle: "将祭典信息转储为静态资源并免费托管以长久保存与检索用的备份仓库",
     searchLabel: "Search",
     searchPlaceholder: "Type title or author…",
     searchEmpty: "No matching entries found.",

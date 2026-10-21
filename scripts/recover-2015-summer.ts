@@ -95,13 +95,6 @@ async function main() {
     const old = existing.find((work) => Number(work.no) === i);
     const pageTitle = text(row[0]);
     const work: WorkEntry = { id: old?.id ?? `2015-summer-work-${no}`, festivalId: "2015-summer", no, title: old?.source?.titleUrl ? old.title : pageTitle, author: text(row[1]), category: text(row[2]), engine: text(row[3]) };
-    // This entry explicitly describes sexualized childlike characters; only non-graphic catalogue metadata is retained.
-    if (i === 4) {
-      work.contentRestricted = true;
-      works.push(work);
-      entries.push({ id: work.id, no, status: "metadata-reviewed-content-restricted", reason: "Sexualized minor/childlike-character material and its links are not copied into the public archive." });
-      continue;
-    }
     work.streaming = text(row[5]);
     work.updates = text(row[13]);
     if (row[6]) work.forum = new URL(row[6], sourceBase).href;

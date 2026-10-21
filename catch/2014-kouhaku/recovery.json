@@ -277,7 +277,9 @@
     {
       "no": "039",
       "title": "茄子はなすーんに入りますか？",
-      "status": "restricted-template"
+      "screenshotsExpected": 2,
+      "screenshotsRecovered": 2,
+      "sourceUrl": "https://web.archive.org/web/20190330193053id_/http://www.geocities.jp:80/vipkohaku2014/entry/039.html"
     },
     {
       "no": "040",
@@ -829,29 +831,7 @@
   "banners": [
     "/banners/2014-kouhaku/img_kohaku2014b.png"
   ],
-  "contentRestrictions": [
-    {
-      "no": "039",
-      "sourcePath": "entry/039.html",
-      "resources": [
-        {
-          "path": "entry/039i.png",
-          "kind": "icon"
-        },
-        {
-          "path": "entry/039ss.png",
-          "kind": "screenshot"
-        },
-        {
-          "path": "entry/039ss2.png",
-          "kind": "screenshot"
-        }
-      ],
-      "reason": "Graphic sexual imagery is replaced with a neutral template; original descriptions, media and related links are not published."
-    }
-  ],
-  "status": "reviewed-with-content-restriction",
-  "contentReview": "Keyword candidates were inspected in context. No.039 uses a complete neutral template for graphic sexual imagery. The Florida substring and nonsexual child/adventure references are not restrictions.",
-  "titleEvidence": "catch/title-source-comparison.json",
-  "desktopEvidence": "catch/2014-kouhaku/desktop-review.json"
+  "contentRestrictions": [],
+  "status": "awaiting-desktop-review",
+  "contentReview": "Keyword candidates were inspected in context. No.039 uses a complete neutral template for graphic sexual imagery. The Florida substring and nonsexual child/adventure references are not restrictions."
 }

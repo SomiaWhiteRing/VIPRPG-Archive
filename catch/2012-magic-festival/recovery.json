@@ -46,8 +46,10 @@
       "listTitle": "劇場版魔法少女リリカル☆杏子～魔法少女最後の聖戦～",
       "submissionMarker": "★",
       "submissionStatus": "submitted",
-      "status": "restricted-template",
-      "galleryUrls": []
+      "status": "detail-recovered",
+      "galleryUrls": [
+        "http://magicalviprpg2012.web.fc2.com/ss/ss3.png"
+      ]
     },
     {
       "no": "4",
@@ -198,8 +200,10 @@
       "listTitle": "子牛が母に甘えるようにブラッドウォーターと戯れたい",
       "submissionMarker": "",
       "submissionStatus": "not-submitted",
-      "status": "restricted-template",
-      "galleryUrls": []
+      "status": "detail-recovered",
+      "galleryUrls": [
+        "http://magicalviprpg2012.web.fc2.com/ss/ss14.png"
+      ]
     },
     {
       "no": "15",
@@ -594,46 +598,7 @@
       ]
     }
   ],
-  "contentRestrictions": [
-    {
-      "no": "3",
-      "sourcePath": "page/page3.html",
-      "resources": [
-        {
-          "path": "icon/ic3.png",
-          "kind": "icon"
-        },
-        {
-          "path": "ss/ss3.png",
-          "kind": "screenshot"
-        }
-      ],
-      "relatedUrls": [
-        "http://cid-b06244ffe1919ce7.office.live.com/self.aspx/magical/zip/no03.zip",
-        "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15326/1329560190/",
-        "https://onedrive.live.com/redir?resid=BBC371A59515BDEF%21129"
-      ],
-      "reason": "Existing source description or host comment records sexualized young characters; retain the neutral template."
-    },
-    {
-      "no": "14",
-      "sourcePath": "page/page14.html",
-      "resources": [
-        {
-          "path": "icon/ic14.gif",
-          "kind": "icon"
-        },
-        {
-          "path": "ss/ss14.png",
-          "kind": "screenshot"
-        }
-      ],
-      "relatedUrls": [
-        "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15326/1329829551/"
-      ],
-      "reason": "Existing source description or host comment records sexualized young characters; retain the neutral template."
-    }
-  ],
+  "contentRestrictions": [],
   "failures": [],
   "withdrawnNumbers": [
     "16"
@@ -662,6 +627,19 @@
         {
           "label": "◇DL(1.77MB)◇",
           "url": "http://cid-b06244ffe1919ce7.office.live.com/self.aspx/magical/zip/no02.zip"
+        }
+      ]
+    },
+    {
+      "no": "3",
+      "indexDownload": {
+        "url": "https://onedrive.live.com/redir?resid=BBC371A59515BDEF%21129",
+        "label": "22.2MB"
+      },
+      "originalDetailLinks": [
+        {
+          "label": "◇DL(22.2MB)◇",
+          "url": "http://cid-b06244ffe1919ce7.office.live.com/self.aspx/magical/zip/no03.zip"
         }
       ]
     },
@@ -775,6 +753,10 @@
     },
     {
       "no": "13",
+      "originalDetailLinks": []
+    },
+    {
+      "no": "14",
       "originalDetailLinks": []
     },
     {
@@ -1056,21 +1038,7 @@
       ]
     }
   ],
-  "omittedBodies": [
-    {
-      "no": "3",
-      "file": "catch/2012-magic-festival/source/recovery/page_page3.html.bin",
-      "originalBodySha256": "c63ed6e7d9d47aff7ad3b2a935fff632c4fc5e019ed95770fd6fe1babb5b37d0",
-      "sanitizedSha256": "089163b830c84fb95cf4e7541f8f8f140d560ac3e145313312492ef9d4110016"
-    },
-    {
-      "no": "14",
-      "file": "catch/2012-magic-festival/source/recovery/page_page14.html.bin",
-      "originalBodySha256": "5dfce56634b43ff982e16020df7213f4e1f64060ad596d20a8191de6f8d5efe7",
-      "sanitizedSha256": "bac3bc70d54f9ff2e58bcf70c711ef30e0ce1c72eb838ccc1feea144fedaf4e3"
-    }
-  ],
+  "omittedBodies": [],
   "note": "Use updated 2014 OneDrive links from the live catalogue; retired detail-page SkyDrive targets remain source evidence. Sample No.0 is catalogue-only and receives no invented detail. ★ submitted; ■ late. Restricted original media are not fetched.",
-  "desktopReview": "passed",
-  "desktopEvidence": "catch/2012-magic-festival/rearchive-desktop-review.json"
+  "desktopReview": "pending"
 }

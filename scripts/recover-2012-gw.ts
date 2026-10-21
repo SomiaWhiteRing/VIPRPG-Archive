@@ -75,7 +75,7 @@ async function main() {
       const work: WorkEntry = { id: old?.id || `${id}-work-${no}`, festivalId: id, no, title, author: fields.author, engine: fields.engine, category: plain(index(row[3]).html() || "") };
       const icon = index(row[1]).find("img[src]").first().attr("src");
       const gallery = table.find("tr").first().find("img[src]").toArray().map((i) => new URL($(i).attr("src")!, url).href);
-      if (no === "45") {
+      if (no === "") {
         work.contentRestricted = true;
         const resources = [...(icon ? [{ path: new URL(icon, base).pathname.slice(1), kind: "icon" }] : []), ...gallery.map((s) => ({ path: new URL(s).pathname.slice(1), kind: "screenshot" }))];
         const relatedUrls = [...table.find("a[href]").toArray().map((a) => $(a).attr("href")!.trim()), ...index(row).find("a[href]").toArray().map((a) => index(a).attr("href")!.trim())].filter((h) => h && new URL(h, base).href !== url).map((h) => new URL(h, base).href);

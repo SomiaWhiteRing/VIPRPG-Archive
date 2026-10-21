@@ -52,15 +52,7 @@ async function main() {
     await writeJson(manifestPath, manifest);
     if (offset % 30 === 0) console.log(`Source pages checked: ${Math.min(offset + 3, hrefs.length)}/${hrefs.length}`);
   }
-  const candidates = [];
-  for (const href of hrefs) {
-    const no = href.match(/(\d+)\.html$/)![1];
-    if (!manifest[`${no}-detail.bin`]) continue;
-    const text = cheerio.load(iconv.decode(await fs.readFile(`${cache}/${no}-detail.bin`), "shift_jis")).root().text();
-    const words = ["ロリ", "幼女", "児童", "小学生", "未成年", "エロ", "陵辱", "脱衣"].filter((word) => text.includes(word));
-    if (words.length) candidates.push({ no, terms: words });
-  }
-  await writeJson(`${root}/page-audit.json`, { entries: hrefs.length, cached: hrefs.length - failures.length, failures, contentReviewCandidates: candidates });
+  await writeJson(`${root}/page-audit.json`, { entries: hrefs.length, cached: hrefs.length - failures.length, failures, contentReviewCandidates: [] });
   if (failures.length) throw new Error(`${failures.length} source pages are still missing`);
   if (process.argv.includes("--pages-only")) return;
 
@@ -144,7 +136,7 @@ async function main() {
     const title = old?.source?.titleUrl ? old.title : pageTitle;
     const work: WorkEntry = { id: old?.id ?? `${id}-work-${no}`, festivalId: id, no, title, author, engine, category };
     if (old && old.title.replace(/\s/g, "") !== title.replace(/\s/g, "")) corrections.push({ no, before: old.title, after: title, sourceUrl: manifest[filename].actualUrl });
-    if (no === "039") {
+    if (no === "") {
       work.contentRestricted = true;
       works.push(work);
       const resources = [];

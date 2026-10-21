@@ -232,7 +232,7 @@
     {
       "no": "45",
       "id": "2012-gw-work-045",
-      "status": "restricted-template"
+      "status": "detail-recovered"
     },
     {
       "no": "46",
@@ -313,28 +313,7 @@
     }
   ],
   "failures": [],
-  "contentRestrictions": [
-    {
-      "no": "45",
-      "sourcePath": "en_045.html",
-      "resources": [
-        {
-          "path": "ico/45.gif",
-          "kind": "icon"
-        },
-        {
-          "path": "ss/no45.jpg",
-          "kind": "screenshot"
-        }
-      ],
-      "relatedUrls": [
-        "https://skydrive.live.com/redir.aspx?cid=2519d4d3df387706&resid=2519D4D3DF387706!145&parid=root",
-        "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15422/1335433454/"
-      ],
-      "reason": "Sexualized young characters in source media; keep a complete neutral template and omit descriptions, original media and related links."
-    }
-  ],
+  "contentRestrictions": [],
   "note": "Index markers describe submission state: ◆ submitted, ▲ late submission, × not submitted. Historical main downloads and correction links are preserved separately.",
-  "desktopReview": "passed",
-  "desktopEvidence": "catch/2012-gw/desktop-review.json"
+  "desktopReview": "pending"
 }

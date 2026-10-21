@@ -4,8 +4,8 @@ import { LanguageProvider } from "@/components/language-context";
 import SiteChrome from "@/components/site-chrome";
 
 export const metadata: Metadata = {
-  title: "VIPRPG Archive Prototype",
-  description: "Sample implementation for an all-in-one VIPRPG festival archive",
+  title: "VIPRPG祭典保存库",
+  description: "将祭典信息转储为静态资源并免费托管以长久保存与检索用的备份仓库",
 };
 
 export default function RootLayout({

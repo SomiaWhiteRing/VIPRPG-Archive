@@ -238,9 +238,9 @@
     {
       "no": "33",
       "id": "2013-kouhaku-work-033",
-      "status": "restricted-template",
+      "status": "detail-recovered",
       "screenshotsLinked": 1,
-      "screenshotsRecovered": 0
+      "screenshotsRecovered": 1
     },
     {
       "no": "34",
@@ -550,31 +550,7 @@
       "error": "Error: [{\"url\":\"http://vipkohaku2013.web.fc2.com/ent/s/s069b.png\",\"error\":\"Error: HTTP 404\"}]"
     }
   ],
-  "contentRestrictions": [
-    {
-      "no": "33",
-      "sourcePath": "ent/33.html",
-      "resources": [
-        {
-          "path": "ent/i/i033.png",
-          "kind": "icon"
-        },
-        {
-          "path": "ent/s/s033a.jpg",
-          "kind": "screenshot"
-        }
-      ],
-      "relatedUrls": [
-        "http://yahoo.jp/box/3yjXph",
-        "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/16384/1385990037/",
-        "http://enq-maker.com/biPXu5i",
-        "http://yahoo.jp/box/wbBzif"
-      ],
-      "reason": "Graphic sexual and non-consensual content; retain a complete neutral template and omit source descriptions, media and related links."
-    }
-  ],
+  "contentRestrictions": [],
   "note": "The leading star is the source submission-status mark, not part of the title. Main downloads and patches are preserved separately. Restricted content is represented by a complete neutral template.",
-  "desktopReview": "passed-with-documented-omissions",
-  "desktopEvidence": "catch/2013-kouhaku/desktop-review.json",
-  "missingResourceEvidence": "catch/2013-kouhaku/missing-resource-review.json"
+  "desktopReview": "pending"
 }

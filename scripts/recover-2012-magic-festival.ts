@@ -18,7 +18,7 @@ async function main() {
   const workPath = `src/data/works/${id}.json`, legacyPath = `${root}/legacy-works.json`;
   await fs.copyFile(workPath, legacyPath, fs.constants.COPYFILE_EXCL).catch((e: NodeJS.ErrnoException) => { if (e.code !== "EEXIST") throw e; });
   const old: WorkEntry[] = JSON.parse(await fs.readFile(legacyPath, "utf8"));
-  const restricted = new Set(["3", "14"]), works: WorkEntry[] = [], entries = [], contentRestrictions = [], failures: Array<{ sourceUrl: string; error: string }> = [], historicalDownloads = [], omittedBodies = [];
+  const restricted = new Set<string>(), works: WorkEntry[] = [], entries = [], contentRestrictions = [], failures: Array<{ sourceUrl: string; error: string }> = [], historicalDownloads = [], omittedBodies = [];
   const previous = JSON.parse(await fs.readFile(`${root}/recovery.json`, "utf8").catch(() => "{}"));
   function plain(html: string) { const $ = cheerio.load(html, {}, false); $("br").replaceWith("\n"); return $.root().text().trim(); }
   async function image(url: string, kind: "icons" | "screenshots" | "banners") {
@@ -63,7 +63,17 @@ async function main() {
     }
     const url = new URL(href, base).href, capture = manifest[href];
     if (!capture) throw new Error(`Missing source detail: ${href}`);
-    if (!restricted.has(no) && capture.sanitizedForRestrictedContent) throw new Error(`Refresh altered source cache before restoring ${no}`);
+    if (capture.sanitizedForRestrictedContent) {
+      if (!process.argv.includes("--fetch")) throw new Error(`Source detail ${no} was previously sanitized; use --fetch to restore it.`);
+      const response = await fetch(capture.requestedUrl, { signal: AbortSignal.timeout(60000) });
+      if (!response.ok) throw new Error(`HTTP ${response.status} while restoring source detail ${no}`);
+      await fs.writeFile(`${cache}/${capture.file}`, Buffer.from(await response.arrayBuffer()));
+      capture.actualUrl = response.url;
+      capture.contentType = response.headers.get("content-type");
+      capture.retrievedAt = new Date().toISOString();
+      delete capture.sanitizedForRestrictedContent;
+      delete capture.originalBodySha256;
+    }
     const bytes = await fs.readFile(`${cache}/${capture.file}`), $ = cheerio.load(iconv.decode(bytes, "shift_jis")), table = $("table").first();
     const title = $("title").text().trim(), fields: Record<string, string> = {};
     for (const td of table.find("td").toArray()) {

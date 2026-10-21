@@ -31,9 +31,9 @@
         "45"
       ],
       "count": 1,
-      "status": "retained-restriction",
-      "restoredEntries": 0,
-      "retainedEntries": 1,
+      "status": "completed",
+      "restoredEntries": 1,
+      "retainedEntries": 0,
       "evidence": [
         "catch/2012-gw/rearchive-review.json"
       ]
@@ -46,16 +46,15 @@
         "093"
       ],
       "count": 3,
-      "status": "reviewed-with-retained-restriction",
+      "status": "completed",
       "restoredNumbers": [
+        "017",
         "058",
         "093"
       ],
-      "retainedNumbers": [
-        "017"
-      ],
-      "restoredEntries": 2,
-      "retainedEntries": 1,
+      "retainedNumbers": [],
+      "restoredEntries": 3,
+      "retainedEntries": 0,
       "evidence": [
         "catch/2012-kouhaku/rearchive-source-comparison.json",
         "catch/2012-kouhaku/rearchive-desktop-review.json"
@@ -69,16 +68,15 @@
         "14"
       ],
       "count": 3,
-      "status": "reviewed-with-retained-restriction",
+      "status": "completed",
       "restoredNumbers": [
-        "10"
-      ],
-      "retainedNumbers": [
         "3",
+        "10",
         "14"
       ],
-      "restoredEntries": 1,
-      "retainedEntries": 2,
+      "retainedNumbers": [],
+      "restoredEntries": 3,
+      "retainedEntries": 0,
       "evidence": [
         "catch/2012-magic-festival/rearchive-source-comparison.json",
         "catch/2012-magic-festival/rearchive-desktop-review.json"
@@ -90,9 +88,9 @@
         "33"
       ],
       "count": 1,
-      "status": "retained-restriction",
-      "restoredEntries": 0,
-      "retainedEntries": 1,
+      "status": "completed",
+      "restoredEntries": 1,
+      "retainedEntries": 0,
       "evidence": [
         "catch/2013-kouhaku/rearchive-review.json"
       ]
@@ -103,9 +101,9 @@
         "039"
       ],
       "count": 1,
-      "status": "retained-restriction",
-      "restoredEntries": 0,
-      "retainedEntries": 1,
+      "status": "completed",
+      "restoredEntries": 1,
+      "retainedEntries": 0,
       "evidence": [
         "catch/2014-kouhaku/rearchive-review.json"
       ]
@@ -116,9 +114,9 @@
         "04"
       ],
       "count": 1,
-      "status": "retained-restriction",
-      "restoredEntries": 0,
-      "retainedEntries": 1,
+      "status": "completed",
+      "restoredEntries": 1,
+      "retainedEntries": 0,
       "evidence": [
         "catch/2015-summer/rearchive-review.json"
       ]
@@ -126,20 +124,20 @@
   ],
   "totalEntries": 21,
   "activeFestival": "2011-denpa-game-festival",
-  "completedEntries": 14,
-  "remainingEntries": 7,
+  "completedEntries": 21,
+  "remainingEntries": 0,
   "processedEntries": 21,
-  "retainedEntries": 7,
+  "retainedEntries": 0,
   "pendingEntries": 0,
-  "restoredEntries": 14,
-  "unrestoredEntries": 7,
+  "restoredEntries": 21,
+  "unrestoredEntries": 0,
   "supplementalTasks": [
     {
       "festivalId": "2012-gw",
       "no": "45",
       "reviewedAt": "2026-10-18",
-      "status": "source-provenance-and-fixed-skeleton-verified",
-      "restrictionPreserved": true,
+      "status": "source-provenance-and-detail-recovery-verified",
+      "restrictionPreserved": false,
       "sourceUrl": "http://viprpg2012gw.web.fc2.com/en_045.html",
       "evidence": "catch/2012-gw/restricted-structure-review.json"
     }

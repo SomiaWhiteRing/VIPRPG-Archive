@@ -13,7 +13,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const festival = getFestivalBySlug(slug);
-  return { title: festival ? `${festival.name} | 原貌版` : "VIPRPG Archive" };
+  return { title: festival ? `${festival.name} | 原貌版` : "VIPRPG祭典保存库" };
 }
 
 export default async function OriginalPage({ params }: { params: Promise<{ slug: string }> }) {

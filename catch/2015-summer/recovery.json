@@ -36,8 +36,10 @@
     {
       "id": "2015-summer-work-04",
       "no": "04",
-      "status": "metadata-reviewed-content-restricted",
-      "reason": "Sexualized minor/childlike-character material and its links are not copied into the public archive."
+      "status": "metadata-recovered",
+      "screenshotsExpected": 2,
+      "screenshotsRecovered": 2,
+      "dataSource": "https://web.archive.org/web/20220329033823id_/http://viprpgsum15.webcrow.jp/data.js"
     },
     {
       "id": "2015-summer-work-05",
@@ -622,20 +624,11 @@
     "catch/2015-summer/investigation/main_table.json",
     "catch/2015-summer/investigation/main_ss.json"
   ],
-  "status": "reviewed-with-content-restriction",
+  "status": "awaiting-desktop-review",
   "banners": [
     "/banners/2015-summer-1.png",
     "/banners/2015-summer-2.png"
   ],
-  "contentRestrictions": [
-    {
-      "id": "2015-summer-work-04",
-      "no": "04",
-      "status": "metadata-reviewed-content-restricted",
-      "reason": "Sexualized minor/childlike-character material and its links are not copied into the public archive."
-    }
-  ],
-  "desktopEvidence": "catch/2015-summer/desktop-review.json",
   "titleVariants": [
     {
       "no": "55",
@@ -644,5 +637,5 @@
       "titleUrl": "http://jbbs.shitaraba.net/bbs/read.cgi/internet/22759/1439640955/"
     }
   ],
-  "titleEvidence": "catch/title-source-comparison.json"
+  "contentRestrictions": []
 }

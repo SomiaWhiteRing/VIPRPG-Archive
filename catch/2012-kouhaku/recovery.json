@@ -242,8 +242,10 @@
       "team": "red",
       "engineKey": "2000",
       "submissionStatus": "提出済",
-      "galleryUrls": [],
-      "status": "restricted-template"
+      "galleryUrls": [
+        "http://www45.atpages.jp/vipkohaku2012/db/_img/s/s017a.png"
+      ],
+      "status": "detail-recovered"
     },
     {
       "no": "018",
@@ -1290,44 +1292,7 @@
       "status": "detail-recovered"
     }
   ],
-  "contentRestrictions": [
-    {
-      "no": "017",
-      "sourcePath": "db/entry017.html",
-      "resources": [
-        {
-          "path": "db/_img/i/i017.png",
-          "kind": "icon"
-        },
-        {
-          "path": "db/_img/s/s017a.png",
-          "kind": "screenshot"
-        },
-        {
-          "path": "db/_img/t/t017.png",
-          "kind": "screenshot"
-        },
-        {
-          "path": "db/_img/c017.png",
-          "kind": "screenshot"
-        },
-        {
-          "path": "db2/_img/i/i017.png",
-          "kind": "icon"
-        },
-        {
-          "path": "db2/_img/i/i017.png",
-          "kind": "icon"
-        }
-      ],
-      "relatedUrls": [
-        "http://yahoo.jp/CLJWfP",
-        "http://jbbs.livedoor.jp/bbs/read.cgi/otaku/15696/1349525906/",
-        "http://enq-maker.com/6s1btnA"
-      ],
-      "reason": "Existing awards record explicitly identifies sexualized underage characters in No.017; retain its neutral template without original descriptions, media or related links. Generic shared catalogue icons remain available to other entries."
-    }
-  ],
+  "contentRestrictions": [],
   "failures": [
     {
       "owner": "2012-kouhaku-work-000",
@@ -1467,10 +1432,9 @@
     {
       "owner": "2012-kouhaku-work-093",
       "sourceUrl": "http://www45.atpages.jp/vipkohaku2012/db/_img/s/s093b.png",
-      "error": "Error: HTTP 404 at the checked known snapshot; see rearchive-resource-fetch.json"
+      "error": "Error: HTTP 404"
     }
   ],
-  "desktopReview": "passed",
-  "note": "Original CGI query links are retained as source URLs and mapped to local static detail pages only for offline replay. Archive requests use Hong Kong; live original/migration/mirror checks use Japan.",
-  "desktopEvidence": "catch/2012-kouhaku/rearchive-desktop-review.json"
+  "desktopReview": "pending",
+  "note": "Original CGI query links are retained as source URLs and mapped to local static detail pages only for offline replay. Archive requests use Hong Kong; live original/migration/mirror checks use Japan."
 }

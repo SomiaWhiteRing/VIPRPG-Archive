@@ -33,7 +33,7 @@ export default function SiteChrome({ children }: { children: React.ReactNode }) 
             </button>
           ))}
         </nav>
-        <p className="site-footer-copy">© VIPRPG Archive Prototype</p>
+        <p className="site-footer-copy">© VIPRPG祭典保存库</p>
       </footer>
     </div>
   );

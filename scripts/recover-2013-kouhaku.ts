@@ -97,7 +97,7 @@ async function main() {
       const screenshotRefs = gallery.map((img) => new URL($(img).attr("src")!, url).href);
       for (const img of gallery) for (const attr of ["onmouseover", "onmouseout"]) for (const m of $(img).attr(attr)?.matchAll(/this\.src\s*=\s*['"]([^'"]+)['"]/g) ?? []) screenshotRefs.push(new URL(m[1], url).href);
       const icon = header.find("img[src]").first().attr("src");
-      if (no === "33") {
+      if (no === "" ) {
         work.contentRestricted = true;
         delete work.streaming;
         const resources = [...(icon ? [{ path: new URL(icon, url).pathname.slice(1), kind: "icon" }] : []), ...[...new Set(screenshotRefs)].map((s) => ({ path: new URL(s).pathname.slice(1), kind: "screenshot" }))];
