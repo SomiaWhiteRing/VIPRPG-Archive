@@ -1,0 +1,52 @@
+{
+  "observedOn": "2026-10-21",
+  "url": "https://w.atwiki.jp/vip_rpg/pages/502.html",
+  "method": "Wiki festival table verified with web lookup and in-app browser DOM",
+  "pageLastUpdated": "2026-10-18 20:31",
+  "festivals": [
+    {
+      "festivalId": "2025-kouhaku",
+      "name": "VIPRPG紅白2025",
+      "url": "https://vipkohaku2025.x.2nt.com/"
+    },
+    {
+      "festivalId": "2026-gw",
+      "name": "VIPRPG GW祭 2026",
+      "url": "https://itch.io/jam/viprpg-gw-2026"
+    },
+    {
+      "festivalId": "2026-summer",
+      "name": "VIPRPG 夏の陣 2026",
+      "url": "https://itch.io/jam/viprpg-summer-2026"
+    },
+    {
+      "festivalId": "2026-toppatsu-festival",
+      "name": "VIPRPG 2026突発祭り",
+      "url": "https://w.atwiki.jp/viprpgtoppatsu/"
+    }
+  ],
+  "httpAttempt": {
+    "url": "https://w.atwiki.jp/vip_rpg/pages/502.html",
+    "actualUrl": "https://w.atwiki.jp/vip_rpg/pages/502.html",
+    "status": 403,
+    "contentType": "text/html; charset=UTF-8",
+    "retrievedAt": "2026-10-21T00:04:00.633Z",
+    "sha256": "686ee7b3ab39898817e7027bbbf7ce07c0505744cbb82fdf38e18a2fff84783b",
+    "bytes": 5500,
+    "proxyRegion": "Japan",
+    "proxyPort": 7897,
+    "file": "2026-10-21-http-403.bin",
+    "usable": false
+  },
+  "rawHtmlCaptured": false,
+  "externalProject": {
+    "url": "https://itch.io/jam/viprpg-game-jam-2026",
+    "wikiListing": "Mentioned in April comments as a separate year-round external project; absent from current festival table.",
+    "webLookupStatus": 404,
+    "includedInRecoveryQueue": false
+  },
+  "notes": [
+    "浏览器正常显示 Wiki 目录；HTTP 403 是抓取端挑战响应，不能当作目录页原始 HTML。",
+    "仅将当前祭典表中缺少的四个祭典加入新发现范围；不把评论里的外部通年企划混入已核实祭典。"
+  ]
+}

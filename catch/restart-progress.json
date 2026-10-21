@@ -74,7 +74,8 @@
     "2016-gw",
     "2016-kouhaku",
     "2016-summer",
-    "2016-summer-2"
+    "2016-summer-2",
+    "2025-kouhaku"
   ],
   "activeFestival": null,
   "completed": [
@@ -2786,6 +2787,14 @@
       "restrictionPreserved": true,
       "sourceUrl": "http://viprpg2012gw.web.fc2.com/en_045.html",
       "evidence": "catch/2012-gw/restricted-structure-review.json"
+    }
+  ],
+  "pendingFestivals": [
+    {
+      "festivalId": "2025-kouhaku",
+      "name": "VIPRPG紅白2025",
+      "notes": "2025/12/10 起收稿，12/24 公开，2026/1/31 截止更新；目录含 49 个详情链接，016 状态待查。",
+      "sourceEvidence": "catch/2025-kouhaku/festival-discovery.json"
     }
   ]
 }
