@@ -10,7 +10,9 @@
 
 推送 `main` 或手动运行 `.github/workflows/deploy.yml` 会在 GitHub 标准 Linux 运行器上校验、构建并上传。公开仓库的标准运行器执行免费。工作流不保存构建 artifact 或 Actions 缓存，不使用 Cloudflare Builds。
 
-仓库 Secret `CLOUDFLARE_API_TOKEN` 保存现有账号部署 token，通过加密 secret 提交；不提交 token 值或本机 OAuth 凭据。目前复用的 token 到期时间为 **2026-12-20 23:59:59 UTC**，届时需更新该 Secret；不撤销或改动其他项目使用的原 token。
+仓库 Secret `CLOUDFLARE_API_TOKEN` 保存专用账号令牌 `VIPRPG fes GitHub Actions`，设置为**无过期时间**；不提交 token 值或本机 OAuth 凭据。权限为本账号的 Workers Scripts Write、Account Settings Read，以及仅限 `viprpg.org` 的 Workers Routes Write、Zone Read。此令牌的 Workers 权限覆盖当前账号，并非单个 Worker 的权限隔离；工作流的部署目标固定为 `viprpg-fes`。其他项目原有令牌不修改或撤销。
+
+工作流在安装依赖前调用 Cloudflare 的令牌验证接口，只记录非敏感的令牌 ID、状态和到期时间。令牌必须处于 active 且没有到期时间，才继续构建和部署。
 
 本机：`npm ci`、`npm run build`、`npm start`（3100 端口）；正式发布：`npm run deploy`。Wrangler 使用现有登录或环境变量中的 token。
 
