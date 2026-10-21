@@ -7,6 +7,7 @@ import type { WorkEntry } from "../src/lib/types";
 import { materializeAtWikiRegions } from './source-atwiki-regions';
 import { rewrite2020Script, snapshot2020Script, root2020Script } from './source-2020-gw-view';
 import { rewriteSummer2012Source } from "./source-2012-summer-view";
+import { repairFrameNavigation } from './recover-frame-navigation';
 
 const staticItchFestivals = new Set(["2023-winter", "2025-gw", "2025-summer", "2026-gw", "2026-summer"]);
 
@@ -1584,6 +1585,8 @@ async function main() {
   }
   if (id === "2008-kouhaku") compatibilityFixes.push({ page: "*.html", change: "Forward local named-frame navigation through the sandbox's nested frames, and constrain images to their existing frame width while preserving aspect ratio and natural size on wider desktop panes." });
   if (id === "2008-summer") compatibilityFixes.push({ page: "Work_list.htm", change: "Route the source catalogue's index.htm home link to the recovered root entry index.html." });
+  const frameNavigationChanges = repairFrameNavigation(id, files);
+  if (frameNavigationChanges.length) compatibilityFixes.push({ page: '*.html', change: 'Route captured named-frame and ancestor navigation through owned frames; preserve the sandbox and source layout. Desktop review pending.' });
   for (const [local, bytes] of files) {
     const target = `${output}/${local}`;
     await fs.mkdir(path.dirname(target), { recursive: true });

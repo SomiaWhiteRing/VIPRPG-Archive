@@ -155,7 +155,8 @@
     "sakuhin_124.html",
     "sakuhin_125.html",
     "detail.html",
-    "kantan.html"
+    "kantan.html",
+    "archive-frame-navigation.js"
   ],
   "generatedPlaceholders": [],
   "generatedUnavailablePages": [
@@ -838,6 +839,10 @@
     {
       "page": "*.html",
       "change": "Forward local named-frame navigation through the sandbox's nested frames, and constrain images to their existing frame width while preserving aspect ratio and natural size on wider desktop panes."
+    },
+    {
+      "page": "*.html",
+      "change": "Route captured named-frame and ancestor navigation through owned frames; preserve the sandbox and source layout. Desktop review pending."
     }
   ],
   "changes": [
@@ -846,6 +851,6 @@
     "External hosting trackers removed; unavailable unused preloads replaced with an empty image.",
     "Original pages are displayed inside a sandboxed frame."
   ],
-  "desktopReview": "passed",
+  "desktopReview": "pending",
   "desktopEvidence": "catch/2008-kouhaku/desktop-review.json"
 }

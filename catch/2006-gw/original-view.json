@@ -94,7 +94,8 @@
     "up5403.png",
     "vip_tkool2056.png",
     "yutori.html",
-    "yutoriss.png"
+    "yutoriss.png",
+    "archive-frame-navigation.js"
   ],
   "generatedPlaceholders": [],
   "preloadResources": {
@@ -266,6 +267,10 @@
     {
       "page": "yutori.html",
       "change": "Remove 4 script or active-control elements and 1 uncaptured external auto-load resources from the static replay."
+    },
+    {
+      "page": "*.html",
+      "change": "Route captured named-frame and ancestor navigation through owned frames; preserve the sandbox and source layout. Desktop review pending."
     }
   ],
   "changes": [
@@ -275,7 +280,7 @@
     "Original pages are displayed inside a sandboxed frame.",
     "A scoped local message forwards menu clicks to the sibling frame while preserving the original frameset and sandbox isolation."
   ],
-  "desktopReview": "passed",
+  "desktopReview": "pending",
   "desktopEvidence": [
     "catch/2006-gw/desktop-review.json"
   ]

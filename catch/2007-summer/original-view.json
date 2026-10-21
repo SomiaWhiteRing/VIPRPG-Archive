@@ -123,7 +123,8 @@
     "ss96.html",
     "link.html",
     "2007r/menu.html",
-    "2007r/top.html"
+    "2007r/top.html",
+    "archive-frame-navigation.js"
   ],
   "generatedPlaceholders": [],
   "generatedUnavailablePages": [
@@ -735,6 +736,10 @@
     {
       "page": "2007r/top.html",
       "change": "Create a neutral local shell for an uncaptured auxiliary source page; preserve its local route without fabricating contents."
+    },
+    {
+      "page": "*.html",
+      "change": "Route captured named-frame and ancestor navigation through owned frames; preserve the sandbox and source layout. Desktop review pending."
     }
   ],
   "changes": [
@@ -745,7 +750,7 @@
     "Unavailable background references are omitted; the original background colors are retained and missing resources remain documented.",
     "A scoped local message forwards menu clicks to the sibling frame while preserving the original frameset and sandbox isolation."
   ],
-  "desktopReview": "passed-with-documented-source-gaps",
+  "desktopReview": "pending",
   "desktopEvidence": [
     "catch/2007-summer/desktop-review.json"
   ]

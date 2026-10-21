@@ -225,7 +225,8 @@
     "mate/ss61a.png",
     "mate/ss62a.png",
     "mate/ss63a.png",
-    "bg.png"
+    "bg.png",
+    "archive-frame-navigation.js"
   ],
   "generatedPlaceholders": [],
   "preloadResources": {
@@ -237,7 +238,12 @@
   "omittedCssResources": [],
   "omittedBackgrounds": [],
   "omittedHovers": [],
-  "compatibilityFixes": [],
+  "compatibilityFixes": [
+    {
+      "page": "*.html",
+      "change": "Route captured named-frame and ancestor navigation through owned frames; preserve the sandbox and source layout. Desktop review pending."
+    }
+  ],
   "changes": [
     "Original HTML and CSS normalized from utf-8 to UTF-8.",
     "Same-site links, CSS resources and absolute script/hover URLs use local paths.",

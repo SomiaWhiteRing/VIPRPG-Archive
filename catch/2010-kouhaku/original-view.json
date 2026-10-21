@@ -486,7 +486,8 @@
     "mem/036b.jpg",
     "mem/037b.jpg",
     "mem/038b.jpg",
-    "mem/039b.jpg"
+    "mem/039b.jpg",
+    "archive-frame-navigation.js"
   ],
   "generatedPlaceholders": [],
   "preloadResources": {
@@ -498,7 +499,12 @@
   "omittedCssResources": [],
   "omittedBackgrounds": [],
   "omittedHovers": [],
-  "compatibilityFixes": [],
+  "compatibilityFixes": [
+    {
+      "page": "*.html",
+      "change": "Route captured named-frame and ancestor navigation through owned frames; preserve the sandbox and source layout. Desktop review pending."
+    }
+  ],
   "changes": [
     "Original HTML and CSS normalized from shift_jis to UTF-8.",
     "Same-site links, CSS resources and absolute script/hover URLs use local paths.",
@@ -506,6 +512,6 @@
     "Original pages are displayed inside a sandboxed frame.",
     "A scoped local message forwards menu clicks to the sibling frame while preserving the original frameset and sandbox isolation."
   ],
-  "desktopReview": "passed",
+  "desktopReview": "pending",
   "desktopEvidence": "catch/2010-kouhaku/desktop-review.json"
 }

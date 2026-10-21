@@ -253,7 +253,8 @@
     "picture/back.png",
     "index.html",
     "main.html",
-    "menu.html"
+    "menu.html",
+    "archive-frame-navigation.js"
   ],
   "generatedPlaceholders": [],
   "preloadResources": {
@@ -268,6 +269,10 @@
     {
       "page": "ss/0.html",
       "change": "Disable nonexistent boundary navigation."
+    },
+    {
+      "page": "*.html",
+      "change": "Route captured named-frame and ancestor navigation through owned frames; preserve the sandbox and source layout. Desktop review pending."
     }
   ],
   "changes": [
@@ -277,6 +282,6 @@
     "Original pages are displayed inside a sandboxed frame.",
     "A scoped local message forwards menu clicks to the sibling frame while preserving the original frameset and sandbox isolation."
   ],
-  "desktopReview": "passed",
+  "desktopReview": "pending",
   "desktopEvidence": "catch/2013-summer/desktop-review.json"
 }

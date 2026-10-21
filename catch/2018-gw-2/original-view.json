@@ -85,7 +85,8 @@
     "works/29.html",
     "works/30.html",
     "works/31.html",
-    "works/32.html"
+    "works/32.html",
+    "archive-frame-navigation.js"
   ],
   "generatedPlaceholders": [],
   "generatedUnavailablePages": [
@@ -129,7 +130,12 @@
   "omittedCssResources": [],
   "omittedBackgrounds": [],
   "omittedHovers": [],
-  "compatibilityFixes": [],
+  "compatibilityFixes": [
+    {
+      "page": "*.html",
+      "change": "Route captured named-frame and ancestor navigation through owned frames; preserve the sandbox and source layout. Desktop review pending."
+    }
+  ],
   "changes": [
     "Original HTML and CSS normalized from utf-8 to UTF-8.",
     "Same-site links, CSS resources and absolute script/hover URLs use local paths.",
@@ -137,6 +143,6 @@
     "Original pages are displayed inside a sandboxed frame.",
     "A scoped local message forwards menu clicks to the sibling frame while preserving the original frameset and sandbox isolation."
   ],
-  "desktopReview": "passed-desktop-only-with-source-gaps",
+  "desktopReview": "pending",
   "desktopEvidence": "desktop-review.json"
 }

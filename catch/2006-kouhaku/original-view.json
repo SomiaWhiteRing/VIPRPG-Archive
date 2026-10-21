@@ -230,7 +230,8 @@
     "review.htm",
     "review2.htm",
     "review4.htm",
-    "review5.htm"
+    "review5.htm",
+    "archive-frame-navigation.js"
   ],
   "generatedPlaceholders": [],
   "generatedUnavailablePages": [
@@ -703,6 +704,10 @@
     {
       "page": "review5.htm",
       "change": "Create a neutral local shell for an uncaptured auxiliary source page; preserve its local route without fabricating contents."
+    },
+    {
+      "page": "*.html",
+      "change": "Route captured named-frame and ancestor navigation through owned frames; preserve the sandbox and source layout. Desktop review pending."
     }
   ],
   "changes": [
@@ -713,7 +718,7 @@
     "Unavailable background references are omitted; the original background colors are retained and missing resources remain documented.",
     "A scoped local message forwards menu clicks to the sibling frame while preserving the original frameset and sandbox isolation."
   ],
-  "desktopReview": "passed",
+  "desktopReview": "pending",
   "desktopEvidence": [
     "catch/2006-kouhaku/desktop-review.json"
   ]
