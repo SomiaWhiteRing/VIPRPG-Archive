@@ -1,0 +1,102 @@
+{
+  "festivalId": "2026-toppatsu-festival",
+  "name": "VIPRPG 2026突発祭り",
+  "year": 2026,
+  "type": "special",
+  "discoveredOn": "2026-10-21",
+  "discoveredFrom": "https://w.atwiki.jp/vip_rpg/pages/502.html",
+  "sourceUrl": "https://w.atwiki.jp/viprpgtoppatsu/",
+  "status": "information-verified-recovery-pending",
+  "period": {
+    "timezone": "Asia/Tokyo",
+    "submissionStarts": "2026-09-19",
+    "submissionEndDate": "2026-09-27",
+    "commentEndDate": "2026-10-03"
+  },
+  "sourceManifest": "catch/2026-toppatsu-festival/source/discovery/manifest.json",
+  "wikiEvidence": "catch/wiki-festival-discovery/2026-10-21.json",
+  "sourceStatus": "browser-readable-http-client-403",
+  "restoration": {
+    "formattedView": "pending",
+    "originalView": "pending",
+    "desktopReview": "pending"
+  },
+  "handling": "只核对祭典元数据、目录结构、编号和来源入口；未主动审看作品内容，未添加受限标记。未下载游戏包。",
+  "notes": [
+    "举办者接受截止日之后的追加参战作品，当前目录已包含 No.11；不得沿用旧搜索摘要的 10 条计数。"
+  ],
+  "catalogue": {
+    "url": "https://w.atwiki.jp/viprpgtoppatsu/",
+    "totalEntries": 11,
+    "regularNumbers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "additionalNumbers": [
+      "9",
+      "10",
+      "11"
+    ],
+    "entries": [
+      {
+        "no": "1",
+        "url": "https://w.atwiki.jp/viprpgtoppatsu/pages/12.html"
+      },
+      {
+        "no": "2",
+        "url": "https://w.atwiki.jp/viprpgtoppatsu/pages/13.html"
+      },
+      {
+        "no": "3",
+        "url": "https://w.atwiki.jp/viprpgtoppatsu/pages/14.html"
+      },
+      {
+        "no": "4",
+        "url": "https://w.atwiki.jp/viprpgtoppatsu/pages/15.html"
+      },
+      {
+        "no": "5",
+        "url": "https://w.atwiki.jp/viprpgtoppatsu/pages/16.html"
+      },
+      {
+        "no": "6",
+        "url": "https://w.atwiki.jp/viprpgtoppatsu/pages/17.html"
+      },
+      {
+        "no": "7",
+        "url": "https://w.atwiki.jp/viprpgtoppatsu/pages/18.html"
+      },
+      {
+        "no": "8",
+        "url": "https://w.atwiki.jp/viprpgtoppatsu/pages/19.html"
+      },
+      {
+        "no": "9",
+        "url": "https://w.atwiki.jp/viprpgtoppatsu/pages/20.html"
+      },
+      {
+        "no": "10",
+        "url": "https://w.atwiki.jp/viprpgtoppatsu/pages/21.html"
+      },
+      {
+        "no": "11",
+        "url": "https://w.atwiki.jp/viprpgtoppatsu/pages/22.html"
+      }
+    ]
+  },
+  "themes": [
+    "雨",
+    "怪談",
+    "錬金術"
+  ],
+  "links": {
+    "banner": "https://img.atwiki.jp/viprpgtoppatsu/pub/VIPRPG-Silver2026.png"
+  },
+  "sourceEvidence": "catch/2026-toppatsu-festival/browser-discovery.json"
+}

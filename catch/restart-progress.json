@@ -77,7 +77,8 @@
     "2016-summer-2",
     "2025-kouhaku",
     "2026-gw",
-    "2026-summer"
+    "2026-summer",
+    "2026-toppatsu-festival"
   ],
   "activeFestival": null,
   "completed": [
@@ -2809,6 +2810,12 @@
       "name": "VIPRPG 夏の陣 2026",
       "notes": "日本时间 2026/7/25 00:00～9/6 00:00；简表 37 行（0～35、ED），平台显示 34 个公开投稿。",
       "sourceEvidence": "catch/2026-summer/festival-discovery.json"
+    },
+    {
+      "festivalId": "2026-toppatsu-festival",
+      "name": "VIPRPG 2026突発祭り",
+      "notes": "2026/9/19～9/27；目录 11 条：No.1～8，追加参战 No.9～11。",
+      "sourceEvidence": "catch/2026-toppatsu-festival/festival-discovery.json"
     }
   ]
 }
