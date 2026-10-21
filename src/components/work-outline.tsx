@@ -1,12 +1,11 @@
 "use client";
 
 import Link from "next/link";
-import type { Festival, WorkEntry } from "@/lib/types";
-import { hasWorkDetail } from "@/lib/work-detail";
+import type { Festival, WorkOutlineEntry } from "@/lib/types";
 
 interface WorkOutlineProps {
   festival?: Festival;
-  works: WorkEntry[];
+  works: WorkOutlineEntry[];
   activeId?: string;
 }
 
@@ -23,11 +22,12 @@ export default function WorkOutline({ festival, works, activeId }: WorkOutlinePr
       <ul className="detail-outline-list">
         {works.map((work) => (
           <li key={work.id}>
-            {!hasWorkDetail(work, festival) ? (
+            {!work.hasDetail ? (
               <span className={activeId === work.id ? "outline-text active" : "outline-text"}>{work.title}</span>
             ) : (
               <Link
                 href={`/works/${work.id}`}
+                prefetch={false}
                 className={activeId === work.id ? "outline-link active" : "outline-link"}
                 aria-current={activeId === work.id ? "true" : undefined}
               >

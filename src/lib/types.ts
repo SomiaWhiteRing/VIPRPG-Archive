@@ -69,3 +69,17 @@ export interface WorkEntry {
   detailDisabled?: boolean;
   ss?: string[];
 }
+
+export interface WorkOutlineEntry {
+  id: string;
+  title: string;
+  hasDetail: boolean;
+}
+
+export interface WorkListEntry extends WorkOutlineEntry, Pick<WorkEntry,
+  "no" | "author" | "originalTitle" | "icon" | "category" | "group" | "engine" | "streaming" | "forum" | "contentRestricted"
+> {
+  authorOmitted: boolean;
+  hasMaterials: boolean;
+  downloads: Pick<WorkDownload, "url" | "label" | "filename">[];
+}

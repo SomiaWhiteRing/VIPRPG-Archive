@@ -9,8 +9,8 @@ export default function FestivalViewLinks({ slug, active = "formatted" }: { slug
   const available = Object.hasOwn(views, slug);
   return (
     <nav className="festival-view-links" aria-label={dictionary.festivalViews}>
-      {active === "formatted" ? <span aria-current="page">{dictionary.formattedView}</span> : <Link href={`/#${slug}`}>{dictionary.formattedView}</Link>}
-      {available ? active === "original" ? <span aria-current="page">{dictionary.originalView}</span> : <Link href={`/original/${slug}`}>{dictionary.originalView}</Link> : <span className="muted" aria-disabled="true">{dictionary.originalViewPending}</span>}
+      {active === "formatted" ? <span aria-current="page">{dictionary.formattedView}</span> : <Link href={`/#${slug}`} prefetch={false}>{dictionary.formattedView}</Link>}
+      {available ? active === "original" ? <span aria-current="page">{dictionary.originalView}</span> : <Link href={`/original/${slug}`} prefetch={false}>{dictionary.originalView}</Link> : <span className="muted" aria-disabled="true">{dictionary.originalViewPending}</span>}
     </nav>
   );
 }

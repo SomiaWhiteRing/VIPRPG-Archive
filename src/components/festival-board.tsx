@@ -3,6 +3,7 @@
 import {
   JSX,
   useCallback,
+  useDeferredValue,
   useEffect,
   useMemo,
   useRef,
@@ -11,14 +12,12 @@ import {
 } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import type { Festival, FestivalColumnKey, WorkEntry } from "@/lib/types";
+import type { Festival, FestivalColumnKey, WorkListEntry } from "@/lib/types";
 import { useLanguage } from "@/components/language-context";
-import { hasWorkDetail } from "@/lib/work-detail";
 import FestivalViewLinks from "@/components/festival-view-links";
-import { getWorkDownloads } from "@/lib/work-downloads";
 
 export interface FestivalWithWorks extends Festival {
-  works: WorkEntry[];
+  works: WorkListEntry[];
 }
 
 export interface FestivalGroup {
@@ -45,6 +44,7 @@ const CONTENT_TOP_OFFSET = 166;
 const CONTENT_BOTTOM_OFFSET = 24;
 const OUTLINE_TOP_OFFSET = 44;
 const OUTLINE_BOTTOM_OFFSET = 18;
+const SEARCH_RESULT_BATCH = 50;
 
 function normalize(text?: string): string {
   return text?.trim().toLocaleLowerCase() ?? "";
@@ -79,7 +79,7 @@ function highlight(text: string, term: string): ReactNode {
   return pieces.length ? pieces : text;
 }
 
-function matchWork(work: WorkEntry, term: string) {
+function matchWork(work: WorkListEntry, term: string) {
   if (!term) return true;
   const haystack = [work.title, work.originalTitle, work.author, work.category, work.group, work.engine]
     .filter(Boolean)
@@ -90,6 +90,9 @@ function matchWork(work: WorkEntry, term: string) {
 export default function FestivalBoard({ groups }: FestivalBoardProps) {
   const { dictionary } = useLanguage();
   const [searchTerm, setSearchTerm] = useState("");
+  const deferredSearchTerm = useDeferredValue(searchTerm);
+  const query = normalize(deferredSearchTerm);
+  const [resultLimits, setResultLimits] = useState<Record<string, number>>({});
   const outlineRef = useRef<HTMLDivElement | null>(null);
   const outlineLinksRef = useRef<Record<string, HTMLAnchorElement | null>>({});
   const visibleFestivalsRef = useRef(new Set<string>());
@@ -151,7 +154,7 @@ export default function FestivalBoard({ groups }: FestivalBoardProps) {
   );
 
   const views = useMemo(() => {
-    const term = normalize(searchTerm);
+    const term = query;
     return groups.map((group) => ({
       year: group.year,
       festivals: group.festivals.map((festival) => {
@@ -162,22 +165,18 @@ export default function FestivalBoard({ groups }: FestivalBoardProps) {
         };
       }).filter(({ filteredWorks }) => !term || filteredWorks.length > 0),
     })).filter((group) => group.festivals.length > 0);
-  }, [groups, searchTerm]);
+  }, [groups, query]);
 
   useEffect(() => {
-    if (!normalize(searchTerm)) {
+    setResultLimits({});
+    if (!query) {
       const hashId = festivalIdBySlug.get(window.location.hash.slice(1));
       setExpanded({ ...defaultExpanded, ...(hashId ? { [hashId]: true } : {}) });
       return;
     }
-    const next: Record<string, boolean> = {};
-    for (const group of views) {
-      for (const { festival, filteredWorks } of group.festivals) {
-        next[festival.id] = filteredWorks.length > 0;
-      }
-    }
-    setExpanded(next);
-  }, [defaultExpanded, festivalIdBySlug, searchTerm, views]);
+    const firstMatch = views[0]?.festivals[0]?.festival;
+    setExpanded(firstMatch ? { [firstMatch.id]: true } : {});
+  }, [defaultExpanded, festivalIdBySlug, query, views]);
 
   useEffect(() => {
     const openHash = () => {
@@ -394,7 +393,9 @@ export default function FestivalBoard({ groups }: FestivalBoardProps) {
               </header>
               {group.festivals.map(({ festival, filteredWorks }) => {
                 const isExpanded = expanded[festival.id] ?? false;
-                const displayWorks = searchTerm ? filteredWorks : festival.works;
+                const displayWorks = query
+                  ? filteredWorks.slice(0, resultLimits[festival.id] ?? SEARCH_RESULT_BATCH)
+                  : festival.works;
 
                 return (
                   <article key={festival.id} id={festival.slug} className="festival-card">
@@ -403,6 +404,7 @@ export default function FestivalBoard({ groups }: FestivalBoardProps) {
                         <h3>{festival.name}</h3>
                         <FestivalViewLinks slug={festival.slug} />
                         {festival.period && <span className="period">{festival.period}</span>}
+                        {query && <span className="period">{filteredWorks.length} {dictionary.matchingWorks}</span>}
                       </div>
                       <div className="festival-banners">
                         {festival.banners.map((src) => (
@@ -446,10 +448,10 @@ export default function FestivalBoard({ groups }: FestivalBoardProps) {
                         }
                       }}
                     >
-                      <div className="festival-body-inner">
+                      {isExpanded && <div className="festival-body-inner">
                         {festival.materialTerms && <details className="material-terms"><summary>{dictionary.materialGeneralTerms}</summary><p className="section-text">{festival.materialTerms}</p></details>}
                         <div className="festival-scroll">
-                          <table className={festival.works.some((work) => work.materialInfo) ? "festival-table festival-table--materials" : "festival-table"}>
+                          <table className={festival.works.some((work) => work.hasMaterials) ? "festival-table festival-table--materials" : "festival-table"}>
                             <colgroup>
                               {festival.columns.map((column) => (
                                 <col key={column} className={columnClassMap[column]} />
@@ -474,8 +476,7 @@ export default function FestivalBoard({ groups }: FestivalBoardProps) {
                                     const cell = renderCell({
                                       column,
                                       work,
-                                      festival,
-                                      term: normalize(searchTerm),
+                                      term: query,
                                       dictionary,
                                     });
                                     return (
@@ -488,9 +489,16 @@ export default function FestivalBoard({ groups }: FestivalBoardProps) {
                               ))}
                             </tbody>
                           </table>
+                          {query && displayWorks.length < filteredWorks.length && <p className="note">
+                            {displayWorks.length} / {filteredWorks.length}{" "}
+                            <button type="button" className="button" onClick={() => setResultLimits((prev) => ({
+                              ...prev,
+                              [festival.id]: (prev[festival.id] ?? SEARCH_RESULT_BATCH) + SEARCH_RESULT_BATCH,
+                            }))}>{dictionary.showMore}</button>
+                          </p>}
                         </div>
                         {displayWorks.length === 0 && <p className="note">{dictionary.searchEmpty}</p>}
-                      </div>
+                      </div>}
                     </div>
                   </article>
                 );
@@ -532,13 +540,11 @@ function renderHeader(
 function renderCell({
   column,
   work,
-  festival,
   term,
   dictionary,
 }: {
   column: FestivalColumnKey;
-  work: WorkEntry;
-  festival: Festival;
+  work: WorkListEntry;
   term: string;
   dictionary: Record<string, string>;
 }): { node: ReactNode; className: string } {
@@ -573,14 +579,14 @@ function renderCell({
       return {
         node: (
           <div className="cell-stack">
-            {!hasWorkDetail(work, festival) ? (
+            {!work.hasDetail ? (
               <span className="text-strong">{highlight(work.title, term)}</span>
             ) : (
-              <Link href={`/works/${work.id}`} className="link-strong">
+              <Link href={`/works/${work.id}`} className="link-strong" prefetch={false}>
                 {highlight(work.title, term)}
               </Link>
             )}
-            <span className="muted small">{work.source?.authorOmitted ? dictionary.authorOmitted : highlight(work.author, term)}</span>
+            <span className="muted small">{work.authorOmitted ? dictionary.authorOmitted : highlight(work.author, term)}</span>
             {work.originalTitle && <span className="muted small">{dictionary.detailsOriginalTitle}: {highlight(work.originalTitle, term)}</span>}
             {work.contentRestricted && <span className="muted small">{dictionary.restrictedContent}</span>}
           </div>
@@ -609,8 +615,8 @@ function renderCell({
         className: `${baseClass} cell-streaming`,
       };
     case "download": {
-      const downloads = work.contentRestricted ? [] : getWorkDownloads(work);
-      if (downloads.length > 1) return { node: <Link className="button" href={`/works/${work.id}`}>{dictionary.filesLabel} ({downloads.length})</Link>, className: `${baseClass} cell-center` };
+      const downloads = work.contentRestricted ? [] : work.downloads;
+      if (downloads.length > 1) return { node: <Link className="button" href={`/works/${work.id}`} prefetch={false}>{dictionary.filesLabel} ({downloads.length})</Link>, className: `${baseClass} cell-center` };
       const downloadUrl = downloads[0]?.url;
       if (downloadUrl) {
         return {
