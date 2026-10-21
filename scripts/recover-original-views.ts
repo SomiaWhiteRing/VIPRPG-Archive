@@ -9,6 +9,15 @@ import { rewrite2020Script, snapshot2020Script, root2020Script } from './source-
 import { rewriteSummer2012Source } from "./source-2012-summer-view";
 
 const configurations: Record<string, { base: string; entry?: string; manifests: string[]; seeds: Record<string, string>; seedUrls?: Record<string, string>; cgiProfile?: boolean; encoding?: string; encodingOverrides?: Record<string, string>; liveSource?: boolean; disabledLocalLinks?: string[]; externalResources?: Record<string, string>; preserveExternalExtensions?: string[]; frames?: { menuPage: string; menuName: string; mainName: string } }> = {
+  "2025-kouhaku": {
+    base: "https://vipkohaku2025.x.2nt.com/",
+    manifests: ["source/live/replay-manifest.json"],
+    seeds: {},
+    encoding: "shift_jis",
+    liveSource: true,
+    frames: { menuPage: "menu.html", menuName: "left", mainName: "right" },
+    preserveExternalExtensions: [".zip", ".rar", ".7z", ".exe"],
+  },
   "2016-summer-2": {
     base: "http://viprpgsummer2016.web.fc2.com/",
     manifests: ["source/replay/manifest.json"],

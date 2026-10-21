@@ -6,7 +6,7 @@
   "discoveredOn": "2026-10-21",
   "discoveredFrom": "https://w.atwiki.jp/vip_rpg/pages/502.html",
   "sourceUrl": "https://vipkohaku2025.x.2nt.com/",
-  "status": "information-verified-recovery-pending",
+  "status": "restored-with-documented-source-gap",
   "period": {
     "timezone": "Asia/Tokyo",
     "registrationStarts": "2025-12-10",
@@ -21,9 +21,9 @@
   "wikiEvidence": "catch/wiki-festival-discovery/2026-10-21.json",
   "sourceStatus": "live-http-200",
   "restoration": {
-    "formattedView": "pending",
-    "originalView": "pending",
-    "desktopReview": "pending"
+    "formattedView": "reviewed-with-documented-source-gap",
+    "originalView": "reviewed",
+    "desktopReview": "passed"
   },
   "handling": "只核对祭典元数据、目录结构、编号和来源入口；未主动审看作品内容，未添加受限标记。未下载游戏包。",
   "notes": [
@@ -243,5 +243,6 @@
     "forum": "https://jbbs.shitaraba.net/game/61506/",
     "shortComments": "https://bbs1.sekkaku.net/bbs/gomez25/",
     "allWorksBackup": "https://drive.google.com/file/d/1rXt7rPLgZcyluKXSB6_WdiyZi0-qSr74/view?usp=drive_link"
-  }
+  },
+  "recoveryEvidence": "catch/2025-kouhaku/recovery.json"
 }

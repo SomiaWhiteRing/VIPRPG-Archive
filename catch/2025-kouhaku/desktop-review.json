@@ -1,0 +1,66 @@
+{
+  "festivalId": "2025-kouhaku",
+  "reviewedOn": "2026-10-21",
+  "scope": "Desktop only; source structure, geometry and actual UI interaction. No entry-content screening.",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "base": "http://localhost:3101",
+  "formatted": {
+    "homepageHashExpanded": true,
+    "homepageRows": 49,
+    "originalViewLink": true,
+    "detailSamples": [
+      "001",
+      "002",
+      "005",
+      "025",
+      "032",
+      "043",
+      "050"
+    ],
+    "rootHorizontalOverflow": false,
+    "observedImageLoadsVerified": true,
+    "sidebarNavigation": [
+      "001",
+      "002",
+      "005"
+    ],
+    "screenshotViewer": {
+      "entry": "050",
+      "opened": true,
+      "imageLoaded": true,
+      "escapeCloses": true
+    }
+  },
+  "original": {
+    "wrapperSandbox": "allow-scripts",
+    "frames": [
+      "left",
+      "right"
+    ],
+    "frameWidths": [
+      211,
+      966
+    ],
+    "catalogueDetailLinks": 49,
+    "catalogueImagesDecoded": 53,
+    "actualMenuClicks": [
+      "entry.html",
+      "vote.html",
+      "hyo1.html",
+      "sakuhin.html"
+    ],
+    "actualDetailClicks": [
+      "001.html",
+      "002.html",
+      "sakuhin.html"
+    ],
+    "navigationMethod": "Browser mouse input to the attached sandbox target after DOM geometry inspection; frame locators could inspect but could not click the nested frames.",
+    "missingResources": 0
+  },
+  "resourceEvidence": "catch/2025-kouhaku/investigation/local-resource-review.json",
+  "buildEvidence": "catch/2025-kouhaku/investigation/build-route-review.json",
+  "result": "passed"
+}

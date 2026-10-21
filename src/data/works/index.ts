@@ -73,8 +73,10 @@ import works2024Kuradashifestival from "./2024-kuradashifestival.json";
 import works2024Summer from "./2024-summer.json";
 import works2025Gw from "./2025-gw.json";
 import works2025Summer from "./2025-summer.json";
+import works2025Kouhaku from "./2025-kouhaku.json";
 
 export const worksByFestival: Record<string, WorkEntry[]> = {
+  "2025-kouhaku": works2025Kouhaku as WorkEntry[],
   "2005-kouhaku": works2005Kouhaku as WorkEntry[],
   "2006-gw": works2006Gw as WorkEntry[],
   "2006-kouhaku": works2006Kouhaku as WorkEntry[],
