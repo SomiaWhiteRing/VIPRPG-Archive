@@ -5,9 +5,10 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
+    "postbuild": "tsx scripts/optimize-original-pages.ts",
     "start": "wrangler dev --local --port 3100",
     "deploy": "npm run build && wrangler deploy",
-    "lint": "eslint src scripts/validate-data.ts scripts/audit-archive.ts scripts/source-static-array.ts \"scripts/recover-*.ts\"",
+    "lint": "eslint src scripts/validate-data.ts scripts/audit-archive.ts scripts/source-static-array.ts scripts/optimize-original-pages.ts \"scripts/recover-*.ts\"",
     "lint:legacy": "eslint scripts",
     "audit:data": "tsx scripts/audit-archive.ts",
     "validate:data": "tsx scripts/validate-data.ts"
