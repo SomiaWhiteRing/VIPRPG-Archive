@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-21",
+  "reason": "Remove unnecessary third-party Google frontend API keys from archived Drive/Sites bootstrap data. All other content is preserved.",
+  "replacement": "[REDACTED_GOOGLE_API_KEY]",
+  "historicalCommitsRewritten": false,
+  "entries": [
+    {
+      "file": "catch/2012-kouhaku/investigation/drive-backup-folder.bin",
+      "originalSha256": "0fb59e693b3cff65e06419b0b5e10e20a066117ab6dee6d7d761d97f7d6cce2f",
+      "originalBytes": 832268,
+      "redactedSha256": "b0280e055cea706f0098a92aae5cb8c6752325cc756387a181c580fb889bef9a",
+      "redactedBytes": 831890,
+      "replacements": 27,
+      "distinctKeys": 6
+    },
+    {
+      "file": "catch/2015-summer/investigation/backup-drive.html",
+      "originalSha256": "444872b7c8867938f0c9ded9012ff895dc1211ef1108fbd9730d0ba2968896b1",
+      "originalBytes": 829677,
+      "redactedSha256": "f69d3bc9fb9dfb589a1f8af5b1b61db5ba6af840167d3464201c71a1c2f70a70",
+      "redactedBytes": 829299,
+      "replacements": 27,
+      "distinctKeys": 6
+    },
+    {
+      "file": "catch/2019-summer/index.html",
+      "originalSha256": "97d1eb0d717d9386b023152df3c2ae63d668eed12ee7a041e1637dce1dc2dd18",
+      "originalBytes": 103719,
+      "redactedSha256": "ad8da85844417f5eaa215d27acb0c6dc817faa0c1712945569d29ccd367c79b4",
+      "redactedBytes": 103705,
+      "replacements": 1,
+      "distinctKeys": 1
+    },
+    {
+      "file": "catch/2019-summer/index_wayback.html",
+      "originalSha256": "ade7d2f8c171c35b8c9326a046d7b14844bb1ef13063d76af1338cb2100bf10f",
+      "originalBytes": 92463,
+      "redactedSha256": "07c1413c298cfb865d865066d03f6890a5b535d5a1f3192b04549da576caa9f1",
+      "redactedBytes": 92449,
+      "replacements": 1,
+      "distinctKeys": 1
+    },
+    {
+      "file": "catch/2019-summer/source/live/index.bin",
+      "originalSha256": "c30b5386bd1ecf07d3ce38de51ed1ea32d0dea8d1760b8387ad03b4f3cd8db8c",
+      "originalBytes": 143578,
+      "redactedSha256": "2448f0f87d31eecc62b2dd06a14ff9bfc31e8a8800ea55283ff54efd3653ae5d",
+      "redactedBytes": 143564,
+      "replacements": 1,
+      "distinctKeys": 1
+    }
+  ],
+  "hashBasis": "Original hashes refer to pre-redaction Git blobs; redacted hashes refer to saved sanitized files. Git text checkout newline conversion is excluded."
+}
