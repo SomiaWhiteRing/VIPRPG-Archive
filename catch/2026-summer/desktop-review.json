@@ -1,0 +1,65 @@
+{
+  "festivalId": "2026-summer",
+  "reviewedOn": "2026-10-21",
+  "scope": "Desktop only; DOM geometry and actual browser interaction, no entry-content screening.",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "formatted": {
+    "preview": "http://localhost:3101",
+    "productionPreview": "http://localhost:3100",
+    "homepageRows": 37,
+    "hashExpanded": true,
+    "originalViewLink": true,
+    "detailSamples": [
+      "0",
+      "4",
+      "10",
+      "27",
+      "35",
+      "ED"
+    ],
+    "rootHorizontalOverflow": false,
+    "snapshotLinksVerified": [
+      "10",
+      "27"
+    ],
+    "sourceGapNotice": "35",
+    "screenshotViewer": {
+      "entry": "4",
+      "images": 7,
+      "nextClicks": 6,
+      "lastCounter": "7 / 7",
+      "lastImageLoaded": true,
+      "escapeCloses": true
+    }
+  },
+  "original": {
+    "wrapperSandbox": "allow-scripts",
+    "catalogueRows": 37,
+    "publicSubmissionCards": 34,
+    "screenshotOverviewCells": 62,
+    "computedIndexFont": "Lato, sans-serif",
+    "rootHorizontalOverflow": false,
+    "actualClicks": [
+      "screenshots.html",
+      "entries.html",
+      "index.html",
+      "rate/4975804.html",
+      "index.html",
+      "rate/4812373.html",
+      "game/4812373.html"
+    ],
+    "browserBackReturns": "rate/4812373.html",
+    "archiveProjectDescriptionBlocks": 1,
+    "archiveScreenshotDecoded": true,
+    "generatedSourceGapNumber": "35",
+    "gapMetadataFields": 5,
+    "missingResources": 0
+  },
+  "resourceEvidence": "catch/2026-summer/investigation/local-resource-review.json",
+  "sourceEvidence": "catch/2026-summer/investigation/source-structure-review.json",
+  "buildEvidence": "catch/2026-summer/investigation/build-route-review.json",
+  "result": "passed"
+}

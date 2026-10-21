@@ -80,7 +80,7 @@
     "2026-summer",
     "2026-toppatsu-festival"
   ],
-  "activeFestival": "2026-summer",
+  "activeFestival": "2026-toppatsu-festival",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -2266,6 +2266,28 @@
         "catch/2026-gw/investigation/build-route-review.json"
       ],
       "notes": "41 行目录含示例 0、ED 及目前不公开的编号，40 张目录图、90 张详情截图和 78 项截图总览完整保存；No.38 的投稿与作品页由两个六月快照恢复。No.7 原作品页与投稿页现为 404，所查精确 CDX 无记录；保留目录、官方论坛首贴和明确的详情骨架。原貌 713 个文件无资源缺失，844 个静态路径、712 个栅格图片文件、42 个构建路由及桌面菜单／11 图查看器通过。源站 40 个可恢复投稿页均无自定义问答区，不把作者留言字段为空视为已抓到留言。"
+    },
+    {
+      "festivalId": "2026-summer",
+      "reviewedAt": "2026-10-21",
+      "dataSha256": "bed57df171bf2a690a2e49223c8d9f12e551002cfa84ee23a477384a1c270643",
+      "works": 37,
+      "screenshotFiles": 74,
+      "status": "reviewed-with-documented-source-gap",
+      "sourceEvidence": [
+        "catch/2026-summer/recovery.json",
+        "catch/2026-summer/source/live/manifest.json",
+        "catch/2026-summer/source/archive/manifest.json",
+        "catch/2026-summer/investigation/forum-source-links.json",
+        "catch/2026-summer/investigation/archive-cdx-review.json",
+        "catch/2026-summer/investigation/source-structure-review.json"
+      ],
+      "desktopEvidence": [
+        "catch/2026-summer/desktop-review.json",
+        "catch/2026-summer/investigation/local-resource-review.json",
+        "catch/2026-summer/investigation/build-route-review.json"
+      ],
+      "notes": "保留 37 行目录（0～35、ED）、36 张目录图、74 张详情截图与 62 项截图总览；No.10、27 由官方感想帖定位地址，再补回四个 8 月快照。No.35 仍保留目录、官方首贴、来源状态和完整缺页骨架，不推断非公开原因。原貌 612 个文件无资源缺失；723 个静态路径、600 个栅格图片文件、38 个构建路由、桌面菜单／返回／7 图查看器通过。36 个可恢复投稿页均无自定义问答区；保存实际的 1 份主办留言，未生成作者留言。"
     }
   ],
   "originalViewsReviewed": [
@@ -2806,6 +2828,14 @@
         "catch/2026-gw/desktop-review.json",
         "catch/2026-gw/investigation/local-resource-review.json"
       ]
+    },
+    {
+      "festivalId": "2026-summer",
+      "evidence": [
+        "catch/2026-summer/original-view.json",
+        "catch/2026-summer/desktop-review.json",
+        "catch/2026-summer/investigation/local-resource-review.json"
+      ]
     }
   ],
   "insertedTask": {
@@ -2849,12 +2879,6 @@
     }
   ],
   "pendingFestivals": [
-    {
-      "festivalId": "2026-summer",
-      "name": "VIPRPG 夏の陣 2026",
-      "notes": "日本时间 2026/7/25 00:00～9/6 00:00；简表 37 行（0～35、ED），平台显示 34 个公开投稿。",
-      "sourceEvidence": "catch/2026-summer/festival-discovery.json"
-    },
     {
       "festivalId": "2026-toppatsu-festival",
       "name": "VIPRPG 2026突発祭り",

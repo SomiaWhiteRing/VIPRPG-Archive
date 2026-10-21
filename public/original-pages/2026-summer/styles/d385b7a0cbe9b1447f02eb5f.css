@@ -1,0 +1,67 @@
+body {
+    margin-top: 32px;
+}
+
+.site-header {
+    border-bottom: 1px solid;
+    font-size: small;
+    height: 31px;
+    margin: 0;
+    left: 0;
+    overflow: auto;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:10;
+}
+
+.site-header-black {
+    background-color: #000;
+    border-color: #222;
+    color: #eee;
+}
+
+.site-header-black a,
+.site-header-black a:hover,
+.site-header-black a:visited {
+    color: #eee;
+}
+
+.site-header-white {
+    background-color: #fff;
+    border-color: #ccc;
+    color: #666;
+}
+
+.site-header-white a,
+.site-header-white a:hover,
+.site-header-white a:visited {
+    color: #666;
+}
+
+.shitaraba-site-header-logo {
+    float: left;
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+.site-header-navigation-links {
+    float: left;
+    height: 31px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.site-header-navigation-links li {
+    display: inline;
+    line-height: 31px;
+    margin-right: 5px;
+}
+
+.site-header-announcement {
+    float: right;
+    line-height: 31px;
+    margin-right: 10px;
+}

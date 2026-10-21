@@ -1,17 +1,16 @@
 # 重启后的逐祭典校对清单
 
-已校对 76/78 个祭典；当前顺序中的下一个：`2026-summer`。
+已校对 77/78 个祭典；当前顺序中的下一个：`2026-toppatsu-festival`。
 
-原貌视图已验收 76/78 个；整理版与原貌版共同纳入后续逐祭典工作。
+原貌视图已验收 77/78 个；整理版与原貌版共同纳入后续逐祭典工作。
 
-已入库 76 个祭典；另有 2 个新祭典已登记来源信息，作品数据及双视图尚未恢复，不计入已验收数量。
+已入库 77 个祭典；另有 1 个新祭典已登记来源信息，作品数据及双视图尚未恢复，不计入已验收数量。
 
 | 新祭典 | 已核实信息 | 来源记录 |
 | --- | --- | --- |
-| VIPRPG 夏の陣 2026（`2026-summer`） | 日本时间 2026/7/25 00:00～9/6 00:00；简表 37 行（0～35、ED），平台显示 34 个公开投稿。 | [信息与来源](../catch/2026-summer/festival-discovery.json) |
 | VIPRPG 2026突発祭り（`2026-toppatsu-festival`） | 2026/9/19～9/27；目录 11 条：No.1～8，追加参战 No.9～11。 | [信息与来源](../catch/2026-toppatsu-festival/festival-discovery.json) |
 
-[补充归档复核记录](../catch/restricted-rearchive-plan.json)保留了本轮恢复结果及未恢复的限制条目；常规校对已按顺序推进至 `2026-summer`。
+[补充归档复核记录](../catch/restricted-rearchive-plan.json)保留了本轮恢复结果及未恢复的限制条目；常规校对已按顺序推进至 `2026-toppatsu-festival`。
 
 只有完成来源逐项核对、资源检查和桌面验收的祭典才加入下表。数据字段清点见 [festival-scrape-status.md](../catch/festival-scrape-status.md)，不作为校对完成证明。
 
@@ -95,7 +94,8 @@
 | 74 | 2016-summer-2 | 2026-10-20T23:48:33.411Z | 日本可访问源站归档60站内HTML（含未登记000样例）／58实际论坛／169资源，288载荷摘要核验。58编号题名不变，115留言字段全文匹配；CSS作者／引擎58项解析，类型图URL逐项不变，保留类别，隔行黄色不推断迟到分组。58图标／74截图，旧74全部字节对应，补回9补丁入口。旧popupCenter接口改用本地图片和有效固定坐标，去除托管跟踪，原字节保留，HTML／CSS转UTF-8。原貌58目录点击／返回、640px悬停复位、000样例与论坛只读实测；整理58详情74图、查看器、补丁按钮、首页58项59图末项往返通过，无坏图／溢出。287原貌文件／953静态及144事件引用闭合，420发布路径HTTP／SHA相同，4218页构建／lint／数据校验通过。不审看题材／像素，不新增受限，不下载或执行游戏包。 | [catch/2016-summer-2/recovery.json](../catch/2016-summer-2/recovery.json)、[catch/2016-summer-2/source/live/manifest.json](../catch/2016-summer-2/source/live/manifest.json)、[catch/2016-summer-2/source/resources/manifest.json](../catch/2016-summer-2/source/resources/manifest.json)、[catch/2016-summer-2/investigation/data-reconciliation.json](../catch/2016-summer-2/investigation/data-reconciliation.json) |
 | 75 | 2025-kouhaku | 2026-10-21 | 当前源站目录的 49 个详情、49 张预览、49 张截图、49 份作者与主办留言、45 条作品的配布入口及 2 张横幅已保存；原貌 194 个文件无资源缺失。桌面菜单、目录、详情切换、查看器、294 个静态资源及 50 个构建路由通过。历史 016 号当前无目录行，候选详情跳转源站 404，精确 CDX 无记录，单列待查，不编造内容。 | [catch/2025-kouhaku/recovery.json](../catch/2025-kouhaku/recovery.json)、[catch/2025-kouhaku/source/live/manifest.json](../catch/2025-kouhaku/source/live/manifest.json)、[catch/2025-kouhaku/investigation/no016-cdx.json](../catch/2025-kouhaku/investigation/no016-cdx.json) |
 | 76 | 2026-gw | 2026-10-21 | 41 行目录含示例 0、ED 及目前不公开的编号，40 张目录图、90 张详情截图和 78 项截图总览完整保存；No.38 的投稿与作品页由两个六月快照恢复。No.7 原作品页与投稿页现为 404，所查精确 CDX 无记录；保留目录、官方论坛首贴和明确的详情骨架。原貌 713 个文件无资源缺失，844 个静态路径、712 个栅格图片文件、42 个构建路由及桌面菜单／11 图查看器通过。源站 40 个可恢复投稿页均无自定义问答区，不把作者留言字段为空视为已抓到留言。 | [catch/2026-gw/recovery.json](../catch/2026-gw/recovery.json)、[catch/2026-gw/source/live/manifest.json](../catch/2026-gw/source/live/manifest.json)、[catch/2026-gw/source/archive/manifest.json](../catch/2026-gw/source/archive/manifest.json)、[catch/2026-gw/investigation/archive-cdx-review.json](../catch/2026-gw/investigation/archive-cdx-review.json)、[catch/2026-gw/investigation/source-structure-review.json](../catch/2026-gw/investigation/source-structure-review.json) |
+| 77 | 2026-summer | 2026-10-21 | 保留 37 行目录（0～35、ED）、36 张目录图、74 张详情截图与 62 项截图总览；No.10、27 由官方感想帖定位地址，再补回四个 8 月快照。No.35 仍保留目录、官方首贴、来源状态和完整缺页骨架，不推断非公开原因。原貌 612 个文件无资源缺失；723 个静态路径、600 个栅格图片文件、38 个构建路由、桌面菜单／返回／7 图查看器通过。36 个可恢复投稿页均无自定义问答区；保存实际的 1 份主办留言，未生成作者留言。 | [catch/2026-summer/recovery.json](../catch/2026-summer/recovery.json)、[catch/2026-summer/source/live/manifest.json](../catch/2026-summer/source/live/manifest.json)、[catch/2026-summer/source/archive/manifest.json](../catch/2026-summer/source/archive/manifest.json)、[catch/2026-summer/investigation/forum-source-links.json](../catch/2026-summer/investigation/forum-source-links.json)、[catch/2026-summer/investigation/archive-cdx-review.json](../catch/2026-summer/investigation/archive-cdx-review.json)、[catch/2026-summer/investigation/source-structure-review.json](../catch/2026-summer/investigation/source-structure-review.json) |
 
-尚未完成：`2026-summer`、`2026-toppatsu-festival`。
+尚未完成：`2026-toppatsu-festival`。
 
 已校对但尚待原貌视图验收：无。

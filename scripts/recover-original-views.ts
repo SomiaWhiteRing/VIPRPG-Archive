@@ -8,9 +8,17 @@ import { materializeAtWikiRegions } from './source-atwiki-regions';
 import { rewrite2020Script, snapshot2020Script, root2020Script } from './source-2020-gw-view';
 import { rewriteSummer2012Source } from "./source-2012-summer-view";
 
-const staticItchFestivals = new Set(["2023-winter", "2025-gw", "2025-summer", "2026-gw"]);
+const staticItchFestivals = new Set(["2023-winter", "2025-gw", "2025-summer", "2026-gw", "2026-summer"]);
 
 const configurations: Record<string, { base: string; entry?: string; manifests: string[]; seeds: Record<string, string>; seedUrls?: Record<string, string>; cgiProfile?: boolean; encoding?: string; encodingOverrides?: Record<string, string>; liveSource?: boolean; disabledLocalLinks?: string[]; externalResources?: Record<string, string>; preserveExternalExtensions?: string[]; frames?: { menuPage: string; menuName: string; mainName: string } }> = {
+  "2026-summer": {
+    base: "https://itch.io/jam/viprpg-summer-2026/",
+    manifests: ["source/replay/manifest.json"],
+    seeds: {},
+    encoding: "utf-8",
+    liveSource: true,
+    preserveExternalExtensions: [".zip", ".rar", ".7z", ".exe"],
+  },
   "2026-gw": {
     base: "https://itch.io/jam/viprpg-gw-2026/",
     manifests: ["source/replay/manifest.json"],
@@ -1229,8 +1237,8 @@ async function main() {
           }
         });
         if (staticItchFestivals.has(id) || (id === "2024-gw" && local.startsWith("itch/"))) {
-          if (id === "2025-summer" || id === "2026-gw") $('link[rel="manifest"]').remove();
-          if (id === "2026-gw" && cached.has("screenshots.html") && ["index.html", "entries.html", "screenshots.html"].includes(local)) {
+          if (["2025-summer", "2026-gw", "2026-summer"].includes(id)) $('link[rel="manifest"]').remove();
+          if (["2026-gw", "2026-summer"].includes(id) && cached.has("screenshots.html") && ["index.html", "entries.html", "screenshots.html"].includes(local)) {
             const screenshotUrl = new URL("screenshots", config.base).href;
             if (!$('.header_tabs a[href]').toArray().some(a => new URL($(a).attr('href')!, original).href === screenshotUrl)) {
               $('.header_tabs').append($('<a class="header_tab" data-archive-note="captured-screenshots"></a>').attr('href', screenshotUrl).text('スクリーンショット（保存分）'));

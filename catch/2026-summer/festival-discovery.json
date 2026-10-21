@@ -6,7 +6,7 @@
   "discoveredOn": "2026-10-21",
   "discoveredFrom": "https://w.atwiki.jp/vip_rpg/pages/502.html",
   "sourceUrl": "https://itch.io/jam/viprpg-summer-2026",
-  "status": "information-verified-recovery-pending",
+  "status": "restored-with-documented-source-gap",
   "period": {
     "timezone": "Asia/Tokyo",
     "startUtc": "2026-07-24T15:00:00Z",
@@ -19,14 +19,14 @@
   "wikiEvidence": "catch/wiki-festival-discovery/2026-10-21.json",
   "sourceStatus": "live-http-200",
   "restoration": {
-    "formattedView": "pending",
-    "originalView": "pending",
-    "desktopReview": "pending"
+    "formattedView": "reviewed-with-documented-source-gap",
+    "originalView": "reviewed-with-documented-source-gap",
+    "desktopReview": "passed"
   },
   "handling": "只核对祭典元数据、目录结构、编号和来源入口；未主动审看作品内容，未添加受限标记。未下载游戏包。",
   "notes": [
     "简表由主办手动维护，源站明确提示可能滞后；后续需要同时核对平台投稿目录及简表，保留示例、ED 与未公开条目的编号。",
-    "源站对 No.35 说明为临近结束时仅注册后被作者设为非公开，目录继续保留；不可按平台当前公开数截断简表。其他差额尚待逐条核对。"
+    "源站称 No.35 临近结束时仅登记而未提交作品，并推测其后被作者设为非公开；本轮未独立判定原因。官方感想帖给出的作品地址当前返回 404，所查投稿页、作品地址及跳转后的地址的精确 CDX 均无记录。"
   ],
   "catalogue": {
     "url": "https://itch.io/jam/viprpg-summer-2026",
@@ -351,5 +351,6 @@
     "screenshots": "https://itch.io/jam/viprpg-summer-2026/screenshots",
     "community": "https://itch.io/jam/viprpg-summer-2026/community",
     "forum": "https://jbbs.shitaraba.net/game/61552/"
-  }
+  },
+  "recoveryEvidence": "catch/2026-summer/recovery.json"
 }
