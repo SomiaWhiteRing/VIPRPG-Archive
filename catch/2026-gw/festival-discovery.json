@@ -6,7 +6,7 @@
   "discoveredOn": "2026-10-21",
   "discoveredFrom": "https://w.atwiki.jp/vip_rpg/pages/502.html",
   "sourceUrl": "https://itch.io/jam/viprpg-gw-2026",
-  "status": "information-verified-recovery-pending",
+  "status": "restored-with-documented-source-gap",
   "period": {
     "timezone": "Asia/Tokyo",
     "startUtc": "2026-04-17T15:00:00Z",
@@ -19,9 +19,9 @@
   "wikiEvidence": "catch/wiki-festival-discovery/2026-10-21.json",
   "sourceStatus": "live-http-200",
   "restoration": {
-    "formattedView": "pending",
-    "originalView": "pending",
-    "desktopReview": "pending"
+    "formattedView": "reviewed-with-documented-source-gap",
+    "originalView": "reviewed-with-documented-source-gap",
+    "desktopReview": "passed"
   },
   "handling": "只核对祭典元数据、目录结构、编号和来源入口；未主动审看作品内容，未添加受限标记。未下载游戏包。",
   "notes": [
@@ -376,5 +376,6 @@
     "screenshots": "https://itch.io/jam/viprpg-gw-2026/screenshots",
     "community": "https://itch.io/jam/viprpg-gw-2026/community",
     "forum": "https://jbbs.shitaraba.net/game/61537/"
-  }
+  },
+  "recoveryEvidence": "catch/2026-gw/recovery.json"
 }

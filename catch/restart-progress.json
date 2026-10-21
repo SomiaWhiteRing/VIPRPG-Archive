@@ -80,7 +80,7 @@
     "2026-summer",
     "2026-toppatsu-festival"
   ],
-  "activeFestival": "2026-gw",
+  "activeFestival": "2026-summer",
   "completed": [
     {
       "festivalId": "2014-gw",
@@ -2245,6 +2245,27 @@
         "catch/2025-kouhaku/investigation/build-route-review.json"
       ],
       "notes": "当前源站目录的 49 个详情、49 张预览、49 张截图、49 份作者与主办留言、45 条作品的配布入口及 2 张横幅已保存；原貌 194 个文件无资源缺失。桌面菜单、目录、详情切换、查看器、294 个静态资源及 50 个构建路由通过。历史 016 号当前无目录行，候选详情跳转源站 404，精确 CDX 无记录，单列待查，不编造内容。"
+    },
+    {
+      "festivalId": "2026-gw",
+      "reviewedAt": "2026-10-21",
+      "dataSha256": "bd4f99d268488c45db44ac6023f734ec93cd4f68ebf353849347e3b8181c2813",
+      "works": 41,
+      "screenshotFiles": 90,
+      "status": "reviewed-with-documented-source-gap",
+      "sourceEvidence": [
+        "catch/2026-gw/recovery.json",
+        "catch/2026-gw/source/live/manifest.json",
+        "catch/2026-gw/source/archive/manifest.json",
+        "catch/2026-gw/investigation/archive-cdx-review.json",
+        "catch/2026-gw/investigation/source-structure-review.json"
+      ],
+      "desktopEvidence": [
+        "catch/2026-gw/desktop-review.json",
+        "catch/2026-gw/investigation/local-resource-review.json",
+        "catch/2026-gw/investigation/build-route-review.json"
+      ],
+      "notes": "41 行目录含示例 0、ED 及目前不公开的编号，40 张目录图、90 张详情截图和 78 项截图总览完整保存；No.38 的投稿与作品页由两个六月快照恢复。No.7 原作品页与投稿页现为 404，所查精确 CDX 无记录；保留目录、官方论坛首贴和明确的详情骨架。原貌 713 个文件无资源缺失，844 个静态路径、712 个栅格图片文件、42 个构建路由及桌面菜单／11 图查看器通过。源站 40 个可恢复投稿页均无自定义问答区，不把作者留言字段为空视为已抓到留言。"
     }
   ],
   "originalViewsReviewed": [
@@ -2777,6 +2798,14 @@
         "catch/2025-kouhaku/desktop-review.json",
         "catch/2025-kouhaku/investigation/local-resource-review.json"
       ]
+    },
+    {
+      "festivalId": "2026-gw",
+      "evidence": [
+        "catch/2026-gw/original-view.json",
+        "catch/2026-gw/desktop-review.json",
+        "catch/2026-gw/investigation/local-resource-review.json"
+      ]
     }
   ],
   "insertedTask": {
@@ -2820,12 +2849,6 @@
     }
   ],
   "pendingFestivals": [
-    {
-      "festivalId": "2026-gw",
-      "name": "VIPRPG GW祭 2026",
-      "notes": "日本时间 2026/4/18 00:00～6/1 00:00；简表 41 行（0～39、ED），平台显示 41 个投稿。",
-      "sourceEvidence": "catch/2026-gw/festival-discovery.json"
-    },
     {
       "festivalId": "2026-summer",
       "name": "VIPRPG 夏の陣 2026",

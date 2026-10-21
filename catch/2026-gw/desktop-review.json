@@ -1,0 +1,63 @@
+{
+  "festivalId": "2026-gw",
+  "reviewedOn": "2026-10-21",
+  "scope": "Desktop only; DOM geometry and native browser interaction, no entry-content screening.",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "base": "http://localhost:3101",
+  "formatted": {
+    "homepageRows": 41,
+    "hashExpanded": true,
+    "originalViewLink": true,
+    "detailSamples": [
+      "0",
+      "7",
+      "8",
+      "9",
+      "38",
+      "ED"
+    ],
+    "rootHorizontalOverflow": false,
+    "unavailableDetailNotice": "7",
+    "sidebarNavigation": [
+      "8",
+      "9"
+    ],
+    "screenshotViewer": {
+      "entry": "8",
+      "images": 11,
+      "firstCounter": "1 / 11",
+      "tenNextClicksCounter": "11 / 11",
+      "finalImageLoaded": true,
+      "escapeCloses": true
+    }
+  },
+  "original": {
+    "wrapperSandbox": "allow-scripts",
+    "sourceCatalogueRows": 41,
+    "publicSubmissionCards": 39,
+    "screenshotOverviewCells": 78,
+    "computedFont": "Lato, sans-serif",
+    "headerDisplay": "flex",
+    "rootHorizontalOverflow": false,
+    "actualClicks": [
+      "entries.html",
+      "screenshots.html",
+      "index.html",
+      "rate/4487406.html",
+      "index.html",
+      "rate/4628488.html",
+      "game/4628488.html"
+    ],
+    "generatedSourceGapNumber": "7",
+    "archiveProjectDescriptionBlocks": 1,
+    "missingResources": 0,
+    "navigationNote": "Frame-locator inspection worked; source text clicks used native browser input on the first nonempty client rectangle, avoiding whitespace between wrapped link lines."
+  },
+  "resources": "catch/2026-gw/investigation/local-resource-review.json",
+  "sourceStructure": "catch/2026-gw/investigation/source-structure-review.json",
+  "buildRoutes": "catch/2026-gw/investigation/build-route-review.json",
+  "result": "passed"
+}
