@@ -48,5 +48,5 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
       - name: Check public routes
         run: |
-          curl --fail --silent --show-error --location --retry 5 --retry-delay 10 https://fes.viprpg.org/ --output /dev/null
-          curl --fail --silent --show-error --location https://fes.viprpg.org/original/2026-toppatsu-festival --output /dev/null
+          curl --fail --silent --show-error --location --retry 8 --retry-all-errors --retry-delay 10 --connect-timeout 15 --max-time 60 https://fes.viprpg.org/ --output /dev/null
+          curl --fail --silent --show-error --location --retry 8 --retry-all-errors --retry-delay 10 --connect-timeout 15 --max-time 60 https://fes.viprpg.org/original/2026-toppatsu-festival --output /dev/null
