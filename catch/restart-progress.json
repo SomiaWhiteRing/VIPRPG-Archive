@@ -75,7 +75,8 @@
     "2016-kouhaku",
     "2016-summer",
     "2016-summer-2",
-    "2025-kouhaku"
+    "2025-kouhaku",
+    "2026-gw"
   ],
   "activeFestival": null,
   "completed": [
@@ -2795,6 +2796,12 @@
       "name": "VIPRPG紅白2025",
       "notes": "2025/12/10 起收稿，12/24 公开，2026/1/31 截止更新；目录含 49 个详情链接，016 状态待查。",
       "sourceEvidence": "catch/2025-kouhaku/festival-discovery.json"
+    },
+    {
+      "festivalId": "2026-gw",
+      "name": "VIPRPG GW祭 2026",
+      "notes": "日本时间 2026/4/18 00:00～6/1 00:00；简表 41 行（0～39、ED），平台显示 41 个投稿。",
+      "sourceEvidence": "catch/2026-gw/festival-discovery.json"
     }
   ]
 }
