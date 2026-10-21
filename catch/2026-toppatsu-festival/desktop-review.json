@@ -1,0 +1,72 @@
+{
+  "festivalId": "2026-toppatsu-festival",
+  "reviewedOn": "2026-10-21",
+  "scope": "Desktop DOM geometry and actual native browser interactions at 1280x720; no entry-content screening.",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "formatted": {
+    "preview": "http://localhost:3101",
+    "productionPreview": "http://localhost:3100",
+    "homepageRows": 11,
+    "hashExpanded": true,
+    "originalViewLink": true,
+    "additionalGroupRows": 3,
+    "detailSamples": [
+      "1",
+      "6",
+      "8",
+      "9",
+      "11"
+    ],
+    "postingAndFeedbackVisible": true,
+    "rootHorizontalOverflow": false,
+    "inertContentControls": 0,
+    "sidebarClick": [
+      "8",
+      "9"
+    ],
+    "separateGenreAndGroup": {
+      "no": "9",
+      "genre": "-",
+      "group": "追加参戦！",
+      "infoTableRows": 4
+    },
+    "screenshotViewers": [
+      {
+        "no": "6",
+        "imageLoaded": true,
+        "escapeCloses": true
+      },
+      {
+        "no": "8",
+        "imageLoaded": true,
+        "escapeCloses": true
+      }
+    ]
+  },
+  "original": {
+    "wrapperSandbox": "allow-scripts",
+    "sourceAndReplayBodyWidth": 800,
+    "sourceAndReplayBodyFont": "arial, helvetica, \"ヒラギノ角ゴ Pro W3\", \"Hiragino Kaku Gothic Pro\", Osaka, メイリオ, Meiryo, \"MS Pゴシック\", clean, sans-serif",
+    "menuEntries": 11,
+    "actualPaths": [
+      "index.html",
+      "pages/12.html",
+      "pages/22.html",
+      "pages/20.html",
+      "pages/1.html"
+    ],
+    "entryHeadings": 3,
+    "primaryDetailImages": 0,
+    "rootHorizontalOverflow": false,
+    "visibleEditingOrReactionControls": 0,
+    "scripts": 0,
+    "missingResources": 0
+  },
+  "resourceEvidence": "catch/2026-toppatsu-festival/investigation/local-resource-review.json",
+  "sourceEvidence": "catch/2026-toppatsu-festival/investigation/source-structure-review.json",
+  "buildEvidence": "catch/2026-toppatsu-festival/investigation/build-route-review.json",
+  "result": "passed"
+}

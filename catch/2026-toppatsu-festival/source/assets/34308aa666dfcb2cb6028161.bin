@@ -1,0 +1,37 @@
+h2 {
+  padding: 0.4em 0.5em;/*文字の上下 左右の余白*/
+  color: #494949;/*文字色*/
+  background: #f4f4f4;/*背景色*/
+  border-left: solid 5px #7db4e6;/*左線*/
+  border-bottom: solid 3px #d7d7d7;/*下線*/
+}
+
+h3 {
+  position: relative;
+  color: #3B4EF0;
+  font-size: 20px;
+  padding: 10px 0;
+  text-align: center;
+  margin: 1.5em 0;
+}
+
+h4 {
+  color: #3B4EF0;
+  font-size: 16px;
+}
+
+#header h1 {
+        position: relative;
+	font-size: 28px;
+	font-weight: bold;
+	color: #A40008;
+	padding-top:50px;
+	line-height:1;
+	margin-top:0;
+        text-align: center;
+}
+
+#header h2 a{
+	color:#A40008;
+	line-height:1;
+}

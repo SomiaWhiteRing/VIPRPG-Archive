@@ -6,7 +6,7 @@
   "discoveredOn": "2026-10-21",
   "discoveredFrom": "https://w.atwiki.jp/vip_rpg/pages/502.html",
   "sourceUrl": "https://w.atwiki.jp/viprpgtoppatsu/",
-  "status": "information-verified-recovery-pending",
+  "status": "restored-and-reviewed",
   "period": {
     "timezone": "Asia/Tokyo",
     "submissionStarts": "2026-09-19",
@@ -15,15 +15,16 @@
   },
   "sourceManifest": "catch/2026-toppatsu-festival/source/discovery/manifest.json",
   "wikiEvidence": "catch/wiki-festival-discovery/2026-10-21.json",
-  "sourceStatus": "browser-readable-http-client-403",
+  "sourceStatus": "browser-live-http-200-command-line-html-403",
   "restoration": {
-    "formattedView": "pending",
-    "originalView": "pending",
-    "desktopReview": "pending"
+    "formattedView": "reviewed",
+    "originalView": "reviewed",
+    "desktopReview": "passed"
   },
   "handling": "只核对祭典元数据、目录结构、编号和来源入口；未主动审看作品内容，未添加受限标记。未下载游戏包。",
   "notes": [
-    "举办者接受截止日之后的追加参战作品，当前目录已包含 No.11；不得沿用旧搜索摘要的 10 条计数。"
+    "举办者接受截止日之后的追加参战作品，当前目录已包含 No.11；不得沿用旧搜索摘要的 10 条计数。",
+    "恢复时保存了 13 个正常 Wiki 页面及全部 11 条投稿引用与感想回复；另沿 Wiki 给出的 No.6、8 作品页链接补存介绍和两张真实截图。追加参战是分组，不从主题、匿名发帖 ID 或引用文字推断作者及类型。原貌保留 Wiki 原来的图文布局。"
   ],
   "catalogue": {
     "url": "https://w.atwiki.jp/viprpgtoppatsu/",
@@ -98,5 +99,6 @@
   "links": {
     "banner": "https://img.atwiki.jp/viprpgtoppatsu/pub/VIPRPG-Silver2026.png"
   },
-  "sourceEvidence": "catch/2026-toppatsu-festival/browser-discovery.json"
+  "sourceEvidence": "catch/2026-toppatsu-festival/browser-discovery.json",
+  "recoveryEvidence": "catch/2026-toppatsu-festival/recovery.json"
 }

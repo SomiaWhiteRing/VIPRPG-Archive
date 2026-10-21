@@ -11,6 +11,14 @@ import { rewriteSummer2012Source } from "./source-2012-summer-view";
 const staticItchFestivals = new Set(["2023-winter", "2025-gw", "2025-summer", "2026-gw", "2026-summer"]);
 
 const configurations: Record<string, { base: string; entry?: string; manifests: string[]; seeds: Record<string, string>; seedUrls?: Record<string, string>; cgiProfile?: boolean; encoding?: string; encodingOverrides?: Record<string, string>; liveSource?: boolean; disabledLocalLinks?: string[]; externalResources?: Record<string, string>; preserveExternalExtensions?: string[]; frames?: { menuPage: string; menuName: string; mainName: string } }> = {
+  "2026-toppatsu-festival": {
+    base: "https://w.atwiki.jp/viprpgtoppatsu/",
+    manifests: ["source/replay/manifest.json"],
+    seeds: {},
+    encoding: "utf-8",
+    liveSource: true,
+    preserveExternalExtensions: [".zip", ".rar", ".7z", ".exe"],
+  },
   "2026-summer": {
     base: "https://itch.io/jam/viprpg-summer-2026/",
     manifests: ["source/replay/manifest.json"],
@@ -634,7 +642,7 @@ async function main() {
       if (local === "index.html" || local.startsWith("pages/")) sharedHeaderTargets.push(`/original-pages/${id}/${local}`);
     }
   }
-  if (staticItchFestivals.has(id) || ["2016-summer-2", "2016-summer", "2016-kouhaku", "2016-gw", "2017-summer", "2017-kouhaku", "2017-gw", "2018-summer", "2018-kouhaku", "2018-gw-2", "2018-gw", "2019-summer", "2019-kouhaku", "2019-gw", "2020-summer", "2020-kouhaku", "2020-gw", "2021-summer", "2021-kouhaku", "2021-gw", "2022-summer", "2022-kouhaku", "2022-gw", "2023-winter", "2023-summer", "2023-kouhaku", "2023-gw", "2024-summer", "2024-kuradashifestival", "2024-kouhaku", "2024-gw", "2025-gw", "2025-summer"].includes(id) || id === "2006-kouhaku" || id === "2012-toppuu-festival" || id === "2011-toppatsu-festival" || id === "2008-jisaku-battle-festival" || id === "2010-gw" || id === "2010-kouhaku" || id === "2010-summer") config.externalResources = recovery.originalResources;
+  if (id === "2026-toppatsu-festival" || staticItchFestivals.has(id) || ["2016-summer-2", "2016-summer", "2016-kouhaku", "2016-gw", "2017-summer", "2017-kouhaku", "2017-gw", "2018-summer", "2018-kouhaku", "2018-gw-2", "2018-gw", "2019-summer", "2019-kouhaku", "2019-gw", "2020-summer", "2020-kouhaku", "2020-gw", "2021-summer", "2021-kouhaku", "2021-gw", "2022-summer", "2022-kouhaku", "2022-gw", "2023-winter", "2023-summer", "2023-kouhaku", "2023-gw", "2024-summer", "2024-kuradashifestival", "2024-kouhaku", "2024-gw", "2025-gw", "2025-summer"].includes(id) || id === "2006-kouhaku" || id === "2012-toppuu-festival" || id === "2011-toppatsu-festival" || id === "2008-jisaku-battle-festival" || id === "2010-gw" || id === "2010-kouhaku" || id === "2010-summer") config.externalResources = recovery.originalResources;
   const sourceDetailGapPaths = new Set<string>((recovery.sourceDetailGaps ?? []).map((gap: { sourcePath: string }) => gap.sourcePath));
   const unavailableSourcePagePaths = new Set<string>((recovery.unavailableSourcePages ?? []).map((gap: { sourcePath: string }) => gap.sourcePath));
   const previousMissing: Array<{ url: string; requestedUrl?: string; error: string }> = JSON.parse(await fs.readFile(`${root}/original-view.json`, "utf8").catch(() => "{}")).missingResources ?? [];
@@ -957,9 +965,13 @@ async function main() {
             compatibilityFixes.push({ page: local, change: "Flatten the invisible single-child frameset into its actual catalogue page to preserve same-frame navigation inside the sandbox." });
           }
         }
-        if (id === "2012-toppuu-festival") {
+        if (id === "2012-toppuu-festival" || id === "2026-toppatsu-festival") {
           $("script,noscript,iframe,form,body>header,body>footer,#atwiki-fixed-nav,#atwiki-modal-search-form,#editmenu,#ads,#left-ads,#right-ads,#atwiki-ads-overlay,#body_footer,#at_social_links2,[id^='div-gpt-ad-']").remove();
-          $("link").filter((_, e) => !($(e).attr("rel") || "").includes("stylesheet") || /atwiki_headbar|font-awesome/.test($(e).attr("href") || "")).remove();
+          if (id === "2026-toppatsu-festival") {
+            $("#atwiki-liked-counter").remove();
+            compatibilityFixes.push({ page: local, change: "Remove the live Wiki reaction control from the reading copy; keep posting quotations and reader responses, and retain the unmodified response in the source cache." });
+          }
+          $("link").filter((_, e) => !($(e).attr("rel") || "").includes("stylesheet") || /atwiki_headbar|font-awesome/.test($(e).attr("href") || "") || (id === "2026-toppatsu-festival" && /jquery-ui|atwiki_footer/.test($(e).attr("href") || ""))).remove();
           $("source,[srcset]").each((_, e) => { if (e.tagName === "source") $(e).remove(); else $(e).removeAttr("srcset"); });
           $("*").each((_, e) => { for (const attr of Object.keys(e.attribs)) if (attr.startsWith("on")) $(e).removeAttr(attr); });
           $("a[href]").each((_, e) => {
