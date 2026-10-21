@@ -1,0 +1,52 @@
+name: Deploy festival archive
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: fes-production
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      NEXT_TELEMETRY_DISABLED: "1"
+      WRANGLER_SEND_METRICS: "false"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            src
+            public
+            scripts
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+      - run: npm ci --no-audit --no-fund
+      - run: npm run validate:data
+      - run: npm run lint
+      - run: npm run build
+      - name: Ensure assets-only configuration
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          const config = JSON.parse(fs.readFileSync('wrangler.jsonc', 'utf8'));
+          if (config.main || config.assets?.run_worker_first !== false || config.assets?.directory !== './out') {
+            throw new Error('Deployment must serve static assets without a Worker script.');
+          }
+          NODE
+      - name: Deploy static assets
+        run: npx wrangler deploy --config wrangler.jsonc
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      - name: Check public routes
+        run: |
+          curl --fail --silent --show-error --location --retry 5 --retry-delay 10 https://fes.viprpg.org/ --output /dev/null
+          curl --fail --silent --show-error --location https://fes.viprpg.org/original/2026-toppatsu-festival --output /dev/null

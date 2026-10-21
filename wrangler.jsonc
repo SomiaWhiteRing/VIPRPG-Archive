@@ -1,0 +1,16 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "viprpg-fes",
+  "account_id": "52a52be268de73156728686676aee032",
+  "compatibility_date": "2026-10-21",
+  "workers_dev": false,
+  "preview_urls": false,
+  "assets": {
+    "directory": "./out",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page",
+    "run_worker_first": false
+  },
+  "routes": [{ "pattern": "fes.viprpg.org", "custom_domain": true }],
+  "observability": { "enabled": false }
+}

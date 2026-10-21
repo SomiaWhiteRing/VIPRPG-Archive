@@ -1,8 +1,6 @@
 import FestivalBoard, { type FestivalGroup } from "@/components/festival-board";
 import { getFestivalsByYear, getWorksForFestival } from "@/lib/data";
 
-export const revalidate = 60;
-
 export default function HomePage() {
   const grouped = getFestivalsByYear();
   const groups: FestivalGroup[] = Object.entries(grouped)
