@@ -131,13 +131,18 @@ async function main() {
       "",
     ];
     await fs.writeFile("catch/festival-scrape-status.md", lines.join("\n"));
-    const progress: { order: string[]; activeFestival: string; insertedTask?: { status: string; plan: string; resumeFestival: string }; originalViewsReviewed?: Array<{ festivalId: string; evidence: string[] }>; completed: Array<{ festivalId: string; reviewedAt: string; dataSha256: string; status: string; sourceEvidence: string[]; notes: string }> } = JSON.parse(await fs.readFile("catch/restart-progress.json", "utf8"));
+    const progress: { order: string[]; activeFestival: string; pendingFestivals?: Array<{ festivalId: string; name: string; notes: string; sourceEvidence: string }>; insertedTask?: { status: string; plan: string; resumeFestival: string }; originalViewsReviewed?: Array<{ festivalId: string; evidence: string[] }>; completed: Array<{ festivalId: string; reviewedAt: string; dataSha256: string; status: string; sourceEvidence: string[]; notes: string }> } = JSON.parse(await fs.readFile("catch/restart-progress.json", "utf8"));
     const current = progress.completed.filter((entry) => rows.find((row) => row.id === entry.festivalId)?.dataSha256 === entry.dataSha256);
     const next = progress.order.find((id) => !current.some((entry) => entry.festivalId === id));
     const progressLines = [
       "# 重启后的逐祭典校对清单", "",
-      `已校对 ${current.length}/${festivals.length} 个祭典；当前顺序中的下一个：\`${next ?? "全部已校对"}\`。`, "",
-      `原貌视图已验收 ${(progress.originalViewsReviewed ?? []).length}/${festivals.length} 个；整理版与原貌版共同纳入后续逐祭典工作。`, "",
+      `已校对 ${current.length}/${progress.order.length} 个祭典；当前顺序中的下一个：\`${next ?? "全部已校对"}\`。`, "",
+      `原貌视图已验收 ${(progress.originalViewsReviewed ?? []).length}/${progress.order.length} 个；整理版与原貌版共同纳入后续逐祭典工作。`, "",
+      ...((progress.pendingFestivals ?? []).length ? [
+        `已入库 ${festivals.length} 个祭典；另有 ${progress.pendingFestivals!.length} 个新祭典已登记来源信息，作品数据及双视图尚未恢复，不计入已验收数量。`, "",
+        "| 新祭典 | 已核实信息 | 来源记录 |", "| --- | --- | --- |",
+        ...progress.pendingFestivals!.map((entry) => `| ${entry.name}（\`${entry.festivalId}\`） | ${entry.notes} | [信息与来源](../${entry.sourceEvidence}) |`), "",
+      ] : []),
       ...(progress.insertedTask?.status === "active" ? [`当前先执行[插入的补充归档任务](../${progress.insertedTask.plan})，从 \`${progress.activeFestival}\` 开始；完成后回到 \`${progress.insertedTask.resumeFestival}\`。`, ""] : []),
       ...(progress.insertedTask?.status === "reviewed-with-exceptions" ? [`[补充归档复核记录](../${progress.insertedTask.plan})保留了本轮恢复结果及未恢复的限制条目；常规校对已按顺序推进至 \`${progress.activeFestival ?? next ?? "全部已校对"}\`。`, ""] : []),
       "只有完成来源逐项核对、资源检查和桌面验收的祭典才加入下表。数据字段清点见 [festival-scrape-status.md](../catch/festival-scrape-status.md)，不作为校对完成证明。", "",
