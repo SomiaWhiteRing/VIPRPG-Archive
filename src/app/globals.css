@@ -38,6 +38,7 @@ a:focus-visible {
 
 .site-shell {
   width: 100%;
+  min-width: 1280px;
   min-height: 100vh;
   background: var(--bg-surface);
   display: flex;
@@ -57,7 +58,7 @@ a:focus-visible {
 
 .site-title {
   margin: 0;
-  font-size: clamp(22px, 3vw, 30px);
+  font-size: 30px;
   font-weight: 600;
 }
 
@@ -589,7 +590,7 @@ a:focus-visible {
 .detail-title {
   overflow-wrap: anywhere;
   margin: 0;
-  font-size: clamp(24px, 4vw, 32px);
+  font-size: 32px;
   font-weight: 650;
 }
 
@@ -1036,19 +1037,4 @@ a:focus-visible {
   color: #e2e8f0;
   font-size: 14px;
   letter-spacing: 0.06em;
-}
-
-@media (max-width: 720px) {
-  .viewer-backdrop {
-    padding: 16px;
-  }
-
-  .viewer-frame {
-    height: min(70vh, 420px);
-  }
-
-  .viewer-arrow {
-    width: 34px;
-    height: 34px;
-  }
 }
