@@ -474,10 +474,18 @@ class Worker:
                 if label in ('ファイル', 'オリジナル', '容量', '日時'):
                     fields[label] = td.get_text(' ', strip=True)
         original = fields.get('オリジナル') or fields.get('ファイル') or row['original_name']
+        # Password-gated downloads can have a password/yes form with no token.
+        # Detect that before selecting the ordinary token confirmation form.
+        detail_location = urlparse(actual)
+        password_form = next((f for f in soup.find_all('form')
+            if str(f.get('method', '')).lower() == 'post'
+            and f.select_one('input[type=password]')
+            and urlparse(urljoin(actual, f.get('action') or actual)).netloc == detail_location.netloc
+            and urlparse(urljoin(actual, f.get('action') or actual)).path.rstrip('/') == detail_location.path.rstrip('/')), None)
+        if password_form is not None:
+            raise NeedsInput(f"下载需要密码：{row['uploader']}/{row['file_id']}；密码表单及来源页面已保留。")
         form = next((f for f in soup.find_all('form') if f.select_one('input[name=token]')), None)
         if form is not None:
-            if form.select_one('input[type=password]'):
-                raise NeedsInput('File download requires a password')
             data = {i['name']: i.get('value', '') for i in form.select('input[name]')}
             soup, actual, capture = self.page(urljoin(actual, form.get('action') or actual), 'POST', data)
         link, delay = None, 0
@@ -491,7 +499,7 @@ class Worker:
                 (urlparse(urljoin(actual, a['href'])).hostname or '').endswith('.getuploader.com')
                 and urlparse(urljoin(actual, a['href'])).path.startswith('/g/')), None)
         if not link:
-            raise NeedsInput('Download form did not yield a file URL; source page retained')
+            raise NeedsInput(f'下载表单未返回文件地址：{row["uploader"]}/{row["file_id"]}；来源页面已保留。')
         source_url(link)
         if delay:
             self.wait(delay, 'source_countdown')
