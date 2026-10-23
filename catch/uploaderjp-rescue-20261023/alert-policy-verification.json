@@ -1,0 +1,164 @@
+{
+  "recorded_at": "2026-10-23T09:50:02.561303+00:00",
+  "user_policy": "Recovered retries are not errors; genuine failures stop downloading and retain diagnostic evidence",
+  "original_issue": [
+    "Historical network error 100 remained open after its queue row recovered",
+    "Acknowledging error 100 replayed already recovered error 180 because the supervisor checked event ID without queue recovery state",
+    "The isolated verification dialog remained until user acknowledgement; PostMessage success had incorrectly been treated as actual dialog closure"
+  ],
+  "initial_test_popup_close_claim_corrected": true,
+  "retry_policy": {
+    "checked_at": "2026-10-23T09:40:27.732495+00:00",
+    "cases": [
+      {
+        "case": "retry_success",
+        "exit_code": 0,
+        "run_state": "complete",
+        "genuine_errors": 0,
+        "streak": 2,
+        "events": {
+          "file_complete": 2,
+          "retry": 2,
+          "retry_recovered": 1,
+          "run_started": 1
+        },
+        "requests": [
+          "/file/1",
+          "/file/1",
+          "/file/1",
+          "/file/2"
+        ],
+        "states": [
+          {
+            "file_id": "1",
+            "state": "done",
+            "attempts": 3,
+            "error": null
+          },
+          {
+            "file_id": "2",
+            "state": "done",
+            "attempts": 1,
+            "error": null
+          }
+        ],
+        "root": "D:\\VIPRPG-Rescue\\uploaderjp-202611\\verification\\retry-policy-34667699\\retry_success"
+      },
+      {
+        "case": "retry_exhausted",
+        "exit_code": 2,
+        "run_state": "attention_required",
+        "genuine_errors": 1,
+        "streak": 0,
+        "events": {
+          "error": 1,
+          "retry": 2,
+          "run_started": 1
+        },
+        "requests": [
+          "/file/1",
+          "/file/1",
+          "/file/1"
+        ],
+        "states": [
+          {
+            "file_id": "1",
+            "state": "failed",
+            "attempts": 3,
+            "error": "files verification/1: HTTPError: 503 Server Error: Service Unavailable for url: http://127.0.0.1:56547/file/1"
+          },
+          {
+            "file_id": "2",
+            "state": "pending",
+            "attempts": 0,
+            "error": null
+          }
+        ],
+        "root": "D:\\VIPRPG-Rescue\\uploaderjp-202611\\verification\\retry-policy-34667699\\retry_exhausted",
+        "diagnostics_complete": true,
+        "incident_directory": "D:\\VIPRPG-Rescue\\uploaderjp-202611\\verification\\retry-policy-34667699\\retry_exhausted\\reports\\incidents\\20261023T094026-d3600f34"
+      },
+      {
+        "case": "http_404",
+        "exit_code": 2,
+        "run_state": "attention_required",
+        "genuine_errors": 1,
+        "streak": 0,
+        "events": {
+          "error": 1,
+          "run_started": 1
+        },
+        "requests": [
+          "/file/1"
+        ],
+        "states": [
+          {
+            "file_id": "1",
+            "state": "failed",
+            "attempts": 1,
+            "error": "files verification/1: HTTPError: 404 Client Error: Not Found for url: http://127.0.0.1:56547/file/1"
+          },
+          {
+            "file_id": "2",
+            "state": "pending",
+            "attempts": 0,
+            "error": null
+          }
+        ],
+        "root": "D:\\VIPRPG-Rescue\\uploaderjp-202611\\verification\\retry-policy-34667699\\http_404",
+        "diagnostics_complete": true,
+        "incident_directory": "D:\\VIPRPG-Rescue\\uploaderjp-202611\\verification\\retry-policy-34667699\\http_404\\reports\\incidents\\20261023T094027-5a813b4b"
+      },
+      {
+        "case": "bad_zip",
+        "exit_code": 2,
+        "run_state": "attention_required",
+        "genuine_errors": 1,
+        "streak": 0,
+        "events": {
+          "error": 1,
+          "run_started": 1
+        },
+        "requests": [
+          "/file/1"
+        ],
+        "states": [
+          {
+            "file_id": "1",
+            "state": "needs_input",
+            "attempts": 1,
+            "error": "files verification/1: NeedsInput: ZIP structure/CRC check failed; original bytes retained for review"
+          },
+          {
+            "file_id": "2",
+            "state": "pending",
+            "attempts": 0,
+            "error": null
+          }
+        ],
+        "root": "D:\\VIPRPG-Rescue\\uploaderjp-202611\\verification\\retry-policy-34667699\\bad_zip",
+        "diagnostics_complete": true,
+        "incident_directory": "D:\\VIPRPG-Rescue\\uploaderjp-202611\\verification\\retry-policy-34667699\\bad_zip\\reports\\incidents\\20261023T094027-9e7dc619"
+      }
+    ],
+    "all_passed": true,
+    "source": "C:\\Users\\旻\\Documents\\GitHub\\VIPRPG-Archive\\scripts\\uploader_rescue.py",
+    "production_queue_untouched": true
+  },
+  "alert_lifecycle": {
+    "verified_at": "2026-10-23T09:43:00.455046+00:00",
+    "isolated_fixture": "D:\\VIPRPG-Rescue\\uploaderjp-202611\\verification\\retry-policy-34667699\\retry_exhausted",
+    "actual_alert_visible": true,
+    "actual_alert_topmost": true,
+    "observed_foreground": true,
+    "single_window_duplicate_suppressed": true,
+    "recovery_closed_window": true,
+    "alert_process_exit_code": 0,
+    "stale_error_not_replayed": true,
+    "formal_download_queue_untouched": true,
+    "evidence": "D:\\VIPRPG-Rescue\\uploaderjp-202611\\verification\\retry-policy-34667699\\retry_exhausted\\reports\\alert-4.json"
+  },
+  "old_alert_process_14848_exit_verified": true,
+  "production_files_preserved_at_reload": 249,
+  "historical_50_file_acceptance_unchanged": true
+}

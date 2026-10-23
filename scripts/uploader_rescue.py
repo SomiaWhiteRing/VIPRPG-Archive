@@ -195,14 +195,60 @@ class CapacityReached(NeedsInput):
     pass
 
 
+class SourceChanged(Exception):
+    pass
+
+
+class IncompleteDownload(Exception):
+    pass
+
+
+class HaltDownload(Exception):
+    pass
+
+
+def incident_snapshot(root, report):
+    """Retain a consistent queue plus local evidence without reading payload content."""
+    directory = root / 'reports/incidents' / (dt.datetime.now(dt.timezone.utc).strftime('%Y%m%dT%H%M%S') + '-' + uuid.uuid4().hex[:8])
+    directory.mkdir(parents=True)
+    evidence = {**report, 'captured_at': now(), 'directory': str(directory), 'capture_errors': []}
+    for name in ('status.json', 'launch.json', 'supervisor.json', 'settings.json', 'latest-error.json'):
+        path = root / name
+        if path.exists():
+            shutil.copyfile(path, directory / name)
+    control = read_json(root / 'private/proxy-control.json')
+    write_json(directory / 'proxy-context.json', {k: control.get(k) for k in ('proxy_url', 'controller', 'node', 'region', 'executable')})
+    launch = read_json(root / 'launch.json')
+    logs = [root / 'logs/events.jsonl', root / 'logs/proxy.stdout.log', root / 'logs/proxy.stderr.log']
+    logs += [Path(launch[k]) for k in ('stdout', 'stderr') if launch.get(k)]
+    for source in logs:
+        if not source.is_file():
+            continue
+        with source.open('rb') as handle:
+            handle.seek(max(0, source.stat().st_size - 256 * 1024))
+            (directory / (source.name + '.tail')).write_bytes(handle.read())
+    if (root / 'queue.sqlite').exists():
+        try:
+            with contextlib.closing(sqlite3.connect(root / 'queue.sqlite', timeout=5)) as source:
+                with contextlib.closing(sqlite3.connect(directory / 'queue.sqlite')) as destination:
+                    source.backup(destination)
+                    evidence['queue_quick_check'] = destination.execute('PRAGMA quick_check').fetchone()[0]
+        except sqlite3.Error as exc:
+            evidence['capture_errors'].append('Queue snapshot: ' + str(exc))
+    write_json(directory / 'incident.json', evidence)
+    return directory
+
+
 class Worker:
     def __init__(self, root, run_id):
         self.root, self.run_id = root, run_id
         self.settings = read_json(root / 'settings.json')
         self.db = connect(root)
         self.db.execute("INSERT INTO runs(id,started_at,state) VALUES(?,?,'running')", (run_id, now()))
-        self.db.execute("UPDATE files SET state='pending' WHERE state='downloading'")
-        self.db.execute("UPDATE pages SET state='pending' WHERE state='listing'")
+        # Start is an explicit manual resume after inspection; it is never
+        # invoked automatically after a genuine failure.
+        self.db.execute("UPDATE files SET state='pending',error=NULL WHERE state IN ('downloading','failed','needs_input')")
+        self.db.execute("UPDATE pages SET state='pending',error=NULL WHERE state IN ('listing','failed','needs_input')")
         self.db.commit()
         self.session = requests.Session()
         self.session.trust_env = False
@@ -215,7 +261,8 @@ class Worker:
         if self.cookie_path.exists():
             self.session.cookies.load(ignore_discard=True, ignore_expires=False)
         self.last_request = 0.0
-        self.source_retry_at = 0.0
+        self.source_retry_at = read_json(root / 'private/source-cooldown.json').get('until', 0.0)
+        self.last_response_failure = None
         self.state_lock = threading.Lock()
         self.state = {'run_id': run_id, 'worker_pid': os.getpid(), 'started_at': now(),
                       'running': True, 'stage': 'starting', 'last_progress_at': now(),
@@ -249,8 +296,10 @@ class Worker:
         page_counts = dict(self.db.execute('SELECT state,count(*) FROM pages GROUP BY state').fetchall())
         total_bytes = self.db.execute("SELECT coalesce(sum(size),0) FROM files WHERE state='done'").fetchone()[0]
         run = self.db.execute('SELECT * FROM runs WHERE id=?', (self.run_id,)).fetchone()
+        retries = dict(self.db.execute("SELECT kind,count(*) FROM events WHERE run_id=? AND kind IN ('retry','retry_recovered') GROUP BY kind", (self.run_id,)).fetchall())
         self.update(counts=counts, page_counts=page_counts, completed_bytes=total_bytes,
                     run_successful=run['successful'], run_errors=run['errors'],
+                    retry_attempts=retries.get('retry', 0), recovered_retries=retries.get('retry_recovered', 0),
                     consecutive_success=run['streak'], max_streak=run['max_streak'],
                     free_bytes=shutil.disk_usage(self.root).free)
 
@@ -308,10 +357,31 @@ class Worker:
             try:
                 response.raise_for_status()
             except requests.HTTPError:
+                self.capture_response_failure(response, method, url)
                 response.close()
                 raise
             return response
         raise RuntimeError('Source redirect loop')
+
+    def capture_response_failure(self, response, method, requested_url):
+        directory = self.root / 'private/response-failures'
+        directory.mkdir(parents=True, exist_ok=True)
+        path = directory / (uuid.uuid4().hex + '.bin')
+        capture_error = None
+        try:
+            # A bounded original response, retained as bytes, never rendered.
+            payload = response.raw.read(65536, decode_content=True)
+            path.write_bytes(payload)
+        except Exception as exc:
+            payload = b''
+            capture_error = repr(exc)
+        headers = {k: v for k, v in response.headers.items() if k.lower() not in ('set-cookie', 'authorization', 'proxy-authorization')}
+        metadata = {'at': now(), 'method': method, 'requested_url': requested_url,
+                    'response_url': response.url, 'status': response.status_code,
+                    'headers': headers, 'captured_bytes': len(payload),
+                    'body_limit': 65536, 'capture_error': capture_error, 'body': str(path)}
+        write_json(path.with_suffix('.json'), metadata)
+        self.last_response_failure = str(path.with_suffix('.json'))
 
     def page(self, url, method='GET', data=None):
         self.update(stage='reading_page', active_url=url)
@@ -473,7 +543,7 @@ class Worker:
                 observed = response.headers.get('ETag' if validator_kind == 'etag' else 'Last-Modified')
                 if previous.get('total') != total or observed != validator:
                     part.rename(directory / ('unconfirmed-' + uuid.uuid4().hex[:8] + '.part'))
-                    raise RuntimeError('Resumed source version/size could not be confirmed; old partial preserved and next attempt starts fresh')
+                    raise SourceChanged('Resumed source version/size could not be confirmed; old partial preserved and next attempt starts fresh')
             elif response.status_code == 200 and offset:
                 part.rename(directory / ('unconfirmed-' + uuid.uuid4().hex[:8] + '.part'))
                 offset = 0
@@ -494,6 +564,7 @@ class Worker:
             self.capacity(total - offset)
             ctype = response.headers.get('Content-Type', '').lower()
             if 'text/html' in ctype and not (Path(filename).suffix.lower() in ('.html', '.htm') and disposition.get_filename()):
+                self.capture_response_failure(response, 'GET', link)
                 raise RuntimeError('Source returned HTML instead of the expected file')
             transfer = {'uploader': row['uploader'], 'file_id': row['file_id'],
                 'detail_url': row['detail_url'], 'original_filename': filename,
@@ -512,6 +583,10 @@ class Worker:
                     if first:
                         first = False
                         if chunk.lstrip()[:64].lower().startswith((b'<!doctype html', b'<html')) and Path(filename).suffix.lower() not in ('.html', '.htm'):
+                            failure = self.root / 'private/response-failures' / (uuid.uuid4().hex + '.bin')
+                            failure.parent.mkdir(parents=True, exist_ok=True)
+                            failure.write_bytes(chunk[:65536])
+                            self.last_response_failure = str(failure)
                             raise RuntimeError('HTML error body detected in binary transfer')
                     handle.write(chunk)
                     received += len(chunk)
@@ -531,7 +606,7 @@ class Worker:
 
     def finish_download(self, row, part, filename, total):
         if part.stat().st_size != total:
-            raise RuntimeError('Downloaded byte count differs from Content-Length')
+            raise IncompleteDownload('Downloaded byte count differs from Content-Length')
         target = part.parent / safe_name(filename)
         if target != part and target.exists():
             raise NeedsInput('Destination exists; neither local file was overwritten')
@@ -572,24 +647,75 @@ class Worker:
                         'file_events': list(reversed(events)), 'note': 'Real source downloads; errors reset the streak.'})
             self.event('milestone_50', '50 consecutive files completed without a recorded error')
 
-    def handle_failure(self, table, row, exc):
-        message = f'{table} {row["uploader"]}/{row["file_id"] if table == "files" else row["id"]}: {type(exc).__name__}: {exc}'
-        attempts = self.db.execute(f'SELECT attempts FROM {table} WHERE id=?', (row['id'],)).fetchone()[0]
+    @staticmethod
+    def retryable(exc):
+        if isinstance(exc, requests.exceptions.SSLError) and 'CERTIFICATE_VERIFY_FAILED' in str(exc):
+            return False
+        if isinstance(exc, requests.HTTPError):
+            return exc.response is not None and exc.response.status_code in (408, 425, 429, 500, 502, 503, 504)
+        return isinstance(exc, (requests.ConnectionError, requests.Timeout,
+                                requests.exceptions.ChunkedEncodingError,
+                                SourceChanged, IncompleteDownload))
+
+    def process_item(self, table, row, operation):
+        """Retry the same item; only an unrecovered failure is an error."""
         delays = self.settings['retry_delays_seconds']
-        state = 'needs_input' if isinstance(exc, NeedsInput) else 'failed' if attempts >= len(delays) else 'pending'
-        retry_at = time.time() + delays[min(max(attempts - 1, 0), len(delays) - 1)]
-        response = getattr(exc, 'response', None)
-        if response is not None and response.status_code in (429, 503):
-            value = response.headers.get('Retry-After', '')
+        for attempt in range(len(delays) + 1):
+            self.last_response_failure = None
             try:
-                limit = time.time() + int(value) if value.isdigit() else parsedate_to_datetime(value).timestamp()
-            except (ValueError, TypeError, OverflowError):
-                limit = retry_at
-            retry_at = max(retry_at, limit)
-            self.source_retry_at = max(self.source_retry_at, retry_at)
-        self.db.execute(f'UPDATE {table} SET state=?,retry_at=?,error=? WHERE id=?', (state, retry_at, message, row['id']))
-        self.db.commit()
-        self.error(message, row['id'], table=table, attempt=attempts, next_state=state)
+                operation(row)
+                if attempt:
+                    self.event('retry_recovered', 'Temporary failure recovered; not counted as an error',
+                               row['id'], table=table, retry_count=attempt)
+                    self.refresh()
+                return
+            except PauseRequested:
+                raise
+            except Exception as exc:
+                message = f'{table} {row["uploader"]}/{row["file_id"] if table == "files" else row["id"]}: {type(exc).__name__}: {exc}'
+                trace = traceback.format_exc()
+                if self.retryable(exc) and attempt < len(delays):
+                    delay = delays[attempt]
+                    response = getattr(exc, 'response', None)
+                    if response is not None and response.status_code in (429, 503):
+                        value = response.headers.get('Retry-After', '')
+                        try:
+                            limit = time.time() + int(value) if value.isdigit() else parsedate_to_datetime(value).timestamp()
+                        except (ValueError, TypeError, OverflowError):
+                            limit = time.time() + delay
+                        self.source_retry_at = max(self.source_retry_at, time.time() + delay, limit)
+                        write_json(self.root / 'private/source-cooldown.json', {'until': self.source_retry_at})
+                        delay = max(delay, self.source_retry_at - time.time())
+                    self.db.execute(f"UPDATE {table} SET state='pending',retry_at=?,error=NULL WHERE id=?",
+                                    (time.time() + delay, row['id']))
+                    self.db.commit()
+                    self.event('retry', message, row['id'], table=table, attempt=attempt + 1,
+                               retry_in_seconds=delay, traceback=trace,
+                               response_capture=self.last_response_failure)
+                    self.update(last_retry=message, stage='retry_wait')
+                    self.refresh()
+                    self.wait(delay, 'retry_wait')
+                    continue
+                state = 'needs_input' if isinstance(exc, NeedsInput) else 'failed'
+                self.db.execute(f'UPDATE {table} SET state=?,retry_at=0,error=? WHERE id=?',
+                                (state, message, row['id']))
+                self.db.commit()
+                self.update(stage='collecting_diagnostics', last_error=message)
+                report = {'run_id': self.run_id, 'failure_kind': 'unrecovered_item',
+                          'table': table, 'item': dict(row), 'attempts_this_run': attempt + 1,
+                          'exception_type': type(exc).__name__, 'message': message,
+                          'traceback': trace, 'response_capture': self.last_response_failure,
+                          'download_directory': str(self.root / 'files' / row['uploader'] / row['file_id']) if table == 'files' else None}
+                try:
+                    directory = incident_snapshot(self.root, report)
+                    self.update(incident_directory=str(directory))
+                except Exception as capture_exc:
+                    directory = None
+                    traceback.print_exc()
+                    self.update(incident_capture_error=str(capture_exc))
+                self.error(message, row['id'], table=table, attempts=attempt + 1,
+                           incident_directory=str(directory) if directory else None)
+                raise HaltDownload(message) from exc
 
     def run(self):
         since_discovery = 8
@@ -601,21 +727,11 @@ class Worker:
                 page = self.db.execute("SELECT * FROM pages WHERE state='pending' AND retry_at<=? ORDER BY depth,ordinal,id LIMIT 1", (time.time(),)).fetchone()
                 item = self.db.execute("SELECT * FROM files WHERE state='pending' AND retry_at<=? ORDER BY priority,id LIMIT 1", (time.time(),)).fetchone()
                 if page and (since_discovery >= 8 or item is None or item['priority'] > 0):
-                    try:
-                        self.discover(page)
-                    except (PauseRequested, CapacityReached):
-                        raise
-                    except Exception as exc:
-                        self.handle_failure('pages', page, exc)
+                    self.process_item('pages', page, self.discover)
                     since_discovery = 0
                     continue
                 if item:
-                    try:
-                        self.download(item)
-                    except (PauseRequested, CapacityReached):
-                        raise
-                    except Exception as exc:
-                        self.handle_failure('files', item, exc)
+                    self.process_item('files', item, self.download)
                     since_discovery += 1
                     continue
                 pending = self.db.execute("SELECT count(*) FROM files WHERE state='pending'").fetchone()[0] + self.db.execute("SELECT count(*) FROM pages WHERE state='pending'").fetchone()[0]
@@ -628,8 +744,17 @@ class Worker:
         except PauseRequested:
             terminal = 'paused'
             self.event('paused', 'Pause requested; all files and checkpoints retained')
+        except HaltDownload:
+            terminal = 'attention_required'
         except BaseException as exc:
             terminal = 'attention_required'
+            try:
+                directory = incident_snapshot(self.root, {'run_id': self.run_id,
+                    'failure_kind': 'unexpected_worker_exception', 'message': str(exc),
+                    'traceback': traceback.format_exc()})
+                self.update(incident_directory=str(directory))
+            except Exception:
+                traceback.print_exc()
             self.error('Worker stopped: ' + str(exc))
             traceback.print_exc()
         finally:
@@ -689,59 +814,194 @@ def ensure_proxy(root):
         session.close()
 
 
+def active_error_events(root, run_id):
+    """Only unresolved queue errors; history is not an outstanding incident."""
+    with contextlib.closing(sqlite3.connect(
+            'file:' + (root / 'queue.sqlite').as_posix() + '?mode=ro',
+            uri=True, timeout=2)) as db:
+        db.row_factory = sqlite3.Row
+        rows = db.execute("SELECT * FROM events WHERE run_id=? AND kind='error' ORDER BY id DESC",
+                          (run_id,)).fetchall()
+        active, seen = [], set()
+        status = read_json(root / 'status.json')
+        for row in rows:
+            event = dict(row)
+            details = json.loads(event['details'])
+            table = details.get('table')
+            if table in ('files', 'pages') and event['item_id'] is not None:
+                key = (table, event['item_id'])
+                if key in seen:
+                    continue
+                seen.add(key)
+                item = db.execute(f'SELECT state,error FROM {table} WHERE id=?',
+                                  (event['item_id'],)).fetchone()
+                if item and item['state'] != 'done' and item['error']:
+                    active.append({**event, **details, 'queue_state': item['state']})
+            elif status.get('run_id') == run_id and status.get('stage') not in ('paused', 'complete'):
+                active.append({**event, **details, 'queue_state': 'attention_required'})
+        return list(reversed(active))
+
+
+def notify_unresolved_error(root, run_id, alert, last_notified):
+    error = read_json(root / 'latest-error.json')
+    if error.get('run_id') != run_id or error.get('id', 0) <= last_notified:
+        return alert, last_notified
+    try:
+        active = active_error_events(root, run_id)
+    except (sqlite3.Error, ValueError):
+        # Inability to check recovery is not evidence of recovery.
+        active = [error]
+    new_active = [item for item in active if item.get('id', 0) > last_notified]
+    next_seen = error['id']
+    already_open = alert is not None and alert.poll() is None
+    decision = 'coalesced' if already_open else 'resolved_before_display'
+    if new_active and not already_open:
+        item = new_active[-1]
+        notification = {**item, 'kind': 'error', 'run_id': run_id}
+        snapshot = root / 'reports' / f'alert-input-{run_id}-{item["id"]}.json'
+        write_json(snapshot, notification)
+        alert = spawn(root, 'alert', '--error-path', str(snapshot))
+        decision = 'opened'
+    write_json(root / 'reports/notification-state.json', {
+        'at': now(), 'run_id': run_id, 'latest_seen_event': next_seen,
+        'active_error_count': len(active), 'decision': decision})
+    # Consume newer events while the existing window updates itself. Do not
+    # create a backlog of modal dialogs after the user acknowledges one.
+    return alert, next_seen
+
+
+def alert_conditions(root, report):
+    status = read_json(root / 'status.json')
+    if report.get('kind') == 'error':
+        active = active_error_events(root, report['run_id'])
+        if (status.get('run_id') == report['run_id']
+                and status.get('stage') == 'attention_required' and not active):
+            active = [{'message': status.get('last_error') or report['message'],
+                       'queue_state': 'attention_required'}]
+        return active
+    if (status.get('running') and status.get('stage') != 'attention_required'
+            and status.get('run_id') != report.get('run_id')):
+        return []
+    if report.get('condition') == 'heartbeat_stale':
+        try:
+            age = (dt.datetime.now(dt.timezone.utc)
+                   - dt.datetime.fromisoformat(status['heartbeat_at'])).total_seconds()
+            if age < 10:
+                return []
+        except (KeyError, ValueError):
+            pass
+    return [report]
+
+
 def show_alert(root, error_path):
-    """Visible, persistent Windows alert, independent from the progress panel."""
+    """One independently running, updating, topmost error window."""
     report = read_json(error_path)
     event_id = str(report.get('id', report.get('run_id', 'unknown')))
     evidence_path = root / 'reports' / ('alert-' + safe_name(event_id) + '.json')
-    title = 'VIPRPG 下载出错，需要处理'
-    message = ('本地下载工作流发生错误。\n\n' + str(report.get('message', 'Unknown error'))[:1600]
-               + '\n\n原文件、下载断点和队列均保留。可重试错误会退避重试；'
-               '需要人工处理的项目会保留在错误清单。\n\n进度：' + str(root / 'status.json')
-               + '\n日志：' + str(root / 'logs') + '\n\n此提示会保留，直到点击“确定”。')
+    record = {'at': now(), 'pid': os.getpid(), 'event_id': event_id,
+              'run_id': report.get('run_id'), 'state': 'opening', 'visible': False}
+    try:
+        with exclusive(root / 'alert.lock'):
+            run_alert_window(root, report, evidence_path, record)
+    except RuntimeError as exc:
+        if not str(exc).startswith('This workflow already has an active process:'):
+            raise
+        write_json(evidence_path, {**record, 'state': 'coalesced_into_existing_window'})
+
+
+def run_alert_window(root, report, evidence_path, record):
+    import tkinter as tk
+    from tkinter import ttk
+    try:
+        initial = alert_conditions(root, report)
+    except (sqlite3.Error, ValueError):
+        initial = [report]
+    if not initial:
+        write_json(evidence_path, {**record, 'state': 'resolved_before_display',
+                                  'returned_at': now()})
+        return
+    window = tk.Tk()
+    title = 'VIPRPG 下载告警'
+    window.title(title)
+    window.geometry('740x360')
+    window.minsize(650, 320)
+    window.attributes('-topmost', True)
+    body = ttk.Frame(window, padding=20)
+    body.pack(fill='both', expand=True)
+    heading = tk.StringVar()
+    detail = tk.StringVar()
+    label = ttk.Label(body, textvariable=heading, font=('Microsoft YaHei UI', 14, 'bold'))
+    label.pack(anchor='w', pady=(0, 12))
+    ttk.Label(body, textvariable=detail, wraplength=690, justify='left').pack(anchor='w')
+    ttk.Label(body, text='完整文件、断点和错误记录均保留。恢复后本提示自动关闭。',
+              wraplength=690).pack(anchor='w', pady=12)
+    buttons = ttk.Frame(body)
+    buttons.pack(anchor='w', pady=8)
+    closing = {'timer': None, 'reason': None}
+    def close(reason):
+        closing['reason'] = reason
+        window.destroy()
+    ttk.Button(buttons, text='知道了，关闭提示', command=lambda: close('acknowledged')).pack(side='left')
+    ttk.Button(buttons, text='打开日志', command=lambda: os.startfile(root / 'logs')).pack(side='left', padx=12)
+    window.protocol('WM_DELETE_WINDOW', lambda: close('acknowledged'))
     user = ctypes.WinDLL('user32', use_last_error=True)
-    user.MessageBoxW.argtypes = [wintypes.HWND, wintypes.LPCWSTR, wintypes.LPCWSTR, wintypes.UINT]
-    user.MessageBoxW.restype = ctypes.c_int
-    record = {'at': now(), 'pid': os.getpid(), 'event_id': event_id, 'title': title,
-              'state': 'opening', 'flags': ['MB_ICONERROR', 'MB_SETFOREGROUND', 'MB_TOPMOST']}
-    write_json(evidence_path, record)
-    finished = threading.Event()
-    def observe_window():
-        callback_type = ctypes.WINFUNCTYPE(wintypes.BOOL, wintypes.HWND, wintypes.LPARAM)
-        user.GetWindowThreadProcessId.argtypes = [wintypes.HWND, ctypes.POINTER(wintypes.DWORD)]
-        user.GetForegroundWindow.restype = wintypes.HWND
-        user.IsWindowVisible.argtypes = [wintypes.HWND]
-        get_style = user.GetWindowLongPtrW
-        get_style.argtypes = [wintypes.HWND, ctypes.c_int]
-        get_style.restype = ctypes.c_ssize_t
-        observed = []
-        def examine(handle, unused):
-            owner = wintypes.DWORD()
-            user.GetWindowThreadProcessId(handle, ctypes.byref(owner))
-            if owner.value == os.getpid() and user.IsWindowVisible(handle):
-                observed.append({'window_id': int(handle), 'visible': True,
-                    'foreground': user.GetForegroundWindow() == handle,
-                    'topmost': bool(get_style(handle, -20) & 0x8)})
-            return True
-        callback = callback_type(examine)
-        user.EnumWindows.argtypes = [callback_type, wintypes.LPARAM]
-        for _ in range(50):
-            if finished.wait(.1):
-                return
-            user.EnumWindows(callback, 0)
-            if observed:
-                record.update(observed[-1])
-                write_json(evidence_path, {**record, 'state': 'visible', 'observed_at': now()})
-                return
-    observer = threading.Thread(target=observe_window, daemon=True)
-    observer.start()
-    result = user.MessageBoxW(None, message, title, 0x10 | 0x10000 | 0x40000)
-    finished.set()
-    observer.join(2)
-    write_json(evidence_path, {**record, 'state': 'acknowledged' if result else 'failed',
-                               'returned_at': now(), 'result': result})
-    if not result:
-        raise ctypes.WinError(ctypes.get_last_error())
+    user.GetAncestor.argtypes = [wintypes.HWND, wintypes.UINT]
+    user.GetAncestor.restype = wintypes.HWND
+    user.GetForegroundWindow.restype = wintypes.HWND
+    user.IsWindowVisible.argtypes = [wintypes.HWND]
+    user.GetWindowLongPtrW.argtypes = [wintypes.HWND, ctypes.c_int]
+    user.GetWindowLongPtrW.restype = ctypes.c_ssize_t
+    def finish_recovery():
+        closing['timer'] = None
+        try:
+            if not alert_conditions(root, report):
+                close('resolved')
+        except (sqlite3.Error, ValueError):
+            pass
+    def refresh():
+        try:
+            active = alert_conditions(root, report)
+        except (sqlite3.Error, ValueError) as exc:
+            active = [{'message': '暂时无法核对恢复状态，告警保留：' + str(exc),
+                       'queue_state': 'attention_required'}]
+        if active:
+            if closing['timer'] is not None:
+                window.after_cancel(closing['timer'])
+                closing['timer'] = None
+            needs_input = any(x.get('queue_state') in ('failed', 'needs_input', 'attention_required') for x in active)
+            heading.set(f'下载已中断，{len(active)} 项错误需要处理' if needs_input else f'{len(active)} 项错误等待处理')
+            label.configure(foreground='#a52222')
+            message = '\n\n'.join(str(x.get('message', 'Unknown error'))[:430] for x in active[-3:])
+            incident = active[-1].get('incident_directory') or report.get('incident_directory') or read_json(root / 'status.json').get('incident_directory')
+            if incident:
+                message += '\n\n排查资料：' + str(incident)
+            detail.set(message)
+            state = 'visible'
+        else:
+            heading.set('已自动恢复，下载继续进行')
+            label.configure(foreground='#187547')
+            detail.set('这些错误对应的项目已恢复。本提示将在 2 秒后自动关闭；历史错误仍保留在日志中。')
+            state = 'resolution_pending'
+            if closing['timer'] is None:
+                closing['timer'] = window.after(2000, finish_recovery)
+        window.update_idletasks()
+        handle = user.GetAncestor(window.winfo_id(), 2)
+        record.update({'title': title, 'window_id': int(handle),
+                       'visible': bool(user.IsWindowVisible(handle)),
+                       'topmost': bool(user.GetWindowLongPtrW(handle, -20) & 0x8),
+                       'foreground': user.GetForegroundWindow() == handle,
+                       'active_error_count': len(active),
+                       'max_event_id_displayed': max([x.get('id', 0) for x in active] or [0])})
+        write_json(evidence_path, {**record, 'state': state, 'observed_at': now()})
+        window.after(500, refresh)
+    window.update_idletasks()
+    window.lift()
+    window.focus_force()
+    window.bell()
+    window.after(100, refresh)
+    window.mainloop()
+    write_json(evidence_path, {**record, 'state': closing['reason'] or 'closed',
+                              'visible': False, 'returned_at': now()})
 
 
 def supervise(root):
@@ -751,6 +1011,7 @@ def supervise(root):
         stdout = root / 'logs' / (run_id + '.stdout.log')
         stderr = root / 'logs' / (run_id + '.stderr.log')
         alert, last_notified, stall_notified = None, 0, False
+        child = None
         try:
             ensure_proxy(root)
             # Store the exact executed source bytes, with no digest computation.
@@ -768,19 +1029,12 @@ def supervise(root):
             while child.poll() is None:
                 write_json(root / 'supervisor.json', {**launch, 'heartbeat_at': now()})
                 status = read_json(root / 'status.json')
-                error = read_json(root / 'latest-error.json')
-                if error.get('run_id') == run_id and error.get('id', 0) > last_notified:
-                    if alert is None or alert.poll() is not None:
-                        alert = spawn(root, 'alert', '--error-path', str(root / 'latest-error.json'))
-                        last_notified = error['id']
+                alert, last_notified = notify_unresolved_error(root, run_id, alert, last_notified)
                 if status.get('run_id') == run_id:
                     stamp = status.get('heartbeat_at', started)
                     age = (dt.datetime.now(dt.timezone.utc) - dt.datetime.fromisoformat(stamp)).total_seconds()
-                    if age > 20 and not stall_notified:
-                        issue = root / 'reports' / (run_id + '.monitor-stale.json')
-                        write_json(issue, {'run_id': run_id, 'message': 'Worker telemetry is stale, but its original process handle is still live. Inspect it before restarting.'})
-                        spawn(root, 'alert', '--error-path', str(issue))
-                        stall_notified = True
+                    if age > 20:
+                        raise RuntimeError('工作进程仍存活，但心跳超过 20 秒未更新；停止下载并保留现场。')
                 time.sleep(1)
             status = read_json(root / 'status.json')
             normal = status.get('run_id') == run_id and status.get('stage') in ('complete', 'paused') and child.returncode == 0
@@ -789,18 +1043,44 @@ def supervise(root):
             write_json(root / 'reports' / (run_id + '.exit.json'), exit_record)
             write_json(root / 'supervisor.json', {**exit_record, 'heartbeat_at': now()})
             if not normal:
-                message = f'下载进程退出，退出码 {child.returncode}。最后状态：{status.get("stage", "unknown")}。'
+                recorded_error = read_json(root / 'latest-error.json')
+                message = f'下载进程已停止，退出码 {child.returncode}。最后状态：{status.get("stage", "unknown")}。'
+                if recorded_error.get('run_id') == run_id:
+                    message += '\n' + recorded_error.get('message', '')
                 if status.get('run_id') != run_id or status.get('running', True):
                     write_json(root / 'status.json', {**status, 'run_id': run_id, 'running': False,
                         'stage': 'attention_required', 'last_error': message, 'heartbeat_at': now()})
                 issue = root / 'reports' / (run_id + '.exit-error.json')
-                write_json(issue, {'run_id': run_id, 'message': message})
+                incident = status.get('incident_directory')
+                if not incident:
+                    incident = str(incident_snapshot(root, {'run_id': run_id,
+                        'failure_kind': 'unexpected_worker_exit', 'message': message,
+                        'worker_pid': child.pid, 'exit_code': child.returncode}))
+                write_json(issue, {'run_id': run_id, 'message': message, 'incident_directory': incident})
                 if alert is None or alert.poll() is not None:
                     spawn(root, 'alert', '--error-path', str(issue))
         except BaseException as exc:
             traceback.print_exc()
+            if child is not None and child.poll() is None:
+                (root / 'stop.request').write_text(now(), encoding='utf-8')
+                try:
+                    child.wait(timeout=50)
+                except subprocess.TimeoutExpired:
+                    child.terminate()
+                    child.wait(timeout=10)
             issue = root / 'reports' / (run_id + '.supervisor-error.json')
-            write_json(issue, {'run_id': run_id, 'message': '下载监控启动或运行失败：' + str(exc)})
+            report = {'run_id': run_id, 'failure_kind': 'supervisor_exception',
+                      'message': '下载监控失败，下载已中断：' + str(exc),
+                      'traceback': traceback.format_exc()}
+            try:
+                report['incident_directory'] = str(incident_snapshot(root, report))
+            except Exception:
+                traceback.print_exc()
+            status = read_json(root / 'status.json')
+            write_json(root / 'status.json', {**status, 'run_id': run_id,
+                'stage': 'attention_required', 'running': False, 'last_error': report['message'],
+                'incident_directory': report.get('incident_directory'), 'heartbeat_at': now()})
+            write_json(issue, report)
             spawn(root, 'alert', '--error-path', str(issue))
             return 2
         return 0
@@ -839,8 +1119,8 @@ def monitor(root):
     with exclusive(root / 'monitor.lock'):
         window = tk.Tk()
         window.title('VIPRPG 本地下载 — 实时进度')
-        window.geometry('820x530')
-        window.minsize(720, 490)
+        window.geometry('820x580')
+        window.minsize(720, 540)
         window.configure(background='#f4f5f7')
         body = ttk.Frame(window, padding=20)
         body.pack(fill='both', expand=True)
@@ -856,8 +1136,9 @@ def monitor(root):
         speed = tk.StringVar()
         ttk.Label(body, textvariable=speed).pack(anchor='w')
         error_text = tk.StringVar()
-        ttk.Label(body, textvariable=error_text, foreground='#a52222', wraplength=760,
-                  justify='left').pack(anchor='w', pady=12)
+        error_label = ttk.Label(body, textvariable=error_text, foreground='#a52222', wraplength=760,
+                                justify='left')
+        error_label.pack(anchor='w', pady=12)
         buttons = ttk.Frame(body)
         buttons.pack(anchor='w', pady=8)
         def pause():
@@ -876,7 +1157,8 @@ def monitor(root):
         names = {'starting': '正在启动', 'reading_page': '读取来源页面', 'source_countdown': '等待源站下载倒计时',
                  'downloading': '正在下载', 'validating': '检查文件长度及压缩包 CRC', 'retry_wait': '等待重试',
                  'rate_limit_wait': '遵循源站限流等待', 'paused': '已暂停', 'complete': '当前队列完成',
-                 'attention_required': '需要处理'}
+                 'collecting_diagnostics': '已中断下载，正在保存排查资料',
+                 'attention_required': '下载已中断，需要处理'}
         def refresh():
             record = read_json(root / 'status.json')
             stage = record.get('stage', 'starting')
@@ -889,14 +1171,25 @@ def monitor(root):
             counts = record.get('counts', {})
             pages = record.get('page_counts', {})
             counters.set(f"已保存 {counts.get('done', 0)} 个文件　/　已发现 {sum(counts.values())} 个候选\n"
-                         f"连续成功 {record.get('consecutive_success', 0)} / 50　　本轮错误 {record.get('run_errors', 0)}\n"
+                         f"连续成功 {record.get('consecutive_success', 0)} / 50　　真正错误 {record.get('run_errors', 0)}\n"
+                         f"自动重试 {record.get('retry_attempts', 0)} 次　　已恢复 {record.get('recovered_retries', 0)} 项\n"
                          f"已保存 {record.get('completed_bytes', 0) / GIB:.2f} GiB　　磁盘空闲 {record.get('free_bytes', 0) / GIB:.1f} GiB\n"
                          f"已列举 {pages.get('done', 0)} 页　　待处理错误 {counts.get('failed', 0) + counts.get('needs_input', 0)} 项")
             active.set(record.get('active_item', '') + '\n' + record.get('active_filename', ''))
             total, done = record.get('file_total', 0), record.get('file_bytes', 0)
             progress['value'] = min(100, done / total * 100) if total else 0
             speed.set(f"当前文件 {done / 1048576:.2f} / {total / 1048576:.2f} MiB　　{record.get('speed_bps', 0) / 1048576:.2f} MiB/s")
-            error_text.set(('最后错误：' + record['last_error'][:300]) if record.get('last_error') else '当前没有错误记录。')
+            try:
+                active_errors = active_error_events(root, record['run_id']) if record.get('run_id') else []
+                if active_errors:
+                    error_text.set(f'当前 {len(active_errors)} 项错误：' + active_errors[-1]['message'][:260])
+                    error_label.configure(foreground='#a52222')
+                else:
+                    error_text.set(f"历史错误 {record.get('run_errors', 0)} 次；当前没有待处理错误。")
+                    error_label.configure(foreground='#187547')
+            except (sqlite3.Error, ValueError):
+                error_text.set('暂时无法读取错误状态；请保留日志并检查监控。')
+                error_label.configure(foreground='#a52222')
             write_json(root / 'reports/monitor.json', {'at': now(), 'pid': os.getpid(), 'window_id': window.winfo_id(),
                 'visible': bool(window.winfo_viewable()), 'run_id': record.get('run_id'), 'displayed_stage': stage,
                 'displayed_done': counts.get('done', 0), 'displayed_streak': record.get('consecutive_success', 0)})
