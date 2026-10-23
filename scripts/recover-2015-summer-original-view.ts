@@ -5,6 +5,7 @@ import iconv from "iconv-lite";
 import { imageExtension, writeJson } from "./recover-entry-table";
 import { readStaticStringArray, replaceStaticArray } from "./source-static-array";
 import { getDictionary } from "../src/lib/i18n";
+import { prepareOriginalBrowser, saveOriginalBrowserSources } from "./source-original-browser";
 
 async function main() {
   const id = "2015-summer", root = `catch/${id}`;
@@ -102,6 +103,8 @@ async function main() {
   const views = JSON.parse(await fs.readFile(manifestPath, "utf8"));
   views[id] = { entry: `/original-pages/${id}/index.html`, status: "available-with-documented-omissions" };
   await writeJson(manifestPath, views);
+  const browser = await prepareOriginalBrowser(id, { base: sourceBase });
+  await saveOriginalBrowserSources({ [id]: browser.sources });
   await writeJson(`${root}/original-view.json`, { festivalId: id, entry: views[id].entry, sourceFiles: ["archive-index", "detail-template", "data", "main_table", "main_ss", "css1"].map((name) => `${root}/investigation/${name}.bin`), copiedAssets: [...copied], generatedPlaceholders, missingResources: missing, changes: ["Text encoding normalized to UTF-8 without changing layout.", "External tracking scripts are not included.", "Restricted entry No.04 retains its list row and detail structure with fixed neutral text and generated image placeholders; original restricted descriptions, media and links are not copied.", "Original scripts execute only inside a sandboxed frame."], desktopReview: "pending" });
   console.log(`Built original view with ${copied.size} local resources; ${missing.length} external or unavailable resources documented.`);
 }

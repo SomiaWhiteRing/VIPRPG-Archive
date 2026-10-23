@@ -1,5 +1,6 @@
 import fs from "node:fs/promises";
 import path from "node:path";
+import { pathToFileURL } from "node:url";
 import * as cheerio from "cheerio";
 import { decodeSource, imageExtension, writeJson } from "./recover-entry-table";
 import { getDictionary } from "../src/lib/i18n";
@@ -8,10 +9,11 @@ import { materializeAtWikiRegions } from './source-atwiki-regions';
 import { rewrite2020Script, snapshot2020Script, root2020Script } from './source-2020-gw-view';
 import { rewriteSummer2012Source } from "./source-2012-summer-view";
 import { repairFrameNavigation } from './recover-frame-navigation';
+import { prepareOriginalBrowser, saveOriginalBrowserSources } from "./source-original-browser";
 
 const staticItchFestivals = new Set(["2023-winter", "2025-gw", "2025-summer", "2026-gw", "2026-summer"]);
 
-const configurations: Record<string, { base: string; entry?: string; manifests: string[]; seeds: Record<string, string>; seedUrls?: Record<string, string>; cgiProfile?: boolean; encoding?: string; encodingOverrides?: Record<string, string>; liveSource?: boolean; disabledLocalLinks?: string[]; externalResources?: Record<string, string>; preserveExternalExtensions?: string[]; frames?: { menuPage: string; menuName: string; mainName: string } }> = {
+export const configurations: Record<string, { base: string; entry?: string; manifests: string[]; seeds: Record<string, string>; seedUrls?: Record<string, string>; cgiProfile?: boolean; encoding?: string; encodingOverrides?: Record<string, string>; liveSource?: boolean; disabledLocalLinks?: string[]; externalResources?: Record<string, string>; preserveExternalExtensions?: string[]; frames?: { menuPage: string; menuName: string; mainName: string } }> = {
   "2026-toppatsu-festival": {
     base: "https://w.atwiki.jp/viprpgtoppatsu/",
     manifests: ["source/replay/manifest.json"],
@@ -1607,7 +1609,9 @@ async function main() {
   views[id] = { entry: `/original-pages/${id}/${config.entry ?? "index.html"}`, status: hasDocumentedOmissions ? "available-with-documented-omissions" : "available" };
   await writeJson(viewsPath, views);
   await writeJson(`${root}/original-view.json`, { festivalId: id, sourceEncoding: encoding, entry: views[id].entry, sourceManifests: config.manifests, sourcePages: config.seeds, files: [...files.keys()], generatedPlaceholders, ...(generatedUnavailablePages.length ? { generatedUnavailablePages } : {}), preloadResources, missingResources: failures, omittedCssResources, omittedBackgrounds, omittedHovers, compatibilityFixes, changes: [`Original HTML and CSS normalized from ${encoding} to UTF-8.`, "Same-site links, CSS resources and absolute script/hover URLs use local paths.", "External hosting trackers removed; unavailable unused preloads replaced with an empty image.", "Original pages are displayed inside a sandboxed frame.", ...(omittedCssResources.length ? ["Unavailable AtWiki CSS images are omitted without replacements and documented from their recorded 403 responses."] : []), ...(omittedBackgrounds.length ? ["Unavailable background references are omitted; the original background colors are retained and missing resources remain documented."] : []), ...(restrictions.length ? ["Restricted entries retain their catalogue row and full detail structure with fixed neutral text and generated placeholders; original restricted descriptions, media and related links are not published."] : []), ...(config.frames ? ["A scoped local message forwards menu clicks to the sibling frame while preserving the original frameset and sandbox isolation."] : [])], desktopReview: "pending" });
+  const browser = await prepareOriginalBrowser(id, config);
+  await saveOriginalBrowserSources({ [id]: browser.sources });
   console.log(`${id}: ${files.size} files; ${failures.length} missing resources.`);
 }
 
-main().catch((error) => { console.error(error); process.exitCode = 1; });
+if (process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.argv[1])).href) main().catch((error) => { console.error(error); process.exitCode = 1; });

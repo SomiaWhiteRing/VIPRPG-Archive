@@ -15,6 +15,7 @@ import Image from "next/image";
 import type { Festival, FestivalColumnKey, WorkListEntry } from "@/lib/types";
 import { useLanguage } from "@/components/language-context";
 import FestivalViewLinks from "@/components/festival-view-links";
+import FestivalSidebar from "@/components/festival-sidebar";
 
 export interface FestivalWithWorks extends Festival {
   works: WorkListEntry[];
@@ -42,8 +43,6 @@ const columnClassMap: Record<FestivalColumnKey, string> = {
 
 const CONTENT_TOP_OFFSET = 166;
 const CONTENT_BOTTOM_OFFSET = 24;
-const OUTLINE_TOP_OFFSET = 44;
-const OUTLINE_BOTTOM_OFFSET = 18;
 const SEARCH_RESULT_BATCH = 50;
 
 function normalize(text?: string): string {
@@ -93,8 +92,6 @@ export default function FestivalBoard({ groups }: FestivalBoardProps) {
   const deferredSearchTerm = useDeferredValue(searchTerm);
   const query = normalize(deferredSearchTerm);
   const [resultLimits, setResultLimits] = useState<Record<string, number>>({});
-  const outlineRef = useRef<HTMLDivElement | null>(null);
-  const outlineLinksRef = useRef<Record<string, HTMLAnchorElement | null>>({});
   const visibleFestivalsRef = useRef(new Set<string>());
   const activeFestivalRef = useRef<string>("");
   const pendingScrollRef = useRef<string>("");
@@ -265,31 +262,6 @@ export default function FestivalBoard({ groups }: FestivalBoardProps) {
     };
   }, [festivalsFlat, views]);
 
-  useEffect(() => {
-    const container = outlineRef.current;
-    const activeLink = outlineLinksRef.current[activeFestival];
-
-    if (!container || !activeLink) {
-      return;
-    }
-
-    const containerRect = container.getBoundingClientRect();
-    const linkRect = activeLink.getBoundingClientRect();
-
-    const linkTop = linkRect.top - containerRect.top + container.scrollTop;
-    const linkBottom = linkRect.bottom - containerRect.top + container.scrollTop;
-    const visibleTop = container.scrollTop + OUTLINE_TOP_OFFSET;
-    const visibleBottom = container.scrollTop + container.clientHeight - OUTLINE_BOTTOM_OFFSET;
-
-    if (linkTop < visibleTop) {
-      const target = Math.max(linkTop - OUTLINE_TOP_OFFSET, 0);
-      container.scrollTo({ top: target, behavior: "smooth" });
-    } else if (linkBottom > visibleBottom) {
-      const target = Math.max(linkBottom - container.clientHeight + OUTLINE_BOTTOM_OFFSET, 0);
-      container.scrollTo({ top: target, behavior: "smooth" });
-    }
-  }, [activeFestival]);
-
   const handleOutlineClick = useCallback(
     (event: React.MouseEvent<HTMLAnchorElement>, slug: string) => {
       if (
@@ -336,37 +308,7 @@ export default function FestivalBoard({ groups }: FestivalBoardProps) {
 
   return (
     <div className="board-layout">
-      <aside ref={outlineRef} className="board-outline" aria-label="Festivals outline">
-        {groups.map((group) => (
-          <div key={group.year} className="outline-year">
-            <p className="outline-year-label">{group.year}</p>
-            <ul className="outline-festival-list">
-              {group.festivals.map((festival) => (
-                <li key={festival.id}>
-                  <a
-                    href={`#${festival.slug}`}
-                    className={
-                      activeFestival === festival.slug
-                        ? "outline-link active"
-                        : "outline-link"
-                    }
-                    ref={(element) => {
-                      if (!element) {
-                        delete outlineLinksRef.current[festival.slug];
-                        return;
-                      }
-                      outlineLinksRef.current[festival.slug] = element;
-                    }}
-                    onClick={(event) => handleOutlineClick(event, festival.slug)}
-                  >
-                    {festival.name}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
-      </aside>
+      <FestivalSidebar groups={groups} activeFestival={activeFestival} onNavigate={handleOutlineClick} />
 
       <div className="board-content">
         <div className="board-search-spacer">
